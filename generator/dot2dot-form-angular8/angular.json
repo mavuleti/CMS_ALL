@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "dot2dot-form": {
+    "dot-to-dot-cms": {
       "projectType": "application",
       "root": "",
       "sourceRoot": "src",
@@ -12,7 +12,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/dot2dot-form",
+            "outputPath": "dist/dot-to-dot-cms",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -36,11 +36,11 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "dot2dot-form:build"
+            "browserTarget": "dot-to-dot-cms:build"
           }
         }
       }
     }
   },
-  "defaultProject": "dot2dot-form"
+  "defaultProject": "dot-to-dot-cms"
 }
