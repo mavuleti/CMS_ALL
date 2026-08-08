@@ -334,10 +334,29 @@
     <!-- ACTIONS                                                       -->
     <!-- ============================================================ -->
     <div class="actions">
+      <button type="button" class="btn-save" data-testid="save-draft-btn" (click)="saveDraft()">Save Draft</button>
+      <button type="button" class="btn-validate" data-testid="validate-btn" (click)="validateForm()">Validate Form</button>
       <button type="submit" class="btn-primary" data-testid="generate-btn">Generate JSON</button>
       <button type="button" class="btn-secondary" data-testid="reset-btn" (click)="resetForm()">Reset Form</button>
-      <span class="form-status" data-testid="form-status" *ngIf="submitted && form.invalid">⚠ Please fix the highlighted fields above.</span>
+      <span
+        class="form-status"
+        [class.valid]="validationResult === 'valid'"
+        data-testid="form-status"
+        role="status"
+        aria-live="polite"
+        *ngIf="validationResult">
+        <ng-container *ngIf="validationResult === 'valid'">✓ Form data is valid.</ng-container>
+        <ng-container *ngIf="validationResult === 'invalid'">⚠ {{ invalidFieldCount }} invalid {{ invalidFieldCount === 1 ? 'field' : 'fields' }}. Please fix the highlighted fields.</ng-container>
+      </span>
     </div>
+    <section class="validation-summary" data-testid="validation-summary" *ngIf="validationIssues.length" aria-label="Validation issues">
+      <h3>Validation issues</h3>
+      <ol>
+        <li *ngFor="let issue of validationIssues">
+          <button type="button" (click)="focusIssue(issue.path)"><code>{{ issue.path }}</code> — {{ issue.message }}</button>
+        </li>
+      </ol>
+    </section>
   </form>
 
   <!-- ============================================================ -->
@@ -389,7 +408,7 @@
             </div>
           </div>
 
-          <p class="pv-outro" [innerHTML]="form.value.body.dot_guide.outro"></p>
+          <p class="pv-outro" [innerHTML]="safePreviewHtml(form.value.body.dot_guide.outro)"></p>
 
           <div class="pv-colorschemes" *ngIf="form.value.body.dot_guide.color_schemes?.length">
             <h3>Color scheme ideas</h3>

@@ -78,7 +78,7 @@ input.ng-invalid.ng-touched, textarea.ng-invalid.ng-touched {
   margin-bottom: 8px;
 }
 
-.btn-add, .btn-remove, .btn-primary, .btn-secondary {
+.btn-add, .btn-remove, .btn-primary, .btn-secondary, .btn-validate, .btn-save {
   cursor: pointer;
   border-radius: 6px;
   border: none;
@@ -90,10 +90,18 @@ input.ng-invalid.ng-touched, textarea.ng-invalid.ng-touched {
 .btn-add.small { padding: 4px 10px; font-size: 0.8rem; }
 .btn-remove { background: #fdecec; color: #d33; border: 1px solid #f6c9c9; }
 .btn-primary { background: #4a6fd6; color: #fff; padding: 10px 20px; font-weight: 600; }
+.btn-save { background: #8154b8; color: #fff; padding: 10px 20px; font-weight: 600; }
+.btn-validate { background: #16744a; color: #fff; padding: 10px 20px; font-weight: 600; }
 .btn-secondary { background: #eee; color: #333; padding: 10px 20px; margin-left: 10px; }
 
-.actions { display: flex; align-items: center; margin-top: 10px; }
+.actions { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin-top: 10px; }
+.actions .btn-secondary { margin-left: 0; }
 .form-status { margin-left: 16px; color: #d33; font-weight: 600; }
+.form-status.valid { color: #16744a; }
+.validation-summary { margin-top: 12px; padding: 10px 14px; border: 1px solid #e4b4b0; border-radius: 6px; background: #fff7f6; }
+.validation-summary h3 { margin: 0 0 6px; font-size: 0.9rem; color: #9d231c; }
+.validation-summary ol { margin: 0; padding-left: 22px; }
+.validation-summary button { border: 0; background: none; color: #7b1c17; cursor: pointer; text-align: left; padding: 3px 0; }
 
 .tabs {
   display: flex;

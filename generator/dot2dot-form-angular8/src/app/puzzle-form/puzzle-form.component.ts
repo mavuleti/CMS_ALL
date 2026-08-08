@@ -1,26 +1,47 @@
-import { Component, OnInit } from '@angular/core';
-import { FormArray, FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { Component, EventEmitter, HostListener, OnInit, Output, SecurityContext } from '@angular/core';
+import { AbstractControl, FormArray, FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { FIELD_RULES } from '../models/field-rules';
 import { FIELD_TIPS } from '../models/field-tips';
 import { dotRangeValidator, hexColorValidator, slugFormatValidator } from '../validators/custom-validators';
 import { PuzzleEntry } from '../models/puzzle-entry.model';
+import { CommonModule } from '@angular/common';
+import { ReactiveFormsModule } from '@angular/forms';
+import { DomSanitizer } from '@angular/platform-browser';
+
+export type EntryStatus = 'draft' | 'validated' | 'submitted';
+
+export interface VersionSnapshot {
+  status: EntryStatus;
+  data: any;
+}
+
+interface ValidationIssue {
+  path: string;
+  message: string;
+}
 
 @Component({
   selector: 'app-puzzle-form',
+  standalone: true,
+  imports: [CommonModule, ReactiveFormsModule],
   templateUrl: './puzzle-form.component.html',
   styleUrls: ['./puzzle-form.component.scss']
 })
 export class PuzzleFormComponent implements OnInit {
+  @Output() versionSaved = new EventEmitter<VersionSnapshot>();
 
   rules = FIELD_RULES;
   tips = FIELD_TIPS;
   form: FormGroup;
   generatedJson: string = null;
   submitted = false;
+  validationResult: 'valid' | 'invalid' = null;
+  invalidFieldCount = 0;
+  validationIssues: ValidationIssue[] = [];
   importError: string = null;
   activeTab: 'form' | 'preview' = 'form';
 
-  constructor(private fb: FormBuilder) {}
+  constructor(private fb: FormBuilder, private sanitizer: DomSanitizer) {}
 
   ngOnInit(): void {
     this.form = this.buildForm();
@@ -156,27 +177,155 @@ export class PuzzleFormComponent implements OnInit {
   // -------------------------------------------------------------------
 
   onGenerate(): void {
-    this.submitted = true;
-
-    if (this.form.invalid) {
-      this.form.markAllAsTouched();
+    if (!this.validateForm(false)) {
       this.generatedJson = null;
-      // scroll to first invalid field
-      const firstInvalid = document.querySelector('.ng-invalid[formControlName], .ng-invalid[formGroupName]');
-      if (firstInvalid) {
-        (firstInvalid as HTMLElement).scrollIntoView({ behavior: 'smooth', block: 'center' });
-      }
       return;
     }
 
-    const entry: PuzzleEntry = this.form.value;
+    const entry = this.snapshotWithStatus('submitted');
     this.generatedJson = JSON.stringify(entry, null, 2);
+    this.versionSaved.emit({ status: 'submitted', data: entry });
+  }
+
+  validateForm(saveVersion = true): boolean {
+    this.submitted = true;
+    this.form.updateValueAndValidity();
+    this.validationIssues = this.collectControlIssues(this.form).concat(this.collectCrossFieldIssues());
+    this.invalidFieldCount = this.validationIssues.length;
+    this.validationResult = this.invalidFieldCount ? 'invalid' : 'valid';
+
+    if (this.invalidFieldCount) {
+      this.form.markAllAsTouched();
+      const firstInvalid = document.querySelector('.ng-invalid[formControlName]');
+      if (firstInvalid) {
+        (firstInvalid as HTMLElement).scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }
+      return false;
+    }
+    if (saveVersion) {
+      this.versionSaved.emit({ status: 'validated', data: this.snapshotWithStatus('validated') });
+    }
+    return true;
+  }
+
+  saveDraft(): void {
+    this.versionSaved.emit({ status: 'draft', data: this.snapshotWithStatus('draft') });
+  }
+
+  private snapshotWithStatus(status: EntryStatus): any {
+    return {
+      ...this.form.getRawValue(),
+      _cms: { status, savedAt: new Date().toISOString() }
+    };
+  }
+
+  hasUnsavedChanges(): boolean {
+    return Boolean(this.form && this.form.dirty);
+  }
+
+  markSaved(snapshot?: any): void {
+    if (!snapshot || JSON.stringify(this.form.getRawValue()) === JSON.stringify(this.withoutCms(snapshot))) {
+      this.form.markAsPristine();
+    }
+  }
+
+  private withoutCms(snapshot: any): any {
+    const clean = JSON.parse(JSON.stringify(snapshot || {}));
+    delete clean._cms;
+    delete clean.status;
+    return clean;
+  }
+
+  safePreviewHtml(html: string): string {
+    return this.sanitizer.sanitize(SecurityContext.HTML, html || '') || '';
+  }
+
+  @HostListener('window:beforeunload', ['$event'])
+  warnBeforeUnload(event: BeforeUnloadEvent): void {
+    if (this.hasUnsavedChanges()) {
+      event.preventDefault();
+      event.returnValue = '';
+    }
+  }
+
+  private countInvalidFields(control: AbstractControl): number {
+    if (control instanceof FormGroup || control instanceof FormArray) {
+      return Object.keys(control.controls)
+        .reduce((count, key) => count + this.countInvalidFields(control.controls[key]), 0);
+    }
+    return control.invalid ? 1 : 0;
+  }
+
+  focusIssue(path: string): void {
+    const controlName = path.split('.').pop().replace(/\[\d+\]/g, '');
+    const element = document.querySelector(`[formControlName="${controlName}"]`) as HTMLElement;
+    if (element) {
+      element.focus();
+      element.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }
+  }
+
+  private collectControlIssues(control: AbstractControl, path = ''): ValidationIssue[] {
+    if (control instanceof FormGroup) {
+      return Object.keys(control.controls).reduce((issues, key) =>
+        issues.concat(this.collectControlIssues(control.controls[key], path ? `${path}.${key}` : key)), [] as ValidationIssue[]);
+    }
+    if (control instanceof FormArray) {
+      return control.controls.reduce((issues, child, index) =>
+        issues.concat(this.collectControlIssues(child, `${path}[${index}]`)), [] as ValidationIssue[]);
+    }
+    if (!control.invalid) { return []; }
+    const rules = Object.keys(control.errors || {}).join(', ');
+    return [{ path, message: rules ? `Fails: ${rules}` : 'Invalid value' }];
+  }
+
+  private collectCrossFieldIssues(): ValidationIssue[] {
+    const value = this.form.getRawValue();
+    const issues: ValidationIssue[] = [];
+    if (value.header.json_ld.name !== value.body.name) {
+      issues.push({ path: 'header.json_ld.name', message: 'Must match body.name.' });
+    }
+
+    const sectionRanges = (value.body.dot_guide.sections || []).map(section => this.parseRange(section.range));
+    sectionRanges.forEach((range, index) => {
+      if (index && range && sectionRanges[index - 1] && range[0] !== sectionRanges[index - 1][1] + 1) {
+        issues.push({ path: `body.dot_guide.sections[${index}].range`, message: 'Ranges must be continuous and non-overlapping.' });
+      }
+    });
+    const validRanges = new Set((value.body.dot_guide.sections || []).map(section => section.range));
+    (value.body.dot_guide.color_schemes || []).forEach((scheme, schemeIndex) => {
+      (scheme.mapping || []).forEach((mapping, mappingIndex) => {
+        if (mapping.range && !validRanges.has(mapping.range)) {
+          issues.push({ path: `body.dot_guide.color_schemes[${schemeIndex}].mapping[${mappingIndex}].range`, message: 'Must match a dot-guide section range.' });
+        }
+      });
+    });
+
+    const titleCounts = [value.header.title, value.body.h1, value.body.description]
+      .map(text => this.firstNumber(text)).filter(count => count !== null);
+    if (titleCounts.length > 1 && titleCounts.some(count => count !== titleCounts[0])) {
+      issues.push({ path: 'header.title', message: 'Dot counts disagree across title, H1, or description.' });
+    }
+    return issues;
+  }
+
+  private parseRange(value: string): [number, number] | null {
+    const match = String(value || '').match(/^(\d+)\s*[–-]\s*(\d+)$/);
+    return match ? [Number(match[1]), Number(match[2])] : null;
+  }
+
+  private firstNumber(value: string): number | null {
+    const match = String(value || '').match(/\b(\d{2,3})\b/);
+    return match ? Number(match[1]) : null;
   }
 
   downloadJson(): void {
     if (!this.generatedJson) { return; }
     const slug = this.form.get('slug').value || 'puzzle-entry';
-    const blob = new Blob([this.generatedJson], { type: 'application/json' });
+    const productionEntry = JSON.parse(this.generatedJson);
+    delete productionEntry._cms;
+    delete productionEntry.status;
+    const blob = new Blob([JSON.stringify(productionEntry, null, 2)], { type: 'application/json' });
     const url = window.URL.createObjectURL(blob);
     const a = document.createElement('a');
     a.href = url;
@@ -189,7 +338,11 @@ export class PuzzleFormComponent implements OnInit {
     this.form = this.buildForm();
     this.generatedJson = null;
     this.submitted = false;
+    this.validationResult = null;
+    this.invalidFieldCount = 0;
+    this.validationIssues = [];
     this.importError = null;
+    this.form.markAsPristine();
   }
 
   // -------------------------------------------------------------------
@@ -220,6 +373,12 @@ export class PuzzleFormComponent implements OnInit {
       this.importError = 'Could not parse JSON — check the file/paste is valid.';
       return;
     }
+    this.loadImportedJson(parsed);
+  }
+
+  /** Shared population pipeline used by file, paste, and sidebar imports. */
+  loadImportedJson(parsed: any): void {
+    this.importError = null;
     const raw = Array.isArray(parsed) ? parsed[0] : parsed;
     if (!raw) {
       this.importError = 'No entry found to import.';
@@ -229,6 +388,10 @@ export class PuzzleFormComponent implements OnInit {
     this.patchFormWithEntry(entry);
     this.generatedJson = null;
     this.submitted = false;
+    this.validationResult = null;
+    this.invalidFieldCount = 0;
+    this.validationIssues = [];
+    this.form.markAsPristine();
   }
 
   /** Converts the legacy flat schema to header/body shape if needed. */
