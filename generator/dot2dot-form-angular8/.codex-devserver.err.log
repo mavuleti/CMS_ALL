@@ -1,0 +1,71 @@
+[1m[31m****************************************************************************************
+This is a simple server for use in testing or debugging Angular applications locally.
+It hasn't been reviewed for security issues.
+
+DON'T USE IT FOR PRODUCTION!
+****************************************************************************************[39m[22m
+- Generating browser application bundles (phase: setup)...
+[32m√[39m Browser application bundle generation complete.
+[32m√[39m Browser application bundle generation complete.
+[32m√[39m Browser application bundle generation complete.
+[32m√[39m Browser application bundle generation complete.
+[32m√[39m Browser application bundle generation complete.
+[32m√[39m Browser application bundle generation complete.
+[32m√[39m Browser application bundle generation complete.
+[32m√[39m Browser application bundle generation complete.
+[32m√[39m Browser application bundle generation complete.
+[32m√[39m Browser application bundle generation complete.
+[1m[31m
+Error: [96msrc/app/puzzle-form/puzzle-form.component.ts[0m:[93m346[0m:[93m19[0m - [91merror[0m[90m TS2345: [0mArgument of type '{ path: string; message: string; }' is not assignable to parameter of type 'ValidationIssue'.
+  Property 'severity' is missing in type '{ path: string; message: string; }' but required in type 'ValidationIssue'.
+
+[7m346[0m       issues.push({ path: 'header.json_ld.name', message: 'Must match body.name.' });
+[7m   [0m [91m                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/app/puzzle-form/puzzle-form.component.ts[0m:[93m23[0m:[93m3[0m
+    [7m23[0m   severity: 'error' | 'warning';
+    [7m  [0m [96m  ~~~~~~~~[0m
+    'severity' is declared here.
+
+
+Error: [96msrc/app/puzzle-form/puzzle-form.component.ts[0m:[93m352[0m:[93m21[0m - [91merror[0m[90m TS2345: [0mArgument of type '{ path: string; message: string; }' is not assignable to parameter of type 'ValidationIssue'.
+  Property 'severity' is missing in type '{ path: string; message: string; }' but required in type 'ValidationIssue'.
+
+[7m352[0m         issues.push({ path: `body.dot_guide.sections[${index}].range`, message: 'Ranges must be continuous and non-overlapping.' });
+[7m   [0m [91m                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/app/puzzle-form/puzzle-form.component.ts[0m:[93m23[0m:[93m3[0m
+    [7m23[0m   severity: 'error' | 'warning';
+    [7m  [0m [96m  ~~~~~~~~[0m
+    'severity' is declared here.
+
+
+Error: [96msrc/app/puzzle-form/puzzle-form.component.ts[0m:[93m359[0m:[93m23[0m - [91merror[0m[90m TS2345: [0mArgument of type '{ path: string; message: string; }' is not assignable to parameter of type 'ValidationIssue'.
+  Property 'severity' is missing in type '{ path: string; message: string; }' but required in type 'ValidationIssue'.
+
+[7m359[0m           issues.push({ path: `body.dot_guide.color_schemes[${schemeIndex}].mapping[${mappingIndex}].range`, message: 'Must match a dot-guide section range.' });
+[7m   [0m [91m                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/app/puzzle-form/puzzle-form.component.ts[0m:[93m23[0m:[93m3[0m
+    [7m23[0m   severity: 'error' | 'warning';
+    [7m  [0m [96m  ~~~~~~~~[0m
+    'severity' is declared here.
+
+
+Error: [96msrc/app/puzzle-form/puzzle-form.component.ts[0m:[93m367[0m:[93m19[0m - [91merror[0m[90m TS2345: [0mArgument of type '{ path: string; message: string; }' is not assignable to parameter of type 'ValidationIssue'.
+  Property 'severity' is missing in type '{ path: string; message: string; }' but required in type 'ValidationIssue'.
+
+[7m367[0m       issues.push({ path: 'header.title', message: 'Dot counts disagree across title, H1, or description.' });
+[7m   [0m [91m                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/app/puzzle-form/puzzle-form.component.ts[0m:[93m23[0m:[93m3[0m
+    [7m23[0m   severity: 'error' | 'warning';
+    [7m  [0m [96m  ~~~~~~~~[0m
+    'severity' is declared here.
+
+
+[39m[22m
+[32m√[39m Browser application bundle generation complete.
+[32m√[39m Browser application bundle generation complete.
+[32m√[39m Browser application bundle generation complete.
+[32m√[39m Browser application bundle generation complete.

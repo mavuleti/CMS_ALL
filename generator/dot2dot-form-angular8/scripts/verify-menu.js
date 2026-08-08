@@ -24,7 +24,7 @@ const url = process.argv[2] || 'http://localhost:4300';
   // Tree renders with categories collapsed initially
   await page.waitForSelector('[data-testid="menu-tree"]');
   const localeOptions = await page.locator('[data-testid="menu-lang-select"] option').count();
-  assert.equal(localeOptions, 31, 'language selector should mirror production routing');
+  assert.equal(localeOptions, 33, 'language selector should include every copied content language');
   const cuteCategoryBtn = page.locator('[data-testid="menu-category-cute"]');
   console.log('cute category visible:', await cuteCategoryBtn.isVisible());
   assert.equal(await cuteCategoryBtn.isVisible(), true);

@@ -1,5 +1,7 @@
 node_modules/
 dist/
+__pycache__/
+*.py[cod]
 *.zip
 .angular/
 generator/dot2dot-form-angular8/scripts/*.png

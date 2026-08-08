@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "scripts": {
     "ng": "ng",
-    "assets:menu": "python ../tools/build_menu_assets.py ../../../dot-to-dot-web/content src/assets/content",
+    "assets:menu": "python ../tools/build_menu_assets.py ../../content src/assets/content",
+    "schema:preview": "python ../tools/migrate_legacy_schema.py ../../content --dry-run",
+    "schema:convert": "python ../tools/migrate_legacy_schema.py ../../content",
     "prestart": "npm run assets:menu",
     "start": "ng serve",
     "prebuild": "npm run assets:menu",

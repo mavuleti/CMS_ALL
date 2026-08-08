@@ -53,7 +53,7 @@ function stripExemptTokens(text: string): string {
  * `getLang` is a callback so the validator can read a live form value
  * (e.g. a sibling "language" dropdown control) at validation time.
  */
-export function languageScriptValidator(getLang: () => 'en' | 'ar'): ValidatorFn {
+export function languageScriptValidator(getLang: () => string): ValidatorFn {
   return (control: AbstractControl): ValidationErrors | null => {
     if (!control.value) {
       return null;
@@ -63,8 +63,8 @@ export function languageScriptValidator(getLang: () => 'en' | 'ar'): ValidatorFn
       return null;
     }
     const lang = getLang();
-    if (lang === 'ar' && LATIN_CHAR_RE.test(stripped)) {
-      return { languageScript: 'Arabic content selected — remove English text (URLs/emails are fine).' };
+    if (['ar', 'fa', 'ur'].includes(lang) && LATIN_CHAR_RE.test(stripped)) {
+      return { languageScript: 'Arabic-script content selected — remove Latin-script text (URLs/emails are fine).' };
     }
     if (lang === 'en' && ARABIC_CHAR_RE.test(stripped)) {
       return { languageScript: 'English content selected — remove Arabic text.' };

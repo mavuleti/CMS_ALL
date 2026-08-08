@@ -1,0 +1,736 @@
+{
+  "nav": {
+    "kids": "Kinder",
+    "teachers": "Lehrkräfte",
+    "parents": "Eltern",
+    "contact": "Kontakt",
+    "blog": "Blog",
+    "search": "Suchen",
+    "freePack": "Kostenloses Paket",
+    "scanMe": "Scannen Sie mich"
+  },
+  "hero": {
+    "badge": "100 % kostenlos · kein Konto erforderlich",
+    "h1": "Kostenlose Zahlenbilder (Punkte verbinden) für Kinder — Von Punkt zu Punkt Vorlagen zum Ausdrucken",
+    "description": "Lade Hunderte kostenlose Punkt-zu-Punkt-Arbeitsblätter für Vorschule, Kindergarten und Klassen 1–6 herunter und drucke sie aus. Tiere, Dinosaurier, Fahrzeuge, Feiertagsthemen und mehr — in Sekunden bereit, ohne Anmeldung.",
+    "browsePuzzles": "Kostenlose Rätsel ansehen",
+    "starterPack": "20-Rätsel-Starterpaket erhalten",
+    "stat1Value": "Geprüfte",
+    "stat1Label": "kostenlose druckbare Rätsel",
+    "stat2Value": "Alter 2–12",
+    "stat2Label": "alle Schwierigkeitsstufen",
+    "stat3Value": "100%",
+    "stat3Label": "kostenlos, für immer"
+  },
+  "audience": {
+    "kidsTitle": "Für Kinder",
+    "kidsText": "Freundliche Tier-, Dinosaurier- und Fahrzeugmotive mit klar nummerierten Punkten. Einfache Erfolgserlebnisse, die echtes Selbstvertrauen aufbauen.",
+    "parentsTitle": "Für Eltern",
+    "parentsText": "Bildschirmfreie Ruhezeit-Aktivitäten für zu Hause, Reisen und Restaurants. Von jedem Gerät in unter einer Minute drucken.",
+    "teachersTitle": "Für Lehrkräfte",
+    "teachersText": "Punkt-zu-Punkt-Vorlagen mit wenig Vorbereitung für Morgenarbeit, schnelle Kinder, Vertretungsstunden und Lernstationen — keine Vorbereitung nötig."
+  },
+  "categories": {
+    "eyebrow": "Nach Thema und Schwierigkeitsgrad sortiert",
+    "heading": "Punkt-zu-Punkt-Rätsel nach Kategorie durchsuchen",
+    "description": "Von einfachen Zahlenbildern mit 10 Punkten für Kleinkinder und Vorschule bis zu 200-Punkte-Herausforderungen für ältere Kinder — nach Kategorie sortiert, damit du die passende kostenlose Druckvorlage in Sekunden findest.",
+    "puzzles": "{count, plural, one {# Rätsel} other {# Rätsel}}",
+    "comingSoon": "Demnächst",
+    "badges": {
+      "dinosaurs": "Jetzt verfügbar!",
+      "ocean": "Jetzt verfügbar!",
+      "playgrounds": "Jetzt verfügbar!",
+      "garden": "Jetzt verfügbar!",
+      "usa250": "Neu!",
+      "uae": "Jetzt verfügbar!",
+      "cute": "Neu!",
+      "circus": "Neu!"
+    },
+    "items": {
+      "dinosaurs": {
+        "name": "Dinosaurier",
+        "description": "Auf ins prähistorische Abenteuer! T-Rex, Triceratops, Velociraptor und {count} kostenlose Punkt-zu-Punkt-Rätsel, die Kinder lieben werden."
+      },
+      "animals": {
+        "name": "Tiere",
+        "description": "Freundliche Tiere zum Punkte verbinden und Ausmalen — perfekt zum frühen Zahlenüben."
+      },
+      "vehicles": {
+        "name": "Fahrzeuge",
+        "description": "Autos, Lastwagen, Raketen und Maschinen."
+      },
+      "fantasy": {
+        "name": "Fantasie",
+        "description": "Burgen, Einhörner, Drachen und Geschichtenimpulse."
+      },
+      "seasonal": {
+        "name": "Jahreszeiten",
+        "description": "Feiertags- und Kalenderaktivitäten für den Unterricht."
+      },
+      "ocean": {
+        "name": "Ozean",
+        "description": "Meerestiere und ruhige Ausmalbilder."
+      },
+      "playgrounds": {
+        "name": "Spielplätze",
+        "description": "Schaukeln, Rutschen und Spaß im Freien für kleine Abenteurer."
+      },
+      "garden": {
+        "name": "Garten",
+        "description": "Handschuhe, Kellen und Werkzeuge für kleine Gartenhelfer."
+      },
+      "usa250": {
+        "name": "America 250 Jahre",
+        "description": "Feiere Amerikas 250. Geburtstag mit patriotischen Punkt-zu-Punkt-Rätseln zur amerikanischen Geschichte."
+      },
+      "uae": {
+        "name": "VAE",
+        "description": "Entdecke die Vereinigten Arabischen Emirate! Berühmte Wahrzeichen wie der Burj Al Arab, bereit zum Verbinden und Ausmalen."
+      },
+      "space": {
+        "name": "Weltraum",
+        "description": "Planeten, Astronauten und Raketenabenteuer."
+      },
+      "worksheets": {
+        "name": "Arbeitsblätter",
+        "description": "Zahlenfolgen-Blätter, bereit für Lehrkräfte."
+      },
+      "bigDotBooks": {
+        "name": "Große Punktbücher",
+        "description": "Lange Rätsel für konzentrierte ältere Lernende."
+      },
+      "cute": {
+        "name": "Niedlich",
+        "description": "Niedliche Welpen, kleine Autos und {count} bezaubernde kostenlose Punkt-zu-Punkt-Rätsel, die Ihre Kinder lieben werden."
+      },
+      "circus": {
+        "name": "Zirkus",
+        "description": "Ringmeister, große Zelte und Showspaß für junge Lernende."
+      }
+    }
+  },
+  "puzzleSection": {
+    "eyebrow": "Kostenlose Druckbeispiele — keine Anmeldung",
+    "heading": "Beliebte Zahlen-verbinden-Blätter zum sofortigen Drucken",
+    "weeklyPack": "Wöchentliches Paket ansehen →",
+    "downloadLink": "Kostenlose Druckvorlage herunterladen",
+    "new": "Neu",
+    "imageAlt": "{name} kostenloses Punkt-zu-Punkt-Arbeitsblatt zum Ausdrucken für {age}",
+    "categories": {
+      "Dinosaurs": "Dinosaurier",
+      "Ocean": "Ozean",
+      "Playgrounds": "Spielplätze",
+      "Garden": "Garten",
+      "Cute": "Niedlich",
+      "USA 250 Years": "America 250 Jahre",
+      "UAE": "VAE"
+    },
+    "items": {
+      "trex-61-dot-to-dot-puzzle": {
+        "name": "T-Rex 61-Punkte-Herausforderung"
+      },
+      "brontosaurus-dot-to-dot-puzzle": {
+        "name": "Brontosaurus"
+      },
+      "mermaid-dot-to-dot-puzzle": {
+        "name": "Meerjungfrau"
+      },
+      "merman-dot-to-dot-puzzle": {
+        "name": "Meermann"
+      },
+      "seahorse-dot-to-dot-puzzle": {
+        "name": "Seepferdchen"
+      },
+      "whale-dot-to-dot-puzzle": {
+        "name": "Wal"
+      },
+      "swing-playgrounds-dot-to-dot-puzzle": {
+        "name": "Schaukelplatz"
+      },
+      "slide-playgrounds-dot-to-dot-puzzle": {
+        "name": "Spielplatz-Rutsche"
+      },
+      "seesaw-playground-dot-to-dot-puzzle": {
+        "name": "Spielplatz-Wippe"
+      },
+      "roller-coaster-playground-dot-to-dot-puzzle": {
+        "name": "Achterbahn-Spielplatz"
+      },
+      "wheelbarrow-playground-dot-to-dot-puzzle": {
+        "name": "Schubkarren-Spielplatz"
+      },
+      "garden-gloves-dot-to-dot-puzzle": {
+        "name": "Gartenhandschuhe"
+      },
+      "garden-trowel-dot-to-dot-puzzle": {
+        "name": "Gartenkelle"
+      },
+      "gas-balloon-usa-250-dot-to-dot-puzzle": {
+        "name": "Gasballon America 250"
+      },
+      "america-250-birthday-fireworks-dot-to-dot-puzzle": {
+        "name": "Feuerwerk zum 250. Geburtstag Amerikas"
+      },
+      "america-250-anniversary-liberty-bell-wings-1776-dot-to-dot-puzzle": {
+        "name": "America 250 – Die Flügel der Liberty Bell"
+      },
+      "usa-250-astronaut-dot-to-dot-puzzle": {
+        "name": "Amerika 250 Astronaut"
+      },
+      "usa-250-anniversary-sports-kids-podium-dot-to-dot-puzzle": {
+        "name": "America 250-Jahr-Jubiläum – Sport-Kinder-Podium"
+      },
+      "usa-250-anniversary-airplane-banner-dot-to-dot-puzzle": {
+        "name": "Flugzeugbanner zum 250-jährigen Jubiläum der USA"
+      },
+      "usa-250-space-shuttle-dot-to-dot-puzzle": {
+        "name": "America 250 Spaceshuttle"
+      },
+      "usa-250-birthday-balloons-stars-dot-to-dot-puzzle": {
+        "name": "America 250 – Geburtstagsballons und Sterne"
+      },
+      "usa-250-birthday-cake-dot-to-dot-puzzle": {
+        "name": "America 250 Geburtstagstorte"
+      },
+      "america-250-anniversary-eagle-banner-dot-to-dot-puzzle": {
+        "name": "„America 250“-Adlerbanner"
+      },
+      "burj-al-arab-dot-to-dot-puzzle": {
+        "name": "Burdsch Al Arab"
+      },
+      "dallah-coffee-pot-dot-to-dot-puzzle": {
+        "name": "Dallah-Kaffeekanne"
+      }
+    }
+  },
+  "benefits": {
+    "eyebrow": "Unterstützt von Fachkräften der frühen Bildung",
+    "heading": "Warum Punkt-zu-Punkt-Arbeitsblätter gut für die kindliche Entwicklung sind",
+    "description": "Punkt-zu-Punkt-Druckvorlagen machen nicht nur Spaß — sie sind ein forschungsbasiertes Werkzeug, das Vorschul- und Kindergartenlehrkräfte nutzen, um zentrale frühe Lernfähigkeiten aufzubauen.",
+    "fineMotorTitle": "Fördert die Feinmotorik",
+    "fineMotorText": "Das Zeichnen von Linien zwischen Punkten wirkt wie eine kleine Schwungübung: Es entwickelt Stifthaltung, Hand-Auge-Koordination und die Muskelkontrolle, die Kinder fürs Schreiben brauchen.",
+    "numberTitle": "Stärkt die Zahlenerkennung",
+    "numberText": "Das Folgen der Punkte 1 → 2 → 3 in Reihenfolge vermittelt Zählordnung, Zahlenerkennung und frühe mathematische Konzepte ganz natürlich im Spiel.",
+    "focusTitle": "Verbessert Fokus und Konzentration",
+    "focusText": "Ein Punkt-zu-Punkt-Rätsel fertigzustellen erfordert anhaltende Aufmerksamkeit — eine ruhige, bildschirmfreie Möglichkeit, Fokus von der Vorschule bis Klasse 3 zu üben.",
+    "confidenceTitle": "Sofortige Belohnung und Selbstvertrauen",
+    "confidenceText": "Wenn das versteckte Bild erscheint, erleben Kinder sofort ein Erfolgserlebnis. Dieser kleine Sieg stärkt die Freude am Lernen und eine Wachstumsmentalität."
+  },
+  "howTo": {
+    "eyebrow": "In unter 60 Sekunden bereit",
+    "heading": "So lädst du deine kostenlosen Punkt-zu-Punkt-Arbeitsblätter herunter und druckst sie aus",
+    "step1Title": "Wähle dein Rätsel",
+    "step1Text": "Wähle ein Thema (Tiere, Dinosaurier, Fahrzeuge, Feiertage) und einen Punktebereich, der zum Alter und Können deines Kindes passt.",
+    "step2Title": "Kostenloses PDF herunterladen",
+    "step2Text": "Klicke auf „Kostenlose Druckvorlage herunterladen“ — kein Konto, keine E-Mail, keine Bezahlschranke. Dein Browser lädt das PDF sofort herunter.",
+    "step3Title": "Drucken und loslegen",
+    "step3Text": "Drucke auf Standard-US-Letter-Papier (8,5 × 11 Zoll). Schwarz-Weiß funktioniert perfekt. Gib es deinem Kind und schau zu, wie es die Punkte verbindet!"
+  },
+  "trust": {
+    "eyebrow": "Warum Eltern und Lehrer sich für uns entscheiden",
+    "heading": "Kostenlos, sicher und unglaublich einfach zu bedienen.",
+    "noAccountTitle": "Kein Konto erforderlich",
+    "noAccountText": "Jedes ausdruckbare Punkt-zu-Punkt-Bild lässt sich sofort herunterladen – ohne Anmeldung, ohne E-Mail-Adresse, ohne Bezahlschranke. Einfach anklicken und ausdrucken.",
+    "safeTitle": "Sicher im Klassenzimmer",
+    "safeText": "Übersichtliche, werbefreie Rätselseiten, speziell für Schuldrucker konzipiert. Ideal für die Arbeit am Morgen, als Hausaufgabe oder für ruhige Momente.",
+    "fastTitle": "Von Grund auf auf Geschwindigkeit ausgelegt",
+    "fastText": "Dank statischer Seiten, optimierter Bilder und lokaler Schriftarten werden die Rätsel auf jedem Gerät – egal ob Smartphone, Tablet oder Laptop – schnell geladen."
+  },
+  "faq": {
+    "eyebrow": "Häufig gestellte Fragen",
+    "heading": "Häufig gestellte Fragen",
+    "q1": "Sind alle Punkt-zu-Punkt-Ausmalbilder auf dieser Website völlig kostenlos?",
+    "a1": "Ja – jedes Punkt-zu-Punkt-Arbeitsblatt auf DotToDotFreePrintables.com kann zu 100 % kostenlos heruntergeladen und ausgedruckt werden. Es ist weder ein Konto noch ein Abonnement noch eine Kreditkarte erforderlich.",
+    "q2": "Für welches Alter sind Punkt-zu-Punkt-Arbeitsblätter geeignet?",
+    "a2": "Unsere Arbeitsblätter richten sich an Kinder im Alter von 2 bis 12 Jahren. Einfache Arbeitsblätter (10–20 Punkte) eignen sich für Kleinkinder und Vorschulkinder, mittelschwere Arbeitsblätter (20–50 Punkte) sind ideal für den Kindergarten und die 1. Klasse, und schwierigere Arbeitsblätter (50–200+ Punkte) stellen eine Herausforderung für Schüler der 2. bis 6. Klasse dar.",
+    "q3": "In welchem Format liegen die Ausdrucke zum Punkt-zu-Punkt-Verbinden vor?",
+    "a3": "Alle Arbeitsblätter lassen sich als druckfertige PDF-Dateien im Standardformat „US Letter“ (8,5\" × 11\") herunterladen. Sie können sie in jedem Browser oder PDF-Viewer öffnen und ausdrucken – es ist keine spezielle Software erforderlich.",
+    "q4": "Haben Sie Punkt-zu-Punkt-Arbeitsblätter für die Vorschule und den Kindergarten?",
+    "a4": "Auf jeden Fall. Unsere einfachsten Arbeitsblätter beginnen mit 1–10 Punkten (ideal für Kinder ab 2–4 Jahren, also Kita-Alter) und umfassen Themen zum Erkennen von Buchstaben und Zahlen, die speziell für Punkte-verbinden-Vorlagen in Vorschule und Kindergarten konzipiert sind.",
+    "q5": "Dürfen Lehrer diese Arbeitsblätter zum Verbinden von Punkten im Unterricht verwenden?",
+    "a5": "Ja! Unsere Arbeitsvorlagen sind für den privaten Gebrauch und den Einsatz im Unterricht kostenlos. Sie eignen sich besonders gut für die Arbeit am Morgen, für Schüler, die schneller fertig sind, als Vertretungsunterricht, für Stationen zur Förderung der Feinmotorik und für Hausaufgabenpakete.",
+    "q6": "Fördern Punkt-zu-Punkt-Rätsel die Feinmotorik?",
+    "a6": "Ja – als Schwungübung stärkt das Verbinden von Punkten die Griffkraft beim Bleistift und die Hand-Augen-Koordination, was die Vorbereitung auf das Schreiben von Hand fördert. Aus diesem Grund empfehlen viele Ergotherapeuten und Kindergärtnerinnen das Verbinden von Punkten für Kita, Vorschule und Grundschule.",
+    "q7": "Gibt es bei euch ausdruckbare Punkt-zu-Punkt-Vorlagen zu bestimmten Themen, zum Beispiel mit Tieren oder Dinosauriern?",
+    "a7": "Wir bieten 11 Kategorien an, darunter Tiere, Dinosaurier, Fahrzeuge, Meeresbewohner, Spielplätze, „250 Jahre USA“, Weltraum, Fantasy, saisonale/festliche Themen, Arbeitsblattpakete für Lehrer und Bücher mit großen Punkten. Jede Woche kommen neue Motive hinzu.",
+    "q8": "Kann ich diese Rätsel in Schwarz-Weiß ausdrucken?",
+    "a8": "Ja – alle unsere Punkt-zu-Punkt-Arbeitsblätter sind für den Schwarz-Weiß-Druck konzipiert, um Tinte zu sparen. Sie sehen auf jedem Drucker zu Hause oder im Klassenzimmer großartig aus."
+  },
+  "newsletter": {
+    "eyebrow": "Starterpaket zum Ausdrucken – völlig kostenlos",
+    "heading": "Erhalten Sie 20 kostenlose Zahlenbilder zum Punkte verbinden direkt in Ihren Posteingang.",
+    "description": "Eine für Eltern und Lehrer gleichermaßen geeignete Sammlung zu den Themen Tiere, Fahrzeuge, Dinosaurier und Jahreszeiten – alle Vorlagen sind auf das Standardformat „US Letter“ zugeschnitten und für den Schwarz-Weiß-Druck optimiert."
+  },
+  "blog": {
+    "eyebrow": "Ideen für Erwachsene",
+    "heading": "Lerntipps für Zuhause und Unterricht",
+    "viewAll": "Alle Artikel ansehen",
+    "read": "Lesen"
+  },
+  "feedback": {
+    "eyebrow": "Wir freuen uns über deine Nachricht",
+    "heading": "Feedback senden",
+    "description": "Hast du eine Rätselidee, einen defekten Link entdeckt oder möchtest einfach Hallo sagen? Schreib uns unten eine Nachricht."
+  },
+  "footer": {
+    "description": "Kostenlose Zahlenbilder (Punkte verbinden) und Von-Punkt-zu-Punkt-Druckvorlagen für Kinder, Eltern und Lehrkräfte. Alle Rätsel können kostenlos heruntergeladen, gedruckt und geteilt werden.",
+    "kids": "Kinder",
+    "parents": "Eltern",
+    "teachers": "Lehrkräfte",
+    "blog": "Blog",
+    "faq": "Häufig gestellte Fragen",
+    "feedback": "Rückmeldung",
+    "about": "Über uns",
+    "contact": "Kontakt",
+    "privacy": "Datenschutz",
+    "terms": "Nutzungsbedingungen",
+    "sitemap": "Seitenübersicht",
+    "copyright": "© {year} DotToDotFreePrintables.com · Kostenlose Druckaktivitäten für Kinder"
+  },
+  "contactPage": {
+    "title": "Kontakt",
+    "intro": "Am schnellsten erreichst du uns per E-Mail:",
+    "topicsTitle": "Worüber wir uns freuen",
+    "requestsTitle": "Rätselwünsche.",
+    "requests": "Verrate uns ein Thema, das dein Kind oder deine Klasse liebt, und die ungefähre Altersgruppe — Wünsche prägen wirklich, was wir als Nächstes veröffentlichen.",
+    "correctionsTitle": "Korrekturen.",
+    "corrections": "Ein falsch nummerierter Punkt, ein Druckproblem, eine Übersetzung, die seltsam klingt — melde es, und wir korrigieren die Seite.",
+    "licensingTitle": "Fragen zu Unterricht und Lizenzierung.",
+    "licensing": "Das Drucken für Privatgebrauch und Unterricht ist bereits kostenlos. Für alles darüber hinaus — Weiterveröffentlichung, Bündelung oder kommerzielle Nutzung — frag bitte vorher nach.",
+    "termsLink": "Nutzungsbedingungen",
+    "licensingNote": "(siehe unsere <link>Nutzungsbedingungen</link>).",
+    "feedbackTitle": "Rückmeldung.",
+    "feedback": "Was funktioniert, was nicht, und wovon du dir mehr wünschst.",
+    "responseTitle": "Antwortzeit",
+    "response": "Dies ist ein kleiner Betrieb, daher können Antworten ein paar Tage dauern. Korrekturmeldungen haben Vorrang.",
+    "aboutPrefix": "Mehr über die Seite und wer sie macht:",
+    "aboutLink": "Über uns"
+  },
+  "common": {
+    "home": "Startseite",
+    "new": "Neu",
+    "comingSoon": "Demnächst",
+    "downloadFree": "Kostenlose Druckvorlage herunterladen",
+    "viewDownload": "Ansehen & herunterladen",
+    "shareTitle": "{name} Punkt-zu-Punkt Ausmalbild - Kostenloses PDF",
+    "downloadAria": "Kostenloses {name} Punkt-zu-Punkt Ausmalbild PDF herunterladen",
+    "bookmarkTitle": "{name} Punkt-zu-Punkt Ausmalbild – Kostenloses PDF für Kinder",
+    "showSlide": "Foliennummer {number} anzeigen",
+    "ageRange": "Alter {min}–{max}",
+    "difficultyLabel": "Schwierigkeit {level} von 3",
+    "difficulty": {
+      "1": "Einfach",
+      "2": "Mittel",
+      "3": "Schwer"
+    },
+    "dots": "1–{count} Punkte",
+    "homeVideoEyebrow": "Video",
+    "homeVideoH2": "Punkt-zu-Punkt-Spaß in Aktion ansehen",
+    "skipToContent": "Zum Hauptinhalt springen",
+    "joinTeachers": "{count}+ Lehrer beitreten",
+    "breadcrumbAria": "Brotkrumen"
+  },
+  "puzzleDetail": {
+    "agesLabel": "Alter:",
+    "dotsLabel": "Punkte:",
+    "freeLabel": "100 % kostenlos",
+    "difficultyHeading": "Schwierigkeit",
+    "difficultyEasy": "Einfach",
+    "difficultyMedium": "Mittel",
+    "difficultyHard": "Schwer",
+    "funFactPrefix": "Wissenswertes:",
+    "funFactLabel": "Wissenswertes!",
+    "noSignUp": "Keine Anmeldung nötig. Öffnet sich als PDF. Auf jedes US-Letter-Papier (8,5 × 11 Zoll) drucken. Kostenlos für Zuhause und Unterricht.",
+    "comingSoon": "Kostenloses PDF herunterladen – demnächst",
+    "youMightLike": "Das könnte dir auch gefallen",
+    "faqQ1": "Für welches Alter ist das Punkt-zu-Punkt-Rätsel {name} geeignet?",
+    "faqA1": "Es ist für Kinder im Alter von {age} gedacht. Mit {dots} Punkten eignet es sich für Kinder, die sicher bis {dots} zählen können; jüngere Kinder schaffen es mit etwas Hilfe.",
+    "faqQ2": "Wie drucke ich das Arbeitsblatt {name} aus?",
+    "faqA2": "Klicke auf den Download-Button, um das kostenlose PDF zu erhalten, und drucke es auf normalem Papier (A4 oder US Letter) aus jedem Browser oder PDF-Programm. Es wird keine spezielle Software benötigt.",
+    "faqQ3": "Ist die Druckvorlage {name} wirklich kostenlos?",
+    "faqA3": "Ja — sie ist 100 % kostenlos, ohne Anmeldung, Konto oder Bezahlung. Du darfst sie für zu Hause oder den Unterricht ausdrucken."
+  },
+  "dinosaursPage": {
+    "eyebrow": "{count} – Kostenlose Arbeitsblätter zum Ausdrucken",
+    "h1": "Ausmalbilder mit Dinosauriern zum Verbinden der Punkte für Kinder",
+    "description": "Verbinde die Punkte, um deine Lieblingsdinosaurier zu entdecken! Alle Arbeitsblätter können kostenlos heruntergeladen und ausgedruckt werden – ganz ohne Registrierung. Ideal für Kinder im Alter von 4 bis 10 Jahren, für die Vorschule, den Kindergarten und den Unterricht.",
+    "breadcrumb": "Dinosaurier",
+    "category": "Dinosaurier",
+    "slugEyebrow": "Kostenloser Dinosaurier-Ausdruck",
+    "slugH1Suffix": "Punkt-zu-Punkt-Vorlage zum Ausdrucken",
+    "backToList": "← Zurück zu allen Dinosaurier-Puzzles",
+    "relatedEyebrow": "Weitere kostenlose Dinosaurier-Ausmalbilder",
+    "whyH2": "Warum Kinder Dinosaurier-Verbind-die-Punkte-Rätsel lieben",
+    "whyP": "Arbeitsblätter zum Verbinden von Punkten mit Dinosauriern vereinen zwei Dinge, die Kinder lieben – prähistorische Kreaturen und das befriedigende Erlebnis, ein verstecktes Bild zu enthüllen. Kombiniere sie mit unseren anderen <link>Punkt-zu-Punkt-Arbeitsblättern</link> für noch mehr Spaß im Unterricht.",
+    "backToCategories": "← Zurück zu allen Kategorien",
+    "guideH2Suffix": "Anleitung für Punkt-zu-Punkt-Rätsel"
+  },
+  "oceanPage": {
+    "eyebrow": "{count} – Kostenlose Arbeitsblätter zum Ausdrucken",
+    "h1": "Ausmalbilder zum Verbinden der Punkte mit Meeresmotiven für Kinder",
+    "description": "Tauche ein in das tiefe Blau! Verbinde die Punkte, um Meerjungfrauen, Meeresbewohner und Abenteuer im Ozean zu entdecken. Alle Arbeitsblätter können kostenlos heruntergeladen und ausgedruckt werden – eine Registrierung ist nicht erforderlich.",
+    "breadcrumb": "Ozean",
+    "category": "Ozean",
+    "slugEyebrow": "Kostenloser Ausdruck mit Meeresmotiv",
+    "slugH1Suffix": "Punkt-zu-Punkt-Vorlage zum Ausdrucken",
+    "backToList": "← Zurück zu allen Meeresrätseln",
+    "relatedEyebrow": "Weitere kostenlose Druckvorlagen zum Thema Meer",
+    "whyH2": "Warum Kinder Punkt-zu-Punkt-Rätsel zum Thema Meer so lieben",
+    "whyP": "Arbeitsblätter zum Thema „Meereswelt“ mit Punkt-zu-Punkt-Rätseln wecken die Neugier auf die Unterwasserwelt und fördern gleichzeitig die Feinmotorik, das Erkennen von Zahlenfolgen und die Stiftführung. Entdecke unsere komplette Sammlung an <link>Punkt-zu-Punkt-Vorlagen</link> für weitere Themen.",
+    "backToCategories": "← Zurück zu allen Kategorien",
+    "guideH2Suffix": "Anleitung für Punkt-zu-Punkt-Rätsel"
+  },
+  "uaePage": {
+    "eyebrow": "{count} kostenlose Arbeitsblätter zum Ausdrucken",
+    "h1": "VAE-Punkt-zu-Punkt-Druckvorlagen für Kinder",
+    "description": "Entdecke die Vereinigten Arabischen Emirate! Verbinde die Punkte, um den Burj Al Arab und andere bekannte Wahrzeichen der Emirate sichtbar zu machen. Alle Arbeitsblätter können kostenlos heruntergeladen und gedruckt werden – keine Anmeldung erforderlich.",
+    "breadcrumb": "VAE",
+    "category": "VAE",
+    "slugEyebrow": "Kostenlose VAE-Druckvorlage",
+    "slugH1Suffix": "Punkt-zu-Punkt-Vorlage zum Ausdrucken",
+    "backToList": "← Zurück zu allen VAE-Rätseln",
+    "relatedEyebrow": "Weitere kostenlose VAE-Druckvorlagen",
+    "whyH2": "Warum Kinder VAE-Punkt-zu-Punkt-Rätsel lieben",
+    "whyP": "VAE-Arbeitsblätter zum Verbinden von Punkten stellen Kindern bekannte Wahrzeichen vor und fördern gleichzeitig Feinmotorik, Zahlenfolgen und Stiftführung. Entdecke unsere komplette Sammlung an <link>Punkt-zu-Punkt-Vorlagen</link> für weitere Themen.",
+    "backToCategories": "← Zurück zu allen Kategorien",
+    "guideH2Suffix": "Anleitung für Punkt-zu-Punkt-Rätsel"
+  },
+  "playgroundsPage": {
+    "eyebrow": "{count, plural, one {# kostenlose druckbare Arbeitsblatt} other {# kostenlose druckbare Arbeitsblätter}}",
+    "h1": "Ausmalbilder zum Verbinden von Punkten für Kinder zum Thema „Spielplatz“",
+    "description": "Hol dir den Spielplatz nach Hause! Verbinde die Punkte, um Schaukeln, Rutschen und Spaß im Freien zu entdecken. Alle Arbeitsblätter können kostenlos heruntergeladen und ausgedruckt werden – ganz ohne Registrierung.",
+    "breadcrumb": "Spielplätze",
+    "category": "Spielplätze",
+    "slugEyebrow": "Kostenlose Vorlage für einen Spielplatz",
+    "slugH1Suffix": "Punkt-zu-Punkt-Vorlage zum Ausdrucken",
+    "backToList": "← Zurück zu allen Spielplatz-Rätseln",
+    "relatedEyebrow": "Weitere kostenlose Ausmalvorlagen für den Spielplatz",
+    "whyH2": "Warum Kinder Punkt-zu-Punkt-Rätsel auf dem Spielplatz so lieben",
+    "whyP": "Die „Verbinde die Punkte“-Arbeitsblätter von „Playground“ verbinden den Spaß am Spielen im Freien mit der konzentrierten Aufmerksamkeit, die eine Aufgabe mit dem Bleistift erfordert. Wenn dein Kind dieses Motiv liebt, probiere als Nächstes unsere <link>Dinosaurier-Punkt-zu-Punkt-Vorlagen</link> aus.",
+    "backToCategories": "← Zurück zu allen Kategorien",
+    "guideH2Suffix": "Anleitung für Punkt-zu-Punkt-Rätsel"
+  },
+  "gardenPage": {
+    "eyebrow": "{count, plural, one {# kostenlose druckbare Arbeitsblatt} other {# kostenlose druckbare Arbeitsblätter}}",
+    "h1": "Garten-Punkt-zu-Punkt-Vorlagen für Kinder",
+    "description": "Auf geht's in den Garten! Verbinde die Punkte, um Gartenhandschuhe, Kellen und praktische Gartenwerkzeuge zu entdecken. Alle Arbeitsblätter können kostenlos heruntergeladen und ausgedruckt werden – ganz ohne Registrierung.",
+    "breadcrumb": "Garten",
+    "category": "Garten",
+    "slugEyebrow": "Kostenlose Garten-Druckvorlage",
+    "slugH1Suffix": "Punkt-zu-Punkt-Vorlage zum Ausdrucken",
+    "backToList": "← Zurück zu allen Garten-Rätseln",
+    "relatedEyebrow": "Weitere kostenlose Garten-Druckvorlagen",
+    "whyH2": "Warum Kinder Garten-Punkt-zu-Punkt-Rätsel lieben",
+    "whyP": "Garten-Arbeitsblätter zum Verbinden von Punkten stellen Kindern hilfreiche Gartenwerkzeuge vor und fördern gleichzeitig Feinmotorik, Zahlenfolgen und Stiftführung. Entdecke unsere komplette Sammlung an <link>Punkt-zu-Punkt-Vorlagen</link> für weitere Themen.",
+    "backToCategories": "← Zurück zu allen Kategorien",
+    "guideH2Suffix": "Anleitung für Punkt-zu-Punkt-Rätsel"
+  },
+  "cutePage": {
+    "eyebrow": "{count, plural, one {# kostenlose druckbare Arbeitsblatt} other {# kostenlose druckbare Arbeitsblätter}}",
+    "h1": "Niedliche Punkt-zu-Punkt-Vorlagen zum Ausdrucken für Kinder",
+    "description": "Mach dich bereit für maximale Niedlichkeit! Verbinde die Punkte und entdecke süße Welpen, kleine Autos und viele weitere bezaubernde Freunde. Alle Arbeitsblätter können kostenlos heruntergeladen und ausgedruckt werden – du benötigst kein Konto.",
+    "breadcrumb": "Niedlich",
+    "category": "Niedlich",
+    "slugEyebrow": "Kostenlos und niedlich zum Ausdrucken",
+    "slugH1Suffix": "Punkt-zu-Punkt-Vorlage zum Ausdrucken",
+    "backToList": "← Zurück zu allen niedlichen Puzzles",
+    "relatedEyebrow": "Mehr kostenlose, niedliche Vorlagen zum Ausdrucken",
+    "whyH2": "Warum Kinder niedliche Punkt-zu-Punkt-Rätsel lieben",
+    "whyP": "Niedliche Punkt-zu-Punkt-Arbeitsblätter verwandeln liebenswerte Figuren in lohnende Zeichenübungen und fördern so Feinmotorik, Zahlenverständnis und Stiftführung. Stöbern Sie in unserer gesamten Bibliothek.<link> Punkt-zu-Punkt-Vorlagen zum Ausdrucken</link> für weitere Themen.",
+    "backToCategories": "← Zurück zu allen Kategorien",
+    "guideH2Suffix": "Punkt-zu-Punkt-Rätsel-Anleitung",
+    "colorH2": "Färbungsanleitung: Lustige Farbideen"
+  },
+  "usa250Page": {
+    "eyebrow": "{count, plural, one {# kostenlose druckbare Arbeitsblatt} other {# kostenlose druckbare Arbeitsblätter}}",
+    "h1": "America 250 Jahre: Punkt-zu-Punkt-Ausmalbilder für Kinder",
+    "description": "Feiern Sie den 250. Geburtstag Amerikas! Verbinden Sie die Punkte, um patriotische Szenen und typisch amerikanische Symbole zu enthüllen. Alle Arbeitsblätter können kostenlos heruntergeladen und ausgedruckt werden – eine Registrierung ist nicht erforderlich.",
+    "breadcrumb": "America 250 Jahre",
+    "category": "America 250 Jahre",
+    "slugEyebrow": "Kostenlos: America 250 zum Ausdrucken",
+    "slugH1Suffix": "Punkt-zu-Punkt-Vorlage zum Ausdrucken",
+    "videoEyebrow": "Video",
+    "videoH2": "Sehen Sie sich die „America 250“-Ausdruckvorlagen in Aktion an",
+    "aboutH2": "Über diese „America 250“-Punkt-zu-Punkt-Rätsel",
+    "backToList": "← Zurück zu allen „America 250“-Puzzles",
+    "relatedEyebrow": "Weitere kostenlose Ausdrucke zum Thema „America 250“",
+    "whyH2": "Warum Kinder die „America 250“-Punkt-zu-Punkt-Rätsel lieben",
+    "whyP": "Die „America 250“-Arbeitsblätter zum Verbinden von Punkten wecken die Neugier auf die amerikanische Geschichte und fördern gleichzeitig die Feinmotorik, das Erkennen von Zahlenfolgen und die Stiftführung – und das alles unter dem Motto „Patriotische Feierlichkeiten“. Entdecke weitere <link>Punkt-zu-Punkt-Vorlagen von 1 bis 100</link> zu jedem Thema.",
+    "backToCategories": "← Zurück zu allen Kategorien",
+    "guideH2Suffix": "Anleitung für Punkt-zu-Punkt-Rätsel",
+    "historySourcePrefix": "Geschichtsquelle:"
+  },
+  "blogPage": {
+    "eyebrow": "Lernressourcen",
+    "h1": "Punkt-zu-Punkt-Ideen für Eltern und Lehrkräfte",
+    "description": "Praktische Leitfäden zur Auswahl von Aktivitäten, zum Aufbau früher Lernfähigkeiten und zur Nutzung druckbarer Arbeitsblätter zu Hause oder im Unterricht.",
+    "breadcrumb": "Blog",
+    "latestEyebrow": "Neueste Artikel",
+    "latestH2": "Hilfreiche Ideen, die du heute nutzen kannst",
+    "readArticle": "Artikel lesen",
+    "by": "Von",
+    "backToAll": "← Zurück zu allen Artikeln",
+    "savePinterest": "Auf Pinterest speichern",
+    "relatedEyebrow": "Kostenlose Druckvorlagen",
+    "relatedHeading": "Probiere als Nächstes diese Punkt-zu-Punkt-Sammlungen aus"
+  },
+  "searchPage": {
+    "eyebrow": "Für Lehrkräfte & Eltern",
+    "h1": "Finde das perfekte Rätsel",
+    "description": "Suche nach Name, filtere nach Thema oder Punkteanzahl oder stöbere in den neuesten Ergänzungen — alles kostenlos druckbar, ohne Anmeldung."
+  },
+  "puzzleSearch": {
+    "placeholder": "Nach Name oder Thema suchen ... z. B. Ozean, Wal, T-Rex",
+    "searchAria": "Rätsel suchen",
+    "clearSearch": "Suche löschen",
+    "toggleFilters": "Filter ein-/ausblenden",
+    "filters": "Filter",
+    "filterOptions": "Filteroptionen",
+    "topic": "Thema",
+    "numberOfDots": "Anzahl der Punkte",
+    "recentlyAddedOnly": "Nur kürzlich hinzugefügt",
+    "clearAllFilters": "Alle Filter löschen",
+    "clearFilters": "Filter löschen",
+    "resultsFound": "{count, plural, one {# Rätsel gefunden} other {# Rätsel gefunden}}",
+    "puzzlesAvailable": "{count, plural, one {# Puzzle verfügbar} other {# verfügbare Rätsel}}",
+    "noMatches": "Keine Rätsel passen zu deiner Suche.",
+    "openPuzzle": "{name} öffnen",
+    "imageAlt": "{name} Punkt-zu-Punkt-Druckvorlage",
+    "viewPuzzle": "Rätsel ansehen →",
+    "dotRanges": {
+      "under35": "Unter 35 Punkte",
+      "35to50": "35–50 Punkte",
+      "51to70": "51–70 Punkte",
+      "over70": "70+ Punkte"
+    },
+    "categories": {
+      "Dinosaurs": "Dinosaurier",
+      "Ocean": "Ozean",
+      "Playgrounds": "Spielplätze",
+      "Garden": "Garten",
+      "Cute": "Niedlich",
+      "USA 250 Years": "America 250 Jahre",
+      "UAE": "VAE"
+    }
+  },
+  "newsletterForm": {
+    "ariaLabel": "Kostenloses Punkt-zu-Punkt-Druckpaket erhalten",
+    "emailLabel": "E-Mail-Adresse",
+    "submit": "Kostenloses Paket senden",
+    "honeypot": "Dieses Feld leer lassen",
+    "privacy": "Kein Spam, niemals. Jederzeit abbestellen.",
+    "error": "Dieses Formular konnte nicht gesendet werden.",
+    "notConnected": "Die Anmeldung für das kostenlose Paket ist noch nicht verbunden."
+  },
+  "feedbackForm": {
+    "ariaLabel": "Feedback senden",
+    "notConnected": "Dieses Feedbackformular ist noch nicht verbunden.",
+    "typeLabel": "Welche Art von Feedback?",
+    "selectTopic": "Thema auswählen ...",
+    "types": {
+      "general": "Allgemeines Feedback",
+      "requestTheme": "Rätselthema wünschen",
+      "brokenLink": "Defekten Link melden",
+      "improvement": "Verbesserung vorschlagen",
+      "other": "Sonstiges"
+    },
+    "messageLabel": "Deine Nachricht",
+    "messagePlaceholder": "Sag uns, was du denkst ...",
+    "emailLabel": "E-Mail",
+    "emailOptional": "(optional – nur wenn du eine Antwort möchtest)",
+    "submit": "Feedback senden",
+    "success": "Danke. Dein Feedback wurde gesendet.",
+    "disclaimer": "Bitte keine sensiblen persönlichen Informationen angeben. E-Mail ist optional und wird nur verwendet, wenn wir antworten müssen.",
+    "iframeTitle": "Feedback-Übermittlung"
+  },
+  "downloadButton": {
+    "label": "Kostenloses druckbares PDF herunterladen",
+    "usage": "Kostenlos für Zuhause und Unterricht.",
+    "paperNote": "Passend für {size}-Papier.",
+    "paperLetter": "US-Brief",
+    "paperA4": "A4",
+    "alternateLink": "Lieber {size}? Diese Version herunterladen",
+    "downloadSize": "Herunterladen (Druckgröße: {size})"
+  },
+  "downloadBadge": {
+    "downloaded": "Heruntergeladen",
+    "times": "Mal",
+    "greatChoice": "Du hast eine tolle Wahl getroffen!"
+  },
+  "bookmarkButton": {
+    "regionLabel": "Diese Seite als Lesezeichen speichern",
+    "shortcut": "Drücke <shortcut></shortcut>, um ein Lesezeichen zu setzen!",
+    "dismiss": "Schließen",
+    "shared": "Geteilt!",
+    "buttonAria": "Diese Rätselseite speichern oder teilen",
+    "buttonTitle": "Dieses Rätsel speichern",
+    "saved": "Gespeichert!",
+    "save": "Speichern"
+  },
+  "languageSwitcher": {
+    "label": "Sprache",
+    "selectLabel": "Sprache auswählen",
+    "en": "Englisch",
+    "fr": "Französisch",
+    "es": "Spanisch",
+    "de": "Deutsch",
+    "pt": "Portugiesisch",
+    "it": "Italienisch",
+    "nl": "Niederländisch",
+    "sv": "Schwedisch",
+    "no": "Norwegisch",
+    "pl": "Polnisch",
+    "da": "Dänisch",
+    "fi": "Finnisch",
+    "cs": "Tschechisch",
+    "hu": "Ungarisch",
+    "ro": "Rumänisch"
+  },
+  "shareButtons": {
+    "label": "Teilen",
+    "copyLink": "Link kopieren",
+    "copied": "Link kopiert!",
+    "shareMe": "Teile mich"
+  },
+  "bookmark": {
+    "save": "Diese Seite als Lesezeichen speichern",
+    "saved": "Zu Lesezeichen hinzugefügt",
+    "labelText": "Lesezeichen setzen",
+    "hint": "Drücke Strg+D (oder ⌘+D auf dem Mac), um diese Seite als Lesezeichen zu speichern"
+  },
+  "purchase": {
+    "premium": {
+      "metaTitle": "Premium-Punkt-zu-Punkt-Rätselpaket – Das Beste aus 2026",
+      "metaDescription": "Eine druckfertige Sammlung beliebter Punkt-zu-Punkt-Rätsel für Kinder, praktisch gebündelt in einer PDF-Datei.",
+      "eyebrow": "Premium-Sammlung zum Ausdrucken",
+      "heading": "Mehr Rätsel. Weniger Suchen. Alles in einer praktischen PDF-Datei.",
+      "lede": "Die Sammlung „Das Beste aus 2026“ vereint unsere beliebtesten Punkt-zu-Punkt-Aktivitäten in einem einfach auszudruckenden Paket – für ruhige Momente, Regentage, Homeschooling und den Unterricht.",
+      "digitalPdf": "Digitale PDF",
+      "printAtHome": "Zu Hause ausdrucken",
+      "instantAccess": "Sofortiger Zugriff",
+      "purchaseAria": "Das Rätselpaket „Das Beste aus 2026“ kaufen",
+      "coverAlt": "Buchcover von „Das Beste aus 2026“ mit 25 Punkt-zu-Punkt-Rätseln",
+      "oneTime": "einmalig",
+      "buyButton": "Rätselpaket erhalten",
+      "localNote": "Auf localhost wird eine sichere Kaufdemo geöffnet; eine Karte wird dabei niemals belastet.",
+      "detailsEyebrow": "Einfach ausdrucken und loslegen",
+      "detailsHeading": "Alles für bildschirmfreien Rätselspaß",
+      "detailsText": "Einmal herunterladen, griffbereit aufbewahren und die gewünschten Aktivitäten jederzeit ausdrucken.",
+      "benefits": {
+        "onePdf": "Eine praktische, druckfertige PDF",
+        "kidFriendly": "Kinderfreundliche Rätsel in verschiedenen Schwierigkeitsstufen",
+        "paperSizes": "Geeignet für US Letter und A4",
+        "instantAccess": "Sofortiger Zugriff nach erfolgreicher Zahlung",
+        "classroomUse": "Zur Nutzung zu Hause oder in einem einzelnen Klassenraum"
+      },
+      "guaranteeHeading": "Einfach, sicher und in wenigen Minuten bereit",
+      "guaranteeText": "Nach dem Bezahlen erscheint dein privater Download-Link sofort. Kein Abonnement und keine überraschende Verlängerung."
+    },
+    "checkout": {
+      "consent": "Ich stimme der sofortigen Bereitstellung dieser digitalen PDF zu und verstehe, dass der Verkauf nach Beginn des Zugriffs endgültig und nicht erstattungsfähig ist, außer wenn dies gesetzlich vorgeschrieben ist oder die Datei nicht geliefert wird beziehungsweise fehlerhaft ist.",
+      "refundPolicy": "Rückerstattungsrichtlinie lesen",
+      "opening": "Bezahlvorgang wird geöffnet...",
+      "secureNote": "Sichere Zahlung über Stripe. Einmalige Zahlung. Kein Abonnement.",
+      "error": "Beim Starten des Bezahlvorgangs ist ein Fehler aufgetreten. Bitte versuche es erneut."
+    },
+    "success": {
+      "metaTitle": "Vielen Dank für deinen Kauf",
+      "eyebrow": "Zahlung bestätigt",
+      "heading": "Vielen Dank! Dein Kauf ist abgeschlossen.",
+      "lede": "Deine Zahlung war erfolgreich. Es kann einige Sekunden dauern, bis dein Kauf angezeigt wird."
+    },
+    "cancelled": {
+      "metaTitle": "Bezahlvorgang abgebrochen",
+      "eyebrow": "Keine Zahlung erfolgt",
+      "heading": "Bezahlvorgang abgebrochen",
+      "lede": "Es wurde nichts berechnet. Du kannst es jederzeit erneut versuchen."
+    },
+    "download": {
+      "demoTitle": "Der lokale Kauftest war erfolgreich.",
+      "demoText": "Auf der echten Erfolgsseite nach dem Kauf erscheint hier die Schaltfläche zum Herunterladen der PDF. Die lokale Demo gibt die private Datei nicht frei.",
+      "button": "Rätselpaket herunterladen",
+      "expires": "Dieser Link läuft nach 24 Stunden ab. Speichere den Download an einem sicheren Ort.",
+      "failed": "Wir konnten deinen Kauf noch nicht bestätigen. Falls dir etwas berechnet wurde, aktualisiere diese Seite bitte in einer Minute oder kontaktiere uns.",
+      "preparing": "Dein Download wird vorbereitet..."
+    },
+    "ad": {
+      "advertisementAria": "Werbung: Punkt-zu-Punkt-Aktivitätsbuch „Das Beste aus 2026“",
+      "viewPackAria": "Punkt-zu-Punkt-Rätselpaket „Das Beste aus 2026“ ansehen",
+      "pdfBook": "PDF-BUCH",
+      "bookTitle": "Das Beste von 2026",
+      "packName": "Punkt-zu-Punkt-Rätselpaket",
+      "puzzleCount": "25 Punkt-zu-Punkt-Rätsel",
+      "viewBook": "Buch ansehen"
+    },
+    "shared": {
+      "specialSale": "Sonderangebot",
+      "returnToPack": "Zurück zum Rätselpaket",
+      "contactUs": "Kontakt"
+    }
+  },
+  "homepageUi": {
+    "title": "Finde die perfekten Punkt-zu-Punkt-Druckvorlagen",
+    "description": "Drucke, verbinde die Punkte und erwecke tolle Bilder zum Leben. Kostenlos und bereit für jede Menge Spaß!",
+    "searchPlaceholder": "Probiere Ozean, Dinosaurier oder Blumen",
+    "filterPuzzles": "Rätsel filtern",
+    "age": "Alter",
+    "dots": "Punkte",
+    "featuredPuzzles": "Ausgewählte druckbare Rätsel",
+    "savePuzzle": "{name} speichern",
+    "removeSavedPuzzle": "{name} aus gespeicherten Rätseln entfernen",
+    "downloads": "Downloads",
+    "bookTitle": "Das Beste von 2026 · {count}",
+    "bookDescription": "Unsere liebsten Punkt-zu-Punkt-Rätsel in einem druckbaren PDF-Buch.",
+    "searchUnavailable": "Die Suche ist vorübergehend nicht verfügbar. Bitte versuche es erneut.",
+    "popularEyebrow": "Beliebt in dieser Woche",
+    "mostDownloaded": "Am häufigsten heruntergeladene Rätsel",
+    "downloadCountAria": "{count} oder mehr Downloads",
+    "freshPrintables": "Frische Druckvorlagen",
+    "recentlyAdded": "Neu hinzugefügt",
+    "browseCategories": "Rätsel-Kategorien durchsuchen",
+    "openCategories": "Kategorienmenü öffnen",
+    "closeCategories": "Kategorienmenü schließen",
+    "browseByTheme": "Nach Thema durchsuchen",
+    "quickLinks": "Schnelllinks",
+    "bundlePacks": "Bundle-Pakete",
+    "parentsTeachers": "Für Eltern & Lehrer",
+    "more": "Weitere Kategorien",
+    "kids": "Kinder",
+    "categoryNames": {
+      "cute": "Niedliche Rätsel",
+      "flowers": "Blumen"
+    }
+  },
+  "circusPage": {
+    "eyebrow": "{count, plural, one {# kostenlose druckbare Arbeitsblätter} other {# kostenlose druckbare Arbeitsblätter}}",
+    "h1": "Zirkus Punkt-zu-Punkt Druckvorlagen für Kinder",
+    "description": "Treten Sie näher für kostenlose Zirkus Punkt-zu-Punkt Druckvorlagen mit einem freundlichen Ringmaster-Bären und einem gestreiften Zelt. Laden Sie beide PDF-Arbeitsblätter für Zählen und Bleistiftübungen herunter und drucken Sie sie aus.",
+    "breadcrumb": "Zirkus",
+    "category": "Zirkus",
+    "slugEyebrow": "Kostenloses Zirkus-Druckmaterial",
+    "backToList": "? Back to all circus puzzles",
+    "relatedEyebrow": "Weitere kostenlose Zirkus-Druckvorlagen",
+    "whyH2": "Warum Kinder Zirkus Punkt-zu-Punkt Rätsel lieben",
+    "whyP": "Zirkus Punkt-zu-Punkt Arbeitsblätter verwandeln die Aufregung des großen Zeltes in konzentriertes Zählen und Bleistiftübungen. Probieren Sie unsere <link>Dinosaurier Punkt-zu-Punkt Druckvorlagen</link> Sammlung als Nächstes aus.",
+    "backToCategories": "? Back to all categories",
+    "guideH2Suffix": "Punkt-zu-Punkt Rätsel Anleitung",
+    "slugH1Suffix": "Punkt-zu-Punkt Druckvorlage"
+  },
+  "spacePage": {
+    "eyebrow": "{count, plural, one {# kostenlos druckbares Puzzle} other {# kostenlos druckbare Puzzle}}",
+    "h1": "Kostenlose Weltraum Punkt-zu-Punkt Druckvorlagen für Kinder",
+    "description": "Starten Sie mit kostenlosen Weltraum Punkt-zu-Punkt Arbeitsblättern. Drucken Sie heute ein freundliches Rover-Rätsel aus, mit weiteren Raketen, Planeten und kosmischen Abenteuern, die bald kommen.",
+    "breadcrumb": "Weltraum",
+    "category": "Weltraum",
+    "slugEyebrow": "Weltraum Punkt-zu-Punkt",
+    "slugH1Suffix": "Punkt-zu-Punkt Druckvorlage",
+    "backToList": "Zurück zu den Space-Puzzles",
+    "openAria": "{name} Punkt-zu-Punkt öffnen"
+  },
+  "usa250HouseAd": {
+    "ariaLabel": "Vorgestellte Amerika 250 Punkt-zu-Punkt Ausdrucken",
+    "eyebrow": "Vorgestellt",
+    "heading": "Amerika 250 Ausdrucken",
+    "imageAlt": "{name} Punkt-zu-Punkt Ausdrucken"
+  }
+}

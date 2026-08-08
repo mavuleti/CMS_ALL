@@ -1,0 +1,736 @@
+{
+  "nav": {
+    "kids": "Çocuklar - Bulmacalar",
+    "teachers": "Öğretmenler",
+    "parents": "Ebeveynler",
+    "contact": "Bize Ulaşın",
+    "blog": "Blog",
+    "search": "Aramak",
+    "freePack": "Ücretsiz paket",
+    "scanMe": "Beni tarayın"
+  },
+  "hero": {
+    "badge": "%100 ücretsiz · hesap gerekmez",
+    "h1": "Çocuklar İçin Ücretsiz Noktaları Birleştirme Çalışma Sayfaları — Noktaları Birleştirme Etkinlik Sayfaları",
+    "description": "Okul öncesi, anaokulu ve 1-6. sınıflar için yüzlerce ücretsiz noktaları birleştirme çalışma sayfasını indirin ve yazdırın. Hayvanlar, dinozorlar, araçlar, tatil temaları ve daha fazlası — saniyeler içinde hazır, kayıt olmaya gerek yok.",
+    "browsePuzzles": "Ücretsiz bulmacalara göz atın",
+    "starterPack": "20'li yapboz başlangıç ​​paketini alın.",
+    "stat1Value": "Doğrulanmış",
+    "stat1Label": "ücretsiz yazdırılabilir bulmacalar",
+    "stat2Value": "2-12 yaş arası",
+    "stat2Label": "tüm beceri seviyeleri",
+    "stat3Value": "%100",
+    "stat3Label": "sonsuza dek ücretsiz"
+  },
+  "audience": {
+    "kidsTitle": "Çocuklar için",
+    "kidsText": "Sevimli hayvan, dinozor ve araç temalarıyla, numaralandırılmış net noktalar içeren bir oyun. Kolay kazanımlar gerçek özgüven oluşturur.",
+    "parentsTitle": "Ebeveynler için",
+    "parentsText": "Evde, seyahatte ve restoranlarda ekranlardan uzak, sakin zaman aktiviteleri. Herhangi bir cihazdan bir dakikadan kısa sürede çıktı alın.",
+    "teachersTitle": "Öğretmenler için",
+    "teachersText": "Sabah çalışmaları, erken bitirenler, yedek öğretmenler ve sınıf istasyonları için düşük hazırlık gerektiren noktaları birleştirme oyunu — hiçbir hazırlık gerektirmez."
+  },
+  "categories": {
+    "eyebrow": "Tema ve beceri seviyesine göre düzenlenmiştir.",
+    "heading": "Noktadan noktaya birleştirme bulmacalarını kategoriye göre inceleyin.",
+    "description": "Küçük çocuklar için basit 10 noktalı şekillerden, daha büyük çocuklar için 200 noktalı meydan okumalara kadar — kategoriye göre sıralanmıştır, böylece doğru ücretsiz yazdırılabilir dosyayı saniyeler içinde bulabilirsiniz.",
+    "puzzles": "{count, plural, one {# bulmaca} other {# bulmaca}}",
+    "comingSoon": "Yakında gelecek",
+    "badges": {
+      "dinosaurs": "Şimdi satışta!",
+      "ocean": "Şimdi satışta!",
+      "playgrounds": "Şimdi satışta!",
+      "garden": "Şimdi satışta!",
+      "usa250": "Yeni!",
+      "uae": "Şimdi satışta!",
+      "cute": "Yeni!",
+      "circus": "Yeni!"
+    },
+    "items": {
+      "dinosaurs": {
+        "name": "Dinozorlar",
+        "description": "Tarih öncesi eğlenceye dalın! T-Rex, Triceratops, Velociraptor ve çocuklarınızın bayılacağı {count} adet ücretsiz noktadan noktaya birleştirme bulmacası."
+      },
+      "animals": {
+        "name": "Hayvanlar",
+        "description": "Sayı öğrenimine yeni başlayanlar için sevimli yaratıklar."
+      },
+      "vehicles": {
+        "name": "Araçlar",
+        "description": "Otomobiller, kamyonlar, roketler ve makineler."
+      },
+      "fantasy": {
+        "name": "Fantazi",
+        "description": "Kaleler, tek boynuzlu atlar, ejderhalar ve hikaye yazma ipuçları."
+      },
+      "seasonal": {
+        "name": "Mevsimsel",
+        "description": "Tatil ve sınıf takvimi etkinlikleri."
+      },
+      "ocean": {
+        "name": "Okyanus",
+        "description": "Deniz hayvanları ve sakinlik temalı boyama sayfaları."
+      },
+      "playgrounds": {
+        "name": "Oyun alanları",
+        "description": "Küçük maceracılar için salıncaklar, kaydıraklar ve açık hava eğlenceleri."
+      },
+      "garden": {
+        "name": "Bahçe",
+        "description": "Küçük bahçıvan yardımcıları için eldivenler, kürekler ve aletler."
+      },
+      "usa250": {
+        "name": "Amerika'nın 250 Yılı",
+        "description": "Amerikan tarihini onurlandıran vatansever noktadan noktaya birleştirme bulmacalarıyla Amerika'nın 250. doğum gününü kutlayın."
+      },
+      "uae": {
+        "name": "Birleşik Arap Emirlikleri",
+        "description": "Birleşik Arap Emirlikleri'ni keşfedin! Burj Al Arab gibi ikonik yerler, bağlantı kurmaya ve renklendirmeye hazır."
+      },
+      "space": {
+        "name": "Uzay",
+        "description": "Gezegenler, astronotlar ve roket maceraları."
+      },
+      "worksheets": {
+        "name": "Çalışma sayfaları",
+        "description": "Öğretmenler için hazır sayı sıralama çalışma sayfaları."
+      },
+      "bigDotBooks": {
+        "name": "Büyük Nokta Kitapları",
+        "description": "Odaklanmış, daha büyük yaştaki öğrenciler için uzun bulmacalar."
+      },
+      "cute": {
+        "name": "Sevimli",
+        "description": "Sevimli köpek yavruları, minik arabalar ve çocuklarınızın bayılacağı {count} güzel, ücretsiz noktadan noktaya birleştirme bulmacaları."
+      },
+      "circus": {
+        "name": "Sirk",
+        "description": "Yüzük ustaları, büyük çadırlar ve genç öğreniciler için gösteri zamanı eğlencesi."
+      }
+    }
+  },
+  "puzzleSection": {
+    "eyebrow": "Ücretsiz yazdırılabilir örnekler — kayıt olmaya gerek yok",
+    "heading": "Şimdi yazdırabileceğiniz popüler noktaları birleştirme sayfaları",
+    "weeklyPack": "Haftalık paketi inceleyin →",
+    "downloadLink": "Ücretsiz yazdırılabilir dosyayı indirin.",
+    "new": "Yeni",
+    "imageAlt": "{name} için ücretsiz noktadan noktaya birleştirme çalışma sayfası, {age} yaş grubu için.",
+    "categories": {
+      "Dinosaurs": "Dinozorlar",
+      "Ocean": "Okyanus",
+      "Playgrounds": "Oyun alanları",
+      "Garden": "Bahçe",
+      "Cute": "Sevimli",
+      "USA 250 Years": "Amerika'nın 250 Yılı",
+      "UAE": "Birleşik Arap Emirlikleri"
+    },
+    "items": {
+      "trex-61-dot-to-dot-puzzle": {
+        "name": "T-Rex 61 Noktalı Meydan Okuma"
+      },
+      "brontosaurus-dot-to-dot-puzzle": {
+        "name": "Brontosorüs"
+      },
+      "mermaid-dot-to-dot-puzzle": {
+        "name": "Denizkızı"
+      },
+      "merman-dot-to-dot-puzzle": {
+        "name": "Deniz adamı"
+      },
+      "seahorse-dot-to-dot-puzzle": {
+        "name": "Denizatı"
+      },
+      "whale-dot-to-dot-puzzle": {
+        "name": "Balina"
+      },
+      "swing-playgrounds-dot-to-dot-puzzle": {
+        "name": "Salıncaklı Oyun Alanı"
+      },
+      "slide-playgrounds-dot-to-dot-puzzle": {
+        "name": "Kaydıraklı Oyun Alanı"
+      },
+      "seesaw-playground-dot-to-dot-puzzle": {
+        "name": "Tahterevalli Oyun Alanı"
+      },
+      "roller-coaster-playground-dot-to-dot-puzzle": {
+        "name": "Lunapark Treni Oyun Alanı"
+      },
+      "wheelbarrow-playground-dot-to-dot-puzzle": {
+        "name": "El arabası oyun alanı"
+      },
+      "garden-gloves-dot-to-dot-puzzle": {
+        "name": "Bahçe Eldivenleri"
+      },
+      "garden-trowel-dot-to-dot-puzzle": {
+        "name": "Bahçe Küreği"
+      },
+      "gas-balloon-usa-250-dot-to-dot-puzzle": {
+        "name": "Gaz Balonu Amerika 250"
+      },
+      "america-250-birthday-fireworks-dot-to-dot-puzzle": {
+        "name": "Amerika'nın 250. Doğum Günü Havai Fişekleri"
+      },
+      "america-250-anniversary-liberty-bell-wings-1776-dot-to-dot-puzzle": {
+        "name": "Amerika 250 Özgürlük Çanı Kanatları"
+      },
+      "usa-250-astronaut-dot-to-dot-puzzle": {
+        "name": "Amerika'nın 250. Astronotu"
+      },
+      "usa-250-anniversary-sports-kids-podium-dot-to-dot-puzzle": {
+        "name": "Amerika'nın 250. Yıldönümü Spor Çocuk Podyumu"
+      },
+      "usa-250-anniversary-airplane-banner-dot-to-dot-puzzle": {
+        "name": "Amerika'nın 250. Yıldönümü Uçak Afişi"
+      },
+      "usa-250-space-shuttle-dot-to-dot-puzzle": {
+        "name": "Amerika 250 Uzay Mekiği"
+      },
+      "usa-250-birthday-balloons-stars-dot-to-dot-puzzle": {
+        "name": "Amerika'nın 250. Doğum Günü Balonları ve Yıldızları"
+      },
+      "usa-250-birthday-cake-dot-to-dot-puzzle": {
+        "name": "Amerika'nın 250. Doğum Günü Pastası"
+      },
+      "america-250-anniversary-eagle-banner-dot-to-dot-puzzle": {
+        "name": "Amerika 250 Kartal Sancağı"
+      },
+      "burj-al-arab-dot-to-dot-puzzle": {
+        "name": "Burc El Arap"
+      },
+      "dallah-coffee-pot-dot-to-dot-puzzle": {
+        "name": "Dallah Kahve Potu"
+      }
+    }
+  },
+  "benefits": {
+    "eyebrow": "Erken çocukluk eğitimcileri tarafından desteklenmektedir.",
+    "heading": "Noktaları birleştirme çalışma sayfaları çocuk gelişimi için neden harika?",
+    "description": "Noktaları birleştirme etkinlikleri sadece eğlenceli olmakla kalmıyor, aynı zamanda okul öncesi ve anaokulu öğretmenleri tarafından temel erken öğrenme becerilerini geliştirmek için kullanılan, araştırmalarla desteklenen bir araçtır.",
+    "fineMotorTitle": "İnce motor becerilerini geliştirir.",
+    "fineMotorText": "Noktaları birleştirerek çizgi çizmek, çocukların kalem tutuşunu, el-göz koordinasyonunu ve el yazısı için ihtiyaç duydukları kas kontrolünü geliştirir.",
+    "numberTitle": "Sayı tanıma becerisini güçlendirir.",
+    "numberText": "1 → 2 → 3 noktalarını sırayla takip etmek, oyun yoluyla doğal bir şekilde sayma düzenini, sayı tanımayı ve temel matematik kavramlarını öğretir.",
+    "focusTitle": "Odaklanmayı ve konsantrasyonu artırır.",
+    "focusText": "Noktaları birleştirme bulmacasını tamamlamak sürekli dikkat gerektirir; bu da okul öncesi dönemden 3. sınıfa kadar olan çocuklar için odaklanmayı geliştirmek için sakin ve ekran dışı bir yoldur.",
+    "confidenceTitle": "Anında ödül ve özgüven",
+    "confidenceText": "Gizli resim ortaya çıktığında, çocuklar anında bir başarı duygusu hissederler. Bu küçük zafer, öğrenme sevgisini ve gelişim odaklı bir zihniyeti besler."
+  },
+  "howTo": {
+    "eyebrow": "60 saniyeden kısa sürede hazır",
+    "heading": "Ücretsiz noktaları birleştirme çalışma sayfalarını nasıl indirip yazdırabilirsiniz?",
+    "step1Title": "Bulmacanızı seçin",
+    "step1Text": "Çocuğunuzun yaşına ve beceri seviyesine uygun bir tema (hayvanlar, dinozorlar, araçlar, tatil) ve nokta aralığı seçin.",
+    "step2Title": "Ücretsiz PDF dosyasını indirin.",
+    "step2Text": "\"Ücretsiz yazdırılabilir dosyayı indir\"e tıklayın — hesap gerekmez, e-posta gerekmez, ödeme duvarı yoktur. Tarayıcınız PDF dosyasını anında indirir.",
+    "step3Title": "Yazdırın ve keyfini çıkarın",
+    "step3Text": "Standart ABD Letter (8,5\" × 11\") boyutunda kağıda yazdırın. Siyah beyaz baskı mükemmel sonuç verir. Çocuğunuza verin ve noktaları birleştirmesini izleyin!"
+  },
+  "trust": {
+    "eyebrow": "Veliler ve öğretmenler neden bizi tercih ediyor?",
+    "heading": "Ücretsiz, güvenli ve kullanımı son derece kolay.",
+    "noAccountTitle": "Hesap gerekmiyor.",
+    "noAccountText": "Noktaları birleştirme şablonunun her biri anında indirilir; kayıt olmaya, e-postaya veya ücretli içeriğe gerek yok. Sadece tıklayın ve yazdırın.",
+    "safeTitle": "Sınıf güvenli",
+    "safeText": "Okul yazıcıları için tasarlanmış, temiz ve reklamsız bulmaca sayfaları. Sabah çalışmaları, ödevler veya sakin zamanlar için uygundur.",
+    "fastTitle": "Tasarım gereği hızlı",
+    "fastText": "Statik sayfalar, optimize edilmiş görseller ve yerel yazı tipleri sayesinde bulmacalar telefon, tablet veya dizüstü bilgisayar fark etmeksizin her cihazda hızlı yüklenir."
+  },
+  "faq": {
+    "eyebrow": "Sıkça sorulan sorular",
+    "heading": "Sıkça sorulan sorular",
+    "q1": "Bu sitedeki tüm noktaları birleştirme şablonları tamamen ücretsiz mi?",
+    "a1": "Evet — DotToDotFreePrintables.com'daki tüm noktaları birleştirme çalışma sayfaları %100 ücretsiz olarak indirilebilir ve yazdırılabilir. Hiçbir hesap, abonelik veya kredi kartı gerekmez.",
+    "q2": "Noktaları birleştirme çalışma sayfaları hangi yaş grubu için uygundur?",
+    "a2": "Yazdırılabilir materyallerimiz 2-12 yaş aralığını kapsar. Kolay çalışma sayfaları (10-20 nokta) küçük çocuklar ve okul öncesi çocuklar için uygundur, orta zorluktaki sayfalar (20-50 nokta) anaokulu ve 1. sınıf için idealdir ve daha zor sayfalar (50-200+ nokta) 2. sınıftan 6. sınıfa kadar olan öğrencileri zorlar.",
+    "q3": "Noktaları birleştirme etkinliği şablonları hangi formatta?",
+    "a3": "Tüm çalışma sayfaları, standart ABD Letter (8,5\" × 11\") kağıt boyutuna uygun, yazdırmaya hazır PDF dosyaları olarak indirilir. Herhangi bir tarayıcıda veya PDF görüntüleyicide açın ve yazdırın; özel bir yazılıma gerek yok.",
+    "q4": "Okul öncesi ve anaokulu için noktaları birleştirme çalışma sayfalarınız var mı?",
+    "a4": "Kesinlikle. En kolay çalışma sayfalarımız 1-10 noktadan başlar (2-4 yaş arası için mükemmel) ve okul öncesi ve anaokulu sınıfları için tasarlanmış alfabe ve sayı tanıma temalarını içerir.",
+    "q5": "Öğretmenler bu noktaları birleştirme çalışma sayfalarını sınıfta kullanabilir mi?",
+    "a5": "Evet! Yazdırılabilir materyallerimiz kişisel ve sınıf kullanımı için ücretsizdir. Sabah etkinlikleri, erken bitiren öğrenciler için aktiviteler, yedek ders planları, ince motor beceri merkezleri ve ödev paketleri için oldukça popülerdirler.",
+    "q6": "Noktaları birleştirme bulmacaları ince motor becerilerinin gelişimine yardımcı olur mu?",
+    "a6": "Evet, noktalar arasında çizgi çizmek, el yazısı hazırlığını destekleyen kalem kavrama gücünü ve el-göz koordinasyonunu geliştirir. Bu nedenle birçok ergoterapist ve anaokulu öğretmeni noktaları birleştirme etkinliklerini önermektedir.",
+    "q7": "Hayvanlar veya dinozorlar gibi temalı noktadan noktaya birleştirme oyun şablonlarınız var mı?",
+    "a7": "Hayvanlar, dinozorlar, araçlar, okyanus canlıları, oyun alanları, Amerika'nın 250. Yılı, uzay, fantezi, mevsimsel/tatil temaları, öğretmen çalışma sayfası paketleri ve büyük noktalı kitaplar dahil olmak üzere 11 kategorimiz var. Her hafta yeni tasarımlar ekleniyor.",
+    "q8": "Bu yapbozları siyah beyaz olarak yazdırabilir miyim?",
+    "a8": "Evet, noktaları birleştirme alıştırma sayfalarımızın tamamı mürekkep tasarrufu sağlamak için siyah beyaz baskı için tasarlanmıştır. Herhangi bir ev veya sınıf yazıcısında harika görünürler."
+  },
+  "newsletter": {
+    "eyebrow": "Yazdırılabilir başlangıç ​​paketi — tamamen ücretsiz",
+    "heading": "20 adet ücretsiz noktadan noktaya birleştirme şablonu e-posta kutunuza gelsin.",
+    "description": "Hayvanlar, araçlar, dinozorlar ve mevsimsel temaları kapsayan, ebeveynler ve öğretmenler için uygun bir koleksiyon; tümü standart ABD Letter kağıdına göre boyutlandırılmış ve siyah beyaz baskı için optimize edilmiştir."
+  },
+  "blog": {
+    "eyebrow": "Yetişkinler için fikirler",
+    "heading": "Evde ve sınıfta uygulanabilecek öğrenme ipuçları",
+    "viewAll": "Tüm makaleleri görüntüle",
+    "read": "Okumak"
+  },
+  "feedback": {
+    "eyebrow": "Sizden haber almaktan mutluluk duyarız.",
+    "heading": "Geri bildirim gönder",
+    "description": "Bir bulmaca fikriniz mi var, bozuk bir bağlantı mı fark ettiniz veya sadece merhaba mı demek istiyorsunuz? Aşağıya bir not bırakın."
+  },
+  "footer": {
+    "description": "Çocuklar, ebeveynler ve öğretmenler için ücretsiz noktaları birleştirme ve noktaları birleştirme alıştırma sayfaları. Tüm bulmacalar ücretsiz olarak indirilebilir, yazdırılabilir ve paylaşılabilir.",
+    "kids": "Çocuklar",
+    "parents": "Ebeveynler",
+    "teachers": "Öğretmenler",
+    "blog": "Blog",
+    "faq": "SSS",
+    "feedback": "Geri bildirim",
+    "about": "Hakkında",
+    "contact": "Temas etmek",
+    "privacy": "Mahremiyet",
+    "terms": "Şartlar",
+    "sitemap": "Site Haritası",
+    "copyright": "© {year} DotToDotFreePrintables.com · Çocuklar için ücretsiz yazdırılabilir etkinlikler"
+  },
+  "contactPage": {
+    "title": "Bize Ulaşın",
+    "intro": "Bize ulaşmanın en hızlı yolu e-postadır:",
+    "topicsTitle": "Duymaktan mutluluk duyduğumuz şeyler",
+    "requestsTitle": "Bulmaca istekleri.",
+    "requests": "Çocuğunuzun veya sınıfınızın sevdiği bir temayı ve yaklaşık yaş aralığını bize bildirin; istekler, bir sonraki yayınlarımızı gerçekten şekillendiriyor.",
+    "correctionsTitle": "Düzeltmeler.",
+    "corrections": "Yanlış numaralandırılmış bir nokta, bir baskı sorunu, garip okunan bir çeviri... Bunları bize bildirin, sayfayı düzeltelim.",
+    "licensingTitle": "Sınıf içi ve lisanslama soruları.",
+    "licensing": "Kişisel ve sınıf içi yazdırma zaten ücretsizdir. Bunun ötesindeki her şey için (yeniden yayınlama, paketleme veya ticari kullanım) lütfen önce izin isteyin.",
+    "termsLink": "kullanım şartları",
+    "licensingNote": "(kullanım <link>şartlarımızı</link> görün).",
+    "feedbackTitle": "Geri bildirim.",
+    "feedback": "Neler işe yarıyor, neler yaramıyor, nelerden daha çok hoşlanırdınız?",
+    "responseTitle": "Yanıt süresi",
+    "response": "Bu küçük bir işletme, bu nedenle yanıtlar birkaç gün sürebilir. Düzeltme bildirimlerine öncelik verilir.",
+    "aboutPrefix": "Site ve onu kimin hazırladığı hakkında daha fazla bilgi:",
+    "aboutLink": "Hakkımızda"
+  },
+  "common": {
+    "home": "Ev",
+    "new": "Yeni",
+    "comingSoon": "Yakında gelecek",
+    "downloadFree": "Ücretsiz yazdırılabilir dosyayı indirin.",
+    "viewDownload": "Görüntüle ve İndir",
+    "shareTitle": "{name} Bağlantı Noktası Yazdırılabilir - Ücretsiz PDF",
+    "downloadAria": "Ücretsiz {name} bağlantı noktası yazdırılabilir PDF indirin",
+    "bookmarkTitle": "{name} Bağlantı Noktası Yazdırılabilir – Çocuklar için Ücretsiz PDF",
+    "showSlide": "Slaytı göster {number}",
+    "ageRange": "Yaşlar {min}-{max}",
+    "difficultyLabel": "Zorluk seviyesi {level} (3 üzerinden)",
+    "difficulty": {
+      "1": "Kolay",
+      "2": "Orta",
+      "3": "Zor"
+    },
+    "dots": "1–{count} nokta",
+    "homeVideoEyebrow": "Video",
+    "homeVideoH2": "Noktaları birleştirme oyununun eğlencesini izleyin.",
+    "skipToContent": "Ana içeriğe atla",
+    "joinTeachers": "{count}+ öğretmene katıl",
+    "breadcrumbAria": "İz"
+  },
+  "puzzleDetail": {
+    "agesLabel": "Yaşlar:",
+    "dotsLabel": "Noktalar:",
+    "freeLabel": "%100 Ücretsiz",
+    "difficultyHeading": "Zorluk",
+    "difficultyEasy": "Kolay",
+    "difficultyMedium": "Orta",
+    "difficultyHard": "Zor",
+    "funFactPrefix": "İlginç bir bilgi:",
+    "funFactLabel": "İlginç bir bilgi!",
+    "noSignUp": "Kayıt olmaya gerek yok. PDF olarak açılır. Herhangi bir ABD Letter (8,5 × 11 inç) kağıda yazdırabilirsiniz. Ev ve sınıf kullanımı için ücretsizdir.",
+    "comingSoon": "Ücretsiz PDF İndir – Yakında",
+    "youMightLike": "Bunlar da ilginizi çekebilir",
+    "faqQ1": "{name} noktadan noktaya bulmacası hangi yaş için?",
+    "faqA1": "{age} yaş için tasarlanmıştır. {dots} noktasıyla, {dots}'a kadar güvenle sayabilen çocuklara uygundur; daha küçük çocuklar biraz yardımla tamamlayabilir.",
+    "faqQ2": "{name} çalışma sayfasını nasıl yazdırırım?",
+    "faqA2": "Ücretsiz PDF için indirme düğmesine tıklayın, ardından herhangi bir tarayıcıdan veya PDF okuyucudan normal kağıda (A4 veya US Letter) yazdırın. Özel bir yazılım gerekmez.",
+    "faqQ3": "{name} yazdırılabilir sayfası gerçekten ücretsiz mi?",
+    "faqA3": "Evet — %100 ücretsizdir; kayıt, hesap veya ödeme gerekmez. Ev veya sınıf için yazdırabilirsiniz."
+  },
+  "dinosaursPage": {
+    "eyebrow": "{count} adet ücretsiz yazdırılabilir çalışma sayfası",
+    "h1": "Çocuklar İçin Dinozor Noktaları Birleştirme Çalışma Sayfaları",
+    "description": "Noktaları birleştirerek en sevdiğiniz dinozorları ortaya çıkarın! Tüm çalışma sayfaları ücretsiz olarak indirilebilir ve yazdırılabilir; hesap gerekmez. 4-10 yaş arası çocuklar, okul öncesi, anaokulu ve sınıf kullanımı için mükemmeldir.",
+    "breadcrumb": "Dinozorlar",
+    "category": "Dinozorlar",
+    "slugEyebrow": "Ücretsiz Dinozor Baskısı",
+    "slugH1Suffix": "Noktadan Noktaya Çizim Yazdırılabilir",
+    "backToList": "← Tüm dinozor bulmacalarına geri dön",
+    "relatedEyebrow": "Daha fazla ücretsiz dinozor baskısı",
+    "whyH2": "Çocuklar neden dinozorlu noktaları birleştirme bulmacalarını seviyor?",
+    "whyP": "Dinozor noktaları birleştirme çalışma sayfaları, çocukların sevdiği iki şeyi bir araya getiriyor: tarih öncesi yaratıklar ve gizli resmi bulmanın verdiği tatmin duygusu. Daha da fazla sınıf eğlencesi için bunları diğer <link>noktaları birleştirme çalışma sayfalarımızla</link> birlikte kullanabilirsiniz.",
+    "backToCategories": "← Tüm kategorilere geri dön",
+    "guideH2Suffix": "Noktaları Birleştirme Bulmacası Rehberi"
+  },
+  "oceanPage": {
+    "eyebrow": "{count} adet ücretsiz yazdırılabilir çalışma sayfası",
+    "h1": "Çocuklar için Okyanus Temalı Noktaları Birleştirme Çalışma Sayfaları",
+    "description": "Derin mavilere dalın! Noktaları birleştirerek deniz kızlarını, deniz canlılarını ve okyanus maceralarını keşfedin. Tüm çalışma sayfaları ücretsiz olarak indirilebilir ve yazdırılabilir; hesap gerekmez.",
+    "breadcrumb": "Okyanus",
+    "category": "Okyanus",
+    "slugEyebrow": "Ücretsiz Okyanus Baskısı",
+    "slugH1Suffix": "Noktadan Noktaya Çizim Yazdırılabilir",
+    "backToList": "← Tüm okyanus bulmacalarına geri dön",
+    "relatedEyebrow": "Daha fazla ücretsiz okyanus temalı yazdırılabilir materyal",
+    "whyH2": "Çocuklar okyanus temalı noktaları birleştirme bulmacalarını neden seviyor?",
+    "whyP": "Okyanus temalı noktaları birleştirme çalışma sayfaları, su altı dünyasına olan merakı uyandırırken ince motor becerilerini, sayı sıralamasını ve kalem kontrolünü geliştirir. Daha fazla tema için <link>noktaları birleştirme yazdırılabilir sayfalar</link> kütüphanemizin tamamına göz atın.",
+    "backToCategories": "← Tüm kategorilere geri dön",
+    "guideH2Suffix": "Noktaları Birleştirme Bulmacası Rehberi"
+  },
+  "uaePage": {
+    "eyebrow": "{count} adet ücretsiz yazdırılabilir çalışma sayfası",
+    "h1": "Birleşik Arap Emirlikleri Çocuklar İçin Noktadan Noktaya Birleştirme Şablonları",
+    "description": "Birleşik Arap Emirlikleri'ni keşfedin! Burj Al Arab ve diğer ikonik Emirati simgelerini ortaya çıkarmak için noktaları birleştirin. Tüm çalışma sayfaları ücretsiz olarak indirilebilir ve yazdırılabilir; hesap gerekmez.",
+    "breadcrumb": "Birleşik Arap Emirlikleri",
+    "category": "Birleşik Arap Emirlikleri",
+    "slugEyebrow": "Ücretsiz BAE Yazdırılabilir Belgeleri",
+    "slugH1Suffix": "Noktadan Noktaya Çizim Yazdırılabilir",
+    "backToList": "← Tüm BAE bulmacalarına geri dön",
+    "relatedEyebrow": "Daha fazla ücretsiz BAE yazdırılabilir materyali",
+    "whyH2": "Çocuklar neden BAE nokta birleştirme bulmacalarını seviyor?",
+    "whyP": "Birleşik Arap Emirlikleri temalı noktaları birleştirme çalışma sayfaları, çocukları ünlü yer işaretleriyle tanıştırırken ince motor becerilerini, sayı sıralamasını ve kalem kontrolünü geliştirmelerine yardımcı olur. Daha fazla tema için <link>noktaları birleştirme yazdırılabilir sayfalar</link> kütüphanemizin tamamına göz atın.",
+    "backToCategories": "← Tüm kategorilere geri dön",
+    "guideH2Suffix": "Noktaları Birleştirme Bulmacası Rehberi"
+  },
+  "playgroundsPage": {
+    "eyebrow": "{count, plural, one {# ücretsiz yazdırılabilir çalışma sayfası} other {# ücretsiz yazdırılabilir çalışma sayfası}}",
+    "h1": "Çocuklar İçin Oyun Alanı Temalı Noktadan Noktaya Birleştirme Şablonları",
+    "description": "Oyun alanını evinize getirin! Noktaları birleştirerek salıncakları, kaydırakları ve açık hava eğlencelerini ortaya çıkarın. Tüm çalışma sayfaları ücretsiz olarak indirilebilir ve yazdırılabilir; hesap gerekmez.",
+    "breadcrumb": "Oyun alanları",
+    "category": "Oyun alanları",
+    "slugEyebrow": "Ücretsiz Oyun Alanı Yazdırılabilir Şablonu",
+    "slugH1Suffix": "Noktadan Noktaya Çizim Yazdırılabilir",
+    "backToList": "← Tüm oyun alanı bulmacalarına geri dön",
+    "relatedEyebrow": "Daha fazla ücretsiz oyun alanı yazdırılabilir materyali",
+    "whyH2": "Çocuklar neden oyun alanlarındaki noktaları birleştirme bulmacalarını sever?",
+    "whyP": "Oyun alanı temalı noktaları birleştirme çalışma sayfaları, açık hava oyununun heyecanını kalemle yapılan odaklanmış bir aktiviteyle birleştiriyor. Çocuğunuz bu çalışmayı severse, bir sonraki adımda <link>dinozor noktaları birleştirme yazdırılabilir sayfalar</link> koleksiyonumuza göz atın.",
+    "backToCategories": "← Tüm kategorilere geri dön",
+    "guideH2Suffix": "Noktaları Birleştirme Bulmacası Rehberi"
+  },
+  "gardenPage": {
+    "eyebrow": "{count, plural, one {# ücretsiz yazdırılabilir çalışma sayfası} other {# ücretsiz yazdırılabilir çalışma sayfası}}",
+    "h1": "Çocuklar için Bahçe Temalı Noktaları Birleştirme Çalışma Sayfaları",
+    "description": "Bahçe işlerine başlayın! Noktaları birleştirerek bahçe eldivenlerini, kürekleri ve kullanışlı bahçe aletlerini ortaya çıkarın. Tüm çalışma sayfaları ücretsiz olarak indirilebilir ve yazdırılabilir; hesap gerekmez.",
+    "breadcrumb": "Bahçe",
+    "category": "Bahçe",
+    "slugEyebrow": "Ücretsiz Bahçe Baskısı",
+    "slugH1Suffix": "Noktadan Noktaya Çizim Yazdırılabilir",
+    "backToList": "← Tüm bahçe bulmacalarına geri dön",
+    "relatedEyebrow": "Daha fazla ücretsiz bahçe temalı yazdırılabilir materyal",
+    "whyH2": "Çocuklar neden bahçe temalı noktaları birleştirme bulmacalarını sever?",
+    "whyP": "Bahçe temalı noktaları birleştirme çalışma sayfaları, çocukları faydalı bahçe aletleriyle tanıştırırken ince motor becerilerini, sayı sıralamasını ve kalem kontrolünü geliştirir. Daha fazla tema için <link>noktaları birleştirme yazdırılabilir sayfalar</link> kütüphanemizin tamamına göz atın.",
+    "backToCategories": "← Tüm kategorilere geri dön",
+    "guideH2Suffix": "Noktaları Birleştirme Bulmacası Rehberi"
+  },
+  "cutePage": {
+    "eyebrow": "{count, plural, one {# ücretsiz yazdırılabilir çalışma sayfası} other {# ücretsiz yazdırılabilir çalışma sayfaları}}",
+    "h1": "Çocuklar İçin Sevimli Noktaları Birleştirme Baskıları",
+    "description": "Maksimum tatlılığa hazır olun! Noktaları birleştirerek sevimli köpek yavrularını, minik arabaları ve daha birçok büyüleyici arkadaşı ortaya çıkarın. Tüm çalışma sayfaları ücretsiz olarak indirilebilir ve yazdırılabilir; hesap gerekmez.",
+    "breadcrumb": "Sevimli",
+    "category": "Sevimli",
+    "slugEyebrow": "Ücretsiz Sevimli Yazdırılabilir",
+    "slugH1Suffix": "Noktadan Noktaya Çizim Yazdırılabilir",
+    "backToList": "← Tüm sevimli bulmacalara geri dön",
+    "relatedEyebrow": "Daha fazla ücretsiz sevimli yazdırılabilir dosya",
+    "whyH2": "Çocuklar neden sevimli noktaları birleştirme bulmacalarını sever?",
+    "whyP": "Sevimli noktaları birleştirme çalışma sayfaları, şirin karakterleri ödüllendirici çizim alıştırmalarına dönüştürerek ince motor becerilerini, sayı sıralamasını ve kalem kontrolünü geliştirir. Tüm kütüphanemize göz atın.<link> noktadan noktaya birleştirme yazdırılabilir şablonları</link> Daha fazla tema için.",
+    "backToCategories": "← Tüm kategorilere geri dön",
+    "guideH2Suffix": "Noktaları Birleştirme Bulmacası Rehberi",
+    "colorH2": "Boyama Rehberi: Eğlenceli Renk Fikirleri"
+  },
+  "usa250Page": {
+    "eyebrow": "{count, plural, one {# ücretsiz yazdırılabilir çalışma sayfası} other {# ücretsiz yazdırılabilir çalışma sayfası}}",
+    "h1": "Amerika'nın 250. Yılı Çocuklar İçin Noktaları Birleştirme Etkinliği",
+    "description": "Amerika'nın 250. doğum gününü kutlayın! Vatansever sahneleri ve ikonik Amerikan sembollerini ortaya çıkarmak için noktaları birleştirin. Tüm çalışma sayfaları ücretsiz olarak indirilebilir ve yazdırılabilir; hesap gerekmez.",
+    "breadcrumb": "Amerika'nın 250 Yılı",
+    "category": "Amerika'nın 250 Yılı",
+    "slugEyebrow": "Özgür Amerika 250 Yazdırılabilir",
+    "slugH1Suffix": "Noktadan Noktaya Çizim Yazdırılabilir",
+    "videoEyebrow": "Video",
+    "videoH2": "Amerika 250 yazdırılabilir materyallerini uygulamada görün.",
+    "aboutH2": "Bu Amerika 250 Noktadan Noktaya Birleştirme Bulmacası Hakkında",
+    "backToList": "← Tüm Amerika 250 bulmacasına geri dön",
+    "relatedEyebrow": "Amerika 250 ile ilgili daha fazla ücretsiz yazdırılabilir materyal",
+    "whyH2": "Çocuklar Amerika'yı neden seviyor? 250 noktadan noktaya birleştirme bulmacası",
+    "whyP": "Amerika 250 noktaları birleştirme çalışma sayfaları, vatansever bir kutlama temasıyla ince motor becerilerini, sayı sıralamasını ve kalem kontrolünü geliştirirken Amerikan tarihine dair merak uyandırıyor. Her temada daha fazla <link>1-100 noktaları birleştirme çalışma sayfası</link> keşfedin.",
+    "backToCategories": "← Tüm kategorilere geri dön",
+    "guideH2Suffix": "Noktaları Birleştirme Bulmacası Rehberi",
+    "historySourcePrefix": "Tarih kaynağı:"
+  },
+  "blogPage": {
+    "eyebrow": "Öğrenme kaynakları",
+    "h1": "Ebeveynler ve Öğretmenler İçin Noktaları Birleştirme Fikirleri",
+    "description": "Etkinlikleri seçmek, erken öğrenme becerilerini geliştirmek ve evde veya sınıfta yazdırılabilir çalışma sayfalarını kullanmak için pratik kılavuzlar.",
+    "breadcrumb": "Blog",
+    "latestEyebrow": "Son makaleler",
+    "latestH2": "Bugün kullanabileceğiniz faydalı fikirler",
+    "readArticle": "Makaleyi okuyun",
+    "by": "İle",
+    "backToAll": "← Tüm makalelere geri dön",
+    "savePinterest": "Pinterest'e kaydet",
+    "relatedEyebrow": "Ücretsiz yazdırılabilirler",
+    "relatedHeading": "Sonraki denemelerinizde bu noktaları birleştirme oyunlarını deneyin."
+  },
+  "searchPage": {
+    "eyebrow": "Öğretmenler ve Veliler İçin",
+    "h1": "Mükemmel Bulmacayı Bulun",
+    "description": "İsimle arama yapın, konu veya nokta sayısına göre filtreleyin veya yakın zamanda eklenenlere göz atın — hepsi ücretsiz olarak yazdırılabilir, kayıt olmaya gerek yok."
+  },
+  "puzzleSearch": {
+    "placeholder": "İsim veya konu başlığına göre arama yapın... örneğin okyanus, balina, T-Rex",
+    "searchAria": "Arama bulmacaları",
+    "clearSearch": "Arama sonuçlarını temizle",
+    "toggleFilters": "Filtreleri aç/kapat",
+    "filters": "Filtreler",
+    "filterOptions": "Filtreleme seçenekleri",
+    "topic": "Başlık",
+    "numberOfDots": "Nokta sayısı",
+    "recentlyAddedOnly": "Son eklenenler",
+    "clearAllFilters": "Tüm filtreleri temizle",
+    "clearFilters": "Filtreleri temizle",
+    "resultsFound": "{count, plural, one {# bulmaca bulundu} other {# bulmaca bulundu}}",
+    "puzzlesAvailable": "{count, plural, one {# bulmaca mevcut} other {# bulmaca mevcut}}",
+    "noMatches": "Arama kriterlerinize uygun bulmaca bulunamadı.",
+    "openPuzzle": "{name}'i açın",
+    "imageAlt": "{name} noktadan noktaya birleştirme yazdırılabilir",
+    "viewPuzzle": "Bulmacayı görüntüle →",
+    "dotRanges": {
+      "under35": "35'in altında nokta",
+      "35to50": "35-50 nokta",
+      "51to70": "51-70 nokta",
+      "over70": "70+ nokta"
+    },
+    "categories": {
+      "Dinosaurs": "Dinozorlar",
+      "Ocean": "Okyanus",
+      "Playgrounds": "Oyun alanları",
+      "Garden": "Bahçe",
+      "Cute": "Sevimli",
+      "USA 250 Years": "Amerika'nın 250 Yılı",
+      "UAE": "Birleşik Arap Emirlikleri"
+    }
+  },
+  "newsletterForm": {
+    "ariaLabel": "Ücretsiz noktadan noktaya birleştirme şablonu paketini edinin.",
+    "emailLabel": "E-posta adresi",
+    "submit": "Ücretsiz paket gönder",
+    "honeypot": "Bu alanı boş bırakın",
+    "privacy": "Asla spam göndermeyiz. İstediğiniz zaman aboneliğinizi iptal edebilirsiniz.",
+    "error": "Bu formu gönderemiyorsunuz.",
+    "notConnected": "Ücretsiz paket kaydı henüz bağlanmadı."
+  },
+  "feedbackForm": {
+    "ariaLabel": "Geri bildirim gönder",
+    "notConnected": "Bu geri bildirim formu henüz bağlanmadı.",
+    "typeLabel": "Ne tür bir geri bildirim?",
+    "selectTopic": "Bir konu seçin...",
+    "types": {
+      "general": "Genel geri bildirim",
+      "requestTheme": "Bir bulmaca teması isteyin.",
+      "brokenLink": "Bozuk bağlantıyı bildir",
+      "improvement": "Bir iyileştirme önerin",
+      "other": "Diğer"
+    },
+    "messageLabel": "Mesajınız",
+    "messagePlaceholder": "Düşüncelerinizi bizimle paylaşın...",
+    "emailLabel": "E-posta",
+    "emailOptional": "(İsteğe bağlı - yalnızca yanıt almak istiyorsanız)",
+    "submit": "Geri bildirim gönder",
+    "success": "Teşekkür ederim. Geri bildiriminiz gönderildi.",
+    "disclaimer": "Lütfen hassas kişisel bilgiler eklemeyin. E-posta isteğe bağlıdır ve yalnızca yanıt vermemiz gerektiğinde kullanılır.",
+    "iframeTitle": "Geri bildirim gönderimi"
+  },
+  "downloadButton": {
+    "label": "Ücretsiz Yazdırılabilir PDF'i İndirin",
+    "usage": "Evde ve sınıfta kullanım için ücretsizdir.",
+    "paperNote": "{size} kağıt boyutuna göre ayarlanmıştır.",
+    "paperLetter": "ABD Mektubu",
+    "paperA4": "A4",
+    "alternateLink": "{size} olanı mı tercih ediyorsunuz? O sürümü indirin.",
+    "downloadSize": "İndir (Baskı Boyutu: {size})"
+  },
+  "downloadBadge": {
+    "downloaded": "İndirildi",
+    "times": "kez",
+    "greatChoice": "Harika bir seçim yaptınız!"
+  },
+  "bookmarkButton": {
+    "regionLabel": "Bu sayfayı yer işaretlerinize ekleyin.",
+    "shortcut": "Yer imi eklemek için <shortcut></shortcut> tuşuna basın!",
+    "dismiss": "Azletmek",
+    "shared": "Paylaşıldı!",
+    "buttonAria": "Bu bulmaca sayfasını kaydedin veya paylaşın.",
+    "buttonTitle": "Bu bulmacayı kaydedin",
+    "saved": "Kaydedildi!",
+    "save": "Kaydetmek"
+  },
+  "languageSwitcher": {
+    "label": "Dil",
+    "selectLabel": "Dil seçin",
+    "en": "İngilizce",
+    "fr": "Fransızca",
+    "es": "İspanyolca",
+    "de": "Almanca",
+    "pt": "Portekizce",
+    "it": "İtalyanca",
+    "nl": "Hollanda",
+    "sv": "İsveççe",
+    "no": "Norveççe",
+    "pl": "Lehçe",
+    "da": "Danca",
+    "fi": "Fince",
+    "cs": "Çektina",
+    "hu": "Macar",
+    "ro": "Romence"
+  },
+  "shareButtons": {
+    "label": "Paylaşmak",
+    "copyLink": "Bağlantıyı kopyala",
+    "copied": "Bağlantı kopyalandı!",
+    "shareMe": "Beni paylaş"
+  },
+  "bookmark": {
+    "save": "Bu sayfayı yer işaretlerinize ekleyin.",
+    "saved": "Yer işaretlerine kaydedildi",
+    "labelText": "Bu sayfayı yer işaretlerinize ekleyin.",
+    "hint": "Bu sayfayı yer işaretlerine eklemek için Ctrl+D (veya Mac'te ⌘+D) tuşlarına basın."
+  },
+  "purchase": {
+    "premium": {
+      "metaTitle": "2026'nın En İyisi Premium Noktadan Noktaya Bulmaca Paketi",
+      "metaDescription": "Çocuklara yönelik en sevilen noktadan noktaya bulmacaların baskıya hazır bir koleksiyonu, kullanışlı tek bir PDF dosyasında bir araya getirildi.",
+      "eyebrow": "Premium yazdırılabilir koleksiyon",
+      "heading": "Daha fazla bulmaca. Daha az arama. Her şey kullanışlı tek bir PDF'de.",
+      "lede": "2026'nın En İyileri koleksiyonu, sessiz zamanlar, yağmurlu günler, evde eğitim ve sınıflar için favori noktaları birleştirme aktivitelerimizi basması kolay tek bir pakette bir araya getiriyor.",
+      "digitalPdf": "Dijital PDF",
+      "printAtHome": "Evde yazdırın",
+      "instantAccess": "Anında erişim",
+      "purchaseAria": "2026'nın En İyisi bulmaca paketini satın alın",
+      "coverAlt": "2026'nın En İyileri - 25 Noktadan Noktaya Bulmaca kitap kapağı",
+      "oneTime": "bir kez",
+      "buyButton": "Bulmaca paketini edinin",
+      "localNote": "Localhost'ta bu, güvenli bir ödeme demosu açar ve hiçbir zaman karttan ücret alınmaz.",
+      "detailsEyebrow": "Kolay yazdırma ve oynatma için tasarlandı",
+      "detailsHeading": "Ekransız eğlence için ihtiyacınız olan her şey",
+      "detailsText": "Bir kez indirin, elinizin altında bulundurun ve istediğiniz etkinlikleri ihtiyaç duyduğunuz anda yazdırın.",
+      "benefits": {
+        "onePdf": "Kullanışlı, baskıya hazır bir PDF",
+        "kidFriendly": "Çeşitli zorluk derecelerine sahip çocuklara uygun bulmacalar",
+        "paperSizes": "US Letter ve A4 kağıt üzerinde çalışır",
+        "instantAccess": "Başarılı ödeme sonrasında anında erişim",
+        "classroomUse": "Evde veya bir sınıfta kullanın"
+      },
+      "guaranteeHeading": "Basit, güvenli ve dakikalar içinde hazır",
+      "guaranteeText": "Ödeme yaptıktan sonra özel indirme bağlantınız hemen görünür. Abonelik yok ve sürpriz yenileme yok."
+    },
+    "checkout": {
+      "consent": "Bu dijital PDF'nin derhal teslim edilmesini kabul ediyorum ve erişim başladıktan sonra satışın nihai olduğunu ve yasaların gerektirdiği durumlar veya dosyanın teslim edilmemesi veya kusurlu olması dışında iade yapılmayacağını anlıyorum.",
+      "refundPolicy": "Geri ödeme politikasını okuyun",
+      "opening": "Ödeme işlemi açılıyor...",
+      "secureNote": "Stripe tarafından desteklenen güvenli ödeme. Bir kerelik ödeme. Abonelik yok.",
+      "error": "Ödeme işlemi başlatılırken bir şeyler ters gitti. Lütfen tekrar deneyin."
+    },
+    "success": {
+      "metaTitle": "Satın Aldığınız İçin Teşekkür Ederiz",
+      "eyebrow": "Ödeme onaylandı",
+      "heading": "Teşekkür ederim! Satın alma işleminiz tamamlandı.",
+      "lede": "Ödemeniz başarılı oldu. Satın alma işleminizin hesabınızda görünmesi birkaç saniye sürebilir."
+    },
+    "cancelled": {
+      "metaTitle": "Ödeme İptal Edildi",
+      "eyebrow": "Ödeme alınmadı",
+      "heading": "Ödeme iptal edildi",
+      "lede": "Hiçbir ücret alınmadı. İstediğiniz zaman tekrar deneyebilirsiniz."
+    },
+    "download": {
+      "demoTitle": "Yerel ödeme testi geçildi.",
+      "demoText": "Gerçek ücretli başarı ekranı burada PDF indirme düğmesini gösterir. Yerel demo özel dosyayı yayınlamaz.",
+      "button": "Bulmaca paketinizi indirin",
+      "expires": "Bu bağlantının süresi 24 saat içinde dolacaktır. İndirdiğiniz dosyayı güvenli bir yere kaydedin.",
+      "failed": "Satın alma işleminizi henüz onaylayamadık. Sizden ücret alındıysa lütfen bir dakika içinde bu sayfayı yenileyin veya yardım için bizimle iletişime geçin.",
+      "preparing": "İndirme işleminiz hazırlanıyor..."
+    },
+    "ad": {
+      "advertisementAria": "Reklam: 2026'nın En İyileri noktadan noktaya aktivite kitabı",
+      "viewPackAria": "2026'nın En İyisi noktadan noktaya bulmaca paketini görüntüleyin",
+      "pdfBook": "PDF KİTAP",
+      "bookTitle": "2026'nın En İyileri",
+      "packName": "Noktadan Noktaya Bulmaca Paketi",
+      "puzzleCount": "25 Noktadan Noktaya Bulmaca",
+      "viewBook": "Kitabı görüntüle"
+    },
+    "shared": {
+      "specialSale": "Özel indirim",
+      "returnToPack": "Bulmaca paketine geri dön",
+      "contactUs": "Bize Ulaşın"
+    }
+  },
+  "homepageUi": {
+    "title": "Mükemmel noktadan noktaya yazdırılabilirleri bulun",
+    "description": "Yazdırın, noktaları birleştirin ve harika resimlere hayat verin. Ücretsiz ve eğlenceye hazır!",
+    "searchPlaceholder": "Okyanus, dinozor veya çiçek deneyin",
+    "filterPuzzles": "Bulmacaları filtrele",
+    "age": "Yaş",
+    "dots": "nokta",
+    "featuredPuzzles": "Öne çıkan yazdırılabilir bulmacalar",
+    "savePuzzle": "{name} kaydet",
+    "removeSavedPuzzle": "{name} öğesini kayıtlılardan kaldır",
+    "downloads": "indirme",
+    "bookTitle": "2026'nın en iyileri · {count}",
+    "bookDescription": "En sevdiğimiz noktadan noktaya bulmacalar tek bir yazdırılabilir PDF kitapta.",
+    "searchUnavailable": "Arama geçici olarak kullanılamıyor. Lütfen tekrar deneyin.",
+    "popularEyebrow": "Bu hafta popüler",
+    "mostDownloaded": "En çok indirilen bulmacalar",
+    "downloadCountAria": "{count} veya daha fazla indirme",
+    "freshPrintables": "Yeni yazdırılabilirler",
+    "recentlyAdded": "Son eklenenler",
+    "browseCategories": "Bulmaca kategorilerini gez",
+    "openCategories": "Kategoriler menüsünü aç",
+    "closeCategories": "Kategoriler menüsünü kapat",
+    "browseByTheme": "Temaya göre gez",
+    "quickLinks": "Hızlı bağlantılar",
+    "bundlePacks": "Paketler",
+    "parentsTeachers": "Ebeveynler ve Öğretmenler için",
+    "more": "Daha fazla kategori",
+    "kids": "Çocuklar",
+    "categoryNames": {
+      "cute": "Şirin Bulmacalar",
+      "flowers": "Çiçekler"
+    }
+  },
+  "circusPage": {
+    "eyebrow": "{count, plural, one {# ücretsiz yazdırılabilir çalışma sayfası} other {# ücretsiz yazdırılabilir çalışma sayfaları}}",
+    "h1": "Çocuklar için Sirk Nokta Bağlama Yazdırmaları",
+    "description": "Ücretsiz sirk nokta bağlama yazdırmaları için hemen gelin, dost canlısı bir ringmaster ayısı ve çizgili büyük çadırı içeren. Sayma ve kalem pratiği için her iki PDF çalışma sayfasını indirin ve yazdırın.",
+    "breadcrumb": "Sirk",
+    "category": "Sirk",
+    "slugEyebrow": "Ücretsiz Sirk Yazdırması",
+    "backToList": "? Back to all circus puzzles",
+    "relatedEyebrow": "Daha fazla ücretsiz sirk yazdırması",
+    "whyH2": "Çocuklar neden sirk nokta bağlama bulmacalarını sever",
+    "whyP": "Sirk nokta bağlama çalışma sayfaları, büyük çadırın heyecanını odaklanmış sayma ve kalem pratiğine dönüştürüyor. Bir sonraki olarak <link>dinozor nokta bağlama yazdırması</link> koleksiyonumuzu deneyin.",
+    "backToCategories": "? Back to all categories",
+    "guideH2Suffix": "Nokta Bağlama Bulmaca Rehberi",
+    "slugH1Suffix": "Nokta Bağlama Yazdırması"
+  },
+  "spacePage": {
+    "eyebrow": "{count, plural, one {# ücretsiz yazdırılabilir bulmaca} other {# ücretsiz yazdırılabilir bulmacalar}}",
+    "h1": "Çocuklar için Ücretsiz Uzay Nokta Bağlama Yazdırmaları",
+    "description": "Ücretsiz uzay nokta bağlama çalışma sayfaları ile fırlatmaya başlayın. Bugün dost canlısı bir rover bulmacası yazdırın, daha fazla roket, gezegen ve kozmik macera yakında geliyor.",
+    "breadcrumb": "Uzay",
+    "category": "Uzay",
+    "slugEyebrow": "Uzay nokta bağlama",
+    "slugH1Suffix": "Nokta Bağlama Yazdırması",
+    "backToList": "Uzay bulmacalarına geri dön",
+    "openAria": "{name} noktaları birleştir"
+  },
+  "usa250HouseAd": {
+    "ariaLabel": "Öne Çıkan Amerika 250 noktaları birleştir yazdırılabilir",
+    "eyebrow": "Öne Çıkan",
+    "heading": "Amerika 250 yazdırılabilir",
+    "imageAlt": "{name} noktaları birleştir yazdırılabilir"
+  }
+}

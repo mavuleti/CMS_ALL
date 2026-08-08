@@ -9,6 +9,11 @@
 
   <ng-container *ngIf="activeTab === 'form'">
 
+  <div class="visibility-legend" aria-label="Published page field visibility">
+    <span><span class="visibility-dot visible"></span><strong>Visible on page</strong> — visitors can read this content</span>
+    <span><span class="visibility-dot hidden"></span><strong>Hidden metadata</strong> — used by the URL, search engines, and social sharing</span>
+  </div>
+
   <section class="card import-section">
     <h2>📥 Import JSON <small>(load an existing entry to edit)</small></h2>
     <div class="field-row">
@@ -24,13 +29,13 @@
     <div class="error" *ngIf="importError">{{ importError }}</div>
   </section>
 
-  <form [formGroup]="form" (ngSubmit)="onGenerate()" data-testid="puzzle-form">
+  <form [formGroup]="form" (focusout)="validateOnBlur()" (ngSubmit)="onGenerate()" data-testid="puzzle-form">
 
     <!-- ============================================================ -->
     <!-- SLUG                                                          -->
     <!-- ============================================================ -->
-    <section class="card">
-      <h2>Page Identity</h2>
+    <section class="card visibility-hidden">
+      <h2>Page Identity <span class="visibility-badge hidden">Hidden metadata</span></h2>
       <div class="field">
         <label for="slug">Slug <span class="req">*</span></label>
         <input data-testid="field-slug" aria-required="true" id="slug" type="text" formControlName="slug" placeholder="cute-puppy-dot-to-dot-puzzle">
@@ -46,8 +51,8 @@
     <!-- ============================================================ -->
     <!-- HEADER SECTION                                                -->
     <!-- ============================================================ -->
-    <section class="card header-section" formGroupName="header">
-      <h2>🔖 Header <small>(&lt;head&gt; content — SEO, Open Graph, JSON-LD)</small></h2>
+    <section class="card header-section visibility-hidden" formGroupName="header">
+      <h2>🔖 Header <span class="visibility-badge hidden">Hidden metadata</span> <small>(&lt;head&gt; content — SEO, Open Graph, JSON-LD)</small></h2>
 
       <div class="field">
         <label for="header-title">Title tag — header.title <span class="req">*</span></label>
@@ -139,7 +144,10 @@
           <label for="ld-image">json_ld.image (URL) <span class="req">*</span></label>
           <input data-testid="field-image" aria-required="true" id="ld-image" type="text" formControlName="image" placeholder="https://dottodotfreeprintables.com/images/cute-puppy.jpg">
           <div class="tip">💡 {{ tips.header.json_ld.image }}</div>
-          <div class="error" *ngIf="isInvalid('header.json_ld.image')">Image URL is required.</div>
+          <div class="error" *ngIf="isInvalid('header.json_ld.image')">
+            <span *ngIf="form.get('header.json_ld.image').errors?.required">Image URL is required.</span>
+            <span *ngIf="form.get('header.json_ld.image').errors?.imageUrl">Enter a full image URL ending in .jpg, .jpeg, .png, .webp, .gif, or .svg.</span>
+          </div>
         </div>
 
         <div class="field">
@@ -159,8 +167,8 @@
     <!-- ============================================================ -->
     <!-- BODY SECTION                                                  -->
     <!-- ============================================================ -->
-    <section class="card body-section" formGroupName="body">
-      <h2>📄 Body <small>(&lt;body&gt; content — visible page copy)</small></h2>
+    <section class="card body-section visibility-visible" formGroupName="body">
+      <h2>📄 Body <span class="visibility-badge visible">Visible on page</span> <small>(&lt;body&gt; content — visible page copy)</small></h2>
 
       <div class="field">
         <label for="body-h1">H1 tag — body.h1 <span class="req">*</span></label>
@@ -387,6 +395,11 @@
     <section class="card preview-card">
       <h2>📄 Page preview</h2>
       <article class="puzzle-preview">
+        <img
+          class="pv-image"
+          *ngIf="form.value.header?.json_ld?.image"
+          [src]="form.value.header.json_ld.image"
+          [alt]="form.value.header?.og?.image_alt || ''">
         <p class="pv-tagline">{{ form.value.body?.tagline || 'Tagline goes here' }}</p>
         <h1 class="pv-h1">{{ form.value.body?.h1 || 'H1 heading will appear here' }}</h1>
         <p class="pv-desc">{{ form.value.body?.description || 'Description goes here.' }}</p>

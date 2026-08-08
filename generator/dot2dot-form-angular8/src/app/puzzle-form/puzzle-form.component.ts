@@ -1,12 +1,14 @@
-import { Component, EventEmitter, HostListener, OnInit, Output, SecurityContext } from '@angular/core';
+import { Component, EventEmitter, HostListener, Input, OnInit, Output, SecurityContext } from '@angular/core';
 import { AbstractControl, FormArray, FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { FIELD_RULES } from '../models/field-rules';
 import { FIELD_TIPS } from '../models/field-tips';
-import { dotRangeValidator, hexColorValidator, slugFormatValidator } from '../validators/custom-validators';
+import { blocklistValidator, dotRangeValidator, hexColorValidator, imageUrlValidator, languageScriptValidator, slugFormatValidator } from '../validators/custom-validators';
 import { PuzzleEntry } from '../models/puzzle-entry.model';
 import { CommonModule } from '@angular/common';
 import { ReactiveFormsModule } from '@angular/forms';
 import { DomSanitizer } from '@angular/platform-browser';
+import { EnglishReviewDirective } from './english-review.directive';
+import { EnglishReviewService } from './english-review.service';
 
 export type EntryStatus = 'draft' | 'validated' | 'submitted';
 
@@ -18,17 +20,22 @@ export interface VersionSnapshot {
 interface ValidationIssue {
   path: string;
   message: string;
+  severity: 'error' | 'warning';
 }
 
 @Component({
   selector: 'app-puzzle-form',
   standalone: true,
-  imports: [CommonModule, ReactiveFormsModule],
+  imports: [CommonModule, ReactiveFormsModule, EnglishReviewDirective],
   templateUrl: './puzzle-form.component.html',
   styleUrls: ['./puzzle-form.component.scss']
 })
 export class PuzzleFormComponent implements OnInit {
   @Output() versionSaved = new EventEmitter<VersionSnapshot>();
+  @Input() contentLanguage = 'en';
+  @Input() set englishReference(value: any) {
+    this.reviews.setReference(value ? this.normalizeEntry(value) : null);
+  }
 
   rules = FIELD_RULES;
   tips = FIELD_TIPS;
@@ -38,10 +45,12 @@ export class PuzzleFormComponent implements OnInit {
   validationResult: 'valid' | 'invalid' = null;
   invalidFieldCount = 0;
   validationIssues: ValidationIssue[] = [];
+  get errorIssues(): ValidationIssue[] { return this.validationIssues.filter(issue => issue.severity === 'error'); }
+  get warningIssues(): ValidationIssue[] { return this.validationIssues.filter(issue => issue.severity === 'warning'); }
   importError: string = null;
   activeTab: 'form' | 'preview' = 'form';
 
-  constructor(private fb: FormBuilder, private sanitizer: DomSanitizer) {}
+  constructor(private fb: FormBuilder, private sanitizer: DomSanitizer, private reviews: EnglishReviewService) {}
 
   ngOnInit(): void {
     this.form = this.buildForm();
@@ -57,37 +66,42 @@ export class PuzzleFormComponent implements OnInit {
 
   private buildForm(): FormGroup {
     const r = this.rules;
+    const text = (...validators: any[]) => [
+      ...validators,
+      languageScriptValidator(() => this.contentLanguage),
+      blocklistValidator()
+    ];
 
     return this.fb.group({
       slug: ['', [Validators.required, slugFormatValidator()]],
 
       header: this.fb.group({
-        title: ['', [Validators.required, Validators.minLength(r.header.title.minLength), Validators.maxLength(r.header.title.maxLength)]],
-        meta_description: ['', [Validators.required, Validators.minLength(r.header.meta_description.minLength), Validators.maxLength(r.header.meta_description.maxLength)]],
+        title: ['', text(Validators.required, Validators.minLength(r.header.title.minLength), Validators.maxLength(r.header.title.maxLength))],
+        meta_description: ['', text(Validators.required, Validators.minLength(r.header.meta_description.minLength), Validators.maxLength(r.header.meta_description.maxLength))],
         og: this.fb.group({
-          title: ['', [Validators.required, Validators.maxLength(r.header.og.title.maxLength)]],
-          description: ['', [Validators.required, Validators.maxLength(r.header.og.description.maxLength)]],
-          image_alt: ['', [Validators.required, Validators.maxLength(r.header.og.image_alt.maxLength)]]
+          title: ['', text(Validators.required, Validators.maxLength(r.header.og.title.maxLength))],
+          description: ['', text(Validators.required, Validators.maxLength(r.header.og.description.maxLength))],
+          image_alt: ['', text(Validators.required, Validators.maxLength(r.header.og.image_alt.maxLength))]
         }),
         json_ld: this.fb.group({
           type: ['CreativeWork', Validators.required],
-          name: ['', Validators.required],
-          description: ['', [Validators.required, Validators.maxLength(r.header.json_ld.description.maxLength)]],
-          image: ['', Validators.required],
-          educational_use: ['', Validators.required],
-          age_range: ['', Validators.required]
+          name: ['', text(Validators.required)],
+          description: ['', text(Validators.required, Validators.maxLength(r.header.json_ld.description.maxLength))],
+          image: ['', [Validators.required, imageUrlValidator()]],
+          educational_use: ['', text(Validators.required)],
+          age_range: ['', text(Validators.required)]
         })
       }),
 
       body: this.fb.group({
-        h1: ['', [Validators.required, Validators.minLength(r.body.h1.minLength), Validators.maxLength(r.body.h1.maxLength)]],
-        name: ['', [Validators.required, Validators.maxLength(r.body.name.maxLength)]],
-        tagline: ['', [Validators.required, Validators.maxLength(r.body.tagline.maxLength)]],
-        description: ['', [Validators.required, Validators.minLength(r.body.description.minLength), Validators.maxLength(r.body.description.maxLength)]],
-        fun_fact: ['', [Validators.required, Validators.minLength(r.body.fun_fact.minLength), Validators.maxLength(r.body.fun_fact.maxLength)]],
+        h1: ['', text(Validators.required, Validators.minLength(r.body.h1.minLength), Validators.maxLength(r.body.h1.maxLength))],
+        name: ['', text(Validators.required, Validators.maxLength(r.body.name.maxLength))],
+        tagline: ['', text(Validators.required, Validators.maxLength(r.body.tagline.maxLength))],
+        description: ['', text(Validators.required, Validators.minLength(r.body.description.minLength), Validators.maxLength(r.body.description.maxLength))],
+        fun_fact: ['', text(Validators.required, Validators.minLength(r.body.fun_fact.minLength), Validators.maxLength(r.body.fun_fact.maxLength))],
         dot_guide: this.fb.group({
-          intro: ['', [Validators.required, Validators.minLength(r.body.dot_guide.intro.minLength)]],
-          outro: ['', [Validators.required, Validators.minLength(r.body.dot_guide.outro.minLength)]],
+          intro: ['', text(Validators.required, Validators.minLength(r.body.dot_guide.intro.minLength))],
+          outro: ['', text(Validators.required, Validators.minLength(r.body.dot_guide.outro.minLength))],
           sections: this.fb.array([this.buildSection()]),
           color_schemes: this.fb.array([this.buildColorScheme()])
         })
@@ -96,28 +110,31 @@ export class PuzzleFormComponent implements OnInit {
   }
 
   private buildSection(): FormGroup {
+    const language = languageScriptValidator(() => this.contentLanguage);
     return this.fb.group({
       range: ['', [Validators.required, dotRangeValidator()]],
-      title: ['', [Validators.required, Validators.maxLength(this.rules.body.dot_guide.section.title.maxLength)]],
-      learn: ['', [Validators.required, Validators.minLength(this.rules.body.dot_guide.section.learn.minLength)]],
-      fact: ['', [Validators.required, Validators.minLength(this.rules.body.dot_guide.section.fact.minLength)]]
+      title: ['', [Validators.required, Validators.maxLength(this.rules.body.dot_guide.section.title.maxLength), language, blocklistValidator()]],
+      learn: ['', [Validators.required, Validators.minLength(this.rules.body.dot_guide.section.learn.minLength), language, blocklistValidator()]],
+      fact: ['', [Validators.required, Validators.minLength(this.rules.body.dot_guide.section.fact.minLength), language, blocklistValidator()]]
     });
   }
 
   private buildMapping(): FormGroup {
+    const language = languageScriptValidator(() => this.contentLanguage);
     return this.fb.group({
       range: ['', [Validators.required, dotRangeValidator()]],
-      part: ['', Validators.required],
-      color: ['', Validators.required],
+      part: ['', [Validators.required, language, blocklistValidator()]],
+      color: ['', [Validators.required, language, blocklistValidator()]],
       hex: ['', [Validators.required, hexColorValidator()]],
-      why: ['', Validators.required]
+      why: ['', [Validators.required, language, blocklistValidator()]]
     });
   }
 
   private buildColorScheme(): FormGroup {
+    const language = languageScriptValidator(() => this.contentLanguage);
     return this.fb.group({
-      name: ['', Validators.required],
-      note: ['', Validators.required],
+      name: ['', [Validators.required, language, blocklistValidator()]],
+      note: ['', [Validators.required, language, blocklistValidator()]],
       mapping: this.fb.array([this.buildMapping()])
     });
   }
@@ -189,9 +206,10 @@ export class PuzzleFormComponent implements OnInit {
 
   validateForm(saveVersion = true): boolean {
     this.submitted = true;
-    this.form.updateValueAndValidity();
-    this.validationIssues = this.collectControlIssues(this.form).concat(this.collectCrossFieldIssues());
-    this.invalidFieldCount = this.validationIssues.length;
+    this.refreshValidity(this.form);
+    this.validationIssues = this.collectControlIssues(this.form)
+      .concat(this.collectCrossFieldIssues(), this.collectReviewWarnings());
+    this.invalidFieldCount = this.errorIssues.length;
     this.validationResult = this.invalidFieldCount ? 'invalid' : 'valid';
 
     if (this.invalidFieldCount) {
@@ -206,6 +224,16 @@ export class PuzzleFormComponent implements OnInit {
       this.versionSaved.emit({ status: 'validated', data: this.snapshotWithStatus('validated') });
     }
     return true;
+  }
+
+  validateOnBlur(): void {
+    setTimeout(() => {
+      this.refreshValidity(this.form);
+      const controlIssues = this.collectControlIssues(this.form, '', true);
+      this.validationIssues = controlIssues.concat(this.collectReviewWarnings());
+      this.invalidFieldCount = this.errorIssues.length;
+      this.validationResult = this.invalidFieldCount ? 'invalid' : null;
+    });
   }
 
   saveDraft(): void {
@@ -257,46 +285,78 @@ export class PuzzleFormComponent implements OnInit {
   }
 
   focusIssue(path: string): void {
+    this.activeTab = 'form';
     const controlName = path.split('.').pop().replace(/\[\d+\]/g, '');
-    const element = document.querySelector(`[formControlName="${controlName}"]`) as HTMLElement;
-    if (element) {
+    const section = path.match(/sections\[(\d+)\]/);
+    const mapping = path.match(/color_schemes\[(\d+)\]\.mapping\[(\d+)\]/);
+    const scheme = path.match(/color_schemes\[(\d+)\]/);
+    let selector = `[formControlName="${controlName}"]`;
+    if (mapping) {
+      selector = `[data-testid="mapping-${mapping[1]}-${mapping[2]}"] ${selector}`;
+    } else if (section) {
+      selector = `[data-testid="section-${section[1]}"] ${selector}`;
+    } else if (scheme) {
+      selector = `[data-testid="scheme-${scheme[1]}"] ${selector}`;
+    } else {
+      const groups = path.split('.').slice(0, -1);
+      selector = groups.map(group => `[formGroupName="${group}"]`).join(' ') + ' ' + selector;
+    }
+    setTimeout(() => {
+      const element = document.querySelector(selector) as HTMLElement;
+      if (!element) { return; }
       element.focus();
       element.scrollIntoView({ behavior: 'smooth', block: 'center' });
-    }
+    });
   }
 
-  private collectControlIssues(control: AbstractControl, path = ''): ValidationIssue[] {
+  private collectControlIssues(control: AbstractControl, path = '', touchedOnly = false): ValidationIssue[] {
     if (control instanceof FormGroup) {
       return Object.keys(control.controls).reduce((issues, key) =>
-        issues.concat(this.collectControlIssues(control.controls[key], path ? `${path}.${key}` : key)), [] as ValidationIssue[]);
+        issues.concat(this.collectControlIssues(control.controls[key], path ? `${path}.${key}` : key, touchedOnly)), [] as ValidationIssue[]);
     }
     if (control instanceof FormArray) {
       return control.controls.reduce((issues, child, index) =>
-        issues.concat(this.collectControlIssues(child, `${path}[${index}]`)), [] as ValidationIssue[]);
+        issues.concat(this.collectControlIssues(child, `${path}[${index}]`, touchedOnly)), [] as ValidationIssue[]);
     }
-    if (!control.invalid) { return []; }
+    if (!control.invalid || (touchedOnly && !control.touched)) { return []; }
     const rules = Object.keys(control.errors || {}).join(', ');
-    return [{ path, message: rules ? `Fails: ${rules}` : 'Invalid value' }];
+    return [{ path, message: rules ? `Fails: ${rules}` : 'Invalid value', severity: 'error' }];
+  }
+
+  private collectReviewWarnings(): ValidationIssue[] {
+    if (this.contentLanguage === 'en') { return []; }
+    return this.reviews.untranslatedPaths(this.form.getRawValue()).map(path => ({
+      path,
+      message: 'Still matches the English source — review the translation.',
+      severity: 'warning' as const
+    }));
+  }
+
+  private refreshValidity(control: AbstractControl): void {
+    if (control instanceof FormGroup || control instanceof FormArray) {
+      Object.keys(control.controls).forEach(key => this.refreshValidity(control.controls[key]));
+    }
+    control.updateValueAndValidity({ onlySelf: true, emitEvent: false });
   }
 
   private collectCrossFieldIssues(): ValidationIssue[] {
     const value = this.form.getRawValue();
     const issues: ValidationIssue[] = [];
     if (value.header.json_ld.name !== value.body.name) {
-      issues.push({ path: 'header.json_ld.name', message: 'Must match body.name.' });
+      issues.push({ path: 'header.json_ld.name', message: 'Must match body.name.', severity: 'error' });
     }
 
     const sectionRanges = (value.body.dot_guide.sections || []).map(section => this.parseRange(section.range));
     sectionRanges.forEach((range, index) => {
       if (index && range && sectionRanges[index - 1] && range[0] !== sectionRanges[index - 1][1] + 1) {
-        issues.push({ path: `body.dot_guide.sections[${index}].range`, message: 'Ranges must be continuous and non-overlapping.' });
+        issues.push({ path: `body.dot_guide.sections[${index}].range`, message: 'Ranges must be continuous and non-overlapping.', severity: 'error' });
       }
     });
     const validRanges = new Set((value.body.dot_guide.sections || []).map(section => section.range));
     (value.body.dot_guide.color_schemes || []).forEach((scheme, schemeIndex) => {
       (scheme.mapping || []).forEach((mapping, mappingIndex) => {
         if (mapping.range && !validRanges.has(mapping.range)) {
-          issues.push({ path: `body.dot_guide.color_schemes[${schemeIndex}].mapping[${mappingIndex}].range`, message: 'Must match a dot-guide section range.' });
+          issues.push({ path: `body.dot_guide.color_schemes[${schemeIndex}].mapping[${mappingIndex}].range`, message: 'Must match a dot-guide section range.', severity: 'error' });
         }
       });
     });
@@ -304,7 +364,7 @@ export class PuzzleFormComponent implements OnInit {
     const titleCounts = [value.header.title, value.body.h1, value.body.description]
       .map(text => this.firstNumber(text)).filter(count => count !== null);
     if (titleCounts.length > 1 && titleCounts.some(count => count !== titleCounts[0])) {
-      issues.push({ path: 'header.title', message: 'Dot counts disagree across title, H1, or description.' });
+      issues.push({ path: 'header.title', message: 'Dot counts disagree across title, H1, or description.', severity: 'error' });
     }
     return issues;
   }

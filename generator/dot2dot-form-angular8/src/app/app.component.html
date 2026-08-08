@@ -1,9 +1,29 @@
 <div class="cms-shell">
   <app-puzzle-menu (puzzleSelected)="onPuzzleSelected($event)" (translationSummaryReady)="onTranslationSummary($event)"></app-puzzle-menu>
   <div class="cms-main">
-    <app-puzzle-form (versionSaved)="onVersionSaved($event)"></app-puzzle-form>
+    <app-puzzle-form [contentLanguage]="contentLanguage" [englishReference]="englishReference" (versionSaved)="onVersionSaved($event)"></app-puzzle-form>
   </div>
   <aside class="version-panel" aria-label="Saved versions" data-testid="version-panel">
+    <section class="sidebar-validation errors" *ngIf="puzzleForm.errorIssues.length" data-testid="sidebar-validation">
+      <h2>Errors ({{ puzzleForm.errorIssues.length }})</h2>
+      <ol>
+        <li *ngFor="let issue of puzzleForm.errorIssues">
+          <button type="button" (click)="puzzleForm.focusIssue(issue.path)">
+            <code>{{ issue.path }}</code><span>{{ issue.message }}</span>
+          </button>
+        </li>
+      </ol>
+    </section>
+    <section class="sidebar-validation warnings" *ngIf="puzzleForm.warningIssues.length" data-testid="sidebar-warnings">
+      <h2>Review warnings ({{ puzzleForm.warningIssues.length }})</h2>
+      <ol>
+        <li *ngFor="let issue of puzzleForm.warningIssues">
+          <button type="button" (click)="puzzleForm.focusIssue(issue.path)">
+            <code>{{ issue.path }}</code><span>{{ issue.message }}</span>
+          </button>
+        </li>
+      </ol>
+    </section>
     <h2>Versions</h2>
     <p class="version-help">Five versions per puzzle. The latest saved version loads automatically.</p>
     <div class="history-actions">

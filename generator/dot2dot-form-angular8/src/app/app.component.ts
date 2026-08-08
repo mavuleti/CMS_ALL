@@ -19,6 +19,8 @@ export class AppComponent implements AfterViewInit {
   activeEntryKey = 'manual:untitled';
   diffLines: string[] = [];
   translationSummary: TranslationSummary[] = [];
+  contentLanguage = 'en';
+  englishReference: any = null;
   private saveQueue: Promise<void> = Promise.resolve();
 
   constructor(private storage: DraftStorageService) {}
@@ -29,6 +31,7 @@ export class AppComponent implements AfterViewInit {
       if (this.allVersions.length) {
         const latest = this.allVersions[0];
         this.activeEntryKey = latest.entryKey;
+        this.contentLanguage = this.languageFromEntryKey(latest.entryKey);
         this.refreshVisibleVersions();
         this.puzzleForm.loadImportedJson(latest.data);
         this.draftMessage = 'Latest saved version restored.';
@@ -41,6 +44,8 @@ export class AppComponent implements AfterViewInit {
   onPuzzleSelected(selection: PuzzleSelection): void {
     if (!this.confirmDiscard()) { return; }
     this.activeEntryKey = `${selection.language}:${selection.category}:${selection.slug}`;
+    this.contentLanguage = selection.language;
+    this.englishReference = selection.englishEntry;
     this.refreshVisibleVersions();
     this.puzzleForm.loadImportedJson(selection.entry);
     this.diffLines = [];
@@ -84,6 +89,7 @@ export class AppComponent implements AfterViewInit {
   loadVersion(version: SavedVersion): void {
     if (!this.confirmDiscard()) { return; }
     this.activeEntryKey = version.entryKey;
+    this.contentLanguage = this.languageFromEntryKey(version.entryKey);
     this.refreshVisibleVersions();
     this.puzzleForm.loadImportedJson(version.data);
     this.draftMessage = `${this.statusLabel(version.status)} version loaded.`;
@@ -168,6 +174,11 @@ export class AppComponent implements AfterViewInit {
     this.versions = this.allVersions
       .filter(version => version.entryKey === this.activeEntryKey)
       .sort((a, b) => Date.parse(b.savedAt) - Date.parse(a.savedAt));
+  }
+
+  private languageFromEntryKey(entryKey: string): string {
+    const language = String(entryKey || '').split(':')[0];
+    return language && language !== 'manual' ? language : 'en';
   }
 
   private buildDiff(newer: any, older: any, prefix = ''): string[] {

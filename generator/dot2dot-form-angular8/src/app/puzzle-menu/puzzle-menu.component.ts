@@ -2,6 +2,7 @@ import { Component, EventEmitter, OnInit, Output } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
+import { forkJoin } from 'rxjs';
 
 export interface MenuPuzzle {
   slug: string;
@@ -25,6 +26,7 @@ export interface PuzzleSelection {
   category: string;
   slug: string;
   entry: any;
+  englishEntry: any;
 }
 
 export interface TranslationSummary {
@@ -205,12 +207,16 @@ export class PuzzleMenuComponent implements OnInit {
     this.loadingSlug = slug;
     const url = `assets/content/${this.selectedLang}/puzzles-${categoryKey}.json`;
 
-    this.http.get<any[]>(url).subscribe(
-      entries => {
+    forkJoin({
+      entries: this.http.get<any[]>(url),
+      englishEntries: this.http.get<any[]>(`assets/content/en/puzzles-${categoryKey}.json`)
+    }).subscribe(
+      result => {
         if (sequence !== this.loadSequence) { return; }
         this.loadingCategory = null;
         this.loadingSlug = null;
-        const entry = (entries || []).find(e => e.slug === slug);
+        const entry = (result.entries || []).find(e => e.slug === slug);
+        const englishEntry = (result.englishEntries || []).find(e => e.slug === slug);
         if (!entry) {
           this.loadError = `"${slug}" not found in ${this.selectedLang}.`;
           return;
@@ -222,7 +228,8 @@ export class PuzzleMenuComponent implements OnInit {
           language: this.selectedLang,
           category: categoryKey,
           slug,
-          entry
+          entry,
+          englishEntry: englishEntry || entry
         });
       },
       () => {

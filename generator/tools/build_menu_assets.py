@@ -49,6 +49,7 @@ ENABLED_LOCALES = [
     "en", "fr", "es", "de", "pt", "it", "nl", "sv", "no", "pl",
     "da", "fi", "cs", "hu", "ro", "tr", "pt-BR", "el", "ar", "uk",
     "hr", "sk", "lt", "lv", "sl", "id", "ja", "ko", "ru", "th", "vi",
+    "az", "fa",
 ]
 
 
@@ -79,7 +80,8 @@ def build_english_names(content_root: Path) -> dict:
         for entry in load_entries(path):
             slug = entry.get("slug")
             if slug:
-                names[slug] = entry.get("name", slug)
+                body = entry.get("body") if isinstance(entry.get("body"), dict) else {}
+                names[slug] = body.get("name") or entry.get("name") or slug
     return names
 
 
@@ -113,7 +115,10 @@ def main() -> int:
             content[lang][cat] = [
                 {
                     "slug": entry.get("slug", ""),
-                    "name": english_names.get(entry.get("slug", ""), entry.get("name", entry.get("slug", ""))),
+                    "name": english_names.get(
+                        entry.get("slug", ""),
+                        (entry.get("body") or {}).get("name") or entry.get("name", entry.get("slug", "")),
+                    ),
                 }
                 for entry in entries
                 if entry.get("slug")
