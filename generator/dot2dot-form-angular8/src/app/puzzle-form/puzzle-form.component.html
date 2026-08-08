@@ -2,6 +2,13 @@
   <h1 class="page-title">Dot-to-Dot CMS</h1>
   <p class="page-subtitle">Puzzle content entry tool — fill in one complete page entry (header + body). Click "Generate JSON" at the bottom.</p>
 
+  <div class="tabs" role="tablist">
+    <button type="button" class="tab-btn" role="tab" [class.active]="activeTab === 'form'" [attr.aria-selected]="activeTab === 'form'" data-testid="tab-form" (click)="setTab('form')">📝 Form</button>
+    <button type="button" class="tab-btn" role="tab" [class.active]="activeTab === 'preview'" [attr.aria-selected]="activeTab === 'preview'" data-testid="tab-preview" (click)="setTab('preview')">👁 Preview</button>
+  </div>
+
+  <ng-container *ngIf="activeTab === 'form'">
+
   <section class="card import-section">
     <h2>📥 Import JSON <small>(load an existing entry to edit)</small></h2>
     <div class="field-row">
@@ -341,4 +348,67 @@
     <pre data-testid="output-json">{{ generatedJson }}</pre>
     <button type="button" class="btn-primary" data-testid="download-btn" (click)="downloadJson()">Download JSON File</button>
   </section>
+
+  </ng-container>
+
+  <!-- ============================================================ -->
+  <!-- PREVIEW TAB — live render of the current form values so you  -->
+  <!-- can see roughly how the page will look before exporting.     -->
+  <!-- ============================================================ -->
+  <ng-container *ngIf="activeTab === 'preview'">
+    <section class="card preview-card">
+      <h2>🔍 Search snippet preview</h2>
+      <div class="serp">
+        <div class="serp-url">dottodotfreeprintables.com › {{ form.value.slug || 'your-puzzle-slug' }}</div>
+        <div class="serp-title">{{ form.value.header?.title || 'Title tag will appear here' }}</div>
+        <div class="serp-desc">{{ form.value.header?.meta_description || 'Meta description will appear here.' }}</div>
+      </div>
+    </section>
+
+    <section class="card preview-card">
+      <h2>📄 Page preview</h2>
+      <article class="puzzle-preview">
+        <p class="pv-tagline">{{ form.value.body?.tagline || 'Tagline goes here' }}</p>
+        <h1 class="pv-h1">{{ form.value.body?.h1 || 'H1 heading will appear here' }}</h1>
+        <p class="pv-desc">{{ form.value.body?.description || 'Description goes here.' }}</p>
+
+        <div class="pv-funfact" *ngIf="form.value.body?.fun_fact">
+          <strong>🐾 Fun fact:</strong> {{ form.value.body.fun_fact }}
+        </div>
+
+        <div class="pv-dotguide" *ngIf="form.value.body?.dot_guide">
+          <h3>How to Draw {{ form.value.body?.name || 'It' }}</h3>
+          <p class="pv-intro">{{ form.value.body.dot_guide.intro }}</p>
+
+          <div class="pv-section" *ngFor="let sec of form.value.body.dot_guide.sections; let i = index">
+            <div class="pv-section-range">Dots {{ sec.range || '?–?' }}</div>
+            <div class="pv-section-body">
+              <h4>{{ sec.title || 'Section title' }}</h4>
+              <p>{{ sec.learn }}</p>
+              <p class="pv-section-fact" *ngIf="sec.fact">💡 {{ sec.fact }}</p>
+            </div>
+          </div>
+
+          <p class="pv-outro" [innerHTML]="form.value.body.dot_guide.outro"></p>
+
+          <div class="pv-colorschemes" *ngIf="form.value.body.dot_guide.color_schemes?.length">
+            <h3>Color scheme ideas</h3>
+            <div class="pv-scheme" *ngFor="let scheme of form.value.body.dot_guide.color_schemes">
+              <h4>{{ scheme.name || 'Color scheme' }}</h4>
+              <p class="pv-scheme-note">{{ scheme.note }}</p>
+              <div class="pv-swatches">
+                <div class="pv-swatch" *ngFor="let m of scheme.mapping">
+                  <span class="pv-swatch-color" [style.background]="m.hex || '#eee'"></span>
+                  <div class="pv-swatch-text">
+                    <strong>{{ m.part || 'Part' }}</strong> — {{ m.color }} ({{ m.hex }})
+                    <div class="pv-swatch-why" *ngIf="m.why">{{ m.why }}</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+    </section>
+  </ng-container>
 </div>

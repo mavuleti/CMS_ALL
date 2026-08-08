@@ -18,11 +18,16 @@ export class PuzzleFormComponent implements OnInit {
   generatedJson: string = null;
   submitted = false;
   importError: string = null;
+  activeTab: 'form' | 'preview' = 'form';
 
   constructor(private fb: FormBuilder) {}
 
   ngOnInit(): void {
     this.form = this.buildForm();
+  }
+
+  setTab(tab: 'form' | 'preview'): void {
+    this.activeTab = tab;
   }
 
   // -------------------------------------------------------------------
