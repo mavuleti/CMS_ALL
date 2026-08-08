@@ -1,0 +1,876 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Dot-to-Dot Puzzle Entry Generator — Preview</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  :root {
+    --header-c: #4a6fd6;
+    --body-c: #2ea56f;
+    --err: #d33;
+    --bg: #f3f4f6;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: #222;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  }
+  .page { max-width: 860px; margin: 0 auto; padding: 24px 16px 80px; }
+  .page-title { margin-bottom: 4px; }
+  .page-subtitle { color: #666; margin-top: 0; margin-bottom: 20px; }
+  .banner {
+    background: #fff8e6; border: 1px solid #f0dca0; border-radius: 8px;
+    padding: 10px 14px; font-size: 0.85rem; color: #7a5c00; margin-bottom: 20px;
+  }
+  .card {
+    background: #fff; border: 1px solid #e2e2e2; border-radius: 10px;
+    padding: 20px 24px; margin-bottom: 20px; box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+  }
+  .header-section { border-left: 4px solid var(--header-c); }
+  .body-section { border-left: 4px solid var(--body-c); }
+  h2 small { font-weight: 400; color: #777; font-size: 0.6em; margin-left: 8px; }
+  .subsection { background: #f8f9fb; border-radius: 8px; padding: 16px 18px; margin: 16px 0; }
+  .field { margin-bottom: 14px; display: flex; flex-direction: column; }
+  .field-row { display: flex; gap: 16px; flex-wrap: wrap; }
+  .field-row .field { flex: 1; min-width: 160px; }
+  label { font-weight: 600; font-size: 0.86rem; margin-bottom: 4px; text-align: start; }
+  .req { color: var(--err); }
+  input, textarea {
+    padding: 8px 10px; border: 1px solid #ccc; border-radius: 6px;
+    font-size: 0.9rem; font-family: inherit; width: 100%; text-align: start;
+  }
+  /* RTL support: when a field's content language is Arabic, flip its own
+     text direction (BiDi) while numbers/URLs inside it still render LTR
+     automatically per the Unicode bidi algorithm. */
+  [dir="rtl"] { text-align: right; }
+  .page[dir="rtl"] .repeat-header { flex-direction: row-reverse; }
+  input.invalid, textarea.invalid { border-color: var(--err); background: #fff6f6; }
+  .hint { font-size: 0.76rem; color: #888; margin-top: 2px; }
+  .error { font-size: 0.78rem; color: var(--err); margin-top: 2px; min-height: 0; }
+  .repeat-block { border: 1px dashed #ccc; border-radius: 8px; padding: 14px; margin-bottom: 12px; }
+  .repeat-block.nested { background: #fff; }
+  .repeat-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; }
+  button { cursor: pointer; border-radius: 6px; border: none; padding: 8px 14px; font-size: 0.86rem; font-family: inherit; }
+  .btn-add { background: #eef2ff; color: var(--header-c); border: 1px solid #c9d4f7; }
+  .btn-add.small { padding: 4px 10px; font-size: 0.78rem; }
+  .btn-remove { background: #fdecec; color: var(--err); border: 1px solid #f6c9c9; }
+  .btn-primary { background: var(--header-c); color: #fff; padding: 10px 20px; font-weight: 600; }
+  .btn-secondary { background: #eee; color: #333; padding: 10px 20px; margin-left: 10px; }
+  .actions { display: flex; align-items: center; margin-top: 10px; flex-wrap: wrap; gap: 8px 0; }
+  .form-status { margin-left: 16px; color: var(--err); font-weight: 600; }
+  .output pre {
+    background: #1e1e1e; color: #d4d4d4; padding: 16px; border-radius: 8px;
+    overflow-x: auto; font-size: 0.78rem; max-height: 460px; white-space: pre-wrap; word-break: break-word;
+  }
+</style>
+</head>
+<body>
+<div class="page">
+  <h1 class="page-title">Dot-to-Dot Puzzle Entry Generator</h1>
+  <p class="page-subtitle">Fill in one complete page entry (header + body). Click "Generate JSON" at the bottom.</p>
+  <div class="banner">This is an in-chat functional preview (plain HTML/JS) of the Angular 8 form in the zip file — same fields, same validation, same JSON output.</div>
+
+  <section class="card" style="border-left:4px solid #a35bd6;">
+    <h2>📥 Import JSON <small>(load an existing entry to edit)</small></h2>
+    <div class="field-row">
+      <div class="field" style="flex:2;">
+        <label for="importFile">Import file</label>
+        <input type="file" id="importFile" name="importFile" accept="application/json" data-testid="import-file">
+        <div class="hint">Pick a .json file containing ONE entry (the shape this form generates), or an array — first item will be loaded.</div>
+      </div>
+      <div class="field" style="flex:0 0 auto; justify-content:flex-end;">
+        <button type="button" class="btn-add" id="importBtn" data-testid="import-load-btn" style="border-color:#dcc7f2; color:#a35bd6; background:#f6effc;">Load into Form</button>
+      </div>
+    </div>
+    <label for="importPaste">Or paste JSON</label>
+    <textarea id="importPaste" name="importPaste" rows="4" data-testid="import-paste" placeholder="...or paste JSON here, then click Load into Form"></textarea>
+    <div class="error" id="importErr" data-testid="import-error" role="alert"></div>
+  </section>
+
+  <form id="puzzleForm" data-testid="puzzle-form">
+
+    <section class="card">
+      <h2>Page Identity</h2>
+      <div class="field">
+        <label for="pageLanguage">Content language <span class="req">*</span></label>
+        <select id="pageLanguage" name="pageLanguage" data-testid="field-language" aria-required="true">
+          <option value="en">English</option>
+          <option value="ar">Arabic (العربية)</option>
+        </select>
+        <div class="hint" id="hint-language">Text fields below are checked against this language's script. URLs and emails are always allowed in either language. Switching language re-checks fields already filled in.</div>
+      </div>
+      <div class="field">
+        <label for="slug">Slug <span class="req">*</span></label>
+        <input id="slug" name="slug" data-path="slug" data-testid="field-slug" aria-required="true" aria-describedby="hint-slug err-slug" placeholder="cute-puppy-dot-to-dot-puzzle">
+        <div class="hint" id="hint-slug">Lowercase letters, numbers, hyphens only. Must be unique across existing puzzles.</div>
+        <div class="error" data-err="slug" id="err-slug" role="alert"></div>
+      </div>
+    </section>
+
+    <section class="card header-section">
+      <h2>🔖 Header <small>(&lt;head&gt; content — SEO, Open Graph, JSON-LD)</small></h2>
+
+      <div class="field">
+        <label for="header.title">Title tag — header.title <span class="req">*</span></label>
+        <input id="header.title" name="header.title" data-path="header.title" data-lang-check="1" data-testid="field-header-title" aria-required="true" aria-describedby="hint-header-title err-header-title" placeholder="Cute Puppy Dot to Dot — 70 Dots of Printable Fun">
+        <div class="hint" id="hint-header-title">30–60 characters recommended.</div>
+        <div class="error" data-err="header.title" id="err-header-title" role="alert"></div>
+      </div>
+      <div class="field">
+        <label for="header.meta_description">Meta description — header.meta_description <span class="req">*</span></label>
+        <textarea id="header.meta_description" name="header.meta_description" data-path="header.meta_description" data-lang-check="1" data-testid="field-header-meta-description" aria-required="true" aria-describedby="hint-header-meta err-header-meta" rows="2"></textarea>
+        <div class="hint" id="hint-header-meta">70–160 characters recommended.</div>
+        <div class="error" data-err="header.meta_description" id="err-header-meta" role="alert"></div>
+      </div>
+
+      <div class="subsection">
+        <h3>Open Graph — header.og</h3>
+        <div class="field">
+          <label for="header.og.title">og.title <span class="req">*</span></label>
+          <input id="header.og.title" name="header.og.title" data-path="header.og.title" data-testid="field-og-title" aria-required="true" aria-describedby="err-og-title">
+          <div class="error" data-err="header.og.title" id="err-og-title" role="alert"></div>
+        </div>
+        <div class="field">
+          <label for="header.og.description">og.description <span class="req">*</span></label>
+          <textarea id="header.og.description" name="header.og.description" data-path="header.og.description" data-testid="field-og-description" aria-required="true" aria-describedby="err-og-description" rows="2"></textarea>
+          <div class="error" data-err="header.og.description" id="err-og-description" role="alert"></div>
+        </div>
+        <div class="field">
+          <label for="header.og.image_alt">og.image_alt <span class="req">*</span></label>
+          <input id="header.og.image_alt" name="header.og.image_alt" data-path="header.og.image_alt" data-testid="field-og-image-alt" aria-required="true" aria-describedby="err-og-image-alt">
+          <div class="error" data-err="header.og.image_alt" id="err-og-image-alt" role="alert"></div>
+        </div>
+      </div>
+
+      <div class="subsection">
+        <h3>Structured Data — header.json_ld</h3>
+        <div class="field">
+          <label for="header.json_ld.type">json_ld.type <span class="req">*</span></label>
+          <input id="header.json_ld.type" name="header.json_ld.type" data-path="header.json_ld.type" data-testid="field-jsonld-type" aria-required="true" value="CreativeWork">
+          <div class="error" data-err="header.json_ld.type" role="alert"></div>
+        </div>
+        <div class="field">
+          <label for="header.json_ld.name">json_ld.name <span class="req">*</span></label>
+          <input id="header.json_ld.name" name="header.json_ld.name" data-path="header.json_ld.name" data-testid="field-jsonld-name" aria-required="true">
+          <div class="error" data-err="header.json_ld.name" role="alert"></div>
+        </div>
+        <div class="field">
+          <label for="header.json_ld.description">json_ld.description <span class="req">*</span></label>
+          <textarea id="header.json_ld.description" name="header.json_ld.description" data-path="header.json_ld.description" data-testid="field-jsonld-description" aria-required="true" rows="2"></textarea>
+          <div class="error" data-err="header.json_ld.description" role="alert"></div>
+        </div>
+        <div class="field">
+          <label for="header.json_ld.image">json_ld.image (URL) <span class="req">*</span></label>
+          <input id="header.json_ld.image" name="header.json_ld.image" data-path="header.json_ld.image" data-url-check="1" data-testid="field-jsonld-image" aria-required="true" placeholder="https://dottodotfreeprintables.com/images/cute-puppy.jpg">
+          <div class="error" data-err="header.json_ld.image" role="alert"></div>
+        </div>
+        <div class="field">
+          <label for="header.json_ld.educational_use">json_ld.educational_use <span class="req">*</span></label>
+          <input id="header.json_ld.educational_use" name="header.json_ld.educational_use" data-path="header.json_ld.educational_use" data-testid="field-jsonld-educational-use" aria-required="true" placeholder="Fine motor skills, number sequencing">
+          <div class="error" data-err="header.json_ld.educational_use" role="alert"></div>
+        </div>
+        <div class="field">
+          <label for="header.json_ld.age_range">json_ld.age_range <span class="req">*</span></label>
+          <input id="header.json_ld.age_range" name="header.json_ld.age_range" data-path="header.json_ld.age_range" data-testid="field-jsonld-age-range" aria-required="true" placeholder="4-8">
+          <div class="error" data-err="header.json_ld.age_range" role="alert"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="card body-section">
+      <h2>📄 Body <small>(&lt;body&gt; content — visible page copy)</small></h2>
+
+      <div class="field">
+        <label for="body.h1">H1 tag — body.h1 <span class="req">*</span></label>
+        <input id="body.h1" name="body.h1" data-path="body.h1" data-lang-check="1" data-testid="field-body-h1" aria-required="true" aria-describedby="hint-body-h1 err-body-h1">
+        <div class="hint" id="hint-body-h1">20–70 characters recommended.</div>
+        <div class="error" data-err="body.h1" id="err-body-h1" role="alert"></div>
+      </div>
+      <div class="field">
+        <label for="body.name">Puzzle name — body.name <span class="req">*</span></label>
+        <input id="body.name" name="body.name" data-path="body.name" data-lang-check="1" data-testid="field-body-name" aria-required="true" placeholder="Cute Puppy">
+        <div class="error" data-err="body.name" role="alert"></div>
+      </div>
+      <div class="field">
+        <label for="body.tagline">Tagline — body.tagline <span class="req">*</span></label>
+        <input id="body.tagline" name="body.tagline" data-path="body.tagline" data-lang-check="1" data-testid="field-body-tagline" aria-required="true">
+        <div class="error" data-err="body.tagline" role="alert"></div>
+      </div>
+      <div class="field">
+        <label for="body.description">Description — body.description <span class="req">*</span></label>
+        <textarea id="body.description" name="body.description" data-path="body.description" data-lang-check="1" data-blocklist-check="1" data-testid="field-body-description" aria-required="true" rows="3"></textarea>
+        <div class="error" data-err="body.description" role="alert"></div>
+      </div>
+      <div class="field">
+        <label for="body.fun_fact">Fun fact — body.fun_fact <span class="req">*</span></label>
+        <textarea id="body.fun_fact" name="body.fun_fact" data-path="body.fun_fact" data-lang-check="1" data-blocklist-check="1" data-testid="field-body-fun-fact" aria-required="true" rows="3"></textarea>
+        <div class="error" data-err="body.fun_fact" role="alert"></div>
+      </div>
+
+      <div class="subsection">
+        <h3>Dot Guide — body.dot_guide</h3>
+        <div class="field">
+          <label for="body.dot_guide.intro">Intro <span class="req">*</span></label>
+          <textarea id="body.dot_guide.intro" name="body.dot_guide.intro" data-path="body.dot_guide.intro" data-lang-check="1" data-testid="field-dotguide-intro" aria-required="true" rows="3"></textarea>
+          <div class="error" data-err="body.dot_guide.intro" role="alert"></div>
+        </div>
+
+        <h4>Sections</h4>
+        <div id="sectionsWrap" data-testid="sections-wrap"></div>
+        <button type="button" class="btn-add" id="addSection" data-testid="add-section-btn">+ Add Section</button>
+
+        <div class="field" style="margin-top:16px;">
+          <label for="body.dot_guide.outro">Outro <span class="req">*</span></label>
+          <textarea id="body.dot_guide.outro" name="body.dot_guide.outro" data-path="body.dot_guide.outro" data-lang-check="1" data-testid="field-dotguide-outro" aria-required="true" rows="2"></textarea>
+          <div class="error" data-err="body.dot_guide.outro" role="alert"></div>
+        </div>
+
+        <h4>Color Schemes</h4>
+        <div id="schemesWrap" data-testid="schemes-wrap"></div>
+        <button type="button" class="btn-add" id="addScheme" data-testid="add-scheme-btn">+ Add Color Scheme</button>
+      </div>
+    </section>
+
+    <div class="actions">
+      <button type="submit" class="btn-primary" data-testid="generate-btn">Generate JSON</button>
+      <button type="button" class="btn-secondary" id="resetBtn" data-testid="reset-btn">Reset Form</button>
+      <span class="form-status" id="formStatus" data-testid="form-status" role="alert"></span>
+    </div>
+  </form>
+
+  <section class="card output" id="outputCard" data-testid="output-card" style="display:none;">
+    <h2>Generated JSON</h2>
+    <pre id="outputPre" data-testid="output-json"></pre>
+    <button type="button" class="btn-primary" id="downloadBtn" data-testid="download-btn">Download JSON File</button>
+  </section>
+</div>
+
+<script>
+const RULES = {
+  slug: {required:true},
+  'header.title': {required:true, min:30, max:60},
+  'header.meta_description': {required:true, min:70, max:158},
+  'header.og.title': {required:true, max:60},
+  'header.og.description': {required:true, max:200},
+  'header.og.image_alt': {required:true, max:125},
+  'header.json_ld.type': {required:true},
+  'header.json_ld.name': {required:true},
+  'header.json_ld.description': {required:true, max:200},
+  'header.json_ld.image': {required:true},
+  'header.json_ld.educational_use': {required:true},
+  'header.json_ld.age_range': {required:true},
+  'body.h1': {required:true, min:20, max:70},
+  'body.name': {required:true, max:60},
+  'body.tagline': {required:true, max:80},
+  'body.description': {required:true, min:50, max:300},
+  'body.fun_fact': {required:true, min:20, max:400},
+  'body.dot_guide.intro': {required:true, min:50},
+  'body.dot_guide.outro': {required:true, min:20}
+};
+
+// ---------------------------------------------------------------------
+// NEW VALIDATORS (added per Kishor's request):
+// 1. Language/script validation (English vs Arabic), URLs/emails exempt
+// 2. Title/description limits re-checked against current Google guidance
+// 3. Image URL format check
+// 4. Slug uniqueness check
+// 5. Dot range overlap/gap check across sections
+// 6. Hex color vs color-name mismatch (soft warning)
+// 7. Static child-friendliness blocklist (not AI — word-list only, see hint)
+// ---------------------------------------------------------------------
+
+// -- 1. Language / script validation --------------------------------
+// Unicode script properties (robust — covers full Arabic script incl.
+// presentation forms/diacritics, not just the base block) + NFC
+// normalization so visually-identical input compares consistently.
+const ARABIC_CHAR_RE = /\p{Script=Arabic}/u;
+const LATIN_CHAR_RE = /\p{Script=Latin}/u;
+const URL_RE_GLOBAL = /\bhttps?:\/\/[^\s]+/gi;
+const EMAIL_RE_GLOBAL = /\b[\w.+-]+@[\w-]+\.[\w.-]+\b/gi;
+
+// Strip out URLs/emails (always allowed regardless of language) before
+// checking the remaining text against the selected script.
+function stripExemptTokens(text) {
+  const normalized = text.normalize('NFC');
+  return normalized.replace(URL_RE_GLOBAL, ' ').replace(EMAIL_RE_GLOBAL, ' ');
+}
+
+function currentLanguage() {
+  const sel = document.getElementById('pageLanguage');
+  return sel ? sel.value : 'en';
+}
+
+// Returns null if OK, or a warning message if the text contains
+// characters from the "wrong" script for the selected language.
+function checkLanguageScript(text, lang) {
+  const stripped = stripExemptTokens(text);
+  if (!stripped.trim()) return null;
+  if (lang === 'ar') {
+    // Arabic mode: flag Latin letters (outside URLs/emails already stripped)
+    if (LATIN_CHAR_RE.test(stripped)) {
+      return 'Arabic content selected — remove English text (URLs and emails are fine).';
+    }
+  } else {
+    // English mode: flag Arabic characters
+    if (ARABIC_CHAR_RE.test(stripped)) {
+      return 'English content selected — remove Arabic text.';
+    }
+  }
+  return null;
+}
+
+// -- 3. Image URL format check ---------------------------------------
+const IMAGE_URL_RE = /^https?:\/\/[^\s]+\.(jpg|jpeg|png|webp|gif|svg)(\?[^\s]*)?$/i;
+function checkImageUrl(v) {
+  if (!v) return null;
+  return IMAGE_URL_RE.test(v) ? null : 'Must be a full URL ending in .jpg, .png, .webp, .gif, or .svg';
+}
+
+// -- 4. Slug uniqueness check -----------------------------------------
+// Known slugs from the 11 already-published "cute" category puzzles,
+// plus anything generated earlier in this session.
+const existingSlugs = new Set([
+  'cute-puppy-dot-to-dot-puzzle','cute-kitten-dot-to-dot-puzzle','cute-bunny-dot-to-dot-puzzle',
+  'cute-duckling-dot-to-dot-puzzle','cute-panda-dot-to-dot-puzzle','cute-hedgehog-dot-to-dot-puzzle',
+  'cute-owl-dot-to-dot-puzzle','cute-fox-dot-to-dot-puzzle','cute-hamster-dot-to-dot-puzzle',
+  'cute-koala-dot-to-dot-puzzle','cute-penguin-dot-to-dot-puzzle'
+]);
+function checkSlugUnique(v) {
+  if (!v) return null;
+  return existingSlugs.has(v) ? 'This slug is already used by an existing puzzle — choose a different one.' : null;
+}
+
+// -- 5. Dot range overlap / gap check ----------------------------------
+function parseRange(r) {
+  const m = /^(\d+)[\u2013-](\d+)$/.exec((r || '').trim());
+  if (!m) return null;
+  return [parseInt(m[1], 10), parseInt(m[2], 10)];
+}
+// Returns {overlaps:[...], gaps:[...]} describing problems across all section ranges
+function checkRangeConsistency(ranges) {
+  const parsed = ranges.map(parseRange).filter(Boolean).sort((a, b) => a[0] - b[0]);
+  const overlaps = [], gaps = [];
+  for (let i = 1; i < parsed.length; i++) {
+    const [prevStart, prevEnd] = parsed[i - 1];
+    const [curStart, curEnd] = parsed[i];
+    if (curStart <= prevEnd) overlaps.push(`${prevStart}\u2013${prevEnd} overlaps ${curStart}\u2013${curEnd}`);
+    else if (curStart > prevEnd + 1) gaps.push(`gap between ${prevEnd} and ${curStart}`);
+  }
+  return { overlaps, gaps };
+}
+
+// -- 6. Hex color vs color-name mismatch (soft warning) ----------------
+const KNOWN_COLORS = {
+  red:'#FF0000', blue:'#0000FF', green:'#008000', yellow:'#FFFF00', orange:'#FFA500',
+  purple:'#800080', pink:'#FFC0CB', brown:'#8B4513', black:'#000000', white:'#FFFFFF',
+  gray:'#808080', grey:'#808080', tan:'#D2B48C', beige:'#F5F5DC', cream:'#FFFDD0',
+  gold:'#FFD700', silver:'#C0C0C0', peach:'#FFE5B4', lavender:'#E6E6FA', teal:'#008080',
+  navy:'#000080', maroon:'#800000', olive:'#808000', turquoise:'#40E0D0'
+};
+function hexToRgb(hex) {
+  const m = /^#([0-9a-f]{2})([0-9a-f]{2})([0-9a-f]{2})$/i.exec(hex);
+  return m ? [parseInt(m[1],16), parseInt(m[2],16), parseInt(m[3],16)] : null;
+}
+function colorDistance(hexA, hexB) {
+  const a = hexToRgb(hexA), b = hexToRgb(hexB);
+  if (!a || !b) return 0;
+  return Math.sqrt((a[0]-b[0])**2 + (a[1]-b[1])**2 + (a[2]-b[2])**2);
+}
+// Returns a warning string if the typed color name is "known" but the hex is far off, else null
+function checkColorMismatch(name, hex) {
+  if (!name || !hex) return null;
+  const words = name.toLowerCase().split(/\s+/);
+  const known = words.find(w => KNOWN_COLORS[w]);
+  if (!known) return null; // nothing recognizable to compare against, skip silently
+  const dist = colorDistance(KNOWN_COLORS[known], hex);
+  return dist > 140 ? `"${name}" doesn't closely match ${hex} — double check.` : null;
+}
+
+// -- 7. Static child-friendliness blocklist (word-list, NOT AI) --------
+// Deliberately conservative starter list — catches obvious offenders only.
+// This is NOT a substitute for human/editorial review, see hint text in UI.
+const BLOCKLIST = [
+  'kill','murder','die','death','blood','gun','weapon','knife','stab','suicide',
+  'hate','stupid','idiot','damn','hell','sexy','sex','nude','naked','drunk','drug',
+  'attack','violence','scary','terror','curse','swear'
+];
+function checkBlocklist(text) {
+  if (!text) return null;
+  const lower = text.toLowerCase();
+  const hits = BLOCKLIST.filter(w => new RegExp(`\\b${w}\\b`, 'i').test(lower));
+  return hits.length ? `Contains flagged word(s): ${hits.join(', ')} — review for a kids' site.` : null;
+}
+
+let sectionCount = 0, schemeCount = 0;
+const schemeMappingCounts = {};
+
+function sectionTemplate(id) {
+  return `<div class="repeat-block" data-section="${id}" data-testid="section-${id}">
+    <div class="repeat-header"><strong>Section ${id + 1}</strong>
+      <button type="button" class="btn-remove" data-testid="remove-section-${id}" onclick="this.closest('[data-section]').remove()">Remove</button>
+    </div>
+    <div class="field-row">
+      <div class="field"><label for="section-range-${id}">Range <span class="req">*</span></label>
+        <input id="section-range-${id}" name="section-range-${id}" data-path="__section_range" data-testid="section-range-${id}" aria-required="true" placeholder="1–15">
+        <div class="error" data-err-inline role="alert"></div></div>
+      <div class="field"><label for="section-title-${id}">Title <span class="req">*</span></label>
+        <input id="section-title-${id}" name="section-title-${id}" data-path="__section_title" data-testid="section-title-${id}" aria-required="true"></div>
+    </div>
+    <div class="field"><label for="section-learn-${id}">Learn text <span class="req">*</span></label>
+      <textarea id="section-learn-${id}" name="section-learn-${id}" data-path="__section_learn" data-lang-check="1" data-blocklist-check="1" data-testid="section-learn-${id}" aria-required="true" rows="2"></textarea></div>
+    <div class="field"><label for="section-fact-${id}">Fact <span class="req">*</span></label>
+      <textarea id="section-fact-${id}" name="section-fact-${id}" data-path="__section_fact" data-lang-check="1" data-blocklist-check="1" data-testid="section-fact-${id}" aria-required="true" rows="2"></textarea></div>
+  </div>`;
+}
+
+let globalMappingCounter = 0;
+
+function mappingTemplate() {
+  const mid = globalMappingCounter++;
+  return `<div class="repeat-block nested" data-mapping data-testid="mapping-${mid}">
+    <div class="repeat-header"><span>Mapping</span>
+      <button type="button" class="btn-remove" data-testid="remove-mapping-${mid}" onclick="this.closest('[data-mapping]').remove()">Remove</button>
+    </div>
+    <div class="field-row">
+      <div class="field"><label for="map-range-${mid}">Range</label><input id="map-range-${mid}" name="map-range-${mid}" data-path="__map_range" data-testid="mapping-range-${mid}" placeholder="1–15"></div>
+      <div class="field"><label for="map-part-${mid}">Part</label><input id="map-part-${mid}" name="map-part-${mid}" data-path="__map_part" data-testid="mapping-part-${mid}"></div>
+      <div class="field"><label for="map-color-${mid}">Color name</label><input id="map-color-${mid}" name="map-color-${mid}" data-path="__map_color" data-testid="mapping-color-${mid}"></div>
+      <div class="field"><label for="map-hex-${mid}">Hex</label><input id="map-hex-${mid}" name="map-hex-${mid}" data-path="__map_hex" data-testid="mapping-hex-${mid}" placeholder="#FAA76C">
+        <div class="error" data-err-inline role="alert"></div></div>
+    </div>
+    <div class="field"><label for="map-why-${mid}">Why</label><textarea id="map-why-${mid}" name="map-why-${mid}" data-path="__map_why" data-testid="mapping-why-${mid}" rows="2"></textarea></div>
+  </div>`;
+}
+
+function schemeTemplate(id) {
+  return `<div class="repeat-block" data-scheme="${id}" data-testid="scheme-${id}">
+    <div class="repeat-header"><strong>Color Scheme ${id + 1}</strong>
+      <button type="button" class="btn-remove" data-testid="remove-scheme-${id}" onclick="this.closest('[data-scheme]').remove()">Remove</button>
+    </div>
+    <div class="field-row">
+      <div class="field"><label for="scheme-name-${id}">Name <span class="req">*</span></label><input id="scheme-name-${id}" name="scheme-name-${id}" data-path="__scheme_name" data-testid="scheme-name-${id}" aria-required="true" placeholder="Golden Retriever Puppy"></div>
+      <div class="field"><label for="scheme-note-${id}">Note <span class="req">*</span></label><input id="scheme-note-${id}" name="scheme-note-${id}" data-path="__scheme_note" data-testid="scheme-note-${id}" aria-required="true"></div>
+    </div>
+    <h5>Color Mapping</h5>
+    <div class="mappings-wrap" data-testid="mappings-wrap-${id}">${mappingTemplate()}</div>
+    <button type="button" class="btn-add small" data-testid="add-mapping-${id}" onclick="addMapping(this)">+ Add Mapping Row</button>
+  </div>`;
+}
+
+function addSection() {
+  document.getElementById('sectionsWrap').insertAdjacentHTML('beforeend', sectionTemplate(sectionCount++));
+  if (typeof applyDirection === 'function') applyDirection();
+}
+function addScheme() {
+  document.getElementById('schemesWrap').insertAdjacentHTML('beforeend', schemeTemplate(schemeCount++));
+}
+function addMapping(btn) {
+  btn.previousElementSibling.insertAdjacentHTML('beforeend', mappingTemplate());
+}
+
+document.getElementById('addSection').onclick = addSection;
+document.getElementById('addScheme').onclick = addScheme;
+addSection(); addScheme();
+
+function applyDirection() {
+  const lang = currentLanguage();
+  const dir = lang === 'ar' ? 'rtl' : 'ltr';
+  document.querySelectorAll('[data-lang-check]').forEach(el => {
+    el.dir = dir; // per-field BiDi — numbers/URLs inside still render LTR automatically
+    const label = document.querySelector(`label[for="${el.id}"]`);
+    if (label) label.dir = dir;
+  });
+}
+
+document.getElementById('pageLanguage').addEventListener('change', () => {
+  applyDirection();
+  document.querySelectorAll('[data-lang-check]').forEach(el => {
+    const path = el.dataset.path;
+    if (path && val(path)) checkField(path);
+  });
+});
+applyDirection();
+
+function val(path) {
+  const el = document.querySelector(`[data-path="${path}"]`);
+  return el ? el.value.trim() : '';
+}
+function setErr(path, msg) {
+  const el = document.querySelector(`[data-err="${path}"]`);
+  const input = document.querySelector(`[data-path="${path}"]`);
+  if (el) el.textContent = msg || '';
+  if (input) {
+    input.classList.toggle('invalid', !!msg);
+    input.setAttribute('aria-invalid', msg ? 'true' : 'false');
+  }
+}
+function checkField(path) {
+  const rule = RULES[path];
+  if (!rule) return true;
+  const v = val(path);
+  if (rule.required && !v) { setErr(path, 'This field is required.'); return false; }
+  if (rule.min && v.length < rule.min) { setErr(path, `Too short — minimum ${rule.min} characters.`); return false; }
+  if (rule.max && v.length > rule.max) { setErr(path, `Too long — maximum ${rule.max} characters.`); return false; }
+
+  const el = document.querySelector(`[data-path="${path}"]`);
+  if (el && el.dataset.langCheck) {
+    const msg = checkLanguageScript(v, currentLanguage());
+    if (msg) { setErr(path, msg); return false; }
+  }
+  if (el && el.dataset.urlCheck) {
+    const msg = checkImageUrl(v);
+    if (msg) { setErr(path, msg); return false; }
+  }
+  if (path === 'slug') {
+    const msg = checkSlugUnique(v);
+    if (msg) { setErr(path, msg); return false; }
+  }
+  if (el && el.dataset.blocklistCheck) {
+    const msg = checkBlocklist(v);
+    if (msg) { setErr(path, msg); return false; }
+  }
+
+  setErr(path, '');
+  return true;
+}
+
+const dotRangeRe = /^\d+[\u2013-]\d+$/;
+const hexRe = /^#([0-9A-Fa-f]{6})$/;
+const slugRe = /^[a-z0-9]+(-[a-z0-9]+)*$/;
+
+function checkRepeatField(input, regex, msg) {
+  const errBox = input.closest('.field').querySelector('[data-err-inline]');
+  const v = input.value.trim();
+  const bad = v && !regex.test(v);
+  input.classList.toggle('invalid', !!bad || !v);
+  input.setAttribute('aria-invalid', (bad || !v) ? 'true' : 'false');
+  if (errBox) errBox.textContent = !v ? 'This field is required.' : (bad ? msg : '');
+  return !!v && !bad;
+}
+
+function validateAll() {
+  let ok = true;
+  Object.keys(RULES).forEach(p => { if (!checkField(p)) ok = false; });
+
+  // slug format
+  const slugInput = document.querySelector('[data-path="slug"]');
+  if (val('slug') && !slugRe.test(val('slug'))) {
+    setErr('slug', 'Use lowercase letters, numbers, and hyphens only.');
+    ok = false;
+  }
+
+  const lang = currentLanguage();
+  const allRanges = [];
+
+  document.querySelectorAll('[data-section]').forEach(sec => {
+    const rangeInput = sec.querySelector('[data-path="__section_range"]');
+    if (!checkRepeatField(rangeInput, dotRangeRe, 'Use format like 1–15.')) ok = false;
+    else allRanges.push(rangeInput.value.trim());
+    ['__section_title','__section_learn','__section_fact'].forEach(p => {
+      const inp = sec.querySelector(`[data-path="${p}"]`);
+      const errBox = inp.closest('.field').querySelector('[data-err-inline]');
+      let bad = !inp.value.trim();
+      let msg = bad ? 'This field is required.' : null;
+      if (!bad && (p === '__section_learn' || p === '__section_fact')) {
+        msg = checkLanguageScript(inp.value, lang) || checkBlocklist(inp.value);
+        bad = !!msg;
+      }
+      inp.classList.toggle('invalid', bad);
+      if (errBox) errBox.textContent = msg || '';
+      if (bad) ok = false;
+    });
+  });
+
+  // 5. Dot range overlap/gap check (overlaps block submit, gaps are a warning only)
+  const rangeMsgBox = document.querySelector('[data-err="body.dot_guide.intro"]');
+  if (allRanges.length > 1) {
+    const { overlaps, gaps } = checkRangeConsistency(allRanges);
+    if (overlaps.length) {
+      if (rangeMsgBox) rangeMsgBox.textContent = 'Section ranges overlap: ' + overlaps.join('; ');
+      ok = false;
+    } else if (gaps.length && rangeMsgBox) {
+      rangeMsgBox.textContent = 'Note (non-blocking): ' + gaps.join('; ');
+    } else if (rangeMsgBox) {
+      rangeMsgBox.textContent = '';
+    }
+  }
+
+  document.querySelectorAll('[data-scheme]').forEach(scheme => {
+    ['__scheme_name','__scheme_note'].forEach(p => {
+      const inp = scheme.querySelector(`[data-path="${p}"]`);
+      if (!inp.value.trim()) { inp.classList.add('invalid'); ok = false; } else { inp.classList.remove('invalid'); }
+    });
+    scheme.querySelectorAll('[data-mapping]').forEach(map => {
+      const hexInput = map.querySelector('[data-path="__map_hex"]');
+      if (!checkRepeatField(hexInput, hexRe, 'Use format #RRGGBB.')) ok = false;
+      ['__map_range','__map_part','__map_color','__map_why'].forEach(p => {
+        const inp = map.querySelector(`[data-path="${p}"]`);
+        if (!inp.value.trim()) { inp.classList.add('invalid'); ok = false; } else { inp.classList.remove('invalid'); }
+      });
+      // 6. Color name vs hex mismatch — soft warning, does not block submit
+      const colorInput = map.querySelector('[data-path="__map_color"]');
+      const hexErrBox = hexInput.closest('.field').querySelector('[data-err-inline]');
+      if (colorInput.value.trim() && hexInput.value.trim() && !hexErrBox.textContent) {
+        const warn = checkColorMismatch(colorInput.value.trim(), hexInput.value.trim());
+        if (warn) hexErrBox.textContent = warn; // warning only, ok stays true
+      }
+    });
+  });
+
+  return ok;
+}
+
+function buildJson() {
+  const sections = [...document.querySelectorAll('[data-section]')].map(sec => ({
+    range: sec.querySelector('[data-path="__section_range"]').value.trim(),
+    title: sec.querySelector('[data-path="__section_title"]').value.trim(),
+    learn: sec.querySelector('[data-path="__section_learn"]').value.trim(),
+    fact: sec.querySelector('[data-path="__section_fact"]').value.trim()
+  }));
+
+  const colorSchemes = [...document.querySelectorAll('[data-scheme]')].map(scheme => ({
+    name: scheme.querySelector('[data-path="__scheme_name"]').value.trim(),
+    note: scheme.querySelector('[data-path="__scheme_note"]').value.trim(),
+    mapping: [...scheme.querySelectorAll('[data-mapping]')].map(map => ({
+      range: map.querySelector('[data-path="__map_range"]').value.trim(),
+      part: map.querySelector('[data-path="__map_part"]').value.trim(),
+      color: map.querySelector('[data-path="__map_color"]').value.trim(),
+      hex: map.querySelector('[data-path="__map_hex"]').value.trim(),
+      why: map.querySelector('[data-path="__map_why"]').value.trim()
+    }))
+  }));
+
+  return {
+    slug: val('slug'),
+    header: {
+      title: val('header.title'),
+      meta_description: val('header.meta_description'),
+      og: {
+        title: val('header.og.title'),
+        description: val('header.og.description'),
+        image_alt: val('header.og.image_alt')
+      },
+      json_ld: {
+        type: val('header.json_ld.type'),
+        name: val('header.json_ld.name'),
+        description: val('header.json_ld.description'),
+        image: val('header.json_ld.image'),
+        educational_use: val('header.json_ld.educational_use'),
+        age_range: val('header.json_ld.age_range')
+      }
+    },
+    body: {
+      h1: val('body.h1'),
+      name: val('body.name'),
+      tagline: val('body.tagline'),
+      description: val('body.description'),
+      fun_fact: val('body.fun_fact'),
+      dot_guide: {
+        intro: val('body.dot_guide.intro'),
+        sections: sections,
+        outro: val('body.dot_guide.outro'),
+        color_schemes: colorSchemes
+      }
+    }
+  };
+}
+
+let lastJson = null;
+
+document.getElementById('puzzleForm').addEventListener('submit', e => {
+  e.preventDefault();
+  const status = document.getElementById('formStatus');
+  if (!validateAll()) {
+    status.textContent = '⚠ Please fix the highlighted fields above.';
+    const firstInvalid = document.querySelector('.invalid');
+    if (firstInvalid) firstInvalid.scrollIntoView({behavior:'smooth', block:'center'});
+    document.getElementById('outputCard').style.display = 'none';
+    return;
+  }
+  status.textContent = '';
+  lastJson = buildJson();
+  lastJson.language = currentLanguage();
+  if (lastJson.slug) existingSlugs.add(lastJson.slug);
+  document.getElementById('outputPre').textContent = JSON.stringify(lastJson, null, 2);
+  document.getElementById('outputCard').style.display = 'block';
+  document.getElementById('outputCard').scrollIntoView({behavior:'smooth'});
+});
+
+document.getElementById('resetBtn').onclick = () => {
+  document.getElementById('puzzleForm').reset();
+  document.getElementById('sectionsWrap').innerHTML = '';
+  document.getElementById('schemesWrap').innerHTML = '';
+  sectionCount = 0; schemeCount = 0;
+  addSection(); addScheme();
+  document.querySelectorAll('.invalid').forEach(el => el.classList.remove('invalid'));
+  document.querySelectorAll('.error').forEach(el => el.textContent = '');
+  document.getElementById('formStatus').textContent = '';
+  document.getElementById('outputCard').style.display = 'none';
+};
+
+document.getElementById('downloadBtn').onclick = () => {
+  if (!lastJson) return;
+  const slug = lastJson.slug || 'puzzle-entry';
+  const blob = new Blob([JSON.stringify(lastJson, null, 2)], {type:'application/json'});
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url; a.download = `${slug}.json`; a.click();
+  URL.revokeObjectURL(url);
+};
+
+// ---------------------------------------------------------------------
+// IMPORT: load an existing entry (this schema, OR the old flat schema)
+// back into the form so it can be edited and re-generated.
+// ---------------------------------------------------------------------
+
+function setVal(path, v) {
+  const el = document.querySelector(`[data-path="${path}"]`);
+  if (el && v !== undefined && v !== null) el.value = v;
+}
+
+function normalizeEntry(raw) {
+  // Already in the new header/body shape
+  if (raw.header && raw.body) return raw;
+
+  // Old flat shape -> convert on the fly
+  const dg = raw.dotGuide || {};
+  return {
+    slug: raw.slug || '',
+    header: {
+      title: raw.seoTitle || '',
+      meta_description: raw.seoDescription || '',
+      og: {
+        title: raw.seoTitle || '',
+        description: raw.seoDescription || '',
+        image_alt: raw.seoImageAlt || ''
+      },
+      json_ld: {
+        type: 'CreativeWork',
+        name: raw.name || '',
+        description: raw.seoDescription || '',
+        image: '',
+        educational_use: 'Fine motor skills, number sequencing',
+        age_range: ''
+      }
+    },
+    body: {
+      h1: raw.seoH1 || '',
+      name: raw.name || '',
+      tagline: raw.tagline || '',
+      description: raw.description || '',
+      fun_fact: raw.funFact || '',
+      dot_guide: {
+        intro: dg.intro || '',
+        sections: dg.sections || [],
+        outro: dg.outro || '',
+        color_schemes: dg.colorSchemes || []
+      }
+    }
+  };
+}
+
+function loadEntryIntoForm(entry) {
+  const e = normalizeEntry(entry);
+
+  setVal('slug', e.slug);
+  setVal('header.title', e.header.title);
+  setVal('header.meta_description', e.header.meta_description);
+  setVal('header.og.title', e.header.og.title);
+  setVal('header.og.description', e.header.og.description);
+  setVal('header.og.image_alt', e.header.og.image_alt);
+  setVal('header.json_ld.type', e.header.json_ld.type);
+  setVal('header.json_ld.name', e.header.json_ld.name);
+  setVal('header.json_ld.description', e.header.json_ld.description);
+  setVal('header.json_ld.image', e.header.json_ld.image);
+  setVal('header.json_ld.educational_use', e.header.json_ld.educational_use);
+  setVal('header.json_ld.age_range', e.header.json_ld.age_range);
+
+  setVal('body.h1', e.body.h1);
+  setVal('body.name', e.body.name);
+  setVal('body.tagline', e.body.tagline);
+  setVal('body.description', e.body.description);
+  setVal('body.fun_fact', e.body.fun_fact);
+  setVal('body.dot_guide.intro', e.body.dot_guide.intro);
+  setVal('body.dot_guide.outro', e.body.dot_guide.outro);
+
+  // rebuild sections
+  document.getElementById('sectionsWrap').innerHTML = '';
+  sectionCount = 0;
+  const sections = e.body.dot_guide.sections && e.body.dot_guide.sections.length
+    ? e.body.dot_guide.sections : [{}];
+  sections.forEach(s => {
+    addSection();
+    const block = document.querySelector('#sectionsWrap [data-section]:last-child');
+    block.querySelector('[data-path="__section_range"]').value = s.range || '';
+    block.querySelector('[data-path="__section_title"]').value = s.title || '';
+    block.querySelector('[data-path="__section_learn"]').value = s.learn || '';
+    block.querySelector('[data-path="__section_fact"]').value = s.fact || '';
+  });
+
+  // rebuild color schemes + mappings
+  document.getElementById('schemesWrap').innerHTML = '';
+  schemeCount = 0;
+  const schemes = e.body.dot_guide.color_schemes && e.body.dot_guide.color_schemes.length
+    ? e.body.dot_guide.color_schemes : [{mapping:[{}]}];
+  schemes.forEach(cs => {
+    addScheme();
+    const schemeBlock = document.querySelector('#schemesWrap [data-scheme]:last-child');
+    schemeBlock.querySelector('[data-path="__scheme_name"]').value = cs.name || '';
+    schemeBlock.querySelector('[data-path="__scheme_note"]').value = cs.note || '';
+    const mapWrap = schemeBlock.querySelector('.mappings-wrap');
+    mapWrap.innerHTML = '';
+    const mappings = cs.mapping && cs.mapping.length ? cs.mapping : [{}];
+    mappings.forEach(m => {
+      mapWrap.insertAdjacentHTML('beforeend', mappingTemplate());
+      const mapBlock = mapWrap.querySelector('[data-mapping]:last-child');
+      mapBlock.querySelector('[data-path="__map_range"]').value = m.range || '';
+      mapBlock.querySelector('[data-path="__map_part"]').value = m.part || '';
+      mapBlock.querySelector('[data-path="__map_color"]').value = m.color || '';
+      mapBlock.querySelector('[data-path="__map_hex"]').value = m.hex || '';
+      mapBlock.querySelector('[data-path="__map_why"]').value = m.why || '';
+    });
+  });
+
+  document.querySelectorAll('.invalid').forEach(el => el.classList.remove('invalid'));
+  document.querySelectorAll('.error').forEach(el => el.textContent = '');
+  document.getElementById('formStatus').textContent = '';
+  document.getElementById('outputCard').style.display = 'none';
+  document.getElementById('importErr').textContent = '';
+}
+
+function handleImportedJson(text) {
+  let parsed;
+  try {
+    parsed = JSON.parse(text);
+  } catch (err) {
+    document.getElementById('importErr').textContent = 'Could not parse JSON — check the file/paste is valid.';
+    return;
+  }
+  const entry = Array.isArray(parsed) ? parsed[0] : parsed;
+  if (!entry) {
+    document.getElementById('importErr').textContent = 'No entry found to import.';
+    return;
+  }
+  loadEntryIntoForm(entry);
+  document.querySelector('.page').scrollIntoView({behavior:'smooth'});
+}
+
+document.getElementById('importBtn').onclick = () => {
+  const fileInput = document.getElementById('importFile');
+  const pasteBox = document.getElementById('importPaste');
+
+  if (fileInput.files && fileInput.files[0]) {
+    const reader = new FileReader();
+    reader.onload = () => handleImportedJson(reader.result);
+    reader.onerror = () => { document.getElementById('importErr').textContent = 'Could not read file.'; };
+    reader.readAsText(fileInput.files[0]);
+  } else if (pasteBox.value.trim()) {
+    handleImportedJson(pasteBox.value.trim());
+  } else {
+    document.getElementById('importErr').textContent = 'Choose a file or paste JSON first.';
+  }
+};
+</script>
+</body>
+</html>

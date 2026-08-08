@@ -1,0 +1,344 @@
+<div class="page">
+  <h1 class="page-title">Dot-to-Dot Puzzle Entry Generator</h1>
+  <p class="page-subtitle">Fill in one complete page entry (header + body). Click "Generate JSON" at the bottom.</p>
+
+  <section class="card import-section">
+    <h2>📥 Import JSON <small>(load an existing entry to edit)</small></h2>
+    <div class="field-row">
+      <div class="field" style="flex:2;">
+        <input type="file" accept="application/json" data-testid="import-file" (change)="onFileSelected($event)">
+        <div class="hint">Pick a .json file — either this schema or the legacy flat schema (auto-converted). If it's an array, the first entry loads.</div>
+      </div>
+    </div>
+    <div class="field">
+      <textarea rows="4" #pasteBox data-testid="import-paste" placeholder="...or paste JSON here, then click Load"></textarea>
+    </div>
+    <button type="button" class="btn-add" data-testid="import-load-btn" (click)="importFromPastedText(pasteBox.value)">Load into Form</button>
+    <div class="error" *ngIf="importError">{{ importError }}</div>
+  </section>
+
+  <form [formGroup]="form" (ngSubmit)="onGenerate()" data-testid="puzzle-form">
+
+    <!-- ============================================================ -->
+    <!-- SLUG                                                          -->
+    <!-- ============================================================ -->
+    <section class="card">
+      <h2>Page Identity</h2>
+      <div class="field">
+        <label for="slug">Slug <span class="req">*</span></label>
+        <input data-testid="field-slug" aria-required="true" id="slug" type="text" formControlName="slug" placeholder="cute-puppy-dot-to-dot-puzzle">
+        <div class="hint">Lowercase letters, numbers, hyphens only.</div>
+        <div class="tip">💡 {{ tips.slug }}</div>
+        <div class="error" *ngIf="isInvalid('slug')">
+          <span *ngIf="form.get('slug').errors?.required">Slug is required.</span>
+          <span *ngIf="form.get('slug').errors?.slugFormat">Use lowercase letters, numbers, and hyphens only.</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================ -->
+    <!-- HEADER SECTION                                                -->
+    <!-- ============================================================ -->
+    <section class="card header-section" formGroupName="header">
+      <h2>🔖 Header <small>(&lt;head&gt; content — SEO, Open Graph, JSON-LD)</small></h2>
+
+      <div class="field">
+        <label for="header-title">Title tag — header.title <span class="req">*</span></label>
+        <input data-testid="field-title" aria-required="true" id="header-title" type="text" formControlName="title" placeholder="Cute Puppy Dot to Dot — 70 Dots of Printable Fun">
+        <div class="hint">{{ rules.header.title.minLength }}–{{ rules.header.title.maxLength }} characters recommended.</div>
+        <div class="tip">💡 {{ tips.header.title }}</div>
+        <div class="error" *ngIf="isInvalid('header.title')">
+          <span *ngIf="form.get('header.title').errors?.required">Title is required.</span>
+          <span *ngIf="form.get('header.title').errors?.minlength">Too short — minimum {{ rules.header.title.minLength }} characters.</span>
+          <span *ngIf="form.get('header.title').errors?.maxlength">Too long — maximum {{ rules.header.title.maxLength }} characters.</span>
+        </div>
+      </div>
+
+      <div class="field">
+        <label for="header-meta-desc">Meta description — header.meta_description <span class="req">*</span></label>
+        <textarea data-testid="field-meta_description" aria-required="true" id="header-meta-desc" formControlName="meta_description" rows="2"></textarea>
+        <div class="hint">{{ rules.header.meta_description.minLength }}–{{ rules.header.meta_description.maxLength }} characters recommended.</div>
+        <div class="tip">💡 {{ tips.header.meta_description }}</div>
+        <div class="error" *ngIf="isInvalid('header.meta_description')">
+          <span *ngIf="form.get('header.meta_description').errors?.required">Meta description is required.</span>
+          <span *ngIf="form.get('header.meta_description').errors?.minlength">Too short — minimum {{ rules.header.meta_description.minLength }} characters.</span>
+          <span *ngIf="form.get('header.meta_description').errors?.maxlength">Too long — maximum {{ rules.header.meta_description.maxLength }} characters.</span>
+        </div>
+      </div>
+
+      <!-- Open Graph -->
+      <div class="subsection" formGroupName="og">
+        <h3>Open Graph — header.og</h3>
+
+        <div class="field">
+          <label for="og-title">og.title <span class="req">*</span></label>
+          <input data-testid="field-title" aria-required="true" id="og-title" type="text" formControlName="title">
+          <div class="tip">💡 {{ tips.header.og.title }}</div>
+          <div class="error" *ngIf="isInvalid('header.og.title')">
+            <span *ngIf="form.get('header.og.title').errors?.required">OG title is required.</span>
+            <span *ngIf="form.get('header.og.title').errors?.maxlength">Maximum {{ rules.header.og.title.maxLength }} characters.</span>
+          </div>
+        </div>
+
+        <div class="field">
+          <label for="og-desc">og.description <span class="req">*</span></label>
+          <textarea data-testid="field-description" aria-required="true" id="og-desc" formControlName="description" rows="2"></textarea>
+          <div class="tip">💡 {{ tips.header.og.description }}</div>
+          <div class="error" *ngIf="isInvalid('header.og.description')">
+            <span *ngIf="form.get('header.og.description').errors?.required">OG description is required.</span>
+            <span *ngIf="form.get('header.og.description').errors?.maxlength">Maximum {{ rules.header.og.description.maxLength }} characters.</span>
+          </div>
+        </div>
+
+        <div class="field">
+          <label for="og-alt">og.image_alt <span class="req">*</span></label>
+          <input data-testid="field-image_alt" aria-required="true" id="og-alt" type="text" formControlName="image_alt">
+          <div class="tip">💡 {{ tips.header.og.image_alt }}</div>
+          <div class="error" *ngIf="isInvalid('header.og.image_alt')">
+            <span *ngIf="form.get('header.og.image_alt').errors?.required">Image alt text is required.</span>
+            <span *ngIf="form.get('header.og.image_alt').errors?.maxlength">Maximum {{ rules.header.og.image_alt.maxLength }} characters.</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- JSON-LD -->
+      <div class="subsection" formGroupName="json_ld">
+        <h3>Structured Data — header.json_ld</h3>
+
+        <div class="field">
+          <label for="ld-type">json_ld.type <span class="req">*</span></label>
+          <input data-testid="field-type" aria-required="true" id="ld-type" type="text" formControlName="type">
+          <div class="tip">💡 {{ tips.header.json_ld.type }}</div>
+        </div>
+
+        <div class="field">
+          <label for="ld-name">json_ld.name <span class="req">*</span></label>
+          <input data-testid="field-name" aria-required="true" id="ld-name" type="text" formControlName="name">
+          <div class="tip">💡 {{ tips.header.json_ld.name }}</div>
+          <div class="error" *ngIf="isInvalid('header.json_ld.name')">Name is required.</div>
+        </div>
+
+        <div class="field">
+          <label for="ld-desc">json_ld.description <span class="req">*</span></label>
+          <textarea data-testid="field-description" aria-required="true" id="ld-desc" formControlName="description" rows="2"></textarea>
+          <div class="tip">💡 {{ tips.header.json_ld.description }}</div>
+          <div class="error" *ngIf="isInvalid('header.json_ld.description')">
+            <span *ngIf="form.get('header.json_ld.description').errors?.required">Description is required.</span>
+            <span *ngIf="form.get('header.json_ld.description').errors?.maxlength">Maximum {{ rules.header.json_ld.description.maxLength }} characters.</span>
+          </div>
+        </div>
+
+        <div class="field">
+          <label for="ld-image">json_ld.image (URL) <span class="req">*</span></label>
+          <input data-testid="field-image" aria-required="true" id="ld-image" type="text" formControlName="image" placeholder="https://dottodotfreeprintables.com/images/cute-puppy.jpg">
+          <div class="tip">💡 {{ tips.header.json_ld.image }}</div>
+          <div class="error" *ngIf="isInvalid('header.json_ld.image')">Image URL is required.</div>
+        </div>
+
+        <div class="field">
+          <label for="ld-edu">json_ld.educational_use <span class="req">*</span></label>
+          <input data-testid="field-educational_use" aria-required="true" id="ld-edu" type="text" formControlName="educational_use" placeholder="Fine motor skills, number sequencing">
+          <div class="tip">💡 {{ tips.header.json_ld.educational_use }}</div>
+        </div>
+
+        <div class="field">
+          <label for="ld-age">json_ld.age_range <span class="req">*</span></label>
+          <input data-testid="field-age_range" aria-required="true" id="ld-age" type="text" formControlName="age_range" placeholder="4-8">
+          <div class="tip">💡 {{ tips.header.json_ld.age_range }}</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================ -->
+    <!-- BODY SECTION                                                  -->
+    <!-- ============================================================ -->
+    <section class="card body-section" formGroupName="body">
+      <h2>📄 Body <small>(&lt;body&gt; content — visible page copy)</small></h2>
+
+      <div class="field">
+        <label for="body-h1">H1 tag — body.h1 <span class="req">*</span></label>
+        <input data-testid="field-h1" aria-required="true" id="body-h1" type="text" formControlName="h1">
+        <div class="hint">{{ rules.body.h1.minLength }}–{{ rules.body.h1.maxLength }} characters recommended.</div>
+        <div class="tip">💡 {{ tips.body.h1 }}</div>
+        <div class="error" *ngIf="isInvalid('body.h1')">
+          <span *ngIf="form.get('body.h1').errors?.required">H1 is required.</span>
+          <span *ngIf="form.get('body.h1').errors?.minlength">Too short — minimum {{ rules.body.h1.minLength }} characters.</span>
+          <span *ngIf="form.get('body.h1').errors?.maxlength">Too long — maximum {{ rules.body.h1.maxLength }} characters.</span>
+        </div>
+      </div>
+
+      <div class="field">
+        <label for="body-name">Puzzle name — body.name <span class="req">*</span></label>
+        <input data-testid="field-name" aria-required="true" id="body-name" type="text" formControlName="name" placeholder="Cute Puppy">
+        <div class="tip">💡 {{ tips.body.name }}</div>
+        <div class="error" *ngIf="isInvalid('body.name')">Name is required.</div>
+      </div>
+
+      <div class="field">
+        <label for="body-tagline">Tagline — body.tagline <span class="req">*</span></label>
+        <input data-testid="field-tagline" aria-required="true" id="body-tagline" type="text" formControlName="tagline">
+        <div class="tip">💡 {{ tips.body.tagline }}</div>
+        <div class="error" *ngIf="isInvalid('body.tagline')">
+          <span *ngIf="form.get('body.tagline').errors?.required">Tagline is required.</span>
+          <span *ngIf="form.get('body.tagline').errors?.maxlength">Maximum {{ rules.body.tagline.maxLength }} characters.</span>
+        </div>
+      </div>
+
+      <div class="field">
+        <label for="body-desc">Description — body.description <span class="req">*</span></label>
+        <textarea data-testid="field-description" aria-required="true" id="body-desc" formControlName="description" rows="3"></textarea>
+        <div class="tip">💡 {{ tips.body.description }}</div>
+        <div class="error" *ngIf="isInvalid('body.description')">
+          <span *ngIf="form.get('body.description').errors?.required">Description is required.</span>
+          <span *ngIf="form.get('body.description').errors?.minlength">Too short — minimum {{ rules.body.description.minLength }} characters.</span>
+          <span *ngIf="form.get('body.description').errors?.maxlength">Too long — maximum {{ rules.body.description.maxLength }} characters.</span>
+        </div>
+      </div>
+
+      <div class="field">
+        <label for="body-fact">Fun fact — body.fun_fact <span class="req">*</span></label>
+        <textarea data-testid="field-fun_fact" aria-required="true" id="body-fact" formControlName="fun_fact" rows="3"></textarea>
+        <div class="tip">💡 {{ tips.body.fun_fact }}</div>
+        <div class="error" *ngIf="isInvalid('body.fun_fact')">
+          <span *ngIf="form.get('body.fun_fact').errors?.required">Fun fact is required.</span>
+          <span *ngIf="form.get('body.fun_fact').errors?.minlength">Too short — minimum {{ rules.body.fun_fact.minLength }} characters.</span>
+        </div>
+      </div>
+
+      <!-- Dot Guide -->
+      <div class="subsection" formGroupName="dot_guide">
+        <h3>Dot Guide — body.dot_guide</h3>
+
+        <div class="field">
+          <label for="dg-intro">Intro <span class="req">*</span></label>
+          <textarea data-testid="field-intro" aria-required="true" id="dg-intro" formControlName="intro" rows="3"></textarea>
+          <div class="tip">💡 {{ tips.body.dot_guide.intro }}</div>
+          <div class="error" *ngIf="isInvalid('body.dot_guide.intro')">Intro is required (min {{ rules.body.dot_guide.intro.minLength }} characters).</div>
+        </div>
+
+        <!-- Sections FormArray -->
+        <div formArrayName="sections">
+          <h4>Sections</h4>
+          <div class="repeat-block" *ngFor="let sec of sections.controls; let i = index" [formGroupName]="i" [attr.data-testid]="'section-' + i">
+            <div class="repeat-header">
+              <strong>Section {{ i + 1 }}</strong>
+              <button type="button" class="btn-remove" [attr.data-testid]="'remove-section-' + i" (click)="removeSection(i)" *ngIf="sections.length > 1">Remove</button>
+            </div>
+            <div class="field-row">
+              <div class="field">
+                <label>Range <span class="req">*</span></label>
+                <input data-testid="field-range" aria-required="true" type="text" formControlName="range" placeholder="1–15">
+                <div class="tip">💡 {{ tips.body.dot_guide.section.range }}</div>
+                <div class="error" *ngIf="sec.get('range').invalid && (sec.get('range').touched || submitted)">Use format like 1–15.</div>
+              </div>
+              <div class="field">
+                <label>Title <span class="req">*</span></label>
+                <input data-testid="field-title" aria-required="true" type="text" formControlName="title">
+                <div class="tip">💡 {{ tips.body.dot_guide.section.title }}</div>
+              </div>
+            </div>
+            <div class="field">
+              <label>Learn text <span class="req">*</span></label>
+              <textarea data-testid="field-learn" aria-required="true" formControlName="learn" rows="2"></textarea>
+              <div class="tip">💡 {{ tips.body.dot_guide.section.learn }}</div>
+            </div>
+            <div class="field">
+              <label>Fact <span class="req">*</span></label>
+              <textarea data-testid="field-fact" aria-required="true" formControlName="fact" rows="2"></textarea>
+              <div class="tip">💡 {{ tips.body.dot_guide.section.fact }}</div>
+            </div>
+          </div>
+          <button type="button" class="btn-add" data-testid="add-section-btn" (click)="addSection()">+ Add Section</button>
+        </div>
+
+        <div class="field">
+          <label for="dg-outro">Outro <span class="req">*</span></label>
+          <textarea data-testid="field-outro" aria-required="true" id="dg-outro" formControlName="outro" rows="2"></textarea>
+          <div class="tip">💡 {{ tips.body.dot_guide.outro }}</div>
+          <div class="error" *ngIf="isInvalid('body.dot_guide.outro')">Outro is required.</div>
+        </div>
+
+        <!-- Color Schemes FormArray -->
+        <div formArrayName="color_schemes">
+          <h4>Color Schemes</h4>
+          <div class="repeat-block" *ngFor="let scheme of colorSchemes.controls; let si = index" [formGroupName]="si" [attr.data-testid]="'scheme-' + si">
+            <div class="repeat-header">
+              <strong>Scheme {{ si + 1 }}</strong>
+              <button type="button" class="btn-remove" [attr.data-testid]="'remove-scheme-' + si" (click)="removeColorScheme(si)" *ngIf="colorSchemes.length > 1">Remove</button>
+            </div>
+            <div class="field-row">
+              <div class="field">
+                <label>Name <span class="req">*</span></label>
+                <input data-testid="field-name" aria-required="true" type="text" formControlName="name" placeholder="Golden Retriever Puppy">
+                <div class="tip">💡 {{ tips.body.dot_guide.colorScheme.name }}</div>
+              </div>
+              <div class="field">
+                <label>Note <span class="req">*</span></label>
+                <input data-testid="field-note" aria-required="true" type="text" formControlName="note">
+                <div class="tip">💡 {{ tips.body.dot_guide.colorScheme.note }}</div>
+              </div>
+            </div>
+
+            <div formArrayName="mapping">
+              <h5>Color Mapping</h5>
+              <div class="repeat-block nested" *ngFor="let map of mappingsOf(si).controls; let mi = index" [formGroupName]="mi" [attr.data-testid]="'mapping-' + si + '-' + mi">
+                <div class="repeat-header">
+                  <span>Mapping {{ mi + 1 }}</span>
+                  <button type="button" class="btn-remove" [attr.data-testid]="'remove-mapping-' + si + '-' + mi" (click)="removeMapping(si, mi)" *ngIf="mappingsOf(si).length > 1">Remove</button>
+                </div>
+                <div class="field-row">
+                  <div class="field">
+                    <label>Range</label>
+                    <input data-testid="field-range" aria-required="true" type="text" formControlName="range" placeholder="1–15">
+                    <div class="tip">💡 {{ tips.body.dot_guide.colorScheme.mapping.range }}</div>
+                  </div>
+                  <div class="field">
+                    <label>Part</label>
+                    <input data-testid="field-part" aria-required="true" type="text" formControlName="part">
+                    <div class="tip">💡 {{ tips.body.dot_guide.colorScheme.mapping.part }}</div>
+                  </div>
+                  <div class="field">
+                    <label>Color name</label>
+                    <input data-testid="field-color" aria-required="true" type="text" formControlName="color">
+                    <div class="tip">💡 {{ tips.body.dot_guide.colorScheme.mapping.color }}</div>
+                  </div>
+                  <div class="field">
+                    <label>Hex</label>
+                    <input data-testid="field-hex" aria-required="true" type="text" formControlName="hex" placeholder="#FAA76C">
+                    <div class="tip">💡 {{ tips.body.dot_guide.colorScheme.mapping.hex }}</div>
+                    <div class="error" *ngIf="map.get('hex').invalid && (map.get('hex').touched || submitted)">Use format #RRGGBB.</div>
+                  </div>
+                </div>
+                <div class="field">
+                  <label>Why</label>
+                  <textarea data-testid="field-why" aria-required="true" formControlName="why" rows="2"></textarea>
+                  <div class="tip">💡 {{ tips.body.dot_guide.colorScheme.mapping.why }}</div>
+                </div>
+              </div>
+              <button type="button" class="btn-add small" [attr.data-testid]="'add-mapping-' + si" (click)="addMapping(si)">+ Add Mapping Row</button>
+            </div>
+          </div>
+          <button type="button" class="btn-add" data-testid="add-scheme-btn" (click)="addColorScheme()">+ Add Color Scheme</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================ -->
+    <!-- ACTIONS                                                       -->
+    <!-- ============================================================ -->
+    <div class="actions">
+      <button type="submit" class="btn-primary" data-testid="generate-btn">Generate JSON</button>
+      <button type="button" class="btn-secondary" data-testid="reset-btn" (click)="resetForm()">Reset Form</button>
+      <span class="form-status" data-testid="form-status" *ngIf="submitted && form.invalid">⚠ Please fix the highlighted fields above.</span>
+    </div>
+  </form>
+
+  <!-- ============================================================ -->
+  <!-- OUTPUT                                                        -->
+  <!-- ============================================================ -->
+  <section class="card output" *ngIf="generatedJson" data-testid="output-card">
+    <h2>Generated JSON</h2>
+    <pre data-testid="output-json">{{ generatedJson }}</pre>
+    <button type="button" class="btn-primary" data-testid="download-btn" (click)="downloadJson()">Download JSON File</button>
+  </section>
+</div>
