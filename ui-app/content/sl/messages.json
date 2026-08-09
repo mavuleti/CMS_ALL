@@ -1,0 +1,736 @@
+{
+  "nav": {
+    "kids": "Otroci - Uganke",
+    "teachers": "Učitelji",
+    "parents": "Starši",
+    "contact": "Kontaktirajte nas",
+    "blog": "Blog",
+    "search": "Iskanje",
+    "freePack": "Brezplačen paket",
+    "scanMe": "Skeniraj me"
+  },
+  "hero": {
+    "badge": "100 % brezplačno · račun ni potreben",
+    "h1": "Brezplačni natisljivi listi za otroke s povezovanjem pik – delovni listi za povezovanje pik",
+    "description": "Prenesite in natisnite na stotine brezplačnih delovnih listov s povezovanjem pik za predšolske otroke, vrtec in 1.–6. razred. Živali, dinozavri, vozila, praznične teme in še več – pripravljeno v nekaj sekundah, prijava ni potrebna.",
+    "browsePuzzles": "Brskaj po brezplačnih ugankah",
+    "starterPack": "Pridobite začetni paket z 20 sestavljankami",
+    "stat1Value": "Preverjene",
+    "stat1Label": "brezplačne uganke za tiskanje",
+    "stat2Value": "Starost 2–12 let",
+    "stat2Label": "vse ravni znanja",
+    "stat3Value": "100 %",
+    "stat3Label": "svoboden, za vedno"
+  },
+  "audience": {
+    "kidsTitle": "Za otroke",
+    "kidsText": "Prijazne teme živali, dinozavrov in vozil z jasnimi oštevilčenimi pikami. Enostavne zmage, ki gradijo resnično samozavest.",
+    "parentsTitle": "Za starše",
+    "parentsText": "Tihe dejavnosti brez zaslona doma, na potovanjih in v restavracijah. Tiskajte iz katere koli naprave v manj kot minuti.",
+    "teachersTitle": "Za učitelje",
+    "teachersText": "Povežite pike z enostavno pripravo za jutranje delo, zgodnje zaključke, nadomestne naloge in delovne postaje v učilnici – priprava ni potrebna."
+  },
+  "categories": {
+    "eyebrow": "Organizirano po temi in stopnji znanja",
+    "heading": "Brskaj po ugankah od pike do pike po kategorijah",
+    "description": "Od preprostih oblik z 10 pikami za malčke do izzivov z 200 pikami za starejše otroke – razvrščeno po kategorijah, tako da boste v nekaj sekundah našli pravi brezplačni dokument za tiskanje.",
+    "puzzles": "{count, plural, one {# uganka} two {# uganki} few {# uganke} other {# ugank}}",
+    "comingSoon": "Kmalu na voljo",
+    "badges": {
+      "dinosaurs": "Na voljo zdaj!",
+      "ocean": "Na voljo zdaj!",
+      "playgrounds": "Na voljo zdaj!",
+      "garden": "Na voljo zdaj!",
+      "usa250": "Novo!",
+      "uae": "Na voljo zdaj!",
+      "cute": "Novo!",
+      "circus": "Novo!"
+    },
+    "items": {
+      "dinosaurs": {
+        "name": "Dinozavri",
+        "description": "Podajte se v prazgodovinsko zabavo! T-Rex, Triceratops, Velociraptor in {count} brezplačnih ugank s pikami, ki jih bodo vaši otroci oboževali."
+      },
+      "animals": {
+        "name": "Živali",
+        "description": "Prijazna bitja za zgodnjo vajo številk."
+      },
+      "vehicles": {
+        "name": "Vozila",
+        "description": "Avtomobili, tovornjaki, rakete in stroji."
+      },
+      "fantasy": {
+        "name": "Fantazija",
+        "description": "Gradovi, samorogi, zmaji in zgodbe."
+      },
+      "seasonal": {
+        "name": "Sezonsko",
+        "description": "Dejavnosti v okviru praznikov in učnega koledarja."
+      },
+      "ocean": {
+        "name": "Oceana",
+        "description": "Morske živali in mirne pobarvanke."
+      },
+      "playgrounds": {
+        "name": "Igrišča",
+        "description": "Gugalnice, tobogani in zabava na prostem za male pustolovce."
+      },
+      "garden": {
+        "name": "Vrt",
+        "description": "Rokavice, lopatice in orodje za male vrtne pomočnike."
+      },
+      "usa250": {
+        "name": "Amerika 250 let",
+        "description": "Praznujte 250. obletnico Amerike z domoljubnimi ugankami od pik do pik, ki častijo ameriško zgodovino."
+      },
+      "uae": {
+        "name": "ZAE",
+        "description": "Raziščite Združene arabske emirate! Ikonične znamenitosti, kot je Burj Al Arab, so pripravljene na povezovanje in barvanje."
+      },
+      "space": {
+        "name": "Vesolje",
+        "description": "Planeti, astronavti in raketne pustolovščine."
+      },
+      "worksheets": {
+        "name": "Delovni listi",
+        "description": "Učiteljski listi za zaporedje števil."
+      },
+      "bigDotBooks": {
+        "name": "Velike točke knjige",
+        "description": "Dolge uganke za osredotočene starejše učence."
+      },
+      "cute": {
+        "name": "Ljubko",
+        "description": "Čudoviti mladički, majhni avtomobilčki in {count} očarljivih brezplačnih ugank od pik do pik, ki jih bodo vaši otroci oboževali."
+      },
+      "circus": {
+        "name": "Cirkus",
+        "description": "Voditelji ringa, veliki šotori in zabava ob predstavi za mlade učence."
+      }
+    }
+  },
+  "puzzleSection": {
+    "eyebrow": "Brezplačni vzorci za tiskanje – brez prijave",
+    "heading": "Priljubljeni listi za povezovanje pik, ki jih lahko natisnete zdaj",
+    "weeklyPack": "Glej tedenski paket →",
+    "downloadLink": "Prenesite brezplačno datoteko za tiskanje",
+    "new": "Novo",
+    "imageAlt": "{name} brezplačen delovni list za tiskanje s pikami za {age}",
+    "categories": {
+      "Dinosaurs": "Dinozavri",
+      "Ocean": "Oceana",
+      "Playgrounds": "Igrišča",
+      "Garden": "Vrt",
+      "Cute": "Ljubko",
+      "USA 250 Years": "Amerika 250 let",
+      "UAE": "ZAE"
+    },
+    "items": {
+      "trex-61-dot-to-dot-puzzle": {
+        "name": "Izziv 61 pik s T-Rexom"
+      },
+      "brontosaurus-dot-to-dot-puzzle": {
+        "name": "Brontozaver"
+      },
+      "mermaid-dot-to-dot-puzzle": {
+        "name": "Morska deklica"
+      },
+      "merman-dot-to-dot-puzzle": {
+        "name": "Morski mož"
+      },
+      "seahorse-dot-to-dot-puzzle": {
+        "name": "Morski konjiček"
+      },
+      "whale-dot-to-dot-puzzle": {
+        "name": "Kit"
+      },
+      "swing-playgrounds-dot-to-dot-puzzle": {
+        "name": "Gugalnica za igrišče"
+      },
+      "slide-playgrounds-dot-to-dot-puzzle": {
+        "name": "Igrišče s toboganom"
+      },
+      "seesaw-playground-dot-to-dot-puzzle": {
+        "name": "Igrišče gugalnica"
+      },
+      "roller-coaster-playground-dot-to-dot-puzzle": {
+        "name": "Igrišče za vlakce smrti"
+      },
+      "wheelbarrow-playground-dot-to-dot-puzzle": {
+        "name": "Igrišče s samokolnico"
+      },
+      "garden-gloves-dot-to-dot-puzzle": {
+        "name": "Vrtne rokavice"
+      },
+      "garden-trowel-dot-to-dot-puzzle": {
+        "name": "Vrtna lopatica"
+      },
+      "gas-balloon-usa-250-dot-to-dot-puzzle": {
+        "name": "Plinski balon Amerika 250"
+      },
+      "america-250-birthday-fireworks-dot-to-dot-puzzle": {
+        "name": "Amerika 250 Rojstni Ognjemet"
+      },
+      "america-250-anniversary-liberty-bell-wings-1776-dot-to-dot-puzzle": {
+        "name": "Amerika 250 Liberty Bell krila"
+      },
+      "usa-250-astronaut-dot-to-dot-puzzle": {
+        "name": "Amerika 250 Astronavt"
+      },
+      "usa-250-anniversary-sports-kids-podium-dot-to-dot-puzzle": {
+        "name": "Otroški športni oder za 250. obletnico Amerike"
+      },
+      "usa-250-anniversary-airplane-banner-dot-to-dot-puzzle": {
+        "name": "Letalski transparent za 250. obletnico Amerike"
+      },
+      "usa-250-space-shuttle-dot-to-dot-puzzle": {
+        "name": "Vesoljski raketoplan America 250"
+      },
+      "usa-250-birthday-balloons-stars-dot-to-dot-puzzle": {
+        "name": "Amerika 250 rojstnodnevnih balonov in zvezd"
+      },
+      "usa-250-birthday-cake-dot-to-dot-puzzle": {
+        "name": "Amerika 250 Rojstnodnevna torta"
+      },
+      "america-250-anniversary-eagle-banner-dot-to-dot-puzzle": {
+        "name": "Amerika 250 Eagle Banner"
+      },
+      "burj-al-arab-dot-to-dot-puzzle": {
+        "name": "Burdž al-Arab"
+      },
+      "dallah-coffee-pot-dot-to-dot-puzzle": {
+        "name": "Kavni lonec Dallah"
+      }
+    }
+  },
+  "benefits": {
+    "eyebrow": "Podprto s strani vzgojiteljev predšolske vzgoje",
+    "heading": "Zakaj so delovni listi s pikami odlični za otrokov razvoj",
+    "description": "Tiskanice s povezovanjem pik so več kot le zabava – so orodje, ki ga podpirajo raziskave in ga vzgojitelji v predšolskih in vrtčevskih otrocih uporabljajo za razvoj temeljnih učnih veščin v zgodnjem zgodnjem obdobju.",
+    "fineMotorTitle": "Razvija fine motorične sposobnosti",
+    "fineMotorText": "Risanje pikčastih črt razvija prijem svinčnika, koordinacijo rok in oči ter nadzor mišic, ki jih otroci potrebujejo za pisanje z roko.",
+    "numberTitle": "Krepi prepoznavanje številk",
+    "numberText": "Z zaporednim sledenjem pikam 1 → 2 → 3 se učenci naravno in skozi igro učijo vrstnega reda štetja, prepoznavanja števil in zgodnjih matematičnih konceptov.",
+    "focusTitle": "Izboljša fokus in koncentracijo",
+    "focusText": "Reševanje sestavljanke s povezovanjem pik zahteva stalno pozornost – miren način za vadbo osredotočenosti brez uporabe zaslona za predšolske otroke do 3. razreda.",
+    "confidenceTitle": "Takojšnja nagrada in samozavest",
+    "confidenceText": "Ko se skrita slika pojavi, otroci takoj občutijo občutek dosežka. Ta majhna zmaga gradi ljubezen do učenja in miselnost rasti."
+  },
+  "howTo": {
+    "eyebrow": "Pripravljeno v manj kot 60 sekundah",
+    "heading": "Kako prenesti in natisniti brezplačne delovne liste s pikami",
+    "step1Title": "Izberi svojo sestavljanko",
+    "step1Text": "Izberite temo (živali, dinozavri, vozila, prazniki) in paleto pik, ki ustreza starosti in ravni znanja vašega otroka.",
+    "step2Title": "Prenesite brezplačni PDF",
+    "step2Text": "Kliknite »Prenesi brezplačno različico za tiskanje« – brez računa, brez e-pošte, brez plačljivega zidu. Vaš brskalnik takoj prenese PDF.",
+    "step3Title": "Natisni in uživaj",
+    "step3Text": "Natisnite na standardni papir velikosti US Letter (8,5\" × 11\"). Črno-bela barva deluje odlično. Dajte ga otroku in ga opazujte, kako povezuje pike!"
+  },
+  "trust": {
+    "eyebrow": "Zakaj nas starši in učitelji izberejo",
+    "heading": "Brezplačno, varno in neverjetno enostavno za uporabo.",
+    "noAccountTitle": "Račun ni potreben",
+    "noAccountText": "Vsak dokument za tiskanje od pike do pike se prenese takoj – brez prijave, brez e-pošte, brez plačljivega dostopa. Samo kliknite in natisnite.",
+    "safeTitle": "Varno v učilnici",
+    "safeText": "Čiste strani z ugankami brez oglasov, zasnovane za šolske tiskalnike. Primerne za jutranje delo, domače naloge ali miren čas.",
+    "fastTitle": "Hitro po zasnovi",
+    "fastText": "Statične strani, optimizirane slike in lokalne pisave pomenijo, da se uganke hitro naložijo na kateri koli napravi – telefonu, tablici ali prenosniku."
+  },
+  "faq": {
+    "eyebrow": "Pogosta vprašanja",
+    "heading": "Pogosto zastavljena vprašanja",
+    "q1": "Ali so vsi slikovni materiali za tiskanje od pike do pike na tej strani popolnoma brezplačni?",
+    "a1": "Da – vsak delovni list »connect-the-dots« na DotToDotFreePrintables.com je 100 % brezplačen za prenos in tiskanje. Nikoli ni potreben račun, naročnina ali kreditna kartica.",
+    "q2": "Za katero starost so primerni delovni listi s pikami?",
+    "a2": "Naši natisljivi materiali zajemajo otroke od 2. do 12. leta starosti. Preprosti delovni listi (10–20 pik) so primerni za malčke in predšolske otroke, srednje težki listi (20–50 pik) so odlični za vrtec in 1. razred, trši listi (50–200+ pik) pa so primerni za učence od 2. do 6. razreda.",
+    "q3": "V kakšnem formatu so natisljivi materiali za povezovanje pik?",
+    "a3": "Vsi delovni listi se prenesejo kot datoteke PDF, pripravljene za tiskanje, velikosti standardnega papirja US Letter (8,5\" × 11\"). Odprite jih v katerem koli brskalniku ali pregledovalniku PDF in natisnite – posebna programska oprema ni potrebna.",
+    "q4": "Imate delovne liste s pika-dot za predšolske otroke in vrtec?",
+    "a4": "Seveda. Naši najlažji delovni listi se začnejo z 1–10 pikami (idealno za starost 2–4 let) in vključujejo teme za prepoznavanje abecede in številk, namenjene predšolski vzgoji in vrtcu.",
+    "q5": "Ali lahko učitelji te delovne liste s povezovanjem pik uporabljajo pri pouku?",
+    "a5": "Da! Naši materiali za tiskanje so brezplačni za osebno in razredno uporabo. Priljubljeni so za jutranje delo, dejavnosti za zgodnje zaključevanje pouka, nadomestne učne načrte, centre za fino motoriko in pakete domačih nalog.",
+    "q6": "Ali pikčaste uganke pomagajo pri fini motoriki?",
+    "a6": "Da – risanje črt med pikami krepi moč oprijema svinčnika in koordinacijo rok in oči, ki podpirata pripravljenost za pisanje z roko. Zaradi tega mnogi delovni terapevti in vzgojitelji v vrtcih priporočajo dejavnosti povezovanja pik.",
+    "q7": "Imate tematske pikčaste tiskovine, kot so živali ali dinozavri?",
+    "a7": "Imamo 11 kategorij, vključno z živalmi, dinozavri, vozili, oceanskimi bitji, igrišči, 250 let Amerike, vesoljem, fantazijo, sezonskimi/prazničnimi temami, paketi delovnih listov za učitelje in knjigami Big Dot. Vsak teden dodajamo nove modele.",
+    "q8": "Ali lahko te uganke natisnem črno-belo?",
+    "a8": "Da – vsi naši delovni listi s povezovanjem pik so zasnovani za črno-belo tiskanje, da prihranite črnilo. Odlično izgledajo na katerem koli domačem ali učilnem tiskalniku."
+  },
+  "newsletter": {
+    "eyebrow": "Začetni paket za tiskanje – popolnoma brezplačno",
+    "heading": "Prejmite 20 brezplačnih dokumentov za tiskanje s piko na piko v vaš nabiralnik.",
+    "description": "Zbirka, prijazna staršem in učiteljem, ki zajema živali, vozila, dinozavre in sezonske teme – vse velikosti za standardni papir US Letter in optimizirane za črno-belo tiskanje."
+  },
+  "blog": {
+    "eyebrow": "Ideje za odrasle",
+    "heading": "Nasveti za učenje doma in v razredu",
+    "viewAll": "Oglejte si vse članke",
+    "read": "Preberi"
+  },
+  "feedback": {
+    "eyebrow": "Radi bi slišali od vas",
+    "heading": "Pošlji povratne informacije",
+    "description": "Imate idejo za uganko, ste opazili nedelujočo povezavo ali nas želite samo pozdraviti? Sporočite nam spodaj."
+  },
+  "footer": {
+    "description": "Brezplačni natisljivi listi za povezovanje pik in delovni listi za otroke, starše in učitelje. Vse uganke lahko brezplačno prenesete, natisnete in delite.",
+    "kids": "Otroci",
+    "parents": "Starši",
+    "teachers": "Učitelji",
+    "blog": "Blog",
+    "faq": "Pogosta vprašanja",
+    "feedback": "Povratne informacije",
+    "about": "O nas",
+    "contact": "Kontakt",
+    "privacy": "Zasebnost",
+    "terms": "Pogoji",
+    "sitemap": "Zemljevid spletnega mesta",
+    "copyright": "© {year} DotToDotFreePrintables.com · Brezplačne dejavnosti za otroke za tiskanje"
+  },
+  "contactPage": {
+    "title": "Kontaktirajte nas",
+    "intro": "Najhitrejši način, da nas kontaktirate, je po e-pošti:",
+    "topicsTitle": "Kar nas veseli slišati",
+    "requestsTitle": "Zahteve za uganke.",
+    "requests": "Povejte nam temo, ki jo ima vaš otrok ali razred rad, in okvirni starostni razpon – zahteve resnično oblikujejo, kaj bomo objavili v prihodnje.",
+    "correctionsTitle": "Popravki.",
+    "corrections": "Napačno oštevilčena pika, težava s tiskom, prevod, ki se čudno bere – prijavite to in stran bomo popravili.",
+    "licensingTitle": "Vprašanja o učilnici in licenciranju.",
+    "licensing": "Osebno in učno tiskanje je že brezplačno. Za vse, kar presega to – ponovno objavo, združevanje ali komercialno uporabo – se najprej pozanimajte.",
+    "termsLink": "pogoji uporabe",
+    "licensingNote": "(glejte naše <link>pogoje uporabe</link>).",
+    "feedbackTitle": "Povratne informacije.",
+    "feedback": "Kaj deluje, kaj ne, česa bi si želeli več.",
+    "responseTitle": "Odzivni čas",
+    "response": "To je majhna operacija, zato lahko odgovori trajajo nekaj dni. Poročila o popravkih imajo prednost.",
+    "aboutPrefix": "Več o spletnem mestu in kdo ga ustvarja:",
+    "aboutLink": "o nas"
+  },
+  "common": {
+    "home": "Domov",
+    "new": "Novo",
+    "comingSoon": "Kmalu na voljo",
+    "downloadFree": "Prenesite brezplačno datoteko za tiskanje",
+    "viewDownload": "Ogled in prenos",
+    "shareTitle": "{name} Poveži točke za tiskanje - Brezplačen PDF",
+    "downloadAria": "Prenesite brezplačen {name} poveži točke PDF za tiskanje",
+    "bookmarkTitle": "{name} Poveži točke za tiskanje – Brezplačen PDF za otroke",
+    "showSlide": "Prikaži diapozitiv {number}",
+    "ageRange": "Starost {min}-{max}",
+    "difficultyLabel": "Težavnost {level} od 3",
+    "difficulty": {
+      "1": "Enostavno",
+      "2": "Srednje",
+      "3": "Trdo"
+    },
+    "dots": "1–{count} pik",
+    "homeVideoEyebrow": "Videoposnetek",
+    "homeVideoH2": "Oglejte si zabavo pika-dot v akciji",
+    "skipToContent": "Preskoči na glavno vsebino",
+    "joinTeachers": "Pridruži se {count}+ učiteljem",
+    "breadcrumbAria": "Breadcrumb"
+  },
+  "puzzleDetail": {
+    "agesLabel": "Starost:",
+    "dotsLabel": "Pike:",
+    "freeLabel": "100 % brezplačno",
+    "difficultyHeading": "Težavnost",
+    "difficultyEasy": "Enostavno",
+    "difficultyMedium": "Srednje",
+    "difficultyHard": "Trdo",
+    "funFactPrefix": "Zanimivost:",
+    "funFactLabel": "Zabavno dejstvo!",
+    "noSignUp": "Registracija ni potrebna. Odpre se kot PDF. Natisnite na kateri koli papir velikosti US Letter (8,5 × 11 palcev). Brezplačno za domačo in učno uporabo.",
+    "comingSoon": "Prenesite brezplačen PDF – Kmalu na voljo",
+    "youMightLike": "Morda vam bo všeč tudi",
+    "faqQ1": "Za katero starost je uganka povezovanja pik {name}?",
+    "faqA1": "Namenjena je starosti {age}. S {dots} pikami ustreza otrokom, ki samozavestno štejejo do {dots}; mlajši otroci jo zmorejo z malo pomoči.",
+    "faqQ2": "Kako natisnem delovni list {name}?",
+    "faqA2": "Kliknite gumb za prenos, da dobite brezplačni PDF, nato ga natisnite na običajen papir (A4 ali US Letter) iz katerega koli brskalnika ali bralnika PDF. Posebna programska oprema ni potrebna.",
+    "faqQ3": "Ali je natisljivi {name} res brezplačen?",
+    "faqA3": "Da — je 100 % brezplačen, brez registracije, računa ali plačila. Natisnete ga lahko za dom ali učilnico."
+  },
+  "dinosaursPage": {
+    "eyebrow": "{count} brezplačnih delovnih listov za tiskanje",
+    "h1": "Dinozavri pikčasti natisljivi materiali za otroke",
+    "description": "Povežite pike in odkrijte svoje najljubše dinozavre! Vse delovne liste lahko brezplačno prenesete in natisnete – račun ni potreben. Idealno za otroke, stare od 4 do 10 let, predšolsko vzgojo, vrtec in uporabo v razredu.",
+    "breadcrumb": "Dinozavri",
+    "category": "Dinozavri",
+    "slugEyebrow": "Brezplačen dinozaver za tiskanje",
+    "slugH1Suffix": "Natisljivo od pike do pike",
+    "backToList": "← Nazaj na vse uganke z dinozavri",
+    "relatedEyebrow": "Več brezplačnih dinozavrov za tiskanje",
+    "whyH2": "Zakaj imajo otroci radi uganke z dinozavri in pikami",
+    "whyP": "Delovni listi za povezovanje pik z dinozavri združujejo dve stvari, ki ju imajo otroci radi – prazgodovinska bitja in zadovoljivo razkritje skrite slike. Za še več zabave v razredu jih združite z našimi drugimi <link>delovnimi listi za povezovanje pik</link>.",
+    "backToCategories": "← Nazaj na vse kategorije",
+    "guideH2Suffix": "Vodnik za reševanje ugank od pike do pike"
+  },
+  "oceanPage": {
+    "eyebrow": "{count} brezplačnih delovnih listov za tiskanje",
+    "h1": "Ocean pikčasti tisk za otroke",
+    "description": "Potopite se v temno modrino! Povežite pike in odkrijte morske deklice, morska bitja in oceanske dogodivščine. Vse delovne liste lahko brezplačno prenesete in natisnete – račun ni potreben.",
+    "breadcrumb": "Oceana",
+    "category": "Oceana",
+    "slugEyebrow": "Brezplačen ocean za tiskanje",
+    "slugH1Suffix": "Natisljivo od pike do pike",
+    "backToList": "← Nazaj na vse oceanske uganke",
+    "relatedEyebrow": "Več brezplačnih materialov za tiskanje o oceanu",
+    "whyH2": "Zakaj imajo otroci radi oceanske pikčaste uganke",
+    "whyP": "Delovni listi za povezovanje pik v oceanu spodbujajo radovednost o podvodnem svetu, hkrati pa razvijajo finomotorične sposobnosti, zaporedje števil in obvladovanje svinčnika. Za več tem si oglejte našo celotno knjižnico <link>pik za pike</link> za tiskanje.",
+    "backToCategories": "← Nazaj na vse kategorije",
+    "guideH2Suffix": "Vodnik za reševanje ugank od pike do pike"
+  },
+  "uaePage": {
+    "eyebrow": "{count} brezplačnih delovnih listov za tiskanje",
+    "h1": "Tiskanice ZAE od pike do pike za otroke",
+    "description": "Odkrijte Združene arabske emirate! Povežite pike in odkrijte Burdž Al Arab ter druge ikonične znamenitosti Emiratov. Vse delovne liste lahko brezplačno prenesete in natisnete – račun ni potreben.",
+    "breadcrumb": "ZAE",
+    "category": "ZAE",
+    "slugEyebrow": "Brezplačen tisk ZAE",
+    "slugH1Suffix": "Natisljivo od pike do pike",
+    "backToList": "← Nazaj na vse uganke ZAE",
+    "relatedEyebrow": "Več brezplačnih materialov za tiskanje iz ZAE",
+    "whyH2": "Zakaj imajo otroci radi uganke ZAE od pik do pik",
+    "whyP": "Delovni listi ZAE s povezovanjem pik otrokom predstavijo znane znamenitosti, hkrati pa razvijajo finomotorične sposobnosti, zaporedje števil in obvladovanje svinčnika. Za več tem si oglejte našo celotno knjižnico <link>pik za pike</link> za tiskanje.",
+    "backToCategories": "← Nazaj na vse kategorije",
+    "guideH2Suffix": "Vodnik za reševanje ugank od pike do pike"
+  },
+  "playgroundsPage": {
+    "eyebrow": "{count, plural, one {# brezplačen natisljiv delovni list} two {# brezplačna natisljiva delovna lista} few {# brezplačni natisljivi delovni listi} other {# brezplačnih natisljivih delovnih listov}}",
+    "h1": "Otroški natisljivi motivi za otroško igrišče",
+    "description": "Prinesite igrišče domov! Povežite pike in odkrijte gugalnice, tobogane in zabavo na prostem. Vse delovne liste lahko brezplačno prenesete in natisnete – brez potrebe po računu.",
+    "breadcrumb": "Igrišča",
+    "category": "Igrišča",
+    "slugEyebrow": "Brezplačno otroško igrišče za tiskanje",
+    "slugH1Suffix": "Natisljivo od pike do pike",
+    "backToList": "← Nazaj na vse uganke za igrišče",
+    "relatedEyebrow": "Več brezplačnih materialov za tiskanje otroških igrišč",
+    "whyH2": "Zakaj imajo otroci radi uganke od pik do pik na igrišču",
+    "whyP": "Delovni listi za povezovanje pik za igrišče združujejo vznemirjenje igre na prostem z osredotočeno koncentracijo pri dejavnosti s svinčnikom. Če je vaš otrok navdušen nad tem, poskusite našo naslednjo kolekcijo <link>dinozavrov pika za piko</link>.",
+    "backToCategories": "← Nazaj na vse kategorije",
+    "guideH2Suffix": "Vodnik za reševanje ugank od pike do pike"
+  },
+  "gardenPage": {
+    "eyebrow": "{count, plural, one {# brezplačen natisljiv delovni list} two {# brezplačna natisljiva delovna lista} few {# brezplačni natisljivi delovni listi} other {# brezplačnih natisljivih delovnih listov}}",
+    "h1": "Vrtni pikčasti tisk za otroke",
+    "description": "Začnite rasti! Povežite pike in odkrijte vrtne rokavice, lopatice in priročno vrtno orodje. Vse delovne liste lahko brezplačno prenesete in natisnete – brez potrebe po računu.",
+    "breadcrumb": "Vrt",
+    "category": "Vrt",
+    "slugEyebrow": "Brezplačen vrt za tiskanje",
+    "slugH1Suffix": "Natisljivo od pike do pike",
+    "backToList": "← Nazaj na vse vrtne uganke",
+    "relatedEyebrow": "Več brezplačnih vrtnih tiskovin",
+    "whyH2": "Zakaj imajo otroci radi vrtne uganke od pik do pik",
+    "whyP": "Delovni listi za povezovanje pik na vrtu otroke seznanijo s koristnim vrtnim orodjem, hkrati pa razvijajo finomotorične sposobnosti, zaporedje števil in obvladovanje svinčnika. Za več tem si oglejte našo celotno knjižnico <link>pik za pike</link> za tiskanje.",
+    "backToCategories": "← Nazaj na vse kategorije",
+    "guideH2Suffix": "Vodnik za reševanje ugank od pike do pike"
+  },
+  "cutePage": {
+    "eyebrow": "{count, plural, one {# brezplačna printable delovni list} other {# brezplačnih printable delovnih listov}}",
+    "h1": "Simpatični otroški natisljivi motivi od pik do pik",
+    "description": "Pripravite se na največjo ljubkost! Povežite pike in odkrijte čudovite kužke, majhne avtomobilčke in še več očarljivih prijateljev. Vse delovne liste lahko brezplačno prenesete in natisnete – račun ni potreben.",
+    "breadcrumb": "Ljubko",
+    "category": "Ljubko",
+    "slugEyebrow": "Brezplačno ljubko tiskano",
+    "slugH1Suffix": "Natisljivo od pike do pike",
+    "backToList": "← Nazaj na vse ljubke uganke",
+    "relatedEyebrow": "Več brezplačnih ljubkih materialov za tiskanje",
+    "whyH2": "Zakaj imajo otroci radi ljubke uganke s pikami",
+    "whyP": "Prikupni delovni listi s povezovanjem pik spremenijo čudovite like v koristno vajo risanja, ki razvija finomotorične sposobnosti, zaporedje števil in obvladovanje svinčnika. Prebrskajte našo celotno knjižnico<link> natisljive datoteke od pike do pike</link> za več tem.",
+    "backToCategories": "← Nazaj na vse kategorije",
+    "guideH2Suffix": "Vodnik za reševanje ugank od pike do pike",
+    "colorH2": "Vodnik za barvanje: Zabavne ideje za barve"
+  },
+  "usa250Page": {
+    "eyebrow": "{count, plural, one {# brezplačen natisljiv delovni list} two {# brezplačna natisljiva delovna lista} few {# brezplačni natisljivi delovni listi} other {# brezplačnih natisljivih delovnih listov}}",
+    "h1": "Amerika 250 let pikčastih natisljivih materialov za otroke",
+    "description": "Praznujte 250. obletnico Amerike! Povežite pike in odkrijte domoljubne prizore ter ikonične ameriške simbole. Vse delovne liste lahko brezplačno prenesete in natisnete – račun ni potreben.",
+    "breadcrumb": "Amerika 250 let",
+    "category": "Amerika 250 let",
+    "slugEyebrow": "Brezplačna Amerika 250 za tiskanje",
+    "slugH1Suffix": "Natisljivo od pike do pike",
+    "videoEyebrow": "Videoposnetek",
+    "videoH2": "Oglejte si natisljive materiale America 250 v akciji",
+    "aboutH2": "O teh ameriških 250 ugankah s pikami",
+    "backToList": "← Nazaj na vse uganke America 250",
+    "relatedEyebrow": "Več brezplačnih materialov za tiskanje America 250",
+    "whyH2": "Zakaj imajo otroci radi uganke America 250 od pik do pike",
+    "whyP": "Delovni listi s povezovanjem pik za Ameriko 250 spodbujajo radovednost o ameriški zgodovini, hkrati pa razvijajo finomotorične sposobnosti, zaporedje števil in obvladovanje svinčnika – vse s temo domoljubnega praznovanja. Raziščite več <link>natisljivih pikčastih delovnih listov 1–100</link> na vsako temo.",
+    "backToCategories": "← Nazaj na vse kategorije",
+    "guideH2Suffix": "Vodnik za reševanje ugank od pike do pike",
+    "historySourcePrefix": "Vir zgodovine:"
+  },
+  "blogPage": {
+    "eyebrow": "Učni viri",
+    "h1": "Ideje za pikčasto učenje za starše in učitelje",
+    "description": "Praktični vodniki za izbiro dejavnosti, razvijanje zgodnjih učnih veščin in uporabo natisljivih delovnih listov doma ali v razredu.",
+    "breadcrumb": "Blog",
+    "latestEyebrow": "Najnovejši članki",
+    "latestH2": "Koristne ideje, ki jih lahko uporabite danes",
+    "readArticle": "Preberi članek",
+    "by": "Od",
+    "backToAll": "← Nazaj na vse članke",
+    "savePinterest": "Shrani na Pinterest",
+    "relatedEyebrow": "Brezplačni materiali za tiskanje",
+    "relatedHeading": "Naslednjič poskusite te zbirke pik za piko"
+  },
+  "searchPage": {
+    "eyebrow": "Za učitelje in starše",
+    "h1": "Poiščite popolno sestavljanko",
+    "description": "Iščite po imenu, filtrirajte po temi ali številu pik ali pa brskajte po nedavno dodanih vsebinah – vse to je brezplačno za tiskanje, brez registracije."
+  },
+  "puzzleSearch": {
+    "placeholder": "Iskanje po imenu ali temi ... npr. ocean, kit, t-rex",
+    "searchAria": "Iskanje ugank",
+    "clearSearch": "Počisti iskanje",
+    "toggleFilters": "Preklopi filtre",
+    "filters": "Filtri",
+    "filterOptions": "Možnosti filtrov",
+    "topic": "Tema",
+    "numberOfDots": "Število pik",
+    "recentlyAddedOnly": "Samo nedavno dodano",
+    "clearAllFilters": "Počisti vse filtre",
+    "clearFilters": "Počisti filtre",
+    "resultsFound": "{count, plural, one {najdena # uganka} two {najdeni # uganki} few {najdene # uganke} other {najdenih # ugank}}",
+    "puzzlesAvailable": "{count, plural, one {na voljo # uganka} two {na voljo # uganki} few {na voljo # uganke} other {na voljo # ugank}}",
+    "noMatches": "Nobena uganka ne ustreza vašemu iskanju.",
+    "openPuzzle": "Odpri {name}",
+    "imageAlt": "{name} pika-do-pika za tiskanje",
+    "viewPuzzle": "Ogled sestavljanke →",
+    "dotRanges": {
+      "under35": "Manj kot 35 pik",
+      "35to50": "35–50 pik",
+      "51to70": "51–70 pik",
+      "over70": "70+ pik"
+    },
+    "categories": {
+      "Dinosaurs": "Dinozavri",
+      "Ocean": "Okean",
+      "Playgrounds": "Igrišča",
+      "Garden": "Vrt",
+      "Cute": "Ljubko",
+      "USA 250 Years": "Amerika 250 let",
+      "UAE": "ZAE"
+    }
+  },
+  "newsletterForm": {
+    "ariaLabel": "Pridobite brezplačen paket za tiskanje pika-po-piki",
+    "emailLabel": "E-poštni naslov",
+    "submit": "Pošlji brezplačen paket",
+    "honeypot": "Pustite to polje prazno",
+    "privacy": "Brez neželene pošte, nikoli. Odjavite se kadar koli.",
+    "error": "Tega obrazca ni mogoče poslati.",
+    "notConnected": "Prijava na brezplačni paket še ni povezana."
+  },
+  "feedbackForm": {
+    "ariaLabel": "Pošlji povratne informacije",
+    "notConnected": "Ta obrazec za povratne informacije še ni povezan.",
+    "typeLabel": "Kakšne povratne informacije?",
+    "selectTopic": "Izberite temo ...",
+    "types": {
+      "general": "Splošne povratne informacije",
+      "requestTheme": "Zahtevajte temo sestavljanke",
+      "brokenLink": "Prijavi nedelujočo povezavo",
+      "improvement": "Predlagajte izboljšavo",
+      "other": "Drugo"
+    },
+    "messageLabel": "Vaše sporočilo",
+    "messagePlaceholder": "Povejte nam, kaj menite ...",
+    "emailLabel": "E-pošta",
+    "emailOptional": "(neobvezno - samo če želite odgovor)",
+    "submit": "Pošlji povratne informacije",
+    "success": "Hvala. Vaše mnenje je bilo poslano.",
+    "disclaimer": "Prosimo, ne vključujte občutljivih osebnih podatkov. E-pošta ni obvezna in jo uporabimo le, če moramo odgovoriti.",
+    "iframeTitle": "Oddaja povratnih informacij"
+  },
+  "downloadButton": {
+    "label": "Prenesite brezplačen PDF za tiskanje",
+    "usage": "Brezplačno za domačo in učno uporabo.",
+    "paperNote": "Velikost za papir {size}.",
+    "paperLetter": "Pismo ZDA",
+    "paperA4": "A4",
+    "alternateLink": "Bi raje imeli {size}? Prenesite to različico",
+    "downloadSize": "Prenesi (Velikost za tiskanje: {size})"
+  },
+  "downloadBadge": {
+    "downloaded": "Preneseno",
+    "times": "krat",
+    "greatChoice": "Odlična izbira!"
+  },
+  "bookmarkButton": {
+    "regionLabel": "Dodaj to stran med zaznamke",
+    "shortcut": "Pritisnite <shortcut></shortcut> za dodajanje med zaznamke!",
+    "dismiss": "Zavrzi",
+    "shared": "Deljeno!",
+    "buttonAria": "Shrani ali deli to stran z ugankami",
+    "buttonTitle": "Shrani to sestavljanko",
+    "saved": "Shranjeno!",
+    "save": "Shrani"
+  },
+  "languageSwitcher": {
+    "label": "Jezik",
+    "selectLabel": "Izberite jezik",
+    "en": "Angleščina",
+    "fr": "Francoščina",
+    "es": "Španščina",
+    "de": "Nemščina",
+    "pt": "Portugalščina",
+    "it": "Italijanščina",
+    "nl": "Nizozemščina",
+    "sv": "Švedščina",
+    "no": "Norveščina",
+    "pl": "Poljščina",
+    "da": "Dansko",
+    "fi": "Finščina",
+    "cs": "Češčina",
+    "hu": "Madžarščina",
+    "ro": "Romunija"
+  },
+  "shareButtons": {
+    "label": "Deli",
+    "copyLink": "Kopiraj povezavo",
+    "copied": "Povezava kopirana!",
+    "shareMe": "Delite me"
+  },
+  "bookmark": {
+    "save": "Dodaj to stran med zaznamke",
+    "saved": "Shranjeno med zaznamke",
+    "labelText": "Dodaj med zaznamke",
+    "hint": "Pritisnite Ctrl+D (ali ⌘+D v računalniku Mac), da to stran dodate med zaznamke."
+  },
+  "purchase": {
+    "premium": {
+      "metaTitle": "Najboljše iz leta 2026 Premium Dot-to-Dot Puzzle Pack",
+      "metaDescription": "Zbirka najljubših ugank za otroke, pripravljena za tisk, združena v en priročen PDF.",
+      "eyebrow": "Vrhunska zbirka za tiskanje",
+      "heading": "Več ugank. Manj iskanja. Vse v enem priročnem PDF-ju.",
+      "lede": "Zbirka Best of 2026 združuje naše najljubše dejavnosti povezovanja pik v enem paketu, ki ga je enostavno natisniti, za miren čas, deževne dni, domačo šolo in učilnice.",
+      "digitalPdf": "Digitalni PDF",
+      "printAtHome": "Tiskanje doma",
+      "instantAccess": "Takojšen dostop",
+      "purchaseAria": "Kupite paket sestavljank Best of 2026",
+      "coverAlt": "Najboljše iz leta 2026 – naslovnica knjige 25 Dot-to-Dot Puzzles",
+      "oneTime": "enkrat",
+      "buyButton": "Pridobite paket uganke",
+      "localNote": "Na lokalnem gostitelju to odpre predstavitev varnega nakupa in nikoli ne bremeni kartice.",
+      "detailsEyebrow": "Narejen za preprosto tiskanje in predvajanje",
+      "detailsHeading": "Vse, kar potrebujete za zabavo brez zaslona",
+      "detailsText": "Prenesite enkrat, imejte ga pri roki in natisnite želene dejavnosti, kadar koli jih potrebujete.",
+      "benefits": {
+        "onePdf": "En priročen PDF, pripravljen za tiskanje",
+        "kidFriendly": "Otrokom prijazne uganke z različnimi težavnostmi",
+        "paperSizes": "Deluje na papirju US Letter in A4",
+        "instantAccess": "Takojšen dostop po uspešnem plačilu",
+        "classroomUse": "Uporabite doma ali v eni učilnici"
+      },
+      "guaranteeHeading": "Enostavno, varno in pripravljeno v nekaj minutah",
+      "guaranteeText": "Po zaključku nakupa se takoj prikaže vaša zasebna povezava za prenos. Brez naročnine in brez presenetljivega podaljšanja."
+    },
+    "checkout": {
+      "consent": "Strinjam se s takojšnjo dostavo tega digitalnega PDF-ja in razumem, da je po začetku dostopa prodaja dokončna in brez možnosti vračila denarja, razen če to zahteva zakon ali če datoteka ni dostavljena ali je okvarjena.",
+      "refundPolicy": "Preberite politiko vračila",
+      "opening": "Odpiranje blagajne ...",
+      "secureNote": "Varna blagajna, ki jo poganja Stripe. Enkratno plačilo. Brez naročnine.",
+      "error": "Pri zagonu blagajne je šlo nekaj narobe. prosim poskusite znova"
+    },
+    "success": {
+      "metaTitle": "Hvala za vaš nakup",
+      "eyebrow": "Plačilo potrjeno",
+      "heading": "Hvala! Vaš nakup je končan.",
+      "lede": "Vaše plačilo je bilo uspešno. Lahko traja nekaj sekund, da se vaš nakup prikaže na vašem računu."
+    },
+    "cancelled": {
+      "metaTitle": "Blagajna preklicana",
+      "eyebrow": "Brez plačila",
+      "heading": "Blagajna preklicana",
+      "lede": "Zaračunana ni bila. Kadar koli lahko poskusite znova."
+    },
+    "download": {
+      "demoTitle": "Preizkus lokalne blagajne opravljen.",
+      "demoText": "Zaslon s pravim plačanim uspehom tukaj prikazuje gumb za prenos PDF-ja. Lokalna predstavitev ne izda zasebne datoteke.",
+      "button": "Prenesite svoj paket ugank",
+      "expires": "Ta povezava poteče v 24 urah. Prenos shranite na varno mesto.",
+      "failed": "Vašega nakupa še nismo mogli potrditi. Če ste bili zaračunani, osvežite to stran čez minuto ali pa nas kontaktirajte za pomoč.",
+      "preparing": "Priprava prenosa ..."
+    },
+    "ad": {
+      "advertisementAria": "Oglas: knjiga dejavnosti Best of 2026 od točke do točke",
+      "viewPackAria": "Oglejte si paket sestavljank Best of 2026 od točke do točke",
+      "pdfBook": "PDF KNJIGA",
+      "bookTitle": "Najboljše v 2026",
+      "packName": "Paket ugank poveži pike",
+      "puzzleCount": "25 ugank od pike do pike",
+      "viewBook": "Ogled knjige"
+    },
+    "shared": {
+      "specialSale": "Posebna prodaja",
+      "returnToPack": "Vrnite se na paket uganke",
+      "contactUs": "Kontaktirajte nas"
+    }
+  },
+  "homepageUi": {
+    "title": "Poiščite popolne tiskane uganke od pike do pike",
+    "description": "Natisnite, povežite pike in obudite čudovite slike. Brezplačno in pripravljeno za zabavo!",
+    "searchPlaceholder": "Poskusite ocean, dinozaver ali cvetje",
+    "filterPuzzles": "Filtriraj uganke",
+    "age": "Starost",
+    "dots": "pik",
+    "featuredPuzzles": "Priporočene tiskane uganke",
+    "savePuzzle": "Shrani {name}",
+    "removeSavedPuzzle": "Odstrani {name} iz shranjenih",
+    "downloads": "prenosov",
+    "bookTitle": "Najboljše iz leta 2026 · {count}",
+    "bookDescription": "Naše najljubše uganke od pike do pike v eni tiskani PDF knjigi.",
+    "searchUnavailable": "Iskanje je začasno nedosegljivo. Poskusite znova.",
+    "popularEyebrow": "Priljubljeno ta teden",
+    "mostDownloaded": "Najbolj preneseni uganke",
+    "downloadCountAria": "{count} ali več prenosov",
+    "freshPrintables": "Sveže tiskovine",
+    "recentlyAdded": "Nedavno dodano",
+    "browseCategories": "Brskaj po kategorijah ugank",
+    "openCategories": "Odpri meni kategorij",
+    "closeCategories": "Zapri meni kategorij",
+    "browseByTheme": "Brskaj po temi",
+    "quickLinks": "Hitre povezave",
+    "bundlePacks": "Paketi zvezkov",
+    "parentsTeachers": "Za starše in učitelje",
+    "more": "Več kategorij",
+    "kids": "Otroci",
+    "categoryNames": {
+      "cute": "Ljubke uganke",
+      "flowers": "Cvetlice"
+    }
+  },
+  "circusPage": {
+    "eyebrow": "{count, plural, one {# brezplačna printable delovni list} other {# brezplačnih printable delovnih listov}}",
+    "h1": "Brezplačne uganke poveži pike za otroke",
+    "description": "Pridite po brezplačne uganke poveži pike z prijaznim vodnikom medvedom in črtastim šotorom. Prenesite in natisnite oba PDF delovna lista za štetje in vaje s svinčnikom.",
+    "breadcrumb": "Cirkus",
+    "category": "Cirkus",
+    "slugEyebrow": "Brezplačen cirkuški printable",
+    "backToList": "? Back to all circus puzzles",
+    "relatedEyebrow": "Več brezplačnih cirkuških printov",
+    "whyH2": "Zakaj otroci obožujejo cirkuške uganke poveži pike",
+    "whyP": "Cirkusne delovne liste poveži pike pretvorijo vznemirjenje velikega šotora v osredotočeno štetje in vaje s svinčnikom. Poskusite našo <link>uganko poveži pike dinozavra</link> zbirko naslednjič.",
+    "backToCategories": "? Back to all categories",
+    "guideH2Suffix": "Vodnik po ugankah poveži pike",
+    "slugH1Suffix": "Printable poveži pike"
+  },
+  "spacePage": {
+    "eyebrow": "{count, plural, one {# brezplačna printable uganka} other {# brezplačnih printable ugank}}",
+    "h1": "Brezplačne uganke poveži pike v vesolju za otroke",
+    "description": "Izstrelite se z brezplačnimi delovnimi listi poveži pike v vesolju. Natisnite prijazno uganko roverja danes, z več raketami, planeti in kozmičnimi avanturami, ki prihajajo kmalu.",
+    "breadcrumb": "Vesolje",
+    "category": "Vesolje",
+    "slugEyebrow": "Vesoljski povezovalni pik",
+    "slugH1Suffix": "Povezovalni pik za tiskanje",
+    "backToList": "Nazaj k vesoljskim ugankam",
+    "openAria": "Odpri {name} povezovalni pik"
+  },
+  "usa250HouseAd": {
+    "ariaLabel": "Izpostavljeni Ameriški 250 povezovalni piki za tiskanje",
+    "eyebrow": "Izpostavljeno",
+    "heading": "Ameriški 250 tiskalni materiali",
+    "imageAlt": "{name} povezovalni pik za tiskanje"
+  }
+}

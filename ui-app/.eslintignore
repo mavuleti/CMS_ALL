@@ -1,0 +1,10 @@
+# Generated build and deployment output
+.next/
+out/
+temp/
+playwright-report/
+playwright-report-i18n/
+test-results/
+
+# Dependencies
+node_modules/

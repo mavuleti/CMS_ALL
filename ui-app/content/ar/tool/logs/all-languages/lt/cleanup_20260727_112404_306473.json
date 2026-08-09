@@ -1,0 +1,84 @@
+{
+  "run_id": "20260727_112404_306473",
+  "timestamp": "2026-07-27T11:24:04.306473-04:00",
+  "status": "success",
+  "exit_code": 0,
+  "mode": "apply",
+  "content_directory": "C:\\Users\\Kalapa-Guest\\CHATGPT_AUTO_SOURCE\\dot-to-dot-web\\content\\lt",
+  "file_pattern": "puzzles-*.json",
+  "backup_enabled": true,
+  "totals": {
+    "files_scanned": 8,
+    "entries_scanned": 53,
+    "entries_removed": 5,
+    "entries_remaining": 48,
+    "files_changed": 2,
+    "files_deleted": 1
+  },
+  "files": [
+    {
+      "file": "puzzles-canada.json",
+      "entries_before": 4,
+      "entries_removed": 4,
+      "entries_after": 0,
+      "would_change": true,
+      "action": "delete"
+    },
+    {
+      "file": "puzzles-cute.json",
+      "entries_before": 9,
+      "entries_removed": 0,
+      "entries_after": 9,
+      "would_change": false,
+      "action": "unchanged"
+    },
+    {
+      "file": "puzzles-dinosaurs.json",
+      "entries_before": 11,
+      "entries_removed": 0,
+      "entries_after": 11,
+      "would_change": false,
+      "action": "unchanged"
+    },
+    {
+      "file": "puzzles-garden.json",
+      "entries_before": 3,
+      "entries_removed": 0,
+      "entries_after": 3,
+      "would_change": false,
+      "action": "unchanged"
+    },
+    {
+      "file": "puzzles-ocean.json",
+      "entries_before": 5,
+      "entries_removed": 0,
+      "entries_after": 5,
+      "would_change": false,
+      "action": "unchanged"
+    },
+    {
+      "file": "puzzles-playgrounds.json",
+      "entries_before": 5,
+      "entries_removed": 1,
+      "entries_after": 4,
+      "would_change": true,
+      "action": "update"
+    },
+    {
+      "file": "puzzles-uae.json",
+      "entries_before": 5,
+      "entries_removed": 0,
+      "entries_after": 5,
+      "would_change": false,
+      "action": "unchanged"
+    },
+    {
+      "file": "puzzles-usa-250.json",
+      "entries_before": 11,
+      "entries_removed": 0,
+      "entries_after": 11,
+      "would_change": false,
+      "action": "unchanged"
+    }
+  ]
+}

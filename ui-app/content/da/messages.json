@@ -1,0 +1,736 @@
+{
+  "nav": {
+    "kids": "Børn - Puslespil",
+    "teachers": "Lærere",
+    "parents": "Forældre",
+    "contact": "Kontakt os",
+    "blog": "Blog",
+    "search": "Søge",
+    "freePack": "Gratis pakke",
+    "scanMe": "Scan mig"
+  },
+  "hero": {
+    "badge": "100% gratis · ingen konto nødvendig",
+    "h1": "Gratis prik-til-prik-ark til børn – Forbind prikkerne-ark",
+    "description": "Download og udskriv hundredvis af gratis \"forbind prikkerne\"-arbejdsark til børnehaveklasse, børnehaveklasse og 1.-6. klasse. Dyr, dinosaurer, køretøjer, ferietemaer og meget mere – klar på få sekunder, ingen tilmelding nødvendig.",
+    "browsePuzzles": "Gennemse gratis puslespil",
+    "starterPack": "Få en startpakke med 20 puslespil",
+    "stat1Value": "Kvalitetssikrede",
+    "stat1Label": "gratis printbare puslespil",
+    "stat2Value": "Alder 2-12",
+    "stat2Label": "alle færdighedsniveauer",
+    "stat3Value": "100%",
+    "stat3Label": "fri, for evigt"
+  },
+  "audience": {
+    "kidsTitle": "For børn",
+    "kidsText": "Venlige dyre-, dinosaur- og køretøjstemaer med tydelige nummererede prikker. Nemme sejre, der opbygger ægte selvtillid.",
+    "parentsTitle": "For forældre",
+    "parentsText": "Skærmfrie aktiviteter i stilhed til hjemmet, rejser og restauranter. Udskriv fra enhver enhed på under et minut.",
+    "teachersTitle": "For lærere",
+    "teachersText": "Letforberedende vejledning til morgenarbejde, tidlige færdiggørelser, vikarer og klasseværelsesstationer – ingen forberedelse nødvendig."
+  },
+  "categories": {
+    "eyebrow": "Organiseret efter tema og færdighedsniveau",
+    "heading": "Gennemse prik-til-prik-puslespil efter kategori",
+    "description": "Fra simple 10-punkts figurer til småbørn til 200-punkts udfordringer til ældre børn – sorteret efter kategori, så du finder det rigtige gratis printbare materiale på få sekunder.",
+    "puzzles": "{count, plural, one {# puslespil} other {# puslespil}}",
+    "comingSoon": "Kommer snart",
+    "badges": {
+      "dinosaurs": "Tilgængelig nu!",
+      "ocean": "Tilgængelig nu!",
+      "playgrounds": "Tilgængelig nu!",
+      "garden": "Tilgængelig nu!",
+      "usa250": "Ny!",
+      "uae": "Tilgængelig nu!",
+      "cute": "Ny!",
+      "circus": "Ny!"
+    },
+    "items": {
+      "dinosaurs": {
+        "name": "Dinosaurer",
+        "description": "Brøl ind i forhistorisk sjov! T-Rex, Triceratops, Velociraptor og {count} gratis prik-til-prik-puslespil, som dine børn vil elske."
+      },
+      "animals": {
+        "name": "Dyr",
+        "description": "Venlige væsner til tidlig taløvelse."
+      },
+      "vehicles": {
+        "name": "Køretøjer",
+        "description": "Biler, lastbiler, raketter og maskiner."
+      },
+      "fantasy": {
+        "name": "Fantasi",
+        "description": "Slotte, enhjørninger, drager og historieopslag."
+      },
+      "seasonal": {
+        "name": "Sæson",
+        "description": "Ferie- og klassekalenderaktiviteter."
+      },
+      "ocean": {
+        "name": "Ocean",
+        "description": "Havdyr og rolige farvelægningssider."
+      },
+      "playgrounds": {
+        "name": "Legepladser",
+        "description": "Gynger, rutsjebaner og udendørssjov for små eventyrere."
+      },
+      "garden": {
+        "name": "Have",
+        "description": "Handsker, murskeer og værktøj til små havehjælpere."
+      },
+      "usa250": {
+        "name": "Amerika 250 år",
+        "description": "Fejr Amerikas 250-års fødselsdag med patriotiske prik-til-prik-puslespil, der hylder amerikansk historie."
+      },
+      "uae": {
+        "name": "UAE",
+        "description": "Udforsk De Forenede Arabiske Emirater! Ikoniske vartegn som Burj Al Arab, klar til at blive forbundet og farvelagt."
+      },
+      "space": {
+        "name": "Plads",
+        "description": "Planeter, astronauter og raketeventyr."
+      },
+      "worksheets": {
+        "name": "Regneark",
+        "description": "Lærerklare ark med talsekvensering."
+      },
+      "bigDotBooks": {
+        "name": "Store Prikkebøger",
+        "description": "Lange puslespil for fokuserede ældre elever."
+      },
+      "cute": {
+        "name": "Sød",
+        "description": "Nuttede hvalpe, små biler og {count} charmerende gratis prik-til-prik-puslespil, som dine børn vil elske."
+      },
+      "circus": {
+        "name": "Cirkus",
+        "description": "Ringmastere, store telte, og showtime sjov for unge lærende."
+      }
+    }
+  },
+  "puzzleSection": {
+    "eyebrow": "Gratis printbare prøver – ingen tilmelding",
+    "heading": "Populære \"forbind prikkerne\"-ark til udskrivning nu",
+    "weeklyPack": "Se ugentlig pakke →",
+    "downloadLink": "Download gratis printbar",
+    "new": "Ny",
+    "imageAlt": "Gratis printbart prik-til-prik-ark med {name} til {age}",
+    "categories": {
+      "Dinosaurs": "Dinosaurer",
+      "Ocean": "Hav",
+      "Playgrounds": "Legepladser",
+      "Garden": "Have",
+      "Cute": "Sød",
+      "USA 250 Years": "Amerika 250 år",
+      "UAE": "UAE"
+    },
+    "items": {
+      "trex-61-dot-to-dot-puzzle": {
+        "name": "T-Rex 61-punkts udfordring"
+      },
+      "brontosaurus-dot-to-dot-puzzle": {
+        "name": "Brontosaurus"
+      },
+      "mermaid-dot-to-dot-puzzle": {
+        "name": "Havfrue"
+      },
+      "merman-dot-to-dot-puzzle": {
+        "name": "Havfrue"
+      },
+      "seahorse-dot-to-dot-puzzle": {
+        "name": "Søhest"
+      },
+      "whale-dot-to-dot-puzzle": {
+        "name": "Hval"
+      },
+      "swing-playgrounds-dot-to-dot-puzzle": {
+        "name": "Gyngelegeplads"
+      },
+      "slide-playgrounds-dot-to-dot-puzzle": {
+        "name": "Rutsjebanelegeplads"
+      },
+      "seesaw-playground-dot-to-dot-puzzle": {
+        "name": "Vippelegeplads"
+      },
+      "roller-coaster-playground-dot-to-dot-puzzle": {
+        "name": "Rutsjebanelegeplads"
+      },
+      "wheelbarrow-playground-dot-to-dot-puzzle": {
+        "name": "Trillebør Legeplads"
+      },
+      "garden-gloves-dot-to-dot-puzzle": {
+        "name": "Havehandsker"
+      },
+      "garden-trowel-dot-to-dot-puzzle": {
+        "name": "Haveske"
+      },
+      "gas-balloon-usa-250-dot-to-dot-puzzle": {
+        "name": "Gasballon America 250"
+      },
+      "america-250-birthday-fireworks-dot-to-dot-puzzle": {
+        "name": "Amerikas 250-års fødselsdagsfyrværkeri"
+      },
+      "america-250-anniversary-liberty-bell-wings-1776-dot-to-dot-puzzle": {
+        "name": "Amerika 250 Frihedsklokke-vinger"
+      },
+      "usa-250-astronaut-dot-to-dot-puzzle": {
+        "name": "Amerika 250 Astronaut"
+      },
+      "usa-250-anniversary-sports-kids-podium-dot-to-dot-puzzle": {
+        "name": "America 250-års jubilæumssportsbørnepodium"
+      },
+      "usa-250-anniversary-airplane-banner-dot-to-dot-puzzle": {
+        "name": "Amerikas 250-års jubilæumsflybanner"
+      },
+      "usa-250-space-shuttle-dot-to-dot-puzzle": {
+        "name": "America 250 rumfærge"
+      },
+      "usa-250-birthday-balloons-stars-dot-to-dot-puzzle": {
+        "name": "Amerikas 250-års fødselsdagsballoner og stjerner"
+      },
+      "usa-250-birthday-cake-dot-to-dot-puzzle": {
+        "name": "Amerika 250 fødselsdagskage"
+      },
+      "america-250-anniversary-eagle-banner-dot-to-dot-puzzle": {
+        "name": "Amerika 250 Ørnebanner"
+      },
+      "burj-al-arab-dot-to-dot-puzzle": {
+        "name": "Burj Al Arab"
+      },
+      "dallah-coffee-pot-dot-to-dot-puzzle": {
+        "name": "Dallah Kaffekande"
+      }
+    }
+  },
+  "benefits": {
+    "eyebrow": "Støttet af pædagoger i småbørnstiden",
+    "heading": "Hvorfor prik-til-prik-ark er gode til børns udvikling",
+    "description": "Printbare \"Connect the Dots\"-ark er mere end bare sjove – de er et forskningsbaseret værktøj, der bruges af førskole- og børnehavepædagoger til at opbygge grundlæggende færdigheder i tidlig læring.",
+    "fineMotorTitle": "Udvikler finmotorik",
+    "fineMotorText": "At tegne prik-til-prik-linjer udvikler blyantgreb, hånd-øje-koordination og den muskelkontrol, børn har brug for til at skrive i hånden.",
+    "numberTitle": "Forstærker talgenkendelse",
+    "numberText": "At følge punkterne 1 → 2 → 3 i rækkefølge lærer tællerækkefølge, talgenkendelse og tidlige matematiske begreber naturligt gennem leg.",
+    "focusTitle": "Forbedrer fokus og koncentration",
+    "focusText": "Det kræver vedvarende opmærksomhed at løse en \"forbind prikkerne\"-gåde – en rolig og skærmfri måde at øve fokus på fra børnehaveklasse til 3. klasse.",
+    "confidenceTitle": "Øjeblikkelig belønning og selvtillid",
+    "confidenceText": "Når det skjulte billede dukker op, føler børnene en øjeblikkelig følelse af præstation. Den lille sejr opbygger en kærlighed til læring og en væksttankegang."
+  },
+  "howTo": {
+    "eyebrow": "Klar på under 60 sekunder",
+    "heading": "Sådan downloader og udskriver du dine gratis prik-til-prik-ark",
+    "step1Title": "Vælg dit puslespil",
+    "step1Text": "Vælg et tema (dyr, dinosaurer, køretøjer, ferie) og et prikinterval, der matcher dit barns alder og færdighedsniveau.",
+    "step2Title": "Download den gratis PDF",
+    "step2Text": "Klik på \"Download gratis udskrivbar fil\" — ingen konto, ingen e-mail, ingen betalingsmur. Din browser downloader PDF'en med det samme.",
+    "step3Title": "Udskriv og nyd",
+    "step3Text": "Udskriv på standard US Letter-papir (8,5\" × 11\"). Sort-hvid fungerer perfekt. Giv det til dit barn, og se dem forbinde prikkerne!"
+  },
+  "trust": {
+    "eyebrow": "Hvorfor forældre og lærere vælger os",
+    "heading": "Gratis, sikkert og latterligt nemt at bruge.",
+    "noAccountTitle": "Ingen konto kræves",
+    "noAccountText": "Alle prik-til-prik-print-billeder kan downloades med det samme – ingen tilmelding, ingen e-mail, ingen betalingsmur. Bare klik og udskriv.",
+    "safeTitle": "Sikkert klasseværelse",
+    "safeText": "Rene, reklamefri puslespilsider designet til skoleprintere. Fungerer til morgenarbejde, lektier eller stilletid.",
+    "fastTitle": "Hurtigt af design",
+    "fastText": "Statiske sider, optimerede billeder og lokale skrifttyper betyder, at gåder indlæses hurtigt på enhver enhed - telefon, tablet eller bærbar computer."
+  },
+  "faq": {
+    "eyebrow": "Almindelige spørgsmål",
+    "heading": "Ofte stillede spørgsmål",
+    "q1": "Er alle prik-til-prik-printbare materialer på denne hjemmeside helt gratis?",
+    "a1": "Ja — alle \"connect-the-pricks\"-ark på DotToDotFreePrintables.com er 100% gratis at downloade og udskrive. Der kræves aldrig en konto, et abonnement eller et kreditkort.",
+    "q2": "Hvilken alder er prik-til-prik-ark egnede til?",
+    "a2": "Vores printbare ark dækker alderen 2-12 år. Nemme arbejdsark (10-20 prikker) passer til småbørn og førskolebørn, mellemstore ark (20-50 prikker) er gode til børnehavebørn og 1. klasse, og sværere ark (50-200+ prikker) udfordrer 2. til 6. klasse.",
+    "q3": "Hvilket format har de udskrivbare \"connect the pricks\"-materialer?",
+    "a3": "Alle arbejdsark kan downloades som PDF-filer, der er klar til udskrivning, og som er i størrelsen US Letter (8,5\" × 11\"). Åbn i enhver browser eller PDF-fremviser, og udskriv – ingen speciel software er nødvendig.",
+    "q4": "Har I prik-til-prik-ark til børnehaveklassen?",
+    "a4": "Absolut. Vores nemmeste arbejdsark starter ved 1-10 prikker (perfekt til alderen 2-4) og indeholder temaer om alfabet- og talgenkendelse designet til førskole- og børnehaveklasser.",
+    "q5": "Kan lærere bruge disse arbejdsark med forbindelsespunkterne i klassen?",
+    "a5": "Ja! Vores printbare materialer er gratis til personlig brug og brug i klasseværelset. De er populære til morgenarbejde, aktiviteter med tidlig afslutning, vikarlektionsplaner, finmotorikcentre og lektiepakker.",
+    "q6": "Hjælper prik-til-prik-puslespil med finmotorikken?",
+    "a6": "Ja – at tegne linjer mellem prikker styrker blyantgrebet og hånd-øje-koordinationen, der understøtter håndskriftsberedskabet. Mange ergoterapeuter og børnehavepædagoger anbefaler aktiviteter med at forbinde prikkerne af denne grund.",
+    "q7": "Har I temabaserede prik-til-prik-printbare ting, som f.eks. dyr eller dinosaurer?",
+    "a7": "Vi har 11 kategorier, herunder dyr, dinosaurer, køretøjer, havdyr, legepladser, Amerika 250 år, rumfart, fantasi, sæsonbestemte/ferietemaer, lærerarkpakker og bøger med store prikker. Nye designs tilføjes ugentligt.",
+    "q8": "Kan jeg udskrive disse puslespil i sort-hvid?",
+    "a8": "Ja – alle vores \"connect the pricks\"-arbejdsark er designet til sort-hvid udskrivning for at spare blæk. De ser fantastiske ud på enhver printer derhjemme eller i klasseværelset."
+  },
+  "newsletter": {
+    "eyebrow": "Startpakke til udskrivning – helt gratis",
+    "heading": "Få 20 gratis prik-til-prik-printbare materialer leveret til din indbakke.",
+    "description": "En forældre- og lærervenlig samling, der dækker dyr, køretøjer, dinosaurer og sæsonbestemte temaer – alle i størrelser til standard US Letter-papir og optimeret til sort-hvid udskrivning."
+  },
+  "blog": {
+    "eyebrow": "Idéer til voksne",
+    "heading": "Læringstips til hjemmet og klasseværelset",
+    "viewAll": "Se alle artikler",
+    "read": "Læse"
+  },
+  "feedback": {
+    "eyebrow": "Vi vil meget gerne høre fra dig",
+    "heading": "Send feedback",
+    "description": "Har du en idé til et puslespil, har du set et defekt link, eller vil du bare sige hej? Skriv til os nedenfor."
+  },
+  "footer": {
+    "description": "Gratis prik-til-prik-opgaver og forbind-prikker-arbejdsark til børn, forældre og lærere. Alle gåder er gratis at downloade, udskrive og dele.",
+    "kids": "Børn",
+    "parents": "Forældre",
+    "teachers": "Lærere",
+    "blog": "Blog",
+    "faq": "Ofte stillede spørgsmål",
+    "feedback": "Feedback",
+    "about": "Om",
+    "contact": "Kontakte",
+    "privacy": "Privatliv",
+    "terms": "Vilkår",
+    "sitemap": "Sitemap",
+    "copyright": "© {year} DotToDotFreePrintables.com · Gratis printbare aktiviteter for børn"
+  },
+  "contactPage": {
+    "title": "Kontakt os",
+    "intro": "Den hurtigste måde at kontakte os på er via e-mail:",
+    "topicsTitle": "Hvad vi er glade for at høre om",
+    "requestsTitle": "Puslespilsanmodninger.",
+    "requests": "Fortæl os et tema, dit barn eller din klasse elsker, og den omtrentlige aldersgruppe – ønsker former i sandhed, hvad vi udgiver næste gang.",
+    "correctionsTitle": "Rettelser.",
+    "corrections": "En forkert nummereret prik, et trykproblem, en oversættelse, der lyder mærkeligt – rapporter det, så retter vi siden.",
+    "licensingTitle": "Spørgsmål om klasseværelset og licenser.",
+    "licensing": "Personlig og klasseværelsesudskrivning er allerede gratis. Spørg først, hvis du har brug for mere end det – genudgivelse, bundling eller kommerciel brug.",
+    "termsLink": "brugsbetingelser",
+    "licensingNote": "(se vores <link>brugsbetingelser</link>).",
+    "feedbackTitle": "Feedback.",
+    "feedback": "Hvad virker, hvad virker ikke, og hvad du gerne vil have mere af.",
+    "responseTitle": "Svartid",
+    "response": "Dette er en lille operation, så svar kan tage et par dage. Rettelsesrapporter prioriteres.",
+    "aboutPrefix": "Mere om siden og hvem der laver den:",
+    "aboutLink": "om os"
+  },
+  "common": {
+    "home": "Hjem",
+    "new": "Ny",
+    "comingSoon": "Kommer snart",
+    "downloadFree": "Download gratis printbar",
+    "viewDownload": "Se og download",
+    "shareTitle": "{name} Punkt-til-punkt udskrift - Gratis PDF",
+    "downloadAria": "Download gratis {name} punkt-til-punkt udskrift PDF",
+    "bookmarkTitle": "{name} Punkt-til-punkt Udskrivbar – Gratis PDF til børn",
+    "showSlide": "Vis slide {number}",
+    "ageRange": "Alder {min}-{max}",
+    "difficultyLabel": "Sværhedsgrad {level} ud af 3",
+    "difficulty": {
+      "1": "Let",
+      "2": "Medium",
+      "3": "Hård"
+    },
+    "dots": "1–{count} prikker",
+    "homeVideoEyebrow": "Video",
+    "homeVideoH2": "Se prik-til-prik-sjov i aktion",
+    "skipToContent": "Spring til hovedindhold",
+    "joinTeachers": "Deltag {count}+ lærere",
+    "breadcrumbAria": "Brødkrumme"
+  },
+  "puzzleDetail": {
+    "agesLabel": "Alder:",
+    "dotsLabel": "Prikker:",
+    "freeLabel": "100% gratis",
+    "difficultyHeading": "Vanskelighed",
+    "difficultyEasy": "Let",
+    "difficultyMedium": "Medium",
+    "difficultyHard": "Hård",
+    "funFactPrefix": "Sjov kendsgerning:",
+    "funFactLabel": "Sjov kendsgerning!",
+    "noSignUp": "Ingen tilmelding nødvendig. Åbner som PDF. Udskriv på ethvert US Letter-papir (8,5 × 11 tommer). Gratis til brug derhjemme og i klasseværelset.",
+    "comingSoon": "Download gratis PDF – Kommer snart",
+    "youMightLike": "Du kan måske også lide",
+    "faqQ1": "Hvilken alder er prik-til-prik-opgaven {name} beregnet til?",
+    "faqA1": "Den er designet til alderen {age}. Med {dots} prikker passer den til børn, der trygt kan tælle til {dots}; yngre børn kan klare den med lidt hjælp.",
+    "faqQ2": "Hvordan printer jeg arbejdsarket {name}?",
+    "faqA2": "Klik på downloadknappen for at få den gratis PDF, og print den derefter på almindeligt papir (A4 eller US Letter) fra enhver browser eller PDF-læser. Der kræves ingen særlig software.",
+    "faqQ3": "Er printarket {name} virkelig gratis?",
+    "faqA3": "Ja — det er 100% gratis, uden tilmelding, konto eller betaling. Du må printe det til hjemmet eller klasseværelset."
+  },
+  "dinosaursPage": {
+    "eyebrow": "{count} gratis printbare regneark",
+    "h1": "Dinosaur prik-til-prik printbare ting til børn",
+    "description": "Forbind prikkerne for at afdække dine yndlingsdinosaurer! Alle arbejdsark kan downloades og udskrives gratis – ingen konto nødvendig. Perfekt til børn i alderen 4-10 år, førskole, børnehaveklasse og brug i klasseværelset.",
+    "breadcrumb": "Dinosaurer",
+    "category": "Dinosaurer",
+    "slugEyebrow": "Gratis printbar dinosaur",
+    "slugH1Suffix": "Prik-til-prik udskrivbar",
+    "backToList": "← Tilbage til alle dinosaur-gåder",
+    "relatedEyebrow": "Flere gratis dinosaur-printbare ting",
+    "whyH2": "Hvorfor børn elsker prik-til-prik-puslespil med dinosaurer",
+    "whyP": "Dinosaur-forbind-prikker-arbejdsark kombinerer to ting, børn elsker - forhistoriske væsner og den tilfredsstillende afsløring af et skjult billede. Kombiner dem med vores andre <link>prik-til-prik-arbejdsark</link> for endnu mere sjov i klasseværelset.",
+    "backToCategories": "← Tilbage til alle kategorier",
+    "guideH2Suffix": "Prik-til-prik puslespil guide"
+  },
+  "oceanPage": {
+    "eyebrow": "{count} gratis printbare regneark",
+    "h1": "Prik-til-prik-tegneserier med havet til børn",
+    "description": "Dyk ned i det dybe blå! Forbind prikkerne for at afsløre havfruer, havdyr og haveventyr. Alle arbejdsark kan downloades og udskrives gratis – ingen konto nødvendig.",
+    "breadcrumb": "Hav",
+    "category": "Hav",
+    "slugEyebrow": "Gratis printbart hav",
+    "slugH1Suffix": "Prik-til-prik printbar",
+    "backToList": "← Tilbage til alle havgåder",
+    "relatedEyebrow": "Flere gratis printbare havmaterialer",
+    "whyH2": "Hvorfor børn elsker prik-til-prik-puslespil med havet",
+    "whyP": "Arbejdsark med prikker i havet vækker nysgerrighed omkring undervandsverdenen, samtidig med at de udvikler finmotorik, talrækkefølge og blyantkontrol. Gennemse vores fulde bibliotek af <link>prik-til-prik-printbare</link> temaer.",
+    "backToCategories": "← Tilbage til alle kategorier",
+    "guideH2Suffix": "Prik-til-prik puslespil guide"
+  },
+  "uaePage": {
+    "eyebrow": "{count} gratis printbare regneark",
+    "h1": "Prik-til-prik-printbare bøger fra UAE til børn",
+    "description": "Oplev De Forenede Arabiske Emirater! Forbind prikkerne for at afdække Burj Al Arab og andre ikoniske emiratiske vartegn. Alle arbejdsark kan downloades og udskrives gratis – ingen konto nødvendig.",
+    "breadcrumb": "UAE",
+    "category": "UAE",
+    "slugEyebrow": "Gratis udskrivbart materiale fra UAE",
+    "slugH1Suffix": "Prik-til-prik udskrivbar",
+    "backToList": "← Tilbage til alle UAE-puslespil",
+    "relatedEyebrow": "Flere gratis printbare materialer fra UAE",
+    "whyH2": "Hvorfor børn elsker prik-til-prik-puslespil i UAE",
+    "whyP": "UAE-arbejdsark med prikkerne som forbinder børnenes opmærksomhed introducerer dem til berømte vartegn, samtidig med at de udvikler finmotorik, talrækkefølge og blyantkontrol. Gennemse vores fulde bibliotek af <link>prik-til-prik-ark</link> for flere temaer.",
+    "backToCategories": "← Tilbage til alle kategorier",
+    "guideH2Suffix": "Prik-til-prik puslespil guide"
+  },
+  "playgroundsPage": {
+    "eyebrow": "{count, plural, one {# gratis printbar arbejdsark} other {# gratis printbare arbejdsark}}",
+    "h1": "Legeplads prik-til-prik printbare ting til børn",
+    "description": "Tag legepladsen med hjem! Forbind prikkerne for at afdække gynger, rutsjebaner og udendørssjov. Alle arbejdsark kan downloades og udskrives gratis – ingen konto nødvendig.",
+    "breadcrumb": "Legepladser",
+    "category": "Legepladser",
+    "slugEyebrow": "Gratis printbar legeplads",
+    "slugH1Suffix": "Prik-til-prik udskrivbar",
+    "backToList": "← Tilbage til alle legepladspuslespil",
+    "relatedEyebrow": "Flere gratis printbare legepladsmaterialer",
+    "whyH2": "Hvorfor børn elsker prik-til-prik-puslespil på legepladsen",
+    "whyP": "Legepladsens arbejdsark med prikker kombinerer spændingen ved udendørs leg med den fokuserede koncentration fra en blyantsaktivitet. Hvis dit barn elsker denne, så prøv vores <link>dinosaur prik-til-prik printbare</link> kollektion næste gang.",
+    "backToCategories": "← Tilbage til alle kategorier",
+    "guideH2Suffix": "Prik-til-prik puslespil guide"
+  },
+  "gardenPage": {
+    "eyebrow": "{count, plural, one {# gratis printbar arbejdsark} other {# gratis printbare arbejdsark}}",
+    "h1": "Prik-til-prik-printbare havefigurer til børn",
+    "description": "Kom i gang med at dyrke! Forbind prikkerne for at afdække havehandsker, murskeer og praktiske haveredskaber. Alle arbejdsark kan downloades og udskrives gratis – ingen konto nødvendig.",
+    "breadcrumb": "Have",
+    "category": "Have",
+    "slugEyebrow": "Gratis printbart havemateriale",
+    "slugH1Suffix": "Prik-til-prik udskrivbar",
+    "backToList": "← Tilbage til alle havepuslespil",
+    "relatedEyebrow": "Flere gratis printbare havematerialer",
+    "whyH2": "Hvorfor børn elsker prik-til-prik-puslespil i haven",
+    "whyP": "Have-arbejdsark med prikkerne som udgangspunkt introducerer børn til nyttige haveredskaber, samtidig med at de udvikler finmotorik, talrækkefølge og blyantkontrol. Gennemse vores fulde bibliotek af <link>prik-til-prik-printbare ark</link> for flere temaer.",
+    "backToCategories": "← Tilbage til alle kategorier",
+    "guideH2Suffix": "Prik-til-prik puslespil guide"
+  },
+  "cutePage": {
+    "eyebrow": "{count, plural, one {# gratis printbar arbejdsark} other {# gratis printbare arbejdsark}}",
+    "h1": "Søde prik-til-prik printbare ting til børn",
+    "description": "Gør dig klar til maksimal nuttethed! Forbind prikkerne for at afsløre nuttede hvalpe, små biler og flere charmerende venner. Alle arbejdsark kan downloades og udskrives gratis – ingen konto nødvendig.",
+    "breadcrumb": "Sød",
+    "category": "Sød",
+    "slugEyebrow": "Gratis sød printbar",
+    "slugH1Suffix": "Prik-til-prik printbar",
+    "backToList": "← Tilbage til alle søde puslespil",
+    "relatedEyebrow": "Flere gratis søde printbare ting",
+    "whyH2": "Hvorfor børn elsker søde prik-til-prik-puslespil",
+    "whyP": "Søde &quot;forbind prikkerne&quot;-arbejdsark forvandler nuttede figurer til givende tegneøvelser, der styrker finmotorikken, talrækkefølgen og blyantkontrol. Gennemse hele vores bibliotek af<link> prik-til-prik printbare materialer</link> for flere temaer.",
+    "backToCategories": "← Tilbage til alle kategorier",
+    "guideH2Suffix": "Prik-til-prik puslespil guide",
+    "colorH2": "Farvelægningsguide: Sjove farveidéer"
+  },
+  "usa250Page": {
+    "eyebrow": "{count, plural, one {# gratis printbar arbejdsark} other {# gratis printbare arbejdsark}}",
+    "h1": "Amerika 250 år Prik-til-prik printbare bøger til børn",
+    "description": "Fejr Amerikas 250-års fødselsdag! Forbind prikkerne for at afdække patriotiske scener og ikoniske amerikanske symboler. Alle arbejdsark kan downloades og udskrives gratis – ingen konto nødvendig.",
+    "breadcrumb": "Amerika 250 år",
+    "category": "Amerika 250 år",
+    "slugEyebrow": "Gratis America 250 printbar",
+    "slugH1Suffix": "Prik-til-prik printbar",
+    "videoEyebrow": "Video",
+    "videoH2": "Se America 250-printarkene i aktion",
+    "aboutH2": "Om disse America 250 prik-til-prik-puslespil",
+    "backToList": "← Tilbage til alle America 250-gåder",
+    "relatedEyebrow": "Flere gratis America 250-printbare materialer",
+    "whyH2": "Hvorfor børn elsker Amerika 250 prik-til-prik-puslespil",
+    "whyP": "Amerika 250 arbejdsark med prikker i fokus vækker nysgerrighed omkring amerikansk historie, samtidig med at de opbygger finmotorik, talrækkefølge og blyantkontrol – alt sammen med et patriotisk festtema. Udforsk flere <link>prik-til-prik-ark 1-100</link> på tværs af hvert tema.",
+    "backToCategories": "← Tilbage til alle kategorier",
+    "guideH2Suffix": "Prik-til-prik puslespil guide",
+    "historySourcePrefix": "Historiekilde:"
+  },
+  "blogPage": {
+    "eyebrow": "Læringsressourcer",
+    "h1": "Prik-til-prik-idéer til forældre og lærere",
+    "description": "Praktiske vejledninger til valg af aktiviteter, opbygning af tidlige læringsevner og brug af printbare arbejdsark derhjemme eller i klasseværelset.",
+    "breadcrumb": "Blog",
+    "latestEyebrow": "Seneste artikler",
+    "latestH2": "Nyttige idéer du kan bruge i dag",
+    "readArticle": "Læs artiklen",
+    "by": "Ved",
+    "backToAll": "← Tilbage til alle artikler",
+    "savePinterest": "Gem på Pinterest",
+    "relatedEyebrow": "Gratis printbare materialer",
+    "relatedHeading": "Prøv disse prik-til-prik-samlinger næste gang"
+  },
+  "searchPage": {
+    "eyebrow": "Til lærere og forældre",
+    "h1": "Find det perfekte puslespil",
+    "description": "Søg efter navn, filtrer efter emne eller antal prikker, eller gennemse, hvad der for nylig er blevet tilføjet – alt sammen gratis at udskrive, ingen tilmelding nødvendig."
+  },
+  "puzzleSearch": {
+    "placeholder": "Søg efter navn eller emne... f.eks. hav, hval, T-Rex",
+    "searchAria": "Søg puslespil",
+    "clearSearch": "Ryd søgning",
+    "toggleFilters": "Slå filtre til/fra",
+    "filters": "Filtre",
+    "filterOptions": "Filterindstillinger",
+    "topic": "Emne",
+    "numberOfDots": "Antal prikker",
+    "recentlyAddedOnly": "Kun nyligt tilføjet",
+    "clearAllFilters": "Ryd alle filtre",
+    "clearFilters": "Ryd filtre",
+    "resultsFound": "{count, plural, one {# puslespil fundet} other {# puslespil fundet}}",
+    "puzzlesAvailable": "{count, plural, one {# puslespil tilgængeligt} other {# puslespil tilgængelige}}",
+    "noMatches": "Ingen puslespil matchede din søgning.",
+    "openPuzzle": "Åbn {name}",
+    "imageAlt": "{name} prik-til-prik printbar",
+    "viewPuzzle": "Se puslespil →",
+    "dotRanges": {
+      "under35": "Under 35 prikker",
+      "35to50": "35-50 prikker",
+      "51to70": "51-70 prikker",
+      "over70": "70+ prikker"
+    },
+    "categories": {
+      "Dinosaurs": "Dinosaurer",
+      "Ocean": "Hav",
+      "Playgrounds": "Legepladser",
+      "Garden": "Have",
+      "Cute": "Sød",
+      "USA 250 Years": "Amerika 250 år",
+      "UAE": "UAE"
+    }
+  },
+  "newsletterForm": {
+    "ariaLabel": "Få den gratis printbare dot-to-prik-pakke",
+    "emailLabel": "E-mailadresse",
+    "submit": "Send gratis pakke",
+    "honeypot": "Lad dette felt være tomt",
+    "privacy": "Ingen spam nogensinde. Du kan afmelde dig når som helst.",
+    "error": "Denne formular kunne ikke indsendes.",
+    "notConnected": "Tilmeldingen til den gratis pakke er ikke tilsluttet endnu."
+  },
+  "feedbackForm": {
+    "ariaLabel": "Send feedback",
+    "notConnected": "Denne feedbackformular er endnu ikke forbundet.",
+    "typeLabel": "Hvilken slags feedback?",
+    "selectTopic": "Vælg et emne...",
+    "types": {
+      "general": "Generel feedback",
+      "requestTheme": "Anmod om et puslespilstema",
+      "brokenLink": "Rapportér et ødelagt link",
+      "improvement": "Foreslå en forbedring",
+      "other": "Andre"
+    },
+    "messageLabel": "Din besked",
+    "messagePlaceholder": "Fortæl os, hvad du synes...",
+    "emailLabel": "E-mail",
+    "emailOptional": "(valgfrit - kun hvis du ønsker et svar)",
+    "submit": "Send feedback",
+    "success": "Tak. Din feedback er blevet sendt.",
+    "disclaimer": "Medtag venligst ikke følsomme personlige oplysninger. E-mail er valgfri og bruges kun, hvis vi har brug for at svare.",
+    "iframeTitle": "Feedbackindsendelse"
+  },
+  "downloadButton": {
+    "label": "Download gratis PDF-fil, der kan udskrives",
+    "usage": "Gratis til brug derhjemme og i klasseværelset.",
+    "paperNote": "Størrelse tilpasset papir i {size}.",
+    "paperLetter": "Amerikansk brev",
+    "paperA4": "A4",
+    "alternateLink": "Foretrækker du {size}? Download den version",
+    "downloadSize": "Download (Udskriftsstørrelse: {size})"
+  },
+  "downloadBadge": {
+    "downloaded": "Downloadet",
+    "times": "gange",
+    "greatChoice": "Du har truffet et godt valg!"
+  },
+  "bookmarkButton": {
+    "regionLabel": "Bogmærk denne side",
+    "shortcut": "Trykke<shortcut></shortcut> at bogmærke!",
+    "dismiss": "Afskedige",
+    "shared": "Delt!",
+    "buttonAria": "Gem eller del denne puslespilside",
+    "buttonTitle": "Gem dette puslespil",
+    "saved": "Gemt!",
+    "save": "Spare"
+  },
+  "languageSwitcher": {
+    "label": "Sprog",
+    "selectLabel": "Vælg sprog",
+    "en": "Engelsk",
+    "fr": "Fransk",
+    "es": "Spansk",
+    "de": "Tysk",
+    "pt": "Portugisisk",
+    "it": "Italiensk",
+    "nl": "Hollandsk",
+    "sv": "Svensk",
+    "no": "Norsk",
+    "pl": "Polsk",
+    "da": "Danish",
+    "fi": "Danmark",
+    "cs": "Tjekkisk",
+    "hu": "Ungarsk",
+    "ro": "Románă"
+  },
+  "shareButtons": {
+    "label": "Dele",
+    "copyLink": "Kopiér link",
+    "copied": "Link kopieret!",
+    "shareMe": "Del mig"
+  },
+  "bookmark": {
+    "save": "Bogmærk denne side",
+    "saved": "Gemt i bogmærker",
+    "labelText": "Bogmærk dette",
+    "hint": "Tryk Ctrl+D (eller ⌘+D på Mac) for at bogmærke denne side"
+  },
+  "purchase": {
+    "premium": {
+      "metaTitle": "Det bedste fra 2026 Premium Dot-to-Dot Puzzle Pack",
+      "metaDescription": "En printklar samling af foretrukne prik-til-punkt-puslespil til børn, samlet i én praktisk PDF.",
+      "eyebrow": "Premium printbar samling",
+      "heading": "Flere puslespil. Mindre søgning. Alt i én praktisk PDF.",
+      "lede": "Best of 2026-kollektionen samler vores foretrukne connect-the-dots-aktiviteter i én pakke, der er nem at printe, til stille tider, regnfulde dage, hjemmeundervisning og klasseværelser.",
+      "digitalPdf": "Digital PDF",
+      "printAtHome": "Print derhjemme",
+      "instantAccess": "Øjeblikkelig adgang",
+      "purchaseAria": "Køb det bedste fra 2026-puslespilspakken",
+      "coverAlt": "Best of 2026 - 25 Dot-to-Dot Puzzles bogomslag",
+      "oneTime": "én gang",
+      "buyButton": "Hent puslespilspakken",
+      "localNote": "På localhost åbner dette en sikker checkout-demo og opkræver aldrig et kort.",
+      "detailsEyebrow": "Lavet til let print-og-spil",
+      "detailsHeading": "Alt hvad du behøver for skærmfri sjov",
+      "detailsText": "Download én gang, hold den ved hånden, og udskriv de aktiviteter, du ønsker, når du har brug for dem.",
+      "benefits": {
+        "onePdf": "Én praktisk, printklar PDF",
+        "kidFriendly": "Børnevenlige puslespil med forskellig sværhedsgrad",
+        "paperSizes": "Arbejder på US Letter og A4 papir",
+        "instantAccess": "Øjeblikkelig adgang efter vellykket betaling",
+        "classroomUse": "Brug derhjemme eller i et klasseværelse"
+      },
+      "guaranteeHeading": "Enkel, sikker og klar på få minutter",
+      "guaranteeText": "Efter kassen vises dit private downloadlink med det samme. Intet abonnement og ingen overraskende fornyelse."
+    },
+    "checkout": {
+      "consent": "Jeg accepterer øjeblikkelig levering af denne digitale PDF og forstår, at når adgangen begynder, er salget endeligt og kan ikke refunderes, undtagen hvor det er påkrævet ved lov, eller hvis filen ikke leveres eller er defekt.",
+      "refundPolicy": "Læs refusionspolitikken",
+      "opening": "Åbner kassen...",
+      "secureNote": "Sikker checkout drevet af Stripe. Engangsbetaling. Intet abonnement.",
+      "error": "Noget gik galt med at starte kassen. Prøv venligst igen."
+    },
+    "success": {
+      "metaTitle": "Tak for dit køb",
+      "eyebrow": "Betaling bekræftet",
+      "heading": "Tak! Dit køb er gennemført.",
+      "lede": "Din betaling blev gennemført. Det kan tage et par sekunder, før dit køb vises på din konto."
+    },
+    "cancelled": {
+      "metaTitle": "Checkout annulleret",
+      "eyebrow": "Ingen betaling modtaget",
+      "heading": "Checkout annulleret",
+      "lede": "Der blev ikke opkrævet noget gebyr. Du kan til enhver tid prøve igen."
+    },
+    "download": {
+      "demoTitle": "Lokal kasseprøve bestået.",
+      "demoText": "Den rigtige betalte successkærm viser PDF-downloadknappen her. Den lokale demo frigiver ikke den private fil.",
+      "button": "Download din puslespilpakke",
+      "expires": "Dette link udløber om 24 timer. Gem din download et sikkert sted.",
+      "failed": "Vi kunne ikke bekræfte dit køb endnu. Hvis du blev debiteret, bedes du opdatere denne side om et minut eller kontakte os for at få hjælp.",
+      "preparing": "Forbereder din download..."
+    },
+    "ad": {
+      "advertisementAria": "Annonce: Best of 2026 prik-til-punkt aktivitetsbog",
+      "viewPackAria": "Se det bedste fra 2026 prik-til-punkt-puslespil",
+      "pdfBook": "PDF BOG",
+      "bookTitle": "Bedste af 2026",
+      "packName": "Prik-til-Prik-puslespilspakke",
+      "puzzleCount": "25 Prik-til-Prik-puslespil",
+      "viewBook": "Se bog"
+    },
+    "shared": {
+      "specialSale": "Særligt udsalg",
+      "returnToPack": "Vend tilbage til puslespilspakken",
+      "contactUs": "Kontakt os"
+    }
+  },
+  "homepageUi": {
+    "title": "Find de perfekte prik-til-prik-printables",
+    "description": "Print, forbind prikkerne, og bring fantastiske billeder til live. Gratis og klar til sjov!",
+    "searchPlaceholder": "Prøv hav, dinosaur eller blomster",
+    "filterPuzzles": "Filtrer puslespil",
+    "age": "Alder",
+    "dots": "prikker",
+    "featuredPuzzles": "Udvalgte printbare puslespil",
+    "savePuzzle": "Gem {name}",
+    "removeSavedPuzzle": "Fjern {name} fra gemte puslespil",
+    "downloads": "downloads",
+    "bookTitle": "Det bedste fra 2026 · {count}",
+    "bookDescription": "Vores favorit prik-til-prik-opgaver i én printbar PDF-bog.",
+    "searchUnavailable": "Søgning er midlertidigt utilgængelig. Prøv venligst igen.",
+    "popularEyebrow": "Populær i denne uge",
+    "mostDownloaded": "Mest downloadede puslespil",
+    "downloadCountAria": "{count} eller flere downloads",
+    "freshPrintables": "Friske printables",
+    "recentlyAdded": "Nyligt tilføjet",
+    "browseCategories": "Gennemse puslespilkategorier",
+    "openCategories": "Åbn kategorimenu",
+    "closeCategories": "Luk kategorimenu",
+    "browseByTheme": "Gennemse efter tema",
+    "quickLinks": "Hurtige links",
+    "bundlePacks": "Bundle Pakker",
+    "parentsTeachers": "Til forældre og lærere",
+    "more": "Flere kategorier",
+    "kids": "Børn",
+    "categoryNames": {
+      "cute": "Søde puslespil",
+      "flowers": "Blomster"
+    }
+  },
+  "circusPage": {
+    "eyebrow": "{count, plural, one {# gratis printvenlig arbejdsark} other {# gratis printvenlige arbejdsark}}",
+    "h1": "Cirkus prik-til-prik udskrifter til børn",
+    "description": "Træd frem for gratis cirkus prik-til-prik udskrifter med en venlig ringmesterbjørn og et stribet telt. Download og udskriv begge PDF arbejdsark til tælling og blyantøvelse.",
+    "breadcrumb": "Cirkus",
+    "category": "Cirkus",
+    "slugEyebrow": "Gratis cirkus udskrift",
+    "backToList": "? Back to all circus puzzles",
+    "relatedEyebrow": "Flere gratis cirkus udskrifter",
+    "whyH2": "Hvorfor børn elsker cirkus prik-til-prik puslespil",
+    "whyP": "Cirkus forbind prikkerne arbejdsark forvandler spændingen ved det store telt til fokuseret tælling og blyantøvelse. Prøv vores <link>dinosaur prik-til-prik udskrift</link> samling næste gang.",
+    "backToCategories": "? Back to all categories",
+    "guideH2Suffix": "Prik-til-prik puslespil guide",
+    "slugH1Suffix": "Prik-til-prik udskrift"
+  },
+  "spacePage": {
+    "eyebrow": "{count, plural, one {# gratis printvenligt puslespil} other {# gratis printvenlige puslespil}}",
+    "h1": "Gratis rummet prik-til-prik udskrifter til børn",
+    "description": "Sæt kursen mod rummet med gratis rummet forbind prikkerne arbejdsark. Udskriv et venligt rover puslespil i dag, med flere raketter, planeter og kosmiske eventyr på vej.",
+    "breadcrumb": "Rummet",
+    "category": "Rummet",
+    "slugEyebrow": "Rummet prik-til-prik",
+    "slugH1Suffix": "Punkt-til-punkt udskrivbar",
+    "backToList": "Tilbage til rumgåder",
+    "openAria": "Åbn {name} punkt-til-punkt"
+  },
+  "usa250HouseAd": {
+    "ariaLabel": "Fremhævede Amerika 250 punkt-til-punkt udskrifter",
+    "eyebrow": "Fremhævet",
+    "heading": "Amerika 250 udskrifter",
+    "imageAlt": "{name} punkt-til-punkt udskrivbar"
+  }
+}

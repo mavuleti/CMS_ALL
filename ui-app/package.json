@@ -1,0 +1,38 @@
+{
+  "name": "dot-to-dot-ui-app",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbo",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@fontsource/baloo-2": "^5.0.18",
+    "@fontsource/nunito": "^5.0.20",
+    "firebase": "^11.0.0",
+    "lucide-react": "^0.468.0",
+    "next": "14.2.32",
+    "next-intl": "^4.13.0",
+    "purecss": "^3.0.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.17.10",
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "eslint": "^8.57.1",
+    "eslint-config-next": "14.2.32",
+    "sharp": "^0.34.5",
+    "typescript": "^5.7.2"
+  },
+  "browserslist": [
+    "Chrome >= 92",
+    "Edge >= 92",
+    "Firefox >= 90",
+    "Safari >= 15",
+    "iOS >= 15"
+  ]
+}
