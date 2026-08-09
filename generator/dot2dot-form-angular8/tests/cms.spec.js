@@ -53,6 +53,28 @@ test('validation reports details and creates validated/submitted workflow versio
   expect(json._cms.status).toBe('submitted');
 });
 
+test('keeps live validation active after generation', async ({ page }) => {
+  await loadPuppy(page);
+  await page.locator('#ld-image').fill('https://dottodotfreeprintables.com/images/cute-puppy.webp');
+  await page.getByTestId('generate-btn').click();
+  await expect(page.getByTestId('output-card')).toBeVisible();
+  await page.locator('#header-title').fill('');
+  await page.locator('#body-h1').focus();
+  await expect(page.getByTestId('sidebar-validation')).toContainText('header.title');
+  await expect(page.getByTestId('form-status')).toContainText('invalid');
+});
+
+test('range consistency errors navigate to the offending section', async ({ page }) => {
+  await loadPuppy(page);
+  const offendingRange = page.getByTestId('section-1').getByTestId('field-range');
+  await offendingRange.fill('10–30');
+  await page.getByTestId('validate-btn').click();
+  const issue = page.getByTestId('sidebar-validation').getByRole('button', { name: /sections\[1\]\.range/ });
+  await expect(issue).toContainText('overlaps');
+  await issue.click();
+  await expect(offendingRange).toBeFocused();
+});
+
 test('keeps five versions per puzzle and restores latest', async ({ page }) => {
   await loadPuppy(page);
   let latestVersionId = '';

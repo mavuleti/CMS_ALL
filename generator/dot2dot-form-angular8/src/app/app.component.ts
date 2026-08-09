@@ -21,6 +21,12 @@ export class AppComponent implements AfterViewInit {
   translationSummary: TranslationSummary[] = [];
   contentLanguage = 'en';
   englishReference: any = null;
+  knownSlugs: string[] = [];
+  get allKnownSlugs(): string[] {
+    return Array.from(new Set(this.knownSlugs.concat(
+      (this.allVersions || []).map(version => version.data && version.data.slug).filter(Boolean)
+    )));
+  }
   private saveQueue: Promise<void> = Promise.resolve();
 
   constructor(private storage: DraftStorageService) {}

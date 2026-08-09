@@ -69,3 +69,26 @@ Error: [96msrc/app/puzzle-form/puzzle-form.component.ts[0m:[93m367[0m:[93m1
 [32m√[39m Browser application bundle generation complete.
 [32m√[39m Browser application bundle generation complete.
 [32m√[39m Browser application bundle generation complete.
+[32m√[39m Browser application bundle generation complete.
+[32m√[39m Browser application bundle generation complete.
+[1m[31m
+Error: [96msrc/app/puzzle-form/puzzle-form.component.ts[0m:[93m373[0m:[93m70[0m - [91merror[0m[90m TS2339: [0mProperty 'rangeKey' does not exist on type 'PuzzleFormComponent'.
+
+[7m373[0m     const validRanges = new Set(sectionRangeValues.map(range => this.rangeKey(range)).filter(Boolean));
+[7m   [0m [91m                                                                     ~~~~~~~~[0m
+
+
+Error: [96msrc/app/puzzle-form/puzzle-form.component.ts[0m:[93m376[0m:[93m52[0m - [91merror[0m[90m TS2339: [0mProperty 'rangeKey' does not exist on type 'PuzzleFormComponent'.
+
+[7m376[0m         if (mapping.range && !validRanges.has(this.rangeKey(mapping.range))) {
+[7m   [0m [91m                                                   ~~~~~~~~[0m
+
+
+[39m[22m
+[32m√[39m Browser application bundle generation complete.
+[32m√[39m Browser application bundle generation complete.
+[32m√[39m Browser application bundle generation complete.
+[32m√[39m Browser application bundle generation complete.
+[32m√[39m Browser application bundle generation complete.
+[32m√[39m Browser application bundle generation complete.
+[32m√[39m Browser application bundle generation complete.

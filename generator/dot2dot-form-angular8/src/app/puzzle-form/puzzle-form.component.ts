@@ -2,7 +2,7 @@ import { Component, EventEmitter, HostListener, Input, OnInit, Output, SecurityC
 import { AbstractControl, FormArray, FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { FIELD_RULES } from '../models/field-rules';
 import { FIELD_TIPS } from '../models/field-tips';
-import { blocklistValidator, dotRangeValidator, hexColorValidator, imageUrlValidator, languageScriptValidator, slugFormatValidator } from '../validators/custom-validators';
+import { blocklistValidator, checkRangeConsistency, dotRangeValidator, hexColorValidator, imageUrlValidator, languageScriptValidator, slugFormatValidator, slugUniqueValidator } from '../validators/custom-validators';
 import { PuzzleEntry } from '../models/puzzle-entry.model';
 import { CommonModule } from '@angular/common';
 import { ReactiveFormsModule } from '@angular/forms';
@@ -33,6 +33,7 @@ interface ValidationIssue {
 export class PuzzleFormComponent implements OnInit {
   @Output() versionSaved = new EventEmitter<VersionSnapshot>();
   @Input() contentLanguage = 'en';
+  @Input() knownSlugs: string[] = [];
   @Input() set englishReference(value: any) {
     this.reviews.setReference(value ? this.normalizeEntry(value) : null);
   }
@@ -45,6 +46,7 @@ export class PuzzleFormComponent implements OnInit {
   validationResult: 'valid' | 'invalid' = null;
   invalidFieldCount = 0;
   validationIssues: ValidationIssue[] = [];
+  private loadedSlug: string = null;
   get errorIssues(): ValidationIssue[] { return this.validationIssues.filter(issue => issue.severity === 'error'); }
   get warningIssues(): ValidationIssue[] { return this.validationIssues.filter(issue => issue.severity === 'warning'); }
   importError: string = null;
@@ -69,11 +71,12 @@ export class PuzzleFormComponent implements OnInit {
     const text = (...validators: any[]) => [
       ...validators,
       languageScriptValidator(() => this.contentLanguage),
-      blocklistValidator()
+      blocklistValidator(() => this.contentLanguage)
     ];
 
     return this.fb.group({
-      slug: ['', [Validators.required, slugFormatValidator()]],
+      slug: ['', [Validators.required, slugFormatValidator(), slugUniqueValidator(() =>
+        new Set((this.knownSlugs || []).filter(slug => slug !== this.loadedSlug))) ]],
 
       header: this.fb.group({
         title: ['', text(Validators.required, Validators.minLength(r.header.title.minLength), Validators.maxLength(r.header.title.maxLength))],
@@ -113,9 +116,9 @@ export class PuzzleFormComponent implements OnInit {
     const language = languageScriptValidator(() => this.contentLanguage);
     return this.fb.group({
       range: ['', [Validators.required, dotRangeValidator()]],
-      title: ['', [Validators.required, Validators.maxLength(this.rules.body.dot_guide.section.title.maxLength), language, blocklistValidator()]],
-      learn: ['', [Validators.required, Validators.minLength(this.rules.body.dot_guide.section.learn.minLength), language, blocklistValidator()]],
-      fact: ['', [Validators.required, Validators.minLength(this.rules.body.dot_guide.section.fact.minLength), language, blocklistValidator()]]
+      title: ['', [Validators.required, Validators.maxLength(this.rules.body.dot_guide.section.title.maxLength), language, blocklistValidator(() => this.contentLanguage)]],
+      learn: ['', [Validators.required, Validators.minLength(this.rules.body.dot_guide.section.learn.minLength), language, blocklistValidator(() => this.contentLanguage)]],
+      fact: ['', [Validators.required, Validators.minLength(this.rules.body.dot_guide.section.fact.minLength), language, blocklistValidator(() => this.contentLanguage)]]
     });
   }
 
@@ -123,18 +126,18 @@ export class PuzzleFormComponent implements OnInit {
     const language = languageScriptValidator(() => this.contentLanguage);
     return this.fb.group({
       range: ['', [Validators.required, dotRangeValidator()]],
-      part: ['', [Validators.required, language, blocklistValidator()]],
-      color: ['', [Validators.required, language, blocklistValidator()]],
+      part: ['', [Validators.required, language, blocklistValidator(() => this.contentLanguage)]],
+      color: ['', [Validators.required, language, blocklistValidator(() => this.contentLanguage)]],
       hex: ['', [Validators.required, hexColorValidator()]],
-      why: ['', [Validators.required, language, blocklistValidator()]]
+      why: ['', [Validators.required, language, blocklistValidator(() => this.contentLanguage)]]
     });
   }
 
   private buildColorScheme(): FormGroup {
     const language = languageScriptValidator(() => this.contentLanguage);
     return this.fb.group({
-      name: ['', [Validators.required, language, blocklistValidator()]],
-      note: ['', [Validators.required, language, blocklistValidator()]],
+      name: ['', [Validators.required, language, blocklistValidator(() => this.contentLanguage)]],
+      note: ['', [Validators.required, language, blocklistValidator(() => this.contentLanguage)]],
       mapping: this.fb.array([this.buildMapping()])
     });
   }
@@ -229,10 +232,11 @@ export class PuzzleFormComponent implements OnInit {
   validateOnBlur(): void {
     setTimeout(() => {
       this.refreshValidity(this.form);
-      const controlIssues = this.collectControlIssues(this.form, '', true);
-      this.validationIssues = controlIssues.concat(this.collectReviewWarnings());
+      const controlIssues = this.collectControlIssues(this.form, '', !this.submitted);
+      const crossFieldIssues = this.submitted ? this.collectCrossFieldIssues() : [];
+      this.validationIssues = controlIssues.concat(crossFieldIssues, this.collectReviewWarnings());
       this.invalidFieldCount = this.errorIssues.length;
-      this.validationResult = this.invalidFieldCount ? 'invalid' : null;
+      this.validationResult = this.invalidFieldCount ? 'invalid' : (this.submitted ? 'valid' : null);
     });
   }
 
@@ -319,8 +323,25 @@ export class PuzzleFormComponent implements OnInit {
         issues.concat(this.collectControlIssues(child, `${path}[${index}]`, touchedOnly)), [] as ValidationIssue[]);
     }
     if (!control.invalid || (touchedOnly && !control.touched)) { return []; }
-    const rules = Object.keys(control.errors || {}).join(', ');
-    return [{ path, message: rules ? `Fails: ${rules}` : 'Invalid value', severity: 'error' }];
+    return Object.keys(control.errors || {}).map(rule => ({
+      path, message: this.validationMessage(rule, control.errors[rule]), severity: 'error' as const
+    }));
+  }
+
+  private validationMessage(rule: string, payload: any): string {
+    switch (rule) {
+      case 'required': return 'This field is required.';
+      case 'minlength': return `Enter at least ${payload.requiredLength} characters (currently ${payload.actualLength}).`;
+      case 'maxlength': return `Enter no more than ${payload.requiredLength} characters (currently ${payload.actualLength}).`;
+      case 'languageScript': return String(payload);
+      case 'blocklist': return `Child-safety review: remove ${payload.join(', ')}.`;
+      case 'slugFormat': return 'Use lowercase letters, numbers, and single hyphens only.';
+      case 'slugTaken': return 'This slug already exists. Choose a unique slug.';
+      case 'imageUrl': return 'Enter a full HTTP(S) image URL with a supported image extension.';
+      case 'hexColor': return 'Use a six-digit hex color such as #FAA76C.';
+      case 'dotRange': return 'Use a numeric range such as 1–15.';
+      default: return `Invalid value (${rule}).`;
+    }
   }
 
   private collectReviewWarnings(): ValidationIssue[] {
@@ -346,16 +367,18 @@ export class PuzzleFormComponent implements OnInit {
       issues.push({ path: 'header.json_ld.name', message: 'Must match body.name.', severity: 'error' });
     }
 
-    const sectionRanges = (value.body.dot_guide.sections || []).map(section => this.parseRange(section.range));
-    sectionRanges.forEach((range, index) => {
-      if (index && range && sectionRanges[index - 1] && range[0] !== sectionRanges[index - 1][1] + 1) {
-        issues.push({ path: `body.dot_guide.sections[${index}].range`, message: 'Ranges must be continuous and non-overlapping.', severity: 'error' });
-      }
-    });
-    const validRanges = new Set((value.body.dot_guide.sections || []).map(section => section.range));
+    const sectionRangeValues = (value.body.dot_guide.sections || []).map(section => section.range);
+    const consistency = checkRangeConsistency(sectionRangeValues);
+    consistency.overlaps.concat(consistency.gaps).forEach(issue =>
+      issues.push({
+        path: `body.dot_guide.sections[${issue.index}].range`,
+        message: issue.message,
+        severity: 'error'
+      }));
+    const validRanges = new Set(sectionRangeValues.map(range => this.rangeKey(range)).filter(Boolean));
     (value.body.dot_guide.color_schemes || []).forEach((scheme, schemeIndex) => {
       (scheme.mapping || []).forEach((mapping, mappingIndex) => {
-        if (mapping.range && !validRanges.has(mapping.range)) {
+        if (mapping.range && !validRanges.has(this.rangeKey(mapping.range))) {
           issues.push({ path: `body.dot_guide.color_schemes[${schemeIndex}].mapping[${mappingIndex}].range`, message: 'Must match a dot-guide section range.', severity: 'error' });
         }
       });
@@ -374,9 +397,18 @@ export class PuzzleFormComponent implements OnInit {
     return match ? [Number(match[1]), Number(match[2])] : null;
   }
 
+  private rangeKey(value: string): string | null {
+    const match = String(value || '').trim().replace(/\u2013/g, '-').match(/^(\d+)\s*-\s*(\d+)$/);
+    return match ? `${Number(match[1])}-${Number(match[2])}` : null;
+  }
+
   private firstNumber(value: string): number | null {
-    const match = String(value || '').match(/\b(\d{2,3})\b/);
-    return match ? Number(match[1]) : null;
+    const normalized = String(value || '').replace(/[\u0660-\u0669\u06F0-\u06F9]/g, digit => {
+      const code = digit.charCodeAt(0);
+      return String(code >= 0x06F0 ? code - 0x06F0 : code - 0x0660);
+    });
+    const match = normalized.match(/\d+/);
+    return match ? Number(match[0]) : null;
   }
 
   downloadJson(): void {
@@ -395,6 +427,7 @@ export class PuzzleFormComponent implements OnInit {
   }
 
   resetForm(): void {
+    this.loadedSlug = null;
     this.form = this.buildForm();
     this.generatedJson = null;
     this.submitted = false;
@@ -445,6 +478,7 @@ export class PuzzleFormComponent implements OnInit {
       return;
     }
     const entry = this.normalizeEntry(raw);
+    this.loadedSlug = entry.slug || null;
     this.patchFormWithEntry(entry);
     this.generatedJson = null;
     this.submitted = false;

@@ -46,6 +46,7 @@ export interface TranslationSummary {
 export class PuzzleMenuComponent implements OnInit {
   @Output() puzzleSelected = new EventEmitter<PuzzleSelection>();
   @Output() translationSummaryReady = new EventEmitter<TranslationSummary[]>();
+  @Output() knownSlugsReady = new EventEmitter<string[]>();
 
   languages: Array<{ code: string; label: string }> = [];
   selectedLang = 'en';
@@ -85,6 +86,11 @@ export class PuzzleMenuComponent implements OnInit {
           this.selectedLang = this.languages[0].code;
         }
         this.emitTranslationSummary();
+        this.knownSlugsReady.emit(Array.from(new Set(
+          Object.keys(this.content).reduce((allSlugs: string[], language) =>
+            allSlugs.concat(Object.keys(this.content[language] || {}).reduce((languageSlugs: string[], key) =>
+              languageSlugs.concat((this.content[language][key] || []).map(puzzle => puzzle.slug)), [])), [])
+        )));
         this.recompute();
       },
       () => { this.loadError = 'Could not load puzzle menu.'; }

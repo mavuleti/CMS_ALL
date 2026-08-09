@@ -1,7 +1,7 @@
 <div class="cms-shell">
-  <app-puzzle-menu (puzzleSelected)="onPuzzleSelected($event)" (translationSummaryReady)="onTranslationSummary($event)"></app-puzzle-menu>
+  <app-puzzle-menu (puzzleSelected)="onPuzzleSelected($event)" (translationSummaryReady)="onTranslationSummary($event)" (knownSlugsReady)="knownSlugs = $event"></app-puzzle-menu>
   <div class="cms-main">
-    <app-puzzle-form [contentLanguage]="contentLanguage" [englishReference]="englishReference" (versionSaved)="onVersionSaved($event)"></app-puzzle-form>
+    <app-puzzle-form [contentLanguage]="contentLanguage" [englishReference]="englishReference" [knownSlugs]="allKnownSlugs" (versionSaved)="onVersionSaved($event)"></app-puzzle-form>
   </div>
   <aside class="version-panel" aria-label="Saved versions" data-testid="version-panel">
     <section class="sidebar-validation errors" *ngIf="puzzleForm.errorIssues.length" data-testid="sidebar-validation">

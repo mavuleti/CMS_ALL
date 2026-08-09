@@ -38,8 +38,10 @@ export function dotRangeValidator(): ValidatorFn {
 // uniqueness, and a static (non-AI) child-friendliness blocklist.
 // ---------------------------------------------------------------------
 
-const ARABIC_CHAR_RE = /\p{Script=Arabic}/u;
-const LATIN_CHAR_RE = /\p{Script=Latin}/u;
+// Require a letter as well as the script. Arabic-Indic digits and shared
+// punctuation must not be mistaken for Arabic prose.
+const ARABIC_CHAR_RE = /(?=\p{L})\p{Script=Arabic}/u;
+const LATIN_CHAR_RE = /(?=\p{L})\p{Script=Latin}/u;
 const URL_RE_GLOBAL = /\bhttps?:\/\/[^\s]+/gi;
 const EMAIL_RE_GLOBAL = /\b[\w.+-]+@[\w-]+\.[\w.-]+\b/gi;
 
@@ -107,9 +109,9 @@ export const CHILD_SAFETY_BLOCKLIST = [
 ];
 
 /** Static (non-AI) child-friendliness check against CHILD_SAFETY_BLOCKLIST. */
-export function blocklistValidator(): ValidatorFn {
+export function blocklistValidator(getLang: () => string = () => 'en'): ValidatorFn {
   return (control: AbstractControl): ValidationErrors | null => {
-    if (!control.value) {
+    if (!control.value || getLang() !== 'en') {
       return null;
     }
     const lower = (control.value as string).toLowerCase();
@@ -118,25 +120,39 @@ export function blocklistValidator(): ValidatorFn {
   };
 }
 
-/** Range-overlap/gap check across a full array of "N-M" range strings. Call directly (not per-control). */
-export function checkRangeConsistency(ranges: string[]): { overlaps: string[]; gaps: string[] } {
-  const parsed = ranges
-    .map(r => {
-      const m = /^(\d+)[\u2013-](\d+)$/.exec((r || '').trim());
-      return m ? [parseInt(m[1], 10), parseInt(m[2], 10)] as [number, number] : null;
-    })
-    .filter((x): x is [number, number] => !!x)
-    .sort((a, b) => a[0] - b[0]);
+export interface RangeConsistencyIssue {
+  message: string;
+  index: number;
+  relatedIndex: number;
+}
 
-  const overlaps: string[] = [];
-  const gaps: string[] = [];
+/** Range-overlap/gap check across a full array of "N-M" range strings. Call directly (not per-control). */
+export function checkRangeConsistency(ranges: string[]): { overlaps: RangeConsistencyIssue[]; gaps: RangeConsistencyIssue[] } {
+  const parsed = ranges
+    .map((r, index) => {
+      const m = /^(\d+)[\u2013-](\d+)$/.exec((r || '').trim());
+      return m ? { start: parseInt(m[1], 10), end: parseInt(m[2], 10), index } : null;
+    })
+    .filter((x): x is { start: number; end: number; index: number } => !!x)
+    .sort((a, b) => a.start - b.start);
+
+  const overlaps: RangeConsistencyIssue[] = [];
+  const gaps: RangeConsistencyIssue[] = [];
   for (let i = 1; i < parsed.length; i++) {
-    const [prevStart, prevEnd] = parsed[i - 1];
-    const [curStart, curEnd] = parsed[i];
-    if (curStart <= prevEnd) {
-      overlaps.push(`${prevStart}\u2013${prevEnd} overlaps ${curStart}\u2013${curEnd}`);
-    } else if (curStart > prevEnd + 1) {
-      gaps.push(`gap between ${prevEnd} and ${curStart}`);
+    const previous = parsed[i - 1];
+    const current = parsed[i];
+    if (current.start <= previous.end) {
+      overlaps.push({
+        message: `${previous.start}\u2013${previous.end} overlaps ${current.start}\u2013${current.end}`,
+        index: current.index,
+        relatedIndex: previous.index
+      });
+    } else if (current.start > previous.end + 1) {
+      gaps.push({
+        message: `gap between ${previous.end} and ${current.start}`,
+        index: current.index,
+        relatedIndex: previous.index
+      });
     }
   }
   return { overlaps, gaps };
