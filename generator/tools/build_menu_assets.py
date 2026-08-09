@@ -64,10 +64,24 @@ def find_language_dirs(content_root: Path):
             yield entry
 
 
-def load_entries(path: Path):
+def load_category(path: Path):
     with path.open("r", encoding="utf-8") as f:
         data = json.load(f)
-    return data if isinstance(data, list) else [data]
+    if isinstance(data, list):
+        return None, data
+    if isinstance(data, dict) and isinstance(data.get("puzzles"), list):
+        collection = data.get("collection")
+        if collection is not None and not isinstance(collection, dict):
+            raise ValueError(f"{path}: collection must be an object")
+        return collection, data["puzzles"]
+    if isinstance(data, dict):
+        return None, [data]
+    raise ValueError(f"{path}: expected an array, puzzle object, or collection document")
+
+
+def load_entries(path: Path):
+    """Compatibility helper returning only puzzle entries."""
+    return load_category(path)[1]
 
 
 def build_english_names(content_root: Path) -> dict:
@@ -98,6 +112,7 @@ def main() -> int:
     english_names = build_english_names(args.content_root)
 
     content = {}
+    collections = {}
     if args.assets_dir.exists():
         shutil.rmtree(args.assets_dir)
     args.assets_dir.mkdir(parents=True, exist_ok=True)
@@ -105,12 +120,16 @@ def main() -> int:
     for lang_dir in find_language_dirs(args.content_root):
         lang = lang_dir.name
         content[lang] = {}
+        collections[lang] = {}
         out_lang_dir = args.assets_dir / lang
         out_lang_dir.mkdir(parents=True, exist_ok=True)
 
         for path in sorted(lang_dir.glob(f"{CATEGORY_PREFIX}*.json")):
             cat = category_key(path)
-            entries = load_entries(path)
+            collection, entries = load_category(path)
+
+            if collection is not None:
+                collections[lang][cat] = collection
 
             content[lang][cat] = [
                 {
@@ -134,6 +153,7 @@ def main() -> int:
             for code in content
         ],
         "content": content,
+        "collections": collections,
     }
 
     manifest_path = args.assets_dir / "manifest.json"

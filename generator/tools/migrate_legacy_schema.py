@@ -20,6 +20,7 @@ seoH1                -> body.h1
 tagline               -> body.tagline
 description            -> body.description
 funFact               -> body.fun_fact
+faqs                   -> body.faqs
 dotGuide.intro        -> body.dot_guide.intro
 dotGuide.sections      -> body.dot_guide.sections (keys unchanged)
 dotGuide.outro        -> body.dot_guide.outro
@@ -133,6 +134,7 @@ def convert_entry(raw: dict) -> dict:
             "tagline": raw.get("tagline", ""),
             "description": raw.get("description", ""),
             "fun_fact": raw.get("funFact", ""),
+            "faqs": raw.get("faqs", []),
             "dot_guide": {
                 "intro": dot_guide.get("intro", ""),
                 "sections": [convert_section(s) for s in dot_guide.get("sections", [])],
@@ -151,9 +153,13 @@ def convert_file(src: Path, dest: Path, dry_run: bool) -> int:
 
     if not isinstance(data, (list, dict)):
         raise ValueError("top-level JSON must be an object or array")
-    entries = data if isinstance(data, list) else [data]
+    is_collection = isinstance(data, dict) and isinstance(data.get("puzzles"), list)
+    entries = data["puzzles"] if is_collection else (data if isinstance(data, list) else [data])
     converted = [convert_entry(entry) for entry in entries]
-    output = converted if isinstance(data, list) else converted[0]
+    if is_collection:
+        output = {**data, "puzzles": converted}
+    else:
+        output = converted if isinstance(data, list) else converted[0]
 
     if dry_run:
         return len(entries)

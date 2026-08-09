@@ -36,7 +36,7 @@
   .field-row .field { flex: 1; min-width: 160px; }
   label { font-weight: 600; font-size: 0.86rem; margin-bottom: 4px; text-align: start; }
   .req { color: var(--err); }
-  input, textarea {
+  input, textarea, select {
     padding: 8px 10px; border: 1px solid #ccc; border-radius: 6px;
     font-size: 0.9rem; font-family: inherit; width: 100%; text-align: start;
   }
@@ -45,7 +45,9 @@
      automatically per the Unicode bidi algorithm. */
   [dir="rtl"] { text-align: right; }
   .page[dir="rtl"] .repeat-header { flex-direction: row-reverse; }
-  input.invalid, textarea.invalid { border-color: var(--err); background: #fff6f6; }
+  input.invalid, textarea.invalid, select.invalid { border-color: var(--err); background: #fff6f6; }
+  input[readonly] { background: #eef0f3; color: #555; cursor: not-allowed; }
+  .info { font-size: 0.78rem; color: #7a5c00; margin-top: 3px; }
   .hint { font-size: 0.76rem; color: #888; margin-top: 2px; }
   .error { font-size: 0.78rem; color: var(--err); margin-top: 2px; min-height: 0; }
   .repeat-block { border: 1px dashed #ccc; border-radius: 8px; padding: 14px; margin-bottom: 12px; }
@@ -233,8 +235,10 @@
     </section>
 
     <div class="actions">
-      <button type="submit" class="btn-primary" data-testid="generate-btn">Generate JSON</button>
+      <button type="button" class="btn-add" id="validateBtn" data-testid="validate-btn">Validate</button>
+      <button type="submit" class="btn-primary" data-testid="generate-btn">Generate / Save JSON</button>
       <button type="button" class="btn-secondary" id="resetBtn" data-testid="reset-btn">Reset Form</button>
+      <button type="button" class="btn-secondary" id="downloadAuditBtn" data-testid="download-audit-log">Download Audit Log</button>
       <span class="form-status" id="formStatus" data-testid="form-status" role="alert"></span>
     </div>
   </form>
@@ -360,33 +364,6 @@ function checkRangeConsistency(ranges) {
   return { overlaps, gaps };
 }
 
-// -- 6. Hex color vs color-name mismatch (soft warning) ----------------
-const KNOWN_COLORS = {
-  red:'#FF0000', blue:'#0000FF', green:'#008000', yellow:'#FFFF00', orange:'#FFA500',
-  purple:'#800080', pink:'#FFC0CB', brown:'#8B4513', black:'#000000', white:'#FFFFFF',
-  gray:'#808080', grey:'#808080', tan:'#D2B48C', beige:'#F5F5DC', cream:'#FFFDD0',
-  gold:'#FFD700', silver:'#C0C0C0', peach:'#FFE5B4', lavender:'#E6E6FA', teal:'#008080',
-  navy:'#000080', maroon:'#800000', olive:'#808000', turquoise:'#40E0D0'
-};
-function hexToRgb(hex) {
-  const m = /^#([0-9a-f]{2})([0-9a-f]{2})([0-9a-f]{2})$/i.exec(hex);
-  return m ? [parseInt(m[1],16), parseInt(m[2],16), parseInt(m[3],16)] : null;
-}
-function colorDistance(hexA, hexB) {
-  const a = hexToRgb(hexA), b = hexToRgb(hexB);
-  if (!a || !b) return 0;
-  return Math.sqrt((a[0]-b[0])**2 + (a[1]-b[1])**2 + (a[2]-b[2])**2);
-}
-// Returns a warning string if the typed color name is "known" but the hex is far off, else null
-function checkColorMismatch(name, hex) {
-  if (!name || !hex) return null;
-  const words = name.toLowerCase().split(/\s+/);
-  const known = words.find(w => KNOWN_COLORS[w]);
-  if (!known) return null; // nothing recognizable to compare against, skip silently
-  const dist = colorDistance(KNOWN_COLORS[known], hex);
-  return dist > 140 ? `"${name}" doesn't closely match ${hex} — double check.` : null;
-}
-
 // -- 7. Static child-friendliness blocklist (word-list, NOT AI) --------
 // Deliberately conservative starter list — catches obvious offenders only.
 // This is NOT a substitute for human/editorial review, see hint text in UI.
@@ -400,6 +377,32 @@ function checkBlocklist(text) {
   const lower = text.toLowerCase();
   const hits = BLOCKLIST.filter(w => new RegExp(`\\b${w}\\b`, 'i').test(lower));
   return hits.length ? `Contains flagged word(s): ${hits.join(', ')} — review for a kids' site.` : null;
+}
+
+let crayolaColors = [];
+
+function colorOptions() {
+  return crayolaColors.map(item => `<option value="${item.color}">${item.color}</option>`).join('');
+}
+
+function selectMappingColor(select) {
+  const map = select.closest('[data-mapping]');
+  const match = crayolaColors.find(item => item.color === select.value);
+  if (match) map.querySelector('[data-path="__map_hex"]').value = match.hex;
+  map.querySelector('[data-custom-color]').textContent = '';
+}
+
+function hydrateMappingColor(map, name, hex) {
+  const select = map.querySelector('[data-path="__map_color"]');
+  const match = crayolaColors.find(item => item.hex.toUpperCase() === (hex || '').toUpperCase());
+  if (match) {
+    select.value = match.color;
+  } else if (name || hex) {
+    select.insertAdjacentHTML('beforeend', `<option value="${name || '__custom__'}">Custom / Other</option>`);
+    select.value = name || '__custom__';
+    map.querySelector('[data-custom-color]').textContent = `Custom color, not in standard list${hex ? ` (${hex})` : ''}`;
+  }
+  map.querySelector('[data-path="__map_hex"]').value = match ? match.hex : (hex || '');
 }
 
 let sectionCount = 0, schemeCount = 0;
@@ -435,9 +438,8 @@ function mappingTemplate() {
     <div class="field-row">
       <div class="field"><label for="map-range-${mid}">Range</label><input id="map-range-${mid}" name="map-range-${mid}" data-path="__map_range" data-testid="mapping-range-${mid}" placeholder="1–15"></div>
       <div class="field"><label for="map-part-${mid}">Part</label><input id="map-part-${mid}" name="map-part-${mid}" data-path="__map_part" data-testid="mapping-part-${mid}"></div>
-      <div class="field"><label for="map-color-${mid}">Color name</label><input id="map-color-${mid}" name="map-color-${mid}" data-path="__map_color" data-testid="mapping-color-${mid}"></div>
-      <div class="field"><label for="map-hex-${mid}">Hex</label><input id="map-hex-${mid}" name="map-hex-${mid}" data-path="__map_hex" data-testid="mapping-hex-${mid}" placeholder="#FAA76C">
-        <div class="error" data-err-inline role="alert"></div></div>
+      <div class="field"><label for="map-color-${mid}">Color name</label><select id="map-color-${mid}" name="map-color-${mid}" data-path="__map_color" data-testid="mapping-color-${mid}" onchange="selectMappingColor(this)"><option value="" disabled selected>Select a color...</option>${colorOptions()}</select><div class="info" data-custom-color></div></div>
+      <div class="field"><label for="map-hex-${mid}">Hex</label><input id="map-hex-${mid}" name="map-hex-${mid}" data-path="__map_hex" data-testid="mapping-hex-${mid}" readonly></div>
     </div>
     <div class="field"><label for="map-why-${mid}">Why</label><textarea id="map-why-${mid}" name="map-why-${mid}" data-path="__map_why" data-testid="mapping-why-${mid}" rows="2"></textarea></div>
   </div>`;
@@ -471,7 +473,19 @@ function addMapping(btn) {
 
 document.getElementById('addSection').onclick = addSection;
 document.getElementById('addScheme').onclick = addScheme;
-addSection(); addScheme();
+fetch('../../dot2dot-form-angular8/src/assets/crayola-color-lookup.json')
+  .then(response => {
+    if (!response.ok) throw new Error('Color lookup unavailable');
+    return response.json();
+  })
+  .then(data => {
+    crayolaColors = (data.colors || []).slice().sort((a, b) => a.color.localeCompare(b.color));
+    addSection(); addScheme();
+  })
+  .catch(() => {
+    document.getElementById('formStatus').textContent = 'Standard color list could not be loaded.';
+    addSection(); addScheme();
+  });
 
 function applyDirection() {
   const lang = currentLanguage();
@@ -609,12 +623,6 @@ function validateAll() {
         if (!inp.value.trim()) { inp.classList.add('invalid'); ok = false; } else { inp.classList.remove('invalid'); }
       });
       // 6. Color name vs hex mismatch — soft warning, does not block submit
-      const colorInput = map.querySelector('[data-path="__map_color"]');
-      const hexErrBox = hexInput.closest('.field').querySelector('[data-err-inline]');
-      if (colorInput.value.trim() && hexInput.value.trim() && !hexErrBox.textContent) {
-        const warn = checkColorMismatch(colorInput.value.trim(), hexInput.value.trim());
-        if (warn) hexErrBox.textContent = warn; // warning only, ok stays true
-      }
     });
   });
 
@@ -677,9 +685,70 @@ function buildJson() {
 }
 
 let lastJson = null;
+let loadedAuditSnapshot = null;
+const auditLines = [];
+
+function cloneAuditValue(value) {
+  return value === undefined ? null : JSON.parse(JSON.stringify(value));
+}
+
+function diffAuditValues(before, after, prefix = '') {
+  const changes = [];
+  const keys = [...new Set([...Object.keys(before || {}), ...Object.keys(after || {})])].sort();
+  keys.forEach(key => {
+    const field = prefix ? `${prefix}.${key}` : key;
+    const oldValue = before ? before[key] : undefined;
+    const newValue = after ? after[key] : undefined;
+    const oldObject = oldValue && typeof oldValue === 'object' && !Array.isArray(oldValue);
+    const newObject = newValue && typeof newValue === 'object' && !Array.isArray(newValue);
+    if (oldObject && newObject) changes.push(...diffAuditValues(oldValue, newValue, field));
+    else if (JSON.stringify(oldValue) !== JSON.stringify(newValue)) {
+      changes.push({field, old: cloneAuditValue(oldValue), new: cloneAuditValue(newValue)});
+    }
+  });
+  return changes;
+}
+
+function createAuditEntry(action, trigger) {
+  const current = buildJson();
+  return {
+    timestamp: new Date().toISOString(), action, trigger,
+    entry_id: current.slug || 'untitled', entry_type: 'puzzle',
+    changes: diffAuditValues(loadedAuditSnapshot || {}, current)
+  };
+}
+
+function appendAudit(entry) { auditLines.push(JSON.stringify(entry)); }
+
+window.submitAsAutomation = async function(options = {}) {
+  const action = options.action || 'validate';
+  const dryRun = Boolean(options.dryRun);
+  const entry = createAuditEntry(action, 'automated');
+  const valid = action === 'validate' ? validateAll() : undefined;
+  if (!dryRun) {
+    appendAudit(entry);
+    if (action === 'save' && valid !== false) lastJson = buildJson();
+  }
+  return valid === undefined ? entry : {...entry, valid};
+};
+
+document.getElementById('validateBtn').onclick = () => {
+  const entry = createAuditEntry('validate', 'human');
+  appendAudit(entry);
+  document.getElementById('formStatus').textContent = validateAll() ? 'Form is valid.' : 'âš  Please fix the highlighted fields above.';
+};
+
+document.getElementById('downloadAuditBtn').onclick = () => {
+  const blob = new Blob([auditLines.join('\n') + (auditLines.length ? '\n' : '')], {type:'application/x-ndjson'});
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url; a.download = 'log.ndjson'; a.click();
+  URL.revokeObjectURL(url);
+};
 
 document.getElementById('puzzleForm').addEventListener('submit', e => {
   e.preventDefault();
+  appendAudit(createAuditEntry('save', 'human'));
   const status = document.getElementById('formStatus');
   if (!validateAll()) {
     status.textContent = '⚠ Please fix the highlighted fields above.';
@@ -707,6 +776,7 @@ document.getElementById('resetBtn').onclick = () => {
   document.querySelectorAll('.error').forEach(el => el.textContent = '');
   document.getElementById('formStatus').textContent = '';
   document.getElementById('outputCard').style.display = 'none';
+  loadedAuditSnapshot = cloneAuditValue(buildJson());
 };
 
 document.getElementById('downloadBtn').onclick = () => {
@@ -826,8 +896,7 @@ function loadEntryIntoForm(entry) {
       const mapBlock = mapWrap.querySelector('[data-mapping]:last-child');
       mapBlock.querySelector('[data-path="__map_range"]').value = m.range || '';
       mapBlock.querySelector('[data-path="__map_part"]').value = m.part || '';
-      mapBlock.querySelector('[data-path="__map_color"]').value = m.color || '';
-      mapBlock.querySelector('[data-path="__map_hex"]').value = m.hex || '';
+      hydrateMappingColor(mapBlock, m.color || '', m.hex || '');
       mapBlock.querySelector('[data-path="__map_why"]').value = m.why || '';
     });
   });
@@ -837,6 +906,7 @@ function loadEntryIntoForm(entry) {
   document.getElementById('formStatus').textContent = '';
   document.getElementById('outputCard').style.display = 'none';
   document.getElementById('importErr').textContent = '';
+  loadedAuditSnapshot = cloneAuditValue(buildJson());
 }
 
 function handleImportedJson(text) {
@@ -871,6 +941,7 @@ document.getElementById('importBtn').onclick = () => {
     document.getElementById('importErr').textContent = 'Choose a file or paste JSON first.';
   }
 };
+loadedAuditSnapshot = cloneAuditValue(buildJson());
 </script>
 </body>
 </html>

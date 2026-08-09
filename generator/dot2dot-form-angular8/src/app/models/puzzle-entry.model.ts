@@ -53,12 +53,18 @@ export interface DotGuideData {
   color_schemes: ColorScheme[];
 }
 
+export interface FaqItem {
+  q: string;
+  a: string;
+}
+
 export interface BodyData {
   h1: string;
   name: string;
   tagline: string;
   description: string;
   fun_fact: string;
+  faqs: FaqItem[];
   dot_guide: DotGuideData;
 }
 
@@ -66,4 +72,37 @@ export interface PuzzleEntry {
   slug: string;
   header: HeaderData;
   body: BodyData;
+}
+
+export interface CollectionData {
+  header: {
+    title: string;
+    meta_description: string;
+    og: { title: string; description: string; image: string };
+    json_ld: {
+      type: 'CollectionPage';
+      name: string;
+      description: string;
+      image: string;
+      main_entity: { type: 'ItemList'; item_source: 'puzzles' };
+    };
+    breadcrumb_json_ld: {
+      type: 'BreadcrumbList';
+      items: Array<{ position: number; name: string; path: string }>;
+    };
+  };
+  body: {
+    h1: string;
+    name: string;
+    tagline: string;
+    description: string;
+    hero_image: string;
+    slug: string;
+    faqs: FaqItem[];
+  };
+}
+
+export interface CollectionDocument {
+  collection: CollectionData;
+  puzzles: PuzzleEntry[];
 }

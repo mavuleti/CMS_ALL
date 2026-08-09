@@ -13,12 +13,14 @@ export interface MenuPuzzle {
 interface Manifest {
   languages: Array<{ code: string; label: string }>;
   content: { [lang: string]: { [category: string]: MenuPuzzle[] } };
+  collections?: { [lang: string]: { [category: string]: any } };
 }
 
 export interface CategoryNode {
   key: string;
   label: string;
   puzzles: MenuPuzzle[];
+  collectionEditable: boolean;
 }
 
 export interface PuzzleSelection {
@@ -27,6 +29,8 @@ export interface PuzzleSelection {
   slug: string;
   entry: any;
   englishEntry: any;
+  document: any;
+  collectionOnly?: boolean;
 }
 
 export interface TranslationSummary {
@@ -66,6 +70,7 @@ export class PuzzleMenuComponent implements OnInit {
   loadingSlug: string = null;
 
   private content: { [lang: string]: { [category: string]: MenuPuzzle[] } } = {};
+  private collections: { [lang: string]: { [category: string]: any } } = {};
   private readonly categoryOrder = [
     'cute', 'dinosaurs', 'ocean', 'garden', 'flowers', 'circus',
     'playgrounds', 'canada', 'uae', 'planes', 'space', 'usa-250'
@@ -82,6 +87,7 @@ export class PuzzleMenuComponent implements OnInit {
       manifest => {
         this.languages = manifest && manifest.languages ? manifest.languages : [];
         this.content = manifest && manifest.content ? manifest.content : {};
+        this.collections = manifest && manifest.collections ? manifest.collections : {};
         if (!this.languages.some(language => language.code === this.selectedLang) && this.languages.length) {
           this.selectedLang = this.languages[0].code;
         }
@@ -133,6 +139,7 @@ export class PuzzleMenuComponent implements OnInit {
         return {
           key,
           label: this.categoryLabel(key),
+          collectionEditable: Boolean((this.collections[this.selectedLang] || {})[key]),
           puzzles: byCategory[key].map(puzzle => ({
             ...puzzle,
             available: translatedSlugs.has(puzzle.slug)
@@ -201,7 +208,7 @@ export class PuzzleMenuComponent implements OnInit {
     return this.loadingCategory === categoryKey && this.loadingSlug === slug;
   }
 
-  selectPuzzle(categoryKey: string, slug: string): void {
+  selectPuzzle(categoryKey: string, slug: string, collectionOnly = false): void {
     this.loadError = null;
     const localized = (this.content[this.selectedLang] || {})[categoryKey] || [];
     if (!localized.some(entry => entry.slug === slug)) {
@@ -214,28 +221,32 @@ export class PuzzleMenuComponent implements OnInit {
     const url = `assets/content/${this.selectedLang}/puzzles-${categoryKey}.json`;
 
     forkJoin({
-      entries: this.http.get<any[]>(url),
-      englishEntries: this.http.get<any[]>(`assets/content/en/puzzles-${categoryKey}.json`)
+      document: this.http.get<any>(url),
+      englishDocument: this.http.get<any>(`assets/content/en/puzzles-${categoryKey}.json`)
     }).subscribe(
       result => {
         if (sequence !== this.loadSequence) { return; }
         this.loadingCategory = null;
         this.loadingSlug = null;
-        const entry = (result.entries || []).find(e => e.slug === slug);
-        const englishEntry = (result.englishEntries || []).find(e => e.slug === slug);
+        const entries = this.puzzlesFromDocument(result.document);
+        const englishEntries = this.puzzlesFromDocument(result.englishDocument);
+        const entry = entries.find(e => e.slug === slug);
+        const englishEntry = englishEntries.find(e => e.slug === slug);
         if (!entry) {
           this.loadError = `"${slug}" not found in ${this.selectedLang}.`;
           return;
         }
         this.activeCategory = categoryKey;
-        this.activeSlug = slug;
+        this.activeSlug = collectionOnly ? null : slug;
         this.expandedCategories.add(categoryKey);
         this.puzzleSelected.emit({
           language: this.selectedLang,
           category: categoryKey,
           slug,
           entry,
-          englishEntry: englishEntry || entry
+          englishEntry: englishEntry || entry,
+          document: result.document,
+          collectionOnly
         });
       },
       () => {
@@ -245,6 +256,22 @@ export class PuzzleMenuComponent implements OnInit {
         this.loadError = `Could not load ${categoryKey} puzzles for ${this.languageLabel(this.selectedLang)}.`;
       }
     );
+  }
+
+  editCollection(categoryKey: string): void {
+    const firstPuzzle = ((this.content[this.selectedLang] || {})[categoryKey] || [])[0];
+    if (!firstPuzzle || !this.collections[this.selectedLang]?.[categoryKey]) {
+      this.loadError = 'Collection metadata is not available for this language.';
+      return;
+    }
+    this.expandedCategories.add(categoryKey);
+    this.selectPuzzle(categoryKey, firstPuzzle.slug, true);
+  }
+
+  private puzzlesFromDocument(document: any): any[] {
+    if (Array.isArray(document)) { return document; }
+    if (document && Array.isArray(document.puzzles)) { return document.puzzles; }
+    return document ? [document] : [];
   }
 
   private languageLabel(code: string): string {

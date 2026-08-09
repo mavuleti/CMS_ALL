@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { PuzzleFormComponent, VersionSnapshot, EntryStatus } from './puzzle-form/puzzle-form.component';
 import { PuzzleMenuComponent, PuzzleSelection, TranslationSummary } from './puzzle-menu/puzzle-menu.component';
 import { DraftStorageService, SavedVersion } from './draft-storage.service';
+import { AuditLogService } from './audit-log.service';
 
 @Component({
   selector: 'app-root',
@@ -29,7 +30,12 @@ export class AppComponent implements AfterViewInit {
   }
   private saveQueue: Promise<void> = Promise.resolve();
 
-  constructor(private storage: DraftStorageService) {}
+  constructor(private storage: DraftStorageService, private auditLog: AuditLogService) {}
+
+  async downloadAuditLog(): Promise<void> {
+    await this.auditLog.download();
+    this.draftMessage = 'Audit log downloaded as log.ndjson.';
+  }
 
   async ngAfterViewInit(): Promise<void> {
     try {
@@ -39,7 +45,7 @@ export class AppComponent implements AfterViewInit {
         this.activeEntryKey = latest.entryKey;
         this.contentLanguage = this.languageFromEntryKey(latest.entryKey);
         this.refreshVisibleVersions();
-        this.puzzleForm.loadImportedJson(latest.data);
+        this.puzzleForm.loadImportedJson(latest.data, this.slugFromEntryKey(latest.entryKey), this.isCollectionEntryKey(latest.entryKey));
         this.draftMessage = 'Latest saved version restored.';
       }
     } catch (_error) {
@@ -49,11 +55,11 @@ export class AppComponent implements AfterViewInit {
 
   onPuzzleSelected(selection: PuzzleSelection): void {
     if (!this.confirmDiscard()) { return; }
-    this.activeEntryKey = `${selection.language}:${selection.category}:${selection.slug}`;
+    this.activeEntryKey = `${selection.language}:${selection.category}:${selection.collectionOnly ? 'collection' : selection.slug}`;
     this.contentLanguage = selection.language;
     this.englishReference = selection.englishEntry;
     this.refreshVisibleVersions();
-    this.puzzleForm.loadImportedJson(selection.entry);
+    this.puzzleForm.loadImportedJson(selection.document, selection.slug, Boolean(selection.collectionOnly));
     this.diffLines = [];
   }
 
@@ -68,8 +74,8 @@ export class AppComponent implements AfterViewInit {
   private async persistVersion(snapshot: VersionSnapshot): Promise<void> {
     const latestTime = this.allVersions.length ? Date.parse(this.allVersions[0].savedAt) : 0;
     const now = new Date(Math.max(Date.now(), latestTime + 1));
-    const slug = snapshot.data && snapshot.data.slug ? snapshot.data.slug : 'untitled';
-    if (this.activeEntryKey === 'manual:untitled' || !this.activeEntryKey.endsWith(`:${slug}`)) {
+    const slug = snapshot.entrySlug || (snapshot.data && snapshot.data.slug) || 'untitled';
+    if (this.activeEntryKey === 'manual:untitled' || (!this.puzzleForm.collectionOnly && !this.activeEntryKey.endsWith(`:${slug}`))) {
       this.activeEntryKey = `manual:${slug}`;
     }
     const version: SavedVersion = {
@@ -97,7 +103,7 @@ export class AppComponent implements AfterViewInit {
     this.activeEntryKey = version.entryKey;
     this.contentLanguage = this.languageFromEntryKey(version.entryKey);
     this.refreshVisibleVersions();
-    this.puzzleForm.loadImportedJson(version.data);
+    this.puzzleForm.loadImportedJson(version.data, this.slugFromEntryKey(version.entryKey), this.isCollectionEntryKey(version.entryKey));
     this.draftMessage = `${this.statusLabel(version.status)} version loaded.`;
   }
 
@@ -185,6 +191,15 @@ export class AppComponent implements AfterViewInit {
   private languageFromEntryKey(entryKey: string): string {
     const language = String(entryKey || '').split(':')[0];
     return language && language !== 'manual' ? language : 'en';
+  }
+
+  private slugFromEntryKey(entryKey: string): string {
+    const parts = String(entryKey || '').split(':');
+    return parts[parts.length - 1] || '';
+  }
+
+  private isCollectionEntryKey(entryKey: string): boolean {
+    return String(entryKey || '').endsWith(':collection');
   }
 
   private buildDiff(newer: any, older: any, prefix = ''): string[] {

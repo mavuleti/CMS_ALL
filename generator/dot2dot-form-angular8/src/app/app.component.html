@@ -27,6 +27,7 @@
     <h2>Versions</h2>
     <p class="version-help">Five versions per puzzle. The latest saved version loads automatically.</p>
     <div class="history-actions">
+      <button type="button" data-testid="download-audit-log" (click)="downloadAuditLog()">Audit log</button>
       <button type="button" data-testid="export-history" (click)="exportHistory()">Export</button>
       <label class="import-history">Import<input type="file" accept="application/json,.json" data-testid="import-history" (change)="importHistory($event)"></label>
       <button type="button" data-testid="clear-history" [disabled]="!versions.length" (click)="clearHistory()">Clear</button>

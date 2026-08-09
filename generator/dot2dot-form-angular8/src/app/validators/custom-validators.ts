@@ -75,14 +75,14 @@ export function languageScriptValidator(getLang: () => string): ValidatorFn {
   };
 }
 
-/** Full image URL ending in a common image extension. */
-export function imageUrlValidator(): ValidatorFn {
+/** Root-relative asset path with no host, query, fragment, backslash, or traversal. */
+export function imagePathValidator(): ValidatorFn {
   return (control: AbstractControl): ValidationErrors | null => {
     if (!control.value) {
       return null;
     }
-    const valid = /^https?:\/\/[^\s]+\.(jpg|jpeg|png|webp|gif|svg)(\?[^\s]*)?$/i.test(control.value);
-    return valid ? null : { imageUrl: true };
+    const valid = /^\/(?:[A-Za-z0-9._~-]+\/)*[A-Za-z0-9._~-]+\.(jpg|jpeg|png|webp|gif|svg)$/i.test(control.value);
+    return valid ? null : { imagePath: true };
   };
 }
 

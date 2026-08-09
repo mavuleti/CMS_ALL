@@ -38,6 +38,7 @@
       data-testid="menu-tree"
       *ngIf="visibleCategories.length; else emptyState">
       <li *ngFor="let cat of visibleCategories; let ci = index; trackBy: trackByCategory">
+        <div class="menu-category-row">
         <button
           type="button"
           role="treeitem"
@@ -52,6 +53,15 @@
           <span class="menu-category-label">{{ cat.label }}</span>
           <span class="menu-count">({{ cat.puzzles.length }})</span>
         </button>
+        <button
+          *ngIf="cat.collectionEditable"
+          type="button"
+          class="menu-collection-edit"
+          [attr.aria-label]="'Edit ' + cat.label + ' collection metadata'"
+          [attr.title]="'Edit ' + cat.label + ' collection metadata'"
+          [attr.data-testid]="'menu-collection-edit-' + cat.key"
+          (click)="editCollection(cat.key)">✎</button>
+        </div>
 
         <ul class="menu-puzzle-list" role="group" *ngIf="isExpanded(cat.key)">
           <li *ngFor="let p of cat.puzzles; let pi = index; trackBy: trackByPuzzle">

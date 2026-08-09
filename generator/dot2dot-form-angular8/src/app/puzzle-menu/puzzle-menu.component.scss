@@ -93,6 +93,33 @@
   font-size: 0.88rem;
 }
 
+.menu-category-row {
+  display: flex;
+  align-items: center;
+}
+
+.menu-category-row .menu-category-btn {
+  flex: 1;
+  min-width: 0;
+}
+
+.menu-collection-edit {
+  flex: 0 0 30px;
+  height: 30px;
+  border: 0;
+  border-radius: 5px;
+  background: transparent;
+  color: #4a6fd6;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.menu-collection-edit:hover,
+.menu-collection-edit:focus-visible {
+  background: #e6ebfb;
+  outline: 2px solid transparent;
+}
+
 .menu-category-btn:hover {
   background: #eef1f8;
 }

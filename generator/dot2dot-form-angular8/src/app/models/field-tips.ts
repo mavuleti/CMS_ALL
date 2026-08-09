@@ -16,7 +16,7 @@ export const FIELD_TIPS = {
       type: 'Leave as "CreativeWork" unless there is a specific reason to change it.',
       name: 'Same value as body.name — the puzzle\'s short display name.',
       description: 'Must match what is visibly on the page — do not state facts here that aren\'t also in body content.',
-      image: 'Full https:// URL ending in .jpg, .jpeg, .png, .webp, .gif, or .svg — not a relative path.',
+      image: 'Root-relative path from the assets root, such as /images/cute/cute-puppy.webp. Do not include a domain, query, or fragment.',
       educational_use: 'Name the skills this puzzle builds, e.g. "Fine motor skills, number sequencing".',
       age_range: 'Never guess this — derive it from dot count via the difficulty rubric: 10–20→3–5, 21–50→4–7, 51–100→5–9, 101–150→7–12, 150+→9–12+.'
     }

@@ -70,13 +70,16 @@ export class DraftStorageService {
 
   private openDatabase(): Promise<IDBDatabase> {
     return new Promise((resolve, reject) => {
-      const request = indexedDB.open(this.databaseName, 1);
+      const request = indexedDB.open(this.databaseName, 2);
       request.onupgradeneeded = () => {
         const database = request.result;
         if (!database.objectStoreNames.contains(this.storeName)) {
           const store = database.createObjectStore(this.storeName, { keyPath: 'id' });
           store.createIndex('entryKey', 'entryKey');
           store.createIndex('savedAt', 'savedAt');
+        }
+        if (!database.objectStoreNames.contains('audit-log')) {
+          database.createObjectStore('audit-log', { autoIncrement: true });
         }
       };
       request.onsuccess = async () => {

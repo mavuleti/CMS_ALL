@@ -2,10 +2,36 @@
 // (e.g. "20-70 characters") never drift apart.
 
 export const FIELD_RULES = {
+  faq: {
+    question: { required: true, minLength: 5, maxLength: 200 },
+    answer: { required: true, minLength: 20, maxLength: 1000 }
+  },
+  collection: {
+    header: {
+      title: { required: true, minLength: 30, maxLength: 60 },
+      meta_description: { required: true, minLength: 70, maxLength: 158 },
+      og: {
+        title: { required: true, minLength: 1, maxLength: 60 },
+        description: { required: true, minLength: 1, maxLength: 200 },
+        image: { required: true }
+      },
+      json_ld: {
+        type: { required: true }, name: { required: true, maxLength: 60 },
+        description: { required: true, maxLength: 200 }, image: { required: true }
+      }
+    },
+    body: {
+      h1: { required: true, minLength: 20, maxLength: 70 },
+      name: { required: true, maxLength: 60 },
+      tagline: { required: true, maxLength: 80 },
+      description: { required: true, minLength: 50, maxLength: 300 },
+      hero_image: { required: true }, slug: { required: true }
+    }
+  },
   slug: { required: true },
   header: {
     title: { required: true, minLength: 30, maxLength: 60 },
-    meta_description: { required: true, minLength: 70, maxLength: 160 },
+    meta_description: { required: true, minLength: 70, maxLength: 158 },
     og: {
       title: { required: true, maxLength: 60 },
       description: { required: true, maxLength: 200 },

@@ -2,25 +2,39 @@ import { Component, EventEmitter, HostListener, Input, OnInit, Output, SecurityC
 import { AbstractControl, FormArray, FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { FIELD_RULES } from '../models/field-rules';
 import { FIELD_TIPS } from '../models/field-tips';
-import { blocklistValidator, checkRangeConsistency, dotRangeValidator, hexColorValidator, imageUrlValidator, languageScriptValidator, slugFormatValidator, slugUniqueValidator } from '../validators/custom-validators';
-import { PuzzleEntry } from '../models/puzzle-entry.model';
+import { blocklistValidator, checkRangeConsistency, dotRangeValidator, hexColorValidator, imagePathValidator, languageScriptValidator, slugFormatValidator, slugUniqueValidator } from '../validators/custom-validators';
+import { CollectionData, CollectionDocument, PuzzleEntry } from '../models/puzzle-entry.model';
 import { CommonModule } from '@angular/common';
 import { ReactiveFormsModule } from '@angular/forms';
 import { DomSanitizer } from '@angular/platform-browser';
+import { HttpClient } from '@angular/common/http';
 import { EnglishReviewDirective } from './english-review.directive';
 import { EnglishReviewService } from './english-review.service';
+import { AuditAction, AuditEntry, AuditLogService, AuditTrigger } from '../audit-log.service';
+
+declare global {
+  interface Window {
+    submitAsAutomation: (options?: { action?: AuditAction; dryRun?: boolean }) => Promise<AuditEntry & { valid?: boolean }>;
+  }
+}
 
 export type EntryStatus = 'draft' | 'validated' | 'submitted';
 
 export interface VersionSnapshot {
   status: EntryStatus;
   data: any;
+  entrySlug: string;
 }
 
 interface ValidationIssue {
   path: string;
   message: string;
   severity: 'error' | 'warning';
+}
+
+interface CrayolaColor {
+  color: string;
+  hex: string;
 }
 
 @Component({
@@ -47,15 +61,30 @@ export class PuzzleFormComponent implements OnInit {
   invalidFieldCount = 0;
   validationIssues: ValidationIssue[] = [];
   private loadedSlug: string = null;
+  private collectionDocument: CollectionDocument = null;
+  private loadedAuditSnapshot: any = {};
+  get editingCollection(): boolean { return Boolean(this.collectionDocument && this.collectionOnly); }
+  collectionOnly = false;
   get errorIssues(): ValidationIssue[] { return this.validationIssues.filter(issue => issue.severity === 'error'); }
   get warningIssues(): ValidationIssue[] { return this.validationIssues.filter(issue => issue.severity === 'warning'); }
   importError: string = null;
   activeTab: 'form' | 'preview' = 'form';
+  crayolaColors: CrayolaColor[] = [];
+  colorLookupError = false;
 
-  constructor(private fb: FormBuilder, private sanitizer: DomSanitizer, private reviews: EnglishReviewService) {}
+  constructor(private fb: FormBuilder, private sanitizer: DomSanitizer, private reviews: EnglishReviewService, private http: HttpClient, private auditLog: AuditLogService) {}
 
   ngOnInit(): void {
     this.form = this.buildForm();
+    this.loadedAuditSnapshot = this.currentEditableValue();
+    window.submitAsAutomation = options => this.submitAsAutomation(options);
+    this.http.get<{ colors: CrayolaColor[] }>('assets/crayola-color-lookup.json').subscribe({
+      next: data => {
+        this.crayolaColors = (data.colors || []).slice().sort((a, b) => a.color.localeCompare(b.color));
+        this.syncAllColorMappings();
+      },
+      error: () => { this.colorLookupError = true; }
+    });
   }
 
   setTab(tab: 'form' | 'preview'): void {
@@ -75,6 +104,7 @@ export class PuzzleFormComponent implements OnInit {
     ];
 
     return this.fb.group({
+      collection: this.buildCollectionForm(),
       slug: ['', [Validators.required, slugFormatValidator(), slugUniqueValidator(() =>
         new Set((this.knownSlugs || []).filter(slug => slug !== this.loadedSlug))) ]],
 
@@ -90,7 +120,7 @@ export class PuzzleFormComponent implements OnInit {
           type: ['CreativeWork', Validators.required],
           name: ['', text(Validators.required)],
           description: ['', text(Validators.required, Validators.maxLength(r.header.json_ld.description.maxLength))],
-          image: ['', [Validators.required, imageUrlValidator()]],
+          image: ['', [Validators.required, imagePathValidator()]],
           educational_use: ['', text(Validators.required)],
           age_range: ['', text(Validators.required)]
         })
@@ -102,6 +132,7 @@ export class PuzzleFormComponent implements OnInit {
         tagline: ['', text(Validators.required, Validators.maxLength(r.body.tagline.maxLength))],
         description: ['', text(Validators.required, Validators.minLength(r.body.description.minLength), Validators.maxLength(r.body.description.maxLength))],
         fun_fact: ['', text(Validators.required, Validators.minLength(r.body.fun_fact.minLength), Validators.maxLength(r.body.fun_fact.maxLength))],
+        faqs: this.fb.array([], Validators.required),
         dot_guide: this.fb.group({
           intro: ['', text(Validators.required, Validators.minLength(r.body.dot_guide.intro.minLength))],
           outro: ['', text(Validators.required, Validators.minLength(r.body.dot_guide.outro.minLength))],
@@ -110,6 +141,54 @@ export class PuzzleFormComponent implements OnInit {
         })
       })
     });
+  }
+
+  private buildCollectionForm(): FormGroup {
+    const r = this.rules.collection;
+    const text = (...validators: any[]) => [
+      ...validators,
+      languageScriptValidator(() => this.contentLanguage),
+      blocklistValidator(() => this.contentLanguage)
+    ];
+    const group = this.fb.group({
+      header: this.fb.group({
+        title: ['', text(Validators.required, Validators.minLength(r.header.title.minLength), Validators.maxLength(r.header.title.maxLength))],
+        meta_description: ['', text(Validators.required, Validators.minLength(r.header.meta_description.minLength), Validators.maxLength(r.header.meta_description.maxLength))],
+        og: this.fb.group({
+          title: ['', text(Validators.required, Validators.minLength(r.header.og.title.minLength), Validators.maxLength(r.header.og.title.maxLength))],
+          description: ['', text(Validators.required, Validators.minLength(r.header.og.description.minLength), Validators.maxLength(r.header.og.description.maxLength))],
+          image: ['', [Validators.required, imagePathValidator()]]
+        }),
+        json_ld: this.fb.group({
+          type: ['CollectionPage', [Validators.required, Validators.pattern(/^CollectionPage$/)]],
+          name: ['', text(Validators.required, Validators.maxLength(r.header.json_ld.name.maxLength))],
+          description: ['', text(Validators.required, Validators.maxLength(r.header.json_ld.description.maxLength))],
+          image: ['', [Validators.required, imagePathValidator()]],
+          main_entity: this.fb.group({
+            type: ['ItemList', [Validators.required, Validators.pattern(/^ItemList$/)]],
+            item_source: ['puzzles', [Validators.required, Validators.pattern(/^puzzles$/)]]
+          })
+        }),
+        breadcrumb_json_ld: this.fb.group({
+          type: ['BreadcrumbList', [Validators.required, Validators.pattern(/^BreadcrumbList$/)]],
+          items: this.fb.array([
+            this.fb.group({ position: [1, Validators.required], name: ['Home', Validators.required], path: ['/', [Validators.required, Validators.pattern(/^\/(?:[a-z0-9]+(?:-[a-z0-9]+)*\/)*$/)]] }),
+            this.fb.group({ position: [2, Validators.required], name: ['', text(Validators.required)], path: ['', [Validators.required, Validators.pattern(/^\/(?:[a-z0-9]+(?:-[a-z0-9]+)*\/)*$/)]] })
+          ])
+        })
+      }),
+      body: this.fb.group({
+        h1: ['', text(Validators.required, Validators.minLength(r.body.h1.minLength), Validators.maxLength(r.body.h1.maxLength))],
+        name: ['', text(Validators.required, Validators.maxLength(r.body.name.maxLength))],
+        tagline: ['', text(Validators.required, Validators.maxLength(r.body.tagline.maxLength))],
+        description: ['', text(Validators.required, Validators.minLength(r.body.description.minLength), Validators.maxLength(r.body.description.maxLength))],
+        hero_image: ['', [Validators.required, imagePathValidator()]],
+        slug: ['', [Validators.required, slugFormatValidator()]],
+        faqs: this.fb.array([], Validators.required)
+      })
+    });
+    group.disable({ emitEvent: false });
+    return group;
   }
 
   private buildSection(): FormGroup {
@@ -122,14 +201,50 @@ export class PuzzleFormComponent implements OnInit {
     });
   }
 
+  private buildFaq(): FormGroup {
+    const language = languageScriptValidator(() => this.contentLanguage);
+    const safety = blocklistValidator(() => this.contentLanguage);
+    return this.fb.group({
+      q: ['', [Validators.required, Validators.minLength(this.rules.faq.question.minLength), Validators.maxLength(this.rules.faq.question.maxLength), language, safety]],
+      a: ['', [Validators.required, Validators.minLength(this.rules.faq.answer.minLength), Validators.maxLength(this.rules.faq.answer.maxLength), language, safety]]
+    });
+  }
+
   private buildMapping(): FormGroup {
     const language = languageScriptValidator(() => this.contentLanguage);
-    return this.fb.group({
+    const group = this.fb.group({
       range: ['', [Validators.required, dotRangeValidator()]],
       part: ['', [Validators.required, language, blocklistValidator(() => this.contentLanguage)]],
       color: ['', [Validators.required, language, blocklistValidator(() => this.contentLanguage)]],
-      hex: ['', [Validators.required, hexColorValidator()]],
+      hex: [{ value: '', disabled: true }, [Validators.required, hexColorValidator()]],
       why: ['', [Validators.required, language, blocklistValidator(() => this.contentLanguage)]]
+    });
+    group.get('color').valueChanges.subscribe(color => this.applySelectedColor(group, color));
+    return group;
+  }
+
+  isCustomColor(mapping: AbstractControl): boolean {
+    const hex = mapping.get('hex').value;
+    return Boolean(hex && !this.crayolaColors.some(item =>
+      item.hex.toUpperCase() === String(hex).toUpperCase()));
+  }
+
+  private applySelectedColor(mapping: AbstractControl, color: string): void {
+    const match = this.crayolaColors.find(item => item.color === color);
+    if (match) { mapping.get('hex').setValue(match.hex, { emitEvent: false }); }
+  }
+
+  private syncAllColorMappings(): void {
+    this.colorSchemes.controls.forEach(scheme => {
+      const mappings = scheme.get('mapping') as FormArray;
+      mappings.controls.forEach(mapping => {
+        const hex = String(mapping.get('hex').value || '').toUpperCase();
+        const match = this.crayolaColors.find(item => item.hex.toUpperCase() === hex);
+        if (match) {
+          mapping.get('color').setValue(match.color, { emitEvent: false });
+          this.applySelectedColor(mapping, match.color);
+        }
+      });
     });
   }
 
@@ -148,6 +263,27 @@ export class PuzzleFormComponent implements OnInit {
 
   get sections(): FormArray {
     return this.form.get('body.dot_guide.sections') as FormArray;
+  }
+
+  get collectionBreadcrumbItems(): FormArray {
+    return this.form.get('collection.header.breadcrumb_json_ld.items') as FormArray;
+  }
+
+  get puzzleFaqs(): FormArray { return this.form.get('body.faqs') as FormArray; }
+  get collectionFaqs(): FormArray { return this.form.get('collection.body.faqs') as FormArray; }
+
+  addPuzzleFaq(): void { this.puzzleFaqs.push(this.buildFaq()); }
+  removePuzzleFaq(index: number): void { this.puzzleFaqs.removeAt(index); }
+  addCollectionFaq(): void { this.collectionFaqs.push(this.buildFaq()); }
+  removeCollectionFaq(index: number): void { this.collectionFaqs.removeAt(index); }
+
+  private rebuildFaqs(target: FormArray, faqs: Array<{ q: string; a: string }> = []): void {
+    while (target.length) { target.removeAt(0); }
+    (faqs || []).forEach(faq => {
+      const group = this.buildFaq();
+      group.patchValue(faq);
+      target.push(group);
+    });
   }
 
   get colorSchemes(): FormArray {
@@ -192,22 +328,31 @@ export class PuzzleFormComponent implements OnInit {
     return c.invalid && (c.touched || this.submitted);
   }
 
+  fieldError(controlPath: string): string {
+    const control = this.form.get(controlPath);
+    if (!control || !control.errors) { return ''; }
+    const rule = Object.keys(control.errors)[0];
+    return this.validationMessage(rule, control.errors[rule]);
+  }
+
   // -------------------------------------------------------------------
   // Generate + download
   // -------------------------------------------------------------------
 
   onGenerate(): void {
-    if (!this.validateForm(false)) {
+    if (!this.validateForm(false, false)) {
       this.generatedJson = null;
       return;
     }
 
     const entry = this.snapshotWithStatus('submitted');
+    this.recordAudit('save', 'human');
     this.generatedJson = JSON.stringify(entry, null, 2);
-    this.versionSaved.emit({ status: 'submitted', data: entry });
+    this.versionSaved.emit({ status: 'submitted', data: entry, entrySlug: this.currentEntrySlug() });
   }
 
-  validateForm(saveVersion = true): boolean {
+  validateForm(saveVersion = true, writeAudit = true, trigger: AuditTrigger = 'human'): boolean {
+    if (writeAudit) { this.recordAudit('validate', trigger); }
     this.submitted = true;
     this.refreshValidity(this.form);
     this.validationIssues = this.collectControlIssues(this.form)
@@ -224,7 +369,7 @@ export class PuzzleFormComponent implements OnInit {
       return false;
     }
     if (saveVersion) {
-      this.versionSaved.emit({ status: 'validated', data: this.snapshotWithStatus('validated') });
+      this.versionSaved.emit({ status: 'validated', data: this.snapshotWithStatus('validated'), entrySlug: this.currentEntrySlug() });
     }
     return true;
   }
@@ -241,14 +386,65 @@ export class PuzzleFormComponent implements OnInit {
   }
 
   saveDraft(): void {
-    this.versionSaved.emit({ status: 'draft', data: this.snapshotWithStatus('draft') });
+    this.recordAudit('save', 'human');
+    this.versionSaved.emit({ status: 'draft', data: this.snapshotWithStatus('draft'), entrySlug: this.currentEntrySlug() });
+  }
+
+  async submitAsAutomation(options: { action?: AuditAction; dryRun?: boolean } = {}): Promise<AuditEntry & { valid?: boolean }> {
+    const action = options.action || 'validate';
+    const dryRun = Boolean(options.dryRun);
+    const entry = this.createAuditEntry(action, 'automated');
+    let valid: boolean = undefined;
+    if (action === 'validate') {
+      valid = this.validateForm(!dryRun, false, 'automated');
+    } else if (!dryRun) {
+      this.versionSaved.emit({ status: 'draft', data: this.snapshotWithStatus('draft'), entrySlug: this.currentEntrySlug() });
+    }
+    if (!dryRun) { await this.auditLog.append(entry); }
+    return valid === undefined ? entry : { ...entry, valid };
+  }
+
+  private recordAudit(action: AuditAction, trigger: AuditTrigger): void {
+    void this.auditLog.append(this.createAuditEntry(action, trigger));
+  }
+
+  private createAuditEntry(action: AuditAction, trigger: AuditTrigger): AuditEntry {
+    return {
+      timestamp: new Date().toISOString(),
+      action,
+      trigger,
+      entry_id: this.currentEntrySlug() || 'untitled',
+      entry_type: this.collectionOnly ? 'collection' : 'puzzle',
+      changes: this.auditLog.diff(this.loadedAuditSnapshot, this.currentEditableValue())
+    };
+  }
+
+  private currentEditableValue(): any {
+    if (!this.form) { return {}; }
+    const raw = this.form.getRawValue();
+    return JSON.parse(JSON.stringify(this.collectionOnly ? raw.collection : this.puzzleValue(raw)));
+  }
+
+  private currentEntrySlug(): string {
+    return this.collectionOnly
+      ? this.form.get('collection.body.slug').value
+      : (this.loadedSlug || this.form.get('slug').value);
   }
 
   private snapshotWithStatus(status: EntryStatus): any {
-    return {
-      ...this.form.getRawValue(),
-      _cms: { status, savedAt: new Date().toISOString() }
-    };
+    const raw = this.form.getRawValue();
+    const puzzle = this.puzzleValue(raw);
+    const entrySlug = this.collectionOnly ? raw.collection.body.slug : puzzle.slug;
+    const cms = { status, savedAt: new Date().toISOString(), entrySlug };
+    if (!this.collectionDocument) { return { ...puzzle, _cms: cms }; }
+    const puzzles = this.collectionOnly
+      ? this.collectionDocument.puzzles
+      : this.collectionDocument.puzzles.map(entry => entry.slug === this.loadedSlug ? puzzle : entry);
+    return { collection: raw.collection, puzzles, _cms: cms };
+  }
+
+  private puzzleValue(raw: any): PuzzleEntry {
+    return { slug: raw.slug, header: raw.header, body: raw.body };
   }
 
   hasUnsavedChanges(): boolean {
@@ -256,7 +452,11 @@ export class PuzzleFormComponent implements OnInit {
   }
 
   markSaved(snapshot?: any): void {
-    if (!snapshot || JSON.stringify(this.form.getRawValue()) === JSON.stringify(this.withoutCms(snapshot))) {
+    const raw = this.form.getRawValue();
+    const editable = this.collectionOnly
+      ? { collection: raw.collection }
+      : (this.collectionDocument ? { collection: raw.collection, ...this.puzzleValue(raw) } : this.puzzleValue(raw));
+    if (!snapshot || JSON.stringify(editable) === JSON.stringify(this.withoutCms(snapshot))) {
       this.form.markAsPristine();
     }
   }
@@ -265,6 +465,11 @@ export class PuzzleFormComponent implements OnInit {
     const clean = JSON.parse(JSON.stringify(snapshot || {}));
     delete clean._cms;
     delete clean.status;
+    if (clean.collection && Array.isArray(clean.puzzles)) {
+      if (this.collectionOnly) { return { collection: clean.collection }; }
+      const entry = clean.puzzles.find(item => item.slug === this.loadedSlug) || clean.puzzles[0];
+      return { collection: clean.collection, ...entry };
+    }
     return clean;
   }
 
@@ -337,7 +542,8 @@ export class PuzzleFormComponent implements OnInit {
       case 'blocklist': return `Child-safety review: remove ${payload.join(', ')}.`;
       case 'slugFormat': return 'Use lowercase letters, numbers, and single hyphens only.';
       case 'slugTaken': return 'This slug already exists. Choose a unique slug.';
-      case 'imageUrl': return 'Enter a full HTTP(S) image URL with a supported image extension.';
+      case 'imagePath': return 'Use a root-relative image path such as /images/flowers/example.webp.';
+      case 'pattern': return 'Use the required fixed value or root-relative path format.';
       case 'hexColor': return 'Use a six-digit hex color such as #FAA76C.';
       case 'dotRange': return 'Use a numeric range such as 1–15.';
       default: return `Invalid value (${rule}).`;
@@ -421,13 +627,15 @@ export class PuzzleFormComponent implements OnInit {
     const url = window.URL.createObjectURL(blob);
     const a = document.createElement('a');
     a.href = url;
-    a.download = `${slug}.json`;
+    a.download = this.collectionDocument ? `puzzles-${this.form.get('collection.body.slug').value}.json` : `${slug}.json`;
     a.click();
     window.URL.revokeObjectURL(url);
   }
 
   resetForm(): void {
     this.loadedSlug = null;
+    this.collectionDocument = null;
+    this.collectionOnly = false;
     this.form = this.buildForm();
     this.generatedJson = null;
     this.submitted = false;
@@ -436,6 +644,7 @@ export class PuzzleFormComponent implements OnInit {
     this.validationIssues = [];
     this.importError = null;
     this.form.markAsPristine();
+    this.loadedAuditSnapshot = this.currentEditableValue();
   }
 
   // -------------------------------------------------------------------
@@ -470,13 +679,33 @@ export class PuzzleFormComponent implements OnInit {
   }
 
   /** Shared population pipeline used by file, paste, and sidebar imports. */
-  loadImportedJson(parsed: any): void {
+  loadImportedJson(parsed: any, selectedSlug?: string, collectionOnly = false): void {
     this.importError = null;
-    const raw = Array.isArray(parsed) ? parsed[0] : parsed;
+    const isCollection = parsed && !Array.isArray(parsed) && parsed.collection && Array.isArray(parsed.puzzles);
+    const raw = isCollection
+      ? (parsed.puzzles.find(entry => entry.slug === selectedSlug) || parsed.puzzles[0])
+      : (Array.isArray(parsed) ? parsed[0] : parsed);
     if (!raw) {
       this.importError = 'No entry found to import.';
       return;
     }
+    this.collectionDocument = isCollection ? this.withoutDocumentCms(parsed) : null;
+    this.collectionOnly = isCollection && collectionOnly;
+    const collectionControl = this.form.get('collection');
+    if (isCollection) {
+      collectionControl.patchValue(parsed.collection);
+      this.rebuildFaqs(this.collectionFaqs, parsed.collection.body?.faqs || []);
+      if (this.collectionOnly) { collectionControl.enable({ emitEvent: false }); }
+      else { collectionControl.disable({ emitEvent: false }); }
+    } else {
+      collectionControl.reset();
+      collectionControl.disable({ emitEvent: false });
+    }
+    ['slug', 'header', 'body'].forEach(path => {
+      const control = this.form.get(path);
+      if (this.collectionOnly) { control.disable({ emitEvent: false }); }
+      else { control.enable({ emitEvent: false }); }
+    });
     const entry = this.normalizeEntry(raw);
     this.loadedSlug = entry.slug || null;
     this.patchFormWithEntry(entry);
@@ -486,6 +715,14 @@ export class PuzzleFormComponent implements OnInit {
     this.invalidFieldCount = 0;
     this.validationIssues = [];
     this.form.markAsPristine();
+    this.loadedAuditSnapshot = this.currentEditableValue();
+  }
+
+  private withoutDocumentCms(document: any): CollectionDocument {
+    const clean = JSON.parse(JSON.stringify(document));
+    delete clean._cms;
+    delete clean.status;
+    return clean;
   }
 
   /** Converts the legacy flat schema to header/body shape if needed. */
@@ -519,6 +756,7 @@ export class PuzzleFormComponent implements OnInit {
         tagline: raw.tagline || '',
         description: raw.description || '',
         fun_fact: raw.funFact || '',
+        faqs: raw.faqs || [],
         dot_guide: {
           intro: dg.intro || '',
           sections: dg.sections || [],
@@ -550,6 +788,7 @@ export class PuzzleFormComponent implements OnInit {
         }
       }
     });
+    this.rebuildFaqs(this.puzzleFaqs, entry.body.faqs || []);
 
     // Rebuild sections FormArray to match imported data
     const sectionsArray = this.sections;
@@ -582,5 +821,6 @@ export class PuzzleFormComponent implements OnInit {
       }
       schemesArray.push(schemeGroup);
     });
+    this.syncAllColorMappings();
   }
 }
