@@ -11,3 +11,6 @@ generator/dot2dot-form-angular8/playwright-report/
 generator/dot2dot-form-angular8/.codex-*.log
 content/*/converted/
 generator/dot2dot-form-angular8/src/assets/content/
+
+# Audit db artifacts (generated)
+generator/mapping-check/*.db

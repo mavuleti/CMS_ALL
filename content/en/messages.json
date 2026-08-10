@@ -9,19 +9,6 @@
     "freePack": "Free pack",
     "scanMe": "Scan me"
   },
-  "hero": {
-    "badge": "100% free · no account needed",
-    "h1": "Free Dot to Dot Printables for Kids — Connect the Dots Worksheets",
-    "description": "Download free connect-the-dots worksheets for preschool (nursery/reception) and kindergarten (prep in Australia) through elementary school — for the US, UK, Canada, and Australia, including UK EYFS settings. From simple 38-dot starter pages to 130+ dot challenges, covering animals, dinosaurs, vehicles, and holiday themes — print-ready in seconds with no sign-up required.",
-    "browsePuzzles": "Browse free puzzles",
-    "starterPack": "Get 20-puzzle starter pack",
-    "stat1Value": "Well-validated",
-    "stat1Label": "free printable puzzles",
-    "stat2Value": "Ages 2–12",
-    "stat2Label": "all skill levels",
-    "stat3Value": "100%",
-    "stat3Label": "free, forever"
-  },
   "audience": {
     "kidsTitle": "For kids",
     "kidsText": "Friendly animal, dinosaur, and vehicle themes with clear numbered dots. Easy wins that build real confidence.",
@@ -106,6 +93,12 @@
       "circus": {
         "name": "Circus",
         "description": "Ringmasters, big tops, and showtime fun for young learners."
+      },
+      "canada": {
+        "name": "Canada"
+      },
+      "flowers": {
+        "name": "Flowers"
       }
     }
   },
@@ -297,7 +290,6 @@
     "corrections": "A misnumbered dot, a printing problem, a translation that reads oddly — report it and we will fix the page.",
     "licensingTitle": "Classroom and licensing questions.",
     "licensing": "Personal and classroom printing is already free. For anything beyond that — republishing, bundling, or commercial use — ask first.",
-    "termsLink": "terms of use",
     "licensingNote": "(see our <link>terms of use</link>).",
     "feedbackTitle": "Feedback.",
     "feedback": "What works, what doesn't, what you would like more of.",
@@ -474,44 +466,11 @@
     "relatedEyebrow": "Free printables",
     "relatedHeading": "Try these dot to dot collections next"
   },
-  "searchPage": {
-    "eyebrow": "For Teachers & Parents",
-    "h1": "Find the Perfect Puzzle",
-    "description": "Search by name, filter by topic or number of dots, or browse what's been recently added — all free to print, no sign-up needed."
-  },
   "puzzleSearch": {
-    "placeholder": "Search by name or topic... e.g. ocean, whale, T-Rex",
     "searchAria": "Search puzzles",
-    "clearSearch": "Clear search",
-    "toggleFilters": "Toggle filters",
-    "filters": "Filters",
-    "filterOptions": "Filter options",
-    "topic": "Topic",
-    "numberOfDots": "Number of dots",
-    "recentlyAddedOnly": "Recently added only",
-    "clearAllFilters": "Clear all filters",
-    "clearFilters": "Clear filters",
     "resultsFound": "{count, plural, one {# puzzle found} other {# puzzles found}}",
-    "puzzlesAvailable": "{count, plural, one {# puzzle available} other {# puzzles available}}",
     "noMatches": "No puzzles matched your search.",
-    "openPuzzle": "Open {name}",
-    "imageAlt": "{name} dot to dot printable",
-    "viewPuzzle": "View puzzle →",
-    "dotRanges": {
-      "under35": "Under 35 dots",
-      "35to50": "35-50 dots",
-      "51to70": "51-70 dots",
-      "over70": "70+ dots"
-    },
-    "categories": {
-      "Dinosaurs": "Dinosaurs",
-      "Ocean": "Ocean",
-      "Playgrounds": "Playgrounds",
-      "Garden": "Garden",
-      "Cute": "Cute",
-      "USA 250 Years": "America 250 Years",
-      "UAE": "UAE"
-    }
+    "imageAlt": "{name} dot to dot printable"
   },
   "newsletterForm": {
     "ariaLabel": "Get the free dot to dot printable pack",
@@ -569,22 +528,7 @@
   },
   "languageSwitcher": {
     "label": "Language",
-    "selectLabel": "Select language",
-    "en": "English",
-    "fr": "Français",
-    "es": "Español",
-    "de": "Deutsch",
-    "pt": "Português",
-    "it": "Italiano",
-    "nl": "Nederlands",
-    "sv": "Svenska",
-    "no": "Norsk",
-    "pl": "Polski",
-    "da": "Dansk",
-    "fi": "Suomi",
-    "cs": "Čeština",
-    "hu": "Magyar",
-    "ro": "Română"
+    "selectLabel": "Select language"
   },
   "shareButtons": {
     "label": "Share",
@@ -726,11 +670,5 @@
     "slugH1Suffix": "Dot-to-Dot Printable",
     "backToList": "Back to Space puzzles",
     "openAria": "Open {name} dot-to-dot"
-  },
-  "usa250HouseAd": {
-    "ariaLabel": "Featured America 250 dot to dot printables",
-    "eyebrow": "Featured",
-    "heading": "America 250 printables",
-    "imageAlt": "{name} dot to dot printable"
   }
 }

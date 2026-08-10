@@ -20,7 +20,7 @@ straight to the section they need to fix.
 |------------------|------------------------------------|---------------------------------|
 | `seoTitle`       | `header.title`                     | `<title>` tag                   |
 | `seoDescription` | `header.meta_description`          | `<meta name="description">`     |
-| `seoImageAlt`    | `header.og.image_alt`              | Open Graph image alt text       |
+| `seoImageAlt`    | `header.og.image_alt`              | Open Graph image alt **and** the visible puzzle `<img alt>` on the page (same stored value serves both — see `ui-app/lib/converted-content.ts` + `puzzleImageAlt()`) |
 | —                | `header.og.title` / `.description` | Open Graph tags (new)           |
 | —                | `header.json_ld.*`                 | JSON-LD structured data (new)   |
 | `seoH1`          | `body.h1`                          | `<h1>` tag                      |
