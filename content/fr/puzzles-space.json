@@ -1,188 +1,294 @@
-[
-  {
-    "slug": "crescent-moon-dot-to-dot-puzzle",
+{
+  "collection": {
     "header": {
-      "title": "",
-      "meta_description": "",
+      "title": "Free Space Dot-to-Dot Printables for Kids",
+      "meta_description": "Download free space dot-to-dot worksheets for kids, including UFOs, rockets, planets, and more.",
       "og": {
-        "title": "",
-        "description": "",
-        "image_alt": ""
+        "title": "Free Space Dot-to-Dot Printables for Kids",
+        "description": "Download free space dot-to-dot worksheets for kids, including UFOs, rockets, planets, and more.",
+        "image": "/images/space-rover-puzzle.webp"
       },
       "json_ld": {
-        "type": "CreativeWork",
+        "type": "CollectionPage",
+        "name": "Espace",
+        "description": "Décollez avec des fiches d'activités gratuites de points à relier sur le thème de l'espace. Imprimez un casse-tête de rover amical aujourd'hui, avec plus de fusées, de planètes et d'aventures cosmiques à venir bientôt.",
+        "image": "/images/space-rover-puzzle.webp",
+        "main_entity": {
+          "type": "ItemList",
+          "item_source": "puzzles"
+        }
+      },
+      "breadcrumb_json_ld": {
+        "type": "BreadcrumbList",
+        "items": [
+          {
+            "position": 1,
+            "name": "Home",
+            "path": "/"
+          },
+          {
+            "position": 2,
+            "name": "Espace",
+            "path": "/space/"
+          }
+        ]
+      }
+    },
+    "body": {
+      "h1": "Imprimables de points à relier sur le thème de l'espace pour les enfants",
+      "name": "Espace",
+      "tagline": "{count, plural, one {# casse-tête imprimable gratuit} other {# casse-têtes imprimables gratuits}}",
+      "description": "Décollez avec des fiches d'activités gratuites de points à relier sur le thème de l'espace. Imprimez un casse-tête de rover amical aujourd'hui, avec plus de fusées, de planètes et d'aventures cosmiques à venir bientôt.",
+      "hero_image": "/images/space-rover-puzzle.webp",
+      "slug": "space",
+      "faqs": [
+        {
+          "q": "Tous les dessins à relier à imprimer sur ce site sont-ils entièrement gratuits ?",
+          "a": "Oui, toutes les fiches d'exercices de points à relier sur DotToDotFreePrintables.com sont entièrement gratuites à télécharger et à imprimer. Aucun compte, abonnement ou carte de crédit n'est requis."
+        },
+        {
+          "q": "À quel âge les feuilles d'exercices de points à relier conviennent-elles ?",
+          "a": "Nos documents imprimables couvrent les âges de 2 à 12 ans. Les fiches faciles (10 à 20 points) conviennent aux tout-petits et aux enfants de petite et moyenne section de maternelle, les fiches moyennes (20 à 50 points) sont idéales pour la grande section et le CP, et les fiches plus difficiles (50 à plus de 200 points) mettent au défi les élèves du CE1 au CM2."
+        },
+        {
+          "q": "Quel est le format des fiches à imprimer « relier les points » ?",
+          "a": "Tous les exercices sont téléchargeables au format PDF prêt à imprimer, au format A4 standard. Ouvrez-les dans n'importe quel navigateur ou lecteur PDF et imprimez-les ; aucun logiciel spécifique n'est requis."
+        },
+        {
+          "q": "Les enseignants peuvent-ils utiliser ces feuilles de travail de points à relier en classe ?",
+          "a": "Oui ! Nos documents imprimables sont gratuits pour un usage personnel et scolaire. Ils sont très appréciés pour les activités du matin, les activités pour les élèves qui terminent rapidement, les plans de cours pour les remplaçants, les ateliers de motricité fine et les devoirs à la maison."
+        }
+      ]
+    }
+  },
+  "puzzles": [
+    {
+      "slug": "crescent-moon-dot-to-dot-puzzle",
+      "header": {
+        "title": "",
+        "meta_description": "",
+        "og": {
+          "title": "",
+          "description": "",
+          "image_alt": ""
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Lune croissante",
+          "description": "",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
+      },
+      "body": {
+        "h1": "",
         "name": "Lune croissante",
-        "description": "",
-        "image": "",
-        "educational_use": "Fine motor skills, number sequencing",
-        "age_range": ""
-      }
-    },
-    "body": {
-      "h1": "",
-      "name": "Lune croissante",
-      "tagline": "Tracez un éclat scintillant du ciel nocturne !",
-      "description": "Reliez 60 points faciles pour révéler une belle lune croissante brillant dans le ciel nocturne. Cette fiche imprimable gratuite aide les enfants à pratiquer la séquence des nombres, le suivi visuel, la concentration et la maîtrise fluide du crayon.",
-      "fun_fact": "Une lune croissante apparaît lorsque la lumière du soleil n'éclaire qu'une fine partie courbe de la Lune visible depuis la Terre.",
-      "dot_guide": {
-        "intro": "Une mince lune croissante est l'une des formes les plus reconnaissables du ciel nocturne. Ce puzzle convivial de 60 points construit sa courbe extérieure, ses pointes effilées et son arc intérieur en cinq étapes gérables. Trouvez le point 1 et laissez votre lune commencer à briller !",
-        "sections": [
+        "tagline": "Tracez un éclat scintillant du ciel nocturne !",
+        "description": "Reliez 60 points faciles pour révéler une belle lune croissante brillant dans le ciel nocturne. Cette fiche imprimable gratuite aide les enfants à pratiquer la séquence des nombres, le suivi visuel, la concentration et la maîtrise fluide du crayon.",
+        "fun_fact": "Une lune croissante apparaît lorsque la lumière du soleil n'éclaire qu'une fine partie courbe de la Lune visible depuis la Terre.",
+        "faqs": [
           {
-            "range": "1–12",
-            "title": "La pointe supérieure de la lune",
-            "learn": "Reliez les points 1 à 12 pour former la pointe étroite supérieure de la lune croissante.",
-            "fact": "La Lune ne produit pas sa propre lumière ; elle brille en réfléchissant la lumière du soleil."
+            "q": "À quel âge s'adresse le puzzle point à point Lune croissante ?",
+            "a": "Il est conçu pour les Âges 4 - 8. Avec 60 points, il convient aux enfants qui savent compter avec assurance jusqu'à 60 ; les plus jeunes peuvent le terminer avec un peu d'aide."
           },
           {
-            "range": "13–24",
-            "title": "La courbe extérieure",
-            "learn": "Continuez du point 13 au point 24 le long de la large courbe extérieure de la Lune.",
-            "fact": "La gravité a rendu la Lune presque ronde, tout comme elle rend les planètes rondes."
+            "q": "Comment imprimer la fiche Lune croissante ?",
+            "a": "Cliquez sur le bouton de téléchargement pour obtenir le PDF gratuit, puis imprimez-le sur du papier ordinaire (A4 ou US Letter) depuis n'importe quel navigateur ou lecteur PDF. Aucun logiciel particulier n'est nécessaire."
           },
           {
-            "range": "25–36",
-            "title": "L'extrémité inférieure de la Lune",
-            "learn": "Suivez les points 25 à 36 pour former l'extrémité inférieure et tournez vers la courbe intérieure.",
-            "fact": "La surface de la Lune est couverte de cratères formés par des impacts de roches sur des milliards d'années."
-          },
-          {
-            "range": "37–48",
-            "title": "Le croissant intérieur",
-            "learn": "Tracez les points 37 à 48 le long de l'arc intérieur, en gardant votre trait de crayon régulier.",
-            "fact": "La Lune met environ 29,5 jours pour parcourir un cycle complet de phases."
-          },
-          {
-            "range": "49–60",
-            "title": "L'éclat et le fini",
-            "learn": "Terminez avec les points 49 à 60 pour fermer la croissant et ajouter ses derniers détails.",
-            "fact": "Les gens du monde entier voient la même Lune, bien que son croissant puisse apparaître incliné différemment selon l'endroit où l'on se trouve."
+            "q": "La fiche imprimable Lune croissante est-elle vraiment gratuite ?",
+            "a": "Oui — elle est 100 % gratuite, sans inscription, compte ni paiement. Vous pouvez l'imprimer pour la maison ou la classe."
           }
         ],
-        "outro": "Magnifique travail—votre lune en croissant brille ! Ajoutez des étoiles, des nuages endormis ou une fusée traversant le ciel, puis découvrez le <a href=\"/space/ringed-planet-dot-to-dot-puzzle/\">puzzle de la planète annulaire</a>.",
-        "color_schemes": []
+        "dot_guide": {
+          "intro": "Une mince lune croissante est l'une des formes les plus reconnaissables du ciel nocturne. Ce puzzle convivial de 60 points construit sa courbe extérieure, ses pointes effilées et son arc intérieur en cinq étapes gérables. Trouvez le point 1 et laissez votre lune commencer à briller !",
+          "sections": [
+            {
+              "range": "1–12",
+              "title": "La pointe supérieure de la lune",
+              "learn": "Reliez les points 1 à 12 pour former la pointe étroite supérieure de la lune croissante.",
+              "fact": "La Lune ne produit pas sa propre lumière ; elle brille en réfléchissant la lumière du soleil."
+            },
+            {
+              "range": "13–24",
+              "title": "La courbe extérieure",
+              "learn": "Continuez du point 13 au point 24 le long de la large courbe extérieure de la Lune.",
+              "fact": "La gravité a rendu la Lune presque ronde, tout comme elle rend les planètes rondes."
+            },
+            {
+              "range": "25–36",
+              "title": "L'extrémité inférieure de la Lune",
+              "learn": "Suivez les points 25 à 36 pour former l'extrémité inférieure et tournez vers la courbe intérieure.",
+              "fact": "La surface de la Lune est couverte de cratères formés par des impacts de roches sur des milliards d'années."
+            },
+            {
+              "range": "37–48",
+              "title": "Le croissant intérieur",
+              "learn": "Tracez les points 37 à 48 le long de l'arc intérieur, en gardant votre trait de crayon régulier.",
+              "fact": "La Lune met environ 29,5 jours pour parcourir un cycle complet de phases."
+            },
+            {
+              "range": "49–60",
+              "title": "L'éclat et le fini",
+              "learn": "Terminez avec les points 49 à 60 pour fermer la croissant et ajouter ses derniers détails.",
+              "fact": "Les gens du monde entier voient la même Lune, bien que son croissant puisse apparaître incliné différemment selon l'endroit où l'on se trouve."
+            }
+          ],
+          "outro": "Magnifique travail—votre lune en croissant brille ! Ajoutez des étoiles, des nuages endormis ou une fusée traversant le ciel, puis découvrez le <a href=\"/space/ringed-planet-dot-to-dot-puzzle/\">puzzle de la planète annulaire</a>.",
+          "color_schemes": []
+        }
       }
-    }
-  },
-  {
-    "slug": "ringed-planet-dot-to-dot-puzzle",
-    "header": {
-      "title": "",
-      "meta_description": "",
-      "og": {
+    },
+    {
+      "slug": "ringed-planet-dot-to-dot-puzzle",
+      "header": {
         "title": "",
-        "description": "",
-        "image_alt": ""
+        "meta_description": "",
+        "og": {
+          "title": "",
+          "description": "",
+          "image_alt": ""
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Planète annulaire",
+          "description": "",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
       },
-      "json_ld": {
-        "type": "CreativeWork",
+      "body": {
+        "h1": "",
         "name": "Planète annulaire",
-        "description": "",
-        "image": "",
-        "educational_use": "Fine motor skills, number sequencing",
-        "age_range": ""
-      }
-    },
-    "body": {
-      "h1": "",
-      "name": "Planète annulaire",
-      "tagline": "Dessinez un Monde Enveloppé d'Anneaux Brillants !",
-      "description": "Reliez 43 points faciles pour révéler une belle planète annulaire flottant dans l'espace. Cette fiche imprimable gratuite aide les jeunes enfants à pratiquer l'ordre des nombres, le suivi visuel, la concentration et le contrôle stable du crayon.",
-      "fun_fact": "Les anneaux de Saturne sont composés d'innombrables morceaux de glace et de roche, allant de fines particules à des blocs aussi grands que des maisons.",
-      "dot_guide": {
-        "intro": "Loin au-delà de la Terre, une géante planétaire tourne tandis que de larges anneaux l'entourent. Ce puzzle amical à 43 points crée la planète et ses anneaux en quatre étapes courtes, ce qui en fait un premier défi spatial amusant. Trouvez le point 1 et commencez votre voyage !",
-        "sections": [
+        "tagline": "Dessinez un Monde Enveloppé d'Anneaux Brillants !",
+        "description": "Reliez 43 points faciles pour révéler une belle planète annulaire flottant dans l'espace. Cette fiche imprimable gratuite aide les jeunes enfants à pratiquer l'ordre des nombres, le suivi visuel, la concentration et le contrôle stable du crayon.",
+        "fun_fact": "Les anneaux de Saturne sont composés d'innombrables morceaux de glace et de roche, allant de fines particules à des blocs aussi grands que des maisons.",
+        "faqs": [
           {
-            "range": "1–11",
-            "title": "Le sommet de la planète",
-            "learn": "Reliez les points 1 à 11 pour dessiner le bord supérieur incurvé de la planète lointaine.",
-            "fact": "Les planètes ont une forme sphérique parce que la gravité attire leur matière vers le centre depuis toutes les directions."
+            "q": "À quel âge s'adresse le puzzle point à point Planète annulaire ?",
+            "a": "Il est conçu pour les Âges 4 - 7. Avec 43 points, il convient aux enfants qui savent compter avec assurance jusqu'à 43 ; les plus jeunes peuvent le terminer avec un peu d'aide."
           },
           {
-            "range": "12–22",
-            "title": "Le premier anneau",
-            "learn": "Continuez du point 12 au point 22 pour tracer le premier large arc du système d'anneaux.",
-            "fact": "Saturne possède des milliers de fines bandes annulaires qui ressemblent à plusieurs anneaux larges lorsqu'on les observe de loin."
+            "q": "Comment imprimer la fiche Planète annulaire ?",
+            "a": "Cliquez sur le bouton de téléchargement pour obtenir le PDF gratuit, puis imprimez-le sur du papier ordinaire (A4 ou US Letter) depuis n'importe quel navigateur ou lecteur PDF. Aucun logiciel particulier n'est nécessaire."
           },
           {
-            "range": "23–33",
-            "title": "La courbe inférieure de la planète",
-            "learn": "Suivez les points 23 à 33 autour de la moitié inférieure de la planète, en gardant la courbe régulière.",
-            "fact": "Saturne est une géante gazeuse composée principalement d'hydrogène et d'hélium, les deux éléments les plus légers."
-          },
-          {
-            "range": "34–43",
-            "title": "Les anneaux et la finition",
-            "learn": "Terminez avec les points 34 à 43 pour compléter les anneaux en courbe de l'autre côté.",
-            "fact": "Les anneaux de Saturne sont très larges mais étonnamment fins par rapport à la taille de la planète."
+            "q": "La fiche imprimable Planète annulaire est-elle vraiment gratuite ?",
+            "a": "Oui — elle est 100 % gratuite, sans inscription, compte ni paiement. Vous pouvez l'imprimer pour la maison ou la classe."
           }
         ],
-        "outro": "Magnifique travail—votre planète annulaire orbite parmi les étoiles ! Ajoutez des lunes, un vaisseau spatial et des nuages colorés, puis continuez votre exploration avec le <a href=\"/space/space-rover-dot-to-dot-puzzle/\">puzzle du rover spatial</a>.",
-        "color_schemes": []
+        "dot_guide": {
+          "intro": "Loin au-delà de la Terre, une géante planétaire tourne tandis que de larges anneaux l'entourent. Ce puzzle amical à 43 points crée la planète et ses anneaux en quatre étapes courtes, ce qui en fait un premier défi spatial amusant. Trouvez le point 1 et commencez votre voyage !",
+          "sections": [
+            {
+              "range": "1–11",
+              "title": "Le sommet de la planète",
+              "learn": "Reliez les points 1 à 11 pour dessiner le bord supérieur incurvé de la planète lointaine.",
+              "fact": "Les planètes ont une forme sphérique parce que la gravité attire leur matière vers le centre depuis toutes les directions."
+            },
+            {
+              "range": "12–22",
+              "title": "Le premier anneau",
+              "learn": "Continuez du point 12 au point 22 pour tracer le premier large arc du système d'anneaux.",
+              "fact": "Saturne possède des milliers de fines bandes annulaires qui ressemblent à plusieurs anneaux larges lorsqu'on les observe de loin."
+            },
+            {
+              "range": "23–33",
+              "title": "La courbe inférieure de la planète",
+              "learn": "Suivez les points 23 à 33 autour de la moitié inférieure de la planète, en gardant la courbe régulière.",
+              "fact": "Saturne est une géante gazeuse composée principalement d'hydrogène et d'hélium, les deux éléments les plus légers."
+            },
+            {
+              "range": "34–43",
+              "title": "Les anneaux et la finition",
+              "learn": "Terminez avec les points 34 à 43 pour compléter les anneaux en courbe de l'autre côté.",
+              "fact": "Les anneaux de Saturne sont très larges mais étonnamment fins par rapport à la taille de la planète."
+            }
+          ],
+          "outro": "Magnifique travail—votre planète annulaire orbite parmi les étoiles ! Ajoutez des lunes, un vaisseau spatial et des nuages colorés, puis continuez votre exploration avec le <a href=\"/space/space-rover-dot-to-dot-puzzle/\">puzzle du rover spatial</a>.",
+          "color_schemes": []
+        }
       }
-    }
-  },
-  {
-    "slug": "space-rover-dot-to-dot-puzzle",
-    "header": {
-      "title": "",
-      "meta_description": "",
-      "og": {
+    },
+    {
+      "slug": "space-rover-dot-to-dot-puzzle",
+      "header": {
         "title": "",
-        "description": "",
-        "image_alt": ""
+        "meta_description": "",
+        "og": {
+          "title": "",
+          "description": "",
+          "image_alt": ""
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Rover spatial",
+          "description": "",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
       },
-      "json_ld": {
-        "type": "CreativeWork",
+      "body": {
+        "h1": "",
         "name": "Rover spatial",
-        "description": "",
-        "image": "",
-        "educational_use": "Fine motor skills, number sequencing",
-        "age_range": ""
-      }
-    },
-    "body": {
-      "h1": "",
-      "name": "Rover spatial",
-      "tagline": "Un explorateur amical sur roues",
-      "description": "Reliez 59 points pour révéler un rover spatial amical prêt à explorer un autre monde. Ce puzzle gratuit à imprimer aide les enfants à pratiquer l'ordre des nombres, la concentration et le contrôle du crayon.",
-      "fun_fact": "Les rovers spatiaux sont des véhicules robotisés qui explorent les surfaces de mondes tels que la Lune et Mars.",
-      "dot_guide": {
-        "intro": "Prêt pour un voyage au-delà de la Terre ? Suivez les numéros de 1 à 59 et regardez apparaître un rover spatial amical. Avancez lentement, vérifiez chaque numéro et gardez vos traits de crayon nets tandis que vous contournez le véhicule.",
-        "sections": [
+        "tagline": "Un explorateur amical sur roues",
+        "description": "Reliez 59 points pour révéler un rover spatial amical prêt à explorer un autre monde. Ce puzzle gratuit à imprimer aide les enfants à pratiquer l'ordre des nombres, la concentration et le contrôle du crayon.",
+        "fun_fact": "Les rovers spatiaux sont des véhicules robotisés qui explorent les surfaces de mondes tels que la Lune et Mars.",
+        "faqs": [
           {
-            "range": "1–12",
-            "title": "Le corps du rover",
-            "learn": "Commencez au point 1 et reliez jusqu'au point 12 pour tracer l'avant sympathique et le corps robuste du rover.",
-            "fact": "Les rovers planétaires embarquent des ordinateurs, des caméras et des outils scientifiques à l'intérieur d'un corps résistant."
+            "q": "À quel âge s'adresse le puzzle point à point Rover spatial ?",
+            "a": "Il est conçu pour les Âges 4 - 8. Avec 59 points, il convient aux enfants qui savent compter avec assurance jusqu'à 59 ; les plus jeunes peuvent le terminer avec un peu d'aide."
           },
           {
-            "range": "13–25",
-            "title": "Les Premières Roues",
-            "learn": "Poursuivez du point 13 au point 25 pour dessiner la partie inférieure du corps et la première roue tout-terrain.",
-            "fact": "Les roues des rovers sont conçues pour adhérer au sable meuble et rouler sur les rochers sans se coincer."
+            "q": "Comment imprimer la fiche Rover spatial ?",
+            "a": "Cliquez sur le bouton de téléchargement pour obtenir le PDF gratuit, puis imprimez-le sur du papier ordinaire (A4 ou US Letter) depuis n'importe quel navigateur ou lecteur PDF. Aucun logiciel particulier n'est nécessaire."
           },
           {
-            "range": "26–38",
-            "title": "Le Système de Roues",
-            "learn": "Reliez les points 26 à 38 pour compléter davantage les roues et la suspension du rover.",
-            "fact": "Les rovers martiens de la NASA utilisent une suspension rocker-bogie qui permet aux six roues de rester en contact avec un terrain inégal."
-          },
-          {
-            "range": "39–49",
-            "title": "Le Siège et l'Équipement",
-            "learn": "Tracez les points 39 à 49 pour ajouter le siège et l'équipement au-dessus du corps du rover.",
-            "fact": "Certains rovers lunaires transportent des astronautes, tandis que les rovers robotiques explorent sans qu'il y ait de pilote à bord."
-          },
-          {
-            "range": "50–59",
-            "title": "L'antenne parabolique",
-            "learn": "Terminez en reliant les points 50 à 59 pour compléter l'antenne de communication.",
-            "fact": "Un rover utilise des antennes pour envoyer ses découvertes vers la Terre et recevoir de nouvelles instructions."
+            "q": "La fiche imprimable Rover spatial est-elle vraiment gratuite ?",
+            "a": "Oui — elle est 100 % gratuite, sans inscription, compte ni paiement. Vous pouvez l'imprimer pour la maison ou la classe."
           }
         ],
-        "outro": "Mission accomplie—votre rover spatial est prêt à explorer ! Ajoutez des étoiles, des cratères, des planètes ou un alien amical pour créer votre propre scène spatiale.",
-        "color_schemes": []
+        "dot_guide": {
+          "intro": "Prêt pour un voyage au-delà de la Terre ? Suivez les numéros de 1 à 59 et regardez apparaître un rover spatial amical. Avancez lentement, vérifiez chaque numéro et gardez vos traits de crayon nets tandis que vous contournez le véhicule.",
+          "sections": [
+            {
+              "range": "1–12",
+              "title": "Le corps du rover",
+              "learn": "Commencez au point 1 et reliez jusqu'au point 12 pour tracer l'avant sympathique et le corps robuste du rover.",
+              "fact": "Les rovers planétaires embarquent des ordinateurs, des caméras et des outils scientifiques à l'intérieur d'un corps résistant."
+            },
+            {
+              "range": "13–25",
+              "title": "Les Premières Roues",
+              "learn": "Poursuivez du point 13 au point 25 pour dessiner la partie inférieure du corps et la première roue tout-terrain.",
+              "fact": "Les roues des rovers sont conçues pour adhérer au sable meuble et rouler sur les rochers sans se coincer."
+            },
+            {
+              "range": "26–38",
+              "title": "Le Système de Roues",
+              "learn": "Reliez les points 26 à 38 pour compléter davantage les roues et la suspension du rover.",
+              "fact": "Les rovers martiens de la NASA utilisent une suspension rocker-bogie qui permet aux six roues de rester en contact avec un terrain inégal."
+            },
+            {
+              "range": "39–49",
+              "title": "Le Siège et l'Équipement",
+              "learn": "Tracez les points 39 à 49 pour ajouter le siège et l'équipement au-dessus du corps du rover.",
+              "fact": "Certains rovers lunaires transportent des astronautes, tandis que les rovers robotiques explorent sans qu'il y ait de pilote à bord."
+            },
+            {
+              "range": "50–59",
+              "title": "L'antenne parabolique",
+              "learn": "Terminez en reliant les points 50 à 59 pour compléter l'antenne de communication.",
+              "fact": "Un rover utilise des antennes pour envoyer ses découvertes vers la Terre et recevoir de nouvelles instructions."
+            }
+          ],
+          "outro": "Mission accomplie—votre rover spatial est prêt à explorer ! Ajoutez des étoiles, des cratères, des planètes ou un alien amical pour créer votre propre scène spatiale.",
+          "color_schemes": []
+        }
       }
     }
-  }
-]
+  ]
+}

@@ -1,88 +1,222 @@
-[
-  {
-    "slug": "circus-ringmaster-bear-dot-to-dot-puzzle",
-    "name": "Niedźwiedź Mistrz Ceremonii Cyrku",
-    "tagline": "Poznaj niedźwiedzia, który prowadzi wielkie show!",
-    "description": "Połącz 74 kropki, aby odkryć przyjaznego niedźwiedzia przebranego za dyrektora cyrku. Ta średniozaawansowana karta pracy pomaga dzieciom ćwiczyć sekwencje liczbowe, koncentrację, śledzenie wzrokowe oraz precyzyjną kontrolę ołówka.",
-    "funFact": "Dyrygent cyrku przedstawia artystów i prowadzi publiczność od jednego numeru do kolejnego.",
-    "dotGuide": {
-      "intro": "W eleganckim płaszczu, wysokim kapeluszu i z pewną siebie postawą, ten przyjazny miś jest gotowy powitać wszystkich w cyrku. Wyzwanie 74 kropek podzielone jest na pięć jasnych etapów dla dzieci, które radzą sobie z dłuższymi sekwencjami liczbowymi. Znajdź kropkę 1 i niech zacznie się przedstawienie!",
-      "sections": [
-        {
-          "range": "1–15",
-          "title": "Kapelusz Mistrza Ceremonii",
-          "learn": "Połącz kropki od 1 do 15, aby narysować wysoki kapelusz i zaokrąglone uszy niedźwiedzia.",
-          "fact": "Mistrzowie ceremonii często noszą przykuwające uwagę formalne stroje, aby publiczność mogła ich łatwo zauważyć na arenie."
-        },
-        {
-          "range": "16–30",
-          "title": "Twarz Niedźwiedzia",
-          "learn": "Kontynuuj od punktu 16 do punktu 30, aby ukształtować głowę, pysk i radosny wyraz misia.",
-          "fact": "Niedźwiedź ma niezwykle silny węch, który pomaga mu znaleźć pożywienie na dużych odległościach."
-        },
-        {
-          "range": "31–45",
-          "title": "Inteligentna Kurtka",
-          "learn": "Podążaj za kropkami od 31 do 45, aby utworzyć ozdobną marynarkę i klapy mistrza ceremonii.",
-          "fact": "Jaskrawe kurtki, błyszczące guziki i dekoracyjne wykończenia sprawiają, że kostium konferansjera wygląda teatralnie."
-        },
-        {
-          "range": "46–60",
-          "title": "Pozycja z bronią i pokazem",
-          "learn": "Połącz kropki od 46 do 60, aby dodać łapy niedźwiedzia i pozę powitalną podczas występu.",
-          "fact": "Mistrzowie ceremonii używają wyraźnych gestów i donośnego głosu, aby skierować uwagę publiczności na kolejny występ."
-        },
-        {
-          "range": "61–74",
-          "title": "Buty i Wykończenie",
-          "learn": "Zakończ kropkami od 61 do 74, aby narysować nogi, buty i końcowe detale stroju.",
-          "fact": "Tradycyjnie arena cyrkowa ma kształt koła, aby widzowie wokół niej mogli oglądać występ z wielu perspektyw."
+{
+  "collection": {
+    "header": {
+      "title": "Circus Dot to Dot Printables — Free PDF for Kids",
+      "meta_description": "Free circus dot to dot printables for kids ages 4-9: a ringmaster bear and striped big-top tent. Two print-ready PDF worksheets with no sign-up.",
+      "og": {
+        "title": "2 Free Circus Dot to Dot Printables",
+        "description": "A ringmaster bear and striped big-top tent — two free circus dot to dot printables for kids.",
+        "image": "/images/circus-ringmaster-bear-puzzle.webp"
+      },
+      "json_ld": {
+        "type": "CollectionPage",
+        "name": "Cyrk",
+        "description": "Podejdź po darmowe łamigłówki łącz kropki z cyrku z przyjaznym misiem dyrektorem cyrku i pasiasym namiotem. Pobierz i wydrukuj oba arkusze PDF do liczenia i ćwiczeń z ołówkiem.",
+        "image": "/images/circus-ringmaster-bear-puzzle.webp",
+        "main_entity": {
+          "type": "ItemList",
+          "item_source": "puzzles"
         }
-      ],
-      "outro": "Świetna robota—niedźwiedź dyrektor cyrku jest gotowy, by ogłosić rozpoczęcie przedstawienia! Pokoloruj kostium żywymi czerwieniami i złotem, dodaj reflektory i podekscytowaną publiczność. Dokończ scenę, rozwiązując <a href=\"/circus/circus-tent-dot-to-dot-puzzle/\">łamigłówkę z namiotem cyrkowym</a>."
+      },
+      "breadcrumb_json_ld": {
+        "type": "BreadcrumbList",
+        "items": [
+          {
+            "position": 1,
+            "name": "Home",
+            "path": "/"
+          },
+          {
+            "position": 2,
+            "name": "Cyrk",
+            "path": "/circus/"
+          }
+        ]
+      }
+    },
+    "body": {
+      "h1": "Darmowe łamigłówki łącz kropki z cyrku dla dzieci",
+      "name": "Cyrk",
+      "tagline": "Dlaczego dzieci kochają łamigłówki łącz kropki z cyrku",
+      "description": "Podejdź po darmowe łamigłówki łącz kropki z cyrku z przyjaznym misiem dyrektorem cyrku i pasiasym namiotem. Pobierz i wydrukuj oba arkusze PDF do liczenia i ćwiczeń z ołówkiem.",
+      "hero_image": "/images/circus-ringmaster-bear-puzzle.webp",
+      "slug": "circus",
+      "faqs": [
+        {
+          "q": "Czy wszystkie materiały do ​​druku typu „połącz kropki” na tej stronie są całkowicie darmowe?",
+          "a": "Tak — każdy arkusz do łączenia kropek na stronie DotToDotFreePrintables.com jest w 100% darmowy do pobrania i wydrukowania. Nie jest wymagane żadne konto, subskrypcja ani karta kredytowa."
+        },
+        {
+          "q": "Dla dzieci w jakim wieku przeznaczone są arkusze z zadaniami typu „połącz kropki”?",
+          "a": "Nasze materiały do ​​druku są przeznaczone dla dzieci w wieku 2–12 lat. Łatwe arkusze (10–20 punktów) są odpowiednie dla małych dzieci i przedszkolaków, arkusze średnie (20–50 punktów) są idealne dla przedszkolaków i uczniów pierwszej klasy, a trudniejsze arkusze (50–200+ punktów) są odpowiednie dla uczniów od drugiej do szóstej klasy."
+        },
+        {
+          "q": "W jakim formacie są materiały do ​​wydruku, które można połączyć kropki?",
+          "a": "Wszystkie arkusze kalkulacyjne są pobierane jako pliki PDF gotowe do druku, w formacie standardowego papieru US Letter (8,5\" × 11\"). Otwórz w dowolnej przeglądarce lub programie do przeglądania plików PDF i wydrukuj — bez konieczności korzystania ze specjalnego oprogramowania."
+        },
+        {
+          "q": "Czy nauczyciele mogą korzystać z tych arkuszy ćwiczeń do łączenia kropek podczas lekcji?",
+          "a": "Tak! Nasze materiały do ​​druku są bezpłatne do użytku osobistego i szkolnego. Są popularne w porannej pracy, w zajęciach dla uczniów, którzy kończą zajęcia wcześnie, w planach lekcji zastępczych, w centrach motoryki małej i w pakietach zadań domowych."
+        }
+      ]
     }
   },
-  {
-    "slug": "circus-tent-dot-to-dot-puzzle",
-    "name": "Namiot cyrkowy",
-    "tagline": "Krok w stronę wielkiej przygody pod cyrkowym namiotem!",
-    "description": "Połącz 59 kropek, aby odsłonić wesoły pasiasty namiot cyrkowy gotowy na przedstawienie. To łatwe wydrukowane ćwiczenie pomaga dzieciom ćwiczyć liczenie po kolei, śledzenie wzrokowe, koncentrację i precyzyjne prowadzenie ołówka.",
-    "funFact": "Główny namiot cyrku często nazywany jest \"big top\", ponieważ jest to największy namiot podczas przedstawienia.",
-    "dotGuide": {
-      "intro": "Pod jasnym namiotem cyrkowym gromadzą się akrobaci, klauni i inni artyści pod jednym ogromnym dachem. Ta przyjazna łamigłówka z 59 kropkami buduje cyrkową arenę w pięciu prostych etapach. Znajdź kropkę 1, przygotuj ołówek i gotowy na przedstawienie!",
-      "sections": [
-        {
-          "range": "1–12",
-          "title": "Latająca Flaga",
-          "learn": "Połącz kropki od 1 do 12, aby narysować flagę i najwyższy punkt namiotu.",
-          "fact": "Flaga na szczycie pomaga odwiedzającym wypatrzyć namiot cyrkowy z drugiego końca terenu targowego."
+  "puzzles": [
+    {
+      "slug": "circus-ringmaster-bear-dot-to-dot-puzzle",
+      "header": {
+        "title": "",
+        "meta_description": "",
+        "og": {
+          "title": "",
+          "description": "",
+          "image_alt": ""
         },
-        {
-          "range": "13–24",
-          "title": "Wysoki Szczyt Namiotu",
-          "learn": "Kontynuuj od kropki 13 do kropki 24, aby utworzyć stromy dach wznoszący się w kierunku środkowego słupa.",
-          "fact": "Wysokie środkowe maszty podtrzymują dach tradycyjnego namiotu cyrkowego i nadają mu charakterystyczny spiczasty kształt."
-        },
-        {
-          "range": "25–36",
-          "title": "Pasiasty Daszek",
-          "learn": "Podążaj za kropkami od 25 do 36 wzdłuż szerokiego baldachimu, tworząc staranne linie dla jego dekoracyjnych pasów.",
-          "fact": "Grube pasy ułatwiają rozpoznanie namiotów cyrkowych i nadają głównej arenie festynowy wygląd."
-        },
-        {
-          "range": "37–48",
-          "title": "Ściany Namiotu",
-          "learn": "Połącz kropki od 37 do 48 po obu stronach, aby utworzyć solidne ściany namiotu.",
-          "fact": "Mocne liny i paliki pomagają utrzymać duże namioty stabilnymi podczas wiatru."
-        },
-        {
-          "range": "49–59",
-          "title": "Wielkie Wejście",
-          "learn": "Zakończ kropkami od 49 do 59, aby dodać otwarte wejście, przez które publiczność wchodzi do środka.",
-          "fact": "Wejścia do cyrku są często jaskrawo udekorowane, aby przywitać publiczność i wzbudzić ekscytację przed przedstawieniem."
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Niedźwiedź Mistrz Ceremonii Cyrku",
+          "description": "",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
         }
-      ],
-      "outro": "Brawo—twój cyrkowy namiot jest gotowy na otwarcie! Pokoloruj kopułę śmiałymi pasami, dodaj światła i proporczyki, oraz narysuj tłum przybywający na przedstawienie. Wypróbuj następnie <a href=\"/playgrounds/carousel-horse-playground-dot-to-dot-puzzle/\">łamigłówkę z konikiem karuzelowym</a>."
+      },
+      "body": {
+        "h1": "",
+        "name": "Niedźwiedź Mistrz Ceremonii Cyrku",
+        "tagline": "Poznaj niedźwiedzia, który prowadzi wielkie show!",
+        "description": "Połącz 74 kropki, aby odkryć przyjaznego niedźwiedzia przebranego za dyrektora cyrku. Ta średniozaawansowana karta pracy pomaga dzieciom ćwiczyć sekwencje liczbowe, koncentrację, śledzenie wzrokowe oraz precyzyjną kontrolę ołówka.",
+        "fun_fact": "Dyrygent cyrku przedstawia artystów i prowadzi publiczność od jednego numeru do kolejnego.",
+        "faqs": [
+          {
+            "q": "Dla jakiego wieku jest łamigłówka łączenia kropek Niedźwiedź Mistrz Ceremonii Cyrku?",
+            "a": "Jest przeznaczona dla wieku Wiek 5-9. Z 74 kropkami pasuje dzieciom, które pewnie liczą do 74; młodsze dzieci poradzą sobie z niewielką pomocą."
+          },
+          {
+            "q": "Jak wydrukować kartę pracy Niedźwiedź Mistrz Ceremonii Cyrku?",
+            "a": "Kliknij przycisk pobierania, aby otrzymać darmowy PDF, a następnie wydrukuj go na zwykłym papierze (A4 lub US Letter) z dowolnej przeglądarki lub czytnika PDF. Nie potrzeba specjalnego oprogramowania."
+          },
+          {
+            "q": "Czy karta do druku Niedźwiedź Mistrz Ceremonii Cyrku jest naprawdę darmowa?",
+            "a": "Tak — jest w 100% darmowa, bez rejestracji, konta i opłat. Możesz ją drukować do domu lub do klasy."
+          }
+        ],
+        "dot_guide": {
+          "intro": "W eleganckim płaszczu, wysokim kapeluszu i z pewną siebie postawą, ten przyjazny miś jest gotowy powitać wszystkich w cyrku. Wyzwanie 74 kropek podzielone jest na pięć jasnych etapów dla dzieci, które radzą sobie z dłuższymi sekwencjami liczbowymi. Znajdź kropkę 1 i niech zacznie się przedstawienie!",
+          "sections": [
+            {
+              "range": "1–15",
+              "title": "Kapelusz Mistrza Ceremonii",
+              "learn": "Połącz kropki od 1 do 15, aby narysować wysoki kapelusz i zaokrąglone uszy niedźwiedzia.",
+              "fact": "Mistrzowie ceremonii często noszą przykuwające uwagę formalne stroje, aby publiczność mogła ich łatwo zauważyć na arenie."
+            },
+            {
+              "range": "16–30",
+              "title": "Twarz Niedźwiedzia",
+              "learn": "Kontynuuj od punktu 16 do punktu 30, aby ukształtować głowę, pysk i radosny wyraz misia.",
+              "fact": "Niedźwiedź ma niezwykle silny węch, który pomaga mu znaleźć pożywienie na dużych odległościach."
+            },
+            {
+              "range": "31–45",
+              "title": "Inteligentna Kurtka",
+              "learn": "Podążaj za kropkami od 31 do 45, aby utworzyć ozdobną marynarkę i klapy mistrza ceremonii.",
+              "fact": "Jaskrawe kurtki, błyszczące guziki i dekoracyjne wykończenia sprawiają, że kostium konferansjera wygląda teatralnie."
+            },
+            {
+              "range": "46–60",
+              "title": "Pozycja z bronią i pokazem",
+              "learn": "Połącz kropki od 46 do 60, aby dodać łapy niedźwiedzia i pozę powitalną podczas występu.",
+              "fact": "Mistrzowie ceremonii używają wyraźnych gestów i donośnego głosu, aby skierować uwagę publiczności na kolejny występ."
+            },
+            {
+              "range": "61–74",
+              "title": "Buty i Wykończenie",
+              "learn": "Zakończ kropkami od 61 do 74, aby narysować nogi, buty i końcowe detale stroju.",
+              "fact": "Tradycyjnie arena cyrkowa ma kształt koła, aby widzowie wokół niej mogli oglądać występ z wielu perspektyw."
+            }
+          ],
+          "outro": "Świetna robota—niedźwiedź dyrektor cyrku jest gotowy, by ogłosić rozpoczęcie przedstawienia! Pokoloruj kostium żywymi czerwieniami i złotem, dodaj reflektory i podekscytowaną publiczność. Dokończ scenę, rozwiązując <a href=\"/circus/circus-tent-dot-to-dot-puzzle/\">łamigłówkę z namiotem cyrkowym</a>.",
+          "color_schemes": []
+        }
+      }
+    },
+    {
+      "slug": "circus-tent-dot-to-dot-puzzle",
+      "header": {
+        "title": "",
+        "meta_description": "",
+        "og": {
+          "title": "",
+          "description": "",
+          "image_alt": ""
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Namiot cyrkowy",
+          "description": "",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
+      },
+      "body": {
+        "h1": "",
+        "name": "Namiot cyrkowy",
+        "tagline": "Krok w stronę wielkiej przygody pod cyrkowym namiotem!",
+        "description": "Połącz 59 kropek, aby odsłonić wesoły pasiasty namiot cyrkowy gotowy na przedstawienie. To łatwe wydrukowane ćwiczenie pomaga dzieciom ćwiczyć liczenie po kolei, śledzenie wzrokowe, koncentrację i precyzyjne prowadzenie ołówka.",
+        "fun_fact": "Główny namiot cyrku często nazywany jest \"big top\", ponieważ jest to największy namiot podczas przedstawienia.",
+        "faqs": [
+          {
+            "q": "Dla jakiego wieku jest łamigłówka łączenia kropek Namiot cyrkowy?",
+            "a": "Jest przeznaczona dla wieku Wiek 4-8. Z 59 kropkami pasuje dzieciom, które pewnie liczą do 59; młodsze dzieci poradzą sobie z niewielką pomocą."
+          },
+          {
+            "q": "Jak wydrukować kartę pracy Namiot cyrkowy?",
+            "a": "Kliknij przycisk pobierania, aby otrzymać darmowy PDF, a następnie wydrukuj go na zwykłym papierze (A4 lub US Letter) z dowolnej przeglądarki lub czytnika PDF. Nie potrzeba specjalnego oprogramowania."
+          },
+          {
+            "q": "Czy karta do druku Namiot cyrkowy jest naprawdę darmowa?",
+            "a": "Tak — jest w 100% darmowa, bez rejestracji, konta i opłat. Możesz ją drukować do domu lub do klasy."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Pod jasnym namiotem cyrkowym gromadzą się akrobaci, klauni i inni artyści pod jednym ogromnym dachem. Ta przyjazna łamigłówka z 59 kropkami buduje cyrkową arenę w pięciu prostych etapach. Znajdź kropkę 1, przygotuj ołówek i gotowy na przedstawienie!",
+          "sections": [
+            {
+              "range": "1–12",
+              "title": "Latająca Flaga",
+              "learn": "Połącz kropki od 1 do 12, aby narysować flagę i najwyższy punkt namiotu.",
+              "fact": "Flaga na szczycie pomaga odwiedzającym wypatrzyć namiot cyrkowy z drugiego końca terenu targowego."
+            },
+            {
+              "range": "13–24",
+              "title": "Wysoki Szczyt Namiotu",
+              "learn": "Kontynuuj od kropki 13 do kropki 24, aby utworzyć stromy dach wznoszący się w kierunku środkowego słupa.",
+              "fact": "Wysokie środkowe maszty podtrzymują dach tradycyjnego namiotu cyrkowego i nadają mu charakterystyczny spiczasty kształt."
+            },
+            {
+              "range": "25–36",
+              "title": "Pasiasty Daszek",
+              "learn": "Podążaj za kropkami od 25 do 36 wzdłuż szerokiego baldachimu, tworząc staranne linie dla jego dekoracyjnych pasów.",
+              "fact": "Grube pasy ułatwiają rozpoznanie namiotów cyrkowych i nadają głównej arenie festynowy wygląd."
+            },
+            {
+              "range": "37–48",
+              "title": "Ściany Namiotu",
+              "learn": "Połącz kropki od 37 do 48 po obu stronach, aby utworzyć solidne ściany namiotu.",
+              "fact": "Mocne liny i paliki pomagają utrzymać duże namioty stabilnymi podczas wiatru."
+            },
+            {
+              "range": "49–59",
+              "title": "Wielkie Wejście",
+              "learn": "Zakończ kropkami od 49 do 59, aby dodać otwarte wejście, przez które publiczność wchodzi do środka.",
+              "fact": "Wejścia do cyrku są często jaskrawo udekorowane, aby przywitać publiczność i wzbudzić ekscytację przed przedstawieniem."
+            }
+          ],
+          "outro": "Brawo—twój cyrkowy namiot jest gotowy na otwarcie! Pokoloruj kopułę śmiałymi pasami, dodaj światła i proporczyki, oraz narysuj tłum przybywający na przedstawienie. Wypróbuj następnie <a href=\"/playgrounds/carousel-horse-playground-dot-to-dot-puzzle/\">łamigłówkę z konikiem karuzelowym</a>.",
+          "color_schemes": []
+        }
+      }
     }
-  }
-]
+  ]
+}

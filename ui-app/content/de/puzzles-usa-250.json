@@ -1,519 +1,1016 @@
-[
-  {
-    "slug": "gas-balloon-usa-250-dot-to-dot-puzzle",
-    "name": "Gasballon America 250",
-    "seoH1": "Amerika 250 Gasballon Punkt zu Punkt — 48 Punkte in der Luft",
-    "tagline": "Celebrate 250 Years of Amerika!",
-    "description": "Verbinde 48 einfache Punkte, um einen prächtigen Gasballon zu enthüllen, der über die Feierlichkeiten zum 250. Jubiläum Amerikas schwebt! Dieses kostenlose Arbeitsblatt hilft kleinen Kindern, die Zahlenfolge und den Umgang mit dem Bleistift zu üben, während es 250 Jahre amerikanische Geschichte ehrt.",
-    "seoDescription": "George Washington beobachtete den ersten Ballonflug Amerikas im Jahr 1793. Schwebt durch 48 Punkte mit diesem kostenlosen Amerika 250 PDF für Kinder im Alter von 4–7 Jahren.",
-    "funFact": "Der erste Gasballonflug in Amerika fand 1793 statt — George Washington selbst sah zu, wie er in Philadelphia startete!",
-    "seoImageAlt": "Festlicher Gasballon schwebt über einer America-250-Szene, getragen von 48 Punkten",
-    "dotGuide": {
-      "intro": "Amerika is turning 250 years old — a quarter millennium of history, invention, and adventure! What better way to celebrate than soaring above the festivities in a magnificent Gasballon? Gas Ballons were one of the very first flying machines, and Americans have loved them since the earliest days of the republic. Nimm einen Bleistift, suche Punkt 1 und let's send this balloon up into the celebration sky!",
-      "sections": [
-        {
-          "range": "1–10",
-          "title": "Die Ballonhülle",
-          "learn": "Start at Punkt 1 and verbinde through to Punkt 10 to trace the large, rounded top of the balloon envelope — the big colourful bag that holds the gas and gives the balloon its classic shape. Children practise wide, sweeping curves here, which are wonderful for building smooth Stiftkontrolle and wrist flexibility.",
-          "fact": "Gas Ballons are filled with lighter-than-air gas, often helium today, which makes the envelope buoyant enough to lift the basket. The envelope can hold thousands of cubic feet of gas, and its round shape helps spread pressure evenly in all directions."
-        },
-        {
-          "range": "11–22",
-          "title": "Das „Stars and Stripes“-Detail",
-          "learn": "Continue from Punkt 11 to Punkt 22 to add the decorative panel lines and patriotic details that wrap around the balloon. Balloon envelopes are typically made from many separate panels sewn together, and these seam lines create the beautiful geometric patterns you see in the finished picture. Children practise shorter, more directional strokes here.",
-          "fact": "Early amerikanisch balloonists sometimes decorated their Ballons with patriotic colours and symbols to celebrate the new nation. The Flag Act of 1818 set the modern rule of 13 stripes, with one star for each state. That is why the Stars and Stripes could keep growing as new states joined the Vereinigte Staaten."
-        },
-        {
-          "range": "23–34",
-          "title": "Das Netz und der Lastring",
-          "learn": "Trace Punkte 23 through 34 to draw the netting that wraps around the outside of the balloon and the load ring — the circular hoop at the very bottom of the envelope where the basket hangs. Children practise a network of crisscrossing lines, which is a brilliant exercise in precision and planning ahead.",
-          "fact": "The rope netting around many gas Ballons is not just decorative — it helps spread the weight of the basket and passengers across the balloon envelope. Sharing the weight over many ropes helps the balloon stay balanced and strong."
-        },
-        {
-          "range": "35–42",
-          "title": "Die Tragseile und der Korb",
-          "learn": "Verbinde Punkte 35 to 42 to draw the suspension ropes trailing down from the load ring and the wicker basket hanging at the bottom. The basket — called a gondola — is where the pilot and passengers stand. Children practise parallel lines converging to a single shape, which builds wonderful spatial reasoning skills.",
-          "fact": "Ballonkörbe werden seit über 200 Jahren aus Korbgeflecht hergestellt, und Korbgeflecht ist auch heute noch ein beliebtes Material. Korbgeflecht ist leicht und biegsam, sodass es sich bei der Landung leicht nachgeben kann. Manchmal sind die alten Methoden wirklich die besten!"
-        },
-        {
-          "range": "43–48",
-          "title": "Die Flagge und der letzte Schliff",
-          "learn": "Finish the Rätsel by connecting Punkte 43 through 48 to add the amerikanisch flag and the final celebratory details. Just six Punkte to bring the whole scene together — encourage Kinder to slow down and make these last lines their best. A clean, confident finish is the sign of a true Punkt-to-Punkt expert!",
-          "fact": "Amerika's first balloon pilot was Jean-Pierre Blanchard, a Frenchman who made his historic flight from Philadelphia on 9 January 1793. President George Washington gave him a letter of safe passage to present to anyone he met after landing — which turned out to be very useful, as he came down in a farm field in New Jersey and needed to explain who he was!"
+{
+  "collection": {
+    "header": {
+      "title": "USA 250: Kostenlose Punkt-zu-Punkt-Bilder für Kinder",
+      "meta_description": "Feiere 250 Jahre USA mit kostenlosen patriotischen Vorlagen zum Zahlen verbinden für Kinder, fertig zum Herunterladen und Ausdrucken.",
+      "og": {
+        "title": "Kostenlose USA-250-Punkt-zu-Punkt-Rätsel",
+        "description": "Kostenlose patriotische Vorlagen zum 250-jährigen Jubiläum der USA.",
+        "image": "/images/gas-balloon-usa-250-puzzle.webp"
+      },
+      "json_ld": {
+        "type": "CollectionPage",
+        "name": "America 250 Jahre",
+        "description": "Feiern Sie den 250. Geburtstag Amerikas! Verbinden Sie die Punkte, um patriotische Szenen und typisch amerikanische Symbole zu enthüllen. Alle Arbeitsblätter können kostenlos heruntergeladen und ausgedruckt werden – eine Registrierung ist nicht erforderlich.",
+        "image": "/images/gas-balloon-usa-250-puzzle.webp",
+        "main_entity": {
+          "type": "ItemList",
+          "item_source": "puzzles"
         }
-      ],
-      "outro": "Wunderbare Arbeit – dein America-250-Gasballon ist startklar! Das sind 48 Punkte und ein Himmel voller Feierstimmung. Male ihn in Rot, Weiß und Blau aus, um Amerikas beeindruckenden 250. Geburtstag zu feiern. Herzlichen Glückwunsch, USA! Perfekt fürs Klassenzimmer – hier gibt es weitere <a href=\"/playgrounds/\">Punkt-zu-Punkt-Arbeitsblätter</a>."
+      },
+      "breadcrumb_json_ld": {
+        "type": "BreadcrumbList",
+        "items": [
+          {
+            "position": 1,
+            "name": "Home",
+            "path": "/"
+          },
+          {
+            "position": 2,
+            "name": "America 250 Jahre",
+            "path": "/usa-250/"
+          }
+        ]
+      }
     },
-    "seoTitle": "Amerika 250 Gasballon Punkt zu Punkt — 48 Punkte in der Luft"
+    "body": {
+      "h1": "America 250 Jahre: Punkt-zu-Punkt-Ausmalbilder für Kinder",
+      "name": "America 250 Jahre",
+      "tagline": "Warum Kinder die „America 250“-Punkt-zu-Punkt-Rätsel lieben",
+      "description": "Feiern Sie den 250. Geburtstag Amerikas! Verbinden Sie die Punkte, um patriotische Szenen und typisch amerikanische Symbole zu enthüllen. Alle Arbeitsblätter können kostenlos heruntergeladen und ausgedruckt werden – eine Registrierung ist nicht erforderlich.",
+      "hero_image": "/images/gas-balloon-usa-250-puzzle.webp",
+      "slug": "usa-250",
+      "faqs": [
+        {
+          "q": "Wie viele kostenlose Vorlagen gibt es in der Kategorie Amerika 250?",
+          "a": "Die Kategorie Amerika 250 bietet derzeit 11 kostenlose Punkt-zu-Punkt-Vorlagen mit 48–124 Punkten. Jedes Blatt lädt sofort als druckfertiges PDF (A4 oder Letter, hoch oder quer) ohne Anmeldung herunter."
+        },
+        {
+          "q": "Sind die Amerika 250-Rätsel kostenlos?",
+          "a": "Ja — alle 11 Rätsel der Amerika 250-Sammlung sind für Zuhause und Schule komplett kostenlos. Auf DotToDotFreePrintables.com sind nie Konto, E-Mail oder Bezahlung nötig."
+        },
+        {
+          "q": "Für welches Alter sind die Amerika 250-Rätsel?",
+          "a": "Mit 48–124 Punkten deckt die Amerika 250-Sammlung etwa 4 bis 12 Jahre ab. Wählen Sie weniger Punkte für Kita und Vorschule und mehr Punkte für sichere Zähler in der Grundschule."
+        },
+        {
+          "q": "Was sind America 250 Punkt-zu-Punkt-Rätsel?",
+          "a": "Eine Sammlung von 11 kostenlosen patriotischen Druckvorlagen zur Feier des 250. Jahrestages (Semiquincentennial) der Vereinigten Staaten am 4. Juli 2026 – darunter ein Adlerbanner, die Freiheitsglocke, Feuerwerk, Astronaut, Space Shuttle, Geburtstagstorte und Heißluftballon-Designs von 48 bis 124 Punkten."
+        },
+        {
+          "q": "Eignen sich diese für Unterrichtsaktivitäten zum 4. Juli?",
+          "a": "Ja. Die Kollektion „America 250“ ist für die Feierlichkeiten zum Unabhängigkeitstag 2026, den Politikunterricht und Partyaktivitäten konzipiert. Drucken Sie die kompletten Klassensätze kostenlos aus – keine Lizenz oder Anmeldung erforderlich."
+        }
+      ]
+    }
   },
-  {
-    "slug": "eagle-kite-banner-usa-250-dot-to-dot-puzzle",
-    "name": "Adler-Drachen-Banner America 250",
-    "seoH1": "Adler-Drachen Punkt zu Punkt: 80 Punkte für Amerika 250",
-    "tagline": "Schwebe mit dem amerikanischen Adler zum 250. Geburtstag der USA!",
-    "description": "Verbinde 80 einfache Punkte, um einen majestätischen Weißkopfseeadler zu enthüllen, der hoch mit einem patriotischen Banner schwebt, um das 250. Jubiläum Amerikas zu feiern! Dieses kostenlose Arbeitsblatt fördert die Zahlenfolge und die Feinmotorik und weckt Stolz auf 250 Jahre amerikanische Geschichte. Perfekt für Kinder im Alter von 5–9 Jahren.",
-    "seoDescription": "Ein Adler und ein patriotisches Banner nehmen über 80 Punkte hinweg Fahrt auf. Lade dieses kostenlose Amerika 250 Arbeitsblatt für Kinder im Alter von 5–9 Jahren herunter, das 2026 gefeiert wird.",
-    "funFact": "Der Weißkopfseeadler wurde 1782 als Teil des Großen Siegels der Vereinigten Staaten angenommen — nur sechs Jahre nachdem die Unabhängigkeitserklärung unterzeichnet wurde. Er ist jetzt der offizielle Nationalvogel, und sein Bild erscheint bis heute auf Pässen, Münzen und offiziellen Regierungsdokumenten!",
-    "seoImageAlt": "Weißkopfseeadler-Drachen zieht ein patriotisches Banner entlang von 80 Punkten",
-    "dotGuide": {
-      "intro": "Amerika is celebrating its 250th Geburtstag, and the nation's most iconic symbol — the bald Adler — is here to lead the festivities! With a patriotic Banner streaming behind it, this majestic bird soars high over the celebration. Eagles have stood for amerikanisch freedom and strength since the very earliest days of the republic. Grab your pencil, find Punkt 1, and let's send this Adler soaring!",
-      "sections": [
-        {
-          "range": "1–16",
-          "title": "Der Kopf und der Schnabel des Adlers",
-          "learn": "Start at Punkt 1 and verbinde through to Punkt 16 to trace the Adler's bold white head and sharp, curved beak. These carefully directed strokes help Kinder warm up their pencil grip and build the confident hand control they'll need for the wings ahead. Encourage them to draw slowly and aim for each Punkt precisely.",
-          "fact": "Weißkopfseeadler sind eigentlich gar nicht kahl – ihr Name leitet sich vom altenglischen Wort „balde“ ab, was „weiß“ bedeutet. Die auffälligen weißen Kopffedern entwickeln sich, wenn der Vogel im Alter von etwa fünf Jahren das Erwachsenenalter erreicht. Vorher haben junge Adler ein braun-weiß gesprenkeltes Gefieder, wodurch sie viel schwerer zu erkennen sind."
+  "puzzles": [
+    {
+      "slug": "gas-balloon-usa-250-dot-to-dot-puzzle",
+      "header": {
+        "title": "Amerika 250 Gasballon Punkt zu Punkt — 48 Punkte in der Luft",
+        "meta_description": "George Washington beobachtete den ersten Ballonflug Amerikas im Jahr 1793. Schwebt durch 48 Punkte mit diesem kostenlosen Amerika 250 PDF für Kinder im Alter von 4–7 Jahren.",
+        "og": {
+          "title": "Amerika 250 Gasballon Punkt zu Punkt — 48 Punkte in der Luft",
+          "description": "George Washington beobachtete den ersten Ballonflug Amerikas im Jahr 1793. Schwebt durch 48 Punkte mit diesem kostenlosen Amerika 250 PDF für Kinder im Alter von 4–7 Jahren.",
+          "image_alt": "Festlicher Gasballon schwebt über einer America-250-Szene, getragen von 48 Punkten"
         },
-        {
-          "range": "17–36",
-          "title": "Die ausgebreiteten Flügel",
-          "learn": "Continue from Punkt 17 to Punkt 36 to draw the Adler's powerful, outstretched wings — the most dramatic part of the picture. These long, sweeping strokes from wingtip to body are a wonderful exercise for wrist flexibility and smooth line control. Children practise holding a consistent direction across a larger stretch of the page.",
-          "fact": "A bald Adler's wingspan can reach up to 2.4 metres — almost eight feet from tip to tip — making it one of the largest birds of prey in North Amerika. Those massive wings allow eagles to soar on thermal currents of warm rising air for hours without a single wingbeat, covering enormous distances with very little effort."
-        },
-        {
-          "range": "37–54",
-          "title": "Die Schwanzfedern und Krallen",
-          "learn": "Trace Punkte 37 through 54 to add the fan of white tail feathers and the powerful curved talons below. Children practise a mix of fanning strokes for the feathers and sharp, precise curves for each talon — a great combination for building both fluency and control in a single section.",
-          "fact": "An Adler's talons are its primary hunting tool, capable of gripping with a force of around 400 pounds per square inch — many times stronger than a human hand. The bald Adler also has a specially rough, spiky texture on the soles of its feet called spicules, which help it grip slippery fish pulled straight from rivers and lakes."
-        },
-        {
-          "range": "55–68",
-          "title": "Das patriotische Banner",
-          "learn": "Verbinde Punkte 55 through 68 to draw the flowing Banner that streams behind the Adler. The ribbon-like curves of a Banner in motion are a brilliant challenge for smooth, flowing line work. Encourage Kinder to imagine the Banner fluttering in a summer breeze as they draw each gentle arc.",
-          "fact": "The bald Adler holds a Banner or ribbon in its beak on many famous amerikanisch emblems and seals. On the Great Seal of the Vereinigte Staaten, the Adler holds a ribbon reading \"E Pluribus Unum\" — Latin for \"Out of Many, One\" — a motto that has appeared on amerikanisch coins and documents since 1782."
-        },
-        {
-          "range": "69–80",
-          "title": "Die Stars und der letzte Schliff",
-          "learn": "Finish the Rätsel by connecting Punkte 69 through 80 to add the patriotic Sterne and the final celebratory details that bring the whole scene to life. Just twelve Punkte to complete the picture — encourage Kinder to slow down and make these last lines their very best. A clean, careful finish is the mark of a true Punkt-to-Punkt champion!",
-          "fact": "The 50 Sterne on the amerikanisch flag each represent one of the 50 states in the union. The flag has been updated 27 times as new states joined — the most recent change came in 1960, when Hawaii's star was added. The current 50-star design has now been the official flag for longer than any other version in amerikanisch history."
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Gasballon America 250",
+          "description": "George Washington beobachtete den ersten Ballonflug Amerikas im Jahr 1793. Schwebt durch 48 Punkte mit diesem kostenlosen Amerika 250 PDF für Kinder im Alter von 4–7 Jahren.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
         }
-      ],
-      "outro": "Großartige Arbeit – dein America-250-Adler schwebt voller Stolz! Das sind 80 Punkte und ein spektakuläres Symbol der amerikanischen Freiheit. Male den Adler in Braun und Weiß, das Banner in Rot und Gold und die Sterne in Rot, Weiß und Blau aus – der patriotischste Geburtstagsgruß zum 250. Jubiläum. Herzlichen Glückwunsch, USA! Entdecke weitere <a href=\"/usa-250/\">America-250-Vorlagen</a>, damit die Feier weitergeht."
-    },
-    "seoTitle": "Adler-Drachen Zahlenbild: 80 Punkte für America 250"
-  },
-  {
-    "slug": "america-250-birthday-fireworks-dot-to-dot-puzzle",
-    "name": "Amerika 250 Birthday Fireworks",
-    "seoH1": "Amerika 250 Feuerwerk Punkt zu Punkt — Beleuchte 90 Punkte",
-    "tagline": "Beleuchte den Himmel zum 250. Geburtstag Amerikas!",
-    "description": "Verbinde 90 einfache Punkte, um ein spektakuläres Feuerwerk zu enthüllen, das das 250. Jubiläum Amerikas feiert! Dieses kostenlose Arbeitsblatt fördert die Zahlenfolge und die Feinmotorik, während es patriotischen Stolz entfacht. Perfekt für Kinder im Alter von 6–10 Jahren, die bereit sind, eine längere Punkt-zu-Punkt-Herausforderung anzugehen.",
-    "seoDescription": "Feuerwerke markieren den Unabhängigkeitstag seit 1777. Beleuchte eine 90-Punkte-Darstellung mit diesem kostenlosen 2026 Amerika 250 PDF für Kinder im Alter von 6–10 Jahren.",
-    "funFact": "Feuerwerke sind seit dem allerersten Jubiläum am 4. Juli 1777 Teil der Feierlichkeiten zum Unabhängigkeitstag — nur ein Jahr nachdem die Unabhängigkeitserklärung unterzeichnet wurde!",
-    "seoImageAlt": "Aufblühendes Feuerwerk für America 250, gezündet aus 90 druckbaren Punkten",
-    "dotGuide": {
-      "intro": "Amerika is turning 250 years old — and what better way to mark a quarter millennium than with a sky full of dazzling Feuerwerk? Fireworks have lit up the Fourth of July since the very earliest days of the nation, turning the night sky into a canvas of colour and light. Grab your pencil, find Punkt 1, and let's set off this spectacular Geburtstag display!",
-      "sections": [
-        {
-          "range": "1–18",
-          "title": "Der Nachthimmel",
-          "learn": "Start at Punkt 1 and verbinde through to Punkt 18 to trace the deep, starry sky that forms the backdrop of the display. These wide sweeping strokes help Kinder warm up their pencil grip and build the smooth, confident lines they'll need for the exciting Feuerwerk bursts ahead.",
-          "fact": "The night sky looks dark because the sun is on the other side of the Earth, but it is never truly empty — on a clear night away from city lights, you can see up to 4,500 Sterne with the naked eye. That same sky greeted the Founding Fathers when they first celebrated independence in 1776."
-        },
-        {
-          "range": "19–36",
-          "title": "Der erste Feuerwerksstoß",
-          "learn": "Continue from Punkt 19 to Punkt 36 to draw the first big firework explosion bursting open in the sky. Children practise radiating lines that shoot outward from a central point — a wonderful exercise for directional control and wrist rotation.",
-          "fact": "Feuerwerk wurde vor über 1.000 Jahren in China erfunden, als Alchemisten entdeckten, dass eine Mischung aus Holzkohle, Schwefel und Kaliumnitrat einen hellen Lichtblitz und einen lauten Knall erzeugt. Das Rezept gelangte schließlich nach Europa und dann nach Amerika, wo es zum typischen Begleitgeräusch von Festlichkeiten wurde."
-        },
-        {
-          "range": "37–54",
-          "title": "Die herabfallenden Funken",
-          "learn": "Trace Punkte 37 through 54 to add the glittering cascade of sparks that trail downward after the main burst. These curving, falling lines give the Feuerwerk their signature weeping-willow shape and offer great practice in drawing smooth, gentle curves.",
-          "fact": "The different colours in Feuerwerk come from burning different metal salts: strontium salts produce red, barium salts make green, copper compounds create blue, and sodium compounds give off bright yellow. Mixing these salts lets pyrotechnicians paint the sky with almost any colour they choose."
-        },
-        {
-          "range": "55–72",
-          "title": "Der große Finale-Ausbruch",
-          "learn": "Verbinde Punkte 55 through 72 to reveal the biggest and brightest firework of all — the grand finale explosion that fills the centre of the sky. Children practise a dense starburst of lines converging at a single point, which is a brilliant challenge for precision and spatial planning.",
-          "fact": "The \"grand finale\" tradition in Feuerwerk displays came about because early professional pyrotechnicians wanted to end shows with maximum impact before the crowd could disperse. Today's grand finales can fire hundreds of shells per minute, turning the sky almost as bright as daylight for a thrilling few seconds."
-        },
-        {
-          "range": "73–90",
-          "title": "Die Sterne, die Flagge und der letzte Schliff",
-          "learn": "Finish the Rätsel by connecting Punkte 73 through 90 to add the patriotic Sterne, the waving amerikanisch flag, and the final celebratory details that complete the Geburtstag scene. Encourage Kinder to take their time — these last Punkte bring the whole picture to life. A careful, confident finish is the mark of a true Punkt-to-Punkt champion!",
-          "fact": "The amerikanisch flag has 50 Sterne — one for each state — and 13 stripes representing the original colonies. On the Fourth of July each year, the flag is flown from sunrise to sunset at homes, schools, and government buildings across the country, from the smallest town to the White House."
+      },
+      "body": {
+        "h1": "Amerika 250 Gasballon Punkt zu Punkt — 48 Punkte in der Luft",
+        "name": "Gasballon America 250",
+        "tagline": "Celebrate 250 Years of Amerika!",
+        "description": "Verbinde 48 einfache Punkte, um einen prächtigen Gasballon zu enthüllen, der über die Feierlichkeiten zum 250. Jubiläum Amerikas schwebt! Dieses kostenlose Arbeitsblatt hilft kleinen Kindern, die Zahlenfolge und den Umgang mit dem Bleistift zu üben, während es 250 Jahre amerikanische Geschichte ehrt.",
+        "fun_fact": "Der erste Gasballonflug in Amerika fand 1793 statt — George Washington selbst sah zu, wie er in Philadelphia startete!",
+        "faqs": [
+          {
+            "q": "Wie viele Punkte hat das Punkt-zu-Punkt-Rätsel „Gasballon America 250“?",
+            "a": "Die Malvorlage „Gasballon America 250“ hat 48 nummerierte Punkte. Damit ist es ein leicht bis mitteles Rätsel, ideal für Kinder von 5–8 Jahre (Vorschule bis 2. Klasse). Die Kinder verbinden die Punkte in Zahlenreihenfolge, bis das fertige Bild erscheint, und malen es anschließend aus."
+          },
+          {
+            "q": "Ist die Vorlage „Gasballon America 250“ kostenlos?",
+            "a": "Ja. Das Arbeitsblatt „Gasballon America 250“ ist auf DotToDotFreePrintables.com zu 100 % kostenlos — ohne Konto, E-Mail oder Bezahlung. Es lädt sofort als druckfertiges PDF herunter, im Hoch- und Querformat, in A4 oder US Letter."
+          },
+          {
+            "q": "Für welches Alter eignet sich das Arbeitsblatt „Gasballon America 250“?",
+            "a": "Mit 48 Punkten eignet sich das Rätsel „Gasballon America 250“ am besten für Kinder von 5–8 Jahre (Vorschule bis 2. Klasse). Jüngere Kinder schaffen es mit etwas Zählhilfe, sichere Zähler lösen es selbstständig und üben dabei die Zahlenfolge bis 48."
+          },
+          {
+            "q": "Welche Fähigkeiten fördert das Rätsel „Gasballon America 250“?",
+            "a": "Das Verbinden der 48 Punkte fördert Zahlenerkennung und Zählen bis 48, Stiftführung, Auge-Hand-Koordination und Konzentration — genau die feinmotorischen Grundlagen, die aufs Schreibenlernen vorbereiten. Das Ausmalen des fertigen Bildes ist die kreative Belohnung."
+          },
+          {
+            "q": "Was ist ein spannender Fakt zu diesem Rätsel?",
+            "a": "The first Gasballon flight in Amerika took place in 1793 — George Washington himself watched it launch in Philadelphia! Solche Fakten entdecken Kinder beim Lösen des Rätsels „Gasballon America 250“."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Amerika is turning 250 years old — a quarter millennium of history, invention, and adventure! What better way to celebrate than soaring above the festivities in a magnificent Gasballon? Gas Ballons were one of the very first flying machines, and Americans have loved them since the earliest days of the republic. Nimm einen Bleistift, suche Punkt 1 und let's send this balloon up into the celebration sky!",
+          "sections": [
+            {
+              "range": "1–10",
+              "title": "Die Ballonhülle",
+              "learn": "Start at Punkt 1 and verbinde through to Punkt 10 to trace the large, rounded top of the balloon envelope — the big colourful bag that holds the gas and gives the balloon its classic shape. Children practise wide, sweeping curves here, which are wonderful for building smooth Stiftkontrolle and wrist flexibility.",
+              "fact": "Gas Ballons are filled with lighter-than-air gas, often helium today, which makes the envelope buoyant enough to lift the basket. The envelope can hold thousands of cubic feet of gas, and its round shape helps spread pressure evenly in all directions."
+            },
+            {
+              "range": "11–22",
+              "title": "Das „Stars and Stripes“-Detail",
+              "learn": "Continue from Punkt 11 to Punkt 22 to add the decorative panel lines and patriotic details that wrap around the balloon. Balloon envelopes are typically made from many separate panels sewn together, and these seam lines create the beautiful geometric patterns you see in the finished picture. Children practise shorter, more directional strokes here.",
+              "fact": "Early amerikanisch balloonists sometimes decorated their Ballons with patriotic colours and symbols to celebrate the new nation. The Flag Act of 1818 set the modern rule of 13 stripes, with one star for each state. That is why the Stars and Stripes could keep growing as new states joined the Vereinigte Staaten."
+            },
+            {
+              "range": "23–34",
+              "title": "Das Netz und der Lastring",
+              "learn": "Trace Punkte 23 through 34 to draw the netting that wraps around the outside of the balloon and the load ring — the circular hoop at the very bottom of the envelope where the basket hangs. Children practise a network of crisscrossing lines, which is a brilliant exercise in precision and planning ahead.",
+              "fact": "The rope netting around many gas Ballons is not just decorative — it helps spread the weight of the basket and passengers across the balloon envelope. Sharing the weight over many ropes helps the balloon stay balanced and strong."
+            },
+            {
+              "range": "35–42",
+              "title": "Die Tragseile und der Korb",
+              "learn": "Verbinde Punkte 35 to 42 to draw the suspension ropes trailing down from the load ring and the wicker basket hanging at the bottom. The basket — called a gondola — is where the pilot and passengers stand. Children practise parallel lines converging to a single shape, which builds wonderful spatial reasoning skills.",
+              "fact": "Ballonkörbe werden seit über 200 Jahren aus Korbgeflecht hergestellt, und Korbgeflecht ist auch heute noch ein beliebtes Material. Korbgeflecht ist leicht und biegsam, sodass es sich bei der Landung leicht nachgeben kann. Manchmal sind die alten Methoden wirklich die besten!"
+            },
+            {
+              "range": "43–48",
+              "title": "Die Flagge und der letzte Schliff",
+              "learn": "Finish the Rätsel by connecting Punkte 43 through 48 to add the amerikanisch flag and the final celebratory details. Just six Punkte to bring the whole scene together — encourage Kinder to slow down and make these last lines their best. A clean, confident finish is the sign of a true Punkt-to-Punkt expert!",
+              "fact": "Amerika's first balloon pilot was Jean-Pierre Blanchard, a Frenchman who made his historic flight from Philadelphia on 9 January 1793. President George Washington gave him a letter of safe passage to present to anyone he met after landing — which turned out to be very useful, as he came down in a farm field in New Jersey and needed to explain who he was!"
+            }
+          ],
+          "outro": "Wunderbare Arbeit – dein America-250-Gasballon ist startklar! Das sind 48 Punkte und ein Himmel voller Feierstimmung. Male ihn in Rot, Weiß und Blau aus, um Amerikas beeindruckenden 250. Geburtstag zu feiern. Herzlichen Glückwunsch, USA! Perfekt fürs Klassenzimmer – hier gibt es weitere <a href=\"/playgrounds/\">Punkt-zu-Punkt-Arbeitsblätter</a>.",
+          "color_schemes": []
         }
-      ],
-      "outro": "Großartige Arbeit – dein America-250-Feuerwerk erleuchtet den Himmel! Das sind 90 Punkte und eine spektakuläre Geburtstagsfeier. Male die Explosionen in Rot, Weiß und Blau aus, um Amerika den patriotischsten Gruß zu schicken. Herzlichen Glückwunsch zum 250. Geburtstag, USA! Entdecke unser gesamtes Angebot an <a href=\"/\">Punkt-zu-Punkt-Vorlagen</a>."
+      }
     },
-    "seoTitle": "America 250 Feuerwerk Zahlenbild — 90 Punkte zum Leuchten"
-  },
-  {
-    "slug": "america-250-anniversary-liberty-bell-wings-1776-dot-to-dot-puzzle",
-    "name": "Amerika 250 Freiheitsglocke Wings",
-    "seoH1": "Freiheitsglocke Punkt zu Punkt: 64 geflügelte Punkte für 2026",
-    "tagline": "Let Freedom Ring for Amerika's 250th!",
-    "description": "Verbinde 64 einfache Punkte, um die ikonische Freiheitsglocke zu enthüllen, die mit Flügeln schwebt, um das 250. Jubiläum Amerikas zu feiern! Dieses kostenlose Arbeitsblatt hilft kleinen Kindern, die Zahlenfolge und die Feinmotorik zu üben, während sie eines der beliebtesten Symbole der Freiheit Amerikas erkunden. Perfekt für Kinder im Alter von 4–8 Jahren.",
-    "seoDescription": "Verfolge eine geflügelte Freiheitsglocke über 64 Punkte hinweg, während du das 250. Jubiläum Amerikas markierst. Das kostenlose 2026 Arbeitsblatt eignet sich für Kinder im Alter von 4–8 Jahren.",
-    "funFact": "Die Freiheitsglocke ist nach Jahren der Nutzung berühmt geworden, weil sie rissig wurde. Die ursprüngliche Glocke des State House wurde 1751 aus London bestellt, riss beim ersten Testläuten und wurde 1753 von John Pass und John Stow in Philadelphia neu gegossen. Ihre Inschrift lautet: \"Proclaim Liberty Throughout All the Land.\"",
-    "seoImageAlt": "Geflügelte Liberty Bell erklingt aus 64 Punkten auf einer America-250-Vorlage",
-    "dotGuide": {
-      "intro": "Amerika is turning 250 years old — and what better symbol to celebrate than the Freiheitsglocke! This legendary State House bell hung in Philadelphia when the Declaration of Independence was adopted, and its message of liberty became famous in the 1800s. Grab your pencil, find Punkt 1, and let's make freedom ring!",
-      "sections": [
-        {
-          "range": "1–13",
-          "title": "Die Glockenkrone und das Joch",
-          "learn": "Start at Punkt 1 and verbinde through to Punkt 13 to trace the crown and yoke at the very top of the Freiheitsglocke — the sturdy frame that holds it in place. These steady curved and straight lines help Kinder warm up their pencil grip and practise the controlled strokes they'll need for the rest of the picture.",
-          "fact": "The Freiheitsglocke's wooden yoke is made from amerikanisch elm, though historians cannot prove it is the bell's original yoke. The bell was hung from a wooden support so it could swing freely and produce its deep, resonant tone across colonial Philadelphia."
+    {
+      "slug": "eagle-kite-banner-usa-250-dot-to-dot-puzzle",
+      "header": {
+        "title": "Adler-Drachen Zahlenbild: 80 Punkte für America 250",
+        "meta_description": "Ein Adler und ein patriotisches Banner nehmen über 80 Punkte hinweg Fahrt auf. Lade dieses kostenlose Amerika 250 Arbeitsblatt für Kinder im Alter von 5–9 Jahren herunter, das 2026 gefeiert wird.",
+        "og": {
+          "title": "Adler-Drachen Zahlenbild: 80 Punkte für America 250",
+          "description": "Ein Adler und ein patriotisches Banner nehmen über 80 Punkte hinweg Fahrt auf. Lade dieses kostenlose Amerika 250 Arbeitsblatt für Kinder im Alter von 5–9 Jahren herunter, das 2026 gefeiert wird.",
+          "image_alt": "Weißkopfseeadler-Drachen zieht ein patriotisches Banner entlang von 80 Punkten"
         },
-        {
-          "range": "14–26",
-          "title": "Der Glockenkörper",
-          "learn": "Continue from Punkt 14 to Punkt 26 to draw the wide, rounded body of the Freiheitsglocke. These broad, sweeping curves are great practice for smooth wrist movements, helping Kinder develop the Stiftkontrolle they need for confident, fluent handwriting.",
-          "fact": "The Freiheitsglocke weighs 2,080 pounds — nearly a tonne! It was cast from a mix of copper and tin, which is the traditional recipe for bronze. The bell's distinctive deep tone comes from its large size and the precise ratio of metals used in its construction."
-        },
-        {
-          "range": "27–39",
-          "title": "Die hochfliegenden Flügel",
-          "learn": "Trace Punkte 27 through 39 to add the magnificent wings that lift the Freiheitsglocke towards the sky. These bold, sweeping arcs give Kinder a wonderful opportunity to practise long, flowing lines — building the arm movement and directional control that are key early writing skills.",
-          "fact": "The bald Adler — symbol of the Vereinigte Staaten since 1782 — is famous for its enormous wingspan of up to 2.4 metres (8 feet). Its powerful wings allow it to soar on warm air currents called thermals, reaching speeds of 45 miles per hour in level flight and even faster when diving."
-        },
-        {
-          "range": "40–52",
-          "title": "Die Sterne und die patriotischen Details",
-          "learn": "Verbinde Punkte 40 through 52 to add the patriotic Sterne and decorative details that surround the bell. These shorter, more precise lines are great for building fine motor control — Kinder must Konzentration carefully to hit each Punkt accurately, which sharpens the hand–eye coordination needed for reading and writing.",
-          "fact": "The 50 Sterne on the amerikanisch flag each represent one of the 50 states. The first official Stars and Stripes design was approved in 1777 with 13 Sterne and 13 stripes for the original states. New Sterne have been added as new states joined the Union, with the most recent — Hawaii — added on 4 July 1960."
-        },
-        {
-          "range": "53–64",
-          "title": "Die Inschrift „1776“ und der letzte Schliff",
-          "learn": "Finish the Rätsel by connecting Punkte 53 through 64 to complete the \"1776\" inscription and the final flourishes that bring the whole image to life. Take your time with these last Punkte — a steady, careful finish is the mark of a true Punkt-to-Punkt champion!",
-          "fact": "1776 is one of the most important years in amerikanisch history. On 4 July 1776, the Continental Congress formally adopted the Declaration of Independence, proclaiming that all thirteen amerikanisch colonies were kostenlos and independent states. That date is now celebrated every year as Independence Day — Amerika's Geburtstag."
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Adler-Drachen-Banner America 250",
+          "description": "Ein Adler und ein patriotisches Banner nehmen über 80 Punkte hinweg Fahrt auf. Lade dieses kostenlose Amerika 250 Arbeitsblatt für Kinder im Alter von 5–9 Jahren herunter, das 2026 gefeiert wird.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
         }
-      ],
-      "outro": "Wunderbare Arbeit – deine Freiheitsglocke schwingt sich in die Freiheit! Das sind 64 Punkte und ein spektakuläres Symbol der amerikanischen Unabhängigkeit. Male die Glocke in goldener Bronze, die Flügel in Braun und Weiß und die Sterne in Rot, Weiß und Blau aus – der patriotischste Geburtstagsgruß zum 250. Jubiläum. Let freedom ring! Lust auf eine Herausforderung? Triff weitere prähistorische Freunde in unserer Sammlung von <a href=\"/dinosaurs/\">Dinosaurier-Punkt-zu-Punkt-Vorlagen</a>."
-    },
-    "seoTitle": "Liberty Bell Zahlenbild: 64 geflügelte Punkte für 2026"
-  },
-  {
-    "slug": "usa-250-birthday-cake-dot-to-dot-puzzle",
-    "name": "America 250 Geburtstagstorte",
-    "seoH1": "Amerika 250 Geburtstagstorte Punkt zu Punkt — 56 süße Punkte",
-    "tagline": "Backe einen Geburtstagskuchen für Amerikas 250. Geburtstag!",
-    "description": "Verbinde 56 einfache Punkte, um einen prächtigen Geburtstagskuchen zu enthüllen, der Amerikas 250. Jubiläum feiert! Dieses kostenlose Arbeitsblatt hilft kleinen Kindern, die Zahlenreihenfolge und den Umgang mit dem Bleistift zu üben, während sie 250 Jahre amerikanische Geschichte feiern. Perfekt für Kinder im Alter von 4–8 Jahren.",
-    "seoDescription": "Füge Kerzen hinzu und kolorieren den Geburtstagskuchen Amerikas 250. Geburtstag, nachdem du 56 Punkte verbunden hast. Drucke dieses kostenlose PDF für die Feier 2026 für Kinder im Alter von 4–8 Jahren.",
-    "funFact": "Die Tradition der Geburtstagskuchen mit Kerzen soll im 18. Jahrhundert in Deutschland begonnen haben, wo eine Kerze für jedes Lebensjahr auf den Kuchen gelegt wurde. Heute ist das Ausblasen der Kerzen und das Äußern eines Wunsches ein Brauch zur Geburtstagsfeier auf der ganzen Welt!",
-    "seoImageAlt": "Mehrstöckige patriotische Geburtstagstorte, zusammengesetzt aus 56 druckbaren Punkten",
-    "dotGuide": {
-      "intro": "Amerika is turning 250 years old — and every Geburtstag deserves a spectacular cake! This towering celebration cake is decorated with patriotic Sterne, stripes, and all the trimmings for the biggest Geburtstag in amerikanisch history. Nimm einen Bleistift, suche Punkt 1 und let's build this Geburtstag masterpiece layer by layer!",
-      "sections": [
-        {
-          "range": "1–12",
-          "title": "Die unterste Stufe",
-          "learn": "Start at Punkt 1 and verbinde through to Punkt 12 to trace the wide base tier of the Geburtstagskuchen. These steady horizontal and curved strokes help Kinder warm up their pencil grip and practise drawing smooth, even lines that form the foundation of the whole picture.",
-          "fact": "Die Tradition der mehrstöckigen Hochzeits- und Festtagstorten reicht bis ins England des 17. Jahrhunderts zurück, wo das Aufschichten mehrerer Etagen ein Zeichen von Reichtum und Festlichkeit war. Eine hohe, mehrstöckige Torte wurde zum Symbol für ein wahrhaft großartiges Fest."
-        },
-        {
-          "range": "13–28",
-          "title": "Die mittleren Schichten",
-          "learn": "Continue from Punkt 13 to Punkt 28 to add the middle layers of the cake, each one slightly smaller than the one below. Children practise drawing shapes that step inward, which is a wonderful exercise in spatial awareness and controlling line length with each new tier.",
-          "fact": "Traditionell gestalten Konditoren jede Etage einer mehrstöckigen Torte etwas schmaler als die darunterliegende. Dadurch entsteht die klassische Pyramidenform, und die Torte bleibt stabil. Professionelle Tortenbauer verwenden versteckte Stützstäbe und Einlegeböden, um das Gewicht jeder Etage zu tragen."
-        },
-        {
-          "range": "29–42",
-          "title": "Die „Stars and Stripes“-Auszeichnung",
-          "learn": "Trace Punkte 29 through 42 to add the patriotic Sterne and stripe details that decorate the sides of the cake. Children practise a mix of angular star points and straight horizontal lines, switching between the two movement types in the same section — a great challenge for hand control.",
-          "fact": "Red, white, and blue have been the colours of the amerikanisch flag since 1777, when the Flag Resolution established the design. Decorating with these colours is one of the most popular ways Americans express national pride at celebrations, from cupcakes at Schule parties to full-size parade floats."
-        },
-        {
-          "range": "43–50",
-          "title": "Die oberste Etage und die Glasur",
-          "learn": "Verbinde Punkte 43 through 50 to draw the topmost tier and the swirls of frosting piped along the edges. These curving, decorative lines offer a lovely change of pace from the straighter strokes below, and Kinder practise the smooth, flowing wrist movement that makes frosting look deliciously fluffy.",
-          "fact": "Royal icing — the white, hard-setting icing used to decorate celebration cakes — was perfected in 18th-century Britain and became fashionable across Europe and Amerika for grand occasion cakes. Its smooth finish is the perfect canvas for patriotic decorations."
-        },
-        {
-          "range": "51–56",
-          "title": "Die Kerzen und der letzte Schliff",
-          "learn": "Finish the Rätsel by connecting Punkte 51 through 56 to add the candles and the final festive details that bring the whole Geburtstag scene to life. Just six Punkte to complete the celebration — encourage Kinder to slow down and make these last lines their very best!",
-          "fact": "In many Geburtstag traditions, the number of candles on a cake matches the age being celebrated. Imagine how big the candle collection would be for Amerika's 250th — a quarter millennium of history, all flickering on one spectacular cake!"
+      },
+      "body": {
+        "h1": "Adler-Drachen Punkt zu Punkt: 80 Punkte für Amerika 250",
+        "name": "Adler-Drachen-Banner America 250",
+        "tagline": "Schwebe mit dem amerikanischen Adler zum 250. Geburtstag der USA!",
+        "description": "Verbinde 80 einfache Punkte, um einen majestätischen Weißkopfseeadler zu enthüllen, der hoch mit einem patriotischen Banner schwebt, um das 250. Jubiläum Amerikas zu feiern! Dieses kostenlose Arbeitsblatt fördert die Zahlenfolge und die Feinmotorik und weckt Stolz auf 250 Jahre amerikanische Geschichte. Perfekt für Kinder im Alter von 5–9 Jahren.",
+        "fun_fact": "Der Weißkopfseeadler wurde 1782 als Teil des Großen Siegels der Vereinigten Staaten angenommen — nur sechs Jahre nachdem die Unabhängigkeitserklärung unterzeichnet wurde. Er ist jetzt der offizielle Nationalvogel, und sein Bild erscheint bis heute auf Pässen, Münzen und offiziellen Regierungsdokumenten!",
+        "faqs": [
+          {
+            "q": "Wie viele Punkte hat das Punkt-zu-Punkt-Rätsel „Adler-Drachen-Banner America 250“?",
+            "a": "Die Malvorlage „Adler-Drachen-Banner America 250“ hat 80 nummerierte Punkte. Damit ist es ein mitteles Rätsel, ideal für Kinder von 6–9 Jahre (1. bis 3. Klasse). Die Kinder verbinden die Punkte in Zahlenreihenfolge, bis das fertige Bild erscheint, und malen es anschließend aus."
+          },
+          {
+            "q": "Ist die Vorlage „Adler-Drachen-Banner America 250“ kostenlos?",
+            "a": "Ja. Das Arbeitsblatt „Adler-Drachen-Banner America 250“ ist auf DotToDotFreePrintables.com zu 100 % kostenlos — ohne Konto, E-Mail oder Bezahlung. Es lädt sofort als druckfertiges PDF herunter, im Hoch- und Querformat, in A4 oder US Letter."
+          },
+          {
+            "q": "Für welches Alter eignet sich das Arbeitsblatt „Adler-Drachen-Banner America 250“?",
+            "a": "Mit 80 Punkten eignet sich das Rätsel „Adler-Drachen-Banner America 250“ am besten für Kinder von 6–9 Jahre (1. bis 3. Klasse). Jüngere Kinder schaffen es mit etwas Zählhilfe, sichere Zähler lösen es selbstständig und üben dabei die Zahlenfolge bis 80."
+          },
+          {
+            "q": "Welche Fähigkeiten fördert das Rätsel „Adler-Drachen-Banner America 250“?",
+            "a": "Das Verbinden der 80 Punkte fördert Zahlenerkennung und Zählen bis 80, Stiftführung, Auge-Hand-Koordination und Konzentration — genau die feinmotorischen Grundlagen, die aufs Schreibenlernen vorbereiten. Das Ausmalen des fertigen Bildes ist die kreative Belohnung."
+          },
+          {
+            "q": "Was ist ein spannender Fakt zu diesem Rätsel?",
+            "a": "The bald Adler was adopted as part of the Great Seal of the Vereinigte Staaten in 1782 — just six years after the Declaration of Independence was signed. It is now the official national bird, and its image appears on passports, coins, and official government documents to this day! Solche Fakten entdecken Kinder beim Lösen des Rätsels „Adler-Drachen-Banner America 250“."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Amerika is celebrating its 250th Geburtstag, and the nation's most iconic symbol — the bald Adler — is here to lead the festivities! With a patriotic Banner streaming behind it, this majestic bird soars high over the celebration. Eagles have stood for amerikanisch freedom and strength since the very earliest days of the republic. Grab your pencil, find Punkt 1, and let's send this Adler soaring!",
+          "sections": [
+            {
+              "range": "1–16",
+              "title": "Der Kopf und der Schnabel des Adlers",
+              "learn": "Start at Punkt 1 and verbinde through to Punkt 16 to trace the Adler's bold white head and sharp, curved beak. These carefully directed strokes help Kinder warm up their pencil grip and build the confident hand control they'll need for the wings ahead. Encourage them to draw slowly and aim for each Punkt precisely.",
+              "fact": "Weißkopfseeadler sind eigentlich gar nicht kahl – ihr Name leitet sich vom altenglischen Wort „balde“ ab, was „weiß“ bedeutet. Die auffälligen weißen Kopffedern entwickeln sich, wenn der Vogel im Alter von etwa fünf Jahren das Erwachsenenalter erreicht. Vorher haben junge Adler ein braun-weiß gesprenkeltes Gefieder, wodurch sie viel schwerer zu erkennen sind."
+            },
+            {
+              "range": "17–36",
+              "title": "Die ausgebreiteten Flügel",
+              "learn": "Continue from Punkt 17 to Punkt 36 to draw the Adler's powerful, outstretched wings — the most dramatic part of the picture. These long, sweeping strokes from wingtip to body are a wonderful exercise for wrist flexibility and smooth line control. Children practise holding a consistent direction across a larger stretch of the page.",
+              "fact": "A bald Adler's wingspan can reach up to 2.4 metres — almost eight feet from tip to tip — making it one of the largest birds of prey in North Amerika. Those massive wings allow eagles to soar on thermal currents of warm rising air for hours without a single wingbeat, covering enormous distances with very little effort."
+            },
+            {
+              "range": "37–54",
+              "title": "Die Schwanzfedern und Krallen",
+              "learn": "Trace Punkte 37 through 54 to add the fan of white tail feathers and the powerful curved talons below. Children practise a mix of fanning strokes for the feathers and sharp, precise curves for each talon — a great combination for building both fluency and control in a single section.",
+              "fact": "An Adler's talons are its primary hunting tool, capable of gripping with a force of around 400 pounds per square inch — many times stronger than a human hand. The bald Adler also has a specially rough, spiky texture on the soles of its feet called spicules, which help it grip slippery fish pulled straight from rivers and lakes."
+            },
+            {
+              "range": "55–68",
+              "title": "Das patriotische Banner",
+              "learn": "Verbinde Punkte 55 through 68 to draw the flowing Banner that streams behind the Adler. The ribbon-like curves of a Banner in motion are a brilliant challenge for smooth, flowing line work. Encourage Kinder to imagine the Banner fluttering in a summer breeze as they draw each gentle arc.",
+              "fact": "The bald Adler holds a Banner or ribbon in its beak on many famous amerikanisch emblems and seals. On the Great Seal of the Vereinigte Staaten, the Adler holds a ribbon reading \"E Pluribus Unum\" — Latin for \"Out of Many, One\" — a motto that has appeared on amerikanisch coins and documents since 1782."
+            },
+            {
+              "range": "69–80",
+              "title": "Die Stars und der letzte Schliff",
+              "learn": "Finish the Rätsel by connecting Punkte 69 through 80 to add the patriotic Sterne and the final celebratory details that bring the whole scene to life. Just twelve Punkte to complete the picture — encourage Kinder to slow down and make these last lines their very best. A clean, careful finish is the mark of a true Punkt-to-Punkt champion!",
+              "fact": "The 50 Sterne on the amerikanisch flag each represent one of the 50 states in the union. The flag has been updated 27 times as new states joined — the most recent change came in 1960, when Hawaii's star was added. The current 50-star design has now been the official flag for longer than any other version in amerikanisch history."
+            }
+          ],
+          "outro": "Großartige Arbeit – dein America-250-Adler schwebt voller Stolz! Das sind 80 Punkte und ein spektakuläres Symbol der amerikanischen Freiheit. Male den Adler in Braun und Weiß, das Banner in Rot und Gold und die Sterne in Rot, Weiß und Blau aus – der patriotischste Geburtstagsgruß zum 250. Jubiläum. Herzlichen Glückwunsch, USA! Entdecke weitere <a href=\"/usa-250/\">America-250-Vorlagen</a>, damit die Feier weitergeht.",
+          "color_schemes": []
         }
-      ],
-      "outro": "Wunderbare Arbeit – dein America-250-Geburtstagskuchen ist bereit für die Party! Das sind 56 Punkte und ein köstliches Symbol amerikanischer Feierlaune. Male die Etagen in Rot, Weiß und Blau aus und füge goldene Sterne hinzu – der patriotischste 250.-Geburtstagskuchen aller Zeiten. Herzlichen Glückwunsch zum 250. Geburtstag, USA! Mehr Themenspaß findest du in unseren <a href=\"/ocean/\">Punkt-zu-Punkt-Vorlagen von 1 bis 100</a>."
+      }
     },
-    "seoTitle": "America 250 Geburtstagstorte Zahlenbild — 56 süße Punkte"
-  },
-  {
-    "slug": "usa-250-astronaut-dot-to-dot-puzzle",
-    "name": "Amerika 250 Astronaut",
-    "seoH1": "Astronaut Punkt zu Punkt für Amerika 250 – 63 Punkte nach oben",
-    "tagline": "Blast Off to Celebrate Amerika's 250th!",
-    "description": "Verbinde 63 einfache Punkte, um einen heroischen Astronauten zu enthüllen, der Amerikas 250. Jubiläum feiert! Dieses kostenlose Arbeitsblatt hilft kleinen Kindern, die Zahlenreihenfolge und den Umgang mit dem Bleistift zu üben, während es 250 Jahre amerikanische Geschichte und den Entdeckergeist ehrt. Perfekt für Kinder im Alter von 4–8 Jahren.",
-    "seoDescription": "Amerikas erste Mondlandung inspiriert diesen 63-Punkte-Astronauten. Starte ein kostenloses druckbares PDF für Kinder im Alter von 4–8 Jahren während des 2026 Jubiläums der Nation.",
-    "funFact": "Die Vereinigten Staaten waren das erste Land, das Menschen auf den Mond brachte. Am 20. Juli 1969 – nur 193 Jahre nach der Unabhängigkeitserklärung – setzten Neil Armstrong und Buzz Aldrin die ersten Schritte der Menschheit auf der Mondoberfläche.",
-    "seoImageAlt": "Heldenhafter Astronaut winkt im Raumanzug, zusammengesetzt aus 63 druckbaren Punkten",
-    "dotGuide": {
-      "intro": "Amerika is turning 250 years old — and few things capture the amerikanisch spirit of adventure better than an Astronaut! From the first rockets of the Space Race to the Moon landings and beyond, amerikanisch explorers have always reached for the Sterne. Nimm einen Bleistift, suche Punkt 1 und let's suit up for liftoff!",
-      "sections": [
-        {
-          "range": "1–14",
-          "title": "Der Helm",
-          "learn": "Start at Punkt 1 and verbinde through to Punkt 14 to trace the rounded Astronaut helmet. The visor and curved outer shell give Kinder a wonderful warm-up with smooth, wide arcs that build confident Stiftkontrolle from the very first stroke.",
-          "fact": "Astronautenhelme bestehen aus mehreren Schichten aus Polycarbonat und anderen widerstandsfähigen Materialien. Das goldene Visier ist mit einer dünnen Schicht aus echtem Gold überzogen, die die Sonnenstrahlung reflektiert und die Augen der Astronauten vor dem intensiven Sonnenlicht im Weltraum schützt."
+    {
+      "slug": "america-250-birthday-fireworks-dot-to-dot-puzzle",
+      "header": {
+        "title": "America 250 Feuerwerk Zahlenbild — 90 Punkte zum Leuchten",
+        "meta_description": "Feuerwerke markieren den Unabhängigkeitstag seit 1777. Beleuchte eine 90-Punkte-Darstellung mit diesem kostenlosen 2026 Amerika 250 PDF für Kinder im Alter von 6–10 Jahren.",
+        "og": {
+          "title": "America 250 Feuerwerk Zahlenbild — 90 Punkte zum Leuchten",
+          "description": "Feuerwerke markieren den Unabhängigkeitstag seit 1777. Beleuchte eine 90-Punkte-Darstellung mit diesem kostenlosen 2026 Amerika 250 PDF für Kinder im Alter von 6–10 Jahren.",
+          "image_alt": "Aufblühendes Feuerwerk für America 250, gezündet aus 90 druckbaren Punkten"
         },
-        {
-          "range": "15–30",
-          "title": "Der Raumanzug-Torso",
-          "learn": "Continue from Punkt 15 to Punkt 30 to outline the broad torso of the spacesuit. Children practise longer connecting strokes here, drawing the sturdy shoulders and chest that give the Astronaut figure its characteristic boxy, powerful shape.",
-          "fact": "A full NASA spacesuit, called an Extravehicular Mobility Unit (EMU), weighs about 280 pounds on Earth — but it weighs nothing at all in the weightlessness of space! It takes up to 45 minutes for an Astronaut to put one on."
-        },
-        {
-          "range": "31–44",
-          "title": "Die Waffen und Handschuhe",
-          "learn": "Trace Punkte 31 through 44 to draw the Astronaut's arms and bulky gloves. This section features more angular direction changes, which helps Kinder develop the ability to stop, aim, and start a new line — a skill that builds careful number-tracking too.",
-          "fact": "Spacesuit gloves are one of the most complex parts of the suit. They must be flexible enough for astronauts to grip tools and work with their fingers, während being strong enough to protect against temperature swings of more than 500 degrees Fahrenheit in space."
-        },
-        {
-          "range": "45–56",
-          "title": "Die Beine und Stiefel",
-          "learn": "Verbinde Punkte 45 through 56 to complete the lower half of the spacesuit — the legs and thick boots. Children practise steady, parallel lines here, which is great for building consistency and control as they near the end of the Rätsel.",
-          "fact": "Die Moonboots, die während der Apollo-Missionen getragen wurden, verfügten über eine spezielle Außensohle aus einem gewebten Metallgewebe namens Chromel-R. Diese schützte die Füße der Astronauten vor den extremen Temperaturen auf der Mondoberfläche, die zwischen −280°F im Schatten und +260°F in der Sonne schwanken können."
-        },
-        {
-          "range": "57–63",
-          "title": "The amerikanisch Flag and Finishing Details",
-          "learn": "Finish the Rätsel by connecting Punkte 57 through 63 to add the amerikanisch flag patch and the final details that bring the whole Astronaut to life. Just seven Punkte to go — encourage Kinder to make these last lines their neatest and most precise!",
-          "fact": "amerikanisch astronauts have worn a flag patch on the left shoulder of their spacesuit since the Apollo missions. Six amerikanisch flags were planted on the Moon between 1969 and 1972, and NASA lunar images suggest that most of them are still standing today."
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Amerika 250 Birthday Fireworks",
+          "description": "Feuerwerke markieren den Unabhängigkeitstag seit 1777. Beleuchte eine 90-Punkte-Darstellung mit diesem kostenlosen 2026 Amerika 250 PDF für Kinder im Alter von 6–10 Jahren.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
         }
-      ],
-      "outro": "Hervorragende Arbeit – dein America-250-Astronaut ist startklar! Das sind 63 Punkte und ein unglaubliches Symbol für amerikanischen Entdeckergeist und Mut. Male den Raumanzug weiß aus und ergänze patriotische Details in Rot, Weiß und Blau, damit dein Astronaut stilvoll abhebt. Herzlichen Glückwunsch zum 250. Geburtstag, USA – ad astra! Entdecke weitere kostenlose <a href=\"/\">Punkt-zu-Punkt-Vorlagen</a> für jedes Alter."
-    },
-    "seoTitle": "Astronaut Zahlenbild zu America 250 — 63 Punkte nach oben"
-  },
-  {
-    "slug": "usa-250-anniversary-airplane-banner-dot-to-dot-puzzle",
-    "name": "Flugzeugbanner zum 250-jährigen Jubiläum der USA",
-    "seoH1": "Flugzeugbanner Punkt zu Punkt: 54 Punkte für Amerika 250",
-    "tagline": "Fly High for Amerika's 250th Anniversary!",
-    "description": "Verbinde 54 einfache Punkte, um ein klassisches Doppeldeckerflugzeug zu enthüllen, das ein patriotisches Banner hinter sich herzieht, um Amerikas 250. Jubiläum zu feiern! Dieses kostenlose Arbeitsblatt hilft kleinen Kindern, die Zahlenreihenfolge und den Umgang mit dem Bleistift zu üben, während es 250 Jahre amerikanische Geschichte und den Pioniergeist des Flugs feiert. Perfekt für Kinder im Alter von 4–8 Jahren.",
-    "seoDescription": "Ein Doppeldeckerflugzeug trägt ein Amerika 250 Banner durch 54 Punkte. Lade das kostenlose Arbeitsblatt für das Jubiläum 2026 für junge Flugbegeisterte im Alter von 4–8 Jahren herunter.",
-    "funFact": "Die Gebrüder Wright vollführten am 17. Dezember 1903 in Kitty Hawk, North Carolina, den weltweit ersten motorisierten Flugzeugflug – gerade einmal 127 Jahre nach der Unterzeichnung der Unabhängigkeitserklärung. Dieser erste Flug dauerte zwar nur 12 Sekunden und erstreckte sich über eine Strecke von 120 Fuß, doch er veränderte die Welt für immer.",
-    "seoImageAlt": "Klassischer Doppeldecker zieht ein America-250-Banner über 54 druckbare Punkte",
-    "dotGuide": {
-      "intro": "Amerika is turning 250 years old — and what better way to spread the Geburtstag message than with a patriotic Flugzeug Banner streaking across the sky? Since the Wright Brothers' first flight in 1903, Americans have loved pushing the boundaries of aviation. Today, Banner-towing planes are a familiar sight at celebrations, beaches, and sporting events from coast to coast. Nimm einen Bleistift, suche Punkt 1 und let's get this plane airborne!",
-      "sections": [
-        {
-          "range": "1–12",
-          "title": "Die Nase und der Propeller",
-          "learn": "Start at Punkt 1 and verbinde through to Punkt 12 to trace the rounded nose of the aeroplane and the spinning propeller out front. These tight curves and angled propeller blades make a lively warm-up that builds precise Stiftkontrolle right from the start.",
-          "fact": "Der Propeller eines Flugzeugs mit Kolbenmotor funktioniert genau wie ein rotierender Flügel – jedes Blatt ist so geformt, dass es beim Drehen durch die Luft einen Vorwärtsschub erzeugt. Frühe Propeller aus Holz wurden von Hand mit exakten Krümmungen geschnitzt, und erfahrene Handwerker konnten einen Propeller anfertigen, der perfekt auf die Leistung eines bestimmten Motors abgestimmt war."
-        },
-        {
-          "range": "13–26",
-          "title": "Das Cockpit und der Rumpf",
-          "learn": "Continue from Punkt 13 to Punkt 26 to draw the cockpit canopy and the long body of the fuselage. Children practise a mix of curved and straight strokes that capture the sleek, streamlined shape of the aircraft, building Selbstvertrauen and line consistency across a larger section of the page.",
-          "fact": "Frühe Flugzeuge hatten offene Cockpits ohne Windschutzscheibe – die Piloten trugen Lederhelme, Schutzbrillen und Schals, um sich in großer Höhe vor Wind und Kälte zu schützen. Geschlossene Cockpits mit Glaskuppeln wurden erst in den 1930er Jahren bei den meisten Flugzeugen zum Standard, was das Fliegen wesentlich angenehmer machte."
-        },
-        {
-          "range": "27–38",
-          "title": "Die Flügel",
-          "learn": "Trace Punkte 27 through 38 to draw the aeroplane's outstretched wings. These long, horizontal strokes are a brilliant exercise for smooth, even line control across a wide distance. Encourage Kinder to aim for each Punkt calmly and let the pencil glide — just like a plane riding a current of smooth air.",
-          "fact": "An aeroplane's wings generate lift because of their curved upper surface and flatter underside. Air moving over the curved top travels faster and creates lower pressure, während slower air beneath pushes up — and together, this pressure difference lifts the entire aircraft off the ground."
-        },
-        {
-          "range": "39–47",
-          "title": "Die Heckflosse und das Ruder",
-          "learn": "Verbinde Punkte 39 through 47 to draw the vertical tail fin and the horizontal stabilisers at the back of the plane. These angled, precise strokes help Kinder practise direction changes and corner points — a great challenge for building careful aim at each numbered Punkt.",
-          "fact": "Die Heckflosse – auch als Höhenleitwerk bezeichnet – sorgt dafür, dass das Flugzeug geradeaus fliegt, genau wie die Flügel eines Pfeils. Ohne sie würde die Nase schon bei der geringsten Brise unkontrolliert nach links und rechts ausschlagen. Die kleineren Querruder oberhalb und unterhalb der Heckflosse steuern die Neigung des Flugzeugs nach oben und unten."
-        },
-        {
-          "range": "48–54",
-          "title": "Das Banner und der letzte Schliff",
-          "learn": "Finish the Rätsel by connecting Punkte 48 through 54 to add the flowing patriotic Banner being towed behind the plane. Just seven Punkte to complete the picture — encourage Kinder to draw the ribbon-like Banner with a gentle, flowing wrist movement that makes it look as if it's fluttering in the breeze.",
-          "fact": "Aerial Banner towing began in the Vereinigte Staaten in the 1920s, when clever pilots realised they could earn extra money by flying advertising messages over crowded beaches and sporting events. Today, Banner planes often tow messages hundreds of feet long and can be seen for miles on a clear day."
+      },
+      "body": {
+        "h1": "Amerika 250 Feuerwerk Punkt zu Punkt — Beleuchte 90 Punkte",
+        "name": "Amerika 250 Birthday Fireworks",
+        "tagline": "Beleuchte den Himmel zum 250. Geburtstag Amerikas!",
+        "description": "Verbinde 90 einfache Punkte, um ein spektakuläres Feuerwerk zu enthüllen, das das 250. Jubiläum Amerikas feiert! Dieses kostenlose Arbeitsblatt fördert die Zahlenfolge und die Feinmotorik, während es patriotischen Stolz entfacht. Perfekt für Kinder im Alter von 6–10 Jahren, die bereit sind, eine längere Punkt-zu-Punkt-Herausforderung anzugehen.",
+        "fun_fact": "Feuerwerke sind seit dem allerersten Jubiläum am 4. Juli 1777 Teil der Feierlichkeiten zum Unabhängigkeitstag — nur ein Jahr nachdem die Unabhängigkeitserklärung unterzeichnet wurde!",
+        "faqs": [
+          {
+            "q": "Wie viele Punkte hat das Punkt-zu-Punkt-Rätsel „Amerika 250 Birthday Fireworks“?",
+            "a": "Die Malvorlage „Amerika 250 Birthday Fireworks“ hat 90 nummerierte Punkte. Damit ist es ein mitteles Rätsel, ideal für Kinder von 6–9 Jahre (1. bis 3. Klasse). Die Kinder verbinden die Punkte in Zahlenreihenfolge, bis das fertige Bild erscheint, und malen es anschließend aus."
+          },
+          {
+            "q": "Ist die Vorlage „Amerika 250 Birthday Fireworks“ kostenlos?",
+            "a": "Ja. Das Arbeitsblatt „Amerika 250 Birthday Fireworks“ ist auf DotToDotFreePrintables.com zu 100 % kostenlos — ohne Konto, E-Mail oder Bezahlung. Es lädt sofort als druckfertiges PDF herunter, im Hoch- und Querformat, in A4 oder US Letter."
+          },
+          {
+            "q": "Für welches Alter eignet sich das Arbeitsblatt „Amerika 250 Birthday Fireworks“?",
+            "a": "Mit 90 Punkten eignet sich das Rätsel „Amerika 250 Birthday Fireworks“ am besten für Kinder von 6–9 Jahre (1. bis 3. Klasse). Jüngere Kinder schaffen es mit etwas Zählhilfe, sichere Zähler lösen es selbstständig und üben dabei die Zahlenfolge bis 90."
+          },
+          {
+            "q": "Welche Fähigkeiten fördert das Rätsel „Amerika 250 Birthday Fireworks“?",
+            "a": "Das Verbinden der 90 Punkte fördert Zahlenerkennung und Zählen bis 90, Stiftführung, Auge-Hand-Koordination und Konzentration — genau die feinmotorischen Grundlagen, die aufs Schreibenlernen vorbereiten. Das Ausmalen des fertigen Bildes ist die kreative Belohnung."
+          },
+          {
+            "q": "Was ist ein spannender Fakt zu diesem Rätsel?",
+            "a": "Fireworks have been part of amerikanisch Independence Day celebrations since the very first Jubiläum on 4 July 1777 — just one year after the Declaration of Independence was signed! Solche Fakten entdecken Kinder beim Lösen des Rätsels „Amerika 250 Birthday Fireworks“."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Amerika is turning 250 years old — and what better way to mark a quarter millennium than with a sky full of dazzling Feuerwerk? Fireworks have lit up the Fourth of July since the very earliest days of the nation, turning the night sky into a canvas of colour and light. Grab your pencil, find Punkt 1, and let's set off this spectacular Geburtstag display!",
+          "sections": [
+            {
+              "range": "1–18",
+              "title": "Der Nachthimmel",
+              "learn": "Start at Punkt 1 and verbinde through to Punkt 18 to trace the deep, starry sky that forms the backdrop of the display. These wide sweeping strokes help Kinder warm up their pencil grip and build the smooth, confident lines they'll need for the exciting Feuerwerk bursts ahead.",
+              "fact": "The night sky looks dark because the sun is on the other side of the Earth, but it is never truly empty — on a clear night away from city lights, you can see up to 4,500 Sterne with the naked eye. That same sky greeted the Founding Fathers when they first celebrated independence in 1776."
+            },
+            {
+              "range": "19–36",
+              "title": "Der erste Feuerwerksstoß",
+              "learn": "Continue from Punkt 19 to Punkt 36 to draw the first big firework explosion bursting open in the sky. Children practise radiating lines that shoot outward from a central point — a wonderful exercise for directional control and wrist rotation.",
+              "fact": "Feuerwerk wurde vor über 1.000 Jahren in China erfunden, als Alchemisten entdeckten, dass eine Mischung aus Holzkohle, Schwefel und Kaliumnitrat einen hellen Lichtblitz und einen lauten Knall erzeugt. Das Rezept gelangte schließlich nach Europa und dann nach Amerika, wo es zum typischen Begleitgeräusch von Festlichkeiten wurde."
+            },
+            {
+              "range": "37–54",
+              "title": "Die herabfallenden Funken",
+              "learn": "Trace Punkte 37 through 54 to add the glittering cascade of sparks that trail downward after the main burst. These curving, falling lines give the Feuerwerk their signature weeping-willow shape and offer great practice in drawing smooth, gentle curves.",
+              "fact": "The different colours in Feuerwerk come from burning different metal salts: strontium salts produce red, barium salts make green, copper compounds create blue, and sodium compounds give off bright yellow. Mixing these salts lets pyrotechnicians paint the sky with almost any colour they choose."
+            },
+            {
+              "range": "55–72",
+              "title": "Der große Finale-Ausbruch",
+              "learn": "Verbinde Punkte 55 through 72 to reveal the biggest and brightest firework of all — the grand finale explosion that fills the centre of the sky. Children practise a dense starburst of lines converging at a single point, which is a brilliant challenge for precision and spatial planning.",
+              "fact": "The \"grand finale\" tradition in Feuerwerk displays came about because early professional pyrotechnicians wanted to end shows with maximum impact before the crowd could disperse. Today's grand finales can fire hundreds of shells per minute, turning the sky almost as bright as daylight for a thrilling few seconds."
+            },
+            {
+              "range": "73–90",
+              "title": "Die Sterne, die Flagge und der letzte Schliff",
+              "learn": "Finish the Rätsel by connecting Punkte 73 through 90 to add the patriotic Sterne, the waving amerikanisch flag, and the final celebratory details that complete the Geburtstag scene. Encourage Kinder to take their time — these last Punkte bring the whole picture to life. A careful, confident finish is the mark of a true Punkt-to-Punkt champion!",
+              "fact": "The amerikanisch flag has 50 Sterne — one for each state — and 13 stripes representing the original colonies. On the Fourth of July each year, the flag is flown from sunrise to sunset at homes, schools, and government buildings across the country, from the smallest town to the White House."
+            }
+          ],
+          "outro": "Großartige Arbeit – dein America-250-Feuerwerk erleuchtet den Himmel! Das sind 90 Punkte und eine spektakuläre Geburtstagsfeier. Male die Explosionen in Rot, Weiß und Blau aus, um Amerika den patriotischsten Gruß zu schicken. Herzlichen Glückwunsch zum 250. Geburtstag, USA! Entdecke unser gesamtes Angebot an <a href=\"/\">Punkt-zu-Punkt-Vorlagen</a>.",
+          "color_schemes": []
         }
-      ],
-      "outro": "Fantastische Arbeit – dein America-250-Jubiläumsflugzeug hebt ab! Das sind 54 Punkte und eine himmelhohe Geburtstagsbotschaft für Amerika. Male das Flugzeug in Rot und Weiß mit blauen Sterndetails aus und fülle das Banner mit patriotischen Farben, um 250 unglaubliche Jahre amerikanischer Geschichte zu feiern. Herzlichen Glückwunsch zum 250. Geburtstag, USA! Perfekt fürs Klassenzimmer – hier gibt es weitere <a href=\"/playgrounds/\">Punkt-zu-Punkt-Arbeitsblätter</a>."
+      }
     },
-    "seoTitle": "Flugzeug mit Banner Zahlenbild: 54 Punkte für America 250"
-  },
-  {
-    "slug": "usa-250-space-shuttle-dot-to-dot-puzzle",
-    "name": "America 250 Spaceshuttle",
-    "seoH1": "Space Shuttle Punkt zu Punkt – 50-Punkte Amerika 250 Start",
-    "tagline": "Starte in Amerikas 250. Geburtstag mit dem Space Shuttle!",
-    "description": "Verbinde 50 einfache Punkte, um ein mächtiges Space Shuttle zu enthüllen, das abhebt, um Amerikas 250. Jubiläum zu feiern! Dieses kostenlose Arbeitsblatt hilft kleinen Kindern, die Zahlenreihenfolge und den Umgang mit dem Bleistift zu üben, während es 250 Jahre amerikanische Erkundung und Innovation ehrt. Perfekt für Kinder im Alter von 4–8 Jahren.",
-    "seoDescription": "Die Space Shuttles von NASA führten 135 Missionen durch. Baue einen Start über 50 Punkte mit diesem kostenlosen druckbaren PDF für Kinder im Alter von 4–8 Jahren.",
-    "funFact": "Das Space Shuttle-Programm von NASA flog zwischen 1981 und 2011 135 Missionen und transportierte Astronauten, Satelliten und die Bausteine der Internationalen Raumstation in den Orbit. Die fünf Shuttles – Columbia, Challenger, Discovery, Atlantis und Endeavour – verbrachten insgesamt mehr als 1.300 Tage im Weltraum.",
-    "seoImageAlt": "Spaceshuttle hebt ab in einer Wolke aus 50 nummerierten druckbaren Punkten",
-    "dotGuide": {
-      "intro": "Amerika is turning 250 years old — and few machines embody the nation's spirit of exploration and ambition better than the Space Shuttle! For 30 years, the Shuttle carried amerikanisch astronauts to orbit, launched telescopes that changed our view of the universe, and helped build a space station shared with the world. Nimm einen Bleistift, suche Punkt 1 und let's send this Shuttle soaring!",
-      "sections": [
-        {
-          "range": "1–10",
-          "title": "Die Nasenkonus und das Cockpit",
-          "learn": "Start at Punkt 1 and verbinde through to Punkt 10 to trace the sharp nose cone and the row of cockpit windows just below it. These precise, angular strokes make a great warm-up for young artists, helping them build the steady hand control they will need for the wings and engines ahead.",
-          "fact": "Die Nasenkonus und der vordere Rumpf des Space Shuttles waren mit Tausenden von Hitzeschutzkacheln bedeckt, die jeweils aus einem Quarzmaterial bestanden, das so wirksam war, dass man eine Kachel bereits Sekunden, nachdem sie auf 2.300 Grad Fahrenheit erhitzt worden war – die Temperatur, die sie beim Wiedereintritt erreichte –, mit bloßer Hand anfassen konnte."
+    {
+      "slug": "america-250-anniversary-liberty-bell-wings-1776-dot-to-dot-puzzle",
+      "header": {
+        "title": "Liberty Bell Zahlenbild: 64 geflügelte Punkte für 2026",
+        "meta_description": "Verfolge eine geflügelte Freiheitsglocke über 64 Punkte hinweg, während du das 250. Jubiläum Amerikas markierst. Das kostenlose 2026 Arbeitsblatt eignet sich für Kinder im Alter von 4–8 Jahren.",
+        "og": {
+          "title": "Liberty Bell Zahlenbild: 64 geflügelte Punkte für 2026",
+          "description": "Verfolge eine geflügelte Freiheitsglocke über 64 Punkte hinweg, während du das 250. Jubiläum Amerikas markierst. Das kostenlose 2026 Arbeitsblatt eignet sich für Kinder im Alter von 4–8 Jahren.",
+          "image_alt": "Geflügelte Liberty Bell erklingt aus 64 Punkten auf einer America-250-Vorlage"
         },
-        {
-          "range": "11–24",
-          "title": "Der Hauptrumpf",
-          "learn": "Continue from Punkt 11 to Punkt 24 to draw the long, cylindrical body of the orbiter — the part that carried the crew cabin, payload bay, and all the mission equipment. Children practise straight, parallel lines here, which builds excellent consistency and helps them understand the overall shape before adding the exciting details around it.",
-          "fact": "The Shuttle's enormous payload bay — the cargo area behind the crew cabin — was 60 feet long and 15 feet wide, big enough to carry a Schule bus into orbit. It was used to deploy satellites, carry science experiments, and ferry the massive modules that were bolted together to build the International Space Station."
-        },
-        {
-          "range": "25–36",
-          "title": "Die Delta-Flügel",
-          "learn": "Trace Punkte 25 through 36 to draw the Shuttle's distinctive swept-back delta wings. These long, diagonal strokes are a wonderful exercise in confident line control — Kinder practise drawing from a wide wingtip back toward the body of the orbiter in one smooth, deliberate movement.",
-          "fact": "Das Space Shuttle war das weltweit erste wiederverwendbare Raumfahrzeug, das so konstruiert war, dass es bei der Landung wie ein Segelflugzeug flog. Nach dem Wiedereintritt in die Atmosphäre verfügte es über keine Triebwerksleistung mehr und hatte nur eine einzige Chance zur Landung – die Piloten nannten es „das schwerste Segelflugzeug der Welt“. Die deltaförmigen Flügel verliehen ihm den nötigen Auftrieb, um sicher auf die Landebahn zu gleiten."
-        },
-        {
-          "range": "37–44",
-          "title": "Die Heckflosse und die Haupttriebwerke",
-          "learn": "Verbinde Punkte 37 through 44 to draw the tall vertical tail fin and the cluster of three main engines at the back of the orbiter. Children practise a tall upward stroke for the fin and then smaller, rounded shapes for each engine bell — a great mix of large and small movements in the same section.",
-          "fact": "Jedes Space-Shuttle-Haupttriebwerk (SSME) gehörte zu den leistungsstärksten Raketentriebwerken, die je gebaut wurden, und erzeugte einen Schub von etwa 375.000 Pfund. Die drei Triebwerke verbrannten flüssigen Wasserstoff und flüssigen Sauerstoff gemeinsam und erzeugten dabei eine so heiße Flamme, dass Wasser auf die Startrampe gegossen werden musste, um den Lärm und die Hitze beim Start zu dämpfen."
-        },
-        {
-          "range": "45–50",
-          "title": "Das Missionsabzeichen und der letzte Schliff",
-          "learn": "Finish the Rätsel by connecting Punkte 45 through 50 to add the amerikanisch flag, mission patch, and the final details that bring the whole Shuttle to life. Just six Punkte to complete this historic spacecraft — encourage Kinder to make these last lines their neatest and most precise for a picture worthy of a mission patch!",
-          "fact": "Jede Space-Shuttle-Mission hatte ihr eigenes, einzigartiges Besatzungsabzeichen, das von den Astronauten selbst entworfen und auf ihren Fluganzügen getragen wurde. Diese runden Abzeichen zeigten Grafiken, die Namen der Besatzungsmitglieder und Symbole, die die Ziele der Mission darstellten – und sie wurden zu begehrten Sammlerstücken für Weltraumbegeisterte auf der ganzen Welt."
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Amerika 250 Freiheitsglocke Wings",
+          "description": "Verfolge eine geflügelte Freiheitsglocke über 64 Punkte hinweg, während du das 250. Jubiläum Amerikas markierst. Das kostenlose 2026 Arbeitsblatt eignet sich für Kinder im Alter von 4–8 Jahren.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
         }
-      ],
-      "outro": "Unglaubliche Arbeit – dein America-250-Spaceshuttle hat Startfreigabe! Das sind 50 Punkte und ein großartiges Symbol für amerikanischen Erfindergeist und Entdeckerlust. Male den Orbiter weiß mit schwarzen Hitzekacheln aus, füge rote und blaue Flaggenmarkierungen hinzu, und dein Shuttle ist bereit, in die Geschichtsbücher zu starten. Herzlichen Glückwunsch zum 250. Geburtstag, USA – der Himmel ist definitiv nicht die Grenze! Entdecke weitere <a href=\"/usa-250/\">America-250-Vorlagen</a>, damit die Feier weitergeht."
-    },
-    "seoTitle": "Spaceshuttle Zahlenbild — 50-Punkte-Start zu America 250"
-  },
-  {
-    "slug": "usa-250-anniversary-sports-kids-podium-dot-to-dot-puzzle",
-    "name": "America 250-Jahr-Jubiläum – Sport-Kinder-Podium",
-    "seoH1": "Amerika 250 Podium Punkt zu Punkt: eine 124-Punkte-Herausforderung",
-    "tagline": "Cheer for Amerika's Young Champions at 250!",
-    "description": "Verbinde 124 Punkte, um drei junge Athleten zu enthüllen, die auf einem patriotischen Siegerpodium für Amerikas 250. Jubiläum feiern! Dieses kostenlose Arbeitsblatt bietet Kindern im Alter von 6–10 Jahren eine befriedigende Herausforderung zur Zahlenreihenfolge, während es 250 Jahre amerikanischen Sportsgeist, Teamarbeit und den Wettbewerbsgeist ehrt.",
-    "seoDescription": "Ein 124-Punkte-Podium bietet selbstbewussten Zählern eine Amerika 250 Herausforderung. Drucke das kostenlose PDF für die Sportfeier für Kinder im Alter von 6–10 Jahren.",
-    "funFact": "Die Vereinigten Staaten haben seit den ersten modernen Spielen 1896 an fast allen Sommer-Olympischen Spielen teilgenommen und führen alle Nationen in der Gesamtzahl der olympischen Goldmedaillen an. Amerikanische Athleten standen mehr als 1.000 Mal auf dem obersten Podest — ein Beweis dafür, dass der sportliche Geist der USA so stark ist wie ihre Geschichte lang ist!",
-    "seoImageAlt": "Drei junge Athleten feiern auf einem Siegerpodest, aufgebaut aus 124 Punkten",
-    "dotGuide": {
-      "intro": "Amerika is turning 250 years old — and the nation is celebrating with its finest young champions on the winner's podium! From the first Olympic games to neighbourhood little leagues, sports have always been woven into the amerikanisch spirit: the thrill of competition, the joy of teamwork, and the pride of standing tall after giving your very best. Nimm einen Bleistift, suche Punkt 1 und let's build this podium step by step!",
-      "sections": [
-        {
-          "range": "1–25",
-          "title": "Das Podest und die Stufen",
-          "learn": "Start at Punkt 1 and verbinde through to Punkt 25 to trace the solid, stepped base of the winner's podium. The three platforms — labelled 1st, 2nd, and 3rd — are built from firm rectangular shapes and horizontal lines. These steady, geometric strokes make an excellent warm-up, helping Kinder settle into a rhythm and build the confident Stiftkontrolle they will need for the more detailed Abschnitte ahead.",
-          "fact": "Das dreistufige Siegerpodest feierte bei den Olympischen Sommerspielen 1932 in Los Angeles sein Debüt, nachdem es bereits bei den Olympischen Winterspielen 1932 in Lake Placid zum Einsatz gekommen war. Das Design hinterließ einen so starken visuellen Eindruck, dass es bei Sportwettkämpfen auf der ganzen Welt übernommen wurde und bis heute ein universelles Symbol für sportliche Leistungen ist."
-        },
-        {
-          "range": "26–50",
-          "title": "Die Körper und die Trikots der jungen Sportler",
-          "learn": "Continue from Punkt 26 to Punkt 50 to draw the bodies and sports uniforms of the three young athletes standing proudly on their podium steps. Children practise a variety of strokes here — straight lines for legs, gentle curves for torsos, and angled shapes for outstretched arms — making this section a wonderful all-round exercise for pencil flexibility and directional control.",
-          "fact": "Sports uniforms have changed dramatically over 250 years of amerikanisch history. Early 19th-century athletes competed in everyday work clothes, während today's sportswear is engineered from high-tech fabrics that wick moisture, reduce drag, and even monitor heart rate. The Stars and Stripes appear proudly on USA team uniforms at every international competition."
-        },
-        {
-          "range": "51–75",
-          "title": "Die Köpfe, Gesichter und Mimiken",
-          "learn": "Trace Punkte 51 through 75 to add the three young athletes' heads and the joyful expressions on their faces. The rounded curves of each head and the small, precise details of eyes, noses, and smiles are a delightful challenge that trains careful observation and fine Stiftkontrolle. Encourage Kinder to slow down here — these little details are what bring the whole picture to life.",
-          "fact": "Smiling winners on a podium have been a feature of amerikanisch sporting culture since the early 20th century. Today, podium celebrations are broadcast live to millions of viewers around the world. When amerikanisch athletes stand on the top step and the Star-Spangled Banner plays, it is one of the most watched moments in international sport."
-        },
-        {
-          "range": "76–100",
-          "title": "Die Medaillen, Pokale und Bänder",
-          "learn": "Verbinde Punkte 76 through 100 to draw the gleaming medals hanging around the athletes' necks, the trophies in their hands, and the decorative ribbons that frame the podium. Children practise circular shapes for the medal discs, angular outlines for the trophies, and flowing curves for the ribbons — a rich variety of strokes that keeps the challenge fresh and engaging.",
-          "fact": "Olympic gold medals are not actually solid gold — they are made from silver coated with at least six grams of gold plating. The tradition of awarding gold, silver, and bronze medals for first, second, and third place began at the 1904 St Louis Olympics, held in the Vereinigte Staaten. The city of St Louis was celebrating the centennial of the Louisiana Purchase at the same time, giving those games an especially patriotic amerikanisch flavour."
-        },
-        {
-          "range": "101–124",
-          "title": "Die Sterne, das Banner und der letzte Schliff",
-          "learn": "Finish the Rätsel by connecting Punkte 101 through 124 to add the patriotic Sterne, the celebratory Banner above the podium, and the final decorative details that transform this scene into a proper America 250 Geburtstag celebration. These last 24 Punkte reward Kinder for completing a genuinely challenging Rätsel — encourage them to make every line count for a finish they can be proud of!",
-          "fact": "The America 250 Jubiläum falls on July 4, 2026, exactly 250 years after the Declaration of Independence was adopted. From community races to national championships, Americans can mark the occasion with teamwork, friendly competition, and the pursuit of excellence."
+      },
+      "body": {
+        "h1": "Freiheitsglocke Punkt zu Punkt: 64 geflügelte Punkte für 2026",
+        "name": "Amerika 250 Freiheitsglocke Wings",
+        "tagline": "Let Freedom Ring for Amerika's 250th!",
+        "description": "Verbinde 64 einfache Punkte, um die ikonische Freiheitsglocke zu enthüllen, die mit Flügeln schwebt, um das 250. Jubiläum Amerikas zu feiern! Dieses kostenlose Arbeitsblatt hilft kleinen Kindern, die Zahlenfolge und die Feinmotorik zu üben, während sie eines der beliebtesten Symbole der Freiheit Amerikas erkunden. Perfekt für Kinder im Alter von 4–8 Jahren.",
+        "fun_fact": "Die Freiheitsglocke ist nach Jahren der Nutzung berühmt geworden, weil sie rissig wurde. Die ursprüngliche Glocke des State House wurde 1751 aus London bestellt, riss beim ersten Testläuten und wurde 1753 von John Pass und John Stow in Philadelphia neu gegossen. Ihre Inschrift lautet: \"Proclaim Liberty Throughout All the Land.\"",
+        "faqs": [
+          {
+            "q": "Wie viele Punkte hat das Punkt-zu-Punkt-Rätsel „Amerika 250 Freiheitsglocke Wings“?",
+            "a": "Die Malvorlage „Amerika 250 Freiheitsglocke Wings“ hat 64 nummerierte Punkte. Damit ist es ein leicht bis mitteles Rätsel, ideal für Kinder von 5–8 Jahre (Vorschule bis 2. Klasse). Die Kinder verbinden die Punkte in Zahlenreihenfolge, bis das fertige Bild erscheint, und malen es anschließend aus."
+          },
+          {
+            "q": "Ist die Vorlage „Amerika 250 Freiheitsglocke Wings“ kostenlos?",
+            "a": "Ja. Das Arbeitsblatt „Amerika 250 Freiheitsglocke Wings“ ist auf DotToDotFreePrintables.com zu 100 % kostenlos — ohne Konto, E-Mail oder Bezahlung. Es lädt sofort als druckfertiges PDF herunter, im Hoch- und Querformat, in A4 oder US Letter."
+          },
+          {
+            "q": "Für welches Alter eignet sich das Arbeitsblatt „Amerika 250 Freiheitsglocke Wings“?",
+            "a": "Mit 64 Punkten eignet sich das Rätsel „Amerika 250 Freiheitsglocke Wings“ am besten für Kinder von 5–8 Jahre (Vorschule bis 2. Klasse). Jüngere Kinder schaffen es mit etwas Zählhilfe, sichere Zähler lösen es selbstständig und üben dabei die Zahlenfolge bis 64."
+          },
+          {
+            "q": "Welche Fähigkeiten fördert das Rätsel „Amerika 250 Freiheitsglocke Wings“?",
+            "a": "Das Verbinden der 64 Punkte fördert Zahlenerkennung und Zählen bis 64, Stiftführung, Auge-Hand-Koordination und Konzentration — genau die feinmotorischen Grundlagen, die aufs Schreibenlernen vorbereiten. Das Ausmalen des fertigen Bildes ist die kreative Belohnung."
+          },
+          {
+            "q": "Was ist ein spannender Fakt zu diesem Rätsel?",
+            "a": "The Freiheitsglocke famously cracked after years of use. The original State House bell was ordered from London in 1751, cracked on its first test ring, and was recast in Philadelphia by John Pass and John Stow in 1753. Its inscription reads \"Proclaim Liberty Throughout All the Land.\" Solche Fakten entdecken Kinder beim Lösen des Rätsels „Amerika 250 Freiheitsglocke Wings“."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Amerika is turning 250 years old — and what better symbol to celebrate than the Freiheitsglocke! This legendary State House bell hung in Philadelphia when the Declaration of Independence was adopted, and its message of liberty became famous in the 1800s. Grab your pencil, find Punkt 1, and let's make freedom ring!",
+          "sections": [
+            {
+              "range": "1–13",
+              "title": "Die Glockenkrone und das Joch",
+              "learn": "Start at Punkt 1 and verbinde through to Punkt 13 to trace the crown and yoke at the very top of the Freiheitsglocke — the sturdy frame that holds it in place. These steady curved and straight lines help Kinder warm up their pencil grip and practise the controlled strokes they'll need for the rest of the picture.",
+              "fact": "The Freiheitsglocke's wooden yoke is made from amerikanisch elm, though historians cannot prove it is the bell's original yoke. The bell was hung from a wooden support so it could swing freely and produce its deep, resonant tone across colonial Philadelphia."
+            },
+            {
+              "range": "14–26",
+              "title": "Der Glockenkörper",
+              "learn": "Continue from Punkt 14 to Punkt 26 to draw the wide, rounded body of the Freiheitsglocke. These broad, sweeping curves are great practice for smooth wrist movements, helping Kinder develop the Stiftkontrolle they need for confident, fluent handwriting.",
+              "fact": "The Freiheitsglocke weighs 2,080 pounds — nearly a tonne! It was cast from a mix of copper and tin, which is the traditional recipe for bronze. The bell's distinctive deep tone comes from its large size and the precise ratio of metals used in its construction."
+            },
+            {
+              "range": "27–39",
+              "title": "Die hochfliegenden Flügel",
+              "learn": "Trace Punkte 27 through 39 to add the magnificent wings that lift the Freiheitsglocke towards the sky. These bold, sweeping arcs give Kinder a wonderful opportunity to practise long, flowing lines — building the arm movement and directional control that are key early writing skills.",
+              "fact": "The bald Adler — symbol of the Vereinigte Staaten since 1782 — is famous for its enormous wingspan of up to 2.4 metres (8 feet). Its powerful wings allow it to soar on warm air currents called thermals, reaching speeds of 45 miles per hour in level flight and even faster when diving."
+            },
+            {
+              "range": "40–52",
+              "title": "Die Sterne und die patriotischen Details",
+              "learn": "Verbinde Punkte 40 through 52 to add the patriotic Sterne and decorative details that surround the bell. These shorter, more precise lines are great for building fine motor control — Kinder must Konzentration carefully to hit each Punkt accurately, which sharpens the hand–eye coordination needed for reading and writing.",
+              "fact": "The 50 Sterne on the amerikanisch flag each represent one of the 50 states. The first official Stars and Stripes design was approved in 1777 with 13 Sterne and 13 stripes for the original states. New Sterne have been added as new states joined the Union, with the most recent — Hawaii — added on 4 July 1960."
+            },
+            {
+              "range": "53–64",
+              "title": "Die Inschrift „1776“ und der letzte Schliff",
+              "learn": "Finish the Rätsel by connecting Punkte 53 through 64 to complete the \"1776\" inscription and the final flourishes that bring the whole image to life. Take your time with these last Punkte — a steady, careful finish is the mark of a true Punkt-to-Punkt champion!",
+              "fact": "1776 is one of the most important years in amerikanisch history. On 4 July 1776, the Continental Congress formally adopted the Declaration of Independence, proclaiming that all thirteen amerikanisch colonies were kostenlos and independent states. That date is now celebrated every year as Independence Day — Amerika's Geburtstag."
+            }
+          ],
+          "outro": "Wunderbare Arbeit – deine Freiheitsglocke schwingt sich in die Freiheit! Das sind 64 Punkte und ein spektakuläres Symbol der amerikanischen Unabhängigkeit. Male die Glocke in goldener Bronze, die Flügel in Braun und Weiß und die Sterne in Rot, Weiß und Blau aus – der patriotischste Geburtstagsgruß zum 250. Jubiläum. Let freedom ring! Lust auf eine Herausforderung? Triff weitere prähistorische Freunde in unserer Sammlung von <a href=\"/dinosaurs/\">Dinosaurier-Punkt-zu-Punkt-Vorlagen</a>.",
+          "color_schemes": []
         }
-      ],
-      "outro": "Außergewöhnliche Arbeit – dein America-250-Siegerpodest ist bereit für die Feier! Das sind 124 Punkte und drei stolze junge Champions zu Ehren von Amerikas 250. Geburtstag. Male das Podest in Gold, Silber und Bronze aus, kleide die Athleten in Rot, Weiß und Blau und hänge die Medaillen mit Stolz auf. Herzlichen Glückwunsch zum 250. Geburtstag, USA – immer weiter nach ganz oben! Bereit für die nächste große Herausforderung? Stöbere in all unseren <a href=\"/\">Punkt-zu-Punkt-Vorlagen</a>."
+      }
     },
-    "seoTitle": "America 250 Siegerpodest Zahlenbild: Herausforderung mit 124 Punkten"
-  },
-  {
-    "slug": "usa-250-birthday-balloons-stars-dot-to-dot-puzzle",
-    "name": "America 250 – Geburtstagsballons und Sterne",
-    "seoH1": "Luftballons & Sterne Punkt-zu-Punkt — 94 Punkte von Amerika 250",
-    "tagline": "Party Balloons for Amerika's 250th Birthday!",
-    "description": "Verbinde 94 einfache Punkte, um eine festliche Amerika 250 Geburtstags-Szene mit Luftballons, Sternen und patriotischen Feierdetails zu enthüllen. Dieses kostenlose druckbare Arbeitsblatt bietet Kindern eine längere Herausforderung zum Nummernsequenzieren, während sie das 250-jährige Jubiläum Amerikas feiern.",
-    "seoDescription": "Luftballons und Sterne bilden ein festliches 94-Punkte-Denkmal zum 250. Geburtstag Amerikas. Lade die kostenlose PDF-Aktivität für Kinder im Alter von 6–10 Jahren herunter.",
-    "funFact": "Luftballons wurden im 19. Jahrhundert beliebte Partydekorationen, und heute sind rote, weiße und blaue Luftballons eine fröhliche Möglichkeit, Paraden, Klassenzimmer und Gemeinschaftsfeiern zum Geburtstag Amerikas zu dekorieren.",
-    "seoImageAlt": "Partyballons und Sterne verteilt über 94 Punkte auf einer America-250-Vorlage",
-    "dotGuide": {
-      "intro": "Amerika is turning 250 years old, and this Rätsel is ready for the party! Balloons, Sterne, and bright patriotic details come together in a cheerful Geburtstag scene for the USA. Nimm einen Bleistift, suche Punkt 1 und start connecting your way through the celebration.",
-      "sections": [
-        {
-          "range": "1-18",
-          "title": "Die ersten Luftballons",
-          "learn": "Start at Punkt 1 and verbinde through to Punkt 18 to trace the first floating Geburtstag Ballons. These rounded shapes help Kinder practise smooth curves and steady Stiftkontrolle at the beginning of the Rätsel.",
-          "fact": "Modern party Ballons are often made from latex, a stretchy natural material. When filled with air or helium, the balloon expands evenly in every direction, creating its familiar rounded shape."
+    {
+      "slug": "usa-250-birthday-cake-dot-to-dot-puzzle",
+      "header": {
+        "title": "America 250 Geburtstagstorte Zahlenbild — 56 süße Punkte",
+        "meta_description": "Füge Kerzen hinzu und kolorieren den Geburtstagskuchen Amerikas 250. Geburtstag, nachdem du 56 Punkte verbunden hast. Drucke dieses kostenlose PDF für die Feier 2026 für Kinder im Alter von 4–8 Jahren.",
+        "og": {
+          "title": "America 250 Geburtstagstorte Zahlenbild — 56 süße Punkte",
+          "description": "Füge Kerzen hinzu und kolorieren den Geburtstagskuchen Amerikas 250. Geburtstag, nachdem du 56 Punkte verbunden hast. Drucke dieses kostenlose PDF für die Feier 2026 für Kinder im Alter von 4–8 Jahren.",
+          "image_alt": "Mehrstöckige patriotische Geburtstagstorte, zusammengesetzt aus 56 druckbaren Punkten"
         },
-        {
-          "range": "19-38",
-          "title": "Der „Celebration“-Cluster",
-          "learn": "Continue from Punkt 19 to Punkt 38 to build more of the balloon cluster and overlapping party shapes. Children practise following numbers carefully through a busier part of the drawing.",
-          "fact": "Large balloon displays are popular at parades and community events because they are lightweight, colourful, and einfach to arrange into arches, columns, and festive backdrops."
-        },
-        {
-          "range": "39-58",
-          "title": "Die Sterne",
-          "learn": "Trace Punkte 39 through 58 to add patriotic Sterne around the Geburtstag design. Star points encourage Kinder to switch directions cleanly and aim carefully for each numbered Punkt.",
-          "fact": "Stars are one of the most familiar amerikanisch symbols because each star on the Vereinigte Staaten flag represents one state in the union."
-        },
-        {
-          "range": "59-76",
-          "title": "Die Details zum Geburtstag",
-          "learn": "Verbinde Punkte 59 through 76 to draw the extra celebration details that make the scene feel like a real Geburtstag party. This section builds Selbstvertrauen with smaller shapes and careful turns.",
-          "fact": "The Vereinigte Staaten celebrates Independence Day on July 4 because the Declaration of Independence was adopted on July 4, 1776."
-        },
-        {
-          "range": "77-94",
-          "title": "Die endgültigen Parteiprogramme",
-          "learn": "Finish the Rätsel by connecting Punkte 77 through 94 to complete the Ballons, Sterne, and final festive touches. Encourage Kinder to slow down for a neat finish after this longer 94-Punkt challenge.",
-          "fact": "Amerika's 250th Geburtstag will be celebrated on July 4, 2026, marking 250 years since the Declaration of Independence."
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "America 250 Geburtstagstorte",
+          "description": "Füge Kerzen hinzu und kolorieren den Geburtstagskuchen Amerikas 250. Geburtstag, nachdem du 56 Punkte verbunden hast. Drucke dieses kostenlose PDF für die Feier 2026 für Kinder im Alter von 4–8 Jahren.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
         }
-      ],
-      "outro": "Fantastische Arbeit – deine America-250-Geburtstagsballons sind bereit für die Party! Male die Ballons und Sterne in Rot, Weiß und Blau aus, um eine strahlende patriotische Feier zu Amerikas 250. Geburtstag abzurunden. Lust auf eine Herausforderung? Triff weitere prähistorische Freunde in unserer Sammlung von <a href=\"/dinosaurs/\">Dinosaurier-Punkt-zu-Punkt-Vorlagen</a>."
-    },
-    "seoTitle": "Luftballons & Sterne Zahlenbild — 94 Punkte zu America 250"
-  },
-  {
-    "slug": "america-250-anniversary-eagle-banner-dot-to-dot-puzzle",
-    "name": "Amerika 250 Eagle Banner",
-    "seoH1": "Amerika 250 Adlerbanner Punkt-zu-Punkt — 104 Punkte hoch",
-    "tagline": "Schwebe mit dem amerikanischen Adler für 250 Jahre Freiheit!",
-    "description": "Verbinde 104 Punkte, um einen majestätischen amerikanischen Weißkopfseeadler zu enthüllen, der ein patriotisches Banner trägt, um das 250-jährige Jubiläum Amerikas zu feiern! Dieses kostenlose druckbare Arbeitsblatt hilft Kindern, das Nummernsequenzieren und die Konzentration zu üben, während es eines der mächtigsten Symbole für Freiheit und Stärke Amerikas ehrt. Perfekt für Kinder im Alter von 6–10 Jahren.",
-    "seoDescription": "Als nationales Symbol im Jahr 1782 gewählt, trägt ein Weißkopfseeadler das Amerika 250 Banner über 104 Punkte. Drucke die kostenlose PDF für Kinder im Alter von 6–10 Jahren aus.",
-    "funFact": "Der Weißkopfseeadler wurde 1782 als nationales Symbol der Vereinigten Staaten gewählt. Er erscheint auf dem Großen Siegel der Vereinigten Staaten, der Flagge des Präsidenten und unzähligen offiziellen Emblemen — und steht für Freiheit, Stärke und den beständigen Geist der amerikanischen Republik.",
-    "seoImageAlt": "Majestätischer Weißkopfseeadler trägt ein langes Banner über 104 druckbare Punkte",
-    "dotGuide": {
-      "intro": "Amerika is turning 250 years old — and no symbol captures that spirit better than the mighty Bald Eagle! For 244 years the Adler has graced the Great Seal of the Vereinigte Staaten, soaring as the living emblem of freedom. Today your Adler is clutching a Banner to proclaim Amerika's greatest Geburtstag. Nimm einen Bleistift, suche Punkt 1 und let's help this Adler take flight!",
-      "sections": [
-        {
-          "range": "1–22",
-          "title": "Der Kopf und der Schnabel des Adlers",
-          "learn": "Start at Punkt 1 and verbinde through to Punkt 22 to trace the bold, proud head of the Bald Eagle — including its sharp, curved beak. Children practise short directional strokes and gentle curves here, building Stiftkontrolle während forming the Adler's most recognisable feature.",
-          "fact": "Der Weißkopfseeadler ist eigentlich gar nicht kahl! Sein Name leitet sich von dem altenglischen Wort „balde“ ab, was „weiß“ bedeutet. Die auffälligen weißen Kopf Federn erscheinen, wenn der Vogel im Alter von etwa fünf Jahren das Erwachsenenalter erreicht. Davor haben junge Adler ein fleckiges braun-weißes Gefieder."
-        },
-        {
-          "range": "23–46",
-          "title": "Die Spannweite – linker Flügel",
-          "learn": "Continue from Punkt 23 to Punkt 46 to sweep out the Adler's powerful left wing. These long, flowing strokes are excellent practice for Kinder developing arm movement and large-scale Stiftkontrolle. Encourage a smooth, confident stroke from shoulder to wingtip.",
-          "fact": "A Bald Eagle's wingspan can reach up to 2.4 metres (nearly 8 feet) from tip to tip — about as wide as a small car is long! Those enormous wings allow the Adler to soar for hours on rising columns of warm air called thermals, barely flapping at all."
-        },
-        {
-          "range": "47–70",
-          "title": "Die Spannweite – rechter Flügel",
-          "learn": "Mirror the left wing by connecting Punkte 47 to 70 to form the right wing. Symmetry is an important visual concept for young learners, and completing both wings gives a satisfying sense of balance and achievement. Notice how the strokes now sweep in the opposite direction.",
-          "fact": "Adler haben bis zu 7.000 Federn, die ihren Körper bedecken, wobei jede einzelne präzise auf ihre jeweilige Funktion zugeschnitten ist – breite Flugfedern für den Auftrieb, weiche Körperfedern zur Isolierung und steife Schwanzfedern zur Steuerung. Sie mausern sich und lassen ihre Federn nach und nach nachwachsen, damit sie stets fliegen können."
-        },
-        {
-          "range": "71–88",
-          "title": "Die Talons und das patriotische Banner",
-          "learn": "Verbinde Punkte 71 to 88 to draw the Adler's powerful talons gripping the flowing Jubiläum Banner. Children practise sharp angled lines and curved ribbon shapes — more demanding strokes that reward careful attention and steady hand control.",
-          "fact": "An Adler's talons can exert a gripping force of around 400 pounds per square inch (psi) — far stronger than the average human hand. Talons are used to catch fish and small mammals, and the Adler's grip is so firm that prey rarely escapes once caught."
-        },
-        {
-          "range": "89–104",
-          "title": "Die Sterne, das Wappen und die letzten Feinheiten",
-          "learn": "Complete the Rätsel by connecting Punkte 89 to 104 to add the patriotic Sterne, shield markings, and final details that make this Adler truly amerikanisch. Take your time on these last Punkte — a steady finish here pulls the whole picture together beautifully.",
-          "fact": "The Great Seal of the Vereinigte Staaten, designed in 1782, shows the Bald Eagle holding an olive branch in one talon (representing peace) and a bundle of 13 arrows in the other (representing readiness to defend freedom). The Adler faces the olive branch — a reminder that peace is always the first choice."
+      },
+      "body": {
+        "h1": "Amerika 250 Geburtstagstorte Punkt zu Punkt — 56 süße Punkte",
+        "name": "America 250 Geburtstagstorte",
+        "tagline": "Backe einen Geburtstagskuchen für Amerikas 250. Geburtstag!",
+        "description": "Verbinde 56 einfache Punkte, um einen prächtigen Geburtstagskuchen zu enthüllen, der Amerikas 250. Jubiläum feiert! Dieses kostenlose Arbeitsblatt hilft kleinen Kindern, die Zahlenreihenfolge und den Umgang mit dem Bleistift zu üben, während sie 250 Jahre amerikanische Geschichte feiern. Perfekt für Kinder im Alter von 4–8 Jahren.",
+        "fun_fact": "Die Tradition der Geburtstagskuchen mit Kerzen soll im 18. Jahrhundert in Deutschland begonnen haben, wo eine Kerze für jedes Lebensjahr auf den Kuchen gelegt wurde. Heute ist das Ausblasen der Kerzen und das Äußern eines Wunsches ein Brauch zur Geburtstagsfeier auf der ganzen Welt!",
+        "faqs": [
+          {
+            "q": "Wie viele Punkte hat das Punkt-zu-Punkt-Rätsel „America 250 Geburtstagstorte“?",
+            "a": "Die Malvorlage „America 250 Geburtstagstorte“ hat 56 nummerierte Punkte. Damit ist es ein leicht bis mitteles Rätsel, ideal für Kinder von 5–8 Jahre (Vorschule bis 2. Klasse). Die Kinder verbinden die Punkte in Zahlenreihenfolge, bis das fertige Bild erscheint, und malen es anschließend aus."
+          },
+          {
+            "q": "Ist die Vorlage „America 250 Geburtstagstorte“ kostenlos?",
+            "a": "Ja. Das Arbeitsblatt „America 250 Geburtstagstorte“ ist auf DotToDotFreePrintables.com zu 100 % kostenlos — ohne Konto, E-Mail oder Bezahlung. Es lädt sofort als druckfertiges PDF herunter, im Hoch- und Querformat, in A4 oder US Letter."
+          },
+          {
+            "q": "Für welches Alter eignet sich das Arbeitsblatt „America 250 Geburtstagstorte“?",
+            "a": "Mit 56 Punkten eignet sich das Rätsel „America 250 Geburtstagstorte“ am besten für Kinder von 5–8 Jahre (Vorschule bis 2. Klasse). Jüngere Kinder schaffen es mit etwas Zählhilfe, sichere Zähler lösen es selbstständig und üben dabei die Zahlenfolge bis 56."
+          },
+          {
+            "q": "Welche Fähigkeiten fördert das Rätsel „America 250 Geburtstagstorte“?",
+            "a": "Das Verbinden der 56 Punkte fördert Zahlenerkennung und Zählen bis 56, Stiftführung, Auge-Hand-Koordination und Konzentration — genau die feinmotorischen Grundlagen, die aufs Schreibenlernen vorbereiten. Das Ausmalen des fertigen Bildes ist die kreative Belohnung."
+          },
+          {
+            "q": "Was ist ein spannender Fakt zu diesem Rätsel?",
+            "a": "The tradition of Geburtstag cakes with candles is said to have started in Germany in the 18th century, where a candle was placed on the cake for each year of life. Today, blowing out candles and making a wish is a Geburtstag celebration custom around the world! Solche Fakten entdecken Kinder beim Lösen des Rätsels „America 250 Geburtstagstorte“."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Amerika is turning 250 years old — and every Geburtstag deserves a spectacular cake! This towering celebration cake is decorated with patriotic Sterne, stripes, and all the trimmings for the biggest Geburtstag in amerikanisch history. Nimm einen Bleistift, suche Punkt 1 und let's build this Geburtstag masterpiece layer by layer!",
+          "sections": [
+            {
+              "range": "1–12",
+              "title": "Die unterste Stufe",
+              "learn": "Start at Punkt 1 and verbinde through to Punkt 12 to trace the wide base tier of the Geburtstagskuchen. These steady horizontal and curved strokes help Kinder warm up their pencil grip and practise drawing smooth, even lines that form the foundation of the whole picture.",
+              "fact": "Die Tradition der mehrstöckigen Hochzeits- und Festtagstorten reicht bis ins England des 17. Jahrhunderts zurück, wo das Aufschichten mehrerer Etagen ein Zeichen von Reichtum und Festlichkeit war. Eine hohe, mehrstöckige Torte wurde zum Symbol für ein wahrhaft großartiges Fest."
+            },
+            {
+              "range": "13–28",
+              "title": "Die mittleren Schichten",
+              "learn": "Continue from Punkt 13 to Punkt 28 to add the middle layers of the cake, each one slightly smaller than the one below. Children practise drawing shapes that step inward, which is a wonderful exercise in spatial awareness and controlling line length with each new tier.",
+              "fact": "Traditionell gestalten Konditoren jede Etage einer mehrstöckigen Torte etwas schmaler als die darunterliegende. Dadurch entsteht die klassische Pyramidenform, und die Torte bleibt stabil. Professionelle Tortenbauer verwenden versteckte Stützstäbe und Einlegeböden, um das Gewicht jeder Etage zu tragen."
+            },
+            {
+              "range": "29–42",
+              "title": "Die „Stars and Stripes“-Auszeichnung",
+              "learn": "Trace Punkte 29 through 42 to add the patriotic Sterne and stripe details that decorate the sides of the cake. Children practise a mix of angular star points and straight horizontal lines, switching between the two movement types in the same section — a great challenge for hand control.",
+              "fact": "Red, white, and blue have been the colours of the amerikanisch flag since 1777, when the Flag Resolution established the design. Decorating with these colours is one of the most popular ways Americans express national pride at celebrations, from cupcakes at Schule parties to full-size parade floats."
+            },
+            {
+              "range": "43–50",
+              "title": "Die oberste Etage und die Glasur",
+              "learn": "Verbinde Punkte 43 through 50 to draw the topmost tier and the swirls of frosting piped along the edges. These curving, decorative lines offer a lovely change of pace from the straighter strokes below, and Kinder practise the smooth, flowing wrist movement that makes frosting look deliciously fluffy.",
+              "fact": "Royal icing — the white, hard-setting icing used to decorate celebration cakes — was perfected in 18th-century Britain and became fashionable across Europe and Amerika for grand occasion cakes. Its smooth finish is the perfect canvas for patriotic decorations."
+            },
+            {
+              "range": "51–56",
+              "title": "Die Kerzen und der letzte Schliff",
+              "learn": "Finish the Rätsel by connecting Punkte 51 through 56 to add the candles and the final festive details that bring the whole Geburtstag scene to life. Just six Punkte to complete the celebration — encourage Kinder to slow down and make these last lines their very best!",
+              "fact": "In many Geburtstag traditions, the number of candles on a cake matches the age being celebrated. Imagine how big the candle collection would be for Amerika's 250th — a quarter millennium of history, all flickering on one spectacular cake!"
+            }
+          ],
+          "outro": "Wunderbare Arbeit – dein America-250-Geburtstagskuchen ist bereit für die Party! Das sind 56 Punkte und ein köstliches Symbol amerikanischer Feierlaune. Male die Etagen in Rot, Weiß und Blau aus und füge goldene Sterne hinzu – der patriotischste 250.-Geburtstagskuchen aller Zeiten. Herzlichen Glückwunsch zum 250. Geburtstag, USA! Mehr Themenspaß findest du in unseren <a href=\"/ocean/\">Punkt-zu-Punkt-Vorlagen von 1 bis 100</a>.",
+          "color_schemes": []
         }
-      ],
-      "outro": "Hervorragende Arbeit – dein America-250-Adler fliegt hoch mit dem Jubiläumsbanner! Das sind 104 Punkte und ein mächtiges Symbol der amerikanischen Freiheit. Male den weißen Kopf des Adlers, die braunen Flügel und den leuchtend gelben Schnabel aus und fülle das Banner mit Rot, Weiß und Blau. Herzlichen Glückwunsch zum 250. Geburtstag, USA! Mehr Themenspaß findest du in unseren <a href=\"/ocean/\">Punkt-zu-Punkt-Vorlagen von 1 bis 100</a>."
+      }
     },
-    "seoTitle": "America 250 Adler mit Banner Zahlenbild — 104 hohe Punkte"
-  }
-]
+    {
+      "slug": "usa-250-astronaut-dot-to-dot-puzzle",
+      "header": {
+        "title": "Astronaut Zahlenbild zu America 250 — 63 Punkte nach oben",
+        "meta_description": "Amerikas erste Mondlandung inspiriert diesen 63-Punkte-Astronauten. Starte ein kostenloses druckbares PDF für Kinder im Alter von 4–8 Jahren während des 2026 Jubiläums der Nation.",
+        "og": {
+          "title": "Astronaut Zahlenbild zu America 250 — 63 Punkte nach oben",
+          "description": "Amerikas erste Mondlandung inspiriert diesen 63-Punkte-Astronauten. Starte ein kostenloses druckbares PDF für Kinder im Alter von 4–8 Jahren während des 2026 Jubiläums der Nation.",
+          "image_alt": "Heldenhafter Astronaut winkt im Raumanzug, zusammengesetzt aus 63 druckbaren Punkten"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Amerika 250 Astronaut",
+          "description": "Amerikas erste Mondlandung inspiriert diesen 63-Punkte-Astronauten. Starte ein kostenloses druckbares PDF für Kinder im Alter von 4–8 Jahren während des 2026 Jubiläums der Nation.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
+      },
+      "body": {
+        "h1": "Astronaut Punkt zu Punkt für Amerika 250 – 63 Punkte nach oben",
+        "name": "Amerika 250 Astronaut",
+        "tagline": "Blast Off to Celebrate Amerika's 250th!",
+        "description": "Verbinde 63 einfache Punkte, um einen heroischen Astronauten zu enthüllen, der Amerikas 250. Jubiläum feiert! Dieses kostenlose Arbeitsblatt hilft kleinen Kindern, die Zahlenreihenfolge und den Umgang mit dem Bleistift zu üben, während es 250 Jahre amerikanische Geschichte und den Entdeckergeist ehrt. Perfekt für Kinder im Alter von 4–8 Jahren.",
+        "fun_fact": "Die Vereinigten Staaten waren das erste Land, das Menschen auf den Mond brachte. Am 20. Juli 1969 – nur 193 Jahre nach der Unabhängigkeitserklärung – setzten Neil Armstrong und Buzz Aldrin die ersten Schritte der Menschheit auf der Mondoberfläche.",
+        "faqs": [
+          {
+            "q": "Wie viele Punkte hat das Punkt-zu-Punkt-Rätsel „America 250 Astronaut“?",
+            "a": "Die Malvorlage „America 250 Astronaut“ hat 63 nummerierte Punkte. Damit ist es ein leicht bis mitteles Rätsel, ideal für Kinder von 5–8 Jahre (Vorschule bis 2. Klasse). Die Kinder verbinden die Punkte in Zahlenreihenfolge, bis das fertige Bild erscheint, und malen es anschließend aus."
+          },
+          {
+            "q": "Ist die Vorlage „America 250 Astronaut“ kostenlos?",
+            "a": "Ja. Das Arbeitsblatt „America 250 Astronaut“ ist auf DotToDotFreePrintables.com zu 100 % kostenlos — ohne Konto, E-Mail oder Bezahlung. Es lädt sofort als druckfertiges PDF herunter, im Hoch- und Querformat, in A4 oder US Letter."
+          },
+          {
+            "q": "Für welches Alter eignet sich das Arbeitsblatt „America 250 Astronaut“?",
+            "a": "Mit 63 Punkten eignet sich das Rätsel „America 250 Astronaut“ am besten für Kinder von 5–8 Jahre (Vorschule bis 2. Klasse). Jüngere Kinder schaffen es mit etwas Zählhilfe, sichere Zähler lösen es selbstständig und üben dabei die Zahlenfolge bis 63."
+          },
+          {
+            "q": "Welche Fähigkeiten fördert das Rätsel „America 250 Astronaut“?",
+            "a": "Das Verbinden der 63 Punkte fördert Zahlenerkennung und Zählen bis 63, Stiftführung, Auge-Hand-Koordination und Konzentration — genau die feinmotorischen Grundlagen, die aufs Schreibenlernen vorbereiten. Das Ausmalen des fertigen Bildes ist die kreative Belohnung."
+          },
+          {
+            "q": "Was ist ein spannender Fakt zu diesem Rätsel?",
+            "a": "The Vereinigte Staaten was the first country to land humans on the Moon. On July 20, 1969 — just 193 years after the Declaration of Independence — Neil Armstrong and Buzz Aldrin took humanity's first steps on the lunar surface. Solche Fakten entdecken Kinder beim Lösen des Rätsels „America 250 Astronaut“."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Amerika is turning 250 years old — and few things capture the amerikanisch spirit of adventure better than an Astronaut! From the first rockets of the Space Race to the Moon landings and beyond, amerikanisch explorers have always reached for the Sterne. Nimm einen Bleistift, suche Punkt 1 und let's suit up for liftoff!",
+          "sections": [
+            {
+              "range": "1–14",
+              "title": "Der Helm",
+              "learn": "Start at Punkt 1 and verbinde through to Punkt 14 to trace the rounded Astronaut helmet. The visor and curved outer shell give Kinder a wonderful warm-up with smooth, wide arcs that build confident Stiftkontrolle from the very first stroke.",
+              "fact": "Astronautenhelme bestehen aus mehreren Schichten aus Polycarbonat und anderen widerstandsfähigen Materialien. Das goldene Visier ist mit einer dünnen Schicht aus echtem Gold überzogen, die die Sonnenstrahlung reflektiert und die Augen der Astronauten vor dem intensiven Sonnenlicht im Weltraum schützt."
+            },
+            {
+              "range": "15–30",
+              "title": "Der Raumanzug-Torso",
+              "learn": "Continue from Punkt 15 to Punkt 30 to outline the broad torso of the spacesuit. Children practise longer connecting strokes here, drawing the sturdy shoulders and chest that give the Astronaut figure its characteristic boxy, powerful shape.",
+              "fact": "A full NASA spacesuit, called an Extravehicular Mobility Unit (EMU), weighs about 280 pounds on Earth — but it weighs nothing at all in the weightlessness of space! It takes up to 45 minutes for an Astronaut to put one on."
+            },
+            {
+              "range": "31–44",
+              "title": "Die Waffen und Handschuhe",
+              "learn": "Trace Punkte 31 through 44 to draw the Astronaut's arms and bulky gloves. This section features more angular direction changes, which helps Kinder develop the ability to stop, aim, and start a new line — a skill that builds careful number-tracking too.",
+              "fact": "Spacesuit gloves are one of the most complex parts of the suit. They must be flexible enough for astronauts to grip tools and work with their fingers, während being strong enough to protect against temperature swings of more than 500 degrees Fahrenheit in space."
+            },
+            {
+              "range": "45–56",
+              "title": "Die Beine und Stiefel",
+              "learn": "Verbinde Punkte 45 through 56 to complete the lower half of the spacesuit — the legs and thick boots. Children practise steady, parallel lines here, which is great for building consistency and control as they near the end of the Rätsel.",
+              "fact": "Die Moonboots, die während der Apollo-Missionen getragen wurden, verfügten über eine spezielle Außensohle aus einem gewebten Metallgewebe namens Chromel-R. Diese schützte die Füße der Astronauten vor den extremen Temperaturen auf der Mondoberfläche, die zwischen −280°F im Schatten und +260°F in der Sonne schwanken können."
+            },
+            {
+              "range": "57–63",
+              "title": "The amerikanisch Flag and Finishing Details",
+              "learn": "Finish the Rätsel by connecting Punkte 57 through 63 to add the amerikanisch flag patch and the final details that bring the whole Astronaut to life. Just seven Punkte to go — encourage Kinder to make these last lines their neatest and most precise!",
+              "fact": "amerikanisch astronauts have worn a flag patch on the left shoulder of their spacesuit since the Apollo missions. Six amerikanisch flags were planted on the Moon between 1969 and 1972, and NASA lunar images suggest that most of them are still standing today."
+            }
+          ],
+          "outro": "Hervorragende Arbeit – dein America-250-Astronaut ist startklar! Das sind 63 Punkte und ein unglaubliches Symbol für amerikanischen Entdeckergeist und Mut. Male den Raumanzug weiß aus und ergänze patriotische Details in Rot, Weiß und Blau, damit dein Astronaut stilvoll abhebt. Herzlichen Glückwunsch zum 250. Geburtstag, USA – ad astra! Entdecke weitere kostenlose <a href=\"/\">Punkt-zu-Punkt-Vorlagen</a> für jedes Alter.",
+          "color_schemes": []
+        }
+      }
+    },
+    {
+      "slug": "usa-250-anniversary-airplane-banner-dot-to-dot-puzzle",
+      "header": {
+        "title": "Flugzeug mit Banner Zahlenbild: 54 Punkte für America 250",
+        "meta_description": "Ein Doppeldeckerflugzeug trägt ein Amerika 250 Banner durch 54 Punkte. Lade das kostenlose Arbeitsblatt für das Jubiläum 2026 für junge Flugbegeisterte im Alter von 4–8 Jahren herunter.",
+        "og": {
+          "title": "Flugzeug mit Banner Zahlenbild: 54 Punkte für America 250",
+          "description": "Ein Doppeldeckerflugzeug trägt ein Amerika 250 Banner durch 54 Punkte. Lade das kostenlose Arbeitsblatt für das Jubiläum 2026 für junge Flugbegeisterte im Alter von 4–8 Jahren herunter.",
+          "image_alt": "Klassischer Doppeldecker zieht ein America-250-Banner über 54 druckbare Punkte"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Flugzeugbanner zum 250-jährigen Jubiläum der USA",
+          "description": "Ein Doppeldeckerflugzeug trägt ein Amerika 250 Banner durch 54 Punkte. Lade das kostenlose Arbeitsblatt für das Jubiläum 2026 für junge Flugbegeisterte im Alter von 4–8 Jahren herunter.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
+      },
+      "body": {
+        "h1": "Flugzeugbanner Punkt zu Punkt: 54 Punkte für Amerika 250",
+        "name": "Flugzeugbanner zum 250-jährigen Jubiläum der USA",
+        "tagline": "Fly High for Amerika's 250th Anniversary!",
+        "description": "Verbinde 54 einfache Punkte, um ein klassisches Doppeldeckerflugzeug zu enthüllen, das ein patriotisches Banner hinter sich herzieht, um Amerikas 250. Jubiläum zu feiern! Dieses kostenlose Arbeitsblatt hilft kleinen Kindern, die Zahlenreihenfolge und den Umgang mit dem Bleistift zu üben, während es 250 Jahre amerikanische Geschichte und den Pioniergeist des Flugs feiert. Perfekt für Kinder im Alter von 4–8 Jahren.",
+        "fun_fact": "Die Gebrüder Wright vollführten am 17. Dezember 1903 in Kitty Hawk, North Carolina, den weltweit ersten motorisierten Flugzeugflug – gerade einmal 127 Jahre nach der Unterzeichnung der Unabhängigkeitserklärung. Dieser erste Flug dauerte zwar nur 12 Sekunden und erstreckte sich über eine Strecke von 120 Fuß, doch er veränderte die Welt für immer.",
+        "faqs": [
+          {
+            "q": "Wie viele Punkte hat das Punkt-zu-Punkt-Rätsel „Flugzeugbanner zum 250-jährigen Jubiläum der USA“?",
+            "a": "Die Malvorlage „Flugzeugbanner zum 250-jährigen Jubiläum der USA“ hat 54 nummerierte Punkte. Damit ist es ein leicht bis mitteles Rätsel, ideal für Kinder von 5–8 Jahre (Vorschule bis 2. Klasse). Die Kinder verbinden die Punkte in Zahlenreihenfolge, bis das fertige Bild erscheint, und malen es anschließend aus."
+          },
+          {
+            "q": "Ist die Vorlage „Flugzeugbanner zum 250-jährigen Jubiläum der USA“ kostenlos?",
+            "a": "Ja. Das Arbeitsblatt „Flugzeugbanner zum 250-jährigen Jubiläum der USA“ ist auf DotToDotFreePrintables.com zu 100 % kostenlos — ohne Konto, E-Mail oder Bezahlung. Es lädt sofort als druckfertiges PDF herunter, im Hoch- und Querformat, in A4 oder US Letter."
+          },
+          {
+            "q": "Für welches Alter eignet sich das Arbeitsblatt „Flugzeugbanner zum 250-jährigen Jubiläum der USA“?",
+            "a": "Mit 54 Punkten eignet sich das Rätsel „Flugzeugbanner zum 250-jährigen Jubiläum der USA“ am besten für Kinder von 5–8 Jahre (Vorschule bis 2. Klasse). Jüngere Kinder schaffen es mit etwas Zählhilfe, sichere Zähler lösen es selbstständig und üben dabei die Zahlenfolge bis 54."
+          },
+          {
+            "q": "Welche Fähigkeiten fördert das Rätsel „Flugzeugbanner zum 250-jährigen Jubiläum der USA“?",
+            "a": "Das Verbinden der 54 Punkte fördert Zahlenerkennung und Zählen bis 54, Stiftführung, Auge-Hand-Koordination und Konzentration — genau die feinmotorischen Grundlagen, die aufs Schreibenlernen vorbereiten. Das Ausmalen des fertigen Bildes ist die kreative Belohnung."
+          },
+          {
+            "q": "Was ist ein spannender Fakt zu diesem Rätsel?",
+            "a": "Die Gebrüder Wright vollführten am 17. Dezember 1903 in Kitty Hawk, North Carolina, den weltweit ersten motorisierten Flugzeugflug – gerade einmal 127 Jahre nach der Unterzeichnung der Unabhängigkeitserklärung. Dieser erste Flug dauerte zwar nur 12 Sekunden und erstreckte sich über eine Strecke von 120 Fuß, doch er veränderte die Welt für immer. Solche Fakten entdecken Kinder beim Lösen des Rätsels „Flugzeugbanner zum 250-jährigen Jubiläum der USA“."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Amerika is turning 250 years old — and what better way to spread the Geburtstag message than with a patriotic Flugzeug Banner streaking across the sky? Since the Wright Brothers' first flight in 1903, Americans have loved pushing the boundaries of aviation. Today, Banner-towing planes are a familiar sight at celebrations, beaches, and sporting events from coast to coast. Nimm einen Bleistift, suche Punkt 1 und let's get this plane airborne!",
+          "sections": [
+            {
+              "range": "1–12",
+              "title": "Die Nase und der Propeller",
+              "learn": "Start at Punkt 1 and verbinde through to Punkt 12 to trace the rounded nose of the aeroplane and the spinning propeller out front. These tight curves and angled propeller blades make a lively warm-up that builds precise Stiftkontrolle right from the start.",
+              "fact": "Der Propeller eines Flugzeugs mit Kolbenmotor funktioniert genau wie ein rotierender Flügel – jedes Blatt ist so geformt, dass es beim Drehen durch die Luft einen Vorwärtsschub erzeugt. Frühe Propeller aus Holz wurden von Hand mit exakten Krümmungen geschnitzt, und erfahrene Handwerker konnten einen Propeller anfertigen, der perfekt auf die Leistung eines bestimmten Motors abgestimmt war."
+            },
+            {
+              "range": "13–26",
+              "title": "Das Cockpit und der Rumpf",
+              "learn": "Continue from Punkt 13 to Punkt 26 to draw the cockpit canopy and the long body of the fuselage. Children practise a mix of curved and straight strokes that capture the sleek, streamlined shape of the aircraft, building Selbstvertrauen and line consistency across a larger section of the page.",
+              "fact": "Frühe Flugzeuge hatten offene Cockpits ohne Windschutzscheibe – die Piloten trugen Lederhelme, Schutzbrillen und Schals, um sich in großer Höhe vor Wind und Kälte zu schützen. Geschlossene Cockpits mit Glaskuppeln wurden erst in den 1930er Jahren bei den meisten Flugzeugen zum Standard, was das Fliegen wesentlich angenehmer machte."
+            },
+            {
+              "range": "27–38",
+              "title": "Die Flügel",
+              "learn": "Trace Punkte 27 through 38 to draw the aeroplane's outstretched wings. These long, horizontal strokes are a brilliant exercise for smooth, even line control across a wide distance. Encourage Kinder to aim for each Punkt calmly and let the pencil glide — just like a plane riding a current of smooth air.",
+              "fact": "An aeroplane's wings generate lift because of their curved upper surface and flatter underside. Air moving over the curved top travels faster and creates lower pressure, während slower air beneath pushes up — and together, this pressure difference lifts the entire aircraft off the ground."
+            },
+            {
+              "range": "39–47",
+              "title": "Die Heckflosse und das Ruder",
+              "learn": "Verbinde Punkte 39 through 47 to draw the vertical tail fin and the horizontal stabilisers at the back of the plane. These angled, precise strokes help Kinder practise direction changes and corner points — a great challenge for building careful aim at each numbered Punkt.",
+              "fact": "Die Heckflosse – auch als Höhenleitwerk bezeichnet – sorgt dafür, dass das Flugzeug geradeaus fliegt, genau wie die Flügel eines Pfeils. Ohne sie würde die Nase schon bei der geringsten Brise unkontrolliert nach links und rechts ausschlagen. Die kleineren Querruder oberhalb und unterhalb der Heckflosse steuern die Neigung des Flugzeugs nach oben und unten."
+            },
+            {
+              "range": "48–54",
+              "title": "Das Banner und der letzte Schliff",
+              "learn": "Finish the Rätsel by connecting Punkte 48 through 54 to add the flowing patriotic Banner being towed behind the plane. Just seven Punkte to complete the picture — encourage Kinder to draw the ribbon-like Banner with a gentle, flowing wrist movement that makes it look as if it's fluttering in the breeze.",
+              "fact": "Aerial Banner towing began in the Vereinigte Staaten in the 1920s, when clever pilots realised they could earn extra money by flying advertising messages over crowded beaches and sporting events. Today, Banner planes often tow messages hundreds of feet long and can be seen for miles on a clear day."
+            }
+          ],
+          "outro": "Fantastische Arbeit – dein America-250-Jubiläumsflugzeug hebt ab! Das sind 54 Punkte und eine himmelhohe Geburtstagsbotschaft für Amerika. Male das Flugzeug in Rot und Weiß mit blauen Sterndetails aus und fülle das Banner mit patriotischen Farben, um 250 unglaubliche Jahre amerikanischer Geschichte zu feiern. Herzlichen Glückwunsch zum 250. Geburtstag, USA! Perfekt fürs Klassenzimmer – hier gibt es weitere <a href=\"/playgrounds/\">Punkt-zu-Punkt-Arbeitsblätter</a>.",
+          "color_schemes": []
+        }
+      }
+    },
+    {
+      "slug": "usa-250-space-shuttle-dot-to-dot-puzzle",
+      "header": {
+        "title": "Spaceshuttle Zahlenbild — 50-Punkte-Start zu America 250",
+        "meta_description": "Die Space Shuttles von NASA führten 135 Missionen durch. Baue einen Start über 50 Punkte mit diesem kostenlosen druckbaren PDF für Kinder im Alter von 4–8 Jahren.",
+        "og": {
+          "title": "Spaceshuttle Zahlenbild — 50-Punkte-Start zu America 250",
+          "description": "Die Space Shuttles von NASA führten 135 Missionen durch. Baue einen Start über 50 Punkte mit diesem kostenlosen druckbaren PDF für Kinder im Alter von 4–8 Jahren.",
+          "image_alt": "Spaceshuttle hebt ab in einer Wolke aus 50 nummerierten druckbaren Punkten"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "America 250 Spaceshuttle",
+          "description": "Die Space Shuttles von NASA führten 135 Missionen durch. Baue einen Start über 50 Punkte mit diesem kostenlosen druckbaren PDF für Kinder im Alter von 4–8 Jahren.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
+      },
+      "body": {
+        "h1": "Space Shuttle Punkt zu Punkt – 50-Punkte Amerika 250 Start",
+        "name": "America 250 Spaceshuttle",
+        "tagline": "Starte in Amerikas 250. Geburtstag mit dem Space Shuttle!",
+        "description": "Verbinde 50 einfache Punkte, um ein mächtiges Space Shuttle zu enthüllen, das abhebt, um Amerikas 250. Jubiläum zu feiern! Dieses kostenlose Arbeitsblatt hilft kleinen Kindern, die Zahlenreihenfolge und den Umgang mit dem Bleistift zu üben, während es 250 Jahre amerikanische Erkundung und Innovation ehrt. Perfekt für Kinder im Alter von 4–8 Jahren.",
+        "fun_fact": "Das Space Shuttle-Programm von NASA flog zwischen 1981 und 2011 135 Missionen und transportierte Astronauten, Satelliten und die Bausteine der Internationalen Raumstation in den Orbit. Die fünf Shuttles – Columbia, Challenger, Discovery, Atlantis und Endeavour – verbrachten insgesamt mehr als 1.300 Tage im Weltraum.",
+        "faqs": [
+          {
+            "q": "Wie viele Punkte hat das Punkt-zu-Punkt-Rätsel „America 250 Spaceshuttle“?",
+            "a": "Die Malvorlage „America 250 Spaceshuttle“ hat 50 nummerierte Punkte. Damit ist es ein leicht bis mitteles Rätsel, ideal für Kinder von 5–8 Jahre (Vorschule bis 2. Klasse). Die Kinder verbinden die Punkte in Zahlenreihenfolge, bis das fertige Bild erscheint, und malen es anschließend aus."
+          },
+          {
+            "q": "Ist die Vorlage „America 250 Spaceshuttle“ kostenlos?",
+            "a": "Ja. Das Arbeitsblatt „America 250 Spaceshuttle“ ist auf DotToDotFreePrintables.com zu 100 % kostenlos — ohne Konto, E-Mail oder Bezahlung. Es lädt sofort als druckfertiges PDF herunter, im Hoch- und Querformat, in A4 oder US Letter."
+          },
+          {
+            "q": "Für welches Alter eignet sich das Arbeitsblatt „America 250 Spaceshuttle“?",
+            "a": "Mit 50 Punkten eignet sich das Rätsel „America 250 Spaceshuttle“ am besten für Kinder von 5–8 Jahre (Vorschule bis 2. Klasse). Jüngere Kinder schaffen es mit etwas Zählhilfe, sichere Zähler lösen es selbstständig und üben dabei die Zahlenfolge bis 50."
+          },
+          {
+            "q": "Welche Fähigkeiten fördert das Rätsel „America 250 Spaceshuttle“?",
+            "a": "Das Verbinden der 50 Punkte fördert Zahlenerkennung und Zählen bis 50, Stiftführung, Auge-Hand-Koordination und Konzentration — genau die feinmotorischen Grundlagen, die aufs Schreibenlernen vorbereiten. Das Ausmalen des fertigen Bildes ist die kreative Belohnung."
+          },
+          {
+            "q": "Was ist ein spannender Fakt zu diesem Rätsel?",
+            "a": "Im Rahmen des Space-Shuttle-Programms der NASA wurden zwischen 1981 und 2011 insgesamt 135 Missionen durchgeführt, bei denen Astronauten, Satelliten und die Bauteile der Internationalen Raumstation in den Orbit befördert wurden. Die fünf Shuttles – Columbia, Challenger, Discovery, Atlantis und Endeavour – verbrachten zusammen mehr als 1.300 Tage im Weltraum. Solche Fakten entdecken Kinder beim Lösen des Rätsels „America 250 Spaceshuttle“."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Amerika is turning 250 years old — and few machines embody the nation's spirit of exploration and ambition better than the Space Shuttle! For 30 years, the Shuttle carried amerikanisch astronauts to orbit, launched telescopes that changed our view of the universe, and helped build a space station shared with the world. Nimm einen Bleistift, suche Punkt 1 und let's send this Shuttle soaring!",
+          "sections": [
+            {
+              "range": "1–10",
+              "title": "Die Nasenkonus und das Cockpit",
+              "learn": "Start at Punkt 1 and verbinde through to Punkt 10 to trace the sharp nose cone and the row of cockpit windows just below it. These precise, angular strokes make a great warm-up for young artists, helping them build the steady hand control they will need for the wings and engines ahead.",
+              "fact": "Die Nasenkonus und der vordere Rumpf des Space Shuttles waren mit Tausenden von Hitzeschutzkacheln bedeckt, die jeweils aus einem Quarzmaterial bestanden, das so wirksam war, dass man eine Kachel bereits Sekunden, nachdem sie auf 2.300 Grad Fahrenheit erhitzt worden war – die Temperatur, die sie beim Wiedereintritt erreichte –, mit bloßer Hand anfassen konnte."
+            },
+            {
+              "range": "11–24",
+              "title": "Der Hauptrumpf",
+              "learn": "Continue from Punkt 11 to Punkt 24 to draw the long, cylindrical body of the orbiter — the part that carried the crew cabin, payload bay, and all the mission equipment. Children practise straight, parallel lines here, which builds excellent consistency and helps them understand the overall shape before adding the exciting details around it.",
+              "fact": "The Shuttle's enormous payload bay — the cargo area behind the crew cabin — was 60 feet long and 15 feet wide, big enough to carry a Schule bus into orbit. It was used to deploy satellites, carry science experiments, and ferry the massive modules that were bolted together to build the International Space Station."
+            },
+            {
+              "range": "25–36",
+              "title": "Die Delta-Flügel",
+              "learn": "Trace Punkte 25 through 36 to draw the Shuttle's distinctive swept-back delta wings. These long, diagonal strokes are a wonderful exercise in confident line control — Kinder practise drawing from a wide wingtip back toward the body of the orbiter in one smooth, deliberate movement.",
+              "fact": "Das Space Shuttle war das weltweit erste wiederverwendbare Raumfahrzeug, das so konstruiert war, dass es bei der Landung wie ein Segelflugzeug flog. Nach dem Wiedereintritt in die Atmosphäre verfügte es über keine Triebwerksleistung mehr und hatte nur eine einzige Chance zur Landung – die Piloten nannten es „das schwerste Segelflugzeug der Welt“. Die deltaförmigen Flügel verliehen ihm den nötigen Auftrieb, um sicher auf die Landebahn zu gleiten."
+            },
+            {
+              "range": "37–44",
+              "title": "Die Heckflosse und die Haupttriebwerke",
+              "learn": "Verbinde Punkte 37 through 44 to draw the tall vertical tail fin and the cluster of three main engines at the back of the orbiter. Children practise a tall upward stroke for the fin and then smaller, rounded shapes for each engine bell — a great mix of large and small movements in the same section.",
+              "fact": "Jedes Space-Shuttle-Haupttriebwerk (SSME) gehörte zu den leistungsstärksten Raketentriebwerken, die je gebaut wurden, und erzeugte einen Schub von etwa 375.000 Pfund. Die drei Triebwerke verbrannten flüssigen Wasserstoff und flüssigen Sauerstoff gemeinsam und erzeugten dabei eine so heiße Flamme, dass Wasser auf die Startrampe gegossen werden musste, um den Lärm und die Hitze beim Start zu dämpfen."
+            },
+            {
+              "range": "45–50",
+              "title": "Das Missionsabzeichen und der letzte Schliff",
+              "learn": "Finish the Rätsel by connecting Punkte 45 through 50 to add the amerikanisch flag, mission patch, and the final details that bring the whole Shuttle to life. Just six Punkte to complete this historic spacecraft — encourage Kinder to make these last lines their neatest and most precise for a picture worthy of a mission patch!",
+              "fact": "Jede Space-Shuttle-Mission hatte ihr eigenes, einzigartiges Besatzungsabzeichen, das von den Astronauten selbst entworfen und auf ihren Fluganzügen getragen wurde. Diese runden Abzeichen zeigten Grafiken, die Namen der Besatzungsmitglieder und Symbole, die die Ziele der Mission darstellten – und sie wurden zu begehrten Sammlerstücken für Weltraumbegeisterte auf der ganzen Welt."
+            }
+          ],
+          "outro": "Unglaubliche Arbeit – dein America-250-Spaceshuttle hat Startfreigabe! Das sind 50 Punkte und ein großartiges Symbol für amerikanischen Erfindergeist und Entdeckerlust. Male den Orbiter weiß mit schwarzen Hitzekacheln aus, füge rote und blaue Flaggenmarkierungen hinzu, und dein Shuttle ist bereit, in die Geschichtsbücher zu starten. Herzlichen Glückwunsch zum 250. Geburtstag, USA – der Himmel ist definitiv nicht die Grenze! Entdecke weitere <a href=\"/usa-250/\">America-250-Vorlagen</a>, damit die Feier weitergeht.",
+          "color_schemes": []
+        }
+      }
+    },
+    {
+      "slug": "usa-250-anniversary-sports-kids-podium-dot-to-dot-puzzle",
+      "header": {
+        "title": "America 250 Siegerpodest Zahlenbild: Herausforderung mit 124 Punkten",
+        "meta_description": "Ein 124-Punkte-Podium bietet selbstbewussten Zählern eine Amerika 250 Herausforderung. Drucke das kostenlose PDF für die Sportfeier für Kinder im Alter von 6–10 Jahren.",
+        "og": {
+          "title": "America 250 Siegerpodest Zahlenbild: Herausforderung mit 124 Punkten",
+          "description": "Ein 124-Punkte-Podium bietet selbstbewussten Zählern eine Amerika 250 Herausforderung. Drucke das kostenlose PDF für die Sportfeier für Kinder im Alter von 6–10 Jahren.",
+          "image_alt": "Drei junge Athleten feiern auf einem Siegerpodest, aufgebaut aus 124 Punkten"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "America 250-Jahr-Jubiläum – Sport-Kinder-Podium",
+          "description": "Ein 124-Punkte-Podium bietet selbstbewussten Zählern eine Amerika 250 Herausforderung. Drucke das kostenlose PDF für die Sportfeier für Kinder im Alter von 6–10 Jahren.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
+      },
+      "body": {
+        "h1": "Amerika 250 Podium Punkt zu Punkt: eine 124-Punkte-Herausforderung",
+        "name": "America 250-Jahr-Jubiläum – Sport-Kinder-Podium",
+        "tagline": "Cheer for Amerika's Young Champions at 250!",
+        "description": "Verbinde 124 Punkte, um drei junge Athleten zu enthüllen, die auf einem patriotischen Siegerpodium für Amerikas 250. Jubiläum feiern! Dieses kostenlose Arbeitsblatt bietet Kindern im Alter von 6–10 Jahren eine befriedigende Herausforderung zur Zahlenreihenfolge, während es 250 Jahre amerikanischen Sportsgeist, Teamarbeit und den Wettbewerbsgeist ehrt.",
+        "fun_fact": "Die Vereinigten Staaten haben seit den ersten modernen Spielen 1896 an fast allen Sommer-Olympischen Spielen teilgenommen und führen alle Nationen in der Gesamtzahl der olympischen Goldmedaillen an. Amerikanische Athleten standen mehr als 1.000 Mal auf dem obersten Podest — ein Beweis dafür, dass der sportliche Geist der USA so stark ist wie ihre Geschichte lang ist!",
+        "faqs": [
+          {
+            "q": "Wie viele Punkte hat das Punkt-zu-Punkt-Rätsel „America 250-Jahr-Jubiläum – Sport-Kinder-Podium“?",
+            "a": "Die Malvorlage „America 250-Jahr-Jubiläum – Sport-Kinder-Podium“ hat 124 nummerierte Punkte. Damit ist es ein anspruchsvolles Rätsel, ideal für Kinder von 7–12 Jahre (ab der 2. Klasse). Die Kinder verbinden die Punkte in Zahlenreihenfolge, bis das fertige Bild erscheint, und malen es anschließend aus."
+          },
+          {
+            "q": "Ist die Vorlage „America 250-Jahr-Jubiläum – Sport-Kinder-Podium“ kostenlos?",
+            "a": "Ja. Das Arbeitsblatt „America 250-Jahr-Jubiläum – Sport-Kinder-Podium“ ist auf DotToDotFreePrintables.com zu 100 % kostenlos — ohne Konto, E-Mail oder Bezahlung. Es lädt sofort als druckfertiges PDF herunter, im Hoch- und Querformat, in A4 oder US Letter."
+          },
+          {
+            "q": "Für welches Alter eignet sich das Arbeitsblatt „America 250-Jahr-Jubiläum – Sport-Kinder-Podium“?",
+            "a": "Mit 124 Punkten eignet sich das Rätsel „America 250-Jahr-Jubiläum – Sport-Kinder-Podium“ am besten für Kinder von 7–12 Jahre (ab der 2. Klasse). Jüngere Kinder schaffen es mit etwas Zählhilfe, sichere Zähler lösen es selbstständig und üben dabei die Zahlenfolge bis 124."
+          },
+          {
+            "q": "Welche Fähigkeiten fördert das Rätsel „America 250-Jahr-Jubiläum – Sport-Kinder-Podium“?",
+            "a": "Das Verbinden der 124 Punkte fördert Zahlenerkennung und Zählen bis 124, Stiftführung, Auge-Hand-Koordination und Konzentration — genau die feinmotorischen Grundlagen, die aufs Schreibenlernen vorbereiten. Das Ausmalen des fertigen Bildes ist die kreative Belohnung."
+          },
+          {
+            "q": "Was ist ein spannender Fakt zu diesem Rätsel?",
+            "a": "The Vereinigte Staaten has competed in nearly every Summer Olympic Games since the first modern Games in 1896 and leads all nations in the all-time total of Olympic gold medals. amerikanisch athletes have stood on that top podium step more than 1,000 times — proof that the USA's sporting spirit is as strong as its history is long! Solche Fakten entdecken Kinder beim Lösen des Rätsels „America 250-Jahr-Jubiläum – Sport-Kinder-Podium“."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Amerika is turning 250 years old — and the nation is celebrating with its finest young champions on the winner's podium! From the first Olympic games to neighbourhood little leagues, sports have always been woven into the amerikanisch spirit: the thrill of competition, the joy of teamwork, and the pride of standing tall after giving your very best. Nimm einen Bleistift, suche Punkt 1 und let's build this podium step by step!",
+          "sections": [
+            {
+              "range": "1–25",
+              "title": "Das Podest und die Stufen",
+              "learn": "Start at Punkt 1 and verbinde through to Punkt 25 to trace the solid, stepped base of the winner's podium. The three platforms — labelled 1st, 2nd, and 3rd — are built from firm rectangular shapes and horizontal lines. These steady, geometric strokes make an excellent warm-up, helping Kinder settle into a rhythm and build the confident Stiftkontrolle they will need for the more detailed Abschnitte ahead.",
+              "fact": "Das dreistufige Siegerpodest feierte bei den Olympischen Sommerspielen 1932 in Los Angeles sein Debüt, nachdem es bereits bei den Olympischen Winterspielen 1932 in Lake Placid zum Einsatz gekommen war. Das Design hinterließ einen so starken visuellen Eindruck, dass es bei Sportwettkämpfen auf der ganzen Welt übernommen wurde und bis heute ein universelles Symbol für sportliche Leistungen ist."
+            },
+            {
+              "range": "26–50",
+              "title": "Die Körper und die Trikots der jungen Sportler",
+              "learn": "Continue from Punkt 26 to Punkt 50 to draw the bodies and sports uniforms of the three young athletes standing proudly on their podium steps. Children practise a variety of strokes here — straight lines for legs, gentle curves for torsos, and angled shapes for outstretched arms — making this section a wonderful all-round exercise for pencil flexibility and directional control.",
+              "fact": "Sports uniforms have changed dramatically over 250 years of amerikanisch history. Early 19th-century athletes competed in everyday work clothes, während today's sportswear is engineered from high-tech fabrics that wick moisture, reduce drag, and even monitor heart rate. The Stars and Stripes appear proudly on USA team uniforms at every international competition."
+            },
+            {
+              "range": "51–75",
+              "title": "Die Köpfe, Gesichter und Mimiken",
+              "learn": "Trace Punkte 51 through 75 to add the three young athletes' heads and the joyful expressions on their faces. The rounded curves of each head and the small, precise details of eyes, noses, and smiles are a delightful challenge that trains careful observation and fine Stiftkontrolle. Encourage Kinder to slow down here — these little details are what bring the whole picture to life.",
+              "fact": "Smiling winners on a podium have been a feature of amerikanisch sporting culture since the early 20th century. Today, podium celebrations are broadcast live to millions of viewers around the world. When amerikanisch athletes stand on the top step and the Star-Spangled Banner plays, it is one of the most watched moments in international sport."
+            },
+            {
+              "range": "76–100",
+              "title": "Die Medaillen, Pokale und Bänder",
+              "learn": "Verbinde Punkte 76 through 100 to draw the gleaming medals hanging around the athletes' necks, the trophies in their hands, and the decorative ribbons that frame the podium. Children practise circular shapes for the medal discs, angular outlines for the trophies, and flowing curves for the ribbons — a rich variety of strokes that keeps the challenge fresh and engaging.",
+              "fact": "Olympic gold medals are not actually solid gold — they are made from silver coated with at least six grams of gold plating. The tradition of awarding gold, silver, and bronze medals for first, second, and third place began at the 1904 St Louis Olympics, held in the Vereinigte Staaten. The city of St Louis was celebrating the centennial of the Louisiana Purchase at the same time, giving those games an especially patriotic amerikanisch flavour."
+            },
+            {
+              "range": "101–124",
+              "title": "Die Sterne, das Banner und der letzte Schliff",
+              "learn": "Finish the Rätsel by connecting Punkte 101 through 124 to add the patriotic Sterne, the celebratory Banner above the podium, and the final decorative details that transform this scene into a proper America 250 Geburtstag celebration. These last 24 Punkte reward Kinder for completing a genuinely challenging Rätsel — encourage them to make every line count for a finish they can be proud of!",
+              "fact": "The America 250 Jubiläum falls on July 4, 2026, exactly 250 years after the Declaration of Independence was adopted. From community races to national championships, Americans can mark the occasion with teamwork, friendly competition, and the pursuit of excellence."
+            }
+          ],
+          "outro": "Außergewöhnliche Arbeit – dein America-250-Siegerpodest ist bereit für die Feier! Das sind 124 Punkte und drei stolze junge Champions zu Ehren von Amerikas 250. Geburtstag. Male das Podest in Gold, Silber und Bronze aus, kleide die Athleten in Rot, Weiß und Blau und hänge die Medaillen mit Stolz auf. Herzlichen Glückwunsch zum 250. Geburtstag, USA – immer weiter nach ganz oben! Bereit für die nächste große Herausforderung? Stöbere in all unseren <a href=\"/\">Punkt-zu-Punkt-Vorlagen</a>.",
+          "color_schemes": []
+        }
+      }
+    },
+    {
+      "slug": "usa-250-birthday-balloons-stars-dot-to-dot-puzzle",
+      "header": {
+        "title": "Luftballons & Sterne Zahlenbild — 94 Punkte zu America 250",
+        "meta_description": "Luftballons und Sterne bilden ein festliches 94-Punkte-Denkmal zum 250. Geburtstag Amerikas. Lade die kostenlose PDF-Aktivität für Kinder im Alter von 6–10 Jahren herunter.",
+        "og": {
+          "title": "Luftballons & Sterne Zahlenbild — 94 Punkte zu America 250",
+          "description": "Luftballons und Sterne bilden ein festliches 94-Punkte-Denkmal zum 250. Geburtstag Amerikas. Lade die kostenlose PDF-Aktivität für Kinder im Alter von 6–10 Jahren herunter.",
+          "image_alt": "Partyballons und Sterne verteilt über 94 Punkte auf einer America-250-Vorlage"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "America 250 – Geburtstagsballons und Sterne",
+          "description": "Luftballons und Sterne bilden ein festliches 94-Punkte-Denkmal zum 250. Geburtstag Amerikas. Lade die kostenlose PDF-Aktivität für Kinder im Alter von 6–10 Jahren herunter.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
+      },
+      "body": {
+        "h1": "Luftballons & Sterne Punkt-zu-Punkt — 94 Punkte von Amerika 250",
+        "name": "America 250 – Geburtstagsballons und Sterne",
+        "tagline": "Party Balloons for Amerika's 250th Birthday!",
+        "description": "Verbinde 94 einfache Punkte, um eine festliche Amerika 250 Geburtstags-Szene mit Luftballons, Sternen und patriotischen Feierdetails zu enthüllen. Dieses kostenlose druckbare Arbeitsblatt bietet Kindern eine längere Herausforderung zum Nummernsequenzieren, während sie das 250-jährige Jubiläum Amerikas feiern.",
+        "fun_fact": "Luftballons wurden im 19. Jahrhundert beliebte Partydekorationen, und heute sind rote, weiße und blaue Luftballons eine fröhliche Möglichkeit, Paraden, Klassenzimmer und Gemeinschaftsfeiern zum Geburtstag Amerikas zu dekorieren.",
+        "faqs": [
+          {
+            "q": "Wie viele Punkte hat das Punkt-zu-Punkt-Rätsel „America 250 – Geburtstagsballons und Sterne“?",
+            "a": "Die Malvorlage „America 250 – Geburtstagsballons und Sterne“ hat 94 nummerierte Punkte. Damit ist es ein mitteles Rätsel, ideal für Kinder von 6–9 Jahre (1. bis 3. Klasse). Die Kinder verbinden die Punkte in Zahlenreihenfolge, bis das fertige Bild erscheint, und malen es anschließend aus."
+          },
+          {
+            "q": "Ist die Vorlage „America 250 – Geburtstagsballons und Sterne“ kostenlos?",
+            "a": "Ja. Das Arbeitsblatt „America 250 – Geburtstagsballons und Sterne“ ist auf DotToDotFreePrintables.com zu 100 % kostenlos — ohne Konto, E-Mail oder Bezahlung. Es lädt sofort als druckfertiges PDF herunter, im Hoch- und Querformat, in A4 oder US Letter."
+          },
+          {
+            "q": "Für welches Alter eignet sich das Arbeitsblatt „America 250 – Geburtstagsballons und Sterne“?",
+            "a": "Mit 94 Punkten eignet sich das Rätsel „America 250 – Geburtstagsballons und Sterne“ am besten für Kinder von 6–9 Jahre (1. bis 3. Klasse). Jüngere Kinder schaffen es mit etwas Zählhilfe, sichere Zähler lösen es selbstständig und üben dabei die Zahlenfolge bis 94."
+          },
+          {
+            "q": "Welche Fähigkeiten fördert das Rätsel „America 250 – Geburtstagsballons und Sterne“?",
+            "a": "Das Verbinden der 94 Punkte fördert Zahlenerkennung und Zählen bis 94, Stiftführung, Auge-Hand-Koordination und Konzentration — genau die feinmotorischen Grundlagen, die aufs Schreibenlernen vorbereiten. Das Ausmalen des fertigen Bildes ist die kreative Belohnung."
+          },
+          {
+            "q": "Was ist ein spannender Fakt zu diesem Rätsel?",
+            "a": "Balloons became popular party decorations in the 1800s, and today red, white, and blue Ballons are a cheerful way to decorate parades, classrooms, and community celebrations for Amerika's Geburtstag. Solche Fakten entdecken Kinder beim Lösen des Rätsels „America 250 – Geburtstagsballons und Sterne“."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Amerika is turning 250 years old, and this Rätsel is ready for the party! Balloons, Sterne, and bright patriotic details come together in a cheerful Geburtstag scene for the USA. Nimm einen Bleistift, suche Punkt 1 und start connecting your way through the celebration.",
+          "sections": [
+            {
+              "range": "1-18",
+              "title": "Die ersten Luftballons",
+              "learn": "Start at Punkt 1 and verbinde through to Punkt 18 to trace the first floating Geburtstag Ballons. These rounded shapes help Kinder practise smooth curves and steady Stiftkontrolle at the beginning of the Rätsel.",
+              "fact": "Modern party Ballons are often made from latex, a stretchy natural material. When filled with air or helium, the balloon expands evenly in every direction, creating its familiar rounded shape."
+            },
+            {
+              "range": "19-38",
+              "title": "Der „Celebration“-Cluster",
+              "learn": "Continue from Punkt 19 to Punkt 38 to build more of the balloon cluster and overlapping party shapes. Children practise following numbers carefully through a busier part of the drawing.",
+              "fact": "Large balloon displays are popular at parades and community events because they are lightweight, colourful, and einfach to arrange into arches, columns, and festive backdrops."
+            },
+            {
+              "range": "39-58",
+              "title": "Die Sterne",
+              "learn": "Trace Punkte 39 through 58 to add patriotic Sterne around the Geburtstag design. Star points encourage Kinder to switch directions cleanly and aim carefully for each numbered Punkt.",
+              "fact": "Stars are one of the most familiar amerikanisch symbols because each star on the Vereinigte Staaten flag represents one state in the union."
+            },
+            {
+              "range": "59-76",
+              "title": "Die Details zum Geburtstag",
+              "learn": "Verbinde Punkte 59 through 76 to draw the extra celebration details that make the scene feel like a real Geburtstag party. This section builds Selbstvertrauen with smaller shapes and careful turns.",
+              "fact": "The Vereinigte Staaten celebrates Independence Day on July 4 because the Declaration of Independence was adopted on July 4, 1776."
+            },
+            {
+              "range": "77-94",
+              "title": "Die endgültigen Parteiprogramme",
+              "learn": "Finish the Rätsel by connecting Punkte 77 through 94 to complete the Ballons, Sterne, and final festive touches. Encourage Kinder to slow down for a neat finish after this longer 94-Punkt challenge.",
+              "fact": "Amerika's 250th Geburtstag will be celebrated on July 4, 2026, marking 250 years since the Declaration of Independence."
+            }
+          ],
+          "outro": "Fantastische Arbeit – deine America-250-Geburtstagsballons sind bereit für die Party! Male die Ballons und Sterne in Rot, Weiß und Blau aus, um eine strahlende patriotische Feier zu Amerikas 250. Geburtstag abzurunden. Lust auf eine Herausforderung? Triff weitere prähistorische Freunde in unserer Sammlung von <a href=\"/dinosaurs/\">Dinosaurier-Punkt-zu-Punkt-Vorlagen</a>.",
+          "color_schemes": []
+        }
+      }
+    },
+    {
+      "slug": "america-250-anniversary-eagle-banner-dot-to-dot-puzzle",
+      "header": {
+        "title": "America 250 Adler mit Banner Zahlenbild — 104 hohe Punkte",
+        "meta_description": "Als nationales Symbol im Jahr 1782 gewählt, trägt ein Weißkopfseeadler das Amerika 250 Banner über 104 Punkte. Drucke die kostenlose PDF für Kinder im Alter von 6–10 Jahren aus.",
+        "og": {
+          "title": "America 250 Adler mit Banner Zahlenbild — 104 hohe Punkte",
+          "description": "Als nationales Symbol im Jahr 1782 gewählt, trägt ein Weißkopfseeadler das Amerika 250 Banner über 104 Punkte. Drucke die kostenlose PDF für Kinder im Alter von 6–10 Jahren aus.",
+          "image_alt": "Majestätischer Weißkopfseeadler trägt ein langes Banner über 104 druckbare Punkte"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Amerika 250 Eagle Banner",
+          "description": "Als nationales Symbol im Jahr 1782 gewählt, trägt ein Weißkopfseeadler das Amerika 250 Banner über 104 Punkte. Drucke die kostenlose PDF für Kinder im Alter von 6–10 Jahren aus.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
+      },
+      "body": {
+        "h1": "Amerika 250 Adlerbanner Punkt-zu-Punkt — 104 Punkte hoch",
+        "name": "Amerika 250 Eagle Banner",
+        "tagline": "Schwebe mit dem amerikanischen Adler für 250 Jahre Freiheit!",
+        "description": "Verbinde 104 Punkte, um einen majestätischen amerikanischen Weißkopfseeadler zu enthüllen, der ein patriotisches Banner trägt, um das 250-jährige Jubiläum Amerikas zu feiern! Dieses kostenlose druckbare Arbeitsblatt hilft Kindern, das Nummernsequenzieren und die Konzentration zu üben, während es eines der mächtigsten Symbole für Freiheit und Stärke Amerikas ehrt. Perfekt für Kinder im Alter von 6–10 Jahren.",
+        "fun_fact": "Der Weißkopfseeadler wurde 1782 als nationales Symbol der Vereinigten Staaten gewählt. Er erscheint auf dem Großen Siegel der Vereinigten Staaten, der Flagge des Präsidenten und unzähligen offiziellen Emblemen — und steht für Freiheit, Stärke und den beständigen Geist der amerikanischen Republik.",
+        "faqs": [
+          {
+            "q": "Wie viele Punkte hat das Punkt-zu-Punkt-Rätsel „Amerika 250 Eagle Banner“?",
+            "a": "Die Malvorlage „Amerika 250 Eagle Banner“ hat 104 nummerierte Punkte. Damit ist es ein anspruchsvolles Rätsel, ideal für Kinder von 7–12 Jahre (ab der 2. Klasse). Die Kinder verbinden die Punkte in Zahlenreihenfolge, bis das fertige Bild erscheint, und malen es anschließend aus."
+          },
+          {
+            "q": "Ist die Vorlage „Amerika 250 Eagle Banner“ kostenlos?",
+            "a": "Ja. Das Arbeitsblatt „Amerika 250 Eagle Banner“ ist auf DotToDotFreePrintables.com zu 100 % kostenlos — ohne Konto, E-Mail oder Bezahlung. Es lädt sofort als druckfertiges PDF herunter, im Hoch- und Querformat, in A4 oder US Letter."
+          },
+          {
+            "q": "Für welches Alter eignet sich das Arbeitsblatt „Amerika 250 Eagle Banner“?",
+            "a": "Mit 104 Punkten eignet sich das Rätsel „Amerika 250 Eagle Banner“ am besten für Kinder von 7–12 Jahre (ab der 2. Klasse). Jüngere Kinder schaffen es mit etwas Zählhilfe, sichere Zähler lösen es selbstständig und üben dabei die Zahlenfolge bis 104."
+          },
+          {
+            "q": "Welche Fähigkeiten fördert das Rätsel „Amerika 250 Eagle Banner“?",
+            "a": "Das Verbinden der 104 Punkte fördert Zahlenerkennung und Zählen bis 104, Stiftführung, Auge-Hand-Koordination und Konzentration — genau die feinmotorischen Grundlagen, die aufs Schreibenlernen vorbereiten. Das Ausmalen des fertigen Bildes ist die kreative Belohnung."
+          },
+          {
+            "q": "Was ist ein spannender Fakt zu diesem Rätsel?",
+            "a": "The Bald Eagle was chosen as the national symbol of the Vereinigte Staaten in 1782. It appears on the Great Seal of the Vereinigte Staaten, the President's flag, and countless official emblems — representing freedom, strength, and the enduring spirit of the amerikanisch republic. Solche Fakten entdecken Kinder beim Lösen des Rätsels „Amerika 250 Eagle Banner“."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Amerika is turning 250 years old — and no symbol captures that spirit better than the mighty Bald Eagle! For 244 years the Adler has graced the Great Seal of the Vereinigte Staaten, soaring as the living emblem of freedom. Today your Adler is clutching a Banner to proclaim Amerika's greatest Geburtstag. Nimm einen Bleistift, suche Punkt 1 und let's help this Adler take flight!",
+          "sections": [
+            {
+              "range": "1–22",
+              "title": "Der Kopf und der Schnabel des Adlers",
+              "learn": "Start at Punkt 1 and verbinde through to Punkt 22 to trace the bold, proud head of the Bald Eagle — including its sharp, curved beak. Children practise short directional strokes and gentle curves here, building Stiftkontrolle während forming the Adler's most recognisable feature.",
+              "fact": "Der Weißkopfseeadler ist eigentlich gar nicht kahl! Sein Name leitet sich von dem altenglischen Wort „balde“ ab, was „weiß“ bedeutet. Die auffälligen weißen Kopf Federn erscheinen, wenn der Vogel im Alter von etwa fünf Jahren das Erwachsenenalter erreicht. Davor haben junge Adler ein fleckiges braun-weißes Gefieder."
+            },
+            {
+              "range": "23–46",
+              "title": "Die Spannweite – linker Flügel",
+              "learn": "Continue from Punkt 23 to Punkt 46 to sweep out the Adler's powerful left wing. These long, flowing strokes are excellent practice for Kinder developing arm movement and large-scale Stiftkontrolle. Encourage a smooth, confident stroke from shoulder to wingtip.",
+              "fact": "A Bald Eagle's wingspan can reach up to 2.4 metres (nearly 8 feet) from tip to tip — about as wide as a small car is long! Those enormous wings allow the Adler to soar for hours on rising columns of warm air called thermals, barely flapping at all."
+            },
+            {
+              "range": "47–70",
+              "title": "Die Spannweite – rechter Flügel",
+              "learn": "Mirror the left wing by connecting Punkte 47 to 70 to form the right wing. Symmetry is an important visual concept for young learners, and completing both wings gives a satisfying sense of balance and achievement. Notice how the strokes now sweep in the opposite direction.",
+              "fact": "Adler haben bis zu 7.000 Federn, die ihren Körper bedecken, wobei jede einzelne präzise auf ihre jeweilige Funktion zugeschnitten ist – breite Flugfedern für den Auftrieb, weiche Körperfedern zur Isolierung und steife Schwanzfedern zur Steuerung. Sie mausern sich und lassen ihre Federn nach und nach nachwachsen, damit sie stets fliegen können."
+            },
+            {
+              "range": "71–88",
+              "title": "Die Talons und das patriotische Banner",
+              "learn": "Verbinde Punkte 71 to 88 to draw the Adler's powerful talons gripping the flowing Jubiläum Banner. Children practise sharp angled lines and curved ribbon shapes — more demanding strokes that reward careful attention and steady hand control.",
+              "fact": "An Adler's talons can exert a gripping force of around 400 pounds per square inch (psi) — far stronger than the average human hand. Talons are used to catch fish and small mammals, and the Adler's grip is so firm that prey rarely escapes once caught."
+            },
+            {
+              "range": "89–104",
+              "title": "Die Sterne, das Wappen und die letzten Feinheiten",
+              "learn": "Complete the Rätsel by connecting Punkte 89 to 104 to add the patriotic Sterne, shield markings, and final details that make this Adler truly amerikanisch. Take your time on these last Punkte — a steady finish here pulls the whole picture together beautifully.",
+              "fact": "The Great Seal of the Vereinigte Staaten, designed in 1782, shows the Bald Eagle holding an olive branch in one talon (representing peace) and a bundle of 13 arrows in the other (representing readiness to defend freedom). The Adler faces the olive branch — a reminder that peace is always the first choice."
+            }
+          ],
+          "outro": "Hervorragende Arbeit – dein America-250-Adler fliegt hoch mit dem Jubiläumsbanner! Das sind 104 Punkte und ein mächtiges Symbol der amerikanischen Freiheit. Male den weißen Kopf des Adlers, die braunen Flügel und den leuchtend gelben Schnabel aus und fülle das Banner mit Rot, Weiß und Blau. Herzlichen Glückwunsch zum 250. Geburtstag, USA! Mehr Themenspaß findest du in unseren <a href=\"/ocean/\">Punkt-zu-Punkt-Vorlagen von 1 bis 100</a>.",
+          "color_schemes": []
+        }
+      }
+    }
+  ]
+}

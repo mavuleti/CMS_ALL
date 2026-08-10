@@ -14,7 +14,7 @@ export interface AuditEntry {
   action: AuditAction;
   trigger: AuditTrigger;
   entry_id: string;
-  entry_type: 'puzzle' | 'collection';
+  entry_type: 'puzzle' | 'collection' | 'page' | 'blog';
   changes: AuditChange[];
 }
 

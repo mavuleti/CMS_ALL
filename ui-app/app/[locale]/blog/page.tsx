@@ -5,7 +5,7 @@ import { setRequestLocale, getTranslations } from 'next-intl/server';
 
 import { getAllBlogPostsForLocale, formatBlogDate } from '@/lib/blog-data';
 import { DEFAULT_OG_IMAGE, SITE_NAME, buildAlternates, ogAlternateLocalesFor, ogLocaleFor } from '@/lib/seo';
-import { localizedSocialImageAlt, localizedStaticSeo } from '@/lib/localized-seo';
+import { localizedSocialImageAlt, localizedStaticSeo } from '@/lib/json-seo';
 
 export async function generateMetadata({
   params

@@ -1,425 +1,812 @@
-[
-  {
-    "slug": "spring-horse-playground-dot-to-dot-puzzle",
-    "name": "Šūpoles rotaļu laukums",
-    "seoH1": "Pavasara zirdziņš Punktu uz Punktu — 53 Punktu Spēļu Lapa",
-    "tagline": "Šūpoles, slidkalniņi un jautrība brīvā dabā!",
-    "description": "Savieno 42 vienkāršus punktus, lai atklātu jautru rotaļu laukuma ainu ar šūpolēm! Šī drukājamā puzle ir ideāli piemērota pirmsskolas un bērnudārza bērniem, kuri praktizē skaitļu secību, vienlaikus svinot āra rotaļu prieku.",
-    "seoDescription": "Bērna mainīgais svars liek pavasara zirdziņam šūpoties. Izveido šo spēļu zirdziņu caur 53 punktiem ar bezmaksas izdrukājamu PDF vecumā no 4 līdz 8 gadiem.",
-    "funFact": "Šūpoles ir viens no vecākajiem rotaļu laukuma izgudrojumiem — bērni šūpojas virvju šūpolēs jau tūkstošiem gadu!",
-    "seoImageAlt": "Spēļu pavasara zirdziņa braucējs, kas izlec formā no 53 izdrukājamiem punktiem",
-    "dotGuide": {
-      "intro": "Rotaļu laukumi ir vietas, kur vaļu iztēlei un rodas draudzības — un šūpoles ir neapstrīdams rotaļu laukuma karalis. Tikai dažas lietas var līdzināties vienkāršajam priekam, ko sniedz kāju kustināšana un vēja šalkas sajūta, ceļoties arvien augstāk debesīs. Šī dzīvespriecīgā 42 punktu mīkla iemieso šo maģiju. Atrodi 1. punktu, paņem zīmuli un spēlējies!",
-      "sections": [
-        {
-          "range": "1–13",
-          "title": "Zirga galva",
-          "learn": "Sāciet ar 1. punktu un savienojiet to ar 8. punktu, lai uzzīmētu garo A veida rāmi, kas notur šūpoles vietā. Bērni praktizē taisnas, pārliecinātas līnijas, kas vēršas uz iekšu pret punktu — lieliska iepazīšanās ar ģeometriskām formām jautrā, reālās pasaules kontekstā. Lai iegūtu labāko rezultātu, mudiniet bērnus zīmēt stingri, apzināti.",
-          "fact": "Spēļu laukuma atsperes braucēji nāk dažādās formās, tostarp zirgi, motocikli, vaļi un iztēles radījumi."
-        },
-        {
-          "range": "14–27",
-          "title": "Korpuss un sēdeklis",
-          "learn": "Turpiniet no 9. līdz 18. punktam, lai augšpusē uzzīmētu horizontālo šķērsstieni un piekaramās ķēdes. Bērni vingrinās pārmaiņus zīmēt horizontālas līnijas un lejupvērstas ķēdes — jauks vingrinājums, lai apzināti un precīzi mainītu virzienu. Tieši ķēdes padara šūpošanās kustību iespējamu!",
-          "fact": "Rokturis un kāju balsti palīdz bērniem saglabāt līdzsvaru, kamēr atsperes braucējs šūpojas."
-        },
-        {
-          "range": "28–40",
-          "title": "Spēcīgā atsperes",
-          "learn": "Apvelciet punktus no 19 līdz 28, lai uzzīmētu šūpoles sēdekli un uz tā sēdošā bērna kontūras. Šī ir visiedvesmojošākā puzles daļa — bērni redz, kā visa konstrukcijas mērķis saplūst kopā, kad maza figūriņa ieņem viņu vietu. Atgādiniet bērniem, lai viņi skatās uz priekšu līdz nākamajam punktam, pirms paceļ zīmuli.",
-          "fact": "Tērauda atsperes locās un atgriežas sākotnējā pozīcijā, radot brauciena šūpošanās kustību."
-        },
-        {
-          "range": "41–53",
-          "title": "Pamatne un beigas",
-          "learn": "Savienojiet punktus no 29 līdz 36, lai uzzīmētu zemi zem šūpolēm un apkārtējās detaļas. Bērni praktizē ainas iezemēšanu, piešķirot rotaļu laukumam vietas un mēroga sajūtu. Šī sadaļa veido izpratni par priekšplānu un fonu, kas viņiem labi noderēs mākslā un zīmēšanā turpmākajos gados.",
-          "fact": "Atsperes braucēji ir droši nostiprināti zem spēļu laukuma virsmas, lai tie paliktu stabilitāti kustības laikā."
+{
+  "collection": {
+    "header": {
+      "title": "Playground Dot to Dot Printables — Free PDF for Kids",
+      "meta_description": "Free playground dot to dot printables for kids ages 4-12: spring horse, carousel, slide, seesaw, monkey bars, and an extreme 133-dot roller coaster. Print-ready PDF worksheets for the USA, UK, and Canada. No sign-up needed.",
+      "og": {
+        "title": "9 Free Playground Dot to Dot Printables",
+        "description": "Swings, slides, seesaws, and an extreme 133-dot roller coaster — free dot to dot printables to print today.",
+        "image": "/images/swing-playgrounds-puzzle.webp"
+      },
+      "json_ld": {
+        "type": "CollectionPage",
+        "name": "Rotaļu laukumi",
+        "description": "Ienesiet rotaļu laukumu mājās! Savienojiet punktus, lai atklātu šūpoles, slidkalniņus un jautrību brīvā dabā. Visas darba lapas var lejupielādēt un izdrukāt bez maksas — konts nav nepieciešams.",
+        "image": "/images/swing-playgrounds-puzzle.webp",
+        "main_entity": {
+          "type": "ItemList",
+          "item_source": "puzzles"
         }
-      ],
-      "outro": "Lieliski — jūsu rotaļu laukums ir gatavs! Izkrāsojiet šūpoles savās iecienītākajās krāsās un pievienojieties draugiem šūpoties. Pēc tam dodieties ārā uz īstām šūpolēm — neviens krāsainais zīmulis nevar līdzināties vēja sajūtai matos, atrodoties šūpoles augšpusē! Katram vecumam un tēmai iepazīstieties ar mūsu pilno <a href=\"/\">punktu uz punktu drukājamo attēlu</a> bibliotēku."
+      },
+      "breadcrumb_json_ld": {
+        "type": "BreadcrumbList",
+        "items": [
+          {
+            "position": 1,
+            "name": "Home",
+            "path": "/"
+          },
+          {
+            "position": 2,
+            "name": "Rotaļu laukumi",
+            "path": "/playgrounds/"
+          }
+        ]
+      }
     },
-    "seoTitle": "Pavasara zirdziņš Punktu uz Punktu — 53 Punktu Spēļu Lapa"
+    "body": {
+      "h1": "Rotaļu laukuma punktveida drukājamie materiāli bērniem",
+      "name": "Rotaļu laukumi",
+      "tagline": "Kāpēc bērniem patīk punktu salikšanas puzles rotaļu laukumā",
+      "description": "Ienesiet rotaļu laukumu mājās! Savienojiet punktus, lai atklātu šūpoles, slidkalniņus un jautrību brīvā dabā. Visas darba lapas var lejupielādēt un izdrukāt bez maksas — konts nav nepieciešams.",
+      "hero_image": "/images/swing-playgrounds-puzzle.webp",
+      "slug": "playgrounds",
+      "faqs": [
+        {
+          "q": "Cik daudz bezmaksas rotaļu laukumu punktu-punktu drukājamu veidņu ir pieejamas?",
+          "a": "Kategorijā “Rotaļu laukumi” pašlaik tiek piedāvāti 5 bezmaksas drukājamie darblapas ar uzdevumu “Savieno punktus” no 42 līdz 133 punktiem. Katra darba lapa tiek lejupielādēta acumirklī kā drukāšanai gatavs PDF fails (Letter vai A4 formātā, portreta vai ainavas formātā) bez nepieciešamības reģistrēties."
+        },
+        {
+          "q": "Vai rotaļu laukumu punktu salikšanas puzles var izdrukāt bez maksas?",
+          "a": "Jā — visas 5 Playgrounds kolekcijas mīklas ir pilnīgi bez maksas lietošanai mājās un klasē. Vietnē DotToDotFreePrintables.com nekad nav nepieciešams konts, e-pasts vai maksājums."
+        },
+        {
+          "q": "Kādam vecumam paredzētas rotaļu laukuma puzles?",
+          "a": "Ar punktu skaitu no 42 līdz 133 Playgrounds kolekcija aptver aptuveni 4–12 gadu vecumu. Pirmsskolas un bērnudārza vecuma bērniem izvēlieties mazāku punktu skaitu, bet 2.–6. klases bērniem – lielāku punktu skaitu."
+        },
+        {
+          "q": "Kādas rotaļu laukuma punktu salikšanas puzles bērni var izdrukāt?",
+          "a": "Pieci bezmaksas rotaļu laukuma drukājamie materiāli: Šūpoles (42 punkti), Šūpoles (68 punkti), Bāra stieņi (94 punkti), Slidkalniņš (102 punkti) un Amerikāņu kalniņi (133 punkti) — visplašākā grūtības pakāpe vietnē, sākot no bērnudārza līdz pusaudžu līmeņa izaicinājumiem."
+        },
+        {
+          "q": "Kura ir visgrūtākā punktu salikšanas mīkla vietnē?",
+          "a": "Mīkla “Veltiņu kalniņi” ar 133 punktiem ir vietnes lielākais izaicinājums, kas vislabāk piemērota 7–12 gadus veciem bērniem. Tā ir iecienīta vecākiem bērniem, kuriem tipiskas darba lapas šķiet pārāk vieglas."
+        }
+      ]
+    }
   },
-  {
-    "slug": "playhouse-slide-playground-dot-to-dot-puzzle",
-    "name": "Slaidu rotaļu laukums",
-    "seoH1": "Spēļu mājiņas slaids Punktu uz Punktu: 68 punkti, ko izdrukāt bez maksas",
-    "tagline": "Kāpt, slīdēt, atkārtot!",
-    "description": "Savienojiet 68 punktus, lai atklātu priecīgu spēļu mājiņu ar slaidu. Šis vieglais izdrukājamais materiāls palīdz bērniem praktizēt skaitļu secību, zīmuļa kontroli, vizuālo izsekošanu un koncentrēšanos.",
-    "seoDescription": "Kāpšana, slīdēšana un iztēles spēles apvienojas vienā priecīgā struktūrā. Izsekojiet spēļu mājiņas slaidu caur 68 punktiem bezmaksas PDF vecumā no 5 līdz 9 gadiem.",
-    "funFact": "Spēļu struktūras apvieno kāpšanu, iztēles spēles un slīdēšanu, sniedzot bērniem vairākus kustību un iztēles praktizēšanas veidus vienā vietā.",
-    "seoImageAlt": "Spēļu mājiņa ar pievienotu slaidu, kas salikta no 68 punktiem bezmaksas punktu uz punktu lapā",
-    "dotGuide": {
-      "intro": "Ja šūpoles ir rotaļu laukuma karalis, tad slidkalniņš ir ļoti tuvu otrajam — ir kaut kas neatvairāms tajā, ka uzkāpjam, apsēžamies un ļaujam gravitācijai paveikt pārējo. Šī 102 punktu puzle iezīmē garu, klasisku rotaļu laukuma slidkalniņu no kāpnēm aizmugurē līdz izliektajai rampai priekšpusē. Tajā ir vairāk punktu nekā mūsu vienkāršākajā rotaļu laukuma lapā, tāpēc tā atalgo nedaudz papildu pacietības. Atrodi 1. punktu un uzbūvēsim kaut ko tādu, pa ko ir vērts uzkāpt.",
-      "sections": [
-        {
-          "range": "1–14",
-          "title": "Spēļu mājas jumts",
-          "learn": "Sāciet ar 1. punktu un savienojiet to ar 20. punktu, lai uzzīmētu augstās kāpnes, kas ved uz slidkalniņa platformu. Šī sadaļa pārsvarā sastāv no taisnām, vienmērīgi izvietotām līnijām, kas ir laba iesildīšanās vienmērīgiem, kontrolētiem zīmuļa triepieniem pirms gaidāmajiem līkumiem.",
-          "fact": "Jumti ārējām spēļu mājām nodrošina ēnu un palīdz struktūrai justies kā mazai ēkai, kas paredzēta iztēles spēlēm."
+  "puzzles": [
+    {
+      "slug": "spring-horse-playground-dot-to-dot-puzzle",
+      "header": {
+        "title": "Pavasara zirdziņš Punktu uz Punktu — 53 Punktu Spēļu Lapa",
+        "meta_description": "Bērna mainīgais svars liek pavasara zirdziņam šūpoties. Izveido šo spēļu zirdziņu caur 53 punktiem ar bezmaksas izdrukājamu PDF vecumā no 4 līdz 8 gadiem.",
+        "og": {
+          "title": "Pavasara zirdziņš Punktu uz Punktu — 53 Punktu Spēļu Lapa",
+          "description": "Bērna mainīgais svars liek pavasara zirdziņam šūpoties. Izveido šo spēļu zirdziņu caur 53 punktiem ar bezmaksas izdrukājamu PDF vecumā no 4 līdz 8 gadiem.",
+          "image_alt": "Spēļu pavasara zirdziņa braucējs, kas izlec formā no 53 izdrukājamiem punktiem"
         },
-        {
-          "range": "15–28",
-          "title": "Māja un platforma",
-          "learn": "Turpiniet no 21. punkta līdz 40. punktam, lai augšpusē uzzīmētu plakano platformu, kur kāpēji apstājas pirms slīdēšanas lejā. Bērni šeit vingrinās savienot horizontālas un vertikālas līnijas tīros taisnos leņķos — laba prakse struktūras un proporciju veidošanai.",
-          "fact": "Paceltas spēļu platformas mudina bērnus praktizēt līdzsvaru un telpisko apziņu, pārvietojoties."
-        },
-        {
-          "range": "29–41",
-          "title": "Kāpšanas kāpnes",
-          "learn": "Apvelciet punktus no 41 līdz 60, lai veidotu izliekto malu vietā, kur platforma saskaras ar pašu slidkalniņu — precīzu vietu, kur sākas jautrība. Šī ir stingrāka līkne, nekā izskatās, tāpēc mudiniet roku kustēties lēni un apzināti, nevis ātri.",
-          "fact": "Kāpšanas kāpnes palīdz bērniem attīstīt kāju spēku, koordināciju un pārliecību."
-        },
-        {
-          "range": "42–55",
-          "title": "Liektais slidkalniņš",
-          "learn": "Savienojiet punktus no 61 līdz 85, lai uzzīmētu pašu garo, plūstošo slīdēšanu. Šī ir lielākā un visapmierinošākā puzles daļa — mudiniet uz vienu vienmērīgu, nepārtrauktu vēzienu, nevis vairākus īsus, jo tieši tas piešķir slīdēšanai ātruma sajūtu.",
-          "fact": "Slidkalniņi izmanto gravitāciju, lai pārvērstu augstumu, kas iegūts kāpjot, ātrā, gludā braucienā uz leju."
-        },
-        {
-          "range": "56–68",
-          "title": "Atbalsti un zeme",
-          "learn": "Pabeidziet, savienojot punktus no 86 līdz 102, lai uzzīmētu slidkalniņa pamatni un zemi, kur piezemējas braucēji. Atlikuši septiņpadsmit punkti — pārliecināts, piezemēts noslēgums šeit pabeidz visu konstrukciju.",
-          "fact": "Spēļu laukuma aprīkojums ir uzstādīts virs triecienu absorbējošām virsmām, piemēram, inženierijas koka šķiedras vai gumijas."
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Šūpoles rotaļu laukums",
+          "description": "Bērna mainīgais svars liek pavasara zirdziņam šūpoties. Izveido šo spēļu zirdziņu caur 53 punktiem ar bezmaksas izdrukājamu PDF vecumā no 4 līdz 8 gadiem.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
         }
-      ],
-      "outro": "Lieliski paveikts — jūsu slidkalniņš ir gatavs kāpējiem! Izkrāsojiet to košās rotaļu laukuma krāsās vai izveidojiet savu savvaļas rakstu lejup pa slidkalniņu. Vai esat gatavs kaut kam pavisam citam? Izmēģiniet mūsu <a href=\"/dinosaurs/\">dinozauru punktu drukājamo zīmējumu</a> kolekciju."
-    },
-    "seoTitle": "Spēļu mājiņas slaids Punktu uz Punktu: 68 punkti, ko izdrukāt bez maksas"
-  },
-  {
-    "slug": "carousel-horse-playground-dot-to-dot-puzzle",
-    "name": "Šūpoļu rotaļu laukums",
-    "seoH1": "Karuseļa zirdziņš Punktu uz Punktu — maģiska 88 punktu lapa",
-    "tagline": "Augšup, lejup un visapkārt!",
-    "description": "Savienojiet 88 punktus, lai atklātu elegantu karuseļa zirdziņu, kas gatavs maģiskai braucienam. Šis vidēja grūtības izdrukājamais puzlis sniedz bērniem aizraujošu veidu, kā praktizēt skaitļu secību, koncentrēšanos un rūpīgu zīmuļa kontroli.",
-    "seoDescription": "Sekojiet plūstošai manei un dekoratīvajai segai karuseļa lēcējam caur 88 punktiem. Izdrukājiet šo izklaides puzli bez maksas bērniem vecumā no 5 līdz 9 gadiem.",
-    "funFact": "Tradicionālajiem karuseļa zirdziņiem bieži ir plūstoša mane un dekoratīva sega, un zirdziņi, kas pārvietojas augšup un lejup, tiek saukti par lēcējiem.",
-    "seoImageAlt": "Dekorēts karuseļa zirdziņš ar plūstošu manei, kas izveidots no 88 izdrukājamiem punktiem",
-    "dotGuide": {
-      "intro": "Šūpoles ir veidotas ar nelielu komandas darbu — tās darbojas tikai tad, ja abi braucēji piedalās, pārmaiņus atspiežoties un pieceļoties. Šī 68 punktu puzle iemieso līdzsvaru no nulles, vispirms dēlis, bet braucēji — pēdējais. Tas ir labs solis uz priekšu no mūsu vieglākās rotaļu laukuma lapas, neiekļūstot ekspertu līmenī. Atrodiet 1. punktu un nolīdzsvarosim šo lietu.",
-      "sections": [
-        {
-          "range": "1–18",
-          "title": "Zirga galva",
-          "learn": "Sāciet ar 1. punktu un savienojiet to ar 14. punktu, lai uzzīmētu stabilu centrālo balstu, uz kura balansē visas šūpoles. Šīs līnijas ir īsas un leņķiskas, dodot bērniem iespēju praktizēt stabilas pamatnes formas veidošanu, pirms virsū tiek pievienots kaut kas cits.",
-          "fact": "Karusēla mākslinieki bieži katram zirgam piešķir atšķirīgu izteiksmi. Daži izskatās mierīgi un draudzīgi, kamēr citiem ir paceltas galvas un plašas acis, lai tie izskatītos, it kā tie sacenšas."
-        },
-        {
-          "range": "19–36",
-          "title": "Plūstošā mēteļa un kakla",
-          "learn": "Turpiniet no 15. līdz 28. punktam, lai uzzīmētu garo dēli, kas balstās pāri atbalsta punktam. Bērni vingrinās zīmēt vienu nepārtrauktu, lēzeni slīpu līniju — laba sagatavošanās stabilai rokas kontrolei garākos vēzienos.",
-          "fact": "Daudzi antīkie karuselu zirgi tika izgrebti ar roku no vairākiem koka gabaliem. Prasmīgi mākslinieki pievienoja dziļas iegriezumus mētelim, lai tas noķertu gaismu un izskatītos, it kā tas viļņotos, kad karuselis griezās."
-        },
-        {
-          "range": "37–54",
-          "title": "Sēdeklis un ķermenis",
-          "learn": "Novelc punktus no 29 līdz 42, lai pievienotu rokturus katrā dēļa galā. Šajā sadaļā bērni pēc kārtas strādā abās puzles pusēs, praktizējot simetriju, veidojot atbilstošu formu katrā galā.",
-          "fact": "Visvairāk dekorētā karuselu zirga puse parasti ir vērsta uz āru, kur to var redzēt jātnieki un skatītāji. Grebēji šo pusi sauc par romantisko pusi un bieži to pārklāj ar ziediem, lentēm, dārgakmeņiem vai vairogiem."
-        },
-        {
-          "range": "55–72",
-          "title": "Skrienošās kājas",
-          "learn": "Savienojiet punktus no 43 līdz 56, lai uzzīmētu bērnu, kurš sēž uz šūpoļu paceltā gala. Šeit aina sāk šķist dzīva — atgādiniet bērniem, lai pirms zīmuļa pacelšanas viņi skatās uz priekšu līdz nākamajam punktam, lai figūra iznāktu gluda.",
-          "fact": "Karuselu zirgi, kas pārvietojas uz augšu un uz leju, tiek saukti par lēcējiem, savukārt zirgi, kas ir fiksēti vietā, dažreiz tiek saukti par stāvētājiem. Augšupejošā kustība palīdz jātniekiem iedomāties, ka viņu zirgs patiešām skrien."
-        },
-        {
-          "range": "73–88",
-          "title": "Astes un pabeigšanas detaļas",
-          "learn": "Pabeidziet, savienojot punktus no 57 līdz 68, lai uzzīmētu otro bērnu uz leju un zemi zem šūpolēm. Atlikuši tikai divpadsmit punkti — rūpīgs un pārliecināts noslēgums šeit pabeidz visu ainu.",
-          "fact": "Karuseli sauc arī par prieka riņķiem. Agrīnie modeļi tika iedvesmoti no jāšanas treniņu spēlēm, bet laika gaitā tie kļuva par krāsainām izklaides atrakcijām, ko ģimenes visā pasaulē izbauda."
+      },
+      "body": {
+        "h1": "Pavasara zirdziņš Punktu uz Punktu — 53 Punktu Spēļu Lapa",
+        "name": "Šūpoles rotaļu laukums",
+        "tagline": "Šūpoles, slidkalniņi un jautrība brīvā dabā!",
+        "description": "Savieno 42 vienkāršus punktus, lai atklātu jautru rotaļu laukuma ainu ar šūpolēm! Šī drukājamā puzle ir ideāli piemērota pirmsskolas un bērnudārza bērniem, kuri praktizē skaitļu secību, vienlaikus svinot āra rotaļu prieku.",
+        "fun_fact": "Šūpoles ir viens no vecākajiem rotaļu laukuma izgudrojumiem — bērni šūpojas virvju šūpolēs jau tūkstošiem gadu!",
+        "faqs": [
+          {
+            "q": "Kādam vecumam paredzēta punktu savienošanas mīkla Šūpoles rotaļu laukums?",
+            "a": "Tā paredzēta vecumam Vecums 4–8. Ar 53 punktiem tā piemērota bērniem, kuri droši skaita līdz 53; jaunāki bērni to paveiks ar nelielu palīdzību."
+          },
+          {
+            "q": "Kā izdrukāt darba lapu Šūpoles rotaļu laukums?",
+            "a": "Noklikšķiniet uz lejupielādes pogas, lai iegūtu bezmaksas PDF, un pēc tam izdrukājiet to uz parasta papīra (A4 vai US Letter) no jebkuras pārlūkprogrammas vai PDF lasītāja. Īpaša programmatūra nav nepieciešama."
+          },
+          {
+            "q": "Vai izdrukājamā Šūpoles rotaļu laukums tiešām ir bez maksas?",
+            "a": "Jā — tā ir 100 % bez maksas, bez reģistrācijas, konta vai maksājuma. Varat to drukāt mājām vai klasei."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Rotaļu laukumi ir vietas, kur vaļu iztēlei un rodas draudzības — un šūpoles ir neapstrīdams rotaļu laukuma karalis. Tikai dažas lietas var līdzināties vienkāršajam priekam, ko sniedz kāju kustināšana un vēja šalkas sajūta, ceļoties arvien augstāk debesīs. Šī dzīvespriecīgā 42 punktu mīkla iemieso šo maģiju. Atrodi 1. punktu, paņem zīmuli un spēlējies!",
+          "sections": [
+            {
+              "range": "1–13",
+              "title": "Zirga galva",
+              "learn": "Sāciet ar 1. punktu un savienojiet to ar 8. punktu, lai uzzīmētu garo A veida rāmi, kas notur šūpoles vietā. Bērni praktizē taisnas, pārliecinātas līnijas, kas vēršas uz iekšu pret punktu — lieliska iepazīšanās ar ģeometriskām formām jautrā, reālās pasaules kontekstā. Lai iegūtu labāko rezultātu, mudiniet bērnus zīmēt stingri, apzināti.",
+              "fact": "Spēļu laukuma atsperes braucēji nāk dažādās formās, tostarp zirgi, motocikli, vaļi un iztēles radījumi."
+            },
+            {
+              "range": "14–27",
+              "title": "Korpuss un sēdeklis",
+              "learn": "Turpiniet no 9. līdz 18. punktam, lai augšpusē uzzīmētu horizontālo šķērsstieni un piekaramās ķēdes. Bērni vingrinās pārmaiņus zīmēt horizontālas līnijas un lejupvērstas ķēdes — jauks vingrinājums, lai apzināti un precīzi mainītu virzienu. Tieši ķēdes padara šūpošanās kustību iespējamu!",
+              "fact": "Rokturis un kāju balsti palīdz bērniem saglabāt līdzsvaru, kamēr atsperes braucējs šūpojas."
+            },
+            {
+              "range": "28–40",
+              "title": "Spēcīgā atsperes",
+              "learn": "Apvelciet punktus no 19 līdz 28, lai uzzīmētu šūpoles sēdekli un uz tā sēdošā bērna kontūras. Šī ir visiedvesmojošākā puzles daļa — bērni redz, kā visa konstrukcijas mērķis saplūst kopā, kad maza figūriņa ieņem viņu vietu. Atgādiniet bērniem, lai viņi skatās uz priekšu līdz nākamajam punktam, pirms paceļ zīmuli.",
+              "fact": "Tērauda atsperes locās un atgriežas sākotnējā pozīcijā, radot brauciena šūpošanās kustību."
+            },
+            {
+              "range": "41–53",
+              "title": "Pamatne un beigas",
+              "learn": "Savienojiet punktus no 29 līdz 36, lai uzzīmētu zemi zem šūpolēm un apkārtējās detaļas. Bērni praktizē ainas iezemēšanu, piešķirot rotaļu laukumam vietas un mēroga sajūtu. Šī sadaļa veido izpratni par priekšplānu un fonu, kas viņiem labi noderēs mākslā un zīmēšanā turpmākajos gados.",
+              "fact": "Atsperes braucēji ir droši nostiprināti zem spēļu laukuma virsmas, lai tie paliktu stabilitāti kustības laikā."
+            }
+          ],
+          "outro": "Lieliski — jūsu rotaļu laukums ir gatavs! Izkrāsojiet šūpoles savās iecienītākajās krāsās un pievienojieties draugiem šūpoties. Pēc tam dodieties ārā uz īstām šūpolēm — neviens krāsainais zīmulis nevar līdzināties vēja sajūtai matos, atrodoties šūpoles augšpusē! Katram vecumam un tēmai iepazīstieties ar mūsu pilno <a href=\"/\">punktu uz punktu drukājamo attēlu</a> bibliotēku.",
+          "color_schemes": []
         }
-      ],
-      "outro": "Lieliski paveikts — tavas šūpoles ir perfekti līdzsvarotas! Iekrāso divus braucējus ar saviem iecienītākajiem tērpiem vai pievieno rotaļu laukumu, kas pilns ar draugiem, kuri gaida savu kārtu. Vai vēlaties uzzināt, kas atrodas zem jūras saules vietā? Tālāk ienirstiet mūsu <a href=\"/ocean/\">okeāna punktu drukājamajos materiālos</a>."
+      }
     },
-    "seoTitle": "Karuseļa zirdziņš Punktu uz Punktu — maģiska 88 punktu lapa"
-  },
-  {
-    "slug": "dashing-car-playground-dot-to-dot-puzzle",
-    "name": "Amerikāņu kalniņu rotaļu laukums",
-    "seoH1": "Steidzīgs auto Punktu uz Punktu, 48 ātri punkti vecumā no 4-8",
-    "tagline": "Kāpt pa trasi, dzenāties pakaļ kritienam!",
-    "description": "Savieno 133 punktus, lai atklātu pilnus rotaļu laukuma kalniņus ar cilpām un visu pārējo. Šī ir mūsu līdz šim sarežģītākā rotaļu laukuma mīkla, kas radīta bērniem, kuri jau ir tikuši galā ar vieglākām lapām un vēlas īstu pacietības un zīmuļa vadības pārbaudi.",
-    "seoDescription": "Sacensības no punkta 1 līdz 48 un atklājiet priecīgu spēļu auto. Šis bezmaksas izdrukājamais PDF pārvērš skaitļu secību ātrā braucienā vecumā no 4 līdz 8 gadiem.",
-    "funFact": "Rotaļlietu automašīnas ir priecējušas bērnus vairāk nekā gadsimtu, un to ripošana pa trasi ir rotaļīgs veids, kā izpētīt kustību, ātrumu un virzienu.",
-    "seoImageAlt": "Ātra rotaļlietu automašīna, kas steidzas uz priekšu, kad 48 numurētie punkti ir savienoti",
-    "dotGuide": {
-      "intro": "Sešas sadaļas. Simt trīsdesmit trīs punkti. Šī ir lielākā rotaļu laukuma puzle komplektā, un tā neizliekas par pretējo — trase kāpj, krīt, veido cilpas un visbeidzot noripo atpakaļ uz platformas, kur tā sākās. Bērni, kuri jau ir pabeiguši šūpoles, slidkalniņu vai šūpoles, atpazīs formātu, taču milzīgais garums šeit maina visas lietas sajūtu. Lēns, vienmērīgs zīmuļa darbs uzvar dienā. Atrodiet 1. punktu pirmā kalna pakājē, un uzbūvēsim kaut ko tādu, par ko ir vērts kliegt.",
-      "sections": [
-        {
-          "range": "1–10",
-          "title": "Vāks un priekšējais buferis",
-          "learn": "Sāciet ar 1. punktu un virzieties cauri 22. punktam, lai uzzīmētu garu, stāvu kāpumu, kas uzvelk kalniņu vagoniņu līdz tā augstākajam punktam. Šīs līnijas stiepjas vienā vienmērīgā diagonālā virzienā, kas padara šo par labu posmu ritma veidošanai, pirms mīkla kļūst sarežģītāka.",
-          "fact": "Automobiļa izliektais vāks palīdz gaisam plūst gludi pāri transportlīdzeklim. Dizaineri testē šīs formas, lai automobiļi patērētu mazāk enerģijas, pārvietojoties uz priekšu."
+    {
+      "slug": "playhouse-slide-playground-dot-to-dot-puzzle",
+      "header": {
+        "title": "Spēļu mājiņas slaids Punktu uz Punktu: 68 punkti, ko izdrukāt bez maksas",
+        "meta_description": "Kāpšana, slīdēšana un iztēles spēles apvienojas vienā priecīgā struktūrā. Izsekojiet spēļu mājiņas slaidu caur 68 punktiem bezmaksas PDF vecumā no 5 līdz 9 gadiem.",
+        "og": {
+          "title": "Spēļu mājiņas slaids Punktu uz Punktu: 68 punkti, ko izdrukāt bez maksas",
+          "description": "Kāpšana, slīdēšana un iztēles spēles apvienojas vienā priecīgā struktūrā. Izsekojiet spēļu mājiņas slaidu caur 68 punktiem bezmaksas PDF vecumā no 5 līdz 9 gadiem.",
+          "image_alt": "Spēļu mājiņa ar pievienotu slaidu, kas salikta no 68 punktiem bezmaksas punktu uz punktu lapā"
         },
-        {
-          "range": "11–20",
-          "title": "Priekšējais stikls un jumts",
-          "learn": "Turpiniet no 23. līdz 44. punktam, lai izsekotu stāvajam kritienam lejup no virsotnes. Šeit leņķis ir asāks nekā jebkur citur uz loksnes, tāpēc mudiniet stingru, pārliecinātu roku, nevis trīcošu, vilcinošu — ātram kritienam ir nepieciešama ātra, droša līnija.",
-          "fact": "Mūsdienu priekšējie stikli ir izgatavoti no laminēta drošības stikla. Caurspīdīga plastmasas kārta atrodas starp divām stikla loksnēm un palīdz noturēt priekšējo stiklu kopā, ja tas saplīst."
-        },
-        {
-          "range": "21–30",
-          "title": "Durvis un automobiļa korpuss",
-          "learn": "Izvelciet punktus no 45 līdz 66, lai izveidotu lielo cilpu brauciena centrā. Šī daļa atgriežas pati par sevi, kas ir sarežģītāk nekā taisns kāpums vai kritums — brauciet lēnām un pārbaudiet nākamo punktu, pirms piesakāties katram līkumam.",
-          "fact": "Automobiļu dizaineri vispirms uzzīmē transportlīdzekļus ar pamata līnijām un formām, līdzīgi kā punktiņu zīmējums. Viņi daudzreiz pilnveido šos zīmējumus pirms pilna izmēra modeļa izveides."
-        },
-        {
-          "range": "31–40",
-          "title": "Riteņi",
-          "learn": "Savienojiet punktus no 67 līdz 88, lai uzzīmētu mazākus paugurus, kas seko aplim. Šie izciļņi nāk viens pēc otra ātrā secībā, dodot bērniem iespēju praktizēt īsus, kontrolētus vēzienus, nevis vienu garu vēzienu.",
-          "fact": "Agrākie riteņi bija cieti koka. Mūsdienu automobiļu riepas ir gumijas un piepildītas ar gaisu, kas amortizē triecienus un palīdz riepai noturēties uz ceļa."
-        },
-        {
-          "range": "41–48",
-          "title": "Gaismas un pēdējās detaļas",
-          "learn": "Strādājiet no 89. līdz 110. punktam, lai veidotu līkumu, kas ved sliežu ceļu atpakaļ uz staciju. Šis līkums ir plats un pakāpenisks, patīkama tempa maiņa pēc ciešāka cilpas puzles sākumā.",
-          "fact": "Priekšējās gaismas dara vairāk nekā palīdz vadītājiem redzēt naktī — tās arī padara automobili vieglāk pamanāmu citiem cilvēkiem lietū, miglā un vājā laikā."
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Slaidu rotaļu laukums",
+          "description": "Kāpšana, slīdēšana un iztēles spēles apvienojas vienā priecīgā struktūrā. Izsekojiet spēļu mājiņas slaidu caur 68 punktiem bezmaksas PDF vecumā no 5 līdz 9 gadiem.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
         }
-      ],
-      "outro": "Tas arī viss brauciens no sākuma līdz beigām! Iekrāso trasi treknrakstā, spilgtās cilpās un piešķir kalniņu vagoniņam jebkādu traku krāsojumu, kas tev patīk. Ja 133 punkti šķita aizraujoši un vēlies vēl lielāku izaicinājumu, tālāk apskati mūsu <a href=\"/usa-250/\">ekstrēmos punktu drukājamos materiālus</a>."
-    },
-    "seoTitle": "Drosmīgs auto punkti uz punktu, 48 ātri punkti vecumā no 4-8"
-  },
-  {
-    "slug": "swing-playgrounds-dot-to-dot-puzzle",
-    "name": "Monkey Bars rotaļu laukums",
-    "seoH1": "Šūpuļtīkla punkti uz punktu — vieglākais 42 punktu rotaļu laukuma PDF",
-    "tagline": "Šūpojies, kāp un sasniedz otru pusi!",
-    "description": "Savieno 94 punktus, lai atklātu jautru stieņu komplektu. Šī vidēja līmeņa rotaļu laukuma puzle ir lielisks izaicinājums bērniem, kuri praktizē ciparu secību, zīmuļa vadīšanu un pacietību.",
-    "seoDescription": "Bērni ir izbaudījuši virvju šūpoles tūkstošiem gadu. Pabeidziet šo pazīstamo rotaļu laukuma dizainu 42 punktos ar bezmaksas PDF vecumā no 4–7.",
-    "funFact": "20. gadsimta sākumā par populāru rotaļu laukumu aprīkojumu kļuva pērtiķu stieņi, kas palīdz bērniem vingrināt satvēriena spēku, līdzsvaru un ķermeņa augšdaļas koordināciju.",
-    "seoImageAlt": "Rotaļu laukuma šūpuļtīkls, kas karājas kopā no 42 viegli izdrukājamiem punktiem",
-    "dotGuide": {
-      "intro": "Savieno 94 punktus, lai atklātu jautru stieņu komplektu. Šī vidēja līmeņa rotaļu laukuma puzle ir lielisks izaicinājums bērniem, kuri praktizē ciparu secību, zīmuļa vadīšanu un pacietību. 20. gadsimta sākumā par populāru rotaļu laukumu aprīkojumu kļuva pērtiķu stieņi, kas palīdz bērniem vingrināt satvēriena spēku, līdzsvaru un ķermeņa augšdaļas koordināciju.",
-      "sections": [
-        {
-          "range": "1–8",
-          "title": "Šūpošanās rāmis",
-          "learn": "Uzmanīgi savieno punktus 1–18, lai uzzīmētu daļu “Balsta rāmis”. Pirms nākamās līnijas pārbaudi katru skaitli.",
-          "fact": "Klasiskais A-veida šūpošanās komplekts tika izstrādāts, lai būtu pēc iespējas stabilāks — trīsstūra forma vienmērīgi sadala svaru, tāpēc visa struktūra nenokarājas pat tad, ja bērni šūpojas stipri. Trīsstūri ir visspēcīgākā forma inženierijā, tāpēc jūs tos redzat visur, sākot no tiltiem līdz rotaļu laukumu rāmjiem."
-        },
-        {
-          "range": "9–18",
-          "title": "Krusta un ķēdes",
-          "learn": "Uzmanīgi savieno punktus 19–38, lai uzzīmētu daļu “Augšējais stienis”. Pirms nākamās līnijas pārbaudi katru skaitli.",
-          "fact": "Mūsdienu rotaļu laukumu ķēdes ir izgatavotas no cinkota tērauda — tērauda, kas pārklāta ar cinka slāni — lai novērstu rūsēšanu. Pirms tērauda ķēdēm, šūpošanās izmantoja biezas virves, kas izgatavotas no dabīgām šķiedrām, piemēram, kaņepēm vai manilas. Daudzu bērnu pirmā pieredze ar šūpošanos bija vienkārša dēļa piesietā pie koka zara ar virvi, un šī tradīcija turpinās dārzos visā pasaulē šodien."
-        },
-        {
-          "range": "19–28",
-          "title": "Šūpuļa sēdeklis un figūra",
-          "learn": "Uzmanīgi savieno punktus 39–58, lai uzzīmētu daļu “Šķērskoki”. Pirms nākamās līnijas pārbaudi katru skaitli.",
-          "fact": "Šūpošanās sajūta — pacelšanās un krišana, īss bezsvara brīdis katra loka augšgalā — aktivizē vestibulāro sistēmu smadzenēs, kas ir atbildīga par līdzsvaru un telpisko apziņu. Tāpēc šūpošanās ir tik patīkama: tā ir patiesi labvēlīga sensorā informācija, kas palīdz bērniem attīstīt līdzsvaru, koordināciju un ķermeņa apziņu."
-        },
-        {
-          "range": "29–36",
-          "title": "Zeme un apkārtne",
-          "learn": "Uzmanīgi savieno punktus 59–76, lai uzzīmētu daļu “Bērns uz kāpelēm”. Pirms nākamās līnijas pārbaudi katru skaitli.",
-          "fact": "Mūsdienu rotaļu laukumi izmanto īpaši izstrādātas drošības virsmas zem šūpolēm — gumijas flīzes, koka skaidas vai gumijas drupačas — lai mīkstinātu kritienus. Šis materiāls ir rūpīgi izstrādāts, lai absorbētu triecienus. Pirms drošības virsmas kļuva par standartu 1970. un 1980. gados, lielākajā daļā rotaļu laukumu zem aprīkojuma bija cieta betona vai saspiesta zeme."
-        },
-        {
-          "range": "37–42",
-          "title": "Pabeigšanas detaļas",
-          "learn": "Uzmanīgi savieno punktus 77–94, lai uzzīmētu daļu “Zeme un nolaišanās vieta”. Pirms nākamās līnijas pārbaudi katru skaitli.",
-          "fact": "Pasaulē garākais šūpoļu komplekts, kas reģistrēts, bija ar vairāk nekā 100 šūpolēm vienā rindā. Kopienas šūpošanas pasākumi — kur lielas grupas šūpojas kopā — ir notikuši parkos visā pasaulē kā svinības par āra spēlēm. Šūpoles ir viens no nedaudzajiem rotaļu laukumu aprīkojuma gabaliem, ko pieaugušie izbauda tikpat ļoti kā bērni."
+      },
+      "body": {
+        "h1": "Spēļu mājiņas slaids Punktu uz Punktu: 68 punkti, ko izdrukāt bez maksas",
+        "name": "Slaidu rotaļu laukums",
+        "tagline": "Kāpt, slīdēt, atkārtot!",
+        "description": "Savienojiet 68 punktus, lai atklātu priecīgu spēļu mājiņu ar slaidu. Šis vieglais izdrukājamais materiāls palīdz bērniem praktizēt skaitļu secību, zīmuļa kontroli, vizuālo izsekošanu un koncentrēšanos.",
+        "fun_fact": "Spēļu struktūras apvieno kāpšanu, iztēles spēles un slīdēšanu, sniedzot bērniem vairākus kustību un iztēles praktizēšanas veidus vienā vietā.",
+        "faqs": [
+          {
+            "q": "Kādam vecumam paredzēta punktu savienošanas mīkla Slaidu rotaļu laukums?",
+            "a": "Tā paredzēta vecumam Vecums 5–9. Ar 68 punktiem tā piemērota bērniem, kuri droši skaita līdz 68; jaunāki bērni to paveiks ar nelielu palīdzību."
+          },
+          {
+            "q": "Kā izdrukāt darba lapu Slaidu rotaļu laukums?",
+            "a": "Noklikšķiniet uz lejupielādes pogas, lai iegūtu bezmaksas PDF, un pēc tam izdrukājiet to uz parasta papīra (A4 vai US Letter) no jebkuras pārlūkprogrammas vai PDF lasītāja. Īpaša programmatūra nav nepieciešama."
+          },
+          {
+            "q": "Vai izdrukājamā Slaidu rotaļu laukums tiešām ir bez maksas?",
+            "a": "Jā — tā ir 100 % bez maksas, bez reģistrācijas, konta vai maksājuma. Varat to drukāt mājām vai klasei."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Ja šūpoles ir rotaļu laukuma karalis, tad slidkalniņš ir ļoti tuvu otrajam — ir kaut kas neatvairāms tajā, ka uzkāpjam, apsēžamies un ļaujam gravitācijai paveikt pārējo. Šī 102 punktu puzle iezīmē garu, klasisku rotaļu laukuma slidkalniņu no kāpnēm aizmugurē līdz izliektajai rampai priekšpusē. Tajā ir vairāk punktu nekā mūsu vienkāršākajā rotaļu laukuma lapā, tāpēc tā atalgo nedaudz papildu pacietības. Atrodi 1. punktu un uzbūvēsim kaut ko tādu, pa ko ir vērts uzkāpt.",
+          "sections": [
+            {
+              "range": "1–14",
+              "title": "Spēļu mājas jumts",
+              "learn": "Sāciet ar 1. punktu un savienojiet to ar 20. punktu, lai uzzīmētu augstās kāpnes, kas ved uz slidkalniņa platformu. Šī sadaļa pārsvarā sastāv no taisnām, vienmērīgi izvietotām līnijām, kas ir laba iesildīšanās vienmērīgiem, kontrolētiem zīmuļa triepieniem pirms gaidāmajiem līkumiem.",
+              "fact": "Jumti ārējām spēļu mājām nodrošina ēnu un palīdz struktūrai justies kā mazai ēkai, kas paredzēta iztēles spēlēm."
+            },
+            {
+              "range": "15–28",
+              "title": "Māja un platforma",
+              "learn": "Turpiniet no 21. punkta līdz 40. punktam, lai augšpusē uzzīmētu plakano platformu, kur kāpēji apstājas pirms slīdēšanas lejā. Bērni šeit vingrinās savienot horizontālas un vertikālas līnijas tīros taisnos leņķos — laba prakse struktūras un proporciju veidošanai.",
+              "fact": "Paceltas spēļu platformas mudina bērnus praktizēt līdzsvaru un telpisko apziņu, pārvietojoties."
+            },
+            {
+              "range": "29–41",
+              "title": "Kāpšanas kāpnes",
+              "learn": "Apvelciet punktus no 41 līdz 60, lai veidotu izliekto malu vietā, kur platforma saskaras ar pašu slidkalniņu — precīzu vietu, kur sākas jautrība. Šī ir stingrāka līkne, nekā izskatās, tāpēc mudiniet roku kustēties lēni un apzināti, nevis ātri.",
+              "fact": "Kāpšanas kāpnes palīdz bērniem attīstīt kāju spēku, koordināciju un pārliecību."
+            },
+            {
+              "range": "42–55",
+              "title": "Liektais slidkalniņš",
+              "learn": "Savienojiet punktus no 61 līdz 85, lai uzzīmētu pašu garo, plūstošo slīdēšanu. Šī ir lielākā un visapmierinošākā puzles daļa — mudiniet uz vienu vienmērīgu, nepārtrauktu vēzienu, nevis vairākus īsus, jo tieši tas piešķir slīdēšanai ātruma sajūtu.",
+              "fact": "Slidkalniņi izmanto gravitāciju, lai pārvērstu augstumu, kas iegūts kāpjot, ātrā, gludā braucienā uz leju."
+            },
+            {
+              "range": "56–68",
+              "title": "Atbalsti un zeme",
+              "learn": "Pabeidziet, savienojot punktus no 86 līdz 102, lai uzzīmētu slidkalniņa pamatni un zemi, kur piezemējas braucēji. Atlikuši septiņpadsmit punkti — pārliecināts, piezemēts noslēgums šeit pabeidz visu konstrukciju.",
+              "fact": "Spēļu laukuma aprīkojums ir uzstādīts virs triecienu absorbējošām virsmām, piemēram, inženierijas koka šķiedras vai gumijas."
+            }
+          ],
+          "outro": "Lieliski paveikts — jūsu slidkalniņš ir gatavs kāpējiem! Izkrāsojiet to košās rotaļu laukuma krāsās vai izveidojiet savu savvaļas rakstu lejup pa slidkalniņu. Vai esat gatavs kaut kam pavisam citam? Izmēģiniet mūsu <a href=\"/dinosaurs/\">dinozauru punktu drukājamo zīmējumu</a> kolekciju.",
+          "color_schemes": []
         }
-      ],
-      "outro": "Šūpojies, kāp un sasniedz otru pusi! <a href=\"/playgrounds/\">Monkey Bars rotaļu laukums</a>"
+      }
     },
-    "seoTitle": "Šūpuļtīkla punkti uz punktu — vieglākais 42 punktu rotaļu laukuma PDF"
-  },
-  {
-    "slug": "slide-playgrounds-dot-to-dot-puzzle",
-    "name": "Spēļu mājas slīdkalniņš",
-    "seoH1": "Spēļu mājas slīdēšanas punktu savienošana: 68 punkti, ko drukāt bez maksas",
-    "tagline": "Uzkāp augšā un slīdē kā jautrībā!",
-    "description": "Savienojiet 102 punktus, lai atklātu augstu rotaļu laukuma slaidu, gatavu kāpšanai un slīdēšanai. Ar vairāk punktiem nekā mūsu vieglākajā rotaļu laukuma puzlē, šī ir jauka nākamā izaicinājuma iespēja bērniem, kuri ir gatavi pāriet no iesācēju lapām, vienlaikus izbaudot jautru, pazīstamu tēmu.",
-    "seoDescription": "Kāpšana, slīdēšana un rotaļu spēles apvienojas vienā jautrā konstrukcijā. Izsekojiet spēļu mājas slīdni cauri 68 punktiem bezmaksas PDF failā bērniem vecumā no 5 līdz 9 gadiem.",
-    "funFact": "Rotaļu konstrukcijas apvieno kāpšanu, izdomas spēles un slīdēšanu, sniedzot bērniem vienuviet vairākus kustību un iztēles vingrinājumus.",
-    "seoImageAlt": "Augsts rotaļu laukuma slaids, kas kāpj uz augšu caur 102 punktiem izdrukājamā darba lapā",
-    "dotGuide": {
-      "intro": "Šis 68 punktu puzles komplekts veido pilnīgu rotaļu laukumu spēļu mājiņu – no jumta un platformas līdz kāpnēm un izliektai slīdkalniņam. Piecas īsas darbības posmas padara attēlu viegli uztveramu jaunajiem māksliniekiem.",
-      "sections": [
-        {
-          "range": "1–20",
-          "title": "Kāpelis",
-          "learn": "Savieno punktus no 1 līdz 14, lai izveidotu jumta formu spēļu mājas augšdaļā.",
-          "fact": "Rotaļu laukumu kāpņi ir izgatavoti ar pakāpieniem, kas ir pietiekami tuvu, lai jaunā bērna kāja varētu droši sasniegt nākamo — parasti ne vairāk kā apmēram 30 cm attālumā, daudz tuvāk nekā pakāpieni mājsaimniecības kāpņu kāpnēm."
+    {
+      "slug": "carousel-horse-playground-dot-to-dot-puzzle",
+      "header": {
+        "title": "Karuseļa zirdziņš Punktu uz Punktu — maģiska 88 punktu lapa",
+        "meta_description": "Sekojiet plūstošai manei un dekoratīvajai segai karuseļa lēcējam caur 88 punktiem. Izdrukājiet šo izklaides puzli bez maksas bērniem vecumā no 5 līdz 9 gadiem.",
+        "og": {
+          "title": "Karuseļa zirdziņš Punktu uz Punktu — maģiska 88 punktu lapa",
+          "description": "Sekojiet plūstošai manei un dekoratīvajai segai karuseļa lēcējam caur 88 punktiem. Izdrukājiet šo izklaides puzli bez maksas bērniem vecumā no 5 līdz 9 gadiem.",
+          "image_alt": "Dekorēts karuseļa zirdziņš ar plūstošu manei, kas izveidots no 88 izdrukājamiem punktiem"
         },
-        {
-          "range": "21–40",
-          "title": "Platforma",
-          "learn": "Turpiniet no 15. punkta līdz 28. punktam, lai uzzīmētu spēļu mājas sienas un paaugstināto platformu.",
-          "fact": "Lielākā daļa rotaļu laukumu platformu ir izgatavotas ar drošības margām vismaz trīs pusēs, atstājot atvērtu tikai slaida ieeju. Šī dizaina detaļa ir atzīta par ievērojamu platformas kritienu samazināšanu kopš tā kļuva par standartu rotaļu laukumu drošības vadlīnijās."
-        },
-        {
-          "range": "41–60",
-          "title": "Slaida augšdaļa",
-          "learn": "Seko punktiem no 29 līdz 41, lai pievienotu kāpnes un tās vienmērīgi izvietotos pakāpienus.",
-          "fact": "Pirmais līkums slaida augšgalā tiek saukts par 'sākuma līkumu', un tas ir speciāli leņķots, lai kontrolētu, cik ātri braucējs iegūst ātrumu, nevis vienkārši nomet viņu taisni lejā."
-        },
-        {
-          "range": "61–85",
-          "title": "Garā caurule",
-          "learn": "Izseko punktus no 42. līdz 55. pa gludo slīdi, noturot zīmuli vienmērīgi katrā līkumā.",
-          "fact": "Mūsdienu rotaļu laukumu slaidi gandrīz vienmēr ir izgatavoti no rotomoldēta plastmasas, nevis metāla. Metāla slaidi var kļūt bīstami karsti tiešā vasaras saulē, kas ir viens no galvenajiem iemesliem, kāpēc rotaļu laukumi lielā mērā mainīja materiālus, sākot no 1980. un 90. gadiem."
-        },
-        {
-          "range": "86–102",
-          "title": "Bāze un nolaišanās",
-          "learn": "Pabeidziet ar punktiem no 56. līdz 68., lai pievienotu balstus un pamatni zem spēļu mājiņas.",
-          "fact": "Tāpat kā šūpošanās, slaidi atrodas virs īpaši izstrādātas drošības virsmas — parasti gumijas, smilšu vai koka skaidas — kas ir paredzētas, lai absorbētu nolaišanās triecienu daudz labāk nekā parasts zāle vai betons varētu."
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Šūpoļu rotaļu laukums",
+          "description": "Sekojiet plūstošai manei un dekoratīvajai segai karuseļa lēcējam caur 88 punktiem. Izdrukājiet šo izklaides puzli bez maksas bērniem vecumā no 5 līdz 9 gadiem.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
         }
-      ],
-      "outro": "Jūsu rotaļu mājas slīdne ir gatava priekam! Pievienojiet spilgtas krāsas, logus, karogus un visu rotaļu laukumu ap to. Izmēģiniet nākamo <a href=\"/playgrounds/carousel-horse-playground-dot-to-dot-puzzle/\">karuselļa zirga uzdevumu</a>."
-    },
-    "seoTitle": "Lietussargu slīdes punktu savienošana: 68 punkti, ko drukāt bez maksas"
-  },
-  {
-    "slug": "seesaw-playground-dot-to-dot-puzzle",
-    "name": "Karuseļa zirga rotaļu laukums",
-    "seoH1": "Karuseļa zirga punktu savienošana — burvīgs 88 punktu lapa",
-    "tagline": "Džigojiet apkārt karuselīm!",
-    "description": "Savienojiet 88 punktus, lai atklātu elegantu karuselļa zirgu, kas gatavs burvīgam braucienam. Šī vidējā grūtības pakāpes drukājamā mīkla bērniem sniedz aizraujošu iespēju praktizēt skaitļu secības, koncentrāciju un rūpīgu zīmuļa vadību.",
-    "seoDescription": "Seko plūstošajai krēslei un rotītajam segliem karuselzirga, savienojot 88 punktus. Drukā šo atrakciju parka mīklu bez maksas bērniem vecumā no 5 līdz 9 gadiem.",
-    "funFact": "Tradicionāli karuselžirgi bieži vien ir ar plīvošu krēpju un dekoratīvu seglu, un zirgi, kas kustas augšup un lejup, tiek saukti par lēcējiem.",
-    "seoImageAlt": "Divi draugi, kas balansē uz šūpuļtīkla, aina veidota ar 68 izdrukājamiem punktiem",
-    "dotGuide": {
-      "intro": "Karuseļa zirgi pārveido parasto braucienu par galopošu piedzīvojumu. Ar izrotātu seglu, plīvojošu krēpju un lepnu pozu, katrs zirgs izskatās gatavs lēkt no platformas un aizskriet prom. Šis 88-punktu puzlis piedāvā aizraujošu izaicinājumu bērniem, kuri pārliecinoši spēj sekot garākām ciparu sekvencēm. Atrodi punktu 1, nostiprini zīmuli un ļauj karuselim sākt griezties!",
-      "sections": [
-        {
-          "range": "1–14",
-          "title": "Balsts",
-          "learn": "Sāc no 1. punkta un savieno līdz 18. punktam, lai izveidotu zirga seju, purnu un modrās ausis. Šī daļa apvieno īsus leņķus ar maigi izliektām līnijām, palīdzot bērniem palēnināt tempu, raudzīties uz priekšu un rūpīgi virzīt zīmuli ap detaļām bagātajām iezīmēm.",
-          "fact": "Centrālais atbalsts šūpolēm tiek saukts par balstu — tā pati vārds, ko inženieri izmanto jebkura sviras griešanās punktam. Šūpoles tehniski ir viena no vienkāršākajām mašīnām, kas pastāv: sviras, kas balansē uz fiksēta punkta."
-        },
-        {
-          "range": "15–28",
-          "title": "Dēlis",
-          "learn": "Turpiniet no 19. punkta līdz 36. punktam, lai uzzīmētu izliekto kaklu un plūstošo krēpu. Krēpa virziena maiņa nodrošina noderīgu vingrinājumu veidojot vienmērīgas, kontrolētas līknes, vienlaikus padarot zirgu tādu, it kā tas kustētos vējā.",
-          "fact": "Agrākie šūpuļtīkli bieži tika būvēti no vienas koka dēļa, kas ir tieši tas, no kurienes brauciens iegūst savu nosaukumu — 'redzēt' un 'zāģēt' atspoguļo vecā divvietīgā zāģa kustību uz priekšu un atpakaļ, kas tiek vilkts pāri baļķim."
-        },
-        {
-          "range": "29–42",
-          "title": "Rokturis",
-          "learn": "Izkliedē punktus no 37. līdz 54., lai izveidotu zirka spēcīgo ķermeni un rotāto seglu. Bērni pārvietojas starp garākām ķermeņa līnijām un mazākiem dekoratīviem elementiem, praktizējot gan vienmērīgus vēzienus, gan rūpīgu uzmanību detaļām.",
-          "fact": "Rokturis ne vienmēr bija standarts šūpuļtīklu dizainā. Agrīnajās rotaļu laukuma versijās braucēji turēja dēli pašu, kas ir daļa no iemesla, kāpēc mūsdienu drošības standarti tagad prasa speciālus rokturus katrā galā."
-        },
-        {
-          "range": "43–56",
-          "title": "Pirmais braucējs",
-          "learn": "Savienojiet punktus no 55 līdz 72, lai uzzīmētu paceltās un izstieptās kājas. Šīs slīpās līnijas rada iespaidu par sastingušu galopu. Mudiniet bērnus pārbaudīt katru nākamo numuru pirms zīmēšanas, lai kājas paliktu atsevišķas un viegli atpazīstamas.",
-          "fact": "Braukšana ar šūpuļtīklu ir patiešām noderīgs līdzsvara vingrinājums. Pārvietojot savu svaru, lai paliktu taisni, kad dēlis sliecas, aktivizē tās pašas centrālās muskuļu grupas un iekšējās auss līdzsvara sistēmu, kas tiek izmantota vingrošanā un dejās."
-        },
-        {
-          "range": "57–68",
-          "title": "Otrais braucējs un zeme",
-          "learn": "Pabeidziet ar punktiem no 73. līdz 88., lai pievienotu vēzienainu asti un pēdējos dekoratīvos detaļas. Sešpadsmit rūpīgi savienojumi pabeidz attēlu, atalgodot bērnus par koncentrēšanos visā garākajā puzles daļā.",
-          "fact": "Daži mūsdienu rotaļu laukumi ir nomainījuši tradicionālo divu braucēju šūpuļtīklu pret atsperu uzstādītiem modeļiem, kas ļauj vienam bērnam šūpoties vienam, lai gan klasiskā pagriežamā divvietīgā versija joprojām ir visizplatītākais dizains visā pasaulē."
+      },
+      "body": {
+        "h1": "Karuseļa zirdziņš Punktu uz Punktu — maģiska 88 punktu lapa",
+        "name": "Šūpoļu rotaļu laukums",
+        "tagline": "Augšup, lejup un visapkārt!",
+        "description": "Savienojiet 88 punktus, lai atklātu elegantu karuseļa zirdziņu, kas gatavs maģiskai braucienam. Šis vidēja grūtības izdrukājamais puzlis sniedz bērniem aizraujošu veidu, kā praktizēt skaitļu secību, koncentrēšanos un rūpīgu zīmuļa kontroli.",
+        "fun_fact": "Tradicionālajiem karuseļa zirdziņiem bieži ir plūstoša mane un dekoratīva sega, un zirdziņi, kas pārvietojas augšup un lejup, tiek saukti par lēcējiem.",
+        "faqs": [
+          {
+            "q": "Kādam vecumam paredzēta punktu savienošanas mīkla Šūpoļu rotaļu laukums?",
+            "a": "Tā paredzēta vecumam Vecums 5–9. Ar 88 punktiem tā piemērota bērniem, kuri droši skaita līdz 88; jaunāki bērni to paveiks ar nelielu palīdzību."
+          },
+          {
+            "q": "Kā izdrukāt darba lapu Šūpoļu rotaļu laukums?",
+            "a": "Noklikšķiniet uz lejupielādes pogas, lai iegūtu bezmaksas PDF, un pēc tam izdrukājiet to uz parasta papīra (A4 vai US Letter) no jebkuras pārlūkprogrammas vai PDF lasītāja. Īpaša programmatūra nav nepieciešama."
+          },
+          {
+            "q": "Vai izdrukājamā Šūpoļu rotaļu laukums tiešām ir bez maksas?",
+            "a": "Jā — tā ir 100 % bez maksas, bez reģistrācijas, konta vai maksājuma. Varat to drukāt mājām vai klasei."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Šūpoles ir veidotas ar nelielu komandas darbu — tās darbojas tikai tad, ja abi braucēji piedalās, pārmaiņus atspiežoties un pieceļoties. Šī 68 punktu puzle iemieso līdzsvaru no nulles, vispirms dēlis, bet braucēji — pēdējais. Tas ir labs solis uz priekšu no mūsu vieglākās rotaļu laukuma lapas, neiekļūstot ekspertu līmenī. Atrodiet 1. punktu un nolīdzsvarosim šo lietu.",
+          "sections": [
+            {
+              "range": "1–18",
+              "title": "Zirga galva",
+              "learn": "Sāciet ar 1. punktu un savienojiet to ar 14. punktu, lai uzzīmētu stabilu centrālo balstu, uz kura balansē visas šūpoles. Šīs līnijas ir īsas un leņķiskas, dodot bērniem iespēju praktizēt stabilas pamatnes formas veidošanu, pirms virsū tiek pievienots kaut kas cits.",
+              "fact": "Karusēla mākslinieki bieži katram zirgam piešķir atšķirīgu izteiksmi. Daži izskatās mierīgi un draudzīgi, kamēr citiem ir paceltas galvas un plašas acis, lai tie izskatītos, it kā tie sacenšas."
+            },
+            {
+              "range": "19–36",
+              "title": "Plūstošā mēteļa un kakla",
+              "learn": "Turpiniet no 15. līdz 28. punktam, lai uzzīmētu garo dēli, kas balstās pāri atbalsta punktam. Bērni vingrinās zīmēt vienu nepārtrauktu, lēzeni slīpu līniju — laba sagatavošanās stabilai rokas kontrolei garākos vēzienos.",
+              "fact": "Daudzi antīkie karuselu zirgi tika izgrebti ar roku no vairākiem koka gabaliem. Prasmīgi mākslinieki pievienoja dziļas iegriezumus mētelim, lai tas noķertu gaismu un izskatītos, it kā tas viļņotos, kad karuselis griezās."
+            },
+            {
+              "range": "37–54",
+              "title": "Sēdeklis un ķermenis",
+              "learn": "Novelc punktus no 29 līdz 42, lai pievienotu rokturus katrā dēļa galā. Šajā sadaļā bērni pēc kārtas strādā abās puzles pusēs, praktizējot simetriju, veidojot atbilstošu formu katrā galā.",
+              "fact": "Visvairāk dekorētā karuselu zirga puse parasti ir vērsta uz āru, kur to var redzēt jātnieki un skatītāji. Grebēji šo pusi sauc par romantisko pusi un bieži to pārklāj ar ziediem, lentēm, dārgakmeņiem vai vairogiem."
+            },
+            {
+              "range": "55–72",
+              "title": "Skrienošās kājas",
+              "learn": "Savienojiet punktus no 43 līdz 56, lai uzzīmētu bērnu, kurš sēž uz šūpoļu paceltā gala. Šeit aina sāk šķist dzīva — atgādiniet bērniem, lai pirms zīmuļa pacelšanas viņi skatās uz priekšu līdz nākamajam punktam, lai figūra iznāktu gluda.",
+              "fact": "Karuselu zirgi, kas pārvietojas uz augšu un uz leju, tiek saukti par lēcējiem, savukārt zirgi, kas ir fiksēti vietā, dažreiz tiek saukti par stāvētājiem. Augšupejošā kustība palīdz jātniekiem iedomāties, ka viņu zirgs patiešām skrien."
+            },
+            {
+              "range": "73–88",
+              "title": "Astes un pabeigšanas detaļas",
+              "learn": "Pabeidziet, savienojot punktus no 57 līdz 68, lai uzzīmētu otro bērnu uz leju un zemi zem šūpolēm. Atlikuši tikai divpadsmit punkti — rūpīgs un pārliecināts noslēgums šeit pabeidz visu ainu.",
+              "fact": "Karuseli sauc arī par prieka riņķiem. Agrīnie modeļi tika iedvesmoti no jāšanas treniņu spēlēm, bet laika gaitā tie kļuva par krāsainām izklaides atrakcijām, ko ģimenes visā pasaulē izbauda."
+            }
+          ],
+          "outro": "Lieliski paveikts — tavas šūpoles ir perfekti līdzsvarotas! Iekrāso divus braucējus ar saviem iecienītākajiem tērpiem vai pievieno rotaļu laukumu, kas pilns ar draugiem, kuri gaida savu kārtu. Vai vēlaties uzzināt, kas atrodas zem jūras saules vietā? Tālāk ienirstiet mūsu <a href=\"/ocean/\">okeāna punktu drukājamajos materiālos</a>.",
+          "color_schemes": []
         }
-      ],
-      "outro": "Brīnišķīgs darbs — jūsu karuselļa zirgs ir gatavs braucienam! Krāsojiet seglu ar košiem karnevāla toņiem, pievienojiet lentes vai mirdzošus akmeņus, un izveidojiet ap to karuseli. Vēl vienai rotaļīgai izaicinājumam, izpētiet vairāk <a href=\"/playgrounds/\">spēļu laukuma punktu savienošanas drukājumus</a>."
+      }
     },
-    "seoTitle": "Karuseļa zirga punktu savienošana — burvīgs 88 punktu lapa"
-  },
-  {
-    "slug": "roller-coaster-playground-dot-to-dot-puzzle",
-    "name": "Rotaļu laukuma kalniņi",
-    "seoH1": "Ekstrēmi kalniņu punkti uz punktu — 133 punkti, bezmaksas",
-    "tagline": "Ieslēdziet Dzinēju un Savienojiet Punktus!",
-    "description": "Savienojiet 48 vienkāršus punktus, lai atklātu ātri braucošu auto, kas gatavs drāzties pāri rotaļu laukumam. Šī bezmaksas drukājamā puzle palīdz maziem bērniem praktizēt skaitļu secību, zīmuļa vadīšanu un koncentrēšanos ar jautru transportlīdzekļu tēmu.",
-    "seoDescription": "Brauciet pa garāko rotaļu laukuma secību caur 133 pagriezieniem un līkumiem. Šis bezmaksas kalniņu PDF izaicina koncentrētos puzles fanus vecumā no 8–12.",
-    "funFact": "Pirmais lokveida kalniņš tika atvērts Parīzē 1846. gadā. Braucēji sūdzējās, ka tas sāp viņu kakliem, un inženieriem bija nepieciešami gandrīz 50 gadi, lai izstrādātu loku, kas jutās gludi, nevis sodīgi.",
-    "seoImageAlt": "Ātrā rotaļlietu auto, kas dodas uz priekšu, kad ir savienoti 48 numurēti punkti",
-    "dotGuide": {
-      "intro": "Drosmīgs auto ir radīts piedzīvojumiem — tuvs zemes virsmai, gatavs braucienam un pilns ar formām, ko jaunie mākslinieki var atpazīt. Šī draudzīgā 48-punktu puzle ir piemērots pirmais transportlīdzekļa izaicinājums bērniem, kas praktizē skaitļu secību un zīmuļa vadību. Atrodi punktu 1, iedomājies, ka dzinējs iedarbas, un zīmē savu ceļu līdz finiša līnijai!",
-      "sections": [
-        {
-          "range": "1–22",
-          "title": "Pacelšanās kalns",
-          "learn": "Sāc no 1. punkta un savieno līdz 10. punktam, lai uzzīmētu automašīnas priekšpusi. Bērni praktizē īsas taisnas līnijas un maigas līknes, vienlaikus mācoties skatīties uz priekšu uz nākamo numuru, nevis steidzoties pāri lapai.",
-          "fact": "Lielākā daļa kalniņu izmanto ķēdes pacelšanu, lai uzvilktu automašīnu augšā pirmajā kalnā — parasti tā ir vienīgā brauciena daļa, ko darbina motors. Viss, kas notiek pēc šī kalna virsotnes, notiek tikai uz gravitātes un impulsu rēķina."
+    {
+      "slug": "dashing-car-playground-dot-to-dot-puzzle",
+      "header": {
+        "title": "Drosmīgs auto punkti uz punktu, 48 ātri punkti vecumā no 4-8",
+        "meta_description": "Sacensības no punkta 1 līdz 48 un atklājiet priecīgu spēļu auto. Šis bezmaksas izdrukājamais PDF pārvērš skaitļu secību ātrā braucienā vecumā no 4 līdz 8 gadiem.",
+        "og": {
+          "title": "Drosmīgs auto punkti uz punktu, 48 ātri punkti vecumā no 4-8",
+          "description": "Sacensības no punkta 1 līdz 48 un atklājiet priecīgu spēļu auto. Šis bezmaksas izdrukājamais PDF pārvērš skaitļu secību ātrā braucienā vecumā no 4 līdz 8 gadiem.",
+          "image_alt": "Ātra rotaļlietu automašīna, kas steidzas uz priekšu, kad 48 numurētie punkti ir savienoti"
         },
-        {
-          "range": "23–44",
-          "title": "Pirmais kritiens",
-          "learn": "Turpiniet no 11. punkta līdz 20. punktam, lai izveidotu vējstiklu un jumtu. Šī daļa vienmērīgi paceļas un nokrīt, veidojot vienu gludu kontūru, kas bērniem sniedz noderīgu vingrinājumu leņķainu līniju savienošanā, bez pārāk bieža zīmuļa pacelšanas.",
-          "fact": "Pirmais kritiens kalniņos gandrīz vienmēr ir visaugstākais un stāvākais visā braucienā. Kalniņu dizaineri to novieto agrīnā posmā apzināti, jo parasti tieši tur trase sasniedz savu maksimālo ātrumu."
-        },
-        {
-          "range": "45–66",
-          "title": "Cilpa",
-          "learn": "Izseko punktus no 21. līdz 30. gar auto sānu, lai pabeigtu durvis un galveno korpusu. Garākie savienojumi veicina vienmērīgu roku, bet mainīgie leņķi palīdz bērniem ievērot, kā vienkāršas formas savienojas pazīstamā objektā.",
-          "fact": "Agrīnie cilpu kalniņi izmantoja perfekti apaļu cilpu, un braucēji bieži sūdzējās par kakla spriedzi no pēkšņas spēka maiņas. Mūsdienu cilpas izmanto asaru formas, kas jūtas daudz maigi uz ķermeņa tajā pašā ātrumā."
-        },
-        {
-          "range": "67–88",
-          "title": "Kamieļa muguras kalni",
-          "learn": "Savienojiet punktus no 31 līdz 40, lai izveidotu riteņus un riteņu arkām. Noapaļotas riteņu formas ir lieliski vingrinājumi gludai zīmuļa kustībai. Mudiniet bērnus rūpīgi sekot numurētajam kontūram, nevis mēģināt uzzīmēt perfektu apli.",
-          "fact": "Šie mazākie pacēlumi dažreiz tiek saukti par 'kamieļa muguras' kalniem, jo rinda no tiem izskatās kā kamieļa kuprīši. Braucēji bieži jūt īsu pacelšanos no savām sēdvietām, kad tie pārvar katru no tiem — īsts, ja arī mazs, bezsvara brīdis."
-        },
-        {
-          "range": "89–110",
-          "title": "Pēdējais pagrieziens",
-          "learn": "Pabeidziet ar punktiem no 41 līdz 48, lai pievienotu apgaismojumu un pārējās detaļas. Atliek tikai astoņi savienojumi, tāpēc šis ir labais brīdis, lai pievērstos un ar precīzu, pārliecinātu pieeju pabeigtu mašīnu.",
-          "fact": "Kalniņu dizaineri šo posmu sauc par 'atgriešanās skrējienu.' Tas ir būvēts plats un slīps, lai automašīna varētu saglabāt savu ātrumu caur līkumu, nepārtraukti neizmantojot bremzes, atstājot faktisko bremzēšanu pašā beigās."
-        },
-        {
-          "range": "111–133",
-          "title": "Stacija un platforma",
-          "learn": "Pabeidziet, savienojot punktus no 111 līdz 133, lai uzzīmētu stacijas platformu, kur sākās un beidzās brauciens. Divdesmit trīs punkti līdz finišam — lēna, uzmanīga pabeigšana ir patiesais neatlaidības rādītājs.",
-          "fact": "Bremzēšanas posms reālu kalniņu beigās ir viens no visvairāk inženierētajiem daļām. Tam jāspēj gludi apturēt automašīnu ar pilnu braucēju skaitu no pilna ātruma līdz pilnīgai apstāšanai, lai neviens netiktu izsists."
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Amerikāņu kalniņu rotaļu laukums",
+          "description": "Sacensības no punkta 1 līdz 48 un atklājiet priecīgu spēļu auto. Šis bezmaksas izdrukājamais PDF pārvērš skaitļu secību ātrā braucienā vecumā no 4 līdz 8 gadiem.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
         }
-      ],
-      "outro": "Lielisks brauciens — tavs krāšņais auto ir pabeigts! Izkrāso to kā sacīkšu auto, ģimenes auto vai pilnīgi jaunu transportlīdzekli, ko pats izdomāji. Pievieno ceļu, karogus vai priecīgu skatītāju pūli, tad izvēlēties nākamo <a href=\"/playgrounds/\">spēļu laukuma punktu savienošanas mīklu</a> savai nākamajai piedzīvojumam."
-    },
-    "seoTitle": "Trakošā Auto Savieno Punktiņus, 48 Ātri Punktiņi Vecumam no 4 līdz 8"
-  },
-  {
-    "slug": "monkey-bar-playground-dot-to-dot-puzzle",
-    "name": "Pavasara Zirgs",
-    "seoH1": "Pavasara Zirgs Punktu Savienošana — 53 Punktu Spēlēšanas Lapa",
-    "tagline": "Rokā un jāj uz rotaļu lauka zirga!",
-    "description": "Savienojiet 94 punktus, lai atklātu jautru šūpoļu komplektu. Šī vidējā grūtības pakāpes rotaļu laukuma puzle ir lielisks izaicinājums bērniem, kas praktizē skaitļu secību, zīmuļa kontroli un pacietību.",
-    "seoDescription": "Bērna svara pārdale liek atsperu šūpotājam šūpoties. Uzbūvējiet šo rotaļu laukuma zirgu, savienojot 53 punktus, izmantojot bezmaksas drukājamo PDF failu vecumam no 4 līdz 8 gadiem.",
-    "funFact": "Pavasarraitiņi šūpojas uz priekšu un atpakaļ uz smagas spirālveida atsperes, ļaujot bērniem radīt kustību, mainot savu svaru.",
-    "seoImageAlt": "Spēļu laukuma pavasara zirga jātnieks atlēcošs formā no 53 drukājamiem punktiem",
-    "dotGuide": {
-      "intro": "Šī draudzīgā 53-punktu puzle veido rotaļu laukuma atsperes zirgu no tā galvas un ķermeņa līdz stiprajai spolei un pamatnei. Četri īsie posmi padara to pieejamu jaunajiem punktu savienošanas cienītājiem.",
-      "sections": [
-        {
-          "range": "1–18",
-          "title": "Atbalsta rāmis",
-          "learn": "Savienojiet punktus no 1 līdz 13, lai izveidotu zirga galvu, ausis un draisku seju.",
-          "fact": "Pērtiķu stieņu rāmji parasti ir nostiprināti dziļi betona pamatos zem zemes līmeņa, jo visai konstrukcijai ir jānotur bērna pilna svārstīšanās svars bez šūpošanās."
-        },
-        {
-          "range": "19–38",
-          "title": "Augšējā sliede",
-          "learn": "Turpiniet no 14. punkta līdz 27. punktam, lai uzzīmētu zirka ķermeni un sēdekli, kur sēž jātnieks.",
-          "fact": "Augšējā sliede lielākajā daļā pērtiķu stieņu komplektu atrodas tieši ārpus pieauguša cilvēka sasniedzamības, kas ir tieši mērķis — tā ir izmēra, lai vidējam bērnam būtu nepieciešams neliels lēciens, lai satvertu pirmo pakāpienu."
-        },
-        {
-          "range": "39–58",
-          "title": "Pakāpieni",
-          "learn": "Seko punktiem no 28 līdz 40 ap lielo atsperes spoli zem zirga.",
-          "fact": "Pakāpieni pērtiķu stieņos tradicionāli ir izvietoti tā, lai bērnam būtu jāsniedzas ar pilnu roku izstiepšanu līdz nākamajam — pietiekami tuvu, lai būtu sasniedzams, un pietiekami tālu, lai attīstītu reālu satvērienu un plecu spēku."
-        },
-        {
-          "range": "59–76",
-          "title": "Kāpējs",
-          "learn": "Pabeidziet ar punktiem no 41 līdz 53, lai pievienotu stabilo pamatni un zemi zem jātnieka.",
-          "fact": "Šūpojoties no rokas uz roku pāri pērtiķu stieņiem dažreiz sauc par 'brahiāciju', tas pats vārds, ko zinātnieki izmanto, lai aprakstītu, kā pērtiķi pārvietojas cauri kokiem, šūpojoties no zara uz zaru."
-        },
-        {
-          "range": "77–94",
-          "title": "Zeme un nolaišanās zona",
-          "learn": "Pabeidziet, savienojot punktus no 77 līdz 94, lai uzzīmētu zemi zem stieņiem un nosēšanās zonu tālajā galā. Tikai astoņpadsmit punkti līdz finišam — stabila, pārliecināta noslēgšana pabeidz visu šķērsošanu.",
-          "fact": "Tāpat kā šūpoles un slaidi, pērtiķu stieņi gandrīz vienmēr tiek uzstādīti virs mīksta drošības seguma, piemēram, gumijas flīzēm, smiltīm vai koka skaidiņām, lai mīkstinātu jebkuru kritienu no pakāpieniem."
+      },
+      "body": {
+        "h1": "Steidzīgs auto Punktu uz Punktu, 48 ātri punkti vecumā no 4-8",
+        "name": "Amerikāņu kalniņu rotaļu laukums",
+        "tagline": "Kāpt pa trasi, dzenāties pakaļ kritienam!",
+        "description": "Savieno 133 punktus, lai atklātu pilnus rotaļu laukuma kalniņus ar cilpām un visu pārējo. Šī ir mūsu līdz šim sarežģītākā rotaļu laukuma mīkla, kas radīta bērniem, kuri jau ir tikuši galā ar vieglākām lapām un vēlas īstu pacietības un zīmuļa vadības pārbaudi.",
+        "fun_fact": "Rotaļlietu automašīnas ir priecējušas bērnus vairāk nekā gadsimtu, un to ripošana pa trasi ir rotaļīgs veids, kā izpētīt kustību, ātrumu un virzienu.",
+        "faqs": [
+          {
+            "q": "Kādam vecumam paredzēta punktu savienošanas mīkla Amerikāņu kalniņu rotaļu laukums?",
+            "a": "Tā paredzēta vecumam Vecums 4–8. Ar 48 punktiem tā piemērota bērniem, kuri droši skaita līdz 48; jaunāki bērni to paveiks ar nelielu palīdzību."
+          },
+          {
+            "q": "Kā izdrukāt darba lapu Amerikāņu kalniņu rotaļu laukums?",
+            "a": "Noklikšķiniet uz lejupielādes pogas, lai iegūtu bezmaksas PDF, un pēc tam izdrukājiet to uz parasta papīra (A4 vai US Letter) no jebkuras pārlūkprogrammas vai PDF lasītāja. Īpaša programmatūra nav nepieciešama."
+          },
+          {
+            "q": "Vai izdrukājamā Amerikāņu kalniņu rotaļu laukums tiešām ir bez maksas?",
+            "a": "Jā — tā ir 100 % bez maksas, bez reģistrācijas, konta vai maksājuma. Varat to drukāt mājām vai klasei."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Sešas sadaļas. Simt trīsdesmit trīs punkti. Šī ir lielākā rotaļu laukuma puzle komplektā, un tā neizliekas par pretējo — trase kāpj, krīt, veido cilpas un visbeidzot noripo atpakaļ uz platformas, kur tā sākās. Bērni, kuri jau ir pabeiguši šūpoles, slidkalniņu vai šūpoles, atpazīs formātu, taču milzīgais garums šeit maina visas lietas sajūtu. Lēns, vienmērīgs zīmuļa darbs uzvar dienā. Atrodiet 1. punktu pirmā kalna pakājē, un uzbūvēsim kaut ko tādu, par ko ir vērts kliegt.",
+          "sections": [
+            {
+              "range": "1–10",
+              "title": "Vāks un priekšējais buferis",
+              "learn": "Sāciet ar 1. punktu un virzieties cauri 22. punktam, lai uzzīmētu garu, stāvu kāpumu, kas uzvelk kalniņu vagoniņu līdz tā augstākajam punktam. Šīs līnijas stiepjas vienā vienmērīgā diagonālā virzienā, kas padara šo par labu posmu ritma veidošanai, pirms mīkla kļūst sarežģītāka.",
+              "fact": "Automobiļa izliektais vāks palīdz gaisam plūst gludi pāri transportlīdzeklim. Dizaineri testē šīs formas, lai automobiļi patērētu mazāk enerģijas, pārvietojoties uz priekšu."
+            },
+            {
+              "range": "11–20",
+              "title": "Priekšējais stikls un jumts",
+              "learn": "Turpiniet no 23. līdz 44. punktam, lai izsekotu stāvajam kritienam lejup no virsotnes. Šeit leņķis ir asāks nekā jebkur citur uz loksnes, tāpēc mudiniet stingru, pārliecinātu roku, nevis trīcošu, vilcinošu — ātram kritienam ir nepieciešama ātra, droša līnija.",
+              "fact": "Mūsdienu priekšējie stikli ir izgatavoti no laminēta drošības stikla. Caurspīdīga plastmasas kārta atrodas starp divām stikla loksnēm un palīdz noturēt priekšējo stiklu kopā, ja tas saplīst."
+            },
+            {
+              "range": "21–30",
+              "title": "Durvis un automobiļa korpuss",
+              "learn": "Izvelciet punktus no 45 līdz 66, lai izveidotu lielo cilpu brauciena centrā. Šī daļa atgriežas pati par sevi, kas ir sarežģītāk nekā taisns kāpums vai kritums — brauciet lēnām un pārbaudiet nākamo punktu, pirms piesakāties katram līkumam.",
+              "fact": "Automobiļu dizaineri vispirms uzzīmē transportlīdzekļus ar pamata līnijām un formām, līdzīgi kā punktiņu zīmējums. Viņi daudzreiz pilnveido šos zīmējumus pirms pilna izmēra modeļa izveides."
+            },
+            {
+              "range": "31–40",
+              "title": "Riteņi",
+              "learn": "Savienojiet punktus no 67 līdz 88, lai uzzīmētu mazākus paugurus, kas seko aplim. Šie izciļņi nāk viens pēc otra ātrā secībā, dodot bērniem iespēju praktizēt īsus, kontrolētus vēzienus, nevis vienu garu vēzienu.",
+              "fact": "Agrākie riteņi bija cieti koka. Mūsdienu automobiļu riepas ir gumijas un piepildītas ar gaisu, kas amortizē triecienus un palīdz riepai noturēties uz ceļa."
+            },
+            {
+              "range": "41–48",
+              "title": "Gaismas un pēdējās detaļas",
+              "learn": "Strādājiet no 89. līdz 110. punktam, lai veidotu līkumu, kas ved sliežu ceļu atpakaļ uz staciju. Šis līkums ir plats un pakāpenisks, patīkama tempa maiņa pēc ciešāka cilpas puzles sākumā.",
+              "fact": "Priekšējās gaismas dara vairāk nekā palīdz vadītājiem redzēt naktī — tās arī padara automobili vieglāk pamanāmu citiem cilvēkiem lietū, miglā un vājā laikā."
+            }
+          ],
+          "outro": "Tas arī viss brauciens no sākuma līdz beigām! Iekrāso trasi treknrakstā, spilgtās cilpās un piešķir kalniņu vagoniņam jebkādu traku krāsojumu, kas tev patīk. Ja 133 punkti šķita aizraujoši un vēlies vēl lielāku izaicinājumu, tālāk apskati mūsu <a href=\"/usa-250/\">ekstrēmos punktu drukājamos materiālus</a>.",
+          "color_schemes": []
         }
-      ],
-      "outro": "Tavas pavasara zirgs ir gatavs jāšanai! Pievieno spilgtu seglu, plūstošu krēpju un krāsainu rotaļu laukumu. Izmēģini nākamo <a href=\"/playgrounds/playhouse-slide-playground-dot-to-dot-puzzle/\">spēļu mājas slīdēšanas puzli</a>."
+      }
     },
-    "seoTitle": "Pavasara Zirgs Punktu Savienošana — 53 Punktu Spēlēšanas Lapa"
-  }
-]
+    {
+      "slug": "swing-playgrounds-dot-to-dot-puzzle",
+      "header": {
+        "title": "Šūpuļtīkla punkti uz punktu — vieglākais 42 punktu rotaļu laukuma PDF",
+        "meta_description": "Bērni ir izbaudījuši virvju šūpoles tūkstošiem gadu. Pabeidziet šo pazīstamo rotaļu laukuma dizainu 42 punktos ar bezmaksas PDF vecumā no 4–7.",
+        "og": {
+          "title": "Šūpuļtīkla punkti uz punktu — vieglākais 42 punktu rotaļu laukuma PDF",
+          "description": "Bērni ir izbaudījuši virvju šūpoles tūkstošiem gadu. Pabeidziet šo pazīstamo rotaļu laukuma dizainu 42 punktos ar bezmaksas PDF vecumā no 4–7.",
+          "image_alt": "Rotaļu laukuma šūpuļtīkls, kas karājas kopā no 42 viegli izdrukājamiem punktiem"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Monkey Bars rotaļu laukums",
+          "description": "Bērni ir izbaudījuši virvju šūpoles tūkstošiem gadu. Pabeidziet šo pazīstamo rotaļu laukuma dizainu 42 punktos ar bezmaksas PDF vecumā no 4–7.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
+      },
+      "body": {
+        "h1": "Šūpuļtīkla punkti uz punktu — vieglākais 42 punktu rotaļu laukuma PDF",
+        "name": "Monkey Bars rotaļu laukums",
+        "tagline": "Šūpojies, kāp un sasniedz otru pusi!",
+        "description": "Savieno 94 punktus, lai atklātu jautru stieņu komplektu. Šī vidēja līmeņa rotaļu laukuma puzle ir lielisks izaicinājums bērniem, kuri praktizē ciparu secību, zīmuļa vadīšanu un pacietību.",
+        "fun_fact": "20. gadsimta sākumā par populāru rotaļu laukumu aprīkojumu kļuva pērtiķu stieņi, kas palīdz bērniem vingrināt satvēriena spēku, līdzsvaru un ķermeņa augšdaļas koordināciju.",
+        "faqs": [
+          {
+            "q": "Cik punktu ir Šūpoļu rotaļu laukuma punktu-punktu puzlē?",
+            "a": "Šūpoļu laukuma savienošanas drukājamajā veidnē ir 42 numurēti punkti. Tas padara to par viegli līdz vidēji sarežģītu mīklu, kas vislabāk piemērota 5–8 gadus veciem bērniem (no bērnudārza līdz 2. klasei). Bērni savieno punktus skaitļu secībā, lai atklātu gatavu šūpoļu laukuma attēlu, un pēc tam to izkrāso."
+          },
+          {
+            "q": "Vai Šūpoļu rotaļu laukuma punktu sadalījuma diagramma ir bezmaksas drukāšanai?",
+            "a": "Jā. Darba lapu “Šūpoļu rotaļu laukums” var lejupielādēt pilnīgi bez maksas no DotToDotFreePrintables.com — nav nepieciešams konts, e-pasts vai maksājums. Tā tiek lejupielādēta nekavējoties kā drukāšanai gatavs PDF fails gan portreta, gan ainavas orientācijā, kas piemērots ASV vēstules vai A4 formāta papīram."
+          },
+          {
+            "q": "Kādam vecumam vislabāk piemērota Šūpoļu rotaļu laukuma punktu savienošanas darba lapa?",
+            "a": "Ar 42 punktiem \"Šūpoles rotaļu laukumā\" puzle vislabāk piemērota 5–8 gadus veciem bērniem (no bērnudārza līdz 2. klasei). Jaunākiem bērniem tā varētu patikt ar nelielu pieaugušo palīdzību, skaitot līdzi, savukārt pārliecināti skaitītāji to var atrisināt patstāvīgi un vingrināties skaitļu skaitīšanā līdz 42."
+          },
+          {
+            "q": "Kādas prasmes iemāca Swing Playground punktu salikšanas puzle?",
+            "a": "Savienojot 42 punktus Swing Playground puzlē, tiek attīstīta skaitļu atpazīšana un skaitīšana līdz 42, zīmuļa lietošana, roku un acu koordinācija un ilgstoša koncentrēšanās — tie paši smalko motoriku pamati, kas atbalsta agrīno rokrakstu. Gatavā attēla izkrāsošana sniedz radošu atalgojumu."
+          },
+          {
+            "q": "Kāds ir interesants fakts par šūpoļu rotaļu laukumu?",
+            "a": "Šūpoles ir viens no vecākajiem rotaļu laukuma izgudrojumiem — bērni šūpojas virvju šūpolēs jau tūkstošiem gadu! Bērni atklāj šādus faktus, risinot Šūpoļu rotaļu laukuma punktu salikšanas mīklu."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Savieno 94 punktus, lai atklātu jautru stieņu komplektu. Šī vidēja līmeņa rotaļu laukuma puzle ir lielisks izaicinājums bērniem, kuri praktizē ciparu secību, zīmuļa vadīšanu un pacietību. 20. gadsimta sākumā par populāru rotaļu laukumu aprīkojumu kļuva pērtiķu stieņi, kas palīdz bērniem vingrināt satvēriena spēku, līdzsvaru un ķermeņa augšdaļas koordināciju.",
+          "sections": [
+            {
+              "range": "1–8",
+              "title": "Šūpošanās rāmis",
+              "learn": "Uzmanīgi savieno punktus 1–18, lai uzzīmētu daļu “Balsta rāmis”. Pirms nākamās līnijas pārbaudi katru skaitli.",
+              "fact": "Klasiskais A-veida šūpošanās komplekts tika izstrādāts, lai būtu pēc iespējas stabilāks — trīsstūra forma vienmērīgi sadala svaru, tāpēc visa struktūra nenokarājas pat tad, ja bērni šūpojas stipri. Trīsstūri ir visspēcīgākā forma inženierijā, tāpēc jūs tos redzat visur, sākot no tiltiem līdz rotaļu laukumu rāmjiem."
+            },
+            {
+              "range": "9–18",
+              "title": "Krusta un ķēdes",
+              "learn": "Uzmanīgi savieno punktus 19–38, lai uzzīmētu daļu “Augšējais stienis”. Pirms nākamās līnijas pārbaudi katru skaitli.",
+              "fact": "Mūsdienu rotaļu laukumu ķēdes ir izgatavotas no cinkota tērauda — tērauda, kas pārklāta ar cinka slāni — lai novērstu rūsēšanu. Pirms tērauda ķēdēm, šūpošanās izmantoja biezas virves, kas izgatavotas no dabīgām šķiedrām, piemēram, kaņepēm vai manilas. Daudzu bērnu pirmā pieredze ar šūpošanos bija vienkārša dēļa piesietā pie koka zara ar virvi, un šī tradīcija turpinās dārzos visā pasaulē šodien."
+            },
+            {
+              "range": "19–28",
+              "title": "Šūpuļa sēdeklis un figūra",
+              "learn": "Uzmanīgi savieno punktus 39–58, lai uzzīmētu daļu “Šķērskoki”. Pirms nākamās līnijas pārbaudi katru skaitli.",
+              "fact": "Šūpošanās sajūta — pacelšanās un krišana, īss bezsvara brīdis katra loka augšgalā — aktivizē vestibulāro sistēmu smadzenēs, kas ir atbildīga par līdzsvaru un telpisko apziņu. Tāpēc šūpošanās ir tik patīkama: tā ir patiesi labvēlīga sensorā informācija, kas palīdz bērniem attīstīt līdzsvaru, koordināciju un ķermeņa apziņu."
+            },
+            {
+              "range": "29–36",
+              "title": "Zeme un apkārtne",
+              "learn": "Uzmanīgi savieno punktus 59–76, lai uzzīmētu daļu “Bērns uz kāpelēm”. Pirms nākamās līnijas pārbaudi katru skaitli.",
+              "fact": "Mūsdienu rotaļu laukumi izmanto īpaši izstrādātas drošības virsmas zem šūpolēm — gumijas flīzes, koka skaidas vai gumijas drupačas — lai mīkstinātu kritienus. Šis materiāls ir rūpīgi izstrādāts, lai absorbētu triecienus. Pirms drošības virsmas kļuva par standartu 1970. un 1980. gados, lielākajā daļā rotaļu laukumu zem aprīkojuma bija cieta betona vai saspiesta zeme."
+            },
+            {
+              "range": "37–42",
+              "title": "Pabeigšanas detaļas",
+              "learn": "Uzmanīgi savieno punktus 77–94, lai uzzīmētu daļu “Zeme un nolaišanās vieta”. Pirms nākamās līnijas pārbaudi katru skaitli.",
+              "fact": "Pasaulē garākais šūpoļu komplekts, kas reģistrēts, bija ar vairāk nekā 100 šūpolēm vienā rindā. Kopienas šūpošanas pasākumi — kur lielas grupas šūpojas kopā — ir notikuši parkos visā pasaulē kā svinības par āra spēlēm. Šūpoles ir viens no nedaudzajiem rotaļu laukumu aprīkojuma gabaliem, ko pieaugušie izbauda tikpat ļoti kā bērni."
+            }
+          ],
+          "outro": "Šūpojies, kāp un sasniedz otru pusi! <a href=\"/playgrounds/\">Monkey Bars rotaļu laukums</a>",
+          "color_schemes": []
+        }
+      }
+    },
+    {
+      "slug": "slide-playgrounds-dot-to-dot-puzzle",
+      "header": {
+        "title": "Lietussargu slīdes punktu savienošana: 68 punkti, ko drukāt bez maksas",
+        "meta_description": "Kāpšana, slīdēšana un rotaļu spēles apvienojas vienā jautrā konstrukcijā. Izsekojiet spēļu mājas slīdni cauri 68 punktiem bezmaksas PDF failā bērniem vecumā no 5 līdz 9 gadiem.",
+        "og": {
+          "title": "Lietussargu slīdes punktu savienošana: 68 punkti, ko drukāt bez maksas",
+          "description": "Kāpšana, slīdēšana un rotaļu spēles apvienojas vienā jautrā konstrukcijā. Izsekojiet spēļu mājas slīdni cauri 68 punktiem bezmaksas PDF failā bērniem vecumā no 5 līdz 9 gadiem.",
+          "image_alt": "Augsts rotaļu laukuma slaids, kas kāpj uz augšu caur 102 punktiem izdrukājamā darba lapā"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Spēļu mājas slīdkalniņš",
+          "description": "Kāpšana, slīdēšana un rotaļu spēles apvienojas vienā jautrā konstrukcijā. Izsekojiet spēļu mājas slīdni cauri 68 punktiem bezmaksas PDF failā bērniem vecumā no 5 līdz 9 gadiem.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
+      },
+      "body": {
+        "h1": "Spēļu mājas slīdēšanas punktu savienošana: 68 punkti, ko drukāt bez maksas",
+        "name": "Spēļu mājas slīdkalniņš",
+        "tagline": "Uzkāp augšā un slīdē kā jautrībā!",
+        "description": "Savienojiet 102 punktus, lai atklātu augstu rotaļu laukuma slaidu, gatavu kāpšanai un slīdēšanai. Ar vairāk punktiem nekā mūsu vieglākajā rotaļu laukuma puzlē, šī ir jauka nākamā izaicinājuma iespēja bērniem, kuri ir gatavi pāriet no iesācēju lapām, vienlaikus izbaudot jautru, pazīstamu tēmu.",
+        "fun_fact": "Rotaļu konstrukcijas apvieno kāpšanu, izdomas spēles un slīdēšanu, sniedzot bērniem vienuviet vairākus kustību un iztēles vingrinājumus.",
+        "faqs": [
+          {
+            "q": "Cik punktu ir Slide Playground punktu-pie-punkta puzlē?",
+            "a": "Slidkalniņa rotaļu laukuma punktu savienošanas drukājamajā veidnē ir 102 numurēti punkti. Tas padara to par izaicinošu mīklu, kas vislabāk piemērota 7–12 gadu vecumam (no 2. klases). Bērni savieno punktus skaitļu secībā, lai atklātu gatavu slidkalniņa rotaļu laukuma attēlu, un pēc tam to izkrāso."
+          },
+          {
+            "q": "Vai Slide Playground punktu-punktu zīmēšanas shēma ir bezmaksas?",
+            "a": "Jā. Darba lapu “Slide Playground” var lejupielādēt pilnīgi bez maksas no DotToDotFreePrintables.com — nav nepieciešams konts, e-pasts vai maksājums. Tā tiek lejupielādēta uzreiz kā drukāšanai gatavs PDF fails gan portreta, gan ainavas orientācijā, kas piemērots ASV vēstules vai A4 formāta papīram."
+          },
+          {
+            "q": "Kādam vecumam vislabāk piemērota Slide Playground darba lapa \"Savieno punktus\"?",
+            "a": "Ar 102 punktiem Slide Playground puzle vislabāk piemērota 7–12 gadu vecumam (no 2. klases). Jaunākiem bērniem tā varētu patikt ar nelielu pieaugušo palīdzību, skaitot līdzi, savukārt pārliecināti skaitītāji to var atrisināt patstāvīgi un vingrināties skaitļu skaitīšanā līdz 102."
+          },
+          {
+            "q": "Kādas prasmes iemāca Slide Playground punktu salikšanas puzle?",
+            "a": "Savienojot 102 punktus Slide Playground puzlē, tiek attīstīta skaitļu atpazīšana un skaitīšana līdz 102, zīmuļa lietošana, roku un acu koordinācija un ilgstoša koncentrēšanās — tie paši smalko motoriku pamati, kas atbalsta agrīno rokrakstu. Gatavā attēla izkrāsošana sniedz radošu atalgojumu."
+          },
+          {
+            "q": "Kāds ir interesants fakts par slidkalniņu rotaļu laukumu?",
+            "a": "Augstākais pastāvīgais rotaļu laukuma slidkalniņš pasaulē stiepjas vairāk nekā 30 metru garumā — apmēram tikpat augsts kā desmit stāvu ēka! Bērni atklāj šādus faktus, risinot Slide Playground punktu-pie-punkta mīklu."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Šis 68 punktu puzles komplekts veido pilnīgu rotaļu laukumu spēļu mājiņu – no jumta un platformas līdz kāpnēm un izliektai slīdkalniņam. Piecas īsas darbības posmas padara attēlu viegli uztveramu jaunajiem māksliniekiem.",
+          "sections": [
+            {
+              "range": "1–20",
+              "title": "Kāpelis",
+              "learn": "Savieno punktus no 1 līdz 14, lai izveidotu jumta formu spēļu mājas augšdaļā.",
+              "fact": "Rotaļu laukumu kāpņi ir izgatavoti ar pakāpieniem, kas ir pietiekami tuvu, lai jaunā bērna kāja varētu droši sasniegt nākamo — parasti ne vairāk kā apmēram 30 cm attālumā, daudz tuvāk nekā pakāpieni mājsaimniecības kāpņu kāpnēm."
+            },
+            {
+              "range": "21–40",
+              "title": "Platforma",
+              "learn": "Turpiniet no 15. punkta līdz 28. punktam, lai uzzīmētu spēļu mājas sienas un paaugstināto platformu.",
+              "fact": "Lielākā daļa rotaļu laukumu platformu ir izgatavotas ar drošības margām vismaz trīs pusēs, atstājot atvērtu tikai slaida ieeju. Šī dizaina detaļa ir atzīta par ievērojamu platformas kritienu samazināšanu kopš tā kļuva par standartu rotaļu laukumu drošības vadlīnijās."
+            },
+            {
+              "range": "41–60",
+              "title": "Slaida augšdaļa",
+              "learn": "Seko punktiem no 29 līdz 41, lai pievienotu kāpnes un tās vienmērīgi izvietotos pakāpienus.",
+              "fact": "Pirmais līkums slaida augšgalā tiek saukts par 'sākuma līkumu', un tas ir speciāli leņķots, lai kontrolētu, cik ātri braucējs iegūst ātrumu, nevis vienkārši nomet viņu taisni lejā."
+            },
+            {
+              "range": "61–85",
+              "title": "Garā caurule",
+              "learn": "Izseko punktus no 42. līdz 55. pa gludo slīdi, noturot zīmuli vienmērīgi katrā līkumā.",
+              "fact": "Mūsdienu rotaļu laukumu slaidi gandrīz vienmēr ir izgatavoti no rotomoldēta plastmasas, nevis metāla. Metāla slaidi var kļūt bīstami karsti tiešā vasaras saulē, kas ir viens no galvenajiem iemesliem, kāpēc rotaļu laukumi lielā mērā mainīja materiālus, sākot no 1980. un 90. gadiem."
+            },
+            {
+              "range": "86–102",
+              "title": "Bāze un nolaišanās",
+              "learn": "Pabeidziet ar punktiem no 56. līdz 68., lai pievienotu balstus un pamatni zem spēļu mājiņas.",
+              "fact": "Tāpat kā šūpošanās, slaidi atrodas virs īpaši izstrādātas drošības virsmas — parasti gumijas, smilšu vai koka skaidas — kas ir paredzētas, lai absorbētu nolaišanās triecienu daudz labāk nekā parasts zāle vai betons varētu."
+            }
+          ],
+          "outro": "Jūsu rotaļu mājas slīdne ir gatava priekam! Pievienojiet spilgtas krāsas, logus, karogus un visu rotaļu laukumu ap to. Izmēģiniet nākamo <a href=\"/playgrounds/carousel-horse-playground-dot-to-dot-puzzle/\">karuselļa zirga uzdevumu</a>.",
+          "color_schemes": []
+        }
+      }
+    },
+    {
+      "slug": "seesaw-playground-dot-to-dot-puzzle",
+      "header": {
+        "title": "Karuseļa zirga punktu savienošana — burvīgs 88 punktu lapa",
+        "meta_description": "Seko plūstošajai krēslei un rotītajam segliem karuselzirga, savienojot 88 punktus. Drukā šo atrakciju parka mīklu bez maksas bērniem vecumā no 5 līdz 9 gadiem.",
+        "og": {
+          "title": "Karuseļa zirga punktu savienošana — burvīgs 88 punktu lapa",
+          "description": "Seko plūstošajai krēslei un rotītajam segliem karuselzirga, savienojot 88 punktus. Drukā šo atrakciju parka mīklu bez maksas bērniem vecumā no 5 līdz 9 gadiem.",
+          "image_alt": "Divi draugi, kas balansē uz šūpuļtīkla, aina veidota ar 68 izdrukājamiem punktiem"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Karuseļa zirga rotaļu laukums",
+          "description": "Seko plūstošajai krēslei un rotītajam segliem karuselzirga, savienojot 88 punktus. Drukā šo atrakciju parka mīklu bez maksas bērniem vecumā no 5 līdz 9 gadiem.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
+      },
+      "body": {
+        "h1": "Karuseļa zirga punktu savienošana — burvīgs 88 punktu lapa",
+        "name": "Karuseļa zirga rotaļu laukums",
+        "tagline": "Džigojiet apkārt karuselīm!",
+        "description": "Savienojiet 88 punktus, lai atklātu elegantu karuselļa zirgu, kas gatavs burvīgam braucienam. Šī vidējā grūtības pakāpes drukājamā mīkla bērniem sniedz aizraujošu iespēju praktizēt skaitļu secības, koncentrāciju un rūpīgu zīmuļa vadību.",
+        "fun_fact": "Tradicionāli karuselžirgi bieži vien ir ar plīvošu krēpju un dekoratīvu seglu, un zirgi, kas kustas augšup un lejup, tiek saukti par lēcējiem.",
+        "faqs": [
+          {
+            "q": "Cik punktu ir Seesaw Playground punktu-punktu puzlē?",
+            "a": "Šūpoļu laukuma punktu savienošanas izdrukājamajā veidnē ir 68 numurēti punkti. Tas padara to par viegli līdz vidēji sarežģītu mīklu, kas vislabāk piemērota 5–8 gadus veciem bērniem (no bērnudārza līdz 2. klasei). Bērni savieno punktus skaitļu secībā, lai atklātu gatavu šūpoļu laukuma attēlu, un pēc tam to izkrāso."
+          },
+          {
+            "q": "Vai Seesaw Playground punktu-punktu zīmēšanas shēma ir bezmaksas?",
+            "a": "Jā. Darba lapu “Seesaw Playground” var lejupielādēt pilnīgi bez maksas no DotToDotFreePrintables.com — nav nepieciešams konts, e-pasts vai maksājums. Tā tiek lejupielādēta uzreiz kā drukāšanai gatavs PDF fails gan portreta, gan ainavas orientācijā, kas piemērots ASV vēstules vai A4 formāta papīram."
+          },
+          {
+            "q": "Kādam vecumam vislabāk piemērota Seesaw Playground darba lapa \"Savieno punktus\"?",
+            "a": "Ar 68 punktiem \"Seesaw Playground\" puzle vislabāk piemērota 5–8 gadus veciem bērniem (no bērnudārza līdz 2. klasei). Jaunākiem bērniem tā varētu patikt ar nelielu pieaugušo palīdzību, skaitot līdzi, savukārt pārliecināti skaitītāji to var atrisināt patstāvīgi un vingrināties skaitļu skaitīšanā līdz 68."
+          },
+          {
+            "q": "Kādas prasmes iemāca Seesaw Playground punktu salikšanas puzle?",
+            "a": "Savienojot Seesaw Playground puzles 68 punktus, tiek attīstīta skaitļu atpazīšana un skaitīšana līdz 68, zīmuļa lietošana, roku un acu koordinācija un ilgstoša koncentrēšanās — tie paši smalko motoriku pamati, kas atbalsta agrīno rokrakstu. Gatavā attēla izkrāsošana sniedz radošu atalgojumu."
+          },
+          {
+            "q": "Kāds interesants fakts ir par šūpoļu rotaļu laukumu?",
+            "a": "Šūpoles amerikāņu angļu valodā dažreiz sauc par \"teeter-totters\" — abi nosaukumi apraksta vienu un to pašu vienkāršo kustību augšup un lejup, kas bērnus ir izklaidējusi paaudzēm ilgi. Bērni atklāj šādus faktus, risinot Seesaw Playground punktu-punktu mīklu."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Karuseļa zirgi pārveido parasto braucienu par galopošu piedzīvojumu. Ar izrotātu seglu, plīvojošu krēpju un lepnu pozu, katrs zirgs izskatās gatavs lēkt no platformas un aizskriet prom. Šis 88-punktu puzlis piedāvā aizraujošu izaicinājumu bērniem, kuri pārliecinoši spēj sekot garākām ciparu sekvencēm. Atrodi punktu 1, nostiprini zīmuli un ļauj karuselim sākt griezties!",
+          "sections": [
+            {
+              "range": "1–14",
+              "title": "Balsts",
+              "learn": "Sāc no 1. punkta un savieno līdz 18. punktam, lai izveidotu zirga seju, purnu un modrās ausis. Šī daļa apvieno īsus leņķus ar maigi izliektām līnijām, palīdzot bērniem palēnināt tempu, raudzīties uz priekšu un rūpīgi virzīt zīmuli ap detaļām bagātajām iezīmēm.",
+              "fact": "Centrālais atbalsts šūpolēm tiek saukts par balstu — tā pati vārds, ko inženieri izmanto jebkura sviras griešanās punktam. Šūpoles tehniski ir viena no vienkāršākajām mašīnām, kas pastāv: sviras, kas balansē uz fiksēta punkta."
+            },
+            {
+              "range": "15–28",
+              "title": "Dēlis",
+              "learn": "Turpiniet no 19. punkta līdz 36. punktam, lai uzzīmētu izliekto kaklu un plūstošo krēpu. Krēpa virziena maiņa nodrošina noderīgu vingrinājumu veidojot vienmērīgas, kontrolētas līknes, vienlaikus padarot zirgu tādu, it kā tas kustētos vējā.",
+              "fact": "Agrākie šūpuļtīkli bieži tika būvēti no vienas koka dēļa, kas ir tieši tas, no kurienes brauciens iegūst savu nosaukumu — 'redzēt' un 'zāģēt' atspoguļo vecā divvietīgā zāģa kustību uz priekšu un atpakaļ, kas tiek vilkts pāri baļķim."
+            },
+            {
+              "range": "29–42",
+              "title": "Rokturis",
+              "learn": "Izkliedē punktus no 37. līdz 54., lai izveidotu zirka spēcīgo ķermeni un rotāto seglu. Bērni pārvietojas starp garākām ķermeņa līnijām un mazākiem dekoratīviem elementiem, praktizējot gan vienmērīgus vēzienus, gan rūpīgu uzmanību detaļām.",
+              "fact": "Rokturis ne vienmēr bija standarts šūpuļtīklu dizainā. Agrīnajās rotaļu laukuma versijās braucēji turēja dēli pašu, kas ir daļa no iemesla, kāpēc mūsdienu drošības standarti tagad prasa speciālus rokturus katrā galā."
+            },
+            {
+              "range": "43–56",
+              "title": "Pirmais braucējs",
+              "learn": "Savienojiet punktus no 55 līdz 72, lai uzzīmētu paceltās un izstieptās kājas. Šīs slīpās līnijas rada iespaidu par sastingušu galopu. Mudiniet bērnus pārbaudīt katru nākamo numuru pirms zīmēšanas, lai kājas paliktu atsevišķas un viegli atpazīstamas.",
+              "fact": "Braukšana ar šūpuļtīklu ir patiešām noderīgs līdzsvara vingrinājums. Pārvietojot savu svaru, lai paliktu taisni, kad dēlis sliecas, aktivizē tās pašas centrālās muskuļu grupas un iekšējās auss līdzsvara sistēmu, kas tiek izmantota vingrošanā un dejās."
+            },
+            {
+              "range": "57–68",
+              "title": "Otrais braucējs un zeme",
+              "learn": "Pabeidziet ar punktiem no 73. līdz 88., lai pievienotu vēzienainu asti un pēdējos dekoratīvos detaļas. Sešpadsmit rūpīgi savienojumi pabeidz attēlu, atalgodot bērnus par koncentrēšanos visā garākajā puzles daļā.",
+              "fact": "Daži mūsdienu rotaļu laukumi ir nomainījuši tradicionālo divu braucēju šūpuļtīklu pret atsperu uzstādītiem modeļiem, kas ļauj vienam bērnam šūpoties vienam, lai gan klasiskā pagriežamā divvietīgā versija joprojām ir visizplatītākais dizains visā pasaulē."
+            }
+          ],
+          "outro": "Brīnišķīgs darbs — jūsu karuselļa zirgs ir gatavs braucienam! Krāsojiet seglu ar košiem karnevāla toņiem, pievienojiet lentes vai mirdzošus akmeņus, un izveidojiet ap to karuseli. Vēl vienai rotaļīgai izaicinājumam, izpētiet vairāk <a href=\"/playgrounds/\">spēļu laukuma punktu savienošanas drukājumus</a>.",
+          "color_schemes": []
+        }
+      }
+    },
+    {
+      "slug": "roller-coaster-playground-dot-to-dot-puzzle",
+      "header": {
+        "title": "Trakošā Auto Savieno Punktiņus, 48 Ātri Punktiņi Vecumam no 4 līdz 8",
+        "meta_description": "Brauciet pa garāko rotaļu laukuma secību caur 133 pagriezieniem un līkumiem. Šis bezmaksas kalniņu PDF izaicina koncentrētos puzles fanus vecumā no 8–12.",
+        "og": {
+          "title": "Trakošā Auto Savieno Punktiņus, 48 Ātri Punktiņi Vecumam no 4 līdz 8",
+          "description": "Brauciet pa garāko rotaļu laukuma secību caur 133 pagriezieniem un līkumiem. Šis bezmaksas kalniņu PDF izaicina koncentrētos puzles fanus vecumā no 8–12.",
+          "image_alt": "Ātrā rotaļlietu auto, kas dodas uz priekšu, kad ir savienoti 48 numurēti punkti"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Rotaļu laukuma kalniņi",
+          "description": "Brauciet pa garāko rotaļu laukuma secību caur 133 pagriezieniem un līkumiem. Šis bezmaksas kalniņu PDF izaicina koncentrētos puzles fanus vecumā no 8–12.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
+      },
+      "body": {
+        "h1": "Ekstrēmi kalniņu punkti uz punktu — 133 punkti, bezmaksas",
+        "name": "Rotaļu laukuma kalniņi",
+        "tagline": "Ieslēdziet Dzinēju un Savienojiet Punktus!",
+        "description": "Savienojiet 48 vienkāršus punktus, lai atklātu ātri braucošu auto, kas gatavs drāzties pāri rotaļu laukumam. Šī bezmaksas drukājamā puzle palīdz maziem bērniem praktizēt skaitļu secību, zīmuļa vadīšanu un koncentrēšanos ar jautru transportlīdzekļu tēmu.",
+        "fun_fact": "Pirmais lokveida kalniņš tika atvērts Parīzē 1846. gadā. Braucēji sūdzējās, ka tas sāp viņu kakliem, un inženieriem bija nepieciešami gandrīz 50 gadi, lai izstrādātu loku, kas jutās gludi, nevis sodīgi.",
+        "faqs": [
+          {
+            "q": "Cik punktu ir \"Veteran Coaster Playground\" punktu-punktu puzlē?",
+            "a": "Amerikāņu kalniņu rotaļu laukuma punktu savienošanas izdrukājamajam attēlam ir 133 numurēti punkti. Tas padara to par izaicinošu mīklu, kas vislabāk piemērota 7–12 gadus veciem bērniem (no 2. klases). Bērni savieno punktus skaitļu secībā, lai atklātu gatavu kalniņu rotaļu laukuma attēlu, un pēc tam to izkrāso."
+          },
+          {
+            "q": "Vai amerikāņu kalniņu rotaļu laukuma punktu-punktu zīmēšanas shēma ir bezmaksas?",
+            "a": "Jā. Darba lapa “Velniņu kalniņu rotaļu laukums” ir 100% bez maksas lejupielādējama no DotToDotFreePrintables.com — nav nepieciešams konts, e-pasts vai maksājums. Tā tiek lejupielādēta uzreiz kā drukāšanai gatavs PDF fails gan portreta, gan ainavas orientācijā, ASV vēstules vai A4 formāta papīram."
+          },
+          {
+            "q": "Kādam vecumam vislabāk piemērota darba lapa \"Veterānu kalniņu rotaļu laukums\"?",
+            "a": "Ar 133 punktiem \"Veltiņu kalniņu rotaļu laukuma\" puzle vislabāk piemērota 7–12 gadu vecumam (no 2. klases). Jaunākiem bērniem tā varētu patikt ar nelielu pieaugušo palīdzību, skaitot līdzi, savukārt pārliecināti skaitītāji to var atrisināt patstāvīgi un vingrināties skaitļu secībā līdz 133."
+          },
+          {
+            "q": "Kādas prasmes māca \"Roller Coaster Playground\" punktu salikšanas puzle?",
+            "a": "Savienojot 133 punktus no Roller Coaster Playground puzles, tiek attīstīta skaitļu atpazīšana un skaitīšana līdz 133, zīmuļa lietošana, roku un acu koordinācija un ilgstoša koncentrēšanās — tie paši smalko motoriku pamati, kas atbalsta agrīno rokrakstu. Gatavā attēla izkrāsošana sniedz radošu atalgojumu."
+          },
+          {
+            "q": "Kāds ir interesants fakts par amerikāņu kalniņu rotaļu laukumu?",
+            "a": "Pirmie cilpveida amerikāņu kalniņi tika atklāti Parīzē 1846. gadā. Braucēji sūdzējās, ka tie sāpina kaklu, un inženieriem bija nepieciešami gandrīz 50 gadi, lai izstrādātu cilpu, kas būtu gluda, nevis mokoša. Bērni atklāj šādus faktus, risinot amerikāņu kalniņu rotaļu laukuma punktu-punktu mīklu."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Drosmīgs auto ir radīts piedzīvojumiem — tuvs zemes virsmai, gatavs braucienam un pilns ar formām, ko jaunie mākslinieki var atpazīt. Šī draudzīgā 48-punktu puzle ir piemērots pirmais transportlīdzekļa izaicinājums bērniem, kas praktizē skaitļu secību un zīmuļa vadību. Atrodi punktu 1, iedomājies, ka dzinējs iedarbas, un zīmē savu ceļu līdz finiša līnijai!",
+          "sections": [
+            {
+              "range": "1–22",
+              "title": "Pacelšanās kalns",
+              "learn": "Sāc no 1. punkta un savieno līdz 10. punktam, lai uzzīmētu automašīnas priekšpusi. Bērni praktizē īsas taisnas līnijas un maigas līknes, vienlaikus mācoties skatīties uz priekšu uz nākamo numuru, nevis steidzoties pāri lapai.",
+              "fact": "Lielākā daļa kalniņu izmanto ķēdes pacelšanu, lai uzvilktu automašīnu augšā pirmajā kalnā — parasti tā ir vienīgā brauciena daļa, ko darbina motors. Viss, kas notiek pēc šī kalna virsotnes, notiek tikai uz gravitātes un impulsu rēķina."
+            },
+            {
+              "range": "23–44",
+              "title": "Pirmais kritiens",
+              "learn": "Turpiniet no 11. punkta līdz 20. punktam, lai izveidotu vējstiklu un jumtu. Šī daļa vienmērīgi paceļas un nokrīt, veidojot vienu gludu kontūru, kas bērniem sniedz noderīgu vingrinājumu leņķainu līniju savienošanā, bez pārāk bieža zīmuļa pacelšanas.",
+              "fact": "Pirmais kritiens kalniņos gandrīz vienmēr ir visaugstākais un stāvākais visā braucienā. Kalniņu dizaineri to novieto agrīnā posmā apzināti, jo parasti tieši tur trase sasniedz savu maksimālo ātrumu."
+            },
+            {
+              "range": "45–66",
+              "title": "Cilpa",
+              "learn": "Izseko punktus no 21. līdz 30. gar auto sānu, lai pabeigtu durvis un galveno korpusu. Garākie savienojumi veicina vienmērīgu roku, bet mainīgie leņķi palīdz bērniem ievērot, kā vienkāršas formas savienojas pazīstamā objektā.",
+              "fact": "Agrīnie cilpu kalniņi izmantoja perfekti apaļu cilpu, un braucēji bieži sūdzējās par kakla spriedzi no pēkšņas spēka maiņas. Mūsdienu cilpas izmanto asaru formas, kas jūtas daudz maigi uz ķermeņa tajā pašā ātrumā."
+            },
+            {
+              "range": "67–88",
+              "title": "Kamieļa muguras kalni",
+              "learn": "Savienojiet punktus no 31 līdz 40, lai izveidotu riteņus un riteņu arkām. Noapaļotas riteņu formas ir lieliski vingrinājumi gludai zīmuļa kustībai. Mudiniet bērnus rūpīgi sekot numurētajam kontūram, nevis mēģināt uzzīmēt perfektu apli.",
+              "fact": "Šie mazākie pacēlumi dažreiz tiek saukti par 'kamieļa muguras' kalniem, jo rinda no tiem izskatās kā kamieļa kuprīši. Braucēji bieži jūt īsu pacelšanos no savām sēdvietām, kad tie pārvar katru no tiem — īsts, ja arī mazs, bezsvara brīdis."
+            },
+            {
+              "range": "89–110",
+              "title": "Pēdējais pagrieziens",
+              "learn": "Pabeidziet ar punktiem no 41 līdz 48, lai pievienotu apgaismojumu un pārējās detaļas. Atliek tikai astoņi savienojumi, tāpēc šis ir labais brīdis, lai pievērstos un ar precīzu, pārliecinātu pieeju pabeigtu mašīnu.",
+              "fact": "Kalniņu dizaineri šo posmu sauc par 'atgriešanās skrējienu.' Tas ir būvēts plats un slīps, lai automašīna varētu saglabāt savu ātrumu caur līkumu, nepārtraukti neizmantojot bremzes, atstājot faktisko bremzēšanu pašā beigās."
+            },
+            {
+              "range": "111–133",
+              "title": "Stacija un platforma",
+              "learn": "Pabeidziet, savienojot punktus no 111 līdz 133, lai uzzīmētu stacijas platformu, kur sākās un beidzās brauciens. Divdesmit trīs punkti līdz finišam — lēna, uzmanīga pabeigšana ir patiesais neatlaidības rādītājs.",
+              "fact": "Bremzēšanas posms reālu kalniņu beigās ir viens no visvairāk inženierētajiem daļām. Tam jāspēj gludi apturēt automašīnu ar pilnu braucēju skaitu no pilna ātruma līdz pilnīgai apstāšanai, lai neviens netiktu izsists."
+            }
+          ],
+          "outro": "Lielisks brauciens — tavs krāšņais auto ir pabeigts! Izkrāso to kā sacīkšu auto, ģimenes auto vai pilnīgi jaunu transportlīdzekli, ko pats izdomāji. Pievieno ceļu, karogus vai priecīgu skatītāju pūli, tad izvēlēties nākamo <a href=\"/playgrounds/\">spēļu laukuma punktu savienošanas mīklu</a> savai nākamajai piedzīvojumam.",
+          "color_schemes": []
+        }
+      }
+    },
+    {
+      "slug": "monkey-bar-playground-dot-to-dot-puzzle",
+      "header": {
+        "title": "Pavasara Zirgs Punktu Savienošana — 53 Punktu Spēlēšanas Lapa",
+        "meta_description": "Bērna svara pārdale liek atsperu šūpotājam šūpoties. Uzbūvējiet šo rotaļu laukuma zirgu, savienojot 53 punktus, izmantojot bezmaksas drukājamo PDF failu vecumam no 4 līdz 8 gadiem.",
+        "og": {
+          "title": "Pavasara Zirgs Punktu Savienošana — 53 Punktu Spēlēšanas Lapa",
+          "description": "Bērna svara pārdale liek atsperu šūpotājam šūpoties. Uzbūvējiet šo rotaļu laukuma zirgu, savienojot 53 punktus, izmantojot bezmaksas drukājamo PDF failu vecumam no 4 līdz 8 gadiem.",
+          "image_alt": "Spēļu laukuma pavasara zirga jātnieks atlēcošs formā no 53 drukājamiem punktiem"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Pavasara Zirgs",
+          "description": "Bērna svara pārdale liek atsperu šūpotājam šūpoties. Uzbūvējiet šo rotaļu laukuma zirgu, savienojot 53 punktus, izmantojot bezmaksas drukājamo PDF failu vecumam no 4 līdz 8 gadiem.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
+      },
+      "body": {
+        "h1": "Pavasara Zirgs Punktu Savienošana — 53 Punktu Spēlēšanas Lapa",
+        "name": "Pavasara Zirgs",
+        "tagline": "Rokā un jāj uz rotaļu lauka zirga!",
+        "description": "Savienojiet 94 punktus, lai atklātu jautru šūpoļu komplektu. Šī vidējā grūtības pakāpes rotaļu laukuma puzle ir lielisks izaicinājums bērniem, kas praktizē skaitļu secību, zīmuļa kontroli un pacietību.",
+        "fun_fact": "Pavasarraitiņi šūpojas uz priekšu un atpakaļ uz smagas spirālveida atsperes, ļaujot bērniem radīt kustību, mainot savu svaru.",
+        "faqs": [
+          {
+            "q": "Cik punktu ir Monkey Bars rotaļu laukuma punktu-punktu puzlē?",
+            "a": "Pērtiķu stieņu rotaļu laukuma savienošanas izdrukājamajā mīklā ir 94 numurēti punkti. Tas padara to par vidēja izmēra mīklu, kas vislabāk piemērota 6–9 gadus veciem bērniem (1.–3. klase). Bērni savieno punktus skaitļu secībā, lai atklātu gatavu pērtiķu stieņu rotaļu laukuma attēlu, un pēc tam to izkrāso."
+          },
+          {
+            "q": "Vai Monkey Bars rotaļu laukuma punktu salikuma izdrukājamais plāns ir bezmaksas?",
+            "a": "Jā. “Monkey Bars Playground” darba lapu var lejupielādēt pilnīgi bez maksas no DotToDotFreePrintables.com — nav nepieciešams konts, e-pasts vai maksājums. Tā tiek lejupielādēta uzreiz kā drukāšanai gatavs PDF fails gan portreta, gan ainavas orientācijā, kas piemērots ASV vēstules vai A4 formāta papīram."
+          },
+          {
+            "q": "Kādam vecumam vislabāk piemērota Monkey Bars rotaļu laukuma punktu savienošanas darba lapa?",
+            "a": "Ar 94 punktiem Monkey Bars rotaļu laukuma puzle vislabāk der 6–9 gadus veciem bērniem (1.–3. klasei). Jaunākiem bērniem tā varētu patikt ar nelielu pieaugušo palīdzību, skaitot līdzi, savukārt pārliecināti skaitītāji to var atrisināt patstāvīgi un vingrināties skaitļu skaitīšanā līdz 94 punktiem."
+          },
+          {
+            "q": "Kādas prasmes iemāca Monkey Bars rotaļu laukuma punktu salikšanas puzle?",
+            "a": "Savienojot 94 Monkey Bars rotaļu laukuma puzles punktus, tiek attīstīta skaitļu atpazīšana un skaitīšana līdz 94, zīmuļa lietošana, roku un acu koordinācija un ilgstoša koncentrēšanās — tie paši smalko motoriku pamati, kas atbalsta agrīno rokrakstu. Gatavā attēla izkrāsošana sniedz radošu atalgojumu."
+          },
+          {
+            "q": "Kāds ir interesants fakts par rotaļu laukumu ar pērtiķiem?",
+            "a": "20. gadsimta sākumā par populāru rotaļu laukumu aprīkojumu kļuva pērtiķu stieņi, kas palīdz bērniem vingrināt satvēriena spēku, līdzsvaru un ķermeņa augšdaļas koordināciju. Bērni atklāj šādus faktus, risinot pērtiķu stieņu rotaļu laukuma punktu-punktu mīklu."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Šī draudzīgā 53-punktu puzle veido rotaļu laukuma atsperes zirgu no tā galvas un ķermeņa līdz stiprajai spolei un pamatnei. Četri īsie posmi padara to pieejamu jaunajiem punktu savienošanas cienītājiem.",
+          "sections": [
+            {
+              "range": "1–18",
+              "title": "Atbalsta rāmis",
+              "learn": "Savienojiet punktus no 1 līdz 13, lai izveidotu zirga galvu, ausis un draisku seju.",
+              "fact": "Pērtiķu stieņu rāmji parasti ir nostiprināti dziļi betona pamatos zem zemes līmeņa, jo visai konstrukcijai ir jānotur bērna pilna svārstīšanās svars bez šūpošanās."
+            },
+            {
+              "range": "19–38",
+              "title": "Augšējā sliede",
+              "learn": "Turpiniet no 14. punkta līdz 27. punktam, lai uzzīmētu zirka ķermeni un sēdekli, kur sēž jātnieks.",
+              "fact": "Augšējā sliede lielākajā daļā pērtiķu stieņu komplektu atrodas tieši ārpus pieauguša cilvēka sasniedzamības, kas ir tieši mērķis — tā ir izmēra, lai vidējam bērnam būtu nepieciešams neliels lēciens, lai satvertu pirmo pakāpienu."
+            },
+            {
+              "range": "39–58",
+              "title": "Pakāpieni",
+              "learn": "Seko punktiem no 28 līdz 40 ap lielo atsperes spoli zem zirga.",
+              "fact": "Pakāpieni pērtiķu stieņos tradicionāli ir izvietoti tā, lai bērnam būtu jāsniedzas ar pilnu roku izstiepšanu līdz nākamajam — pietiekami tuvu, lai būtu sasniedzams, un pietiekami tālu, lai attīstītu reālu satvērienu un plecu spēku."
+            },
+            {
+              "range": "59–76",
+              "title": "Kāpējs",
+              "learn": "Pabeidziet ar punktiem no 41 līdz 53, lai pievienotu stabilo pamatni un zemi zem jātnieka.",
+              "fact": "Šūpojoties no rokas uz roku pāri pērtiķu stieņiem dažreiz sauc par 'brahiāciju', tas pats vārds, ko zinātnieki izmanto, lai aprakstītu, kā pērtiķi pārvietojas cauri kokiem, šūpojoties no zara uz zaru."
+            },
+            {
+              "range": "77–94",
+              "title": "Zeme un nolaišanās zona",
+              "learn": "Pabeidziet, savienojot punktus no 77 līdz 94, lai uzzīmētu zemi zem stieņiem un nosēšanās zonu tālajā galā. Tikai astoņpadsmit punkti līdz finišam — stabila, pārliecināta noslēgšana pabeidz visu šķērsošanu.",
+              "fact": "Tāpat kā šūpoles un slaidi, pērtiķu stieņi gandrīz vienmēr tiek uzstādīti virs mīksta drošības seguma, piemēram, gumijas flīzēm, smiltīm vai koka skaidiņām, lai mīkstinātu jebkuru kritienu no pakāpieniem."
+            }
+          ],
+          "outro": "Tavas pavasara zirgs ir gatavs jāšanai! Pievieno spilgtu seglu, plūstošu krēpju un krāsainu rotaļu laukumu. Izmēģini nākamo <a href=\"/playgrounds/playhouse-slide-playground-dot-to-dot-puzzle/\">spēļu mājas slīdēšanas puzli</a>.",
+          "color_schemes": []
+        }
+      }
+    }
+  ]
+}

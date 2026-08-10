@@ -1,513 +1,1014 @@
-[
-  {
-    "slug": "trex-61-dot-to-dot-puzzle",
-    "name": "Reto T-Rex de 61 puntos",
-    "seoH1": "T-Rex Conecta los Puntos — 61 Puntos de Diversión Prehistórica",
-    "tagline": "Un reto aún mayor con el lagarto tirano",
-    "description": "Conecta 61 puntos para revelar un poderoso Tyrannosaurus Rex. Esta hoja de trabajo imprimible de dinosaurios ofrece a los jóvenes contadores seguros un desafío más largo de secuenciación numérica mientras desarrollan el control del lápiz, la concentración y las habilidades motoras finas.",
-    "seoDescription": "El T-Rex reemplazó los dientes perdidos a lo largo de su vida. Conecta 61 puntos en este PDF imprimible gratuito de conecta los puntos para niños de 6 a 9 años, de nuestra colección 2026.",
-    "funFact": "¡El T-Rex podía renovar sus dientes a lo largo de toda su vida, y le crecían otros nuevos cuando los antiguos se rompían o se le caían!",
-    "seoImageAlt": "Poderoso Tiranosaurio Rex avanzando entre 61 puntos numerados, ficha gratuita de unir puntos de dinosaurios",
-    "dotGuide": {
-      "intro": "Sesenta y un puntos. Es un reto de verdad — y muy apropiado, porque el Tiranosaurio Rex era un gigante de verdad. Este puzle lleva más tiempo que la mayoría de nuestras <a href=\"/\">fichas gratuitas de unir puntos</a>, así que es ideal para niños que ya dominan contar más allá de 50 y quieren algo con más sustancia. Busca el punto 1 justo en la punta de la mandíbula, respira hondo y despertemos al rey de los dinosaurios.",
-      "sections": [
-        {
-          "range": "1–11",
-          "title": "La enorme cabeza y el hocico",
-          "learn": "Empieza en el punto 1, en la punta de esa mandíbula llena de dientes, y sube por la cabeza hasta el punto 11, en la base del cuello. Los trazos aquí son cortos y curvos, un calentamiento suave antes de las líneas largas que vienen después. Pregúntale a tu hijo qué nota en la cabeza: es enorme comparada con todo lo demás, y no es casualidad.",
-          "fact": "El cráneo de un T-Rex adulto medía cerca de metro y medio, más alto que la mayoría de los niños de ocho años. Los científicos creen que su mordida fue la más fuerte de cualquier animal terrestre que haya existido, capaz de triturar huesos."
-        },
-        {
-          "range": "12–26",
-          "title": "Por el lomo hasta la punta de la cola",
-          "learn": "Desde el punto 12, la línea recorre el lomo y baja por toda la cola hasta el punto 26, en la mismísima punta. Es el tramo más largo y suave del puzle. Anima a hacerlo con un solo movimiento fluido en lugar de muchas paradas: es un ejercicio excelente para el control sostenido del lápiz que los niños necesitan cuando empiezan a escribir con letra ligada.",
-          "fact": "La cola representaba casi la mitad de la longitud total del T-Rex y contenía más de 40 huesos. Funcionaba como la pértiga de un equilibrista, contrarrestando esa cabeza enorme para que el dinosaurio no se fuera de bruces."
-        },
-        {
-          "range": "27–35",
-          "title": "Bajo la cola hasta la cadera",
-          "learn": "Ahora toca volver. Los puntos 27 a 35 recorren la parte inferior de la cola hacia la cadera, trazando el grueso reverso de esa gran viga de equilibrio. Aquí hay que contar con cuidado porque los puntos están muy juntos: un buen momento para ir despacio y comprobar cada número antes de dibujar.",
-          "fact": "A la altura de la cadera, un T-Rex medía unos 3,6 metros. Su cuerpo entero podía alcanzar los 12 metros del hocico a la punta de la cola, más o menos lo que mide un autobús escolar."
-        },
-        {
-          "range": "36–48",
-          "title": "Las poderosas patas y los pies",
-          "learn": "Los puntos 36 a 48 construyen las patas traseras y los dos pies con garras. Eran el motor de todo el animal, y esta sección premia los trazos decididos y seguros. Hay algo de zigzag entre los dedos, así que también cuela un poco de práctica de motricidad fina justo cuando los niños creen que solo están dibujando pies de dinosaurio.",
-          "fact": "Una sola huella de T-Rex podía superar el metro de largo. Durante años se discutió a qué velocidad podía moverse: las investigaciones actuales apuntan a un paso de unos 5 km/h y arranques cortos cercanos a los 20 km/h. Suficientemente rápido."
-        },
-        {
-          "range": "49–58",
-          "title": "La barriga y esos brazos diminutos",
-          "learn": "Une los puntos 49 a 58 para dibujar la barriga, el pecho y los famosos brazos pequeñitos. Todos los niños se ríen de estos brazos, y justo por eso esta sección es tan divertida de dibujar. Las líneas cambian de dirección a menudo, así que es la parte más complicada del puzle: perfecta para los contadores seguros para quienes se hizo esta ficha de 61 puntos.",
-          "fact": "Esos bracitos medían solo un metro, pero cada uno podía levantar unos 180 kilos. Pequeños, sí — pero nadie los llamaría débiles."
-        },
-        {
-          "range": "59–61",
-          "title": "Cerrando la mandíbula",
-          "learn": "Solo quedan tres puntos. Une el 59, el 60 y el 61 para terminar la mandíbula inferior y completar el imponente contorno. La última línea aterriza justo al lado del punto 1: un círculo completo muy satisfactorio que muestra a los niños que todo el dibujo fue un único viaje continuo.",
-          "fact": "Al T-Rex nunca se le acababan los dientes. Cuando uno se rompía o se desgastaba, simplemente le crecía otro en su lugar: una reserva de por vida de puñales afilados, algunos de hasta 30 centímetros contando la raíz."
+{
+  "collection": {
+    "header": {
+      "title": "Dibujos de dinosaurios para unir puntos gratis para niños",
+      "meta_description": "Descarga dibujos de dinosaurios para unir puntos gratis, con T-Rex, Triceratops y más. Fichas PDF listas para imprimir, sin registro.",
+      "og": {
+        "title": "Dibujos de dinosaurios para unir puntos gratis para niños",
+        "description": "Fichas imprimibles gratuitas de dinosaurios para unir puntos.",
+        "image": "/images/trex-61-puzzle.webp"
+      },
+      "json_ld": {
+        "type": "CollectionPage",
+        "name": "Dinosaurios",
+        "description": "¡Une los puntos para descubrir tus dinosaurios favoritos! Todas las hojas de trabajo se pueden descargar e imprimir gratis; no se necesita cuenta. Ideal para niños de 4 a 10 años, preescolar, jardín de infancia y para usar en el aula.",
+        "image": "/images/trex-61-puzzle.webp",
+        "main_entity": {
+          "type": "ItemList",
+          "item_source": "puzzles"
         }
-      ],
-      "outro": "¡61 puntos conquistados — el mayor reto de dinosaurios de nuestra web! Si tu hijo terminó este con soltura, ya se le quedaron pequeñas las fichas fáciles. Prueba el resto de nuestras <a href=\"/dinosaurs/\">fichas de unir puntos del 1 al 100</a> para completar la colección, y colorea este T-Rex antes de que se marche."
+      },
+      "breadcrumb_json_ld": {
+        "type": "BreadcrumbList",
+        "items": [
+          {
+            "position": 1,
+            "name": "Home",
+            "path": "/"
+          },
+          {
+            "position": 2,
+            "name": "Dinosaurios",
+            "path": "/dinosaurs/"
+          }
+        ]
+      }
     },
-    "seoTitle": "T-Rex para Unir Puntos: 61 Puntos de Diversion Prehistorica"
+    "body": {
+      "h1": "Dibujos para imprimir de dinosaurios para unir puntos para niños",
+      "name": "Dinosaurios",
+      "tagline": "¿Por qué a los niños les encantan los rompecabezas de unir puntos de dinosaurios?",
+      "description": "¡Une los puntos para descubrir tus dinosaurios favoritos! Todas las hojas de trabajo se pueden descargar e imprimir gratis; no se necesita cuenta. Ideal para niños de 4 a 10 años, preescolar, jardín de infancia y para usar en el aula.",
+      "hero_image": "/images/trex-61-puzzle.webp",
+      "slug": "dinosaurs",
+      "faqs": [
+        {
+          "q": "¿Cuántos imprimibles gratis hay en la categoría Dinosaurios?",
+          "a": "La categoría Dinosaurios ofrece actualmente 11 fichas gratuitas de unir puntos, de 24–74 puntos. Cada una se descarga al instante como PDF (Carta o A4, vertical u horizontal) sin registro."
+        },
+        {
+          "q": "¿Son gratis los puzles de Dinosaurios?",
+          "a": "Sí — los 11 puzles de la colección Dinosaurios son totalmente gratuitos para casa y aula. Nunca se pide cuenta, correo ni pago en DotToDotFreePrintables.com."
+        },
+        {
+          "q": "¿Para qué edades son los puzles de Dinosaurios?",
+          "a": "Con recuentos de 24–74 puntos, la colección Dinosaurios abarca aproximadamente de 4 a 12 años. Elige menos puntos para preescolar e infantil y más puntos para quienes cuentan con soltura en primaria."
+        },
+        {
+          "q": "¿Qué rompecabezas de unir puntos de dinosaurios están disponibles?",
+          "a": "Hay 11 imprimibles gratuitos de dinosaurios: T-Rex, Triceratops, Stegosaurus, Velociraptor, Brontosaurus, Brachiosaurus, Spinosaurus, Ankylosaurus, Allosaurus, Pterodáctilo y Avestruz (Struthiomimus), con entre 24 y 74 puntos."
+        },
+        {
+          "q": "¿Cuál es el juego de unir puntos de dinosaurios más fácil para niños pequeños?",
+          "a": "El pterodáctilo (24 puntos) y el anquilosaurio (32 puntos) son los más fáciles, ideales para preescolar y jardín de infancia. Los niños que ya saben contar pueden pasar al espinosaurio o al triceratops, que superan los 70 puntos."
+        },
+        {
+          "q": "¿Los juegos de unir puntos sobre dinosaurios enseñan datos reales sobre estos dinosaurios?",
+          "a": "Sí, cada página sobre dinosaurios incluye datos precisos y aptos para niños (como la mordida trituradora de huesos del T-Rex o las placas del Stegosaurus) integrados en una guía de dibujos sección por sección, para que los niños aprendan paleontología mientras cuentan."
+        }
+      ]
+    }
   },
-  {
-    "slug": "ostriches-dinosaur-dot-to-dot-puzzle",
-    "name": "Avestruz",
-    "seoH1": "Ostrich Conecta los Puntos: 55 Puntos para el Ave Más Rápida",
-    "tagline": "El pájaro más grande del mundo",
-    "description": "Une 55 puntos fácilmente para descubrir al magnífico avestruz, ¡el ave viva más grande del mundo! Los avestruces no pueden volar, pero corren más rápido que un caballo. Esta ficha imprimible ayuda a los niños de los primeros cursos de primaria a practicar la secuenciación numérica y el control del lápiz, al tiempo que aprenden sobre este increíble animal.",
-    "seoDescription": "Los avestruces pueden correr hasta 45 mph. Revela uno a través de 55 puntos en nuestras páginas gratuitas de conecta los puntos para niños de 5 a 8 años, con un PDF imprimible listo para usar.",
-    "funFact": "¡Los avestruces son las aves que corren más rápido del mundo, ya que alcanzan velocidades de hasta 45 mph!",
-    "seoImageAlt": "Avestruz corriendo a toda velocidad, cuello estirado, capturada en esta ficha de unir puntos con 55 puntos imprimibles",
-    "dotGuide": {
-      "intro": "¿Sabías que las avestruces son las aves más grandes que existen hoy en día y que, de hecho, son parientes vivos de los dinosaurios? Todo en un avestruz está pensado para la velocidad y la supervivencia en las llanuras africanas. Este dibujo para unir puntos es una forma maravillosa de descubrir a una de las criaturas más extraordinarias de la naturaleza. Afila un lápiz, busca el punto 1 y ¡demos vida a esta magnífica ave!",
-      "sections": [
-        {
-          "range": "1–8",
-          "title": "La cabeza y el pico",
-          "learn": "Empieza por el punto 1 y une hasta el punto 8 para dibujar la cabeza pequeña y redondeada del avestruz y su pico plano. La cabeza es sorprendentemente pequeña en comparación con el cuerpo del ave; los niños se dan cuenta de ello de forma natural, lo que da pie a una estupenda conversación sobre las proporciones de los animales. En este caso, lo mejor es utilizar trazos cortos y suaves.",
-          "fact": "El ojo de un avestruz es más grande que su cerebro: con unas dos pulgadas de diámetro, es el ojo más grande de cualquier animal terrestre del planeta. Esos enormes ojos le ayudan a detectar a depredadores como los leones y los guepardos desde muy lejos, a través de la llanura de la sabana."
+  "puzzles": [
+    {
+      "slug": "trex-61-dot-to-dot-puzzle",
+      "header": {
+        "title": "T-Rex para Unir Puntos: 61 Puntos de Diversion Prehistorica",
+        "meta_description": "El T-Rex reemplazó los dientes perdidos a lo largo de su vida. Conecta 61 puntos en este PDF imprimible gratuito de conecta los puntos para niños de 6 a 9 años, de nuestra colección 2026.",
+        "og": {
+          "title": "T-Rex para Unir Puntos: 61 Puntos de Diversion Prehistorica",
+          "description": "El T-Rex reemplazó los dientes perdidos a lo largo de su vida. Conecta 61 puntos en este PDF imprimible gratuito de conecta los puntos para niños de 6 a 9 años, de nuestra colección 2026.",
+          "image_alt": "Poderoso Tiranosaurio Rex avanzando entre 61 puntos numerados, ficha gratuita de unir puntos de dinosaurios"
         },
-        {
-          "range": "9–20",
-          "title": "El Cuello Largo",
-          "learn": "Continúa desde el punto 9 hasta el punto 20 para dibujar el cuello largo y elegante que desciende desde la cabeza hasta el cuerpo. Esta es una de las partes más gratificantes del rompecabezas: los niños aprenden a mantener el lápiz en movimiento en una sola dirección fluida sin levantarlo. Una bonita lección sobre cómo controlar el trazo con suavidad.",
-          "fact": "El cuello de un avestruz puede medir hasta tres pies de largo y está casi totalmente desprovisto de plumas. La piel desnuda cambia de color cuando el avestruz está emocionado o intenta atraer a una pareja, adquiriendo un tono rosa brillante o rojo. ¡El anillo de la naturaleza que cambia de color según el estado de ánimo!"
-        },
-        {
-          "range": "21–35",
-          "title": "El cuerpo y las alas",
-          "learn": "Traza los puntos del 21 al 35 para completar el cuerpo redondeado y mullido del avestruz y sus pequeñas alas decorativas. Aunque los avestruces no pueden volar, sus alas siguen desempeñando un papel importante. Aquí los niños practican cómo dibujar formas más redondeadas y ovaladas, lo que supone un reto diferente al de las líneas rectas del cuello.",
-          "fact": "Las avestruces utilizan sus alas como un timón cuando corren, inclinándolas hacia la izquierda o hacia la derecha para cambiar de dirección a gran velocidad. Además, las abren de par en par para proteger a sus polluelos del abrasador sol africano: ¡son como sombrillas naturales!"
-        },
-        {
-          "range": "36–46",
-          "title": "Las piernas poderosas",
-          "learn": "Une los puntos del 36 al 46 para dibujar las dos patas largas y musculosas. Son las patas más rápidas de todas las aves del planeta, y los niños empiezan a darse cuenta de lo largas que son en comparación con el cuerpo. Anímales a trazar trazos descendentes firmes y seguros: en esta sección se valora una mano decidida.",
-          "fact": "Un avestruz puede alcanzar una velocidad máxima de 45 millas por hora y mantener una velocidad de 30 mph durante largas distancias. Con una sola zancada puede recorrer hasta 16 pies, más o menos la longitud de un coche familiar. ¡Intentar escapar de uno sería una pésima idea!"
-        },
-        {
-          "range": "47–55",
-          "title": "Las patas y las plumas de la cola",
-          "learn": "Termina uniendo los puntos del 47 al 55 para añadir las características patas de dos dedos y las plumas fluidas de la cola. Las avestruces son las únicas aves que tienen solo dos dedos en cada pata. Aquí los niños practican un trabajo más pequeño y detallado, lo que supone un excelente ejercicio de precisión a medida que el rompecabezas se va completando.",
-          "fact": "Cada pata de avestruz tiene un dedo grande y dominante con una uña larga y resistente que actúa como una pezuña, ¡ideal para correr sobre terreno duro! Las avestruces son sorprendentemente valientes y no se echan atrás a la hora de proteger a sus polluelos. ¡Sin duda, es un ave muy audaz!"
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Reto T-Rex de 61 puntos",
+          "description": "El T-Rex reemplazó los dientes perdidos a lo largo de su vida. Conecta 61 puntos en este PDF imprimible gratuito de conecta los puntos para niños de 6 a 9 años, de nuestra colección 2026.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
         }
-      ],
-      "outro": "¡Qué buen trabajo! Tu avestruz ya está lista para correr. ¿Has contado los 55 puntos? Intenta escribir los números del 1 al 55 en el reverso de la página como reto extra: a los padres y profesores les encanta esta actividad. ¿Buscas más páginas para el aula? Mira nuestras <a href=\"/playgrounds/\">fichas de unir puntos</a>."
-    },
-    "seoTitle": "Avestruz para Unir Puntos: 55 Puntos del Ave Mas Rapida"
-  },
-  {
-    "slug": "brontosaurus-dot-to-dot-puzzle",
-    "name": "Brontosaurio",
-    "seoH1": "Brontosaurus Conecta los Puntos — Lagarto Trueno en 50 Puntos",
-    "tagline": "El lagarto trueno amistoso",
-    "description": "Une 50 puntos fácilmente para descubrir un alegre brontosaurio con un cuello largo y una cola ondulada. Esta ficha imprimible ayuda a los niños de preescolar y de los primeros cursos de primaria a practicar la secuenciación numérica, el control del lápiz y la concentración.",
-    "seoDescription": "Brontosaurus significa lagarto trueno. Traza su largo cuello y cola a través de 50 puntos con esta hoja de conecta los puntos imprimible gratuita para niños de 4 a 7 años.",
-    "funFact": "\"Brontosaurus\" significa lagarto trueno, un nombre inspirado en su enorme tamaño!",
-    "seoImageAlt": "Brontosaurio de cuello largo extendido a lo largo de 50 puntos en una ficha infantil de unir puntos",
-    "dotGuide": {
-      "intro": "¡Bienvenido a uno de los rompecabezas de dinosaurios más entrañables de toda la colección! El brontosaurio —cuyo nombre significa «lagarto del trueno»— fue una de las criaturas más grandes que jamás haya pisado nuestro planeta. Coge un lápiz, busca el punto número uno y ¡vamos a devolverle la vida a este gentil gigante, trazo a trazo!",
-      "sections": [
-        {
-          "range": "1–8",
-          "title": "El director",
-          "learn": "Empieza por el punto 1 y une hasta el punto 8 para trazar la cabeza del brontosaurio, sorprendentemente pequeña y con forma de cuña. Aquí los niños practican trazos cortos y cuidadosos con el lápiz, así como líneas suaves y curvas: una forma estupenda de desarrollar el control del lápiz desde una edad temprana antes de pasar a formas más grandes.",
-          "fact": "El brontosaurio tenía dientes en forma de clavija diseñados únicamente para arrancar las hojas de las ramas, no para masticar. Se tragaba las plantas enteras y dejaba que su enorme estómago hiciera el trabajo duro: ¡un sistema bastante ingenioso, la verdad!"
-        },
-        {
-          "range": "9–18",
-          "title": "El Cuello Largo",
-          "learn": "Y ahora viene lo más espectacular. Une los puntos del 9 al 18 para dibujar ese famoso cuello largo y sinuoso que se curva con elegancia hacia arriba. Esta es una sección ideal para practicar líneas suaves y fluidas: los niños descubren que las curvas más largas requieren más paciencia y una mano más firme.",
-          "fact": "El cuello del brontosaurio medía hasta 20 pies de largo, ¡más o menos la altura de una casa de dos plantas! Los científicos creen ahora que se alimentaba principalmente de plantas de altura baja o media, en lugar de estirar el cuello hacia las copas de los árboles como hace la jirafa."
-        },
-        {
-          "range": "19–32",
-          "title": "El cuerpo",
-          "learn": "Continúa desde el punto 19 hasta el punto 32 para completar el enorme torso en forma de barril del brontosaurio. Esta sección, la más larga del rompecabezas, es ideal para desarrollar la concentración y la resistencia: los niños aprenden a seguir adelante incluso cuando la tarea les parece abrumadora. ¿Te suena?",
-          "fact": "El brontosaurio pesaba entre 15 y 17 toneladas, más que tres elefantes africanos juntos. A pesar de su extraordinario tamaño, era totalmente herbívoro, completamente inofensivo y probablemente solo quería llevar una vida tranquila entre los helechos."
-        },
-        {
-          "range": "33–42",
-          "title": "Las piernas",
-          "learn": "Traza los puntos del 33 al 42 para formar las cuatro patas gruesas, con forma de columna. Los niños empiezan a darse cuenta de la simetría y de cómo se equilibra el cuerpo de un animal de un lado a otro. Dibujar formas paralelas es toda una habilidad, y esta sección ofrece a las manitas mucha práctica.",
-          "fact": "El brontosaurio caminaba de puntillas, ¡un poco como una bailarina sobre cuatro patas! Debajo de cada pata tenía una almohadilla gruesa y carnosa que actuaba como un colchón natural, amortiguando cada paso atronador por el paisaje jurásico."
-        },
-        {
-          "range": "43–50",
-          "title": "La cola",
-          "learn": "Completa el rompecabezas uniendo los puntos del 43 al 50 para dibujar la larga cola, que se va estrechando y se extiende detrás del dinosaurio. La cola equilibraba el pesado cuello y le daba al brontosaurio su silueta elegante, casi como la de un barco. Los niños practican cómo estrechar poco a poco la línea, una forma muy gratificante de terminar.",
-          "fact": "Los paleontólogos creen que el brontosaurio podía chasquear la cola como un látigo, ¡produciendo un sonido tan fuerte como un trueno! No está mal para un gigante apacible que se pasaba la mayor parte del día comiendo plantas."
+      },
+      "body": {
+        "h1": "T-Rex Conecta los Puntos — 61 Puntos de Diversión Prehistórica",
+        "name": "Reto T-Rex de 61 puntos",
+        "tagline": "Un reto aún mayor con el lagarto tirano",
+        "description": "Conecta 61 puntos para revelar un poderoso Tyrannosaurus Rex. Esta hoja de trabajo imprimible de dinosaurios ofrece a los jóvenes contadores seguros un desafío más largo de secuenciación numérica mientras desarrollan el control del lápiz, la concentración y las habilidades motoras finas.",
+        "fun_fact": "¡El T-Rex podía renovar sus dientes a lo largo de toda su vida, y le crecían otros nuevos cuando los antiguos se rompían o se le caían!",
+        "faqs": [
+          {
+            "q": "¿Cuántos puntos tiene el puzle de unir puntos Reto T-Rex de 61 puntos?",
+            "a": "El imprimible de unir puntos Reto T-Rex de 61 puntos tiene 61 puntos numerados. Es un puzle de nivel fácil a medio, ideal para niños de 5–8 años (de infantil a 2.º de primaria). Los niños conectan los puntos en orden numérico para revelar el dibujo terminado y luego pueden colorearlo."
+          },
+          {
+            "q": "¿Es gratis el imprimible de unir puntos Reto T-Rex de 61 puntos?",
+            "a": "Sí. La ficha Reto T-Rex de 61 puntos es 100% gratuita en DotToDotFreePrintables.com — sin cuenta, correo ni pago. Se descarga al instante como PDF listo para imprimir, en orientación vertical y horizontal, en tamaño Carta o A4."
+          },
+          {
+            "q": "¿Para qué edad es la ficha de unir puntos Reto T-Rex de 61 puntos?",
+            "a": "Con 61 puntos, el puzle Reto T-Rex de 61 puntos es ideal para 5–8 años (de infantil a 2.º de primaria). Los más pequeños pueden completarlo contando con ayuda de un adulto, y los que ya cuentan con soltura lo terminan solos practicando la secuencia numérica hasta 61."
+          },
+          {
+            "q": "¿Qué habilidades desarrolla el puzle Reto T-Rex de 61 puntos?",
+            "a": "Conectar los 61 puntos del puzle Reto T-Rex de 61 puntos desarrolla el reconocimiento de números, el conteo hasta 61, el control del lápiz, la coordinación ojo-mano y la concentración — las mismas bases motrices finas que preparan la escritura. Colorear el dibujo final añade una recompensa creativa."
+          },
+          {
+            "q": "¿Cuál es un dato curioso sobre este puzle?",
+            "a": "¡El T-Rex podía renovar sus dientes a lo largo de toda su vida, y le crecían otros nuevos cuando los antiguos se rompían o se le caían! Los niños descubren datos como este mientras completan el puzle Reto T-Rex de 61 puntos."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Sesenta y un puntos. Es un reto de verdad — y muy apropiado, porque el Tiranosaurio Rex era un gigante de verdad. Este puzle lleva más tiempo que la mayoría de nuestras <a href=\"/\">fichas gratuitas de unir puntos</a>, así que es ideal para niños que ya dominan contar más allá de 50 y quieren algo con más sustancia. Busca el punto 1 justo en la punta de la mandíbula, respira hondo y despertemos al rey de los dinosaurios.",
+          "sections": [
+            {
+              "range": "1–11",
+              "title": "La enorme cabeza y el hocico",
+              "learn": "Empieza en el punto 1, en la punta de esa mandíbula llena de dientes, y sube por la cabeza hasta el punto 11, en la base del cuello. Los trazos aquí son cortos y curvos, un calentamiento suave antes de las líneas largas que vienen después. Pregúntale a tu hijo qué nota en la cabeza: es enorme comparada con todo lo demás, y no es casualidad.",
+              "fact": "El cráneo de un T-Rex adulto medía cerca de metro y medio, más alto que la mayoría de los niños de ocho años. Los científicos creen que su mordida fue la más fuerte de cualquier animal terrestre que haya existido, capaz de triturar huesos."
+            },
+            {
+              "range": "12–26",
+              "title": "Por el lomo hasta la punta de la cola",
+              "learn": "Desde el punto 12, la línea recorre el lomo y baja por toda la cola hasta el punto 26, en la mismísima punta. Es el tramo más largo y suave del puzle. Anima a hacerlo con un solo movimiento fluido en lugar de muchas paradas: es un ejercicio excelente para el control sostenido del lápiz que los niños necesitan cuando empiezan a escribir con letra ligada.",
+              "fact": "La cola representaba casi la mitad de la longitud total del T-Rex y contenía más de 40 huesos. Funcionaba como la pértiga de un equilibrista, contrarrestando esa cabeza enorme para que el dinosaurio no se fuera de bruces."
+            },
+            {
+              "range": "27–35",
+              "title": "Bajo la cola hasta la cadera",
+              "learn": "Ahora toca volver. Los puntos 27 a 35 recorren la parte inferior de la cola hacia la cadera, trazando el grueso reverso de esa gran viga de equilibrio. Aquí hay que contar con cuidado porque los puntos están muy juntos: un buen momento para ir despacio y comprobar cada número antes de dibujar.",
+              "fact": "A la altura de la cadera, un T-Rex medía unos 3,6 metros. Su cuerpo entero podía alcanzar los 12 metros del hocico a la punta de la cola, más o menos lo que mide un autobús escolar."
+            },
+            {
+              "range": "36–48",
+              "title": "Las poderosas patas y los pies",
+              "learn": "Los puntos 36 a 48 construyen las patas traseras y los dos pies con garras. Eran el motor de todo el animal, y esta sección premia los trazos decididos y seguros. Hay algo de zigzag entre los dedos, así que también cuela un poco de práctica de motricidad fina justo cuando los niños creen que solo están dibujando pies de dinosaurio.",
+              "fact": "Una sola huella de T-Rex podía superar el metro de largo. Durante años se discutió a qué velocidad podía moverse: las investigaciones actuales apuntan a un paso de unos 5 km/h y arranques cortos cercanos a los 20 km/h. Suficientemente rápido."
+            },
+            {
+              "range": "49–58",
+              "title": "La barriga y esos brazos diminutos",
+              "learn": "Une los puntos 49 a 58 para dibujar la barriga, el pecho y los famosos brazos pequeñitos. Todos los niños se ríen de estos brazos, y justo por eso esta sección es tan divertida de dibujar. Las líneas cambian de dirección a menudo, así que es la parte más complicada del puzle: perfecta para los contadores seguros para quienes se hizo esta ficha de 61 puntos.",
+              "fact": "Esos bracitos medían solo un metro, pero cada uno podía levantar unos 180 kilos. Pequeños, sí — pero nadie los llamaría débiles."
+            },
+            {
+              "range": "59–61",
+              "title": "Cerrando la mandíbula",
+              "learn": "Solo quedan tres puntos. Une el 59, el 60 y el 61 para terminar la mandíbula inferior y completar el imponente contorno. La última línea aterriza justo al lado del punto 1: un círculo completo muy satisfactorio que muestra a los niños que todo el dibujo fue un único viaje continuo.",
+              "fact": "Al T-Rex nunca se le acababan los dientes. Cuando uno se rompía o se desgastaba, simplemente le crecía otro en su lugar: una reserva de por vida de puñales afilados, algunos de hasta 30 centímetros contando la raíz."
+            }
+          ],
+          "outro": "¡61 puntos conquistados — el mayor reto de dinosaurios de nuestra web! Si tu hijo terminó este con soltura, ya se le quedaron pequeñas las fichas fáciles. Prueba el resto de nuestras <a href=\"/dinosaurs/\">fichas de unir puntos del 1 al 100</a> para completar la colección, y colorea este T-Rex antes de que se marche.",
+          "color_schemes": []
         }
-      ],
-      "outro": "¡Bien hecho! Acabas de dibujar un auténtico brontosaurio. Son 50 puntos, cinco partes del cuerpo y un montón de diversión prehistórica. Ahora coge los lápices de colores y dale a tu «lagarto del trueno» una combinación de colores propia. ¿Quieres más? Explora todos nuestros <a href=\"/\">imprimibles de unir puntos</a>."
+      }
     },
-    "seoTitle": "Brontosaurus Conecta los Puntos — Lagarto Trueno en 50 Puntos"
-  },
-  {
-    "slug": "triceratops-dot-to-dot-puzzle",
-    "name": "Triceratops",
-    "seoH1": "Triceratops Conecta los Puntos: 70 Puntos de Tres Cuernos Gratis",
-    "tagline": "Tres cuernos, un rompecabezas increíble",
-    "description": "Sigue los puntos para dibujar el dinosaurio con cuernos más emblemático de todos los tiempos. El Triceratops tenía tres cuernos en la cara y un gigantesco collar óseo, ¡y vivió en la misma época que el T-Rex! Esta hoja para unir puntos es perfecta para infantil y 1.º de primaria.",
-    "seoDescription": "El Triceratops tenía tres cuernos y una amplia cresta ósea. Conecta 70 puntos con esta hoja de trabajo gratuita de conecta los puntos para jardín de infantes y primer grado.",
-    "funFact": "Los cuernos del triceratops podían llegar a medir hasta 3 pies de largo, ¡más que un bate de béisbol!",
-    "seoImageAlt": "Triceratops de tres cuernos y su gola osea surgiendo de 70 puntos imprimibles",
-    "dotGuide": {
-      "intro": "Con tres cuernos, una magnífica cresta ósea y el valor para plantarle cara a un T-Rex, el Triceratops es uno de los dinosaurios más reconocibles que jamás haya existido. Este rompecabezas tiene 70 puntos: todo un reto que premia la paciencia y la precisión a la hora de contar. Ve completándolo sección por sección y aparecerá un dinosaurio realmente espectacular. ¿Listo? ¡Manos a la obra!",
-      "sections": [
-        {
-          "range": "1–12",
-          "title": "Los tres cuernos y el hocico",
-          "learn": "Empieza por el punto 1 y traza la línea hasta el punto 12 para dibujar el rasgo más característico del Triceratops: los dos largos cuernos de la frente y el cuerno más corto de la nariz. Esta sección implica varios cambios de dirección, lo cual es fantástico para desarrollar el control del lápiz y la percepción espacial en niños a partir de 6 años.",
-          "fact": "Los dos cuernos de la frente podían llegar a medir hasta tres pies de largo, ¡más que un bate de béisbol! Los científicos creen que el Triceratops los utilizaba tanto para defenderse de los depredadores como para enfrentarse a otros Triceratops en la lucha por el territorio y las parejas."
+    {
+      "slug": "ostriches-dinosaur-dot-to-dot-puzzle",
+      "header": {
+        "title": "Avestruz para Unir Puntos: 55 Puntos del Ave Mas Rapida",
+        "meta_description": "Los avestruces pueden correr hasta 45 mph. Revela uno a través de 55 puntos en nuestras páginas gratuitas de conecta los puntos para niños de 5 a 8 años, con un PDF imprimible listo para usar.",
+        "og": {
+          "title": "Avestruz para Unir Puntos: 55 Puntos del Ave Mas Rapida",
+          "description": "Los avestruces pueden correr hasta 45 mph. Revela uno a través de 55 puntos en nuestras páginas gratuitas de conecta los puntos para niños de 5 a 8 años, con un PDF imprimible listo para usar.",
+          "image_alt": "Avestruz corriendo a toda velocidad, cuello estirado, capturada en esta ficha de unir puntos con 55 puntos imprimibles"
         },
-        {
-          "range": "13–26",
-          "title": "El volante",
-          "learn": "Une los puntos del 13 al 26 para trazar el gran volante semicircular que enmarca la parte posterior de la cabeza. Aquí los niños practican un movimiento amplio y arqueado, un ejercicio estupendo para mantener el lápiz en movimiento con seguridad por la página. Anímales a levantar la muñeca y a dibujar desde el hombro.",
-          "fact": "El collar no era de hueso macizo: tenía dos grandes aberturas cubiertas de piel, lo que lo hacía más ligero de lo que parece. Algunos científicos creen que, en vida, el collar tenía colores vivos y que se utilizaba para comunicar el estado de ánimo y la salud, algo así como un panel informativo viviente."
-        },
-        {
-          "range": "27–42",
-          "title": "El cuerpo",
-          "learn": "Une los puntos del 27 al 42 para dibujar el cuerpo ancho y robusto. El Triceratops tenía una complexión baja y ancha, y los niños empiezan a darse cuenta de cómo difiere su forma de la de los saurópodos, más altos. Esta es la secuencia de puntos más larga del rompecabezas, una oportunidad estupenda para practicar la concentración prolongada.",
-          "fact": "El Triceratops medía unos 30 pies de largo y pesaba hasta 12 toneladas, ¡más o menos lo mismo que dos elefantes africanos! A pesar de su enorme tamaño, era lo suficientemente ágil como para moverse a gran velocidad. Imagínate ver uno de esos magníficos cuernos acercándose hacia ti: ¡todo un espectáculo, incluso para un T-Rex!"
-        },
-        {
-          "range": "43–58",
-          "title": "Las cuatro patas",
-          "learn": "Une los puntos del 43 al 58 para dibujar las cuatro patas robustas y ligeramente separadas. A diferencia de las patas rectas y en forma de pilar de los saurópodos, las del Triceratops se separan un poco a la altura de los codos. Los niños se dan cuenta de esta diferencia si se la señalas, lo que les ayuda a desarrollar una excelente capacidad de observación al tiempo que practican la motricidad fina.",
-          "fact": "El triceratops tenía pezuñas en lugar de garras, ¡un dato sorprendente que suele entusiasmar a los niños! Las patas delanteras podían girar hacia fuera para ayudarle a bajar la cabeza y embestir hacia delante como una excavadora, utilizando esos tres magníficos cuernos para abrirse camino."
-        },
-        {
-          "range": "59–70",
-          "title": "La cola",
-          "learn": "Completa el rompecabezas uniendo los puntos del 59 al 70 para dibujar la cola corta y gruesa. En comparación con las colas largas y sinuosas de los saurópodos herbívoros, la cola del Triceratops es ancha y robusta. Los niños practican un remate más corto y controlado: un final satisfactorio para un reto mayor.",
-          "fact": "Los restos fósiles demuestran que el T-Rex y el Triceratops vivieron en la misma época y en el mismo lugar: el oeste de Estados Unidos, hace unos 68 millones de años. Los científicos creen que el Triceratops utilizaba sus tres impresionantes cuernos para defenderse, y hay indicios de que ambos se encontraron en más de una ocasión. ¡Menudo ajetreo había por allí!"
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Avestruz",
+          "description": "Los avestruces pueden correr hasta 45 mph. Revela uno a través de 55 puntos en nuestras páginas gratuitas de conecta los puntos para niños de 5 a 8 años, con un PDF imprimible listo para usar.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
         }
-      ],
-      "outro": "¡Qué gran concentración! — ¡70 puntos no es nada fácil! Tu triceratops ya está terminado. Pregunta a tu hijo qué parte le ha resultado más difícil y por qué. Ese tipo de reflexión es tan valiosa como el propio dibujo. ¿Listo para una prueba mayor? Prueba nuestros <a href=\"/usa-250/\">imprimibles de unir puntos extremos</a>."
-    },
-    "seoTitle": "Triceratops para Unir Puntos: 70 Puntos de Tres Cuernos, Gratis"
-  },
-  {
-    "slug": "velociraptor-dot-to-dot-puzzle",
-    "name": "Velociraptor",
-    "seoH1": "Velociraptor Conecta los Puntos — 54 Puntos Rápidos, PDF Gratis",
-    "tagline": "Rápido, Inteligente y Listo para Atacar",
-    "description": "Une los puntos para descubrir al ingenioso velociraptor, ¡el famoso de «Parque Jurásico»! En la vida real, los velociraptores eran cazadores emplumados del tamaño aproximado de un pavo. Esta ficha ayuda a desarrollar la capacidad de ordenar números en los niños de entre 5 y 8 años.",
-    "seoDescription": "Los verdaderos Velociraptores eran del tamaño de un pavo y tenían plumas. Revela uno en 54 puntos con este imprimible de conecta los puntos para niños de 5 a 8 años.",
-    "funFact": "«Velociraptor» significa «ladrón veloz»: ¡podía correr a una velocidad de hasta 25 mph!",
-    "seoImageAlt": "Velociraptor emplumado listo para correr, esbozado en 54 puntos imprimibles",
-    "dotGuide": {
-      "intro": "Todo el mundo cree saber cómo es un velociraptor, ¡pero este rompecabezas puede que les sorprenda! El verdadero velociraptor tenía plumas, era más o menos del tamaño de un pavo grande y mucho más inteligente que la mayoría de sus primos dinosaurios. Hollywood lo hizo más grande, pero la naturaleza lo hizo más inteligente. ¡Coge un lápiz y conoce a la verdadera estrella del Cretácico!",
-      "sections": [
-        {
-          "range": "1–8",
-          "title": "La cabeza y las mandíbulas",
-          "learn": "Empieza por el punto 1 y une hasta el punto 8 para trazar el cráneo largo y estrecho y las mandíbulas ligeramente curvadas. El Velociraptor tenía una cabeza especialmente esbelta en comparación con su cuerpo; aquí los niños aprenden a trazar una forma más alargada, lo que supone un cambio útil respecto a las cabezas más redondeadas de otros dinosaurios. En este caso, lo mejor es ir despacio y con calma.",
-          "fact": "El velociraptor tenía unos 80 dientes pequeños y dentados, diseñados más para agarrar que para desgarrar. Los estudios sobre su cavidad cerebral revelan que tenía una vista excelente y un agudo sentido del olfato: cazaba guiándose por la vista, el olfato y, posiblemente, el oído, lo que lo convertía en un pequeño depredador extraordinariamente bien equipado."
-        },
-        {
-          "range": "9–20",
-          "title": "El cuello y el cuerpo emplumado",
-          "learn": "Continúa desde el punto 9 hasta el punto 20 para dibujar el cuello curvo y el cuerpo compacto. Es en este punto donde los niños suelen empezar a apreciar el aspecto aviar del Velociraptor, lo que da pie a un debate muy interesante en clase. Los puntos se curvan suavemente, por lo que es una buena sección para practicar cómo mantener una presión constante con el lápiz.",
-          "fact": "Los paleontólogos han encontrado protuberancias en forma de pluma en los huesos de los brazos del Velociraptor, las mismas protuberancias que se observan en las alas de las aves actuales, donde se fijan las plumas. Es casi seguro que el Velociraptor estaba cubierto de plumas, aunque no podía volar. Se trata, en esencia, de un ave cazadora pequeña e incapaz de volar."
-        },
-        {
-          "range": "21–32",
-          "title": "Los brazos y las garras de las manos",
-          "learn": "Traza los puntos del 21 al 32 para dibujar los brazos relativamente largos y las manos de tres dedos. A diferencia de los diminutos brazos del T-Rex, el Velociraptor tenía brazos que realmente podía utilizar: para agarrarse y desplazarse por su entorno. En esta sección, los niños practican cómo dibujar ángulos más agudos, imitando la forma angular de las alas de las aves que tienen las extremidades delanteras.",
-          "fact": "Las garras de las manos del velociraptor eran fuertes y curvadas, muy útiles para agarrar y sujetarse con firmeza. Investigaciones recientes sugieren que podría haber utilizado sus brazos de forma similar a como lo hacen hoy en día los halcones y las águilas al posarse en las ramas, ejerciendo presión con el peso de su cuerpo."
-        },
-        {
-          "range": "33–44",
-          "title": "Las patas y la garra especial",
-          "learn": "Une los puntos del 33 al 44 para dibujar las poderosas patas traseras y esa famosa garra en forma de hoz del segundo dedo. Los niños suelen reconocer esta garra por las películas, lo que hace que esta sección resulte muy motivadora. Los puntos están muy juntos en esta parte, lo que fomenta la precisión y el reconocimiento cuidadoso de los números.",
-          "fact": "La emblemática garra curvada de cada pata se mantenía separada del suelo cuando el Velociraptor caminaba, para mantenerla bien afilada —¡un poco como un gato que se cuida las garras!—. Los científicos creen ahora que se utilizaba principalmente para agarrar y sujetarse, más que para cualquier otra cosa."
-        },
-        {
-          "range": "45–54",
-          "title": "La cola rígida",
-          "learn": "Termina uniendo los puntos del 45 al 54 para añadir la cola larga y rígida. A diferencia de las colas flexibles de los lagartos, la cola del Velociraptor se mantenía estirada hacia atrás, actuando como contrapeso al correr y girar a gran velocidad. Un final seguro y directo para un rompecabezas dinámico.",
-          "fact": "El velociraptor podía alcanzar velocidades de unas 25 millas por hora, lo cual es rápido para un depredador pequeño, aunque más lento que la versión de «Parque Jurásico». Su cola se endurecía de forma natural gracias a unos tendones osificados, lo que le permitía realizar giros bruscos sin perder el equilibrio, casi como si fuera un estabilizador incorporado."
+      },
+      "body": {
+        "h1": "Ostrich Conecta los Puntos: 55 Puntos para el Ave Más Rápida",
+        "name": "Avestruz",
+        "tagline": "El pájaro más grande del mundo",
+        "description": "Une 55 puntos fácilmente para descubrir al magnífico avestruz, ¡el ave viva más grande del mundo! Los avestruces no pueden volar, pero corren más rápido que un caballo. Esta ficha imprimible ayuda a los niños de los primeros cursos de primaria a practicar la secuenciación numérica y el control del lápiz, al tiempo que aprenden sobre este increíble animal.",
+        "fun_fact": "¡Los avestruces son las aves que corren más rápido del mundo, ya que alcanzan velocidades de hasta 45 mph!",
+        "faqs": [
+          {
+            "q": "¿Cuántos puntos tiene el puzle de unir puntos Avestruz?",
+            "a": "El imprimible de unir puntos Avestruz tiene 55 puntos numerados. Es un puzle de nivel fácil a medio, ideal para niños de 5–8 años (de infantil a 2.º de primaria). Los niños conectan los puntos en orden numérico para revelar el dibujo terminado y luego pueden colorearlo."
+          },
+          {
+            "q": "¿Es gratis el imprimible de unir puntos Avestruz?",
+            "a": "Sí. La ficha Avestruz es 100% gratuita en DotToDotFreePrintables.com — sin cuenta, correo ni pago. Se descarga al instante como PDF listo para imprimir, en orientación vertical y horizontal, en tamaño Carta o A4."
+          },
+          {
+            "q": "¿Para qué edad es la ficha de unir puntos Avestruz?",
+            "a": "Con 55 puntos, el puzle Avestruz es ideal para 5–8 años (de infantil a 2.º de primaria). Los más pequeños pueden completarlo contando con ayuda de un adulto, y los que ya cuentan con soltura lo terminan solos practicando la secuencia numérica hasta 55."
+          },
+          {
+            "q": "¿Qué habilidades desarrolla el puzle Avestruz?",
+            "a": "Conectar los 55 puntos del puzle Avestruz desarrolla el reconocimiento de números, el conteo hasta 55, el control del lápiz, la coordinación ojo-mano y la concentración — las mismas bases motrices finas que preparan la escritura. Colorear el dibujo final añade una recompensa creativa."
+          },
+          {
+            "q": "¿Cuál es un dato curioso sobre este puzle?",
+            "a": "¡Los avestruces son las aves que corren más rápido del mundo, ya que alcanzan velocidades de hasta 45 mph! Los niños descubren datos como este mientras completan el puzle Avestruz."
+          }
+        ],
+        "dot_guide": {
+          "intro": "¿Sabías que las avestruces son las aves más grandes que existen hoy en día y que, de hecho, son parientes vivos de los dinosaurios? Todo en un avestruz está pensado para la velocidad y la supervivencia en las llanuras africanas. Este dibujo para unir puntos es una forma maravillosa de descubrir a una de las criaturas más extraordinarias de la naturaleza. Afila un lápiz, busca el punto 1 y ¡demos vida a esta magnífica ave!",
+          "sections": [
+            {
+              "range": "1–8",
+              "title": "La cabeza y el pico",
+              "learn": "Empieza por el punto 1 y une hasta el punto 8 para dibujar la cabeza pequeña y redondeada del avestruz y su pico plano. La cabeza es sorprendentemente pequeña en comparación con el cuerpo del ave; los niños se dan cuenta de ello de forma natural, lo que da pie a una estupenda conversación sobre las proporciones de los animales. En este caso, lo mejor es utilizar trazos cortos y suaves.",
+              "fact": "El ojo de un avestruz es más grande que su cerebro: con unas dos pulgadas de diámetro, es el ojo más grande de cualquier animal terrestre del planeta. Esos enormes ojos le ayudan a detectar a depredadores como los leones y los guepardos desde muy lejos, a través de la llanura de la sabana."
+            },
+            {
+              "range": "9–20",
+              "title": "El Cuello Largo",
+              "learn": "Continúa desde el punto 9 hasta el punto 20 para dibujar el cuello largo y elegante que desciende desde la cabeza hasta el cuerpo. Esta es una de las partes más gratificantes del rompecabezas: los niños aprenden a mantener el lápiz en movimiento en una sola dirección fluida sin levantarlo. Una bonita lección sobre cómo controlar el trazo con suavidad.",
+              "fact": "El cuello de un avestruz puede medir hasta tres pies de largo y está casi totalmente desprovisto de plumas. La piel desnuda cambia de color cuando el avestruz está emocionado o intenta atraer a una pareja, adquiriendo un tono rosa brillante o rojo. ¡El anillo de la naturaleza que cambia de color según el estado de ánimo!"
+            },
+            {
+              "range": "21–35",
+              "title": "El cuerpo y las alas",
+              "learn": "Traza los puntos del 21 al 35 para completar el cuerpo redondeado y mullido del avestruz y sus pequeñas alas decorativas. Aunque los avestruces no pueden volar, sus alas siguen desempeñando un papel importante. Aquí los niños practican cómo dibujar formas más redondeadas y ovaladas, lo que supone un reto diferente al de las líneas rectas del cuello.",
+              "fact": "Las avestruces utilizan sus alas como un timón cuando corren, inclinándolas hacia la izquierda o hacia la derecha para cambiar de dirección a gran velocidad. Además, las abren de par en par para proteger a sus polluelos del abrasador sol africano: ¡son como sombrillas naturales!"
+            },
+            {
+              "range": "36–46",
+              "title": "Las piernas poderosas",
+              "learn": "Une los puntos del 36 al 46 para dibujar las dos patas largas y musculosas. Son las patas más rápidas de todas las aves del planeta, y los niños empiezan a darse cuenta de lo largas que son en comparación con el cuerpo. Anímales a trazar trazos descendentes firmes y seguros: en esta sección se valora una mano decidida.",
+              "fact": "Un avestruz puede alcanzar una velocidad máxima de 45 millas por hora y mantener una velocidad de 30 mph durante largas distancias. Con una sola zancada puede recorrer hasta 16 pies, más o menos la longitud de un coche familiar. ¡Intentar escapar de uno sería una pésima idea!"
+            },
+            {
+              "range": "47–55",
+              "title": "Las patas y las plumas de la cola",
+              "learn": "Termina uniendo los puntos del 47 al 55 para añadir las características patas de dos dedos y las plumas fluidas de la cola. Las avestruces son las únicas aves que tienen solo dos dedos en cada pata. Aquí los niños practican un trabajo más pequeño y detallado, lo que supone un excelente ejercicio de precisión a medida que el rompecabezas se va completando.",
+              "fact": "Cada pata de avestruz tiene un dedo grande y dominante con una uña larga y resistente que actúa como una pezuña, ¡ideal para correr sobre terreno duro! Las avestruces son sorprendentemente valientes y no se echan atrás a la hora de proteger a sus polluelos. ¡Sin duda, es un ave muy audaz!"
+            }
+          ],
+          "outro": "¡Qué buen trabajo! Tu avestruz ya está lista para correr. ¿Has contado los 55 puntos? Intenta escribir los números del 1 al 55 en el reverso de la página como reto extra: a los padres y profesores les encanta esta actividad. ¿Buscas más páginas para el aula? Mira nuestras <a href=\"/playgrounds/\">fichas de unir puntos</a>.",
+          "color_schemes": []
         }
-      ],
-      "outro": "¡Qué trabajo tan fantástico! Has dibujado uno de los dinosaurios más malinterpretados de la historia. ¿Por qué no buscas cómo era realmente el Velociraptor en comparación con la versión de la película? ¡Es una lección genial que demuestra que la vida real suele ser más interesante que la ficción! Conoce a más amigos prehistóricos en nuestra colección de <a href=\"/dinosaurs/\">imprimibles de unir puntos de dinosaurios</a>."
+      }
     },
-    "seoTitle": "Velociraptor para Unir Puntos: 54 Puntos Veloces, PDF Gratis"
-  },
-  {
-    "slug": "stegosaurus-dot-to-dot-puzzle",
-    "name": "Estegosaurio",
-    "seoH1": "Stegosaurus Conecta los Puntos: 52 Puntos y Placas de Diamante",
-    "tagline": "Placas puntiagudas, diversión gigante",
-    "description": "Une 52 puntos para dibujar al asombroso Estegosaurio con su doble fila de placas en forma de rombo a lo largo del lomo. Esta ficha fácil de unir puntos es una favorita de los niños de infantil que practican la secuenciación numérica, el control del lápiz y la concentración.",
-    "seoDescription": "Traza el Stegosaurus desde sus placas en forma de diamante hasta su cola espinosa en 52 puntos. Obtén la hoja de conecta los puntos imprimible gratuita para niños de 4 a 7 años.",
-    "funFact": "El Estegosaurio tenía un cerebro del tamaño de una nuez, ¡pero su cola con púas era su superpoder!",
-    "seoImageAlt": "Estegosaurio con su doble fila de placas dorsales, ficha de unir puntos formada a partir de 52 puntos imprimibles",
-    "dotGuide": {
-      "intro": "Con su fila de placas en forma de rombo recorriéndole el lomo y cuatro púas afiladas en la cola, el Estegosaurio es uno de los dinosaurios más reconocibles del mundo. Este puzle de 52 puntos tiene el tamaño perfecto para los más pequeños: justo el reto suficiente para resultar gratificante sin llegar a agobiar. ¡Busca el punto 1 y deja que esas magníficas placas tomen forma!",
-      "sections": [
-        {
-          "range": "1–6",
-          "title": "El cuello y el pecho",
-          "learn": "Empieza en el punto 1, justo bajo la barbilla del Estegosaurio, y une hacia abajo hasta el punto 6 para trazar el cuello y el pecho. La cabeza ya está dibujada y esperando: tu línea simplemente la conecta con el resto del cuerpo. Seis puntos son un comienzo manejable para manitas que van ganando confianza.",
-          "fact": "El Estegosaurio tenía uno de los cerebros más pequeños en relación con su cuerpo de todos los dinosaurios: aproximadamente del tamaño de una nuez dentro de un cuerpo tan largo como un autobús escolar. Aun así sobrevivió millones de años, un buen recordatorio de que el cerebro no lo es todo."
+    {
+      "slug": "brontosaurus-dot-to-dot-puzzle",
+      "header": {
+        "title": "Brontosaurus Conecta los Puntos — Lagarto Trueno en 50 Puntos",
+        "meta_description": "Brontosaurus significa lagarto trueno. Traza su largo cuello y cola a través de 50 puntos con esta hoja de conecta los puntos imprimible gratuita para niños de 4 a 7 años.",
+        "og": {
+          "title": "Brontosaurus Conecta los Puntos — Lagarto Trueno en 50 Puntos",
+          "description": "Brontosaurus significa lagarto trueno. Traza su largo cuello y cola a través de 50 puntos con esta hoja de conecta los puntos imprimible gratuita para niños de 4 a 7 años.",
+          "image_alt": "Brontosaurio de cuello largo extendido a lo largo de 50 puntos en una ficha infantil de unir puntos"
         },
-        {
-          "range": "7–15",
-          "title": "Las patas delanteras",
-          "learn": "Une los puntos 7 a 15 para dibujar las dos robustas patas delanteras y sus pies anchos y redondeados. Hay varios cambios de dirección cortos cuando la línea baja a cada pie y vuelve a subir, así que anima a los niños a comprobar cada número antes de trazar la siguiente línea.",
-          "fact": "Las patas delanteras del Estegosaurio eran mucho más cortas que las traseras, casi la mitad de largas. Ese desajuste le daba al animal su famoso lomo arqueado y mantenía su diminuta cabeza cerca del suelo, perfecta para mordisquear plantas bajas y helechos."
-        },
-        {
-          "range": "16–27",
-          "title": "La barriga y las patas traseras",
-          "learn": "Traza los puntos 16 a 27 para dibujar la larga línea de la barriga y las potentes patas traseras. Es el tramo más ancho del puzle hasta ahora y un buen lugar para practicar un ritmo constante — punto, línea, punto, línea — hasta llegar a los pies traseros.",
-          "fact": "El Estegosaurio vivió hace unos 150 millones de años, a finales del período Jurásico. ¡Hace tanto tiempo que el Tiranosaurio Rex vivió más cerca en el tiempo de nosotros que del Estegosaurio!"
-        },
-        {
-          "range": "28–38",
-          "title": "A lo largo de la cola",
-          "learn": "Une los puntos 28 a 38 para dibujar la larga parte inferior de la cola extendiéndose detrás del cuerpo. Los puntos siguen aquí una única curva suave y fluida, así que es una sección estupenda para practicar trazos continuos sin levantar demasiado el lápiz.",
-          "fact": "Las placas del lomo del Estegosaurio eran demasiado finas para servir de armadura. Los científicos creen que estaban llenas de vasos sanguíneos que ayudaban a regular la temperatura corporal, tiñéndose de rojo o rosa cuando el animal se excitaba — y puede que también atrajeran pareja, como una cola de pavo real prehistórica."
-        },
-        {
-          "range": "39–52",
-          "title": "La punta de la cola con púas y el lomo",
-          "learn": "Termina el puzle uniendo los puntos 39 a 52: dibuja la punta de la cola con sus cuatro púas afiladas y luego sube por la parte superior de la cola hasta encontrarte con la última de las placas del lomo. Es la sección más complicada, con puntos muy juntos alrededor de las púas: un final cuidadoso hace que todo el dibujo encaje de golpe.",
-          "fact": "Las púas de la cola — los paleontólogos las llaman «thagomizer» — podían medir hasta un metro, ¡más que una guitarra! Los fósiles demuestran que el Estegosaurio las usaba para defenderse con seguridad. ¡Hasta el herbívoro más manso sabe cuidar de sí mismo!"
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Brontosaurio",
+          "description": "Brontosaurus significa lagarto trueno. Traza su largo cuello y cola a través de 50 puntos con esta hoja de conecta los puntos imprimible gratuita para niños de 4 a 7 años.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
         }
-      ],
-      "outro": "¡Lo lograste — 52 puntos y un Estegosaurio espectacular! Ahora colorea esas placas del lomo con tus tonos favoritos. Nadie sabe exactamente de qué color era el Estegosaurio, así que cualquier color que elijas vale tanto como la mejor suposición de un científico. ¿Acabas de empezar? Prueba más <a href=\"/playgrounds/\">fichas de unir puntos para niños</a>."
-    },
-    "seoTitle": "Estegosaurio para Unir Puntos: 52 Puntos y Placas de Diamante"
-  },
-  {
-    "slug": "spinosaurus",
-    "name": "Espinosaurus",
-    "seoH1": "Conecta los puntos del Spinosaurus — 74 puntos, más grande que el T-Rex",
-    "tagline": "Más grande que el T-Rex",
-    "description": "Une los puntos para descubrir el dinosaurio carnívoro más grande jamás descubierto, ¡más grande incluso que el T-Rex! El Spinosaurus tenía una vela gigante en el lomo y cazaba peces en los ríos. Ideal para alumnos de 1.º y 2.º de primaria a los que les encantan los dinosaurios gigantes.",
-    "seoDescription": "El Spinosaurus era más largo que el T-Rex y tenía una enorme vela. Revela su forma a través de 74 puntos en este PDF imprimible gratuito de conecta los puntos para los grados 1–2.",
-    "funFact": "El Spinosaurus podía medir hasta 59 pies de largo, ¡más que un autobús escolar!",
-    "seoImageAlt": "Espinosaurio de vela dorsal emergiendo al unir 74 puntos en una ficha imprimible gratuita de dinosaurios",
-    "dotGuide": {
-      "intro": "¡Apártate, T-Rex! Te presentamos al Spinosaurus, ¡el dinosaurio carnívoro más grande que jamás haya pisado la Tierra! Más largo que un autobús escolar y tan a gusto en el agua como en tierra, el Spinosaurus era un animal verdaderamente extraordinario. Su gigantesca aleta dorsal lo convierte en uno de los dinosaurios más espectaculares para dibujar. ¡Coge un lápiz y haz que este gigante prehistórico cobre vida en el papel!",
-      "sections": [
-        {
-          "range": "1–15",
-          "title": "La cabeza y las mandíbulas del cocodrilo",
-          "learn": "Empieza por el punto 1 y ve avanzando hasta el punto 15 para dibujar el cráneo largo y estrecho que se parece más al de un cocodrilo que al de un dinosaurio típico. Los niños se dan cuenta enseguida de lo diferente que es la forma de esta cabeza respecto a la del T-Rex, lo cual es una observación fantástica que hay que fomentar. El hocico alargado recompensa a quien lo dibuje con mano firme y paciente.",
-          "fact": "El Spinosaurus tenía dientes cónicos, ideales para capturar peces resbaladizos, muy diferentes de los dientes en forma de cuchilla del T-Rex. Sus fosas nasales estaban situadas en la parte superior del cráneo, como las de un cocodrilo, lo que le permitía mantener la mayor parte de la cabeza sumergida sin dejar de respirar. Una obra maestra de la ingeniería natural."
-        },
-        {
-          "range": "16–30",
-          "title": "La vela gigante",
-          "learn": "Continúa desde el punto 16 hasta el punto 30 para dibujar la imponente vela que se eleva de forma espectacular desde la columna vertebral. Esta es la parte más emocionante del rompecabezas: la vela puede llegar a medir hasta seis pies de altura, y los niños pueden trazar toda su impresionante altura. Los trazos largos y ascendentes les ayudan a ganar confianza en el movimiento de los brazos.",
-          "fact": "La aleta estaba sostenida por espinas que se extendían desde las vértebras, algunas de las cuales alcanzaban más de cinco pies de altura. Los científicos aún debaten cuál era su función: podría haber servido para regular la temperatura, almacenar grasa —como la joroba de un camello— o haber sido una espectacular estructura de exhibición para atraer a las parejas o intimidar a los rivales."
-        },
-        {
-          "range": "31–45",
-          "title": "El cuerpo",
-          "learn": "Traza los puntos del 31 al 45 para dibujar el cuerpo largo y musculoso. El Spinosaurus tenía un perfil corporal relativamente bajo en comparación con otros grandes carnívoros, lo que le permitía nadar y vadear en los ríos. Aquí, los niños practican dibujar una forma corporal más plana y horizontal, lo que supone un contraste refrescante con la postura erguida del T-Rex.",
-          "fact": "Los nuevos hallazgos fósiles revelan que el Spinosaurus tenía huesos cortos y densos —lo contrario de lo que tenían la mayoría de los dinosaurios—, lo que le confería menor flotabilidad y lo hacía más apto para la vida submarina, al igual que las aves buceadoras actuales. Es el único dinosaurio que conocemos que pasaba una parte importante de su tiempo nadando."
-        },
-        {
-          "range": "46–60",
-          "title": "Las robustas patas",
-          "learn": "Une los puntos del 46 al 60 para dibujar las robustas patas traseras que llevaban a este gigante por las orillas de los ríos. El Spinosaurus caminaba a menudo apoyado en las cuatro patas, a diferencia de la postura bípeda del T-Rex, así que aquí los niños practican una postura más ancha y asentada.",
-          "fact": "Estudios recientes del esqueleto sugieren que el Spinosaurus pudo desplazarse apoyado en las cuatro patas, al menos al vadear, lo que lo hace muy diferente de la mayoría de los grandes dinosaurios carnívoros, que caminaban erguidos sobre dos patas."
-        },
-        {
-          "range": "61–74",
-          "title": "La cola en forma de remo",
-          "learn": "Termina con los puntos del 61 al 74 para completar la cola larga, ancha y con forma de remo. La cola fue otro descubrimiento reciente que sorprendió a los paleontólogos, lo que la convertía en una herramienta eficaz para nadar. En esta última sección, los niños practican el dibujo de la cola ancha y plana.",
-          "fact": "Es probable que el Spinosaurus fuera un animal lento y torpe al caminar por tierra, pero un excelente nadador en los ríos. Su cola en forma de remo no se confirmó hasta 2020, gracias a unos nuevos fósiles hallados en Marruecos, lo que demuestra que incluso los dinosaurios más estudiados aún pueden sorprendernos."
+      },
+      "body": {
+        "h1": "Brontosaurus Conecta los Puntos — Lagarto Trueno en 50 Puntos",
+        "name": "Brontosaurio",
+        "tagline": "El lagarto trueno amistoso",
+        "description": "Une 50 puntos fácilmente para descubrir un alegre brontosaurio con un cuello largo y una cola ondulada. Esta ficha imprimible ayuda a los niños de preescolar y de los primeros cursos de primaria a practicar la secuenciación numérica, el control del lápiz y la concentración.",
+        "fun_fact": "\"Brontosaurus\" significa lagarto trueno, un nombre inspirado en su enorme tamaño!",
+        "faqs": [
+          {
+            "q": "¿Cuántos puntos tiene el puzle de unir puntos Brontosaurio?",
+            "a": "El imprimible de unir puntos Brontosaurio tiene 50 puntos numerados. Es un puzle de nivel fácil a medio, ideal para niños de 5–8 años (de infantil a 2.º de primaria). Los niños conectan los puntos en orden numérico para revelar el dibujo terminado y luego pueden colorearlo."
+          },
+          {
+            "q": "¿Es gratis el imprimible de unir puntos Brontosaurio?",
+            "a": "Sí. La ficha Brontosaurio es 100% gratuita en DotToDotFreePrintables.com — sin cuenta, correo ni pago. Se descarga al instante como PDF listo para imprimir, en orientación vertical y horizontal, en tamaño Carta o A4."
+          },
+          {
+            "q": "¿Para qué edad es la ficha de unir puntos Brontosaurio?",
+            "a": "Con 50 puntos, el puzle Brontosaurio es ideal para 5–8 años (de infantil a 2.º de primaria). Los más pequeños pueden completarlo contando con ayuda de un adulto, y los que ya cuentan con soltura lo terminan solos practicando la secuencia numérica hasta 50."
+          },
+          {
+            "q": "¿Qué habilidades desarrolla el puzle Brontosaurio?",
+            "a": "Conectar los 50 puntos del puzle Brontosaurio desarrolla el reconocimiento de números, el conteo hasta 50, el control del lápiz, la coordinación ojo-mano y la concentración — las mismas bases motrices finas que preparan la escritura. Colorear el dibujo final añade una recompensa creativa."
+          },
+          {
+            "q": "¿Cuál es un dato curioso sobre este puzle?",
+            "a": "«Brontosaurio» significa «lagarto del trueno», ¡un nombre inspirado en su enorme tamaño! Los niños descubren datos como este mientras completan el puzle Brontosaurio."
+          }
+        ],
+        "dot_guide": {
+          "intro": "¡Bienvenido a uno de los rompecabezas de dinosaurios más entrañables de toda la colección! El brontosaurio —cuyo nombre significa «lagarto del trueno»— fue una de las criaturas más grandes que jamás haya pisado nuestro planeta. Coge un lápiz, busca el punto número uno y ¡vamos a devolverle la vida a este gentil gigante, trazo a trazo!",
+          "sections": [
+            {
+              "range": "1–8",
+              "title": "El director",
+              "learn": "Empieza por el punto 1 y une hasta el punto 8 para trazar la cabeza del brontosaurio, sorprendentemente pequeña y con forma de cuña. Aquí los niños practican trazos cortos y cuidadosos con el lápiz, así como líneas suaves y curvas: una forma estupenda de desarrollar el control del lápiz desde una edad temprana antes de pasar a formas más grandes.",
+              "fact": "El brontosaurio tenía dientes en forma de clavija diseñados únicamente para arrancar las hojas de las ramas, no para masticar. Se tragaba las plantas enteras y dejaba que su enorme estómago hiciera el trabajo duro: ¡un sistema bastante ingenioso, la verdad!"
+            },
+            {
+              "range": "9–18",
+              "title": "El Cuello Largo",
+              "learn": "Y ahora viene lo más espectacular. Une los puntos del 9 al 18 para dibujar ese famoso cuello largo y sinuoso que se curva con elegancia hacia arriba. Esta es una sección ideal para practicar líneas suaves y fluidas: los niños descubren que las curvas más largas requieren más paciencia y una mano más firme.",
+              "fact": "El cuello del brontosaurio medía hasta 20 pies de largo, ¡más o menos la altura de una casa de dos plantas! Los científicos creen ahora que se alimentaba principalmente de plantas de altura baja o media, en lugar de estirar el cuello hacia las copas de los árboles como hace la jirafa."
+            },
+            {
+              "range": "19–32",
+              "title": "El cuerpo",
+              "learn": "Continúa desde el punto 19 hasta el punto 32 para completar el enorme torso en forma de barril del brontosaurio. Esta sección, la más larga del rompecabezas, es ideal para desarrollar la concentración y la resistencia: los niños aprenden a seguir adelante incluso cuando la tarea les parece abrumadora. ¿Te suena?",
+              "fact": "El brontosaurio pesaba entre 15 y 17 toneladas, más que tres elefantes africanos juntos. A pesar de su extraordinario tamaño, era totalmente herbívoro, completamente inofensivo y probablemente solo quería llevar una vida tranquila entre los helechos."
+            },
+            {
+              "range": "33–42",
+              "title": "Las piernas",
+              "learn": "Traza los puntos del 33 al 42 para formar las cuatro patas gruesas, con forma de columna. Los niños empiezan a darse cuenta de la simetría y de cómo se equilibra el cuerpo de un animal de un lado a otro. Dibujar formas paralelas es toda una habilidad, y esta sección ofrece a las manitas mucha práctica.",
+              "fact": "El brontosaurio caminaba de puntillas, ¡un poco como una bailarina sobre cuatro patas! Debajo de cada pata tenía una almohadilla gruesa y carnosa que actuaba como un colchón natural, amortiguando cada paso atronador por el paisaje jurásico."
+            },
+            {
+              "range": "43–50",
+              "title": "La cola",
+              "learn": "Completa el rompecabezas uniendo los puntos del 43 al 50 para dibujar la larga cola, que se va estrechando y se extiende detrás del dinosaurio. La cola equilibraba el pesado cuello y le daba al brontosaurio su silueta elegante, casi como la de un barco. Los niños practican cómo estrechar poco a poco la línea, una forma muy gratificante de terminar.",
+              "fact": "Los paleontólogos creen que el brontosaurio podía chasquear la cola como un látigo, ¡produciendo un sonido tan fuerte como un trueno! No está mal para un gigante apacible que se pasaba la mayor parte del día comiendo plantas."
+            }
+          ],
+          "outro": "¡Bien hecho! Acabas de dibujar un auténtico brontosaurio. Son 50 puntos, cinco partes del cuerpo y un montón de diversión prehistórica. Ahora coge los lápices de colores y dale a tu «lagarto del trueno» una combinación de colores propia. ¿Quieres más? Explora todos nuestros <a href=\"/\">imprimibles de unir puntos</a>.",
+          "color_schemes": []
         }
-      ],
-      "outro": "¡Un trabajo magnífico en este reto de 74 puntos! Tu espinosaurio ya está listo para adentrarse en el río. Este es un rompecabezas estupendo para acompañar una visita a la biblioteca: hay libros fantásticos escritos específicamente para niños sobre la extraordinaria historia del espinosaurio. Descubre más <a href=\"/\">imprimibles de unir puntos</a> gratis para todas las edades."
+      }
     },
-    "seoTitle": "Espinosaurio para Unir Puntos: 74 Puntos, Mas Grande que el T-Rex"
-  },
-  {
-    "slug": "brachiosaurus",
-    "name": "Braquiosaurio",
-    "seoH1": "Conecta los puntos del Brachiosaurus — 38 puntos del gigante jurásico",
-    "tagline": "El gigante bondadoso del Jurásico",
-    "description": "Conecta los puntos para dibujar el dinosaurio más alto y pacífico del período jurásico. El Brachiosaurus tenía un cuello largo como una jirafa y patas delanteras más altas que la mayoría de las casas. Una hoja de trabajo perfecta de conecta los puntos para niños que aman los grandes dinosaurios amigables.",
-    "seoDescription": "El Brachiosaurus llevaba su pequeña cabeza sobre un cuello imponente. Conecta 38 puntos para revelar a este gigante jurásico en un rompecabezas diseñado para niños de 5 a 9 años.",
-    "funFact": "El braquiosaurio podía llegar a pesar hasta 60 toneladas, ¡lo mismo que 10 elefantes!",
-    "seoImageAlt": "Imponente Braquiosaurio alcanzando la altura de las copas de los arboles en esta ficha de unir puntos de 38 puntos imprimibles",
-    "dotGuide": {
-      "intro": "Imagina una criatura cuyas patas delanteras fueran más altas que un edificio de dos plantas. Ese es el braquiosaurio, uno de los animales más altos que jamás haya existido. A diferencia de la mayoría de los dinosaurios, sus patas delanteras eran más largas que las traseras, lo que le confería una postura característica, similar a la de una jirafa, perfecta para alcanzar las copas de los árboles prehistóricos. ¡Unamos los puntos y conozcamos a este imponente y apacible gigante!",
-      "sections": [
-        {
-          "range": "1–6",
-          "title": "La cabecita",
-          "learn": "Empieza por el punto 1 y une hasta el punto 6 para trazar la cabeza pequeña y cuadrada que se alza en lo más alto de ese cuello extraordinario. Al igual que el brontosaurio, el braquiosaurio tenía una cabeza relativamente pequeña en comparación con el tamaño de su cuerpo. Aquí los niños practican cómo dibujar puntos compactos y muy juntos: un comienzo preciso para un gran rompecabezas.",
-          "fact": "Las fosas nasales del braquiosaurio estaban situadas en la parte superior de la cabeza, cerca de los ojos. En su día, los científicos pensaban que esto significaba que vivía bajo el agua, como un hipopótamo, y que respiraba desde las profundidades. Ahora sabemos que era un animal totalmente terrestre: esas fosas nasales situadas tan arriba no eran más que una peculiaridad de la forma de su cráneo."
+    {
+      "slug": "triceratops-dot-to-dot-puzzle",
+      "header": {
+        "title": "Triceratops para Unir Puntos: 70 Puntos de Tres Cuernos, Gratis",
+        "meta_description": "El Triceratops tenía tres cuernos y una amplia cresta ósea. Conecta 70 puntos con esta hoja de trabajo gratuita de conecta los puntos para jardín de infantes y primer grado.",
+        "og": {
+          "title": "Triceratops para Unir Puntos: 70 Puntos de Tres Cuernos, Gratis",
+          "description": "El Triceratops tenía tres cuernos y una amplia cresta ósea. Conecta 70 puntos con esta hoja de trabajo gratuita de conecta los puntos para jardín de infantes y primer grado.",
+          "image_alt": "Triceratops de tres cuernos y su gola osea surgiendo de 70 puntos imprimibles"
         },
-        {
-          "range": "7–18",
-          "title": "El cuello altísimo",
-          "learn": "Continúa desde el punto 7 hasta el punto 18 para trazar el cuello largo hacia arriba con un ángulo pronunciado. Esta es la parte más espectacular del dibujo: el cuello se eleva bruscamente, a diferencia del cuello más horizontal del brontosaurio. Los niños aprenden a inclinar los trazos del lápiz con decisión hacia arriba, lo que requiere mucha confianza en sí mismos.",
-          "fact": "El braquiosaurio podía alcanzar hasta 40 pies de altura, ¡lo suficiente como para asomarse a una ventana del cuarto piso! Para bombear sangre hasta lo alto de ese cuello se necesitaba un corazón enorme. Los científicos estiman que su corazón pesaba unas 400 libras, más o menos lo mismo que el motor de una moto grande."
-        },
-        {
-          "range": "19–30",
-          "title": "El cuerpo",
-          "learn": "Traza los puntos del 19 al 30 para completar el cuerpo grande y con forma de barril. Fíjate en cómo el lomo desciende desde los hombros delanteros, más altos, hasta las caderas, más bajas, al contrario que en la mayoría de los saurópodos. Este lomo inclinado es una de las características más distintivas del braquiosaurio, y detectarlo es un excelente ejercicio de observación.",
-          "fact": "El braquiosaurio podía llegar a pesar hasta 60 toneladas, lo mismo que diez elefantes africanos. Necesitaba comer hasta 880 libras de vegetación cada día solo para mantener ese extraordinario volumen corporal. Eso equivale, más o menos, a comerse 1.760 bolsas de ensalada. Cada. Único. Día."
-        },
-        {
-          "range": "31–38",
-          "title": "Las cuatro poderosas patas",
-          "learn": "Termina uniendo los puntos del 31 al 38 para dibujar las cuatro patas. Las patas delanteras son notablemente más largas y están más erguidas que las traseras; los niños que las observen con atención se darán cuenta de esta inclinación. Ocho puntos suponen un final que requiere concentración y resulta gratificante, y que fomenta la atención al detalle en la recta final de un rompecabezas.",
-          "fact": "Cada pata del braquiosaurio tenía cinco dedos, con una gran garra en el dedo interior de cada pata delantera. Las patas eran anchas y redondeadas, con una almohadilla carnosa y gruesa en la parte inferior —como la pata de un elefante— diseñada para repartir el enorme peso del animal sobre el blando suelo jurásico."
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Triceratops",
+          "description": "El Triceratops tenía tres cuernos y una amplia cresta ósea. Conecta 70 puntos con esta hoja de trabajo gratuita de conecta los puntos para jardín de infantes y primer grado.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
         }
-      ],
-      "outro": "¡Qué trabajo tan maravilloso! ¡Tu braquiosaurio se alza hacia el cielo! Compáralo con el rompecabezas del brontosaurio y pide a tu hijo que busque las diferencias. Detectar diferencias visuales entre dos cosas similares es una excelente habilidad científica para los más pequeños. Encuentra más en nuestra colección de <a href=\"/dinosaurs/\">imprimibles de unir puntos de dinosaurios</a>."
-    },
-    "seoTitle": "Braquiosaurio para Unir Puntos: 38 Puntos Imponentes y Gratis"
-  },
-  {
-    "slug": "ankylosaurus",
-    "name": "Anquilosaurio",
-    "seoH1": "Conecta los puntos del Ankylosaurus — 32 puntos de cola acorazada",
-    "tagline": "El tanque blindado del mundo de los dinosaurios",
-    "description": "Conecta los puntos para revelar al Ankylosaurus — ¡la superestrella acorazada del mundo de los dinosaurios! Todo su cuerpo estaba cubierto de placas óseas, y su cola terminaba en un enorme y pesado mazo. Esta hoja de trabajo es excelente para jardín de infantes y primer grado.",
-    "seoDescription": "Incluso el Ankylosaurus tenía armadura ósea sobre sus párpados. Revela su cuerpo protegido y cola mazo a través de 32 puntos en un rompecabezas para niños de 5 a 8 años.",
-    "funFact": "¡Incluso los párpados del anquilosaurio tenían placas óseas de protección!",
-    "seoImageAlt": "Anquilosaurio acorazado y su maza en la cola, formados al unir 32 puntos en esta ficha imprimible",
-    "dotGuide": {
-      "intro": "¿Qué pasa cuando la naturaleza decide que un dinosaurio necesita una armadura completa? El resultado es el Anquilosaurio: cubierto de placas óseas desde la nariz hasta la cola, con una enorme maza en el extremo de la cola que le sirve para mantener el equilibrio y protegerse. Este rompecabezas de 32 piezas es muy gratificante de completar, ¡y el resultado es uno de los dinosaurios más impresionantes de la colección!",
-      "sections": [
-        {
-          "range": "1–7",
-          "title": "La cabeza blindada",
-          "learn": "Empieza por el punto 1 y une hasta el punto 7 para trazar el cráneo ancho y fuertemente blindado. La cabeza es ancha y plana, con una forma muy diferente a la de los hocicos puntiagudos de los dinosaurios depredadores. Aquí los niños aprenden a dibujar una forma ancha y baja, lo que supone un gran contraste con los cráneos altos y estrechos que quizá hayan dibujado antes.",
-          "fact": "Incluso los párpados del Ankylosaurus tenían placas óseas de protección, lo que quizá sea el mejor ejemplo de cómo la evolución puede llevarse una buena idea un poco demasiado lejos. El cráneo estaba tan fuertemente fusionado que parece casi carecer de rasgos distintivos, como un casco óseo que envuelve por completo el cerebro."
-        },
-        {
-          "range": "8–18",
-          "title": "La espalda blindada",
-          "learn": "Continúa desde el punto 8 hasta el punto 18 para dibujar el lomo ancho y redondeado, cubierto de filas de placas óseas, púas y protuberancias llamadas osteodermos. Esta es la sección más detallada desde el punto de vista visual, y los niños empiezan a darse cuenta de lo bien protegido que estaba este animal. Es una gran oportunidad para hablar de por qué se desarrolló la armadura en la naturaleza.",
-          "fact": "La coraza que cubría al anquilosaurio estaba formada por huesos incrustados directamente en la piel —denominados osteodermos— dispuestos en filas desde la cabeza hasta la cola. Este tipo de coraza se denomina coraza osteodérmica, y es del mismo tipo que la que presentan los cocodrilos y los armadillos actuales."
-        },
-        {
-          "range": "19–26",
-          "title": "Las piernas cortas y robustas",
-          "learn": "Traza los puntos del 19 al 26 para dibujar las cuatro patas cortas y poderosas. El anquilosaurio tenía una complexión baja respecto al suelo de forma intencionada: un centro de gravedad bajo hacía muy difícil que los depredadores lo volcaran. Los niños suelen establecer la comparación con una tortuga, lo que da pie a una interesante charla sobre la evolución convergente.",
-          "fact": "El anquilosaurio medía unos 20 pies de largo, pero solo alcanzaba unos 5 pies de altura a la cadera, menos que la estatura de la mayoría de los adultos. Sus patas eran tan robustas y su cuerpo tan compacto que incluso un T-Rex habría tenido enormes dificultades para intentar atacarlo desde arriba."
-        },
-        {
-          "range": "27–32",
-          "title": "La increíble cola del club",
-          "learn": "Termina uniendo los puntos del 27 al 32 para dibujar la cola y su característico mazo en el extremo. Este es el final más gratificante de todos los rompecabezas de la colección: ese mazo es lo que hace que el anquilosaurio sea tan único. Son solo seis puntos, pero cada uno de ellos contribuye a crear una de las características más extraordinarias de la naturaleza.",
-          "fact": "La cola en forma de maza estaba formada por vértebras fusionadas y podía llegar a pesar hasta 100 libras, ¡más que la mayoría de los perros adultos! Los científicos creen que el Ankylosaurus balanceaba la cola para mantener a otros dinosaurios a una distancia segura. ¡Un brillante escudo natural para un pacífico herbívoro!"
+      },
+      "body": {
+        "h1": "Triceratops Conecta los Puntos: 70 Puntos de Tres Cuernos Gratis",
+        "name": "Triceratops",
+        "tagline": "Tres cuernos, un rompecabezas increíble",
+        "description": "Sigue los puntos para dibujar el dinosaurio con cuernos más emblemático de todos los tiempos. El Triceratops tenía tres cuernos en la cara y un gigantesco collar óseo, ¡y vivió en la misma época que el T-Rex! Esta hoja para unir puntos es perfecta para infantil y 1.º de primaria.",
+        "fun_fact": "Los cuernos del triceratops podían llegar a medir hasta 3 pies de largo, ¡más que un bate de béisbol!",
+        "faqs": [
+          {
+            "q": "¿Cuántos puntos tiene el puzle de unir puntos Triceratops?",
+            "a": "El imprimible de unir puntos Triceratops tiene 70 puntos numerados. Es un puzle de nivel medio, ideal para niños de 6–9 años (1.º a 3.º de primaria). Los niños conectan los puntos en orden numérico para revelar el dibujo terminado y luego pueden colorearlo."
+          },
+          {
+            "q": "¿Es gratis el imprimible de unir puntos Triceratops?",
+            "a": "Sí. La ficha Triceratops es 100% gratuita en DotToDotFreePrintables.com — sin cuenta, correo ni pago. Se descarga al instante como PDF listo para imprimir, en orientación vertical y horizontal, en tamaño Carta o A4."
+          },
+          {
+            "q": "¿Para qué edad es la ficha de unir puntos Triceratops?",
+            "a": "Con 70 puntos, el puzle Triceratops es ideal para 6–9 años (1.º a 3.º de primaria). Los más pequeños pueden completarlo contando con ayuda de un adulto, y los que ya cuentan con soltura lo terminan solos practicando la secuencia numérica hasta 70."
+          },
+          {
+            "q": "¿Qué habilidades desarrolla el puzle Triceratops?",
+            "a": "Conectar los 70 puntos del puzle Triceratops desarrolla el reconocimiento de números, el conteo hasta 70, el control del lápiz, la coordinación ojo-mano y la concentración — las mismas bases motrices finas que preparan la escritura. Colorear el dibujo final añade una recompensa creativa."
+          },
+          {
+            "q": "¿Cuál es un dato curioso sobre este puzle?",
+            "a": "Los cuernos del triceratops podían llegar a medir hasta 3 pies de largo, ¡más que un bate de béisbol! Los niños descubren datos como este mientras completan el puzle Triceratops."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Con tres cuernos, una magnífica cresta ósea y el valor para plantarle cara a un T-Rex, el Triceratops es uno de los dinosaurios más reconocibles que jamás haya existido. Este rompecabezas tiene 70 puntos: todo un reto que premia la paciencia y la precisión a la hora de contar. Ve completándolo sección por sección y aparecerá un dinosaurio realmente espectacular. ¿Listo? ¡Manos a la obra!",
+          "sections": [
+            {
+              "range": "1–12",
+              "title": "Los tres cuernos y el hocico",
+              "learn": "Empieza por el punto 1 y traza la línea hasta el punto 12 para dibujar el rasgo más característico del Triceratops: los dos largos cuernos de la frente y el cuerno más corto de la nariz. Esta sección implica varios cambios de dirección, lo cual es fantástico para desarrollar el control del lápiz y la percepción espacial en niños a partir de 6 años.",
+              "fact": "Los dos cuernos de la frente podían llegar a medir hasta tres pies de largo, ¡más que un bate de béisbol! Los científicos creen que el Triceratops los utilizaba tanto para defenderse de los depredadores como para enfrentarse a otros Triceratops en la lucha por el territorio y las parejas."
+            },
+            {
+              "range": "13–26",
+              "title": "El volante",
+              "learn": "Une los puntos del 13 al 26 para trazar el gran volante semicircular que enmarca la parte posterior de la cabeza. Aquí los niños practican un movimiento amplio y arqueado, un ejercicio estupendo para mantener el lápiz en movimiento con seguridad por la página. Anímales a levantar la muñeca y a dibujar desde el hombro.",
+              "fact": "El collar no era de hueso macizo: tenía dos grandes aberturas cubiertas de piel, lo que lo hacía más ligero de lo que parece. Algunos científicos creen que, en vida, el collar tenía colores vivos y que se utilizaba para comunicar el estado de ánimo y la salud, algo así como un panel informativo viviente."
+            },
+            {
+              "range": "27–42",
+              "title": "El cuerpo",
+              "learn": "Une los puntos del 27 al 42 para dibujar el cuerpo ancho y robusto. El Triceratops tenía una complexión baja y ancha, y los niños empiezan a darse cuenta de cómo difiere su forma de la de los saurópodos, más altos. Esta es la secuencia de puntos más larga del rompecabezas, una oportunidad estupenda para practicar la concentración prolongada.",
+              "fact": "El Triceratops medía unos 30 pies de largo y pesaba hasta 12 toneladas, ¡más o menos lo mismo que dos elefantes africanos! A pesar de su enorme tamaño, era lo suficientemente ágil como para moverse a gran velocidad. Imagínate ver uno de esos magníficos cuernos acercándose hacia ti: ¡todo un espectáculo, incluso para un T-Rex!"
+            },
+            {
+              "range": "43–58",
+              "title": "Las cuatro patas",
+              "learn": "Une los puntos del 43 al 58 para dibujar las cuatro patas robustas y ligeramente separadas. A diferencia de las patas rectas y en forma de pilar de los saurópodos, las del Triceratops se separan un poco a la altura de los codos. Los niños se dan cuenta de esta diferencia si se la señalas, lo que les ayuda a desarrollar una excelente capacidad de observación al tiempo que practican la motricidad fina.",
+              "fact": "El triceratops tenía pezuñas en lugar de garras, ¡un dato sorprendente que suele entusiasmar a los niños! Las patas delanteras podían girar hacia fuera para ayudarle a bajar la cabeza y embestir hacia delante como una excavadora, utilizando esos tres magníficos cuernos para abrirse camino."
+            },
+            {
+              "range": "59–70",
+              "title": "La cola",
+              "learn": "Completa el rompecabezas uniendo los puntos del 59 al 70 para dibujar la cola corta y gruesa. En comparación con las colas largas y sinuosas de los saurópodos herbívoros, la cola del Triceratops es ancha y robusta. Los niños practican un remate más corto y controlado: un final satisfactorio para un reto mayor.",
+              "fact": "Los restos fósiles demuestran que el T-Rex y el Triceratops vivieron en la misma época y en el mismo lugar: el oeste de Estados Unidos, hace unos 68 millones de años. Los científicos creen que el Triceratops utilizaba sus tres impresionantes cuernos para defenderse, y hay indicios de que ambos se encontraron en más de una ocasión. ¡Menudo ajetreo había por allí!"
+            }
+          ],
+          "outro": "¡Qué gran concentración! — ¡70 puntos no es nada fácil! Tu triceratops ya está terminado. Pregunta a tu hijo qué parte le ha resultado más difícil y por qué. Ese tipo de reflexión es tan valiosa como el propio dibujo. ¿Listo para una prueba mayor? Prueba nuestros <a href=\"/usa-250/\">imprimibles de unir puntos extremos</a>.",
+          "color_schemes": []
         }
-      ],
-      "outro": "¡Qué bien has hecho al completar los 32 puntos! Ahora pinta las placas de la armadura en tonos grises y marrones, o da rienda suelta a tu imaginación con tus propios diseños. La armadura de los animales de la naturaleza tiene todo tipo de colores, ¡así que tu anquilosaurio puede tener el aspecto que tú imagines! Perfecto para el aula — mira más <a href=\"/playgrounds/\">fichas de unir puntos</a>."
+      }
     },
-    "seoTitle": "Anquilosaurio para Unir Puntos: PDF Acorazado Rapido de 32 Puntos"
-  },
-  {
-    "slug": "pterodactyl-dot-to-dot-puzzle",
-    "name": "Pterodáctilo",
-    "seoH1": "Conecta los puntos del Pterodáctilo: 67 puntos sobre mares antiguos",
-    "tagline": "El dinosaurio volador que a los niños les encanta",
-    "description": "¡Une los puntos para dibujar el reptil volador más famoso del mundo prehistórico! Los pterodáctilos surcaban los cielos sobre los antiguos océanos y ríos en busca de peces. Esta sencilla ficha de 24 puntos es perfecta para niños pequeños y en edad preescolar.",
-    "seoDescription": "El Pterodáctilo era un pterosaurio volador, no un dinosaurio. Conecta 67 puntos con este PDF imprimible gratuito de conecta los puntos para niños de 6 a 9 años.",
-    "funFact": "Los pterodáctilos no eran, técnicamente hablando, dinosaurios: ¡eran reptiles voladores llamados pterosaurios!",
-    "seoImageAlt": "Pterodactilo volando con las alas extendidas, sostenido por 67 puntos para unir e imprimir",
-    "dotGuide": {
-      "intro": "Aquí tienes un dato curioso y genial que compartir antes de empezar: ¡los pterodáctilos no eran en realidad dinosaurios en absoluto! Eran reptiles voladores llamados pterosaurios, que convivían con los dinosaurios pero pertenecían a un grupo completamente distinto. Además, fueron los primeros vertebrados —animales con columna vertebral— en desarrollar el vuelo propulsado. Con 67 puntos, este rompecabezas supone todo un reto, ¡así que ponte cómodo y disfruta del proceso!",
-      "sections": [
-        {
-          "range": "1–10",
-          "title": "La cabeza y el pico largo",
-          "learn": "Empieza por el punto 1 y une hasta el punto 10 para dibujar el pico largo y puntiagudo y la característica cabeza con cresta. La cabeza del pterodáctilo es una de las formas más insólitas del mundo natural: larga, estrecha y, a menudo, rematada por una cresta espectacular. Aquí los niños practican con una forma muy alargada, lo que supone un reto estimulante.",
-          "fact": "Muchas especies de pterosaurios tenían grandes crestas en la cabeza, formadas por hueso y tejido blando. Los científicos creen que estas crestas se utilizaban con fines de exhibición: para atraer a las parejas y comunicarse con otros miembros del grupo. Algunas crestas eran tan grandes como el propio cráneo, lo que hacía que la cabeza tuviera un tamaño casi cómicamente desproporcionado."
+    {
+      "slug": "velociraptor-dot-to-dot-puzzle",
+      "header": {
+        "title": "Velociraptor para Unir Puntos: 54 Puntos Veloces, PDF Gratis",
+        "meta_description": "Los verdaderos Velociraptores eran del tamaño de un pavo y tenían plumas. Revela uno en 54 puntos con este imprimible de conecta los puntos para niños de 5 a 8 años.",
+        "og": {
+          "title": "Velociraptor para Unir Puntos: 54 Puntos Veloces, PDF Gratis",
+          "description": "Los verdaderos Velociraptores eran del tamaño de un pavo y tenían plumas. Revela uno en 54 puntos con este imprimible de conecta los puntos para niños de 5 a 8 años.",
+          "image_alt": "Velociraptor emplumado listo para correr, esbozado en 54 puntos imprimibles"
         },
-        {
-          "range": "11–24",
-          "title": "Las Alas",
-          "learn": "Continúa desde el punto 11 hasta el punto 24 para trazar las enormes alas. Las alas del pterodáctilo estaban formadas por una membrana de piel y músculo que se extendía desde un cuarto dedo enormemente alargado hasta el cuerpo. Los niños aprenden a dibujar un arco amplio y extenso, uno de los movimientos de lápiz más gratificantes de toda la colección.",
-          "fact": "La membrana alar del pterodáctilo era fina, pero increíblemente resistente, y estaba reforzada por diminutas fibras que la atravesaban como si fuera un tejido. A diferencia de las alas de los murciélagos, que se unen al tobillo, las alas de los pterosaurios se unían más arriba en la pata, lo que les confería una postura de vuelo ligeramente diferente, más parecida a la de un ala delta que a la de un pájaro."
-        },
-        {
-          "range": "25–40",
-          "title": "Los dedos del cuerpo y de las alas",
-          "learn": "Traza los puntos del 25 al 40 para completar el cuerpo compacto y traza la extraordinaria estructura de las alas y los dedos. Esta sección es la que tiene más puntos del rompecabezas y requiere una concentración constante; es un ejercicio maravilloso de perseverancia. Recuerda a los niños que cada punto supone un avance.",
-          "fact": "La envergadura de un pterodáctilo podía alcanzar unos 3 pies —más o menos el tamaño de una gaviota grande—, pero algunos de sus parientes, como el Quetzalcoatlus, tenían envergaduras de hasta 36 pies, más anchas que las de un avión pequeño. El tamaño de los pterosaurios variaba desde el de un gorrión hasta dimensiones absolutamente asombrosas."
-        },
-        {
-          "range": "41–54",
-          "title": "Las garras y las patas",
-          "learn": "Une los puntos del 41 al 54 para dibujar las garras de las puntas de las alas y las patas traseras. Los pterodáctilos tenían garras en las alas para trepar y agarrarse, algo que a los niños suele sorprenderles. Estas secciones requieren movimientos más pequeños y precisos, lo que resulta ideal para desarrollar la precisión motora fina en los niños mayores.",
-          "fact": "Los pterodáctilos podían caminar a cuatro patas por el suelo, plegando sus alas cuidadosamente como si fueran un paraguas. Las huellas halladas recientemente demuestran que se sentían más a gusto en tierra de lo que se pensaba: se desplazaban contoneándose por las playas y las riberas de los ríos en busca de peces, insectos y pequeños animales."
-        },
-        {
-          "range": "55–67",
-          "title": "La pose de la cola y el aterrizaje",
-          "learn": "Completa el rompecabezas uniendo los puntos del 55 al 67 para terminar la cola y plasmar la pose completa, ya sea en vuelo o aterrizando. El pterodáctilo tenía una cola muy corta en comparación con otros pterosaurios. Aquí los niños practican cómo dar un toque final con atención y cuidado: trece puntos para dar forma a toda esta magnífica criatura.",
-          "fact": "Es probable que los pterodáctilos se elevaran gracias a las corrientes térmicas de aire cálido, al igual que las águilas y los buitres actuales, lo que les permitía ahorrar energía en largas distancias. Sus huesos huecos —increíblemente ligeros pero sorprendentemente resistentes— eran esenciales para el vuelo y constituyen una de las características clave que comparten con las aves actuales."
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Velociraptor",
+          "description": "Los verdaderos Velociraptores eran del tamaño de un pavo y tenían plumas. Revela uno en 54 puntos con este imprimible de conecta los puntos para niños de 5 a 8 años.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
         }
-      ],
-      "outro": "¡Qué perseverancia tan increíble! 67 puntos es todo un logro del que estar orgulloso. Tu pterodáctilo está listo para alzar el vuelo. ¿Por qué no intentas dibujar tu propia escena prehistórica voladora a su alrededor? Un río, unas montañas, quizá un pez saltando... El mundo jurásico está en tus manos. ¿Listo para algo aún más difícil? Prueba nuestros <a href=\"/usa-250/\">imprimibles de unir puntos extremos</a>."
-    },
-    "seoTitle": "Pterodactilo para Unir Puntos: 67 Puntos Sobre Mares Antiguos"
-  },
-  {
-    "slug": "allosaurus",
-    "name": "Alosaurus",
-    "seoH1": "Conecta los puntos del Allosaurus — 42 puntos de depredador jurásico",
-    "tagline": "El león del Jurásico",
-    "description": "Conecta los puntos para revelar al Allosaurus — ¡el dinosaurio más famoso del período jurásico, incluso antes de que existiera el T-Rex! Tenía dientes fuertes, mandíbulas poderosas y puede que viviera en grupos. Esta hoja de trabajo más difícil desafía a los estudiantes de 1er a 3er grado.",
-    "seoDescription": "El Allosaurus gobernó el Jurásico mucho antes de que apareciera el T-Rex. Sigue 42 puntos alrededor de este poderoso depredador en un rompecabezas diseñado para niños de 6 a 10 años.",
-    "funFact": "¡Se han encontrado más de 40 fósiles de Allosaurus en un único yacimiento de Utah!",
-    "seoImageAlt": "Feroz Alosaurio mostrando sus fuertes mandibulas, formado al unir 42 puntos imprimibles",
-    "dotGuide": {
-      "intro": "Mucho antes de que el T-Rex dominara el Cretácico, el Allosaurus era el dinosaurio de gran tamaño más impresionante de la Tierra. Más rápido, más ágil y, posiblemente, más inteligente que muchos de los dinosaurios que le rodeaban, este explorador del Jurásico fue la estrella de su época. Con 42 puntos y un nivel de dificultad «difícil», este rompecabezas pone a prueba las habilidades para contar y la concentración; ¡es perfecto para niños mayores que estén preparados para un auténtico reto!",
-      "sections": [
-        {
-          "range": "1–8",
-          "title": "El director",
-          "learn": "Empieza por el punto 1 y une hasta el punto 8 para dibujar la calavera grande y profunda, con sus característicos salientes sobre los ojos. El Allosaurus tenía crestas óseas que se extendían desde el hocico hasta por encima de los ojos, un detalle que le da un aspecto realmente feroz. Los niños practican trazando la forma de una calavera marcada y angulosa, con varios cambios de dirección interesantes.",
-          "fact": "El Allosaurus tenía una mandíbula muy peculiar: los científicos creen que propinaba una mordedura grande y potente impulsando la cabeza hacia abajo con los fuertes músculos de su cuello, en lugar de limitarse a morder bruscamente como la mayoría de los animales. Sus dientes dentados eran perfectos para un carnívoro de su tamaño, lo que lo convertía en uno de los cazadores más eficaces del período Jurásico."
-        },
-        {
-          "range": "9–18",
-          "title": "El cuello y los hombros",
-          "learn": "Continúa desde el punto 9 hasta el punto 18 para trazar el cuello robusto y los hombros anchos. El Allosaurus tenía un cuello notablemente musculoso que le proporcionaba una mordida increíblemente potente. Esta sección requiere trazos curvos amplios y seguros; los niños que se precipitan suelen perder precisión en esta parte, por lo que es ideal para practicar la paciencia.",
-          "fact": "El Allosaurus medía entre 28 y 40 pies de largo y pesaba hasta 2 toneladas, mucho menos que el T-Rex, pero era mucho más ágil. Los científicos creen que esta agilidad, junto con un posible comportamiento gregario, le permitía moverse junto a animales que le superaban en tamaño muchas veces, ¡incluidos los saurópodos gigantes!"
-        },
-        {
-          "range": "19–28",
-          "title": "El cuerpo y los brazos",
-          "learn": "Traza los puntos del 19 al 28 para dibujar el cuerpo musculoso y los poderosos brazos de tres dedos. A diferencia del T-Rex, el Allosaurus tenía unos brazos que realmente podía utilizar: fuertes y perfectos para una vida activa en el Jurásico. Los niños practican con una sección central muy detallada, desarrollando el tipo de atención sostenida que exige un rompecabezas de dificultad 3.",
-          "fact": "En la cantera de dinosaurios de Cleveland-Lloyd, en Utah, se han hallado más de 60 ejemplares individuales de Allosaurus, lo que supone, con diferencia, la mayor concentración de huesos de depredadores del Jurásico jamás descubierta. El motivo por el que tantos acabaron en un mismo lugar sigue siendo uno de los misterios más debatidos de la paleontología."
-        },
-        {
-          "range": "29–36",
-          "title": "Las piernas poderosas",
-          "learn": "Une los puntos del 29 al 36 para dibujar las patas largas y poderosas. El Allosaurus estaba diseñado tanto para la velocidad como para la fuerza: sus patas eran proporcionalmente más largas que las del T-Rex, lo que lo convertía en un cazador más rápido y más ágil. Los niños practican trazos seguros y descendentes que transmiten la complexión atlética del animal.",
-          "fact": "Es probable que el Allosaurus pudiera correr a una velocidad de entre 20 y 30 millas por hora, más rápido de lo que la mayoría de los humanos es capaz de correr. Algunos científicos creen que utilizaba tácticas de emboscada, escondiéndose entre la vegetación antes de lanzarse a la carga a gran velocidad. Se han encontrado huellas fósiles que muestran a un Allosaurus acechando a un saurópodo, lo que nos permite vislumbrar, de forma excepcional, su comportamiento real a la hora de cazar."
-        },
-        {
-          "range": "37–42",
-          "title": "La cola",
-          "learn": "Completa el rompecabezas uniendo los puntos del 37 al 42 para colocar la cola larga y rígida en su sitio. Seis puntos para terminar un rompecabezas complicado: anima a los niños a trazar estas últimas líneas de la forma más limpia y segura posible. Un buen final es tan satisfactorio como un buen comienzo.",
-          "fact": "El Allosaurus vivió hace aproximadamente 155 millones de años, casi 90 millones de años antes que el T-Rex. Si se comparan cronológicamente un Allosaurus y un T-Rex, el Allosaurus está, en realidad, más cerca en la escala geológica del Stegosaurus al que cazaba que del T-Rex, que apareció después de él. El tiempo en la prehistoria más remota es realmente abrumador."
+      },
+      "body": {
+        "h1": "Velociraptor Conecta los Puntos — 54 Puntos Rápidos, PDF Gratis",
+        "name": "Velociraptor",
+        "tagline": "Rápido, Inteligente y Listo para Atacar",
+        "description": "Une los puntos para descubrir al ingenioso velociraptor, ¡el famoso de «Parque Jurásico»! En la vida real, los velociraptores eran cazadores emplumados del tamaño aproximado de un pavo. Esta ficha ayuda a desarrollar la capacidad de ordenar números en los niños de entre 5 y 8 años.",
+        "fun_fact": "«Velociraptor» significa «ladrón veloz»: ¡podía correr a una velocidad de hasta 25 mph!",
+        "faqs": [
+          {
+            "q": "¿Cuántos puntos tiene el puzle de unir puntos Velociraptor?",
+            "a": "El imprimible de unir puntos Velociraptor tiene 54 puntos numerados. Es un puzle de nivel fácil a medio, ideal para niños de 5–8 años (de infantil a 2.º de primaria). Los niños conectan los puntos en orden numérico para revelar el dibujo terminado y luego pueden colorearlo."
+          },
+          {
+            "q": "¿Es gratis el imprimible de unir puntos Velociraptor?",
+            "a": "Sí. La ficha Velociraptor es 100% gratuita en DotToDotFreePrintables.com — sin cuenta, correo ni pago. Se descarga al instante como PDF listo para imprimir, en orientación vertical y horizontal, en tamaño Carta o A4."
+          },
+          {
+            "q": "¿Para qué edad es la ficha de unir puntos Velociraptor?",
+            "a": "Con 54 puntos, el puzle Velociraptor es ideal para 5–8 años (de infantil a 2.º de primaria). Los más pequeños pueden completarlo contando con ayuda de un adulto, y los que ya cuentan con soltura lo terminan solos practicando la secuencia numérica hasta 54."
+          },
+          {
+            "q": "¿Qué habilidades desarrolla el puzle Velociraptor?",
+            "a": "Conectar los 54 puntos del puzle Velociraptor desarrolla el reconocimiento de números, el conteo hasta 54, el control del lápiz, la coordinación ojo-mano y la concentración — las mismas bases motrices finas que preparan la escritura. Colorear el dibujo final añade una recompensa creativa."
+          },
+          {
+            "q": "¿Cuál es un dato curioso sobre este puzle?",
+            "a": "«Velociraptor» significa «ladrón veloz»: ¡podía correr a una velocidad de hasta 25 mph! Los niños descubren datos como este mientras completan el puzle Velociraptor."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Todo el mundo cree saber cómo es un velociraptor, ¡pero este rompecabezas puede que les sorprenda! El verdadero velociraptor tenía plumas, era más o menos del tamaño de un pavo grande y mucho más inteligente que la mayoría de sus primos dinosaurios. Hollywood lo hizo más grande, pero la naturaleza lo hizo más inteligente. ¡Coge un lápiz y conoce a la verdadera estrella del Cretácico!",
+          "sections": [
+            {
+              "range": "1–8",
+              "title": "La cabeza y las mandíbulas",
+              "learn": "Empieza por el punto 1 y une hasta el punto 8 para trazar el cráneo largo y estrecho y las mandíbulas ligeramente curvadas. El Velociraptor tenía una cabeza especialmente esbelta en comparación con su cuerpo; aquí los niños aprenden a trazar una forma más alargada, lo que supone un cambio útil respecto a las cabezas más redondeadas de otros dinosaurios. En este caso, lo mejor es ir despacio y con calma.",
+              "fact": "El velociraptor tenía unos 80 dientes pequeños y dentados, diseñados más para agarrar que para desgarrar. Los estudios sobre su cavidad cerebral revelan que tenía una vista excelente y un agudo sentido del olfato: cazaba guiándose por la vista, el olfato y, posiblemente, el oído, lo que lo convertía en un pequeño depredador extraordinariamente bien equipado."
+            },
+            {
+              "range": "9–20",
+              "title": "El cuello y el cuerpo emplumado",
+              "learn": "Continúa desde el punto 9 hasta el punto 20 para dibujar el cuello curvo y el cuerpo compacto. Es en este punto donde los niños suelen empezar a apreciar el aspecto aviar del Velociraptor, lo que da pie a un debate muy interesante en clase. Los puntos se curvan suavemente, por lo que es una buena sección para practicar cómo mantener una presión constante con el lápiz.",
+              "fact": "Los paleontólogos han encontrado protuberancias en forma de pluma en los huesos de los brazos del Velociraptor, las mismas protuberancias que se observan en las alas de las aves actuales, donde se fijan las plumas. Es casi seguro que el Velociraptor estaba cubierto de plumas, aunque no podía volar. Se trata, en esencia, de un ave cazadora pequeña e incapaz de volar."
+            },
+            {
+              "range": "21–32",
+              "title": "Los brazos y las garras de las manos",
+              "learn": "Traza los puntos del 21 al 32 para dibujar los brazos relativamente largos y las manos de tres dedos. A diferencia de los diminutos brazos del T-Rex, el Velociraptor tenía brazos que realmente podía utilizar: para agarrarse y desplazarse por su entorno. En esta sección, los niños practican cómo dibujar ángulos más agudos, imitando la forma angular de las alas de las aves que tienen las extremidades delanteras.",
+              "fact": "Las garras de las manos del velociraptor eran fuertes y curvadas, muy útiles para agarrar y sujetarse con firmeza. Investigaciones recientes sugieren que podría haber utilizado sus brazos de forma similar a como lo hacen hoy en día los halcones y las águilas al posarse en las ramas, ejerciendo presión con el peso de su cuerpo."
+            },
+            {
+              "range": "33–44",
+              "title": "Las patas y la garra especial",
+              "learn": "Une los puntos del 33 al 44 para dibujar las poderosas patas traseras y esa famosa garra en forma de hoz del segundo dedo. Los niños suelen reconocer esta garra por las películas, lo que hace que esta sección resulte muy motivadora. Los puntos están muy juntos en esta parte, lo que fomenta la precisión y el reconocimiento cuidadoso de los números.",
+              "fact": "La emblemática garra curvada de cada pata se mantenía separada del suelo cuando el Velociraptor caminaba, para mantenerla bien afilada —¡un poco como un gato que se cuida las garras!—. Los científicos creen ahora que se utilizaba principalmente para agarrar y sujetarse, más que para cualquier otra cosa."
+            },
+            {
+              "range": "45–54",
+              "title": "La cola rígida",
+              "learn": "Termina uniendo los puntos del 45 al 54 para añadir la cola larga y rígida. A diferencia de las colas flexibles de los lagartos, la cola del Velociraptor se mantenía estirada hacia atrás, actuando como contrapeso al correr y girar a gran velocidad. Un final seguro y directo para un rompecabezas dinámico.",
+              "fact": "El velociraptor podía alcanzar velocidades de unas 25 millas por hora, lo cual es rápido para un depredador pequeño, aunque más lento que la versión de «Parque Jurásico». Su cola se endurecía de forma natural gracias a unos tendones osificados, lo que le permitía realizar giros bruscos sin perder el equilibrio, casi como si fuera un estabilizador incorporado."
+            }
+          ],
+          "outro": "¡Qué trabajo tan fantástico! Has dibujado uno de los dinosaurios más malinterpretados de la historia. ¿Por qué no buscas cómo era realmente el Velociraptor en comparación con la versión de la película? ¡Es una lección genial que demuestra que la vida real suele ser más interesante que la ficción! Conoce a más amigos prehistóricos en nuestra colección de <a href=\"/dinosaurs/\">imprimibles de unir puntos de dinosaurios</a>.",
+          "color_schemes": []
         }
-      ],
-      "outro": "¡Qué gran logro! Has resuelto un rompecabezas de dificultad 3 y has ganado. Cuarenta y dos puntos, cinco secciones y un formidable depredador jurásico. Este merece la pena colgarlo en la pared. Para una prueba aún mayor, explora nuestros <a href=\"/usa-250/\">imprimibles de unir puntos extremos</a>."
+      }
     },
-    "seoTitle": "Conecta los puntos del Allosaurus — 42 puntos de desafío jurásico"
-  }
-]
+    {
+      "slug": "stegosaurus-dot-to-dot-puzzle",
+      "header": {
+        "title": "Estegosaurio para Unir Puntos: 52 Puntos y Placas de Diamante",
+        "meta_description": "Traza el Stegosaurus desde sus placas en forma de diamante hasta su cola espinosa en 52 puntos. Obtén la hoja de conecta los puntos imprimible gratuita para niños de 4 a 7 años.",
+        "og": {
+          "title": "Estegosaurio para Unir Puntos: 52 Puntos y Placas de Diamante",
+          "description": "Traza el Stegosaurus desde sus placas en forma de diamante hasta su cola espinosa en 52 puntos. Obtén la hoja de conecta los puntos imprimible gratuita para niños de 4 a 7 años.",
+          "image_alt": "Estegosaurio con su doble fila de placas dorsales, ficha de unir puntos formada a partir de 52 puntos imprimibles"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Estegosaurio",
+          "description": "Traza el Stegosaurus desde sus placas en forma de diamante hasta su cola espinosa en 52 puntos. Obtén la hoja de conecta los puntos imprimible gratuita para niños de 4 a 7 años.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
+      },
+      "body": {
+        "h1": "Stegosaurus Conecta los Puntos: 52 Puntos y Placas de Diamante",
+        "name": "Estegosaurio",
+        "tagline": "Placas puntiagudas, diversión gigante",
+        "description": "Une 52 puntos para dibujar al asombroso Estegosaurio con su doble fila de placas en forma de rombo a lo largo del lomo. Esta ficha fácil de unir puntos es una favorita de los niños de infantil que practican la secuenciación numérica, el control del lápiz y la concentración.",
+        "fun_fact": "El Estegosaurio tenía un cerebro del tamaño de una nuez, ¡pero su cola con púas era su superpoder!",
+        "faqs": [
+          {
+            "q": "¿Cuántos puntos tiene el puzle de unir puntos Estegosaurio?",
+            "a": "El imprimible de unir puntos Estegosaurio tiene 52 puntos numerados. Es un puzle de nivel fácil a medio, ideal para niños de 5–8 años (de infantil a 2.º de primaria). Los niños conectan los puntos en orden numérico para revelar el dibujo terminado y luego pueden colorearlo."
+          },
+          {
+            "q": "¿Es gratis el imprimible de unir puntos Estegosaurio?",
+            "a": "Sí. La ficha Estegosaurio es 100% gratuita en DotToDotFreePrintables.com — sin cuenta, correo ni pago. Se descarga al instante como PDF listo para imprimir, en orientación vertical y horizontal, en tamaño Carta o A4."
+          },
+          {
+            "q": "¿Para qué edad es la ficha de unir puntos Estegosaurio?",
+            "a": "Con 52 puntos, el puzle Estegosaurio es ideal para 5–8 años (de infantil a 2.º de primaria). Los más pequeños pueden completarlo contando con ayuda de un adulto, y los que ya cuentan con soltura lo terminan solos practicando la secuencia numérica hasta 52."
+          },
+          {
+            "q": "¿Qué habilidades desarrolla el puzle Estegosaurio?",
+            "a": "Conectar los 52 puntos del puzle Estegosaurio desarrolla el reconocimiento de números, el conteo hasta 52, el control del lápiz, la coordinación ojo-mano y la concentración — las mismas bases motrices finas que preparan la escritura. Colorear el dibujo final añade una recompensa creativa."
+          },
+          {
+            "q": "¿Cuál es un dato curioso sobre este puzle?",
+            "a": "El Estegosaurio tenía un cerebro del tamaño de una nuez, ¡pero su cola con púas era su superpoder! Los niños descubren datos como este mientras completan el puzle Estegosaurio."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Con su fila de placas en forma de rombo recorriéndole el lomo y cuatro púas afiladas en la cola, el Estegosaurio es uno de los dinosaurios más reconocibles del mundo. Este puzle de 52 puntos tiene el tamaño perfecto para los más pequeños: justo el reto suficiente para resultar gratificante sin llegar a agobiar. ¡Busca el punto 1 y deja que esas magníficas placas tomen forma!",
+          "sections": [
+            {
+              "range": "1–6",
+              "title": "El cuello y el pecho",
+              "learn": "Empieza en el punto 1, justo bajo la barbilla del Estegosaurio, y une hacia abajo hasta el punto 6 para trazar el cuello y el pecho. La cabeza ya está dibujada y esperando: tu línea simplemente la conecta con el resto del cuerpo. Seis puntos son un comienzo manejable para manitas que van ganando confianza.",
+              "fact": "El Estegosaurio tenía uno de los cerebros más pequeños en relación con su cuerpo de todos los dinosaurios: aproximadamente del tamaño de una nuez dentro de un cuerpo tan largo como un autobús escolar. Aun así sobrevivió millones de años, un buen recordatorio de que el cerebro no lo es todo."
+            },
+            {
+              "range": "7–15",
+              "title": "Las patas delanteras",
+              "learn": "Une los puntos 7 a 15 para dibujar las dos robustas patas delanteras y sus pies anchos y redondeados. Hay varios cambios de dirección cortos cuando la línea baja a cada pie y vuelve a subir, así que anima a los niños a comprobar cada número antes de trazar la siguiente línea.",
+              "fact": "Las patas delanteras del Estegosaurio eran mucho más cortas que las traseras, casi la mitad de largas. Ese desajuste le daba al animal su famoso lomo arqueado y mantenía su diminuta cabeza cerca del suelo, perfecta para mordisquear plantas bajas y helechos."
+            },
+            {
+              "range": "16–27",
+              "title": "La barriga y las patas traseras",
+              "learn": "Traza los puntos 16 a 27 para dibujar la larga línea de la barriga y las potentes patas traseras. Es el tramo más ancho del puzle hasta ahora y un buen lugar para practicar un ritmo constante — punto, línea, punto, línea — hasta llegar a los pies traseros.",
+              "fact": "El Estegosaurio vivió hace unos 150 millones de años, a finales del período Jurásico. ¡Hace tanto tiempo que el Tiranosaurio Rex vivió más cerca en el tiempo de nosotros que del Estegosaurio!"
+            },
+            {
+              "range": "28–38",
+              "title": "A lo largo de la cola",
+              "learn": "Une los puntos 28 a 38 para dibujar la larga parte inferior de la cola extendiéndose detrás del cuerpo. Los puntos siguen aquí una única curva suave y fluida, así que es una sección estupenda para practicar trazos continuos sin levantar demasiado el lápiz.",
+              "fact": "Las placas del lomo del Estegosaurio eran demasiado finas para servir de armadura. Los científicos creen que estaban llenas de vasos sanguíneos que ayudaban a regular la temperatura corporal, tiñéndose de rojo o rosa cuando el animal se excitaba — y puede que también atrajeran pareja, como una cola de pavo real prehistórica."
+            },
+            {
+              "range": "39–52",
+              "title": "La punta de la cola con púas y el lomo",
+              "learn": "Termina el puzle uniendo los puntos 39 a 52: dibuja la punta de la cola con sus cuatro púas afiladas y luego sube por la parte superior de la cola hasta encontrarte con la última de las placas del lomo. Es la sección más complicada, con puntos muy juntos alrededor de las púas: un final cuidadoso hace que todo el dibujo encaje de golpe.",
+              "fact": "Las púas de la cola — los paleontólogos las llaman «thagomizer» — podían medir hasta un metro, ¡más que una guitarra! Los fósiles demuestran que el Estegosaurio las usaba para defenderse con seguridad. ¡Hasta el herbívoro más manso sabe cuidar de sí mismo!"
+            }
+          ],
+          "outro": "¡Lo lograste — 52 puntos y un Estegosaurio espectacular! Ahora colorea esas placas del lomo con tus tonos favoritos. Nadie sabe exactamente de qué color era el Estegosaurio, así que cualquier color que elijas vale tanto como la mejor suposición de un científico. ¿Acabas de empezar? Prueba más <a href=\"/playgrounds/\">fichas de unir puntos para niños</a>.",
+          "color_schemes": []
+        }
+      }
+    },
+    {
+      "slug": "spinosaurus",
+      "header": {
+        "title": "Espinosaurio para Unir Puntos: 74 Puntos, Mas Grande que el T-Rex",
+        "meta_description": "El Spinosaurus era más largo que el T-Rex y tenía una enorme vela. Revela su forma a través de 74 puntos en este PDF imprimible gratuito de conecta los puntos para los grados 1–2.",
+        "og": {
+          "title": "Espinosaurio para Unir Puntos: 74 Puntos, Mas Grande que el T-Rex",
+          "description": "El Spinosaurus era más largo que el T-Rex y tenía una enorme vela. Revela su forma a través de 74 puntos en este PDF imprimible gratuito de conecta los puntos para los grados 1–2.",
+          "image_alt": "Espinosaurio de vela dorsal emergiendo al unir 74 puntos en una ficha imprimible gratuita de dinosaurios"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Espinosaurus",
+          "description": "El Spinosaurus era más largo que el T-Rex y tenía una enorme vela. Revela su forma a través de 74 puntos en este PDF imprimible gratuito de conecta los puntos para los grados 1–2.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
+      },
+      "body": {
+        "h1": "Conecta los puntos del Spinosaurus — 74 puntos, más grande que el T-Rex",
+        "name": "Espinosaurus",
+        "tagline": "Más grande que el T-Rex",
+        "description": "Une los puntos para descubrir el dinosaurio carnívoro más grande jamás descubierto, ¡más grande incluso que el T-Rex! El Spinosaurus tenía una vela gigante en el lomo y cazaba peces en los ríos. Ideal para alumnos de 1.º y 2.º de primaria a los que les encantan los dinosaurios gigantes.",
+        "fun_fact": "El Spinosaurus podía medir hasta 59 pies de largo, ¡más que un autobús escolar!",
+        "faqs": [
+          {
+            "q": "¿Cuántos puntos tiene el puzle de unir puntos Spinosaurus?",
+            "a": "El imprimible de unir puntos Spinosaurus tiene 74 puntos numerados. Es un puzle de nivel medio, ideal para niños de 6–9 años (1.º a 3.º de primaria). Los niños conectan los puntos en orden numérico para revelar el dibujo terminado y luego pueden colorearlo."
+          },
+          {
+            "q": "¿Es gratis el imprimible de unir puntos Spinosaurus?",
+            "a": "Sí. La ficha Spinosaurus es 100% gratuita en DotToDotFreePrintables.com — sin cuenta, correo ni pago. Se descarga al instante como PDF listo para imprimir, en orientación vertical y horizontal, en tamaño Carta o A4."
+          },
+          {
+            "q": "¿Para qué edad es la ficha de unir puntos Spinosaurus?",
+            "a": "Con 74 puntos, el puzle Spinosaurus es ideal para 6–9 años (1.º a 3.º de primaria). Los más pequeños pueden completarlo contando con ayuda de un adulto, y los que ya cuentan con soltura lo terminan solos practicando la secuencia numérica hasta 74."
+          },
+          {
+            "q": "¿Qué habilidades desarrolla el puzle Spinosaurus?",
+            "a": "Conectar los 74 puntos del puzle Spinosaurus desarrolla el reconocimiento de números, el conteo hasta 74, el control del lápiz, la coordinación ojo-mano y la concentración — las mismas bases motrices finas que preparan la escritura. Colorear el dibujo final añade una recompensa creativa."
+          },
+          {
+            "q": "¿Cuál es un dato curioso sobre este puzle?",
+            "a": "El Spinosaurus podía medir hasta 59 pies de largo, ¡más que un autobús escolar! Los niños descubren datos como este mientras completan el puzle Spinosaurus."
+          }
+        ],
+        "dot_guide": {
+          "intro": "¡Apártate, T-Rex! Te presentamos al Spinosaurus, ¡el dinosaurio carnívoro más grande que jamás haya pisado la Tierra! Más largo que un autobús escolar y tan a gusto en el agua como en tierra, el Spinosaurus era un animal verdaderamente extraordinario. Su gigantesca aleta dorsal lo convierte en uno de los dinosaurios más espectaculares para dibujar. ¡Coge un lápiz y haz que este gigante prehistórico cobre vida en el papel!",
+          "sections": [
+            {
+              "range": "1–15",
+              "title": "La cabeza y las mandíbulas del cocodrilo",
+              "learn": "Empieza por el punto 1 y ve avanzando hasta el punto 15 para dibujar el cráneo largo y estrecho que se parece más al de un cocodrilo que al de un dinosaurio típico. Los niños se dan cuenta enseguida de lo diferente que es la forma de esta cabeza respecto a la del T-Rex, lo cual es una observación fantástica que hay que fomentar. El hocico alargado recompensa a quien lo dibuje con mano firme y paciente.",
+              "fact": "El Spinosaurus tenía dientes cónicos, ideales para capturar peces resbaladizos, muy diferentes de los dientes en forma de cuchilla del T-Rex. Sus fosas nasales estaban situadas en la parte superior del cráneo, como las de un cocodrilo, lo que le permitía mantener la mayor parte de la cabeza sumergida sin dejar de respirar. Una obra maestra de la ingeniería natural."
+            },
+            {
+              "range": "16–30",
+              "title": "La vela gigante",
+              "learn": "Continúa desde el punto 16 hasta el punto 30 para dibujar la imponente vela que se eleva de forma espectacular desde la columna vertebral. Esta es la parte más emocionante del rompecabezas: la vela puede llegar a medir hasta seis pies de altura, y los niños pueden trazar toda su impresionante altura. Los trazos largos y ascendentes les ayudan a ganar confianza en el movimiento de los brazos.",
+              "fact": "La aleta estaba sostenida por espinas que se extendían desde las vértebras, algunas de las cuales alcanzaban más de cinco pies de altura. Los científicos aún debaten cuál era su función: podría haber servido para regular la temperatura, almacenar grasa —como la joroba de un camello— o haber sido una espectacular estructura de exhibición para atraer a las parejas o intimidar a los rivales."
+            },
+            {
+              "range": "31–45",
+              "title": "El cuerpo",
+              "learn": "Traza los puntos del 31 al 45 para dibujar el cuerpo largo y musculoso. El Spinosaurus tenía un perfil corporal relativamente bajo en comparación con otros grandes carnívoros, lo que le permitía nadar y vadear en los ríos. Aquí, los niños practican dibujar una forma corporal más plana y horizontal, lo que supone un contraste refrescante con la postura erguida del T-Rex.",
+              "fact": "Los nuevos hallazgos fósiles revelan que el Spinosaurus tenía huesos cortos y densos —lo contrario de lo que tenían la mayoría de los dinosaurios—, lo que le confería menor flotabilidad y lo hacía más apto para la vida submarina, al igual que las aves buceadoras actuales. Es el único dinosaurio que conocemos que pasaba una parte importante de su tiempo nadando."
+            },
+            {
+              "range": "46–60",
+              "title": "Las robustas patas",
+              "learn": "Une los puntos del 46 al 60 para dibujar las robustas patas traseras que llevaban a este gigante por las orillas de los ríos. El Spinosaurus caminaba a menudo apoyado en las cuatro patas, a diferencia de la postura bípeda del T-Rex, así que aquí los niños practican una postura más ancha y asentada.",
+              "fact": "Estudios recientes del esqueleto sugieren que el Spinosaurus pudo desplazarse apoyado en las cuatro patas, al menos al vadear, lo que lo hace muy diferente de la mayoría de los grandes dinosaurios carnívoros, que caminaban erguidos sobre dos patas."
+            },
+            {
+              "range": "61–74",
+              "title": "La cola en forma de remo",
+              "learn": "Termina con los puntos del 61 al 74 para completar la cola larga, ancha y con forma de remo. La cola fue otro descubrimiento reciente que sorprendió a los paleontólogos, lo que la convertía en una herramienta eficaz para nadar. En esta última sección, los niños practican el dibujo de la cola ancha y plana.",
+              "fact": "Es probable que el Spinosaurus fuera un animal lento y torpe al caminar por tierra, pero un excelente nadador en los ríos. Su cola en forma de remo no se confirmó hasta 2020, gracias a unos nuevos fósiles hallados en Marruecos, lo que demuestra que incluso los dinosaurios más estudiados aún pueden sorprendernos."
+            }
+          ],
+          "outro": "¡Un trabajo magnífico en este reto de 74 puntos! Tu espinosaurio ya está listo para adentrarse en el río. Este es un rompecabezas estupendo para acompañar una visita a la biblioteca: hay libros fantásticos escritos específicamente para niños sobre la extraordinaria historia del espinosaurio. Descubre más <a href=\"/\">imprimibles de unir puntos</a> gratis para todas las edades.",
+          "color_schemes": []
+        }
+      }
+    },
+    {
+      "slug": "brachiosaurus",
+      "header": {
+        "title": "Braquiosaurio para Unir Puntos: 38 Puntos Imponentes y Gratis",
+        "meta_description": "El Brachiosaurus llevaba su pequeña cabeza sobre un cuello imponente. Conecta 38 puntos para revelar a este gigante jurásico en un rompecabezas diseñado para niños de 5 a 9 años.",
+        "og": {
+          "title": "Braquiosaurio para Unir Puntos: 38 Puntos Imponentes y Gratis",
+          "description": "El Brachiosaurus llevaba su pequeña cabeza sobre un cuello imponente. Conecta 38 puntos para revelar a este gigante jurásico en un rompecabezas diseñado para niños de 5 a 9 años.",
+          "image_alt": "Imponente Braquiosaurio alcanzando la altura de las copas de los arboles en esta ficha de unir puntos de 38 puntos imprimibles"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Braquiosaurio",
+          "description": "El Brachiosaurus llevaba su pequeña cabeza sobre un cuello imponente. Conecta 38 puntos para revelar a este gigante jurásico en un rompecabezas diseñado para niños de 5 a 9 años.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
+      },
+      "body": {
+        "h1": "Conecta los puntos del Brachiosaurus — 38 puntos del gigante jurásico",
+        "name": "Braquiosaurio",
+        "tagline": "El gigante bondadoso del Jurásico",
+        "description": "Conecta los puntos para dibujar el dinosaurio más alto y pacífico del período jurásico. El Brachiosaurus tenía un cuello largo como una jirafa y patas delanteras más altas que la mayoría de las casas. Una hoja de trabajo perfecta de conecta los puntos para niños que aman los grandes dinosaurios amigables.",
+        "fun_fact": "El braquiosaurio podía llegar a pesar hasta 60 toneladas, ¡lo mismo que 10 elefantes!",
+        "faqs": [
+          {
+            "q": "¿Cuántos puntos tiene el puzle de unir puntos Brachiosaurus?",
+            "a": "El imprimible de unir puntos Brachiosaurus tiene 38 puntos numerados. Es un puzle de nivel fácil, ideal para niños de 4–6 años (preescolar e infantil). Los niños conectan los puntos en orden numérico para revelar el dibujo terminado y luego pueden colorearlo."
+          },
+          {
+            "q": "¿Es gratis el imprimible de unir puntos Brachiosaurus?",
+            "a": "Sí. La ficha Brachiosaurus es 100% gratuita en DotToDotFreePrintables.com — sin cuenta, correo ni pago. Se descarga al instante como PDF listo para imprimir, en orientación vertical y horizontal, en tamaño Carta o A4."
+          },
+          {
+            "q": "¿Para qué edad es la ficha de unir puntos Brachiosaurus?",
+            "a": "Con 38 puntos, el puzle Brachiosaurus es ideal para 4–6 años (preescolar e infantil). Los más pequeños pueden completarlo contando con ayuda de un adulto, y los que ya cuentan con soltura lo terminan solos practicando la secuencia numérica hasta 38."
+          },
+          {
+            "q": "¿Qué habilidades desarrolla el puzle Brachiosaurus?",
+            "a": "Conectar los 38 puntos del puzle Brachiosaurus desarrolla el reconocimiento de números, el conteo hasta 38, el control del lápiz, la coordinación ojo-mano y la concentración — las mismas bases motrices finas que preparan la escritura. Colorear el dibujo final añade una recompensa creativa."
+          },
+          {
+            "q": "¿Cuál es un dato curioso sobre este puzle?",
+            "a": "El braquiosaurio podía llegar a pesar hasta 60 toneladas, ¡lo mismo que 10 elefantes! Los niños descubren datos como este mientras completan el puzle Brachiosaurus."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Imagina una criatura cuyas patas delanteras fueran más altas que un edificio de dos plantas. Ese es el braquiosaurio, uno de los animales más altos que jamás haya existido. A diferencia de la mayoría de los dinosaurios, sus patas delanteras eran más largas que las traseras, lo que le confería una postura característica, similar a la de una jirafa, perfecta para alcanzar las copas de los árboles prehistóricos. ¡Unamos los puntos y conozcamos a este imponente y apacible gigante!",
+          "sections": [
+            {
+              "range": "1–6",
+              "title": "La cabecita",
+              "learn": "Empieza por el punto 1 y une hasta el punto 6 para trazar la cabeza pequeña y cuadrada que se alza en lo más alto de ese cuello extraordinario. Al igual que el brontosaurio, el braquiosaurio tenía una cabeza relativamente pequeña en comparación con el tamaño de su cuerpo. Aquí los niños practican cómo dibujar puntos compactos y muy juntos: un comienzo preciso para un gran rompecabezas.",
+              "fact": "Las fosas nasales del braquiosaurio estaban situadas en la parte superior de la cabeza, cerca de los ojos. En su día, los científicos pensaban que esto significaba que vivía bajo el agua, como un hipopótamo, y que respiraba desde las profundidades. Ahora sabemos que era un animal totalmente terrestre: esas fosas nasales situadas tan arriba no eran más que una peculiaridad de la forma de su cráneo."
+            },
+            {
+              "range": "7–18",
+              "title": "El cuello altísimo",
+              "learn": "Continúa desde el punto 7 hasta el punto 18 para trazar el cuello largo hacia arriba con un ángulo pronunciado. Esta es la parte más espectacular del dibujo: el cuello se eleva bruscamente, a diferencia del cuello más horizontal del brontosaurio. Los niños aprenden a inclinar los trazos del lápiz con decisión hacia arriba, lo que requiere mucha confianza en sí mismos.",
+              "fact": "El braquiosaurio podía alcanzar hasta 40 pies de altura, ¡lo suficiente como para asomarse a una ventana del cuarto piso! Para bombear sangre hasta lo alto de ese cuello se necesitaba un corazón enorme. Los científicos estiman que su corazón pesaba unas 400 libras, más o menos lo mismo que el motor de una moto grande."
+            },
+            {
+              "range": "19–30",
+              "title": "El cuerpo",
+              "learn": "Traza los puntos del 19 al 30 para completar el cuerpo grande y con forma de barril. Fíjate en cómo el lomo desciende desde los hombros delanteros, más altos, hasta las caderas, más bajas, al contrario que en la mayoría de los saurópodos. Este lomo inclinado es una de las características más distintivas del braquiosaurio, y detectarlo es un excelente ejercicio de observación.",
+              "fact": "El braquiosaurio podía llegar a pesar hasta 60 toneladas, lo mismo que diez elefantes africanos. Necesitaba comer hasta 880 libras de vegetación cada día solo para mantener ese extraordinario volumen corporal. Eso equivale, más o menos, a comerse 1.760 bolsas de ensalada. Cada. Único. Día."
+            },
+            {
+              "range": "31–38",
+              "title": "Las cuatro poderosas patas",
+              "learn": "Termina uniendo los puntos del 31 al 38 para dibujar las cuatro patas. Las patas delanteras son notablemente más largas y están más erguidas que las traseras; los niños que las observen con atención se darán cuenta de esta inclinación. Ocho puntos suponen un final que requiere concentración y resulta gratificante, y que fomenta la atención al detalle en la recta final de un rompecabezas.",
+              "fact": "Cada pata del braquiosaurio tenía cinco dedos, con una gran garra en el dedo interior de cada pata delantera. Las patas eran anchas y redondeadas, con una almohadilla carnosa y gruesa en la parte inferior —como la pata de un elefante— diseñada para repartir el enorme peso del animal sobre el blando suelo jurásico."
+            }
+          ],
+          "outro": "¡Qué trabajo tan maravilloso! ¡Tu braquiosaurio se alza hacia el cielo! Compáralo con el rompecabezas del brontosaurio y pide a tu hijo que busque las diferencias. Detectar diferencias visuales entre dos cosas similares es una excelente habilidad científica para los más pequeños. Encuentra más en nuestra colección de <a href=\"/dinosaurs/\">imprimibles de unir puntos de dinosaurios</a>.",
+          "color_schemes": []
+        }
+      }
+    },
+    {
+      "slug": "ankylosaurus",
+      "header": {
+        "title": "Anquilosaurio para Unir Puntos: PDF Acorazado Rapido de 32 Puntos",
+        "meta_description": "Incluso el Ankylosaurus tenía armadura ósea sobre sus párpados. Revela su cuerpo protegido y cola mazo a través de 32 puntos en un rompecabezas para niños de 5 a 8 años.",
+        "og": {
+          "title": "Anquilosaurio para Unir Puntos: PDF Acorazado Rapido de 32 Puntos",
+          "description": "Incluso el Ankylosaurus tenía armadura ósea sobre sus párpados. Revela su cuerpo protegido y cola mazo a través de 32 puntos en un rompecabezas para niños de 5 a 8 años.",
+          "image_alt": "Anquilosaurio acorazado y su maza en la cola, formados al unir 32 puntos en esta ficha imprimible"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Anquilosaurio",
+          "description": "Incluso el Ankylosaurus tenía armadura ósea sobre sus párpados. Revela su cuerpo protegido y cola mazo a través de 32 puntos en un rompecabezas para niños de 5 a 8 años.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
+      },
+      "body": {
+        "h1": "Conecta los puntos del Ankylosaurus — 32 puntos de cola acorazada",
+        "name": "Anquilosaurio",
+        "tagline": "El tanque blindado del mundo de los dinosaurios",
+        "description": "Conecta los puntos para revelar al Ankylosaurus — ¡la superestrella acorazada del mundo de los dinosaurios! Todo su cuerpo estaba cubierto de placas óseas, y su cola terminaba en un enorme y pesado mazo. Esta hoja de trabajo es excelente para jardín de infantes y primer grado.",
+        "fun_fact": "¡Incluso los párpados del anquilosaurio tenían placas óseas de protección!",
+        "faqs": [
+          {
+            "q": "¿Cuántos puntos tiene el puzle de unir puntos Anquilosaurio?",
+            "a": "El imprimible de unir puntos Anquilosaurio tiene 32 puntos numerados. Es un puzle de nivel fácil, ideal para niños de 4–6 años (preescolar e infantil). Los niños conectan los puntos en orden numérico para revelar el dibujo terminado y luego pueden colorearlo."
+          },
+          {
+            "q": "¿Es gratis el imprimible de unir puntos Anquilosaurio?",
+            "a": "Sí. La ficha Anquilosaurio es 100% gratuita en DotToDotFreePrintables.com — sin cuenta, correo ni pago. Se descarga al instante como PDF listo para imprimir, en orientación vertical y horizontal, en tamaño Carta o A4."
+          },
+          {
+            "q": "¿Para qué edad es la ficha de unir puntos Anquilosaurio?",
+            "a": "Con 32 puntos, el puzle Anquilosaurio es ideal para 4–6 años (preescolar e infantil). Los más pequeños pueden completarlo contando con ayuda de un adulto, y los que ya cuentan con soltura lo terminan solos practicando la secuencia numérica hasta 32."
+          },
+          {
+            "q": "¿Qué habilidades desarrolla el puzle Anquilosaurio?",
+            "a": "Conectar los 32 puntos del puzle Anquilosaurio desarrolla el reconocimiento de números, el conteo hasta 32, el control del lápiz, la coordinación ojo-mano y la concentración — las mismas bases motrices finas que preparan la escritura. Colorear el dibujo final añade una recompensa creativa."
+          },
+          {
+            "q": "¿Cuál es un dato curioso sobre este puzle?",
+            "a": "¡Incluso los párpados del anquilosaurio tenían placas óseas de protección! Los niños descubren datos como este mientras completan el puzle Anquilosaurio."
+          }
+        ],
+        "dot_guide": {
+          "intro": "¿Qué pasa cuando la naturaleza decide que un dinosaurio necesita una armadura completa? El resultado es el Anquilosaurio: cubierto de placas óseas desde la nariz hasta la cola, con una enorme maza en el extremo de la cola que le sirve para mantener el equilibrio y protegerse. Este rompecabezas de 32 piezas es muy gratificante de completar, ¡y el resultado es uno de los dinosaurios más impresionantes de la colección!",
+          "sections": [
+            {
+              "range": "1–7",
+              "title": "La cabeza blindada",
+              "learn": "Empieza por el punto 1 y une hasta el punto 7 para trazar el cráneo ancho y fuertemente blindado. La cabeza es ancha y plana, con una forma muy diferente a la de los hocicos puntiagudos de los dinosaurios depredadores. Aquí los niños aprenden a dibujar una forma ancha y baja, lo que supone un gran contraste con los cráneos altos y estrechos que quizá hayan dibujado antes.",
+              "fact": "Incluso los párpados del Ankylosaurus tenían placas óseas de protección, lo que quizá sea el mejor ejemplo de cómo la evolución puede llevarse una buena idea un poco demasiado lejos. El cráneo estaba tan fuertemente fusionado que parece casi carecer de rasgos distintivos, como un casco óseo que envuelve por completo el cerebro."
+            },
+            {
+              "range": "8–18",
+              "title": "La espalda blindada",
+              "learn": "Continúa desde el punto 8 hasta el punto 18 para dibujar el lomo ancho y redondeado, cubierto de filas de placas óseas, púas y protuberancias llamadas osteodermos. Esta es la sección más detallada desde el punto de vista visual, y los niños empiezan a darse cuenta de lo bien protegido que estaba este animal. Es una gran oportunidad para hablar de por qué se desarrolló la armadura en la naturaleza.",
+              "fact": "La coraza que cubría al anquilosaurio estaba formada por huesos incrustados directamente en la piel —denominados osteodermos— dispuestos en filas desde la cabeza hasta la cola. Este tipo de coraza se denomina coraza osteodérmica, y es del mismo tipo que la que presentan los cocodrilos y los armadillos actuales."
+            },
+            {
+              "range": "19–26",
+              "title": "Las piernas cortas y robustas",
+              "learn": "Traza los puntos del 19 al 26 para dibujar las cuatro patas cortas y poderosas. El anquilosaurio tenía una complexión baja respecto al suelo de forma intencionada: un centro de gravedad bajo hacía muy difícil que los depredadores lo volcaran. Los niños suelen establecer la comparación con una tortuga, lo que da pie a una interesante charla sobre la evolución convergente.",
+              "fact": "El anquilosaurio medía unos 20 pies de largo, pero solo alcanzaba unos 5 pies de altura a la cadera, menos que la estatura de la mayoría de los adultos. Sus patas eran tan robustas y su cuerpo tan compacto que incluso un T-Rex habría tenido enormes dificultades para intentar atacarlo desde arriba."
+            },
+            {
+              "range": "27–32",
+              "title": "La increíble cola del club",
+              "learn": "Termina uniendo los puntos del 27 al 32 para dibujar la cola y su característico mazo en el extremo. Este es el final más gratificante de todos los rompecabezas de la colección: ese mazo es lo que hace que el anquilosaurio sea tan único. Son solo seis puntos, pero cada uno de ellos contribuye a crear una de las características más extraordinarias de la naturaleza.",
+              "fact": "La cola en forma de maza estaba formada por vértebras fusionadas y podía llegar a pesar hasta 100 libras, ¡más que la mayoría de los perros adultos! Los científicos creen que el Ankylosaurus balanceaba la cola para mantener a otros dinosaurios a una distancia segura. ¡Un brillante escudo natural para un pacífico herbívoro!"
+            }
+          ],
+          "outro": "¡Qué bien has hecho al completar los 32 puntos! Ahora pinta las placas de la armadura en tonos grises y marrones, o da rienda suelta a tu imaginación con tus propios diseños. La armadura de los animales de la naturaleza tiene todo tipo de colores, ¡así que tu anquilosaurio puede tener el aspecto que tú imagines! Perfecto para el aula — mira más <a href=\"/playgrounds/\">fichas de unir puntos</a>.",
+          "color_schemes": []
+        }
+      }
+    },
+    {
+      "slug": "pterodactyl-dot-to-dot-puzzle",
+      "header": {
+        "title": "Pterodactilo para Unir Puntos: 67 Puntos Sobre Mares Antiguos",
+        "meta_description": "El Pterodáctilo era un pterosaurio volador, no un dinosaurio. Conecta 67 puntos con este PDF imprimible gratuito de conecta los puntos para niños de 6 a 9 años.",
+        "og": {
+          "title": "Pterodactilo para Unir Puntos: 67 Puntos Sobre Mares Antiguos",
+          "description": "El Pterodáctilo era un pterosaurio volador, no un dinosaurio. Conecta 67 puntos con este PDF imprimible gratuito de conecta los puntos para niños de 6 a 9 años.",
+          "image_alt": "Pterodactilo volando con las alas extendidas, sostenido por 67 puntos para unir e imprimir"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Pterodáctilo",
+          "description": "El Pterodáctilo era un pterosaurio volador, no un dinosaurio. Conecta 67 puntos con este PDF imprimible gratuito de conecta los puntos para niños de 6 a 9 años.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
+      },
+      "body": {
+        "h1": "Conecta los puntos del Pterodáctilo: 67 puntos sobre mares antiguos",
+        "name": "Pterodáctilo",
+        "tagline": "El dinosaurio volador que a los niños les encanta",
+        "description": "¡Une los puntos para dibujar el reptil volador más famoso del mundo prehistórico! Los pterodáctilos surcaban los cielos sobre los antiguos océanos y ríos en busca de peces. Esta sencilla ficha de 24 puntos es perfecta para niños pequeños y en edad preescolar.",
+        "fun_fact": "Los pterodáctilos no eran, técnicamente hablando, dinosaurios: ¡eran reptiles voladores llamados pterosaurios!",
+        "faqs": [
+          {
+            "q": "¿Cuántos puntos tiene el puzle de unir puntos Pterodáctilo?",
+            "a": "El imprimible de unir puntos Pterodáctilo tiene 24 puntos numerados. Es un puzle de nivel fácil, ideal para niños de 4–6 años (preescolar e infantil). Los niños conectan los puntos en orden numérico para revelar el dibujo terminado y luego pueden colorearlo."
+          },
+          {
+            "q": "¿Es gratis el imprimible de unir puntos Pterodáctilo?",
+            "a": "Sí. La ficha Pterodáctilo es 100% gratuita en DotToDotFreePrintables.com — sin cuenta, correo ni pago. Se descarga al instante como PDF listo para imprimir, en orientación vertical y horizontal, en tamaño Carta o A4."
+          },
+          {
+            "q": "¿Para qué edad es la ficha de unir puntos Pterodáctilo?",
+            "a": "Con 24 puntos, el puzle Pterodáctilo es ideal para 4–6 años (preescolar e infantil). Los más pequeños pueden completarlo contando con ayuda de un adulto, y los que ya cuentan con soltura lo terminan solos practicando la secuencia numérica hasta 24."
+          },
+          {
+            "q": "¿Qué habilidades desarrolla el puzle Pterodáctilo?",
+            "a": "Conectar los 24 puntos del puzle Pterodáctilo desarrolla el reconocimiento de números, el conteo hasta 24, el control del lápiz, la coordinación ojo-mano y la concentración — las mismas bases motrices finas que preparan la escritura. Colorear el dibujo final añade una recompensa creativa."
+          },
+          {
+            "q": "¿Cuál es un dato curioso sobre este puzle?",
+            "a": "Los pterodáctilos no eran, técnicamente hablando, dinosaurios: ¡eran reptiles voladores llamados pterosaurios! Los niños descubren datos como este mientras completan el puzle Pterodáctilo."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Aquí tienes un dato curioso y genial que compartir antes de empezar: ¡los pterodáctilos no eran en realidad dinosaurios en absoluto! Eran reptiles voladores llamados pterosaurios, que convivían con los dinosaurios pero pertenecían a un grupo completamente distinto. Además, fueron los primeros vertebrados —animales con columna vertebral— en desarrollar el vuelo propulsado. Con 67 puntos, este rompecabezas supone todo un reto, ¡así que ponte cómodo y disfruta del proceso!",
+          "sections": [
+            {
+              "range": "1–10",
+              "title": "La cabeza y el pico largo",
+              "learn": "Empieza por el punto 1 y une hasta el punto 10 para dibujar el pico largo y puntiagudo y la característica cabeza con cresta. La cabeza del pterodáctilo es una de las formas más insólitas del mundo natural: larga, estrecha y, a menudo, rematada por una cresta espectacular. Aquí los niños practican con una forma muy alargada, lo que supone un reto estimulante.",
+              "fact": "Muchas especies de pterosaurios tenían grandes crestas en la cabeza, formadas por hueso y tejido blando. Los científicos creen que estas crestas se utilizaban con fines de exhibición: para atraer a las parejas y comunicarse con otros miembros del grupo. Algunas crestas eran tan grandes como el propio cráneo, lo que hacía que la cabeza tuviera un tamaño casi cómicamente desproporcionado."
+            },
+            {
+              "range": "11–24",
+              "title": "Las Alas",
+              "learn": "Continúa desde el punto 11 hasta el punto 24 para trazar las enormes alas. Las alas del pterodáctilo estaban formadas por una membrana de piel y músculo que se extendía desde un cuarto dedo enormemente alargado hasta el cuerpo. Los niños aprenden a dibujar un arco amplio y extenso, uno de los movimientos de lápiz más gratificantes de toda la colección.",
+              "fact": "La membrana alar del pterodáctilo era fina, pero increíblemente resistente, y estaba reforzada por diminutas fibras que la atravesaban como si fuera un tejido. A diferencia de las alas de los murciélagos, que se unen al tobillo, las alas de los pterosaurios se unían más arriba en la pata, lo que les confería una postura de vuelo ligeramente diferente, más parecida a la de un ala delta que a la de un pájaro."
+            },
+            {
+              "range": "25–40",
+              "title": "Los dedos del cuerpo y de las alas",
+              "learn": "Traza los puntos del 25 al 40 para completar el cuerpo compacto y traza la extraordinaria estructura de las alas y los dedos. Esta sección es la que tiene más puntos del rompecabezas y requiere una concentración constante; es un ejercicio maravilloso de perseverancia. Recuerda a los niños que cada punto supone un avance.",
+              "fact": "La envergadura de un pterodáctilo podía alcanzar unos 3 pies —más o menos el tamaño de una gaviota grande—, pero algunos de sus parientes, como el Quetzalcoatlus, tenían envergaduras de hasta 36 pies, más anchas que las de un avión pequeño. El tamaño de los pterosaurios variaba desde el de un gorrión hasta dimensiones absolutamente asombrosas."
+            },
+            {
+              "range": "41–54",
+              "title": "Las garras y las patas",
+              "learn": "Une los puntos del 41 al 54 para dibujar las garras de las puntas de las alas y las patas traseras. Los pterodáctilos tenían garras en las alas para trepar y agarrarse, algo que a los niños suele sorprenderles. Estas secciones requieren movimientos más pequeños y precisos, lo que resulta ideal para desarrollar la precisión motora fina en los niños mayores.",
+              "fact": "Los pterodáctilos podían caminar a cuatro patas por el suelo, plegando sus alas cuidadosamente como si fueran un paraguas. Las huellas halladas recientemente demuestran que se sentían más a gusto en tierra de lo que se pensaba: se desplazaban contoneándose por las playas y las riberas de los ríos en busca de peces, insectos y pequeños animales."
+            },
+            {
+              "range": "55–67",
+              "title": "La pose de la cola y el aterrizaje",
+              "learn": "Completa el rompecabezas uniendo los puntos del 55 al 67 para terminar la cola y plasmar la pose completa, ya sea en vuelo o aterrizando. El pterodáctilo tenía una cola muy corta en comparación con otros pterosaurios. Aquí los niños practican cómo dar un toque final con atención y cuidado: trece puntos para dar forma a toda esta magnífica criatura.",
+              "fact": "Es probable que los pterodáctilos se elevaran gracias a las corrientes térmicas de aire cálido, al igual que las águilas y los buitres actuales, lo que les permitía ahorrar energía en largas distancias. Sus huesos huecos —increíblemente ligeros pero sorprendentemente resistentes— eran esenciales para el vuelo y constituyen una de las características clave que comparten con las aves actuales."
+            }
+          ],
+          "outro": "¡Qué perseverancia tan increíble! 67 puntos es todo un logro del que estar orgulloso. Tu pterodáctilo está listo para alzar el vuelo. ¿Por qué no intentas dibujar tu propia escena prehistórica voladora a su alrededor? Un río, unas montañas, quizá un pez saltando... El mundo jurásico está en tus manos. ¿Listo para algo aún más difícil? Prueba nuestros <a href=\"/usa-250/\">imprimibles de unir puntos extremos</a>.",
+          "color_schemes": []
+        }
+      }
+    },
+    {
+      "slug": "allosaurus",
+      "header": {
+        "title": "Conecta los puntos del Allosaurus — 42 puntos de desafío jurásico",
+        "meta_description": "El Allosaurus gobernó el Jurásico mucho antes de que apareciera el T-Rex. Sigue 42 puntos alrededor de este poderoso depredador en un rompecabezas diseñado para niños de 6 a 10 años.",
+        "og": {
+          "title": "Conecta los puntos del Allosaurus — 42 puntos de desafío jurásico",
+          "description": "El Allosaurus gobernó el Jurásico mucho antes de que apareciera el T-Rex. Sigue 42 puntos alrededor de este poderoso depredador en un rompecabezas diseñado para niños de 6 a 10 años.",
+          "image_alt": "Feroz Alosaurio mostrando sus fuertes mandibulas, formado al unir 42 puntos imprimibles"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Alosaurus",
+          "description": "El Allosaurus gobernó el Jurásico mucho antes de que apareciera el T-Rex. Sigue 42 puntos alrededor de este poderoso depredador en un rompecabezas diseñado para niños de 6 a 10 años.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
+      },
+      "body": {
+        "h1": "Conecta los puntos del Allosaurus — 42 puntos de depredador jurásico",
+        "name": "Alosaurus",
+        "tagline": "El león del Jurásico",
+        "description": "Conecta los puntos para revelar al Allosaurus — ¡el dinosaurio más famoso del período jurásico, incluso antes de que existiera el T-Rex! Tenía dientes fuertes, mandíbulas poderosas y puede que viviera en grupos. Esta hoja de trabajo más difícil desafía a los estudiantes de 1er a 3er grado.",
+        "fun_fact": "¡Se han encontrado más de 40 fósiles de Allosaurus en un único yacimiento de Utah!",
+        "faqs": [
+          {
+            "q": "¿Cuántos puntos tiene el puzle de unir puntos Allosaurus?",
+            "a": "El imprimible de unir puntos Allosaurus tiene 42 puntos numerados. Es un puzle de nivel fácil a medio, ideal para niños de 5–8 años (de infantil a 2.º de primaria). Los niños conectan los puntos en orden numérico para revelar el dibujo terminado y luego pueden colorearlo."
+          },
+          {
+            "q": "¿Es gratis el imprimible de unir puntos Allosaurus?",
+            "a": "Sí. La ficha Allosaurus es 100% gratuita en DotToDotFreePrintables.com — sin cuenta, correo ni pago. Se descarga al instante como PDF listo para imprimir, en orientación vertical y horizontal, en tamaño Carta o A4."
+          },
+          {
+            "q": "¿Para qué edad es la ficha de unir puntos Allosaurus?",
+            "a": "Con 42 puntos, el puzle Allosaurus es ideal para 5–8 años (de infantil a 2.º de primaria). Los más pequeños pueden completarlo contando con ayuda de un adulto, y los que ya cuentan con soltura lo terminan solos practicando la secuencia numérica hasta 42."
+          },
+          {
+            "q": "¿Qué habilidades desarrolla el puzle Allosaurus?",
+            "a": "Conectar los 42 puntos del puzle Allosaurus desarrolla el reconocimiento de números, el conteo hasta 42, el control del lápiz, la coordinación ojo-mano y la concentración — las mismas bases motrices finas que preparan la escritura. Colorear el dibujo final añade una recompensa creativa."
+          },
+          {
+            "q": "¿Cuál es un dato curioso sobre este puzle?",
+            "a": "¡Se han encontrado más de 40 fósiles de Allosaurus en un único yacimiento de Utah! Los niños descubren datos como este mientras completan el puzle Allosaurus."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Mucho antes de que el T-Rex dominara el Cretácico, el Allosaurus era el dinosaurio de gran tamaño más impresionante de la Tierra. Más rápido, más ágil y, posiblemente, más inteligente que muchos de los dinosaurios que le rodeaban, este explorador del Jurásico fue la estrella de su época. Con 42 puntos y un nivel de dificultad «difícil», este rompecabezas pone a prueba las habilidades para contar y la concentración; ¡es perfecto para niños mayores que estén preparados para un auténtico reto!",
+          "sections": [
+            {
+              "range": "1–8",
+              "title": "El director",
+              "learn": "Empieza por el punto 1 y une hasta el punto 8 para dibujar la calavera grande y profunda, con sus característicos salientes sobre los ojos. El Allosaurus tenía crestas óseas que se extendían desde el hocico hasta por encima de los ojos, un detalle que le da un aspecto realmente feroz. Los niños practican trazando la forma de una calavera marcada y angulosa, con varios cambios de dirección interesantes.",
+              "fact": "El Allosaurus tenía una mandíbula muy peculiar: los científicos creen que propinaba una mordedura grande y potente impulsando la cabeza hacia abajo con los fuertes músculos de su cuello, en lugar de limitarse a morder bruscamente como la mayoría de los animales. Sus dientes dentados eran perfectos para un carnívoro de su tamaño, lo que lo convertía en uno de los cazadores más eficaces del período Jurásico."
+            },
+            {
+              "range": "9–18",
+              "title": "El cuello y los hombros",
+              "learn": "Continúa desde el punto 9 hasta el punto 18 para trazar el cuello robusto y los hombros anchos. El Allosaurus tenía un cuello notablemente musculoso que le proporcionaba una mordida increíblemente potente. Esta sección requiere trazos curvos amplios y seguros; los niños que se precipitan suelen perder precisión en esta parte, por lo que es ideal para practicar la paciencia.",
+              "fact": "El Allosaurus medía entre 28 y 40 pies de largo y pesaba hasta 2 toneladas, mucho menos que el T-Rex, pero era mucho más ágil. Los científicos creen que esta agilidad, junto con un posible comportamiento gregario, le permitía moverse junto a animales que le superaban en tamaño muchas veces, ¡incluidos los saurópodos gigantes!"
+            },
+            {
+              "range": "19–28",
+              "title": "El cuerpo y los brazos",
+              "learn": "Traza los puntos del 19 al 28 para dibujar el cuerpo musculoso y los poderosos brazos de tres dedos. A diferencia del T-Rex, el Allosaurus tenía unos brazos que realmente podía utilizar: fuertes y perfectos para una vida activa en el Jurásico. Los niños practican con una sección central muy detallada, desarrollando el tipo de atención sostenida que exige un rompecabezas de dificultad 3.",
+              "fact": "En la cantera de dinosaurios de Cleveland-Lloyd, en Utah, se han hallado más de 60 ejemplares individuales de Allosaurus, lo que supone, con diferencia, la mayor concentración de huesos de depredadores del Jurásico jamás descubierta. El motivo por el que tantos acabaron en un mismo lugar sigue siendo uno de los misterios más debatidos de la paleontología."
+            },
+            {
+              "range": "29–36",
+              "title": "Las piernas poderosas",
+              "learn": "Une los puntos del 29 al 36 para dibujar las patas largas y poderosas. El Allosaurus estaba diseñado tanto para la velocidad como para la fuerza: sus patas eran proporcionalmente más largas que las del T-Rex, lo que lo convertía en un cazador más rápido y más ágil. Los niños practican trazos seguros y descendentes que transmiten la complexión atlética del animal.",
+              "fact": "Es probable que el Allosaurus pudiera correr a una velocidad de entre 20 y 30 millas por hora, más rápido de lo que la mayoría de los humanos es capaz de correr. Algunos científicos creen que utilizaba tácticas de emboscada, escondiéndose entre la vegetación antes de lanzarse a la carga a gran velocidad. Se han encontrado huellas fósiles que muestran a un Allosaurus acechando a un saurópodo, lo que nos permite vislumbrar, de forma excepcional, su comportamiento real a la hora de cazar."
+            },
+            {
+              "range": "37–42",
+              "title": "La cola",
+              "learn": "Completa el rompecabezas uniendo los puntos del 37 al 42 para colocar la cola larga y rígida en su sitio. Seis puntos para terminar un rompecabezas complicado: anima a los niños a trazar estas últimas líneas de la forma más limpia y segura posible. Un buen final es tan satisfactorio como un buen comienzo.",
+              "fact": "El Allosaurus vivió hace aproximadamente 155 millones de años, casi 90 millones de años antes que el T-Rex. Si se comparan cronológicamente un Allosaurus y un T-Rex, el Allosaurus está, en realidad, más cerca en la escala geológica del Stegosaurus al que cazaba que del T-Rex, que apareció después de él. El tiempo en la prehistoria más remota es realmente abrumador."
+            }
+          ],
+          "outro": "¡Qué gran logro! Has resuelto un rompecabezas de dificultad 3 y has ganado. Cuarenta y dos puntos, cinco secciones y un formidable depredador jurásico. Este merece la pena colgarlo en la pared. Para una prueba aún mayor, explora nuestros <a href=\"/usa-250/\">imprimibles de unir puntos extremos</a>.",
+          "color_schemes": []
+        }
+      }
+    }
+  ]
+}

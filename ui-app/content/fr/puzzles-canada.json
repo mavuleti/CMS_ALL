@@ -1,237 +1,456 @@
-[
-  {
-    "slug": "canada-canoe-dot-to-dot-puzzle",
-    "name": "Canoë canadien",
-    "seoH1": "Canadien Canoë Point à Point — Pagayez à Travers 69 Points",
-    "tagline": "Pagayez sur les lacs et rivières du Canada",
-    "description": "Reliez 69 points pour révéler un canoë canadien et sa pagaie. Ce jeu intermédiaire développe la suite numérique et la maîtrise du crayon.",
-    "seoDescription": "Reliez 69 points pour dessiner un canoë canadien et sa pagaie dans cette fiche gratuite pour enfants de 5 à 9 ans. Bien avant les routes, le canoë permettait de traverser les lacs et rivières du Canada — imprimez le PDF au format A4 et embarquez pour la collection 2026. Une fiche appréciée dans les classes du monde entier.",
-    "funFact": "Les canoës permettaient de transporter personnes et provisions sur les lacs et rivières là où aucune route n’existait.",
-    "seoImageAlt": "Canoë canadien et sa pagaie apparaissant au fil de 69 points à relier",
-    "dotGuide": {
-      "intro": "Le canoë est une embarcation emblématique du Canada. Les peuples autochtones ont créé des modèles adaptés aux eaux et aux matériaux de chaque région. Trouvez le point 1 et commencez ce voyage de 69 points !",
-      "sections": [
-        {
-          "range": "1–14",
-          "title": "La pagaie et le bord supérieur",
-          "learn": "Reliez 1 à 14 pour tracer la pagaie et le bord du canoë. Gardez un trait régulier jusqu’à la courbe de la proue.",
-          "fact": "Une pagaie possède une poignée, un manche et une pale qui pousse l’eau pour avancer et diriger le canoë."
-        },
-        {
-          "range": "15–28",
-          "title": "La proue relevée",
-          "learn": "Continuez de 15 à 28 autour de l’avant du canoë. Ralentissez lorsque le contour change de direction.",
-          "fact": "La proue est l’avant du canoë et la poupe l’arrière. Leurs formes relevées facilitent le passage dans les vagues."
-        },
-        {
-          "range": "29–42",
-          "title": "La pale et la coque",
-          "learn": "Tracez 29 à 42 autour de la pale et du bas de la coque, avec des courbes contrôlées.",
-          "fact": "La Commission géologique du Canada utilisait le canoë pour ses premières explorations nordiques. Découvrez son <a href=\"https://ised-isde.canada.ca/site/science/fr/ressources-pedagogiques/histoire-commission-geologique-canada-175-objets/26-canot-1874\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">canot de 1874</a>."
-        },
-        {
-          "range": "43–56",
-          "title": "Le long dessous",
-          "learn": "Reliez 43 à 56 sous la coque. Les grands écarts demandent une main stable et un bon suivi visuel.",
-          "fact": "Les peuples autochtones fabriquaient différents canoës en écorce de bouleau, en cèdre, en peaux ou en bois façonné."
-        },
-        {
-          "range": "57–69",
-          "title": "La poupe et la fin",
-          "learn": "Terminez de 57 à 69 autour de la poupe, puis vérifiez que toute la coque est reliée.",
-          "fact": "La météo sur l’eau change vite : préparation et équipement sont essentiels. Consultez <a href=\"https://parcs.canada.ca/voyage-travel/experiences/sports/pagayer-paddling\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Parcs Canada</a>."
+{
+  "collection": {
+    "header": {
+      "title": "Points à relier Canada gratuits pour enfants",
+      "meta_description": "Découvrez le Canada avec des fiches gratuites de points à relier : animaux canadiens, feuille d'érable et plus, prêtes à imprimer.",
+      "og": {
+        "title": "Points à relier Canada gratuits",
+        "description": "Fiches gratuites du Canada à imprimer pour enfants.",
+        "image": "/images/canada-maple-leaf-puzzle.webp"
+      },
+      "json_ld": {
+        "type": "CollectionPage",
+        "name": "Canada",
+        "description": "Paddle a Canadian canoe, trace the maple leaf, then meet a polar bear, moose, and raccoon. This free printable collection turns Canadian symbols and wildlife into hands-on number practice.",
+        "image": "/images/canada-maple-leaf-puzzle.webp",
+        "main_entity": {
+          "type": "ItemList",
+          "item_source": "puzzles"
         }
-      ],
-      "outro": "Excellent, votre canoë est prêt ! Ajoutez des vagues, un lac et une forêt. Découvrez les activités de <a href=\"https://parcs.canada.ca/voyage-travel/experiences/sports/pagayer-paddling\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Parcs Canada</a>, puis essayez un autre <a href=\"/fr/canada/\">jeu de points à relier du Canada</a>."
+      },
+      "breadcrumb_json_ld": {
+        "type": "BreadcrumbList",
+        "items": [
+          {
+            "position": 1,
+            "name": "Home",
+            "path": "/"
+          },
+          {
+            "position": 2,
+            "name": "Canada",
+            "path": "/canada/"
+          }
+        ]
+      }
     },
-    "seoTitle": "Canoë Canadien à Relier – Pagayez à Travers 69 Points"
+    "body": {
+      "h1": "Free Canada Dot-to-Dot Printables for Kids",
+      "name": "Canada",
+      "tagline": "Discover Canada One Dot at a Time",
+      "description": "Paddle a Canadian canoe, trace the maple leaf, then meet a polar bear, moose, and raccoon. This free printable collection turns Canadian symbols and wildlife into hands-on number practice.",
+      "hero_image": "/images/canada-maple-leaf-puzzle.webp",
+      "slug": "canada",
+      "faqs": [
+        {
+          "q": "Tous les dessins à relier à imprimer sur ce site sont-ils entièrement gratuits ?",
+          "a": "Oui, toutes les fiches d'exercices de points à relier sur DotToDotFreePrintables.com sont entièrement gratuites à télécharger et à imprimer. Aucun compte, abonnement ou carte de crédit n'est requis."
+        },
+        {
+          "q": "À quel âge les feuilles d'exercices de points à relier conviennent-elles ?",
+          "a": "Nos documents imprimables couvrent les âges de 2 à 12 ans. Les fiches faciles (10 à 20 points) conviennent aux tout-petits et aux enfants de petite et moyenne section de maternelle, les fiches moyennes (20 à 50 points) sont idéales pour la grande section et le CP, et les fiches plus difficiles (50 à plus de 200 points) mettent au défi les élèves du CE1 au CM2."
+        },
+        {
+          "q": "Quel est le format des fiches à imprimer « relier les points » ?",
+          "a": "Tous les exercices sont téléchargeables au format PDF prêt à imprimer, au format A4 standard. Ouvrez-les dans n'importe quel navigateur ou lecteur PDF et imprimez-les ; aucun logiciel spécifique n'est requis."
+        },
+        {
+          "q": "Les enseignants peuvent-ils utiliser ces feuilles de travail de points à relier en classe ?",
+          "a": "Oui ! Nos documents imprimables sont gratuits pour un usage personnel et scolaire. Ils sont très appréciés pour les activités du matin, les activités pour les élèves qui terminent rapidement, les plans de cours pour les remplaçants, les ateliers de motricité fine et les devoirs à la maison."
+        }
+      ]
+    }
   },
-  {
-    "slug": "canada-maple-leaf-dot-to-dot-puzzle",
-    "name": "Feuille d’érable",
-    "seoH1": "Point à Point Feuille d'Érable : L'icône du Canada en 70 Points",
-    "tagline": "La célèbre feuille rouge du Canada",
-    "description": "Reliez 70 points pour révéler une feuille d’érable, l’un des symboles les plus connus du Canada.",
-    "seoDescription": "La feuille d'érable est au centre du drapeau canadien depuis 1965. Suivez son contour iconique à travers 70 points dans un PDF imprimable gratuit pour les enfants de 5 à 9 ans.",
-    "funFact": "La feuille d'érable apparaît au centre du drapeau national du Canada depuis 1965.",
-    "seoImageAlt": "Feuille d'érable emblématique du Canada, chaque pointe tracée à travers 70 points à relier",
-    "dotGuide": {
-      "intro": "Chaque automne, les érables colorent les forêts canadiennes de rouge, d’orange et d’or. Ce jeu de 70 points suit les pointes de la feuille et sa tige. Commencez au point 1 !",
-      "sections": [
-        {
-          "range": "1–14",
-          "title": "La pointe supérieure",
-          "learn": "Reliez 1 à 14 pour former la grande pointe. Suivez chaque petit changement de direction.",
-          "fact": "Le drapeau canadien porte une feuille stylisée à 11 pointes. Découvrez son histoire auprès du <a href=\"https://www.canada.ca/fr/patrimoine-canadien/services/drapeau-canada-histoire.html\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">gouvernement du Canada</a>."
+  "puzzles": [
+    {
+      "slug": "canada-canoe-dot-to-dot-puzzle",
+      "header": {
+        "title": "Canoë Canadien à Relier – Pagayez à Travers 69 Points",
+        "meta_description": "Reliez 69 points pour dessiner un canoë canadien et sa pagaie dans cette fiche gratuite pour enfants de 5 à 9 ans. Bien avant les routes, le canoë permettait de traverser les lacs et rivières du Canada — imprimez le PDF au format A4 et embarquez pour la collection 2026. Une fiche appréciée dans les classes du monde entier.",
+        "og": {
+          "title": "Canoë Canadien à Relier – Pagayez à Travers 69 Points",
+          "description": "Reliez 69 points pour dessiner un canoë canadien et sa pagaie dans cette fiche gratuite pour enfants de 5 à 9 ans. Bien avant les routes, le canoë permettait de traverser les lacs et rivières du Canada — imprimez le PDF au format A4 et embarquez pour la collection 2026. Une fiche appréciée dans les classes du monde entier.",
+          "image_alt": "Canoë canadien et sa pagaie apparaissant au fil de 69 points à relier"
         },
-        {
-          "range": "15–28",
-          "title": "Les pointes de droite",
-          "learn": "Descendez le côté droit de 15 à 28 et vérifiez le prochain nombre avant chaque virage.",
-          "fact": "Dix espèces d’érables sont indigènes au Canada; la sève de l’érable à sucre donne le sirop d’érable."
-        },
-        {
-          "range": "29–42",
-          "title": "La tige",
-          "learn": "Reliez 29 à 42 pour dessiner le bord inférieur et la tige étroite.",
-          "fact": "La sève coule au début du printemps lorsque les nuits gèlent et que les journées se réchauffent."
-        },
-        {
-          "range": "43–56",
-          "title": "Les pointes de gauche",
-          "learn": "Remontez le côté gauche de 43 à 56 et comparez sa forme avec le côté droit.",
-          "fact": "La feuille ornait déjà insignes, armoiries et pièces de monnaie avant l’adoption du drapeau actuel."
-        },
-        {
-          "range": "57–70",
-          "title": "Fermer la feuille",
-          "learn": "Terminez de 57 à 70 et vérifiez que chaque pointe est reliée.",
-          "fact": "En automne, le pigment vert disparaît et révèle les couleurs jaunes, orange et rouges."
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Canoë canadien",
+          "description": "Reliez 69 points pour dessiner un canoë canadien et sa pagaie dans cette fiche gratuite pour enfants de 5 à 9 ans. Bien avant les routes, le canoë permettait de traverser les lacs et rivières du Canada — imprimez le PDF au format A4 et embarquez pour la collection 2026. Une fiche appréciée dans les classes du monde entier.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
         }
-      ],
-      "outro": "Bravo ! Coloriez la feuille en rouge ou avec des couleurs d’automne. Découvrez les <a href=\"https://www.canada.ca/fr/patrimoine-canadien/services/symboles-officiels-canada.html\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">symboles officiels du Canada</a>, puis essayez d’autres <a href=\"/fr/canada/\">jeux du Canada</a>."
-    },
-    "seoTitle": "Feuille d'Érable à Relier : l'Emblème du Canada en 70 Points"
-  },
-  {
-    "slug": "canada-polar-bear-dot-to-dot-puzzle",
-    "name": "Ours polaire",
-    "seoH1": "Ours Polaire Point à Point Imprimable, 74 Points Arctiques Gratuits",
-    "tagline": "Un géant de l’Arctique canadien",
-    "description": "Reliez 74 points pour révéler un puissant ours polaire et travailler la suite des nombres.",
-    "seoDescription": "Tracez 74 points pour faire apparaître un puissant ours polaire dans cette fiche gratuite pour enfants de 6 à 10 ans. Environ deux tiers des ours polaires du monde vivent dans l'Arctique canadien — imprimez le PDF au format A4 et suivez la séquence de ce géant des régions froides. Idéale pour accompagner un projet sur l'hiver.",
-    "funFact": "Environ les deux tiers des ours polaires du monde vivent au Canada.",
-    "seoImageAlt": "Puissant ours polaire traversant la banquise, formé à partir de 74 points à relier, prêts à imprimer",
-    "dotGuide": {
-      "intro": "Les ours polaires parcourent les côtes et la banquise de l’Arctique canadien. Leur fourrure épaisse et leurs grandes pattes les protègent. Commencez ce jeu de 74 points au numéro 1.",
-      "sections": [
-        {
-          "range": "1–15",
-          "title": "Le museau et la tête",
-          "learn": "Reliez 1 à 15 avec des courbes douces autour du visage.",
-          "fact": "Son excellent odorat aide l’ours polaire à repérer les phoques à travers la glace."
-        },
-        {
-          "range": "16–30",
-          "title": "Le dos et les épaules",
-          "learn": "Suivez les épaules et le dos de 16 à 30 avec de longs traits réguliers.",
-          "fact": "L’ours polaire est le plus grand carnivore terrestre du Canada."
-        },
-        {
-          "range": "31–45",
-          "title": "Les pattes arrière",
-          "learn": "Tracez 31 à 45 et contrôlez les changements de direction près des pieds.",
-          "fact": "Ses larges pattes répartissent son poids sur la neige et servent de pagaies lorsqu’il nage."
-        },
-        {
-          "range": "46–60",
-          "title": "Le ventre et les pattes avant",
-          "learn": "Reliez 46 à 60 sous le corps avec des traits courts et précis.",
-          "fact": "Sous sa fourrure qui paraît blanche, l’ours polaire a la peau noire."
-        },
-        {
-          "range": "61–74",
-          "title": "Le poitrail et la fin",
-          "learn": "Terminez de 61 à 74 en remontant vers la tête.",
-          "fact": "La banquise est essentielle pour chasser. Consultez le profil de <a href=\"https://parcs.canada.ca/pn-np/mb/wapusk/nature/faune-animals/mammiferes-mammals/ours-bears/polaire-polar\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Parcs Canada</a>."
+      },
+      "body": {
+        "h1": "Canadien Canoë Point à Point — Pagayez à Travers 69 Points",
+        "name": "Canoë canadien",
+        "tagline": "Pagayez sur les lacs et rivières du Canada",
+        "description": "Reliez 69 points pour révéler un canoë canadien et sa pagaie. Ce jeu intermédiaire développe la suite numérique et la maîtrise du crayon.",
+        "fun_fact": "Les canoës permettaient de transporter personnes et provisions sur les lacs et rivières là où aucune route n’existait.",
+        "faqs": [
+          {
+            "q": "À quel âge s'adresse le puzzle point à point Canoë canadien ?",
+            "a": "Il est conçu pour les Âges 5 - 9. Avec 69 points, il convient aux enfants qui savent compter avec assurance jusqu'à 69 ; les plus jeunes peuvent le terminer avec un peu d'aide."
+          },
+          {
+            "q": "Comment imprimer la fiche Canoë canadien ?",
+            "a": "Cliquez sur le bouton de téléchargement pour obtenir le PDF gratuit, puis imprimez-le sur du papier ordinaire (A4 ou US Letter) depuis n'importe quel navigateur ou lecteur PDF. Aucun logiciel particulier n'est nécessaire."
+          },
+          {
+            "q": "La fiche imprimable Canoë canadien est-elle vraiment gratuite ?",
+            "a": "Oui — elle est 100 % gratuite, sans inscription, compte ni paiement. Vous pouvez l'imprimer pour la maison ou la classe."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Le canoë est une embarcation emblématique du Canada. Les peuples autochtones ont créé des modèles adaptés aux eaux et aux matériaux de chaque région. Trouvez le point 1 et commencez ce voyage de 69 points !",
+          "sections": [
+            {
+              "range": "1–14",
+              "title": "La pagaie et le bord supérieur",
+              "learn": "Reliez 1 à 14 pour tracer la pagaie et le bord du canoë. Gardez un trait régulier jusqu’à la courbe de la proue.",
+              "fact": "Une pagaie possède une poignée, un manche et une pale qui pousse l’eau pour avancer et diriger le canoë."
+            },
+            {
+              "range": "15–28",
+              "title": "La proue relevée",
+              "learn": "Continuez de 15 à 28 autour de l’avant du canoë. Ralentissez lorsque le contour change de direction.",
+              "fact": "La proue est l’avant du canoë et la poupe l’arrière. Leurs formes relevées facilitent le passage dans les vagues."
+            },
+            {
+              "range": "29–42",
+              "title": "La pale et la coque",
+              "learn": "Tracez 29 à 42 autour de la pale et du bas de la coque, avec des courbes contrôlées.",
+              "fact": "La Commission géologique du Canada utilisait le canoë pour ses premières explorations nordiques. Découvrez son <a href=\"https://ised-isde.canada.ca/site/science/fr/ressources-pedagogiques/histoire-commission-geologique-canada-175-objets/26-canot-1874\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">canot de 1874</a>."
+            },
+            {
+              "range": "43–56",
+              "title": "Le long dessous",
+              "learn": "Reliez 43 à 56 sous la coque. Les grands écarts demandent une main stable et un bon suivi visuel.",
+              "fact": "Les peuples autochtones fabriquaient différents canoës en écorce de bouleau, en cèdre, en peaux ou en bois façonné."
+            },
+            {
+              "range": "57–69",
+              "title": "La poupe et la fin",
+              "learn": "Terminez de 57 à 69 autour de la poupe, puis vérifiez que toute la coque est reliée.",
+              "fact": "La météo sur l’eau change vite : préparation et équipement sont essentiels. Consultez <a href=\"https://parcs.canada.ca/voyage-travel/experiences/sports/pagayer-paddling\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Parcs Canada</a>."
+            }
+          ],
+          "outro": "Excellent, votre canoë est prêt ! Ajoutez des vagues, un lac et une forêt. Découvrez les activités de <a href=\"https://parcs.canada.ca/voyage-travel/experiences/sports/pagayer-paddling\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Parcs Canada</a>, puis essayez un autre <a href=\"/fr/canada/\">jeu de points à relier du Canada</a>.",
+          "color_schemes": []
         }
-      ],
-      "outro": "Votre géant arctique est terminé ! Ajoutez neige et glace. Visitez la page de <a href=\"https://parcs.canada.ca/pn-np/mb/wapusk/nature/faune-animals/mammiferes-mammals/ours-bears/polaire-polar\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Parcs Canada sur l’ours polaire</a>, puis explorez d’autres <a href=\"/fr/canada/\">imprimables du Canada</a>."
+      }
     },
-    "seoTitle": "Ours Polaire à Relier – 74 Points de l'Arctique Gratuits"
-  },
-  {
-    "slug": "canada-moose-dot-to-dot-puzzle",
-    "name": "Orignal",
-    "seoH1": "Orignal Point à Point — un PDF Imprimable Canadien de 89 Points",
-    "tagline": "Le géant des forêts canadiennes",
-    "description": "Reliez 89 points pour compléter un magnifique orignal aux larges bois.",
-    "seoDescription": "De larges bois couronnent le plus grand membre de la famille des cerfs. Suivez un sentier de 89 points pour compléter cet imprimable gratuit d'orignal pour les enfants de 6 à 10 ans.",
-    "funFact": "Les orignaux sont les plus grands membres de la famille des cerfs, et les mâles peuvent faire pousser d'énormes bois.",
-    "seoImageAlt": "Orignal aux larges bois se dressant une fois les 89 points reliés",
-    "dotGuide": {
-      "intro": "Avec ses longues pattes, son museau lourd et ses larges bois, l’orignal domine les forêts canadiennes. Ce jeu de 89 points demande patience et précision.",
-      "sections": [
-        {
-          "range": "1–18",
-          "title": "Le museau et la tête",
-          "learn": "Reliez 1 à 18 pour former le long museau et les oreilles.",
-          "fact": "Le museau souple aide l’orignal à saisir feuilles et plantes aquatiques."
+    {
+      "slug": "canada-maple-leaf-dot-to-dot-puzzle",
+      "header": {
+        "title": "Feuille d'Érable à Relier : l'Emblème du Canada en 70 Points",
+        "meta_description": "La feuille d'érable est au centre du drapeau canadien depuis 1965. Suivez son contour iconique à travers 70 points dans un PDF imprimable gratuit pour les enfants de 5 à 9 ans.",
+        "og": {
+          "title": "Feuille d'Érable à Relier : l'Emblème du Canada en 70 Points",
+          "description": "La feuille d'érable est au centre du drapeau canadien depuis 1965. Suivez son contour iconique à travers 70 points dans un PDF imprimable gratuit pour les enfants de 5 à 9 ans.",
+          "image_alt": "Feuille d'érable emblématique du Canada, chaque pointe tracée à travers 70 points à relier"
         },
-        {
-          "range": "19–36",
-          "title": "Les grands bois",
-          "learn": "Suivez 19 à 36 autour des nombreuses pointes, lentement et dans l’ordre.",
-          "fact": "Seuls les mâles portent généralement des bois, qui tombent et repoussent chaque année."
-        },
-        {
-          "range": "37–54",
-          "title": "Le dos et l’arrière-train",
-          "learn": "Tracez 37 à 54 le long du dos avec des lignes stables.",
-          "fact": "Les longues pattes facilitent les déplacements dans la neige, les marais et les broussailles."
-        },
-        {
-          "range": "55–72",
-          "title": "Le ventre et les pattes",
-          "learn": "Reliez 55 à 72 autour des sabots avec de petits traits précis.",
-          "fact": "Les sabots s’écartent légèrement et aident l’orignal sur les sols mous."
-        },
-        {
-          "range": "73–89",
-          "title": "Le poitrail et le dernier sabot",
-          "learn": "Terminez de 73 à 89 autour des pattes avant et du poitrail.",
-          "fact": "L’orignal nage très bien et traverse l’eau pour se nourrir ou fuir un danger. Découvrez les mammifères auprès de <a href=\"https://parcs.canada.ca/pn-np/mb/wapusk/nature/faune-animals/mammiferes-mammals\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Parcs Canada</a>."
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Feuille d’érable",
+          "description": "La feuille d'érable est au centre du drapeau canadien depuis 1965. Suivez son contour iconique à travers 70 points dans un PDF imprimable gratuit pour les enfants de 5 à 9 ans.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
         }
-      ],
-      "outro": "Magnifique ! Ajoutez un lac et une forêt à votre orignal, puis choisissez un autre <a href=\"/fr/canada/\">jeu canadien</a>."
-    },
-    "seoTitle": "Orignal à Relier – une Fiche Canadienne de 89 Points"
-  },
-  {
-    "slug": "canada-raccoon-dot-to-dot-puzzle",
-    "name": "Raton laveur",
-    "seoH1": "Raton Laveur Point à Point Fiche de Travail : 90 Points pour les Âges 6-10",
-    "tagline": "Un voisin canadien curieux",
-    "description": "Reliez 90 points pour révéler un raton laveur au masque caractéristique.",
-    "seoDescription": "Reliez 90 points pour découvrir un raton laveur curieux, queue rayée comprise, dans cette fiche gratuite pour les 6-10 ans. Visiteur familier des jardins au Canada comme ailleurs, il invite à tracer ses petites pattes avant si sensibles — imprimez le PDF au format A4. Plus subtil qu'il n'y paraît au premier coup d'œil.",
-    "funFact": "Les pattes avant du raton laveur sont très sensibles et lui permettent d’examiner les objets.",
-    "seoImageAlt": "Raton laveur curieux au masque et à la queue rayée caché parmi 90 points à relier",
-    "dotGuide": {
-      "intro": "Le masque sombre et la queue annelée rendent le raton laveur facile à reconnaître. Ce jeu de 90 points récompense une progression lente et attentive.",
-      "sections": [
-        {
-          "range": "1–18",
-          "title": "Le masque et le museau",
-          "learn": "Reliez 1 à 18 autour du visage avec de courtes lignes précises.",
-          "fact": "Le masque sombre peut réduire l’éblouissement autour des yeux et améliorer la vision."
-        },
-        {
-          "range": "19–36",
-          "title": "Les oreilles et le dos",
-          "learn": "Continuez de 19 à 36 sur les oreilles et le dos arrondi.",
-          "fact": "Le raton laveur entend très bien et ses oreilles mobiles repèrent de petits sons."
-        },
-        {
-          "range": "37–54",
-          "title": "La queue annelée",
-          "learn": "Tracez 37 à 54 autour de la grande queue courbée.",
-          "fact": "La queue présente habituellement plusieurs anneaux foncés et aide à l’équilibre."
-        },
-        {
-          "range": "55–72",
-          "title": "Les pattes arrière et le ventre",
-          "learn": "Reliez 55 à 72 en ralentissant près des doigts et des pattes.",
-          "fact": "Ses pattes avant habiles peuvent ouvrir, tourner et examiner de nombreux objets."
-        },
-        {
-          "range": "73–90",
-          "title": "Le poitrail et la fin",
-          "learn": "Terminez de 73 à 90 autour des pattes avant et du poitrail.",
-          "fact": "Originaire d’Amérique du Nord, le raton laveur s’adapte aux forêts, marais, fermes et villes. Consultez l’article de <a href=\"https://www.thecanadianencyclopedia.ca/fr/article/raton-laveur\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">L’Encyclopédie canadienne</a>."
+      },
+      "body": {
+        "h1": "Point à Point Feuille d'Érable : L'icône du Canada en 70 Points",
+        "name": "Feuille d’érable",
+        "tagline": "La célèbre feuille rouge du Canada",
+        "description": "Reliez 70 points pour révéler une feuille d’érable, l’un des symboles les plus connus du Canada.",
+        "fun_fact": "La feuille d'érable apparaît au centre du drapeau national du Canada depuis 1965.",
+        "faqs": [
+          {
+            "q": "À quel âge s'adresse le puzzle point à point Feuille d’érable ?",
+            "a": "Il est conçu pour les Âges 5 - 9. Avec 70 points, il convient aux enfants qui savent compter avec assurance jusqu'à 70 ; les plus jeunes peuvent le terminer avec un peu d'aide."
+          },
+          {
+            "q": "Comment imprimer la fiche Feuille d’érable ?",
+            "a": "Cliquez sur le bouton de téléchargement pour obtenir le PDF gratuit, puis imprimez-le sur du papier ordinaire (A4 ou US Letter) depuis n'importe quel navigateur ou lecteur PDF. Aucun logiciel particulier n'est nécessaire."
+          },
+          {
+            "q": "La fiche imprimable Feuille d’érable est-elle vraiment gratuite ?",
+            "a": "Oui — elle est 100 % gratuite, sans inscription, compte ni paiement. Vous pouvez l'imprimer pour la maison ou la classe."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Chaque automne, les érables colorent les forêts canadiennes de rouge, d’orange et d’or. Ce jeu de 70 points suit les pointes de la feuille et sa tige. Commencez au point 1 !",
+          "sections": [
+            {
+              "range": "1–14",
+              "title": "La pointe supérieure",
+              "learn": "Reliez 1 à 14 pour former la grande pointe. Suivez chaque petit changement de direction.",
+              "fact": "Le drapeau canadien porte une feuille stylisée à 11 pointes. Découvrez son histoire auprès du <a href=\"https://www.canada.ca/fr/patrimoine-canadien/services/drapeau-canada-histoire.html\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">gouvernement du Canada</a>."
+            },
+            {
+              "range": "15–28",
+              "title": "Les pointes de droite",
+              "learn": "Descendez le côté droit de 15 à 28 et vérifiez le prochain nombre avant chaque virage.",
+              "fact": "Dix espèces d’érables sont indigènes au Canada; la sève de l’érable à sucre donne le sirop d’érable."
+            },
+            {
+              "range": "29–42",
+              "title": "La tige",
+              "learn": "Reliez 29 à 42 pour dessiner le bord inférieur et la tige étroite.",
+              "fact": "La sève coule au début du printemps lorsque les nuits gèlent et que les journées se réchauffent."
+            },
+            {
+              "range": "43–56",
+              "title": "Les pointes de gauche",
+              "learn": "Remontez le côté gauche de 43 à 56 et comparez sa forme avec le côté droit.",
+              "fact": "La feuille ornait déjà insignes, armoiries et pièces de monnaie avant l’adoption du drapeau actuel."
+            },
+            {
+              "range": "57–70",
+              "title": "Fermer la feuille",
+              "learn": "Terminez de 57 à 70 et vérifiez que chaque pointe est reliée.",
+              "fact": "En automne, le pigment vert disparaît et révèle les couleurs jaunes, orange et rouges."
+            }
+          ],
+          "outro": "Bravo ! Coloriez la feuille en rouge ou avec des couleurs d’automne. Découvrez les <a href=\"https://www.canada.ca/fr/patrimoine-canadien/services/symboles-officiels-canada.html\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">symboles officiels du Canada</a>, puis essayez d’autres <a href=\"/fr/canada/\">jeux du Canada</a>.",
+          "color_schemes": []
         }
-      ],
-      "outro": "Bien joué ! Ajoutez les anneaux de la queue et un décor nocturne, puis découvrez plus de <a href=\"/fr/canada/\">points à relier du Canada</a>."
+      }
     },
-    "seoTitle": "Raton Laveur à Relier : 90 Points pour 6 à 10 Ans"
-  }
-]
+    {
+      "slug": "canada-polar-bear-dot-to-dot-puzzle",
+      "header": {
+        "title": "Ours Polaire à Relier – 74 Points de l'Arctique Gratuits",
+        "meta_description": "Tracez 74 points pour faire apparaître un puissant ours polaire dans cette fiche gratuite pour enfants de 6 à 10 ans. Environ deux tiers des ours polaires du monde vivent dans l'Arctique canadien — imprimez le PDF au format A4 et suivez la séquence de ce géant des régions froides. Idéale pour accompagner un projet sur l'hiver.",
+        "og": {
+          "title": "Ours Polaire à Relier – 74 Points de l'Arctique Gratuits",
+          "description": "Tracez 74 points pour faire apparaître un puissant ours polaire dans cette fiche gratuite pour enfants de 6 à 10 ans. Environ deux tiers des ours polaires du monde vivent dans l'Arctique canadien — imprimez le PDF au format A4 et suivez la séquence de ce géant des régions froides. Idéale pour accompagner un projet sur l'hiver.",
+          "image_alt": "Puissant ours polaire traversant la banquise, formé à partir de 74 points à relier, prêts à imprimer"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Ours polaire",
+          "description": "Tracez 74 points pour faire apparaître un puissant ours polaire dans cette fiche gratuite pour enfants de 6 à 10 ans. Environ deux tiers des ours polaires du monde vivent dans l'Arctique canadien — imprimez le PDF au format A4 et suivez la séquence de ce géant des régions froides. Idéale pour accompagner un projet sur l'hiver.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
+      },
+      "body": {
+        "h1": "Ours Polaire Point à Point Imprimable, 74 Points Arctiques Gratuits",
+        "name": "Ours polaire",
+        "tagline": "Un géant de l’Arctique canadien",
+        "description": "Reliez 74 points pour révéler un puissant ours polaire et travailler la suite des nombres.",
+        "fun_fact": "Environ les deux tiers des ours polaires du monde vivent au Canada.",
+        "faqs": [
+          {
+            "q": "À quel âge s'adresse le puzzle point à point Ours polaire ?",
+            "a": "Il est conçu pour les Âges 6 - 10. Avec 74 points, il convient aux enfants qui savent compter avec assurance jusqu'à 74 ; les plus jeunes peuvent le terminer avec un peu d'aide."
+          },
+          {
+            "q": "Comment imprimer la fiche Ours polaire ?",
+            "a": "Cliquez sur le bouton de téléchargement pour obtenir le PDF gratuit, puis imprimez-le sur du papier ordinaire (A4 ou US Letter) depuis n'importe quel navigateur ou lecteur PDF. Aucun logiciel particulier n'est nécessaire."
+          },
+          {
+            "q": "La fiche imprimable Ours polaire est-elle vraiment gratuite ?",
+            "a": "Oui — elle est 100 % gratuite, sans inscription, compte ni paiement. Vous pouvez l'imprimer pour la maison ou la classe."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Les ours polaires parcourent les côtes et la banquise de l’Arctique canadien. Leur fourrure épaisse et leurs grandes pattes les protègent. Commencez ce jeu de 74 points au numéro 1.",
+          "sections": [
+            {
+              "range": "1–15",
+              "title": "Le museau et la tête",
+              "learn": "Reliez 1 à 15 avec des courbes douces autour du visage.",
+              "fact": "Son excellent odorat aide l’ours polaire à repérer les phoques à travers la glace."
+            },
+            {
+              "range": "16–30",
+              "title": "Le dos et les épaules",
+              "learn": "Suivez les épaules et le dos de 16 à 30 avec de longs traits réguliers.",
+              "fact": "L’ours polaire est le plus grand carnivore terrestre du Canada."
+            },
+            {
+              "range": "31–45",
+              "title": "Les pattes arrière",
+              "learn": "Tracez 31 à 45 et contrôlez les changements de direction près des pieds.",
+              "fact": "Ses larges pattes répartissent son poids sur la neige et servent de pagaies lorsqu’il nage."
+            },
+            {
+              "range": "46–60",
+              "title": "Le ventre et les pattes avant",
+              "learn": "Reliez 46 à 60 sous le corps avec des traits courts et précis.",
+              "fact": "Sous sa fourrure qui paraît blanche, l’ours polaire a la peau noire."
+            },
+            {
+              "range": "61–74",
+              "title": "Le poitrail et la fin",
+              "learn": "Terminez de 61 à 74 en remontant vers la tête.",
+              "fact": "La banquise est essentielle pour chasser. Consultez le profil de <a href=\"https://parcs.canada.ca/pn-np/mb/wapusk/nature/faune-animals/mammiferes-mammals/ours-bears/polaire-polar\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Parcs Canada</a>."
+            }
+          ],
+          "outro": "Votre géant arctique est terminé ! Ajoutez neige et glace. Visitez la page de <a href=\"https://parcs.canada.ca/pn-np/mb/wapusk/nature/faune-animals/mammiferes-mammals/ours-bears/polaire-polar\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Parcs Canada sur l’ours polaire</a>, puis explorez d’autres <a href=\"/fr/canada/\">imprimables du Canada</a>.",
+          "color_schemes": []
+        }
+      }
+    },
+    {
+      "slug": "canada-moose-dot-to-dot-puzzle",
+      "header": {
+        "title": "Orignal à Relier – une Fiche Canadienne de 89 Points",
+        "meta_description": "De larges bois couronnent le plus grand membre de la famille des cerfs. Suivez un sentier de 89 points pour compléter cet imprimable gratuit d'orignal pour les enfants de 6 à 10 ans.",
+        "og": {
+          "title": "Orignal à Relier – une Fiche Canadienne de 89 Points",
+          "description": "De larges bois couronnent le plus grand membre de la famille des cerfs. Suivez un sentier de 89 points pour compléter cet imprimable gratuit d'orignal pour les enfants de 6 à 10 ans.",
+          "image_alt": "Orignal aux larges bois se dressant une fois les 89 points reliés"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Orignal",
+          "description": "De larges bois couronnent le plus grand membre de la famille des cerfs. Suivez un sentier de 89 points pour compléter cet imprimable gratuit d'orignal pour les enfants de 6 à 10 ans.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
+      },
+      "body": {
+        "h1": "Orignal Point à Point — un PDF Imprimable Canadien de 89 Points",
+        "name": "Orignal",
+        "tagline": "Le géant des forêts canadiennes",
+        "description": "Reliez 89 points pour compléter un magnifique orignal aux larges bois.",
+        "fun_fact": "Les orignaux sont les plus grands membres de la famille des cerfs, et les mâles peuvent faire pousser d'énormes bois.",
+        "faqs": [
+          {
+            "q": "À quel âge s'adresse le puzzle point à point Orignal ?",
+            "a": "Il est conçu pour les Âges 6 - 10. Avec 89 points, il convient aux enfants qui savent compter avec assurance jusqu'à 89 ; les plus jeunes peuvent le terminer avec un peu d'aide."
+          },
+          {
+            "q": "Comment imprimer la fiche Orignal ?",
+            "a": "Cliquez sur le bouton de téléchargement pour obtenir le PDF gratuit, puis imprimez-le sur du papier ordinaire (A4 ou US Letter) depuis n'importe quel navigateur ou lecteur PDF. Aucun logiciel particulier n'est nécessaire."
+          },
+          {
+            "q": "La fiche imprimable Orignal est-elle vraiment gratuite ?",
+            "a": "Oui — elle est 100 % gratuite, sans inscription, compte ni paiement. Vous pouvez l'imprimer pour la maison ou la classe."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Avec ses longues pattes, son museau lourd et ses larges bois, l’orignal domine les forêts canadiennes. Ce jeu de 89 points demande patience et précision.",
+          "sections": [
+            {
+              "range": "1–18",
+              "title": "Le museau et la tête",
+              "learn": "Reliez 1 à 18 pour former le long museau et les oreilles.",
+              "fact": "Le museau souple aide l’orignal à saisir feuilles et plantes aquatiques."
+            },
+            {
+              "range": "19–36",
+              "title": "Les grands bois",
+              "learn": "Suivez 19 à 36 autour des nombreuses pointes, lentement et dans l’ordre.",
+              "fact": "Seuls les mâles portent généralement des bois, qui tombent et repoussent chaque année."
+            },
+            {
+              "range": "37–54",
+              "title": "Le dos et l’arrière-train",
+              "learn": "Tracez 37 à 54 le long du dos avec des lignes stables.",
+              "fact": "Les longues pattes facilitent les déplacements dans la neige, les marais et les broussailles."
+            },
+            {
+              "range": "55–72",
+              "title": "Le ventre et les pattes",
+              "learn": "Reliez 55 à 72 autour des sabots avec de petits traits précis.",
+              "fact": "Les sabots s’écartent légèrement et aident l’orignal sur les sols mous."
+            },
+            {
+              "range": "73–89",
+              "title": "Le poitrail et le dernier sabot",
+              "learn": "Terminez de 73 à 89 autour des pattes avant et du poitrail.",
+              "fact": "L’orignal nage très bien et traverse l’eau pour se nourrir ou fuir un danger. Découvrez les mammifères auprès de <a href=\"https://parcs.canada.ca/pn-np/mb/wapusk/nature/faune-animals/mammiferes-mammals\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Parcs Canada</a>."
+            }
+          ],
+          "outro": "Magnifique ! Ajoutez un lac et une forêt à votre orignal, puis choisissez un autre <a href=\"/fr/canada/\">jeu canadien</a>.",
+          "color_schemes": []
+        }
+      }
+    },
+    {
+      "slug": "canada-raccoon-dot-to-dot-puzzle",
+      "header": {
+        "title": "Raton Laveur à Relier : 90 Points pour 6 à 10 Ans",
+        "meta_description": "Reliez 90 points pour découvrir un raton laveur curieux, queue rayée comprise, dans cette fiche gratuite pour les 6-10 ans. Visiteur familier des jardins au Canada comme ailleurs, il invite à tracer ses petites pattes avant si sensibles — imprimez le PDF au format A4. Plus subtil qu'il n'y paraît au premier coup d'œil.",
+        "og": {
+          "title": "Raton Laveur à Relier : 90 Points pour 6 à 10 Ans",
+          "description": "Reliez 90 points pour découvrir un raton laveur curieux, queue rayée comprise, dans cette fiche gratuite pour les 6-10 ans. Visiteur familier des jardins au Canada comme ailleurs, il invite à tracer ses petites pattes avant si sensibles — imprimez le PDF au format A4. Plus subtil qu'il n'y paraît au premier coup d'œil.",
+          "image_alt": "Raton laveur curieux au masque et à la queue rayée caché parmi 90 points à relier"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Raton laveur",
+          "description": "Reliez 90 points pour découvrir un raton laveur curieux, queue rayée comprise, dans cette fiche gratuite pour les 6-10 ans. Visiteur familier des jardins au Canada comme ailleurs, il invite à tracer ses petites pattes avant si sensibles — imprimez le PDF au format A4. Plus subtil qu'il n'y paraît au premier coup d'œil.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
+      },
+      "body": {
+        "h1": "Raton Laveur Point à Point Fiche de Travail : 90 Points pour les Âges 6-10",
+        "name": "Raton laveur",
+        "tagline": "Un voisin canadien curieux",
+        "description": "Reliez 90 points pour révéler un raton laveur au masque caractéristique.",
+        "fun_fact": "Les pattes avant du raton laveur sont très sensibles et lui permettent d’examiner les objets.",
+        "faqs": [
+          {
+            "q": "À quel âge s'adresse le puzzle point à point Raton laveur ?",
+            "a": "Il est conçu pour les Âges 6 - 10. Avec 90 points, il convient aux enfants qui savent compter avec assurance jusqu'à 90 ; les plus jeunes peuvent le terminer avec un peu d'aide."
+          },
+          {
+            "q": "Comment imprimer la fiche Raton laveur ?",
+            "a": "Cliquez sur le bouton de téléchargement pour obtenir le PDF gratuit, puis imprimez-le sur du papier ordinaire (A4 ou US Letter) depuis n'importe quel navigateur ou lecteur PDF. Aucun logiciel particulier n'est nécessaire."
+          },
+          {
+            "q": "La fiche imprimable Raton laveur est-elle vraiment gratuite ?",
+            "a": "Oui — elle est 100 % gratuite, sans inscription, compte ni paiement. Vous pouvez l'imprimer pour la maison ou la classe."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Le masque sombre et la queue annelée rendent le raton laveur facile à reconnaître. Ce jeu de 90 points récompense une progression lente et attentive.",
+          "sections": [
+            {
+              "range": "1–18",
+              "title": "Le masque et le museau",
+              "learn": "Reliez 1 à 18 autour du visage avec de courtes lignes précises.",
+              "fact": "Le masque sombre peut réduire l’éblouissement autour des yeux et améliorer la vision."
+            },
+            {
+              "range": "19–36",
+              "title": "Les oreilles et le dos",
+              "learn": "Continuez de 19 à 36 sur les oreilles et le dos arrondi.",
+              "fact": "Le raton laveur entend très bien et ses oreilles mobiles repèrent de petits sons."
+            },
+            {
+              "range": "37–54",
+              "title": "La queue annelée",
+              "learn": "Tracez 37 à 54 autour de la grande queue courbée.",
+              "fact": "La queue présente habituellement plusieurs anneaux foncés et aide à l’équilibre."
+            },
+            {
+              "range": "55–72",
+              "title": "Les pattes arrière et le ventre",
+              "learn": "Reliez 55 à 72 en ralentissant près des doigts et des pattes.",
+              "fact": "Ses pattes avant habiles peuvent ouvrir, tourner et examiner de nombreux objets."
+            },
+            {
+              "range": "73–90",
+              "title": "Le poitrail et la fin",
+              "learn": "Terminez de 73 à 90 autour des pattes avant et du poitrail.",
+              "fact": "Originaire d’Amérique du Nord, le raton laveur s’adapte aux forêts, marais, fermes et villes. Consultez l’article de <a href=\"https://www.thecanadianencyclopedia.ca/fr/article/raton-laveur\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">L’Encyclopédie canadienne</a>."
+            }
+          ],
+          "outro": "Bien joué ! Ajoutez les anneaux de la queue et un décor nocturne, puis découvrez plus de <a href=\"/fr/canada/\">points à relier du Canada</a>.",
+          "color_schemes": []
+        }
+      }
+    }
+  ]
+}

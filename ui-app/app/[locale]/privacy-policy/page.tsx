@@ -5,7 +5,7 @@ import { routing } from '@/i18n/routing';
 import { buildAlternates } from '@/lib/seo';
 import { LocalizedPrivacyPage } from '@/components/LocalizedLegalPages';
 import { loadLegalContent } from '@/lib/legal';
-import { localizedStaticSeo } from '@/lib/localized-seo';
+import { localizedStaticSeo } from '@/lib/json-seo';
 
 type Props = {
   params: Promise<{ locale: string }>;

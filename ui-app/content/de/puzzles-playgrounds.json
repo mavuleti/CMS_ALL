@@ -1,425 +1,812 @@
-[
-  {
-    "slug": "spring-horse-playground-dot-to-dot-puzzle",
-    "name": "Karussellpferd",
-    "seoH1": "Springpferd Punkt zu Punkt — 53-Punkte Spielplatzblatt",
-    "tagline": "Galoppiere durch das Karussell!",
-    "description": "Verbinde 88 Punkte und entdecke ein elegantes Karussellpferd. Das mittelschwere Ausmalbild fördert Zahlenreihenfolge, Konzentration und Stiftführung.",
-    "seoDescription": "Dieses Karussellpferd mit 88 Punkten gehört zu unseren mittelschweren Zahlenbildern (Punkte verbinden) für Kinder von 5 bis 9 Jahren, die eine kleine Herausforderung suchen. Fließende Mähne, verzierter Sattel, Jahrmarkt-Flair — kostenloses PDF ausdrucken und dieses klassische Fahrgeschäft nachzeichnen. Jahrmarktzauber ganz ohne Eintrittskarte.",
-    "funFact": "Karussellpferde, die sich auf und ab bewegen, werden Springer genannt.",
-    "seoImageAlt": "Verziertes Karussellpferd mit fließender Mähne aus 88 druckbaren Punkten",
-    "dotGuide": {
-      "intro": "Karussellpferde machen aus einer einfachen Fahrt ein galoppierendes Abenteuer. Dieses 88-Punkte-Rätsel eignet sich für Kinder, die längere Zahlenfolgen sicher beherrschen. Finde Punkt 1 – das Karussell beginnt!",
-      "sections": [
-        {
-          "range": "1–13",
-          "title": "Der Pferdekopf",
-          "learn": "Verbinde Punkt 1 bis 18 und zeichne Gesicht, Maul und Ohren. Kurven und kurze Winkel trainieren den aufmerksamen Blick.",
-          "fact": "Karussellkünstler geben jedem Pferd einen eigenen Ausdruck – ruhig, freundlich oder voller Rennlust."
-        },
-        {
-          "range": "14–27",
-          "title": "Mähne und Hals",
-          "learn": "Zeichne von 19 bis 36 den gebogenen Hals und die wehende Mähne mit gleichmäßigen, kontrollierten Linien.",
-          "fact": "Antike Karussellpferde wurden oft von Hand aus Holz geschnitzt. Tiefe Rillen ließen die Mähne im Licht lebendig wirken."
-        },
-        {
-          "range": "28–40",
-          "title": "Sattel und Körper",
-          "learn": "Verbinde 37 bis 54 für den kräftigen Körper und den verzierten Sattel. Wechsle zwischen langen Linien und kleinen Details.",
-          "fact": "Die reich verzierte Außenseite heißt Schauseite und trägt häufig Blumen, Bänder oder Schmucksteine."
-        },
-        {
-          "range": "41–53",
-          "title": "Die galoppierenden Beine",
-          "learn": "Zeichne von 55 bis 72 die angehobenen Beine. Prüfe jede Zahl, damit die Formen klar erkennbar bleiben.",
-          "fact": "Bewegliche Pferde heißen Springer, fest montierte Pferde nennt man Steher."
+{
+  "collection": {
+    "header": {
+      "title": "Kostenlose Spielplatz-Punkt-zu-Punkt-Bilder für Kinder",
+      "meta_description": "Kostenlose Spielplatz-Vorlagen zum Zahlen verbinden mit Schaukeln, Rutschen und weiteren Motiven als druckfertige PDFs – auch mit über 100 Punkten für Geübte.",
+      "og": {
+        "title": "Kostenlose Spielplatz-Punkt-zu-Punkt-Rätsel",
+        "description": "Kostenlose druckbare Spielplatz-Vorlagen für Kinder.",
+        "image": "/images/swing-playgrounds-puzzle.webp"
+      },
+      "json_ld": {
+        "type": "CollectionPage",
+        "name": "Spielplätze",
+        "description": "Hol dir den Spielplatz nach Hause! Verbinde die Punkte, um Schaukeln, Rutschen und Spaß im Freien zu entdecken. Alle Arbeitsblätter können kostenlos heruntergeladen und ausgedruckt werden – ganz ohne Registrierung.",
+        "image": "/images/swing-playgrounds-puzzle.webp",
+        "main_entity": {
+          "type": "ItemList",
+          "item_source": "puzzles"
         }
-      ],
-      "outro": "Großartig – dein Karussellpferd ist startklar! Male den Sattel in leuchtenden Jahrmarktfarben aus. Entdecke weitere <a href=\"/de/playgrounds/\">Punkt-zu-Punkt-Bilder vom Spielplatz</a>."
+      },
+      "breadcrumb_json_ld": {
+        "type": "BreadcrumbList",
+        "items": [
+          {
+            "position": 1,
+            "name": "Home",
+            "path": "/"
+          },
+          {
+            "position": 2,
+            "name": "Spielplätze",
+            "path": "/playgrounds/"
+          }
+        ]
+      }
     },
-    "seoTitle": "Karussellpferd Zahlenbild — Zauberhafte Vorlage mit 88 Punkten"
+    "body": {
+      "h1": "Ausmalbilder zum Verbinden von Punkten für Kinder zum Thema „Spielplatz“",
+      "name": "Spielplätze",
+      "tagline": "Warum Kinder Punkt-zu-Punkt-Rätsel auf dem Spielplatz so lieben",
+      "description": "Hol dir den Spielplatz nach Hause! Verbinde die Punkte, um Schaukeln, Rutschen und Spaß im Freien zu entdecken. Alle Arbeitsblätter können kostenlos heruntergeladen und ausgedruckt werden – ganz ohne Registrierung.",
+      "hero_image": "/images/swing-playgrounds-puzzle.webp",
+      "slug": "playgrounds",
+      "faqs": [
+        {
+          "q": "Wie viele kostenlose Vorlagen gibt es in der Kategorie Spielplätze?",
+          "a": "Die Kategorie Spielplätze bietet derzeit 5 kostenlose Punkt-zu-Punkt-Vorlagen mit 42–133 Punkten. Jedes Blatt lädt sofort als druckfertiges PDF (A4 oder Letter, hoch oder quer) ohne Anmeldung herunter."
+        },
+        {
+          "q": "Sind die Spielplätze-Rätsel kostenlos?",
+          "a": "Ja — alle 5 Rätsel der Spielplätze-Sammlung sind für Zuhause und Schule komplett kostenlos. Auf DotToDotFreePrintables.com sind nie Konto, E-Mail oder Bezahlung nötig."
+        },
+        {
+          "q": "Für welches Alter sind die Spielplätze-Rätsel?",
+          "a": "Mit 42–133 Punkten deckt die Spielplätze-Sammlung etwa 4 bis 12 Jahre ab. Wählen Sie weniger Punkte für Kita und Vorschule und mehr Punkte für sichere Zähler in der Grundschule."
+        },
+        {
+          "q": "Welche Punkt-zu-Punkt-Rätsel für den Spielplatz können Kinder ausdrucken?",
+          "a": "Fünf kostenlose Spielplatzvorlagen zum Ausdrucken: Schaukel (42 Punkte), Wippe (68 Punkte), Klettergerüst (94 Punkte), Rutsche (102 Punkte) und Achterbahn (133 Punkte) – die größte Bandbreite an Schwierigkeitsgraden auf der Website, von Kindergartenkindern bis hin zu Herausforderungen für Kinder im Vorpubertätsalter."
+        },
+        {
+          "q": "Welches ist das schwierigste Punkt-zu-Punkt-Rätsel auf der Webseite?",
+          "a": "Das Puzzle „Achterbahn-Spielplatz“ ist mit 133 Punkten die größte Herausforderung der Website und eignet sich am besten für Kinder zwischen 7 und 12 Jahren. Es ist besonders bei älteren Kindern beliebt, denen herkömmliche Arbeitsblätter zu einfach sind."
+        }
+      ]
+    }
   },
-  {
-    "slug": "playhouse-slide-playground-dot-to-dot-puzzle",
-    "name": "Flitzendes Auto",
-    "seoH1": "Spielhausrutsche Punkt zu Punkt: 68 Punkte zum kostenlosen Drucken",
-    "tagline": "Starte den Motor und verbinde die Punkte!",
-    "description": "Verbinde 48 einfache Punkte und entdecke ein schnelles Auto. Die kostenlose Druckvorlage übt Zahlenreihenfolge, Stiftführung und Konzentration.",
-    "seoDescription": "Klettern, Rutschen und Rollenspiel treffen sich in einer fröhlichen Struktur. Verfolge die Spielhausrutsche durch 68 Punkte in einem kostenlosen PDF für Kinder im Alter von 5–9 Jahren.",
-    "funFact": "Spielzeugautos begeistern Kinder seit mehr als hundert Jahren.",
-    "seoImageAlt": "Flottes Spielzeugauto saust los, sobald alle 48 nummerierten Punkte verbunden sind",
-    "dotGuide": {
-      "intro": "Dieses freundliche 48-Punkte-Rätsel ist ein toller Einstieg in Fahrzeugmotive. Finde Punkt 1 und stell dir vor, wie der Motor anspringt!",
-      "sections": [
-        {
-          "range": "1–14",
-          "title": "Motorhaube und Stoßfänger",
-          "learn": "Verbinde 1 bis 10 und zeichne die Vorderseite mit kurzen Linien und sanften Kurven.",
-          "fact": "Eine geschwungene Motorhaube lässt die Luft gleichmäßig über das Auto strömen."
+  "puzzles": [
+    {
+      "slug": "spring-horse-playground-dot-to-dot-puzzle",
+      "header": {
+        "title": "Karussellpferd Zahlenbild — Zauberhafte Vorlage mit 88 Punkten",
+        "meta_description": "Dieses Karussellpferd mit 88 Punkten gehört zu unseren mittelschweren Zahlenbildern (Punkte verbinden) für Kinder von 5 bis 9 Jahren, die eine kleine Herausforderung suchen. Fließende Mähne, verzierter Sattel, Jahrmarkt-Flair — kostenloses PDF ausdrucken und dieses klassische Fahrgeschäft nachzeichnen. Jahrmarktzauber ganz ohne Eintrittskarte.",
+        "og": {
+          "title": "Karussellpferd Zahlenbild — Zauberhafte Vorlage mit 88 Punkten",
+          "description": "Dieses Karussellpferd mit 88 Punkten gehört zu unseren mittelschweren Zahlenbildern (Punkte verbinden) für Kinder von 5 bis 9 Jahren, die eine kleine Herausforderung suchen. Fließende Mähne, verzierter Sattel, Jahrmarkt-Flair — kostenloses PDF ausdrucken und dieses klassische Fahrgeschäft nachzeichnen. Jahrmarktzauber ganz ohne Eintrittskarte.",
+          "image_alt": "Verziertes Karussellpferd mit fließender Mähne aus 88 druckbaren Punkten"
         },
-        {
-          "range": "15–28",
-          "title": "Windschutzscheibe und Dach",
-          "learn": "Zeichne von 11 bis 20 Scheibe und Dach in einem ruhigen, ansteigenden und abfallenden Umriss.",
-          "fact": "Verbundglas hält durch eine Kunststoffschicht zusammen, selbst wenn die Scheibe Risse bekommt."
-        },
-        {
-          "range": "29–41",
-          "title": "Türen und Karosserie",
-          "learn": "Verbinde 21 bis 30 für die Fahrzeugseite und übe längere, gleichmäßige Striche.",
-          "fact": "Autodesigner beginnen neue Fahrzeuge mit einfachen Linien und Grundformen."
-        },
-        {
-          "range": "42–55",
-          "title": "Die Räder",
-          "learn": "Zeichne von 31 bis 40 Räder und Radkästen mit runden, kontrollierten Bewegungen.",
-          "fact": "Luftgefüllte Reifen federn Unebenheiten ab und geben dem Auto Halt auf der Straße."
-        },
-        {
-          "range": "56–68",
-          "title": "Lichter und Details",
-          "learn": "Vollende das Auto von 41 bis 48 langsam und sorgfältig mit den letzten Details.",
-          "fact": "Scheinwerfer helfen beim Sehen und machen Autos bei Regen, Nebel und Dämmerung sichtbar."
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Karussellpferd",
+          "description": "Dieses Karussellpferd mit 88 Punkten gehört zu unseren mittelschweren Zahlenbildern (Punkte verbinden) für Kinder von 5 bis 9 Jahren, die eine kleine Herausforderung suchen. Fließende Mähne, verzierter Sattel, Jahrmarkt-Flair — kostenloses PDF ausdrucken und dieses klassische Fahrgeschäft nachzeichnen. Jahrmarktzauber ganz ohne Eintrittskarte.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
         }
-      ],
-      "outro": "Dein Flitzer ist fertig! Male ihn als Rennwagen aus und zeichne eine Straße dazu. Wähle danach ein weiteres <a href=\"/de/playgrounds/\">Punkt-zu-Punkt-Rätsel</a>."
-    },
-    "seoTitle": "Spielhausrutsche Punkt zu Punkt: 68 Punkte zum kostenlosen Drucken"
-  },
-  {
-    "slug": "carousel-horse-playground-dot-to-dot-puzzle",
-    "name": "Schaukel-Spielplatz",
-    "seoH1": "Karussellpferd Punkt zu Punkt — ein magisches 88-Punkte Blatt",
-    "tagline": "Schaukeln, Rutschen und Spaß im Freien!",
-    "description": "Verbinde 88 Punkte, um ein elegantes Karussellpferd zu enthüllen, das bereit für eine magische Fahrt ist. Dieses mittlere druckbare Puzzle bietet Kindern eine ansprechende Möglichkeit, Zahlenfolgen, Konzentration und sorgfältige Bleistiftkontrolle zu üben.",
-    "seoDescription": "Folge der fließenden Mähne und dem dekorativen Sattel eines Karussellspringers über 88 Punkte. Drucke dieses Jahrmarkt-Puzzle kostenlos für Kinder im Alter von 5–9 Jahren.",
-    "funFact": "Traditionelle Karussellpferde haben oft eine fließende Mähne und einen dekorativen Sattel, und die Pferde, die auf und ab bewegen, werden Springer genannt.",
-    "seoImageAlt": "Spielplatzschaukel hängt zusammen aus 42 leichten druckbaren Punkten",
-    "dotGuide": {
-      "intro": "Playgrounds are places where imaginations run wild and friendships are made — and the swing is the undisputed king of the playground. Few things match the simple joy of pumping your legs and feeling the wind rush past as you arc higher and higher into the sky. This cheerful 42-Punkt Rätsel captures that magic. Find Punkt 1, pick up your pencil, and let's play!",
-      "sections": [
-        {
-          "range": "1–18",
-          "title": "Der Schwingrahmen",
-          "learn": "Start at Punkt 1 and verbinde through to Punkt 8 to draw the tall A-frame that holds the swings in place. Children practise straight, confident lines that angle inward toward a point — a great introduction to geometric shapes in a Spaß, real-world context. Encourage a firm, deliberate stroke for the best result.",
-          "fact": "The classic A-frame swing set was designed to be as stable as possible — the triangular shape distributes weight evenly so the whole structure doesn't tip over even when Kinder swing hard. Triangles are the strongest shape in engineering, which is why you see them everywhere from bridges to playground frames."
-        },
-        {
-          "range": "19–36",
-          "title": "Die Querstange und die Ketten",
-          "learn": "Continue from Punkt 9 to Punkt 18 to draw the horizontal crossbar at the top and the hanging chains. Children practise alternating between horizontal lines and downward-angling chains — a lovely exercise in changing direction deliberately and accurately. The chains are what make the swinging motion possible!",
-          "fact": "Modern playground chains are made from galvanised steel — steel coated with a layer of zinc — to prevent rust. Before steel chains, swings used thick ropes made from natural fibres like hemp or manila. Many Kinder's first experience of a swing was a simple plank tied to a tree branch with rope, and that tradition continues in gardens around the world today."
-        },
-        {
-          "range": "37–54",
-          "title": "Der Schaukelsitz und die Figur",
-          "learn": "Trace Punkte 19 through 28 to draw the swing seat and the outline of the child sitting on it. This is the most rewarding section of the Rätsel — Kinder see the whole purpose of the structure come together as a small figure takes their place. Remind Kinder to look ahead to the next Punkt before lifting their pencil.",
-          "fact": "The sensation of swinging — the rising and falling, the brief moment of weightlessness at the top of each arc — activates the vestibular system in the brain, which is responsible for balance and spatial awareness. This is why swinging feels so good: it is genuinely beneficial sensory input that helps Kinder develop balance, coordination, and body awareness."
-        },
-        {
-          "range": "55–72",
-          "title": "Das Gelände und die Umgebung",
-          "learn": "Verbinde Punkte 29 to 36 to draw the ground beneath the swings and the surrounding details. Children practise grounding the scene — giving the playground a sense of place and scale. This section builds an understanding of foreground and background that will serve them well in art and drawing for years to come.",
-          "fact": "Auf modernen Spielplätzen werden unter Schaukeln speziell entwickelte Sicherheitsbeläge – Gummifliesen, Holzspäne oder Gummigranulat – verwendet, um Stürze abzufedern. Dieses Material ist sorgfältig darauf ausgelegt, Stöße zu dämpfen. Bevor Sicherheitsbeläge in den 1970er- und 1980er-Jahren zum Standard wurden, befand sich unter den Spielgeräten auf den meisten Spielplätzen harter Beton oder festgestampfte Erde."
-        },
-        {
-          "range": "73–88",
-          "title": "Die letzten Feinheiten",
-          "learn": "Finish by connecting Punkte 37 through 42 to add the final details that bring the playground scene to life. Just six Punkte to the finish line — encourage Kinder to slow down and make these last lines their most careful and confident. A strong finish is the mark of a real Punkt-to-Punkt expert!",
-          "fact": "The world's longest swing set on record had over 100 swings in a single row. Community swing events — where large groups swing together — have been held in parks around the world as celebrations of outdoor play. The swing is one of the few pieces of playground equipment that adults enjoy just as much as Kinder."
+      },
+      "body": {
+        "h1": "Springpferd Punkt zu Punkt — 53-Punkte Spielplatzblatt",
+        "name": "Karussellpferd",
+        "tagline": "Galoppiere durch das Karussell!",
+        "description": "Verbinde 88 Punkte und entdecke ein elegantes Karussellpferd. Das mittelschwere Ausmalbild fördert Zahlenreihenfolge, Konzentration und Stiftführung.",
+        "fun_fact": "Karussellpferde, die sich auf und ab bewegen, werden Springer genannt.",
+        "faqs": [
+          {
+            "q": "Für welches Alter ist das Punkt-zu-Punkt-Rätsel Karussellpferd geeignet?",
+            "a": "Es ist für Kinder im Alter von Alter 4–8 gedacht. Mit 53 Punkten eignet es sich für Kinder, die sicher bis 53 zählen können; jüngere Kinder schaffen es mit etwas Hilfe."
+          },
+          {
+            "q": "Wie drucke ich das Arbeitsblatt Karussellpferd aus?",
+            "a": "Klicke auf den Download-Button, um das kostenlose PDF zu erhalten, und drucke es auf normalem Papier (A4 oder US Letter) aus jedem Browser oder PDF-Programm. Es wird keine spezielle Software benötigt."
+          },
+          {
+            "q": "Ist die Druckvorlage Karussellpferd wirklich kostenlos?",
+            "a": "Ja — sie ist 100 % kostenlos, ohne Anmeldung, Konto oder Bezahlung. Du darfst sie für zu Hause oder den Unterricht ausdrucken."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Karussellpferde machen aus einer einfachen Fahrt ein galoppierendes Abenteuer. Dieses 88-Punkte-Rätsel eignet sich für Kinder, die längere Zahlenfolgen sicher beherrschen. Finde Punkt 1 – das Karussell beginnt!",
+          "sections": [
+            {
+              "range": "1–13",
+              "title": "Der Pferdekopf",
+              "learn": "Verbinde Punkt 1 bis 18 und zeichne Gesicht, Maul und Ohren. Kurven und kurze Winkel trainieren den aufmerksamen Blick.",
+              "fact": "Karussellkünstler geben jedem Pferd einen eigenen Ausdruck – ruhig, freundlich oder voller Rennlust."
+            },
+            {
+              "range": "14–27",
+              "title": "Mähne und Hals",
+              "learn": "Zeichne von 19 bis 36 den gebogenen Hals und die wehende Mähne mit gleichmäßigen, kontrollierten Linien.",
+              "fact": "Antike Karussellpferde wurden oft von Hand aus Holz geschnitzt. Tiefe Rillen ließen die Mähne im Licht lebendig wirken."
+            },
+            {
+              "range": "28–40",
+              "title": "Sattel und Körper",
+              "learn": "Verbinde 37 bis 54 für den kräftigen Körper und den verzierten Sattel. Wechsle zwischen langen Linien und kleinen Details.",
+              "fact": "Die reich verzierte Außenseite heißt Schauseite und trägt häufig Blumen, Bänder oder Schmucksteine."
+            },
+            {
+              "range": "41–53",
+              "title": "Die galoppierenden Beine",
+              "learn": "Zeichne von 55 bis 72 die angehobenen Beine. Prüfe jede Zahl, damit die Formen klar erkennbar bleiben.",
+              "fact": "Bewegliche Pferde heißen Springer, fest montierte Pferde nennt man Steher."
+            }
+          ],
+          "outro": "Großartig – dein Karussellpferd ist startklar! Male den Sattel in leuchtenden Jahrmarktfarben aus. Entdecke weitere <a href=\"/de/playgrounds/\">Punkt-zu-Punkt-Bilder vom Spielplatz</a>.",
+          "color_schemes": []
         }
-      ],
-      "outro": "Großartig – dein Spielplatz ist fertig! Male die Schaukeln in deinen Lieblingsfarben aus und male ein paar Freunde dazu, die neben dir schaukeln. Dann geh nach draußen und probier es in echt aus – kein Buntstift kann das Gefühl des Windes in den Haaren auf dem höchsten Punkt einer Schaukel so gut nachbilden! Für jedes Alter und jedes Thema: Entdecke unsere komplette Bibliothek an <a href=\"/\">Punkt-zu-Punkt-Vorlagen</a>."
+      }
     },
-    "seoTitle": "Schaukel Zahlenbild — Leichteste Spielplatz-Vorlage mit 42 Punkten"
-  },
-  {
-    "slug": "dashing-car-playground-dot-to-dot-puzzle",
-    "name": "Spielplatz-Rutsche",
-    "seoH1": "Rasantes Auto Punkt zu Punkt, 48 schnelle Punkte für 4- bis 8-Jährige",
-    "tagline": "Klettern, rutschen, nochmal!",
-    "description": "Verbinde 102 Punkte und entdecke eine hohe Spielplatzrutsche, bereit zum Klettern und Rutschen. Mit mehr Punkten als unser leichtestes Spielplatz-Rätsel ist dies eine schöne nächste Herausforderung für Kinder, die über die Anfängerblätter hinauswachsen und trotzdem ein vertrautes, fröhliches Motiv genießen wollen.",
-    "seoDescription": "Renne von Punkt 1 bis 48 und enthülle ein fröhliches Spielplatzauto. Dieses kostenlose druckbare PDF verwandelt Zahlenfolgen in eine schnelle Fahrt für Kinder im Alter von 4–8 Jahren.",
-    "funFact": "Die höchste fest installierte Spielplatzrutsche der Welt misst über 30 Meter – ungefähr so hoch wie ein zehnstöckiges Haus!",
-    "seoImageAlt": "Hohe Spielplatzrutsche führt aufwärts durch 102 Punkte auf einer Druckvorlage",
-    "dotGuide": {
-      "intro": "Wenn die Schaukel die Königin des Spielplatzes ist, folgt die Rutsche dicht dahinter – es hat einfach etwas Unwiderstehliches, hinaufzuklettern, sich hinzusetzen und den Rest der Schwerkraft zu überlassen. Dieses 102-Punkte-Rätsel zeichnet eine hohe, klassische Spielplatzrutsche nach – von der Leiter hinten bis zur geschwungenen Bahn vorn. Es hat mehr Punkte als unser leichtestes Spielplatzblatt und belohnt darum etwas zusätzliche Geduld. Finde Punkt 1, und lass uns etwas bauen, das sich zu erklettern lohnt.",
-      "sections": [
-        {
-          "range": "1–10",
-          "title": "Die Leiter",
-          "learn": "Beginne bei Punkt 1 und verbinde bis Punkt 20, um die hohe Leiter zu zeichnen, die zur Plattform der Rutsche hinaufführt. Dieser Abschnitt besteht überwiegend aus geraden, gleichmäßig verteilten Linien – ein gutes Aufwärmen für ruhige, kontrollierte Stiftstriche, bevor die Kurven kommen.",
-          "fact": "Spielplatzleitern werden so gebaut, dass die Sprossen eng genug beieinanderliegen, damit ein Kinderfuß sicher die nächste erreicht – meist nicht mehr als etwa 30 Zentimeter Abstand, deutlich enger als bei einer Haushaltsleiter."
+    {
+      "slug": "playhouse-slide-playground-dot-to-dot-puzzle",
+      "header": {
+        "title": "Spielhausrutsche Punkt zu Punkt: 68 Punkte zum kostenlosen Drucken",
+        "meta_description": "Klettern, Rutschen und Rollenspiel treffen sich in einer fröhlichen Struktur. Verfolge die Spielhausrutsche durch 68 Punkte in einem kostenlosen PDF für Kinder im Alter von 5–9 Jahren.",
+        "og": {
+          "title": "Spielhausrutsche Punkt zu Punkt: 68 Punkte zum kostenlosen Drucken",
+          "description": "Klettern, Rutschen und Rollenspiel treffen sich in einer fröhlichen Struktur. Verfolge die Spielhausrutsche durch 68 Punkte in einem kostenlosen PDF für Kinder im Alter von 5–9 Jahren.",
+          "image_alt": "Flottes Spielzeugauto saust los, sobald alle 48 nummerierten Punkte verbunden sind"
         },
-        {
-          "range": "11–20",
-          "title": "Die Plattform",
-          "learn": "Mach von Punkt 21 bis Punkt 40 weiter und zeichne die flache Plattform oben, auf der die Kletterer kurz innehalten, bevor es hinuntergeht. Kinder üben hier, waagerechte und senkrechte Linien in sauberen rechten Winkeln zu verbinden – gutes Training für Struktur und Proportion.",
-          "fact": "Die meisten Spielplatzplattformen haben Geländer an mindestens drei Seiten; nur der Einstieg zur Rutsche bleibt offen. Allein diesem Konstruktionsdetail wird zugeschrieben, Stürze von Plattformen deutlich verringert zu haben, seit es zum Standard der Spielplatzsicherheit gehört."
-        },
-        {
-          "range": "21–30",
-          "title": "Der Einstieg der Rutsche",
-          "learn": "Zeichne die Punkte 41 bis 60 nach und forme die geschwungene Kante, an der die Plattform in die Rutsche übergeht – genau die Stelle, an der der Spaß beginnt. Die Kurve ist enger, als sie aussieht – lieber langsam und bewusst zeichnen statt mit schnellem Schwung.",
-          "fact": "Die allererste Kurve oben an einer Rutsche heißt Startkurve. Sie ist gezielt so geneigt, dass sie steuert, wie schnell man Fahrt aufnimmt, statt einen direkt nach unten fallen zu lassen."
-        },
-        {
-          "range": "31–40",
-          "title": "Die lange Bahn",
-          "learn": "Verbinde die Punkte 61 bis 85 und zeichne die lange, geschwungene Rutschbahn selbst. Das ist der größte und schönste Abschnitt des Rätsels – am besten mit einem einzigen, durchgehenden Strich statt vieler kurzer, denn genau das gibt der Rutsche ihr Tempo.",
-          "fact": "Moderne Spielplatzrutschen bestehen fast immer aus rotationsgeformtem Kunststoff statt aus Metall. Metallrutschen können in der Sommersonne gefährlich heiß werden – einer der Hauptgründe, warum Spielplätze ab den 1980er- und 90er-Jahren weitgehend das Material wechselten."
-        },
-        {
-          "range": "41–48",
-          "title": "Fuß und Landung",
-          "learn": "Zum Schluss verbindest du die Punkte 86 bis 102 und zeichnest den Fuß der Rutsche und den Boden, auf dem die Rutschenden landen. Noch siebzehn Punkte – ein sicherer, geerdeter Abschluss vollendet das ganze Bauwerk.",
-          "fact": "Genau wie Schaukeln stehen Rutschen über speziell entwickeltem Fallschutzboden – meist Gummi, Sand oder Holzschnitzel –, der den Aufprall einer Landung viel besser abfedert, als es Gras oder Beton je könnten."
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Flitzendes Auto",
+          "description": "Klettern, Rutschen und Rollenspiel treffen sich in einer fröhlichen Struktur. Verfolge die Spielhausrutsche durch 68 Punkte in einem kostenlosen PDF für Kinder im Alter von 5–9 Jahren.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
         }
-      ],
-      "outro": "Klasse gemacht – deine Rutsche ist bereit für die ersten Kletterer! Male sie in bunten Spielplatzfarben aus oder gestalte dein eigenes wildes Muster die Bahn hinunter. Bereit für etwas ganz anderes? Probiere als Nächstes unsere <a href=\"/dinosaurs/\">Dinosaurier-Punkt-zu-Punkt-Vorlagen</a>."
-    },
-    "seoTitle": "Rutsche Von Punkt zu Punkt: 102 Punkte erklimmen, gratis"
-  },
-  {
-    "slug": "swing-playgrounds-dot-to-dot-puzzle",
-    "name": "Spielplatz-Wippe",
-    "seoH1": "Schaukelset Punkt zu Punkt — einfachstes 42-Punkte Spielplatz-PDF",
-    "tagline": "Hoch, runter, rundherum!",
-    "description": "Verbinde 68 Punkte und entdecke zwei Freunde, die auf einer klassischen Spielplatzwippe balancieren. Mit einer Punktzahl genau zwischen unserem leichtesten und unserem schwersten Spielplatz-Rätsel ist dieses Blatt ein solider Zwischenschritt für Kinder, die ihr Selbstvertrauen bei der Zahlenreihenfolge ausbauen.",
-    "seoDescription": "Diese Wippe mit 68 Punkten liegt im mittleren Schwierigkeitsgrad unserer Zahlenbilder zum Von-Punkt-zu-Punkt-Verbinden und passt zu Kindern von 5 bis 9 Jahren, die gerade sicherer werden. Im Englischen heißt sie Seesaw oder Teeter-Totter — kostenloses PDF ausdrucken und die Zahlen Seite für Seite ins Gleichgewicht bringen. Ausgewogen für mittleres Niveau.",
-    "funFact": "Im amerikanischen Englisch heißen Wippen manchmal „teeter-totter“ – beide Namen beschreiben dieselbe einfache Auf-und-ab-Bewegung, die Kinder seit Generationen begeistert.",
-    "seoImageAlt": "Zwei Freunde balancieren auf einer Wippe, die Szene entsteht aus 68 druckbaren Punkten",
-    "dotGuide": {
-      "intro": "In der Wippe steckt ein kleines Stück Teamwork – sie funktioniert nur, wenn beide mitmachen, sich abwechselnd abstoßen und aufsteigen. Dieses 68-Punkte-Rätsel zeichnet dieses Hin und Her von Grund auf – erst das Brett, zuletzt die beiden Kinder. Es ist ein schöner Schritt nach oben gegenüber unserem leichtesten Spielplatzblatt, ohne gleich ins Expertenreich zu kippen. Finde Punkt 1, und bringen wir das Ding ins Gleichgewicht.",
-      "sections": [
-        {
-          "range": "1–8",
-          "title": "Der Drehpunkt",
-          "learn": "Beginne bei Punkt 1 und verbinde bis Punkt 14, um die stabile Mittelstütze zu zeichnen, auf der die ganze Wippe balanciert. Diese Linien sind kurz und schräg – Kinder üben so, zuerst eine solide Basisform zu bauen, bevor oben etwas dazukommt.",
-          "fact": "Die Mittelstütze einer Wippe heißt Drehpunkt – dasselbe Wort verwenden Ingenieure für den Angelpunkt jedes Hebels. Eine Wippe ist im Grunde eine der einfachsten Maschinen überhaupt: ein Hebel, der auf einem festen Punkt balanciert."
-        },
-        {
-          "range": "9–18",
-          "title": "Das Brett",
-          "learn": "Mach von Punkt 15 bis Punkt 28 weiter und zeichne das lange Brett, das über dem Drehpunkt liegt. Kinder üben hier eine durchgehende, sanft geneigte Linie – gute Vorbereitung für ruhige Stiftführung bei längeren Strichen.",
-          "fact": "Ältere Wippen wurden oft aus einem einzigen Holzbrett gebaut – genau daher stammt der englische Name „seesaw“: „see“ und „saw“ ahmen die Hin-und-her-Bewegung einer alten Zweimannsäge nach, die über einen Baumstamm gezogen wird."
-        },
-        {
-          "range": "19–28",
-          "title": "Die Griffe",
-          "learn": "Zeichne die Punkte 29 bis 42 nach und ergänze die Griffe an beiden Enden des Bretts. In diesem Abschnitt arbeiten Kinder abwechselnd auf beiden Seiten des Rätsels und üben Symmetrie, indem sie an jedem Ende eine passende Form bauen.",
-          "fact": "Griffe waren nicht immer Standard bei Wippen. Bei frühen Spielplatzmodellen hielten sich die Kinder am Brett selbst fest – mit ein Grund, warum moderne Sicherheitsnormen heute eigene Handgriffe an beiden Enden vorschreiben."
-        },
-        {
-          "range": "29–36",
-          "title": "Das erste Kind",
-          "learn": "Verbinde die Punkte 43 bis 56 und zeichne das Kind, das auf dem angehobenen Ende der Wippe sitzt. Hier wird die Szene lebendig – erinnere die Kinder daran, erst zum nächsten Punkt zu schauen, bevor sie den Stift absetzen, damit die Figur schön glatt wird.",
-          "fact": "Wippen ist eine richtig nützliche Gleichgewichtsübung. Wer sein Gewicht verlagert, um beim Kippen des Bretts aufrecht zu bleiben, aktiviert dieselben Rumpfmuskeln und dasselbe Gleichgewichtssystem im Innenohr wie beim Turnen oder Tanzen."
-        },
-        {
-          "range": "37–42",
-          "title": "Das zweite Kind und der Boden",
-          "learn": "Zum Schluss verbindest du die Punkte 57 bis 68 und zeichnest das zweite Kind auf dem abgesenkten Ende sowie den Boden unter der Wippe. Nur noch zwölf Punkte – ein sorgfältiger, sicherer Abschluss vollendet die ganze Szene.",
-          "fact": "Manche modernen Spielplätze haben die klassische Zweierwippe durch federgelagerte Wipptiere ersetzt, auf denen ein Kind allein schaukeln kann. Die klassische Wippe mit Drehpunkt und zwei Sitzen ist weltweit aber immer noch die häufigste Bauform."
+      },
+      "body": {
+        "h1": "Spielhausrutsche Punkt zu Punkt: 68 Punkte zum kostenlosen Drucken",
+        "name": "Flitzendes Auto",
+        "tagline": "Starte den Motor und verbinde die Punkte!",
+        "description": "Verbinde 48 einfache Punkte und entdecke ein schnelles Auto. Die kostenlose Druckvorlage übt Zahlenreihenfolge, Stiftführung und Konzentration.",
+        "fun_fact": "Spielzeugautos begeistern Kinder seit mehr als hundert Jahren.",
+        "faqs": [
+          {
+            "q": "Für welches Alter ist das Punkt-zu-Punkt-Rätsel Flitzendes Auto geeignet?",
+            "a": "Es ist für Kinder im Alter von Alter 5–9 gedacht. Mit 68 Punkten eignet es sich für Kinder, die sicher bis 68 zählen können; jüngere Kinder schaffen es mit etwas Hilfe."
+          },
+          {
+            "q": "Wie drucke ich das Arbeitsblatt Flitzendes Auto aus?",
+            "a": "Klicke auf den Download-Button, um das kostenlose PDF zu erhalten, und drucke es auf normalem Papier (A4 oder US Letter) aus jedem Browser oder PDF-Programm. Es wird keine spezielle Software benötigt."
+          },
+          {
+            "q": "Ist die Druckvorlage Flitzendes Auto wirklich kostenlos?",
+            "a": "Ja — sie ist 100 % kostenlos, ohne Anmeldung, Konto oder Bezahlung. Du darfst sie für zu Hause oder den Unterricht ausdrucken."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Dieses freundliche 48-Punkte-Rätsel ist ein toller Einstieg in Fahrzeugmotive. Finde Punkt 1 und stell dir vor, wie der Motor anspringt!",
+          "sections": [
+            {
+              "range": "1–14",
+              "title": "Motorhaube und Stoßfänger",
+              "learn": "Verbinde 1 bis 10 und zeichne die Vorderseite mit kurzen Linien und sanften Kurven.",
+              "fact": "Eine geschwungene Motorhaube lässt die Luft gleichmäßig über das Auto strömen."
+            },
+            {
+              "range": "15–28",
+              "title": "Windschutzscheibe und Dach",
+              "learn": "Zeichne von 11 bis 20 Scheibe und Dach in einem ruhigen, ansteigenden und abfallenden Umriss.",
+              "fact": "Verbundglas hält durch eine Kunststoffschicht zusammen, selbst wenn die Scheibe Risse bekommt."
+            },
+            {
+              "range": "29–41",
+              "title": "Türen und Karosserie",
+              "learn": "Verbinde 21 bis 30 für die Fahrzeugseite und übe längere, gleichmäßige Striche.",
+              "fact": "Autodesigner beginnen neue Fahrzeuge mit einfachen Linien und Grundformen."
+            },
+            {
+              "range": "42–55",
+              "title": "Die Räder",
+              "learn": "Zeichne von 31 bis 40 Räder und Radkästen mit runden, kontrollierten Bewegungen.",
+              "fact": "Luftgefüllte Reifen federn Unebenheiten ab und geben dem Auto Halt auf der Straße."
+            },
+            {
+              "range": "56–68",
+              "title": "Lichter und Details",
+              "learn": "Vollende das Auto von 41 bis 48 langsam und sorgfältig mit den letzten Details.",
+              "fact": "Scheinwerfer helfen beim Sehen und machen Autos bei Regen, Nebel und Dämmerung sichtbar."
+            }
+          ],
+          "outro": "Dein Flitzer ist fertig! Male ihn als Rennwagen aus und zeichne eine Straße dazu. Wähle danach ein weiteres <a href=\"/de/playgrounds/\">Punkt-zu-Punkt-Rätsel</a>.",
+          "color_schemes": []
         }
-      ],
-      "outro": "Gut gemacht – deine Wippe ist perfekt im Gleichgewicht! Male den beiden Kindern deine Lieblingsoutfits an oder ergänze einen ganzen Spielplatz voller Freunde, die auf ihren Platz warten. Neugierig, was unter dem Meer statt unter der Sonne wartet? Tauche als Nächstes in unsere <a href=\"/ocean/\">Punkt-zu-Punkt-Vorlagen von 1 bis 100</a> ein."
+      }
     },
-    "seoTitle": "Wippe Zahlenbild zum Ausdrucken — 68 Punkte im Gleichgewicht"
-  },
-  {
-    "slug": "slide-playgrounds-dot-to-dot-puzzle",
-    "name": "Achterbahn-Spielplatz",
-    "seoH1": "Spielplatzrutsche Punkt zu Punkt: Klettere 102 Punkte kostenlos",
-    "tagline": "Die Schiene hoch, dem Abgrund entgegen!",
-    "description": "Verbinde 133 Punkte und enthülle eine komplette Spielplatz-Achterbahn, mit Loopings und allem Drum und Dran. Das ist unser bisher schwierigstes Spielplatz-Rätsel, gedacht für Kinder, die die leichteren Blätter schon geschafft haben und einen echten Test für Geduld und Stiftkontrolle wollen.",
-    "seoDescription": "Bereit für 102 Punkte? Klettere und steige eine hohe Spielplatzrutsche in dieser detaillierten druckbaren PDF-Herausforderung für sichere Zähler im Alter von 6–10 Jahren.",
-    "funFact": "Die höchste permanente Spielplatzrutsche der Welt erstreckt sich über 30 Meter — etwa so hoch wie ein zehnstöckiges Gebäude!",
-    "seoImageAlt": "Achterbahn mit Looping schlängelt sich durch 133 Punkte, unsere anspruchsvollste Vorlage",
-    "dotGuide": {
-      "intro": "Sechs Abschnitte. Hundertdreiunddreißig Punkte. Das ist das größte Spielplatz-Rätsel der Reihe, und das merkt man ihm auch an – die Strecke steigt, fällt, dreht sich in einem Looping und rollt am Ende zurück zur Plattform, wo sie begann. Kinder, die Schaukel, Rutsche oder Wippe schon geschafft haben, erkennen das Grundmuster wieder, aber die schiere Länge verändert das ganze Gefühl des Rätsels. Ruhige, gleichmäßige Stiftführung gewinnt hier. Finde Punkt 1 am Fuß des ersten Hügels, und bauen wir etwas, für das sich das Schreien lohnt.",
-      "sections": [
-        {
-          "range": "1–20",
-          "title": "Der Lifthügel",
-          "learn": "Beginne bei Punkt 1 und arbeite dich bis Punkt 22 vor, um den langen, steilen Anstieg zu zeichnen, der den Wagen zu seinem höchsten Punkt zieht. Diese Linien verlaufen in eine gleichmäßige diagonale Richtung – ein guter Abschnitt, um einen ruhigen Rhythmus zu finden, bevor das Rätsel komplizierter wird.",
-          "fact": "Die meisten Achterbahnen nutzen eine Kettenzuganlage, um den Wagen den ersten Hügel hinaufzuziehen – meist der einzige motorbetriebene Teil der Fahrt. Alles, was nach der Spitze dieses Hügels passiert, läuft rein durch Schwerkraft und Schwung."
+    {
+      "slug": "carousel-horse-playground-dot-to-dot-puzzle",
+      "header": {
+        "title": "Schaukel Zahlenbild — Leichteste Spielplatz-Vorlage mit 42 Punkten",
+        "meta_description": "Folge der fließenden Mähne und dem dekorativen Sattel eines Karussellspringers über 88 Punkte. Drucke dieses Jahrmarkt-Puzzle kostenlos für Kinder im Alter von 5–9 Jahren.",
+        "og": {
+          "title": "Schaukel Zahlenbild — Leichteste Spielplatz-Vorlage mit 42 Punkten",
+          "description": "Folge der fließenden Mähne und dem dekorativen Sattel eines Karussellspringers über 88 Punkte. Drucke dieses Jahrmarkt-Puzzle kostenlos für Kinder im Alter von 5–9 Jahren.",
+          "image_alt": "Spielplatzschaukel hängt zusammen aus 42 leichten druckbaren Punkten"
         },
-        {
-          "range": "21–40",
-          "title": "Der erste Abgrund",
-          "learn": "Mach von Punkt 23 bis Punkt 44 weiter und zeichne den steilen Sturz von der Spitze hinunter. Der Winkel ist hier schärfer als überall sonst auf dem Blatt – ermuntere darum zu einer festen, sicheren Hand statt einer zögerlichen, zitternden. Ein schneller Sturz braucht eine schnelle, sichere Linie.",
-          "fact": "Der allererste Abfall einer Achterbahn ist fast immer der höchste und steilste der ganzen Fahrt. Bahndesigner platzieren ihn absichtlich früh, denn genau dort erreicht die Strecke meist ihre Höchstgeschwindigkeit."
-        },
-        {
-          "range": "41–60",
-          "title": "Der Looping",
-          "learn": "Zeichne die Punkte 45 bis 66 nach und baue den großen Looping im Herzen der Fahrt. Dieser Abschnitt krümmt sich auf sich selbst zurück, was schwieriger ist als ein gerader Anstieg oder Abfall – geh langsam vor und prüfe den nächsten Punkt, bevor du dich auf jede Kurve festlegst.",
-          "fact": "Frühe Loopingbahnen nutzten einen perfekt kreisförmigen Looping, und Fahrgäste klagten oft über Nackenschmerzen durch den plötzlichen Kraftwechsel. Moderne Loopings verwenden stattdessen eine Tropfenform, die sich bei gleicher Geschwindigkeit deutlich sanfter anfühlt."
-        },
-        {
-          "range": "61–85",
-          "title": "Die Kamelhöcker-Hügel",
-          "learn": "Verbinde die Punkte 67 bis 88 und zeichne die kleineren, sich aneinanderreihenden Hügel, die auf den Looping folgen. Diese Buckel kommen schnell hintereinander – gute Übung für kurze, kontrollierte Striche statt eines einzigen langen Schwungs.",
-          "fact": "Diese kleineren Erhebungen werden manchmal 'Kamelhöcker' genannt, weil eine Reihe davon an die Höcker eines Kamels erinnert. Fahrgäste spüren oft ein kurzes Abheben vom Sitz an jeder Kuppe – ein echter, wenn auch kleiner Moment der Schwerelosigkeit."
-        },
-        {
-          "range": "86–102",
-          "title": "Die letzte Kurve",
-          "learn": "Arbeite von Punkt 89 bis Punkt 110, um die weite Kurve zu formen, die die Strecke zurück zur Station bringt. Diese Biegung ist breit und allmählich – ein angenehmer Tempowechsel nach dem engeren Looping zuvor im Rätsel.",
-          "fact": "Bahndesigner nennen diesen Abschnitt die 'Rückführstrecke'. Er wird breit und geneigt gebaut, damit der Wagen sein Tempo durch die Kurve halten kann, ohne zu bremsen – die eigentliche Bremsung folgt erst ganz am Ende."
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Schaukel-Spielplatz",
+          "description": "Folge der fließenden Mähne und dem dekorativen Sattel eines Karussellspringers über 88 Punkte. Drucke dieses Jahrmarkt-Puzzle kostenlos für Kinder im Alter von 5–9 Jahren.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
         }
-      ],
-      "outro": "Das war die ganze Fahrt, von Anfang bis Ende! Male die Strecke in kräftigen, leuchtenden Loopings aus und gib dem Achterbahnwagen den wildesten Anstrich, den du dir vorstellen kannst. Wenn dir 133 Punkte wie ein echter Nervenkitzel vorkamen und du eine noch größere Herausforderung suchst, schau dir als Nächstes unsere <a href=\"/usa-250/\">extremen Punkt-zu-Punkt-Vorlagen</a> an."
-    },
-    "seoTitle": "Achterbahn Zahlenbild — Extrem mit 133 Punkten, gratis"
-  },
-  {
-    "slug": "seesaw-playground-dot-to-dot-puzzle",
-    "name": "Klettergerüst auf dem Spielplatz",
-    "seoH1": "Wippe Punkt zu Punkt druckbar — Balanciere 68 Punkte",
-    "tagline": "Schwing dich von Sprosse zu Sprosse ans andere Ende!",
-    "description": "Verbinde 94 Punkte und entdecke ein tolles Klettergerüst. Dieses mittelschwere Spielplatz-Rätsel ist eine schöne Herausforderung für Kinder, die Zahlenfolgen, Stiftführung und Geduld üben.",
-    "seoDescription": "Wippe oder Wippbrett, die Bewegung bleibt auf und ab. Balanciere 68 nummerierte Punkte in diesem kostenlosen Spielplatzdruck für Kinder im Alter von 5–9 Jahren.",
-    "funFact": "Klettergerüste wurden Anfang des 20. Jahrhunderts zu beliebten Spielplatzgeräten. Sie helfen Kindern, Griffkraft, Gleichgewicht und die Koordination des Oberkörpers zu trainieren.",
-    "seoImageAlt": "Klettergerüst am Spielplatz, Sprosse für Sprosse aus 94 Druckpunkten geformt",
-    "dotGuide": {
-      "intro": "Klettergerüste sind die ultimative Spielplatzprobe für Griffkraft und Mut: greifen, schwingen, loslassen und wieder zugreifen – bis zur anderen Seite. Dieses Rätsel mit 94 Punkten baut das ganze Gerüst von unten nach oben auf: zuerst den stabilen Rahmen, dann Sprosse für Sprosse, bis ein Kind über das Gerüst schwingt. Suche Punkt 1 am Fuß des Gerüsts, und los geht's.",
-      "sections": [
-        {
-          "range": "1–14",
-          "title": "Der Stützrahmen",
-          "learn": "Beginne bei Punkt 1 und verbinde die Punkte bis 18, um die senkrechten Pfosten zu zeichnen, die das ganze Gerüst stabil halten. Diese schrägen Linien bilden das Rückgrat des Rahmens und helfen Kindern, feste, gleichmäßige Striche zu üben, bevor die Sprossen beginnen.",
-          "fact": "Die Rahmen von Klettergerüsten werden meist tief in Betonfundamenten im Boden verankert, denn die gesamte Konstruktion muss das volle Gewicht eines schwingenden Kindes tragen, ohne zu wackeln."
-        },
-        {
-          "range": "15–28",
-          "title": "Die obere Längsstange",
-          "learn": "Verbinde nun die Punkte 19 bis 38, um die lange waagerechte Stange ganz oben zu zeichnen. Dieser Abschnitt besteht größtenteils aus einer ruhigen, geraden Linie – eine gute Übung, um über eine längere Strecke die Richtung zu halten.",
-          "fact": "Die obere Stange vieler Klettergerüste liegt absichtlich recht hoch. Ein durchschnittlich großes Kind muss meist ein wenig springen, um die erste Sprosse zu erreichen."
-        },
-        {
-          "range": "29–42",
-          "title": "Die Sprossen",
-          "learn": "Zeichne von Punkt 39 bis 58 die gleichmäßig angeordneten Sprossen ein, an denen sich die Kinder beim Hangeln festhalten. Jede Sprosse ist eine kurze, eigene Verbindung. Achte deshalb sorgfältig auf jede Zahl, damit benachbarte Sprossen nicht miteinander verwechselt werden.",
-          "fact": "Die Abstände zwischen den Sprossen sind gewöhnlich so gewählt, dass ein Kind den Arm ganz ausstrecken muss: nah genug zum Greifen und weit genug, um Griffkraft und Schultern zu trainieren."
-        },
-        {
-          "range": "43–56",
-          "title": "Das kletternde Kind",
-          "learn": "Verbinde die Punkte 59 bis 76, um ein Kind mitten in der Schwingbewegung zu zeichnen, das mit einem Arm nach der nächsten Sprosse greift. Nun wird das Bild lebendig. Schau immer schon zum nächsten Punkt, damit die Bewegung rund und nicht zackig aussieht.",
-          "fact": "Das Schwingen von Hand zu Hand über ein Klettergerüst wird auch Brachiation genannt. Mit demselben Fachbegriff beschreiben Forschende, wie sich Menschenaffen schwingend von Ast zu Ast bewegen."
-        },
-        {
-          "range": "57–68",
-          "title": "Der Boden und der Landebereich",
-          "learn": "Zum Schluss verbindest du die Punkte 77 bis 94 und zeichnest den Boden unter dem Gerüst sowie den Landebereich am anderen Ende. Nur noch achtzehn Punkte – mit einem ruhigen, sicheren Abschluss ist die ganze Kletterstrecke geschafft.",
-          "fact": "Wie Schaukeln und Rutschen stehen Klettergerüste fast immer auf einem weichen Fallschutz, zum Beispiel auf Gummimatten, Sand oder Holzschnitzeln, damit ein Sturz von den Sprossen abgefedert wird."
+      },
+      "body": {
+        "h1": "Karussellpferd Punkt zu Punkt — ein magisches 88-Punkte Blatt",
+        "name": "Schaukel-Spielplatz",
+        "tagline": "Schaukeln, Rutschen und Spaß im Freien!",
+        "description": "Verbinde 88 Punkte, um ein elegantes Karussellpferd zu enthüllen, das bereit für eine magische Fahrt ist. Dieses mittlere druckbare Puzzle bietet Kindern eine ansprechende Möglichkeit, Zahlenfolgen, Konzentration und sorgfältige Bleistiftkontrolle zu üben.",
+        "fun_fact": "Traditionelle Karussellpferde haben oft eine fließende Mähne und einen dekorativen Sattel, und die Pferde, die auf und ab bewegen, werden Springer genannt.",
+        "faqs": [
+          {
+            "q": "Für welches Alter ist das Punkt-zu-Punkt-Rätsel Schaukel-Spielplatz geeignet?",
+            "a": "Es ist für Kinder im Alter von Alter 5–9 gedacht. Mit 88 Punkten eignet es sich für Kinder, die sicher bis 88 zählen können; jüngere Kinder schaffen es mit etwas Hilfe."
+          },
+          {
+            "q": "Wie drucke ich das Arbeitsblatt Schaukel-Spielplatz aus?",
+            "a": "Klicke auf den Download-Button, um das kostenlose PDF zu erhalten, und drucke es auf normalem Papier (A4 oder US Letter) aus jedem Browser oder PDF-Programm. Es wird keine spezielle Software benötigt."
+          },
+          {
+            "q": "Ist die Druckvorlage Schaukel-Spielplatz wirklich kostenlos?",
+            "a": "Ja — sie ist 100 % kostenlos, ohne Anmeldung, Konto oder Bezahlung. Du darfst sie für zu Hause oder den Unterricht ausdrucken."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Playgrounds are places where imaginations run wild and friendships are made — and the swing is the undisputed king of the playground. Few things match the simple joy of pumping your legs and feeling the wind rush past as you arc higher and higher into the sky. This cheerful 42-Punkt Rätsel captures that magic. Find Punkt 1, pick up your pencil, and let's play!",
+          "sections": [
+            {
+              "range": "1–18",
+              "title": "Der Schwingrahmen",
+              "learn": "Start at Punkt 1 and verbinde through to Punkt 8 to draw the tall A-frame that holds the swings in place. Children practise straight, confident lines that angle inward toward a point — a great introduction to geometric shapes in a Spaß, real-world context. Encourage a firm, deliberate stroke for the best result.",
+              "fact": "The classic A-frame swing set was designed to be as stable as possible — the triangular shape distributes weight evenly so the whole structure doesn't tip over even when Kinder swing hard. Triangles are the strongest shape in engineering, which is why you see them everywhere from bridges to playground frames."
+            },
+            {
+              "range": "19–36",
+              "title": "Die Querstange und die Ketten",
+              "learn": "Continue from Punkt 9 to Punkt 18 to draw the horizontal crossbar at the top and the hanging chains. Children practise alternating between horizontal lines and downward-angling chains — a lovely exercise in changing direction deliberately and accurately. The chains are what make the swinging motion possible!",
+              "fact": "Modern playground chains are made from galvanised steel — steel coated with a layer of zinc — to prevent rust. Before steel chains, swings used thick ropes made from natural fibres like hemp or manila. Many Kinder's first experience of a swing was a simple plank tied to a tree branch with rope, and that tradition continues in gardens around the world today."
+            },
+            {
+              "range": "37–54",
+              "title": "Der Schaukelsitz und die Figur",
+              "learn": "Trace Punkte 19 through 28 to draw the swing seat and the outline of the child sitting on it. This is the most rewarding section of the Rätsel — Kinder see the whole purpose of the structure come together as a small figure takes their place. Remind Kinder to look ahead to the next Punkt before lifting their pencil.",
+              "fact": "The sensation of swinging — the rising and falling, the brief moment of weightlessness at the top of each arc — activates the vestibular system in the brain, which is responsible for balance and spatial awareness. This is why swinging feels so good: it is genuinely beneficial sensory input that helps Kinder develop balance, coordination, and body awareness."
+            },
+            {
+              "range": "55–72",
+              "title": "Das Gelände und die Umgebung",
+              "learn": "Verbinde Punkte 29 to 36 to draw the ground beneath the swings and the surrounding details. Children practise grounding the scene — giving the playground a sense of place and scale. This section builds an understanding of foreground and background that will serve them well in art and drawing for years to come.",
+              "fact": "Auf modernen Spielplätzen werden unter Schaukeln speziell entwickelte Sicherheitsbeläge – Gummifliesen, Holzspäne oder Gummigranulat – verwendet, um Stürze abzufedern. Dieses Material ist sorgfältig darauf ausgelegt, Stöße zu dämpfen. Bevor Sicherheitsbeläge in den 1970er- und 1980er-Jahren zum Standard wurden, befand sich unter den Spielgeräten auf den meisten Spielplätzen harter Beton oder festgestampfte Erde."
+            },
+            {
+              "range": "73–88",
+              "title": "Die letzten Feinheiten",
+              "learn": "Finish by connecting Punkte 37 through 42 to add the final details that bring the playground scene to life. Just six Punkte to the finish line — encourage Kinder to slow down and make these last lines their most careful and confident. A strong finish is the mark of a real Punkt-to-Punkt expert!",
+              "fact": "The world's longest swing set on record had over 100 swings in a single row. Community swing events — where large groups swing together — have been held in parks around the world as celebrations of outdoor play. The swing is one of the few pieces of playground equipment that adults enjoy just as much as Kinder."
+            }
+          ],
+          "outro": "Großartig – dein Spielplatz ist fertig! Male die Schaukeln in deinen Lieblingsfarben aus und male ein paar Freunde dazu, die neben dir schaukeln. Dann geh nach draußen und probier es in echt aus – kein Buntstift kann das Gefühl des Windes in den Haaren auf dem höchsten Punkt einer Schaukel so gut nachbilden! Für jedes Alter und jedes Thema: Entdecke unsere komplette Bibliothek an <a href=\"/\">Punkt-zu-Punkt-Vorlagen</a>.",
+          "color_schemes": []
         }
-      ],
-      "outro": "Gut gemacht – dein Klettergerüst ist bereit! Male die Kleidung des kletternden Kindes aus, zeichne ein paar wartende Freunde dazu oder gestalte rundherum einen ganzen Spielplatz. Noch mehr aktive Herausforderungen findest du bei unseren <a href=\"/playgrounds/\">Punkt-zu-Punkt-Vorlagen zum Thema Spielplatz</a>."
+      }
     },
-    "seoTitle": "Klettergerüst Zahlenbild: 94 Punkte zum Schwingen"
-  },
-  {
-    "slug": "roller-coaster-playground-dot-to-dot-puzzle",
-    "name": "Achterbahn Spielplatz",
-    "seoH1": "Extreme Achterbahn Punkt zu Punkt — 133 Punkte, kostenlos",
-    "tagline": "Klettere die Strecke, verfolge den Fall!",
-    "description": "Verbinde 133 Punkte, um eine vollständige Spielplatzachterbahn mit Schleifen und allem zu enthüllen. Dies ist unser schwierigstes Spielplatzpuzzle bisher, gebaut für Kinder, die bereits die einfacheren Blätter durchgearbeitet haben und eine echte Gedulds- und Bleistiftkontrollprüfung wollen.",
-    "seoDescription": "Fahre die längste Spielplatzsequenz durch 133 Wendungen und Kurven. Dieses kostenlose Achterbahn-PDF fordert fokussierte Rätsel-Fans im Alter von 8 bis 12 Jahren heraus.",
-    "funFact": "Die erste Looping-Achterbahn wurde 1846 in Paris eröffnet. Die Fahrgäste beschwerten sich, dass es ihren Nacken schmerzte, und es dauerte fast 50 Jahre, bis Ingenieure eine Schleife entwarfen, die sich sanft anfühlte, anstatt bestrafend.",
-    "seoImageAlt": "Looping-Achterbahnschiene, die durch 133 Punkte windet, unser extremstes druckbares Rätsel.",
-    "dotGuide": {
-      "intro": "Sechs Abschnitte. Einhundertdreiunddreißig Punkte. Dies ist das größte Spielplatzrätsel im Set, und es tut nicht so, als wäre es anders — die Strecke steigt, sinkt, loopet und rollt schließlich zurück zur Plattform, wo sie begonnen hat. Kinder, die bereits die Schwingen-, Rutschen- oder Wippblätter abgeschlossen haben, werden das Format erkennen, aber die schiere Länge hier verändert das Gefühl des Ganzen. Langsame, gleichmäßige Bleistiftarbeit gewinnt den Tag. Finde Punkt 1 an der Basis des ersten Hügels, und lass uns etwas bauen, das es wert ist, darüber zu schreien.",
-      "sections": [
-        {
-          "range": "1–22",
-          "title": "Der Lift-Hügel",
-          "learn": "Beginne bei Punkt 1 und arbeite bis Punkt 22, um den langen, steilen Anstieg zu zeichnen, der den Achterbahnwagen zu seinem höchsten Punkt zieht. Diese Linien verlaufen in einer gleichmäßigen diagonalen Richtung, was dies zu einem guten Abschnitt macht, um Rhythmus aufzubauen, bevor das Rätsel komplizierter wird.",
-          "fact": "Die meisten Achterbahnen verwenden einen Kettenlift, um den Wagen den ersten Hügel hinaufzuziehen — es ist normalerweise der einzige Teil der Fahrt, der von einem Motor angetrieben wird. Alles, was nach dem Gipfel dieses Hügels passiert, läuft rein durch Schwerkraft und Schwung."
+    {
+      "slug": "dashing-car-playground-dot-to-dot-puzzle",
+      "header": {
+        "title": "Rutsche Von Punkt zu Punkt: 102 Punkte erklimmen, gratis",
+        "meta_description": "Renne von Punkt 1 bis 48 und enthülle ein fröhliches Spielplatzauto. Dieses kostenlose druckbare PDF verwandelt Zahlenfolgen in eine schnelle Fahrt für Kinder im Alter von 4–8 Jahren.",
+        "og": {
+          "title": "Rutsche Von Punkt zu Punkt: 102 Punkte erklimmen, gratis",
+          "description": "Renne von Punkt 1 bis 48 und enthülle ein fröhliches Spielplatzauto. Dieses kostenlose druckbare PDF verwandelt Zahlenfolgen in eine schnelle Fahrt für Kinder im Alter von 4–8 Jahren.",
+          "image_alt": "Hohe Spielplatzrutsche führt aufwärts durch 102 Punkte auf einer Druckvorlage"
         },
-        {
-          "range": "23–44",
-          "title": "Der erste Fall",
-          "learn": "Fahre von Punkt 23 bis Punkt 44 fort, um den steilen Sturz vom Gipfel nachzuzeichnen. Der Winkel hier ist steiler als an irgendeiner anderen Stelle auf dem Blatt, also ermutige eine feste, selbstbewusste Hand statt einer wackeligen, zögerlichen — ein schneller Fall braucht eine schnelle, sichere Linie.",
-          "fact": "Der allererste Fall auf einer Achterbahn ist fast immer der höchste und steilste der gesamten Fahrt. Achterbahndesigner platzieren ihn absichtlich früh, da es normalerweise der Punkt ist, an dem die Strecke ihre Höchstgeschwindigkeit erreicht."
-        },
-        {
-          "range": "45–66",
-          "title": "Die Schleife",
-          "learn": "Zeichne die Punkte 45 bis 66 nach, um die große Schleife im Herzen der Fahrt zu bauen. Dieser Abschnitt biegt sich zurück auf sich selbst, was kniffliger ist als ein gerader Anstieg oder Fall — gehe langsam und überprüfe den nächsten Punkt, bevor du dich für jede Kurve entscheidest.",
-          "fact": "Frühere Looping-Achterbahnen verwendeten eine perfekt kreisförmige Schleife, und die Fahrgäste beschwerten sich oft über Nackenverspannungen durch den plötzlichen Wechsel der Kraft. Moderne Schleifen verwenden stattdessen eine Tränenform, die sich bei derselben Geschwindigkeit viel sanfter auf den Körper anfühlt."
-        },
-        {
-          "range": "67–88",
-          "title": "Die Camelback-Hügel",
-          "learn": "Verbinde die Punkte 67 bis 88, um die kleineren rollenden Hügel zu zeichnen, die der Schleife folgen. Diese Hügel kommen nacheinander in schneller Folge, was den Kindern Übung mit kurzen, kontrollierten Strichen gibt, anstatt mit einem langen Strich.",
-          "fact": "Diese kleineren Erhebungen werden manchmal als 'Camelback'-Hügel bezeichnet, weil eine Reihe von ihnen hintereinander den Höckern eines Kamels ähnelt. Die Fahrgäste fühlen oft einen kurzen Auftrieb aus ihrem Sitz, wenn sie jeden einzelnen überqueren — ein echtes, wenn auch kleines, Moment der Schwerelosigkeit."
-        },
-        {
-          "range": "89–110",
-          "title": "Die letzte Kurve",
-          "learn": "Arbeite von Punkt 89 bis Punkt 110, um die sanfte Kurve zu formen, die die Strecke zurück zur Station bringt. Diese Biegung ist weit und allmählich, eine schöne Abwechslung nach der engeren Schleife früher im Rätsel.",
-          "fact": "Achterbahndesigner nennen diesen Abschnitt den 'Rücklauf'. Er ist breit und geneigt gebaut, damit der Wagen seine Geschwindigkeit durch die Kurve halten kann, ohne Bremsen zu benötigen, und die tatsächliche Bremsung bis zum Ende aufspart."
-        },
-        {
-          "range": "111–133",
-          "title": "Die Station und Plattform",
-          "learn": "Beende, indem du die Punkte 111 bis 133 verbindest, um die Station Plattform zu zeichnen, wo die Fahrt begann und endet. Dreiundzwanzig Punkte sind noch zu gehen auf dem größten Puzzle im Spielplatzset – ein langsames, sorgfältiges Ende hier ist das wahre Zeichen von Ausdauer.",
-          "fact": "Der Bremsabschnitt am Ende einer echten Achterbahn ist einer der am stärksten konstruierten Teile. Er muss einen Wagen voller Fahrgäste von voller Geschwindigkeit auf einen vollständigen Halt so sanft bringen, dass niemand durchgeschüttelt wird."
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Spielplatz-Rutsche",
+          "description": "Renne von Punkt 1 bis 48 und enthülle ein fröhliches Spielplatzauto. Dieses kostenlose druckbare PDF verwandelt Zahlenfolgen in eine schnelle Fahrt für Kinder im Alter von 4–8 Jahren.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
         }
-      ],
-      "outro": "Das ist die gesamte Fahrt, von Anfang bis Ende! Färbe die Strecke in kräftigen, hellen Schleifen und gib dem Achterbahnwagen einen wilden Anstrich, den du magst. Wenn 133 Punkte sich aufregend anfühlten und du eine noch größere Herausforderung möchtest, schau dir unsere <a href=\"/usa-250/\">extremen Punkt-zu-Punkt-Druckvorlagen</a> als Nächstes an."
-    },
-    "seoTitle": "Extreme Achterbahn Punkt-zu-Punkt — 133 Punkte, kostenlos"
-  },
-  {
-    "slug": "monkey-bar-playground-dot-to-dot-puzzle",
-    "name": "Klettergerüst Spielplatz",
-    "seoH1": "Klettergerüst Punkt-zu-Punkt: Schwinge durch 94 Punkte",
-    "tagline": "Schwinge, klettere und erreiche die andere Seite!",
-    "description": "Verbinde 94 Punkte, um ein lustiges Klettergerüst zu enthüllen. Dieses mittlere Spielplatzpuzzle ist eine großartige Herausforderung für Kinder, die die Zahlenfolge, den Bleistiftgebrauch und Geduld üben.",
-    "seoDescription": "Klettergerüste fördern den Griff und die Koordination auf dem Spielplatz; diese 94-Punkte-Version fördert die Bleistiftkontrolle. Lade das kostenlose PDF für Kinder im Alter von 5 bis 9 Jahren herunter.",
-    "funFact": "Klettergerüste wurden im frühen 20. Jahrhundert beliebte Spielplatzeinrichtungen und helfen Kindern, die Griffstärke, das Gleichgewicht und die Koordination des Oberkörpers zu üben.",
-    "seoImageAlt": "Spielplatz Klettergerüst, rung für rung über 94 druckbare Punkte",
-    "dotGuide": {
-      "intro": "Klettergerüste sind der ultimative Spielplatztest für Griff und Mut – erreichen, schwingen, loslassen, erneut erreichen, bis zur anderen Seite. Dieses 94-Punkte-Puzzle baut die gesamte Struktur von Grund auf: stabiler Rahmen zuerst, dann rung für rung, bis ein Kletterer über die Spitze schwingt. Finde Punkt 1 an der Basis und lass uns bauen.",
-      "sections": [
-        {
-          "range": "1–18",
-          "title": "Der Stützrahmen",
-          "learn": "Beginne bei Punkt 1 und verbinde bis Punkt 18, um die aufrechten Pfosten zu zeichnen, die die gesamte Struktur stabil halten. Diese schrägen Linien bilden das Rückgrat des Rahmens und geben den Kindern Übung mit festen, gleichmäßig verteilten Strichen, bevor die Riegel beginnen.",
-          "fact": "Die Rahmen von Klettergerüsten sind normalerweise tief in Betonsockeln unterhalb des Bodenlevels verankert, da die gesamte Struktur das volle Schwinggewicht eines Kindes ohne Wackeln halten muss."
-        },
-        {
-          "range": "19–38",
-          "title": "Die obere Schiene",
-          "learn": "Fahre von Punkt 19 bis Punkt 38 fort, um die lange horizontale Schiene zu zeichnen, die ganz oben verläuft. Dieser Abschnitt ist größtenteils eine stetige, gerade Linie – großartige Übung, um über einen längeren Abschnitt einen geraden Kurs zu halten, ohne vom Weg abzukommen.",
-          "fact": "Die obere Schiene der meisten Klettergerüst-Sets befindet sich gerade außerhalb der Reichweite eines stehenden Erwachsenen, was genau der Punkt ist – sie ist so dimensioniert, dass ein durchschnittliches Kind einen kleinen Sprung benötigt, um die erste Sprosse zu greifen."
-        },
-        {
-          "range": "39–58",
-          "title": "Die Sprossen",
-          "learn": "Verfolge die Punkte 39 bis 58, um die gleichmäßig verteilten Sprossen hinzuzufügen, die Kletterer greifen, während sie schwingen. Jede Sprosse ist eine kurze, separate Verbindung, also ermutige die Kinder, jede Nummer sorgfältig zu überprüfen, anstatt benachbarte Sprossen verschwommen zusammenfließen zu lassen.",
-          "fact": "Sprossen an Klettergerüsten sind traditionell so angeordnet, dass ein Kind mit voller Armstreckung zur nächsten Sprosse greifen muss – nah genug, um erreichbar zu sein, weit genug, um echten Halt und Schulterkraft aufzubauen."
-        },
-        {
-          "range": "59–76",
-          "title": "Der Kletterer",
-          "learn": "Verbinde die Punkte 59 bis 76, um die Figur eines Kindes in der Schwingung zu zeichnen, dessen ein Arm nach der nächsten Sprosse greift. Hier wird das Puzzle lebendig – erinnere die Kinder daran, nach dem nächsten Punkt zu schauen, damit die schwingende Pose flüssig und nicht abgehackt aussieht.",
-          "fact": "Das Schwingen von Hand zu Hand über Klettergerüste wird manchmal als 'Brachiation' bezeichnet, dasselbe Wort, das Wissenschaftler verwenden, um zu beschreiben, wie Affen durch Bäume schwingen, indem sie sich von Ast zu Ast bewegen."
-        },
-        {
-          "range": "77–94",
-          "title": "Der Boden und der Landeplatz",
-          "learn": "Vervollständige das Bild, indem du die Punkte 77 bis 94 verbindest, um den Boden unter den Stangen und den Landeplatz am anderen Ende zu zeichnen. Nur achtzehn Punkte bis zum Ziel – ein stetiger, selbstbewusster Abschluss vervollständigt das gesamte Überqueren.",
-          "fact": "Genau wie Schaukeln und Rutschen sind Klettergerüste fast immer über weichen Sicherheitsbelägen wie Gummifliesen, Sand oder Holzspänen installiert, um einen Sturz von den Sprossen abzufedern."
+      },
+      "body": {
+        "h1": "Rasantes Auto Punkt zu Punkt, 48 schnelle Punkte für 4- bis 8-Jährige",
+        "name": "Spielplatz-Rutsche",
+        "tagline": "Klettern, rutschen, nochmal!",
+        "description": "Verbinde 102 Punkte und entdecke eine hohe Spielplatzrutsche, bereit zum Klettern und Rutschen. Mit mehr Punkten als unser leichtestes Spielplatz-Rätsel ist dies eine schöne nächste Herausforderung für Kinder, die über die Anfängerblätter hinauswachsen und trotzdem ein vertrautes, fröhliches Motiv genießen wollen.",
+        "fun_fact": "Die höchste fest installierte Spielplatzrutsche der Welt misst über 30 Meter – ungefähr so hoch wie ein zehnstöckiges Haus!",
+        "faqs": [
+          {
+            "q": "Für welches Alter ist das Punkt-zu-Punkt-Rätsel Spielplatz-Rutsche geeignet?",
+            "a": "Es ist für Kinder im Alter von Alter 4–8 gedacht. Mit 48 Punkten eignet es sich für Kinder, die sicher bis 48 zählen können; jüngere Kinder schaffen es mit etwas Hilfe."
+          },
+          {
+            "q": "Wie drucke ich das Arbeitsblatt Spielplatz-Rutsche aus?",
+            "a": "Klicke auf den Download-Button, um das kostenlose PDF zu erhalten, und drucke es auf normalem Papier (A4 oder US Letter) aus jedem Browser oder PDF-Programm. Es wird keine spezielle Software benötigt."
+          },
+          {
+            "q": "Ist die Druckvorlage Spielplatz-Rutsche wirklich kostenlos?",
+            "a": "Ja — sie ist 100 % kostenlos, ohne Anmeldung, Konto oder Bezahlung. Du darfst sie für zu Hause oder den Unterricht ausdrucken."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Wenn die Schaukel die Königin des Spielplatzes ist, folgt die Rutsche dicht dahinter – es hat einfach etwas Unwiderstehliches, hinaufzuklettern, sich hinzusetzen und den Rest der Schwerkraft zu überlassen. Dieses 102-Punkte-Rätsel zeichnet eine hohe, klassische Spielplatzrutsche nach – von der Leiter hinten bis zur geschwungenen Bahn vorn. Es hat mehr Punkte als unser leichtestes Spielplatzblatt und belohnt darum etwas zusätzliche Geduld. Finde Punkt 1, und lass uns etwas bauen, das sich zu erklettern lohnt.",
+          "sections": [
+            {
+              "range": "1–10",
+              "title": "Die Leiter",
+              "learn": "Beginne bei Punkt 1 und verbinde bis Punkt 20, um die hohe Leiter zu zeichnen, die zur Plattform der Rutsche hinaufführt. Dieser Abschnitt besteht überwiegend aus geraden, gleichmäßig verteilten Linien – ein gutes Aufwärmen für ruhige, kontrollierte Stiftstriche, bevor die Kurven kommen.",
+              "fact": "Spielplatzleitern werden so gebaut, dass die Sprossen eng genug beieinanderliegen, damit ein Kinderfuß sicher die nächste erreicht – meist nicht mehr als etwa 30 Zentimeter Abstand, deutlich enger als bei einer Haushaltsleiter."
+            },
+            {
+              "range": "11–20",
+              "title": "Die Plattform",
+              "learn": "Mach von Punkt 21 bis Punkt 40 weiter und zeichne die flache Plattform oben, auf der die Kletterer kurz innehalten, bevor es hinuntergeht. Kinder üben hier, waagerechte und senkrechte Linien in sauberen rechten Winkeln zu verbinden – gutes Training für Struktur und Proportion.",
+              "fact": "Die meisten Spielplatzplattformen haben Geländer an mindestens drei Seiten; nur der Einstieg zur Rutsche bleibt offen. Allein diesem Konstruktionsdetail wird zugeschrieben, Stürze von Plattformen deutlich verringert zu haben, seit es zum Standard der Spielplatzsicherheit gehört."
+            },
+            {
+              "range": "21–30",
+              "title": "Der Einstieg der Rutsche",
+              "learn": "Zeichne die Punkte 41 bis 60 nach und forme die geschwungene Kante, an der die Plattform in die Rutsche übergeht – genau die Stelle, an der der Spaß beginnt. Die Kurve ist enger, als sie aussieht – lieber langsam und bewusst zeichnen statt mit schnellem Schwung.",
+              "fact": "Die allererste Kurve oben an einer Rutsche heißt Startkurve. Sie ist gezielt so geneigt, dass sie steuert, wie schnell man Fahrt aufnimmt, statt einen direkt nach unten fallen zu lassen."
+            },
+            {
+              "range": "31–40",
+              "title": "Die lange Bahn",
+              "learn": "Verbinde die Punkte 61 bis 85 und zeichne die lange, geschwungene Rutschbahn selbst. Das ist der größte und schönste Abschnitt des Rätsels – am besten mit einem einzigen, durchgehenden Strich statt vieler kurzer, denn genau das gibt der Rutsche ihr Tempo.",
+              "fact": "Moderne Spielplatzrutschen bestehen fast immer aus rotationsgeformtem Kunststoff statt aus Metall. Metallrutschen können in der Sommersonne gefährlich heiß werden – einer der Hauptgründe, warum Spielplätze ab den 1980er- und 90er-Jahren weitgehend das Material wechselten."
+            },
+            {
+              "range": "41–48",
+              "title": "Fuß und Landung",
+              "learn": "Zum Schluss verbindest du die Punkte 86 bis 102 und zeichnest den Fuß der Rutsche und den Boden, auf dem die Rutschenden landen. Noch siebzehn Punkte – ein sicherer, geerdeter Abschluss vollendet das ganze Bauwerk.",
+              "fact": "Genau wie Schaukeln stehen Rutschen über speziell entwickeltem Fallschutzboden – meist Gummi, Sand oder Holzschnitzel –, der den Aufprall einer Landung viel besser abfedert, als es Gras oder Beton je könnten."
+            }
+          ],
+          "outro": "Klasse gemacht – deine Rutsche ist bereit für die ersten Kletterer! Male sie in bunten Spielplatzfarben aus oder gestalte dein eigenes wildes Muster die Bahn hinunter. Bereit für etwas ganz anderes? Probiere als Nächstes unsere <a href=\"/dinosaurs/\">Dinosaurier-Punkt-zu-Punkt-Vorlagen</a>.",
+          "color_schemes": []
         }
-      ],
-      "outro": "Gut gemacht – dein Klettergerüst ist bereit zum Überqueren! Male die Kleidung des Kletterers aus, füge ein paar Freunde hinzu, die auf ihren Einsatz warten, oder gestalte eine ganze Spielstruktur darum herum. Für eine weitere praktische Herausforderung, entdecke mehr <a href=\"/playgrounds/\">Spielplatz Punkt-zu-Punkt-Ausdrucke</a>."
+      }
     },
-    "seoTitle": "Klettergerüst Punkt-zu-Punkt: Schwinge durch 94 Punkte"
-  }
-]
+    {
+      "slug": "swing-playgrounds-dot-to-dot-puzzle",
+      "header": {
+        "title": "Wippe Zahlenbild zum Ausdrucken — 68 Punkte im Gleichgewicht",
+        "meta_description": "Diese Wippe mit 68 Punkten liegt im mittleren Schwierigkeitsgrad unserer Zahlenbilder zum Von-Punkt-zu-Punkt-Verbinden und passt zu Kindern von 5 bis 9 Jahren, die gerade sicherer werden. Im Englischen heißt sie Seesaw oder Teeter-Totter — kostenloses PDF ausdrucken und die Zahlen Seite für Seite ins Gleichgewicht bringen. Ausgewogen für mittleres Niveau.",
+        "og": {
+          "title": "Wippe Zahlenbild zum Ausdrucken — 68 Punkte im Gleichgewicht",
+          "description": "Diese Wippe mit 68 Punkten liegt im mittleren Schwierigkeitsgrad unserer Zahlenbilder zum Von-Punkt-zu-Punkt-Verbinden und passt zu Kindern von 5 bis 9 Jahren, die gerade sicherer werden. Im Englischen heißt sie Seesaw oder Teeter-Totter — kostenloses PDF ausdrucken und die Zahlen Seite für Seite ins Gleichgewicht bringen. Ausgewogen für mittleres Niveau.",
+          "image_alt": "Zwei Freunde balancieren auf einer Wippe, die Szene entsteht aus 68 druckbaren Punkten"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Spielplatz-Wippe",
+          "description": "Diese Wippe mit 68 Punkten liegt im mittleren Schwierigkeitsgrad unserer Zahlenbilder zum Von-Punkt-zu-Punkt-Verbinden und passt zu Kindern von 5 bis 9 Jahren, die gerade sicherer werden. Im Englischen heißt sie Seesaw oder Teeter-Totter — kostenloses PDF ausdrucken und die Zahlen Seite für Seite ins Gleichgewicht bringen. Ausgewogen für mittleres Niveau.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
+      },
+      "body": {
+        "h1": "Schaukelset Punkt zu Punkt — einfachstes 42-Punkte Spielplatz-PDF",
+        "name": "Spielplatz-Wippe",
+        "tagline": "Hoch, runter, rundherum!",
+        "description": "Verbinde 68 Punkte und entdecke zwei Freunde, die auf einer klassischen Spielplatzwippe balancieren. Mit einer Punktzahl genau zwischen unserem leichtesten und unserem schwersten Spielplatz-Rätsel ist dieses Blatt ein solider Zwischenschritt für Kinder, die ihr Selbstvertrauen bei der Zahlenreihenfolge ausbauen.",
+        "fun_fact": "Im amerikanischen Englisch heißen Wippen manchmal „teeter-totter“ – beide Namen beschreiben dieselbe einfache Auf-und-ab-Bewegung, die Kinder seit Generationen begeistert.",
+        "faqs": [
+          {
+            "q": "Wie viele Punkte hat das Punkt-zu-Punkt-Rätsel „Schaukel-Spielplatz“?",
+            "a": "Die Malvorlage „Schaukel-Spielplatz“ hat 42 nummerierte Punkte. Damit ist es ein leicht bis mitteles Rätsel, ideal für Kinder von 5–8 Jahre (Vorschule bis 2. Klasse). Die Kinder verbinden die Punkte in Zahlenreihenfolge, bis das fertige Bild erscheint, und malen es anschließend aus."
+          },
+          {
+            "q": "Ist die Vorlage „Schaukel-Spielplatz“ kostenlos?",
+            "a": "Ja. Das Arbeitsblatt „Schaukel-Spielplatz“ ist auf DotToDotFreePrintables.com zu 100 % kostenlos — ohne Konto, E-Mail oder Bezahlung. Es lädt sofort als druckfertiges PDF herunter, im Hoch- und Querformat, in A4 oder US Letter."
+          },
+          {
+            "q": "Für welches Alter eignet sich das Arbeitsblatt „Schaukel-Spielplatz“?",
+            "a": "Mit 42 Punkten eignet sich das Rätsel „Schaukel-Spielplatz“ am besten für Kinder von 5–8 Jahre (Vorschule bis 2. Klasse). Jüngere Kinder schaffen es mit etwas Zählhilfe, sichere Zähler lösen es selbstständig und üben dabei die Zahlenfolge bis 42."
+          },
+          {
+            "q": "Welche Fähigkeiten fördert das Rätsel „Schaukel-Spielplatz“?",
+            "a": "Das Verbinden der 42 Punkte fördert Zahlenerkennung und Zählen bis 42, Stiftführung, Auge-Hand-Koordination und Konzentration — genau die feinmotorischen Grundlagen, die aufs Schreibenlernen vorbereiten. Das Ausmalen des fertigen Bildes ist die kreative Belohnung."
+          },
+          {
+            "q": "Was ist ein spannender Fakt zu diesem Rätsel?",
+            "a": "Swings are one of the oldest playground inventions — Kinder have been swinging on rope swings for thousands of years! Solche Fakten entdecken Kinder beim Lösen des Rätsels „Schaukel-Spielplatz“."
+          }
+        ],
+        "dot_guide": {
+          "intro": "In der Wippe steckt ein kleines Stück Teamwork – sie funktioniert nur, wenn beide mitmachen, sich abwechselnd abstoßen und aufsteigen. Dieses 68-Punkte-Rätsel zeichnet dieses Hin und Her von Grund auf – erst das Brett, zuletzt die beiden Kinder. Es ist ein schöner Schritt nach oben gegenüber unserem leichtesten Spielplatzblatt, ohne gleich ins Expertenreich zu kippen. Finde Punkt 1, und bringen wir das Ding ins Gleichgewicht.",
+          "sections": [
+            {
+              "range": "1–8",
+              "title": "Der Drehpunkt",
+              "learn": "Beginne bei Punkt 1 und verbinde bis Punkt 14, um die stabile Mittelstütze zu zeichnen, auf der die ganze Wippe balanciert. Diese Linien sind kurz und schräg – Kinder üben so, zuerst eine solide Basisform zu bauen, bevor oben etwas dazukommt.",
+              "fact": "Die Mittelstütze einer Wippe heißt Drehpunkt – dasselbe Wort verwenden Ingenieure für den Angelpunkt jedes Hebels. Eine Wippe ist im Grunde eine der einfachsten Maschinen überhaupt: ein Hebel, der auf einem festen Punkt balanciert."
+            },
+            {
+              "range": "9–18",
+              "title": "Das Brett",
+              "learn": "Mach von Punkt 15 bis Punkt 28 weiter und zeichne das lange Brett, das über dem Drehpunkt liegt. Kinder üben hier eine durchgehende, sanft geneigte Linie – gute Vorbereitung für ruhige Stiftführung bei längeren Strichen.",
+              "fact": "Ältere Wippen wurden oft aus einem einzigen Holzbrett gebaut – genau daher stammt der englische Name „seesaw“: „see“ und „saw“ ahmen die Hin-und-her-Bewegung einer alten Zweimannsäge nach, die über einen Baumstamm gezogen wird."
+            },
+            {
+              "range": "19–28",
+              "title": "Die Griffe",
+              "learn": "Zeichne die Punkte 29 bis 42 nach und ergänze die Griffe an beiden Enden des Bretts. In diesem Abschnitt arbeiten Kinder abwechselnd auf beiden Seiten des Rätsels und üben Symmetrie, indem sie an jedem Ende eine passende Form bauen.",
+              "fact": "Griffe waren nicht immer Standard bei Wippen. Bei frühen Spielplatzmodellen hielten sich die Kinder am Brett selbst fest – mit ein Grund, warum moderne Sicherheitsnormen heute eigene Handgriffe an beiden Enden vorschreiben."
+            },
+            {
+              "range": "29–36",
+              "title": "Das erste Kind",
+              "learn": "Verbinde die Punkte 43 bis 56 und zeichne das Kind, das auf dem angehobenen Ende der Wippe sitzt. Hier wird die Szene lebendig – erinnere die Kinder daran, erst zum nächsten Punkt zu schauen, bevor sie den Stift absetzen, damit die Figur schön glatt wird.",
+              "fact": "Wippen ist eine richtig nützliche Gleichgewichtsübung. Wer sein Gewicht verlagert, um beim Kippen des Bretts aufrecht zu bleiben, aktiviert dieselben Rumpfmuskeln und dasselbe Gleichgewichtssystem im Innenohr wie beim Turnen oder Tanzen."
+            },
+            {
+              "range": "37–42",
+              "title": "Das zweite Kind und der Boden",
+              "learn": "Zum Schluss verbindest du die Punkte 57 bis 68 und zeichnest das zweite Kind auf dem abgesenkten Ende sowie den Boden unter der Wippe. Nur noch zwölf Punkte – ein sorgfältiger, sicherer Abschluss vollendet die ganze Szene.",
+              "fact": "Manche modernen Spielplätze haben die klassische Zweierwippe durch federgelagerte Wipptiere ersetzt, auf denen ein Kind allein schaukeln kann. Die klassische Wippe mit Drehpunkt und zwei Sitzen ist weltweit aber immer noch die häufigste Bauform."
+            }
+          ],
+          "outro": "Gut gemacht – deine Wippe ist perfekt im Gleichgewicht! Male den beiden Kindern deine Lieblingsoutfits an oder ergänze einen ganzen Spielplatz voller Freunde, die auf ihren Platz warten. Neugierig, was unter dem Meer statt unter der Sonne wartet? Tauche als Nächstes in unsere <a href=\"/ocean/\">Punkt-zu-Punkt-Vorlagen von 1 bis 100</a> ein.",
+          "color_schemes": []
+        }
+      }
+    },
+    {
+      "slug": "slide-playgrounds-dot-to-dot-puzzle",
+      "header": {
+        "title": "Achterbahn Zahlenbild — Extrem mit 133 Punkten, gratis",
+        "meta_description": "Bereit für 102 Punkte? Klettere und steige eine hohe Spielplatzrutsche in dieser detaillierten druckbaren PDF-Herausforderung für sichere Zähler im Alter von 6–10 Jahren.",
+        "og": {
+          "title": "Achterbahn Zahlenbild — Extrem mit 133 Punkten, gratis",
+          "description": "Bereit für 102 Punkte? Klettere und steige eine hohe Spielplatzrutsche in dieser detaillierten druckbaren PDF-Herausforderung für sichere Zähler im Alter von 6–10 Jahren.",
+          "image_alt": "Achterbahn mit Looping schlängelt sich durch 133 Punkte, unsere anspruchsvollste Vorlage"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Achterbahn-Spielplatz",
+          "description": "Bereit für 102 Punkte? Klettere und steige eine hohe Spielplatzrutsche in dieser detaillierten druckbaren PDF-Herausforderung für sichere Zähler im Alter von 6–10 Jahren.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
+      },
+      "body": {
+        "h1": "Spielplatzrutsche Punkt zu Punkt: Klettere 102 Punkte kostenlos",
+        "name": "Achterbahn-Spielplatz",
+        "tagline": "Die Schiene hoch, dem Abgrund entgegen!",
+        "description": "Verbinde 133 Punkte und enthülle eine komplette Spielplatz-Achterbahn, mit Loopings und allem Drum und Dran. Das ist unser bisher schwierigstes Spielplatz-Rätsel, gedacht für Kinder, die die leichteren Blätter schon geschafft haben und einen echten Test für Geduld und Stiftkontrolle wollen.",
+        "fun_fact": "Die höchste permanente Spielplatzrutsche der Welt erstreckt sich über 30 Meter — etwa so hoch wie ein zehnstöckiges Gebäude!",
+        "faqs": [
+          {
+            "q": "Wie viele Punkte hat das Punkt-zu-Punkt-Rätsel „Spielplatz-Rutsche“?",
+            "a": "Die Malvorlage „Spielplatz-Rutsche“ hat 102 nummerierte Punkte. Damit ist es ein anspruchsvolles Rätsel, ideal für Kinder von 7–12 Jahre (ab der 2. Klasse). Die Kinder verbinden die Punkte in Zahlenreihenfolge, bis das fertige Bild erscheint, und malen es anschließend aus."
+          },
+          {
+            "q": "Ist die Vorlage „Spielplatz-Rutsche“ kostenlos?",
+            "a": "Ja. Das Arbeitsblatt „Spielplatz-Rutsche“ ist auf DotToDotFreePrintables.com zu 100 % kostenlos — ohne Konto, E-Mail oder Bezahlung. Es lädt sofort als druckfertiges PDF herunter, im Hoch- und Querformat, in A4 oder US Letter."
+          },
+          {
+            "q": "Für welches Alter eignet sich das Arbeitsblatt „Spielplatz-Rutsche“?",
+            "a": "Mit 102 Punkten eignet sich das Rätsel „Spielplatz-Rutsche“ am besten für Kinder von 7–12 Jahre (ab der 2. Klasse). Jüngere Kinder schaffen es mit etwas Zählhilfe, sichere Zähler lösen es selbstständig und üben dabei die Zahlenfolge bis 102."
+          },
+          {
+            "q": "Welche Fähigkeiten fördert das Rätsel „Spielplatz-Rutsche“?",
+            "a": "Das Verbinden der 102 Punkte fördert Zahlenerkennung und Zählen bis 102, Stiftführung, Auge-Hand-Koordination und Konzentration — genau die feinmotorischen Grundlagen, die aufs Schreibenlernen vorbereiten. Das Ausmalen des fertigen Bildes ist die kreative Belohnung."
+          },
+          {
+            "q": "Was ist ein spannender Fakt zu diesem Rätsel?",
+            "a": "Die höchste fest installierte Spielplatzrutsche der Welt misst über 30 Meter – ungefähr so hoch wie ein zehnstöckiges Haus! Solche Fakten entdecken Kinder beim Lösen des Rätsels „Spielplatz-Rutsche“."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Sechs Abschnitte. Hundertdreiunddreißig Punkte. Das ist das größte Spielplatz-Rätsel der Reihe, und das merkt man ihm auch an – die Strecke steigt, fällt, dreht sich in einem Looping und rollt am Ende zurück zur Plattform, wo sie begann. Kinder, die Schaukel, Rutsche oder Wippe schon geschafft haben, erkennen das Grundmuster wieder, aber die schiere Länge verändert das ganze Gefühl des Rätsels. Ruhige, gleichmäßige Stiftführung gewinnt hier. Finde Punkt 1 am Fuß des ersten Hügels, und bauen wir etwas, für das sich das Schreien lohnt.",
+          "sections": [
+            {
+              "range": "1–20",
+              "title": "Der Lifthügel",
+              "learn": "Beginne bei Punkt 1 und arbeite dich bis Punkt 22 vor, um den langen, steilen Anstieg zu zeichnen, der den Wagen zu seinem höchsten Punkt zieht. Diese Linien verlaufen in eine gleichmäßige diagonale Richtung – ein guter Abschnitt, um einen ruhigen Rhythmus zu finden, bevor das Rätsel komplizierter wird.",
+              "fact": "Die meisten Achterbahnen nutzen eine Kettenzuganlage, um den Wagen den ersten Hügel hinaufzuziehen – meist der einzige motorbetriebene Teil der Fahrt. Alles, was nach der Spitze dieses Hügels passiert, läuft rein durch Schwerkraft und Schwung."
+            },
+            {
+              "range": "21–40",
+              "title": "Der erste Abgrund",
+              "learn": "Mach von Punkt 23 bis Punkt 44 weiter und zeichne den steilen Sturz von der Spitze hinunter. Der Winkel ist hier schärfer als überall sonst auf dem Blatt – ermuntere darum zu einer festen, sicheren Hand statt einer zögerlichen, zitternden. Ein schneller Sturz braucht eine schnelle, sichere Linie.",
+              "fact": "Der allererste Abfall einer Achterbahn ist fast immer der höchste und steilste der ganzen Fahrt. Bahndesigner platzieren ihn absichtlich früh, denn genau dort erreicht die Strecke meist ihre Höchstgeschwindigkeit."
+            },
+            {
+              "range": "41–60",
+              "title": "Der Looping",
+              "learn": "Zeichne die Punkte 45 bis 66 nach und baue den großen Looping im Herzen der Fahrt. Dieser Abschnitt krümmt sich auf sich selbst zurück, was schwieriger ist als ein gerader Anstieg oder Abfall – geh langsam vor und prüfe den nächsten Punkt, bevor du dich auf jede Kurve festlegst.",
+              "fact": "Frühe Loopingbahnen nutzten einen perfekt kreisförmigen Looping, und Fahrgäste klagten oft über Nackenschmerzen durch den plötzlichen Kraftwechsel. Moderne Loopings verwenden stattdessen eine Tropfenform, die sich bei gleicher Geschwindigkeit deutlich sanfter anfühlt."
+            },
+            {
+              "range": "61–85",
+              "title": "Die Kamelhöcker-Hügel",
+              "learn": "Verbinde die Punkte 67 bis 88 und zeichne die kleineren, sich aneinanderreihenden Hügel, die auf den Looping folgen. Diese Buckel kommen schnell hintereinander – gute Übung für kurze, kontrollierte Striche statt eines einzigen langen Schwungs.",
+              "fact": "Diese kleineren Erhebungen werden manchmal 'Kamelhöcker' genannt, weil eine Reihe davon an die Höcker eines Kamels erinnert. Fahrgäste spüren oft ein kurzes Abheben vom Sitz an jeder Kuppe – ein echter, wenn auch kleiner Moment der Schwerelosigkeit."
+            },
+            {
+              "range": "86–102",
+              "title": "Die letzte Kurve",
+              "learn": "Arbeite von Punkt 89 bis Punkt 110, um die weite Kurve zu formen, die die Strecke zurück zur Station bringt. Diese Biegung ist breit und allmählich – ein angenehmer Tempowechsel nach dem engeren Looping zuvor im Rätsel.",
+              "fact": "Bahndesigner nennen diesen Abschnitt die 'Rückführstrecke'. Er wird breit und geneigt gebaut, damit der Wagen sein Tempo durch die Kurve halten kann, ohne zu bremsen – die eigentliche Bremsung folgt erst ganz am Ende."
+            }
+          ],
+          "outro": "Das war die ganze Fahrt, von Anfang bis Ende! Male die Strecke in kräftigen, leuchtenden Loopings aus und gib dem Achterbahnwagen den wildesten Anstrich, den du dir vorstellen kannst. Wenn dir 133 Punkte wie ein echter Nervenkitzel vorkamen und du eine noch größere Herausforderung suchst, schau dir als Nächstes unsere <a href=\"/usa-250/\">extremen Punkt-zu-Punkt-Vorlagen</a> an.",
+          "color_schemes": []
+        }
+      }
+    },
+    {
+      "slug": "seesaw-playground-dot-to-dot-puzzle",
+      "header": {
+        "title": "Klettergerüst Zahlenbild: 94 Punkte zum Schwingen",
+        "meta_description": "Wippe oder Wippbrett, die Bewegung bleibt auf und ab. Balanciere 68 nummerierte Punkte in diesem kostenlosen Spielplatzdruck für Kinder im Alter von 5–9 Jahren.",
+        "og": {
+          "title": "Klettergerüst Zahlenbild: 94 Punkte zum Schwingen",
+          "description": "Wippe oder Wippbrett, die Bewegung bleibt auf und ab. Balanciere 68 nummerierte Punkte in diesem kostenlosen Spielplatzdruck für Kinder im Alter von 5–9 Jahren.",
+          "image_alt": "Klettergerüst am Spielplatz, Sprosse für Sprosse aus 94 Druckpunkten geformt"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Klettergerüst auf dem Spielplatz",
+          "description": "Wippe oder Wippbrett, die Bewegung bleibt auf und ab. Balanciere 68 nummerierte Punkte in diesem kostenlosen Spielplatzdruck für Kinder im Alter von 5–9 Jahren.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
+      },
+      "body": {
+        "h1": "Wippe Punkt zu Punkt druckbar — Balanciere 68 Punkte",
+        "name": "Klettergerüst auf dem Spielplatz",
+        "tagline": "Schwing dich von Sprosse zu Sprosse ans andere Ende!",
+        "description": "Verbinde 94 Punkte und entdecke ein tolles Klettergerüst. Dieses mittelschwere Spielplatz-Rätsel ist eine schöne Herausforderung für Kinder, die Zahlenfolgen, Stiftführung und Geduld üben.",
+        "fun_fact": "Klettergerüste wurden Anfang des 20. Jahrhunderts zu beliebten Spielplatzgeräten. Sie helfen Kindern, Griffkraft, Gleichgewicht und die Koordination des Oberkörpers zu trainieren.",
+        "faqs": [
+          {
+            "q": "Wie viele Punkte hat das Punkt-zu-Punkt-Rätsel „Spielplatz-Wippe“?",
+            "a": "Die Malvorlage „Spielplatz-Wippe“ hat 68 nummerierte Punkte. Damit ist es ein leicht bis mitteles Rätsel, ideal für Kinder von 5–8 Jahre (Vorschule bis 2. Klasse). Die Kinder verbinden die Punkte in Zahlenreihenfolge, bis das fertige Bild erscheint, und malen es anschließend aus."
+          },
+          {
+            "q": "Ist die Vorlage „Spielplatz-Wippe“ kostenlos?",
+            "a": "Ja. Das Arbeitsblatt „Spielplatz-Wippe“ ist auf DotToDotFreePrintables.com zu 100 % kostenlos — ohne Konto, E-Mail oder Bezahlung. Es lädt sofort als druckfertiges PDF herunter, im Hoch- und Querformat, in A4 oder US Letter."
+          },
+          {
+            "q": "Für welches Alter eignet sich das Arbeitsblatt „Spielplatz-Wippe“?",
+            "a": "Mit 68 Punkten eignet sich das Rätsel „Spielplatz-Wippe“ am besten für Kinder von 5–8 Jahre (Vorschule bis 2. Klasse). Jüngere Kinder schaffen es mit etwas Zählhilfe, sichere Zähler lösen es selbstständig und üben dabei die Zahlenfolge bis 68."
+          },
+          {
+            "q": "Welche Fähigkeiten fördert das Rätsel „Spielplatz-Wippe“?",
+            "a": "Das Verbinden der 68 Punkte fördert Zahlenerkennung und Zählen bis 68, Stiftführung, Auge-Hand-Koordination und Konzentration — genau die feinmotorischen Grundlagen, die aufs Schreibenlernen vorbereiten. Das Ausmalen des fertigen Bildes ist die kreative Belohnung."
+          },
+          {
+            "q": "Was ist ein spannender Fakt zu diesem Rätsel?",
+            "a": "Im amerikanischen Englisch heißen Wippen manchmal „teeter-totter“ – beide Namen beschreiben dieselbe einfache Auf-und-ab-Bewegung, die Kinder seit Generationen begeistert. Solche Fakten entdecken Kinder beim Lösen des Rätsels „Spielplatz-Wippe“."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Klettergerüste sind die ultimative Spielplatzprobe für Griffkraft und Mut: greifen, schwingen, loslassen und wieder zugreifen – bis zur anderen Seite. Dieses Rätsel mit 94 Punkten baut das ganze Gerüst von unten nach oben auf: zuerst den stabilen Rahmen, dann Sprosse für Sprosse, bis ein Kind über das Gerüst schwingt. Suche Punkt 1 am Fuß des Gerüsts, und los geht's.",
+          "sections": [
+            {
+              "range": "1–14",
+              "title": "Der Stützrahmen",
+              "learn": "Beginne bei Punkt 1 und verbinde die Punkte bis 18, um die senkrechten Pfosten zu zeichnen, die das ganze Gerüst stabil halten. Diese schrägen Linien bilden das Rückgrat des Rahmens und helfen Kindern, feste, gleichmäßige Striche zu üben, bevor die Sprossen beginnen.",
+              "fact": "Die Rahmen von Klettergerüsten werden meist tief in Betonfundamenten im Boden verankert, denn die gesamte Konstruktion muss das volle Gewicht eines schwingenden Kindes tragen, ohne zu wackeln."
+            },
+            {
+              "range": "15–28",
+              "title": "Die obere Längsstange",
+              "learn": "Verbinde nun die Punkte 19 bis 38, um die lange waagerechte Stange ganz oben zu zeichnen. Dieser Abschnitt besteht größtenteils aus einer ruhigen, geraden Linie – eine gute Übung, um über eine längere Strecke die Richtung zu halten.",
+              "fact": "Die obere Stange vieler Klettergerüste liegt absichtlich recht hoch. Ein durchschnittlich großes Kind muss meist ein wenig springen, um die erste Sprosse zu erreichen."
+            },
+            {
+              "range": "29–42",
+              "title": "Die Sprossen",
+              "learn": "Zeichne von Punkt 39 bis 58 die gleichmäßig angeordneten Sprossen ein, an denen sich die Kinder beim Hangeln festhalten. Jede Sprosse ist eine kurze, eigene Verbindung. Achte deshalb sorgfältig auf jede Zahl, damit benachbarte Sprossen nicht miteinander verwechselt werden.",
+              "fact": "Die Abstände zwischen den Sprossen sind gewöhnlich so gewählt, dass ein Kind den Arm ganz ausstrecken muss: nah genug zum Greifen und weit genug, um Griffkraft und Schultern zu trainieren."
+            },
+            {
+              "range": "43–56",
+              "title": "Das kletternde Kind",
+              "learn": "Verbinde die Punkte 59 bis 76, um ein Kind mitten in der Schwingbewegung zu zeichnen, das mit einem Arm nach der nächsten Sprosse greift. Nun wird das Bild lebendig. Schau immer schon zum nächsten Punkt, damit die Bewegung rund und nicht zackig aussieht.",
+              "fact": "Das Schwingen von Hand zu Hand über ein Klettergerüst wird auch Brachiation genannt. Mit demselben Fachbegriff beschreiben Forschende, wie sich Menschenaffen schwingend von Ast zu Ast bewegen."
+            },
+            {
+              "range": "57–68",
+              "title": "Der Boden und der Landebereich",
+              "learn": "Zum Schluss verbindest du die Punkte 77 bis 94 und zeichnest den Boden unter dem Gerüst sowie den Landebereich am anderen Ende. Nur noch achtzehn Punkte – mit einem ruhigen, sicheren Abschluss ist die ganze Kletterstrecke geschafft.",
+              "fact": "Wie Schaukeln und Rutschen stehen Klettergerüste fast immer auf einem weichen Fallschutz, zum Beispiel auf Gummimatten, Sand oder Holzschnitzeln, damit ein Sturz von den Sprossen abgefedert wird."
+            }
+          ],
+          "outro": "Gut gemacht – dein Klettergerüst ist bereit! Male die Kleidung des kletternden Kindes aus, zeichne ein paar wartende Freunde dazu oder gestalte rundherum einen ganzen Spielplatz. Noch mehr aktive Herausforderungen findest du bei unseren <a href=\"/playgrounds/\">Punkt-zu-Punkt-Vorlagen zum Thema Spielplatz</a>.",
+          "color_schemes": []
+        }
+      }
+    },
+    {
+      "slug": "roller-coaster-playground-dot-to-dot-puzzle",
+      "header": {
+        "title": "Extreme Achterbahn Punkt-zu-Punkt — 133 Punkte, kostenlos",
+        "meta_description": "Fahre die längste Spielplatzsequenz durch 133 Wendungen und Kurven. Dieses kostenlose Achterbahn-PDF fordert fokussierte Rätsel-Fans im Alter von 8 bis 12 Jahren heraus.",
+        "og": {
+          "title": "Extreme Achterbahn Punkt-zu-Punkt — 133 Punkte, kostenlos",
+          "description": "Fahre die längste Spielplatzsequenz durch 133 Wendungen und Kurven. Dieses kostenlose Achterbahn-PDF fordert fokussierte Rätsel-Fans im Alter von 8 bis 12 Jahren heraus.",
+          "image_alt": "Looping-Achterbahnschiene, die durch 133 Punkte windet, unser extremstes druckbares Rätsel."
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Achterbahn Spielplatz",
+          "description": "Fahre die längste Spielplatzsequenz durch 133 Wendungen und Kurven. Dieses kostenlose Achterbahn-PDF fordert fokussierte Rätsel-Fans im Alter von 8 bis 12 Jahren heraus.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
+      },
+      "body": {
+        "h1": "Extreme Achterbahn Punkt zu Punkt — 133 Punkte, kostenlos",
+        "name": "Achterbahn Spielplatz",
+        "tagline": "Klettere die Strecke, verfolge den Fall!",
+        "description": "Verbinde 133 Punkte, um eine vollständige Spielplatzachterbahn mit Schleifen und allem zu enthüllen. Dies ist unser schwierigstes Spielplatzpuzzle bisher, gebaut für Kinder, die bereits die einfacheren Blätter durchgearbeitet haben und eine echte Gedulds- und Bleistiftkontrollprüfung wollen.",
+        "fun_fact": "Die erste Looping-Achterbahn wurde 1846 in Paris eröffnet. Die Fahrgäste beschwerten sich, dass es ihren Nacken schmerzte, und es dauerte fast 50 Jahre, bis Ingenieure eine Schleife entwarfen, die sich sanft anfühlte, anstatt bestrafend.",
+        "faqs": [
+          {
+            "q": "Wie viele Punkte hat das Punkt-zu-Punkt-Rätsel „Achterbahn-Spielplatz“?",
+            "a": "Die Malvorlage „Achterbahn-Spielplatz“ hat 133 nummerierte Punkte. Damit ist es ein anspruchsvolles Rätsel, ideal für Kinder von 7–12 Jahre (ab der 2. Klasse). Die Kinder verbinden die Punkte in Zahlenreihenfolge, bis das fertige Bild erscheint, und malen es anschließend aus."
+          },
+          {
+            "q": "Ist die Vorlage „Achterbahn-Spielplatz“ kostenlos?",
+            "a": "Ja. Das Arbeitsblatt „Achterbahn-Spielplatz“ ist auf DotToDotFreePrintables.com zu 100 % kostenlos — ohne Konto, E-Mail oder Bezahlung. Es lädt sofort als druckfertiges PDF herunter, im Hoch- und Querformat, in A4 oder US Letter."
+          },
+          {
+            "q": "Für welches Alter eignet sich das Arbeitsblatt „Achterbahn-Spielplatz“?",
+            "a": "Mit 133 Punkten eignet sich das Rätsel „Achterbahn-Spielplatz“ am besten für Kinder von 7–12 Jahre (ab der 2. Klasse). Jüngere Kinder schaffen es mit etwas Zählhilfe, sichere Zähler lösen es selbstständig und üben dabei die Zahlenfolge bis 133."
+          },
+          {
+            "q": "Welche Fähigkeiten fördert das Rätsel „Achterbahn-Spielplatz“?",
+            "a": "Das Verbinden der 133 Punkte fördert Zahlenerkennung und Zählen bis 133, Stiftführung, Auge-Hand-Koordination und Konzentration — genau die feinmotorischen Grundlagen, die aufs Schreibenlernen vorbereiten. Das Ausmalen des fertigen Bildes ist die kreative Belohnung."
+          },
+          {
+            "q": "Was ist ein spannender Fakt zu diesem Rätsel?",
+            "a": "Die erste Achterbahn mit Looping eröffnete 1846 in Paris. Die Fahrgäste beschwerten sich über Nackenschmerzen, und es dauerte fast 50 Jahre, bis Ingenieure einen Looping entwickelten, der sich sanft statt schmerzhaft anfühlte. Solche Fakten entdecken Kinder beim Lösen des Rätsels „Achterbahn-Spielplatz“."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Sechs Abschnitte. Einhundertdreiunddreißig Punkte. Dies ist das größte Spielplatzrätsel im Set, und es tut nicht so, als wäre es anders — die Strecke steigt, sinkt, loopet und rollt schließlich zurück zur Plattform, wo sie begonnen hat. Kinder, die bereits die Schwingen-, Rutschen- oder Wippblätter abgeschlossen haben, werden das Format erkennen, aber die schiere Länge hier verändert das Gefühl des Ganzen. Langsame, gleichmäßige Bleistiftarbeit gewinnt den Tag. Finde Punkt 1 an der Basis des ersten Hügels, und lass uns etwas bauen, das es wert ist, darüber zu schreien.",
+          "sections": [
+            {
+              "range": "1–22",
+              "title": "Der Lift-Hügel",
+              "learn": "Beginne bei Punkt 1 und arbeite bis Punkt 22, um den langen, steilen Anstieg zu zeichnen, der den Achterbahnwagen zu seinem höchsten Punkt zieht. Diese Linien verlaufen in einer gleichmäßigen diagonalen Richtung, was dies zu einem guten Abschnitt macht, um Rhythmus aufzubauen, bevor das Rätsel komplizierter wird.",
+              "fact": "Die meisten Achterbahnen verwenden einen Kettenlift, um den Wagen den ersten Hügel hinaufzuziehen — es ist normalerweise der einzige Teil der Fahrt, der von einem Motor angetrieben wird. Alles, was nach dem Gipfel dieses Hügels passiert, läuft rein durch Schwerkraft und Schwung."
+            },
+            {
+              "range": "23–44",
+              "title": "Der erste Fall",
+              "learn": "Fahre von Punkt 23 bis Punkt 44 fort, um den steilen Sturz vom Gipfel nachzuzeichnen. Der Winkel hier ist steiler als an irgendeiner anderen Stelle auf dem Blatt, also ermutige eine feste, selbstbewusste Hand statt einer wackeligen, zögerlichen — ein schneller Fall braucht eine schnelle, sichere Linie.",
+              "fact": "Der allererste Fall auf einer Achterbahn ist fast immer der höchste und steilste der gesamten Fahrt. Achterbahndesigner platzieren ihn absichtlich früh, da es normalerweise der Punkt ist, an dem die Strecke ihre Höchstgeschwindigkeit erreicht."
+            },
+            {
+              "range": "45–66",
+              "title": "Die Schleife",
+              "learn": "Zeichne die Punkte 45 bis 66 nach, um die große Schleife im Herzen der Fahrt zu bauen. Dieser Abschnitt biegt sich zurück auf sich selbst, was kniffliger ist als ein gerader Anstieg oder Fall — gehe langsam und überprüfe den nächsten Punkt, bevor du dich für jede Kurve entscheidest.",
+              "fact": "Frühere Looping-Achterbahnen verwendeten eine perfekt kreisförmige Schleife, und die Fahrgäste beschwerten sich oft über Nackenverspannungen durch den plötzlichen Wechsel der Kraft. Moderne Schleifen verwenden stattdessen eine Tränenform, die sich bei derselben Geschwindigkeit viel sanfter auf den Körper anfühlt."
+            },
+            {
+              "range": "67–88",
+              "title": "Die Camelback-Hügel",
+              "learn": "Verbinde die Punkte 67 bis 88, um die kleineren rollenden Hügel zu zeichnen, die der Schleife folgen. Diese Hügel kommen nacheinander in schneller Folge, was den Kindern Übung mit kurzen, kontrollierten Strichen gibt, anstatt mit einem langen Strich.",
+              "fact": "Diese kleineren Erhebungen werden manchmal als 'Camelback'-Hügel bezeichnet, weil eine Reihe von ihnen hintereinander den Höckern eines Kamels ähnelt. Die Fahrgäste fühlen oft einen kurzen Auftrieb aus ihrem Sitz, wenn sie jeden einzelnen überqueren — ein echtes, wenn auch kleines, Moment der Schwerelosigkeit."
+            },
+            {
+              "range": "89–110",
+              "title": "Die letzte Kurve",
+              "learn": "Arbeite von Punkt 89 bis Punkt 110, um die sanfte Kurve zu formen, die die Strecke zurück zur Station bringt. Diese Biegung ist weit und allmählich, eine schöne Abwechslung nach der engeren Schleife früher im Rätsel.",
+              "fact": "Achterbahndesigner nennen diesen Abschnitt den 'Rücklauf'. Er ist breit und geneigt gebaut, damit der Wagen seine Geschwindigkeit durch die Kurve halten kann, ohne Bremsen zu benötigen, und die tatsächliche Bremsung bis zum Ende aufspart."
+            },
+            {
+              "range": "111–133",
+              "title": "Die Station und Plattform",
+              "learn": "Beende, indem du die Punkte 111 bis 133 verbindest, um die Station Plattform zu zeichnen, wo die Fahrt begann und endet. Dreiundzwanzig Punkte sind noch zu gehen auf dem größten Puzzle im Spielplatzset – ein langsames, sorgfältiges Ende hier ist das wahre Zeichen von Ausdauer.",
+              "fact": "Der Bremsabschnitt am Ende einer echten Achterbahn ist einer der am stärksten konstruierten Teile. Er muss einen Wagen voller Fahrgäste von voller Geschwindigkeit auf einen vollständigen Halt so sanft bringen, dass niemand durchgeschüttelt wird."
+            }
+          ],
+          "outro": "Das ist die gesamte Fahrt, von Anfang bis Ende! Färbe die Strecke in kräftigen, hellen Schleifen und gib dem Achterbahnwagen einen wilden Anstrich, den du magst. Wenn 133 Punkte sich aufregend anfühlten und du eine noch größere Herausforderung möchtest, schau dir unsere <a href=\"/usa-250/\">extremen Punkt-zu-Punkt-Druckvorlagen</a> als Nächstes an.",
+          "color_schemes": []
+        }
+      }
+    },
+    {
+      "slug": "monkey-bar-playground-dot-to-dot-puzzle",
+      "header": {
+        "title": "Klettergerüst Punkt-zu-Punkt: Schwinge durch 94 Punkte",
+        "meta_description": "Klettergerüste fördern den Griff und die Koordination auf dem Spielplatz; diese 94-Punkte-Version fördert die Bleistiftkontrolle. Lade das kostenlose PDF für Kinder im Alter von 5 bis 9 Jahren herunter.",
+        "og": {
+          "title": "Klettergerüst Punkt-zu-Punkt: Schwinge durch 94 Punkte",
+          "description": "Klettergerüste fördern den Griff und die Koordination auf dem Spielplatz; diese 94-Punkte-Version fördert die Bleistiftkontrolle. Lade das kostenlose PDF für Kinder im Alter von 5 bis 9 Jahren herunter.",
+          "image_alt": "Spielplatz Klettergerüst, rung für rung über 94 druckbare Punkte"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Klettergerüst Spielplatz",
+          "description": "Klettergerüste fördern den Griff und die Koordination auf dem Spielplatz; diese 94-Punkte-Version fördert die Bleistiftkontrolle. Lade das kostenlose PDF für Kinder im Alter von 5 bis 9 Jahren herunter.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
+      },
+      "body": {
+        "h1": "Klettergerüst Punkt-zu-Punkt: Schwinge durch 94 Punkte",
+        "name": "Klettergerüst Spielplatz",
+        "tagline": "Schwinge, klettere und erreiche die andere Seite!",
+        "description": "Verbinde 94 Punkte, um ein lustiges Klettergerüst zu enthüllen. Dieses mittlere Spielplatzpuzzle ist eine großartige Herausforderung für Kinder, die die Zahlenfolge, den Bleistiftgebrauch und Geduld üben.",
+        "fun_fact": "Klettergerüste wurden im frühen 20. Jahrhundert beliebte Spielplatzeinrichtungen und helfen Kindern, die Griffstärke, das Gleichgewicht und die Koordination des Oberkörpers zu üben.",
+        "faqs": [
+          {
+            "q": "Wie viele Punkte hat das Punkt-zu-Punkt-Rätsel „Monkey Bars Playground“?",
+            "a": "Die Malvorlage „Monkey Bars Playground“ hat 94 nummerierte Punkte. Damit ist es ein mitteles Rätsel, ideal für Kinder von 6–9 Jahre (1. bis 3. Klasse). Die Kinder verbinden die Punkte in Zahlenreihenfolge, bis das fertige Bild erscheint, und malen es anschließend aus."
+          },
+          {
+            "q": "Ist die Vorlage „Monkey Bars Playground“ kostenlos?",
+            "a": "Ja. Das Arbeitsblatt „Monkey Bars Playground“ ist auf DotToDotFreePrintables.com zu 100 % kostenlos — ohne Konto, E-Mail oder Bezahlung. Es lädt sofort als druckfertiges PDF herunter, im Hoch- und Querformat, in A4 oder US Letter."
+          },
+          {
+            "q": "Für welches Alter eignet sich das Arbeitsblatt „Monkey Bars Playground“?",
+            "a": "Mit 94 Punkten eignet sich das Rätsel „Monkey Bars Playground“ am besten für Kinder von 6–9 Jahre (1. bis 3. Klasse). Jüngere Kinder schaffen es mit etwas Zählhilfe, sichere Zähler lösen es selbstständig und üben dabei die Zahlenfolge bis 94."
+          },
+          {
+            "q": "Welche Fähigkeiten fördert das Rätsel „Monkey Bars Playground“?",
+            "a": "Das Verbinden der 94 Punkte fördert Zahlenerkennung und Zählen bis 94, Stiftführung, Auge-Hand-Koordination und Konzentration — genau die feinmotorischen Grundlagen, die aufs Schreibenlernen vorbereiten. Das Ausmalen des fertigen Bildes ist die kreative Belohnung."
+          },
+          {
+            "q": "Was ist eine interessante Tatsache über den Spielplatz mit Klettergerüsten?",
+            "a": "Klettergerüste wurden Anfang des 20. Jahrhunderts zu beliebten Spielplatzgeräten und helfen Kindern, ihre Griffkraft, ihr Gleichgewicht und ihre Oberkörperkoordination zu trainieren. Solche Fakten entdecken Kinder beim Vervollständigen des Punkt-zu-Punkt-Rätsels „Klettergerüst-Spielplatz“."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Klettergerüste sind der ultimative Spielplatztest für Griff und Mut – erreichen, schwingen, loslassen, erneut erreichen, bis zur anderen Seite. Dieses 94-Punkte-Puzzle baut die gesamte Struktur von Grund auf: stabiler Rahmen zuerst, dann rung für rung, bis ein Kletterer über die Spitze schwingt. Finde Punkt 1 an der Basis und lass uns bauen.",
+          "sections": [
+            {
+              "range": "1–18",
+              "title": "Der Stützrahmen",
+              "learn": "Beginne bei Punkt 1 und verbinde bis Punkt 18, um die aufrechten Pfosten zu zeichnen, die die gesamte Struktur stabil halten. Diese schrägen Linien bilden das Rückgrat des Rahmens und geben den Kindern Übung mit festen, gleichmäßig verteilten Strichen, bevor die Riegel beginnen.",
+              "fact": "Die Rahmen von Klettergerüsten sind normalerweise tief in Betonsockeln unterhalb des Bodenlevels verankert, da die gesamte Struktur das volle Schwinggewicht eines Kindes ohne Wackeln halten muss."
+            },
+            {
+              "range": "19–38",
+              "title": "Die obere Schiene",
+              "learn": "Fahre von Punkt 19 bis Punkt 38 fort, um die lange horizontale Schiene zu zeichnen, die ganz oben verläuft. Dieser Abschnitt ist größtenteils eine stetige, gerade Linie – großartige Übung, um über einen längeren Abschnitt einen geraden Kurs zu halten, ohne vom Weg abzukommen.",
+              "fact": "Die obere Schiene der meisten Klettergerüst-Sets befindet sich gerade außerhalb der Reichweite eines stehenden Erwachsenen, was genau der Punkt ist – sie ist so dimensioniert, dass ein durchschnittliches Kind einen kleinen Sprung benötigt, um die erste Sprosse zu greifen."
+            },
+            {
+              "range": "39–58",
+              "title": "Die Sprossen",
+              "learn": "Verfolge die Punkte 39 bis 58, um die gleichmäßig verteilten Sprossen hinzuzufügen, die Kletterer greifen, während sie schwingen. Jede Sprosse ist eine kurze, separate Verbindung, also ermutige die Kinder, jede Nummer sorgfältig zu überprüfen, anstatt benachbarte Sprossen verschwommen zusammenfließen zu lassen.",
+              "fact": "Sprossen an Klettergerüsten sind traditionell so angeordnet, dass ein Kind mit voller Armstreckung zur nächsten Sprosse greifen muss – nah genug, um erreichbar zu sein, weit genug, um echten Halt und Schulterkraft aufzubauen."
+            },
+            {
+              "range": "59–76",
+              "title": "Der Kletterer",
+              "learn": "Verbinde die Punkte 59 bis 76, um die Figur eines Kindes in der Schwingung zu zeichnen, dessen ein Arm nach der nächsten Sprosse greift. Hier wird das Puzzle lebendig – erinnere die Kinder daran, nach dem nächsten Punkt zu schauen, damit die schwingende Pose flüssig und nicht abgehackt aussieht.",
+              "fact": "Das Schwingen von Hand zu Hand über Klettergerüste wird manchmal als 'Brachiation' bezeichnet, dasselbe Wort, das Wissenschaftler verwenden, um zu beschreiben, wie Affen durch Bäume schwingen, indem sie sich von Ast zu Ast bewegen."
+            },
+            {
+              "range": "77–94",
+              "title": "Der Boden und der Landeplatz",
+              "learn": "Vervollständige das Bild, indem du die Punkte 77 bis 94 verbindest, um den Boden unter den Stangen und den Landeplatz am anderen Ende zu zeichnen. Nur achtzehn Punkte bis zum Ziel – ein stetiger, selbstbewusster Abschluss vervollständigt das gesamte Überqueren.",
+              "fact": "Genau wie Schaukeln und Rutschen sind Klettergerüste fast immer über weichen Sicherheitsbelägen wie Gummifliesen, Sand oder Holzspänen installiert, um einen Sturz von den Sprossen abzufedern."
+            }
+          ],
+          "outro": "Gut gemacht – dein Klettergerüst ist bereit zum Überqueren! Male die Kleidung des Kletterers aus, füge ein paar Freunde hinzu, die auf ihren Einsatz warten, oder gestalte eine ganze Spielstruktur darum herum. Für eine weitere praktische Herausforderung, entdecke mehr <a href=\"/playgrounds/\">Spielplatz Punkt-zu-Punkt-Ausdrucke</a>.",
+          "color_schemes": []
+        }
+      }
+    }
+  ]
+}

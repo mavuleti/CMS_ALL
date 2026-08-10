@@ -1,513 +1,1014 @@
-[
-  {
-    "slug": "trex-61-dot-to-dot-puzzle",
-    "name": "T-Rex 61-punkts utfordring",
-    "seoH1": "T-Rex Punkt til Punkt — 61 Punkter med Forhistorisk Moro",
-    "tagline": "En større tyrannøgleutfordring",
-    "description": "Koble sammen 61 prikker for å avsløre en mektig Tyrannosaurus Rex. Dette utskrivbare dinosaurarbeidsarket gir trygge unge tellere en lengre utfordring med tallsekvensering samtidig som de bygger blyantkontroll, fokus og finmotorikk.",
-    "seoDescription": "T-Rex erstattet tapte tenner gjennom hele livet. Koble sammen 61 punkter i denne gratis utskrivbare punkt til punkt PDF for barn i alderen 6–9, fra vår 2026 samling.",
-    "funFact": "T-Rex kunne erstatte tennene sine gjennom hele livet, og få nye når eldre tenner brakk eller falt ut!",
-    "seoImageAlt": "Mektige Tyrannosaurus Rex tramper ut av 61 nummererte punkter, gratis dinosaurark",
-    "dotGuide": {
-      "intro": "Sekstien prikker. Det er en skikkelig utfordring – og en passende en, for Tyrannosaurus Rex var en skikkelig kjempe. Denne oppgaven tar lengre tid enn de fleste av våre <a href=\"/\">gratis prikk-til-prikk-utskriftbare oppgaver</a> , så den passer for barn som allerede har mestret å telle til 50 og ønsker noe mer fyldig. Finn prikk 1 helt ytterst på kjeven, ta et pust, og la oss vekke dinosaurenes konge.",
-      "sections": [
-        {
-          "range": "1–11",
-          "title": "Det massive hodet og snuten",
-          "learn": "Start ved punkt 1 på tuppen av den tannfulle kjeven og jobb deg oppover og over hodet til punkt 11 ved nakkens underside. Strøkene her er korte og buede, noe som gjør dette til en skånsom oppvarming før de lange linjene som kommer. Spør barnet ditt hva de legger merke til med hodet – det er enormt sammenlignet med alt annet, og det er ingen tilfeldighet.",
-          "fact": "En fullvoksen T-Rex-skalle var omtrent en og en halv meter lang – høyere enn de fleste åtteåringer. Forskere mener bittet var det sterkeste av alle landdyr som noen gang har levd, kraftig nok til å knuse bein."
-        },
-        {
-          "range": "12–26",
-          "title": "Langs ryggen til halespissen",
-          "learn": "Fra punkt 12 sveiper linjen langs baksiden og helt ned langs halen til punkt 26 helt på spissen. Dette er den lengste og jevneste delen av puslespillet. Oppmuntre til én flytende bevegelse i stedet for mange stopp og start – det er utmerket øvelse for den vedvarende blyantkontrollen barn trenger når de begynner å skrive sammenhengende.",
-          "fact": "Halen utgjorde nesten halvparten av en T-Rex&#39; totale lengde og inneholdt mer enn 40 bein. Den fungerte som en linedanserstang, og balanserte det enorme hodet slik at dinosauren ikke tippet fremover i ansiktet."
-        },
-        {
-          "range": "27–35",
-          "title": "Under halen til hoften",
-          "learn": "Doble nå tilbake. Punktene 27 til 35 går under halen mot hoften og følger den tykke undersiden av den mektige balansebjelken. Barn må telle nøye her fordi prikkene sitter tett sammen – et godt tidspunkt å senke farten og sjekke hvert tall før de tegner.",
-          "fact": "Stående på hoften var en T-Rex rundt 3,6 meter høy. Hele kroppen kunne strekke seg til 12 meter fra snute til halespiss – omtrent lengden på en skolebuss."
-        },
-        {
-          "range": "36–48",
-          "title": "De kraftige beina og føttene",
-          "learn": "Punkt 36 til 48 bygger bakbena og begge klørne. Disse var motoren til hele dyret, og seksjonen belønner dristige, sikre strøk. Det er litt sikksakk mellom tærne, så det sniker også inn litt finmotorisk øvelse akkurat når barn tror de bare tegner dinosaurføtter.",
-          "fact": "Fotavtrykket til en T-Rex kan være over en meter langt. I årevis kranglet folk om hvor raskt den kunne bevege seg – nåværende forskning tyder på en ganghastighet på omtrent 5 km/t og korte utbrudd nærmere 20 km/t. Raskt nok."
-        },
-        {
-          "range": "49–58",
-          "title": "Magen og de små armene",
-          "learn": "Koble sammen punkt 49 til 58 for å tegne magen, brystet og de berømte småarmene. Alle barn ler av disse armene, og det er nettopp derfor denne delen er morsom å tegne. Linjene skifter retning ofte, så det er den vanskeligste delen av puslespillet – perfekt for de selvsikre tellerne som denne siden med 61 prikker er laget for.",
-          "fact": "De små armene var bare omtrent en meter lange, men hver av dem kunne løfte omtrent 180 kilo. Små, ja – men ingen ville kalle dem svake."
-        },
-        {
-          "range": "59–61",
-          "title": "Lukking av kjeven",
-          "learn": "Bare tre prikker igjen. Koble sammen 59, 60 og 61 for å fullføre underkjeven og fullføre den mektige omrisset. Den siste linjen lander helt tilbake nær prikk 1 – en tilfredsstillende full sirkel som viser barna at hele bildet var én sammenhengende reise.",
-          "fact": "T-Rex gikk aldri tom for tenner. Når en av dem knakk eller ble slitt, vokste det rett og slett ut en ny – et livstidsforsyning av dolkskarpe erstatninger, noen opptil 30 cm lange inkludert roten."
+{
+  "collection": {
+    "header": {
+      "title": "Dinosaur Dot to Dot Printables — Free PDF Worksheets for Kids",
+      "meta_description": "Free dinosaur dot to dot printables for kids ages 4-10: T-Rex, Triceratops, Velociraptor, Stegosaurus, Spinosaurus, and more prehistoric favorites. Print-ready PDF worksheets popular with parents and teachers across the USA, UK, and Canada. No sign-up needed.",
+      "og": {
+        "title": "11 Free Dinosaur Dot to Dot Printables",
+        "description": "T-Rex, Triceratops, Velociraptor, and 8 more prehistoric dot to dot printables, ready to download and print today.",
+        "image": "/images/trex-61-puzzle.webp"
+      },
+      "json_ld": {
+        "type": "CollectionPage",
+        "name": "Dinosaurer",
+        "description": "Koble prikkene for å avsløre dine favorittdinosaurer! Alle arbeidsarkene kan lastes ned og skrives ut gratis – ingen konto nødvendig. Perfekt for barn i alderen 4–10 år, førskole, barnehage og bruk i klasserommet.",
+        "image": "/images/trex-61-puzzle.webp",
+        "main_entity": {
+          "type": "ItemList",
+          "item_source": "puzzles"
         }
-      ],
-      "outro": "Det er 61 prikker erobret – den største dinosaurutfordringen på nettstedet vårt! Hvis barnet ditt fullførte denne uten problemer, har de vokst fra de enkle sidene. Prøv resten av våre <a href=\"/dinosaurs/\">prikk-til-prikk-utskriftbare dinosaurark</a> for å fullføre samlingen, og fargelegg denne T-Rexen før den vandrer av gårde."
+      },
+      "breadcrumb_json_ld": {
+        "type": "BreadcrumbList",
+        "items": [
+          {
+            "position": 1,
+            "name": "Home",
+            "path": "/"
+          },
+          {
+            "position": 2,
+            "name": "Dinosaurer",
+            "path": "/dinosaurs/"
+          }
+        ]
+      }
     },
-    "seoTitle": "T-Rex Punkt til Punkt — 61 Punkter med Forhistorisk Moro"
+    "body": {
+      "h1": "Dinosaur prikk-til-prikk-utskriftbare ting for barn",
+      "name": "Dinosaurer",
+      "tagline": "Hvorfor barn elsker prikk-til-prikk-puslespill med dinosaurer",
+      "description": "Koble prikkene for å avsløre dine favorittdinosaurer! Alle arbeidsarkene kan lastes ned og skrives ut gratis – ingen konto nødvendig. Perfekt for barn i alderen 4–10 år, førskole, barnehage og bruk i klasserommet.",
+      "hero_image": "/images/trex-61-puzzle.webp",
+      "slug": "dinosaurs",
+      "faqs": [
+        {
+          "q": "Hvor mange gratis prikk-til-prikk-utskrivbare dinosaurer finnes det?",
+          "a": "Dinosaurkategorien tilbyr for øyeblikket 11 gratis utskrivbare ark med prikkkoblinger fra 24–74 prikker. Hvert arbeidsark lastes ned umiddelbart som en utskriftsklar PDF (Letter eller A4, stående eller liggende) uten behov for registrering."
+        },
+        {
+          "q": "Er prikk-til-prikk-puslespillene med dinosaurer gratis å skrive ut?",
+          "a": "Ja – alle 11 puslespillene i Dinosaur-samlingen er helt gratis for bruk hjemme og i klasserommet. Ingen konto, e-post eller betaling kreves noen gang på DotToDotFreePrintables.com."
+        },
+        {
+          "q": "Hvilke aldre er dinosaurpuslespillene for?",
+          "a": "Med prikktall fra 24–74 dekker Dinosaur-kolleksjonen omtrent alderen 4–12. Velg lavere prikktall for førskole og barnehage, og høyere antall for trygge tellere i 2.–6. trinn."
+        },
+        {
+          "q": "Hvilke prikk-til-prikk-puslespill med dinosaurer er tilgjengelige?",
+          "a": "Det finnes 11 gratis utskrivbare dinosaurer: T-Rex, Triceratops, Stegosaurus, Velociraptor, Brontosaurus, Brachiosaurus, Spinosaurus, Ankylosaurus, Allosaurus, Pterodactyl og strutsdinosaur (Struthiomimus) – fra 24 til 74 prikker."
+        },
+        {
+          "q": "Hva er den enkleste prikk-til-prikk-løsningen med dinosaurer for små barn?",
+          "a": "Pterodactyl (24 prikker) og Ankylosaurus (32 prikker) er de enkleste, ideelle for førskolebarn og barnehagebarn. Trygge tellere kan bevege seg opp til Spinosaurus eller Triceratops med 70+ prikker."
+        },
+        {
+          "q": "Lærer prikk-til-prikk-puslespill fra dinosaurer ekte dinosaurfakta?",
+          "a": "Ja – hver dinosaurside inneholder nøyaktige, barnevennlige fakta (som T-Rexens beinknusende bitt eller Stegosaurusens plater) vevd inn i en seksjonsvis tegneguide, slik at barn absorberer paleontologi mens de teller."
+        }
+      ]
+    }
   },
-  {
-    "slug": "ostriches-dinosaur-dot-to-dot-puzzle",
-    "name": "Struts",
-    "seoH1": "Struts Punkt til Punkt: 55 Punkter for den Raskeste Fuglen",
-    "tagline": "Verdens største fugl",
-    "description": "Koble sammen 55 enkle prikker for å avsløre den fantastiske strutsen – den største levende fuglen på jorden! Strutser kan ikke fly, men de spurter raskere enn en hest. Dette utskrivbare arbeidsarket hjelper tidlige barneskolebarn med å øve på tallsekvensering og blyantkontroll mens de lærer om dette fantastiske dyret.",
-    "seoDescription": "Strutser kan løpe opp til 45 mph. Avdekk en over 55 punkter på våre gratis punkt til punkt sider for barn i alderen 5–8, med en utskrivbar PDF klar til bruk.",
-    "funFact": "Strutser er de raskeste løpende fuglene på jorden, og når hastigheter på opptil 72 km/t!",
-    "seoImageAlt": "Sprintende struts, nakken utstrakt, fanget i 55 utskrivbare punkter",
-    "dotGuide": {
-      "intro": "Visste du at strutser er de største fuglene som lever i dag – og at de faktisk er levende slektninger av dinosaurene? Alt ved en struts er bygget for fart og overlevelse på de åpne afrikanske slettene. Denne prikk-til-prikk-øvelsen er en fantastisk måte å utforske en av naturens mest ekstraordinære skapninger. Spisse en blyant, finn prikk 1, og la oss bringe denne fantastiske fuglen til live!",
-      "sections": [
-        {
-          "range": "1–8",
-          "title": "Hodet og nebbet",
-          "learn": "Start ved punkt 1 og fortsett til punkt 8 for å skissere strutsens lille, avrundede hode og flate nebb. Hodet er overraskende lite sammenlignet med fuglens kropp – barn legger naturlig merke til dette, noe som åpner for en god samtale om dyreproporsjoner. Korte, milde strøk fungerer best her.",
-          "fact": "En struts&#39; øye er større enn hjernen – med sine omtrent fem centimeter i diameter er det det største øyet til alle landdyr på jorden. Disse enorme øynene hjelper den med å oppdage rovdyr som løver og geparder fra lang avstand over den flate savannen."
+  "puzzles": [
+    {
+      "slug": "trex-61-dot-to-dot-puzzle",
+      "header": {
+        "title": "T-Rex Punkt til Punkt — 61 Punkter med Forhistorisk Moro",
+        "meta_description": "T-Rex erstattet tapte tenner gjennom hele livet. Koble sammen 61 punkter i denne gratis utskrivbare punkt til punkt PDF for barn i alderen 6–9, fra vår 2026 samling.",
+        "og": {
+          "title": "T-Rex Punkt til Punkt — 61 Punkter med Forhistorisk Moro",
+          "description": "T-Rex erstattet tapte tenner gjennom hele livet. Koble sammen 61 punkter i denne gratis utskrivbare punkt til punkt PDF for barn i alderen 6–9, fra vår 2026 samling.",
+          "image_alt": "Mektige Tyrannosaurus Rex tramper ut av 61 nummererte punkter, gratis dinosaurark"
         },
-        {
-          "range": "9–20",
-          "title": "Den lange halsen",
-          "learn": "Fortsett fra punkt 9 til punkt 20 for å tegne den lange, grasiøse halsen som sveiper ned fra hodet til kroppen. Dette er en av de mest tilfredsstillende delene av puslespillet – barn lærer å holde blyanten i bevegelse i én flytende retning uten å løfte den. En fin leksjon i jevn linjekontroll.",
-          "fact": "En struts hals kan bli opptil en meter lang og er nesten helt fjærløs. Den bare huden skifter farge når strutsen er opphisset eller prøver å tiltrekke seg en make – den blir knallrosa eller rød. Naturens egen humørring!"
-        },
-        {
-          "range": "21–35",
-          "title": "Kroppen og vingene",
-          "learn": "Tegn punkt 21 til 35 for å fylle ut strutsens runde, luftige kropp og de små, dekorative vingene. Selv om strutser ikke kan fly, spiller vingene deres fortsatt en viktig rolle. Barn øver på å tegne rundere, mer ovale former her – en annen utfordring enn de rette linjene i nakken.",
-          "fact": "Strutser bruker vingene sine som et ror når de løper, og vipper til venstre eller høyre for å hjelpe dem med å endre retning i fart. De sprer dem også vidt for å skyggelegge ungene sine fra den brennende afrikanske solen – innebygde parasoller!"
-        },
-        {
-          "range": "36–46",
-          "title": "De kraftige beina",
-          "learn": "Koble sammen punkt 36 og 46 for å tegne de to lange, muskuløse beina. Dette er de raskeste beina til alle fugler på planeten, og barn begynner å sette pris på hvor lange de er i forhold til kroppen. Oppmuntre til jevne, trygge nedadgående bevegelser – denne delen belønner en modig hånd.",
-          "fact": "En struts kan spurte i opptil 72 kilometer i timen og holde seg i 48 km/t over lengre avstander. Et enkelt skritt kan dekke opptil 5 meter – omtrent lengden på en familiebil. Å prøve å løpe fra en ville være en veldig dårlig idé!"
-        },
-        {
-          "range": "47–55",
-          "title": "Føttene og halefjærene",
-          "learn": "Avslutt med å koble sammen punkt 47 til 55 for å legge til de karakteristiske to-tærne føttene og de flagrende halefjærene. Strutser er de eneste fuglene med bare to tær på hver fot. Barn øver på mindre, mer detaljert arbeid her – en flott øvelse i presisjon når puslespillet nærmer seg fullføring.",
-          "fact": "Hver strutsefot har én stor dominerende tå med en lang, tøff klør som fungerer som en hov – flott for å løpe på hardt underlag! Strutser er overraskende modige og vil stå på sitt for å beskytte ungene sine. En veldig dristig fugl!"
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "T-Rex 61-punkts utfordring",
+          "description": "T-Rex erstattet tapte tenner gjennom hele livet. Koble sammen 61 punkter i denne gratis utskrivbare punkt til punkt PDF for barn i alderen 6–9, fra vår 2026 samling.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
         }
-      ],
-      "outro": "Fantastisk innsats – strutsen din er klar til kappløp! Telle du alle 55 prikkene? Prøv å skrive tallene 1 til 55 på baksiden av arket som en bonustallutfordring – foreldre og lærere elsker den. Leter du etter flere klasseromsvennlige sider? Se våre <a href=\"/playgrounds/\">prikk-til-prikk-arbeidsark</a> ."
-    },
-    "seoTitle": "Struts Punkt til Punkt: 55 Punkter for den Raskeste Fuglen"
-  },
-  {
-    "slug": "brontosaurus-dot-to-dot-puzzle",
-    "name": "Brontosaurus",
-    "seoH1": "Brontosaurus Punkt til Punkt — Tordenøgle i 50 Punkter",
-    "tagline": "Den vennlige tordenøglen",
-    "description": "Koble sammen 50 enkle prikker for å avsløre en munter Brontosaurus med lang hals og svingende hale. Dette utskrivbare arbeidsarket hjelper førskolebarn og småbarn i barnehagen med å øve på tallsekvensering, blyantkontroll og konsentrasjon.",
-    "seoDescription": "Brontosaurus betyr tordenøgle. Spor dens lange nakke og hale over 50 punkter med dette gratis utskrivbare punkt til punkt arket for barn i alderen 4–7.",
-    "funFact": "«Brontosaurus» betyr tordenøgle, et navn inspirert av dens enorme størrelse!",
-    "seoImageAlt": "Langhalsede Brontosaurus strekker seg over 50 punkter på et utskrivbart førskoleark",
-    "dotGuide": {
-      "intro": "Velkommen til et av de mest elskelige dinosaurpuslespillene i hele samlingen! Brontosaurusen – hvis navn betyr «tordenøgle» – var en av de største skapningene som noen gang har vandret på planeten vår. Finn en blyant, finn prikk nummer én, og la oss bringe denne milde kjempen tilbake til livet, én linje om gangen!",
-      "sections": [
-        {
-          "range": "1–8",
-          "title": "Hodet",
-          "learn": "Start ved punkt 1 og fortsett til punkt 8 for å tegne Brontosaurusens overraskende lille, kileformede hode. Barn øver på korte, forsiktige blyantstrøk og myke buede linjer her – en fin måte å bygge tidlig blyantkontroll på før de tar fatt på større former.",
-          "fact": "Brontosaurus hadde pinnelignende tenner som kun var laget for å rive av blader fra grener, ikke for å tygge. Den svelget planter hele og lot den enorme magen gjøre det harde arbeidet – et ganske smart system, egentlig!"
-        },
-        {
-          "range": "9–18",
-          "title": "Den lange halsen",
-          "learn": "Nå kommer det store blikkfanget. Koble sammen punkt 9 til 18 for å tegne den berømte lange, sveipende halsen som buer seg grasiøst oppover. Dette er en strålende del for å øve på glatte, flytende linjer – barn oppdager at lengre kurver krever mer tålmodighet og en stødigere hånd.",
-          "fact": "Brontosaurusens hals var opptil 6 meter lang – omtrent høyden på et toetasjes hus! Forskere tror nå at den hovedsakelig beitet på lave til middels høye planter i stedet for å strekke seg opp i tretoppene slik en sjiraff gjør."
-        },
-        {
-          "range": "19–32",
-          "title": "Kroppen",
-          "learn": "Fortsett fra punkt 19 helt til punkt 32 for å fylle ut Brontosaurusens massive, tønneformede torso. Denne lengste delen av puslespillet er flott for å bygge konsentrasjon og utholdenhet – barn lærer å fortsette selv når oppgaven føles stor. Høres kjent ut?",
-          "fact": "Brontosaurus veide et sted mellom 15 og 17 tonn – tyngre enn tre afrikanske elefanter som står sammen. Til tross for den ekstraordinære størrelsen var den en ren planteeter, fullstendig ufarlig, og ville sannsynligvis bare ha et stille liv blant bregnene."
-        },
-        {
-          "range": "33–42",
-          "title": "Beina",
-          "learn": "Tegn punkt 33 til 42 for å danne de fire tykke, søylelignende beina. Barn begynner å legge merke til symmetri og hvordan et dyrs kropp er balansert fra side til side. Å tegne parallelle former er en skikkelig ferdighet, og denne delen gir små hender masse øvelse.",
-          "fact": "Brontosaurus gikk på tærne – litt som en ballerina på fire føtter! Under hver fot var det en tykk, kjøttfull pute som fungerte som en naturlig pute, og myknet opp hvert eneste tordnende skritt over jura-landskapet."
-        },
-        {
-          "range": "43–50",
-          "title": "Halen",
-          "learn": "Fullfør puslespillet ved å koble sammen punktene 43 til 50 for å tegne den lange, avsmalnende halen som sveiper ut bak dinosauren. Halen balanserte den tunge halsen og ga Brontosaurusen dens grasiøse, nesten båtlignende silhuett. Barn øver på å gradvis smalne av linjen – en tilfredsstillende måte å avslutte på.",
-          "fact": "Paleontologer tror Brontosaurus kunne knekke halen som en pisk, og lage en lyd like høy som et tordenskrall! Ikke verst for en snill kjempe som tilbrakte mesteparten av dagen med å gnage på planter."
+      },
+      "body": {
+        "h1": "T-Rex Punkt til Punkt — 61 Punkter med Forhistorisk Moro",
+        "name": "T-Rex 61-punkts utfordring",
+        "tagline": "En større tyrannøgleutfordring",
+        "description": "Koble sammen 61 prikker for å avsløre en mektig Tyrannosaurus Rex. Dette utskrivbare dinosaurarbeidsarket gir trygge unge tellere en lengre utfordring med tallsekvensering samtidig som de bygger blyantkontroll, fokus og finmotorikk.",
+        "fun_fact": "T-Rex kunne erstatte tennene sine gjennom hele livet, og få nye når eldre tenner brakk eller falt ut!",
+        "faqs": [
+          {
+            "q": "Hvor mange prikker har prikk-til-prikk-puslespillet i T-Rex 61-Dot Challenge?",
+            "a": "Den utskrivbare T-Rex 61-Dot Challenge-puslespillet med kobling av prikkene har 61 nummererte prikker. Det gjør det til et lett til middels stort puslespill, best egnet for alderen 5–8 (barnehage til 2. klasse). Barn kobler prikkene i nummerrekkefølge for å avsløre det ferdige bildet av T-Rex 61-dot-utfordringen, og fargelegger det deretter."
+          },
+          {
+            "q": "Er T-Rex 61-Dot Challenge prikk-til-prikk-utskriften gratis?",
+            "a": "Ja. T-Rex 61-Dot Challenge-arbeidsarket er 100 % gratis å laste ned fra DotToDotFreePrintables.com – ingen konto, e-post eller betaling kreves. Det lastes ned umiddelbart som en utskriftsklar PDF i både stående og liggende retning, i størrelse for US Letter- eller A4-papir."
+          },
+          {
+            "q": "Hvilken alder er T-Rex 61-Dot Challenge-arbeidsarket med punktkoblinger best for?",
+            "a": "Med 61 prikker fungerer T-Rex 61-Dot Challenge-puslespillet best for alderen 5–8 (barnehage til 2. klasse). Yngre barn kan like det med lett hjelp fra voksne når de teller, mens trygge tellere kan fullføre det selvstendig og øve på tallsekvensering opptil 61."
+          },
+          {
+            "q": "Hvilke ferdigheter lærer man opp i prikk-til-prikk-puslespillet T-Rex 61-Dot Challenge?",
+            "a": "Å koble de 61 prikkene i T-Rex 61-Dot Challenge-puslespillet bygger opp tallgjenkjenning og telling til 61, blyantkontroll, hånd-øye-koordinasjon og vedvarende fokus – de samme finmotoriske grunnlagene som støtter tidlig håndskrift. Å fargelegge det ferdige bildet gir en kreativ belønning."
+          },
+          {
+            "q": "Hva er et morsomt faktum om t-rex 61-punktsutfordringen?",
+            "a": "T-Rex kunne erstatte tennene sine gjennom hele livet, og få nye når eldre tenner knakk eller falt ut! Barn oppdager fakta som dette mens de fullfører T-Rex 61-Dot Challenge prikk-til-prikk-puslespillet."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Sekstien prikker. Det er en skikkelig utfordring – og en passende en, for Tyrannosaurus Rex var en skikkelig kjempe. Denne oppgaven tar lengre tid enn de fleste av våre <a href=\"/\">gratis prikk-til-prikk-utskriftbare oppgaver</a> , så den passer for barn som allerede har mestret å telle til 50 og ønsker noe mer fyldig. Finn prikk 1 helt ytterst på kjeven, ta et pust, og la oss vekke dinosaurenes konge.",
+          "sections": [
+            {
+              "range": "1–11",
+              "title": "Det massive hodet og snuten",
+              "learn": "Start ved punkt 1 på tuppen av den tannfulle kjeven og jobb deg oppover og over hodet til punkt 11 ved nakkens underside. Strøkene her er korte og buede, noe som gjør dette til en skånsom oppvarming før de lange linjene som kommer. Spør barnet ditt hva de legger merke til med hodet – det er enormt sammenlignet med alt annet, og det er ingen tilfeldighet.",
+              "fact": "En fullvoksen T-Rex-skalle var omtrent en og en halv meter lang – høyere enn de fleste åtteåringer. Forskere mener bittet var det sterkeste av alle landdyr som noen gang har levd, kraftig nok til å knuse bein."
+            },
+            {
+              "range": "12–26",
+              "title": "Langs ryggen til halespissen",
+              "learn": "Fra punkt 12 sveiper linjen langs baksiden og helt ned langs halen til punkt 26 helt på spissen. Dette er den lengste og jevneste delen av puslespillet. Oppmuntre til én flytende bevegelse i stedet for mange stopp og start – det er utmerket øvelse for den vedvarende blyantkontrollen barn trenger når de begynner å skrive sammenhengende.",
+              "fact": "Halen utgjorde nesten halvparten av en T-Rex&#39; totale lengde og inneholdt mer enn 40 bein. Den fungerte som en linedanserstang, og balanserte det enorme hodet slik at dinosauren ikke tippet fremover i ansiktet."
+            },
+            {
+              "range": "27–35",
+              "title": "Under halen til hoften",
+              "learn": "Doble nå tilbake. Punktene 27 til 35 går under halen mot hoften og følger den tykke undersiden av den mektige balansebjelken. Barn må telle nøye her fordi prikkene sitter tett sammen – et godt tidspunkt å senke farten og sjekke hvert tall før de tegner.",
+              "fact": "Stående på hoften var en T-Rex rundt 3,6 meter høy. Hele kroppen kunne strekke seg til 12 meter fra snute til halespiss – omtrent lengden på en skolebuss."
+            },
+            {
+              "range": "36–48",
+              "title": "De kraftige beina og føttene",
+              "learn": "Punkt 36 til 48 bygger bakbena og begge klørne. Disse var motoren til hele dyret, og seksjonen belønner dristige, sikre strøk. Det er litt sikksakk mellom tærne, så det sniker også inn litt finmotorisk øvelse akkurat når barn tror de bare tegner dinosaurføtter.",
+              "fact": "Fotavtrykket til en T-Rex kan være over en meter langt. I årevis kranglet folk om hvor raskt den kunne bevege seg – nåværende forskning tyder på en ganghastighet på omtrent 5 km/t og korte utbrudd nærmere 20 km/t. Raskt nok."
+            },
+            {
+              "range": "49–58",
+              "title": "Magen og de små armene",
+              "learn": "Koble sammen punkt 49 til 58 for å tegne magen, brystet og de berømte småarmene. Alle barn ler av disse armene, og det er nettopp derfor denne delen er morsom å tegne. Linjene skifter retning ofte, så det er den vanskeligste delen av puslespillet – perfekt for de selvsikre tellerne som denne siden med 61 prikker er laget for.",
+              "fact": "De små armene var bare omtrent en meter lange, men hver av dem kunne løfte omtrent 180 kilo. Små, ja – men ingen ville kalle dem svake."
+            },
+            {
+              "range": "59–61",
+              "title": "Lukking av kjeven",
+              "learn": "Bare tre prikker igjen. Koble sammen 59, 60 og 61 for å fullføre underkjeven og fullføre den mektige omrisset. Den siste linjen lander helt tilbake nær prikk 1 – en tilfredsstillende full sirkel som viser barna at hele bildet var én sammenhengende reise.",
+              "fact": "T-Rex gikk aldri tom for tenner. Når en av dem knakk eller ble slitt, vokste det rett og slett ut en ny – et livstidsforsyning av dolkskarpe erstatninger, noen opptil 30 cm lange inkludert roten."
+            }
+          ],
+          "outro": "Det er 61 prikker erobret – den største dinosaurutfordringen på nettstedet vårt! Hvis barnet ditt fullførte denne uten problemer, har de vokst fra de enkle sidene. Prøv resten av våre <a href=\"/dinosaurs/\">prikk-til-prikk-utskriftbare dinosaurark</a> for å fullføre samlingen, og fargelegg denne T-Rexen før den vandrer av gårde.",
+          "color_schemes": []
         }
-      ],
-      "outro": "Bra jobbet – du har nettopp tegnet en ekte Brontosaurus! Det er 50 prikker, fem kroppsdeler og masse forhistorisk moro. Finn frem fargestiftene og gi tordenøglen din et helt eget fargevalg. Vil du ha mer? Bla gjennom alle våre <a href=\"/\">prikk-til-prikk-utskriftbare ark</a> ."
+      }
     },
-    "seoTitle": "Brontosaurus Punkt til Punkt — Tordenøgle i 50 Punkter"
-  },
-  {
-    "slug": "triceratops-dot-to-dot-puzzle",
-    "name": "Trikseratops",
-    "seoH1": "Triceratops Punkt til Punkt: 70 Trehornede Punkter Gratis",
-    "tagline": "Tre horn, ett fantastisk puslespill",
-    "description": "Følg prikkene for å tegne den mest ikoniske hornede dinosauren gjennom tidene. Triceratops hadde tre ansiktshorn og en gigantisk benete krage – og den levde rett ved siden av T-Rex! Dette koble-prikkene-arket er perfekt for barnehage og 1. klasse.",
-    "seoDescription": "Triceratops hadde tre horn og en bred benkrage. Koble sammen 70 punkter med dette gratis punkt til punkt arbeidsarket for barnehage og første klasse.",
-    "funFact": "Triceratops-hornene kan bli opptil 90 cm lange – lengre enn en baseballkølle!",
-    "seoImageAlt": "Trehornede Triceratops og dens benkrage som dukker opp fra 70 utskrivbare punkter",
-    "dotGuide": {
-      "intro": "Med tre horn, en praktfull, benete krage og motet til å stå opp mot en T-Rex, er Triceratops en av de mest gjenkjennelige dinosaurene som noen gang har levd. Dette puslespillet har 70 prikker – en skikkelig utfordring som belønner tålmodighet og nøye telling. Løs det seksjon for seksjon, og en virkelig spektakulær dinosaur vil dukke opp. Klar? Kom igjen!",
-      "sections": [
-        {
-          "range": "1–12",
-          "title": "De tre hornene og snuten",
-          "learn": "Start ved punkt 1 og følg streken til punkt 12 for å tegne Triceratops&#39; mest kjente trekk – de to lange pannehornene og det kortere nesehornet. Denne delen involverer flere retningsendringer, noe som er fantastisk for å utvikle blyantkontroll og romlig bevissthet hos barn fra 6 år og oppover.",
-          "fact": "De to pannehornene kunne bli opptil en meter lange – lengre enn en baseballkølle! Forskere mener at Triceratops brukte dem både til forsvar mot rovdyr og til sparring med andre Triceratops under konkurranse om territorium og partnere."
+    {
+      "slug": "ostriches-dinosaur-dot-to-dot-puzzle",
+      "header": {
+        "title": "Struts Punkt til Punkt: 55 Punkter for den Raskeste Fuglen",
+        "meta_description": "Strutser kan løpe opp til 45 mph. Avdekk en over 55 punkter på våre gratis punkt til punkt sider for barn i alderen 5–8, med en utskrivbar PDF klar til bruk.",
+        "og": {
+          "title": "Struts Punkt til Punkt: 55 Punkter for den Raskeste Fuglen",
+          "description": "Strutser kan løpe opp til 45 mph. Avdekk en over 55 punkter på våre gratis punkt til punkt sider for barn i alderen 5–8, med en utskrivbar PDF klar til bruk.",
+          "image_alt": "Sprintende struts, nakken utstrakt, fanget i 55 utskrivbare punkter"
         },
-        {
-          "range": "13–26",
-          "title": "Frill",
-          "learn": "Koble sammen punkt 13 til 26 for å feie ut den store, halvsirkelformede rysjen som rammer inn bakhodet. Barna øver på en bred, buet bevegelse her – en fin øvelse i å holde blyanten i bevegelse med selvtillit over siden. Oppmuntre dem til å løfte håndleddet og tegne fra skulderen.",
-          "fact": "Kragen var ikke av massivt bein – den hadde to store åpninger dekket av hud, noe som gjorde den lysere enn den ser ut til. Noen forskere tror at kragen var fargesterk i livet, brukt til å kommunisere humør og helse, litt som en levende utstillingstavle."
-        },
-        {
-          "range": "27–42",
-          "title": "Kroppen",
-          "learn": "Tegn punkt 27 til 42 for den brede, solide kroppen. Triceratops ble bygget lav og bred, og barn begynner å se hvordan formen skiller seg fra de høyere sauropodene. Dette er den lengste rekken med prikker i puslespillet – en strålende mulighet til å øve på vedvarende fokus.",
-          "fact": "Triceratops var omtrent 9 meter lang og veide opptil 6,5 tonn – omtrent det samme som to afrikanske elefanter! Til tross for den størrelsen var den smidig nok til å bevege seg i fart. Tenk deg å se et av disse praktfulle hornene komme mot deg – et ganske spesielt syn, selv for en T-Rex!"
-        },
-        {
-          "range": "43–58",
-          "title": "De fire beina",
-          "learn": "Koble sammen punkt 43 og 58 for å legge til de fire kraftige, litt utstrakte beina. I motsetning til de rette, søylelignende beina til sauropodene, sprer Triceratops&#39; ben seg litt ut ved albuene. Barn legger merke til denne forskjellen hvis du påpeker den – de bygger fine observasjonsevner samtidig som de øver på finmotorikk.",
-          "fact": "Triceratops hadde hover i stedet for klør – et overraskende faktum som ofte gleder barn! Forbeina kunne svinge utover for å hjelpe den med å senke hodet og storme fremover som en bulldoser, ved å bruke de tre praktfulle hornene til å lede an."
-        },
-        {
-          "range": "59–70",
-          "title": "Halen",
-          "learn": "Fullfør puslespillet ved å koble sammen punktene 59 til 70 for å tegne den korte, tykke halen. Sammenlignet med de sveipende halene til planteetende sauropoder, er Triceratops-halen bred og solid. Barn øver på en kortere, mer kontrollert avslutning – en tilfredsstillende avslutning på en større utfordring.",
-          "fact": "Fossile funn viser at T-Rex og Triceratops levde på samme tid og sted – det vestlige USA for rundt 68 millioner år siden. Forskere tror at Triceratops brukte sine tre imponerende horn til å forsvare seg, og det finnes bevis for at de to møttes mer enn én gang. Det var et veldig travelt nabolag!"
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Struts",
+          "description": "Strutser kan løpe opp til 45 mph. Avdekk en over 55 punkter på våre gratis punkt til punkt sider for barn i alderen 5–8, med en utskrivbar PDF klar til bruk.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
         }
-      ],
-      "outro": "Utmerket konsentrasjon – 70 prikker er ingen liten prestasjon! Triceratopsen din er ferdig. Spør barnet ditt hvilken del de syntes var vanskeligst og hvorfor. Den typen refleksjon er like verdifull som selve tegningen. Klar for en større test? Prøv våre <a href=\"/usa-250/\">ekstreme prikk-til-prikk-utskriftbare ark</a> ."
-    },
-    "seoTitle": "Triceratops Punkt til Punkt: 70 Trehornede Punkter Gratis"
-  },
-  {
-    "slug": "velociraptor-dot-to-dot-puzzle",
-    "name": "Velosiraptor",
-    "seoH1": "Velociraptor Punkt til Punkt — 54 Rask Punkter, Gratis PDF",
-    "tagline": "Rask, smart og klar til å angripe",
-    "description": "Koble punktene for å avsløre den smarte Velociraptor — berømt fra Jurassic Park! I virkeligheten var Velociraptorer fjærkledde jegere på størrelse med en kalkun. Dette arbeidsarket bygger nummersekvenseringsferdigheter for barn i alderen 5–8.",
-    "seoDescription": "Ekte Velociraptorer var kalkunstørrelse og fjærkledde. Avdekk en av 54 punkter med dette punkt-til-punkt utskriftsarket for barn i alderen 5–8.",
-    "funFact": "«Velociraptor» betyr rask tyv – den kan spurte opptil 40 km/t!",
-    "seoImageAlt": "Fjærkledd Velociraptor klar til å sprinte, skisset i 54 utskriftspunkter",
-    "dotGuide": {
-      "intro": "Alle tror de vet hvordan en Velociraptor ser ut – men denne gåten kan overraske dem! Den virkelige Velociraptoren var fjærkledde, omtrent på størrelse med en stor kalkun, og mye smartere enn de fleste av sine dinosaur-kusiner. Hollywood gjorde den større, men naturen gjorde den smartere. Finn frem en blyant og møt den virkelige stjernen fra kritttiden!",
-      "sections": [
-        {
-          "range": "1–8",
-          "title": "Hodet og kjevene",
-          "learn": "Start ved punkt 1 og fortsett til punkt 8 for å tegne den lange, smale hodeskallen og de litt buede kjevene. Velociraptoren hadde et spesielt slankt hode sammenlignet med kroppen – barn lærer å følge en mer langstrakt form her, noe som er et nyttig skifte fra rundere dinosaurhoder. Sakte og jevn vinner denne.",
-          "fact": "Velociraptor hadde rundt 80 små, taggete tenner som var utformet for å gripe i stedet for å rive. Studier av hjernehulen viser at den hadde utmerket syn og en skarp luktesans – den jaktet ved hjelp av syn, lukt og muligens hørsel, noe som gjorde den til et bemerkelsesverdig velutstyrt lite rovdyr."
-        },
-        {
-          "range": "9–20",
-          "title": "Halsen og den fjærkledde kroppen",
-          "learn": "Fortsett fra punkt 9 til punkt 20 for å bygge den buede halsen og den kompakte kroppen. Det er her barn ofte begynner å se den fuglelignende kvaliteten til Velociraptor, noe som gir en flott klasseromsdiskusjon. Prikkene buer seg jevnt – en god del for å øve på jevnt blyanttrykk.",
-          "fact": "Paleontologer har funnet fjærknotter på Velociraptors armbein – de samme kulene man ser på moderne fuglevinger der fjærene fester seg. Velociraptor var nesten helt sikkert dekket av fjær, selv om den ikke kunne fly. Den er i hovedsak en liten, flygeløs jaktfugl."
-        },
-        {
-          "range": "21–32",
-          "title": "Armene og håndklørne",
-          "learn": "Tegn punkt 21 til 32 for de relativt lange armene og trefingrede hendene. I motsetning til T-Rex sine små armer, hadde Velociraptor armer den faktisk kunne bruke – til å holde seg fast og bevege seg gjennom omgivelsene sine. Barn øver på skarpere vinkler i denne delen, og etterligner den kantete, fuglevingeformen på forbena.",
-          "fact": "Velociraptors klør var sterke og buede – veldig nyttige for å gripe og holde fast. Nyere forskning tyder på at den kan ha brukt armene sine på samme måte som hauker og ørner sitter på grener i dag, og presser ned med kroppsvekten."
-        },
-        {
-          "range": "33–44",
-          "title": "Beina og den spesielle kloen",
-          "learn": "Koble sammen punkt 33 og 44 for å tegne de kraftige bakbeina og den berømte sigdformede kloen på andre tå. Barn kjenner ofte igjen denne kloen fra filmer, noe som gjør den til en motiverende del. Prikkene er tett sammen her, noe som oppmuntrer til presisjon og nøye tallgjenkjenning.",
-          "fact": "Den ikoniske buede kloen på hver fot ble holdt oppe fra bakken når Velociraptor gikk for å holde den fin og skarp – litt som en katt som holder klørne sine rene! Forskere tror nå at den hovedsakelig ble brukt til å gripe og holde fast i, snarere enn noe annet."
-        },
-        {
-          "range": "45–54",
-          "title": "Den stive halen",
-          "learn": "Avslutt ved å koble sammen punkt 45 til 54 for å legge til den lange, avstivede halen. I motsetning til de fleksible halene til øgler, ble Velociraptor-halen holdt rett ut bak den, og fungerte som en motvekt når man løp og snudde seg i fart. En selvsikker, rett avslutning på et dynamisk puslespill.",
-          "fact": "Velociraptor kunne nå hastigheter på rundt 40 kilometer i timen – raskt for et lite rovdyr, men saktere enn Jurassic Park-versjonen. Halen stivnet naturlig av forbenede sener, slik at den kunne ta skarpe svinger uten å velte, nesten som en innebygd stabilisator."
+      },
+      "body": {
+        "h1": "Struts Punkt til Punkt: 55 Punkter for den Raskeste Fuglen",
+        "name": "Struts",
+        "tagline": "Verdens største fugl",
+        "description": "Koble sammen 55 enkle prikker for å avsløre den fantastiske strutsen – den største levende fuglen på jorden! Strutser kan ikke fly, men de spurter raskere enn en hest. Dette utskrivbare arbeidsarket hjelper tidlige barneskolebarn med å øve på tallsekvensering og blyantkontroll mens de lærer om dette fantastiske dyret.",
+        "fun_fact": "Strutser er de raskeste løpende fuglene på jorden, og når hastigheter på opptil 72 km/t!",
+        "faqs": [
+          {
+            "q": "Hvor mange prikker har prikk-til-prikk-puslespillet med struts?",
+            "a": "Den utskrivbare struts-koblings-prikkene har 55 nummererte prikker. Det gjør det til et lett til middels stort puslespill, best egnet for alderen 5–8 (barnehage til 2. klasse). Barn kobler prikkene i nummerrekkefølge for å avsløre det ferdige strutsbildet, og fargelegger det deretter."
+          },
+          {
+            "q": "Er strutsen prikk-til-prikk-tegning gratis å skrive ut?",
+            "a": "Ja. Struts-arbeidsarket er 100 % gratis å laste ned fra DotToDotFreePrintables.com – ingen konto, e-post eller betaling kreves. Det lastes ned umiddelbart som en utskriftsklar PDF i både stående og liggende retning, i størrelse for US Letter- eller A4-papir."
+          },
+          {
+            "q": "Hvilken alder passer arbeidsarket med punktkoblinger om struts best for?",
+            "a": "Med 55 prikker fungerer strutsepuslespillet best for alderen 5–8 (barnehage til 2. klasse). Yngre barn kan like det med lett hjelp fra voksne når de teller, mens trygge tellere kan fullføre det selvstendig og øve på tallsekvensering opptil 55."
+          },
+          {
+            "q": "Hvilke ferdigheter lærer man ut prikk-til-prikk-puslespillet med struts?",
+            "a": "Å koble de 55 prikkene i strutsepuslespillet bygger opp tallgjenkjenning og telling til 55, blyantkontroll, hånd-øye-koordinasjon og vedvarende fokus – de samme finmotoriske grunnlagene som støtter tidlig håndskrift. Å fargelegge det ferdige bildet gir en kreativ belønning."
+          },
+          {
+            "q": "Hva er et morsomt faktum om strutsen?",
+            "a": "Strutser er de raskeste løpende fuglene på jorden, og når hastigheter på opptil 72 km/t! Barn oppdager fakta som dette mens de fullfører prikk-til-prikk-puslespillet med struts."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Visste du at strutser er de største fuglene som lever i dag – og at de faktisk er levende slektninger av dinosaurene? Alt ved en struts er bygget for fart og overlevelse på de åpne afrikanske slettene. Denne prikk-til-prikk-øvelsen er en fantastisk måte å utforske en av naturens mest ekstraordinære skapninger. Spisse en blyant, finn prikk 1, og la oss bringe denne fantastiske fuglen til live!",
+          "sections": [
+            {
+              "range": "1–8",
+              "title": "Hodet og nebbet",
+              "learn": "Start ved punkt 1 og fortsett til punkt 8 for å skissere strutsens lille, avrundede hode og flate nebb. Hodet er overraskende lite sammenlignet med fuglens kropp – barn legger naturlig merke til dette, noe som åpner for en god samtale om dyreproporsjoner. Korte, milde strøk fungerer best her.",
+              "fact": "En struts&#39; øye er større enn hjernen – med sine omtrent fem centimeter i diameter er det det største øyet til alle landdyr på jorden. Disse enorme øynene hjelper den med å oppdage rovdyr som løver og geparder fra lang avstand over den flate savannen."
+            },
+            {
+              "range": "9–20",
+              "title": "Den lange halsen",
+              "learn": "Fortsett fra punkt 9 til punkt 20 for å tegne den lange, grasiøse halsen som sveiper ned fra hodet til kroppen. Dette er en av de mest tilfredsstillende delene av puslespillet – barn lærer å holde blyanten i bevegelse i én flytende retning uten å løfte den. En fin leksjon i jevn linjekontroll.",
+              "fact": "En struts hals kan bli opptil en meter lang og er nesten helt fjærløs. Den bare huden skifter farge når strutsen er opphisset eller prøver å tiltrekke seg en make – den blir knallrosa eller rød. Naturens egen humørring!"
+            },
+            {
+              "range": "21–35",
+              "title": "Kroppen og vingene",
+              "learn": "Tegn punkt 21 til 35 for å fylle ut strutsens runde, luftige kropp og de små, dekorative vingene. Selv om strutser ikke kan fly, spiller vingene deres fortsatt en viktig rolle. Barn øver på å tegne rundere, mer ovale former her – en annen utfordring enn de rette linjene i nakken.",
+              "fact": "Strutser bruker vingene sine som et ror når de løper, og vipper til venstre eller høyre for å hjelpe dem med å endre retning i fart. De sprer dem også vidt for å skyggelegge ungene sine fra den brennende afrikanske solen – innebygde parasoller!"
+            },
+            {
+              "range": "36–46",
+              "title": "De kraftige beina",
+              "learn": "Koble sammen punkt 36 og 46 for å tegne de to lange, muskuløse beina. Dette er de raskeste beina til alle fugler på planeten, og barn begynner å sette pris på hvor lange de er i forhold til kroppen. Oppmuntre til jevne, trygge nedadgående bevegelser – denne delen belønner en modig hånd.",
+              "fact": "En struts kan spurte i opptil 72 kilometer i timen og holde seg i 48 km/t over lengre avstander. Et enkelt skritt kan dekke opptil 5 meter – omtrent lengden på en familiebil. Å prøve å løpe fra en ville være en veldig dårlig idé!"
+            },
+            {
+              "range": "47–55",
+              "title": "Føttene og halefjærene",
+              "learn": "Avslutt med å koble sammen punkt 47 til 55 for å legge til de karakteristiske to-tærne føttene og de flagrende halefjærene. Strutser er de eneste fuglene med bare to tær på hver fot. Barn øver på mindre, mer detaljert arbeid her – en flott øvelse i presisjon når puslespillet nærmer seg fullføring.",
+              "fact": "Hver strutsefot har én stor dominerende tå med en lang, tøff klør som fungerer som en hov – flott for å løpe på hardt underlag! Strutser er overraskende modige og vil stå på sitt for å beskytte ungene sine. En veldig dristig fugl!"
+            }
+          ],
+          "outro": "Fantastisk innsats – strutsen din er klar til kappløp! Telle du alle 55 prikkene? Prøv å skrive tallene 1 til 55 på baksiden av arket som en bonustallutfordring – foreldre og lærere elsker den. Leter du etter flere klasseromsvennlige sider? Se våre <a href=\"/playgrounds/\">prikk-til-prikk-arbeidsark</a> .",
+          "color_schemes": []
         }
-      ],
-      "outro": "Fantastisk arbeid! Du har tegnet en av de mest misforståtte dinosaurene i historien. Hvorfor ikke slå opp hvordan Velociraptor faktisk så ut sammenlignet med filmversjonen – det er en strålende lærdom om at det virkelige liv ofte er mer interessant enn fiksjon! Møt flere forhistoriske venner i vår samling <a href=\"/dinosaurs/\">av dinosaurer som kan skrives ut punkt-til-punkt</a> ."
+      }
     },
-    "seoTitle": "Velociraptor Punkt til Punkt — 54 Rask Punkter, Gratis PDF"
-  },
-  {
-    "slug": "stegosaurus-dot-to-dot-puzzle",
-    "name": "Stegosaurus",
-    "seoH1": "Stegosaurus Punkt til Punkt: 52 Punkter & Diamantplater",
-    "tagline": "Spisse tallerkener, mye moro",
-    "description": "Koble sammen 52 prikker for å tegne den fantastiske Stegosaurusen med den doble raden med diamantformede plater langs ryggen. Denne enkle prikk-til-prikk-leken er en favoritt for førskolebarn og barnehagebarn som bygger tallsekvensering, blyantkontroll og konsentrasjon.",
-    "seoDescription": "Spor Stegosaurus fra sine diamantformede plater til sin piggete hale i 52 punkter. Få det gratis utskriftsbare punkt-til-punkt arket for barn i alderen 4–7.",
-    "funFact": "Stegosaurus hadde en hjerne på størrelse med en valnøtt – men den piggete halen var superkraften!",
-    "seoImageAlt": "Stegosaurus med sin doble rad av ryggplater bygget av 52 utskriftspunkter",
-    "dotGuide": {
-      "intro": "Med en rad med diamantformede plater som går langs ryggen og fire skarpe pigger på halen, er Stegosaurus en av de mest gjenkjennelige dinosaurene i verden. Dette puslespillet med 52 prikker har en perfekt størrelse for yngre barn – akkurat nok utfordring til å føles givende, uten å være overveldende. Finn prikk 1 og la de fantastiske platene ta form!",
-      "sections": [
-        {
-          "range": "1–6",
-          "title": "Nakken og brystet",
-          "learn": "Start ved punkt 1, rett under stegosaurusens hake, og koble ned til punkt 6 for å tegne halsen og brystet. Selve hodet er allerede tegnet og venter – linjen din forbinder det ganske enkelt med resten av kroppen. Seks prikker er en håndterbar start for små hender som bygger opp selvtillit.",
-          "fact": "Stegosaurusen hadde en av de minste hjernene i forhold til kroppsstørrelse av alle dinosaurer – omtrent på størrelse med en valnøtt, som satt inni en kropp like lang som en skolebuss. Til tross for dette overlevde den i millioner av år, noe som er en god påminnelse om at hjerner ikke er alt!"
+    {
+      "slug": "brontosaurus-dot-to-dot-puzzle",
+      "header": {
+        "title": "Brontosaurus Punkt til Punkt — Tordenøgle i 50 Punkter",
+        "meta_description": "Brontosaurus betyr tordenøgle. Spor dens lange nakke og hale over 50 punkter med dette gratis utskrivbare punkt til punkt arket for barn i alderen 4–7.",
+        "og": {
+          "title": "Brontosaurus Punkt til Punkt — Tordenøgle i 50 Punkter",
+          "description": "Brontosaurus betyr tordenøgle. Spor dens lange nakke og hale over 50 punkter med dette gratis utskrivbare punkt til punkt arket for barn i alderen 4–7.",
+          "image_alt": "Langhalsede Brontosaurus strekker seg over 50 punkter på et utskrivbart førskoleark"
         },
-        {
-          "range": "7–15",
-          "title": "Forbena",
-          "learn": "Koble sammen punkt 7 til 15 for å tegne de to solide forbena og deres brede, avrundede føtter. Det er noen korte retningsendringer her ettersom linjen dypper ned til hver fot og opp igjen, så oppfordre barna til å sjekke hvert tall før de tegner neste strøk.",
-          "fact": "Stegosaurusens forbein var mye kortere enn bakbeina – nesten halvparten så lange. Denne uoverensstemmelsen ga dyret den berømte buede ryggen og holdt det lille hodet nær bakken, perfekt for å gnage på lavtliggende planter og bregner."
-        },
-        {
-          "range": "16–27",
-          "title": "Magen og bakbena",
-          "learn": "Tegn punkt 16 til 27 for å tegne den lange linjen med magen og de kraftige bakbena. Dette er den bredeste delen av puslespillet så langt, og et bra sted å øve på å holde en jevn rytme – punkt, linje, punkt, linje – helt ut til bakbeina.",
-          "fact": "Stegosaurus levde for rundt 150 millioner år siden, i sen juraperiode. Det er så lenge siden at Tyrannosaurus rex levde nærmere oss i tid i dag enn den gjorde Stegosaurus!"
-        },
-        {
-          "range": "28–38",
-          "title": "Langs halen",
-          "learn": "Koble sammen punkt 28 og 38 for å tegne den lange undersiden av halen mens den strekker seg ut bak kroppen. Punktene følger en myk, flytende kurve her, så dette er en fin del for å øve på jevne, kontinuerlige blyantstrøk uten å løfte blyanten for ofte.",
-          "fact": "Platene langs stegosaurusens rygg var for tynne til å være rustning. Forskere tror de var fylt med blodårer som bidro til å regulere kroppstemperaturen, og som ble røde eller rosa når dyret var opphisset – og de kan ha tiltrukket seg partnere, som en forhistorisk påfuglhale."
-        },
-        {
-          "range": "39–52",
-          "title": "Den spisse halen og baksiden",
-          "learn": "Fullfør puslespillet ved å koble sammen punkt 39 til 52 for å tegne spissen av halen med de fire skarpe piggene, og beveg deg deretter tilbake opp langs toppen av halen for å møte den siste av bakplatene. Dette er den vanskeligste delen, med prikker tett sammen rundt piggene – en nøye avslutning får hele tegningen til å klikke på plass.",
-          "fact": "Halepiggene – paleontologer kaller dem en «thagomizer» – kan være opptil en meter lange, noe som er lengre enn en gitar! Fossile bevis viser at Stegosaurus brukte dem til å stå på seg selvsikkert. Selv den mildeste planteeteren vet hvordan han skal ta vare på seg selv!"
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Brontosaurus",
+          "description": "Brontosaurus betyr tordenøgle. Spor dens lange nakke og hale over 50 punkter med dette gratis utskrivbare punkt til punkt arket for barn i alderen 4–7.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
         }
-      ],
-      "outro": "Du klarte det – 52 prikker og én spektakulær Stegosaurus! Fargelegg nå bakplatene i favorittfargene dine. Ingen vet nøyaktig hvilken farge Stegosaurus hadde, noe som betyr at enhver farge du velger er like gyldig som en forskers beste gjetning. Har du akkurat begynt? Prøv flere <a href=\"/playgrounds/\">enkle prikk-til-prikk-utskrivbare ark</a> ."
-    },
-    "seoTitle": "Stegosaurus Punkt til Punkt: 52 Punkter & Diamantplater"
-  },
-  {
-    "slug": "spinosaurus",
-    "name": "Spinosaurs",
-    "seoH1": "Spinosaurus Punkt til Punkt — 74 Punkter, Større Enn T-Rex",
-    "tagline": "Større enn T-Rex",
-    "description": "Koble prikkene for å avsløre den største kjøttetende dinosauren som noen gang er oppdaget – større enn til og med T-Rex! Spinosaurus hadde et gigantisk seil på ryggen og jaktet fisk i elver. Flott for 1. og 2. klassinger som elsker store dinosaurer.",
-    "seoDescription": "Spinosaurus var lengre enn T-Rex og hadde en gigantisk seil. Avdekk den over 74 punkter i denne gratis punkt-til-punkt utskrifts-PDF for klasse 1–2.",
-    "funFact": "Spinosaurus kan bli opptil 17 meter lang – lengre enn en skolebuss!",
-    "seoImageAlt": "Seilrygget Spinosaurus som dukker opp gjennom 74 punkter på en gratis dinosaur utskrift",
-    "dotGuide": {
-      "intro": "Flytt deg, T-Rex – møt Spinosaurus, den største kjøttetende dinosauren som noensinne har gått på jorden! Spinosaurus var lengre enn en skolebuss og like hjemme i vann som på land, og var et virkelig ekstraordinært dyr. Det gigantiske bakseilet gjør den til en av de mest dramatiske dinosaurene å tegne. Grip en blyant og la denne forhistoriske kjempen stige fra arket!",
-      "sections": [
-        {
-          "range": "1–15",
-          "title": "Hodet og krokodillekjevene",
-          "learn": "Start at dot 1 and work through to dot 8 to sketch the long, narrow skull that looks more like a crocodile than a typical dinosaur. Children immediately notice how different this head shape is from T-Rex, which is a fantastic observation to encourage. The elongated snout rewards a steady, patient hand.",
-          "fact": "Spinosaurus hadde kjegleformede tenner som var ideelle for å fange glatte fisker – veldig forskjellig fra de bladlignende tennene til T-Rex. Neseborene var plassert høyt på hodeskallen, som en krokodille, slik at den kunne holde mesteparten av hodet under vann mens den fortsatt pustet. Et strålende stykke naturlig ingeniørkunst."
-        },
-        {
-          "range": "16–30",
-          "title": "Det gigantiske seilet",
-          "learn": "Continue from dot 9 to dot 20 to draw the towering sail that rises dramatically from the spine. This is the most thrilling section of the puzzle — the sail can be up to six feet tall, and children get to trace its full impressive height. Long, upward strokes build great arm confidence.",
-          "fact": "Seilet ble støttet av pigger som strakte seg ut fra ryggvirvlene, noen som strakte seg over en halv meter høye. Forskere debatterer fortsatt formålet – det kan ha regulert temperaturen, lagret fett som en kamels pukkel, eller vært en spektakulær utstillingsstruktur for å tiltrekke seg maker eller skremme rivaler."
-        },
-        {
-          "range": "31–45",
-          "title": "Kroppen",
-          "learn": "Trace dots 21 through 32 for the long, muscular body. Spinosaurus had a relatively low body profile compared to other large carnivores — adapted for swimming and wading in rivers. Children practise a flatter, more horizontal body shape here, which is a refreshing contrast to the upright stance of T-Rex.",
-          "fact": "Nye fossilfunn viser at Spinosaurus hadde korte, tette bein – det motsatte av hva de fleste dinosaurer hadde – noe som gjorde den mindre oppdriftsdyktig og bedre egnet til liv under vann, omtrent som moderne dykkende fugler. Det er den eneste dinosauren vi kjenner til som brukte betydelig tid på å svømme."
-        },
-        {
-          "range": "46–60",
-          "title": "De robuste bena",
-          "learn": "Connect dots 33 to 44 to add the legs and long, broad tail. The tail was paddle-shaped — another recent discovery that shocked palaeontologists — making it an effective swimming tool. Children practise both the stocky hind legs and the wide, flat tail shape in this final section.",
-          "fact": "Nylige skjelettstudier antyder at Spinosaurus kan ha beveget seg på fire ben, i det minste mens den vadet, noe som gjør den veldig forskjellig fra de fleste store kjøttetende dinosaurene — de fleste av dem gikk oppreist på to ben."
-        },
-        {
-          "range": "61–74",
-          "title": "Den padleformede halen",
-          "learn": "Avslutt med punkt 61 til 74 for å fullføre den lange, brede, padleformede halen. Halen var en annen nylig oppdagelse som sjokkerte paleontologer, og gjorde den til et effektivt svømmeverktøy. Barn øver på den brede, flate haleformen i denne siste delen.",
-          "fact": "Spinosaurus var sannsynligvis en langsom og klønete turgåer på land, men en sterk svømmer i elver. Den padlelignende halen ble først bekreftet i 2020 fra nylig funnet fossile prøver i Marokko – noe som beviser at selv de mest studerte dinosaurene fortsatt kan overraske oss."
+      },
+      "body": {
+        "h1": "Brontosaurus Punkt til Punkt — Tordenøgle i 50 Punkter",
+        "name": "Brontosaurus",
+        "tagline": "Den vennlige tordenøglen",
+        "description": "Koble sammen 50 enkle prikker for å avsløre en munter Brontosaurus med lang hals og svingende hale. Dette utskrivbare arbeidsarket hjelper førskolebarn og småbarn i barnehagen med å øve på tallsekvensering, blyantkontroll og konsentrasjon.",
+        "fun_fact": "«Brontosaurus» betyr tordenøgle, et navn inspirert av dens enorme størrelse!",
+        "faqs": [
+          {
+            "q": "Hvor mange prikker har punkt-til-punkt-puslespillet med Brontosaurus?",
+            "a": "Brontosaurus-bildet med prikkene som kan skrives ut, har 50 nummererte prikker. Det gjør det til et lett til middels stort puslespill, best egnet for alderen 5–8 (barnehage til 2. klasse). Barn kobler prikkene i nummerrekkefølge for å avsløre det ferdige brontosaurusbildet, og fargelegger det deretter."
+          },
+          {
+            "q": "Er Brontosaurus punkt-til-punkt-tegning gratis å skrive ut?",
+            "a": "Ja. Brontosaurus-arbeidsarket er 100 % gratis å laste ned fra DotToDotFreePrintables.com – ingen konto, e-post eller betaling kreves. Det lastes ned umiddelbart som en utskriftsklar PDF i både stående og liggende retning, i størrelse for US Letter- eller A4-papir."
+          },
+          {
+            "q": "Hvilken alder er Brontosaurus-arbeidsarket med punktkoblinger best for?",
+            "a": "Med 50 prikker fungerer Brontosaurus-puslespillet best for alderen 5–8 (barnehage til 2. klasse). Yngre barn kan like det med lett hjelp fra voksne når de teller, mens trygge tellere kan fullføre det selvstendig og øve på tallsekvensering opptil 50."
+          },
+          {
+            "q": "Hvilke ferdigheter lærer man opp i punkt-til-punkt-puslespillet med Brontosaurus?",
+            "a": "Å koble de 50 prikkene i Brontosaurus-puslespillet bygger opp tallgjenkjenning og telling til 50, blyantkontroll, hånd-øye-koordinasjon og vedvarende fokus – de samme finmotoriske grunnlagene som støtter tidlig håndskrift. Å fargelegge det ferdige bildet gir en kreativ belønning."
+          },
+          {
+            "q": "Hva er et morsomt faktum om brontosaurusen?",
+            "a": "«Brontosaurus» betyr tordenøgle, et navn inspirert av den enorme størrelsen! Barn oppdager fakta som dette mens de fullfører Brontosaurus prikk-til-prikk-puslespillet."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Velkommen til et av de mest elskelige dinosaurpuslespillene i hele samlingen! Brontosaurusen – hvis navn betyr «tordenøgle» – var en av de største skapningene som noen gang har vandret på planeten vår. Finn en blyant, finn prikk nummer én, og la oss bringe denne milde kjempen tilbake til livet, én linje om gangen!",
+          "sections": [
+            {
+              "range": "1–8",
+              "title": "Hodet",
+              "learn": "Start ved punkt 1 og fortsett til punkt 8 for å tegne Brontosaurusens overraskende lille, kileformede hode. Barn øver på korte, forsiktige blyantstrøk og myke buede linjer her – en fin måte å bygge tidlig blyantkontroll på før de tar fatt på større former.",
+              "fact": "Brontosaurus hadde pinnelignende tenner som kun var laget for å rive av blader fra grener, ikke for å tygge. Den svelget planter hele og lot den enorme magen gjøre det harde arbeidet – et ganske smart system, egentlig!"
+            },
+            {
+              "range": "9–18",
+              "title": "Den lange halsen",
+              "learn": "Nå kommer det store blikkfanget. Koble sammen punkt 9 til 18 for å tegne den berømte lange, sveipende halsen som buer seg grasiøst oppover. Dette er en strålende del for å øve på glatte, flytende linjer – barn oppdager at lengre kurver krever mer tålmodighet og en stødigere hånd.",
+              "fact": "Brontosaurusens hals var opptil 6 meter lang – omtrent høyden på et toetasjes hus! Forskere tror nå at den hovedsakelig beitet på lave til middels høye planter i stedet for å strekke seg opp i tretoppene slik en sjiraff gjør."
+            },
+            {
+              "range": "19–32",
+              "title": "Kroppen",
+              "learn": "Fortsett fra punkt 19 helt til punkt 32 for å fylle ut Brontosaurusens massive, tønneformede torso. Denne lengste delen av puslespillet er flott for å bygge konsentrasjon og utholdenhet – barn lærer å fortsette selv når oppgaven føles stor. Høres kjent ut?",
+              "fact": "Brontosaurus veide et sted mellom 15 og 17 tonn – tyngre enn tre afrikanske elefanter som står sammen. Til tross for den ekstraordinære størrelsen var den en ren planteeter, fullstendig ufarlig, og ville sannsynligvis bare ha et stille liv blant bregnene."
+            },
+            {
+              "range": "33–42",
+              "title": "Beina",
+              "learn": "Tegn punkt 33 til 42 for å danne de fire tykke, søylelignende beina. Barn begynner å legge merke til symmetri og hvordan et dyrs kropp er balansert fra side til side. Å tegne parallelle former er en skikkelig ferdighet, og denne delen gir små hender masse øvelse.",
+              "fact": "Brontosaurus gikk på tærne – litt som en ballerina på fire føtter! Under hver fot var det en tykk, kjøttfull pute som fungerte som en naturlig pute, og myknet opp hvert eneste tordnende skritt over jura-landskapet."
+            },
+            {
+              "range": "43–50",
+              "title": "Halen",
+              "learn": "Fullfør puslespillet ved å koble sammen punktene 43 til 50 for å tegne den lange, avsmalnende halen som sveiper ut bak dinosauren. Halen balanserte den tunge halsen og ga Brontosaurusen dens grasiøse, nesten båtlignende silhuett. Barn øver på å gradvis smalne av linjen – en tilfredsstillende måte å avslutte på.",
+              "fact": "Paleontologer tror Brontosaurus kunne knekke halen som en pisk, og lage en lyd like høy som et tordenskrall! Ikke verst for en snill kjempe som tilbrakte mesteparten av dagen med å gnage på planter."
+            }
+          ],
+          "outro": "Bra jobbet – du har nettopp tegnet en ekte Brontosaurus! Det er 50 prikker, fem kroppsdeler og masse forhistorisk moro. Finn frem fargestiftene og gi tordenøglen din et helt eget fargevalg. Vil du ha mer? Bla gjennom alle våre <a href=\"/\">prikk-til-prikk-utskriftbare ark</a> .",
+          "color_schemes": []
         }
-      ],
-      "outro": "Outstanding effort on a 44-dot challenge! Your Spinosaurus is ready to wade into the river. This is a wonderful puzzle to pair with a trip to the library — there are brilliant books written specifically for children about Spinosaurus's extraordinary story. Discover more free <a href=\"/\">dot to dot printables</a> for every age."
+      }
     },
-    "seoTitle": "Spinosaurus Punkt til Punkt — 74 Punkter, Større Enn T-Rex"
-  },
-  {
-    "slug": "brachiosaurus",
-    "name": "Brakiosaurus",
-    "seoH1": "Brachiosaurus Punkt til Punkt — 38-Punkts Jurassic Gigant",
-    "tagline": "Den milde kjempen fra juraperioden",
-    "description": "Koble punktene for å tegne den høyeste, mest fredelige dinosauren fra Jurassic-perioden. Brachiosaurus hadde en lang hals som en giraff og frembein høyere enn de fleste hus. Et perfekt punkt-til-punkt arbeidsark for barn som elsker store, vennlige dinosaurer.",
-    "seoDescription": "Brachiosaurus bar sitt lille hode på toppen av en tårnhøy hals. Koble 38 punkter for å avsløre denne Jurassic-giganten i et puslespill designet for barn i alderen 5–9.",
-    "funFact": "Brachiosaurus kunne veie opptil 60 tonn – like tung som 10 elefanter!",
-    "seoImageAlt": "Tårnhøy Brachiosaurus som når trehøyde i 38 utskriftspunkter",
-    "dotGuide": {
-      "intro": "Se for deg en skapning med forbena som var høyere enn en toetasjes bygning. Det er Brachiosaurus – et av de høyeste dyrene som noen gang har eksistert. I motsetning til de fleste dinosaurer var forbena lengre enn bakbena, noe som ga den en særegen, sjirafflignende holdning som er perfekt for å nå toppen av gamle trær. La oss koble prikkene sammen og møte denne ruvende, milde kjempen!",
-      "sections": [
-        {
-          "range": "1–6",
-          "title": "Det lille hodet",
-          "learn": "Start ved punkt 1 og fortsett til punkt 6 for å tegne det lille, firkantede hodet som sitter helt øverst på den ekstraordinære halsen. I likhet med Brontosaurus hadde Brachiosaurus et relativt lite hode i forhold til kroppsstørrelsen. Barn øver på kompakte, tett sammenstilte prikker her – en presis start på et stort puslespill.",
-          "fact": "Brachiosaurus&#39; nesebor var plassert på toppen av hodet, nær øynene. Forskere trodde en gang at dette betydde at den levde under vann som en flodhest, og snorklet fra dypet. Nå vet vi at den utelukkende var et landdyr – de høye neseborene var rett og slett en særegenhet ved hodeskalleformen."
+    {
+      "slug": "triceratops-dot-to-dot-puzzle",
+      "header": {
+        "title": "Triceratops Punkt til Punkt: 70 Trehornede Punkter Gratis",
+        "meta_description": "Triceratops hadde tre horn og en bred benkrage. Koble sammen 70 punkter med dette gratis punkt til punkt arbeidsarket for barnehage og første klasse.",
+        "og": {
+          "title": "Triceratops Punkt til Punkt: 70 Trehornede Punkter Gratis",
+          "description": "Triceratops hadde tre horn og en bred benkrage. Koble sammen 70 punkter med dette gratis punkt til punkt arbeidsarket for barnehage og første klasse.",
+          "image_alt": "Trehornede Triceratops og dens benkrage som dukker opp fra 70 utskrivbare punkter"
         },
-        {
-          "range": "7–18",
-          "title": "Den ruvende halsen",
-          "learn": "Fortsett fra punkt 7 til punkt 18 for å sveipe den lange halsen oppover i en bratt vinkel. Dette er den mest dramatiske delen av puslespillet – halsen stiger kraftig, i motsetning til den mer horisontale halsen til Brontosaurus. Barn lærer å vinkle blyantstrøkene sine dristig oppover, noe som krever stor selvtillit.",
-          "fact": "Brachiosaurus kunne bli opptil 12 meter høy – ​​høy nok til å kikke inn et vindu i fjerde etasje! Å pumpe blod helt opp i den halsen krevde et enormt hjerte. Forskere anslår at hjertet veide rundt 180 kilo – omtrent like tungt som en stor motorsykkelmotor."
-        },
-        {
-          "range": "19–30",
-          "title": "Kroppen",
-          "learn": "Tegn punkt 19 til 30 for å fylle ut den store, tønneformede kroppen. Legg merke til hvordan ryggen skråner nedover fra de høye forskuldrene til de kortere hoftene – det motsatte av de fleste sauropoder. Denne skrånende ryggen er et av Brachiosaurus&#39; mest karakteristiske trekk, og å få øye på den er en god observasjonsøvelse.",
-          "fact": "Brachiosaurus kunne veie opptil 60 tonn – like tung som ti afrikanske elefanter. Den måtte spise opptil 880 pund vegetasjon hver eneste dag bare for å fylle den ekstraordinære mengden. Det tilsvarer omtrent å spise 1760 poser med salat. Hver. Eneste. Dag."
-        },
-        {
-          "range": "31–38",
-          "title": "De fire mektige beina",
-          "learn": "Avslutt ved å koble sammen punkt 31 til 38 for å tegne alle fire beina. Forbeina er merkbart lengre og mer oppreiste enn bakbeina – barn som ser nøye etter vil oppdage denne skråningen. Åtte prikker er en fokusert og givende avslutning som bygger oppmerksomhet på detaljer i den siste delen av et puslespill.",
-          "fact": "Hver Brachiosaurus-fot hadde fem tær, med en stor klo på den indre tåen på hver forfot. Føttene var brede og runde med en tykk, kjøttfull pute under – som en elefantfot – designet for å fordele dyrets enorme vekt over myk jura-jord."
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Trikseratops",
+          "description": "Triceratops hadde tre horn og en bred benkrage. Koble sammen 70 punkter med dette gratis punkt til punkt arbeidsarket for barnehage og første klasse.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
         }
-      ],
-      "outro": "Fantastisk arbeid – Brachiosaurusen din strekker seg mot himmelen! Sammenlign den med Brontosaurus-puslespillet og be barnet ditt finne forskjellene. Å finne visuelle forskjeller mellom to lignende ting er en utmerket tidlig naturfagferdighet. Finn mer i vår kolleksjon <a href=\"/dinosaurs/\">av utskrivbare dinosaurer med punkt-til-punkt-motiv</a> ."
-    },
-    "seoTitle": "Brachiosaurus Punkt til Punkt: 38 Tårnhøye Gratis Punkter"
-  },
-  {
-    "slug": "ankylosaurus",
-    "name": "Ankylosaurus",
-    "seoH1": "Ankylosaurus Punkt til Punkt — 32-Punkts Panserhale",
-    "tagline": "Dino-verdenens pansrede tank",
-    "description": "Koble prikkene for å avsløre Ankylosaurus – dinosaurverdenens pansrede superstjerne! Hele kroppen var dekket av benete plater, og halen endte i en massiv, tung kølle. Dette arbeidsarket passer flott for barnehage og 1. klasse.",
-    "seoDescription": "Selv Ankylosaurus hadde beinpanser over øyelokkene. Avdekk dens beskyttede kropp og klubbehale over 32 punkter i et puslespill for barn i alderen 5–8.",
-    "funFact": "Selv Ankylosaurus sine øyelokk hadde benete panserplater!",
-    "seoImageAlt": "Panser Ankylosaurus og dens klubbehale plassert sammen fra 32 punkter",
-    "dotGuide": {
-      "intro": "Hva skjer når naturen bestemmer seg for at en dinosaur trenger en full rustning? Du får Ankylosaurus – dekket fra nese til hale av benete plater, med en massiv kølle på enden av halen for balanse og beskyttelse. Dette 32-punkts puslespillet er fantastisk tilfredsstillende å fullføre, og resultatet er en av de mest imponerende dinosaurene i samlingen!",
-      "sections": [
-        {
-          "range": "1–7",
-          "title": "Det pansrede hodet",
-          "learn": "Start ved punkt 1 og fortsett til punkt 7 for å tegne den brede, tungt pansrede hodeskallen. Hodet er bredt og flatt, med en helt annen form enn de spisse snutene til rovdinosaurer. Barn lærer å tegne en bred, lav form her – en flott kontrast til de høye, smale hodeskallene de kanskje har tegnet før.",
-          "fact": "Selv øyelokkene til Ankylosaurus hadde benete panserplater – kanskje det beste eksemplet på at evolusjonen gikk litt over streken med en god idé. Hodeskallen var så tett sammenvokst at den ser nesten uten særtrekk ut, som en benete hjelm som fullstendig omslutter hjernen."
-        },
-        {
-          "range": "8–18",
-          "title": "Den pansrede ryggen",
-          "learn": "Fortsett fra punkt 8 til punkt 18 for å tegne den brede, avrundede ryggen dekket av rader med benete plater, pigger og knotter kalt osteodermer. Dette er den mest detaljerte delen visuelt, og barn begynner å sette pris på hvor godt beskyttet dette dyret var. En flott mulighet til å diskutere hvorfor rustning utviklet seg i naturen.",
-          "fact": "Rustningen som dekket Ankylosaurus var laget av bein som var innebygd direkte i huden – kalt osteodermer – arrangert i rader fra hode til hale. Denne typen rustning kalles osteodermal rustning, og det er den samme typen du finner hos moderne krokodiller og beltedyr."
-        },
-        {
-          "range": "19–26",
-          "title": "De korte, solide beina",
-          "learn": "Tegn punkt 19 til 26 for de fire korte, kraftige beina. Ankylosaurus ble med vilje bygget lavt til bakken – et lavt tyngdepunkt gjorde det svært vanskelig for rovdyr å velte. Barn kobler ofte til en skilpadde, noe som åpner for en fin diskusjon om konvergent evolusjon.",
-          "fact": "Ankylosaurusen var omtrent 6 meter lang, men var bare rundt 1,5 meter høy ved hoften – lavere enn høyden til de fleste voksne. Beina dens var så robuste og kroppen så tett at selv en T-Rex ville hatt enorme problemer med å angripe den ovenfra."
-        },
-        {
-          "range": "27–32",
-          "title": "Den fantastiske klubbhalen",
-          "learn": "Avslutt ved å koble sammen punkt 27 til 32 for å tegne halen og dens karakteristiske kølle på slutten. Dette er den mest tilfredsstillende avslutningen av alle puslespill i samlingen – det er køllen som gjør Ankylosaurus så unik. Bare seks prikker, men hver av dem teller mot en av naturens mest ekstraordinære trekk.",
-          "fact": "Haleklubben ble dannet av sammenvokste ryggvirvler og kunne veie opptil 45 kg – tyngre enn de fleste voksne hunder! Forskere tror Ankylosaurus svingte halen for å holde andre dinosaurer på trygg avstand. Et strålende innebygd skjold for en forsiktig planteeter!"
+      },
+      "body": {
+        "h1": "Triceratops Punkt til Punkt: 70 Trehornede Punkter Gratis",
+        "name": "Trikseratops",
+        "tagline": "Tre horn, ett fantastisk puslespill",
+        "description": "Følg prikkene for å tegne den mest ikoniske hornede dinosauren gjennom tidene. Triceratops hadde tre ansiktshorn og en gigantisk benete krage – og den levde rett ved siden av T-Rex! Dette koble-prikkene-arket er perfekt for barnehage og 1. klasse.",
+        "fun_fact": "Triceratops-hornene kan bli opptil 90 cm lange – lengre enn en baseballkølle!",
+        "faqs": [
+          {
+            "q": "Hvor mange prikker har Triceratops prikk-til-prikk-puslespillet?",
+            "a": "Triceratops-bildet med prikkene som kan skrives ut, har 70 nummererte prikker. Det gjør det til et middels puslespill, best egnet for alderen 6–9 (1. til 3. klasse). Barn kobler prikkene i nummerrekkefølge for å avsløre det ferdige triceratops-bildet, og fargelegger det deretter."
+          },
+          {
+            "q": "Er Triceratops punkt-til-punkt-utskrift gratis?",
+            "a": "Ja. Triceratops-arbeidsarket er 100 % gratis å laste ned fra DotToDotFreePrintables.com – ingen konto, e-post eller betaling kreves. Det lastes ned umiddelbart som en utskriftsklar PDF i både stående og liggende retning, i størrelse for US Letter- eller A4-papir."
+          },
+          {
+            "q": "Hvilken alder er Triceratops-arbeidsarket med punktene som forbinder hverandre best for?",
+            "a": "Med 70 prikker fungerer Triceratops-puslespillet best for alderen 6–9 (1. til 3. klasse). Yngre barn kan like det med lett hjelp fra voksne som teller, mens trygge tellere kan fullføre det selvstendig og øve på tallsekvensering opptil 70."
+          },
+          {
+            "q": "Hvilke ferdigheter lærer man opp i punkt-til-punkt-puslespillet med Triceratops?",
+            "a": "Å koble de 70 prikkene i Triceratops-puslespillet bygger opp tallgjenkjenning og telling til 70, blyantkontroll, hånd-øye-koordinasjon og vedvarende fokus – de samme finmotoriske grunnlagene som støtter tidlig håndskrift. Å fargelegge det ferdige bildet gir en kreativ belønning."
+          },
+          {
+            "q": "Hva er et morsomt faktum om triceratops?",
+            "a": "Triceratops-horn kan bli opptil 90 cm lange – lengre enn en baseballkølle! Barn oppdager fakta som dette mens de fullfører Triceratops-prikk-til-prikk-puslespillet."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Med tre horn, en praktfull, benete krage og motet til å stå opp mot en T-Rex, er Triceratops en av de mest gjenkjennelige dinosaurene som noen gang har levd. Dette puslespillet har 70 prikker – en skikkelig utfordring som belønner tålmodighet og nøye telling. Løs det seksjon for seksjon, og en virkelig spektakulær dinosaur vil dukke opp. Klar? Kom igjen!",
+          "sections": [
+            {
+              "range": "1–12",
+              "title": "De tre hornene og snuten",
+              "learn": "Start ved punkt 1 og følg streken til punkt 12 for å tegne Triceratops&#39; mest kjente trekk – de to lange pannehornene og det kortere nesehornet. Denne delen involverer flere retningsendringer, noe som er fantastisk for å utvikle blyantkontroll og romlig bevissthet hos barn fra 6 år og oppover.",
+              "fact": "De to pannehornene kunne bli opptil en meter lange – lengre enn en baseballkølle! Forskere mener at Triceratops brukte dem både til forsvar mot rovdyr og til sparring med andre Triceratops under konkurranse om territorium og partnere."
+            },
+            {
+              "range": "13–26",
+              "title": "Frill",
+              "learn": "Koble sammen punkt 13 til 26 for å feie ut den store, halvsirkelformede rysjen som rammer inn bakhodet. Barna øver på en bred, buet bevegelse her – en fin øvelse i å holde blyanten i bevegelse med selvtillit over siden. Oppmuntre dem til å løfte håndleddet og tegne fra skulderen.",
+              "fact": "Kragen var ikke av massivt bein – den hadde to store åpninger dekket av hud, noe som gjorde den lysere enn den ser ut til. Noen forskere tror at kragen var fargesterk i livet, brukt til å kommunisere humør og helse, litt som en levende utstillingstavle."
+            },
+            {
+              "range": "27–42",
+              "title": "Kroppen",
+              "learn": "Tegn punkt 27 til 42 for den brede, solide kroppen. Triceratops ble bygget lav og bred, og barn begynner å se hvordan formen skiller seg fra de høyere sauropodene. Dette er den lengste rekken med prikker i puslespillet – en strålende mulighet til å øve på vedvarende fokus.",
+              "fact": "Triceratops var omtrent 9 meter lang og veide opptil 6,5 tonn – omtrent det samme som to afrikanske elefanter! Til tross for den størrelsen var den smidig nok til å bevege seg i fart. Tenk deg å se et av disse praktfulle hornene komme mot deg – et ganske spesielt syn, selv for en T-Rex!"
+            },
+            {
+              "range": "43–58",
+              "title": "De fire beina",
+              "learn": "Koble sammen punkt 43 og 58 for å legge til de fire kraftige, litt utstrakte beina. I motsetning til de rette, søylelignende beina til sauropodene, sprer Triceratops&#39; ben seg litt ut ved albuene. Barn legger merke til denne forskjellen hvis du påpeker den – de bygger fine observasjonsevner samtidig som de øver på finmotorikk.",
+              "fact": "Triceratops hadde hover i stedet for klør – et overraskende faktum som ofte gleder barn! Forbeina kunne svinge utover for å hjelpe den med å senke hodet og storme fremover som en bulldoser, ved å bruke de tre praktfulle hornene til å lede an."
+            },
+            {
+              "range": "59–70",
+              "title": "Halen",
+              "learn": "Fullfør puslespillet ved å koble sammen punktene 59 til 70 for å tegne den korte, tykke halen. Sammenlignet med de sveipende halene til planteetende sauropoder, er Triceratops-halen bred og solid. Barn øver på en kortere, mer kontrollert avslutning – en tilfredsstillende avslutning på en større utfordring.",
+              "fact": "Fossile funn viser at T-Rex og Triceratops levde på samme tid og sted – det vestlige USA for rundt 68 millioner år siden. Forskere tror at Triceratops brukte sine tre imponerende horn til å forsvare seg, og det finnes bevis for at de to møttes mer enn én gang. Det var et veldig travelt nabolag!"
+            }
+          ],
+          "outro": "Utmerket konsentrasjon – 70 prikker er ingen liten prestasjon! Triceratopsen din er ferdig. Spør barnet ditt hvilken del de syntes var vanskeligst og hvorfor. Den typen refleksjon er like verdifull som selve tegningen. Klar for en større test? Prøv våre <a href=\"/usa-250/\">ekstreme prikk-til-prikk-utskriftbare ark</a> .",
+          "color_schemes": []
         }
-      ],
-      "outro": "Fantastisk jobb med å fullføre alle 32 prikkene! Fargelegg nå rustningsplatene i grått og brunt – eller kjør på med dine egne mønstre. Naturens rustning finnes i alle slags farger, så Ankylosaurusen din kan se ut akkurat slik du forestiller deg den! Perfekt for klasserommet – se flere <a href=\"/playgrounds/\">prikk-til-prikk-arbeidsark</a> ."
+      }
     },
-    "seoTitle": "Ankylosaurus Punkt til Punkt — Rask 32-Punkts Panser PDF"
-  },
-  {
-    "slug": "pterodactyl-dot-to-dot-puzzle",
-    "name": "Pterodaktyl",
-    "seoH1": "Pterodactyl Punkt til Punkt: 67 Punkter Over Eldgamle Hav",
-    "tagline": "Den flygende dinosauren barn elsker",
-    "description": "Koble punktene for å tegne den mest kjente flygende reptilen fra den forhistoriske verden! Pterodactyler svevde over eldgamle hav og elver på jakt etter fisk. Dette enkle 24-punkts arbeidsarket er perfekt for småbarn og førskolebarn.",
-    "seoDescription": "Pterodactyl var en flygende pterosaur, ikke en dinosaur. Koble 67 punkter med denne gratis utskrivbare punkt til punkt PDF for barn i alderen 6–9.",
-    "funFact": "Pterodactyler var teknisk sett ikke dinosaurer – de var flygende reptiler kalt pterosaurer!",
-    "seoImageAlt": "Pterodactyl svevende på brede vinger, holdt oppe av 67 utskrivbare punkter",
-    "dotGuide": {
-      "intro": "Her er et genialt puslespill å dele før du begynner: Pterodactyler var faktisk ikke dinosaurer i det hele tatt! De var flygende reptiler kalt pterosaurer, som levde sammen med dinosaurene, men tilhørte en helt egen gruppe. De var også de første virveldyrene – dyr med ryggrad – som noensinne utviklet motorflyging. Med 67 prikker er dette en ganske stor utfordring, så sett deg ned og nyt prosessen!",
-      "sections": [
-        {
-          "range": "1–10",
-          "title": "Hodet og det lange nebbet",
-          "learn": "Start ved punkt 1 og fortsett til punkt 10 for å tegne det lange, spisse nebbet og det karakteristiske topphodet. Pterodactyl-hodet er en av de mest uvanlige formene i naturen – langt, smalt og ofte med en dramatisk topp. Barn øver på en veldig langstrakt form her, noe som er en forfriskende utfordring.",
-          "fact": "Mange pterosaurarter hadde store hodekammer, laget av bein og bløtvev. Forskere tror disse kammene ble brukt til utstilling – for å tiltrekke seg partnere og kommunisere med andre medlemmer av gruppen. Noen av kammene var like store som selve hodeskallen, noe som gjorde hodet nesten komisk overdimensjonert."
+    {
+      "slug": "velociraptor-dot-to-dot-puzzle",
+      "header": {
+        "title": "Velociraptor Punkt til Punkt — 54 Rask Punkter, Gratis PDF",
+        "meta_description": "Ekte Velociraptorer var kalkunstørrelse og fjærkledde. Avdekk en av 54 punkter med dette punkt-til-punkt utskriftsarket for barn i alderen 5–8.",
+        "og": {
+          "title": "Velociraptor Punkt til Punkt — 54 Rask Punkter, Gratis PDF",
+          "description": "Ekte Velociraptorer var kalkunstørrelse og fjærkledde. Avdekk en av 54 punkter med dette punkt-til-punkt utskriftsarket for barn i alderen 5–8.",
+          "image_alt": "Fjærkledd Velociraptor klar til å sprinte, skisset i 54 utskriftspunkter"
         },
-        {
-          "range": "11–24",
-          "title": "Vingene",
-          "learn": "Fortsett fra punkt 11 til punkt 24 for å feie ut de enorme vingene. Pterodactyl-vingene ble dannet av en membran av hud og muskler som strakte seg fra en enormt langstrakt fjerde finger helt ut til kroppen. Barn lærer å tegne en bred, ekspansiv bue – en av de mest tilfredsstillende blyantbevegelsene i hele kolleksjonen.",
-          "fact": "Pterodactyl-vingemembranen var tynn, men utrolig sterk, forsterket av små fibre som gikk gjennom den som et stoff. I motsetning til flaggermusvinger, som fester seg til ankelen, festet pterosaurvinger seg høyere opp på beinet, noe som ga dem en litt annen flystilling – mer som en hangglider enn en fugl."
-        },
-        {
-          "range": "25–40",
-          "title": "Kropps- og vingefingrene",
-          "learn": "Tegn punkt 25 til 40 for å fylle ut den kompakte kroppen og tegn den ekstraordinære vingefingerstrukturen. Denne delen har flest prikker i puslespillet og krever virkelig vedvarende konsentrasjon – en fantastisk øvelse i utholdenhet. Minn barna på at hver eneste prikk er fremgang.",
-          "fact": "En pterodactyls vingespenn kunne bli rundt 90 centimeter – omtrent på størrelse med en stor måke – men noen av slektningene, som Quetzalcoatlus, hadde vingespenn på opptil 11 meter, bredere enn et lite fly. Pterosaurfamilien varierte fra spurvestørrelse til helt forbløffende."
-        },
-        {
-          "range": "41–54",
-          "title": "Klørne og føttene",
-          "learn": "Koble sammen punkt 41 og 54 for å tegne vingespissklørene og bakføttene. Pterodactyler hadde klør på vingene for å klatre og gripe, noe barn ofte synes er overraskende. Disse delene involverer mindre, strammere bevegelser – flott for å bygge finmotorisk presisjon hos eldre barn.",
-          "fact": "Pterodactyler kunne gå på alle fire på bakken og folde vingene pent opp som en paraply. Nyere spor viser at de var mer komfortable på bakken enn man en gang trodde – de vaglet rundt på strender og elvebredder på jakt etter fisk, insekter og små dyr."
-        },
-        {
-          "range": "55–67",
-          "title": "Hale- og landingsposisjonen",
-          "learn": "Fullfør puslespillet ved å koble sammen punktene 55 til 67 for å fullføre halen og fange den fulle fly- eller landingsposituren. Pterodactylen hadde en veldig kort hale sammenlignet med noen andre pterosaurer. Barn øver på en fokusert og forsiktig avslutning her – tretten prikker for å bringe hele den praktfulle skapningen sammen.",
-          "fact": "Flyvefugler svevde sannsynligvis på varme strømmer av varm luft, omtrent som moderne ørner og gribber, og sparte energi over lange avstander. Deres hule bein – utrolig lette, men overraskende sterke – var essensielle for flyging, og er en av de viktigste egenskapene de deler med moderne fugler."
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Velosiraptor",
+          "description": "Ekte Velociraptorer var kalkunstørrelse og fjærkledde. Avdekk en av 54 punkter med dette punkt-til-punkt utskriftsarket for barn i alderen 5–8.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
         }
-      ],
-      "outro": "Utrolig utholdenhet – 67 prikker er en ekte prestasjon å være stolt av! Pterodactylen din er klar til å sveve. Hvorfor ikke prøve å tegne din egen forhistoriske flyscene rundt den? En elv, noen fjell, kanskje en fisk som hopper – juraverdenen er din å skape. Klar for noe enda vanskeligere? Prøv våre <a href=\"/usa-250/\">ekstreme prikk-til-prikk-utskriftbare ark</a> ."
-    },
-    "seoTitle": "Pterodactyl Punkt til Punkt: 67 Punkter Over Eldgamle Hav"
-  },
-  {
-    "slug": "allosaurus",
-    "name": "Alosaurus",
-    "seoH1": "Allosaurus Punkt til Punkt — 42-Punkts Jurassisk Predator",
-    "tagline": "Jurassiske løve",
-    "description": "Koble punktene for å avdekke Allosaurus — den mest kjente dinosauren fra jura-perioden, selv før T-Rex eksisterte! Den hadde sterke tenner, kraftige kjever, og kan ha levd i grupper. Dette vanskeligere arbeidsarket utfordrer elever i 1.–3. klasse.",
-    "seoDescription": "Allosaurus hersket i Jura lenge før T-Rex dukket opp. Følg 42 punkter rundt denne kraftige rovdyr i et puslespill designet for barn i alderen 6–10.",
-    "funFact": "Over 40 Allosaurus-fossiler ble funnet på ett enkelt sted i Utah!",
-    "seoImageAlt": "Fierce Allosaurus som viser sterke kjever, satt sammen fra 42 utskrivbare punkter",
-    "dotGuide": {
-      "intro": "Lenge før T-Rex hersket over kritttiden, var Allosaurus den mest bemerkelsesverdige store dinosauren på jorden. Raskere, smidigere og muligens smartere enn mange dinosaurer rundt den, var denne jura-oppdageren stjernen i sin tid. Med 42 prikker og en vanskelighetsgrad på vanskelig, er dette puslespillet en skikkelig test av telleferdigheter og konsentrasjon – perfekt for eldre barn som er klare for en skikkelig utfordring!",
-      "sections": [
-        {
-          "range": "1–8",
-          "title": "Hodet",
-          "learn": "Start ved punkt 1 og fortsett til punkt 8 for å tegne den store, dype hodeskallen med sine karakteristiske riller over øynene. Allosaurusen hadde benete topper som gikk fra snuten til over øynene – en detalj som får den til å se genuint vill ut. Barn øver på å følge en dristig, kantete hodeskalleform med flere interessante retningsendringer.",
-          "fact": "Allosaurus hadde en svært uvanlig kjeve – forskere tror den brukte et stort, kraftig bitt ved å presse hodet nedover med sine sterke nakkemuskler, i stedet for bare å knipse som de fleste dyr. De taggete tennene var perfekte for et kjøtteter av sin størrelse, noe som gjorde den til en av de mest effektive jegerne i juraperioden."
-        },
-        {
-          "range": "9–18",
-          "title": "Nakken og skuldrene",
-          "learn": "Fortsett fra punkt 9 til punkt 18 for å tegne den kraftige nakken og de brede skuldrene. Allosaurus hadde en bemerkelsesverdig muskuløs nakke som ga den et utrolig kraftig bitt. Denne delen involverer selvsikre, sveipende kurver – barn som stresser har en tendens til å miste nøyaktighet her, så det er en flott del for å øve på tålmodighet.",
-          "fact": "Allosaurus var omtrent 8–12 meter lang og veide opptil 2 tonn – mye lettere enn T-Rex, men langt mer smidig. Forskere tror at denne smidigheten, kombinert med mulig gruppeatferd, tillot den å bevege seg sammen med dyr mange ganger større enn seg selv, inkludert de gigantiske sauropodene!"
-        },
-        {
-          "range": "19–28",
-          "title": "Kroppen og armene",
-          "learn": "Tegn punkt 19 til 28 for den muskuløse kroppen og de kraftige trefingrede armene. I motsetning til T-Rex hadde Allosaurus armer den virkelig kunne bruke – sterke og godt egnet for et aktivt liv i juratiden. Barn øver på en midtseksjon med mye detaljer, og bygger opp den typen vedvarende oppmerksomhet som et puslespill med vanskelighetsgrad 3 krever.",
-          "fact": "Mer enn 60 individuelle Allosaurus-eksemplarer er funnet ved Cleveland-Lloyd Dinosaur Quarry i Utah – den desidert største konsentrasjonen av rovdyrbein fra jura-tiden som noen gang er oppdaget. Hvorfor så mange havnet på ett sted er fortsatt et av paleontologiens mest omdiskuterte mysterier."
-        },
-        {
-          "range": "29–36",
-          "title": "De kraftige beina",
-          "learn": "Koble sammen punkt 29 og 36 for å tegne de lange, kraftige beina. Allosaurus ble bygget for fart like mye som for styrke – beina var proporsjonalt lengre enn T-Rex sine, noe som gjorde den til en raskere og mer manøvrerbar jeger. Barn øver på selvsikre, nedadgående bevegelser som formidler dyrets atletiske kroppsbygning.",
-          "fact": "Allosaurus kunne sannsynligvis spurte i rundt 32–48 kilometer i timen – raskere enn de fleste mennesker kan løpe. Noen forskere mener den brukte bakholdstaktikker, gjemte seg i vegetasjon før den stormet frem i høy hastighet. Fossile spor som viser en Allosaurus som forfølger en sauropod har blitt funnet, noe som gir oss et sjeldent glimt av faktisk jaktatferd."
-        },
-        {
-          "range": "37–42",
-          "title": "Halen",
-          "learn": "Fullfør puslespillet ved å koble sammen punkt 37 til 42 for å feie den lange, stive halen på plass. Seks prikker for å avslutte et utfordrende puslespill – oppmuntre barna til å gjøre disse siste linjene så rene og trygge som mulig. En sterk avslutning er like tilfredsstillende som en sterk start.",
-          "fact": "Allosaurus levde for omtrent 155 millioner år siden – nesten 90 millioner år før T-Rex. Hvis du setter en Allosaurus og en T-Rex side om side i tid, er Allosaurus faktisk nærmere i geologisk alder Stegosaurusen den jaktet på enn T-Rexen som kom etter den. Tiden i dyp forhistorisk tid er virkelig svimlende."
+      },
+      "body": {
+        "h1": "Velociraptor Punkt til Punkt — 54 Rask Punkter, Gratis PDF",
+        "name": "Velosiraptor",
+        "tagline": "Rask, smart og klar til å angripe",
+        "description": "Koble punktene for å avsløre den smarte Velociraptor — berømt fra Jurassic Park! I virkeligheten var Velociraptorer fjærkledde jegere på størrelse med en kalkun. Dette arbeidsarket bygger nummersekvenseringsferdigheter for barn i alderen 5–8.",
+        "fun_fact": "«Velociraptor» betyr rask tyv – den kan spurte opptil 40 km/t!",
+        "faqs": [
+          {
+            "q": "Hvor mange prikker har prikk-til-prikk-puslespillet fra Velociraptor?",
+            "a": "Den utskrivbare Velociraptor-koblingspuslespillet har 54 nummererte prikker. Det gjør det til et lett til middels stort puslespill, best egnet for alderen 5–8 (barnehage til 2. klasse). Barn kobler prikkene i nummerrekkefølge for å avsløre det ferdige velociraptor-bildet, og fargelegger det deretter."
+          },
+          {
+            "q": "Er punkt-til-punkt-mønstret Velociraptor gratis å skrive ut?",
+            "a": "Ja. Velociraptor-arbeidsarket er 100 % gratis å laste ned fra DotToDotFreePrintables.com – ingen konto, e-post eller betaling kreves. Det lastes ned umiddelbart som en utskriftsklar PDF i både stående og liggende retning, i størrelse for US Letter- eller A4-papir."
+          },
+          {
+            "q": "Hvilken alder er Velociraptor-arbeidsarket med punktkoblinger best for?",
+            "a": "Med 54 prikker fungerer Velociraptor-puslespillet best for alderen 5–8 (barnehage til 2. klasse). Yngre barn kan like det med lett hjelp fra voksne når de teller, mens trygge tellere kan fullføre det selvstendig og øve på tallsekvensering opptil 54."
+          },
+          {
+            "q": "Hvilke ferdigheter lærer man opp i prikk-til-prikk-puslespillet fra Velociraptor?",
+            "a": "Å koble de 54 prikkene i Velociraptor-puslespillet bygger opp tallgjenkjenning og telling til 54, blyantkontroll, hånd-øye-koordinasjon og vedvarende fokus – de samme finmotoriske grunnlagene som støtter tidlig håndskrift. Å fargelegge det ferdige bildet gir en kreativ belønning."
+          },
+          {
+            "q": "Hva er et morsomt faktum om velociraptoren?",
+            "a": "«Velociraptor» betyr rask tyv – den kan spurte opptil 40 km/t! Barn oppdager fakta som dette mens de fullfører prikk-til-prikk-puslespillet med Velociraptor."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Alle tror de vet hvordan en Velociraptor ser ut – men denne gåten kan overraske dem! Den virkelige Velociraptoren var fjærkledde, omtrent på størrelse med en stor kalkun, og mye smartere enn de fleste av sine dinosaur-kusiner. Hollywood gjorde den større, men naturen gjorde den smartere. Finn frem en blyant og møt den virkelige stjernen fra kritttiden!",
+          "sections": [
+            {
+              "range": "1–8",
+              "title": "Hodet og kjevene",
+              "learn": "Start ved punkt 1 og fortsett til punkt 8 for å tegne den lange, smale hodeskallen og de litt buede kjevene. Velociraptoren hadde et spesielt slankt hode sammenlignet med kroppen – barn lærer å følge en mer langstrakt form her, noe som er et nyttig skifte fra rundere dinosaurhoder. Sakte og jevn vinner denne.",
+              "fact": "Velociraptor hadde rundt 80 små, taggete tenner som var utformet for å gripe i stedet for å rive. Studier av hjernehulen viser at den hadde utmerket syn og en skarp luktesans – den jaktet ved hjelp av syn, lukt og muligens hørsel, noe som gjorde den til et bemerkelsesverdig velutstyrt lite rovdyr."
+            },
+            {
+              "range": "9–20",
+              "title": "Halsen og den fjærkledde kroppen",
+              "learn": "Fortsett fra punkt 9 til punkt 20 for å bygge den buede halsen og den kompakte kroppen. Det er her barn ofte begynner å se den fuglelignende kvaliteten til Velociraptor, noe som gir en flott klasseromsdiskusjon. Prikkene buer seg jevnt – en god del for å øve på jevnt blyanttrykk.",
+              "fact": "Paleontologer har funnet fjærknotter på Velociraptors armbein – de samme kulene man ser på moderne fuglevinger der fjærene fester seg. Velociraptor var nesten helt sikkert dekket av fjær, selv om den ikke kunne fly. Den er i hovedsak en liten, flygeløs jaktfugl."
+            },
+            {
+              "range": "21–32",
+              "title": "Armene og håndklørne",
+              "learn": "Tegn punkt 21 til 32 for de relativt lange armene og trefingrede hendene. I motsetning til T-Rex sine små armer, hadde Velociraptor armer den faktisk kunne bruke – til å holde seg fast og bevege seg gjennom omgivelsene sine. Barn øver på skarpere vinkler i denne delen, og etterligner den kantete, fuglevingeformen på forbena.",
+              "fact": "Velociraptors klør var sterke og buede – veldig nyttige for å gripe og holde fast. Nyere forskning tyder på at den kan ha brukt armene sine på samme måte som hauker og ørner sitter på grener i dag, og presser ned med kroppsvekten."
+            },
+            {
+              "range": "33–44",
+              "title": "Beina og den spesielle kloen",
+              "learn": "Koble sammen punkt 33 og 44 for å tegne de kraftige bakbeina og den berømte sigdformede kloen på andre tå. Barn kjenner ofte igjen denne kloen fra filmer, noe som gjør den til en motiverende del. Prikkene er tett sammen her, noe som oppmuntrer til presisjon og nøye tallgjenkjenning.",
+              "fact": "Den ikoniske buede kloen på hver fot ble holdt oppe fra bakken når Velociraptor gikk for å holde den fin og skarp – litt som en katt som holder klørne sine rene! Forskere tror nå at den hovedsakelig ble brukt til å gripe og holde fast i, snarere enn noe annet."
+            },
+            {
+              "range": "45–54",
+              "title": "Den stive halen",
+              "learn": "Avslutt ved å koble sammen punkt 45 til 54 for å legge til den lange, avstivede halen. I motsetning til de fleksible halene til øgler, ble Velociraptor-halen holdt rett ut bak den, og fungerte som en motvekt når man løp og snudde seg i fart. En selvsikker, rett avslutning på et dynamisk puslespill.",
+              "fact": "Velociraptor kunne nå hastigheter på rundt 40 kilometer i timen – raskt for et lite rovdyr, men saktere enn Jurassic Park-versjonen. Halen stivnet naturlig av forbenede sener, slik at den kunne ta skarpe svinger uten å velte, nesten som en innebygd stabilisator."
+            }
+          ],
+          "outro": "Fantastisk arbeid! Du har tegnet en av de mest misforståtte dinosaurene i historien. Hvorfor ikke slå opp hvordan Velociraptor faktisk så ut sammenlignet med filmversjonen – det er en strålende lærdom om at det virkelige liv ofte er mer interessant enn fiksjon! Møt flere forhistoriske venner i vår samling <a href=\"/dinosaurs/\">av dinosaurer som kan skrives ut punkt-til-punkt</a> .",
+          "color_schemes": []
         }
-      ],
-      "outro": "Fantastisk innsats – du taklet en oppgave med vanskelighetsgrad 3 og vant! 42 prikker, fem seksjoner og ett formidabelt rovdyr fra jura-tiden. Denne er verdt å henge på veggen. For en enda større test, bla gjennom våre <a href=\"/usa-250/\">ekstreme prikk-til-prikk-utskriftbare ark</a> ."
+      }
     },
-    "seoTitle": "Allosaurus Punkt til Punkt — 42-Punkts Jurassisk Utfordring"
-  }
-]
+    {
+      "slug": "stegosaurus-dot-to-dot-puzzle",
+      "header": {
+        "title": "Stegosaurus Punkt til Punkt: 52 Punkter & Diamantplater",
+        "meta_description": "Spor Stegosaurus fra sine diamantformede plater til sin piggete hale i 52 punkter. Få det gratis utskriftsbare punkt-til-punkt arket for barn i alderen 4–7.",
+        "og": {
+          "title": "Stegosaurus Punkt til Punkt: 52 Punkter & Diamantplater",
+          "description": "Spor Stegosaurus fra sine diamantformede plater til sin piggete hale i 52 punkter. Få det gratis utskriftsbare punkt-til-punkt arket for barn i alderen 4–7.",
+          "image_alt": "Stegosaurus med sin doble rad av ryggplater bygget av 52 utskriftspunkter"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Stegosaurus",
+          "description": "Spor Stegosaurus fra sine diamantformede plater til sin piggete hale i 52 punkter. Få det gratis utskriftsbare punkt-til-punkt arket for barn i alderen 4–7.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
+      },
+      "body": {
+        "h1": "Stegosaurus Punkt til Punkt: 52 Punkter & Diamantplater",
+        "name": "Stegosaurus",
+        "tagline": "Spisse tallerkener, mye moro",
+        "description": "Koble sammen 52 prikker for å tegne den fantastiske Stegosaurusen med den doble raden med diamantformede plater langs ryggen. Denne enkle prikk-til-prikk-leken er en favoritt for førskolebarn og barnehagebarn som bygger tallsekvensering, blyantkontroll og konsentrasjon.",
+        "fun_fact": "Stegosaurus hadde en hjerne på størrelse med en valnøtt – men den piggete halen var superkraften!",
+        "faqs": [
+          {
+            "q": "Hvor mange prikker har punkt-til-punkt-puslespillet med Stegosaurus?",
+            "a": "Stegosaurus-koblingspuslespillet som kan skrives ut har 52 nummererte prikker. Det gjør det til et lett til middels stort puslespill, best egnet for alderen 5–8 (barnehage til 2. klasse). Barn kobler prikkene i nummerrekkefølge for å avsløre det ferdige stegosaurus-bildet, og fargelegger det deretter."
+          },
+          {
+            "q": "Er punkt-til-punkt-tegningen av Stegosaurus gratis å skrive ut?",
+            "a": "Ja. Stegosaurus-arbeidsarket er 100 % gratis å laste ned fra DotToDotFreePrintables.com – ingen konto, e-post eller betaling kreves. Det lastes ned umiddelbart som en utskriftsklar PDF i både stående og liggende retning, i størrelse for US Letter- eller A4-papir."
+          },
+          {
+            "q": "Hvilken alder er Stegosaurus-arbeidsarket med punktkoblinger best for?",
+            "a": "Med 52 prikker fungerer Stegosaurus-puslespillet best for alderen 5–8 (barnehage til 2. klasse). Yngre barn kan like det med lett hjelp fra voksne når de teller, mens trygge tellere kan fullføre det selvstendig og øve på tallsekvensering opptil 52."
+          },
+          {
+            "q": "Hvilke ferdigheter lærer man opp i punkt-til-punkt-puslespillet med Stegosaurus?",
+            "a": "Å koble de 52 prikkene i Stegosaurus-puslespillet bygger opp tallgjenkjenning og telling til 52, blyantkontroll, hånd-øye-koordinasjon og vedvarende fokus – de samme finmotoriske grunnlagene som støtter tidlig håndskrift. Å fargelegge det ferdige bildet gir en kreativ belønning."
+          },
+          {
+            "q": "Hva er et morsomt faktum om stegosaurusen?",
+            "a": "Stegosaurus hadde en hjerne på størrelse med en valnøtt – men den piggete halen var superkraften! Barn oppdager fakta som dette mens de fullfører Stegosaurus prikk-til-prikk-puslespillet."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Med en rad med diamantformede plater som går langs ryggen og fire skarpe pigger på halen, er Stegosaurus en av de mest gjenkjennelige dinosaurene i verden. Dette puslespillet med 52 prikker har en perfekt størrelse for yngre barn – akkurat nok utfordring til å føles givende, uten å være overveldende. Finn prikk 1 og la de fantastiske platene ta form!",
+          "sections": [
+            {
+              "range": "1–6",
+              "title": "Nakken og brystet",
+              "learn": "Start ved punkt 1, rett under stegosaurusens hake, og koble ned til punkt 6 for å tegne halsen og brystet. Selve hodet er allerede tegnet og venter – linjen din forbinder det ganske enkelt med resten av kroppen. Seks prikker er en håndterbar start for små hender som bygger opp selvtillit.",
+              "fact": "Stegosaurusen hadde en av de minste hjernene i forhold til kroppsstørrelse av alle dinosaurer – omtrent på størrelse med en valnøtt, som satt inni en kropp like lang som en skolebuss. Til tross for dette overlevde den i millioner av år, noe som er en god påminnelse om at hjerner ikke er alt!"
+            },
+            {
+              "range": "7–15",
+              "title": "Forbena",
+              "learn": "Koble sammen punkt 7 til 15 for å tegne de to solide forbena og deres brede, avrundede føtter. Det er noen korte retningsendringer her ettersom linjen dypper ned til hver fot og opp igjen, så oppfordre barna til å sjekke hvert tall før de tegner neste strøk.",
+              "fact": "Stegosaurusens forbein var mye kortere enn bakbeina – nesten halvparten så lange. Denne uoverensstemmelsen ga dyret den berømte buede ryggen og holdt det lille hodet nær bakken, perfekt for å gnage på lavtliggende planter og bregner."
+            },
+            {
+              "range": "16–27",
+              "title": "Magen og bakbena",
+              "learn": "Tegn punkt 16 til 27 for å tegne den lange linjen med magen og de kraftige bakbena. Dette er den bredeste delen av puslespillet så langt, og et bra sted å øve på å holde en jevn rytme – punkt, linje, punkt, linje – helt ut til bakbeina.",
+              "fact": "Stegosaurus levde for rundt 150 millioner år siden, i sen juraperiode. Det er så lenge siden at Tyrannosaurus rex levde nærmere oss i tid i dag enn den gjorde Stegosaurus!"
+            },
+            {
+              "range": "28–38",
+              "title": "Langs halen",
+              "learn": "Koble sammen punkt 28 og 38 for å tegne den lange undersiden av halen mens den strekker seg ut bak kroppen. Punktene følger en myk, flytende kurve her, så dette er en fin del for å øve på jevne, kontinuerlige blyantstrøk uten å løfte blyanten for ofte.",
+              "fact": "Platene langs stegosaurusens rygg var for tynne til å være rustning. Forskere tror de var fylt med blodårer som bidro til å regulere kroppstemperaturen, og som ble røde eller rosa når dyret var opphisset – og de kan ha tiltrukket seg partnere, som en forhistorisk påfuglhale."
+            },
+            {
+              "range": "39–52",
+              "title": "Den spisse halen og baksiden",
+              "learn": "Fullfør puslespillet ved å koble sammen punkt 39 til 52 for å tegne spissen av halen med de fire skarpe piggene, og beveg deg deretter tilbake opp langs toppen av halen for å møte den siste av bakplatene. Dette er den vanskeligste delen, med prikker tett sammen rundt piggene – en nøye avslutning får hele tegningen til å klikke på plass.",
+              "fact": "Halepiggene – paleontologer kaller dem en «thagomizer» – kan være opptil en meter lange, noe som er lengre enn en gitar! Fossile bevis viser at Stegosaurus brukte dem til å stå på seg selvsikkert. Selv den mildeste planteeteren vet hvordan han skal ta vare på seg selv!"
+            }
+          ],
+          "outro": "Du klarte det – 52 prikker og én spektakulær Stegosaurus! Fargelegg nå bakplatene i favorittfargene dine. Ingen vet nøyaktig hvilken farge Stegosaurus hadde, noe som betyr at enhver farge du velger er like gyldig som en forskers beste gjetning. Har du akkurat begynt? Prøv flere <a href=\"/playgrounds/\">enkle prikk-til-prikk-utskrivbare ark</a> .",
+          "color_schemes": []
+        }
+      }
+    },
+    {
+      "slug": "spinosaurus",
+      "header": {
+        "title": "Spinosaurus Punkt til Punkt — 74 Punkter, Større Enn T-Rex",
+        "meta_description": "Spinosaurus var lengre enn T-Rex og hadde en gigantisk seil. Avdekk den over 74 punkter i denne gratis punkt-til-punkt utskrifts-PDF for klasse 1–2.",
+        "og": {
+          "title": "Spinosaurus Punkt til Punkt — 74 Punkter, Større Enn T-Rex",
+          "description": "Spinosaurus var lengre enn T-Rex og hadde en gigantisk seil. Avdekk den over 74 punkter i denne gratis punkt-til-punkt utskrifts-PDF for klasse 1–2.",
+          "image_alt": "Seilrygget Spinosaurus som dukker opp gjennom 74 punkter på en gratis dinosaur utskrift"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Spinosaurs",
+          "description": "Spinosaurus var lengre enn T-Rex og hadde en gigantisk seil. Avdekk den over 74 punkter i denne gratis punkt-til-punkt utskrifts-PDF for klasse 1–2.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
+      },
+      "body": {
+        "h1": "Spinosaurus Punkt til Punkt — 74 Punkter, Større Enn T-Rex",
+        "name": "Spinosaurs",
+        "tagline": "Større enn T-Rex",
+        "description": "Koble prikkene for å avsløre den største kjøttetende dinosauren som noen gang er oppdaget – større enn til og med T-Rex! Spinosaurus hadde et gigantisk seil på ryggen og jaktet fisk i elver. Flott for 1. og 2. klassinger som elsker store dinosaurer.",
+        "fun_fact": "Spinosaurus kan bli opptil 17 meter lang – lengre enn en skolebuss!",
+        "faqs": [
+          {
+            "q": "Hvor mange prikker har Spinosaurus prikk-til-prikk-puslespillet?",
+            "a": "Den utskrivbare Spinosaurus-koblings-prikkene har 74 nummererte prikker. Det gjør det til et middels puslespill, best egnet for alderen 6–9 (1. til 3. klasse). Barn kobler prikkene i nummerrekkefølge for å avsløre det ferdige spinosaurus-bildet, og fargelegger det deretter."
+          },
+          {
+            "q": "Er Spinosaurus punkt-til-punkt-tegning gratis å skrive ut?",
+            "a": "Ja. Spinosaurus-arbeidsarket er 100 % gratis å laste ned fra DotToDotFreePrintables.com – ingen konto, e-post eller betaling kreves. Det lastes ned umiddelbart som en utskriftsklar PDF i både stående og liggende retning, i størrelse for US Letter- eller A4-papir."
+          },
+          {
+            "q": "Hvilken alder er Spinosaurus-arbeidsarket med punktkoblinger best for?",
+            "a": "Med 74 prikker fungerer Spinosaurus-puslespillet best for alderen 6–9 (1. til 3. klasse). Yngre barn kan like det med lett hjelp fra voksne når de teller, mens trygge tellere kan fullføre det selvstendig og øve på tallsekvensering opptil 74."
+          },
+          {
+            "q": "Hvilke ferdigheter lærer man opp i punkt-til-punkt-puslespillet med Spinosaurus?",
+            "a": "Å koble de 74 prikkene i Spinosaurus-puslespillet bygger opp tallgjenkjenning og telling til 74, blyantkontroll, hånd-øye-koordinasjon og vedvarende fokus – de samme finmotoriske grunnlagene som støtter tidlig håndskrift. Å fargelegge det ferdige bildet gir en kreativ belønning."
+          },
+          {
+            "q": "Hva er et morsomt faktum om spinosaurusen?",
+            "a": "Spinosaurus kan være opptil 17 meter lang – lengre enn en skolebuss! Barn oppdager fakta som dette mens de fullfører Spinosaurus prikk-til-prikk-puslespillet."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Flytt deg, T-Rex – møt Spinosaurus, den største kjøttetende dinosauren som noensinne har gått på jorden! Spinosaurus var lengre enn en skolebuss og like hjemme i vann som på land, og var et virkelig ekstraordinært dyr. Det gigantiske bakseilet gjør den til en av de mest dramatiske dinosaurene å tegne. Grip en blyant og la denne forhistoriske kjempen stige fra arket!",
+          "sections": [
+            {
+              "range": "1–15",
+              "title": "Hodet og krokodillekjevene",
+              "learn": "Start at dot 1 and work through to dot 8 to sketch the long, narrow skull that looks more like a crocodile than a typical dinosaur. Children immediately notice how different this head shape is from T-Rex, which is a fantastic observation to encourage. The elongated snout rewards a steady, patient hand.",
+              "fact": "Spinosaurus hadde kjegleformede tenner som var ideelle for å fange glatte fisker – veldig forskjellig fra de bladlignende tennene til T-Rex. Neseborene var plassert høyt på hodeskallen, som en krokodille, slik at den kunne holde mesteparten av hodet under vann mens den fortsatt pustet. Et strålende stykke naturlig ingeniørkunst."
+            },
+            {
+              "range": "16–30",
+              "title": "Det gigantiske seilet",
+              "learn": "Continue from dot 9 to dot 20 to draw the towering sail that rises dramatically from the spine. This is the most thrilling section of the puzzle — the sail can be up to six feet tall, and children get to trace its full impressive height. Long, upward strokes build great arm confidence.",
+              "fact": "Seilet ble støttet av pigger som strakte seg ut fra ryggvirvlene, noen som strakte seg over en halv meter høye. Forskere debatterer fortsatt formålet – det kan ha regulert temperaturen, lagret fett som en kamels pukkel, eller vært en spektakulær utstillingsstruktur for å tiltrekke seg maker eller skremme rivaler."
+            },
+            {
+              "range": "31–45",
+              "title": "Kroppen",
+              "learn": "Trace dots 21 through 32 for the long, muscular body. Spinosaurus had a relatively low body profile compared to other large carnivores — adapted for swimming and wading in rivers. Children practise a flatter, more horizontal body shape here, which is a refreshing contrast to the upright stance of T-Rex.",
+              "fact": "Nye fossilfunn viser at Spinosaurus hadde korte, tette bein – det motsatte av hva de fleste dinosaurer hadde – noe som gjorde den mindre oppdriftsdyktig og bedre egnet til liv under vann, omtrent som moderne dykkende fugler. Det er den eneste dinosauren vi kjenner til som brukte betydelig tid på å svømme."
+            },
+            {
+              "range": "46–60",
+              "title": "De robuste bena",
+              "learn": "Connect dots 33 to 44 to add the legs and long, broad tail. The tail was paddle-shaped — another recent discovery that shocked palaeontologists — making it an effective swimming tool. Children practise both the stocky hind legs and the wide, flat tail shape in this final section.",
+              "fact": "Nylige skjelettstudier antyder at Spinosaurus kan ha beveget seg på fire ben, i det minste mens den vadet, noe som gjør den veldig forskjellig fra de fleste store kjøttetende dinosaurene — de fleste av dem gikk oppreist på to ben."
+            },
+            {
+              "range": "61–74",
+              "title": "Den padleformede halen",
+              "learn": "Avslutt med punkt 61 til 74 for å fullføre den lange, brede, padleformede halen. Halen var en annen nylig oppdagelse som sjokkerte paleontologer, og gjorde den til et effektivt svømmeverktøy. Barn øver på den brede, flate haleformen i denne siste delen.",
+              "fact": "Spinosaurus var sannsynligvis en langsom og klønete turgåer på land, men en sterk svømmer i elver. Den padlelignende halen ble først bekreftet i 2020 fra nylig funnet fossile prøver i Marokko – noe som beviser at selv de mest studerte dinosaurene fortsatt kan overraske oss."
+            }
+          ],
+          "outro": "Outstanding effort on a 44-dot challenge! Your Spinosaurus is ready to wade into the river. This is a wonderful puzzle to pair with a trip to the library — there are brilliant books written specifically for children about Spinosaurus's extraordinary story. Discover more free <a href=\"/\">dot to dot printables</a> for every age.",
+          "color_schemes": []
+        }
+      }
+    },
+    {
+      "slug": "brachiosaurus",
+      "header": {
+        "title": "Brachiosaurus Punkt til Punkt: 38 Tårnhøye Gratis Punkter",
+        "meta_description": "Brachiosaurus bar sitt lille hode på toppen av en tårnhøy hals. Koble 38 punkter for å avsløre denne Jurassic-giganten i et puslespill designet for barn i alderen 5–9.",
+        "og": {
+          "title": "Brachiosaurus Punkt til Punkt: 38 Tårnhøye Gratis Punkter",
+          "description": "Brachiosaurus bar sitt lille hode på toppen av en tårnhøy hals. Koble 38 punkter for å avsløre denne Jurassic-giganten i et puslespill designet for barn i alderen 5–9.",
+          "image_alt": "Tårnhøy Brachiosaurus som når trehøyde i 38 utskriftspunkter"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Brakiosaurus",
+          "description": "Brachiosaurus bar sitt lille hode på toppen av en tårnhøy hals. Koble 38 punkter for å avsløre denne Jurassic-giganten i et puslespill designet for barn i alderen 5–9.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
+      },
+      "body": {
+        "h1": "Brachiosaurus Punkt til Punkt — 38-Punkts Jurassic Gigant",
+        "name": "Brakiosaurus",
+        "tagline": "Den milde kjempen fra juraperioden",
+        "description": "Koble punktene for å tegne den høyeste, mest fredelige dinosauren fra Jurassic-perioden. Brachiosaurus hadde en lang hals som en giraff og frembein høyere enn de fleste hus. Et perfekt punkt-til-punkt arbeidsark for barn som elsker store, vennlige dinosaurer.",
+        "fun_fact": "Brachiosaurus kunne veie opptil 60 tonn – like tung som 10 elefanter!",
+        "faqs": [
+          {
+            "q": "Hvor mange prikker har Brachiosaurus prikk-til-prikk-puslespillet?",
+            "a": "Den utskrivbare Brachiosaurus-koblingspuslespillet har 38 nummererte prikker. Det gjør det til et enkelt puslespill, best egnet for alderen 4–6 (førskole og barnehage). Barn kobler prikkene i nummerrekkefølge for å avsløre det ferdige brachiosaurus-bildet, og fargelegger det deretter."
+          },
+          {
+            "q": "Er Brachiosaurus punkt-til-punkt-tegning gratis å skrive ut?",
+            "a": "Ja. Brachiosaurus-arbeidsarket er 100 % gratis å laste ned fra DotToDotFreePrintables.com – ingen konto, e-post eller betaling kreves. Det lastes ned umiddelbart som en utskriftsklar PDF i både stående og liggende retning, i størrelse for US Letter- eller A4-papir."
+          },
+          {
+            "q": "Hvilken alder er Brachiosaurus-arbeidsarket med punktkoblinger best for?",
+            "a": "Med 38 prikker fungerer Brachiosaurus-puslespillet best for alderen 4–6 (førskole og barnehage). Yngre barn kan like det med lett hjelp fra voksne som teller, mens trygge tellere kan fullføre det selvstendig og øve på tallsekvensering opptil 38."
+          },
+          {
+            "q": "Hvilke ferdigheter lærer man opp i punkt-til-punkt-puslespillet med Brachiosaurus?",
+            "a": "Å koble de 38 prikkene i Brachiosaurus-puslespillet bygger opp tallgjenkjenning og telling til 38, blyantkontroll, hånd-øye-koordinasjon og vedvarende fokus – de samme finmotoriske grunnlagene som støtter tidlig håndskrift. Å fargelegge det ferdige bildet gir en kreativ belønning."
+          },
+          {
+            "q": "Hva er et morsomt faktum om brachiosaurusen?",
+            "a": "Brachiosaurus kan veie opptil 60 tonn – like tung som 10 elefanter! Barn oppdager fakta som dette mens de fullfører Brachiosaurus prikk-til-prikk-puslespillet."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Se for deg en skapning med forbena som var høyere enn en toetasjes bygning. Det er Brachiosaurus – et av de høyeste dyrene som noen gang har eksistert. I motsetning til de fleste dinosaurer var forbena lengre enn bakbena, noe som ga den en særegen, sjirafflignende holdning som er perfekt for å nå toppen av gamle trær. La oss koble prikkene sammen og møte denne ruvende, milde kjempen!",
+          "sections": [
+            {
+              "range": "1–6",
+              "title": "Det lille hodet",
+              "learn": "Start ved punkt 1 og fortsett til punkt 6 for å tegne det lille, firkantede hodet som sitter helt øverst på den ekstraordinære halsen. I likhet med Brontosaurus hadde Brachiosaurus et relativt lite hode i forhold til kroppsstørrelsen. Barn øver på kompakte, tett sammenstilte prikker her – en presis start på et stort puslespill.",
+              "fact": "Brachiosaurus&#39; nesebor var plassert på toppen av hodet, nær øynene. Forskere trodde en gang at dette betydde at den levde under vann som en flodhest, og snorklet fra dypet. Nå vet vi at den utelukkende var et landdyr – de høye neseborene var rett og slett en særegenhet ved hodeskalleformen."
+            },
+            {
+              "range": "7–18",
+              "title": "Den ruvende halsen",
+              "learn": "Fortsett fra punkt 7 til punkt 18 for å sveipe den lange halsen oppover i en bratt vinkel. Dette er den mest dramatiske delen av puslespillet – halsen stiger kraftig, i motsetning til den mer horisontale halsen til Brontosaurus. Barn lærer å vinkle blyantstrøkene sine dristig oppover, noe som krever stor selvtillit.",
+              "fact": "Brachiosaurus kunne bli opptil 12 meter høy – ​​høy nok til å kikke inn et vindu i fjerde etasje! Å pumpe blod helt opp i den halsen krevde et enormt hjerte. Forskere anslår at hjertet veide rundt 180 kilo – omtrent like tungt som en stor motorsykkelmotor."
+            },
+            {
+              "range": "19–30",
+              "title": "Kroppen",
+              "learn": "Tegn punkt 19 til 30 for å fylle ut den store, tønneformede kroppen. Legg merke til hvordan ryggen skråner nedover fra de høye forskuldrene til de kortere hoftene – det motsatte av de fleste sauropoder. Denne skrånende ryggen er et av Brachiosaurus&#39; mest karakteristiske trekk, og å få øye på den er en god observasjonsøvelse.",
+              "fact": "Brachiosaurus kunne veie opptil 60 tonn – like tung som ti afrikanske elefanter. Den måtte spise opptil 880 pund vegetasjon hver eneste dag bare for å fylle den ekstraordinære mengden. Det tilsvarer omtrent å spise 1760 poser med salat. Hver. Eneste. Dag."
+            },
+            {
+              "range": "31–38",
+              "title": "De fire mektige beina",
+              "learn": "Avslutt ved å koble sammen punkt 31 til 38 for å tegne alle fire beina. Forbeina er merkbart lengre og mer oppreiste enn bakbeina – barn som ser nøye etter vil oppdage denne skråningen. Åtte prikker er en fokusert og givende avslutning som bygger oppmerksomhet på detaljer i den siste delen av et puslespill.",
+              "fact": "Hver Brachiosaurus-fot hadde fem tær, med en stor klo på den indre tåen på hver forfot. Føttene var brede og runde med en tykk, kjøttfull pute under – som en elefantfot – designet for å fordele dyrets enorme vekt over myk jura-jord."
+            }
+          ],
+          "outro": "Fantastisk arbeid – Brachiosaurusen din strekker seg mot himmelen! Sammenlign den med Brontosaurus-puslespillet og be barnet ditt finne forskjellene. Å finne visuelle forskjeller mellom to lignende ting er en utmerket tidlig naturfagferdighet. Finn mer i vår kolleksjon <a href=\"/dinosaurs/\">av utskrivbare dinosaurer med punkt-til-punkt-motiv</a> .",
+          "color_schemes": []
+        }
+      }
+    },
+    {
+      "slug": "ankylosaurus",
+      "header": {
+        "title": "Ankylosaurus Punkt til Punkt — Rask 32-Punkts Panser PDF",
+        "meta_description": "Selv Ankylosaurus hadde beinpanser over øyelokkene. Avdekk dens beskyttede kropp og klubbehale over 32 punkter i et puslespill for barn i alderen 5–8.",
+        "og": {
+          "title": "Ankylosaurus Punkt til Punkt — Rask 32-Punkts Panser PDF",
+          "description": "Selv Ankylosaurus hadde beinpanser over øyelokkene. Avdekk dens beskyttede kropp og klubbehale over 32 punkter i et puslespill for barn i alderen 5–8.",
+          "image_alt": "Panser Ankylosaurus og dens klubbehale plassert sammen fra 32 punkter"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Ankylosaurus",
+          "description": "Selv Ankylosaurus hadde beinpanser over øyelokkene. Avdekk dens beskyttede kropp og klubbehale over 32 punkter i et puslespill for barn i alderen 5–8.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
+      },
+      "body": {
+        "h1": "Ankylosaurus Punkt til Punkt — 32-Punkts Panserhale",
+        "name": "Ankylosaurus",
+        "tagline": "Dino-verdenens pansrede tank",
+        "description": "Koble prikkene for å avsløre Ankylosaurus – dinosaurverdenens pansrede superstjerne! Hele kroppen var dekket av benete plater, og halen endte i en massiv, tung kølle. Dette arbeidsarket passer flott for barnehage og 1. klasse.",
+        "fun_fact": "Selv Ankylosaurus sine øyelokk hadde benete panserplater!",
+        "faqs": [
+          {
+            "q": "Hvor mange prikker har Ankylosaurus prikk-til-prikk-puslespillet?",
+            "a": "Den utskrivbare Ankylosaurus-koblingspuslespillet har 32 nummererte prikker. Det gjør det til et enkelt puslespill, best egnet for alderen 4–6 (førskole og barnehage). Barn kobler prikkene i nummerrekkefølge for å avsløre det ferdige Ankylosaurus-bildet, og fargelegger det deretter."
+          },
+          {
+            "q": "Er Ankylosaurus punkt-til-punkt-tegningen gratis å skrive ut?",
+            "a": "Ja. Ankylosaurus-arbeidsarket er 100 % gratis å laste ned fra DotToDotFreePrintables.com – ingen konto, e-post eller betaling kreves. Det lastes ned umiddelbart som en utskriftsklar PDF i både stående og liggende retning, i størrelse for US Letter- eller A4-papir."
+          },
+          {
+            "q": "Hvilken alder er Ankylosaurus-arbeidsarket med punktkoblinger best for?",
+            "a": "Med 32 prikker fungerer Ankylosaurus-puslespillet best for alderen 4–6 (førskole og barnehage). Yngre barn kan like det med lett hjelp fra voksne når de teller, mens trygge tellere kan fullføre det selvstendig og øve på tallsekvensering opptil 32."
+          },
+          {
+            "q": "Hvilke ferdigheter lærer man opp i prikk-til-prikk-puslespillet med Ankylosaurus?",
+            "a": "Å koble de 32 prikkene i Ankylosaurus-puslespillet bygger opp tallgjenkjenning og telling til 32, blyantkontroll, hånd-øye-koordinasjon og vedvarende fokus – de samme finmotoriske grunnlagene som støtter tidlig håndskrift. Å fargelegge det ferdige bildet gir en kreativ belønning."
+          },
+          {
+            "q": "Hva er et morsomt faktum om ankylosaurusen?",
+            "a": "Selv Ankylosaurus sine øyelokk hadde benete panserplater! Barn oppdager fakta som dette mens de fullfører Ankylosaurus prikk-til-prikk-puslespillet."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Hva skjer når naturen bestemmer seg for at en dinosaur trenger en full rustning? Du får Ankylosaurus – dekket fra nese til hale av benete plater, med en massiv kølle på enden av halen for balanse og beskyttelse. Dette 32-punkts puslespillet er fantastisk tilfredsstillende å fullføre, og resultatet er en av de mest imponerende dinosaurene i samlingen!",
+          "sections": [
+            {
+              "range": "1–7",
+              "title": "Det pansrede hodet",
+              "learn": "Start ved punkt 1 og fortsett til punkt 7 for å tegne den brede, tungt pansrede hodeskallen. Hodet er bredt og flatt, med en helt annen form enn de spisse snutene til rovdinosaurer. Barn lærer å tegne en bred, lav form her – en flott kontrast til de høye, smale hodeskallene de kanskje har tegnet før.",
+              "fact": "Selv øyelokkene til Ankylosaurus hadde benete panserplater – kanskje det beste eksemplet på at evolusjonen gikk litt over streken med en god idé. Hodeskallen var så tett sammenvokst at den ser nesten uten særtrekk ut, som en benete hjelm som fullstendig omslutter hjernen."
+            },
+            {
+              "range": "8–18",
+              "title": "Den pansrede ryggen",
+              "learn": "Fortsett fra punkt 8 til punkt 18 for å tegne den brede, avrundede ryggen dekket av rader med benete plater, pigger og knotter kalt osteodermer. Dette er den mest detaljerte delen visuelt, og barn begynner å sette pris på hvor godt beskyttet dette dyret var. En flott mulighet til å diskutere hvorfor rustning utviklet seg i naturen.",
+              "fact": "Rustningen som dekket Ankylosaurus var laget av bein som var innebygd direkte i huden – kalt osteodermer – arrangert i rader fra hode til hale. Denne typen rustning kalles osteodermal rustning, og det er den samme typen du finner hos moderne krokodiller og beltedyr."
+            },
+            {
+              "range": "19–26",
+              "title": "De korte, solide beina",
+              "learn": "Tegn punkt 19 til 26 for de fire korte, kraftige beina. Ankylosaurus ble med vilje bygget lavt til bakken – et lavt tyngdepunkt gjorde det svært vanskelig for rovdyr å velte. Barn kobler ofte til en skilpadde, noe som åpner for en fin diskusjon om konvergent evolusjon.",
+              "fact": "Ankylosaurusen var omtrent 6 meter lang, men var bare rundt 1,5 meter høy ved hoften – lavere enn høyden til de fleste voksne. Beina dens var så robuste og kroppen så tett at selv en T-Rex ville hatt enorme problemer med å angripe den ovenfra."
+            },
+            {
+              "range": "27–32",
+              "title": "Den fantastiske klubbhalen",
+              "learn": "Avslutt ved å koble sammen punkt 27 til 32 for å tegne halen og dens karakteristiske kølle på slutten. Dette er den mest tilfredsstillende avslutningen av alle puslespill i samlingen – det er køllen som gjør Ankylosaurus så unik. Bare seks prikker, men hver av dem teller mot en av naturens mest ekstraordinære trekk.",
+              "fact": "Haleklubben ble dannet av sammenvokste ryggvirvler og kunne veie opptil 45 kg – tyngre enn de fleste voksne hunder! Forskere tror Ankylosaurus svingte halen for å holde andre dinosaurer på trygg avstand. Et strålende innebygd skjold for en forsiktig planteeter!"
+            }
+          ],
+          "outro": "Fantastisk jobb med å fullføre alle 32 prikkene! Fargelegg nå rustningsplatene i grått og brunt – eller kjør på med dine egne mønstre. Naturens rustning finnes i alle slags farger, så Ankylosaurusen din kan se ut akkurat slik du forestiller deg den! Perfekt for klasserommet – se flere <a href=\"/playgrounds/\">prikk-til-prikk-arbeidsark</a> .",
+          "color_schemes": []
+        }
+      }
+    },
+    {
+      "slug": "pterodactyl-dot-to-dot-puzzle",
+      "header": {
+        "title": "Pterodactyl Punkt til Punkt: 67 Punkter Over Eldgamle Hav",
+        "meta_description": "Pterodactyl var en flygende pterosaur, ikke en dinosaur. Koble 67 punkter med denne gratis utskrivbare punkt til punkt PDF for barn i alderen 6–9.",
+        "og": {
+          "title": "Pterodactyl Punkt til Punkt: 67 Punkter Over Eldgamle Hav",
+          "description": "Pterodactyl var en flygende pterosaur, ikke en dinosaur. Koble 67 punkter med denne gratis utskrivbare punkt til punkt PDF for barn i alderen 6–9.",
+          "image_alt": "Pterodactyl svevende på brede vinger, holdt oppe av 67 utskrivbare punkter"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Pterodaktyl",
+          "description": "Pterodactyl var en flygende pterosaur, ikke en dinosaur. Koble 67 punkter med denne gratis utskrivbare punkt til punkt PDF for barn i alderen 6–9.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
+      },
+      "body": {
+        "h1": "Pterodactyl Punkt til Punkt: 67 Punkter Over Eldgamle Hav",
+        "name": "Pterodaktyl",
+        "tagline": "Den flygende dinosauren barn elsker",
+        "description": "Koble punktene for å tegne den mest kjente flygende reptilen fra den forhistoriske verden! Pterodactyler svevde over eldgamle hav og elver på jakt etter fisk. Dette enkle 24-punkts arbeidsarket er perfekt for småbarn og førskolebarn.",
+        "fun_fact": "Pterodactyler var teknisk sett ikke dinosaurer – de var flygende reptiler kalt pterosaurer!",
+        "faqs": [
+          {
+            "q": "Hvor mange prikker har prikk-til-prikk-puslespillet med Pterodactyl?",
+            "a": "Den utskrivbare Pterodactyl-koblingspunktene har 24 nummererte prikker. Det gjør det til et enkelt puslespill, best egnet for alderen 4–6 (førskole og barnehage). Barn kobler prikkene i nummerrekkefølge for å avsløre det ferdige pterodactyl-bildet, og fargelegger det deretter."
+          },
+          {
+            "q": "Er punkt-til-punkt-utskriften av Pterodactyl gratis?",
+            "a": "Ja. Pterodactyl-arbeidsarket er 100 % gratis å laste ned fra DotToDotFreePrintables.com – ingen konto, e-post eller betaling kreves. Det lastes ned umiddelbart som en utskriftsklar PDF i både stående og liggende retning, i størrelse for US Letter- eller A4-papir."
+          },
+          {
+            "q": "Hvilken alder er Pterodactyl-koblingsarket best for?",
+            "a": "Med 24 prikker fungerer Pterodactyl-puslespillet best for alderen 4–6 (førskole og barnehage). Yngre barn kan like det med lett hjelp fra voksne som teller, mens trygge tellere kan fullføre det selvstendig og øve på tallsekvensering opptil 24."
+          },
+          {
+            "q": "Hvilke ferdigheter lærer man opp i punkt-til-punkt-puslespillet med Pterodactyl?",
+            "a": "Å koble de 24 prikkene i Pterodactyl-puslespillet bygger opp tallgjenkjenning og telling til 24, blyantkontroll, hånd-øye-koordinasjon og vedvarende fokus – de samme finmotoriske grunnlagene som støtter tidlig håndskrift. Å fargelegge det ferdige bildet gir en kreativ belønning."
+          },
+          {
+            "q": "Hva er et morsomt faktum om pterodactylen?",
+            "a": "Pterodactyler var teknisk sett ikke dinosaurer – de var flygende reptiler kalt pterosaurer! Barn oppdager fakta som dette mens de fullfører Pterodactyl prikk-til-prikk-puslespillet."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Her er et genialt puslespill å dele før du begynner: Pterodactyler var faktisk ikke dinosaurer i det hele tatt! De var flygende reptiler kalt pterosaurer, som levde sammen med dinosaurene, men tilhørte en helt egen gruppe. De var også de første virveldyrene – dyr med ryggrad – som noensinne utviklet motorflyging. Med 67 prikker er dette en ganske stor utfordring, så sett deg ned og nyt prosessen!",
+          "sections": [
+            {
+              "range": "1–10",
+              "title": "Hodet og det lange nebbet",
+              "learn": "Start ved punkt 1 og fortsett til punkt 10 for å tegne det lange, spisse nebbet og det karakteristiske topphodet. Pterodactyl-hodet er en av de mest uvanlige formene i naturen – langt, smalt og ofte med en dramatisk topp. Barn øver på en veldig langstrakt form her, noe som er en forfriskende utfordring.",
+              "fact": "Mange pterosaurarter hadde store hodekammer, laget av bein og bløtvev. Forskere tror disse kammene ble brukt til utstilling – for å tiltrekke seg partnere og kommunisere med andre medlemmer av gruppen. Noen av kammene var like store som selve hodeskallen, noe som gjorde hodet nesten komisk overdimensjonert."
+            },
+            {
+              "range": "11–24",
+              "title": "Vingene",
+              "learn": "Fortsett fra punkt 11 til punkt 24 for å feie ut de enorme vingene. Pterodactyl-vingene ble dannet av en membran av hud og muskler som strakte seg fra en enormt langstrakt fjerde finger helt ut til kroppen. Barn lærer å tegne en bred, ekspansiv bue – en av de mest tilfredsstillende blyantbevegelsene i hele kolleksjonen.",
+              "fact": "Pterodactyl-vingemembranen var tynn, men utrolig sterk, forsterket av små fibre som gikk gjennom den som et stoff. I motsetning til flaggermusvinger, som fester seg til ankelen, festet pterosaurvinger seg høyere opp på beinet, noe som ga dem en litt annen flystilling – mer som en hangglider enn en fugl."
+            },
+            {
+              "range": "25–40",
+              "title": "Kropps- og vingefingrene",
+              "learn": "Tegn punkt 25 til 40 for å fylle ut den kompakte kroppen og tegn den ekstraordinære vingefingerstrukturen. Denne delen har flest prikker i puslespillet og krever virkelig vedvarende konsentrasjon – en fantastisk øvelse i utholdenhet. Minn barna på at hver eneste prikk er fremgang.",
+              "fact": "En pterodactyls vingespenn kunne bli rundt 90 centimeter – omtrent på størrelse med en stor måke – men noen av slektningene, som Quetzalcoatlus, hadde vingespenn på opptil 11 meter, bredere enn et lite fly. Pterosaurfamilien varierte fra spurvestørrelse til helt forbløffende."
+            },
+            {
+              "range": "41–54",
+              "title": "Klørne og føttene",
+              "learn": "Koble sammen punkt 41 og 54 for å tegne vingespissklørene og bakføttene. Pterodactyler hadde klør på vingene for å klatre og gripe, noe barn ofte synes er overraskende. Disse delene involverer mindre, strammere bevegelser – flott for å bygge finmotorisk presisjon hos eldre barn.",
+              "fact": "Pterodactyler kunne gå på alle fire på bakken og folde vingene pent opp som en paraply. Nyere spor viser at de var mer komfortable på bakken enn man en gang trodde – de vaglet rundt på strender og elvebredder på jakt etter fisk, insekter og små dyr."
+            },
+            {
+              "range": "55–67",
+              "title": "Hale- og landingsposisjonen",
+              "learn": "Fullfør puslespillet ved å koble sammen punktene 55 til 67 for å fullføre halen og fange den fulle fly- eller landingsposituren. Pterodactylen hadde en veldig kort hale sammenlignet med noen andre pterosaurer. Barn øver på en fokusert og forsiktig avslutning her – tretten prikker for å bringe hele den praktfulle skapningen sammen.",
+              "fact": "Flyvefugler svevde sannsynligvis på varme strømmer av varm luft, omtrent som moderne ørner og gribber, og sparte energi over lange avstander. Deres hule bein – utrolig lette, men overraskende sterke – var essensielle for flyging, og er en av de viktigste egenskapene de deler med moderne fugler."
+            }
+          ],
+          "outro": "Utrolig utholdenhet – 67 prikker er en ekte prestasjon å være stolt av! Pterodactylen din er klar til å sveve. Hvorfor ikke prøve å tegne din egen forhistoriske flyscene rundt den? En elv, noen fjell, kanskje en fisk som hopper – juraverdenen er din å skape. Klar for noe enda vanskeligere? Prøv våre <a href=\"/usa-250/\">ekstreme prikk-til-prikk-utskriftbare ark</a> .",
+          "color_schemes": []
+        }
+      }
+    },
+    {
+      "slug": "allosaurus",
+      "header": {
+        "title": "Allosaurus Punkt til Punkt — 42-Punkts Jurassisk Utfordring",
+        "meta_description": "Allosaurus hersket i Jura lenge før T-Rex dukket opp. Følg 42 punkter rundt denne kraftige rovdyr i et puslespill designet for barn i alderen 6–10.",
+        "og": {
+          "title": "Allosaurus Punkt til Punkt — 42-Punkts Jurassisk Utfordring",
+          "description": "Allosaurus hersket i Jura lenge før T-Rex dukket opp. Følg 42 punkter rundt denne kraftige rovdyr i et puslespill designet for barn i alderen 6–10.",
+          "image_alt": "Fierce Allosaurus som viser sterke kjever, satt sammen fra 42 utskrivbare punkter"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Alosaurus",
+          "description": "Allosaurus hersket i Jura lenge før T-Rex dukket opp. Følg 42 punkter rundt denne kraftige rovdyr i et puslespill designet for barn i alderen 6–10.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
+      },
+      "body": {
+        "h1": "Allosaurus Punkt til Punkt — 42-Punkts Jurassisk Predator",
+        "name": "Alosaurus",
+        "tagline": "Jurassiske løve",
+        "description": "Koble punktene for å avdekke Allosaurus — den mest kjente dinosauren fra jura-perioden, selv før T-Rex eksisterte! Den hadde sterke tenner, kraftige kjever, og kan ha levd i grupper. Dette vanskeligere arbeidsarket utfordrer elever i 1.–3. klasse.",
+        "fun_fact": "Over 40 Allosaurus-fossiler ble funnet på ett enkelt sted i Utah!",
+        "faqs": [
+          {
+            "q": "Hvor mange prikker har Allosaurus prikk-til-prikk-puslespillet?",
+            "a": "Den utskrivbare Allosaurus-koblingspuslespillet har 42 nummererte prikker. Det gjør det til et lett til middels stort puslespill, best egnet for alderen 5–8 (barnehage til 2. klasse). Barn kobler prikkene i nummerrekkefølge for å avsløre det ferdige allosaurus-bildet, og fargelegger det deretter."
+          },
+          {
+            "q": "Er Allosaurus punkt-til-punkt-tegning gratis å skrive ut?",
+            "a": "Ja. Allosaurus-arbeidsarket er 100 % gratis å laste ned fra DotToDotFreePrintables.com – ingen konto, e-post eller betaling kreves. Det lastes ned umiddelbart som en utskriftsklar PDF i både stående og liggende retning, i størrelse for US Letter- eller A4-papir."
+          },
+          {
+            "q": "Hvilken alder er Allosaurus-arbeidsarket med punktkoblinger best for?",
+            "a": "Med 42 prikker fungerer Allosaurus-puslespillet best for alderen 5–8 (barnehage til 2. klasse). Yngre barn kan like det med lett hjelp fra voksne når de teller, mens trygge tellere kan fullføre det selvstendig og øve på tallsekvensering opptil 42."
+          },
+          {
+            "q": "Hvilke ferdigheter lærer man opp i punkt-til-punkt-puslespillet med Allosaurus?",
+            "a": "Å koble de 42 prikkene i Allosaurus-puslespillet bygger opp tallgjenkjenning og telling til 42, blyantkontroll, hånd-øye-koordinasjon og vedvarende fokus – de samme finmotoriske grunnlagene som støtter tidlig håndskrift. Å fargelegge det ferdige bildet gir en kreativ belønning."
+          },
+          {
+            "q": "Hva er et morsomt faktum om allosaurusen?",
+            "a": "Over 40 Allosaurus-fossiler ble funnet på ett enkelt sted i Utah! Barn oppdager fakta som dette mens de fullfører Allosaurus-puslespillet."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Lenge før T-Rex hersket over kritttiden, var Allosaurus den mest bemerkelsesverdige store dinosauren på jorden. Raskere, smidigere og muligens smartere enn mange dinosaurer rundt den, var denne jura-oppdageren stjernen i sin tid. Med 42 prikker og en vanskelighetsgrad på vanskelig, er dette puslespillet en skikkelig test av telleferdigheter og konsentrasjon – perfekt for eldre barn som er klare for en skikkelig utfordring!",
+          "sections": [
+            {
+              "range": "1–8",
+              "title": "Hodet",
+              "learn": "Start ved punkt 1 og fortsett til punkt 8 for å tegne den store, dype hodeskallen med sine karakteristiske riller over øynene. Allosaurusen hadde benete topper som gikk fra snuten til over øynene – en detalj som får den til å se genuint vill ut. Barn øver på å følge en dristig, kantete hodeskalleform med flere interessante retningsendringer.",
+              "fact": "Allosaurus hadde en svært uvanlig kjeve – forskere tror den brukte et stort, kraftig bitt ved å presse hodet nedover med sine sterke nakkemuskler, i stedet for bare å knipse som de fleste dyr. De taggete tennene var perfekte for et kjøtteter av sin størrelse, noe som gjorde den til en av de mest effektive jegerne i juraperioden."
+            },
+            {
+              "range": "9–18",
+              "title": "Nakken og skuldrene",
+              "learn": "Fortsett fra punkt 9 til punkt 18 for å tegne den kraftige nakken og de brede skuldrene. Allosaurus hadde en bemerkelsesverdig muskuløs nakke som ga den et utrolig kraftig bitt. Denne delen involverer selvsikre, sveipende kurver – barn som stresser har en tendens til å miste nøyaktighet her, så det er en flott del for å øve på tålmodighet.",
+              "fact": "Allosaurus var omtrent 8–12 meter lang og veide opptil 2 tonn – mye lettere enn T-Rex, men langt mer smidig. Forskere tror at denne smidigheten, kombinert med mulig gruppeatferd, tillot den å bevege seg sammen med dyr mange ganger større enn seg selv, inkludert de gigantiske sauropodene!"
+            },
+            {
+              "range": "19–28",
+              "title": "Kroppen og armene",
+              "learn": "Tegn punkt 19 til 28 for den muskuløse kroppen og de kraftige trefingrede armene. I motsetning til T-Rex hadde Allosaurus armer den virkelig kunne bruke – sterke og godt egnet for et aktivt liv i juratiden. Barn øver på en midtseksjon med mye detaljer, og bygger opp den typen vedvarende oppmerksomhet som et puslespill med vanskelighetsgrad 3 krever.",
+              "fact": "Mer enn 60 individuelle Allosaurus-eksemplarer er funnet ved Cleveland-Lloyd Dinosaur Quarry i Utah – den desidert største konsentrasjonen av rovdyrbein fra jura-tiden som noen gang er oppdaget. Hvorfor så mange havnet på ett sted er fortsatt et av paleontologiens mest omdiskuterte mysterier."
+            },
+            {
+              "range": "29–36",
+              "title": "De kraftige beina",
+              "learn": "Koble sammen punkt 29 og 36 for å tegne de lange, kraftige beina. Allosaurus ble bygget for fart like mye som for styrke – beina var proporsjonalt lengre enn T-Rex sine, noe som gjorde den til en raskere og mer manøvrerbar jeger. Barn øver på selvsikre, nedadgående bevegelser som formidler dyrets atletiske kroppsbygning.",
+              "fact": "Allosaurus kunne sannsynligvis spurte i rundt 32–48 kilometer i timen – raskere enn de fleste mennesker kan løpe. Noen forskere mener den brukte bakholdstaktikker, gjemte seg i vegetasjon før den stormet frem i høy hastighet. Fossile spor som viser en Allosaurus som forfølger en sauropod har blitt funnet, noe som gir oss et sjeldent glimt av faktisk jaktatferd."
+            },
+            {
+              "range": "37–42",
+              "title": "Halen",
+              "learn": "Fullfør puslespillet ved å koble sammen punkt 37 til 42 for å feie den lange, stive halen på plass. Seks prikker for å avslutte et utfordrende puslespill – oppmuntre barna til å gjøre disse siste linjene så rene og trygge som mulig. En sterk avslutning er like tilfredsstillende som en sterk start.",
+              "fact": "Allosaurus levde for omtrent 155 millioner år siden – nesten 90 millioner år før T-Rex. Hvis du setter en Allosaurus og en T-Rex side om side i tid, er Allosaurus faktisk nærmere i geologisk alder Stegosaurusen den jaktet på enn T-Rexen som kom etter den. Tiden i dyp forhistorisk tid er virkelig svimlende."
+            }
+          ],
+          "outro": "Fantastisk innsats – du taklet en oppgave med vanskelighetsgrad 3 og vant! 42 prikker, fem seksjoner og ett formidabelt rovdyr fra jura-tiden. Denne er verdt å henge på veggen. For en enda større test, bla gjennom våre <a href=\"/usa-250/\">ekstreme prikk-til-prikk-utskriftbare ark</a> .",
+          "color_schemes": []
+        }
+      }
+    }
+  ]
+}

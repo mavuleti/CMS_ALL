@@ -1,88 +1,222 @@
-[
-  {
-    "slug": "circus-ringmaster-bear-dot-to-dot-puzzle",
-    "name": "Ursul Maestru de Cercuri de Circ",
-    "tagline": "Întâlnește ursul care conduce marea spectacol!",
-    "description": "Conectează 74 de puncte pentru a descoperi un urs prietenos îmbrăcat în costum de maestru de ceremonii de circ. Acest exercițiu intermediar imprimabil ajută copiii să exerseze secvențierea numerelor, concentrarea, urmărirea vizuală și controlul precis al creionului.",
-    "funFact": "Un prezentator de circ introduce artiștii și ghidează publicul de la un număr la altul.",
-    "dotGuide": {
-      "intro": "Cu un palton elegant, pălărie înaltă și o postură încrezătoare, acest urs prietenos este gata să-i primească pe toți la circ. Provocarea cu 74 de puncte este împărțită în cinci etape clare pentru copiii care se descurcă bine cu secvențe lungi de numere. Găsește punctul 1 și să înceapă spectacolul!",
-      "sections": [
-        {
-          "range": "1–15",
-          "title": "Pălaria Maestrului de Ceremonii",
-          "learn": "Unește punctele de la 1 la 15 pentru a desena pălăria înaltă și urechile rotunde ale ursului.",
-          "fact": "Maestrii de ceremonii poartă adesea costume formale care atrag privirea, astfel încât publicul să-i poată identifica cu ușurință în arenă."
-        },
-        {
-          "range": "16–30",
-          "title": "Fața Ursului",
-          "learn": "Continuați de la punctul 16 la punctul 30 pentru a contura capul, botul și expresia veselă a ursului.",
-          "fact": "Simțul olfactiv al unui urs este extrem de puternic și îl ajută să găsească hrană pe distanțe lungi."
-        },
-        {
-          "range": "31–45",
-          "title": "Geaca Smart",
-          "learn": "Urmează punctele de la 31 la 45 pentru a forma jacheta și reverele decorate ale maestrului de ceremonii.",
-          "fact": "Jachete strălucitoare, nasturi lucioși și garnituri decorative ajută la a face costumul de maestru de ceremonii să pară teatral."
-        },
-        {
-          "range": "46–60",
-          "title": "Poziția Brațelor și Posturii",
-          "learn": "Trasează punctele de la 46 la 60 pentru a adăuga brațele ursului și poziția sa primitoare de performanță.",
-          "fact": "Ringmasterii folosesc gesturi clare și o voce puternică pentru a direcționa atenția publicului către următorul număr."
-        },
-        {
-          "range": "61–74",
-          "title": "Ghetele și Finisajul",
-          "learn": "Finalizați cu punctele de la 61 la 74 pentru a desena picioarele, cizmele și detaliile finale ale costumului.",
-          "fact": "Arena de circ este în mod tradițional circulară, astfel încât spectatorii din jur să poată vedea spectacolul din multiple unghiuri."
+{
+  "collection": {
+    "header": {
+      "title": "Circus Dot to Dot Printables — Free PDF for Kids",
+      "meta_description": "Free circus dot to dot printables for kids ages 4-9: a ringmaster bear and striped big-top tent. Two print-ready PDF worksheets with no sign-up.",
+      "og": {
+        "title": "2 Free Circus Dot to Dot Printables",
+        "description": "A ringmaster bear and striped big-top tent — two free circus dot to dot printables for kids.",
+        "image": "/images/circus-ringmaster-bear-puzzle.webp"
+      },
+      "json_ld": {
+        "type": "CollectionPage",
+        "name": "Circ",
+        "description": "Vino să iei gratuit imprimabile circus dot to dot cu un urs prietenos de ringmaster și un cort mare cu dungi. Descarcă și imprimă ambele fișe PDF pentru numărare și practică cu creionul.",
+        "image": "/images/circus-ringmaster-bear-puzzle.webp",
+        "main_entity": {
+          "type": "ItemList",
+          "item_source": "puzzles"
         }
-      ],
-      "outro": "Lucrare fantastică—ursul ringmaster este gata să anunțe spectacolul! Colorați costumul în tonuri îndrăznețe de roșu și auriu, apoi adăugați reflectoare și un public entuziasmat. Completați scena cu <a href=\"/circus/circus-tent-dot-to-dot-puzzle/\">puzzle-ul cortului de circ</a>."
+      },
+      "breadcrumb_json_ld": {
+        "type": "BreadcrumbList",
+        "items": [
+          {
+            "position": 1,
+            "name": "Home",
+            "path": "/"
+          },
+          {
+            "position": 2,
+            "name": "Circ",
+            "path": "/circus/"
+          }
+        ]
+      }
+    },
+    "body": {
+      "h1": "Imprimabile Circus Dot to Dot pentru copii",
+      "name": "Circ",
+      "tagline": "De ce copiii adoră puzzle-urile circus dot to dot",
+      "description": "Vino să iei gratuit imprimabile circus dot to dot cu un urs prietenos de ringmaster și un cort mare cu dungi. Descarcă și imprimă ambele fișe PDF pentru numărare și practică cu creionul.",
+      "hero_image": "/images/circus-ringmaster-bear-puzzle.webp",
+      "slug": "circus",
+      "faqs": [
+        {
+          "q": "Toate materialele imprimabile punct cu punct de pe acest site sunt complet gratuite?",
+          "a": "Da — fiecare fișă de lucru cu elemente de conectare a punctelor de pe DotToDotFreePrintables.com este 100% gratuită pentru descărcare și imprimare. Nu este necesar niciodată un cont, un abonament sau un card de credit."
+        },
+        {
+          "q": "Pentru ce vârstă sunt potrivite fișele de lucru punct cu punct?",
+          "a": "Materialele noastre imprimabile acoperă vârste între 2 și 12 ani. Fișele de lucru ușoare (10-20 de puncte) sunt potrivite pentru copiii mici și preșcolari, foile medii (20-50 de puncte) sunt excelente pentru grădiniță și clasa I, iar foile mai dificile (50-200+ puncte) sunt o provocare pentru elevii din clasa a II-a până la a VI-a."
+        },
+        {
+          "q": "În ce format sunt materialele imprimabile cu „conectați punctele”?",
+          "a": "Toate foile de lucru se descarcă ca fișiere PDF gata de imprimare, de dimensiunea standard a hârtiei US Letter (8,5\" × 11\"). Deschideți-le în orice browser sau vizualizator PDF și imprimați-le — nu este nevoie de software special."
+        },
+        {
+          "q": "Pot profesorii să folosească aceste fișe de lucru cu punctele de unit la clasă?",
+          "a": "Da! Materialele noastre imprimabile sunt gratuite pentru uz personal și în clasă. Sunt populare pentru temele de dimineață, activitățile pentru cei care termină devreme lecțiile, planurile de lecții alternative, centrele de motricitate fină și pachetele cu teme pentru acasă."
+        }
+      ]
     }
   },
-  {
-    "slug": "circus-tent-dot-to-dot-puzzle",
-    "name": "Cort de circ",
-    "tagline": "Intrați în Culisele unei Aventuri de Circ!",
-    "description": "Conectează 59 de puncte pentru a descoperi un cort de circ cu dungi vesel, pregătit pentru spectacol. Acest exercițiu tipărit ușor îi ajută pe copii să exerseze numărarea în ordine, urmărirea vizuală, concentrarea și controlul ferm al creionului.",
-    "funFact": "Cortul principal al unui circ este adesea numit \"big top\" deoarece este cel mai mare cort din spectacol.",
-    "dotGuide": {
-      "intro": "Cortul strălucitor de circ este locul unde acrobații, clovnii și alți artiști se adună sub un acoperiș imens. Acest prietenos puzzle cu 59 de puncte construiește marele cort în cinci etape gestionabile. Găsește punctul 1, ține creionul bine și pregătește-te pentru spectacol!",
-      "sections": [
-        {
-          "range": "1–12",
-          "title": "Steagul Zburător",
-          "learn": "Unește punctele de la 1 la 12 pentru a desena steagul și cel mai înalt punct al cortului.",
-          "fact": "Un steag în vârf ajută vizitatorii să identifice cortul circui de la distanță în parcul de distracții."
+  "puzzles": [
+    {
+      "slug": "circus-ringmaster-bear-dot-to-dot-puzzle",
+      "header": {
+        "title": "",
+        "meta_description": "",
+        "og": {
+          "title": "",
+          "description": "",
+          "image_alt": ""
         },
-        {
-          "range": "13–24",
-          "title": "Vârful Cortului Înalt",
-          "learn": "Continuați de la punctul 13 la punctul 24 pentru a contura acoperișul abrupt care se ridică spre stâlpul central.",
-          "fact": "Stâlpi înalți centrali susțin acoperișul unui cort de circ tradițional și creează forma sa ascuțită emblematică."
-        },
-        {
-          "range": "25–36",
-          "title": "Baldachinul Dungat",
-          "learn": "Urmează punctele de la 25 la 36 pe întreaga canopie, trasând linii atente pentru dungile sale decorative.",
-          "fact": "Dungiile îndrăznețe fac corturile de circ ușor de recunoscut și dau cortului principal un aspect festiv."
-        },
-        {
-          "range": "37–48",
-          "title": "Peretele Cortului",
-          "learn": "Trasează punctele de la 37 la 48 pe ambele părți pentru a forma pereții rezistenți ai cortului.",
-          "fact": "Frânghiile rezistente și țărușii ajută la menținerea corturilor mari stabile împotriva vântului."
-        },
-        {
-          "range": "49–59",
-          "title": "Marea Intrare",
-          "learn": "Finalizați cu punctele de la 49 la 59 pentru a adăuga intrarea deschisă unde publicul pășește înăuntru.",
-          "fact": "Intrările în circ sunt adesea decorate strălucitor pentru a întâmpina publicul și a crea entuziasm înaintea spectacolului."
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Ursul Maestru de Cercuri de Circ",
+          "description": "",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
         }
-      ],
-      "outro": "Bravo—cortul tău de circ este gata pentru prima reprezentație! Colorează acoperișul cu dungi îndrăznețe, adaugă lumini și fanioane, și desenează o mulțime de oameni sosind la spectacol. Încearcă apoi <a href=\"/playgrounds/carousel-horse-playground-dot-to-dot-puzzle/\">puzzle-ul cu calul de carusel</a>."
+      },
+      "body": {
+        "h1": "",
+        "name": "Ursul Maestru de Cercuri de Circ",
+        "tagline": "Întâlnește ursul care conduce marea spectacol!",
+        "description": "Conectează 74 de puncte pentru a descoperi un urs prietenos îmbrăcat în costum de maestru de ceremonii de circ. Acest exercițiu intermediar imprimabil ajută copiii să exerseze secvențierea numerelor, concentrarea, urmărirea vizuală și controlul precis al creionului.",
+        "fun_fact": "Un prezentator de circ introduce artiștii și ghidează publicul de la un număr la altul.",
+        "faqs": [
+          {
+            "q": "Pentru ce vârstă este puzzle-ul de unit puncte Ursul Maestru de Cercuri de Circ?",
+            "a": "Este conceput pentru vârsta Vârste 5-9. Cu 74 puncte, se potrivește copiilor care numără cu încredere până la 74; cei mai mici îl pot termina cu puțin ajutor."
+          },
+          {
+            "q": "Cum imprim fișa Ursul Maestru de Cercuri de Circ?",
+            "a": "Apasă butonul de descărcare pentru PDF-ul gratuit, apoi imprimă-l pe hârtie obișnuită (A4 sau US Letter) din orice browser sau cititor PDF. Nu este nevoie de software special."
+          },
+          {
+            "q": "Fișa imprimabilă Ursul Maestru de Cercuri de Circ este cu adevărat gratuită?",
+            "a": "Da — este 100% gratuită, fără înregistrare, cont sau plată. O poți imprima pentru acasă sau pentru clasă."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Cu un palton elegant, pălărie înaltă și o postură încrezătoare, acest urs prietenos este gata să-i primească pe toți la circ. Provocarea cu 74 de puncte este împărțită în cinci etape clare pentru copiii care se descurcă bine cu secvențe lungi de numere. Găsește punctul 1 și să înceapă spectacolul!",
+          "sections": [
+            {
+              "range": "1–15",
+              "title": "Pălaria Maestrului de Ceremonii",
+              "learn": "Unește punctele de la 1 la 15 pentru a desena pălăria înaltă și urechile rotunde ale ursului.",
+              "fact": "Maestrii de ceremonii poartă adesea costume formale care atrag privirea, astfel încât publicul să-i poată identifica cu ușurință în arenă."
+            },
+            {
+              "range": "16–30",
+              "title": "Fața Ursului",
+              "learn": "Continuați de la punctul 16 la punctul 30 pentru a contura capul, botul și expresia veselă a ursului.",
+              "fact": "Simțul olfactiv al unui urs este extrem de puternic și îl ajută să găsească hrană pe distanțe lungi."
+            },
+            {
+              "range": "31–45",
+              "title": "Geaca Smart",
+              "learn": "Urmează punctele de la 31 la 45 pentru a forma jacheta și reverele decorate ale maestrului de ceremonii.",
+              "fact": "Jachete strălucitoare, nasturi lucioși și garnituri decorative ajută la a face costumul de maestru de ceremonii să pară teatral."
+            },
+            {
+              "range": "46–60",
+              "title": "Poziția Brațelor și Posturii",
+              "learn": "Trasează punctele de la 46 la 60 pentru a adăuga brațele ursului și poziția sa primitoare de performanță.",
+              "fact": "Ringmasterii folosesc gesturi clare și o voce puternică pentru a direcționa atenția publicului către următorul număr."
+            },
+            {
+              "range": "61–74",
+              "title": "Ghetele și Finisajul",
+              "learn": "Finalizați cu punctele de la 61 la 74 pentru a desena picioarele, cizmele și detaliile finale ale costumului.",
+              "fact": "Arena de circ este în mod tradițional circulară, astfel încât spectatorii din jur să poată vedea spectacolul din multiple unghiuri."
+            }
+          ],
+          "outro": "Lucrare fantastică—ursul ringmaster este gata să anunțe spectacolul! Colorați costumul în tonuri îndrăznețe de roșu și auriu, apoi adăugați reflectoare și un public entuziasmat. Completați scena cu <a href=\"/circus/circus-tent-dot-to-dot-puzzle/\">puzzle-ul cortului de circ</a>.",
+          "color_schemes": []
+        }
+      }
+    },
+    {
+      "slug": "circus-tent-dot-to-dot-puzzle",
+      "header": {
+        "title": "",
+        "meta_description": "",
+        "og": {
+          "title": "",
+          "description": "",
+          "image_alt": ""
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Cort de circ",
+          "description": "",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
+      },
+      "body": {
+        "h1": "",
+        "name": "Cort de circ",
+        "tagline": "Intrați în Culisele unei Aventuri de Circ!",
+        "description": "Conectează 59 de puncte pentru a descoperi un cort de circ cu dungi vesel, pregătit pentru spectacol. Acest exercițiu tipărit ușor îi ajută pe copii să exerseze numărarea în ordine, urmărirea vizuală, concentrarea și controlul ferm al creionului.",
+        "fun_fact": "Cortul principal al unui circ este adesea numit \"big top\" deoarece este cel mai mare cort din spectacol.",
+        "faqs": [
+          {
+            "q": "Pentru ce vârstă este puzzle-ul de unit puncte Cort de circ?",
+            "a": "Este conceput pentru vârsta Vârste 4-8. Cu 59 puncte, se potrivește copiilor care numără cu încredere până la 59; cei mai mici îl pot termina cu puțin ajutor."
+          },
+          {
+            "q": "Cum imprim fișa Cort de circ?",
+            "a": "Apasă butonul de descărcare pentru PDF-ul gratuit, apoi imprimă-l pe hârtie obișnuită (A4 sau US Letter) din orice browser sau cititor PDF. Nu este nevoie de software special."
+          },
+          {
+            "q": "Fișa imprimabilă Cort de circ este cu adevărat gratuită?",
+            "a": "Da — este 100% gratuită, fără înregistrare, cont sau plată. O poți imprima pentru acasă sau pentru clasă."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Cortul strălucitor de circ este locul unde acrobații, clovnii și alți artiști se adună sub un acoperiș imens. Acest prietenos puzzle cu 59 de puncte construiește marele cort în cinci etape gestionabile. Găsește punctul 1, ține creionul bine și pregătește-te pentru spectacol!",
+          "sections": [
+            {
+              "range": "1–12",
+              "title": "Steagul Zburător",
+              "learn": "Unește punctele de la 1 la 12 pentru a desena steagul și cel mai înalt punct al cortului.",
+              "fact": "Un steag în vârf ajută vizitatorii să identifice cortul circui de la distanță în parcul de distracții."
+            },
+            {
+              "range": "13–24",
+              "title": "Vârful Cortului Înalt",
+              "learn": "Continuați de la punctul 13 la punctul 24 pentru a contura acoperișul abrupt care se ridică spre stâlpul central.",
+              "fact": "Stâlpi înalți centrali susțin acoperișul unui cort de circ tradițional și creează forma sa ascuțită emblematică."
+            },
+            {
+              "range": "25–36",
+              "title": "Baldachinul Dungat",
+              "learn": "Urmează punctele de la 25 la 36 pe întreaga canopie, trasând linii atente pentru dungile sale decorative.",
+              "fact": "Dungiile îndrăznețe fac corturile de circ ușor de recunoscut și dau cortului principal un aspect festiv."
+            },
+            {
+              "range": "37–48",
+              "title": "Peretele Cortului",
+              "learn": "Trasează punctele de la 37 la 48 pe ambele părți pentru a forma pereții rezistenți ai cortului.",
+              "fact": "Frânghiile rezistente și țărușii ajută la menținerea corturilor mari stabile împotriva vântului."
+            },
+            {
+              "range": "49–59",
+              "title": "Marea Intrare",
+              "learn": "Finalizați cu punctele de la 49 la 59 pentru a adăuga intrarea deschisă unde publicul pășește înăuntru.",
+              "fact": "Intrările în circ sunt adesea decorate strălucitor pentru a întâmpina publicul și a crea entuziasm înaintea spectacolului."
+            }
+          ],
+          "outro": "Bravo—cortul tău de circ este gata pentru prima reprezentație! Colorează acoperișul cu dungi îndrăznețe, adaugă lumini și fanioane, și desenează o mulțime de oameni sosind la spectacol. Încearcă apoi <a href=\"/playgrounds/carousel-horse-playground-dot-to-dot-puzzle/\">puzzle-ul cu calul de carusel</a>.",
+          "color_schemes": []
+        }
+      }
     }
-  }
-]
+  ]
+}

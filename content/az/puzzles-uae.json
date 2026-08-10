@@ -1,322 +1,500 @@
-[
-  {
-    "slug": "burj-al-arab-dot-to-dot-puzzle",
+{
+  "collection": {
     "header": {
-      "title": "Burj Al Arab Nöqtədən Nöqtəyə — Dubayın İkonası 66 Nöqtədə",
-      "meta_description": "Dubayın yelkən şəklindəki Burj Al Arab öz adasından yüksəlir. Bu 6-10 yaş arası uşaqlar üçün pulsuz çap edilə bilən PDF-də 66 nöqtə ilə bu əlamətdar yeri izləyin.",
+      "title": "UAE Dot to Dot Printables for Kids — Free PDF Worksheets",
+      "meta_description": "Free UAE-themed dot to dot printables for kids ages 5-10: Burj Khalifa, Burj Al Arab, the national falcon, a traditional dallah coffee pot, and a desert camel. Print-ready PDF worksheets — no sign-up needed.",
       "og": {
+        "title": "5 Free UAE Dot to Dot Printables",
+        "description": "Burj Khalifa, Burj Al Arab, falcon, camel, and dallah — free dot to dot printables to print today.",
+        "image": "/images/burj-al-arab-puzzle.webp"
+      },
+      "json_ld": {
+        "type": "CollectionPage",
+        "name": "BƏƏ",
+        "description": "Birləşmiş Ərəb Əmirliklərini kəşf edin! Burj Al Arab və digər simvolik Əmirliyin görməli yerlərini aşkar etmək üçün nöqtələri birləşdirin. Bütün iş vərəqlərini yükləmək və çap etmək pulsuzdur – hesaba ehtiyac yoxdur.",
+        "image": "/images/burj-al-arab-puzzle.webp",
+        "main_entity": {
+          "type": "ItemList",
+          "item_source": "puzzles"
+        }
+      },
+      "breadcrumb_json_ld": {
+        "type": "BreadcrumbList",
+        "items": [
+          {
+            "position": 1,
+            "name": "Home",
+            "path": "/"
+          },
+          {
+            "position": 2,
+            "name": "BƏƏ",
+            "path": "/uae/"
+          }
+        ]
+      }
+    },
+    "body": {
+      "h1": "BƏƏ Uşaqlar üçün Nöqtədən Nöqtəyə Çap Edilə bilənlər",
+      "name": "BƏƏ",
+      "tagline": "Uşaqlar BƏƏ-nin nöqtə-nöqtə bulmacalarını niyə sevirlər?",
+      "description": "Birləşmiş Ərəb Əmirliklərini kəşf edin! Burj Al Arab və digər simvolik Əmirliyin görməli yerlərini aşkar etmək üçün nöqtələri birləşdirin. Bütün iş vərəqlərini yükləmək və çap etmək pulsuzdur – hesaba ehtiyac yoxdur.",
+      "hero_image": "/images/burj-al-arab-puzzle.webp",
+      "slug": "uae",
+      "faqs": [
+        {
+          "q": "BƏƏ-nin neçə pulsuz görməli yeri və mədəniyyəti haqqında nöqtə-nöqtə çap edilə bilən kitabı var?",
+          "a": "BƏƏ-nin Əsərləri və Mədəniyyəti kateqoriyası hazırda 60-105 nöqtə arasında dəyişən 5 pulsuz \"nöqtələri birləşdir\" çap materialı təklif edir. Hər bir iş vərəqi qeydiyyatdan keçmədən çapa hazır PDF (hərf və ya A4, portret və ya mənzərə) kimi dərhal yüklənir."
+        },
+        {
+          "q": "BƏƏ-nin görməli yerləri və mədəniyyəti haqqında nöqtə-nöqtə tapmacaları çap etmək pulsuzdurmu?",
+          "a": "Bəli — BƏƏ-nin Əsərlər və Mədəniyyət kolleksiyasındakı 5 tapmacanın hamısı evdə və sinifdə istifadə üçün tamamilə pulsuzdur. DotToDotFreePrintables.com saytında heç bir hesab, e-poçt və ya ödəniş tələb olunmur."
+        },
+        {
+          "q": "BƏƏ-nin görməli yerləri və mədəniyyət tapmacaları hansı əsrlərə aiddir?",
+          "a": "Nöqtə sayı 60-105 arasında olan BƏƏ Əsərləri və Mədəniyyəti kolleksiyası təxminən 4-12 yaş arası uşaqları əhatə edir. Məktəbəqədər və uşaq bağçası üçün daha aşağı nöqtə sayını, 2-6-cı siniflərdə isə özünəinamlı sayanlar üçün daha yüksək sayını seçin."
+        },
+        {
+          "q": "BƏƏ mövzusunda hansı nöqtə-nöqtə tapmacaları mövcuddur?",
+          "a": "BƏƏ-nin beş pulsuz çap edilə bilən əsəri: Burj Khalifa (60 nöqtə), Burj Al Arab (66 nöqtə), BƏƏ Şahini (60 nöqtə), Dallah Coffee Pot (63 nöqtə) və BƏƏ Dəvəsi (105 nöqtə) — saytın tam ərəb versiyası ilə birlikdə Əmirliklərin görməli yerlərini və irsini qeyd edir."
+        },
+        {
+          "q": "Bu BƏƏ tapmacaları BƏƏ Milli Günü fəaliyyətləri üçün yaxşıdırmı?",
+          "a": "Bəli. Əmirliklərdə müəllimlər və valideynlər bu çap materiallarından BƏƏ Milli Günü, İrs həftələri və sosial tədqiqatlar bölmələri üçün istifadə edirlər. Hər səhifədə uşaqların çəkdiyi abidə və ya simvol haqqında mədəni faktlar yer alır."
+        }
+      ]
+    }
+  },
+  "puzzles": [
+    {
+      "slug": "burj-al-arab-dot-to-dot-puzzle",
+      "header": {
         "title": "Burj Al Arab Nöqtədən Nöqtəyə — Dubayın İkonası 66 Nöqtədə",
-        "description": "Dubayın yelkən şəklindəki Burj Al Arab öz adasından yüksəlir. Bu 6-10 yaş arası uşaqlar üçün pulsuz çap edilə bilən PDF-də 66 nöqtə ilə bu əlamətdar yeri izləyin.",
-        "image_alt": "66 nöqtədən yüksələn yelkən şəklindəki Burj Al Arab oteli əlamətdar bir bulmacanın səhifəsində"
+        "meta_description": "Dubayın yelkən şəklindəki Burj Al Arab öz adasından yüksəlir. Bu 6-10 yaş arası uşaqlar üçün pulsuz çap edilə bilən PDF-də 66 nöqtə ilə bu əlamətdar yeri izləyin.",
+        "og": {
+          "title": "Burj Al Arab Nöqtədən Nöqtəyə — Dubayın İkonası 66 Nöqtədə",
+          "description": "Dubayın yelkən şəklindəki Burj Al Arab öz adasından yüksəlir. Bu 6-10 yaş arası uşaqlar üçün pulsuz çap edilə bilən PDF-də 66 nöqtə ilə bu əlamətdar yeri izləyin.",
+          "image_alt": "66 nöqtədən yüksələn yelkən şəklindəki Burj Al Arab oteli əlamətdar bir bulmacanın səhifəsində"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Burj Əl Ərəb",
+          "description": "Dubayın yelkən şəklindəki Burj Al Arab öz adasından yüksəlir. Bu 6-10 yaş arası uşaqlar üçün pulsuz çap edilə bilən PDF-də 66 nöqtə ilə bu əlamətdar yeri izləyin.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
       },
-      "json_ld": {
-        "type": "CreativeWork",
+      "body": {
+        "h1": "Burj Al Arab Nöqtədən Nöqtəyə — Dubayın İkonası 66 Nöqtədə",
         "name": "Burj Əl Ərəb",
-        "description": "Dubayın yelkən şəklindəki Burj Al Arab öz adasından yüksəlir. Bu 6-10 yaş arası uşaqlar üçün pulsuz çap edilə bilən PDF-də 66 nöqtə ilə bu əlamətdar yeri izləyin.",
-        "image": "",
-        "educational_use": "Fine motor skills, number sequencing",
-        "age_range": ""
-      }
-    },
-    "body": {
-      "h1": "Burj Al Arab Nöqtədən Nöqtəyə — Dubayın İkonası 66 Nöqtədə",
-      "name": "Burj Əl Ərəb",
-      "tagline": "Dubayın Yelkən Formalı İkonu",
-      "description": "Dubay sahillərində öz adasından yüksələn yelkən şəkilli əlamətdar otel olan Burj Əl Ərəbi üzə çıxarmaq üçün 66 nöqtəni birləşdirin. Bu asan tapmaca dünyanın ən məşhur səma xətlərindən birini kəşf edərkən nömrə ardıcıllığı ilə məşğul olan gənc öyrənənlər üçün mükəmməldir.",
-      "fun_fact": "Burj Al Arab süni adada yerləşir və dünyanın ən hündür otellərindən biridir!",
-      "dot_guide": {
-        "intro": "Burj Al Arab dünyanın ən tanınan tikililərindən biridir - Ərəb körfəzindəki öz süni adasından yüksələn parıldayan, yelkən formalı qüllə. Ənənəvi dhow qayığının dalğalanan yelkəninə bənzəmək üçün tikilmiş o, müasir Dubay və Birləşmiş Ərəb Əmirliklərinin simvoluna çevrilmişdir. Bu 66 nöqtəli tapmaca onun dramatik əyri siluetini izləyir. 1-ci nöqtəni tapın və gəlin birlikdə bu məşhur səma xəttini quraq!",
-        "sections": [
+        "tagline": "Dubayın Yelkən Formalı İkonu",
+        "description": "Dubay sahillərində öz adasından yüksələn yelkən şəkilli əlamətdar otel olan Burj Əl Ərəbi üzə çıxarmaq üçün 66 nöqtəni birləşdirin. Bu asan tapmaca dünyanın ən məşhur səma xətlərindən birini kəşf edərkən nömrə ardıcıllığı ilə məşğul olan gənc öyrənənlər üçün mükəmməldir.",
+        "fun_fact": "Burj Al Arab süni adada yerləşir və dünyanın ən hündür otellərindən biridir!",
+        "faqs": [
           {
-            "range": "1–13",
-            "title": "Mast və Tip",
-            "learn": "1-ci nöqtədən başlayın və binanın ən yuxarı hissəsindəki hündür, əyri dirəyi izləmək üçün 13-cü nöqtəyə qoşulun. Bu dar bölmə başlanğıcdan sabit karandaş nəzarəti yaradır - aşağıda daha geniş formalardan əvvəl əla istiləşmə. Uşaqları həqiqi yelkən kimi xətlərini hamar və bir qədər əyri saxlamağa təşviq edin.",
-            "fact": "Burj Al Arab, təxminən 321 metr (1,053 fut) hündürlüyünə malikdir və onu dünyanın ən hündür otel binalarından birinə çevirir. Yuxarıdakı fərqli dirəyin hətta dənizin hündürlüyündə tennis matçlarına və qolf nümayişlərinə ev sahibliyi edən helikopter meydançası var! <a href=\"https://en.wikipedia.org/wiki/Burj_Al_Arab\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Wikipedia-nın Burj Al Arab entry</a> haqqında daha çox oxuyun."
+            "q": "Burj Al Arab nöqtə-nöqtə tapmacasında neçə nöqtə var?",
+            "a": "Çap edilə bilən Burj Al Arab nöqtələrini birləşdirən tapmacada 66 nömrəli nöqtə var. Bu, onu asan və orta səviyyəli bir tapmaca halına gətirir və 5-8 yaş arası uşaqlar (uşaq bağçasından 2-ci sinfə qədər) üçün ən uyğundur. Uşaqlar bitmiş Burj Al Arab rəsmini göstərmək üçün nöqtələri rəqəm ardıcıllığı ilə birləşdirir və sonra rəngləyirlər."
           },
           {
-            "range": "14–26",
-            "title": "Əyri yelkən",
-            "learn": "Binanın məşhur əyri ön hissəsini - küləklə dolu yelkənə bənzəyən hissəni süpürmək üçün 14-cü nöqtədən 26-cı nöqtəyə qədər davam edin. Uşaqlar burada uzun, zərif bir xarici əyri məşq edirlər, bu, bütün tapmacanın ən qənaətbəxş formalarından biridir. Yavaş, sabit bir əl ən yaxşı süpürmə xəttini verir.",
-            "fact": "Bina Sidney Opera Evi və ya Eyfel qülləsi kimi simvolik bir quruluş yaratmaq istəyən memar Tom Wright tərəfindən hazırlanmışdır. Yelkən forması əsrlər boyu Körfəzdə üzən ənənəvi ərəb yelkənli gəmilərindən ilhamlanıb."
+            "q": "Burj Al Arab nöqtə-nöqtə çapı pulsuzdurmu?",
+            "a": "Bəli. Burj Al Arab iş vərəqini DotToDotFreePrintables.com saytından 100% pulsuz yükləmək mümkündür — hesab, e-poçt və ya ödəniş tələb olunmur. O, həm portret, həm də landşaft oriyentasiyasında, ABŞ məktubu və ya A4 kağızı üçün ölçüdə çapa hazır PDF formatında dərhal yüklənir."
           },
           {
-            "range": "27–39",
-            "title": "Arxa dəstək çərçivəsi",
-            "learn": "Binanı arxadan bağlayan hündür şaquli dayaq strukturunu çəkmək üçün 27-dən 39-a qədər nöqtələri çəkin. Bu bölmə uşaqlara eyni tapmacada əyri və düz vuruşlar arasında hərəkət etməyi öyrətməklə incə bucaqlarla qarışdırılmış daha düz xətləri təqdim edir.",
-            "fact": "Burj Al Arab əslində Dubaydakı ən hündür bina deyil - bu titul iki dəfə hündür olan Burj Xəlifə məxsusdur! Lakin Burj Əl Ərəb özünəməxsus forması sayəsində dünyada ən çox fotoşəkil çəkilən binalardan biri olaraq qalır."
+            "q": "Burj Al Arab nöqtələri birləşdirən iş vərəqi hansı yaş üçün ən uyğundur?",
+            "a": "66 nöqtədən ibarət Burj Al Arab tapmacası 5-8 yaş arası uşaqlar (uşaq bağçasından 2-ci sinfə qədər) üçün ən yaxşı şəkildə işləyir. Kiçik uşaqlar böyüklərin köməyi ilə saymaqdan zövq ala bilərlər, özünəinamlı sayanlar isə bunu müstəqil şəkildə yerinə yetirə və 66-ya qədər ədəd ardıcıllığını məşq edə bilərlər."
           },
           {
-            "range": "40–52",
-            "title": "Əsas Qüllə Gövdəsi",
-            "learn": "Otel qülləsinin geniş əsas hissəsini doldurmaq üçün 40-dan 52-yə qədər nöqtələri birləşdirin. Bu, tapmacanın ən böyük hissəsidir, uşaqlara diqqəti cəmləməyə və səbr etməyə kömək edir, çünki tanınan siluet həqiqətən formalaşmağa başlayır.",
-            "fact": "İçəridə Burj Əl Ərəb nəhəng atriumu ilə məşhurdur - dünyanın ən hündür atriumlarından biri olan 590 fut hündürlüyündə açıq yerə sığacaq qədər hündürdür. İçəridəki lobbi fəvvarələri musiqi ilə vaxtında rəqs etmək üçün xoreoqrafiyaya malikdir."
+            "q": "Burj Al Arab nöqtə-nöqtə tapmacası hansı bacarıqları öyrədir?",
+            "a": "Burj Al Arab tapmacasının 66 nöqtəsini birləşdirmək rəqəm tanıma və 66-ya qədər sayma, qələm nəzarəti, əl-göz koordinasiyası və davamlı fokuslanmanı inkişaf etdirir — erkən əl yazısını dəstəkləyən eyni incə motorika təməlləri. Hazır şəkli rəngləmək yaradıcı mükafat əlavə edir."
           },
           {
-            "range": "53–66",
-            "title": "Ada bazası",
-            "learn": "Binanın əsasını və üzərində dayandığı süni adanı çəkmək üçün 53-dən 66-a qədər nöqtələri birləşdirərək tapmacanı tamamlayın. Finiş xəttinə cəmi on dörd nöqtə - uşaqları inamlı, əsaslandırılmış son xətlər dəsti ilə konturları tamamlamağa təşviq edin.",
-            "fact": "Otel öz şəxsi adasında yerləşir və materikə əyri körpü ilə bağlıdır. Mühəndislər qüllənin tikintisinə başlamazdan əvvəl qum və qayadan istifadə edərək adanı tikməli idilər - bütün layihə uzun illər diqqətlə planlaşdırıldı."
+            "q": "Burj əl-Ərəb haqqında maraqlı bir fakt nədir?",
+            "a": "Burj Al Arab süni adada yerləşir və dünyanın ən hündür otellərindən biridir! Uşaqlar Burj Al Arab nöqtə-nöqtə tapmacasını həll edərkən bu kimi faktları kəşf edirlər."
           }
         ],
-        "outro": "Möhtəşəm - sizin Burj Al Arab tamamlandı! İndi real otelin dramatik işıqlandırma şoularına uyğunlaşmaq üçün ona parıldayan qızılı, mavi və ya qürub rəng sxemi verin. Başqa bir məşhur əlamətdar yerə hazırsınız? Dünyanı kəşf etməyə davam etmək üçün daha çox <a href=\"/\">sərbəst nöqtədən nöqtəyə çap edilə bilənlərə</a> baxın.",
-        "color_schemes": []
+        "dot_guide": {
+          "intro": "Burj Al Arab dünyanın ən tanınan tikililərindən biridir - Ərəb körfəzindəki öz süni adasından yüksələn parıldayan, yelkən formalı qüllə. Ənənəvi dhow qayığının dalğalanan yelkəninə bənzəmək üçün tikilmiş o, müasir Dubay və Birləşmiş Ərəb Əmirliklərinin simvoluna çevrilmişdir. Bu 66 nöqtəli tapmaca onun dramatik əyri siluetini izləyir. 1-ci nöqtəni tapın və gəlin birlikdə bu məşhur səma xəttini quraq!",
+          "sections": [
+            {
+              "range": "1–13",
+              "title": "Mast və Tip",
+              "learn": "1-ci nöqtədən başlayın və binanın ən yuxarı hissəsindəki hündür, əyri dirəyi izləmək üçün 13-cü nöqtəyə qoşulun. Bu dar bölmə başlanğıcdan sabit karandaş nəzarəti yaradır - aşağıda daha geniş formalardan əvvəl əla istiləşmə. Uşaqları həqiqi yelkən kimi xətlərini hamar və bir qədər əyri saxlamağa təşviq edin.",
+              "fact": "Burj Al Arab, təxminən 321 metr (1,053 fut) hündürlüyünə malikdir və onu dünyanın ən hündür otel binalarından birinə çevirir. Yuxarıdakı fərqli dirəyin hətta dənizin hündürlüyündə tennis matçlarına və qolf nümayişlərinə ev sahibliyi edən helikopter meydançası var! <a href=\"https://en.wikipedia.org/wiki/Burj_Al_Arab\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Wikipedia-nın Burj Al Arab entry</a> haqqında daha çox oxuyun."
+            },
+            {
+              "range": "14–26",
+              "title": "Əyri yelkən",
+              "learn": "Binanın məşhur əyri ön hissəsini - küləklə dolu yelkənə bənzəyən hissəni süpürmək üçün 14-cü nöqtədən 26-cı nöqtəyə qədər davam edin. Uşaqlar burada uzun, zərif bir xarici əyri məşq edirlər, bu, bütün tapmacanın ən qənaətbəxş formalarından biridir. Yavaş, sabit bir əl ən yaxşı süpürmə xəttini verir.",
+              "fact": "Bina Sidney Opera Evi və ya Eyfel qülləsi kimi simvolik bir quruluş yaratmaq istəyən memar Tom Wright tərəfindən hazırlanmışdır. Yelkən forması əsrlər boyu Körfəzdə üzən ənənəvi ərəb yelkənli gəmilərindən ilhamlanıb."
+            },
+            {
+              "range": "27–39",
+              "title": "Arxa dəstək çərçivəsi",
+              "learn": "Binanı arxadan bağlayan hündür şaquli dayaq strukturunu çəkmək üçün 27-dən 39-a qədər nöqtələri çəkin. Bu bölmə uşaqlara eyni tapmacada əyri və düz vuruşlar arasında hərəkət etməyi öyrətməklə incə bucaqlarla qarışdırılmış daha düz xətləri təqdim edir.",
+              "fact": "Burj Al Arab əslində Dubaydakı ən hündür bina deyil - bu titul iki dəfə hündür olan Burj Xəlifə məxsusdur! Lakin Burj Əl Ərəb özünəməxsus forması sayəsində dünyada ən çox fotoşəkil çəkilən binalardan biri olaraq qalır."
+            },
+            {
+              "range": "40–52",
+              "title": "Əsas Qüllə Gövdəsi",
+              "learn": "Otel qülləsinin geniş əsas hissəsini doldurmaq üçün 40-dan 52-yə qədər nöqtələri birləşdirin. Bu, tapmacanın ən böyük hissəsidir, uşaqlara diqqəti cəmləməyə və səbr etməyə kömək edir, çünki tanınan siluet həqiqətən formalaşmağa başlayır.",
+              "fact": "İçəridə Burj Əl Ərəb nəhəng atriumu ilə məşhurdur - dünyanın ən hündür atriumlarından biri olan 590 fut hündürlüyündə açıq yerə sığacaq qədər hündürdür. İçəridəki lobbi fəvvarələri musiqi ilə vaxtında rəqs etmək üçün xoreoqrafiyaya malikdir."
+            },
+            {
+              "range": "53–66",
+              "title": "Ada bazası",
+              "learn": "Binanın əsasını və üzərində dayandığı süni adanı çəkmək üçün 53-dən 66-a qədər nöqtələri birləşdirərək tapmacanı tamamlayın. Finiş xəttinə cəmi on dörd nöqtə - uşaqları inamlı, əsaslandırılmış son xətlər dəsti ilə konturları tamamlamağa təşviq edin.",
+              "fact": "Otel öz şəxsi adasında yerləşir və materikə əyri körpü ilə bağlıdır. Mühəndislər qüllənin tikintisinə başlamazdan əvvəl qum və qayadan istifadə edərək adanı tikməli idilər - bütün layihə uzun illər diqqətlə planlaşdırıldı."
+            }
+          ],
+          "outro": "Möhtəşəm - sizin Burj Al Arab tamamlandı! İndi real otelin dramatik işıqlandırma şoularına uyğunlaşmaq üçün ona parıldayan qızılı, mavi və ya qürub rəng sxemi verin. Başqa bir məşhur əlamətdar yerə hazırsınız? Dünyanı kəşf etməyə davam etmək üçün daha çox <a href=\"/\">sərbəst nöqtədən nöqtəyə çap edilə bilənlərə</a> baxın.",
+          "color_schemes": []
+        }
       }
-    }
-  },
-  {
-    "slug": "burj-khalifa-dot-to-dot-puzzle",
-    "header": {
-      "title": "Burj Khalifa Nöqtədən Nöqtəyə: Dünyanın Ən Yüksək Binası, 60 Nöqtə",
-      "meta_description": "Dünyanın ən yüksək binasına bir xəttlə dırmaşın. Bu 60 nöqtəlik Burj Khalifa çap edilə bilən PDF, 5-9 yaş arası uşaqlara Dubayın coğrafiyasını təqdim edir.",
-      "og": {
+    },
+    {
+      "slug": "burj-khalifa-dot-to-dot-puzzle",
+      "header": {
         "title": "Burj Khalifa Nöqtədən Nöqtəyə: Dünyanın Ən Yüksək Binası, 60 Nöqtə",
-        "description": "Dünyanın ən yüksək binasına bir xəttlə dırmaşın. Bu 60 nöqtəlik Burj Khalifa çap edilə bilən PDF, 5-9 yaş arası uşaqlara Dubayın coğrafiyasını təqdim edir.",
-        "image_alt": "Rekord qıran Burj Khalifa qülləsi 60 çap edilə bilən nöqtə ilə yığılmışdır"
+        "meta_description": "Dünyanın ən yüksək binasına bir xəttlə dırmaşın. Bu 60 nöqtəlik Burj Khalifa çap edilə bilən PDF, 5-9 yaş arası uşaqlara Dubayın coğrafiyasını təqdim edir.",
+        "og": {
+          "title": "Burj Khalifa Nöqtədən Nöqtəyə: Dünyanın Ən Yüksək Binası, 60 Nöqtə",
+          "description": "Dünyanın ən yüksək binasına bir xəttlə dırmaşın. Bu 60 nöqtəlik Burj Khalifa çap edilə bilən PDF, 5-9 yaş arası uşaqlara Dubayın coğrafiyasını təqdim edir.",
+          "image_alt": "Rekord qıran Burj Khalifa qülləsi 60 çap edilə bilən nöqtə ilə yığılmışdır"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Burj Xəlifə",
+          "description": "Dünyanın ən yüksək binasına bir xəttlə dırmaşın. Bu 60 nöqtəlik Burj Khalifa çap edilə bilən PDF, 5-9 yaş arası uşaqlara Dubayın coğrafiyasını təqdim edir.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
       },
-      "json_ld": {
-        "type": "CreativeWork",
+      "body": {
+        "h1": "Burj Khalifa Nöqtədən Nöqtəyə: Dünyanın Ən Yüksək Binası, 60 Nöqtə",
         "name": "Burj Xəlifə",
-        "description": "Dünyanın ən yüksək binasına bir xəttlə dırmaşın. Bu 60 nöqtəlik Burj Khalifa çap edilə bilən PDF, 5-9 yaş arası uşaqlara Dubayın coğrafiyasını təqdim edir.",
-        "image": "",
-        "educational_use": "Fine motor skills, number sequencing",
-        "age_range": ""
-      }
-    },
-    "body": {
-      "h1": "Burj Khalifa Nöqtədən Nöqtəyə: Dünyanın Ən Yüksək Binası, 60 Nöqtə",
-      "name": "Burj Xəlifə",
-      "tagline": "Dünyanın ən hündür qülləsi",
-      "description": "Dubay şəhəri üzərində uçan rekord qıran göydələn Burj Xəlifəni üzə çıxarmaq üçün 60 nöqtəni birləşdirin. Bu asan tapmaca yer üzündəki ən hündür binanı kəşf edərkən nömrə ardıcıllığı ilə məşğul olan gənc öyrənənlər üçün mükəmməldir.",
-      "fun_fact": "Burj Xəlifə 828 metrdən (2,717 fut) yüksək olan dünyanın ən hündür binasıdır!",
-      "dot_guide": {
-        "intro": "Burj Khalifa indiyə qədər insan əli ilə tikilmiş ən hündür binadır - Dubayın üstündəki səmanı deşən iynə kimi qüllə. Onun pilləli, spiral dizaynı Hymenocallis adlı səhra çiçəyindən ilhamlanıb və o, 2010-cu ildə açılandan bəri dünyanın ən hündür binası adını daşıyır. Bu 60 nöqtəli tapmaca onun uçan siluetini bazadan şpilə qədər izləyir. 1-ci nöqtəni tapın və gəlin səmaya çataq!",
-        "sections": [
+        "tagline": "Dünyanın ən hündür qülləsi",
+        "description": "Dubay şəhəri üzərində uçan rekord qıran göydələn Burj Xəlifəni üzə çıxarmaq üçün 60 nöqtəni birləşdirin. Bu asan tapmaca yer üzündəki ən hündür binanı kəşf edərkən nömrə ardıcıllığı ilə məşğul olan gənc öyrənənlər üçün mükəmməldir.",
+        "fun_fact": "Burj Xəlifə 828 metrdən (2,717 fut) yüksək olan dünyanın ən hündür binasıdır!",
+        "faqs": [
           {
-            "range": "1–12",
-            "title": "Spire",
-            "learn": "1-ci nöqtədən başlayın və qüllənin ən yuxarı hissəsindəki nazik, uclu şpilin izinə düşmək üçün 12-ci nöqtəyə qoşulun. Bu dar hissə əvvəldən diqqətli, idarə olunan karandaş vuruşlarını qurur - aşağıda daha geniş formalardan əvvəl əla istiləşmə. Uşaqları yavaş-yavaş çəkməyə və xətləri düz və hündür saxlamağa təşviq edin.",
-            "fact": "Təkcə hündürlüyü təqribən 244 metr (800 fut) - digər şəhərlərdəki bəzi göydələnlər qədər hündürdür! O, telekommunikasiya antenası ehtiva edir və Burj Khalifanın bu qədər yüksəklik rekordlarına sahib olmasının səbəblərindən biridir. <a href=\"https://en.wikipedia.org/wiki/Burj_Khalifa\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Wikipedia-nın Burj Khalifa entry</a>-də tam hündürlük qeydlərinə baxın."
+            "q": "Burj Khalifa nöqtə-nöqtə tapmacasında neçə nöqtə var?",
+            "a": "Çap edilə bilən Burj Xəlifə göydələnində 60 nömrəli nöqtə var. Bu, onu orta səviyyədən asan həll olunan bir tapmaca halına gətirir və 5-8 yaş arası uşaqlar (uşaq bağçasından 2-ci sinfə qədər) üçün ən uyğundur. Uşaqlar bitmiş Burj Xəlifə rəsmini göstərmək üçün nöqtələri rəqəm ardıcıllığı ilə birləşdirir və sonra rəngləyirlər."
           },
           {
-            "range": "13–24",
-            "title": "Yuxarı pillələr",
-            "learn": "Qüllənin yuxarı hissəsinə yaxın daralmış, pilləli hissələr çəkmək üçün 13-cü nöqtədən 24-cü nöqtəyə qədər davam edin. Uşaqlar yüksəldikcə tədricən kiçikləşən bir forma çəkməyə məşq edirlər, bu, perspektiv və binaların səmaya doğru daralması haqqında danışmaq üçün gözəl bir yoldur.",
-            "fact": "Binanın 163 mərtəbəsi var ki, bu da tikintisi başa çatdığı zaman dünyanın hər hansı digər binasından çoxdur. O, həmçinin 148-ci mərtəbədə dünyanın ən hündür müşahidə göyərtəsinə malikdir, \"At the Top\"."
+            "q": "Burj Khalifa nöqtə-nöqtə çapı pulsuzdurmu?",
+            "a": "Bəli. Burj Khalifa iş vərəqini DotToDotFreePrintables.com saytından 100% pulsuz yükləmək mümkündür — hesab, e-poçt və ya ödəniş tələb olunmur. O, həm portret, həm də landşaft oriyentasiyasında, ABŞ məktubu və ya A4 kağızı üçün ölçüdə çapa hazır PDF formatında dərhal yüklənir."
           },
           {
-            "range": "25–36",
-            "title": "Orta spiral",
-            "learn": "Qüllənin spiralvari, səviyyəli naxışının ən asan görüldüyü orta hissəni çəkmək üçün 25-dən 36-a qədər nöqtələri çəkin. Bu bölmə diqqətli diqqəti mükafatlandırır, çünki uğursuzluqlar və bucaqlar istiqaməti bir neçə dəfə dəyişir və uşaqlara daha mürəkkəb konturdan sonra əla təcrübə verir.",
-            "fact": "Burj Khalifanın dizaynı mərkəzdən kənara doğru spiral şəklində uzanan uzun, nazik ləçəkləri olan səhra çiçəyi Hymenocallisdən ilhamlanıb. Memarlar binanın güclü səhra küləklərinə tab gətirmək üçün bu təbii formadan istifadə ediblər."
+            "q": "Burj Khalifa nöqtələri birləşdirən iş vərəqi hansı yaş üçün ən uyğundur?",
+            "a": "60 nöqtədən ibarət Burj Khalifa tapmacası 5-8 yaş arası (uşaq bağçasından 2-ci sinfə qədər) uşaqlar üçün ən yaxşı şəkildə uyğun gəlir. Kiçik uşaqlar böyüklərin köməyi ilə saymaqdan həzz ala bilərlər, özünəinamlı sayanlar isə bunu müstəqil şəkildə yerinə yetirə və 60-a qədər ədəd ardıcıllığını məşq edə bilərlər."
           },
           {
-            "range": "37–48",
-            "title": "Aşağı Qüllə",
-            "learn": "Qüllənin daha geniş aşağı hissəsini doldurmaq üçün 37-dən 48-ə qədər nöqtələri birləşdirin. Bu, qüllənin tam hündürlüyü səhifədə formalaşmağa başlayanda uşaqlara diqqəti və səbri artırmağa kömək edən tapmacanın daha böyük hissələrindən biridir.",
-            "fact": "Burj Xəlifənin tikintisi 30 mildən çox uzanan səki tikmək üçün kifayət qədər betondan və uçdan uca qoyularsa, Yer kürəsinin dörddə birindən çoxunu dövrələmək üçün kifayət qədər polad armaturdan istifadə etdi!"
+            "q": "Burj Khalifa nöqtə-nöqtə tapmacası hansı bacarıqları öyrədir?",
+            "a": "Burj Xəlifə tapmacasının 60 nöqtəsini birləşdirmək rəqəm tanıma və 60-a qədər sayma, qələm nəzarəti, əl-göz koordinasiyası və davamlı fokuslanmanı inkişaf etdirir — erkən əl yazısını dəstəkləyən eyni incə motorika təməlləri. Hazır şəkli rəngləmək yaradıcı mükafat əlavə edir."
           },
           {
-            "range": "49–60",
-            "title": "Baza",
-            "learn": "Qüllənin yerlə birləşdiyi yerə geniş əsasını çəkmək üçün 49-dan 60-a qədər nöqtələri birləşdirərək tapmacanı tamamlayın. Finiş xəttinə cəmi on iki nöqtə - uşaqları güclü, inamlı yekun xətlərlə konturları tamamlamağa təşviq edin.",
-            "fact": "Burj Khalifa, Dubay şəhərinin mərkəzində, hər axşam musiqi və işıqlar altında keçirilən xoreoqrafiya su şouları ilə məşhur olan Dubay Fəvvarəsi ilə böyük süni göllə əhatə olunmuş yerdə oturur."
+            "q": "Bürc Xəlifə ilə bağlı maraqlı bir fakt nədir?",
+            "a": "Burj Xəlifə dünyanın ən hündür binasıdır və hündürlüyü 828 metrdən (2717 fut) çoxdur! Uşaqlar Burj Xəlifə nöqtə-nöqtə tapmacasını həll edərkən bu kimi faktları kəşf edirlər."
           }
         ],
-        "outro": "Möhtəşəm - sizin Burj Khalifa tamamlandı! İndi qüllənin məşhur axşam işıq şoularına uyğunlaşmaq üçün ona parıldayan gümüş, qızıl və ya qürub rəng sxemi verin. Başqa bir məşhur əlamətdar yerə hazırsınız? Dünyanı kəşf etməyə davam etmək üçün daha çox <a href=\"/\">sərbəst nöqtədən nöqtəyə çap edilə bilənlərə</a> baxın.",
-        "color_schemes": []
+        "dot_guide": {
+          "intro": "Burj Khalifa indiyə qədər insan əli ilə tikilmiş ən hündür binadır - Dubayın üstündəki səmanı deşən iynə kimi qüllə. Onun pilləli, spiral dizaynı Hymenocallis adlı səhra çiçəyindən ilhamlanıb və o, 2010-cu ildə açılandan bəri dünyanın ən hündür binası adını daşıyır. Bu 60 nöqtəli tapmaca onun uçan siluetini bazadan şpilə qədər izləyir. 1-ci nöqtəni tapın və gəlin səmaya çataq!",
+          "sections": [
+            {
+              "range": "1–12",
+              "title": "Spire",
+              "learn": "1-ci nöqtədən başlayın və qüllənin ən yuxarı hissəsindəki nazik, uclu şpilin izinə düşmək üçün 12-ci nöqtəyə qoşulun. Bu dar hissə əvvəldən diqqətli, idarə olunan karandaş vuruşlarını qurur - aşağıda daha geniş formalardan əvvəl əla istiləşmə. Uşaqları yavaş-yavaş çəkməyə və xətləri düz və hündür saxlamağa təşviq edin.",
+              "fact": "Təkcə hündürlüyü təqribən 244 metr (800 fut) - digər şəhərlərdəki bəzi göydələnlər qədər hündürdür! O, telekommunikasiya antenası ehtiva edir və Burj Khalifanın bu qədər yüksəklik rekordlarına sahib olmasının səbəblərindən biridir. <a href=\"https://en.wikipedia.org/wiki/Burj_Khalifa\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Wikipedia-nın Burj Khalifa entry</a>-də tam hündürlük qeydlərinə baxın."
+            },
+            {
+              "range": "13–24",
+              "title": "Yuxarı pillələr",
+              "learn": "Qüllənin yuxarı hissəsinə yaxın daralmış, pilləli hissələr çəkmək üçün 13-cü nöqtədən 24-cü nöqtəyə qədər davam edin. Uşaqlar yüksəldikcə tədricən kiçikləşən bir forma çəkməyə məşq edirlər, bu, perspektiv və binaların səmaya doğru daralması haqqında danışmaq üçün gözəl bir yoldur.",
+              "fact": "Binanın 163 mərtəbəsi var ki, bu da tikintisi başa çatdığı zaman dünyanın hər hansı digər binasından çoxdur. O, həmçinin 148-ci mərtəbədə dünyanın ən hündür müşahidə göyərtəsinə malikdir, \"At the Top\"."
+            },
+            {
+              "range": "25–36",
+              "title": "Orta spiral",
+              "learn": "Qüllənin spiralvari, səviyyəli naxışının ən asan görüldüyü orta hissəni çəkmək üçün 25-dən 36-a qədər nöqtələri çəkin. Bu bölmə diqqətli diqqəti mükafatlandırır, çünki uğursuzluqlar və bucaqlar istiqaməti bir neçə dəfə dəyişir və uşaqlara daha mürəkkəb konturdan sonra əla təcrübə verir.",
+              "fact": "Burj Khalifanın dizaynı mərkəzdən kənara doğru spiral şəklində uzanan uzun, nazik ləçəkləri olan səhra çiçəyi Hymenocallisdən ilhamlanıb. Memarlar binanın güclü səhra küləklərinə tab gətirmək üçün bu təbii formadan istifadə ediblər."
+            },
+            {
+              "range": "37–48",
+              "title": "Aşağı Qüllə",
+              "learn": "Qüllənin daha geniş aşağı hissəsini doldurmaq üçün 37-dən 48-ə qədər nöqtələri birləşdirin. Bu, qüllənin tam hündürlüyü səhifədə formalaşmağa başlayanda uşaqlara diqqəti və səbri artırmağa kömək edən tapmacanın daha böyük hissələrindən biridir.",
+              "fact": "Burj Xəlifənin tikintisi 30 mildən çox uzanan səki tikmək üçün kifayət qədər betondan və uçdan uca qoyularsa, Yer kürəsinin dörddə birindən çoxunu dövrələmək üçün kifayət qədər polad armaturdan istifadə etdi!"
+            },
+            {
+              "range": "49–60",
+              "title": "Baza",
+              "learn": "Qüllənin yerlə birləşdiyi yerə geniş əsasını çəkmək üçün 49-dan 60-a qədər nöqtələri birləşdirərək tapmacanı tamamlayın. Finiş xəttinə cəmi on iki nöqtə - uşaqları güclü, inamlı yekun xətlərlə konturları tamamlamağa təşviq edin.",
+              "fact": "Burj Khalifa, Dubay şəhərinin mərkəzində, hər axşam musiqi və işıqlar altında keçirilən xoreoqrafiya su şouları ilə məşhur olan Dubay Fəvvarəsi ilə böyük süni göllə əhatə olunmuş yerdə oturur."
+            }
+          ],
+          "outro": "Möhtəşəm - sizin Burj Khalifa tamamlandı! İndi qüllənin məşhur axşam işıq şoularına uyğunlaşmaq üçün ona parıldayan gümüş, qızıl və ya qürub rəng sxemi verin. Başqa bir məşhur əlamətdar yerə hazırsınız? Dünyanı kəşf etməyə davam etmək üçün daha çox <a href=\"/\">sərbəst nöqtədən nöqtəyə çap edilə bilənlərə</a> baxın.",
+          "color_schemes": []
+        }
       }
-    }
-  },
-  {
-    "slug": "uae-falcon-dot-to-dot-puzzle",
-    "header": {
-      "title": "BƏƏ Şahin Nöqtədən Nöqtəyə Çap Edilə Bilən — 60 Nöqtə Uçuşda",
-      "meta_description": "Bəzi BƏƏ şahinləri öz pasportları ilə səyahət edirlər. Bu milli simvolu 5-9 yaş arası uşaqlar üçün pulsuz PDF ilə 60 nöqtə boyunca uçuşda ortaya çıxarın.",
-      "og": {
+    },
+    {
+      "slug": "uae-falcon-dot-to-dot-puzzle",
+      "header": {
         "title": "BƏƏ Şahin Nöqtədən Nöqtəyə Çap Edilə Bilən — 60 Nöqtə Uçuşda",
-        "description": "Bəzi BƏƏ şahinləri öz pasportları ilə səyahət edirlər. Bu milli simvolu 5-9 yaş arası uşaqlar üçün pulsuz PDF ilə 60 nöqtə boyunca uçuşda ortaya çıxarın.",
-        "image_alt": "Uçuşda olan şahin, 60 nöqtə boyunca arxa qanadları açılmış şəkildə pulsuz iş vərəqəsində"
+        "meta_description": "Bəzi BƏƏ şahinləri öz pasportları ilə səyahət edirlər. Bu milli simvolu 5-9 yaş arası uşaqlar üçün pulsuz PDF ilə 60 nöqtə boyunca uçuşda ortaya çıxarın.",
+        "og": {
+          "title": "BƏƏ Şahin Nöqtədən Nöqtəyə Çap Edilə Bilən — 60 Nöqtə Uçuşda",
+          "description": "Bəzi BƏƏ şahinləri öz pasportları ilə səyahət edirlər. Bu milli simvolu 5-9 yaş arası uşaqlar üçün pulsuz PDF ilə 60 nöqtə boyunca uçuşda ortaya çıxarın.",
+          "image_alt": "Uçuşda olan şahin, 60 nöqtə boyunca arxa qanadları açılmış şəkildə pulsuz iş vərəqəsində"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "BƏƏ Şahini",
+          "description": "Bəzi BƏƏ şahinləri öz pasportları ilə səyahət edirlər. Bu milli simvolu 5-9 yaş arası uşaqlar üçün pulsuz PDF ilə 60 nöqtə boyunca uçuşda ortaya çıxarın.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
       },
-      "json_ld": {
-        "type": "CreativeWork",
+      "body": {
+        "h1": "BƏƏ Şahin Nöqtədən Nöqtəyə Çap Edilə Bilən — 60 Nöqtə Uçuşda",
         "name": "BƏƏ Şahini",
-        "description": "Bəzi BƏƏ şahinləri öz pasportları ilə səyahət edirlər. Bu milli simvolu 5-9 yaş arası uşaqlar üçün pulsuz PDF ilə 60 nöqtə boyunca uçuşda ortaya çıxarın.",
-        "image": "",
-        "educational_use": "Fine motor skills, number sequencing",
-        "age_range": ""
-      }
-    },
-    "body": {
-      "h1": "BƏƏ Şahin Nöqtədən Nöqtəyə Çap Edilə Bilən — 60 Nöqtə Uçuşda",
-      "name": "BƏƏ Şahini",
-      "tagline": "Əmirliyin Milli Quşu",
-      "description": "60 nöqtəni birləşdirərək, arxa qanadları açılmış və dırnaqları hazır olan bir şahin ortaya çıxarın. Şahin Birləşmiş Ərəb Əmirliklərinin milli quşudur və Əmirati irsinin simvoludur. Bu asan bulmaca, çox köhnə bir hekayəsi olan bir quş haqqında öyrənərkən, nömrələrin sıralanmasını öyrənən gənc öyrənənlər üçün əladır.",
-      "fun_fact": "BƏƏ-dəki şahinlər öz pasportlarını daşıya bilərlər - bu, sahibləri ilə xaricə səyahət edərkən istifadə olunan əsl sənəddir!",
-      "dot_guide": {
-        "intro": "Neftdən və ya göydələnlərdən çox əvvəl şahin ovu var idi. Səhradakı bədəvi tayfaları yemək üçün ovlamaq üçün öyrədilmiş şahinlərə güvənirdi və quş və ovçu arasında əməkdaşlıq Əmirlik mədəniyyətində ən dəyərli ənənələrdən birinə çevrildi. Bu gün şahin BƏƏ-nin gerbində görünür və şahin ovu özü canlı irs parçası kimi qorunur. Bu 60 nöqtəli tapmaca uçuşun ortasında tutulan bir şahinin izini çəkir. Qələm götür, 1-ci nöqtəni tap və gəlin bu quşu canlandıraq.",
-        "sections": [
+        "tagline": "Əmirliyin Milli Quşu",
+        "description": "60 nöqtəni birləşdirərək, arxa qanadları açılmış və dırnaqları hazır olan bir şahin ortaya çıxarın. Şahin Birləşmiş Ərəb Əmirliklərinin milli quşudur və Əmirati irsinin simvoludur. Bu asan bulmaca, çox köhnə bir hekayəsi olan bir quş haqqında öyrənərkən, nömrələrin sıralanmasını öyrənən gənc öyrənənlər üçün əladır.",
+        "fun_fact": "BƏƏ-dəki şahinlər öz pasportlarını daşıya bilərlər - bu, sahibləri ilə xaricə səyahət edərkən istifadə olunan əsl sənəddir!",
+        "faqs": [
           {
-            "range": "1–12",
-            "title": "Baş və qarmaqlı gaga",
-            "learn": "1-ci nöqtədən başlayın və 12-ci nöqtəyə keçərək şahinin iti, ehtiyatlı başını və fərqli qarmaqlı dimdiyini çəkin. Bu kiçik bir hissədir, lakin bütün rəsmin xarakterini təyin edir - bir şahin üzü diqqətli, demək olar ki, şiddətli görünməlidir. Xətləri süpürməkdənsə, burada qısa və dəqiq saxlayın.",
-            "fact": "Şahinin dimdiyi ucuna yaxın yerdə “tomial diş” adlanan kiçik bir çentik var. Şahinlər ondan yırtıcıların onurğasını tez kəsmək üçün istifadə edirlər. Bu, şahinləri şahinlərdən və qartallardan ayıran kiçik anatomik detallardan biridir, onlar əvəzinə pəncələri ilə öldürürlər."
+            "q": "BƏƏ Şahini nöqtə-nöqtə tapmacasında neçə nöqtə var?",
+            "a": "Çap edilə bilən BƏƏ Şahininin nöqtələri birləşdirən tapmacasında 60 nömrəli nöqtə var. Bu, onu orta səviyyədən asan həll olunan bir tapmaca halına gətirir və 5-8 yaş arası uşaqlar (uşaq bağçasından 2-ci sinfə qədər) üçün ən uyğundur. Uşaqlar bitmiş BƏƏ Şahini rəsmini göstərmək üçün nöqtələri rəqəm ardıcıllığı ilə birləşdirir və sonra rəngləyirlər."
           },
           {
-            "range": "13–24",
-            "title": "Diqqətli Göz və Tac",
-            "learn": "Başın yuxarı hissəsini və iri, irəli baxan gözü formalaşdırmaq üçün 13-cü nöqtədən 24-cü nöqtəyə qədər davam edin. Şahinlər heyvanlar aləmində ən kəskin görmə qabiliyyətinə malikdirlər və bu bölmənin düzgün qurulması həqiqətən quşun ifadəsini canlandırır. Uşaqları gözlərin əyriliyinə vaxt ayırmağa təşviq edin - bu, rəsm şəxsiyyətinin çoxunu daşıyır.",
-            "fact": "Məlumata görə, şahin dovşanı təxminən iki mil məsafədən görə bilər. Onların görmə qabiliyyətinin insandan bir neçə dəfə kəskin olduğu təxmin edilir, buna görə də şahinlər onları böyük hündürlüklərdən və uzaq məsafələrdən ovlamağa öyrədirlər."
+            "q": "BƏƏ Falcon nöqtə-nöqtə çapı pulsuzdurmu?",
+            "a": "Bəli. UAE Falcon iş vərəqini DotToDotFreePrintables.com saytından 100% pulsuz yükləmək mümkündür — hesab, e-poçt və ya ödəniş tələb olunmur. O, həm portret, həm də landşaft oriyentasiyasında, ABŞ məktubu və ya A4 kağızı üçün ölçüdə çapa hazır PDF formatında dərhal yüklənir."
           },
           {
-            "range": "25–36",
-            "title": "Qanad Süpürmə",
-            "learn": "25-dən 36-a qədər olan nöqtələri izləyin ki, bu quşa sürət hissini verən tapmacanın uzun, arxaya çəkilmiş qanadını çəkin. Bu, qısa, kəsikli xətlərdən daha çox hamar, davamlı əyri məşq etmək üçün yaxşı bir uzanmadır. Buradakı dayanıqlı bir əl şahini havanı kəsirmiş kimi göstərir.",
-            "fact": "BƏƏ şahin ovçuluğunda təlim keçmiş quşların yaxın qohumu olan göy şahin planetin ən sürətli heyvanıdır. Döşəmə adlanan bir ov dalışında saatda 240 mil sürəti keçə bilər."
+            "q": "BƏƏ Şahin nöqtələri birləşdirən iş vərəqi hansı yaş üçün ən uyğundur?",
+            "a": "60 nöqtədən ibarət olan UAE Şahin tapmacası 5-8 yaş arası uşaqlar (uşaq bağçasından 2-ci sinfə qədər) üçün ən yaxşı şəkildə işləyir. Kiçik uşaqlar böyüklərin köməyi ilə saymaqdan zövq ala bilərlər, özünəinamlı sayanlar isə bunu müstəqil şəkildə yerinə yetirə və 60-a qədər ədəd ardıcıllığını məşq edə bilərlər."
           },
           {
-            "range": "37–48",
-            "title": "Bədən və Sinə",
-            "learn": "Şahinin sinəsini və əsas gövdəsini doldurmaq üçün 37-dən 48-ə qədər nöqtələri birləşdirin. Bu, tapmacanın ən böyük tək hissəsidir və yavaşımaq və diqqətlə saymaq üçün yaxşı yerdir - bu kimi daha uzun müddətdə ardıcıllığın izini itirmək asandır.",
-            "fact": "Şahin ovu UNESCO tərəfindən 2010-cu ildə Bəşəriyyətin Qeyri-Maddi Mədəni İrs siyahısına daxil edilib və BƏƏ bu siyahıda qurucu ölkələr sırasındadır. O, ölkənin bədəvi keçmişi ilə müasir kimliyi arasında ən aydın əlaqələrdən biri olaraq qalır. Şahin ovu üçün <a href=\"https://ich.unesco.org/en/RL/falconry-a-living-human-heritage-01708\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">UNESCO-nun Qeyri-Maddi Mədəni İrs siyahısından daha çox məlumat əldə edin</a>."
+            "q": "BƏƏ-nin Şahin nöqtə-nöqtə tapmacası hansı bacarıqları öyrədir?",
+            "a": "BƏƏ Şahin tapmacasının 60 nöqtəsini birləşdirmək rəqəm tanıma və 60-a qədər sayma, qələm nəzarəti, əl-göz koordinasiyası və davamlı fokuslanmanı inkişaf etdirir — erkən əl yazısını dəstəkləyən eyni incə motorika təməlləri. Hazır şəkli rəngləmək yaradıcı mükafat əlavə edir."
           },
           {
-            "range": "49–60",
-            "title": "Quyruq lələkləri",
-            "learn": "Quşun arxasından keçən yellənmiş quyruq lələklərini çəkmək üçün 49-dan 60-a qədər nöqtələri birləşdirərək tapmacanı tamamlayın. On iki nöqtə qalıb – burada güclü, inamlı bitirmə bütün rəsmin qurduğu hərəkət hissini tamamlayır.",
-            "fact": "Əbu-Dabidə hər il minlərlə quşu müalicə edən və hətta quşları ilə sərhədləri aşan sahibləri üçün tələb olunan şahin pasportlarını verən dünyanın ən böyük şahin xəstəxanası yerləşir."
+            "q": "BƏƏ şahini haqqında maraqlı bir fakt nədir?",
+            "a": "BƏƏ-dəki şahinlər öz pasportlarını daşıya bilərlər — bu, sahibləri ilə xaricə səyahət edərkən istifadə edilən əsl sənəddir! Uşaqlar BƏƏ Şahini nöqtə-nöqtə tapmacasını tamamlayarkən bu kimi faktları kəşf edirlər."
           }
         ],
-        "outro": "Əla - şahininiz uçmağa hazırdır! Onu əsl Saker şahini kimi isti qəhvəyi və qızılı rənglərlə rəngləməyə çalışın və ya tünd boz və qara rənglərlə daha dramatik bir görünüş verin. Dünyanın daha çox görməli yerləri və heyvanları ilə maraqlanırsınız? Daha çox <a href=\"/\">sərbəst nöqtədən nöqtəyə çap edilə bilənlərə</a> baxın və qələmi hərəkətdə saxlayın.",
-        "color_schemes": []
+        "dot_guide": {
+          "intro": "Neftdən və ya göydələnlərdən çox əvvəl şahin ovu var idi. Səhradakı bədəvi tayfaları yemək üçün ovlamaq üçün öyrədilmiş şahinlərə güvənirdi və quş və ovçu arasında əməkdaşlıq Əmirlik mədəniyyətində ən dəyərli ənənələrdən birinə çevrildi. Bu gün şahin BƏƏ-nin gerbində görünür və şahin ovu özü canlı irs parçası kimi qorunur. Bu 60 nöqtəli tapmaca uçuşun ortasında tutulan bir şahinin izini çəkir. Qələm götür, 1-ci nöqtəni tap və gəlin bu quşu canlandıraq.",
+          "sections": [
+            {
+              "range": "1–12",
+              "title": "Baş və qarmaqlı gaga",
+              "learn": "1-ci nöqtədən başlayın və 12-ci nöqtəyə keçərək şahinin iti, ehtiyatlı başını və fərqli qarmaqlı dimdiyini çəkin. Bu kiçik bir hissədir, lakin bütün rəsmin xarakterini təyin edir - bir şahin üzü diqqətli, demək olar ki, şiddətli görünməlidir. Xətləri süpürməkdənsə, burada qısa və dəqiq saxlayın.",
+              "fact": "Şahinin dimdiyi ucuna yaxın yerdə “tomial diş” adlanan kiçik bir çentik var. Şahinlər ondan yırtıcıların onurğasını tez kəsmək üçün istifadə edirlər. Bu, şahinləri şahinlərdən və qartallardan ayıran kiçik anatomik detallardan biridir, onlar əvəzinə pəncələri ilə öldürürlər."
+            },
+            {
+              "range": "13–24",
+              "title": "Diqqətli Göz və Tac",
+              "learn": "Başın yuxarı hissəsini və iri, irəli baxan gözü formalaşdırmaq üçün 13-cü nöqtədən 24-cü nöqtəyə qədər davam edin. Şahinlər heyvanlar aləmində ən kəskin görmə qabiliyyətinə malikdirlər və bu bölmənin düzgün qurulması həqiqətən quşun ifadəsini canlandırır. Uşaqları gözlərin əyriliyinə vaxt ayırmağa təşviq edin - bu, rəsm şəxsiyyətinin çoxunu daşıyır.",
+              "fact": "Məlumata görə, şahin dovşanı təxminən iki mil məsafədən görə bilər. Onların görmə qabiliyyətinin insandan bir neçə dəfə kəskin olduğu təxmin edilir, buna görə də şahinlər onları böyük hündürlüklərdən və uzaq məsafələrdən ovlamağa öyrədirlər."
+            },
+            {
+              "range": "25–36",
+              "title": "Qanad Süpürmə",
+              "learn": "25-dən 36-a qədər olan nöqtələri izləyin ki, bu quşa sürət hissini verən tapmacanın uzun, arxaya çəkilmiş qanadını çəkin. Bu, qısa, kəsikli xətlərdən daha çox hamar, davamlı əyri məşq etmək üçün yaxşı bir uzanmadır. Buradakı dayanıqlı bir əl şahini havanı kəsirmiş kimi göstərir.",
+              "fact": "BƏƏ şahin ovçuluğunda təlim keçmiş quşların yaxın qohumu olan göy şahin planetin ən sürətli heyvanıdır. Döşəmə adlanan bir ov dalışında saatda 240 mil sürəti keçə bilər."
+            },
+            {
+              "range": "37–48",
+              "title": "Bədən və Sinə",
+              "learn": "Şahinin sinəsini və əsas gövdəsini doldurmaq üçün 37-dən 48-ə qədər nöqtələri birləşdirin. Bu, tapmacanın ən böyük tək hissəsidir və yavaşımaq və diqqətlə saymaq üçün yaxşı yerdir - bu kimi daha uzun müddətdə ardıcıllığın izini itirmək asandır.",
+              "fact": "Şahin ovu UNESCO tərəfindən 2010-cu ildə Bəşəriyyətin Qeyri-Maddi Mədəni İrs siyahısına daxil edilib və BƏƏ bu siyahıda qurucu ölkələr sırasındadır. O, ölkənin bədəvi keçmişi ilə müasir kimliyi arasında ən aydın əlaqələrdən biri olaraq qalır. Şahin ovu üçün <a href=\"https://ich.unesco.org/en/RL/falconry-a-living-human-heritage-01708\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">UNESCO-nun Qeyri-Maddi Mədəni İrs siyahısından daha çox məlumat əldə edin</a>."
+            },
+            {
+              "range": "49–60",
+              "title": "Quyruq lələkləri",
+              "learn": "Quşun arxasından keçən yellənmiş quyruq lələklərini çəkmək üçün 49-dan 60-a qədər nöqtələri birləşdirərək tapmacanı tamamlayın. On iki nöqtə qalıb – burada güclü, inamlı bitirmə bütün rəsmin qurduğu hərəkət hissini tamamlayır.",
+              "fact": "Əbu-Dabidə hər il minlərlə quşu müalicə edən və hətta quşları ilə sərhədləri aşan sahibləri üçün tələb olunan şahin pasportlarını verən dünyanın ən böyük şahin xəstəxanası yerləşir."
+            }
+          ],
+          "outro": "Əla - şahininiz uçmağa hazırdır! Onu əsl Saker şahini kimi isti qəhvəyi və qızılı rənglərlə rəngləməyə çalışın və ya tünd boz və qara rənglərlə daha dramatik bir görünüş verin. Dünyanın daha çox görməli yerləri və heyvanları ilə maraqlanırsınız? Daha çox <a href=\"/\">sərbəst nöqtədən nöqtəyə çap edilə bilənlərə</a> baxın və qələmi hərəkətdə saxlayın.",
+          "color_schemes": []
+        }
       }
-    }
-  },
-  {
-    "slug": "dallah-coffee-pot-dot-to-dot-puzzle",
-    "header": {
-      "title": "Dallah Qəhvə Potu Nöqtədən Nöqtəyə, 63 Nöqtəlik Pulsuz Vərəq",
-      "meta_description": "BƏƏ bir-dirham pulunda olan dallah qonaqpərvərliyi təmsil edir. 6-10 yaş arası uşaqlar üçün pulsuz çap edilə bilən 63 nöqtə boyunca onun uzun burunlu formasını birləşdirin.",
-      "og": {
+    },
+    {
+      "slug": "dallah-coffee-pot-dot-to-dot-puzzle",
+      "header": {
         "title": "Dallah Qəhvə Potu Nöqtədən Nöqtəyə, 63 Nöqtəlik Pulsuz Vərəq",
-        "description": "BƏƏ bir-dirham pulunda olan dallah qonaqpərvərliyi təmsil edir. 6-10 yaş arası uşaqlar üçün pulsuz çap edilə bilən 63 nöqtə boyunca onun uzun burunlu formasını birləşdirin.",
-        "image_alt": "63 çap edilə bilən nöqtədən tökülən uzun burunlu dallah qəhvə potu"
+        "meta_description": "BƏƏ bir-dirham pulunda olan dallah qonaqpərvərliyi təmsil edir. 6-10 yaş arası uşaqlar üçün pulsuz çap edilə bilən 63 nöqtə boyunca onun uzun burunlu formasını birləşdirin.",
+        "og": {
+          "title": "Dallah Qəhvə Potu Nöqtədən Nöqtəyə, 63 Nöqtəlik Pulsuz Vərəq",
+          "description": "BƏƏ bir-dirham pulunda olan dallah qonaqpərvərliyi təmsil edir. 6-10 yaş arası uşaqlar üçün pulsuz çap edilə bilən 63 nöqtə boyunca onun uzun burunlu formasını birləşdirin.",
+          "image_alt": "63 çap edilə bilən nöqtədən tökülən uzun burunlu dallah qəhvə potu"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Dallah Qəhvə",
+          "description": "BƏƏ bir-dirham pulunda olan dallah qonaqpərvərliyi təmsil edir. 6-10 yaş arası uşaqlar üçün pulsuz çap edilə bilən 63 nöqtə boyunca onun uzun burunlu formasını birləşdirin.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
       },
-      "json_ld": {
-        "type": "CreativeWork",
+      "body": {
+        "h1": "Dallah Qəhvə Potu Nöqtədən Nöqtəyə, 63 Nöqtəlik Pulsuz Vərəq",
         "name": "Dallah Qəhvə",
-        "description": "BƏƏ bir-dirham pulunda olan dallah qonaqpərvərliyi təmsil edir. 6-10 yaş arası uşaqlar üçün pulsuz çap edilə bilən 63 nöqtə boyunca onun uzun burunlu formasını birləşdirin.",
-        "image": "",
-        "educational_use": "Fine motor skills, number sequencing",
-        "age_range": ""
-      }
-    },
-    "body": {
-      "h1": "Dallah Qəhvə Potu Nöqtədən Nöqtəyə, 63 Nöqtəlik Pulsuz Vərəq",
-      "name": "Dallah Qəhvə",
-      "tagline": "Əmirliyin qonaqpərvərliyinin simvolu",
-      "description": "63 nöqtəni birləşdirərək, BƏƏ və daha geniş Xalqda ərəb qəhvəsini qonaqlara təqdim etmək üçün istifadə olunan uzun burunlu qəhvə potu olan dallahı ortaya çıxarın. Bu asan bulmaca, hələ də çox canlı olan bir ənənəyə kiçik bir pəncərə açarkən, nömrələrin sıralanmasını öyrənən gənc öyrənənlər üçün gözəl bir seçimdir.",
-      "fun_fact": "Dallah o qədər məşhur qonaqpərvərlik simvoludur ki, BƏƏ-nin bir dirhəmlik sikkəsində görünür.",
-      "dot_guide": {
-        "intro": "Körfəzdə demək olar ki, hər kəsdən soruşun ki, yaxşı ev sahibi qonağa nə təklif edir və qəhvə tez gələcək. Dallah, onu həyata keçirən qazandır - hündür, əyri, yavaş, ehtiyatla tökmək üçün tikilmiş uzun ağızlı. O, toylarda, məclislərin oturma otaqlarında və şənliklərdə çadırların kənarında, adətən bir yığın kiçik tutacaqsız fincanların və bir boşqab xurmanın yanında görünür. Bu 63 nöqtəli tapmaca onun aydın formasını izləyir. 1-ci nöqtəni tapın və birini tökək.",
-        "sections": [
+        "tagline": "Əmirliyin qonaqpərvərliyinin simvolu",
+        "description": "63 nöqtəni birləşdirərək, BƏƏ və daha geniş Xalqda ərəb qəhvəsini qonaqlara təqdim etmək üçün istifadə olunan uzun burunlu qəhvə potu olan dallahı ortaya çıxarın. Bu asan bulmaca, hələ də çox canlı olan bir ənənəyə kiçik bir pəncərə açarkən, nömrələrin sıralanmasını öyrənən gənc öyrənənlər üçün gözəl bir seçimdir.",
+        "fun_fact": "Dallah o qədər məşhur qonaqpərvərlik simvoludur ki, BƏƏ-nin bir dirhəmlik sikkəsində görünür.",
+        "faqs": [
           {
-            "range": "1–13",
-            "title": "Əyri Dəstək",
-            "learn": "1-ci nöqtədən başlayın və qazanın arxasındakı döngə sapını çəkmək üçün 13-cü nöqtəyə birləşdirin. Bu, göründüyündən daha sıx əyridir, ona görə də yavaş-yavaş gedin – bu hissəyə tələsmək, formanın adətən yeni başlayanlardan uzaqlaşdığı yerdir.",
-            "fact": "Dallahlar ənənəvi olaraq misdən və ya misdən əl ilə döyülür, bu sənət ailələrdən nəsillər boyu ötürülür. Yaxşı hazırlanmış bir adi cilalama ilə onilliklər davam edə bilər."
+            "q": "Dallah Qəhvə Qazanında nöqtə-nöqtə tapmacasının neçə nöqtəsi var?",
+            "a": "Çap edilə bilən Dallah Qəhvə Qabı Nöqtələri Birləşdirən 63 nömrəli nöqtədən ibarətdir. Bu, onu asan və orta səviyyəli bir tapmaca halına gətirir və 5-8 yaş arası uşaqlar (uşaq bağçasından 2-ci sinfə qədər) üçün ən uyğundur. Uşaqlar bitmiş Dallah qəhvə qabı rəsmini göstərmək üçün nöqtələri rəqəm ardıcıllığı ilə birləşdirir və sonra rəngləyirlər."
           },
           {
-            "range": "14–26",
-            "title": "Qübbəli Qapaq",
-            "learn": "Üstündəki yuvarlaq qapağı formalaşdırmaq üçün 14-cü nöqtədən 26-cı nöqtəyə qədər davam edin, tez-tez kiçik uclu düymə ilə tamamlanır. Bu bölmə əsasən zərif əyrilərdir, ona görə də yuvarlaq xətlərlə inamı inkişaf etdirən uşaqlar üçün yaxşı bir uzanmadır.",
-            "fact": "Bəzi dallaların qapağında düz düymə əvəzinə dekorativ aypara və ya quş formalı ornament var - bölgədən bölgəyə və istehsalçıdan istehsalçıya çox dəyişən kiçik bir detal."
+            "q": "Dallah qəhvə dəmləyicisi nöqtə-nöqtə çap üçün pulsuzdurmu?",
+            "a": "Bəli. Dallah Coffee Pot iş vərəqini DotToDotFreePrintables.com saytından 100% pulsuz yükləmək mümkündür — hesab, e-poçt və ya ödəniş tələb olunmur. O, həm portret, həm də landşaft oriyentasiyasında, ABŞ məktubu və ya A4 kağızı üçün ölçüdə çapa hazır PDF formatında dərhal yüklənir."
           },
           {
-            "range": "27–39",
-            "title": "Uzun Tökmə Bacası",
-            "learn": "Dallaha özünəməxsus siluetini verən uzun, dar ucluğu çəkmək üçün 27-dən 39-a qədər nöqtələri çəkin. Bu, rəsmin ən çətin hissəsidir - ucluq kənara doğru uzandıqca daralır, buna görə də uşaqları onu bir neçə qısa vuruşla deyil, bir sabit, tələsmədən çəkməyə təşviq edin.",
-            "fact": "Çubuğun uzunluğu təkcə dekorativ deyil. O, ev sahibinə qəhvəni tökmədən kiçik hündürlükdən tökməyə imkan verir ki, bu da qonaqpərvərliyin bir hissəsidir — tökmə başqa otaqda deyil, qonaqların tam gözü qarşısında edilir."
+            "q": "Dallah Qəhvə Qazanı Nöqtələri Birləşdirən İş Vərəqi hansı yaş üçün ən uyğundur?",
+            "a": "63 nöqtədən ibarət olan Dallah Coffee Pot tapmacası 5-8 yaş arası uşaqlar (uşaq bağçasından 2-ci sinfə qədər) üçün ən yaxşı şəkildə işləyir. Kiçik uşaqlar böyüklərin köməyi ilə saymaqdan həzz ala bilərlər, özünəinamlı sayanlar isə bunu müstəqil şəkildə yerinə yetirə və 63-ə qədər ədəd ardıcıllığını məşq edə bilərlər."
           },
           {
-            "range": "40–52",
-            "title": "Geniş Bədən",
-            "learn": "Qəhvənin özünün dəmlənəcəyi qabın yuvarlaqlaşdırılmış əsas gövdəsini doldurmaq üçün 40-52 nöqtələri birləşdirin. Bu, buradakı ən böyük hissədir, ona görə də təkrar saymaq və heç bir şeyin atlanmadığından əmin olmaq üçün yarıda fasilə verməyə dəyər.",
-            "fact": "Qahva kimi tanınan dalladan verilən ərəb qəhvəsi, adətən, başqa yerlərdə yayılmış tünd qızartmalardan daha çox yüngül qovrulmuş lobya və hil ilə dəmlənir - buna görə də görünüşü və dadı espresso və ya filtr qəhvədən nəzərəçarpacaq dərəcədə fərqlidir."
+            "q": "Dallah Qəhvə Qazanı nöqtə-nöqtə tapmacası hansı bacarıqları öyrədir?",
+            "a": "Dallah Qəhvə Qazanı tapmacasının 63 nöqtəsini birləşdirmək rəqəm tanıma və 63-ə qədər sayma, qələm nəzarəti, əl-göz koordinasiyası və davamlı fokuslanmanı inkişaf etdirir — erkən əl yazısını dəstəkləyən eyni incə motorika təməlləri. Hazır şəkli rəngləmək yaradıcı mükafat əlavə edir."
           },
           {
-            "range": "53–63",
-            "title": "Baza və dayaq",
-            "learn": "Qazanın dayandığı möhkəm bazanı çəkmək üçün 53-dən 63-ə qədər nöqtələri birləşdirərək bitirin. Getmək üçün on bir nöqtə - burada yaxşı, möhkəm bitirmə bütün rəsmə lövbər verir.",
-            "fact": "2015-ci ildə YUNESKO ərəb qəhvəsini BƏƏ, Səudiyyə Ərəbistanı, Oman və Qətərdə paylaşılan səxavət simvolu kimi tanıyaraq Qeyri-Maddi Mədəni İrs siyahısına əlavə etdi. Daha çox məlumat üçün <a href=\"https://ich.unesco.org/en/RL/arabic-coffee-a-symbol-of-generosity-02111\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">UNESCO-nun ərəb qəhvəsi </a> siyahısına baxın."
+            "q": "Dallah qəhvə dəmləyicisi ilə bağlı maraqlı bir fakt nədir?",
+            "a": "Dallah, qonaqpərvərliyin o qədər məşhur bir simvoludur ki, BƏƏ-nin bir dirhəmlik sikkəsində görünür. Uşaqlar Dallah qəhvə dəmləyicisindəki nöqtə-nöqtə tapmacasını tamamlayarkən bu kimi faktları kəşf edirlər."
           }
         ],
-        "outro": "Əla iş - dallahınız xidmət etməyə hazırdır! Ənənəvi görünüş üçün onu isti mis və ya mis tonlarında rəngləyin və ya qızılı və tünd yaşıl rənglərlə qalın. Əgər övladınız bu tapmacanın haradan gəldiyini öyrənməkdən həzz alırsa, daha çox praktiki təcrübə üçün digər <a href=\"/playgrounds/\">dot və nöqtə iş vərəqlərimizi </a> kimi də bəyənə bilər.",
-        "color_schemes": []
+        "dot_guide": {
+          "intro": "Körfəzdə demək olar ki, hər kəsdən soruşun ki, yaxşı ev sahibi qonağa nə təklif edir və qəhvə tez gələcək. Dallah, onu həyata keçirən qazandır - hündür, əyri, yavaş, ehtiyatla tökmək üçün tikilmiş uzun ağızlı. O, toylarda, məclislərin oturma otaqlarında və şənliklərdə çadırların kənarında, adətən bir yığın kiçik tutacaqsız fincanların və bir boşqab xurmanın yanında görünür. Bu 63 nöqtəli tapmaca onun aydın formasını izləyir. 1-ci nöqtəni tapın və birini tökək.",
+          "sections": [
+            {
+              "range": "1–13",
+              "title": "Əyri Dəstək",
+              "learn": "1-ci nöqtədən başlayın və qazanın arxasındakı döngə sapını çəkmək üçün 13-cü nöqtəyə birləşdirin. Bu, göründüyündən daha sıx əyridir, ona görə də yavaş-yavaş gedin – bu hissəyə tələsmək, formanın adətən yeni başlayanlardan uzaqlaşdığı yerdir.",
+              "fact": "Dallahlar ənənəvi olaraq misdən və ya misdən əl ilə döyülür, bu sənət ailələrdən nəsillər boyu ötürülür. Yaxşı hazırlanmış bir adi cilalama ilə onilliklər davam edə bilər."
+            },
+            {
+              "range": "14–26",
+              "title": "Qübbəli Qapaq",
+              "learn": "Üstündəki yuvarlaq qapağı formalaşdırmaq üçün 14-cü nöqtədən 26-cı nöqtəyə qədər davam edin, tez-tez kiçik uclu düymə ilə tamamlanır. Bu bölmə əsasən zərif əyrilərdir, ona görə də yuvarlaq xətlərlə inamı inkişaf etdirən uşaqlar üçün yaxşı bir uzanmadır.",
+              "fact": "Bəzi dallaların qapağında düz düymə əvəzinə dekorativ aypara və ya quş formalı ornament var - bölgədən bölgəyə və istehsalçıdan istehsalçıya çox dəyişən kiçik bir detal."
+            },
+            {
+              "range": "27–39",
+              "title": "Uzun Tökmə Bacası",
+              "learn": "Dallaha özünəməxsus siluetini verən uzun, dar ucluğu çəkmək üçün 27-dən 39-a qədər nöqtələri çəkin. Bu, rəsmin ən çətin hissəsidir - ucluq kənara doğru uzandıqca daralır, buna görə də uşaqları onu bir neçə qısa vuruşla deyil, bir sabit, tələsmədən çəkməyə təşviq edin.",
+              "fact": "Çubuğun uzunluğu təkcə dekorativ deyil. O, ev sahibinə qəhvəni tökmədən kiçik hündürlükdən tökməyə imkan verir ki, bu da qonaqpərvərliyin bir hissəsidir — tökmə başqa otaqda deyil, qonaqların tam gözü qarşısında edilir."
+            },
+            {
+              "range": "40–52",
+              "title": "Geniş Bədən",
+              "learn": "Qəhvənin özünün dəmlənəcəyi qabın yuvarlaqlaşdırılmış əsas gövdəsini doldurmaq üçün 40-52 nöqtələri birləşdirin. Bu, buradakı ən böyük hissədir, ona görə də təkrar saymaq və heç bir şeyin atlanmadığından əmin olmaq üçün yarıda fasilə verməyə dəyər.",
+              "fact": "Qahva kimi tanınan dalladan verilən ərəb qəhvəsi, adətən, başqa yerlərdə yayılmış tünd qızartmalardan daha çox yüngül qovrulmuş lobya və hil ilə dəmlənir - buna görə də görünüşü və dadı espresso və ya filtr qəhvədən nəzərəçarpacaq dərəcədə fərqlidir."
+            },
+            {
+              "range": "53–63",
+              "title": "Baza və dayaq",
+              "learn": "Qazanın dayandığı möhkəm bazanı çəkmək üçün 53-dən 63-ə qədər nöqtələri birləşdirərək bitirin. Getmək üçün on bir nöqtə - burada yaxşı, möhkəm bitirmə bütün rəsmə lövbər verir.",
+              "fact": "2015-ci ildə YUNESKO ərəb qəhvəsini BƏƏ, Səudiyyə Ərəbistanı, Oman və Qətərdə paylaşılan səxavət simvolu kimi tanıyaraq Qeyri-Maddi Mədəni İrs siyahısına əlavə etdi. Daha çox məlumat üçün <a href=\"https://ich.unesco.org/en/RL/arabic-coffee-a-symbol-of-generosity-02111\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">UNESCO-nun ərəb qəhvəsi </a> siyahısına baxın."
+            }
+          ],
+          "outro": "Əla iş - dallahınız xidmət etməyə hazırdır! Ənənəvi görünüş üçün onu isti mis və ya mis tonlarında rəngləyin və ya qızılı və tünd yaşıl rənglərlə qalın. Əgər övladınız bu tapmacanın haradan gəldiyini öyrənməkdən həzz alırsa, daha çox praktiki təcrübə üçün digər <a href=\"/playgrounds/\">dot və nöqtə iş vərəqlərimizi </a> kimi də bəyənə bilər.",
+          "color_schemes": []
+        }
       }
-    }
-  },
-  {
-    "slug": "uae-camel-dot-to-dot-puzzle",
-    "header": {
-      "title": "BƏƏ Dəvə Nöqtə Nöqtəyə - 105-Nöqtə Səhra Çağırışı PDF",
-      "meta_description": "Devəynin hörgüsü suyu deyil, yağları saxlayır. 6-10 yaş arası xəyalpərəstlər bu səhralı simvolu pulsuz çap edilə bilən PDF-də 105 nöqtə ilə açıb göstərə bilərlər.",
-      "og": {
+    },
+    {
+      "slug": "uae-camel-dot-to-dot-puzzle",
+      "header": {
         "title": "BƏƏ Dəvə Nöqtə Nöqtəyə - 105-Nöqtə Səhra Çağırışı PDF",
-        "description": "Devəynin hörgüsü suyu deyil, yağları saxlayır. 6-10 yaş arası xəyalpərəstlər bu səhralı simvolu pulsuz çap edilə bilən PDF-də 105 nöqtə ilə açıb göstərə bilərlər.",
-        "image_alt": "Səhra dəvəsi qum üzərində irəliləyir, onun konturu 105 çap edilə bilən nöqtə ilə göstərilir."
+        "meta_description": "Devəynin hörgüsü suyu deyil, yağları saxlayır. 6-10 yaş arası xəyalpərəstlər bu səhralı simvolu pulsuz çap edilə bilən PDF-də 105 nöqtə ilə açıb göstərə bilərlər.",
+        "og": {
+          "title": "BƏƏ Dəvə Nöqtə Nöqtəyə - 105-Nöqtə Səhra Çağırışı PDF",
+          "description": "Devəynin hörgüsü suyu deyil, yağları saxlayır. 6-10 yaş arası xəyalpərəstlər bu səhralı simvolu pulsuz çap edilə bilən PDF-də 105 nöqtə ilə açıb göstərə bilərlər.",
+          "image_alt": "Səhra dəvəsi qum üzərində irəliləyir, onun konturu 105 çap edilə bilən nöqtə ilə göstərilir."
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "BƏƏ Camel",
+          "description": "Devəynin hörgüsü suyu deyil, yağları saxlayır. 6-10 yaş arası xəyalpərəstlər bu səhralı simvolu pulsuz çap edilə bilən PDF-də 105 nöqtə ilə açıb göstərə bilərlər.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
       },
-      "json_ld": {
-        "type": "CreativeWork",
+      "body": {
+        "h1": "BƏƏ Dromedarı Nöqtədən Nöqtəyə — 105 Nöqtəlik Səhra Çağırışı PDF",
         "name": "BƏƏ Camel",
-        "description": "Devəynin hörgüsü suyu deyil, yağları saxlayır. 6-10 yaş arası xəyalpərəstlər bu səhralı simvolu pulsuz çap edilə bilən PDF-də 105 nöqtə ilə açıb göstərə bilərlər.",
-        "image": "",
-        "educational_use": "Fine motor skills, number sequencing",
-        "age_range": ""
-      }
-    },
-    "body": {
-      "h1": "BƏƏ Dromedarı Nöqtədən Nöqtəyə — 105 Nöqtəlik Səhra Çağırışı PDF",
-      "name": "BƏƏ Camel",
-      "tagline": "Səhra gəmisi",
-      "description": "105 nöqtəni birləşdirərək, qumda irəliləyən bir dromedarı ortaya çıxarın, BƏƏ və daha geniş Ərəbistan yarımadasında həyatın ən davamlı simvollarından biridir. Digər BƏƏ bulmacalarımızdan daha çox nöqtə ilə, bu, çətinlikdə bir addım irəlidir — asan vərəqləri keçməyə hazır olan uşaqlar üçün əladır, eyni zamanda səhrada həyat haqqında real bir şey öyrənirlər.",
-      "fun_fact": "Devəynin hörgüsü heç bir şəkildə su saxlamır - o, yağ saxlayır ki, dəvənin bədəni bu yağları qida az olduqda həm enerji, həm də suya çevirə bilər.",
-      "dot_guide": {
-        "intro": "Min illər boyu dəvə səhrada həyatı mümkün etdi - heç bir təkərli arabanın keçə bilmədiyi təpələrdən mal daşımaq, yollar və kondisioner hər şeyi dəyişməzdən çox əvvəl bədəvi icmalarına süd, yun və nəqliyyat təmin etdi. Dəvələr bu gün də BƏƏ-də yetişdirilir və yarışır və dəvə südü lattelərdən şokoladlara qədər hər şeydə özünü göstərir. Bu 105 nöqtəli tapmaca digər vərəqlərimizin çoxundan daha uzundur, ona görə də uşağın kəmərinin altında bir neçə asan tapmaca olduqda bu, növbəti gözəl addımdır. Nöqtə 1-i tapın və hər dəfə onu bir donqar götürün.",
-        "sections": [
+        "tagline": "Səhra gəmisi",
+        "description": "105 nöqtəni birləşdirərək, qumda irəliləyən bir dromedarı ortaya çıxarın, BƏƏ və daha geniş Ərəbistan yarımadasında həyatın ən davamlı simvollarından biridir. Digər BƏƏ bulmacalarımızdan daha çox nöqtə ilə, bu, çətinlikdə bir addım irəlidir — asan vərəqləri keçməyə hazır olan uşaqlar üçün əladır, eyni zamanda səhrada həyat haqqında real bir şey öyrənirlər.",
+        "fun_fact": "Devəynin hörgüsü heç bir şəkildə su saxlamır - o, yağ saxlayır ki, dəvənin bədəni bu yağları qida az olduqda həm enerji, həm də suya çevirə bilər.",
+        "faqs": [
           {
-            "range": "1–21",
-            "title": "Baş və Boyun",
-            "learn": "Uzun, əyri boyun və xəbərdarlıq başını çəkmək üçün 1-ci nöqtədən başlayın və 21-ci nöqtəyə keçin. Dəvələr boyunlarını fərqli bir S-əyri şəklində tuturlar, buna görə də uşaqları xəttin qalxıb-düşməsinə icazə verin, onu düz məcbur etməkdənsə, təbii şəkildə aşağı salın. Bu, böyük bir ilk uzanmadır, ona görə də sonrakı qısa fasilə ədalətlidir.",
-            "fact": "Dəvələrin üç göz qapağı və iki cərgə uzun kirpikləri var, hamısı birlikdə işləyir ki, fırtına zamanı gözlərinə qum çıxmasın. Onlar həmçinin burun dəliklərini tamamilə bağlaya bilirlər - başqa heç bir yük heyvanında buna bənzər xüsusiyyət yoxdur."
+            "q": "BƏƏ-nin Dəvə oyununda nöqtə-nöqtə tapmacasının neçə nöqtəsi var?",
+            "a": "BƏƏ-nin çap edilə bilən dəvəsinin nöqtələri birləşdirən tapmacasında 105 nömrəli nöqtə var. Bu, onu 7-12 yaş arası (2-ci sinif və yuxarı) uşaqlar üçün ən uyğun olan çətin bir tapmaca halına gətirir. Uşaqlar bitmiş BƏƏ dəvə rəsmini göstərmək üçün nöqtələri rəqəm ardıcıllığı ilə birləşdirir və sonra rəngləyirlər."
           },
           {
-            "range": "22–42",
-            "title": "İlk Donuz",
-            "learn": "Continue from dot 22 to dot 42 to shape the tall, rounded first hump. Bu, çəkmək üçün qənaətbəxş bir əyridir - bir neçə kiçik vuruşdan daha çox tək hamar bir vuruşu təşviq edin, çünki dalğalı xətlər donqarın formasını düzəldir.",
-            "fact": "Dromedary və ya bir donqarlı dəvə, BƏƏ və daha geniş Ərəbistan yarımadasında rast gəlinən növdür. İki donqarlı Baktriya dəvəsi fərqli bir növdür, vətəni Körfəzdən daha çox Orta Asiyaya aiddir. <a href=\"https://en.wikipedia.org/wiki/Dromedary\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Wikipedia-nın dromedary dəvə girişi</a> haqqında daha çox oxuyun."
+            "q": "BƏƏ-nin Dəvəsi nöqtə-nöqtə çap etmək üçün pulsuzdurmu?",
+            "a": "Bəli. BƏƏ Dəvəsi iş vərəqini DotToDotFreePrintables.com saytından 100% pulsuz yükləmək mümkündür — hesab, e-poçt və ya ödəniş tələb olunmur. O, həm portret, həm də landşaft oriyentasiyasında, ABŞ məktubu və ya A4 kağızı üçün ölçüdə çapa hazır PDF formatında dərhal yüklənir."
           },
           {
-            "range": "43–63",
-            "title": "Arxa Xətt",
-            "learn": "Arxa xətti tamamlamaq üçün 43-dən 63-ə qədər olan nöqtələri çəkin, o cümlədən donqardan sonrakı eniş. Düzgün daldırma - nə çox dərin, nə də çox düz deyil - silueti sadəcə topaqlı bir xətt deyil, dəvə kimi oxumağa məcbur edən şeydir. Bu bölməni yavaş-yavaş götürün.",
-            "fact": "Tam yetkin bir dəvə, nəhayət, su mənbəyinə çatdıqdan sonra cəmi bir neçə dəqiqə ərzində təxminən 40 gallon su içə bilər - bir oturuşda günlərlə səyahət zamanı itirdiyini əvəz edir."
+            "q": "BƏƏ-nin Dəvə Nöqtələrini Birləşdirən İş Vərəqi hansı yaş üçün ən uyğundur?",
+            "a": "105 nöqtədən ibarət olan BƏƏ Dəvə tapmacası 7-12 yaş arası (2-ci sinif və yuxarı) üçün ən yaxşı şəkildə uyğun gəlir. Kiçik uşaqlar böyüklərin köməyi ilə saymaqdan zövq ala bilərlər, özünəinamlı sayanlar isə bunu müstəqil şəkildə tamamlaya və 105-ə qədər ədəd ardıcıllığını məşq edə bilərlər."
           },
           {
-            "range": "64–84",
-            "title": "Ayaqlar",
-            "learn": "Dörd uzun, möhkəm ayağı çəkmək üçün 64-dən 84-ə qədər nöqtələri birləşdirin. Bu bölmədə əvvəlkilərdən daha çox istiqamət dəyişikliyi var, ona görə də növbəti xətti çəkməzdən əvvəl hər bir nöqtə nömrəsini yavaşlatmaq və iki dəfə yoxlamaq üçün yaxşı yerdir.",
-            "fact": "Dəvələr hər iki ayağını eyni anda bədəninin eyni tərəfində hərəkət etdirərək yeriyir, bu yeriş pacing adlanır. Bu, onlara fərqli sallanma hərəkəti verir, bu da dəvə üçün erkən ləqəbin “səhra gəmisi” olmasının bir hissəsidir. Dəvə yarışı BƏƏ-də əsas idman növü olaraq qalır — <a href=\"https://en.wikipedia.org/wiki/Camel_racing\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Wikipedia-nın dəvə yarışı girişində </a> haqqında ətraflı oxuyun."
+            "q": "BƏƏ-nin Dəvə nöqtə-nöqtə tapmacası hansı bacarıqları öyrədir?",
+            "a": "BƏƏ Dəvə tapmacasının 105 nöqtəsini birləşdirmək rəqəm tanıma və 105-ə qədər sayma, qələm nəzarəti, əl-göz koordinasiyası və davamlı fokuslanmanı inkişaf etdirir — erkən əl yazısını dəstəkləyən eyni incə motorika təməlləri. Hazır şəkli rəngləmək yaradıcı mükafat əlavə edir."
           },
           {
-            "range": "85–105",
-            "title": "Ayaqlar və Quyruq",
-            "learn": "Geniş ayaqları və quyruğu əlavə etmək üçün 85-dən 105-ə qədər nöqtələri birləşdirərək tapmacanı tamamlayın. İyirmi bir nöqtə qalıb – burada güclü bitiş həqiqətən bütün rəsmə əsas verir, ona görə də ən son nöqtəyə qədər sabit əli təşviq edin.",
-            "fact": "Dəvənin ayaqları aşağı enərkən uzanır və çəkisini yumşaq qumun içinə batmasın deyə paylayır - qar ayaqqabısının qar üzərində etdiyi kimi. Bu, dəvəni səhrada səyahət etmək üçün yaxşı uyğunlaşdıran bir sıra xüsusiyyətlərdən biridir."
+            "q": "BƏƏ dəvəsi haqqında maraqlı bir fakt nədir?",
+            "a": "Dəvənin hörümçəyi heç su yığmır — o, yağ saxlayır və qida qıtlığı olduqda dəvənin bədəni onu həm enerjiyə, həm də suya çevirə bilər. Uşaqlar BƏƏ-nin \"Dəvə nöqtə-nöqtə\" tapmacasını tamamlayarkən bu kimi faktları kəşf edirlər."
           }
         ],
-        "outro": "Fantastik iş - dəvəniz təpələri keçməyə hazırdır! Həqiqi görünüş üçün isti qumlu qəhvəyi və qara rəngləri sınayın və ya cəsarətli, gözlənilməz rənglərlə əylənin. Fərqli bir problemə hazırsınız? Digər mövzular üzrə <a href=\"/dinosaurs/\">1-100 çap edilə bilən daha çox nöqtədən-nöqtəyə materialı</a> araşdırın.",
-        "color_schemes": []
+        "dot_guide": {
+          "intro": "Min illər boyu dəvə səhrada həyatı mümkün etdi - heç bir təkərli arabanın keçə bilmədiyi təpələrdən mal daşımaq, yollar və kondisioner hər şeyi dəyişməzdən çox əvvəl bədəvi icmalarına süd, yun və nəqliyyat təmin etdi. Dəvələr bu gün də BƏƏ-də yetişdirilir və yarışır və dəvə südü lattelərdən şokoladlara qədər hər şeydə özünü göstərir. Bu 105 nöqtəli tapmaca digər vərəqlərimizin çoxundan daha uzundur, ona görə də uşağın kəmərinin altında bir neçə asan tapmaca olduqda bu, növbəti gözəl addımdır. Nöqtə 1-i tapın və hər dəfə onu bir donqar götürün.",
+          "sections": [
+            {
+              "range": "1–21",
+              "title": "Baş və Boyun",
+              "learn": "Uzun, əyri boyun və xəbərdarlıq başını çəkmək üçün 1-ci nöqtədən başlayın və 21-ci nöqtəyə keçin. Dəvələr boyunlarını fərqli bir S-əyri şəklində tuturlar, buna görə də uşaqları xəttin qalxıb-düşməsinə icazə verin, onu düz məcbur etməkdənsə, təbii şəkildə aşağı salın. Bu, böyük bir ilk uzanmadır, ona görə də sonrakı qısa fasilə ədalətlidir.",
+              "fact": "Dəvələrin üç göz qapağı və iki cərgə uzun kirpikləri var, hamısı birlikdə işləyir ki, fırtına zamanı gözlərinə qum çıxmasın. Onlar həmçinin burun dəliklərini tamamilə bağlaya bilirlər - başqa heç bir yük heyvanında buna bənzər xüsusiyyət yoxdur."
+            },
+            {
+              "range": "22–42",
+              "title": "İlk Donuz",
+              "learn": "Continue from dot 22 to dot 42 to shape the tall, rounded first hump. Bu, çəkmək üçün qənaətbəxş bir əyridir - bir neçə kiçik vuruşdan daha çox tək hamar bir vuruşu təşviq edin, çünki dalğalı xətlər donqarın formasını düzəldir.",
+              "fact": "Dromedary və ya bir donqarlı dəvə, BƏƏ və daha geniş Ərəbistan yarımadasında rast gəlinən növdür. İki donqarlı Baktriya dəvəsi fərqli bir növdür, vətəni Körfəzdən daha çox Orta Asiyaya aiddir. <a href=\"https://en.wikipedia.org/wiki/Dromedary\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Wikipedia-nın dromedary dəvə girişi</a> haqqında daha çox oxuyun."
+            },
+            {
+              "range": "43–63",
+              "title": "Arxa Xətt",
+              "learn": "Arxa xətti tamamlamaq üçün 43-dən 63-ə qədər olan nöqtələri çəkin, o cümlədən donqardan sonrakı eniş. Düzgün daldırma - nə çox dərin, nə də çox düz deyil - silueti sadəcə topaqlı bir xətt deyil, dəvə kimi oxumağa məcbur edən şeydir. Bu bölməni yavaş-yavaş götürün.",
+              "fact": "Tam yetkin bir dəvə, nəhayət, su mənbəyinə çatdıqdan sonra cəmi bir neçə dəqiqə ərzində təxminən 40 gallon su içə bilər - bir oturuşda günlərlə səyahət zamanı itirdiyini əvəz edir."
+            },
+            {
+              "range": "64–84",
+              "title": "Ayaqlar",
+              "learn": "Dörd uzun, möhkəm ayağı çəkmək üçün 64-dən 84-ə qədər nöqtələri birləşdirin. Bu bölmədə əvvəlkilərdən daha çox istiqamət dəyişikliyi var, ona görə də növbəti xətti çəkməzdən əvvəl hər bir nöqtə nömrəsini yavaşlatmaq və iki dəfə yoxlamaq üçün yaxşı yerdir.",
+              "fact": "Dəvələr hər iki ayağını eyni anda bədəninin eyni tərəfində hərəkət etdirərək yeriyir, bu yeriş pacing adlanır. Bu, onlara fərqli sallanma hərəkəti verir, bu da dəvə üçün erkən ləqəbin “səhra gəmisi” olmasının bir hissəsidir. Dəvə yarışı BƏƏ-də əsas idman növü olaraq qalır — <a href=\"https://en.wikipedia.org/wiki/Camel_racing\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Wikipedia-nın dəvə yarışı girişində </a> haqqında ətraflı oxuyun."
+            },
+            {
+              "range": "85–105",
+              "title": "Ayaqlar və Quyruq",
+              "learn": "Geniş ayaqları və quyruğu əlavə etmək üçün 85-dən 105-ə qədər nöqtələri birləşdirərək tapmacanı tamamlayın. İyirmi bir nöqtə qalıb – burada güclü bitiş həqiqətən bütün rəsmə əsas verir, ona görə də ən son nöqtəyə qədər sabit əli təşviq edin.",
+              "fact": "Dəvənin ayaqları aşağı enərkən uzanır və çəkisini yumşaq qumun içinə batmasın deyə paylayır - qar ayaqqabısının qar üzərində etdiyi kimi. Bu, dəvəni səhrada səyahət etmək üçün yaxşı uyğunlaşdıran bir sıra xüsusiyyətlərdən biridir."
+            }
+          ],
+          "outro": "Fantastik iş - dəvəniz təpələri keçməyə hazırdır! Həqiqi görünüş üçün isti qumlu qəhvəyi və qara rəngləri sınayın və ya cəsarətli, gözlənilməz rənglərlə əylənin. Fərqli bir problemə hazırsınız? Digər mövzular üzrə <a href=\"/dinosaurs/\">1-100 çap edilə bilən daha çox nöqtədən-nöqtəyə materialı</a> araşdırın.",
+          "color_schemes": []
+        }
       }
     }
-  }
-]
+  ]
+}

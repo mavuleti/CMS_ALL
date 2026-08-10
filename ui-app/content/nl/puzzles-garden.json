@@ -1,119 +1,300 @@
-[
-  {
-    "slug": "garden-gloves-dot-to-dot-puzzle",
-    "name": "Tuinhandschoenen",
-    "seoH1": "Tuinhandschoenen Punt tot Punt — Gratis 54-Punt Startblad",
-    "tagline": "Klaar voor een klein tuinavontuur!",
-    "description": "Verbind 54 stippen om een ​​paar tuinhandschoenen te onthullen. Deze eenvoudige printbare puzzel helpt jonge leerlingen bij het oefenen van getallenreeksen, fijne motoriek en concentratie.",
-    "seoDescription": "Tuinhandschoenen beschermen kleine handjes tegen vuil en stekelige planten. Verbind 54 punten in deze gratis afdrukbare werkblad voor kinderen van 4–8 jaar.",
-    "funFact": "Tuinhandschoenen beschermen je handen tegen krassen, vuil en stekelige planten tijdens het werken in de grond.",
-    "seoImageAlt": "Paar tuinhandschoenen gevormd door 54 genummerde stippen, gratis startwerkblad",
-    "dotGuide": {
-      "intro": "Iedere tuinier heeft een goed paar handschoenen nodig voordat hij of zij de grond aanraakt, en deze puzzel met 54 stippen levert een bijpassende set op – één voor elke hand. Het is een korte, eenvoudige puzzel, verdeeld in vier secties, die je gemakkelijk in één keer kunt afmaken. Begin met de linkerhandschoen, dan de rechter, en vervolgens de manchetten die ze met elkaar verbinden. Zoek stip 1 bij de vingertop en laten we deze handen bedekken.",
-      "sections": [
-        {
-          "range": "1–14",
-          "title": "De linkerhandschoen",
-          "learn": "Begin bij punt 1 en verbind deze met punt 14 om de omtrek van de linkerhandschoen te tekenen, inclusief de vingers. Pinkvingers zijn lastige, korte vormen, dus moedig voorzichtige, rustige streken aan in plaats van één snelle beweging.",
-          "fact": "Tuinhandschoenen zijn meestal zo gemaakt dat ze nauwsluitend om de vingers zitten, zodat een tuinier nog steeds kleine zaadjes kan oppakken of dun onkruid kan verwijderen zonder dat de handschoen in de weg zit."
-        },
-        {
-          "range": "15–27",
-          "title": "De juiste handschoen",
-          "learn": "Teken vanaf punt 15 tot en met punt 27 de bijbehorende rechterhandschoen. Omdat deze een spiegelbeeld is van de eerste, is dit een goede gelegenheid om de twee vormen te vergelijken en te controleren of ze goed uitgelijnd zijn voordat je verdergaat.",
-          "fact": "De meeste tuinhandschoenen zijn gemaakt van een mix van katoen of nylon met een rubberen of latex coating op de handpalm en vingers. Deze coating zorgt voor een betere grip op gereedschap en voorkomt dat water en vuil er direct doorheen dringen."
-        },
-        {
-          "range": "28–41",
-          "title": "De manchetten",
-          "learn": "Teken de stippen 28 tot en met 41 om de brede boorden aan de onderkant van elke handschoen toe te voegen. Deze boorden lopen iets breder uit dan de rest van de handschoen, dus ga rustig te werk bij het tekenen van de ronding.",
-          "fact": "De brede boorden van tuinhandschoenen zijn niet alleen mooi om te zien, ze voorkomen ook dat vuil, doornen en kruipende insecten naar binnen dringen tijdens het graven of snoeien."
-        },
-        {
-          "range": "42–54",
-          "title": "De afwerkingsstiksels",
-          "learn": "Verbind tot slot de stippen 42 tot en met 54 om de naadlijnen en de laatste details op beide handschoenen aan te brengen. Nog dertien stippen te gaan — een rustige en zorgvuldige afwerking zorgt ervoor dat de handschoenen er echt afgewerkt uitzien.",
-          "fact": "Verstevigde stiksels langs de vingers en handpalm zorgen ervoor dat goede tuinhandschoenen een heel groeiseizoen meegaan in plaats van na een paar weken graven al versleten te zijn."
+{
+  "collection": {
+    "header": {
+      "title": "Gratis tuin-punt-tot-punt puzzels voor kinderen",
+      "meta_description": "Gratis tuin-werkbladen om de punten te verbinden met handschoenen, schepjes en tuingereedschap, als printklare PDF.",
+      "og": {
+        "title": "Gratis tuin punt-tot-punt puzzels",
+        "description": "Gratis printbare tuin-werkbladen voor kinderen.",
+        "image": "/images/garden-gloves-puzzle.webp"
+      },
+      "json_ld": {
+        "type": "CollectionPage",
+        "name": "Tuin",
+        "description": "Ga aan de slag! Verbind de stippen om tuinhandschoenen, troffels en handige tuingereedschappen te ontdekken. Alle werkbladen zijn gratis te downloaden en uit te printen – je hebt geen account nodig.",
+        "image": "/images/garden-gloves-puzzle.webp",
+        "main_entity": {
+          "type": "ItemList",
+          "item_source": "puzzles"
         }
-      ],
-      "outro": "Goed gedaan! Je tuinhandschoenen zijn klaar voor gebruik! Kleur ze in met je favoriete patroon, of laat ze klassiek groen en bruin zoals de echte. Klaar om wat dieper te graven? Probeer onze <a href=\"/\">punt-naar-punt printables</a> voor nog meer gratis puzzels."
+      },
+      "breadcrumb_json_ld": {
+        "type": "BreadcrumbList",
+        "items": [
+          {
+            "position": 1,
+            "name": "Home",
+            "path": "/"
+          },
+          {
+            "position": 2,
+            "name": "Tuin",
+            "path": "/garden/"
+          }
+        ]
+      }
     },
-    "seoTitle": "Tuinhandschoenen Stippen Verbinden — Gratis Werkblad met 54 Stippen"
+    "body": {
+      "h1": "Tuin-punt-na-punt-tekeningen om te printen voor kinderen",
+      "name": "Tuin",
+      "tagline": "Waarom kinderen dol zijn op punt-tot-punt-puzzels met tuinthema",
+      "description": "Ga aan de slag! Verbind de stippen om tuinhandschoenen, troffels en handige tuingereedschappen te ontdekken. Alle werkbladen zijn gratis te downloaden en uit te printen – je hebt geen account nodig.",
+      "hero_image": "/images/garden-gloves-puzzle.webp",
+      "slug": "garden",
+      "faqs": [
+        {
+          "q": "Hoeveel gratis punt-na-punt-tekeningen van tuinen zijn er beschikbaar?",
+          "a": "In de categorie Tuin vind je momenteel 3 gratis 'verbind de stippen'-werkbladen met 39 tot 85 stippen. Elk werkblad kan direct als printklaar PDF-bestand (A4-formaat, staand of liggend) worden gedownload, zonder dat je je hoeft aan te melden."
+        },
+        {
+          "q": "Zijn de punt-na-punt-puzzels met tuinthema gratis te printen?",
+          "a": "Ja, alle 3 puzzels uit de Tuin-collectie zijn volledig gratis te gebruiken thuis en in de klas. Een account, e-mailadres of betaling is nooit vereist op DotToDotFreePrintables.com."
+        },
+        {
+          "q": "Voor welke leeftijden zijn de tuinpuzzels geschikt?",
+          "a": "Met een aantal stippen van 39 tot 85 is de Garden-collectie geschikt voor kinderen van ongeveer 4 tot 12 jaar. Kies een lager aantal stippen voor peuters en kleuters, en een hoger aantal voor gevorderde tellertjes in groep 3 t/m 6."
+        },
+        {
+          "q": "Welke punt-tot-punt puzzels met een tuinthema zijn er verkrijgbaar?",
+          "a": "Drie gratis printbare tuinafbeeldingen: tuinschepje (39 stippen), tuinhandschoenen (54 stippen) en kruiwagen (85 stippen). Ze passen goed bij lessen over de lente, plantenthema's en buitenactiviteiten."
+        }
+      ]
+    }
   },
-  {
-    "slug": "garden-trowel-dot-to-dot-puzzle",
-    "name": "Tuinschepje",
-    "seoH1": "Tuinschep Punt tot Punt: Slechts 39 Punten, Gratis PDF",
-    "tagline": "Duik in de tuin en geniet van wat tuinplezier!",
-    "description": "Verbind 39 stippen om een ​​handige tuinschep te onthullen. Deze eenvoudige printbare puzzel helpt jonge leerlingen bij het oefenen van getallenreeksen, potloodbeheersing en concentratie.",
-    "seoDescription": "Begin met vroege potloodoefeningen met een 39-punt tuinschep. De gratis punt tot punt PDF biedt kinderen van 4–7 jaar een korte, haalbare activiteit.",
-    "funFact": "Een schep is een klein handgereedschap dat wordt gebruikt voor het planten van zaailingen, het graven van kleine gaten en het verplaatsen van aarde.",
-    "seoImageAlt": "Tuinschepje dat vorm krijgt uit slechts 39 genummerde stippen, werkblad voor beginners",
-    "dotGuide": {
-      "intro": "Een troffel is een van de eenvoudigste gereedschappen in de tuinschuur, en deze puzzel met 39 stippen houdt het net zo simpel: drie korte secties en een vorm die kinderen meteen herkennen. Begin met het schepblad, dan de hals die het met de steel verbindt, en dan de steel zelf. Zoek stip 1 aan de punt van het blad en laten we beginnen met graven.",
-      "sections": [
-        {
-          "range": "1–13",
-          "title": "Het mes",
-          "learn": "Begin bij punt 1 en verbind deze met punt 13 om het schepvormige, puntige blad van de troffel te tekenen. De ronding langs één rand is hier het lastigste deel, dus probeer langzaam te tekenen in plaats van snel en recht te trekken.",
-          "fact": "Een troffelblad is gebogen in plaats van plat, zodat je er in één beweging grond mee uit een gat kunt scheppen, in plaats van dat je meerdere keren moet graven en tillen zoals met een plat gereedschap."
+  "puzzles": [
+    {
+      "slug": "garden-gloves-dot-to-dot-puzzle",
+      "header": {
+        "title": "Tuinhandschoenen Stippen Verbinden — Gratis Werkblad met 54 Stippen",
+        "meta_description": "Tuinhandschoenen beschermen kleine handjes tegen vuil en stekelige planten. Verbind 54 punten in deze gratis afdrukbare werkblad voor kinderen van 4–8 jaar.",
+        "og": {
+          "title": "Tuinhandschoenen Stippen Verbinden — Gratis Werkblad met 54 Stippen",
+          "description": "Tuinhandschoenen beschermen kleine handjes tegen vuil en stekelige planten. Verbind 54 punten in deze gratis afdrukbare werkblad voor kinderen van 4–8 jaar.",
+          "image_alt": "Paar tuinhandschoenen gevormd door 54 genummerde stippen, gratis startwerkblad"
         },
-        {
-          "range": "14–26",
-          "title": "De nek",
-          "learn": "Teken vanaf punt 14 tot en met punt 26 de smalle hals waar het lemmet de handgreep raakt. Dit is het dunste deel van het hele gereedschap, dus houd de lijnen dicht bij elkaar en gecontroleerd.",
-          "fact": "De hals van een troffel is meestal het sterkste deel van het hele gereedschap, omdat alle duw- en hefkracht die vrijkomt bij het graven, precies door dat smalle gedeelte loopt."
-        },
-        {
-          "range": "27–39",
-          "title": "Het handvat",
-          "learn": "Verbind tot slot de punten 27 tot en met 39 om de afgeronde steel te tekenen die een tuinier vasthoudt tijdens het graven. Nog maar dertien punten te gaan — een stevige, zelfverzekerde afwerking hier maakt het gereedschap af.",
-          "fact": "De handvatten van een tuinschep zijn vaak iets breder aan het uiteinde, zodat het gereedschap niet uit de hand van de tuinier glijdt, vooral niet wanneer de handpalmen vochtig worden van het werken in natte grond."
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Tuinhandschoenen",
+          "description": "Tuinhandschoenen beschermen kleine handjes tegen vuil en stekelige planten. Verbind 54 punten in deze gratis afdrukbare werkblad voor kinderen van 4–8 jaar.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
         }
-      ],
-      "outro": "Goed gedaan! Je troffel is klaar om te graven! Verf het blad glanzend metaalgrijs en geef de steel een felle kleur naar keuze. Vond je dit leuk? Bekijk dan onze <a href=\"/dinosaurs/\">dinosaur punt-tot-punt printbare</a> collectie voor een compleet ander soort graafwerk."
-    },
-    "seoTitle": "Tuinschepje Stippen Verbinden: Slechts 39 Stippen, Gratis PDF"
-  },
-  {
-    "slug": "wheelbarrow-playground-dot-to-dot-puzzle",
-    "name": "Kruiwagen Speeltuin",
-    "seoH1": "Kruiwagen Punt tot Punt Afdrukbaar — 85 Punten om te Volgen",
-    "tagline": "Laad hem in en rijden maar!",
-    "description": "Verbind 85 stippen om een ​​stevige tuinkruiwagen te onthullen. Deze puzzel van gemiddelde moeilijkheidsgraad is een goede oefening voor kinderen die de makkelijkere puzzels al onder de knie hebben en klaar zijn voor een langere, meer gedetailleerde afbeelding.",
-    "seoDescription": "Kruiwagens werden meer dan 2.000 jaar geleden uitgevonden in het oude China. Bouw er een over 85 punten met deze gratis afdrukbare PDF voor 5–9 jaar.",
-    "funFact": "De kruiwagen werd meer dan 2.000 jaar geleden uitgevonden in het oude China. Vroege versies konden meerdere mensen tegelijk dragen en werden zelfs gebruikt om soldaten te verplaatsen tijdens oorlogstijd.",
-    "seoImageAlt": "Stevige tuinkruiwagen die tevoorschijn komt uit 85 stippen op een printklare PDF-puzzel",
-    "dotGuide": {
-      "intro": "Deze tuinkruiwagenpuzzel bestaat uit 85 stippen en vier secties. Hij is iets uitdagender dan de eenvoudigste tuinpuzzels, maar nog steeds makkelijk in één keer af te maken. Begin met het wiel, dan de bak, het frame en de poten, en tot slot de handvatten. Zoek stip 1 aan de voorkant van het wiel en laten we beginnen!",
-      "sections": [
-        {
-          "range": "1–21",
-          "title": "Het Wiel",
-          "learn": "Begin bij punt 1 en verbind deze met punt 21 om het ronde wiel aan de voorkant van de kruiwagen te tekenen. Cirkelvormen vereisen iets meer aandacht dan rechte lijnen, dus zorg voor langzame, gelijkmatige streken terwijl de curve zich vormt.",
-          "fact": "Een enkel wiel aan de voorkant zorgt ervoor dat een kruiwagen gemakkelijk kan draaien in krappe ruimtes. Dat is precies de reden waarom tuinliefhebbers dit ontwerp nog steeds verkiezen boven een tweewielige kar voor het verplaatsen van aarde en planten in bloembedden."
-        },
-        {
-          "range": "22–43",
-          "title": "De lade",
-          "learn": "Ga verder van punt 22 naar punt 43 om de brede, schuine bak te vormen waarop alles ligt wat de kruiwagen vervoert. De schuine zijkanten van de bak voorkomen dat hij omvalt, dus teken ze zorgvuldig over om die helling vast te leggen.",
-          "fact": "De bak van de meeste kruiwagens loopt taps toe, smaller aan de voorkant en breder aan de achterkant. Deze vorm voorkomt dat een zware, ongelijkmatige lading naar voren schuift en over het wiel heen valt."
-        },
-        {
-          "range": "44–64",
-          "title": "Het frame en de poten",
-          "learn": "Werk van punt 44 tot punt 64 om het frame onder de lade te bouwen en de twee poten die de lade ondersteunen wanneer deze rust. Deze lijnen zijn rechter en stabieler, een prettige afwisseling na het gebogen gedeelte van de lade.",
-          "fact": "De twee steunpoten aan de achterkant van een kruiwagen raken alleen de grond als deze geparkeerd staat. Til de handvatten op en al het gewicht verschuift naar voren, naar het ene wiel. Daardoor is een volle lading veel gemakkelijker te duwen."
-        },
-        {
-          "range": "65–85",
-          "title": "De handgrepen",
-          "learn": "Verbind tot slot de punten 65 tot en met 85 om de twee handvatten te tekenen waarmee een tuinman de last stuurt en optilt. Er zijn nog 21 punten over op het laatste stuk – zorg dat de lijnen recht blijven en maak het af met een krachtige afwerking.",
-          "fact": "Lange handgrepen werken als een hefboom. Ze stellen één persoon in staat een last op te tillen en in evenwicht te houden die anders te zwaar of onhandig zou zijn om met de hand te dragen. Dat is precies de truc achter de werking van een kruiwagen."
+      },
+      "body": {
+        "h1": "Tuinhandschoenen Punt tot Punt — Gratis 54-Punt Startblad",
+        "name": "Tuinhandschoenen",
+        "tagline": "Klaar voor een klein tuinavontuur!",
+        "description": "Verbind 54 stippen om een ​​paar tuinhandschoenen te onthullen. Deze eenvoudige printbare puzzel helpt jonge leerlingen bij het oefenen van getallenreeksen, fijne motoriek en concentratie.",
+        "fun_fact": "Tuinhandschoenen beschermen je handen tegen krassen, vuil en stekelige planten tijdens het werken in de grond.",
+        "faqs": [
+          {
+            "q": "Hoeveel stippen heeft de punt-tot-punt puzzel met de tuinhandschoenen?",
+            "a": "De 'Tuinhandschoenen'-puzzel met puntjes verbinden heeft 54 ​​genummerde puntjes. Dat maakt het een makkelijke tot gemiddelde puzzel, het meest geschikt voor kinderen van 5-8 jaar (kleuterschool tot en met groep 3). Kinderen verbinden de puntjes in de juiste volgorde om de complete afbeelding van de tuinhandschoenen te onthullen en kleuren deze vervolgens in."
+          },
+          {
+            "q": "Is de printbare punt-na-punt tekening van tuinhandschoenen gratis?",
+            "a": "Ja. Het werkblad 'Tuinhandschoenen' is 100% gratis te downloaden van DotToDotFreePrintables.com — er is geen account, e-mailadres of betaling vereist. Het wordt direct gedownload als een printklaar PDF-bestand in zowel portret- als landschapsformaat, geschikt voor US Letter of A4-papier."
+          },
+          {
+            "q": "Voor welke leeftijd is het 'Tuinhandschoenen'-puntenzoekspel het meest geschikt?",
+            "a": "Met 54 stippen is de Tuinhandschoenen-puzzel het meest geschikt voor kinderen van 5 tot 8 jaar (kleuterschool tot en met groep 3). Jongere kinderen kunnen er plezier aan beleven met een beetje hulp van een volwassene die meetelt, terwijl gevorderde tellers de puzzel zelfstandig kunnen maken en oefenen met het tellen van getallen tot 54."
+          },
+          {
+            "q": "Welke vaardigheden leer je met de punt-na-punt-puzzel 'Tuinhandschoenen'?",
+            "a": "Het verbinden van de 54 stippen van de tuinhandschoenenpuzzel bevordert getalherkenning en tellen tot 54, potloodbeheersing, hand-oogcoördinatie en concentratievermogen – dezelfde fijne motorische vaardigheden die de basis vormen voor vroeg handschrift. Het inkleuren van de voltooide afbeelding is een extra creatieve beloning."
+          },
+          {
+            "q": "Wat is een leuk weetje over tuinhandschoenen?",
+            "a": "Tuinhandschoenen beschermen de handen tegen krassen, vuil en stekelige planten tijdens het werken in de grond. Kinderen ontdekken dit soort weetjes tijdens het invullen van de punt-na-punt puzzel over tuinhandschoenen."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Iedere tuinier heeft een goed paar handschoenen nodig voordat hij of zij de grond aanraakt, en deze puzzel met 54 stippen levert een bijpassende set op – één voor elke hand. Het is een korte, eenvoudige puzzel, verdeeld in vier secties, die je gemakkelijk in één keer kunt afmaken. Begin met de linkerhandschoen, dan de rechter, en vervolgens de manchetten die ze met elkaar verbinden. Zoek stip 1 bij de vingertop en laten we deze handen bedekken.",
+          "sections": [
+            {
+              "range": "1–14",
+              "title": "De linkerhandschoen",
+              "learn": "Begin bij punt 1 en verbind deze met punt 14 om de omtrek van de linkerhandschoen te tekenen, inclusief de vingers. Pinkvingers zijn lastige, korte vormen, dus moedig voorzichtige, rustige streken aan in plaats van één snelle beweging.",
+              "fact": "Tuinhandschoenen zijn meestal zo gemaakt dat ze nauwsluitend om de vingers zitten, zodat een tuinier nog steeds kleine zaadjes kan oppakken of dun onkruid kan verwijderen zonder dat de handschoen in de weg zit."
+            },
+            {
+              "range": "15–27",
+              "title": "De juiste handschoen",
+              "learn": "Teken vanaf punt 15 tot en met punt 27 de bijbehorende rechterhandschoen. Omdat deze een spiegelbeeld is van de eerste, is dit een goede gelegenheid om de twee vormen te vergelijken en te controleren of ze goed uitgelijnd zijn voordat je verdergaat.",
+              "fact": "De meeste tuinhandschoenen zijn gemaakt van een mix van katoen of nylon met een rubberen of latex coating op de handpalm en vingers. Deze coating zorgt voor een betere grip op gereedschap en voorkomt dat water en vuil er direct doorheen dringen."
+            },
+            {
+              "range": "28–41",
+              "title": "De manchetten",
+              "learn": "Teken de stippen 28 tot en met 41 om de brede boorden aan de onderkant van elke handschoen toe te voegen. Deze boorden lopen iets breder uit dan de rest van de handschoen, dus ga rustig te werk bij het tekenen van de ronding.",
+              "fact": "De brede boorden van tuinhandschoenen zijn niet alleen mooi om te zien, ze voorkomen ook dat vuil, doornen en kruipende insecten naar binnen dringen tijdens het graven of snoeien."
+            },
+            {
+              "range": "42–54",
+              "title": "De afwerkingsstiksels",
+              "learn": "Verbind tot slot de stippen 42 tot en met 54 om de naadlijnen en de laatste details op beide handschoenen aan te brengen. Nog dertien stippen te gaan — een rustige en zorgvuldige afwerking zorgt ervoor dat de handschoenen er echt afgewerkt uitzien.",
+              "fact": "Verstevigde stiksels langs de vingers en handpalm zorgen ervoor dat goede tuinhandschoenen een heel groeiseizoen meegaan in plaats van na een paar weken graven al versleten te zijn."
+            }
+          ],
+          "outro": "Goed gedaan! Je tuinhandschoenen zijn klaar voor gebruik! Kleur ze in met je favoriete patroon, of laat ze klassiek groen en bruin zoals de echte. Klaar om wat dieper te graven? Probeer onze <a href=\"/\">punt-naar-punt printables</a> voor nog meer gratis puzzels.",
+          "color_schemes": []
         }
-      ],
-      "outro": "Dat is een goed gevulde kruiwagen, klaar voor de tuin! Kleur de bak aardebruin of verf hem felrood zoals een klassieke kruiwagen, en stapel er vervolgens wat bloemen of groenten naar eigen smaak op. Klaar voor iets groters? Probeer dan onze <a href=\"/playgrounds/roller-coaster-playground-dot-to-dot-puzzle/\">achtbaan speeltuin puzzel</a> eens."
+      }
     },
-    "seoTitle": "Kruiwagen Stippen Verbinden — Werkblad met 85 Stippen"
-  }
-]
+    {
+      "slug": "garden-trowel-dot-to-dot-puzzle",
+      "header": {
+        "title": "Tuinschepje Stippen Verbinden: Slechts 39 Stippen, Gratis PDF",
+        "meta_description": "Begin met vroege potloodoefeningen met een 39-punt tuinschep. De gratis punt tot punt PDF biedt kinderen van 4–7 jaar een korte, haalbare activiteit.",
+        "og": {
+          "title": "Tuinschepje Stippen Verbinden: Slechts 39 Stippen, Gratis PDF",
+          "description": "Begin met vroege potloodoefeningen met een 39-punt tuinschep. De gratis punt tot punt PDF biedt kinderen van 4–7 jaar een korte, haalbare activiteit.",
+          "image_alt": "Tuinschepje dat vorm krijgt uit slechts 39 genummerde stippen, werkblad voor beginners"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Tuinschepje",
+          "description": "Begin met vroege potloodoefeningen met een 39-punt tuinschep. De gratis punt tot punt PDF biedt kinderen van 4–7 jaar een korte, haalbare activiteit.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
+      },
+      "body": {
+        "h1": "Tuinschep Punt tot Punt: Slechts 39 Punten, Gratis PDF",
+        "name": "Tuinschepje",
+        "tagline": "Duik in de tuin en geniet van wat tuinplezier!",
+        "description": "Verbind 39 stippen om een ​​handige tuinschep te onthullen. Deze eenvoudige printbare puzzel helpt jonge leerlingen bij het oefenen van getallenreeksen, potloodbeheersing en concentratie.",
+        "fun_fact": "Een schep is een klein handgereedschap dat wordt gebruikt voor het planten van zaailingen, het graven van kleine gaten en het verplaatsen van aarde.",
+        "faqs": [
+          {
+            "q": "Hoeveel stippen heeft de punt-tot-punt puzzel met de tuinschep?",
+            "a": "De 'Tuinschepje'-puzzel heeft 39 genummerde stippen. Daardoor is het een makkelijke puzzel, het meest geschikt voor kinderen van 4-6 jaar (peuters en kleuters). Kinderen verbinden de stippen in de juiste volgorde om de complete afbeelding van het tuinschepje te onthullen en kleuren deze vervolgens in."
+          },
+          {
+            "q": "Is de punt-na-punt-tekening van de tuinschep gratis te printen?",
+            "a": "Ja. Het werkblad 'Tuinschepje' is 100% gratis te downloaden van DotToDotFreePrintables.com — er is geen account, e-mailadres of betaling vereist. Het wordt direct gedownload als een printklaar PDF-bestand in zowel portret- als landschapsformaat, geschikt voor US Letter of A4-papier."
+          },
+          {
+            "q": "Voor welke leeftijd is het 'Tuinschepje'-werkblad het meest geschikt?",
+            "a": "Met 39 stippen is de tuinscheppuzzel het meest geschikt voor kinderen van 4-6 jaar (peuters en kleuters). Jongere kinderen kunnen er plezier aan beleven met een beetje hulp van een volwassene die meetelt, terwijl oudere kinderen die al goed kunnen tellen de puzzel zelfstandig kunnen maken en zo de getallenreeksen tot 39 kunnen oefenen."
+          },
+          {
+            "q": "Welke vaardigheden leer je met de punt-na-punt-puzzel met de tuinschep?",
+            "a": "Het verbinden van de 39 stippen van de tuinscheppuzzel bevordert getalherkenning en tellen tot 39, potloodbeheersing, hand-oogcoördinatie en concentratievermogen – dezelfde fijne motorische vaardigheden die de basis vormen voor vroeg leren schrijven. Het inkleuren van de voltooide afbeelding is een extra creatieve beloning."
+          },
+          {
+            "q": "Wat is een leuk weetje over de tuinschep?",
+            "a": "Een troffel is een klein handgereedschap dat gebruikt wordt voor het planten van zaailingen, het graven van kleine gaatjes en het verplaatsen van grond. Kinderen ontdekken dit soort weetjes tijdens het invullen van de punt-na-punt puzzel 'Tuintroffel'."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Een troffel is een van de eenvoudigste gereedschappen in de tuinschuur, en deze puzzel met 39 stippen houdt het net zo simpel: drie korte secties en een vorm die kinderen meteen herkennen. Begin met het schepblad, dan de hals die het met de steel verbindt, en dan de steel zelf. Zoek stip 1 aan de punt van het blad en laten we beginnen met graven.",
+          "sections": [
+            {
+              "range": "1–13",
+              "title": "Het mes",
+              "learn": "Begin bij punt 1 en verbind deze met punt 13 om het schepvormige, puntige blad van de troffel te tekenen. De ronding langs één rand is hier het lastigste deel, dus probeer langzaam te tekenen in plaats van snel en recht te trekken.",
+              "fact": "Een troffelblad is gebogen in plaats van plat, zodat je er in één beweging grond mee uit een gat kunt scheppen, in plaats van dat je meerdere keren moet graven en tillen zoals met een plat gereedschap."
+            },
+            {
+              "range": "14–26",
+              "title": "De nek",
+              "learn": "Teken vanaf punt 14 tot en met punt 26 de smalle hals waar het lemmet de handgreep raakt. Dit is het dunste deel van het hele gereedschap, dus houd de lijnen dicht bij elkaar en gecontroleerd.",
+              "fact": "De hals van een troffel is meestal het sterkste deel van het hele gereedschap, omdat alle duw- en hefkracht die vrijkomt bij het graven, precies door dat smalle gedeelte loopt."
+            },
+            {
+              "range": "27–39",
+              "title": "Het handvat",
+              "learn": "Verbind tot slot de punten 27 tot en met 39 om de afgeronde steel te tekenen die een tuinier vasthoudt tijdens het graven. Nog maar dertien punten te gaan — een stevige, zelfverzekerde afwerking hier maakt het gereedschap af.",
+              "fact": "De handvatten van een tuinschep zijn vaak iets breder aan het uiteinde, zodat het gereedschap niet uit de hand van de tuinier glijdt, vooral niet wanneer de handpalmen vochtig worden van het werken in natte grond."
+            }
+          ],
+          "outro": "Goed gedaan! Je troffel is klaar om te graven! Verf het blad glanzend metaalgrijs en geef de steel een felle kleur naar keuze. Vond je dit leuk? Bekijk dan onze <a href=\"/dinosaurs/\">dinosaur punt-tot-punt printbare</a> collectie voor een compleet ander soort graafwerk.",
+          "color_schemes": []
+        }
+      }
+    },
+    {
+      "slug": "wheelbarrow-playground-dot-to-dot-puzzle",
+      "header": {
+        "title": "Kruiwagen Stippen Verbinden — Werkblad met 85 Stippen",
+        "meta_description": "Kruiwagens werden meer dan 2.000 jaar geleden uitgevonden in het oude China. Bouw er een over 85 punten met deze gratis afdrukbare PDF voor 5–9 jaar.",
+        "og": {
+          "title": "Kruiwagen Stippen Verbinden — Werkblad met 85 Stippen",
+          "description": "Kruiwagens werden meer dan 2.000 jaar geleden uitgevonden in het oude China. Bouw er een over 85 punten met deze gratis afdrukbare PDF voor 5–9 jaar.",
+          "image_alt": "Stevige tuinkruiwagen die tevoorschijn komt uit 85 stippen op een printklare PDF-puzzel"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Kruiwagen Speeltuin",
+          "description": "Kruiwagens werden meer dan 2.000 jaar geleden uitgevonden in het oude China. Bouw er een over 85 punten met deze gratis afdrukbare PDF voor 5–9 jaar.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
+      },
+      "body": {
+        "h1": "Kruiwagen Punt tot Punt Afdrukbaar — 85 Punten om te Volgen",
+        "name": "Kruiwagen Speeltuin",
+        "tagline": "Laad hem in en rijden maar!",
+        "description": "Verbind 85 stippen om een ​​stevige tuinkruiwagen te onthullen. Deze puzzel van gemiddelde moeilijkheidsgraad is een goede oefening voor kinderen die de makkelijkere puzzels al onder de knie hebben en klaar zijn voor een langere, meer gedetailleerde afbeelding.",
+        "fun_fact": "De kruiwagen werd meer dan 2.000 jaar geleden uitgevonden in het oude China. Vroege versies konden meerdere mensen tegelijk dragen en werden zelfs gebruikt om soldaten te verplaatsen tijdens oorlogstijd.",
+        "faqs": [
+          {
+            "q": "Hoeveel stippen heeft de punt-tot-punt puzzel van de kruiwagen speeltuin?",
+            "a": "De printbare 'Kruiwagen Speeltuin'-puzzel heeft 85 genummerde stippen. Het is een puzzel van gemiddelde moeilijkheidsgraad, het meest geschikt voor kinderen van 6-9 jaar (groep 1 t/m 3). Kinderen verbinden de stippen in de juiste volgorde om de complete afbeelding van de kruiwagen speeltuin te onthullen en deze vervolgens in te kleuren."
+          },
+          {
+            "q": "Is de punt-na-punt-tekening van de kruiwagen-speeltuin gratis te printen?",
+            "a": "Ja. Het werkblad 'Kruiwagen Speeltuin' is 100% gratis te downloaden van DotToDotFreePrintables.com — er is geen account, e-mailadres of betaling vereist. Het wordt direct gedownload als een printklaar PDF-bestand in zowel portret- als landschapsformaat, geschikt voor US Letter of A4-papier."
+          },
+          {
+            "q": "Voor welke leeftijd is het verbind-de-punten-werkblad 'Kruiwagen Speeltuin' het meest geschikt?",
+            "a": "Met 85 stippen is de Wheelbarrow Playground-puzzel het meest geschikt voor kinderen van 6-9 jaar (groep 1 t/m 3). Jongere kinderen kunnen er plezier aan beleven met een beetje hulp van een volwassene die meetelt, terwijl gevorderde tellers de puzzel zelfstandig kunnen maken en oefenen met getallenreeksen tot 85."
+          },
+          {
+            "q": "Welke vaardigheden worden er geleerd met de punt-tot-punt-puzzel van Wheelbarrow Playground?",
+            "a": "Het verbinden van de 85 stippen van de puzzel 'Kruiwagen Speeltuin' bevordert getalherkenning en tellen tot 85, potloodbeheersing, hand-oogcoördinatie en concentratievermogen – dezelfde fijne motorische vaardigheden die de basis vormen voor vroeg leren schrijven. Het inkleuren van de voltooide afbeelding is een extra creatieve beloning."
+          },
+          {
+            "q": "Wat is een leuk weetje over de kruiwagenspeeltuin?",
+            "a": "De kruiwagen werd meer dan 2000 jaar geleden in het oude China uitgevonden. Vroege versies konden meerdere mensen tegelijk vervoeren en werden zelfs gebruikt om soldaten te verplaatsen tijdens oorlogstijd. Kinderen ontdekken dit soort weetjes tijdens het invullen van de punt-na-punt puzzel 'Kruiwagen Speeltuin'."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Deze tuinkruiwagenpuzzel bestaat uit 85 stippen en vier secties. Hij is iets uitdagender dan de eenvoudigste tuinpuzzels, maar nog steeds makkelijk in één keer af te maken. Begin met het wiel, dan de bak, het frame en de poten, en tot slot de handvatten. Zoek stip 1 aan de voorkant van het wiel en laten we beginnen!",
+          "sections": [
+            {
+              "range": "1–21",
+              "title": "Het Wiel",
+              "learn": "Begin bij punt 1 en verbind deze met punt 21 om het ronde wiel aan de voorkant van de kruiwagen te tekenen. Cirkelvormen vereisen iets meer aandacht dan rechte lijnen, dus zorg voor langzame, gelijkmatige streken terwijl de curve zich vormt.",
+              "fact": "Een enkel wiel aan de voorkant zorgt ervoor dat een kruiwagen gemakkelijk kan draaien in krappe ruimtes. Dat is precies de reden waarom tuinliefhebbers dit ontwerp nog steeds verkiezen boven een tweewielige kar voor het verplaatsen van aarde en planten in bloembedden."
+            },
+            {
+              "range": "22–43",
+              "title": "De lade",
+              "learn": "Ga verder van punt 22 naar punt 43 om de brede, schuine bak te vormen waarop alles ligt wat de kruiwagen vervoert. De schuine zijkanten van de bak voorkomen dat hij omvalt, dus teken ze zorgvuldig over om die helling vast te leggen.",
+              "fact": "De bak van de meeste kruiwagens loopt taps toe, smaller aan de voorkant en breder aan de achterkant. Deze vorm voorkomt dat een zware, ongelijkmatige lading naar voren schuift en over het wiel heen valt."
+            },
+            {
+              "range": "44–64",
+              "title": "Het frame en de poten",
+              "learn": "Werk van punt 44 tot punt 64 om het frame onder de lade te bouwen en de twee poten die de lade ondersteunen wanneer deze rust. Deze lijnen zijn rechter en stabieler, een prettige afwisseling na het gebogen gedeelte van de lade.",
+              "fact": "De twee steunpoten aan de achterkant van een kruiwagen raken alleen de grond als deze geparkeerd staat. Til de handvatten op en al het gewicht verschuift naar voren, naar het ene wiel. Daardoor is een volle lading veel gemakkelijker te duwen."
+            },
+            {
+              "range": "65–85",
+              "title": "De handgrepen",
+              "learn": "Verbind tot slot de punten 65 tot en met 85 om de twee handvatten te tekenen waarmee een tuinman de last stuurt en optilt. Er zijn nog 21 punten over op het laatste stuk – zorg dat de lijnen recht blijven en maak het af met een krachtige afwerking.",
+              "fact": "Lange handgrepen werken als een hefboom. Ze stellen één persoon in staat een last op te tillen en in evenwicht te houden die anders te zwaar of onhandig zou zijn om met de hand te dragen. Dat is precies de truc achter de werking van een kruiwagen."
+            }
+          ],
+          "outro": "Dat is een goed gevulde kruiwagen, klaar voor de tuin! Kleur de bak aardebruin of verf hem felrood zoals een klassieke kruiwagen, en stapel er vervolgens wat bloemen of groenten naar eigen smaak op. Klaar voor iets groters? Probeer dan onze <a href=\"/playgrounds/roller-coaster-playground-dot-to-dot-puzzle/\">achtbaan speeltuin puzzel</a> eens.",
+          "color_schemes": []
+        }
+      }
+    }
+  ]
+}

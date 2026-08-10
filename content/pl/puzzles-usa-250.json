@@ -1,706 +1,1016 @@
-[
-  {
-    "slug": "gas-balloon-usa-250-dot-to-dot-puzzle",
+{
+  "collection": {
     "header": {
-      "title": "Balon Gazowy – Ameryka 250 lat, Łącz Kropki 48 Kropek do Druku",
-      "meta_description": "Połącz 48 prostych kropek, aby odkryć wspaniały balon gazowy unoszący się nad obchodami 250. rocznicy powstania Ameryki. Darmowa karta pracy do druku dla małych dzieci, ćwicząca liczenie i panowanie nad ołówkiem, na zajęcia o historii USA.",
+      "title": "America 250 Dot to Dot Printables — Free PDF for Kids",
+      "meta_description": "Celebrate America's 250th anniversary in 2026 with free patriotic dot to dot printables for kids ages 4-10: fireworks, Liberty Bell, bald eagle, astronaut, and Space Shuttle. Print-ready PDF worksheets for classrooms across the USA.",
       "og": {
+        "title": "11 Free America 250 Dot to Dot Printables",
+        "description": "Fireworks, Liberty Bell, bald eagle, astronaut, and more patriotic dot to dot printables for America's 250th.",
+        "image": "/images/gas-balloon-usa-250-puzzle.webp"
+      },
+      "json_ld": {
+        "type": "CollectionPage",
+        "name": "Ameryka 250 lat",
+        "description": "Świętuj 250. urodziny Ameryki! Połącz kropki, aby odkryć patriotyczne sceny i kultowe amerykańskie symbole. Wszystkie arkusze ćwiczeń można pobrać i wydrukować bezpłatnie — nie jest wymagane konto.",
+        "image": "/images/gas-balloon-usa-250-puzzle.webp",
+        "main_entity": {
+          "type": "ItemList",
+          "item_source": "puzzles"
+        }
+      },
+      "breadcrumb_json_ld": {
+        "type": "BreadcrumbList",
+        "items": [
+          {
+            "position": 1,
+            "name": "Home",
+            "path": "/"
+          },
+          {
+            "position": 2,
+            "name": "Ameryka 250 lat",
+            "path": "/usa-250/"
+          }
+        ]
+      }
+    },
+    "body": {
+      "h1": "250 lat Ameryki – materiały do ​​łączenia kropek dla dzieci",
+      "name": "Ameryka 250 lat",
+      "tagline": "Dlaczego dzieci kochają Amerykę? 250 łamigłówek typu „połącz kropki”",
+      "description": "Świętuj 250. urodziny Ameryki! Połącz kropki, aby odkryć patriotyczne sceny i kultowe amerykańskie symbole. Wszystkie arkusze ćwiczeń można pobrać i wydrukować bezpłatnie — nie jest wymagane konto.",
+      "hero_image": "/images/gas-balloon-usa-250-puzzle.webp",
+      "slug": "usa-250",
+      "faqs": [
+        {
+          "q": "Ile jest darmowych materiałów do druku, które można połączyć kropkami w grze America 250?",
+          "a": "Kategoria „Ameryka 250” oferuje obecnie 11 darmowych arkuszy do łączenia kropek, o rozmiarach od 48 do 124 punktów. Każdy arkusz jest natychmiast pobierany w formacie PDF gotowym do druku (Letter lub A4, w orientacji pionowej lub poziomej) bez konieczności rejestracji."
+        },
+        {
+          "q": "Czy łamigłówki „America 250” można wydrukować za darmo?",
+          "a": "Tak — wszystkie 11 łamigłówek z kolekcji America 250 jest całkowicie darmowych do użytku domowego i szkolnego. Na DotToDotFreePrintables.com nie jest wymagane żadne konto, adres e-mail ani płatność."
+        },
+        {
+          "q": "Dla dzieci w jakim wieku przeznaczone są puzzle America 250?",
+          "a": "Kolekcja America 250, z liczbą kropek od 48 do 124, jest przeznaczona dla dzieci w wieku od 4 do 12 lat. Wybierz mniejszą liczbę kropek dla przedszkolaków, a większą dla uczniów klas 2–6, którzy mają pewność siebie."
+        },
+        {
+          "q": "Czym są łamigłówki typu „połącz kropki” z gry America 250?",
+          "a": "Zbiór 11 bezpłatnych, patriotycznych materiałów do druku upamiętniających 250. rocznicę powstania Stanów Zjednoczonych (półpięćsetną rocznicę), która przypada 4 lipca 2026 r. — w tym baner z orłem, Dzwon Wolności, fajerwerki, astronauta, wahadłowiec kosmiczny, tort urodzinowy i wzory balonów na ogrzane powietrze w rozmiarach od 48 do 124 kropek."
+        },
+        {
+          "q": "Czy nadają się one na zajęcia klasowe z okazji 4 lipca?",
+          "a": "Tak. Kolekcja America 250 została zaprojektowana z myślą o obchodach Dnia Niepodległości 2026, zajęciach z wiedzy o społeczeństwie w klasach oraz planach imprezowych. Wydrukuj pełne zestawy zajęć za darmo — bez licencji i rejestracji."
+        }
+      ]
+    }
+  },
+  "puzzles": [
+    {
+      "slug": "gas-balloon-usa-250-dot-to-dot-puzzle",
+      "header": {
         "title": "Balon Gazowy – Ameryka 250 lat, Łącz Kropki 48 Kropek do Druku",
-        "description": "Połącz 48 prostych kropek, aby odkryć wspaniały balon gazowy unoszący się nad obchodami 250. rocznicy powstania Ameryki. Darmowa karta pracy do druku dla małych dzieci, ćwicząca liczenie i panowanie nad ołówkiem, na zajęcia o historii USA.",
-        "image_alt": "Balon gazowy unoszący się nad obchodami 250. rocznicy Ameryki, złożony z 48 ponumerowanych kropek"
+        "meta_description": "Połącz 48 prostych kropek, aby odkryć wspaniały balon gazowy unoszący się nad obchodami 250. rocznicy powstania Ameryki. Darmowa karta pracy do druku dla małych dzieci, ćwicząca liczenie i panowanie nad ołówkiem, na zajęcia o historii USA.",
+        "og": {
+          "title": "Balon Gazowy – Ameryka 250 lat, Łącz Kropki 48 Kropek do Druku",
+          "description": "Połącz 48 prostych kropek, aby odkryć wspaniały balon gazowy unoszący się nad obchodami 250. rocznicy powstania Ameryki. Darmowa karta pracy do druku dla małych dzieci, ćwicząca liczenie i panowanie nad ołówkiem, na zajęcia o historii USA.",
+          "image_alt": "Balon gazowy unoszący się nad obchodami 250. rocznicy Ameryki, złożony z 48 ponumerowanych kropek"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Balon gazowy Ameryka 250",
+          "description": "Połącz 48 prostych kropek, aby odkryć wspaniały balon gazowy unoszący się nad obchodami 250. rocznicy powstania Ameryki. Darmowa karta pracy do druku dla małych dzieci, ćwicząca liczenie i panowanie nad ołówkiem, na zajęcia o historii USA.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
       },
-      "json_ld": {
-        "type": "CreativeWork",
+      "body": {
+        "h1": "Amerykański balon gazowy 250 Kropka do Kropki — 48 kropek w powietrzu",
         "name": "Balon gazowy Ameryka 250",
-        "description": "Połącz 48 prostych kropek, aby odkryć wspaniały balon gazowy unoszący się nad obchodami 250. rocznicy powstania Ameryki. Darmowa karta pracy do druku dla małych dzieci, ćwicząca liczenie i panowanie nad ołówkiem, na zajęcia o historii USA.",
-        "image": "",
-        "educational_use": "Fine motor skills, number sequencing",
-        "age_range": ""
-      }
-    },
-    "body": {
-      "h1": "Amerykański balon gazowy 250 Kropka do Kropki — 48 kropek w powietrzu",
-      "name": "Balon gazowy Ameryka 250",
-      "tagline": "Świętuj 250 lat Ameryki!",
-      "description": "Połącz 48 prostych kropek, aby odkryć wspaniały balon gazowy unoszący się nad obchodami 250. rocznicy powstania Ameryki! Ta darmowa karta pracy do wydrukowania pomoże małym dzieciom ćwiczyć sekwencję liczb i panowanie nad ołówkiem, jednocześnie upamiętniając 250 lat historii Ameryki.",
-      "fun_fact": "Pierwszy lot balonem gazowym w Ameryce odbył się w 1793 roku — sam George Washington oglądał jego start w Filadelfii!",
-      "dot_guide": {
-        "intro": "Ameryka obchodzi 250-lecie – ćwierć tysiąclecia historii, wynalazków i przygód! Czy istnieje lepszy sposób na świętowanie niż wznoszenie się nad uroczystościami w majestatycznym balonie gazowym? Balony gazowe były jednymi z pierwszych maszyn latających, a Amerykanie kochali je od zarania dziejów republiki. Weź ołówek, znajdź punkt 1 i wyślijmy ten balon w niebo, by świętować!",
-        "sections": [
+        "tagline": "Świętuj 250 lat Ameryki!",
+        "description": "Połącz 48 prostych kropek, aby odkryć wspaniały balon gazowy unoszący się nad obchodami 250. rocznicy powstania Ameryki! Ta darmowa karta pracy do wydrukowania pomoże małym dzieciom ćwiczyć sekwencję liczb i panowanie nad ołówkiem, jednocześnie upamiętniając 250 lat historii Ameryki.",
+        "fun_fact": "Pierwszy lot balonem gazowym w Ameryce odbył się w 1793 roku — sam George Washington oglądał jego start w Filadelfii!",
+        "faqs": [
           {
-            "range": "1–10",
-            "title": "Koperta balonowa",
-            "learn": "Zacznij od punktu 1 i połącz z punktem 10, aby narysować dużą, zaokrągloną górę koperty balonu – dużego, kolorowego worka, który gromadzi gaz i nadaje balonowi klasyczny kształt. Dzieci ćwiczą tu szerokie, zamaszyste łuki, które doskonale nadają się do ćwiczenia płynności ruchów ołówkiem i elastyczności nadgarstka.",
-            "fact": "Balony gazowe są wypełnione gazem lżejszym od powietrza, obecnie często helem, co zapewnia wystarczającą wyporność, aby unieść kosz. Powłoka może pomieścić tysiące stóp sześciennych gazu, a jej okrągły kształt pomaga równomiernie rozprowadzić ciśnienie we wszystkich kierunkach."
+            "q": "Ile kropek ma układanka „Gas Balloon America 250”?",
+            "a": "Zestaw do łączenia kropek „Gas Balloon America 250” do wydrukowania zawiera 48 ponumerowanych kropek. To sprawia, że ​​jest to układanka o łatwym lub średnim stopniu trudności, idealna dla dzieci w wieku 5–8 lat (od przedszkola do drugiej klasy). Dzieci łączą kropki w kolejności numerycznej, aby odsłonić gotowy obrazek „Gas Balloon America 250”, a następnie go kolorują."
           },
           {
-            "range": "11–22",
-            "title": "Szczegóły dotyczące gwiazd i pasów",
-            "learn": "Kontynuuj od punktu 11 do punktu 22, aby dodać ozdobne linie paneli i patriotyczne detale, które oplatają balon. Koperty balonów są zazwyczaj wykonane z wielu oddzielnych paneli zszytych ze sobą, a te linie szwów tworzą piękne geometryczne wzory, które widać na gotowym obrazku. Dzieci ćwiczą tutaj krótsze, bardziej kierunkowe pociągnięcia.",
-            "fact": "Wcześni amerykańscy baloniarze często ozdabiali swoje balony patriotycznymi barwami i symbolami, aby uczcić powstanie nowego państwa. Ustawa o fladze z 1818 roku ustanowiła współczesną zasadę 13 pasów, z jedną gwiazdą na każdy stan. Właśnie dlatego symbol „Gwiazdy i Pasy” mógł się powiększać wraz z przystępowaniem kolejnych stanów do Stanów Zjednoczonych."
+            "q": "Czy kolorowankę „Gas Balloon America 250” można wydrukować za darmo?",
+            "a": "Tak. Arkusz kalkulacyjny „Gas Balloon America 250” można pobrać całkowicie za darmo ze strony DotToDotFreePrintables.com — bez konieczności zakładania konta, zakładania adresu e-mail ani dokonywania płatności. Pobiera się natychmiast w formacie PDF gotowym do druku, zarówno w orientacji pionowej, jak i poziomej, w formacie US Letter lub A4."
           },
           {
-            "range": "23–34",
-            "title": "Siatka i pierścień obciążeniowy",
-            "learn": "Obrysuj kropki od 23 do 34, aby narysować siatkę oplatającą balon oraz pierścień nośny – okrągłą obręcz na samym dole koperty, gdzie wisi kosz. Dzieci ćwiczą siatkę krzyżujących się linii, co jest świetnym ćwiczeniem precyzji i planowania z wyprzedzeniem.",
-            "fact": "Siatka linowa wokół wielu balonów gazowych pełni nie tylko funkcję dekoracyjną – pomaga rozłożyć ciężar kosza i pasażerów na całej powierzchni balonu. Rozłożenie ciężaru na wielu linach pomaga balonowi zachować równowagę i wytrzymałość."
+            "q": "Dla dzieci w jakim wieku najlepiej sprawdzi się karta pracy „Gas Balloon America 250 Connect-the-Dots”?",
+            "a": "Puzzle Gas Balloon America 250, składające się z 48 punktów, najlepiej sprawdzą się dla dzieci w wieku 5–8 lat (od przedszkola do drugiej klasy). Młodsze dzieci mogą czerpać z nich radość, korzystając z lekkiej pomocy dorosłych, a doświadczone liczmany mogą je układać samodzielnie i ćwiczyć sekwencję liczb do 48."
           },
           {
-            "range": "35–42",
-            "title": "Liny i kosz do zawieszania",
-            "learn": "Połącz kropki od 35 do 42, aby narysować liny nośne zwisające z pierścienia ładunkowego oraz wiklinowy kosz wiszący u dołu. Kosz – zwany gondolą – to miejsce, w którym stoją pilot i pasażerowie. Dzieci ćwiczą linie równoległe zbiegające się w jeden kształt, co rozwija wspaniałe umiejętności wnioskowania przestrzennego.",
-            "fact": "Kosze na balony są wytwarzane z wikliny od ponad 200 lat i do dziś pozostaje ona ulubionym materiałem. Wiklina jest lekka i elastyczna, dzięki czemu może delikatnie wyginać się podczas lądowania. Czasami stare metody są naprawdę najlepsze!"
+            "q": "Jakich umiejętności uczy układanka Gas Balloon America 250?",
+            "a": "Połączenie 48 kropek układanki Gas Balloon America 250 rozwija umiejętności rozpoznawania liczb i liczenia do 48, panowania nad ołówkiem, koordynacji wzrokowo-ruchowej i skupienia uwagi – te same podstawy motoryki małej, które wspierają wczesne pisanie odręczne. Pokolorowanie gotowego obrazka to nagroda za kreatywność."
           },
           {
-            "range": "43–48",
-            "title": "Flaga i ostatnie szlify",
-            "learn": "Ukończ układankę, łącząc kropki od 43 do 48, aby dodać flagę amerykańską i ostatnie, uroczyste detale. Wystarczy sześć kropek, aby scalić całą scenę — zachęć dzieci do zwolnienia tempa i wykorzystania tych ostatnich linii w najlepszy możliwy sposób. Czyste, pewne wykończenie to znak rozpoznawczy prawdziwego eksperta w łączeniu kropek!",
-            "fact": "Pierwszym amerykańskim pilotem balonu był Jean-Pierre Blanchard, Francuz, który odbył swój historyczny lot z Filadelfii 9 stycznia 1793 r. Prezydent George Washington dał mu list gwarantujący bezpieczną podróż, który miał wręczać każdemu, kogo spotka po wylądowaniu. Okazało się to bardzo przydatne, ponieważ wylądował na polu uprawnym w New Jersey i musiał wyjaśnić, kim jest!"
+            "q": "Jaka jest ciekawostka na temat balonu gazowego America 250?",
+            "a": "Pierwszy lot balonu gazowego w Ameryce odbył się w 1793 roku — sam George Washington oglądał jego start w Filadelfii! Dzieci odkrywają takie fakty, rozwiązując łamigłówkę „Gas Balloon America 250”."
           }
         ],
-        "outro": "Wspaniała praca — Twój balon gazowy America 250 jest gotowy do lotu! To 48 kropek i całe niebo pełne radości. Pokoloruj go na czerwono, biało i niebiesko, aby uczcić niesamowite 250. urodziny Ameryki. Wszystkiego najlepszego z okazji rocznicy, USA! Idealny do klasy — zobacz więcej <a href=\"/playgrounds/\">arkuszów do łączenia kropek</a>.",
-        "color_schemes": []
+        "dot_guide": {
+          "intro": "Ameryka obchodzi 250-lecie – ćwierć tysiąclecia historii, wynalazków i przygód! Czy istnieje lepszy sposób na świętowanie niż wznoszenie się nad uroczystościami w majestatycznym balonie gazowym? Balony gazowe były jednymi z pierwszych maszyn latających, a Amerykanie kochali je od zarania dziejów republiki. Weź ołówek, znajdź punkt 1 i wyślijmy ten balon w niebo, by świętować!",
+          "sections": [
+            {
+              "range": "1–10",
+              "title": "Koperta balonowa",
+              "learn": "Zacznij od punktu 1 i połącz z punktem 10, aby narysować dużą, zaokrągloną górę koperty balonu – dużego, kolorowego worka, który gromadzi gaz i nadaje balonowi klasyczny kształt. Dzieci ćwiczą tu szerokie, zamaszyste łuki, które doskonale nadają się do ćwiczenia płynności ruchów ołówkiem i elastyczności nadgarstka.",
+              "fact": "Balony gazowe są wypełnione gazem lżejszym od powietrza, obecnie często helem, co zapewnia wystarczającą wyporność, aby unieść kosz. Powłoka może pomieścić tysiące stóp sześciennych gazu, a jej okrągły kształt pomaga równomiernie rozprowadzić ciśnienie we wszystkich kierunkach."
+            },
+            {
+              "range": "11–22",
+              "title": "Szczegóły dotyczące gwiazd i pasów",
+              "learn": "Kontynuuj od punktu 11 do punktu 22, aby dodać ozdobne linie paneli i patriotyczne detale, które oplatają balon. Koperty balonów są zazwyczaj wykonane z wielu oddzielnych paneli zszytych ze sobą, a te linie szwów tworzą piękne geometryczne wzory, które widać na gotowym obrazku. Dzieci ćwiczą tutaj krótsze, bardziej kierunkowe pociągnięcia.",
+              "fact": "Wcześni amerykańscy baloniarze często ozdabiali swoje balony patriotycznymi barwami i symbolami, aby uczcić powstanie nowego państwa. Ustawa o fladze z 1818 roku ustanowiła współczesną zasadę 13 pasów, z jedną gwiazdą na każdy stan. Właśnie dlatego symbol „Gwiazdy i Pasy” mógł się powiększać wraz z przystępowaniem kolejnych stanów do Stanów Zjednoczonych."
+            },
+            {
+              "range": "23–34",
+              "title": "Siatka i pierścień obciążeniowy",
+              "learn": "Obrysuj kropki od 23 do 34, aby narysować siatkę oplatającą balon oraz pierścień nośny – okrągłą obręcz na samym dole koperty, gdzie wisi kosz. Dzieci ćwiczą siatkę krzyżujących się linii, co jest świetnym ćwiczeniem precyzji i planowania z wyprzedzeniem.",
+              "fact": "Siatka linowa wokół wielu balonów gazowych pełni nie tylko funkcję dekoracyjną – pomaga rozłożyć ciężar kosza i pasażerów na całej powierzchni balonu. Rozłożenie ciężaru na wielu linach pomaga balonowi zachować równowagę i wytrzymałość."
+            },
+            {
+              "range": "35–42",
+              "title": "Liny i kosz do zawieszania",
+              "learn": "Połącz kropki od 35 do 42, aby narysować liny nośne zwisające z pierścienia ładunkowego oraz wiklinowy kosz wiszący u dołu. Kosz – zwany gondolą – to miejsce, w którym stoją pilot i pasażerowie. Dzieci ćwiczą linie równoległe zbiegające się w jeden kształt, co rozwija wspaniałe umiejętności wnioskowania przestrzennego.",
+              "fact": "Kosze na balony są wytwarzane z wikliny od ponad 200 lat i do dziś pozostaje ona ulubionym materiałem. Wiklina jest lekka i elastyczna, dzięki czemu może delikatnie wyginać się podczas lądowania. Czasami stare metody są naprawdę najlepsze!"
+            },
+            {
+              "range": "43–48",
+              "title": "Flaga i ostatnie szlify",
+              "learn": "Ukończ układankę, łącząc kropki od 43 do 48, aby dodać flagę amerykańską i ostatnie, uroczyste detale. Wystarczy sześć kropek, aby scalić całą scenę — zachęć dzieci do zwolnienia tempa i wykorzystania tych ostatnich linii w najlepszy możliwy sposób. Czyste, pewne wykończenie to znak rozpoznawczy prawdziwego eksperta w łączeniu kropek!",
+              "fact": "Pierwszym amerykańskim pilotem balonu był Jean-Pierre Blanchard, Francuz, który odbył swój historyczny lot z Filadelfii 9 stycznia 1793 r. Prezydent George Washington dał mu list gwarantujący bezpieczną podróż, który miał wręczać każdemu, kogo spotka po wylądowaniu. Okazało się to bardzo przydatne, ponieważ wylądował na polu uprawnym w New Jersey i musiał wyjaśnić, kim jest!"
+            }
+          ],
+          "outro": "Wspaniała praca — Twój balon gazowy America 250 jest gotowy do lotu! To 48 kropek i całe niebo pełne radości. Pokoloruj go na czerwono, biało i niebiesko, aby uczcić niesamowite 250. urodziny Ameryki. Wszystkiego najlepszego z okazji rocznicy, USA! Idealny do klasy — zobacz więcej <a href=\"/playgrounds/\">arkuszów do łączenia kropek</a>.",
+          "color_schemes": []
+        }
       }
-    }
-  },
-  {
-    "slug": "eagle-kite-banner-usa-250-dot-to-dot-puzzle",
-    "header": {
-      "title": "Bielik Amerykański z Transparentem – Ameryka 250, Łącz Kropki 80 Kropek",
-      "meta_description": "Połącz 80 prostych kropek, aby odkryć majestatycznego bielika amerykańskiego szybującego z patriotycznym transparentem na 250. rocznicę powstania Ameryki. Darmowa karta pracy do druku dla dzieci 5–9 lat, rozwijająca liczenie i motorykę małą.",
-      "og": {
+    },
+    {
+      "slug": "eagle-kite-banner-usa-250-dot-to-dot-puzzle",
+      "header": {
         "title": "Bielik Amerykański z Transparentem – Ameryka 250, Łącz Kropki 80 Kropek",
-        "description": "Połącz 80 prostych kropek, aby odkryć majestatycznego bielika amerykańskiego szybującego z patriotycznym transparentem na 250. rocznicę powstania Ameryki. Darmowa karta pracy do druku dla dzieci 5–9 lat, rozwijająca liczenie i motorykę małą.",
-        "image_alt": "Bielik amerykański z patriotycznym transparentem, złożony z 80 ponumerowanych kropek do połączenia"
+        "meta_description": "Połącz 80 prostych kropek, aby odkryć majestatycznego bielika amerykańskiego szybującego z patriotycznym transparentem na 250. rocznicę powstania Ameryki. Darmowa karta pracy do druku dla dzieci 5–9 lat, rozwijająca liczenie i motorykę małą.",
+        "og": {
+          "title": "Bielik Amerykański z Transparentem – Ameryka 250, Łącz Kropki 80 Kropek",
+          "description": "Połącz 80 prostych kropek, aby odkryć majestatycznego bielika amerykańskiego szybującego z patriotycznym transparentem na 250. rocznicę powstania Ameryki. Darmowa karta pracy do druku dla dzieci 5–9 lat, rozwijająca liczenie i motorykę małą.",
+          "image_alt": "Bielik amerykański z patriotycznym transparentem, złożony z 80 ponumerowanych kropek do połączenia"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Banderka latawca orła Amerykański 250",
+          "description": "Połącz 80 prostych kropek, aby odkryć majestatycznego bielika amerykańskiego szybującego z patriotycznym transparentem na 250. rocznicę powstania Ameryki. Darmowa karta pracy do druku dla dzieci 5–9 lat, rozwijająca liczenie i motorykę małą.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
       },
-      "json_ld": {
-        "type": "CreativeWork",
+      "body": {
+        "h1": "Latawiec orła Kropka do Kropki: 80 kropek dla Amerykańskiego 250",
         "name": "Banderka latawca orła Amerykański 250",
-        "description": "Połącz 80 prostych kropek, aby odkryć majestatycznego bielika amerykańskiego szybującego z patriotycznym transparentem na 250. rocznicę powstania Ameryki. Darmowa karta pracy do druku dla dzieci 5–9 lat, rozwijająca liczenie i motorykę małą.",
-        "image": "",
-        "educational_use": "Fine motor skills, number sequencing",
-        "age_range": ""
-      }
-    },
-    "body": {
-      "h1": "Latawiec orła Kropka do Kropki: 80 kropek dla Amerykańskiego 250",
-      "name": "Banderka latawca orła Amerykański 250",
-      "tagline": "Wzbij się w powietrze z American Eagle na 250. rocznicę USA!",
-      "description": "Połącz 80 prostych kropek, aby odkryć majestatycznego bielika amerykańskiego szybującego wysoko z patriotycznym transparentem, aby uczcić 250. rocznicę powstania Ameryki! Ta darmowa karta pracy do wydruku rozwija umiejętności liczenia i motoryki małej, a jednocześnie budzi dumę z 250 lat historii Ameryki. Idealna dla dzieci w wieku 5–9 lat.",
-      "fun_fact": "Bielik amerykański został przyjęty jako element Wielkiej Pieczęci Stanów Zjednoczonych w 1782 roku – zaledwie sześć lat po podpisaniu Deklaracji Niepodległości. Obecnie jest oficjalnym ptakiem narodowym, a jego wizerunek do dziś widnieje w paszportach, monetach i oficjalnych dokumentach rządowych!",
-      "dot_guide": {
-        "intro": "Ameryka obchodzi swoje 250. urodziny, a najbardziej ikoniczny symbol kraju – bielik amerykański – jest tu, by przewodzić uroczystościom! Z patriotycznym sztandarem powiewającym za nim, ten majestatyczny ptak szybuje wysoko nad uroczystością. Orły stoją za amerykańską wolnością i siłą od zarania dziejów republiki. Chwyć ołówek, znajdź punkt 1 i wyślijmy tego orła w powietrze!",
-        "sections": [
+        "tagline": "Wzbij się w powietrze z American Eagle na 250. rocznicę USA!",
+        "description": "Połącz 80 prostych kropek, aby odkryć majestatycznego bielika amerykańskiego szybującego wysoko z patriotycznym transparentem, aby uczcić 250. rocznicę powstania Ameryki! Ta darmowa karta pracy do wydruku rozwija umiejętności liczenia i motoryki małej, a jednocześnie budzi dumę z 250 lat historii Ameryki. Idealna dla dzieci w wieku 5–9 lat.",
+        "fun_fact": "Bielik amerykański został przyjęty jako element Wielkiej Pieczęci Stanów Zjednoczonych w 1782 roku – zaledwie sześć lat po podpisaniu Deklaracji Niepodległości. Obecnie jest oficjalnym ptakiem narodowym, a jego wizerunek do dziś widnieje w paszportach, monetach i oficjalnych dokumentach rządowych!",
+        "faqs": [
           {
-            "range": "1–16",
-            "title": "Głowa i dziób orła",
-            "learn": "Zacznij od punktu 1 i połącz go z punktem 16, aby narysować wyrazistą, białą głowę orła i ostry, zakrzywiony dziób. Te starannie ukierunkowane pociągnięcia pomogą dzieciom wyćwiczyć chwyt ołówka i zbudować pewność siebie, niezbędną do poruszania skrzydłami. Zachęcaj je do powolnego rysowania i precyzyjnego celowania w każdy punkt.",
-            "fact": "Bieliki amerykańskie wcale nie są łyse – ich nazwa pochodzi od staroangielskiego słowa „balde”, oznaczającego biały. Uderzające białe pióra na głowie pojawiają się, gdy ptak osiąga dorosłość, około piątego roku życia. Wcześniej młode orły mają brązowo-białe, nakrapiane upierzenie, przez co znacznie trudniej je rozpoznać."
+            "q": "Ile kropek ma układanka „Połącz kropki” Eagle Kite Banner America 250?",
+            "a": "Zestaw do łączenia kropek „Orle Kite Banner America 250” do wydrukowania zawiera 80 ponumerowanych kropek. Dzięki temu jest to układanka średniej wielkości, idealna dla dzieci w wieku 6–9 lat (klasy 1–3). Dzieci łączą kropki w kolejności numerycznej, aby odsłonić gotowy obrazek „Orle Kite Banner America 250”, a następnie go kolorują."
           },
           {
-            "range": "17–36",
-            "title": "Rozpostarte skrzydła",
-            "learn": "Kontynuuj od punktu 17 do punktu 36, aby narysować potężne, rozpostarte skrzydła orła – najbardziej dramatyczną część obrazu. Te długie, zamaszyste pociągnięcia od czubków skrzydeł do tułowia to wspaniałe ćwiczenie giętkości nadgarstków i płynnej kontroli linii. Dzieci ćwiczą utrzymywanie spójnego kierunku na większej powierzchni strony.",
-            "fact": "Rozpiętość skrzydeł bielika amerykańskiego może sięgać nawet 2,4 metra – prawie 2,5 metra od czubka do czubka – co czyni go jednym z największych ptaków drapieżnych w Ameryce Północnej. Te potężne skrzydła pozwalają orłom szybować na prądach termicznych ciepłego, unoszącego się powietrza przez wiele godzin bez jednego uderzenia skrzydłami, pokonując ogromne odległości z minimalnym wysiłkiem."
+            "q": "Czy baner „Eagle Kite Banner America 250” można wydrukować bezpłatnie?",
+            "a": "Tak. Arkusz kalkulacyjny Eagle Kite Banner America 250 można pobrać całkowicie za darmo ze strony DotToDotFreePrintables.com — bez konieczności zakładania konta, zakładania adresu e-mail ani dokonywania płatności. Pobiera się natychmiast w formacie PDF gotowym do druku, zarówno w orientacji pionowej, jak i poziomej, w formacie US Letter lub A4."
           },
           {
-            "range": "37–54",
-            "title": "Pióra ogonowe i szpony",
-            "learn": "Obrysuj punkty od 37 do 54, aby dodać wachlarz białych piór ogonowych i potężne, zakrzywione pazury poniżej. Dzieci ćwiczą kombinację wachlarzowych pociągnięć dla piór i ostrych, precyzyjnych krzywizn dla każdego pazura – to świetne połączenie, które pozwala budować płynność i kontrolę w jednej sekcji.",
-            "fact": "Pazury orła są jego głównym narzędziem łowieckim, zdolnym do chwytania z siłą około 400 funtów na cal kwadratowy – wielokrotnie większą niż ludzka dłoń. Bielik amerykański ma również specjalnie szorstką, kolczastą fakturę na podeszwach stóp, zwaną kolcami, która pomaga mu chwytać śliskie ryby wyłowione prosto z rzek i jezior."
+            "q": "Dla dzieci w jakim wieku najlepiej sprawdzi się karta pracy „Połącz kropki Eagle Kite Banner America 250”?",
+            "a": "Puzzle Eagle Kite Banner America 250, z 80 punktami, najlepiej sprawdzą się u dzieci w wieku 6–9 lat (klasy 1–3). Młodsze dzieci mogą czerpać z nich radość, korzystając z lekkiej pomocy dorosłych, a doświadczone liczmany mogą je układać samodzielnie i ćwiczyć sekwencję liczb do 80."
           },
           {
-            "range": "55–68",
-            "title": "Patriotyczny Sztandar",
-            "learn": "Połącz kropki od 55 do 68, aby narysować powiewający sztandar, który powiewa za orłem. Wstążkowate krzywizny sztandaru w ruchu stanowią doskonałe wyzwanie dla płynnej, płynnej pracy. Zachęć dzieci, aby wyobrażały sobie sztandar łopoczący na letnim wietrze, rysując każdy delikatny łuk.",
-            "fact": "Na wielu znanych amerykańskich emblematach i pieczęciach orzeł bielik trzyma w dziobie sztandar lub wstęgę. Na Wielkiej Pieczęci Stanów Zjednoczonych orzeł trzyma wstęgę z napisem „E Pluribus Unum” – po łacinie „Z wielu, jeden” – dewiza, która widnieje na amerykańskich monetach i dokumentach od 1782 roku."
+            "q": "Jakich umiejętności uczy układanka Eagle Kite Banner America 250 polegająca na łączeniu kropek?",
+            "a": "Połączenie 80 kropek układanki Eagle Kite Banner America 250 rozwija umiejętności rozpoznawania liczb i liczenia do 80, panowania nad ołówkiem, koordynacji wzrokowo-ruchowej i skupienia – te same podstawy motoryki małej, które wspierają wczesne pisanie odręczne. Pokolorowanie gotowego obrazka to nagroda za kreatywność."
           },
           {
-            "range": "69–80",
-            "title": "Gwiazdy i ostatnie szlify",
-            "learn": "Ukończ układankę, łącząc kropki od 69 do 80, aby dodać patriotyczne gwiazdy i ostatnie, uroczyste detale, które ożywią całą scenę. Wystarczy dwanaście kropek, aby dokończyć obrazek — zachęć dzieci do zwolnienia tempa i jak najlepszego wykonania tych ostatnich linii. Czyste, staranne wykończenie to znak rozpoznawczy prawdziwego mistrza łączenia kropek!",
-            "fact": "50 gwiazd na fladze amerykańskiej reprezentuje każdy z 50 stanów wchodzących w skład unii. Flaga była aktualizowana 27 razy wraz z przyłączaniem nowych stanów – ostatnia zmiana miała miejsce w 1960 roku, kiedy dodano gwiazdę Hawajów. Obecny wzór z 50 gwiazdami jest oficjalną flagą dłużej niż jakakolwiek inna wersja w historii Ameryki."
+            "q": "Jaka jest ciekawostka na temat Eagle Kite Banner America 250?",
+            "a": "Bielik amerykański został przyjęty jako element Wielkiej Pieczęci Stanów Zjednoczonych w 1782 roku – zaledwie sześć lat po podpisaniu Deklaracji Niepodległości. Obecnie jest oficjalnym ptakiem narodowym, a jego wizerunek do dziś widnieje na paszportach, monetach i oficjalnych dokumentach rządowych! Dzieci odkrywają takie ciekawostki, rozwiązując łamigłówkę „Orle Kite Banner America 250” z 250 punktami."
           }
         ],
-        "outro": "Wspaniała robota — Twój orzeł z okazji 250. urodzin Ameryki szybuje z dumą! To 80 kropek i jeden spektakularny symbol amerykańskiej wolności. Pokoloruj orła na brązowo-biały kolor, sztandar na czerwono-złoto, a gwiazdy na czerwono, biało-niebiesko, aby oddać Ameryce jak najbardziej patriotyczny hołd z okazji 250. urodzin. Wszystkiego najlepszego z okazji rocznicy, USA! Odkryj więcej <a href=\"/usa-250/\">materiałów do druku z okazji 250. urodzin Ameryki</a>, aby podtrzymać świętowanie.",
-        "color_schemes": []
+        "dot_guide": {
+          "intro": "Ameryka obchodzi swoje 250. urodziny, a najbardziej ikoniczny symbol kraju – bielik amerykański – jest tu, by przewodzić uroczystościom! Z patriotycznym sztandarem powiewającym za nim, ten majestatyczny ptak szybuje wysoko nad uroczystością. Orły stoją za amerykańską wolnością i siłą od zarania dziejów republiki. Chwyć ołówek, znajdź punkt 1 i wyślijmy tego orła w powietrze!",
+          "sections": [
+            {
+              "range": "1–16",
+              "title": "Głowa i dziób orła",
+              "learn": "Zacznij od punktu 1 i połącz go z punktem 16, aby narysować wyrazistą, białą głowę orła i ostry, zakrzywiony dziób. Te starannie ukierunkowane pociągnięcia pomogą dzieciom wyćwiczyć chwyt ołówka i zbudować pewność siebie, niezbędną do poruszania skrzydłami. Zachęcaj je do powolnego rysowania i precyzyjnego celowania w każdy punkt.",
+              "fact": "Bieliki amerykańskie wcale nie są łyse – ich nazwa pochodzi od staroangielskiego słowa „balde”, oznaczającego biały. Uderzające białe pióra na głowie pojawiają się, gdy ptak osiąga dorosłość, około piątego roku życia. Wcześniej młode orły mają brązowo-białe, nakrapiane upierzenie, przez co znacznie trudniej je rozpoznać."
+            },
+            {
+              "range": "17–36",
+              "title": "Rozpostarte skrzydła",
+              "learn": "Kontynuuj od punktu 17 do punktu 36, aby narysować potężne, rozpostarte skrzydła orła – najbardziej dramatyczną część obrazu. Te długie, zamaszyste pociągnięcia od czubków skrzydeł do tułowia to wspaniałe ćwiczenie giętkości nadgarstków i płynnej kontroli linii. Dzieci ćwiczą utrzymywanie spójnego kierunku na większej powierzchni strony.",
+              "fact": "Rozpiętość skrzydeł bielika amerykańskiego może sięgać nawet 2,4 metra – prawie 2,5 metra od czubka do czubka – co czyni go jednym z największych ptaków drapieżnych w Ameryce Północnej. Te potężne skrzydła pozwalają orłom szybować na prądach termicznych ciepłego, unoszącego się powietrza przez wiele godzin bez jednego uderzenia skrzydłami, pokonując ogromne odległości z minimalnym wysiłkiem."
+            },
+            {
+              "range": "37–54",
+              "title": "Pióra ogonowe i szpony",
+              "learn": "Obrysuj punkty od 37 do 54, aby dodać wachlarz białych piór ogonowych i potężne, zakrzywione pazury poniżej. Dzieci ćwiczą kombinację wachlarzowych pociągnięć dla piór i ostrych, precyzyjnych krzywizn dla każdego pazura – to świetne połączenie, które pozwala budować płynność i kontrolę w jednej sekcji.",
+              "fact": "Pazury orła są jego głównym narzędziem łowieckim, zdolnym do chwytania z siłą około 400 funtów na cal kwadratowy – wielokrotnie większą niż ludzka dłoń. Bielik amerykański ma również specjalnie szorstką, kolczastą fakturę na podeszwach stóp, zwaną kolcami, która pomaga mu chwytać śliskie ryby wyłowione prosto z rzek i jezior."
+            },
+            {
+              "range": "55–68",
+              "title": "Patriotyczny Sztandar",
+              "learn": "Połącz kropki od 55 do 68, aby narysować powiewający sztandar, który powiewa za orłem. Wstążkowate krzywizny sztandaru w ruchu stanowią doskonałe wyzwanie dla płynnej, płynnej pracy. Zachęć dzieci, aby wyobrażały sobie sztandar łopoczący na letnim wietrze, rysując każdy delikatny łuk.",
+              "fact": "Na wielu znanych amerykańskich emblematach i pieczęciach orzeł bielik trzyma w dziobie sztandar lub wstęgę. Na Wielkiej Pieczęci Stanów Zjednoczonych orzeł trzyma wstęgę z napisem „E Pluribus Unum” – po łacinie „Z wielu, jeden” – dewiza, która widnieje na amerykańskich monetach i dokumentach od 1782 roku."
+            },
+            {
+              "range": "69–80",
+              "title": "Gwiazdy i ostatnie szlify",
+              "learn": "Ukończ układankę, łącząc kropki od 69 do 80, aby dodać patriotyczne gwiazdy i ostatnie, uroczyste detale, które ożywią całą scenę. Wystarczy dwanaście kropek, aby dokończyć obrazek — zachęć dzieci do zwolnienia tempa i jak najlepszego wykonania tych ostatnich linii. Czyste, staranne wykończenie to znak rozpoznawczy prawdziwego mistrza łączenia kropek!",
+              "fact": "50 gwiazd na fladze amerykańskiej reprezentuje każdy z 50 stanów wchodzących w skład unii. Flaga była aktualizowana 27 razy wraz z przyłączaniem nowych stanów – ostatnia zmiana miała miejsce w 1960 roku, kiedy dodano gwiazdę Hawajów. Obecny wzór z 50 gwiazdami jest oficjalną flagą dłużej niż jakakolwiek inna wersja w historii Ameryki."
+            }
+          ],
+          "outro": "Wspaniała robota — Twój orzeł z okazji 250. urodzin Ameryki szybuje z dumą! To 80 kropek i jeden spektakularny symbol amerykańskiej wolności. Pokoloruj orła na brązowo-biały kolor, sztandar na czerwono-złoto, a gwiazdy na czerwono, biało-niebiesko, aby oddać Ameryce jak najbardziej patriotyczny hołd z okazji 250. urodzin. Wszystkiego najlepszego z okazji rocznicy, USA! Odkryj więcej <a href=\"/usa-250/\">materiałów do druku z okazji 250. urodzin Ameryki</a>, aby podtrzymać świętowanie.",
+          "color_schemes": []
+        }
       }
-    }
-  },
-  {
-    "slug": "america-250-birthday-fireworks-dot-to-dot-puzzle",
-    "header": {
-      "title": "Fajerwerki na 250. Urodziny Ameryki – Łącz Kropki 90 Kropek do Druku",
-      "meta_description": "90 kropek odsłania spektakularny pokaz fajerwerków z okazji 250. rocznicy powstania Ameryki. Darmowa karta pracy do druku dla dzieci 6–10 lat gotowych na dłuższe wyzwanie liczbowe, rozbudzająca patriotyczną dumę.",
-      "og": {
+    },
+    {
+      "slug": "america-250-birthday-fireworks-dot-to-dot-puzzle",
+      "header": {
         "title": "Fajerwerki na 250. Urodziny Ameryki – Łącz Kropki 90 Kropek do Druku",
-        "description": "90 kropek odsłania spektakularny pokaz fajerwerków z okazji 250. rocznicy powstania Ameryki. Darmowa karta pracy do druku dla dzieci 6–10 lat gotowych na dłuższe wyzwanie liczbowe, rozbudzająca patriotyczną dumę.",
-        "image_alt": "Spektakularny pokaz fajerwerków na 250. urodziny Ameryki, złożony z 90 ponumerowanych kropek"
+        "meta_description": "90 kropek odsłania spektakularny pokaz fajerwerków z okazji 250. rocznicy powstania Ameryki. Darmowa karta pracy do druku dla dzieci 6–10 lat gotowych na dłuższe wyzwanie liczbowe, rozbudzająca patriotyczną dumę.",
+        "og": {
+          "title": "Fajerwerki na 250. Urodziny Ameryki – Łącz Kropki 90 Kropek do Druku",
+          "description": "90 kropek odsłania spektakularny pokaz fajerwerków z okazji 250. rocznicy powstania Ameryki. Darmowa karta pracy do druku dla dzieci 6–10 lat gotowych na dłuższe wyzwanie liczbowe, rozbudzająca patriotyczną dumę.",
+          "image_alt": "Spektakularny pokaz fajerwerków na 250. urodziny Ameryki, złożony z 90 ponumerowanych kropek"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Pokaz fajerwerków z okazji 250. urodzin Ameryki",
+          "description": "90 kropek odsłania spektakularny pokaz fajerwerków z okazji 250. rocznicy powstania Ameryki. Darmowa karta pracy do druku dla dzieci 6–10 lat gotowych na dłuższe wyzwanie liczbowe, rozbudzająca patriotyczną dumę.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
       },
-      "json_ld": {
-        "type": "CreativeWork",
+      "body": {
+        "h1": "Amerykański 250 Fajerwerki Kropka do Kropki — Rozświetl 90 kropek",
         "name": "Pokaz fajerwerków z okazji 250. urodzin Ameryki",
-        "description": "90 kropek odsłania spektakularny pokaz fajerwerków z okazji 250. rocznicy powstania Ameryki. Darmowa karta pracy do druku dla dzieci 6–10 lat gotowych na dłuższe wyzwanie liczbowe, rozbudzająca patriotyczną dumę.",
-        "image": "",
-        "educational_use": "Fine motor skills, number sequencing",
-        "age_range": ""
-      }
-    },
-    "body": {
-      "h1": "Amerykański 250 Fajerwerki Kropka do Kropki — Rozświetl 90 kropek",
-      "name": "Pokaz fajerwerków z okazji 250. urodzin Ameryki",
-      "tagline": "Rozświetl niebo z okazji 250. urodzin Ameryki!",
-      "description": "Połącz 90 prostych kropek, aby odkryć spektakularny pokaz fajerwerków z okazji 250. rocznicy powstania Ameryki! Ta darmowa karta pracy do wydruku rozwija umiejętności porządkowania liczb i motoryki małej, a jednocześnie rozbudza patriotyczną dumę. Idealna dla dzieci w wieku 6–10 lat, które są gotowe na dłuższe wyzwanie łączenia kropek.",
-      "fun_fact": "Pokazy fajerwerków są częścią obchodów Dnia Niepodległości Stanów Zjednoczonych od pierwszej rocznicy tego wydarzenia, 4 lipca 1777 r. — zaledwie rok po podpisaniu Deklaracji Niepodległości!",
-      "dot_guide": {
-        "intro": "Ameryka obchodzi 250-lecie – i czyż może być lepszy sposób na uczczenie ćwierćwiecza niż niebo pełne olśniewających fajerwerków? Fajerwerki rozświetlają 4 lipca od zarania dziejów, zamieniając nocne niebo w płótno pełne kolorów i światła. Chwyć ołówek, znajdź punkt 1 i rozpocznijmy ten spektakularny urodzinowy pokaz!",
-        "sections": [
+        "tagline": "Rozświetl niebo z okazji 250. urodzin Ameryki!",
+        "description": "Połącz 90 prostych kropek, aby odkryć spektakularny pokaz fajerwerków z okazji 250. rocznicy powstania Ameryki! Ta darmowa karta pracy do wydruku rozwija umiejętności porządkowania liczb i motoryki małej, a jednocześnie rozbudza patriotyczną dumę. Idealna dla dzieci w wieku 6–10 lat, które są gotowe na dłuższe wyzwanie łączenia kropek.",
+        "fun_fact": "Pokazy fajerwerków są częścią obchodów Dnia Niepodległości Stanów Zjednoczonych od pierwszej rocznicy tego wydarzenia, 4 lipca 1777 r. — zaledwie rok po podpisaniu Deklaracji Niepodległości!",
+        "faqs": [
           {
-            "range": "1–18",
-            "title": "Nocne niebo",
-            "learn": "Zacznij od punktu 1 i połącz go z punktem 18, aby obrysować głębokie, gwiaździste niebo, które stanowi tło pokazu. Te szerokie, zamaszyste pociągnięcia pomogą dzieciom rozgrzać chwyt ołówka i wyrysować gładkie, pewne linie, których będą potrzebować podczas ekscytujących wybuchów fajerwerków.",
-            "fact": "Nocne niebo wydaje się ciemne, ponieważ słońce znajduje się po drugiej stronie Ziemi, ale nigdy nie jest naprawdę puste – w pogodną noc, z dala od świateł miast, można zobaczyć gołym okiem nawet 4500 gwiazd. To samo niebo powitało Ojców Założycieli, gdy po raz pierwszy świętowali niepodległość w 1776 roku."
+            "q": "Ile kropek ma układanka „Pokaz sztucznych ogni z okazji 250 urodzin Ameryki”?",
+            "a": "Puzzle do łączenia kropek „America 250 Birthday Fireworks” do wydrukowania zawierają 90 ponumerowanych kropek. To sprawia, że ​​jest to układanka średniej wielkości, idealna dla dzieci w wieku 6–9 lat (klasy 1–3). Dzieci łączą kropki w kolejności numerycznej, aby odsłonić gotowy obrazek z fajerwerkami „America 250 Birthday Fireworks”, a następnie go kolorują."
           },
           {
-            "range": "19–36",
-            "title": "Pierwszy wybuch fajerwerku",
-            "learn": "Kontynuuj od punktu 19 do punktu 36, aby narysować pierwszy wielki wybuch fajerwerku na niebie. Dzieci ćwiczą promieniste linie, które wystrzeliwują na zewnątrz z centralnego punktu – wspaniałe ćwiczenie na kontrolę kierunku i rotację nadgarstka.",
-            "fact": "Fajerwerki zostały wynalezione w Chinach ponad 1000 lat temu, kiedy alchemicy odkryli, że mieszanka węgla drzewnego, siarki i azotanu potasu wytwarza olśniewający błysk i huk. Przepis ostatecznie dotarł do Europy, a następnie do obu Ameryk, gdzie stał się znakiem rozpoznawczym uroczystości."
+            "q": "Czy kolorowanka „America 250 Birthday Fireworks” jest dostępna do wydrukowania za darmo?",
+            "a": "Tak. Arkusz „America 250 Birthday Fireworks” można pobrać całkowicie za darmo ze strony DotToDotFreePrintables.com — bez konieczności zakładania konta, zakładania adresu e-mail ani dokonywania płatności. Pobiera się natychmiast w formacie PDF gotowym do druku, zarówno w orientacji pionowej, jak i poziomej, w formacie US Letter lub A4."
           },
           {
-            "range": "37–54",
-            "title": "Kaskadowe iskry",
-            "learn": "Obrysuj kropki od 37 do 54, aby dodać mieniącą się kaskadę iskier, które spływają w dół po głównym wybuchu. Te zakrzywione, opadające linie nadają fajerwerkom charakterystyczny kształt wierzby płaczącej i stanowią doskonałą okazję do ćwiczenia rysowania gładkich, delikatnych krzywizn.",
-            "fact": "Różne kolory fajerwerków powstają w wyniku spalania różnych soli metali: sole strontu dają kolor czerwony, sole baru zielony, związki miedzi dają kolor niebieski, a związki sodu jaskrawożółty. Mieszanie tych soli pozwala pirotechnikom pomalować niebo niemal dowolnym kolorem."
+            "q": "Dla dzieci w jakim wieku najlepiej sprawdzi się karta pracy „Połącz kropki: 250 urodzinowych fajerwerków w Ameryce”?",
+            "a": "Puzzle „America 250 Birthday Fireworks” z 90 punktami najlepiej sprawdzą się u dzieci w wieku 6–9 lat (klasy 1–3). Młodsze dzieci mogą się nimi cieszyć z lekką pomocą dorosłych, a doświadczone liczmany mogą je układać samodzielnie i ćwiczyć sekwencję liczb do 90."
           },
           {
-            "range": "55–72",
-            "title": "Wielki finałowy wybuch",
-            "learn": "Połącz kropki od 55 do 72, aby odsłonić największy i najjaśniejszy fajerwerk ze wszystkich – eksplozję finałową, która wypełnia środek nieba. Dzieci ćwiczą gęstą, rozgwieżdżoną linię zbiegającą się w jednym punkcie, co stanowi doskonałe wyzwanie dla precyzji i planowania przestrzennego.",
-            "fact": "Tradycja „wielkiego finału” w pokazach fajerwerków narodziła się, ponieważ pierwsi zawodowi pirotechnicy chcieli zakończyć pokaz z maksymalnym impetem, zanim tłum zdąży się rozejść. Dzisiejsze wielkie finały potrafią wystrzelić setki pocisków na minutę, rozświetlając niebo niemal tak jasno jak w dzień przez kilka ekscytujących sekund."
+            "q": "Jakich umiejętności uczy układanka „America 250 Birthday Fireworks”?",
+            "a": "Połączenie 90 kropek w układance „America 250 Birthday Fireworks” rozwija umiejętności rozpoznawania liczb i liczenia do 90, panowania nad ołówkiem, koordynacji wzrokowo-ruchowej i skupienia – te same podstawy motoryki małej, które wspierają wczesne pisanie odręczne. Pokolorowanie gotowego obrazka to nagroda za kreatywność."
           },
           {
-            "range": "73–90",
-            "title": "Gwiazdy, flaga i ostatnie szlify",
-            "learn": "Ukończ układankę, łącząc kropki od 73 do 90, aby dodać patriotyczne gwiazdy, powiewającą amerykańską flagę i ostatnie, uroczyste detale, które dopełniają urodzinową scenę. Zachęć dzieci do poświęcenia czasu – te ostatnie kropki ożywią cały obrazek. Staranne, pewne ukończenie układanki to znak rozpoznawczy prawdziwego mistrza łączenia kropek!",
-            "fact": "Flaga amerykańska ma 50 gwiazd – po jednej dla każdego stanu – i 13 pasów symbolizujących pierwotne kolonie. Każdego 4 lipca flaga powiewa od wschodu do zachodu słońca nad domami, szkołami i budynkami rządowymi w całym kraju, od najmniejszego miasta po Biały Dom."
+            "q": "Jaka jest ciekawostka na temat fajerwerków z okazji 250. urodzin Ameryki?",
+            "a": "Fajerwerki są częścią obchodów Dnia Niepodległości Stanów Zjednoczonych od pierwszej rocznicy, 4 lipca 1777 roku – zaledwie rok po podpisaniu Deklaracji Niepodległości! Dzieci odkrywają takie ciekawostki, rozwiązując łamigłówkę „America 250 Birthday Fireworks” (250. urodziny Ameryki)."
           }
         ],
-        "outro": "Świetna robota — Twój pokaz fajerwerków z okazji 250. rocznicy Ameryki rozświetla niebo! To 90 kropek i spektakularne świętowanie urodzin. Pokoloruj wybuchy na czerwono, biało i niebiesko, aby zapewnić Ameryce najbardziej patriotyczne pożegnanie. Wszystkiego najlepszego z okazji 250. urodzin, USA! Odkryj naszą pełną ofertę <a href=\"/\">materiałów do druku z łączeniem kropek</a>.",
-        "color_schemes": []
+        "dot_guide": {
+          "intro": "Ameryka obchodzi 250-lecie – i czyż może być lepszy sposób na uczczenie ćwierćwiecza niż niebo pełne olśniewających fajerwerków? Fajerwerki rozświetlają 4 lipca od zarania dziejów, zamieniając nocne niebo w płótno pełne kolorów i światła. Chwyć ołówek, znajdź punkt 1 i rozpocznijmy ten spektakularny urodzinowy pokaz!",
+          "sections": [
+            {
+              "range": "1–18",
+              "title": "Nocne niebo",
+              "learn": "Zacznij od punktu 1 i połącz go z punktem 18, aby obrysować głębokie, gwiaździste niebo, które stanowi tło pokazu. Te szerokie, zamaszyste pociągnięcia pomogą dzieciom rozgrzać chwyt ołówka i wyrysować gładkie, pewne linie, których będą potrzebować podczas ekscytujących wybuchów fajerwerków.",
+              "fact": "Nocne niebo wydaje się ciemne, ponieważ słońce znajduje się po drugiej stronie Ziemi, ale nigdy nie jest naprawdę puste – w pogodną noc, z dala od świateł miast, można zobaczyć gołym okiem nawet 4500 gwiazd. To samo niebo powitało Ojców Założycieli, gdy po raz pierwszy świętowali niepodległość w 1776 roku."
+            },
+            {
+              "range": "19–36",
+              "title": "Pierwszy wybuch fajerwerku",
+              "learn": "Kontynuuj od punktu 19 do punktu 36, aby narysować pierwszy wielki wybuch fajerwerku na niebie. Dzieci ćwiczą promieniste linie, które wystrzeliwują na zewnątrz z centralnego punktu – wspaniałe ćwiczenie na kontrolę kierunku i rotację nadgarstka.",
+              "fact": "Fajerwerki zostały wynalezione w Chinach ponad 1000 lat temu, kiedy alchemicy odkryli, że mieszanka węgla drzewnego, siarki i azotanu potasu wytwarza olśniewający błysk i huk. Przepis ostatecznie dotarł do Europy, a następnie do obu Ameryk, gdzie stał się znakiem rozpoznawczym uroczystości."
+            },
+            {
+              "range": "37–54",
+              "title": "Kaskadowe iskry",
+              "learn": "Obrysuj kropki od 37 do 54, aby dodać mieniącą się kaskadę iskier, które spływają w dół po głównym wybuchu. Te zakrzywione, opadające linie nadają fajerwerkom charakterystyczny kształt wierzby płaczącej i stanowią doskonałą okazję do ćwiczenia rysowania gładkich, delikatnych krzywizn.",
+              "fact": "Różne kolory fajerwerków powstają w wyniku spalania różnych soli metali: sole strontu dają kolor czerwony, sole baru zielony, związki miedzi dają kolor niebieski, a związki sodu jaskrawożółty. Mieszanie tych soli pozwala pirotechnikom pomalować niebo niemal dowolnym kolorem."
+            },
+            {
+              "range": "55–72",
+              "title": "Wielki finałowy wybuch",
+              "learn": "Połącz kropki od 55 do 72, aby odsłonić największy i najjaśniejszy fajerwerk ze wszystkich – eksplozję finałową, która wypełnia środek nieba. Dzieci ćwiczą gęstą, rozgwieżdżoną linię zbiegającą się w jednym punkcie, co stanowi doskonałe wyzwanie dla precyzji i planowania przestrzennego.",
+              "fact": "Tradycja „wielkiego finału” w pokazach fajerwerków narodziła się, ponieważ pierwsi zawodowi pirotechnicy chcieli zakończyć pokaz z maksymalnym impetem, zanim tłum zdąży się rozejść. Dzisiejsze wielkie finały potrafią wystrzelić setki pocisków na minutę, rozświetlając niebo niemal tak jasno jak w dzień przez kilka ekscytujących sekund."
+            },
+            {
+              "range": "73–90",
+              "title": "Gwiazdy, flaga i ostatnie szlify",
+              "learn": "Ukończ układankę, łącząc kropki od 73 do 90, aby dodać patriotyczne gwiazdy, powiewającą amerykańską flagę i ostatnie, uroczyste detale, które dopełniają urodzinową scenę. Zachęć dzieci do poświęcenia czasu – te ostatnie kropki ożywią cały obrazek. Staranne, pewne ukończenie układanki to znak rozpoznawczy prawdziwego mistrza łączenia kropek!",
+              "fact": "Flaga amerykańska ma 50 gwiazd – po jednej dla każdego stanu – i 13 pasów symbolizujących pierwotne kolonie. Każdego 4 lipca flaga powiewa od wschodu do zachodu słońca nad domami, szkołami i budynkami rządowymi w całym kraju, od najmniejszego miasta po Biały Dom."
+            }
+          ],
+          "outro": "Świetna robota — Twój pokaz fajerwerków z okazji 250. rocznicy Ameryki rozświetla niebo! To 90 kropek i spektakularne świętowanie urodzin. Pokoloruj wybuchy na czerwono, biało i niebiesko, aby zapewnić Ameryce najbardziej patriotyczne pożegnanie. Wszystkiego najlepszego z okazji 250. urodzin, USA! Odkryj naszą pełną ofertę <a href=\"/\">materiałów do druku z łączeniem kropek</a>.",
+          "color_schemes": []
+        }
       }
-    }
-  },
-  {
-    "slug": "america-250-anniversary-liberty-bell-wings-1776-dot-to-dot-puzzle",
-    "header": {
-      "title": "Dzwon Wolności ze Skrzydłami – Ameryka 250, Łącz Kropki 64 Kropki",
-      "meta_description": "Połącz 64 proste kropki, aby odkryć kultowy Dzwon Wolności unoszący się na skrzydłach z okazji 250. rocznicy powstania Ameryki. Darmowa karta pracy do druku dla dzieci 4–8 lat, przybliżająca jeden z najsłynniejszych symboli wolności USA.",
-      "og": {
+    },
+    {
+      "slug": "america-250-anniversary-liberty-bell-wings-1776-dot-to-dot-puzzle",
+      "header": {
         "title": "Dzwon Wolności ze Skrzydłami – Ameryka 250, Łącz Kropki 64 Kropki",
-        "description": "Połącz 64 proste kropki, aby odkryć kultowy Dzwon Wolności unoszący się na skrzydłach z okazji 250. rocznicy powstania Ameryki. Darmowa karta pracy do druku dla dzieci 4–8 lat, przybliżająca jeden z najsłynniejszych symboli wolności USA.",
-        "image_alt": "Dzwon Wolności unoszący się na skrzydłach, złożony z 64 ponumerowanych kropek do połączenia"
+        "meta_description": "Połącz 64 proste kropki, aby odkryć kultowy Dzwon Wolności unoszący się na skrzydłach z okazji 250. rocznicy powstania Ameryki. Darmowa karta pracy do druku dla dzieci 4–8 lat, przybliżająca jeden z najsłynniejszych symboli wolności USA.",
+        "og": {
+          "title": "Dzwon Wolności ze Skrzydłami – Ameryka 250, Łącz Kropki 64 Kropki",
+          "description": "Połącz 64 proste kropki, aby odkryć kultowy Dzwon Wolności unoszący się na skrzydłach z okazji 250. rocznicy powstania Ameryki. Darmowa karta pracy do druku dla dzieci 4–8 lat, przybliżająca jeden z najsłynniejszych symboli wolności USA.",
+          "image_alt": "Dzwon Wolności unoszący się na skrzydłach, złożony z 64 ponumerowanych kropek do połączenia"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Amerykański 250 Dzwon Wolności Skrzydła",
+          "description": "Połącz 64 proste kropki, aby odkryć kultowy Dzwon Wolności unoszący się na skrzydłach z okazji 250. rocznicy powstania Ameryki. Darmowa karta pracy do druku dla dzieci 4–8 lat, przybliżająca jeden z najsłynniejszych symboli wolności USA.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
       },
-      "json_ld": {
-        "type": "CreativeWork",
+      "body": {
+        "h1": "Dzwon Wolności Kropka do Kropki: 64 skrzydlate kropki na 2026",
         "name": "Amerykański 250 Dzwon Wolności Skrzydła",
-        "description": "Połącz 64 proste kropki, aby odkryć kultowy Dzwon Wolności unoszący się na skrzydłach z okazji 250. rocznicy powstania Ameryki. Darmowa karta pracy do druku dla dzieci 4–8 lat, przybliżająca jeden z najsłynniejszych symboli wolności USA.",
-        "image": "",
-        "educational_use": "Fine motor skills, number sequencing",
-        "age_range": ""
-      }
-    },
-    "body": {
-      "h1": "Dzwon Wolności Kropka do Kropki: 64 skrzydlate kropki na 2026",
-      "name": "Amerykański 250 Dzwon Wolności Skrzydła",
-      "tagline": "Niech wolność zabrzmi z okazji 250. rocznicy istnienia Ameryki!",
-      "description": "Połącz 64 proste kropki, aby odkryć kultowy Dzwon Wolności, unoszący się na skrzydłach z okazji 250. rocznicy powstania Ameryki! Ta darmowa karta pracy do wydruku pomoże małym dzieciom ćwiczyć sekwencję liczb i motorykę małą, jednocześnie poznając jeden z najpopularniejszych amerykańskich symboli wolności. Idealna dla dzieci w wieku 4–8 lat.",
-      "fun_fact": "Dzwon Wolności słynie z pęknięć po latach użytkowania. Oryginalny dzwon Domu Stanowego został zamówiony w Londynie w 1751 roku, pękł podczas pierwszego próbnego dzwonienia i został odlany ponownie w Filadelfii przez Johna Passa i Johna Stowa w 1753 roku. Na dzwonku widnieje napis: „Ogłoście wolność w całym kraju”.",
-      "dot_guide": {
-        "intro": "Ameryka obchodzi 250-lecie – i czyż może być lepszy symbol do świętowania niż Dzwon Wolności? Ten legendarny dzwon Kapitolu Stanowego wisiał w Filadelfii, gdy uchwalono Deklarację Niepodległości, a jego przesłanie o wolności zyskało sławę w XIX wieku. Chwyć ołówek, znajdź kropkę 1 i sprawmy, by wolność zabrzmiała!",
-        "sections": [
+        "tagline": "Niech wolność zabrzmi z okazji 250. rocznicy istnienia Ameryki!",
+        "description": "Połącz 64 proste kropki, aby odkryć kultowy Dzwon Wolności, unoszący się na skrzydłach z okazji 250. rocznicy powstania Ameryki! Ta darmowa karta pracy do wydruku pomoże małym dzieciom ćwiczyć sekwencję liczb i motorykę małą, jednocześnie poznając jeden z najpopularniejszych amerykańskich symboli wolności. Idealna dla dzieci w wieku 4–8 lat.",
+        "fun_fact": "Dzwon Wolności słynie z pęknięć po latach użytkowania. Oryginalny dzwon Domu Stanowego został zamówiony w Londynie w 1751 roku, pękł podczas pierwszego próbnego dzwonienia i został odlany ponownie w Filadelfii przez Johna Passa i Johna Stowa w 1753 roku. Na dzwonku widnieje napis: „Ogłoście wolność w całym kraju”.",
+        "faqs": [
           {
-            "range": "1–13",
-            "title": "Korona i jarzmo dzwonu",
-            "learn": "Zacznij od punktu 1 i połącz go z punktem 13, aby narysować koronę i jarzmo na samym szczycie Dzwonu Wolności – solidnej ramy, która go utrzymuje. Te równe, zakrzywione i proste linie pomogą dzieciom wyćwiczyć chwyt ołówka i ćwiczyć kontrolowane pociągnięcia, które będą potrzebne do narysowania reszty obrazka.",
-            "fact": "Drewniane jarzmo Dzwonu Wolności wykonane jest z wiązu amerykańskiego, choć historycy nie mogą udowodnić, że jest to oryginalne jarzmo dzwonu. Dzwon zawieszono na drewnianej podpórce, aby mógł się swobodnie kołysać i wydawać głęboki, donośny dźwięk w całej kolonialnej Filadelfii."
+            "q": "Ile kropek ma układanka „Połącz kropki” przedstawiająca skrzydło dzwonu Liberty Bell firmy America 250?",
+            "a": "Zestaw do łączenia kropek „America 250 Liberty Bell Wings” zawiera 64 ponumerowane kropki. To sprawia, że ​​jest to układanka o łatwym lub średnim stopniu trudności, najlepiej odpowiednia dla dzieci w wieku 5–8 lat (od przedszkola do drugiej klasy). Dzieci łączą kropki w kolejności numerycznej, aby odsłonić gotowy obrazek ze skrzydłami dzwonu „America 250 Liberty Bell”, a następnie go kolorują."
           },
           {
-            "range": "14–26",
-            "title": "Korpus dzwonu",
-            "learn": "Kontynuuj od punktu 14 do punktu 26, aby narysować szeroki, zaokrąglony korpus Dzwonu Wolności. Te szerokie, płynne krzywizny doskonale ćwiczą płynne ruchy nadgarstka, pomagając dzieciom rozwijać kontrolę nad ołówkiem, niezbędną do pewnego i płynnego pisania.",
-            "fact": "Dzwon Wolności waży 2080 funtów – prawie tonę! Został odlany z mieszanki miedzi i cyny, co stanowi tradycyjną recepturę brązu. Charakterystyczny, głęboki ton dzwonu wynika z jego dużych rozmiarów i precyzyjnego stosunku metali użytych do jego budowy."
+            "q": "Czy kolorowanka „Połącz kropki” przedstawiająca skrzydła dzwonu wolności America 250 jest dostępna za darmo?",
+            "a": "Tak. Arkusz ćwiczeń „America 250 Liberty Bell Wings” można pobrać całkowicie za darmo ze strony DotToDotFreePrintables.com — bez konieczności zakładania konta, zakładania adresu e-mail ani dokonywania płatności. Pobiera się natychmiast w formacie PDF gotowym do druku, zarówno w orientacji pionowej, jak i poziomej, w formacie US Letter lub A4."
           },
           {
-            "range": "27–39",
-            "title": "Szybujące skrzydła",
-            "learn": "Obrysuj kropki od 27 do 39, aby dodać wspaniałe skrzydła, które unoszą Dzwon Wolności ku niebu. Te śmiałe, szerokie łuki dają dzieciom wspaniałą okazję do ćwiczenia długich, płynnych linii – rozwijając ruch ramion i kontrolę kierunkową, które są kluczowymi umiejętnościami wczesnego pisania.",
-            "fact": "Orzeł bielik – symbol Stanów Zjednoczonych od 1782 roku – słynie z ogromnej rozpiętości skrzydeł, sięgającej 2,4 metra (8 stóp). Jego potężne skrzydła pozwalają mu szybować w ciepłych prądach powietrza zwanych termiką, osiągając prędkość 72 kilometrów na godzinę w locie poziomym, a nawet większą w locie nurkowym."
+            "q": "Dla dzieci w jakim wieku najlepiej sprawdzi się karta pracy „Połącz kropki” przedstawiająca skrzydła dzwonu wolności America 250?",
+            "a": "Z 64 kropkami, układanka „America 250 Liberty Bell Wings” najlepiej sprawdzi się dla dzieci w wieku 5–8 lat (od przedszkola do drugiej klasy). Młodsze dzieci mogą się nią cieszyć z lekką pomocą dorosłych, a doświadczeni liczmani mogą ją ułożyć samodzielnie i ćwiczyć sekwencję liczb do 64."
           },
           {
-            "range": "40–52",
-            "title": "Gwiazdy i patriotyczne szczegóły",
-            "learn": "Połącz kropki od 40 do 52, aby dodać patriotyczne gwiazdy i dekoracyjne detale otaczające dzwonek. Te krótsze, precyzyjniejsze linie doskonale rozwijają precyzję ruchów – dzieci muszą się uważnie koncentrować, aby precyzyjnie trafić w każdą kropkę, co rozwija koordynację wzrokowo-ruchową niezbędną do czytania i pisania.",
-            "fact": "50 gwiazd na fladze amerykańskiej reprezentuje każdy z 50 stanów. Pierwszy oficjalny wzór Stars and Stripes został zatwierdzony w 1777 roku i obejmował 13 gwiazd i 13 pasów dla pierwotnych stanów. Nowe gwiazdy dodawano w miarę przystępowania nowych stanów do Unii, a najnowszy – Hawaje – został dodany 4 lipca 1960 roku."
+            "q": "Jakich umiejętności uczy układanka „America 250 Liberty Bell Wings”?",
+            "a": "Połączenie 64 kropek układanki „America 250 Liberty Bell Wings” rozwija umiejętności rozpoznawania liczb i liczenia do 64, panowania nad ołówkiem, koordynacji wzrokowo-ruchowej i skupienia uwagi – te same podstawy motoryki małej, które wspierają wczesne pisanie odręczne. Pokolorowanie gotowego obrazka to nagroda za kreatywność."
           },
           {
-            "range": "53–64",
-            "title": "Napis z 1776 roku i wykończenie",
-            "learn": "Ukończ układankę, łącząc kropki od 53 do 64, aby ukończyć napis „1776” i ostatnie zawijasy, które ożywią cały obraz. Nie spiesz się z ostatnimi kropkami — systematyczne i staranne wykończenie to cecha prawdziwego mistrza łączenia kropek!",
-            "fact": "Rok 1776 to jeden z najważniejszych lat w historii Ameryki. 4 lipca 1776 roku Kongres Kontynentalny formalnie przyjął Deklarację Niepodległości, ogłaszając, że wszystkie trzynaście kolonii amerykańskich jest wolnymi i niepodległymi stanami. Data ta jest obecnie obchodzona co roku jako Dzień Niepodległości – urodziny Ameryki."
+            "q": "Jaka jest ciekawostka na temat skrzydeł dzwonka Liberty America 250?",
+            "a": "Dzwon Wolności słynie z pęknięć po latach użytkowania. Oryginalny dzwon do Domu Stanowego został zamówiony w Londynie w 1751 roku, pękł podczas pierwszego próbnego dzwonienia i został odlany ponownie w Filadelfii przez Johna Passa i Johna Stowa w 1753 roku. Napis na nim brzmi: „Ogłoście wolność w całej krainie”. Dzieci odkrywają takie ciekawostki, rozwiązując łamigłówkę „America 250 Liberty Bell Wings”."
           }
         ],
-        "outro": "Cudowna praca — Twój Dzwon Wolności wznosi się ku wolności! To 64 kropki i jeden spektakularny symbol amerykańskiej niepodległości. Pokoloruj dzwon złotym brązem, skrzydła brązem i bielą, a gwiazdy czerwienią, bielą i błękitem, aby oddać Ameryce najbardziej patriotyczny hołd z okazji 250. urodzin. Niech wolność zabrzmi! Lubisz wyzwania? Poznaj więcej prehistorycznych przyjaciół w naszej kolekcji <a href=\"/dinosaurs/\">do druku z dinozaurami</a>.",
-        "color_schemes": []
+        "dot_guide": {
+          "intro": "Ameryka obchodzi 250-lecie – i czyż może być lepszy symbol do świętowania niż Dzwon Wolności? Ten legendarny dzwon Kapitolu Stanowego wisiał w Filadelfii, gdy uchwalono Deklarację Niepodległości, a jego przesłanie o wolności zyskało sławę w XIX wieku. Chwyć ołówek, znajdź kropkę 1 i sprawmy, by wolność zabrzmiała!",
+          "sections": [
+            {
+              "range": "1–13",
+              "title": "Korona i jarzmo dzwonu",
+              "learn": "Zacznij od punktu 1 i połącz go z punktem 13, aby narysować koronę i jarzmo na samym szczycie Dzwonu Wolności – solidnej ramy, która go utrzymuje. Te równe, zakrzywione i proste linie pomogą dzieciom wyćwiczyć chwyt ołówka i ćwiczyć kontrolowane pociągnięcia, które będą potrzebne do narysowania reszty obrazka.",
+              "fact": "Drewniane jarzmo Dzwonu Wolności wykonane jest z wiązu amerykańskiego, choć historycy nie mogą udowodnić, że jest to oryginalne jarzmo dzwonu. Dzwon zawieszono na drewnianej podpórce, aby mógł się swobodnie kołysać i wydawać głęboki, donośny dźwięk w całej kolonialnej Filadelfii."
+            },
+            {
+              "range": "14–26",
+              "title": "Korpus dzwonu",
+              "learn": "Kontynuuj od punktu 14 do punktu 26, aby narysować szeroki, zaokrąglony korpus Dzwonu Wolności. Te szerokie, płynne krzywizny doskonale ćwiczą płynne ruchy nadgarstka, pomagając dzieciom rozwijać kontrolę nad ołówkiem, niezbędną do pewnego i płynnego pisania.",
+              "fact": "Dzwon Wolności waży 2080 funtów – prawie tonę! Został odlany z mieszanki miedzi i cyny, co stanowi tradycyjną recepturę brązu. Charakterystyczny, głęboki ton dzwonu wynika z jego dużych rozmiarów i precyzyjnego stosunku metali użytych do jego budowy."
+            },
+            {
+              "range": "27–39",
+              "title": "Szybujące skrzydła",
+              "learn": "Obrysuj kropki od 27 do 39, aby dodać wspaniałe skrzydła, które unoszą Dzwon Wolności ku niebu. Te śmiałe, szerokie łuki dają dzieciom wspaniałą okazję do ćwiczenia długich, płynnych linii – rozwijając ruch ramion i kontrolę kierunkową, które są kluczowymi umiejętnościami wczesnego pisania.",
+              "fact": "Orzeł bielik – symbol Stanów Zjednoczonych od 1782 roku – słynie z ogromnej rozpiętości skrzydeł, sięgającej 2,4 metra (8 stóp). Jego potężne skrzydła pozwalają mu szybować w ciepłych prądach powietrza zwanych termiką, osiągając prędkość 72 kilometrów na godzinę w locie poziomym, a nawet większą w locie nurkowym."
+            },
+            {
+              "range": "40–52",
+              "title": "Gwiazdy i patriotyczne szczegóły",
+              "learn": "Połącz kropki od 40 do 52, aby dodać patriotyczne gwiazdy i dekoracyjne detale otaczające dzwonek. Te krótsze, precyzyjniejsze linie doskonale rozwijają precyzję ruchów – dzieci muszą się uważnie koncentrować, aby precyzyjnie trafić w każdą kropkę, co rozwija koordynację wzrokowo-ruchową niezbędną do czytania i pisania.",
+              "fact": "50 gwiazd na fladze amerykańskiej reprezentuje każdy z 50 stanów. Pierwszy oficjalny wzór Stars and Stripes został zatwierdzony w 1777 roku i obejmował 13 gwiazd i 13 pasów dla pierwotnych stanów. Nowe gwiazdy dodawano w miarę przystępowania nowych stanów do Unii, a najnowszy – Hawaje – został dodany 4 lipca 1960 roku."
+            },
+            {
+              "range": "53–64",
+              "title": "Napis z 1776 roku i wykończenie",
+              "learn": "Ukończ układankę, łącząc kropki od 53 do 64, aby ukończyć napis „1776” i ostatnie zawijasy, które ożywią cały obraz. Nie spiesz się z ostatnimi kropkami — systematyczne i staranne wykończenie to cecha prawdziwego mistrza łączenia kropek!",
+              "fact": "Rok 1776 to jeden z najważniejszych lat w historii Ameryki. 4 lipca 1776 roku Kongres Kontynentalny formalnie przyjął Deklarację Niepodległości, ogłaszając, że wszystkie trzynaście kolonii amerykańskich jest wolnymi i niepodległymi stanami. Data ta jest obecnie obchodzona co roku jako Dzień Niepodległości – urodziny Ameryki."
+            }
+          ],
+          "outro": "Cudowna praca — Twój Dzwon Wolności wznosi się ku wolności! To 64 kropki i jeden spektakularny symbol amerykańskiej niepodległości. Pokoloruj dzwon złotym brązem, skrzydła brązem i bielą, a gwiazdy czerwienią, bielą i błękitem, aby oddać Ameryce najbardziej patriotyczny hołd z okazji 250. urodzin. Niech wolność zabrzmi! Lubisz wyzwania? Poznaj więcej prehistorycznych przyjaciół w naszej kolekcji <a href=\"/dinosaurs/\">do druku z dinozaurami</a>.",
+          "color_schemes": []
+        }
       }
-    }
-  },
-  {
-    "slug": "usa-250-birthday-cake-dot-to-dot-puzzle",
-    "header": {
-      "title": "Tort Urodzinowy Ameryki 250 – Łącz Kropki 56 Kropek do Druku",
-      "meta_description": "Połącz 56 prostych kropek, aby odkryć wspaniały tort urodzinowy z okazji 250. rocznicy powstania Ameryki. Darmowa karta pracy do druku dla dzieci 4–8 lat, świetna na zajęcia o świętach i ćwiczenie liczenia.",
-      "og": {
+    },
+    {
+      "slug": "usa-250-birthday-cake-dot-to-dot-puzzle",
+      "header": {
         "title": "Tort Urodzinowy Ameryki 250 – Łącz Kropki 56 Kropek do Druku",
-        "description": "Połącz 56 prostych kropek, aby odkryć wspaniały tort urodzinowy z okazji 250. rocznicy powstania Ameryki. Darmowa karta pracy do druku dla dzieci 4–8 lat, świetna na zajęcia o świętach i ćwiczenie liczenia.",
-        "image_alt": "Wspaniały tort urodzinowy na 250. rocznicę Ameryki, złożony z 56 ponumerowanych kropek"
+        "meta_description": "Połącz 56 prostych kropek, aby odkryć wspaniały tort urodzinowy z okazji 250. rocznicy powstania Ameryki. Darmowa karta pracy do druku dla dzieci 4–8 lat, świetna na zajęcia o świętach i ćwiczenie liczenia.",
+        "og": {
+          "title": "Tort Urodzinowy Ameryki 250 – Łącz Kropki 56 Kropek do Druku",
+          "description": "Połącz 56 prostych kropek, aby odkryć wspaniały tort urodzinowy z okazji 250. rocznicy powstania Ameryki. Darmowa karta pracy do druku dla dzieci 4–8 lat, świetna na zajęcia o świętach i ćwiczenie liczenia.",
+          "image_alt": "Wspaniały tort urodzinowy na 250. rocznicę Ameryki, złożony z 56 ponumerowanych kropek"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Tort urodzinowy America 250",
+          "description": "Połącz 56 prostych kropek, aby odkryć wspaniały tort urodzinowy z okazji 250. rocznicy powstania Ameryki. Darmowa karta pracy do druku dla dzieci 4–8 lat, świetna na zajęcia o świętach i ćwiczenie liczenia.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
       },
-      "json_ld": {
-        "type": "CreativeWork",
+      "body": {
+        "h1": "Amerykański 250 Tort urodzinowy Kropka do Kropki — 56 słodkich kropek",
         "name": "Tort urodzinowy America 250",
-        "description": "Połącz 56 prostych kropek, aby odkryć wspaniały tort urodzinowy z okazji 250. rocznicy powstania Ameryki. Darmowa karta pracy do druku dla dzieci 4–8 lat, świetna na zajęcia o świętach i ćwiczenie liczenia.",
-        "image": "",
-        "educational_use": "Fine motor skills, number sequencing",
-        "age_range": ""
-      }
-    },
-    "body": {
-      "h1": "Amerykański 250 Tort urodzinowy Kropka do Kropki — 56 słodkich kropek",
-      "name": "Tort urodzinowy America 250",
-      "tagline": "Upiecz tort urodzinowy na 250. urodziny Ameryki!",
-      "description": "Połącz 56 prostych kropek, aby odkryć wspaniały tort urodzinowy z okazji 250. rocznicy powstania Ameryki! Ta darmowa karta pracy do wydrukowania pomoże dzieciom ćwiczyć kolejność liczb i panowanie nad ołówkiem, jednocześnie świętując 250 lat historii Ameryki. Idealna dla dzieci w wieku 4–8 lat.",
-      "fun_fact": "Tradycja tortów urodzinowych ze świeczkami ma swoje początki w Niemczech w XVIII wieku, gdzie na torcie umieszczano świeczkę za każdy rok życia. Dziś zdmuchiwanie świeczek i składanie życzeń to zwyczaj obchodzenia urodzin na całym świecie!",
-      "dot_guide": {
-        "intro": "Ameryka obchodzi 250-lecie – i każde urodziny zasługują na spektakularny tort! Ten imponujący tort okolicznościowy jest ozdobiony patriotycznymi gwiazdami, paskami i wszystkimi dodatkami, aby uczcić największe urodziny w historii Ameryki. Weź ołówek, znajdź kropkę 1 i stwórzmy to urodzinowe arcydzieło warstwa po warstwie!",
-        "sections": [
+        "tagline": "Upiecz tort urodzinowy na 250. urodziny Ameryki!",
+        "description": "Połącz 56 prostych kropek, aby odkryć wspaniały tort urodzinowy z okazji 250. rocznicy powstania Ameryki! Ta darmowa karta pracy do wydrukowania pomoże dzieciom ćwiczyć kolejność liczb i panowanie nad ołówkiem, jednocześnie świętując 250 lat historii Ameryki. Idealna dla dzieci w wieku 4–8 lat.",
+        "fun_fact": "Tradycja tortów urodzinowych ze świeczkami ma swoje początki w Niemczech w XVIII wieku, gdzie na torcie umieszczano świeczkę za każdy rok życia. Dziś zdmuchiwanie świeczek i składanie życzeń to zwyczaj obchodzenia urodzin na całym świecie!",
+        "faqs": [
           {
-            "range": "1–12",
-            "title": "Dolny poziom",
-            "learn": "Zacznij od punktu 1 i połącz go z punktem 12, aby obrysować szeroką podstawę tortu urodzinowego. Te równe, poziome i zakrzywione pociągnięcia pomogą dzieciom wyćwiczyć chwyt ołówka i poćwiczyć rysowanie gładkich, równych linii, które stanowią podstawę całego obrazka.",
-            "fact": "Tradycja wielopiętrowych tortów weselnych i okolicznościowych sięga XVII-wiecznej Anglii, gdzie ułożenie kilku warstw było symbolem bogactwa i świętowania. Wysoki, wielopiętrowy tort stał się symbolem prawdziwie wystawnej uroczystości."
+            "q": "Ile kropek ma układanka „America 250 Birthday Cake”?",
+            "a": "Zestaw do łączenia kropek „America 250 Birthday Cake” do wydrukowania zawiera 56 ponumerowanych kropek. To sprawia, że ​​jest to układanka o średnim stopniu trudności, idealna dla dzieci w wieku 5–8 lat (od przedszkola do drugiej klasy). Dzieci łączą kropki w kolejności numerycznej, aby odsłonić gotowy obrazek tortu urodzinowego „America 250”, a następnie go kolorują."
           },
           {
-            "range": "13–28",
-            "title": "Poziomy środkowe",
-            "learn": "Kontynuuj od punktu 13 do punktu 28, aby dodać środkowe warstwy tortu, każda nieco mniejsza od poprzedniej. Dzieci ćwiczą rysowanie kształtów skierowanych do wewnątrz, co jest wspaniałym ćwiczeniem w zakresie świadomości przestrzennej i kontrolowania długości linii z każdym kolejnym poziomem.",
-            "fact": "Tradycyjnie piekarze robią każdą warstwę ciasta piętrowego nieco węższą od tej poniżej. Dzięki temu powstaje klasyczny kształt piramidy i ciasto zachowuje równowagę. Profesjonalni cukiernicy używają ukrytych kołków i desek, aby utrzymać ciężar każdej warstwy."
+            "q": "Czy kolorowanka „America 250 Birthday Cake” jest dostępna do wydrukowania za darmo?",
+            "a": "Tak. Arkusz „America 250 Birthday Cake” można pobrać całkowicie za darmo ze strony DotToDotFreePrintables.com — bez konieczności zakładania konta, zakładania adresu e-mail ani dokonywania płatności. Pobiera się natychmiast w formacie PDF gotowym do druku, zarówno w orientacji pionowej, jak i poziomej, w formacie US Letter lub A4."
           },
           {
-            "range": "29–42",
-            "title": "Dekoracja w gwiazdy i paski",
-            "learn": "Obrysuj kropki od 29 do 42, aby dodać patriotyczne gwiazdki i paski, które zdobią boki tortu. Dzieci ćwiczą kombinację kanciastych gwiazdek i prostych linii poziomych, przełączając się między dwoma rodzajami ruchu w tej samej sekcji — to duże wyzwanie dla kontroli dłoni.",
-            "fact": "Czerwony, biały i niebieski to kolory amerykańskiej flagi od 1777 roku, kiedy to uchwalono rezolucję flagową, która ustanowiła ten wzór. Dekorowanie flagi w tych barwach to jeden z najpopularniejszych sposobów, w jaki Amerykanie wyrażają dumę narodową podczas uroczystości, od babeczek na szkolnych przyjęciach po pełnowymiarowe platformy paradne."
+            "q": "Dla dzieci w jakim wieku najlepiej sprawdzi się karta pracy do łączenia kropek „America 250 Birthday Cake”?",
+            "a": "Układanka „America 250 Birthday Cake” z 56 kropkami najlepiej sprawdzi się w wieku 5–8 lat (od przedszkola do drugiej klasy). Młodsze dzieci mogą się nią cieszyć z lekką pomocą dorosłych, a doświadczone liczmany mogą ją układać samodzielnie i ćwiczyć sekwencję liczb do 56."
           },
           {
-            "range": "43–50",
-            "title": "Górna warstwa i lukier",
-            "learn": "Połącz kropki od 43 do 50, aby narysować najwyższą warstwę i zawijasy lukru wzdłuż krawędzi. Te zakrzywione, dekoracyjne linie oferują miłą odmianę od prostszych kresek poniżej, a dzieci ćwiczą płynny, płynny ruch nadgarstka, który sprawia, że ​​lukier wygląda pysznie i puszysto.",
-            "fact": "Lukier królewski – biały, twardy lukier używany do dekorowania tortów okolicznościowych – został udoskonalony w XVIII-wiecznej Wielkiej Brytanii i stał się popularny w Europie i Ameryce jako dekoracja tortów na wielkie okazje. Jego gładkie wykończenie stanowi idealne tło dla patriotycznych dekoracji."
+            "q": "Jakich umiejętności uczy układanka „America 250 Birthday Cake”?",
+            "a": "Połączenie 56 kropek układanki „America 250 Birthday Cake” rozwija umiejętności rozpoznawania liczb i liczenia do 56, panowania nad ołówkiem, koordynacji wzrokowo-ruchowej i skupienia uwagi – te same podstawy motoryki małej, które wspierają wczesne pisanie odręczne. Pokolorowanie gotowego obrazka to nagroda za kreatywność."
           },
           {
-            "range": "51–56",
-            "title": "Świece i ostatnie szlify",
-            "learn": "Ułóż puzzle, łącząc kropki od 51 do 56, aby dodać świece i ostatnie świąteczne detale, które ożywią całą urodzinową scenę. Wystarczy sześć kropek, aby dopełnić uroczystość — zachęć dzieci, aby zwolniły tempo i jak najlepiej wykorzystały te ostatnie linie!",
-            "fact": "W wielu tradycjach urodzinowych liczba świeczek na torcie odpowiada wiekowi, który świętujemy. Wyobraźcie sobie, jak wielka byłaby kolekcja świeczek na 250. rocznicę powstania Ameryki – ćwierć tysiąclecia historii, wszystkie migoczące na jednym spektakularnym torcie!"
+            "q": "Jaka jest ciekawostka na temat tortu urodzinowego America 250?",
+            "a": "Tradycja tortów urodzinowych ze świeczkami ma swój początek w Niemczech w XVIII wieku, gdzie na każdym roku życia umieszczano świeczkę. Dziś zdmuchiwanie świeczek i wypowiadanie życzeń to tradycja urodzinowa na całym świecie! Dzieci odkrywają takie ciekawostki, rozwiązując łamigłówkę \"America 250 Birthday Cake\"."
           }
         ],
-        "outro": "Wspaniała robota — Twój tort urodzinowy z okazji 250. urodzin Ameryki jest gotowy na imprezę! To 56 kropek i jeden pyszny symbol amerykańskiego świętowania. Pokoloruj piętra na czerwono, biało i niebiesko, a następnie dodaj złote gwiazdki, aby stworzyć najbardziej patriotyczny tort urodzinowy w historii Ameryki. Wszystkiego najlepszego z okazji 250. urodzin, USA! Więcej tematycznych inspiracji znajdziesz w naszych <a href=\"/ocean/\">materiałach do łączenia kropek od 1 do 100</a>.",
-        "color_schemes": []
+        "dot_guide": {
+          "intro": "Ameryka obchodzi 250-lecie – i każde urodziny zasługują na spektakularny tort! Ten imponujący tort okolicznościowy jest ozdobiony patriotycznymi gwiazdami, paskami i wszystkimi dodatkami, aby uczcić największe urodziny w historii Ameryki. Weź ołówek, znajdź kropkę 1 i stwórzmy to urodzinowe arcydzieło warstwa po warstwie!",
+          "sections": [
+            {
+              "range": "1–12",
+              "title": "Dolny poziom",
+              "learn": "Zacznij od punktu 1 i połącz go z punktem 12, aby obrysować szeroką podstawę tortu urodzinowego. Te równe, poziome i zakrzywione pociągnięcia pomogą dzieciom wyćwiczyć chwyt ołówka i poćwiczyć rysowanie gładkich, równych linii, które stanowią podstawę całego obrazka.",
+              "fact": "Tradycja wielopiętrowych tortów weselnych i okolicznościowych sięga XVII-wiecznej Anglii, gdzie ułożenie kilku warstw było symbolem bogactwa i świętowania. Wysoki, wielopiętrowy tort stał się symbolem prawdziwie wystawnej uroczystości."
+            },
+            {
+              "range": "13–28",
+              "title": "Poziomy środkowe",
+              "learn": "Kontynuuj od punktu 13 do punktu 28, aby dodać środkowe warstwy tortu, każda nieco mniejsza od poprzedniej. Dzieci ćwiczą rysowanie kształtów skierowanych do wewnątrz, co jest wspaniałym ćwiczeniem w zakresie świadomości przestrzennej i kontrolowania długości linii z każdym kolejnym poziomem.",
+              "fact": "Tradycyjnie piekarze robią każdą warstwę ciasta piętrowego nieco węższą od tej poniżej. Dzięki temu powstaje klasyczny kształt piramidy i ciasto zachowuje równowagę. Profesjonalni cukiernicy używają ukrytych kołków i desek, aby utrzymać ciężar każdej warstwy."
+            },
+            {
+              "range": "29–42",
+              "title": "Dekoracja w gwiazdy i paski",
+              "learn": "Obrysuj kropki od 29 do 42, aby dodać patriotyczne gwiazdki i paski, które zdobią boki tortu. Dzieci ćwiczą kombinację kanciastych gwiazdek i prostych linii poziomych, przełączając się między dwoma rodzajami ruchu w tej samej sekcji — to duże wyzwanie dla kontroli dłoni.",
+              "fact": "Czerwony, biały i niebieski to kolory amerykańskiej flagi od 1777 roku, kiedy to uchwalono rezolucję flagową, która ustanowiła ten wzór. Dekorowanie flagi w tych barwach to jeden z najpopularniejszych sposobów, w jaki Amerykanie wyrażają dumę narodową podczas uroczystości, od babeczek na szkolnych przyjęciach po pełnowymiarowe platformy paradne."
+            },
+            {
+              "range": "43–50",
+              "title": "Górna warstwa i lukier",
+              "learn": "Połącz kropki od 43 do 50, aby narysować najwyższą warstwę i zawijasy lukru wzdłuż krawędzi. Te zakrzywione, dekoracyjne linie oferują miłą odmianę od prostszych kresek poniżej, a dzieci ćwiczą płynny, płynny ruch nadgarstka, który sprawia, że ​​lukier wygląda pysznie i puszysto.",
+              "fact": "Lukier królewski – biały, twardy lukier używany do dekorowania tortów okolicznościowych – został udoskonalony w XVIII-wiecznej Wielkiej Brytanii i stał się popularny w Europie i Ameryce jako dekoracja tortów na wielkie okazje. Jego gładkie wykończenie stanowi idealne tło dla patriotycznych dekoracji."
+            },
+            {
+              "range": "51–56",
+              "title": "Świece i ostatnie szlify",
+              "learn": "Ułóż puzzle, łącząc kropki od 51 do 56, aby dodać świece i ostatnie świąteczne detale, które ożywią całą urodzinową scenę. Wystarczy sześć kropek, aby dopełnić uroczystość — zachęć dzieci, aby zwolniły tempo i jak najlepiej wykorzystały te ostatnie linie!",
+              "fact": "W wielu tradycjach urodzinowych liczba świeczek na torcie odpowiada wiekowi, który świętujemy. Wyobraźcie sobie, jak wielka byłaby kolekcja świeczek na 250. rocznicę powstania Ameryki – ćwierć tysiąclecia historii, wszystkie migoczące na jednym spektakularnym torcie!"
+            }
+          ],
+          "outro": "Wspaniała robota — Twój tort urodzinowy z okazji 250. urodzin Ameryki jest gotowy na imprezę! To 56 kropek i jeden pyszny symbol amerykańskiego świętowania. Pokoloruj piętra na czerwono, biało i niebiesko, a następnie dodaj złote gwiazdki, aby stworzyć najbardziej patriotyczny tort urodzinowy w historii Ameryki. Wszystkiego najlepszego z okazji 250. urodzin, USA! Więcej tematycznych inspiracji znajdziesz w naszych <a href=\"/ocean/\">materiałach do łączenia kropek od 1 do 100</a>.",
+          "color_schemes": []
+        }
       }
-    }
-  },
-  {
-    "slug": "usa-250-astronaut-dot-to-dot-puzzle",
-    "header": {
-      "title": "Astronauta – Ameryka 250 lat, Łącz Kropki 63 Kropki do Druku",
-      "meta_description": "Połącz 63 proste kropki, aby odkryć bohaterskiego astronautę świętującego 250. rocznicę powstania Ameryki. Darmowa karta pracy do druku dla dzieci 4–8 lat, ćwicząca liczenie i panowanie nad ołówkiem, na zajęcia o kosmosie i historii USA.",
-      "og": {
+    },
+    {
+      "slug": "usa-250-astronaut-dot-to-dot-puzzle",
+      "header": {
         "title": "Astronauta – Ameryka 250 lat, Łącz Kropki 63 Kropki do Druku",
-        "description": "Połącz 63 proste kropki, aby odkryć bohaterskiego astronautę świętującego 250. rocznicę powstania Ameryki. Darmowa karta pracy do druku dla dzieci 4–8 lat, ćwicząca liczenie i panowanie nad ołówkiem, na zajęcia o kosmosie i historii USA.",
-        "image_alt": "Bohaterski astronauta świętujący 250. rocznicę Ameryki, złożony z 63 ponumerowanych kropek"
+        "meta_description": "Połącz 63 proste kropki, aby odkryć bohaterskiego astronautę świętującego 250. rocznicę powstania Ameryki. Darmowa karta pracy do druku dla dzieci 4–8 lat, ćwicząca liczenie i panowanie nad ołówkiem, na zajęcia o kosmosie i historii USA.",
+        "og": {
+          "title": "Astronauta – Ameryka 250 lat, Łącz Kropki 63 Kropki do Druku",
+          "description": "Połącz 63 proste kropki, aby odkryć bohaterskiego astronautę świętującego 250. rocznicę powstania Ameryki. Darmowa karta pracy do druku dla dzieci 4–8 lat, ćwicząca liczenie i panowanie nad ołówkiem, na zajęcia o kosmosie i historii USA.",
+          "image_alt": "Bohaterski astronauta świętujący 250. rocznicę Ameryki, złożony z 63 ponumerowanych kropek"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Ameryka 250 Astronauta",
+          "description": "Połącz 63 proste kropki, aby odkryć bohaterskiego astronautę świętującego 250. rocznicę powstania Ameryki. Darmowa karta pracy do druku dla dzieci 4–8 lat, ćwicząca liczenie i panowanie nad ołówkiem, na zajęcia o kosmosie i historii USA.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
       },
-      "json_ld": {
-        "type": "CreativeWork",
+      "body": {
+        "h1": "Astronauta Kropka do Kropki dla Amerykańskiego 250 — 63 kropek w górę",
         "name": "Ameryka 250 Astronauta",
-        "description": "Połącz 63 proste kropki, aby odkryć bohaterskiego astronautę świętującego 250. rocznicę powstania Ameryki. Darmowa karta pracy do druku dla dzieci 4–8 lat, ćwicząca liczenie i panowanie nad ołówkiem, na zajęcia o kosmosie i historii USA.",
-        "image": "",
-        "educational_use": "Fine motor skills, number sequencing",
-        "age_range": ""
-      }
-    },
-    "body": {
-      "h1": "Astronauta Kropka do Kropki dla Amerykańskiego 250 — 63 kropek w górę",
-      "name": "Ameryka 250 Astronauta",
-      "tagline": "Wyrusz na obchody 250. rocznicy powstania Ameryki!",
-      "description": "Połącz 63 proste kropki, aby odkryć bohaterskiego astronautę świętującego 250. rocznicę powstania Ameryki! Ta darmowa karta pracy do wydrukowania pomoże dzieciom ćwiczyć sekwencję liczb i panowanie nad ołówkiem, jednocześnie oddając hołd 250-letniej historii Ameryki i duchowi eksploracji. Idealna dla dzieci w wieku 4–8 lat.",
-      "fun_fact": "Stany Zjednoczone były pierwszym krajem, który wylądował ludzi na Księżycu. 20 lipca 1969 roku — zaledwie 193 lata po Deklaracji Niepodległości — Neil Armstrong i Buzz Aldrin postawili pierwsze kroki ludzkości na powierzchni Księżyca.",
-      "dot_guide": {
-        "intro": "Ameryka kończy 250 lat – i niewiele rzeczy oddaje amerykańskiego ducha przygody lepiej niż astronauta! Od pierwszych rakiet wyścigu kosmicznego, przez lądowanie na Księżycu, aż po dalsze losy, amerykańscy odkrywcy zawsze sięgali gwiazd. Weź ołówek, znajdź punkt 1 i przygotuj się do startu!",
-        "sections": [
+        "tagline": "Wyrusz na obchody 250. rocznicy powstania Ameryki!",
+        "description": "Połącz 63 proste kropki, aby odkryć bohaterskiego astronautę świętującego 250. rocznicę powstania Ameryki! Ta darmowa karta pracy do wydrukowania pomoże dzieciom ćwiczyć sekwencję liczb i panowanie nad ołówkiem, jednocześnie oddając hołd 250-letniej historii Ameryki i duchowi eksploracji. Idealna dla dzieci w wieku 4–8 lat.",
+        "fun_fact": "Stany Zjednoczone były pierwszym krajem, który wylądował ludzi na Księżycu. 20 lipca 1969 roku — zaledwie 193 lata po Deklaracji Niepodległości — Neil Armstrong i Buzz Aldrin postawili pierwsze kroki ludzkości na powierzchni Księżyca.",
+        "faqs": [
           {
-            "range": "1–14",
-            "title": "Hełm",
-            "learn": "Zacznij od punktu 1 i połącz z punktem 14, aby narysować zaokrąglony hełm astronauty. Wizjer i zakrzywiona skorupa zewnętrzna zapewniają dzieciom wspaniałą rozgrzewkę dzięki płynnym, szerokim łukom, które budują pewność kontroli nad ołówkiem od pierwszego pociągnięcia.",
-            "fact": "Hełmy astronautów wykonane są z warstw poliwęglanu i innych wytrzymałych materiałów. Złoty wizjer pokryty jest cienką warstwą prawdziwego złota, które odbija promieniowanie słoneczne i chroni oczy astronautów przed intensywnym światłem słonecznym w kosmosie."
+            "q": "Ile kropek ma układanka „Połącz kropki” z astronautą America 250?",
+            "a": "Zestaw do łączenia kropek „America 250 Astronaut” do wydrukowania zawiera 63 ponumerowane kropki. To sprawia, że ​​jest to układanka o średnim stopniu trudności, idealna dla dzieci w wieku 5–8 lat (od przedszkola do drugiej klasy). Dzieci łączą kropki w kolejności numerycznej, aby odsłonić gotowy obrazek „America 250 Astronaut”, a następnie go kolorują."
           },
           {
-            "range": "15–30",
-            "title": "Torso skafandra kosmicznego",
-            "learn": "Kontynuuj od punktu 15 do punktu 30, aby obrysować szeroki tors skafandra. Dzieci ćwiczą tutaj dłuższe, łączone pociągnięcia, rysując mocne ramiona i klatkę piersiową, które nadają sylwetce astronauty charakterystyczny, kanciasty, potężny kształt.",
-            "fact": "Pełny skafander kosmiczny NASA, zwany Zespołem Mobilności Pozapojazdowej (EMU), waży na Ziemi około 127 kilogramów – ale w stanie nieważkości w kosmosie waży znikomo! Założenie go zajmuje astronautom do 45 minut."
+            "q": "Czy kolorowanka „America 250 Astronaut” jest dostępna do wydrukowania za darmo?",
+            "a": "Tak. Arkusz roboczy „America 250 Astronaut” można pobrać całkowicie za darmo ze strony DotToDotFreePrintables.com — bez konieczności zakładania konta, zakładania adresu e-mail ani dokonywania płatności. Arkusz pobiera się natychmiast w formacie PDF gotowym do druku, zarówno w orientacji pionowej, jak i poziomej, w formacie US Letter lub A4."
           },
           {
-            "range": "31–44",
-            "title": "Broń i rękawice",
-            "learn": "Obrysuj kropki od 31 do 44, aby narysować ramiona astronauty i grube rękawice. Ta sekcja zawiera więcej zmian kierunku kątowego, co pomaga dzieciom rozwijać umiejętność zatrzymywania się, celowania i rozpoczynania nowej linii – umiejętność, która rozwija również uważne śledzenie liczb.",
-            "fact": "Rękawice do skafandrów kosmicznych to jeden z najbardziej skomplikowanych elementów. Muszą być wystarczająco elastyczne, aby astronauci mogli chwytać narzędzia i pracować palcami, a jednocześnie wystarczająco wytrzymałe, aby chronić przed wahaniami temperatury w kosmosie przekraczającymi 260 stopni Celsjusza."
+            "q": "Dla dzieci w jakim wieku najlepiej sprawdzi się karta „Połącz kropki” z serii „America 250 Astronaut”?",
+            "a": "Z 63 kropkami, układanka „America 250 Astronaut” najlepiej sprawdza się w wieku 5–8 lat (od przedszkola do drugiej klasy). Młodsze dzieci mogą czerpać z niej radość, jeśli dorośli pomogą im w liczeniu, natomiast doświadczeni liczmani mogą ją układać samodzielnie i ćwiczyć sekwencję liczb do 63."
           },
           {
-            "range": "45–56",
-            "title": "Nogi i buty",
-            "learn": "Połącz kropki od 45 do 56, aby ukończyć dolną połowę skafandra – nogawki i grube buty. Dzieci ćwiczą tu stałe, równoległe linie, co świetnie sprawdza się w budowaniu spójności i kontroli pod koniec układanki.",
-            "fact": "Buty księżycowe noszone podczas misji Apollo miały specjalną podeszwę wykonaną z tkanego materiału metalowego o nazwie chromel-R. Chroniła ona stopy astronautów przed ekstremalnymi temperaturami powierzchni Księżyca, które mogą wahać się od -170°C w cieniu do +130°C w świetle słonecznym."
+            "q": "Jakich umiejętności uczy układanka „America 250 Astronaut”?",
+            "a": "Połączenie 63 kropek układanki „America 250 Astronaut” rozwija umiejętność rozpoznawania liczb i liczenia do 63, panowania nad ołówkiem, koordynacji wzrokowo-ruchowej i skupienia uwagi – te same podstawy motoryki małej, które wspierają wczesne pisanie odręczne. Pokolorowanie gotowego obrazka to nagroda za kreatywność."
           },
           {
-            "range": "57–63",
-            "title": "Flaga amerykańska i szczegóły wykończenia",
-            "learn": "Ułóż puzzle, łącząc kropki od 57 do 63, aby dodać naszywkę z flagą amerykańską i ostatnie detale, które ożywią całego astronautę. Zostało tylko siedem kropek — zachęć dzieci, aby te ostatnie linie wykonały najdokładniej i najstaranniej!",
-            "fact": "Amerykańscy astronauci noszą naszywkę z flagą na lewym ramieniu skafandra kosmicznego od czasów misji Apollo. Sześć amerykańskich flag zostało umieszczonych na Księżycu w latach 1969-1972, a zdjęcia księżycowe NASA sugerują, że większość z nich nadal stoi."
+            "q": "Jaka jest ciekawostka na temat statku kosmicznego America 250 Astronauta?",
+            "a": "Stany Zjednoczone były pierwszym krajem, w którym ludzie wylądowali na Księżycu. 20 lipca 1969 roku – zaledwie 193 lata po Deklaracji Niepodległości – Neil Armstrong i Buzz Aldrin postawili pierwsze kroki ludzkości na powierzchni Księżyca. Dzieci odkrywają takie fakty, układając łamigłówkę „America 250 Astronaut”."
           }
         ],
-        "outro": "Znakomita praca — Twój astronauta z America 250 jest gotowy do startu! To 63 kropki i jeden niesamowity symbol amerykańskiej eksploracji i odwagi. Pokoloruj skafander na biało i dodaj patriotyczne czerwone, białe i niebieskie detale, aby Twój astronauta wzbił się w powietrze w wielkim stylu. Wszystkiego najlepszego z okazji 250. urodzin, USA — ad astra! Odkryj więcej darmowych <a href=\"/\">materiałów do druku z łączeniem kropek</a> dla każdego wieku.",
-        "color_schemes": []
+        "dot_guide": {
+          "intro": "Ameryka kończy 250 lat – i niewiele rzeczy oddaje amerykańskiego ducha przygody lepiej niż astronauta! Od pierwszych rakiet wyścigu kosmicznego, przez lądowanie na Księżycu, aż po dalsze losy, amerykańscy odkrywcy zawsze sięgali gwiazd. Weź ołówek, znajdź punkt 1 i przygotuj się do startu!",
+          "sections": [
+            {
+              "range": "1–14",
+              "title": "Hełm",
+              "learn": "Zacznij od punktu 1 i połącz z punktem 14, aby narysować zaokrąglony hełm astronauty. Wizjer i zakrzywiona skorupa zewnętrzna zapewniają dzieciom wspaniałą rozgrzewkę dzięki płynnym, szerokim łukom, które budują pewność kontroli nad ołówkiem od pierwszego pociągnięcia.",
+              "fact": "Hełmy astronautów wykonane są z warstw poliwęglanu i innych wytrzymałych materiałów. Złoty wizjer pokryty jest cienką warstwą prawdziwego złota, które odbija promieniowanie słoneczne i chroni oczy astronautów przed intensywnym światłem słonecznym w kosmosie."
+            },
+            {
+              "range": "15–30",
+              "title": "Torso skafandra kosmicznego",
+              "learn": "Kontynuuj od punktu 15 do punktu 30, aby obrysować szeroki tors skafandra. Dzieci ćwiczą tutaj dłuższe, łączone pociągnięcia, rysując mocne ramiona i klatkę piersiową, które nadają sylwetce astronauty charakterystyczny, kanciasty, potężny kształt.",
+              "fact": "Pełny skafander kosmiczny NASA, zwany Zespołem Mobilności Pozapojazdowej (EMU), waży na Ziemi około 127 kilogramów – ale w stanie nieważkości w kosmosie waży znikomo! Założenie go zajmuje astronautom do 45 minut."
+            },
+            {
+              "range": "31–44",
+              "title": "Broń i rękawice",
+              "learn": "Obrysuj kropki od 31 do 44, aby narysować ramiona astronauty i grube rękawice. Ta sekcja zawiera więcej zmian kierunku kątowego, co pomaga dzieciom rozwijać umiejętność zatrzymywania się, celowania i rozpoczynania nowej linii – umiejętność, która rozwija również uważne śledzenie liczb.",
+              "fact": "Rękawice do skafandrów kosmicznych to jeden z najbardziej skomplikowanych elementów. Muszą być wystarczająco elastyczne, aby astronauci mogli chwytać narzędzia i pracować palcami, a jednocześnie wystarczająco wytrzymałe, aby chronić przed wahaniami temperatury w kosmosie przekraczającymi 260 stopni Celsjusza."
+            },
+            {
+              "range": "45–56",
+              "title": "Nogi i buty",
+              "learn": "Połącz kropki od 45 do 56, aby ukończyć dolną połowę skafandra – nogawki i grube buty. Dzieci ćwiczą tu stałe, równoległe linie, co świetnie sprawdza się w budowaniu spójności i kontroli pod koniec układanki.",
+              "fact": "Buty księżycowe noszone podczas misji Apollo miały specjalną podeszwę wykonaną z tkanego materiału metalowego o nazwie chromel-R. Chroniła ona stopy astronautów przed ekstremalnymi temperaturami powierzchni Księżyca, które mogą wahać się od -170°C w cieniu do +130°C w świetle słonecznym."
+            },
+            {
+              "range": "57–63",
+              "title": "Flaga amerykańska i szczegóły wykończenia",
+              "learn": "Ułóż puzzle, łącząc kropki od 57 do 63, aby dodać naszywkę z flagą amerykańską i ostatnie detale, które ożywią całego astronautę. Zostało tylko siedem kropek — zachęć dzieci, aby te ostatnie linie wykonały najdokładniej i najstaranniej!",
+              "fact": "Amerykańscy astronauci noszą naszywkę z flagą na lewym ramieniu skafandra kosmicznego od czasów misji Apollo. Sześć amerykańskich flag zostało umieszczonych na Księżycu w latach 1969-1972, a zdjęcia księżycowe NASA sugerują, że większość z nich nadal stoi."
+            }
+          ],
+          "outro": "Znakomita praca — Twój astronauta z America 250 jest gotowy do startu! To 63 kropki i jeden niesamowity symbol amerykańskiej eksploracji i odwagi. Pokoloruj skafander na biało i dodaj patriotyczne czerwone, białe i niebieskie detale, aby Twój astronauta wzbił się w powietrze w wielkim stylu. Wszystkiego najlepszego z okazji 250. urodzin, USA — ad astra! Odkryj więcej darmowych <a href=\"/\">materiałów do druku z łączeniem kropek</a> dla każdego wieku.",
+          "color_schemes": []
+        }
       }
-    }
-  },
-  {
-    "slug": "usa-250-anniversary-airplane-banner-dot-to-dot-puzzle",
-    "header": {
-      "title": "Dwupłatowiec z Transparentem – Ameryka 250, Łącz Kropki 54 Kropki",
-      "meta_description": "Połącz 54 proste kropki, aby odsłonić klasyczny dwupłatowiec ciągnący patriotyczny transparent z okazji 250. rocznicy powstania Ameryki. Darmowa karta pracy do druku dla dzieci 4–8 lat, świetna na zajęcia o historii lotnictwa.",
-      "og": {
+    },
+    {
+      "slug": "usa-250-anniversary-airplane-banner-dot-to-dot-puzzle",
+      "header": {
         "title": "Dwupłatowiec z Transparentem – Ameryka 250, Łącz Kropki 54 Kropki",
-        "description": "Połącz 54 proste kropki, aby odsłonić klasyczny dwupłatowiec ciągnący patriotyczny transparent z okazji 250. rocznicy powstania Ameryki. Darmowa karta pracy do druku dla dzieci 4–8 lat, świetna na zajęcia o historii lotnictwa.",
-        "image_alt": "Klasyczny dwupłatowiec z patriotycznym transparentem, złożony z 54 ponumerowanych kropek"
+        "meta_description": "Połącz 54 proste kropki, aby odsłonić klasyczny dwupłatowiec ciągnący patriotyczny transparent z okazji 250. rocznicy powstania Ameryki. Darmowa karta pracy do druku dla dzieci 4–8 lat, świetna na zajęcia o historii lotnictwa.",
+        "og": {
+          "title": "Dwupłatowiec z Transparentem – Ameryka 250, Łącz Kropki 54 Kropki",
+          "description": "Połącz 54 proste kropki, aby odsłonić klasyczny dwupłatowiec ciągnący patriotyczny transparent z okazji 250. rocznicy powstania Ameryki. Darmowa karta pracy do druku dla dzieci 4–8 lat, świetna na zajęcia o historii lotnictwa.",
+          "image_alt": "Klasyczny dwupłatowiec z patriotycznym transparentem, złożony z 54 ponumerowanych kropek"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Sztandar samolotu z okazji 250. rocznicy Ameryki",
+          "description": "Połącz 54 proste kropki, aby odsłonić klasyczny dwupłatowiec ciągnący patriotyczny transparent z okazji 250. rocznicy powstania Ameryki. Darmowa karta pracy do druku dla dzieci 4–8 lat, świetna na zajęcia o historii lotnictwa.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
       },
-      "json_ld": {
-        "type": "CreativeWork",
+      "body": {
+        "h1": "Samolot Banderka Kropka do Kropki: 54 kropki dla Amerykańskiego 250",
         "name": "Sztandar samolotu z okazji 250. rocznicy Ameryki",
-        "description": "Połącz 54 proste kropki, aby odsłonić klasyczny dwupłatowiec ciągnący patriotyczny transparent z okazji 250. rocznicy powstania Ameryki. Darmowa karta pracy do druku dla dzieci 4–8 lat, świetna na zajęcia o historii lotnictwa.",
-        "image": "",
-        "educational_use": "Fine motor skills, number sequencing",
-        "age_range": ""
-      }
-    },
-    "body": {
-      "h1": "Samolot Banderka Kropka do Kropki: 54 kropki dla Amerykańskiego 250",
-      "name": "Sztandar samolotu z okazji 250. rocznicy Ameryki",
-      "tagline": "Wznieś się wysoko z okazji 250. rocznicy powstania Ameryki!",
-      "description": "Połącz 54 proste kropki, aby odsłonić klasyczny dwupłatowiec ciągnący za sobą patriotyczny transparent z okazji 250. rocznicy powstania Ameryki! Ta darmowa karta pracy do wydrukowania pomoże dzieciom ćwiczyć sekwencjonowanie liczb i panowanie nad ołówkiem, jednocześnie świętując 250 lat historii Ameryki i pionierskiego ducha lotnictwa. Idealna dla dzieci w wieku 4–8 lat.",
-      "fun_fact": "Bracia Wright odbyli pierwszy na świecie lot samolotem z napędem w Kitty Hawk w Karolinie Północnej 17 grudnia 1903 roku – zaledwie 127 lat po podpisaniu Deklaracji Niepodległości. Ten pierwszy lot trwał zaledwie 12 sekund i pokonał dystans 120 stóp (36 metrów), ale zmienił świat na zawsze.",
-      "dot_guide": {
-        "intro": "Ameryka obchodzi 250-lecie – i czy istnieje lepszy sposób na przekazanie urodzinowego życzenia niż patriotyczny baner lotniczy pędzący po niebie? Od pierwszego lotu braci Wright w 1903 roku Amerykanie uwielbiają przekraczać granice lotnictwa. Dziś samoloty holujące banery są częstym widokiem na uroczystościach, plażach i imprezach sportowych od wybrzeża do wybrzeża. Weź ołówek, znajdź punkt 1 i wzbijmy się w powietrze!",
-        "sections": [
+        "tagline": "Wznieś się wysoko z okazji 250. rocznicy powstania Ameryki!",
+        "description": "Połącz 54 proste kropki, aby odsłonić klasyczny dwupłatowiec ciągnący za sobą patriotyczny transparent z okazji 250. rocznicy powstania Ameryki! Ta darmowa karta pracy do wydrukowania pomoże dzieciom ćwiczyć sekwencjonowanie liczb i panowanie nad ołówkiem, jednocześnie świętując 250 lat historii Ameryki i pionierskiego ducha lotnictwa. Idealna dla dzieci w wieku 4–8 lat.",
+        "fun_fact": "Bracia Wright odbyli pierwszy na świecie lot samolotem z napędem w Kitty Hawk w Karolinie Północnej 17 grudnia 1903 roku – zaledwie 127 lat po podpisaniu Deklaracji Niepodległości. Ten pierwszy lot trwał zaledwie 12 sekund i pokonał dystans 120 stóp (36 metrów), ale zmienił świat na zawsze.",
+        "faqs": [
           {
-            "range": "1–12",
-            "title": "Nos i śmigło",
-            "learn": "Zacznij od punktu 1 i połącz z punktem 12, aby narysować zaokrąglony nos samolotu i wirujące śmigło z przodu. Te ostre łuki i kątowe łopaty śmigła tworzą dynamiczną rozgrzewkę, która od samego początku rozwija precyzję sterowania ołówkiem.",
-            "fact": "Śmigło w samolocie z silnikiem tłokowym działa jak obracające się skrzydło – każda łopata ma taki kształt, że obracając się w powietrzu, generuje ciąg. Wczesne drewniane śmigła były ręcznie rzeźbione, tworząc precyzyjne krzywizny, a doświadczeni rzemieślnicy potrafili nadać śmigłu kształt idealnie dopasowany do mocy konkretnego silnika."
+            "q": "Ile kropek ma układanka „Połącz kropki” z motywem amerykańskiego sztandaru z okazji 250. rocznicy powstania USA?",
+            "a": "Zestaw do łączenia kropek „America 250 Anniversary Airplane Banner” składa się z 54 ponumerowanych kropek. To sprawia, że ​​jest to układanka o łatwym lub średnim stopniu trudności, idealna dla dzieci w wieku 5–8 lat (od przedszkola do drugiej klasy). Dzieci łączą kropki w kolejności numerycznej, aby odsłonić gotowy obrazek z banerem „America 250 Anniversary Airplane Banner”, a następnie go kolorują."
           },
           {
-            "range": "13–26",
-            "title": "Kokpit i kadłub",
-            "learn": "Kontynuuj od punktu 13 do punktu 26, aby narysować osłonę kokpitu i długi korpus kadłuba. Dzieci ćwiczą kombinację linii prostych i zakrzywionych, które oddają smukły, opływowy kształt samolotu, budując pewność siebie i spójność linii na większej części strony.",
-            "fact": "Wczesne samoloty miały otwarte kokpity bez szyb przeciwwietrznych – piloci nosili skórzane hełmy, gogle i szaliki, aby chronić się przed wiatrem i zimnem na dużych wysokościach. Zamknięte kokpity ze szklanymi osłonami stały się standardem w większości samolotów dopiero w latach 30. XX wieku, znacznie zwiększając komfort lotu."
+            "q": "Czy baner „America 250 Anniversary Airplane Banner” można wydrukować bezpłatnie, łącząc kropki?",
+            "a": "Tak. Arkusz roboczy „America 250 Anniversary Airplane Banner” można pobrać całkowicie za darmo ze strony DotToDotFreePrintables.com — bez konieczności zakładania konta, zakładania adresu e-mail ani dokonywania płatności. Pobiera się natychmiast jako gotowy do druku plik PDF w orientacji pionowej i poziomej, w formacie US Letter lub A4."
           },
           {
-            "range": "27–38",
-            "title": "Skrzydła",
-            "learn": "Obrysuj kropki od 27 do 38, aby narysować rozpostarte skrzydła samolotu. Te długie, poziome kreski to świetne ćwiczenie na płynne i równe prowadzenie linii na dużym dystansie. Zachęć dzieci, aby spokojnie celowały w każdą kropkę i pozwoliły ołówkowi sunąć – niczym samolot unoszący się w łagodnym prądzie powietrza.",
-            "fact": "Skrzydła samolotu generują siłę nośną dzięki zakrzywionej górnej powierzchni i płaskiemu spodowi. Powietrze przepływające nad zakrzywionym wierzchołkiem porusza się szybciej i wytwarza niższe ciśnienie, podczas gdy wolniejsze powietrze pod spodem wypycha je w górę – a ta różnica ciśnień unosi cały samolot nad ziemię."
+            "q": "Dla dzieci w wieku od 25 do 12 lat najlepsza jest karta pracy do łączenia kropek „America 250 Anniversary Airplane Banner”?",
+            "a": "Puzzle „America 250 Anniversary Airplane Banner” z 54 kropkami najlepiej sprawdzą się u dzieci w wieku 5–8 lat (od przedszkola do drugiej klasy). Młodsze dzieci mogą czerpać z nich radość, jeśli z pomocą osoby dorosłej będą wspólnie liczyć, natomiast doświadczone liczmany mogą je samodzielnie ułożyć i ćwiczyć sekwencję liczb do 54."
           },
           {
-            "range": "39–47",
-            "title": "Płetwa ogonowa i ster",
-            "learn": "Połącz kropki od 39 do 47, aby narysować pionowy statecznik pionowy i poziome stateczniki z tyłu samolotu. Te ukośne, precyzyjne kreski pomagają dzieciom ćwiczyć zmiany kierunku i punkty narożne – to duże wyzwanie dla budowania precyzyjnego celowania w każdą ponumerowaną kropkę.",
-            "fact": "Statecznik pionowy – zwany również statecznikiem pionowym – utrzymuje samolot w linii prostej, niczym lotki strzały. Bez niego nos samolotu kołysałby się niekontrolowanie w lewo i w prawo przy najmniejszym wietrze. Mniejsze stateczniki poziome, znajdujące się powyżej i poniżej statecznika, kontrolują pochylenie samolotu w górę i w dół."
+            "q": "Jakich umiejętności uczy łamigłówka „America 250 Anniversary Airplane Banner”?",
+            "a": "Połączenie 54 kropek w układance „America 250 Anniversary Airplane Banner” rozwija umiejętność rozpoznawania liczb i liczenia do 54, panowania nad ołówkiem, koordynacji wzrokowo-ruchowej i skupienia uwagi – te same podstawy motoryki małej, które wspierają wczesne pisanie odręczne. Pokolorowanie gotowego obrazka to nagroda za kreatywność."
           },
           {
-            "range": "48–54",
-            "title": "Baner i wykończenie",
-            "learn": "Dokończ układankę, łącząc kropki od 48 do 54, aby dodać powiewający patriotyczny sztandar ciągnięty za samolotem. Wystarczy siedem kropek, aby dokończyć obrazek — zachęć dzieci do narysowania przypominającego wstążkę sztandaru delikatnym, płynnym ruchem nadgarstka, który sprawi, że będzie wyglądał, jakby powiewał na wietrze.",
-            "fact": "Holowanie banerów z powietrza rozpoczęło się w Stanach Zjednoczonych w latach 20. XX wieku, kiedy to pomysłowi piloci zdali sobie sprawę, że mogą dorobić, wieszając reklamy nad zatłoczonymi plażami i podczas imprez sportowych. Dziś samoloty z banerami często holują banery o długości setek stóp, które w pogodny dzień można zobaczyć z odległości wielu kilometrów."
+            "q": "Jaka jest ciekawostka na temat baneru z okazji 250. rocznicy Stanów Zjednoczonych?",
+            "a": "Bracia Wright odbyli pierwszy na świecie lot samolotem z napędem w Kitty Hawk w Karolinie Północnej 17 grudnia 1903 roku – zaledwie 127 lat po podpisaniu Deklaracji Niepodległości. Ten pierwszy lot trwał zaledwie 12 sekund i pokonał dystans 120 stóp (36 metrów), ale zmienił świat na zawsze. Dzieci odkrywają takie fakty, rozwiązując łamigłówkę „America 250 Anniversary Airplane Banner”."
           }
         ],
-        "outro": "Fantastyczna robota — Twój samolot z okazji 250. rocznicy powstania Ameryki szybuje! To 54 kropki i jedna podniebna wiadomość urodzinowa dla Ameryki. Pokoloruj samolot na czerwono i biało z niebieskimi gwiazdkami i wypełnij baner patriotycznymi kolorami, aby uczcić 250 niesamowitych lat amerykańskiej historii. Wszystkiego najlepszego z okazji 250. urodzin, USA! Idealne do klasy — zobacz więcej <a href=\"/playgrounds/\">arkuszów do łączenia kropek</a>.",
-        "color_schemes": []
+        "dot_guide": {
+          "intro": "Ameryka obchodzi 250-lecie – i czy istnieje lepszy sposób na przekazanie urodzinowego życzenia niż patriotyczny baner lotniczy pędzący po niebie? Od pierwszego lotu braci Wright w 1903 roku Amerykanie uwielbiają przekraczać granice lotnictwa. Dziś samoloty holujące banery są częstym widokiem na uroczystościach, plażach i imprezach sportowych od wybrzeża do wybrzeża. Weź ołówek, znajdź punkt 1 i wzbijmy się w powietrze!",
+          "sections": [
+            {
+              "range": "1–12",
+              "title": "Nos i śmigło",
+              "learn": "Zacznij od punktu 1 i połącz z punktem 12, aby narysować zaokrąglony nos samolotu i wirujące śmigło z przodu. Te ostre łuki i kątowe łopaty śmigła tworzą dynamiczną rozgrzewkę, która od samego początku rozwija precyzję sterowania ołówkiem.",
+              "fact": "Śmigło w samolocie z silnikiem tłokowym działa jak obracające się skrzydło – każda łopata ma taki kształt, że obracając się w powietrzu, generuje ciąg. Wczesne drewniane śmigła były ręcznie rzeźbione, tworząc precyzyjne krzywizny, a doświadczeni rzemieślnicy potrafili nadać śmigłu kształt idealnie dopasowany do mocy konkretnego silnika."
+            },
+            {
+              "range": "13–26",
+              "title": "Kokpit i kadłub",
+              "learn": "Kontynuuj od punktu 13 do punktu 26, aby narysować osłonę kokpitu i długi korpus kadłuba. Dzieci ćwiczą kombinację linii prostych i zakrzywionych, które oddają smukły, opływowy kształt samolotu, budując pewność siebie i spójność linii na większej części strony.",
+              "fact": "Wczesne samoloty miały otwarte kokpity bez szyb przeciwwietrznych – piloci nosili skórzane hełmy, gogle i szaliki, aby chronić się przed wiatrem i zimnem na dużych wysokościach. Zamknięte kokpity ze szklanymi osłonami stały się standardem w większości samolotów dopiero w latach 30. XX wieku, znacznie zwiększając komfort lotu."
+            },
+            {
+              "range": "27–38",
+              "title": "Skrzydła",
+              "learn": "Obrysuj kropki od 27 do 38, aby narysować rozpostarte skrzydła samolotu. Te długie, poziome kreski to świetne ćwiczenie na płynne i równe prowadzenie linii na dużym dystansie. Zachęć dzieci, aby spokojnie celowały w każdą kropkę i pozwoliły ołówkowi sunąć – niczym samolot unoszący się w łagodnym prądzie powietrza.",
+              "fact": "Skrzydła samolotu generują siłę nośną dzięki zakrzywionej górnej powierzchni i płaskiemu spodowi. Powietrze przepływające nad zakrzywionym wierzchołkiem porusza się szybciej i wytwarza niższe ciśnienie, podczas gdy wolniejsze powietrze pod spodem wypycha je w górę – a ta różnica ciśnień unosi cały samolot nad ziemię."
+            },
+            {
+              "range": "39–47",
+              "title": "Płetwa ogonowa i ster",
+              "learn": "Połącz kropki od 39 do 47, aby narysować pionowy statecznik pionowy i poziome stateczniki z tyłu samolotu. Te ukośne, precyzyjne kreski pomagają dzieciom ćwiczyć zmiany kierunku i punkty narożne – to duże wyzwanie dla budowania precyzyjnego celowania w każdą ponumerowaną kropkę.",
+              "fact": "Statecznik pionowy – zwany również statecznikiem pionowym – utrzymuje samolot w linii prostej, niczym lotki strzały. Bez niego nos samolotu kołysałby się niekontrolowanie w lewo i w prawo przy najmniejszym wietrze. Mniejsze stateczniki poziome, znajdujące się powyżej i poniżej statecznika, kontrolują pochylenie samolotu w górę i w dół."
+            },
+            {
+              "range": "48–54",
+              "title": "Baner i wykończenie",
+              "learn": "Dokończ układankę, łącząc kropki od 48 do 54, aby dodać powiewający patriotyczny sztandar ciągnięty za samolotem. Wystarczy siedem kropek, aby dokończyć obrazek — zachęć dzieci do narysowania przypominającego wstążkę sztandaru delikatnym, płynnym ruchem nadgarstka, który sprawi, że będzie wyglądał, jakby powiewał na wietrze.",
+              "fact": "Holowanie banerów z powietrza rozpoczęło się w Stanach Zjednoczonych w latach 20. XX wieku, kiedy to pomysłowi piloci zdali sobie sprawę, że mogą dorobić, wieszając reklamy nad zatłoczonymi plażami i podczas imprez sportowych. Dziś samoloty z banerami często holują banery o długości setek stóp, które w pogodny dzień można zobaczyć z odległości wielu kilometrów."
+            }
+          ],
+          "outro": "Fantastyczna robota — Twój samolot z okazji 250. rocznicy powstania Ameryki szybuje! To 54 kropki i jedna podniebna wiadomość urodzinowa dla Ameryki. Pokoloruj samolot na czerwono i biało z niebieskimi gwiazdkami i wypełnij baner patriotycznymi kolorami, aby uczcić 250 niesamowitych lat amerykańskiej historii. Wszystkiego najlepszego z okazji 250. urodzin, USA! Idealne do klasy — zobacz więcej <a href=\"/playgrounds/\">arkuszów do łączenia kropek</a>.",
+          "color_schemes": []
+        }
       }
-    }
-  },
-  {
-    "slug": "usa-250-space-shuttle-dot-to-dot-puzzle",
-    "header": {
-      "title": "Prom Kosmiczny – Ameryka 250 lat Eksploracji, Łącz Kropki 50 Kropek",
-      "meta_description": "Połącz 50 prostych kropek, aby odkryć potężny wahadłowiec kosmiczny startujący z okazji 250. rocznicy powstania Ameryki. Darmowa karta pracy do druku dla dzieci 4–8 lat, upamiętniająca amerykańską eksplorację kosmosu.",
-      "og": {
+    },
+    {
+      "slug": "usa-250-space-shuttle-dot-to-dot-puzzle",
+      "header": {
         "title": "Prom Kosmiczny – Ameryka 250 lat Eksploracji, Łącz Kropki 50 Kropek",
-        "description": "Połącz 50 prostych kropek, aby odkryć potężny wahadłowiec kosmiczny startujący z okazji 250. rocznicy powstania Ameryki. Darmowa karta pracy do druku dla dzieci 4–8 lat, upamiętniająca amerykańską eksplorację kosmosu.",
-        "image_alt": "Potężny wahadłowiec kosmiczny podczas startu, złożony z 50 ponumerowanych kropek do połączenia"
+        "meta_description": "Połącz 50 prostych kropek, aby odkryć potężny wahadłowiec kosmiczny startujący z okazji 250. rocznicy powstania Ameryki. Darmowa karta pracy do druku dla dzieci 4–8 lat, upamiętniająca amerykańską eksplorację kosmosu.",
+        "og": {
+          "title": "Prom Kosmiczny – Ameryka 250 lat Eksploracji, Łącz Kropki 50 Kropek",
+          "description": "Połącz 50 prostych kropek, aby odkryć potężny wahadłowiec kosmiczny startujący z okazji 250. rocznicy powstania Ameryki. Darmowa karta pracy do druku dla dzieci 4–8 lat, upamiętniająca amerykańską eksplorację kosmosu.",
+          "image_alt": "Potężny wahadłowiec kosmiczny podczas startu, złożony z 50 ponumerowanych kropek do połączenia"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Prom kosmiczny America 250",
+          "description": "Połącz 50 prostych kropek, aby odkryć potężny wahadłowiec kosmiczny startujący z okazji 250. rocznicy powstania Ameryki. Darmowa karta pracy do druku dla dzieci 4–8 lat, upamiętniająca amerykańską eksplorację kosmosu.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
       },
-      "json_ld": {
-        "type": "CreativeWork",
+      "body": {
+        "h1": "Prom Kosmiczny Kropka do Kropki — 50-kropkowe uruchomienie Amerykańskiego 250",
         "name": "Prom kosmiczny America 250",
-        "description": "Połącz 50 prostych kropek, aby odkryć potężny wahadłowiec kosmiczny startujący z okazji 250. rocznicy powstania Ameryki. Darmowa karta pracy do druku dla dzieci 4–8 lat, upamiętniająca amerykańską eksplorację kosmosu.",
-        "image": "",
-        "educational_use": "Fine motor skills, number sequencing",
-        "age_range": ""
-      }
-    },
-    "body": {
-      "h1": "Prom Kosmiczny Kropka do Kropki — 50-kropkowe uruchomienie Amerykańskiego 250",
-      "name": "Prom kosmiczny America 250",
-      "tagline": "Wybierz się w 250. rocznicę amerykańskiej eksploracji kosmosu promem kosmicznym!",
-      "description": "Połącz 50 prostych kropek, aby odkryć potężny wahadłowiec kosmiczny startujący z okazji 250. rocznicy powstania Ameryki! Ta darmowa karta pracy do wydruku pomoże dzieciom ćwiczyć sekwencjonowanie liczb i panowanie nad ołówkiem, jednocześnie upamiętniając 250 lat amerykańskiej eksploracji i innowacji. Idealna dla dzieci w wieku 4–8 lat.",
-      "fun_fact": "Program promu kosmicznego NASA odbył 135 misji w latach 1981-2011, przewożąc astronautów, satelity i elementy budowlane Międzynarodowej Stacji Kosmicznej na orbitę. Pięć promów — Columbia, Challenger, Discovery, Atlantis i Endeavour — spędziło łącznie ponad 1300 dni w kosmosie.",
-      "dot_guide": {
-        "intro": "Ameryka kończy 250 lat – i niewiele maszyn ucieleśnia ducha eksploracji i ambicji narodu lepiej niż wahadłowiec kosmiczny! Przez 30 lat wahadłowiec wynosił amerykańskich astronautów na orbitę, wystrzeliwał teleskopy, które zmieniły nasze spojrzenie na wszechświat, i pomógł zbudować stację kosmiczną, z której korzysta cały świat. Weź ołówek, znajdź punkt 1 i wystrzelmy ten wahadłowiec w kosmos!",
-        "sections": [
+        "tagline": "Wybierz się w 250. rocznicę amerykańskiej eksploracji kosmosu promem kosmicznym!",
+        "description": "Połącz 50 prostych kropek, aby odkryć potężny wahadłowiec kosmiczny startujący z okazji 250. rocznicy powstania Ameryki! Ta darmowa karta pracy do wydruku pomoże dzieciom ćwiczyć sekwencjonowanie liczb i panowanie nad ołówkiem, jednocześnie upamiętniając 250 lat amerykańskiej eksploracji i innowacji. Idealna dla dzieci w wieku 4–8 lat.",
+        "fun_fact": "Program promu kosmicznego NASA odbył 135 misji w latach 1981-2011, przewożąc astronautów, satelity i elementy budowlane Międzynarodowej Stacji Kosmicznej na orbitę. Pięć promów — Columbia, Challenger, Discovery, Atlantis i Endeavour — spędziło łącznie ponad 1300 dni w kosmosie.",
+        "faqs": [
           {
-            "range": "1–10",
-            "title": "Stożek nosowy i kokpit",
-            "learn": "Zacznij od punktu 1 i połącz go z punktem 10, aby narysować ostry stożek dziobowy i rząd okien kokpitu tuż pod nim. Te precyzyjne, kanciaste pociągnięcia stanowią doskonałą rozgrzewkę dla młodych artystów, pomagając im wyrobić pewną kontrolę dłoni, niezbędną do sterowania skrzydłami i silnikami.",
-            "fact": "Stożek nosowy i przednia część kadłuba promu kosmicznego były pokryte tysiącami płytek osłony termicznej, każda wykonana z materiału krzemionkowego, który był tak skuteczny, że można było trzymać płytkę w dłoni już po kilku sekundach od momentu, gdy została podgrzana do 2300 stopni Fahrenheita — temperatury, jaką osiągnęła podczas wejścia w atmosferę."
+            "q": "Ile kropek ma układanka „Połącz kropki” przedstawiająca wahadłowiec kosmiczny America 250?",
+            "a": "Zestaw do łączenia kropek „America 250 Space Shuttle” do wydrukowania zawiera 50 ponumerowanych kropek. To sprawia, że ​​jest to układanka o łatwym lub średnim stopniu trudności, najlepiej odpowiednia dla dzieci w wieku 5–8 lat (od przedszkola do drugiej klasy). Dzieci łączą kropki w kolejności numerycznej, aby odsłonić gotowy obrazek „America 250 Space Shuttle”, a następnie go kolorują."
           },
           {
-            "range": "11–24",
-            "title": "Główny kadłub",
-            "learn": "Kontynuuj od punktu 11 do punktu 24, aby narysować długi, cylindryczny korpus orbitera – część, która mieściła kabinę załogi, ładownię i cały sprzęt misji. Dzieci ćwiczą tutaj proste, równoległe linie, co buduje doskonałą spójność i pomaga im zrozumieć ogólny kształt, zanim dodadzą ekscytujące detale.",
-            "fact": "Ogromna ładownia wahadłowca – przestrzeń ładunkowa za kabiną załogi – miała 18 metrów długości i 4,5 metra szerokości, co pozwalało na wyniesienie na orbitę autobusu szkolnego. Służyła do wystrzeliwania satelitów, przeprowadzania eksperymentów naukowych i transportu masywnych modułów, które zostały ze sobą połączone w celu zbudowania Międzynarodowej Stacji Kosmicznej."
+            "q": "Czy można bezpłatnie wydrukować i połączyć kropki wahadłowiec kosmiczny America 250?",
+            "a": "Tak. Arkusz roboczy „America 250 Space Shuttle” można pobrać całkowicie za darmo ze strony DotToDotFreePrintables.com — bez konieczności zakładania konta, zakładania adresu e-mail ani dokonywania płatności. Arkusz pobiera się natychmiast w formacie PDF gotowym do druku, zarówno w orientacji pionowej, jak i poziomej, w formacie US Letter lub A4."
           },
           {
-            "range": "25–36",
-            "title": "Skrzydła Delta",
-            "learn": "Obrysuj kropki od 25 do 36, aby narysować charakterystyczne, skośne skrzydła delty wahadłowca. Te długie, ukośne kreski to wspaniałe ćwiczenie w pewnym panowaniu nad linią — dzieci ćwiczą rysowanie od szerokiej końcówki skrzydła w kierunku korpusu orbitera jednym płynnym, przemyślanym ruchem.",
-            "fact": "Prom kosmiczny był pierwszym na świecie statkiem kosmicznym wielokrotnego użytku, zaprojektowanym do lotu jak szybowiec podczas lądowania. Po wejściu w atmosferę nie miał silnika i tylko jedną szansę na lądowanie – piloci nazywali go „najcięższym szybowcem świata”. Skrzydła w kształcie delty zapewniały mu siłę nośną niezbędną do bezpiecznego szybowania na pasie startowym."
+            "q": "Dla dzieci w jakim wieku najlepiej sprawdzi się karta „Połącz kropki” dotycząca promu kosmicznego America 250?",
+            "a": "Puzzle „America 250 Space Shuttle” z 50 kropkami najlepiej sprawdzą się dla dzieci w wieku 5–8 lat (od przedszkola do drugiej klasy szkoły podstawowej). Młodsze dzieci mogą czerpać z niej radość, jeśli dorośli będą im pomagać w liczeniu, natomiast doświadczeni liczmani mogą ją układać samodzielnie i ćwiczyć sekwencję liczb do 50."
           },
           {
-            "range": "37–44",
-            "title": "Płetwa ogonowa i silniki główne",
-            "learn": "Połącz kropki od 37 do 44, aby narysować wysoki, pionowy statecznik oraz zespół trzech głównych silników z tyłu orbitera. Dzieci ćwiczą wysoki, skierowany w górę ruch statecznika, a następnie mniejsze, zaokrąglone kształty dla każdego dzwonu silnika – to świetne połączenie dużych i małych ruchów w tej samej sekcji.",
-            "fact": "Każdy główny silnik promu kosmicznego (SSME) był jednym z najpotężniejszych silników rakietowych, jakie kiedykolwiek zbudowano, generując ciąg wynoszący około 170 ton. Trzy silniki spalały jednocześnie ciekły wodór i ciekły tlen, wytwarzając płomień tak gorący, że konieczne było polanie platformy startowej wodą, aby pochłonąć dźwięk i ciepło podczas startu."
+            "q": "Jakich umiejętności uczy układanka „Połącz kropki” przedstawiająca wahadłowiec kosmiczny America 250?",
+            "a": "Połączenie 50 kropek w układance „America 250 Space Shuttle” rozwija umiejętność rozpoznawania liczb i liczenia do 50, panowania nad ołówkiem, koordynacji wzrokowo-ruchowej i skupienia uwagi – te same podstawy motoryki małej, które wspierają wczesne pisanie odręczne. Pokolorowanie gotowego obrazka to nagroda za kreatywność."
           },
           {
-            "range": "45–50",
-            "title": "Łatka misji i ostatnie szlify",
-            "learn": "Ułóż puzzle, łącząc kropki od 45 do 50, aby dodać amerykańską flagę, naszywkę misji i ostatnie detale, które ożywią cały wahadłowiec. Wystarczy sześć kropek, aby ukończyć ten historyczny statek kosmiczny — zachęć dzieci, aby te ostatnie linie były jak najdokładniejsze i najstaranniejsze, tworząc obrazek godny naszywki misji!",
-            "fact": "Każda misja promu kosmicznego miała swoją własną, unikalną naszywkę załogi, zaprojektowaną przez samych astronautów i noszoną na ich kombinezonach. Te okrągłe naszywki zawierały grafiki, imiona i nazwiska członków załogi oraz symbole reprezentujące cele misji – i stały się cenionym przedmiotem kolekcjonerskim dla miłośników kosmosu na całym świecie."
+            "q": "Jaka jest ciekawostka na temat wahadłowca kosmicznego America 250?",
+            "a": "Program wahadłowców kosmicznych NASA odbył 135 misji w latach 1981–2011, wynosząc na orbitę astronautów, satelity i elementy składowe Międzynarodowej Stacji Kosmicznej. Pięć wahadłowców – Columbia, Challenger, Discovery, Atlantis i Endeavour – spędziło łącznie ponad 1300 dni w kosmosie. Dzieci odkrywają takie ciekawostki, rozwiązując łamigłówkę „America 250 Space Shuttle”."
           }
         ],
-        "outro": "Niesamowita robota — Twój wahadłowiec kosmiczny America 250 jest gotowy do startu! To 50 kropek i jeden wspaniały symbol amerykańskiej pomysłowości i eksploracji. Pokoloruj orbiter na biało, dodając czarne płytki termiczne, dodaj czerwone i niebieskie oznaczenia flagowe, a Twój wahadłowiec jest gotowy do startu i przejścia do historii. Wszystkiego najlepszego z okazji 250. urodzin, USA — niebo to zdecydowanie nie wszystko! Odkryj więcej <a href=\"/usa-250/\">materiałów do druku z okazji America 250</a>, aby podtrzymać świętowanie.",
-        "color_schemes": []
+        "dot_guide": {
+          "intro": "Ameryka kończy 250 lat – i niewiele maszyn ucieleśnia ducha eksploracji i ambicji narodu lepiej niż wahadłowiec kosmiczny! Przez 30 lat wahadłowiec wynosił amerykańskich astronautów na orbitę, wystrzeliwał teleskopy, które zmieniły nasze spojrzenie na wszechświat, i pomógł zbudować stację kosmiczną, z której korzysta cały świat. Weź ołówek, znajdź punkt 1 i wystrzelmy ten wahadłowiec w kosmos!",
+          "sections": [
+            {
+              "range": "1–10",
+              "title": "Stożek nosowy i kokpit",
+              "learn": "Zacznij od punktu 1 i połącz go z punktem 10, aby narysować ostry stożek dziobowy i rząd okien kokpitu tuż pod nim. Te precyzyjne, kanciaste pociągnięcia stanowią doskonałą rozgrzewkę dla młodych artystów, pomagając im wyrobić pewną kontrolę dłoni, niezbędną do sterowania skrzydłami i silnikami.",
+              "fact": "Stożek nosowy i przednia część kadłuba promu kosmicznego były pokryte tysiącami płytek osłony termicznej, każda wykonana z materiału krzemionkowego, który był tak skuteczny, że można było trzymać płytkę w dłoni już po kilku sekundach od momentu, gdy została podgrzana do 2300 stopni Fahrenheita — temperatury, jaką osiągnęła podczas wejścia w atmosferę."
+            },
+            {
+              "range": "11–24",
+              "title": "Główny kadłub",
+              "learn": "Kontynuuj od punktu 11 do punktu 24, aby narysować długi, cylindryczny korpus orbitera – część, która mieściła kabinę załogi, ładownię i cały sprzęt misji. Dzieci ćwiczą tutaj proste, równoległe linie, co buduje doskonałą spójność i pomaga im zrozumieć ogólny kształt, zanim dodadzą ekscytujące detale.",
+              "fact": "Ogromna ładownia wahadłowca – przestrzeń ładunkowa za kabiną załogi – miała 18 metrów długości i 4,5 metra szerokości, co pozwalało na wyniesienie na orbitę autobusu szkolnego. Służyła do wystrzeliwania satelitów, przeprowadzania eksperymentów naukowych i transportu masywnych modułów, które zostały ze sobą połączone w celu zbudowania Międzynarodowej Stacji Kosmicznej."
+            },
+            {
+              "range": "25–36",
+              "title": "Skrzydła Delta",
+              "learn": "Obrysuj kropki od 25 do 36, aby narysować charakterystyczne, skośne skrzydła delty wahadłowca. Te długie, ukośne kreski to wspaniałe ćwiczenie w pewnym panowaniu nad linią — dzieci ćwiczą rysowanie od szerokiej końcówki skrzydła w kierunku korpusu orbitera jednym płynnym, przemyślanym ruchem.",
+              "fact": "Prom kosmiczny był pierwszym na świecie statkiem kosmicznym wielokrotnego użytku, zaprojektowanym do lotu jak szybowiec podczas lądowania. Po wejściu w atmosferę nie miał silnika i tylko jedną szansę na lądowanie – piloci nazywali go „najcięższym szybowcem świata”. Skrzydła w kształcie delty zapewniały mu siłę nośną niezbędną do bezpiecznego szybowania na pasie startowym."
+            },
+            {
+              "range": "37–44",
+              "title": "Płetwa ogonowa i silniki główne",
+              "learn": "Połącz kropki od 37 do 44, aby narysować wysoki, pionowy statecznik oraz zespół trzech głównych silników z tyłu orbitera. Dzieci ćwiczą wysoki, skierowany w górę ruch statecznika, a następnie mniejsze, zaokrąglone kształty dla każdego dzwonu silnika – to świetne połączenie dużych i małych ruchów w tej samej sekcji.",
+              "fact": "Każdy główny silnik promu kosmicznego (SSME) był jednym z najpotężniejszych silników rakietowych, jakie kiedykolwiek zbudowano, generując ciąg wynoszący około 170 ton. Trzy silniki spalały jednocześnie ciekły wodór i ciekły tlen, wytwarzając płomień tak gorący, że konieczne było polanie platformy startowej wodą, aby pochłonąć dźwięk i ciepło podczas startu."
+            },
+            {
+              "range": "45–50",
+              "title": "Łatka misji i ostatnie szlify",
+              "learn": "Ułóż puzzle, łącząc kropki od 45 do 50, aby dodać amerykańską flagę, naszywkę misji i ostatnie detale, które ożywią cały wahadłowiec. Wystarczy sześć kropek, aby ukończyć ten historyczny statek kosmiczny — zachęć dzieci, aby te ostatnie linie były jak najdokładniejsze i najstaranniejsze, tworząc obrazek godny naszywki misji!",
+              "fact": "Każda misja promu kosmicznego miała swoją własną, unikalną naszywkę załogi, zaprojektowaną przez samych astronautów i noszoną na ich kombinezonach. Te okrągłe naszywki zawierały grafiki, imiona i nazwiska członków załogi oraz symbole reprezentujące cele misji – i stały się cenionym przedmiotem kolekcjonerskim dla miłośników kosmosu na całym świecie."
+            }
+          ],
+          "outro": "Niesamowita robota — Twój wahadłowiec kosmiczny America 250 jest gotowy do startu! To 50 kropek i jeden wspaniały symbol amerykańskiej pomysłowości i eksploracji. Pokoloruj orbiter na biało, dodając czarne płytki termiczne, dodaj czerwone i niebieskie oznaczenia flagowe, a Twój wahadłowiec jest gotowy do startu i przejścia do historii. Wszystkiego najlepszego z okazji 250. urodzin, USA — niebo to zdecydowanie nie wszystko! Odkryj więcej <a href=\"/usa-250/\">materiałów do druku z okazji America 250</a>, aby podtrzymać świętowanie.",
+          "color_schemes": []
+        }
       }
-    }
-  },
-  {
-    "slug": "usa-250-anniversary-sports-kids-podium-dot-to-dot-puzzle",
-    "header": {
-      "title": "Podium Młodych Sportowców – Ameryka 250, Łącz Kropki 124 Kropki",
-      "meta_description": "Połącz 124 kropki, aby odkryć trójkę młodych sportowców na patriotycznym podium zwycięzców z okazji 250. rocznicy powstania Ameryki. Wymagająca darmowa karta pracy do druku dla dzieci 6–10 lat, oddająca hołd amerykańskiemu duchowi sportowemu.",
-      "og": {
+    },
+    {
+      "slug": "usa-250-anniversary-sports-kids-podium-dot-to-dot-puzzle",
+      "header": {
         "title": "Podium Młodych Sportowców – Ameryka 250, Łącz Kropki 124 Kropki",
-        "description": "Połącz 124 kropki, aby odkryć trójkę młodych sportowców na patriotycznym podium zwycięzców z okazji 250. rocznicy powstania Ameryki. Wymagająca darmowa karta pracy do druku dla dzieci 6–10 lat, oddająca hołd amerykańskiemu duchowi sportowemu.",
-        "image_alt": "Trójka młodych sportowców na podium zwycięzców, złożona z 124 ponumerowanych kropek do połączenia"
+        "meta_description": "Połącz 124 kropki, aby odkryć trójkę młodych sportowców na patriotycznym podium zwycięzców z okazji 250. rocznicy powstania Ameryki. Wymagająca darmowa karta pracy do druku dla dzieci 6–10 lat, oddająca hołd amerykańskiemu duchowi sportowemu.",
+        "og": {
+          "title": "Podium Młodych Sportowców – Ameryka 250, Łącz Kropki 124 Kropki",
+          "description": "Połącz 124 kropki, aby odkryć trójkę młodych sportowców na patriotycznym podium zwycięzców z okazji 250. rocznicy powstania Ameryki. Wymagająca darmowa karta pracy do druku dla dzieci 6–10 lat, oddająca hołd amerykańskiemu duchowi sportowemu.",
+          "image_alt": "Trójka młodych sportowców na podium zwycięzców, złożona z 124 ponumerowanych kropek do połączenia"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Podium dla dzieci z okazji 250. rocznicy Ameryki",
+          "description": "Połącz 124 kropki, aby odkryć trójkę młodych sportowców na patriotycznym podium zwycięzców z okazji 250. rocznicy powstania Ameryki. Wymagająca darmowa karta pracy do druku dla dzieci 6–10 lat, oddająca hołd amerykańskiemu duchowi sportowemu.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
       },
-      "json_ld": {
-        "type": "CreativeWork",
+      "body": {
+        "h1": "Amerykański 250 Podium Kropka do Kropki: wyzwanie 124 kropek",
         "name": "Podium dla dzieci z okazji 250. rocznicy Ameryki",
-        "description": "Połącz 124 kropki, aby odkryć trójkę młodych sportowców na patriotycznym podium zwycięzców z okazji 250. rocznicy powstania Ameryki. Wymagająca darmowa karta pracy do druku dla dzieci 6–10 lat, oddająca hołd amerykańskiemu duchowi sportowemu.",
-        "image": "",
-        "educational_use": "Fine motor skills, number sequencing",
-        "age_range": ""
-      }
-    },
-    "body": {
-      "h1": "Amerykański 250 Podium Kropka do Kropki: wyzwanie 124 kropek",
-      "name": "Podium dla dzieci z okazji 250. rocznicy Ameryki",
-      "tagline": "Kibicuj Młodym Mistrzom Ameryki w wieku 250 lat!",
-      "description": "Połącz 124 kropki, aby odkryć trójkę młodych sportowców świętujących na patriotycznym podium zwycięzców z okazji 250. rocznicy powstania Ameryki! Ta darmowa karta pracy do wydrukowania oferuje dzieciom w wieku 6–10 lat satysfakcjonujące wyzwanie w układaniu liczb, jednocześnie oddając hołd 250 latom amerykańskiego ducha sportowego, pracy zespołowej i rywalizacji.",
-      "fun_fact": "Stany Zjednoczone brały udział w niemal wszystkich Letnich Igrzyskach Olimpijskich od pierwszych nowoczesnych igrzysk w 1896 roku i prowadzą wśród wszystkich narodów pod względem łącznej liczby złotych medali olimpijskich. Amerykańscy sportowcy stawali na tym najwyższym podium ponad 1000 razy — dowód na to, że sportowy duch USA jest tak silny, jak długa jest jego historia!",
-      "dot_guide": {
-        "intro": "Ameryka obchodzi 250-lecie – a kraj świętuje to z najlepszymi młodymi mistrzami na podium! Od pierwszych igrzysk olimpijskich po lokalne małe ligi, sport zawsze był wpisany w amerykańską duszę: emocje rywalizacji, radość z pracy zespołowej i duma z bycia wysoko po tym, jak dałeś z siebie wszystko. Weź ołówek, znajdź punkt 1 i krok po kroku zbudujmy to podium!",
-        "sections": [
+        "tagline": "Kibicuj Młodym Mistrzom Ameryki w wieku 250 lat!",
+        "description": "Połącz 124 kropki, aby odkryć trójkę młodych sportowców świętujących na patriotycznym podium zwycięzców z okazji 250. rocznicy powstania Ameryki! Ta darmowa karta pracy do wydrukowania oferuje dzieciom w wieku 6–10 lat satysfakcjonujące wyzwanie w układaniu liczb, jednocześnie oddając hołd 250 latom amerykańskiego ducha sportowego, pracy zespołowej i rywalizacji.",
+        "fun_fact": "Stany Zjednoczone brały udział w niemal wszystkich Letnich Igrzyskach Olimpijskich od pierwszych nowoczesnych igrzysk w 1896 roku i prowadzą wśród wszystkich narodów pod względem łącznej liczby złotych medali olimpijskich. Amerykańscy sportowcy stawali na tym najwyższym podium ponad 1000 razy — dowód na to, że sportowy duch USA jest tak silny, jak długa jest jego historia!",
+        "faqs": [
           {
-            "range": "1–25",
-            "title": "Podstawa i stopnie podium",
-            "learn": "Zacznij od punktu 1 i połącz go z punktem 25, aby narysować solidną, schodkową podstawę podium zwycięzcy. Trzy platformy – oznaczone jako 1., 2. i 3. – zbudowane są z wyraźnych prostokątnych kształtów i poziomych linii. Te płynne, geometryczne pociągnięcia stanowią doskonałą rozgrzewkę, pomagając dzieciom złapać rytm i rozwinąć pewność siebie w posługiwaniu się ołówkiem, niezbędną do bardziej szczegółowych części.",
-            "fact": "Trzystopniowe podium dla zwycięzcy zadebiutowało na Letnich Igrzyskach Olimpijskich w 1932 roku w Los Angeles, po tym jak pojawiło się już na Zimowych Igrzyskach Olimpijskich w Lake Placid w 1932 roku. Projekt był tak wyrazisty wizualnie, że został przyjęty na zawodach sportowych na całym świecie i do dziś pozostaje uniwersalnym symbolem osiągnięć sportowych."
+            "q": "Ile kropek ma układanka „Podium dla dzieci z okazji 250. rocznicy America 250 Anniversary Sports Kids Podium”?",
+            "a": "Zestaw do łączenia kropek „America 250 Anniversary Sports Kids Podium” zawiera 124 ponumerowane kropki. To sprawia, że ​​jest to wymagająca łamigłówka, idealna dla dzieci w wieku 7–12 lat (od 2. klasy). Dzieci łączą kropki w kolejności numerycznej, aby odsłonić gotowy obrazek „America 250 Anniversary Sports Kids Podium”, a następnie go kolorują."
           },
           {
-            "range": "26–50",
-            "title": "Ciała i stroje młodych sportowców",
-            "learn": "Kontynuuj od punktu 26 do punktu 50, aby narysować sylwetki i stroje sportowe trzech młodych sportowców dumnie stojących na stopniach podium. Dzieci ćwiczą tu różnorodne style – proste linie na nogi, łagodne łuki na tułów i ukośne kształty na wyciągnięte ramiona – dzięki czemu ta sekcja jest wspaniałym, wszechstronnym ćwiczeniem giętkości ołówka i kontroli kierunku.",
-            "fact": "Stroje sportowe uległy radykalnym zmianom na przestrzeni 250 lat amerykańskiej historii. Na początku XIX wieku sportowcy rywalizowali w codziennych ubraniach roboczych, podczas gdy dzisiejsza odzież sportowa jest wykonana z zaawansowanych technologicznie tkanin, które odprowadzają wilgoć, zmniejszają opór powietrza, a nawet monitorują tętno. Gwiazdy i Pasy dumnie widnieją na strojach reprezentacji USA podczas każdych zawodów międzynarodowych."
+            "q": "Czy kolorowanka „Podium dla dzieci z okazji 250. rocznicy Ameryki” jest dostępna do wydrukowania i połączenia kropek za darmo?",
+            "a": "Tak. Arkusz roboczy „America 250 Anniversary Sports Kids Podium” można pobrać całkowicie za darmo ze strony DotToDotFreePrintables.com — bez konieczności zakładania konta, zakładania adresu e-mail ani dokonywania płatności. Pobiera się natychmiast w formacie PDF gotowym do druku, zarówno w orientacji pionowej, jak i poziomej, w formacie US Letter lub A4."
           },
           {
-            "range": "51–75",
-            "title": "Głowy, twarze i wyrazy twarzy",
-            "learn": "Obrysuj kropki od 51 do 75, aby dodać głowy trzech młodych sportowców i radosne miny na ich twarzach. Zaokrąglone kształty każdej głowy oraz drobne, precyzyjne detale oczu, nosa i uśmiechów to urocze wyzwanie, które ćwiczy uważną obserwację i precyzję rysowania. Zachęć dzieci do zwolnienia tempa – to właśnie te drobne detale ożywiają cały obraz.",
-            "fact": "Uśmiechnięci zwycięzcy na podium są nieodłącznym elementem amerykańskiej kultury sportowej od początku XX wieku. Dziś uroczystości na podium są transmitowane na żywo dla milionów widzów na całym świecie. Kiedy amerykańscy sportowcy stają na najwyższym stopniu podium, a rozbrzmiewa hymn Stanów Zjednoczonych, jest to jeden z najchętniej oglądanych momentów w sporcie międzynarodowym."
+            "q": "Dla dzieci w jakim wieku najlepiej sprawdzi się arkusz do łączenia kropek America 250 Anniversary Sports Kids Podium?",
+            "a": "Puzzle America 250 Anniversary Sports Kids Podium, składające się ze 124 punktów, najlepiej sprawdzą się u dzieci w wieku 7–12 lat (od drugiej klasy wzwyż). Młodsze dzieci mogą czerpać z nich radość z lekkiej pomocy dorosłych, a doświadczone liczmany mogą je samodzielnie ułożyć i ćwiczyć sekwencję liczb do 124."
           },
           {
-            "range": "76–100",
-            "title": "Medale, trofea i wstążki",
-            "learn": "Połącz kropki od 76 do 100, aby narysować lśniące medale wiszące na szyjach sportowców, trofea w ich dłoniach oraz ozdobne wstążki okalające podium. Dzieci ćwiczą okrągłe kształty dla krążków medalowych, kanciaste kontury dla trofeów i płynne krzywe dla wstążek – bogactwo różnorodnych linii, które sprawiają, że wyzwanie jest świeże i angażujące.",
-            "fact": "Złote medale olimpijskie nie są w rzeczywistości wykonane z litego złota – są wykonane ze srebra pokrytego co najmniej sześciogramową warstwą złota. Tradycja przyznawania złotych, srebrnych i brązowych medali za pierwsze, drugie i trzecie miejsce rozpoczęła się podczas Igrzysk Olimpijskich w St. Louis w 1904 roku, które odbyły się w Stanach Zjednoczonych. Miasto St. Louis obchodziło w tym samym czasie setną rocznicę zakupu Luizjany, co nadało tym igrzyskom wyjątkowo patriotyczny, amerykański charakter."
+            "q": "Jakich umiejętności uczy układanka „America 250 Anniversary Sports Kids Podium”?",
+            "a": "Połączenie 124 kropek układanki „America 250 Anniversary Sports Kids Podium” rozwija umiejętności rozpoznawania liczb i liczenia do 124, panowania nad ołówkiem, koordynacji wzrokowo-ruchowej i skupienia uwagi – te same podstawy motoryki małej, które wspierają wczesne pisanie odręczne. Pokolorowanie gotowego obrazka to nagroda za kreatywność."
           },
           {
-            "range": "101–124",
-            "title": "Gwiazdy, baner i ostatnie szlify",
-            "learn": "Ułóż puzzle, łącząc kropki od 101 do 124, aby dodać patriotyczne gwiazdy, baner z okazji rocznicy nad podium i ostatnie detale dekoracyjne, które przekształcą tę scenę w prawdziwą celebrację 250. urodzin Ameryki. Te ostatnie 24 kropki nagradzają dzieci za ukończenie naprawdę trudnej układanki — zachęcaj je, aby każda linia się liczyła, aby ukończyć ją z dumą!",
-            "fact": "250. rocznica Ameryki przypada 4 lipca 2026 roku, dokładnie 250 lat po uchwaleniu Deklaracji Niepodległości. Od wyścigów lokalnych po mistrzostwa krajowe, Amerykanie mogą uczcić to wydarzenie pracą zespołową, przyjacielską rywalizacją i dążeniem do doskonałości."
+            "q": "Jaka jest ciekawostka na temat podium dla dzieci z okazji 250. rocznicy Ameryki?",
+            "a": "Stany Zjednoczone brały udział w niemal wszystkich letnich igrzyskach olimpijskich od pierwszych nowożytnych igrzysk w 1896 roku i są liderem wśród wszystkich krajów pod względem łącznej liczby złotych medali olimpijskich. Amerykańscy sportowcy stawali na najwyższym stopniu podium ponad 1000 razy – to dowód na to, że duch sportowy USA jest równie silny, jak długa jest ich historia! Dzieci odkrywają takie ciekawostki, rozwiązując łamigłówkę „America 250 Anniversary Sports Kids Podium”."
           }
         ],
-        "outro": "Niezwykła praca — Twoje sportowe podium America 250 jest gotowe na świętowanie! To 124 kropki i trzech dumnych młodych mistrzów, którzy świętują 250. urodziny Ameryki. Pokoloruj podium na złoto, srebro i brąz, ubierz sportowców na czerwono, biało i niebiesko i z dumą powieś medale. Wszystkiego najlepszego z okazji 250. urodzin, USA — sięgaj po najwyższy stopień! Gotowi na kolejne wielkie wyzwanie? Przejrzyj wszystkie nasze <a href=\"/\">materiały do ​​druku z łączeniem kropek</a>.",
-        "color_schemes": []
+        "dot_guide": {
+          "intro": "Ameryka obchodzi 250-lecie – a kraj świętuje to z najlepszymi młodymi mistrzami na podium! Od pierwszych igrzysk olimpijskich po lokalne małe ligi, sport zawsze był wpisany w amerykańską duszę: emocje rywalizacji, radość z pracy zespołowej i duma z bycia wysoko po tym, jak dałeś z siebie wszystko. Weź ołówek, znajdź punkt 1 i krok po kroku zbudujmy to podium!",
+          "sections": [
+            {
+              "range": "1–25",
+              "title": "Podstawa i stopnie podium",
+              "learn": "Zacznij od punktu 1 i połącz go z punktem 25, aby narysować solidną, schodkową podstawę podium zwycięzcy. Trzy platformy – oznaczone jako 1., 2. i 3. – zbudowane są z wyraźnych prostokątnych kształtów i poziomych linii. Te płynne, geometryczne pociągnięcia stanowią doskonałą rozgrzewkę, pomagając dzieciom złapać rytm i rozwinąć pewność siebie w posługiwaniu się ołówkiem, niezbędną do bardziej szczegółowych części.",
+              "fact": "Trzystopniowe podium dla zwycięzcy zadebiutowało na Letnich Igrzyskach Olimpijskich w 1932 roku w Los Angeles, po tym jak pojawiło się już na Zimowych Igrzyskach Olimpijskich w Lake Placid w 1932 roku. Projekt był tak wyrazisty wizualnie, że został przyjęty na zawodach sportowych na całym świecie i do dziś pozostaje uniwersalnym symbolem osiągnięć sportowych."
+            },
+            {
+              "range": "26–50",
+              "title": "Ciała i stroje młodych sportowców",
+              "learn": "Kontynuuj od punktu 26 do punktu 50, aby narysować sylwetki i stroje sportowe trzech młodych sportowców dumnie stojących na stopniach podium. Dzieci ćwiczą tu różnorodne style – proste linie na nogi, łagodne łuki na tułów i ukośne kształty na wyciągnięte ramiona – dzięki czemu ta sekcja jest wspaniałym, wszechstronnym ćwiczeniem giętkości ołówka i kontroli kierunku.",
+              "fact": "Stroje sportowe uległy radykalnym zmianom na przestrzeni 250 lat amerykańskiej historii. Na początku XIX wieku sportowcy rywalizowali w codziennych ubraniach roboczych, podczas gdy dzisiejsza odzież sportowa jest wykonana z zaawansowanych technologicznie tkanin, które odprowadzają wilgoć, zmniejszają opór powietrza, a nawet monitorują tętno. Gwiazdy i Pasy dumnie widnieją na strojach reprezentacji USA podczas każdych zawodów międzynarodowych."
+            },
+            {
+              "range": "51–75",
+              "title": "Głowy, twarze i wyrazy twarzy",
+              "learn": "Obrysuj kropki od 51 do 75, aby dodać głowy trzech młodych sportowców i radosne miny na ich twarzach. Zaokrąglone kształty każdej głowy oraz drobne, precyzyjne detale oczu, nosa i uśmiechów to urocze wyzwanie, które ćwiczy uważną obserwację i precyzję rysowania. Zachęć dzieci do zwolnienia tempa – to właśnie te drobne detale ożywiają cały obraz.",
+              "fact": "Uśmiechnięci zwycięzcy na podium są nieodłącznym elementem amerykańskiej kultury sportowej od początku XX wieku. Dziś uroczystości na podium są transmitowane na żywo dla milionów widzów na całym świecie. Kiedy amerykańscy sportowcy stają na najwyższym stopniu podium, a rozbrzmiewa hymn Stanów Zjednoczonych, jest to jeden z najchętniej oglądanych momentów w sporcie międzynarodowym."
+            },
+            {
+              "range": "76–100",
+              "title": "Medale, trofea i wstążki",
+              "learn": "Połącz kropki od 76 do 100, aby narysować lśniące medale wiszące na szyjach sportowców, trofea w ich dłoniach oraz ozdobne wstążki okalające podium. Dzieci ćwiczą okrągłe kształty dla krążków medalowych, kanciaste kontury dla trofeów i płynne krzywe dla wstążek – bogactwo różnorodnych linii, które sprawiają, że wyzwanie jest świeże i angażujące.",
+              "fact": "Złote medale olimpijskie nie są w rzeczywistości wykonane z litego złota – są wykonane ze srebra pokrytego co najmniej sześciogramową warstwą złota. Tradycja przyznawania złotych, srebrnych i brązowych medali za pierwsze, drugie i trzecie miejsce rozpoczęła się podczas Igrzysk Olimpijskich w St. Louis w 1904 roku, które odbyły się w Stanach Zjednoczonych. Miasto St. Louis obchodziło w tym samym czasie setną rocznicę zakupu Luizjany, co nadało tym igrzyskom wyjątkowo patriotyczny, amerykański charakter."
+            },
+            {
+              "range": "101–124",
+              "title": "Gwiazdy, baner i ostatnie szlify",
+              "learn": "Ułóż puzzle, łącząc kropki od 101 do 124, aby dodać patriotyczne gwiazdy, baner z okazji rocznicy nad podium i ostatnie detale dekoracyjne, które przekształcą tę scenę w prawdziwą celebrację 250. urodzin Ameryki. Te ostatnie 24 kropki nagradzają dzieci za ukończenie naprawdę trudnej układanki — zachęcaj je, aby każda linia się liczyła, aby ukończyć ją z dumą!",
+              "fact": "250. rocznica Ameryki przypada 4 lipca 2026 roku, dokładnie 250 lat po uchwaleniu Deklaracji Niepodległości. Od wyścigów lokalnych po mistrzostwa krajowe, Amerykanie mogą uczcić to wydarzenie pracą zespołową, przyjacielską rywalizacją i dążeniem do doskonałości."
+            }
+          ],
+          "outro": "Niezwykła praca — Twoje sportowe podium America 250 jest gotowe na świętowanie! To 124 kropki i trzech dumnych młodych mistrzów, którzy świętują 250. urodziny Ameryki. Pokoloruj podium na złoto, srebro i brąz, ubierz sportowców na czerwono, biało i niebiesko i z dumą powieś medale. Wszystkiego najlepszego z okazji 250. urodzin, USA — sięgaj po najwyższy stopień! Gotowi na kolejne wielkie wyzwanie? Przejrzyj wszystkie nasze <a href=\"/\">materiały do ​​druku z łączeniem kropek</a>.",
+          "color_schemes": []
+        }
       }
-    }
-  },
-  {
-    "slug": "usa-250-birthday-balloons-stars-dot-to-dot-puzzle",
-    "header": {
-      "title": "Balony i Gwiazdki – 250. Urodziny Ameryki, Łącz Kropki 94 Kropki",
-      "meta_description": "Balony i gwiazdy tworzą świąteczny hołd 94 kropek dla 250. urodzin Ameryki. Pobierz darmową aktywność PDF na 2026 dla dzieci w wieku 6–10 lat.",
-      "og": {
+    },
+    {
+      "slug": "usa-250-birthday-balloons-stars-dot-to-dot-puzzle",
+      "header": {
         "title": "Balony i Gwiazdki – 250. Urodziny Ameryki, Łącz Kropki 94 Kropki",
-        "description": "Balony i gwiazdy tworzą świąteczny hołd 94 kropek dla 250. urodzin Ameryki. Pobierz darmową aktywność PDF na 2026 dla dzieci w wieku 6–10 lat.",
-        "image_alt": "Świąteczna scena z balonami i gwiazdkami na 250. urodziny Ameryki, złożona z 94 ponumerowanych kropek"
+        "meta_description": "Balony i gwiazdy tworzą świąteczny hołd 94 kropek dla 250. urodzin Ameryki. Pobierz darmową aktywność PDF na 2026 dla dzieci w wieku 6–10 lat.",
+        "og": {
+          "title": "Balony i Gwiazdki – 250. Urodziny Ameryki, Łącz Kropki 94 Kropki",
+          "description": "Balony i gwiazdy tworzą świąteczny hołd 94 kropek dla 250. urodzin Ameryki. Pobierz darmową aktywność PDF na 2026 dla dzieci w wieku 6–10 lat.",
+          "image_alt": "Świąteczna scena z balonami i gwiazdkami na 250. urodziny Ameryki, złożona z 94 ponumerowanych kropek"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Balony i gwiazdki urodzinowe America 250",
+          "description": "Balony i gwiazdy tworzą świąteczny hołd 94 kropek dla 250. urodzin Ameryki. Pobierz darmową aktywność PDF na 2026 dla dzieci w wieku 6–10 lat.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
       },
-      "json_ld": {
-        "type": "CreativeWork",
+      "body": {
+        "h1": "Balony i Gwiazdy Kropka do Kropki — 94 kropki Amerykańskiego 250",
         "name": "Balony i gwiazdki urodzinowe America 250",
-        "description": "Balony i gwiazdy tworzą świąteczny hołd 94 kropek dla 250. urodzin Ameryki. Pobierz darmową aktywność PDF na 2026 dla dzieci w wieku 6–10 lat.",
-        "image": "",
-        "educational_use": "Fine motor skills, number sequencing",
-        "age_range": ""
-      }
-    },
-    "body": {
-      "h1": "Balony i Gwiazdy Kropka do Kropki — 94 kropki Amerykańskiego 250",
-      "name": "Balony i gwiazdki urodzinowe America 250",
-      "tagline": "Balony imprezowe na 250. urodziny Ameryki!",
-      "description": "Połącz 94 łatwe kropki, aby ujawnić świąteczną scenę urodzinową Amerykańskiego 250, wypełnioną balonami, gwiazdami i patriotycznymi detalami świętowania. Ten darmowy arkusz do wydruku daje dzieciom dłuższe wyzwanie w sekwencjonowaniu liczb podczas świętowania 250. rocznicy Ameryki.",
-      "fun_fact": "Balony stały się popularnymi dekoracjami na przyjęcia w XIX wieku, a dziś czerwone, białe i niebieskie balony to radosny sposób na dekorowanie parad, klas i lokalnych obchodów urodzin Ameryki.",
-      "dot_guide": {
-        "intro": "Ameryka obchodzi 250-lecie, a ta układanka jest gotowa na imprezę! Balony, gwiazdki i jaskrawe, patriotyczne detale łączą się w radosną, urodzinową scenerię dla USA. Weź ołówek, znajdź kropkę 1 i zacznij łączyć elementy, by wspólnie świętować.",
-        "sections": [
+        "tagline": "Balony imprezowe na 250. urodziny Ameryki!",
+        "description": "Połącz 94 łatwe kropki, aby ujawnić świąteczną scenę urodzinową Amerykańskiego 250, wypełnioną balonami, gwiazdami i patriotycznymi detalami świętowania. Ten darmowy arkusz do wydruku daje dzieciom dłuższe wyzwanie w sekwencjonowaniu liczb podczas świętowania 250. rocznicy Ameryki.",
+        "fun_fact": "Balony stały się popularnymi dekoracjami na przyjęcia w XIX wieku, a dziś czerwone, białe i niebieskie balony to radosny sposób na dekorowanie parad, klas i lokalnych obchodów urodzin Ameryki.",
+        "faqs": [
           {
-            "range": "1-18",
-            "title": "Pierwsze balony",
-            "learn": "Zacznij od punktu 1 i połącz go z punktem 18, aby narysować pierwsze unoszące się balony urodzinowe. Te zaokrąglone kształty pomogą dzieciom ćwiczyć płynne linie i pewny chwyt ołówka na początku układania puzzli.",
-            "fact": "Nowoczesne balony imprezowe są często wykonane z lateksu, elastycznego materiału naturalnego. Po napełnieniu powietrzem lub helem balon rozszerza się równomiernie w każdym kierunku, tworząc swój charakterystyczny zaokrąglony kształt."
+            "q": "Ile kropek ma układanka „America 250 Birthday Balloons and Stars”?",
+            "a": "Zestaw do łączenia kropek „America 250 Birthday Balloons and Stars” zawiera 94 ponumerowane kropki. To sprawia, że ​​jest to układanka średniej wielkości, idealna dla dzieci w wieku 6–9 lat (klasy 1–3). Dzieci łączą kropki w kolejności numerycznej, aby odsłonić gotowy obrazek „America 250 Birthday Balloons and Stars”, a następnie go kolorują."
           },
           {
-            "range": "19-38",
-            "title": "Klaster Celebracji",
-            "learn": "Kontynuuj od punktu 19 do punktu 38, aby zbudować więcej balonów i nachodzących na siebie kształtów imprezowych. Dzieci ćwiczą uważnie śledzenie liczb w bardziej ruchliwej części rysunku.",
-            "fact": "Duże pokazy balonowe cieszą się popularnością na paradach i imprezach społecznych, ponieważ są lekkie, kolorowe i można je łatwo ułożyć w łuki, kolumny i świąteczne tła."
+            "q": "Czy kolorowanka „America 250 Birthday Balloons and Stars” jest dostępna do wydrukowania za darmo?",
+            "a": "Tak. Arkusz „America 250 Birthday Balloons and Stars” można pobrać całkowicie za darmo ze strony DotToDotFreePrintables.com — bez konieczności zakładania konta, zakładania adresu e-mail ani dokonywania płatności. Pobiera się natychmiast w formacie PDF gotowym do druku, zarówno w orientacji pionowej, jak i poziomej, w formacie US Letter lub A4."
           },
           {
-            "range": "39-58",
-            "title": "Gwiazdy",
-            "learn": "Obrysuj kropki od 39 do 58, aby dodać patriotyczne gwiazdki wokół urodzinowego wzoru. Punkty gwiazdek zachęcają dzieci do precyzyjnej zmiany kierunku i dokładnego celowania w każdą ponumerowaną kropkę.",
-            "fact": "Gwiazdy są jednym z najbardziej rozpoznawalnych symboli amerykańskich, ponieważ każda gwiazda na fladze Stanów Zjednoczonych symbolizuje jeden stan w unii."
+            "q": "Dla dzieci w jakim wieku najlepiej sprawdzi się karta pracy „America 250 Birthday Balloons and Stars Connect-the-Dots”?",
+            "a": "Układanka „America 250 Birthday Balloons and Stars” z 94 kropkami najlepiej sprawdzi się u dzieci w wieku 6–9 lat (klasy 1–3). Młodsze dzieci mogą się nią cieszyć z lekką pomocą dorosłych, a doświadczone liczeniem dzieci może być realizowane samodzielnie i ćwiczyć sekwencję liczb do 94."
           },
           {
-            "range": "59-76",
-            "title": "Szczegóły urodzin",
-            "learn": "Połącz kropki od 59 do 76, aby narysować dodatkowe detale, które sprawią, że scena będzie przypominać prawdziwe przyjęcie urodzinowe. Ta sekcja buduje pewność siebie dzięki mniejszym kształtom i ostrożnym obrotom.",
-            "fact": "Stany Zjednoczone obchodzą Dzień Niepodległości 4 lipca, ponieważ Deklaracja Niepodległości została uchwalona 4 lipca 1776 roku."
+            "q": "Jakich umiejętności uczy układanka „America 250 Birthday Balloons and Stars” polegająca na łączeniu kropek?",
+            "a": "Połączenie 94 kropek układanki „America 250 Birthday Balloons and Stars” rozwija umiejętności rozpoznawania liczb i liczenia do 94, panowania nad ołówkiem, koordynacji wzrokowo-ruchowej i skupienia uwagi – te same podstawy motoryki małej, które wspierają wczesne pisanie odręczne. Pokolorowanie gotowego obrazka to nagroda za kreatywność."
           },
           {
-            "range": "77-94",
-            "title": "Ostateczne linie partyjne",
-            "learn": "Ukończ układankę, łącząc kropki od 77 do 94, aby ukończyć balony, gwiazdki i ostatnie świąteczne akcenty. Zachęć dzieci do zwolnienia tempa, aby po tym dłuższym wyzwaniu z 94 kropkami uzyskać schludny efekt.",
-            "fact": "Obchody 250. rocznicy powstania Ameryki odbędą się 4 lipca 2026 r., w związku z 250. rocznicą uchwalenia Deklaracji Niepodległości."
+            "q": "Jaka jest ciekawostka na temat balonów i gwiazdek z okazji 250. urodzin Ameryki?",
+            "a": "Balony stały się popularną ozdobą przyjęć w XIX wieku, a dziś czerwone, białe i niebieskie balony stanowią radosny sposób na dekorowanie parad, sal lekcyjnych i lokalnych uroczystości z okazji urodzin Ameryki. Dzieci odkrywają takie ciekawostki, rozwiązując łamigłówkę „America 250 Birthday Balloons and Stars” (Balony i Gwiazdy Urodzinowe Ameryki)."
           }
         ],
-        "outro": "Fantastyczna robota – Twoje balony z okazji 250. urodzin Ameryki są gotowe na imprezę! Pokoloruj balony i gwiazdki na czerwono, biało i niebiesko, aby dopełnić jaskrawą, patriotyczną oprawę 250. urodzin Ameryki. Lubisz wyzwania? Poznaj więcej prehistorycznych przyjaciół w naszej kolekcji <a href=\"/dinosaurs/\">do druku z dinozaurami</a>.",
-        "color_schemes": []
+        "dot_guide": {
+          "intro": "Ameryka obchodzi 250-lecie, a ta układanka jest gotowa na imprezę! Balony, gwiazdki i jaskrawe, patriotyczne detale łączą się w radosną, urodzinową scenerię dla USA. Weź ołówek, znajdź kropkę 1 i zacznij łączyć elementy, by wspólnie świętować.",
+          "sections": [
+            {
+              "range": "1-18",
+              "title": "Pierwsze balony",
+              "learn": "Zacznij od punktu 1 i połącz go z punktem 18, aby narysować pierwsze unoszące się balony urodzinowe. Te zaokrąglone kształty pomogą dzieciom ćwiczyć płynne linie i pewny chwyt ołówka na początku układania puzzli.",
+              "fact": "Nowoczesne balony imprezowe są często wykonane z lateksu, elastycznego materiału naturalnego. Po napełnieniu powietrzem lub helem balon rozszerza się równomiernie w każdym kierunku, tworząc swój charakterystyczny zaokrąglony kształt."
+            },
+            {
+              "range": "19-38",
+              "title": "Klaster Celebracji",
+              "learn": "Kontynuuj od punktu 19 do punktu 38, aby zbudować więcej balonów i nachodzących na siebie kształtów imprezowych. Dzieci ćwiczą uważnie śledzenie liczb w bardziej ruchliwej części rysunku.",
+              "fact": "Duże pokazy balonowe cieszą się popularnością na paradach i imprezach społecznych, ponieważ są lekkie, kolorowe i można je łatwo ułożyć w łuki, kolumny i świąteczne tła."
+            },
+            {
+              "range": "39-58",
+              "title": "Gwiazdy",
+              "learn": "Obrysuj kropki od 39 do 58, aby dodać patriotyczne gwiazdki wokół urodzinowego wzoru. Punkty gwiazdek zachęcają dzieci do precyzyjnej zmiany kierunku i dokładnego celowania w każdą ponumerowaną kropkę.",
+              "fact": "Gwiazdy są jednym z najbardziej rozpoznawalnych symboli amerykańskich, ponieważ każda gwiazda na fladze Stanów Zjednoczonych symbolizuje jeden stan w unii."
+            },
+            {
+              "range": "59-76",
+              "title": "Szczegóły urodzin",
+              "learn": "Połącz kropki od 59 do 76, aby narysować dodatkowe detale, które sprawią, że scena będzie przypominać prawdziwe przyjęcie urodzinowe. Ta sekcja buduje pewność siebie dzięki mniejszym kształtom i ostrożnym obrotom.",
+              "fact": "Stany Zjednoczone obchodzą Dzień Niepodległości 4 lipca, ponieważ Deklaracja Niepodległości została uchwalona 4 lipca 1776 roku."
+            },
+            {
+              "range": "77-94",
+              "title": "Ostateczne linie partyjne",
+              "learn": "Ukończ układankę, łącząc kropki od 77 do 94, aby ukończyć balony, gwiazdki i ostatnie świąteczne akcenty. Zachęć dzieci do zwolnienia tempa, aby po tym dłuższym wyzwaniu z 94 kropkami uzyskać schludny efekt.",
+              "fact": "Obchody 250. rocznicy powstania Ameryki odbędą się 4 lipca 2026 r., w związku z 250. rocznicą uchwalenia Deklaracji Niepodległości."
+            }
+          ],
+          "outro": "Fantastyczna robota – Twoje balony z okazji 250. urodzin Ameryki są gotowe na imprezę! Pokoloruj balony i gwiazdki na czerwono, biało i niebiesko, aby dopełnić jaskrawą, patriotyczną oprawę 250. urodzin Ameryki. Lubisz wyzwania? Poznaj więcej prehistorycznych przyjaciół w naszej kolekcji <a href=\"/dinosaurs/\">do druku z dinozaurami</a>.",
+          "color_schemes": []
+        }
       }
-    }
-  },
-  {
-    "slug": "america-250-anniversary-eagle-banner-dot-to-dot-puzzle",
-    "header": {
-      "title": "Bielik ze Sztandarem – Ameryka 250 lat Wolności, Łącz Kropki 104 Kropki",
-      "meta_description": "Połącz 104 kropki, aby odkryć majestatycznego bielika amerykańskiego niosącego patriotyczny sztandar z okazji 250. rocznicy powstania Ameryki. Wymagająca darmowa karta pracy do druku dla dzieci 6–10 lat, oddająca hołd symbolom wolności USA.",
-      "og": {
+    },
+    {
+      "slug": "america-250-anniversary-eagle-banner-dot-to-dot-puzzle",
+      "header": {
         "title": "Bielik ze Sztandarem – Ameryka 250 lat Wolności, Łącz Kropki 104 Kropki",
-        "description": "Połącz 104 kropki, aby odkryć majestatycznego bielika amerykańskiego niosącego patriotyczny sztandar z okazji 250. rocznicy powstania Ameryki. Wymagająca darmowa karta pracy do druku dla dzieci 6–10 lat, oddająca hołd symbolom wolności USA.",
-        "image_alt": "Majestatyczny bielik amerykański z patriotycznym sztandarem, złożony z 104 ponumerowanych kropek"
+        "meta_description": "Połącz 104 kropki, aby odkryć majestatycznego bielika amerykańskiego niosącego patriotyczny sztandar z okazji 250. rocznicy powstania Ameryki. Wymagająca darmowa karta pracy do druku dla dzieci 6–10 lat, oddająca hołd symbolom wolności USA.",
+        "og": {
+          "title": "Bielik ze Sztandarem – Ameryka 250 lat Wolności, Łącz Kropki 104 Kropki",
+          "description": "Połącz 104 kropki, aby odkryć majestatycznego bielika amerykańskiego niosącego patriotyczny sztandar z okazji 250. rocznicy powstania Ameryki. Wymagająca darmowa karta pracy do druku dla dzieci 6–10 lat, oddająca hołd symbolom wolności USA.",
+          "image_alt": "Majestatyczny bielik amerykański z patriotycznym sztandarem, złożony z 104 ponumerowanych kropek"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Sztandar orła Ameryki 250",
+          "description": "Połącz 104 kropki, aby odkryć majestatycznego bielika amerykańskiego niosącego patriotyczny sztandar z okazji 250. rocznicy powstania Ameryki. Wymagająca darmowa karta pracy do druku dla dzieci 6–10 lat, oddająca hołd symbolom wolności USA.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
       },
-      "json_ld": {
-        "type": "CreativeWork",
+      "body": {
+        "h1": "Amerykański 250 Banderka Orła Kropka do Kropki — 104 kropki wysoko",
         "name": "Sztandar orła Ameryki 250",
-        "description": "Połącz 104 kropki, aby odkryć majestatycznego bielika amerykańskiego niosącego patriotyczny sztandar z okazji 250. rocznicy powstania Ameryki. Wymagająca darmowa karta pracy do druku dla dzieci 6–10 lat, oddająca hołd symbolom wolności USA.",
-        "image": "",
-        "educational_use": "Fine motor skills, number sequencing",
-        "age_range": ""
-      }
-    },
-    "body": {
-      "h1": "Amerykański 250 Banderka Orła Kropka do Kropki — 104 kropki wysoko",
-      "name": "Sztandar orła Ameryki 250",
-      "tagline": "Wzbij się w powietrze z American Eagle i świętuj 250 lat wolności!",
-      "description": "Połącz 104 kropki, aby odkryć majestatycznego orła bielika amerykańskiego niosącego patriotyczny sztandar z okazji 250. rocznicy powstania Ameryki! Ta darmowa karta pracy do wydrukowania pomaga dzieciom ćwiczyć kolejność liczb i koncentrację, jednocześnie oddając hołd jednemu z najpotężniejszych symboli wolności i siły Ameryki. Idealna dla dzieci w wieku 6–10 lat.",
-      "fun_fact": "Orzeł Bielik Amerykański został wybrany na narodowy symbol Stanów Zjednoczonych w 1782 roku. Widnieje na Wielkiej Pieczęci Stanów Zjednoczonych, fladze prezydenta i licznych oficjalnych emblematach, symbolizując wolność, siłę i niezniszczalnego ducha amerykańskiej republiki.",
-      "dot_guide": {
-        "intro": "Ameryka obchodzi 250-lecie – i żaden symbol nie oddaje tego ducha lepiej niż potężny Bielik Amerykański! Od 244 lat orzeł zdobi Wielką Pieczęć Stanów Zjednoczonych, wznosząc się niczym żywy symbol wolności. Dziś Twój orzeł ściska transparent, obwieszczając największe urodziny Ameryki. Weź ołówek, znajdź punkt 1 i pomóżmy temu orłowi wzbić się w powietrze!",
-        "sections": [
+        "tagline": "Wzbij się w powietrze z American Eagle i świętuj 250 lat wolności!",
+        "description": "Połącz 104 kropki, aby odkryć majestatycznego orła bielika amerykańskiego niosącego patriotyczny sztandar z okazji 250. rocznicy powstania Ameryki! Ta darmowa karta pracy do wydrukowania pomaga dzieciom ćwiczyć kolejność liczb i koncentrację, jednocześnie oddając hołd jednemu z najpotężniejszych symboli wolności i siły Ameryki. Idealna dla dzieci w wieku 6–10 lat.",
+        "fun_fact": "Orzeł Bielik Amerykański został wybrany na narodowy symbol Stanów Zjednoczonych w 1782 roku. Widnieje na Wielkiej Pieczęci Stanów Zjednoczonych, fladze prezydenta i licznych oficjalnych emblematach, symbolizując wolność, siłę i niezniszczalnego ducha amerykańskiej republiki.",
+        "faqs": [
           {
-            "range": "1–22",
-            "title": "Głowa i dziób orła",
-            "learn": "Zacznij od punktu 1 i połącz go z punktem 22, aby narysować odważną, dumną głowę orła bielika – w tym jego ostry, zakrzywiony dziób. Dzieci ćwiczą tutaj krótkie, kierunkowe pociągnięcia i delikatne łuki, rozwijając kontrolę nad ołówkiem i jednocześnie formując najbardziej rozpoznawalną cechę orła.",
-            "fact": "Bielik amerykański wcale nie jest łysy! Jego nazwa pochodzi od staroangielskiego słowa „balde”, oznaczającego biały. Uderzające białe pióra na głowie pojawiają się, gdy ptak osiąga dorosłość, około piątego roku życia. Wcześniej młode orły mają nakrapiane, brązowo-białe upierzenie."
+            "q": "Ile kropek ma łamigłówka „Połącz kropki” z motywem America 250 Eagle Banner?",
+            "a": "Zestaw do łączenia kropek „America 250 Eagle Banner” składa się ze 104 ponumerowanych kropek. To sprawia, że ​​jest to wymagająca łamigłówka, idealna dla dzieci w wieku 7–12 lat (od 2. klasy). Dzieci łączą kropki w kolejności numerycznej, aby odsłonić gotowy obrazek „America 250 Eagle Banner”, a następnie go kolorują."
           },
           {
-            "range": "23–46",
-            "title": "Rozpiętość skrzydeł — lewe skrzydło",
-            "learn": "Kontynuuj od punktu 23 do punktu 46, aby zamaszyście wykonać ruch lewego skrzydła orła. Te długie, płynne pociągnięcia to doskonałe ćwiczenie dla dzieci rozwijających ruchy ramion i kontrolę nad ołówkiem na dużej powierzchni. Zachęcaj do płynnego, pewnego ruchu od ramienia do czubka skrzydła.",
-            "fact": "Rozpiętość skrzydeł orła bielika może sięgać nawet 2,4 metra (prawie 8 stóp) od czubka do czubka – mniej więcej tyle, co długość małego samochodu! Te ogromne skrzydła pozwalają orłowi szybować godzinami na wznoszących się kolumnach ciepłego powietrza, zwanych kominami termicznymi, praktycznie nie machając skrzydłami."
+            "q": "Czy baner America 250 Eagle Banner można wydrukować bezpłatnie, korzystając z metody „połącz kropki”?",
+            "a": "Tak. Arkusz kalkulacyjny America 250 Eagle Banner można pobrać całkowicie za darmo ze strony DotToDotFreePrintables.com — bez konieczności zakładania konta, zakładania adresu e-mail ani dokonywania płatności. Pobiera się natychmiast w formacie PDF gotowym do druku, zarówno w orientacji pionowej, jak i poziomej, w formacie US Letter lub A4."
           },
           {
-            "range": "47–70",
-            "title": "Rozpiętość skrzydeł — prawe skrzydło",
-            "learn": "Odbij lewe skrzydło, łącząc kropki od 47 do 70, aby utworzyć prawe skrzydło. Symetria to ważna koncepcja wizualna dla młodych uczniów, a ukończenie obu skrzydeł daje satysfakcjonujące poczucie równowagi i spełnienia. Zwróć uwagę, jak pociągnięcia pędzla teraz biegną w przeciwnym kierunku.",
-            "fact": "Orły mają do 7000 piór pokrywających ich ciała, z których każde jest precyzyjnie ukształtowane do swojej roli – szerokie pióra lotne zapewniają siłę nośną, miękkie pióra tułowia zapewniają izolację, a sztywne pióra ogonowe sterują. Pióra pierzą się i odrastają stopniowo, aby zawsze móc latać."
+            "q": "Dla dzieci w jakim wieku najlepiej sprawdzi się karta „Połącz kropki” America 250 Eagle Banner?",
+            "a": "Puzzle America 250 Eagle Banner, składające się ze 104 punktów, najlepiej sprawdzą się u dzieci w wieku 7–12 lat (od drugiej klasy wzwyż). Młodsze dzieci mogą czerpać z niej radość, korzystając z lekkiej pomocy dorosłych, a doświadczone liczmany mogą ją samodzielnie ułożyć i ćwiczyć sekwencję liczb do 104."
           },
           {
-            "range": "71–88",
-            "title": "Szpony i Patriotyczny Sztandar",
-            "learn": "Połącz kropki od 71 do 88, aby narysować potężne szpony orła, ściskające powiewający baner rocznicowy. Dzieci ćwiczą ostre, kątowe linie i zakrzywione kształty wstążek – bardziej wymagające pociągnięcia, które nagradzają uważną uwagę i pewną kontrolę dłoni.",
-            "fact": "Pazury orła mogą wywierać siłę chwytu rzędu 400 funtów na cal kwadratowy (psi) – znacznie większą niż przeciętna ludzka dłoń. Pazury służą do łapania ryb i małych ssaków, a uścisk orła jest tak mocny, że zdobycz rzadko ucieka po złapaniu."
+            "q": "Jakich umiejętności uczy łamigłówka America 250 Eagle Banner?",
+            "a": "Połączenie 104 kropek układanki America 250 Eagle Banner rozwija umiejętność rozpoznawania liczb i liczenia do 104, panowania nad ołówkiem, koordynacji wzrokowo-ruchowej i skupienia uwagi – te same podstawy motoryki małej, które wspierają wczesne pisanie odręczne. Pokolorowanie gotowego obrazka to nagroda za kreatywność."
           },
           {
-            "range": "89–104",
-            "title": "Gwiazdy, tarcza i szczegóły wykończenia",
-            "learn": "Ułóż układankę, łącząc kropki od 89 do 104, aby dodać patriotyczne gwiazdy, oznaczenia na tarczy i ostatnie detale, które czynią tego orła prawdziwie amerykańskim. Poświęć chwilę na te ostatnie kropki – solidne wykończenie pięknie scala cały obraz.",
-            "fact": "Wielka Pieczęć Stanów Zjednoczonych, zaprojektowana w 1782 roku, przedstawia orła bielika trzymającego gałązkę oliwną w jednej szponie (reprezentującą pokój) i pęk 13 strzał w drugiej (reprezentujący gotowość do obrony wolności). Orzeł zwrócony jest w stronę gałązki oliwnej – przypominając, że pokój jest zawsze pierwszym wyborem."
+            "q": "Jaka jest ciekawostka na temat baneru America 250 Eagle?",
+            "a": "Orzeł Bielik Amerykański został wybrany na symbol narodowy Stanów Zjednoczonych w 1782 roku. Pojawia się na Wielkiej Pieczęci Stanów Zjednoczonych, fladze prezydenckiej i niezliczonych oficjalnych emblematach – symbolizując wolność, siłę i niezłomnego ducha amerykańskiej republiki. Dzieci odkrywają takie ciekawostki, rozwiązując łamigłówkę „America 250 Eagle Banner”."
           }
         ],
-        "outro": "Znakomita praca — Twój orzeł America 250 szybuje wysoko z banerem rocznicowym! To 104 kropki i jeden potężny symbol amerykańskiej wolności. Pokoloruj białą głowę orła, brązowe skrzydła i jaskrawożółty dziób, a następnie wypełnij baner kolorami: czerwonym, białym i niebieskim. Wszystkiego najlepszego z okazji 250. urodzin, USA! Więcej tematycznych inspiracji znajdziesz w naszych <a href=\"/ocean/\">materiałach do łączenia kropek od 1 do 100</a>.",
-        "color_schemes": []
+        "dot_guide": {
+          "intro": "Ameryka obchodzi 250-lecie – i żaden symbol nie oddaje tego ducha lepiej niż potężny Bielik Amerykański! Od 244 lat orzeł zdobi Wielką Pieczęć Stanów Zjednoczonych, wznosząc się niczym żywy symbol wolności. Dziś Twój orzeł ściska transparent, obwieszczając największe urodziny Ameryki. Weź ołówek, znajdź punkt 1 i pomóżmy temu orłowi wzbić się w powietrze!",
+          "sections": [
+            {
+              "range": "1–22",
+              "title": "Głowa i dziób orła",
+              "learn": "Zacznij od punktu 1 i połącz go z punktem 22, aby narysować odważną, dumną głowę orła bielika – w tym jego ostry, zakrzywiony dziób. Dzieci ćwiczą tutaj krótkie, kierunkowe pociągnięcia i delikatne łuki, rozwijając kontrolę nad ołówkiem i jednocześnie formując najbardziej rozpoznawalną cechę orła.",
+              "fact": "Bielik amerykański wcale nie jest łysy! Jego nazwa pochodzi od staroangielskiego słowa „balde”, oznaczającego biały. Uderzające białe pióra na głowie pojawiają się, gdy ptak osiąga dorosłość, około piątego roku życia. Wcześniej młode orły mają nakrapiane, brązowo-białe upierzenie."
+            },
+            {
+              "range": "23–46",
+              "title": "Rozpiętość skrzydeł — lewe skrzydło",
+              "learn": "Kontynuuj od punktu 23 do punktu 46, aby zamaszyście wykonać ruch lewego skrzydła orła. Te długie, płynne pociągnięcia to doskonałe ćwiczenie dla dzieci rozwijających ruchy ramion i kontrolę nad ołówkiem na dużej powierzchni. Zachęcaj do płynnego, pewnego ruchu od ramienia do czubka skrzydła.",
+              "fact": "Rozpiętość skrzydeł orła bielika może sięgać nawet 2,4 metra (prawie 8 stóp) od czubka do czubka – mniej więcej tyle, co długość małego samochodu! Te ogromne skrzydła pozwalają orłowi szybować godzinami na wznoszących się kolumnach ciepłego powietrza, zwanych kominami termicznymi, praktycznie nie machając skrzydłami."
+            },
+            {
+              "range": "47–70",
+              "title": "Rozpiętość skrzydeł — prawe skrzydło",
+              "learn": "Odbij lewe skrzydło, łącząc kropki od 47 do 70, aby utworzyć prawe skrzydło. Symetria to ważna koncepcja wizualna dla młodych uczniów, a ukończenie obu skrzydeł daje satysfakcjonujące poczucie równowagi i spełnienia. Zwróć uwagę, jak pociągnięcia pędzla teraz biegną w przeciwnym kierunku.",
+              "fact": "Orły mają do 7000 piór pokrywających ich ciała, z których każde jest precyzyjnie ukształtowane do swojej roli – szerokie pióra lotne zapewniają siłę nośną, miękkie pióra tułowia zapewniają izolację, a sztywne pióra ogonowe sterują. Pióra pierzą się i odrastają stopniowo, aby zawsze móc latać."
+            },
+            {
+              "range": "71–88",
+              "title": "Szpony i Patriotyczny Sztandar",
+              "learn": "Połącz kropki od 71 do 88, aby narysować potężne szpony orła, ściskające powiewający baner rocznicowy. Dzieci ćwiczą ostre, kątowe linie i zakrzywione kształty wstążek – bardziej wymagające pociągnięcia, które nagradzają uważną uwagę i pewną kontrolę dłoni.",
+              "fact": "Pazury orła mogą wywierać siłę chwytu rzędu 400 funtów na cal kwadratowy (psi) – znacznie większą niż przeciętna ludzka dłoń. Pazury służą do łapania ryb i małych ssaków, a uścisk orła jest tak mocny, że zdobycz rzadko ucieka po złapaniu."
+            },
+            {
+              "range": "89–104",
+              "title": "Gwiazdy, tarcza i szczegóły wykończenia",
+              "learn": "Ułóż układankę, łącząc kropki od 89 do 104, aby dodać patriotyczne gwiazdy, oznaczenia na tarczy i ostatnie detale, które czynią tego orła prawdziwie amerykańskim. Poświęć chwilę na te ostatnie kropki – solidne wykończenie pięknie scala cały obraz.",
+              "fact": "Wielka Pieczęć Stanów Zjednoczonych, zaprojektowana w 1782 roku, przedstawia orła bielika trzymającego gałązkę oliwną w jednej szponie (reprezentującą pokój) i pęk 13 strzał w drugiej (reprezentujący gotowość do obrony wolności). Orzeł zwrócony jest w stronę gałązki oliwnej – przypominając, że pokój jest zawsze pierwszym wyborem."
+            }
+          ],
+          "outro": "Znakomita praca — Twój orzeł America 250 szybuje wysoko z banerem rocznicowym! To 104 kropki i jeden potężny symbol amerykańskiej wolności. Pokoloruj białą głowę orła, brązowe skrzydła i jaskrawożółty dziób, a następnie wypełnij baner kolorami: czerwonym, białym i niebieskim. Wszystkiego najlepszego z okazji 250. urodzin, USA! Więcej tematycznych inspiracji znajdziesz w naszych <a href=\"/ocean/\">materiałach do łączenia kropek od 1 do 100</a>.",
+          "color_schemes": []
+        }
       }
     }
-  }
-]
+  ]
+}

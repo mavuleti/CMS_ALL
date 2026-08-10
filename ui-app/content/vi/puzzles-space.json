@@ -1,125 +1,294 @@
-[
-  {
-    "slug": "crescent-moon-dot-to-dot-puzzle",
-    "name": "Trăng Lưỡi Liềm",
-    "tagline": "Vẽ lại một Mảnh Sáng Lấp Lánh của Bầu Trời Đêm!",
-    "description": "Nối 60 chấm đơn giản để khám phá hình ảnh mặt trăng lưỡi liềm lấp lánh trên bầu trời đêm. Bản in miễn phí này giúp trẻ em luyện tập kỹ năng đếm số theo thứ tự, theo dõi hình ảnh, tập trung và kiểm soát bút mượt mà.",
-    "funFact": "Trăng lưỡi liềm xuất hiện khi ánh sáng mặt trời chỉ chiếu sáng một phần mỏng hình lưỡi liềm của Mặt Trăng mà chúng ta có thể nhìn thấy từ Trái Đất.",
-    "dotGuide": {
-      "intro": "Một vầng trăng lưỡi liềm mảnh mai là một trong những hình dạng dễ nhận biết nhất trên bầu trời đêm. Câu đố 60 chấm thân thiện này xây dựng đường cong bên ngoài, những đầu nhọn và cung bên trong qua năm giai đoạn dễ quản lý. Hãy tìm chấm số 1 và để mặt trăng của bạn bắt đầu tỏa sáng!",
-      "sections": [
-        {
-          "range": "1–12",
-          "title": "Đỉnh Trăng Thượng",
-          "learn": "Nối các chấm từ 1 đến 12 để tạo thành điểm nhọn phía trên của hình trăng lưỡi liềm.",
-          "fact": "Mặt Trăng không tự phát ra ánh sáng; nó tỏa sáng nhờ phản xạ ánh sáng Mặt Trời."
-        },
-        {
-          "range": "13–24",
-          "title": "Đường Cong Ngoại Vi",
-          "learn": "Tiếp tục từ chấm 13 đến chấm 24 dọc theo đường cong rộng phía ngoài của Mặt Trăng.",
-          "fact": "Lực hấp dẫn đã khiến Mặt Trăng có hình dạng gần như tròn, giống như cách nó tạo ra các hành tinh hình cầu."
-        },
-        {
-          "range": "25–36",
-          "title": "Đầu Trăng Hạ",
-          "learn": "Theo các chấm từ 25 đến 36 để tạo thành điểm dưới và rẽ vào đường cong bên trong.",
-          "fact": "Bề mặt Mặt Trăng được bao phủ bởi các hố va chạm được tạo ra bởi những tảng đá va vào nó trong hàng tỷ năm."
-        },
-        {
-          "range": "37–48",
-          "title": "Vành Đai Trong",
-          "learn": "Nối các chấm từ 37 đến 48 dọc theo đường cong phía trong, giữ cho nét bút của bạn được mượt mà.",
-          "fact": "Mặt Trăng mất khoảng 29,5 ngày để hoàn thành một chu kỳ các pha."
-        },
-        {
-          "range": "49–60",
-          "title": "Ánh Sáng và Hoàn Thiện",
-          "learn": "Hoàn thành với các chấm từ 49 đến 60 để đóng hình trăng lưỡi liềm và thêm các chi tiết cuối cùng.",
-          "fact": "Mọi người trên khắp thế giới đều nhìn thấy cùng một Mặt Trăng, mặc dù hình lưỡi liềm của nó có thể nghiêng khác nhau tùy theo vị trí."
+{
+  "collection": {
+    "header": {
+      "title": "Free Space Dot-to-Dot Printables for Kids",
+      "meta_description": "Download free space dot-to-dot worksheets for kids, including UFOs, rockets, planets, and more.",
+      "og": {
+        "title": "Free Space Dot-to-Dot Printables for Kids",
+        "description": "Download free space dot-to-dot worksheets for kids, including UFOs, rockets, planets, and more.",
+        "image": "/images/space-rover-puzzle.webp"
+      },
+      "json_ld": {
+        "type": "CollectionPage",
+        "name": "Không gian",
+        "description": "Khởi động với các bài tập nối điểm không gian miễn phí. In một câu đố rover thân thiện hôm nay, với nhiều tên lửa, hành tinh và cuộc phiêu lưu vũ trụ sắp tới.",
+        "image": "/images/space-rover-puzzle.webp",
+        "main_entity": {
+          "type": "ItemList",
+          "item_source": "puzzles"
         }
-      ],
-      "outro": "Tác phẩm tuyệt đẹp—vầng trăng khuyết của bạn đang tỏa sáng! Hãy thêm những ngôi sao, đám mây buồn ngủ, hoặc một chiếc tên lửa băng qua bầu trời, sau đó khám phá <a href=\"/space/ringed-planet-dot-to-dot-puzzle/\">câu đố hành tinh có vành đai</a>."
+      },
+      "breadcrumb_json_ld": {
+        "type": "BreadcrumbList",
+        "items": [
+          {
+            "position": 1,
+            "name": "Home",
+            "path": "/"
+          },
+          {
+            "position": 2,
+            "name": "Không gian",
+            "path": "/space/"
+          }
+        ]
+      }
+    },
+    "body": {
+      "h1": "Tranh nối điểm chủ đề không gian miễn phí dành cho trẻ em",
+      "name": "Không gian",
+      "tagline": "{count, plural, one {# câu đố in miễn phí} other {# câu đố in miễn phí}}",
+      "description": "Khởi động với các bài tập nối điểm không gian miễn phí. In một câu đố rover thân thiện hôm nay, với nhiều tên lửa, hành tinh và cuộc phiêu lưu vũ trụ sắp tới.",
+      "hero_image": "/images/space-rover-puzzle.webp",
+      "slug": "space",
+      "faqs": [
+        {
+          "q": "Tất cả các mẫu nối điểm in được trên trang web này đều hoàn toàn miễn phí phải không?",
+          "a": "Đúng vậy — tất cả các bài tập nối điểm trên DotToDotFreePrintables.com đều hoàn toàn miễn phí để tải xuống và in. Không cần tài khoản, đăng ký hay thẻ tín dụng."
+        },
+        {
+          "q": "Phiếu bài tập nối điểm phù hợp với độ tuổi nào?",
+          "a": "Tài liệu in của chúng tôi dành cho lứa tuổi từ 2 đến 12. Các bài tập dễ (10-20 chấm) phù hợp với trẻ mới biết đi và trẻ mẫu giáo, các bài tập trung bình (20-50 chấm) rất tốt cho học sinh lớp mẫu giáo và lớp 1, và các bài tập khó hơn (50-200+ chấm) sẽ thử thách học sinh lớp 2 đến lớp 6."
+        },
+        {
+          "q": "Các mẫu in trò chơi nối điểm có định dạng như thế nào?",
+          "a": "Tất cả các bài tập đều được tải xuống dưới dạng tệp PDF sẵn sàng in, có kích thước phù hợp với khổ giấy tiêu chuẩn US Letter (8,5\" × 11\"). Mở bằng bất kỳ trình duyệt hoặc trình xem PDF nào và in — không cần phần mềm đặc biệt nào."
+        },
+        {
+          "q": "Giáo viên có thể sử dụng những bài tập nối điểm này trong lớp học không?",
+          "a": "Đúng vậy! Các tài liệu in của chúng tôi hoàn toàn miễn phí cho mục đích cá nhân và sử dụng trong lớp học. Chúng rất phổ biến cho hoạt động đầu giờ học, hoạt động dành cho học sinh hoàn thành bài sớm, kế hoạch bài học cho giáo viên thay thế, các hoạt động rèn luyện kỹ năng tinh và bài tập về nhà."
+        }
+      ]
     }
   },
-  {
-    "slug": "ringed-planet-dot-to-dot-puzzle",
-    "name": "Hành Tinh Có Vành Đai",
-    "tagline": "Vẽ một Thế Giới Được Bao Bọc Bởi Những Vòng Hào Quang Rực Rỡ!",
-    "description": "Nối 43 chấm đơn giản để khám phá một hành tinh có vành đai tuyệt đẹp đang trôi nổi trong không gian. Bản in miễn phí này giúp trẻ nhỏ luyện tập thứ tự số, khả năng quan sát, sự tập trung và kiểm soát bút chì ổn định.",
-    "funFact": "Vành đai Sao Thổ được tạo thành từ vô số mảnh băng và đá, với kích thước từ những hạt nhỏ li ti đến những khối lớn bằng cả ngôi nhà.",
-    "dotGuide": {
-      "intro": "Xa xôi ngoài Trái Đất, một hành tinh khổng lồ quay tròn trong khi những vành đai rộng lớn quét quanh nó. Câu đố thân thiện với 43 chấm này tạo nên hành tinh và các vành đai của nó trong bốn giai đoạn ngắn, biến nó thành thử thách không gian đầu tiên thú vị. Hãy tìm chấm số 1 và bắt đầu hành trình của bạn!",
-      "sections": [
-        {
-          "range": "1–11",
-          "title": "Đỉnh Của Hành Tinh",
-          "learn": "Nối các chấm từ 1 đến 11 để vẽ đường cong phía trên của hành tinh ở xa.",
-          "fact": "Các hành tinh có hình tròn vì lực hấp dẫn kéo vật chất của chúng về phía trung tâm từ mọi hướng."
+  "puzzles": [
+    {
+      "slug": "crescent-moon-dot-to-dot-puzzle",
+      "header": {
+        "title": "",
+        "meta_description": "",
+        "og": {
+          "title": "",
+          "description": "",
+          "image_alt": ""
         },
-        {
-          "range": "12–22",
-          "title": "Chiếc Nhẫn Đầu Tiên",
-          "learn": "Tiếp tục từ chấm 12 đến chấm 22 để vẽ theo đường cong rộng đầu tiên của hệ thống vòng.",
-          "fact": "Sao Thổ có hàng ngàn vành đai hẹp trông giống như những chiếc vòng rộng khi quan sát từ xa."
-        },
-        {
-          "range": "23–33",
-          "title": "Đường Cong Phía Dưới Hành Tinh",
-          "learn": "Nối các chấm từ 23 đến 33 xung quanh nửa dưới hành tinh, giữ cho đường cong được mượt mà.",
-          "fact": "Sao Thổ là một hành tinh khí khổng lồ cấu tạo chủ yếu từ hydro và heli, hai nguyên tố nhẹ nhất vũ trụ."
-        },
-        {
-          "range": "34–43",
-          "title": "Nhẫn và Hoàn thiện",
-          "learn": "Hoàn thành các chấm từ 34 đến 43 để hoàn thiện các vòng quét ở phía bên kia.",
-          "fact": "Vành đai của sao Thổ rất rộng nhưng mỏng một cách đáng ngạc nhiên so với kích thước của hành tinh."
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Trăng Lưỡi Liềm",
+          "description": "",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
         }
-      ],
-      "outro": "Tuyệt vời—hành tinh có vành đai của bạn đang quay quanh giữa các vì sao! Hãy thêm mặt trăng, tên lửa và những đám mây đầy màu sắc, sau đó tiếp tục khám phá với <a href=\"/space/space-rover-dot-to-dot-puzzle/\">trò chơi nối điểm xe thám hiểm không gian</a>."
-    }
-  },
-  {
-    "slug": "space-rover-dot-to-dot-puzzle",
-    "name": "Xe tự hành Không gian",
-    "tagline": "Một Nhà Thám Hiểm Thân Thiện Trên Bánh Xe",
-    "description": "Nối 59 chấm để khám phá hình chú rover thám hiểm không gian đáng yêu sẵn sàng khám phá một thế giới khác. Câu đố in miễn phí này giúp trẻ luyện tập thứ tự số, khả năng tập trung và kiểm soát bút chì.",
-    "funFact": "Xe tự hành vũ trụ là phương tiện robot được sử dụng để khám phá bề mặt của các thiên thể như Mặt Trăng và Sao Hỏa.",
-    "dotGuide": {
-      "intro": "Sẵn sàng cho một chuyến du hành vượt khỏi Trái Đất chưa? Hãy theo dõi các số từ 1 đến 59 và xem một chiếc xe thám hiểm không gian thân thiện dần hiện ra. Di chuyển chậm rãi, kiểm tra từng số và giữ các nét bút chì gọn gàng khi bạn di chuyển xung quanh phương tiện.",
-      "sections": [
-        {
-          "range": "1–12",
-          "title": "Thân Xe Rover",
-          "learn": "Bắt đầu từ chấm 1 và nối qua chấm 12 để vẽ đường viền mặt trước thân thiện cùng thân hình vững chãi của chiếc rover.",
-          "fact": "Các xe tự hành hành tinh mang theo máy tính, camera và công cụ khoa học bên trong một thân máy cứng cáp."
-        },
-        {
-          "range": "13–25",
-          "title": "Những Bánh Xe Đầu Tiên",
-          "learn": "Tiếp tục từ chấm 13 đến chấm 25 để tạo hình phần thân dưới và bánh xe gồ ghề đầu tiên.",
-          "fact": "Bánh xe rover được thiết kế để bám chặt vào cát lỏng và lăn qua đá mà không bị kẹt."
-        },
-        {
-          "range": "26–38",
-          "title": "Hệ Thống Bánh Xe",
-          "learn": "Nối các điểm từ 26 đến 38 để hoàn thành thêm bánh xe và hệ thống treo của xe tự hành.",
-          "fact": "Các robot tự hành của NASA sử dụng hệ thống treo rocker-bogie giúp cả sáu bánh xe luôn tiếp xúc với mặt đất gồ ghề."
-        },
-        {
-          "range": "39–49",
-          "title": "Ghế ngồi và Thiết bị",
-          "learn": "Nối các chấm từ 39 đến 49 để thêm ghế ngồi và thiết bị phía trên thân xe rover.",
-          "fact": "Một số xe thám hiểm mặt trăng chở theo phi hành gia, trong khi các xe robot thám hiểm mà không cần người ngồi bên trong."
-        },
-        {
-          "range": "50–59",
-          "title": "Ăng-ten Dạng Đĩa",
-          "learn": "Hoàn thành bằng cách nối các chấm từ 50 đến 59 để hoàn thiện chiếc đĩa thông tin liên lạc.",
-          "fact": "Một xe tự hành sử dụng ăng-ten để gửi các phát hiện về Trái Đất và nhận chỉ dẫn mới."
+      },
+      "body": {
+        "h1": "",
+        "name": "Trăng Lưỡi Liềm",
+        "tagline": "Vẽ lại một Mảnh Sáng Lấp Lánh của Bầu Trời Đêm!",
+        "description": "Nối 60 chấm đơn giản để khám phá hình ảnh mặt trăng lưỡi liềm lấp lánh trên bầu trời đêm. Bản in miễn phí này giúp trẻ em luyện tập kỹ năng đếm số theo thứ tự, theo dõi hình ảnh, tập trung và kiểm soát bút mượt mà.",
+        "fun_fact": "Trăng lưỡi liềm xuất hiện khi ánh sáng mặt trời chỉ chiếu sáng một phần mỏng hình lưỡi liềm của Mặt Trăng mà chúng ta có thể nhìn thấy từ Trái Đất.",
+        "faqs": [
+          {
+            "q": "Trò chơi nối điểm số Trăng Lưỡi Liềm dành cho độ tuổi nào?",
+            "a": "Sản phẩm được thiết kế cho trẻ từ Độ tuổi 4-8 tuổi trở lên. Với 60 chấm, sản phẩm phù hợp với trẻ có thể tự tin đếm đến 60 ; trẻ nhỏ hơn có thể hoàn thành với một chút trợ giúp."
+          },
+          {
+            "q": "Tôi có thể in Trăng Lưỡi Liềm như thế nào?",
+            "a": "Hãy sử dụng nút tải xuống miễn phí trên trang này, sau đó in file PDF tại nhà hoặc trường học."
+          },
+          {
+            "q": "Liệu bản in số Trăng Lưỡi Liềm đó có thực sự miễn phí không?",
+            "a": "Bút chì là dụng cụ tốt nhất để nối các chấm, và trẻ em có thể tô màu bức tranh hoàn chỉnh sau đó."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Một vầng trăng lưỡi liềm mảnh mai là một trong những hình dạng dễ nhận biết nhất trên bầu trời đêm. Câu đố 60 chấm thân thiện này xây dựng đường cong bên ngoài, những đầu nhọn và cung bên trong qua năm giai đoạn dễ quản lý. Hãy tìm chấm số 1 và để mặt trăng của bạn bắt đầu tỏa sáng!",
+          "sections": [
+            {
+              "range": "1–12",
+              "title": "Đỉnh Trăng Thượng",
+              "learn": "Nối các chấm từ 1 đến 12 để tạo thành điểm nhọn phía trên của hình trăng lưỡi liềm.",
+              "fact": "Mặt Trăng không tự phát ra ánh sáng; nó tỏa sáng nhờ phản xạ ánh sáng Mặt Trời."
+            },
+            {
+              "range": "13–24",
+              "title": "Đường Cong Ngoại Vi",
+              "learn": "Tiếp tục từ chấm 13 đến chấm 24 dọc theo đường cong rộng phía ngoài của Mặt Trăng.",
+              "fact": "Lực hấp dẫn đã khiến Mặt Trăng có hình dạng gần như tròn, giống như cách nó tạo ra các hành tinh hình cầu."
+            },
+            {
+              "range": "25–36",
+              "title": "Đầu Trăng Hạ",
+              "learn": "Theo các chấm từ 25 đến 36 để tạo thành điểm dưới và rẽ vào đường cong bên trong.",
+              "fact": "Bề mặt Mặt Trăng được bao phủ bởi các hố va chạm được tạo ra bởi những tảng đá va vào nó trong hàng tỷ năm."
+            },
+            {
+              "range": "37–48",
+              "title": "Vành Đai Trong",
+              "learn": "Nối các chấm từ 37 đến 48 dọc theo đường cong phía trong, giữ cho nét bút của bạn được mượt mà.",
+              "fact": "Mặt Trăng mất khoảng 29,5 ngày để hoàn thành một chu kỳ các pha."
+            },
+            {
+              "range": "49–60",
+              "title": "Ánh Sáng và Hoàn Thiện",
+              "learn": "Hoàn thành với các chấm từ 49 đến 60 để đóng hình trăng lưỡi liềm và thêm các chi tiết cuối cùng.",
+              "fact": "Mọi người trên khắp thế giới đều nhìn thấy cùng một Mặt Trăng, mặc dù hình lưỡi liềm của nó có thể nghiêng khác nhau tùy theo vị trí."
+            }
+          ],
+          "outro": "Tác phẩm tuyệt đẹp—vầng trăng khuyết của bạn đang tỏa sáng! Hãy thêm những ngôi sao, đám mây buồn ngủ, hoặc một chiếc tên lửa băng qua bầu trời, sau đó khám phá <a href=\"/space/ringed-planet-dot-to-dot-puzzle/\">câu đố hành tinh có vành đai</a>.",
+          "color_schemes": []
         }
-      ],
-      "outro": "Nhiệm vụ hoàn thành — xe thám hiểm không gian của bạn đã sẵn sàng khám phá! Hãy thêm những ngôi sao, hố thiên thạch, hành tinh hoặc một người ngoài hành tinh thân thiện để tạo nên khung cảnh không gian của riêng bạn."
+      }
+    },
+    {
+      "slug": "ringed-planet-dot-to-dot-puzzle",
+      "header": {
+        "title": "",
+        "meta_description": "",
+        "og": {
+          "title": "",
+          "description": "",
+          "image_alt": ""
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Hành Tinh Có Vành Đai",
+          "description": "",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
+      },
+      "body": {
+        "h1": "",
+        "name": "Hành Tinh Có Vành Đai",
+        "tagline": "Vẽ một Thế Giới Được Bao Bọc Bởi Những Vòng Hào Quang Rực Rỡ!",
+        "description": "Nối 43 chấm đơn giản để khám phá một hành tinh có vành đai tuyệt đẹp đang trôi nổi trong không gian. Bản in miễn phí này giúp trẻ nhỏ luyện tập thứ tự số, khả năng quan sát, sự tập trung và kiểm soát bút chì ổn định.",
+        "fun_fact": "Vành đai Sao Thổ được tạo thành từ vô số mảnh băng và đá, với kích thước từ những hạt nhỏ li ti đến những khối lớn bằng cả ngôi nhà.",
+        "faqs": [
+          {
+            "q": "Trò chơi nối điểm số Hành Tinh Có Vành Đai dành cho độ tuổi nào?",
+            "a": "Sản phẩm được thiết kế cho trẻ từ Độ tuổi 4-7 tuổi trở lên. Với 43 chấm, sản phẩm phù hợp với trẻ có thể tự tin đếm đến 43 ; trẻ nhỏ hơn có thể hoàn thành với một chút trợ giúp."
+          },
+          {
+            "q": "Tôi có thể in Hành Tinh Có Vành Đai như thế nào?",
+            "a": "Hãy sử dụng nút tải xuống miễn phí trên trang này, sau đó in file PDF tại nhà hoặc trường học."
+          },
+          {
+            "q": "Liệu bản in số Hành Tinh Có Vành Đai đó có thực sự miễn phí không?",
+            "a": "Bút chì là dụng cụ tốt nhất để nối các chấm, và trẻ em có thể tô màu bức tranh hoàn chỉnh sau đó."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Xa xôi ngoài Trái Đất, một hành tinh khổng lồ quay tròn trong khi những vành đai rộng lớn quét quanh nó. Câu đố thân thiện với 43 chấm này tạo nên hành tinh và các vành đai của nó trong bốn giai đoạn ngắn, biến nó thành thử thách không gian đầu tiên thú vị. Hãy tìm chấm số 1 và bắt đầu hành trình của bạn!",
+          "sections": [
+            {
+              "range": "1–11",
+              "title": "Đỉnh Của Hành Tinh",
+              "learn": "Nối các chấm từ 1 đến 11 để vẽ đường cong phía trên của hành tinh ở xa.",
+              "fact": "Các hành tinh có hình tròn vì lực hấp dẫn kéo vật chất của chúng về phía trung tâm từ mọi hướng."
+            },
+            {
+              "range": "12–22",
+              "title": "Chiếc Nhẫn Đầu Tiên",
+              "learn": "Tiếp tục từ chấm 12 đến chấm 22 để vẽ theo đường cong rộng đầu tiên của hệ thống vòng.",
+              "fact": "Sao Thổ có hàng ngàn vành đai hẹp trông giống như những chiếc vòng rộng khi quan sát từ xa."
+            },
+            {
+              "range": "23–33",
+              "title": "Đường Cong Phía Dưới Hành Tinh",
+              "learn": "Nối các chấm từ 23 đến 33 xung quanh nửa dưới hành tinh, giữ cho đường cong được mượt mà.",
+              "fact": "Sao Thổ là một hành tinh khí khổng lồ cấu tạo chủ yếu từ hydro và heli, hai nguyên tố nhẹ nhất vũ trụ."
+            },
+            {
+              "range": "34–43",
+              "title": "Nhẫn và Hoàn thiện",
+              "learn": "Hoàn thành các chấm từ 34 đến 43 để hoàn thiện các vòng quét ở phía bên kia.",
+              "fact": "Vành đai của sao Thổ rất rộng nhưng mỏng một cách đáng ngạc nhiên so với kích thước của hành tinh."
+            }
+          ],
+          "outro": "Tuyệt vời—hành tinh có vành đai của bạn đang quay quanh giữa các vì sao! Hãy thêm mặt trăng, tên lửa và những đám mây đầy màu sắc, sau đó tiếp tục khám phá với <a href=\"/space/space-rover-dot-to-dot-puzzle/\">trò chơi nối điểm xe thám hiểm không gian</a>.",
+          "color_schemes": []
+        }
+      }
+    },
+    {
+      "slug": "space-rover-dot-to-dot-puzzle",
+      "header": {
+        "title": "",
+        "meta_description": "",
+        "og": {
+          "title": "",
+          "description": "",
+          "image_alt": ""
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Xe tự hành Không gian",
+          "description": "",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
+      },
+      "body": {
+        "h1": "",
+        "name": "Xe tự hành Không gian",
+        "tagline": "Một Nhà Thám Hiểm Thân Thiện Trên Bánh Xe",
+        "description": "Nối 59 chấm để khám phá hình chú rover thám hiểm không gian đáng yêu sẵn sàng khám phá một thế giới khác. Câu đố in miễn phí này giúp trẻ luyện tập thứ tự số, khả năng tập trung và kiểm soát bút chì.",
+        "fun_fact": "Xe tự hành vũ trụ là phương tiện robot được sử dụng để khám phá bề mặt của các thiên thể như Mặt Trăng và Sao Hỏa.",
+        "faqs": [
+          {
+            "q": "Trò chơi nối điểm số Xe tự hành Không gian dành cho độ tuổi nào?",
+            "a": "Sản phẩm được thiết kế cho trẻ từ Độ tuổi 4-8 tuổi trở lên. Với 59 chấm, sản phẩm phù hợp với trẻ có thể tự tin đếm đến 59 ; trẻ nhỏ hơn có thể hoàn thành với một chút trợ giúp."
+          },
+          {
+            "q": "Tôi có thể in Xe tự hành Không gian như thế nào?",
+            "a": "Hãy sử dụng nút tải xuống miễn phí trên trang này, sau đó in file PDF tại nhà hoặc trường học."
+          },
+          {
+            "q": "Liệu bản in số Xe tự hành Không gian đó có thực sự miễn phí không?",
+            "a": "Bút chì là dụng cụ tốt nhất để nối các chấm, và trẻ em có thể tô màu bức tranh hoàn chỉnh sau đó."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Sẵn sàng cho một chuyến du hành vượt khỏi Trái Đất chưa? Hãy theo dõi các số từ 1 đến 59 và xem một chiếc xe thám hiểm không gian thân thiện dần hiện ra. Di chuyển chậm rãi, kiểm tra từng số và giữ các nét bút chì gọn gàng khi bạn di chuyển xung quanh phương tiện.",
+          "sections": [
+            {
+              "range": "1–12",
+              "title": "Thân Xe Rover",
+              "learn": "Bắt đầu từ chấm 1 và nối qua chấm 12 để vẽ đường viền mặt trước thân thiện cùng thân hình vững chãi của chiếc rover.",
+              "fact": "Các xe tự hành hành tinh mang theo máy tính, camera và công cụ khoa học bên trong một thân máy cứng cáp."
+            },
+            {
+              "range": "13–25",
+              "title": "Những Bánh Xe Đầu Tiên",
+              "learn": "Tiếp tục từ chấm 13 đến chấm 25 để tạo hình phần thân dưới và bánh xe gồ ghề đầu tiên.",
+              "fact": "Bánh xe rover được thiết kế để bám chặt vào cát lỏng và lăn qua đá mà không bị kẹt."
+            },
+            {
+              "range": "26–38",
+              "title": "Hệ Thống Bánh Xe",
+              "learn": "Nối các điểm từ 26 đến 38 để hoàn thành thêm bánh xe và hệ thống treo của xe tự hành.",
+              "fact": "Các robot tự hành của NASA sử dụng hệ thống treo rocker-bogie giúp cả sáu bánh xe luôn tiếp xúc với mặt đất gồ ghề."
+            },
+            {
+              "range": "39–49",
+              "title": "Ghế ngồi và Thiết bị",
+              "learn": "Nối các chấm từ 39 đến 49 để thêm ghế ngồi và thiết bị phía trên thân xe rover.",
+              "fact": "Một số xe thám hiểm mặt trăng chở theo phi hành gia, trong khi các xe robot thám hiểm mà không cần người ngồi bên trong."
+            },
+            {
+              "range": "50–59",
+              "title": "Ăng-ten Dạng Đĩa",
+              "learn": "Hoàn thành bằng cách nối các chấm từ 50 đến 59 để hoàn thiện chiếc đĩa thông tin liên lạc.",
+              "fact": "Một xe tự hành sử dụng ăng-ten để gửi các phát hiện về Trái Đất và nhận chỉ dẫn mới."
+            }
+          ],
+          "outro": "Nhiệm vụ hoàn thành — xe thám hiểm không gian của bạn đã sẵn sàng khám phá! Hãy thêm những ngôi sao, hố thiên thạch, hành tinh hoặc một người ngoài hành tinh thân thiện để tạo nên khung cảnh không gian của riêng bạn.",
+          "color_schemes": []
+        }
+      }
     }
-  }
-]
+  ]
+}

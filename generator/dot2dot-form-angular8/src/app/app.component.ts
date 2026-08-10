@@ -4,16 +4,20 @@ import { PuzzleFormComponent, VersionSnapshot, EntryStatus } from './puzzle-form
 import { PuzzleMenuComponent, PuzzleSelection, TranslationSummary } from './puzzle-menu/puzzle-menu.component';
 import { DraftStorageService, SavedVersion } from './draft-storage.service';
 import { AuditLogService } from './audit-log.service';
+import { PageFormComponent } from './page-form/page-form.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CommonModule, PuzzleMenuComponent, PuzzleFormComponent],
+  imports: [CommonModule, PuzzleMenuComponent, PuzzleFormComponent, PageFormComponent],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements AfterViewInit {
-  @ViewChild(PuzzleFormComponent, { static: true }) puzzleForm: PuzzleFormComponent;
+  @ViewChild(PuzzleFormComponent) puzzleForm: PuzzleFormComponent;
+  @ViewChild(PageFormComponent) pageForm: PageFormComponent;
+  activeContentKind: 'puzzle' | 'page' | 'blog' = 'puzzle';
+  get activeEditor(): any { return this.activeContentKind === 'puzzle' ? this.puzzleForm : this.pageForm; }
   allVersions: SavedVersion[] = [];
   versions: SavedVersion[] = [];
   draftMessage = '';
@@ -55,16 +59,26 @@ export class AppComponent implements AfterViewInit {
 
   onPuzzleSelected(selection: PuzzleSelection): void {
     if (!this.confirmDiscard()) { return; }
+    this.activeContentKind = selection.contentKind === 'page' || selection.contentKind === 'blog' ? selection.contentKind : 'puzzle';
     this.activeEntryKey = `${selection.language}:${selection.category}:${selection.collectionOnly ? 'collection' : selection.slug}`;
     this.contentLanguage = selection.language;
     this.englishReference = selection.englishEntry;
     this.refreshVisibleVersions();
-    this.puzzleForm.loadImportedJson(selection.document, selection.slug, Boolean(selection.collectionOnly));
+    const loadSelection = () => {
+      if (this.activeContentKind === 'puzzle') { this.puzzleForm.loadImportedJson(selection.document, selection.slug, Boolean(selection.collectionOnly)); }
+      else { this.pageForm.loadDocument(selection.document, this.activeContentKind); }
+    };
+    if ((this.activeContentKind === 'puzzle' && this.puzzleForm) || (this.activeContentKind !== 'puzzle' && this.pageForm)) { loadSelection(); }
+    else { setTimeout(loadSelection); }
     this.diffLines = [];
   }
 
   onTranslationSummary(summary: TranslationSummary[]): void {
     this.translationSummary = summary;
+  }
+
+  onLanguageChanged(language: string): void {
+    this.contentLanguage = language || 'en';
   }
 
   onVersionSaved(snapshot: VersionSnapshot): void {
@@ -75,7 +89,7 @@ export class AppComponent implements AfterViewInit {
     const latestTime = this.allVersions.length ? Date.parse(this.allVersions[0].savedAt) : 0;
     const now = new Date(Math.max(Date.now(), latestTime + 1));
     const slug = snapshot.entrySlug || (snapshot.data && snapshot.data.slug) || 'untitled';
-    if (this.activeEntryKey === 'manual:untitled' || (!this.puzzleForm.collectionOnly && !this.activeEntryKey.endsWith(`:${slug}`))) {
+    if (this.activeEntryKey === 'manual:untitled' || (!this.activeEditor.collectionOnly && !this.activeEntryKey.endsWith(`:${slug}`))) {
       this.activeEntryKey = `manual:${slug}`;
     }
     const version: SavedVersion = {
@@ -91,7 +105,7 @@ export class AppComponent implements AfterViewInit {
       await this.storage.save(version);
       this.allVersions = await this.storage.getAll();
       this.refreshVisibleVersions();
-      this.puzzleForm.markSaved(snapshot.data);
+      this.activeEditor.markSaved(snapshot.data);
       this.draftMessage = `${this.statusLabel(snapshot.status)} version saved.`;
     } catch (_error) {
       this.draftMessage = 'Could not save the version to browser storage.';
@@ -103,7 +117,12 @@ export class AppComponent implements AfterViewInit {
     this.activeEntryKey = version.entryKey;
     this.contentLanguage = this.languageFromEntryKey(version.entryKey);
     this.refreshVisibleVersions();
-    this.puzzleForm.loadImportedJson(version.data, this.slugFromEntryKey(version.entryKey), this.isCollectionEntryKey(version.entryKey));
+    const parts = version.entryKey.split(':');
+    this.activeContentKind = parts[1] === 'page' || parts[1] === 'blog' ? parts[1] as any : 'puzzle';
+    setTimeout(() => {
+      if (this.activeContentKind === 'puzzle') { this.puzzleForm.loadImportedJson(version.data, this.slugFromEntryKey(version.entryKey), this.isCollectionEntryKey(version.entryKey)); }
+      else { this.pageForm.loadDocument(version.data, this.activeContentKind); }
+    });
     this.draftMessage = `${this.statusLabel(version.status)} version loaded.`;
   }
 
@@ -168,7 +187,7 @@ export class AppComponent implements AfterViewInit {
   statusLabel(status: EntryStatus): string { return status.charAt(0).toUpperCase() + status.slice(1); }
 
   private confirmDiscard(): boolean {
-    return !this.puzzleForm.hasUnsavedChanges() || window.confirm('Discard unsaved changes?');
+    return !this.activeEditor || !this.activeEditor.hasUnsavedChanges() || window.confirm('Discard unsaved changes?');
   }
 
   private async updateVersion(version: SavedVersion): Promise<void> {

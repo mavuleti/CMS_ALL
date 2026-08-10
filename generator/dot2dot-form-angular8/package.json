@@ -4,11 +4,15 @@
   "scripts": {
     "ng": "ng",
     "assets:menu": "python ../tools/build_menu_assets.py ../../content src/assets/content",
+    "assets:check": "python ../tools/build_menu_assets.py ../../content src/assets/content --check",
+    "assets:keywords": "python ../tools/build_seo_keyword_asset.py ../ref/locale-split/locale-split src/assets/locale-split \"../ref/files (10)/locale-split\"",
     "schema:preview": "python ../tools/migrate_legacy_schema.py ../../content --dry-run",
     "schema:convert": "python ../tools/migrate_legacy_schema.py ../../content",
-    "prestart": "npm run assets:menu",
+    "schema:pages:preview": "python ../tools/migrate_page_schema.py ../../content --dry-run",
+    "schema:pages:convert": "python ../tools/migrate_page_schema.py ../../content",
+    "prestart": "npm run assets:menu && npm run assets:keywords",
     "start": "ng serve",
-    "prebuild": "npm run assets:menu",
+    "prebuild": "npm run assets:menu && npm run assets:keywords",
     "build": "ng build",
     "pretest": "npm run build",
     "test": "playwright test"

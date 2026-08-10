@@ -65,6 +65,19 @@
     background: #1e1e1e; color: #d4d4d4; padding: 16px; border-radius: 8px;
     overflow-x: auto; font-size: 0.78rem; max-height: 460px; white-space: pre-wrap; word-break: break-word;
   }
+  details summary { cursor:pointer; font-size:1.1rem; font-weight:700; }
+  .research-group { border-top:1px solid #e2e8f0; margin-top:12px; padding-top:10px; }
+  .research-group small { color:#667085; display:block; }
+  .opportunity-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(180px,1fr)); gap:10px; margin-top:14px; }
+  .opportunity-grid div { background:#eef4ff; border:1px solid #c7d7fe; border-radius:8px; padding:10px; }
+  .opportunity-grid small, .opportunity-grid strong { display:block; }
+  .quality-metrics { display:grid; grid-template-columns:repeat(3,1fr); gap:12px; margin:14px 0; }
+  .quality-metrics div { background:#f8fafc; border:1px solid #dbe3ee; border-radius:8px; padding:12px; text-align:center; }
+  .quality-metrics strong, .quality-metrics span { display:block; }
+  .quality-metrics strong { font-size:1.65rem; }
+  .keyword-table { border-collapse:collapse; width:100%; }
+  .keyword-table th, .keyword-table td { border-bottom:1px solid #e2e8f0; padding:7px; text-align:left; }
+  .keyword-table tr.unused { color:#991b1b; opacity:.68; }
 </style>
 </head>
 <body>
@@ -89,6 +102,12 @@
     <textarea id="importPaste" name="importPaste" rows="4" data-testid="import-paste" placeholder="...or paste JSON here, then click Load into Form"></textarea>
     <div class="error" id="importErr" data-testid="import-error" role="alert"></div>
   </section>
+
+  <details class="card" id="keywordResearch" data-testid="keyword-research">
+    <summary>Keyword research — <span data-research-locale>en</span></summary>
+    <p class="hint">Reference-only authentic local search behavior. This guidance never blocks saving.</p>
+    <div id="keywordResearchBody">Loading research…</div>
+  </details>
 
   <form id="puzzleForm" data-testid="puzzle-form">
 
@@ -243,6 +262,12 @@
     </div>
   </form>
 
+  <section class="card" id="qualityDashboard" data-testid="content-quality-dashboard">
+    <h2>Content quality summary <small>(writing aid only)</small></h2>
+    <div class="quality-metrics"><div><strong id="qualityScore">0</strong><span id="qualityGrade">Poor</span></div><div><strong id="internalLinks">0</strong><span>Internal links</span></div><div><strong id="externalLinks">0</strong><span>External links</span></div></div>
+    <table class="keyword-table"><thead><tr><th>Phrase</th><th>Meaning</th><th>Count</th></tr></thead><tbody id="keywordUsage"></tbody></table>
+  </section>
+
   <section class="card output" id="outputCard" data-testid="output-card" style="display:none;">
     <h2>Generated JSON</h2>
     <pre id="outputPre" data-testid="output-json"></pre>
@@ -251,6 +276,46 @@
 </div>
 
 <script>
+let seoResearch = null, activeKeywords = [], activeOpportunities = [], qualityTimer;
+window.getKeywordQualitySnapshot = () => JSON.parse(JSON.stringify({locale:document.getElementById('pageLanguage').value,opportunities:activeOpportunities,usage:window.keywordUsageSnapshot||[],quality:window.keywordQualitySnapshot||{}}));
+const researchAliases = {de:'german', fr:'french', te:'telugu'};
+function escapeResearch(value) { const node=document.createElement('div'); node.textContent=String(value); return node.innerHTML; }
+function researchItems(locale, englishLocale) {
+  const groups={native:[],romanized:[],english:[],intent:[],specialized:[]}, seen=new Set();
+  function add(phrase,item,path) {
+    let group=/english_phrase|english_search|pooled_english/.test(path)?'english':/roman|in_english_letters|finglisi/.test(path)||item.finglisi?'romanized':/specialized|audience|target_|for_kids|for_adults|topic_specific|range|format/.test(path)?'specialized':/intent|insight|filter|primary|print/.test(path)?'intent':'native';
+    if(!englishLocale&&group==='english')return; const id=group+':'+phrase.toLocaleLowerCase(); if(seen.has(id))return; seen.add(id);
+    groups[group].push({phrase,meaning:item.meaning||item.intent||'',note:item.note||'',priority:group==='native'?3:group==='romanized'?2:1});
+    if(item.finglisi)add(item.finglisi,{meaning:item.meaning,note:'Finglisi transliteration'},path+'_finglisi');
+  }
+  function visit(value,path=[]) {
+    if(Array.isArray(value)){value.forEach(v=>visit(v,path));return;} if(!value||typeof value!=='object')return; const joined=path.join('_').toLowerCase();
+    const phrase=typeof value.phrase==='string'?value.phrase:(typeof value.term==='string'&&/intent|insight|filter|primary|print/.test(joined)?value.term:null); if(phrase)add(phrase,value,joined);
+    Object.entries(value).forEach(([key,item])=>{const next=path.concat(key.toLowerCase()), label=next.join('_');if(Array.isArray(item)&&item.every(v=>typeof v==='string')&&/phrases|searches|intent|filter|primary|specialized/.test(label))item.forEach(v=>add(v,{},label));else if(item&&typeof item==='object')visit(item,next);});
+  }
+  visit(locale); return groups;
+}
+function renderResearch() {
+  const language=document.getElementById('pageLanguage').value; document.querySelector('[data-research-locale]').textContent=language; document.getElementById('keywordResearchBody').textContent='Loading research…';
+  fetch(`locale-split/${encodeURIComponent(language)}.json`).then(r=>{if(!r.ok)throw new Error();return r.json();}).then(locale=>{
+    const data=locale.data||{}, convert=(items,priority)=>(items||[]).filter(i=>i&&i.phrase).map(i=>({phrase:i.phrase,meaning:i.meaning||'',note:i.note||'',priority}));
+    const groups={native:convert(data.native_phrases,3),romanized:convert(data.romanized_phrases,2),english:language==='en'?convert(data.english_phrases_used_by_locals,1).concat(convert(data.pooled_from_other_locales,1)):[],intent:convert(data.intent_modifiers,1),specialized:[]}, labels={native:'Native phrases',romanized:'Romanized phrases',english:'English phrases used by locals',intent:'Intent modifiers',specialized:'Specialized / audience variants'};
+    const opportunityLabels={primary_term:'Primary term',recommended_local_phrase:'Recommended local phrase',print_modifier:'Print modifier',free_modifier:'Free modifier',children_modifier:'Children modifier',adult_modifier:'Adult modifier'}, summary=locale.opportunity_summary||{};
+    activeOpportunities=Object.keys(opportunityLabels).filter(key=>summary[key]).map(key=>({key,label:opportunityLabels[key],phrase:summary[key]}));
+    const opportunities='<div class="opportunity-grid" data-testid="keyword-opportunities">'+activeOpportunities.map(item=>`<div data-testid="keyword-opportunity-${item.key}" data-opportunity-key="${item.key}"><small>${item.label}</small><strong>${escapeResearch(item.phrase)}</strong></div>`).join('')+'</div>';
+    document.getElementById('keywordResearchBody').innerHTML=opportunities+Object.keys(labels).map(key=>`<section class="research-group" data-testid="keyword-group-${key}" data-keyword-group="${key}"><h3>${labels[key]}</h3>${groups[key].length?'<ul>'+groups[key].map(i=>`<li data-testid="keyword-phrase" data-priority="${i.priority}"><strong>${escapeResearch(i.phrase)}</strong>${i.meaning?' — '+escapeResearch(i.meaning):''}${i.note?'<small>'+escapeResearch(i.note)+'</small>':''}</li>`).join('')+'</ul>':'<p class="hint">None recorded.</p>'}</section>`).join('');
+    activeKeywords=language==='en'?[...groups.native,...groups.intent,...groups.english]:[...groups.native,...groups.romanized,...groups.intent]; analyzeQuality();
+  }).catch(()=>{document.getElementById('keywordResearchBody').textContent='No research is available for this locale yet.';activeKeywords=[];analyzeQuality();});
+}
+function analyzeQuality() {
+  const text=['header.title','header.meta_description','body.description'].map(id=>(document.getElementById(id)||{}).value||'').join(' ').toLocaleLowerCase();
+  const rows=activeKeywords.map(item=>({...item,count:item.phrase?text.split(item.phrase.toLocaleLowerCase()).length-1:0})).sort((a,b)=>b.count-a.count||b.priority-a.priority), possible=rows.reduce((n,i)=>n+i.priority,0), covered=rows.reduce((n,i)=>n+(i.count?i.priority:0),0), uses=rows.reduce((n,i)=>n+i.count,0);
+  const score=Math.round(((possible?covered/possible:0)*.8+Math.min(1,uses/Math.max(3,rows.length*.15))*.2)*100);document.getElementById('qualityScore').textContent=score;document.getElementById('qualityGrade').textContent=score>=80?'Excellent':score>=60?'Good':score>=35?'Fair':'Poor';
+  document.getElementById('keywordUsage').innerHTML=rows.map(i=>`<tr class="${i.count?'':'unused'}" data-testid="keyword-usage-row" data-count="${i.count}"><td>${escapeResearch(i.phrase)}</td><td>${escapeResearch(i.meaning||'—')}</td><td>${i.count}</td></tr>`).join('');
+  const content=['body.description','body.dot_guide.outro'].map(id=>(document.getElementById(id)||{}).value||'').join(' '),links=[],regex=/<a\s[^>]*href=["']([^"']+)["']|\[[^\]]+\]\(([^)\s]+)/gi;let match;while((match=regex.exec(content)))links.push(match[1]||match[2]);const internal=links.filter(link=>/^\//.test(link)||/^(https?:\/\/)?(www\.)?dottodotfreeprintables\.com(?:\/|$)/i.test(link)).length;document.getElementById('internalLinks').textContent=internal;document.getElementById('externalLinks').textContent=links.length-internal;window.keywordUsageSnapshot=rows;window.keywordQualitySnapshot={score,grade:document.getElementById('qualityGrade').textContent,internalLinks:internal,externalLinks:links.length-internal};
+}
+fetch('locale-split/manifest.json').then(r=>r.json()).then(data=>{const select=document.getElementById('pageLanguage');data.locales.forEach(code=>{if(!select.querySelector(`option[value="${code}"]`)){const option=document.createElement('option');option.value=code;option.textContent=code;select.appendChild(option);}});renderResearch();}).catch(()=>document.getElementById('keywordResearchBody').textContent='Keyword research could not be loaded.');
+document.getElementById('puzzleForm').addEventListener('input',()=>{clearTimeout(qualityTimer);qualityTimer=setTimeout(analyzeQuality,300);});
 const RULES = {
   slug: {required:true},
   'header.title': {required:true, min:30, max:60},
@@ -499,6 +564,7 @@ function applyDirection() {
 
 document.getElementById('pageLanguage').addEventListener('change', () => {
   applyDirection();
+  renderResearch();
   document.querySelectorAll('[data-lang-check]').forEach(el => {
     const path = el.dataset.path;
     if (path && val(path)) checkField(path);

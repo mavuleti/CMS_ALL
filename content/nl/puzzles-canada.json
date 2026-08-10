@@ -1,322 +1,456 @@
-[
-  {
-    "slug": "canada-canoe-dot-to-dot-puzzle",
+{
+  "collection": {
     "header": {
-      "title": "Canadese Kano Punt tot Punt — Peddel Door 69 Punten",
-      "meta_description": "Voor wegen droegen kano's mensen over Canada's meren en rivieren. Peddel door 69 punten met deze gratis printbare PDF voor kinderen van 5–9 jaar.",
+      "title": "Gratis Canada-punt-tot-punt puzzels voor kinderen",
+      "meta_description": "Ontdek Canada met gratis werkbladen om de punten te verbinden – Canadese dieren, esdoornbladeren en meer om te printen.",
       "og": {
+        "title": "Gratis Canada punt-tot-punt puzzels",
+        "description": "Gratis printbare Canada-werkbladen voor kinderen.",
+        "image": "/images/canada-maple-leaf-puzzle.webp"
+      },
+      "json_ld": {
+        "type": "CollectionPage",
+        "name": "Canada",
+        "description": "Paddle a Canadian canoe, trace the maple leaf, then meet a polar bear, moose, and raccoon. This free printable collection turns Canadian symbols and wildlife into hands-on number practice.",
+        "image": "/images/canada-maple-leaf-puzzle.webp",
+        "main_entity": {
+          "type": "ItemList",
+          "item_source": "puzzles"
+        }
+      },
+      "breadcrumb_json_ld": {
+        "type": "BreadcrumbList",
+        "items": [
+          {
+            "position": 1,
+            "name": "Home",
+            "path": "/"
+          },
+          {
+            "position": 2,
+            "name": "Canada",
+            "path": "/canada/"
+          }
+        ]
+      }
+    },
+    "body": {
+      "h1": "Free Canada Dot-to-Dot Printables for Kids",
+      "name": "Canada",
+      "tagline": "Discover Canada One Dot at a Time",
+      "description": "Paddle a Canadian canoe, trace the maple leaf, then meet a polar bear, moose, and raccoon. This free printable collection turns Canadian symbols and wildlife into hands-on number practice.",
+      "hero_image": "/images/canada-maple-leaf-puzzle.webp",
+      "slug": "canada",
+      "faqs": [
+        {
+          "q": "Zijn alle punt-na-punt-tekeningen op deze site volledig gratis?",
+          "a": "Ja, alle 'verbind de punten'-werkbladen op DotToDotFreePrintables.com zijn 100% gratis te downloaden en te printen. Je hebt geen account, abonnement of creditcard nodig."
+        },
+        {
+          "q": "Voor welke leeftijd zijn punt-tot-punt-werkbladen geschikt?",
+          "a": "Onze printbare werkbladen zijn geschikt voor kinderen van 2 tot en met 12 jaar. De makkelijke werkbladen (10-20 stippen) zijn ideaal voor peuters en kleuters, de gemiddelde werkbladen (20-50 stippen) zijn perfect voor groep 1 en 2, en de moeilijkere werkbladen (50-200+ stippen) vormen een uitdaging voor kinderen van groep 3 tot en met 6."
+        },
+        {
+          "q": "In welk formaat zijn de printbare 'verbind de punten'-werkbladen?",
+          "a": "Alle werkbladen worden gedownload als printklare PDF-bestanden op standaard Amerikaans Letter-formaat (8,5\" × 11\"). Open ze in elke browser of PDF-viewer en print ze af — er is geen speciale software nodig."
+        },
+        {
+          "q": "Kunnen leerkrachten deze 'verbind de punten'-werkbladen in de klas gebruiken?",
+          "a": "Jazeker! Onze printbare materialen zijn gratis te gebruiken voor persoonlijk en klassikaal gebruik. Ze zijn populair voor ochtendactiviteiten, opdrachten voor snelle leerlingen, invallessen, fijne motoriekoefeningen en huiswerkpakketten."
+        }
+      ]
+    }
+  },
+  "puzzles": [
+    {
+      "slug": "canada-canoe-dot-to-dot-puzzle",
+      "header": {
         "title": "Canadese Kano Punt tot Punt — Peddel Door 69 Punten",
-        "description": "Voor wegen droegen kano's mensen over Canada's meren en rivieren. Peddel door 69 punten met deze gratis printbare PDF voor kinderen van 5–9 jaar.",
-        "image_alt": "Canadese kano en peddel die in beeld komen terwijl 69 punten verbinden op een gratis printbare."
+        "meta_description": "Voor wegen droegen kano's mensen over Canada's meren en rivieren. Peddel door 69 punten met deze gratis printbare PDF voor kinderen van 5–9 jaar.",
+        "og": {
+          "title": "Canadese Kano Punt tot Punt — Peddel Door 69 Punten",
+          "description": "Voor wegen droegen kano's mensen over Canada's meren en rivieren. Peddel door 69 punten met deze gratis printbare PDF voor kinderen van 5–9 jaar.",
+          "image_alt": "Canadese kano en peddel die in beeld komen terwijl 69 punten verbinden op een gratis printbare."
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Canadese Kano",
+          "description": "Voor wegen droegen kano's mensen over Canada's meren en rivieren. Peddel door 69 punten met deze gratis printbare PDF voor kinderen van 5–9 jaar.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
       },
-      "json_ld": {
-        "type": "CreativeWork",
+      "body": {
+        "h1": "Canadese Kano Punt tot Punt — Peddel Door 69 Punten",
         "name": "Canadese Kano",
-        "description": "Voor wegen droegen kano's mensen over Canada's meren en rivieren. Peddel door 69 punten met deze gratis printbare PDF voor kinderen van 5–9 jaar.",
-        "image": "",
-        "educational_use": "Fine motor skills, number sequencing",
-        "age_range": ""
-      }
-    },
-    "body": {
-      "h1": "Canadese Kano Punt tot Punt — Peddel Door 69 Punten",
-      "name": "Canadese Kano",
-      "tagline": "Peddel Over Canada's Meren en Rivieren",
-      "description": "Verbind 69 punten om een Canadese kano en peddel te onthullen. Deze middelgrote printbare oefening bouwt nummersequentie en potloodcontrole op terwijl het een watervoertuig introduceert dat nauw verbonden is met reizen in Canada.",
-      "fun_fact": "Kano's maakten het mogelijk om mensen en voorraden te vervoeren langs onderling verbonden meren en rivieren waar geen wegen waren.",
-      "dot_guide": {
-        "intro": "Esdoorns verlichten de Canadese bossen elk najaar met vurig rode, oranje en gouden bladeren. Het esdoornblad staat al generaties lang symbool voor Canada en prijkt trots in het midden van de rood-witte vlag van het land. Deze puzzel met 70 punten volgt de puntige randen en stevige steel van het blad. Zoek punt 1, houd je potlood in beweging in numerieke volgorde en zie een Canadees symbool vorm krijgen!",
-        "sections": [
+        "tagline": "Peddel Over Canada's Meren en Rivieren",
+        "description": "Verbind 69 punten om een Canadese kano en peddel te onthullen. Deze middelgrote printbare oefening bouwt nummersequentie en potloodcontrole op terwijl het een watervoertuig introduceert dat nauw verbonden is met reizen in Canada.",
+        "fun_fact": "Kano's maakten het mogelijk om mensen en voorraden te vervoeren langs onderling verbonden meren en rivieren waar geen wegen waren.",
+        "faqs": [
           {
-            "range": "1–14",
-            "title": "Het Hoogtepunt",
-            "learn": "Begin bij punt 1 en verbind door tot punt 14 om de hoge punt aan de bovenkant van het blad te vormen. Volg elke kleine bocht zorgvuldig—de scherpe hoeken geven een esdoornblad zijn herkenbare vorm.",
-            "fact": "Een peddel heeft een handvat, schacht en blad. Het brede blad duwt tegen het water om de kano te verplaatsen en te sturen."
+            "q": "Voor welke leeftijd is de punt-naar-punt-puzzel Canadese Kano?",
+            "a": "Hij is ontworpen voor de leeftijd Leeftijden 5-9. Met 69 punten is hij geschikt voor kinderen die vlot tot 69 kunnen tellen; jongere kinderen kunnen hem met een beetje hulp afmaken."
           },
           {
-            "range": "15–28",
-            "title": "De Rechterhand Punten",
-            "learn": "Ga verder van punt 15 naar punt 28, langs de rechterkant van het blad. Vertraag bij elke hoek en controleer het volgende nummer voordat je van richting verandert.",
-            "fact": "Canada heeft 10 inheemse esdoornsoorten. De suikeresdoorn is vooral bekend omdat zijn sap kan worden omgezet in ahornsiroop."
+            "q": "Hoe print ik het werkblad Canadese Kano?",
+            "a": "Klik op de downloadknop voor de gratis PDF en print hem daarna op gewoon papier (A4 of US Letter) vanuit elke browser of PDF-lezer. Er is geen speciale software nodig."
           },
           {
-            "range": "29–42",
-            "title": "De Steel",
-            "learn": "Verbind de punten 29 tot en met 42 om de onderrand en smalle steel te tekenen. Gebruik kortere lijnen bij de scherpe bochten zodat je lijn dicht bij de punten blijft.",
-            "fact": "De Geologische Dienst van Canada vertrouwde op kano's tijdens het vroege veldwerk in het noorden. Zie zijn historische kano uit 1874 op de <a href=\"https://ised-isde.canada.ca/site/science/en/educational-resources/history-geological-survey-canada-175-objects/26-canoe-1874\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">website van de regering van Canada</a>."
-          },
-          {
-            "range": "43–56",
-            "title": "De Linkerhand Punten",
-            "learn": "Trace de punten 43 tot 56 terug langs de linkerkant. Deze punten weerspiegelen de vormen aan de rechterkant, dus vergelijk beide kanten terwijl je tekent.",
-            "fact": "Lange voordat de moderne vlag van Canada werd aangenomen, verschenen esdoornbladeren al op Canadese insignes, wapenschilden, munten en militaire emblemen."
-          },
-          {
-            "range": "57–69",
-            "title": "Het blad sluiten",
-            "learn": "Voltooi met punten 57 tot en met 70, terugkerend naar de top van het blad. Tel langzaam naar de laatste punt en controleer daarna of elk punt en elke hoek verbonden is.",
-            "fact": "Peddelomstandigheden kunnen snel veranderen, dus voorbereiding en de juiste veiligheidsuitrusting zijn belangrijk. Gezinnen kunnen leren over kanoën en waterveiligheid van <a href=\"https://parks.canada.ca/voyage-travel/experiences/sports/pagayer-paddling\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Parks Canada</a>."
+            "q": "Is de printbare Canadese Kano echt gratis?",
+            "a": "Ja — hij is 100% gratis, zonder registratie, account of betaling. Je mag hem printen voor thuis of in de klas."
           }
         ],
-        "outro": "Geweldig—je esdoornblad is klaar! Kleur het felrood zoals de Canadese vlag, of gebruik geel en oranje voor een herfstblad. Ontdek meer over Canadese nationale symbolen op de <a href=\"https://www.canada.ca/en/canadian-heritage/services/official-symbols-canada.html\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">website van de Canadese overheid</a>, en probeer daarna nog een <a href=\"/canada/\">Canadees punt-tot-punt puzzel</a>.",
-        "color_schemes": []
+        "dot_guide": {
+          "intro": "Esdoorns verlichten de Canadese bossen elk najaar met vurig rode, oranje en gouden bladeren. Het esdoornblad staat al generaties lang symbool voor Canada en prijkt trots in het midden van de rood-witte vlag van het land. Deze puzzel met 70 punten volgt de puntige randen en stevige steel van het blad. Zoek punt 1, houd je potlood in beweging in numerieke volgorde en zie een Canadees symbool vorm krijgen!",
+          "sections": [
+            {
+              "range": "1–14",
+              "title": "Het Hoogtepunt",
+              "learn": "Begin bij punt 1 en verbind door tot punt 14 om de hoge punt aan de bovenkant van het blad te vormen. Volg elke kleine bocht zorgvuldig—de scherpe hoeken geven een esdoornblad zijn herkenbare vorm.",
+              "fact": "Een peddel heeft een handvat, schacht en blad. Het brede blad duwt tegen het water om de kano te verplaatsen en te sturen."
+            },
+            {
+              "range": "15–28",
+              "title": "De Rechterhand Punten",
+              "learn": "Ga verder van punt 15 naar punt 28, langs de rechterkant van het blad. Vertraag bij elke hoek en controleer het volgende nummer voordat je van richting verandert.",
+              "fact": "Canada heeft 10 inheemse esdoornsoorten. De suikeresdoorn is vooral bekend omdat zijn sap kan worden omgezet in ahornsiroop."
+            },
+            {
+              "range": "29–42",
+              "title": "De Steel",
+              "learn": "Verbind de punten 29 tot en met 42 om de onderrand en smalle steel te tekenen. Gebruik kortere lijnen bij de scherpe bochten zodat je lijn dicht bij de punten blijft.",
+              "fact": "De Geologische Dienst van Canada vertrouwde op kano's tijdens het vroege veldwerk in het noorden. Zie zijn historische kano uit 1874 op de <a href=\"https://ised-isde.canada.ca/site/science/en/educational-resources/history-geological-survey-canada-175-objects/26-canoe-1874\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">website van de regering van Canada</a>."
+            },
+            {
+              "range": "43–56",
+              "title": "De Linkerhand Punten",
+              "learn": "Trace de punten 43 tot 56 terug langs de linkerkant. Deze punten weerspiegelen de vormen aan de rechterkant, dus vergelijk beide kanten terwijl je tekent.",
+              "fact": "Lange voordat de moderne vlag van Canada werd aangenomen, verschenen esdoornbladeren al op Canadese insignes, wapenschilden, munten en militaire emblemen."
+            },
+            {
+              "range": "57–69",
+              "title": "Het blad sluiten",
+              "learn": "Voltooi met punten 57 tot en met 70, terugkerend naar de top van het blad. Tel langzaam naar de laatste punt en controleer daarna of elk punt en elke hoek verbonden is.",
+              "fact": "Peddelomstandigheden kunnen snel veranderen, dus voorbereiding en de juiste veiligheidsuitrusting zijn belangrijk. Gezinnen kunnen leren over kanoën en waterveiligheid van <a href=\"https://parks.canada.ca/voyage-travel/experiences/sports/pagayer-paddling\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Parks Canada</a>."
+            }
+          ],
+          "outro": "Geweldig—je esdoornblad is klaar! Kleur het felrood zoals de Canadese vlag, of gebruik geel en oranje voor een herfstblad. Ontdek meer over Canadese nationale symbolen op de <a href=\"https://www.canada.ca/en/canadian-heritage/services/official-symbols-canada.html\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">website van de Canadese overheid</a>, en probeer daarna nog een <a href=\"/canada/\">Canadees punt-tot-punt puzzel</a>.",
+          "color_schemes": []
+        }
       }
-    }
-  },
-  {
-    "slug": "canada-maple-leaf-dot-to-dot-puzzle",
-    "header": {
-      "title": "IJsbeer Stippen Verbinden, Gratis Werkblad met 74 Arctische Stippen",
-      "meta_description": "Het esdoornblad staat sinds 1965 centraal op Canada's vlag. Volg de iconische omtrek over 70 punten in een gratis printbare PDF voor kinderen van 5–9 jaar.",
-      "og": {
+    },
+    {
+      "slug": "canada-maple-leaf-dot-to-dot-puzzle",
+      "header": {
         "title": "IJsbeer Stippen Verbinden, Gratis Werkblad met 74 Arctische Stippen",
-        "description": "Het esdoornblad staat sinds 1965 centraal op Canada's vlag. Volg de iconische omtrek over 70 punten in een gratis printbare PDF voor kinderen van 5–9 jaar.",
-        "image_alt": "Krachtige ijsbeer die over Arctisch ijs loopt, gevormd door 74 stippen op een printbare PDF"
+        "meta_description": "Het esdoornblad staat sinds 1965 centraal op Canada's vlag. Volg de iconische omtrek over 70 punten in een gratis printbare PDF voor kinderen van 5–9 jaar.",
+        "og": {
+          "title": "IJsbeer Stippen Verbinden, Gratis Werkblad met 74 Arctische Stippen",
+          "description": "Het esdoornblad staat sinds 1965 centraal op Canada's vlag. Volg de iconische omtrek over 70 punten in een gratis printbare PDF voor kinderen van 5–9 jaar.",
+          "image_alt": "Krachtige ijsbeer die over Arctisch ijs loopt, gevormd door 74 stippen op een printbare PDF"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Esdoornblad",
+          "description": "Het esdoornblad staat sinds 1965 centraal op Canada's vlag. Volg de iconische omtrek over 70 punten in een gratis printbare PDF voor kinderen van 5–9 jaar.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
       },
-      "json_ld": {
-        "type": "CreativeWork",
+      "body": {
+        "h1": "Esdoornblad Dot to Dot: Canada's Icoon in 70 Punten",
         "name": "Esdoornblad",
-        "description": "Het esdoornblad staat sinds 1965 centraal op Canada's vlag. Volg de iconische omtrek over 70 punten in een gratis printbare PDF voor kinderen van 5–9 jaar.",
-        "image": "",
-        "educational_use": "Fine motor skills, number sequencing",
-        "age_range": ""
-      }
-    },
-    "body": {
-      "h1": "Esdoornblad Dot to Dot: Canada's Icoon in 70 Punten",
-      "name": "Esdoornblad",
-      "tagline": "Canada's Beroemde Rode Blad",
-      "description": "Verbind 70 punten om een esdoornblad te onthullen, een van Canada's bekendste symbolen. Deze middelgrote puzzel helpt kinderen om de volgorde van nummers te oefenen en zorgvuldig potloodgebruik te ontwikkelen terwijl ze leren waarom het blad op Canada's vlag staat.",
-      "fun_fact": "Het esdoornblad staat sinds 1965 in het midden van Canada's nationale vlag.",
-      "dot_guide": {
-        "intro": "IJsberen zwerven over de bevroren kusten en het zee-ijs van het Canadese Noordpoolgebied. Hun dikke vacht, kleine oren en enorme poten helpen hen warm te blijven en zich voort te bewegen over sneeuw, ijs en water. Deze puzzel met 74 stippen volgt een ijsbeer van zijn neus tot zijn brede poten. Begin bij stip 1 en maak de reis, één zorgvuldige lijn tegelijk.",
-        "sections": [
+        "tagline": "Canada's Beroemde Rode Blad",
+        "description": "Verbind 70 punten om een esdoornblad te onthullen, een van Canada's bekendste symbolen. Deze middelgrote puzzel helpt kinderen om de volgorde van nummers te oefenen en zorgvuldig potloodgebruik te ontwikkelen terwijl ze leren waarom het blad op Canada's vlag staat.",
+        "fun_fact": "Het esdoornblad staat sinds 1965 in het midden van Canada's nationale vlag.",
+        "faqs": [
           {
-            "range": "1–14",
-            "title": "De Neus en het Hoofd",
-            "learn": "Begin bij punt 1 en verbind door naar punt 15 om de neus, snuit en ronde kop te vormen. Houd de lijnen zacht rond het gezicht zodat het profiel van de beer er glad uitziet.",
-            "fact": "De vlag van Canada heeft één gestileerd rood esdoornblad met 11 punten. Leer meer over het ontwerp en de geschiedenis van de vlag op <a href=\"https://www.canada.ca/en/canadian-heritage/services/flag-canada-history.html\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Canadian Heritage</a>."
+            "q": "Voor welke leeftijd is de punt-naar-punt-puzzel Esdoornblad?",
+            "a": "Hij is ontworpen voor de leeftijd Leeftijden 5-9. Met 70 punten is hij geschikt voor kinderen die vlot tot 70 kunnen tellen; jongere kinderen kunnen hem met een beetje hulp afmaken."
           },
           {
-            "range": "15–28",
-            "title": "De Rug en Schouders",
-            "learn": "Ga verder van punt 16 naar punt 30 langs de stevige schouders en gebogen rug. Probeer deze lange omtrek met vaste lijnen te tekenen in plaats van veel kleine streepjes.",
-            "fact": "IJsberen zijn de grootste landroofdieren van Canada. Volwassen mannetjes kunnen enkele honderden kilo's wegen."
+            "q": "Hoe print ik het werkblad Esdoornblad?",
+            "a": "Klik op de downloadknop voor de gratis PDF en print hem daarna op gewoon papier (A4 of US Letter) vanuit elke browser of PDF-lezer. Er is geen speciale software nodig."
           },
           {
-            "range": "29–42",
-            "title": "De Achterpoten",
-            "learn": "Volg de genummerde punten 31 tot en met 45 om de achterpoten en voetjes te tekenen. Controleer elk nummer zorgvuldig waar de omtrek van richting verandert bij de voeten.",
-            "fact": "De brede poten van een ijsbeer verdelen zijn gewicht over de sneeuw en werken als peddels wanneer hij zwemt."
-          },
-          {
-            "range": "43–56",
-            "title": "De Buik en Voorpoten",
-            "learn": "Verbind de punten 46 tot 60 onder het lichaam en rond de voorpoten. Korte, gecontroleerde lijnen helpen je om de scherpere bochten te volgen.",
-            "fact": "IJsberen hebben een zwarte huid onder een vacht die wit lijkt. Hun vacht helpt hen om op te gaan in een besneeuwd Arctisch landschap."
-          },
-          {
-            "range": "57–70",
-            "title": "De Borstkas en Afwerking",
-            "learn": "Ga verder met punten 61 tot en met 74, omhoog over de borst en terug richting het hoofd. Pauzeer bij het laatste punt en controleer of er geen nummer is overgeslagen.",
-            "fact": "Esdoornbladeren maken voedsel voor de boom met behulp van zonlicht. In de herfst breekt hun groene pigment af en worden andere kleuren gemakkelijker zichtbaar."
+            "q": "Is de printbare Esdoornblad echt gratis?",
+            "a": "Ja — hij is 100% gratis, zonder registratie, account of betaling. Je mag hem printen voor thuis of in de klas."
           }
         ],
-        "outro": "Uitstekend—je Arctische reus is klaar! Laat de vacht wit en voeg bleekblauwe schaduwen toe, of teken een besneeuwde zee-ijs achtergrond. Bezoek <a href=\"https://parks.canada.ca/pn-np/mb/wapusk/nature/faune-animals/mammiferes-mammals/ours-bears/polaire-polar\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Parks Canada's pagina over ijsberen</a> samen met een volwassene om meer te leren, en ontdek daarna meer <a href=\"/canada/\">gratis Canada printables</a>.",
-        "color_schemes": []
+        "dot_guide": {
+          "intro": "IJsberen zwerven over de bevroren kusten en het zee-ijs van het Canadese Noordpoolgebied. Hun dikke vacht, kleine oren en enorme poten helpen hen warm te blijven en zich voort te bewegen over sneeuw, ijs en water. Deze puzzel met 74 stippen volgt een ijsbeer van zijn neus tot zijn brede poten. Begin bij stip 1 en maak de reis, één zorgvuldige lijn tegelijk.",
+          "sections": [
+            {
+              "range": "1–14",
+              "title": "De Neus en het Hoofd",
+              "learn": "Begin bij punt 1 en verbind door naar punt 15 om de neus, snuit en ronde kop te vormen. Houd de lijnen zacht rond het gezicht zodat het profiel van de beer er glad uitziet.",
+              "fact": "De vlag van Canada heeft één gestileerd rood esdoornblad met 11 punten. Leer meer over het ontwerp en de geschiedenis van de vlag op <a href=\"https://www.canada.ca/en/canadian-heritage/services/flag-canada-history.html\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Canadian Heritage</a>."
+            },
+            {
+              "range": "15–28",
+              "title": "De Rug en Schouders",
+              "learn": "Ga verder van punt 16 naar punt 30 langs de stevige schouders en gebogen rug. Probeer deze lange omtrek met vaste lijnen te tekenen in plaats van veel kleine streepjes.",
+              "fact": "IJsberen zijn de grootste landroofdieren van Canada. Volwassen mannetjes kunnen enkele honderden kilo's wegen."
+            },
+            {
+              "range": "29–42",
+              "title": "De Achterpoten",
+              "learn": "Volg de genummerde punten 31 tot en met 45 om de achterpoten en voetjes te tekenen. Controleer elk nummer zorgvuldig waar de omtrek van richting verandert bij de voeten.",
+              "fact": "De brede poten van een ijsbeer verdelen zijn gewicht over de sneeuw en werken als peddels wanneer hij zwemt."
+            },
+            {
+              "range": "43–56",
+              "title": "De Buik en Voorpoten",
+              "learn": "Verbind de punten 46 tot 60 onder het lichaam en rond de voorpoten. Korte, gecontroleerde lijnen helpen je om de scherpere bochten te volgen.",
+              "fact": "IJsberen hebben een zwarte huid onder een vacht die wit lijkt. Hun vacht helpt hen om op te gaan in een besneeuwd Arctisch landschap."
+            },
+            {
+              "range": "57–70",
+              "title": "De Borstkas en Afwerking",
+              "learn": "Ga verder met punten 61 tot en met 74, omhoog over de borst en terug richting het hoofd. Pauzeer bij het laatste punt en controleer of er geen nummer is overgeslagen.",
+              "fact": "Esdoornbladeren maken voedsel voor de boom met behulp van zonlicht. In de herfst breekt hun groene pigment af en worden andere kleuren gemakkelijker zichtbaar."
+            }
+          ],
+          "outro": "Uitstekend—je Arctische reus is klaar! Laat de vacht wit en voeg bleekblauwe schaduwen toe, of teken een besneeuwde zee-ijs achtergrond. Bezoek <a href=\"https://parks.canada.ca/pn-np/mb/wapusk/nature/faune-animals/mammiferes-mammals/ours-bears/polaire-polar\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Parks Canada's pagina over ijsberen</a> samen met een volwassene om meer te leren, en ontdek daarna meer <a href=\"/canada/\">gratis Canada printables</a>.",
+          "color_schemes": []
+        }
       }
-    }
-  },
-  {
-    "slug": "canada-polar-bear-dot-to-dot-puzzle",
-    "header": {
-      "title": "Eland Stippen Verbinden — Canadees Werkblad met 89 Stippen",
-      "meta_description": "Ongeveer twee derde van de wereldwijde ijsberen leeft in Canada. Onthul deze Arctische reus door 74 punten met een gratis werkblad voor kinderen van 6–10 jaar.",
-      "og": {
+    },
+    {
+      "slug": "canada-polar-bear-dot-to-dot-puzzle",
+      "header": {
         "title": "Eland Stippen Verbinden — Canadees Werkblad met 89 Stippen",
-        "description": "Ongeveer twee derde van de wereldwijde ijsberen leeft in Canada. Onthul deze Arctische reus door 74 punten met een gratis werkblad voor kinderen van 6–10 jaar.",
-        "image_alt": "Krachtige ijsbeer die over Arctisch ijs loopt, gevormd door 74 punten op een printbare PDF"
+        "meta_description": "Ongeveer twee derde van de wereldwijde ijsberen leeft in Canada. Onthul deze Arctische reus door 74 punten met een gratis werkblad voor kinderen van 6–10 jaar.",
+        "og": {
+          "title": "Eland Stippen Verbinden — Canadees Werkblad met 89 Stippen",
+          "description": "Ongeveer twee derde van de wereldwijde ijsberen leeft in Canada. Onthul deze Arctische reus door 74 punten met een gratis werkblad voor kinderen van 6–10 jaar.",
+          "image_alt": "Krachtige ijsbeer die over Arctisch ijs loopt, gevormd door 74 punten op een printbare PDF"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "IJsbeer",
+          "description": "Ongeveer twee derde van de wereldwijde ijsberen leeft in Canada. Onthul deze Arctische reus door 74 punten met een gratis werkblad voor kinderen van 6–10 jaar.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
       },
-      "json_ld": {
-        "type": "CreativeWork",
+      "body": {
+        "h1": "IJsbeer Dot to Dot Printbaar, 74 Arctische Punten Gratis",
         "name": "IJsbeer",
-        "description": "Ongeveer twee derde van de wereldwijde ijsberen leeft in Canada. Onthul deze Arctische reus door 74 punten met een gratis werkblad voor kinderen van 6–10 jaar.",
-        "image": "",
-        "educational_use": "Fine motor skills, number sequencing",
-        "age_range": ""
-      }
-    },
-    "body": {
-      "h1": "IJsbeer Dot to Dot Printbaar, 74 Arctische Punten Gratis",
-      "name": "IJsbeer",
-      "tagline": "Een Reus van Canada's Arctische Gebied",
-      "description": "Verbind 74 punten om een krachtige ijsbeer te onthullen. Deze middelgrote printbare oefening geeft kinderen de kans om nummervolgorde te oefenen terwijl ze kennismaken met een dier dat speciaal is aangepast aan het leven op Arctisch zee-ijs.",
-      "fun_fact": "Ongeveer twee derde van de wereldwijde ijsberen leeft in Canada.",
-      "dot_guide": {
-        "intro": "Een eland kan er bijna prehistorisch uitzien wanneer hij uit een Canadees bos tevoorschijn komt: lange poten, een zware snuit en brede geweien die boven zijn hoofd uitsteken. Elanden zijn sterke zwemmers en voelen zich thuis rond meren, wetlands en beboste gebieden. Deze 89-punt puzzel bevat veel bochten, vooral rond de geweien, dus slijp je potlood, zoek punt 1 en tel zorgvuldig.",
-        "sections": [
+        "tagline": "Een Reus van Canada's Arctische Gebied",
+        "description": "Verbind 74 punten om een krachtige ijsbeer te onthullen. Deze middelgrote printbare oefening geeft kinderen de kans om nummervolgorde te oefenen terwijl ze kennismaken met een dier dat speciaal is aangepast aan het leven op Arctisch zee-ijs.",
+        "fun_fact": "Ongeveer twee derde van de wereldwijde ijsberen leeft in Canada.",
+        "faqs": [
           {
-            "range": "1–15",
-            "title": "De Snuit en Het Gezicht",
-            "learn": "Begin bij punt 1 en verbind door naar punt 18 om de lange snuit en het gezicht van de eland te tekenen. Gebruik nette, korte lijnen rond het neus- en ooggebied.",
-            "fact": "De brede snuit van een eland helpt hem om takjes, bladeren en waterplanten te verzamelen. Elanden zijn herbivoren, wat betekent dat ze planten eten."
+            "q": "Voor welke leeftijd is de punt-naar-punt-puzzel IJsbeer?",
+            "a": "Hij is ontworpen voor de leeftijd Leeftijden 6-10. Met 74 punten is hij geschikt voor kinderen die vlot tot 74 kunnen tellen; jongere kinderen kunnen hem met een beetje hulp afmaken."
           },
           {
-            "range": "16–30",
-            "title": "De Brede Geweien",
-            "learn": "Ga verder van punt 19 naar punt 36 langs de vertakkende geweitakken. Dit is het lastigste gedeelte, dus zoek eerst het volgende nummer voordat je elke lijn tekent.",
-            "fact": "Normaal gesproken krijgen alleen mannelijke elanden geweien. Ze werpen deze af na het herfstbroedseizoen en groeien het volgende jaar een nieuwe set aan."
+            "q": "Hoe print ik het werkblad IJsbeer?",
+            "a": "Klik op de downloadknop voor de gratis PDF en print hem daarna op gewoon papier (A4 of US Letter) vanuit elke browser of PDF-lezer. Er is geen speciale software nodig."
           },
           {
-            "range": "31–45",
-            "title": "De nek en rug",
-            "learn": "Volg de stippen 37 tot en met 54 langs de nek en over de rug. Laat je potlood soepel de lange boog volgen terwijl het lichaam van het dier tevoorschijn komt.",
-            "fact": "Het losse vel dat onder de keel van een eland hangt, wordt een bel of keelkwab genoemd."
-          },
-          {
-            "range": "46–60",
-            "title": "De Lange Benen",
-            "learn": "Verbind de punten 55 tot 72 rond de achterpoten en buik. De lange, smalle pootvormen vereisen geduldig tellen en gecontroleerde richtingsveranderingen.",
-            "fact": "Lange poten helpen elanden om door diepe sneeuw te stappen en in vijvers te waden om bij waterplanten te komen."
-          },
-          {
-            "range": "61–74",
-            "title": "De Kist en het Laatste Hoef",
-            "learn": "Maak het af door de punten 73 tot en met 89 te verbinden rond de voorpoten en borst. Ga voorzichtig door tot aan de laatste hoef.",
-            "fact": "Zee-ijs is essentieel leefgebied voor de ijsbeer omdat het een platform biedt voor het jagen op zeehonden. Lees het soortenprofiel van <a href=\"https://www.canada.ca/en/environment-climate-change/services/species-risk-public-registry/cosewic-assessments-status-reports/polar-bear-2018.html\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Milieu en Klimaatverandering Canada</a>."
+            "q": "Is de printbare IJsbeer echt gratis?",
+            "a": "Ja — hij is 100% gratis, zonder registratie, account of betaling. Je mag hem printen voor thuis of in de klas."
           }
         ],
-        "outro": "Uitstekend—je Arctische reus is compleet! Laat de vacht wit en voeg lichte blauwe schaduwen toe, of teken een achtergrond van sneeuwbedekte zee-ijs. Bezoek de <a href=\"https://parks.canada.ca/pn-np/mb/wapusk/nature/faune-animals/mammiferes-mammals/ours-bears/polaire-polar\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">polaire berenpagina van Parks Canada</a> met een volwassene om meer te leren, en verken dan meer <a href=\"/canada/\">gratis Canada printables</a>.",
-        "color_schemes": []
+        "dot_guide": {
+          "intro": "Een eland kan er bijna prehistorisch uitzien wanneer hij uit een Canadees bos tevoorschijn komt: lange poten, een zware snuit en brede geweien die boven zijn hoofd uitsteken. Elanden zijn sterke zwemmers en voelen zich thuis rond meren, wetlands en beboste gebieden. Deze 89-punt puzzel bevat veel bochten, vooral rond de geweien, dus slijp je potlood, zoek punt 1 en tel zorgvuldig.",
+          "sections": [
+            {
+              "range": "1–15",
+              "title": "De Snuit en Het Gezicht",
+              "learn": "Begin bij punt 1 en verbind door naar punt 18 om de lange snuit en het gezicht van de eland te tekenen. Gebruik nette, korte lijnen rond het neus- en ooggebied.",
+              "fact": "De brede snuit van een eland helpt hem om takjes, bladeren en waterplanten te verzamelen. Elanden zijn herbivoren, wat betekent dat ze planten eten."
+            },
+            {
+              "range": "16–30",
+              "title": "De Brede Geweien",
+              "learn": "Ga verder van punt 19 naar punt 36 langs de vertakkende geweitakken. Dit is het lastigste gedeelte, dus zoek eerst het volgende nummer voordat je elke lijn tekent.",
+              "fact": "Normaal gesproken krijgen alleen mannelijke elanden geweien. Ze werpen deze af na het herfstbroedseizoen en groeien het volgende jaar een nieuwe set aan."
+            },
+            {
+              "range": "31–45",
+              "title": "De nek en rug",
+              "learn": "Volg de stippen 37 tot en met 54 langs de nek en over de rug. Laat je potlood soepel de lange boog volgen terwijl het lichaam van het dier tevoorschijn komt.",
+              "fact": "Het losse vel dat onder de keel van een eland hangt, wordt een bel of keelkwab genoemd."
+            },
+            {
+              "range": "46–60",
+              "title": "De Lange Benen",
+              "learn": "Verbind de punten 55 tot 72 rond de achterpoten en buik. De lange, smalle pootvormen vereisen geduldig tellen en gecontroleerde richtingsveranderingen.",
+              "fact": "Lange poten helpen elanden om door diepe sneeuw te stappen en in vijvers te waden om bij waterplanten te komen."
+            },
+            {
+              "range": "61–74",
+              "title": "De Kist en het Laatste Hoef",
+              "learn": "Maak het af door de punten 73 tot en met 89 te verbinden rond de voorpoten en borst. Ga voorzichtig door tot aan de laatste hoef.",
+              "fact": "Zee-ijs is essentieel leefgebied voor de ijsbeer omdat het een platform biedt voor het jagen op zeehonden. Lees het soortenprofiel van <a href=\"https://www.canada.ca/en/environment-climate-change/services/species-risk-public-registry/cosewic-assessments-status-reports/polar-bear-2018.html\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Milieu en Klimaatverandering Canada</a>."
+            }
+          ],
+          "outro": "Uitstekend—je Arctische reus is compleet! Laat de vacht wit en voeg lichte blauwe schaduwen toe, of teken een achtergrond van sneeuwbedekte zee-ijs. Bezoek de <a href=\"https://parks.canada.ca/pn-np/mb/wapusk/nature/faune-animals/mammiferes-mammals/ours-bears/polaire-polar\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">polaire berenpagina van Parks Canada</a> met een volwassene om meer te leren, en verken dan meer <a href=\"/canada/\">gratis Canada printables</a>.",
+          "color_schemes": []
+        }
       }
-    }
-  },
-  {
-    "slug": "canada-moose-dot-to-dot-puzzle",
-    "header": {
-      "title": "Wasbeer Werkblad Stippen Verbinden: 90 Stippen voor Groep 4-7",
-      "meta_description": "Brede geweien sieren het grootste lid van de familie van de herten. Volg een pad van 89 punten om deze gratis elandprintbare voor kinderen van 6–10 jaar te voltooien.",
-      "og": {
+    },
+    {
+      "slug": "canada-moose-dot-to-dot-puzzle",
+      "header": {
         "title": "Wasbeer Werkblad Stippen Verbinden: 90 Stippen voor Groep 4-7",
-        "description": "Brede geweien sieren het grootste lid van de familie van de herten. Volg een pad van 89 punten om deze gratis elandprintbare voor kinderen van 6–10 jaar te voltooien.",
-        "image_alt": "Nieuwsgierige wasbeer met gemaskerd gezicht en gestreepte staart verstopt in 90 printbare stippen"
+        "meta_description": "Brede geweien sieren het grootste lid van de familie van de herten. Volg een pad van 89 punten om deze gratis elandprintbare voor kinderen van 6–10 jaar te voltooien.",
+        "og": {
+          "title": "Wasbeer Werkblad Stippen Verbinden: 90 Stippen voor Groep 4-7",
+          "description": "Brede geweien sieren het grootste lid van de familie van de herten. Volg een pad van 89 punten om deze gratis elandprintbare voor kinderen van 6–10 jaar te voltooien.",
+          "image_alt": "Nieuwsgierige wasbeer met gemaskerd gezicht en gestreepte staart verstopt in 90 printbare stippen"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Elk",
+          "description": "Brede geweien sieren het grootste lid van de familie van de herten. Volg een pad van 89 punten om deze gratis elandprintbare voor kinderen van 6–10 jaar te voltooien.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
       },
-      "json_ld": {
-        "type": "CreativeWork",
+      "body": {
+        "h1": "Eland Dot to Dot — een 89-Punten Canadese Printbare PDF",
         "name": "Elk",
-        "description": "Brede geweien sieren het grootste lid van de familie van de herten. Volg een pad van 89 punten om deze gratis elandprintbare voor kinderen van 6–10 jaar te voltooien.",
-        "image": "",
-        "educational_use": "Fine motor skills, number sequencing",
-        "age_range": ""
-      }
-    },
-    "body": {
-      "h1": "Eland Dot to Dot — een 89-Punten Canadese Printbare PDF",
-      "name": "Elk",
-      "tagline": "Canada's Torenhoge Bosreus",
-      "description": "Verbind 89 punten om een magnifieke eland met brede gewei te voltooien. Deze middelgrote puzzel bouwt de focus op tellen en potloodcontrole op terwijl kinderen een van Canada's meest herkenbare wilde dieren ontdekken.",
-      "fun_fact": "Raccoons have very sensitive front paws that help them explore their surroundings.",
-      "dot_guide": {
-        "intro": "Met een donker masker over zijn gezicht en ringen rond zijn staart is een wasbeer gemakkelijk te herkennen. Deze aanpasbare zoogdieren leven in Canadese bossen, moerassen, boerderijen en steden. Ze zijn vooral actief na zonsondergang en gebruiken hun behendige voorpoten om te verkennen. Deze 90-puntspuzzel is een langere uitdaging, dus begin bij punt 1 en bouw de wasbeer stap voor stap op.",
-        "sections": [
+        "tagline": "Canada's Torenhoge Bosreus",
+        "description": "Verbind 89 punten om een magnifieke eland met brede gewei te voltooien. Deze middelgrote puzzel bouwt de focus op tellen en potloodcontrole op terwijl kinderen een van Canada's meest herkenbare wilde dieren ontdekken.",
+        "fun_fact": "Raccoons have very sensitive front paws that help them explore their surroundings.",
+        "faqs": [
           {
-            "range": "1–18",
-            "title": "De Oren en het Gemaskerde Gezicht",
-            "learn": "Begin bij punt 1 en verbind door naar punt 18 om de puntige oren en ronde gezicht te omtrekken. Houd de bochten netjes zodat de alerte uitdrukking van de wasbeer goed naar voren komt.",
-            "fact": "Het donkere haar rond de ogen van een wasbeer vermindert schittering en creëert de maskerachtige markering die het dier zo herkenbaar maakt."
+            "q": "Voor welke leeftijd is de punt-naar-punt-puzzel Elk?",
+            "a": "Hij is ontworpen voor de leeftijd Leeftijden 6-10. Met 89 punten is hij geschikt voor kinderen die vlot tot 89 kunnen tellen; jongere kinderen kunnen hem met een beetje hulp afmaken."
           },
           {
-            "range": "19–36",
-            "title": "De Rug",
-            "learn": "Ga verder van punt 19 naar punt 36 langs de schouders en de zacht gebogen rug. Een vloeiende lijn geeft de wasbeer een zachte, harige silhouet.",
-            "fact": "Wasberen zijn voornamelijk nachtdieren, wat betekent dat ze meestal 's nachts actief zijn en overdag rusten."
+            "q": "Hoe print ik het werkblad Elk?",
+            "a": "Klik op de downloadknop voor de gratis PDF en print hem daarna op gewoon papier (A4 of US Letter) vanuit elke browser of PDF-lezer. Er is geen speciale software nodig."
           },
           {
-            "range": "37–54",
-            "title": "De Geringde Staart",
-            "learn": "Volg de stippellijn van 37 naar 54 rond de dikke staart. Volg eerst de buitenste bocht; je kunt donkere en lichte ringen toevoegen wanneer het tijd is om in te kleuren.",
-            "fact": "De pluimstaart van een wasbeer heeft meestal verschillende donkere ringen en helpt het dier bij het balanceren tijdens het klimmen."
-          },
-          {
-            "range": "55–72",
-            "title": "De Poten en Buik",
-            "learn": "Verbind de punten 55 tot 72 rond de achterpoten en buik. Wees extra voorzichtig waar de nummers dicht bij elkaar zitten bij de tenen.",
-            "fact": "Wasberen hebben voorpoten met vijf lange tenen. Hun gevoelige poten zijn handig voor het hanteren van voedsel en het klimmen in bomen."
-          },
-          {
-            "range": "73–89",
-            "title": "De Borst en Afwerking",
-            "learn": "Voltooi de puzzel met punten 73 tot en met 90, teken eerst de voorpoten en borst voordat je teruggaat naar het gezicht. Negentig is de finishlijn—goed gedaan!",
-            "fact": "Elk zijn capabele zwemmers en kunnen door water reizen om te voeden of gevaar te ontvluchten. Vind meer informatie over Canadese wilde dieren op <a href=\"https://parks.canada.ca/pn-np/mb/wapusk/nature/faune-animals/mammiferes-mammals\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">de zoogdierenhandleiding van Parks Canada</a>."
+            "q": "Is de printbare Elk echt gratis?",
+            "a": "Ja — hij is 100% gratis, zonder registratie, account of betaling. Je mag hem printen voor thuis of in de klas."
           }
         ],
-        "outro": "Goed gedaan—je gemaskerde ontdekkingsreiziger is klaar! Kleur de vacht grijsbruin, maak het gezichtsmasker en de staartringen donker, en teken een nachtelijk bos of achtertuinscène. Kies dan een andere <a href=\"/canada/\">gratis Canadese puzzel</a> om verder te oefenen.",
-        "color_schemes": []
+        "dot_guide": {
+          "intro": "Met een donker masker over zijn gezicht en ringen rond zijn staart is een wasbeer gemakkelijk te herkennen. Deze aanpasbare zoogdieren leven in Canadese bossen, moerassen, boerderijen en steden. Ze zijn vooral actief na zonsondergang en gebruiken hun behendige voorpoten om te verkennen. Deze 90-puntspuzzel is een langere uitdaging, dus begin bij punt 1 en bouw de wasbeer stap voor stap op.",
+          "sections": [
+            {
+              "range": "1–18",
+              "title": "De Oren en het Gemaskerde Gezicht",
+              "learn": "Begin bij punt 1 en verbind door naar punt 18 om de puntige oren en ronde gezicht te omtrekken. Houd de bochten netjes zodat de alerte uitdrukking van de wasbeer goed naar voren komt.",
+              "fact": "Het donkere haar rond de ogen van een wasbeer vermindert schittering en creëert de maskerachtige markering die het dier zo herkenbaar maakt."
+            },
+            {
+              "range": "19–36",
+              "title": "De Rug",
+              "learn": "Ga verder van punt 19 naar punt 36 langs de schouders en de zacht gebogen rug. Een vloeiende lijn geeft de wasbeer een zachte, harige silhouet.",
+              "fact": "Wasberen zijn voornamelijk nachtdieren, wat betekent dat ze meestal 's nachts actief zijn en overdag rusten."
+            },
+            {
+              "range": "37–54",
+              "title": "De Geringde Staart",
+              "learn": "Volg de stippellijn van 37 naar 54 rond de dikke staart. Volg eerst de buitenste bocht; je kunt donkere en lichte ringen toevoegen wanneer het tijd is om in te kleuren.",
+              "fact": "De pluimstaart van een wasbeer heeft meestal verschillende donkere ringen en helpt het dier bij het balanceren tijdens het klimmen."
+            },
+            {
+              "range": "55–72",
+              "title": "De Poten en Buik",
+              "learn": "Verbind de punten 55 tot 72 rond de achterpoten en buik. Wees extra voorzichtig waar de nummers dicht bij elkaar zitten bij de tenen.",
+              "fact": "Wasberen hebben voorpoten met vijf lange tenen. Hun gevoelige poten zijn handig voor het hanteren van voedsel en het klimmen in bomen."
+            },
+            {
+              "range": "73–89",
+              "title": "De Borst en Afwerking",
+              "learn": "Voltooi de puzzel met punten 73 tot en met 90, teken eerst de voorpoten en borst voordat je teruggaat naar het gezicht. Negentig is de finishlijn—goed gedaan!",
+              "fact": "Elk zijn capabele zwemmers en kunnen door water reizen om te voeden of gevaar te ontvluchten. Vind meer informatie over Canadese wilde dieren op <a href=\"https://parks.canada.ca/pn-np/mb/wapusk/nature/faune-animals/mammiferes-mammals\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">de zoogdierenhandleiding van Parks Canada</a>."
+            }
+          ],
+          "outro": "Goed gedaan—je gemaskerde ontdekkingsreiziger is klaar! Kleur de vacht grijsbruin, maak het gezichtsmasker en de staartringen donker, en teken een nachtelijk bos of achtertuinscène. Kies dan een andere <a href=\"/canada/\">gratis Canadese puzzel</a> om verder te oefenen.",
+          "color_schemes": []
+        }
       }
-    }
-  },
-  {
-    "slug": "canada-raccoon-dot-to-dot-puzzle",
-    "header": {
-      "title": "Wasbeer Verbinden de Punten Werkblad: 90 Punten voor Leeftijd 6-10",
-      "meta_description": "Gevoelige voorpootjes helpen wasberen hun omgeving te onderzoeken. Ontdek het masker en de gestreepte staart over 90 punten in een gratis PDF voor leeftijden 6–10.",
-      "og": {
+    },
+    {
+      "slug": "canada-raccoon-dot-to-dot-puzzle",
+      "header": {
         "title": "Wasbeer Verbinden de Punten Werkblad: 90 Punten voor Leeftijd 6-10",
-        "description": "Gevoelige voorpootjes helpen wasberen hun omgeving te onderzoeken. Ontdek het masker en de gestreepte staart over 90 punten in een gratis PDF voor leeftijden 6–10.",
-        "image_alt": "Nieuwsgierige wasbeer met gemaskerd gezicht en gestreepte staart verborgen in 90 printbare punten"
+        "meta_description": "Gevoelige voorpootjes helpen wasberen hun omgeving te onderzoeken. Ontdek het masker en de gestreepte staart over 90 punten in een gratis PDF voor leeftijden 6–10.",
+        "og": {
+          "title": "Wasbeer Verbinden de Punten Werkblad: 90 Punten voor Leeftijd 6-10",
+          "description": "Gevoelige voorpootjes helpen wasberen hun omgeving te onderzoeken. Ontdek het masker en de gestreepte staart over 90 punten in een gratis PDF voor leeftijden 6–10.",
+          "image_alt": "Nieuwsgierige wasbeer met gemaskerd gezicht en gestreepte staart verborgen in 90 printbare punten"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Wasbeer",
+          "description": "Gevoelige voorpootjes helpen wasberen hun omgeving te onderzoeken. Ontdek het masker en de gestreepte staart over 90 punten in een gratis PDF voor leeftijden 6–10.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
       },
-      "json_ld": {
-        "type": "CreativeWork",
+      "body": {
+        "h1": "Wasbeer Punt tot Punt Werkblad: 90 Punten voor Leeftijd 6-10",
         "name": "Wasbeer",
-        "description": "Gevoelige voorpootjes helpen wasberen hun omgeving te onderzoeken. Ontdek het masker en de gestreepte staart over 90 punten in een gratis PDF voor leeftijden 6–10.",
-        "image": "",
-        "educational_use": "Fine motor skills, number sequencing",
-        "age_range": ""
-      }
-    },
-    "body": {
-      "h1": "Wasbeer Punt tot Punt Werkblad: 90 Punten voor Leeftijd 6-10",
-      "name": "Wasbeer",
-      "tagline": "De Slimme Gemaskerde Ontdekkingsreiziger",
-      "description": "Verbind 90 punten om een nieuwsgierige wasbeer met zijn gestreepte staart en donkere gezichtsmasker te onthullen. Deze middelgrote puzzel beloont zorgvuldig tellen terwijl het een bekende Canadese zoogdier introduceert.",
-      "fun_fact": "Wasberen hebben zeer gevoelige voorpootjes die hen helpen voedsel en objecten te onderzoeken.",
-      "dot_guide": {
-        "intro": "De kano is een van de meest herkenbare vaartuigen in Canada. Inheemse volkeren ontwikkelden geavanceerde kano-ontwerpen die geschikt waren voor lokale wateren en beschikbare materialen, en latere reizigers vertrouwden op kano's om zich door uitgebreide netwerken van rivieren en meren te verplaatsen. Deze 69-punt puzzel volgt de peddel en de lange, sierlijke romp van de kano. Vind punt 1 en begin je reis!",
-        "sections": [
+        "tagline": "De Slimme Gemaskerde Ontdekkingsreiziger",
+        "description": "Verbind 90 punten om een nieuwsgierige wasbeer met zijn gestreepte staart en donkere gezichtsmasker te onthullen. Deze middelgrote puzzel beloont zorgvuldig tellen terwijl het een bekende Canadese zoogdier introduceert.",
+        "fun_fact": "Wasberen hebben zeer gevoelige voorpootjes die hen helpen voedsel en objecten te onderzoeken.",
+        "faqs": [
           {
-            "range": "1–18",
-            "title": "Het Peddel en Bovenste Rand",
-            "learn": "Begin bij punt 1 en verbind door naar punt 14 om de peddel en de bovenrand van de kano te omtrekken. Volg de lange lijn gestaag en controleer elk nummer voordat de boog naar boven buigt.",
-            "fact": "Een peddel heeft een handvat, steel en blad. Het brede blad duwt tegen het water om de kano voort te bewegen en te sturen."
+            "q": "Voor welke leeftijd is de punt-naar-punt-puzzel Wasbeer?",
+            "a": "Hij is ontworpen voor de leeftijd Leeftijden 6-10. Met 90 punten is hij geschikt voor kinderen die vlot tot 90 kunnen tellen; jongere kinderen kunnen hem met een beetje hulp afmaken."
           },
           {
-            "range": "19–36",
-            "title": "De Stijgende Boog",
-            "learn": "Ga verder van punt 15 naar punt 28 langs de hoge voorkant van de kano. Vertraag wanneer de omtrek van richting verandert, zodat de puntige boeg soepel blijft.",
-            "fact": "De boeg is de voorkant van een kano en de achtersteven is de achterkant. Hun verhoogde vormen helpen de boot om door golven en stromend water te varen."
+            "q": "Hoe print ik het werkblad Wasbeer?",
+            "a": "Klik op de downloadknop voor de gratis PDF en print hem daarna op gewoon papier (A4 of US Letter) vanuit elke browser of PDF-lezer. Er is geen speciale software nodig."
           },
           {
-            "range": "37–54",
-            "title": "Het Paddle Blade en de Romp",
-            "learn": "Volg de stippen 29 tot en met 42 rond het peddelblad en de onderkant van de romp. Gebruik gecontroleerde bochten waar de twee vormen dicht bij elkaar komen.",
-            "fact": "De bossige staart van een wasbeer heeft doorgaans verschillende donkere ringen en kan het dier helpen balanceren tijdens het klimmen."
-          },
-          {
-            "range": "55–72",
-            "title": "De Lange Onderzijde",
-            "learn": "Verbind de punten 43 tot 56 langs de vloeiende onderkant. Deze langere tussenruimtes belonen een vaste hand en zorgvuldige visuele volging.",
-            "fact": "Traditionele kano's werden in verschillende vormen gebouwd in inheemse culturen, met materialen zoals berkenbast, ceder, dierenhuiden en zorgvuldig gevormd hout."
-          },
-          {
-            "range": "73–90",
-            "title": "Het achter- en bovendeel",
-            "learn": "Ga verder met punten 57 tot en met 69 rond de achtersteven en terug naar de bovenrand. Tel zorgvuldig tot de laatste punt en controleer of de hele romp verbonden is.",
-            "fact": "Wasberen zijn inheems in Noord-Amerika en zijn opmerkelijk aanpasbaar. Lees meer in <a href=\"https://www.thecanadianencyclopedia.ca/en/article/raccoon\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">de wasberenpagina van de Canadese Encyclopedie</a>."
+            "q": "Is de printbare Wasbeer echt gratis?",
+            "a": "Ja — hij is 100% gratis, zonder registratie, account of betaling. Je mag hem printen voor thuis of in de klas."
           }
         ],
-        "outro": "Goed werk—je gemaskerde ontdekkingsreiziger is compleet! Kleur de vacht grijs-bruin, maak het gezichtsmasker en de staartringen donker, en teken een nachtelijk bos of achtertuin. Kies dan een andere <a href=\"/canada/\">gratis Canada puzzel</a> om verder te oefenen.",
-        "color_schemes": []
+        "dot_guide": {
+          "intro": "De kano is een van de meest herkenbare vaartuigen in Canada. Inheemse volkeren ontwikkelden geavanceerde kano-ontwerpen die geschikt waren voor lokale wateren en beschikbare materialen, en latere reizigers vertrouwden op kano's om zich door uitgebreide netwerken van rivieren en meren te verplaatsen. Deze 69-punt puzzel volgt de peddel en de lange, sierlijke romp van de kano. Vind punt 1 en begin je reis!",
+          "sections": [
+            {
+              "range": "1–18",
+              "title": "Het Peddel en Bovenste Rand",
+              "learn": "Begin bij punt 1 en verbind door naar punt 14 om de peddel en de bovenrand van de kano te omtrekken. Volg de lange lijn gestaag en controleer elk nummer voordat de boog naar boven buigt.",
+              "fact": "Een peddel heeft een handvat, steel en blad. Het brede blad duwt tegen het water om de kano voort te bewegen en te sturen."
+            },
+            {
+              "range": "19–36",
+              "title": "De Stijgende Boog",
+              "learn": "Ga verder van punt 15 naar punt 28 langs de hoge voorkant van de kano. Vertraag wanneer de omtrek van richting verandert, zodat de puntige boeg soepel blijft.",
+              "fact": "De boeg is de voorkant van een kano en de achtersteven is de achterkant. Hun verhoogde vormen helpen de boot om door golven en stromend water te varen."
+            },
+            {
+              "range": "37–54",
+              "title": "Het Paddle Blade en de Romp",
+              "learn": "Volg de stippen 29 tot en met 42 rond het peddelblad en de onderkant van de romp. Gebruik gecontroleerde bochten waar de twee vormen dicht bij elkaar komen.",
+              "fact": "De bossige staart van een wasbeer heeft doorgaans verschillende donkere ringen en kan het dier helpen balanceren tijdens het klimmen."
+            },
+            {
+              "range": "55–72",
+              "title": "De Lange Onderzijde",
+              "learn": "Verbind de punten 43 tot 56 langs de vloeiende onderkant. Deze langere tussenruimtes belonen een vaste hand en zorgvuldige visuele volging.",
+              "fact": "Traditionele kano's werden in verschillende vormen gebouwd in inheemse culturen, met materialen zoals berkenbast, ceder, dierenhuiden en zorgvuldig gevormd hout."
+            },
+            {
+              "range": "73–90",
+              "title": "Het achter- en bovendeel",
+              "learn": "Ga verder met punten 57 tot en met 69 rond de achtersteven en terug naar de bovenrand. Tel zorgvuldig tot de laatste punt en controleer of de hele romp verbonden is.",
+              "fact": "Wasberen zijn inheems in Noord-Amerika en zijn opmerkelijk aanpasbaar. Lees meer in <a href=\"https://www.thecanadianencyclopedia.ca/en/article/raccoon\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">de wasberenpagina van de Canadese Encyclopedie</a>."
+            }
+          ],
+          "outro": "Goed werk—je gemaskerde ontdekkingsreiziger is compleet! Kleur de vacht grijs-bruin, maak het gezichtsmasker en de staartringen donker, en teken een nachtelijk bos of achtertuin. Kies dan een andere <a href=\"/canada/\">gratis Canada puzzel</a> om verder te oefenen.",
+          "color_schemes": []
+        }
       }
     }
-  }
-]
+  ]
+}

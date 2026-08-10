@@ -1,119 +1,300 @@
-[
-  {
-    "slug": "garden-gloves-dot-to-dot-puzzle",
-    "name": "Bahçe Eldivenleri",
-    "seoH1": "Bahçe Eldivenleri Nokta Bağlama — Ücretsiz 54-Nokta Başlangıç Sayfası",
-    "tagline": "Küçük bir bahçe macerasına hazır mısınız?",
-    "description": "54 noktayı birleştirerek bir çift bahçe eldiveni ortaya çıkarın. Bu kolay yazdırılabilir bulmaca, genç öğrenicilerin sayı sıralama, kalem kontrolü ve konsantrasyon pratiği yapmalarına yardımcı olur.",
-    "seoDescription": "Bahçe eldivenleri küçük elleri kirden ve dikenli bitkilerden korur. 4-8 yaş arası çocuklar için bu ücretsiz yazdırılabilir çalışma sayfasında 54 noktayı birleştirin.",
-    "funFact": "Bahçe eldivenleri, toprakla çalışırken elleri çiziklerden, kirden ve dikenli bitkilerden korumaya yardımcı olur.",
-    "seoImageAlt": "54 numaralı noktayla birleştirilmiş bir çift bahçe eldiveni, ücretsiz başlangıç sayfası",
-    "dotGuide": {
-      "intro": "Her bahçıvanın toprağa dokunmadan önce iyi bir çift eldivene ihtiyacı vardır ve bu 54 noktalı bulmaca, her el için birer tane olmak üzere eşleşen bir set çizmenizi sağlar. Dört bölüme ayrılmış, kısa ve eğlenceli bir bulmaca olup tek oturuşta kolayca tamamlanabilir. Önce sol eldiveni, sonra sağ eldiveni, ardından da onları birbirine bağlayan manşetleri tamamlayın. Parmak ucundaki 1 numaralı noktayı bulun ve ellerimizi eldivenlerle kaplayalım.",
-      "sections": [
-        {
-          "range": "1–14",
-          "title": "Sol Eldiven",
-          "learn": "1 numaralı noktadan başlayıp 14 numaralı noktaya kadar ilerleyerek sol eldivenin parmaklarını da içeren ana hatlarını çizin. Küçük parmaklar kısa ve çizmesi zor şekillerdir, bu nedenle tek bir hızlı hareket yerine dikkatli ve acele etmeden çizgiler çizmeye özen gösterin.",
-          "fact": "Bahçe eldivenleri genellikle parmakları sıkıca saracak şekilde yapılır, böylece bahçıvan eldiven engel olmadan küçük tohumları toplayabilir veya ince otları çekebilir."
-        },
-        {
-          "range": "15–27",
-          "title": "Doğru Eldiven",
-          "learn": "15. noktadan 27. noktaya kadar devam ederek eşleşen sağ eldiveni çizin. İlk eldivenin aynısı olduğu için, bu bölüm iki şekli karşılaştırmak ve ilerlemeden önce hizalanıp hizalanmadıklarını kontrol etmek için iyi bir fırsattır.",
-          "fact": "Bahçe işlerinde kullanılan eldivenlerin çoğu, avuç içi ve parmak uçlarında kauçuk veya lateks kaplama bulunan pamuk veya naylon karışımından yapılır. Bu kaplama, aletlerin daha iyi tutulmasını sağlar ve su ile kirin doğrudan içeri girmesini engeller."
-        },
-        {
-          "range": "28–41",
-          "title": "Kelepçeler",
-          "learn": "Her eldivenin tabanına geniş manşetler eklemek için 28 ila 41 arasındaki noktaları takip edin. Bu manşetler eldivenin geri kalanından biraz daha geniş olduğu için, kıvrım boyunca yavaşça ilerleyin.",
-          "fact": "Bahçe eldivenlerindeki geniş manşetler sadece görünüm için değil; bahçıvan kazarken veya budama yaparken kirin, dikenlerin ve böceklerin içeri girmesini de engeller."
-        },
-        {
-          "range": "42–54",
-          "title": "Son Dikişler",
-          "learn": "42 ile 54 arasındaki noktaları birleştirerek dikiş çizgilerini ve her iki eldivendeki son detayları ekleyin. Geriye on üç nokta kaldı - burada istikrarlı ve dikkatli bir bitiş, eldivenlerin gerçekten tamamlanmış görünmesini sağlayacaktır.",
-          "fact": "Parmak ve avuç içlerindeki güçlendirilmiş dikişler, iyi bir bahçe eldiveninin birkaç haftalık kazma işleminden sonra yıpranmak yerine tüm bir büyüme mevsimi boyunca dayanmasını sağlar."
+{
+  "collection": {
+    "header": {
+      "title": "Garden Dot to Dot Printables for Kids — Free PDF Worksheets",
+      "meta_description": "Free garden-themed dot to dot printables for kids ages 4-9: gloves, trowel, and wheelbarrow. Print-ready PDF worksheets for spring gardening units in the USA, UK, and Canada — no sign-up needed.",
+      "og": {
+        "title": "3 Free Garden Dot to Dot Printables",
+        "description": "Garden gloves, trowel, and wheelbarrow — free dot to dot printables, ready to print in seconds.",
+        "image": "/images/garden-gloves-puzzle.webp"
+      },
+      "json_ld": {
+        "type": "CollectionPage",
+        "name": "Bahçe",
+        "description": "Bahçe işlerine başlayın! Noktaları birleştirerek bahçe eldivenlerini, kürekleri ve kullanışlı bahçe aletlerini ortaya çıkarın. Tüm çalışma sayfaları ücretsiz olarak indirilebilir ve yazdırılabilir; hesap gerekmez.",
+        "image": "/images/garden-gloves-puzzle.webp",
+        "main_entity": {
+          "type": "ItemList",
+          "item_source": "puzzles"
         }
-      ],
-      "outro": "Harika iş çıkardınız — bahçe eldivenleriniz çalışmaya hazır! Onları en sevdiğiniz desenle boyayın veya gerçekleri gibi klasik yeşil ve kahverengi tonlarında bırakın. Biraz daha derine inmeye hazır mısınız? Daha fazla ücretsiz bulmaca için <a href=\"/\">noktadan noktaya birleştirme şablonlarımızı</a> deneyin."
+      },
+      "breadcrumb_json_ld": {
+        "type": "BreadcrumbList",
+        "items": [
+          {
+            "position": 1,
+            "name": "Home",
+            "path": "/"
+          },
+          {
+            "position": 2,
+            "name": "Bahçe",
+            "path": "/garden/"
+          }
+        ]
+      }
     },
-    "seoTitle": "Bahçe Eldivenleri Noktaları Birleştir — Ücretsiz 54 Noktalı Başlangıç Sayfası"
+    "body": {
+      "h1": "Çocuklar için Bahçe Temalı Noktaları Birleştirme Çalışma Sayfaları",
+      "name": "Bahçe",
+      "tagline": "Çocuklar neden bahçe temalı noktaları birleştirme bulmacalarını sever?",
+      "description": "Bahçe işlerine başlayın! Noktaları birleştirerek bahçe eldivenlerini, kürekleri ve kullanışlı bahçe aletlerini ortaya çıkarın. Tüm çalışma sayfaları ücretsiz olarak indirilebilir ve yazdırılabilir; hesap gerekmez.",
+      "hero_image": "/images/garden-gloves-puzzle.webp",
+      "slug": "garden",
+      "faqs": [
+        {
+          "q": "Ücretsiz olarak indirilebilen kaç adet bahçe temalı noktadan noktaya birleştirme şablonu var?",
+          "a": "Bahçe kategorisi şu anda 39-85 nokta arasında değişen 3 ücretsiz noktaları birleştirme etkinliği sunmaktadır. Her çalışma sayfası, kayıt olmaya gerek kalmadan anında yazdırmaya hazır PDF (Letter veya A4, dikey veya yatay) olarak indirilebilir."
+        },
+        {
+          "q": "Bahçe temalı noktaları birleştirme bulmacaları ücretsiz olarak yazdırılabilir mi?",
+          "a": "Evet, Bahçe koleksiyonundaki 3 bulmacanın tamamı evde ve sınıfta kullanım için tamamen ücretsizdir. DotToDotFreePrintables.com'da hiçbir zaman hesap, e-posta veya ödeme gerekmez."
+        },
+        {
+          "q": "Bahçe bulmacaları hangi yaş grupları için uygundur?",
+          "a": "39-85 nokta sayısına sahip Garden koleksiyonu, yaklaşık 4-12 yaş aralığını kapsar. Okul öncesi ve anaokulu için daha düşük nokta sayısına sahip olanları, 2-6. sınıflardaki sayma konusunda kendine güvenen çocuklar için ise daha yüksek nokta sayısına sahip olanları tercih edin."
+        },
+        {
+          "q": "Bahçe temalı hangi noktaları birleştirme bulmacaları mevcuttur?",
+          "a": "Üç ücretsiz bahçe temalı yazdırılabilir materyal: Bahçe küreği (39 nokta), bahçe eldiveni (54 nokta) ve el arabası (85 nokta). Bunlar ilkbahar dersleri, bitki üniteleri ve açık hava etkinlikleri temalarıyla uyumludur."
+        }
+      ]
+    }
   },
-  {
-    "slug": "garden-trowel-dot-to-dot-puzzle",
-    "name": "Bahçe Küreği",
-    "seoH1": "Bahçe Küreği Nokta Bağlama: Sadece 39 Nokta, Ücretsiz PDF",
-    "tagline": "Bahçede Küçük Bir Eğlenceye Dalın!",
-    "description": "39 noktayı birleştirerek kullanışlı bir bahçe küreği ortaya çıkarın. Bu kolay yazdırılabilir bulmaca, genç öğrenicilerin sayı sıralama, kalem kontrolü ve konsantrasyon pratiği yapmalarına yardımcı olur.",
-    "seoDescription": "Sadece 39 noktadan oluşan bu bahçe küreği, 2026 koleksiyonumuzdaki en kısa ücretsiz yazdırılabilir noktaları birleştir sayfalarından biri olup 4-7 yaş arası çocuklarda erken kalem kontrolü geliştirir. Ücretsiz A4 PDF'yi yazdırın ve her genç bahçıvanın ihtiyaç duyduğu küreği çizin. Tek oturuşta bitirilir.",
-    "funFact": "Kürek, fide dikmek, küçük çukurlar kazmak ve toprağı taşımak için kullanılan küçük bir el aletidir.",
-    "seoImageAlt": "Sadece 39 numaralı noktadan şekillenen bahçe küreği, başlangıç seviyesi yazdırılabilir önizleme",
-    "dotGuide": {
-      "intro": "Bahçe aletinde en basit araçlardan biri olan mala, bu 39 noktalı bulmacada da aynı basitlikte sunuluyor: üç kısa bölüm ve çocukların hemen tanıyacağı bir şekil. Önce yivli bıçakla başlayın, ardından sapı ona bağlayan boyun kısmını ve son olarak da sapın kendisini bulun. Bıçağın ucundaki 1 numaralı noktayı bulun ve kazmaya başlayalım.",
-      "sections": [
-        {
-          "range": "1–13",
-          "title": "Bıçak",
-          "learn": "1 numaralı noktadan başlayıp 13 numaralı noktaya kadar birleştirerek malaın kavisli, sivri ucunu çizin. Kenarlardan birindeki eğri burada en zor kısım, bu yüzden hızlı ve düz bir çizgi yerine yavaş bir el kullanmanızı öneririz.",
-          "fact": "Mala bıçağı düz değil, kavisli olduğundan, düz bir aletin aksine, toprağı bir delikten tek bir hareketle çıkarabilir; bu da ayrı ayrı kazma ve kaldırma hareketlerine gerek kalmamasını sağlar."
+  "puzzles": [
+    {
+      "slug": "garden-gloves-dot-to-dot-puzzle",
+      "header": {
+        "title": "Bahçe Eldivenleri Noktaları Birleştir — Ücretsiz 54 Noktalı Başlangıç Sayfası",
+        "meta_description": "Bahçe eldivenleri küçük elleri kirden ve dikenli bitkilerden korur. 4-8 yaş arası çocuklar için bu ücretsiz yazdırılabilir çalışma sayfasında 54 noktayı birleştirin.",
+        "og": {
+          "title": "Bahçe Eldivenleri Noktaları Birleştir — Ücretsiz 54 Noktalı Başlangıç Sayfası",
+          "description": "Bahçe eldivenleri küçük elleri kirden ve dikenli bitkilerden korur. 4-8 yaş arası çocuklar için bu ücretsiz yazdırılabilir çalışma sayfasında 54 noktayı birleştirin.",
+          "image_alt": "54 numaralı noktayla birleştirilmiş bir çift bahçe eldiveni, ücretsiz başlangıç sayfası"
         },
-        {
-          "range": "14–26",
-          "title": "Boyun",
-          "learn": "14. noktadan 26. noktaya kadar devam ederek, bıçağın sapla birleştiği dar boyun kısmını çizin. Bu, aletin en ince kısmıdır, bu nedenle çizgileri birbirine yakın ve kontrollü tutun.",
-          "fact": "Kazma küreğinin sap kısmı genellikle aletin en sağlam bölümüdür, çünkü kazma işleminden kaynaklanan tüm itme ve kaldıraç kuvveti bu dar bölümden geçer."
-        },
-        {
-          "range": "27–39",
-          "title": "Sap",
-          "learn": "27 ile 39 arasındaki noktaları birleştirerek, bir bahçıvanın kazarken tuttuğu yuvarlak sapı çizin. Sadece on üç nokta kaldı; burada sağlam ve kendinden emin bir bitiş, aleti tamamlayacaktır.",
-          "fact": "Kürek sapları genellikle uç kısmında biraz daha geniş olacak şekilde şekillendirilir, böylece alet özellikle ıslak toprakta çalışmaktan avuç içleri ıslandığında bahçıvanın elinden kaymaz."
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Bahçe Eldivenleri",
+          "description": "Bahçe eldivenleri küçük elleri kirden ve dikenli bitkilerden korur. 4-8 yaş arası çocuklar için bu ücretsiz yazdırılabilir çalışma sayfasında 54 noktayı birleştirin.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
         }
-      ],
-      "outro": "Harika iş çıkardınız — küreğiniz kazmaya hazır! Bıçağı parlak metal grisi renge boyayın ve sapına istediğiniz parlak bir renk verin. Eğer bunu beğendiyseniz, tamamen farklı bir kazma türü için <a href=\"/dinosaurs/\">dinozor noktadan noktaya birleştirme şablonu</a> koleksiyonumuza göz atın."
-    },
-    "seoTitle": "Bahçe Küreği Noktaları Birleştir: Sadece 39 Nokta, Ücretsiz PDF"
-  },
-  {
-    "slug": "wheelbarrow-playground-dot-to-dot-puzzle",
-    "name": "El arabası oyun alanı",
-    "seoH1": "El Arabası Nokta Bağlama Yazdırılabilir — İzlenecek 85 Nokta",
-    "tagline": "Yükle ve yola koyul!",
-    "description": "85 noktayı birleştirerek sağlam bir bahçe el arabası ortaya çıkarın. Bu orta seviyedeki bulmaca, daha kolay sayfaları tamamlayan çocuklar için harika bir pratik.",
-    "seoDescription": "El arabaları, antik Çin'de 2.000 yıl önce icat edilmiştir. 5-9 yaş arası çocuklar için bu ücretsiz yazdırılabilir PDF ile 85 nokta boyunca bir tane inşa edin.",
-    "funFact": "El arabası, antik Çin'de 2.000 yıl önce icat edilmiştir. İlk versiyonlar birden fazla kişiyi aynı anda taşıyabiliyor ve savaş zamanında askerleri taşımak için bile kullanılıyordu.",
-    "seoImageAlt": "85 nokta boyunca uzanan sağlam bahçe el arabası, yazdırmaya hazır PDF bulmaca",
-    "dotGuide": {
-      "intro": "Seksen beş nokta ve dört bölümden oluşan bu bahçe el arabası bulmacası, en basit bahçe bulmacalarından bir adım öteye gidiyor ancak tek oturuşta bitirilebilecek kadar kolay. Önce tekerleği, sonra tepsiyi, çerçeveyi ve ayakları, son olarak da sapları tamamlayın. Tekerleğin ön tarafındaki 1 numaralı noktayı bulun ve yuvarlamaya başlayalım.",
-      "sections": [
-        {
-          "range": "1–21",
-          "title": "Tekerlek",
-          "learn": "1 numaralı noktadan başlayıp 21 numaralı noktaya kadar uzanarak el arabasının önündeki yuvarlak tekerleği çizin. Dairesel şekiller düz çizgilerden biraz daha fazla özen gerektirir, bu nedenle eğri bir araya gelirken yavaş ve düzgün vuruşlar yapmaya özen gösterin.",
-          "fact": "Ön taraftaki tek tekerlek, el arabasının dar alanlarda kolayca dönmesini sağlar; bu nedenle bahçıvanlar, çiçek yataklarında toprak ve bitki taşımak için iki tekerlekli arabalara kıyasla bu tasarımı hala tercih etmektedirler."
-        },
-        {
-          "range": "22–43",
-          "title": "Tepsi",
-          "learn": "22. noktadan 43. noktaya kadar devam ederek, el arabasının taşıdığı her şeyi tutan geniş, eğimli tepsiyi şekillendirin. Tepsinin açılı kenarları, devrilmesini önler, bu nedenle bu eğimi yakalamak için dikkatlice çizin.",
-          "fact": "Çoğu el arabasının tepsisi önde daralır, arkada genişler. Bu şekil, ağır ve dengesiz bir yükün öne kaymasını ve tekerleğin üzerinden dökülmesini önler."
-        },
-        {
-          "range": "44–64",
-          "title": "Çerçeve ve Ayaklar",
-          "learn": "44. noktadan 64. noktaya kadar çalışarak tepsinin altındaki çerçeveyi ve tepsi dururken onu destekleyen iki ayağı oluşturun. Bu çizgiler daha düz ve istikrarlı, kavisli tepsi bölümünden sonra hoş bir değişiklik.",
-          "fact": "El arabasının arkasındaki iki ayak, yalnızca park halindeyken yere temas eder. Kolları kaldırdığınızda, tüm ağırlık tek tekerleğe doğru kayar; bu da dolu bir yükü itmeyi çok daha kolay hale getirir."
-        },
-        {
-          "range": "65–85",
-          "title": "Kulplar",
-          "learn": "65 ile 85 arasındaki noktaları birleştirerek, bir bahçıvanın yükü yönlendirmek ve kaldırmak için tuttuğu iki tutamağı çizin. Son bölümde yirmi bir nokta kaldı - çizgileri düzgün tutun ve güçlü bir şekilde bitirin.",
-          "fact": "Uzun saplar kaldıraç görevi görür. Bu sayede bir kişi, aksi takdirde elle taşınması çok ağır veya hantal olacak bir yükü kaldırıp dengeleyebilir; el arabasının çalışma prensibinin temelinde de bu yatmaktadır."
+      },
+      "body": {
+        "h1": "Bahçe Eldivenleri Nokta Bağlama — Ücretsiz 54-Nokta Başlangıç Sayfası",
+        "name": "Bahçe Eldivenleri",
+        "tagline": "Küçük bir bahçe macerasına hazır mısınız?",
+        "description": "54 noktayı birleştirerek bir çift bahçe eldiveni ortaya çıkarın. Bu kolay yazdırılabilir bulmaca, genç öğrenicilerin sayı sıralama, kalem kontrolü ve konsantrasyon pratiği yapmalarına yardımcı olur.",
+        "fun_fact": "Bahçe eldivenleri, toprakla çalışırken elleri çiziklerden, kirden ve dikenli bitkilerden korumaya yardımcı olur.",
+        "faqs": [
+          {
+            "q": "Bahçe Eldivenleri noktadan noktaya birleştirme bulmacasında kaç nokta var?",
+            "a": "Bahçe Eldivenleri Noktaları Birleştirme etkinliği, 54 numaralı noktadan oluşmaktadır. Bu da onu kolaydan orta zorluğa kadar bir bulmaca haline getirir ve 5-8 yaş arası (anaokulundan 2. sınıfa kadar) çocuklar için en uygunudur. Çocuklar noktaları numara sırasına göre birleştirerek tamamlanmış bahçe eldivenleri resmini ortaya çıkarır ve ardından boyarlar."
+          },
+          {
+            "q": "Bahçe Eldivenleri temalı noktadan noktaya birleştirme şablonu ücretsiz mi?",
+            "a": "Evet. Bahçe Eldivenleri çalışma sayfası DotToDotFreePrintables.com adresinden %100 ücretsiz olarak indirilebilir; hesap, e-posta veya ödeme gerekmez. Hem dikey hem de yatay yönlendirmede, ABD Letter veya A4 kağıt boyutuna uygun, yazdırmaya hazır bir PDF olarak anında indirilir."
+          },
+          {
+            "q": "Bahçe Eldivenleri Noktaları Birleştirme çalışma sayfası hangi yaş grubu için en uygundur?",
+            "a": "54 noktadan oluşan Bahçe Eldivenleri yapbozu, 5-8 yaş arası (anaokulundan 2. sınıfa kadar) çocuklar için en uygundur. Daha küçük çocuklar, yetişkinlerin sayma konusunda hafif yardımıyla keyif alabilirken, sayma konusunda kendine güvenen çocuklar bağımsız olarak tamamlayabilir ve 54'e kadar sayı sıralaması pratiği yapabilirler."
+          },
+          {
+            "q": "Bahçe Eldivenleri noktadan noktaya birleştirme bulmacası hangi becerileri öğretiyor?",
+            "a": "Bahçe Eldivenleri yapbozunun 54 noktasını birleştirmek, sayı tanıma ve 54'e kadar sayma, kalem kontrolü, el-göz koordinasyonu ve sürekli odaklanma gibi ince motor becerilerinin temellerini geliştirir; bu beceriler, erken dönemde el yazısını da destekler. Tamamlanmış resmi boyamak ise yaratıcı bir ödül sunar."
+          },
+          {
+            "q": "Bahçe eldivenleriyle ilgili ilginç bir bilgi nedir?",
+            "a": "Bahçe eldivenleri, toprakla çalışırken elleri çiziklerden, kirden ve dikenli bitkilerden korumaya yardımcı olur. Çocuklar, Bahçe Eldivenleri noktadan noktaya birleştirme bulmacasını tamamlarken bunun gibi gerçekleri keşfederler."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Her bahçıvanın toprağa dokunmadan önce iyi bir çift eldivene ihtiyacı vardır ve bu 54 noktalı bulmaca, her el için birer tane olmak üzere eşleşen bir set çizmenizi sağlar. Dört bölüme ayrılmış, kısa ve eğlenceli bir bulmaca olup tek oturuşta kolayca tamamlanabilir. Önce sol eldiveni, sonra sağ eldiveni, ardından da onları birbirine bağlayan manşetleri tamamlayın. Parmak ucundaki 1 numaralı noktayı bulun ve ellerimizi eldivenlerle kaplayalım.",
+          "sections": [
+            {
+              "range": "1–14",
+              "title": "Sol Eldiven",
+              "learn": "1 numaralı noktadan başlayıp 14 numaralı noktaya kadar ilerleyerek sol eldivenin parmaklarını da içeren ana hatlarını çizin. Küçük parmaklar kısa ve çizmesi zor şekillerdir, bu nedenle tek bir hızlı hareket yerine dikkatli ve acele etmeden çizgiler çizmeye özen gösterin.",
+              "fact": "Bahçe eldivenleri genellikle parmakları sıkıca saracak şekilde yapılır, böylece bahçıvan eldiven engel olmadan küçük tohumları toplayabilir veya ince otları çekebilir."
+            },
+            {
+              "range": "15–27",
+              "title": "Doğru Eldiven",
+              "learn": "15. noktadan 27. noktaya kadar devam ederek eşleşen sağ eldiveni çizin. İlk eldivenin aynısı olduğu için, bu bölüm iki şekli karşılaştırmak ve ilerlemeden önce hizalanıp hizalanmadıklarını kontrol etmek için iyi bir fırsattır.",
+              "fact": "Bahçe işlerinde kullanılan eldivenlerin çoğu, avuç içi ve parmak uçlarında kauçuk veya lateks kaplama bulunan pamuk veya naylon karışımından yapılır. Bu kaplama, aletlerin daha iyi tutulmasını sağlar ve su ile kirin doğrudan içeri girmesini engeller."
+            },
+            {
+              "range": "28–41",
+              "title": "Kelepçeler",
+              "learn": "Her eldivenin tabanına geniş manşetler eklemek için 28 ila 41 arasındaki noktaları takip edin. Bu manşetler eldivenin geri kalanından biraz daha geniş olduğu için, kıvrım boyunca yavaşça ilerleyin.",
+              "fact": "Bahçe eldivenlerindeki geniş manşetler sadece görünüm için değil; bahçıvan kazarken veya budama yaparken kirin, dikenlerin ve böceklerin içeri girmesini de engeller."
+            },
+            {
+              "range": "42–54",
+              "title": "Son Dikişler",
+              "learn": "42 ile 54 arasındaki noktaları birleştirerek dikiş çizgilerini ve her iki eldivendeki son detayları ekleyin. Geriye on üç nokta kaldı - burada istikrarlı ve dikkatli bir bitiş, eldivenlerin gerçekten tamamlanmış görünmesini sağlayacaktır.",
+              "fact": "Parmak ve avuç içlerindeki güçlendirilmiş dikişler, iyi bir bahçe eldiveninin birkaç haftalık kazma işleminden sonra yıpranmak yerine tüm bir büyüme mevsimi boyunca dayanmasını sağlar."
+            }
+          ],
+          "outro": "Harika iş çıkardınız — bahçe eldivenleriniz çalışmaya hazır! Onları en sevdiğiniz desenle boyayın veya gerçekleri gibi klasik yeşil ve kahverengi tonlarında bırakın. Biraz daha derine inmeye hazır mısınız? Daha fazla ücretsiz bulmaca için <a href=\"/\">noktadan noktaya birleştirme şablonlarımızı</a> deneyin.",
+          "color_schemes": []
         }
-      ],
-      "outro": "İşte bahçe için hazır, tıka basa dolu bir el arabası! Tepsiyi toprak kahverengisine boyayın veya klasik bir el arabası gibi parlak kırmızıya boyayın, ardından kendi tasarımınız olan çiçekleri veya sebzeleri üzerine doldurun. Daha büyük bir şey mi istiyorsunuz? O zaman <a href=\"/playgrounds/roller-coaster-playground-dot-to-dot-puzzle/\">lunapark treni oyun alanı bulmacamızı</a> deneyin."
+      }
     },
-    "seoTitle": "El Arabası Noktaları Birleştir Sayfası — Çizilecek 85 Nokta"
-  }
-]
+    {
+      "slug": "garden-trowel-dot-to-dot-puzzle",
+      "header": {
+        "title": "Bahçe Küreği Noktaları Birleştir: Sadece 39 Nokta, Ücretsiz PDF",
+        "meta_description": "Sadece 39 noktadan oluşan bu bahçe küreği, 2026 koleksiyonumuzdaki en kısa ücretsiz yazdırılabilir noktaları birleştir sayfalarından biri olup 4-7 yaş arası çocuklarda erken kalem kontrolü geliştirir. Ücretsiz A4 PDF'yi yazdırın ve her genç bahçıvanın ihtiyaç duyduğu küreği çizin. Tek oturuşta bitirilir.",
+        "og": {
+          "title": "Bahçe Küreği Noktaları Birleştir: Sadece 39 Nokta, Ücretsiz PDF",
+          "description": "Sadece 39 noktadan oluşan bu bahçe küreği, 2026 koleksiyonumuzdaki en kısa ücretsiz yazdırılabilir noktaları birleştir sayfalarından biri olup 4-7 yaş arası çocuklarda erken kalem kontrolü geliştirir. Ücretsiz A4 PDF'yi yazdırın ve her genç bahçıvanın ihtiyaç duyduğu küreği çizin. Tek oturuşta bitirilir.",
+          "image_alt": "Sadece 39 numaralı noktadan şekillenen bahçe küreği, başlangıç seviyesi yazdırılabilir önizleme"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Bahçe Küreği",
+          "description": "Sadece 39 noktadan oluşan bu bahçe küreği, 2026 koleksiyonumuzdaki en kısa ücretsiz yazdırılabilir noktaları birleştir sayfalarından biri olup 4-7 yaş arası çocuklarda erken kalem kontrolü geliştirir. Ücretsiz A4 PDF'yi yazdırın ve her genç bahçıvanın ihtiyaç duyduğu küreği çizin. Tek oturuşta bitirilir.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
+      },
+      "body": {
+        "h1": "Bahçe Küreği Nokta Bağlama: Sadece 39 Nokta, Ücretsiz PDF",
+        "name": "Bahçe Küreği",
+        "tagline": "Bahçede Küçük Bir Eğlenceye Dalın!",
+        "description": "39 noktayı birleştirerek kullanışlı bir bahçe küreği ortaya çıkarın. Bu kolay yazdırılabilir bulmaca, genç öğrenicilerin sayı sıralama, kalem kontrolü ve konsantrasyon pratiği yapmalarına yardımcı olur.",
+        "fun_fact": "Kürek, fide dikmek, küçük çukurlar kazmak ve toprağı taşımak için kullanılan küçük bir el aletidir.",
+        "faqs": [
+          {
+            "q": "Bahçe küreğiyle yapılan noktadan noktaya birleştirme bulmacasında kaç nokta var?",
+            "a": "Bahçe küreği temalı noktaları birleştirme etkinliğinde 39 numaralı nokta bulunmaktadır. Bu da onu 4-6 yaş arası (okul öncesi ve anaokulu) çocuklar için uygun, kolay bir bulmaca haline getiriyor. Çocuklar noktaları numara sırasına göre birleştirerek tamamlanmış bahçe küreği resmini ortaya çıkarıyor ve ardından resmi boyuyorlar."
+          },
+          {
+            "q": "Bahçe küreği temalı noktadan noktaya birleştirme şablonu ücretsiz mi?",
+            "a": "Evet. Bahçe küreği çalışma sayfası DotToDotFreePrintables.com adresinden %100 ücretsiz olarak indirilebilir; hesap, e-posta veya ödeme gerekmez. Hem dikey hem de yatay yönlendirmede, ABD Letter veya A4 kağıt boyutuna uygun, yazdırmaya hazır bir PDF olarak anında indirilir."
+          },
+          {
+            "q": "Bahçe küreğiyle noktaları birleştirme çalışma sayfası hangi yaş grubu için en uygundur?",
+            "a": "39 noktadan oluşan Bahçe Küreği yapbozu, 4-6 yaş arası (okul öncesi ve anaokulu) çocuklar için en uygundur. Daha küçük çocuklar, sayma konusunda yetişkinlerin hafif yardımıyla keyif alabilirken, sayma konusunda kendine güvenen çocuklar bağımsız olarak tamamlayabilir ve 39'a kadar sayı sıralaması pratiği yapabilirler."
+          },
+          {
+            "q": "Bahçe küreğiyle yapılan noktadan noktaya birleştirme bulmacası hangi becerileri öğretiyor?",
+            "a": "Bahçe küreği bulmacasının 39 noktasını birleştirmek, sayı tanıma ve 39'a kadar sayma, kalem kontrolü, el-göz koordinasyonu ve sürekli odaklanma gibi ince motor becerilerinin temellerini geliştirir; bu beceriler, erken dönemde el yazısını da destekler. Tamamlanmış resmi boyamak ise yaratıcı bir ödül sunar."
+          },
+          {
+            "q": "Bahçe küreğiyle ilgili ilginç bir bilgi nedir?",
+            "a": "Kürek, fide dikmek, küçük çukurlar kazmak ve toprağı taşımak için kullanılan küçük bir el aletidir. Çocuklar, Bahçe Küreği noktadan noktaya birleştirme bulmacasını tamamlarken bu gibi gerçekleri keşfederler."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Bahçe aletinde en basit araçlardan biri olan mala, bu 39 noktalı bulmacada da aynı basitlikte sunuluyor: üç kısa bölüm ve çocukların hemen tanıyacağı bir şekil. Önce yivli bıçakla başlayın, ardından sapı ona bağlayan boyun kısmını ve son olarak da sapın kendisini bulun. Bıçağın ucundaki 1 numaralı noktayı bulun ve kazmaya başlayalım.",
+          "sections": [
+            {
+              "range": "1–13",
+              "title": "Bıçak",
+              "learn": "1 numaralı noktadan başlayıp 13 numaralı noktaya kadar birleştirerek malaın kavisli, sivri ucunu çizin. Kenarlardan birindeki eğri burada en zor kısım, bu yüzden hızlı ve düz bir çizgi yerine yavaş bir el kullanmanızı öneririz.",
+              "fact": "Mala bıçağı düz değil, kavisli olduğundan, düz bir aletin aksine, toprağı bir delikten tek bir hareketle çıkarabilir; bu da ayrı ayrı kazma ve kaldırma hareketlerine gerek kalmamasını sağlar."
+            },
+            {
+              "range": "14–26",
+              "title": "Boyun",
+              "learn": "14. noktadan 26. noktaya kadar devam ederek, bıçağın sapla birleştiği dar boyun kısmını çizin. Bu, aletin en ince kısmıdır, bu nedenle çizgileri birbirine yakın ve kontrollü tutun.",
+              "fact": "Kazma küreğinin sap kısmı genellikle aletin en sağlam bölümüdür, çünkü kazma işleminden kaynaklanan tüm itme ve kaldıraç kuvveti bu dar bölümden geçer."
+            },
+            {
+              "range": "27–39",
+              "title": "Sap",
+              "learn": "27 ile 39 arasındaki noktaları birleştirerek, bir bahçıvanın kazarken tuttuğu yuvarlak sapı çizin. Sadece on üç nokta kaldı; burada sağlam ve kendinden emin bir bitiş, aleti tamamlayacaktır.",
+              "fact": "Kürek sapları genellikle uç kısmında biraz daha geniş olacak şekilde şekillendirilir, böylece alet özellikle ıslak toprakta çalışmaktan avuç içleri ıslandığında bahçıvanın elinden kaymaz."
+            }
+          ],
+          "outro": "Harika iş çıkardınız — küreğiniz kazmaya hazır! Bıçağı parlak metal grisi renge boyayın ve sapına istediğiniz parlak bir renk verin. Eğer bunu beğendiyseniz, tamamen farklı bir kazma türü için <a href=\"/dinosaurs/\">dinozor noktadan noktaya birleştirme şablonu</a> koleksiyonumuza göz atın.",
+          "color_schemes": []
+        }
+      }
+    },
+    {
+      "slug": "wheelbarrow-playground-dot-to-dot-puzzle",
+      "header": {
+        "title": "El Arabası Noktaları Birleştir Sayfası — Çizilecek 85 Nokta",
+        "meta_description": "El arabaları, antik Çin'de 2.000 yıl önce icat edilmiştir. 5-9 yaş arası çocuklar için bu ücretsiz yazdırılabilir PDF ile 85 nokta boyunca bir tane inşa edin.",
+        "og": {
+          "title": "El Arabası Noktaları Birleştir Sayfası — Çizilecek 85 Nokta",
+          "description": "El arabaları, antik Çin'de 2.000 yıl önce icat edilmiştir. 5-9 yaş arası çocuklar için bu ücretsiz yazdırılabilir PDF ile 85 nokta boyunca bir tane inşa edin.",
+          "image_alt": "85 nokta boyunca uzanan sağlam bahçe el arabası, yazdırmaya hazır PDF bulmaca"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "El arabası oyun alanı",
+          "description": "El arabaları, antik Çin'de 2.000 yıl önce icat edilmiştir. 5-9 yaş arası çocuklar için bu ücretsiz yazdırılabilir PDF ile 85 nokta boyunca bir tane inşa edin.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
+      },
+      "body": {
+        "h1": "El Arabası Nokta Bağlama Yazdırılabilir — İzlenecek 85 Nokta",
+        "name": "El arabası oyun alanı",
+        "tagline": "Yükle ve yola koyul!",
+        "description": "85 noktayı birleştirerek sağlam bir bahçe el arabası ortaya çıkarın. Bu orta seviyedeki bulmaca, daha kolay sayfaları tamamlayan çocuklar için harika bir pratik.",
+        "fun_fact": "El arabası, antik Çin'de 2.000 yıl önce icat edilmiştir. İlk versiyonlar birden fazla kişiyi aynı anda taşıyabiliyor ve savaş zamanında askerleri taşımak için bile kullanılıyordu.",
+        "faqs": [
+          {
+            "q": "El arabası oyun alanı temalı noktadan noktaya birleştirme bulmacasında kaç nokta var?",
+            "a": "El arabası oyun alanı temalı noktaları birleştirme etkinliği, 85 numaralı noktadan oluşmaktadır. Bu da onu 6-9 yaş arası (1. ila 3. sınıf) çocuklar için en uygun orta zorlukta bir bulmaca haline getirir. Çocuklar, tamamlanmış el arabası oyun alanı resmini ortaya çıkarmak için noktaları numara sırasına göre birleştirir ve ardından boyarlar."
+          },
+          {
+            "q": "El arabası oyun alanı temalı noktadan noktaya birleştirme şablonu ücretsiz mi?",
+            "a": "Evet. El Arabası Oyun Alanı çalışma sayfası DotToDotFreePrintables.com adresinden %100 ücretsiz olarak indirilebilir; hesap, e-posta veya ödeme gerekmez. Hem dikey hem de yatay yönlendirmede, ABD Letter veya A4 kağıt boyutuna uygun, yazdırmaya hazır bir PDF olarak anında indirilir."
+          },
+          {
+            "q": "El arabası oyun alanı temalı noktaları birleştirme çalışma sayfası hangi yaş grubu için en uygundur?",
+            "a": "85 noktadan oluşan El Arabası Oyun Alanı yapbozu, 6-9 yaş arası (1. ila 3. sınıf) çocuklar için en uygundur. Daha küçük çocuklar, yetişkinlerin sayma konusunda hafif yardımıyla keyif alabilirken, sayma konusunda kendine güvenen çocuklar bağımsız olarak tamamlayabilir ve 85'e kadar sayı sıralaması pratiği yapabilirler."
+          },
+          {
+            "q": "El arabası oyun alanı noktadan noktaya birleştirme bulmacası hangi becerileri öğretiyor?",
+            "a": "El arabası oyun alanı bulmacasının 85 noktasını birleştirmek, sayı tanıma ve 85'e kadar sayma, kalem kontrolü, el-göz koordinasyonu ve sürekli odaklanma gibi ince motor becerilerinin temellerini geliştirir; bu beceriler, erken dönemde el yazısını da destekler. Tamamlanmış resmi boyamak ise yaratıcı bir ödül sunar."
+          },
+          {
+            "q": "El arabası oyun alanı hakkında ilginç bir bilgi nedir?",
+            "a": "El arabası, 2000 yıldan fazla önce antik Çin'de icat edildi. İlk versiyonları aynı anda birkaç kişiyi taşıyabiliyordu ve hatta savaş zamanlarında askerleri taşımak için kullanılıyordu. Çocuklar, El Arabası Oyun Alanı noktadan noktaya birleştirme bulmacasını tamamlarken bu gibi gerçekleri keşfediyorlar."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Seksen beş nokta ve dört bölümden oluşan bu bahçe el arabası bulmacası, en basit bahçe bulmacalarından bir adım öteye gidiyor ancak tek oturuşta bitirilebilecek kadar kolay. Önce tekerleği, sonra tepsiyi, çerçeveyi ve ayakları, son olarak da sapları tamamlayın. Tekerleğin ön tarafındaki 1 numaralı noktayı bulun ve yuvarlamaya başlayalım.",
+          "sections": [
+            {
+              "range": "1–21",
+              "title": "Tekerlek",
+              "learn": "1 numaralı noktadan başlayıp 21 numaralı noktaya kadar uzanarak el arabasının önündeki yuvarlak tekerleği çizin. Dairesel şekiller düz çizgilerden biraz daha fazla özen gerektirir, bu nedenle eğri bir araya gelirken yavaş ve düzgün vuruşlar yapmaya özen gösterin.",
+              "fact": "Ön taraftaki tek tekerlek, el arabasının dar alanlarda kolayca dönmesini sağlar; bu nedenle bahçıvanlar, çiçek yataklarında toprak ve bitki taşımak için iki tekerlekli arabalara kıyasla bu tasarımı hala tercih etmektedirler."
+            },
+            {
+              "range": "22–43",
+              "title": "Tepsi",
+              "learn": "22. noktadan 43. noktaya kadar devam ederek, el arabasının taşıdığı her şeyi tutan geniş, eğimli tepsiyi şekillendirin. Tepsinin açılı kenarları, devrilmesini önler, bu nedenle bu eğimi yakalamak için dikkatlice çizin.",
+              "fact": "Çoğu el arabasının tepsisi önde daralır, arkada genişler. Bu şekil, ağır ve dengesiz bir yükün öne kaymasını ve tekerleğin üzerinden dökülmesini önler."
+            },
+            {
+              "range": "44–64",
+              "title": "Çerçeve ve Ayaklar",
+              "learn": "44. noktadan 64. noktaya kadar çalışarak tepsinin altındaki çerçeveyi ve tepsi dururken onu destekleyen iki ayağı oluşturun. Bu çizgiler daha düz ve istikrarlı, kavisli tepsi bölümünden sonra hoş bir değişiklik.",
+              "fact": "El arabasının arkasındaki iki ayak, yalnızca park halindeyken yere temas eder. Kolları kaldırdığınızda, tüm ağırlık tek tekerleğe doğru kayar; bu da dolu bir yükü itmeyi çok daha kolay hale getirir."
+            },
+            {
+              "range": "65–85",
+              "title": "Kulplar",
+              "learn": "65 ile 85 arasındaki noktaları birleştirerek, bir bahçıvanın yükü yönlendirmek ve kaldırmak için tuttuğu iki tutamağı çizin. Son bölümde yirmi bir nokta kaldı - çizgileri düzgün tutun ve güçlü bir şekilde bitirin.",
+              "fact": "Uzun saplar kaldıraç görevi görür. Bu sayede bir kişi, aksi takdirde elle taşınması çok ağır veya hantal olacak bir yükü kaldırıp dengeleyebilir; el arabasının çalışma prensibinin temelinde de bu yatmaktadır."
+            }
+          ],
+          "outro": "İşte bahçe için hazır, tıka basa dolu bir el arabası! Tepsiyi toprak kahverengisine boyayın veya klasik bir el arabası gibi parlak kırmızıya boyayın, ardından kendi tasarımınız olan çiçekleri veya sebzeleri üzerine doldurun. Daha büyük bir şey mi istiyorsunuz? O zaman <a href=\"/playgrounds/roller-coaster-playground-dot-to-dot-puzzle/\">lunapark treni oyun alanı bulmacamızı</a> deneyin.",
+          "color_schemes": []
+        }
+      }
+    }
+  ]
+}

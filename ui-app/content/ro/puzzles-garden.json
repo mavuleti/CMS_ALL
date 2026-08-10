@@ -1,119 +1,300 @@
-[
-  {
-    "slug": "garden-gloves-dot-to-dot-puzzle",
-    "name": "Mănuși de grădină",
-    "seoH1": "Mănuși de Grădină Dot to Dot — Foaie de Start Gratuită cu 54 de Puncte",
-    "tagline": "Gata pentru o mică aventură în grădină!",
-    "description": "Unește 54 de puncte pentru a descoperi o pereche de mănuși de grădinărit. Acest puzzle ușor de imprimat îi ajută pe tinerii cursanți să exerseze secvențierea numerelor, controlul creionului și concentrarea.",
-    "seoDescription": "Această fișă cu 54 de puncte desenează o pereche de mănuși de grădină, ideală pentru copii de 4-8 ani care încep exercițiile de numărare și control al creionului. Perfectă pentru activitățile de primăvară la grădiniță sau acasă — imprimă PDF-ul gratuit și leagă punctele. Suficient de simplă pentru primii pași.",
-    "funFact": "Mănușile de grădină ajută la protejarea mâinilor de zgârieturi, murdărie și plante țepoase în timp ce lucrați în sol.",
-    "seoImageAlt": "Pereche de mănuși de grădină conturată din 54 de puncte numerotate, fișă gratuită pentru începători",
-    "dotGuide": {
-      "intro": "Fiecare grădinar are nevoie de o pereche bună de mănuși înainte de a atinge solul, iar acest puzzle cu 54 de puncte desenează un set potrivit - câte unul pentru fiecare mână. Este un puzzle scurt și prietenos, împărțit în patru secțiuni, ușor de terminat într-o singură ședință. Lucrați cu mănușa stângă, apoi cu cea dreaptă, apoi cu manșetele care le leagă împreună. Găsiți punctul 1 de la vârful degetului și haideți să ne ocupăm de aceste mâini.",
-      "sections": [
-        {
-          "range": "1–14",
-          "title": "Mănușa stângă",
-          "learn": "Începeți de la punctul 1 și conectați până la punctul 14 pentru a desena conturul mănușii stângi, inclusiv degetele. Degetele mici sunt forme scurte și delicate, așa că încurajați mișcări atente și fără grabă, mai degrabă decât o singură mișcare rapidă.",
-          "fact": "Mănușile de grădinărit sunt de obicei fabricate cu o potrivire strânsă în jurul degetelor, astfel încât un grădinar poate totuși să culeagă semințe mici sau să smulgă buruieni subțiri fără ca mănușa să-i stea în cale."
-        },
-        {
-          "range": "15–27",
-          "title": "Mănușa potrivită",
-          "learn": "Continuați de la punctul 15 la punctul 27 pentru a desena mănușa dreaptă potrivită. Deoarece o reflectă pe prima, această secțiune este o bună ocazie de a compara cele două forme și de a verifica dacă se aliniază înainte de a continua.",
-          "fact": "Majoritatea mănușilor de grădinărit sunt fabricate dintr-un amestec de bumbac sau nailon, cu un strat de cauciuc sau latex pe palmă și pe degete. Stratul de acoperire ajută la prinderea uneltelor și împiedică pătrunderea apei și a murdăriei."
-        },
-        {
-          "range": "28–41",
-          "title": "Cătușele",
-          "learn": "Trasați punctele de la 28 la 41 pentru a adăuga manșetele late de la baza fiecărei mănuși. Aceste manșete se evazează puțin mai mult decât restul mănușii, așa că trageți-o încet pe marginea curbei.",
-          "fact": "Manșetele late ale mănușilor de grădinărit nu sunt doar pentru aspect - ele împiedică pătrunderea murdăriei, a spinilor și a insectelor târâtoare în timp ce un grădinar sapă sau taie."
-        },
-        {
-          "range": "42–54",
-          "title": "Cusătura de finisare",
-          "learn": "Finalizați prin conectarea punctelor 42 până la 54 pentru a adăuga liniile de cusătură și detaliile finale pe ambele mănuși. Au mai rămas treisprezece puncte - o finisare constantă și atentă aici face ca mănușile să pară complete.",
-          "fact": "Cusăturile întărite de-a lungul degetelor și palmei sunt cele care fac ca o pereche bună de mănuși de grădinărit să reziste pe tot parcursul sezonului de creștere, în loc să se uzeze după câteva săptămâni de săpat."
+{
+  "collection": {
+    "header": {
+      "title": "Garden Dot to Dot Printables for Kids — Free PDF Worksheets",
+      "meta_description": "Free garden-themed dot to dot printables for kids ages 4-9: gloves, trowel, and wheelbarrow. Print-ready PDF worksheets for spring gardening units in the USA, UK, and Canada — no sign-up needed.",
+      "og": {
+        "title": "3 Free Garden Dot to Dot Printables",
+        "description": "Garden gloves, trowel, and wheelbarrow — free dot to dot printables, ready to print in seconds.",
+        "image": "/images/garden-gloves-puzzle.webp"
+      },
+      "json_ld": {
+        "type": "CollectionPage",
+        "name": "Grădină",
+        "description": "Crește! Conectează punctele pentru a descoperi mănuși de grădinărit, mistrii și unelte de grădinărit practice. Toate fișele de lucru pot fi descărcate și imprimate gratuit - nu este nevoie de cont.",
+        "image": "/images/garden-gloves-puzzle.webp",
+        "main_entity": {
+          "type": "ItemList",
+          "item_source": "puzzles"
         }
-      ],
-      "outro": "Bună treabă — mănușile tale de grădinărit sunt gata de lucru! Colorează-le în modelul tău preferat sau păstrează-le în verde și maro clasic, ca pe cele reale. Ești gata să sapi puțin mai adânc? Încearcă <a href=\"/\">planșele noastre imprimabile punct cu punct</a> pentru și mai multe puzzle-uri gratuite."
+      },
+      "breadcrumb_json_ld": {
+        "type": "BreadcrumbList",
+        "items": [
+          {
+            "position": 1,
+            "name": "Home",
+            "path": "/"
+          },
+          {
+            "position": 2,
+            "name": "Grădină",
+            "path": "/garden/"
+          }
+        ]
+      }
     },
-    "seoTitle": "Mănuși de Grădină de Unit Punct cu Punct — 54 de Puncte Gratuit"
+    "body": {
+      "h1": "Planșe imprimabile de grădină Dot-to-Dot pentru copii",
+      "name": "Grădină",
+      "tagline": "De ce adoră copiii puzzle-urile punct-punct din grădină",
+      "description": "Crește! Conectează punctele pentru a descoperi mănuși de grădinărit, mistrii și unelte de grădinărit practice. Toate fișele de lucru pot fi descărcate și imprimate gratuit - nu este nevoie de cont.",
+      "hero_image": "/images/garden-gloves-puzzle.webp",
+      "slug": "garden",
+      "faqs": [
+        {
+          "q": "Câte planșe imprimabile gratuite de grădină, de tip dot-to-dot, există?",
+          "a": "Categoria Grădină oferă în prezent 3 materiale imprimabile gratuite cu elemente de tip „conectați punctele”, cu dimensiuni cuprinse între 39 și 85 de puncte. Fiecare fișă de lucru se descarcă instantaneu ca PDF gata de imprimare (Letter sau A4, portret sau peisaj), fără a fi necesară înregistrarea."
+        },
+        {
+          "q": "Puzzle-urile punct-punct cu punct din grădină sunt gratuite pentru imprimare?",
+          "a": "Da — toate cele 3 puzzle-uri din colecția Garden sunt complet gratuite pentru utilizare acasă și în clasă. Nu este necesar niciun cont, e-mail sau plată pe DotToDotFreePrintables.com."
+        },
+        {
+          "q": "Pentru ce vârste sunt puzzle-urile de grădină?",
+          "a": "Cu un număr de puncte între 39 și 85, colecția Garden acoperă aproximativ vârstele 4-12 ani. Alegeți un număr mai mic de puncte pentru grădiniță și un număr mai mare pentru ghișeele cu numere sigure din clasele 2-6."
+        },
+        {
+          "q": "Ce puzzle-uri punct-punct cu tematică de grădină sunt disponibile?",
+          "a": "Trei materiale imprimabile gratuite pentru grădină: Mistrie de grădină (39 de puncte), Mănuși de grădină (54 de puncte) și Roabă (85 de puncte). Se potrivesc bine cu lecții de primăvară, unități despre plante și teme pentru activități în aer liber."
+        }
+      ]
+    }
   },
-  {
-    "slug": "garden-trowel-dot-to-dot-puzzle",
-    "name": "Mistrie de grădină",
-    "seoH1": "Lopată de Grădină Dot to Dot: Doar 39 de Puncte, PDF Gratuit",
-    "tagline": "Sapă într-o mică distracție în grădină!",
-    "description": "Unește 39 de puncte pentru a descoperi o mistrie de grădină practică. Acest puzzle ușor de imprimat îi ajută pe tinerii cursanți să exerseze secvențierea numerelor, controlul creionului și concentrarea.",
-    "seoDescription": "Aprofundează practica timpurie cu un exercițiu de 39 de puncte cu lopata de grădină. PDF-ul gratuit dot to dot oferă copiilor cu vârste între 4-7 ani o activitate scurtă și realizabilă.",
-    "funFact": "O mistrie este o unealtă mică de mână folosită pentru plantarea răsadurilor, săparea gropilor mici și mutarea solului.",
-    "seoImageAlt": "Mistrie de grădină conturată din doar 39 de puncte, fișă gratuită pentru începători",
-    "dotGuide": {
-      "intro": "O mistrie este unul dintre cele mai simple unelte din șopronul de grădină, iar acest puzzle cu 39 de puncte păstrează lucrurile la fel de simple - trei secțiuni scurte și o formă pe care copiii o vor recunoaște imediat. Începeți cu lama cu scobitură, apoi gâtul care o conectează la mâner, apoi mânerul în sine. Găsiți punctul 1 în vârful lamei și haideți să începem săpăturile.",
-      "sections": [
-        {
-          "range": "1–13",
-          "title": "Lama",
-          "learn": "Începeți de la punctul 1 și conectați-vă la punctul 13 pentru a desena lama ascuțită și cu vârf a mistriei. Curba de-a lungul uneia dintre margini este cea mai dificilă parte aici, așa că încurajați o mână lentă, mai degrabă decât o linie dreaptă și rapidă.",
-          "fact": "O lamă de mistrie este curbată mai degrabă decât plată, astfel încât poate scoate solul dintr-o groapă dintr-o singură mișcare, în loc să necesite mai multe mișcări separate de săpat și ridicare, așa cum ar face o unealtă plată."
+  "puzzles": [
+    {
+      "slug": "garden-gloves-dot-to-dot-puzzle",
+      "header": {
+        "title": "Mănuși de Grădină de Unit Punct cu Punct — 54 de Puncte Gratuit",
+        "meta_description": "Această fișă cu 54 de puncte desenează o pereche de mănuși de grădină, ideală pentru copii de 4-8 ani care încep exercițiile de numărare și control al creionului. Perfectă pentru activitățile de primăvară la grădiniță sau acasă — imprimă PDF-ul gratuit și leagă punctele. Suficient de simplă pentru primii pași.",
+        "og": {
+          "title": "Mănuși de Grădină de Unit Punct cu Punct — 54 de Puncte Gratuit",
+          "description": "Această fișă cu 54 de puncte desenează o pereche de mănuși de grădină, ideală pentru copii de 4-8 ani care încep exercițiile de numărare și control al creionului. Perfectă pentru activitățile de primăvară la grădiniță sau acasă — imprimă PDF-ul gratuit și leagă punctele. Suficient de simplă pentru primii pași.",
+          "image_alt": "Pereche de mănuși de grădină conturată din 54 de puncte numerotate, fișă gratuită pentru începători"
         },
-        {
-          "range": "14–26",
-          "title": "Gâtul",
-          "learn": "Continuați de la punctul 14 la punctul 26 pentru a desena gâtul îngust unde lama întâlnește mânerul. Aceasta este cea mai subțire parte a întregului instrument, așa că păstrați liniile apropiate și controlate.",
-          "fact": "Gâtul unei mistrii este de obicei cea mai puternică parte a întregii unelte, deoarece toată forța de împingere și de pârghie din săpat trece chiar prin acea secțiune îngustă."
-        },
-        {
-          "range": "27–39",
-          "title": "Mânerul",
-          "learn": "Terminați prin a conecta punctele 27 până la 39 pentru a desena mânerul rotunjit pe care îl prinde un grădinar în timp ce sapă. Au mai rămas doar treisprezece puncte - o finisare fermă și sigură completează unealta.",
-          "fact": "Mânerele mistriei au adesea o formă puțin mai lată la capăt, astfel încât unealta să nu alunece din mâna grădinarului, mai ales atunci când palmele acestuia se umezesc de la lucrul în sol umed."
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Mănuși de grădină",
+          "description": "Această fișă cu 54 de puncte desenează o pereche de mănuși de grădină, ideală pentru copii de 4-8 ani care încep exercițiile de numărare și control al creionului. Perfectă pentru activitățile de primăvară la grădiniță sau acasă — imprimă PDF-ul gratuit și leagă punctele. Suficient de simplă pentru primii pași.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
         }
-      ],
-      "outro": "Bravo — mistria ta e gata de săpat! Colorează lama într-un gri metalic strălucitor și dă mânerului o culoare aprinsă la alegere. Dacă ți-a plăcut aceasta, intră în colecția noastră de <a href=\"/dinosaurs/\">imagini imprimabile punct cu punct cu dinozauri</a> pentru un cu totul alt fel de săpătură."
-    },
-    "seoTitle": "Mistrie de Grădină: Doar 39 de Puncte, PDF Gratuit"
-  },
-  {
-    "slug": "wheelbarrow-playground-dot-to-dot-puzzle",
-    "name": "Loc de joacă cu roabă",
-    "seoH1": "Roabă Dot to Dot Imprimabilă — 85 de Puncte de Urmărit",
-    "tagline": "Încarcă-l și rulează!",
-    "description": "Conectează 85 de puncte pentru a descoperi o roabă de grădină robustă. Acest puzzle de nivel mediu este un exercițiu excelent pentru copiii care au stăpânit fișele mai ușoare și sunt pregătiți pentru o imagine mai lungă și mai detaliată.",
-    "seoDescription": "Leagă 85 de puncte pentru a desena o roabă solidă, o fișă gratuită potrivită copiilor de 5-9 ani pregătiți pentru o provocare mai lungă. Roabele antice chineze puteau transporta chiar și soldați — imprimă PDF-ul și începe numărătoarea, fără cont necesar. Se tipărește la scară 100%.",
-    "funFact": "Roaba a fost inventată în China antică acum peste 2.000 de ani. Versiunile timpurii puteau transporta mai multe persoane simultan și erau folosite chiar și pentru a muta soldații în timpul războiului.",
-    "seoImageAlt": "Roabă solidă de grădină conturată din 85 de puncte, fișă gratuită de tipărit",
-    "dotGuide": {
-      "intro": "Optzeci și cinci de puncte și patru secțiuni alcătuiesc acest puzzle cu roabă de grădină. Este un pas înainte față de cele mai simple foi de grădină, dar totuși ușor de terminat într-o singură mișcare. Lucrează mai întâi cu roata, apoi cu tava, cadrul și picioarele și, în final, cu mânerele. Găsește punctul 1 în partea din față a roții și hai să începem.",
-      "sections": [
-        {
-          "range": "1–21",
-          "title": "Roata",
-          "learn": "Începeți de la punctul 1 și conectați-l până la punctul 21 pentru a desena roata rotundă din partea din față a roții. Formele circulare necesită puțin mai multă atenție decât liniile drepte, așa că încurajați mișcări lente și uniforme pe măsură ce curba se unește.",
-          "fact": "O singură roată din față permite unei roabe să pivoteze ușor în spații înguste, motiv pentru care grădinarii preferă în continuare acest design în locul unui cărucior cu două roți pentru mutarea solului și a plantelor în jurul straturilor de flori."
-        },
-        {
-          "range": "22–43",
-          "title": "Tava",
-          "learn": "Continuați de la punctul 22 la punctul 43 pentru a modela tava lată și înclinată care conține tot ce transportă roaba. Marginile înclinate ale tăvii sunt cele care o împiedică să se răstoarne, așa că trasați-le cu atenție pentru a surprinde acea înclinare.",
-          "fact": "Tava de la majoritatea roabelor se îngustează în față și se lasă în spate. Această formă împiedică o încărcătură grea și dezechilibrată să alunece înainte și să se reverse peste roată."
-        },
-        {
-          "range": "44–64",
-          "title": "Cadrul și picioarele",
-          "learn": "Lucrați de la punctul 44 la punctul 64 pentru a construi cadrul de sub tavă și cele două picioare care o susțin atunci când se odihnește. Aceste linii sunt mai drepte și mai stabile, o schimbare plăcută de ritm după secțiunea curbată a tăvii.",
-          "fact": "Cele două picioare din spatele unei roabe ating pământul doar atunci când este parcată. Ridicați mânerele și toată greutatea se mută înainte pe o singură roată, ceea ce face ca o încărcătură completă să fie mult mai ușor de împins."
-        },
-        {
-          "range": "65–85",
-          "title": "Mânerele",
-          "learn": "Terminați prin a conecta punctele 65 până la 85 pentru a desena cele două mânere pe care le apucă un grădinar pentru a conduce și ridica sarcina. Au mai rămas douăzeci și unu de puncte pe ultima porțiune - mențineți liniile drepte și terminați cu un design ferm.",
-          "fact": "Mânerele lungi funcționează ca o pârghie. Acestea permit unei singure persoane să ridice și să echilibreze o încărcătură care altfel ar fi prea grea sau incomodă de transportat manual, acesta fiind secretul funcționării unei roabe."
+      },
+      "body": {
+        "h1": "Mănuși de Grădină Dot to Dot — Foaie de Start Gratuită cu 54 de Puncte",
+        "name": "Mănuși de grădină",
+        "tagline": "Gata pentru o mică aventură în grădină!",
+        "description": "Unește 54 de puncte pentru a descoperi o pereche de mănuși de grădinărit. Acest puzzle ușor de imprimat îi ajută pe tinerii cursanți să exerseze secvențierea numerelor, controlul creionului și concentrarea.",
+        "fun_fact": "Mănușile de grădină ajută la protejarea mâinilor de zgârieturi, murdărie și plante țepoase în timp ce lucrați în sol.",
+        "faqs": [
+          {
+            "q": "Câte puncte are puzzle-ul punct cu punct „Mănuși de grădină”?",
+            "a": "Puzzle-ul imprimabil cu mănuși de grădină - unește punctele are 54 de puncte numerotate. Asta îl face un puzzle ușor spre mediu, potrivit pentru vârstele de 5-8 ani (grădiniță până la clasa a II-a). Copiii unesc punctele în ordine numerică pentru a dezvălui imaginea finalizată cu mănuși de grădină, apoi o colorează."
+          },
+          {
+            "q": "Este imprimanta unit-to-dot cu mănuși de grădină gratuită?",
+            "a": "Da. Fișa de lucru cu mănuși de grădină poate fi descărcată 100% gratuit de pe DotToDotFreePrintables.com — nu este necesar un cont, un e-mail sau o plată. Se descarcă instantaneu ca PDF gata de imprimare, atât în ​​orientare portret, cât și peisaj, dimensionată pentru hârtie Letter americană sau A4."
+          },
+          {
+            "q": "Pentru ce vârstă este cea mai potrivită fișă de lucru cu mănuși de grădină - conectați punctele?",
+            "a": "Cu 54 de puncte, puzzle-ul Mănuși de Grădină este potrivit pentru vârstele de 5-8 ani (grădiniță până la clasa a II-a). Copiii mai mici se pot bucura de el cu ajutorul unui adult, în timp ce numărătorii încrezători îl pot completa independent și pot exersa secvențierea numerelor până la 54."
+          },
+          {
+            "q": "Ce abilități predă puzzle-ul „Mănuși de grădină”?",
+            "a": "Conectarea celor 54 de puncte ale puzzle-ului Mănuși de Grădină dezvoltă recunoașterea numerelor și numărarea până la 54, controlul creionului, coordonarea mână-ochi și concentrarea susținută - aceleași fundamente ale motricității fine care susțin scrisul de mână timpuriu. Colorarea imaginii finalizate adaugă o recompensă creativă."
+          },
+          {
+            "q": "Care este un fapt amuzant despre mănușile de grădinărit?",
+            "a": "Mănușile de grădină ajută la protejarea mâinilor de zgârieturi, murdărie și plante țepoase în timp ce lucrează în sol. Copiii descoperă lucruri de acest gen în timp ce completează puzzle-ul „Mănuși de grădină” de tip „punct cu punct”."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Fiecare grădinar are nevoie de o pereche bună de mănuși înainte de a atinge solul, iar acest puzzle cu 54 de puncte desenează un set potrivit - câte unul pentru fiecare mână. Este un puzzle scurt și prietenos, împărțit în patru secțiuni, ușor de terminat într-o singură ședință. Lucrați cu mănușa stângă, apoi cu cea dreaptă, apoi cu manșetele care le leagă împreună. Găsiți punctul 1 de la vârful degetului și haideți să ne ocupăm de aceste mâini.",
+          "sections": [
+            {
+              "range": "1–14",
+              "title": "Mănușa stângă",
+              "learn": "Începeți de la punctul 1 și conectați până la punctul 14 pentru a desena conturul mănușii stângi, inclusiv degetele. Degetele mici sunt forme scurte și delicate, așa că încurajați mișcări atente și fără grabă, mai degrabă decât o singură mișcare rapidă.",
+              "fact": "Mănușile de grădinărit sunt de obicei fabricate cu o potrivire strânsă în jurul degetelor, astfel încât un grădinar poate totuși să culeagă semințe mici sau să smulgă buruieni subțiri fără ca mănușa să-i stea în cale."
+            },
+            {
+              "range": "15–27",
+              "title": "Mănușa potrivită",
+              "learn": "Continuați de la punctul 15 la punctul 27 pentru a desena mănușa dreaptă potrivită. Deoarece o reflectă pe prima, această secțiune este o bună ocazie de a compara cele două forme și de a verifica dacă se aliniază înainte de a continua.",
+              "fact": "Majoritatea mănușilor de grădinărit sunt fabricate dintr-un amestec de bumbac sau nailon, cu un strat de cauciuc sau latex pe palmă și pe degete. Stratul de acoperire ajută la prinderea uneltelor și împiedică pătrunderea apei și a murdăriei."
+            },
+            {
+              "range": "28–41",
+              "title": "Cătușele",
+              "learn": "Trasați punctele de la 28 la 41 pentru a adăuga manșetele late de la baza fiecărei mănuși. Aceste manșete se evazează puțin mai mult decât restul mănușii, așa că trageți-o încet pe marginea curbei.",
+              "fact": "Manșetele late ale mănușilor de grădinărit nu sunt doar pentru aspect - ele împiedică pătrunderea murdăriei, a spinilor și a insectelor târâtoare în timp ce un grădinar sapă sau taie."
+            },
+            {
+              "range": "42–54",
+              "title": "Cusătura de finisare",
+              "learn": "Finalizați prin conectarea punctelor 42 până la 54 pentru a adăuga liniile de cusătură și detaliile finale pe ambele mănuși. Au mai rămas treisprezece puncte - o finisare constantă și atentă aici face ca mănușile să pară complete.",
+              "fact": "Cusăturile întărite de-a lungul degetelor și palmei sunt cele care fac ca o pereche bună de mănuși de grădinărit să reziste pe tot parcursul sezonului de creștere, în loc să se uzeze după câteva săptămâni de săpat."
+            }
+          ],
+          "outro": "Bună treabă — mănușile tale de grădinărit sunt gata de lucru! Colorează-le în modelul tău preferat sau păstrează-le în verde și maro clasic, ca pe cele reale. Ești gata să sapi puțin mai adânc? Încearcă <a href=\"/\">planșele noastre imprimabile punct cu punct</a> pentru și mai multe puzzle-uri gratuite.",
+          "color_schemes": []
         }
-      ],
-      "outro": "Iată o roabă încărcată, gata pentru grădină! Colorează tava în maro închis sau vopsește-o în roșu aprins ca o roabă clasică, apoi pune-i câteva flori sau legume după propriul design. Ești gata pentru ceva mai mare? Încearcă în continuare <a href=\"/playgrounds/roller-coaster-playground-dot-to-dot-puzzle/\">puzzle-ul nostru cu roți de joacă</a>."
+      }
     },
-    "seoTitle": "Roabă de Grădină de Unit Puncte — 85 de Puncte de Trasat"
-  }
-]
+    {
+      "slug": "garden-trowel-dot-to-dot-puzzle",
+      "header": {
+        "title": "Mistrie de Grădină: Doar 39 de Puncte, PDF Gratuit",
+        "meta_description": "Aprofundează practica timpurie cu un exercițiu de 39 de puncte cu lopata de grădină. PDF-ul gratuit dot to dot oferă copiilor cu vârste între 4-7 ani o activitate scurtă și realizabilă.",
+        "og": {
+          "title": "Mistrie de Grădină: Doar 39 de Puncte, PDF Gratuit",
+          "description": "Aprofundează practica timpurie cu un exercițiu de 39 de puncte cu lopata de grădină. PDF-ul gratuit dot to dot oferă copiilor cu vârste între 4-7 ani o activitate scurtă și realizabilă.",
+          "image_alt": "Mistrie de grădină conturată din doar 39 de puncte, fișă gratuită pentru începători"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Mistrie de grădină",
+          "description": "Aprofundează practica timpurie cu un exercițiu de 39 de puncte cu lopata de grădină. PDF-ul gratuit dot to dot oferă copiilor cu vârste între 4-7 ani o activitate scurtă și realizabilă.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
+      },
+      "body": {
+        "h1": "Lopată de Grădină Dot to Dot: Doar 39 de Puncte, PDF Gratuit",
+        "name": "Mistrie de grădină",
+        "tagline": "Sapă într-o mică distracție în grădină!",
+        "description": "Unește 39 de puncte pentru a descoperi o mistrie de grădină practică. Acest puzzle ușor de imprimat îi ajută pe tinerii cursanți să exerseze secvențierea numerelor, controlul creionului și concentrarea.",
+        "fun_fact": "O mistrie este o unealtă mică de mână folosită pentru plantarea răsadurilor, săparea gropilor mici și mutarea solului.",
+        "faqs": [
+          {
+            "q": "Câte puncte are puzzle-ul punct cu punct Garden Trowel?",
+            "a": "Puzzle-ul imprimabil cu mistria de grădină - unește punctele are 39 de puncte numerotate. Aceasta face ca acesta să fie un puzzle ușor, potrivit pentru vârstele de 4-6 ani (grădiniță și școală medie). Copiii unesc punctele în ordinea numerică pentru a dezvălui imaginea finalizată cu mistria de grădină, apoi o colorează."
+          },
+          {
+            "q": "Este imprimanta gratuită desenul punct-punct pentru mistria de grădină?",
+            "a": "Da. Fișa de lucru cu mistria de grădină poate fi descărcată 100% gratuit de pe DotToDotFreePrintables.com — nu este necesar un cont, un e-mail sau o plată. Se descarcă instantaneu ca PDF gata de imprimare, atât în ​​orientare portret, cât și peisaj, dimensionată pentru hârtie Letter americană sau A4."
+          },
+          {
+            "q": "Pentru ce vârstă este cea mai potrivită fișă de lucru cu puncte de unire pentru mistria de grădină?",
+            "a": "Cu 39 de puncte, puzzle-ul Garden Trowel este potrivit pentru vârstele de 4-6 ani (grădiniță și preșcolar). Copiii mai mici se pot bucura de el cu ajutorul unui adult, în timp ce numărătorii încrezători îl pot completa independent și pot exersa secvențierea numerelor până la 39."
+          },
+          {
+            "q": "Ce abilități predă puzzle-ul punct-punct Garden Trowel?",
+            "a": "Conectarea celor 39 de puncte ale puzzle-ului Garden Trowel dezvoltă recunoașterea numerelor și numărarea până la 39, controlul creionului, coordonarea mână-ochi și concentrarea susținută - aceleași fundamente ale motricității fine care susțin scrisul de mână timpuriu. Colorarea imaginii finalizate adaugă o recompensă creativă."
+          },
+          {
+            "q": "Care este un fapt amuzant despre mistria de grădină?",
+            "a": "O mistrie este o unealtă mică de mână folosită pentru plantarea răsadurilor, săparea unor gropi mici și mutarea solului. Copiii descoperă astfel de lucruri în timp ce completează puzzle-ul punct cu punct „Mistria de grădină”."
+          }
+        ],
+        "dot_guide": {
+          "intro": "O mistrie este unul dintre cele mai simple unelte din șopronul de grădină, iar acest puzzle cu 39 de puncte păstrează lucrurile la fel de simple - trei secțiuni scurte și o formă pe care copiii o vor recunoaște imediat. Începeți cu lama cu scobitură, apoi gâtul care o conectează la mâner, apoi mânerul în sine. Găsiți punctul 1 în vârful lamei și haideți să începem săpăturile.",
+          "sections": [
+            {
+              "range": "1–13",
+              "title": "Lama",
+              "learn": "Începeți de la punctul 1 și conectați-vă la punctul 13 pentru a desena lama ascuțită și cu vârf a mistriei. Curba de-a lungul uneia dintre margini este cea mai dificilă parte aici, așa că încurajați o mână lentă, mai degrabă decât o linie dreaptă și rapidă.",
+              "fact": "O lamă de mistrie este curbată mai degrabă decât plată, astfel încât poate scoate solul dintr-o groapă dintr-o singură mișcare, în loc să necesite mai multe mișcări separate de săpat și ridicare, așa cum ar face o unealtă plată."
+            },
+            {
+              "range": "14–26",
+              "title": "Gâtul",
+              "learn": "Continuați de la punctul 14 la punctul 26 pentru a desena gâtul îngust unde lama întâlnește mânerul. Aceasta este cea mai subțire parte a întregului instrument, așa că păstrați liniile apropiate și controlate.",
+              "fact": "Gâtul unei mistrii este de obicei cea mai puternică parte a întregii unelte, deoarece toată forța de împingere și de pârghie din săpat trece chiar prin acea secțiune îngustă."
+            },
+            {
+              "range": "27–39",
+              "title": "Mânerul",
+              "learn": "Terminați prin a conecta punctele 27 până la 39 pentru a desena mânerul rotunjit pe care îl prinde un grădinar în timp ce sapă. Au mai rămas doar treisprezece puncte - o finisare fermă și sigură completează unealta.",
+              "fact": "Mânerele mistriei au adesea o formă puțin mai lată la capăt, astfel încât unealta să nu alunece din mâna grădinarului, mai ales atunci când palmele acestuia se umezesc de la lucrul în sol umed."
+            }
+          ],
+          "outro": "Bravo — mistria ta e gata de săpat! Colorează lama într-un gri metalic strălucitor și dă mânerului o culoare aprinsă la alegere. Dacă ți-a plăcut aceasta, intră în colecția noastră de <a href=\"/dinosaurs/\">imagini imprimabile punct cu punct cu dinozauri</a> pentru un cu totul alt fel de săpătură.",
+          "color_schemes": []
+        }
+      }
+    },
+    {
+      "slug": "wheelbarrow-playground-dot-to-dot-puzzle",
+      "header": {
+        "title": "Roabă de Grădină de Unit Puncte — 85 de Puncte de Trasat",
+        "meta_description": "Leagă 85 de puncte pentru a desena o roabă solidă, o fișă gratuită potrivită copiilor de 5-9 ani pregătiți pentru o provocare mai lungă. Roabele antice chineze puteau transporta chiar și soldați — imprimă PDF-ul și începe numărătoarea, fără cont necesar. Se tipărește la scară 100%.",
+        "og": {
+          "title": "Roabă de Grădină de Unit Puncte — 85 de Puncte de Trasat",
+          "description": "Leagă 85 de puncte pentru a desena o roabă solidă, o fișă gratuită potrivită copiilor de 5-9 ani pregătiți pentru o provocare mai lungă. Roabele antice chineze puteau transporta chiar și soldați — imprimă PDF-ul și începe numărătoarea, fără cont necesar. Se tipărește la scară 100%.",
+          "image_alt": "Roabă solidă de grădină conturată din 85 de puncte, fișă gratuită de tipărit"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Loc de joacă cu roabă",
+          "description": "Leagă 85 de puncte pentru a desena o roabă solidă, o fișă gratuită potrivită copiilor de 5-9 ani pregătiți pentru o provocare mai lungă. Roabele antice chineze puteau transporta chiar și soldați — imprimă PDF-ul și începe numărătoarea, fără cont necesar. Se tipărește la scară 100%.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
+      },
+      "body": {
+        "h1": "Roabă Dot to Dot Imprimabilă — 85 de Puncte de Urmărit",
+        "name": "Loc de joacă cu roabă",
+        "tagline": "Încarcă-l și rulează!",
+        "description": "Conectează 85 de puncte pentru a descoperi o roabă de grădină robustă. Acest puzzle de nivel mediu este un exercițiu excelent pentru copiii care au stăpânit fișele mai ușoare și sunt pregătiți pentru o imagine mai lungă și mai detaliată.",
+        "fun_fact": "Roaba a fost inventată în China antică acum peste 2.000 de ani. Versiunile timpurii puteau transporta mai multe persoane simultan și erau folosite chiar și pentru a muta soldații în timpul războiului.",
+        "faqs": [
+          {
+            "q": "Câte puncte are puzzle-ul punct-cu-punct Wheelbarrow Playground?",
+            "a": "Puzzle-ul imprimabil cu roabă, unește punctele, are 85 de puncte numerotate. Aceasta îl face un puzzle mediu, potrivit pentru vârstele între 6 și 9 ani (clasele I-III). Copiii unesc punctele în ordinea numerotării pentru a dezvălui imaginea finalizată a locului de joacă cu roabă, apoi o colorează."
+          },
+          {
+            "q": "Este gratuit modelul Wheelbarrow Playground unit-to-dot imprimabil?",
+            "a": "Da. Fișa de lucru „Locul de joacă pentru roată” poate fi descărcată 100% gratuit de pe DotToDotFreePrintables.com — nu este necesar un cont, un e-mail sau o plată. Se descarcă instantaneu ca PDF gata de imprimare, atât în ​​orientare portret, cât și peisaj, dimensionată pentru hârtie Letter americană sau A4."
+          },
+          {
+            "q": "Pentru ce vârstă este cea mai potrivită fișă de lucru Wheelbarrow Playground cu puncte de conectare?",
+            "a": "Cu 85 de puncte, puzzle-ul Wheelbarrow Playground este potrivit pentru vârstele cu vârste cuprinse între 6 și 9 ani (clasele I-III). Copiii mai mici se pot bucura de el cu ajutorul unui adult, în timp ce numărătorii încrezători îl pot completa independent și pot exersa secvențierea numerelor până la 85."
+          },
+          {
+            "q": "Ce abilități predă puzzle-ul punct-punct Wheelbarrow Playground?",
+            "a": "Conectarea celor 85 de puncte ale puzzle-ului Wheelbarrow Playground dezvoltă recunoașterea numerelor și numărarea până la 85, controlul creionului, coordonarea mână-ochi și concentrarea susținută - aceleași fundamente ale motricității fine care susțin scrisul de mână timpuriu. Colorarea imaginii finalizate adaugă o recompensă creativă."
+          },
+          {
+            "q": "Care este un fapt amuzant despre locul de joacă cu roabă?",
+            "a": "Roaba a fost inventată în China antică acum peste 2.000 de ani. Versiunile timpurii puteau transporta mai multe persoane simultan și erau folosite chiar și pentru a muta soldați în timpul războiului. Copiii descoperă lucruri de genul acesta în timp ce completează puzzle-ul Wheelbarrow Playground, desenatorul punct cu punct."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Optzeci și cinci de puncte și patru secțiuni alcătuiesc acest puzzle cu roabă de grădină. Este un pas înainte față de cele mai simple foi de grădină, dar totuși ușor de terminat într-o singură mișcare. Lucrează mai întâi cu roata, apoi cu tava, cadrul și picioarele și, în final, cu mânerele. Găsește punctul 1 în partea din față a roții și hai să începem.",
+          "sections": [
+            {
+              "range": "1–21",
+              "title": "Roata",
+              "learn": "Începeți de la punctul 1 și conectați-l până la punctul 21 pentru a desena roata rotundă din partea din față a roții. Formele circulare necesită puțin mai multă atenție decât liniile drepte, așa că încurajați mișcări lente și uniforme pe măsură ce curba se unește.",
+              "fact": "O singură roată din față permite unei roabe să pivoteze ușor în spații înguste, motiv pentru care grădinarii preferă în continuare acest design în locul unui cărucior cu două roți pentru mutarea solului și a plantelor în jurul straturilor de flori."
+            },
+            {
+              "range": "22–43",
+              "title": "Tava",
+              "learn": "Continuați de la punctul 22 la punctul 43 pentru a modela tava lată și înclinată care conține tot ce transportă roaba. Marginile înclinate ale tăvii sunt cele care o împiedică să se răstoarne, așa că trasați-le cu atenție pentru a surprinde acea înclinare.",
+              "fact": "Tava de la majoritatea roabelor se îngustează în față și se lasă în spate. Această formă împiedică o încărcătură grea și dezechilibrată să alunece înainte și să se reverse peste roată."
+            },
+            {
+              "range": "44–64",
+              "title": "Cadrul și picioarele",
+              "learn": "Lucrați de la punctul 44 la punctul 64 pentru a construi cadrul de sub tavă și cele două picioare care o susțin atunci când se odihnește. Aceste linii sunt mai drepte și mai stabile, o schimbare plăcută de ritm după secțiunea curbată a tăvii.",
+              "fact": "Cele două picioare din spatele unei roabe ating pământul doar atunci când este parcată. Ridicați mânerele și toată greutatea se mută înainte pe o singură roată, ceea ce face ca o încărcătură completă să fie mult mai ușor de împins."
+            },
+            {
+              "range": "65–85",
+              "title": "Mânerele",
+              "learn": "Terminați prin a conecta punctele 65 până la 85 pentru a desena cele două mânere pe care le apucă un grădinar pentru a conduce și ridica sarcina. Au mai rămas douăzeci și unu de puncte pe ultima porțiune - mențineți liniile drepte și terminați cu un design ferm.",
+              "fact": "Mânerele lungi funcționează ca o pârghie. Acestea permit unei singure persoane să ridice și să echilibreze o încărcătură care altfel ar fi prea grea sau incomodă de transportat manual, acesta fiind secretul funcționării unei roabe."
+            }
+          ],
+          "outro": "Iată o roabă încărcată, gata pentru grădină! Colorează tava în maro închis sau vopsește-o în roșu aprins ca o roabă clasică, apoi pune-i câteva flori sau legume după propriul design. Ești gata pentru ceva mai mare? Încearcă în continuare <a href=\"/playgrounds/roller-coaster-playground-dot-to-dot-puzzle/\">puzzle-ul nostru cu roți de joacă</a>.",
+          "color_schemes": []
+        }
+      }
+    }
+  ]
+}

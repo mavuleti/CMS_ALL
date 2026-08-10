@@ -1,125 +1,294 @@
-[
-  {
-    "slug": "crescent-moon-dot-to-dot-puzzle",
-    "name": "Månesigd",
-    "tagline": "Spor en strålende del av nattehimmelen!",
-    "description": "Koble sammen 60 enkle punkter for å avsløre en vakker halvmåne som gløder på nattehimmelen. Denne gratis utskriftsbaren hjelper barn med å øve på tallrekker, visuell sporingsferdighet, konsentrasjon og jevn blyantkontroll.",
-    "funFact": "En halvmåne vises når sollys bare belyser en tynn, buet del av månen som vi kan se fra jorden.",
-    "dotGuide": {
-      "intro": "En slik halvmåne er en av de mest gjenkjennelige formene på nattehimmelen. Dette vennlige 60-punkts puslespillet bygger dens ytre kurve, spisse ender og indre bue i fem håndterlige etapper. Finn punkt 1 og la månen din begynne å lyse!",
-      "sections": [
-        {
-          "range": "1–12",
-          "title": "Den øvre månespissen",
-          "learn": "Koble sammen punktene 1 til 12 for å forme halvmånens smale øvre punkt.",
-          "fact": "Månen lager ikke sitt eget lys; den skinner ved å reflektere sollys."
-        },
-        {
-          "range": "13–24",
-          "title": "Den ytre kurven",
-          "learn": "Fortsett fra punkt 13 til punkt 24 langs månens brede ytterkurve.",
-          "fact": "Tyngdekraften gjorde månen nesten rund, akkurat som den gjør planeter runde."
-        },
-        {
-          "range": "25–36",
-          "title": "Den nedre månespissen",
-          "learn": "Følg punktene 25 til 36 for å danne det nedre punktet og sving mot den indre kurven.",
-          "fact": "Månens overflate er dekket av kratere laget av steiner som har truffet den over milliarder av år."
-        },
-        {
-          "range": "37–48",
-          "title": "Den indre halvmåne",
-          "learn": "Spor punktene 37 til 48 oppover den indre buen, og hold blyantlinjen jevn.",
-          "fact": "Månen bruker omtrent 29,5 dager på å gå gjennom en fullstendig syklus av faser."
-        },
-        {
-          "range": "49–60",
-          "title": "Gløden og Finish",
-          "learn": "Fullfør med punktene 49 til 60 for å lukke halvmånen og legge til de siste detaljene.",
-          "fact": "Folk over hele verden ser den samme månen, selv om månesigten kan virke forskjellig avhengig av hvor man befinner seg."
+{
+  "collection": {
+    "header": {
+      "title": "Free Space Dot-to-Dot Printables for Kids",
+      "meta_description": "Download free space dot-to-dot worksheets for kids, including UFOs, rockets, planets, and more.",
+      "og": {
+        "title": "Free Space Dot-to-Dot Printables for Kids",
+        "description": "Download free space dot-to-dot worksheets for kids, including UFOs, rockets, planets, and more.",
+        "image": "/images/space-rover-puzzle.webp"
+      },
+      "json_ld": {
+        "type": "CollectionPage",
+        "name": "Rom",
+        "description": "Skyv av gårde med gratis rom koble-prikkene arbeidsark. Skriv ut et vennlig rover puslespill i dag, med flere raketter, planeter og kosmiske eventyr som kommer snart.",
+        "image": "/images/space-rover-puzzle.webp",
+        "main_entity": {
+          "type": "ItemList",
+          "item_source": "puzzles"
         }
-      ],
-      "outro": "Vakkert arbeid—din halvmåne skinner! Legg til stjerner, søvnige skyer, eller en rakett som krysser himmelen, og oppdag <a href=\"/space/ringed-planet-dot-to-dot-puzzle/\">ringenplanet-oppgaven</a>."
+      },
+      "breadcrumb_json_ld": {
+        "type": "BreadcrumbList",
+        "items": [
+          {
+            "position": 1,
+            "name": "Home",
+            "path": "/"
+          },
+          {
+            "position": 2,
+            "name": "Rom",
+            "path": "/space/"
+          }
+        ]
+      }
+    },
+    "body": {
+      "h1": "Gratis Rom Punkt-til-Punkt Utskrifter for Barn",
+      "name": "Rom",
+      "tagline": "{count, plural, one {# gratis utskrivbart puslespill} other {# gratis utskrivbare puslespill}}",
+      "description": "Skyv av gårde med gratis rom koble-prikkene arbeidsark. Skriv ut et vennlig rover puslespill i dag, med flere raketter, planeter og kosmiske eventyr som kommer snart.",
+      "hero_image": "/images/space-rover-puzzle.webp",
+      "slug": "space",
+      "faqs": [
+        {
+          "q": "Er alle punkt-til-punkt-utskrivbare ark på dette nettstedet helt gratis?",
+          "a": "Ja – alle «koble sammen prikkene»-arbeidsark på DotToDotFreePrintables.com er 100 % gratis å laste ned og skrive ut. Det kreves ingen konto, abonnement eller kredittkort."
+        },
+        {
+          "q": "Hvilken alder passer prikk-til-prikk-arbeidsark for?",
+          "a": "Våre utskrivbare ark dekker alderen 2–12 år. Enkle arbeidsark (10–20 prikker) passer for småbarn og førskolebarn, mellomstore ark (20–50 prikker) er flotte for barnehage og 1. klasse, og vanskeligere ark (50–200+ prikker) utfordrer 2. til 6. klassinger."
+        },
+        {
+          "q": "Hvilket format er de utskrivbare «koble-prikkene»-filene?",
+          "a": "Alle arbeidsark kan lastes ned som utskriftsklare PDF-filer i størrelse for standard US Letter-papir (8,5 × 11 tommer). Åpne i hvilken som helst nettleser eller PDF-leser og skriv ut – ingen spesiell programvare er nødvendig."
+        },
+        {
+          "q": "Kan lærere bruke disse koble-prikkene-arbeidsarkene i klasserommet?",
+          "a": "Ja! Våre utskriftsmateriell er gratis for personlig bruk og bruk i klasserommet. De er populære for morgenarbeid, tidlige skoleoppgaver, vikartimer, finmotoriske sentre og leksepakker."
+        }
+      ]
     }
   },
-  {
-    "slug": "ringed-planet-dot-to-dot-puzzle",
-    "name": "Ringet planet",
-    "tagline": "Tegn en verden innhyllet i skinnende ringer!",
-    "description": "Koble sammen 43 enkle punkter for å avsløre en vakker ringplanet som flyter i rommet. Denne gratis utskriftsvennlige aktiviteten hjelper yngre barn å øve på tallrekkefølge, visuell sporingsferdighet, konsentrasjon og jevn blyantkontroll.",
-    "funFact": "Saturns ringer består av utallige is- og steinbiter, fra små korn til blokker på størrelse med hus.",
-    "dotGuide": {
-      "intro": "Langt bortenfor jorden snurrer en kjempestor planet mens brede ringer svever rundt den. Dette vennlige 43-punkts puslespillet skaper planeten og dens ringer i fire korte etapper, noe som gjør det til en morsom første romutfordring. Finn punkt 1 og begynn reisen din!",
-      "sections": [
-        {
-          "range": "1–11",
-          "title": "Toppen av planeten",
-          "learn": "Koble sammen punktene 1 til 11 for å tegne den buede øvre kanten av den fjerne planeten.",
-          "fact": "Planeter ser runde ut fordi tyngdekraften trekker materialet deres mot sentrum fra alle retninger."
+  "puzzles": [
+    {
+      "slug": "crescent-moon-dot-to-dot-puzzle",
+      "header": {
+        "title": "",
+        "meta_description": "",
+        "og": {
+          "title": "",
+          "description": "",
+          "image_alt": ""
         },
-        {
-          "range": "12–22",
-          "title": "Den første ringen",
-          "learn": "Fortsett fra punkt 12 til punkt 22 for å spore den første brede buen i ringsystemet.",
-          "fact": "Saturn har tusenvis av smale ringdeler som ser ut som flere brede ringer når de betraktes på avstand."
-        },
-        {
-          "range": "23–33",
-          "title": "Planetens nedre kurve",
-          "learn": "Følg punktene 23 til 33 rundt den nedre halvdelen av planeten, og hold kurven jevn.",
-          "fact": "Saturn er en gasskjempe som hovedsakelig består av hydrogen og helium, de to letteste grunnstoffene."
-        },
-        {
-          "range": "34–43",
-          "title": "Ringene og overflatebehandlingen",
-          "learn": "Fullfør med prikkene 34 til 43 for å fullføre de buede ringene på den andre siden.",
-          "fact": "Saturns ringer er svært brede, men overraskende tynne i forhold til planetens størrelse."
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Månesigd",
+          "description": "",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
         }
-      ],
-      "outro": "Fantastisk arbeid—din ringede planet kretser blant stjernene! Legg til måner, en rakett og fargerike skyer, og fortsett utforskningen med <a href=\"/space/space-rover-dot-to-dot-puzzle/\">romrover-oppgaven</a>."
-    }
-  },
-  {
-    "slug": "space-rover-dot-to-dot-puzzle",
-    "name": "Romrover",
-    "tagline": "En vennlig oppdager på hjul",
-    "description": "Koble sammen 59 punkter for å avsløre en vennlig romrover klar til å utforske en annen verden. Denne gratis utskrivbare puslespillhjelper barn å øve på tallrekkefølge, konsentrasjon og blyantkontroll.",
-    "funFact": "Romrovere er robotiserte kjøretøy som utforsker overflaten på verdener som Månen og Mars.",
-    "dotGuide": {
-      "intro": "Klar for en tur utenfor jorden? Følg tallene fra 1 til 59 og se en vennlig romrover dukke opp. Beveg deg langsomt, sjekk hvert tall, og hold blyantstrekene dine pene mens du reiser rundt kjøretøyet.",
-      "sections": [
-        {
-          "range": "1–12",
-          "title": "Rover-karosseriet",
-          "learn": "Start ved punkt 1 og koble til punkt 12 for å spore roverens vennlige forside og solide kropp.",
-          "fact": "Planetariske rovere bærer med seg datamaskiner, kameraer og vitenskapelige verktøy inni en robust kropp."
-        },
-        {
-          "range": "13–25",
-          "title": "De første hjulene",
-          "learn": "Fortsett fra punkt 13 til punkt 25 for å forme underkroppen og det første robuste hjulet.",
-          "fact": "Rover-hjul er designet for å gripe løs sand og rulle over steiner uten å sitte fast."
-        },
-        {
-          "range": "26–38",
-          "title": "Hjulsystemet",
-          "learn": "Koble sammen punktene 26 til 38 for å fullføre mer av roverens hjul og fjæring.",
-          "fact": "NASAs Mars-rovere bruker en rocker-bogie-oppheng som hjelper alle seks hjulene til å holde seg på ujevn grunn."
-        },
-        {
-          "range": "39–49",
-          "title": "Setet og utstyret",
-          "learn": "Spor punktene 39 til 49 for å legge til setet og utstyret over roverkroppen.",
-          "fact": "Noen månerovere frakter astronauter, mens robotiske rovere utforsker uten at noen sitter inne."
-        },
-        {
-          "range": "50–59",
-          "title": "Parabolantenna",
-          "learn": "Fullfør ved å koble sammen punktene 50 til 59 for å fullføre kommunikasjonsskålen.",
-          "fact": "En rover bruker antenner for å sende oppdagelser til Jorden og motta nye instrukser."
+      },
+      "body": {
+        "h1": "",
+        "name": "Månesigd",
+        "tagline": "Spor en strålende del av nattehimmelen!",
+        "description": "Koble sammen 60 enkle punkter for å avsløre en vakker halvmåne som gløder på nattehimmelen. Denne gratis utskriftsbaren hjelper barn med å øve på tallrekker, visuell sporingsferdighet, konsentrasjon og jevn blyantkontroll.",
+        "fun_fact": "En halvmåne vises når sollys bare belyser en tynn, buet del av månen som vi kan se fra jorden.",
+        "faqs": [
+          {
+            "q": "Hvilken alder passer prikk-til-prikk-oppgaven Månesigd for?",
+            "a": "Den er laget for alderen Alder 4–8. Med 60 prikker passer den for barn som trygt kan telle til 60; yngre barn klarer den med litt hjelp."
+          },
+          {
+            "q": "Hvordan skriver jeg ut arbeidsarket Månesigd?",
+            "a": "Klikk på nedlastingsknappen for å få den gratis PDF-en, og skriv den ut på vanlig papir (A4 eller US Letter) fra hvilken som helst nettleser eller PDF-leser. Ingen spesiell programvare kreves."
+          },
+          {
+            "q": "Er utskriften Månesigd virkelig gratis?",
+            "a": "Ja — den er 100 % gratis, uten registrering, konto eller betaling. Du kan skrive den ut til hjemmet eller klasserommet."
+          }
+        ],
+        "dot_guide": {
+          "intro": "En slik halvmåne er en av de mest gjenkjennelige formene på nattehimmelen. Dette vennlige 60-punkts puslespillet bygger dens ytre kurve, spisse ender og indre bue i fem håndterlige etapper. Finn punkt 1 og la månen din begynne å lyse!",
+          "sections": [
+            {
+              "range": "1–12",
+              "title": "Den øvre månespissen",
+              "learn": "Koble sammen punktene 1 til 12 for å forme halvmånens smale øvre punkt.",
+              "fact": "Månen lager ikke sitt eget lys; den skinner ved å reflektere sollys."
+            },
+            {
+              "range": "13–24",
+              "title": "Den ytre kurven",
+              "learn": "Fortsett fra punkt 13 til punkt 24 langs månens brede ytterkurve.",
+              "fact": "Tyngdekraften gjorde månen nesten rund, akkurat som den gjør planeter runde."
+            },
+            {
+              "range": "25–36",
+              "title": "Den nedre månespissen",
+              "learn": "Følg punktene 25 til 36 for å danne det nedre punktet og sving mot den indre kurven.",
+              "fact": "Månens overflate er dekket av kratere laget av steiner som har truffet den over milliarder av år."
+            },
+            {
+              "range": "37–48",
+              "title": "Den indre halvmåne",
+              "learn": "Spor punktene 37 til 48 oppover den indre buen, og hold blyantlinjen jevn.",
+              "fact": "Månen bruker omtrent 29,5 dager på å gå gjennom en fullstendig syklus av faser."
+            },
+            {
+              "range": "49–60",
+              "title": "Gløden og Finish",
+              "learn": "Fullfør med punktene 49 til 60 for å lukke halvmånen og legge til de siste detaljene.",
+              "fact": "Folk over hele verden ser den samme månen, selv om månesigten kan virke forskjellig avhengig av hvor man befinner seg."
+            }
+          ],
+          "outro": "Vakkert arbeid—din halvmåne skinner! Legg til stjerner, søvnige skyer, eller en rakett som krysser himmelen, og oppdag <a href=\"/space/ringed-planet-dot-to-dot-puzzle/\">ringenplanet-oppgaven</a>.",
+          "color_schemes": []
         }
-      ],
-      "outro": "Oppdrag fullført — romfartøyet ditt er klart til å utforske! Legg til stjerner, kratere, planeter eller en vennlig romvesen for å skape ditt eget romlandskap."
+      }
+    },
+    {
+      "slug": "ringed-planet-dot-to-dot-puzzle",
+      "header": {
+        "title": "",
+        "meta_description": "",
+        "og": {
+          "title": "",
+          "description": "",
+          "image_alt": ""
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Ringet planet",
+          "description": "",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
+      },
+      "body": {
+        "h1": "",
+        "name": "Ringet planet",
+        "tagline": "Tegn en verden innhyllet i skinnende ringer!",
+        "description": "Koble sammen 43 enkle punkter for å avsløre en vakker ringplanet som flyter i rommet. Denne gratis utskriftsvennlige aktiviteten hjelper yngre barn å øve på tallrekkefølge, visuell sporingsferdighet, konsentrasjon og jevn blyantkontroll.",
+        "fun_fact": "Saturns ringer består av utallige is- og steinbiter, fra små korn til blokker på størrelse med hus.",
+        "faqs": [
+          {
+            "q": "Hvilken alder passer prikk-til-prikk-oppgaven Ringet planet for?",
+            "a": "Den er laget for alderen Alder 4–7. Med 43 prikker passer den for barn som trygt kan telle til 43; yngre barn klarer den med litt hjelp."
+          },
+          {
+            "q": "Hvordan skriver jeg ut arbeidsarket Ringet planet?",
+            "a": "Klikk på nedlastingsknappen for å få den gratis PDF-en, og skriv den ut på vanlig papir (A4 eller US Letter) fra hvilken som helst nettleser eller PDF-leser. Ingen spesiell programvare kreves."
+          },
+          {
+            "q": "Er utskriften Ringet planet virkelig gratis?",
+            "a": "Ja — den er 100 % gratis, uten registrering, konto eller betaling. Du kan skrive den ut til hjemmet eller klasserommet."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Langt bortenfor jorden snurrer en kjempestor planet mens brede ringer svever rundt den. Dette vennlige 43-punkts puslespillet skaper planeten og dens ringer i fire korte etapper, noe som gjør det til en morsom første romutfordring. Finn punkt 1 og begynn reisen din!",
+          "sections": [
+            {
+              "range": "1–11",
+              "title": "Toppen av planeten",
+              "learn": "Koble sammen punktene 1 til 11 for å tegne den buede øvre kanten av den fjerne planeten.",
+              "fact": "Planeter ser runde ut fordi tyngdekraften trekker materialet deres mot sentrum fra alle retninger."
+            },
+            {
+              "range": "12–22",
+              "title": "Den første ringen",
+              "learn": "Fortsett fra punkt 12 til punkt 22 for å spore den første brede buen i ringsystemet.",
+              "fact": "Saturn har tusenvis av smale ringdeler som ser ut som flere brede ringer når de betraktes på avstand."
+            },
+            {
+              "range": "23–33",
+              "title": "Planetens nedre kurve",
+              "learn": "Følg punktene 23 til 33 rundt den nedre halvdelen av planeten, og hold kurven jevn.",
+              "fact": "Saturn er en gasskjempe som hovedsakelig består av hydrogen og helium, de to letteste grunnstoffene."
+            },
+            {
+              "range": "34–43",
+              "title": "Ringene og overflatebehandlingen",
+              "learn": "Fullfør med prikkene 34 til 43 for å fullføre de buede ringene på den andre siden.",
+              "fact": "Saturns ringer er svært brede, men overraskende tynne i forhold til planetens størrelse."
+            }
+          ],
+          "outro": "Fantastisk arbeid—din ringede planet kretser blant stjernene! Legg til måner, en rakett og fargerike skyer, og fortsett utforskningen med <a href=\"/space/space-rover-dot-to-dot-puzzle/\">romrover-oppgaven</a>.",
+          "color_schemes": []
+        }
+      }
+    },
+    {
+      "slug": "space-rover-dot-to-dot-puzzle",
+      "header": {
+        "title": "",
+        "meta_description": "",
+        "og": {
+          "title": "",
+          "description": "",
+          "image_alt": ""
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Romrover",
+          "description": "",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
+      },
+      "body": {
+        "h1": "",
+        "name": "Romrover",
+        "tagline": "En vennlig oppdager på hjul",
+        "description": "Koble sammen 59 punkter for å avsløre en vennlig romrover klar til å utforske en annen verden. Denne gratis utskrivbare puslespillhjelper barn å øve på tallrekkefølge, konsentrasjon og blyantkontroll.",
+        "fun_fact": "Romrovere er robotiserte kjøretøy som utforsker overflaten på verdener som Månen og Mars.",
+        "faqs": [
+          {
+            "q": "Hvilken alder passer prikk-til-prikk-oppgaven Romrover for?",
+            "a": "Den er laget for alderen Alder 4–8. Med 59 prikker passer den for barn som trygt kan telle til 59; yngre barn klarer den med litt hjelp."
+          },
+          {
+            "q": "Hvordan skriver jeg ut arbeidsarket Romrover?",
+            "a": "Klikk på nedlastingsknappen for å få den gratis PDF-en, og skriv den ut på vanlig papir (A4 eller US Letter) fra hvilken som helst nettleser eller PDF-leser. Ingen spesiell programvare kreves."
+          },
+          {
+            "q": "Er utskriften Romrover virkelig gratis?",
+            "a": "Ja — den er 100 % gratis, uten registrering, konto eller betaling. Du kan skrive den ut til hjemmet eller klasserommet."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Klar for en tur utenfor jorden? Følg tallene fra 1 til 59 og se en vennlig romrover dukke opp. Beveg deg langsomt, sjekk hvert tall, og hold blyantstrekene dine pene mens du reiser rundt kjøretøyet.",
+          "sections": [
+            {
+              "range": "1–12",
+              "title": "Rover-karosseriet",
+              "learn": "Start ved punkt 1 og koble til punkt 12 for å spore roverens vennlige forside og solide kropp.",
+              "fact": "Planetariske rovere bærer med seg datamaskiner, kameraer og vitenskapelige verktøy inni en robust kropp."
+            },
+            {
+              "range": "13–25",
+              "title": "De første hjulene",
+              "learn": "Fortsett fra punkt 13 til punkt 25 for å forme underkroppen og det første robuste hjulet.",
+              "fact": "Rover-hjul er designet for å gripe løs sand og rulle over steiner uten å sitte fast."
+            },
+            {
+              "range": "26–38",
+              "title": "Hjulsystemet",
+              "learn": "Koble sammen punktene 26 til 38 for å fullføre mer av roverens hjul og fjæring.",
+              "fact": "NASAs Mars-rovere bruker en rocker-bogie-oppheng som hjelper alle seks hjulene til å holde seg på ujevn grunn."
+            },
+            {
+              "range": "39–49",
+              "title": "Setet og utstyret",
+              "learn": "Spor punktene 39 til 49 for å legge til setet og utstyret over roverkroppen.",
+              "fact": "Noen månerovere frakter astronauter, mens robotiske rovere utforsker uten at noen sitter inne."
+            },
+            {
+              "range": "50–59",
+              "title": "Parabolantenna",
+              "learn": "Fullfør ved å koble sammen punktene 50 til 59 for å fullføre kommunikasjonsskålen.",
+              "fact": "En rover bruker antenner for å sende oppdagelser til Jorden og motta nye instrukser."
+            }
+          ],
+          "outro": "Oppdrag fullført — romfartøyet ditt er klart til å utforske! Legg til stjerner, kratere, planeter eller en vennlig romvesen for å skape ditt eget romlandskap.",
+          "color_schemes": []
+        }
+      }
     }
-  }
-]
+  ]
+}

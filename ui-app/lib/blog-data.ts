@@ -61,11 +61,23 @@ export const blogPostShells: BlogPostShell[] = [
 ];
 
 function loadBlogContent(locale: string): BlogPostContent[] {
-  const en = require('../content/en/blog.json') as BlogPostContent[];
+  const normalize = (documents: any[]): BlogPostContent[] => documents.map((document) => ({
+    slug: document.slug,
+    title: document.header?.title ?? document.title,
+    description: document.header?.meta_description ?? document.body?.description ?? document.description,
+    category: document.body?.category ?? document.category,
+    readTime: document.body?.read_time ?? document.readTime,
+    author: document.body?.author ?? document.author,
+    authorBio: document.body?.author_bio ?? document.authorBio,
+    heroImage: document.body?.hero_image ?? document.heroImage,
+    sections: document.body?.sections ?? document.sections ?? [],
+    relatedLinks: document.body?.related_links ?? document.relatedLinks
+  }));
+  const en = normalize(require('../content/en/blog.json') as any[]);
   if (locale === 'en') return en;
 
   const contentLocale = ['ar-AE', 'ar-SA', 'ar-QA'].includes(locale) ? 'ar' : locale;
-  const localeContent = require(`../content/${contentLocale}/blog.json`) as BlogPostContent[];
+  const localeContent = normalize(require(`../content/${contentLocale}/blog.json`) as any[]);
   const bySlug = new Map(localeContent.map((post) => [post.slug, post]));
   return en.map((base) => ({ ...base, ...(bySlug.get(base.slug) ?? {}) }));
 }

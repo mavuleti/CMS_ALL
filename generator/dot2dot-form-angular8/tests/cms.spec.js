@@ -28,6 +28,66 @@ test.beforeEach(async ({ page }) => {
   await clearDrafts(page);
 });
 
+test('shows locale keyword research and updates the quality dashboard live', async ({ page }) => {
+  await loadPuppy(page);
+  const research = page.getByTestId('keyword-research');
+  await expect(research).not.toHaveAttribute('open', '');
+  await research.locator('summary').click();
+  await expect(research.getByText('Native phrases')).toBeVisible();
+  await expect(research.getByText('Connect the dots worksheets for kids', { exact: true }).first()).toBeVisible();
+
+  await page.locator('#header-title').fill('Connect the dots worksheets for kids');
+  const dashboard = page.getByTestId('content-quality-dashboard');
+  const usageRow = dashboard.locator('tr').filter({ hasText: 'Connect the dots worksheets for kids' });
+  await expect(usageRow.locator('td').last()).toHaveText('1');
+  await expect(dashboard.locator('.score strong')).not.toHaveText('0');
+});
+
+test('reloads split-locale calculations immediately when locale changes', async ({ page }) => {
+  await loadPuppy(page);
+  await page.getByTestId('menu-lang-select').selectOption('de');
+  const research = page.getByTestId('keyword-research');
+  await expect(research.locator('summary')).toContainText('de');
+  await expect(research.getByTestId('keyword-opportunities')).toContainText('Zahlenbilder zum ausdrucken');
+  await expect(page.getByTestId('content-quality-dashboard')).not.toContainText('Extreme dot to dot printables');
+  await expect(research.getByTestId('keyword-opportunity-primary_term')).toHaveAttribute('data-opportunity-key', 'primary_term');
+  await expect(page.getByTestId('content-quality-dashboard')).toHaveAttribute('data-locale', 'de');
+
+  const snapshot = await page.evaluate(() => window.getKeywordQualitySnapshot('dashboard'));
+  expect(snapshot.locale).toBe('de');
+  expect(snapshot.loading).toBe(false);
+  expect(snapshot.opportunities.find(item => item.key === 'primary_term').phrase).toBe('Zahlenbilder zum ausdrucken');
+  expect(snapshot.quality).toEqual(expect.objectContaining({ score: expect.any(Number), grade: expect.any(String) }));
+});
+
+test('edits and validates standalone header/body page documents', async ({ page }) => {
+  await page.getByTestId('menu-page-about').click();
+  const form = page.getByTestId('page-form');
+  await expect(form).toHaveAttribute('data-document-kind', 'page');
+  await expect(page.getByTestId('page-field-header.title')).toHaveValue('About DotToDotFreePrintables');
+  await expect(page.getByTestId('page-field-body.h1')).toHaveValue('About DotToDotFreePrintables');
+
+  await page.getByTestId('page-field-header.meta_description').fill('short');
+  await page.getByTestId('page-validate').click();
+  await expect(page.getByTestId('sidebar-validation')).toContainText('header.meta_description');
+  await page.getByTestId('page-field-header.meta_description').fill('Learn how every printable puzzle is designed, tested, and shared freely with parents, teachers, and children.');
+  await page.getByTestId('page-save').click();
+  await expect(page.getByTestId('page-output')).toBeVisible();
+});
+
+test('edits blog arrays field by field and validates new nested items', async ({ page }) => {
+  await page.getByTestId('menu-blog-best-free-dot-to-dot-printables-by-age').click();
+  const form = page.getByTestId('page-form');
+  await expect(form).toHaveAttribute('data-document-kind', 'blog');
+  await expect(page.getByTestId('page-field-body.h1')).toHaveValue(/Best Free/);
+  await expect(page.locator('[data-array-path="body.sections"] > .array-item')).toHaveCount(6);
+
+  await page.getByTestId('page-add-body.related_links').click();
+  await page.getByTestId('page-validate').click();
+  await expect(page.getByTestId('sidebar-validation')).toContainText('body.related_links.3.title');
+  await expect(page.getByTestId('sidebar-validation')).toContainText('body.related_links.3.href');
+});
+
 test('derives read-only hex values from the Crayola color dropdown', async ({ page }) => {
   await loadPuppy(page);
   const firstMapping = page.getByTestId('mapping-0-0');

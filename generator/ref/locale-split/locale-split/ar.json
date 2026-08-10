@@ -1,0 +1,175 @@
+{
+  "scoring_model": {
+    "name": "heuristic_opportunity_score_v1",
+    "status": "tunable_not_calibrated",
+    "purpose": "Prioritize phrases within this collected locale dataset only.",
+    "not_valid_for": [
+      "estimating search volume",
+      "predicting sales",
+      "measuring keyword competition",
+      "comparing external market demand"
+    ]
+  },
+  "locale": "ar",
+  "data": {
+    "alias_source_key": "ar",
+    "native_phrases": [
+      {
+        "phrase": "توصيل النقاط للأطفال",
+        "normalized": "توصيل النقاط للأطفال",
+        "meaning": "Connecting dots for kids",
+        "note": ""
+      },
+      {
+        "phrase": "أوراق عمل توصيل النقاط جاهزة للطباعة",
+        "normalized": "أوراق عمل توصيل النقاط جاهزة للطباعة",
+        "meaning": "Connect the dots worksheets ready to print",
+        "note": ""
+      },
+      {
+        "phrase": "رسمة توصيل النقاط للتلوين",
+        "normalized": "رسمة توصيل النقاط للتلوين",
+        "meaning": "Connect the dots drawing for coloring",
+        "note": ""
+      },
+      {
+        "phrase": "العاب توصيل النقاط ورقية",
+        "normalized": "العاب توصيل النقاط ورقية",
+        "meaning": "Paper-based connect the dots games",
+        "note": ""
+      },
+      {
+        "phrase": "لوحات توصيل النقاط المبسطة",
+        "normalized": "لوحات توصيل النقاط المبسطة",
+        "meaning": "Simplified connect the dots boards",
+        "note": ""
+      },
+      {
+        "phrase": "توصيل نقاط الحروف العربية",
+        "normalized": "توصيل نقاط الحروف العربية",
+        "meaning": "Connecting Arabic letter dots",
+        "note": ""
+      },
+      {
+        "phrase": "أوراق عمل الحروف بالتنقيط",
+        "normalized": "أوراق عمل الحروف بالتنقيط",
+        "meaning": "Dotted alphabet worksheets",
+        "note": ""
+      },
+      {
+        "phrase": "توصيل النقاط حسب الأرقام",
+        "normalized": "توصيل النقاط حسب الأرقام",
+        "meaning": "Connect the dots according to numbers",
+        "note": ""
+      },
+      {
+        "phrase": "تعليم كتابة الحروف بتوصيل النقاط",
+        "normalized": "تعليم كتابة الحروف بتوصيل النقاط",
+        "meaning": "Teaching letter writing via connecting dots",
+        "note": ""
+      },
+      {
+        "phrase": "تمارين الحروف بالنقاط للروضة",
+        "normalized": "تمارين الحروف بالنقاط للروضة",
+        "meaning": "Dotted letter exercises for kindergarten",
+        "note": ""
+      },
+      {
+        "phrase": "توصيل النقاط للتلوين رمضان",
+        "normalized": "توصيل النقاط للتلوين رمضان",
+        "meaning": "Ramadan connect the dots for coloring",
+        "note": ""
+      },
+      {
+        "phrase": "أوراق عمل إسلامية توصيل النقاط",
+        "normalized": "أوراق عمل إسلامية توصيل النقاط",
+        "meaning": "Islamic connect the dots worksheets",
+        "note": ""
+      },
+      {
+        "phrase": "رسم فانوس توصيل نقاط",
+        "normalized": "رسم فانوس توصيل نقاط",
+        "meaning": "Connect the dots lantern drawing",
+        "note": ""
+      },
+      {
+        "phrase": "أنشطة رمضانية للأطفال جاهزة للطباعة",
+        "normalized": "أنشطة رمضانية للأطفال جاهزة للطباعة",
+        "meaning": "Ramadan activities for kids ready to print",
+        "note": ""
+      },
+      {
+        "phrase": "توصيل النقاط",
+        "normalized": "توصيل النقاط",
+        "meaning": "connecting the dots",
+        "note": ""
+      },
+      {
+        "phrase": "أوراق عمل",
+        "normalized": "أوراق عمل",
+        "meaning": "worksheets",
+        "note": ""
+      },
+      {
+        "phrase": "جاهزة للطباعة",
+        "normalized": "جاهزة للطباعة",
+        "meaning": "ready to print",
+        "note": ""
+      },
+      {
+        "phrase": "Choose whether the keywords target commercial resources for the Arab market or personal-use downloads",
+        "normalized": "choose whether the keywords target commercial resources for the arab market or personal-use downloads",
+        "meaning": "",
+        "note": ""
+      },
+      {
+        "phrase": "Develop more specific keywords for the intended audience and use case",
+        "normalized": "develop more specific keywords for the intended audience and use case",
+        "meaning": "",
+        "note": ""
+      }
+    ],
+    "romanized_phrases": [],
+    "english_phrases_used_by_locals": [
+      {
+        "phrase": "Arabic alphabet dot to dot printable pdf",
+        "normalized": "arabic alphabet dot to dot printable pdf",
+        "meaning": "",
+        "note": ""
+      },
+      {
+        "phrase": "Connect the dots Arabic letters worksheets",
+        "normalized": "connect the dots arabic letters worksheet",
+        "meaning": "",
+        "note": ""
+      },
+      {
+        "phrase": "Ramadan dot to dot printables free",
+        "normalized": "ramadan dot to dot printable free",
+        "meaning": "",
+        "note": ""
+      },
+      {
+        "phrase": "Islamic connect the dots activity for kids",
+        "normalized": "islamic connect the dots activity for kids",
+        "meaning": "",
+        "note": ""
+      },
+      {
+        "phrase": "Arabic numbers dot to dot worksheets",
+        "normalized": "arabic numbers dot to dot worksheet",
+        "meaning": "",
+        "note": ""
+      }
+    ],
+    "intent_modifiers": []
+  },
+  "opportunity_summary": {
+    "primary_term": "توصيل النقاط للأطفال",
+    "print_modifier": "أوراق عمل توصيل النقاط جاهزة للطباعة",
+    "free_modifier": "",
+    "children_modifier": "توصيل النقاط للأطفال",
+    "adult_modifier": "",
+    "recommended_local_phrase": "توصيل النقاط للأطفال"
+  }
+}

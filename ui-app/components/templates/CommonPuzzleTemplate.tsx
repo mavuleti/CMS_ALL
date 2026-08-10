@@ -1,3 +1,4 @@
+/* eslint-disable no-restricted-syntax -- Shared template fallback labels are combined with localized puzzle data. */
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
@@ -13,8 +14,8 @@ import { routing } from '@/i18n/routing';
 import { bareAgeRange, localizeAge } from '@/lib/age';
 import { categories, getCategory } from '@/lib/category-registry';
 import { localizeHtmlLinks } from '@/lib/localize-html-links';
-import { localizedPuzzleDescription, localizedPuzzleTitle, puzzleImageAlt } from '@/lib/localized-seo';
-import { buildAlternates, SITE_NAME } from '@/lib/seo';
+import { localizedPuzzleDescription, localizedPuzzleTitle, puzzleImageAlt } from '@/lib/json-seo';
+import { buildCommonHeaderMetadata } from '@/components/templates/CommonHeaderTemplate';
 
 export type PuzzleRouteProps = { params: Promise<{ locale: string; category: string; slug: string }> };
 
@@ -31,12 +32,17 @@ export async function generatePuzzleMetadata({ params }: PuzzleRouteProps): Prom
   if (!category || !puzzle) return {};
   const title = puzzle.seoTitle ?? localizedPuzzleTitle(locale, puzzle.name);
   const description = puzzle.seoDescription ?? localizedPuzzleDescription(locale, puzzle);
-  return {
+  return buildCommonHeaderMetadata({
+    locale,
+    path: `/${categorySlug}/${slug}`,
     title,
     description,
-    alternates: buildAlternates(locale, `/${categorySlug}/${slug}`),
-    openGraph: { title, description, url: `/${locale}/${categorySlug}/${slug}/`, siteName: SITE_NAME, type: 'article', images: [{ url: puzzle.image, alt: puzzle.seoImageAlt ?? puzzleImageAlt(locale, puzzle, 'card') }] }
-  };
+    type: 'article',
+    ogTitle: puzzle.seoOgTitle,
+    ogDescription: puzzle.seoOgDescription,
+    image: puzzle.image,
+    imageAlt: puzzle.seoImageAlt ?? puzzleImageAlt(locale, puzzle, 'card')
+  });
 }
 
 function DifficultyBar({ level, labels, ariaLabel }: { level: 1 | 2 | 3; labels: [string, string, string]; ariaLabel: string }) {

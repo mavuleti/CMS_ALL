@@ -1,0 +1,134 @@
+{
+  "scoring_model": {
+    "name": "heuristic_opportunity_score_v1",
+    "status": "tunable_not_calibrated",
+    "purpose": "Prioritize phrases within this collected locale dataset only.",
+    "not_valid_for": [
+      "estimating search volume",
+      "predicting sales",
+      "measuring keyword competition",
+      "comparing external market demand"
+    ]
+  },
+  "locale": "sv",
+  "data": {
+    "alias_source_key": "sv",
+    "native_phrases": [
+      {
+        "phrase": "Följ punkterna att skriva ut PDF",
+        "normalized": "följ punkterna att skriva ut pdf",
+        "meaning": "Follow the dots to print PDF",
+        "note": ""
+      },
+      {
+        "phrase": "Dra streck mellan punkterna bilder gratis",
+        "normalized": "dra streck mellan punkterna bilder gratis",
+        "meaning": "Draw lines between the dots pictures free",
+        "note": ""
+      },
+      {
+        "phrase": "Punkt till punkt ritning barn",
+        "normalized": "punkt till punkt ritning barn",
+        "meaning": "Point-to-point drawing children",
+        "note": ""
+      },
+      {
+        "phrase": "Sifferbelysning prick till prick",
+        "normalized": "sifferbelysning prick till prick",
+        "meaning": "Numbered dot to dot",
+        "note": ""
+      },
+      {
+        "phrase": "Följ punkterna svår för vuxna",
+        "normalized": "följ punkterna svår för vuxna",
+        "meaning": "Follow the dots difficult for adults",
+        "note": "For complex puzzles"
+      },
+      {
+        "phrase": "Dra streck mellan punkterna 1-100",
+        "normalized": "dra streck mellan punkterna 1-100",
+        "meaning": "Draw lines between the dots 1-100",
+        "note": ""
+      },
+      {
+        "phrase": "Prick till prick med bokstäver",
+        "normalized": "prick till prick med bokstäver",
+        "meaning": "Dot to dot with letters",
+        "note": ""
+      },
+      {
+        "phrase": "Mysterieteckning följ punkterna",
+        "normalized": "mysterieteckning följ punkterna",
+        "meaning": "Mystery drawing follow the dots",
+        "note": ""
+      },
+      {
+        "phrase": "Provide Swedish terms for mazes (labyrinter) or word searches (ordgömma)",
+        "normalized": "provide swedish terms for mazes (labyrinter) or word searches (ordgömma)",
+        "meaning": "",
+        "note": ""
+      },
+      {
+        "phrase": "Translate instructions commonly printed on Swedish worksheets",
+        "normalized": "translate instructions commonly printed on swedish worksheet",
+        "meaning": "",
+        "note": ""
+      },
+      {
+        "phrase": "Recommend Swedish educational resource websites offering high-quality free printables",
+        "normalized": "recommend swedish educational resource websites offering high-quality free printable",
+        "meaning": "",
+        "note": ""
+      }
+    ],
+    "romanized_phrases": [],
+    "english_phrases_used_by_locals": [
+      {
+        "phrase": "Extreme dot to dot printables",
+        "normalized": "extreme dot to dot printable",
+        "meaning": "",
+        "note": ""
+      },
+      {
+        "phrase": "Hard connect the dots for adults PDF",
+        "normalized": "hard connect the dots for adults pdf",
+        "meaning": "",
+        "note": ""
+      },
+      {
+        "phrase": "Dot to dot worksheets free download",
+        "normalized": "dot to dot worksheet free download",
+        "meaning": "",
+        "note": ""
+      }
+    ],
+    "intent_modifiers": [
+      {
+        "phrase": "att skriva ut",
+        "normalized": "att skriva ut",
+        "meaning": "to print out",
+        "note": ""
+      },
+      {
+        "phrase": "gratis",
+        "normalized": "gratis",
+        "meaning": "free",
+        "note": ""
+      },
+      {
+        "phrase": "skriv ut",
+        "normalized": "skriv ut",
+        "meaning": "print",
+        "note": ""
+      }
+    ]
+  },
+  "opportunity_summary": {
+    "primary_term": "Följ punkterna att skriva ut PDF",
+    "print_modifier": "Följ punkterna att skriva ut PDF",
+    "free_modifier": "Dra streck mellan punkterna bilder gratis",
+    "children_modifier": "Punkt till punkt ritning barn",
+    "adult_modifier": "Följ punkterna svår för vuxna",
+    "recommended_local_phrase": "Följ punkterna att skriva ut PDF"
+  }
+}

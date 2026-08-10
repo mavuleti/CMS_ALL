@@ -1,706 +1,1016 @@
-[
-  {
-    "slug": "gas-balloon-usa-250-dot-to-dot-puzzle",
+{
+  "collection": {
     "header": {
-      "title": "Amerikan 250-vuotisjuhla: kaasupallo pisteestä pisteeseen — 48 pistettä",
-      "meta_description": "George Washington seurasi Amerikan ensimmäistä ilmapallolentoa vuonna 1793. Liidä 48 pisteen läpi tämän ilmaisen Amerikka 250 PDF:n kanssa, joka on tarkoitettu 4–7-vuotiaille.",
+      "title": "Amerikka 250 vuotta — pisteestä pisteeseen tulostettava lapsille",
+      "meta_description": "Juhlista Amerikan 250-vuotisjuhlaa ilmaisilla isänmaallisilla pisteestä pisteeseen tulostettavilla tehtävillä. Tulostusvalmis PDF.",
       "og": {
+        "title": "Ilmaisia Amerikka 250 -pisteestä pisteeseen -pulmia lapsille",
+        "description": "Ilmaisia isänmaallisia tulostettavia tehtäviä lapsille.",
+        "image": "/images/gas-balloon-usa-250-puzzle.webp"
+      },
+      "json_ld": {
+        "type": "CollectionPage",
+        "name": "Amerikka 250 vuotta",
+        "description": "Juhlista Amerikan 250-vuotissyntymäpäivää! Yhdistä pisteet paljastaaksesi isänmaallisia kohtauksia ja ikonisia amerikkalaisia symboleja. Kaikki tehtävät ovat ilmaisia ladata ja tulostaa – tiliä ei tarvita.",
+        "image": "/images/gas-balloon-usa-250-puzzle.webp",
+        "main_entity": {
+          "type": "ItemList",
+          "item_source": "puzzles"
+        }
+      },
+      "breadcrumb_json_ld": {
+        "type": "BreadcrumbList",
+        "items": [
+          {
+            "position": 1,
+            "name": "Home",
+            "path": "/"
+          },
+          {
+            "position": 2,
+            "name": "Amerikka 250 vuotta",
+            "path": "/usa-250/"
+          }
+        ]
+      }
+    },
+    "body": {
+      "h1": "Amerikka 250 vuotta Dot-to-Dot -tulostettavat materiaalit lapsille",
+      "name": "Amerikka 250 vuotta",
+      "tagline": "Miksi lapset rakastavat Amerikkaa: 250 pisteestä pisteeseen -palapeliä",
+      "description": "Juhlista Amerikan 250-vuotissyntymäpäivää! Yhdistä pisteet paljastaaksesi isänmaallisia kohtauksia ja ikonisia amerikkalaisia symboleja. Kaikki tehtävät ovat ilmaisia ladata ja tulostaa – tiliä ei tarvita.",
+      "hero_image": "/images/gas-balloon-usa-250-puzzle.webp",
+      "slug": "usa-250",
+      "faqs": [
+        {
+          "q": "Kuinka monta ilmaista America 250 -tulostettavaa pisteestä pisteeseen -tehtävää on olemassa?",
+          "a": "America 250 -kategoriassa on tällä hetkellä 11 ilmaista tulostettavaa yhdistä-piste-tehtävää, joissa on 48–124 pistettä. Jokainen tehtävä latautuu välittömästi tulostusvalmiina PDF-tiedostona (Letter- tai A4-koko, pysty- tai vaakasuuntainen) ilman rekisteröitymistä."
+        },
+        {
+          "q": "Ovatko America 250 -pisteestä pisteeseen -pulmat tulostettavissa ilmaiseksi?",
+          "a": "Kyllä — kaikki 11 America 250 -kokoelman pulmaa ovat täysin ilmaisia koti- ja luokkakäyttöön. DotToDotFreePrintables.com-sivustolla ei koskaan vaadita tiliä, sähköpostiosoitetta tai maksua."
+        },
+        {
+          "q": "Minkä ikäisille America 250 -palapelit sopivat?",
+          "a": "America 250 -kokoelman pistemäärät vaihtelevat 48:sta 124:ään, joten se sopii noin 4–12-vuotiaille. Valitse esikoululaisille ja päiväkotilapsille pienempiä pistemääriä ja 2.–6.-luokkalaisille suuremmat pistemäärät varmoille laskutaitoisille lapsille."
+        },
+        {
+          "q": "Mitä ovat America 250 -pisteestä pisteeseen -pulmat?",
+          "a": "Kokoelma 11 ilmaista isänmaallista tulostettavaa aihetta Yhdysvaltojen 250-vuotisjuhlan kunniaksi 4. heinäkuuta 2026 – mukaan lukien kotkalippuri, Vapaudenkello, ilotulitus, astronautti, avaruussukkula, syntymäpäiväkakku ja kuumailmapalloaiheet 48–124 pisteestä."
+        },
+        {
+          "q": "Sopivatko nämä 4. heinäkuuta järjestettävien luokkahuoneaktiviteettien tueksi?",
+          "a": "Kyllä. America 250 -mallisto on suunniteltu itsenäisyyspäivän 2026 juhlintaan, luokkahuoneiden yhteiskuntaopin harjoituksiin ja juhlatilaisuuksiin. Tulosta kokonaiset luokkasarjat ilmaiseksi – lisenssiä tai rekisteröitymistä ei tarvita."
+        }
+      ]
+    }
+  },
+  "puzzles": [
+    {
+      "slug": "gas-balloon-usa-250-dot-to-dot-puzzle",
+      "header": {
         "title": "Amerikan 250-vuotisjuhla: kaasupallo pisteestä pisteeseen — 48 pistettä",
-        "description": "George Washington seurasi Amerikan ensimmäistä ilmapallolentoa vuonna 1793. Liidä 48 pisteen läpi tämän ilmaisen Amerikka 250 PDF:n kanssa, joka on tarkoitettu 4–7-vuotiaille.",
-        "image_alt": "Juhlava kaasupallo leijuu Amerikka 250 -aiheisen maiseman yllä, kannateltuna 48 pisteestä"
+        "meta_description": "George Washington seurasi Amerikan ensimmäistä ilmapallolentoa vuonna 1793. Liidä 48 pisteen läpi tämän ilmaisen Amerikka 250 PDF:n kanssa, joka on tarkoitettu 4–7-vuotiaille.",
+        "og": {
+          "title": "Amerikan 250-vuotisjuhla: kaasupallo pisteestä pisteeseen — 48 pistettä",
+          "description": "George Washington seurasi Amerikan ensimmäistä ilmapallolentoa vuonna 1793. Liidä 48 pisteen läpi tämän ilmaisen Amerikka 250 PDF:n kanssa, joka on tarkoitettu 4–7-vuotiaille.",
+          "image_alt": "Juhlava kaasupallo leijuu Amerikka 250 -aiheisen maiseman yllä, kannateltuna 48 pisteestä"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Amerikka 250 -kaasupallo",
+          "description": "George Washington seurasi Amerikan ensimmäistä ilmapallolentoa vuonna 1793. Liidä 48 pisteen läpi tämän ilmaisen Amerikka 250 PDF:n kanssa, joka on tarkoitettu 4–7-vuotiaille.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
       },
-      "json_ld": {
-        "type": "CreativeWork",
+      "body": {
+        "h1": "Amerikka 250 Kaasu Ilmapallo Yhdistä pisteet — 48 Pistettä Ilmassa",
         "name": "Amerikka 250 -kaasupallo",
-        "description": "George Washington seurasi Amerikan ensimmäistä ilmapallolentoa vuonna 1793. Liidä 48 pisteen läpi tämän ilmaisen Amerikka 250 PDF:n kanssa, joka on tarkoitettu 4–7-vuotiaille.",
-        "image": "",
-        "educational_use": "Fine motor skills, number sequencing",
-        "age_range": ""
-      }
-    },
-    "body": {
-      "h1": "Amerikka 250 Kaasu Ilmapallo Yhdistä pisteet — 48 Pistettä Ilmassa",
-      "name": "Amerikka 250 -kaasupallo",
-      "tagline": "Juhlista Amerikan 250-vuotista taivalta!",
-      "description": "Yhdistä 48 helppoa pistettä paljastaaksesi upean kaasupallon, joka kohoaa Amerikan 250-vuotisjuhlan yllä! Tämä ilmainen tulostettava tehtävä auttaa pieniä lapsia harjoittelemaan numeroiden ja kynän käyttöä samalla kun he kunnioittavat 250 vuotta Amerikan historiaa.",
-      "fun_fact": "Ensimmäinen kaasuilmapallolento Amerikassa tapahtui vuonna 1793 — George Washington itse seurasi sen nousua Philadelphiassa!",
-      "dot_guide": {
-        "intro": "Amerikka täyttää 250 vuotta – neljännesvuosituhatta historiaa, keksintöjä ja seikkailuja! Mikä olisikaan parempi tapa juhlistaa kuin kohota juhlallisuuksien yläpuolelle upealla kaasupallolla? Kaasupallot olivat yksi ensimmäisistä lentävistä laitteista, ja amerikkalaiset ovat rakastaneet niitä tasavallan alkuajoista lähtien. Ota kynä, etsi piste 1 ja lähetetään tämä ilmapallo juhlataivaalle!",
-        "sections": [
+        "tagline": "Juhlista Amerikan 250-vuotista taivalta!",
+        "description": "Yhdistä 48 helppoa pistettä paljastaaksesi upean kaasupallon, joka kohoaa Amerikan 250-vuotisjuhlan yllä! Tämä ilmainen tulostettava tehtävä auttaa pieniä lapsia harjoittelemaan numeroiden ja kynän käyttöä samalla kun he kunnioittavat 250 vuotta Amerikan historiaa.",
+        "fun_fact": "Ensimmäinen kaasuilmapallolento Amerikassa tapahtui vuonna 1793 — George Washington itse seurasi sen nousua Philadelphiassa!",
+        "faqs": [
           {
-            "range": "1–10",
-            "title": "Ilmapallokirjekuori",
-            "learn": "Aloita pisteestä 1 ja yhdistä se pisteeseen 10 piirtääksesi ilmapallokuoren suuren, pyöreän yläosan – suuren värikkään pussin, joka pitää kaasua ja antaa ilmapallolle sen klassisen muodon. Lapset harjoittelevat tässä leveitä, kaarevia käyriä, jotka ovat erinomaisia suunnattoman kynänhallinnan ja ranteen liikkuvuuden kehittämiseen.",
-            "fact": "Kaasupallot täytetään ilmaa kevyemmällä kaasulla, nykyään usein heliumilla, mikä tekee kuoresta riittävän kelluvan nostamaan korin. Kuori voi sisältää tuhansia kuutiojalkoja kaasua, ja sen pyöreä muoto auttaa jakamaan paineen tasaisesti kaikkiin suuntiin."
+            "q": "Kuinka monta pistettä Amerikka 250 -kaasupallo -pisteestä pisteeseen -palapelissä on?",
+            "a": "Amerikka 250 -kaasupallo -tulostettavassa pistepelissä on 48 numeroitua pistettä. Se tekee siitä helpon tai keskivaikean palapelin, joka sopii parhaiten 5–8-vuotiaille (esikoululaisille - 2. luokkalaisille). Lapset yhdistävät pisteet numerojärjestyksessä paljastaakseen valmiin Amerikka 250 -kaasupallo -kuvan ja värittävät sen sitten."
           },
           {
-            "range": "11–22",
-            "title": "Tähdet ja raidat - yksityiskohta",
-            "learn": "Jatka pisteestä 11 pisteeseen 22 lisätäksesi koristeelliset paneeliviivat ja isänmaalliset yksityiskohdat, jotka kiertävät ilmapallon ympärille. Ilmapallokuoret on tyypillisesti tehty monista erillisistä paneeleista, jotka on ommeltu yhteen, ja nämä saumaviivat luovat kauniit geometriset kuviot, jotka näkyvät valmiissa kuvassa. Lapset harjoittelevat tässä lyhyempiä, suunnatumpia vetoja.",
-            "fact": "Varhaiset amerikkalaiset ilmapalloilijat koristelivat joskus ilmapallojaan isänmaallisilla väreillä ja symboleilla juhlistaakseen uutta kansakuntaa. Vuoden 1818 lippulaki asetti nykyaikaisen säännön, jossa lippuun kuuluu 13 raitaa ja yksi tähti kutakin osavaltiota kohden. Siksi Stars and Stripes -järjestelmä saattoi kasvaa jatkuvasti uusien osavaltioiden liittyessä Yhdysvaltoihin."
+            "q": "Onko Amerikka 250 -kaasupallo -pisteestä pisteeseen tulostettava versio ilmainen?",
+            "a": "Kyllä. Amerikka 250 -kaasupallo -tehtävämoniste on 100 % ilmainen ladata osoitteesta DotToDotFreePrintables.com – ei tiliä, sähköpostiosoitetta tai maksua vaadita. Se latautuu välittömästi tulostusvalmiina PDF-tiedostona sekä pysty- että vaakasuunnassa, US Letter- tai A4-kokoiselle paperille."
           },
           {
-            "range": "23–34",
-            "title": "Verkko ja kuormarengas",
-            "learn": "Piirrä pisteillä 23–34 verkko, joka kiertää ilmapallon ulkopuolen ja kuormarenkaan – pyöreän renkaan, joka on kirjekuoren pohjalla ja johon kori roikkuu – ympärille. Lapset harjoittelevat ristikkäisten viivojen verkostoa, mikä on loistava harjoitus tarkkuudelle ja suunnittelulle.",
-            "fact": "Monien kaasupallojen ympärillä oleva köysiverkko ei ole vain koriste – se auttaa jakamaan korin ja matkustajien painoa ilmapallon kuoren yli. Painon jakaminen useiden köysien yli auttaa ilmapalloa pysymään tasapainossa ja vahvana."
+            "q": "Minkä ikäisille Amerikka 250 -kaasupallo -yhdistä pisteet -työarkki sopii parhaiten?",
+            "a": "48 pisteen Amerikka 250 -kaasupallo -palapeli sopii parhaiten 5–8-vuotiaille (esikoulusta 2. luokkaan). Pienemmät lapset voivat nauttia siitä aikuisen kevyellä tuella, kun taas jo sujuvasti laskevat lapset voivat ratkaista sen itsenäisesti ja harjoitella numerojärjestyksen seuraamista jopa 48 pisteeseen asti."
           },
           {
-            "range": "35–42",
-            "title": "Ripustusköydet ja kori",
-            "learn": "Yhdistä pisteet 35 ja 42 piirtääksesi kuormarenkaasta alas laskeutuvat ripustusköydet ja pohjassa roikkuvan pajukorin. Korissa – jota kutsutaan gondoliksi – lentäjä ja matkustajat seisovat. Lapset harjoittelevat yhdensuuntaisten viivojen muodostamista yhteen muotoon, mikä kehittää upeita tilan hahmottamistaitoja.",
-            "fact": "Ilmapallokoreja on valmistettu pajusta yli 200 vuotta, ja paju on edelleen suosittu materiaali. Paju on kevyttä ja joustavaa, joten se voi taipua hieman laskeutumisen aikana. Joskus vanhat tavat ovat todellakin parhaita!"
+            "q": "Mitä taitoja Amerikka 250 -kaasupallo -pisteestä pisteeseen -palapeli opettaa?",
+            "a": "Amerikka 250 -kaasupallo -palapelin 48 pisteen yhdistäminen kehittää numeroiden tunnistusta ja laskemista 48:aan asti, kynän hallintaa, käden ja silmän koordinaatiota sekä jatkuvaa keskittymistä – samoja hienomotorisia taitoja, jotka tukevat varhaista käsin kirjoittamista. Valmiin kuvan värittäminen lisää luovaa palkintoa."
           },
           {
-            "range": "43–48",
-            "title": "Lippu ja viimeistely",
-            "learn": "Viimeistele palapeli yhdistämällä pisteet 43–48 lisätäksesi Amerikan lipun ja viimeiset juhlalliset yksityiskohdat. Vain kuusi pistettä kokoaa koko kohtauksen yhteen – kannusta lapsia hidastamaan ja tekemään näistä viimeisistä riveistä parhaansa. Siisti ja itsevarma loppu on merkki todellisesta pisteestä pisteeseen -asiantuntijasta!",
-            "fact": "Amerikan ensimmäinen kuumailmapallolentäjä oli ranskalainen Jean-Pierre Blanchard, joka teki historiallisen lentonsa Philadelphiasta 9. tammikuuta 1793. Presidentti George Washington antoi hänelle turvallisen matkan lupakirjan, jonka hän esitti kaikille laskeutumisen jälkeen tapaamilleen henkilöille – kirje osoittautui erittäin hyödylliseksi, kun hän laskeutui New Jerseyssä sijaitsevalle maatilalle ja joutui selittämään kuka hän oli!"
+            "q": "Mikä on hauska fakta kaasupallo America 250:stä?",
+            "a": "Amerikan ensimmäinen kaasupallolento tapahtui vuonna 1793 – George Washington itse näki sen laukaisun Philadelphiassa! Lapset löytävät tällaisia faktoja ratkoessaan Amerikka 250 -kaasupallo -pisteestä pisteeseen -palapeliä."
           }
         ],
-        "outro": "Hienoa työtä – America 250 -kaasupallosi on valmis nousemaan lentoon! Siinä on 48 pistettä ja yksi juhlava taivas. Väritä se punaisella, valkoisella ja sinisellä Amerikan upean 250-vuotissyntymäpäivän kunniaksi. Hyvää vuosipäivää, USA! Täydellinen luokkahuoneeseen – katso lisää <a href=\"/playgrounds/\">pisteestä pisteeseen -tehtäviä</a>.",
-        "color_schemes": []
+        "dot_guide": {
+          "intro": "Amerikka täyttää 250 vuotta – neljännesvuosituhatta historiaa, keksintöjä ja seikkailuja! Mikä olisikaan parempi tapa juhlistaa kuin kohota juhlallisuuksien yläpuolelle upealla kaasupallolla? Kaasupallot olivat yksi ensimmäisistä lentävistä laitteista, ja amerikkalaiset ovat rakastaneet niitä tasavallan alkuajoista lähtien. Ota kynä, etsi piste 1 ja lähetetään tämä ilmapallo juhlataivaalle!",
+          "sections": [
+            {
+              "range": "1–10",
+              "title": "Ilmapallokirjekuori",
+              "learn": "Aloita pisteestä 1 ja yhdistä se pisteeseen 10 piirtääksesi ilmapallokuoren suuren, pyöreän yläosan – suuren värikkään pussin, joka pitää kaasua ja antaa ilmapallolle sen klassisen muodon. Lapset harjoittelevat tässä leveitä, kaarevia käyriä, jotka ovat erinomaisia suunnattoman kynänhallinnan ja ranteen liikkuvuuden kehittämiseen.",
+              "fact": "Kaasupallot täytetään ilmaa kevyemmällä kaasulla, nykyään usein heliumilla, mikä tekee kuoresta riittävän kelluvan nostamaan korin. Kuori voi sisältää tuhansia kuutiojalkoja kaasua, ja sen pyöreä muoto auttaa jakamaan paineen tasaisesti kaikkiin suuntiin."
+            },
+            {
+              "range": "11–22",
+              "title": "Tähdet ja raidat - yksityiskohta",
+              "learn": "Jatka pisteestä 11 pisteeseen 22 lisätäksesi koristeelliset paneeliviivat ja isänmaalliset yksityiskohdat, jotka kiertävät ilmapallon ympärille. Ilmapallokuoret on tyypillisesti tehty monista erillisistä paneeleista, jotka on ommeltu yhteen, ja nämä saumaviivat luovat kauniit geometriset kuviot, jotka näkyvät valmiissa kuvassa. Lapset harjoittelevat tässä lyhyempiä, suunnatumpia vetoja.",
+              "fact": "Varhaiset amerikkalaiset ilmapalloilijat koristelivat joskus ilmapallojaan isänmaallisilla väreillä ja symboleilla juhlistaakseen uutta kansakuntaa. Vuoden 1818 lippulaki asetti nykyaikaisen säännön, jossa lippuun kuuluu 13 raitaa ja yksi tähti kutakin osavaltiota kohden. Siksi Stars and Stripes -järjestelmä saattoi kasvaa jatkuvasti uusien osavaltioiden liittyessä Yhdysvaltoihin."
+            },
+            {
+              "range": "23–34",
+              "title": "Verkko ja kuormarengas",
+              "learn": "Piirrä pisteillä 23–34 verkko, joka kiertää ilmapallon ulkopuolen ja kuormarenkaan – pyöreän renkaan, joka on kirjekuoren pohjalla ja johon kori roikkuu – ympärille. Lapset harjoittelevat ristikkäisten viivojen verkostoa, mikä on loistava harjoitus tarkkuudelle ja suunnittelulle.",
+              "fact": "Monien kaasupallojen ympärillä oleva köysiverkko ei ole vain koriste – se auttaa jakamaan korin ja matkustajien painoa ilmapallon kuoren yli. Painon jakaminen useiden köysien yli auttaa ilmapalloa pysymään tasapainossa ja vahvana."
+            },
+            {
+              "range": "35–42",
+              "title": "Ripustusköydet ja kori",
+              "learn": "Yhdistä pisteet 35 ja 42 piirtääksesi kuormarenkaasta alas laskeutuvat ripustusköydet ja pohjassa roikkuvan pajukorin. Korissa – jota kutsutaan gondoliksi – lentäjä ja matkustajat seisovat. Lapset harjoittelevat yhdensuuntaisten viivojen muodostamista yhteen muotoon, mikä kehittää upeita tilan hahmottamistaitoja.",
+              "fact": "Ilmapallokoreja on valmistettu pajusta yli 200 vuotta, ja paju on edelleen suosittu materiaali. Paju on kevyttä ja joustavaa, joten se voi taipua hieman laskeutumisen aikana. Joskus vanhat tavat ovat todellakin parhaita!"
+            },
+            {
+              "range": "43–48",
+              "title": "Lippu ja viimeistely",
+              "learn": "Viimeistele palapeli yhdistämällä pisteet 43–48 lisätäksesi Amerikan lipun ja viimeiset juhlalliset yksityiskohdat. Vain kuusi pistettä kokoaa koko kohtauksen yhteen – kannusta lapsia hidastamaan ja tekemään näistä viimeisistä riveistä parhaansa. Siisti ja itsevarma loppu on merkki todellisesta pisteestä pisteeseen -asiantuntijasta!",
+              "fact": "Amerikan ensimmäinen kuumailmapallolentäjä oli ranskalainen Jean-Pierre Blanchard, joka teki historiallisen lentonsa Philadelphiasta 9. tammikuuta 1793. Presidentti George Washington antoi hänelle turvallisen matkan lupakirjan, jonka hän esitti kaikille laskeutumisen jälkeen tapaamilleen henkilöille – kirje osoittautui erittäin hyödylliseksi, kun hän laskeutui New Jerseyssä sijaitsevalle maatilalle ja joutui selittämään kuka hän oli!"
+            }
+          ],
+          "outro": "Hienoa työtä – America 250 -kaasupallosi on valmis nousemaan lentoon! Siinä on 48 pistettä ja yksi juhlava taivas. Väritä se punaisella, valkoisella ja sinisellä Amerikan upean 250-vuotissyntymäpäivän kunniaksi. Hyvää vuosipäivää, USA! Täydellinen luokkahuoneeseen – katso lisää <a href=\"/playgrounds/\">pisteestä pisteeseen -tehtäviä</a>.",
+          "color_schemes": []
+        }
       }
-    }
-  },
-  {
-    "slug": "eagle-kite-banner-usa-250-dot-to-dot-puzzle",
-    "header": {
-      "title": "Kotkaleija pisteestä pisteeseen: 80 pistettä Amerikan 250-vuotisjuhlaan",
-      "meta_description": "Kotka ja isänmaallinen banneri nousevat lentoon 80 pisteen yli. Lataa tämä ilmainen Amerikka 250 tulostettava lasten käyttöön, ikäryhmä 5–9, juhlistaen vuotta 2026.",
-      "og": {
+    },
+    {
+      "slug": "eagle-kite-banner-usa-250-dot-to-dot-puzzle",
+      "header": {
         "title": "Kotkaleija pisteestä pisteeseen: 80 pistettä Amerikan 250-vuotisjuhlaan",
-        "description": "Kotka ja isänmaallinen banneri nousevat lentoon 80 pisteen yli. Lataa tämä ilmainen Amerikka 250 tulostettava lasten käyttöön, ikäryhmä 5–9, juhlistaen vuotta 2026.",
-        "image_alt": "Merikotkaleija vetää juhlavaa banderollia 80 tulostettavan pisteen läpi"
+        "meta_description": "Kotka ja isänmaallinen banneri nousevat lentoon 80 pisteen yli. Lataa tämä ilmainen Amerikka 250 tulostettava lasten käyttöön, ikäryhmä 5–9, juhlistaen vuotta 2026.",
+        "og": {
+          "title": "Kotkaleija pisteestä pisteeseen: 80 pistettä Amerikan 250-vuotisjuhlaan",
+          "description": "Kotka ja isänmaallinen banneri nousevat lentoon 80 pisteen yli. Lataa tämä ilmainen Amerikka 250 tulostettava lasten käyttöön, ikäryhmä 5–9, juhlistaen vuotta 2026.",
+          "image_alt": "Merikotkaleija vetää juhlavaa banderollia 80 tulostettavan pisteen läpi"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Amerikka 250 -kotkaleija ja banderoli",
+          "description": "Kotka ja isänmaallinen banneri nousevat lentoon 80 pisteen yli. Lataa tämä ilmainen Amerikka 250 tulostettava lasten käyttöön, ikäryhmä 5–9, juhlistaen vuotta 2026.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
       },
-      "json_ld": {
-        "type": "CreativeWork",
+      "body": {
+        "h1": "Kotka Leija Yhdistä pisteet: 80 Pistettä Amerikka 250:lle",
         "name": "Amerikka 250 -kotkaleija ja banderoli",
-        "description": "Kotka ja isänmaallinen banneri nousevat lentoon 80 pisteen yli. Lataa tämä ilmainen Amerikka 250 tulostettava lasten käyttöön, ikäryhmä 5–9, juhlistaen vuotta 2026.",
-        "image": "",
-        "educational_use": "Fine motor skills, number sequencing",
-        "age_range": ""
-      }
-    },
-    "body": {
-      "h1": "Kotka Leija Yhdistä pisteet: 80 Pistettä Amerikka 250:lle",
-      "name": "Amerikka 250 -kotkaleija ja banderoli",
-      "tagline": "Kohoa American Eaglen kanssa ja saavuta Yhdysvaltojen 250. taival!",
-      "description": "Yhdistä 80 helppoa pistettä paljastaaksesi majesteettisen kaljupäämerikotkan, joka liitää korkealla isänmaallisen lipun kanssa juhlistaakseen Amerikan 250-vuotisjuhlaa! Tämä ilmainen tulostettava tehtävä kehittää numeroiden lukemista ja hienomotorisia taitoja samalla herättäen ylpeyttä Amerikan 250 vuoden historiasta. Täydellinen 5–9-vuotiaille lapsille.",
-      "fun_fact": "Kalju kotka hyväksyttiin osaksi Yhdysvaltojen suurta sinettiä vuonna 1782 — vain kuusi vuotta itsenäisyysjulistuksen allekirjoittamisen jälkeen. Se on nyt virallinen kansallislintu, ja sen kuva esiintyy passeissa, kolikoissa ja virallisissa hallituksen asiakirjoissa yhä tänäkin päivänä!",
-      "dot_guide": {
-        "intro": "Amerikka juhlii 250-vuotissyntymäpäiväänsä, ja kansakunnan ikonisin symboli – kaljupäämerikotka – on täällä johtamassa juhlallisuuksia! Isänmaallinen lippu liehuen takanaan tämä majesteettinen lintu lentää korkealla juhlan yllä. Kotkat ovat edustaneet Amerikan vapautta ja voimaa tasavallan alkuajoista lähtien. Ota kynäsi, etsi piste 1 ja lähetetään tämä kotka lentoon!",
-        "sections": [
+        "tagline": "Kohoa American Eaglen kanssa ja saavuta Yhdysvaltojen 250. taival!",
+        "description": "Yhdistä 80 helppoa pistettä paljastaaksesi majesteettisen kaljupäämerikotkan, joka liitää korkealla isänmaallisen lipun kanssa juhlistaakseen Amerikan 250-vuotisjuhlaa! Tämä ilmainen tulostettava tehtävä kehittää numeroiden lukemista ja hienomotorisia taitoja samalla herättäen ylpeyttä Amerikan 250 vuoden historiasta. Täydellinen 5–9-vuotiaille lapsille.",
+        "fun_fact": "Kalju kotka hyväksyttiin osaksi Yhdysvaltojen suurta sinettiä vuonna 1782 — vain kuusi vuotta itsenäisyysjulistuksen allekirjoittamisen jälkeen. Se on nyt virallinen kansallislintu, ja sen kuva esiintyy passeissa, kolikoissa ja virallisissa hallituksen asiakirjoissa yhä tänäkin päivänä!",
+        "faqs": [
           {
-            "range": "1–16",
-            "title": "Kotkan pää ja nokka",
-            "learn": "Aloita pisteestä 1 ja yhdistä se pisteeseen 16 piirtääksesi kotkan rohkean valkoisen pään ja terävän, kaarevan nokan. Nämä huolellisesti suunnatut vedot auttavat lapsia lämmittelemään kynän otetta ja kehittämään varmaa käden hallintaa, jota he tarvitsevat edessä olevien siipien kuvaamiseen. Kannusta heitä piirtämään hitaasti ja tähtäämään jokaiseen pisteeseen tarkasti.",
-            "fact": "Valkopäämerikotkat eivät oikeastaan ole kaljuja – niiden nimi tulee vanhasta englanninkielisestä sanasta \"balde\", joka tarkoittaa valkoista. Silmiinpistävät valkoiset pään höyhenet ilmestyvät, kun lintu saavuttaa aikuisuuden noin viiden vuoden iässä. Ennen sitä nuorilla kotkilla on ruskean ja valkoisen kirjava höyhenpeite, mikä tekee niistä paljon vaikeampia tunnistaa."
+            "q": "Kuinka monta pistettä Amerikka 250 -kotkaleija ja banderoli -pisteestä pisteeseen -palapelissä on?",
+            "a": "Amerikka 250 -kotkaleija ja banderoli -tulostettavassa yhdistä-pisteet-palapelissä on 80 numeroitua pistettä. Se tekee siitä keskikokoisen palapelin, joka sopii parhaiten 6–9-vuotiaille (1.–3. luokka). Lapset yhdistävät pisteet numerojärjestyksessä paljastaakseen valmiin kotka-leijabanneri America 250 -kuvan ja värittävät sen sitten."
           },
           {
-            "range": "17–36",
-            "title": "Ojennetut siivet",
-            "learn": "Jatka pisteestä 17 pisteeseen 36 piirtääksesi kotkan voimakkaat, ojennetut siivet – kuvan dramaattisin osa. Nämä pitkät, laajoja viivoja siivenkärjestä vartaloon ovat loistava harjoitus ranteen joustavuudelle ja sujuvalle viivanhallinnalle. Lapset harjoittelevat tasaisen suunnan pitämistä suuremmalla alueella sivua.",
-            "fact": "Valkopäämerikotkan siipien kärkiväli voi olla jopa 2,4 metriä – lähes kahdeksan jalkaa kärjestä kärkeen – mikä tekee siitä yhden Pohjois-Amerikan suurimmista petolinnuista. Näiden massiivisten siipien ansiosta kotkat voivat liidellä lämpimän nousevan ilman lämpövirroissa tuntikausia ilman yhtäkään siiveniskua, taittaen valtavia matkoja hyvin vähällä vaivalla."
+            "q": "Onko Amerikka 250 -kotkaleija ja banderoli -leijabannerin pisteestä pisteeseen tulostettava versio ilmainen?",
+            "a": "Kyllä. Amerikka 250 -kotkaleija ja banderoli -tehtävämoniste on 100 % ilmainen ladata osoitteesta DotToDotFreePrintables.com – ei tiliä, sähköpostiosoitetta tai maksua vaadita. Se latautuu välittömästi tulostusvalmiina PDF-tiedostona sekä pysty- että vaakasuunnassa, US Letter- tai A4-kokoiselle paperille."
           },
           {
-            "range": "37–54",
-            "title": "Häntähöyhenet ja kynnet",
-            "learn": "Lisää valkoisten pyrstösulkien viuhka ja niiden alla olevat voimakkaat kaarevat kynnet piirtämällä pisteet 37–54. Lapset harjoittelevat viuhkakuvioiden yhdistelmää höyhenille ja teräviä, tarkkoja käyriä kullekin kynnelle – loistava yhdistelmä sekä sujuvuuden että hallinnan kehittämiseen yhdessä osiossa.",
-            "fact": "Kotkan kynnet ovat sen ensisijainen metsästystyökalu, joka pystyy tarttumaan noin 180 kilon neliötuumaa kohden olevalla voimalla – monta kertaa voimakkaammin kuin ihmisen käsi. Valkopäämerikotkalla on myös erityisen karhea, piikikäs pinta jalkapohjissaan, jota kutsutaan spiculesiksi. Ne auttavat sitä tarttumaan liukkaisiin, suoraan joista ja järvistä nostettuihin kaloihin."
+            "q": "Minkä ikäisille Amerikka 250 -kotkaleija ja banderoli -pisteyhdistämistehtävä sopii parhaiten?",
+            "a": "80 pisteen Amerikka 250 -kotkaleija ja banderoli -palapeli sopii parhaiten 6–9-vuotiaille (1.–3. luokkalaisille). Pienemmät lapset voivat nauttia siitä aikuisen kevyellä tuella, kun taas jo sujuvasti laskevat lapset voivat ratkaista sen itsenäisesti ja harjoitella numerojärjestyksen seuraamista jopa 80 pisteeseen asti."
           },
           {
-            "range": "55–68",
-            "title": "Isänmaallinen lippu",
-            "learn": "Yhdistä pisteet 55–68 piirtääksesi kotkan takana liehuvan viirin. Liikkuvan viirin nauhamaiset kaaret ovat loistava haaste tasaiselle ja sulavalle viivoitukselle. Kannusta lapsia kuvittelemaan viirin liehuvan kesätuulessa heidän piirtäessään lempeää kaarta.",
-            "fact": "Valkopäämerikotka pitelee lippua tai nauhaa nokassaan monissa kuuluisissa amerikkalaisissa tunnuksissa ja sinetissä. Yhdysvaltain suuressa sinetissä kotka pitelee nauhaa, jossa lukee \"E Pluribus Unum\" – latinaksi \"Monien joukosta yksi\" – motto, joka on esiintynyt amerikkalaisissa kolikoissa ja asiakirjoissa vuodesta 1782 lähtien."
+            "q": "Mitä taitoja Amerikka 250 -kotkaleija ja banderoli -pisteestä pisteeseen -palapeli opettaa?",
+            "a": "Yhdistämällä Amerikka 250 -kotkaleija ja banderoli -palapelin 80 pistettä kehitetään numeroiden tunnistusta ja laskemista kahdeksaankymmeneen asti, kynän käyttöä, käden ja silmän koordinaatiota sekä jatkuvaa keskittymistä – samoja hienomotorisia taitoja, jotka tukevat varhaista käsin kirjoittamista. Valmiin kuvan värittäminen lisää luovaa palkintoa."
           },
           {
-            "range": "69–80",
-            "title": "Tähdet ja viimeistely",
-            "learn": "Viimeistele palapeli yhdistämällä pisteet 69–80 lisätäksesi isänmaalliset tähdet ja viimeiset juhlalliset yksityiskohdat, jotka herättävät koko kohtauksen eloon. Vain kaksitoista pistettä kuvan täydentämiseksi – kannusta lapsia hidastamaan ja tekemään näistä viimeisistä riveistä parhaansa. Siisti ja huolellinen viimeistely on todellisen pisteestä pisteeseen -mestarin tunnusmerkki!",
-            "fact": "Yhdysvaltain lipun 50 tähteä edustavat kukin yhtä unionin 50 osavaltiosta. Lippua on päivitetty 27 kertaa uusien osavaltioiden liittyessä siihen – viimeisin muutos tapahtui vuonna 1960, kun Havaijin tähti lisättiin. Nykyinen 50 tähden muotoilu on ollut virallinen lippu pidempään kuin mikään muu versio Amerikan historiassa."
+            "q": "Mikä on hauska fakta Eagle Leijabanner America 250:stä?",
+            "a": "Valkopäämerikotka otettiin osaksi Yhdysvaltain sinettiä vuonna 1782 – vain kuusi vuotta itsenäisyysjulistuksen allekirjoittamisen jälkeen. Se on nyt virallinen kansallislintu, ja sen kuva esiintyy passeissa, kolikoissa ja virallisissa hallituksen asiakirjoissa tänäkin päivänä! Lapset löytävät tällaisia faktoja ratkoessaan Amerikka 250 -kotkaleija ja banderoli -pisteestä pisteeseen -palapeliä."
           }
         ],
-        "outro": "Upeaa työtä – America 250 -kotkasi kohoaa ylpeydestä! Se on 80 pistettä ja yksi upea amerikkalaisen vapauden symboli. Väritä kotka ruskeaksi ja valkoiseksi, lippu punaiseksi ja kultaiseksi ja tähdet punaiseksi, valkoiseksi ja siniseksi antaaksesi Amerikalle mahdollisimman isänmaallisen 250-vuotissyntymäpäivän kunnianosoituksen. Hyvää vuosipäivää, USA! Löydä lisää <a href=\"/usa-250/\">america 250 -tulostettavia</a> pitääksesi juhlan käynnissä.",
-        "color_schemes": []
+        "dot_guide": {
+          "intro": "Amerikka juhlii 250-vuotissyntymäpäiväänsä, ja kansakunnan ikonisin symboli – kaljupäämerikotka – on täällä johtamassa juhlallisuuksia! Isänmaallinen lippu liehuen takanaan tämä majesteettinen lintu lentää korkealla juhlan yllä. Kotkat ovat edustaneet Amerikan vapautta ja voimaa tasavallan alkuajoista lähtien. Ota kynäsi, etsi piste 1 ja lähetetään tämä kotka lentoon!",
+          "sections": [
+            {
+              "range": "1–16",
+              "title": "Kotkan pää ja nokka",
+              "learn": "Aloita pisteestä 1 ja yhdistä se pisteeseen 16 piirtääksesi kotkan rohkean valkoisen pään ja terävän, kaarevan nokan. Nämä huolellisesti suunnatut vedot auttavat lapsia lämmittelemään kynän otetta ja kehittämään varmaa käden hallintaa, jota he tarvitsevat edessä olevien siipien kuvaamiseen. Kannusta heitä piirtämään hitaasti ja tähtäämään jokaiseen pisteeseen tarkasti.",
+              "fact": "Valkopäämerikotkat eivät oikeastaan ole kaljuja – niiden nimi tulee vanhasta englanninkielisestä sanasta \"balde\", joka tarkoittaa valkoista. Silmiinpistävät valkoiset pään höyhenet ilmestyvät, kun lintu saavuttaa aikuisuuden noin viiden vuoden iässä. Ennen sitä nuorilla kotkilla on ruskean ja valkoisen kirjava höyhenpeite, mikä tekee niistä paljon vaikeampia tunnistaa."
+            },
+            {
+              "range": "17–36",
+              "title": "Ojennetut siivet",
+              "learn": "Jatka pisteestä 17 pisteeseen 36 piirtääksesi kotkan voimakkaat, ojennetut siivet – kuvan dramaattisin osa. Nämä pitkät, laajoja viivoja siivenkärjestä vartaloon ovat loistava harjoitus ranteen joustavuudelle ja sujuvalle viivanhallinnalle. Lapset harjoittelevat tasaisen suunnan pitämistä suuremmalla alueella sivua.",
+              "fact": "Valkopäämerikotkan siipien kärkiväli voi olla jopa 2,4 metriä – lähes kahdeksan jalkaa kärjestä kärkeen – mikä tekee siitä yhden Pohjois-Amerikan suurimmista petolinnuista. Näiden massiivisten siipien ansiosta kotkat voivat liidellä lämpimän nousevan ilman lämpövirroissa tuntikausia ilman yhtäkään siiveniskua, taittaen valtavia matkoja hyvin vähällä vaivalla."
+            },
+            {
+              "range": "37–54",
+              "title": "Häntähöyhenet ja kynnet",
+              "learn": "Lisää valkoisten pyrstösulkien viuhka ja niiden alla olevat voimakkaat kaarevat kynnet piirtämällä pisteet 37–54. Lapset harjoittelevat viuhkakuvioiden yhdistelmää höyhenille ja teräviä, tarkkoja käyriä kullekin kynnelle – loistava yhdistelmä sekä sujuvuuden että hallinnan kehittämiseen yhdessä osiossa.",
+              "fact": "Kotkan kynnet ovat sen ensisijainen metsästystyökalu, joka pystyy tarttumaan noin 180 kilon neliötuumaa kohden olevalla voimalla – monta kertaa voimakkaammin kuin ihmisen käsi. Valkopäämerikotkalla on myös erityisen karhea, piikikäs pinta jalkapohjissaan, jota kutsutaan spiculesiksi. Ne auttavat sitä tarttumaan liukkaisiin, suoraan joista ja järvistä nostettuihin kaloihin."
+            },
+            {
+              "range": "55–68",
+              "title": "Isänmaallinen lippu",
+              "learn": "Yhdistä pisteet 55–68 piirtääksesi kotkan takana liehuvan viirin. Liikkuvan viirin nauhamaiset kaaret ovat loistava haaste tasaiselle ja sulavalle viivoitukselle. Kannusta lapsia kuvittelemaan viirin liehuvan kesätuulessa heidän piirtäessään lempeää kaarta.",
+              "fact": "Valkopäämerikotka pitelee lippua tai nauhaa nokassaan monissa kuuluisissa amerikkalaisissa tunnuksissa ja sinetissä. Yhdysvaltain suuressa sinetissä kotka pitelee nauhaa, jossa lukee \"E Pluribus Unum\" – latinaksi \"Monien joukosta yksi\" – motto, joka on esiintynyt amerikkalaisissa kolikoissa ja asiakirjoissa vuodesta 1782 lähtien."
+            },
+            {
+              "range": "69–80",
+              "title": "Tähdet ja viimeistely",
+              "learn": "Viimeistele palapeli yhdistämällä pisteet 69–80 lisätäksesi isänmaalliset tähdet ja viimeiset juhlalliset yksityiskohdat, jotka herättävät koko kohtauksen eloon. Vain kaksitoista pistettä kuvan täydentämiseksi – kannusta lapsia hidastamaan ja tekemään näistä viimeisistä riveistä parhaansa. Siisti ja huolellinen viimeistely on todellisen pisteestä pisteeseen -mestarin tunnusmerkki!",
+              "fact": "Yhdysvaltain lipun 50 tähteä edustavat kukin yhtä unionin 50 osavaltiosta. Lippua on päivitetty 27 kertaa uusien osavaltioiden liittyessä siihen – viimeisin muutos tapahtui vuonna 1960, kun Havaijin tähti lisättiin. Nykyinen 50 tähden muotoilu on ollut virallinen lippu pidempään kuin mikään muu versio Amerikan historiassa."
+            }
+          ],
+          "outro": "Upeaa työtä – America 250 -kotkasi kohoaa ylpeydestä! Se on 80 pistettä ja yksi upea amerikkalaisen vapauden symboli. Väritä kotka ruskeaksi ja valkoiseksi, lippu punaiseksi ja kultaiseksi ja tähdet punaiseksi, valkoiseksi ja siniseksi antaaksesi Amerikalle mahdollisimman isänmaallisen 250-vuotissyntymäpäivän kunnianosoituksen. Hyvää vuosipäivää, USA! Löydä lisää <a href=\"/usa-250/\">america 250 -tulostettavia</a> pitääksesi juhlan käynnissä.",
+          "color_schemes": []
+        }
       }
-    }
-  },
-  {
-    "slug": "america-250-birthday-fireworks-dot-to-dot-puzzle",
-    "header": {
-      "title": "Ilotulitus pisteestä pisteeseen — sytytä 90 pistettä Amerikan 250-juhlaan",
-      "meta_description": "Ilotulitukset ovat merkinneet itsenäisyyspäivää vuodesta 1777. Sytytä 90 pisteen esitys tämän ilmaisen 2026 Amerikka 250 PDF:n avulla, joka on tarkoitettu 6–10-vuotiaille.",
-      "og": {
+    },
+    {
+      "slug": "america-250-birthday-fireworks-dot-to-dot-puzzle",
+      "header": {
         "title": "Ilotulitus pisteestä pisteeseen — sytytä 90 pistettä Amerikan 250-juhlaan",
-        "description": "Ilotulitukset ovat merkinneet itsenäisyyspäivää vuodesta 1777. Sytytä 90 pisteen esitys tämän ilmaisen 2026 Amerikka 250 PDF:n avulla, joka on tarkoitettu 6–10-vuotiaille.",
-        "image_alt": "Räjähtävä ilotulitusnäytös Amerikka 250 -juhlaan syttyy 90 tulostettavasta pisteestä"
+        "meta_description": "Ilotulitukset ovat merkinneet itsenäisyyspäivää vuodesta 1777. Sytytä 90 pisteen esitys tämän ilmaisen 2026 Amerikka 250 PDF:n avulla, joka on tarkoitettu 6–10-vuotiaille.",
+        "og": {
+          "title": "Ilotulitus pisteestä pisteeseen — sytytä 90 pistettä Amerikan 250-juhlaan",
+          "description": "Ilotulitukset ovat merkinneet itsenäisyyspäivää vuodesta 1777. Sytytä 90 pisteen esitys tämän ilmaisen 2026 Amerikka 250 PDF:n avulla, joka on tarkoitettu 6–10-vuotiaille.",
+          "image_alt": "Räjähtävä ilotulitusnäytös Amerikka 250 -juhlaan syttyy 90 tulostettavasta pisteestä"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Amerikan 250-vuotissyntymäpäivän ilotulitus",
+          "description": "Ilotulitukset ovat merkinneet itsenäisyyspäivää vuodesta 1777. Sytytä 90 pisteen esitys tämän ilmaisen 2026 Amerikka 250 PDF:n avulla, joka on tarkoitettu 6–10-vuotiaille.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
       },
-      "json_ld": {
-        "type": "CreativeWork",
+      "body": {
+        "h1": "Amerikka 250 Ilotulitukset Yhdistä pisteet — Sytytä 90 Pistettä",
         "name": "Amerikan 250-vuotissyntymäpäivän ilotulitus",
-        "description": "Ilotulitukset ovat merkinneet itsenäisyyspäivää vuodesta 1777. Sytytä 90 pisteen esitys tämän ilmaisen 2026 Amerikka 250 PDF:n avulla, joka on tarkoitettu 6–10-vuotiaille.",
-        "image": "",
-        "educational_use": "Fine motor skills, number sequencing",
-        "age_range": ""
-      }
-    },
-    "body": {
-      "h1": "Amerikka 250 Ilotulitukset Yhdistä pisteet — Sytytä 90 Pistettä",
-      "name": "Amerikan 250-vuotissyntymäpäivän ilotulitus",
-      "tagline": "Valaise taivas Amerikan 250-vuotissyntymäpäivän kunoksi!",
-      "description": "Yhdistä 90 helppoa pistettä paljastaaksesi upean ilotulitusnäytöksen, joka juhlistaa Amerikan 250-vuotisjuhlaa! Tämä ilmainen tulostettava tehtävä kehittää numeroiden lukemista ja hienomotorisia taitoja samalla kun se sytyttää isänmaallista ylpeyttä. Täydellinen 6–10-vuotiaille lapsille, jotka ovat valmiita tarttumaan pidempään pisteestä pisteeseen -haasteeseen.",
-      "fun_fact": "Ilotulitukset ovat olleet osa amerikkalaisia itsenäisyyspäivän juhlia ensimmäisestä vuosipäivästä 4. heinäkuuta 1777 — vain vuosi itsenäisyysjulistuksen allekirjoittamisen jälkeen!",
-      "dot_guide": {
-        "intro": "Amerikka täyttää 250 vuotta – ja mikä olisikaan parempi tapa juhlistaa neljännesvuosituhatta kuin häikäisevällä ilotulituksen täyttämällä taivaalla? Ilotulitteet ovat valaisseet itsenäisyyspäivän kansakunnan alkuajoista lähtien ja muuttaneet yötaivaan värien ja valojen kankaaksi. Ota kynäsi, etsi piste 1 ja aloitetaan tämä upea syntymäpäivänäytös!",
-        "sections": [
+        "tagline": "Valaise taivas Amerikan 250-vuotissyntymäpäivän kunoksi!",
+        "description": "Yhdistä 90 helppoa pistettä paljastaaksesi upean ilotulitusnäytöksen, joka juhlistaa Amerikan 250-vuotisjuhlaa! Tämä ilmainen tulostettava tehtävä kehittää numeroiden lukemista ja hienomotorisia taitoja samalla kun se sytyttää isänmaallista ylpeyttä. Täydellinen 6–10-vuotiaille lapsille, jotka ovat valmiita tarttumaan pidempään pisteestä pisteeseen -haasteeseen.",
+        "fun_fact": "Ilotulitukset ovat olleet osa amerikkalaisia itsenäisyyspäivän juhlia ensimmäisestä vuosipäivästä 4. heinäkuuta 1777 — vain vuosi itsenäisyysjulistuksen allekirjoittamisen jälkeen!",
+        "faqs": [
           {
-            "range": "1–18",
-            "title": "Yötaivas",
-            "learn": "Aloita pisteestä 1 ja yhdistä se pisteeseen 18 piirtääksesi syvän tähtitaivaan, joka muodostaa näytöksen taustan. Nämä leveät, kaartuvat vedot auttavat lapsia lämmittelemään kynän otetta ja rakentamaan pehmeät, varmat viivat, joita he tarvitsevat edessä olevia jännittäviä ilotulituksia varten.",
-            "fact": "Yötaivas näyttää pimeältä, koska aurinko on maapallon toisella puolella, mutta se ei ole koskaan täysin tyhjä – kirkkaana yönä poissa kaupungin valoista voi nähdä jopa 4 500 tähteä paljaalla silmällä. Sama taivas tervehti perustajaisiä, kun he juhlivat itsenäisyyttään ensimmäisen kerran vuonna 1776."
+            "q": "Kuinka monta pistettä on Amerikan 250-vuotissyntymäpäivän ilotulitus -pisteestä pisteeseen -palapelissä?",
+            "a": "America 250 Syntymäpäiväilotulituspelin pisteyhdistämispelissä on 90 numeroitua pistettä. Se tekee siitä keskikokoisen palapelin, joka sopii parhaiten 6–9-vuotiaille (1.–3. luokka). Lapset yhdistävät pisteet numerojärjestyksessä paljastaakseen valmiin America 250 Syntymäpäiväilotulituspelin kuvan ja värittävät sen sitten."
           },
           {
-            "range": "19–36",
-            "title": "Ensimmäinen ilotulitusräjähdys",
-            "learn": "Jatka pisteestä 19 pisteeseen 36 piirtääksesi ensimmäisen suuren ilotulitusraketin räjähdyksen, joka räjähtää taivaalle. Lapset harjoittelevat säteileviä linjoja, jotka lähtevät ulospäin keskipisteestä – loistava harjoitus suunnanhallinnalle ja ranteen kiertoliikkeelle.",
-            "fact": "Ilotulitteet keksittiin Kiinassa yli 1 000 vuotta sitten, kun alkemistit havaitsivat, että hiilen, rikin ja kaliumnitraatin seos sai aikaan kirkkaan välähdyksen ja pamauksen. Resepti levisi lopulta Eurooppaan ja sitten Amerikkaan, missä siitä tuli juhlan tunnusomainen ääni."
+            "q": "Onko Amerikan 250-vuotissyntymäpäivän ilotulitusraketti tulostettava pisteestä pisteeseen ilmainen?",
+            "a": "Kyllä. Amerikan 250-vuotissyntymäpäivän ilotulitus -työarkki on 100 % ilmainen ladata osoitteesta DotToDotFreePrintables.com – ei tiliä, sähköpostiosoitetta tai maksua vaadita. Se latautuu välittömästi tulostusvalmiina PDF-tiedostona sekä pysty- että vaakasuunnassa, US Letter- tai A4-kokoiselle paperille."
           },
           {
-            "range": "37–54",
-            "title": "Valuvat kipinät",
-            "learn": "Piirrä pisteet 37–54 lisätäksesi kimaltelevan kipinäsyöksyn, joka valuu alaspäin pääpurkauksen jälkeen. Nämä kaarevat, laskeutuvat viivat antavat ilotulitteelle niiden tunnusomaisen itkupajun muodon ja tarjoavat hyvää harjoitusta tasaisten, lempeiden käyrien piirtämiseen.",
-            "fact": "Ilotulitteiden eri värit syntyvät polttamalla erilaisia metallisuoloja: strontiumsuolat tuottavat punaista, bariumsuolat vihreää, kupariyhdisteet sinistä ja natriumyhdisteet kirkkaan keltaista. Näiden suolojen sekoittaminen antaa pyroteknikoille mahdollisuuden maalata taivaan lähes millä tahansa haluamallaan värillä."
+            "q": "Minkä ikäisille America 250 Syntymäpäiväilotulitusraketti sopii parhaiten?",
+            "a": "90 pisteen Amerikan 250-vuotissyntymäpäivän ilotulitus -palapeli sopii parhaiten 6–9-vuotiaille (1.–3. luokkalaisille). Pienemmät lapset voivat nauttia siitä aikuisen kevyellä tuella, kun taas jo sujuvasti laskevat lapset voivat ratkaista sen itsenäisesti ja harjoitella numerojärjestyksen seuraamista jopa 90 pisteeseen asti."
           },
           {
-            "range": "55–72",
-            "title": "Suuri finaalipurkaus",
-            "learn": "Yhdistä pisteet 55–72 paljastaaksesi kaikkien aikojen suurimman ja kirkkaimman ilotulitteen – suuren finaaliräjähdyksen, joka täyttää taivaan keskipisteen. Lapset harjoittelevat tiheää tähtiryöppyä, joka koostuu yhteen pisteeseen yhtyvistä viivoista, mikä on loistava haaste tarkkuudelle ja tilasuunnittelulle.",
-            "fact": "Ilotulitusten \"grand finale\" -perinne sai alkunsa, koska varhaiset ammattipyroteknikot halusivat päättää näytökset mahdollisimman tehokkaasti ennen kuin väkijoukko ehti hajaantua. Nykypäivän finaaleissa voidaan ampua satoja ammuksia minuutissa, mikä muuttaa taivaan lähes päivänvalon kirkkaaksi muutamaksi jännittäväksi sekunniksi."
+            "q": "Mitä taitoja Amerikan 250-vuotissyntymäpäivän ilotulitus -pisteestä pisteeseen -palapeli opettaa?",
+            "a": "Yhdistämällä Amerikan 250-vuotissyntymäpäivän ilotulitus -palapelin 90 pistettä kehitetään numeroiden tunnistusta ja laskemista 90:een asti, kynän hallintaa, käden ja silmän koordinaatiota sekä jatkuvaa keskittymistä – samoja hienomotorisia perustaitoja, jotka tukevat varhaista käsin kirjoittamista. Valmiin kuvan värittäminen lisää luovaa palkintoa."
           },
           {
-            "range": "73–90",
-            "title": "Tähdet, lippu ja viimeistely",
-            "learn": "Viimeistele palapeli yhdistämällä pisteet 73–90 lisätäksesi isänmaalliset tähdet, heiluvan Amerikan lipun ja viimeiset juhlalliset yksityiskohdat, jotka täydentävät syntymäpäiväkohtauksen. Kannusta lapsia ratkaisemaan asiat rauhassa – nämä viimeiset pisteet herättävät koko kuvan eloon. Huolellinen ja itsevarma viimeistely on todellisen pisteestä pisteeseen -mestarin tunnusmerkki!",
-            "fact": "Yhdysvaltain lipussa on 50 tähteä – yksi kutakin osavaltiota kohden – ja 13 raitaa, jotka edustavat alkuperäisiä siirtokuntia. Joka vuosi heinäkuun neljäntenä päivänä lippu liehuu auringonnoususta auringonlaskuun kodeissa, kouluissa ja hallintorakennuksissa ympäri maata, pienimmästä kaupungista Valkoiseen taloon."
+            "q": "Mikä on hauska fakta Amerikan 250-vuotissyntymäpäivän ilotulitteesta?",
+            "a": "Ilotulitus on ollut osa Yhdysvaltain itsenäisyyspäivän juhlintaa aivan ensimmäisestä vuosipäivästä lähtien 4. heinäkuuta 1777 – vain vuosi itsenäisyysjulistuksen allekirjoittamisen jälkeen! Lapset löytävät tällaisia faktoja ratkoessaan Amerikan 250-vuotissyntymäpäivän ilotulituksen pisteestä pisteeseen -palapeliä."
           }
         ],
-        "outro": "Loistavaa työtä – America 250 -ilotulitusnäytöksesi valaisee taivaan! Se on 90 pistettä ja yksi upea syntymäpäiväjuhla. Väritä purkaukset punaisella, valkoisella ja sinisellä antaaksesi Amerikalle mahdollisimman isänmaallisen läksiäisen. Hyvää 250. syntymäpäivää, USA! Tutustu kaikkiin <a href=\"/\">pisteestä pisteeseen -tulostettaviin</a>-materiaaleihimme.",
-        "color_schemes": []
+        "dot_guide": {
+          "intro": "Amerikka täyttää 250 vuotta – ja mikä olisikaan parempi tapa juhlistaa neljännesvuosituhatta kuin häikäisevällä ilotulituksen täyttämällä taivaalla? Ilotulitteet ovat valaisseet itsenäisyyspäivän kansakunnan alkuajoista lähtien ja muuttaneet yötaivaan värien ja valojen kankaaksi. Ota kynäsi, etsi piste 1 ja aloitetaan tämä upea syntymäpäivänäytös!",
+          "sections": [
+            {
+              "range": "1–18",
+              "title": "Yötaivas",
+              "learn": "Aloita pisteestä 1 ja yhdistä se pisteeseen 18 piirtääksesi syvän tähtitaivaan, joka muodostaa näytöksen taustan. Nämä leveät, kaartuvat vedot auttavat lapsia lämmittelemään kynän otetta ja rakentamaan pehmeät, varmat viivat, joita he tarvitsevat edessä olevia jännittäviä ilotulituksia varten.",
+              "fact": "Yötaivas näyttää pimeältä, koska aurinko on maapallon toisella puolella, mutta se ei ole koskaan täysin tyhjä – kirkkaana yönä poissa kaupungin valoista voi nähdä jopa 4 500 tähteä paljaalla silmällä. Sama taivas tervehti perustajaisiä, kun he juhlivat itsenäisyyttään ensimmäisen kerran vuonna 1776."
+            },
+            {
+              "range": "19–36",
+              "title": "Ensimmäinen ilotulitusräjähdys",
+              "learn": "Jatka pisteestä 19 pisteeseen 36 piirtääksesi ensimmäisen suuren ilotulitusraketin räjähdyksen, joka räjähtää taivaalle. Lapset harjoittelevat säteileviä linjoja, jotka lähtevät ulospäin keskipisteestä – loistava harjoitus suunnanhallinnalle ja ranteen kiertoliikkeelle.",
+              "fact": "Ilotulitteet keksittiin Kiinassa yli 1 000 vuotta sitten, kun alkemistit havaitsivat, että hiilen, rikin ja kaliumnitraatin seos sai aikaan kirkkaan välähdyksen ja pamauksen. Resepti levisi lopulta Eurooppaan ja sitten Amerikkaan, missä siitä tuli juhlan tunnusomainen ääni."
+            },
+            {
+              "range": "37–54",
+              "title": "Valuvat kipinät",
+              "learn": "Piirrä pisteet 37–54 lisätäksesi kimaltelevan kipinäsyöksyn, joka valuu alaspäin pääpurkauksen jälkeen. Nämä kaarevat, laskeutuvat viivat antavat ilotulitteelle niiden tunnusomaisen itkupajun muodon ja tarjoavat hyvää harjoitusta tasaisten, lempeiden käyrien piirtämiseen.",
+              "fact": "Ilotulitteiden eri värit syntyvät polttamalla erilaisia metallisuoloja: strontiumsuolat tuottavat punaista, bariumsuolat vihreää, kupariyhdisteet sinistä ja natriumyhdisteet kirkkaan keltaista. Näiden suolojen sekoittaminen antaa pyroteknikoille mahdollisuuden maalata taivaan lähes millä tahansa haluamallaan värillä."
+            },
+            {
+              "range": "55–72",
+              "title": "Suuri finaalipurkaus",
+              "learn": "Yhdistä pisteet 55–72 paljastaaksesi kaikkien aikojen suurimman ja kirkkaimman ilotulitteen – suuren finaaliräjähdyksen, joka täyttää taivaan keskipisteen. Lapset harjoittelevat tiheää tähtiryöppyä, joka koostuu yhteen pisteeseen yhtyvistä viivoista, mikä on loistava haaste tarkkuudelle ja tilasuunnittelulle.",
+              "fact": "Ilotulitusten \"grand finale\" -perinne sai alkunsa, koska varhaiset ammattipyroteknikot halusivat päättää näytökset mahdollisimman tehokkaasti ennen kuin väkijoukko ehti hajaantua. Nykypäivän finaaleissa voidaan ampua satoja ammuksia minuutissa, mikä muuttaa taivaan lähes päivänvalon kirkkaaksi muutamaksi jännittäväksi sekunniksi."
+            },
+            {
+              "range": "73–90",
+              "title": "Tähdet, lippu ja viimeistely",
+              "learn": "Viimeistele palapeli yhdistämällä pisteet 73–90 lisätäksesi isänmaalliset tähdet, heiluvan Amerikan lipun ja viimeiset juhlalliset yksityiskohdat, jotka täydentävät syntymäpäiväkohtauksen. Kannusta lapsia ratkaisemaan asiat rauhassa – nämä viimeiset pisteet herättävät koko kuvan eloon. Huolellinen ja itsevarma viimeistely on todellisen pisteestä pisteeseen -mestarin tunnusmerkki!",
+              "fact": "Yhdysvaltain lipussa on 50 tähteä – yksi kutakin osavaltiota kohden – ja 13 raitaa, jotka edustavat alkuperäisiä siirtokuntia. Joka vuosi heinäkuun neljäntenä päivänä lippu liehuu auringonnoususta auringonlaskuun kodeissa, kouluissa ja hallintorakennuksissa ympäri maata, pienimmästä kaupungista Valkoiseen taloon."
+            }
+          ],
+          "outro": "Loistavaa työtä – America 250 -ilotulitusnäytöksesi valaisee taivaan! Se on 90 pistettä ja yksi upea syntymäpäiväjuhla. Väritä purkaukset punaisella, valkoisella ja sinisellä antaaksesi Amerikalle mahdollisimman isänmaallisen läksiäisen. Hyvää 250. syntymäpäivää, USA! Tutustu kaikkiin <a href=\"/\">pisteestä pisteeseen -tulostettaviin</a>-materiaaleihimme.",
+          "color_schemes": []
+        }
       }
-    }
-  },
-  {
-    "slug": "america-250-anniversary-liberty-bell-wings-1776-dot-to-dot-puzzle",
-    "header": {
-      "title": "Vapaudenkello siivin pisteestä pisteeseen: 64 pistettä 2026-juhlaan",
-      "meta_description": "Jäljitä siipinen Vapauden Kello 64 pisteen yli samalla kun merkitset Amerikan 250. vuosipäivää. Ilmainen 2026 tulostettava sopii 4–8-vuotiaille.",
-      "og": {
+    },
+    {
+      "slug": "america-250-anniversary-liberty-bell-wings-1776-dot-to-dot-puzzle",
+      "header": {
         "title": "Vapaudenkello siivin pisteestä pisteeseen: 64 pistettä 2026-juhlaan",
-        "description": "Jäljitä siipinen Vapauden Kello 64 pisteen yli samalla kun merkitset Amerikan 250. vuosipäivää. Ilmainen 2026 tulostettava sopii 4–8-vuotiaille.",
-        "image_alt": "Siipinen Vapauden Kello soimassa 64 pisteestä Amerikka 250 tulostettavassa"
+        "meta_description": "Jäljitä siipinen Vapauden Kello 64 pisteen yli samalla kun merkitset Amerikan 250. vuosipäivää. Ilmainen 2026 tulostettava sopii 4–8-vuotiaille.",
+        "og": {
+          "title": "Vapaudenkello siivin pisteestä pisteeseen: 64 pistettä 2026-juhlaan",
+          "description": "Jäljitä siipinen Vapauden Kello 64 pisteen yli samalla kun merkitset Amerikan 250. vuosipäivää. Ilmainen 2026 tulostettava sopii 4–8-vuotiaille.",
+          "image_alt": "Siipinen Vapauden Kello soimassa 64 pisteestä Amerikka 250 tulostettavassa"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Amerikka 250: Vapaudenkellon siivet",
+          "description": "Jäljitä siipinen Vapauden Kello 64 pisteen yli samalla kun merkitset Amerikan 250. vuosipäivää. Ilmainen 2026 tulostettava sopii 4–8-vuotiaille.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
       },
-      "json_ld": {
-        "type": "CreativeWork",
+      "body": {
+        "h1": "Vapauden Kellon Yhdistä pisteet: 64 Siipipistettä vuodelle 2026",
         "name": "Amerikka 250: Vapaudenkellon siivet",
-        "description": "Jäljitä siipinen Vapauden Kello 64 pisteen yli samalla kun merkitset Amerikan 250. vuosipäivää. Ilmainen 2026 tulostettava sopii 4–8-vuotiaille.",
-        "image": "",
-        "educational_use": "Fine motor skills, number sequencing",
-        "age_range": ""
-      }
-    },
-    "body": {
-      "h1": "Vapauden Kellon Yhdistä pisteet: 64 Siipipistettä vuodelle 2026",
-      "name": "Amerikka 250: Vapaudenkellon siivet",
-      "tagline": "Vapaus soi Amerikan 250-vuotisjuhlan kunniaksi!",
-      "description": "Yhdistä 64 helppoa pistettä paljastaaksesi ikoninen Vapauden Kello, joka kohoaa siipien kanssa juhlistaen Amerikan 250. vuosipäivää! Tämä ilmainen tulostettava työlehti auttaa nuoria lapsia harjoittelemaan numerojärjestystä ja hienomotorisia taitoja samalla kun he tutkivat yhtä Amerikan rakastetuimmista vapauden symboleista. Täydellinen 4–8-vuotiaille.",
-      "fun_fact": "Vapauden Kello halkeili kuuluisasti vuosien käytön jälkeen. Alkuperäinen osavaltion talon kello tilattiin Lontoosta vuonna 1751, halkeili ensimmäisellä testikellotuksellaan ja valettiin uudelleen Philadelphiassa John Passin ja John Stowin toimesta vuonna 1753. Sen kaiverrus kuuluu: 'Julista vapautta koko maassa.'",
-      "dot_guide": {
-        "intro": "Amerikka täyttää 250 vuotta – ja mikä olisikaan parempi symboli juhlittavaksi kuin Vapaudenkello! Tämä legendaarinen valtioneuvoston kello riippui Philadelphiassa itsenäisyysjulistuksen hyväksymisen aikaan, ja sen vapauden sanomasta tuli kuuluisa 1800-luvulla. Ota kynäsi, etsi piste 1 ja annetaan vapauden soimaan!",
-        "sections": [
+        "tagline": "Vapaus soi Amerikan 250-vuotisjuhlan kunniaksi!",
+        "description": "Yhdistä 64 helppoa pistettä paljastaaksesi ikoninen Vapauden Kello, joka kohoaa siipien kanssa juhlistaen Amerikan 250. vuosipäivää! Tämä ilmainen tulostettava työlehti auttaa nuoria lapsia harjoittelemaan numerojärjestystä ja hienomotorisia taitoja samalla kun he tutkivat yhtä Amerikan rakastetuimmista vapauden symboleista. Täydellinen 4–8-vuotiaille.",
+        "fun_fact": "Vapauden Kello halkeili kuuluisasti vuosien käytön jälkeen. Alkuperäinen osavaltion talon kello tilattiin Lontoosta vuonna 1751, halkeili ensimmäisellä testikellotuksellaan ja valettiin uudelleen Philadelphiassa John Passin ja John Stowin toimesta vuonna 1753. Sen kaiverrus kuuluu: 'Julista vapautta koko maassa.'",
+        "faqs": [
           {
-            "range": "1–13",
-            "title": "Kellon kruunu ja ies",
-            "learn": "Aloita pisteestä 1 ja yhdistä se pisteeseen 13 piirtääksesi kruunun ja kaaren Vapaudenkellon aivan yläosassa – tukevan kehyksen, joka pitää kellon paikallaan. Nämä tasaiset kaarevat ja suorat viivat auttavat lapsia lämmittelemään kynän otetta ja harjoittelemaan hallittuja vetoja, joita he tarvitsevat kuvan loppuosassa.",
-            "fact": "Vapaudenkellon puinen ielikkö on tehty amerikkalaisesta jalavasta, vaikka historioitsijat eivät pysty todistamaan, että se on kellon alkuperäinen ielikkö. Kello ripustettiin puiseen tukeen, jotta se voisi heilua vapaasti ja tuottaa syvän, kaikuvan äänensä siirtomaa-ajan Philadelphiassa."
+            "q": "Kuinka monta pistettä on Amerikka 250: Vapaudenkellon siivet -pisteestä pisteeseen -palapelissä?",
+            "a": "Amerikka 250: Vapaudenkellon siivet -tulostettavassa yhdistä-pistepulmassa on 64 numeroitua pistettä. Se tekee siitä helpon tai keskivaikean palapelin, joka sopii parhaiten 5–8-vuotiaille (esikoulusta 2. luokkaan). Lapset yhdistävät pisteet numerojärjestyksessä paljastaakseen valmiin Amerikka 250: Vapaudenkellon siivet -kuvan ja värittävät sen sitten."
           },
           {
-            "range": "14–26",
-            "title": "Kellon runko",
-            "learn": "Jatka pisteestä 14 pisteeseen 26 piirtääksesi Vapaudenkellon leveän, pyöreän rungon. Nämä leveät, kaarevat käyrät ovat loistavaa harjoitusta sujuville ranteen liikkeille ja auttavat lapsia kehittämään kynänhallintaa, jota he tarvitsevat varmaan ja sujuvaan käsialaan.",
-            "fact": "Vapaudenkello painaa 2 080 paunaa – lähes tonnin! Se valettiin kuparin ja tinan sekoituksesta, joka on perinteinen pronssin valmistusmenetelmä. Kellon tunnusomainen syvä sävy johtuu sen suuresta koosta ja sen rakentamisessa käytettyjen metallien tarkasta suhteesta."
+            "q": "Onko Amerikka 250: Vapaudenkellon siivet -ohjelman pisteestä pisteeseen tulostettava versio ilmainen?",
+            "a": "Kyllä. Amerikka 250: Vapaudenkellon siivet -tehtävämoniste on 100 % ilmainen ladata osoitteesta DotToDotFreePrintables.com – ei tiliä, sähköpostiosoitetta tai maksua vaadita. Se latautuu välittömästi tulostusvalmiina PDF-tiedostona sekä pysty- että vaakasuunnassa, US Letter- tai A4-kokoiselle paperille."
           },
           {
-            "range": "27–39",
-            "title": "Liukuvat siivet",
-            "learn": "Piirrä pisteet 27–39 lisätäksesi upeat siivet, jotka nostavat Vapaudenkellon taivasta kohti. Nämä rohkeat, kaartuvat kaaret antavat lapsille loistavan tilaisuuden harjoitella pitkiä, sulavia viivoja – ja kehittää käsien liikettä ja suunnanhallintaa, jotka ovat tärkeitä varhaisia kirjoitustaitoja.",
-            "fact": "Valkopäämerikotka – Yhdysvaltojen symboli vuodesta 1782 – on kuuluisa valtavasta, jopa 2,4 metrin (8 jalan) siipien kärkivälistään. Sen voimakkaat siivet antavat sen liitää lämpimissä ilmavirroissa, joita kutsutaan termikaaleiksi, ja se saavuttaa 72 kilometrin tuntinopeuden vaakalennossa ja vielä suuremman nopeuden sukeltaessaan."
+            "q": "Minkä ikäisille Amerikka 250: Vapaudenkellon siivet -yhdistä pisteet -työarkki sopii parhaiten?",
+            "a": "64 pisteen Amerikka 250: Vapaudenkellon siivet -palapeli sopii parhaiten 5–8-vuotiaille (esikoulusta 2. luokkaan). Pienemmät lapset voivat nauttia siitä aikuisen kevyellä tuella, kun taas jo sujuvasti laskevat lapset voivat ratkaista sen itsenäisesti ja harjoitella numeroiden lukemista jopa 64 pisteeseen asti."
           },
           {
-            "range": "40–52",
-            "title": "Tähdet ja isänmaalliset yksityiskohdat",
-            "learn": "Yhdistä pisteet 40–52 lisätäksesi isänmaalliset tähdet ja koristeelliset yksityiskohdat, jotka ympäröivät kelloa. Nämä lyhyemmät ja tarkemmat viivat ovat loistavia hienomotoriikan kehittämiseen – lasten on keskityttävä huolellisesti osuakseen jokaiseen pisteeseen tarkasti, mikä terävöittää lukemisessa ja kirjoittamisessa tarvittavaa silmän ja käden koordinaatiota.",
-            "fact": "Yhdysvaltain lipun 50 tähteä edustavat kukin yhtä 50 osavaltiosta. Ensimmäinen virallinen Stars and Stripes -malli hyväksyttiin vuonna 1777, ja siinä oli 13 tähteä ja 13 raitaa alkuperäisille osavaltioille. Uusia tähtiä on lisätty uusien osavaltioiden liittyessä unioniin, viimeisin – Havaiji – lisättiin 4. heinäkuuta 1960."
+            "q": "Mitä taitoja Amerikka 250: Vapaudenkellon siivet -pisteestä pisteeseen -pulmapeli opettaa?",
+            "a": "Yhdistämällä Amerikka 250: Vapaudenkellon siivet -palapelin 64 pistettä kehitetään numeroiden tunnistusta ja laskemista 64:ään asti, kynän hallintaa, käden ja silmän koordinaatiota sekä jatkuvaa keskittymistä – samoja hienomotorisia taitoja, jotka tukevat varhaista käsin kirjoittamista. Valmiin kuvan värittäminen lisää luovaa palkintoa."
           },
           {
-            "range": "53–64",
-            "title": "Vuoden 1776 kaiverrus ja viimeistely",
-            "learn": "Ratkaise palapeli yhdistämällä pisteet 53–64 täydentääksesi kaiverruksen \"1776\" ja viimeiset koristeet, jotka herättävät koko kuvan eloon. Käytä aikaa näiden viimeisten pisteiden kanssa – tasainen ja huolellinen viimeistely on todellisen pisteestä pisteeseen -mestarin tunnusmerkki!",
-            "fact": "Vuosi 1776 on yksi Amerikan historian tärkeimmistä vuosista. Mannermaakongressi hyväksyi virallisesti itsenäisyysjulistuksen 4. heinäkuuta 1776, jossa kaikki kolmetoista Amerikan siirtokuntaa julistettiin vapaiksi ja itsenäisiksi valtioiksi. Tuota päivämäärää vietetään nykyään joka vuosi itsenäisyyspäivänä – Amerikan syntymäpäivänä."
+            "q": "Mikä on hauska fakta America 250 Liberty Bellin siivistä?",
+            "a": "Vapaudenkello kuuluisasti säröi vuosien käytön jälkeen. Alkuperäinen osavaltion kongressitalon kello tilattiin Lontoosta vuonna 1751, se särösi ensimmäisessä koesoittokehossaan ja John Pass ja John Stow valavat sen uudelleen Philadelphiassa vuonna 1753. Kellon kaiverruksessa lukee \"Julistakaa vapaus koko maassa\". Lapset löytävät tällaisia faktoja ratkoessaan Amerikka 250: Vapaudenkellon siivet -pisteestä pisteeseen -palapeliä."
           }
         ],
-        "outro": "Upeaa työtä – Vapaudenkellosi kohoaa vapaudesta! Siinä on 64 pistettä ja yksi upea Amerikan itsenäisyyden symboli. Väritä kello kultaisen pronssin väriseksi, siivet ruskeaksi ja valkoiseksi ja tähdet punaiseksi, valkoiseksi ja siniseksi antaaksesi Amerikalle mahdollisimman isänmaallisen 250-vuotissyntymäpäivän kunnianosoituksen. Anna vapauden soida! Pidätkö haasteista? Tapaa lisää esihistoriallisia ystäviä <a href=\"/dinosaurs/\">dinosaur pisteestä pisteeseen tulostettavassa</a>-kokoelmassamme.",
-        "color_schemes": []
+        "dot_guide": {
+          "intro": "Amerikka täyttää 250 vuotta – ja mikä olisikaan parempi symboli juhlittavaksi kuin Vapaudenkello! Tämä legendaarinen valtioneuvoston kello riippui Philadelphiassa itsenäisyysjulistuksen hyväksymisen aikaan, ja sen vapauden sanomasta tuli kuuluisa 1800-luvulla. Ota kynäsi, etsi piste 1 ja annetaan vapauden soimaan!",
+          "sections": [
+            {
+              "range": "1–13",
+              "title": "Kellon kruunu ja ies",
+              "learn": "Aloita pisteestä 1 ja yhdistä se pisteeseen 13 piirtääksesi kruunun ja kaaren Vapaudenkellon aivan yläosassa – tukevan kehyksen, joka pitää kellon paikallaan. Nämä tasaiset kaarevat ja suorat viivat auttavat lapsia lämmittelemään kynän otetta ja harjoittelemaan hallittuja vetoja, joita he tarvitsevat kuvan loppuosassa.",
+              "fact": "Vapaudenkellon puinen ielikkö on tehty amerikkalaisesta jalavasta, vaikka historioitsijat eivät pysty todistamaan, että se on kellon alkuperäinen ielikkö. Kello ripustettiin puiseen tukeen, jotta se voisi heilua vapaasti ja tuottaa syvän, kaikuvan äänensä siirtomaa-ajan Philadelphiassa."
+            },
+            {
+              "range": "14–26",
+              "title": "Kellon runko",
+              "learn": "Jatka pisteestä 14 pisteeseen 26 piirtääksesi Vapaudenkellon leveän, pyöreän rungon. Nämä leveät, kaarevat käyrät ovat loistavaa harjoitusta sujuville ranteen liikkeille ja auttavat lapsia kehittämään kynänhallintaa, jota he tarvitsevat varmaan ja sujuvaan käsialaan.",
+              "fact": "Vapaudenkello painaa 2 080 paunaa – lähes tonnin! Se valettiin kuparin ja tinan sekoituksesta, joka on perinteinen pronssin valmistusmenetelmä. Kellon tunnusomainen syvä sävy johtuu sen suuresta koosta ja sen rakentamisessa käytettyjen metallien tarkasta suhteesta."
+            },
+            {
+              "range": "27–39",
+              "title": "Liukuvat siivet",
+              "learn": "Piirrä pisteet 27–39 lisätäksesi upeat siivet, jotka nostavat Vapaudenkellon taivasta kohti. Nämä rohkeat, kaartuvat kaaret antavat lapsille loistavan tilaisuuden harjoitella pitkiä, sulavia viivoja – ja kehittää käsien liikettä ja suunnanhallintaa, jotka ovat tärkeitä varhaisia kirjoitustaitoja.",
+              "fact": "Valkopäämerikotka – Yhdysvaltojen symboli vuodesta 1782 – on kuuluisa valtavasta, jopa 2,4 metrin (8 jalan) siipien kärkivälistään. Sen voimakkaat siivet antavat sen liitää lämpimissä ilmavirroissa, joita kutsutaan termikaaleiksi, ja se saavuttaa 72 kilometrin tuntinopeuden vaakalennossa ja vielä suuremman nopeuden sukeltaessaan."
+            },
+            {
+              "range": "40–52",
+              "title": "Tähdet ja isänmaalliset yksityiskohdat",
+              "learn": "Yhdistä pisteet 40–52 lisätäksesi isänmaalliset tähdet ja koristeelliset yksityiskohdat, jotka ympäröivät kelloa. Nämä lyhyemmät ja tarkemmat viivat ovat loistavia hienomotoriikan kehittämiseen – lasten on keskityttävä huolellisesti osuakseen jokaiseen pisteeseen tarkasti, mikä terävöittää lukemisessa ja kirjoittamisessa tarvittavaa silmän ja käden koordinaatiota.",
+              "fact": "Yhdysvaltain lipun 50 tähteä edustavat kukin yhtä 50 osavaltiosta. Ensimmäinen virallinen Stars and Stripes -malli hyväksyttiin vuonna 1777, ja siinä oli 13 tähteä ja 13 raitaa alkuperäisille osavaltioille. Uusia tähtiä on lisätty uusien osavaltioiden liittyessä unioniin, viimeisin – Havaiji – lisättiin 4. heinäkuuta 1960."
+            },
+            {
+              "range": "53–64",
+              "title": "Vuoden 1776 kaiverrus ja viimeistely",
+              "learn": "Ratkaise palapeli yhdistämällä pisteet 53–64 täydentääksesi kaiverruksen \"1776\" ja viimeiset koristeet, jotka herättävät koko kuvan eloon. Käytä aikaa näiden viimeisten pisteiden kanssa – tasainen ja huolellinen viimeistely on todellisen pisteestä pisteeseen -mestarin tunnusmerkki!",
+              "fact": "Vuosi 1776 on yksi Amerikan historian tärkeimmistä vuosista. Mannermaakongressi hyväksyi virallisesti itsenäisyysjulistuksen 4. heinäkuuta 1776, jossa kaikki kolmetoista Amerikan siirtokuntaa julistettiin vapaiksi ja itsenäisiksi valtioiksi. Tuota päivämäärää vietetään nykyään joka vuosi itsenäisyyspäivänä – Amerikan syntymäpäivänä."
+            }
+          ],
+          "outro": "Upeaa työtä – Vapaudenkellosi kohoaa vapaudesta! Siinä on 64 pistettä ja yksi upea Amerikan itsenäisyyden symboli. Väritä kello kultaisen pronssin väriseksi, siivet ruskeaksi ja valkoiseksi ja tähdet punaiseksi, valkoiseksi ja siniseksi antaaksesi Amerikalle mahdollisimman isänmaallisen 250-vuotissyntymäpäivän kunnianosoituksen. Anna vapauden soida! Pidätkö haasteista? Tapaa lisää esihistoriallisia ystäviä <a href=\"/dinosaurs/\">dinosaur pisteestä pisteeseen tulostettavassa</a>-kokoelmassamme.",
+          "color_schemes": []
+        }
       }
-    }
-  },
-  {
-    "slug": "usa-250-birthday-cake-dot-to-dot-puzzle",
-    "header": {
-      "title": "Amerikan 250-vuotissyntymäpäiväkakku pisteestä pisteeseen — 56 makeaa pistettä",
-      "meta_description": "Lisää kynttilöitä ja väriä Amerikan 250. syntymäpäiväkakkuun yhdistäessäsi 56 pistettä. Tulosta tämä ilmainen 2026 juhlapdf 4–8-vuotiaille.",
-      "og": {
+    },
+    {
+      "slug": "usa-250-birthday-cake-dot-to-dot-puzzle",
+      "header": {
         "title": "Amerikan 250-vuotissyntymäpäiväkakku pisteestä pisteeseen — 56 makeaa pistettä",
-        "description": "Lisää kynttilöitä ja väriä Amerikan 250. syntymäpäiväkakkuun yhdistäessäsi 56 pistettä. Tulosta tämä ilmainen 2026 juhlapdf 4–8-vuotiaille.",
-        "image_alt": "Kerroksellinen juhlakakku koristeltuna 56 tulostettavasta pisteestä"
+        "meta_description": "Lisää kynttilöitä ja väriä Amerikan 250. syntymäpäiväkakkuun yhdistäessäsi 56 pistettä. Tulosta tämä ilmainen 2026 juhlapdf 4–8-vuotiaille.",
+        "og": {
+          "title": "Amerikan 250-vuotissyntymäpäiväkakku pisteestä pisteeseen — 56 makeaa pistettä",
+          "description": "Lisää kynttilöitä ja väriä Amerikan 250. syntymäpäiväkakkuun yhdistäessäsi 56 pistettä. Tulosta tämä ilmainen 2026 juhlapdf 4–8-vuotiaille.",
+          "image_alt": "Kerroksellinen juhlakakku koristeltuna 56 tulostettavasta pisteestä"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Amerikka 250 syntymäpäiväkakku",
+          "description": "Lisää kynttilöitä ja väriä Amerikan 250. syntymäpäiväkakkuun yhdistäessäsi 56 pistettä. Tulosta tämä ilmainen 2026 juhlapdf 4–8-vuotiaille.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
       },
-      "json_ld": {
-        "type": "CreativeWork",
+      "body": {
+        "h1": "Amerikka 250 Syntymäpäiväkakku Yhdistä pisteet — 56 Makeaa Pistettä",
         "name": "Amerikka 250 syntymäpäiväkakku",
-        "description": "Lisää kynttilöitä ja väriä Amerikan 250. syntymäpäiväkakkuun yhdistäessäsi 56 pistettä. Tulosta tämä ilmainen 2026 juhlapdf 4–8-vuotiaille.",
-        "image": "",
-        "educational_use": "Fine motor skills, number sequencing",
-        "age_range": ""
-      }
-    },
-    "body": {
-      "h1": "Amerikka 250 Syntymäpäiväkakku Yhdistä pisteet — 56 Makeaa Pistettä",
-      "name": "Amerikka 250 syntymäpäiväkakku",
-      "tagline": "Leivo syntymäpäiväkakku Amerikan 250-vuotisjuhlan kunniaksi!",
-      "description": "Yhdistä 56 helppoa pistettä paljastaaksesi upean syntymäpäiväkakun, joka juhlistaa Amerikan 250-vuotisjuhlaa! Tämä ilmainen tulostettava tehtävä auttaa pieniä lapsia harjoittelemaan numerojärjestystä ja kynän käyttöä samalla kun he juhlivat Amerikan 250-vuotista historiaa. Täydellinen 4–8-vuotiaille.",
-      "fun_fact": "Kynttilöillä varustettujen syntymäpäiväkakkujen perinteen sanotaan alkaneen Saksassa 1700-luvulla, jolloin kakun päälle asetettiin kynttilä jokaiselle elinvuodelle. Nykyään kynttilöiden puhaltaminen ja toiveen tekeminen on syntymäpäiväjuhlan tapa ympäri maailmaa!",
-      "dot_guide": {
-        "intro": "Amerikka täyttää 250 vuotta – ja jokainen syntymäpäivä ansaitsee upean kakun! Tämä kohoava juhlakakku on koristeltu isänmaallisilla tähdillä, raidoilla ja kaikilla koristeilla Amerikan historian suurimman syntymäpäivän kunniaksi. Ota kynä, etsi piste 1 ja rakennetaan tämä syntymäpäivämestariteos kerros kerrokselta!",
-        "sections": [
+        "tagline": "Leivo syntymäpäiväkakku Amerikan 250-vuotisjuhlan kunniaksi!",
+        "description": "Yhdistä 56 helppoa pistettä paljastaaksesi upean syntymäpäiväkakun, joka juhlistaa Amerikan 250-vuotisjuhlaa! Tämä ilmainen tulostettava tehtävä auttaa pieniä lapsia harjoittelemaan numerojärjestystä ja kynän käyttöä samalla kun he juhlivat Amerikan 250-vuotista historiaa. Täydellinen 4–8-vuotiaille.",
+        "fun_fact": "Kynttilöillä varustettujen syntymäpäiväkakkujen perinteen sanotaan alkaneen Saksassa 1700-luvulla, jolloin kakun päälle asetettiin kynttilä jokaiselle elinvuodelle. Nykyään kynttilöiden puhaltaminen ja toiveen tekeminen on syntymäpäiväjuhlan tapa ympäri maailmaa!",
+        "faqs": [
           {
-            "range": "1–12",
-            "title": "Pohjataso",
-            "learn": "Aloita pisteestä 1 ja yhdistä se pisteeseen 12 piirtääksesi syntymäpäiväkakun leveän pohjakerroksen. Nämä tasaiset vaakasuorat ja kaarevat vedot auttavat lapsia lämmittelemään kynän otetta ja harjoittelemaan tasaisten, sileiden viivojen piirtämistä, jotka muodostavat koko kuvan perustan.",
-            "fact": "Kerrostettujen hää- ja juhlakakkujen perinne juontaa juurensa 1600-luvun Englantiin, jossa useiden kerrosten pinoaminen oli merkki vauraudesta ja juhlallisuudesta. Korkeasta, monikerroksisesta kakusta tuli todella suurenmoisen juhlan symboli."
+            "q": "Kuinka monta pistettä on America 250 -syntymäpäiväkakun pisteestä pisteeseen -palapelissä?",
+            "a": "America 250 -syntymäpäiväkakun yhdistämispelissä on 56 numeroitua pistettä. Se tekee siitä helpon tai keskivaikean palapelin, joka sopii parhaiten 5–8-vuotiaille (esikoulusta 2. luokkaan). Lapset yhdistävät pisteet numerojärjestyksessä paljastaakseen valmiin America 250 -syntymäpäiväkakun kuvan ja värittävät sen sitten."
           },
           {
-            "range": "13–28",
-            "title": "Keskimmäiset tasot",
-            "learn": "Jatka pisteestä 13 pisteeseen 28 lisätäksesi kakun keskimmäiset kerrokset, joista jokainen on hieman pienempi kuin alla oleva. Lapset harjoittelevat sisäänpäin suuntautuvien muotojen piirtämistä, mikä on loistava harjoitus tilanhahmottamisessa ja viivan pituuden hallinnassa jokaisen uuden kerroksen kohdalla.",
-            "fact": "Leipurit tekevät perinteisesti pinotun kakun jokaisen kerroksen hieman kapeammaksi kuin sen alla oleva. Tämä luo klassisen pyramidin muodon ja auttaa kakkua pysymään tasapainossa. Ammattimaiset kakkuinsinöörit käyttävät piilotettuja tappia ja lautoja tukemaan kunkin kerroksen painoa."
+            "q": "Onko America 250 -syntymäpäiväkakun pisteestä pisteeseen tulostettava versio ilmainen?",
+            "a": "Kyllä. America 250 -syntymäpäiväkakun työarkki on 100 % ilmainen ladata DotToDotFreePrintables.com-sivustolta – ei tiliä, sähköpostiosoitetta tai maksua vaadita. Se latautuu välittömästi tulostusvalmiina PDF-tiedostona sekä pysty- että vaakasuunnassa, US Letter- tai A4-kokoiselle paperille."
           },
           {
-            "range": "29–42",
-            "title": "Tähdet ja raidat -koristelu",
-            "learn": "Piirrä pisteet 29–42 lisätäksesi isänmaalliset tähdet ja raidat, jotka koristavat kakun reunoja. Lapset harjoittelevat kulmikkaiden tähtipisteiden ja suorien vaakasuorien viivojen yhdistelmää vaihtaen kahden liiketyypin välillä samassa osiossa – suuri haaste käden hallinnalle.",
-            "fact": "Punainen, valkoinen ja sininen ovat olleet Yhdysvaltain lipun värejä vuodesta 1777 lähtien, jolloin lippupäätöslauselma määritteli lipun värin. Näillä väreillä koristelu on yksi suosituimmista tavoista, joilla amerikkalaiset ilmaisevat kansallista ylpeyttä juhlissa, koulujuhlien kuppikakuista täysikokoisiin paraativaunuihin."
+            "q": "Minkä ikäisille America 250 -syntymäpäiväkakun yhdistämistehtävä sopii parhaiten?",
+            "a": "56 pisteen ansiosta America 250 -syntymäpäiväkakkupalapeli sopii parhaiten 5–8-vuotiaille (esikoulusta 2. luokkaan). Pienemmät lapset voivat nauttia siitä aikuisen kevyellä tuella, kun taas jo sujuvasti laskevat lapset voivat ratkaista sen itsenäisesti ja harjoitella numerojärjestyksen seuraamista jopa 56 pisteeseen asti."
           },
           {
-            "range": "43–50",
-            "title": "Ylin taso ja kuorrutus",
-            "learn": "Yhdistä pisteet 43–50 piirtääksesi ylimmän kerroksen ja reunoille piirretyt kuorrutepyörteet. Nämä kaarevat, koristeelliset viivat tarjoavat ihanan vaihtelun alla oleville suoremille vedoille, ja lapset harjoittelevat sulavaa, virtaavaa ranteen liikettä, joka saa kuorrutteen näyttämään herkullisen kuohkealta.",
-            "fact": "Kuninkaallinen kuorrutus – valkoinen, kovaksi kovettuva kuorrute, jota käytetään juhlakakkujen koristeluun – hiottiin täydellisyyteen 1700-luvun Britanniassa ja siitä tuli muodikasta kaikkialla Euroopassa ja Amerikassa suurten tilaisuuksien kakuissa. Sen sileä pinta on täydellinen pohja isänmaallisille koristeille."
+            "q": "Mitä taitoja America 250 -syntymäpäiväkakun pisteestä pisteeseen -palapeli opettaa?",
+            "a": "Yhdistämällä America 250 -syntymäpäiväkakkupalapelin 56 pistettä kehitetään numeroiden tunnistusta ja laskemista numeroon 56, kynän hallintaa, käden ja silmän koordinaatiota sekä jatkuvaa keskittymistä – samoja hienomotorisia taitoja, jotka tukevat varhaista käsin kirjoittamista. Valmiin kuvan värittäminen lisää luovaa palkintoa."
           },
           {
-            "range": "51–56",
-            "title": "Kynttilät ja viimeistely",
-            "learn": "Viimeistele palapeli yhdistämällä pisteet 51–56 lisätäksesi kynttilät ja viimeiset juhlalliset yksityiskohdat, jotka herättävät koko syntymäpäiväkohtauksen eloon. Vain kuusi pistettä täydentääksesi juhlan – kannusta lapsia hidastamaan ja tekemään näistä viimeisistä riveistä parhaansa!",
-            "fact": "Monissa syntymäpäiväperinteissä kakun kynttilöiden lukumäärä vastaa juhlittavan ikää. Kuvittele, kuinka suuri kynttiläkokoelma olisi Amerikan 250-vuotisjuhlavuonna – neljännesvuosituhannen historian ajan, kaikki liehuen yhdellä upealla kakulla!"
+            "q": "Mikä on hauska fakta America 250 -syntymäpäiväkakusta?",
+            "a": "Kynttiläkakkuperinteen sanotaan alkaneen Saksassa 1700-luvulla, jolloin kakkuun asetettiin kynttilä jokaista ikävuotta kohden. Nykyään kynttilöiden puhaltaminen ja toiveen esittäminen on syntymäpäiväjuhlien perinne ympäri maailmaa! Lapset löytävät tällaisia faktoja ratkoessaan America 250 -syntymäpäiväkakun pisteestä pisteeseen -palapeliä."
           }
         ],
-        "outro": "Hienoa työtä – Amerikan 250-vuotissyntymäpäiväkakkusi on valmis juhliin! Siinä on 56 pistettä ja yksi herkullinen amerikkalaisen juhlinnan symboli. Väritä kerrokset punaiseksi, valkoiseksi ja siniseksi ja lisää kultaisia tähtiä antaaksesi Amerikalle kaikkien aikojen isänmaallisimman 250-vuotissyntymäpäiväkakun. Hyvää 250-vuotissyntymäpäivää, USA! Lisää teemallisia hauskuudenvinkkejä löydät <a href=\"/ocean/\">pisteestä pisteeseen -tulostettavista materiaaleistamme 1–100</a>.",
-        "color_schemes": []
+        "dot_guide": {
+          "intro": "Amerikka täyttää 250 vuotta – ja jokainen syntymäpäivä ansaitsee upean kakun! Tämä kohoava juhlakakku on koristeltu isänmaallisilla tähdillä, raidoilla ja kaikilla koristeilla Amerikan historian suurimman syntymäpäivän kunniaksi. Ota kynä, etsi piste 1 ja rakennetaan tämä syntymäpäivämestariteos kerros kerrokselta!",
+          "sections": [
+            {
+              "range": "1–12",
+              "title": "Pohjataso",
+              "learn": "Aloita pisteestä 1 ja yhdistä se pisteeseen 12 piirtääksesi syntymäpäiväkakun leveän pohjakerroksen. Nämä tasaiset vaakasuorat ja kaarevat vedot auttavat lapsia lämmittelemään kynän otetta ja harjoittelemaan tasaisten, sileiden viivojen piirtämistä, jotka muodostavat koko kuvan perustan.",
+              "fact": "Kerrostettujen hää- ja juhlakakkujen perinne juontaa juurensa 1600-luvun Englantiin, jossa useiden kerrosten pinoaminen oli merkki vauraudesta ja juhlallisuudesta. Korkeasta, monikerroksisesta kakusta tuli todella suurenmoisen juhlan symboli."
+            },
+            {
+              "range": "13–28",
+              "title": "Keskimmäiset tasot",
+              "learn": "Jatka pisteestä 13 pisteeseen 28 lisätäksesi kakun keskimmäiset kerrokset, joista jokainen on hieman pienempi kuin alla oleva. Lapset harjoittelevat sisäänpäin suuntautuvien muotojen piirtämistä, mikä on loistava harjoitus tilanhahmottamisessa ja viivan pituuden hallinnassa jokaisen uuden kerroksen kohdalla.",
+              "fact": "Leipurit tekevät perinteisesti pinotun kakun jokaisen kerroksen hieman kapeammaksi kuin sen alla oleva. Tämä luo klassisen pyramidin muodon ja auttaa kakkua pysymään tasapainossa. Ammattimaiset kakkuinsinöörit käyttävät piilotettuja tappia ja lautoja tukemaan kunkin kerroksen painoa."
+            },
+            {
+              "range": "29–42",
+              "title": "Tähdet ja raidat -koristelu",
+              "learn": "Piirrä pisteet 29–42 lisätäksesi isänmaalliset tähdet ja raidat, jotka koristavat kakun reunoja. Lapset harjoittelevat kulmikkaiden tähtipisteiden ja suorien vaakasuorien viivojen yhdistelmää vaihtaen kahden liiketyypin välillä samassa osiossa – suuri haaste käden hallinnalle.",
+              "fact": "Punainen, valkoinen ja sininen ovat olleet Yhdysvaltain lipun värejä vuodesta 1777 lähtien, jolloin lippupäätöslauselma määritteli lipun värin. Näillä väreillä koristelu on yksi suosituimmista tavoista, joilla amerikkalaiset ilmaisevat kansallista ylpeyttä juhlissa, koulujuhlien kuppikakuista täysikokoisiin paraativaunuihin."
+            },
+            {
+              "range": "43–50",
+              "title": "Ylin taso ja kuorrutus",
+              "learn": "Yhdistä pisteet 43–50 piirtääksesi ylimmän kerroksen ja reunoille piirretyt kuorrutepyörteet. Nämä kaarevat, koristeelliset viivat tarjoavat ihanan vaihtelun alla oleville suoremille vedoille, ja lapset harjoittelevat sulavaa, virtaavaa ranteen liikettä, joka saa kuorrutteen näyttämään herkullisen kuohkealta.",
+              "fact": "Kuninkaallinen kuorrutus – valkoinen, kovaksi kovettuva kuorrute, jota käytetään juhlakakkujen koristeluun – hiottiin täydellisyyteen 1700-luvun Britanniassa ja siitä tuli muodikasta kaikkialla Euroopassa ja Amerikassa suurten tilaisuuksien kakuissa. Sen sileä pinta on täydellinen pohja isänmaallisille koristeille."
+            },
+            {
+              "range": "51–56",
+              "title": "Kynttilät ja viimeistely",
+              "learn": "Viimeistele palapeli yhdistämällä pisteet 51–56 lisätäksesi kynttilät ja viimeiset juhlalliset yksityiskohdat, jotka herättävät koko syntymäpäiväkohtauksen eloon. Vain kuusi pistettä täydentääksesi juhlan – kannusta lapsia hidastamaan ja tekemään näistä viimeisistä riveistä parhaansa!",
+              "fact": "Monissa syntymäpäiväperinteissä kakun kynttilöiden lukumäärä vastaa juhlittavan ikää. Kuvittele, kuinka suuri kynttiläkokoelma olisi Amerikan 250-vuotisjuhlavuonna – neljännesvuosituhannen historian ajan, kaikki liehuen yhdellä upealla kakulla!"
+            }
+          ],
+          "outro": "Hienoa työtä – Amerikan 250-vuotissyntymäpäiväkakkusi on valmis juhliin! Siinä on 56 pistettä ja yksi herkullinen amerikkalaisen juhlinnan symboli. Väritä kerrokset punaiseksi, valkoiseksi ja siniseksi ja lisää kultaisia tähtiä antaaksesi Amerikalle kaikkien aikojen isänmaallisimman 250-vuotissyntymäpäiväkakun. Hyvää 250-vuotissyntymäpäivää, USA! Lisää teemallisia hauskuudenvinkkejä löydät <a href=\"/ocean/\">pisteestä pisteeseen -tulostettavista materiaaleistamme 1–100</a>.",
+          "color_schemes": []
+        }
       }
-    }
-  },
-  {
-    "slug": "usa-250-astronaut-dot-to-dot-puzzle",
-    "header": {
-      "title": "Astronautti pisteestä pisteeseen Amerikan 250-juhlaan — 63 pistettä ylös",
-      "meta_description": "Amerikan ensimmäinen Kuuhun laskeutuminen inspiroi tätä 63 pisteen astronauttia. Käynnistä ilmainen tulostettava PDF 4–8-vuotiaille kansakunnan 2026 vuosipäivän aikana.",
-      "og": {
+    },
+    {
+      "slug": "usa-250-astronaut-dot-to-dot-puzzle",
+      "header": {
         "title": "Astronautti pisteestä pisteeseen Amerikan 250-juhlaan — 63 pistettä ylös",
-        "description": "Amerikan ensimmäinen Kuuhun laskeutuminen inspiroi tätä 63 pisteen astronauttia. Käynnistä ilmainen tulostettava PDF 4–8-vuotiaille kansakunnan 2026 vuosipäivän aikana.",
-        "image_alt": "Sankariastronautti heiluttaa avaruuspuvussaan, koottu 63 tulostettavasta pisteestä"
+        "meta_description": "Amerikan ensimmäinen Kuuhun laskeutuminen inspiroi tätä 63 pisteen astronauttia. Käynnistä ilmainen tulostettava PDF 4–8-vuotiaille kansakunnan 2026 vuosipäivän aikana.",
+        "og": {
+          "title": "Astronautti pisteestä pisteeseen Amerikan 250-juhlaan — 63 pistettä ylös",
+          "description": "Amerikan ensimmäinen Kuuhun laskeutuminen inspiroi tätä 63 pisteen astronauttia. Käynnistä ilmainen tulostettava PDF 4–8-vuotiaille kansakunnan 2026 vuosipäivän aikana.",
+          "image_alt": "Sankariastronautti heiluttaa avaruuspuvussaan, koottu 63 tulostettavasta pisteestä"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Amerikka 250 -astronautti",
+          "description": "Amerikan ensimmäinen Kuuhun laskeutuminen inspiroi tätä 63 pisteen astronauttia. Käynnistä ilmainen tulostettava PDF 4–8-vuotiaille kansakunnan 2026 vuosipäivän aikana.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
       },
-      "json_ld": {
-        "type": "CreativeWork",
+      "body": {
+        "h1": "Astronautti Yhdistä pisteet Amerikka 250:lle — 63 Pistettä Ylös",
         "name": "Amerikka 250 -astronautti",
-        "description": "Amerikan ensimmäinen Kuuhun laskeutuminen inspiroi tätä 63 pisteen astronauttia. Käynnistä ilmainen tulostettava PDF 4–8-vuotiaille kansakunnan 2026 vuosipäivän aikana.",
-        "image": "",
-        "educational_use": "Fine motor skills, number sequencing",
-        "age_range": ""
-      }
-    },
-    "body": {
-      "h1": "Astronautti Yhdistä pisteet Amerikka 250:lle — 63 Pistettä Ylös",
-      "name": "Amerikka 250 -astronautti",
-      "tagline": "Räjähdy juhlistamaan Amerikan 250-vuotisjuhlaa!",
-      "description": "Yhdistä 63 helppoa pistettä paljastaaksesi sankarillisen astronautin, joka juhlii Amerikan 250-vuotisjuhlaa! Tämä ilmainen tulostettava tehtävä auttaa pieniä lapsia harjoittelemaan numerojärjestystä ja kynän käyttöä samalla kun he kunnioittavat 250 vuotta Amerikan historiaa ja tutkimusmatkailun henkeä. Täydellinen 4–8-vuotiaille.",
-      "fun_fact": "Yhdysvallat oli ensimmäinen maa, joka laski ihmisiä Kuuhun. 20. heinäkuuta 1969 — vain 193 vuotta itsenäisyysjulistuksen allekirjoittamisen jälkeen — Neil Armstrong ja Buzz Aldrin ottivat ihmiskunnan ensimmäiset askeleet kuun pinnalla.",
-      "dot_guide": {
-        "intro": "Amerikka täyttää 250 vuotta – ja harva asia kuvaa amerikkalaista seikkailumieltä paremmin kuin astronautti! Avaruuskilpailun ensimmäisistä raketeista aina kuulentajiin ja sen yli, amerikkalaiset tutkimusmatkailijat ovat aina tavoitelleet tähtiä. Ota kynä, etsi piste 1 ja pukeudutaan laukaisuun!",
-        "sections": [
+        "tagline": "Räjähdy juhlistamaan Amerikan 250-vuotisjuhlaa!",
+        "description": "Yhdistä 63 helppoa pistettä paljastaaksesi sankarillisen astronautin, joka juhlii Amerikan 250-vuotisjuhlaa! Tämä ilmainen tulostettava tehtävä auttaa pieniä lapsia harjoittelemaan numerojärjestystä ja kynän käyttöä samalla kun he kunnioittavat 250 vuotta Amerikan historiaa ja tutkimusmatkailun henkeä. Täydellinen 4–8-vuotiaille.",
+        "fun_fact": "Yhdysvallat oli ensimmäinen maa, joka laski ihmisiä Kuuhun. 20. heinäkuuta 1969 — vain 193 vuotta itsenäisyysjulistuksen allekirjoittamisen jälkeen — Neil Armstrong ja Buzz Aldrin ottivat ihmiskunnan ensimmäiset askeleet kuun pinnalla.",
+        "faqs": [
           {
-            "range": "1–14",
-            "title": "Kypärä",
-            "learn": "Aloita pisteestä 1 ja yhdistä pisteeseen 14 piirtääksesi pyöreän astronauttikypärän. Visiiri ja kaareva ulkokuori antavat lapsille loistavan alkulämmittelyn pehmeillä, leveillä kaarilla, jotka kehittävät varmaa kynän hallintaa ensimmäisestä vedosta lähtien.",
-            "fact": "Astronauttien kypärät on valmistettu polykarbonaattikerroksista ja muista kestävistä materiaaleista. Kultainen visiiri on päällystetty ohuella kerroksella aitoa kultaa, joka heijastaa auringonsäteilyä ja suojaa astronauttien silmiä avaruuden voimakkaalta auringonvalolta."
+            "q": "Kuinka monta pistettä Amerikka 250 -astronautti -pisteestä pisteeseen -palapelissä on?",
+            "a": "Amerikka 250 -astronautti -tulostettavassa pistepelissä on 63 numeroitua pistettä. Se tekee siitä helpon tai keskivaikean palapelin, joka sopii parhaiten 5–8-vuotiaille (esikoulusta 2. luokkaan). Lapset yhdistävät pisteet numerojärjestyksessä paljastaakseen valmiin America 250 -astronautin kuvan ja värittävät sen sitten."
           },
           {
-            "range": "15–30",
-            "title": "Avaruuspuvun vartalo",
-            "learn": "Jatka pisteestä 15 pisteeseen 30 piirtääksesi avaruuspuvun leveän vartalon. Lapset harjoittelevat tässä pidempiä yhdistäviä vetoja piirtämällä tukevat hartiat ja rintakehän, jotka antavat astronauttihahmolle sen tunnusomaisen laatikkomaisen ja voimakkaan muodon.",
-            "fact": "Täysi NASA:n avaruuspuku, jota kutsutaan Extravehicular Mobility Unitiksi (EMU), painaa Maassa noin 127 kg – mutta avaruuden painottomuudessa se ei paina mitään! Astronautilta sen pukeminen kestää jopa 45 minuuttia."
+            "q": "Onko Amerikka 250 -astronautti -aiheinen pisteestä pisteeseen -tulostettava versio ilmainen?",
+            "a": "Kyllä. Amerikka 250 -astronautti -työarkki on 100 % ilmainen ladata osoitteesta DotToDotFreePrintables.com – ei tiliä, sähköpostiosoitetta tai maksua vaadita. Se latautuu välittömästi tulostusvalmiina PDF-tiedostona sekä pysty- että vaakasuunnassa, US Letter- tai A4-kokoiselle paperille."
           },
           {
-            "range": "31–44",
-            "title": "Käsivarret ja hanskat",
-            "learn": "Piirrä pisteillä 31–44 astronautin käsivarret ja paksut hanskat. Tässä osiossa on enemmän kulmikkaita suunnanmuutoksia, jotka auttavat lapsia kehittämään kykyä pysähtyä, tähdätä ja aloittaa uusi viiva – taito, joka kehittää myös huolellista numeroiden seurantaa.",
-            "fact": "Avaruuspuvun käsineet ovat yksi puvun monimutkaisimmista osista. Niiden on oltava riittävän joustavia, jotta astronautit voivat tarttua työkaluihin ja työskennellä sormillaan, ja samalla riittävän vahvoja suojaamaan yli 500 Fahrenheit-asteen lämpötilanvaihteluilta avaruudessa."
+            "q": "Minkä ikäisille Amerikka 250 -astronautti -aiheinen yhdistämistehtävä sopii parhaiten?",
+            "a": "63 pisteen ansiosta Amerikka 250 -astronautti -palapeli sopii parhaiten 5–8-vuotiaille (esikoulusta 2. luokkaan). Pienemmät lapset voivat nauttia siitä aikuisen kevyellä tuella, kun taas jo sujuvasti laskevat lapset voivat ratkaista sen itsenäisesti ja harjoitella numerojärjestyksen seuraamista jopa 63 pisteeseen asti."
           },
           {
-            "range": "45–56",
-            "title": "Jalat ja saappaat",
-            "learn": "Yhdistä pisteet 45–56 saadaksesi valmiiksi avaruuspuvun alaosan – jalat ja paksut saappaat. Lapset harjoittelevat tässä tasaisia, yhdensuuntaisia viivoja, mikä on loistavaa johdonmukaisuuden ja hallinnan kehittämiseksi palapelin lähestyessä loppua.",
-            "fact": "Apollo-lentojen aikana käytetyissä kuulaappaissa oli erityinen ulkopohja, joka oli valmistettu kudotusta metallikankaasta nimeltä chromel-R. Se suojasi astronauttien jalkoja kuun pinnan äärimmäisiltä lämpötiloilta, jotka voivat vaihdella −127 °C:sta varjossa +110 °C:seen auringonvalossa."
+            "q": "Mitä taitoja Amerikka 250 -astronautti -pisteestä pisteeseen -palapeli opettaa?",
+            "a": "Amerikka 250 -astronautti -palapelin 63 pisteen yhdistäminen kehittää numeroiden tunnistusta ja laskemista 63:een asti, kynän hallintaa, käden ja silmän koordinaatiota sekä jatkuvaa keskittymistä – samoja hienomotorisia taitoja, jotka tukevat varhaista käsin kirjoittamista. Valmiin kuvan värittäminen lisää luovaa palkintoa."
           },
           {
-            "range": "57–63",
-            "title": "Amerikan lippu ja viimeistelyn yksityiskohdat",
-            "learn": "Viimeistele palapeli yhdistämällä pisteet 57–63 lisätäksesi Amerikan lipun merkin ja viimeiset yksityiskohdat, jotka herättävät koko astronautin eloon. Vain seitsemän pistettä jäljellä – kannusta lapsia tekemään näistä viimeisistä riveistä mahdollisimman siistejä ja tarkkoja!",
-            "fact": "Amerikkalaiset astronautit ovat käyttäneet lippumerkkiä avaruuspuvunsa vasemmalla olkapäällä Apollo-lentojen jälkeen. Kuuhun asetettiin kuusi amerikkalaista lippua vuosien 1969 ja 1972 välillä, ja NASAn kuukuvat viittaavat siihen, että useimmat niistä ovat edelleen pystyssä."
+            "q": "Mikä on hauska fakta America 250 -astronauttista?",
+            "a": "Yhdysvallat oli ensimmäinen maa, joka laski ihmisiä Kuun pinnalle. Neil Armstrong ja Buzz Aldrin ottivat ihmiskunnan ensiaskeleet kuun pinnalla 20. heinäkuuta 1969 – vain 193 vuotta itsenäisyysjulistuksen jälkeen. Lapset löytävät tällaisia faktoja ratkoessaan Amerikka 250 -astronautti -pisteestä pisteeseen -palapeliä."
           }
         ],
-        "outro": "Erinomaista työtä – America 250 -astronauttisi on valmis laukaisuun! Siinä on 63 pistettä ja yksi uskomaton symboli amerikkalaisesta tutkimusmatkailusta ja rohkeudesta. Väritä avaruuspuku valkoiseksi ja lisää isänmaallisia punaisia, valkoisia ja sinisiä yksityiskohtia lähettääksesi astronauttisi liitämään tyylikkäästi. Hyvää 250. syntymäpäivää, USA – ad astra! Löydä lisää ilmaisia <a href=\"/\">pisteestä pisteeseen -tulostettavia materiaaleja</a> kaikenikäisille.",
-        "color_schemes": []
+        "dot_guide": {
+          "intro": "Amerikka täyttää 250 vuotta – ja harva asia kuvaa amerikkalaista seikkailumieltä paremmin kuin astronautti! Avaruuskilpailun ensimmäisistä raketeista aina kuulentajiin ja sen yli, amerikkalaiset tutkimusmatkailijat ovat aina tavoitelleet tähtiä. Ota kynä, etsi piste 1 ja pukeudutaan laukaisuun!",
+          "sections": [
+            {
+              "range": "1–14",
+              "title": "Kypärä",
+              "learn": "Aloita pisteestä 1 ja yhdistä pisteeseen 14 piirtääksesi pyöreän astronauttikypärän. Visiiri ja kaareva ulkokuori antavat lapsille loistavan alkulämmittelyn pehmeillä, leveillä kaarilla, jotka kehittävät varmaa kynän hallintaa ensimmäisestä vedosta lähtien.",
+              "fact": "Astronauttien kypärät on valmistettu polykarbonaattikerroksista ja muista kestävistä materiaaleista. Kultainen visiiri on päällystetty ohuella kerroksella aitoa kultaa, joka heijastaa auringonsäteilyä ja suojaa astronauttien silmiä avaruuden voimakkaalta auringonvalolta."
+            },
+            {
+              "range": "15–30",
+              "title": "Avaruuspuvun vartalo",
+              "learn": "Jatka pisteestä 15 pisteeseen 30 piirtääksesi avaruuspuvun leveän vartalon. Lapset harjoittelevat tässä pidempiä yhdistäviä vetoja piirtämällä tukevat hartiat ja rintakehän, jotka antavat astronauttihahmolle sen tunnusomaisen laatikkomaisen ja voimakkaan muodon.",
+              "fact": "Täysi NASA:n avaruuspuku, jota kutsutaan Extravehicular Mobility Unitiksi (EMU), painaa Maassa noin 127 kg – mutta avaruuden painottomuudessa se ei paina mitään! Astronautilta sen pukeminen kestää jopa 45 minuuttia."
+            },
+            {
+              "range": "31–44",
+              "title": "Käsivarret ja hanskat",
+              "learn": "Piirrä pisteillä 31–44 astronautin käsivarret ja paksut hanskat. Tässä osiossa on enemmän kulmikkaita suunnanmuutoksia, jotka auttavat lapsia kehittämään kykyä pysähtyä, tähdätä ja aloittaa uusi viiva – taito, joka kehittää myös huolellista numeroiden seurantaa.",
+              "fact": "Avaruuspuvun käsineet ovat yksi puvun monimutkaisimmista osista. Niiden on oltava riittävän joustavia, jotta astronautit voivat tarttua työkaluihin ja työskennellä sormillaan, ja samalla riittävän vahvoja suojaamaan yli 500 Fahrenheit-asteen lämpötilanvaihteluilta avaruudessa."
+            },
+            {
+              "range": "45–56",
+              "title": "Jalat ja saappaat",
+              "learn": "Yhdistä pisteet 45–56 saadaksesi valmiiksi avaruuspuvun alaosan – jalat ja paksut saappaat. Lapset harjoittelevat tässä tasaisia, yhdensuuntaisia viivoja, mikä on loistavaa johdonmukaisuuden ja hallinnan kehittämiseksi palapelin lähestyessä loppua.",
+              "fact": "Apollo-lentojen aikana käytetyissä kuulaappaissa oli erityinen ulkopohja, joka oli valmistettu kudotusta metallikankaasta nimeltä chromel-R. Se suojasi astronauttien jalkoja kuun pinnan äärimmäisiltä lämpötiloilta, jotka voivat vaihdella −127 °C:sta varjossa +110 °C:seen auringonvalossa."
+            },
+            {
+              "range": "57–63",
+              "title": "Amerikan lippu ja viimeistelyn yksityiskohdat",
+              "learn": "Viimeistele palapeli yhdistämällä pisteet 57–63 lisätäksesi Amerikan lipun merkin ja viimeiset yksityiskohdat, jotka herättävät koko astronautin eloon. Vain seitsemän pistettä jäljellä – kannusta lapsia tekemään näistä viimeisistä riveistä mahdollisimman siistejä ja tarkkoja!",
+              "fact": "Amerikkalaiset astronautit ovat käyttäneet lippumerkkiä avaruuspuvunsa vasemmalla olkapäällä Apollo-lentojen jälkeen. Kuuhun asetettiin kuusi amerikkalaista lippua vuosien 1969 ja 1972 välillä, ja NASAn kuukuvat viittaavat siihen, että useimmat niistä ovat edelleen pystyssä."
+            }
+          ],
+          "outro": "Erinomaista työtä – America 250 -astronauttisi on valmis laukaisuun! Siinä on 63 pistettä ja yksi uskomaton symboli amerikkalaisesta tutkimusmatkailusta ja rohkeudesta. Väritä avaruuspuku valkoiseksi ja lisää isänmaallisia punaisia, valkoisia ja sinisiä yksityiskohtia lähettääksesi astronauttisi liitämään tyylikkäästi. Hyvää 250. syntymäpäivää, USA – ad astra! Löydä lisää ilmaisia <a href=\"/\">pisteestä pisteeseen -tulostettavia materiaaleja</a> kaikenikäisille.",
+          "color_schemes": []
+        }
       }
-    }
-  },
-  {
-    "slug": "usa-250-anniversary-airplane-banner-dot-to-dot-puzzle",
-    "header": {
-      "title": "Lentokonebanderoli pisteestä pisteeseen: 54 pistettä Amerikan 250-juhlaan",
-      "meta_description": "Kaksitaso kuljettaa America 250 -banneria 54 pisteen läpi. Lataa ilmainen 2026 vuosipäivätyölehti nuorille lentäjille, ikäryhmässä 4–8.",
-      "og": {
+    },
+    {
+      "slug": "usa-250-anniversary-airplane-banner-dot-to-dot-puzzle",
+      "header": {
         "title": "Lentokonebanderoli pisteestä pisteeseen: 54 pistettä Amerikan 250-juhlaan",
-        "description": "Kaksitaso kuljettaa America 250 -banneria 54 pisteen läpi. Lataa ilmainen 2026 vuosipäivätyölehti nuorille lentäjille, ikäryhmässä 4–8.",
-        "image_alt": "Klassinen kaksitasokone vetää Amerikka 250 -banderollia 54 tulostettavan pisteen läpi"
+        "meta_description": "Kaksitaso kuljettaa America 250 -banneria 54 pisteen läpi. Lataa ilmainen 2026 vuosipäivätyölehti nuorille lentäjille, ikäryhmässä 4–8.",
+        "og": {
+          "title": "Lentokonebanderoli pisteestä pisteeseen: 54 pistettä Amerikan 250-juhlaan",
+          "description": "Kaksitaso kuljettaa America 250 -banneria 54 pisteen läpi. Lataa ilmainen 2026 vuosipäivätyölehti nuorille lentäjille, ikäryhmässä 4–8.",
+          "image_alt": "Klassinen kaksitasokone vetää Amerikka 250 -banderollia 54 tulostettavan pisteen läpi"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Amerikan 250-vuotisjuhlan lentokonebanderoli",
+          "description": "Kaksitaso kuljettaa America 250 -banneria 54 pisteen läpi. Lataa ilmainen 2026 vuosipäivätyölehti nuorille lentäjille, ikäryhmässä 4–8.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
       },
-      "json_ld": {
-        "type": "CreativeWork",
+      "body": {
+        "h1": "Ilma-alus Banneri Pisteestä Pisteeseen: 54 Pistettä Amerikalle 250",
         "name": "Amerikan 250-vuotisjuhlan lentokonebanderoli",
-        "description": "Kaksitaso kuljettaa America 250 -banneria 54 pisteen läpi. Lataa ilmainen 2026 vuosipäivätyölehti nuorille lentäjille, ikäryhmässä 4–8.",
-        "image": "",
-        "educational_use": "Fine motor skills, number sequencing",
-        "age_range": ""
-      }
-    },
-    "body": {
-      "h1": "Ilma-alus Banneri Pisteestä Pisteeseen: 54 Pistettä Amerikalle 250",
-      "name": "Amerikan 250-vuotisjuhlan lentokonebanderoli",
-      "tagline": "Lennä korkealla Amerikan 250-vuotisjuhlan kunniaksi!",
-      "description": "Yhdistä 54 helppoa pistettä paljastaaksesi klassisen kaksitasoisen lentokoneen, joka vetää perässä isänmaallista lippua Amerikan 250-vuotisjuhlan kunniaksi! Tämä ilmainen tulostettava tehtävä auttaa pieniä lapsia harjoittelemaan numeroiden lukemista ja kynän käyttöä samalla kun he juhlivat Amerikan 250-vuotista historiaa ja lentotaidon pioneerihenkeä. Täydellinen 4–8-vuotiaille.",
-      "fun_fact": "Wrightin veljekset tekivät maailman ensimmäisen moottorikäyttöisen lentokoneen lennon Kitty Hawkissa, Pohjois-Carolinassa, 17. joulukuuta 1903 — vain 127 vuotta itsenäisyysjulistuksen allekirjoittamisen jälkeen. Tämä ensimmäinen lento kesti vain 12 sekuntia ja kattoi 120 jalkaa, mutta se muutti maailman ikuisesti.",
-      "dot_guide": {
-        "intro": "Amerikka täyttää 250 vuotta – ja mikä olisikaan parempi tapa levittää syntymäpäiväviestiä kuin isänmaallinen lentokonebanneri liehuen taivaalla? Wrightin veljesten ensilennosta vuonna 1903 lähtien amerikkalaiset ovat rakastaneet ilmailun rajojen rikkomista. Nykyään banderolleja hinauskoneet ovat tuttu näky juhlissa, rannoilla ja urheilutapahtumissa rannikolta rannikolle. Ota kynä, etsi piste 1, ja nostetaan tämä kone ilmaan!",
-        "sections": [
+        "tagline": "Lennä korkealla Amerikan 250-vuotisjuhlan kunniaksi!",
+        "description": "Yhdistä 54 helppoa pistettä paljastaaksesi klassisen kaksitasoisen lentokoneen, joka vetää perässä isänmaallista lippua Amerikan 250-vuotisjuhlan kunniaksi! Tämä ilmainen tulostettava tehtävä auttaa pieniä lapsia harjoittelemaan numeroiden lukemista ja kynän käyttöä samalla kun he juhlivat Amerikan 250-vuotista historiaa ja lentotaidon pioneerihenkeä. Täydellinen 4–8-vuotiaille.",
+        "fun_fact": "Wrightin veljekset tekivät maailman ensimmäisen moottorikäyttöisen lentokoneen lennon Kitty Hawkissa, Pohjois-Carolinassa, 17. joulukuuta 1903 — vain 127 vuotta itsenäisyysjulistuksen allekirjoittamisen jälkeen. Tämä ensimmäinen lento kesti vain 12 sekuntia ja kattoi 120 jalkaa, mutta se muutti maailman ikuisesti.",
+        "faqs": [
           {
-            "range": "1–12",
-            "title": "Nenä ja potkuri",
-            "learn": "Aloita pisteestä 1 ja yhdistä se pisteeseen 12 piirtääksesi lentokoneen pyöristetyn nokan ja edessä pyörivän potkurin. Nämä tiukat kaaret ja kulmassa olevat potkurin lavat muodostavat pirteän lämmittelyn, joka kehittää tarkkaa kynänmuotoista lentotekniikkaa heti alusta alkaen.",
-            "fact": "Mäntämoottorilentokoneen potkuri toimii aivan kuten pyörivä siipi – jokainen lapa on muotoiltu siten, että sen pyörittäminen ilmassa tuottaa eteenpäin suuntautuvaa työntövoimaa. Varhaiset puiset potkurit veistettiin käsin tarkkoihin kaarteisiin, ja taitavat käsityöläiset pystyivät muotoilemaan potkurin, joka vastasi täydellisesti tietyn moottorin tehoa."
+            "q": "Kuinka monta pistettä on Amerikan 250-vuotisjuhlan lentokonebanderoli -pisteestä pisteeseen -palapelissä?",
+            "a": "Amerikan 250-vuotisjuhlan lentokonebanderoli -tulostettavassa yhdistä-pisteet-palapelissä on 54 numeroitua pistettä. Se tekee siitä helpon tai keskivaikean palapelin, joka sopii parhaiten 5–8-vuotiaille (esikoulusta 2. luokkaan). Lapset yhdistävät pisteet numerojärjestyksessä paljastaakseen valmiin Amerikan 250-vuotisjuhlan lentokonebanderoli -kuvan ja värittävät sen sitten."
           },
           {
-            "range": "13–26",
-            "title": "Ohjaamo ja runko",
-            "learn": "Jatka pisteestä 13 pisteeseen 26 piirtääksesi ohjaamon kuomun ja rungon pitkän rungon. Lapset harjoittelevat kaarevien ja suorien vetojen yhdistelmää, joka vangitsee lentokoneen virtaviivaisen muodon, rakentaen itsevarmuutta ja viivojen yhtenäisyyttä suuremmalle osalle sivua.",
-            "fact": "Varhaisissa lentokoneissa oli avoimet ohjaamot ilman tuulilasia – lentäjät käyttivät nahkakypäriä, suojalaseja ja huiveja suojautuakseen tuulelta ja kylmyydeltä korkealla. Suljetut ohjaamot lasikatoksilla tulivat vakiovarusteiksi useimmissa lentokoneissa vasta 1930-luvulla, mikä teki lentämisestä paljon mukavampaa."
+            "q": "Onko Amerikan 250-vuotisjuhlavuoden lentokonebanneri tulostettava pisteestä pisteeseen -periaatteella ilmainen?",
+            "a": "Kyllä. Amerikan 250-vuotisjuhlan lentokoneen banneri -työarkki on ladattavissa täysin ilmaiseksi DotToDotFreePrintables.com-sivustolta – ei tiliä, sähköpostiosoitetta tai maksua vaadita. Se latautuu välittömästi tulostusvalmiina PDF-tiedostona sekä pysty- että vaakasuunnassa, US Letter- tai A4-kokoiselle paperille."
           },
           {
-            "range": "27–38",
-            "title": "Siivet",
-            "learn": "Piirrä lentokoneen ojennetut siivet pisteillä 27–38. Nämä pitkät, vaakasuorat vedot ovat loistava harjoitus sujuvaan ja tasaiseen viivan hallintaan laajalla matkalla. Kannusta lapsia tähtäämään jokaiseen pisteeseen rauhallisesti ja antamaan kynän liukua – aivan kuin lentokone liikkuisi tasaisessa ilmavirrassa.",
-            "fact": "Lentokoneen siivet tuottavat nostovoimaa kaarevan yläpinnan ja tasaisemman alapintansa ansiosta. Kaarevan yläpinnan yli liikkuva ilma kulkee nopeammin ja luo alhaisemman paineen, kun taas hitaampi ilma työntyy ylöspäin – ja yhdessä tämä paine-ero nostaa koko lentokoneen irti maasta."
+            "q": "Minkä ikäisille Amerikan 250-vuotisjuhlan lentokonebanderoli -yhdistä pisteet -työkirja sopii parhaiten?",
+            "a": "54 pisteen ansiosta Amerikan 250-vuotisjuhlan lentokonebanderoli -palapeli sopii parhaiten 5–8-vuotiaille (esikoulusta 2. luokkaan). Pienemmät lapset voivat nauttia siitä aikuisen kevyellä tuella, kun taas jo sujuvasti laskevat lapset voivat ratkaista sen itsenäisesti ja harjoitella numeroiden lukemista jopa 54 pisteeseen asti."
           },
           {
-            "range": "39–47",
-            "title": "Pyrstöevä ja peräsin",
-            "learn": "Yhdistä pisteet 39–47 piirtääksesi pystysuoran peräsiiven ja koneen takaosassa olevat vaakasuorat vakaajat. Nämä kulmikkaat, tarkat vedot auttavat lapsia harjoittelemaan suunnanmuutoksia ja kulmapisteitä – loistava haaste jokaisen numeroidun pisteen huolellisen tähtäyksen harjoittamiselle.",
-            "fact": "Peräevä – jota kutsutaan myös pystysuoraksi vakaajaksi – pitää lentokoneen suunnan suoraan eteenpäin, aivan kuten nuolen varassa lentävät lennot. Ilman sitä nokka heilahtaisi hallitsemattomasti vasemmalle ja oikealle pienimmässäkin tuulessa. Sen ylä- ja alapuolella olevat pienemmät vaakasuorat vakaajat säätelevät lentokoneen nousu- ja laskukallistusta."
+            "q": "Mitä taitoja Amerikan 250-vuotisjuhlan lentokonebanderoli -pisteestä pisteeseen -palapeli opettaa?",
+            "a": "Yhdistämällä 54 pistettä Amerikan 250-vuotisjuhlan lentokonebanderoli -palapelissä kehitetään numeroiden tunnistusta ja laskemista 54:ään asti, kynän hallintaa, käden ja silmän koordinaatiota sekä jatkuvaa keskittymistä – samoja hienomotorisia perustaitoja, jotka tukevat varhaista käsin kirjoittamista. Valmiin kuvan värittäminen lisää luovaa palkintoa."
           },
           {
-            "range": "48–54",
-            "title": "Banneri ja viimeistely",
-            "learn": "Viimeistele palapeli yhdistämällä pisteet 48–54 lisätäksesi lentokoneen perässä hinattavan liehuvan isänmaallisen viirin. Vain seitsemän pistettä täydentääksesi kuvan – kannusta lapsia piirtämään nauhamaisen viirin lempeällä, virtaavalla ranneliikkeellä, joka saa sen näyttämään siltä kuin se liehuisi tuulessa.",
-            "fact": "Ilmabannerien hinaus alkoi Yhdysvalloissa 1920-luvulla, kun fiksut lentäjät tajusivat voivansa ansaita ylimääräistä rahaa lennättämällä mainosviestejä ruuhkaisten rantojen ja urheilutapahtumien yllä. Nykyään banderollikoneet hinaustavat usein satojen metrien pituisia viestejä, ja ne näkyvät kirkkaana päivänä kilometrien päähän."
+            "q": "Mikä on hauska fakta Amerikan 250-vuotisjuhlavuoden lentokonebanderollista?",
+            "a": "Wrightin veljekset suorittivat maailman ensimmäisen moottorilentokoneen lennon Kitty Hawkissa, Pohjois-Carolinassa, 17. joulukuuta 1903 – vain 127 vuotta itsenäisyysjulistuksen allekirjoittamisen jälkeen. Ensimmäinen lento kesti vain 12 sekuntia ja lensi 36 metriä, mutta se muutti maailman ikuisesti. Lapset löytävät tällaisia faktoja ratkoessaan Amerikan 250-vuotisjuhlan lentokonebannerin pisteestä pisteeseen -palapeliä."
           }
         ],
-        "outro": "Upeaa työtä – Amerikan 250-vuotisjuhlavuoden lentokoneesi kohoaa korkealle! Siinä on 54 pistettä ja yksi taivaankorkuinen syntymäpäiväviesti Amerikalle. Väritä lentokone punaiseksi ja valkoiseksi sinisillä tähtikoristeilla ja täytä banneri isänmaallisilla väreillä juhlistaaksesi Amerikan historian 250 uskomatonta vuotta. Hyvää 250-vuotissyntymäpäivää, USA! Täydellinen luokkahuoneeseen – katso lisää <a href=\"/playgrounds/\">pisteestä pisteeseen -tehtäviä</a>.",
-        "color_schemes": []
+        "dot_guide": {
+          "intro": "Amerikka täyttää 250 vuotta – ja mikä olisikaan parempi tapa levittää syntymäpäiväviestiä kuin isänmaallinen lentokonebanneri liehuen taivaalla? Wrightin veljesten ensilennosta vuonna 1903 lähtien amerikkalaiset ovat rakastaneet ilmailun rajojen rikkomista. Nykyään banderolleja hinauskoneet ovat tuttu näky juhlissa, rannoilla ja urheilutapahtumissa rannikolta rannikolle. Ota kynä, etsi piste 1, ja nostetaan tämä kone ilmaan!",
+          "sections": [
+            {
+              "range": "1–12",
+              "title": "Nenä ja potkuri",
+              "learn": "Aloita pisteestä 1 ja yhdistä se pisteeseen 12 piirtääksesi lentokoneen pyöristetyn nokan ja edessä pyörivän potkurin. Nämä tiukat kaaret ja kulmassa olevat potkurin lavat muodostavat pirteän lämmittelyn, joka kehittää tarkkaa kynänmuotoista lentotekniikkaa heti alusta alkaen.",
+              "fact": "Mäntämoottorilentokoneen potkuri toimii aivan kuten pyörivä siipi – jokainen lapa on muotoiltu siten, että sen pyörittäminen ilmassa tuottaa eteenpäin suuntautuvaa työntövoimaa. Varhaiset puiset potkurit veistettiin käsin tarkkoihin kaarteisiin, ja taitavat käsityöläiset pystyivät muotoilemaan potkurin, joka vastasi täydellisesti tietyn moottorin tehoa."
+            },
+            {
+              "range": "13–26",
+              "title": "Ohjaamo ja runko",
+              "learn": "Jatka pisteestä 13 pisteeseen 26 piirtääksesi ohjaamon kuomun ja rungon pitkän rungon. Lapset harjoittelevat kaarevien ja suorien vetojen yhdistelmää, joka vangitsee lentokoneen virtaviivaisen muodon, rakentaen itsevarmuutta ja viivojen yhtenäisyyttä suuremmalle osalle sivua.",
+              "fact": "Varhaisissa lentokoneissa oli avoimet ohjaamot ilman tuulilasia – lentäjät käyttivät nahkakypäriä, suojalaseja ja huiveja suojautuakseen tuulelta ja kylmyydeltä korkealla. Suljetut ohjaamot lasikatoksilla tulivat vakiovarusteiksi useimmissa lentokoneissa vasta 1930-luvulla, mikä teki lentämisestä paljon mukavampaa."
+            },
+            {
+              "range": "27–38",
+              "title": "Siivet",
+              "learn": "Piirrä lentokoneen ojennetut siivet pisteillä 27–38. Nämä pitkät, vaakasuorat vedot ovat loistava harjoitus sujuvaan ja tasaiseen viivan hallintaan laajalla matkalla. Kannusta lapsia tähtäämään jokaiseen pisteeseen rauhallisesti ja antamaan kynän liukua – aivan kuin lentokone liikkuisi tasaisessa ilmavirrassa.",
+              "fact": "Lentokoneen siivet tuottavat nostovoimaa kaarevan yläpinnan ja tasaisemman alapintansa ansiosta. Kaarevan yläpinnan yli liikkuva ilma kulkee nopeammin ja luo alhaisemman paineen, kun taas hitaampi ilma työntyy ylöspäin – ja yhdessä tämä paine-ero nostaa koko lentokoneen irti maasta."
+            },
+            {
+              "range": "39–47",
+              "title": "Pyrstöevä ja peräsin",
+              "learn": "Yhdistä pisteet 39–47 piirtääksesi pystysuoran peräsiiven ja koneen takaosassa olevat vaakasuorat vakaajat. Nämä kulmikkaat, tarkat vedot auttavat lapsia harjoittelemaan suunnanmuutoksia ja kulmapisteitä – loistava haaste jokaisen numeroidun pisteen huolellisen tähtäyksen harjoittamiselle.",
+              "fact": "Peräevä – jota kutsutaan myös pystysuoraksi vakaajaksi – pitää lentokoneen suunnan suoraan eteenpäin, aivan kuten nuolen varassa lentävät lennot. Ilman sitä nokka heilahtaisi hallitsemattomasti vasemmalle ja oikealle pienimmässäkin tuulessa. Sen ylä- ja alapuolella olevat pienemmät vaakasuorat vakaajat säätelevät lentokoneen nousu- ja laskukallistusta."
+            },
+            {
+              "range": "48–54",
+              "title": "Banneri ja viimeistely",
+              "learn": "Viimeistele palapeli yhdistämällä pisteet 48–54 lisätäksesi lentokoneen perässä hinattavan liehuvan isänmaallisen viirin. Vain seitsemän pistettä täydentääksesi kuvan – kannusta lapsia piirtämään nauhamaisen viirin lempeällä, virtaavalla ranneliikkeellä, joka saa sen näyttämään siltä kuin se liehuisi tuulessa.",
+              "fact": "Ilmabannerien hinaus alkoi Yhdysvalloissa 1920-luvulla, kun fiksut lentäjät tajusivat voivansa ansaita ylimääräistä rahaa lennättämällä mainosviestejä ruuhkaisten rantojen ja urheilutapahtumien yllä. Nykyään banderollikoneet hinaustavat usein satojen metrien pituisia viestejä, ja ne näkyvät kirkkaana päivänä kilometrien päähän."
+            }
+          ],
+          "outro": "Upeaa työtä – Amerikan 250-vuotisjuhlavuoden lentokoneesi kohoaa korkealle! Siinä on 54 pistettä ja yksi taivaankorkuinen syntymäpäiväviesti Amerikalle. Väritä lentokone punaiseksi ja valkoiseksi sinisillä tähtikoristeilla ja täytä banneri isänmaallisilla väreillä juhlistaaksesi Amerikan historian 250 uskomatonta vuotta. Hyvää 250-vuotissyntymäpäivää, USA! Täydellinen luokkahuoneeseen – katso lisää <a href=\"/playgrounds/\">pisteestä pisteeseen -tehtäviä</a>.",
+          "color_schemes": []
+        }
       }
-    }
-  },
-  {
-    "slug": "usa-250-space-shuttle-dot-to-dot-puzzle",
-    "header": {
-      "title": "Avaruussukkula pisteestä pisteeseen — 50 pistettä Amerikan 250-juhlaan",
-      "meta_description": "Nasan avaruuslentokoneet suorittivat 135 tehtävää. Rakenna lento 50 pisteen yli tällä ilmaisella America 250 tulostettavalla PDF:llä lapsille, ikäryhmässä 4–8.",
-      "og": {
+    },
+    {
+      "slug": "usa-250-space-shuttle-dot-to-dot-puzzle",
+      "header": {
         "title": "Avaruussukkula pisteestä pisteeseen — 50 pistettä Amerikan 250-juhlaan",
-        "description": "Nasan avaruuslentokoneet suorittivat 135 tehtävää. Rakenna lento 50 pisteen yli tällä ilmaisella America 250 tulostettavalla PDF:llä lapsille, ikäryhmässä 4–8.",
-        "image_alt": "Avaruussukkula nousee ilmaan 50 numeroidun tulostettavan pisteen pilvessä"
+        "meta_description": "Nasan avaruuslentokoneet suorittivat 135 tehtävää. Rakenna lento 50 pisteen yli tällä ilmaisella America 250 tulostettavalla PDF:llä lapsille, ikäryhmässä 4–8.",
+        "og": {
+          "title": "Avaruussukkula pisteestä pisteeseen — 50 pistettä Amerikan 250-juhlaan",
+          "description": "Nasan avaruuslentokoneet suorittivat 135 tehtävää. Rakenna lento 50 pisteen yli tällä ilmaisella America 250 tulostettavalla PDF:llä lapsille, ikäryhmässä 4–8.",
+          "image_alt": "Avaruussukkula nousee ilmaan 50 numeroidun tulostettavan pisteen pilvessä"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Amerikka 250 -avaruussukkula",
+          "description": "Nasan avaruuslentokoneet suorittivat 135 tehtävää. Rakenna lento 50 pisteen yli tällä ilmaisella America 250 tulostettavalla PDF:llä lapsille, ikäryhmässä 4–8.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
       },
-      "json_ld": {
-        "type": "CreativeWork",
+      "body": {
+        "h1": "Avaruuslentokone Pisteestä Pisteeseen — 50-Pisteen America 250 -lento",
         "name": "Amerikka 250 -avaruussukkula",
-        "description": "Nasan avaruuslentokoneet suorittivat 135 tehtävää. Rakenna lento 50 pisteen yli tällä ilmaisella America 250 tulostettavalla PDF:llä lapsille, ikäryhmässä 4–8.",
-        "image": "",
-        "educational_use": "Fine motor skills, number sequencing",
-        "age_range": ""
-      }
-    },
-    "body": {
-      "h1": "Avaruuslentokone Pisteestä Pisteeseen — 50-Pisteen America 250 -lento",
-      "name": "Amerikka 250 -avaruussukkula",
-      "tagline": "Laukaise Amerikan 250. luolastolle avaruussukkulalla!",
-      "description": "Yhdistä 50 helppoa pistettä paljastaaksesi mahtavan avaruussukkulan laukaisevan Amerikan 250-vuotisjuhlan kunniaksi! Tämä ilmainen tulostettava tehtävä auttaa pieniä lapsia harjoittelemaan numeroiden lukemista ja kynän käyttöä samalla kun he kunnioittavat 250 vuotta amerikkalaista tutkimusmatkailua ja innovaatioita. Täydellinen 4–8-vuotiaille.",
-      "fun_fact": "Nasan avaruuslentokonesuunnitelma lensi 135 tehtävää vuosina 1981–2011, kuljettaen astronautteja, satelliitteja ja Kansainvälisen avaruusasemaan rakennuspalikoita kiertoradalle. Viisi avaruuslentokonetta — Columbia, Challenger, Discovery, Atlantis ja Endeavour — vietti yhteensä yli 1 300 päivää avaruudessa.",
-      "dot_guide": {
-        "intro": "Amerikka täyttää 250 vuotta – ja harva kone ilmentää kansakunnan tutkimusmatkailun henkeä ja kunnianhimoa paremmin kuin avaruussukkula! 30 vuoden ajan sukkula kuljetti amerikkalaisia astronautteja kiertoradalle, laukaisi teleskooppeja, jotka muuttivat näkemystämme maailmankaikkeudesta, ja auttoi rakentamaan maailman kanssa jaetun avaruusaseman. Ota kynä, etsi piste 1 ja lähetetään tämä sukkula ilmaan!",
-        "sections": [
+        "tagline": "Laukaise Amerikan 250. luolastolle avaruussukkulalla!",
+        "description": "Yhdistä 50 helppoa pistettä paljastaaksesi mahtavan avaruussukkulan laukaisevan Amerikan 250-vuotisjuhlan kunniaksi! Tämä ilmainen tulostettava tehtävä auttaa pieniä lapsia harjoittelemaan numeroiden lukemista ja kynän käyttöä samalla kun he kunnioittavat 250 vuotta amerikkalaista tutkimusmatkailua ja innovaatioita. Täydellinen 4–8-vuotiaille.",
+        "fun_fact": "Nasan avaruuslentokonesuunnitelma lensi 135 tehtävää vuosina 1981–2011, kuljettaen astronautteja, satelliitteja ja Kansainvälisen avaruusasemaan rakennuspalikoita kiertoradalle. Viisi avaruuslentokonetta — Columbia, Challenger, Discovery, Atlantis ja Endeavour — vietti yhteensä yli 1 300 päivää avaruudessa.",
+        "faqs": [
           {
-            "range": "1–10",
-            "title": "Nenäkartio ja ohjaamo",
-            "learn": "Aloita pisteestä 1 ja yhdistä se pisteeseen 10 piirtääksesi terävän nokkakartion ja sen alapuolella olevan ohjaamon ikkunarivin. Nämä tarkat, kulmikkaat vedot ovat loistava lämmittely nuorille taiteilijoille, sillä ne auttavat heitä kehittämään vakaata kädenohjausta, jota he tarvitsevat edessä olevien siipien ja moottoreiden ohjaamiseen.",
-            "fact": "Avaruussukkulan nokkakartio ja runko oli peitetty tuhansilla lämpösuojalaatoilla, joista jokainen oli valmistettu niin tehokkaasta piidioksidimateriaalista, että laattaa pystyi pitämään paljaalla kädellä sekunteja sen jälkeen, kun se oli lämmitetty 2 300 Fahrenheit-asteeseen – lämpötilaan, jonka se saavutti paluun aikana."
+            "q": "Kuinka monta pistettä America 250 -avaruussukkulan pisteestä pisteeseen -palapelissä on?",
+            "a": "America 250 -avaruussukkulan tulostettavassa pistepelissä on 50 numeroitua pistettä. Se tekee siitä helpon tai keskivaikean palapelin, joka sopii parhaiten 5–8-vuotiaille (esikoulusta 2. luokkaan). Lapset yhdistävät pisteet numerojärjestyksessä paljastaakseen valmiin America 250 -avaruussukkulan kuvan ja värittävät sen sitten."
           },
           {
-            "range": "11–24",
-            "title": "Päärunko",
-            "learn": "Jatka pisteestä 11 pisteeseen 24 piirtääksesi luotaimen pitkän, sylinterimäisen rungon – osan, jossa sijaitsivat miehistön hytti, hyötykuormatila ja kaikki tehtävän laitteet. Lapset harjoittelevat tässä suoria, yhdensuuntaisia viivoja, mikä lisää erinomaista johdonmukaisuutta ja auttaa heitä ymmärtämään kokonaismuodon ennen kuin lisäävät sen ympärille jännittäviä yksityiskohtia.",
-            "fact": "Sukkulan valtava hyötykuormatila – miehistön hytin takana oleva lastitila – oli 18 metriä pitkä ja 4,5 metriä leveä, riittävän suuri kuljettamaan koulubussin kiertoradalle. Sitä käytettiin satelliittien laukaisemiseen, tieteellisten kokeiden suorittamiseen ja massiivisten moduulien kuljetukseen, jotka pultattiin yhteen kansainvälisen avaruusaseman rakentamiseksi."
+            "q": "Onko America 250 -avaruussukkulan pisteestä pisteeseen tulostettava versio ilmainen?",
+            "a": "Kyllä. America 250 -avaruussukkulan työarkki on 100 % ilmainen ladata DotToDotFreePrintables.com-sivustolta – ei tiliä, sähköpostiosoitetta tai maksua vaadita. Se latautuu välittömästi tulostusvalmiina PDF-tiedostona sekä pysty- että vaakasuunnassa, US Letter- tai A4-kokoiselle paperille."
           },
           {
-            "range": "25–36",
-            "title": "Delta-siivet",
-            "learn": "Piirrä pisteillä 25–36 sukkulan tunnusomaiset taaksepäin kaartuvat deltasiivet. Nämä pitkät, vinot vedot ovat loistava harjoitus varmalle viivan hallinnalle – lapset harjoittelevat piirtämistä leveästä siivenkärjestä taaksepäin kohti luotaimen runkoa yhdellä sujuvalla, harkitulla liikkeellä.",
-            "fact": "Avaruussukkula oli maailman ensimmäinen uudelleenkäytettävä avaruusalus, joka oli suunniteltu lentämään kuin liitokone laskeutumisen aikana. Ilmakehään palattuaan sillä ei ollut moottoritehoa ja vain yksi mahdollisuus laskeutua – lentäjät kutsuivat sitä \"maailman raskaimmaksi liitokoneeksi\". Deltan muotoiset siivet antoivat sille tarvittavan nostovoiman liukua turvallisesti kiitotielle."
+            "q": "Minkä ikäisille America 250 -avaruussukkulan yhdistämisharjoitus sopii parhaiten?",
+            "a": "50 pisteen America 250 -avaruussukkula -palapeli sopii parhaiten 5–8-vuotiaille (esikoulusta 2. luokkaan). Pienemmät lapset voivat nauttia siitä aikuisen kevyellä tuella, kun taas jo sujuvasti laskevat lapset voivat ratkaista sen itsenäisesti ja harjoitella numeroiden lukemista jopa 50:een asti."
           },
           {
-            "range": "37–44",
-            "title": "Peräevä ja päämoottorit",
-            "learn": "Yhdistä pisteet 37–44 piirtääksesi korkean pystysuoran peräsiiven ja kolmen päämoottorin muodostaman ryhmän luotaimen takaosassa. Lapset harjoittelevat siiven korkeaa ylöspäin suuntautuvaa vetoa ja sitten pienempiä, pyöreitä muotoja kullekin moottorin kellolle – loistava sekoitus suuria ja pieniä liikkeitä samassa osiossa.",
-            "fact": "Jokainen avaruussukkulan päämoottori (SSME) oli yksi tehokkaimmista koskaan rakennetuista rakettimoottoreista, ja se tuotti noin 375 000 paunaa työntövoimaa. Kolme moottoria polttivat yhdessä nestemäistä vetyä ja nestemäistä happea, mikä tuotti niin kuuman liekin, että laukaisualustalle jouduttiin kaatamaan vettä äänen ja lämmön absorboimiseksi nousun aikana."
+            "q": "Mitä taitoja America 250 -avaruussukkulan pisteestä pisteeseen -palapeli opettaa?",
+            "a": "America 250 -avaruussukkula-palapelin 50 pisteen yhdistäminen kehittää numeroiden tunnistusta ja viiteenkymmeneen laskemista, kynän hallintaa, käden ja silmän koordinaatiota sekä jatkuvaa keskittymistä – samoja hienomotorisia taitoja, jotka tukevat varhaista käsin kirjoittamista. Valmiin kuvan värittäminen lisää luovaa palkintoa."
           },
           {
-            "range": "45–50",
-            "title": "Mission Patch ja viimeistely",
-            "learn": "Viimeistele palapeli yhdistämällä pisteet 45–50 lisätäksesi Amerikan lipun, tehtävämerkin ja viimeiset yksityiskohdat, jotka herättävät koko sukkulan eloon. Vain kuusi pistettä täydentääksesi tämän historiallisen avaruusaluksen – kannusta lapsia tekemään näistä viimeisistä viivoista mahdollisimman siistejä ja tarkkoja kuvia, jotka ovat tehtävämerkin arvoisia!",
-            "fact": "Jokaisella avaruussukkulan tehtävällä oli oma ainutlaatuinen miehistömerkkinsä, jonka astronautit itse suunnittelivat ja jota he käyttivät lentoasuissaan. Näissä pyöreissä merkeissä oli taidetta, miehistön nimiä ja symboleja, jotka edustivat tehtävän tavoitteita – ja niistä tuli arvokkaita keräilyesineitä avaruusharrastajille ympäri maailmaa."
+            "q": "Mikä on hauska fakta America 250 -avaruussukkulasta?",
+            "a": "NASAn avaruussukkulaohjelma lensi 135 lentoa vuosina 1981–2011 kuljettaen astronautteja, satelliitteja ja kansainvälisen avaruusaseman rakennuspalikoita kiertoradalle. Viisi sukkulaa – Columbia, Challenger, Discovery, Atlantis ja Endeavour – lensivät avaruudessa yhteensä yli 1 300 päivää. Lapset löytävät tällaisia faktoja ratkoessaan America 250 -avaruussukkulan pisteestä pisteeseen -palapeliä."
           }
         ],
-        "outro": "Uskomatonta työtä – America 250 -avaruussukkulasi on valmis laukaisuun! Siinä on 50 pistettä ja yksi upea symboli amerikkalaisesta kekseliäisyydestä ja tutkimusmatkailusta. Väritä kiertorata valkoiseksi mustilla lämpölaatoilla, lisää punaisia ja sinisiä lippumerkkejä, ja sukkulasi on valmis syöksymään historiankirjoihin. Hyvää 250. syntymäpäivää, USA – taivas ei todellakaan ole rajana! Löydä lisää <a href=\"/usa-250/\">america 250 -tulostettavia</a> pitääksesi juhlat käynnissä.",
-        "color_schemes": []
+        "dot_guide": {
+          "intro": "Amerikka täyttää 250 vuotta – ja harva kone ilmentää kansakunnan tutkimusmatkailun henkeä ja kunnianhimoa paremmin kuin avaruussukkula! 30 vuoden ajan sukkula kuljetti amerikkalaisia astronautteja kiertoradalle, laukaisi teleskooppeja, jotka muuttivat näkemystämme maailmankaikkeudesta, ja auttoi rakentamaan maailman kanssa jaetun avaruusaseman. Ota kynä, etsi piste 1 ja lähetetään tämä sukkula ilmaan!",
+          "sections": [
+            {
+              "range": "1–10",
+              "title": "Nenäkartio ja ohjaamo",
+              "learn": "Aloita pisteestä 1 ja yhdistä se pisteeseen 10 piirtääksesi terävän nokkakartion ja sen alapuolella olevan ohjaamon ikkunarivin. Nämä tarkat, kulmikkaat vedot ovat loistava lämmittely nuorille taiteilijoille, sillä ne auttavat heitä kehittämään vakaata kädenohjausta, jota he tarvitsevat edessä olevien siipien ja moottoreiden ohjaamiseen.",
+              "fact": "Avaruussukkulan nokkakartio ja runko oli peitetty tuhansilla lämpösuojalaatoilla, joista jokainen oli valmistettu niin tehokkaasta piidioksidimateriaalista, että laattaa pystyi pitämään paljaalla kädellä sekunteja sen jälkeen, kun se oli lämmitetty 2 300 Fahrenheit-asteeseen – lämpötilaan, jonka se saavutti paluun aikana."
+            },
+            {
+              "range": "11–24",
+              "title": "Päärunko",
+              "learn": "Jatka pisteestä 11 pisteeseen 24 piirtääksesi luotaimen pitkän, sylinterimäisen rungon – osan, jossa sijaitsivat miehistön hytti, hyötykuormatila ja kaikki tehtävän laitteet. Lapset harjoittelevat tässä suoria, yhdensuuntaisia viivoja, mikä lisää erinomaista johdonmukaisuutta ja auttaa heitä ymmärtämään kokonaismuodon ennen kuin lisäävät sen ympärille jännittäviä yksityiskohtia.",
+              "fact": "Sukkulan valtava hyötykuormatila – miehistön hytin takana oleva lastitila – oli 18 metriä pitkä ja 4,5 metriä leveä, riittävän suuri kuljettamaan koulubussin kiertoradalle. Sitä käytettiin satelliittien laukaisemiseen, tieteellisten kokeiden suorittamiseen ja massiivisten moduulien kuljetukseen, jotka pultattiin yhteen kansainvälisen avaruusaseman rakentamiseksi."
+            },
+            {
+              "range": "25–36",
+              "title": "Delta-siivet",
+              "learn": "Piirrä pisteillä 25–36 sukkulan tunnusomaiset taaksepäin kaartuvat deltasiivet. Nämä pitkät, vinot vedot ovat loistava harjoitus varmalle viivan hallinnalle – lapset harjoittelevat piirtämistä leveästä siivenkärjestä taaksepäin kohti luotaimen runkoa yhdellä sujuvalla, harkitulla liikkeellä.",
+              "fact": "Avaruussukkula oli maailman ensimmäinen uudelleenkäytettävä avaruusalus, joka oli suunniteltu lentämään kuin liitokone laskeutumisen aikana. Ilmakehään palattuaan sillä ei ollut moottoritehoa ja vain yksi mahdollisuus laskeutua – lentäjät kutsuivat sitä \"maailman raskaimmaksi liitokoneeksi\". Deltan muotoiset siivet antoivat sille tarvittavan nostovoiman liukua turvallisesti kiitotielle."
+            },
+            {
+              "range": "37–44",
+              "title": "Peräevä ja päämoottorit",
+              "learn": "Yhdistä pisteet 37–44 piirtääksesi korkean pystysuoran peräsiiven ja kolmen päämoottorin muodostaman ryhmän luotaimen takaosassa. Lapset harjoittelevat siiven korkeaa ylöspäin suuntautuvaa vetoa ja sitten pienempiä, pyöreitä muotoja kullekin moottorin kellolle – loistava sekoitus suuria ja pieniä liikkeitä samassa osiossa.",
+              "fact": "Jokainen avaruussukkulan päämoottori (SSME) oli yksi tehokkaimmista koskaan rakennetuista rakettimoottoreista, ja se tuotti noin 375 000 paunaa työntövoimaa. Kolme moottoria polttivat yhdessä nestemäistä vetyä ja nestemäistä happea, mikä tuotti niin kuuman liekin, että laukaisualustalle jouduttiin kaatamaan vettä äänen ja lämmön absorboimiseksi nousun aikana."
+            },
+            {
+              "range": "45–50",
+              "title": "Mission Patch ja viimeistely",
+              "learn": "Viimeistele palapeli yhdistämällä pisteet 45–50 lisätäksesi Amerikan lipun, tehtävämerkin ja viimeiset yksityiskohdat, jotka herättävät koko sukkulan eloon. Vain kuusi pistettä täydentääksesi tämän historiallisen avaruusaluksen – kannusta lapsia tekemään näistä viimeisistä viivoista mahdollisimman siistejä ja tarkkoja kuvia, jotka ovat tehtävämerkin arvoisia!",
+              "fact": "Jokaisella avaruussukkulan tehtävällä oli oma ainutlaatuinen miehistömerkkinsä, jonka astronautit itse suunnittelivat ja jota he käyttivät lentoasuissaan. Näissä pyöreissä merkeissä oli taidetta, miehistön nimiä ja symboleja, jotka edustivat tehtävän tavoitteita – ja niistä tuli arvokkaita keräilyesineitä avaruusharrastajille ympäri maailmaa."
+            }
+          ],
+          "outro": "Uskomatonta työtä – America 250 -avaruussukkulasi on valmis laukaisuun! Siinä on 50 pistettä ja yksi upea symboli amerikkalaisesta kekseliäisyydestä ja tutkimusmatkailusta. Väritä kiertorata valkoiseksi mustilla lämpölaatoilla, lisää punaisia ja sinisiä lippumerkkejä, ja sukkulasi on valmis syöksymään historiankirjoihin. Hyvää 250. syntymäpäivää, USA – taivas ei todellakaan ole rajana! Löydä lisää <a href=\"/usa-250/\">america 250 -tulostettavia</a> pitääksesi juhlat käynnissä.",
+          "color_schemes": []
+        }
       }
-    }
-  },
-  {
-    "slug": "usa-250-anniversary-sports-kids-podium-dot-to-dot-puzzle",
-    "header": {
-      "title": "Urheilupalkintokoroke pisteestä pisteeseen: 124 pisteen haaste Amerikan 250-juhlaan",
-      "meta_description": "124 pisteen podium antaa itsevarmoille laskijoille America 250 -haasteen. Tulosta ilmainen urheilujuhlan PDF lapsille, ikäryhmässä 6–10.",
-      "og": {
+    },
+    {
+      "slug": "usa-250-anniversary-sports-kids-podium-dot-to-dot-puzzle",
+      "header": {
         "title": "Urheilupalkintokoroke pisteestä pisteeseen: 124 pisteen haaste Amerikan 250-juhlaan",
-        "description": "124 pisteen podium antaa itsevarmoille laskijoille America 250 -haasteen. Tulosta ilmainen urheilujuhlan PDF lapsille, ikäryhmässä 6–10.",
-        "image_alt": "Kolme nuorta urheilijaa juhlii voittajakorokkeella, koottu 124 pisteestä"
+        "meta_description": "124 pisteen podium antaa itsevarmoille laskijoille America 250 -haasteen. Tulosta ilmainen urheilujuhlan PDF lapsille, ikäryhmässä 6–10.",
+        "og": {
+          "title": "Urheilupalkintokoroke pisteestä pisteeseen: 124 pisteen haaste Amerikan 250-juhlaan",
+          "description": "124 pisteen podium antaa itsevarmoille laskijoille America 250 -haasteen. Tulosta ilmainen urheilujuhlan PDF lapsille, ikäryhmässä 6–10.",
+          "image_alt": "Kolme nuorta urheilijaa juhlii voittajakorokkeella, koottu 124 pisteestä"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Amerikka 250: Lasten urheilupalkintokoroke",
+          "description": "124 pisteen podium antaa itsevarmoille laskijoille America 250 -haasteen. Tulosta ilmainen urheilujuhlan PDF lapsille, ikäryhmässä 6–10.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
       },
-      "json_ld": {
-        "type": "CreativeWork",
+      "body": {
+        "h1": "America 250 Palkintopodium Pisteestä Pisteeseen: 124-Pisteen Haaste",
         "name": "Amerikka 250: Lasten urheilupalkintokoroke",
-        "description": "124 pisteen podium antaa itsevarmoille laskijoille America 250 -haasteen. Tulosta ilmainen urheilujuhlan PDF lapsille, ikäryhmässä 6–10.",
-        "image": "",
-        "educational_use": "Fine motor skills, number sequencing",
-        "age_range": ""
-      }
-    },
-    "body": {
-      "h1": "America 250 Palkintopodium Pisteestä Pisteeseen: 124-Pisteen Haaste",
-      "name": "Amerikka 250: Lasten urheilupalkintokoroke",
-      "tagline": "Kannusta America's Young Championsia 250-vuotiaana!",
-      "description": "Yhdistä 124 pistettä paljastaaksesi kolme nuorta urheilijaa juhlimassa isänmaallisella voittajakorokkeella Amerikan 250-vuotisjuhlavuotta! Tämä ilmainen tulostettava tehtäväpaperi antaa 6–10-vuotiaille lapsille tyydyttävän numerosarjahaasteen ja kunnioittaa samalla 250 vuotta amerikkalaista urheiluhenkeä, tiimityötä ja kilpailuhenkeä.",
-      "fun_fact": "Yhdysvallat on kilpaillut lähes kaikissa kesäolympialaisissa vuodesta 1896 lähtien ja johtaa kaikkia maita kaikkien aikojen olympiakultamitalien kokonaismäärässä. Amerikkalaiset urheilijat ovat seisseet tuolla ylimmällä podiumilla yli 1 000 kertaa — todiste siitä, että USA:n urheiluhenki on yhtä vahva kuin sen historia on pitkä!",
-      "dot_guide": {
-        "intro": "Amerikka täyttää 250 vuotta – ja kansakunta juhlii parhaiden nuorten mestareidensa noustessa voittajien palkintokorokkeelle! Ensimmäisistä olympialaisista naapuruston pieniin liigoihin urheilu on aina ollut kiinteä osa amerikkalaista henkeä: kilpailun jännitys, tiimityön ilo ja ylpeys siitä, että seisoo pystyssä parhaansa antamisen jälkeen. Ota kynä, etsi piste 1 ja rakennetaan tämä palkintokoroke askel askeleelta!",
-        "sections": [
+        "tagline": "Kannusta America's Young Championsia 250-vuotiaana!",
+        "description": "Yhdistä 124 pistettä paljastaaksesi kolme nuorta urheilijaa juhlimassa isänmaallisella voittajakorokkeella Amerikan 250-vuotisjuhlavuotta! Tämä ilmainen tulostettava tehtäväpaperi antaa 6–10-vuotiaille lapsille tyydyttävän numerosarjahaasteen ja kunnioittaa samalla 250 vuotta amerikkalaista urheiluhenkeä, tiimityötä ja kilpailuhenkeä.",
+        "fun_fact": "Yhdysvallat on kilpaillut lähes kaikissa kesäolympialaisissa vuodesta 1896 lähtien ja johtaa kaikkia maita kaikkien aikojen olympiakultamitalien kokonaismäärässä. Amerikkalaiset urheilijat ovat seisseet tuolla ylimmällä podiumilla yli 1 000 kertaa — todiste siitä, että USA:n urheiluhenki on yhtä vahva kuin sen historia on pitkä!",
+        "faqs": [
           {
-            "range": "1–25",
-            "title": "Korokepaikka ja portaat",
-            "learn": "Aloita pisteestä 1 ja yhdistä se pisteeseen 25 piirtääksesi voittajan korokkeen kiinteän, porrastetun pohjan. Kolme tasannetta – 1., 2. ja 3. – on rakennettu kiinteistä suorakaiteen muotoisista muodoista ja vaakasuorista viivoista. Nämä tasaiset, geometriset vedot ovat erinomainen lämmittely, joka auttaa lapsia asettumaan rytmiin ja kehittämään varmaa kynänkäyttöä, jota he tarvitsevat seuraavissa yksityiskohtaisemmissa osioissa.",
-            "fact": "Kolmiaskelmainen voittajan palkintokoroke esiteltiin kesäolympialaisissa ensi kertaa Los Angelesin vuoden 1932 kisoissa ja sitä käytettiin myös Lake Placidin talviolympialaisissa 1932. Design oli visuaalisesti niin vaikuttava, että se otettiin käyttöön urheilukilpailuissa ympäri maailmaa, ja se on edelleen yleismaailmallinen urheilusaavutusten symboli."
+            "q": "Kuinka monta pistettä on Amerikka 250: Lasten urheilupalkintokoroke -pisteestä pisteeseen -palapelissä?",
+            "a": "Amerikka 250: Lasten urheilupalkintokoroke -tulostettavassa pistepulmassa on 124 numeroitua pistettä. Se tekee siitä haastavan pulman, joka sopii parhaiten 7–12-vuotiaille (2. luokasta ylöspäin). Lapset yhdistävät pisteet numerojärjestyksessä paljastaakseen valmiin America 250 Anniversary Sports Kids -palkintokorokkeen kuvan ja värittävät sen sitten."
           },
           {
-            "range": "26–50",
-            "title": "Nuorten urheilijoiden vartalot ja univormut",
-            "learn": "Jatka pisteestä 26 pisteeseen 50 piirtääksesi palkintokorokkeella seisovien kolmen nuoren urheilijan vartalot ja urheiluasut. Lapset harjoittelevat erilaisia vetoja: suoria viivoja jaloissa, loivia kaaria ylävartaloissa ja kulmikkaita muotoja ojennetuissa käsivarsissa. Osio kehittää monipuolisesti kynän hallintaa ja suunnan hahmottamista.",
-            "fact": "Urheiluasut ovat muuttuneet dramaattisesti Amerikan 250 vuoden historian aikana. 1800-luvun alun urheilijat kilpailivat arkipäivän työvaatteissa, kun taas nykyajan urheiluvaatteet on valmistettu huipputeknologisista kankaista, jotka siirtävät kosteutta, vähentävät ilmanvastusta ja jopa seuraavat sykettä. Tähdet ja raidat näkyvät ylpeänä Yhdysvaltain joukkueiden peliasuissa jokaisessa kansainvälisessä kilpailussa."
+            "q": "Onko Amerikka 250: Lasten urheilupalkintokoroke -pisteestä pisteeseen tulostettava ilmainen?",
+            "a": "Kyllä. Amerikka 250: Lasten urheilupalkintokoroke -työarkki on 100 % ilmainen ladata osoitteesta DotToDotFreePrintables.com – ei tiliä, sähköpostiosoitetta tai maksua vaadita. Se latautuu välittömästi tulostusvalmiina PDF-tiedostona sekä pysty- että vaakasuunnassa, US Letter- tai A4-kokoiselle paperille."
           },
           {
-            "range": "51–75",
-            "title": "Päät, kasvot ja ilmeet",
-            "learn": "Piirrä pisteet 51–75 lisätäksesi kolmen nuoren urheilijan päät ja heidän kasvojensa iloiset ilmeet. Kunkin pään pyöreät kaaret ja pienet, tarkat yksityiskohdat silmistä, nenistä ja hymyistä ovat ihastuttava haaste, joka harjoittaa tarkkaa havainnointia ja hienoa kynänhallintaa. Kannusta lapsia hidastamaan tässä – nämä pienet yksityiskohdat herättävät koko kuvan eloon.",
-            "fact": "Hymyilevät voittajat palkintokorokkeella ovat olleet osa amerikkalaista urheilukulttuuria 1900-luvun alkupuolelta lähtien. Nykyään palkintokorokkeelle sijoittumisen juhlintaa lähetetään suorana miljoonille katsojille ympäri maailmaa. Kun amerikkalaiset urheilijat seisovat ylimmällä askelmalla ja Tähtilippu soi, se on yksi kansainvälisen urheilun katsotuimmista hetkistä."
+            "q": "Minkä ikäisille Amerikka 250: Lasten urheilupalkintokoroke -pisteyhdistämistehtävä sopii parhaiten?",
+            "a": "124 pisteen ansiosta Amerikka 250: Lasten urheilupalkintokoroke -palapeli sopii parhaiten 7–12-vuotiaille (2. luokasta ylöspäin). Pienemmät lapset voivat nauttia siitä aikuisen kevyellä tuella, kun taas jo sujuvasti laskevat lapset voivat ratkaista sen itsenäisesti ja harjoitella numeroiden laskemista jopa 124 pisteeseen asti."
           },
           {
-            "range": "76–100",
-            "title": "Mitalit, palkinnot ja nauhat",
-            "learn": "Yhdistä pisteet 76–100 piirtääksesi urheilijoiden kaulassa roikkuvat kimaltelevat mitalit, heidän käsissään olevat pokaalit ja korokkeelle reunustavat koristeelliset nauhat. Lapset harjoittelevat pyöreitä muotoja mitalilevyille, kulmikkaita ääriviivoja pokaaleille ja sulavia käyriä nauhoille – runsas valikoima erilaisia kynänvetoja pitää haasteen tuoreena ja mukaansatempaavana.",
-            "fact": "Olympiakultamitalit eivät oikeastaan ole täyttä kultaa – ne on valmistettu hopeasta, joka on päällystetty vähintään kuudella grammalla kullalla. Perinne myöntää kulta-, hopea- ja pronssimitaleja ensimmäiselle, toiselle ja kolmannelle sijalle alkoi Yhdysvalloissa vuonna 1904 St. Louisin olympialaisissa. St. Louisin kaupunki juhli samaan aikaan Louisianan oston satavuotisjuhlaa, mikä antoi kisoille erityisen isänmaallisen amerikkalaisen sävyn."
+            "q": "Mitä taitoja Amerikka 250: Lasten urheilupalkintokoroke -pisteestä pisteeseen -palapeli opettaa?",
+            "a": "Yhdistämällä Amerikka 250: Lasten urheilupalkintokoroke -palapelin 124 pistettä kehitetään numeroiden tunnistusta ja laskemista 124:ään asti, kynän käyttöä, käden ja silmän koordinaatiota sekä jatkuvaa keskittymistä – samoja hienomotorisia taitoja, jotka tukevat varhaista käsin kirjoittamista. Valmiin kuvan värittäminen lisää luovaa palkintoa."
           },
           {
-            "range": "101–124",
-            "title": "Tähdet, lippu ja viimeistely",
-            "learn": "Viimeistele palapeli yhdistämällä pisteet 101–124 lisätäksesi isänmaalliset tähdet, juhlallisen viirin korokkeen yläpuolelle ja viimeiset koristeelliset yksityiskohdat, jotka muuttavat tämän kohtauksen aidoksi Amerikan 250-vuotissyntymäpäiväjuhlaksi. Nämä viimeiset 24 pistettä palkitsevat lapsia todella haastavan palapelin ratkaisemisesta – kannusta heitä tekemään jokaisesta viivasta merkityksellisen, jotta he voivat olla ylpeitä lopputuloksesta!",
-            "fact": "Amerikan 250-vuotisjuhlaa vietetään 4. heinäkuuta 2026, tasan 250 vuotta itsenäisyysjulistuksen hyväksymisen jälkeen. Yhteisökilpailuista kansallisiin mestaruuskilpailuihin, amerikkalaiset voivat juhlistaa tilaisuutta tiimityöskentelyllä, ystävällisellä kilpailulla ja huippuosaamisen tavoittelulla."
+            "q": "Mikä on hauska fakta America 250 Anniversary Sports Kids -palkintokorokkeesta?",
+            "a": "Yhdysvallat on kilpaillut lähes jokaisissa kesäolympialaisissa ensimmäisistä nykyaikaisista kisoista vuonna 1896 lähtien ja johtaa kaikkia maita olympiakultamitalien kokonaismäärässä. Amerikkalaiset urheilijat ovat seisseet palkintokorokkeella ylimmällä askelmalla yli 1 000 kertaa – todiste siitä, että Yhdysvaltojen urheiluhenki on yhtä vahva kuin sen historia on pitkä! Lapset löytävät tällaisia faktoja ratkoessaan Amerikka 250: Lasten urheilupalkintokoroke -pisteestä pisteeseen -palapeliä."
           }
         ],
-        "outro": "Ainutlaatuista työtä – America 250 -urheilupalkintokorokkeesi on valmis juhlaan! Siinä on 124 pistettä ja kolme ylpeää nuorta mestaria kunnioittamassa Amerikan 250-vuotispäivää. Väritä palkintokoroke kultaiseksi, hopeaiseksi ja pronssiseksi, pue urheilijat punaiseen, valkoiseen ja siniseen ja ripusta mitalit ylpeydellä. Hyvää 250-vuotissyntymäpäivää, USA – jatka kurottautumista kohti ylintä askelmaa! Oletko valmis uuteen suureen haasteeseen? Selaa kaikkia <a href=\"/\">pisteestä pisteeseen -tulostettavia materiaalejamme</a>.",
-        "color_schemes": []
+        "dot_guide": {
+          "intro": "Amerikka täyttää 250 vuotta – ja kansakunta juhlii parhaiden nuorten mestareidensa noustessa voittajien palkintokorokkeelle! Ensimmäisistä olympialaisista naapuruston pieniin liigoihin urheilu on aina ollut kiinteä osa amerikkalaista henkeä: kilpailun jännitys, tiimityön ilo ja ylpeys siitä, että seisoo pystyssä parhaansa antamisen jälkeen. Ota kynä, etsi piste 1 ja rakennetaan tämä palkintokoroke askel askeleelta!",
+          "sections": [
+            {
+              "range": "1–25",
+              "title": "Korokepaikka ja portaat",
+              "learn": "Aloita pisteestä 1 ja yhdistä se pisteeseen 25 piirtääksesi voittajan korokkeen kiinteän, porrastetun pohjan. Kolme tasannetta – 1., 2. ja 3. – on rakennettu kiinteistä suorakaiteen muotoisista muodoista ja vaakasuorista viivoista. Nämä tasaiset, geometriset vedot ovat erinomainen lämmittely, joka auttaa lapsia asettumaan rytmiin ja kehittämään varmaa kynänkäyttöä, jota he tarvitsevat seuraavissa yksityiskohtaisemmissa osioissa.",
+              "fact": "Kolmiaskelmainen voittajan palkintokoroke esiteltiin kesäolympialaisissa ensi kertaa Los Angelesin vuoden 1932 kisoissa ja sitä käytettiin myös Lake Placidin talviolympialaisissa 1932. Design oli visuaalisesti niin vaikuttava, että se otettiin käyttöön urheilukilpailuissa ympäri maailmaa, ja se on edelleen yleismaailmallinen urheilusaavutusten symboli."
+            },
+            {
+              "range": "26–50",
+              "title": "Nuorten urheilijoiden vartalot ja univormut",
+              "learn": "Jatka pisteestä 26 pisteeseen 50 piirtääksesi palkintokorokkeella seisovien kolmen nuoren urheilijan vartalot ja urheiluasut. Lapset harjoittelevat erilaisia vetoja: suoria viivoja jaloissa, loivia kaaria ylävartaloissa ja kulmikkaita muotoja ojennetuissa käsivarsissa. Osio kehittää monipuolisesti kynän hallintaa ja suunnan hahmottamista.",
+              "fact": "Urheiluasut ovat muuttuneet dramaattisesti Amerikan 250 vuoden historian aikana. 1800-luvun alun urheilijat kilpailivat arkipäivän työvaatteissa, kun taas nykyajan urheiluvaatteet on valmistettu huipputeknologisista kankaista, jotka siirtävät kosteutta, vähentävät ilmanvastusta ja jopa seuraavat sykettä. Tähdet ja raidat näkyvät ylpeänä Yhdysvaltain joukkueiden peliasuissa jokaisessa kansainvälisessä kilpailussa."
+            },
+            {
+              "range": "51–75",
+              "title": "Päät, kasvot ja ilmeet",
+              "learn": "Piirrä pisteet 51–75 lisätäksesi kolmen nuoren urheilijan päät ja heidän kasvojensa iloiset ilmeet. Kunkin pään pyöreät kaaret ja pienet, tarkat yksityiskohdat silmistä, nenistä ja hymyistä ovat ihastuttava haaste, joka harjoittaa tarkkaa havainnointia ja hienoa kynänhallintaa. Kannusta lapsia hidastamaan tässä – nämä pienet yksityiskohdat herättävät koko kuvan eloon.",
+              "fact": "Hymyilevät voittajat palkintokorokkeella ovat olleet osa amerikkalaista urheilukulttuuria 1900-luvun alkupuolelta lähtien. Nykyään palkintokorokkeelle sijoittumisen juhlintaa lähetetään suorana miljoonille katsojille ympäri maailmaa. Kun amerikkalaiset urheilijat seisovat ylimmällä askelmalla ja Tähtilippu soi, se on yksi kansainvälisen urheilun katsotuimmista hetkistä."
+            },
+            {
+              "range": "76–100",
+              "title": "Mitalit, palkinnot ja nauhat",
+              "learn": "Yhdistä pisteet 76–100 piirtääksesi urheilijoiden kaulassa roikkuvat kimaltelevat mitalit, heidän käsissään olevat pokaalit ja korokkeelle reunustavat koristeelliset nauhat. Lapset harjoittelevat pyöreitä muotoja mitalilevyille, kulmikkaita ääriviivoja pokaaleille ja sulavia käyriä nauhoille – runsas valikoima erilaisia kynänvetoja pitää haasteen tuoreena ja mukaansatempaavana.",
+              "fact": "Olympiakultamitalit eivät oikeastaan ole täyttä kultaa – ne on valmistettu hopeasta, joka on päällystetty vähintään kuudella grammalla kullalla. Perinne myöntää kulta-, hopea- ja pronssimitaleja ensimmäiselle, toiselle ja kolmannelle sijalle alkoi Yhdysvalloissa vuonna 1904 St. Louisin olympialaisissa. St. Louisin kaupunki juhli samaan aikaan Louisianan oston satavuotisjuhlaa, mikä antoi kisoille erityisen isänmaallisen amerikkalaisen sävyn."
+            },
+            {
+              "range": "101–124",
+              "title": "Tähdet, lippu ja viimeistely",
+              "learn": "Viimeistele palapeli yhdistämällä pisteet 101–124 lisätäksesi isänmaalliset tähdet, juhlallisen viirin korokkeen yläpuolelle ja viimeiset koristeelliset yksityiskohdat, jotka muuttavat tämän kohtauksen aidoksi Amerikan 250-vuotissyntymäpäiväjuhlaksi. Nämä viimeiset 24 pistettä palkitsevat lapsia todella haastavan palapelin ratkaisemisesta – kannusta heitä tekemään jokaisesta viivasta merkityksellisen, jotta he voivat olla ylpeitä lopputuloksesta!",
+              "fact": "Amerikan 250-vuotisjuhlaa vietetään 4. heinäkuuta 2026, tasan 250 vuotta itsenäisyysjulistuksen hyväksymisen jälkeen. Yhteisökilpailuista kansallisiin mestaruuskilpailuihin, amerikkalaiset voivat juhlistaa tilaisuutta tiimityöskentelyllä, ystävällisellä kilpailulla ja huippuosaamisen tavoittelulla."
+            }
+          ],
+          "outro": "Ainutlaatuista työtä – America 250 -urheilupalkintokorokkeesi on valmis juhlaan! Siinä on 124 pistettä ja kolme ylpeää nuorta mestaria kunnioittamassa Amerikan 250-vuotispäivää. Väritä palkintokoroke kultaiseksi, hopeaiseksi ja pronssiseksi, pue urheilijat punaiseen, valkoiseen ja siniseen ja ripusta mitalit ylpeydellä. Hyvää 250-vuotissyntymäpäivää, USA – jatka kurottautumista kohti ylintä askelmaa! Oletko valmis uuteen suureen haasteeseen? Selaa kaikkia <a href=\"/\">pisteestä pisteeseen -tulostettavia materiaalejamme</a>.",
+          "color_schemes": []
+        }
       }
-    }
-  },
-  {
-    "slug": "usa-250-birthday-balloons-stars-dot-to-dot-puzzle",
-    "header": {
-      "title": "Ilmapallot ja tähdet pisteestä pisteeseen — 94 pistettä Amerikan 250-juhlaan",
-      "meta_description": "Ilmapallot ja tähdet muodostavat juhlallisen 94 pisteen kunnianosoituksen Amerikan 250-vuotissyntymäpäivälle. Lataa ilmainen 2026 PDF-toiminta ikäryhmälle 6–10.",
-      "og": {
+    },
+    {
+      "slug": "usa-250-birthday-balloons-stars-dot-to-dot-puzzle",
+      "header": {
         "title": "Ilmapallot ja tähdet pisteestä pisteeseen — 94 pistettä Amerikan 250-juhlaan",
-        "description": "Ilmapallot ja tähdet muodostavat juhlallisen 94 pisteen kunnianosoituksen Amerikan 250-vuotissyntymäpäivälle. Lataa ilmainen 2026 PDF-toiminta ikäryhmälle 6–10.",
-        "image_alt": "Juhlaisia ilmapalloja ja tähtiä leviää 94 pisteen Amerikka 250 -tehtävässä"
+        "meta_description": "Ilmapallot ja tähdet muodostavat juhlallisen 94 pisteen kunnianosoituksen Amerikan 250-vuotissyntymäpäivälle. Lataa ilmainen 2026 PDF-toiminta ikäryhmälle 6–10.",
+        "og": {
+          "title": "Ilmapallot ja tähdet pisteestä pisteeseen — 94 pistettä Amerikan 250-juhlaan",
+          "description": "Ilmapallot ja tähdet muodostavat juhlallisen 94 pisteen kunnianosoituksen Amerikan 250-vuotissyntymäpäivälle. Lataa ilmainen 2026 PDF-toiminta ikäryhmälle 6–10.",
+          "image_alt": "Juhlaisia ilmapalloja ja tähtiä leviää 94 pisteen Amerikka 250 -tehtävässä"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Amerikan 250-vuotissyntymäpäiväilmapallot ja tähdet",
+          "description": "Ilmapallot ja tähdet muodostavat juhlallisen 94 pisteen kunnianosoituksen Amerikan 250-vuotissyntymäpäivälle. Lataa ilmainen 2026 PDF-toiminta ikäryhmälle 6–10.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
       },
-      "json_ld": {
-        "type": "CreativeWork",
+      "body": {
+        "h1": "Ilmapallot & Tähtikuvio Pisteestä Pisteeseen — 94 Pistettä Amerikalle 250",
         "name": "Amerikan 250-vuotissyntymäpäiväilmapallot ja tähdet",
-        "description": "Ilmapallot ja tähdet muodostavat juhlallisen 94 pisteen kunnianosoituksen Amerikan 250-vuotissyntymäpäivälle. Lataa ilmainen 2026 PDF-toiminta ikäryhmälle 6–10.",
-        "image": "",
-        "educational_use": "Fine motor skills, number sequencing",
-        "age_range": ""
-      }
-    },
-    "body": {
-      "h1": "Ilmapallot & Tähtikuvio Pisteestä Pisteeseen — 94 Pistettä Amerikalle 250",
-      "name": "Amerikan 250-vuotissyntymäpäiväilmapallot ja tähdet",
-      "tagline": "Juhlailmapalloja Amerikan 250-vuotissyntymäpäivän kunniaksi!",
-      "description": "Yhdistä 94 helppoa pistettä paljastaaksesi juhlavan Amerikan 250-vuotissyntymäpäivämaiseman, joka on täynnä ilmapalloja, tähtiä ja isänmaallisia juhlan yksityiskohtia. Tämä ilmainen tulostettava tehtävä antaa lapsille pidemmän numerojärjestystämisen haasteen samalla kun juhlitaan Amerikan 250-vuotisjuhlaa.",
-      "fun_fact": "Ilmapalloista tuli suosittuja juhlakoristeita 1800-luvulla, ja nykyään punaiset, valkoiset ja siniset ilmapallot ovat iloinen tapa koristella paraateja, luokkahuoneita ja yhteisöjuhlia Amerikan syntymäpäivänä.",
-      "dot_guide": {
-        "intro": "Amerikka täyttää 250 vuotta, ja tämä palapeli on valmis juhliin! Ilmapallot, tähdet ja kirkkaat isänmaalliset yksityiskohdat yhdistyvät iloisessa Yhdysvaltojen syntymäpäivämaisemassa. Ota kynä, etsi piste 1 ja aloita yhdistämällä tiesi läpi juhlan.",
-        "sections": [
+        "tagline": "Juhlailmapalloja Amerikan 250-vuotissyntymäpäivän kunniaksi!",
+        "description": "Yhdistä 94 helppoa pistettä paljastaaksesi juhlavan Amerikan 250-vuotissyntymäpäivämaiseman, joka on täynnä ilmapalloja, tähtiä ja isänmaallisia juhlan yksityiskohtia. Tämä ilmainen tulostettava tehtävä antaa lapsille pidemmän numerojärjestystämisen haasteen samalla kun juhlitaan Amerikan 250-vuotisjuhlaa.",
+        "fun_fact": "Ilmapalloista tuli suosittuja juhlakoristeita 1800-luvulla, ja nykyään punaiset, valkoiset ja siniset ilmapallot ovat iloinen tapa koristella paraateja, luokkahuoneita ja yhteisöjuhlia Amerikan syntymäpäivänä.",
+        "faqs": [
           {
-            "range": "1-18",
-            "title": "Ensimmäiset ilmapallot",
-            "learn": "Aloita pisteestä 1 ja yhdistä pisteeseen 18 piirtääksesi ensimmäiset kelluvat syntymäpäiväilmapallot. Nämä pyöreät muodot auttavat lapsia harjoittelemaan sulavia käyriä ja vakaata kynänhallintaa palapelin alussa.",
-            "fact": "Nykyaikaiset juhlailmapallot valmistetaan usein lateksista, joustavasta luonnonmateriaalista. Ilmalla tai heliumilla täytettynä ilmapallo laajenee tasaisesti joka suuntaan, jolloin se muodostaa tutun pyöreän muotonsa."
+            "q": "Kuinka monta pistettä on America 250 Syntymäpäivä Ilmapallot ja tähdet -pisteestä pisteeseen -palapelissä?",
+            "a": "America 250 -syntymäpäiväilmapallojen ja -tähtien tulostettavassa pistepelissä on 94 numeroitua pistettä. Se tekee siitä keskikokoisen palapelin, joka sopii parhaiten 6–9-vuotiaille (1.–3. luokka). Lapset yhdistävät pisteet numerojärjestyksessä paljastaakseen valmiin America 250 -syntymäpäiväilmapallojen ja -tähtien kuvan ja värittävät sen sitten."
           },
           {
-            "range": "19-38",
-            "title": "Juhlaklusteri",
-            "learn": "Jatka pisteestä 19 pisteeseen 38 rakentaaksesi lisää ilmapalloryppästä ja päällekkäisiä juhlamuotoja. Lapset harjoittelevat numeroiden seuraamista huolellisesti piirustuksen kiireisemmän osan läpi.",
-            "fact": "Suuret ilmapallonäytökset ovat suosittuja paraateissa ja yhteisötapahtumissa, koska ne ovat kevyitä, värikkäitä ja helposti järjestettävissä kaariksi, pylväiksi ja juhlaviksi taustoiksi."
+            "q": "Onko Amerikan 250-syntymäpäivän ilmapallojen ja tähtien pisteestä pisteeseen tulostettava ilmainen?",
+            "a": "Kyllä. Amerikan 250-vuotissyntymäpäiväilmapallot ja tähdet -työarkki on 100 % ilmainen ladata DotToDotFreePrintables.com-sivustolta – ei tiliä, sähköpostiosoitetta tai maksua vaadita. Se latautuu välittömästi tulostusvalmiina PDF-tiedostona sekä pysty- että vaakasuunnassa, US Letter- tai A4-kokoiselle paperille."
           },
           {
-            "range": "39-58",
-            "title": "Tähdet",
-            "learn": "Piirrä pisteet 39–58 lisätäksesi isänmaallisia tähtiä syntymäpäiväaiheen ympärille. Tähtipisteet kannustavat lapsia vaihtamaan suuntia siististi ja tähtäämään huolellisesti jokaiseen numeroituun pisteeseen.",
-            "fact": "Tähdet ovat yksi tunnetuimmista amerikkalaisista symboleista, koska jokainen Yhdysvaltain lipun tähti edustaa yhtä osavaltiota unionissa."
+            "q": "Minkä ikäisille America 250 -syntymäpäiväilmapallojen ja -tähtien yhdistämistehtävä sopii parhaiten?",
+            "a": "94 pisteen ansiosta Amerikan 250-vuotissyntymäpäiväilmapallot ja tähdet -palapeli sopii parhaiten 6–9-vuotiaille (1.–3. luokkalaisille). Pienemmät lapset voivat nauttia siitä aikuisen kevyellä tuella, kun taas jo sujuvasti laskevat lapset voivat ratkaista sen itsenäisesti ja harjoitella numerojärjestyksen seuraamista jopa 94 pisteeseen asti."
           },
           {
-            "range": "59-76",
-            "title": "Syntymäpäivän tiedot",
-            "learn": "Yhdistä pisteet 59–76 piirtääksesi juhlan yksityiskohdat, jotka saavat tunnelman tuntumaan oikeilta syntymäpäiväjuhlilta. Tämä osio lisää itseluottamusta pienemmillä muodoilla ja varovaisilla käännöksillä.",
-            "fact": "Yhdysvallat juhlii itsenäisyyspäivää 4. heinäkuuta, koska itsenäisyysjulistus hyväksyttiin 4. heinäkuuta 1776."
+            "q": "Mitä taitoja America 250 Syntymäpäivä Ilmapallot ja Tähdet -pisteestä pisteeseen -palapeli opettaa?",
+            "a": "Yhdistämällä 94 pistettä America 250 Syntymäpäivä Ilmapallot ja Tähdet -palapelissä kehitetään numeroiden tunnistusta ja laskemista 94:ään asti, kynän hallintaa, käden ja silmän koordinaatiota sekä jatkuvaa keskittymistä – samoja hienomotorisia perustaitoja, jotka tukevat varhaista käsin kirjoittamista. Valmiin kuvan värittäminen lisää luovaa palkintoa."
           },
           {
-            "range": "77-94",
-            "title": "Viimeiset puolueen linjat",
-            "learn": "Viimeistele palapeli yhdistämällä pisteet 77–94 saadaksesi valmiiksi ilmapallot, tähdet ja viimeiset juhlalliset silaukset. Kannusta lapsia hidastamaan tahtia siistiä lopputulosta varten tämän pidemmän 94 pisteen haasteen jälkeen.",
-            "fact": "Yhdysvaltain itsenäisyysjulistuksen 250-vuotissyntymäpäivää vietetään 4. heinäkuuta 2026, jolloin tulee kuluneeksi 250 vuotta."
+            "q": "Mikä on hauska fakta America 250 -syntymäpäiväilmapalloista ja -tähdistä?",
+            "a": "Ilmapalloista tuli suosittuja juhlakoristeita 1800-luvulla, ja nykyään punaiset, valkoiset ja siniset ilmapallot ovat iloinen tapa koristella paraateja, luokkahuoneita ja yhteisöjuhlia Amerikan syntymäpäivänä. Lapset löytävät tällaisia faktoja ratkoessaan Amerikan 250-vuotissyntymäpäivän ilmapalloja ja tähtiä -pisteestä pisteeseen -palapeliä."
           }
         ],
-        "outro": "Upeaa työtä - Amerikan 250-vuotissyntymäpäiväilmapallosi ovat valmiita juhliin! Väritä ilmapallot ja tähdet punaisella, valkoisella ja sinisellä viimeistelläksesi kirkkaan isänmaallisen juhlan Amerikan 250-vuotissyntymäpäivän kunniaksi. Pidätkö haasteista? Tapaa lisää esihistoriallisia ystäviä <a href=\"/dinosaurs/\">dinosaur pisteestä pisteeseen tulostettavassa</a>-kokoelmassamme.",
-        "color_schemes": []
+        "dot_guide": {
+          "intro": "Amerikka täyttää 250 vuotta, ja tämä palapeli on valmis juhliin! Ilmapallot, tähdet ja kirkkaat isänmaalliset yksityiskohdat yhdistyvät iloisessa Yhdysvaltojen syntymäpäivämaisemassa. Ota kynä, etsi piste 1 ja aloita yhdistämällä tiesi läpi juhlan.",
+          "sections": [
+            {
+              "range": "1-18",
+              "title": "Ensimmäiset ilmapallot",
+              "learn": "Aloita pisteestä 1 ja yhdistä pisteeseen 18 piirtääksesi ensimmäiset kelluvat syntymäpäiväilmapallot. Nämä pyöreät muodot auttavat lapsia harjoittelemaan sulavia käyriä ja vakaata kynänhallintaa palapelin alussa.",
+              "fact": "Nykyaikaiset juhlailmapallot valmistetaan usein lateksista, joustavasta luonnonmateriaalista. Ilmalla tai heliumilla täytettynä ilmapallo laajenee tasaisesti joka suuntaan, jolloin se muodostaa tutun pyöreän muotonsa."
+            },
+            {
+              "range": "19-38",
+              "title": "Juhlaklusteri",
+              "learn": "Jatka pisteestä 19 pisteeseen 38 rakentaaksesi lisää ilmapalloryppästä ja päällekkäisiä juhlamuotoja. Lapset harjoittelevat numeroiden seuraamista huolellisesti piirustuksen kiireisemmän osan läpi.",
+              "fact": "Suuret ilmapallonäytökset ovat suosittuja paraateissa ja yhteisötapahtumissa, koska ne ovat kevyitä, värikkäitä ja helposti järjestettävissä kaariksi, pylväiksi ja juhlaviksi taustoiksi."
+            },
+            {
+              "range": "39-58",
+              "title": "Tähdet",
+              "learn": "Piirrä pisteet 39–58 lisätäksesi isänmaallisia tähtiä syntymäpäiväaiheen ympärille. Tähtipisteet kannustavat lapsia vaihtamaan suuntia siististi ja tähtäämään huolellisesti jokaiseen numeroituun pisteeseen.",
+              "fact": "Tähdet ovat yksi tunnetuimmista amerikkalaisista symboleista, koska jokainen Yhdysvaltain lipun tähti edustaa yhtä osavaltiota unionissa."
+            },
+            {
+              "range": "59-76",
+              "title": "Syntymäpäivän tiedot",
+              "learn": "Yhdistä pisteet 59–76 piirtääksesi juhlan yksityiskohdat, jotka saavat tunnelman tuntumaan oikeilta syntymäpäiväjuhlilta. Tämä osio lisää itseluottamusta pienemmillä muodoilla ja varovaisilla käännöksillä.",
+              "fact": "Yhdysvallat juhlii itsenäisyyspäivää 4. heinäkuuta, koska itsenäisyysjulistus hyväksyttiin 4. heinäkuuta 1776."
+            },
+            {
+              "range": "77-94",
+              "title": "Viimeiset puolueen linjat",
+              "learn": "Viimeistele palapeli yhdistämällä pisteet 77–94 saadaksesi valmiiksi ilmapallot, tähdet ja viimeiset juhlalliset silaukset. Kannusta lapsia hidastamaan tahtia siistiä lopputulosta varten tämän pidemmän 94 pisteen haasteen jälkeen.",
+              "fact": "Yhdysvaltain itsenäisyysjulistuksen 250-vuotissyntymäpäivää vietetään 4. heinäkuuta 2026, jolloin tulee kuluneeksi 250 vuotta."
+            }
+          ],
+          "outro": "Upeaa työtä - Amerikan 250-vuotissyntymäpäiväilmapallosi ovat valmiita juhliin! Väritä ilmapallot ja tähdet punaisella, valkoisella ja sinisellä viimeistelläksesi kirkkaan isänmaallisen juhlan Amerikan 250-vuotissyntymäpäivän kunniaksi. Pidätkö haasteista? Tapaa lisää esihistoriallisia ystäviä <a href=\"/dinosaurs/\">dinosaur pisteestä pisteeseen tulostettavassa</a>-kokoelmassamme.",
+          "color_schemes": []
+        }
       }
-    }
-  },
-  {
-    "slug": "america-250-anniversary-eagle-banner-dot-to-dot-puzzle",
-    "header": {
-      "title": "Kotkabanderoli pisteestä pisteeseen — 104 pistettä Amerikan 250-juhlaan",
-      "meta_description": "Valittuna kansalliseksi symboliksi vuonna 1782, kalju kotka kantaa America 250 -banneria 104 pisteen yli. Tulosta ilmainen PDF ikäryhmälle 6–10.",
-      "og": {
+    },
+    {
+      "slug": "america-250-anniversary-eagle-banner-dot-to-dot-puzzle",
+      "header": {
         "title": "Kotkabanderoli pisteestä pisteeseen — 104 pistettä Amerikan 250-juhlaan",
-        "description": "Valittuna kansalliseksi symboliksi vuonna 1782, kalju kotka kantaa America 250 -banneria 104 pisteen yli. Tulosta ilmainen PDF ikäryhmälle 6–10.",
-        "image_alt": "Majesteettinen kalju kotka kantaa pitkää banneria, siivet levitettynä 104 tulostettavan pisteen yli"
+        "meta_description": "Valittuna kansalliseksi symboliksi vuonna 1782, kalju kotka kantaa America 250 -banneria 104 pisteen yli. Tulosta ilmainen PDF ikäryhmälle 6–10.",
+        "og": {
+          "title": "Kotkabanderoli pisteestä pisteeseen — 104 pistettä Amerikan 250-juhlaan",
+          "description": "Valittuna kansalliseksi symboliksi vuonna 1782, kalju kotka kantaa America 250 -banneria 104 pisteen yli. Tulosta ilmainen PDF ikäryhmälle 6–10.",
+          "image_alt": "Majesteettinen kalju kotka kantaa pitkää banneria, siivet levitettynä 104 tulostettavan pisteen yli"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Amerikka 250 -kotkabanderoli",
+          "description": "Valittuna kansalliseksi symboliksi vuonna 1782, kalju kotka kantaa America 250 -banneria 104 pisteen yli. Tulosta ilmainen PDF ikäryhmälle 6–10.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
       },
-      "json_ld": {
-        "type": "CreativeWork",
+      "body": {
+        "h1": "America 250 Kotka Banneri Pisteestä Pisteeseen — 104 Pistettä Korkea",
         "name": "Amerikka 250 -kotkabanderoli",
-        "description": "Valittuna kansalliseksi symboliksi vuonna 1782, kalju kotka kantaa America 250 -banneria 104 pisteen yli. Tulosta ilmainen PDF ikäryhmälle 6–10.",
-        "image": "",
-        "educational_use": "Fine motor skills, number sequencing",
-        "age_range": ""
-      }
-    },
-    "body": {
-      "h1": "America 250 Kotka Banneri Pisteestä Pisteeseen — 104 Pistettä Korkea",
-      "name": "Amerikka 250 -kotkabanderoli",
-      "tagline": "Liidä American Eaglen kanssa 250 vuotta vapautta!",
-      "description": "Yhdistä 104 pistettä paljastaaksesi majesteettisen amerikanvalkopäämerikotkan, joka kantaa isänmaallista lippua Amerikan 250-vuotisjuhlan kunniaksi! Tämä ilmainen tulostettava tehtävä auttaa lapsia harjoittelemaan numeroiden lukemista ja keskittymistä samalla kun he kunnioittavat yhtä Amerikan voimakkaimmista vapauden ja voiman symboleista. Täydellinen 6–10-vuotiaille.",
-      "fun_fact": "Kalju kotka valittiin Yhdysvaltojen kansalliseksi symboliksi vuonna 1782. Se esiintyy Yhdysvaltojen suursealissa, presidentin lipussa ja lukemattomissa virallisissa tunnuksissa — edustaen vapautta, voimaa ja Amerikan tasavallan kestävää henkeä.",
-      "dot_guide": {
-        "intro": "Amerikka täyttää 250 vuotta – eikä mikään symboli vangitse tätä henkeä paremmin kuin mahtava kaljupäämerikotka! Kotka on koristanut Yhdysvaltojen suurta sinettiä 244 vuoden ajan ja liitänyt elävänä vapauden symbolina. Tänään kotkasi pitelee lippua julistaakseen Amerikan suurinta syntymäpäivää. Ota kynä, etsi piste 1 ja autetaan tätä kotkaa lentoon!",
-        "sections": [
+        "tagline": "Liidä American Eaglen kanssa 250 vuotta vapautta!",
+        "description": "Yhdistä 104 pistettä paljastaaksesi majesteettisen amerikanvalkopäämerikotkan, joka kantaa isänmaallista lippua Amerikan 250-vuotisjuhlan kunniaksi! Tämä ilmainen tulostettava tehtävä auttaa lapsia harjoittelemaan numeroiden lukemista ja keskittymistä samalla kun he kunnioittavat yhtä Amerikan voimakkaimmista vapauden ja voiman symboleista. Täydellinen 6–10-vuotiaille.",
+        "fun_fact": "Kalju kotka valittiin Yhdysvaltojen kansalliseksi symboliksi vuonna 1782. Se esiintyy Yhdysvaltojen suursealissa, presidentin lipussa ja lukemattomissa virallisissa tunnuksissa — edustaen vapautta, voimaa ja Amerikan tasavallan kestävää henkeä.",
+        "faqs": [
           {
-            "range": "1–22",
-            "title": "Kotkan pää ja nokka",
-            "learn": "Aloita pisteestä 1 ja yhdistä se pisteeseen 22 piirtääksesi kaljukotkan rohkean ja ylpeän pään – mukaan lukien sen terävän, kaarevan nokan. Lapset harjoittelevat tässä lyhyitä suuntaavia vetoja ja lempeitä käyriä, kehittäen kynän hallintaa ja muodostaen kotkan tunnistettavimman piirteen.",
-            "fact": "Valkopäämerikotka ei oikeastaan ole kalju! Sen nimi tulee vanhasta englanninkielisestä sanasta \"balde\", joka tarkoittaa valkoista. Silmiinpistävät valkoiset pään höyhenet ilmestyvät, kun lintu saavuttaa aikuisuuden noin viiden vuoden iässä. Ennen sitä nuorilla kotkilla on ruskean ja valkoisen kirjava höyhenpeite."
+            "q": "Kuinka monta pistettä Amerikka 250 -kotkabanderoli -pisteestä pisteeseen -palapelissä on?",
+            "a": "Amerikka 250 -kotkabanderoli -tulostettavassa pistepelissä on 104 numeroitua pistettä. Se tekee siitä haastavan pulman, joka sopii parhaiten 7–12-vuotiaille (2. luokasta ylöspäin). Lapset yhdistävät pisteet numerojärjestyksessä paljastaakseen valmiin Amerikka 250 -kotkabanderoli -kuvan ja värittävät sen sitten."
           },
           {
-            "range": "23–46",
-            "title": "Siipien kärkiväli — Vasen siipi",
-            "learn": "Jatka pisteestä 23 pisteeseen 46 pyyhkäistäksesi kotkan voimakkaan vasemman siiven. Nämä pitkät, sulavat vedot ovat erinomaista harjoitusta lapsille käsien liikkeiden ja laaja-alaisen kynänhallinnan kehittämiseksi. Kannusta lapsia sujuvaan ja varmaan vetoon olkapäästä siivenkärkeen.",
-            "fact": "Valkopäämerikotkan siipien kärkiväli voi olla jopa 2,4 metriä (lähes 8 jalkaa) – suunnilleen yhtä leveä kuin pienen auton pituus! Näiden valtavien siipien ansiosta kotka voi liidellä tuntikausia nousevien lämpimien ilmapatsaiden, termikkojen, päällä tuskin lainkaan räpytellen."
+            "q": "Onko Amerikka 250 -kotkabanderoliin pisteestä pisteeseen tulostettava versio ilmainen?",
+            "a": "Kyllä. Amerikka 250 -kotkabanderoli -tehtävämoniste on 100 % ilmainen ladata osoitteesta DotToDotFreePrintables.com – ei tiliä, sähköpostiosoitetta tai maksua vaadita. Se latautuu välittömästi tulostusvalmiina PDF-tiedostona sekä pysty- että vaakasuunnassa, US Letter- tai A4-kokoiselle paperille."
           },
           {
-            "range": "47–70",
-            "title": "Siipien kärkiväli — Oikea siipi",
-            "learn": "Peilaa vasen siipi yhdistämällä pisteet 47 ja 70 muodostaaksesi oikean siiven. Symmetria on tärkeä visuaalinen käsite nuorille oppijoille, ja molempien siipien yhdistäminen antaa tyydyttävän tasapainon ja saavutuksen tunteen. Huomaa, kuinka viivat nyt pyyhkäisevät vastakkaiseen suuntaan.",
-            "fact": "Kotkilla on jopa 7 000 höyhentä peittäen ruumistaan, joista jokainen on muotoiltu tarkasti tehtäväänsä varten – leveät lentohöyhenet nostoa varten, pehmeät vartalohöyhenet eristystä varten ja jäykät pyrstöhöyhenet ohjaamista varten. Ne sulkasatoivat ja kasvattavat höyheniä uudelleen vähitellen, jotta ne voivat aina lentää."
+            "q": "Minkä ikäisille Amerikka 250 -kotkabanderoliin yhdistämisharjoitustehtävä sopii parhaiten?",
+            "a": "104 pisteen Amerikka 250 -kotkabanderoli -palapeli sopii parhaiten 7–12-vuotiaille (2. luokasta ylöspäin). Pienemmät lapset voivat nauttia siitä aikuisen kevyellä tuella, kun taas jo sujuvasti laskevat lapset voivat ratkaista sen itsenäisesti ja harjoitella numeroiden laskemista jopa 104 pisteeseen asti."
           },
           {
-            "range": "71–88",
-            "title": "Kynnet ja isänmaallinen lippu",
-            "learn": "Yhdistä pisteet 71 ja 88 piirtääksesi kotkan voimakkaat kynnet, jotka tarttuvat hulmuavaan vuosipäiväbanneriin. Lapset harjoittelevat teräviä kulmikkaita viivoja ja kaarevia nauhan muotoja – vaativampia vetoja, jotka palkitsevat huolellisen tarkkaavaisuuden ja vakaan kädenhallinnan.",
-            "fact": "Kotkan kynnet voivat kohdistaa noin 400 paunan neliötuumaa kohden (psi) otteen – paljon voimakkaamman kuin keskimääräisen ihmisen käden. Kynsiä käytetään kalojen ja pienten nisäkkäiden pyydystämiseen, ja kotkan ote on niin luja, että saalis harvoin pääsee karkuun pyydystämisen jälkeen."
+            "q": "Mitä taitoja Amerikka 250 -kotkabanderoli -pisteestä pisteeseen -pulmapeli opettaa?",
+            "a": "Amerikka 250 -kotkabanderoli -palapelin 104 pisteen yhdistäminen kehittää numeroiden tunnistusta ja laskemista 104:ään asti, kynän hallintaa, käden ja silmän koordinaatiota sekä jatkuvaa keskittymistä – samoja hienomotorisia taitoja, jotka tukevat varhaista käsin kirjoittamista. Valmiin kuvan värittäminen lisää luovaa palkintoa."
           },
           {
-            "range": "89–104",
-            "title": "Tähdet, kilpi ja viimeistelyn yksityiskohdat",
-            "learn": "Täydennä palapeli yhdistämällä pisteet 89 ja 104 lisätäksesi isänmaalliset tähdet, kilpimerkinnät ja viimeiset yksityiskohdat, jotka tekevät tästä kotkasta aidosti amerikkalaisen. Käytä aikaa näiden viimeisten pisteiden kanssa – tasainen viimeistely kokoaa kokonaisuuden kauniisti yhteen.",
-            "fact": "Vuonna 1782 suunniteltu Yhdysvaltain suuri sinetti esittää kaljupäämerikotkaa pitelemässä oliivinoksaa toisessa kynnessä (symboli rauhaa) ja 13 nuolen nippua toisessa (symboli valmiutta puolustaa vapautta). Kotka on kääntynyt oliivinoksaa kohti muistutuksena siitä, että rauha on aina ensimmäinen valinta."
+            "q": "Mikä on hauska fakta America 250 Eagle -bannerista?",
+            "a": "Valkopäämerikotka valittiin Yhdysvaltojen kansallissymboliksi vuonna 1782. Se esiintyy Yhdysvaltain suuressa sinetissä, presidentin lipussa ja lukemattomissa virallisissa tunnuksissa – ne edustavat vapautta, voimaa ja Amerikan tasavallan kestävää henkeä. Lapset löytävät tällaisia faktoja ratkoessaan Amerikka 250 -kotkabanderoli -pisteestä pisteeseen -palapeliä."
           }
         ],
-        "outro": "Erinomaista työtä – America 250 Eaglesi lentää korkealla vuosipäiväbannerin kanssa! Siinä on 104 pistettä ja yksi mahtava amerikkalaisen vapauden symboli. Väritä kotkan valkoinen pää, ruskeat siivet ja kirkkaankeltainen nokka ja täytä sitten banderolli punaisella, valkoisella ja sinisellä. Hyvää 250. syntymäpäivää, USA! Lisää teemallisia hauskuudenvinkkejä löydät <a href=\"/ocean/\">pisteestä pisteeseen -tulostettavista materiaaleistamme 1–100</a>.",
-        "color_schemes": []
+        "dot_guide": {
+          "intro": "Amerikka täyttää 250 vuotta – eikä mikään symboli vangitse tätä henkeä paremmin kuin mahtava kaljupäämerikotka! Kotka on koristanut Yhdysvaltojen suurta sinettiä 244 vuoden ajan ja liitänyt elävänä vapauden symbolina. Tänään kotkasi pitelee lippua julistaakseen Amerikan suurinta syntymäpäivää. Ota kynä, etsi piste 1 ja autetaan tätä kotkaa lentoon!",
+          "sections": [
+            {
+              "range": "1–22",
+              "title": "Kotkan pää ja nokka",
+              "learn": "Aloita pisteestä 1 ja yhdistä se pisteeseen 22 piirtääksesi kaljukotkan rohkean ja ylpeän pään – mukaan lukien sen terävän, kaarevan nokan. Lapset harjoittelevat tässä lyhyitä suuntaavia vetoja ja lempeitä käyriä, kehittäen kynän hallintaa ja muodostaen kotkan tunnistettavimman piirteen.",
+              "fact": "Valkopäämerikotka ei oikeastaan ole kalju! Sen nimi tulee vanhasta englanninkielisestä sanasta \"balde\", joka tarkoittaa valkoista. Silmiinpistävät valkoiset pään höyhenet ilmestyvät, kun lintu saavuttaa aikuisuuden noin viiden vuoden iässä. Ennen sitä nuorilla kotkilla on ruskean ja valkoisen kirjava höyhenpeite."
+            },
+            {
+              "range": "23–46",
+              "title": "Siipien kärkiväli — Vasen siipi",
+              "learn": "Jatka pisteestä 23 pisteeseen 46 pyyhkäistäksesi kotkan voimakkaan vasemman siiven. Nämä pitkät, sulavat vedot ovat erinomaista harjoitusta lapsille käsien liikkeiden ja laaja-alaisen kynänhallinnan kehittämiseksi. Kannusta lapsia sujuvaan ja varmaan vetoon olkapäästä siivenkärkeen.",
+              "fact": "Valkopäämerikotkan siipien kärkiväli voi olla jopa 2,4 metriä (lähes 8 jalkaa) – suunnilleen yhtä leveä kuin pienen auton pituus! Näiden valtavien siipien ansiosta kotka voi liidellä tuntikausia nousevien lämpimien ilmapatsaiden, termikkojen, päällä tuskin lainkaan räpytellen."
+            },
+            {
+              "range": "47–70",
+              "title": "Siipien kärkiväli — Oikea siipi",
+              "learn": "Peilaa vasen siipi yhdistämällä pisteet 47 ja 70 muodostaaksesi oikean siiven. Symmetria on tärkeä visuaalinen käsite nuorille oppijoille, ja molempien siipien yhdistäminen antaa tyydyttävän tasapainon ja saavutuksen tunteen. Huomaa, kuinka viivat nyt pyyhkäisevät vastakkaiseen suuntaan.",
+              "fact": "Kotkilla on jopa 7 000 höyhentä peittäen ruumistaan, joista jokainen on muotoiltu tarkasti tehtäväänsä varten – leveät lentohöyhenet nostoa varten, pehmeät vartalohöyhenet eristystä varten ja jäykät pyrstöhöyhenet ohjaamista varten. Ne sulkasatoivat ja kasvattavat höyheniä uudelleen vähitellen, jotta ne voivat aina lentää."
+            },
+            {
+              "range": "71–88",
+              "title": "Kynnet ja isänmaallinen lippu",
+              "learn": "Yhdistä pisteet 71 ja 88 piirtääksesi kotkan voimakkaat kynnet, jotka tarttuvat hulmuavaan vuosipäiväbanneriin. Lapset harjoittelevat teräviä kulmikkaita viivoja ja kaarevia nauhan muotoja – vaativampia vetoja, jotka palkitsevat huolellisen tarkkaavaisuuden ja vakaan kädenhallinnan.",
+              "fact": "Kotkan kynnet voivat kohdistaa noin 400 paunan neliötuumaa kohden (psi) otteen – paljon voimakkaamman kuin keskimääräisen ihmisen käden. Kynsiä käytetään kalojen ja pienten nisäkkäiden pyydystämiseen, ja kotkan ote on niin luja, että saalis harvoin pääsee karkuun pyydystämisen jälkeen."
+            },
+            {
+              "range": "89–104",
+              "title": "Tähdet, kilpi ja viimeistelyn yksityiskohdat",
+              "learn": "Täydennä palapeli yhdistämällä pisteet 89 ja 104 lisätäksesi isänmaalliset tähdet, kilpimerkinnät ja viimeiset yksityiskohdat, jotka tekevät tästä kotkasta aidosti amerikkalaisen. Käytä aikaa näiden viimeisten pisteiden kanssa – tasainen viimeistely kokoaa kokonaisuuden kauniisti yhteen.",
+              "fact": "Vuonna 1782 suunniteltu Yhdysvaltain suuri sinetti esittää kaljupäämerikotkaa pitelemässä oliivinoksaa toisessa kynnessä (symboli rauhaa) ja 13 nuolen nippua toisessa (symboli valmiutta puolustaa vapautta). Kotka on kääntynyt oliivinoksaa kohti muistutuksena siitä, että rauha on aina ensimmäinen valinta."
+            }
+          ],
+          "outro": "Erinomaista työtä – America 250 Eaglesi lentää korkealla vuosipäiväbannerin kanssa! Siinä on 104 pistettä ja yksi mahtava amerikkalaisen vapauden symboli. Väritä kotkan valkoinen pää, ruskeat siivet ja kirkkaankeltainen nokka ja täytä sitten banderolli punaisella, valkoisella ja sinisellä. Hyvää 250. syntymäpäivää, USA! Lisää teemallisia hauskuudenvinkkejä löydät <a href=\"/ocean/\">pisteestä pisteeseen -tulostettavista materiaaleistamme 1–100</a>.",
+          "color_schemes": []
+        }
       }
     }
-  }
-]
+  ]
+}

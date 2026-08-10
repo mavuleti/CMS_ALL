@@ -1,88 +1,222 @@
-[
-  {
-    "slug": "circus-ringmaster-bear-dot-to-dot-puzzle",
-    "name": "Oso maestro de ceremonias",
-    "tagline": "¡Conoce al oso que dirige el gran espectáculo!",
-    "description": "Une 74 puntos para descubrir un simpático oso vestido de maestro de ceremonias. Este imprimible de nivel intermedio ayuda a practicar la secuencia numérica, la concentración, el seguimiento visual y el control preciso del lápiz.",
-    "funFact": "El maestro de ceremonias presenta a los artistas y guía al público de un número al siguiente.",
-    "dotGuide": {
-      "intro": "Con su elegante chaqueta, sombrero alto y pose segura, este simpático oso está listo para dar la bienvenida al circo. El reto de 74 puntos se divide en cinco etapas claras para niños que ya siguen secuencias más largas. ¡Busca el punto 1 y que empiece la función!",
-      "sections": [
-        {
-          "range": "1–15",
-          "title": "El sombrero del maestro",
-          "learn": "Une los puntos del 1 al 15 para dibujar el sombrero alto y las orejas redondeadas del oso.",
-          "fact": "Los maestros de ceremonias suelen llevar trajes elegantes y llamativos para que el público los vea fácilmente en la pista."
-        },
-        {
-          "range": "16–30",
-          "title": "La cara del oso",
-          "learn": "Continúa del punto 16 al 30 para formar la cabeza, el hocico y la expresión alegre del oso.",
-          "fact": "El olfato de los osos es muy potente y les ayuda a encontrar alimento a grandes distancias."
-        },
-        {
-          "range": "31–45",
-          "title": "La chaqueta elegante",
-          "learn": "Sigue los puntos del 31 al 45 para formar la chaqueta decorada y sus solapas.",
-          "fact": "Las chaquetas brillantes, los botones relucientes y los adornos dan un aspecto teatral al traje."
-        },
-        {
-          "range": "46–60",
-          "title": "Los brazos y la pose",
-          "learn": "Traza los puntos del 46 al 60 para añadir los brazos y la acogedora pose del artista.",
-          "fact": "El maestro de ceremonias usa gestos claros y una voz firme para dirigir la atención hacia el siguiente número."
-        },
-        {
-          "range": "61–74",
-          "title": "Las botas y el final",
-          "learn": "Termina con los puntos del 61 al 74 para dibujar las piernas, las botas y los últimos detalles del traje.",
-          "fact": "La pista de circo es tradicionalmente circular para que el público pueda ver el espectáculo desde muchos ángulos."
+{
+  "collection": {
+    "header": {
+      "title": "Circus Dot to Dot Printables — Free PDF for Kids",
+      "meta_description": "Free circus dot to dot printables for kids ages 4-9: a ringmaster bear and striped big-top tent. Two print-ready PDF worksheets with no sign-up.",
+      "og": {
+        "title": "2 Free Circus Dot to Dot Printables",
+        "description": "A ringmaster bear and striped big-top tent — two free circus dot to dot printables for kids.",
+        "image": "/images/circus-ringmaster-bear-puzzle.webp"
+      },
+      "json_ld": {
+        "type": "CollectionPage",
+        "name": "Circo",
+        "description": "Descubre fichas gratuitas de circo para unir puntos con un simpático oso maestro de ceremonias y una carpa de rayas. Descarga e imprime ambos PDF para practicar el conteo y el control del lápiz.",
+        "image": "/images/circus-ringmaster-bear-puzzle.webp",
+        "main_entity": {
+          "type": "ItemList",
+          "item_source": "puzzles"
         }
-      ],
-      "outro": "¡Fantástico, el oso está listo para anunciar la función! Colorea el traje de rojo y dorado, y añade focos y un público entusiasmado. Completa la escena con el <a href=\"/es/circus/circus-tent-dot-to-dot-puzzle/\">puzle de la carpa de circo</a>."
+      },
+      "breadcrumb_json_ld": {
+        "type": "BreadcrumbList",
+        "items": [
+          {
+            "position": 1,
+            "name": "Home",
+            "path": "/"
+          },
+          {
+            "position": 2,
+            "name": "Circo",
+            "path": "/circus/"
+          }
+        ]
+      }
+    },
+    "body": {
+      "h1": "Dibujos de circo para unir puntos para niños",
+      "name": "Circo",
+      "tagline": "Por qué a los niños les encantan los puzles de circo",
+      "description": "Descubre fichas gratuitas de circo para unir puntos con un simpático oso maestro de ceremonias y una carpa de rayas. Descarga e imprime ambos PDF para practicar el conteo y el control del lápiz.",
+      "hero_image": "/images/circus-ringmaster-bear-puzzle.webp",
+      "slug": "circus",
+      "faqs": [
+        {
+          "q": "¿Son todos los dibujos para unir puntos para imprimir en este sitio web completamente gratuitos?",
+          "a": "Sí, todas las hojas de ejercicios de unir los puntos en DotToDotFreePrintables.com son 100% gratuitas para descargar e imprimir. No se requiere cuenta, suscripción ni tarjeta de crédito."
+        },
+        {
+          "q": "¿Para qué edad son adecuadas las hojas de trabajo de unir puntos?",
+          "a": "Nuestros materiales imprimibles abarcan edades de 2 a 12 años. Las hojas de trabajo fáciles (de 10 a 20 puntos) son ideales para niños pequeños y preescolares, las hojas de dificultad media (de 20 a 50 puntos) son excelentes para jardín de infantes y primer grado, y las hojas más difíciles (de 50 a más de 200 puntos) representan un desafío para los alumnos de segundo a sexto grado."
+        },
+        {
+          "q": "¿En qué formato están las hojas para imprimir de unir los puntos?",
+          "a": "Todas las hojas de trabajo se descargan como archivos PDF listos para imprimir, en tamaño A4 estándar (también disponibles en Carta de EE. UU.). Ábrelas en cualquier navegador o visor de PDF e imprímelas; no necesitas ningún software especial."
+        },
+        {
+          "q": "¿Pueden los profesores utilizar estas fichas de unir los puntos en clase?",
+          "a": "¡Sí! Nuestros materiales imprimibles son gratuitos para uso personal y en el aula. Son ideales para actividades matutinas, para alumnos que terminan rápido, para planes de clase de suplentes, para centros de motricidad fina y para paquetes de tareas."
+        }
+      ]
     }
   },
-  {
-    "slug": "circus-tent-dot-to-dot-puzzle",
-    "name": "Carpa de circo",
-    "tagline": "¡Pasa y disfruta de una aventura bajo la gran carpa!",
-    "description": "Une 59 puntos para descubrir una alegre carpa de circo a rayas, lista para el espectáculo. Este imprimible fácil ayuda a practicar el conteo en orden, el seguimiento visual, la concentración y el control del lápiz.",
-    "funFact": "La carpa principal de un circo suele llamarse gran carpa porque es la más grande de todo el espectáculo.",
-    "dotGuide": {
-      "intro": "La colorida carpa de circo es el lugar donde acróbatas, payasos y otros artistas se reúnen bajo un enorme techo. Este simpático puzle de 59 puntos construye la gran carpa en cinco etapas. ¡Busca el punto 1, prepara el lápiz y que empiece la función!",
-      "sections": [
-        {
-          "range": "1–12",
-          "title": "La bandera al viento",
-          "learn": "Une los puntos del 1 al 12 para dibujar la bandera y la parte más alta de la carpa.",
-          "fact": "La bandera de la cima ayuda a los visitantes a encontrar la gran carpa desde lejos."
+  "puzzles": [
+    {
+      "slug": "circus-ringmaster-bear-dot-to-dot-puzzle",
+      "header": {
+        "title": "",
+        "meta_description": "",
+        "og": {
+          "title": "",
+          "description": "",
+          "image_alt": ""
         },
-        {
-          "range": "13–24",
-          "title": "El alto pico de la carpa",
-          "learn": "Continúa del punto 13 al 24 para formar el techo inclinado que sube hacia el poste central.",
-          "fact": "Los altos postes centrales sostienen el techo de una carpa tradicional y crean su conocida forma puntiaguda."
-        },
-        {
-          "range": "25–36",
-          "title": "La lona a rayas",
-          "learn": "Sigue los puntos del 25 al 36 por la ancha lona y traza con cuidado sus rayas decorativas.",
-          "fact": "Las rayas llamativas hacen que las carpas de circo sean fáciles de reconocer y les dan un aspecto festivo."
-        },
-        {
-          "range": "37–48",
-          "title": "Las paredes de la carpa",
-          "learn": "Traza los puntos del 37 al 48 por ambos lados para formar las resistentes paredes.",
-          "fact": "Las cuerdas fuertes y las estacas ayudan a mantener firmes las grandes carpas cuando sopla el viento."
-        },
-        {
-          "range": "49–59",
-          "title": "La gran entrada",
-          "learn": "Termina con los puntos del 49 al 59 para añadir la entrada abierta por donde pasa el público.",
-          "fact": "Las entradas del circo suelen tener adornos de colores para dar la bienvenida y crear emoción antes de la función."
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Oso maestro de ceremonias",
+          "description": "",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
         }
-      ],
-      "outro": "¡Bravo, tu carpa está lista para la función! Colorea la lona con rayas intensas, añade luces y banderines, y dibuja al público llegando. Prueba ahora el <a href=\"/es/playgrounds/carousel-horse-playground-dot-to-dot-puzzle/\">puzle del caballo de carrusel</a>."
+      },
+      "body": {
+        "h1": "",
+        "name": "Oso maestro de ceremonias",
+        "tagline": "¡Conoce al oso que dirige el gran espectáculo!",
+        "description": "Une 74 puntos para descubrir un simpático oso vestido de maestro de ceremonias. Este imprimible de nivel intermedio ayuda a practicar la secuencia numérica, la concentración, el seguimiento visual y el control preciso del lápiz.",
+        "fun_fact": "El maestro de ceremonias presenta a los artistas y guía al público de un número al siguiente.",
+        "faqs": [
+          {
+            "q": "¿Para qué edad es el rompecabezas de unir puntos Oso maestro de ceremonias?",
+            "a": "Está diseñado para edades de Edades 5-9. Con 74 puntos, es ideal para niños que saben contar con seguridad hasta 74; los más pequeños pueden completarlo con un poco de ayuda."
+          },
+          {
+            "q": "¿Cómo imprimo la ficha Oso maestro de ceremonias?",
+            "a": "Haz clic en el botón de descarga para obtener el PDF gratuito y luego imprímelo en papel normal (A4 o US Letter) desde cualquier navegador o lector de PDF. No se necesita ningún programa especial."
+          },
+          {
+            "q": "¿La ficha imprimible Oso maestro de ceremonias es realmente gratis?",
+            "a": "Sí — es 100% gratis, sin registro, cuenta ni pago. Puedes imprimirla para casa o para el aula."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Con su elegante chaqueta, sombrero alto y pose segura, este simpático oso está listo para dar la bienvenida al circo. El reto de 74 puntos se divide en cinco etapas claras para niños que ya siguen secuencias más largas. ¡Busca el punto 1 y que empiece la función!",
+          "sections": [
+            {
+              "range": "1–15",
+              "title": "El sombrero del maestro",
+              "learn": "Une los puntos del 1 al 15 para dibujar el sombrero alto y las orejas redondeadas del oso.",
+              "fact": "Los maestros de ceremonias suelen llevar trajes elegantes y llamativos para que el público los vea fácilmente en la pista."
+            },
+            {
+              "range": "16–30",
+              "title": "La cara del oso",
+              "learn": "Continúa del punto 16 al 30 para formar la cabeza, el hocico y la expresión alegre del oso.",
+              "fact": "El olfato de los osos es muy potente y les ayuda a encontrar alimento a grandes distancias."
+            },
+            {
+              "range": "31–45",
+              "title": "La chaqueta elegante",
+              "learn": "Sigue los puntos del 31 al 45 para formar la chaqueta decorada y sus solapas.",
+              "fact": "Las chaquetas brillantes, los botones relucientes y los adornos dan un aspecto teatral al traje."
+            },
+            {
+              "range": "46–60",
+              "title": "Los brazos y la pose",
+              "learn": "Traza los puntos del 46 al 60 para añadir los brazos y la acogedora pose del artista.",
+              "fact": "El maestro de ceremonias usa gestos claros y una voz firme para dirigir la atención hacia el siguiente número."
+            },
+            {
+              "range": "61–74",
+              "title": "Las botas y el final",
+              "learn": "Termina con los puntos del 61 al 74 para dibujar las piernas, las botas y los últimos detalles del traje.",
+              "fact": "La pista de circo es tradicionalmente circular para que el público pueda ver el espectáculo desde muchos ángulos."
+            }
+          ],
+          "outro": "¡Fantástico, el oso está listo para anunciar la función! Colorea el traje de rojo y dorado, y añade focos y un público entusiasmado. Completa la escena con el <a href=\"/es/circus/circus-tent-dot-to-dot-puzzle/\">puzle de la carpa de circo</a>.",
+          "color_schemes": []
+        }
+      }
+    },
+    {
+      "slug": "circus-tent-dot-to-dot-puzzle",
+      "header": {
+        "title": "",
+        "meta_description": "",
+        "og": {
+          "title": "",
+          "description": "",
+          "image_alt": ""
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Carpa de circo",
+          "description": "",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
+      },
+      "body": {
+        "h1": "",
+        "name": "Carpa de circo",
+        "tagline": "¡Pasa y disfruta de una aventura bajo la gran carpa!",
+        "description": "Une 59 puntos para descubrir una alegre carpa de circo a rayas, lista para el espectáculo. Este imprimible fácil ayuda a practicar el conteo en orden, el seguimiento visual, la concentración y el control del lápiz.",
+        "fun_fact": "La carpa principal de un circo suele llamarse gran carpa porque es la más grande de todo el espectáculo.",
+        "faqs": [
+          {
+            "q": "¿Para qué edad es el rompecabezas de unir puntos Carpa de circo?",
+            "a": "Está diseñado para edades de Edades 4-8. Con 59 puntos, es ideal para niños que saben contar con seguridad hasta 59; los más pequeños pueden completarlo con un poco de ayuda."
+          },
+          {
+            "q": "¿Cómo imprimo la ficha Carpa de circo?",
+            "a": "Haz clic en el botón de descarga para obtener el PDF gratuito y luego imprímelo en papel normal (A4 o US Letter) desde cualquier navegador o lector de PDF. No se necesita ningún programa especial."
+          },
+          {
+            "q": "¿La ficha imprimible Carpa de circo es realmente gratis?",
+            "a": "Sí — es 100% gratis, sin registro, cuenta ni pago. Puedes imprimirla para casa o para el aula."
+          }
+        ],
+        "dot_guide": {
+          "intro": "La colorida carpa de circo es el lugar donde acróbatas, payasos y otros artistas se reúnen bajo un enorme techo. Este simpático puzle de 59 puntos construye la gran carpa en cinco etapas. ¡Busca el punto 1, prepara el lápiz y que empiece la función!",
+          "sections": [
+            {
+              "range": "1–12",
+              "title": "La bandera al viento",
+              "learn": "Une los puntos del 1 al 12 para dibujar la bandera y la parte más alta de la carpa.",
+              "fact": "La bandera de la cima ayuda a los visitantes a encontrar la gran carpa desde lejos."
+            },
+            {
+              "range": "13–24",
+              "title": "El alto pico de la carpa",
+              "learn": "Continúa del punto 13 al 24 para formar el techo inclinado que sube hacia el poste central.",
+              "fact": "Los altos postes centrales sostienen el techo de una carpa tradicional y crean su conocida forma puntiaguda."
+            },
+            {
+              "range": "25–36",
+              "title": "La lona a rayas",
+              "learn": "Sigue los puntos del 25 al 36 por la ancha lona y traza con cuidado sus rayas decorativas.",
+              "fact": "Las rayas llamativas hacen que las carpas de circo sean fáciles de reconocer y les dan un aspecto festivo."
+            },
+            {
+              "range": "37–48",
+              "title": "Las paredes de la carpa",
+              "learn": "Traza los puntos del 37 al 48 por ambos lados para formar las resistentes paredes.",
+              "fact": "Las cuerdas fuertes y las estacas ayudan a mantener firmes las grandes carpas cuando sopla el viento."
+            },
+            {
+              "range": "49–59",
+              "title": "La gran entrada",
+              "learn": "Termina con los puntos del 49 al 59 para añadir la entrada abierta por donde pasa el público.",
+              "fact": "Las entradas del circo suelen tener adornos de colores para dar la bienvenida y crear emoción antes de la función."
+            }
+          ],
+          "outro": "¡Bravo, tu carpa está lista para la función! Colorea la lona con rayas intensas, añade luces y banderines, y dibuja al público llegando. Prueba ahora el <a href=\"/es/playgrounds/carousel-horse-playground-dot-to-dot-puzzle/\">puzle del caballo de carrusel</a>.",
+          "color_schemes": []
+        }
+      }
     }
-  }
-]
+  ]
+}

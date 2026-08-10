@@ -1,24 +1,25 @@
 <div class="cms-shell">
-  <app-puzzle-menu (puzzleSelected)="onPuzzleSelected($event)" (translationSummaryReady)="onTranslationSummary($event)" (knownSlugsReady)="knownSlugs = $event"></app-puzzle-menu>
+  <app-puzzle-menu (puzzleSelected)="onPuzzleSelected($event)" (languageChanged)="onLanguageChanged($event)" (translationSummaryReady)="onTranslationSummary($event)" (knownSlugsReady)="knownSlugs = $event"></app-puzzle-menu>
   <div class="cms-main">
-    <app-puzzle-form [contentLanguage]="contentLanguage" [englishReference]="englishReference" [knownSlugs]="allKnownSlugs" (versionSaved)="onVersionSaved($event)"></app-puzzle-form>
+    <app-puzzle-form *ngIf="activeContentKind === 'puzzle'" [contentLanguage]="contentLanguage" [englishReference]="englishReference" [knownSlugs]="allKnownSlugs" (versionSaved)="onVersionSaved($event)"></app-puzzle-form>
+    <app-page-form *ngIf="activeContentKind !== 'puzzle'" [contentLanguage]="contentLanguage" (versionSaved)="onVersionSaved($event)"></app-page-form>
   </div>
   <aside class="version-panel" aria-label="Saved versions" data-testid="version-panel">
-    <section class="sidebar-validation errors" *ngIf="puzzleForm.errorIssues.length" data-testid="sidebar-validation">
-      <h2>Errors ({{ puzzleForm.errorIssues.length }})</h2>
+    <section class="sidebar-validation errors" *ngIf="activeEditor?.errorIssues.length" data-testid="sidebar-validation">
+      <h2>Errors ({{ activeEditor.errorIssues.length }})</h2>
       <ol>
-        <li *ngFor="let issue of puzzleForm.errorIssues">
-          <button type="button" (click)="puzzleForm.focusIssue(issue.path)">
+        <li *ngFor="let issue of activeEditor.errorIssues">
+          <button type="button" (click)="activeEditor.focusIssue(issue.path)">
             <code>{{ issue.path }}</code><span>{{ issue.message }}</span>
           </button>
         </li>
       </ol>
     </section>
-    <section class="sidebar-validation warnings" *ngIf="puzzleForm.warningIssues.length" data-testid="sidebar-warnings">
-      <h2>Review warnings ({{ puzzleForm.warningIssues.length }})</h2>
+    <section class="sidebar-validation warnings" *ngIf="activeEditor?.warningIssues.length" data-testid="sidebar-warnings">
+      <h2>Review warnings ({{ activeEditor.warningIssues.length }})</h2>
       <ol>
-        <li *ngFor="let issue of puzzleForm.warningIssues">
-          <button type="button" (click)="puzzleForm.focusIssue(issue.path)">
+        <li *ngFor="let issue of activeEditor.warningIssues">
+          <button type="button" (click)="activeEditor.focusIssue(issue.path)">
             <code>{{ issue.path }}</code><span>{{ issue.message }}</span>
           </button>
         </li>

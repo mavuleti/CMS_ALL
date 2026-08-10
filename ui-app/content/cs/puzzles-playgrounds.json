@@ -1,425 +1,812 @@
-[
-  {
-    "slug": "spring-horse-playground-dot-to-dot-puzzle",
-    "name": "Jarní kůň",
-    "seoH1": "Jarní kůň Spoj tečky — 53-tečkový herní list",
-    "tagline": "Houpání a jízda na herním koni!",
-    "description": "Spojte 53 teček a odhalte hravého jarního jezdce. Tento snadno tisknutelný materiál pomáhá mladším dětem procvičovat pořadí čísel, kontrolu tužky, vizuální sledování a koncentraci.",
-    "seoDescription": "Přesunující se váha dítěte způsobuje, že se jarní jezdec houpá. Vytvořte tohoto herního koně přes 53 teček s bezplatným tisknutelným PDF pro děti ve věku 4–8 let.",
-    "funFact": "Jarní jezdci se houpají dopředu a dozadu na těžké spirálové pružině, což umožňuje dětem vytvářet pohyb přesunem vlastní váhy.",
-    "seoImageAlt": "Herní jarní kůň skáče do tvaru z 53 tisknutelných teček",
-    "dotGuide": {
-      "intro": "Hřiště jsou místy, kde se fantazie divoce rozvíjí a navazují se přátelství – a houpačka je nesporným králem hřišť. Jen málo věcí se vyrovná prosté radosti z hýbání nohama a pocitu větru, který se kolem vás žene výš a výš k nebi. Toto veselé puzzle se 42 tečkami zachycuje toto kouzlo. Najděte tečku 1, vezměte si tužku a pojďme si hrát!",
-      "sections": [
-        {
-          "range": "1–13",
-          "title": "Houpací rám",
-          "learn": "Začněte u bodu 1 a propojte jej s bodem 8, abyste nakreslili vysoký rám ve tvaru A, který drží houpačky na místě. Děti si procvičují rovné, jisté čáry, které se svažují dovnitř k bodu – skvělý úvod do geometrických tvarů v zábavném kontextu reálného světa. Pro dosažení nejlepších výsledků povzbuzujte k pevnému a záměrnému tahu.",
-          "fact": "Klasická houpačka s tvarem A byla navržena tak, aby byla co nejstabilnější – trojúhelníkový tvar rovnoměrně rozkládá hmotnost, takže se celá konstrukce nepřevrátí, ani když se děti silně houpou. Trojúhelníky jsou nejpevnějším tvarem v inženýrství, a proto je vídáte všude od mostů až po rámy hřišť."
-        },
-        {
-          "range": "14–27",
-          "title": "Příčka a řetězy",
-          "learn": "Pokračujte od bodu 9 k bodu 18 a nakreslete vodorovnou příčku nahoře a zavěšené řetězy. Děti si procvičují střídání vodorovných čar a řetězů směřujících dolů – je to krásné cvičení pro záměrnou a přesnou změnu směru. Řetězy umožňují kývavý pohyb!",
-          "fact": "Moderní řetězy na dětská hřiště se vyrábějí z pozinkované oceli – oceli potažené vrstvou zinku – aby se zabránilo korozi. Před ocelovými řetězy se na houpačky používala silná lana vyrobená z přírodních vláken, jako je konopí nebo manilové vlákno. První zkušenost mnoha dětí s houpačkou byla jednoduchá prkna přivázaná lanem k větvi stromu a tato tradice pokračuje v zahradách po celém světě dodnes."
-        },
-        {
-          "range": "28–40",
-          "title": "Houpací sedadlo a postava",
-          "learn": "Obkreslete body 19 až 28 a nakreslete tak sedadlo houpačky a obrys dítěte, které na něm sedí. Toto je nejpřínosnější část skládačky – děti vidí, jak se celý účel konstrukce spojuje, když se na její místo objeví malá postavička. Připomeňte dětem, aby se podívaly na další bod, než zvednou tužku.",
-          "fact": "Pocit houpání – stoupání a klesání, krátký okamžik beztíže na vrcholu každého oblouku – aktivuje vestibulární systém v mozku, který je zodpovědný za rovnováhu a prostorové vnímání. Proto je houpání tak příjemné: je to skutečně prospěšný senzorický vjem, který pomáhá dětem rozvíjet rovnováhu, koordinaci a vnímání těla."
-        },
-        {
-          "range": "41–53",
-          "title": "Pozemek a okolí",
-          "learn": "Spojte body 29 až 36 a nakreslete tak zem pod houpačkami a okolní detaily. Děti si procvičují uzemnění scény – dávají hřišti pocit prostoru a měřítka. Tato část buduje porozumění popředí a pozadí, které jim bude v nadcházejících letech dobře sloužit ve výtvarné výchově a kreslení.",
-          "fact": "Moderní hřiště používají pod houpačkami speciálně navržené bezpečnostní povrchy – gumové dlaždice, dřevěné štěpky nebo gumovou drť – k tlumení pádů. Tento materiál je pečlivě navržen tak, aby absorboval nárazy. Než se bezpečnostní povrchy staly standardem v 70. a 80. letech 20. století, většina hřišť měla pod vybavením tvrdý beton nebo udusanou hlínu."
+{
+  "collection": {
+    "header": {
+      "title": "Playground Dot to Dot Printables — Free PDF for Kids",
+      "meta_description": "Free playground dot to dot printables for kids ages 4-12: spring horse, carousel, slide, seesaw, monkey bars, and an extreme 133-dot roller coaster. Print-ready PDF worksheets for the USA, UK, and Canada. No sign-up needed.",
+      "og": {
+        "title": "9 Free Playground Dot to Dot Printables",
+        "description": "Swings, slides, seesaws, and an extreme 133-dot roller coaster — free dot to dot printables to print today.",
+        "image": "/images/swing-playgrounds-puzzle.webp"
+      },
+      "json_ld": {
+        "type": "CollectionPage",
+        "name": "Hřiště",
+        "description": "Přineste si domů hřiště! Spojte tečky a odhalte houpačky, skluzavky a venkovní zábavu. Všechny pracovní listy si můžete zdarma stáhnout a vytisknout – není potřeba žádný účet.",
+        "image": "/images/swing-playgrounds-puzzle.webp",
+        "main_entity": {
+          "type": "ItemList",
+          "item_source": "puzzles"
         }
-      ],
-      "outro": "Skvělé – vaše hřiště je hotové! Vybarvěte houpačky svými oblíbenými barvami a přidejte pár kamarádů, kteří se budou houpat vedle. Pak se vydejte ven a užijte si to – žádná barevná tužka se nevyrovná pocitu větru ve vlasech na vrcholu houpačky! Pro každý věk a téma si prohlédněte naši kompletní knihovnu <a href=\"/\">tisknutelných šablon</a>."
+      },
+      "breadcrumb_json_ld": {
+        "type": "BreadcrumbList",
+        "items": [
+          {
+            "position": 1,
+            "name": "Home",
+            "path": "/"
+          },
+          {
+            "position": 2,
+            "name": "Hřiště",
+            "path": "/playgrounds/"
+          }
+        ]
+      }
     },
-    "seoTitle": "Jarní kůň Spoj tečky — 53-tečkový herní list"
+    "body": {
+      "h1": "Tisknutelné materiály pro děti na hřišti s tečkami",
+      "name": "Hřiště",
+      "tagline": "Proč děti milují hádanky typu „tečka po tečce“ na hřišti",
+      "description": "Přineste si domů hřiště! Spojte tečky a odhalte houpačky, skluzavky a venkovní zábavu. Všechny pracovní listy si můžete zdarma stáhnout a vytisknout – není potřeba žádný účet.",
+      "hero_image": "/images/swing-playgrounds-puzzle.webp",
+      "slug": "playgrounds",
+      "faqs": [
+        {
+          "q": "Kolik existuje bezplatných tiskovin s motivy hřišť?",
+          "a": "Kategorie Hřiště aktuálně nabízí 5 bezplatných tisknutelných šablon s metodou spojování teček o velikosti 42–133 bodů. Každý pracovní list se okamžitě stáhne jako PDF soubor připravený k tisku (Letter nebo A4, na výšku nebo na šířku) bez nutnosti registrace."
+        },
+        {
+          "q": "Dají se puzzle s puntíky na hřištích vytisknout zdarma?",
+          "a": "Ano – všech 5 hádanek z kolekce Playgrounds je zcela zdarma pro domácí i školní použití. Na DotToDotFreePrintables.com není nikdy vyžadován žádný účet, e-mail ani platba."
+        },
+        {
+          "q": "Pro jaký věk jsou dětské puzzle určeny?",
+          "a": "S počtem bodů od 42 do 133 zahrnuje kolekce Playgrounds zhruba věk 4–12 let. Nižší počet bodů zvolte pro předškoláky a mateřské školy a vyšší počet pro sebevědomé počítání ve 2.–6. ročníku."
+        },
+        {
+          "q": "Jaké puntíky typu „tečka po tečce“ si děti mohou vytisknout na hřišti?",
+          "a": "Pět bezplatných tiskovin na hřiště: Houpačka (42 bodů), Houpačka (68 bodů), Hrazdy pro opičky (94 bodů), Skluzavka (102 bodů) a Horská dráha (133 bodů) – nejširší škála obtížností na webu, od mateřské školy až po děti na úrovni dospívajících."
+        },
+        {
+          "q": "Jaká je nejtěžší puntíkovaná hádanka na webu?",
+          "a": "Puzzle s názvem Roller Coaster Playground je se 133 body největší výzvou na webu a je nejlepší pro děti ve věku 7–12 let. Je oblíbená u starších dětí, kterým se typické pracovní listy zdají příliš snadné."
+        }
+      ]
+    }
   },
-  {
-    "slug": "playhouse-slide-playground-dot-to-dot-puzzle",
-    "name": "Skluzavka hřiště",
-    "seoH1": "Dětský domeček skluzavka spojte tečky: 68 teček k tisku zdarma",
-    "tagline": "Lez, klouzej, opakuj!",
-    "description": "Spojte 68 teček a odhalte veselý hrací domeček se skluzavkou. Tento snadno tisknutelný list pomáhá dětem procvičovat sekvencování čísel, kontrolu tužky, vizuální sledování a koncentraci.",
-    "seoDescription": "Šplhání, sklouznutí a hra na přetvářku se setkávají v jedné veselém objektu. Sledujte skluzavku domečku přes 68 teček v bezplatném PDF pro děti ve věku 5–9 let.",
-    "funFact": "Nejvyšší stálá skluzavka na hřišti na světě se táhne přes 30 metrů – zhruba tak vysoká jako desetipatrová budova!",
-    "seoImageAlt": "Vysoká skluzavka na hřišti stoupající vzhůru přes 102 teček na pracovním listu",
-    "dotGuide": {
-      "intro": "Pokud je houpačka králem hřiště, skluzavka je hned za ní – na tom, že si na ni vylezete, sednete si a necháte gravitaci udělat zbytek, je něco neodolatelného. Tato 102bodová skládačka mapuje vysokou klasickou skluzavku od žebříku vzadu až po zakřivenou rampu vpředu. Má více bodů než náš nejjednodušší plán s obrázky hřiště, takže odměňuje trochu trpělivosti. Najděte první bod a pojďme postavit něco, po čem stojí za to vylézt.",
-      "sections": [
-        {
-          "range": "1–14",
-          "title": "Žebřík",
-          "learn": "Začněte u bodu 1 a propojte ho s bodem 20, abyste nakreslili vysoký žebřík vedoucí k plošině skluzavky. Tato část je tvořena převážně rovnými, rovnoměrně rozmístěnými čarami, což z ní dělá dobrou rozcvičku pro stabilní a kontrolované tahy tužkou před nadcházejícími křivkami.",
-          "fact": "Žebříky na hřiště jsou postaveny s příčkami rozmístěnými dostatečně blízko u sebe, aby noha malého dítěte bezpečně dosáhla na další – obvykle ne více než asi 30 cm od sebe, mnohem blíže k sobě než příčky na domácím štaflovém žebříku."
+  "puzzles": [
+    {
+      "slug": "spring-horse-playground-dot-to-dot-puzzle",
+      "header": {
+        "title": "Jarní kůň Spoj tečky — 53-tečkový herní list",
+        "meta_description": "Přesunující se váha dítěte způsobuje, že se jarní jezdec houpá. Vytvořte tohoto herního koně přes 53 teček s bezplatným tisknutelným PDF pro děti ve věku 4–8 let.",
+        "og": {
+          "title": "Jarní kůň Spoj tečky — 53-tečkový herní list",
+          "description": "Přesunující se váha dítěte způsobuje, že se jarní jezdec houpá. Vytvořte tohoto herního koně přes 53 teček s bezplatným tisknutelným PDF pro děti ve věku 4–8 let.",
+          "image_alt": "Herní jarní kůň skáče do tvaru z 53 tisknutelných teček"
         },
-        {
-          "range": "15–28",
-          "title": "Platforma",
-          "learn": "Pokračujte od bodu 21 k bodu 40 a nakreslete rovnou plošinu nahoře, kde se lezci zastaví, než se sklouznou dolů. Děti si zde procvičují spojování vodorovných a svislých čar v čistých pravých úhlech – dobrý nácvik pro strukturu a proporce.",
-          "fact": "Většina plošin na hřištích je postavena se zábradlím alespoň na třech stranách, takže otevřený zůstává pouze vstup na skluzavku. Už jen tento konstrukční detail se od doby, kdy se stal standardem v bezpečnostních pokynech pro hřiště, připisuje významnému snížení počtu pádů z plošin."
-        },
-        {
-          "range": "29–41",
-          "title": "Horní část snímku",
-          "learn": "Obkreslete body 41 až 60 a vytvarujte zakřivený okraj, kde se plošina setkává se samotnou skluzavkou – přesně v místě, kde začíná zábava. Je to užší křivka, než vypadá, proto doporučte pomalý a rozvážný pohyb ruky spíše než rychlý pohyb.",
-          "fact": "Úplně první zatáčka na vrcholu skluzavky se nazývá „startovací zatáčka“ a je specificky nakloněna tak, aby jezdec rychle nabíral rychlost, a neklesal přímo dolů."
-        },
-        {
-          "range": "42–55",
-          "title": "Dlouhý žlab",
-          "learn": "Spojte body 61 až 85 a nakreslete tak dlouhý, plynulý skluz. Toto je největší a nejuspokojivější část skládačky – doporučte jeden plynulý, souvislý tah spíše než několik krátkých, protože právě to dává skluzavce pocit rychlosti.",
-          "fact": "Moderní skluzavky na hřištích jsou téměř vždy vyrobeny z rotačně lisovaného plastu, nikoli z kovu. Kovové skluzavky se mohou na přímém letním slunci nebezpečně zahřát, což je jeden z hlavních důvodů, proč se na hřištích od 80. a 90. let 20. století začalo používat více materiálů."
-        },
-        {
-          "range": "56–68",
-          "title": "Základna a přistání",
-          "learn": "Dokončete spojením bodů 86 až 102, čímž nakreslíte základnu skluzavky a zem, kde jezdci dopadnou. Zbývá sedmnáct bodů – sebevědomý a uzemněný závěr zde dotváří celou strukturu.",
-          "fact": "Stejně jako houpačky, i skluzavky se nacházejí na speciálně navrženém bezpečnostním povrchu – obvykle z gumy, písku nebo dřevěných štěpků – který je navržen tak, aby absorboval náraz při dopadu mnohem lépe než obyčejná tráva nebo beton."
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Jarní kůň",
+          "description": "Přesunující se váha dítěte způsobuje, že se jarní jezdec houpá. Vytvořte tohoto herního koně přes 53 teček s bezplatným tisknutelným PDF pro děti ve věku 4–8 let.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
         }
-      ],
-      "outro": "Skvělá práce – vaše skluzavka je připravená pro lezce! Vybarvěte ji jasnými barvami hřiště nebo si na skluzavce navrhněte vlastní divoký vzor. Jste připraveni na něco úplně jiného? Vyzkoušejte naši další kolekci <a href=\"/dinosaurs/\">dinosauřích tečka po tečce</a>."
-    },
-    "seoTitle": "Skluzavka na hřišti spoj tečky – 102 teček, náročnější"
-  },
-  {
-    "slug": "carousel-horse-playground-dot-to-dot-puzzle",
-    "name": "Herní kůň na kolotoči",
-    "seoH1": "Herní kůň na kolotoči Spoj tečky — magický 88-tečkový list",
-    "tagline": "Hřebčín kolem kolotoče!",
-    "description": "Spojte 88 teček a odhalte elegantního koně na kolotoči připraveného na magickou jízdu. Tento středně obtížný tisknutelný puzzle poskytuje dětem zábavný způsob, jak procvičovat pořadí čísel, koncentraci a pečlivou kontrolu tužky.",
-    "seoDescription": "Sledujte plynoucí hřívu a dekorativní sedlo skokana na kolotoči přes 88 teček. Tiskněte tuto pouťovou hádanku zdarma pro děti ve věku 5–9 let.",
-    "funFact": "Tradiční koně na kolotoči často mají plynoucí hřívu a dekorativní sedlo, a koně, kteří se pohybují nahoru a dolů, se nazývají skokani.",
-    "seoImageAlt": "Ozdobený kůň na kolotoči s plynoucí hřívou vyčarovaný z 88 tisknutelných teček",
-    "dotGuide": {
-      "intro": "Houpačka má v sobě zabudovanou trochu týmové práce – funguje pouze tehdy, když si oba jezdci hrají společně, odrážejí se a stoupají postupně. Tato 68bodová skládačka kreslí rovnováhu tam a zpět od základu, prkno jako první, jezdci jako poslední. Je to pěkný krok vpřed oproti našemu nejjednoduššímu hřišti, aniž bychom se dostali na expertní území. Najděte bod 1 a pojďme to vyvážit.",
-      "sections": [
-        {
-          "range": "1–18",
-          "title": "Fulcrum",
-          "learn": "Začněte u bodu 1 a spojte ho s bodem 14, abyste nakreslili pevnou středovou oporu, na které celá houpačka stojí. Tyto čáry jsou krátké a šikmé, což dětem umožňuje procvičit si stavbu pevného základního tvaru, než se na něj přidá cokoli dalšího.",
-          "fact": "Centrální opora houpačky se nazývá otočný bod – stejné slovo používají inženýři pro otočný bod jakékoli páky. Houpačka je technicky vzato jedním z nejjednodušších strojů, které existují: páka vyvážená na pevném bodě."
-        },
-        {
-          "range": "19–36",
-          "title": "Prkno",
-          "learn": "Pokračujte od bodu 15 k bodu 28 a nakreslete dlouhé prkno, které spočívá napříč bodem otáčení. Děti si procvičují kreslení jedné souvislé, mírně skloněné čáry – to je dobrá příprava na stabilní ovládání rukou při delších tahech.",
-          "fact": "Starší houpačky se často stavěly z jediné dřevěné prkna, a přesně odtud pochází i jejich název – slova „see“ a „saw“ odrážejí pohyb staré dvoučlenné pily, která se táhla po kmeni."
-        },
-        {
-          "range": "37–54",
-          "title": "Rukojeti",
-          "learn": "Obkreslete body 29 až 42 a přidejte úchyty na obou koncích prkna. V této části děti postupně pracují na obou stranách skládačky a procvičují si symetrii, když na každém konci vytvářejí odpovídající tvar.",
-          "fact": "Rukojeti nebyly u konstrukcí houpaček vždy standardní. V raných verzích pro hřiště se jezdci drželi samotného prkna, což je jeden z důvodů, proč moderní bezpečnostní normy nyní vyžadují speciální rukojeti na obou koncích."
-        },
-        {
-          "range": "55–72",
-          "title": "První jezdec",
-          "learn": "Spojte body 43 až 56 a nakreslete dítě sedící na vyvýšeném konci houpačky. V tomto okamžiku scéna začíná působit živě – připomeňte dětem, aby se před zvednutím tužky podívaly na další bod, aby obrázek vypadal hladce.",
-          "fact": "Jízda na houpačce je skutečně užitečné cvičení na rovnováhu. Přesun váhy, abyste zůstali ve vzpřímené poloze při zachování konců prkna, aktivuje stejné svaly středu těla a systém rovnováhy vnitřního ucha, které se používají v gymnastice a tanci."
-        },
-        {
-          "range": "73–88",
-          "title": "Druhý jezdec a země",
-          "learn": "Dokončete spojením bodů 57 až 68, čímž nakreslíte druhé dítě na sníženém konci a zem pod houpačkou. Zbývá už jen dvanáct bodů – pečlivé a sebevědomé zakončení zde celou scénu dotváří.",
-          "fact": "Některá moderní hřiště nahradila tradiční houpačku pro dva jezdce verzemi s pružinovým uchycením, které umožňují houpat se jen jednomu dítěti, ačkoli klasická otočná dvoumístná houpačka je stále nejběžnějším designem na světě."
+      },
+      "body": {
+        "h1": "Jarní kůň Spoj tečky — 53-tečkový herní list",
+        "name": "Jarní kůň",
+        "tagline": "Houpání a jízda na herním koni!",
+        "description": "Spojte 53 teček a odhalte hravého jarního jezdce. Tento snadno tisknutelný materiál pomáhá mladším dětem procvičovat pořadí čísel, kontrolu tužky, vizuální sledování a koncentraci.",
+        "fun_fact": "Jarní jezdci se houpají dopředu a dozadu na těžké spirálové pružině, což umožňuje dětem vytvářet pohyb přesunem vlastní váhy.",
+        "faqs": [
+          {
+            "q": "Pro jaký věk je spojovačka Jarní kůň?",
+            "a": "Je určena pro věk Věk 4-8. Se svými 53 tečkami vyhovuje dětem, které umí s jistotou počítat do 53; mladší děti ji zvládnou s malou pomocí."
+          },
+          {
+            "q": "Jak vytisknu pracovní list Jarní kůň?",
+            "a": "Klikněte na tlačítko stažení a získejte PDF zdarma, poté jej vytiskněte na běžný papír (A4 nebo US Letter) z libovolného prohlížeče či PDF čtečky. Není potřeba žádný speciální software."
+          },
+          {
+            "q": "Je tisknutelný list Jarní kůň opravdu zdarma?",
+            "a": "Ano — je 100% zdarma, bez registrace, účtu či platby. Můžete jej tisknout pro domácí i školní použití."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Hřiště jsou místy, kde se fantazie divoce rozvíjí a navazují se přátelství – a houpačka je nesporným králem hřišť. Jen málo věcí se vyrovná prosté radosti z hýbání nohama a pocitu větru, který se kolem vás žene výš a výš k nebi. Toto veselé puzzle se 42 tečkami zachycuje toto kouzlo. Najděte tečku 1, vezměte si tužku a pojďme si hrát!",
+          "sections": [
+            {
+              "range": "1–13",
+              "title": "Houpací rám",
+              "learn": "Začněte u bodu 1 a propojte jej s bodem 8, abyste nakreslili vysoký rám ve tvaru A, který drží houpačky na místě. Děti si procvičují rovné, jisté čáry, které se svažují dovnitř k bodu – skvělý úvod do geometrických tvarů v zábavném kontextu reálného světa. Pro dosažení nejlepších výsledků povzbuzujte k pevnému a záměrnému tahu.",
+              "fact": "Klasická houpačka s tvarem A byla navržena tak, aby byla co nejstabilnější – trojúhelníkový tvar rovnoměrně rozkládá hmotnost, takže se celá konstrukce nepřevrátí, ani když se děti silně houpou. Trojúhelníky jsou nejpevnějším tvarem v inženýrství, a proto je vídáte všude od mostů až po rámy hřišť."
+            },
+            {
+              "range": "14–27",
+              "title": "Příčka a řetězy",
+              "learn": "Pokračujte od bodu 9 k bodu 18 a nakreslete vodorovnou příčku nahoře a zavěšené řetězy. Děti si procvičují střídání vodorovných čar a řetězů směřujících dolů – je to krásné cvičení pro záměrnou a přesnou změnu směru. Řetězy umožňují kývavý pohyb!",
+              "fact": "Moderní řetězy na dětská hřiště se vyrábějí z pozinkované oceli – oceli potažené vrstvou zinku – aby se zabránilo korozi. Před ocelovými řetězy se na houpačky používala silná lana vyrobená z přírodních vláken, jako je konopí nebo manilové vlákno. První zkušenost mnoha dětí s houpačkou byla jednoduchá prkna přivázaná lanem k větvi stromu a tato tradice pokračuje v zahradách po celém světě dodnes."
+            },
+            {
+              "range": "28–40",
+              "title": "Houpací sedadlo a postava",
+              "learn": "Obkreslete body 19 až 28 a nakreslete tak sedadlo houpačky a obrys dítěte, které na něm sedí. Toto je nejpřínosnější část skládačky – děti vidí, jak se celý účel konstrukce spojuje, když se na její místo objeví malá postavička. Připomeňte dětem, aby se podívaly na další bod, než zvednou tužku.",
+              "fact": "Pocit houpání – stoupání a klesání, krátký okamžik beztíže na vrcholu každého oblouku – aktivuje vestibulární systém v mozku, který je zodpovědný za rovnováhu a prostorové vnímání. Proto je houpání tak příjemné: je to skutečně prospěšný senzorický vjem, který pomáhá dětem rozvíjet rovnováhu, koordinaci a vnímání těla."
+            },
+            {
+              "range": "41–53",
+              "title": "Pozemek a okolí",
+              "learn": "Spojte body 29 až 36 a nakreslete tak zem pod houpačkami a okolní detaily. Děti si procvičují uzemnění scény – dávají hřišti pocit prostoru a měřítka. Tato část buduje porozumění popředí a pozadí, které jim bude v nadcházejících letech dobře sloužit ve výtvarné výchově a kreslení.",
+              "fact": "Moderní hřiště používají pod houpačkami speciálně navržené bezpečnostní povrchy – gumové dlaždice, dřevěné štěpky nebo gumovou drť – k tlumení pádů. Tento materiál je pečlivě navržen tak, aby absorboval nárazy. Než se bezpečnostní povrchy staly standardem v 70. a 80. letech 20. století, většina hřišť měla pod vybavením tvrdý beton nebo udusanou hlínu."
+            }
+          ],
+          "outro": "Skvělé – vaše hřiště je hotové! Vybarvěte houpačky svými oblíbenými barvami a přidejte pár kamarádů, kteří se budou houpat vedle. Pak se vydejte ven a užijte si to – žádná barevná tužka se nevyrovná pocitu větru ve vlasech na vrcholu houpačky! Pro každý věk a téma si prohlédněte naši kompletní knihovnu <a href=\"/\">tisknutelných šablon</a>.",
+          "color_schemes": []
         }
-      ],
-      "outro": "Výborně – vaše houpačka je dokonale vyvážená! Vybarvěte dva jezdce svými oblíbenými oblečeními nebo přidejte hřiště plné kamarádů, kteří čekají na svou řadu. Zajímá vás, co se nachází pod mořem místo slunce? Ponořte se do našich <a href=\"/ocean/\">oceánských tiskovin tečka po tečce</a>."
+      }
     },
-    "seoTitle": "Herní kůň na kolotoči Spoj tečky — magický 88-tečkový list"
-  },
-  {
-    "slug": "dashing-car-playground-dot-to-dot-puzzle",
-    "name": "Rychlé auto na hřišti",
-    "seoH1": "Rychlé auto Spoj tečky, 48 rychlých teček pro děti 4-8 let",
-    "tagline": "Nastartujte motor a spojte tečky!",
-    "description": "Spojte 48 snadných teček a odhalte rychlé auto připravené na spěch přes hřiště. Tento bezplatný tisknutelný puzzle pomáhá malým dětem procvičovat pořadí čísel, kontrolu tužky a koncentraci s zábavným tématem vozidel.",
-    "seoDescription": "Závod od tečky 1 do 48 a odhalte veselý dětský autíčko. Tento zdarma tisknutelný PDF převádí sekvencování čísel na rychlou jízdu pro děti ve věku 4–8 let.",
-    "funFact": "Hračky autíčka potěšily děti více než století a jejich rolování po dráze je hravý způsob, jak prozkoumat pohyb, rychlost a směr.",
-    "seoImageAlt": "Rychlé hračky autíčko, které se žene vpřed, jakmile jsou spojeny 48 očíslované tečky.",
-    "dotGuide": {
-      "intro": "Šest sekcí. Sto třicet tři teček. Tohle je největší skládačka na hřiště v celé sadě a ani se netváří jinak – dráha stoupá, klesá, dělá smyčky a nakonec se kutálí zpět na plošinu, kde začala. Děti, které už dokončily houpačku, skluzavku nebo houpačku, formát poznají, ale samotná délka mění atmosféru celé věci. Pomalá a stabilní práce tužkou vítězí. Najděte tečku 1 na úpatí prvního kopce a pojďme postavit něco, o čem se bude psát.",
-      "sections": [
-        {
-          "range": "1–10",
-          "title": "Výtahový kopec",
-          "learn": "Začněte u bodu 1 a pokračujte k bodu 22, kde nakreslíte dlouhé, strmé stoupání, které táhne vagón horské dráhy do nejvyššího bodu. Tyto čáry vedou v jednom stabilním diagonálním směru, což z nich činí dobrý úsek pro budování rytmu, než se hádanka zkomplikuje.",
-          "fact": "Většina horských drah používá k vytažení vagónu do prvního kopce řetězový zvedák – obvykle je to jediná část jízdy poháněná motorem. Všechno, co se děje po vrcholu kopce, probíhá čistě na základě gravitace a hybnosti."
+    {
+      "slug": "playhouse-slide-playground-dot-to-dot-puzzle",
+      "header": {
+        "title": "Skluzavka na hřišti spoj tečky – 102 teček, náročnější",
+        "meta_description": "Šplhání, sklouznutí a hra na přetvářku se setkávají v jedné veselém objektu. Sledujte skluzavku domečku přes 68 teček v bezplatném PDF pro děti ve věku 5–9 let.",
+        "og": {
+          "title": "Skluzavka na hřišti spoj tečky – 102 teček, náročnější",
+          "description": "Šplhání, sklouznutí a hra na přetvářku se setkávají v jedné veselém objektu. Sledujte skluzavku domečku přes 68 teček v bezplatném PDF pro děti ve věku 5–9 let.",
+          "image_alt": "Vysoká skluzavka na hřišti stoupající vzhůru přes 102 teček na pracovním listu"
         },
-        {
-          "range": "11–20",
-          "title": "První kapka",
-          "learn": "Pokračujte od bodu 23 k bodu 44 a vysledujte strmý sjezd z vrcholu. Úhel je zde ostřejší než kdekoli jinde na desce, proto doporučujeme pevnou a sebevědomou ruku, nikoli roztřesenou a váhavou – rychlý pád vyžaduje rychlou a jistou linii.",
-          "fact": "Úplně první sráz na horské dráze je téměř vždy nejvyšší a nejstrmější z celé atrakce. Konstruktéři horských drah ji umisťují záměrně brzy, protože právě tam dráha obvykle dosahuje své maximální rychlosti."
-        },
-        {
-          "range": "21–30",
-          "title": "Smyčka",
-          "learn": "Sledujte body 45 až 66 a vytvořte tak velkou smyčku v centru trasy. Tato část se stáčí zpět dozadu, což je složitější než rovné stoupání nebo klesání – postupujte pomalu a před každou zatáčkou si zkontrolujte další bod.",
-          "fact": "Rané smyčkové horské dráhy používaly dokonale kruhovou smyčku a jezdci si často stěžovali na namáhání krku z náhlé změny síly. Moderní smyčky místo toho používají tvar slzy, který je při stejné rychlosti mnohem šetrnější k tělu."
-        },
-        {
-          "range": "31–40",
-          "title": "Camelbackské vrchy",
-          "learn": "Spojte body 67 až 88 a nakreslete menší zvlněné kopce, které následují po smyčce. Tyto hrboly přicházejí rychle jeden po druhém, což dětem umožňuje procvičovat si krátké, kontrolované tahy namísto jednoho dlouhého rozmachu.",
-          "fact": "Těmto menším kopcům se někdy říká „velbloudí hrby“, protože jejich řada v řadě připomíná velbloudí hrby. Jezdci na každém z nich často pocítí krátký vzlet ze sedadla – skutečný, i když malý, okamžik beztíže."
-        },
-        {
-          "range": "41–48",
-          "title": "Poslední obrat",
-          "learn": "Pokračujte od bodu 89 k bodu 110 a vytvarujte táhlou křivku, která vrací kolej zpět ke stanici. Tato zatáčka je široká a pozvolná, což je příjemná změna tempa po užší smyčce na začátku skládačky.",
-          "fact": "Konstruktéři horských drah nazývají tento úsek „zpětný běh“. Je postaven široký a nakloněný, aby si vůz udržel rychlost v zatáčce bez nutnosti brzdění, a samotné brzdění si nechal na úplný konec."
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Skluzavka hřiště",
+          "description": "Šplhání, sklouznutí a hra na přetvářku se setkávají v jedné veselém objektu. Sledujte skluzavku domečku přes 68 teček v bezplatném PDF pro děti ve věku 5–9 let.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
         }
-      ],
-      "outro": "To je celá jízda, od začátku do konce! Vybarvěte trať výraznými, jasnými smyčkami a dejte vagónu horské dráhy jakýkoli divoký lak, který se vám líbí. Pokud vás 133 teček naplňovalo vzrušením a chcete ještě větší výzvu, podívejte se na naše <a href=\"/usa-250/\">extrémní tisknutelné materiály tečka po tečce</a>."
-    },
-    "seoTitle": "Rychlé autíčko tečka k tečce, 48 rychlých teček pro děti 4-8 let."
-  },
-  {
-    "slug": "swing-playgrounds-dot-to-dot-puzzle",
-    "name": "Hřiště s opičími bary",
-    "seoH1": "Sada houpaček spojte tečky — nejjednodušší 42-tečkový hrací PDF",
-    "tagline": "Houpej se, šplhaj a dostaň se na druhou stranu!",
-    "description": "Spojte 42 snadných teček a odhalte veselou scénu na hřišti kompletní s houpačkami! Tento tisknutelný puzzle je ideální pro děti v předškolním a mateřském vzdělávání, které procvičují sekvencování čísel a oslavují radost z venkovní hry.",
-    "seoDescription": "Děti si užívají lanové houpačky po tisíce let. Dokončete tento známý design hřiště ve 42 tečkách s bezplatným PDF pro děti ve věku 4–7 let.",
-    "funFact": "Hrazdy pro opice se staly oblíbeným vybavením hřišť na počátku 20. století a pomáhají dětem procvičovat sílu úchopu, rovnováhu a koordinaci horní části těla.",
-    "seoImageAlt": "Hrazdy pro opice vykreslené příčel po příčli přes 94 tisknutelných teček",
-    "dotGuide": {
-      "intro": "Spojte 94 teček a odhalte zábavnou sadu hrazd. Toto hádankové hřiště pro středně pokročilé je skvělou výzvou pro děti, které si procvičují číselnou řadu, ovládání tužky a trpělivost. Hrazdy pro opice se staly oblíbeným vybavením hřišť na počátku 20. století a pomáhají dětem procvičovat sílu úchopu, rovnováhu a koordinaci horní části těla.",
-      "sections": [
-        {
-          "range": "1–8",
-          "title": "Nosný rám",
-          "learn": "Pečlivě spoj body 1–18 a nakresli část „Nosný rám“. Před každou další čarou zkontroluj číslo.",
-          "fact": "Hrazdy pro opice se staly oblíbeným vybavením hřišť na počátku 20. století a pomáhají dětem procvičovat sílu úchopu, rovnováhu a koordinaci horní části těla."
-        },
-        {
-          "range": "9–18",
-          "title": "Horní tyč",
-          "learn": "Pečlivě spoj body 19–38 a nakresli část „Horní tyč“. Před každou další čarou zkontroluj číslo.",
-          "fact": "Spojte 94 teček a odhalte zábavnou sadu hrazd. Toto hádankové hřiště pro středně pokročilé je skvělou výzvou pro děti, které si procvičují číselnou řadu, ovládání tužky a trpělivost."
-        },
-        {
-          "range": "19–28",
-          "title": "Příčky",
-          "learn": "Pečlivě spoj body 39–58 a nakresli část „Příčky“. Před každou další čarou zkontroluj číslo.",
-          "fact": "Tento list s 94 tečkami zobrazuje oblíbené hrazdy pro opice a hodí se pro děti ve věku 5–9 let, které si upevňují trpělivost a sílu úchopu. Toto vybavení patří na hřiště v USA, Velké Británii i Kanadě už od počátku 20. století – vytiskněte si PDF zdarma a proveďte dítě celou trasou přes hrazdy."
-        },
-        {
-          "range": "29–36",
-          "title": "Lezoucí dítě",
-          "learn": "Pečlivě spoj body 59–76 a nakresli část „Lezoucí dítě“. Před každou další čarou zkontroluj číslo.",
-          "fact": "Hrazdy pro opice se staly oblíbeným vybavením hřišť na počátku 20. století a pomáhají dětem procvičovat sílu úchopu, rovnováhu a koordinaci horní části těla."
-        },
-        {
-          "range": "37–42",
-          "title": "Zem a dopadová plocha",
-          "learn": "Pečlivě spoj body 77–94 a nakresli část „Zem a dopadová plocha“. Před každou další čarou zkontroluj číslo.",
-          "fact": "Houpej se, šplhaj a dostaň se na druhou stranu!"
+      },
+      "body": {
+        "h1": "Dětský domeček skluzavka spojte tečky: 68 teček k tisku zdarma",
+        "name": "Skluzavka hřiště",
+        "tagline": "Lez, klouzej, opakuj!",
+        "description": "Spojte 68 teček a odhalte veselý hrací domeček se skluzavkou. Tento snadno tisknutelný list pomáhá dětem procvičovat sekvencování čísel, kontrolu tužky, vizuální sledování a koncentraci.",
+        "fun_fact": "Nejvyšší stálá skluzavka na hřišti na světě se táhne přes 30 metrů – zhruba tak vysoká jako desetipatrová budova!",
+        "faqs": [
+          {
+            "q": "Pro jaký věk je spojovačka Skluzavka hřiště?",
+            "a": "Je určena pro věk Věk 5-9. Se svými 68 tečkami vyhovuje dětem, které umí s jistotou počítat do 68; mladší děti ji zvládnou s malou pomocí."
+          },
+          {
+            "q": "Jak vytisknu pracovní list Skluzavka hřiště?",
+            "a": "Klikněte na tlačítko stažení a získejte PDF zdarma, poté jej vytiskněte na běžný papír (A4 nebo US Letter) z libovolného prohlížeče či PDF čtečky. Není potřeba žádný speciální software."
+          },
+          {
+            "q": "Je tisknutelný list Skluzavka hřiště opravdu zdarma?",
+            "a": "Ano — je 100% zdarma, bez registrace, účtu či platby. Můžete jej tisknout pro domácí i školní použití."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Pokud je houpačka králem hřiště, skluzavka je hned za ní – na tom, že si na ni vylezete, sednete si a necháte gravitaci udělat zbytek, je něco neodolatelného. Tato 102bodová skládačka mapuje vysokou klasickou skluzavku od žebříku vzadu až po zakřivenou rampu vpředu. Má více bodů než náš nejjednodušší plán s obrázky hřiště, takže odměňuje trochu trpělivosti. Najděte první bod a pojďme postavit něco, po čem stojí za to vylézt.",
+          "sections": [
+            {
+              "range": "1–14",
+              "title": "Žebřík",
+              "learn": "Začněte u bodu 1 a propojte ho s bodem 20, abyste nakreslili vysoký žebřík vedoucí k plošině skluzavky. Tato část je tvořena převážně rovnými, rovnoměrně rozmístěnými čarami, což z ní dělá dobrou rozcvičku pro stabilní a kontrolované tahy tužkou před nadcházejícími křivkami.",
+              "fact": "Žebříky na hřiště jsou postaveny s příčkami rozmístěnými dostatečně blízko u sebe, aby noha malého dítěte bezpečně dosáhla na další – obvykle ne více než asi 30 cm od sebe, mnohem blíže k sobě než příčky na domácím štaflovém žebříku."
+            },
+            {
+              "range": "15–28",
+              "title": "Platforma",
+              "learn": "Pokračujte od bodu 21 k bodu 40 a nakreslete rovnou plošinu nahoře, kde se lezci zastaví, než se sklouznou dolů. Děti si zde procvičují spojování vodorovných a svislých čar v čistých pravých úhlech – dobrý nácvik pro strukturu a proporce.",
+              "fact": "Většina plošin na hřištích je postavena se zábradlím alespoň na třech stranách, takže otevřený zůstává pouze vstup na skluzavku. Už jen tento konstrukční detail se od doby, kdy se stal standardem v bezpečnostních pokynech pro hřiště, připisuje významnému snížení počtu pádů z plošin."
+            },
+            {
+              "range": "29–41",
+              "title": "Horní část snímku",
+              "learn": "Obkreslete body 41 až 60 a vytvarujte zakřivený okraj, kde se plošina setkává se samotnou skluzavkou – přesně v místě, kde začíná zábava. Je to užší křivka, než vypadá, proto doporučte pomalý a rozvážný pohyb ruky spíše než rychlý pohyb.",
+              "fact": "Úplně první zatáčka na vrcholu skluzavky se nazývá „startovací zatáčka“ a je specificky nakloněna tak, aby jezdec rychle nabíral rychlost, a neklesal přímo dolů."
+            },
+            {
+              "range": "42–55",
+              "title": "Dlouhý žlab",
+              "learn": "Spojte body 61 až 85 a nakreslete tak dlouhý, plynulý skluz. Toto je největší a nejuspokojivější část skládačky – doporučte jeden plynulý, souvislý tah spíše než několik krátkých, protože právě to dává skluzavce pocit rychlosti.",
+              "fact": "Moderní skluzavky na hřištích jsou téměř vždy vyrobeny z rotačně lisovaného plastu, nikoli z kovu. Kovové skluzavky se mohou na přímém letním slunci nebezpečně zahřát, což je jeden z hlavních důvodů, proč se na hřištích od 80. a 90. let 20. století začalo používat více materiálů."
+            },
+            {
+              "range": "56–68",
+              "title": "Základna a přistání",
+              "learn": "Dokončete spojením bodů 86 až 102, čímž nakreslíte základnu skluzavky a zem, kde jezdci dopadnou. Zbývá sedmnáct bodů – sebevědomý a uzemněný závěr zde dotváří celou strukturu.",
+              "fact": "Stejně jako houpačky, i skluzavky se nacházejí na speciálně navrženém bezpečnostním povrchu – obvykle z gumy, písku nebo dřevěných štěpků – který je navržen tak, aby absorboval náraz při dopadu mnohem lépe než obyčejná tráva nebo beton."
+            }
+          ],
+          "outro": "Skvělá práce – vaše skluzavka je připravená pro lezce! Vybarvěte ji jasnými barvami hřiště nebo si na skluzavce navrhněte vlastní divoký vzor. Jste připraveni na něco úplně jiného? Vyzkoušejte naši další kolekci <a href=\"/dinosaurs/\">dinosauřích tečka po tečce</a>.",
+          "color_schemes": []
         }
-      ],
-      "outro": "Houpej se, šplhaj a dostaň se na druhou stranu! <a href=\"/playgrounds/\">Hřiště s opičími bary</a>"
+      }
     },
-    "seoTitle": "Hrazdy pro opice spoj tečky – 94 teček, pokročilé"
-  },
-  {
-    "slug": "slide-playgrounds-dot-to-dot-puzzle",
-    "name": "Skluzavka na hřišti",
-    "seoH1": "Hřiště skluzavka spojte tečky: Vystoupejte 102 teček zdarma",
-    "tagline": "Vystoupejte, sklouzněte, opakujte!",
-    "description": "Spojte 102 teček a odhalte vysokou skluzavku na hřišti, připravenou na šplhání a sklouznutí. S více tečkami než náš nejjednodušší hrací puzzle, toto je pěkná další výzva pro děti, které jsou připraveny přejít na pokročilejší listy, zatímco si stále užívají zábavné, známé téma.",
-    "seoDescription": "Připraveni na 102 teček? Vystoupejte a sestupte vysokou skluzavku na hřišti v této podrobné tisknutelné PDF výzvě pro sebevědomé počtáře ve věku 6–10 let.",
-    "funFact": "Nejvyšší trvalá skluzavka na hřišti na světě měří přes 30 metrů — přibližně tak vysoká jako desetipatrová budova!",
-    "seoImageAlt": "Vysoká skluzavka na hřišti, která stoupá skrze 102 teček na tisknutelném pracovním listu",
-    "dotGuide": {
-      "intro": "Pokud je houpačka králem hřiště, skluzavka je velmi blízko druhému místu — je na tom něco neodolatelného, když se vyšplháte nahoru, posadíte se a necháte gravitaci udělat zbytek. Tento puzzle s 102 tečkami vykresluje vysokou, klasickou skluzavku na hřišti od žebříku vzadu po zakřivenou rampu vpředu. Má více teček než náš nejjednodušší pracovní list na hřišti, takže odměňuje trochu extra trpělivosti. Najděte tečku 1 a pojďme postavit něco, co stojí za to vyšplhat.",
-      "sections": [
-        {
-          "range": "1–20",
-          "title": "Žebřík",
-          "learn": "Začněte na tečce 1 a spojte ji s tečkou 20, abyste vykreslili vysoký žebřík, který vede na plošinu skluzavky. Tato část je většinou rovná, s rovnoměrně rozloženými čarami, což ji činí dobrým zahřátím pro stabilní, kontrolované tahy tužkou před zakřiveními, která přicházejí.",
-          "fact": "Žebříky na hřišti jsou postaveny s příčkami umístěnými dostatečně blízko, aby noha mladého dítěte mohla bezpečně dosáhnout na další — obvykle ne více než asi 30 centimetrů od sebe, mnohem blíže než příčky na domácím žebříku."
+    {
+      "slug": "carousel-horse-playground-dot-to-dot-puzzle",
+      "header": {
+        "title": "Herní kůň na kolotoči Spoj tečky — magický 88-tečkový list",
+        "meta_description": "Sledujte plynoucí hřívu a dekorativní sedlo skokana na kolotoči přes 88 teček. Tiskněte tuto pouťovou hádanku zdarma pro děti ve věku 5–9 let.",
+        "og": {
+          "title": "Herní kůň na kolotoči Spoj tečky — magický 88-tečkový list",
+          "description": "Sledujte plynoucí hřívu a dekorativní sedlo skokana na kolotoči přes 88 teček. Tiskněte tuto pouťovou hádanku zdarma pro děti ve věku 5–9 let.",
+          "image_alt": "Ozdobený kůň na kolotoči s plynoucí hřívou vyčarovaný z 88 tisknutelných teček"
         },
-        {
-          "range": "21–40",
-          "title": "Plošina",
-          "learn": "Pokračujte od tečky 21 k tečce 40, abyste vykreslili plochou plošinu nahoře, kde se lezci zastaví před sklouznutím dolů. Děti zde cvičí spojování horizontálních a vertikálních čar v čistých pravých úhlech — dobrá praxe pro strukturu a proporce.",
-          "fact": "Většina plošin na hřišti je postavena s ochrannými zábradlími na alespoň třech stranách, takže pouze vstup na skluzavku je otevřený. Tento designový detail byl sám o sobě přičítán významnému snížení pádů z plošiny od doby, kdy se stal standardem v bezpečnostních pokynech pro hřiště."
-        },
-        {
-          "range": "41–60",
-          "title": "Vrchol skluzavky",
-          "learn": "Sledujte tečky 41 až 60, abyste vytvořili zakřivený okraj, kde se plošina setkává se samotnou skluzavkou — přesně tam, kde zábava začíná. Toto je těsnější zakřivení, než se zdá, takže podpořte pomalou, uváženou ruku spíše než rychlý tah.",
-          "fact": "První zakřivení na vrcholu skluzavky se nazývá 'startovní zakřivení' a je specificky nakloněno, aby kontrolovalo, jak rychle jezdec zrychluje, místo aby je spustilo přímo dolů."
-        },
-        {
-          "range": "61–85",
-          "title": "Dlouhá skluzavka",
-          "learn": "Spojte tečky 61 až 85, abyste vykreslili dlouhou, širokou skluzavku. Toto je největší a nejuspokojivější část puzzle — podpořte jeden hladký, kontinuální tah spíše než několik krátkých, protože to dává skluzavce pocit rychlosti.",
-          "fact": "Moderní skluzavky na hřištích jsou téměř vždy vyrobeny z rotačně tvarovaného plastu namísto kovu. Kovové skluzavky se mohou v přímém letním slunci stát nebezpečně horkými, což je jeden z hlavních důvodů, proč hřiště v 80. a 90. letech většinou změnila materiály."
-        },
-        {
-          "range": "86–102",
-          "title": "Základna a přistání",
-          "learn": "Dokončete spojováním teček 86 až 102, abyste vykreslili základnu skluzavky a zem, kde jezdci přistávají. Sedmnáct teček zbývá — sebevědomé, pevné dokončení zde dokončuje celou strukturu.",
-          "fact": "Stejně jako houpačky, skluzavky sedí na speciálně navrženém bezpečnostním povrchu — obvykle gumě, písku nebo dřevěných štěpkách — navrženém tak, aby mnohem lépe absorboval dopad přistání než obyčejná tráva nebo beton."
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Herní kůň na kolotoči",
+          "description": "Sledujte plynoucí hřívu a dekorativní sedlo skokana na kolotoči přes 88 teček. Tiskněte tuto pouťovou hádanku zdarma pro děti ve věku 5–9 let.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
         }
-      ],
-      "outro": "Skvělá práce — vaše skluzavka je připravena pro lezce! Vybarvěte ji jasnými barvami hřiště, nebo navrhněte svůj vlastní divoký vzor na skluzavce. Připraveni na něco úplně jiného? Zkuste naši <a href=\"/dinosaurs/\">tisknutelnou sbírku dinosaurů dot to dot</a> příště."
-    },
-    "seoTitle": "Skluzavka na hřišti Dot to Dot: Vystoupejte 102 teček zdarma"
-  },
-  {
-    "slug": "seesaw-playground-dot-to-dot-puzzle",
-    "name": "Houpací prkno na hřišti",
-    "seoH1": "Seesaw Dot to Dot Printable — Vyvážení 68 teček",
-    "tagline": "Nahoru, dolů a všude kolem!",
-    "description": "Spojte 68 teček, abyste odhalili dva přátele vyvažující se na klasickém dětském hřišti. S počtem teček mezi našimi nejjednoduššími a nejtěžšími hádankami na hřišti je to solidní střední krok pro děti, které si budují důvěru v sekvencování čísel.",
-    "seoDescription": "Houpací prkno nebo houpací lavice, pohyb zůstává nahoru a dolů. Vyvážte 68 číslovaných teček v tomto zdarma dostupném tisku pro děti ve věku 5–9 let.",
-    "funFact": "Houpací prkna se někdy v americké angličtině nazývají 'teeter-totters' — obě jména popisují stejný jednoduchý pohyb nahoru a dolů, který bavil děti po generace.",
-    "seoImageAlt": "Dva přátelé vyvažující se na houpacím prkně, scéna vytvořená 68 tisknutelnými tečkami",
-    "dotGuide": {
-      "intro": "Do houpacího prkna je zabudováno malé množství týmové práce — funguje to pouze tehdy, když oba jezdci spolupracují, odrážejí se a střídavě stoupají. Tato hádanka s 68 tečkami čerpá tuto vzájemnou rovnováhu od základů, nejprve prkno, nakonec jezdci. Je to příjemný krok v délce od našeho nejjednoduššího listu na hřišti, aniž by to sklouzlo do odborného území. Najděte tečku 1 a pojďme to vyvážit.",
-      "sections": [
-        {
-          "range": "1–14",
-          "title": "Otočný bod",
-          "learn": "Začněte na tečce 1 a spojte ji s tečkou 14, abyste nakreslili robustní centrální podporu, na které se celé houpací prkno vyvažuje. Tyto čáry jsou krátké a šikmé, což dětem poskytuje praxi při vytváření pevného základního tvaru, než se na něj něco dalšího přidá.",
-          "fact": "Centrální podpora houpacího prkna se nazývá otočný bod — stejné slovo používají inženýři pro pivotní bod jakéhokoli páky. Houpací prkno je technicky jedním z nejjednodušších strojů, které existují: páka vyvážená na pevném bodě."
-        },
-        {
-          "range": "15–28",
-          "title": "Prkno",
-          "learn": "Pokračujte od tečky 15 k tečce 28, abyste nakreslili dlouhé prkno, které spočívá na otočném bodě. Děti cvičí kreslení jedné souvislé, mírně skloněné čáry — dobrá příprava na stabilní ovládání ruky při delších tahách.",
-          "fact": "Starší houpací prkna byla často vyrobena z jednoho dřevěného prkna, což je přesně to, odkud jízda dostala své jméno — 'vidět' a 'pila' odrážejí pohyb tam a zpět staré dvoučlenné pily táhnoucí se přes kládu."
-        },
-        {
-          "range": "29–42",
-          "title": "Rukojeti",
-          "learn": "Sledujte tečky 29 až 42, abyste přidali rukojeti na každém konci prkna. Tato část má děti pracující na obou stranách hádanky střídavě, cvičící symetrii, když vytvářejí odpovídající tvar na každém konci.",
-          "fact": "Rukojeti nebyly vždy standardem v návrzích houpacích prken. Rané verze na hřišti měly jezdce, kteří se drželi samotného prkna, což je částečně důvod, proč moderní bezpečnostní standardy nyní požadují specializované rukojeti na obou koncích."
-        },
-        {
-          "range": "43–56",
-          "title": "První jezdec",
-          "learn": "Spojte tečky 43 až 56, abyste nakreslili dítě sedící na zvednutém konci houpacího prkna. Tady začíná scéna ožívat — připomeňte dětem, aby se podívaly dopředu na další tečku, než zvednou tužku, aby postava vyšla hladce.",
-          "fact": "Jízda na houpacím prkně je skutečně užitečné cvičení rovnováhy. Přesun váhy, abyste zůstali vzpřímení, když se prkno naklání, aktivuje stejné svaly jádra a systém rovnováhy vnitřního ucha, které se používají v gymnastice a tanci."
-        },
-        {
-          "range": "57–68",
-          "title": "Druhý jezdec a země",
-          "learn": "Dokončete spojováním teček 57 až 68, abyste nakreslili druhé dítě na sníženém konci a zem pod houpačkou. Už jen dvanáct teček — pečlivé, sebevědomé dokončení zde uzavírá celou scénu.",
-          "fact": "Některá moderní hřiště nahradila tradiční houpačku pro dva jezdce verzemi na pružinách, které umožňují jednomu dítěti houpat se samo, i když klasická otočná houpačka pro dva je stále nejběžnějším designem na celém světě."
+      },
+      "body": {
+        "h1": "Herní kůň na kolotoči Spoj tečky — magický 88-tečkový list",
+        "name": "Herní kůň na kolotoči",
+        "tagline": "Hřebčín kolem kolotoče!",
+        "description": "Spojte 88 teček a odhalte elegantního koně na kolotoči připraveného na magickou jízdu. Tento středně obtížný tisknutelný puzzle poskytuje dětem zábavný způsob, jak procvičovat pořadí čísel, koncentraci a pečlivou kontrolu tužky.",
+        "fun_fact": "Tradiční koně na kolotoči často mají plynoucí hřívu a dekorativní sedlo, a koně, kteří se pohybují nahoru a dolů, se nazývají skokani.",
+        "faqs": [
+          {
+            "q": "Pro jaký věk je spojovačka Herní kůň na kolotoči?",
+            "a": "Je určena pro věk Věk 5-9. Se svými 88 tečkami vyhovuje dětem, které umí s jistotou počítat do 88; mladší děti ji zvládnou s malou pomocí."
+          },
+          {
+            "q": "Jak vytisknu pracovní list Herní kůň na kolotoči?",
+            "a": "Klikněte na tlačítko stažení a získejte PDF zdarma, poté jej vytiskněte na běžný papír (A4 nebo US Letter) z libovolného prohlížeče či PDF čtečky. Není potřeba žádný speciální software."
+          },
+          {
+            "q": "Je tisknutelný list Herní kůň na kolotoči opravdu zdarma?",
+            "a": "Ano — je 100% zdarma, bez registrace, účtu či platby. Můžete jej tisknout pro domácí i školní použití."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Houpačka má v sobě zabudovanou trochu týmové práce – funguje pouze tehdy, když si oba jezdci hrají společně, odrážejí se a stoupají postupně. Tato 68bodová skládačka kreslí rovnováhu tam a zpět od základu, prkno jako první, jezdci jako poslední. Je to pěkný krok vpřed oproti našemu nejjednoduššímu hřišti, aniž bychom se dostali na expertní území. Najděte bod 1 a pojďme to vyvážit.",
+          "sections": [
+            {
+              "range": "1–18",
+              "title": "Fulcrum",
+              "learn": "Začněte u bodu 1 a spojte ho s bodem 14, abyste nakreslili pevnou středovou oporu, na které celá houpačka stojí. Tyto čáry jsou krátké a šikmé, což dětem umožňuje procvičit si stavbu pevného základního tvaru, než se na něj přidá cokoli dalšího.",
+              "fact": "Centrální opora houpačky se nazývá otočný bod – stejné slovo používají inženýři pro otočný bod jakékoli páky. Houpačka je technicky vzato jedním z nejjednodušších strojů, které existují: páka vyvážená na pevném bodě."
+            },
+            {
+              "range": "19–36",
+              "title": "Prkno",
+              "learn": "Pokračujte od bodu 15 k bodu 28 a nakreslete dlouhé prkno, které spočívá napříč bodem otáčení. Děti si procvičují kreslení jedné souvislé, mírně skloněné čáry – to je dobrá příprava na stabilní ovládání rukou při delších tahech.",
+              "fact": "Starší houpačky se často stavěly z jediné dřevěné prkna, a přesně odtud pochází i jejich název – slova „see“ a „saw“ odrážejí pohyb staré dvoučlenné pily, která se táhla po kmeni."
+            },
+            {
+              "range": "37–54",
+              "title": "Rukojeti",
+              "learn": "Obkreslete body 29 až 42 a přidejte úchyty na obou koncích prkna. V této části děti postupně pracují na obou stranách skládačky a procvičují si symetrii, když na každém konci vytvářejí odpovídající tvar.",
+              "fact": "Rukojeti nebyly u konstrukcí houpaček vždy standardní. V raných verzích pro hřiště se jezdci drželi samotného prkna, což je jeden z důvodů, proč moderní bezpečnostní normy nyní vyžadují speciální rukojeti na obou koncích."
+            },
+            {
+              "range": "55–72",
+              "title": "První jezdec",
+              "learn": "Spojte body 43 až 56 a nakreslete dítě sedící na vyvýšeném konci houpačky. V tomto okamžiku scéna začíná působit živě – připomeňte dětem, aby se před zvednutím tužky podívaly na další bod, aby obrázek vypadal hladce.",
+              "fact": "Jízda na houpačce je skutečně užitečné cvičení na rovnováhu. Přesun váhy, abyste zůstali ve vzpřímené poloze při zachování konců prkna, aktivuje stejné svaly středu těla a systém rovnováhy vnitřního ucha, které se používají v gymnastice a tanci."
+            },
+            {
+              "range": "73–88",
+              "title": "Druhý jezdec a země",
+              "learn": "Dokončete spojením bodů 57 až 68, čímž nakreslíte druhé dítě na sníženém konci a zem pod houpačkou. Zbývá už jen dvanáct bodů – pečlivé a sebevědomé zakončení zde celou scénu dotváří.",
+              "fact": "Některá moderní hřiště nahradila tradiční houpačku pro dva jezdce verzemi s pružinovým uchycením, které umožňují houpat se jen jednomu dítěti, ačkoli klasická otočná dvoumístná houpačka je stále nejběžnějším designem na světě."
+            }
+          ],
+          "outro": "Výborně – vaše houpačka je dokonale vyvážená! Vybarvěte dva jezdce svými oblíbenými oblečeními nebo přidejte hřiště plné kamarádů, kteří čekají na svou řadu. Zajímá vás, co se nachází pod mořem místo slunce? Ponořte se do našich <a href=\"/ocean/\">oceánských tiskovin tečka po tečce</a>.",
+          "color_schemes": []
         }
-      ],
-      "outro": "Dobře uděláno — vaše houpačka je dokonale vyvážená! Vybarvěte dva jezdce svými oblíbenými oblečeními, nebo přidejte hřiště plné přátel čekajících na svou řadu. Zajímá vás, co je pod mořem místo slunce? Potápějte se do našich <a href=\"/ocean/\">tisknutelných teček k moři</a> dál."
+      }
     },
-    "seoTitle": "Tisknutelná tečka k houpačce — Vyvážení 68 teček"
-  },
-  {
-    "slug": "roller-coaster-playground-dot-to-dot-puzzle",
-    "name": "Dětské hřiště horské dráhy.",
-    "seoH1": "Extrémní horská dráha tečka k tečce — 133 teček, zdarma.",
-    "tagline": "Vystoupejte na dráhu, pronásledujte pád!",
-    "description": "Spojte 133 teček, abyste odhalili celou horskou dráhu na hřišti, včetně smyček. Toto je náš nejtěžší hádanka na hřišti, určená pro děti, které už zvládly jednodušší listy a chtějí skutečnou zkoušku trpělivosti a kontroly tužky.",
-    "seoDescription": "Projeďte nejdelší sekvencí na hřišti skrze 133 zákrut a zatáček. Tento zdarma PDF horské dráhy vyzývá soustředěné fanoušky hádanek ve věku 8–12 let.",
-    "funFact": "První smyčková horská dráha byla otevřena v Paříži v roce 1846. Cestující si stěžovali, že je to bolí na krku, a inženýrům trvalo téměř 50 let, než navrhli smyčku, která se cítila hladce místo trestající.",
-    "seoImageAlt": "Smyčková horská dráha vinoucí se skrze 133 teček, naše nejextrémnější tisknutelná.",
-    "dotGuide": {
-      "intro": "Šest sekcí. Sto třicet tři teček. Toto je největší hádanka na hřišti v sadě a nedělá si iluze — trať stoupá, klesá, smyčkuje a nakonec se vrací zpět na platformu, kde začala. Děti, které už dokončily listy s houpačkou, skluzavkou nebo houpačkou, rozpoznají formát, ale samotná délka zde mění pocit celého díla. Pomalu, stabilně pracující tužka vyhrává den. Najděte tečku 1 na základně prvního kopce a pojďme postavit něco, co stojí za to křičet.",
-      "sections": [
-        {
-          "range": "1–22",
-          "title": "Zvedací kopec",
-          "learn": "Začněte na tečce 1 a pracujte až k tečce 22, abyste nakreslili dlouhý, strmý výstup, který vytáhne vozík horské dráhy na jeho nejvyšší bod. Tyto čáry běží v jednom stabilním diagonálním směru, což dělá z této části dobrou přípravu na budování rytmu, než se hádanka stane složitější.",
-          "fact": "Většina horských drah používá řetězové výtahy k vytahování vozíku na ten první kopec — obvykle je to jediná část jízdy poháněná motorem. Všechno, co se děje po vrcholu toho kopce, běží čistě na gravitaci a hybnosti."
+    {
+      "slug": "dashing-car-playground-dot-to-dot-puzzle",
+      "header": {
+        "title": "Rychlé autíčko tečka k tečce, 48 rychlých teček pro děti 4-8 let.",
+        "meta_description": "Závod od tečky 1 do 48 a odhalte veselý dětský autíčko. Tento zdarma tisknutelný PDF převádí sekvencování čísel na rychlou jízdu pro děti ve věku 4–8 let.",
+        "og": {
+          "title": "Rychlé autíčko tečka k tečce, 48 rychlých teček pro děti 4-8 let.",
+          "description": "Závod od tečky 1 do 48 a odhalte veselý dětský autíčko. Tento zdarma tisknutelný PDF převádí sekvencování čísel na rychlou jízdu pro děti ve věku 4–8 let.",
+          "image_alt": "Rychlé hračky autíčko, které se žene vpřed, jakmile jsou spojeny 48 očíslované tečky."
         },
-        {
-          "range": "23–44",
-          "title": "První pád",
-          "learn": "Pokračujte od tečky 23 k tečce 44, abyste sledovali strmý pád dolů z vrcholu. Úhel zde je ostřejší než kdekoli jinde na listu, takže podpořte pevnou, sebevědomou ruku místo shaky, váhavé — rychlý pád potřebuje rychlou, jistou čáru.",
-          "fact": "První pád na horské dráze je téměř vždy nejvyšší a nejstrmější z celé jízdy. Návrháři drah ho umístí brzy záměrně, protože je to obvykle místo, kde trať dosahuje své nejvyšší rychlosti."
-        },
-        {
-          "range": "45–66",
-          "title": "Smyčka",
-          "learn": "Sledujte tečky 45 až 66, abyste vytvořili velkou smyčku v srdci jízdy. Tato část se zakřivuje zpět na sebe, což je složitější než přímý výstup nebo pád — jděte pomalu a zkontrolujte další tečku, než se zavážete k každé křivce.",
-          "fact": "Rané loopingové horské dráhy používaly dokonale kruhový smyčkový tvar, a jezdci často stěžovali na napětí v krku z náhlé změny síly. Moderní smyčky používají místo toho tvar kapky, který se při stejné rychlosti cítí mnohem jemněji na těle."
-        },
-        {
-          "range": "67–88",
-          "title": "Camelback Hills",
-          "learn": "Spojte body 67 a 88, abyste nakreslili menší zvlněné kopce, které následují smyčku. Tyto hrboly přicházejí jeden za druhým v rychlém sledu, což dětem dává příležitost procvičit si krátké, kontrolované tahy místo jednoho dlouhého.",
-          "fact": "Tyto menší vzestupy se někdy nazývají 'camelback' kopce, protože série za sebou připomíná hrby velblouda. Jezdci často cítí krátké vyzdvižení ze sedadla při překonávání každého z nich — skutečný, i když malý, okamžik beztíže."
-        },
-        {
-          "range": "89–110",
-          "title": "Poslední zatáčka",
-          "learn": "Pracujte od bodu 89 do bodu 110, abyste vytvořili širokou křivku, která přivádí trať zpět k stanici. Tento ohyb je široký a pozvolný, příjemná změna tempa po těsnější smyčce dříve v hádance.",
-          "fact": "Designéři horských drah nazývají tento úsek 'návratový běh.' Je postaven široce a nakloněně, aby vůz mohl udržet svou rychlost při zatáčce bez potřeby brzd, což šetří skutečné brzdění až na úplný konec."
-        },
-        {
-          "range": "111–133",
-          "title": "Stanice a nástupiště",
-          "learn": "Dokončete spojení bodů 111 až 133, abyste nakreslili nástupiště, kde jízda začala a skončila. Ještě dvacet tři bodů na největší hádanku v dětském hřišti — pomalé, pečlivé dokončení zde je skutečným znakem vytrvalosti.",
-          "fact": "Brzdná sekce na konci skutečné horské dráhy je jednou z nejvíce inženýrsky zpracovaných částí. Musí hladce přivést vůz plný jezdců z plné rychlosti do úplného zastavení, aby nikdo nebyl otřesen."
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Rychlé auto na hřišti",
+          "description": "Závod od tečky 1 do 48 a odhalte veselý dětský autíčko. Tento zdarma tisknutelný PDF převádí sekvencování čísel na rychlou jízdu pro děti ve věku 4–8 let.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
         }
-      ],
-      "outro": "To je celá jízda, od začátku do konce! Vybarvěte trať v odvážných, jasných smyčkách a dejte horskému vozu jakýkoli divoký nátěr, který se vám líbí. Pokud se vám 133 bodů zdálo jako vzrušení a chcete ještě větší výzvu, podívejte se na naše <a href=\"/usa-250/\">extrémní tiskoviny s body</a> příště."
-    },
-    "seoTitle": "Extrémní horská dráha tečka k tečce — 133 teček, zdarma."
-  },
-  {
-    "slug": "monkey-bar-playground-dot-to-dot-puzzle",
-    "name": "Dětské hřiště s prolézačkami",
-    "seoH1": "Dětské hřiště Dot to Dot: Prolézejte 94 body",
-    "tagline": "Houpání, šplhání a dosažení druhé strany!",
-    "description": "Spojte 94 bodů, abyste odhalili zábavnou sadu prolézaček. Tato středně obtížná hádanka na dětském hřišti je skvělou výzvou pro děti, které procvičují sekvencování čísel, kontrolu tužky a trpělivost.",
-    "seoDescription": "Prolézačky budují úchop a koordinaci na dětském hřišti; tato verze s 94 body buduje kontrolu tužky. Stáhněte si zdarma PDF pro děti ve věku 5–9 let.",
-    "funFact": "Prolézačky se staly populárním vybavením na dětských hřištích na počátku 20. století a pomáhají dětem procvičovat sílu úchopu, rovnováhu a koordinaci horní části těla.",
-    "seoImageAlt": "Dětské hřiště s prolézačkami rámované příčkami napříč 94 tisknutelnými body",
-    "dotGuide": {
-      "intro": "Prolézačky jsou ultimátním testem úchopu a odvahy na dětském hřišti — dosáhnout, houpat se, pustit se, znovu dosáhnout, až na druhou stranu. Tato hádanka s 94 body buduje celou strukturu od základů: nejprve pevný rám, poté příčka po příčce, až se lezec houpe přes vrchol. Najděte bod 1 na základně a pojďme stavět.",
-      "sections": [
-        {
-          "range": "1–18",
-          "title": "Podpůrný rám",
-          "learn": "Začněte na tečce 1 a spojte ji s tečkou 18, abyste nakreslili vzpřímené sloupky, které drží celou strukturu stabilní. Tyto šikmé čáry tvoří páteř rámu, což dětem poskytuje praxi s pevným, rovnoměrně rozloženým tahem, než začnou příčky.",
-          "fact": "Rámy hrazd jsou obvykle zakotveny hluboko v betonových základech pod úrovní terénu, protože celá struktura musí unést plnou hmotnost dítěte při houpačce bez kolébání."
-        },
-        {
-          "range": "19–38",
-          "title": "Horní lišta",
-          "learn": "Pokračujte od tečky 19 k tečce 38, abyste nakreslili dlouhou horizontální lištu, která běží podél vrchu. Tato část je většinou jedna stabilní, rovná čára — skvělá praxe pro udržení přímého směru na delší vzdálenosti bez odklonění.",
-          "fact": "Horní lišta na většině souprav hrazd je umístěna těsně mimo dosah stojícího dospělého, což je přesně ten bod — je veliká tak, aby průměrné dítě potřebovalo malý skok, aby se chytilo první příčky."
-        },
-        {
-          "range": "39–58",
-          "title": "Příčky",
-          "learn": "Sledujte tečky 39 až 58, abyste přidali rovnoměrně rozložené příčky, které lezci uchopí, když se houpačkou přehoupnou. Každá příčka je krátké, oddělené spojení, takže povzbuďte děti, aby pečlivě zkontrolovaly každé číslo, místo aby nechaly sousední příčky rozmazané.",
-          "fact": "Příčky na hrazdách jsou tradičně rozestaveny tak, aby dítě muselo dosáhnout plným prodloužením paže k té další — dost blízko, aby bylo dosažitelné, dost daleko, aby vybudovalo skutečnou sílu úchopu a ramen."
-        },
-        {
-          "range": "59–76",
-          "title": "Lezec",
-          "learn": "Spojte tečky 59 až 76, abyste nakreslili postavu dítěte uprostřed houpačky, s jednou rukou nataženou k další příčce. Tady se hádanka oživuje — připomeňte dětem, aby se dívaly dopředu na další tečku, aby pozice při houpačce byla hladká, nikoli zubatá.",
-          "fact": "Houpačka ruka přes ruku přes hrazdy se někdy nazývá 'brachiating', stejné slovo, které vědci používají pro to, jak se opice pohybují stromy houpačkou z větve na větev."
-        },
-        {
-          "range": "77–94",
-          "title": "Půda a přistávací zóna",
-          "learn": "Dokončete tím, že spojíte tečky 77 až 94, abyste nakreslili zem pod tyčemi a přistávací oblast na vzdáleném konci. Jen osmnáct teček do cíle — stabilní, sebevědomé zakončení dokončuje celé překonání.",
-          "fact": "Stejně jako houpačky a skluzavky, hrazdy jsou téměř vždy instalovány na měkkém bezpečnostním povrchu, jako jsou gumové dlaždice, písek nebo dřevěné štěpky, aby tlumily případný pád z příček."
+      },
+      "body": {
+        "h1": "Rychlé auto Spoj tečky, 48 rychlých teček pro děti 4-8 let",
+        "name": "Rychlé auto na hřišti",
+        "tagline": "Nastartujte motor a spojte tečky!",
+        "description": "Spojte 48 snadných teček a odhalte rychlé auto připravené na spěch přes hřiště. Tento bezplatný tisknutelný puzzle pomáhá malým dětem procvičovat pořadí čísel, kontrolu tužky a koncentraci s zábavným tématem vozidel.",
+        "fun_fact": "Hračky autíčka potěšily děti více než století a jejich rolování po dráze je hravý způsob, jak prozkoumat pohyb, rychlost a směr.",
+        "faqs": [
+          {
+            "q": "Pro jaký věk je spojovačka Rychlé auto na hřišti?",
+            "a": "Je určena pro věk Věk 4-8. Se svými 48 tečkami vyhovuje dětem, které umí s jistotou počítat do 48; mladší děti ji zvládnou s malou pomocí."
+          },
+          {
+            "q": "Jak vytisknu pracovní list Rychlé auto na hřišti?",
+            "a": "Klikněte na tlačítko stažení a získejte PDF zdarma, poté jej vytiskněte na běžný papír (A4 nebo US Letter) z libovolného prohlížeče či PDF čtečky. Není potřeba žádný speciální software."
+          },
+          {
+            "q": "Je tisknutelný list Rychlé auto na hřišti opravdu zdarma?",
+            "a": "Ano — je 100% zdarma, bez registrace, účtu či platby. Můžete jej tisknout pro domácí i školní použití."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Šest sekcí. Sto třicet tři teček. Tohle je největší skládačka na hřiště v celé sadě a ani se netváří jinak – dráha stoupá, klesá, dělá smyčky a nakonec se kutálí zpět na plošinu, kde začala. Děti, které už dokončily houpačku, skluzavku nebo houpačku, formát poznají, ale samotná délka mění atmosféru celé věci. Pomalá a stabilní práce tužkou vítězí. Najděte tečku 1 na úpatí prvního kopce a pojďme postavit něco, o čem se bude psát.",
+          "sections": [
+            {
+              "range": "1–10",
+              "title": "Výtahový kopec",
+              "learn": "Začněte u bodu 1 a pokračujte k bodu 22, kde nakreslíte dlouhé, strmé stoupání, které táhne vagón horské dráhy do nejvyššího bodu. Tyto čáry vedou v jednom stabilním diagonálním směru, což z nich činí dobrý úsek pro budování rytmu, než se hádanka zkomplikuje.",
+              "fact": "Většina horských drah používá k vytažení vagónu do prvního kopce řetězový zvedák – obvykle je to jediná část jízdy poháněná motorem. Všechno, co se děje po vrcholu kopce, probíhá čistě na základě gravitace a hybnosti."
+            },
+            {
+              "range": "11–20",
+              "title": "První kapka",
+              "learn": "Pokračujte od bodu 23 k bodu 44 a vysledujte strmý sjezd z vrcholu. Úhel je zde ostřejší než kdekoli jinde na desce, proto doporučujeme pevnou a sebevědomou ruku, nikoli roztřesenou a váhavou – rychlý pád vyžaduje rychlou a jistou linii.",
+              "fact": "Úplně první sráz na horské dráze je téměř vždy nejvyšší a nejstrmější z celé atrakce. Konstruktéři horských drah ji umisťují záměrně brzy, protože právě tam dráha obvykle dosahuje své maximální rychlosti."
+            },
+            {
+              "range": "21–30",
+              "title": "Smyčka",
+              "learn": "Sledujte body 45 až 66 a vytvořte tak velkou smyčku v centru trasy. Tato část se stáčí zpět dozadu, což je složitější než rovné stoupání nebo klesání – postupujte pomalu a před každou zatáčkou si zkontrolujte další bod.",
+              "fact": "Rané smyčkové horské dráhy používaly dokonale kruhovou smyčku a jezdci si často stěžovali na namáhání krku z náhlé změny síly. Moderní smyčky místo toho používají tvar slzy, který je při stejné rychlosti mnohem šetrnější k tělu."
+            },
+            {
+              "range": "31–40",
+              "title": "Camelbackské vrchy",
+              "learn": "Spojte body 67 až 88 a nakreslete menší zvlněné kopce, které následují po smyčce. Tyto hrboly přicházejí rychle jeden po druhém, což dětem umožňuje procvičovat si krátké, kontrolované tahy namísto jednoho dlouhého rozmachu.",
+              "fact": "Těmto menším kopcům se někdy říká „velbloudí hrby“, protože jejich řada v řadě připomíná velbloudí hrby. Jezdci na každém z nich často pocítí krátký vzlet ze sedadla – skutečný, i když malý, okamžik beztíže."
+            },
+            {
+              "range": "41–48",
+              "title": "Poslední obrat",
+              "learn": "Pokračujte od bodu 89 k bodu 110 a vytvarujte táhlou křivku, která vrací kolej zpět ke stanici. Tato zatáčka je široká a pozvolná, což je příjemná změna tempa po užší smyčce na začátku skládačky.",
+              "fact": "Konstruktéři horských drah nazývají tento úsek „zpětný běh“. Je postaven široký a nakloněný, aby si vůz udržel rychlost v zatáčce bez nutnosti brzdění, a samotné brzdění si nechal na úplný konec."
+            }
+          ],
+          "outro": "To je celá jízda, od začátku do konce! Vybarvěte trať výraznými, jasnými smyčkami a dejte vagónu horské dráhy jakýkoli divoký lak, který se vám líbí. Pokud vás 133 teček naplňovalo vzrušením a chcete ještě větší výzvu, podívejte se na naše <a href=\"/usa-250/\">extrémní tisknutelné materiály tečka po tečce</a>.",
+          "color_schemes": []
         }
-      ],
-      "outro": "Dobrá práce — vaše hrazdy jsou připraveny k překonání! Vybarvěte oblečení lezce, přidejte pár přátel čekajících na svůj řad, nebo navrhněte celou herní strukturu kolem toho. Pro další praktickou výzvu prozkoumejte více <a href=\"/playgrounds/\">tisknutelných obrázků spojte tečky na hřišti</a>."
+      }
     },
-    "seoTitle": "Hrazdy spojte tečky: Houpejte se přes 94 teček"
-  }
-]
+    {
+      "slug": "swing-playgrounds-dot-to-dot-puzzle",
+      "header": {
+        "title": "Hrazdy pro opice spoj tečky – 94 teček, pokročilé",
+        "meta_description": "Děti si užívají lanové houpačky po tisíce let. Dokončete tento známý design hřiště ve 42 tečkách s bezplatným PDF pro děti ve věku 4–7 let.",
+        "og": {
+          "title": "Hrazdy pro opice spoj tečky – 94 teček, pokročilé",
+          "description": "Děti si užívají lanové houpačky po tisíce let. Dokončete tento známý design hřiště ve 42 tečkách s bezplatným PDF pro děti ve věku 4–7 let.",
+          "image_alt": "Hrazdy pro opice vykreslené příčel po příčli přes 94 tisknutelných teček"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Hřiště s opičími bary",
+          "description": "Děti si užívají lanové houpačky po tisíce let. Dokončete tento známý design hřiště ve 42 tečkách s bezplatným PDF pro děti ve věku 4–7 let.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
+      },
+      "body": {
+        "h1": "Sada houpaček spojte tečky — nejjednodušší 42-tečkový hrací PDF",
+        "name": "Hřiště s opičími bary",
+        "tagline": "Houpej se, šplhaj a dostaň se na druhou stranu!",
+        "description": "Spojte 42 snadných teček a odhalte veselou scénu na hřišti kompletní s houpačkami! Tento tisknutelný puzzle je ideální pro děti v předškolním a mateřském vzdělávání, které procvičují sekvencování čísel a oslavují radost z venkovní hry.",
+        "fun_fact": "Hrazdy pro opice se staly oblíbeným vybavením hřišť na počátku 20. století a pomáhají dětem procvičovat sílu úchopu, rovnováhu a koordinaci horní části těla.",
+        "faqs": [
+          {
+            "q": "Kolik teček má skládačka typu „tečka po tečce“ na hřišti Swing Playground?",
+            "a": "Tisknutelný obrázek houpačky s technikou spojování teček má 42 očíslovaných teček. Díky tomu se jedná o snadnou až středně náročnou skládačku, která je nejvhodnější pro věk 5–8 let (mateřská školka až druhá třída). Děti spojují tečky podle číselného pořadí, aby odhalily hotový obrázek houpačky, a poté ho vybarví."
+          },
+          {
+            "q": "Je možné vytisknout si houpačku dot-to-tečkami zdarma?",
+            "a": "Ano. Pracovní list s motivem houpačky na hřišti si můžete stáhnout zcela zdarma z DotToDotFreePrintables.com – není vyžadován žádný účet, e-mail ani platba. Stáhne se okamžitě jako PDF soubor připravený k tisku v orientaci na výšku i na šířku, o velikosti papíru US Letter nebo A4."
+          },
+          {
+            "q": "Pro jaký věk je pracovní list s technikou spojování teček „Hřiště s houpačkou“ nejvhodnější?",
+            "a": "S 42 tečkami je puzzle Swing Playground nejvhodnější pro děti ve věku 5–8 let (od mateřské školy až po druhou třídu). Mladší děti si ho mohou užít s lehkou pomocí dospělého při počítání, zatímco sebevědomější počítadla ho mohou složit samostatně a procvičovat si číselnou řadu až do 42."
+          },
+          {
+            "q": "Jaké dovednosti učí skládačka s puntíky na hřišti Swing Playground?",
+            "a": "Spojováním 42 teček na skládačce Swing Playground se rozvíjí rozpoznávání čísel a počítání do 42, ovládání tužky, koordinace ruka-oko a trvalé soustředění – stejné základy jemné motoriky, které podporují rané psaní. Vybarvování hotového obrázku je kreativní odměnou."
+          },
+          {
+            "q": "Co je zajímavého o houpací hřišti?",
+            "a": "Houpačky jsou jedním z nejstarších vynálezů hřišť – děti se houpají na lanových houpačkách už tisíce let! Děti objevují tato fakta při skládání tečky po tečce v Hřišti s houpačkami."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Spojte 94 teček a odhalte zábavnou sadu hrazd. Toto hádankové hřiště pro středně pokročilé je skvělou výzvou pro děti, které si procvičují číselnou řadu, ovládání tužky a trpělivost. Hrazdy pro opice se staly oblíbeným vybavením hřišť na počátku 20. století a pomáhají dětem procvičovat sílu úchopu, rovnováhu a koordinaci horní části těla.",
+          "sections": [
+            {
+              "range": "1–8",
+              "title": "Nosný rám",
+              "learn": "Pečlivě spoj body 1–18 a nakresli část „Nosný rám“. Před každou další čarou zkontroluj číslo.",
+              "fact": "Hrazdy pro opice se staly oblíbeným vybavením hřišť na počátku 20. století a pomáhají dětem procvičovat sílu úchopu, rovnováhu a koordinaci horní části těla."
+            },
+            {
+              "range": "9–18",
+              "title": "Horní tyč",
+              "learn": "Pečlivě spoj body 19–38 a nakresli část „Horní tyč“. Před každou další čarou zkontroluj číslo.",
+              "fact": "Spojte 94 teček a odhalte zábavnou sadu hrazd. Toto hádankové hřiště pro středně pokročilé je skvělou výzvou pro děti, které si procvičují číselnou řadu, ovládání tužky a trpělivost."
+            },
+            {
+              "range": "19–28",
+              "title": "Příčky",
+              "learn": "Pečlivě spoj body 39–58 a nakresli část „Příčky“. Před každou další čarou zkontroluj číslo.",
+              "fact": "Tento list s 94 tečkami zobrazuje oblíbené hrazdy pro opice a hodí se pro děti ve věku 5–9 let, které si upevňují trpělivost a sílu úchopu. Toto vybavení patří na hřiště v USA, Velké Británii i Kanadě už od počátku 20. století – vytiskněte si PDF zdarma a proveďte dítě celou trasou přes hrazdy."
+            },
+            {
+              "range": "29–36",
+              "title": "Lezoucí dítě",
+              "learn": "Pečlivě spoj body 59–76 a nakresli část „Lezoucí dítě“. Před každou další čarou zkontroluj číslo.",
+              "fact": "Hrazdy pro opice se staly oblíbeným vybavením hřišť na počátku 20. století a pomáhají dětem procvičovat sílu úchopu, rovnováhu a koordinaci horní části těla."
+            },
+            {
+              "range": "37–42",
+              "title": "Zem a dopadová plocha",
+              "learn": "Pečlivě spoj body 77–94 a nakresli část „Zem a dopadová plocha“. Před každou další čarou zkontroluj číslo.",
+              "fact": "Houpej se, šplhaj a dostaň se na druhou stranu!"
+            }
+          ],
+          "outro": "Houpej se, šplhaj a dostaň se na druhou stranu! <a href=\"/playgrounds/\">Hřiště s opičími bary</a>",
+          "color_schemes": []
+        }
+      }
+    },
+    {
+      "slug": "slide-playgrounds-dot-to-dot-puzzle",
+      "header": {
+        "title": "Skluzavka na hřišti Dot to Dot: Vystoupejte 102 teček zdarma",
+        "meta_description": "Připraveni na 102 teček? Vystoupejte a sestupte vysokou skluzavku na hřišti v této podrobné tisknutelné PDF výzvě pro sebevědomé počtáře ve věku 6–10 let.",
+        "og": {
+          "title": "Skluzavka na hřišti Dot to Dot: Vystoupejte 102 teček zdarma",
+          "description": "Připraveni na 102 teček? Vystoupejte a sestupte vysokou skluzavku na hřišti v této podrobné tisknutelné PDF výzvě pro sebevědomé počtáře ve věku 6–10 let.",
+          "image_alt": "Vysoká skluzavka na hřišti, která stoupá skrze 102 teček na tisknutelném pracovním listu"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Skluzavka na hřišti",
+          "description": "Připraveni na 102 teček? Vystoupejte a sestupte vysokou skluzavku na hřišti v této podrobné tisknutelné PDF výzvě pro sebevědomé počtáře ve věku 6–10 let.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
+      },
+      "body": {
+        "h1": "Hřiště skluzavka spojte tečky: Vystoupejte 102 teček zdarma",
+        "name": "Skluzavka na hřišti",
+        "tagline": "Vystoupejte, sklouzněte, opakujte!",
+        "description": "Spojte 102 teček a odhalte vysokou skluzavku na hřišti, připravenou na šplhání a sklouznutí. S více tečkami než náš nejjednodušší hrací puzzle, toto je pěkná další výzva pro děti, které jsou připraveny přejít na pokročilejší listy, zatímco si stále užívají zábavné, známé téma.",
+        "fun_fact": "Nejvyšší trvalá skluzavka na hřišti na světě měří přes 30 metrů — přibližně tak vysoká jako desetipatrová budova!",
+        "faqs": [
+          {
+            "q": "Kolik teček má skládačka typu „tečka po tečce“ na hřišti Slide Playground?",
+            "a": "Tisknutelný obrázek hřiště se skluzavkou, který se provádí pomocí spojovacích teček, má 102 očíslovaných teček. Díky tomu je to náročná skládačka, nejvhodnější pro děti ve věku 7–12 let (od 2. třídy). Děti spojují tečky podle číselného pořadí, aby odhalily hotový obrázek hřiště se skluzavkou, a poté ho vybarví."
+          },
+          {
+            "q": "Je možné vytisknout si šablonu Slide Playground pomocí tečky zdarma?",
+            "a": "Ano. Pracovní list Slide Playground si můžete stáhnout 100% zdarma z DotToDotFreePrintables.com – není vyžadován žádný účet, e-mail ani platba. Stáhne se okamžitě jako PDF připravený k tisku v orientaci na výšku i na šířku, o velikosti papíru US Letter nebo A4."
+          },
+          {
+            "q": "Pro jaký věk je pracovní list se spojováním teček Slide Playground nejvhodnější?",
+            "a": "S 102 body je puzzle Slide Playground nejvhodnější pro děti ve věku 7–12 let (od 2. třídy výše). Mladší děti si ho mohou užít s lehkou pomocí dospělého při počítání, zatímco sebejistější počítající děti ho mohou vyřešit samostatně a procvičovat si číselnou řadu až do 102."
+          },
+          {
+            "q": "Jaké dovednosti učí skládačka s puntíky Slide Playground?",
+            "a": "Spojováním 102 teček na skládačce Slide Playground se rozvíjí rozpoznávání čísel a počítání do 102, ovládání tužky, koordinace ruka-oko a trvalé soustředění – stejné základy jemné motoriky, které podporují rané psaní. Vybarvování hotového obrázku je kreativní odměnou."
+          },
+          {
+            "q": "Co je zajímavého o hřišti se skluzavkou?",
+            "a": "Nejvyšší stálá skluzavka na hřišti na světě se táhne přes 30 metrů – zhruba stejně vysoká jako desetipatrová budova! Děti objevují taková fakta při skládání puntíků ze hry Slide Playground."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Pokud je houpačka králem hřiště, skluzavka je velmi blízko druhému místu — je na tom něco neodolatelného, když se vyšplháte nahoru, posadíte se a necháte gravitaci udělat zbytek. Tento puzzle s 102 tečkami vykresluje vysokou, klasickou skluzavku na hřišti od žebříku vzadu po zakřivenou rampu vpředu. Má více teček než náš nejjednodušší pracovní list na hřišti, takže odměňuje trochu extra trpělivosti. Najděte tečku 1 a pojďme postavit něco, co stojí za to vyšplhat.",
+          "sections": [
+            {
+              "range": "1–20",
+              "title": "Žebřík",
+              "learn": "Začněte na tečce 1 a spojte ji s tečkou 20, abyste vykreslili vysoký žebřík, který vede na plošinu skluzavky. Tato část je většinou rovná, s rovnoměrně rozloženými čarami, což ji činí dobrým zahřátím pro stabilní, kontrolované tahy tužkou před zakřiveními, která přicházejí.",
+              "fact": "Žebříky na hřišti jsou postaveny s příčkami umístěnými dostatečně blízko, aby noha mladého dítěte mohla bezpečně dosáhnout na další — obvykle ne více než asi 30 centimetrů od sebe, mnohem blíže než příčky na domácím žebříku."
+            },
+            {
+              "range": "21–40",
+              "title": "Plošina",
+              "learn": "Pokračujte od tečky 21 k tečce 40, abyste vykreslili plochou plošinu nahoře, kde se lezci zastaví před sklouznutím dolů. Děti zde cvičí spojování horizontálních a vertikálních čar v čistých pravých úhlech — dobrá praxe pro strukturu a proporce.",
+              "fact": "Většina plošin na hřišti je postavena s ochrannými zábradlími na alespoň třech stranách, takže pouze vstup na skluzavku je otevřený. Tento designový detail byl sám o sobě přičítán významnému snížení pádů z plošiny od doby, kdy se stal standardem v bezpečnostních pokynech pro hřiště."
+            },
+            {
+              "range": "41–60",
+              "title": "Vrchol skluzavky",
+              "learn": "Sledujte tečky 41 až 60, abyste vytvořili zakřivený okraj, kde se plošina setkává se samotnou skluzavkou — přesně tam, kde zábava začíná. Toto je těsnější zakřivení, než se zdá, takže podpořte pomalou, uváženou ruku spíše než rychlý tah.",
+              "fact": "První zakřivení na vrcholu skluzavky se nazývá 'startovní zakřivení' a je specificky nakloněno, aby kontrolovalo, jak rychle jezdec zrychluje, místo aby je spustilo přímo dolů."
+            },
+            {
+              "range": "61–85",
+              "title": "Dlouhá skluzavka",
+              "learn": "Spojte tečky 61 až 85, abyste vykreslili dlouhou, širokou skluzavku. Toto je největší a nejuspokojivější část puzzle — podpořte jeden hladký, kontinuální tah spíše než několik krátkých, protože to dává skluzavce pocit rychlosti.",
+              "fact": "Moderní skluzavky na hřištích jsou téměř vždy vyrobeny z rotačně tvarovaného plastu namísto kovu. Kovové skluzavky se mohou v přímém letním slunci stát nebezpečně horkými, což je jeden z hlavních důvodů, proč hřiště v 80. a 90. letech většinou změnila materiály."
+            },
+            {
+              "range": "86–102",
+              "title": "Základna a přistání",
+              "learn": "Dokončete spojováním teček 86 až 102, abyste vykreslili základnu skluzavky a zem, kde jezdci přistávají. Sedmnáct teček zbývá — sebevědomé, pevné dokončení zde dokončuje celou strukturu.",
+              "fact": "Stejně jako houpačky, skluzavky sedí na speciálně navrženém bezpečnostním povrchu — obvykle gumě, písku nebo dřevěných štěpkách — navrženém tak, aby mnohem lépe absorboval dopad přistání než obyčejná tráva nebo beton."
+            }
+          ],
+          "outro": "Skvělá práce — vaše skluzavka je připravena pro lezce! Vybarvěte ji jasnými barvami hřiště, nebo navrhněte svůj vlastní divoký vzor na skluzavce. Připraveni na něco úplně jiného? Zkuste naši <a href=\"/dinosaurs/\">tisknutelnou sbírku dinosaurů dot to dot</a> příště.",
+          "color_schemes": []
+        }
+      }
+    },
+    {
+      "slug": "seesaw-playground-dot-to-dot-puzzle",
+      "header": {
+        "title": "Tisknutelná tečka k houpačce — Vyvážení 68 teček",
+        "meta_description": "Houpací prkno nebo houpací lavice, pohyb zůstává nahoru a dolů. Vyvážte 68 číslovaných teček v tomto zdarma dostupném tisku pro děti ve věku 5–9 let.",
+        "og": {
+          "title": "Tisknutelná tečka k houpačce — Vyvážení 68 teček",
+          "description": "Houpací prkno nebo houpací lavice, pohyb zůstává nahoru a dolů. Vyvážte 68 číslovaných teček v tomto zdarma dostupném tisku pro děti ve věku 5–9 let.",
+          "image_alt": "Dva přátelé vyvažující se na houpacím prkně, scéna vytvořená 68 tisknutelnými tečkami"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Houpací prkno na hřišti",
+          "description": "Houpací prkno nebo houpací lavice, pohyb zůstává nahoru a dolů. Vyvážte 68 číslovaných teček v tomto zdarma dostupném tisku pro děti ve věku 5–9 let.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
+      },
+      "body": {
+        "h1": "Seesaw Dot to Dot Printable — Vyvážení 68 teček",
+        "name": "Houpací prkno na hřišti",
+        "tagline": "Nahoru, dolů a všude kolem!",
+        "description": "Spojte 68 teček, abyste odhalili dva přátele vyvažující se na klasickém dětském hřišti. S počtem teček mezi našimi nejjednoduššími a nejtěžšími hádankami na hřišti je to solidní střední krok pro děti, které si budují důvěru v sekvencování čísel.",
+        "fun_fact": "Houpací prkna se někdy v americké angličtině nazývají 'teeter-totters' — obě jména popisují stejný jednoduchý pohyb nahoru a dolů, který bavil děti po generace.",
+        "faqs": [
+          {
+            "q": "Kolik teček má skládačka typu „tečka po tečce“ na hřišti Seesaw Playground?",
+            "a": "Tisknutelný obrázek houpačky s technikou spojování teček má 68 očíslovaných teček. Díky tomu je to snadná až středně těžká skládačka, nejvhodnější pro věk 5–8 let (mateřská školka až druhá třída). Děti spojují tečky podle číselného pořadí, aby odhalily hotový obrázek houpačky, a poté ho vybarví."
+          },
+          {
+            "q": "Je možné vytisknout si vzorek hřiště Seesaw Playground zdarma?",
+            "a": "Ano. Pracovní list Seesaw Playground si můžete stáhnout 100% zdarma z DotToDotFreePrintables.com – není vyžadován žádný účet, e-mail ani platba. Stáhne se okamžitě jako PDF soubor připravený k tisku v orientaci na výšku i na šířku, o velikosti papíru US Letter nebo A4."
+          },
+          {
+            "q": "Pro jaký věk je pracovní list s spojováním teček na hřišti Seesaw Playground nejvhodnější?",
+            "a": "S 68 body je puzzle Seesaw Playground nejvhodnější pro děti ve věku 5–8 let (od mateřské školy až po druhou třídu). Mladší děti si ho mohou užít s lehkou pomocí dospělého při počítání, zatímco sebevědomější počítadla ho mohou složit samostatně a procvičovat si číselnou řadu až do 68."
+          },
+          {
+            "q": "Jaké dovednosti učí tečková hádanka Seesaw Playground?",
+            "a": "Spojováním 68 teček na hřišti Seesaw Playground se rozvíjí rozpoznávání čísel a počítání do 68, ovládání tužky, koordinace ruka-oko a trvalé soustředění – stejné základy jemné motoriky, které podporují rané psaní. Vybarvování hotového obrázku je kreativní odměnou."
+          },
+          {
+            "q": "Co je zajímavého o houpacím hřišti?",
+            "a": "Houpačky se v americké angličtině někdy nazývají „teeter-totters“ – oba názvy popisují stejný jednoduchý pohyb nahoru a dolů, který baví děti po generace. Děti objevují podobná fakta při skládání teček po tečkách na hřišti Seesaw Playground."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Do houpacího prkna je zabudováno malé množství týmové práce — funguje to pouze tehdy, když oba jezdci spolupracují, odrážejí se a střídavě stoupají. Tato hádanka s 68 tečkami čerpá tuto vzájemnou rovnováhu od základů, nejprve prkno, nakonec jezdci. Je to příjemný krok v délce od našeho nejjednoduššího listu na hřišti, aniž by to sklouzlo do odborného území. Najděte tečku 1 a pojďme to vyvážit.",
+          "sections": [
+            {
+              "range": "1–14",
+              "title": "Otočný bod",
+              "learn": "Začněte na tečce 1 a spojte ji s tečkou 14, abyste nakreslili robustní centrální podporu, na které se celé houpací prkno vyvažuje. Tyto čáry jsou krátké a šikmé, což dětem poskytuje praxi při vytváření pevného základního tvaru, než se na něj něco dalšího přidá.",
+              "fact": "Centrální podpora houpacího prkna se nazývá otočný bod — stejné slovo používají inženýři pro pivotní bod jakéhokoli páky. Houpací prkno je technicky jedním z nejjednodušších strojů, které existují: páka vyvážená na pevném bodě."
+            },
+            {
+              "range": "15–28",
+              "title": "Prkno",
+              "learn": "Pokračujte od tečky 15 k tečce 28, abyste nakreslili dlouhé prkno, které spočívá na otočném bodě. Děti cvičí kreslení jedné souvislé, mírně skloněné čáry — dobrá příprava na stabilní ovládání ruky při delších tahách.",
+              "fact": "Starší houpací prkna byla často vyrobena z jednoho dřevěného prkna, což je přesně to, odkud jízda dostala své jméno — 'vidět' a 'pila' odrážejí pohyb tam a zpět staré dvoučlenné pily táhnoucí se přes kládu."
+            },
+            {
+              "range": "29–42",
+              "title": "Rukojeti",
+              "learn": "Sledujte tečky 29 až 42, abyste přidali rukojeti na každém konci prkna. Tato část má děti pracující na obou stranách hádanky střídavě, cvičící symetrii, když vytvářejí odpovídající tvar na každém konci.",
+              "fact": "Rukojeti nebyly vždy standardem v návrzích houpacích prken. Rané verze na hřišti měly jezdce, kteří se drželi samotného prkna, což je částečně důvod, proč moderní bezpečnostní standardy nyní požadují specializované rukojeti na obou koncích."
+            },
+            {
+              "range": "43–56",
+              "title": "První jezdec",
+              "learn": "Spojte tečky 43 až 56, abyste nakreslili dítě sedící na zvednutém konci houpacího prkna. Tady začíná scéna ožívat — připomeňte dětem, aby se podívaly dopředu na další tečku, než zvednou tužku, aby postava vyšla hladce.",
+              "fact": "Jízda na houpacím prkně je skutečně užitečné cvičení rovnováhy. Přesun váhy, abyste zůstali vzpřímení, když se prkno naklání, aktivuje stejné svaly jádra a systém rovnováhy vnitřního ucha, které se používají v gymnastice a tanci."
+            },
+            {
+              "range": "57–68",
+              "title": "Druhý jezdec a země",
+              "learn": "Dokončete spojováním teček 57 až 68, abyste nakreslili druhé dítě na sníženém konci a zem pod houpačkou. Už jen dvanáct teček — pečlivé, sebevědomé dokončení zde uzavírá celou scénu.",
+              "fact": "Některá moderní hřiště nahradila tradiční houpačku pro dva jezdce verzemi na pružinách, které umožňují jednomu dítěti houpat se samo, i když klasická otočná houpačka pro dva je stále nejběžnějším designem na celém světě."
+            }
+          ],
+          "outro": "Dobře uděláno — vaše houpačka je dokonale vyvážená! Vybarvěte dva jezdce svými oblíbenými oblečeními, nebo přidejte hřiště plné přátel čekajících na svou řadu. Zajímá vás, co je pod mořem místo slunce? Potápějte se do našich <a href=\"/ocean/\">tisknutelných teček k moři</a> dál.",
+          "color_schemes": []
+        }
+      }
+    },
+    {
+      "slug": "roller-coaster-playground-dot-to-dot-puzzle",
+      "header": {
+        "title": "Extrémní horská dráha tečka k tečce — 133 teček, zdarma.",
+        "meta_description": "Projeďte nejdelší sekvencí na hřišti skrze 133 zákrut a zatáček. Tento zdarma PDF horské dráhy vyzývá soustředěné fanoušky hádanek ve věku 8–12 let.",
+        "og": {
+          "title": "Extrémní horská dráha tečka k tečce — 133 teček, zdarma.",
+          "description": "Projeďte nejdelší sekvencí na hřišti skrze 133 zákrut a zatáček. Tento zdarma PDF horské dráhy vyzývá soustředěné fanoušky hádanek ve věku 8–12 let.",
+          "image_alt": "Smyčková horská dráha vinoucí se skrze 133 teček, naše nejextrémnější tisknutelná."
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Dětské hřiště horské dráhy.",
+          "description": "Projeďte nejdelší sekvencí na hřišti skrze 133 zákrut a zatáček. Tento zdarma PDF horské dráhy vyzývá soustředěné fanoušky hádanek ve věku 8–12 let.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
+      },
+      "body": {
+        "h1": "Extrémní horská dráha tečka k tečce — 133 teček, zdarma.",
+        "name": "Dětské hřiště horské dráhy.",
+        "tagline": "Vystoupejte na dráhu, pronásledujte pád!",
+        "description": "Spojte 133 teček, abyste odhalili celou horskou dráhu na hřišti, včetně smyček. Toto je náš nejtěžší hádanka na hřišti, určená pro děti, které už zvládly jednodušší listy a chtějí skutečnou zkoušku trpělivosti a kontroly tužky.",
+        "fun_fact": "První smyčková horská dráha byla otevřena v Paříži v roce 1846. Cestující si stěžovali, že je to bolí na krku, a inženýrům trvalo téměř 50 let, než navrhli smyčku, která se cítila hladce místo trestající.",
+        "faqs": [
+          {
+            "q": "Kolik teček má skládačka typu „tečka po tečce“ na hřišti Roller Coaster Playground?",
+            "a": "Tisknutelný obrázek hřiště s horskou dráhou, který se provádí metodou spojování teček, má 133 očíslovaných teček. Díky tomu je to náročná skládačka, nejvhodnější pro věk 7–12 let (od 2. třídy). Děti spojují tečky podle číselného pořadí, aby odhalily hotový obrázek hřiště s horskou dráhou, a poté ho vybarví."
+          },
+          {
+            "q": "Je možné vytisknout si obrázek hřiště na horské dráze pomocí tečky zdarma?",
+            "a": "Ano. Pracovní list s motivem hřiště na horské dráze si můžete stáhnout zcela zdarma z DotToDotFreePrintables.com – není vyžadován žádný účet, e-mail ani platba. Stáhne se okamžitě jako PDF soubor připravený k tisku v orientaci na výšku i na šířku, o velikosti US Letter nebo A4."
+          },
+          {
+            "q": "Pro jaký věk je pracovní list s pojmenováním „Hřiště na horské dráze“ nejvhodnější?",
+            "a": "S 133 tečkami je puzzle Roller Coaster Playground nejvhodnější pro děti ve věku 7–12 let (od 2. třídy výše). Mladší děti si ho mohou užít s lehkou pomocí dospělého při počítání, zatímco sebejistější počítající děti ho mohou vyplnit samostatně a procvičovat si číselnou řadu až do 133."
+          },
+          {
+            "q": "Jaké dovednosti učí tečkovaná hádanka s motivem tečky na hřišti Roller Coaster Playground?",
+            "a": "Spojováním 133 teček na hřišti Roller Coaster Playground se rozvíjí rozpoznávání čísel a počítání do 133, ovládání tužky, koordinace ruka-oko a trvalé soustředění – stejné základy jemné motoriky, které podporují rané psaní. Vybarvování hotového obrázku je kreativní odměnou."
+          },
+          {
+            "q": "Co je zajímavého o hřišti s horskou dráhou?",
+            "a": "První smyčková horská dráha byla otevřena v Paříži v roce 1846. Jezdci si stěžovali, že je z ní bolí krk, a inženýrům trvalo téměř 50 let, než navrhli smyčku, která by byla plynulá, a ne namáhavá. Děti objevují taková fakta při skládání teček do teček na hřišti horské dráhy."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Šest sekcí. Sto třicet tři teček. Toto je největší hádanka na hřišti v sadě a nedělá si iluze — trať stoupá, klesá, smyčkuje a nakonec se vrací zpět na platformu, kde začala. Děti, které už dokončily listy s houpačkou, skluzavkou nebo houpačkou, rozpoznají formát, ale samotná délka zde mění pocit celého díla. Pomalu, stabilně pracující tužka vyhrává den. Najděte tečku 1 na základně prvního kopce a pojďme postavit něco, co stojí za to křičet.",
+          "sections": [
+            {
+              "range": "1–22",
+              "title": "Zvedací kopec",
+              "learn": "Začněte na tečce 1 a pracujte až k tečce 22, abyste nakreslili dlouhý, strmý výstup, který vytáhne vozík horské dráhy na jeho nejvyšší bod. Tyto čáry běží v jednom stabilním diagonálním směru, což dělá z této části dobrou přípravu na budování rytmu, než se hádanka stane složitější.",
+              "fact": "Většina horských drah používá řetězové výtahy k vytahování vozíku na ten první kopec — obvykle je to jediná část jízdy poháněná motorem. Všechno, co se děje po vrcholu toho kopce, běží čistě na gravitaci a hybnosti."
+            },
+            {
+              "range": "23–44",
+              "title": "První pád",
+              "learn": "Pokračujte od tečky 23 k tečce 44, abyste sledovali strmý pád dolů z vrcholu. Úhel zde je ostřejší než kdekoli jinde na listu, takže podpořte pevnou, sebevědomou ruku místo shaky, váhavé — rychlý pád potřebuje rychlou, jistou čáru.",
+              "fact": "První pád na horské dráze je téměř vždy nejvyšší a nejstrmější z celé jízdy. Návrháři drah ho umístí brzy záměrně, protože je to obvykle místo, kde trať dosahuje své nejvyšší rychlosti."
+            },
+            {
+              "range": "45–66",
+              "title": "Smyčka",
+              "learn": "Sledujte tečky 45 až 66, abyste vytvořili velkou smyčku v srdci jízdy. Tato část se zakřivuje zpět na sebe, což je složitější než přímý výstup nebo pád — jděte pomalu a zkontrolujte další tečku, než se zavážete k každé křivce.",
+              "fact": "Rané loopingové horské dráhy používaly dokonale kruhový smyčkový tvar, a jezdci často stěžovali na napětí v krku z náhlé změny síly. Moderní smyčky používají místo toho tvar kapky, který se při stejné rychlosti cítí mnohem jemněji na těle."
+            },
+            {
+              "range": "67–88",
+              "title": "Camelback Hills",
+              "learn": "Spojte body 67 a 88, abyste nakreslili menší zvlněné kopce, které následují smyčku. Tyto hrboly přicházejí jeden za druhým v rychlém sledu, což dětem dává příležitost procvičit si krátké, kontrolované tahy místo jednoho dlouhého.",
+              "fact": "Tyto menší vzestupy se někdy nazývají 'camelback' kopce, protože série za sebou připomíná hrby velblouda. Jezdci často cítí krátké vyzdvižení ze sedadla při překonávání každého z nich — skutečný, i když malý, okamžik beztíže."
+            },
+            {
+              "range": "89–110",
+              "title": "Poslední zatáčka",
+              "learn": "Pracujte od bodu 89 do bodu 110, abyste vytvořili širokou křivku, která přivádí trať zpět k stanici. Tento ohyb je široký a pozvolný, příjemná změna tempa po těsnější smyčce dříve v hádance.",
+              "fact": "Designéři horských drah nazývají tento úsek 'návratový běh.' Je postaven široce a nakloněně, aby vůz mohl udržet svou rychlost při zatáčce bez potřeby brzd, což šetří skutečné brzdění až na úplný konec."
+            },
+            {
+              "range": "111–133",
+              "title": "Stanice a nástupiště",
+              "learn": "Dokončete spojení bodů 111 až 133, abyste nakreslili nástupiště, kde jízda začala a skončila. Ještě dvacet tři bodů na největší hádanku v dětském hřišti — pomalé, pečlivé dokončení zde je skutečným znakem vytrvalosti.",
+              "fact": "Brzdná sekce na konci skutečné horské dráhy je jednou z nejvíce inženýrsky zpracovaných částí. Musí hladce přivést vůz plný jezdců z plné rychlosti do úplného zastavení, aby nikdo nebyl otřesen."
+            }
+          ],
+          "outro": "To je celá jízda, od začátku do konce! Vybarvěte trať v odvážných, jasných smyčkách a dejte horskému vozu jakýkoli divoký nátěr, který se vám líbí. Pokud se vám 133 bodů zdálo jako vzrušení a chcete ještě větší výzvu, podívejte se na naše <a href=\"/usa-250/\">extrémní tiskoviny s body</a> příště.",
+          "color_schemes": []
+        }
+      }
+    },
+    {
+      "slug": "monkey-bar-playground-dot-to-dot-puzzle",
+      "header": {
+        "title": "Hrazdy spojte tečky: Houpejte se přes 94 teček",
+        "meta_description": "Prolézačky budují úchop a koordinaci na dětském hřišti; tato verze s 94 body buduje kontrolu tužky. Stáhněte si zdarma PDF pro děti ve věku 5–9 let.",
+        "og": {
+          "title": "Hrazdy spojte tečky: Houpejte se přes 94 teček",
+          "description": "Prolézačky budují úchop a koordinaci na dětském hřišti; tato verze s 94 body buduje kontrolu tužky. Stáhněte si zdarma PDF pro děti ve věku 5–9 let.",
+          "image_alt": "Dětské hřiště s prolézačkami rámované příčkami napříč 94 tisknutelnými body"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Dětské hřiště s prolézačkami",
+          "description": "Prolézačky budují úchop a koordinaci na dětském hřišti; tato verze s 94 body buduje kontrolu tužky. Stáhněte si zdarma PDF pro děti ve věku 5–9 let.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
+      },
+      "body": {
+        "h1": "Dětské hřiště Dot to Dot: Prolézejte 94 body",
+        "name": "Dětské hřiště s prolézačkami",
+        "tagline": "Houpání, šplhání a dosažení druhé strany!",
+        "description": "Spojte 94 bodů, abyste odhalili zábavnou sadu prolézaček. Tato středně obtížná hádanka na dětském hřišti je skvělou výzvou pro děti, které procvičují sekvencování čísel, kontrolu tužky a trpělivost.",
+        "fun_fact": "Prolézačky se staly populárním vybavením na dětských hřištích na počátku 20. století a pomáhají dětem procvičovat sílu úchopu, rovnováhu a koordinaci horní části těla.",
+        "faqs": [
+          {
+            "q": "Kolik teček má skládačka typu „tečka po tečce“ od Monkey Bars Playground?",
+            "a": "Tisknutelný obrázek hřiště s opičími hrazdami metodou spojování teček má 94 očíslovaných teček. Díky tomu je to středně velká skládačka, nejvhodnější pro věk 6–9 let (1. až 3. třída). Děti spojují tečky podle číselného pořadí, aby odhalily hotový obrázek hřiště s opičí hrazdou, a poté ho vybarví."
+          },
+          {
+            "q": "Je možné vytisknout si vzorek Monkey Bars Playground zdarma?",
+            "a": "Ano. Pracovní list Monkey Bars Playground si můžete stáhnout 100% zdarma z DotToDotFreePrintables.com – není vyžadován žádný účet, e-mail ani platba. Stáhne se okamžitě jako PDF soubor připravený k tisku v orientaci na výšku i na šířku, o velikosti US Letter nebo A4."
+          },
+          {
+            "q": "Pro jaký věk je pracovní list s pojmenováním Monkey Bars Playground nejvhodnější?",
+            "a": "S 94 tečkami je hádanka Monkey Bars Playground nejvhodnější pro děti ve věku 6–9 let (1. až 3. třída). Mladší děti si ji mohou užít s lehkou pomocí dospělého při počítání, zatímco sebejistější počítající děti ji mohou složit samostatně a procvičovat si číselnou řadu až do 94."
+          },
+          {
+            "q": "Jaké dovednosti učí skládačka typu tečka po tečce na hřišti Monkey Bars Playground?",
+            "a": "Spojováním 94 teček na hřišti Monkey Bars Playground se rozvíjí rozpoznávání čísel a počítání do 94, ovládání tužky, koordinace ruka-oko a trvalé soustředění – stejné základy jemné motoriky, které podporují rané psaní. Vybarvování hotového obrázku je kreativní odměnou."
+          },
+          {
+            "q": "Co je zajímavého o hřišti s prolézačkami?",
+            "a": "Hrazdy se staly oblíbeným vybavením hřišť na počátku 20. století a pomáhají dětem procvičovat sílu úchopu, rovnováhu a koordinaci horní části těla. Děti objevují tato fakta při skládání puntíků z hry Monkey Bars Playground."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Prolézačky jsou ultimátním testem úchopu a odvahy na dětském hřišti — dosáhnout, houpat se, pustit se, znovu dosáhnout, až na druhou stranu. Tato hádanka s 94 body buduje celou strukturu od základů: nejprve pevný rám, poté příčka po příčce, až se lezec houpe přes vrchol. Najděte bod 1 na základně a pojďme stavět.",
+          "sections": [
+            {
+              "range": "1–18",
+              "title": "Podpůrný rám",
+              "learn": "Začněte na tečce 1 a spojte ji s tečkou 18, abyste nakreslili vzpřímené sloupky, které drží celou strukturu stabilní. Tyto šikmé čáry tvoří páteř rámu, což dětem poskytuje praxi s pevným, rovnoměrně rozloženým tahem, než začnou příčky.",
+              "fact": "Rámy hrazd jsou obvykle zakotveny hluboko v betonových základech pod úrovní terénu, protože celá struktura musí unést plnou hmotnost dítěte při houpačce bez kolébání."
+            },
+            {
+              "range": "19–38",
+              "title": "Horní lišta",
+              "learn": "Pokračujte od tečky 19 k tečce 38, abyste nakreslili dlouhou horizontální lištu, která běží podél vrchu. Tato část je většinou jedna stabilní, rovná čára — skvělá praxe pro udržení přímého směru na delší vzdálenosti bez odklonění.",
+              "fact": "Horní lišta na většině souprav hrazd je umístěna těsně mimo dosah stojícího dospělého, což je přesně ten bod — je veliká tak, aby průměrné dítě potřebovalo malý skok, aby se chytilo první příčky."
+            },
+            {
+              "range": "39–58",
+              "title": "Příčky",
+              "learn": "Sledujte tečky 39 až 58, abyste přidali rovnoměrně rozložené příčky, které lezci uchopí, když se houpačkou přehoupnou. Každá příčka je krátké, oddělené spojení, takže povzbuďte děti, aby pečlivě zkontrolovaly každé číslo, místo aby nechaly sousední příčky rozmazané.",
+              "fact": "Příčky na hrazdách jsou tradičně rozestaveny tak, aby dítě muselo dosáhnout plným prodloužením paže k té další — dost blízko, aby bylo dosažitelné, dost daleko, aby vybudovalo skutečnou sílu úchopu a ramen."
+            },
+            {
+              "range": "59–76",
+              "title": "Lezec",
+              "learn": "Spojte tečky 59 až 76, abyste nakreslili postavu dítěte uprostřed houpačky, s jednou rukou nataženou k další příčce. Tady se hádanka oživuje — připomeňte dětem, aby se dívaly dopředu na další tečku, aby pozice při houpačce byla hladká, nikoli zubatá.",
+              "fact": "Houpačka ruka přes ruku přes hrazdy se někdy nazývá 'brachiating', stejné slovo, které vědci používají pro to, jak se opice pohybují stromy houpačkou z větve na větev."
+            },
+            {
+              "range": "77–94",
+              "title": "Půda a přistávací zóna",
+              "learn": "Dokončete tím, že spojíte tečky 77 až 94, abyste nakreslili zem pod tyčemi a přistávací oblast na vzdáleném konci. Jen osmnáct teček do cíle — stabilní, sebevědomé zakončení dokončuje celé překonání.",
+              "fact": "Stejně jako houpačky a skluzavky, hrazdy jsou téměř vždy instalovány na měkkém bezpečnostním povrchu, jako jsou gumové dlaždice, písek nebo dřevěné štěpky, aby tlumily případný pád z příček."
+            }
+          ],
+          "outro": "Dobrá práce — vaše hrazdy jsou připraveny k překonání! Vybarvěte oblečení lezce, přidejte pár přátel čekajících na svůj řad, nebo navrhněte celou herní strukturu kolem toho. Pro další praktickou výzvu prozkoumejte více <a href=\"/playgrounds/\">tisknutelných obrázků spojte tečky na hřišti</a>.",
+          "color_schemes": []
+        }
+      }
+    }
+  ]
+}

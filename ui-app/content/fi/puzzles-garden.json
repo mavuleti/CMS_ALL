@@ -1,119 +1,300 @@
-[
-  {
-    "slug": "garden-gloves-dot-to-dot-puzzle",
-    "name": "Puutarhakäsineet",
-    "seoH1": "Puutarhahanskat Yhdistä Pisteet — Ilmainen 54-Pisteen Aloitussivu",
-    "tagline": "Valmiina pieneen puutarhaseikkailuun!",
-    "description": "Yhdistä 54 pistettä paljastaaksesi puutarhahanskat. Tämä helppo tulostettava palapeli auttaa nuoria oppijoita harjoittelemaan numerojärjestystä, kynän hallintaa ja keskittymistä.",
-    "seoDescription": "Puutarhahanskat suojaavat pieniä käsiä dirt ja piikikkäiltä kasveilta. Yhdistä 54 pistettä tässä ilmaisessa tulostettavassa työlehdessä, joka on tarkoitettu 4–8-vuotiaille lapsille.",
-    "funFact": "Puutarhakäsineet suojaavat käsiä naarmuilta, lialta ja piikikkäiltä kasveilta työskennellessäsi maaperässä.",
-    "seoImageAlt": "Pari puutarhahanskoja, jotka on ommeltu yhteen 54 numeroidulla pisteellä, ilmainen aloitustyölehti",
-    "dotGuide": {
-      "intro": "Jokainen puutarhuri tarvitsee hyvät hanskat ennen kuin koskettaa maata, ja tämä 54 pisteen palapeli piirtää sopivan parin – yhden kummallekin kädelle. Se on lyhyt, helppokäyttöinen palapeli, joka on jaettu neljään osioon, ja se on helppo ratkaista yhdeltä istumalta. Työstä läpi vasen hansikas, sitten oikea ja lopuksi ne yhdistävät hihansuut. Etsi piste 1 sormenpäästä ja peitetään nämä kädet.",
-      "sections": [
-        {
-          "range": "1–14",
-          "title": "Vasen hansikas",
-          "learn": "Aloita pisteestä 1 ja yhdistä se pisteeseen 14 piirtääksesi vasemman hansikkaan ääriviivat sormet mukaan lukien. Pienet sormet ovat hankalan lyhyitä, joten kannusta varovaisiin ja kiireettömiin vetoihin yhden nopean pyyhkäisyn sijaan.",
-          "fact": "Puutarhakäsineet on yleensä tehty tiukasti sormien ympärille istuviksi, jotta puutarhuri voi silti poimia pieniä siemeniä tai kitkeä ohuita rikkaruohoja ilman, että käsine on tiellä."
-        },
-        {
-          "range": "15–27",
-          "title": "Oikea hansikas",
-          "learn": "Jatka pisteestä 15 pisteeseen 27 piirtääksesi sopivan oikean hansikkaan. Koska se on ensimmäisen hansikkaan peilikuva, tämä osa on hyvä tilaisuus verrata kahta muotoa ja tarkistaa, että ne ovat linjassa ennen kuin jatkat.",
-          "fact": "Useimmat puutarhakäsineet on valmistettu puuvillan tai nailonin sekoituksesta, ja kämmenessä ja sormissa on kumi- tai lateksipinnoite. Pinnoite auttaa pitämään työkalut hyvin ja estää veden ja lian imeytymisen suoraan käsineiden läpi."
-        },
-        {
-          "range": "28–41",
-          "title": "Käsiraudat",
-          "learn": "Lisää leveät hihansuut jokaisen hansikkaan tyveen piirtämällä pisteet 28–41. Nämä hihansuut levenevät hieman leveämmiksi kuin muu hansikas, joten etene hitaasti kaaren ympäri.",
-          "fact": "Puutarhakäsineiden leveät hihansuut eivät ole vain ulkonäköön liittyviä – ne estävät lian, piikkien ja ryömivien hyönteisten pääsyn sisään puutarhurin kaivaessa tai leikatessa."
-        },
-        {
-          "range": "42–54",
-          "title": "Viimeistelyompelu",
-          "learn": "Viimeistele yhdistämällä pisteet 42–54 lisätäksesi saumaviivat ja lopulliset yksityiskohdat molempiin käsineisiin. Jäljellä on kolmetoista pistettä – tasainen ja huolellinen viimeistely tekee käsineistä todella valmiit.",
-          "fact": "Vahvistetut ompeleet sormissa ja kämmenessä tekevät hyvistä puutarhakäsineistä kestävät koko kasvukauden sen sijaan, että ne kuluisivat loppuun muutaman viikon kaivamisen jälkeen."
+{
+  "collection": {
+    "header": {
+      "title": "Puutarhan pisteestä pisteeseen tulostettava lapsille",
+      "meta_description": "Lataa ilmaisia puutarhan pisteestä pisteeseen tulostettavia tehtäviä käsineineen ja työkaluineen. Tulostusvalmis PDF.",
+      "og": {
+        "title": "Ilmaisia puutarhan pisteestä pisteeseen -pulmia lapsille",
+        "description": "Ilmaisia tulostettavia puutarhatehtäviä lapsille.",
+        "image": "/images/garden-gloves-puzzle.webp"
+      },
+      "json_ld": {
+        "type": "CollectionPage",
+        "name": "Puutarha",
+        "description": "Ryhdy kasvamaan! Yhdistä pisteet paljastaaksesi puutarhahanskat, istutuslapiot ja kätevät puutarhatyökalut. Kaikki tehtävät ovat ilmaisia ladata ja tulostaa – tiliä ei tarvita.",
+        "image": "/images/garden-gloves-puzzle.webp",
+        "main_entity": {
+          "type": "ItemList",
+          "item_source": "puzzles"
         }
-      ],
-      "outro": "Hienoa työtä – puutarhahanskasi ovat valmiit töihin! Väritä ne suosikkikuviollasi tai pidä ne klassisessa vihreän ja ruskean sävyssä kuten oikeatkin. Oletko valmis kaivautumaan hieman syvemmälle? Kokeile <a href=\"/\">pisteestä pisteeseen -tulostettavia tehtäviämme</a> saadaksesi lisää ilmaisia pulmia."
+      },
+      "breadcrumb_json_ld": {
+        "type": "BreadcrumbList",
+        "items": [
+          {
+            "position": 1,
+            "name": "Home",
+            "path": "/"
+          },
+          {
+            "position": 2,
+            "name": "Puutarha",
+            "path": "/garden/"
+          }
+        ]
+      }
     },
-    "seoTitle": "Puutarhakäsineet pisteestä pisteeseen — ilmainen 54 pisteen tulostettava"
+    "body": {
+      "h1": "Puutarhan pisteestä pisteeseen tulostettavat materiaalit lapsille",
+      "name": "Puutarha",
+      "tagline": "Miksi lapset rakastavat puutarhan pisteestä pisteeseen -palapelejä",
+      "description": "Ryhdy kasvamaan! Yhdistä pisteet paljastaaksesi puutarhahanskat, istutuslapiot ja kätevät puutarhatyökalut. Kaikki tehtävät ovat ilmaisia ladata ja tulostaa – tiliä ei tarvita.",
+      "hero_image": "/images/garden-gloves-puzzle.webp",
+      "slug": "garden",
+      "faqs": [
+        {
+          "q": "Kuinka monta ilmaista puutarhan pisteestä pisteeseen tulostettavaa materiaalia on olemassa?",
+          "a": "Puutarha-kategoriassa on tällä hetkellä kolme ilmaista tulostettavaa yhdistä-tehtävää, joissa on 39–85 pistettä. Jokainen tehtävä latautuu välittömästi tulostusvalmiina PDF-tiedostona (Letter- tai A4-koko, pysty- tai vaakasuuntainen) ilman rekisteröitymistä."
+        },
+        {
+          "q": "Ovatko puutarhan pisteestä pisteeseen -palapelit tulostettavissa ilmaiseksi?",
+          "a": "Kyllä — kaikki kolme Garden-kokoelman palapeliä ovat täysin ilmaisia koti- ja luokkahuonekäyttöön. DotToDotFreePrintables.com-sivustolla ei koskaan vaadita tiliä, sähköpostiosoitetta tai maksua."
+        },
+        {
+          "q": "Minkä ikäisille puutarhapalapelit sopivat?",
+          "a": "Garden-malliston pistemäärät vaihtelevat 39:stä 85:een, joten se sopii noin 4–12-vuotiaille. Valitse esikoululaisille ja päiväkotilapsille pienempiä pistemääriä ja 2.–6.-luokkalaisille varmempia pistemääriä."
+        },
+        {
+          "q": "Mitä puutarha-aiheisia pisteestä pisteeseen -palapelejä on saatavilla?",
+          "a": "Kolme ilmaista puutarhatulostettavaa aihetta: Puutarhalapio (39 pistettä), Puutarhakäsineet (54 pistettä) ja Kottikärryt (85 pistettä). Ne sopivat hyvin yhteen kevätopetustuntien, kasviyksiköiden ja ulkoiluaiheisten teemojen kanssa."
+        }
+      ]
+    }
   },
-  {
-    "slug": "garden-trowel-dot-to-dot-puzzle",
-    "name": "Puutarhalapio",
-    "seoH1": "Puutarhalapio Yhdistä Pisteet: Vain 39 Pistettä, Ilmainen PDF",
-    "tagline": "Uppoudu pieneen puutarhahauskuuteen!",
-    "description": "Yhdistä 39 pistettä paljastaaksesi kätevän puutarhalapion. Tämä helppo tulostettava palapeli auttaa nuoria oppijoita harjoittelemaan numerojärjestystä, kynän hallintaa ja keskittymistä.",
-    "seoDescription": "Aloita varhaiset kynäharjoitukset 39 pisteen puutarhalapiolla. Ilmainen yhdistä pisteet PDF tarjoaa 4–7-vuotiaille lapsille lyhyen, saavutettavan aktiviteetin.",
-    "funFact": "Muovailuvaja on pieni käsityökalu, jota käytetään taimien istuttamiseen, pienten kuoppien kaivamiseen ja maan siirtämiseen.",
-    "seoImageAlt": "Käsilapio muotoutuu vain 39 numeroidusta pisteestä, aloittelijalle tulostettava esikatselu",
-    "dotGuide": {
-      "intro": "Muovailulapio on yksi puutarhavajan yksinkertaisimmista työkaluista, ja tämä 39 pisteen palapeli pitää asiat yhtä yksinkertaisina – kolme lyhyttä osiota ja muoto, jonka lapset tunnistavat heti. Aloita koverasta terästä, sitten kaulasta, joka yhdistää sen kahvaan, ja lopuksi itse kahvasta. Etsi piste 1 terän kärjestä ja aloitetaan kaivaminen.",
-      "sections": [
-        {
-          "range": "1–13",
-          "title": "Terä",
-          "learn": "Aloita pisteestä 1 ja yhdistä pisteeseen 13 piirtääksesi lastan kaarevan, terävän terän. Yhden reunan kaari on tässä hankalin osa, joten kannusta hitaaseen työhön nopean suoran viivan sijaan.",
-          "fact": "Istutuslastan terä on kaareva eikä litteä, joten sillä voi kaivaa maata reiästä yhdellä liikkeellä sen sijaan, että se tarvitsisi useita erillisiä kaivu- ja nostoliikkeitä kuten litteällä työkalulla."
+  "puzzles": [
+    {
+      "slug": "garden-gloves-dot-to-dot-puzzle",
+      "header": {
+        "title": "Puutarhakäsineet pisteestä pisteeseen — ilmainen 54 pisteen tulostettava",
+        "meta_description": "Puutarhahanskat suojaavat pieniä käsiä dirt ja piikikkäiltä kasveilta. Yhdistä 54 pistettä tässä ilmaisessa tulostettavassa työlehdessä, joka on tarkoitettu 4–8-vuotiaille lapsille.",
+        "og": {
+          "title": "Puutarhakäsineet pisteestä pisteeseen — ilmainen 54 pisteen tulostettava",
+          "description": "Puutarhahanskat suojaavat pieniä käsiä dirt ja piikikkäiltä kasveilta. Yhdistä 54 pistettä tässä ilmaisessa tulostettavassa työlehdessä, joka on tarkoitettu 4–8-vuotiaille lapsille.",
+          "image_alt": "Pari puutarhahanskoja, jotka on ommeltu yhteen 54 numeroidulla pisteellä, ilmainen aloitustyölehti"
         },
-        {
-          "range": "14–26",
-          "title": "Kaula",
-          "learn": "Jatka pisteestä 14 pisteeseen 26 piirtääksesi kapean kaulan, jossa terä kohtaa kahvan. Tämä on koko työkalun ohuin kohta, joten pidä viivat lähellä toisiaan ja hallittuina.",
-          "fact": "Hiertolastan kaula on yleensä koko työkalun vahvin osa, koska kaikki kaivamisesta tuleva työntö- ja vipuvoima kulkee juuri tämän kapean osan läpi."
-        },
-        {
-          "range": "27–39",
-          "title": "Kahva",
-          "learn": "Viimeistele yhdistämällä pisteet 27–39 piirtääksesi pyöreän kahvan, josta puutarhuri pitää kiinni kaivaessaan. Jäljellä on enää kolmetoista pistettä – luja ja varma viimeistely täydentää työkalun.",
-          "fact": "Muovailulapion kahvat on usein muotoiltu hieman leveämmiksi päistä, jotta työkalu ei lipsu puutarhurin kädestä, varsinkin kun kämmenet kastuvat työskennellessään märässä maaperässä."
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Puutarhakäsineet",
+          "description": "Puutarhahanskat suojaavat pieniä käsiä dirt ja piikikkäiltä kasveilta. Yhdistä 54 pistettä tässä ilmaisessa tulostettavassa työlehdessä, joka on tarkoitettu 4–8-vuotiaille lapsille.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
         }
-      ],
-      "outro": "Hienosti tehty – muurauslapio on valmis kaivamiseen! Värjää terä kiiltävän metallinharmaaksi ja anna kahvalle haluamasi kirkas väri. Jos pidit tästä, tutustu <a href=\"/dinosaurs/\">dinosaur pisteestä pisteeseen tulostettavaan</a> kokoelmaamme ja koe täysin erilainen kaivaminen."
-    },
-    "seoTitle": "Puutarhalapio pisteestä pisteeseen: vain 39 pistettä, ilmainen PDF"
-  },
-  {
-    "slug": "wheelbarrow-playground-dot-to-dot-puzzle",
-    "name": "Kottikärryjen leikkikenttä",
-    "seoH1": "Kärry Yhdistä Pisteet Tulostettava — 85 Pistettä Seurattavaksi",
-    "tagline": "Lataa se ja rullaa!",
-    "description": "Yhdistä 85 pistettä paljastaaksesi tukevan puutarhakärryn. Tämä keskitason palapeli on loistava harjoitus lapsille, jotka ovat hallinneet helpommat palapelit ja ovat valmiita pidempään ja yksityiskohtaisempaan kuvaan.",
-    "seoDescription": "Yhdistä 85 pistettä tukeviksi kottikärryiksi tässä ilmaisessa tulostettavassa, joka sopii 5–9-vuotiaille pidempää harjoitusta kaipaaville. Muinaiset kiinalaiset kottikärryt kuljettivat jopa sotilaita — tulosta PDF ja aloita numerointi ilman rekisteröitymistä. Tulostuu tarkasti 100 %:n mittakaavassa.",
-    "funFact": "Kärry keksittiin muinaisessa Kiinassa yli 2 000 vuotta sitten. Varhaiset versiot pystyivät kuljettamaan useita ihmisiä kerralla ja niitä käytettiin jopa sotilaiden siirtämiseen sodan aikana.",
-    "seoImageAlt": "Vankka puutarhakärry, joka on rullattu 85 pisteen yli tulostusvalmiissa PDF-puzzleissa",
-    "dotGuide": {
-      "intro": "Tämä puutarhakärrypalapeli koostuu 85 pisteestä ja neljästä osasta. Se on askel eteenpäin yksinkertaisista puutarhalevyistä, mutta silti helppo ratkaista yhdeltä istumalta. Työstä ensin pyörä, sitten tarjotin, runko ja jalat ja lopuksi kahvat. Etsi piste 1 pyörän etuosasta ja aloitetaan.",
-      "sections": [
-        {
-          "range": "1–21",
-          "title": "Pyörä",
-          "learn": "Aloita pisteestä 1 ja yhdistä se pisteeseen 21 piirtääksesi pyöreän pyörän kärryjen etuosaan. Pyöreät muodot vaativat hieman enemmän varovaisuutta kuin suorat viivat, joten kannusta hitaisiin, tasaisiin vetoihin, kun käyrä muodostuu.",
-          "fact": "Yksi etupyörä mahdollistaa kottikärryjen helpon kääntymisen ahtaissa tiloissa, minkä vuoksi puutarhurit suosivat tätä mallia edelleen kaksipyöräiseen kärryyn verrattuna siirtäessään multaa ja kasveja kukkapenkkien ympärillä."
-        },
-        {
-          "range": "22–43",
-          "title": "Tarjotin",
-          "learn": "Jatka pisteestä 22 pisteeseen 43 muotoillaksesi leveän, kaltevan tarjottimen, joka pitää sisällään kaiken, mitä kärryissä on. Tarjottimen kulmikkaat sivut estävät sitä kaatumasta, joten piirrä sivut huolellisesti, jotta saat aikaan kallistuksen.",
-          "fact": "Useimpien kottikärryjen tarjotin kapenee edestä ja levenee takaa. Tämä muoto estää raskaan, vinossa olevan kuorman liukumisen eteenpäin ja valumisen pyörän yli."
-        },
-        {
-          "range": "44–64",
-          "title": "Runko ja jalat",
-          "learn": "Työskentele pisteestä 44 pisteeseen 64 rakentaaksesi rungon tarjottimen alle ja kaksi jalkaa, jotka tukevat sitä lepotilassa. Nämä viivat ovat suorempia ja vakaampia, mukava vaihtelu kaarevan tarjotinosan jälkeen.",
-          "fact": "Kottikärryjen takana olevat kaksi jalkaa koskettavat maata vain, kun ne ovat pysäköityinä. Nosta kahvoja, niin kaikki paino siirtyy eteenpäin yhdelle pyörälle, mikä tekee täyden kuorman työntämisestä paljon helpompaa."
-        },
-        {
-          "range": "65–85",
-          "title": "Kahvat",
-          "learn": "Lopeta yhdistämällä pisteet 65–85 piirtääksesi kaksi kahvaa, joista puutarhuri pitää kiinni ohjatakseen ja nostaakseen kuormaa. Viimeisellä osuudella on jäljellä 21 pistettä – pidä viivat tasaisina ja viimeistele vahvana.",
-          "fact": "Pitkät kahvat toimivat vipuvarren tavoin. Niiden avulla yksi henkilö voi nostaa ja tasapainottaa kuorman, joka muuten olisi liian raskas tai hankala kantaa käsin – ja juuri siinä piilee kottikärryjen toiminnan salaisuus."
+      },
+      "body": {
+        "h1": "Puutarhahanskat Yhdistä Pisteet — Ilmainen 54-Pisteen Aloitussivu",
+        "name": "Puutarhakäsineet",
+        "tagline": "Valmiina pieneen puutarhaseikkailuun!",
+        "description": "Yhdistä 54 pistettä paljastaaksesi puutarhahanskat. Tämä helppo tulostettava palapeli auttaa nuoria oppijoita harjoittelemaan numerojärjestystä, kynän hallintaa ja keskittymistä.",
+        "fun_fact": "Puutarhakäsineet suojaavat käsiä naarmuilta, lialta ja piikikkäiltä kasveilta työskennellessäsi maaperässä.",
+        "faqs": [
+          {
+            "q": "Kuinka monta pistettä Puutarhakäsineet-pisteestä-pisteeseen -palapelissä on?",
+            "a": "Puutarhakäsineiden yhdistämispelissä on 54 numeroitua pistettä. Se tekee siitä helpon tai keskivaikean palapelin, joka sopii parhaiten 5–8-vuotiaille (esikoulusta 2. luokkaan). Lapset yhdistävät pisteet numerojärjestyksessä paljastaakseen valmiin puutarhakäsineiden kuvan ja värittävät sen sitten."
+          },
+          {
+            "q": "Onko Puutarhakäsineiden pisteestä pisteeseen tulostettava versio ilmainen?",
+            "a": "Kyllä. Puutarhakäsineet-työarkki on täysin ilmainen ladattavaksi DotToDotFreePrintables.com-sivustolta – ei tiliä, sähköpostiosoitetta tai maksua vaadita. Se latautuu välittömästi tulostusvalmiina PDF-tiedostona sekä pysty- että vaakasuunnassa, US Letter- tai A4-kokoiselle paperille."
+          },
+          {
+            "q": "Minkä ikäisille Puutarhakäsineiden yhdistämistehtävä sopii parhaiten?",
+            "a": "54 pisteen ansiosta Puutarhakäsineet-palapeli sopii parhaiten 5–8-vuotiaille (esikoulusta 2. luokkaan). Pienemmät lapset voivat nauttia siitä aikuisen kevyellä tuella, kun taas jo sujuvasti laskevat lapset voivat ratkaista sen itsenäisesti ja harjoitella numeroiden lukemista jopa 54 pisteeseen asti."
+          },
+          {
+            "q": "Mitä taitoja Puutarhakäsineet-pisteestä-pisteeseen -palapeli opettaa?",
+            "a": "Puutarhakäsineet-palapelin 54 pisteen yhdistäminen kehittää numeroiden tunnistusta ja laskemista 54:ään asti, kynän hallintaa, käden ja silmän koordinaatiota sekä jatkuvaa keskittymistä – samoja hienomotorisia perustaitoja, jotka tukevat varhaista käsin kirjoittamista. Valmiin kuvan värittäminen lisää luovaa palkintoa."
+          },
+          {
+            "q": "Mikä on hauska fakta puutarhakäsineistä?",
+            "a": "Puutarhakäsineet auttavat suojaamaan käsiä naarmuilta, lialta ja piikikkäiltä kasveilta maaperässä työskennellessä. Lapset löytävät tällaisia faktoja ratkoessaan Puutarhakäsineet-pisteestä pisteeseen -palapeliä."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Jokainen puutarhuri tarvitsee hyvät hanskat ennen kuin koskettaa maata, ja tämä 54 pisteen palapeli piirtää sopivan parin – yhden kummallekin kädelle. Se on lyhyt, helppokäyttöinen palapeli, joka on jaettu neljään osioon, ja se on helppo ratkaista yhdeltä istumalta. Työstä läpi vasen hansikas, sitten oikea ja lopuksi ne yhdistävät hihansuut. Etsi piste 1 sormenpäästä ja peitetään nämä kädet.",
+          "sections": [
+            {
+              "range": "1–14",
+              "title": "Vasen hansikas",
+              "learn": "Aloita pisteestä 1 ja yhdistä se pisteeseen 14 piirtääksesi vasemman hansikkaan ääriviivat sormet mukaan lukien. Pienet sormet ovat hankalan lyhyitä, joten kannusta varovaisiin ja kiireettömiin vetoihin yhden nopean pyyhkäisyn sijaan.",
+              "fact": "Puutarhakäsineet on yleensä tehty tiukasti sormien ympärille istuviksi, jotta puutarhuri voi silti poimia pieniä siemeniä tai kitkeä ohuita rikkaruohoja ilman, että käsine on tiellä."
+            },
+            {
+              "range": "15–27",
+              "title": "Oikea hansikas",
+              "learn": "Jatka pisteestä 15 pisteeseen 27 piirtääksesi sopivan oikean hansikkaan. Koska se on ensimmäisen hansikkaan peilikuva, tämä osa on hyvä tilaisuus verrata kahta muotoa ja tarkistaa, että ne ovat linjassa ennen kuin jatkat.",
+              "fact": "Useimmat puutarhakäsineet on valmistettu puuvillan tai nailonin sekoituksesta, ja kämmenessä ja sormissa on kumi- tai lateksipinnoite. Pinnoite auttaa pitämään työkalut hyvin ja estää veden ja lian imeytymisen suoraan käsineiden läpi."
+            },
+            {
+              "range": "28–41",
+              "title": "Käsiraudat",
+              "learn": "Lisää leveät hihansuut jokaisen hansikkaan tyveen piirtämällä pisteet 28–41. Nämä hihansuut levenevät hieman leveämmiksi kuin muu hansikas, joten etene hitaasti kaaren ympäri.",
+              "fact": "Puutarhakäsineiden leveät hihansuut eivät ole vain ulkonäköön liittyviä – ne estävät lian, piikkien ja ryömivien hyönteisten pääsyn sisään puutarhurin kaivaessa tai leikatessa."
+            },
+            {
+              "range": "42–54",
+              "title": "Viimeistelyompelu",
+              "learn": "Viimeistele yhdistämällä pisteet 42–54 lisätäksesi saumaviivat ja lopulliset yksityiskohdat molempiin käsineisiin. Jäljellä on kolmetoista pistettä – tasainen ja huolellinen viimeistely tekee käsineistä todella valmiit.",
+              "fact": "Vahvistetut ompeleet sormissa ja kämmenessä tekevät hyvistä puutarhakäsineistä kestävät koko kasvukauden sen sijaan, että ne kuluisivat loppuun muutaman viikon kaivamisen jälkeen."
+            }
+          ],
+          "outro": "Hienoa työtä – puutarhahanskasi ovat valmiit töihin! Väritä ne suosikkikuviollasi tai pidä ne klassisessa vihreän ja ruskean sävyssä kuten oikeatkin. Oletko valmis kaivautumaan hieman syvemmälle? Kokeile <a href=\"/\">pisteestä pisteeseen -tulostettavia tehtäviämme</a> saadaksesi lisää ilmaisia pulmia.",
+          "color_schemes": []
         }
-      ],
-      "outro": "Siinäpä täyteen lastatut kottikärryt, valmiina puutarhaan! Väritä tarjotin likaisenruskeaksi tai kirkkaanpunaiseksi kuten klassinen kottikärry, ja kasaa sitten päälle itse suunnittelemiasi kukkia tai vihanneksia. Oletko valmis johonkin suurempaan? Kokeile seuraavaksi <a href=\"/playgrounds/roller-coaster-playground-dot-to-dot-puzzle/\">vuoristorata-leikkikenttäpalapeliämme</a>."
+      }
     },
-    "seoTitle": "Kottikärryt pisteestä pisteeseen — 85 pistettä piirrettäväksi"
-  }
-]
+    {
+      "slug": "garden-trowel-dot-to-dot-puzzle",
+      "header": {
+        "title": "Puutarhalapio pisteestä pisteeseen: vain 39 pistettä, ilmainen PDF",
+        "meta_description": "Aloita varhaiset kynäharjoitukset 39 pisteen puutarhalapiolla. Ilmainen yhdistä pisteet PDF tarjoaa 4–7-vuotiaille lapsille lyhyen, saavutettavan aktiviteetin.",
+        "og": {
+          "title": "Puutarhalapio pisteestä pisteeseen: vain 39 pistettä, ilmainen PDF",
+          "description": "Aloita varhaiset kynäharjoitukset 39 pisteen puutarhalapiolla. Ilmainen yhdistä pisteet PDF tarjoaa 4–7-vuotiaille lapsille lyhyen, saavutettavan aktiviteetin.",
+          "image_alt": "Käsilapio muotoutuu vain 39 numeroidusta pisteestä, aloittelijalle tulostettava esikatselu"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Puutarhalapio",
+          "description": "Aloita varhaiset kynäharjoitukset 39 pisteen puutarhalapiolla. Ilmainen yhdistä pisteet PDF tarjoaa 4–7-vuotiaille lapsille lyhyen, saavutettavan aktiviteetin.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
+      },
+      "body": {
+        "h1": "Puutarhalapio Yhdistä Pisteet: Vain 39 Pistettä, Ilmainen PDF",
+        "name": "Puutarhalapio",
+        "tagline": "Uppoudu pieneen puutarhahauskuuteen!",
+        "description": "Yhdistä 39 pistettä paljastaaksesi kätevän puutarhalapion. Tämä helppo tulostettava palapeli auttaa nuoria oppijoita harjoittelemaan numerojärjestystä, kynän hallintaa ja keskittymistä.",
+        "fun_fact": "Muovailuvaja on pieni käsityökalu, jota käytetään taimien istuttamiseen, pienten kuoppien kaivamiseen ja maan siirtämiseen.",
+        "faqs": [
+          {
+            "q": "Kuinka monta pistettä puutarhalapion pisteestä pisteeseen -palapelissä on?",
+            "a": "Puutarhalapion yhdistämispelissä on 39 numeroitua pistettä. Se tekee siitä helpon palapelin, joka sopii parhaiten 4–6-vuotiaille (esikoulu ja päiväkoti). Lapset yhdistävät pisteet numerojärjestyksessä paljastaakseen valmiin puutarhalapion kuvan ja värittävät sen sitten."
+          },
+          {
+            "q": "Onko puutarhalapio tulostettava pisteestä pisteeseen -periaatteella ilmainen?",
+            "a": "Kyllä. Puutarhalapio-työarkin voi ladata täysin ilmaiseksi osoitteesta DotToDotFreePrintables.com – ei tiliä, sähköpostiosoitetta tai maksua vaadita. Se latautuu välittömästi tulostusvalmiina PDF-tiedostona sekä pysty- että vaakasuunnassa, US Letter- tai A4-kokoiselle paperille."
+          },
+          {
+            "q": "Minkä ikäisille puutarhalapion yhdistämistehtävä sopii parhaiten?",
+            "a": "39 pisteen ansiosta Puutarhalapio-palapeli sopii parhaiten 4–6-vuotiaille (esikoulu- ja päiväkotilapset). Pienemmät lapset voivat nauttia siitä aikuisen kevyellä tuella, kun taas jo sujuvasti laskevat lapset voivat ratkaista sen itsenäisesti ja harjoitella numeroiden laskemista jopa 39 pisteeseen asti."
+          },
+          {
+            "q": "Mitä taitoja puutarhalapio-pisteestä pisteeseen -palapeli opettaa?",
+            "a": "Puutarhalapion 39 pisteen yhdistäminen kehittää numeroiden tunnistusta ja laskemista 39:ään asti, kynän hallintaa, käden ja silmän koordinaatiota sekä jatkuvaa keskittymistä – samoja hienomotorisia perustaitoja, jotka tukevat varhaista käsin kirjoittamista. Valmiin kuvan värittäminen lisää luovaa palkintoa."
+          },
+          {
+            "q": "Mikä on hauska fakta puutarhalapiosta?",
+            "a": "Muovailulapio on pieni käsityökalu, jota käytetään taimien istuttamiseen, pienten kuoppien kaivamiseen ja maan siirtämiseen. Lapset löytävät tällaisia faktoja ratkoessaan puutarhamuovailulapion pisteestä pisteeseen -palapeliä."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Muovailulapio on yksi puutarhavajan yksinkertaisimmista työkaluista, ja tämä 39 pisteen palapeli pitää asiat yhtä yksinkertaisina – kolme lyhyttä osiota ja muoto, jonka lapset tunnistavat heti. Aloita koverasta terästä, sitten kaulasta, joka yhdistää sen kahvaan, ja lopuksi itse kahvasta. Etsi piste 1 terän kärjestä ja aloitetaan kaivaminen.",
+          "sections": [
+            {
+              "range": "1–13",
+              "title": "Terä",
+              "learn": "Aloita pisteestä 1 ja yhdistä pisteeseen 13 piirtääksesi lastan kaarevan, terävän terän. Yhden reunan kaari on tässä hankalin osa, joten kannusta hitaaseen työhön nopean suoran viivan sijaan.",
+              "fact": "Istutuslastan terä on kaareva eikä litteä, joten sillä voi kaivaa maata reiästä yhdellä liikkeellä sen sijaan, että se tarvitsisi useita erillisiä kaivu- ja nostoliikkeitä kuten litteällä työkalulla."
+            },
+            {
+              "range": "14–26",
+              "title": "Kaula",
+              "learn": "Jatka pisteestä 14 pisteeseen 26 piirtääksesi kapean kaulan, jossa terä kohtaa kahvan. Tämä on koko työkalun ohuin kohta, joten pidä viivat lähellä toisiaan ja hallittuina.",
+              "fact": "Hiertolastan kaula on yleensä koko työkalun vahvin osa, koska kaikki kaivamisesta tuleva työntö- ja vipuvoima kulkee juuri tämän kapean osan läpi."
+            },
+            {
+              "range": "27–39",
+              "title": "Kahva",
+              "learn": "Viimeistele yhdistämällä pisteet 27–39 piirtääksesi pyöreän kahvan, josta puutarhuri pitää kiinni kaivaessaan. Jäljellä on enää kolmetoista pistettä – luja ja varma viimeistely täydentää työkalun.",
+              "fact": "Muovailulapion kahvat on usein muotoiltu hieman leveämmiksi päistä, jotta työkalu ei lipsu puutarhurin kädestä, varsinkin kun kämmenet kastuvat työskennellessään märässä maaperässä."
+            }
+          ],
+          "outro": "Hienosti tehty – muurauslapio on valmis kaivamiseen! Värjää terä kiiltävän metallinharmaaksi ja anna kahvalle haluamasi kirkas väri. Jos pidit tästä, tutustu <a href=\"/dinosaurs/\">dinosaur pisteestä pisteeseen tulostettavaan</a> kokoelmaamme ja koe täysin erilainen kaivaminen.",
+          "color_schemes": []
+        }
+      }
+    },
+    {
+      "slug": "wheelbarrow-playground-dot-to-dot-puzzle",
+      "header": {
+        "title": "Kottikärryt pisteestä pisteeseen — 85 pistettä piirrettäväksi",
+        "meta_description": "Yhdistä 85 pistettä tukeviksi kottikärryiksi tässä ilmaisessa tulostettavassa, joka sopii 5–9-vuotiaille pidempää harjoitusta kaipaaville. Muinaiset kiinalaiset kottikärryt kuljettivat jopa sotilaita — tulosta PDF ja aloita numerointi ilman rekisteröitymistä. Tulostuu tarkasti 100 %:n mittakaavassa.",
+        "og": {
+          "title": "Kottikärryt pisteestä pisteeseen — 85 pistettä piirrettäväksi",
+          "description": "Yhdistä 85 pistettä tukeviksi kottikärryiksi tässä ilmaisessa tulostettavassa, joka sopii 5–9-vuotiaille pidempää harjoitusta kaipaaville. Muinaiset kiinalaiset kottikärryt kuljettivat jopa sotilaita — tulosta PDF ja aloita numerointi ilman rekisteröitymistä. Tulostuu tarkasti 100 %:n mittakaavassa.",
+          "image_alt": "Vankka puutarhakärry, joka on rullattu 85 pisteen yli tulostusvalmiissa PDF-puzzleissa"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Kottikärryjen leikkikenttä",
+          "description": "Yhdistä 85 pistettä tukeviksi kottikärryiksi tässä ilmaisessa tulostettavassa, joka sopii 5–9-vuotiaille pidempää harjoitusta kaipaaville. Muinaiset kiinalaiset kottikärryt kuljettivat jopa sotilaita — tulosta PDF ja aloita numerointi ilman rekisteröitymistä. Tulostuu tarkasti 100 %:n mittakaavassa.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
+      },
+      "body": {
+        "h1": "Kärry Yhdistä Pisteet Tulostettava — 85 Pistettä Seurattavaksi",
+        "name": "Kottikärryjen leikkikenttä",
+        "tagline": "Lataa se ja rullaa!",
+        "description": "Yhdistä 85 pistettä paljastaaksesi tukevan puutarhakärryn. Tämä keskitason palapeli on loistava harjoitus lapsille, jotka ovat hallinneet helpommat palapelit ja ovat valmiita pidempään ja yksityiskohtaisempaan kuvaan.",
+        "fun_fact": "Kärry keksittiin muinaisessa Kiinassa yli 2 000 vuotta sitten. Varhaiset versiot pystyivät kuljettamaan useita ihmisiä kerralla ja niitä käytettiin jopa sotilaiden siirtämiseen sodan aikana.",
+        "faqs": [
+          {
+            "q": "Kuinka monta pistettä Kottikärryjen leikkikentän pisteestä pisteeseen -palapelissä on?",
+            "a": "Kottikärryleikkikentän yhdistämispelissä on 85 numeroitua pistettä. Se tekee siitä keskikokoisen palapelin, joka sopii parhaiten 6–9-vuotiaille (1.–3. luokkalaisille). Lapset yhdistävät pisteet numerojärjestyksessä paljastaakseen valmiin kottikärryleikkikentän kuvan ja värittävät sen sitten."
+          },
+          {
+            "q": "Onko Kottikärryjen leikkikentän pisteestä pisteeseen tulostettava versio ilmainen?",
+            "a": "Kyllä. Kottikärryjen leikkikentän työarkki on 100 % ilmainen ladata osoitteesta DotToDotFreePrintables.com – ei tiliä, sähköpostiosoitetta tai maksua vaadita. Se latautuu välittömästi tulostusvalmiina PDF-tiedostona sekä pysty- että vaakasuunnassa, US Letter- tai A4-kokoiselle paperille."
+          },
+          {
+            "q": "Minkä ikäisille Kottikärryjen leikkikentän pisteyhdistämistehtävä sopii parhaiten?",
+            "a": "85 pisteen ansiosta Kottikärryjen leikkikenttä -palapeli sopii parhaiten 6–9-vuotiaille (1.–3. luokkalaisille). Pienemmät lapset voivat nauttia siitä aikuisen kevyellä tuella, kun taas jo sujuvasti laskevat lapset voivat ratkaista sen itsenäisesti ja harjoitella numerojärjestyksen seuraamista jopa 85 pisteeseen asti."
+          },
+          {
+            "q": "Mitä taitoja Kottikärryjen leikkikentän pisteestä pisteeseen -palapeli opettaa?",
+            "a": "Kottikärryleikkikentän palapelin 85 pisteen yhdistäminen kehittää numeroiden tunnistusta ja laskemista 85:een asti, kynän hallintaa, käden ja silmän koordinaatiota sekä jatkuvaa keskittymistä – samoja hienomotorisia perustaitoja, jotka tukevat varhaista käsin kirjoittamista. Valmiin kuvan värittäminen lisää luovaa palkintoa."
+          },
+          {
+            "q": "Mikä on hauska fakta kottikärryleikkikentästä?",
+            "a": "Kottikärryt keksittiin muinaisessa Kiinassa yli 2 000 vuotta sitten. Varhaiset versiot pystyivät kuljettamaan useita ihmisiä kerralla, ja niitä käytettiin jopa sotilaiden siirtämiseen sodan aikana. Lapset löytävät tällaisia faktoja ratkoessaan Kottikärryleikkikentän pisteestä pisteeseen -palapeliä."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Tämä puutarhakärrypalapeli koostuu 85 pisteestä ja neljästä osasta. Se on askel eteenpäin yksinkertaisista puutarhalevyistä, mutta silti helppo ratkaista yhdeltä istumalta. Työstä ensin pyörä, sitten tarjotin, runko ja jalat ja lopuksi kahvat. Etsi piste 1 pyörän etuosasta ja aloitetaan.",
+          "sections": [
+            {
+              "range": "1–21",
+              "title": "Pyörä",
+              "learn": "Aloita pisteestä 1 ja yhdistä se pisteeseen 21 piirtääksesi pyöreän pyörän kärryjen etuosaan. Pyöreät muodot vaativat hieman enemmän varovaisuutta kuin suorat viivat, joten kannusta hitaisiin, tasaisiin vetoihin, kun käyrä muodostuu.",
+              "fact": "Yksi etupyörä mahdollistaa kottikärryjen helpon kääntymisen ahtaissa tiloissa, minkä vuoksi puutarhurit suosivat tätä mallia edelleen kaksipyöräiseen kärryyn verrattuna siirtäessään multaa ja kasveja kukkapenkkien ympärillä."
+            },
+            {
+              "range": "22–43",
+              "title": "Tarjotin",
+              "learn": "Jatka pisteestä 22 pisteeseen 43 muotoillaksesi leveän, kaltevan tarjottimen, joka pitää sisällään kaiken, mitä kärryissä on. Tarjottimen kulmikkaat sivut estävät sitä kaatumasta, joten piirrä sivut huolellisesti, jotta saat aikaan kallistuksen.",
+              "fact": "Useimpien kottikärryjen tarjotin kapenee edestä ja levenee takaa. Tämä muoto estää raskaan, vinossa olevan kuorman liukumisen eteenpäin ja valumisen pyörän yli."
+            },
+            {
+              "range": "44–64",
+              "title": "Runko ja jalat",
+              "learn": "Työskentele pisteestä 44 pisteeseen 64 rakentaaksesi rungon tarjottimen alle ja kaksi jalkaa, jotka tukevat sitä lepotilassa. Nämä viivat ovat suorempia ja vakaampia, mukava vaihtelu kaarevan tarjotinosan jälkeen.",
+              "fact": "Kottikärryjen takana olevat kaksi jalkaa koskettavat maata vain, kun ne ovat pysäköityinä. Nosta kahvoja, niin kaikki paino siirtyy eteenpäin yhdelle pyörälle, mikä tekee täyden kuorman työntämisestä paljon helpompaa."
+            },
+            {
+              "range": "65–85",
+              "title": "Kahvat",
+              "learn": "Lopeta yhdistämällä pisteet 65–85 piirtääksesi kaksi kahvaa, joista puutarhuri pitää kiinni ohjatakseen ja nostaakseen kuormaa. Viimeisellä osuudella on jäljellä 21 pistettä – pidä viivat tasaisina ja viimeistele vahvana.",
+              "fact": "Pitkät kahvat toimivat vipuvarren tavoin. Niiden avulla yksi henkilö voi nostaa ja tasapainottaa kuorman, joka muuten olisi liian raskas tai hankala kantaa käsin – ja juuri siinä piilee kottikärryjen toiminnan salaisuus."
+            }
+          ],
+          "outro": "Siinäpä täyteen lastatut kottikärryt, valmiina puutarhaan! Väritä tarjotin likaisenruskeaksi tai kirkkaanpunaiseksi kuten klassinen kottikärry, ja kasaa sitten päälle itse suunnittelemiasi kukkia tai vihanneksia. Oletko valmis johonkin suurempaan? Kokeile seuraavaksi <a href=\"/playgrounds/roller-coaster-playground-dot-to-dot-puzzle/\">vuoristorata-leikkikenttäpalapeliämme</a>.",
+          "color_schemes": []
+        }
+      }
+    }
+  ]
+}

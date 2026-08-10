@@ -95,4 +95,13 @@
   </div>
 
   <p class="menu-error" *ngIf="loadError" data-testid="menu-error">{{ loadError }}</p>
+
+  <section class="menu-extra" data-testid="menu-pages">
+    <h2>Pages</h2>
+    <button type="button" *ngFor="let page of pageEntries" [attr.data-testid]="'menu-page-' + page.slug" (click)="selectPage(page,'page')">{{ page.name }}</button>
+  </section>
+  <section class="menu-extra" data-testid="menu-blog">
+    <h2>Blog</h2>
+    <button type="button" *ngFor="let post of blogEntries" [attr.data-testid]="'menu-blog-' + post.slug" (click)="selectPage(post,'blog')">{{ post.name }}</button>
+  </section>
 </nav>

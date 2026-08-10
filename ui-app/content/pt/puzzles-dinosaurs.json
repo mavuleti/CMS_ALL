@@ -1,513 +1,1014 @@
-[
-  {
-    "slug": "trex-61-dot-to-dot-puzzle",
-    "name": "Desafio T-Rex de 61 pontos",
-    "seoH1": "T-Rex Conecte os Pontos — 61 Pontos de Diversão Pré-Histórica",
-    "tagline": "Um desafio maior do lagarto tirano",
-    "description": "Conecte 61 pontos para revelar um poderoso Tyrannosaurus Rex. Esta folha de atividades de dinossauro imprimível oferece a jovens contadores confiantes um desafio maior de sequenciamento numérico enquanto desenvolvem controle do lápis, foco e habilidades motoras finas.",
-    "seoDescription": "O T-Rex substituiu dentes perdidos ao longo de sua vida. Conecte 61 pontos neste PDF gratuito de conecte os pontos para crianças de 6 a 9 anos, da nossa coleção de 2026.",
-    "funFact": "O T-Rex podia substituir seus dentes ao longo de sua vida, crescendo novos quando os dentes mais velhos quebravam ou caíam!",
-    "seoImageAlt": "Poderoso Tyrannosaurus Rex saindo de 61 pontos numerados, folha de dinossauro gratuita",
-    "dotGuide": {
-      "intro": "Sessenta e um pontos. É um verdadeiro desafio — e bem apropriado, porque o Tiranossauro Rex era um verdadeiro gigante. Este puzzle demora mais do que a maioria das nossas <a href=\"/\">fichas gratuitas de ligar os pontos</a>, por isso é ideal para crianças que já contam para lá do 50 e querem algo com mais substância. Encontra o ponto 1 mesmo na ponta da mandíbula, respira fundo, e vamos acordar o rei dos dinossauros.",
-      "sections": [
-        {
-          "range": "1–11",
-          "title": "A enorme cabeça e o focinho",
-          "learn": "Começa no ponto 1, na ponta daquela mandíbula cheia de dentes, e sobe por cima da cabeça até ao ponto 11, na base do pescoço. Os traços aqui são curtos e curvos — um aquecimento suave antes das linhas longas que aí vêm. Pergunta à criança o que repara na cabeça: é enorme comparada com tudo o resto, e não é por acaso.",
-          "fact": "O crânio de um T-Rex adulto media cerca de metro e meio — mais alto do que a maioria das crianças de oito anos. Os cientistas acreditam que a sua mordida foi a mais forte de qualquer animal terrestre que alguma vez existiu, capaz de esmagar ossos."
-        },
-        {
-          "range": "12–26",
-          "title": "Pelo dorso até à ponta da cauda",
-          "learn": "A partir do ponto 12, a linha percorre o dorso e desce por toda a cauda até ao ponto 26, mesmo na ponta. É o troço mais longo e fluido do puzzle. Incentiva um único movimento corrido em vez de muitas paragens: é um excelente exercício para o controlo prolongado do lápis de que as crianças precisam quando começam a letra manuscrita ligada.",
-          "fact": "A cauda representava quase metade do comprimento total do T-Rex e continha mais de 40 ossos. Funcionava como a vara de um equilibrista, contrabalançando aquela cabeça enorme para o dinossauro não tombar para a frente."
-        },
-        {
-          "range": "27–35",
-          "title": "Por baixo da cauda até à anca",
-          "learn": "Agora voltamos para trás. Os pontos 27 a 35 correm por baixo da cauda em direção à anca, traçando o lado de baixo daquela poderosa trave de equilíbrio. Aqui é preciso contar com cuidado, porque os pontos ficam muito próximos: um bom momento para abrandar e verificar cada número antes de desenhar.",
-          "fact": "À altura da anca, um T-Rex media cerca de 3,6 metros. O corpo inteiro podia chegar aos 12 metros do focinho à ponta da cauda — mais ou menos o comprimento de um autocarro escolar."
-        },
-        {
-          "range": "36–48",
-          "title": "As pernas poderosas e os pés",
-          "learn": "Os pontos 36 a 48 constroem as pernas traseiras e os dois pés com garras. Eram o motor de todo o animal, e esta secção premeia traços firmes e confiantes. Há algum ziguezague entre os dedos, por isso também se treina a motricidade fina mesmo quando as crianças julgam que estão só a desenhar pés de dinossauro.",
-          "fact": "Uma única pegada de T-Rex podia ultrapassar um metro de comprimento. Durante anos discutiu-se a sua velocidade — a investigação atual aponta para um passo de cerca de 5 km/h e arranques curtos perto dos 20 km/h. Suficientemente rápido."
-        },
-        {
-          "range": "49–58",
-          "title": "A barriga e aqueles bracinhos",
-          "learn": "Liga os pontos 49 a 58 para desenhar a barriga, o peito e os famosos braços pequeninos. Todas as crianças se riem destes braços, e é exatamente por isso que esta secção é tão divertida de desenhar. As linhas mudam de direção com frequência, por isso é a parte mais complicada do puzzle: perfeita para os contadores confiantes a quem esta ficha de 61 pontos se destina.",
-          "fact": "Aqueles bracinhos mediam apenas cerca de um metro, mas cada um conseguia levantar uns 180 quilos. Pequenos, sim — mas ninguém lhes chamaria fracos."
-        },
-        {
-          "range": "59–61",
-          "title": "A fechar a mandíbula",
-          "learn": "Faltam só três pontos. Liga o 59, o 60 e o 61 para terminar a mandíbula inferior e completar o contorno imponente. A última linha chega mesmo ao pé do ponto 1: um círculo completo muito satisfatório, que mostra às crianças que o desenho inteiro foi uma única viagem contínua.",
-          "fact": "Ao T-Rex nunca faltavam dentes. Quando um partia ou se gastava, crescia simplesmente outro no lugar: uma reserva vitalícia de punhais afiados, alguns com até 30 centímetros contando a raiz."
+{
+  "collection": {
+    "header": {
+      "title": "Desenhos de dinossauros para ligar os pontos grátis para crianças",
+      "meta_description": "Descarrega grátis fichas de ligar os pontos com dinossauros: T-Rex, Tricerátopo e mais. PDF prontos a imprimir, sem registo.",
+      "og": {
+        "title": "Desenhos de dinossauros para ligar os pontos grátis",
+        "description": "Fichas grátis de dinossauros para imprimir, ligar os pontos.",
+        "image": "/images/trex-61-puzzle.webp"
+      },
+      "json_ld": {
+        "type": "CollectionPage",
+        "name": "Dinossauros",
+        "description": "Ligue os pontos para revelar os seus dinossauros favoritos! Todas as fichas de atividades são gratuitas para descarregar e imprimir — sem necessidade de registo. Perfeitas para crianças dos 4 aos 10 anos, pré-escolar, jardim de infância e utilização em sala de aula.",
+        "image": "/images/trex-61-puzzle.webp",
+        "main_entity": {
+          "type": "ItemList",
+          "item_source": "puzzles"
         }
-      ],
-      "outro": "São 61 pontos conquistados — o maior desafio de dinossauros do nosso site! Se a tua criança terminou este sem dificuldade, as fichas fáceis já lhe ficaram pequenas. Experimenta o resto das nossas <a href=\"/dinosaurs/\">fichas de ligar os pontos de 1 a 100</a> para completar a coleção, e pinta este T-Rex antes que se vá embora."
+      },
+      "breadcrumb_json_ld": {
+        "type": "BreadcrumbList",
+        "items": [
+          {
+            "position": 1,
+            "name": "Home",
+            "path": "/"
+          },
+          {
+            "position": 2,
+            "name": "Dinossauros",
+            "path": "/dinosaurs/"
+          }
+        ]
+      }
     },
-    "seoTitle": "T-Rex Conecte os Pontos — 61 Pontos de Diversão Pré-Histórica"
+    "body": {
+      "h1": "Desenhos de dinossauros para ligar os pontos para crianças",
+      "name": "Dinossauros",
+      "tagline": "Porque é que as crianças adoram puzzles de ligar os pontos com dinossauros?",
+      "description": "Ligue os pontos para revelar os seus dinossauros favoritos! Todas as fichas de atividades são gratuitas para descarregar e imprimir — sem necessidade de registo. Perfeitas para crianças dos 4 aos 10 anos, pré-escolar, jardim de infância e utilização em sala de aula.",
+      "hero_image": "/images/trex-61-puzzle.webp",
+      "slug": "dinosaurs",
+      "faqs": [
+        {
+          "q": "Quantos desenhos de dinossauros para ligar os pontos estão disponíveis gratuitamente para impressão?",
+          "a": "A categoria Dinossauros oferece atualmente 11 atividades gratuitas de ligar os pontos, com 24 a 74 pontos cada. Cada atividade é descarregada instantaneamente como um PDF pronto para impressão (formato Carta ou A4, retrato ou paisagem), sem necessidade de registo."
+        },
+        {
+          "q": "Os puzzles de ligar os pontos com dinossauros podem ser impressos gratuitamente?",
+          "a": "Sim — todos os 11 puzzles da coleção Dinossauros são totalmente gratuitos para uso doméstico e em sala de aula. Não é necessário criar uma conta, fornecer e-mail ou efetuar qualquer pagamento no DotToDotFreePrintables.com."
+        },
+        {
+          "q": "Para que idade são os puzzles de dinossauros?",
+          "a": "Com contagens de pontos que variam entre 24 e 74, a coleção Dinossauros abrange aproximadamente as idades dos 4 aos 12 anos. Escolha contagens de pontos mais pequenas para o pré-escolar e jardim de infância, e contagens mais elevadas para crianças que já sabem contar com segurança, do 2º ao 6º ano."
+        },
+        {
+          "q": "Que puzzles de ligar os pontos com dinossauros estão disponíveis?",
+          "a": "Há 11 desenhos de dinossauros para imprimir gratuitamente: T-Rex, Triceratops, Estegossauro, Velociraptor, Brontossauro, Braquiossauro, Espinossauro, Anquilossauro, Alossauro, Pterodáctilo e Avestruz (Struthiomimus) — de 24 a 74 pontos."
+        },
+        {
+          "q": "Qual é o desenho de ligar os pontos com dinossauros mais fácil para crianças pequenas?",
+          "a": "O Pterodáctilo (24 pontos) e o Anquilossauro (32 pontos) são os mais fáceis, ideais para crianças em idade pré-escolar e jardim de infância. As crianças mais confiantes podem passar para o Espinossauro ou para o Triceratops, com 70 pontos ou mais."
+        },
+        {
+          "q": "Os jogos de ligar os pontos com os dinossauros ensinam factos reais sobre os dinossauros?",
+          "a": "Sim — cada página sobre dinossauros inclui informações precisas e adequadas para crianças (como a mordida esmagadora de ossos do T-Rex ou as placas do Estegossauro) integradas num guia de desenho secção a secção, para que as crianças absorvam paleontologia enquanto contam."
+        }
+      ]
+    }
   },
-  {
-    "slug": "ostriches-dinosaur-dot-to-dot-puzzle",
-    "name": "Avestruz",
-    "seoH1": "Ostrich Conecte os Pontos: 55 Pontos para o Pássaro Mais Rápido",
-    "tagline": "O maior pássaro do mundo",
-    "description": "Conecte 55 pontos fáceis para revelar o magnífico Avestruz — a maior ave viva na Terra! Avestruzes não podem voar, mas correm mais rápido que um cavalo. Esta folha de atividades imprimível ajuda crianças da educação infantil a praticar sequenciamento numérico e controle do lápis enquanto aprendem sobre este incrível animal.",
-    "seoDescription": "Avestruzes podem correr a até 45 mph. Revele um através de 55 pontos em nossas páginas gratuitas de conecte os pontos para crianças de 5 a 8 anos, com um PDF imprimível pronto para usar.",
-    "funFact": "Avestruzes são as aves mais rápidas da Terra, alcançando velocidades de até 45 mph!",
-    "seoImageAlt": "Avestruz correndo, pescoço esticado, capturado em 55 pontos imprimíveis",
-    "dotGuide": {
-      "intro": "Did you know ostriches are the largest birds alive today — and they are actually living relatives of the dinosaurs? Everything about an ostrich is built for speed and survival on the open African plains. This ponto-to-ponto is a wonderful way to explore one of nature's most extraordinary creatures. Sharpen a pencil, find ponto 1, and let's bring this magnificent bird to life!",
-      "sections": [
-        {
-          "range": "1–8",
-          "title": "A cabeça e o bico",
-          "learn": "Start at ponto 1 and ligue through to ponto 8 to sketch the ostrich's small, rounded head and flat beak. The head is surprisingly tiny compared to the bird's body — crianças naturally notice this, which opens a great conversation about animal proportions. Short, gentle strokes work best here.",
-          "fact": "O olho de um avestruz é maior que o seu cérebro – com cerca de cinco centímetros de diâmetro, é o maior olho de qualquer animal terrestre na Terra. Esses olhos enormes ajudam-no a detectar predadores como leões e chitas de muito longe, através da savana plana."
+  "puzzles": [
+    {
+      "slug": "trex-61-dot-to-dot-puzzle",
+      "header": {
+        "title": "T-Rex Conecte os Pontos — 61 Pontos de Diversão Pré-Histórica",
+        "meta_description": "O T-Rex substituiu dentes perdidos ao longo de sua vida. Conecte 61 pontos neste PDF gratuito de conecte os pontos para crianças de 6 a 9 anos, da nossa coleção de 2026.",
+        "og": {
+          "title": "T-Rex Conecte os Pontos — 61 Pontos de Diversão Pré-Histórica",
+          "description": "O T-Rex substituiu dentes perdidos ao longo de sua vida. Conecte 61 pontos neste PDF gratuito de conecte os pontos para crianças de 6 a 9 anos, da nossa coleção de 2026.",
+          "image_alt": "Poderoso Tyrannosaurus Rex saindo de 61 pontos numerados, folha de dinossauro gratuita"
         },
-        {
-          "range": "9–20",
-          "title": "O pescoço comprido",
-          "learn": "Continue from ponto 9 to ponto 20 to draw the long, graceful neck that sweeps down from the head to the body. This is one of the most satisfying seções of the atividade — crianças learn to keep their pencil moving in one flowing direction without lifting it. A lovely lesson in smooth line control.",
-          "fact": "O pescoço de um avestruz pode ter até um metro de comprimento e é quase totalmente sem penas. A pele nua muda de cor quando o avestruz está excitado ou tentando atrair um parceiro – tornando-se rosa brilhante ou vermelho. O anel de humor da natureza!"
-        },
-        {
-          "range": "21–35",
-          "title": "O corpo e as asas",
-          "learn": "Trace pontos 21 through 35 to fill out the ostrich's round, fluffy body and its small, decorative wings. Although ostriches cannot fly, their wings still play an important role. Children practise drawing rounder, more oval shapes here — a different challenge from the straight lines of the neck.",
-          "fact": "Os avestruzes usam suas asas como um leme quando correm, inclinando-se para a esquerda ou para a direita para ajudá-los a mudar de direção em alta velocidade. Eles também os espalharam para proteger seus filhotes do sol escaldante da África – guarda-sóis embutidos!"
-        },
-        {
-          "range": "36–46",
-          "title": "As pernas poderosas",
-          "learn": "Ligue pontos 36 to 46 to draw the two long, muscular legs. These are the fastest legs of any bird on the planet, and crianças begin to appreciate just how long they are relative to the body. Encourage steady, confident downward strokes — this section rewards a bold hand.",
-          "fact": "Um avestruz pode correr a até 45 milhas por hora e continuar correndo a 30 mph por longas distâncias. Uma única passada pode cobrir até 5 metros – aproximadamente o comprimento de um carro familiar. Tentar fugir de um seria uma péssima ideia!"
-        },
-        {
-          "range": "47–55",
-          "title": "Os pés e as penas da cauda",
-          "learn": "Finish by connecting pontos 47 through 55 to add the distinctive two-toed feet and flowing tail feathers. Ostriches are the only birds with just two toes on each foot. Children practise smaller, more detailed work here — a great exercise in precision as the atividade nears completion.",
-          "fact": "Cada pé de avestruz tem um dedo grande e dominante com uma unha longa e resistente que funciona como um casco – ótimo para correr em solo duro! Os avestruzes são surpreendentemente corajosos e permanecerão firmes para proteger seus filhotes. Realmente um pássaro muito ousado!"
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Desafio T-Rex de 61 pontos",
+          "description": "O T-Rex substituiu dentes perdidos ao longo de sua vida. Conecte 61 pontos neste PDF gratuito de conecte os pontos para crianças de 6 a 9 anos, da nossa coleção de 2026.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
         }
-      ],
-      "outro": "Excelente trabalho! O seu avestruz está pronto para correr! Contou todos os 55 pontos? Tente escrever os números de 1 a 55 no verso da página como um desafio extra — os pais e os professores adoram esta atividade. Procura mais páginas para utilizar em sala de aula? Veja as nossas <a href=\"/playgrounds/\">fichas de atividades de ligar os pontos</a> ."
-    },
-    "seoTitle": "Ostrich Conecte os Pontos: 55 Pontos para o Pássaro Mais Rápido"
-  },
-  {
-    "slug": "brontosaurus-dot-to-dot-puzzle",
-    "name": "Brontossauro",
-    "seoH1": "Brontosaurus Conecte os Pontos — Lagarto do Trovão em 50 Pontos",
-    "tagline": "O amigável lagarto trovão",
-    "description": "Conecte 50 pontos fáceis para revelar um alegre Brontosaurus com um pescoço longo e cauda ampla. Esta folha de atividades imprimível ajuda crianças da pré-escola e do início da educação infantil a praticar sequenciamento numérico, controle do lápis e concentração.",
-    "seoDescription": "Brontosaurus significa lagarto do trovão. Trace seu longo pescoço e cauda através de 50 pontos com esta folha de conecte os pontos imprimível gratuita para crianças de 4 a 7 anos.",
-    "funFact": "\"Brontossauro\" means thunder lizard, a name inspired by its enormous size!",
-    "seoImageAlt": "Brontosaurus de pescoço longo se esticando através de 50 pontos em uma folha imprimível para pré-escola",
-    "dotGuide": {
-      "intro": "Welcome to one of the most loveable dinosaur atividades in the whole collection! The Brontossauro — whose name means \"thunder lizard\" — was one of the biggest creatures ever to walk our planet. Grab a pencil, find ponto number one, and let's bring this gentle giant back to life, one line at a time!",
-      "sections": [
-        {
-          "range": "1–8",
-          "title": "A cabeça",
-          "learn": "Start at ponto 1 and ligue through to ponto 8 to trace the Brontossauro's surprisingly small, wedge-shaped head. Children practise short, careful pencil strokes and gentle curved lines here — a lovely way to build early controle do lápis before tackling bigger shapes.",
-          "fact": "Brontossauro had peg-like teeth designed only for stripping leaves off branches, not for chewing. It swallowed plants whole and let its massive stomach do the hard work — a pretty clever system, really!"
-        },
-        {
-          "range": "9–18",
-          "title": "O pescoço comprido",
-          "learn": "Now here comes the showstopper. Ligue pontos 9 through 18 to draw that famously long, sweeping neck that curves gracefully upward. This is a brilliant section for practising smooth, flowing lines — crianças discover that longer curves need more patience and a steadier hand.",
-          "fact": "The Brontossauro's neck stretched up to 20 feet long — roughly the height of a two-storey house! Scientists now believe it grazed mainly at low to mid-level plants rather than craning up into treetops the way a giraffe does."
-        },
-        {
-          "range": "19–32",
-          "title": "O corpo",
-          "learn": "Continue from ponto 19 all the way to ponto 32 to fill out the Brontossauro's massive, barrel-shaped torso. This longest section of the atividade is great for building concentration and stamina — crianças learn to keep going even when the task feels big. Sound familiar?",
-          "fact": "Brontossauro weighed somewhere between 15 and 17 tonnes — heavier than three African elephants standing together. Despite that extraordinary size, it was entirely a plant-eater, completely harmless, and probably just wanted a quiet life among the ferns."
-        },
-        {
-          "range": "33–42",
-          "title": "As pernas",
-          "learn": "Trace pontos 33 to 42 to form the four thick, column-like legs. Children begin to notice symmetry and how an animal's body is balanced from side to side. Drawing parallel shapes is a real skill, and this section gives little hands plenty of practice.",
-          "fact": "Brontossauro walked on its toes — a bit like a ballerina on four feet! Beneath each foot was a thick, fleshy pad that acted like a natural cushion, softening every thunderous step across the Jurassic landscape."
-        },
-        {
-          "range": "43–50",
-          "title": "A cauda",
-          "learn": "Finish the atividade by connecting pontos 43 through 50 to draw the long, tapering tail sweeping out behind the dinosaur. The tail balanced the heavy neck and gave the Brontossauro its graceful, almost boat-like silhouette. Children practise gradually narrowing their line — a satisfying way to end.",
-          "fact": "Palaeontologists believe Brontossauro could crack its tail like a whip, creating a sound as loud as a thunderclap! Not bad for a gentle giant that spent most of its day munching on plants."
+      },
+      "body": {
+        "h1": "T-Rex Conecte os Pontos — 61 Pontos de Diversão Pré-Histórica",
+        "name": "Desafio T-Rex de 61 pontos",
+        "tagline": "Um desafio maior do lagarto tirano",
+        "description": "Conecte 61 pontos para revelar um poderoso Tyrannosaurus Rex. Esta folha de atividades de dinossauro imprimível oferece a jovens contadores confiantes um desafio maior de sequenciamento numérico enquanto desenvolvem controle do lápis, foco e habilidades motoras finas.",
+        "fun_fact": "O T-Rex podia substituir seus dentes ao longo de sua vida, crescendo novos quando os dentes mais velhos quebravam ou caíam!",
+        "faqs": [
+          {
+            "q": "Quantos pontos tem o jogo de ligar os pontos T-Rex 61-Dot Challenge?",
+            "a": "O desafio de ligar os pontos do T-Rex de 61 pontos tem 61 pontos numerados. Isto torna-o um puzzle de nível fácil a médio, mais adequado para crianças dos 5 aos 8 anos (do jardim de infância ao 2º ano do ensino básico). As crianças ligam os pontos por ordem numérica para revelar a imagem completa do desafio do T-Rex de 61 pontos e depois colorem-na."
+          },
+          {
+            "q": "O desenho de ligar os pontos do T-Rex com 61 pontos é gratuito para imprimir?",
+            "a": "Sim. A ficha de atividades do Desafio T-Rex de 61 Pontos é 100% gratuita para descarregar a partir de DotToDotFreePrintables.com — sem necessidade de registo, e-mail ou pagamento. O download é instantâneo, em formato PDF pronto a imprimir, nos formatos retrato e paisagem, e nos tamanhos Carta (EUA) ou A4."
+          },
+          {
+            "q": "Para que faixa etária é mais indicada a ficha de exercícios de ligar os pontos \"Desafio T-Rex 61 Pontos\"?",
+            "a": "Com 61 pontos, o puzzle Desafio dos 61 Pontos do T-Rex é ideal para crianças dos 5 aos 8 anos (do jardim de infância ao 2º ano do ensino básico). As crianças mais pequenas podem divertir-se com a ajuda de um adulto para contar em conjunto, enquanto as mais confiantes podem completá-lo sozinhas e praticar a sequência numérica até 61."
+          },
+          {
+            "q": "Que habilidades ensina o jogo de ligar os pontos T-Rex 61-Dot Challenge?",
+            "a": "A ligação dos 61 pontos do puzzle Desafio dos 61 Pontos do T-Rex desenvolve o reconhecimento de números e a contagem até 61, o controlo do lápis, a coordenação motora e a concentração sustentada — as mesmas bases da motricidade fina que suportam a escrita inicial. Colorir a imagem finalizada acrescenta uma recompensa criativa."
+          },
+          {
+            "q": "Qual é uma curiosidade interessante sobre o desafio dos 61 pontos do T-Rex?",
+            "a": "O T-Rex conseguia substituir os seus dentes ao longo da vida, desenvolvendo novos dentes quando os mais velhos se partiam ou caíam! As crianças descobrem factos como este enquanto completam o puzzle de ligar os pontos do Desafio T-Rex de 61 Pontos."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Sessenta e um pontos. É um verdadeiro desafio — e bem apropriado, porque o Tiranossauro Rex era um verdadeiro gigante. Este puzzle demora mais do que a maioria das nossas <a href=\"/\">fichas gratuitas de ligar os pontos</a>, por isso é ideal para crianças que já contam para lá do 50 e querem algo com mais substância. Encontra o ponto 1 mesmo na ponta da mandíbula, respira fundo, e vamos acordar o rei dos dinossauros.",
+          "sections": [
+            {
+              "range": "1–11",
+              "title": "A enorme cabeça e o focinho",
+              "learn": "Começa no ponto 1, na ponta daquela mandíbula cheia de dentes, e sobe por cima da cabeça até ao ponto 11, na base do pescoço. Os traços aqui são curtos e curvos — um aquecimento suave antes das linhas longas que aí vêm. Pergunta à criança o que repara na cabeça: é enorme comparada com tudo o resto, e não é por acaso.",
+              "fact": "O crânio de um T-Rex adulto media cerca de metro e meio — mais alto do que a maioria das crianças de oito anos. Os cientistas acreditam que a sua mordida foi a mais forte de qualquer animal terrestre que alguma vez existiu, capaz de esmagar ossos."
+            },
+            {
+              "range": "12–26",
+              "title": "Pelo dorso até à ponta da cauda",
+              "learn": "A partir do ponto 12, a linha percorre o dorso e desce por toda a cauda até ao ponto 26, mesmo na ponta. É o troço mais longo e fluido do puzzle. Incentiva um único movimento corrido em vez de muitas paragens: é um excelente exercício para o controlo prolongado do lápis de que as crianças precisam quando começam a letra manuscrita ligada.",
+              "fact": "A cauda representava quase metade do comprimento total do T-Rex e continha mais de 40 ossos. Funcionava como a vara de um equilibrista, contrabalançando aquela cabeça enorme para o dinossauro não tombar para a frente."
+            },
+            {
+              "range": "27–35",
+              "title": "Por baixo da cauda até à anca",
+              "learn": "Agora voltamos para trás. Os pontos 27 a 35 correm por baixo da cauda em direção à anca, traçando o lado de baixo daquela poderosa trave de equilíbrio. Aqui é preciso contar com cuidado, porque os pontos ficam muito próximos: um bom momento para abrandar e verificar cada número antes de desenhar.",
+              "fact": "À altura da anca, um T-Rex media cerca de 3,6 metros. O corpo inteiro podia chegar aos 12 metros do focinho à ponta da cauda — mais ou menos o comprimento de um autocarro escolar."
+            },
+            {
+              "range": "36–48",
+              "title": "As pernas poderosas e os pés",
+              "learn": "Os pontos 36 a 48 constroem as pernas traseiras e os dois pés com garras. Eram o motor de todo o animal, e esta secção premeia traços firmes e confiantes. Há algum ziguezague entre os dedos, por isso também se treina a motricidade fina mesmo quando as crianças julgam que estão só a desenhar pés de dinossauro.",
+              "fact": "Uma única pegada de T-Rex podia ultrapassar um metro de comprimento. Durante anos discutiu-se a sua velocidade — a investigação atual aponta para um passo de cerca de 5 km/h e arranques curtos perto dos 20 km/h. Suficientemente rápido."
+            },
+            {
+              "range": "49–58",
+              "title": "A barriga e aqueles bracinhos",
+              "learn": "Liga os pontos 49 a 58 para desenhar a barriga, o peito e os famosos braços pequeninos. Todas as crianças se riem destes braços, e é exatamente por isso que esta secção é tão divertida de desenhar. As linhas mudam de direção com frequência, por isso é a parte mais complicada do puzzle: perfeita para os contadores confiantes a quem esta ficha de 61 pontos se destina.",
+              "fact": "Aqueles bracinhos mediam apenas cerca de um metro, mas cada um conseguia levantar uns 180 quilos. Pequenos, sim — mas ninguém lhes chamaria fracos."
+            },
+            {
+              "range": "59–61",
+              "title": "A fechar a mandíbula",
+              "learn": "Faltam só três pontos. Liga o 59, o 60 e o 61 para terminar a mandíbula inferior e completar o contorno imponente. A última linha chega mesmo ao pé do ponto 1: um círculo completo muito satisfatório, que mostra às crianças que o desenho inteiro foi uma única viagem contínua.",
+              "fact": "Ao T-Rex nunca faltavam dentes. Quando um partia ou se gastava, crescia simplesmente outro no lugar: uma reserva vitalícia de punhais afiados, alguns com até 30 centímetros contando a raiz."
+            }
+          ],
+          "outro": "São 61 pontos conquistados — o maior desafio de dinossauros do nosso site! Se a tua criança terminou este sem dificuldade, as fichas fáceis já lhe ficaram pequenas. Experimenta o resto das nossas <a href=\"/dinosaurs/\">fichas de ligar os pontos de 1 a 100</a> para completar a coleção, e pinta este T-Rex antes que se vá embora.",
+          "color_schemes": []
         }
-      ],
-      "outro": "Muito bem! Acabaste de desenhar um Brontossauro de verdade! São 50 pontos, cinco partes do corpo e muita diversão pré-histórica. Agora, pegue nos lápis de cor e dê ao seu lagarto trovão um esquema de cores só dele. Quer mais? Veja todos os nossos <a href=\"/\">desenhos de ligar os pontos para imprimir</a> ."
+      }
     },
-    "seoTitle": "Brontosaurus Conecte os Pontos — Lagarto do Trovão em 50 Pontos"
-  },
-  {
-    "slug": "triceratops-dot-to-dot-puzzle",
-    "name": "Tricerátopo",
-    "seoH1": "Triceratops Conecte os Pontos: 70 Pontos de Três Chifres Grátis",
-    "tagline": "Três chifres, um quebra-cabeça incrível",
-    "description": "Siga os pontos para desenhar o dinossauro com chifres mais icônico de todos os tempos. O Triceratops tinha três chifres faciais e uma enorme franja óssea — e viveu ao lado do T-Rex! Esta folha de conecte os pontos é perfeita para jardim de infância e 1ª série.",
-    "seoDescription": "O Triceratops tinha três chifres e uma ampla franja óssea. Conecte 70 pontos com esta folha de atividades gratuita de conecte os pontos para jardim de infância e primeira série.",
-    "funFact": "Os chifres do Triceratops podiam crescer até 3 pés de comprimento — mais longo do que um bastão de beisebol!",
-    "seoImageAlt": "Triceratops de três chifres e sua franja óssea emergindo de 70 pontos imprimíveis",
-    "dotGuide": {
-      "intro": "With three horns, a magnificent bony frill, and the courage to stand up to a T-Rex, Tricerátopo is one of the most recognisable dinosaurs that ever lived. This atividade has 70 pontos — a proper challenge that rewards patience and careful counting. Work through it section by section and a truly spectacular dinosaur will emerge. Ready? Let's go!",
-      "sections": [
-        {
-          "range": "1–12",
-          "title": "Os três chifres e focinho",
-          "learn": "Begin at ponto 1 and trace through to ponto 12 to draw Tricerátopo's most famous feature — the two long brow horns and the shorter nose horn. This section involves several direction changes, which is fantastic for developing controle do lápis and spatial awareness in crianças aged 6 and up.",
-          "fact": "The two brow horns could grow up to three feet long — longer than a baseball bat! Scientists believe Tricerátopo used them both for defence against predators and for sparring with other Tricerátopo during competition for territory and mates."
+    {
+      "slug": "ostriches-dinosaur-dot-to-dot-puzzle",
+      "header": {
+        "title": "Ostrich Conecte os Pontos: 55 Pontos para o Pássaro Mais Rápido",
+        "meta_description": "Avestruzes podem correr a até 45 mph. Revele um através de 55 pontos em nossas páginas gratuitas de conecte os pontos para crianças de 5 a 8 anos, com um PDF imprimível pronto para usar.",
+        "og": {
+          "title": "Ostrich Conecte os Pontos: 55 Pontos para o Pássaro Mais Rápido",
+          "description": "Avestruzes podem correr a até 45 mph. Revele um através de 55 pontos em nossas páginas gratuitas de conecte os pontos para crianças de 5 a 8 anos, com um PDF imprimível pronto para usar.",
+          "image_alt": "Avestruz correndo, pescoço esticado, capturado em 55 pontos imprimíveis"
         },
-        {
-          "range": "13–26",
-          "title": "O babado",
-          "learn": "Ligue pontos 13 through 26 to sweep out the large, semicircular frill that frames the back of the head. Children practise a wide, arcing motion here — a great exercise in keeping the pencil moving confidently across the page. Encourage them to lift their wrist and draw from the shoulder.",
-          "fact": "O babado não era de osso sólido – tinha duas grandes aberturas cobertas de pele, o que o mantinha mais claro do que parecia. Alguns cientistas acham que o babado era colorido em vida, usado para comunicar humor e saúde, um pouco como um quadro de exibição vivo."
-        },
-        {
-          "range": "27–42",
-          "title": "O corpo",
-          "learn": "Trace pontos 27 to 42 for the broad, sturdy body. Tricerátopo was built low and wide, and crianças begin to see how the shape differs from the taller sauropods. This is the longest run of pontos in the atividade — a brilliant opportunity to practise sustained foco.",
-          "fact": "Tricerátopo was about 30 feet long and weighed up to 12 tonnes — roughly the same as two African elephants! Despite that bulk, it was agile enough to move at speed. Imagine seeing one of those magnificent horns coming toward you — quite a sight, even for a T-Rex!"
-        },
-        {
-          "range": "43–58",
-          "title": "As Quatro Pernas",
-          "learn": "Ligue pontos 43 to 58 to add the four powerful, slightly sprawling legs. Unlike the straight, pillar-like legs of the sauropods, Tricerátopo legs spread out a little at the elbows. Children notice this difference if you point it out — building lovely observational skills alongside fine motor practice.",
-          "fact": "Tricerátopo had hooves rather than claws — a surprising fact that often delights crianças! The front legs could pivot outward to help it lower its head and charge forward like a bulldozer, using those three magnificent horns to lead the way."
-        },
-        {
-          "range": "59–70",
-          "title": "A cauda",
-          "learn": "Finish the atividade by connecting pontos 59 through 70 to draw the short, thick tail. Compared to the sweeping tails of plant-eating sauropods, the Tricerátopo tail is broad and sturdy. Children practise a shorter, more controlled finish — a satisfying end to a bigger challenge.",
-          "fact": "Fossil evidence shows that T-Rex and Tricerátopo lived in the same time and place — the western Estados Unidos around 68 million years ago. Scientists think Tricerátopo used its three impressive horns to defend itself, and there is evidence that the two met more than once. It was a very busy neighbourhood!"
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Avestruz",
+          "description": "Avestruzes podem correr a até 45 mph. Revele um através de 55 pontos em nossas páginas gratuitas de conecte os pontos para crianças de 5 a 8 anos, com um PDF imprimível pronto para usar.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
         }
-      ],
-      "outro": "Excelente concentração — 70 pontos não é coisa pouca! O seu Triceratops está completo. Pergunte ao seu filho qual a parte que achou mais difícil e porquê. Este tipo de reflexão é tão valioso como o próprio desenho. Preparado para um desafio maior? Experimente os nossos <a href=\"/usa-250/\">desenhos de ligar os pontos para imprimir</a> ."
-    },
-    "seoTitle": "Triceratops Conecte os Pontos: 70 Pontos de Três Chifres Grátis"
-  },
-  {
-    "slug": "velociraptor-dot-to-dot-puzzle",
-    "name": "Velociraptor",
-    "seoH1": "Velociraptor Conecte os Pontos — 54 Pontos Ágeis, PDF Grátis",
-    "tagline": "Rápido, Inteligente e Pronto para Atacar",
-    "description": "Conecte os pontos para revelar o astuto Velociraptor — famoso de Jurassic Park! Na vida real, os Velociraptors eram caçadores com penas do tamanho de um peru. Esta atividade desenvolve habilidades de sequenciamento numérico para crianças de 5 a 8 anos.",
-    "seoDescription": "Os Velociraptors reais eram do tamanho de perus e tinham penas. Revele um em 54 pontos com este imprimível de conectar os pontos para crianças de 5 a 8 anos.",
-    "funFact": "“Velociraptor” significa ladrão rápido – ele pode correr até 40 km/h!",
-    "seoImageAlt": "Velociraptor com penas pronto para correr, esboçado em 54 pontos imprimíveis",
-    "dotGuide": {
-      "intro": "Everyone thinks they know what a Velociraptor looks like — but this atividade might surprise them! The real Velociraptor was feathered, roughly the size of a large turkey, and far cleverer than most of its dinosaur cousins. Hollywood made it bigger, but nature made it smarter. Grab a pencil and meet the real star of the Cretaceous!",
-      "sections": [
-        {
-          "range": "1–8",
-          "title": "A cabeça e as mandíbulas",
-          "learn": "Start at ponto 1 and ligue through to ponto 8 to trace the long, narrow skull and slightly curved jaws. The Velociraptor had a particularly slender head compared to its body — crianças learn to follow a more elongated shape here, which is a useful shift from rounder dinosaur heads. Slow and steady wins this one.",
-          "fact": "O Velociraptor tinha cerca de 80 dentes pequenos e serrilhados, projetados para agarrar em vez de rasgar. Estudos de sua cavidade cerebral mostram que ele tinha excelente visão e um olfato apurado – ele caçava pela visão, pelo olfato e possivelmente pela audição, o que o tornava um pequeno predador notavelmente bem equipado."
-        },
-        {
-          "range": "9–20",
-          "title": "O pescoço e o corpo emplumado",
-          "learn": "Continue from ponto 9 to ponto 20 to build the curved neck and compact body. This is where crianças often start to see the bird-like quality of the Velociraptor, which makes for a wonderful sala de aula discussion. The pontos curve smoothly — a good section for practising consistent pencil pressure.",
-          "fact": "Paleontólogos encontraram protuberâncias de pena nos ossos do braço do Velociraptor – as mesmas protuberâncias que você vê nas asas dos pássaros modernos, onde as penas se ancoram. O Velociraptor quase certamente estava coberto de penas, embora não pudesse voar. É essencialmente uma pequena ave caçadora que não voa."
-        },
-        {
-          "range": "21–32",
-          "title": "Os braços e as garras",
-          "learn": "Trace pontos 21 through 32 for the relatively long arms and three-fingered hands. Unlike T-Rex's tiny arms, Velociraptor had arms it could actually use — for holding on and moving through its environment. Children practise sharper angles in this section, mimicking the angular, bird-wing shape of the forelimbs.",
-          "fact": "As garras do Velociraptor eram fortes e curvas – muito úteis para agarrar e segurar com força. Pesquisas recentes sugerem que ele pode ter usado os braços de maneira semelhante à forma como os falcões e as águias pousam nos galhos hoje, pressionando para baixo com o peso do corpo."
-        },
-        {
-          "range": "33–44",
-          "title": "As pernas e a garra especial",
-          "learn": "Ligue pontos 33 to 44 to draw the powerful hind legs and that famous sickle-shaped claw on the second toe. Children often recognise this claw from films, which makes it a motivating section. The pontos are close together here, encouraging precision and careful number recognition.",
-          "fact": "A icônica garra curva em cada pé foi mantida fora do chão quando o Velociraptor andou para mantê-la bem afiada – um pouco como um gato mantendo suas garras arrumadas! Os cientistas agora pensam que era usado principalmente para agarrar e segurar, e não para qualquer outra coisa."
-        },
-        {
-          "range": "45–54",
-          "title": "A cauda rígida",
-          "learn": "Finish by connecting pontos 45 through 54 to add the long, stiffened tail. Unlike the flexible tails of lizards, the Velociraptor tail was held straight out behind it, acting as a counterbalance when running and turning at speed. A confident, straight finish to a dynamic atividade.",
-          "fact": "O Velociraptor podia atingir velocidades de cerca de 40 quilômetros por hora – rápido para um pequeno predador, embora mais lento que a versão do Jurassic Park. Sua cauda enrijeceu naturalmente através de tendões ossificados, permitindo que ele fizesse curvas fechadas sem tombar, quase como um estabilizador embutido."
+      },
+      "body": {
+        "h1": "Ostrich Conecte os Pontos: 55 Pontos para o Pássaro Mais Rápido",
+        "name": "Avestruz",
+        "tagline": "O maior pássaro do mundo",
+        "description": "Conecte 55 pontos fáceis para revelar o magnífico Avestruz — a maior ave viva na Terra! Avestruzes não podem voar, mas correm mais rápido que um cavalo. Esta folha de atividades imprimível ajuda crianças da educação infantil a praticar sequenciamento numérico e controle do lápis enquanto aprendem sobre este incrível animal.",
+        "fun_fact": "Avestruzes são as aves mais rápidas da Terra, alcançando velocidades de até 45 mph!",
+        "faqs": [
+          {
+            "q": "Quantos pontos tem o jogo de ligar os pontos da avestruz?",
+            "a": "O desenho da avestruz para ligar os pontos tem 55 pontos numerados. Isto torna-o um puzzle de nível fácil a médio, mais adequado para crianças dos 5 aos 8 anos (do jardim de infância ao 2º ano do ensino básico). As crianças ligam os pontos por ordem numérica para revelar a imagem completa da avestruz e depois colorem-na."
+          },
+          {
+            "q": "O desenho de avestruz para ligar os pontos é gratuito para imprimir?",
+            "a": "Sim. A ficha de atividades da avestruz é 100% gratuita para descarregar a partir de DotToDotFreePrintables.com — sem necessidade de conta, e-mail ou pagamento. O download é instantâneo, em formato PDF pronto a imprimir, nos formatos retrato e paisagem, e nos tamanhos Carta (US Letter) ou A4."
+          },
+          {
+            "q": "Para que faixa etária é mais indicada a ficha de atividades \"Avestruz: Liga os Pontos\"?",
+            "a": "Com 55 pontos, o puzzle Avestruz é ideal para crianças dos 5 aos 8 anos (do jardim de infância ao 2º ano do ensino básico). As crianças mais pequenas podem divertir-se com a ajuda de um adulto para contar em conjunto, enquanto as mais confiantes podem completá-lo sozinhas e praticar a sequência numérica até 55."
+          },
+          {
+            "q": "Que competências ensina o jogo de ligar os pontos da avestruz?",
+            "a": "A ligação dos 55 pontos do puzzle da avestruz desenvolve o reconhecimento de números e a contagem até 55, o controlo do lápis, a coordenação motora e a concentração sustentada — as mesmas bases da motricidade fina que suportam a escrita inicial. Colorir a imagem finalizada acrescenta uma recompensa criativa."
+          },
+          {
+            "q": "Qual é uma curiosidade interessante sobre o avestruz?",
+            "a": "As avestruzes são as aves mais rápidas da Terra, atingindo velocidades até 72 km/h! As crianças descobrem factos como este enquanto completam o puzzle de ligar os pontos da avestruz."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Did you know ostriches are the largest birds alive today — and they are actually living relatives of the dinosaurs? Everything about an ostrich is built for speed and survival on the open African plains. This ponto-to-ponto is a wonderful way to explore one of nature's most extraordinary creatures. Sharpen a pencil, find ponto 1, and let's bring this magnificent bird to life!",
+          "sections": [
+            {
+              "range": "1–8",
+              "title": "A cabeça e o bico",
+              "learn": "Start at ponto 1 and ligue through to ponto 8 to sketch the ostrich's small, rounded head and flat beak. The head is surprisingly tiny compared to the bird's body — crianças naturally notice this, which opens a great conversation about animal proportions. Short, gentle strokes work best here.",
+              "fact": "O olho de um avestruz é maior que o seu cérebro – com cerca de cinco centímetros de diâmetro, é o maior olho de qualquer animal terrestre na Terra. Esses olhos enormes ajudam-no a detectar predadores como leões e chitas de muito longe, através da savana plana."
+            },
+            {
+              "range": "9–20",
+              "title": "O pescoço comprido",
+              "learn": "Continue from ponto 9 to ponto 20 to draw the long, graceful neck that sweeps down from the head to the body. This is one of the most satisfying seções of the atividade — crianças learn to keep their pencil moving in one flowing direction without lifting it. A lovely lesson in smooth line control.",
+              "fact": "O pescoço de um avestruz pode ter até um metro de comprimento e é quase totalmente sem penas. A pele nua muda de cor quando o avestruz está excitado ou tentando atrair um parceiro – tornando-se rosa brilhante ou vermelho. O anel de humor da natureza!"
+            },
+            {
+              "range": "21–35",
+              "title": "O corpo e as asas",
+              "learn": "Trace pontos 21 through 35 to fill out the ostrich's round, fluffy body and its small, decorative wings. Although ostriches cannot fly, their wings still play an important role. Children practise drawing rounder, more oval shapes here — a different challenge from the straight lines of the neck.",
+              "fact": "Os avestruzes usam suas asas como um leme quando correm, inclinando-se para a esquerda ou para a direita para ajudá-los a mudar de direção em alta velocidade. Eles também os espalharam para proteger seus filhotes do sol escaldante da África – guarda-sóis embutidos!"
+            },
+            {
+              "range": "36–46",
+              "title": "As pernas poderosas",
+              "learn": "Ligue pontos 36 to 46 to draw the two long, muscular legs. These are the fastest legs of any bird on the planet, and crianças begin to appreciate just how long they are relative to the body. Encourage steady, confident downward strokes — this section rewards a bold hand.",
+              "fact": "Um avestruz pode correr a até 45 milhas por hora e continuar correndo a 30 mph por longas distâncias. Uma única passada pode cobrir até 5 metros – aproximadamente o comprimento de um carro familiar. Tentar fugir de um seria uma péssima ideia!"
+            },
+            {
+              "range": "47–55",
+              "title": "Os pés e as penas da cauda",
+              "learn": "Finish by connecting pontos 47 through 55 to add the distinctive two-toed feet and flowing tail feathers. Ostriches are the only birds with just two toes on each foot. Children practise smaller, more detailed work here — a great exercise in precision as the atividade nears completion.",
+              "fact": "Cada pé de avestruz tem um dedo grande e dominante com uma unha longa e resistente que funciona como um casco – ótimo para correr em solo duro! Os avestruzes são surpreendentemente corajosos e permanecerão firmes para proteger seus filhotes. Realmente um pássaro muito ousado!"
+            }
+          ],
+          "outro": "Excelente trabalho! O seu avestruz está pronto para correr! Contou todos os 55 pontos? Tente escrever os números de 1 a 55 no verso da página como um desafio extra — os pais e os professores adoram esta atividade. Procura mais páginas para utilizar em sala de aula? Veja as nossas <a href=\"/playgrounds/\">fichas de atividades de ligar os pontos</a> .",
+          "color_schemes": []
         }
-      ],
-      "outro": "Trabalho fantástico! Desenhaste um dos dinossauros mais incompreendidos da história. Que tal pesquisar como era o Velociraptor na vida real, em comparação com a versão do filme? É uma ótima lição de que a vida real é, muitas vezes, mais interessante do que a ficção! Conheça mais amigos pré-históricos na nossa coleção de <a href=\"/dinosaurs/\">desenhos de dinossauros para ligar os pontos</a> ."
+      }
     },
-    "seoTitle": "Velociraptor Conecte os Pontos — 54 Pontos Ágeis, PDF Grátis"
-  },
-  {
-    "slug": "stegosaurus-dot-to-dot-puzzle",
-    "name": "Estegossauro",
-    "seoH1": "Stegosaurus Conecte os Pontos: 52 Pontos & Placas em Forma de Diamante",
-    "tagline": "Placas pontiagudas, diversão gigante",
-    "description": "Conecte 52 pontos para desenhar o incrível Stegosaurus com sua dupla fileira de placas em forma de diamante ao longo de suas costas. Este fácil conectar os pontos é um favorito para crianças da pré-escola e jardim de infância que estão desenvolvendo sequenciamento numérico, controle do lápis e concentração.",
-    "seoDescription": "Desenhe o Stegosaurus de suas placas em forma de diamante até sua cauda espinhosa em 52 pontos. Obtenha a folha imprimível de conectar os pontos grátis para crianças de 4 a 7 anos.",
-    "funFact": "O Estegossauro tinha um cérebro do tamanho de uma noz — mas a cauda cheia de espigões era o seu superpoder!",
-    "seoImageAlt": "Stegosaurus com sua dupla fileira de placas nas costas construído a partir de 52 pontos imprimíveis",
-    "dotGuide": {
-      "intro": "Com a fileira de placas em forma de losango a percorrer-lhe o dorso e quatro espigões afiados na cauda, o Estegossauro é um dos dinossauros mais reconhecíveis do mundo. Este puzzle de 52 pontos tem o tamanho perfeito para os mais pequenos: desafio q.b. para ser gratificante, sem nunca sobrecarregar. Encontra o ponto 1 e deixa essas placas magníficas ganharem forma!",
-      "sections": [
-        {
-          "range": "1–6",
-          "title": "O pescoço e o peito",
-          "learn": "Começa no ponto 1, mesmo por baixo do queixo do Estegossauro, e liga para baixo até ao ponto 6 para traçar o pescoço e o peito. A cabeça já está desenhada e à espera: a tua linha limita-se a uni-la ao resto do corpo. Seis pontos são um começo acessível para mãos pequenas que estão a ganhar confiança.",
-          "fact": "O Estegossauro tinha um dos cérebros mais pequenos em relação ao corpo de todos os dinossauros: mais ou menos uma noz dentro de um corpo do comprimento de um autocarro escolar. Ainda assim sobreviveu milhões de anos — um bom lembrete de que o cérebro não é tudo!"
+    {
+      "slug": "brontosaurus-dot-to-dot-puzzle",
+      "header": {
+        "title": "Brontosaurus Conecte os Pontos — Lagarto do Trovão em 50 Pontos",
+        "meta_description": "Brontosaurus significa lagarto do trovão. Trace seu longo pescoço e cauda através de 50 pontos com esta folha de conecte os pontos imprimível gratuita para crianças de 4 a 7 anos.",
+        "og": {
+          "title": "Brontosaurus Conecte os Pontos — Lagarto do Trovão em 50 Pontos",
+          "description": "Brontosaurus significa lagarto do trovão. Trace seu longo pescoço e cauda através de 50 pontos com esta folha de conecte os pontos imprimível gratuita para crianças de 4 a 7 anos.",
+          "image_alt": "Brontosaurus de pescoço longo se esticando através de 50 pontos em uma folha imprimível para pré-escola"
         },
-        {
-          "range": "7–15",
-          "title": "As pernas dianteiras",
-          "learn": "Liga os pontos 7 a 15 para desenhar as duas pernas dianteiras robustas e os seus pés largos e arredondados. A linha muda aqui de direção algumas vezes, ao descer a cada pé e voltar a subir — incentiva as crianças a confirmarem cada número antes de traçarem a linha seguinte.",
-          "fact": "As pernas dianteiras do Estegossauro eram muito mais curtas do que as traseiras — quase metade do comprimento. Essa diferença dava ao animal o famoso dorso arqueado e mantinha a cabecinha junto ao chão, perfeita para mordiscar plantas rasteiras e fetos."
-        },
-        {
-          "range": "16–27",
-          "title": "A barriga e as pernas traseiras",
-          "learn": "Segue os pontos 16 a 27 para desenhar a longa linha da barriga e as possantes pernas traseiras. É o troço mais largo do puzzle até agora e um bom sítio para treinar um ritmo constante — ponto, linha, ponto, linha — até aos pés traseiros.",
-          "fact": "O Estegossauro viveu há cerca de 150 milhões de anos, no final do período Jurássico. Foi há tanto tempo que o Tiranossauro Rex viveu mais perto de nós, no tempo, do que do Estegossauro!"
-        },
-        {
-          "range": "28–38",
-          "title": "Ao longo da cauda",
-          "learn": "Liga os pontos 28 a 38 para desenhar o longo lado de baixo da cauda, que se estende atrás do corpo. Os pontos seguem aqui uma única curva suave e fluida — uma secção ótima para praticar traços contínuos sem levantar muito o lápis.",
-          "fact": "As placas do dorso do Estegossauro eram demasiado finas para servirem de armadura. Os cientistas acreditam que estavam cheias de vasos sanguíneos que ajudavam a regular a temperatura do corpo, ficando vermelhas ou rosadas quando o animal se entusiasmava — e talvez também atraíssem parceiros, como uma cauda de pavão pré-histórica."
-        },
-        {
-          "range": "39–52",
-          "title": "A ponta da cauda com espigões e o dorso",
-          "learn": "Termina o puzzle ligando os pontos 39 a 52: desenha a ponta da cauda com os seus quatro espigões afiados e sobe depois pela parte de cima da cauda até encontrares a última placa do dorso. É a secção mais complicada, com pontos muito juntos à volta dos espigões: um final cuidadoso faz o desenho inteiro encaixar de uma só vez.",
-          "fact": "Os espigões da cauda — os paleontólogos chamam-lhes «thagomizer» — podiam chegar a um metro, mais do que uma guitarra! Os fósseis mostram que o Estegossauro os usava para se defender com confiança. Até o herbívoro mais manso sabe cuidar de si!"
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Brontossauro",
+          "description": "Brontosaurus significa lagarto do trovão. Trace seu longo pescoço e cauda através de 50 pontos com esta folha de conecte os pontos imprimível gratuita para crianças de 4 a 7 anos.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
         }
-      ],
-      "outro": "Conseguiste — 52 pontos e um Estegossauro espetacular! Agora pinta essas placas do dorso com os teus tons preferidos. Ninguém sabe ao certo de que cor era o Estegossauro, por isso qualquer cor que escolhas vale tanto como o melhor palpite de um cientista. Estás só a começar? Experimenta mais <a href=\"/playgrounds/\">fichas de ligar os pontos para crianças</a>."
-    },
-    "seoTitle": "Stegosaurus Conecte os Pontos: 52 Pontos & Placas em Forma de Diamante"
-  },
-  {
-    "slug": "spinosaurus",
-    "name": "Espinossauro",
-    "seoH1": "Spinosaurus Conecte os Pontos — 74 Pontos, Maior Que o T-Rex",
-    "tagline": "Maior que o T-Rex",
-    "description": "Conecte os pontos para revelar o maior dinossauro carnívoro já descoberto — maior até do que o T-Rex! O Spinosaurus tinha uma grande vela em suas costas e caçava peixes em rios. Ótimo para alunos da 1ª e 2ª séries que adoram dinossauros grandes.",
-    "seoDescription": "O Spinosaurus era mais longo que o T-Rex e tinha uma grande vela. Revele-o em 74 pontos neste PDF imprimível grátis de conectar os pontos para as séries 1-2.",
-    "funFact": "O Spinosaurus podia ter até 59 pés de comprimento — mais longo do que um ônibus escolar!",
-    "seoImageAlt": "Spinosaurus com vela emergindo através de 74 pontos em um imprimível grátis de dinossauro",
-    "dotGuide": {
-      "intro": "Move over, T-Rex — meet the Spinosaurus, the largest meat-eating dinosaur ever to walk the Earth! Longer than a escola bus and equally at casa in water as on land, Spinosaurus was a truly extraordinary animal. Its giant back sail makes it one of the most dramatic dinosaurs to draw. Grab a pencil and let this prehistoric giant rise from the page!",
-      "sections": [
-        {
-          "range": "1–15",
-          "title": "A cabeça e as mandíbulas do crocodilo",
-          "learn": "Start at ponto 1 and work through to ponto 8 to sketch the long, narrow skull that looks more like a crocodile than a typical dinosaur. Children immediately notice how different this head shape is from T-Rex, which is a fantastic observation to encourage. The elongated snout rewards a steady, patient hand.",
-          "fact": "Spinosaurus had cone-shaped teeth ideal for catching slippery fish — very different from the blade-like teeth of T-Rex. Its nostrils were positioned high on the skull, like a crocodile's, allowing it to keep most of its head submerged enquanto still breathing. A brilliant piece of natural engineering."
-        },
-        {
-          "range": "16–30",
-          "title": "A Vela Gigante",
-          "learn": "Continue from ponto 9 to ponto 20 to draw the towering sail that rises dramatically from the spine. This is the most thrilling section of the atividade — the sail can be up to six feet tall, and crianças get to trace its full impressive height. Long, upward strokes build great arm confiança.",
-          "fact": "A vela era sustentada por espinhos que se estendiam desde as vértebras, alguns com mais de um metro e meio de altura. Os cientistas ainda debatem o seu propósito - pode ter regulado a temperatura, armazenado gordura como a corcunda de um camelo ou sido uma estrutura de exibição espetacular para atrair parceiros ou intimidar rivais."
-        },
-        {
-          "range": "31–45",
-          "title": "O corpo",
-          "learn": "Trace pontos 21 through 32 for the long, muscular body. Spinosaurus had a relatively low body profile compared to other large carnivores — adapted for swimming and wading in rivers. Children practise a flatter, more horizontal body shape here, which is a refreshing contrast to the upright stance of T-Rex.",
-          "fact": "Novas descobertas de fósseis mostram que o Espinossauro tinha ossos curtos e densos – o oposto do que a maioria dos dinossauros tinha – o que o tornava menos flutuante e mais adequado à vida subaquática, tal como as aves mergulhadoras modernas. É o único dinossauro que conhecemos que passou um tempo significativo nadando."
-        },
-        {
-          "range": "46–60",
-          "title": "As pernas e a cauda",
-          "learn": "Ligue pontos 33 to 44 to add the legs and long, broad tail. The tail was paddle-shaped — another recent discovery that shocked palaeontologists — making it an effective swimming tool. Children practise both the stocky hind legs and the wide, flat tail shape in this final section.",
-          "fact": "O Espinossauro provavelmente caminhava lento e desajeitado em terra, mas era um nadador forte em rios. A sua cauda em forma de remo só foi confirmada em 2020 a partir de espécimes fósseis recentemente encontrados em Marrocos – provando que mesmo os dinossauros mais estudados ainda nos podem surpreender."
-        },
-        {
-          "range": "61–74",
-          "title": "A Cauda em Forma de Remo",
-          "learn": "Termine com os pontos 61 a 74 para completar a longa e ampla cauda em forma de remo. A cauda foi outra descoberta recente que chocou os paleontólogos, tornando-se uma ferramenta eficaz de natação. As crianças praticam a forma larga e plana da cauda nesta seção final.",
-          "fact": "O Spinosaurus provavelmente era um caminhante lento e desajeitado em terra, mas um forte nadador em rios. Sua cauda em forma de remo foi confirmada apenas em 2020 a partir de novos fósseis encontrados no Marrocos — provando que até os dinossauros mais estudados ainda podem nos surpreender."
+      },
+      "body": {
+        "h1": "Brontosaurus Conecte os Pontos — Lagarto do Trovão em 50 Pontos",
+        "name": "Brontossauro",
+        "tagline": "O amigável lagarto trovão",
+        "description": "Conecte 50 pontos fáceis para revelar um alegre Brontosaurus com um pescoço longo e cauda ampla. Esta folha de atividades imprimível ajuda crianças da pré-escola e do início da educação infantil a praticar sequenciamento numérico, controle do lápis e concentração.",
+        "fun_fact": "\"Brontossauro\" means thunder lizard, a name inspired by its enormous size!",
+        "faqs": [
+          {
+            "q": "Quantos pontos tem o puzzle de ligar os pontos do Brontossauro?",
+            "a": "O desenho para imprimir do Brontossauro para ligar os pontos tem 50 pontos numerados. Isto torna-o um puzzle de nível fácil a médio, mais adequado para crianças dos 5 aos 8 anos (do jardim de infância ao 2º ano do ensino básico). As crianças ligam os pontos por ordem numérica para revelar a imagem completa do brontossauro e depois colorem-na."
+          },
+          {
+            "q": "O desenho de ligar os pontos do Brontossauro é gratuito para imprimir?",
+            "a": "Sim. A ficha de atividades do Brontossauro é 100% gratuita para descarregar a partir de DotToDotFreePrintables.com — sem necessidade de registo, e-mail ou pagamento. O download é instantâneo, em formato PDF pronto a imprimir, nos formatos retrato e paisagem, e nos tamanhos Carta (US Letter) ou A4."
+          },
+          {
+            "q": "Para que faixa etária é mais indicada a ficha de atividades \"Ligue os Pontos\" do Brontossauro?",
+            "a": "Com 50 pontos, o puzzle Brontossauro é mais indicado para crianças dos 5 aos 8 anos (do jardim de infância ao 2º ano do ensino básico). As crianças mais pequenas podem divertir-se com a ajuda de um adulto para contar em conjunto, enquanto as mais confiantes podem completá-lo sozinhas e praticar a sequência numérica até 50."
+          },
+          {
+            "q": "Que competências ensina o jogo de ligar os pontos do Brontossauro?",
+            "a": "A ligação dos 50 pontos do puzzle do Brontossauro desenvolve o reconhecimento de números e a contagem até 50, o controlo do lápis, a coordenação motora e a concentração sustentada — as mesmas bases da motricidade fina que suportam a escrita inicial. Colorir a imagem finalizada acrescenta uma recompensa criativa."
+          },
+          {
+            "q": "Qual é uma curiosidade interessante sobre o brontossauro?",
+            "a": "\"Brontossauro\" significa lagarto trovão, um nome inspirado no seu enorme tamanho! As crianças descobrem factos como este enquanto completam o puzzle de ligar os pontos do Brontossauro."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Welcome to one of the most loveable dinosaur atividades in the whole collection! The Brontossauro — whose name means \"thunder lizard\" — was one of the biggest creatures ever to walk our planet. Grab a pencil, find ponto number one, and let's bring this gentle giant back to life, one line at a time!",
+          "sections": [
+            {
+              "range": "1–8",
+              "title": "A cabeça",
+              "learn": "Start at ponto 1 and ligue through to ponto 8 to trace the Brontossauro's surprisingly small, wedge-shaped head. Children practise short, careful pencil strokes and gentle curved lines here — a lovely way to build early controle do lápis before tackling bigger shapes.",
+              "fact": "Brontossauro had peg-like teeth designed only for stripping leaves off branches, not for chewing. It swallowed plants whole and let its massive stomach do the hard work — a pretty clever system, really!"
+            },
+            {
+              "range": "9–18",
+              "title": "O pescoço comprido",
+              "learn": "Now here comes the showstopper. Ligue pontos 9 through 18 to draw that famously long, sweeping neck that curves gracefully upward. This is a brilliant section for practising smooth, flowing lines — crianças discover that longer curves need more patience and a steadier hand.",
+              "fact": "The Brontossauro's neck stretched up to 20 feet long — roughly the height of a two-storey house! Scientists now believe it grazed mainly at low to mid-level plants rather than craning up into treetops the way a giraffe does."
+            },
+            {
+              "range": "19–32",
+              "title": "O corpo",
+              "learn": "Continue from ponto 19 all the way to ponto 32 to fill out the Brontossauro's massive, barrel-shaped torso. This longest section of the atividade is great for building concentration and stamina — crianças learn to keep going even when the task feels big. Sound familiar?",
+              "fact": "Brontossauro weighed somewhere between 15 and 17 tonnes — heavier than three African elephants standing together. Despite that extraordinary size, it was entirely a plant-eater, completely harmless, and probably just wanted a quiet life among the ferns."
+            },
+            {
+              "range": "33–42",
+              "title": "As pernas",
+              "learn": "Trace pontos 33 to 42 to form the four thick, column-like legs. Children begin to notice symmetry and how an animal's body is balanced from side to side. Drawing parallel shapes is a real skill, and this section gives little hands plenty of practice.",
+              "fact": "Brontossauro walked on its toes — a bit like a ballerina on four feet! Beneath each foot was a thick, fleshy pad that acted like a natural cushion, softening every thunderous step across the Jurassic landscape."
+            },
+            {
+              "range": "43–50",
+              "title": "A cauda",
+              "learn": "Finish the atividade by connecting pontos 43 through 50 to draw the long, tapering tail sweeping out behind the dinosaur. The tail balanced the heavy neck and gave the Brontossauro its graceful, almost boat-like silhouette. Children practise gradually narrowing their line — a satisfying way to end.",
+              "fact": "Palaeontologists believe Brontossauro could crack its tail like a whip, creating a sound as loud as a thunderclap! Not bad for a gentle giant that spent most of its day munching on plants."
+            }
+          ],
+          "outro": "Muito bem! Acabaste de desenhar um Brontossauro de verdade! São 50 pontos, cinco partes do corpo e muita diversão pré-histórica. Agora, pegue nos lápis de cor e dê ao seu lagarto trovão um esquema de cores só dele. Quer mais? Veja todos os nossos <a href=\"/\">desenhos de ligar os pontos para imprimir</a> .",
+          "color_schemes": []
         }
-      ],
-      "outro": "Excelente trabalho neste desafio de 44 pontos! O teu Espinossauro está pronto para entrar no rio. Este é um puzzle maravilhoso para acompanhar uma visita à biblioteca — existem livros incríveis escritos especialmente para crianças sobre a extraordinária história do Espinossauro. Descubra mais <a href=\"/\">atividades de ligar os pontos</a> gratuitas para todas as idades."
+      }
     },
-    "seoTitle": "Spinosaurus Conecte os Pontos — 74 Pontos, Maior Que o T-Rex"
-  },
-  {
-    "slug": "brachiosaurus",
-    "name": "Braquiossauro",
-    "seoH1": "Brachiosaurus Conecte os Pontos — Gigante Jurássico de 38 Pontos",
-    "tagline": "O Gentil Gigante do Jurássico",
-    "description": "Conecte os pontos para desenhar o dinossauro mais alto e pacífico do período Jurássico. O Brachiosaurus tinha um pescoço longo como o de uma girafa e patas dianteiras mais altas que a maioria das casas. Uma folha de atividades perfeita para crianças que adoram dinossauros grandes e amigáveis.",
-    "seoDescription": "O Brachiosaurus carregava sua cabeça pequena no topo de um pescoço imponente. Conecte 38 pontos para revelar este gigante jurássico em um quebra-cabeça projetado para crianças de 5 a 9 anos.",
-    "funFact": "O braquiossauro pode pesar até 60 toneladas – o peso de 10 elefantes!",
-    "seoImageAlt": "Brachiosaurus imponente alcançando a altura das copas das árvores em 38 pontos imprimíveis",
-    "dotGuide": {
-      "intro": "Imagine a creature whose front legs were taller than a two-storey building. That is the Brachiosaurus — one of the tallest animals that ever existed. Unlike most dinosaurs, its front legs were longer than its back legs, giving it a distinctive, giraffe-like posture perfect for reaching the very tops of ancient trees. Let's ligue the pontos and meet this towering gentle giant!",
-      "sections": [
-        {
-          "range": "1–6",
-          "title": "A pequena cabeça",
-          "learn": "Start at ponto 1 and ligue through to ponto 6 to trace the small, boxy head perched at the very top of that extraordinary neck. Like the Brontossauro, the Brachiosaurus had a relatively tiny head for its body size. Children practise compact, close-together pontos here — a precise start to a big atividade.",
-          "fact": "As narinas do braquiossauro foram posicionadas no topo da cabeça, perto dos olhos. Certa vez, os cientistas pensaram que isso significava que ele vivia debaixo d'água como um hipopótamo, mergulhando nas profundezas. Agora sabemos que era inteiramente um animal terrestre – aquelas narinas altas eram simplesmente uma peculiaridade do formato do crânio."
+    {
+      "slug": "triceratops-dot-to-dot-puzzle",
+      "header": {
+        "title": "Triceratops Conecte os Pontos: 70 Pontos de Três Chifres Grátis",
+        "meta_description": "O Triceratops tinha três chifres e uma ampla franja óssea. Conecte 70 pontos com esta folha de atividades gratuita de conecte os pontos para jardim de infância e primeira série.",
+        "og": {
+          "title": "Triceratops Conecte os Pontos: 70 Pontos de Três Chifres Grátis",
+          "description": "O Triceratops tinha três chifres e uma ampla franja óssea. Conecte 70 pontos com esta folha de atividades gratuita de conecte os pontos para jardim de infância e primeira série.",
+          "image_alt": "Triceratops de três chifres e sua franja óssea emergindo de 70 pontos imprimíveis"
         },
-        {
-          "range": "7–18",
-          "title": "O pescoço imponente",
-          "learn": "Continue from ponto 7 to ponto 18 to sweep the long neck upward at a steep angle. This is the most dramatic section of the atividade — the neck rises sharply, unlike the more horizontal neck of the Brontossauro. Children learn to angle their pencil strokes boldly upward, which takes real confiança.",
-          "fact": "O braquiossauro podia atingir até 12 metros de altura – alto o suficiente para espiar por uma janela do quarto andar! Bombear sangue até o pescoço exigia um coração enorme. Os cientistas estimam que seu coração pesava cerca de 200 quilos – quase o peso de um grande motor de motocicleta."
-        },
-        {
-          "range": "19–30",
-          "title": "O corpo",
-          "learn": "Trace pontos 19 through 30 to fill out the large, barrel-shaped body. Notice how the back slopes downward from the tall front shoulders to the shorter hips — the opposite of most sauropods. This sloping back is one of Brachiosaurus's most distinctive features, and spotting it is a great observation exercise.",
-          "fact": "O braquiossauro pode pesar até 60 toneladas – o peso de dez elefantes africanos. Era necessário consumir até 880 quilos de vegetação todos os dias apenas para abastecer esse volume extraordinário. Isso equivale aproximadamente a comer 1.760 sacos de salada. Todo. Solteiro. Dia."
-        },
-        {
-          "range": "31–38",
-          "title": "As Quatro Pernas Poderosas",
-          "learn": "Finish by connecting pontos 31 through 38 to draw all four legs. The front legs are noticeably longer and more upright than the back legs — crianças who look carefully will spot this slope. Eight pontos is a focused, rewarding finish that builds attention to detail in the final stretch of a atividade.",
-          "fact": "Cada pé do Braquiossauro tinha cinco dedos, com uma grande garra no dedo interno de cada pé dianteiro. Os pés eram largos e redondos, com uma almofada grossa e carnuda por baixo - como a pata de um elefante - projetada para espalhar o enorme peso do animal pelo solo macio do Jurássico."
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Tricerátopo",
+          "description": "O Triceratops tinha três chifres e uma ampla franja óssea. Conecte 70 pontos com esta folha de atividades gratuita de conecte os pontos para jardim de infância e primeira série.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
         }
-      ],
-      "outro": "Ótimo trabalho! O seu Braquiossauro está a alcançar o céu! Compare-o com o puzzle do Brontossauro e peça ao seu filho para encontrar as diferenças. Identificar diferenças visuais entre duas coisas semelhantes é uma excelente competência científica para principiantes. Encontre mais na nossa coleção de <a href=\"/dinosaurs/\">desenhos de dinossauros para ligar os pontos</a> ."
-    },
-    "seoTitle": "Brachiosaurus Conecte os Pontos: 38 Pontos Imprimíveis Altos"
-  },
-  {
-    "slug": "ankylosaurus",
-    "name": "Anquilossauro",
-    "seoH1": "Ankylosaurus Conecte os Pontos — Cauda Armadurada de 32 Pontos",
-    "tagline": "O tanque blindado do mundo Dino",
-    "description": "Conecte os pontos para revelar o Ankylosaurus — a superestrela armadurada do mundo dos dinossauros! Seu corpo inteiro era coberto por placas ósseas, e sua cauda terminava em um enorme e pesado clava. Esta folha de atividades é ótima para jardim de infância e 1ª série.",
-    "seoDescription": "Até o Ankylosaurus tinha armadura óssea sobre suas pálpebras. Revele seu corpo protegido e cauda clava através de 32 pontos em um quebra-cabeça para crianças de 5 a 8 anos.",
-    "funFact": "Até as pálpebras do Anquilossauro tinham placas de armadura óssea!",
-    "seoImageAlt": "Ankylosaurus armadurado e sua cauda clava, juntos a partir de 32 pontos",
-    "dotGuide": {
-      "intro": "What happens when nature decides a dinosaur needs a full suit of armour? You get the Ankylosaurus — covered from nose to tail in bony plates, with a massive club on the end of its tail for balance and protection. This 32-ponto atividade is wonderfully satisfying to complete, and the result is one of the most impressive-looking dinosaurs in the collection!",
-      "sections": [
-        {
-          "range": "1–7",
-          "title": "A cabeça blindada",
-          "learn": "Start at ponto 1 and ligue through to ponto 7 to trace the broad, heavily armoured skull. The head is wide and flat, with a very different shape from the pointed snouts of predatory dinosaurs. Children learn to draw a wide, low shape here — a great contrast to the tall, narrow skulls they may have drawn before.",
-          "fact": "Até as pálpebras do Anquilossauro tinham placas de armadura óssea – talvez o melhor exemplo de evolução que exagera um pouco com uma boa ideia. O crânio estava tão fundido que parecia quase inexpressivo, como um capacete ósseo envolvendo completamente o cérebro."
-        },
-        {
-          "range": "8–18",
-          "title": "As costas blindadas",
-          "learn": "Continue from ponto 8 to ponto 18 to draw the broad, rounded back covered in rows of bony plates, spikes, and knobs called osteoderms. This is the most detailed section visually, and crianças begin to appreciate just how well protected this animal was. A great opportunity to discuss why armour evolved in nature.",
-          "fact": "A armadura que cobria o Anquilossauro era feita de ossos incrustados diretamente na pele – chamados osteodermos – dispostos em fileiras da cabeça à cauda. Esse tipo de armadura é chamada de armadura osteodérmica e é o mesmo tipo que você encontra nos crocodilos e tatus modernos."
-        },
-        {
-          "range": "19–26",
-          "title": "As pernas curtas e robustas",
-          "learn": "Trace pontos 19 through 26 for the four short, powerful legs. Ankylosaurus was built low to the ground intentionally — a low centre of gravity made it very difficult for predators to flip over. Children often make the connection to a tortoise, which opens a lovely discussion about convergent evolution.",
-          "fact": "O Anquilossauro tinha cerca de 6 metros de comprimento, mas tinha apenas cerca de 1,5 metro de altura no quadril – menos que a altura da maioria dos adultos. Suas pernas eram tão robustas e seu corpo tão denso que até mesmo um T-Rex teria enorme dificuldade em tentar atacá-lo por cima."
-        },
-        {
-          "range": "27–32",
-          "title": "A incrível cauda do clube",
-          "learn": "Finish by connecting pontos 27 through 32 to draw the tail and its distinctive club at the end. This is the most satisfying finish of any atividade in the collection — that club is what makes Ankylosaurus so unique. Just six pontos, but each one counts toward one of nature's most extraordinary features.",
-          "fact": "A cauda era formada por vértebras fundidas e podia pesar até 45 quilos – mais pesada do que a maioria dos cães adultos! Os cientistas acham que o Anquilossauro balançou a cauda para manter os outros dinossauros a uma distância segura. Um escudo embutido brilhante para um comedor de plantas gentil!"
+      },
+      "body": {
+        "h1": "Triceratops Conecte os Pontos: 70 Pontos de Três Chifres Grátis",
+        "name": "Tricerátopo",
+        "tagline": "Três chifres, um quebra-cabeça incrível",
+        "description": "Siga os pontos para desenhar o dinossauro com chifres mais icônico de todos os tempos. O Triceratops tinha três chifres faciais e uma enorme franja óssea — e viveu ao lado do T-Rex! Esta folha de conecte os pontos é perfeita para jardim de infância e 1ª série.",
+        "fun_fact": "Os chifres do Triceratops podiam crescer até 3 pés de comprimento — mais longo do que um bastão de beisebol!",
+        "faqs": [
+          {
+            "q": "Quantos pontos tem o puzzle de ligar os pontos do Triceratops?",
+            "a": "O desenho para imprimir do Triceratops para ligar os pontos tem 70 pontos numerados. Isto torna-o um puzzle de dificuldade média, mais adequado para crianças dos 6 aos 9 anos (do 1º ao 3º ano do Ensino Básico). As crianças ligam os pontos por ordem numérica para revelar a imagem completa do triceratops e depois colorem-na."
+          },
+          {
+            "q": "O desenho de ligar os pontos do Triceratops é gratuito para imprimir?",
+            "a": "Sim. A folha de atividades do Triceratops é 100% gratuita para descarregar a partir de DotToDotFreePrintables.com — sem necessidade de registo, e-mail ou pagamento. O download é instantâneo, em formato PDF pronto a imprimir, nos formatos retrato e paisagem, e nos tamanhos Carta (US Letter) ou A4."
+          },
+          {
+            "q": "Para que faixa etária é mais indicada a ficha de atividades de ligar os pontos com o Triceratops?",
+            "a": "Com 70 pontos, o puzzle do Triceratops é mais indicado para crianças dos 6 aos 9 anos (do 1º ao 3º ano do Ensino Básico). As crianças mais pequenas podem divertir-se com a ajuda de um adulto para contar em conjunto, enquanto as mais confiantes podem completá-lo sozinhas e praticar a sequência numérica até 70."
+          },
+          {
+            "q": "Que competências ensina o puzzle de ligar os pontos do Triceratops?",
+            "a": "A ligação dos 70 pontos do puzzle do Triceratops desenvolve o reconhecimento de números e a contagem até 70, o controlo do lápis, a coordenação motora e a concentração sustentada — as mesmas bases da motricidade fina que suportam a escrita inicial. Colorir a imagem finalizada acrescenta uma recompensa criativa."
+          },
+          {
+            "q": "Qual é uma curiosidade interessante sobre o tricerátopo?",
+            "a": "Os cornos do Triceratops podiam crescer até 90 centímetros de comprimento — mais compridos do que um taco de basebol! As crianças descobrem factos como este enquanto completam o puzzle de ligar os pontos do Triceratops."
+          }
+        ],
+        "dot_guide": {
+          "intro": "With three horns, a magnificent bony frill, and the courage to stand up to a T-Rex, Tricerátopo is one of the most recognisable dinosaurs that ever lived. This atividade has 70 pontos — a proper challenge that rewards patience and careful counting. Work through it section by section and a truly spectacular dinosaur will emerge. Ready? Let's go!",
+          "sections": [
+            {
+              "range": "1–12",
+              "title": "Os três chifres e focinho",
+              "learn": "Begin at ponto 1 and trace through to ponto 12 to draw Tricerátopo's most famous feature — the two long brow horns and the shorter nose horn. This section involves several direction changes, which is fantastic for developing controle do lápis and spatial awareness in crianças aged 6 and up.",
+              "fact": "The two brow horns could grow up to three feet long — longer than a baseball bat! Scientists believe Tricerátopo used them both for defence against predators and for sparring with other Tricerátopo during competition for territory and mates."
+            },
+            {
+              "range": "13–26",
+              "title": "O babado",
+              "learn": "Ligue pontos 13 through 26 to sweep out the large, semicircular frill that frames the back of the head. Children practise a wide, arcing motion here — a great exercise in keeping the pencil moving confidently across the page. Encourage them to lift their wrist and draw from the shoulder.",
+              "fact": "O babado não era de osso sólido – tinha duas grandes aberturas cobertas de pele, o que o mantinha mais claro do que parecia. Alguns cientistas acham que o babado era colorido em vida, usado para comunicar humor e saúde, um pouco como um quadro de exibição vivo."
+            },
+            {
+              "range": "27–42",
+              "title": "O corpo",
+              "learn": "Trace pontos 27 to 42 for the broad, sturdy body. Tricerátopo was built low and wide, and crianças begin to see how the shape differs from the taller sauropods. This is the longest run of pontos in the atividade — a brilliant opportunity to practise sustained foco.",
+              "fact": "Tricerátopo was about 30 feet long and weighed up to 12 tonnes — roughly the same as two African elephants! Despite that bulk, it was agile enough to move at speed. Imagine seeing one of those magnificent horns coming toward you — quite a sight, even for a T-Rex!"
+            },
+            {
+              "range": "43–58",
+              "title": "As Quatro Pernas",
+              "learn": "Ligue pontos 43 to 58 to add the four powerful, slightly sprawling legs. Unlike the straight, pillar-like legs of the sauropods, Tricerátopo legs spread out a little at the elbows. Children notice this difference if you point it out — building lovely observational skills alongside fine motor practice.",
+              "fact": "Tricerátopo had hooves rather than claws — a surprising fact that often delights crianças! The front legs could pivot outward to help it lower its head and charge forward like a bulldozer, using those three magnificent horns to lead the way."
+            },
+            {
+              "range": "59–70",
+              "title": "A cauda",
+              "learn": "Finish the atividade by connecting pontos 59 through 70 to draw the short, thick tail. Compared to the sweeping tails of plant-eating sauropods, the Tricerátopo tail is broad and sturdy. Children practise a shorter, more controlled finish — a satisfying end to a bigger challenge.",
+              "fact": "Fossil evidence shows that T-Rex and Tricerátopo lived in the same time and place — the western Estados Unidos around 68 million years ago. Scientists think Tricerátopo used its three impressive horns to defend itself, and there is evidence that the two met more than once. It was a very busy neighbourhood!"
+            }
+          ],
+          "outro": "Excelente concentração — 70 pontos não é coisa pouca! O seu Triceratops está completo. Pergunte ao seu filho qual a parte que achou mais difícil e porquê. Este tipo de reflexão é tão valioso como o próprio desenho. Preparado para um desafio maior? Experimente os nossos <a href=\"/usa-250/\">desenhos de ligar os pontos para imprimir</a> .",
+          "color_schemes": []
         }
-      ],
-      "outro": "Parabéns por ter completado todos os 32 pontos! Agora, pinte as placas da armadura em tons de cinzento e castanho — ou use a sua imaginação para criar os seus próprios padrões. A armadura dos animais tem diversas cores, pelo que o seu Anquilossauro pode ter o aspeto que desejar! Perfeito para a sala de aula — veja mais <a href=\"/playgrounds/\">atividades de ligar os pontos</a> ."
+      }
     },
-    "seoTitle": "Ankylosaurus Conecte os Pontos — PDF Armadurado Rápido de 32 Pontos"
-  },
-  {
-    "slug": "pterodactyl-dot-to-dot-puzzle",
-    "name": "Pterodáctilo",
-    "seoH1": "Pterodáctilo Conecte os Pontos: 67 Pontos Sobre Mares Antigos",
-    "tagline": "The Flying Dinossauro Kids Love",
-    "description": "Conecte os pontos para desenhar o réptil voador mais famoso do mundo pré-histórico! Os pterodáctilos sobrevoavam oceanos e rios antigos em busca de peixes. Esta folha de atividades fácil com 24 pontos é perfeita para crianças pequenas e da pré-escola.",
-    "seoDescription": "O pterodáctilo era um pterossauro voador, não um dinossauro. Conecte 67 pontos com este PDF gratuito de conectar os pontos para crianças de 6 a 9 anos.",
-    "funFact": "Os pterodáctilos não eram tecnicamente dinossauros – eles eram répteis voadores chamados pterossauros!",
-    "seoImageAlt": "Pterodáctilo voando com asas largas, sustentado por 67 pontos imprimíveis",
-    "dotGuide": {
-      "intro": "Here is a brilliant atividade fact to share before you begin: Pterodactyls were not actually dinosaurs at all! They were flying reptiles called pterosaurs, living alongside the dinosaurs but belonging to a completely separate group. They were also the first vertebrates — animals with a backbone — ever to evolve powered flight. With 67 pontos this is quite a challenge, so settle in and enjoy the process!",
-      "sections": [
-        {
-          "range": "1–10",
-          "title": "A cabeça e o bico longo",
-          "learn": "Start at ponto 1 and ligue through to ponto 10 to draw the long, pointed beak and distinctive crested head. The Pterodactyl head is one of the most unusual shapes in the natural world — long, narrow, and often tipped with a dramatic crest. Children practise a very elongated shape here, which is a refreshing challenge.",
-          "fact": "Muitas espécies de pterossauros tinham grandes cristas na cabeça, feitas de ossos e tecidos moles. Os cientistas acreditam que estes brasões eram usados ​​para exibição – atrair parceiros e comunicar com outros membros do grupo. Algumas cristas eram tão grandes quanto o próprio crânio, tornando a cabeça quase comicamente superdimensionada."
+    {
+      "slug": "velociraptor-dot-to-dot-puzzle",
+      "header": {
+        "title": "Velociraptor Conecte os Pontos — 54 Pontos Ágeis, PDF Grátis",
+        "meta_description": "Os Velociraptors reais eram do tamanho de perus e tinham penas. Revele um em 54 pontos com este imprimível de conectar os pontos para crianças de 5 a 8 anos.",
+        "og": {
+          "title": "Velociraptor Conecte os Pontos — 54 Pontos Ágeis, PDF Grátis",
+          "description": "Os Velociraptors reais eram do tamanho de perus e tinham penas. Revele um em 54 pontos com este imprimível de conectar os pontos para crianças de 5 a 8 anos.",
+          "image_alt": "Velociraptor com penas pronto para correr, esboçado em 54 pontos imprimíveis"
         },
-        {
-          "range": "11–24",
-          "title": "As asas",
-          "learn": "Continue from ponto 11 to ponto 24 to sweep out the enormous wings. Pterodactyl wings were formed by a membrane of skin and muscle stretching from an enormously elongated fourth finger all the way to the body. Children learn to draw a wide, expansive arc — one of the most satisfying pencil movements in the whole collection.",
-          "fact": "A membrana da asa do pterodáctilo era fina, mas incrivelmente resistente, reforçada por minúsculas fibras que a atravessavam como um tecido. Ao contrário das asas de morcego, que se fixam ao tornozelo, as asas dos pterossauros fixam-se mais acima na perna, dando-lhes uma postura de voo ligeiramente diferente – mais parecida com uma asa-delta do que com um pássaro."
-        },
-        {
-          "range": "25–40",
-          "title": "O corpo e os dedos das asas",
-          "learn": "Trace pontos 25 through 40 to fill out the compact body and trace the extraordinary wing-finger structure. This section has the most pontos in the atividade and requires real sustained concentration — a wonderful exercise in perseverance. Remind crianças that every single ponto is progress.",
-          "fact": "A envergadura de um pterodáctilo pode atingir cerca de um metro – aproximadamente o tamanho de uma grande gaivota – mas alguns de seus parentes, como Quetzalcoatlus, tinham envergadura de até 36 pés, mais larga que a de um pequeno avião. A família dos pterossauros variava do tamanho de um pardal a absolutamente impressionante."
-        },
-        {
-          "range": "41–54",
-          "title": "As garras e os pés",
-          "learn": "Ligue pontos 41 to 54 to draw the wing-tip claws and the hind feet. Pterodactyls had claws on their wings for climbing and gripping, which crianças often find surprising. These seções involve smaller, tighter movements — great for building fine motor precision in older crianças.",
-          "fact": "Os pterodáctilos podiam andar de quatro no chão, dobrando as asas perfeitamente como um guarda-chuva. Evidências recentes de rastros mostram que eles se sentiam mais confortáveis ​​no solo do que se pensava – andando pelas praias e margens dos rios em busca de peixes, insetos e pequenos animais."
-        },
-        {
-          "range": "55–67",
-          "title": "A postura da cauda e da aterrissagem",
-          "learn": "Finish the atividade by connecting pontos 55 through 67 to complete the tail and capture the full flying or landing pose. The Pterodactyl had a very short tail compared to some other pterosaurs. Children practise a focused, careful finish here — thirteen pontos to bring the whole magnificent creature together.",
-          "fact": "Os pterodáctilos provavelmente voaram em correntes térmicas de ar quente, assim como as águias e os abutres modernos, conservando energia em longas distâncias. Os seus ossos ocos – incrivelmente leves mas surpreendentemente fortes – eram essenciais para o voo e são uma das principais características que partilham com as aves modernas."
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Velociraptor",
+          "description": "Os Velociraptors reais eram do tamanho de perus e tinham penas. Revele um em 54 pontos com este imprimível de conectar os pontos para crianças de 5 a 8 anos.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
         }
-      ],
-      "outro": "Uma persistência incrível — 67 pontos é uma conquista genuína da qual se pode orgulhar! O seu pterodáctilo está pronto para voar. Que tal tentar desenhar a sua própria cena pré-histórica de voo à volta dele? Um rio, algumas montanhas, talvez um peixe a saltar — o mundo jurássico está à sua disposição para criar. Preparado para algo ainda mais difícil? Experimente os nossos <a href=\"/usa-250/\">desenhos de ligar os pontos para imprimir</a> ."
-    },
-    "seoTitle": "Pterodáctilo Conecte os Pontos: 67 Pontos Sobre Mares Antigos"
-  },
-  {
-    "slug": "allosaurus",
-    "name": "Alossauro",
-    "seoH1": "Allosaurus Conecte os Pontos — Predador Jurássico de 42 Pontos",
-    "tagline": "O Leão do Jurássico",
-    "description": "Conecte os pontos para revelar o Allosaurus — o dinossauro mais famoso do período Jurássico, mesmo antes do T-Rex existir! Ele tinha dentes fortes, mandíbulas poderosas e pode ter vivido em grupos. Esta folha de exercícios mais difícil desafia alunos do 1º ao 3º ano.",
-    "seoDescription": "O Allosaurus governou o Jurássico muito antes do T-Rex aparecer. Siga 42 pontos ao redor deste poderoso predador em um quebra-cabeça projetado para crianças de 6 a 10 anos.",
-    "funFact": "Mais de 40 fósseis de Allosaurus foram encontrados em um único local em Utah!",
-    "seoImageAlt": "Feroz Allosaurus mostrando mandíbulas fortes, montado a partir de 42 pontos imprimíveis",
-    "dotGuide": {
-      "intro": "Long before T-Rex ruled the Cretaceous, the Allosaurus was the most remarkable large dinosaur on Earth. Faster, more agile, and possibly smarter than many dinosaurs around it, this Jurassic explorer was the star of its age. With 42 pontos and a difficulty rating of hard, this atividade is a real test of counting skills and concentration — perfect for older crianças who are ready for a genuine challenge!",
-      "sections": [
-        {
-          "range": "1–8",
-          "title": "A cabeça",
-          "learn": "Start at ponto 1 and ligue through to ponto 8 to draw the large, deep skull with its distinctive ridges above the eyes. The Allosaurus had bony crests running from its snout to above its eyes — a detail that makes it look genuinely fierce. Children practise following a bold, angular skull shape with several interesting direction changes.",
-          "fact": "O alossauro tinha uma mandíbula muito incomum – os cientistas acham que ele usava uma mordida grande e poderosa, empurrando a cabeça para baixo com os fortes músculos do pescoço, em vez de apenas morder como a maioria dos animais. Seus dentes serrilhados eram perfeitos para um carnívoro de seu tamanho, tornando-o um dos caçadores mais eficazes do período Jurássico."
-        },
-        {
-          "range": "9–18",
-          "title": "O pescoço e os ombros",
-          "learn": "Continue from ponto 9 to ponto 18 to trace the powerful neck and broad shoulders. Allosaurus had a notably muscular neck that gave it an incredibly powerful bite. This section involves confident, sweeping curves — crianças who rush tend to lose accuracy here, so it is a great section for practising patience.",
-          "fact": "O Allosaurus tinha cerca de 28-40 pés de comprimento e pesava até 2 toneladas – muito mais leve que o T-Rex, mas muito mais ágil. Os cientistas pensam que esta agilidade, combinada com um possível comportamento de grupo, permitiu-lhe mover-se ao lado de animais muitas vezes maiores que o seu tamanho, incluindo os saurópodes gigantes!"
-        },
-        {
-          "range": "19–28",
-          "title": "O corpo e os braços",
-          "learn": "Trace pontos 19 through 28 for the muscular body and powerful three-fingered arms. Unlike T-Rex, Allosaurus had arms it could genuinely use — strong and well-suited for an active life in the Jurassic. Children practise a mid-section with plenty of detail, building the kind of sustained attention that a difficulty-3 atividade demands.",
-          "fact": "More than 60 individual Allosaurus specimens have been found at the Cleveland-Lloyd Dinossauro Quarry in Utah — by far the largest concentration of Jurassic predator bones ever discovered. Why so many ended up in one place remains one of palaeontology's most debated mysteries."
-        },
-        {
-          "range": "29–36",
-          "title": "As pernas poderosas",
-          "learn": "Ligue pontos 29 to 36 to draw the long, powerful legs. Allosaurus was built for speed as much as strength — its legs were proportionally longer than T-Rex's, making it a faster and more manoeuvrable hunter. Children practise confident, downward strokes that convey the animal's athletic build.",
-          "fact": "O alossauro provavelmente poderia correr a cerca de 32 a 30 quilômetros por hora – mais rápido do que a maioria dos humanos consegue correr. Alguns cientistas acreditam que ele usou táticas de emboscada, escondendo-se na vegetação antes de atacar em alta velocidade. Foram encontradas pegadas fósseis que mostram um alossauro perseguindo um saurópode, dando-nos um raro vislumbre do comportamento real de caça."
-        },
-        {
-          "range": "37–42",
-          "title": "A cauda",
-          "learn": "Finish the atividade by connecting pontos 37 through 42 to sweep the long, stiff tail into place. Six pontos to close out a challenging atividade — encourage crianças to make these final lines as clean and confident as possible. A strong finish is just as satisfying as a strong start.",
-          "fact": "O Alossauro viveu há aproximadamente 155 milhões de anos – quase 90 milhões de anos antes do T-Rex. Se você colocar um Alossauro e um T-Rex lado a lado no tempo, o Alossauro está na verdade mais próximo em idade geológica do Estegossauro que ele caçou do que do T-Rex que veio depois dele. O tempo na pré-história profunda é genuinamente surpreendente."
+      },
+      "body": {
+        "h1": "Velociraptor Conecte os Pontos — 54 Pontos Ágeis, PDF Grátis",
+        "name": "Velociraptor",
+        "tagline": "Rápido, Inteligente e Pronto para Atacar",
+        "description": "Conecte os pontos para revelar o astuto Velociraptor — famoso de Jurassic Park! Na vida real, os Velociraptors eram caçadores com penas do tamanho de um peru. Esta atividade desenvolve habilidades de sequenciamento numérico para crianças de 5 a 8 anos.",
+        "fun_fact": "“Velociraptor” significa ladrão rápido – ele pode correr até 40 km/h!",
+        "faqs": [
+          {
+            "q": "Quantos pontos tem o puzzle de ligar os pontos do Velociraptor?",
+            "a": "O desenho do Velociraptor para ligar os pontos tem 54 pontos numerados. Isto torna-o um puzzle de nível fácil a médio, mais adequado para crianças dos 5 aos 8 anos (do jardim de infância ao 2º ano do ensino básico). As crianças ligam os pontos por ordem numérica para revelar a imagem completa do velociraptor e depois colorem-na."
+          },
+          {
+            "q": "O desenho de ligar os pontos do Velociraptor é gratuito para imprimir?",
+            "a": "Sim. A folha de atividades do Velociraptor é 100% gratuita para descarregar a partir de DotToDotFreePrintables.com — sem necessidade de registo, e-mail ou pagamento. O download é instantâneo, em formato PDF pronto a imprimir, nos formatos retrato e paisagem, e nos tamanhos Carta (US Letter) ou A4."
+          },
+          {
+            "q": "Para que faixa etária é mais indicada a ficha de atividades \"Ligue os Pontos\" sobre o Velociraptor?",
+            "a": "Com 54 pontos, o puzzle do Velociraptor é mais indicado para crianças dos 5 aos 8 anos (do jardim de infância ao 2º ano do ensino básico). As crianças mais pequenas podem divertir-se com a ajuda de um adulto para contar em conjunto, enquanto as mais confiantes podem completá-lo sozinhas e praticar a sequência numérica até 54."
+          },
+          {
+            "q": "Que competências ensina o jogo de ligar os pontos do Velociraptor?",
+            "a": "A ligação dos 54 pontos do puzzle do Velociraptor desenvolve o reconhecimento de números e a contagem até 54, o controlo do lápis, a coordenação motora e a concentração sustentada — as mesmas bases da motricidade fina que suportam a escrita inicial. Colorir a imagem finalizada acrescenta uma recompensa criativa."
+          },
+          {
+            "q": "Qual é uma curiosidade interessante sobre o velociraptor?",
+            "a": "\"Velociraptor\" significa ladrão veloz — podia correr até 40 km/h! As crianças descobrem factos como este enquanto completam o puzzle de ligar os pontos do Velociraptor."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Everyone thinks they know what a Velociraptor looks like — but this atividade might surprise them! The real Velociraptor was feathered, roughly the size of a large turkey, and far cleverer than most of its dinosaur cousins. Hollywood made it bigger, but nature made it smarter. Grab a pencil and meet the real star of the Cretaceous!",
+          "sections": [
+            {
+              "range": "1–8",
+              "title": "A cabeça e as mandíbulas",
+              "learn": "Start at ponto 1 and ligue through to ponto 8 to trace the long, narrow skull and slightly curved jaws. The Velociraptor had a particularly slender head compared to its body — crianças learn to follow a more elongated shape here, which is a useful shift from rounder dinosaur heads. Slow and steady wins this one.",
+              "fact": "O Velociraptor tinha cerca de 80 dentes pequenos e serrilhados, projetados para agarrar em vez de rasgar. Estudos de sua cavidade cerebral mostram que ele tinha excelente visão e um olfato apurado – ele caçava pela visão, pelo olfato e possivelmente pela audição, o que o tornava um pequeno predador notavelmente bem equipado."
+            },
+            {
+              "range": "9–20",
+              "title": "O pescoço e o corpo emplumado",
+              "learn": "Continue from ponto 9 to ponto 20 to build the curved neck and compact body. This is where crianças often start to see the bird-like quality of the Velociraptor, which makes for a wonderful sala de aula discussion. The pontos curve smoothly — a good section for practising consistent pencil pressure.",
+              "fact": "Paleontólogos encontraram protuberâncias de pena nos ossos do braço do Velociraptor – as mesmas protuberâncias que você vê nas asas dos pássaros modernos, onde as penas se ancoram. O Velociraptor quase certamente estava coberto de penas, embora não pudesse voar. É essencialmente uma pequena ave caçadora que não voa."
+            },
+            {
+              "range": "21–32",
+              "title": "Os braços e as garras",
+              "learn": "Trace pontos 21 through 32 for the relatively long arms and three-fingered hands. Unlike T-Rex's tiny arms, Velociraptor had arms it could actually use — for holding on and moving through its environment. Children practise sharper angles in this section, mimicking the angular, bird-wing shape of the forelimbs.",
+              "fact": "As garras do Velociraptor eram fortes e curvas – muito úteis para agarrar e segurar com força. Pesquisas recentes sugerem que ele pode ter usado os braços de maneira semelhante à forma como os falcões e as águias pousam nos galhos hoje, pressionando para baixo com o peso do corpo."
+            },
+            {
+              "range": "33–44",
+              "title": "As pernas e a garra especial",
+              "learn": "Ligue pontos 33 to 44 to draw the powerful hind legs and that famous sickle-shaped claw on the second toe. Children often recognise this claw from films, which makes it a motivating section. The pontos are close together here, encouraging precision and careful number recognition.",
+              "fact": "A icônica garra curva em cada pé foi mantida fora do chão quando o Velociraptor andou para mantê-la bem afiada – um pouco como um gato mantendo suas garras arrumadas! Os cientistas agora pensam que era usado principalmente para agarrar e segurar, e não para qualquer outra coisa."
+            },
+            {
+              "range": "45–54",
+              "title": "A cauda rígida",
+              "learn": "Finish by connecting pontos 45 through 54 to add the long, stiffened tail. Unlike the flexible tails of lizards, the Velociraptor tail was held straight out behind it, acting as a counterbalance when running and turning at speed. A confident, straight finish to a dynamic atividade.",
+              "fact": "O Velociraptor podia atingir velocidades de cerca de 40 quilômetros por hora – rápido para um pequeno predador, embora mais lento que a versão do Jurassic Park. Sua cauda enrijeceu naturalmente através de tendões ossificados, permitindo que ele fizesse curvas fechadas sem tombar, quase como um estabilizador embutido."
+            }
+          ],
+          "outro": "Trabalho fantástico! Desenhaste um dos dinossauros mais incompreendidos da história. Que tal pesquisar como era o Velociraptor na vida real, em comparação com a versão do filme? É uma ótima lição de que a vida real é, muitas vezes, mais interessante do que a ficção! Conheça mais amigos pré-históricos na nossa coleção de <a href=\"/dinosaurs/\">desenhos de dinossauros para ligar os pontos</a> .",
+          "color_schemes": []
         }
-      ],
-      "outro": "Excelente trabalho! Enfrentou um puzzle de dificuldade 3 e venceu! Quarenta e dois pontos, cinco secções e um formidável predador jurássico. Este merece ser emoldurado. Para um desafio ainda maior, consulte os nossos <a href=\"/usa-250/\">imprimíveis de ligar os pontos extremos</a> ."
+      }
     },
-    "seoTitle": "Allosaurus Conecte os Pontos — Desafio Jurássico de 42 Pontos"
-  }
-]
+    {
+      "slug": "stegosaurus-dot-to-dot-puzzle",
+      "header": {
+        "title": "Stegosaurus Conecte os Pontos: 52 Pontos & Placas em Forma de Diamante",
+        "meta_description": "Desenhe o Stegosaurus de suas placas em forma de diamante até sua cauda espinhosa em 52 pontos. Obtenha a folha imprimível de conectar os pontos grátis para crianças de 4 a 7 anos.",
+        "og": {
+          "title": "Stegosaurus Conecte os Pontos: 52 Pontos & Placas em Forma de Diamante",
+          "description": "Desenhe o Stegosaurus de suas placas em forma de diamante até sua cauda espinhosa em 52 pontos. Obtenha a folha imprimível de conectar os pontos grátis para crianças de 4 a 7 anos.",
+          "image_alt": "Stegosaurus com sua dupla fileira de placas nas costas construído a partir de 52 pontos imprimíveis"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Estegossauro",
+          "description": "Desenhe o Stegosaurus de suas placas em forma de diamante até sua cauda espinhosa em 52 pontos. Obtenha a folha imprimível de conectar os pontos grátis para crianças de 4 a 7 anos.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
+      },
+      "body": {
+        "h1": "Stegosaurus Conecte os Pontos: 52 Pontos & Placas em Forma de Diamante",
+        "name": "Estegossauro",
+        "tagline": "Placas pontiagudas, diversão gigante",
+        "description": "Conecte 52 pontos para desenhar o incrível Stegosaurus com sua dupla fileira de placas em forma de diamante ao longo de suas costas. Este fácil conectar os pontos é um favorito para crianças da pré-escola e jardim de infância que estão desenvolvendo sequenciamento numérico, controle do lápis e concentração.",
+        "fun_fact": "O Estegossauro tinha um cérebro do tamanho de uma noz — mas a cauda cheia de espigões era o seu superpoder!",
+        "faqs": [
+          {
+            "q": "Quantos pontos tem o puzzle de ligar os pontos do Estegossauro?",
+            "a": "O desenho do estegossauro para ligar os pontos tem 52 pontos numerados. Isto torna-o um puzzle de nível fácil a médio, mais adequado para crianças dos 5 aos 8 anos (do jardim de infância ao 2º ano do ensino básico). As crianças ligam os pontos por ordem numérica para revelar a imagem completa do estegossauro e depois colorem-na."
+          },
+          {
+            "q": "O desenho de ligar os pontos do Estegossauro é gratuito para imprimir?",
+            "a": "Sim. A ficha de atividades do Estegossauro é 100% gratuita para descarregar a partir de DotToDotFreePrintables.com — sem necessidade de registo, e-mail ou pagamento. O download é instantâneo, em formato PDF pronto a imprimir, nos formatos retrato e paisagem, e nos tamanhos Carta (US Letter) ou A4."
+          },
+          {
+            "q": "Para que faixa etária é mais indicada a ficha de atividades \"Ligar os Pontos\" com o Estegossauro?",
+            "a": "Com 52 pontos, o puzzle do Estegossauro é mais indicado para crianças dos 5 aos 8 anos (do jardim de infância ao 2º ano do ensino básico). As crianças mais pequenas podem divertir-se com a ajuda de um adulto para contar em conjunto, enquanto as mais confiantes podem completá-lo sozinhas e praticar a sequência numérica até 52."
+          },
+          {
+            "q": "Que habilidades ensina o jogo de ligar os pontos do Estegossauro?",
+            "a": "A ligação dos 52 pontos do puzzle do Estegossauro desenvolve o reconhecimento de números e a contagem até 52, o controlo do lápis, a coordenação motora e a concentração sustentada — as mesmas bases da motricidade fina que suportam a escrita inicial. Colorir a imagem finalizada acrescenta uma recompensa criativa."
+          },
+          {
+            "q": "Qual é uma curiosidade interessante sobre o estegossauro?",
+            "a": "O Estegossauro tinha um cérebro do tamanho de uma noz, mas a sua cauda espinhosa era o seu super-poder! As crianças descobrem factos como este enquanto completam o puzzle de ligar os pontos do Estegossauro."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Com a fileira de placas em forma de losango a percorrer-lhe o dorso e quatro espigões afiados na cauda, o Estegossauro é um dos dinossauros mais reconhecíveis do mundo. Este puzzle de 52 pontos tem o tamanho perfeito para os mais pequenos: desafio q.b. para ser gratificante, sem nunca sobrecarregar. Encontra o ponto 1 e deixa essas placas magníficas ganharem forma!",
+          "sections": [
+            {
+              "range": "1–6",
+              "title": "O pescoço e o peito",
+              "learn": "Começa no ponto 1, mesmo por baixo do queixo do Estegossauro, e liga para baixo até ao ponto 6 para traçar o pescoço e o peito. A cabeça já está desenhada e à espera: a tua linha limita-se a uni-la ao resto do corpo. Seis pontos são um começo acessível para mãos pequenas que estão a ganhar confiança.",
+              "fact": "O Estegossauro tinha um dos cérebros mais pequenos em relação ao corpo de todos os dinossauros: mais ou menos uma noz dentro de um corpo do comprimento de um autocarro escolar. Ainda assim sobreviveu milhões de anos — um bom lembrete de que o cérebro não é tudo!"
+            },
+            {
+              "range": "7–15",
+              "title": "As pernas dianteiras",
+              "learn": "Liga os pontos 7 a 15 para desenhar as duas pernas dianteiras robustas e os seus pés largos e arredondados. A linha muda aqui de direção algumas vezes, ao descer a cada pé e voltar a subir — incentiva as crianças a confirmarem cada número antes de traçarem a linha seguinte.",
+              "fact": "As pernas dianteiras do Estegossauro eram muito mais curtas do que as traseiras — quase metade do comprimento. Essa diferença dava ao animal o famoso dorso arqueado e mantinha a cabecinha junto ao chão, perfeita para mordiscar plantas rasteiras e fetos."
+            },
+            {
+              "range": "16–27",
+              "title": "A barriga e as pernas traseiras",
+              "learn": "Segue os pontos 16 a 27 para desenhar a longa linha da barriga e as possantes pernas traseiras. É o troço mais largo do puzzle até agora e um bom sítio para treinar um ritmo constante — ponto, linha, ponto, linha — até aos pés traseiros.",
+              "fact": "O Estegossauro viveu há cerca de 150 milhões de anos, no final do período Jurássico. Foi há tanto tempo que o Tiranossauro Rex viveu mais perto de nós, no tempo, do que do Estegossauro!"
+            },
+            {
+              "range": "28–38",
+              "title": "Ao longo da cauda",
+              "learn": "Liga os pontos 28 a 38 para desenhar o longo lado de baixo da cauda, que se estende atrás do corpo. Os pontos seguem aqui uma única curva suave e fluida — uma secção ótima para praticar traços contínuos sem levantar muito o lápis.",
+              "fact": "As placas do dorso do Estegossauro eram demasiado finas para servirem de armadura. Os cientistas acreditam que estavam cheias de vasos sanguíneos que ajudavam a regular a temperatura do corpo, ficando vermelhas ou rosadas quando o animal se entusiasmava — e talvez também atraíssem parceiros, como uma cauda de pavão pré-histórica."
+            },
+            {
+              "range": "39–52",
+              "title": "A ponta da cauda com espigões e o dorso",
+              "learn": "Termina o puzzle ligando os pontos 39 a 52: desenha a ponta da cauda com os seus quatro espigões afiados e sobe depois pela parte de cima da cauda até encontrares a última placa do dorso. É a secção mais complicada, com pontos muito juntos à volta dos espigões: um final cuidadoso faz o desenho inteiro encaixar de uma só vez.",
+              "fact": "Os espigões da cauda — os paleontólogos chamam-lhes «thagomizer» — podiam chegar a um metro, mais do que uma guitarra! Os fósseis mostram que o Estegossauro os usava para se defender com confiança. Até o herbívoro mais manso sabe cuidar de si!"
+            }
+          ],
+          "outro": "Conseguiste — 52 pontos e um Estegossauro espetacular! Agora pinta essas placas do dorso com os teus tons preferidos. Ninguém sabe ao certo de que cor era o Estegossauro, por isso qualquer cor que escolhas vale tanto como o melhor palpite de um cientista. Estás só a começar? Experimenta mais <a href=\"/playgrounds/\">fichas de ligar os pontos para crianças</a>.",
+          "color_schemes": []
+        }
+      }
+    },
+    {
+      "slug": "spinosaurus",
+      "header": {
+        "title": "Spinosaurus Conecte os Pontos — 74 Pontos, Maior Que o T-Rex",
+        "meta_description": "O Spinosaurus era mais longo que o T-Rex e tinha uma grande vela. Revele-o em 74 pontos neste PDF imprimível grátis de conectar os pontos para as séries 1-2.",
+        "og": {
+          "title": "Spinosaurus Conecte os Pontos — 74 Pontos, Maior Que o T-Rex",
+          "description": "O Spinosaurus era mais longo que o T-Rex e tinha uma grande vela. Revele-o em 74 pontos neste PDF imprimível grátis de conectar os pontos para as séries 1-2.",
+          "image_alt": "Spinosaurus com vela emergindo através de 74 pontos em um imprimível grátis de dinossauro"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Espinossauro",
+          "description": "O Spinosaurus era mais longo que o T-Rex e tinha uma grande vela. Revele-o em 74 pontos neste PDF imprimível grátis de conectar os pontos para as séries 1-2.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
+      },
+      "body": {
+        "h1": "Spinosaurus Conecte os Pontos — 74 Pontos, Maior Que o T-Rex",
+        "name": "Espinossauro",
+        "tagline": "Maior que o T-Rex",
+        "description": "Conecte os pontos para revelar o maior dinossauro carnívoro já descoberto — maior até do que o T-Rex! O Spinosaurus tinha uma grande vela em suas costas e caçava peixes em rios. Ótimo para alunos da 1ª e 2ª séries que adoram dinossauros grandes.",
+        "fun_fact": "O Spinosaurus podia ter até 59 pés de comprimento — mais longo do que um ônibus escolar!",
+        "faqs": [
+          {
+            "q": "Quantos pontos tem o desenho de ligar os pontos do Espinossauro?",
+            "a": "O desenho para imprimir do Espinossauro a ligar os pontos tem 74 pontos numerados. Isto torna-o um puzzle de dificuldade média, mais adequado para crianças dos 6 aos 9 anos (do 1º ao 3º ano do Ensino Básico). As crianças ligam os pontos por ordem numérica para revelar a imagem completa do Espinossauro e depois colorem-na."
+          },
+          {
+            "q": "O desenho de ligar os pontos do Espinossauro é gratuito para imprimir?",
+            "a": "Sim. A ficha de atividades do Espinossauro é 100% gratuita para descarregar a partir de DotToDotFreePrintables.com — sem necessidade de registo, e-mail ou pagamento. O download é instantâneo, em formato PDF pronto a imprimir, nos formatos retrato e paisagem, e nos tamanhos Carta (US Letter) ou A4."
+          },
+          {
+            "q": "Para que faixa etária é mais indicada a ficha de atividades de ligar os pontos do Espinossauro?",
+            "a": "Com 74 pontos, o puzzle do Espinossauro é mais indicado para crianças dos 6 aos 9 anos (do 1º ao 3º ano do Ensino Básico). As crianças mais pequenas podem divertir-se com a ajuda de um adulto para contar em conjunto, enquanto as mais confiantes podem completá-lo sozinhas e praticar a sequência numérica até 74."
+          },
+          {
+            "q": "Que habilidades ensina o puzzle de ligar os pontos do Espinossauro?",
+            "a": "A ligação dos 74 pontos do puzzle do Espinossauro desenvolve o reconhecimento de números e a contagem até 74, o controlo do lápis, a coordenação motora e a concentração sustentada — as mesmas bases da motricidade fina que suportam a escrita inicial. Colorir a imagem finalizada acrescenta uma recompensa criativa."
+          },
+          {
+            "q": "Qual é uma curiosidade interessante sobre o espinossauro?",
+            "a": "O Espinossauro podia chegar a medir 18 metros de comprimento — mais comprido do que um autocarro escolar! As crianças descobrem factos como este enquanto completam o puzzle de ligar os pontos do Espinossauro."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Move over, T-Rex — meet the Spinosaurus, the largest meat-eating dinosaur ever to walk the Earth! Longer than a escola bus and equally at casa in water as on land, Spinosaurus was a truly extraordinary animal. Its giant back sail makes it one of the most dramatic dinosaurs to draw. Grab a pencil and let this prehistoric giant rise from the page!",
+          "sections": [
+            {
+              "range": "1–15",
+              "title": "A cabeça e as mandíbulas do crocodilo",
+              "learn": "Start at ponto 1 and work through to ponto 8 to sketch the long, narrow skull that looks more like a crocodile than a typical dinosaur. Children immediately notice how different this head shape is from T-Rex, which is a fantastic observation to encourage. The elongated snout rewards a steady, patient hand.",
+              "fact": "Spinosaurus had cone-shaped teeth ideal for catching slippery fish — very different from the blade-like teeth of T-Rex. Its nostrils were positioned high on the skull, like a crocodile's, allowing it to keep most of its head submerged enquanto still breathing. A brilliant piece of natural engineering."
+            },
+            {
+              "range": "16–30",
+              "title": "A Vela Gigante",
+              "learn": "Continue from ponto 9 to ponto 20 to draw the towering sail that rises dramatically from the spine. This is the most thrilling section of the atividade — the sail can be up to six feet tall, and crianças get to trace its full impressive height. Long, upward strokes build great arm confiança.",
+              "fact": "A vela era sustentada por espinhos que se estendiam desde as vértebras, alguns com mais de um metro e meio de altura. Os cientistas ainda debatem o seu propósito - pode ter regulado a temperatura, armazenado gordura como a corcunda de um camelo ou sido uma estrutura de exibição espetacular para atrair parceiros ou intimidar rivais."
+            },
+            {
+              "range": "31–45",
+              "title": "O corpo",
+              "learn": "Trace pontos 21 through 32 for the long, muscular body. Spinosaurus had a relatively low body profile compared to other large carnivores — adapted for swimming and wading in rivers. Children practise a flatter, more horizontal body shape here, which is a refreshing contrast to the upright stance of T-Rex.",
+              "fact": "Novas descobertas de fósseis mostram que o Espinossauro tinha ossos curtos e densos – o oposto do que a maioria dos dinossauros tinha – o que o tornava menos flutuante e mais adequado à vida subaquática, tal como as aves mergulhadoras modernas. É o único dinossauro que conhecemos que passou um tempo significativo nadando."
+            },
+            {
+              "range": "46–60",
+              "title": "As pernas e a cauda",
+              "learn": "Ligue pontos 33 to 44 to add the legs and long, broad tail. The tail was paddle-shaped — another recent discovery that shocked palaeontologists — making it an effective swimming tool. Children practise both the stocky hind legs and the wide, flat tail shape in this final section.",
+              "fact": "O Espinossauro provavelmente caminhava lento e desajeitado em terra, mas era um nadador forte em rios. A sua cauda em forma de remo só foi confirmada em 2020 a partir de espécimes fósseis recentemente encontrados em Marrocos – provando que mesmo os dinossauros mais estudados ainda nos podem surpreender."
+            },
+            {
+              "range": "61–74",
+              "title": "A Cauda em Forma de Remo",
+              "learn": "Termine com os pontos 61 a 74 para completar a longa e ampla cauda em forma de remo. A cauda foi outra descoberta recente que chocou os paleontólogos, tornando-se uma ferramenta eficaz de natação. As crianças praticam a forma larga e plana da cauda nesta seção final.",
+              "fact": "O Spinosaurus provavelmente era um caminhante lento e desajeitado em terra, mas um forte nadador em rios. Sua cauda em forma de remo foi confirmada apenas em 2020 a partir de novos fósseis encontrados no Marrocos — provando que até os dinossauros mais estudados ainda podem nos surpreender."
+            }
+          ],
+          "outro": "Excelente trabalho neste desafio de 44 pontos! O teu Espinossauro está pronto para entrar no rio. Este é um puzzle maravilhoso para acompanhar uma visita à biblioteca — existem livros incríveis escritos especialmente para crianças sobre a extraordinária história do Espinossauro. Descubra mais <a href=\"/\">atividades de ligar os pontos</a> gratuitas para todas as idades.",
+          "color_schemes": []
+        }
+      }
+    },
+    {
+      "slug": "brachiosaurus",
+      "header": {
+        "title": "Brachiosaurus Conecte os Pontos: 38 Pontos Imprimíveis Altos",
+        "meta_description": "O Brachiosaurus carregava sua cabeça pequena no topo de um pescoço imponente. Conecte 38 pontos para revelar este gigante jurássico em um quebra-cabeça projetado para crianças de 5 a 9 anos.",
+        "og": {
+          "title": "Brachiosaurus Conecte os Pontos: 38 Pontos Imprimíveis Altos",
+          "description": "O Brachiosaurus carregava sua cabeça pequena no topo de um pescoço imponente. Conecte 38 pontos para revelar este gigante jurássico em um quebra-cabeça projetado para crianças de 5 a 9 anos.",
+          "image_alt": "Brachiosaurus imponente alcançando a altura das copas das árvores em 38 pontos imprimíveis"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Braquiossauro",
+          "description": "O Brachiosaurus carregava sua cabeça pequena no topo de um pescoço imponente. Conecte 38 pontos para revelar este gigante jurássico em um quebra-cabeça projetado para crianças de 5 a 9 anos.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
+      },
+      "body": {
+        "h1": "Brachiosaurus Conecte os Pontos — Gigante Jurássico de 38 Pontos",
+        "name": "Braquiossauro",
+        "tagline": "O Gentil Gigante do Jurássico",
+        "description": "Conecte os pontos para desenhar o dinossauro mais alto e pacífico do período Jurássico. O Brachiosaurus tinha um pescoço longo como o de uma girafa e patas dianteiras mais altas que a maioria das casas. Uma folha de atividades perfeita para crianças que adoram dinossauros grandes e amigáveis.",
+        "fun_fact": "O braquiossauro pode pesar até 60 toneladas – o peso de 10 elefantes!",
+        "faqs": [
+          {
+            "q": "Quantos pontos tem o puzzle de ligar os pontos do Braquiossauro?",
+            "a": "O desenho para imprimir do Braquiossauro, onde se ligam os pontos, tem 38 pontos numerados. Isto torna-o um puzzle fácil, mais adequado para crianças dos 4 aos 6 anos (pré-escolar e jardim de infância). As crianças ligam os pontos por ordem numérica para revelar a imagem completa do braquiossauro e depois colorem-na."
+          },
+          {
+            "q": "O desenho de ligar os pontos do Brachiosaurus é gratuito para imprimir?",
+            "a": "Sim. A ficha de atividades do Braquiossauro é 100% gratuita para descarregar a partir de DotToDotFreePrintables.com — sem necessidade de registo, e-mail ou pagamento. O download é instantâneo, em formato PDF pronto a imprimir, nos formatos retrato e paisagem, e nos tamanhos Carta (US Letter) ou A4."
+          },
+          {
+            "q": "Para que faixa etária é mais indicada a ficha de atividades de ligar os pontos com o tema do Braquiossauro?",
+            "a": "Com 38 pontos, o puzzle do Braquiossauro é ideal para crianças dos 4 aos 6 anos (pré-escolar e jardim de infância). As crianças mais pequenas podem divertir-se com a ajuda de um adulto para contar em conjunto, enquanto as mais confiantes podem completá-lo sozinhas e praticar a sequência numérica até 38."
+          },
+          {
+            "q": "Que habilidades ensina o puzzle de ligar os pontos do Braquiossauro?",
+            "a": "A ligação dos 38 pontos do puzzle do Braquiossauro desenvolve o reconhecimento de números e a contagem até 38, o controlo do lápis, a coordenação motora e a concentração sustentada — as mesmas bases da motricidade fina que suportam a escrita inicial. Colorir a imagem finalizada acrescenta uma recompensa criativa."
+          },
+          {
+            "q": "Qual é uma curiosidade interessante sobre o braquiossauro?",
+            "a": "O braquiossauro podia pesar até 60 toneladas — o equivalente a 10 elefantes! As crianças descobrem factos como este enquanto completam o puzzle de ligar os pontos do braquiossauro."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Imagine a creature whose front legs were taller than a two-storey building. That is the Brachiosaurus — one of the tallest animals that ever existed. Unlike most dinosaurs, its front legs were longer than its back legs, giving it a distinctive, giraffe-like posture perfect for reaching the very tops of ancient trees. Let's ligue the pontos and meet this towering gentle giant!",
+          "sections": [
+            {
+              "range": "1–6",
+              "title": "A pequena cabeça",
+              "learn": "Start at ponto 1 and ligue through to ponto 6 to trace the small, boxy head perched at the very top of that extraordinary neck. Like the Brontossauro, the Brachiosaurus had a relatively tiny head for its body size. Children practise compact, close-together pontos here — a precise start to a big atividade.",
+              "fact": "As narinas do braquiossauro foram posicionadas no topo da cabeça, perto dos olhos. Certa vez, os cientistas pensaram que isso significava que ele vivia debaixo d'água como um hipopótamo, mergulhando nas profundezas. Agora sabemos que era inteiramente um animal terrestre – aquelas narinas altas eram simplesmente uma peculiaridade do formato do crânio."
+            },
+            {
+              "range": "7–18",
+              "title": "O pescoço imponente",
+              "learn": "Continue from ponto 7 to ponto 18 to sweep the long neck upward at a steep angle. This is the most dramatic section of the atividade — the neck rises sharply, unlike the more horizontal neck of the Brontossauro. Children learn to angle their pencil strokes boldly upward, which takes real confiança.",
+              "fact": "O braquiossauro podia atingir até 12 metros de altura – alto o suficiente para espiar por uma janela do quarto andar! Bombear sangue até o pescoço exigia um coração enorme. Os cientistas estimam que seu coração pesava cerca de 200 quilos – quase o peso de um grande motor de motocicleta."
+            },
+            {
+              "range": "19–30",
+              "title": "O corpo",
+              "learn": "Trace pontos 19 through 30 to fill out the large, barrel-shaped body. Notice how the back slopes downward from the tall front shoulders to the shorter hips — the opposite of most sauropods. This sloping back is one of Brachiosaurus's most distinctive features, and spotting it is a great observation exercise.",
+              "fact": "O braquiossauro pode pesar até 60 toneladas – o peso de dez elefantes africanos. Era necessário consumir até 880 quilos de vegetação todos os dias apenas para abastecer esse volume extraordinário. Isso equivale aproximadamente a comer 1.760 sacos de salada. Todo. Solteiro. Dia."
+            },
+            {
+              "range": "31–38",
+              "title": "As Quatro Pernas Poderosas",
+              "learn": "Finish by connecting pontos 31 through 38 to draw all four legs. The front legs are noticeably longer and more upright than the back legs — crianças who look carefully will spot this slope. Eight pontos is a focused, rewarding finish that builds attention to detail in the final stretch of a atividade.",
+              "fact": "Cada pé do Braquiossauro tinha cinco dedos, com uma grande garra no dedo interno de cada pé dianteiro. Os pés eram largos e redondos, com uma almofada grossa e carnuda por baixo - como a pata de um elefante - projetada para espalhar o enorme peso do animal pelo solo macio do Jurássico."
+            }
+          ],
+          "outro": "Ótimo trabalho! O seu Braquiossauro está a alcançar o céu! Compare-o com o puzzle do Brontossauro e peça ao seu filho para encontrar as diferenças. Identificar diferenças visuais entre duas coisas semelhantes é uma excelente competência científica para principiantes. Encontre mais na nossa coleção de <a href=\"/dinosaurs/\">desenhos de dinossauros para ligar os pontos</a> .",
+          "color_schemes": []
+        }
+      }
+    },
+    {
+      "slug": "ankylosaurus",
+      "header": {
+        "title": "Ankylosaurus Conecte os Pontos — PDF Armadurado Rápido de 32 Pontos",
+        "meta_description": "Até o Ankylosaurus tinha armadura óssea sobre suas pálpebras. Revele seu corpo protegido e cauda clava através de 32 pontos em um quebra-cabeça para crianças de 5 a 8 anos.",
+        "og": {
+          "title": "Ankylosaurus Conecte os Pontos — PDF Armadurado Rápido de 32 Pontos",
+          "description": "Até o Ankylosaurus tinha armadura óssea sobre suas pálpebras. Revele seu corpo protegido e cauda clava através de 32 pontos em um quebra-cabeça para crianças de 5 a 8 anos.",
+          "image_alt": "Ankylosaurus armadurado e sua cauda clava, juntos a partir de 32 pontos"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Anquilossauro",
+          "description": "Até o Ankylosaurus tinha armadura óssea sobre suas pálpebras. Revele seu corpo protegido e cauda clava através de 32 pontos em um quebra-cabeça para crianças de 5 a 8 anos.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
+      },
+      "body": {
+        "h1": "Ankylosaurus Conecte os Pontos — Cauda Armadurada de 32 Pontos",
+        "name": "Anquilossauro",
+        "tagline": "O tanque blindado do mundo Dino",
+        "description": "Conecte os pontos para revelar o Ankylosaurus — a superestrela armadurada do mundo dos dinossauros! Seu corpo inteiro era coberto por placas ósseas, e sua cauda terminava em um enorme e pesado clava. Esta folha de atividades é ótima para jardim de infância e 1ª série.",
+        "fun_fact": "Até as pálpebras do Anquilossauro tinham placas de armadura óssea!",
+        "faqs": [
+          {
+            "q": "Quantos pontos tem o puzzle de ligar os pontos do Anquilossauro?",
+            "a": "O desenho para imprimir do Anquilossauro a ligar os pontos tem 32 pontos numerados. Isto torna-o um puzzle fácil, mais adequado para crianças dos 4 aos 6 anos (pré-escolar e jardim de infância). As crianças ligam os pontos por ordem numérica para revelar a imagem completa do anquilossauro e depois colorem-na."
+          },
+          {
+            "q": "O desenho de ligar os pontos do Anquilossauro é gratuito para imprimir?",
+            "a": "Sim. A ficha de atividades do Anquilossauro é 100% gratuita para descarregar a partir de DotToDotFreePrintables.com — sem necessidade de registo, e-mail ou pagamento. O download é instantâneo, em formato PDF pronto a imprimir, nos formatos retrato e paisagem, e nos tamanhos Carta (US Letter) ou A4."
+          },
+          {
+            "q": "Para que faixa etária é mais indicada a ficha de atividades \"Ligar os Pontos\" com o Anquilossauro?",
+            "a": "Com 32 pontos, o puzzle do Anquilossauro é mais indicado para crianças dos 4 aos 6 anos (pré-escolar e jardim de infância). As crianças mais pequenas podem divertir-se com a ajuda de um adulto para contar em conjunto, enquanto as que já sabem contar podem completá-lo sozinhas e praticar a sequência numérica até 32."
+          },
+          {
+            "q": "Que habilidades ensina o puzzle de ligar os pontos do Anquilossauro?",
+            "a": "A ligação dos 32 pontos do puzzle do Anquilossauro desenvolve o reconhecimento de números e a contagem até 32, o controlo do lápis, a coordenação motora e a concentração sustentada — as mesmas bases da motricidade fina que suportam a escrita inicial. Colorir a imagem finalizada acrescenta uma recompensa criativa."
+          },
+          {
+            "q": "Qual é uma curiosidade interessante sobre o anquilossauro?",
+            "a": "Até as pálpebras do Anquilossauro tinham placas ósseas que protegiam o corpo! As crianças descobrem factos como este enquanto completam o puzzle de ligar os pontos do Anquilossauro."
+          }
+        ],
+        "dot_guide": {
+          "intro": "What happens when nature decides a dinosaur needs a full suit of armour? You get the Ankylosaurus — covered from nose to tail in bony plates, with a massive club on the end of its tail for balance and protection. This 32-ponto atividade is wonderfully satisfying to complete, and the result is one of the most impressive-looking dinosaurs in the collection!",
+          "sections": [
+            {
+              "range": "1–7",
+              "title": "A cabeça blindada",
+              "learn": "Start at ponto 1 and ligue through to ponto 7 to trace the broad, heavily armoured skull. The head is wide and flat, with a very different shape from the pointed snouts of predatory dinosaurs. Children learn to draw a wide, low shape here — a great contrast to the tall, narrow skulls they may have drawn before.",
+              "fact": "Até as pálpebras do Anquilossauro tinham placas de armadura óssea – talvez o melhor exemplo de evolução que exagera um pouco com uma boa ideia. O crânio estava tão fundido que parecia quase inexpressivo, como um capacete ósseo envolvendo completamente o cérebro."
+            },
+            {
+              "range": "8–18",
+              "title": "As costas blindadas",
+              "learn": "Continue from ponto 8 to ponto 18 to draw the broad, rounded back covered in rows of bony plates, spikes, and knobs called osteoderms. This is the most detailed section visually, and crianças begin to appreciate just how well protected this animal was. A great opportunity to discuss why armour evolved in nature.",
+              "fact": "A armadura que cobria o Anquilossauro era feita de ossos incrustados diretamente na pele – chamados osteodermos – dispostos em fileiras da cabeça à cauda. Esse tipo de armadura é chamada de armadura osteodérmica e é o mesmo tipo que você encontra nos crocodilos e tatus modernos."
+            },
+            {
+              "range": "19–26",
+              "title": "As pernas curtas e robustas",
+              "learn": "Trace pontos 19 through 26 for the four short, powerful legs. Ankylosaurus was built low to the ground intentionally — a low centre of gravity made it very difficult for predators to flip over. Children often make the connection to a tortoise, which opens a lovely discussion about convergent evolution.",
+              "fact": "O Anquilossauro tinha cerca de 6 metros de comprimento, mas tinha apenas cerca de 1,5 metro de altura no quadril – menos que a altura da maioria dos adultos. Suas pernas eram tão robustas e seu corpo tão denso que até mesmo um T-Rex teria enorme dificuldade em tentar atacá-lo por cima."
+            },
+            {
+              "range": "27–32",
+              "title": "A incrível cauda do clube",
+              "learn": "Finish by connecting pontos 27 through 32 to draw the tail and its distinctive club at the end. This is the most satisfying finish of any atividade in the collection — that club is what makes Ankylosaurus so unique. Just six pontos, but each one counts toward one of nature's most extraordinary features.",
+              "fact": "A cauda era formada por vértebras fundidas e podia pesar até 45 quilos – mais pesada do que a maioria dos cães adultos! Os cientistas acham que o Anquilossauro balançou a cauda para manter os outros dinossauros a uma distância segura. Um escudo embutido brilhante para um comedor de plantas gentil!"
+            }
+          ],
+          "outro": "Parabéns por ter completado todos os 32 pontos! Agora, pinte as placas da armadura em tons de cinzento e castanho — ou use a sua imaginação para criar os seus próprios padrões. A armadura dos animais tem diversas cores, pelo que o seu Anquilossauro pode ter o aspeto que desejar! Perfeito para a sala de aula — veja mais <a href=\"/playgrounds/\">atividades de ligar os pontos</a> .",
+          "color_schemes": []
+        }
+      }
+    },
+    {
+      "slug": "pterodactyl-dot-to-dot-puzzle",
+      "header": {
+        "title": "Pterodáctilo Conecte os Pontos: 67 Pontos Sobre Mares Antigos",
+        "meta_description": "O pterodáctilo era um pterossauro voador, não um dinossauro. Conecte 67 pontos com este PDF gratuito de conectar os pontos para crianças de 6 a 9 anos.",
+        "og": {
+          "title": "Pterodáctilo Conecte os Pontos: 67 Pontos Sobre Mares Antigos",
+          "description": "O pterodáctilo era um pterossauro voador, não um dinossauro. Conecte 67 pontos com este PDF gratuito de conectar os pontos para crianças de 6 a 9 anos.",
+          "image_alt": "Pterodáctilo voando com asas largas, sustentado por 67 pontos imprimíveis"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Pterodáctilo",
+          "description": "O pterodáctilo era um pterossauro voador, não um dinossauro. Conecte 67 pontos com este PDF gratuito de conectar os pontos para crianças de 6 a 9 anos.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
+      },
+      "body": {
+        "h1": "Pterodáctilo Conecte os Pontos: 67 Pontos Sobre Mares Antigos",
+        "name": "Pterodáctilo",
+        "tagline": "The Flying Dinossauro Kids Love",
+        "description": "Conecte os pontos para desenhar o réptil voador mais famoso do mundo pré-histórico! Os pterodáctilos sobrevoavam oceanos e rios antigos em busca de peixes. Esta folha de atividades fácil com 24 pontos é perfeita para crianças pequenas e da pré-escola.",
+        "fun_fact": "Os pterodáctilos não eram tecnicamente dinossauros – eles eram répteis voadores chamados pterossauros!",
+        "faqs": [
+          {
+            "q": "Quantos pontos tem o puzzle de ligar os pontos do pterodáctilo?",
+            "a": "O desenho de pterodáctilo para ligar os pontos tem 24 pontos numerados. Isto torna-o um puzzle fácil, mais adequado para crianças dos 4 aos 6 anos (pré-escolar e jardim de infância). As crianças ligam os pontos por ordem numérica para revelar a imagem completa do pterodáctilo e depois colorem-na."
+          },
+          {
+            "q": "O desenho de ligar os pontos do pterodáctilo é gratuito para imprimir?",
+            "a": "Sim. A ficha de atividades sobre o Pterodáctilo é 100% gratuita para descarregar a partir de DotToDotFreePrintables.com — sem necessidade de registo, e-mail ou pagamento. O download é instantâneo, em formato PDF pronto a imprimir, nos formatos retrato e paisagem, e nos tamanhos Carta (US Letter) ou A4."
+          },
+          {
+            "q": "Para que faixa etária é mais indicada a ficha de atividades \"Ligar os Pontos\" sobre os pterodáctilos?",
+            "a": "Com 24 pontos, o puzzle do Pterodáctilo é mais indicado para crianças dos 4 aos 6 anos (pré-escolar e jardim de infância). As crianças mais pequenas podem divertir-se com a ajuda de um adulto para contar em conjunto, enquanto as mais confiantes podem completá-lo sozinhas e praticar a sequência numérica até 24."
+          },
+          {
+            "q": "Que competências ensina o puzzle de ligar os pontos do pterodáctilo?",
+            "a": "A ligação dos 24 pontos do puzzle do Pterodáctilo desenvolve o reconhecimento de números e a contagem até 24, o controlo do lápis, a coordenação motora e a concentração sustentada — as mesmas bases da motricidade fina que suportam a escrita inicial. Colorir a imagem finalizada acrescenta uma recompensa criativa."
+          },
+          {
+            "q": "Qual é uma curiosidade interessante sobre o pterodáctilo?",
+            "a": "Tecnicamente, os pterodáctilos não eram dinossauros — eram répteis voadores chamados pterossauros! As crianças descobrem factos como este enquanto completam o puzzle de ligar os pontos do pterodáctilo."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Here is a brilliant atividade fact to share before you begin: Pterodactyls were not actually dinosaurs at all! They were flying reptiles called pterosaurs, living alongside the dinosaurs but belonging to a completely separate group. They were also the first vertebrates — animals with a backbone — ever to evolve powered flight. With 67 pontos this is quite a challenge, so settle in and enjoy the process!",
+          "sections": [
+            {
+              "range": "1–10",
+              "title": "A cabeça e o bico longo",
+              "learn": "Start at ponto 1 and ligue through to ponto 10 to draw the long, pointed beak and distinctive crested head. The Pterodactyl head is one of the most unusual shapes in the natural world — long, narrow, and often tipped with a dramatic crest. Children practise a very elongated shape here, which is a refreshing challenge.",
+              "fact": "Muitas espécies de pterossauros tinham grandes cristas na cabeça, feitas de ossos e tecidos moles. Os cientistas acreditam que estes brasões eram usados ​​para exibição – atrair parceiros e comunicar com outros membros do grupo. Algumas cristas eram tão grandes quanto o próprio crânio, tornando a cabeça quase comicamente superdimensionada."
+            },
+            {
+              "range": "11–24",
+              "title": "As asas",
+              "learn": "Continue from ponto 11 to ponto 24 to sweep out the enormous wings. Pterodactyl wings were formed by a membrane of skin and muscle stretching from an enormously elongated fourth finger all the way to the body. Children learn to draw a wide, expansive arc — one of the most satisfying pencil movements in the whole collection.",
+              "fact": "A membrana da asa do pterodáctilo era fina, mas incrivelmente resistente, reforçada por minúsculas fibras que a atravessavam como um tecido. Ao contrário das asas de morcego, que se fixam ao tornozelo, as asas dos pterossauros fixam-se mais acima na perna, dando-lhes uma postura de voo ligeiramente diferente – mais parecida com uma asa-delta do que com um pássaro."
+            },
+            {
+              "range": "25–40",
+              "title": "O corpo e os dedos das asas",
+              "learn": "Trace pontos 25 through 40 to fill out the compact body and trace the extraordinary wing-finger structure. This section has the most pontos in the atividade and requires real sustained concentration — a wonderful exercise in perseverance. Remind crianças that every single ponto is progress.",
+              "fact": "A envergadura de um pterodáctilo pode atingir cerca de um metro – aproximadamente o tamanho de uma grande gaivota – mas alguns de seus parentes, como Quetzalcoatlus, tinham envergadura de até 36 pés, mais larga que a de um pequeno avião. A família dos pterossauros variava do tamanho de um pardal a absolutamente impressionante."
+            },
+            {
+              "range": "41–54",
+              "title": "As garras e os pés",
+              "learn": "Ligue pontos 41 to 54 to draw the wing-tip claws and the hind feet. Pterodactyls had claws on their wings for climbing and gripping, which crianças often find surprising. These seções involve smaller, tighter movements — great for building fine motor precision in older crianças.",
+              "fact": "Os pterodáctilos podiam andar de quatro no chão, dobrando as asas perfeitamente como um guarda-chuva. Evidências recentes de rastros mostram que eles se sentiam mais confortáveis ​​no solo do que se pensava – andando pelas praias e margens dos rios em busca de peixes, insetos e pequenos animais."
+            },
+            {
+              "range": "55–67",
+              "title": "A postura da cauda e da aterrissagem",
+              "learn": "Finish the atividade by connecting pontos 55 through 67 to complete the tail and capture the full flying or landing pose. The Pterodactyl had a very short tail compared to some other pterosaurs. Children practise a focused, careful finish here — thirteen pontos to bring the whole magnificent creature together.",
+              "fact": "Os pterodáctilos provavelmente voaram em correntes térmicas de ar quente, assim como as águias e os abutres modernos, conservando energia em longas distâncias. Os seus ossos ocos – incrivelmente leves mas surpreendentemente fortes – eram essenciais para o voo e são uma das principais características que partilham com as aves modernas."
+            }
+          ],
+          "outro": "Uma persistência incrível — 67 pontos é uma conquista genuína da qual se pode orgulhar! O seu pterodáctilo está pronto para voar. Que tal tentar desenhar a sua própria cena pré-histórica de voo à volta dele? Um rio, algumas montanhas, talvez um peixe a saltar — o mundo jurássico está à sua disposição para criar. Preparado para algo ainda mais difícil? Experimente os nossos <a href=\"/usa-250/\">desenhos de ligar os pontos para imprimir</a> .",
+          "color_schemes": []
+        }
+      }
+    },
+    {
+      "slug": "allosaurus",
+      "header": {
+        "title": "Allosaurus Conecte os Pontos — Desafio Jurássico de 42 Pontos",
+        "meta_description": "O Allosaurus governou o Jurássico muito antes do T-Rex aparecer. Siga 42 pontos ao redor deste poderoso predador em um quebra-cabeça projetado para crianças de 6 a 10 anos.",
+        "og": {
+          "title": "Allosaurus Conecte os Pontos — Desafio Jurássico de 42 Pontos",
+          "description": "O Allosaurus governou o Jurássico muito antes do T-Rex aparecer. Siga 42 pontos ao redor deste poderoso predador em um quebra-cabeça projetado para crianças de 6 a 10 anos.",
+          "image_alt": "Feroz Allosaurus mostrando mandíbulas fortes, montado a partir de 42 pontos imprimíveis"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Alossauro",
+          "description": "O Allosaurus governou o Jurássico muito antes do T-Rex aparecer. Siga 42 pontos ao redor deste poderoso predador em um quebra-cabeça projetado para crianças de 6 a 10 anos.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
+      },
+      "body": {
+        "h1": "Allosaurus Conecte os Pontos — Predador Jurássico de 42 Pontos",
+        "name": "Alossauro",
+        "tagline": "O Leão do Jurássico",
+        "description": "Conecte os pontos para revelar o Allosaurus — o dinossauro mais famoso do período Jurássico, mesmo antes do T-Rex existir! Ele tinha dentes fortes, mandíbulas poderosas e pode ter vivido em grupos. Esta folha de exercícios mais difícil desafia alunos do 1º ao 3º ano.",
+        "fun_fact": "Mais de 40 fósseis de Allosaurus foram encontrados em um único local em Utah!",
+        "faqs": [
+          {
+            "q": "Quantos pontos tem o puzzle de ligar os pontos do Alossauro?",
+            "a": "O desenho para imprimir do alossauro, onde se ligam os pontos, tem 42 pontos numerados. Isto torna-o um puzzle de nível fácil a médio, mais adequado para crianças dos 5 aos 8 anos (do jardim de infância ao 2º ano do ensino básico). As crianças ligam os pontos por ordem numérica para revelar a imagem completa do alossauro e depois colorem-na."
+          },
+          {
+            "q": "O desenho de ligar os pontos do alossauro é gratuito para imprimir?",
+            "a": "Sim. A ficha de atividades do Alossauro é 100% gratuita para descarregar a partir de DotToDotFreePrintables.com — sem necessidade de registo, e-mail ou pagamento. O download é instantâneo, em formato PDF pronto a imprimir, nos formatos retrato e paisagem, e nos tamanhos Carta (US Letter) ou A4."
+          },
+          {
+            "q": "Para que faixa etária é mais indicada a ficha de atividades de ligar os pontos com o tema do alossauro?",
+            "a": "Com 42 pontos, o puzzle do Alossauro é mais indicado para crianças dos 5 aos 8 anos (do jardim de infância ao 2º ano do ensino básico). As crianças mais pequenas podem divertir-se com a ajuda de um adulto para contar em conjunto, enquanto as mais confiantes podem completá-lo sozinhas e praticar a sequência numérica até 42."
+          },
+          {
+            "q": "Que competências ensina o jogo de ligar os pontos do alossauro?",
+            "a": "A ligação dos 42 pontos do puzzle do Alossauro desenvolve o reconhecimento de números e a contagem até 42, o controlo do lápis, a coordenação motora e a concentração sustentada — as mesmas bases da motricidade fina que suportam a escrita inicial. Colorir a imagem finalizada acrescenta uma recompensa criativa."
+          },
+          {
+            "q": "Qual é uma curiosidade interessante sobre o alossauro?",
+            "a": "Mais de 40 fósseis de alossauros foram encontrados num único sítio arqueológico no Utah! As crianças descobrem factos como este enquanto completam o puzzle de ligar os pontos do alossauro."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Long before T-Rex ruled the Cretaceous, the Allosaurus was the most remarkable large dinosaur on Earth. Faster, more agile, and possibly smarter than many dinosaurs around it, this Jurassic explorer was the star of its age. With 42 pontos and a difficulty rating of hard, this atividade is a real test of counting skills and concentration — perfect for older crianças who are ready for a genuine challenge!",
+          "sections": [
+            {
+              "range": "1–8",
+              "title": "A cabeça",
+              "learn": "Start at ponto 1 and ligue through to ponto 8 to draw the large, deep skull with its distinctive ridges above the eyes. The Allosaurus had bony crests running from its snout to above its eyes — a detail that makes it look genuinely fierce. Children practise following a bold, angular skull shape with several interesting direction changes.",
+              "fact": "O alossauro tinha uma mandíbula muito incomum – os cientistas acham que ele usava uma mordida grande e poderosa, empurrando a cabeça para baixo com os fortes músculos do pescoço, em vez de apenas morder como a maioria dos animais. Seus dentes serrilhados eram perfeitos para um carnívoro de seu tamanho, tornando-o um dos caçadores mais eficazes do período Jurássico."
+            },
+            {
+              "range": "9–18",
+              "title": "O pescoço e os ombros",
+              "learn": "Continue from ponto 9 to ponto 18 to trace the powerful neck and broad shoulders. Allosaurus had a notably muscular neck that gave it an incredibly powerful bite. This section involves confident, sweeping curves — crianças who rush tend to lose accuracy here, so it is a great section for practising patience.",
+              "fact": "O Allosaurus tinha cerca de 28-40 pés de comprimento e pesava até 2 toneladas – muito mais leve que o T-Rex, mas muito mais ágil. Os cientistas pensam que esta agilidade, combinada com um possível comportamento de grupo, permitiu-lhe mover-se ao lado de animais muitas vezes maiores que o seu tamanho, incluindo os saurópodes gigantes!"
+            },
+            {
+              "range": "19–28",
+              "title": "O corpo e os braços",
+              "learn": "Trace pontos 19 through 28 for the muscular body and powerful three-fingered arms. Unlike T-Rex, Allosaurus had arms it could genuinely use — strong and well-suited for an active life in the Jurassic. Children practise a mid-section with plenty of detail, building the kind of sustained attention that a difficulty-3 atividade demands.",
+              "fact": "More than 60 individual Allosaurus specimens have been found at the Cleveland-Lloyd Dinossauro Quarry in Utah — by far the largest concentration of Jurassic predator bones ever discovered. Why so many ended up in one place remains one of palaeontology's most debated mysteries."
+            },
+            {
+              "range": "29–36",
+              "title": "As pernas poderosas",
+              "learn": "Ligue pontos 29 to 36 to draw the long, powerful legs. Allosaurus was built for speed as much as strength — its legs were proportionally longer than T-Rex's, making it a faster and more manoeuvrable hunter. Children practise confident, downward strokes that convey the animal's athletic build.",
+              "fact": "O alossauro provavelmente poderia correr a cerca de 32 a 30 quilômetros por hora – mais rápido do que a maioria dos humanos consegue correr. Alguns cientistas acreditam que ele usou táticas de emboscada, escondendo-se na vegetação antes de atacar em alta velocidade. Foram encontradas pegadas fósseis que mostram um alossauro perseguindo um saurópode, dando-nos um raro vislumbre do comportamento real de caça."
+            },
+            {
+              "range": "37–42",
+              "title": "A cauda",
+              "learn": "Finish the atividade by connecting pontos 37 through 42 to sweep the long, stiff tail into place. Six pontos to close out a challenging atividade — encourage crianças to make these final lines as clean and confident as possible. A strong finish is just as satisfying as a strong start.",
+              "fact": "O Alossauro viveu há aproximadamente 155 milhões de anos – quase 90 milhões de anos antes do T-Rex. Se você colocar um Alossauro e um T-Rex lado a lado no tempo, o Alossauro está na verdade mais próximo em idade geológica do Estegossauro que ele caçou do que do T-Rex que veio depois dele. O tempo na pré-história profunda é genuinamente surpreendente."
+            }
+          ],
+          "outro": "Excelente trabalho! Enfrentou um puzzle de dificuldade 3 e venceu! Quarenta e dois pontos, cinco secções e um formidável predador jurássico. Este merece ser emoldurado. Para um desafio ainda maior, consulte os nossos <a href=\"/usa-250/\">imprimíveis de ligar os pontos extremos</a> .",
+          "color_schemes": []
+        }
+      }
+    }
+  ]
+}

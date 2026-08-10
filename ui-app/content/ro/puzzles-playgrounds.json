@@ -1,425 +1,812 @@
-[
-  {
-    "slug": "spring-horse-playground-dot-to-dot-puzzle",
-    "name": "Loc de joacă cu leagăn",
-    "seoH1": "Primăvara Cal Punct la Punct — Foaie de Joacă cu 53 de Puncte",
-    "tagline": "Leagăne, tobogane și distracție în aer liber!",
-    "description": "Unește 42 de puncte ușor de utilizat pentru a descoperi o scenă veselă de joacă, completă cu leagăne! Acest puzzle imprimabil este perfect pentru copiii de grădiniță și preșcolari care exersează secvențierea numerelor în timp ce sărbătoresc bucuria jocului în aer liber.",
-    "seoDescription": "Această fișă cu 42 de puncte desenează un leagăn clasic de loc de joacă, potrivită copiilor de 4-7 ani care exersează primele numărători. Leagănele din frânghie sunt printre cele mai vechi jocuri de curte din istorie — imprimă PDF-ul gratuit și leagă punctele spre înălțimi.",
-    "funFact": "Călăreții de primăvară se leagănă înainte și înapoi pe un arc greu, lăsând copiii să creeze mișcarea prin schimbarea greutății lor.",
-    "seoImageAlt": "Leagăn de loc de joacă conturat din 42 de puncte numerotate, fișă gratuită de tipărit",
-    "dotGuide": {
-      "intro": "Locurile de joacă sunt locuri unde imaginația dă frâu liber și se leagă prietenii - iar leagănul este regele incontestabil al locului de joacă. Puține lucruri se compară cu simpla bucurie de a-ți mișca picioarele și de a simți vântul năvalnic pe lângă tine în timp ce te înalți tot mai sus spre cer. Acest puzzle vesel cu 42 de puncte surprinde această magie. Găsește punctul 1, ia creionul și hai să ne jucăm!",
-      "sections": [
-        {
-          "range": "1–13",
-          "title": "Cadrul pivotant",
-          "learn": "Începeți de la punctul 1 și conectați-vă la punctul 8 pentru a desena cadrul înalt în formă de A care ține leagănele la locul lor. Copiii exersează linii drepte și sigure, care se înclină spre interior, către un punct - o introducere excelentă în formele geometrice într-un context distractiv, din lumea reală. Încurajați o mișcare fermă și deliberată pentru cel mai bun rezultat.",
-          "fact": "Leagănul clasic în formă de A a fost conceput pentru a fi cât mai stabil posibil - forma triunghiulară distribuie uniform greutatea, astfel încât întreaga structură să nu se răstoarne nici măcar atunci când copiii se leagănă puternic. Triunghiurile sunt cea mai rezistentă formă din inginerie, motiv pentru care le vezi peste tot, de la poduri la cadrele de joacă."
-        },
-        {
-          "range": "14–27",
-          "title": "Bara transversală și lanțurile",
-          "learn": "Continuați de la punctul 9 la punctul 18 pentru a desena bara transversală orizontală din partea de sus și lanțurile suspendate. Copiii exersează alternarea între linii orizontale și lanțuri înclinate în jos - un exercițiu minunat de schimbare a direcției în mod deliberat și precis. Lanțurile sunt cele care fac posibilă mișcarea de balansare!",
-          "fact": "Lanțurile moderne pentru locurile de joacă sunt fabricate din oțel galvanizat — oțel acoperit cu un strat de zinc — pentru a preveni ruginirea. Înainte de lanțurile de oțel, leagănele foloseau frânghii groase din fibre naturale, cum ar fi cânepa sau manila. Prima experiență a multor copii cu un leagăn a fost o simplă scândură legată de o creangă de copac cu o frânghie, iar această tradiție continuă și astăzi în grădinile din întreaga lume."
-        },
-        {
-          "range": "28–40",
-          "title": "Scaunul balansoar și figurina",
-          "learn": "Trasați punctele de la 19 la 28 pentru a desena leagănul și conturul copilului care stă pe el. Aceasta este secțiunea cea mai satisfăcătoare a puzzle-ului - copiii văd cum întregul scop al structurii se conturează pe măsură ce o figură mică le ia locul. Reamintiți-le copiilor să se uite înainte la următorul punct înainte de a ridica creionul.",
-          "fact": "Senzația de leagăn — ridicarea și coborârea, scurtul moment de imponderabilitate în vârful fiecărui arc — activează sistemul vestibular din creier, care este responsabil pentru echilibru și conștientizarea spațială. Acesta este motivul pentru care leagănul este atât de plăcut: este un stimul senzorial cu adevărat benefic care ajută copiii să dezvolte echilibrul, coordonarea și conștientizarea corpului."
-        },
-        {
-          "range": "41–53",
-          "title": "Terenul și împrejurimile",
-          "learn": "Conectați punctele 29 cu 36 pentru a desena solul de sub leagăne și detaliile din jur. Copiii exersează ancorarea scenei - oferind locului de joacă un sentiment de loc și scară. Această secțiune dezvoltă o înțelegere a prim-planului și a fundalului care le va fi de folos în artă și desen în anii următori.",
-          "fact": "Locurile de joacă moderne folosesc suprafețe de siguranță special concepute sub leagăne - plăci de cauciuc, așchii de lemn sau granule de cauciuc - pentru a amortiza căderile. Acest material este proiectat cu atenție pentru a absorbi impactul. Înainte ca suprafețele de siguranță să devină standard în anii 1970 și 1980, majoritatea locurilor de joacă aveau beton dur sau pământ tasat sub echipamente."
+{
+  "collection": {
+    "header": {
+      "title": "Playground Dot to Dot Printables — Free PDF for Kids",
+      "meta_description": "Free playground dot to dot printables for kids ages 4-12: spring horse, carousel, slide, seesaw, monkey bars, and an extreme 133-dot roller coaster. Print-ready PDF worksheets for the USA, UK, and Canada. No sign-up needed.",
+      "og": {
+        "title": "9 Free Playground Dot to Dot Printables",
+        "description": "Swings, slides, seesaws, and an extreme 133-dot roller coaster — free dot to dot printables to print today.",
+        "image": "/images/swing-playgrounds-puzzle.webp"
+      },
+      "json_ld": {
+        "type": "CollectionPage",
+        "name": "Locuri de joacă",
+        "description": "Adu locul de joacă acasă! Conectează punctele pentru a descoperi leagăne, tobogane și distracție în aer liber. Toate fișele de lucru pot fi descărcate și imprimate gratuit — nu este nevoie de un cont.",
+        "image": "/images/swing-playgrounds-puzzle.webp",
+        "main_entity": {
+          "type": "ItemList",
+          "item_source": "puzzles"
         }
-      ],
-      "outro": "Genial — locul tău de joacă este gata! Colorează leagănele cu culorile tale preferate și adaugă câțiva prieteni care se leagănă alături. Apoi, ieși afară pentru a experimenta adevăratul lucru — niciun creion colorat nu se poate compara cu senzația vântului în părul tău în vârful unui leagăn! Pentru fiecare vârstă și temă, explorează biblioteca noastră completă de <a href=\"/\">materiale imprimabile punct cu punct</a>."
+      },
+      "breadcrumb_json_ld": {
+        "type": "BreadcrumbList",
+        "items": [
+          {
+            "position": 1,
+            "name": "Home",
+            "path": "/"
+          },
+          {
+            "position": 2,
+            "name": "Locuri de joacă",
+            "path": "/playgrounds/"
+          }
+        ]
+      }
     },
-    "seoTitle": "Leagănul de Unit Puncte — 42 de Puncte pentru Micii Începători"
+    "body": {
+      "h1": "Fișe imprimabile Dot-to-Dot pentru copii - Loc de joacă",
+      "name": "Locuri de joacă",
+      "tagline": "De ce adoră copiii puzzle-urile punct-punct de la locul de joacă",
+      "description": "Adu locul de joacă acasă! Conectează punctele pentru a descoperi leagăne, tobogane și distracție în aer liber. Toate fișele de lucru pot fi descărcate și imprimate gratuit — nu este nevoie de un cont.",
+      "hero_image": "/images/swing-playgrounds-puzzle.webp",
+      "slug": "playgrounds",
+      "faqs": [
+        {
+          "q": "Câte planșe imprimabile gratuite cu locuri de joacă, desenate cu puncte, există?",
+          "a": "Categoria Locuri de joacă oferă în prezent 5 materiale imprimabile gratuite cu elemente de tip „conectați punctele”, cu dimensiuni cuprinse între 42 și 133 de puncte. Fiecare fișă de lucru se descarcă instantaneu ca PDF gata de imprimare (Letter sau A4, portret sau peisaj), fără a fi necesară înregistrarea."
+        },
+        {
+          "q": "Puzzle-urile punct-punct ale locurilor de joacă sunt gratuite pentru imprimare?",
+          "a": "Da — toate cele 5 puzzle-uri din colecția Playgrounds sunt complet gratuite pentru utilizare acasă și în clasă. Nu este necesar niciun cont, e-mail sau plată pe DotToDotFreePrintables.com."
+        },
+        {
+          "q": "Pentru ce vârste sunt puzzle-urile de pe locurile de joacă?",
+          "a": "Cu un număr de puncte între 42 și 133, colecția Playgrounds acoperă aproximativ vârstele 4-12 ani. Alegeți un număr mai mic de puncte pentru preșcolari și grădinițe și un număr mai mare pentru jetoane de notițe sigure din clasele 2-6."
+        },
+        {
+          "q": "Ce puzzle-uri punct-punct pot imprima copiii pentru locul de joacă?",
+          "a": "Cinci materiale imprimabile gratuite pentru terenul de joacă: Leagăn (42 de puncte), Balansoar (68 de puncte), Bara pentru maimuțe (94 de puncte), Tobogan (102 puncte) și Montagne russe (133 de puncte) — cea mai largă gamă de dificultăți de pe site, de la grădiniță până la provocări pentru copii de vârstă preșcolară."
+        },
+        {
+          "q": "Care este cel mai dificil puzzle de tip „punct cu punct” de pe site?",
+          "a": "Puzzle-ul Roller Coaster Playground este cea mai mare provocare a site-ului, cu 133 de puncte, ideal pentru vârstele 7-12 ani. Este un joc preferat de copiii mai mari care consideră fișele de lucru obișnuite prea ușoare."
+        }
+      ]
+    }
   },
-  {
-    "slug": "playhouse-slide-playground-dot-to-dot-puzzle",
-    "name": "Loc de joacă cu tobogane",
-    "seoH1": "Toboganul Casei de Joacă Punct la Punct: 68 de Puncte de Tipărit Gratuit",
-    "tagline": "Urcă, alunecă, repetă!",
-    "description": "Conectează 102 puncte pentru a dezvălui un tobogan înalt pentru terenul de joacă, gata de cățărat și alunecat. Cu mai multe puncte decât cel mai simplu puzzle al nostru pentru terenul de joacă, acesta este o nouă provocare plăcută pentru copiii care sunt gata să depășească fișele pentru începători, bucurându-se în același timp de un subiect distractiv și familiar.",
-    "seoDescription": "Escaladarea, alunecarea și joaca de-a v-ați ascunselea se întâlnesc într-o structură veselă. Urmărește toboganul casei de joacă prin 68 de puncte într-un PDF gratuit pentru vârstele 5–9.",
-    "funFact": "Structurile de joacă combină escaladarea, joaca de-a v-ați ascunselea și alunecarea, oferind copiilor mai multe tipuri de mișcare și practică a imaginației într-un singur loc.",
-    "seoImageAlt": "Tobogan înalt de loc de joacă conturat din 102 puncte numerotate, fișă de tipărit",
-    "dotGuide": {
-      "intro": "Dacă leagănul este regele locului de joacă, toboganul este pe un loc secund foarte apropiat - există ceva irezistibil în a te cățăra, a te așeza și a lăsa gravitația să facă restul. Acest puzzle cu 102 puncte trasează un tobogan înalt și clasic de joacă, de la scara din spate până la rampa curbată din față. Are mai multe puncte decât cea mai ușoară fișă a noastră de joacă, așa că recompensează puțină răbdare suplimentară. Găsește punctul 1 și hai să construim ceva care merită să te cățărezi.",
-      "sections": [
-        {
-          "range": "1–14",
-          "title": "Scara",
-          "learn": "Începeți de la punctul 1 și conectați-vă la punctul 20 pentru a desena scara înaltă care duce la platforma toboganului. Această secțiune este în mare parte formată din linii drepte, distanțate uniform, ceea ce o face o bună încălzire pentru mișcări de creion constante și controlate înainte de curbele din față.",
-          "fact": "Scările pentru locuri de joacă sunt construite cu trepte suficient de distanțate încât piciorul unui copil mic să poată ajunge în siguranță la următorul - de obicei la o distanță de nu mai mult de aproximativ 30 cm, mult mai aproape decât treptele unei scări pliante de uz casnic."
+  "puzzles": [
+    {
+      "slug": "spring-horse-playground-dot-to-dot-puzzle",
+      "header": {
+        "title": "Leagănul de Unit Puncte — 42 de Puncte pentru Micii Începători",
+        "meta_description": "Această fișă cu 42 de puncte desenează un leagăn clasic de loc de joacă, potrivită copiilor de 4-7 ani care exersează primele numărători. Leagănele din frânghie sunt printre cele mai vechi jocuri de curte din istorie — imprimă PDF-ul gratuit și leagă punctele spre înălțimi.",
+        "og": {
+          "title": "Leagănul de Unit Puncte — 42 de Puncte pentru Micii Începători",
+          "description": "Această fișă cu 42 de puncte desenează un leagăn clasic de loc de joacă, potrivită copiilor de 4-7 ani care exersează primele numărători. Leagănele din frânghie sunt printre cele mai vechi jocuri de curte din istorie — imprimă PDF-ul gratuit și leagă punctele spre înălțimi.",
+          "image_alt": "Leagăn de loc de joacă conturat din 42 de puncte numerotate, fișă gratuită de tipărit"
         },
-        {
-          "range": "15–28",
-          "title": "Platforma",
-          "learn": "Continuați de la punctul 21 la punctul 40 pentru a desena platforma plată din vârf, unde cățărătorii se opresc înainte de a aluneca în jos. Copiii exersează conectarea liniilor orizontale și verticale la unghiuri drepte clare aici - un exercițiu bun pentru structură și proporție.",
-          "fact": "Majoritatea platformelor de joacă sunt construite cu balustrade pe cel puțin trei laturi, lăsând deschisă doar intrarea în tobogan. Acest detaliu de design a fost recunoscut ca fiind o reducere semnificativă a căderilor de pe platformă de când a devenit standard în ghidurile de siguranță pentru locurile de joacă."
-        },
-        {
-          "range": "29–41",
-          "title": "Partea de sus a diapozitivului",
-          "learn": "Trasați punctele de la 41 la 60 pentru a modela marginea curbată unde platforma întâlnește toboganul - exact locul unde începe distracția. Aceasta este o curbă mai strânsă decât pare, așa că încurajați o mișcare lentă și deliberată, mai degrabă decât o mișcare rapidă.",
-          "fact": "Prima curbă din partea de sus a unui tobogan se numește „curba de pornire” și este special înclinată pentru a controla cât de repede prinde viteză un ciclist, în loc să-l lase să coboare direct în jos."
-        },
-        {
-          "range": "42–55",
-          "title": "Jgheabul Lung",
-          "learn": "Conectați punctele 61 cu 85 pentru a desena diapozitivul lung și amplu. Aceasta este cea mai mare și mai satisfăcătoare secțiune a puzzle-ului - încurajați o singură mișcare lină și continuă, mai degrabă decât mai multe scurte, deoarece aceasta este ceea ce conferă diapozitivului senzația de viteză.",
-          "fact": "Toboganele moderne pentru locuri de joacă sunt aproape întotdeauna fabricate din plastic turnat prin rotație, nu din metal. Toboganele metalice se pot încălzi periculos de tare în lumina directă a soarelui de vară, acesta fiind unul dintre principalele motive pentru care locurile de joacă au schimbat în mare măsură materialele începând cu anii 1980 și 1990."
-        },
-        {
-          "range": "56–68",
-          "title": "Baza și aterizarea",
-          "learn": "Termină prin conectarea punctelor 86 până la 102 pentru a desena baza toboganului și solul unde aterizează pasagerii. Șaptesprezece puncte au mai rămas - un final încrezător și stabil aici completează întreaga structură.",
-          "fact": "La fel ca leagănele, toboganele se așază pe o suprafață de siguranță special proiectată - de obicei cauciuc, nisip sau așchii de lemn - concepută pentru a absorbi impactul unei aterizări mult mai bine decât ar putea-o face vreodată iarba simplă sau betonul."
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Loc de joacă cu leagăn",
+          "description": "Această fișă cu 42 de puncte desenează un leagăn clasic de loc de joacă, potrivită copiilor de 4-7 ani care exersează primele numărători. Leagănele din frânghie sunt printre cele mai vechi jocuri de curte din istorie — imprimă PDF-ul gratuit și leagă punctele spre înălțimi.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
         }
-      ],
-      "outro": "Bravo - toboganul tău este gata pentru cățărători! Colorează-l în culori strălucitoare pentru terenul de joacă sau creează-ți propriul model sălbatic pe tobogan. Ești gata pentru ceva complet diferit? Încearcă în continuare colecția noastră de <a href=\"/dinosaurs/\">desenați din nou din punct de vedere al dinozaurilor</a>."
-    },
-    "seoTitle": "Toboganul de Unit Puncte — 102 Puncte, Provocare pentru Curajoși"
-  },
-  {
-    "slug": "carousel-horse-playground-dot-to-dot-puzzle",
-    "name": "Loc de joacă cu balansoare",
-    "seoH1": "Calul Carusel Punct la Punct — o Foaie Magică cu 88 de Puncte",
-    "tagline": "Sus, Jos și Peste Tot!",
-    "description": "Conectează 68 de puncte pentru a descoperi doi prieteni care se echilibrează pe un balansoar clasic de joacă. Cu un număr de puncte chiar între cele mai ușoare și cele mai dificile puzzle-uri de joacă ale noastre, acesta este un pas intermediar solid pentru copiii care își dezvoltă încrederea în secvențierea numerelor.",
-    "seoDescription": "Urmărește coama fluidă și saiciul decorativ al unui săritor de carusel prin 88 de puncte. Tipărește acest puzzle de târg gratuit pentru copiii cu vârste între 5–9 ani.",
-    "funFact": "Balansoarele sunt uneori numite „teeter-totters” în engleza americană - ambele denumiri descriu aceeași mișcare simplă în sus și în jos care i-a distrat pe copii generații întregi.",
-    "seoImageAlt": "Balansoar de loc de joacă conturat din 68 de puncte numerotate, fișă gratuită de tipărit",
-    "dotGuide": {
-      "intro": "Balansoarul are un mic accent pe munca în echipă - funcționează doar dacă ambii pasageri joacă împreună, împingându-se și ridicându-se pe rând. Acest puzzle cu 68 de puncte creează acel echilibru înainte și înapoi de la zero, scândura întâi, pasagerii ultimii. Este un pas frumos în sus față de cea mai ușoară foaie de joacă a noastră, fără a devia în teritoriul experților. Găsește punctul 1 și hai să echilibrăm chestia asta.",
-      "sections": [
-        {
-          "range": "1–18",
-          "title": "Fulcrumul",
-          "learn": "Începeți de la punctul 1 și conectați-vă la punctul 14 pentru a desena suportul central robust pe care se echilibrează întregul balansoar. Aceste linii sunt scurte și înclinate, oferindu-le copiilor posibilitatea de a exersa construirea unei forme de bază solide înainte de a adăuga orice altceva deasupra.",
-          "fact": "Suportul central al unui balansoar se numește punct de sprijin — același cuvânt pe care inginerii îl folosesc pentru punctul de pivotare al oricărei pârghii. Un balansoar este din punct de vedere tehnic una dintre cele mai simple mașini existente: o pârghie echilibrată pe un punct fix."
-        },
-        {
-          "range": "19–36",
-          "title": "Scândura",
-          "learn": "Continuați de la punctul 15 la punctul 28 pentru a desena placa lungă care se sprijină pe punctul de sprijin. Copiii exersează desenarea unei linii continue, ușor înclinate — o bună pregătire pentru un control constant al mâinii la mișcările mai lungi.",
-          "fact": "Balansoarele mai vechi erau adesea construite dintr-o singură scândură de lemn, exact de unde și numele atracției - „see” și „saw” amintesc de mișcarea înainte și înapoi a unui fierăstrău vechi, tras de două persoane, peste un buștean."
-        },
-        {
-          "range": "37–54",
-          "title": "Mânerele",
-          "learn": "Trasați punctele de la 29 la 42 pentru a adăuga mânerele la fiecare capăt al plăcii. În această secțiune, copiii lucrează pe rând pe ambele părți ale puzzle-ului, exersând simetria pe măsură ce construiesc o formă potrivită la fiecare capăt.",
-          "fact": "Mânerele nu au fost întotdeauna standard la modelele de balansoare. Versiunile timpurii pentru locuri de joacă prevedeau că utilizatorii prindeau placa în sine, motiv pentru care standardele moderne de siguranță impun acum mânere dedicate la ambele capete."
-        },
-        {
-          "range": "55–72",
-          "title": "Primul Călăreț",
-          "learn": "Unește punctele 43 cu 56 pentru a desena copilul stând pe capătul ridicat al balansoarului. Aici scena începe să pară vie - reamintiți-le copiilor să privească înainte la următorul punct înainte de a ridica creionul, astfel încât figura să iasă netedă.",
-          "fact": "Mersul pe un balansoar este un exercițiu de echilibru cu adevărat util. Mutarea greutății pentru a rămâne în poziție verticală în timp ce vârfurile plank-ului activează aceiași mușchi abdominali și sistemul de echilibru al urechii interne folosite în gimnastică și dans."
-        },
-        {
-          "range": "73–88",
-          "title": "Al doilea călăreț și pământul",
-          "learn": "Terminați prin a conecta punctele 57 până la 68 pentru a desena al doilea copil la capătul coborât și pământul sub balansoar. Au mai rămas doar douăsprezece puncte - o finalizare atentă și încrezătoare completează întreaga scenă.",
-          "fact": "Unele locuri de joacă moderne au înlocuit balansoarul tradițional cu două persoane cu versiuni cu arcuri, care permit unui singur copil să se legene singur, deși clasicul balansoar pivotant cu două locuri este încă cel mai comun model la nivel mondial."
+      },
+      "body": {
+        "h1": "Primăvara Cal Punct la Punct — Foaie de Joacă cu 53 de Puncte",
+        "name": "Loc de joacă cu leagăn",
+        "tagline": "Leagăne, tobogane și distracție în aer liber!",
+        "description": "Unește 42 de puncte ușor de utilizat pentru a descoperi o scenă veselă de joacă, completă cu leagăne! Acest puzzle imprimabil este perfect pentru copiii de grădiniță și preșcolari care exersează secvențierea numerelor în timp ce sărbătoresc bucuria jocului în aer liber.",
+        "fun_fact": "Călăreții de primăvară se leagănă înainte și înapoi pe un arc greu, lăsând copiii să creeze mișcarea prin schimbarea greutății lor.",
+        "faqs": [
+          {
+            "q": "Pentru ce vârstă este puzzle-ul de unit puncte Loc de joacă cu leagăn?",
+            "a": "Este conceput pentru vârsta Vârste 4-8. Cu 53 puncte, se potrivește copiilor care numără cu încredere până la 53; cei mai mici îl pot termina cu puțin ajutor."
+          },
+          {
+            "q": "Cum imprim fișa Loc de joacă cu leagăn?",
+            "a": "Apasă butonul de descărcare pentru PDF-ul gratuit, apoi imprimă-l pe hârtie obișnuită (A4 sau US Letter) din orice browser sau cititor PDF. Nu este nevoie de software special."
+          },
+          {
+            "q": "Fișa imprimabilă Loc de joacă cu leagăn este cu adevărat gratuită?",
+            "a": "Da — este 100% gratuită, fără înregistrare, cont sau plată. O poți imprima pentru acasă sau pentru clasă."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Locurile de joacă sunt locuri unde imaginația dă frâu liber și se leagă prietenii - iar leagănul este regele incontestabil al locului de joacă. Puține lucruri se compară cu simpla bucurie de a-ți mișca picioarele și de a simți vântul năvalnic pe lângă tine în timp ce te înalți tot mai sus spre cer. Acest puzzle vesel cu 42 de puncte surprinde această magie. Găsește punctul 1, ia creionul și hai să ne jucăm!",
+          "sections": [
+            {
+              "range": "1–13",
+              "title": "Cadrul pivotant",
+              "learn": "Începeți de la punctul 1 și conectați-vă la punctul 8 pentru a desena cadrul înalt în formă de A care ține leagănele la locul lor. Copiii exersează linii drepte și sigure, care se înclină spre interior, către un punct - o introducere excelentă în formele geometrice într-un context distractiv, din lumea reală. Încurajați o mișcare fermă și deliberată pentru cel mai bun rezultat.",
+              "fact": "Leagănul clasic în formă de A a fost conceput pentru a fi cât mai stabil posibil - forma triunghiulară distribuie uniform greutatea, astfel încât întreaga structură să nu se răstoarne nici măcar atunci când copiii se leagănă puternic. Triunghiurile sunt cea mai rezistentă formă din inginerie, motiv pentru care le vezi peste tot, de la poduri la cadrele de joacă."
+            },
+            {
+              "range": "14–27",
+              "title": "Bara transversală și lanțurile",
+              "learn": "Continuați de la punctul 9 la punctul 18 pentru a desena bara transversală orizontală din partea de sus și lanțurile suspendate. Copiii exersează alternarea între linii orizontale și lanțuri înclinate în jos - un exercițiu minunat de schimbare a direcției în mod deliberat și precis. Lanțurile sunt cele care fac posibilă mișcarea de balansare!",
+              "fact": "Lanțurile moderne pentru locurile de joacă sunt fabricate din oțel galvanizat — oțel acoperit cu un strat de zinc — pentru a preveni ruginirea. Înainte de lanțurile de oțel, leagănele foloseau frânghii groase din fibre naturale, cum ar fi cânepa sau manila. Prima experiență a multor copii cu un leagăn a fost o simplă scândură legată de o creangă de copac cu o frânghie, iar această tradiție continuă și astăzi în grădinile din întreaga lume."
+            },
+            {
+              "range": "28–40",
+              "title": "Scaunul balansoar și figurina",
+              "learn": "Trasați punctele de la 19 la 28 pentru a desena leagănul și conturul copilului care stă pe el. Aceasta este secțiunea cea mai satisfăcătoare a puzzle-ului - copiii văd cum întregul scop al structurii se conturează pe măsură ce o figură mică le ia locul. Reamintiți-le copiilor să se uite înainte la următorul punct înainte de a ridica creionul.",
+              "fact": "Senzația de leagăn — ridicarea și coborârea, scurtul moment de imponderabilitate în vârful fiecărui arc — activează sistemul vestibular din creier, care este responsabil pentru echilibru și conștientizarea spațială. Acesta este motivul pentru care leagănul este atât de plăcut: este un stimul senzorial cu adevărat benefic care ajută copiii să dezvolte echilibrul, coordonarea și conștientizarea corpului."
+            },
+            {
+              "range": "41–53",
+              "title": "Terenul și împrejurimile",
+              "learn": "Conectați punctele 29 cu 36 pentru a desena solul de sub leagăne și detaliile din jur. Copiii exersează ancorarea scenei - oferind locului de joacă un sentiment de loc și scară. Această secțiune dezvoltă o înțelegere a prim-planului și a fundalului care le va fi de folos în artă și desen în anii următori.",
+              "fact": "Locurile de joacă moderne folosesc suprafețe de siguranță special concepute sub leagăne - plăci de cauciuc, așchii de lemn sau granule de cauciuc - pentru a amortiza căderile. Acest material este proiectat cu atenție pentru a absorbi impactul. Înainte ca suprafețele de siguranță să devină standard în anii 1970 și 1980, majoritatea locurilor de joacă aveau beton dur sau pământ tasat sub echipamente."
+            }
+          ],
+          "outro": "Genial — locul tău de joacă este gata! Colorează leagănele cu culorile tale preferate și adaugă câțiva prieteni care se leagănă alături. Apoi, ieși afară pentru a experimenta adevăratul lucru — niciun creion colorat nu se poate compara cu senzația vântului în părul tău în vârful unui leagăn! Pentru fiecare vârstă și temă, explorează biblioteca noastră completă de <a href=\"/\">materiale imprimabile punct cu punct</a>.",
+          "color_schemes": []
         }
-      ],
-      "outro": "Bravo — balansoarul tău este perfect echilibrat! Colorează cei doi călăreți cu ținutele tale preferate sau adaugă un loc de joacă plin de prieteni care își așteaptă rândul. Curios ce se află sub mare în loc de soare? Descoperă în continuare <a href=\"/ocean/\">planșele noastre imprimabile punct cu punct cu ocean</a>."
+      }
     },
-    "seoTitle": "Balansoarul de Unit Puncte — 68 de Puncte, Sus și Jos"
-  },
-  {
-    "slug": "dashing-car-playground-dot-to-dot-puzzle",
-    "name": "Loc de joacă Roller Coaster",
-    "seoH1": "Mașina Rapidă Punct la Punct, 48 de Puncte Rapide pentru Vârstele 4-8",
-    "tagline": "Urcă pe pistă, urmărește căderea!",
-    "description": "Conectează 133 de puncte pentru a dezvălui un roller coaster complet pentru terenul de joacă, cu bucle și tot ce ține de el. Acesta este cel mai dificil puzzle al nostru de până acum, construit pentru copiii care au lucrat deja la fișele mai ușoare și vor un test real de răbdare și control al creionului.",
-    "seoDescription": "Aleargă de la punctul 1 la 48 și dezvăluie o mașină veselă de joacă. Acest PDF de tipărit gratuit transformă secvențierea numerelor într-o plimbare rapidă pentru vârstele 4–8.",
-    "funFact": "Mașinile de jucărie au încântat copiii de mai bine de un secol, iar rularea lor pe o pistă este o modalitate jucăușă de a explora mișcarea, viteza și direcția.",
-    "seoImageAlt": "Montagne russe cu buclă conturat din 133 de puncte numerotate, fișă gratuită de tipărit",
-    "dotGuide": {
-      "intro": "Șase secțiuni. O sută treizeci și trei de puncte. Acesta este cel mai mare puzzle de teren de joacă din set și nu se preface contrariul - pista urcă, coboară, face bucle și în final coboară înapoi la platforma de unde a început. Copiii care au terminat deja foile cu leagănul, toboganul sau balansoarul vor recunoaște formatul, dar lungimea mare de aici schimbă atmosfera întregului joc. Munca lentă și constantă cu creionul câștigă ziua. Găsiți punctul 1 la baza primului deal și haideți să construim ceva despre care merită să țipăm.",
-      "sections": [
-        {
-          "range": "1–10",
-          "title": "Dealul Liftului",
-          "learn": "Începeți de la punctul 1 și continuați până la punctul 22 pentru a desena urcarea lungă și abruptă care trage vagonul de montagne russe în punctul său cel mai înalt. Aceste linii se desfășoară într-o direcție diagonală constantă, ceea ce face ca aceasta să fie o întindere bună pentru construirea ritmului înainte ca puzzle-ul să devină mai complicat.",
-          "fact": "Majoritatea montagnelor russe folosesc un lanț de ridicare pentru a trage mașina pe primul deal - de obicei, este singura parte a călătoriei alimentată de un motor. Tot ce se întâmplă după vârful dealului se bazează exclusiv pe gravitație și impuls."
+    {
+      "slug": "playhouse-slide-playground-dot-to-dot-puzzle",
+      "header": {
+        "title": "Toboganul de Unit Puncte — 102 Puncte, Provocare pentru Curajoși",
+        "meta_description": "Escaladarea, alunecarea și joaca de-a v-ați ascunselea se întâlnesc într-o structură veselă. Urmărește toboganul casei de joacă prin 68 de puncte într-un PDF gratuit pentru vârstele 5–9.",
+        "og": {
+          "title": "Toboganul de Unit Puncte — 102 Puncte, Provocare pentru Curajoși",
+          "description": "Escaladarea, alunecarea și joaca de-a v-ați ascunselea se întâlnesc într-o structură veselă. Urmărește toboganul casei de joacă prin 68 de puncte într-un PDF gratuit pentru vârstele 5–9.",
+          "image_alt": "Tobogan înalt de loc de joacă conturat din 102 puncte numerotate, fișă de tipărit"
         },
-        {
-          "range": "11–20",
-          "title": "Prima picătură",
-          "learn": "Continuați de la punctul 23 la punctul 44 pentru a trasa coborârea abruptă de la vârf. Unghiul aici este mai ascuțit decât oriunde altundeva pe foaie, așa că încurajați o mână fermă și încrezătoare, mai degrabă decât una tremurândă și ezitantă - o cădere rapidă are nevoie de o linie rapidă și sigură.",
-          "fact": "Prima coborâre a unui roller coaster este aproape întotdeauna cea mai înaltă și mai abruptă din întreaga cursă. Proiectanții de roller coaster o plasează intenționat devreme, deoarece de obicei acolo este locul unde o pistă atinge viteza maximă."
-        },
-        {
-          "range": "21–30",
-          "title": "Bucla",
-          "learn": "Trasați punctele de la 45 la 66 pentru a construi bucla mare din centrul traseului. Această secțiune se curbează înapoi pe ea însăși, ceea ce este mai dificil decât o urcare sau o coborâre dreaptă — mergeți încet și verificați următorul punct înainte de a vă angaja în fiecare curbă.",
-          "fact": "Montagnele roller coaster timpurii foloseau o buclă perfect circulară, iar utilizatorii se plângeau adesea de întinderea gâtului din cauza schimbării bruște de forță. Montagnele roller coaster moderne folosesc în schimb o formă de lacrimă, care este mult mai blândă cu corpul la aceeași viteză."
-        },
-        {
-          "range": "31–40",
-          "title": "Dealurile Camelback",
-          "learn": "Conectați punctele 67 cu 88 pentru a desena dealurile mai mici care urmează bucla. Aceste denivelări apar una după alta în succesiune rapidă, oferindu-le copiilor exersarea cu mișcări scurte și controlate, în loc de o singură mișcare lungă.",
-          "fact": "Aceste dealuri mai mici sunt uneori numite dealuri „camelback” (sau „dealuri cu spatele cămilei”), deoarece o serie de ele la rând seamănă cu cocoașele unei cămile. Călăreții simt adesea o scurtă ridicare din șaua lor până la vârful fiecăreia dintre ele - un moment real, chiar dacă mic, de imponderabilitate."
-        },
-        {
-          "range": "41–48",
-          "title": "Ultima cotitură",
-          "learn": "Lucrează de la punctul 89 la punctul 110 pentru a modela curba amplă care aduce șina înapoi spre stație. Această curbă este largă și gradată, o schimbare plăcută de ritm după bucla mai strânsă de mai devreme în puzzle.",
-          "fact": "Proiectanții de coastere numesc această porțiune „curba de întoarcere”. Este construită lată și înclinată, astfel încât mașina să își poată menține viteza în curbă fără a fi nevoie de frâne, păstrând frânarea propriu-zisă pentru final."
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Loc de joacă cu tobogane",
+          "description": "Escaladarea, alunecarea și joaca de-a v-ați ascunselea se întâlnesc într-o structură veselă. Urmărește toboganul casei de joacă prin 68 de puncte într-un PDF gratuit pentru vârstele 5–9.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
         }
-      ],
-      "outro": "Asta e toată călătoria, de la început până la sfârșit! Colorează pista în bucle îndrăznețe și strălucitoare și dă-i mașinii de montagne russe orice vopsea exuberantă îți place. Dacă cele 133 de puncte ți s-au părut palpitante și vrei o provocare și mai mare, consultă în continuare <a href=\"/usa-250/\">imprimabilele noastre extreme punct cu punct</a>."
-    },
-    "seoTitle": "Montagne Russe de Unit Puncte — 133 de Puncte, Marea Provocare"
-  },
-  {
-    "slug": "swing-playgrounds-dot-to-dot-puzzle",
-    "name": "Loc de joacă Monkey Bars",
-    "seoH1": "Set de Leagăne Punct la Punct — Cel Mai Ușor PDF cu 42 de Puncte de Joacă",
-    "tagline": "Leagănă-te, urcă-te și ajunge de cealaltă parte!",
-    "description": "Conectează 94 de puncte pentru a dezvălui un set distractiv de bare pentru maimuțe. Acest puzzle intermediar pentru terenul de joacă este o provocare excelentă pentru copiii care exersează secvențierea numerelor, controlul creionului și răbdarea.",
-    "seoDescription": "Această fișă cu 94 de puncte desenează o scară de cățărare clasică, potrivită copiilor de 5-9 ani. Popularizate la începutul secolului XX, aceste structuri ajută copiii să-și exerseze forța, echilibrul și coordonarea — imprimă PDF-ul gratuit și leagă punctele spre vârf.",
-    "funFact": "Barele de joacă pentru maimuțe au devenit echipamente populare pentru locuri de joacă la începutul secolului al XX-lea și îi ajută pe copii să exerseze forța de prindere, echilibrul și coordonarea părții superioare a corpului.",
-    "seoImageAlt": "Scară de cățărare de loc de joacă conturată din 94 de puncte numerotate, fișă de tipărit",
-    "dotGuide": {
-      "intro": "Conectează 94 de puncte pentru a dezvălui un set distractiv de bare pentru maimuțe. Acest puzzle intermediar pentru terenul de joacă este o provocare excelentă pentru copiii care exersează secvențierea numerelor, controlul creionului și răbdarea. Barele de joacă pentru maimuțe au devenit echipamente populare pentru locuri de joacă la începutul secolului al XX-lea și îi ajută pe copii să exerseze forța de prindere, echilibrul și coordonarea părții superioare a corpului.",
-      "sections": [
-        {
-          "range": "1–8",
-          "title": "Cadrul de susținere",
-          "learn": "Unește cu atenție punctele 1–18 pentru a desena „Cadrul de susținere”. Verifică fiecare număr înainte de următoarea linie.",
-          "fact": "Barele de joacă pentru maimuțe au devenit echipamente populare pentru locuri de joacă la începutul secolului al XX-lea și îi ajută pe copii să exerseze forța de prindere, echilibrul și coordonarea părții superioare a corpului."
-        },
-        {
-          "range": "9–18",
-          "title": "Bara de sus",
-          "learn": "Unește cu atenție punctele 19–38 pentru a desena „Bara de sus”. Verifică fiecare număr înainte de următoarea linie.",
-          "fact": "Conectează 94 de puncte pentru a dezvălui un set distractiv de bare pentru maimuțe. Acest puzzle intermediar pentru terenul de joacă este o provocare excelentă pentru copiii care exersează secvențierea numerelor, controlul creionului și răbdarea."
-        },
-        {
-          "range": "19–28",
-          "title": "Treptele",
-          "learn": "Unește cu atenție punctele 39–58 pentru a desena „Treptele”. Verifică fiecare număr înainte de următoarea linie.",
-          "fact": "Această fișă cu 94 de puncte desenează o scară de cățărare clasică, potrivită copiilor de 5-9 ani. Popularizate la începutul secolului XX, aceste structuri ajută copiii să-și exerseze forța, echilibrul și coordonarea — imprimă PDF-ul gratuit și leagă punctele spre vârf."
-        },
-        {
-          "range": "29–36",
-          "title": "Copilul care se cațără",
-          "learn": "Unește cu atenție punctele 59–76 pentru a desena „Copilul care se cațără”. Verifică fiecare număr înainte de următoarea linie.",
-          "fact": "Barele de joacă pentru maimuțe au devenit echipamente populare pentru locuri de joacă la începutul secolului al XX-lea și îi ajută pe copii să exerseze forța de prindere, echilibrul și coordonarea părții superioare a corpului."
-        },
-        {
-          "range": "37–42",
-          "title": "Solul și zona de aterizare",
-          "learn": "Unește cu atenție punctele 77–94 pentru a desena „Solul și zona de aterizare”. Verifică fiecare număr înainte de următoarea linie.",
-          "fact": "Leagănă-te, urcă-te și ajunge de cealaltă parte!"
+      },
+      "body": {
+        "h1": "Toboganul Casei de Joacă Punct la Punct: 68 de Puncte de Tipărit Gratuit",
+        "name": "Loc de joacă cu tobogane",
+        "tagline": "Urcă, alunecă, repetă!",
+        "description": "Conectează 102 puncte pentru a dezvălui un tobogan înalt pentru terenul de joacă, gata de cățărat și alunecat. Cu mai multe puncte decât cel mai simplu puzzle al nostru pentru terenul de joacă, acesta este o nouă provocare plăcută pentru copiii care sunt gata să depășească fișele pentru începători, bucurându-se în același timp de un subiect distractiv și familiar.",
+        "fun_fact": "Structurile de joacă combină escaladarea, joaca de-a v-ați ascunselea și alunecarea, oferind copiilor mai multe tipuri de mișcare și practică a imaginației într-un singur loc.",
+        "faqs": [
+          {
+            "q": "Pentru ce vârstă este puzzle-ul de unit puncte Loc de joacă cu tobogane?",
+            "a": "Este conceput pentru vârsta Vârste 5-9. Cu 68 puncte, se potrivește copiilor care numără cu încredere până la 68; cei mai mici îl pot termina cu puțin ajutor."
+          },
+          {
+            "q": "Cum imprim fișa Loc de joacă cu tobogane?",
+            "a": "Apasă butonul de descărcare pentru PDF-ul gratuit, apoi imprimă-l pe hârtie obișnuită (A4 sau US Letter) din orice browser sau cititor PDF. Nu este nevoie de software special."
+          },
+          {
+            "q": "Fișa imprimabilă Loc de joacă cu tobogane este cu adevărat gratuită?",
+            "a": "Da — este 100% gratuită, fără înregistrare, cont sau plată. O poți imprima pentru acasă sau pentru clasă."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Dacă leagănul este regele locului de joacă, toboganul este pe un loc secund foarte apropiat - există ceva irezistibil în a te cățăra, a te așeza și a lăsa gravitația să facă restul. Acest puzzle cu 102 puncte trasează un tobogan înalt și clasic de joacă, de la scara din spate până la rampa curbată din față. Are mai multe puncte decât cea mai ușoară fișă a noastră de joacă, așa că recompensează puțină răbdare suplimentară. Găsește punctul 1 și hai să construim ceva care merită să te cățărezi.",
+          "sections": [
+            {
+              "range": "1–14",
+              "title": "Scara",
+              "learn": "Începeți de la punctul 1 și conectați-vă la punctul 20 pentru a desena scara înaltă care duce la platforma toboganului. Această secțiune este în mare parte formată din linii drepte, distanțate uniform, ceea ce o face o bună încălzire pentru mișcări de creion constante și controlate înainte de curbele din față.",
+              "fact": "Scările pentru locuri de joacă sunt construite cu trepte suficient de distanțate încât piciorul unui copil mic să poată ajunge în siguranță la următorul - de obicei la o distanță de nu mai mult de aproximativ 30 cm, mult mai aproape decât treptele unei scări pliante de uz casnic."
+            },
+            {
+              "range": "15–28",
+              "title": "Platforma",
+              "learn": "Continuați de la punctul 21 la punctul 40 pentru a desena platforma plată din vârf, unde cățărătorii se opresc înainte de a aluneca în jos. Copiii exersează conectarea liniilor orizontale și verticale la unghiuri drepte clare aici - un exercițiu bun pentru structură și proporție.",
+              "fact": "Majoritatea platformelor de joacă sunt construite cu balustrade pe cel puțin trei laturi, lăsând deschisă doar intrarea în tobogan. Acest detaliu de design a fost recunoscut ca fiind o reducere semnificativă a căderilor de pe platformă de când a devenit standard în ghidurile de siguranță pentru locurile de joacă."
+            },
+            {
+              "range": "29–41",
+              "title": "Partea de sus a diapozitivului",
+              "learn": "Trasați punctele de la 41 la 60 pentru a modela marginea curbată unde platforma întâlnește toboganul - exact locul unde începe distracția. Aceasta este o curbă mai strânsă decât pare, așa că încurajați o mișcare lentă și deliberată, mai degrabă decât o mișcare rapidă.",
+              "fact": "Prima curbă din partea de sus a unui tobogan se numește „curba de pornire” și este special înclinată pentru a controla cât de repede prinde viteză un ciclist, în loc să-l lase să coboare direct în jos."
+            },
+            {
+              "range": "42–55",
+              "title": "Jgheabul Lung",
+              "learn": "Conectați punctele 61 cu 85 pentru a desena diapozitivul lung și amplu. Aceasta este cea mai mare și mai satisfăcătoare secțiune a puzzle-ului - încurajați o singură mișcare lină și continuă, mai degrabă decât mai multe scurte, deoarece aceasta este ceea ce conferă diapozitivului senzația de viteză.",
+              "fact": "Toboganele moderne pentru locuri de joacă sunt aproape întotdeauna fabricate din plastic turnat prin rotație, nu din metal. Toboganele metalice se pot încălzi periculos de tare în lumina directă a soarelui de vară, acesta fiind unul dintre principalele motive pentru care locurile de joacă au schimbat în mare măsură materialele începând cu anii 1980 și 1990."
+            },
+            {
+              "range": "56–68",
+              "title": "Baza și aterizarea",
+              "learn": "Termină prin conectarea punctelor 86 până la 102 pentru a desena baza toboganului și solul unde aterizează pasagerii. Șaptesprezece puncte au mai rămas - un final încrezător și stabil aici completează întreaga structură.",
+              "fact": "La fel ca leagănele, toboganele se așază pe o suprafață de siguranță special proiectată - de obicei cauciuc, nisip sau așchii de lemn - concepută pentru a absorbi impactul unei aterizări mult mai bine decât ar putea-o face vreodată iarba simplă sau betonul."
+            }
+          ],
+          "outro": "Bravo - toboganul tău este gata pentru cățărători! Colorează-l în culori strălucitoare pentru terenul de joacă sau creează-ți propriul model sălbatic pe tobogan. Ești gata pentru ceva complet diferit? Încearcă în continuare colecția noastră de <a href=\"/dinosaurs/\">desenați din nou din punct de vedere al dinozaurilor</a>.",
+          "color_schemes": []
         }
-      ],
-      "outro": "Leagănă-te, urcă-te și ajunge de cealaltă parte! <a href=\"/playgrounds/\">Loc de joacă Monkey Bars</a>"
+      }
     },
-    "seoTitle": "Scara de Cățărare de Unit Puncte — 94 de Puncte pentru Micii Sportivi"
-  },
-  {
-    "slug": "slide-playgrounds-dot-to-dot-puzzle",
-    "name": "Teren de joacă pentru mașini Dashing",
-    "seoH1": "Mașină Vânjoasă Punct cu Punct, 48 de Puncte Rapide pentru Vârstele 4-8",
-    "tagline": "Pornește Motorul și Leagă Punctele!",
-    "description": "Conectează 102 puncte pentru a dezvălui un tobogan înalt de joacă, pregătit pentru escaladare și alunecare. Cu mai multe puncte decât cel mai ușor puzzle de joacă, acesta este o provocare plăcută pentru copiii care sunt pregătiți să treacă dincolo de foile pentru începători, în timp ce se bucură în continuare de un subiect distractiv și familiar.",
-    "seoDescription": "Aleargă de la punctul 1 la 48 și descoperă o mașinuță de joacă veselă. Acest PDF gratuit de printat transformă secvențele numerice într-o călătorie rapidă pentru copiii de 4–8 ani.",
-    "funFact": "Mașinuțele de jucărie au încântat copiii de mai bine de un secol, iar rularea lor pe o pistă este o modalitate distractivă de a explora mișcarea, viteza și direcția.",
-    "seoImageAlt": "Mașinuță de jucărie rapidă care se repede înainte după ce sunt conectate 48 de puncte numerotate",
-    "dotGuide": {
-      "intro": "O mașină elegantă este construită pentru aventură — joasă la pământ, pregătită de drum și plină de forme pe care tinerii artiști le pot recunoaște. Acest prietenos puzzle cu 48 de puncte reprezintă o primă provocare gestionabilă pentru copiii care exersează ordinea numerelor și controlul creionului. Găsește punctul 1, imaginează-ți motorul pornind și trasează-ți drumul până la linia de sosire!",
-      "sections": [
-        {
-          "range": "1–20",
-          "title": "Capota și Bara Față",
-          "learn": "Începeți de la punctul 1 și conectați până la punctul 10 pentru a desena partea frontală a mașinii. Copiii exersează linii drepte scurte și curbe ușoare, învățând să se uite înainte la următorul număr în loc să se grăbească pe pagină.",
-          "fact": "Capota curbata a unei mașini ajută la direcționarea aerului în mod fluid peste vehicul. Designerii testează aceste forme pentru ca mașinile să consume mai puțină energie în mișcarea înainte."
+    {
+      "slug": "carousel-horse-playground-dot-to-dot-puzzle",
+      "header": {
+        "title": "Balansoarul de Unit Puncte — 68 de Puncte, Sus și Jos",
+        "meta_description": "Urmărește coama fluidă și saiciul decorativ al unui săritor de carusel prin 88 de puncte. Tipărește acest puzzle de târg gratuit pentru copiii cu vârste între 5–9 ani.",
+        "og": {
+          "title": "Balansoarul de Unit Puncte — 68 de Puncte, Sus și Jos",
+          "description": "Urmărește coama fluidă și saiciul decorativ al unui săritor de carusel prin 88 de puncte. Tipărește acest puzzle de târg gratuit pentru copiii cu vârste între 5–9 ani.",
+          "image_alt": "Balansoar de loc de joacă conturat din 68 de puncte numerotate, fișă gratuită de tipărit"
         },
-        {
-          "range": "21–40",
-          "title": "Parbrizul și Acoperișul",
-          "learn": "Continuă de la punctul 11 la punctul 20 pentru a contura parbrizul și acoperișul. Această secțiune urcă și coboară într-un singur contur lin, oferind copiilor exerciții utile de conectare a liniilor în unghi fără a ridica creionul prea des.",
-          "fact": "Parbrizele moderne sunt fabricate din sticlă de siguranță laminată. Un strat transparent de plastic este plasat între două foi de sticlă și ajută la menținerea parbrizului intact în cazul în care acesta se crapă."
-        },
-        {
-          "range": "41–60",
-          "title": "Ușile și Caroseria",
-          "learn": "Trasează punctele de la 21 la 30 de-a lungul părții laterale a mașinii pentru a completa ușile și caroseria principală. Conexiunile mai lungi încurajează o mână fermă, în timp ce unghiurile variate ajută copiii să observe cum se combină forme simple într-un obiect familiar.",
-          "fact": "Designerii auto schițează inițial vehiculele cu linii și forme de bază, asemănător unui desen punct cu punct. Aceștia rafinează aceste schițe de mai multe ori înainte de a construi un model la scară reală."
-        },
-        {
-          "range": "61–85",
-          "title": "Roțile",
-          "learn": "Unește punctele 31 până la 40 pentru a forma roțile și arcurile roților. Formele rotunde ale roților sunt o excelentă practică pentru mișcări lăsate ale creionului. Încurajează copiii să urmărească cu atenție conturul numerotat în loc să încerce să facă un cerc perfect.",
-          "fact": "Cele mai vechi roți erau din lemn masiv. Anvelopele moderne ale mașinilor sunt din cauciuc și umplute cu aer, care amortizează denivelările și ajută anvelopa să adere la drum."
-        },
-        {
-          "range": "86–102",
-          "title": "Luminile și Detaliile Finale",
-          "learn": "Finalizați cu punctele 41 până la 48 pentru a adăuga luminile și detaliile rămase. Au rămas doar opt conexiuni, așa că acesta este momentul potrivit să încetiniți și să finalizați mașina cu o finisare îngrijită și sigură.",
-          "fact": "Farurile nu doar că ajută șoferii să vadă noaptea — ele fac și mașina mai ușor de observat de către alți participanți la trafic în condiții de ploaie, ceață și vreme întunecată."
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Loc de joacă cu balansoare",
+          "description": "Urmărește coama fluidă și saiciul decorativ al unui săritor de carusel prin 88 de puncte. Tipărește acest puzzle de târg gratuit pentru copiii cu vârste între 5–9 ani.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
         }
-      ],
-      "outro": "Conduță grozavă — mașina ta elegantă este gata! Colorează-o ca o mașină de curse, mașină de familie sau un vehicul complet nou din propria ta invenție. Adaugă un drum, steaguri sau o mulțime entuziasmată, apoi alege alt <a href=\"/playgrounds/\">punct la punct din playground</a> pentru următoarea ta aventură."
-    },
-    "seoTitle": "Mașină Vitează Punct cu Punct, 48 de Puncte Rapide pentru Vârstele 4-8"
-  },
-  {
-    "slug": "seesaw-playground-dot-to-dot-puzzle",
-    "name": "Calul Primăverii",
-    "seoH1": "Spring Horse Punct la Punct — Foaie de Joc cu 53 de Puncte",
-    "tagline": "Rock and Ride pe un Cal de Playground!",
-    "description": "Conectează 53 de puncte pentru a descoperi un călăreț vesel de primăvară. Acest exercițiu ușor de printat îi ajută pe copiii mai mici să exerseze secvențierea numerelor, controlul creionului, urmărirea vizuală și concentrarea.",
-    "seoDescription": "Greutatea în mișcare a unui copil face un cal de joc să se balanseze. Construiește acest cal de playground conectând 53 de puncte cu un PDF imprimabil gratuit pentru copii de 4–8 ani.",
-    "funFact": "Leagănele sunt uneori numite 'teeter-totters' în engleza americană — ambele denumiri descriu aceeași mișcare simplă de sus și jos care a ținut copiii distrați timp de generații.",
-    "seoImageAlt": "Călăreț de cal cu arc din locul de joacă sărind în formă din 53 de puncte imprimabile",
-    "dotGuide": {
-      "intro": "Acest puzzle prietenos de 53 de puncte construiește un cal de primăvară de pe terenul de joacă, de la cap și corp până la spirala puternică și bază. Patru etape scurte îl fac accesibil pentru tinerii pasionați de puncte unite.",
-      "sections": [
-        {
-          "range": "1–14",
-          "title": "Capul Calului",
-          "learn": "Unește punctele de la 1 la 13 pentru a contura capul, urechile și fața veselă a calului.",
-          "fact": "Leagănele de tip arcadă din playgrounduri vin în multe forme, inclusiv cai, motociclete, balene și creaturi imaginare."
-        },
-        {
-          "range": "15–28",
-          "title": "Corpul și Scaunul",
-          "learn": "Continuă de la punctul 14 la punctul 27 pentru a desena corpul calului și scaunul unde stă călărețul.",
-          "fact": "Mânerele și suporturile pentru picioare ajută copiii să se mențină echilibrați în timp ce se leagănă pe căluțul cu arc."
-        },
-        {
-          "range": "29–42",
-          "title": "Primăvara Puternică",
-          "learn": "Urmează punctele de la 28 la 40 în jurul arcului mare sub cal.",
-          "fact": "Arcul de oțel se îndoaie și revine în poziția inițială, creând mișcarea de balansare a călătoriei."
-        },
-        {
-          "range": "43–56",
-          "title": "Baza și Finisajul",
-          "learn": "Finalizați cu punctele 41 până la 53 pentru a adăuga baza rezistentă și solul sub călăreț.",
-          "fact": "Leagănele cu arc sunt fixate în siguranță sub suprafața terenului de joacă pentru a rămâne stabile în timpul mișcării."
-        },
-        {
-          "range": "57–68",
-          "title": "Al Doilea Călăreț și Solul",
-          "learn": "Terminăm conectând punctele 57 până la 68 pentru a desena al doilea copil pe capătul coborât și solul de sub leagăn. Doar douăsprezece puncte rămase — o finalizare atentă și încrezătoare aici completează întreaga scenă.",
-          "fact": "Unele terenuri de joacă moderne au înlocuit leagănul tradițional cu doi călăreți cu versiuni montate pe arcuri care permit unui copil să se leagăne singur, deși clasicul leagăn cu pivotare pentru doi este încă cel mai comun design din întreaga lume."
+      },
+      "body": {
+        "h1": "Calul Carusel Punct la Punct — o Foaie Magică cu 88 de Puncte",
+        "name": "Loc de joacă cu balansoare",
+        "tagline": "Sus, Jos și Peste Tot!",
+        "description": "Conectează 68 de puncte pentru a descoperi doi prieteni care se echilibrează pe un balansoar clasic de joacă. Cu un număr de puncte chiar între cele mai ușoare și cele mai dificile puzzle-uri de joacă ale noastre, acesta este un pas intermediar solid pentru copiii care își dezvoltă încrederea în secvențierea numerelor.",
+        "fun_fact": "Balansoarele sunt uneori numite „teeter-totters” în engleza americană - ambele denumiri descriu aceeași mișcare simplă în sus și în jos care i-a distrat pe copii generații întregi.",
+        "faqs": [
+          {
+            "q": "Pentru ce vârstă este puzzle-ul de unit puncte Loc de joacă cu balansoare?",
+            "a": "Este conceput pentru vârsta Vârste 5-9. Cu 88 puncte, se potrivește copiilor care numără cu încredere până la 88; cei mai mici îl pot termina cu puțin ajutor."
+          },
+          {
+            "q": "Cum imprim fișa Loc de joacă cu balansoare?",
+            "a": "Apasă butonul de descărcare pentru PDF-ul gratuit, apoi imprimă-l pe hârtie obișnuită (A4 sau US Letter) din orice browser sau cititor PDF. Nu este nevoie de software special."
+          },
+          {
+            "q": "Fișa imprimabilă Loc de joacă cu balansoare este cu adevărat gratuită?",
+            "a": "Da — este 100% gratuită, fără înregistrare, cont sau plată. O poți imprima pentru acasă sau pentru clasă."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Balansoarul are un mic accent pe munca în echipă - funcționează doar dacă ambii pasageri joacă împreună, împingându-se și ridicându-se pe rând. Acest puzzle cu 68 de puncte creează acel echilibru înainte și înapoi de la zero, scândura întâi, pasagerii ultimii. Este un pas frumos în sus față de cea mai ușoară foaie de joacă a noastră, fără a devia în teritoriul experților. Găsește punctul 1 și hai să echilibrăm chestia asta.",
+          "sections": [
+            {
+              "range": "1–18",
+              "title": "Fulcrumul",
+              "learn": "Începeți de la punctul 1 și conectați-vă la punctul 14 pentru a desena suportul central robust pe care se echilibrează întregul balansoar. Aceste linii sunt scurte și înclinate, oferindu-le copiilor posibilitatea de a exersa construirea unei forme de bază solide înainte de a adăuga orice altceva deasupra.",
+              "fact": "Suportul central al unui balansoar se numește punct de sprijin — același cuvânt pe care inginerii îl folosesc pentru punctul de pivotare al oricărei pârghii. Un balansoar este din punct de vedere tehnic una dintre cele mai simple mașini existente: o pârghie echilibrată pe un punct fix."
+            },
+            {
+              "range": "19–36",
+              "title": "Scândura",
+              "learn": "Continuați de la punctul 15 la punctul 28 pentru a desena placa lungă care se sprijină pe punctul de sprijin. Copiii exersează desenarea unei linii continue, ușor înclinate — o bună pregătire pentru un control constant al mâinii la mișcările mai lungi.",
+              "fact": "Balansoarele mai vechi erau adesea construite dintr-o singură scândură de lemn, exact de unde și numele atracției - „see” și „saw” amintesc de mișcarea înainte și înapoi a unui fierăstrău vechi, tras de două persoane, peste un buștean."
+            },
+            {
+              "range": "37–54",
+              "title": "Mânerele",
+              "learn": "Trasați punctele de la 29 la 42 pentru a adăuga mânerele la fiecare capăt al plăcii. În această secțiune, copiii lucrează pe rând pe ambele părți ale puzzle-ului, exersând simetria pe măsură ce construiesc o formă potrivită la fiecare capăt.",
+              "fact": "Mânerele nu au fost întotdeauna standard la modelele de balansoare. Versiunile timpurii pentru locuri de joacă prevedeau că utilizatorii prindeau placa în sine, motiv pentru care standardele moderne de siguranță impun acum mânere dedicate la ambele capete."
+            },
+            {
+              "range": "55–72",
+              "title": "Primul Călăreț",
+              "learn": "Unește punctele 43 cu 56 pentru a desena copilul stând pe capătul ridicat al balansoarului. Aici scena începe să pară vie - reamintiți-le copiilor să privească înainte la următorul punct înainte de a ridica creionul, astfel încât figura să iasă netedă.",
+              "fact": "Mersul pe un balansoar este un exercițiu de echilibru cu adevărat util. Mutarea greutății pentru a rămâne în poziție verticală în timp ce vârfurile plank-ului activează aceiași mușchi abdominali și sistemul de echilibru al urechii interne folosite în gimnastică și dans."
+            },
+            {
+              "range": "73–88",
+              "title": "Al doilea călăreț și pământul",
+              "learn": "Terminați prin a conecta punctele 57 până la 68 pentru a desena al doilea copil la capătul coborât și pământul sub balansoar. Au mai rămas doar douăsprezece puncte - o finalizare atentă și încrezătoare completează întreaga scenă.",
+              "fact": "Unele locuri de joacă moderne au înlocuit balansoarul tradițional cu două persoane cu versiuni cu arcuri, care permit unui singur copil să se legene singur, deși clasicul balansoar pivotant cu două locuri este încă cel mai comun model la nivel mondial."
+            }
+          ],
+          "outro": "Bravo — balansoarul tău este perfect echilibrat! Colorează cei doi călăreți cu ținutele tale preferate sau adaugă un loc de joacă plin de prieteni care își așteaptă rândul. Curios ce se află sub mare în loc de soare? Descoperă în continuare <a href=\"/ocean/\">planșele noastre imprimabile punct cu punct cu ocean</a>.",
+          "color_schemes": []
         }
-      ],
-      "outro": "Calul tău de primăvară este gata de plimbare! Adaugă o șa strălucitoare, o coamă unduitoare și un loc de joacă colorat. Încearcă apoi <a href=\"/playgrounds/playhouse-slide-playground-dot-to-dot-puzzle/\">puzzle-ul cu toboganul playhouse</a>."
+      }
     },
-    "seoTitle": "Calul de Primăvară Punct cu Punct — Foaie de Joc cu 53 de Puncte"
-  },
-  {
-    "slug": "roller-coaster-playground-dot-to-dot-puzzle",
-    "name": "Loc de joacă cu Cai de Carusel",
-    "seoH1": "Cal de Carusel Punct cu Punct — o Foaie Magică cu 88 de Puncte",
-    "tagline": "Galopează în jurul caruselului!",
-    "description": "Conectează 88 de puncte pentru a descoperi un elegant cal de carusel pregătit pentru o călătorie magică. Acest puzzle intermediar de printat oferă copiilor o modalitate captivantă de a exersa secvențierea numerelor, concentrarea și controlul atent al creionului.",
-    "seoDescription": "Călărește cea mai lungă secvență de joacă prin 133 de răsuciri și întorsături. Acest PDF gratuit de montagne russe provoacă fanii puzzle-urilor concentrați cu vârste între 8–12 ani.",
-    "funFact": "Caii tradiționali de carusel au adesea o coamă unduitoare și o șa decorativă, iar caii care se mișcă în sus și în jos se numesc săritori.",
-    "seoImageAlt": "Cal de carusel decorat cu coamă unduitoare creat din 88 de puncte imprimabile",
-    "dotGuide": {
-      "intro": "Caii de pe carusel transformă o plimbare obișnuită într-o aventură galopantă. Cu șa decorată, coamă unduitoare și postură mândră, fiecare cal pare gata să sară de pe platformă și să o ia la goană. Acest puzzle cu 88 de puncte oferă o provocare satisfăcătoare pentru copiii care pot urmări cu încredere secvențe numerice mai lungi. Găsește punctul 1, ține creionul bine și lasă caruselul să înceapă să se învârtă!",
-      "sections": [
-        {
-          "range": "1–22",
-          "title": "Capul Calului",
-          "learn": "Începeți de la punctul 1 și conectați până la punctul 18 pentru a contura fața calului, botul și urechile vigilente. Această secțiune combină unghiuri scurte cu curbe delicate, ajutând copiii să încetinească, să privească înainte și să ghideze creionul cu grijă în jurul detaliilor.",
-          "fact": "Artizii de carusel dau adesea fiecărui cal o expresie diferită. Unii par calmi și prietenoși, în timp ce alții au capul ridicat și ochii larg deschiși, pentru a da impresia că participă la o cursă."
+    {
+      "slug": "dashing-car-playground-dot-to-dot-puzzle",
+      "header": {
+        "title": "Montagne Russe de Unit Puncte — 133 de Puncte, Marea Provocare",
+        "meta_description": "Aleargă de la punctul 1 la 48 și dezvăluie o mașină veselă de joacă. Acest PDF de tipărit gratuit transformă secvențierea numerelor într-o plimbare rapidă pentru vârstele 4–8.",
+        "og": {
+          "title": "Montagne Russe de Unit Puncte — 133 de Puncte, Marea Provocare",
+          "description": "Aleargă de la punctul 1 la 48 și dezvăluie o mașină veselă de joacă. Acest PDF de tipărit gratuit transformă secvențierea numerelor într-o plimbare rapidă pentru vârstele 4–8.",
+          "image_alt": "Montagne russe cu buclă conturat din 133 de puncte numerotate, fișă gratuită de tipărit"
         },
-        {
-          "range": "23–44",
-          "title": "Mana și Gâtul Fluide",
-          "learn": "Continuă de la punctul 19 la punctul 36 pentru a desena gâtul curbat și coama fluidă. Schimbarea direcției coamei oferă exercițiu util pentru curbe netede și controlate, în timp ce face ca calul să pară că se mișcă prin vânt.",
-          "fact": "Multe cai de carusel vechi erau sculptați manual din mai multe bucăți de lemn. Artiști pricepuți adăugau adâncituri în coamă, astfel încât să prindă lumina și să pară că unduiește în timp ce caruselul se învârtea."
-        },
-        {
-          "range": "45–66",
-          "title": "Șaua și Corpul",
-          "learn": "Trasează punctele de la 37 la 54 pentru a construi corpul puternic al calului și șaua decorată. Copiii trebuie să urmărească atât linii mai lungi ale corpului, cât și forme ornamentale mai mici, exersând atât trăsături ferme, cât și atenția la detalii.",
-          "fact": "Partea cea mai decorată a unui cal de carusel este de obicei orientată spre exterior, unde poate fi văzută de călăreți și spectatori. Meșterii o numesc partea romantică și o împodobesc adesea cu flori, panglici, pietre prețioase sau scuturi."
-        },
-        {
-          "range": "67–88",
-          "title": "Picioarele în Galop",
-          "learn": "Unește punctele de la 55 la 72 pentru a desena picioarele ridicate și întinse. Aceste linii înclinate creează senzația unui galop înghețat. Încurajează copiii să verifice fiecare număr următor înainte de a desena, astfel încât picioarele să rămână separate și ușor de recunoscut.",
-          "fact": "Caii de carusel care se mișcă în sus și în jos se numesc „jumpers”, în timp ce caii fixați în loc sunt uneori numiți „standers”. Mișcarea ascendentă îi ajută pe călăreți să-și imagineze că calul lor galopează cu adevărat."
-        },
-        {
-          "range": "89–110",
-          "title": "Coada și Detaliile Finale",
-          "learn": "Finalizați cu punctele de la 73 la 88 pentru a adăuga coada lungă și detaliile decorative finale. Șaisprezece conexiuni atente completează imaginea, răsplătind copiii pentru concentrarea menținută pe tot parcursul unui puzzle mai lung.",
-          "fact": "Caruselele sunt cunoscute și sub denumirea de roata de carusel. Primele versiuni au fost inspirate de jocurile de antrenament pentru călărie, dar de-a lungul timpului acestea au devenit atracții colorate de divertisment, apreciate de familii din întreaga lume."
-        },
-        {
-          "range": "111–133",
-          "title": "Stația și Peronul",
-          "learn": "Terminăm conectând punctele 111 până la 133 pentru a desena peronul stației unde a început și s-a terminat plimbarea. Douăzeci și trei de puncte rămase la cel mai mare puzzle din setul de joacă — o finalizare lentă și atentă aici este adevărata marcă a perseverenței.",
-          "fact": "Secțiunea de frânare de la sfârșitul unei montagne russe reale este una dintre cele mai bine proiectate părți ale acesteia. Trebuie să aducă o mașină plină de călători de la viteză maximă la o oprire completă suficient de lin încât nimeni să nu fie zguduit."
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Loc de joacă Roller Coaster",
+          "description": "Aleargă de la punctul 1 la 48 și dezvăluie o mașină veselă de joacă. Acest PDF de tipărit gratuit transformă secvențierea numerelor într-o plimbare rapidă pentru vârstele 4–8.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
         }
-      ],
-      "outro": "O lucrare minunată — calul tău de carusel este gata de plimbare! Colorează șaua cu tonuri vii de carnaval, adaugă panglici sau pietre strălucitoare și proiectează un carusel în jurul lui. Pentru o altă provocare distractivă, explorează mai multe <a href=\"/playgrounds/\">desene punct cu punct de pe terenul de joacă</a>."
-    },
-    "seoTitle": "Cal de Carusel punct cu punct — o foaie magică cu 88 de puncte"
-  },
-  {
-    "slug": "monkey-bar-playground-dot-to-dot-puzzle",
-    "name": "Tobogan pentru Casă de Joacă",
-    "seoH1": "Casa de Joacă Slide Puncte Unite: 68 de Puncte de Printat Gratuit",
-    "tagline": "Urcă și alunecă în distracție!",
-    "description": "Conectează 68 de puncte pentru a descoperi o casă de joacă veselă cu tobogan. Acest exercițiu ușor de printat îi ajută pe copii să exerseze secvențierea numerelor, controlul creionului, urmărirea vizuală și concentrarea.",
-    "seoDescription": "Barele de maimuță dezvoltă prinderea și coordonarea pe terenul de joacă; această versiune cu 94 de puncte dezvoltă controlul creionului. Descarcă PDF-ul gratuit pentru vârstele 5–9.",
-    "funFact": "Structurile de joc combină activități de cățărat, joc simbolic și alunecare, oferind copiilor mai multe tipuri de exerciții de mișcare și imaginație într-un singur loc.",
-    "seoImageAlt": "Casă de joacă cu tobogan atașat asamblată din 68 de puncte pe o pagină gratuită de punct cu punct",
-    "dotGuide": {
-      "intro": "Acest puzzle de 68 de puncte construiește un întreg loc de joacă pentru copii, de la acoperiș și platformă până la scară și tobogan curbate. Cinci etape scurte fac imaginea ușor de gestionat pentru artiștii tineri.",
-      "sections": [
-        {
-          "range": "1–18",
-          "title": "Acoperișul Teatrului",
-          "learn": "Unește punctele de la 1 la 14 pentru a forma acoperișul de la partea superioară a casetei de joacă.",
-          "fact": "Acoperișurile de pe casele de joacă din exterior oferă umbră și ajută structura să pară o clădire mică destinată jocurilor de pretins."
-        },
-        {
-          "range": "19–38",
-          "title": "Casa și Platforma",
-          "learn": "Continuați de la punctul 15 la punctul 28 pentru a desena pereții căsuței de joacă și platforma ridicată.",
-          "fact": "Platformele de joc ridicate îi încurajează pe copii să exerseze echilibrul și conștientizarea spațială în timp ce se deplasează."
-        },
-        {
-          "range": "39–58",
-          "title": "Scara de Alpinism",
-          "learn": "Urmează punctele de la 29 la 41 pentru a adăuga scara și treptele ei echidistante.",
-          "fact": "Urcații pe scară ajută copiii să își dezvolte forța musculară a picioarelor, coordonarea și încrederea în sine."
-        },
-        {
-          "range": "59–76",
-          "title": "Toboganul Curbat",
-          "learn": "Trasează punctele de la 42 la 55 pe toboganul neted, menținând creionul stabil pe fiecare curbă.",
-          "fact": "Toboganele folosesc gravitația pentru a transforma înălțimea câștigată la urcare într-o coborâre rapidă și lină."
-        },
-        {
-          "range": "77–94",
-          "title": "Suporturile și Pământul",
-          "learn": "Finalizați cu punctele 56 până la 68 pentru a adăuga suporturile și solul de sub casa de joacă.",
-          "fact": "Echipamentele de playground sunt instalate pe suprafețe care absorb impactul, cum ar fi fibrele de lemn prelucrate sau cauciucul."
+      },
+      "body": {
+        "h1": "Mașina Rapidă Punct la Punct, 48 de Puncte Rapide pentru Vârstele 4-8",
+        "name": "Loc de joacă Roller Coaster",
+        "tagline": "Urcă pe pistă, urmărește căderea!",
+        "description": "Conectează 133 de puncte pentru a dezvălui un roller coaster complet pentru terenul de joacă, cu bucle și tot ce ține de el. Acesta este cel mai dificil puzzle al nostru de până acum, construit pentru copiii care au lucrat deja la fișele mai ușoare și vor un test real de răbdare și control al creionului.",
+        "fun_fact": "Mașinile de jucărie au încântat copiii de mai bine de un secol, iar rularea lor pe o pistă este o modalitate jucăușă de a explora mișcarea, viteza și direcția.",
+        "faqs": [
+          {
+            "q": "Pentru ce vârstă este puzzle-ul de unit puncte Loc de joacă Roller Coaster?",
+            "a": "Este conceput pentru vârsta Vârste 4-8. Cu 48 puncte, se potrivește copiilor care numără cu încredere până la 48; cei mai mici îl pot termina cu puțin ajutor."
+          },
+          {
+            "q": "Cum imprim fișa Loc de joacă Roller Coaster?",
+            "a": "Apasă butonul de descărcare pentru PDF-ul gratuit, apoi imprimă-l pe hârtie obișnuită (A4 sau US Letter) din orice browser sau cititor PDF. Nu este nevoie de software special."
+          },
+          {
+            "q": "Fișa imprimabilă Loc de joacă Roller Coaster este cu adevărat gratuită?",
+            "a": "Da — este 100% gratuită, fără înregistrare, cont sau plată. O poți imprima pentru acasă sau pentru clasă."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Șase secțiuni. O sută treizeci și trei de puncte. Acesta este cel mai mare puzzle de teren de joacă din set și nu se preface contrariul - pista urcă, coboară, face bucle și în final coboară înapoi la platforma de unde a început. Copiii care au terminat deja foile cu leagănul, toboganul sau balansoarul vor recunoaște formatul, dar lungimea mare de aici schimbă atmosfera întregului joc. Munca lentă și constantă cu creionul câștigă ziua. Găsiți punctul 1 la baza primului deal și haideți să construim ceva despre care merită să țipăm.",
+          "sections": [
+            {
+              "range": "1–10",
+              "title": "Dealul Liftului",
+              "learn": "Începeți de la punctul 1 și continuați până la punctul 22 pentru a desena urcarea lungă și abruptă care trage vagonul de montagne russe în punctul său cel mai înalt. Aceste linii se desfășoară într-o direcție diagonală constantă, ceea ce face ca aceasta să fie o întindere bună pentru construirea ritmului înainte ca puzzle-ul să devină mai complicat.",
+              "fact": "Majoritatea montagnelor russe folosesc un lanț de ridicare pentru a trage mașina pe primul deal - de obicei, este singura parte a călătoriei alimentată de un motor. Tot ce se întâmplă după vârful dealului se bazează exclusiv pe gravitație și impuls."
+            },
+            {
+              "range": "11–20",
+              "title": "Prima picătură",
+              "learn": "Continuați de la punctul 23 la punctul 44 pentru a trasa coborârea abruptă de la vârf. Unghiul aici este mai ascuțit decât oriunde altundeva pe foaie, așa că încurajați o mână fermă și încrezătoare, mai degrabă decât una tremurândă și ezitantă - o cădere rapidă are nevoie de o linie rapidă și sigură.",
+              "fact": "Prima coborâre a unui roller coaster este aproape întotdeauna cea mai înaltă și mai abruptă din întreaga cursă. Proiectanții de roller coaster o plasează intenționat devreme, deoarece de obicei acolo este locul unde o pistă atinge viteza maximă."
+            },
+            {
+              "range": "21–30",
+              "title": "Bucla",
+              "learn": "Trasați punctele de la 45 la 66 pentru a construi bucla mare din centrul traseului. Această secțiune se curbează înapoi pe ea însăși, ceea ce este mai dificil decât o urcare sau o coborâre dreaptă — mergeți încet și verificați următorul punct înainte de a vă angaja în fiecare curbă.",
+              "fact": "Montagnele roller coaster timpurii foloseau o buclă perfect circulară, iar utilizatorii se plângeau adesea de întinderea gâtului din cauza schimbării bruște de forță. Montagnele roller coaster moderne folosesc în schimb o formă de lacrimă, care este mult mai blândă cu corpul la aceeași viteză."
+            },
+            {
+              "range": "31–40",
+              "title": "Dealurile Camelback",
+              "learn": "Conectați punctele 67 cu 88 pentru a desena dealurile mai mici care urmează bucla. Aceste denivelări apar una după alta în succesiune rapidă, oferindu-le copiilor exersarea cu mișcări scurte și controlate, în loc de o singură mișcare lungă.",
+              "fact": "Aceste dealuri mai mici sunt uneori numite dealuri „camelback” (sau „dealuri cu spatele cămilei”), deoarece o serie de ele la rând seamănă cu cocoașele unei cămile. Călăreții simt adesea o scurtă ridicare din șaua lor până la vârful fiecăreia dintre ele - un moment real, chiar dacă mic, de imponderabilitate."
+            },
+            {
+              "range": "41–48",
+              "title": "Ultima cotitură",
+              "learn": "Lucrează de la punctul 89 la punctul 110 pentru a modela curba amplă care aduce șina înapoi spre stație. Această curbă este largă și gradată, o schimbare plăcută de ritm după bucla mai strânsă de mai devreme în puzzle.",
+              "fact": "Proiectanții de coastere numesc această porțiune „curba de întoarcere”. Este construită lată și înclinată, astfel încât mașina să își poată menține viteza în curbă fără a fi nevoie de frâne, păstrând frânarea propriu-zisă pentru final."
+            }
+          ],
+          "outro": "Asta e toată călătoria, de la început până la sfârșit! Colorează pista în bucle îndrăznețe și strălucitoare și dă-i mașinii de montagne russe orice vopsea exuberantă îți place. Dacă cele 133 de puncte ți s-au părut palpitante și vrei o provocare și mai mare, consultă în continuare <a href=\"/usa-250/\">imprimabilele noastre extreme punct cu punct</a>.",
+          "color_schemes": []
         }
-      ],
-      "outro": "Toboganul tău de joacă este gata de distracție! Adaugă culori strălucitoare, ferestre, steaguri și un întreg loc de joacă în jurul lui. Încearcă apoi <a href=\"/playgrounds/carousel-horse-playground-dot-to-dot-puzzle/\">puzzle-ul cu calul de carusel</a>."
+      }
     },
-    "seoTitle": "Casa de Joaca Slide Puncte Unite: 68 de Puncte de Printat Gratuit"
-  }
-]
+    {
+      "slug": "swing-playgrounds-dot-to-dot-puzzle",
+      "header": {
+        "title": "Scara de Cățărare de Unit Puncte — 94 de Puncte pentru Micii Sportivi",
+        "meta_description": "Această fișă cu 94 de puncte desenează o scară de cățărare clasică, potrivită copiilor de 5-9 ani. Popularizate la începutul secolului XX, aceste structuri ajută copiii să-și exerseze forța, echilibrul și coordonarea — imprimă PDF-ul gratuit și leagă punctele spre vârf.",
+        "og": {
+          "title": "Scara de Cățărare de Unit Puncte — 94 de Puncte pentru Micii Sportivi",
+          "description": "Această fișă cu 94 de puncte desenează o scară de cățărare clasică, potrivită copiilor de 5-9 ani. Popularizate la începutul secolului XX, aceste structuri ajută copiii să-și exerseze forța, echilibrul și coordonarea — imprimă PDF-ul gratuit și leagă punctele spre vârf.",
+          "image_alt": "Scară de cățărare de loc de joacă conturată din 94 de puncte numerotate, fișă de tipărit"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Loc de joacă Monkey Bars",
+          "description": "Această fișă cu 94 de puncte desenează o scară de cățărare clasică, potrivită copiilor de 5-9 ani. Popularizate la începutul secolului XX, aceste structuri ajută copiii să-și exerseze forța, echilibrul și coordonarea — imprimă PDF-ul gratuit și leagă punctele spre vârf.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
+      },
+      "body": {
+        "h1": "Set de Leagăne Punct la Punct — Cel Mai Ușor PDF cu 42 de Puncte de Joacă",
+        "name": "Loc de joacă Monkey Bars",
+        "tagline": "Leagănă-te, urcă-te și ajunge de cealaltă parte!",
+        "description": "Conectează 94 de puncte pentru a dezvălui un set distractiv de bare pentru maimuțe. Acest puzzle intermediar pentru terenul de joacă este o provocare excelentă pentru copiii care exersează secvențierea numerelor, controlul creionului și răbdarea.",
+        "fun_fact": "Barele de joacă pentru maimuțe au devenit echipamente populare pentru locuri de joacă la începutul secolului al XX-lea și îi ajută pe copii să exerseze forța de prindere, echilibrul și coordonarea părții superioare a corpului.",
+        "faqs": [
+          {
+            "q": "Câte puncte are puzzle-ul punct cu punct Swing Playground?",
+            "a": "Puzzle-ul imprimabil cu leagănul de joacă - unește punctele are 42 de puncte numerotate. Asta îl face un puzzle ușor spre mediu, potrivit pentru vârstele de 5-8 ani (grădiniță până la clasa a II-a). Copiii unesc punctele în ordinea numerică pentru a dezvălui imaginea finalizată a leagănului de joacă, apoi o colorează."
+          },
+          {
+            "q": "Este gratuit modelul Swing Playground unit-to-dot imprimabil?",
+            "a": "Da. Fișa de lucru Locul de joacă cu balansoar poate fi descărcată 100% gratuit de pe DotToDotFreePrintables.com — nu este necesar un cont, un e-mail sau o plată. Se descarcă instantaneu ca PDF gata de imprimare, atât în ​​orientare portret, cât și peisaj, dimensionată pentru hârtie Letter americană sau A4."
+          },
+          {
+            "q": "Pentru ce vârstă este cea mai potrivită fișă de lucru cu puncte de conectare de la Swing Playground?",
+            "a": "Cu 42 de puncte, puzzle-ul Swing Playground este potrivit pentru vârstele de 5-8 ani (grădiniță până la clasa a II-a). Copiii mai mici se pot bucura de el cu ajutorul unui adult, numărând împreună, în timp ce cei care numără cu încredere îl pot completa independent și pot exersa secvențierea numerelor până la 42."
+          },
+          {
+            "q": "Ce abilități predă jocul punct-punct de la Swing Playground?",
+            "a": "Conectarea celor 42 de puncte din puzzle-ul Swing Playground dezvoltă recunoașterea numerelor și numărarea până la 42, controlul creionului, coordonarea mână-ochi și concentrarea susținută - aceleași fundamente ale motricității fine care susțin scrisul de mână timpuriu. Colorarea imaginii finalizate adaugă o recompensă creativă."
+          },
+          {
+            "q": "Care este un fapt amuzant despre locul de joacă cu leagăn?",
+            "a": "Leagănele sunt una dintre cele mai vechi invenții ale locurilor de joacă - copiii se leagănă pe leagăne din frânghie de mii de ani! Copiii descoperă lucruri de genul acesta în timp ce completează puzzle-ul punct cu punct din Locul de joacă Swing."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Conectează 94 de puncte pentru a dezvălui un set distractiv de bare pentru maimuțe. Acest puzzle intermediar pentru terenul de joacă este o provocare excelentă pentru copiii care exersează secvențierea numerelor, controlul creionului și răbdarea. Barele de joacă pentru maimuțe au devenit echipamente populare pentru locuri de joacă la începutul secolului al XX-lea și îi ajută pe copii să exerseze forța de prindere, echilibrul și coordonarea părții superioare a corpului.",
+          "sections": [
+            {
+              "range": "1–8",
+              "title": "Cadrul de susținere",
+              "learn": "Unește cu atenție punctele 1–18 pentru a desena „Cadrul de susținere”. Verifică fiecare număr înainte de următoarea linie.",
+              "fact": "Barele de joacă pentru maimuțe au devenit echipamente populare pentru locuri de joacă la începutul secolului al XX-lea și îi ajută pe copii să exerseze forța de prindere, echilibrul și coordonarea părții superioare a corpului."
+            },
+            {
+              "range": "9–18",
+              "title": "Bara de sus",
+              "learn": "Unește cu atenție punctele 19–38 pentru a desena „Bara de sus”. Verifică fiecare număr înainte de următoarea linie.",
+              "fact": "Conectează 94 de puncte pentru a dezvălui un set distractiv de bare pentru maimuțe. Acest puzzle intermediar pentru terenul de joacă este o provocare excelentă pentru copiii care exersează secvențierea numerelor, controlul creionului și răbdarea."
+            },
+            {
+              "range": "19–28",
+              "title": "Treptele",
+              "learn": "Unește cu atenție punctele 39–58 pentru a desena „Treptele”. Verifică fiecare număr înainte de următoarea linie.",
+              "fact": "Această fișă cu 94 de puncte desenează o scară de cățărare clasică, potrivită copiilor de 5-9 ani. Popularizate la începutul secolului XX, aceste structuri ajută copiii să-și exerseze forța, echilibrul și coordonarea — imprimă PDF-ul gratuit și leagă punctele spre vârf."
+            },
+            {
+              "range": "29–36",
+              "title": "Copilul care se cațără",
+              "learn": "Unește cu atenție punctele 59–76 pentru a desena „Copilul care se cațără”. Verifică fiecare număr înainte de următoarea linie.",
+              "fact": "Barele de joacă pentru maimuțe au devenit echipamente populare pentru locuri de joacă la începutul secolului al XX-lea și îi ajută pe copii să exerseze forța de prindere, echilibrul și coordonarea părții superioare a corpului."
+            },
+            {
+              "range": "37–42",
+              "title": "Solul și zona de aterizare",
+              "learn": "Unește cu atenție punctele 77–94 pentru a desena „Solul și zona de aterizare”. Verifică fiecare număr înainte de următoarea linie.",
+              "fact": "Leagănă-te, urcă-te și ajunge de cealaltă parte!"
+            }
+          ],
+          "outro": "Leagănă-te, urcă-te și ajunge de cealaltă parte! <a href=\"/playgrounds/\">Loc de joacă Monkey Bars</a>",
+          "color_schemes": []
+        }
+      }
+    },
+    {
+      "slug": "slide-playgrounds-dot-to-dot-puzzle",
+      "header": {
+        "title": "Mașină Vitează Punct cu Punct, 48 de Puncte Rapide pentru Vârstele 4-8",
+        "meta_description": "Aleargă de la punctul 1 la 48 și descoperă o mașinuță de joacă veselă. Acest PDF gratuit de printat transformă secvențele numerice într-o călătorie rapidă pentru copiii de 4–8 ani.",
+        "og": {
+          "title": "Mașină Vitează Punct cu Punct, 48 de Puncte Rapide pentru Vârstele 4-8",
+          "description": "Aleargă de la punctul 1 la 48 și descoperă o mașinuță de joacă veselă. Acest PDF gratuit de printat transformă secvențele numerice într-o călătorie rapidă pentru copiii de 4–8 ani.",
+          "image_alt": "Mașinuță de jucărie rapidă care se repede înainte după ce sunt conectate 48 de puncte numerotate"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Teren de joacă pentru mașini Dashing",
+          "description": "Aleargă de la punctul 1 la 48 și descoperă o mașinuță de joacă veselă. Acest PDF gratuit de printat transformă secvențele numerice într-o călătorie rapidă pentru copiii de 4–8 ani.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
+      },
+      "body": {
+        "h1": "Mașină Vânjoasă Punct cu Punct, 48 de Puncte Rapide pentru Vârstele 4-8",
+        "name": "Teren de joacă pentru mașini Dashing",
+        "tagline": "Pornește Motorul și Leagă Punctele!",
+        "description": "Conectează 102 puncte pentru a dezvălui un tobogan înalt de joacă, pregătit pentru escaladare și alunecare. Cu mai multe puncte decât cel mai ușor puzzle de joacă, acesta este o provocare plăcută pentru copiii care sunt pregătiți să treacă dincolo de foile pentru începători, în timp ce se bucură în continuare de un subiect distractiv și familiar.",
+        "fun_fact": "Mașinuțele de jucărie au încântat copiii de mai bine de un secol, iar rularea lor pe o pistă este o modalitate distractivă de a explora mișcarea, viteza și direcția.",
+        "faqs": [
+          {
+            "q": "Câte puncte are puzzle-ul punct cu punct de la Slide Playground?",
+            "a": "Puzzle-ul imprimabil cu toboganul de joacă „conectați punctele” are 102 puncte numerotate. Asta îl face un puzzle provocator, potrivit pentru vârstele de 7-12 ani (clasa a II-a și peste). Copiii conectează punctele în ordinea numerotată pentru a dezvălui imaginea finalizată a locului de joacă cu toboganul, apoi o colorează."
+          },
+          {
+            "q": "Este gratuit modelul Slide Playground de tip „punct-to-dot” imprimabil?",
+            "a": "Da. Fișa de lucru Slide Playground poate fi descărcată 100% gratuit de pe DotToDotFreePrintables.com — nu este necesar un cont, un e-mail sau o plată. Se descarcă instantaneu ca PDF gata de imprimare, atât în ​​orientare portret, cât și peisaj, dimensionată pentru hârtie Letter americană sau A4."
+          },
+          {
+            "q": "Pentru ce vârstă este cea mai potrivită fișă de lucru Slide Playground cu puncte de conectare?",
+            "a": "Cu 102 de puncte, puzzle-ul Slide Playground este cel mai potrivit pentru vârstele de 7-12 ani (clasa a II-a și peste). Copiii mai mici se pot bucura de el cu ajutorul unui adult, în timp ce numărătorii încrezători îl pot completa independent și pot exersa secvențierea numerelor până la 102."
+          },
+          {
+            "q": "Ce abilități predă jocul punct-punct de la Slide Playground?",
+            "a": "Conectarea celor 102 puncte ale puzzle-ului Slide Playground dezvoltă recunoașterea numerelor și numărarea până la 102, controlul creionului, coordonarea mână-ochi și concentrarea susținută - aceleași fundamente ale motricității fine care susțin scrisul de mână timpuriu. Colorarea imaginii finalizate adaugă o recompensă creativă."
+          },
+          {
+            "q": "Care este un fapt amuzant despre locul de joacă cu tobogane?",
+            "a": "Cel mai înalt tobogan permanent de joacă din lume se întinde pe peste 30 de metri — aproximativ la fel de înalt ca o clădire cu zece etaje! Copiii descoperă astfel de lucruri în timp ce completează puzzle-ul punct cu punct de la Slide Playground."
+          }
+        ],
+        "dot_guide": {
+          "intro": "O mașină elegantă este construită pentru aventură — joasă la pământ, pregătită de drum și plină de forme pe care tinerii artiști le pot recunoaște. Acest prietenos puzzle cu 48 de puncte reprezintă o primă provocare gestionabilă pentru copiii care exersează ordinea numerelor și controlul creionului. Găsește punctul 1, imaginează-ți motorul pornind și trasează-ți drumul până la linia de sosire!",
+          "sections": [
+            {
+              "range": "1–20",
+              "title": "Capota și Bara Față",
+              "learn": "Începeți de la punctul 1 și conectați până la punctul 10 pentru a desena partea frontală a mașinii. Copiii exersează linii drepte scurte și curbe ușoare, învățând să se uite înainte la următorul număr în loc să se grăbească pe pagină.",
+              "fact": "Capota curbata a unei mașini ajută la direcționarea aerului în mod fluid peste vehicul. Designerii testează aceste forme pentru ca mașinile să consume mai puțină energie în mișcarea înainte."
+            },
+            {
+              "range": "21–40",
+              "title": "Parbrizul și Acoperișul",
+              "learn": "Continuă de la punctul 11 la punctul 20 pentru a contura parbrizul și acoperișul. Această secțiune urcă și coboară într-un singur contur lin, oferind copiilor exerciții utile de conectare a liniilor în unghi fără a ridica creionul prea des.",
+              "fact": "Parbrizele moderne sunt fabricate din sticlă de siguranță laminată. Un strat transparent de plastic este plasat între două foi de sticlă și ajută la menținerea parbrizului intact în cazul în care acesta se crapă."
+            },
+            {
+              "range": "41–60",
+              "title": "Ușile și Caroseria",
+              "learn": "Trasează punctele de la 21 la 30 de-a lungul părții laterale a mașinii pentru a completa ușile și caroseria principală. Conexiunile mai lungi încurajează o mână fermă, în timp ce unghiurile variate ajută copiii să observe cum se combină forme simple într-un obiect familiar.",
+              "fact": "Designerii auto schițează inițial vehiculele cu linii și forme de bază, asemănător unui desen punct cu punct. Aceștia rafinează aceste schițe de mai multe ori înainte de a construi un model la scară reală."
+            },
+            {
+              "range": "61–85",
+              "title": "Roțile",
+              "learn": "Unește punctele 31 până la 40 pentru a forma roțile și arcurile roților. Formele rotunde ale roților sunt o excelentă practică pentru mișcări lăsate ale creionului. Încurajează copiii să urmărească cu atenție conturul numerotat în loc să încerce să facă un cerc perfect.",
+              "fact": "Cele mai vechi roți erau din lemn masiv. Anvelopele moderne ale mașinilor sunt din cauciuc și umplute cu aer, care amortizează denivelările și ajută anvelopa să adere la drum."
+            },
+            {
+              "range": "86–102",
+              "title": "Luminile și Detaliile Finale",
+              "learn": "Finalizați cu punctele 41 până la 48 pentru a adăuga luminile și detaliile rămase. Au rămas doar opt conexiuni, așa că acesta este momentul potrivit să încetiniți și să finalizați mașina cu o finisare îngrijită și sigură.",
+              "fact": "Farurile nu doar că ajută șoferii să vadă noaptea — ele fac și mașina mai ușor de observat de către alți participanți la trafic în condiții de ploaie, ceață și vreme întunecată."
+            }
+          ],
+          "outro": "Conduță grozavă — mașina ta elegantă este gata! Colorează-o ca o mașină de curse, mașină de familie sau un vehicul complet nou din propria ta invenție. Adaugă un drum, steaguri sau o mulțime entuziasmată, apoi alege alt <a href=\"/playgrounds/\">punct la punct din playground</a> pentru următoarea ta aventură.",
+          "color_schemes": []
+        }
+      }
+    },
+    {
+      "slug": "seesaw-playground-dot-to-dot-puzzle",
+      "header": {
+        "title": "Calul de Primăvară Punct cu Punct — Foaie de Joc cu 53 de Puncte",
+        "meta_description": "Greutatea în mișcare a unui copil face un cal de joc să se balanseze. Construiește acest cal de playground conectând 53 de puncte cu un PDF imprimabil gratuit pentru copii de 4–8 ani.",
+        "og": {
+          "title": "Calul de Primăvară Punct cu Punct — Foaie de Joc cu 53 de Puncte",
+          "description": "Greutatea în mișcare a unui copil face un cal de joc să se balanseze. Construiește acest cal de playground conectând 53 de puncte cu un PDF imprimabil gratuit pentru copii de 4–8 ani.",
+          "image_alt": "Călăreț de cal cu arc din locul de joacă sărind în formă din 53 de puncte imprimabile"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Calul Primăverii",
+          "description": "Greutatea în mișcare a unui copil face un cal de joc să se balanseze. Construiește acest cal de playground conectând 53 de puncte cu un PDF imprimabil gratuit pentru copii de 4–8 ani.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
+      },
+      "body": {
+        "h1": "Spring Horse Punct la Punct — Foaie de Joc cu 53 de Puncte",
+        "name": "Calul Primăverii",
+        "tagline": "Rock and Ride pe un Cal de Playground!",
+        "description": "Conectează 53 de puncte pentru a descoperi un călăreț vesel de primăvară. Acest exercițiu ușor de printat îi ajută pe copiii mai mici să exerseze secvențierea numerelor, controlul creionului, urmărirea vizuală și concentrarea.",
+        "fun_fact": "Leagănele sunt uneori numite 'teeter-totters' în engleza americană — ambele denumiri descriu aceeași mișcare simplă de sus și jos care a ținut copiii distrați timp de generații.",
+        "faqs": [
+          {
+            "q": "Câte puncte are puzzle-ul punct cu punct Seesaw Playground?",
+            "a": "Puzzle-ul imprimabil cu un balansoar, unește punctele, are 68 de puncte numerotate. Asta îl face un puzzle ușor spre mediu, potrivit pentru vârstele de 5-8 ani (grădiniță până la clasa a II-a). Copiii unesc punctele în ordinea numerică pentru a dezvălui imaginea finalizată a locului de joacă cu balansoar, apoi o colorează."
+          },
+          {
+            "q": "Este gratuit modelul Seesaw Playground unit-to-dot imprimabil?",
+            "a": "Da. Fișa de lucru Seesaw Playground este 100% gratuită pentru descărcare de pe DotToDotFreePrintables.com — nu este necesar un cont, un e-mail sau o plată. Se descarcă instantaneu ca PDF gata de imprimare, atât în ​​orientare portret, cât și peisaj, dimensionată pentru hârtie Letter SUA sau A4."
+          },
+          {
+            "q": "Pentru ce vârstă este cea mai potrivită fișă de lucru cu puncte de conectare de la terenul de joacă Seesaw?",
+            "a": "Cu 68 de puncte, puzzle-ul Seesaw Playground este potrivit pentru vârstele de 5-8 ani (grădiniță până la clasa a II-a). Copiii mai mici se pot bucura de el cu ajutorul unui adult, în timp ce numărătorii încrezători îl pot completa independent și pot exersa secvențierea numerelor până la 68."
+          },
+          {
+            "q": "Ce abilități predă puzzle-ul punct-punct Seesaw Playground?",
+            "a": "Conectarea celor 68 de puncte ale puzzle-ului Seesaw Playground dezvoltă recunoașterea numerelor și numărarea până la 68, controlul creionului, coordonarea mână-ochi și concentrarea susținută - aceleași fundamente ale motricității fine care susțin scrisul de mână timpuriu. Colorarea imaginii finalizate adaugă o recompensă creativă."
+          },
+          {
+            "q": "Care este un fapt amuzant despre locul de joacă cu balansoar?",
+            "a": "Balansoarele sunt uneori numite „teeter-totters” în engleza americană — ambele denumiri descriu aceeași mișcare simplă în sus și în jos care i-a distrat pe copii generații întregi. Copiii descoperă astfel de lucruri în timp ce completează puzzle-ul punct cu punct din Locul de joacă cu balansoare."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Acest puzzle prietenos de 53 de puncte construiește un cal de primăvară de pe terenul de joacă, de la cap și corp până la spirala puternică și bază. Patru etape scurte îl fac accesibil pentru tinerii pasionați de puncte unite.",
+          "sections": [
+            {
+              "range": "1–14",
+              "title": "Capul Calului",
+              "learn": "Unește punctele de la 1 la 13 pentru a contura capul, urechile și fața veselă a calului.",
+              "fact": "Leagănele de tip arcadă din playgrounduri vin în multe forme, inclusiv cai, motociclete, balene și creaturi imaginare."
+            },
+            {
+              "range": "15–28",
+              "title": "Corpul și Scaunul",
+              "learn": "Continuă de la punctul 14 la punctul 27 pentru a desena corpul calului și scaunul unde stă călărețul.",
+              "fact": "Mânerele și suporturile pentru picioare ajută copiii să se mențină echilibrați în timp ce se leagănă pe căluțul cu arc."
+            },
+            {
+              "range": "29–42",
+              "title": "Primăvara Puternică",
+              "learn": "Urmează punctele de la 28 la 40 în jurul arcului mare sub cal.",
+              "fact": "Arcul de oțel se îndoaie și revine în poziția inițială, creând mișcarea de balansare a călătoriei."
+            },
+            {
+              "range": "43–56",
+              "title": "Baza și Finisajul",
+              "learn": "Finalizați cu punctele 41 până la 53 pentru a adăuga baza rezistentă și solul sub călăreț.",
+              "fact": "Leagănele cu arc sunt fixate în siguranță sub suprafața terenului de joacă pentru a rămâne stabile în timpul mișcării."
+            },
+            {
+              "range": "57–68",
+              "title": "Al Doilea Călăreț și Solul",
+              "learn": "Terminăm conectând punctele 57 până la 68 pentru a desena al doilea copil pe capătul coborât și solul de sub leagăn. Doar douăsprezece puncte rămase — o finalizare atentă și încrezătoare aici completează întreaga scenă.",
+              "fact": "Unele terenuri de joacă moderne au înlocuit leagănul tradițional cu doi călăreți cu versiuni montate pe arcuri care permit unui copil să se leagăne singur, deși clasicul leagăn cu pivotare pentru doi este încă cel mai comun design din întreaga lume."
+            }
+          ],
+          "outro": "Calul tău de primăvară este gata de plimbare! Adaugă o șa strălucitoare, o coamă unduitoare și un loc de joacă colorat. Încearcă apoi <a href=\"/playgrounds/playhouse-slide-playground-dot-to-dot-puzzle/\">puzzle-ul cu toboganul playhouse</a>.",
+          "color_schemes": []
+        }
+      }
+    },
+    {
+      "slug": "roller-coaster-playground-dot-to-dot-puzzle",
+      "header": {
+        "title": "Cal de Carusel punct cu punct — o foaie magică cu 88 de puncte",
+        "meta_description": "Călărește cea mai lungă secvență de joacă prin 133 de răsuciri și întorsături. Acest PDF gratuit de montagne russe provoacă fanii puzzle-urilor concentrați cu vârste între 8–12 ani.",
+        "og": {
+          "title": "Cal de Carusel punct cu punct — o foaie magică cu 88 de puncte",
+          "description": "Călărește cea mai lungă secvență de joacă prin 133 de răsuciri și întorsături. Acest PDF gratuit de montagne russe provoacă fanii puzzle-urilor concentrați cu vârste între 8–12 ani.",
+          "image_alt": "Cal de carusel decorat cu coamă unduitoare creat din 88 de puncte imprimabile"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Loc de joacă cu Cai de Carusel",
+          "description": "Călărește cea mai lungă secvență de joacă prin 133 de răsuciri și întorsături. Acest PDF gratuit de montagne russe provoacă fanii puzzle-urilor concentrați cu vârste între 8–12 ani.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
+      },
+      "body": {
+        "h1": "Cal de Carusel Punct cu Punct — o Foaie Magică cu 88 de Puncte",
+        "name": "Loc de joacă cu Cai de Carusel",
+        "tagline": "Galopează în jurul caruselului!",
+        "description": "Conectează 88 de puncte pentru a descoperi un elegant cal de carusel pregătit pentru o călătorie magică. Acest puzzle intermediar de printat oferă copiilor o modalitate captivantă de a exersa secvențierea numerelor, concentrarea și controlul atent al creionului.",
+        "fun_fact": "Caii tradiționali de carusel au adesea o coamă unduitoare și o șa decorativă, iar caii care se mișcă în sus și în jos se numesc săritori.",
+        "faqs": [
+          {
+            "q": "Câte puncte are puzzle-ul punct cu punct Roller Coaster Playground?",
+            "a": "Puzzle-ul imprimabil Roller Coaster Playground connect-the-dots are 133 de puncte numerotate. Asta îl face un puzzle provocator, potrivit pentru vârstele de 7-12 ani (clasa a II-a și peste). Copiii unesc punctele în ordinea numerotată pentru a dezvălui imaginea finalizată a locului de joacă Roller Coaster, apoi o colorează."
+          },
+          {
+            "q": "Este gratuit modelul de desene unit-to-dot imprimabil Roller Coaster Playground?",
+            "a": "Da. Fișa de lucru Roller Coaster Playground este 100% gratuită pentru descărcare de pe DotToDotFreePrintables.com — nu este necesar un cont, un e-mail sau o plată. Se descarcă instantaneu ca PDF gata de imprimare, atât în ​​orientare portret, cât și peisaj, dimensionată pentru hârtie Letter americană sau A4."
+          },
+          {
+            "q": "Pentru ce vârstă este cea mai potrivită fișă de lucru „Unește punctele” de la Roller Coaster Playground?",
+            "a": "Cu 133 de puncte, puzzle-ul Roller Coaster Playground este potrivit pentru vârstele de 7-12 ani (clasa a II-a și peste). Copiii mai mici se pot bucura de el cu ajutorul unui adult, în timp ce numărătorii încrezători îl pot completa independent și pot exersa secvențierea numerelor până la 133."
+          },
+          {
+            "q": "Ce abilități predă jocul unit-to-dot Roller Coaster Playground?",
+            "a": "Conectarea celor 133 de puncte din puzzle-ul Roller Coaster Playground dezvoltă recunoașterea numerelor și numărarea până la 133, controlul creionului, coordonarea mână-ochi și concentrarea susținută - aceleași fundamente ale motricității fine care susțin scrisul de mână timpuriu. Colorarea imaginii finalizate adaugă o recompensă creativă."
+          },
+          {
+            "q": "Care este un fapt amuzant despre locul de joacă din roller coaster?",
+            "a": "Primul roller coaster în buclă a fost deschis la Paris în 1846. Utilizatorii se plângeau că îi doare gâtul, iar inginerii au avut nevoie de aproape 50 de ani pentru a proiecta un roller coaster care să fie lin, în loc să fie dificil. Copiii descoperă lucruri de genul acesta în timp ce completează puzzle-ul punct cu punct de pe Roller Coaster Playground."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Caii de pe carusel transformă o plimbare obișnuită într-o aventură galopantă. Cu șa decorată, coamă unduitoare și postură mândră, fiecare cal pare gata să sară de pe platformă și să o ia la goană. Acest puzzle cu 88 de puncte oferă o provocare satisfăcătoare pentru copiii care pot urmări cu încredere secvențe numerice mai lungi. Găsește punctul 1, ține creionul bine și lasă caruselul să înceapă să se învârtă!",
+          "sections": [
+            {
+              "range": "1–22",
+              "title": "Capul Calului",
+              "learn": "Începeți de la punctul 1 și conectați până la punctul 18 pentru a contura fața calului, botul și urechile vigilente. Această secțiune combină unghiuri scurte cu curbe delicate, ajutând copiii să încetinească, să privească înainte și să ghideze creionul cu grijă în jurul detaliilor.",
+              "fact": "Artizii de carusel dau adesea fiecărui cal o expresie diferită. Unii par calmi și prietenoși, în timp ce alții au capul ridicat și ochii larg deschiși, pentru a da impresia că participă la o cursă."
+            },
+            {
+              "range": "23–44",
+              "title": "Mana și Gâtul Fluide",
+              "learn": "Continuă de la punctul 19 la punctul 36 pentru a desena gâtul curbat și coama fluidă. Schimbarea direcției coamei oferă exercițiu util pentru curbe netede și controlate, în timp ce face ca calul să pară că se mișcă prin vânt.",
+              "fact": "Multe cai de carusel vechi erau sculptați manual din mai multe bucăți de lemn. Artiști pricepuți adăugau adâncituri în coamă, astfel încât să prindă lumina și să pară că unduiește în timp ce caruselul se învârtea."
+            },
+            {
+              "range": "45–66",
+              "title": "Șaua și Corpul",
+              "learn": "Trasează punctele de la 37 la 54 pentru a construi corpul puternic al calului și șaua decorată. Copiii trebuie să urmărească atât linii mai lungi ale corpului, cât și forme ornamentale mai mici, exersând atât trăsături ferme, cât și atenția la detalii.",
+              "fact": "Partea cea mai decorată a unui cal de carusel este de obicei orientată spre exterior, unde poate fi văzută de călăreți și spectatori. Meșterii o numesc partea romantică și o împodobesc adesea cu flori, panglici, pietre prețioase sau scuturi."
+            },
+            {
+              "range": "67–88",
+              "title": "Picioarele în Galop",
+              "learn": "Unește punctele de la 55 la 72 pentru a desena picioarele ridicate și întinse. Aceste linii înclinate creează senzația unui galop înghețat. Încurajează copiii să verifice fiecare număr următor înainte de a desena, astfel încât picioarele să rămână separate și ușor de recunoscut.",
+              "fact": "Caii de carusel care se mișcă în sus și în jos se numesc „jumpers”, în timp ce caii fixați în loc sunt uneori numiți „standers”. Mișcarea ascendentă îi ajută pe călăreți să-și imagineze că calul lor galopează cu adevărat."
+            },
+            {
+              "range": "89–110",
+              "title": "Coada și Detaliile Finale",
+              "learn": "Finalizați cu punctele de la 73 la 88 pentru a adăuga coada lungă și detaliile decorative finale. Șaisprezece conexiuni atente completează imaginea, răsplătind copiii pentru concentrarea menținută pe tot parcursul unui puzzle mai lung.",
+              "fact": "Caruselele sunt cunoscute și sub denumirea de roata de carusel. Primele versiuni au fost inspirate de jocurile de antrenament pentru călărie, dar de-a lungul timpului acestea au devenit atracții colorate de divertisment, apreciate de familii din întreaga lume."
+            },
+            {
+              "range": "111–133",
+              "title": "Stația și Peronul",
+              "learn": "Terminăm conectând punctele 111 până la 133 pentru a desena peronul stației unde a început și s-a terminat plimbarea. Douăzeci și trei de puncte rămase la cel mai mare puzzle din setul de joacă — o finalizare lentă și atentă aici este adevărata marcă a perseverenței.",
+              "fact": "Secțiunea de frânare de la sfârșitul unei montagne russe reale este una dintre cele mai bine proiectate părți ale acesteia. Trebuie să aducă o mașină plină de călători de la viteză maximă la o oprire completă suficient de lin încât nimeni să nu fie zguduit."
+            }
+          ],
+          "outro": "O lucrare minunată — calul tău de carusel este gata de plimbare! Colorează șaua cu tonuri vii de carnaval, adaugă panglici sau pietre strălucitoare și proiectează un carusel în jurul lui. Pentru o altă provocare distractivă, explorează mai multe <a href=\"/playgrounds/\">desene punct cu punct de pe terenul de joacă</a>.",
+          "color_schemes": []
+        }
+      }
+    },
+    {
+      "slug": "monkey-bar-playground-dot-to-dot-puzzle",
+      "header": {
+        "title": "Casa de Joaca Slide Puncte Unite: 68 de Puncte de Printat Gratuit",
+        "meta_description": "Barele de maimuță dezvoltă prinderea și coordonarea pe terenul de joacă; această versiune cu 94 de puncte dezvoltă controlul creionului. Descarcă PDF-ul gratuit pentru vârstele 5–9.",
+        "og": {
+          "title": "Casa de Joaca Slide Puncte Unite: 68 de Puncte de Printat Gratuit",
+          "description": "Barele de maimuță dezvoltă prinderea și coordonarea pe terenul de joacă; această versiune cu 94 de puncte dezvoltă controlul creionului. Descarcă PDF-ul gratuit pentru vârstele 5–9.",
+          "image_alt": "Casă de joacă cu tobogan atașat asamblată din 68 de puncte pe o pagină gratuită de punct cu punct"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Tobogan pentru Casă de Joacă",
+          "description": "Barele de maimuță dezvoltă prinderea și coordonarea pe terenul de joacă; această versiune cu 94 de puncte dezvoltă controlul creionului. Descarcă PDF-ul gratuit pentru vârstele 5–9.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
+      },
+      "body": {
+        "h1": "Casa de Joacă Slide Puncte Unite: 68 de Puncte de Printat Gratuit",
+        "name": "Tobogan pentru Casă de Joacă",
+        "tagline": "Urcă și alunecă în distracție!",
+        "description": "Conectează 68 de puncte pentru a descoperi o casă de joacă veselă cu tobogan. Acest exercițiu ușor de printat îi ajută pe copii să exerseze secvențierea numerelor, controlul creionului, urmărirea vizuală și concentrarea.",
+        "fun_fact": "Structurile de joc combină activități de cățărat, joc simbolic și alunecare, oferind copiilor mai multe tipuri de exerciții de mișcare și imaginație într-un singur loc.",
+        "faqs": [
+          {
+            "q": "Câte puncte are puzzle-ul punct-cu-punct Monkey Bars Playground?",
+            "a": "Puzzle-ul imprimabil cu jocul „Monkey Bars Playground connect-the-dots” are 94 de puncte numerotate. Asta îl face un puzzle mediu, potrivit pentru vârstele de 6-9 ani (clasele I-III). Copiii unesc punctele în ordinea numerotată pentru a dezvălui imaginea finalizată cu jocul „Monkey Bars Playground”, apoi o colorează."
+          },
+          {
+            "q": "Este gratuit modelul Monkey Bars Playground unit-to-dot imprimabil?",
+            "a": "Da. Fișa de lucru Monkey Bars Playground este 100% gratuită pentru descărcare de pe DotToDotFreePrintables.com — nu este necesar un cont, un e-mail sau o plată. Se descarcă instantaneu ca PDF gata de imprimare, atât în ​​orientare portret, cât și peisaj, dimensionată pentru hârtie Letter SUA sau A4."
+          },
+          {
+            "q": "Pentru ce vârstă este cea mai potrivită fișă de lucru Monkey Bars Playground cu puncte de conectare?",
+            "a": "Cu 94 de puncte, puzzle-ul Monkey Bars Playground este potrivit pentru vârstele cu vârste cuprinse între 6 și 9 ani (clasele I-III). Copiii mai mici se pot bucura de el cu ajutorul unui adult, în timp ce numărătorii încrezători îl pot completa independent și pot exersa secvențierea numerelor până la 94."
+          },
+          {
+            "q": "Ce abilități predă jocul de tip „punct-punct” de la terenul de joacă Monkey Bars?",
+            "a": "Conectarea celor 94 de puncte ale puzzle-ului Monkey Bars Playground dezvoltă recunoașterea numerelor și numărarea până la 94, controlul creionului, coordonarea mână-ochi și concentrarea susținută - aceleași fundamente ale motricității fine care susțin scrisul de mână timpuriu. Colorarea imaginii finalizate adaugă o recompensă creativă."
+          },
+          {
+            "q": "Care este un fapt amuzant despre locul de joacă de la barurile cu maimuțe?",
+            "a": "Barele de joacă Monkey Bars au devenit echipamente populare pentru locuri de joacă la începutul secolului al XX-lea și îi ajută pe copii să exerseze forța de prindere, echilibrul și coordonarea părții superioare a corpului. Copiii descoperă lucruri de acest gen în timp ce completează puzzle-ul Monkey Bars Playground de tip punct cu punct."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Acest puzzle de 68 de puncte construiește un întreg loc de joacă pentru copii, de la acoperiș și platformă până la scară și tobogan curbate. Cinci etape scurte fac imaginea ușor de gestionat pentru artiștii tineri.",
+          "sections": [
+            {
+              "range": "1–18",
+              "title": "Acoperișul Teatrului",
+              "learn": "Unește punctele de la 1 la 14 pentru a forma acoperișul de la partea superioară a casetei de joacă.",
+              "fact": "Acoperișurile de pe casele de joacă din exterior oferă umbră și ajută structura să pară o clădire mică destinată jocurilor de pretins."
+            },
+            {
+              "range": "19–38",
+              "title": "Casa și Platforma",
+              "learn": "Continuați de la punctul 15 la punctul 28 pentru a desena pereții căsuței de joacă și platforma ridicată.",
+              "fact": "Platformele de joc ridicate îi încurajează pe copii să exerseze echilibrul și conștientizarea spațială în timp ce se deplasează."
+            },
+            {
+              "range": "39–58",
+              "title": "Scara de Alpinism",
+              "learn": "Urmează punctele de la 29 la 41 pentru a adăuga scara și treptele ei echidistante.",
+              "fact": "Urcații pe scară ajută copiii să își dezvolte forța musculară a picioarelor, coordonarea și încrederea în sine."
+            },
+            {
+              "range": "59–76",
+              "title": "Toboganul Curbat",
+              "learn": "Trasează punctele de la 42 la 55 pe toboganul neted, menținând creionul stabil pe fiecare curbă.",
+              "fact": "Toboganele folosesc gravitația pentru a transforma înălțimea câștigată la urcare într-o coborâre rapidă și lină."
+            },
+            {
+              "range": "77–94",
+              "title": "Suporturile și Pământul",
+              "learn": "Finalizați cu punctele 56 până la 68 pentru a adăuga suporturile și solul de sub casa de joacă.",
+              "fact": "Echipamentele de playground sunt instalate pe suprafețe care absorb impactul, cum ar fi fibrele de lemn prelucrate sau cauciucul."
+            }
+          ],
+          "outro": "Toboganul tău de joacă este gata de distracție! Adaugă culori strălucitoare, ferestre, steaguri și un întreg loc de joacă în jurul lui. Încearcă apoi <a href=\"/playgrounds/carousel-horse-playground-dot-to-dot-puzzle/\">puzzle-ul cu calul de carusel</a>.",
+          "color_schemes": []
+        }
+      }
+    }
+  ]
+}

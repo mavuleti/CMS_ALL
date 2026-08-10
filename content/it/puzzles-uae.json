@@ -1,322 +1,500 @@
-[
-  {
-    "slug": "burj-al-arab-dot-to-dot-puzzle",
+{
+  "collection": {
     "header": {
-      "title": "Burj Al Arab Punto a Punto — L'icona di Dubai in 66 Punti",
-      "meta_description": "Il Burj Al Arab a forma di vela si erge dalla sua isola. Traccia il punto di riferimento attraverso 66 punti in questo PDF stampabile gratuito per bambini dai 6 ai 10 anni.",
+      "title": "Unisci i puntini Emirati Arabi Uniti gratis per bambini",
+      "meta_description": "Scopri i monumenti e la cultura degli Emirati Arabi Uniti con schede gratuite unisci i puntini, pronte da stampare.",
       "og": {
+        "title": "Unisci i puntini Emirati Arabi Uniti gratis",
+        "description": "Schede gratuite degli Emirati da stampare per bambini.",
+        "image": "/images/burj-al-arab-puzzle.webp"
+      },
+      "json_ld": {
+        "type": "CollectionPage",
+        "name": "Emirati Arabi Uniti",
+        "description": "Scopri gli Emirati Arabi Uniti! Unisci i puntini per rivelare il Burj Al Arab e altri luoghi simbolo degli Emirati. Tutti i fogli di lavoro sono scaricabili e stampabili gratuitamente, senza bisogno di creare un account.",
+        "image": "/images/burj-al-arab-puzzle.webp",
+        "main_entity": {
+          "type": "ItemList",
+          "item_source": "puzzles"
+        }
+      },
+      "breadcrumb_json_ld": {
+        "type": "BreadcrumbList",
+        "items": [
+          {
+            "position": 1,
+            "name": "Home",
+            "path": "/"
+          },
+          {
+            "position": 2,
+            "name": "Emirati Arabi Uniti",
+            "path": "/uae/"
+          }
+        ]
+      }
+    },
+    "body": {
+      "h1": "Disegni da stampare unendo i puntini a tema Emirati Arabi Uniti per bambini",
+      "name": "Emirati Arabi Uniti",
+      "tagline": "Perché i bambini adorano i puzzle unisci i puntini negli Emirati Arabi Uniti",
+      "description": "Scopri gli Emirati Arabi Uniti! Unisci i puntini per rivelare il Burj Al Arab e altri luoghi simbolo degli Emirati. Tutti i fogli di lavoro sono scaricabili e stampabili gratuitamente, senza bisogno di creare un account.",
+      "hero_image": "/images/burj-al-arab-puzzle.webp",
+      "slug": "uae",
+      "faqs": [
+        {
+          "q": "Quanti disegni da stampare gratuitamente sui monumenti e la cultura degli Emirati Arabi Uniti, da completare unendo i puntini, sono disponibili?",
+          "a": "La categoria Monumenti e Cultura degli Emirati Arabi Uniti offre attualmente 5 schede stampabili gratuite da unire con i puntini, con un numero di punti variabile da 60 a 105. Ogni scheda si scarica immediatamente in formato PDF pronto per la stampa (Lettera o A4, verticale o orizzontale) senza bisogno di registrazione."
+        },
+        {
+          "q": "I puzzle \"unisci i punti di riferimento e la cultura degli Emirati Arabi Uniti\" sono gratuiti da stampare?",
+          "a": "Sì, tutti e 5 i puzzle della collezione \"Luoghi di interesse e cultura degli Emirati Arabi Uniti\" sono completamente gratuiti per l'uso domestico e scolastico. Non è mai richiesto alcun account, indirizzo email o pagamento su DotToDotFreePrintables.com."
+        },
+        {
+          "q": "Per quale fascia d'età sono adatti i puzzle sui monumenti e la cultura degli Emirati Arabi Uniti?",
+          "a": "Con un numero di punti che varia da 60 a 105, la collezione \"UAE Landmarks & Culture\" è adatta a bambini di età compresa tra i 4 e i 12 anni. Scegliete livelli con un numero di punti inferiore per i bambini in età prescolare e dell'asilo, e livelli con un numero di punti superiore per i bambini più esperti nelle classi dalla seconda alla sesta elementare."
+        },
+        {
+          "q": "Quali puzzle \"unisci i puntini\" a tema Emirati Arabi Uniti sono disponibili?",
+          "a": "Cinque immagini gratuite degli Emirati Arabi Uniti da stampare: Burj Khalifa (60 punti), Burj Al Arab (66 punti), UAE Falcon (60 punti), Dallah Coffee Pot (63 punti) e UAE Camel (105 punti) — per celebrare i monumenti e il patrimonio degli Emirati, con una versione completa del sito in arabo disponibile."
+        },
+        {
+          "q": "Questi puzzle a tema Emirati Arabi Uniti sono adatti per le attività legate alla Festa Nazionale degli Emirati Arabi Uniti?",
+          "a": "Sì. Insegnanti e genitori in tutti gli Emirati utilizzano questi materiali stampabili per la Festa Nazionale degli Emirati Arabi Uniti, le settimane dedicate al patrimonio culturale e le unità didattiche di studi sociali. Ogni pagina include informazioni culturali sul monumento o sul simbolo che i bambini stanno disegnando."
+        }
+      ]
+    }
+  },
+  "puzzles": [
+    {
+      "slug": "burj-al-arab-dot-to-dot-puzzle",
+      "header": {
         "title": "Burj Al Arab Punto a Punto — L'icona di Dubai in 66 Punti",
-        "description": "Il Burj Al Arab a forma di vela si erge dalla sua isola. Traccia il punto di riferimento attraverso 66 punti in questo PDF stampabile gratuito per bambini dai 6 ai 10 anni.",
-        "image_alt": "Hotel Burj Al Arab a forma di vela che si erge da 66 punti su una pagina puzzle di riferimento"
+        "meta_description": "Il Burj Al Arab a forma di vela si erge dalla sua isola. Traccia il punto di riferimento attraverso 66 punti in questo PDF stampabile gratuito per bambini dai 6 ai 10 anni.",
+        "og": {
+          "title": "Burj Al Arab Punto a Punto — L'icona di Dubai in 66 Punti",
+          "description": "Il Burj Al Arab a forma di vela si erge dalla sua isola. Traccia il punto di riferimento attraverso 66 punti in questo PDF stampabile gratuito per bambini dai 6 ai 10 anni.",
+          "image_alt": "Hotel Burj Al Arab a forma di vela che si erge da 66 punti su una pagina puzzle di riferimento"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Burg Al Arab",
+          "description": "Il Burj Al Arab a forma di vela si erge dalla sua isola. Traccia il punto di riferimento attraverso 66 punti in questo PDF stampabile gratuito per bambini dai 6 ai 10 anni.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
       },
-      "json_ld": {
-        "type": "CreativeWork",
+      "body": {
+        "h1": "Burj Al Arab Punto a Punto — L'icona di Dubai in 66 Punti",
         "name": "Burg Al Arab",
-        "description": "Il Burj Al Arab a forma di vela si erge dalla sua isola. Traccia il punto di riferimento attraverso 66 punti in questo PDF stampabile gratuito per bambini dai 6 ai 10 anni.",
-        "image": "",
-        "educational_use": "Fine motor skills, number sequencing",
-        "age_range": ""
-      }
-    },
-    "body": {
-      "h1": "Burj Al Arab Punto a Punto — L'icona di Dubai in 66 Punti",
-      "name": "Burg Al Arab",
-      "tagline": "L'icona a forma di vela di Dubai",
-      "description": "Collega 66 punti per rivelare il Burj Al Arab, l'iconico hotel a forma di vela che si erge dalla sua isola al largo della costa di Dubai. Questo puzzle facile è perfetto per i giovani studenti che praticano la sequenza numerica mentre scoprono uno degli skyline più famosi del mondo.",
-      "fun_fact": "Il Burj Al Arab sorge su un'isola artificiale ed è uno degli hotel più alti del mondo!",
-      "dot_guide": {
-        "intro": "Il Burj Al Arab è uno degli edifici più riconoscibili al mondo: una torre scintillante a forma di vela che si erge su un'isola artificiale nel Golfo Persico. Costruito per assomigliare alla vela gonfiata dal vento di un tradizionale dhow, è diventato un simbolo della Dubai moderna e degli Emirati Arabi Uniti. Questo puzzle da 66 punti ne riproduce la spettacolare silhouette curva. Trova il punto numero 1 e ricostruiamo insieme questo famoso skyline!",
-        "sections": [
+        "tagline": "L'icona a forma di vela di Dubai",
+        "description": "Collega 66 punti per rivelare il Burj Al Arab, l'iconico hotel a forma di vela che si erge dalla sua isola al largo della costa di Dubai. Questo puzzle facile è perfetto per i giovani studenti che praticano la sequenza numerica mentre scoprono uno degli skyline più famosi del mondo.",
+        "fun_fact": "Il Burj Al Arab sorge su un'isola artificiale ed è uno degli hotel più alti del mondo!",
+        "faqs": [
           {
-            "range": "1–13",
-            "title": "L'albero e la punta",
-            "learn": "Iniziate dal punto 1 e proseguite fino al punto 13 per tracciare l'albero alto e curvo in cima all'edificio. Questa sezione stretta permette di sviluppare fin da subito un controllo preciso della matita, un ottimo riscaldamento prima di affrontare le forme più ampie che seguono. Incoraggiate i bambini a mantenere le linee fluide e leggermente curve, proprio come nella vera vela.",
-            "fact": "Il Burj Al Arab è alto circa 321 metri (1.053 piedi), il che lo rende uno degli hotel più alti del mondo. La sua caratteristica torre in cima ha persino un eliporto, che ha ospitato partite di tennis e dimostrazioni di golf sospese sopra il mare! Per saperne di più, visita la <a href=\"https://en.wikipedia.org/wiki/Burj_Al_Arab\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">voce di Wikipedia sul Burj Al Arab</a>."
+            "q": "Quanti punti ha il puzzle \"unisci i puntini\" del Burj Al Arab?",
+            "a": "Il disegno da unire i puntini del Burj Al Arab ha 66 punti numerati. Questo lo rende un puzzle di difficoltà medio-facile, ideale per bambini dai 5 agli 8 anni (dalla scuola dell'infanzia alla seconda elementare). I bambini uniscono i puntini in ordine numerico per rivelare l'immagine completa del Burj Al Arab, che poi possono colorare."
           },
           {
-            "range": "14–26",
-            "title": "La vela curva",
-            "learn": "Proseguite dal punto 14 al punto 26 per tracciare la famosa facciata curva dell'edificio, la parte che sembra proprio una vela gonfiata dal vento. I bambini si esercitano a disegnare una lunga ed elegante curva verso l'esterno, una delle forme più appaganti dell'intero puzzle. Una mano ferma e lenta permette di ottenere la linea più armoniosa.",
-            "fact": "L'edificio è stato progettato dall'architetto Tom Wright, che desiderava creare una struttura iconica quanto la Sydney Opera House o la Torre Eiffel. La forma a vela si ispira ai tradizionali dhow arabi, imbarcazioni a vela che solcano il Golfo da secoli."
+            "q": "Il disegno da completare unendo i puntini del Burj Al Arab è stampabile gratuitamente?",
+            "a": "Sì. Il foglio di lavoro sul Burj Al Arab è scaricabile gratuitamente al 100% da DotToDotFreePrintables.com: non è richiesto alcun account, indirizzo email o pagamento. Il download è immediato in formato PDF pronto per la stampa, sia in orientamento verticale che orizzontale, e dimensionato per carta US Letter o A4."
           },
           {
-            "range": "27–39",
-            "title": "Il telaio di supporto per la schiena",
-            "learn": "Traccia i punti dal 27 al 39 per disegnare l'alta struttura di supporto verticale che sorregge l'edificio da dietro. Questa sezione introduce linee più dritte mescolate ad angoli retti, offrendo ai bambini l'opportunità di esercitarsi a passare da tratti curvi a tratti dritti nello stesso puzzle.",
-            "fact": "In realtà, il Burj Al Arab non è l'edificio più alto di Dubai: quel primato spetta al Burj Khalifa, che è più del doppio più alto! Tuttavia, il Burj Al Arab rimane uno degli edifici più fotografati al mondo grazie alla sua forma unica."
+            "q": "Per quale fascia d'età è più adatto il foglio di lavoro \"unisci i puntini\" del Burj Al Arab?",
+            "a": "Con 66 punti, il puzzle del Burj Al Arab è ideale per bambini dai 5 agli 8 anni (dalla scuola dell'infanzia alla seconda elementare). I più piccoli possono divertirsi con un piccolo aiuto da parte di un adulto che conta insieme, mentre i bambini più abili nel conteggio possono completarlo in autonomia ed esercitarsi con le sequenze numeriche fino a 66."
           },
           {
-            "range": "40–52",
-            "title": "Il corpo principale della torre",
-            "learn": "Collega i punti da 40 a 52 per riempire l'ampio corpo principale della torre dell'hotel. Questa è la sezione più grande del puzzle, che aiuta i bambini a sviluppare la concentrazione e la pazienza mentre la sagoma riconoscibile inizia a prendere forma.",
-            "fact": "All'interno, il Burj Al Arab è famoso per il suo enorme atrio, così alto da ospitare uno spazio aperto di 180 metri, uno degli atri più alti del mondo. Le fontane nella hall sono programmate per danzare a ritmo di musica."
+            "q": "Quali abilità insegna il puzzle \"unisci i puntini\" del Burj Al Arab?",
+            "a": "Unire i 66 punti del puzzle del Burj Al Arab sviluppa il riconoscimento dei numeri e la capacità di contare fino a 66, il controllo della matita, la coordinazione occhio-mano e la concentrazione prolungata: le stesse basi motorie fini che supportano la scrittura a mano nei primi anni di vita. Colorare l'immagine completata aggiunge una gratificazione creativa."
           },
           {
-            "range": "53–66",
-            "title": "La base dell'isola",
-            "learn": "Completa il puzzle collegando i punti dal 53 al 66 per disegnare la base dell'edificio e l'isola artificiale su cui sorge. Mancano solo quattordici punti al traguardo: incoraggia i bambini a completare il contorno con una serie di linee finali sicure e decise.",
-            "fact": "L'hotel sorge su un'isola privata, collegata alla terraferma da un ponte sinuoso. Gli ingegneri hanno dovuto prima costruire l'isola, utilizzando sabbia e roccia, prima ancora di poter iniziare la costruzione della torre vera e propria: l'intero progetto ha richiesto anni di attenta pianificazione."
+            "q": "Qual è una curiosità interessante sul Burj Al Arab?",
+            "a": "Il Burj Al Arab sorge su un'isola artificiale ed è uno degli hotel più alti del mondo! I bambini scopriranno curiosità come questa completando il puzzle a punti del Burj Al Arab."
           }
         ],
-        "outro": "Fantastico! Il tuo Burj Al Arab è completo! Ora dagli un tocco di oro scintillante, blu o un colore che richiami i suggestivi giochi di luce del vero hotel. Pronto per un altro famoso punto di riferimento? Scopri altri <a href=\"/\">disegni da unire ai puntini gratuiti</a> per continuare a esplorare il mondo.",
-        "color_schemes": []
+        "dot_guide": {
+          "intro": "Il Burj Al Arab è uno degli edifici più riconoscibili al mondo: una torre scintillante a forma di vela che si erge su un'isola artificiale nel Golfo Persico. Costruito per assomigliare alla vela gonfiata dal vento di un tradizionale dhow, è diventato un simbolo della Dubai moderna e degli Emirati Arabi Uniti. Questo puzzle da 66 punti ne riproduce la spettacolare silhouette curva. Trova il punto numero 1 e ricostruiamo insieme questo famoso skyline!",
+          "sections": [
+            {
+              "range": "1–13",
+              "title": "L'albero e la punta",
+              "learn": "Iniziate dal punto 1 e proseguite fino al punto 13 per tracciare l'albero alto e curvo in cima all'edificio. Questa sezione stretta permette di sviluppare fin da subito un controllo preciso della matita, un ottimo riscaldamento prima di affrontare le forme più ampie che seguono. Incoraggiate i bambini a mantenere le linee fluide e leggermente curve, proprio come nella vera vela.",
+              "fact": "Il Burj Al Arab è alto circa 321 metri (1.053 piedi), il che lo rende uno degli hotel più alti del mondo. La sua caratteristica torre in cima ha persino un eliporto, che ha ospitato partite di tennis e dimostrazioni di golf sospese sopra il mare! Per saperne di più, visita la <a href=\"https://en.wikipedia.org/wiki/Burj_Al_Arab\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">voce di Wikipedia sul Burj Al Arab</a>."
+            },
+            {
+              "range": "14–26",
+              "title": "La vela curva",
+              "learn": "Proseguite dal punto 14 al punto 26 per tracciare la famosa facciata curva dell'edificio, la parte che sembra proprio una vela gonfiata dal vento. I bambini si esercitano a disegnare una lunga ed elegante curva verso l'esterno, una delle forme più appaganti dell'intero puzzle. Una mano ferma e lenta permette di ottenere la linea più armoniosa.",
+              "fact": "L'edificio è stato progettato dall'architetto Tom Wright, che desiderava creare una struttura iconica quanto la Sydney Opera House o la Torre Eiffel. La forma a vela si ispira ai tradizionali dhow arabi, imbarcazioni a vela che solcano il Golfo da secoli."
+            },
+            {
+              "range": "27–39",
+              "title": "Il telaio di supporto per la schiena",
+              "learn": "Traccia i punti dal 27 al 39 per disegnare l'alta struttura di supporto verticale che sorregge l'edificio da dietro. Questa sezione introduce linee più dritte mescolate ad angoli retti, offrendo ai bambini l'opportunità di esercitarsi a passare da tratti curvi a tratti dritti nello stesso puzzle.",
+              "fact": "In realtà, il Burj Al Arab non è l'edificio più alto di Dubai: quel primato spetta al Burj Khalifa, che è più del doppio più alto! Tuttavia, il Burj Al Arab rimane uno degli edifici più fotografati al mondo grazie alla sua forma unica."
+            },
+            {
+              "range": "40–52",
+              "title": "Il corpo principale della torre",
+              "learn": "Collega i punti da 40 a 52 per riempire l'ampio corpo principale della torre dell'hotel. Questa è la sezione più grande del puzzle, che aiuta i bambini a sviluppare la concentrazione e la pazienza mentre la sagoma riconoscibile inizia a prendere forma.",
+              "fact": "All'interno, il Burj Al Arab è famoso per il suo enorme atrio, così alto da ospitare uno spazio aperto di 180 metri, uno degli atri più alti del mondo. Le fontane nella hall sono programmate per danzare a ritmo di musica."
+            },
+            {
+              "range": "53–66",
+              "title": "La base dell'isola",
+              "learn": "Completa il puzzle collegando i punti dal 53 al 66 per disegnare la base dell'edificio e l'isola artificiale su cui sorge. Mancano solo quattordici punti al traguardo: incoraggia i bambini a completare il contorno con una serie di linee finali sicure e decise.",
+              "fact": "L'hotel sorge su un'isola privata, collegata alla terraferma da un ponte sinuoso. Gli ingegneri hanno dovuto prima costruire l'isola, utilizzando sabbia e roccia, prima ancora di poter iniziare la costruzione della torre vera e propria: l'intero progetto ha richiesto anni di attenta pianificazione."
+            }
+          ],
+          "outro": "Fantastico! Il tuo Burj Al Arab è completo! Ora dagli un tocco di oro scintillante, blu o un colore che richiami i suggestivi giochi di luce del vero hotel. Pronto per un altro famoso punto di riferimento? Scopri altri <a href=\"/\">disegni da unire ai puntini gratuiti</a> per continuare a esplorare il mondo.",
+          "color_schemes": []
+        }
       }
-    }
-  },
-  {
-    "slug": "burj-khalifa-dot-to-dot-puzzle",
-    "header": {
-      "title": "Burj Khalifa Punto a Punto: Il più alto del mondo, 60 Punti",
-      "meta_description": "Scala l'edificio più alto del mondo una linea alla volta. Questo PDF stampabile di 60 punti del Burj Khalifa porta la geografia di Dubai ai bambini dai 5 ai 9 anni.",
-      "og": {
+    },
+    {
+      "slug": "burj-khalifa-dot-to-dot-puzzle",
+      "header": {
         "title": "Burj Khalifa Punto a Punto: Il più alto del mondo, 60 Punti",
-        "description": "Scala l'edificio più alto del mondo una linea alla volta. Questo PDF stampabile di 60 punti del Burj Khalifa porta la geografia di Dubai ai bambini dai 5 ai 9 anni.",
-        "image_alt": "Torre Burj Khalifa che detiene il record impilata attraverso 60 punti numerati stampabili"
+        "meta_description": "Scala l'edificio più alto del mondo una linea alla volta. Questo PDF stampabile di 60 punti del Burj Khalifa porta la geografia di Dubai ai bambini dai 5 ai 9 anni.",
+        "og": {
+          "title": "Burj Khalifa Punto a Punto: Il più alto del mondo, 60 Punti",
+          "description": "Scala l'edificio più alto del mondo una linea alla volta. Questo PDF stampabile di 60 punti del Burj Khalifa porta la geografia di Dubai ai bambini dai 5 ai 9 anni.",
+          "image_alt": "Torre Burj Khalifa che detiene il record impilata attraverso 60 punti numerati stampabili"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Burj Khalifa",
+          "description": "Scala l'edificio più alto del mondo una linea alla volta. Questo PDF stampabile di 60 punti del Burj Khalifa porta la geografia di Dubai ai bambini dai 5 ai 9 anni.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
       },
-      "json_ld": {
-        "type": "CreativeWork",
+      "body": {
+        "h1": "Burj Khalifa Punto a Punto: Il più alto del mondo, 60 Punti",
         "name": "Burj Khalifa",
-        "description": "Scala l'edificio più alto del mondo una linea alla volta. Questo PDF stampabile di 60 punti del Burj Khalifa porta la geografia di Dubai ai bambini dai 5 ai 9 anni.",
-        "image": "",
-        "educational_use": "Fine motor skills, number sequencing",
-        "age_range": ""
-      }
-    },
-    "body": {
-      "h1": "Burj Khalifa Punto a Punto: Il più alto del mondo, 60 Punti",
-      "name": "Burj Khalifa",
-      "tagline": "La torre più alta del mondo",
-      "description": "Collega 60 punti per rivelare il Burj Khalifa, il grattacielo che detiene il record e che svetta sopra la città di Dubai. Questo puzzle facile è perfetto per i giovani studenti che praticano la sequenza numerica mentre scoprono l'edificio più alto della Terra.",
-      "fun_fact": "Il Burj Khalifa è l'edificio più alto del mondo, alto oltre 828 metri (2.717 piedi)!",
-      "dot_guide": {
-        "intro": "Il Burj Khalifa è l'edificio più alto mai costruito dall'uomo: una torre slanciata che trafigge il cielo sopra Dubai. Il suo design a più livelli e a spirale si ispira a un fiore del deserto chiamato Hymenocallis e detiene il titolo di edificio più alto del mondo sin dalla sua inaugurazione nel 2010. Questo puzzle da 60 punti ne ripercorre la silhouette svettante dalla base alla guglia. Trova il punto numero 1 e raggiungiamo il cielo!",
-        "sections": [
+        "tagline": "La torre più alta del mondo",
+        "description": "Collega 60 punti per rivelare il Burj Khalifa, il grattacielo che detiene il record e che svetta sopra la città di Dubai. Questo puzzle facile è perfetto per i giovani studenti che praticano la sequenza numerica mentre scoprono l'edificio più alto della Terra.",
+        "fun_fact": "Il Burj Khalifa è l'edificio più alto del mondo, alto oltre 828 metri (2.717 piedi)!",
+        "faqs": [
           {
-            "range": "1–12",
-            "title": "La guglia",
-            "learn": "Iniziate dal punto 1 e proseguite fino al punto 12 per tracciare la guglia sottile e appuntita in cima alla torre. Questa sezione stretta permette di imparare a disegnare tratti di matita precisi e controllati fin da subito, un ottimo riscaldamento prima di affrontare le forme più ampie che seguono. Incoraggiate i bambini a disegnare lentamente e a mantenere le linee dritte e alte.",
-            "fact": "La guglia da sola è alta circa 244 metri (800 piedi), quasi quanto interi grattacieli di altre città! Ospita un'antenna per telecomunicazioni ed è uno dei motivi per cui il Burj Khalifa detiene così tanti record di altezza. Consulta l'elenco completo dei record di altezza sulla <a href=\"https://en.wikipedia.org/wiki/Burj_Khalifa\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">voce di Wikipedia sul Burj Khalifa</a>."
+            "q": "Quanti punti ha il puzzle \"unisci i puntini\" del Burj Khalifa?",
+            "a": "Il disegno da stampare \"unisci i puntini\" del Burj Khalifa ha 60 punti numerati. Questo lo rende un puzzle di difficoltà medio-facile, ideale per bambini dai 5 agli 8 anni (dalla scuola dell'infanzia alla seconda elementare). I bambini uniscono i puntini in ordine numerico per rivelare l'immagine completa del Burj Khalifa, che poi possono colorare."
           },
           {
-            "range": "13–24",
-            "title": "I livelli superiori",
-            "learn": "Proseguite dal punto 13 al punto 24 per disegnare le sezioni che si restringono e si sviluppano a gradini vicino alla cima della torre. I bambini si esercitano a disegnare una forma che si restringe gradualmente man mano che sale, un ottimo modo per parlare di prospettiva e di come gli edifici possano restringersi verso il cielo.",
-            "fact": "L'edificio ha 163 piani, più di qualsiasi altro edificio al mondo al momento del suo completamento. Ospita inoltre la piattaforma panoramica più alta del mondo, chiamata \"At the Top\", al 148° piano."
+            "q": "Il disegno da completare unendo i puntini del Burj Khalifa è gratuito?",
+            "a": "Sì. Il foglio di lavoro sul Burj Khalifa è scaricabile gratuitamente al 100% da DotToDotFreePrintables.com: non è richiesto alcun account, indirizzo email o pagamento. Il download è immediato in formato PDF pronto per la stampa, sia in orientamento verticale che orizzontale, e dimensionato per carta US Letter o A4."
           },
           {
-            "range": "25–36",
-            "title": "La spirale mediana",
-            "learn": "Traccia i punti dal 25 al 36 per disegnare la sezione centrale, dove il motivo a spirale e a gradoni della torre è più facile da vedere. Questa sezione premia l'attenzione, poiché le rientranze e gli angoli cambiano direzione più volte, offrendo ai bambini un'ottima opportunità per esercitarsi a seguire un contorno più complesso.",
-            "fact": "Il design del Burj Khalifa si ispira all'Hymenocallis, un fiore del deserto dai petali lunghi e sottili che si aprono a spirale dal centro. Gli architetti hanno sfruttato questa forma naturale per consentire all'edificio di resistere ai forti venti del deserto."
+            "q": "Per quale fascia d'età è più adatto il foglio di lavoro \"unisci i puntini\" sul Burj Khalifa?",
+            "a": "Con 60 punti, il puzzle del Burj Khalifa è ideale per bambini dai 5 agli 8 anni (dalla scuola dell'infanzia alla seconda elementare). I più piccoli possono divertirsi con un piccolo aiuto da parte di un adulto che conta insieme, mentre i bambini più abili nel conteggio possono completarlo in autonomia ed esercitarsi con le sequenze numeriche fino a 60."
           },
           {
-            "range": "37–48",
-            "title": "La Torre Inferiore",
-            "learn": "Collega i punti dal 37 al 48 per riempire la sezione inferiore più ampia della torre. Questa è una delle sezioni più grandi del puzzle, che aiuta i bambini a sviluppare la concentrazione e la pazienza mentre l'altezza completa della torre inizia a prendere forma sulla pagina.",
-            "fact": "Per la costruzione del Burj Khalifa è stato utilizzato tanto cemento quanto per costruire un marciapiede lungo oltre 48 chilometri, e tanto tondino d'acciaio quanto, se disposti uno di seguito all'altro, basterebbe a fare più di un quarto della circonferenza terrestre!"
+            "q": "Quali abilità insegna il puzzle \"unisci i puntini\" del Burj Khalifa?",
+            "a": "Unire i 60 punti del puzzle del Burj Khalifa sviluppa il riconoscimento dei numeri e la capacità di contare fino a 60, il controllo della matita, la coordinazione occhio-mano e la concentrazione prolungata: le stesse basi motorie fini che supportano la scrittura a mano nei primi anni di vita. Colorare l'immagine completata aggiunge una gratificazione creativa."
           },
           {
-            "range": "49–60",
-            "title": "La base",
-            "learn": "Completa il puzzle collegando i punti dal 49 al 60 per disegnare l'ampia base della torre nel punto in cui incontra il terreno. Solo dodici punti per arrivare al traguardo: incoraggia i bambini a completare il contorno con linee finali decise e sicure.",
-            "fact": "Il Burj Khalifa sorge nel cuore del centro di Dubai, circondato da un grande lago artificiale con la Fontana di Dubai, famosa per i suoi spettacoli di acqua coreografati a ritmo di musica e luci ogni sera."
+            "q": "Qual è una curiosità interessante sul Burj Khalifa?",
+            "a": "Il Burj Khalifa è l'edificio più alto del mondo, con un'altezza di oltre 828 metri (2.717 piedi)! I bambini scopriranno curiosità come questa completando il puzzle \"unisci i puntini\" del Burj Khalifa."
           }
         ],
-        "outro": "Fantastico! Il tuo Burj Khalifa è completo! Ora dagli un tocco di argento scintillante, oro o colori del tramonto per abbinarlo ai famosi spettacoli di luci serali della torre. Pronto per un altro famoso monumento? Scopri altri <a href=\"/\">disegni da unire ai puntini gratuiti</a> per continuare a esplorare il mondo.",
-        "color_schemes": []
+        "dot_guide": {
+          "intro": "Il Burj Khalifa è l'edificio più alto mai costruito dall'uomo: una torre slanciata che trafigge il cielo sopra Dubai. Il suo design a più livelli e a spirale si ispira a un fiore del deserto chiamato Hymenocallis e detiene il titolo di edificio più alto del mondo sin dalla sua inaugurazione nel 2010. Questo puzzle da 60 punti ne ripercorre la silhouette svettante dalla base alla guglia. Trova il punto numero 1 e raggiungiamo il cielo!",
+          "sections": [
+            {
+              "range": "1–12",
+              "title": "La guglia",
+              "learn": "Iniziate dal punto 1 e proseguite fino al punto 12 per tracciare la guglia sottile e appuntita in cima alla torre. Questa sezione stretta permette di imparare a disegnare tratti di matita precisi e controllati fin da subito, un ottimo riscaldamento prima di affrontare le forme più ampie che seguono. Incoraggiate i bambini a disegnare lentamente e a mantenere le linee dritte e alte.",
+              "fact": "La guglia da sola è alta circa 244 metri (800 piedi), quasi quanto interi grattacieli di altre città! Ospita un'antenna per telecomunicazioni ed è uno dei motivi per cui il Burj Khalifa detiene così tanti record di altezza. Consulta l'elenco completo dei record di altezza sulla <a href=\"https://en.wikipedia.org/wiki/Burj_Khalifa\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">voce di Wikipedia sul Burj Khalifa</a>."
+            },
+            {
+              "range": "13–24",
+              "title": "I livelli superiori",
+              "learn": "Proseguite dal punto 13 al punto 24 per disegnare le sezioni che si restringono e si sviluppano a gradini vicino alla cima della torre. I bambini si esercitano a disegnare una forma che si restringe gradualmente man mano che sale, un ottimo modo per parlare di prospettiva e di come gli edifici possano restringersi verso il cielo.",
+              "fact": "L'edificio ha 163 piani, più di qualsiasi altro edificio al mondo al momento del suo completamento. Ospita inoltre la piattaforma panoramica più alta del mondo, chiamata \"At the Top\", al 148° piano."
+            },
+            {
+              "range": "25–36",
+              "title": "La spirale mediana",
+              "learn": "Traccia i punti dal 25 al 36 per disegnare la sezione centrale, dove il motivo a spirale e a gradoni della torre è più facile da vedere. Questa sezione premia l'attenzione, poiché le rientranze e gli angoli cambiano direzione più volte, offrendo ai bambini un'ottima opportunità per esercitarsi a seguire un contorno più complesso.",
+              "fact": "Il design del Burj Khalifa si ispira all'Hymenocallis, un fiore del deserto dai petali lunghi e sottili che si aprono a spirale dal centro. Gli architetti hanno sfruttato questa forma naturale per consentire all'edificio di resistere ai forti venti del deserto."
+            },
+            {
+              "range": "37–48",
+              "title": "La Torre Inferiore",
+              "learn": "Collega i punti dal 37 al 48 per riempire la sezione inferiore più ampia della torre. Questa è una delle sezioni più grandi del puzzle, che aiuta i bambini a sviluppare la concentrazione e la pazienza mentre l'altezza completa della torre inizia a prendere forma sulla pagina.",
+              "fact": "Per la costruzione del Burj Khalifa è stato utilizzato tanto cemento quanto per costruire un marciapiede lungo oltre 48 chilometri, e tanto tondino d'acciaio quanto, se disposti uno di seguito all'altro, basterebbe a fare più di un quarto della circonferenza terrestre!"
+            },
+            {
+              "range": "49–60",
+              "title": "La base",
+              "learn": "Completa il puzzle collegando i punti dal 49 al 60 per disegnare l'ampia base della torre nel punto in cui incontra il terreno. Solo dodici punti per arrivare al traguardo: incoraggia i bambini a completare il contorno con linee finali decise e sicure.",
+              "fact": "Il Burj Khalifa sorge nel cuore del centro di Dubai, circondato da un grande lago artificiale con la Fontana di Dubai, famosa per i suoi spettacoli di acqua coreografati a ritmo di musica e luci ogni sera."
+            }
+          ],
+          "outro": "Fantastico! Il tuo Burj Khalifa è completo! Ora dagli un tocco di argento scintillante, oro o colori del tramonto per abbinarlo ai famosi spettacoli di luci serali della torre. Pronto per un altro famoso monumento? Scopri altri <a href=\"/\">disegni da unire ai puntini gratuiti</a> per continuare a esplorare il mondo.",
+          "color_schemes": []
+        }
       }
-    }
-  },
-  {
-    "slug": "uae-falcon-dot-to-dot-puzzle",
-    "header": {
-      "title": "Falco degli Emirati Punto a Punto Stampabile — 60 Punti in Volo",
-      "meta_description": "Alcuni falchi degli Emirati viaggiano con i propri passaporti. Rivela questo simbolo nazionale in volo attraverso 60 punti con un PDF gratuito per bambini dai 5 ai 9 anni.",
-      "og": {
+    },
+    {
+      "slug": "uae-falcon-dot-to-dot-puzzle",
+      "header": {
         "title": "Falco degli Emirati Punto a Punto Stampabile — 60 Punti in Volo",
-        "description": "Alcuni falchi degli Emirati viaggiano con i propri passaporti. Rivela questo simbolo nazionale in volo attraverso 60 punti con un PDF gratuito per bambini dai 5 ai 9 anni.",
-        "image_alt": "Falco in volo, ali ripiegate attraverso 60 punti su un foglio di lavoro gratuito"
+        "meta_description": "Alcuni falchi degli Emirati viaggiano con i propri passaporti. Rivela questo simbolo nazionale in volo attraverso 60 punti con un PDF gratuito per bambini dai 5 ai 9 anni.",
+        "og": {
+          "title": "Falco degli Emirati Punto a Punto Stampabile — 60 Punti in Volo",
+          "description": "Alcuni falchi degli Emirati viaggiano con i propri passaporti. Rivela questo simbolo nazionale in volo attraverso 60 punti con un PDF gratuito per bambini dai 5 ai 9 anni.",
+          "image_alt": "Falco in volo, ali ripiegate attraverso 60 punti su un foglio di lavoro gratuito"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Falcon degli Emirati Arabi Uniti",
+          "description": "Alcuni falchi degli Emirati viaggiano con i propri passaporti. Rivela questo simbolo nazionale in volo attraverso 60 punti con un PDF gratuito per bambini dai 5 ai 9 anni.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
       },
-      "json_ld": {
-        "type": "CreativeWork",
+      "body": {
+        "h1": "Falco degli Emirati Punto a Punto Stampabile — 60 Punti in Volo",
         "name": "Falcon degli Emirati Arabi Uniti",
-        "description": "Alcuni falchi degli Emirati viaggiano con i propri passaporti. Rivela questo simbolo nazionale in volo attraverso 60 punti con un PDF gratuito per bambini dai 5 ai 9 anni.",
-        "image": "",
-        "educational_use": "Fine motor skills, number sequencing",
-        "age_range": ""
-      }
-    },
-    "body": {
-      "h1": "Falco degli Emirati Punto a Punto Stampabile — 60 Punti in Volo",
-      "name": "Falcon degli Emirati Arabi Uniti",
-      "tagline": "L'uccello nazionale degli Emirati",
-      "description": "Collega 60 punti per rivelare un falco in volo, con le ali ripiegate e gli artigli pronti. Il falco è l'uccello nazionale degli Emirati Arabi Uniti e un simbolo del patrimonio emiratino. Questo puzzle facile è ottimo per i giovani studenti che praticano la sequenza numerica mentre apprendono di un uccello con una storia molto antica.",
-      "fun_fact": "Negli Emirati Arabi Uniti i falchi possono portare con sé il proprio passaporto, un documento valido che viene utilizzato quando viaggiano all'estero con i loro proprietari!",
-      "dot_guide": {
-        "intro": "Molto prima del petrolio o dei grattacieli, esisteva la falconeria. Le tribù beduine del deserto si affidavano a falchi addestrati per la caccia e il sostentamento, e questo rapporto di collaborazione tra uccello e addestratore è diventato una delle tradizioni più preziose della cultura emiratina. Oggi il falco compare sullo stemma degli Emirati Arabi Uniti e la falconeria stessa è tutelata come patrimonio vivente. Questo puzzle da 60 punti raffigura un falco colto in volo. Prendi una matita, trova il punto numero 1 e diamo vita a questo uccello.",
-        "sections": [
+        "tagline": "L'uccello nazionale degli Emirati",
+        "description": "Collega 60 punti per rivelare un falco in volo, con le ali ripiegate e gli artigli pronti. Il falco è l'uccello nazionale degli Emirati Arabi Uniti e un simbolo del patrimonio emiratino. Questo puzzle facile è ottimo per i giovani studenti che praticano la sequenza numerica mentre apprendono di un uccello con una storia molto antica.",
+        "fun_fact": "Negli Emirati Arabi Uniti i falchi possono portare con sé il proprio passaporto, un documento valido che viene utilizzato quando viaggiano all'estero con i loro proprietari!",
+        "faqs": [
           {
-            "range": "1–12",
-            "title": "La testa e il becco adunco",
-            "learn": "Inizia dal punto 1 e procedi fino al punto 12 per disegnare la testa affilata e vigile del falco e il suo caratteristico becco adunco. Questa è una piccola sezione, ma definisce il carattere dell'intero disegno: il volto di un falco dovrebbe apparire concentrato, quasi fiero. Mantieni le linee corte e precise, evitando tratti ampi e sinuosi.",
-            "fact": "Il becco del falco presenta una piccola tacca vicino alla punta, chiamata \"dente tomiale\". I falchi la usano per recidere rapidamente la colonna vertebrale della preda. È uno dei piccoli dettagli anatomici che distinguono i falchi da astori e aquile, che uccidono invece con gli artigli."
+            "q": "Quanti punti ha il puzzle \"unisci i puntini\" del falco degli Emirati Arabi Uniti?",
+            "a": "Il disegno \"Unisci i puntini\" del falco degli Emirati Arabi Uniti ha 60 punti numerati. Questo lo rende un puzzle di difficoltà medio-facile, ideale per bambini dai 5 agli 8 anni (dalla scuola dell'infanzia alla seconda elementare). I bambini uniscono i punti in ordine numerico per rivelare l'immagine completa del falco degli Emirati Arabi Uniti, che poi possono colorare."
           },
           {
-            "range": "13–24",
-            "title": "L'occhio vigile e la corona",
-            "learn": "Proseguite dal punto 13 al punto 24 per dare forma alla parte superiore della testa e al grande occhio rivolto in avanti. I falchi hanno una vista tra le più acute del regno animale, e realizzare correttamente questa sezione dà davvero vita all'espressione dell'uccello. Incoraggiate i bambini a prendersi il loro tempo per la curva dell'occhio: è un elemento che conferisce molta personalità al disegno.",
-            "fact": "Si dice che un falco possa individuare un coniglio da circa tre chilometri di distanza. La loro vista è considerata diverse volte più acuta di quella umana, ed è proprio per questo che i falconieri li addestrano a cacciare da grandi altezze e a lunghe distanze."
+            "q": "Il disegno a puntini del falco degli Emirati Arabi Uniti è stampabile gratuitamente?",
+            "a": "Sì. Il foglio di lavoro UAE Falcon è scaricabile gratuitamente al 100% da DotToDotFreePrintables.com: non è richiesto alcun account, indirizzo email o pagamento. Il download è immediato in formato PDF pronto per la stampa, sia in orientamento verticale che orizzontale, e dimensionato per carta US Letter o A4."
           },
           {
-            "range": "25–36",
-            "title": "Il colpo d'ala",
-            "learn": "Traccia i punti dal 25 al 36 per disegnare la lunga ala ripiegata all'indietro: è la parte del disegno che conferisce a questo uccello l'impressione di velocità. Questo è un buon esercizio per praticare una curva fluida e continua, piuttosto che linee corte e spezzate. Una mano ferma in questo punto farà sembrare che il falco stia davvero fendendo l'aria.",
-            "fact": "Il falco pellegrino, stretto parente degli uccelli addestrati nella falconeria negli Emirati Arabi Uniti, è l'animale più veloce del pianeta. Può superare i 386 chilometri orari (240 miglia orarie) durante una picchiata di caccia, chiamata \"stoop\"."
+            "q": "Per quale fascia d'età è più adatto il foglio di lavoro \"unisci i puntini\" con i falchi degli Emirati Arabi Uniti?",
+            "a": "Con 60 punti, il puzzle UAE Falcon è ideale per bambini dai 5 agli 8 anni (dalla scuola dell'infanzia alla seconda elementare). I più piccoli possono divertirsi con un piccolo aiuto da parte di un adulto che conta insieme, mentre i bambini più abili nel conteggio possono completarlo in autonomia ed esercitarsi con le sequenze numeriche fino a 60."
           },
           {
-            "range": "37–48",
-            "title": "Il corpo e il torace",
-            "learn": "Collega i punti dal 37 al 48 per completare il petto e il corpo principale del falco. Questa è la sezione più grande del puzzle, ed è un buon momento per rallentare e contare con attenzione: è facile perdere il filo della sequenza in un tratto così lungo.",
-            "fact": "La falconeria è stata iscritta congiuntamente dall'UNESCO nella lista del Patrimonio Culturale Immateriale dell'Umanità nel 2010, con gli Emirati Arabi Uniti tra le nazioni fondatrici. Rimane uno dei legami più evidenti tra il passato beduino del paese e la sua identità moderna. Per saperne di più, consulta la <a href=\"https://ich.unesco.org/en/RL/falconry-a-living-human-heritage-01708\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">pagina del Patrimonio Culturale Immateriale dell'UNESCO dedicata alla falconeria</a>."
+            "q": "Quali abilità insegna il puzzle \"unisci i puntini\" UAE Falcon?",
+            "a": "Unire i 60 punti del puzzle UAE Falcon sviluppa il riconoscimento dei numeri e la capacità di contare fino a 60, il controllo della matita, la coordinazione occhio-mano e la concentrazione prolungata: le stesse basi motorie fini che supportano la scrittura a mano nei primi anni di vita. Colorare il disegno completato aggiunge una gratificazione creativa."
           },
           {
-            "range": "49–60",
-            "title": "Le penne della coda",
-            "learn": "Completa il puzzle collegando i punti dal 49 al 60 per disegnare le piume della coda a ventaglio che si stagliano dietro all'uccello. Rimangono dodici punti: una conclusione decisa e sicura qui completa il senso di movimento che l'intero disegno ha contribuito a creare.",
-            "fact": "Abu Dhabi ospita il più grande ospedale per falchi al mondo, che cura migliaia di uccelli ogni anno e rilascia persino i passaporti per falchi necessari ai proprietari che viaggiano con i loro rapaci oltre confine."
+            "q": "Qual è una curiosità interessante sul falco degli Emirati Arabi Uniti?",
+            "a": "Negli Emirati Arabi Uniti i falchi possono portare con sé il proprio passaporto: un documento reale da utilizzare quando viaggiano all'estero con i loro proprietari! I bambini possono scoprire curiosità come questa completando il puzzle a puntini sul falco degli Emirati Arabi Uniti."
           }
         ],
-        "outro": "Bravo! Il tuo falco è pronto a spiccare il volo! Prova a colorarlo con calde tonalità di marrone e oro, proprio come un vero falco sacro, oppure dagli un aspetto più drammatico con grigi e neri intensi. Sei curioso di scoprire altri monumenti e animali del mondo? Esplora altri <a href=\"/\">disegni da unire i puntini gratuiti</a> e continua a disegnare!",
-        "color_schemes": []
+        "dot_guide": {
+          "intro": "Molto prima del petrolio o dei grattacieli, esisteva la falconeria. Le tribù beduine del deserto si affidavano a falchi addestrati per la caccia e il sostentamento, e questo rapporto di collaborazione tra uccello e addestratore è diventato una delle tradizioni più preziose della cultura emiratina. Oggi il falco compare sullo stemma degli Emirati Arabi Uniti e la falconeria stessa è tutelata come patrimonio vivente. Questo puzzle da 60 punti raffigura un falco colto in volo. Prendi una matita, trova il punto numero 1 e diamo vita a questo uccello.",
+          "sections": [
+            {
+              "range": "1–12",
+              "title": "La testa e il becco adunco",
+              "learn": "Inizia dal punto 1 e procedi fino al punto 12 per disegnare la testa affilata e vigile del falco e il suo caratteristico becco adunco. Questa è una piccola sezione, ma definisce il carattere dell'intero disegno: il volto di un falco dovrebbe apparire concentrato, quasi fiero. Mantieni le linee corte e precise, evitando tratti ampi e sinuosi.",
+              "fact": "Il becco del falco presenta una piccola tacca vicino alla punta, chiamata \"dente tomiale\". I falchi la usano per recidere rapidamente la colonna vertebrale della preda. È uno dei piccoli dettagli anatomici che distinguono i falchi da astori e aquile, che uccidono invece con gli artigli."
+            },
+            {
+              "range": "13–24",
+              "title": "L'occhio vigile e la corona",
+              "learn": "Proseguite dal punto 13 al punto 24 per dare forma alla parte superiore della testa e al grande occhio rivolto in avanti. I falchi hanno una vista tra le più acute del regno animale, e realizzare correttamente questa sezione dà davvero vita all'espressione dell'uccello. Incoraggiate i bambini a prendersi il loro tempo per la curva dell'occhio: è un elemento che conferisce molta personalità al disegno.",
+              "fact": "Si dice che un falco possa individuare un coniglio da circa tre chilometri di distanza. La loro vista è considerata diverse volte più acuta di quella umana, ed è proprio per questo che i falconieri li addestrano a cacciare da grandi altezze e a lunghe distanze."
+            },
+            {
+              "range": "25–36",
+              "title": "Il colpo d'ala",
+              "learn": "Traccia i punti dal 25 al 36 per disegnare la lunga ala ripiegata all'indietro: è la parte del disegno che conferisce a questo uccello l'impressione di velocità. Questo è un buon esercizio per praticare una curva fluida e continua, piuttosto che linee corte e spezzate. Una mano ferma in questo punto farà sembrare che il falco stia davvero fendendo l'aria.",
+              "fact": "Il falco pellegrino, stretto parente degli uccelli addestrati nella falconeria negli Emirati Arabi Uniti, è l'animale più veloce del pianeta. Può superare i 386 chilometri orari (240 miglia orarie) durante una picchiata di caccia, chiamata \"stoop\"."
+            },
+            {
+              "range": "37–48",
+              "title": "Il corpo e il torace",
+              "learn": "Collega i punti dal 37 al 48 per completare il petto e il corpo principale del falco. Questa è la sezione più grande del puzzle, ed è un buon momento per rallentare e contare con attenzione: è facile perdere il filo della sequenza in un tratto così lungo.",
+              "fact": "La falconeria è stata iscritta congiuntamente dall'UNESCO nella lista del Patrimonio Culturale Immateriale dell'Umanità nel 2010, con gli Emirati Arabi Uniti tra le nazioni fondatrici. Rimane uno dei legami più evidenti tra il passato beduino del paese e la sua identità moderna. Per saperne di più, consulta la <a href=\"https://ich.unesco.org/en/RL/falconry-a-living-human-heritage-01708\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">pagina del Patrimonio Culturale Immateriale dell'UNESCO dedicata alla falconeria</a>."
+            },
+            {
+              "range": "49–60",
+              "title": "Le penne della coda",
+              "learn": "Completa il puzzle collegando i punti dal 49 al 60 per disegnare le piume della coda a ventaglio che si stagliano dietro all'uccello. Rimangono dodici punti: una conclusione decisa e sicura qui completa il senso di movimento che l'intero disegno ha contribuito a creare.",
+              "fact": "Abu Dhabi ospita il più grande ospedale per falchi al mondo, che cura migliaia di uccelli ogni anno e rilascia persino i passaporti per falchi necessari ai proprietari che viaggiano con i loro rapaci oltre confine."
+            }
+          ],
+          "outro": "Bravo! Il tuo falco è pronto a spiccare il volo! Prova a colorarlo con calde tonalità di marrone e oro, proprio come un vero falco sacro, oppure dagli un aspetto più drammatico con grigi e neri intensi. Sei curioso di scoprire altri monumenti e animali del mondo? Esplora altri <a href=\"/\">disegni da unire i puntini gratuiti</a> e continua a disegnare!",
+          "color_schemes": []
+        }
       }
-    }
-  },
-  {
-    "slug": "dallah-coffee-pot-dot-to-dot-puzzle",
-    "header": {
-      "title": "Dallah Coffee Pot Dot to Dot, un foglio gratuito con 63 punti",
-      "meta_description": "Il dallah sulla moneta da un dirham degli Emirati Arabi Uniti rappresenta l'ospitalità. Collega la sua forma a becco lungo attraverso 63 punti in un foglio stampabile gratuito per età 6-10.",
-      "og": {
+    },
+    {
+      "slug": "dallah-coffee-pot-dot-to-dot-puzzle",
+      "header": {
         "title": "Dallah Coffee Pot Dot to Dot, un foglio gratuito con 63 punti",
-        "description": "Il dallah sulla moneta da un dirham degli Emirati Arabi Uniti rappresenta l'ospitalità. Collega la sua forma a becco lungo attraverso 63 punti in un foglio stampabile gratuito per età 6-10.",
-        "image_alt": "Caffettiera dallah dal lungo beccuccio disegnata unendo 63 puntini numerati su scheda stampabile"
+        "meta_description": "Il dallah sulla moneta da un dirham degli Emirati Arabi Uniti rappresenta l'ospitalità. Collega la sua forma a becco lungo attraverso 63 punti in un foglio stampabile gratuito per età 6-10.",
+        "og": {
+          "title": "Dallah Coffee Pot Dot to Dot, un foglio gratuito con 63 punti",
+          "description": "Il dallah sulla moneta da un dirham degli Emirati Arabi Uniti rappresenta l'ospitalità. Collega la sua forma a becco lungo attraverso 63 punti in un foglio stampabile gratuito per età 6-10.",
+          "image_alt": "Caffettiera dallah dal lungo beccuccio disegnata unendo 63 puntini numerati su scheda stampabile"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Caffettiera Dallah",
+          "description": "Il dallah sulla moneta da un dirham degli Emirati Arabi Uniti rappresenta l'ospitalità. Collega la sua forma a becco lungo attraverso 63 punti in un foglio stampabile gratuito per età 6-10.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
       },
-      "json_ld": {
-        "type": "CreativeWork",
+      "body": {
+        "h1": "Dallah Caffettiera Punto a Punto, un Foglio Gratuito di 63 Punti",
         "name": "Caffettiera Dallah",
-        "description": "Il dallah sulla moneta da un dirham degli Emirati Arabi Uniti rappresenta l'ospitalità. Collega la sua forma a becco lungo attraverso 63 punti in un foglio stampabile gratuito per età 6-10.",
-        "image": "",
-        "educational_use": "Fine motor skills, number sequencing",
-        "age_range": ""
-      }
-    },
-    "body": {
-      "h1": "Dallah Caffettiera Punto a Punto, un Foglio Gratuito di 63 Punti",
-      "name": "Caffettiera Dallah",
-      "tagline": "Simbolo dell'ospitalità emiratina",
-      "description": "Collega 63 punti per rivelare una dallah, la caffettiera a becco lungo usata in tutto gli Emirati e nel Golfo per servire caffè arabo agli ospiti. Questo puzzle facile è un bel modo per i giovani studenti di praticare la sequenza numerica mentre ottengono una piccola finestra su una tradizione che è ancora molto viva oggi.",
-      "fun_fact": "Il dallah è un simbolo così noto di ospitalità che appare sulla moneta da un dirham degli Emirati Arabi Uniti.",
-      "dot_guide": {
-        "intro": "Chiedete a chiunque nel Golfo cosa un buon padrone di casa offra a un ospite, e la risposta più frequente sarà il caffè. La dallah è la caffettiera che lo rende possibile: alta, curva, con un lungo beccuccio pensato per versare lentamente e con cura. La si trova ai matrimoni, nei salotti dei majlis e fuori dai tendoni durante le feste, di solito accanto a una pila di piccole tazze senza manico e a un piatto di datteri. Questo puzzle da 63 punti ne ripercorre la forma inconfondibile. Trovate il punto 1 e versiamone un po'.",
-        "sections": [
+        "tagline": "Simbolo dell'ospitalità emiratina",
+        "description": "Collega 63 punti per rivelare una dallah, la caffettiera a becco lungo usata in tutto gli Emirati e nel Golfo per servire caffè arabo agli ospiti. Questo puzzle facile è un bel modo per i giovani studenti di praticare la sequenza numerica mentre ottengono una piccola finestra su una tradizione che è ancora molto viva oggi.",
+        "fun_fact": "Il dallah è un simbolo così noto di ospitalità che appare sulla moneta da un dirham degli Emirati Arabi Uniti.",
+        "faqs": [
           {
-            "range": "1–13",
-            "title": "La maniglia curva",
-            "learn": "Inizia dal punto 1 e collega il tratto al punto 13 per disegnare il manico ad anello sul retro del vaso. La curva è più stretta di quanto sembri, quindi procedi con calma: la fretta è il punto in cui la forma solitamente sfugge ai principianti.",
-            "fact": "Le dallah sono tradizionalmente forgiate a mano in ottone o rame, un'arte tramandata di generazione in generazione all'interno delle famiglie. Una dallah ben fatta può durare decenni con una lucidatura regolare."
+            "q": "Quanti punti ha il puzzle \"unisci i puntini\" della caffettiera Dallah?",
+            "a": "Il disegno a puntini \"Dallah Coffee Pot\" ha 63 punti numerati. Questo lo rende un puzzle di difficoltà medio-facile, ideale per bambini dai 5 agli 8 anni (dalla scuola dell'infanzia alla seconda elementare). I bambini uniscono i puntini in ordine numerico per rivelare l'immagine completa della caffettiera Dallah, che poi possono colorare."
           },
           {
-            "range": "14–26",
-            "title": "Il coperchio a cupola",
-            "learn": "Proseguite dal punto 14 al punto 26 per dare forma al coperchio arrotondato in alto, spesso rifinito con un piccolo pomello appuntito. Questa sezione è composta principalmente da curve morbide, quindi è un buon esercizio per i bambini che stanno ancora acquisendo sicurezza con le linee arrotondate.",
-            "fact": "Alcune dallah presentano un ornamento decorativo a forma di mezzaluna o di uccello sul coperchio al posto del semplice pomello: un piccolo dettaglio che varia molto da regione a regione e da produttore a produttore."
+            "q": "Il disegno a puntini della caffettiera Dallah è stampabile gratuitamente?",
+            "a": "Sì. Il foglio di lavoro \"Dallah Coffee Pot\" è scaricabile gratuitamente al 100% da DotToDotFreePrintables.com: non è richiesto alcun account, indirizzo email o pagamento. Il download è immediato in formato PDF pronto per la stampa, sia in orientamento verticale che orizzontale, e dimensionato per carta US Letter o A4."
           },
           {
-            "range": "27–39",
-            "title": "Il lungo beccuccio versatore",
-            "learn": "Ricalca i punti dal 27 al 39 per disegnare il lungo e stretto beccuccio che conferisce alla dallah la sua silhouette caratteristica. Questa è la parte più difficile del disegno: il beccuccio si restringe verso l'esterno, quindi incoraggia i bambini a disegnarlo con un unico tratto fermo e senza fretta, piuttosto che con diversi tratti brevi.",
-            "fact": "La lunghezza del beccuccio non è solo decorativa. Permette a chi ospita di versare il caffè da una piccola altezza senza rovesciarlo, il che fa parte dell'arte dell'ospitalità: versare il caffè avviene sotto gli occhi degli ospiti, non in un'altra stanza."
+            "q": "Per quale fascia d'età è più adatto il foglio di lavoro \"unisci i puntini\" con la caffettiera Dallah?",
+            "a": "Con 63 punti, il puzzle Dallah Coffee Pot è ideale per bambini dai 5 agli 8 anni (dalla scuola dell'infanzia alla seconda elementare). I più piccoli possono divertirsi con un piccolo aiuto da parte di un adulto che conta insieme, mentre i bambini più abili nel contare possono completarlo in autonomia ed esercitarsi con le sequenze numeriche fino a 63."
           },
           {
-            "range": "40–52",
-            "title": "Il corpo largo",
-            "learn": "Collega i punti da 40 a 52 per completare il corpo principale arrotondato della caffettiera, dove avverrebbe l'infusione del caffè. Questa è la sezione più lunga, quindi vale la pena fermarsi a metà per ricontrollare e assicurarsi di non aver saltato nulla.",
-            "fact": "Il caffè arabo servito nella dallah, nota come gahwa, viene tipicamente preparato con chicchi leggermente tostati e cardamomo, anziché con le tostature più scure comuni altrove; ecco perché ha un aspetto e un sapore notevolmente diversi dall'espresso o dal caffè filtro."
+            "q": "Quali abilità insegna il puzzle \"unisci i puntini\" della caffettiera Dallah?",
+            "a": "Unire i 63 punti del puzzle della caffettiera Dallah sviluppa il riconoscimento dei numeri e la capacità di contare fino a 63, il controllo della matita, la coordinazione occhio-mano e la concentrazione prolungata: le stesse basi motorie fini che supportano la scrittura a mano nei primi anni di vita. Colorare il disegno completato aggiunge una gratificazione creativa."
           },
           {
-            "range": "53–63",
-            "title": "La base e il supporto",
-            "learn": "Termina collegando i punti dal 53 al 63 per disegnare la solida base su cui poggia il vaso. Mancano undici punti: una buona e solida finitura in questo punto darà solidità all'intero disegno.",
-            "fact": "Nel 2015, l'UNESCO ha aggiunto il caffè arabo alla sua lista del Patrimonio Culturale Immateriale, riconoscendolo come simbolo di generosità condivisa tra Emirati Arabi Uniti, Arabia Saudita, Oman e Qatar. Per maggiori informazioni, consulta la <a href=\"https://ich.unesco.org/en/RL/arabic-coffee-a-symbol-of-generosity-02111\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">pagina del caffè arabo sul sito dell'UNESCO</a>."
+            "q": "Qual è una curiosità sulla caffettiera Dallah?",
+            "a": "La dallah è un simbolo di ospitalità così noto da comparire sulla moneta da un dirham degli Emirati Arabi Uniti. I bambini scoprono curiosità come questa completando il puzzle \"Unisci i puntini\" della caffettiera Dallah."
           }
         ],
-        "outro": "Ottimo lavoro! Il tuo dallah è pronto per essere servito! Coloralo con calde tonalità rame o ottone per un look tradizionale, oppure osa con oro e verde intenso. Se al tuo bambino è piaciuto scoprire da dove proviene questo puzzle, potrebbe anche apprezzare i nostri altri <a href=\"/playgrounds/\">esercizi unisci i puntini</a> per esercitarsi ulteriormente.",
-        "color_schemes": []
+        "dot_guide": {
+          "intro": "Chiedete a chiunque nel Golfo cosa un buon padrone di casa offra a un ospite, e la risposta più frequente sarà il caffè. La dallah è la caffettiera che lo rende possibile: alta, curva, con un lungo beccuccio pensato per versare lentamente e con cura. La si trova ai matrimoni, nei salotti dei majlis e fuori dai tendoni durante le feste, di solito accanto a una pila di piccole tazze senza manico e a un piatto di datteri. Questo puzzle da 63 punti ne ripercorre la forma inconfondibile. Trovate il punto 1 e versiamone un po'.",
+          "sections": [
+            {
+              "range": "1–13",
+              "title": "La maniglia curva",
+              "learn": "Inizia dal punto 1 e collega il tratto al punto 13 per disegnare il manico ad anello sul retro del vaso. La curva è più stretta di quanto sembri, quindi procedi con calma: la fretta è il punto in cui la forma solitamente sfugge ai principianti.",
+              "fact": "Le dallah sono tradizionalmente forgiate a mano in ottone o rame, un'arte tramandata di generazione in generazione all'interno delle famiglie. Una dallah ben fatta può durare decenni con una lucidatura regolare."
+            },
+            {
+              "range": "14–26",
+              "title": "Il coperchio a cupola",
+              "learn": "Proseguite dal punto 14 al punto 26 per dare forma al coperchio arrotondato in alto, spesso rifinito con un piccolo pomello appuntito. Questa sezione è composta principalmente da curve morbide, quindi è un buon esercizio per i bambini che stanno ancora acquisendo sicurezza con le linee arrotondate.",
+              "fact": "Alcune dallah presentano un ornamento decorativo a forma di mezzaluna o di uccello sul coperchio al posto del semplice pomello: un piccolo dettaglio che varia molto da regione a regione e da produttore a produttore."
+            },
+            {
+              "range": "27–39",
+              "title": "Il lungo beccuccio versatore",
+              "learn": "Ricalca i punti dal 27 al 39 per disegnare il lungo e stretto beccuccio che conferisce alla dallah la sua silhouette caratteristica. Questa è la parte più difficile del disegno: il beccuccio si restringe verso l'esterno, quindi incoraggia i bambini a disegnarlo con un unico tratto fermo e senza fretta, piuttosto che con diversi tratti brevi.",
+              "fact": "La lunghezza del beccuccio non è solo decorativa. Permette a chi ospita di versare il caffè da una piccola altezza senza rovesciarlo, il che fa parte dell'arte dell'ospitalità: versare il caffè avviene sotto gli occhi degli ospiti, non in un'altra stanza."
+            },
+            {
+              "range": "40–52",
+              "title": "Il corpo largo",
+              "learn": "Collega i punti da 40 a 52 per completare il corpo principale arrotondato della caffettiera, dove avverrebbe l'infusione del caffè. Questa è la sezione più lunga, quindi vale la pena fermarsi a metà per ricontrollare e assicurarsi di non aver saltato nulla.",
+              "fact": "Il caffè arabo servito nella dallah, nota come gahwa, viene tipicamente preparato con chicchi leggermente tostati e cardamomo, anziché con le tostature più scure comuni altrove; ecco perché ha un aspetto e un sapore notevolmente diversi dall'espresso o dal caffè filtro."
+            },
+            {
+              "range": "53–63",
+              "title": "La base e il supporto",
+              "learn": "Termina collegando i punti dal 53 al 63 per disegnare la solida base su cui poggia il vaso. Mancano undici punti: una buona e solida finitura in questo punto darà solidità all'intero disegno.",
+              "fact": "Nel 2015, l'UNESCO ha aggiunto il caffè arabo alla sua lista del Patrimonio Culturale Immateriale, riconoscendolo come simbolo di generosità condivisa tra Emirati Arabi Uniti, Arabia Saudita, Oman e Qatar. Per maggiori informazioni, consulta la <a href=\"https://ich.unesco.org/en/RL/arabic-coffee-a-symbol-of-generosity-02111\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">pagina del caffè arabo sul sito dell'UNESCO</a>."
+            }
+          ],
+          "outro": "Ottimo lavoro! Il tuo dallah è pronto per essere servito! Coloralo con calde tonalità rame o ottone per un look tradizionale, oppure osa con oro e verde intenso. Se al tuo bambino è piaciuto scoprire da dove proviene questo puzzle, potrebbe anche apprezzare i nostri altri <a href=\"/playgrounds/\">esercizi unisci i puntini</a> per esercitarsi ulteriormente.",
+          "color_schemes": []
+        }
       }
-    }
-  },
-  {
-    "slug": "uae-camel-dot-to-dot-puzzle",
-    "header": {
-      "title": "Cammello degli Emirati da Unire i Puntini — Sfida nel Deserto, 105 Punti",
-      "meta_description": "La gobba di un cammello immagazzina grasso, non acqua. I contatori pazienti di età 6-10 possono rivelare questo icona del deserto attraverso 105 punti in un PDF stampabile gratuito.",
-      "og": {
+    },
+    {
+      "slug": "uae-camel-dot-to-dot-puzzle",
+      "header": {
         "title": "Cammello degli Emirati da Unire i Puntini — Sfida nel Deserto, 105 Punti",
-        "description": "La gobba di un cammello immagazzina grasso, non acqua. I contatori pazienti di età 6-10 possono rivelare questo icona del deserto attraverso 105 punti in un PDF stampabile gratuito.",
-        "image_alt": "Cammello del deserto che avanza sulla sabbia, il cui contorno è tracciato da 105 punti stampabili"
+        "meta_description": "La gobba di un cammello immagazzina grasso, non acqua. I contatori pazienti di età 6-10 possono rivelare questo icona del deserto attraverso 105 punti in un PDF stampabile gratuito.",
+        "og": {
+          "title": "Cammello degli Emirati da Unire i Puntini — Sfida nel Deserto, 105 Punti",
+          "description": "La gobba di un cammello immagazzina grasso, non acqua. I contatori pazienti di età 6-10 possono rivelare questo icona del deserto attraverso 105 punti in un PDF stampabile gratuito.",
+          "image_alt": "Cammello del deserto che avanza sulla sabbia, il cui contorno è tracciato da 105 punti stampabili"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Cammello degli Emirati Arabi Uniti",
+          "description": "La gobba di un cammello immagazzina grasso, non acqua. I contatori pazienti di età 6-10 possono rivelare questo icona del deserto attraverso 105 punti in un PDF stampabile gratuito.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
       },
-      "json_ld": {
-        "type": "CreativeWork",
+      "body": {
+        "h1": "UAE Camel Dot to Dot — PDF della sfida nel deserto con 105 punti",
         "name": "Cammello degli Emirati Arabi Uniti",
-        "description": "La gobba di un cammello immagazzina grasso, non acqua. I contatori pazienti di età 6-10 possono rivelare questo icona del deserto attraverso 105 punti in un PDF stampabile gratuito.",
-        "image": "",
-        "educational_use": "Fine motor skills, number sequencing",
-        "age_range": ""
-      }
-    },
-    "body": {
-      "h1": "UAE Camel Dot to Dot — PDF della sfida nel deserto con 105 punti",
-      "name": "Cammello degli Emirati Arabi Uniti",
-      "tagline": "Nave del deserto",
-      "description": "Collega 105 punti per rivelare un cammello che avanza sulla sabbia, uno dei simboli più duraturi della vita negli Emirati Arabi Uniti e nella più ampia Penisola Arabica. Con più punti rispetto ai nostri altri puzzle degli Emirati, questo è un passo avanti nella sfida — ottimo per i bambini pronti a superare i fogli più facili mentre imparano qualcosa di reale sulla vita nel deserto.",
-      "fun_fact": "La gobba di un cammello non immagazzina affatto acqua — immagazzina grasso, che il corpo del cammello può convertire sia in energia che in acqua quando il cibo è scarso.",
-      "dot_guide": {
-        "intro": "Per migliaia di anni, il cammello ha reso possibile la vita nel deserto, trasportando merci attraverso dune inaccessibili ai carri a ruote, fornendo latte, lana e mezzi di trasporto alle comunità beduine molto prima che strade e aria condizionata cambiassero tutto. Ancora oggi i cammelli vengono allevati e utilizzati nelle corse negli Emirati Arabi Uniti, e il latte di cammello si trova in molti prodotti, dai caffè latte alle barrette di cioccolato. Questo puzzle da 105 punti è più lungo della maggior parte degli altri nostri fogli, quindi è un ottimo passo successivo per un bambino che ha già affrontato alcuni puzzle più semplici. Trova il punto 1 e completalo una gobba alla volta.",
-        "sections": [
+        "tagline": "Nave del deserto",
+        "description": "Collega 105 punti per rivelare un cammello che avanza sulla sabbia, uno dei simboli più duraturi della vita negli Emirati Arabi Uniti e nella più ampia Penisola Arabica. Con più punti rispetto ai nostri altri puzzle degli Emirati, questo è un passo avanti nella sfida — ottimo per i bambini pronti a superare i fogli più facili mentre imparano qualcosa di reale sulla vita nel deserto.",
+        "fun_fact": "La gobba di un cammello non immagazzina affatto acqua — immagazzina grasso, che il corpo del cammello può convertire sia in energia che in acqua quando il cibo è scarso.",
+        "faqs": [
           {
-            "range": "1–21",
-            "title": "La testa e il collo",
-            "learn": "Iniziate dal punto 1 e proseguite fino al punto 21 per disegnare il collo lungo e sinuoso e la testa attenta. I cammelli tengono il collo a forma di S, quindi incoraggiate i bambini a far salire e scendere la linea in modo naturale, senza forzarla a diventare dritta. Si tratta di un esercizio impegnativo per iniziare, quindi una breve pausa dopo è d'obbligo.",
-            "fact": "I cammelli hanno tre palpebre e due file di lunghe ciglia, che lavorano insieme per impedire alla sabbia di entrare nei loro occhi durante una tempesta. Possono anche chiudere completamente le narici, una caratteristica che nessun altro animale da soma possiede."
+            "q": "Quanti punti ha il puzzle \"unisci i puntini\" del cammello degli Emirati Arabi Uniti?",
+            "a": "Il disegno da unire i puntini del cammello degli Emirati Arabi Uniti ha 105 punti numerati. Questo lo rende un puzzle impegnativo, più adatto a bambini dai 7 ai 12 anni (dalla seconda elementare in su). I bambini uniscono i puntini in ordine numerico per rivelare l'immagine completa del cammello degli Emirati Arabi Uniti, che poi possono colorare."
           },
           {
-            "range": "22–42",
-            "title": "La prima gobba",
-            "learn": "Proseguite dal punto 22 al punto 42 per dare forma alla prima gobba, alta e arrotondata. È una curva piacevole da disegnare: cercate di usare un unico tratto fluido piuttosto che tanti piccoli tratti, poiché le linee spezzate tendono ad appiattire la forma della gobba.",
-            "fact": "Il dromedario, o cammello a una gobba, è la specie diffusa negli Emirati Arabi Uniti e nella più ampia penisola arabica. Il cammello battriano a due gobbe è una specie diversa, originaria dell'Asia centrale anziché del Golfo Persico. Per saperne di più, consulta la <a href=\"https://en.wikipedia.org/wiki/Dromedary\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">voce di Wikipedia sul dromedario</a>."
+            "q": "Il disegno da stampare unendo i puntini del cammello degli Emirati Arabi Uniti è gratuito?",
+            "a": "Sì. Il foglio di lavoro sui cammelli degli Emirati Arabi Uniti è scaricabile gratuitamente al 100% da DotToDotFreePrintables.com: non è richiesto alcun account, indirizzo email o pagamento. Il download è immediato in formato PDF pronto per la stampa, sia in orientamento verticale che orizzontale, e dimensionato per carta US Letter o A4."
           },
           {
-            "range": "43–63",
-            "title": "La linea posteriore",
-            "learn": "Traccia i punti dal 43 al 63 per completare la linea dorsale, inclusa la depressione dopo la gobba. È fondamentale che la depressione sia ben realizzata, né troppo profonda né troppo piatta, per dare alla silhouette la forma di un cammello e non una semplice linea irregolare. Procedi con calma in questa fase.",
-            "fact": "Un cammello adulto può bere circa 40 galloni d'acqua in pochi minuti una volta raggiunta una fonte d'acqua, reintegrando in una sola volta ciò che ha perso durante giorni di viaggio."
+            "q": "Per quale fascia d'età è più adatto il foglio di lavoro \"unisci i puntini\" con i cammelli degli Emirati Arabi Uniti?",
+            "a": "Con 105 punti, il puzzle UAE Camel è ideale per bambini dai 7 ai 12 anni (dalla seconda elementare in su). I più piccoli possono divertirsi con un piccolo aiuto da parte di un adulto che li accompagni nel conteggio, mentre i bambini più abili nel contare possono completarlo in autonomia ed esercitarsi con le sequenze numeriche fino a 105."
           },
           {
-            "range": "64–84",
-            "title": "Le gambe",
-            "learn": "Collega i punti da 64 a 84 per disegnare le quattro gambe lunghe e robuste. Questa sezione presenta più cambi di direzione rispetto alle precedenti, quindi è un buon punto per rallentare e ricontrollare il numero di ogni punto prima di disegnare la linea successiva.",
-            "fact": "I cammelli camminano muovendo entrambe le zampe dello stesso lato del corpo contemporaneamente, un'andatura chiamata passo. Questo conferisce loro un caratteristico movimento oscillatorio, che è uno dei motivi per cui uno dei primi soprannomi del cammello era \"nave del deserto\". Le corse di cammelli rimangono uno sport importante negli Emirati Arabi Uniti: per saperne di più, consulta la <a href=\"https://en.wikipedia.org/wiki/Camel_racing\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">voce di Wikipedia sulle corse di cammelli</a>."
+            "q": "Quali abilità insegna il puzzle \"unisci i puntini\" del cammello degli Emirati Arabi Uniti?",
+            "a": "Unire i 105 punti del puzzle del cammello degli Emirati Arabi Uniti sviluppa il riconoscimento dei numeri e la capacità di contare fino a 105, il controllo della matita, la coordinazione occhio-mano e la concentrazione prolungata: le stesse basi motorie fini che supportano la scrittura a mano nei primi anni di vita. Colorare il disegno completato aggiunge una gratificazione creativa."
           },
           {
-            "range": "85–105",
-            "title": "Piedi e coda",
-            "learn": "Completa il puzzle collegando i punti da 85 a 105 per aggiungere le zampe larghe e la coda. Mancano ventuno punti: una buona finitura qui darà solidità all'intero disegno, quindi mantieni una mano ferma fino all'ultimo punto.",
-            "fact": "Quando un cammello appoggia un piede a terra, le sue zampe si allargano distribuendo il peso in modo da non affondare nella sabbia soffice, proprio come fanno le racchette da neve sulla neve. Questa è una delle caratteristiche che rendono il cammello così adatto agli spostamenti nel deserto."
+            "q": "Qual è una curiosità interessante sui cammelli degli Emirati Arabi Uniti?",
+            "a": "La gobba del cammello non immagazzina acqua, bensì grasso, che il corpo dell'animale può convertire in energia e acqua quando il cibo scarseggia. I bambini scoprono curiosità come questa completando il puzzle a puntini \"Cammello degli Emirati Arabi Uniti\"."
           }
         ],
-        "outro": "Lavoro fantastico: il tuo cammello è pronto ad attraversare le dune! Prova calde tonalità di marrone sabbia e beige per un aspetto realistico, oppure divertiti con colori audaci e inaspettati. Pronto per una sfida diversa? Esplora altri <a href=\"/dinosaurs/\">disegni da unire ai puntini da 1 a 100</a> su altri temi.",
-        "color_schemes": []
+        "dot_guide": {
+          "intro": "Per migliaia di anni, il cammello ha reso possibile la vita nel deserto, trasportando merci attraverso dune inaccessibili ai carri a ruote, fornendo latte, lana e mezzi di trasporto alle comunità beduine molto prima che strade e aria condizionata cambiassero tutto. Ancora oggi i cammelli vengono allevati e utilizzati nelle corse negli Emirati Arabi Uniti, e il latte di cammello si trova in molti prodotti, dai caffè latte alle barrette di cioccolato. Questo puzzle da 105 punti è più lungo della maggior parte degli altri nostri fogli, quindi è un ottimo passo successivo per un bambino che ha già affrontato alcuni puzzle più semplici. Trova il punto 1 e completalo una gobba alla volta.",
+          "sections": [
+            {
+              "range": "1–21",
+              "title": "La testa e il collo",
+              "learn": "Iniziate dal punto 1 e proseguite fino al punto 21 per disegnare il collo lungo e sinuoso e la testa attenta. I cammelli tengono il collo a forma di S, quindi incoraggiate i bambini a far salire e scendere la linea in modo naturale, senza forzarla a diventare dritta. Si tratta di un esercizio impegnativo per iniziare, quindi una breve pausa dopo è d'obbligo.",
+              "fact": "I cammelli hanno tre palpebre e due file di lunghe ciglia, che lavorano insieme per impedire alla sabbia di entrare nei loro occhi durante una tempesta. Possono anche chiudere completamente le narici, una caratteristica che nessun altro animale da soma possiede."
+            },
+            {
+              "range": "22–42",
+              "title": "La prima gobba",
+              "learn": "Proseguite dal punto 22 al punto 42 per dare forma alla prima gobba, alta e arrotondata. È una curva piacevole da disegnare: cercate di usare un unico tratto fluido piuttosto che tanti piccoli tratti, poiché le linee spezzate tendono ad appiattire la forma della gobba.",
+              "fact": "Il dromedario, o cammello a una gobba, è la specie diffusa negli Emirati Arabi Uniti e nella più ampia penisola arabica. Il cammello battriano a due gobbe è una specie diversa, originaria dell'Asia centrale anziché del Golfo Persico. Per saperne di più, consulta la <a href=\"https://en.wikipedia.org/wiki/Dromedary\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">voce di Wikipedia sul dromedario</a>."
+            },
+            {
+              "range": "43–63",
+              "title": "La linea posteriore",
+              "learn": "Traccia i punti dal 43 al 63 per completare la linea dorsale, inclusa la depressione dopo la gobba. È fondamentale che la depressione sia ben realizzata, né troppo profonda né troppo piatta, per dare alla silhouette la forma di un cammello e non una semplice linea irregolare. Procedi con calma in questa fase.",
+              "fact": "Un cammello adulto può bere circa 40 galloni d'acqua in pochi minuti una volta raggiunta una fonte d'acqua, reintegrando in una sola volta ciò che ha perso durante giorni di viaggio."
+            },
+            {
+              "range": "64–84",
+              "title": "Le gambe",
+              "learn": "Collega i punti da 64 a 84 per disegnare le quattro gambe lunghe e robuste. Questa sezione presenta più cambi di direzione rispetto alle precedenti, quindi è un buon punto per rallentare e ricontrollare il numero di ogni punto prima di disegnare la linea successiva.",
+              "fact": "I cammelli camminano muovendo entrambe le zampe dello stesso lato del corpo contemporaneamente, un'andatura chiamata passo. Questo conferisce loro un caratteristico movimento oscillatorio, che è uno dei motivi per cui uno dei primi soprannomi del cammello era \"nave del deserto\". Le corse di cammelli rimangono uno sport importante negli Emirati Arabi Uniti: per saperne di più, consulta la <a href=\"https://en.wikipedia.org/wiki/Camel_racing\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">voce di Wikipedia sulle corse di cammelli</a>."
+            },
+            {
+              "range": "85–105",
+              "title": "Piedi e coda",
+              "learn": "Completa il puzzle collegando i punti da 85 a 105 per aggiungere le zampe larghe e la coda. Mancano ventuno punti: una buona finitura qui darà solidità all'intero disegno, quindi mantieni una mano ferma fino all'ultimo punto.",
+              "fact": "Quando un cammello appoggia un piede a terra, le sue zampe si allargano distribuendo il peso in modo da non affondare nella sabbia soffice, proprio come fanno le racchette da neve sulla neve. Questa è una delle caratteristiche che rendono il cammello così adatto agli spostamenti nel deserto."
+            }
+          ],
+          "outro": "Lavoro fantastico: il tuo cammello è pronto ad attraversare le dune! Prova calde tonalità di marrone sabbia e beige per un aspetto realistico, oppure divertiti con colori audaci e inaspettati. Pronto per una sfida diversa? Esplora altri <a href=\"/dinosaurs/\">disegni da unire ai puntini da 1 a 100</a> su altri temi.",
+          "color_schemes": []
+        }
       }
     }
-  }
-]
+  ]
+}

@@ -1,237 +1,500 @@
-[
-  {
-    "slug": "burj-al-arab-dot-to-dot-puzzle",
-    "name": "Boerj Al Arab",
-    "seoH1": "Burj Al Arab Punt tot Punt — Dubai's Icoon in 66 Punten",
-    "tagline": "Het zeilvormige icoon van Dubai",
-    "description": "Verbind 66 punten om de Burj Al Arab te onthullen, het iconische zeilvormige hotel dat oprijst vanuit zijn eigen eiland voor de kust van Dubai. Deze gemakkelijke puzzel is perfect voor jonge leerlingen die getalvolgorde oefenen terwijl ze een van de beroemdste skylines ter wereld ontdekken.",
-    "seoDescription": "Dubai's zeilvormige Burj Al Arab rijst op vanuit zijn eigen eiland. Volg het herkenningspunt door 66 punten in deze gratis afdrukbare PDF voor kinderen van 6-10 jaar.",
-    "funFact": "De Burj Al Arab staat op een kunstmatig eiland en is een van de hoogste hotels ter wereld!",
-    "seoImageAlt": "Zeilvormig Burj Al Arab-hotel dat oprijst uit 66 stippen op een landmark-puzzelpagina",
-    "dotGuide": {
-      "intro": "De Burj Al Arab is een van de meest herkenbare gebouwen ter wereld: een glanzende, zeilvormige toren die oprijst uit een kunstmatig eiland in de Arabische Golf. Het gebouw, ontworpen om te lijken op het wapperende zeil van een traditionele dhow, is uitgegroeid tot een symbool van het moderne Dubai en de Verenigde Arabische Emiraten. Deze puzzel van 66 stippen volgt het dramatische, gebogen silhouet. Vind stip 1 en laten we samen deze beroemde skyline in elkaar zetten!",
-      "sections": [
-        {
-          "range": "1–13",
-          "title": "De mast en de top",
-          "learn": "Begin bij punt 1 en teken door tot punt 13 om de hoge, gebogen mast bovenaan het gebouw te tekenen. Dit smalle gedeelte bevordert direct een stabiele potloodbeheersing – een goede opwarming voor de bredere vormen hieronder. Moedig kinderen aan om hun lijnen vloeiend en licht gebogen te houden, net als bij een echt zeil.",
-          "fact": "De Burj Al Arab is ongeveer 321 meter hoog, waarmee het een van de hoogste hotelgebouwen ter wereld is. De opvallende mast op de top heeft zelfs een helikopterplatform, waar tenniswedstrijden en golfdemonstraties hoog boven de zee zijn gehouden! Lees meer op <a href=\"https://en.wikipedia.org/wiki/Burj_Al_Arab\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Wikipedia's artikel over de Burj Al Arab</a>."
-        },
-        {
-          "range": "14–26",
-          "title": "Het gebogen zeil",
-          "learn": "Ga verder van punt 14 naar punt 26 om de beroemde gebogen voorgevel van het gebouw te tekenen – het gedeelte dat eruitziet als een zeil vol wind. Kinderen oefenen hier een lange, sierlijke naar buiten gerichte curve, een van de meest bevredigende vormen in de hele puzzel. Een langzame, vaste hand zorgt voor de mooiste vloeiende lijn.",
-          "fact": "Het gebouw is ontworpen door architect Tom Wright, die een even iconische structuur wilde creëren als het Sydney Opera House of de Eiffeltoren. De zeilvorm is geïnspireerd op de traditionele Arabische dhow-zeilschepen die al eeuwenlang over de Perzische Golf varen."
-        },
-        {
-          "range": "27–39",
-          "title": "Het rugsteunframe",
-          "learn": "Teken de lijnen 27 tot en met 39 om de hoge, verticale steunconstructie te tekenen die het gebouw aan de achterkant verstevigt. In dit onderdeel worden rechte lijnen afgewisseld met zachte hoeken, waardoor kinderen oefenen met het afwisselen van gebogen en rechte lijnen in dezelfde puzzel.",
-          "fact": "De Burj Al Arab is niet het hoogste gebouw van Dubai – die titel behoort toe aan de Burj Khalifa, die ruim twee keer zo hoog is! Maar de Burj Al Arab blijft dankzij zijn unieke vorm een ​​van de meest gefotografeerde gebouwen ter wereld."
-        },
-        {
-          "range": "40–52",
-          "title": "Het hoofdgedeelte van de toren",
-          "learn": "Verbind de stippen 40 tot en met 52 om het brede hoofdgedeelte van de hoteltoren te vullen. Dit is het grootste deel van de puzzel, waardoor kinderen hun concentratie en geduld kunnen ontwikkelen terwijl het herkenbare silhouet echt vorm begint te krijgen.",
-          "fact": "Binnenin staat de Burj Al Arab bekend om zijn enorme atrium – hoog genoeg voor een open ruimte van 180 meter, een van de hoogste atriums ter wereld. De fonteinen in de lobby zijn zo gechoreografeerd dat ze op de maat van de muziek dansen."
-        },
-        {
-          "range": "53–66",
-          "title": "De eilandbasis",
-          "learn": "Maak de puzzel af door de stippen 53 tot en met 66 met elkaar te verbinden om de basis van het gebouw en het kunstmatige eiland waarop het staat te tekenen. Nog maar veertien stippen te gaan – moedig kinderen aan om de omtrek met zelfverzekerde, nette lijnen af ​​te maken.",
-          "fact": "Het hotel staat op een eigen privé-eiland, verbonden met het vasteland door een gebogen brug. Ingenieurs moesten eerst het eiland aanleggen met zand en rotsen, voordat de bouw van de toren zelf kon beginnen – het hele project vergde jarenlange zorgvuldige planning."
+{
+  "collection": {
+    "header": {
+      "title": "Gratis VAE-punt-tot-punt puzzels voor kinderen",
+      "meta_description": "Ontdek bezienswaardigheden en cultuur van de Verenigde Arabische Emiraten met gratis werkbladen om de punten te verbinden en te printen.",
+      "og": {
+        "title": "Gratis VAE punt-tot-punt puzzels",
+        "description": "Gratis printbare punt-tot-punt werkbladen uit de Emiraten.",
+        "image": "/images/burj-al-arab-puzzle.webp"
+      },
+      "json_ld": {
+        "type": "CollectionPage",
+        "name": "VAE",
+        "description": "Ontdek de Verenigde Arabische Emiraten! Verbind de stippen om de Burj Al Arab en andere iconische bezienswaardigheden van de Emiraten te onthullen. Alle werkbladen zijn gratis te downloaden en te printen — een account is niet nodig.",
+        "image": "/images/burj-al-arab-puzzle.webp",
+        "main_entity": {
+          "type": "ItemList",
+          "item_source": "puzzles"
         }
-      ],
-      "outro": "Geweldig — je Burj Al Arab is klaar! Geef het nu een glinsterend goud-, blauw- of zonsondergangkleurenschema dat past bij de spectaculaire lichtshows van het echte hotel. Klaar voor een ander beroemd monument? Bekijk meer <a href=\"/\">gratis punt-naar-punt printables</a> om de wereld verder te ontdekken."
+      },
+      "breadcrumb_json_ld": {
+        "type": "BreadcrumbList",
+        "items": [
+          {
+            "position": 1,
+            "name": "Home",
+            "path": "/"
+          },
+          {
+            "position": 2,
+            "name": "VAE",
+            "path": "/uae/"
+          }
+        ]
+      }
     },
-    "seoTitle": "Burj Al Arab Punt tot Punt — Dubai's Icoon in 66 Punten"
+    "body": {
+      "h1": "Printbare punt-na-punt tekeningen voor kinderen uit de VAE",
+      "name": "VAE",
+      "tagline": "Waarom kinderen dol zijn op punt-tot-punt-puzzels uit de VAE",
+      "description": "Ontdek de Verenigde Arabische Emiraten! Verbind de stippen om de Burj Al Arab en andere iconische bezienswaardigheden van de Emiraten te onthullen. Alle werkbladen zijn gratis te downloaden en te printen — een account is niet nodig.",
+      "hero_image": "/images/burj-al-arab-puzzle.webp",
+      "slug": "uae",
+      "faqs": [
+        {
+          "q": "Hoeveel gratis punt-na-punt-tekeningen van bezienswaardigheden en cultuur in de VAE zijn er beschikbaar?",
+          "a": "De categorie Bezienswaardigheden en Cultuur van de VAE biedt momenteel 5 gratis 'verbind de stippen'-werkbladen aan, variërend van 60 tot 105 stippen. Elk werkblad kan direct als printklaar PDF-bestand (A4-formaat, staand of liggend) worden gedownload, zonder dat registratie vereist is."
+        },
+        {
+          "q": "Zijn de punt-tot-punt puzzels over bezienswaardigheden en cultuur van de VAE gratis te printen?",
+          "a": "Ja, alle 5 puzzels in de collectie 'Bezienswaardigheden en cultuur van de VAE' zijn volledig gratis te gebruiken thuis en in de klas. Een account, e-mailadres of betaling is nooit vereist op DotToDotFreePrintables.com."
+        },
+        {
+          "q": "Voor welke leeftijden zijn de puzzels over bezienswaardigheden en cultuur in de VAE bedoeld?",
+          "a": "Met een aantal stippen van 60 tot 105 is de UAE Landmarks & Culture-collectie geschikt voor kinderen van ongeveer 4 tot 12 jaar. Kies een lager aantal stippen voor peuters en kleuters, en een hoger aantal voor gevorderde tellertjes in groep 3 t/m 6."
+        },
+        {
+          "q": "Welke punt-tot-punt puzzels met een thema uit de VAE zijn er verkrijgbaar?",
+          "a": "Vijf gratis printbare afbeeldingen van de VAE: Burj Khalifa (60 stippen), Burj Al Arab (66 stippen), VAE Valk (60 stippen), Dallah Koffiepot (63 stippen) en VAE Kameel (105 stippen) — ter ere van Emirati bezienswaardigheden en erfgoed. Een volledige Arabische versie van de afbeeldingen is ook beschikbaar."
+        },
+        {
+          "q": "Zijn deze puzzels uit de VAE geschikt voor activiteiten rondom de Nationale Dag van de VAE?",
+          "a": "Ja. Leerkrachten en ouders in de Emiraten gebruiken deze printbare materialen voor de Nationale Dag van de VAE, erfgoedweken en lessen maatschappijleer. Elke pagina bevat culturele weetjes over het monument of symbool dat de kinderen tekenen."
+        }
+      ]
+    }
   },
-  {
-    "slug": "burj-khalifa-dot-to-dot-puzzle",
-    "name": "Boerj Khalifa",
-    "seoH1": "Burj Khalifa Punt tot Punt: 's Werelds Hoogste, 60 Punten",
-    "tagline": "De hoogste toren ter wereld",
-    "description": "Verbind 60 punten om de Burj Khalifa te onthullen, de recordbrekende wolkenkrabber die boven de stad Dubai uittorent. Deze gemakkelijke puzzel is perfect voor jonge leerlingen die getalvolgorde oefenen terwijl ze het hoogste gebouw op aarde ontdekken.",
-    "seoDescription": "Klim één lijn tegelijk naar het hoogste gebouw ter wereld. Deze 60-punten Burj Khalifa afdrukbare PDF brengt de geografie van Dubai naar kinderen van 5-9 jaar.",
-    "funFact": "De Burj Khalifa is het hoogste gebouw ter wereld, met een hoogte van meer dan 828 meter (2.717 voet)!",
-    "seoImageAlt": "Recordbrekende Burj Khalifa-toren die omhoog rijst via 60 genummerde printbare stippen",
-    "dotGuide": {
-      "intro": "De Burj Khalifa is het hoogste gebouw dat ooit door mensenhanden is gebouwd – een naaldvormige toren die de hemel boven Dubai doorboort. Het gelaagde, spiraalvormige ontwerp is geïnspireerd op een woestijnbloem genaamd Hymenocallis, en het draagt ​​de titel van hoogste gebouw ter wereld sinds de opening in 2010. Deze puzzel van 60 stippen volgt het torenhoge silhouet van de basis tot de spits. Vind stip 1 en laten we de hemel bereiken!",
-      "sections": [
-        {
-          "range": "1–12",
-          "title": "De torenspits",
-          "learn": "Begin bij punt 1 en verbind deze met punt 12 om de dunne, puntige torenspits helemaal bovenaan de toren te tekenen. Dit smalle gedeelte vereist vanaf het begin zorgvuldige, gecontroleerde potloodstreken – een goede opwarming voor de bredere vormen hieronder. Moedig kinderen aan om langzaam te tekenen en de lijnen recht en hoog te houden.",
-          "fact": "De spits alleen al is ongeveer 244 meter hoog – bijna net zo hoog als sommige complete wolkenkrabbers in andere steden! Hij bevat een telecommunicatieantenne en is een van de redenen waarom de Burj Khalifa zoveel hoogterecords in handen heeft. Bekijk alle hoogterecords op <a href=\"https://en.wikipedia.org/wiki/Burj_Khalifa\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Wikipedia's Burj Khalifa-pagina</a>."
+  "puzzles": [
+    {
+      "slug": "burj-al-arab-dot-to-dot-puzzle",
+      "header": {
+        "title": "Burj Al Arab Punt tot Punt — Dubai's Icoon in 66 Punten",
+        "meta_description": "Dubai's zeilvormige Burj Al Arab rijst op vanuit zijn eigen eiland. Volg het herkenningspunt door 66 punten in deze gratis afdrukbare PDF voor kinderen van 6-10 jaar.",
+        "og": {
+          "title": "Burj Al Arab Punt tot Punt — Dubai's Icoon in 66 Punten",
+          "description": "Dubai's zeilvormige Burj Al Arab rijst op vanuit zijn eigen eiland. Volg het herkenningspunt door 66 punten in deze gratis afdrukbare PDF voor kinderen van 6-10 jaar.",
+          "image_alt": "Zeilvormig Burj Al Arab-hotel dat oprijst uit 66 stippen op een landmark-puzzelpagina"
         },
-        {
-          "range": "13–24",
-          "title": "De bovenste verdiepingen",
-          "learn": "Teken vanaf punt 13 tot en met punt 24 de smaller wordende, trapsgewijze gedeelten bovenaan de toren. Kinderen oefenen met het tekenen van een vorm die geleidelijk kleiner wordt naarmate hij hoger wordt. Dit is een fantastische manier om over perspectief te praten en te laten zien hoe gebouwen naar de hemel toe smaller kunnen worden.",
-          "fact": "Het gebouw telt 163 verdiepingen – meer dan welk ander gebouw ter wereld ook op het moment dat het werd voltooid. Het heeft ook 's werelds hoogste observatiedek, genaamd 'At the Top', op de 148e verdieping."
-        },
-        {
-          "range": "25–36",
-          "title": "De middelste spiraal",
-          "learn": "Teken de stippen 25 tot en met 36 om het middelste gedeelte te tekenen, waar het spiraalvormige, trapsgewijze patroon van de toren het best te zien is. Dit gedeelte beloont nauwkeurige aandacht, omdat de terugspringende hoeken en hoeken meerdere keren van richting veranderen. Dit biedt kinderen een goede oefening in het volgen van een complexere vorm.",
-          "fact": "Het ontwerp van de Burj Khalifa is geïnspireerd op de Hymenocallis, een woestijnbloem met lange, slanke bloemblaadjes die vanuit het midden spiraalvormig naar buiten groeien. De architecten gebruikten deze natuurlijke vorm om het gebouw te beschermen tegen de sterke woestijnwinden."
-        },
-        {
-          "range": "37–48",
-          "title": "De lagere toren",
-          "learn": "Verbind de stippen 37 tot en met 48 om het bredere onderste gedeelte van de toren in te vullen. Dit is een van de grotere delen van de puzzel, waardoor kinderen hun concentratie en geduld kunnen ontwikkelen terwijl de volledige hoogte van de toren op de pagina vorm begint te krijgen.",
-          "fact": "Voor de bouw van de Burj Khalifa werd genoeg beton gebruikt om een ​​trottoir van meer dan 48 kilometer aan te leggen, en genoeg wapeningsstaal om, als het achter elkaar gelegd zou worden, meer dan een kwart van de omtrek van de aarde te overbruggen!"
-        },
-        {
-          "range": "49–60",
-          "title": "De basis",
-          "learn": "Maak de puzzel af door de stippen 49 tot en met 60 met elkaar te verbinden om de brede basis van de toren te tekenen waar deze de grond raakt. Nog maar twaalf stippen te gaan – moedig de kinderen aan om de omtrek met sterke, zelfverzekerde lijnen af ​​te maken.",
-          "fact": "De Burj Khalifa staat midden in Downtown Dubai, omgeven door een groot kunstmatig meer met de Dubai Fountain, beroemd om de gechoreografeerde watershows op muziek en lichteffecten die elke avond plaatsvinden."
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Boerj Al Arab",
+          "description": "Dubai's zeilvormige Burj Al Arab rijst op vanuit zijn eigen eiland. Volg het herkenningspunt door 66 punten in deze gratis afdrukbare PDF voor kinderen van 6-10 jaar.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
         }
-      ],
-      "outro": "Geweldig — je Burj Khalifa is klaar! Geef hem nu een glinsterend zilveren, gouden of zonsondergangkleurenschema dat past bij de beroemde lichtshows van de toren 's avonds. Klaar voor een ander beroemd monument? Bekijk meer <a href=\"/\">gratis punt-na-punt-tekeningen</a> om de wereld verder te ontdekken."
-    },
-    "seoTitle": "Burj Khalifa Stippen Verbinden: Hoogste Gebouw ter Wereld, 60 Stippen"
-  },
-  {
-    "slug": "uae-falcon-dot-to-dot-puzzle",
-    "name": "VAE Falcon",
-    "seoH1": "VAE Valk Punt tot Punt Afdrukbaar — 60 Punten in de Lucht",
-    "tagline": "De nationale vogel van de Emiraten",
-    "description": "Verbind 60 punten om een valk in de vlucht te onthullen, met de vleugels naar achteren en de klauwen klaar. De valk is de nationale vogel van de Verenigde Arabische Emiraten en een symbool van het Emirati erfgoed. Deze gemakkelijke puzzel is geweldig voor jonge leerlingen die getalvolgorde oefenen terwijl ze leren over een vogel met een zeer oud verhaal.",
-    "seoDescription": "Sommige VAE valken reizen met hun eigen paspoorten. Onthul dit nationale symbool in de lucht over 60 punten met een gratis PDF voor kinderen van 5-9 jaar.",
-    "funFact": "Valken in de VAE kunnen hun eigen paspoorten dragen — een echt document dat wordt gebruikt wanneer ze met hun eigenaren naar het buitenland reizen!",
-    "seoImageAlt": "Valk in de vlucht, vleugels naar achteren over 60 punten op een gratis werkblad",
-    "dotGuide": {
-      "intro": "Lang voordat er olie of wolkenkrabbers waren, bestond de valkerij. Bedoeïenenstammen in de woestijn vertrouwden op getrainde valken om te jagen, en die band tussen vogel en trainer werd een van de meest gekoesterde tradities in de Emirati-cultuur. Tegenwoordig staat de valk op het wapen van de VAE en is de valkerij zelf beschermd als levend erfgoed. Deze puzzel van 60 stippen toont een valk in volle vlucht. Pak een potlood, zoek stip 1 en laten we deze vogel tot leven brengen.",
-      "sections": [
-        {
-          "range": "1–12",
-          "title": "De kop en de haaksnavel",
-          "learn": "Begin bij punt 1 en werk door tot punt 12 om de scherpe, alerte kop van de valk en zijn kenmerkende haaksnavel te tekenen. Dit is een klein gedeelte, maar het bepaalt het karakter van de hele tekening: het gezicht van een valk moet geconcentreerd, bijna fel, ogen. Houd de lijnen hier kort en precies, in plaats van zwierig.",
-          "fact": "De snavel van een valk heeft een kleine inkeping vlak bij de punt, een zogenaamde 'tomiale tand'. Valken gebruiken deze om snel de ruggengraat van hun prooi door te bijten. Het is een van de kleine anatomische details die valken onderscheiden van haviken en arenden, die hun prooi doden met hun klauwen."
-        },
-        {
-          "range": "13–24",
-          "title": "Het Waakzame Oog en de Kroon",
-          "learn": "Ga verder van punt 13 naar punt 24 om de bovenkant van de kop en het grote, naar voren gerichte oog vorm te geven. Valken hebben een van de scherpste ogen in het dierenrijk, en als je dit gedeelte goed tekent, komt de uitdrukking van de vogel echt tot leven. Moedig kinderen aan om de tijd te nemen voor de ronding van het oog – dit bepaalt voor een groot deel de persoonlijkheid van de tekening.",
-          "fact": "Een valk kan naar verluidt een konijn op een afstand van ongeveer drie kilometer zien. Hun gezichtsvermogen is naar schatting vele malen scherper dan dat van een mens, en dat is precies de reden waarom valkeniers ze trainen om vanaf grote hoogtes en over lange afstanden te jagen."
-        },
-        {
-          "range": "25–36",
-          "title": "De vleugelzwaai",
-          "learn": "Teken de lange, naar achteren gebogen vleugel langs de stippen 25 tot en met 36 – het deel van de puzzel dat deze vogel zijn gevoel van snelheid geeft. Dit is een goede oefening om een ​​vloeiende, doorlopende curve te tekenen in plaats van korte, schokkerige lijnen. Met een vaste hand lijkt het alsof de valk echt door de lucht snijdt.",
-          "fact": "De slechtvalk, een nauwe verwant van de vogels die in de valkerij van de VAE worden getraind, is het snelste dier ter wereld. Hij kan tijdens een jachtduik, een zogenaamde 'stoop', snelheden van meer dan 386 kilometer per uur bereiken."
-        },
-        {
-          "range": "37–48",
-          "title": "Het lichaam en de borst",
-          "learn": "Verbind de stippen 37 tot en met 48 om de borst en het hoofdlichaam van de valk te vullen. Dit is het grootste afzonderlijke gedeelte van de puzzel, en een goed moment om even rustig aan te doen en zorgvuldig te tellen – het is makkelijk om de volgorde uit het oog te verliezen bij zo'n lang stuk.",
-          "fact": "Valkenjacht werd in 2010 gezamenlijk door UNESCO erkend als immaterieel cultureel erfgoed van de mensheid, waarbij de Verenigde Arabische Emiraten tot de oprichtende landen op die lijst behoorden. Het blijft een van de duidelijkste schakels tussen het bedoeïenenverleden van het land en zijn moderne identiteit. Lees meer op de <a href=\"https://ich.unesco.org/en/RL/falconry-a-living-human-heritage-01708\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">UNESCO's lijst met immaterieel cultureel erfgoed voor valkenjacht</a>."
-        },
-        {
-          "range": "49–60",
-          "title": "De staartveren",
-          "learn": "Maak de puzzel af door de stippen 49 tot en met 60 met elkaar te verbinden om de waaiervormige staartveren van de vogel te tekenen. Nog twaalf stippen te gaan — een krachtige, zelfverzekerde afwerking hier completeert het gevoel van beweging waar de hele tekening naartoe heeft gewerkt.",
-          "fact": "In Abu Dhabi bevindt zich 's werelds grootste valkenkliniek, waar jaarlijks duizenden vogels worden behandeld en waar zelfs de valkenpaspoorten worden afgegeven die eigenaren nodig hebben om met hun vogels de grens over te vliegen."
+      },
+      "body": {
+        "h1": "Burj Al Arab Punt tot Punt — Dubai's Icoon in 66 Punten",
+        "name": "Boerj Al Arab",
+        "tagline": "Het zeilvormige icoon van Dubai",
+        "description": "Verbind 66 punten om de Burj Al Arab te onthullen, het iconische zeilvormige hotel dat oprijst vanuit zijn eigen eiland voor de kust van Dubai. Deze gemakkelijke puzzel is perfect voor jonge leerlingen die getalvolgorde oefenen terwijl ze een van de beroemdste skylines ter wereld ontdekken.",
+        "fun_fact": "De Burj Al Arab staat op een kunstmatig eiland en is een van de hoogste hotels ter wereld!",
+        "faqs": [
+          {
+            "q": "Hoeveel stippen heeft de punt-tot-punt puzzel van de Burj Al Arab?",
+            "a": "De Burj Al Arab-puzzel met puntjes verbinden heeft 66 genummerde puntjes. Daardoor is het een makkelijke tot gemiddelde puzzel, het meest geschikt voor kinderen van 5-8 jaar (kleuterschool tot en met groep 3). Kinderen verbinden de puntjes in de juiste volgorde om de complete Burj Al Arab-afbeelding te onthullen en kleuren deze vervolgens in."
+          },
+          {
+            "q": "Is de punt-na-punt-tekening van de Burj Al Arab gratis te printen?",
+            "a": "Ja. Het werkblad over de Burj Al Arab is volledig gratis te downloaden van DotToDotFreePrintables.com — u heeft geen account, e-mailadres of betaling nodig. Het wordt direct gedownload als een printklaar PDF-bestand in zowel portret- als landschapsformaat, geschikt voor US Letter- of A4-papier."
+          },
+          {
+            "q": "Voor welke leeftijd is het 'verbind de punten'-werkblad over de Burj Al Arab het meest geschikt?",
+            "a": "Met 66 stippen is de Burj Al Arab-puzzel het meest geschikt voor kinderen van 5 tot 8 jaar (kleuterschool tot en met groep 3). Jongere kinderen kunnen er plezier aan beleven met een beetje hulp van een volwassene die meetelt, terwijl oudere kinderen die al goed kunnen tellen de puzzel zelfstandig kunnen maken en zo de getallenreeksen tot 66 kunnen oefenen."
+          },
+          {
+            "q": "Welke vaardigheden leer je met de punt-tot-punt-puzzel van de Burj Al Arab?",
+            "a": "Het verbinden van de 66 stippen van de Burj Al Arab-puzzel bevordert getalherkenning en tellen tot 66, potloodbeheersing, hand-oogcoördinatie en concentratievermogen – dezelfde fijne motorische vaardigheden die de basis vormen voor vroeg leren schrijven. Het inkleuren van de voltooide afbeelding biedt een extra creatieve beloning."
+          },
+          {
+            "q": "Wat is een leuk weetje over de Burj al Arab?",
+            "a": "De Burj Al Arab staat op een kunstmatig eiland en is een van de hoogste hotels ter wereld! Kinderen ontdekken dit soort weetjes tijdens het invullen van de punt-na-punt puzzel van de Burj Al Arab."
+          }
+        ],
+        "dot_guide": {
+          "intro": "De Burj Al Arab is een van de meest herkenbare gebouwen ter wereld: een glanzende, zeilvormige toren die oprijst uit een kunstmatig eiland in de Arabische Golf. Het gebouw, ontworpen om te lijken op het wapperende zeil van een traditionele dhow, is uitgegroeid tot een symbool van het moderne Dubai en de Verenigde Arabische Emiraten. Deze puzzel van 66 stippen volgt het dramatische, gebogen silhouet. Vind stip 1 en laten we samen deze beroemde skyline in elkaar zetten!",
+          "sections": [
+            {
+              "range": "1–13",
+              "title": "De mast en de top",
+              "learn": "Begin bij punt 1 en teken door tot punt 13 om de hoge, gebogen mast bovenaan het gebouw te tekenen. Dit smalle gedeelte bevordert direct een stabiele potloodbeheersing – een goede opwarming voor de bredere vormen hieronder. Moedig kinderen aan om hun lijnen vloeiend en licht gebogen te houden, net als bij een echt zeil.",
+              "fact": "De Burj Al Arab is ongeveer 321 meter hoog, waarmee het een van de hoogste hotelgebouwen ter wereld is. De opvallende mast op de top heeft zelfs een helikopterplatform, waar tenniswedstrijden en golfdemonstraties hoog boven de zee zijn gehouden! Lees meer op <a href=\"https://en.wikipedia.org/wiki/Burj_Al_Arab\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Wikipedia's artikel over de Burj Al Arab</a>."
+            },
+            {
+              "range": "14–26",
+              "title": "Het gebogen zeil",
+              "learn": "Ga verder van punt 14 naar punt 26 om de beroemde gebogen voorgevel van het gebouw te tekenen – het gedeelte dat eruitziet als een zeil vol wind. Kinderen oefenen hier een lange, sierlijke naar buiten gerichte curve, een van de meest bevredigende vormen in de hele puzzel. Een langzame, vaste hand zorgt voor de mooiste vloeiende lijn.",
+              "fact": "Het gebouw is ontworpen door architect Tom Wright, die een even iconische structuur wilde creëren als het Sydney Opera House of de Eiffeltoren. De zeilvorm is geïnspireerd op de traditionele Arabische dhow-zeilschepen die al eeuwenlang over de Perzische Golf varen."
+            },
+            {
+              "range": "27–39",
+              "title": "Het rugsteunframe",
+              "learn": "Teken de lijnen 27 tot en met 39 om de hoge, verticale steunconstructie te tekenen die het gebouw aan de achterkant verstevigt. In dit onderdeel worden rechte lijnen afgewisseld met zachte hoeken, waardoor kinderen oefenen met het afwisselen van gebogen en rechte lijnen in dezelfde puzzel.",
+              "fact": "De Burj Al Arab is niet het hoogste gebouw van Dubai – die titel behoort toe aan de Burj Khalifa, die ruim twee keer zo hoog is! Maar de Burj Al Arab blijft dankzij zijn unieke vorm een ​​van de meest gefotografeerde gebouwen ter wereld."
+            },
+            {
+              "range": "40–52",
+              "title": "Het hoofdgedeelte van de toren",
+              "learn": "Verbind de stippen 40 tot en met 52 om het brede hoofdgedeelte van de hoteltoren te vullen. Dit is het grootste deel van de puzzel, waardoor kinderen hun concentratie en geduld kunnen ontwikkelen terwijl het herkenbare silhouet echt vorm begint te krijgen.",
+              "fact": "Binnenin staat de Burj Al Arab bekend om zijn enorme atrium – hoog genoeg voor een open ruimte van 180 meter, een van de hoogste atriums ter wereld. De fonteinen in de lobby zijn zo gechoreografeerd dat ze op de maat van de muziek dansen."
+            },
+            {
+              "range": "53–66",
+              "title": "De eilandbasis",
+              "learn": "Maak de puzzel af door de stippen 53 tot en met 66 met elkaar te verbinden om de basis van het gebouw en het kunstmatige eiland waarop het staat te tekenen. Nog maar veertien stippen te gaan – moedig kinderen aan om de omtrek met zelfverzekerde, nette lijnen af ​​te maken.",
+              "fact": "Het hotel staat op een eigen privé-eiland, verbonden met het vasteland door een gebogen brug. Ingenieurs moesten eerst het eiland aanleggen met zand en rotsen, voordat de bouw van de toren zelf kon beginnen – het hele project vergde jarenlange zorgvuldige planning."
+            }
+          ],
+          "outro": "Geweldig — je Burj Al Arab is klaar! Geef het nu een glinsterend goud-, blauw- of zonsondergangkleurenschema dat past bij de spectaculaire lichtshows van het echte hotel. Klaar voor een ander beroemd monument? Bekijk meer <a href=\"/\">gratis punt-naar-punt printables</a> om de wereld verder te ontdekken.",
+          "color_schemes": []
         }
-      ],
-      "outro": "Goed gedaan! Je valk is klaar om te vliegen! Probeer hem in te kleuren met warme bruine en gouden tinten, net als een echte sakervalk, of geef hem een meer dramatische look met diepe grijzen en zwarten. Benieuwd naar meer bezienswaardigheden en dieren in de wereld? Bekijk meer <a href=\"/\">gratis punt-na-punt tekeningen</a> en ga lekker aan de slag!"
+      }
     },
-    "seoTitle": "Valk Stippen Verbinden — Werkblad met 60 Vliegende Stippen"
-  },
-  {
-    "slug": "dallah-coffee-pot-dot-to-dot-puzzle",
-    "name": "Dallah koffiepot",
-    "seoH1": "Dallah Koffiepot Punt tot Punt, een 63-Punten Gratis Blad",
-    "tagline": "Een symbool van de gastvrijheid van de Emiraten",
-    "description": "Verbind 63 punten om een dallah te onthullen, de langsnuitige koffiepot die in de VAE en de bredere Golf wordt gebruikt om Arabische koffie aan gasten te serveren. Deze gemakkelijke puzzel is leuk voor jonge leerlingen die getalvolgorde oefenen terwijl ze een klein kijkje krijgen in een traditie die vandaag de dag nog steeds zeer levendig is.",
-    "seoDescription": "De dallah op de VAE één-dirham munt vertegenwoordigt gastvrijheid. Verbind zijn langsnuitige vorm over 63 punten in een gratis afdrukbare voor kinderen van 6-10 jaar.",
-    "funFact": "De dallah is zo'n bekend symbool van gastvrijheid dat hij zelfs op de één-dirham munt van de VAE staat afgebeeld.",
-    "seoImageAlt": "Dallah-koffiekan met lange tuit die tevoorschijn komt uit 63 printbare stippen",
-    "dotGuide": {
-      "intro": "Vraag bijna iedereen in de Golfregio wat een goede gastheer zijn gasten biedt, en koffie zal al snel ter sprake komen. De dallah is de pot die dat mogelijk maakt: hoog, gebogen, met een lange tuit, gemaakt voor een langzame, zorgvuldige schenking. Je ziet hem op bruiloften, in de zitkamers van majlis en buiten tenten op festivals, meestal naast een stapel kleine kopjes zonder handvat en een schaal dadels. Deze puzzel van 63 stippen laat de onmiskenbare vorm ervan zien. Vind stip 1 en laten we er eentje inschenken.",
-      "sections": [
-        {
-          "range": "1–13",
-          "title": "De gebogen handgreep",
-          "learn": "Begin bij punt 1 en verbind deze met punt 13 om het lusvormige handvat aan de achterkant van de pot te tekenen. De bocht is scherper dan hij lijkt, dus neem hier de tijd – haasten bij dit onderdeel is vaak de reden waarom beginners de vorm niet goed krijgen.",
-          "fact": "Dallahs worden traditioneel met de hand gesmeed uit messing of koper, een ambacht dat van generatie op generatie wordt doorgegeven. Een goed gemaakte dallah kan met regelmatig poleren tientallen jaren meegaan."
+    {
+      "slug": "burj-khalifa-dot-to-dot-puzzle",
+      "header": {
+        "title": "Burj Khalifa Stippen Verbinden: Hoogste Gebouw ter Wereld, 60 Stippen",
+        "meta_description": "Klim één lijn tegelijk naar het hoogste gebouw ter wereld. Deze 60-punten Burj Khalifa afdrukbare PDF brengt de geografie van Dubai naar kinderen van 5-9 jaar.",
+        "og": {
+          "title": "Burj Khalifa Stippen Verbinden: Hoogste Gebouw ter Wereld, 60 Stippen",
+          "description": "Klim één lijn tegelijk naar het hoogste gebouw ter wereld. Deze 60-punten Burj Khalifa afdrukbare PDF brengt de geografie van Dubai naar kinderen van 5-9 jaar.",
+          "image_alt": "Recordbrekende Burj Khalifa-toren die omhoog rijst via 60 genummerde printbare stippen"
         },
-        {
-          "range": "14–26",
-          "title": "Het bolvormige deksel",
-          "learn": "Ga verder van punt 14 tot punt 26 om de afgeronde bovenkant te vormen, die vaak wordt afgewerkt met een klein puntig knopje. Dit gedeelte bestaat voornamelijk uit zachte rondingen, dus het is een goede oefening voor kinderen die nog moeten wennen aan het tekenen van ronde lijnen.",
-          "fact": "Sommige dallahs hebben een decoratief halvemaan- of vogelvormig ornament op het deksel in plaats van een eenvoudige knop – een klein detail dat sterk varieert van regio tot regio en van maker tot maker."
-        },
-        {
-          "range": "27–39",
-          "title": "De lange schenktuit",
-          "learn": "Trek de stippen 27 tot en met 39 over om de lange, smalle tuit te tekenen die de dallah zijn kenmerkende silhouet geeft. Dit is het lastigste deel van de tekening: de tuit loopt taps toe naar buiten, dus moedig kinderen aan om het in één vloeiende, rustige beweging te tekenen in plaats van in meerdere korte bewegingen.",
-          "fact": "De lengte van de tuit is niet alleen decoratief. Het stelt de gastheer in staat om koffie van een geringe hoogte in te schenken zonder te morsen, wat onderdeel is van de gastvrijheid – het inschenken gebeurt immers in het zicht van de gasten, niet in een andere ruimte."
-        },
-        {
-          "range": "40–52",
-          "title": "De Wide Body",
-          "learn": "Verbind de punten 40 tot en met 52 om het afgeronde hoofdgedeelte van de pot te vullen, waar de koffie zelf zou worden gezet. Dit is het grootste gedeelte, dus het is de moeite waard om halverwege even te pauzeren en te controleren of er niets is overgeslagen.",
-          "fact": "Arabische koffie, geserveerd uit een dallah (ook wel gahwa genoemd), wordt doorgaans gezet met licht gebrande bonen en kardemom in plaats van de donkerder gebrande bonen die elders gebruikelijk zijn. Daarom ziet en smaakt het merkbaar anders dan espresso of filterkoffie."
-        },
-        {
-          "range": "53–63",
-          "title": "De voet en de standaard",
-          "learn": "Verbind tot slot de punten 53 tot en met 63 om de stevige basis te tekenen waarop de pot rust. Nog elf punten te gaan — een goede, solide afwerking hier vormt de basis van de hele tekening.",
-          "fact": "In 2015 heeft UNESCO Arabische koffie toegevoegd aan de lijst van immaterieel cultureel erfgoed, waarmee het wordt erkend als een symbool van vrijgevigheid dat wordt gedeeld in de Verenigde Arabische Emiraten, Saoedi-Arabië, Oman en Qatar. Zie <a href=\"https://ich.unesco.org/en/RL/arabic-coffee-a-symbol-of-generosity-02111\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">UNESCO's lijst van Arabische koffie</a> voor meer informatie."
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Boerj Khalifa",
+          "description": "Klim één lijn tegelijk naar het hoogste gebouw ter wereld. Deze 60-punten Burj Khalifa afdrukbare PDF brengt de geografie van Dubai naar kinderen van 5-9 jaar.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
         }
-      ],
-      "outro": "Goed gedaan! Je dallah is klaar om te serveren! Kleur hem in warme koper- of messingkleuren voor een traditionele look, of ga voor een gedurfde look met goud en diepgroen. Als je kind het leuk vond om te leren waar deze puzzel vandaan komt, vindt hij of zij onze andere <a href=\"/playgrounds/\">punt-naar-punt-werkbladen</a> misschien ook leuk voor meer praktische oefening."
-    },
-    "seoTitle": "Dallah Koffiekan Stippen Verbinden, Gratis Werkblad met 63 Stippen"
-  },
-  {
-    "slug": "uae-camel-dot-to-dot-puzzle",
-    "name": "Kameel van de VAE",
-    "seoH1": "VAE Kameel Punt tot Punt — 105-Punten Woestijnuitdaging PDF",
-    "tagline": "Schip van de woestijn",
-    "description": "Verbind 105 stippen om een kameel te onthullen die over het zand loopt, een van de meest blijvende symbolen van het leven in de VAE en het bredere Arabische schiereiland. Met meer stippen dan onze andere VAE-puzzels, is deze een stap omhoog in uitdaging - geweldig voor kinderen die klaar zijn om verder te gaan dan de gemakkelijkste vellen terwijl ze nog steeds iets echt leren over het leven in de woestijn.",
-    "seoDescription": "De bult van een kameel slaat vet op, geen water. Geduldige telers van 6-10 jaar kunnen dit woestijnicoon onthullen door 105 stippen in een gratis afdrukbare PDF.",
-    "funFact": "De bult van een kameel slaat helemaal geen water op, maar vet, dat het lichaam van de kameel kan omzetten in zowel energie als water wanneer er weinig voedsel is.",
-    "seoImageAlt": "Kameel die door het zand loopt, zijn omtrek gedragen door 105 printbare stippen",
-    "dotGuide": {
-      "intro": "Duizenden jaren lang maakte de kameel het leven in de woestijn mogelijk – hij vervoerde goederen over duinen die met geen kar te bereiken waren, en voorzag Bedoeïenengemeenschappen van melk, wol en transport, lang voordat wegen en airconditioning alles veranderden. Kamelen worden vandaag de dag nog steeds gefokt en gebruikt voor races in de VAE, en kamelenmelk is te vinden in alles, van lattes tot chocoladerepen. Deze puzzel met 105 stippen is langer dan de meeste van onze andere puzzelbladen, dus het is een mooie volgende stap als een kind een paar makkelijkere puzzels heeft gemaakt. Zoek stip 1 en pak het bultje voor bultje aan.",
-      "sections": [
-        {
-          "range": "1–21",
-          "title": "Het hoofd en de nek",
-          "learn": "Begin bij punt 1 en werk door tot punt 21 om de lange, gebogen nek en de alerte kop te tekenen. Kamelen houden hun nek in een kenmerkende S-vorm, dus moedig kinderen aan om de lijn op een natuurlijke manier te laten op- en neergaan in plaats van hem geforceerd recht te trekken. Dit is een flinke eerste oefening, dus een korte pauze daarna is prima.",
-          "fact": "Kamelen hebben drie oogleden en twee rijen lange wimpers, die samenwerken om te voorkomen dat er zand in hun ogen komt tijdens een storm. Ze kunnen ook hun neusgaten volledig afsluiten – een eigenschap die geen enkel ander lastdier bezit."
-        },
-        {
-          "range": "22–42",
-          "title": "De eerste hobbel",
-          "learn": "Ga verder van punt 22 naar punt 42 om de hoge, afgeronde eerste bult vorm te geven. Dit is een prettige curve om te tekenen — probeer één vloeiende lijn te gebruiken in plaats van meerdere kleine, want schokkerige lijnen hebben de neiging de vorm van de bult af te vlakken.",
-          "fact": "De dromedaris, of kameel met één bult, is de soort die voorkomt in de Verenigde Arabische Emiraten en het Arabische schiereiland. De Bactrische kameel met twee bulten is een andere soort, die inheems is in Centraal-Azië en niet in de Golfregio. Lees meer op <a href=\"https://en.wikipedia.org/wiki/Dromedary\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Wikipedia's lemma over de dromedaris</a>."
-        },
-        {
-          "range": "43–63",
-          "title": "De achterste linie",
-          "learn": "Trek de stippen 43 tot en met 63 over om de ruglijn af te maken, inclusief de inkeping na de bult. De juiste inkeping – niet te diep, niet te vlak – zorgt ervoor dat het silhouet eruitziet als een kameel in plaats van een hobbelige lijn. Neem hier de tijd voor.",
-          "fact": "Een volwassen kameel kan in een paar minuten zo'n 150 liter water drinken zodra hij eindelijk een waterbron bereikt – in één keer vult hij daarmee aan wat hij tijdens dagenlange reizen heeft verloren."
-        },
-        {
-          "range": "64–84",
-          "title": "De benen",
-          "learn": "Verbind punt 64 met 84 om de vier lange, stevige poten te tekenen. Dit gedeelte kent meer richtingsveranderingen dan de voorgaande, dus het is een goed moment om even rustig aan te doen en elk puntnummer te controleren voordat je de volgende lijn tekent.",
-          "fact": "Kamelen lopen door beide poten aan dezelfde kant van hun lichaam tegelijk te bewegen, een gang die 'stappen' wordt genoemd. Dit geeft ze een kenmerkende schommelende beweging, wat mede verklaart waarom de kameel vroeger de bijnaam 'schip van de woestijn' had. Kamelenraces zijn nog steeds een belangrijke sport in de VAE — lees meer op <a href=\"https://en.wikipedia.org/wiki/Camel_racing\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Wikipedia's lemma over kamelenraces</a>."
-        },
-        {
-          "range": "85–105",
-          "title": "De poten en de staart",
-          "learn": "Maak de puzzel af door de stippen 85 tot en met 105 met elkaar te verbinden om de brede poten en de staart toe te voegen. Er zijn nog 21 stippen over — een sterke afwerking hier is essentieel voor een goede basis van de hele tekening, dus zorg voor een vaste hand tot aan de allerlaatste stip.",
-          "fact": "De poten van een kameel spreiden zich uit als hij een stap naar beneden zet, waardoor zijn gewicht wordt verdeeld en hij niet wegzakt in het zachte zand – net zoals een sneeuwschoen dat doet in de sneeuw. Het is een van de vele eigenschappen die de kameel zo geschikt maken voor reizen door de woestijn."
+      },
+      "body": {
+        "h1": "Burj Khalifa Punt tot Punt: 's Werelds Hoogste, 60 Punten",
+        "name": "Boerj Khalifa",
+        "tagline": "De hoogste toren ter wereld",
+        "description": "Verbind 60 punten om de Burj Khalifa te onthullen, de recordbrekende wolkenkrabber die boven de stad Dubai uittorent. Deze gemakkelijke puzzel is perfect voor jonge leerlingen die getalvolgorde oefenen terwijl ze het hoogste gebouw op aarde ontdekken.",
+        "fun_fact": "De Burj Khalifa is het hoogste gebouw ter wereld, met een hoogte van meer dan 828 meter (2.717 voet)!",
+        "faqs": [
+          {
+            "q": "Hoeveel stippen heeft de punt-tot-punt puzzel van de Burj Khalifa?",
+            "a": "De Burj Khalifa-puzzel met puntjes verbinden heeft 60 genummerde puntjes. Daardoor is het een makkelijke tot gemiddelde puzzel, het meest geschikt voor kinderen van 5-8 jaar (kleuterschool tot en met groep 3). Kinderen verbinden de puntjes in de juiste volgorde om de complete Burj Khalifa-afbeelding te onthullen en kleuren deze vervolgens in."
+          },
+          {
+            "q": "Is de punt-na-punt tekening van de Burj Khalifa gratis te printen?",
+            "a": "Ja. Het werkblad over de Burj Khalifa is volledig gratis te downloaden van DotToDotFreePrintables.com — u heeft geen account, e-mailadres of betaling nodig. Het wordt direct gedownload als een printklaar PDF-bestand in zowel portret- als landschapsformaat, geschikt voor US Letter- of A4-papier."
+          },
+          {
+            "q": "Voor welke leeftijd is het 'verbind de punten'-werkblad over de Burj Khalifa het meest geschikt?",
+            "a": "Met 60 stippen is de Burj Khalifa-puzzel het meest geschikt voor kinderen van 5 tot 8 jaar (kleuterschool tot en met groep 3). Jongere kinderen kunnen er plezier aan beleven met een beetje hulp van een volwassene die meetelt, terwijl oudere kinderen die al goed kunnen tellen de puzzel zelfstandig kunnen maken en zo de getallenreeksen tot 60 kunnen oefenen."
+          },
+          {
+            "q": "Welke vaardigheden leer je met de punt-tot-punt-puzzel van de Burj Khalifa?",
+            "a": "Het verbinden van de 60 stippen van de Burj Khalifa-puzzel bevordert getalherkenning en tellen tot 60, potloodbeheersing, hand-oogcoördinatie en concentratievermogen – dezelfde fijne motorische vaardigheden die de basis vormen voor vroeg handschrift. Het inkleuren van de voltooide afbeelding is een extra creatieve beloning."
+          },
+          {
+            "q": "Wat is een leuk weetje over de Burj Khalifa?",
+            "a": "De Burj Khalifa is het hoogste gebouw ter wereld, met een hoogte van meer dan 828 meter! Kinderen ontdekken dit soort weetjes tijdens het invullen van de punt-na-punt puzzel van de Burj Khalifa."
+          }
+        ],
+        "dot_guide": {
+          "intro": "De Burj Khalifa is het hoogste gebouw dat ooit door mensenhanden is gebouwd – een naaldvormige toren die de hemel boven Dubai doorboort. Het gelaagde, spiraalvormige ontwerp is geïnspireerd op een woestijnbloem genaamd Hymenocallis, en het draagt ​​de titel van hoogste gebouw ter wereld sinds de opening in 2010. Deze puzzel van 60 stippen volgt het torenhoge silhouet van de basis tot de spits. Vind stip 1 en laten we de hemel bereiken!",
+          "sections": [
+            {
+              "range": "1–12",
+              "title": "De torenspits",
+              "learn": "Begin bij punt 1 en verbind deze met punt 12 om de dunne, puntige torenspits helemaal bovenaan de toren te tekenen. Dit smalle gedeelte vereist vanaf het begin zorgvuldige, gecontroleerde potloodstreken – een goede opwarming voor de bredere vormen hieronder. Moedig kinderen aan om langzaam te tekenen en de lijnen recht en hoog te houden.",
+              "fact": "De spits alleen al is ongeveer 244 meter hoog – bijna net zo hoog als sommige complete wolkenkrabbers in andere steden! Hij bevat een telecommunicatieantenne en is een van de redenen waarom de Burj Khalifa zoveel hoogterecords in handen heeft. Bekijk alle hoogterecords op <a href=\"https://en.wikipedia.org/wiki/Burj_Khalifa\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Wikipedia's Burj Khalifa-pagina</a>."
+            },
+            {
+              "range": "13–24",
+              "title": "De bovenste verdiepingen",
+              "learn": "Teken vanaf punt 13 tot en met punt 24 de smaller wordende, trapsgewijze gedeelten bovenaan de toren. Kinderen oefenen met het tekenen van een vorm die geleidelijk kleiner wordt naarmate hij hoger wordt. Dit is een fantastische manier om over perspectief te praten en te laten zien hoe gebouwen naar de hemel toe smaller kunnen worden.",
+              "fact": "Het gebouw telt 163 verdiepingen – meer dan welk ander gebouw ter wereld ook op het moment dat het werd voltooid. Het heeft ook 's werelds hoogste observatiedek, genaamd 'At the Top', op de 148e verdieping."
+            },
+            {
+              "range": "25–36",
+              "title": "De middelste spiraal",
+              "learn": "Teken de stippen 25 tot en met 36 om het middelste gedeelte te tekenen, waar het spiraalvormige, trapsgewijze patroon van de toren het best te zien is. Dit gedeelte beloont nauwkeurige aandacht, omdat de terugspringende hoeken en hoeken meerdere keren van richting veranderen. Dit biedt kinderen een goede oefening in het volgen van een complexere vorm.",
+              "fact": "Het ontwerp van de Burj Khalifa is geïnspireerd op de Hymenocallis, een woestijnbloem met lange, slanke bloemblaadjes die vanuit het midden spiraalvormig naar buiten groeien. De architecten gebruikten deze natuurlijke vorm om het gebouw te beschermen tegen de sterke woestijnwinden."
+            },
+            {
+              "range": "37–48",
+              "title": "De lagere toren",
+              "learn": "Verbind de stippen 37 tot en met 48 om het bredere onderste gedeelte van de toren in te vullen. Dit is een van de grotere delen van de puzzel, waardoor kinderen hun concentratie en geduld kunnen ontwikkelen terwijl de volledige hoogte van de toren op de pagina vorm begint te krijgen.",
+              "fact": "Voor de bouw van de Burj Khalifa werd genoeg beton gebruikt om een ​​trottoir van meer dan 48 kilometer aan te leggen, en genoeg wapeningsstaal om, als het achter elkaar gelegd zou worden, meer dan een kwart van de omtrek van de aarde te overbruggen!"
+            },
+            {
+              "range": "49–60",
+              "title": "De basis",
+              "learn": "Maak de puzzel af door de stippen 49 tot en met 60 met elkaar te verbinden om de brede basis van de toren te tekenen waar deze de grond raakt. Nog maar twaalf stippen te gaan – moedig de kinderen aan om de omtrek met sterke, zelfverzekerde lijnen af ​​te maken.",
+              "fact": "De Burj Khalifa staat midden in Downtown Dubai, omgeven door een groot kunstmatig meer met de Dubai Fountain, beroemd om de gechoreografeerde watershows op muziek en lichteffecten die elke avond plaatsvinden."
+            }
+          ],
+          "outro": "Geweldig — je Burj Khalifa is klaar! Geef hem nu een glinsterend zilveren, gouden of zonsondergangkleurenschema dat past bij de beroemde lichtshows van de toren 's avonds. Klaar voor een ander beroemd monument? Bekijk meer <a href=\"/\">gratis punt-na-punt-tekeningen</a> om de wereld verder te ontdekken.",
+          "color_schemes": []
         }
-      ],
-      "outro": "Fantastisch werk! Je kameel is klaar om de duinen over te steken! Probeer warme zandbruine en beige tinten voor een realistische look, of experimenteer juist met gedurfde, onverwachte kleuren. Klaar voor een andere uitdaging? Ontdek meer <a href=\"/dinosaurs/\">punt-naar-punt printables 1-100</a> met andere thema's."
+      }
     },
-    "seoTitle": "Kameel Stippen Verbinden — Woestijnuitdaging met 105 Stippen"
-  }
-]
+    {
+      "slug": "uae-falcon-dot-to-dot-puzzle",
+      "header": {
+        "title": "Valk Stippen Verbinden — Werkblad met 60 Vliegende Stippen",
+        "meta_description": "Sommige VAE valken reizen met hun eigen paspoorten. Onthul dit nationale symbool in de lucht over 60 punten met een gratis PDF voor kinderen van 5-9 jaar.",
+        "og": {
+          "title": "Valk Stippen Verbinden — Werkblad met 60 Vliegende Stippen",
+          "description": "Sommige VAE valken reizen met hun eigen paspoorten. Onthul dit nationale symbool in de lucht over 60 punten met een gratis PDF voor kinderen van 5-9 jaar.",
+          "image_alt": "Valk in de vlucht, vleugels naar achteren over 60 punten op een gratis werkblad"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "VAE Falcon",
+          "description": "Sommige VAE valken reizen met hun eigen paspoorten. Onthul dit nationale symbool in de lucht over 60 punten met een gratis PDF voor kinderen van 5-9 jaar.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
+      },
+      "body": {
+        "h1": "VAE Valk Punt tot Punt Afdrukbaar — 60 Punten in de Lucht",
+        "name": "VAE Falcon",
+        "tagline": "De nationale vogel van de Emiraten",
+        "description": "Verbind 60 punten om een valk in de vlucht te onthullen, met de vleugels naar achteren en de klauwen klaar. De valk is de nationale vogel van de Verenigde Arabische Emiraten en een symbool van het Emirati erfgoed. Deze gemakkelijke puzzel is geweldig voor jonge leerlingen die getalvolgorde oefenen terwijl ze leren over een vogel met een zeer oud verhaal.",
+        "fun_fact": "Valken in de VAE kunnen hun eigen paspoorten dragen — een echt document dat wordt gebruikt wanneer ze met hun eigenaren naar het buitenland reizen!",
+        "faqs": [
+          {
+            "q": "Hoeveel stippen heeft de punt-tot-punt puzzel van de VAE-valk?",
+            "a": "De printbare 'verbind de stippen'-puzzel van de VAE-valk heeft 60 genummerde stippen. Daardoor is het een makkelijke tot gemiddelde puzzel, het meest geschikt voor kinderen van 5-8 jaar (kleuterschool tot en met groep 3). Kinderen verbinden de stippen in de juiste volgorde om de complete afbeelding van de VAE-valk te onthullen en kleuren deze vervolgens in."
+          },
+          {
+            "q": "Is de punt-na-punt-tekening van de VAE-valk gratis te printen?",
+            "a": "Ja. Het werkblad over de VAE-valk is volledig gratis te downloaden van DotToDotFreePrintables.com — u heeft geen account, e-mailadres of betaling nodig. Het wordt direct gedownload als een printklaar PDF-bestand in zowel portret- als landschapsformaat, geschikt voor US Letter- of A4-papier."
+          },
+          {
+            "q": "Voor welke leeftijd is het 'verbind de punten'-werkblad van de VAE-valk het meest geschikt?",
+            "a": "Met 60 stippen is de UAE Falcon-puzzel het meest geschikt voor kinderen van 5 tot 8 jaar (kleuterschool tot en met groep 3). Jongere kinderen kunnen er plezier aan beleven met een beetje hulp van een volwassene die meetelt, terwijl oudere kinderen die al goed kunnen tellen de puzzel zelfstandig kunnen maken en zo de getallenreeksen tot 60 kunnen oefenen."
+          },
+          {
+            "q": "Welke vaardigheden leer je met de punt-tot-punt puzzel van UAE Falcon?",
+            "a": "Het verbinden van de 60 stippen van de UAE Falcon-puzzel bevordert getalherkenning en tellen tot 60, potloodbeheersing, hand-oogcoördinatie en concentratievermogen – dezelfde fijne motorische vaardigheden die de basis vormen voor vroeg leren schrijven. Het inkleuren van de voltooide afbeelding is een extra creatieve beloning."
+          },
+          {
+            "q": "Wat is een leuk weetje over de valk uit de Verenigde Arabische Emiraten?",
+            "a": "Valken in de VAE kunnen hun eigen paspoort hebben – een echt document dat ze gebruiken als ze met hun baasjes naar het buitenland reizen! Kinderen ontdekken dit soort weetjes tijdens het invullen van de punt-na-punt puzzel van de VAE-valk."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Lang voordat er olie of wolkenkrabbers waren, bestond de valkerij. Bedoeïenenstammen in de woestijn vertrouwden op getrainde valken om te jagen, en die band tussen vogel en trainer werd een van de meest gekoesterde tradities in de Emirati-cultuur. Tegenwoordig staat de valk op het wapen van de VAE en is de valkerij zelf beschermd als levend erfgoed. Deze puzzel van 60 stippen toont een valk in volle vlucht. Pak een potlood, zoek stip 1 en laten we deze vogel tot leven brengen.",
+          "sections": [
+            {
+              "range": "1–12",
+              "title": "De kop en de haaksnavel",
+              "learn": "Begin bij punt 1 en werk door tot punt 12 om de scherpe, alerte kop van de valk en zijn kenmerkende haaksnavel te tekenen. Dit is een klein gedeelte, maar het bepaalt het karakter van de hele tekening: het gezicht van een valk moet geconcentreerd, bijna fel, ogen. Houd de lijnen hier kort en precies, in plaats van zwierig.",
+              "fact": "De snavel van een valk heeft een kleine inkeping vlak bij de punt, een zogenaamde 'tomiale tand'. Valken gebruiken deze om snel de ruggengraat van hun prooi door te bijten. Het is een van de kleine anatomische details die valken onderscheiden van haviken en arenden, die hun prooi doden met hun klauwen."
+            },
+            {
+              "range": "13–24",
+              "title": "Het Waakzame Oog en de Kroon",
+              "learn": "Ga verder van punt 13 naar punt 24 om de bovenkant van de kop en het grote, naar voren gerichte oog vorm te geven. Valken hebben een van de scherpste ogen in het dierenrijk, en als je dit gedeelte goed tekent, komt de uitdrukking van de vogel echt tot leven. Moedig kinderen aan om de tijd te nemen voor de ronding van het oog – dit bepaalt voor een groot deel de persoonlijkheid van de tekening.",
+              "fact": "Een valk kan naar verluidt een konijn op een afstand van ongeveer drie kilometer zien. Hun gezichtsvermogen is naar schatting vele malen scherper dan dat van een mens, en dat is precies de reden waarom valkeniers ze trainen om vanaf grote hoogtes en over lange afstanden te jagen."
+            },
+            {
+              "range": "25–36",
+              "title": "De vleugelzwaai",
+              "learn": "Teken de lange, naar achteren gebogen vleugel langs de stippen 25 tot en met 36 – het deel van de puzzel dat deze vogel zijn gevoel van snelheid geeft. Dit is een goede oefening om een ​​vloeiende, doorlopende curve te tekenen in plaats van korte, schokkerige lijnen. Met een vaste hand lijkt het alsof de valk echt door de lucht snijdt.",
+              "fact": "De slechtvalk, een nauwe verwant van de vogels die in de valkerij van de VAE worden getraind, is het snelste dier ter wereld. Hij kan tijdens een jachtduik, een zogenaamde 'stoop', snelheden van meer dan 386 kilometer per uur bereiken."
+            },
+            {
+              "range": "37–48",
+              "title": "Het lichaam en de borst",
+              "learn": "Verbind de stippen 37 tot en met 48 om de borst en het hoofdlichaam van de valk te vullen. Dit is het grootste afzonderlijke gedeelte van de puzzel, en een goed moment om even rustig aan te doen en zorgvuldig te tellen – het is makkelijk om de volgorde uit het oog te verliezen bij zo'n lang stuk.",
+              "fact": "Valkenjacht werd in 2010 gezamenlijk door UNESCO erkend als immaterieel cultureel erfgoed van de mensheid, waarbij de Verenigde Arabische Emiraten tot de oprichtende landen op die lijst behoorden. Het blijft een van de duidelijkste schakels tussen het bedoeïenenverleden van het land en zijn moderne identiteit. Lees meer op de <a href=\"https://ich.unesco.org/en/RL/falconry-a-living-human-heritage-01708\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">UNESCO's lijst met immaterieel cultureel erfgoed voor valkenjacht</a>."
+            },
+            {
+              "range": "49–60",
+              "title": "De staartveren",
+              "learn": "Maak de puzzel af door de stippen 49 tot en met 60 met elkaar te verbinden om de waaiervormige staartveren van de vogel te tekenen. Nog twaalf stippen te gaan — een krachtige, zelfverzekerde afwerking hier completeert het gevoel van beweging waar de hele tekening naartoe heeft gewerkt.",
+              "fact": "In Abu Dhabi bevindt zich 's werelds grootste valkenkliniek, waar jaarlijks duizenden vogels worden behandeld en waar zelfs de valkenpaspoorten worden afgegeven die eigenaren nodig hebben om met hun vogels de grens over te vliegen."
+            }
+          ],
+          "outro": "Goed gedaan! Je valk is klaar om te vliegen! Probeer hem in te kleuren met warme bruine en gouden tinten, net als een echte sakervalk, of geef hem een meer dramatische look met diepe grijzen en zwarten. Benieuwd naar meer bezienswaardigheden en dieren in de wereld? Bekijk meer <a href=\"/\">gratis punt-na-punt tekeningen</a> en ga lekker aan de slag!",
+          "color_schemes": []
+        }
+      }
+    },
+    {
+      "slug": "dallah-coffee-pot-dot-to-dot-puzzle",
+      "header": {
+        "title": "Dallah Koffiekan Stippen Verbinden, Gratis Werkblad met 63 Stippen",
+        "meta_description": "De dallah op de VAE één-dirham munt vertegenwoordigt gastvrijheid. Verbind zijn langsnuitige vorm over 63 punten in een gratis afdrukbare voor kinderen van 6-10 jaar.",
+        "og": {
+          "title": "Dallah Koffiekan Stippen Verbinden, Gratis Werkblad met 63 Stippen",
+          "description": "De dallah op de VAE één-dirham munt vertegenwoordigt gastvrijheid. Verbind zijn langsnuitige vorm over 63 punten in een gratis afdrukbare voor kinderen van 6-10 jaar.",
+          "image_alt": "Dallah-koffiekan met lange tuit die tevoorschijn komt uit 63 printbare stippen"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Dallah koffiepot",
+          "description": "De dallah op de VAE één-dirham munt vertegenwoordigt gastvrijheid. Verbind zijn langsnuitige vorm over 63 punten in een gratis afdrukbare voor kinderen van 6-10 jaar.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
+      },
+      "body": {
+        "h1": "Dallah Koffiepot Punt tot Punt, een 63-Punten Gratis Blad",
+        "name": "Dallah koffiepot",
+        "tagline": "Een symbool van de gastvrijheid van de Emiraten",
+        "description": "Verbind 63 punten om een dallah te onthullen, de langsnuitige koffiepot die in de VAE en de bredere Golf wordt gebruikt om Arabische koffie aan gasten te serveren. Deze gemakkelijke puzzel is leuk voor jonge leerlingen die getalvolgorde oefenen terwijl ze een klein kijkje krijgen in een traditie die vandaag de dag nog steeds zeer levendig is.",
+        "fun_fact": "De dallah is zo'n bekend symbool van gastvrijheid dat hij zelfs op de één-dirham munt van de VAE staat afgebeeld.",
+        "faqs": [
+          {
+            "q": "Hoeveel stippen heeft de punt-tot-punt puzzel van de Dallah koffiepot?",
+            "a": "De printbare 'Dallah koffiepot' puzzel heeft 63 genummerde stippen. Daardoor is het een makkelijke tot gemiddelde puzzel, het meest geschikt voor kinderen van 5-8 jaar (kleuterschool tot en met groep 3). Kinderen verbinden de stippen in de juiste volgorde om de complete afbeelding van de Dallah koffiepot te onthullen en kleuren deze vervolgens in."
+          },
+          {
+            "q": "Is de punt-na-punt tekening van de Dallah koffiepot gratis te printen?",
+            "a": "Ja. Het werkblad 'Dallah Coffee Pot' is volledig gratis te downloaden van DotToDotFreePrintables.com — u heeft geen account, e-mailadres of betaling nodig. Het wordt direct gedownload als een printklaar PDF-bestand in zowel portret- als landschapsformaat, geschikt voor US Letter of A4-papier."
+          },
+          {
+            "q": "Voor welke leeftijd is het 'Dallah Coffee Pot'-werkblad met punt-tot-punt-tekeningen het meest geschikt?",
+            "a": "Met 63 stippen is de Dallah Koffiepot-puzzel het meest geschikt voor kinderen van 5 tot 8 jaar (kleuterschool tot en met groep 3). Jongere kinderen kunnen er plezier aan beleven met een beetje hulp van een volwassene die meetelt, terwijl oudere kinderen die al goed kunnen tellen de puzzel zelfstandig kunnen maken en zo de getallenreeksen tot 63 kunnen oefenen."
+          },
+          {
+            "q": "Welke vaardigheden leer je met de punt-na-punt-puzzel van de Dallah-koffiepot?",
+            "a": "Het verbinden van de 63 stippen van de Dallah koffiepot-puzzel bevordert getalherkenning en tellen tot 63, potloodbeheersing, hand-oogcoördinatie en concentratievermogen – dezelfde fijne motorische vaardigheden die de basis vormen voor vroeg leren schrijven. Het inkleuren van de voltooide afbeelding is een extra creatieve beloning."
+          },
+          {
+            "q": "Wat is een leuk weetje over de dallah koffiepot?",
+            "a": "De dallah is zo'n bekend symbool van gastvrijheid dat hij zelfs op de munt van één dirham in de VAE staat afgebeeld. Kinderen ontdekken dit soort weetjes tijdens het invullen van de punt-na-punt puzzel van de dallah koffiepot."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Vraag bijna iedereen in de Golfregio wat een goede gastheer zijn gasten biedt, en koffie zal al snel ter sprake komen. De dallah is de pot die dat mogelijk maakt: hoog, gebogen, met een lange tuit, gemaakt voor een langzame, zorgvuldige schenking. Je ziet hem op bruiloften, in de zitkamers van majlis en buiten tenten op festivals, meestal naast een stapel kleine kopjes zonder handvat en een schaal dadels. Deze puzzel van 63 stippen laat de onmiskenbare vorm ervan zien. Vind stip 1 en laten we er eentje inschenken.",
+          "sections": [
+            {
+              "range": "1–13",
+              "title": "De gebogen handgreep",
+              "learn": "Begin bij punt 1 en verbind deze met punt 13 om het lusvormige handvat aan de achterkant van de pot te tekenen. De bocht is scherper dan hij lijkt, dus neem hier de tijd – haasten bij dit onderdeel is vaak de reden waarom beginners de vorm niet goed krijgen.",
+              "fact": "Dallahs worden traditioneel met de hand gesmeed uit messing of koper, een ambacht dat van generatie op generatie wordt doorgegeven. Een goed gemaakte dallah kan met regelmatig poleren tientallen jaren meegaan."
+            },
+            {
+              "range": "14–26",
+              "title": "Het bolvormige deksel",
+              "learn": "Ga verder van punt 14 tot punt 26 om de afgeronde bovenkant te vormen, die vaak wordt afgewerkt met een klein puntig knopje. Dit gedeelte bestaat voornamelijk uit zachte rondingen, dus het is een goede oefening voor kinderen die nog moeten wennen aan het tekenen van ronde lijnen.",
+              "fact": "Sommige dallahs hebben een decoratief halvemaan- of vogelvormig ornament op het deksel in plaats van een eenvoudige knop – een klein detail dat sterk varieert van regio tot regio en van maker tot maker."
+            },
+            {
+              "range": "27–39",
+              "title": "De lange schenktuit",
+              "learn": "Trek de stippen 27 tot en met 39 over om de lange, smalle tuit te tekenen die de dallah zijn kenmerkende silhouet geeft. Dit is het lastigste deel van de tekening: de tuit loopt taps toe naar buiten, dus moedig kinderen aan om het in één vloeiende, rustige beweging te tekenen in plaats van in meerdere korte bewegingen.",
+              "fact": "De lengte van de tuit is niet alleen decoratief. Het stelt de gastheer in staat om koffie van een geringe hoogte in te schenken zonder te morsen, wat onderdeel is van de gastvrijheid – het inschenken gebeurt immers in het zicht van de gasten, niet in een andere ruimte."
+            },
+            {
+              "range": "40–52",
+              "title": "De Wide Body",
+              "learn": "Verbind de punten 40 tot en met 52 om het afgeronde hoofdgedeelte van de pot te vullen, waar de koffie zelf zou worden gezet. Dit is het grootste gedeelte, dus het is de moeite waard om halverwege even te pauzeren en te controleren of er niets is overgeslagen.",
+              "fact": "Arabische koffie, geserveerd uit een dallah (ook wel gahwa genoemd), wordt doorgaans gezet met licht gebrande bonen en kardemom in plaats van de donkerder gebrande bonen die elders gebruikelijk zijn. Daarom ziet en smaakt het merkbaar anders dan espresso of filterkoffie."
+            },
+            {
+              "range": "53–63",
+              "title": "De voet en de standaard",
+              "learn": "Verbind tot slot de punten 53 tot en met 63 om de stevige basis te tekenen waarop de pot rust. Nog elf punten te gaan — een goede, solide afwerking hier vormt de basis van de hele tekening.",
+              "fact": "In 2015 heeft UNESCO Arabische koffie toegevoegd aan de lijst van immaterieel cultureel erfgoed, waarmee het wordt erkend als een symbool van vrijgevigheid dat wordt gedeeld in de Verenigde Arabische Emiraten, Saoedi-Arabië, Oman en Qatar. Zie <a href=\"https://ich.unesco.org/en/RL/arabic-coffee-a-symbol-of-generosity-02111\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">UNESCO's lijst van Arabische koffie</a> voor meer informatie."
+            }
+          ],
+          "outro": "Goed gedaan! Je dallah is klaar om te serveren! Kleur hem in warme koper- of messingkleuren voor een traditionele look, of ga voor een gedurfde look met goud en diepgroen. Als je kind het leuk vond om te leren waar deze puzzel vandaan komt, vindt hij of zij onze andere <a href=\"/playgrounds/\">punt-naar-punt-werkbladen</a> misschien ook leuk voor meer praktische oefening.",
+          "color_schemes": []
+        }
+      }
+    },
+    {
+      "slug": "uae-camel-dot-to-dot-puzzle",
+      "header": {
+        "title": "Kameel Stippen Verbinden — Woestijnuitdaging met 105 Stippen",
+        "meta_description": "De bult van een kameel slaat vet op, geen water. Geduldige telers van 6-10 jaar kunnen dit woestijnicoon onthullen door 105 stippen in een gratis afdrukbare PDF.",
+        "og": {
+          "title": "Kameel Stippen Verbinden — Woestijnuitdaging met 105 Stippen",
+          "description": "De bult van een kameel slaat vet op, geen water. Geduldige telers van 6-10 jaar kunnen dit woestijnicoon onthullen door 105 stippen in een gratis afdrukbare PDF.",
+          "image_alt": "Kameel die door het zand loopt, zijn omtrek gedragen door 105 printbare stippen"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Kameel van de VAE",
+          "description": "De bult van een kameel slaat vet op, geen water. Geduldige telers van 6-10 jaar kunnen dit woestijnicoon onthullen door 105 stippen in een gratis afdrukbare PDF.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
+      },
+      "body": {
+        "h1": "VAE Kameel Punt tot Punt — 105-Punten Woestijnuitdaging PDF",
+        "name": "Kameel van de VAE",
+        "tagline": "Schip van de woestijn",
+        "description": "Verbind 105 stippen om een kameel te onthullen die over het zand loopt, een van de meest blijvende symbolen van het leven in de VAE en het bredere Arabische schiereiland. Met meer stippen dan onze andere VAE-puzzels, is deze een stap omhoog in uitdaging - geweldig voor kinderen die klaar zijn om verder te gaan dan de gemakkelijkste vellen terwijl ze nog steeds iets echt leren over het leven in de woestijn.",
+        "fun_fact": "De bult van een kameel slaat helemaal geen water op, maar vet, dat het lichaam van de kameel kan omzetten in zowel energie als water wanneer er weinig voedsel is.",
+        "faqs": [
+          {
+            "q": "Hoeveel stippen heeft de punt-tot-punt puzzel van de kameel uit de VAE?",
+            "a": "De printbare 'verbind de stippen'-puzzel van de kameel uit de VAE heeft 105 genummerde stippen. Dat maakt het een uitdagende puzzel, het meest geschikt voor kinderen van 7 tot 12 jaar (vanaf groep 3). Kinderen verbinden de stippen in de juiste volgorde om de complete afbeelding van de kameel uit de VAE te onthullen en deze vervolgens in te kleuren."
+          },
+          {
+            "q": "Is de punt-na-punt-tekening van de kameel uit de VAE gratis te printen?",
+            "a": "Ja. Het werkblad over de kameel uit de VAE is volledig gratis te downloaden van DotToDotFreePrintables.com — u heeft geen account, e-mailadres of betaling nodig. Het wordt direct gedownload als een printklaar PDF-bestand in zowel portret- als landschapsformaat, geschikt voor US Letter- of A4-papier."
+          },
+          {
+            "q": "Voor welke leeftijd is het 'Verbind de punten'-werkblad over kamelen uit de VAE het meest geschikt?",
+            "a": "Met 105 stippen is de UAE Camel-puzzel het meest geschikt voor kinderen van 7 tot 12 jaar (vanaf groep 3). Jongere kinderen kunnen er plezier aan beleven met een beetje hulp van een volwassene die meetelt, terwijl gevorderde tellers de puzzel zelfstandig kunnen maken en oefenen met getallenreeksen tot 105."
+          },
+          {
+            "q": "Welke vaardigheden leer je met de punt-tot-punt puzzel van UAE Camel?",
+            "a": "Het verbinden van de 105 stippen van de UAE Camel-puzzel bevordert getalherkenning en tellen tot 105, potloodbeheersing, hand-oogcoördinatie en concentratievermogen – dezelfde fijne motorische vaardigheden die de basis vormen voor vroeg handschrift. Het inkleuren van de voltooide afbeelding is een extra creatieve beloning."
+          },
+          {
+            "q": "Wat is een leuk weetje over de kameel uit de VAE?",
+            "a": "De bult van een kameel slaat helemaal geen water op, maar vet. Dit vet kan het lichaam van de kameel omzetten in energie en water wanneer er weinig voedsel is. Kinderen ontdekken dit soort feiten tijdens het invullen van de punt-na-punt puzzel van de kameel uit de VAE."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Duizenden jaren lang maakte de kameel het leven in de woestijn mogelijk – hij vervoerde goederen over duinen die met geen kar te bereiken waren, en voorzag Bedoeïenengemeenschappen van melk, wol en transport, lang voordat wegen en airconditioning alles veranderden. Kamelen worden vandaag de dag nog steeds gefokt en gebruikt voor races in de VAE, en kamelenmelk is te vinden in alles, van lattes tot chocoladerepen. Deze puzzel met 105 stippen is langer dan de meeste van onze andere puzzelbladen, dus het is een mooie volgende stap als een kind een paar makkelijkere puzzels heeft gemaakt. Zoek stip 1 en pak het bultje voor bultje aan.",
+          "sections": [
+            {
+              "range": "1–21",
+              "title": "Het hoofd en de nek",
+              "learn": "Begin bij punt 1 en werk door tot punt 21 om de lange, gebogen nek en de alerte kop te tekenen. Kamelen houden hun nek in een kenmerkende S-vorm, dus moedig kinderen aan om de lijn op een natuurlijke manier te laten op- en neergaan in plaats van hem geforceerd recht te trekken. Dit is een flinke eerste oefening, dus een korte pauze daarna is prima.",
+              "fact": "Kamelen hebben drie oogleden en twee rijen lange wimpers, die samenwerken om te voorkomen dat er zand in hun ogen komt tijdens een storm. Ze kunnen ook hun neusgaten volledig afsluiten – een eigenschap die geen enkel ander lastdier bezit."
+            },
+            {
+              "range": "22–42",
+              "title": "De eerste hobbel",
+              "learn": "Ga verder van punt 22 naar punt 42 om de hoge, afgeronde eerste bult vorm te geven. Dit is een prettige curve om te tekenen — probeer één vloeiende lijn te gebruiken in plaats van meerdere kleine, want schokkerige lijnen hebben de neiging de vorm van de bult af te vlakken.",
+              "fact": "De dromedaris, of kameel met één bult, is de soort die voorkomt in de Verenigde Arabische Emiraten en het Arabische schiereiland. De Bactrische kameel met twee bulten is een andere soort, die inheems is in Centraal-Azië en niet in de Golfregio. Lees meer op <a href=\"https://en.wikipedia.org/wiki/Dromedary\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Wikipedia's lemma over de dromedaris</a>."
+            },
+            {
+              "range": "43–63",
+              "title": "De achterste linie",
+              "learn": "Trek de stippen 43 tot en met 63 over om de ruglijn af te maken, inclusief de inkeping na de bult. De juiste inkeping – niet te diep, niet te vlak – zorgt ervoor dat het silhouet eruitziet als een kameel in plaats van een hobbelige lijn. Neem hier de tijd voor.",
+              "fact": "Een volwassen kameel kan in een paar minuten zo'n 150 liter water drinken zodra hij eindelijk een waterbron bereikt – in één keer vult hij daarmee aan wat hij tijdens dagenlange reizen heeft verloren."
+            },
+            {
+              "range": "64–84",
+              "title": "De benen",
+              "learn": "Verbind punt 64 met 84 om de vier lange, stevige poten te tekenen. Dit gedeelte kent meer richtingsveranderingen dan de voorgaande, dus het is een goed moment om even rustig aan te doen en elk puntnummer te controleren voordat je de volgende lijn tekent.",
+              "fact": "Kamelen lopen door beide poten aan dezelfde kant van hun lichaam tegelijk te bewegen, een gang die 'stappen' wordt genoemd. Dit geeft ze een kenmerkende schommelende beweging, wat mede verklaart waarom de kameel vroeger de bijnaam 'schip van de woestijn' had. Kamelenraces zijn nog steeds een belangrijke sport in de VAE — lees meer op <a href=\"https://en.wikipedia.org/wiki/Camel_racing\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Wikipedia's lemma over kamelenraces</a>."
+            },
+            {
+              "range": "85–105",
+              "title": "De poten en de staart",
+              "learn": "Maak de puzzel af door de stippen 85 tot en met 105 met elkaar te verbinden om de brede poten en de staart toe te voegen. Er zijn nog 21 stippen over — een sterke afwerking hier is essentieel voor een goede basis van de hele tekening, dus zorg voor een vaste hand tot aan de allerlaatste stip.",
+              "fact": "De poten van een kameel spreiden zich uit als hij een stap naar beneden zet, waardoor zijn gewicht wordt verdeeld en hij niet wegzakt in het zachte zand – net zoals een sneeuwschoen dat doet in de sneeuw. Het is een van de vele eigenschappen die de kameel zo geschikt maken voor reizen door de woestijn."
+            }
+          ],
+          "outro": "Fantastisch werk! Je kameel is klaar om de duinen over te steken! Probeer warme zandbruine en beige tinten voor een realistische look, of experimenteer juist met gedurfde, onverwachte kleuren. Klaar voor een andere uitdaging? Ontdek meer <a href=\"/dinosaurs/\">punt-naar-punt printables 1-100</a> met andere thema's.",
+          "color_schemes": []
+        }
+      }
+    }
+  ]
+}

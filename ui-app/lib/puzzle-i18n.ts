@@ -13,10 +13,29 @@
 // dotGuide for some locales; see canada-data.ts.
 export function mergeLocalizedPuzzles<T extends { slug: string; dotGuide?: unknown }>(
   en: T[],
-  localeContent: Array<Partial<T> & { slug: string }>,
+  localeContent: Array<Partial<T> & { slug: string }> | { puzzles?: unknown },
   options?: { allowMissingDotGuide?: boolean }
 ): T[] {
-  const bySlug = new Map(localeContent.map((item) => [item.slug, item]));
+  const entries = Array.isArray(localeContent)
+    ? localeContent
+    : Array.isArray(localeContent.puzzles)
+      ? localeContent.puzzles.map((entry: any) => ({
+          slug: entry.slug,
+          ...(entry.body ?? {}),
+          name: entry.body?.name,
+          tagline: entry.body?.tagline,
+          description: entry.body?.description,
+          funFact: entry.body?.fun_fact,
+          dotGuide: entry.body?.dot_guide,
+          seoTitle: entry.header?.title,
+          seoH1: entry.body?.h1,
+          seoDescription: entry.header?.meta_description,
+          seoOgTitle: entry.header?.og?.title,
+          seoOgDescription: entry.header?.og?.description,
+          seoImageAlt: entry.header?.og?.image_alt
+        }))
+      : [];
+  const bySlug = new Map(entries.map((item) => [item.slug, item]));
   return en
     .map((base) => {
       const own = bySlug.get(base.slug);

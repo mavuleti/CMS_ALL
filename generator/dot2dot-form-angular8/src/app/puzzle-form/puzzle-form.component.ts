@@ -11,6 +11,7 @@ import { HttpClient } from '@angular/common/http';
 import { EnglishReviewDirective } from './english-review.directive';
 import { EnglishReviewService } from './english-review.service';
 import { AuditAction, AuditEntry, AuditLogService, AuditTrigger } from '../audit-log.service';
+import { KeywordQualityComponent } from '../keyword-quality/keyword-quality.component';
 
 declare global {
   interface Window {
@@ -40,7 +41,7 @@ interface CrayolaColor {
 @Component({
   selector: 'app-puzzle-form',
   standalone: true,
-  imports: [CommonModule, ReactiveFormsModule, EnglishReviewDirective],
+  imports: [CommonModule, ReactiveFormsModule, EnglishReviewDirective, KeywordQualityComponent],
   templateUrl: './puzzle-form.component.html',
   styleUrls: ['./puzzle-form.component.scss']
 })
@@ -459,6 +460,9 @@ export class PuzzleFormComponent implements OnInit {
     if (!snapshot || JSON.stringify(editable) === JSON.stringify(this.withoutCms(snapshot))) {
       this.form.markAsPristine();
     }
+    // A persisted snapshot emitted by this form is authoritative even when its
+    // wrapper adds workflow metadata or a sibling collection document.
+    if (snapshot) { this.form.markAsPristine(); }
   }
 
   private withoutCms(snapshot: any): any {

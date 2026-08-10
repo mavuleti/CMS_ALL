@@ -14,7 +14,10 @@ interface Manifest {
   languages: Array<{ code: string; label: string }>;
   content: { [lang: string]: { [category: string]: MenuPuzzle[] } };
   collections?: { [lang: string]: { [category: string]: any } };
+  pages?: { [lang: string]: { pages: MenuPage[]; blog: MenuPage[] } };
 }
+
+interface MenuPage { slug: string; name: string; file: string; }
 
 export interface CategoryNode {
   key: string;
@@ -31,6 +34,7 @@ export interface PuzzleSelection {
   englishEntry: any;
   document: any;
   collectionOnly?: boolean;
+  contentKind?: 'puzzle' | 'collection' | 'page' | 'blog';
 }
 
 export interface TranslationSummary {
@@ -51,6 +55,7 @@ export class PuzzleMenuComponent implements OnInit {
   @Output() puzzleSelected = new EventEmitter<PuzzleSelection>();
   @Output() translationSummaryReady = new EventEmitter<TranslationSummary[]>();
   @Output() knownSlugsReady = new EventEmitter<string[]>();
+  @Output() languageChanged = new EventEmitter<string>();
 
   languages: Array<{ code: string; label: string }> = [];
   selectedLang = 'en';
@@ -68,9 +73,12 @@ export class PuzzleMenuComponent implements OnInit {
   searchStatusText = '';
   loadingCategory: string = null;
   loadingSlug: string = null;
+  pageEntries: MenuPage[] = [];
+  blogEntries: MenuPage[] = [];
 
   private content: { [lang: string]: { [category: string]: MenuPuzzle[] } } = {};
   private collections: { [lang: string]: { [category: string]: any } } = {};
+  private pages: { [lang: string]: { pages: MenuPage[]; blog: MenuPage[] } } = {};
   private readonly categoryOrder = [
     'cute', 'dinosaurs', 'ocean', 'garden', 'flowers', 'circus',
     'playgrounds', 'canada', 'uae', 'planes', 'space', 'usa-250'
@@ -88,6 +96,7 @@ export class PuzzleMenuComponent implements OnInit {
         this.languages = manifest && manifest.languages ? manifest.languages : [];
         this.content = manifest && manifest.content ? manifest.content : {};
         this.collections = manifest && manifest.collections ? manifest.collections : {};
+        this.pages = manifest && manifest.pages ? manifest.pages : {};
         if (!this.languages.some(language => language.code === this.selectedLang) && this.languages.length) {
           this.selectedLang = this.languages[0].code;
         }
@@ -117,6 +126,8 @@ export class PuzzleMenuComponent implements OnInit {
 
   onLanguageChange(): void {
     this.recompute();
+    this.languageChanged.emit(this.selectedLang);
+    this.updatePages();
   }
 
   onSearchChange(): void {
@@ -168,6 +179,7 @@ export class PuzzleMenuComponent implements OnInit {
     this.searchStatusText = this.isSearching
       ? (this.resultCount === 1 ? '1 match' : `${this.resultCount} matches`)
       : '';
+    this.updatePages();
   }
 
   private categoryLabel(key: string): string {
@@ -247,6 +259,7 @@ export class PuzzleMenuComponent implements OnInit {
           englishEntry: englishEntry || entry,
           document: result.document,
           collectionOnly
+          , contentKind: collectionOnly ? 'collection' : 'puzzle'
         });
       },
       () => {
@@ -266,6 +279,37 @@ export class PuzzleMenuComponent implements OnInit {
     }
     this.expandedCategories.add(categoryKey);
     this.selectPuzzle(categoryKey, firstPuzzle.slug, true);
+  }
+
+  selectPage(entry: MenuPage, kind: 'page' | 'blog'): void {
+    this.loadError = null;
+    const sequence = ++this.loadSequence;
+    const load = (language: string) => this.http.get<any>(`assets/content/${language}/${entry.file}`);
+    forkJoin({ document: load(this.selectedLang), englishDocument: load('en') }).subscribe({
+      next: result => {
+        if (sequence !== this.loadSequence) { return; }
+        const pick = (document: any) => kind === 'blog' && Array.isArray(document)
+          ? document.find(item => item.slug === entry.slug) : document;
+        const document = pick(result.document);
+        const english = pick(result.englishDocument) || document;
+        if (!document) { this.loadError = `"${entry.slug}" was not found.`; return; }
+        this.activeCategory = kind;
+        this.activeSlug = entry.slug;
+        this.puzzleSelected.emit({
+          language: this.selectedLang, category: kind, slug: entry.slug,
+          entry: document, englishEntry: english, document, contentKind: kind
+        });
+      },
+      error: () => { if (sequence === this.loadSequence) { this.loadError = `Could not load ${entry.name}.`; } }
+    });
+  }
+
+  private updatePages(): void {
+    const selected = this.pages[this.selectedLang] || { pages: [], blog: [] };
+    const term = this.searchTerm.trim().toLowerCase();
+    const filter = (entries: MenuPage[]) => !term ? entries : entries.filter(entry => entry.name.toLowerCase().includes(term) || entry.slug.includes(term));
+    this.pageEntries = filter(selected.pages || []);
+    this.blogEntries = filter(selected.blog || []);
   }
 
   private puzzlesFromDocument(document: any): any[] {

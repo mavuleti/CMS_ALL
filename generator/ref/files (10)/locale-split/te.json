@@ -1,0 +1,212 @@
+{
+  "scoring_model": {
+    "name": "heuristic_opportunity_score_v1",
+    "status": "tunable_not_calibrated",
+    "purpose": "Prioritize phrases within this collected locale dataset only.",
+    "not_valid_for": [
+      "estimating search volume",
+      "predicting sales",
+      "measuring keyword competition",
+      "comparing external market demand"
+    ]
+  },
+  "locale": "te",
+  "data": {
+    "alias_source_key": "telugu",
+    "native_phrases": [
+      {
+        "phrase": "చుక్కలు కలిపే ఆటలు",
+        "normalized": "చుక్కలు కలిపే ఆటలు",
+        "meaning": "Dots joining games",
+        "note": ""
+      },
+      {
+        "phrase": "చుక్కల బొమ్మలు",
+        "normalized": "చుక్కల బొమ్మలు",
+        "meaning": "Dot pictures",
+        "note": ""
+      },
+      {
+        "phrase": "చుక్కలు కలిపితే వచ్చే బొమ్మలు",
+        "normalized": "చుక్కలు కలిపితే వచ్చే బొమ్మలు",
+        "meaning": "Pictures that appear when joining dots",
+        "note": ""
+      },
+      {
+        "phrase": "తెలుగు చుక్కల ముగ్గులు",
+        "normalized": "తెలుగు చుక్కల ముగ్గులు",
+        "meaning": "Telugu dot designs/rangoli",
+        "note": "Useful if you want traditional patterns"
+      },
+      {
+        "phrase": "Find free printable versions",
+        "normalized": "find free printable versions",
+        "meaning": "",
+        "note": ""
+      },
+      {
+        "phrase": "Translate specific instructions for the puzzles",
+        "normalized": "translate specific instructions for the puzzle",
+        "meaning": "",
+        "note": ""
+      },
+      {
+        "phrase": "Find Telugu educational games for kids",
+        "normalized": "find telugu educational games for kids",
+        "meaning": "",
+        "note": ""
+      },
+      {
+        "phrase": "చుక్కలు కలిపే డ్రాయింగ్స్",
+        "normalized": "చుక్కలు కలిపే డ్రాయింగ్స్",
+        "meaning": "Dot-joining drawings",
+        "note": ""
+      },
+      {
+        "phrase": "పిల్లల చుక్కల బొమ్మలు",
+        "normalized": "పిల్లల చుక్కల బొమ్మలు",
+        "meaning": "Kids' dot pictures",
+        "note": ""
+      },
+      {
+        "phrase": "చుక్కల ఆటలు ప్రింట్",
+        "normalized": "చుక్కల ఆటలు ప్రింట్",
+        "meaning": "Dot games print",
+        "note": ""
+      },
+      {
+        "phrase": "చుక్కలను కలుపుతూ బొమ్మలు గీయడం",
+        "normalized": "చుక్కలను కలుపుతూ బొమ్మలు గీయడం",
+        "meaning": "Drawing pictures by connecting dots",
+        "note": ""
+      },
+      {
+        "phrase": "PDF",
+        "normalized": "pdf",
+        "meaning": "",
+        "note": ""
+      },
+      {
+        "phrase": "worksheets",
+        "normalized": "worksheet",
+        "meaning": "",
+        "note": ""
+      },
+      {
+        "phrase": "print",
+        "normalized": "print",
+        "meaning": "",
+        "note": ""
+      },
+      {
+        "phrase": "App",
+        "normalized": "app",
+        "meaning": "",
+        "note": ""
+      },
+      {
+        "phrase": "Game",
+        "normalized": "game",
+        "meaning": "",
+        "note": ""
+      },
+      {
+        "phrase": "Generate a ready-to-print list of links using these exact terms",
+        "normalized": "generate a ready-to-print list of links using these exact terms",
+        "meaning": "",
+        "note": ""
+      },
+      {
+        "phrase": "Find Telugu alphabet tracing sheets",
+        "normalized": "find telugu alphabet tracing sheets",
+        "meaning": "",
+        "note": ""
+      }
+    ],
+    "romanized_phrases": [
+      {
+        "phrase": "chukkala bommalu drawings",
+        "normalized": "chukkala bommalu drawings",
+        "meaning": "Dot pictures drawings",
+        "note": ""
+      },
+      {
+        "phrase": "chukkalu kalipe bommalu printables",
+        "normalized": "chukkalu kalipe bommalu printable",
+        "meaning": "Dot-connecting pictures printables",
+        "note": ""
+      },
+      {
+        "phrase": "chukkala ata pdf",
+        "normalized": "chukkala ata pdf",
+        "meaning": "Dot game PDF",
+        "note": ""
+      },
+      {
+        "phrase": "chukkalu kalipithe vache bommalu",
+        "normalized": "chukkalu kalipithe vache bommalu",
+        "meaning": "Pictures that come when you connect dots",
+        "note": ""
+      }
+    ],
+    "english_phrases_used_by_locals": [
+      {
+        "phrase": "Telugu dot to dot puzzles",
+        "normalized": "telugu dot to dot puzzle",
+        "meaning": "",
+        "note": ""
+      },
+      {
+        "phrase": "Telugu connect the dots worksheets",
+        "normalized": "telugu connect the dots worksheet",
+        "meaning": "",
+        "note": ""
+      },
+      {
+        "phrase": "Telugu chukkala bommalu",
+        "normalized": "telugu chukkala bommalu",
+        "meaning": "",
+        "note": ""
+      },
+      {
+        "phrase": "Telugu dots joining pictures PDF",
+        "normalized": "telugu dots joining pictures pdf",
+        "meaning": "",
+        "note": ""
+      },
+      {
+        "phrase": "Connect the dots worksheets for kids",
+        "normalized": "connect the dots worksheet for kids",
+        "meaning": "",
+        "note": ""
+      },
+      {
+        "phrase": "Dot to dot drawing images download",
+        "normalized": "dot to dot drawing images download",
+        "meaning": "",
+        "note": ""
+      },
+      {
+        "phrase": "Number dots joining worksheets PDF",
+        "normalized": "number dots joining worksheet pdf",
+        "meaning": "",
+        "note": ""
+      },
+      {
+        "phrase": "Kids drawing dots connecting book",
+        "normalized": "kids drawing dots connecting book",
+        "meaning": "",
+        "note": ""
+      }
+    ],
+    "intent_modifiers": []
+  },
+  "opportunity_summary": {
+    "primary_term": "చుక్కలు కలిపే ఆటలు",
+    "print_modifier": "Find free printable versions",
+    "free_modifier": "Find free printable versions",
+    "children_modifier": "Find Telugu educational games for kids",
+    "adult_modifier": "",
+    "recommended_local_phrase": "చుక్కలు కలిపే ఆటలు"
+  }
+}

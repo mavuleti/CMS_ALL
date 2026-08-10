@@ -1,0 +1,158 @@
+{
+  "scoring_model": {
+    "name": "heuristic_opportunity_score_v1",
+    "status": "tunable_not_calibrated",
+    "purpose": "Prioritize phrases within this collected locale dataset only.",
+    "not_valid_for": [
+      "estimating search volume",
+      "predicting sales",
+      "measuring keyword competition",
+      "comparing external market demand"
+    ]
+  },
+  "locale": "el",
+  "data": {
+    "alias_source_key": "el",
+    "native_phrases": [
+      {
+        "phrase": "ένωσε τις τελείες εκτυπώσιμα",
+        "normalized": "ένωσε τις τελείες εκτυπώσιμα",
+        "meaning": "Connect the dots printables",
+        "note": "Direct instruction format, highly common for parents"
+      },
+      {
+        "phrase": "ενώνω τις τελείες φύλλα εργασίας",
+        "normalized": "ενώνω τις τελείες φύλλα εργασίας",
+        "meaning": "Connecting the dots worksheets",
+        "note": "Primarily used by preschool and primary-school teachers"
+      },
+      {
+        "phrase": "ζωγραφική με τελείες και νούμερα",
+        "normalized": "ζωγραφική με τελείες και νούμερα",
+        "meaning": "Coloring with dots and numbers",
+        "note": "Focuses on counting and coloring"
+      },
+      {
+        "phrase": "παιχνίδια με τελείες για εκτύπωση",
+        "normalized": "παιχνίδια με τελείες για εκτύπωση",
+        "meaning": "Dot games for printing",
+        "note": "Casual query for quick entertainment"
+      },
+      {
+        "phrase": "γρίφοι με τελείες pdf",
+        "normalized": "γρίφοι με τελείες pdf",
+        "meaning": "Dot puzzles PDF",
+        "note": "Used for clean downloadable documents ready to print"
+      },
+      {
+        "phrase": "ενώνω τις τελείες για νήπια",
+        "normalized": "ενώνω τις τελείες για νήπια",
+        "meaning": "Connect the dots for toddlers",
+        "note": ""
+      },
+      {
+        "phrase": "δύσκολα παιχνίδια με τελείες για μεγάλους",
+        "normalized": "δύσκολα παιχνίδια με τελείες για μεγάλους",
+        "meaning": "Difficult dot games for adults",
+        "note": ""
+      },
+      {
+        "phrase": "ενώνω τις τελείες",
+        "normalized": "ενώνω τις τελείες",
+        "meaning": "connect the dots",
+        "note": ""
+      },
+      {
+        "phrase": "ζωγραφική με τελείες",
+        "normalized": "ζωγραφική με τελείες",
+        "meaning": "drawing/coloring with dots",
+        "note": ""
+      },
+      {
+        "phrase": "Optimize Greek titles or tags for either teachers or parents",
+        "normalized": "optimize greek titles or tags for either teachers or parents",
+        "meaning": "",
+        "note": ""
+      },
+      {
+        "phrase": "Develop exact optimized keywords for a specific theme such as Greek mythology",
+        "normalized": "develop exact optimized keywords for a specific theme such as greek mythology",
+        "meaning": "",
+        "note": ""
+      }
+    ],
+    "romanized_phrases": [],
+    "english_phrases_used_by_locals": [
+      {
+        "phrase": "dot to dot εκτυπώσιμα",
+        "normalized": "dot to dot εκτυπώσιμα",
+        "meaning": "Dot-to-dot printables",
+        "note": "English puzzle name combined with the Greek word for printables"
+      },
+      {
+        "phrase": "connect the dots pdf greece",
+        "normalized": "connect the dots pdf greece",
+        "meaning": "Connect the dots PDF Greece",
+        "note": "Used to find internationally sourced, globally accessible documents"
+      },
+      {
+        "phrase": "dot to dot puzzles για παιδιά",
+        "normalized": "dot to dot puzzle για παιδιά",
+        "meaning": "Dot-to-dot puzzles for kids",
+        "note": "English activity type mixed with a Greek audience indicator"
+      },
+      {
+        "phrase": "dot to dot printables",
+        "normalized": "dot to dot printable",
+        "meaning": "",
+        "note": ""
+      },
+      {
+        "phrase": "connect the dots pdf greece",
+        "normalized": "connect the dots pdf greece",
+        "meaning": "",
+        "note": ""
+      },
+      {
+        "phrase": "dot to dot puzzles for kids",
+        "normalized": "dot to dot puzzle for kids",
+        "meaning": "",
+        "note": ""
+      }
+    ],
+    "intent_modifiers": [
+      {
+        "phrase": "για νήπια",
+        "normalized": "για νήπια",
+        "meaning": "for toddlers",
+        "note": ""
+      },
+      {
+        "phrase": "εύκολα",
+        "normalized": "εύκολα",
+        "meaning": "easy",
+        "note": ""
+      },
+      {
+        "phrase": "δύσκολα",
+        "normalized": "δύσκολα",
+        "meaning": "difficult",
+        "note": ""
+      },
+      {
+        "phrase": "για μεγάλους",
+        "normalized": "για μεγάλους",
+        "meaning": "for adults/grown-ups",
+        "note": ""
+      }
+    ]
+  },
+  "opportunity_summary": {
+    "primary_term": "ένωσε τις τελείες εκτυπώσιμα",
+    "print_modifier": "ένωσε τις τελείες εκτυπώσιμα",
+    "free_modifier": "",
+    "children_modifier": "",
+    "adult_modifier": "δύσκολα παιχνίδια με τελείες για μεγάλους",
+    "recommended_local_phrase": "ένωσε τις τελείες εκτυπώσιμα"
+  }
+}

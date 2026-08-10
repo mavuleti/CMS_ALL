@@ -1,3 +1,4 @@
+/* eslint-disable no-restricted-syntax -- Category fallback copy is centralized in the shared registry. */
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
@@ -9,8 +10,8 @@ import { CategoryFaqSection } from '@/components/sections';
 import { routing } from '@/i18n/routing';
 import { categories, getCategory } from '@/lib/category-registry';
 import { localizeAge } from '@/lib/age';
-import { buildAlternates, SITE_NAME } from '@/lib/seo';
-import { puzzleImageAlt } from '@/lib/localized-seo';
+import { buildCommonHeaderMetadata } from '@/components/templates/CommonHeaderTemplate';
+import { collectionHeaderSeo, puzzleImageAlt } from '@/lib/json-seo';
 
 export type CollectionRouteProps = { params: Promise<{ locale: string; category: string }> };
 
@@ -24,13 +25,18 @@ export async function generateCollectionMetadata({ params }: CollectionRouteProp
   const { locale, category: slug } = await params;
   const category = getCategory(slug);
   if (!category) return {};
+  const header = collectionHeaderSeo(locale, slug);
   const title = `${category.h1} — Free PDF Worksheets`;
-  return {
-    title,
-    description: category.description,
-    alternates: buildAlternates(locale, `/${slug}`),
-    openGraph: { title, description: category.description, url: `/${locale}/${slug}/`, siteName: SITE_NAME, type: 'website' }
-  };
+  return buildCommonHeaderMetadata({
+    locale,
+    path: `/${slug}`,
+    title: header.title,
+    description: header.description,
+    type: 'website',
+    ogTitle: header.ogTitle,
+    ogDescription: header.ogDescription,
+    image: header.image
+  });
 }
 
 function DifficultyBar({ level, ariaLabel }: { level: 1 | 2 | 3; ariaLabel: string }) {

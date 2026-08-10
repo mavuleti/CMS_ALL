@@ -1,237 +1,456 @@
-[
-  {
-    "slug": "canada-canoe-dot-to-dot-puzzle",
-    "name": "Kanadisches Kanu",
-    "seoH1": "Kanadisches Kanu Punkt-zu-Punkt — Paddeln Sie durch 69 Punkte",
-    "tagline": "Paddeln Sie über Kanadas Seen und Flüsse",
-    "description": "Verbinden Sie 69 Punkte, um ein kanadisches Kanu und ein Paddel zu enthüllen. Dieses mittlere Druckmaterial fördert die Zahlenfolge und die Bleistiftkontrolle, während es ein Wasserfahrzeug einführt, das eng mit dem Reisen in Kanada verbunden ist.",
-    "seoDescription": "Vor den Straßen transportierten Kanus Menschen über Kanadas Seen und Flüsse. Paddeln Sie durch 69 Punkte mit diesem kostenlosen druckbaren PDF für Kinder im Alter von 5 bis 9 Jahren.",
-    "funFact": "Kanus ermöglichten es, Menschen und Vorräte entlang miteinander verbundener Seen und Flüsse zu transportieren, wo keine Straßen existierten.",
-    "seoImageAlt": "Kanadisches Ahornblatt, jede Spitze nachgezeichnet durch 70 nummerierte Druckpunkte",
-    "dotGuide": {
-      "intro": "Das Kanu ist eines der bekanntesten Wasserfahrzeuge in Kanada. Indigene Völker entwickelten ausgeklügelte Kanu-Designs, die an lokale Gewässer und verfügbare Materialien angepasst waren, und spätere Reisende verließen sich auf Kanus, um durch riesige Netzwerke von Flüssen und Seen zu navigieren. Dieses 69-Punkte-Puzzle verfolgt das Paddel und den langen, eleganten Rumpf des Kanus. Finden Sie Punkt 1 und beginnen Sie Ihre Reise!",
-      "sections": [
-        {
-          "range": "1–14",
-          "title": "Das Paddel und der obere Rand",
-          "learn": "Beginnen Sie bei Punkt 1 und verbinden Sie sich durch Punkt 14, um das Paddel und die obere Kante des Kanus zu umreißen. Folgen Sie der langen Linie gleichmäßig und überprüfen Sie jede Zahl, bevor der Bug nach oben zeigt.",
-          "fact": "Ein Paddel hat einen Griff, einen Schaft und eine Klinge. Die breite Klinge drückt gegen das Wasser, um das Kanu zu bewegen und zu steuern."
-        },
-        {
-          "range": "15–28",
-          "title": "Der aufsteigende Bug",
-          "learn": "Fahren Sie von Punkt 15 zu Punkt 28 um die hohe Vorderseite des Kanus. Verlangsamen Sie, während sich die Umrisse ändern, damit der spitze Bug glatt bleibt.",
-          "fact": "Der Bug ist die Vorderseite eines Kanus und das Heck ist die Rückseite. Ihre erhöhten Formen helfen dem Boot, durch Wellen und fließendes Wasser zu reisen."
-        },
-        {
-          "range": "29–42",
-          "title": "Die Paddelklinge und der Rumpf",
-          "learn": "Verfolgen Sie die Punkte 29 bis 42 um die Paddelklinge und den unteren Rumpf. Verwenden Sie kontrollierte Kurven, wo die beiden Formen nah beieinander liegen.",
-          "fact": "Der Geological Survey of Canada verließ sich während der frühen nordischen Feldarbeit auf Kanus. Sehen Sie sich sein historisches Kanu von 1874 auf der <a href=\"https://ised-isde.canada.ca/site/science/en/educational-resources/history-geological-survey-canada-175-objects/26-canoe-1874\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Website der Regierung von Kanada</a> an."
-        },
-        {
-          "range": "43–56",
-          "title": "Die lange untere Seite",
-          "learn": "Verbinden Sie die Punkte 43 bis 56 entlang der sanften Unterseite. Diese längeren Lücken belohnen eine ruhige Hand und sorgfältige visuelle Verfolgung.",
-          "fact": "Traditionelle Kanus wurden in verschiedenen Formen in den indigenen Kulturen gebaut, wobei Materialien wie Birkenrinde, Zeder, Tierhäute und sorgfältig geformtes Holz verwendet wurden."
-        },
-        {
-          "range": "57–69",
-          "title": "Das Heck und der Abschluss",
-          "learn": "Beenden Sie mit den Punkten 57 bis 69 um das Heck und zurück zur oberen Kante. Zählen Sie sorgfältig bis zum letzten Punkt und überprüfen Sie, ob der gesamte Rumpf verbunden ist.",
-          "fact": "Die Paddelbedingungen können sich schnell ändern, daher sind Vorbereitung und die richtige Sicherheitsausrüstung wichtig. Familien können von <a href=\"https://parks.canada.ca/voyage-travel/experiences/sports/pagayer-paddling\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Parks Canada</a> über Kanufahren und Wassersicherheit lernen."
+{
+  "collection": {
+    "header": {
+      "title": "Kostenlose Kanada-Punkt-zu-Punkt-Bilder für Kinder",
+      "meta_description": "Entdecke Kanada mit kostenlosen Vorlagen zum Zahlen verbinden – kanadische Tiere, Ahornblätter und weitere Motive zum Ausdrucken.",
+      "og": {
+        "title": "Kostenlose Kanada-Punkt-zu-Punkt-Rätsel",
+        "description": "Kostenlose druckbare Kanada-Vorlagen für Kinder.",
+        "image": "/images/canada-maple-leaf-puzzle.webp"
+      },
+      "json_ld": {
+        "type": "CollectionPage",
+        "name": "Kanada",
+        "description": "Entdecke Kanada mit kostenlosen Arbeitsblättern zu kanadischen Tieren und dem berühmten Ahornblatt.",
+        "image": "/images/canada-maple-leaf-puzzle.webp",
+        "main_entity": {
+          "type": "ItemList",
+          "item_source": "puzzles"
         }
-      ],
-      "outro": "Ausgezeichnet – dein Kanu ist bereit für das Wasser! Färbe den Rumpf, füge Wellen darunter hinzu und zeichne einen kanadischen See oder Wald im Hintergrund. Entdecke weitere offizielle Paddelideen von <a href=\"https://parks.canada.ca/voyage-travel/experiences/sports/pagayer-paddling\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Parks Canada</a>, und versuche dann ein weiteres <a href=\"/canada/\">Canada Punkt-zu-Punkt-Puzzle</a>."
+      },
+      "breadcrumb_json_ld": {
+        "type": "BreadcrumbList",
+        "items": [
+          {
+            "position": 1,
+            "name": "Home",
+            "path": "/"
+          },
+          {
+            "position": 2,
+            "name": "Kanada",
+            "path": "/canada/"
+          }
+        ]
+      }
     },
-    "seoTitle": "Ahornblatt Zahlenbild: Kanadas Symbol in 70 Punkten"
+    "body": {
+      "h1": "Kanada-Punkt-zu-Punkt-Rätsel",
+      "name": "Kanada",
+      "tagline": "Entdecke Kanada Punkt für Punkt",
+      "description": "Entdecke Kanada mit kostenlosen Arbeitsblättern zu kanadischen Tieren und dem berühmten Ahornblatt.",
+      "hero_image": "/images/canada-maple-leaf-puzzle.webp",
+      "slug": "canada",
+      "faqs": [
+        {
+          "q": "Sind alle Punkt-zu-Punkt-Ausmalbilder auf dieser Website völlig kostenlos?",
+          "a": "Ja – jedes Punkt-zu-Punkt-Arbeitsblatt auf DotToDotFreePrintables.com kann zu 100 % kostenlos heruntergeladen und ausgedruckt werden. Es ist weder ein Konto noch ein Abonnement noch eine Kreditkarte erforderlich."
+        },
+        {
+          "q": "Für welches Alter sind Punkt-zu-Punkt-Arbeitsblätter geeignet?",
+          "a": "Unsere Arbeitsblätter richten sich an Kinder im Alter von 2 bis 12 Jahren. Einfache Arbeitsblätter (10–20 Punkte) eignen sich für Kleinkinder und Vorschulkinder, mittelschwere Arbeitsblätter (20–50 Punkte) sind ideal für den Kindergarten und die 1. Klasse, und schwierigere Arbeitsblätter (50–200+ Punkte) stellen eine Herausforderung für Schüler der 2. bis 6. Klasse dar."
+        },
+        {
+          "q": "In welchem Format liegen die Ausdrucke zum Punkt-zu-Punkt-Verbinden vor?",
+          "a": "Alle Arbeitsblätter lassen sich als druckfertige PDF-Dateien im Standardformat „US Letter“ (8,5\" × 11\") herunterladen. Sie können sie in jedem Browser oder PDF-Viewer öffnen und ausdrucken – es ist keine spezielle Software erforderlich."
+        },
+        {
+          "q": "Dürfen Lehrer diese Arbeitsblätter zum Verbinden von Punkten im Unterricht verwenden?",
+          "a": "Ja! Unsere Arbeitsvorlagen sind für den privaten Gebrauch und den Einsatz im Unterricht kostenlos. Sie eignen sich besonders gut für die Arbeit am Morgen, für Schüler, die schneller fertig sind, als Vertretungsunterricht, für Stationen zur Förderung der Feinmotorik und für Hausaufgabenpakete."
+        }
+      ]
+    }
   },
-  {
-    "slug": "canada-maple-leaf-dot-to-dot-puzzle",
-    "name": "Ahornblatt",
-    "seoH1": "Ahornblatt Punkt-zu-Punkt: Kanadas Ikone in 70 Punkten",
-    "tagline": "Kanadas berühmtes rotes Blatt",
-    "description": "Verbinde 70 Punkte, um ein Ahornblatt zu enthüllen, eines der bekanntesten Symbole Kanadas. Dieses mittlere Puzzle hilft Kindern, die Zahlenreihenfolge und die sorgfältige Bleistiftkontrolle zu üben, während sie lernen, warum das Blatt auf Kanadas Flagge erscheint.",
-    "seoDescription": "Das Ahornblatt steht seit 1965 im Mittelpunkt von Kanadas Flagge. Verfolge seine ikonische Umrisslinie über 70 Punkte in einem kostenlosen druckbaren PDF für Kinder im Alter von 5 bis 9 Jahren.",
-    "funFact": "Das Ahornblatt erscheint seit 1965 im Zentrum von Kanadas Nationalflagge.",
-    "seoImageAlt": "Kräftiger Eisbär auf Eis, geformt durch 74 Punkte auf einer druckbaren PDF-Vorlage",
-    "dotGuide": {
-      "intro": "Ahornbäume erhellen die kanadischen Wälder jeden Herbst mit feurigen roten, orangen und goldenen Blättern. Das Ahornblatt repräsentiert Kanada seit Generationen und sitzt stolz in der Mitte der rot-weißen Flagge des Landes. Dieses 70-Punkte-Puzzle folgt den spitzen Kanten und dem stabilen Stiel des Blattes. Finde Punkt 1, halte deinen Bleistift in der Zahlenreihenfolge in Bewegung und sieh zu, wie ein kanadisches Symbol Gestalt annimmt!",
-      "sections": [
-        {
-          "range": "1–14",
-          "title": "Der obere Punkt",
-          "learn": "Beginne bei Punkt 1 und verbinde ihn durch Punkt 14, um die hohe Spitze oben am Blatt zu formen. Folge jeder kleinen Kurve sorgfältig – die scharfen Ecken geben einem Ahornblatt seine erkennbare Form.",
-          "fact": "Kanadas Flagge zeigt ein stilisiertes rotes Ahornblatt mit 11 Punkten. Erfahre mehr über das Design und die Geschichte der Flagge von <a href=\"https://www.canada.ca/en/canadian-heritage/services/flag-canada-history.html\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Canadian Heritage</a>."
+  "puzzles": [
+    {
+      "slug": "canada-canoe-dot-to-dot-puzzle",
+      "header": {
+        "title": "Ahornblatt Zahlenbild: Kanadas Symbol in 70 Punkten",
+        "meta_description": "Vor den Straßen transportierten Kanus Menschen über Kanadas Seen und Flüsse. Paddeln Sie durch 69 Punkte mit diesem kostenlosen druckbaren PDF für Kinder im Alter von 5 bis 9 Jahren.",
+        "og": {
+          "title": "Ahornblatt Zahlenbild: Kanadas Symbol in 70 Punkten",
+          "description": "Vor den Straßen transportierten Kanus Menschen über Kanadas Seen und Flüsse. Paddeln Sie durch 69 Punkte mit diesem kostenlosen druckbaren PDF für Kinder im Alter von 5 bis 9 Jahren.",
+          "image_alt": "Kanadisches Ahornblatt, jede Spitze nachgezeichnet durch 70 nummerierte Druckpunkte"
         },
-        {
-          "range": "15–28",
-          "title": "Die rechten Punkte",
-          "learn": "Fahre von Punkt 15 bis Punkt 28 fort und bewege dich die rechte Seite des Blattes hinunter. Verlangsame an jeder Ecke und überprüfe die nächste Zahl, bevor du die Richtung änderst.",
-          "fact": "Kanada hat 10 einheimische Ahornarten. Der Zuckerahorn ist besonders berühmt, weil sein Saft zu Ahornsirup verarbeitet werden kann."
-        },
-        {
-          "range": "29–42",
-          "title": "Der Stiel",
-          "learn": "Verbinde die Punkte 29 bis 42, um die untere Kante und den schmalen Stiel zu zeichnen. Verwende kürzere Striche um die engen Kurven, damit deine Linie nah an den Punkten bleibt.",
-          "fact": "Menschen sammeln im frühen Frühling Ahornsaft, wenn gefrierende Nächte und wärmere Tage den Saftfluss im Baum unterstützen."
-        },
-        {
-          "range": "43–56",
-          "title": "Die linken Punkte",
-          "learn": "Verfolge die Punkte 43 bis 56 zurück die linke Seite hinauf. Diese Punkte spiegeln die Formen auf der rechten Seite wider, also vergleiche beide Seiten, während du zeichnest.",
-          "fact": "Lange bevor Kanadas moderne Flagge angenommen wurde, erschienen Ahornblätter auf kanadischen Abzeichen, Wappen, Münzen und militärischen Emblemen."
-        },
-        {
-          "range": "57–70",
-          "title": "Das Schließen des Blattes",
-          "learn": "Beende mit den Punkten 57 bis 70 und kehre an die Spitze des Blattes zurück. Zähle langsam bis zum letzten Punkt und überprüfe, ob jeder Punkt und jede Ecke verbunden ist.",
-          "fact": "Ahornblätter stellen mit Sonnenlicht Nahrung für den Baum her. Im Herbst zerfällt ihr grünes Pigment und andere Farben werden leichter sichtbar."
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Kanadisches Kanu",
+          "description": "Vor den Straßen transportierten Kanus Menschen über Kanadas Seen und Flüsse. Paddeln Sie durch 69 Punkte mit diesem kostenlosen druckbaren PDF für Kinder im Alter von 5 bis 9 Jahren.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
         }
-      ],
-      "outro": "Fantastisch – dein Ahornblatt ist fertig! Färbe es leuchtend rot wie die kanadische Flagge oder benutze Gelb und Orange für ein Herbstblatt. Entdecke mehr über Kanadas nationale Symbole auf der <a href=\"https://www.canada.ca/en/canadian-heritage/services/official-symbols-canada.html\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Website der Regierung von Kanada</a>, und versuche dann ein weiteres <a href=\"/canada/\">Kanada-Punkte-zu-Punkten-Rätsel</a>."
-    },
-    "seoTitle": "Eisbär Zahlenbild – 74 arktische Punkte gratis"
-  },
-  {
-    "slug": "canada-polar-bear-dot-to-dot-puzzle",
-    "name": "Eisbär",
-    "seoH1": "Druckbares Punkte-zu-Punkten-Rätsel Eisbär, 74 arktische Punkte kostenlos",
-    "tagline": "Ein Riese der Arktis Kanadas",
-    "description": "Verbinde 74 Punkte, um einen mächtigen Eisbären zu enthüllen. Dieses mittlere Druckblatt gibt Kindern Übung im Nummernfolgen, während es ein Tier vorstellt, das speziell an das Leben auf arktischem Meereis angepasst ist.",
-    "seoDescription": "Etwa zwei Drittel der weltweiten Eisbären leben in Kanada. Enthülle diesen arktischen Riesen durch 74 Punkte mit einem kostenlosen Arbeitsblatt für Kinder im Alter von 6 bis 10 Jahren.",
-    "funFact": "Etwa zwei Drittel der weltweiten Eisbären leben in Kanada.",
-    "seoImageAlt": "Elch mit breitem Geweih steht aufrecht, sobald 89 Punkte verbunden sind",
-    "dotGuide": {
-      "intro": "Eisbären streifen entlang der gefrorenen Küsten und des Meereises der Arktis Kanadas. Ihr dickes Fell, kleine Ohren und riesige Pfoten helfen ihnen, warm zu bleiben und über Schnee, Eis und Wasser zu reisen. Dieses 74-Punkte-Rätsel verfolgt einen Eisbären von seiner Schnauze bis zu seinen breiten Pfoten. Beginne bei Punkt 1 und mache die Reise eine sorgfältige Linie nach der anderen.",
-      "sections": [
-        {
-          "range": "1–15",
-          "title": "Die Schnauze und der Kopf",
-          "learn": "Beginne bei Punkt 1 und verbinde bis Punkt 15, um die Schnauze, das Maul und den runden Kopf zu formen. Halte die Linien um das Gesicht sanft, damit das Profil des Bären glatt aussieht.",
-          "fact": "Ein Eisbär hat einen ausgezeichneten Geruchssinn, der ihm hilft, Robben, seine Hauptbeute, über das Eis zu lokalisieren."
-        },
-        {
-          "range": "16–30",
-          "title": "Der Rücken und die Schultern",
-          "learn": "Fahre von Punkt 16 bis Punkt 30 entlang der starken Schultern und des gebogenen Rückens fort. Versuche, diese lange Kontur mit gleichmäßigen Strichen zu machen, anstatt viele kleine Markierungen zu setzen.",
-          "fact": "Eisbären sind die größten landlebenden Raubtiere in Kanada. Erwachsene Männchen können mehrere hundert Kilogramm wiegen."
-        },
-        {
-          "range": "31–45",
-          "title": "Die Hinterbeine",
-          "learn": "Verfolge die Punkte 31 bis 45, um die Hinterbeine und Pfoten zu zeichnen. Überprüfe jede Nummer sorgfältig, wo die Kontur in der Nähe der Füße die Richtung ändert.",
-          "fact": "Die breiten Pfoten eines Eisbären verteilen sein Gewicht über den Schnee und funktionieren wie Paddel, wenn er schwimmt."
-        },
-        {
-          "range": "46–60",
-          "title": "Der Bauch und die Vorderpfoten",
-          "learn": "Verbinde die Punkte 46 bis 60 unter dem Körper und um die Vorderpfoten. Kurze, kontrollierte Linien helfen dir, den engeren Kurven zu folgen.",
-          "fact": "Eisbären haben schwarze Haut unter dem Fell, das weiß aussieht. Ihr Pelz hilft ihnen, sich in eine schneebedeckte arktische Landschaft einzufügen."
-        },
-        {
-          "range": "61–74",
-          "title": "Die Brust und das Finish",
-          "learn": "Beende mit den Punkten 61 bis 74, indem du die Brust hinauf und zurück zum Kopf bewegst. Halte am letzten Punkt an und stelle sicher, dass keine Nummer übersprungen wurde.",
-          "fact": "Meereis ist ein essentielles Habitat für Eisbären, da es eine Plattform zum Jagen von Robben bietet. Lies das Artenprofil von <a href=\"https://www.canada.ca/en/environment-climate-change/services/species-risk-public-registry/cosewic-assessments-status-reports/polar-bear-2018.html\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Environment and Climate Change Canada</a>."
+      },
+      "body": {
+        "h1": "Kanadisches Kanu Punkt-zu-Punkt — Paddeln Sie durch 69 Punkte",
+        "name": "Kanadisches Kanu",
+        "tagline": "Paddeln Sie über Kanadas Seen und Flüsse",
+        "description": "Verbinden Sie 69 Punkte, um ein kanadisches Kanu und ein Paddel zu enthüllen. Dieses mittlere Druckmaterial fördert die Zahlenfolge und die Bleistiftkontrolle, während es ein Wasserfahrzeug einführt, das eng mit dem Reisen in Kanada verbunden ist.",
+        "fun_fact": "Kanus ermöglichten es, Menschen und Vorräte entlang miteinander verbundener Seen und Flüsse zu transportieren, wo keine Straßen existierten.",
+        "faqs": [
+          {
+            "q": "Für welches Alter ist das Punkt-zu-Punkt-Rätsel Kanadisches Kanu geeignet?",
+            "a": "Es ist für Kinder im Alter von Alter 5–9 gedacht. Mit 69 Punkten eignet es sich für Kinder, die sicher bis 69 zählen können; jüngere Kinder schaffen es mit etwas Hilfe."
+          },
+          {
+            "q": "Wie drucke ich das Arbeitsblatt Kanadisches Kanu aus?",
+            "a": "Klicke auf den Download-Button, um das kostenlose PDF zu erhalten, und drucke es auf normalem Papier (A4 oder US Letter) aus jedem Browser oder PDF-Programm. Es wird keine spezielle Software benötigt."
+          },
+          {
+            "q": "Ist die Druckvorlage Kanadisches Kanu wirklich kostenlos?",
+            "a": "Ja — sie ist 100 % kostenlos, ohne Anmeldung, Konto oder Bezahlung. Du darfst sie für zu Hause oder den Unterricht ausdrucken."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Das Kanu ist eines der bekanntesten Wasserfahrzeuge in Kanada. Indigene Völker entwickelten ausgeklügelte Kanu-Designs, die an lokale Gewässer und verfügbare Materialien angepasst waren, und spätere Reisende verließen sich auf Kanus, um durch riesige Netzwerke von Flüssen und Seen zu navigieren. Dieses 69-Punkte-Puzzle verfolgt das Paddel und den langen, eleganten Rumpf des Kanus. Finden Sie Punkt 1 und beginnen Sie Ihre Reise!",
+          "sections": [
+            {
+              "range": "1–14",
+              "title": "Das Paddel und der obere Rand",
+              "learn": "Beginnen Sie bei Punkt 1 und verbinden Sie sich durch Punkt 14, um das Paddel und die obere Kante des Kanus zu umreißen. Folgen Sie der langen Linie gleichmäßig und überprüfen Sie jede Zahl, bevor der Bug nach oben zeigt.",
+              "fact": "Ein Paddel hat einen Griff, einen Schaft und eine Klinge. Die breite Klinge drückt gegen das Wasser, um das Kanu zu bewegen und zu steuern."
+            },
+            {
+              "range": "15–28",
+              "title": "Der aufsteigende Bug",
+              "learn": "Fahren Sie von Punkt 15 zu Punkt 28 um die hohe Vorderseite des Kanus. Verlangsamen Sie, während sich die Umrisse ändern, damit der spitze Bug glatt bleibt.",
+              "fact": "Der Bug ist die Vorderseite eines Kanus und das Heck ist die Rückseite. Ihre erhöhten Formen helfen dem Boot, durch Wellen und fließendes Wasser zu reisen."
+            },
+            {
+              "range": "29–42",
+              "title": "Die Paddelklinge und der Rumpf",
+              "learn": "Verfolgen Sie die Punkte 29 bis 42 um die Paddelklinge und den unteren Rumpf. Verwenden Sie kontrollierte Kurven, wo die beiden Formen nah beieinander liegen.",
+              "fact": "Der Geological Survey of Canada verließ sich während der frühen nordischen Feldarbeit auf Kanus. Sehen Sie sich sein historisches Kanu von 1874 auf der <a href=\"https://ised-isde.canada.ca/site/science/en/educational-resources/history-geological-survey-canada-175-objects/26-canoe-1874\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Website der Regierung von Kanada</a> an."
+            },
+            {
+              "range": "43–56",
+              "title": "Die lange untere Seite",
+              "learn": "Verbinden Sie die Punkte 43 bis 56 entlang der sanften Unterseite. Diese längeren Lücken belohnen eine ruhige Hand und sorgfältige visuelle Verfolgung.",
+              "fact": "Traditionelle Kanus wurden in verschiedenen Formen in den indigenen Kulturen gebaut, wobei Materialien wie Birkenrinde, Zeder, Tierhäute und sorgfältig geformtes Holz verwendet wurden."
+            },
+            {
+              "range": "57–69",
+              "title": "Das Heck und der Abschluss",
+              "learn": "Beenden Sie mit den Punkten 57 bis 69 um das Heck und zurück zur oberen Kante. Zählen Sie sorgfältig bis zum letzten Punkt und überprüfen Sie, ob der gesamte Rumpf verbunden ist.",
+              "fact": "Die Paddelbedingungen können sich schnell ändern, daher sind Vorbereitung und die richtige Sicherheitsausrüstung wichtig. Familien können von <a href=\"https://parks.canada.ca/voyage-travel/experiences/sports/pagayer-paddling\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Parks Canada</a> über Kanufahren und Wassersicherheit lernen."
+            }
+          ],
+          "outro": "Ausgezeichnet – dein Kanu ist bereit für das Wasser! Färbe den Rumpf, füge Wellen darunter hinzu und zeichne einen kanadischen See oder Wald im Hintergrund. Entdecke weitere offizielle Paddelideen von <a href=\"https://parks.canada.ca/voyage-travel/experiences/sports/pagayer-paddling\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Parks Canada</a>, und versuche dann ein weiteres <a href=\"/canada/\">Canada Punkt-zu-Punkt-Puzzle</a>.",
+          "color_schemes": []
         }
-      ],
-      "outro": "Ausgezeichnet – dein arktischer Riese ist fertig! Lass das Fell weiß und füge blassblaue Schatten hinzu oder zeichne einen schneebedeckten Meereishintergrund. Besuche <a href=\"https://parks.canada.ca/pn-np/mb/wapusk/nature/faune-animals/mammiferes-mammals/ours-bears/polaire-polar\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">die Eisbärseite von Parks Canada</a> mit einem Erwachsenen, um mehr zu erfahren, und entdecke weitere <a href=\"/canada/\">kostenlose Kanada-Druckvorlagen</a>."
+      }
     },
-    "seoTitle": "Elch Zahlenbild – kanadisches PDF mit 89 Punkten"
-  },
-  {
-    "slug": "canada-moose-dot-to-dot-puzzle",
-    "name": "Elch",
-    "seoH1": "Elch Punkt-zu-Punkt – ein 89-Punkte kanadisches druckbares PDF",
-    "tagline": "Kanadas majestätischer Waldgigant",
-    "description": "Verbinde 89 Punkte, um einen prächtigen Elch mit breiten Geweihen zu vervollständigen. Dieses mittlere Puzzle fördert die Zählfähigkeit und die Bleistiftkontrolle, während Kinder eines der bekanntesten Wildtiere Kanadas entdecken.",
-    "seoDescription": "Breite Geweihe krönen das größte Mitglied der Familie der Hirsche. Folge einem 89-Punkte-Pfad, um dieses kostenlose Elch-Druckbild für Kinder im Alter von 6 bis 10 Jahren zu vervollständigen.",
-    "funFact": "Raccoons have very sensitive front paws that help them explore their surroundings.",
-    "seoImageAlt": "Neugieriger Waschbär mit maskiertem Gesicht und gestreiftem Schwanz aus 90 Druckpunkten",
-    "dotGuide": {
-      "intro": "Ein Elch kann fast prähistorisch aussehen, wenn er aus einem kanadischen Wald tritt: lange Beine, eine schwere Schnauze und breite Geweihe, die über seinem Kopf aufragen. Elche sind starke Schwimmer und fühlen sich in der Nähe von Seen, Feuchtgebieten und bewaldetem Land wohl. Dieses 89-Punkte-Puzzle hat viele Wendungen, besonders um die Geweihe, also schärfe deinen Bleistift, finde Punkt 1 und zähle sorgfältig.",
-      "sections": [
-        {
-          "range": "1–18",
-          "title": "Die Schnauze und das Gesicht",
-          "learn": "Beginne bei Punkt 1 und verbinde bis Punkt 18, um die lange Schnauze und das Gesicht des Elches zu zeichnen. Verwende saubere, kurze Striche um die Nase und den Augenbereich.",
-          "fact": "Die breite Schnauze eines Elches hilft ihm, Zweige, Blätter und Wasserpflanzen zu sammeln. Elche sind Pflanzenfresser, was bedeutet, dass sie Pflanzen essen."
+    {
+      "slug": "canada-maple-leaf-dot-to-dot-puzzle",
+      "header": {
+        "title": "Eisbär Zahlenbild – 74 arktische Punkte gratis",
+        "meta_description": "Das Ahornblatt steht seit 1965 im Mittelpunkt von Kanadas Flagge. Verfolge seine ikonische Umrisslinie über 70 Punkte in einem kostenlosen druckbaren PDF für Kinder im Alter von 5 bis 9 Jahren.",
+        "og": {
+          "title": "Eisbär Zahlenbild – 74 arktische Punkte gratis",
+          "description": "Das Ahornblatt steht seit 1965 im Mittelpunkt von Kanadas Flagge. Verfolge seine ikonische Umrisslinie über 70 Punkte in einem kostenlosen druckbaren PDF für Kinder im Alter von 5 bis 9 Jahren.",
+          "image_alt": "Kräftiger Eisbär auf Eis, geformt durch 74 Punkte auf einer druckbaren PDF-Vorlage"
         },
-        {
-          "range": "19–36",
-          "title": "Die breiten Geweihe",
-          "learn": "Fahre von Punkt 19 bis Punkt 36 um die verzweigten Geweihe fort. Dies ist der kniffligste Abschnitt, also finde die nächste Nummer, bevor du jede Linie zeichnest.",
-          "fact": "Nur männliche Elche wachsen normalerweise Geweihe. Sie verlieren diese nach der Herbstbrunftzeit und wachsen im folgenden Jahr ein neues Set."
-        },
-        {
-          "range": "37–54",
-          "title": "Der Hals und der Rücken",
-          "learn": "Verfolge die Punkte 37 bis 54 entlang des Halses und über den Rücken. Lass deinen Bleistift der langen Kurve sanft folgen, während der Körper des Tieres erscheint.",
-          "fact": "Der Hautlappen, der unter dem Hals eines Elches hängt, wird als Glocke oder Kehllappen bezeichnet."
-        },
-        {
-          "range": "55–72",
-          "title": "Die langen Beine",
-          "learn": "Verbinde die Punkte 55 bis 72 um die Hinterbeine und den Bauch. Die langen, schmalen Beinformen erfordern geduldiges Zählen und kontrollierte Richtungsänderungen.",
-          "fact": "Lange Beine helfen Elchen, durch tiefen Schnee zu schreiten und in Teiche zu waten, um aquatische Pflanzen zu erreichen."
-        },
-        {
-          "range": "73–89",
-          "title": "Die Brust und der letzte Huf",
-          "learn": "Vervollständige, indem du die Punkte 73 bis 89 um die Vorderbeine und die Brust verbindest. Gehe vorsichtig bis zum letzten Huf weiter.",
-          "fact": "Elche sind fähige Schwimmer und können durch Wasser reisen, um zu fressen oder Gefahren zu entkommen. Finde mehr Informationen über die Tierwelt Kanadas im <a href=\"https://parks.canada.ca/pn-np/mb/wapusk/nature/faune-animals/mammiferes-mammals\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Mammalleitfaden von Parks Canada</a>."
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Ahornblatt",
+          "description": "Das Ahornblatt steht seit 1965 im Mittelpunkt von Kanadas Flagge. Verfolge seine ikonische Umrisslinie über 70 Punkte in einem kostenlosen druckbaren PDF für Kinder im Alter von 5 bis 9 Jahren.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
         }
-      ],
-      "outro": "Wunderbar – dein Elch ist bereit für die kanadische Wildnis! Verwende tiefbraun für den Körper, hellbraun für die Geweihe und füge dahinter Fichten oder einen blauen See hinzu. Erkunde weiter mit einem anderen <a href=\"/canada/\">druckbaren Punkt-zu-Punkt-Bild von kanadischen Tieren</a>."
-    },
-    "seoTitle": "Waschbär Zahlenbild: 90 Punkte für 6-10 Jahre"
-  },
-  {
-    "slug": "canada-raccoon-dot-to-dot-puzzle",
-    "name": "Waschbär",
-    "seoH1": "Waschbär Punkt-zu-Punkt Arbeitsblatt: 90 Punkte für 6-10 Jahre",
-    "tagline": "Der clevere maskierte Entdecker",
-    "description": "Verbinde 90 Punkte, um einen neugierigen Waschbären mit seinem gestreiften Schwanz und der dunklen Gesichtsmaske zu enthüllen. Dieses mittlere Puzzle belohnt sorgfältiges Zählen und führt ein bekanntes kanadisches Säugetier ein.",
-    "seoDescription": "Empfindliche Vorderpfoten helfen Waschbären, ihre Umgebung zu erkunden. Enthülle die Maske und den gestreiften Schwanz über 90 Punkte in einem kostenlosen PDF für 6–10-Jährige.",
-    "funFact": "Waschbären haben hochsensible Vorderpfoten, die ihnen helfen, Nahrung und Objekte zu untersuchen.",
-    "seoImageAlt": "Neugieriger Waschbär mit maskiertem Gesicht und gestreiftem Schwanz, versteckt in 90 druckbaren Punkten",
-    "dotGuide": {
-      "intro": "Mit einer dunklen Maske über dem Gesicht und Ringen um den Schwanz ist ein Waschbär leicht zu erkennen. Diese anpassungsfähigen Säugetiere leben in kanadischen Wäldern, Feuchtgebieten, auf Bauernhöfen und in Städten. Sie sind meist nach Sonnenuntergang aktiv und nutzen ihre wendigen Vorderpfoten zur Erkundung. Dieses 90-Punkte-Puzzle ist eine längere Herausforderung, also beginne bei Punkt 1 und baue den Waschbären Abschnitt für Abschnitt auf.",
-      "sections": [
-        {
-          "range": "1–18",
-          "title": "Die Ohren und das maskierte Gesicht",
-          "learn": "Beginne bei Punkt 1 und verbinde bis Punkt 18, um die spitzen Ohren und das runde Gesicht zu umreißen. Halte die Kurven ordentlich, damit der wachsame Ausdruck des Waschbären zur Geltung kommt.",
-          "fact": "Das dunkle Fell um die Augen eines Waschbären reduziert die Blendung und schafft die maskenartige Markierung, die das Tier so erkennbar macht."
-        },
-        {
-          "range": "19–36",
-          "title": "Der Rücken",
-          "learn": "Fahre von Punkt 19 bis Punkt 36 entlang der Schultern und des sanft geschwungenen Rückens fort. Eine glatte Linie hier verleiht dem Waschbären eine weiche, pelzige Silhouette.",
-          "fact": "Waschbären sind hauptsächlich nachtaktiv, was bedeutet, dass sie normalerweise nachts aktiv sind und während eines Großteils des Tages ruhen."
-        },
-        {
-          "range": "37–54",
-          "title": "Der Ringelschwanz",
-          "learn": "Verbinde die Punkte 37 bis 54 um den dicken Schwanz. Folge zuerst der äußeren Kurve; du kannst dunkle und helle Ringe hinzufügen, wenn es Zeit zum Ausmalen ist.",
-          "fact": "Der buschige Schwanz eines Waschbären hat häufig mehrere dunkle Ringe und kann dem Tier helfen, beim Klettern das Gleichgewicht zu halten."
-        },
-        {
-          "range": "55–72",
-          "title": "Die Pfoten und der Bauch",
-          "learn": "Verbinde die Punkte 55 bis 72 um die hinteren Pfoten und den Bauch. Sei besonders vorsichtig, wo die Zahlen nahe beieinander bei den Zehen sitzen.",
-          "fact": "Die Vorderpfoten von Waschbären haben fünf lange Zehen. Ihre empfindlichen Pfoten sind nützlich, um Nahrung zu handhaben und Bäume zu erklimmen."
-        },
-        {
-          "range": "73–90",
-          "title": "Die Brust und das Ende",
-          "learn": "Vervollständige das Puzzle mit den Punkten 73 bis 90, indem du die Vorderbeine und die Brust zeichnest, bevor du zum Gesicht zurückkehrst. Neunzig ist die Ziellinie - gut gemacht!",
-          "fact": "Waschbären sind in Nordamerika heimisch und bemerkenswert anpassungsfähig. Lies mehr im <a href=\"https://www.thecanadianencyclopedia.ca/en/article/raccoon\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Eintrag über Waschbären in der Kanadischen Enzyklopädie</a>."
+      },
+      "body": {
+        "h1": "Ahornblatt Punkt-zu-Punkt: Kanadas Ikone in 70 Punkten",
+        "name": "Ahornblatt",
+        "tagline": "Kanadas berühmtes rotes Blatt",
+        "description": "Verbinde 70 Punkte, um ein Ahornblatt zu enthüllen, eines der bekanntesten Symbole Kanadas. Dieses mittlere Puzzle hilft Kindern, die Zahlenreihenfolge und die sorgfältige Bleistiftkontrolle zu üben, während sie lernen, warum das Blatt auf Kanadas Flagge erscheint.",
+        "fun_fact": "Das Ahornblatt erscheint seit 1965 im Zentrum von Kanadas Nationalflagge.",
+        "faqs": [
+          {
+            "q": "Für welches Alter ist das Punkt-zu-Punkt-Rätsel Ahornblatt geeignet?",
+            "a": "Es ist für Kinder im Alter von Alter 5–9 gedacht. Mit 70 Punkten eignet es sich für Kinder, die sicher bis 70 zählen können; jüngere Kinder schaffen es mit etwas Hilfe."
+          },
+          {
+            "q": "Wie drucke ich das Arbeitsblatt Ahornblatt aus?",
+            "a": "Klicke auf den Download-Button, um das kostenlose PDF zu erhalten, und drucke es auf normalem Papier (A4 oder US Letter) aus jedem Browser oder PDF-Programm. Es wird keine spezielle Software benötigt."
+          },
+          {
+            "q": "Ist die Druckvorlage Ahornblatt wirklich kostenlos?",
+            "a": "Ja — sie ist 100 % kostenlos, ohne Anmeldung, Konto oder Bezahlung. Du darfst sie für zu Hause oder den Unterricht ausdrucken."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Ahornbäume erhellen die kanadischen Wälder jeden Herbst mit feurigen roten, orangen und goldenen Blättern. Das Ahornblatt repräsentiert Kanada seit Generationen und sitzt stolz in der Mitte der rot-weißen Flagge des Landes. Dieses 70-Punkte-Puzzle folgt den spitzen Kanten und dem stabilen Stiel des Blattes. Finde Punkt 1, halte deinen Bleistift in der Zahlenreihenfolge in Bewegung und sieh zu, wie ein kanadisches Symbol Gestalt annimmt!",
+          "sections": [
+            {
+              "range": "1–14",
+              "title": "Der obere Punkt",
+              "learn": "Beginne bei Punkt 1 und verbinde ihn durch Punkt 14, um die hohe Spitze oben am Blatt zu formen. Folge jeder kleinen Kurve sorgfältig – die scharfen Ecken geben einem Ahornblatt seine erkennbare Form.",
+              "fact": "Kanadas Flagge zeigt ein stilisiertes rotes Ahornblatt mit 11 Punkten. Erfahre mehr über das Design und die Geschichte der Flagge von <a href=\"https://www.canada.ca/en/canadian-heritage/services/flag-canada-history.html\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Canadian Heritage</a>."
+            },
+            {
+              "range": "15–28",
+              "title": "Die rechten Punkte",
+              "learn": "Fahre von Punkt 15 bis Punkt 28 fort und bewege dich die rechte Seite des Blattes hinunter. Verlangsame an jeder Ecke und überprüfe die nächste Zahl, bevor du die Richtung änderst.",
+              "fact": "Kanada hat 10 einheimische Ahornarten. Der Zuckerahorn ist besonders berühmt, weil sein Saft zu Ahornsirup verarbeitet werden kann."
+            },
+            {
+              "range": "29–42",
+              "title": "Der Stiel",
+              "learn": "Verbinde die Punkte 29 bis 42, um die untere Kante und den schmalen Stiel zu zeichnen. Verwende kürzere Striche um die engen Kurven, damit deine Linie nah an den Punkten bleibt.",
+              "fact": "Menschen sammeln im frühen Frühling Ahornsaft, wenn gefrierende Nächte und wärmere Tage den Saftfluss im Baum unterstützen."
+            },
+            {
+              "range": "43–56",
+              "title": "Die linken Punkte",
+              "learn": "Verfolge die Punkte 43 bis 56 zurück die linke Seite hinauf. Diese Punkte spiegeln die Formen auf der rechten Seite wider, also vergleiche beide Seiten, während du zeichnest.",
+              "fact": "Lange bevor Kanadas moderne Flagge angenommen wurde, erschienen Ahornblätter auf kanadischen Abzeichen, Wappen, Münzen und militärischen Emblemen."
+            },
+            {
+              "range": "57–70",
+              "title": "Das Schließen des Blattes",
+              "learn": "Beende mit den Punkten 57 bis 70 und kehre an die Spitze des Blattes zurück. Zähle langsam bis zum letzten Punkt und überprüfe, ob jeder Punkt und jede Ecke verbunden ist.",
+              "fact": "Ahornblätter stellen mit Sonnenlicht Nahrung für den Baum her. Im Herbst zerfällt ihr grünes Pigment und andere Farben werden leichter sichtbar."
+            }
+          ],
+          "outro": "Fantastisch – dein Ahornblatt ist fertig! Färbe es leuchtend rot wie die kanadische Flagge oder benutze Gelb und Orange für ein Herbstblatt. Entdecke mehr über Kanadas nationale Symbole auf der <a href=\"https://www.canada.ca/en/canadian-heritage/services/official-symbols-canada.html\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Website der Regierung von Kanada</a>, und versuche dann ein weiteres <a href=\"/canada/\">Kanada-Punkte-zu-Punkten-Rätsel</a>.",
+          "color_schemes": []
         }
-      ],
-      "outro": "Großartige Arbeit - dein maskierter Entdecker ist fertig! Färbe das Fell grau-braun, mache die Gesichtsmaske und die Ringschwänze dunkel und zeichne eine nächtliche Wald- oder Gartenlandschaft. Wähle dann ein anderes <a href=\"/canada/\">kostenloses Kanada-Puzzle</a>, um weiter zu üben."
+      }
     },
-    "seoTitle": "Waschbär Punkt-zu-Punkt Arbeitsblatt: 90 Punkte für Altersgruppen von 6-10"
-  }
-]
+    {
+      "slug": "canada-polar-bear-dot-to-dot-puzzle",
+      "header": {
+        "title": "Elch Zahlenbild – kanadisches PDF mit 89 Punkten",
+        "meta_description": "Etwa zwei Drittel der weltweiten Eisbären leben in Kanada. Enthülle diesen arktischen Riesen durch 74 Punkte mit einem kostenlosen Arbeitsblatt für Kinder im Alter von 6 bis 10 Jahren.",
+        "og": {
+          "title": "Elch Zahlenbild – kanadisches PDF mit 89 Punkten",
+          "description": "Etwa zwei Drittel der weltweiten Eisbären leben in Kanada. Enthülle diesen arktischen Riesen durch 74 Punkte mit einem kostenlosen Arbeitsblatt für Kinder im Alter von 6 bis 10 Jahren.",
+          "image_alt": "Elch mit breitem Geweih steht aufrecht, sobald 89 Punkte verbunden sind"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Eisbär",
+          "description": "Etwa zwei Drittel der weltweiten Eisbären leben in Kanada. Enthülle diesen arktischen Riesen durch 74 Punkte mit einem kostenlosen Arbeitsblatt für Kinder im Alter von 6 bis 10 Jahren.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
+      },
+      "body": {
+        "h1": "Druckbares Punkte-zu-Punkten-Rätsel Eisbär, 74 arktische Punkte kostenlos",
+        "name": "Eisbär",
+        "tagline": "Ein Riese der Arktis Kanadas",
+        "description": "Verbinde 74 Punkte, um einen mächtigen Eisbären zu enthüllen. Dieses mittlere Druckblatt gibt Kindern Übung im Nummernfolgen, während es ein Tier vorstellt, das speziell an das Leben auf arktischem Meereis angepasst ist.",
+        "fun_fact": "Etwa zwei Drittel der weltweiten Eisbären leben in Kanada.",
+        "faqs": [
+          {
+            "q": "Für welches Alter ist das Punkt-zu-Punkt-Rätsel Eisbär geeignet?",
+            "a": "Es ist für Kinder im Alter von Alter 6–10 gedacht. Mit 74 Punkten eignet es sich für Kinder, die sicher bis 74 zählen können; jüngere Kinder schaffen es mit etwas Hilfe."
+          },
+          {
+            "q": "Wie drucke ich das Arbeitsblatt Eisbär aus?",
+            "a": "Klicke auf den Download-Button, um das kostenlose PDF zu erhalten, und drucke es auf normalem Papier (A4 oder US Letter) aus jedem Browser oder PDF-Programm. Es wird keine spezielle Software benötigt."
+          },
+          {
+            "q": "Ist die Druckvorlage Eisbär wirklich kostenlos?",
+            "a": "Ja — sie ist 100 % kostenlos, ohne Anmeldung, Konto oder Bezahlung. Du darfst sie für zu Hause oder den Unterricht ausdrucken."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Eisbären streifen entlang der gefrorenen Küsten und des Meereises der Arktis Kanadas. Ihr dickes Fell, kleine Ohren und riesige Pfoten helfen ihnen, warm zu bleiben und über Schnee, Eis und Wasser zu reisen. Dieses 74-Punkte-Rätsel verfolgt einen Eisbären von seiner Schnauze bis zu seinen breiten Pfoten. Beginne bei Punkt 1 und mache die Reise eine sorgfältige Linie nach der anderen.",
+          "sections": [
+            {
+              "range": "1–15",
+              "title": "Die Schnauze und der Kopf",
+              "learn": "Beginne bei Punkt 1 und verbinde bis Punkt 15, um die Schnauze, das Maul und den runden Kopf zu formen. Halte die Linien um das Gesicht sanft, damit das Profil des Bären glatt aussieht.",
+              "fact": "Ein Eisbär hat einen ausgezeichneten Geruchssinn, der ihm hilft, Robben, seine Hauptbeute, über das Eis zu lokalisieren."
+            },
+            {
+              "range": "16–30",
+              "title": "Der Rücken und die Schultern",
+              "learn": "Fahre von Punkt 16 bis Punkt 30 entlang der starken Schultern und des gebogenen Rückens fort. Versuche, diese lange Kontur mit gleichmäßigen Strichen zu machen, anstatt viele kleine Markierungen zu setzen.",
+              "fact": "Eisbären sind die größten landlebenden Raubtiere in Kanada. Erwachsene Männchen können mehrere hundert Kilogramm wiegen."
+            },
+            {
+              "range": "31–45",
+              "title": "Die Hinterbeine",
+              "learn": "Verfolge die Punkte 31 bis 45, um die Hinterbeine und Pfoten zu zeichnen. Überprüfe jede Nummer sorgfältig, wo die Kontur in der Nähe der Füße die Richtung ändert.",
+              "fact": "Die breiten Pfoten eines Eisbären verteilen sein Gewicht über den Schnee und funktionieren wie Paddel, wenn er schwimmt."
+            },
+            {
+              "range": "46–60",
+              "title": "Der Bauch und die Vorderpfoten",
+              "learn": "Verbinde die Punkte 46 bis 60 unter dem Körper und um die Vorderpfoten. Kurze, kontrollierte Linien helfen dir, den engeren Kurven zu folgen.",
+              "fact": "Eisbären haben schwarze Haut unter dem Fell, das weiß aussieht. Ihr Pelz hilft ihnen, sich in eine schneebedeckte arktische Landschaft einzufügen."
+            },
+            {
+              "range": "61–74",
+              "title": "Die Brust und das Finish",
+              "learn": "Beende mit den Punkten 61 bis 74, indem du die Brust hinauf und zurück zum Kopf bewegst. Halte am letzten Punkt an und stelle sicher, dass keine Nummer übersprungen wurde.",
+              "fact": "Meereis ist ein essentielles Habitat für Eisbären, da es eine Plattform zum Jagen von Robben bietet. Lies das Artenprofil von <a href=\"https://www.canada.ca/en/environment-climate-change/services/species-risk-public-registry/cosewic-assessments-status-reports/polar-bear-2018.html\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Environment and Climate Change Canada</a>."
+            }
+          ],
+          "outro": "Ausgezeichnet – dein arktischer Riese ist fertig! Lass das Fell weiß und füge blassblaue Schatten hinzu oder zeichne einen schneebedeckten Meereishintergrund. Besuche <a href=\"https://parks.canada.ca/pn-np/mb/wapusk/nature/faune-animals/mammiferes-mammals/ours-bears/polaire-polar\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">die Eisbärseite von Parks Canada</a> mit einem Erwachsenen, um mehr zu erfahren, und entdecke weitere <a href=\"/canada/\">kostenlose Kanada-Druckvorlagen</a>.",
+          "color_schemes": []
+        }
+      }
+    },
+    {
+      "slug": "canada-moose-dot-to-dot-puzzle",
+      "header": {
+        "title": "Waschbär Zahlenbild: 90 Punkte für 6-10 Jahre",
+        "meta_description": "Breite Geweihe krönen das größte Mitglied der Familie der Hirsche. Folge einem 89-Punkte-Pfad, um dieses kostenlose Elch-Druckbild für Kinder im Alter von 6 bis 10 Jahren zu vervollständigen.",
+        "og": {
+          "title": "Waschbär Zahlenbild: 90 Punkte für 6-10 Jahre",
+          "description": "Breite Geweihe krönen das größte Mitglied der Familie der Hirsche. Folge einem 89-Punkte-Pfad, um dieses kostenlose Elch-Druckbild für Kinder im Alter von 6 bis 10 Jahren zu vervollständigen.",
+          "image_alt": "Neugieriger Waschbär mit maskiertem Gesicht und gestreiftem Schwanz aus 90 Druckpunkten"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Elch",
+          "description": "Breite Geweihe krönen das größte Mitglied der Familie der Hirsche. Folge einem 89-Punkte-Pfad, um dieses kostenlose Elch-Druckbild für Kinder im Alter von 6 bis 10 Jahren zu vervollständigen.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
+      },
+      "body": {
+        "h1": "Elch Punkt-zu-Punkt – ein 89-Punkte kanadisches druckbares PDF",
+        "name": "Elch",
+        "tagline": "Kanadas majestätischer Waldgigant",
+        "description": "Verbinde 89 Punkte, um einen prächtigen Elch mit breiten Geweihen zu vervollständigen. Dieses mittlere Puzzle fördert die Zählfähigkeit und die Bleistiftkontrolle, während Kinder eines der bekanntesten Wildtiere Kanadas entdecken.",
+        "fun_fact": "Raccoons have very sensitive front paws that help them explore their surroundings.",
+        "faqs": [
+          {
+            "q": "Für welches Alter ist das Punkt-zu-Punkt-Rätsel Elch geeignet?",
+            "a": "Es ist für Kinder im Alter von Alter 6–10 gedacht. Mit 89 Punkten eignet es sich für Kinder, die sicher bis 89 zählen können; jüngere Kinder schaffen es mit etwas Hilfe."
+          },
+          {
+            "q": "Wie drucke ich das Arbeitsblatt Elch aus?",
+            "a": "Klicke auf den Download-Button, um das kostenlose PDF zu erhalten, und drucke es auf normalem Papier (A4 oder US Letter) aus jedem Browser oder PDF-Programm. Es wird keine spezielle Software benötigt."
+          },
+          {
+            "q": "Ist die Druckvorlage Elch wirklich kostenlos?",
+            "a": "Ja — sie ist 100 % kostenlos, ohne Anmeldung, Konto oder Bezahlung. Du darfst sie für zu Hause oder den Unterricht ausdrucken."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Ein Elch kann fast prähistorisch aussehen, wenn er aus einem kanadischen Wald tritt: lange Beine, eine schwere Schnauze und breite Geweihe, die über seinem Kopf aufragen. Elche sind starke Schwimmer und fühlen sich in der Nähe von Seen, Feuchtgebieten und bewaldetem Land wohl. Dieses 89-Punkte-Puzzle hat viele Wendungen, besonders um die Geweihe, also schärfe deinen Bleistift, finde Punkt 1 und zähle sorgfältig.",
+          "sections": [
+            {
+              "range": "1–18",
+              "title": "Die Schnauze und das Gesicht",
+              "learn": "Beginne bei Punkt 1 und verbinde bis Punkt 18, um die lange Schnauze und das Gesicht des Elches zu zeichnen. Verwende saubere, kurze Striche um die Nase und den Augenbereich.",
+              "fact": "Die breite Schnauze eines Elches hilft ihm, Zweige, Blätter und Wasserpflanzen zu sammeln. Elche sind Pflanzenfresser, was bedeutet, dass sie Pflanzen essen."
+            },
+            {
+              "range": "19–36",
+              "title": "Die breiten Geweihe",
+              "learn": "Fahre von Punkt 19 bis Punkt 36 um die verzweigten Geweihe fort. Dies ist der kniffligste Abschnitt, also finde die nächste Nummer, bevor du jede Linie zeichnest.",
+              "fact": "Nur männliche Elche wachsen normalerweise Geweihe. Sie verlieren diese nach der Herbstbrunftzeit und wachsen im folgenden Jahr ein neues Set."
+            },
+            {
+              "range": "37–54",
+              "title": "Der Hals und der Rücken",
+              "learn": "Verfolge die Punkte 37 bis 54 entlang des Halses und über den Rücken. Lass deinen Bleistift der langen Kurve sanft folgen, während der Körper des Tieres erscheint.",
+              "fact": "Der Hautlappen, der unter dem Hals eines Elches hängt, wird als Glocke oder Kehllappen bezeichnet."
+            },
+            {
+              "range": "55–72",
+              "title": "Die langen Beine",
+              "learn": "Verbinde die Punkte 55 bis 72 um die Hinterbeine und den Bauch. Die langen, schmalen Beinformen erfordern geduldiges Zählen und kontrollierte Richtungsänderungen.",
+              "fact": "Lange Beine helfen Elchen, durch tiefen Schnee zu schreiten und in Teiche zu waten, um aquatische Pflanzen zu erreichen."
+            },
+            {
+              "range": "73–89",
+              "title": "Die Brust und der letzte Huf",
+              "learn": "Vervollständige, indem du die Punkte 73 bis 89 um die Vorderbeine und die Brust verbindest. Gehe vorsichtig bis zum letzten Huf weiter.",
+              "fact": "Elche sind fähige Schwimmer und können durch Wasser reisen, um zu fressen oder Gefahren zu entkommen. Finde mehr Informationen über die Tierwelt Kanadas im <a href=\"https://parks.canada.ca/pn-np/mb/wapusk/nature/faune-animals/mammiferes-mammals\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Mammalleitfaden von Parks Canada</a>."
+            }
+          ],
+          "outro": "Wunderbar – dein Elch ist bereit für die kanadische Wildnis! Verwende tiefbraun für den Körper, hellbraun für die Geweihe und füge dahinter Fichten oder einen blauen See hinzu. Erkunde weiter mit einem anderen <a href=\"/canada/\">druckbaren Punkt-zu-Punkt-Bild von kanadischen Tieren</a>.",
+          "color_schemes": []
+        }
+      }
+    },
+    {
+      "slug": "canada-raccoon-dot-to-dot-puzzle",
+      "header": {
+        "title": "Waschbär Punkt-zu-Punkt Arbeitsblatt: 90 Punkte für Altersgruppen von 6-10",
+        "meta_description": "Empfindliche Vorderpfoten helfen Waschbären, ihre Umgebung zu erkunden. Enthülle die Maske und den gestreiften Schwanz über 90 Punkte in einem kostenlosen PDF für 6–10-Jährige.",
+        "og": {
+          "title": "Waschbär Punkt-zu-Punkt Arbeitsblatt: 90 Punkte für Altersgruppen von 6-10",
+          "description": "Empfindliche Vorderpfoten helfen Waschbären, ihre Umgebung zu erkunden. Enthülle die Maske und den gestreiften Schwanz über 90 Punkte in einem kostenlosen PDF für 6–10-Jährige.",
+          "image_alt": "Neugieriger Waschbär mit maskiertem Gesicht und gestreiftem Schwanz, versteckt in 90 druckbaren Punkten"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Waschbär",
+          "description": "Empfindliche Vorderpfoten helfen Waschbären, ihre Umgebung zu erkunden. Enthülle die Maske und den gestreiften Schwanz über 90 Punkte in einem kostenlosen PDF für 6–10-Jährige.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
+      },
+      "body": {
+        "h1": "Waschbär Punkt-zu-Punkt Arbeitsblatt: 90 Punkte für 6-10 Jahre",
+        "name": "Waschbär",
+        "tagline": "Der clevere maskierte Entdecker",
+        "description": "Verbinde 90 Punkte, um einen neugierigen Waschbären mit seinem gestreiften Schwanz und der dunklen Gesichtsmaske zu enthüllen. Dieses mittlere Puzzle belohnt sorgfältiges Zählen und führt ein bekanntes kanadisches Säugetier ein.",
+        "fun_fact": "Waschbären haben hochsensible Vorderpfoten, die ihnen helfen, Nahrung und Objekte zu untersuchen.",
+        "faqs": [
+          {
+            "q": "Für welches Alter ist das Punkt-zu-Punkt-Rätsel Waschbär geeignet?",
+            "a": "Es ist für Kinder im Alter von Alter 6–10 gedacht. Mit 90 Punkten eignet es sich für Kinder, die sicher bis 90 zählen können; jüngere Kinder schaffen es mit etwas Hilfe."
+          },
+          {
+            "q": "Wie drucke ich das Arbeitsblatt Waschbär aus?",
+            "a": "Klicke auf den Download-Button, um das kostenlose PDF zu erhalten, und drucke es auf normalem Papier (A4 oder US Letter) aus jedem Browser oder PDF-Programm. Es wird keine spezielle Software benötigt."
+          },
+          {
+            "q": "Ist die Druckvorlage Waschbär wirklich kostenlos?",
+            "a": "Ja — sie ist 100 % kostenlos, ohne Anmeldung, Konto oder Bezahlung. Du darfst sie für zu Hause oder den Unterricht ausdrucken."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Mit einer dunklen Maske über dem Gesicht und Ringen um den Schwanz ist ein Waschbär leicht zu erkennen. Diese anpassungsfähigen Säugetiere leben in kanadischen Wäldern, Feuchtgebieten, auf Bauernhöfen und in Städten. Sie sind meist nach Sonnenuntergang aktiv und nutzen ihre wendigen Vorderpfoten zur Erkundung. Dieses 90-Punkte-Puzzle ist eine längere Herausforderung, also beginne bei Punkt 1 und baue den Waschbären Abschnitt für Abschnitt auf.",
+          "sections": [
+            {
+              "range": "1–18",
+              "title": "Die Ohren und das maskierte Gesicht",
+              "learn": "Beginne bei Punkt 1 und verbinde bis Punkt 18, um die spitzen Ohren und das runde Gesicht zu umreißen. Halte die Kurven ordentlich, damit der wachsame Ausdruck des Waschbären zur Geltung kommt.",
+              "fact": "Das dunkle Fell um die Augen eines Waschbären reduziert die Blendung und schafft die maskenartige Markierung, die das Tier so erkennbar macht."
+            },
+            {
+              "range": "19–36",
+              "title": "Der Rücken",
+              "learn": "Fahre von Punkt 19 bis Punkt 36 entlang der Schultern und des sanft geschwungenen Rückens fort. Eine glatte Linie hier verleiht dem Waschbären eine weiche, pelzige Silhouette.",
+              "fact": "Waschbären sind hauptsächlich nachtaktiv, was bedeutet, dass sie normalerweise nachts aktiv sind und während eines Großteils des Tages ruhen."
+            },
+            {
+              "range": "37–54",
+              "title": "Der Ringelschwanz",
+              "learn": "Verbinde die Punkte 37 bis 54 um den dicken Schwanz. Folge zuerst der äußeren Kurve; du kannst dunkle und helle Ringe hinzufügen, wenn es Zeit zum Ausmalen ist.",
+              "fact": "Der buschige Schwanz eines Waschbären hat häufig mehrere dunkle Ringe und kann dem Tier helfen, beim Klettern das Gleichgewicht zu halten."
+            },
+            {
+              "range": "55–72",
+              "title": "Die Pfoten und der Bauch",
+              "learn": "Verbinde die Punkte 55 bis 72 um die hinteren Pfoten und den Bauch. Sei besonders vorsichtig, wo die Zahlen nahe beieinander bei den Zehen sitzen.",
+              "fact": "Die Vorderpfoten von Waschbären haben fünf lange Zehen. Ihre empfindlichen Pfoten sind nützlich, um Nahrung zu handhaben und Bäume zu erklimmen."
+            },
+            {
+              "range": "73–90",
+              "title": "Die Brust und das Ende",
+              "learn": "Vervollständige das Puzzle mit den Punkten 73 bis 90, indem du die Vorderbeine und die Brust zeichnest, bevor du zum Gesicht zurückkehrst. Neunzig ist die Ziellinie - gut gemacht!",
+              "fact": "Waschbären sind in Nordamerika heimisch und bemerkenswert anpassungsfähig. Lies mehr im <a href=\"https://www.thecanadianencyclopedia.ca/en/article/raccoon\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Eintrag über Waschbären in der Kanadischen Enzyklopädie</a>."
+            }
+          ],
+          "outro": "Großartige Arbeit - dein maskierter Entdecker ist fertig! Färbe das Fell grau-braun, mache die Gesichtsmaske und die Ringschwänze dunkel und zeichne eine nächtliche Wald- oder Gartenlandschaft. Wähle dann ein anderes <a href=\"/canada/\">kostenloses Kanada-Puzzle</a>, um weiter zu üben.",
+          "color_schemes": []
+        }
+      }
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 import { setRequestLocale } from 'next-intl/server';
 import { routing } from '@/i18n/routing';
-import { localizedSiteSeo } from '@/lib/localized-seo';
+import { localizedSiteSeo } from '@/lib/json-seo';
 import HomeDiscovery from '@/components/HomeDiscovery';
 import TopDownloadsLeaderboard from '@/components/TopDownloadsLeaderboard';
 import { puzzles } from '@/lib/site-data';
@@ -27,7 +27,7 @@ export default async function LocaleHomePage({
   const { locale } = await params;
   setRequestLocale(locale);
   const arabicSeo = localizedSiteSeo(locale);
-  const description = arabicSeo?.description ?? 'Free dot-to-dot printable puzzles and connect-the-dots worksheets for kids, preschoolers, parents, and teachers.';
+  const description = arabicSeo.description;
   const featuredNames = [
     'T-Rex 61-Dot Challenge',
     'Mermaid',

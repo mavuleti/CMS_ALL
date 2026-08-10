@@ -326,6 +326,460 @@
         "Find top-rated websites hosting these PDFs for free",
         "Provide search terms for other printables such as word searches or crossword puzzles"
       ],
+      "english_phrases_used_by_locals_grouped_ranked": {
+        "method": "Aggregated from every non-English locale's english_phrases_used_by_locals field. Matching is case-insensitive after trimming whitespace. Frequency is the number of distinct locale records containing the exact normalized phrase. Dense ranks are assigned by frequency.",
+        "total_phrase_mentions": 157,
+        "total_unique_normalized_phrases": 107,
+        "repeated_phrase_count": 15,
+        "single_mention_phrase_count": 92,
+        "ranked_repeated_phrases": [
+          {
+            "rank": 1,
+            "phrase": "Extreme dot to dot printables",
+            "frequency": 13,
+            "locales": ["cs", "da", "es", "fi", "german", "hu", "it", "nl", "no", "pl", "pt", "ro", "sv"]
+          },
+          {
+            "rank": 2,
+            "phrase": "Dot to dot worksheets free download",
+            "frequency": 12,
+            "locales": ["cs", "da", "es", "fi", "hu", "it", "nl", "no", "pl", "pt", "ro", "sv"]
+          },
+          {
+            "rank": 2,
+            "phrase": "Hard connect the dots for adults PDF",
+            "frequency": 12,
+            "locales": ["cs", "da", "es", "fi", "hu", "it", "nl", "no", "pl", "pt", "ro", "sv"]
+          },
+          {
+            "rank": 3,
+            "phrase": "dot to dot printables",
+            "frequency": 5,
+            "locales": ["az", "el", "lv", "sl", "uk"]
+          },
+          {
+            "rank": 4,
+            "phrase": "connect the dots worksheets",
+            "frequency": 3,
+            "locales": ["id", "lv", "th"]
+          },
+          {
+            "rank": 5,
+            "phrase": "Connect the dots",
+            "frequency": 2,
+            "locales": ["lt", "tr"]
+          },
+          {
+            "rank": 5,
+            "phrase": "Connect the dots by numbers",
+            "frequency": 2,
+            "locales": ["hr", "tr"]
+          },
+          {
+            "rank": 5,
+            "phrase": "Connect the dots coloring pages",
+            "frequency": 2,
+            "locales": ["hr", "pt-BR"]
+          },
+          {
+            "rank": 5,
+            "phrase": "Connect the dots for kids",
+            "frequency": 2,
+            "locales": ["lt", "tr"]
+          },
+          {
+            "rank": 5,
+            "phrase": "Connect the dots PDF",
+            "frequency": 2,
+            "locales": ["az", "uk"]
+          },
+          {
+            "rank": 5,
+            "phrase": "Dot to dot printable",
+            "frequency": 2,
+            "locales": ["ko", "th"]
+          },
+          {
+            "rank": 5,
+            "phrase": "dot to dot puzzles for kids",
+            "frequency": 2,
+            "locales": ["az", "el"]
+          },
+          {
+            "rank": 5,
+            "phrase": "Dot-to-dot puzzles for adults",
+            "frequency": 2,
+            "locales": ["ru", "tr"]
+          },
+          {
+            "rank": 5,
+            "phrase": "extreme dot to dot for adults",
+            "frequency": 2,
+            "locales": ["lv", "sl"]
+          },
+          {
+            "rank": 5,
+            "phrase": "Hard dot to dot puzzles",
+            "frequency": 2,
+            "locales": ["sl", "uk"]
+          }
+        ],
+        "single_mention_group": {
+          "rank": 6,
+          "frequency": 1,
+          "phrase_count": 92,
+          "low_frequency_phrases": "Advanced dot-to-dot, Advanced dot-to-dot designs, Advanced dot-to-dot for adults, alphabet dot to dot printables, Alphabet dot-to-dot, animal dot to dot printable, Anti-stress dot-to-dot, Anti-stress dot-to-dots, Arabic alphabet dot to dot printable pdf, Arabic numbers dot to dot worksheets, Coloring pages and dot-to-dots, Complex dot-connecting puzzles, Complex dot-to-dot drawings printable, Connect by numbers printable, Connect the dots Arabic letters worksheets, Connect the dots drawing, Connect the dots game, connect the dots pdf greece, Connect the dots PDF worksheets, Connect the dots printable, Connect the dots puzzle book, Connect the dots puzzles, Connect the dots puzzles free download, Connect the dots to print, connect the dots worksheets free, Connect the dots worksheets free download, Connect the dots worksheets PDF, Connecting numbered dots, Connecting the dots puzzle, dinosaur dot to dot pdf, Dot connecting worksheets, Dot to Dot, Dot to dot 1-100, Dot to dot 1-50, Dot to dot extreme, dot to dot pdf, dot to dot printable free, dot to dot printable pdf, dot to dot puzzles PDF, Dot to dot worksheets, Dot to dot worksheets for kids PDF, Dot-to-dot, Dot-to-dot activities PDF, Dot-to-dot book for adults, Dot-to-dot brain training, Dot-to-dot coloring page, Dot-to-dot coloring pages for adults, Dot-to-dot coloring pages for kids, Dot-to-dot drawing, Dot-to-dot drawings for kids, Dot-to-dot for kids, Dot-to-dot game online, Dot-to-dot printable for preschoolers, Dot-to-dot printables, Dot-to-dot puzzle, Dot-to-dot templates, Dot-to-dot worksheet for printing, Dot-to-dot worksheets, Dot-to-dots by numbers to print, Dot-to-dots for adults, Dot-to-dots for kids for free, Dot-to-dots for preschoolers, Dot-to-dots to print, Download connecting the dots worksheet, easy dot to dot for kids, easy dot to dot preschool, Extreme dot to dot for adults PDF, extreme dot to dot worksheets, Extreme dot-to-dot for adults, Extreme dot-to-dot printables for adults, free connect the dots pages, Free dot connecting templates, Free dot-to-dot app, Free dot-to-dot puzzles for kids, Free printable dot-to-dot, Free printable dot-to-dot worksheets for kids, hard connect the dots printables, Hard connect the dots puzzles PDF, Hard dot to dot for adults, hard dot to dot printable, Hard dot to dot printables, Hard dot-to-dot, Hard dot-to-dot for adults, Hard dot-to-dot printables, Hard dot-to-dot puzzle for adults, Islamic connect the dots activity for kids, Kanji dot-to-dot, number connection puzzle for kids, Number dot-to-dots, Preschool dot-to-dot, Printable dot-to-dot, Ramadan dot to dot printables free"
+        }
+      },
+      "english_keyword_word_frequency_ranked": {
+        "method": "Tokenized all English phrase mentions from non-English locale records; lowercased text, converted punctuation and hyphens to spaces, and excluded basic connector words: a, an, and, or, the, to, for, of, by, from, with, in, on. Frequencies retain repeated locale mentions.",
+        "total_phrase_mentions": 157,
+        "total_ranked_words": 57,
+        "ranked_words": [
+          {
+            "index": 1,
+            "rank": 1,
+            "word": "dot",
+            "frequency": 209
+          },
+          {
+            "index": 2,
+            "rank": 2,
+            "word": "dots",
+            "frequency": 53
+          },
+          {
+            "index": 3,
+            "rank": 3,
+            "word": "connect",
+            "frequency": 43
+          },
+          {
+            "index": 4,
+            "rank": 4,
+            "word": "worksheets",
+            "frequency": 27
+          },
+          {
+            "index": 5,
+            "rank": 5,
+            "word": "adults",
+            "frequency": 26
+          },
+          {
+            "index": 6,
+            "rank": 5,
+            "word": "pdf",
+            "frequency": 26
+          },
+          {
+            "index": 7,
+            "rank": 6,
+            "word": "printables",
+            "frequency": 25
+          },
+          {
+            "index": 8,
+            "rank": 7,
+            "word": "free",
+            "frequency": 24
+          },
+          {
+            "index": 9,
+            "rank": 8,
+            "word": "hard",
+            "frequency": 23
+          },
+          {
+            "index": 10,
+            "rank": 9,
+            "word": "extreme",
+            "frequency": 20
+          },
+          {
+            "index": 11,
+            "rank": 10,
+            "word": "download",
+            "frequency": 15
+          },
+          {
+            "index": 12,
+            "rank": 11,
+            "word": "kids",
+            "frequency": 14
+          },
+          {
+            "index": 13,
+            "rank": 11,
+            "word": "printable",
+            "frequency": 14
+          },
+          {
+            "index": 14,
+            "rank": 12,
+            "word": "puzzles",
+            "frequency": 12
+          },
+          {
+            "index": 15,
+            "rank": 13,
+            "word": "coloring",
+            "frequency": 6
+          },
+          {
+            "index": 16,
+            "rank": 13,
+            "word": "connecting",
+            "frequency": 6
+          },
+          {
+            "index": 17,
+            "rank": 13,
+            "word": "pages",
+            "frequency": 6
+          },
+          {
+            "index": 18,
+            "rank": 14,
+            "word": "numbers",
+            "frequency": 5
+          },
+          {
+            "index": 19,
+            "rank": 14,
+            "word": "puzzle",
+            "frequency": 5
+          },
+          {
+            "index": 20,
+            "rank": 15,
+            "word": "advanced",
+            "frequency": 3
+          },
+          {
+            "index": 21,
+            "rank": 15,
+            "word": "alphabet",
+            "frequency": 3
+          },
+          {
+            "index": 22,
+            "rank": 15,
+            "word": "arabic",
+            "frequency": 3
+          },
+          {
+            "index": 23,
+            "rank": 15,
+            "word": "print",
+            "frequency": 3
+          },
+          {
+            "index": 24,
+            "rank": 16,
+            "word": "1",
+            "frequency": 2
+          },
+          {
+            "index": 25,
+            "rank": 16,
+            "word": "anti",
+            "frequency": 2
+          },
+          {
+            "index": 26,
+            "rank": 16,
+            "word": "book",
+            "frequency": 2
+          },
+          {
+            "index": 27,
+            "rank": 16,
+            "word": "complex",
+            "frequency": 2
+          },
+          {
+            "index": 28,
+            "rank": 16,
+            "word": "drawing",
+            "frequency": 2
+          },
+          {
+            "index": 29,
+            "rank": 16,
+            "word": "drawings",
+            "frequency": 2
+          },
+          {
+            "index": 30,
+            "rank": 16,
+            "word": "easy",
+            "frequency": 2
+          },
+          {
+            "index": 31,
+            "rank": 16,
+            "word": "game",
+            "frequency": 2
+          },
+          {
+            "index": 32,
+            "rank": 16,
+            "word": "number",
+            "frequency": 2
+          },
+          {
+            "index": 33,
+            "rank": 16,
+            "word": "preschool",
+            "frequency": 2
+          },
+          {
+            "index": 34,
+            "rank": 16,
+            "word": "preschoolers",
+            "frequency": 2
+          },
+          {
+            "index": 35,
+            "rank": 16,
+            "word": "stress",
+            "frequency": 2
+          },
+          {
+            "index": 36,
+            "rank": 16,
+            "word": "templates",
+            "frequency": 2
+          },
+          {
+            "index": 37,
+            "rank": 16,
+            "word": "worksheet",
+            "frequency": 2
+          },
+          {
+            "index": 38,
+            "rank": 17,
+            "word": "100",
+            "frequency": 1
+          },
+          {
+            "index": 39,
+            "rank": 17,
+            "word": "50",
+            "frequency": 1
+          },
+          {
+            "index": 40,
+            "rank": 17,
+            "word": "activities",
+            "frequency": 1
+          },
+          {
+            "index": 41,
+            "rank": 17,
+            "word": "activity",
+            "frequency": 1
+          },
+          {
+            "index": 42,
+            "rank": 17,
+            "word": "animal",
+            "frequency": 1
+          },
+          {
+            "index": 43,
+            "rank": 17,
+            "word": "app",
+            "frequency": 1
+          },
+          {
+            "index": 44,
+            "rank": 17,
+            "word": "brain",
+            "frequency": 1
+          },
+          {
+            "index": 45,
+            "rank": 17,
+            "word": "connection",
+            "frequency": 1
+          },
+          {
+            "index": 46,
+            "rank": 17,
+            "word": "designs",
+            "frequency": 1
+          },
+          {
+            "index": 47,
+            "rank": 17,
+            "word": "dinosaur",
+            "frequency": 1
+          },
+          {
+            "index": 48,
+            "rank": 17,
+            "word": "greece",
+            "frequency": 1
+          },
+          {
+            "index": 49,
+            "rank": 17,
+            "word": "islamic",
+            "frequency": 1
+          },
+          {
+            "index": 50,
+            "rank": 17,
+            "word": "kanji",
+            "frequency": 1
+          },
+          {
+            "index": 51,
+            "rank": 17,
+            "word": "letters",
+            "frequency": 1
+          },
+          {
+            "index": 52,
+            "rank": 17,
+            "word": "numbered",
+            "frequency": 1
+          },
+          {
+            "index": 53,
+            "rank": 17,
+            "word": "online",
+            "frequency": 1
+          },
+          {
+            "index": 54,
+            "rank": 17,
+            "word": "page",
+            "frequency": 1
+          },
+          {
+            "index": 55,
+            "rank": 17,
+            "word": "printing",
+            "frequency": 1
+          },
+          {
+            "index": 56,
+            "rank": 17,
+            "word": "ramadan",
+            "frequency": 1
+          },
+          {
+            "index": 57,
+            "rank": 17,
+            "word": "training",
+            "frequency": 1
+          }
+        ]
+      },
       "displayed_result_links": [
         {
           "title": "25 Dot-to-Dot Puzzles for Kids (Free PDF)",
@@ -2349,10 +2803,70 @@
       "url": "https://www.google.com/search?udm=50"
     }
   },
+  "fa": {
+    "language": "فارسی",
+    "question": "How do Persian local people search for dot-to-dot printables or puzzles? Please give the exact natural search phrases they would type in Persian and English.",
+    "answer": {
+      "summary": "Persian speakers, primarily in Iran, center searches on وصل کردن نقاط (connecting points). They use Persian script, Finglisi transliterations, and English depending on the resource type and audience.",
+      "literal_and_popular_searches": [
+        { "phrase": "نقاشی نقطه به نقطه", "finglisi": "Naghashi noghth be noghteh", "meaning": "Dot-to-dot drawing" },
+        { "phrase": "پازل وصل کردن نقاط", "finglisi": "Puzzle vasl kardan-e noghat", "meaning": "Connecting the dots puzzle" },
+        { "phrase": "بازی نقطه و خط", "finglisi": "Bazi noghteh va khat", "meaning": "Dot and line game", "note": "Can also refer to dots and boxes, but is frequently used for line-drawing puzzles" }
+      ],
+      "printables_and_worksheets": {
+        "insight": "Printable has no single conversational Persian equivalent, so locals use download, ready-made, or for-printing terms.",
+        "phrases": [
+          { "phrase": "کاربرگ نقطه به نقطه برای چاپ", "finglisi": "Karbarg noghteh be noghteh baraye chap", "meaning": "Dot-to-dot worksheet for printing" },
+          { "phrase": "دانلود کاربرگ وصل کردن نقاط", "finglisi": "Download karbarg vasl kardan-e noghat", "meaning": "Download connecting the dots worksheet" },
+          { "phrase": "پیک نقطه به نقطه آماده", "finglisi": "Peyk noghteh be noghteh amadeh", "meaning": "Ready-made dot-to-dot activity booklet", "note": "Commonly used by teachers" }
+        ]
+      },
+      "target_audience_searches": [
+        { "phrase": "نقطه به نقطه کودکان", "finglisi": "Noghth be noghteh koodakan", "meaning": "Dot-to-dot for kids" },
+        { "phrase": "پازل نقطه به نقطه سخت برای بزرگسالان", "finglisi": "Puzzle noghteh be noghteh sakht baraye bozorgsalan", "meaning": "Hard dot-to-dot puzzle for adults" },
+        { "phrase": "وصل کردن اعداد نقطه ای", "finglisi": "Vasl kardan-e adad noghteh ee", "meaning": "Connecting numbered dots", "note": "Used to teach counting sequences" }
+      ],
+      "english_phrases_used_by_locals": [
+        "Dot-to-dot drawing",
+        "Connecting the dots puzzle",
+        "Dot-to-dot worksheet for printing",
+        "Download connecting the dots worksheet",
+        "Dot-to-dot for kids",
+        "Hard dot-to-dot puzzle for adults",
+        "Connecting numbered dots"
+      ],
+      "local_search_insight": {
+        "primary_term": { "term": "وصل کردن نقاط", "meaning": "connecting points" },
+        "intent_terms": [
+          { "term": "کاربرگ", "meaning": "worksheet" },
+          { "term": "برای چاپ", "meaning": "for printing" },
+          { "term": "دانلود", "meaning": "download" },
+          { "term": "آماده", "meaning": "ready-made" },
+          { "term": "کودکان", "meaning": "children" },
+          { "term": "سخت", "meaning": "hard" },
+          { "term": "بزرگسالان", "meaning": "adults" }
+        ],
+        "finglisi_behavior": "Persian search phrases may also be entered in Latin letters using informal Finglisi transliteration."
+      },
+      "suggested_next_steps": [
+        "Develop Persian SEO keywords for educational worksheets",
+        "Create localized Persian UI text for a digital puzzle app"
+      ],
+      "displayed_result_links": [
+        { "title": "Dot to Dot: Line Puzzle", "publisher": "Google Play", "url": "https://play.google.com/store/apps/details?id=com.dottodot.linepuzzle.game&hl=fa" },
+        { "title": "Dot to Dot Printables – Free Connect the Dots for Kids PDF Sheets", "publisher": "Monkey Pen", "url": "https://monkeypen.com/collections/dot-to-dot-printables" },
+        { "title": "900+ Dot to dots ideas", "publisher": "Pinterest", "url": "https://www.pinterest.com/barbpolenski/dot-to-dots/" }
+      ]
+    },
+    "source": {
+      "name": "Google AI Mode",
+      "url": "https://www.google.com/search?udm=50"
+    }
+  },
   "_automation": {
-    "status": "active",
-    "next_due_at": "2026-08-09T14:27:22.344Z",
-    "completed_since_browser_refresh": 0,
+    "status": "complete",
+    "next_due_at": null,
+    "completed_since_browser_refresh": 1,
     "last_error": null,
     "completed_locales": [
       "fr",
@@ -2387,8 +2901,9 @@
       "ru",
       "th",
       "vi",
-      "az"
+      "az",
+      "fa"
     ],
-    "remaining_locale_count": 1
+    "remaining_locale_count": 0
   }
 }

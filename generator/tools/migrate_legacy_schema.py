@@ -27,9 +27,8 @@ dotGuide.outro        -> body.dot_guide.outro
 dotGuide.colorSchemes  -> body.dot_guide.color_schemes (keys unchanged)
 
 header.json_ld.type, .image, .educational_use, .age_range have no legacy
-source field; type/educational_use get the same defaults the CMS form
-uses, image is left blank, and age_range is best-effort extracted from
-seoDescription (e.g. "ages 5-9") when present.
+source field; type/educational_use get the same defaults the CMS form uses,
+and image/age_range are left blank, matching normalizeEntry() exactly.
 
 Usage:
     python migrate_legacy_schema.py <content_dir> [<content_dir> ...] [options]
@@ -50,49 +49,44 @@ Examples:
 
 import argparse
 import json
-import re
 import sys
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from migration_safety import check_count, require_clean_git_tree, verify_transfer  # noqa: E402
+
+
+def verify_entry_transfer(raw: dict, converted: dict, label: str) -> None:
+    # Unlike the page/blog migrator, SEO fields legitimately live only in
+    # header (not body) here, so check against header+body combined.
+    combined = {
+        "body": {
+            "slug": converted.get("slug", ""),
+            **converted.get("header", {}),
+            **converted.get("body", {}),
+        }
+    }
+    verify_transfer(raw, combined, label)
 
 DEFAULT_JSON_LD_TYPE = "CreativeWork"
 DEFAULT_EDUCATIONAL_USE = "Fine motor skills, number sequencing"
 
-AGE_RANGE_RE = re.compile(r"\bages?\s+(\d+)\s*(?:-|–|—|to)\s*(\d+)\b", re.IGNORECASE)
-
-
-def guess_age_range(seo_description: str) -> str:
-    """Best-effort extraction of an age range like 'ages 5-9' from free text."""
-    if not seo_description:
-        return ""
-    match = AGE_RANGE_RE.search(seo_description)
-    if not match:
-        return ""
-    return f"{match.group(1)}-{match.group(2)}"
-
 
 def convert_section(section: dict) -> dict:
-    return {
-        "range": section.get("range", ""),
-        "title": section.get("title", ""),
-        "learn": section.get("learn", ""),
-        "fact": section.get("fact", ""),
-    }
+    # Pass legacy fields through as-is (mirrors normalizeEntry() in
+    # puzzle-form.component.ts, which does not whitelist section fields).
+    return {"range": "", "title": "", "learn": "", "fact": "", **section}
 
 
 def convert_mapping(mapping: dict) -> dict:
-    return {
-        "range": mapping.get("range", ""),
-        "part": mapping.get("part", ""),
-        "color": mapping.get("color", ""),
-        "hex": mapping.get("hex", ""),
-        "why": mapping.get("why", ""),
-    }
+    return {"range": "", "part": "", "color": "", "hex": "", "why": "", **mapping}
 
 
 def convert_color_scheme(scheme: dict) -> dict:
     return {
-        "name": scheme.get("name", ""),
-        "note": scheme.get("note", ""),
+        "name": "",
+        "note": "",
+        **scheme,
         "mapping": [convert_mapping(m) for m in scheme.get("mapping", [])],
     }
 
@@ -125,7 +119,10 @@ def convert_entry(raw: dict) -> dict:
                 "description": seo_description,
                 "image": "",
                 "educational_use": DEFAULT_EDUCATIONAL_USE,
-                "age_range": guess_age_range(seo_description),
+                # normalizeEntry() in puzzle-form.component.ts never guesses this
+                # from free text; kept blank so conversion output matches what the
+                # CMS itself would produce importing the same raw file.
+                "age_range": "",
             },
         },
         "body": {
@@ -156,6 +153,10 @@ def convert_file(src: Path, dest: Path, dry_run: bool) -> int:
     is_collection = isinstance(data, dict) and isinstance(data.get("puzzles"), list)
     entries = data["puzzles"] if is_collection else (data if isinstance(data, list) else [data])
     converted = [convert_entry(entry) for entry in entries]
+    check_count(len(entries), len(converted), str(src))
+    for raw_entry, converted_entry in zip(entries, converted):
+        if converted_entry is not raw_entry:
+            verify_entry_transfer(raw_entry, converted_entry, f"{src} [{raw_entry.get('slug', '?')}]")
     if is_collection:
         output = {**data, "puzzles": converted}
     else:
@@ -181,7 +182,11 @@ def main() -> int:
     parser.add_argument("--out", type=Path, default=None, help="Output directory. Default: <content_dir>/converted/. Ignored if --in-place is set.")
     parser.add_argument("--in-place", action="store_true", help="Overwrite the source files instead of writing to a separate output directory")
     parser.add_argument("--dry-run", action="store_true", help="Report what would be converted without writing any files")
+    parser.add_argument("--force", action="store_true", help="skip the clean-git-tree safety check")
     args = parser.parse_args()
+
+    if args.in_place and not args.dry_run:
+        require_clean_git_tree(args.content_dirs, force=args.force)
 
     content_dirs = []
     for candidate in args.content_dirs:

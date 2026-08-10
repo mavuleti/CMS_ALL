@@ -5,7 +5,7 @@ import Link from 'next/link';
 import { BadgeCheck } from 'lucide-react';
 import { useTranslations } from 'next-intl';
 import ResponsiveImage from '@/components/ResponsiveImage';
-import { localizedPuzzleCardAlt } from '@/lib/localized-seo';
+import { localizedPuzzleCardAlt } from '@/lib/json-seo';
 
 const slides = [
   {

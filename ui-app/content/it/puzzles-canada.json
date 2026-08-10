@@ -1,237 +1,456 @@
-[
-  {
-    "slug": "canada-canoe-dot-to-dot-puzzle",
-    "name": "Canoa canadese",
-    "seoH1": "Canoa canadese da unire i punti — Paddle attraverso 69 punti",
-    "tagline": "Paddle attraverso i laghi e i fiumi del Canada",
-    "description": "Collega 69 punti per rivelare una canoa canadese e un paddle. Questo stampabile medio sviluppa la sequenza numerica e il controllo della matita mentre introduce un'imbarcazione strettamente legata ai viaggi in Canada.",
-    "seoDescription": "Prima delle strade, le canoe trasportavano persone attraverso i laghi e i fiumi del Canada. Paddle attraverso 69 punti con questo PDF stampabile gratuito per bambini dai 5 ai 9 anni.",
-    "funFact": "Le canoe hanno reso possibile trasportare persone e rifornimenti lungo laghi e fiumi interconnessi dove non esistevano strade.",
-    "seoImageAlt": "Foglia d'acero canadese disegnata unendo 70 puntini numerati, scheda gratuita stampabile",
-    "dotGuide": {
-      "intro": "La canoa è una delle imbarcazioni più riconoscibili in Canada. I Popoli Indigeni hanno sviluppato design di canoe sofisticati adatti alle acque locali e ai materiali disponibili, e i viaggiatori successivi si sono affidati alle canoe per muoversi attraverso vaste reti di fiumi e laghi. Questo puzzle da 69 punti traccia il paddle e lo scafo lungo e grazioso della canoa. Trova il punto 1 e inizia il tuo viaggio!",
-      "sections": [
-        {
-          "range": "1–14",
-          "title": "Il Paddle e il bordo superiore",
-          "learn": "Inizia al punto 1 e collega attraverso il punto 14 per delineare il paddle e il bordo superiore della canoa. Segui la lunga linea con attenzione e controlla ogni numero prima che la prua si curvi verso l'alto.",
-          "fact": "Un paddle ha un manico, un albero e una lama. La lama ampia spinge contro l'acqua per muovere e dirigere la canoa."
-        },
-        {
-          "range": "15–28",
-          "title": "La prua che si alza",
-          "learn": "Continua dal punto 15 al punto 28 attorno alla parte anteriore alta della canoa. Rallenta mentre il contorno cambia direzione affinché la prua appuntita rimanga liscia.",
-          "fact": "La prua è la parte anteriore di una canoa e la poppa è la parte posteriore. Le loro forme sollevate aiutano la barca a viaggiare attraverso le onde e l'acqua in movimento."
-        },
-        {
-          "range": "29–42",
-          "title": "La lama del paddle e lo scafo",
-          "learn": "Traccia i punti da 29 a 42 attorno alla lama del paddle e allo scafo inferiore. Usa curve controllate dove le due forme si avvicinano.",
-          "fact": "Il Servizio Geologico del Canada si è affidato alle canoe durante i primi lavori sul campo a nord. Vedi la sua storica canoa del 1874 sul <a href=\"https://ised-isde.canada.ca/site/science/en/educational-resources/history-geological-survey-canada-175-objects/26-canoe-1874\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">sito web del Governo del Canada</a>."
-        },
-        {
-          "range": "43–56",
-          "title": "Il lungo lato inferiore",
-          "learn": "Collega i punti da 43 a 56 lungo il lato inferiore curvo. Questi intervalli più lunghi premiano una mano ferma e un attento tracciamento visivo.",
-          "fact": "Le canoe tradizionali sono state costruite in forme diverse tra le culture indigene, utilizzando materiali come corteccia di betulla, cedro, pelli di animali e legno sagomato con cura."
-        },
-        {
-          "range": "57–69",
-          "title": "La poppa e la finitura",
-          "learn": "Termina con i punti da 57 a 69 attorno alla poppa e torna al bordo superiore. Conta attentamente fino all'ultimo punto e verifica che l'intero scafo sia connesso.",
-          "fact": "Le condizioni di pagaiata possono cambiare rapidamente, quindi la preparazione e l'equipaggiamento di sicurezza adeguato sono importanti. Le famiglie possono imparare a fare canoa e sulla sicurezza in acqua da <a href=\"https://parks.canada.ca/voyage-travel/experiences/sports/pagayer-paddling\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Parks Canada</a>."
+{
+  "collection": {
+    "header": {
+      "title": "Unisci i puntini Canada gratis per bambini",
+      "meta_description": "Scopri il Canada con schede gratuite unisci i puntini: animali canadesi, foglia d'acero e altro, pronte da stampare.",
+      "og": {
+        "title": "Unisci i puntini Canada gratis",
+        "description": "Schede gratuite del Canada da stampare per bambini.",
+        "image": "/images/canada-maple-leaf-puzzle.webp"
+      },
+      "json_ld": {
+        "type": "CollectionPage",
+        "name": "Canada",
+        "description": "Paddle a Canadian canoe, trace the maple leaf, then meet a polar bear, moose, and raccoon. This free printable collection turns Canadian symbols and wildlife into hands-on number practice.",
+        "image": "/images/canada-maple-leaf-puzzle.webp",
+        "main_entity": {
+          "type": "ItemList",
+          "item_source": "puzzles"
         }
-      ],
-      "outro": "Eccellente—la tua canoa è pronta per l'acqua! Colora lo scafo, aggiungi increspature sotto di esso e disegna un lago o una foresta canadese sullo sfondo. Esplora altre idee ufficiali di pagaiata da <a href=\"https://parks.canada.ca/voyage-travel/experiences/sports/pagayer-paddling\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Parks Canada</a>, poi prova un altro <a href=\"/canada/\">puzzle collegato i punti Canada</a>."
+      },
+      "breadcrumb_json_ld": {
+        "type": "BreadcrumbList",
+        "items": [
+          {
+            "position": 1,
+            "name": "Home",
+            "path": "/"
+          },
+          {
+            "position": 2,
+            "name": "Canada",
+            "path": "/canada/"
+          }
+        ]
+      }
     },
-    "seoTitle": "Collegare i punti della canoa canadese — Pagaia attraverso 69 punti"
+    "body": {
+      "h1": "Free Canada Dot-to-Dot Printables for Kids",
+      "name": "Canada",
+      "tagline": "Discover Canada One Dot at a Time",
+      "description": "Paddle a Canadian canoe, trace the maple leaf, then meet a polar bear, moose, and raccoon. This free printable collection turns Canadian symbols and wildlife into hands-on number practice.",
+      "hero_image": "/images/canada-maple-leaf-puzzle.webp",
+      "slug": "canada",
+      "faqs": [
+        {
+          "q": "Tutti i disegni da unire i puntini presenti su questo sito sono completamente gratuiti?",
+          "a": "Sì, tutti i fogli di lavoro \"unisci i puntini\" su DotToDotFreePrintables.com sono scaricabili e stampabili gratuitamente al 100%. Non è richiesto alcun account, abbonamento o carta di credito."
+        },
+        {
+          "q": "Per quale fascia d'età sono adatti i fogli di lavoro \"unisci i puntini\"?",
+          "a": "I nostri materiali stampabili sono adatti a bambini dai 2 ai 12 anni. Le schede facili (10-20 punti) sono ideali per i più piccoli e per i bambini in età prescolare, quelle di livello intermedio (20-50 punti) sono perfette per la scuola dell'infanzia e la prima elementare, mentre quelle più difficili (50-200+ punti) rappresentano una sfida per gli alunni dalla seconda alla sesta elementare."
+        },
+        {
+          "q": "In che formato sono i file stampabili \"unisci i puntini\"?",
+          "a": "Tutti i fogli di lavoro vengono scaricati come file PDF pronti per la stampa, dimensionati per carta standard US Letter (8,5\" × 11\"). Aprili con qualsiasi browser o visualizzatore PDF e stampali: non è necessario alcun software speciale."
+        },
+        {
+          "q": "Gli insegnanti possono utilizzare questi fogli di lavoro \"unisci i puntini\" in classe?",
+          "a": "Sì! I nostri materiali stampabili sono gratuiti sia per uso personale che scolastico. Sono molto apprezzati per le attività del mattino, per gli studenti che finiscono prima, per le lezioni di supplenza, per i centri di motricità fine e come pacchetti di compiti a casa."
+        }
+      ]
+    }
   },
-  {
-    "slug": "canada-maple-leaf-dot-to-dot-puzzle",
-    "name": "Foglia d'acero",
-    "seoH1": "Collegare i punti della foglia d'acero: l'icona del Canada in 70 punti",
-    "tagline": "La famosa foglia rossa del Canada",
-    "description": "Collega 70 punti per rivelare una foglia d'acero, uno dei simboli più conosciuti del Canada. Questo puzzle di media difficoltà aiuta i bambini a praticare l'ordine dei numeri e il controllo attento della matita mentre imparano perché la foglia appare sulla bandiera del Canada.",
-    "seoDescription": "La foglia d'acero è al centro della bandiera canadese dal 1965. Traccia il suo contorno iconico attraverso 70 punti in un PDF stampabile gratuito per bambini di età compresa tra 5 e 9 anni.",
-    "funFact": "La foglia d'acero è apparsa al centro della bandiera nazionale del Canada dal 1965.",
-    "seoImageAlt": "Possente orso polare che prende forma unendo 74 puntini numerati su scheda artica gratuita",
-    "dotGuide": {
-      "intro": "Gli alberi d'acero illuminano le foreste canadesi con foglie rosse, arancioni e dorate ogni autunno. La foglia d'acero ha rappresentato il Canada per generazioni e si trova orgogliosamente al centro della bandiera rossa e bianca del paese. Questo puzzle di 70 punti segue i bordi appuntiti della foglia e il suo robusto gambo. Trova il punto 1, continua a muovere la matita in ordine numerico e guarda un simbolo canadese prendere forma!",
-      "sections": [
-        {
-          "range": "1–14",
-          "title": "Il Punto Superiore",
-          "learn": "Inizia dal punto 1 e collega fino al punto 14 per formare il punto alto in cima alla foglia. Segui ogni piccola curva con attenzione: gli angoli acuti danno alla foglia d'acero la sua forma riconoscibile.",
-          "fact": "La bandiera del Canada presenta una foglia d'acero rossa stilizzata con 11 punte. Scopri il design e la storia della bandiera da <a href=\"https://www.canada.ca/en/canadian-heritage/services/flag-canada-history.html\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Canadian Heritage</a>."
+  "puzzles": [
+    {
+      "slug": "canada-canoe-dot-to-dot-puzzle",
+      "header": {
+        "title": "Collegare i punti della canoa canadese — Pagaia attraverso 69 punti",
+        "meta_description": "Prima delle strade, le canoe trasportavano persone attraverso i laghi e i fiumi del Canada. Paddle attraverso 69 punti con questo PDF stampabile gratuito per bambini dai 5 ai 9 anni.",
+        "og": {
+          "title": "Collegare i punti della canoa canadese — Pagaia attraverso 69 punti",
+          "description": "Prima delle strade, le canoe trasportavano persone attraverso i laghi e i fiumi del Canada. Paddle attraverso 69 punti con questo PDF stampabile gratuito per bambini dai 5 ai 9 anni.",
+          "image_alt": "Foglia d'acero canadese disegnata unendo 70 puntini numerati, scheda gratuita stampabile"
         },
-        {
-          "range": "15–28",
-          "title": "I Punti della Mano Destra",
-          "learn": "Continua dal punto 15 al punto 28, muovendoti lungo il lato destro della foglia. Rallenta ad ogni angolo e controlla il numero successivo prima di cambiare direzione.",
-          "fact": "Il Canada ha 10 specie di acero native. L'acero da zucchero è particolarmente famoso perché la sua linfa può essere trasformata in sciroppo d'acero."
-        },
-        {
-          "range": "29–42",
-          "title": "Il Gambo",
-          "learn": "Collega i punti 29 al 42 per disegnare il bordo inferiore e il gambo stretto. Usa tratti più corti attorno alle curve strette in modo che la tua linea rimanga vicina ai punti.",
-          "fact": "Le persone raccolgono la linfa d'acero all'inizio della primavera, quando le notti fredde e le giornate più calde aiutano la linfa a fluire all'interno dell'albero."
-        },
-        {
-          "range": "43–56",
-          "title": "I Punti della Mano Sinistra",
-          "learn": "Traccia i punti 43-56 risalendo il lato sinistro. Questi punti rispecchiano le forme a destra, quindi confronta entrambi i lati mentre disegni.",
-          "fact": "Molto prima che la moderna bandiera canadese fosse adottata, le foglie d'acero apparivano su distintivi canadesi, stemmi, monete ed emblemi militari."
-        },
-        {
-          "range": "57–70",
-          "title": "Chiusura della Foglia",
-          "learn": "Finisci con i punti da 57 a 70, tornando alla cima della foglia. Conta lentamente fino all'ultimo punto, poi controlla che ogni punto e angolo sia connesso.",
-          "fact": "Le foglie d'acero producono cibo per l'albero utilizzando la luce solare. In autunno, il loro pigmento verde si degrada e altri colori diventano più facili da vedere."
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Canoa canadese",
+          "description": "Prima delle strade, le canoe trasportavano persone attraverso i laghi e i fiumi del Canada. Paddle attraverso 69 punti con questo PDF stampabile gratuito per bambini dai 5 ai 9 anni.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
         }
-      ],
-      "outro": "Fantastico—la tua foglia d'acero è completa! Colorala di rosso brillante come la bandiera canadese, o usa giallo e arancione per una foglia autunnale. Scopri di più sui simboli nazionali del Canada sul <a href=\"https://www.canada.ca/en/canadian-heritage/services/official-symbols-canada.html\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">sito del Governo del Canada</a>, poi prova un altro <a href=\"/canada/\">puzzle punto a punto del Canada</a>."
-    },
-    "seoTitle": "Orso Polare da Unire i Puntini — 74 Punti tra i Ghiacci Artici"
-  },
-  {
-    "slug": "canada-polar-bear-dot-to-dot-puzzle",
-    "name": "Orso polare",
-    "seoH1": "Puzzle Punto a Punto dell'Orso Polare Stampabile, 74 Punti Artici Gratuiti",
-    "tagline": "Un Gigante dell'Artico Canadese",
-    "description": "Collega 74 punti per rivelare un potente orso polare. Questo stampabile di media difficoltà offre ai bambini pratica nella sequenza dei numeri mentre introduce un animale specialmente adattato alla vita sul ghiaccio marino artico.",
-    "seoDescription": "Circa due terzi degli orsi polari del mondo vivono in Canada. Rivela questo gigante artico attraverso 74 punti con un foglio di lavoro gratuito per età 6–10.",
-    "funFact": "Circa due terzi degli orsi polari del mondo vivono in Canada.",
-    "seoImageAlt": "Potente orso polare che attraversa il ghiaccio artico, formato da 74 punti su un PDF stampabile",
-    "dotGuide": {
-      "intro": "Gli orsi polari vagano lungo le coste ghiacciate e il ghiaccio marino dell'Artico canadese. Il loro folto pelo, le piccole orecchie e le enormi zampe li aiutano a rimanere caldi e a viaggiare attraverso neve, ghiaccio e acqua. Questo puzzle di 74 punti traccia un orso polare dal suo muso alle sue ampie zampe. Inizia dal punto 1 e fai il viaggio una linea attenta alla volta.",
-      "sections": [
-        {
-          "range": "1–15",
-          "title": "Il Muso e la Testa",
-          "learn": "Inizia dal punto 1 e collega fino al punto 15 per modellare il muso, il muso e la testa arrotondata. Mantieni le linee morbide attorno al viso in modo che il profilo dell'orso appaia liscio.",
-          "fact": "Un orso polare ha un eccellente senso dell'olfatto che lo aiuta a localizzare le foche, la sua preda principale, attraverso il ghiaccio."
-        },
-        {
-          "range": "16–30",
-          "title": "La Schiena e le Spalle",
-          "learn": "Continua dal punto 16 al punto 30 lungo le spalle forti e la schiena curva. Cerca di fare questo lungo contorno con colpi costanti invece di tanti piccoli segni.",
-          "fact": "Gli orsi polari sono i più grandi carnivori terrestri in Canada. I maschi adulti possono pesare diverse centinaia di chilogrammi."
-        },
-        {
-          "range": "31–45",
-          "title": "Le Zampe Posteriori",
-          "learn": "Traccia i punti da 31 a 45 per disegnare le zampe posteriori e le zampe. Controlla ogni numero attentamente dove il contorno cambia direzione vicino ai piedi.",
-          "fact": "Le ampie zampe di un orso polare distribuiscono il suo peso sulla neve e funzionano come pagaie quando nuota."
-        },
-        {
-          "range": "46–60",
-          "title": "La pancia e le zampe anteriori",
-          "learn": "Collega i punti 46 a 60 sotto il corpo e attorno alle zampe anteriori. Linee corte e controllate ti aiuteranno a seguire le curve più strette.",
-          "fact": "Gli orsi polari hanno la pelle nera sotto il pelo che sembra bianco. Il loro manto li aiuta a mimetizzarsi in un paesaggio artico innevato."
-        },
-        {
-          "range": "61–74",
-          "title": "Il petto e la conclusione",
-          "learn": "Termina con i punti 61 a 74, muovendoti verso l'alto nel petto e indietro verso la testa. Fai una pausa all'ultimo punto e assicurati che nessun numero sia stato saltato.",
-          "fact": "Il ghiaccio marino è un habitat essenziale per gli orsi polari perché fornisce una piattaforma per cacciare foche. Leggi il profilo della specie da <a href=\"https://www.canada.ca/en/environment-climate-change/services/species-risk-public-registry/cosewic-assessments-status-reports/polar-bear-2018.html\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Environment and Climate Change Canada</a>."
+      },
+      "body": {
+        "h1": "Canoa canadese da unire i punti — Paddle attraverso 69 punti",
+        "name": "Canoa canadese",
+        "tagline": "Paddle attraverso i laghi e i fiumi del Canada",
+        "description": "Collega 69 punti per rivelare una canoa canadese e un paddle. Questo stampabile medio sviluppa la sequenza numerica e il controllo della matita mentre introduce un'imbarcazione strettamente legata ai viaggi in Canada.",
+        "fun_fact": "Le canoe hanno reso possibile trasportare persone e rifornimenti lungo laghi e fiumi interconnessi dove non esistevano strade.",
+        "faqs": [
+          {
+            "q": "Per quale età è il puzzle unisci i puntini Canoa canadese?",
+            "a": "È pensato per l'età Età 5-9. Con 69 puntini è adatto ai bambini che sanno contare con sicurezza fino a 69; i più piccoli possono completarlo con un piccolo aiuto."
+          },
+          {
+            "q": "Come stampo la scheda Canoa canadese?",
+            "a": "Fai clic sul pulsante di download per ottenere il PDF gratuito, poi stampalo su carta normale (A4 o US Letter) da qualsiasi browser o lettore PDF. Non serve alcun software particolare."
+          },
+          {
+            "q": "La scheda stampabile Canoa canadese è davvero gratuita?",
+            "a": "Sì — è gratuita al 100%, senza registrazione, account o pagamenti. Puoi stamparla per casa o per la classe."
+          }
+        ],
+        "dot_guide": {
+          "intro": "La canoa è una delle imbarcazioni più riconoscibili in Canada. I Popoli Indigeni hanno sviluppato design di canoe sofisticati adatti alle acque locali e ai materiali disponibili, e i viaggiatori successivi si sono affidati alle canoe per muoversi attraverso vaste reti di fiumi e laghi. Questo puzzle da 69 punti traccia il paddle e lo scafo lungo e grazioso della canoa. Trova il punto 1 e inizia il tuo viaggio!",
+          "sections": [
+            {
+              "range": "1–14",
+              "title": "Il Paddle e il bordo superiore",
+              "learn": "Inizia al punto 1 e collega attraverso il punto 14 per delineare il paddle e il bordo superiore della canoa. Segui la lunga linea con attenzione e controlla ogni numero prima che la prua si curvi verso l'alto.",
+              "fact": "Un paddle ha un manico, un albero e una lama. La lama ampia spinge contro l'acqua per muovere e dirigere la canoa."
+            },
+            {
+              "range": "15–28",
+              "title": "La prua che si alza",
+              "learn": "Continua dal punto 15 al punto 28 attorno alla parte anteriore alta della canoa. Rallenta mentre il contorno cambia direzione affinché la prua appuntita rimanga liscia.",
+              "fact": "La prua è la parte anteriore di una canoa e la poppa è la parte posteriore. Le loro forme sollevate aiutano la barca a viaggiare attraverso le onde e l'acqua in movimento."
+            },
+            {
+              "range": "29–42",
+              "title": "La lama del paddle e lo scafo",
+              "learn": "Traccia i punti da 29 a 42 attorno alla lama del paddle e allo scafo inferiore. Usa curve controllate dove le due forme si avvicinano.",
+              "fact": "Il Servizio Geologico del Canada si è affidato alle canoe durante i primi lavori sul campo a nord. Vedi la sua storica canoa del 1874 sul <a href=\"https://ised-isde.canada.ca/site/science/en/educational-resources/history-geological-survey-canada-175-objects/26-canoe-1874\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">sito web del Governo del Canada</a>."
+            },
+            {
+              "range": "43–56",
+              "title": "Il lungo lato inferiore",
+              "learn": "Collega i punti da 43 a 56 lungo il lato inferiore curvo. Questi intervalli più lunghi premiano una mano ferma e un attento tracciamento visivo.",
+              "fact": "Le canoe tradizionali sono state costruite in forme diverse tra le culture indigene, utilizzando materiali come corteccia di betulla, cedro, pelli di animali e legno sagomato con cura."
+            },
+            {
+              "range": "57–69",
+              "title": "La poppa e la finitura",
+              "learn": "Termina con i punti da 57 a 69 attorno alla poppa e torna al bordo superiore. Conta attentamente fino all'ultimo punto e verifica che l'intero scafo sia connesso.",
+              "fact": "Le condizioni di pagaiata possono cambiare rapidamente, quindi la preparazione e l'equipaggiamento di sicurezza adeguato sono importanti. Le famiglie possono imparare a fare canoa e sulla sicurezza in acqua da <a href=\"https://parks.canada.ca/voyage-travel/experiences/sports/pagayer-paddling\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Parks Canada</a>."
+            }
+          ],
+          "outro": "Eccellente—la tua canoa è pronta per l'acqua! Colora lo scafo, aggiungi increspature sotto di esso e disegna un lago o una foresta canadese sullo sfondo. Esplora altre idee ufficiali di pagaiata da <a href=\"https://parks.canada.ca/voyage-travel/experiences/sports/pagayer-paddling\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Parks Canada</a>, poi prova un altro <a href=\"/canada/\">puzzle collegato i punti Canada</a>.",
+          "color_schemes": []
         }
-      ],
-      "outro": "Eccellente—il tuo gigante artico è completo! Lascia il pelo bianco e aggiungi ombre blu pallido, oppure disegna uno sfondo di ghiaccio marino innevato. Visita <a href=\"https://parks.canada.ca/pn-np/mb/wapusk/nature/faune-animals/mammiferes-mammals/ours-bears/polaire-polar\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">la pagina degli orsi polari di Parks Canada</a> con un adulto per saperne di più, poi esplora altri <a href=\"/canada/\">materiali stampabili gratuiti del Canada</a>."
+      }
     },
-    "seoTitle": "Alce Canadese Unisci i Puntini — Scheda da 89 Punti"
-  },
-  {
-    "slug": "canada-moose-dot-to-dot-puzzle",
-    "name": "Alce",
-    "seoH1": "Collegamento di punti alce — un PDF stampabile canadese con 89 punti",
-    "tagline": "Il gigante forestale canadese",
-    "description": "Collega 89 punti per completare un magnifico alce con ampie corna. Questo puzzle di media difficoltà sviluppa la concentrazione nel conteggio e il controllo della matita mentre i bambini scoprono uno degli animali selvatici più riconoscibili del Canada.",
-    "seoDescription": "Ampie corna incoronano il più grande membro della famiglia dei cervidi. Segui un percorso di 89 punti per completare questo stampabile gratuito di un alce per età 6–10.",
-    "funFact": "Raccoons have very sensitive front paws that help them explore their surroundings.",
-    "seoImageAlt": "Alce con corna larghe che si erge alto una volta uniti i 89 punti stampabili",
-    "dotGuide": {
-      "intro": "Un alce può sembrare quasi preistorico quando esce da una foresta canadese: lunghe gambe, un muso pesante e ampie corna che si ergono sopra la sua testa. Gli alci sono nuotatori forti e si sentono a casa intorno a laghi, zone umide e campagne boschive. Questo puzzle di 89 punti ha molte curve, specialmente attorno alle corna, quindi affila la matita, trova il punto 1 e conta con attenzione.",
-      "sections": [
-        {
-          "range": "1–18",
-          "title": "Il muso e il viso",
-          "learn": "Inizia dal punto 1 e collega fino al punto 18 per disegnare il lungo muso e il viso dell'alce. Usa tratti brevi e ordinati attorno al naso e all'area degli occhi.",
-          "fact": "Il muso ampio di un alce lo aiuta a raccogliere rametti, foglie e piante acquatiche. Gli alci sono erbivori, il che significa che mangiano piante."
+    {
+      "slug": "canada-maple-leaf-dot-to-dot-puzzle",
+      "header": {
+        "title": "Orso Polare da Unire i Puntini — 74 Punti tra i Ghiacci Artici",
+        "meta_description": "La foglia d'acero è al centro della bandiera canadese dal 1965. Traccia il suo contorno iconico attraverso 70 punti in un PDF stampabile gratuito per bambini di età compresa tra 5 e 9 anni.",
+        "og": {
+          "title": "Orso Polare da Unire i Puntini — 74 Punti tra i Ghiacci Artici",
+          "description": "La foglia d'acero è al centro della bandiera canadese dal 1965. Traccia il suo contorno iconico attraverso 70 punti in un PDF stampabile gratuito per bambini di età compresa tra 5 e 9 anni.",
+          "image_alt": "Possente orso polare che prende forma unendo 74 puntini numerati su scheda artica gratuita"
         },
-        {
-          "range": "19–36",
-          "title": "Le ampie corna",
-          "learn": "Continua dal punto 19 al punto 36 attorno alle corna ramificate. Questa è la sezione più difficile, quindi trova il numero successivo prima di disegnare ogni linea.",
-          "fact": "Solo i maschi di alce normalmente sviluppano le corna. Le perdono dopo la stagione degli accoppiamenti autunnali e ne crescono un nuovo paio l'anno successivo."
-        },
-        {
-          "range": "37–54",
-          "title": "Il Collo e la Schiena",
-          "learn": "Traccia i punti da 37 a 54 lungo il collo e attraverso la schiena. Lascia che la tua matita segua la lunga curva in modo fluido mentre appare il corpo dell'animale.",
-          "fact": "Il lembo di pelle che pende sotto la gola di un alce è chiamato campana o collare."
-        },
-        {
-          "range": "55–72",
-          "title": "Le Lunghe Gambe",
-          "learn": "Collega i punti da 55 a 72 attorno alle zampe posteriori e alla pancia. Le lunghe e strette forme delle gambe richiedono un conteggio paziente e cambi di direzione controllati.",
-          "fact": "Le lunghe gambe aiutano gli alci a camminare nella neve profonda e a guadare nei laghetti per raggiungere le piante acquatiche."
-        },
-        {
-          "range": "73–89",
-          "title": "Il Petto e l'Ultima Zampa",
-          "learn": "Finisci unendo i punti da 73 a 89 attorno alle zampe anteriori e al petto. Continua con attenzione fino all'ultima zampa.",
-          "fact": "Gli alci sono nuotatori capaci e possono viaggiare attraverso l'acqua per nutrirsi o fuggire dal pericolo. Trova ulteriori informazioni sulla fauna selvatica canadese nella <a href=\"https://parks.canada.ca/pn-np/mb/wapusk/nature/faune-animals/mammiferes-mammals\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">guida ai mammiferi di Parks Canada</a>."
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Foglia d'acero",
+          "description": "La foglia d'acero è al centro della bandiera canadese dal 1965. Traccia il suo contorno iconico attraverso 70 punti in un PDF stampabile gratuito per bambini di età compresa tra 5 e 9 anni.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
         }
-      ],
-      "outro": "Meraviglioso—il tuo alce è pronto per la natura canadese! Usa il marrone scuro per il corpo, il marrone più chiaro per le corna e aggiungi alberi di abete o un lago blu dietro di esso. Continua a esplorare con un altro <a href=\"/canada/\">stampa di animali canadesi da collegare</a>."
-    },
-    "seoTitle": "Procione da Unire i Puntini — Scheda da 90 Punti per 6-10 Anni"
-  },
-  {
-    "slug": "canada-raccoon-dot-to-dot-puzzle",
-    "name": "Procione",
-    "seoH1": "Scheda da collegare del Procione: 90 Punti per Età 6-10",
-    "tagline": "L'Intelligente Esploratore Mascherato",
-    "description": "Collega 90 punti per rivelare un curioso procione con la sua coda striata e la maschera scura. Questo puzzle di media difficoltà premia il conteggio attento mentre introduce un mammifero canadese familiare.",
-    "seoDescription": "Le zampe anteriori sensibili aiutano i procioni a esplorare l'ambiente circostante. Scopri la maschera e la coda striata attraverso 90 punti in un PDF gratuito per le età 6–10.",
-    "funFact": "I procioni hanno zampe anteriori altamente sensibili che li aiutano a investigare cibo e oggetti.",
-    "seoImageAlt": "Curioso procione con faccia mascherata e coda striata nascosto in 90 punti stampabili",
-    "dotGuide": {
-      "intro": "Con una maschera scura sul viso e anelli attorno alla coda, un procione è facile da riconoscere. Questi mammiferi adattabili vivono nelle foreste canadesi, nelle zone umide, nelle fattorie e nelle città. Sono per lo più attivi dopo il tramonto e usano le loro agili zampe anteriori per esplorare. Questo puzzle di 90 punti è una sfida più lunga, quindi inizia dal punto 1 e costruisci il procione un pezzo alla volta.",
-      "sections": [
-        {
-          "range": "1–18",
-          "title": "Le Orecchie e il Viso Mascherato",
-          "learn": "Inizia dal punto 1 e collega fino al punto 18 per delineare le orecchie appuntite e il viso rotondo. Mantieni le curve ordinate in modo che l'espressione allerta del procione emerga.",
-          "fact": "Il pelo scuro attorno agli occhi di un procione riduce il riflesso e crea il segno a maschera che rende l'animale così riconoscibile."
-        },
-        {
-          "range": "19–36",
-          "title": "La schiena",
-          "learn": "Continua dal punto 19 al punto 36 lungo le spalle e la schiena leggermente curvata. Una linea liscia qui dà al procione una silhouette morbida e pelosa.",
-          "fact": "I procioni sono per lo più notturni, il che significa che sono di solito attivi di notte e riposano durante gran parte del giorno."
-        },
-        {
-          "range": "37–54",
-          "title": "La coda anellata",
-          "learn": "Traccia i punti dal 37 al 54 attorno alla coda spessa. Segui prima la curva esterna; puoi aggiungere anelli scuri e chiari quando è il momento di colorare.",
-          "fact": "La coda folta di un procione ha comunemente diversi anelli scuri e può aiutare l'animale a mantenere l'equilibrio mentre scala."
-        },
-        {
-          "range": "55–72",
-          "title": "Le zampe e la pancia",
-          "learn": "Collega i punti dal 55 al 72 attorno alle zampe posteriori e alla pancia. Fai particolare attenzione dove i numeri sono vicini tra loro vicino alle dita.",
-          "fact": "Le zampe anteriori del procione hanno cinque dita lunghe. Le loro zampe sensibili sono utili per maneggiare il cibo e arrampicarsi sugli alberi."
-        },
-        {
-          "range": "73–90",
-          "title": "Il petto e la conclusione",
-          "learn": "Completa il puzzle con i punti dal 73 al 90, disegnando le zampe anteriori e il petto prima di tornare al viso. Novanta è la linea di arrivo—ben fatto!",
-          "fact": "I procioni sono nativi del Nord America e sono notevolmente adattabili. Leggi di più nell'<a href=\"https://www.thecanadianencyclopedia.ca/en/article/raccoon\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">voce sui procioni dell'Enciclopedia canadese</a>."
+      },
+      "body": {
+        "h1": "Collegare i punti della foglia d'acero: l'icona del Canada in 70 punti",
+        "name": "Foglia d'acero",
+        "tagline": "La famosa foglia rossa del Canada",
+        "description": "Collega 70 punti per rivelare una foglia d'acero, uno dei simboli più conosciuti del Canada. Questo puzzle di media difficoltà aiuta i bambini a praticare l'ordine dei numeri e il controllo attento della matita mentre imparano perché la foglia appare sulla bandiera del Canada.",
+        "fun_fact": "La foglia d'acero è apparsa al centro della bandiera nazionale del Canada dal 1965.",
+        "faqs": [
+          {
+            "q": "Per quale età è il puzzle unisci i puntini Foglia d'acero?",
+            "a": "È pensato per l'età Età 5-9. Con 70 puntini è adatto ai bambini che sanno contare con sicurezza fino a 70; i più piccoli possono completarlo con un piccolo aiuto."
+          },
+          {
+            "q": "Come stampo la scheda Foglia d'acero?",
+            "a": "Fai clic sul pulsante di download per ottenere il PDF gratuito, poi stampalo su carta normale (A4 o US Letter) da qualsiasi browser o lettore PDF. Non serve alcun software particolare."
+          },
+          {
+            "q": "La scheda stampabile Foglia d'acero è davvero gratuita?",
+            "a": "Sì — è gratuita al 100%, senza registrazione, account o pagamenti. Puoi stamparla per casa o per la classe."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Gli alberi d'acero illuminano le foreste canadesi con foglie rosse, arancioni e dorate ogni autunno. La foglia d'acero ha rappresentato il Canada per generazioni e si trova orgogliosamente al centro della bandiera rossa e bianca del paese. Questo puzzle di 70 punti segue i bordi appuntiti della foglia e il suo robusto gambo. Trova il punto 1, continua a muovere la matita in ordine numerico e guarda un simbolo canadese prendere forma!",
+          "sections": [
+            {
+              "range": "1–14",
+              "title": "Il Punto Superiore",
+              "learn": "Inizia dal punto 1 e collega fino al punto 14 per formare il punto alto in cima alla foglia. Segui ogni piccola curva con attenzione: gli angoli acuti danno alla foglia d'acero la sua forma riconoscibile.",
+              "fact": "La bandiera del Canada presenta una foglia d'acero rossa stilizzata con 11 punte. Scopri il design e la storia della bandiera da <a href=\"https://www.canada.ca/en/canadian-heritage/services/flag-canada-history.html\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Canadian Heritage</a>."
+            },
+            {
+              "range": "15–28",
+              "title": "I Punti della Mano Destra",
+              "learn": "Continua dal punto 15 al punto 28, muovendoti lungo il lato destro della foglia. Rallenta ad ogni angolo e controlla il numero successivo prima di cambiare direzione.",
+              "fact": "Il Canada ha 10 specie di acero native. L'acero da zucchero è particolarmente famoso perché la sua linfa può essere trasformata in sciroppo d'acero."
+            },
+            {
+              "range": "29–42",
+              "title": "Il Gambo",
+              "learn": "Collega i punti 29 al 42 per disegnare il bordo inferiore e il gambo stretto. Usa tratti più corti attorno alle curve strette in modo che la tua linea rimanga vicina ai punti.",
+              "fact": "Le persone raccolgono la linfa d'acero all'inizio della primavera, quando le notti fredde e le giornate più calde aiutano la linfa a fluire all'interno dell'albero."
+            },
+            {
+              "range": "43–56",
+              "title": "I Punti della Mano Sinistra",
+              "learn": "Traccia i punti 43-56 risalendo il lato sinistro. Questi punti rispecchiano le forme a destra, quindi confronta entrambi i lati mentre disegni.",
+              "fact": "Molto prima che la moderna bandiera canadese fosse adottata, le foglie d'acero apparivano su distintivi canadesi, stemmi, monete ed emblemi militari."
+            },
+            {
+              "range": "57–70",
+              "title": "Chiusura della Foglia",
+              "learn": "Finisci con i punti da 57 a 70, tornando alla cima della foglia. Conta lentamente fino all'ultimo punto, poi controlla che ogni punto e angolo sia connesso.",
+              "fact": "Le foglie d'acero producono cibo per l'albero utilizzando la luce solare. In autunno, il loro pigmento verde si degrada e altri colori diventano più facili da vedere."
+            }
+          ],
+          "outro": "Fantastico—la tua foglia d'acero è completa! Colorala di rosso brillante come la bandiera canadese, o usa giallo e arancione per una foglia autunnale. Scopri di più sui simboli nazionali del Canada sul <a href=\"https://www.canada.ca/en/canadian-heritage/services/official-symbols-canada.html\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">sito del Governo del Canada</a>, poi prova un altro <a href=\"/canada/\">puzzle punto a punto del Canada</a>.",
+          "color_schemes": []
         }
-      ],
-      "outro": "Ottimo lavoro—il tuo esploratore mascherato è completo! Colora il pelo di grigio-marrone, rendi la maschera del viso e gli anelli della coda scuri, e disegna una scena notturna di foresta o giardino. Poi scegli un altro <a href=\"/canada/\">puzzle gratuito del Canada</a> per continuare a praticare."
+      }
     },
-    "seoTitle": "Scheda di lavoro del procione da punto a punto: 90 punti per età 6-10"
-  }
-]
+    {
+      "slug": "canada-polar-bear-dot-to-dot-puzzle",
+      "header": {
+        "title": "Alce Canadese Unisci i Puntini — Scheda da 89 Punti",
+        "meta_description": "Circa due terzi degli orsi polari del mondo vivono in Canada. Rivela questo gigante artico attraverso 74 punti con un foglio di lavoro gratuito per età 6–10.",
+        "og": {
+          "title": "Alce Canadese Unisci i Puntini — Scheda da 89 Punti",
+          "description": "Circa due terzi degli orsi polari del mondo vivono in Canada. Rivela questo gigante artico attraverso 74 punti con un foglio di lavoro gratuito per età 6–10.",
+          "image_alt": "Potente orso polare che attraversa il ghiaccio artico, formato da 74 punti su un PDF stampabile"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Orso polare",
+          "description": "Circa due terzi degli orsi polari del mondo vivono in Canada. Rivela questo gigante artico attraverso 74 punti con un foglio di lavoro gratuito per età 6–10.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
+      },
+      "body": {
+        "h1": "Puzzle Punto a Punto dell'Orso Polare Stampabile, 74 Punti Artici Gratuiti",
+        "name": "Orso polare",
+        "tagline": "Un Gigante dell'Artico Canadese",
+        "description": "Collega 74 punti per rivelare un potente orso polare. Questo stampabile di media difficoltà offre ai bambini pratica nella sequenza dei numeri mentre introduce un animale specialmente adattato alla vita sul ghiaccio marino artico.",
+        "fun_fact": "Circa due terzi degli orsi polari del mondo vivono in Canada.",
+        "faqs": [
+          {
+            "q": "Per quale età è il puzzle unisci i puntini Orso polare?",
+            "a": "È pensato per l'età Età 6-10. Con 74 puntini è adatto ai bambini che sanno contare con sicurezza fino a 74; i più piccoli possono completarlo con un piccolo aiuto."
+          },
+          {
+            "q": "Come stampo la scheda Orso polare?",
+            "a": "Fai clic sul pulsante di download per ottenere il PDF gratuito, poi stampalo su carta normale (A4 o US Letter) da qualsiasi browser o lettore PDF. Non serve alcun software particolare."
+          },
+          {
+            "q": "La scheda stampabile Orso polare è davvero gratuita?",
+            "a": "Sì — è gratuita al 100%, senza registrazione, account o pagamenti. Puoi stamparla per casa o per la classe."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Gli orsi polari vagano lungo le coste ghiacciate e il ghiaccio marino dell'Artico canadese. Il loro folto pelo, le piccole orecchie e le enormi zampe li aiutano a rimanere caldi e a viaggiare attraverso neve, ghiaccio e acqua. Questo puzzle di 74 punti traccia un orso polare dal suo muso alle sue ampie zampe. Inizia dal punto 1 e fai il viaggio una linea attenta alla volta.",
+          "sections": [
+            {
+              "range": "1–15",
+              "title": "Il Muso e la Testa",
+              "learn": "Inizia dal punto 1 e collega fino al punto 15 per modellare il muso, il muso e la testa arrotondata. Mantieni le linee morbide attorno al viso in modo che il profilo dell'orso appaia liscio.",
+              "fact": "Un orso polare ha un eccellente senso dell'olfatto che lo aiuta a localizzare le foche, la sua preda principale, attraverso il ghiaccio."
+            },
+            {
+              "range": "16–30",
+              "title": "La Schiena e le Spalle",
+              "learn": "Continua dal punto 16 al punto 30 lungo le spalle forti e la schiena curva. Cerca di fare questo lungo contorno con colpi costanti invece di tanti piccoli segni.",
+              "fact": "Gli orsi polari sono i più grandi carnivori terrestri in Canada. I maschi adulti possono pesare diverse centinaia di chilogrammi."
+            },
+            {
+              "range": "31–45",
+              "title": "Le Zampe Posteriori",
+              "learn": "Traccia i punti da 31 a 45 per disegnare le zampe posteriori e le zampe. Controlla ogni numero attentamente dove il contorno cambia direzione vicino ai piedi.",
+              "fact": "Le ampie zampe di un orso polare distribuiscono il suo peso sulla neve e funzionano come pagaie quando nuota."
+            },
+            {
+              "range": "46–60",
+              "title": "La pancia e le zampe anteriori",
+              "learn": "Collega i punti 46 a 60 sotto il corpo e attorno alle zampe anteriori. Linee corte e controllate ti aiuteranno a seguire le curve più strette.",
+              "fact": "Gli orsi polari hanno la pelle nera sotto il pelo che sembra bianco. Il loro manto li aiuta a mimetizzarsi in un paesaggio artico innevato."
+            },
+            {
+              "range": "61–74",
+              "title": "Il petto e la conclusione",
+              "learn": "Termina con i punti 61 a 74, muovendoti verso l'alto nel petto e indietro verso la testa. Fai una pausa all'ultimo punto e assicurati che nessun numero sia stato saltato.",
+              "fact": "Il ghiaccio marino è un habitat essenziale per gli orsi polari perché fornisce una piattaforma per cacciare foche. Leggi il profilo della specie da <a href=\"https://www.canada.ca/en/environment-climate-change/services/species-risk-public-registry/cosewic-assessments-status-reports/polar-bear-2018.html\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Environment and Climate Change Canada</a>."
+            }
+          ],
+          "outro": "Eccellente—il tuo gigante artico è completo! Lascia il pelo bianco e aggiungi ombre blu pallido, oppure disegna uno sfondo di ghiaccio marino innevato. Visita <a href=\"https://parks.canada.ca/pn-np/mb/wapusk/nature/faune-animals/mammiferes-mammals/ours-bears/polaire-polar\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">la pagina degli orsi polari di Parks Canada</a> con un adulto per saperne di più, poi esplora altri <a href=\"/canada/\">materiali stampabili gratuiti del Canada</a>.",
+          "color_schemes": []
+        }
+      }
+    },
+    {
+      "slug": "canada-moose-dot-to-dot-puzzle",
+      "header": {
+        "title": "Procione da Unire i Puntini — Scheda da 90 Punti per 6-10 Anni",
+        "meta_description": "Ampie corna incoronano il più grande membro della famiglia dei cervidi. Segui un percorso di 89 punti per completare questo stampabile gratuito di un alce per età 6–10.",
+        "og": {
+          "title": "Procione da Unire i Puntini — Scheda da 90 Punti per 6-10 Anni",
+          "description": "Ampie corna incoronano il più grande membro della famiglia dei cervidi. Segui un percorso di 89 punti per completare questo stampabile gratuito di un alce per età 6–10.",
+          "image_alt": "Alce con corna larghe che si erge alto una volta uniti i 89 punti stampabili"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Alce",
+          "description": "Ampie corna incoronano il più grande membro della famiglia dei cervidi. Segui un percorso di 89 punti per completare questo stampabile gratuito di un alce per età 6–10.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
+      },
+      "body": {
+        "h1": "Collegamento di punti alce — un PDF stampabile canadese con 89 punti",
+        "name": "Alce",
+        "tagline": "Il gigante forestale canadese",
+        "description": "Collega 89 punti per completare un magnifico alce con ampie corna. Questo puzzle di media difficoltà sviluppa la concentrazione nel conteggio e il controllo della matita mentre i bambini scoprono uno degli animali selvatici più riconoscibili del Canada.",
+        "fun_fact": "Raccoons have very sensitive front paws that help them explore their surroundings.",
+        "faqs": [
+          {
+            "q": "Per quale età è il puzzle unisci i puntini Alce?",
+            "a": "È pensato per l'età Età 6-10. Con 89 puntini è adatto ai bambini che sanno contare con sicurezza fino a 89; i più piccoli possono completarlo con un piccolo aiuto."
+          },
+          {
+            "q": "Come stampo la scheda Alce?",
+            "a": "Fai clic sul pulsante di download per ottenere il PDF gratuito, poi stampalo su carta normale (A4 o US Letter) da qualsiasi browser o lettore PDF. Non serve alcun software particolare."
+          },
+          {
+            "q": "La scheda stampabile Alce è davvero gratuita?",
+            "a": "Sì — è gratuita al 100%, senza registrazione, account o pagamenti. Puoi stamparla per casa o per la classe."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Un alce può sembrare quasi preistorico quando esce da una foresta canadese: lunghe gambe, un muso pesante e ampie corna che si ergono sopra la sua testa. Gli alci sono nuotatori forti e si sentono a casa intorno a laghi, zone umide e campagne boschive. Questo puzzle di 89 punti ha molte curve, specialmente attorno alle corna, quindi affila la matita, trova il punto 1 e conta con attenzione.",
+          "sections": [
+            {
+              "range": "1–18",
+              "title": "Il muso e il viso",
+              "learn": "Inizia dal punto 1 e collega fino al punto 18 per disegnare il lungo muso e il viso dell'alce. Usa tratti brevi e ordinati attorno al naso e all'area degli occhi.",
+              "fact": "Il muso ampio di un alce lo aiuta a raccogliere rametti, foglie e piante acquatiche. Gli alci sono erbivori, il che significa che mangiano piante."
+            },
+            {
+              "range": "19–36",
+              "title": "Le ampie corna",
+              "learn": "Continua dal punto 19 al punto 36 attorno alle corna ramificate. Questa è la sezione più difficile, quindi trova il numero successivo prima di disegnare ogni linea.",
+              "fact": "Solo i maschi di alce normalmente sviluppano le corna. Le perdono dopo la stagione degli accoppiamenti autunnali e ne crescono un nuovo paio l'anno successivo."
+            },
+            {
+              "range": "37–54",
+              "title": "Il Collo e la Schiena",
+              "learn": "Traccia i punti da 37 a 54 lungo il collo e attraverso la schiena. Lascia che la tua matita segua la lunga curva in modo fluido mentre appare il corpo dell'animale.",
+              "fact": "Il lembo di pelle che pende sotto la gola di un alce è chiamato campana o collare."
+            },
+            {
+              "range": "55–72",
+              "title": "Le Lunghe Gambe",
+              "learn": "Collega i punti da 55 a 72 attorno alle zampe posteriori e alla pancia. Le lunghe e strette forme delle gambe richiedono un conteggio paziente e cambi di direzione controllati.",
+              "fact": "Le lunghe gambe aiutano gli alci a camminare nella neve profonda e a guadare nei laghetti per raggiungere le piante acquatiche."
+            },
+            {
+              "range": "73–89",
+              "title": "Il Petto e l'Ultima Zampa",
+              "learn": "Finisci unendo i punti da 73 a 89 attorno alle zampe anteriori e al petto. Continua con attenzione fino all'ultima zampa.",
+              "fact": "Gli alci sono nuotatori capaci e possono viaggiare attraverso l'acqua per nutrirsi o fuggire dal pericolo. Trova ulteriori informazioni sulla fauna selvatica canadese nella <a href=\"https://parks.canada.ca/pn-np/mb/wapusk/nature/faune-animals/mammiferes-mammals\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">guida ai mammiferi di Parks Canada</a>."
+            }
+          ],
+          "outro": "Meraviglioso—il tuo alce è pronto per la natura canadese! Usa il marrone scuro per il corpo, il marrone più chiaro per le corna e aggiungi alberi di abete o un lago blu dietro di esso. Continua a esplorare con un altro <a href=\"/canada/\">stampa di animali canadesi da collegare</a>.",
+          "color_schemes": []
+        }
+      }
+    },
+    {
+      "slug": "canada-raccoon-dot-to-dot-puzzle",
+      "header": {
+        "title": "Scheda di lavoro del procione da punto a punto: 90 punti per età 6-10",
+        "meta_description": "Le zampe anteriori sensibili aiutano i procioni a esplorare l'ambiente circostante. Scopri la maschera e la coda striata attraverso 90 punti in un PDF gratuito per le età 6–10.",
+        "og": {
+          "title": "Scheda di lavoro del procione da punto a punto: 90 punti per età 6-10",
+          "description": "Le zampe anteriori sensibili aiutano i procioni a esplorare l'ambiente circostante. Scopri la maschera e la coda striata attraverso 90 punti in un PDF gratuito per le età 6–10.",
+          "image_alt": "Curioso procione con faccia mascherata e coda striata nascosto in 90 punti stampabili"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Procione",
+          "description": "Le zampe anteriori sensibili aiutano i procioni a esplorare l'ambiente circostante. Scopri la maschera e la coda striata attraverso 90 punti in un PDF gratuito per le età 6–10.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
+      },
+      "body": {
+        "h1": "Scheda da collegare del Procione: 90 Punti per Età 6-10",
+        "name": "Procione",
+        "tagline": "L'Intelligente Esploratore Mascherato",
+        "description": "Collega 90 punti per rivelare un curioso procione con la sua coda striata e la maschera scura. Questo puzzle di media difficoltà premia il conteggio attento mentre introduce un mammifero canadese familiare.",
+        "fun_fact": "I procioni hanno zampe anteriori altamente sensibili che li aiutano a investigare cibo e oggetti.",
+        "faqs": [
+          {
+            "q": "Per quale età è il puzzle unisci i puntini Procione?",
+            "a": "È pensato per l'età Età 6-10. Con 90 puntini è adatto ai bambini che sanno contare con sicurezza fino a 90; i più piccoli possono completarlo con un piccolo aiuto."
+          },
+          {
+            "q": "Come stampo la scheda Procione?",
+            "a": "Fai clic sul pulsante di download per ottenere il PDF gratuito, poi stampalo su carta normale (A4 o US Letter) da qualsiasi browser o lettore PDF. Non serve alcun software particolare."
+          },
+          {
+            "q": "La scheda stampabile Procione è davvero gratuita?",
+            "a": "Sì — è gratuita al 100%, senza registrazione, account o pagamenti. Puoi stamparla per casa o per la classe."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Con una maschera scura sul viso e anelli attorno alla coda, un procione è facile da riconoscere. Questi mammiferi adattabili vivono nelle foreste canadesi, nelle zone umide, nelle fattorie e nelle città. Sono per lo più attivi dopo il tramonto e usano le loro agili zampe anteriori per esplorare. Questo puzzle di 90 punti è una sfida più lunga, quindi inizia dal punto 1 e costruisci il procione un pezzo alla volta.",
+          "sections": [
+            {
+              "range": "1–18",
+              "title": "Le Orecchie e il Viso Mascherato",
+              "learn": "Inizia dal punto 1 e collega fino al punto 18 per delineare le orecchie appuntite e il viso rotondo. Mantieni le curve ordinate in modo che l'espressione allerta del procione emerga.",
+              "fact": "Il pelo scuro attorno agli occhi di un procione riduce il riflesso e crea il segno a maschera che rende l'animale così riconoscibile."
+            },
+            {
+              "range": "19–36",
+              "title": "La schiena",
+              "learn": "Continua dal punto 19 al punto 36 lungo le spalle e la schiena leggermente curvata. Una linea liscia qui dà al procione una silhouette morbida e pelosa.",
+              "fact": "I procioni sono per lo più notturni, il che significa che sono di solito attivi di notte e riposano durante gran parte del giorno."
+            },
+            {
+              "range": "37–54",
+              "title": "La coda anellata",
+              "learn": "Traccia i punti dal 37 al 54 attorno alla coda spessa. Segui prima la curva esterna; puoi aggiungere anelli scuri e chiari quando è il momento di colorare.",
+              "fact": "La coda folta di un procione ha comunemente diversi anelli scuri e può aiutare l'animale a mantenere l'equilibrio mentre scala."
+            },
+            {
+              "range": "55–72",
+              "title": "Le zampe e la pancia",
+              "learn": "Collega i punti dal 55 al 72 attorno alle zampe posteriori e alla pancia. Fai particolare attenzione dove i numeri sono vicini tra loro vicino alle dita.",
+              "fact": "Le zampe anteriori del procione hanno cinque dita lunghe. Le loro zampe sensibili sono utili per maneggiare il cibo e arrampicarsi sugli alberi."
+            },
+            {
+              "range": "73–90",
+              "title": "Il petto e la conclusione",
+              "learn": "Completa il puzzle con i punti dal 73 al 90, disegnando le zampe anteriori e il petto prima di tornare al viso. Novanta è la linea di arrivo—ben fatto!",
+              "fact": "I procioni sono nativi del Nord America e sono notevolmente adattabili. Leggi di più nell'<a href=\"https://www.thecanadianencyclopedia.ca/en/article/raccoon\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">voce sui procioni dell'Enciclopedia canadese</a>."
+            }
+          ],
+          "outro": "Ottimo lavoro—il tuo esploratore mascherato è completo! Colora il pelo di grigio-marrone, rendi la maschera del viso e gli anelli della coda scuri, e disegna una scena notturna di foresta o giardino. Poi scegli un altro <a href=\"/canada/\">puzzle gratuito del Canada</a> per continuare a praticare.",
+          "color_schemes": []
+        }
+      }
+    }
+  ]
+}

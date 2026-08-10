@@ -1,316 +1,490 @@
-[
-  {
-    "slug": "mermaid-dot-to-dot-puzzle",
+{
+  "collection": {
     "header": {
-      "title": "Sirena spoji točkice – čarobni besplatni predložak s 54 točke",
-      "meta_description": "Ovaj besplatni predložak sirene s 54 točke jedan je od najomiljenijih spoji točkice zagonetki među djecom od 5 do 8 godina. Predaje o sirenama sežu čak 3000 godina unazad, do drevne Asirije – ispišite PDF i otplivajte kroz valove. Stalni favorit otkad je objavljen.",
+      "title": "Ocean Dot to Dot Printables for Kids — Free PDF Worksheets",
+      "meta_description": "Free ocean dot to dot printables for kids ages 4-9: mermaids, mermen, seahorses, whales, and jellyfish. Downloadable PDF worksheets loved by families in the USA, UK, and Canada. No account needed — print and start connecting.",
       "og": {
+        "title": "5 Free Ocean Dot to Dot Printables",
+        "description": "Mermaids, mermen, seahorses, whales, and jellyfish — free dot to dot printables ready to print in a minute.",
+        "image": "/images/mermaid-puzzle.webp"
+      },
+      "json_ld": {
+        "type": "CollectionPage",
+        "name": "Okean",
+        "description": "Zaronite u duboko plavetnilo! Spojite točkice i otkrijte sirene, morska stvorenja i oceanske avanture. Svi radni listovi mogu se besplatno preuzeti i ispisati - nije potreban račun.",
+        "image": "/images/mermaid-puzzle.webp",
+        "main_entity": {
+          "type": "ItemList",
+          "item_source": "puzzles"
+        }
+      },
+      "breadcrumb_json_ld": {
+        "type": "BreadcrumbList",
+        "items": [
+          {
+            "position": 1,
+            "name": "Home",
+            "path": "/"
+          },
+          {
+            "position": 2,
+            "name": "Okean",
+            "path": "/ocean/"
+          }
+        ]
+      }
+    },
+    "body": {
+      "h1": "Oceanski točkasti ispisi za djecu",
+      "name": "Okean",
+      "tagline": "Zašto djeca vole oceanske zagonetke s točkama",
+      "description": "Zaronite u duboko plavetnilo! Spojite točkice i otkrijte sirene, morska stvorenja i oceanske avanture. Svi radni listovi mogu se besplatno preuzeti i ispisati - nije potreban račun.",
+      "hero_image": "/images/mermaid-puzzle.webp",
+      "slug": "ocean",
+      "faqs": [
+        {
+          "q": "Koliko besplatnih oceanskih točkastih ispisanih crteža postoji?",
+          "a": "Kategorija Ocean trenutno nudi 5 besplatnih ispisanih radnih listova s ​​metodom spajanja točaka veličine od 35 do 88 točaka. Svaki radni list se odmah preuzima kao PDF spreman za ispis (Letter ili A4, portret ili pejzaž) bez potrebe za registracijom."
+        },
+        {
+          "q": "Jesu li oceanske zagonetke s točkama besplatne za ispis?",
+          "a": "Da — svih 5 zagonetki iz kolekcije Ocean potpuno je besplatno za kućnu i učionicu. Na DotToDotFreePrintables.com nikada nije potreban račun, e-pošta ili plaćanje."
+        },
+        {
+          "q": "Za koju dob su oceanske zagonetke?",
+          "a": "S brojem točaka od 35 do 88, kolekcija Ocean obuhvaća otprilike dob od 4 do 12 godina. Odaberite niži broj točaka za predškolce i vrtićku djecu, a viši broj točaka za samouvjereno brojanje u razredima od 2 do 6."
+        },
+        {
+          "q": "Koje oceanske zagonetke od točkica do točkica mogu isprintati?",
+          "a": "Pet besplatnih oceanskih ispisa: Kit (42 točke), Morski konjic (35 točaka), Meduza (88 točaka), Sirena (54 točke) i Morski čovjek (44 točke). Morski konjic prikladan je za najmlađe slagalice; meduza je izazov kolekcije."
+        }
+      ]
+    }
+  },
+  "puzzles": [
+    {
+      "slug": "mermaid-dot-to-dot-puzzle",
+      "header": {
         "title": "Sirena spoji točkice – čarobni besplatni predložak s 54 točke",
-        "description": "Ovaj besplatni predložak sirene s 54 točke jedan je od najomiljenijih spoji točkice zagonetki među djecom od 5 do 8 godina. Predaje o sirenama sežu čak 3000 godina unazad, do drevne Asirije – ispišite PDF i otplivajte kroz valove. Stalni favorit otkad je objavljen.",
-        "image_alt": "Sirena kako klizi pod vodom, rep joj se savija kroz 54 točke za ispis"
+        "meta_description": "Ovaj besplatni predložak sirene s 54 točke jedan je od najomiljenijih spoji točkice zagonetki među djecom od 5 do 8 godina. Predaje o sirenama sežu čak 3000 godina unazad, do drevne Asirije – ispišite PDF i otplivajte kroz valove. Stalni favorit otkad je objavljen.",
+        "og": {
+          "title": "Sirena spoji točkice – čarobni besplatni predložak s 54 točke",
+          "description": "Ovaj besplatni predložak sirene s 54 točke jedan je od najomiljenijih spoji točkice zagonetki među djecom od 5 do 8 godina. Predaje o sirenama sežu čak 3000 godina unazad, do drevne Asirije – ispišite PDF i otplivajte kroz valove. Stalni favorit otkad je objavljen.",
+          "image_alt": "Sirena kako klizi pod vodom, rep joj se savija kroz 54 točke za ispis"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Sirena",
+          "description": "Ovaj besplatni predložak sirene s 54 točke jedan je od najomiljenijih spoji točkice zagonetki među djecom od 5 do 8 godina. Predaje o sirenama sežu čak 3000 godina unazad, do drevne Asirije – ispišite PDF i otplivajte kroz valove. Stalni favorit otkad je objavljen.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
       },
-      "json_ld": {
-        "type": "CreativeWork",
+      "body": {
+        "h1": "Morska vila točka do točke — Čarobni 54-točkovni besplatni ispis",
         "name": "Sirena",
-        "description": "Ovaj besplatni predložak sirene s 54 točke jedan je od najomiljenijih spoji točkice zagonetki među djecom od 5 do 8 godina. Predaje o sirenama sežu čak 3000 godina unazad, do drevne Asirije – ispišite PDF i otplivajte kroz valove. Stalni favorit otkad je objavljen.",
-        "image": "",
-        "educational_use": "Fine motor skills, number sequencing",
-        "age_range": ""
-      }
-    },
-    "body": {
-      "h1": "Morska vila točka do točke — Čarobni 54-točkovni besplatni ispis",
-      "name": "Sirena",
-      "tagline": "Čarobna podmorska avantura",
-      "description": "Spojite točkice i otkrijte prekrasnu sirenu koja klizi kroz ocean. Ova jednostavna zagonetka s 54 točke savršena je za mlade učenike koji vježbaju nizanje brojeva dok uživaju u dašku podvodne magije.",
-      "fun_fact": "Sirene se pojavljuju u folkloru još od drevne Asirije - prije više od 3000 godina!",
-      "dot_guide": {
-        "intro": "Sirene su tisućama godina zaokupljale dječju maštu - od drevnih asirskih mora do bajki Hansa Christiana Andersena. Ova prekrasna zagonetka s 54 točke prati graciozan obris sirene koja klizi kroz dubine. To je prekrasna zagonetka za mirno, usredotočeno vrijeme - savršena za kišno poslijepodne ili mirnu <a href=\"/playgrounds/\">aktivnost u učionici za djecu</a>. Pronađite točku 1 i neka čarolija počne!",
-        "sections": [
+        "tagline": "Čarobna podmorska avantura",
+        "description": "Spojite točkice i otkrijte prekrasnu sirenu koja klizi kroz ocean. Ova jednostavna zagonetka s 54 točke savršena je za mlade učenike koji vježbaju nizanje brojeva dok uživaju u dašku podvodne magije.",
+        "fun_fact": "Sirene se pojavljuju u folkloru još od drevne Asirije - prije više od 3000 godina!",
+        "faqs": [
           {
-            "range": "1–9",
-            "title": "Lice i kosa",
-            "learn": "Započnite od točke 1 i povežite se s točkom 9 kako biste nacrtali lice sirene i tekuće linije njezine kose. Lica uključuju blage, zaobljene krivulje - lijepo zagrijavanje koje gradi samopouzdanje s olovkom prije većih oblika koji su pred vama. Potaknite djecu da lagano podignu zglob i puste olovku da klizi.",
-            "fact": "Legende o sirenama pojavile su se neovisno u kulturama diljem svijeta - od zapadnoafričkih vodenih duhova do japanskih Ningyoa i starogrčkih morskih nimfi Nereida. Ideja o poluljudskim, poluribljim bićima čini se da je nešto do čega ljudska mašta neprestano dolazi, bez obzira na ocean."
+            "q": "Koliko točkica ima slagalica od točkica do točkice Sirena?",
+            "a": "Ispisna slika sirene s poveznicama ima 54 numerirane točke. To je čini lakom do srednje teškom zagonetkom, najprikladnijom za dob od 5 do 8 godina (od vrtića do 2. razreda). Djeca spajaju točkice prema redoslijedu brojeva kako bi otkrila gotovu sliku sirene, a zatim je obojaju."
           },
           {
-            "range": "10–22",
-            "title": "Ruke i gornji dio tijela",
-            "learn": "Nastavite od točke 10 do točke 22 kako biste nacrtali ruke i torzo. Djeca ovdje vježbaju simetriju i prirodnu krivulju ljudske figure - dio koji je posebno dobar za raspravu o proporcijama tijela na zabavan način s niskim pritiskom. Lagani, tečni dodir daje najelegantniji rezultat.",
-            "fact": "Najpoznatiju priču o sirenama u engleskom govornom području - Mala sirena - napisao je Hans Christian Andersen 1837. godine. Izvorna priča prilično se razlikuje od animiranog filma: daleko je gorko-slatka i namijenjena je promišljanju o žrtvi, čežnji i što znači imati dušu."
+            "q": "Je li Sirena točka po točki besplatna za ispis?",
+            "a": "Da. Radni list Sirena može se 100% besplatno preuzeti s DotToDotFreePrintables.com - nije potreban račun, e-pošta ili plaćanje. Preuzima se odmah kao PDF spreman za ispis u portretnoj i pejzažnoj orijentaciji, veličine za papir US Letter ili A4."
           },
           {
-            "range": "23–36",
-            "title": "Struk i vaga",
-            "learn": "Pratite točke od 23 do 36 za središnji dio gdje ljudski oblik prelazi u riblji rep - najizrazitiji dio sirene u cijelom crtežu. Djeca uče pratiti oblik koji se sužava, a zatim ponovno širi prema van. Ovaj srednji dio nagrađuje strpljenje i pažljivo pronalaženje točaka.",
-            "fact": "Znanstvenici vjeruju da mit o sireni djelomično potječe od mornara koji su na moru uočili lamantine ili dugonge. Iz daljine, lamantin koji izranja kako bi udahnuo - sa svojim zaobljenim tijelom i repom nalik veslu - može izgledati iznenađujuće humanoidno. To je velikodušna interpretacija, ali usamljenost i udaljenost čine izvanredne stvari mašti."
+            "q": "Za koju dob je radni list s povezivanjem točkica Sirene najbolji?",
+            "a": "S 54 točke, zagonetka Sirena najbolje funkcionira za djecu od 5 do 8 godina (od vrtića do 2. razreda). Mlađa djeca mogu uživati ​​u njoj uz laganu pomoć odraslih pri brojanju, dok je samouvjerenija djeca u brojanju mogu samostalno rješavati i vježbati nizanje brojeva do 54."
           },
           {
-            "range": "37–46",
-            "title": "Riblji rep",
-            "learn": "Spojite točke od 37 do 46 kako biste povukli dugi, graciozni riblji rep prema dolje. Ovo je najzadovoljavajući dio slagalice - djeca osjećaju kako sirena poprima svoj konačni, prepoznatljivi oblik. Dugi, tekući potezi ovdje prekrasno funkcioniraju. Potaknite djecu da crtaju od ramena, a ne samo od zapešća.",
-            "fact": "U većini sirena, rep se opisuje kao prelijevajući se - svjetlucav u više boja poput mjehurića od sapunice ili riblje ljuske na sunčevoj svjetlosti. Kad je riječ o bojanju ove zagonetke, nema pogrešnog odgovora: srebrna, oceanski plava, smaragdno zelena ili sve tri odjednom su jednako valjane!"
+            "q": "Koje vještine uči zagonetka Sirena s točkama?",
+            "a": "Spajanje 54 točke slagalice Sirena gradi prepoznavanje brojeva i brojanje do 54, kontrolu olovke, koordinaciju ruku i oka te održivu koncentraciju - iste temelje fine motorike koji podržavaju rano pisanje rukom. Bojanje gotove slike dodaje kreativnu nagradu."
           },
           {
-            "range": "47–54",
-            "title": "Repne peraje",
-            "learn": "Završite spajanjem točaka od 47 do 54 kako biste dodali široke, zamašne repne peraje koje upotpunjuju siluetu sirene. Samo osam točaka do cilja - potaknite djecu da svaku od njih uzmu u obzir i završite samouvjerenim, gracioznim pokretom. Repna peraja je točka sirene!",
-            "fact": "Riblji repovi se pomiču s jedne strane na drugu, ali repovi kitova i dupina - nazvani peraji - pomiču se gore-dolje. Kad bi sirena postojala u stvarnom životu, znanstvenici raspravljaju o tome koji bi stil repa imao više smisla za gornji dio tijela u obliku čovjeka. Odgovor, temeljen na načinu na koji se kreću ljudski bokovi, vjerojatno bi bio stil dupina gore-dolje."
+            "q": "Koja je zanimljiva činjenica o sireni?",
+            "a": "Sirene se pojavljuju u folkloru od drevne Asirije - prije više od 3000 godina! Djeca otkrivaju činjenice poput ove dok rješavaju zagonetku Sirene od točkice do točkice."
           }
         ],
-        "outro": "Prekrasno - vaša sirena je spremna za ronjenje! Sada joj dajte repu najspektakularniju kombinaciju boja koju možete zamisliti. Ponosno ga izložite ili ga poklonite - u svakom slučaju, stvorili ste nešto zaista lijepo. Spremni za još jedno? Pregledajte još <a href=\"/\">besplatnih ispisa točka po točka</a> kako biste održali mirno vrijeme.",
-        "color_schemes": []
+        "dot_guide": {
+          "intro": "Sirene su tisućama godina zaokupljale dječju maštu - od drevnih asirskih mora do bajki Hansa Christiana Andersena. Ova prekrasna zagonetka s 54 točke prati graciozan obris sirene koja klizi kroz dubine. To je prekrasna zagonetka za mirno, usredotočeno vrijeme - savršena za kišno poslijepodne ili mirnu <a href=\"/playgrounds/\">aktivnost u učionici za djecu</a>. Pronađite točku 1 i neka čarolija počne!",
+          "sections": [
+            {
+              "range": "1–9",
+              "title": "Lice i kosa",
+              "learn": "Započnite od točke 1 i povežite se s točkom 9 kako biste nacrtali lice sirene i tekuće linije njezine kose. Lica uključuju blage, zaobljene krivulje - lijepo zagrijavanje koje gradi samopouzdanje s olovkom prije većih oblika koji su pred vama. Potaknite djecu da lagano podignu zglob i puste olovku da klizi.",
+              "fact": "Legende o sirenama pojavile su se neovisno u kulturama diljem svijeta - od zapadnoafričkih vodenih duhova do japanskih Ningyoa i starogrčkih morskih nimfi Nereida. Ideja o poluljudskim, poluribljim bićima čini se da je nešto do čega ljudska mašta neprestano dolazi, bez obzira na ocean."
+            },
+            {
+              "range": "10–22",
+              "title": "Ruke i gornji dio tijela",
+              "learn": "Nastavite od točke 10 do točke 22 kako biste nacrtali ruke i torzo. Djeca ovdje vježbaju simetriju i prirodnu krivulju ljudske figure - dio koji je posebno dobar za raspravu o proporcijama tijela na zabavan način s niskim pritiskom. Lagani, tečni dodir daje najelegantniji rezultat.",
+              "fact": "Najpoznatiju priču o sirenama u engleskom govornom području - Mala sirena - napisao je Hans Christian Andersen 1837. godine. Izvorna priča prilično se razlikuje od animiranog filma: daleko je gorko-slatka i namijenjena je promišljanju o žrtvi, čežnji i što znači imati dušu."
+            },
+            {
+              "range": "23–36",
+              "title": "Struk i vaga",
+              "learn": "Pratite točke od 23 do 36 za središnji dio gdje ljudski oblik prelazi u riblji rep - najizrazitiji dio sirene u cijelom crtežu. Djeca uče pratiti oblik koji se sužava, a zatim ponovno širi prema van. Ovaj srednji dio nagrađuje strpljenje i pažljivo pronalaženje točaka.",
+              "fact": "Znanstvenici vjeruju da mit o sireni djelomično potječe od mornara koji su na moru uočili lamantine ili dugonge. Iz daljine, lamantin koji izranja kako bi udahnuo - sa svojim zaobljenim tijelom i repom nalik veslu - može izgledati iznenađujuće humanoidno. To je velikodušna interpretacija, ali usamljenost i udaljenost čine izvanredne stvari mašti."
+            },
+            {
+              "range": "37–46",
+              "title": "Riblji rep",
+              "learn": "Spojite točke od 37 do 46 kako biste povukli dugi, graciozni riblji rep prema dolje. Ovo je najzadovoljavajući dio slagalice - djeca osjećaju kako sirena poprima svoj konačni, prepoznatljivi oblik. Dugi, tekući potezi ovdje prekrasno funkcioniraju. Potaknite djecu da crtaju od ramena, a ne samo od zapešća.",
+              "fact": "U većini sirena, rep se opisuje kao prelijevajući se - svjetlucav u više boja poput mjehurića od sapunice ili riblje ljuske na sunčevoj svjetlosti. Kad je riječ o bojanju ove zagonetke, nema pogrešnog odgovora: srebrna, oceanski plava, smaragdno zelena ili sve tri odjednom su jednako valjane!"
+            },
+            {
+              "range": "47–54",
+              "title": "Repne peraje",
+              "learn": "Završite spajanjem točaka od 47 do 54 kako biste dodali široke, zamašne repne peraje koje upotpunjuju siluetu sirene. Samo osam točaka do cilja - potaknite djecu da svaku od njih uzmu u obzir i završite samouvjerenim, gracioznim pokretom. Repna peraja je točka sirene!",
+              "fact": "Riblji repovi se pomiču s jedne strane na drugu, ali repovi kitova i dupina - nazvani peraji - pomiču se gore-dolje. Kad bi sirena postojala u stvarnom životu, znanstvenici raspravljaju o tome koji bi stil repa imao više smisla za gornji dio tijela u obliku čovjeka. Odgovor, temeljen na načinu na koji se kreću ljudski bokovi, vjerojatno bi bio stil dupina gore-dolje."
+            }
+          ],
+          "outro": "Prekrasno - vaša sirena je spremna za ronjenje! Sada joj dajte repu najspektakularniju kombinaciju boja koju možete zamisliti. Ponosno ga izložite ili ga poklonite - u svakom slučaju, stvorili ste nešto zaista lijepo. Spremni za još jedno? Pregledajte još <a href=\"/\">besplatnih ispisa točka po točka</a> kako biste održali mirno vrijeme.",
+          "color_schemes": []
+        }
       }
-    }
-  },
-  {
-    "slug": "merman-dot-to-dot-puzzle",
-    "header": {
-      "title": "Triton spoji točkice za predškolce – 44 jednostavne točke, besplatno",
-      "meta_description": "Povežite 44 jednostavne točkice i otkrijte tritona kako izranja iz dubina u ovom besplatnom predlošku spoji točkice za predškolsku dob od 4 do 7 godina. Legende o morskim ljudima protežu se od stare Grčke do Kariba – preuzmite besplatan PDF i krenite spajati. Dovoljno jednostavno i za četverogodišnjake.",
-      "og": {
+    },
+    {
+      "slug": "merman-dot-to-dot-puzzle",
+      "header": {
         "title": "Triton spoji točkice za predškolce – 44 jednostavne točke, besplatno",
-        "description": "Povežite 44 jednostavne točkice i otkrijte tritona kako izranja iz dubina u ovom besplatnom predlošku spoji točkice za predškolsku dob od 4 do 7 godina. Legende o morskim ljudima protežu se od stare Grčke do Kariba – preuzmite besplatan PDF i krenite spajati. Dovoljno jednostavno i za četverogodišnjake.",
-        "image_alt": "Triton kako izranja iz valova duž 44 jednostavne točke na predlošku za predškolce"
+        "meta_description": "Povežite 44 jednostavne točkice i otkrijte tritona kako izranja iz dubina u ovom besplatnom predlošku spoji točkice za predškolsku dob od 4 do 7 godina. Legende o morskim ljudima protežu se od stare Grčke do Kariba – preuzmite besplatan PDF i krenite spajati. Dovoljno jednostavno i za četverogodišnjake.",
+        "og": {
+          "title": "Triton spoji točkice za predškolce – 44 jednostavne točke, besplatno",
+          "description": "Povežite 44 jednostavne točkice i otkrijte tritona kako izranja iz dubina u ovom besplatnom predlošku spoji točkice za predškolsku dob od 4 do 7 godina. Legende o morskim ljudima protežu se od stare Grčke do Kariba – preuzmite besplatan PDF i krenite spajati. Dovoljno jednostavno i za četverogodišnjake.",
+          "image_alt": "Triton kako izranja iz valova duž 44 jednostavne točke na predlošku za predškolce"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Triton",
+          "description": "Povežite 44 jednostavne točkice i otkrijte tritona kako izranja iz dubina u ovom besplatnom predlošku spoji točkice za predškolsku dob od 4 do 7 godina. Legende o morskim ljudima protežu se od stare Grčke do Kariba – preuzmite besplatan PDF i krenite spajati. Dovoljno jednostavno i za četverogodišnjake.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
       },
-      "json_ld": {
-        "type": "CreativeWork",
+      "body": {
+        "h1": "Morski čovjek točka do točke za predškolsku djecu: 44 lake točke, besplatno",
         "name": "Triton",
-        "description": "Povežite 44 jednostavne točkice i otkrijte tritona kako izranja iz dubina u ovom besplatnom predlošku spoji točkice za predškolsku dob od 4 do 7 godina. Legende o morskim ljudima protežu se od stare Grčke do Kariba – preuzmite besplatan PDF i krenite spajati. Dovoljno jednostavno i za četverogodišnjake.",
-        "image": "",
-        "educational_use": "Fine motor skills, number sequencing",
-        "age_range": ""
-      }
-    },
-    "body": {
-      "h1": "Morski čovjek točka do točke za predškolsku djecu: 44 lake točke, besplatno",
-      "name": "Triton",
-      "tagline": "Kralj dubina",
-      "description": "Spojite točkice i otkrijte veličanstvenog morskog čovjeka koji se uzdiže iz oceanskih dubina! S 44 jednostavne točkice, ova zagonetka je savršena za predškolsku i vrtićku djecu koja vježbaju nizanje brojeva dok istražuju podvodnu fantaziju.",
-      "fun_fact": "Muški sirenci (morski ljudi) pojavljuju se u mitologiji diljem svijeta - od antičke Grčke do Kariba!",
-      "dot_guide": {
-        "intro": "Morski ljudi su moćni, tajanstveni kraljevi dubokog oceana - pojavljuju se u mitovima od antičke Grčke do Kariba, od zapadne Afrike do obala Škotske. Često prikazani kao žestoki vladari mora, podjednako se osjećaju kao kod kuće u mirnim lagunama i u olujama koje se razbijaju. Ova zagonetka s 44 točke prekrasan je i lako riješiv izazov za mlađu djecu. Uzmite olovku i upoznajte kralja dubina!",
-        "sections": [
+        "tagline": "Kralj dubina",
+        "description": "Spojite točkice i otkrijte veličanstvenog morskog čovjeka koji se uzdiže iz oceanskih dubina! S 44 jednostavne točkice, ova zagonetka je savršena za predškolsku i vrtićku djecu koja vježbaju nizanje brojeva dok istražuju podvodnu fantaziju.",
+        "fun_fact": "Muški sirenci (morski ljudi) pojavljuju se u mitologiji diljem svijeta - od antičke Grčke do Kariba!",
+        "faqs": [
           {
-            "range": "1–8",
-            "title": "Glava i lice",
-            "learn": "Započnite s točkom 1 i povežite je s točkom 8 kako biste skicirali snažno, ponosno lice morskog čovjeka. Ovaj uvodni dio koristi blage krivulje i pomaže djeci da se smire u ritmu slagalice. Brojanje svake točke naglas odličan je način da se roditelji i skrbnici uključe od samog početka.",
-            "fact": "U starogrčkoj mitologiji, bog mora Posejdon (Neptun u rimskoj mitologiji) često je prikazivan kao moćna figura nalik sirenu, koji je vladao oceanima s trozubom. Njegov sin Triton bio je pravi siren - pola čovjek, pola riba - koji je mogao smiriti ili izazvati oluje puhanjem u svoju trubu od školjke."
+            "q": "Koliko točkica ima slagalica od točkica do točkice Merman?",
+            "a": "Ispisna slagalica s morskim čovjekom - spajanje točkica ima 44 numerirane točkice. To je čini lakom do srednje teškom slagalicom, najprikladnijom za dob od 5 do 8 godina (od vrtića do 2. razreda). Djeca spajaju točkice prema redoslijedu brojeva kako bi otkrila gotovu sliku morskog čovjeka, a zatim je obojaju."
           },
           {
-            "range": "9–18",
-            "title": "Grb i trozubac",
-            "learn": "Nastavite od točke 9 do točke 18 kako biste nacrtali ispružene ruke i naznaku trozubca. Djeca vježbaju crtanje ispruženih oblika koji se protežu prema van od tijela - što je drugačiji izazov od crtanja oblika koji se zakrivljuju prema unutra. Ovaj odjeljak razvija svijest o smjeru i samouvjerene poteze prema van.",
-            "fact": "Trozubac - trokrako koplje - simbol je pomorske moći u mitologiji tisućama godina. Riječ dolazi od latinskog 'tridens', što znači tri zuba. Pravi ribari u mnogim kulturama koristili su trokraka koplja za lov ribe jednako dugo, pa je simbol vjerojatno nastao iz svakodnevnih alata."
+            "q": "Je li Morski čovjek točka po točka ispisiv besplatno?",
+            "a": "Da. Radni list o Mermanu može se 100% besplatno preuzeti s DotToDotFreePrintables.com - nije potreban račun, e-pošta ili plaćanje. Preuzima se odmah kao PDF spreman za ispis u portretnoj i pejzažnoj orijentaciji, veličine za papir US Letter ili A4."
           },
           {
-            "range": "19–30",
-            "title": "Moćni torzo",
-            "learn": "Pratite točke od 19 do 30 kako biste ispunili široki, mišićavi torzo. Ovo je najduži dio slagalice i izvrsna prilika za izgradnju održive koncentracije - važne vještine u učionici i kod kuće za djecu u dobi od 4 do 7 godina. Proslavite dosezanje točke 30 kao prekretnicu na pola puta.",
-            "fact": "Morski ljudi se u škotskom i irskom folkloru pojavljuju kao 'Plavi ljudi s Mincha' - čarobna morska stvorenja za koja se kaže da žive u tjesnacu između Škotske i Vanjskih Hebrida. Lokalni pripovjedači zamišljali su ove plavokose morske ljude kako izazivaju prolazeće mornare na natjecanje u poeziji i puštaju najbolje pjesnike da sigurno plove dalje!"
+            "q": "Za koju dob je najbolji radni list s povezivanjem točaka s motivom Mermana?",
+            "a": "S 44 točke, slagalica Morski čovjek najbolje funkcionira za djecu od 5 do 8 godina (od vrtića do 2. razreda). Mlađa djeca mogu uživati ​​u njoj uz laganu pomoć odraslih pri brojanju, dok je samouvjerenija djeca u brojanju mogu samostalno rješavati i vježbati nizanje brojeva do 44."
           },
           {
-            "range": "31–38",
-            "title": "Riblji rep",
-            "learn": "Spojite točke od 31 do 38 kako biste postavili riblji rep na svoje mjesto. Djeca u ovom dijelu vide puni oblik sirenskog čovjeka - zadovoljavajući trenutak koji nagrađuje svo pažljivo pronalaženje točaka koje je bilo prije. Tečni, sigurni potezi prema dolje daju repu prirodno kretanje.",
-            "fact": "Karipski bog mora Olokun, koji se nalazi u jorupskoj mitologiji podrijetlom iz zapadne Afrike, moćno je oceansko božanstvo koje se ponekad prikazuje s ribljim repom. Olokun predstavlja dubine oceana - misterije, bogatstvo skriveno ispod valova i nesvjesne dubine ljudskog uma. Izvanredno poetska slika."
+            "q": "Koje vještine uči slagalica od točkica do točkica Merman?",
+            "a": "Spajanje 44 točke slagalice Morski čovjek gradi prepoznavanje brojeva i brojanje do 44, kontrolu olovke, koordinaciju ruku i oka te održivu koncentraciju - iste temelje fine motorike koji podržavaju rano pisanje rukom. Bojanje gotove slike dodaje kreativnu nagradu."
           },
           {
-            "range": "39–44",
-            "title": "Repne peraje",
-            "learn": "Završite spajanjem točaka od 39 do 44 kako biste dodali tekuće repne peraje. Šest točaka za dovršetak kralja dubine - potaknite djecu da ovim završnim linijama daju stvarno samopouzdanje i zamah. Snažan završetak uvijek se isplati udahnuti prije početka.",
-            "fact": "Morski ljudi se u irskom folkloru ponekad nazivaju 'morski ljudi' ili 'morski ljudi', i za razliku od mnogih mitoloških morskih stvorenja, smatralo se da su općenito prijateljski raspoloženi prema ljudima - povremeno bi se ženili u ribarske obitelji i neko vrijeme živjeli na kopnu. Ocean, u tim pričama, nije bio mjesto kojeg se treba bojati, već susjed kojeg treba poštovati."
+            "q": "Koja je zanimljiva činjenica o sirenu?",
+            "a": "Muški sirenci (morski ljudi) pojavljuju se u mitologiji diljem svijeta - od antičke Grčke do Kariba! Djeca otkrivaju činjenice poput ove dok rješavaju zagonetku s morskim ljudima."
           }
         ],
-        "outro": "Briljantan rad - vaš morski čovjek je spreman vladati dubinama! Ovo je prekrasna zagonetka koju možete upariti s posjetom knjižnici kako biste pronašli knjige o oceanskoj mitologiji. Priče iz mora nadahnjuju dječju maštu tisućama godina. Istražite više naših <a href=\"/ocean/\">ispisnih materijala od točke do točke 1-100</a> iz dubina.",
-        "color_schemes": []
+        "dot_guide": {
+          "intro": "Morski ljudi su moćni, tajanstveni kraljevi dubokog oceana - pojavljuju se u mitovima od antičke Grčke do Kariba, od zapadne Afrike do obala Škotske. Često prikazani kao žestoki vladari mora, podjednako se osjećaju kao kod kuće u mirnim lagunama i u olujama koje se razbijaju. Ova zagonetka s 44 točke prekrasan je i lako riješiv izazov za mlađu djecu. Uzmite olovku i upoznajte kralja dubina!",
+          "sections": [
+            {
+              "range": "1–8",
+              "title": "Glava i lice",
+              "learn": "Započnite s točkom 1 i povežite je s točkom 8 kako biste skicirali snažno, ponosno lice morskog čovjeka. Ovaj uvodni dio koristi blage krivulje i pomaže djeci da se smire u ritmu slagalice. Brojanje svake točke naglas odličan je način da se roditelji i skrbnici uključe od samog početka.",
+              "fact": "U starogrčkoj mitologiji, bog mora Posejdon (Neptun u rimskoj mitologiji) često je prikazivan kao moćna figura nalik sirenu, koji je vladao oceanima s trozubom. Njegov sin Triton bio je pravi siren - pola čovjek, pola riba - koji je mogao smiriti ili izazvati oluje puhanjem u svoju trubu od školjke."
+            },
+            {
+              "range": "9–18",
+              "title": "Grb i trozubac",
+              "learn": "Nastavite od točke 9 do točke 18 kako biste nacrtali ispružene ruke i naznaku trozubca. Djeca vježbaju crtanje ispruženih oblika koji se protežu prema van od tijela - što je drugačiji izazov od crtanja oblika koji se zakrivljuju prema unutra. Ovaj odjeljak razvija svijest o smjeru i samouvjerene poteze prema van.",
+              "fact": "Trozubac - trokrako koplje - simbol je pomorske moći u mitologiji tisućama godina. Riječ dolazi od latinskog 'tridens', što znači tri zuba. Pravi ribari u mnogim kulturama koristili su trokraka koplja za lov ribe jednako dugo, pa je simbol vjerojatno nastao iz svakodnevnih alata."
+            },
+            {
+              "range": "19–30",
+              "title": "Moćni torzo",
+              "learn": "Pratite točke od 19 do 30 kako biste ispunili široki, mišićavi torzo. Ovo je najduži dio slagalice i izvrsna prilika za izgradnju održive koncentracije - važne vještine u učionici i kod kuće za djecu u dobi od 4 do 7 godina. Proslavite dosezanje točke 30 kao prekretnicu na pola puta.",
+              "fact": "Morski ljudi se u škotskom i irskom folkloru pojavljuju kao 'Plavi ljudi s Mincha' - čarobna morska stvorenja za koja se kaže da žive u tjesnacu između Škotske i Vanjskih Hebrida. Lokalni pripovjedači zamišljali su ove plavokose morske ljude kako izazivaju prolazeće mornare na natjecanje u poeziji i puštaju najbolje pjesnike da sigurno plove dalje!"
+            },
+            {
+              "range": "31–38",
+              "title": "Riblji rep",
+              "learn": "Spojite točke od 31 do 38 kako biste postavili riblji rep na svoje mjesto. Djeca u ovom dijelu vide puni oblik sirenskog čovjeka - zadovoljavajući trenutak koji nagrađuje svo pažljivo pronalaženje točaka koje je bilo prije. Tečni, sigurni potezi prema dolje daju repu prirodno kretanje.",
+              "fact": "Karipski bog mora Olokun, koji se nalazi u jorupskoj mitologiji podrijetlom iz zapadne Afrike, moćno je oceansko božanstvo koje se ponekad prikazuje s ribljim repom. Olokun predstavlja dubine oceana - misterije, bogatstvo skriveno ispod valova i nesvjesne dubine ljudskog uma. Izvanredno poetska slika."
+            },
+            {
+              "range": "39–44",
+              "title": "Repne peraje",
+              "learn": "Završite spajanjem točaka od 39 do 44 kako biste dodali tekuće repne peraje. Šest točaka za dovršetak kralja dubine - potaknite djecu da ovim završnim linijama daju stvarno samopouzdanje i zamah. Snažan završetak uvijek se isplati udahnuti prije početka.",
+              "fact": "Morski ljudi se u irskom folkloru ponekad nazivaju 'morski ljudi' ili 'morski ljudi', i za razliku od mnogih mitoloških morskih stvorenja, smatralo se da su općenito prijateljski raspoloženi prema ljudima - povremeno bi se ženili u ribarske obitelji i neko vrijeme živjeli na kopnu. Ocean, u tim pričama, nije bio mjesto kojeg se treba bojati, već susjed kojeg treba poštovati."
+            }
+          ],
+          "outro": "Briljantan rad - vaš morski čovjek je spreman vladati dubinama! Ovo je prekrasna zagonetka koju možete upariti s posjetom knjižnici kako biste pronašli knjige o oceanskoj mitologiji. Priče iz mora nadahnjuju dječju maštu tisućama godina. Istražite više naših <a href=\"/ocean/\">ispisnih materijala od točke do točke 1-100</a> iz dubina.",
+          "color_schemes": []
+        }
       }
-    }
-  },
-  {
-    "slug": "seahorse-dot-to-dot-puzzle",
-    "header": {
-      "title": "Morski konjic spoji točkice – naš najlakši oceanski PDF s 35 točaka",
-      "meta_description": "Sa samo 35 točaka, ovaj morski konjic najkraća je od naših oceanskih spoji točkice zagonetki, idealna za predškolce od 4 do 7 godina u 2026. Kod morskih konjica mladunčad nosi tata – ispišite besplatan PDF i upoznajte ovog dragog morskog prijatelja. Naša dosad najkraća oceanska zagonetka.",
-      "og": {
+    },
+    {
+      "slug": "seahorse-dot-to-dot-puzzle",
+      "header": {
         "title": "Morski konjic spoji točkice – naš najlakši oceanski PDF s 35 točaka",
-        "description": "Sa samo 35 točaka, ovaj morski konjic najkraća je od naših oceanskih spoji točkice zagonetki, idealna za predškolce od 4 do 7 godina u 2026. Kod morskih konjica mladunčad nosi tata – ispišite besplatan PDF i upoznajte ovog dragog morskog prijatelja. Naša dosad najkraća oceanska zagonetka.",
-        "image_alt": "Mali morski konjic uspravno pluta, oblikovan tek pomoću 35 točaka na besplatnom radnom listu"
+        "meta_description": "Sa samo 35 točaka, ovaj morski konjic najkraća je od naših oceanskih spoji točkice zagonetki, idealna za predškolce od 4 do 7 godina u 2026. Kod morskih konjica mladunčad nosi tata – ispišite besplatan PDF i upoznajte ovog dragog morskog prijatelja. Naša dosad najkraća oceanska zagonetka.",
+        "og": {
+          "title": "Morski konjic spoji točkice – naš najlakši oceanski PDF s 35 točaka",
+          "description": "Sa samo 35 točaka, ovaj morski konjic najkraća je od naših oceanskih spoji točkice zagonetki, idealna za predškolce od 4 do 7 godina u 2026. Kod morskih konjica mladunčad nosi tata – ispišite besplatan PDF i upoznajte ovog dragog morskog prijatelja. Naša dosad najkraća oceanska zagonetka.",
+          "image_alt": "Mali morski konjic uspravno pluta, oblikovan tek pomoću 35 točaka na besplatnom radnom listu"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Morski konjic",
+          "description": "Sa samo 35 točaka, ovaj morski konjic najkraća je od naših oceanskih spoji točkice zagonetki, idealna za predškolce od 4 do 7 godina u 2026. Kod morskih konjica mladunčad nosi tata – ispišite besplatan PDF i upoznajte ovog dragog morskog prijatelja. Naša dosad najkraća oceanska zagonetka.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
       },
-      "json_ld": {
-        "type": "CreativeWork",
+      "body": {
+        "h1": "Morski konjić točka do točke, naš najlakši PDF s 35 točaka iz oceana",
         "name": "Morski konjic",
-        "description": "Sa samo 35 točaka, ovaj morski konjic najkraća je od naših oceanskih spoji točkice zagonetki, idealna za predškolce od 4 do 7 godina u 2026. Kod morskih konjica mladunčad nosi tata – ispišite besplatan PDF i upoznajte ovog dragog morskog prijatelja. Naša dosad najkraća oceanska zagonetka.",
-        "image": "",
-        "educational_use": "Fine motor skills, number sequencing",
-        "age_range": ""
-      }
-    },
-    "body": {
-      "h1": "Morski konjić točka do točke, naš najlakši PDF s 35 točaka iz oceana",
-      "name": "Morski konjic",
-      "tagline": "Mali oceanski vitez",
-      "description": "Spojite točkice i otkrijte šarmantnog morskog konjića koji pluta morem! Sa samo 35 jednostavnih točkica, ova zagonetka idealna je za predškolsku i vrtićku djecu koja razvijaju vještine nizanja brojeva s preslatkim oceanskim prijateljem.",
-      "fun_fact": "Morski konjići su jedine ribe kod kojih mužjak nosi i rađa mlade!",
-      "dot_guide": {
-        "intro": "Morski konjic jedno je od najneobičnijih stvorenja u cijelom oceanu - ne samo zbog izgleda, već i zbog načina na koji živi. Pliva uspravno, kreće se mašući malom perajom na leđima, usidri se za morske alge svojim uvijenim repom, a otac je taj koji nosi i rađa mlade. Kad biste dizajnirali životinju od nule, nikada ne biste zamislili nešto ovako divno neobično. Nacrtajmo jednog zajedno!",
-        "sections": [
+        "tagline": "Mali oceanski vitez",
+        "description": "Spojite točkice i otkrijte šarmantnog morskog konjića koji pluta morem! Sa samo 35 jednostavnih točkica, ova zagonetka idealna je za predškolsku i vrtićku djecu koja razvijaju vještine nizanja brojeva s preslatkim oceanskim prijateljem.",
+        "fun_fact": "Morski konjići su jedine ribe kod kojih mužjak nosi i rađa mlade!",
+        "faqs": [
           {
-            "range": "1–6",
-            "title": "Glava i njuška",
-            "learn": "Započnite s točkom 1 i povežite se s točkom 6 kako biste nacrtali prepoznatljivu konjsku glavu morskog konjića i dugu njušku u obliku cijevi. Ovaj mali dio je lijep i lako upravljiv početak za mlađu djecu - samo šest točaka za izgradnju samopouzdanja prije većih dijelova koji slijede. Njuška je jedan od najneobičnijih oblika u životinjskom carstvu.",
-            "fact": "Morski konjic nema zube ni želudac. Usisava sitne kozice i plankton kroz njušku poput usisavača, a budući da hrana prolazi kroz nju tako brzo, mora jesti gotovo stalno - do 3000 slanih kozica dnevno. Biti morski konjic u biti je posao s punim radnim vremenom."
+            "q": "Koliko točkica ima slagalica od točkica do točkice Morski konjic?",
+            "a": "Slika morskog konjića za ispis s povezivanjem točkica ima 35 numeriranih točkica. To je čini jednostavnom zagonetkom, najprikladnijom za dob od 4 do 6 godina (predškolska djeca i vrtić). Djeca spajaju točkice prema redoslijedu brojeva kako bi otkrila gotovu sliku morskog konjića, a zatim je obojaju."
           },
           {
-            "range": "7–16",
-            "title": "Zakrivljeni vrat i griva",
-            "learn": "Nastavite od točke 7 do točke 16 kako biste pratili prekrasno zakrivljeni vrat i greben duž leđa - ponekad nazvan griva morskog konjića. Ovaj dio ima najljepšu krivulju u cijeloj slagalici. Djeca uče pratiti dugi, glatki luk, držeći olovku polako i ravnomjerno kretanjem za najbolji rezultat.",
-            "fact": "Morski konjići su zaista jedne od najsporijih riba u oceanu, krećući se maksimalnom brzinom od oko metar i pol na sat. Da bismo to stavili u perspektivu, vrtni puž kreće se brže. Umjesto da juri plijen, morski konjić se u potpunosti oslanja na kamuflažu i iznenađenje - pluta blizu hrane, a zatim udara brzinom munje."
+            "q": "Je li Morski konjić točka-po-točkica besplatan za ispis?",
+            "a": "Da. Radni list Seahorse može se besplatno preuzeti s DotToDotFreePrintables.com - nije potreban račun, e-pošta ili plaćanje. Preuzima se odmah kao PDF spreman za ispis u portretnoj i pejzažnoj orijentaciji, veličine za papir US Letter ili A4."
           },
           {
-            "range": "17–26",
-            "title": "Prstenovi za tijelo",
-            "learn": "Pratite točke od 17 do 26 kako biste nacrtali prepoznatljivo segmentirano tijelo - one uzdignute koštane prstenove koji se protežu od vrata do repa. Djeca ovdje uče da tijela životinja nisu uvijek glatka i počinju primjećivati ​​prekrasnu strukturu prirodnog oklopa morskog konjića. Ovaj odjeljak nagrađuje pažljivo, namjerno praćenje točaka.",
-            "fact": "Morski konjic nije prekriven ljuskama kao većina riba - umjesto toga, tijelo mu je obavijeno koštanim pločama raspoređenim u prstenove. To ga čini prilično krutim, zbog čega se ne može migoljiti kao većina riba. U biti nosi oklop, što ga također čini jednim od najtvrđih malih stvorenja u moru koje grabežljivac može progutati."
+            "q": "Za koju dob je radni list s povezivanjem točkica Morski konjić najbolji?",
+            "a": "S 35 točaka, zagonetka Morski konjić najbolje funkcionira za dob od 4 do 6 godina (predškolska i vrtićka). Mlađa djeca mogu uživati ​​u njoj uz laganu pomoć odraslih u brojanju, dok je samouvjerena djeca u brojanju mogu samostalno rješavati i vježbati nizanje brojeva do 35."
           },
           {
-            "range": "27–35",
-            "title": "Kovrčavi rep",
-            "learn": "Završite slagalicu spajanjem točaka od 27 do 35 kako biste nacrtali dugi, kovrčavi rep koji se proteže ispod tijela. Rep je jedan od najzadovoljavajućih oblika za crtanje - djeca vježbaju usku, smanjivajuću spiralu koja je istovremeno izazovna i duboko nagrađujuća. Devet točaka do kraja!",
-            "fact": "Rep morskog konjića je hvatajući - što znači da može hvatati stvari, baš poput majmunskog repa. Morski konjići se usidre za koralje i morske alge svojim repovima kako bi izbjegli da ih odnesu struje. Tijekom parenja, mužjak i ženka će omotati svoje repove zajedno i plutati kroz vodu jedan pored drugog - jedan od najromantičnijih prizora u oceanu."
+            "q": "Koje vještine uči slagalica s točkama od točke do točke Seahorse?",
+            "a": "Spajanje 35 točaka slagalice Morski konjić gradi prepoznavanje brojeva i brojanje do 35, kontrolu olovke, koordinaciju ruku i oka te održivu koncentraciju - iste temelje fine motorike koji podržavaju rano pisanje rukom. Bojanje gotove slike dodaje kreativnu nagradu."
+          },
+          {
+            "q": "Koja je zanimljiva činjenica o morskom konjiću?",
+            "a": "Morski konjići su jedine ribe kod kojih mužjak nosi i rađa mlade! Djeca otkrivaju ovakve činjenice dok rješavaju zagonetku s morskim konjićima."
           }
         ],
-        "outro": "Prekrasan rad - vaš morski konjic je dovršen! Jeste li znali da morski konjici dolaze u preko 45 različitih vrsta, u bojama od jarko žute do tamnoljubičaste do gotovo potpuno prozirne? Obojite svog kako god želite - u svijetu morskih konjica sve je dopušteno. Tražite svoj sljedeći izazov? Pregledajte sve naše <a href=\"/\">materijale za ispis od točke do točke</a>.",
-        "color_schemes": []
+        "dot_guide": {
+          "intro": "Morski konjic jedno je od najneobičnijih stvorenja u cijelom oceanu - ne samo zbog izgleda, već i zbog načina na koji živi. Pliva uspravno, kreće se mašući malom perajom na leđima, usidri se za morske alge svojim uvijenim repom, a otac je taj koji nosi i rađa mlade. Kad biste dizajnirali životinju od nule, nikada ne biste zamislili nešto ovako divno neobično. Nacrtajmo jednog zajedno!",
+          "sections": [
+            {
+              "range": "1–6",
+              "title": "Glava i njuška",
+              "learn": "Započnite s točkom 1 i povežite se s točkom 6 kako biste nacrtali prepoznatljivu konjsku glavu morskog konjića i dugu njušku u obliku cijevi. Ovaj mali dio je lijep i lako upravljiv početak za mlađu djecu - samo šest točaka za izgradnju samopouzdanja prije većih dijelova koji slijede. Njuška je jedan od najneobičnijih oblika u životinjskom carstvu.",
+              "fact": "Morski konjic nema zube ni želudac. Usisava sitne kozice i plankton kroz njušku poput usisavača, a budući da hrana prolazi kroz nju tako brzo, mora jesti gotovo stalno - do 3000 slanih kozica dnevno. Biti morski konjic u biti je posao s punim radnim vremenom."
+            },
+            {
+              "range": "7–16",
+              "title": "Zakrivljeni vrat i griva",
+              "learn": "Nastavite od točke 7 do točke 16 kako biste pratili prekrasno zakrivljeni vrat i greben duž leđa - ponekad nazvan griva morskog konjića. Ovaj dio ima najljepšu krivulju u cijeloj slagalici. Djeca uče pratiti dugi, glatki luk, držeći olovku polako i ravnomjerno kretanjem za najbolji rezultat.",
+              "fact": "Morski konjići su zaista jedne od najsporijih riba u oceanu, krećući se maksimalnom brzinom od oko metar i pol na sat. Da bismo to stavili u perspektivu, vrtni puž kreće se brže. Umjesto da juri plijen, morski konjić se u potpunosti oslanja na kamuflažu i iznenađenje - pluta blizu hrane, a zatim udara brzinom munje."
+            },
+            {
+              "range": "17–26",
+              "title": "Prstenovi za tijelo",
+              "learn": "Pratite točke od 17 do 26 kako biste nacrtali prepoznatljivo segmentirano tijelo - one uzdignute koštane prstenove koji se protežu od vrata do repa. Djeca ovdje uče da tijela životinja nisu uvijek glatka i počinju primjećivati ​​prekrasnu strukturu prirodnog oklopa morskog konjića. Ovaj odjeljak nagrađuje pažljivo, namjerno praćenje točaka.",
+              "fact": "Morski konjic nije prekriven ljuskama kao većina riba - umjesto toga, tijelo mu je obavijeno koštanim pločama raspoređenim u prstenove. To ga čini prilično krutim, zbog čega se ne može migoljiti kao većina riba. U biti nosi oklop, što ga također čini jednim od najtvrđih malih stvorenja u moru koje grabežljivac može progutati."
+            },
+            {
+              "range": "27–35",
+              "title": "Kovrčavi rep",
+              "learn": "Završite slagalicu spajanjem točaka od 27 do 35 kako biste nacrtali dugi, kovrčavi rep koji se proteže ispod tijela. Rep je jedan od najzadovoljavajućih oblika za crtanje - djeca vježbaju usku, smanjivajuću spiralu koja je istovremeno izazovna i duboko nagrađujuća. Devet točaka do kraja!",
+              "fact": "Rep morskog konjića je hvatajući - što znači da može hvatati stvari, baš poput majmunskog repa. Morski konjići se usidre za koralje i morske alge svojim repovima kako bi izbjegli da ih odnesu struje. Tijekom parenja, mužjak i ženka će omotati svoje repove zajedno i plutati kroz vodu jedan pored drugog - jedan od najromantičnijih prizora u oceanu."
+            }
+          ],
+          "outro": "Prekrasan rad - vaš morski konjic je dovršen! Jeste li znali da morski konjici dolaze u preko 45 različitih vrsta, u bojama od jarko žute do tamnoljubičaste do gotovo potpuno prozirne? Obojite svog kako god želite - u svijetu morskih konjica sve je dopušteno. Tražite svoj sljedeći izazov? Pregledajte sve naše <a href=\"/\">materijale za ispis od točke do točke</a>.",
+          "color_schemes": []
+        }
       }
-    }
-  },
-  {
-    "slug": "whale-dot-to-dot-puzzle",
-    "header": {
-      "title": "Kit spoji točkice – 42 jednostavne točke za povezati",
-      "meta_description": "Spojite 42 jednostavne točke i oživite moćnog kita u ovom besplatnom predlošku spoji točkice za djecu od 4 do 7 godina. Plavi kitovi, viđeni uz obale SAD-a, Velike Britanije i Kanade, najveće su životinje ikad zabilježene – ispišite PDF i krenite crtati. Velika slika, malo truda.",
-      "og": {
+    },
+    {
+      "slug": "whale-dot-to-dot-puzzle",
+      "header": {
         "title": "Kit spoji točkice – 42 jednostavne točke za povezati",
-        "description": "Spojite 42 jednostavne točke i oživite moćnog kita u ovom besplatnom predlošku spoji točkice za djecu od 4 do 7 godina. Plavi kitovi, viđeni uz obale SAD-a, Velike Britanije i Kanade, najveće su životinje ikad zabilježene – ispišite PDF i krenite crtati. Velika slika, malo truda.",
-        "image_alt": "Moćni kit usred plivanja, leđa mu se izvijaju preko 42 numerirane točke za ispis"
+        "meta_description": "Spojite 42 jednostavne točke i oživite moćnog kita u ovom besplatnom predlošku spoji točkice za djecu od 4 do 7 godina. Plavi kitovi, viđeni uz obale SAD-a, Velike Britanije i Kanade, najveće su životinje ikad zabilježene – ispišite PDF i krenite crtati. Velika slika, malo truda.",
+        "og": {
+          "title": "Kit spoji točkice – 42 jednostavne točke za povezati",
+          "description": "Spojite 42 jednostavne točke i oživite moćnog kita u ovom besplatnom predlošku spoji točkice za djecu od 4 do 7 godina. Plavi kitovi, viđeni uz obale SAD-a, Velike Britanije i Kanade, najveće su životinje ikad zabilježene – ispišite PDF i krenite crtati. Velika slika, malo truda.",
+          "image_alt": "Moćni kit usred plivanja, leđa mu se izvijaju preko 42 numerirane točke za ispis"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Kit",
+          "description": "Spojite 42 jednostavne točke i oživite moćnog kita u ovom besplatnom predlošku spoji točkice za djecu od 4 do 7 godina. Plavi kitovi, viđeni uz obale SAD-a, Velike Britanije i Kanade, najveće su životinje ikad zabilježene – ispišite PDF i krenite crtati. Velika slika, malo truda.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
       },
-      "json_ld": {
-        "type": "CreativeWork",
+      "body": {
+        "h1": "Kit točka do točke ispis — 42 lake točke za povezivanje",
         "name": "Kit",
-        "description": "Spojite 42 jednostavne točke i oživite moćnog kita u ovom besplatnom predlošku spoji točkice za djecu od 4 do 7 godina. Plavi kitovi, viđeni uz obale SAD-a, Velike Britanije i Kanade, najveće su životinje ikad zabilježene – ispišite PDF i krenite crtati. Velika slika, malo truda.",
-        "image": "",
-        "educational_use": "Fine motor skills, number sequencing",
-        "age_range": ""
-      }
-    },
-    "body": {
-      "h1": "Kit točka do točke ispis — 42 lake točke za povezivanje",
-      "name": "Kit",
-      "tagline": "Nježni morski div",
-      "description": "Povežite 42 lake točke kako biste otkrili veličanstvenog kita koji pliva kroz ocean. Ova isprintana zagonetka pomaže predškolcima i djeci u vrtiću da vježbaju redoslijed brojeva, kontrolu olovke i koncentraciju.",
-      "fun_fact": "Plavi kitovi su najveće poznate životinje koje su ikada živjele na Zemlji!",
-      "dot_guide": {
-        "intro": "Kit je najveća životinja koja je ikada postojala na našem planetu - veći od bilo kojeg dinosaura, veći od svega što je ikada živjelo na kopnu. Ipak, unatoč svojoj ogromnoj veličini, kitovi su nježna, inteligentna, duboko društvena bića koja pjevaju jedni drugima preko stotina kilometara otvorenog oceana. Ova zagonetka s 42 točke obuhvaća tu mirnu i neumornu kvalitetu. Duboko udahnite, pronađite točku 1 i zaronite!",
-        "sections": [
+        "tagline": "Nježni morski div",
+        "description": "Povežite 42 lake točke kako biste otkrili veličanstvenog kita koji pliva kroz ocean. Ova isprintana zagonetka pomaže predškolcima i djeci u vrtiću da vježbaju redoslijed brojeva, kontrolu olovke i koncentraciju.",
+        "fun_fact": "Plavi kitovi su najveće poznate životinje koje su ikada živjele na Zemlji!",
+        "faqs": [
           {
-            "range": "1–8",
-            "title": "Glava i usta",
-            "learn": "Započnite od točke 1 i spojite se s točkom 8 kako biste nacrtali široku, zaobljenu glavu kita i blagu krivulju usta. Kitovi imaju neke od najmirnijih oblika glava u prirodi - bez vidljivih oštrih zuba, bez žestokog izraza lica. Djeca ovdje vježbaju široke, spore krivulje, koje odgovaraju kitovom laganom karakteru.",
-            "fact": "Srce plavog kita je otprilike veličine malog automobila - teško otprilike 180 kilograma - i kuca samo oko 8 do 10 puta u minuti kada kit roni. Kada izroni, srce ubrzava do 25-37 otkucaja u minuti. To je najveće srce bilo koje životinje ikada poznate na Zemlji - zaista nevjerojatno!"
+            "q": "Koliko točaka ima zagonetka od točkica do točkica s motivom kita?",
+            "a": "Ispisna slagalica s kitom i spajanjem točkica ima 42 numerirane točkice. To je čini lakom do srednje teškom slagalicom, najprikladnijom za dob od 5 do 8 godina (od vrtića do 2. razreda). Djeca spajaju točkice prema redoslijedu brojeva kako bi otkrila gotovu sliku kita, a zatim je obojaju."
           },
           {
-            "range": "9–18",
-            "title": "Leđna i leđna peraja",
-            "learn": "Nastavite od točke 9 do točke 18 kako biste ocrtali duga, glatka leđa i malu leđnu peraju. U usporedbi s visokom perajom dupina, leđna peraja plavog kita je sićušna - djeca često komentiraju to, što potiče lijepu raspravu o tome zašto različite životinje imaju različite crte lica. Dugi, tekući potezi najbolje funkcioniraju za ovu blagu krivulju.",
-            "fact": "Kitova koža nosi jedinstvene uzorke ožiljaka, mrlja i oznaka - toliko prepoznatljive da znanstvenici mogu identificirati pojedinačne kitove samo s fotografija. Neki kitovi u dugotrajnim studijama praćeni su više od 30 godina. Pojedinačne kitove poznajemo po imenu, osobnosti i obiteljskoj povijesti. To je izvanredna stvar."
+            "q": "Je li Kit točka po točku ispisiv besplatno?",
+            "a": "Da. Radni list o kitu može se 100% besplatno preuzeti s DotToDotFreePrintables.com - nije potreban račun, e-pošta ili plaćanje. Preuzima se odmah kao PDF spreman za ispis u portretnoj i pejzažnoj orijentaciji, veličine za papir US Letter ili A4."
           },
           {
-            "range": "19–30",
-            "title": "Trbuh i tijelo",
-            "learn": "Pratite točke od 19 do 30 kako biste ispunili ogroman trbuh i dovršili glavni oblik tijela. Donja strana kita često je svjetlije boje od leđa - oblik kamuflaže koji se naziva kontrasjena, uobičajen kod oceanskih životinja. Djeca ovdje vježbaju najduži dio slagalice, gradeći pravu koncentraciju i izdržljivost.",
-            "fact": "Plavi kit može pojesti do četiri tone krila - sićušnih stvorenja nalik škampima - u jednom danu. To čini tako što se baci u roj otvorenih usta, proguta ogromnu količinu vode, a zatim vodu istisne kroz ploče usana dok kril ostaje zarobljen unutra. Elegantna, drevna tehnika."
+            "q": "Za koju dob je radni list s povezivanjem točaka na temu kita najbolji?",
+            "a": "S 42 točke, zagonetka Kit najbolje funkcionira za dob od 5 do 8 godina (od vrtića do drugog razreda). Mlađa djeca mogu uživati ​​u njoj uz laganu pomoć odraslih u brojanju, dok je samouvjerenija djeca u brojanju mogu samostalno rješavati i vježbati nizanje brojeva do 42."
           },
           {
-            "range": "31–36",
-            "title": "Peraje",
-            "learn": "Spojite točke od 31 do 36 kako biste nacrtali duge peraje u obliku vesla. Kitove peraje sadrže iste kosti kao ljudska šaka i ruka - pet kostiju prstiju, zapešće i nadlakticu - samo su preoblikovale tijekom milijuna godina za život u oceanu. Djeca vole otkrivati ​​ovo kada im to pokažete usred slagalice.",
-            "fact": "Unutar kitove peraje nalaze se iste kosti koje imate u vlastitoj ruci - palac, prsti, zglob i sve ostalo. Preci kitova hodali su kopnom prije otprilike 50 milijuna godina, a peraja je ono što su te noge s vremenom postale. Evolucija je u biti vrlo spor, vrlo strpljiv kipar."
+            "q": "Koje vještine uči zagonetka od točkice do točkice s Kitom?",
+            "a": "Spajanje 42 točke slagalice Kit gradi prepoznavanje brojeva i brojanje do 42, kontrolu olovke, koordinaciju ruku i očiju te održivu koncentraciju - iste temelje fine motorike koji podržavaju rano pisanje rukom. Bojanje gotove slike dodaje kreativnu nagradu."
           },
           {
-            "range": "37–42",
-            "title": "Repne peraje",
-            "learn": "Završite slagalicu spajanjem točaka od 37 do 42 kako biste nacrtali široke repne peraje - najmoćniju strukturu u životinjskom carstvu u odnosu na svoju namjenu. Samo šest točaka za dovršetak ovog nježnog diva. Potaknite samouvjeren, zamašan završetak: kit zaslužuje grandiozan zaključak.",
-            "fact": "Repne peraje plavog kita mogu biti široke i do 7,5 metara - šire od mnogih kuća. Svaki zamah tih peraja prema dolje pokreće kita naprijed brzinom do 32 kilometra na sat u kratkim naletima. Kitova pjesma - proizvedena bez ikakvih glasnica - može putovati više od 1600 kilometara kroz duboku oceansku vodu. Ove životinje su izvanredne na gotovo svaki zamislivi način."
+            "q": "Koja je zanimljiva činjenica o kitu?",
+            "a": "Plavi kitovi su najveće poznate životinje koje su ikada živjele na Zemlji! Djeca otkrivaju ovakve činjenice dok rješavaju zagonetku s kitom."
           }
         ],
-        "outro": "Upravo ste nacrtali najveću životinju na Zemlji - bravo! Ova zagonetka se prekrasno slaže s razgovorom o očuvanju oceana. Kitovi su prošlog stoljeća lovljeni gotovo do izumiranja, a sada se polako oporavljaju. Djeca koja danas vole kitove upravo su onakvi ljudi koji će ih štititi sutra. Za više stranica spremnih za učionicu pogledajte naše <a href=\"/playgrounds/\">radne listove s točkama</a>.",
-        "color_schemes": []
+        "dot_guide": {
+          "intro": "Kit je najveća životinja koja je ikada postojala na našem planetu - veći od bilo kojeg dinosaura, veći od svega što je ikada živjelo na kopnu. Ipak, unatoč svojoj ogromnoj veličini, kitovi su nježna, inteligentna, duboko društvena bića koja pjevaju jedni drugima preko stotina kilometara otvorenog oceana. Ova zagonetka s 42 točke obuhvaća tu mirnu i neumornu kvalitetu. Duboko udahnite, pronađite točku 1 i zaronite!",
+          "sections": [
+            {
+              "range": "1–8",
+              "title": "Glava i usta",
+              "learn": "Započnite od točke 1 i spojite se s točkom 8 kako biste nacrtali široku, zaobljenu glavu kita i blagu krivulju usta. Kitovi imaju neke od najmirnijih oblika glava u prirodi - bez vidljivih oštrih zuba, bez žestokog izraza lica. Djeca ovdje vježbaju široke, spore krivulje, koje odgovaraju kitovom laganom karakteru.",
+              "fact": "Srce plavog kita je otprilike veličine malog automobila - teško otprilike 180 kilograma - i kuca samo oko 8 do 10 puta u minuti kada kit roni. Kada izroni, srce ubrzava do 25-37 otkucaja u minuti. To je najveće srce bilo koje životinje ikada poznate na Zemlji - zaista nevjerojatno!"
+            },
+            {
+              "range": "9–18",
+              "title": "Leđna i leđna peraja",
+              "learn": "Nastavite od točke 9 do točke 18 kako biste ocrtali duga, glatka leđa i malu leđnu peraju. U usporedbi s visokom perajom dupina, leđna peraja plavog kita je sićušna - djeca često komentiraju to, što potiče lijepu raspravu o tome zašto različite životinje imaju različite crte lica. Dugi, tekući potezi najbolje funkcioniraju za ovu blagu krivulju.",
+              "fact": "Kitova koža nosi jedinstvene uzorke ožiljaka, mrlja i oznaka - toliko prepoznatljive da znanstvenici mogu identificirati pojedinačne kitove samo s fotografija. Neki kitovi u dugotrajnim studijama praćeni su više od 30 godina. Pojedinačne kitove poznajemo po imenu, osobnosti i obiteljskoj povijesti. To je izvanredna stvar."
+            },
+            {
+              "range": "19–30",
+              "title": "Trbuh i tijelo",
+              "learn": "Pratite točke od 19 do 30 kako biste ispunili ogroman trbuh i dovršili glavni oblik tijela. Donja strana kita često je svjetlije boje od leđa - oblik kamuflaže koji se naziva kontrasjena, uobičajen kod oceanskih životinja. Djeca ovdje vježbaju najduži dio slagalice, gradeći pravu koncentraciju i izdržljivost.",
+              "fact": "Plavi kit može pojesti do četiri tone krila - sićušnih stvorenja nalik škampima - u jednom danu. To čini tako što se baci u roj otvorenih usta, proguta ogromnu količinu vode, a zatim vodu istisne kroz ploče usana dok kril ostaje zarobljen unutra. Elegantna, drevna tehnika."
+            },
+            {
+              "range": "31–36",
+              "title": "Peraje",
+              "learn": "Spojite točke od 31 do 36 kako biste nacrtali duge peraje u obliku vesla. Kitove peraje sadrže iste kosti kao ljudska šaka i ruka - pet kostiju prstiju, zapešće i nadlakticu - samo su preoblikovale tijekom milijuna godina za život u oceanu. Djeca vole otkrivati ​​ovo kada im to pokažete usred slagalice.",
+              "fact": "Unutar kitove peraje nalaze se iste kosti koje imate u vlastitoj ruci - palac, prsti, zglob i sve ostalo. Preci kitova hodali su kopnom prije otprilike 50 milijuna godina, a peraja je ono što su te noge s vremenom postale. Evolucija je u biti vrlo spor, vrlo strpljiv kipar."
+            },
+            {
+              "range": "37–42",
+              "title": "Repne peraje",
+              "learn": "Završite slagalicu spajanjem točaka od 37 do 42 kako biste nacrtali široke repne peraje - najmoćniju strukturu u životinjskom carstvu u odnosu na svoju namjenu. Samo šest točaka za dovršetak ovog nježnog diva. Potaknite samouvjeren, zamašan završetak: kit zaslužuje grandiozan zaključak.",
+              "fact": "Repne peraje plavog kita mogu biti široke i do 7,5 metara - šire od mnogih kuća. Svaki zamah tih peraja prema dolje pokreće kita naprijed brzinom do 32 kilometra na sat u kratkim naletima. Kitova pjesma - proizvedena bez ikakvih glasnica - može putovati više od 1600 kilometara kroz duboku oceansku vodu. Ove životinje su izvanredne na gotovo svaki zamislivi način."
+            }
+          ],
+          "outro": "Upravo ste nacrtali najveću životinju na Zemlji - bravo! Ova zagonetka se prekrasno slaže s razgovorom o očuvanju oceana. Kitovi su prošlog stoljeća lovljeni gotovo do izumiranja, a sada se polako oporavljaju. Djeca koja danas vole kitove upravo su onakvi ljudi koji će ih štititi sutra. Za više stranica spremnih za učionicu pogledajte naše <a href=\"/playgrounds/\">radne listove s točkama</a>.",
+          "color_schemes": []
+        }
       }
-    }
-  },
-  {
-    "slug": "jellyfish-dot-to-dot-puzzle",
-    "header": {
-      "title": "Meduza spoji točkice – zahtjevniji predložak s 88 točaka",
-      "meta_description": "Ova meduza s 88 točaka korak je prema našim složenijim spoji točkice zagonetkama, namijenjena djeci od 6 do 9 godina spremnoj za više detalja. Bez mozga, srca i kostiju – a ipak meduze plutaju oceanima već 500 milijuna godina. Ispišite besplatan PDF i nacrtajte ovog preživjelog. Sljedeći korak nakon lakših pet zagonetki.",
-      "og": {
+    },
+    {
+      "slug": "jellyfish-dot-to-dot-puzzle",
+      "header": {
         "title": "Meduza spoji točkice – zahtjevniji predložak s 88 točaka",
-        "description": "Ova meduza s 88 točaka korak je prema našim složenijim spoji točkice zagonetkama, namijenjena djeci od 6 do 9 godina spremnoj za više detalja. Bez mozga, srca i kostiju – a ipak meduze plutaju oceanima već 500 milijuna godina. Ispišite besplatan PDF i nacrtajte ovog preživjelog. Sljedeći korak nakon lakših pet zagonetki.",
-        "image_alt": "Meduza kako pluta s dugim pipcima nacrtanima od 88 točaka, pregled predloška za ispis"
+        "meta_description": "Ova meduza s 88 točaka korak je prema našim složenijim spoji točkice zagonetkama, namijenjena djeci od 6 do 9 godina spremnoj za više detalja. Bez mozga, srca i kostiju – a ipak meduze plutaju oceanima već 500 milijuna godina. Ispišite besplatan PDF i nacrtajte ovog preživjelog. Sljedeći korak nakon lakših pet zagonetki.",
+        "og": {
+          "title": "Meduza spoji točkice – zahtjevniji predložak s 88 točaka",
+          "description": "Ova meduza s 88 točaka korak je prema našim složenijim spoji točkice zagonetkama, namijenjena djeci od 6 do 9 godina spremnoj za više detalja. Bez mozga, srca i kostiju – a ipak meduze plutaju oceanima već 500 milijuna godina. Ispišite besplatan PDF i nacrtajte ovog preživjelog. Sljedeći korak nakon lakših pet zagonetki.",
+          "image_alt": "Meduza kako pluta s dugim pipcima nacrtanima od 88 točaka, pregled predloška za ispis"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Meduza",
+          "description": "Ova meduza s 88 točaka korak je prema našim složenijim spoji točkice zagonetkama, namijenjena djeci od 6 do 9 godina spremnoj za više detalja. Bez mozga, srca i kostiju – a ipak meduze plutaju oceanima već 500 milijuna godina. Ispišite besplatan PDF i nacrtajte ovog preživjelog. Sljedeći korak nakon lakših pet zagonetki.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
       },
-      "json_ld": {
-        "type": "CreativeWork",
+      "body": {
+        "h1": "Meduza točka do točke: ispis s 88 točaka za napredovanje",
         "name": "Meduza",
-        "description": "Ova meduza s 88 točaka korak je prema našim složenijim spoji točkice zagonetkama, namijenjena djeci od 6 do 9 godina spremnoj za više detalja. Bez mozga, srca i kostiju – a ipak meduze plutaju oceanima već 500 milijuna godina. Ispišite besplatan PDF i nacrtajte ovog preživjelog. Sljedeći korak nakon lakših pet zagonetki.",
-        "image": "",
-        "educational_use": "Fine motor skills, number sequencing",
-        "age_range": ""
-      }
-    },
-    "body": {
-      "h1": "Meduza točka do točke: ispis s 88 točaka za napredovanje",
-      "name": "Meduza",
-      "tagline": "Plutajuće oceansko čudo",
-      "description": "Spojite 88 točkica kako biste otkrili gracioznu meduzu koja pluta morem. Ova malo veća slagalica odličan je korak naprijed za djecu u dobi od 6 do 9 godina koja su spremna za dodatne točkice i detaljniju vježbu slaganja brojeva.",
-      "fun_fact": "Meduze nemaju mozak, srce ni kosti - a ipak su preživjele više od 500 milijuna godina!",
-      "dot_guide": {
-        "intro": "Meduze su među najčudnijim i najstarijim životinjama u oceanu - plutale su morima mnogo prije nego što su dinosauri ikada hodali Zemljom, i mnogo prije nego što su ribe, ili čak kosti, postojale. Bez mozga, srca i krvi, one su živi dokaz da prirodi nije potrebna složenost da bi uspjela. Ova zagonetka s 88 točaka zadovoljavajući je korak naprijed za stariju djecu spremnu za veći izazov. Pronađite točku 1 i krenimo plutati!",
-        "sections": [
+        "tagline": "Plutajuće oceansko čudo",
+        "description": "Spojite 88 točkica kako biste otkrili gracioznu meduzu koja pluta morem. Ova malo veća slagalica odličan je korak naprijed za djecu u dobi od 6 do 9 godina koja su spremna za dodatne točkice i detaljniju vježbu slaganja brojeva.",
+        "fun_fact": "Meduze nemaju mozak, srce ni kosti - a ipak su preživjele više od 500 milijuna godina!",
+        "faqs": [
           {
-            "range": "1–18",
-            "title": "Zvono",
-            "learn": "Započnite od točke 1 i povežite se s točkom 18 kako biste nacrtali zaobljeno, kupolasto zvono - glavno tijelo meduze. Ovo je najveći dio slagalice i izvrsna prilika za vježbanje glatkih, širokih krivulja bez podizanja olovke. Potaknite spore, stabilne poteze kako biste oblik kupole održali lijepim i ravnomjernim.",
-            "fact": "Meduzino zvono nije samo oblik tijela - to je i način na koji se životinja kreće. Stezanjem i opuštanjem zvona poput pulsirajućeg kišobrana, meduza gura vodu iza sebe i pokreće se naprijed. To je jedan od najstarijih i najjednostavnijih oblika kretanja u životinjskom carstvu i još uvijek prekrasno funkcionira 500 milijuna godina kasnije."
+            "q": "Koliko točkica ima zagonetka od točkica do točkice Meduza?",
+            "a": "Slagalica s meduzom koja se spaja točkicama ima 88 numeriranih točkica. To je čini srednjom zagonetkom, najprikladnijom za dob od 6 do 9 godina (od 1. do 3. razreda). Djeca spajaju točkice prema redoslijedu brojeva kako bi otkrila gotovu sliku meduze, a zatim je obojaju."
           },
           {
-            "range": "19–40",
-            "title": "Šiške i volani",
-            "learn": "Nastavite od točke 19 do točke 40 kako biste nacrtali naborani, volančićasti rub oko podnožja zvona. Ovaj dio ima mnogo malih krivulja blizu jedna drugoj, što je izvrsna vježba za pažljivo i strpljivo pronalaženje točaka - dobar izazov za djecu koja nadilaze najlakše zagonetke.",
-            "fact": "Neke vrste meduza mogu proizvoditi vlastitu svjetlost kemijskom reakcijom koja se naziva bioluminiscencija. U dubokom, tamnom oceanu, svjetleća meduza može izgledati poput plutajuće svjetiljke - prekrasan način privlačenja plijena ili preplašenja grabežljivca, ovisno o vrsti."
+            "q": "Je li Meduza točka-po-točkica besplatna za ispis?",
+            "a": "Da. Radni list s meduzom može se 100% besplatno preuzeti s DotToDotFreePrintables.com - nije potreban račun, e-pošta ili plaćanje. Preuzima se odmah kao PDF spreman za ispis u portretnoj i pejzažnoj orijentaciji, veličine za papir US Letter ili A4."
           },
           {
-            "range": "41–62",
-            "title": "Vučni pipci",
-            "learn": "Pratite točke od 41 do 62 kako biste nacrtali dugačke, vučne pipke koji lebde ispod zvona. Ove linije su duže i labavije od prethodnih dijelova, stoga potaknite djecu da ih crtaju opuštenom rukom, gotovo kao da sama olovka pluta u vodi.",
-            "fact": "Pipci meduze nose neke od najjačih otrova u cijelom životinjskom carstvu, koji se koriste za trenutno omamljivanje malih riba i škampa. Većina meduza, međutim, bezopasna je za ljude - samo mali broj vrsta može zadati ubosti zbog kojih se ljudi trebaju brinuti."
+            "q": "Za koju dob je radni list s meduzama i spajanjem točaka najbolji?",
+            "a": "S 88 točaka, zagonetka s meduzom najbolje funkcionira za djecu od 6 do 9 godina (od 1. do 3. razreda). Mlađa djeca mogu uživati ​​u njoj uz laganu pomoć odraslih u brojanju, dok je samouvjerenija djeca u brojanju mogu samostalno rješavati i vježbati nizanje brojeva do 88."
           },
           {
-            "range": "63–80",
-            "title": "Oralne ruke",
-            "learn": "Spojite točke od 63 do 80 kako biste dodali kraće, naboranije usne krakove blizu središta meduze, koji pomažu u vođenju hrane prema njezinim ustima. Ovaj odjeljak nagrađuje pažljivu pažnju, budući da su linije blizu jedna drugoj. Sporiji tempo ovdje dovodi do najčišćih rezultata.",
-            "fact": "Meduze nemaju usta i zaseban izlaz - hrana ulazi, a otpad izlazi kroz isti otvor. Možda zvuči neobično, ali to je divno učinkovit dizajn koji nije trebao nadogradnje u pola milijarde godina."
+            "q": "Koje vještine uči zagonetka s točkama od meduze?",
+            "a": "Spajanje 88 točaka slagalice Meduza gradi prepoznavanje brojeva i brojanje do 88, kontrolu olovke, koordinaciju ruku i oka te održivu koncentraciju - iste temelje fine motorike koji podržavaju rano pisanje rukom. Bojanje gotove slike dodaje kreativnu nagradu."
           },
           {
-            "range": "81–88",
-            "title": "Završne prateće niti",
-            "learn": "Završite slagalicu spajanjem točaka od 81 do 88 kako biste dovršili posljednjih nekoliko niti koje se vuku ispod pipaka. Samo osam točaka do cilja - miran, nježan način za dovršetak veće slagalice. Udahnite i pustite da završne linije prirodno sjednu na svoje mjesto.",
-            "fact": "Meduze se nalaze u svakom oceanu na Zemlji, od toplih površinskih voda blizu ekvatora do ledenih dubina blizu polova. Neke vrste su čak pronađene više od 3600 metara ispod površine, kako tiho plutaju u potpunom mraku."
+            "q": "Koja je zanimljiva činjenica o meduzama?",
+            "a": "Meduze nemaju mozak, srce ni kosti - a ipak su preživjele više od 500 milijuna godina! Djeca otkrivaju ovakve činjenice dok rješavaju zagonetku s meduzama."
           }
         ],
-        "outro": "Izvrstan rad - vaša je meduza spremna za plutanje! Ova zagonetka lijepo se slaže s razgovorom o tome kako su neke od najstarijih životinja na Zemlji ujedno i neke od najjednostavnijih. Obojite svoju meduzu u prozirne plave, ljubičaste ili ružičaste boje za realističan sjaj ili odaberite odvažne i jarke boje - u svakom slučaju, izgledat će zapanjujuće. Spremni za sljedeći izazov? Pregledajte još <a href=\"/ocean/\">ispisnih materijala od točke do točke 1-100</a> iz dubine.",
-        "color_schemes": []
+        "dot_guide": {
+          "intro": "Meduze su među najčudnijim i najstarijim životinjama u oceanu - plutale su morima mnogo prije nego što su dinosauri ikada hodali Zemljom, i mnogo prije nego što su ribe, ili čak kosti, postojale. Bez mozga, srca i krvi, one su živi dokaz da prirodi nije potrebna složenost da bi uspjela. Ova zagonetka s 88 točaka zadovoljavajući je korak naprijed za stariju djecu spremnu za veći izazov. Pronađite točku 1 i krenimo plutati!",
+          "sections": [
+            {
+              "range": "1–18",
+              "title": "Zvono",
+              "learn": "Započnite od točke 1 i povežite se s točkom 18 kako biste nacrtali zaobljeno, kupolasto zvono - glavno tijelo meduze. Ovo je najveći dio slagalice i izvrsna prilika za vježbanje glatkih, širokih krivulja bez podizanja olovke. Potaknite spore, stabilne poteze kako biste oblik kupole održali lijepim i ravnomjernim.",
+              "fact": "Meduzino zvono nije samo oblik tijela - to je i način na koji se životinja kreće. Stezanjem i opuštanjem zvona poput pulsirajućeg kišobrana, meduza gura vodu iza sebe i pokreće se naprijed. To je jedan od najstarijih i najjednostavnijih oblika kretanja u životinjskom carstvu i još uvijek prekrasno funkcionira 500 milijuna godina kasnije."
+            },
+            {
+              "range": "19–40",
+              "title": "Šiške i volani",
+              "learn": "Nastavite od točke 19 do točke 40 kako biste nacrtali naborani, volančićasti rub oko podnožja zvona. Ovaj dio ima mnogo malih krivulja blizu jedna drugoj, što je izvrsna vježba za pažljivo i strpljivo pronalaženje točaka - dobar izazov za djecu koja nadilaze najlakše zagonetke.",
+              "fact": "Neke vrste meduza mogu proizvoditi vlastitu svjetlost kemijskom reakcijom koja se naziva bioluminiscencija. U dubokom, tamnom oceanu, svjetleća meduza može izgledati poput plutajuće svjetiljke - prekrasan način privlačenja plijena ili preplašenja grabežljivca, ovisno o vrsti."
+            },
+            {
+              "range": "41–62",
+              "title": "Vučni pipci",
+              "learn": "Pratite točke od 41 do 62 kako biste nacrtali dugačke, vučne pipke koji lebde ispod zvona. Ove linije su duže i labavije od prethodnih dijelova, stoga potaknite djecu da ih crtaju opuštenom rukom, gotovo kao da sama olovka pluta u vodi.",
+              "fact": "Pipci meduze nose neke od najjačih otrova u cijelom životinjskom carstvu, koji se koriste za trenutno omamljivanje malih riba i škampa. Većina meduza, međutim, bezopasna je za ljude - samo mali broj vrsta može zadati ubosti zbog kojih se ljudi trebaju brinuti."
+            },
+            {
+              "range": "63–80",
+              "title": "Oralne ruke",
+              "learn": "Spojite točke od 63 do 80 kako biste dodali kraće, naboranije usne krakove blizu središta meduze, koji pomažu u vođenju hrane prema njezinim ustima. Ovaj odjeljak nagrađuje pažljivu pažnju, budući da su linije blizu jedna drugoj. Sporiji tempo ovdje dovodi do najčišćih rezultata.",
+              "fact": "Meduze nemaju usta i zaseban izlaz - hrana ulazi, a otpad izlazi kroz isti otvor. Možda zvuči neobično, ali to je divno učinkovit dizajn koji nije trebao nadogradnje u pola milijarde godina."
+            },
+            {
+              "range": "81–88",
+              "title": "Završne prateće niti",
+              "learn": "Završite slagalicu spajanjem točaka od 81 do 88 kako biste dovršili posljednjih nekoliko niti koje se vuku ispod pipaka. Samo osam točaka do cilja - miran, nježan način za dovršetak veće slagalice. Udahnite i pustite da završne linije prirodno sjednu na svoje mjesto.",
+              "fact": "Meduze se nalaze u svakom oceanu na Zemlji, od toplih površinskih voda blizu ekvatora do ledenih dubina blizu polova. Neke vrste su čak pronađene više od 3600 metara ispod površine, kako tiho plutaju u potpunom mraku."
+            }
+          ],
+          "outro": "Izvrstan rad - vaša je meduza spremna za plutanje! Ova zagonetka lijepo se slaže s razgovorom o tome kako su neke od najstarijih životinja na Zemlji ujedno i neke od najjednostavnijih. Obojite svoju meduzu u prozirne plave, ljubičaste ili ružičaste boje za realističan sjaj ili odaberite odvažne i jarke boje - u svakom slučaju, izgledat će zapanjujuće. Spremni za sljedeći izazov? Pregledajte još <a href=\"/ocean/\">ispisnih materijala od točke do točke 1-100</a> iz dubine.",
+          "color_schemes": []
+        }
       }
     }
-  }
-]
+  ]
+}

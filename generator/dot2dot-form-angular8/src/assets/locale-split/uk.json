@@ -1,0 +1,181 @@
+{
+  "scoring_model": {
+    "name": "heuristic_opportunity_score_v1",
+    "status": "tunable_not_calibrated",
+    "purpose": "Prioritize phrases within this collected locale dataset only.",
+    "not_valid_for": [
+      "estimating search volume",
+      "predicting sales",
+      "measuring keyword competition",
+      "comparing external market demand"
+    ]
+  },
+  "locale": "uk",
+  "data": {
+    "alias_source_key": "uk",
+    "native_phrases": [
+      {
+        "phrase": "Собачка по точкам для дітей",
+        "normalized": "собачка по точкам для дітей",
+        "meaning": "Dog dot-to-dot for kids",
+        "note": ""
+      },
+      {
+        "phrase": "З'єднай по точкам цифри",
+        "normalized": "з'єднай по точкам цифри",
+        "meaning": "Connect the dots numbers",
+        "note": ""
+      },
+      {
+        "phrase": "Малюнки по точкам для малюків",
+        "normalized": "малюнки по точкам для малюків",
+        "meaning": "Pictures by dots for toddlers",
+        "note": ""
+      },
+      {
+        "phrase": "З'єднай точки від 1 до 10",
+        "normalized": "з'єднай точки від 1 до 10",
+        "meaning": "Connect dots from 1 to 10",
+        "note": ""
+      },
+      {
+        "phrase": "З'єднай по точках роздрукувати безкоштовно",
+        "normalized": "з'єднай по точках роздрукувати безкоштовно",
+        "meaning": "Connect by dots printables free",
+        "note": ""
+      },
+      {
+        "phrase": "Роздруківки з'єднай по точках в PDF",
+        "normalized": "роздруківки з'єднай по точках в pdf",
+        "meaning": "Connect by dots printables in PDF",
+        "note": ""
+      },
+      {
+        "phrase": "Картки з'єднай по точках для садочка",
+        "normalized": "картки з'єднай по точках для садочка",
+        "meaning": "Connect by dots cards for kindergarten",
+        "note": ""
+      },
+      {
+        "phrase": "Графічні диктанти по точках",
+        "normalized": "графічні диктанти по точках",
+        "meaning": "Graphic dictations by dots",
+        "note": ""
+      },
+      {
+        "phrase": "Складні малюнки по точках для дорослих",
+        "normalized": "складні малюнки по точках для дорослих",
+        "meaning": "Complex pictures by dots for adults",
+        "note": ""
+      },
+      {
+        "phrase": "Екстремальні з'єднання по точках антистрес",
+        "normalized": "екстремальні з'єднання по точках антистрес",
+        "meaning": "Extreme connect the dots anti-stress",
+        "note": ""
+      },
+      {
+        "phrase": "З'єднай 1000 точок роздрукувати",
+        "normalized": "з'єднай 1000 точок роздрукувати",
+        "meaning": "Connect 1000 dots printable",
+        "note": ""
+      },
+      {
+        "phrase": "Dot to dot printables безкоштовно",
+        "normalized": "dot to dot printable безкоштовно",
+        "meaning": "Dot-to-dot printables free",
+        "note": ""
+      },
+      {
+        "phrase": "Connect the dots роздрукувати PDF",
+        "normalized": "connect the dots роздрукувати pdf",
+        "meaning": "Connect the dots print to PDF",
+        "note": ""
+      },
+      {
+        "phrase": "Hard dot to dot puzzles для дорослих",
+        "normalized": "hard dot to dot puzzle для дорослих",
+        "meaning": "Hard dot-to-dot puzzles for adults",
+        "note": ""
+      },
+      {
+        "phrase": "connect the dots",
+        "normalized": "connect the dots",
+        "meaning": "",
+        "note": ""
+      },
+      {
+        "phrase": "draw by dots",
+        "normalized": "draw by dots",
+        "meaning": "",
+        "note": ""
+      },
+      {
+        "phrase": "безкоштовно",
+        "normalized": "безкоштовно",
+        "meaning": "free",
+        "note": ""
+      },
+      {
+        "phrase": "роздрукувати",
+        "normalized": "роздрукувати",
+        "meaning": "to print",
+        "note": ""
+      },
+      {
+        "phrase": "для дорослих",
+        "normalized": "для дорослих",
+        "meaning": "for adults",
+        "note": ""
+      },
+      {
+        "phrase": "Specify whether the target product is an educational website, printed book, or digital Etsy shop",
+        "normalized": "specify whether the target product is an educational website, printed book, or digital etsy shop",
+        "meaning": "",
+        "note": ""
+      },
+      {
+        "phrase": "Develop Ukrainian SEO tags or meta descriptions",
+        "normalized": "develop ukrainian seo tags or meta descriptions",
+        "meaning": "",
+        "note": ""
+      },
+      {
+        "phrase": "Format keywords specifically for Google Search or Pinterest SEO",
+        "normalized": "format keywords specifically for google search or pinterest seo",
+        "meaning": "",
+        "note": ""
+      }
+    ],
+    "romanized_phrases": [],
+    "english_phrases_used_by_locals": [
+      {
+        "phrase": "Dot to dot printables",
+        "normalized": "dot to dot printable",
+        "meaning": "",
+        "note": ""
+      },
+      {
+        "phrase": "Connect the dots PDF",
+        "normalized": "connect the dots pdf",
+        "meaning": "",
+        "note": ""
+      },
+      {
+        "phrase": "Hard dot to dot puzzles",
+        "normalized": "hard dot to dot puzzle",
+        "meaning": "",
+        "note": ""
+      }
+    ],
+    "intent_modifiers": []
+  },
+  "opportunity_summary": {
+    "primary_term": "Собачка по точкам для дітей",
+    "print_modifier": "З'єднай по точках роздрукувати безкоштовно",
+    "free_modifier": "З'єднай по точках роздрукувати безкоштовно",
+    "children_modifier": "Собачка по точкам для дітей",
+    "adult_modifier": "Складні малюнки по точках для дорослих",
+    "recommended_local_phrase": "Собачка по точкам для дітей"
+  }
+}

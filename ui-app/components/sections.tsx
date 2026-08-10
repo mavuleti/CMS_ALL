@@ -31,7 +31,7 @@ import { getAllBlogPostsForLocale, formatBlogDate } from '@/lib/blog-data';
 import ResponsiveImage from '@/components/ResponsiveImage';
 import LiteYouTubeEmbed from '@/components/LiteYouTubeEmbed';
 import FeedbackForm from '@/components/FeedbackForm';
-import { isArabic, isGerman, isRussian, isSpanish, localizedPuzzleCardAlt } from '@/lib/localized-seo';
+import { isArabic, isGerman, isRussian, isSpanish, localizedPuzzleCardAlt } from '@/lib/json-seo';
 import ShareButtons from '@/components/ShareButtons';
 import HeaderSharePopover from '@/components/HeaderSharePopover';
 import { appVersion } from '@/lib/app-version';

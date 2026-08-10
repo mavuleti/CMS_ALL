@@ -1,188 +1,294 @@
-[
-  {
-    "slug": "crescent-moon-dot-to-dot-puzzle",
+{
+  "collection": {
     "header": {
-      "title": "",
-      "meta_description": "",
+      "title": "Free Space Dot-to-Dot Printables for Kids",
+      "meta_description": "Download free space dot-to-dot worksheets for kids, including UFOs, rockets, planets, and more.",
       "og": {
-        "title": "",
-        "description": "",
-        "image_alt": ""
+        "title": "Free Space Dot-to-Dot Printables for Kids",
+        "description": "Download free space dot-to-dot worksheets for kids, including UFOs, rockets, planets, and more.",
+        "image": "/images/space-rover-puzzle.webp"
       },
       "json_ld": {
-        "type": "CreativeWork",
+        "type": "CollectionPage",
+        "name": "Ruimte",
+        "description": "Stijg op met gratis ruimte verbinden-de-punten werkbladen. Print vandaag een vriendelijke rover puzzel, met meer raketten, planeten en kosmische avonturen die binnenkort komen.",
+        "image": "/images/space-rover-puzzle.webp",
+        "main_entity": {
+          "type": "ItemList",
+          "item_source": "puzzles"
+        }
+      },
+      "breadcrumb_json_ld": {
+        "type": "BreadcrumbList",
+        "items": [
+          {
+            "position": 1,
+            "name": "Home",
+            "path": "/"
+          },
+          {
+            "position": 2,
+            "name": "Ruimte",
+            "path": "/space/"
+          }
+        ]
+      }
+    },
+    "body": {
+      "h1": "Gratis ruimte punt-naar-punt afdrukbare voor kinderen",
+      "name": "Ruimte",
+      "tagline": "{count, plural, one {# gratis afdrukbare puzzel} other {# gratis afdrukbare puzzels}}",
+      "description": "Stijg op met gratis ruimte verbinden-de-punten werkbladen. Print vandaag een vriendelijke rover puzzel, met meer raketten, planeten en kosmische avonturen die binnenkort komen.",
+      "hero_image": "/images/space-rover-puzzle.webp",
+      "slug": "space",
+      "faqs": [
+        {
+          "q": "Zijn alle punt-na-punt-tekeningen op deze site volledig gratis?",
+          "a": "Ja, alle 'verbind de punten'-werkbladen op DotToDotFreePrintables.com zijn 100% gratis te downloaden en te printen. Je hebt geen account, abonnement of creditcard nodig."
+        },
+        {
+          "q": "Voor welke leeftijd zijn punt-tot-punt-werkbladen geschikt?",
+          "a": "Onze printbare werkbladen zijn geschikt voor kinderen van 2 tot en met 12 jaar. De makkelijke werkbladen (10-20 stippen) zijn ideaal voor peuters en kleuters, de gemiddelde werkbladen (20-50 stippen) zijn perfect voor groep 1 en 2, en de moeilijkere werkbladen (50-200+ stippen) vormen een uitdaging voor kinderen van groep 3 tot en met 6."
+        },
+        {
+          "q": "In welk formaat zijn de printbare 'verbind de punten'-werkbladen?",
+          "a": "Alle werkbladen worden gedownload als printklare PDF-bestanden op standaard Amerikaans Letter-formaat (8,5\" × 11\"). Open ze in elke browser of PDF-viewer en print ze af — er is geen speciale software nodig."
+        },
+        {
+          "q": "Kunnen leerkrachten deze 'verbind de punten'-werkbladen in de klas gebruiken?",
+          "a": "Jazeker! Onze printbare materialen zijn gratis te gebruiken voor persoonlijk en klassikaal gebruik. Ze zijn populair voor ochtendactiviteiten, opdrachten voor snelle leerlingen, invallessen, fijne motoriekoefeningen en huiswerkpakketten."
+        }
+      ]
+    }
+  },
+  "puzzles": [
+    {
+      "slug": "crescent-moon-dot-to-dot-puzzle",
+      "header": {
+        "title": "",
+        "meta_description": "",
+        "og": {
+          "title": "",
+          "description": "",
+          "image_alt": ""
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Halve Maan",
+          "description": "",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
+      },
+      "body": {
+        "h1": "",
         "name": "Halve Maan",
-        "description": "",
-        "image": "",
-        "educational_use": "Fine motor skills, number sequencing",
-        "age_range": ""
-      }
-    },
-    "body": {
-      "h1": "",
-      "name": "Halve Maan",
-      "tagline": "Volg een Schitterend Stukje van de Nachtelijke Hemel!",
-      "description": "Verbind 60 eenvoudige puntjes om een prachtige wassende maan te onthullen die gloeit aan de nachtelijke hemel. Deze gratis printbare helpt kinderen om getallenreeksen te oefenen, visuele tracking, concentratie en soepele potloodbeheersing.",
-      "fun_fact": "Een maansikkel is zichtbaar wanneer het zonlicht slechts een dun gebogen deel van de Maan verlicht dat wij vanaf de Aarde kunnen zien.",
-      "dot_guide": {
-        "intro": "Een smalle maansikkel is een van de meest herkenbare vormen aan de nachtelijke hemel. Dit vriendelijke 60-puntjes puzzel bouwt de buitenste boog, puntige uiteinden en binnenste boog op in vijf beheersbare fasen. Vind puntje 1 en laat je maan beginnen te stralen!",
-        "sections": [
+        "tagline": "Volg een Schitterend Stukje van de Nachtelijke Hemel!",
+        "description": "Verbind 60 eenvoudige puntjes om een prachtige wassende maan te onthullen die gloeit aan de nachtelijke hemel. Deze gratis printbare helpt kinderen om getallenreeksen te oefenen, visuele tracking, concentratie en soepele potloodbeheersing.",
+        "fun_fact": "Een maansikkel is zichtbaar wanneer het zonlicht slechts een dun gebogen deel van de Maan verlicht dat wij vanaf de Aarde kunnen zien.",
+        "faqs": [
           {
-            "range": "1–12",
-            "title": "De Bovenste Maanpunt",
-            "learn": "Verbind de punten 1 tot en met 12 om het smalle bovenste punt van de halvemaan te vormen.",
-            "fact": "De Maan produceert geen eigen licht; hij schijnt door zonlicht te reflecteren."
+            "q": "Voor welke leeftijd is de punt-naar-punt-puzzel Halve Maan?",
+            "a": "Hij is ontworpen voor de leeftijd Leeftijden 4-8. Met 60 punten is hij geschikt voor kinderen die vlot tot 60 kunnen tellen; jongere kinderen kunnen hem met een beetje hulp afmaken."
           },
           {
-            "range": "13–24",
-            "title": "De Buitenbocht",
-            "learn": "Ga verder van punt 13 naar punt 24 langs de brede buitenbocht van de Maan.",
-            "fact": "De zwaartekracht maakte de Maan bijna rond, net zoals het planeten rond maakt."
+            "q": "Hoe print ik het werkblad Halve Maan?",
+            "a": "Klik op de downloadknop voor de gratis PDF en print hem daarna op gewoon papier (A4 of US Letter) vanuit elke browser of PDF-lezer. Er is geen speciale software nodig."
           },
           {
-            "range": "25–36",
-            "title": "De Punt van de Lagere Maan",
-            "learn": "Volg de punten 25 tot en met 36 om het onderste punt te vormen en draai naar de binnenbocht.",
-            "fact": "Het oppervlak van de maan is bedekt met kraters die zijn ontstaan door inslagen van rotsen gedurende miljarden jaren."
-          },
-          {
-            "range": "37–48",
-            "title": "De Binnenste Halve Maan",
-            "learn": "Volg de stippen 37 tot en met 48 langs de binnenbocht, terwijl je de potloodlijn soepel houdt.",
-            "fact": "De Maan doet ongeveer 29,5 dagen over een volledige cyclus van fasen."
-          },
-          {
-            "range": "49–60",
-            "title": "De Glans en Afwerking",
-            "learn": "Maak af met punten 49 tot en met 60 om de halve maan te sluiten en de laatste details toe te voegen.",
-            "fact": "Mensen over de hele wereld zien dezelfde Maan, hoewel de maansikkel afhankelijk van de locatie verschillend gekanteld kan lijken."
+            "q": "Is de printbare Halve Maan echt gratis?",
+            "a": "Ja — hij is 100% gratis, zonder registratie, account of betaling. Je mag hem printen voor thuis of in de klas."
           }
         ],
-        "outro": "Prachtig werk—je halve maan schittert! Voeg sterren, slaperige wolken of een raket die door de lucht vliegt toe, en ontdek daarna de <a href=\"/space/ringed-planet-dot-to-dot-puzzle/\">geringde planeet puzzel</a>.",
-        "color_schemes": []
+        "dot_guide": {
+          "intro": "Een smalle maansikkel is een van de meest herkenbare vormen aan de nachtelijke hemel. Dit vriendelijke 60-puntjes puzzel bouwt de buitenste boog, puntige uiteinden en binnenste boog op in vijf beheersbare fasen. Vind puntje 1 en laat je maan beginnen te stralen!",
+          "sections": [
+            {
+              "range": "1–12",
+              "title": "De Bovenste Maanpunt",
+              "learn": "Verbind de punten 1 tot en met 12 om het smalle bovenste punt van de halvemaan te vormen.",
+              "fact": "De Maan produceert geen eigen licht; hij schijnt door zonlicht te reflecteren."
+            },
+            {
+              "range": "13–24",
+              "title": "De Buitenbocht",
+              "learn": "Ga verder van punt 13 naar punt 24 langs de brede buitenbocht van de Maan.",
+              "fact": "De zwaartekracht maakte de Maan bijna rond, net zoals het planeten rond maakt."
+            },
+            {
+              "range": "25–36",
+              "title": "De Punt van de Lagere Maan",
+              "learn": "Volg de punten 25 tot en met 36 om het onderste punt te vormen en draai naar de binnenbocht.",
+              "fact": "Het oppervlak van de maan is bedekt met kraters die zijn ontstaan door inslagen van rotsen gedurende miljarden jaren."
+            },
+            {
+              "range": "37–48",
+              "title": "De Binnenste Halve Maan",
+              "learn": "Volg de stippen 37 tot en met 48 langs de binnenbocht, terwijl je de potloodlijn soepel houdt.",
+              "fact": "De Maan doet ongeveer 29,5 dagen over een volledige cyclus van fasen."
+            },
+            {
+              "range": "49–60",
+              "title": "De Glans en Afwerking",
+              "learn": "Maak af met punten 49 tot en met 60 om de halve maan te sluiten en de laatste details toe te voegen.",
+              "fact": "Mensen over de hele wereld zien dezelfde Maan, hoewel de maansikkel afhankelijk van de locatie verschillend gekanteld kan lijken."
+            }
+          ],
+          "outro": "Prachtig werk—je halve maan schittert! Voeg sterren, slaperige wolken of een raket die door de lucht vliegt toe, en ontdek daarna de <a href=\"/space/ringed-planet-dot-to-dot-puzzle/\">geringde planeet puzzel</a>.",
+          "color_schemes": []
+        }
       }
-    }
-  },
-  {
-    "slug": "ringed-planet-dot-to-dot-puzzle",
-    "header": {
-      "title": "",
-      "meta_description": "",
-      "og": {
+    },
+    {
+      "slug": "ringed-planet-dot-to-dot-puzzle",
+      "header": {
         "title": "",
-        "description": "",
-        "image_alt": ""
+        "meta_description": "",
+        "og": {
+          "title": "",
+          "description": "",
+          "image_alt": ""
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Geringsde planeet",
+          "description": "",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
       },
-      "json_ld": {
-        "type": "CreativeWork",
+      "body": {
+        "h1": "",
         "name": "Geringsde planeet",
-        "description": "",
-        "image": "",
-        "educational_use": "Fine motor skills, number sequencing",
-        "age_range": ""
-      }
-    },
-    "body": {
-      "h1": "",
-      "name": "Geringsde planeet",
-      "tagline": "Teken een Wereld Omhuld door Schitterende Ringen!",
-      "description": "Verbind 43 eenvoudige puntjes om een prachtige geringde planeet te onthullen die in de ruimte zweeft. Deze gratis printbare helpt jongere kinderen om te oefenen met getallenvolgorde, visueel volgen, concentratie en vaste potloodcontrole.",
-      "fun_fact": "De ringen van Saturnus bestaan uit ontelbare stukjes ijs en steen, variërend van kleine korrels tot brokken zo groot als huizen.",
-      "dot_guide": {
-        "intro": "Ver voorbij de Aarde draait een reusachtige planeet terwijl brede ringen eromheen zweven. Dit vriendelijke 43-puntspuzzel creëert de planeet en zijn ringen in vier korte fases, wat het een leuke eerste ruimte-uitdaging maakt. Vind punt 1 en begin je reis!",
-        "sections": [
+        "tagline": "Teken een Wereld Omhuld door Schitterende Ringen!",
+        "description": "Verbind 43 eenvoudige puntjes om een prachtige geringde planeet te onthullen die in de ruimte zweeft. Deze gratis printbare helpt jongere kinderen om te oefenen met getallenvolgorde, visueel volgen, concentratie en vaste potloodcontrole.",
+        "fun_fact": "De ringen van Saturnus bestaan uit ontelbare stukjes ijs en steen, variërend van kleine korrels tot brokken zo groot als huizen.",
+        "faqs": [
           {
-            "range": "1–11",
-            "title": "De Top van de Planeet",
-            "learn": "Verbind de punten 1 tot en met 11 om de gebogen bovenrand van de verre planeet te tekenen.",
-            "fact": "Planeten zien er rond uit omdat de zwaartekracht hun materiaal vanuit elke richting naar het middelpunt trekt."
+            "q": "Voor welke leeftijd is de punt-naar-punt-puzzel Geringsde planeet?",
+            "a": "Hij is ontworpen voor de leeftijd Leeftijden 4-7. Met 43 punten is hij geschikt voor kinderen die vlot tot 43 kunnen tellen; jongere kinderen kunnen hem met een beetje hulp afmaken."
           },
           {
-            "range": "12–22",
-            "title": "De Eerste Ring",
-            "learn": "Ga verder van punt 12 naar punt 22 om de eerste brede boog van het ringsysteem te volgen.",
-            "fact": "Saturnus heeft duizenden smalle ringetjes die er van veraf uitzien als enkele brede ringen."
+            "q": "Hoe print ik het werkblad Geringsde planeet?",
+            "a": "Klik op de downloadknop voor de gratis PDF en print hem daarna op gewoon papier (A4 of US Letter) vanuit elke browser of PDF-lezer. Er is geen speciale software nodig."
           },
           {
-            "range": "23–33",
-            "title": "De Onderste Bocht van de Planeet",
-            "learn": "Volg de punten 23 tot en met 33 rond de onderste helft van de planeet, waarbij je de bocht soepel houdt.",
-            "fact": "Saturnus is een gasreus die voornamelijk bestaat uit waterstof en helium, de twee lichtste elementen."
-          },
-          {
-            "range": "34–43",
-            "title": "De ringen en afwerking",
-            "learn": "Maak de punten 34 tot en met 43 af om de sierlijke ringen aan de andere kant te voltooien.",
-            "fact": "De ringen van Saturnus zijn erg breed maar verrassend dun in verhouding tot de grootte van de planeet."
+            "q": "Is de printbare Geringsde planeet echt gratis?",
+            "a": "Ja — hij is 100% gratis, zonder registratie, account of betaling. Je mag hem printen voor thuis of in de klas."
           }
         ],
-        "outro": "Prachtig werk—je geringde planeet draait tussen de sterren! Voeg manen, een raket en kleurrijke wolken toe, en verken verder met de <a href=\"/space/space-rover-dot-to-dot-puzzle/\">space rover-puzzel</a>.",
-        "color_schemes": []
+        "dot_guide": {
+          "intro": "Ver voorbij de Aarde draait een reusachtige planeet terwijl brede ringen eromheen zweven. Dit vriendelijke 43-puntspuzzel creëert de planeet en zijn ringen in vier korte fases, wat het een leuke eerste ruimte-uitdaging maakt. Vind punt 1 en begin je reis!",
+          "sections": [
+            {
+              "range": "1–11",
+              "title": "De Top van de Planeet",
+              "learn": "Verbind de punten 1 tot en met 11 om de gebogen bovenrand van de verre planeet te tekenen.",
+              "fact": "Planeten zien er rond uit omdat de zwaartekracht hun materiaal vanuit elke richting naar het middelpunt trekt."
+            },
+            {
+              "range": "12–22",
+              "title": "De Eerste Ring",
+              "learn": "Ga verder van punt 12 naar punt 22 om de eerste brede boog van het ringsysteem te volgen.",
+              "fact": "Saturnus heeft duizenden smalle ringetjes die er van veraf uitzien als enkele brede ringen."
+            },
+            {
+              "range": "23–33",
+              "title": "De Onderste Bocht van de Planeet",
+              "learn": "Volg de punten 23 tot en met 33 rond de onderste helft van de planeet, waarbij je de bocht soepel houdt.",
+              "fact": "Saturnus is een gasreus die voornamelijk bestaat uit waterstof en helium, de twee lichtste elementen."
+            },
+            {
+              "range": "34–43",
+              "title": "De ringen en afwerking",
+              "learn": "Maak de punten 34 tot en met 43 af om de sierlijke ringen aan de andere kant te voltooien.",
+              "fact": "De ringen van Saturnus zijn erg breed maar verrassend dun in verhouding tot de grootte van de planeet."
+            }
+          ],
+          "outro": "Prachtig werk—je geringde planeet draait tussen de sterren! Voeg manen, een raket en kleurrijke wolken toe, en verken verder met de <a href=\"/space/space-rover-dot-to-dot-puzzle/\">space rover-puzzel</a>.",
+          "color_schemes": []
+        }
       }
-    }
-  },
-  {
-    "slug": "space-rover-dot-to-dot-puzzle",
-    "header": {
-      "title": "",
-      "meta_description": "",
-      "og": {
+    },
+    {
+      "slug": "space-rover-dot-to-dot-puzzle",
+      "header": {
         "title": "",
-        "description": "",
-        "image_alt": ""
+        "meta_description": "",
+        "og": {
+          "title": "",
+          "description": "",
+          "image_alt": ""
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Ruimte Rover",
+          "description": "",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
       },
-      "json_ld": {
-        "type": "CreativeWork",
+      "body": {
+        "h1": "",
         "name": "Ruimte Rover",
-        "description": "",
-        "image": "",
-        "educational_use": "Fine motor skills, number sequencing",
-        "age_range": ""
-      }
-    },
-    "body": {
-      "h1": "",
-      "name": "Ruimte Rover",
-      "tagline": "Een vriendelijke ontdekkingsreiziger op wielen",
-      "description": "Verbind 59 punten om een vriendelijke ruimterover te onthullen die klaar is om een andere wereld te verkennen. Deze gratis printbare puzzel helpt kinderen om getallenvolgorde, concentratie en potloodbeheersing te oefenen.",
-      "fun_fact": "Ruimterovers zijn robotvoertuigen die het oppervlak van werelden zoals de Maan en Mars verkennen.",
-      "dot_guide": {
-        "intro": "Klaar voor een reis buiten de aarde? Volg de nummers van 1 tot 59 en zie een vriendelijke ruimterover tevoorschijn komen. Werk langzaam, controleer elk nummer en houd je potloodlijnen netjes terwijl je rond het voertuig reist.",
-        "sections": [
+        "tagline": "Een vriendelijke ontdekkingsreiziger op wielen",
+        "description": "Verbind 59 punten om een vriendelijke ruimterover te onthullen die klaar is om een andere wereld te verkennen. Deze gratis printbare puzzel helpt kinderen om getallenvolgorde, concentratie en potloodbeheersing te oefenen.",
+        "fun_fact": "Ruimterovers zijn robotvoertuigen die het oppervlak van werelden zoals de Maan en Mars verkennen.",
+        "faqs": [
           {
-            "range": "1–12",
-            "title": "De Rover-carrosserie",
-            "learn": "Begin bij punt 1 en verbind door naar punt 12 om het vriendelijke gezicht en het stevige lichaam van de rover te tekenen.",
-            "fact": "Planetair verkenningswagens dragen computers, camera's en wetenschappelijke instrumenten in een robuust omhulsel."
+            "q": "Voor welke leeftijd is de punt-naar-punt-puzzel Ruimte Rover?",
+            "a": "Hij is ontworpen voor de leeftijd Leeftijden 4-8. Met 59 punten is hij geschikt voor kinderen die vlot tot 59 kunnen tellen; jongere kinderen kunnen hem met een beetje hulp afmaken."
           },
           {
-            "range": "13–25",
-            "title": "De Eerste Wielrennen",
-            "learn": "Ga verder van punt 13 naar punt 25 om het onderlichaam en het eerste robuuste wiel te vormen.",
-            "fact": "Roverwielen zijn ontworpen om los zand vast te grijpen en over rotsen te rollen zonder vast te komen zitten."
+            "q": "Hoe print ik het werkblad Ruimte Rover?",
+            "a": "Klik op de downloadknop voor de gratis PDF en print hem daarna op gewoon papier (A4 of US Letter) vanuit elke browser of PDF-lezer. Er is geen speciale software nodig."
           },
           {
-            "range": "26–38",
-            "title": "Het Wiel Systeem",
-            "learn": "Verbind de punten 26 tot en met 38 om meer van de wielen en ophanging van de rover te voltooien.",
-            "fact": "NASA's Marsrovers gebruiken een rocker-bogie-ophanging die ervoor zorgt dat alle zes wielen contact houden met ongelijk terrein."
-          },
-          {
-            "range": "39–49",
-            "title": "De Zitplaats en Uitrusting",
-            "learn": "Volg de stippen 39 tot 49 om de zitplaats en uitrusting boven het rover-onderstel toe te voegen.",
-            "fact": "Sommige maanwagentjes vervoeren astronauten, terwijl robotkarretjes rondrijden zonder dat er iemand in zit."
-          },
-          {
-            "range": "50–59",
-            "title": "De Schotelantenne",
-            "learn": "Maak het af door punten 50 tot en met 59 te verbinden om de communicatieschotel te voltooien.",
-            "fact": "Een rover gebruikt antennes om ontdekkingen naar de aarde te sturen en nieuwe instructies te ontvangen."
+            "q": "Is de printbare Ruimte Rover echt gratis?",
+            "a": "Ja — hij is 100% gratis, zonder registratie, account of betaling. Je mag hem printen voor thuis of in de klas."
           }
         ],
-        "outro": "Missie voltooid—je ruimterover is klaar om te verkennen! Voeg sterren, kraters, planeten of een vriendelijk buitenaards wezen toe om je eigen ruimtescène te creëren.",
-        "color_schemes": []
+        "dot_guide": {
+          "intro": "Klaar voor een reis buiten de aarde? Volg de nummers van 1 tot 59 en zie een vriendelijke ruimterover tevoorschijn komen. Werk langzaam, controleer elk nummer en houd je potloodlijnen netjes terwijl je rond het voertuig reist.",
+          "sections": [
+            {
+              "range": "1–12",
+              "title": "De Rover-carrosserie",
+              "learn": "Begin bij punt 1 en verbind door naar punt 12 om het vriendelijke gezicht en het stevige lichaam van de rover te tekenen.",
+              "fact": "Planetair verkenningswagens dragen computers, camera's en wetenschappelijke instrumenten in een robuust omhulsel."
+            },
+            {
+              "range": "13–25",
+              "title": "De Eerste Wielrennen",
+              "learn": "Ga verder van punt 13 naar punt 25 om het onderlichaam en het eerste robuuste wiel te vormen.",
+              "fact": "Roverwielen zijn ontworpen om los zand vast te grijpen en over rotsen te rollen zonder vast te komen zitten."
+            },
+            {
+              "range": "26–38",
+              "title": "Het Wiel Systeem",
+              "learn": "Verbind de punten 26 tot en met 38 om meer van de wielen en ophanging van de rover te voltooien.",
+              "fact": "NASA's Marsrovers gebruiken een rocker-bogie-ophanging die ervoor zorgt dat alle zes wielen contact houden met ongelijk terrein."
+            },
+            {
+              "range": "39–49",
+              "title": "De Zitplaats en Uitrusting",
+              "learn": "Volg de stippen 39 tot 49 om de zitplaats en uitrusting boven het rover-onderstel toe te voegen.",
+              "fact": "Sommige maanwagentjes vervoeren astronauten, terwijl robotkarretjes rondrijden zonder dat er iemand in zit."
+            },
+            {
+              "range": "50–59",
+              "title": "De Schotelantenne",
+              "learn": "Maak het af door punten 50 tot en met 59 te verbinden om de communicatieschotel te voltooien.",
+              "fact": "Een rover gebruikt antennes om ontdekkingen naar de aarde te sturen en nieuwe instructies te ontvangen."
+            }
+          ],
+          "outro": "Missie voltooid—je ruimterover is klaar om te verkennen! Voeg sterren, kraters, planeten of een vriendelijk buitenaards wezen toe om je eigen ruimtescène te creëren.",
+          "color_schemes": []
+        }
       }
     }
-  }
-]
+  ]
+}

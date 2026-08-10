@@ -1,0 +1,182 @@
+{
+  "scoring_model": {
+    "name": "heuristic_opportunity_score_v1",
+    "status": "tunable_not_calibrated",
+    "purpose": "Prioritize phrases within this collected locale dataset only.",
+    "not_valid_for": [
+      "estimating search volume",
+      "predicting sales",
+      "measuring keyword competition",
+      "comparing external market demand"
+    ]
+  },
+  "locale": "pt-BR",
+  "data": {
+    "alias_source_key": "pt-BR",
+    "native_phrases": [
+      {
+        "phrase": "atividades de ligar os pontos para imprimir",
+        "normalized": "atividades de ligar os pontos para imprimir",
+        "meaning": "Dot-to-dot activities to print",
+        "note": ""
+      },
+      {
+        "phrase": "liga pontos infantil para colorir",
+        "normalized": "liga pontos infantil para colorir",
+        "meaning": "Children's connect-the-dots for coloring",
+        "note": ""
+      },
+      {
+        "phrase": "desenho de ligar os pontos e pintar",
+        "normalized": "desenho de ligar os pontos e pintar",
+        "meaning": "Connect the dots and paint drawing",
+        "note": ""
+      },
+      {
+        "phrase": "ligue os pontos numerais 1 a 50 pdf",
+        "normalized": "ligue os pontos numerais 1 a 50 pdf",
+        "meaning": "Connect the dots numbers 1 to 50 PDF",
+        "note": ""
+      },
+      {
+        "phrase": "liga pontos alfabeto educação infantil",
+        "normalized": "liga pontos alfabeto educação infantil",
+        "meaning": "Alphabet connect the dots early childhood education",
+        "note": ""
+      },
+      {
+        "phrase": "Free printable dot-to-dot worksheets for kids",
+        "normalized": "free printable dot to dot worksheet for kids",
+        "meaning": "",
+        "note": ""
+      },
+      {
+        "phrase": "Connect the dots coloring pages",
+        "normalized": "connect the dots coloring page",
+        "meaning": "",
+        "note": ""
+      },
+      {
+        "phrase": "ligar os pontos difícil para imprimir",
+        "normalized": "ligar os pontos difícil para imprimir",
+        "meaning": "Hard connect the dots to print",
+        "note": ""
+      },
+      {
+        "phrase": "liga pontos extremo pdf",
+        "normalized": "liga pontos extremo pdf",
+        "meaning": "Extreme connect the dots PDF",
+        "note": ""
+      },
+      {
+        "phrase": "ligue os pontos para adultos",
+        "normalized": "ligue os pontos para adultos",
+        "meaning": "Connect the dots for adults",
+        "note": ""
+      },
+      {
+        "phrase": "desenhos pontilhados complexos para imprimir",
+        "normalized": "desenhos pontilhados complexos para imprimir",
+        "meaning": "Complex dotted drawings to print",
+        "note": ""
+      },
+      {
+        "phrase": "Extreme dot-to-dot printables for adults",
+        "normalized": "extreme dot to dot printable for adults",
+        "meaning": "",
+        "note": ""
+      },
+      {
+        "phrase": "Hard connect the dots puzzles PDF",
+        "normalized": "hard connect the dots puzzle pdf",
+        "meaning": "",
+        "note": ""
+      },
+      {
+        "phrase": "liga pontos",
+        "normalized": "liga pontos",
+        "meaning": "connect the dots",
+        "note": ""
+      },
+      {
+        "phrase": "ligue os pontos",
+        "normalized": "ligue os pontos",
+        "meaning": "connect the dots",
+        "note": ""
+      },
+      {
+        "phrase": "Choose whether the project targets children for education or adults for hobbies",
+        "normalized": "choose whether the project targets children for education or adults for hobbies",
+        "meaning": "",
+        "note": ""
+      },
+      {
+        "phrase": "Translate specific themes such as animals, holidays, or geometric shapes into natural Brazilian search terms",
+        "normalized": "translate specific themes such as animals, holidays, or geometric shapes into natural brazilian search terms",
+        "meaning": "",
+        "note": ""
+      },
+      {
+        "phrase": "Develop exact localized keywords for Brazilian search ranking",
+        "normalized": "develop exact localized keywords for brazilian search ranking",
+        "meaning": "",
+        "note": ""
+      }
+    ],
+    "romanized_phrases": [],
+    "english_phrases_used_by_locals": [
+      {
+        "phrase": "Free printable dot-to-dot worksheets for kids",
+        "normalized": "free printable dot to dot worksheet for kids",
+        "meaning": "",
+        "note": ""
+      },
+      {
+        "phrase": "Connect the dots coloring pages",
+        "normalized": "connect the dots coloring page",
+        "meaning": "",
+        "note": ""
+      },
+      {
+        "phrase": "Extreme dot-to-dot printables for adults",
+        "normalized": "extreme dot to dot printable for adults",
+        "meaning": "",
+        "note": ""
+      },
+      {
+        "phrase": "Hard connect the dots puzzles PDF",
+        "normalized": "hard connect the dots puzzle pdf",
+        "meaning": "",
+        "note": ""
+      }
+    ],
+    "intent_modifiers": [
+      {
+        "phrase": "para imprimir",
+        "normalized": "para imprimir",
+        "meaning": "to print",
+        "note": ""
+      },
+      {
+        "phrase": "pdf",
+        "normalized": "pdf",
+        "meaning": "PDF file format",
+        "note": ""
+      },
+      {
+        "phrase": "pontilhado",
+        "normalized": "pontilhado",
+        "meaning": "dotted or tracing; potentially ambiguous",
+        "note": ""
+      }
+    ]
+  },
+  "opportunity_summary": {
+    "primary_term": "atividades de ligar os pontos para imprimir",
+    "print_modifier": "atividades de ligar os pontos para imprimir",
+    "free_modifier": "Free printable dot-to-dot worksheets for kids",
+    "children_modifier": "liga pontos infantil para colorir",
+    "adult_modifier": "ligue os pontos para adultos",
+    "recommended_local_phrase": "atividades de ligar os pontos para imprimir"
+  }
+}

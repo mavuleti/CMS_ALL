@@ -1,6 +1,6 @@
 type ConvertedPuzzle = {
   slug: string;
-  header?: { title?: string; meta_description?: string; og?: { image_alt?: string } };
+  header?: { title?: string; meta_description?: string; og?: { title?: string; description?: string; image_alt?: string } };
   body?: { h1?: string; name?: string; tagline?: string; description?: string; fun_fact?: string; dot_guide?: unknown; faq?: unknown };
 };
 
@@ -17,6 +17,8 @@ export function loadConvertedPuzzleContent(category: string) {
     seoTitle: document.header?.title,
     seoH1: document.body?.h1,
     seoDescription: document.header?.meta_description,
+    seoOgTitle: document.header?.og?.title,
+    seoOgDescription: document.header?.og?.description,
     seoImageAlt: document.header?.og?.image_alt,
   }));
 }

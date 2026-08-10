@@ -1,237 +1,500 @@
-[
-  {
-    "slug": "burj-al-arab-dot-to-dot-puzzle",
-    "name": "Burdż Al-Arab",
-    "seoH1": "Burj Al Arab Połącz Kropki — Ikona Dubaju w 66 Kropkach",
-    "tagline": "Ikona Dubaju w kształcie żagla",
-    "description": "Połącz 66 kropek, aby odkryć Burdż al-Arab, kultowy hotel w kształcie żagla, wznoszący się na własnej wyspie u wybrzeży Dubaju. Ta prosta łamigłówka jest idealna dla młodych uczniów ćwiczących sekwencję liczb, jednocześnie odkrywając jedną z najsłynniejszych panoram świata.",
-    "seoDescription": "Połącz 66 kropek i odkryj Burdż Al-Arab, kultowy hotel w kształcie żagla wznoszący się na własnej wyspie u wybrzeży Dubaju. Darmowa karta pracy do druku dla dzieci 5–9 lat poznających słynne budowle świata i ćwiczących sekwencję liczb.",
-    "funFact": "Burdż Al-Arab stoi na sztucznej wyspie i jest jednym z najwyższych hoteli na świecie!",
-    "seoImageAlt": "Burdż Al-Arab, hotel w kształcie żagla u wybrzeży Dubaju, złożony z 66 ponumerowanych kropek",
-    "dotGuide": {
-      "intro": "Burdż al-Arab to jeden z najbardziej rozpoznawalnych budynków na Ziemi – lśniąca wieża w kształcie żagla, wznosząca się nad własną, sztuczną wyspą w Zatoce Perskiej. Zbudowana tak, by przypominała żagiel tradycyjnej łodzi dau, stała się symbolem nowoczesnego Dubaju i Zjednoczonych Emiratów Arabskich. Ta 66-punktowa układanka przedstawia jego dramatyczną, zakrzywioną sylwetkę. Znajdź punkt 1 i zbudujmy razem tę słynną panoramę!",
-      "sections": [
-        {
-          "range": "1–13",
-          "title": "Maszt i końcówka",
-          "learn": "Zacznij od punktu 1 i połącz z punktem 13, aby narysować wysoki, zakrzywiony maszt na samym szczycie budynku. Ten wąski odcinek od samego początku uczy stabilnego trzymania ołówka – świetna rozgrzewka przed szerszymi kształtami poniżej. Zachęcaj dzieci, aby linie były gładkie i lekko zakrzywione, tak jak prawdziwy żagiel.",
-          "fact": "Burdż Al-Arab ma około 321 metrów (1053 stóp) wysokości, co czyni go jednym z najwyższych budynków hotelowych na świecie. Jego charakterystyczny maszt na szczycie ma nawet lądowisko dla helikopterów, na którym odbywały się mecze tenisowe i pokazy golfa wysoko nad morzem! Przeczytaj więcej na <a href=\"https://en.wikipedia.org/wiki/Burj_Al_Arab\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">stronie Burdż Al-Arab w Wikipedii</a>."
-        },
-        {
-          "range": "14–26",
-          "title": "Krzywy Żagiel",
-          "learn": "Kontynuuj od punktu 14 do punktu 26, aby narysować słynną, zakrzywioną fasadę budynku – część, która wygląda niczym żagiel wypełniony wiatrem. Dzieci ćwiczą tu długą, elegancką, wygiętą linię, jeden z najbardziej satysfakcjonujących kształtów w całej układance. Powolna, pewna ręka tworzy najpiękniejszą, zakrzywioną linię.",
-          "fact": "Budynek został zaprojektowany przez architekta Toma Wrighta, który chciał stworzyć konstrukcję równie kultową, jak Opera w Sydney czy Wieża Eiffla. Kształt żagla został zainspirowany tradycyjnymi arabskimi żaglowcami typu dhow, które od wieków żeglują po Zatoce Perskiej."
-        },
-        {
-          "range": "27–39",
-          "title": "Rama podtrzymująca plecy",
-          "learn": "Obrysuj kropki od 27 do 39, aby narysować wysoką, pionową konstrukcję podtrzymującą budynek od tyłu. Ta sekcja wprowadza prostsze linie przeplatane łagodnymi kątami, dając dzieciom możliwość ćwiczenia poruszania się między liniami prostymi i zakrzywionymi w tej samej układance.",
-          "fact": "Burdż al-Arab nie jest co prawda najwyższym budynkiem w Dubaju – ten tytuł należy do Burdż Chalifa, który jest ponad dwa razy wyższy! Jednak Burdż al-Arab pozostaje jednym z najczęściej fotografowanych budynków na świecie dzięki swojemu unikalnemu kształtowi."
-        },
-        {
-          "range": "40–52",
-          "title": "Korpus wieży głównej",
-          "learn": "Połącz kropki od 40 do 52, aby wypełnić szeroką, główną bryłę wieżowca hotelowego. To największa część układanki, która pomaga dzieciom rozwijać koncentrację i cierpliwość, gdy rozpoznawalna sylwetka zaczyna nabierać kształtów.",
-          "fact": "Wnętrze Burdż Al-Arab słynie z ogromnego atrium – na tyle wysokiego, że zmieści się w nim otwarta przestrzeń o wysokości 177 metrów, jedno z najwyższych atriów na świecie. Fontanny w lobby tańczą w rytm muzyki."
-        },
-        {
-          "range": "53–66",
-          "title": "Baza wyspowa",
-          "learn": "Ukończ układankę, łącząc kropki od 53 do 66, aby narysować podstawę budynku i sztuczną wyspę, na której stoi. Tylko czternaście kropek do mety — zachęć dzieci do uzupełnienia konturu pewnym, zdecydowanym zestawem ostatnich linii.",
-          "fact": "Hotel znajduje się na własnej, prywatnej wyspie, połączonej z lądem zakrzywionym mostem. Inżynierowie musieli najpierw zbudować wyspę, używając piasku i kamieni, zanim w ogóle mogła rozpocząć się budowa samej wieży – cały projekt wymagał lat starannego planowania."
+{
+  "collection": {
+    "header": {
+      "title": "UAE Dot to Dot Printables for Kids — Free PDF Worksheets",
+      "meta_description": "Free UAE-themed dot to dot printables for kids ages 5-10: Burj Khalifa, Burj Al Arab, the national falcon, a traditional dallah coffee pot, and a desert camel. Print-ready PDF worksheets — no sign-up needed.",
+      "og": {
+        "title": "5 Free UAE Dot to Dot Printables",
+        "description": "Burj Khalifa, Burj Al Arab, falcon, camel, and dallah — free dot to dot printables to print today.",
+        "image": "/images/burj-al-arab-puzzle.webp"
+      },
+      "json_ld": {
+        "type": "CollectionPage",
+        "name": "ZEA",
+        "description": "Odkryj Zjednoczone Emiraty Arabskie! Połącz kropki, aby odkryć Burdż al-Arab i inne kultowe zabytki Emiratów. Wszystkie arkusze ćwiczeń można pobrać i wydrukować bezpłatnie — nie jest wymagane konto.",
+        "image": "/images/burj-al-arab-puzzle.webp",
+        "main_entity": {
+          "type": "ItemList",
+          "item_source": "puzzles"
         }
-      ],
-      "outro": "Cudownie — Twój Burdż Al-Arab jest gotowy! Teraz nadaj mu mieniącą się złotą, niebieską lub zachodzącą słońcem paletę barw, aby pasowała do efektownego oświetlenia prawdziwego hotelu. Gotowy na kolejny słynny obiekt? Przejrzyj więcej <a href=\"/\">darmowych materiałów do druku z łączeniem kropek</a>, aby kontynuować odkrywanie świata."
+      },
+      "breadcrumb_json_ld": {
+        "type": "BreadcrumbList",
+        "items": [
+          {
+            "position": 1,
+            "name": "Home",
+            "path": "/"
+          },
+          {
+            "position": 2,
+            "name": "ZEA",
+            "path": "/uae/"
+          }
+        ]
+      }
     },
-    "seoTitle": "Burdż Al-Arab – Łamigłówka Łącz Kropki 66 Kropek do Druku za Darmo"
+    "body": {
+      "h1": "Połącz kropki w Zjednoczonych Emiratach Arabskich – materiały do ​​druku dla dzieci",
+      "name": "ZEA",
+      "tagline": "Dlaczego dzieci kochają łamigłówki typu „połącz kropki” ze ZEA",
+      "description": "Odkryj Zjednoczone Emiraty Arabskie! Połącz kropki, aby odkryć Burdż al-Arab i inne kultowe zabytki Emiratów. Wszystkie arkusze ćwiczeń można pobrać i wydrukować bezpłatnie — nie jest wymagane konto.",
+      "hero_image": "/images/burj-al-arab-puzzle.webp",
+      "slug": "uae",
+      "faqs": [
+        {
+          "q": "Ile jest darmowych materiałów do druku, które można połączyć ze sobą w celu poznania zabytków i kultury Zjednoczonych Emiratów Arabskich?",
+          "a": "Kategoria „Zabytki i kultura” Zjednoczonych Emiratów Arabskich oferuje obecnie 5 darmowych arkuszy do łączenia kropek, o rozmiarach od 60 do 105 punktów. Każdy arkusz jest natychmiast pobierany w formacie PDF gotowym do druku (Letter lub A4, w układzie pionowym lub poziomym) bez konieczności rejestracji."
+        },
+        {
+          "q": "Czy łamigłówki łączące zabytki i kulturę Zjednoczonych Emiratów Arabskich można wydrukować za darmo?",
+          "a": "Tak — wszystkie 5 łamigłówek z kolekcji „Zabytki i kultura” Zjednoczonych Emiratów Arabskich jest całkowicie darmowych do użytku domowego i szkolnego. Na DotToDotFreePrintables.com nie jest wymagane żadne konto, adres e-mail ani płatność."
+        },
+        {
+          "q": "Dla dzieci w jakim wieku przeznaczone są puzzle dotyczące zabytków i kultury Zjednoczonych Emiratów Arabskich?",
+          "a": "Kolekcja „Zabytki i kultura” w Zjednoczonych Emiratach Arabskich, z liczbą kropek od 60 do 105, obejmuje dzieci w wieku od 4 do 12 lat. Wybierz mniejszą liczbę kropek dla przedszkolaków i uczniów zerówki, a większą liczbę kropek dla uczniów klas 2–6, którzy mają pewność siebie."
+        },
+        {
+          "q": "Jakie łamigłówki typu „połącz kropki” o tematyce Zjednoczonych Emiratów Arabskich są dostępne?",
+          "a": "Pięć darmowych materiałów do wydrukowania o ZEA: Burdż Chalifa (60 kropek), Burdż Al Arab (66 kropek), Sokół ZEA (60 kropek), Kawiarnia Dallah (63 kropki) i Wielbłąd ZEA (105 kropek) — upamiętniające zabytki i dziedzictwo Emiratów, z pełną arabską wersją strony."
+        },
+        {
+          "q": "Czy te puzzle ZEA nadają się do wykorzystania podczas obchodów Dnia Narodowego ZEA?",
+          "a": "Tak. Nauczyciele i rodzice w całych Emiratach korzystają z tych materiałów do druku podczas Dnia Narodowego ZEA, Tygodni Dziedzictwa Kulturowego i zajęć z wiedzy o społeczeństwie. Każda strona zawiera informacje kulturowe na temat zabytku lub symbolu, który rysują dzieci."
+        }
+      ]
+    }
   },
-  {
-    "slug": "burj-khalifa-dot-to-dot-puzzle",
-    "name": "Burdż Chalifa",
-    "seoH1": "Burj Khalifa Połącz Kropki: Najwyższy na Świecie, 60 Krotek",
-    "tagline": "Najwyższa wieża świata",
-    "description": "Połącz 60 kropek, aby odkryć Burdż Chalifa, rekordowy wieżowiec wznoszący się nad Dubajem. Ta prosta łamigłówka jest idealna dla małych uczniów ćwiczących sekwencję liczb, jednocześnie odkrywając najwyższy budynek na Ziemi.",
-    "seoDescription": "60 kropek do połączenia odsłania Burdż Chalifa, najwyższy budynek na Ziemi wznoszący się nad Dubajem. Darmowa karta pracy do druku dla uczniów szkoły podstawowej poznających rekordowe budowle świata i ćwiczących liczenie.",
-    "funFact": "Burj Khalifa to najwyższy budynek na świecie, mający ponad 828 metrów (2,717 stóp) wysokości!",
-    "seoImageAlt": "Burdż Chalifa, najwyższy wieżowiec świata w Dubaju, złożony z 60 ponumerowanych kropek do połączenia",
-    "dotGuide": {
-      "intro": "Burdż Chalifa to najwyższy budynek, jaki kiedykolwiek wzniesiono ręką człowieka – iglica, która przebija niebo nad Dubajem. Jej wielopoziomowa, spiralna konstrukcja została zainspirowana pustynnym kwiatem o nazwie hymenocallis i od momentu otwarcia w 2010 roku utrzymuje tytuł najwyższego budynku na świecie. Ta 60-punktowa układanka przedstawia jego strzelistą sylwetkę od podstawy do iglicy. Znajdź punkt 1 i sięgnijmy nieba!",
-      "sections": [
-        {
-          "range": "1–12",
-          "title": "Iglica",
-          "learn": "Zacznij od punktu 1 i połącz go z punktem 12, aby narysować cienką, spiczastą iglicę na samym szczycie wieży. Ten wąski fragment od samego początku buduje staranne, kontrolowane pociągnięcia ołówkiem – świetna rozgrzewka przed szerszymi kształtami poniżej. Zachęcaj dzieci do powolnego rysowania, utrzymując linie proste i wysokie.",
-          "fact": "Sama iglica ma około 244 metrów (800 stóp) wysokości – prawie tyle, co niektóre całe wieżowce w innych miastach! Zawiera antenę telekomunikacyjną i to jeden z powodów, dla których Burdż Chalifa jest rekordzistą pod względem wysokości. Pełne rekordy wysokości można znaleźć w <a href=\"https://en.wikipedia.org/wiki/Burj_Khalifa\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">hasie Wikipedii o Burdż Chalifa</a>."
+  "puzzles": [
+    {
+      "slug": "burj-al-arab-dot-to-dot-puzzle",
+      "header": {
+        "title": "Burdż Al-Arab – Łamigłówka Łącz Kropki 66 Kropek do Druku za Darmo",
+        "meta_description": "Połącz 66 kropek i odkryj Burdż Al-Arab, kultowy hotel w kształcie żagla wznoszący się na własnej wyspie u wybrzeży Dubaju. Darmowa karta pracy do druku dla dzieci 5–9 lat poznających słynne budowle świata i ćwiczących sekwencję liczb.",
+        "og": {
+          "title": "Burdż Al-Arab – Łamigłówka Łącz Kropki 66 Kropek do Druku za Darmo",
+          "description": "Połącz 66 kropek i odkryj Burdż Al-Arab, kultowy hotel w kształcie żagla wznoszący się na własnej wyspie u wybrzeży Dubaju. Darmowa karta pracy do druku dla dzieci 5–9 lat poznających słynne budowle świata i ćwiczących sekwencję liczb.",
+          "image_alt": "Burdż Al-Arab, hotel w kształcie żagla u wybrzeży Dubaju, złożony z 66 ponumerowanych kropek"
         },
-        {
-          "range": "13–24",
-          "title": "Górne poziomy",
-          "learn": "Kontynuuj od punktu 13 do punktu 24, aby narysować zwężające się, schodkowe sekcje w pobliżu szczytu wieży. Dzieci ćwiczą rysowanie kształtu, który stopniowo się zmniejsza w miarę wznoszenia, co jest doskonałym sposobem na omówienie perspektywy i tego, jak budynki mogą zwężać się ku niebu.",
-          "fact": "Budynek ma 163 piętra – więcej niż jakikolwiek inny budynek na świecie w momencie ukończenia. Na 148. piętrze znajduje się również najwyższy na świecie taras widokowy, zwany „At the Top”."
-        },
-        {
-          "range": "25–36",
-          "title": "Środkowa spirala",
-          "learn": "Obrysuj kropki od 25 do 36, aby narysować środkową część, gdzie spiralny, wielopoziomowy wzór wieży jest najłatwiejszy do zauważenia. Ta część nagradza uważną uwagę, ponieważ odchylenia i kąty zmieniają kierunek kilkakrotnie, dając dzieciom doskonałe ćwiczenie w podążaniu za bardziej złożonym konturem.",
-          "fact": "Projekt Burdż Chalifa inspirowany jest hymenocallis, pustynnym kwiatem o długich, smukłych płatkach, które spiralnie rozchodzą się od środka. Architekci wykorzystali ten naturalny kształt, aby budynek był odporny na silne pustynne wiatry."
-        },
-        {
-          "range": "37–48",
-          "title": "Dolna Wieża",
-          "learn": "Połącz kropki od 37 do 48, aby wypełnić szerszą, dolną część wieży. To jedna z większych części układanki, która pomaga dzieciom rozwijać koncentrację i cierpliwość, gdy wieża zaczyna nabierać kształtu na stronie.",
-          "fact": "Do budowy Burdż Chalifa zużyto tyle betonu, ile potrzeba do zbudowania chodnika o długości ponad 30 mil, a także tyle stalowych prętów zbrojeniowych, że gdyby ułożyć je jeden za drugim, można by nimi okrążyć ponad jedną czwartą Ziemi!"
-        },
-        {
-          "range": "49–60",
-          "title": "Baza",
-          "learn": "Ukończ układankę, łącząc kropki od 49 do 60, aby narysować szeroką podstawę wieży w miejscu, gdzie styka się ona z ziemią. Tylko dwanaście kropek do mety — zachęć dzieci do uzupełnienia konturu mocnymi, pewnymi siebie liniami końcowymi.",
-          "fact": "Burdż Chalifa znajduje się w samym sercu Dubaju, otoczony dużym sztucznym jeziorem z Fontanną Dubajską, słynącą z organizowanych każdego wieczoru pokazów wodnych z muzyką i światłami."
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Burdż Al-Arab",
+          "description": "Połącz 66 kropek i odkryj Burdż Al-Arab, kultowy hotel w kształcie żagla wznoszący się na własnej wyspie u wybrzeży Dubaju. Darmowa karta pracy do druku dla dzieci 5–9 lat poznających słynne budowle świata i ćwiczących sekwencję liczb.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
         }
-      ],
-      "outro": "Niesamowite — Twój Burdż Chalifa jest gotowy! Teraz nadaj mu lśniący srebrny, złoty lub mieniący się kolorami zachodzącego słońca, aby pasował do słynnych wieczornych pokazów świetlnych wieży. Gotowy na kolejny słynny punkt orientacyjny? Przeglądaj więcej <a href=\"/\">darmowych materiałów do druku z łączeniem kropek</a>, aby dalej odkrywać świat."
-    },
-    "seoTitle": "Burdż Chalifa – Najwyższa Wieża Świata, Łącz Kropki 60 Kropek"
-  },
-  {
-    "slug": "uae-falcon-dot-to-dot-puzzle",
-    "name": "Sokół ZEA",
-    "seoH1": "UAE Sokół Połącz Kropki do Druku — 60 Krotek w Locie",
-    "tagline": "Ptak narodowy Emiratów",
-    "description": "Połącz 60 kropek, aby odsłonić sokoła w locie, z rozłożonymi skrzydłami i gotowymi szponami. Sokół jest ptakiem narodowym Zjednoczonych Emiratów Arabskich i symbolem dziedzictwa emirackiego. Ta prosta łamigłówka świetnie sprawdzi się dla młodych uczniów, którzy ćwiczą sekwencję liczb, jednocześnie poznając ptaka z bardzo starą historią.",
-    "seoDescription": "Połącz 60 kropek, aby odsłonić sokoła w locie z rozłożonymi skrzydłami – ptaka narodowego Zjednoczonych Emiratów Arabskich. Darmowa karta pracy do druku dla dzieci poznających symbole i dziedzictwo Bliskiego Wschodu, ćwicząca sekwencję liczb.",
-    "funFact": "Sokoły w Zjednoczonych Emiratach Arabskich mogą posiadać własne paszporty — prawdziwe dokumenty, których używają, podróżując za granicę ze swoimi właścicielami!",
-    "seoImageAlt": "Sokół w locie z rozłożonymi skrzydłami, ptak narodowy ZEA, złożony z 60 ponumerowanych kropek",
-    "dotGuide": {
-      "intro": "Na długo przed erą ropy naftowej i wieżowców istniało sokolnictwo. Plemiona Beduinów na pustyni polegały na wyszkolonych sokołach w polowaniu na pożywienie, a ta współpraca między ptakiem a jego opiekunem stała się jedną z najcenniejszych tradycji w kulturze Emiratów. Dziś sokół widnieje w herbie Zjednoczonych Emiratów Arabskich, a samo sokolnictwo jest chronione jako żywe dziedzictwo. Ta 60-punktowa układanka przedstawia sokoła złapanego w locie. Weź ołówek, znajdź kropkę 1 i ożywmy tego ptaka.",
-      "sections": [
-        {
-          "range": "1–12",
-          "title": "Głowa i haczykowaty dziób",
-          "learn": "Zacznij od punktu 1 i kontynuuj do punktu 12, aby narysować ostrą, czujną głowę sokoła i jego charakterystyczny, zakrzywiony dziób. To niewielki fragment, ale nadaje charakter całemu rysunkowi – twarz sokoła powinna być skupiona, niemal dzika. Staraj się, aby linie były krótkie i precyzyjne, a nie zamaszyste.",
-          "fact": "Dziób sokoła ma małe wcięcie na końcu, zwane „zębem tomialnym”. Sokoły używają go do szybkiego przecinania kręgosłupa ofiary. To jeden z drobnych szczegółów anatomicznych, który odróżnia sokoły od jastrzębi i orłów, które zabijają szponami."
-        },
-        {
-          "range": "13–24",
-          "title": "Czujne Oko i Korona",
-          "learn": "Kontynuuj od punktu 13 do punktu 24, aby ukształtować czubek głowy i duże, skierowane do przodu oko. Sokoły mają jeden z najostrzejszych wzroków w królestwie zwierząt, a poprawne wykonanie tej sekcji naprawdę ożywia wyraz twarzy ptaka. Zachęć dzieci do poświęcenia chwili na narysowanie krzywizny oka – to ona w dużej mierze oddaje charakter rysunku.",
-          "fact": "Sokół potrafi podobno dostrzec królika z odległości około trzech kilometrów. Szacuje się, że jego wzrok jest kilkakrotnie ostrzejszy niż ludzki, dlatego sokolnicy szkolą go do polowań z dużych wysokości i na duże odległości."
-        },
-        {
-          "range": "25–36",
-          "title": "Zamach skrzydłami",
-          "learn": "Obrysuj kropki od 25 do 36, aby narysować długie, zagięte do tyłu skrzydło – tę część układanki, która nadaje temu ptakowi poczucie szybkości. To dobre ćwiczenie, aby poćwiczyć płynne, ciągłe linie zamiast krótkich, poszarpanych. Pewna ręka sprawia, że ​​sokół wygląda, jakby naprawdę przecinał powietrze.",
-          "fact": "Sokół wędrowny, bliski krewny ptaków szkolonych w sokolnictwie w Zjednoczonych Emiratach Arabskich, jest najszybszym zwierzęciem na świecie. Potrafi przekroczyć prędkość 240 mil na godzinę w locie nurkowym, zwanym „stoop”."
-        },
-        {
-          "range": "37–48",
-          "title": "Ciało i klatka piersiowa",
-          "learn": "Połącz kropki od 37 do 48, aby wypełnić klatkę piersiową i korpus sokoła. To największa pojedyncza sekcja układanki i dobre miejsce, aby zwolnić tempo i dokładnie policzyć – łatwo zgubić trop w tak długim odcinku.",
-          "fact": "Sokolnictwo zostało wpisane na listę niematerialnego dziedzictwa kulturowego ludzkości UNESCO w 2010 roku, a Zjednoczone Emiraty Arabskie znalazły się wśród państw założycielskich. Pozostaje ono jednym z najwyraźniejszych ogniw łączących beduińską przeszłość kraju z jego współczesną tożsamością. Dowiedz się więcej na <a href=\"https://ich.unesco.org/en/RL/falconry-a-living-human-heritage-01708\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">liście niematerialnego dziedzictwa kulturowego UNESCO</a>."
-        },
-        {
-          "range": "49–60",
-          "title": "Pióra ogonowe",
-          "learn": "Dokończ układankę, łącząc kropki od 49 do 60, aby narysować wachlarzowate pióra ogonowe ciągnące się za ptakiem. Zostało dwanaście kropek — mocne, pewne zakończenie dopełnia wrażenie ruchu, do którego cały rysunek był budowany.",
-          "fact": "W Abu Zabi mieści się największy na świecie szpital dla sokołów, w którym każdego roku leczy się tysiące ptaków, a także wydaje się paszporty sokołów, niezbędne właścicielom podróżującym ze swoimi ptakami przez granice."
+      },
+      "body": {
+        "h1": "Burj Al Arab Połącz Kropki — Ikona Dubaju w 66 Kropkach",
+        "name": "Burdż Al-Arab",
+        "tagline": "Ikona Dubaju w kształcie żagla",
+        "description": "Połącz 66 kropek, aby odkryć Burdż al-Arab, kultowy hotel w kształcie żagla, wznoszący się na własnej wyspie u wybrzeży Dubaju. Ta prosta łamigłówka jest idealna dla młodych uczniów ćwiczących sekwencję liczb, jednocześnie odkrywając jedną z najsłynniejszych panoram świata.",
+        "fun_fact": "Burdż Al-Arab stoi na sztucznej wyspie i jest jednym z najwyższych hoteli na świecie!",
+        "faqs": [
+          {
+            "q": "Ile kropek ma układanka łącząca kropki Burdż Al Arab?",
+            "a": "Wydrukowana układanka „Połącz kropki” Burdż al-Arab składa się z 66 ponumerowanych kropek. To sprawia, że ​​jest to układanka o średnim stopniu trudności, idealna dla dzieci w wieku 5–8 lat (od przedszkola do drugiej klasy). Dzieci łączą kropki w kolejności numerycznej, aby odsłonić gotowy obrazek Burdż al-Arab, a następnie go kolorują."
+          },
+          {
+            "q": "Czy mapę łączącą punkty Burdż Al-Arab można wydrukować za darmo?",
+            "a": "Tak. Arkusz kalkulacyjny Burdż Al-Arab można pobrać w 100% za darmo ze strony DotToDotFreePrintables.com — bez konieczności zakładania konta, zakładania adresu e-mail ani dokonywania płatności. Pobiera się natychmiast w formacie PDF gotowym do druku, zarówno w orientacji pionowej, jak i poziomej, w formacie US Letter lub A4."
+          },
+          {
+            "q": "Dla osób w jakim wieku najlepsza jest karta pracy „Połącz kropki” przedstawiająca Burdż Al-Arab?",
+            "a": "Z 66 kropkami, układanka Burdż al-Arab najlepiej sprawdza się w wieku 5–8 lat (od przedszkola do drugiej klasy). Młodsze dzieci mogą się nią cieszyć z lekką pomocą dorosłych, a doświadczone liczmany mogą ją ułożyć samodzielnie i ćwiczyć sekwencję liczb do 66."
+          },
+          {
+            "q": "Jakich umiejętności uczy łamigłówka łącząca kropki Burdż Al Arab?",
+            "a": "Łączenie 66 kropek układanki Burdż al-Arab rozwija umiejętności rozpoznawania liczb i liczenia do 66, panowania nad ołówkiem, koordynacji wzrokowo-ruchowej i skupienia – te same podstawy motoryki małej, które wspierają wczesne pisanie odręczne. Pokolorowanie gotowego obrazka to nagroda za kreatywność."
+          },
+          {
+            "q": "Jaka jest ciekawostka na temat Burdż al-Arab?",
+            "a": "Burdż al-Arab stoi na sztucznej wyspie i jest jednym z najwyższych hoteli na świecie! Dzieci odkrywają takie ciekawostki, rozwiązując łamigłówkę Burdż al-Arab."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Burdż al-Arab to jeden z najbardziej rozpoznawalnych budynków na Ziemi – lśniąca wieża w kształcie żagla, wznosząca się nad własną, sztuczną wyspą w Zatoce Perskiej. Zbudowana tak, by przypominała żagiel tradycyjnej łodzi dau, stała się symbolem nowoczesnego Dubaju i Zjednoczonych Emiratów Arabskich. Ta 66-punktowa układanka przedstawia jego dramatyczną, zakrzywioną sylwetkę. Znajdź punkt 1 i zbudujmy razem tę słynną panoramę!",
+          "sections": [
+            {
+              "range": "1–13",
+              "title": "Maszt i końcówka",
+              "learn": "Zacznij od punktu 1 i połącz z punktem 13, aby narysować wysoki, zakrzywiony maszt na samym szczycie budynku. Ten wąski odcinek od samego początku uczy stabilnego trzymania ołówka – świetna rozgrzewka przed szerszymi kształtami poniżej. Zachęcaj dzieci, aby linie były gładkie i lekko zakrzywione, tak jak prawdziwy żagiel.",
+              "fact": "Burdż Al-Arab ma około 321 metrów (1053 stóp) wysokości, co czyni go jednym z najwyższych budynków hotelowych na świecie. Jego charakterystyczny maszt na szczycie ma nawet lądowisko dla helikopterów, na którym odbywały się mecze tenisowe i pokazy golfa wysoko nad morzem! Przeczytaj więcej na <a href=\"https://en.wikipedia.org/wiki/Burj_Al_Arab\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">stronie Burdż Al-Arab w Wikipedii</a>."
+            },
+            {
+              "range": "14–26",
+              "title": "Krzywy Żagiel",
+              "learn": "Kontynuuj od punktu 14 do punktu 26, aby narysować słynną, zakrzywioną fasadę budynku – część, która wygląda niczym żagiel wypełniony wiatrem. Dzieci ćwiczą tu długą, elegancką, wygiętą linię, jeden z najbardziej satysfakcjonujących kształtów w całej układance. Powolna, pewna ręka tworzy najpiękniejszą, zakrzywioną linię.",
+              "fact": "Budynek został zaprojektowany przez architekta Toma Wrighta, który chciał stworzyć konstrukcję równie kultową, jak Opera w Sydney czy Wieża Eiffla. Kształt żagla został zainspirowany tradycyjnymi arabskimi żaglowcami typu dhow, które od wieków żeglują po Zatoce Perskiej."
+            },
+            {
+              "range": "27–39",
+              "title": "Rama podtrzymująca plecy",
+              "learn": "Obrysuj kropki od 27 do 39, aby narysować wysoką, pionową konstrukcję podtrzymującą budynek od tyłu. Ta sekcja wprowadza prostsze linie przeplatane łagodnymi kątami, dając dzieciom możliwość ćwiczenia poruszania się między liniami prostymi i zakrzywionymi w tej samej układance.",
+              "fact": "Burdż al-Arab nie jest co prawda najwyższym budynkiem w Dubaju – ten tytuł należy do Burdż Chalifa, który jest ponad dwa razy wyższy! Jednak Burdż al-Arab pozostaje jednym z najczęściej fotografowanych budynków na świecie dzięki swojemu unikalnemu kształtowi."
+            },
+            {
+              "range": "40–52",
+              "title": "Korpus wieży głównej",
+              "learn": "Połącz kropki od 40 do 52, aby wypełnić szeroką, główną bryłę wieżowca hotelowego. To największa część układanki, która pomaga dzieciom rozwijać koncentrację i cierpliwość, gdy rozpoznawalna sylwetka zaczyna nabierać kształtów.",
+              "fact": "Wnętrze Burdż Al-Arab słynie z ogromnego atrium – na tyle wysokiego, że zmieści się w nim otwarta przestrzeń o wysokości 177 metrów, jedno z najwyższych atriów na świecie. Fontanny w lobby tańczą w rytm muzyki."
+            },
+            {
+              "range": "53–66",
+              "title": "Baza wyspowa",
+              "learn": "Ukończ układankę, łącząc kropki od 53 do 66, aby narysować podstawę budynku i sztuczną wyspę, na której stoi. Tylko czternaście kropek do mety — zachęć dzieci do uzupełnienia konturu pewnym, zdecydowanym zestawem ostatnich linii.",
+              "fact": "Hotel znajduje się na własnej, prywatnej wyspie, połączonej z lądem zakrzywionym mostem. Inżynierowie musieli najpierw zbudować wyspę, używając piasku i kamieni, zanim w ogóle mogła rozpocząć się budowa samej wieży – cały projekt wymagał lat starannego planowania."
+            }
+          ],
+          "outro": "Cudownie — Twój Burdż Al-Arab jest gotowy! Teraz nadaj mu mieniącą się złotą, niebieską lub zachodzącą słońcem paletę barw, aby pasowała do efektownego oświetlenia prawdziwego hotelu. Gotowy na kolejny słynny obiekt? Przejrzyj więcej <a href=\"/\">darmowych materiałów do druku z łączeniem kropek</a>, aby kontynuować odkrywanie świata.",
+          "color_schemes": []
         }
-      ],
-      "outro": "Dobrze — Twój sokół jest gotowy do lotu! Spróbuj pokolorować go ciepłymi brązami i złotem, jak prawdziwego sokoła raroga, lub nadaj mu bardziej dramatyczny wygląd, używając głębokich szarości i czerni. Ciekawi Cię więcej światowych zabytków i zwierząt? Przejrzyj więcej <a href=\"/\">darmowych materiałów do druku z łączeniem kropek</a> i nie przestawaj rysować."
+      }
     },
-    "seoTitle": "Sokół – Ptak Narodowy Emiratów, Łamigłówka Łącz Kropki do Druku"
-  },
-  {
-    "slug": "dallah-coffee-pot-dot-to-dot-puzzle",
-    "name": "Dzbanek do kawy Dallah",
-    "seoH1": "Dallah Połącz Kropki, darmowy arkusz z 63 Kropkami",
-    "tagline": "Symbol gościnności Emiratów",
-    "description": "Połącz 63 kropki, aby odkryć dallah, dzbanek do kawy z długim dziobkiem używany w ZEA i w całym regionie Zatoki do serwowania kawy arabskiej gościom. Ta łatwa zagadka jest świetna dla młodych uczniów ćwiczących sekwencjonowanie liczb, jednocześnie zyskując mały wgląd w tradycję, która wciąż jest bardzo żywa dzisiaj.",
-    "seoDescription": "63 kropki odsłaniają dallah – tradycyjny dzbanek do kawy z długim dzióbkiem, używany w Zjednoczonych Emiratach Arabskich do serwowania kawy po arabsku gościom. Darmowa karta pracy do druku przybliżająca dzieciom żywą tradycję regionu Zatoki Perskiej.",
-    "funFact": "Dallah jest tak znanym symbolem gościnności, że widnieje na monecie jednodirhamowej Zjednoczonych Emiratów Arabskich.",
-    "seoImageAlt": "Tradycyjny dzbanek do kawy dallah z Zjednoczonych Emiratów Arabskich, złożony z 63 ponumerowanych kropek",
-    "dotGuide": {
-      "intro": "Zapytaj niemal każdego w Zatoce Perskiej, co dobry gospodarz oferuje gościowi, a kawa szybko się pojawi. Dallah to dzbanek, który to umożliwia – wysoki, zakrzywiony, z długim dzióbkiem zaprojektowanym do powolnego, ostrożnego nalewania. Pojawia się na weselach, w salonach majlis i w namiotach na festynach, zazwyczaj obok stosu małych kubków bez ucha i talerza z daktylami. Ta łamigłówka z 63 kropkami odwzorowuje jej niepowtarzalny kształt. Znajdź kropkę 1 i nalejmy jedną.",
-      "sections": [
-        {
-          "range": "1–13",
-          "title": "Zakrzywiony uchwyt",
-          "learn": "Zacznij od punktu 1 i połącz go z punktem 13, aby narysować uchwyt pętli z tyłu garnka. To bardziej zakrzywiona linia, niż się wydaje, więc rób to powoli – pośpiech w tej części to element, który zazwyczaj umyka początkującym.",
-          "fact": "Dallahy są tradycyjnie ręcznie kute z mosiądzu lub miedzi, a rzemiosło to przekazywane jest z pokolenia na pokolenie. Dobrze wykonany egzemplarz może przetrwać dekady przy regularnym polerowaniu."
+    {
+      "slug": "burj-khalifa-dot-to-dot-puzzle",
+      "header": {
+        "title": "Burdż Chalifa – Najwyższa Wieża Świata, Łącz Kropki 60 Kropek",
+        "meta_description": "60 kropek do połączenia odsłania Burdż Chalifa, najwyższy budynek na Ziemi wznoszący się nad Dubajem. Darmowa karta pracy do druku dla uczniów szkoły podstawowej poznających rekordowe budowle świata i ćwiczących liczenie.",
+        "og": {
+          "title": "Burdż Chalifa – Najwyższa Wieża Świata, Łącz Kropki 60 Kropek",
+          "description": "60 kropek do połączenia odsłania Burdż Chalifa, najwyższy budynek na Ziemi wznoszący się nad Dubajem. Darmowa karta pracy do druku dla uczniów szkoły podstawowej poznających rekordowe budowle świata i ćwiczących liczenie.",
+          "image_alt": "Burdż Chalifa, najwyższy wieżowiec świata w Dubaju, złożony z 60 ponumerowanych kropek do połączenia"
         },
-        {
-          "range": "14–26",
-          "title": "Kopulasta pokrywa",
-          "learn": "Kontynuuj od punktu 14 do punktu 26, aby nadać zaokrągloną pokrywkę na górze, często zakończoną małym, spiczastym guzikiem. Ta sekcja składa się głównie z łagodnych krzywizn, więc jest to dobre ćwiczenie dla dzieci, które wciąż uczą się rysować zaokrąglone linie.",
-          "fact": "Niektóre dallah mają na pokrywce ozdobny ornament w kształcie półksiężyca lub ptaka zamiast prostego pokrętła — jest to drobny szczegół, który znacznie różni się w zależności od regionu i producenta."
-        },
-        {
-          "range": "27–39",
-          "title": "Długi wylew",
-          "learn": "Obrysuj kropki od 27 do 39, aby narysować długi, wąski dzióbek, który nadaje dallah charakterystyczną sylwetkę. To najtrudniejsza część rysunku – dzióbek zwęża się w miarę rozszerzania, więc zachęcaj dzieci do rysowania go jednym, spokojnym pociągnięciem, a nie kilkoma krótkimi.",
-          "fact": "Długość dzióbka nie jest tylko ozdobą. Pozwala gospodarzowi nalewać kawę z niewielkiej wysokości bez rozlewania, co jest częścią gościnności – nalewanie odbywa się na oczach gości, a nie w innym pomieszczeniu."
-        },
-        {
-          "range": "40–52",
-          "title": "Szerokie ciało",
-          "learn": "Połącz kropki od 40 do 52, aby wypełnić zaokrągloną część dzbanka, w której będzie się parzyła kawa. To najobszerniejsza część, więc warto zatrzymać się w połowie, aby powtórzyć i upewnić się, że nic nie zostało pominięte.",
-          "fact": "Arabska kawa podawana z dallah, znana jako gahwa, jest zazwyczaj parzona z lekko palonych ziaren i kardamonu, a nie z ciemniej palonych ziaren, powszechnie stosowanych w innych miejscach — dlatego wygląda i smakuje wyraźnie inaczej niż espresso lub kawa filtrowana."
-        },
-        {
-          "range": "53–63",
-          "title": "Podstawa i stojak",
-          "learn": "Na koniec połącz kropki od 53 do 63, aby narysować solidną podstawę, na której stoi doniczka. Zostało jedenaście kropek — dobre, solidne wykończenie w tym miejscu stanowi fundament całego rysunku.",
-          "fact": "W 2015 roku UNESCO wpisało kawę arabską na listę niematerialnego dziedzictwa kulturowego, uznając ją za symbol hojności dzielonej między ZEA, Arabią Saudyjską, Omanem i Katarem. Więcej informacji można znaleźć na <a href=\"https://ich.unesco.org/en/RL/arabic-coffee-a-symbol-of-generosity-02111\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">liście kawy arabskiej UNESCO</a>."
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Burdż Chalifa",
+          "description": "60 kropek do połączenia odsłania Burdż Chalifa, najwyższy budynek na Ziemi wznoszący się nad Dubajem. Darmowa karta pracy do druku dla uczniów szkoły podstawowej poznających rekordowe budowle świata i ćwiczących liczenie.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
         }
-      ],
-      "outro": "Świetna robota — Twój dallah jest gotowy do podania! Pokoloruj go ciepłymi odcieniami miedzi lub mosiądzu, aby uzyskać tradycyjny wygląd, lub postaw na wyrazisty kolor złota i głębokiej zieleni. Jeśli Twoje dziecko z przyjemnością dowiedziało się, skąd pochodzi ta układanka, mogą mu się spodobać również nasze inne <a href=\"/playgrounds/\">karty do łączenia kropek</a>, które pozwolą mu na więcej praktycznych ćwiczeń."
-    },
-    "seoTitle": "Dzbanek Dallah – Symbol Gościnności Emiratów, Łącz Kropki 63 Kropki"
-  },
-  {
-    "slug": "uae-camel-dot-to-dot-puzzle",
-    "name": "Wielbłąd z ZEA",
-    "seoH1": "UAE Wielbłąd Połącz Kropki — PDF z 105 Kropkami w Wyzwanie na Pustyni",
-    "tagline": "Statek pustyni",
-    "description": "Połącz 105 kropek, aby odkryć wielbłąda kroczącego po piasku – jeden z najtrwalszych symboli życia w Zjednoczonych Emiratach Arabskich i na całym Półwyspie Arabskim. Ta łamigłówka, z większą liczbą kropek niż nasze inne łamigłówki o ZEA, stanowi wyższy poziom trudności – idealna dla dzieci, które chcą przejść przez najłatwiejsze arkusze, a jednocześnie nauczyć się czegoś prawdziwego o życiu na pustyni.",
-    "seoDescription": "Połącz 105 kropek, aby odkryć wielbłąda kroczącego po piasku – jeden z najtrwalszych symboli życia na Półwyspie Arabskim. Ta wymagająca karta pracy do druku, trudniejsza niż inne nasze łamigłówki o ZEA, jest idealna dla dzieci gotowych na większe wyzwanie liczbowe.",
-    "funFact": "Garb wielbłąda w ogóle nie magazynuje wody, lecz tłuszcz, który ciało wielbłąda może przekształcić w energię i wodę, gdy pożywienie jest niewystarczające.",
-    "seoImageAlt": "Wielbłąd kroczący po pustynnym piasku Zjednoczonych Emiratów Arabskich, złożony z 105 ponumerowanych kropek",
-    "dotGuide": {
-      "intro": "Przez tysiące lat wielbłąd umożliwiał życie na pustyni – przewożąc towary przez wydmy, których nie przejechał żaden wóz kołowy, dostarczając mleko, wełnę i transport społecznościom beduińskim na długo przed pojawieniem się dróg i klimatyzacji. Wielbłądy są nadal hodowane i ścigane w Zjednoczonych Emiratach Arabskich, a mleko wielbłądzie pojawia się we wszystkim, od kawy latte po tabliczki czekolady. Ta łamigłówka składająca się ze 105 punktów jest dłuższa niż większość naszych innych arkuszy, więc stanowi miły kolejny krok, gdy dziecko ma już za sobą kilka łatwiejszych łamigłówek. Znajdź punkt 1 i rozwiązuj go krok po kroku.",
-      "sections": [
-        {
-          "range": "1–21",
-          "title": "Głowa i szyja",
-          "learn": "Zacznij od punktu 1 i kontynuuj do punktu 21, aby narysować długą, zakrzywioną szyję i czujną głowę. Wielbłądy trzymają szyję w charakterystycznym kształcie litery S, więc zachęcaj dzieci, aby pozwalały linii wznosić się i opadać naturalnie, zamiast forsować prostowanie. To duże pierwsze rozciąganie, więc krótka przerwa po nim jest akceptowalna.",
-          "fact": "Wielbłądy mają trzy powieki i dwa rzędy długich rzęs, które razem chronią oczy przed piaskiem podczas burzy. Potrafią też całkowicie zamknąć nozdrza – cecha, której nie posiada żadne inne zwierzę juczne."
-        },
-        {
-          "range": "22–42",
-          "title": "Pierwszy garb",
-          "learn": "Kontynuuj od punktu 22 do punktu 42, aby nadać kształt wysokiemu, zaokrąglonemu pierwszemu garbowi. To satysfakcjonująca krzywa do narysowania — zaleca się wykonanie jednej płynnej kreski zamiast kilku małych, ponieważ poszarpane linie spłaszczają kształt garbu.",
-          "fact": "Dromader, czyli wielbłąd jednogarbny, to gatunek występujący w Zjednoczonych Emiratach Arabskich i na całym Półwyspie Arabskim. Dwugarbny wielbłąd dwugarbny to inny gatunek, pochodzący z Azji Środkowej, a nie z Zatoki Perskiej. Więcej informacji znajdziesz w <a href=\"https://en.wikipedia.org/wiki/Dromedary\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">hasie Wikipedii o wielbłądach jednogarbnych</a>."
-        },
-        {
-          "range": "43–63",
-          "title": "Linia tylna",
-          "learn": "Obrysuj punkty od 43 do 63, aby ukończyć linię grzbietu, wliczając w to zagłębienie za garbem. Prawidłowe zagłębienie – nie za głębokie, nie za płaskie – sprawia, że ​​sylwetka przypomina wielbłąda, a nie tylko grudkowatą linię. Pracuj powoli nad tym fragmentem.",
-          "fact": "Dorosły wielbłąd potrafi wypić około 40 galonów wody w ciągu zaledwie kilku minut, gdy już dotrze do źródła wody — uzupełniając w ciągu jednego posiedzenia ilość, którą stracił w ciągu kilku dni podróży."
-        },
-        {
-          "range": "64–84",
-          "title": "Nogi",
-          "learn": "Połącz kropki od 64 do 84, aby narysować cztery długie, mocne nogi. Ta sekcja ma więcej zmian kierunku niż poprzednie, więc warto zwolnić i sprawdzić każdą liczbę kropek przed narysowaniem kolejnej linii.",
-          "fact": "Wielbłądy chodzą, poruszając jednocześnie obiema nogami po tej samej stronie ciała, w chodach zwanych inochodem. Nadaje im to charakterystyczny, kołyszący ruch, co częściowo wyjaśnia, dlaczego wczesny przydomek wielbłąda brzmiał „statek pustyni”. Wyścigi wielbłądów pozostają ważną dyscypliną sportową w Zjednoczonych Emiratach Arabskich — przeczytaj więcej w <a href=\"https://en.wikipedia.org/wiki/Camel_racing\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">artykule Wikipedii o wyścigach wielbłądów</a>."
-        },
-        {
-          "range": "85–105",
-          "title": "Stopy i ogon",
-          "learn": "Dokończ układankę, łącząc kropki od 85 do 105, aby dodać szerokie stopy i ogon. Zostało dwadzieścia jeden kropek — mocne zakończenie naprawdę umacnia cały rysunek, więc zachęcaj do pewnej ręki aż do ostatniej kropki.",
-          "fact": "Nogi wielbłąda rozkładają się szeroko podczas chodzenia, rozkładając ciężar, dzięki czemu nie zapada się on w miękki piasek – podobnie jak rakiety śnieżne na śniegu. To jedna z kilku cech, które sprawiają, że wielbłąd tak dobrze nadaje się do podróży po pustyni."
+      },
+      "body": {
+        "h1": "Burj Khalifa Połącz Kropki: Najwyższy na Świecie, 60 Krotek",
+        "name": "Burdż Chalifa",
+        "tagline": "Najwyższa wieża świata",
+        "description": "Połącz 60 kropek, aby odkryć Burdż Chalifa, rekordowy wieżowiec wznoszący się nad Dubajem. Ta prosta łamigłówka jest idealna dla małych uczniów ćwiczących sekwencję liczb, jednocześnie odkrywając najwyższy budynek na Ziemi.",
+        "fun_fact": "Burj Khalifa to najwyższy budynek na świecie, mający ponad 828 metrów (2,717 stóp) wysokości!",
+        "faqs": [
+          {
+            "q": "Ile kropek ma układanka łącząca kropki Burdż Chalifa?",
+            "a": "Wydrukowana układanka „Połącz kropki” Burdż Chalifa składa się z 60 ponumerowanych kropek. To sprawia, że ​​jest to układanka o średnim stopniu trudności, idealna dla dzieci w wieku 5–8 lat (od przedszkola do drugiej klasy). Dzieci łączą kropki w kolejności numerycznej, aby odsłonić gotowy obrazek Burdż Chalifa, a następnie go kolorują."
+          },
+          {
+            "q": "Czy można wydrukować i zapisać mapę Burdż Chalifa, łączącą punkty, za darmo?",
+            "a": "Tak. Arkusz kalkulacyjny Burdż Chalifa można pobrać całkowicie za darmo ze strony DotToDotFreePrintables.com — bez konieczności zakładania konta, zakładania adresu e-mail ani dokonywania płatności. Pobiera się natychmiast w formacie PDF gotowym do druku, zarówno w orientacji pionowej, jak i poziomej, w formacie US Letter lub A4."
+          },
+          {
+            "q": "Dla osób w jakim wieku najlepsza jest karta ćwiczeniowa „Połącz kropki” o Burdż Chalifa?",
+            "a": "Układanka Burdż Chalifa, złożona z 60 punktów, najlepiej sprawdzi się w wieku 5–8 lat (od przedszkola do drugiej klasy szkoły podstawowej). Młodsze dzieci mogą czerpać z niej radość, jeśli dorośli będą im pomagać w liczeniu, natomiast doświadczeni liczmani mogą ją rozwiązywać samodzielnie i ćwiczyć sekwencję liczb do 60."
+          },
+          {
+            "q": "Jakich umiejętności uczy układanka łącząca kropki Burdż Chalifa?",
+            "a": "Łączenie 60 kropek układanki Burdż Chalifa rozwija umiejętności rozpoznawania liczb i liczenia do 60, panowania nad ołówkiem, koordynacji wzrokowo-ruchowej i skupienia – te same podstawy motoryki małej, które wspierają wczesne pisanie odręczne. Pokolorowanie gotowego obrazka to nagroda za kreatywność."
+          },
+          {
+            "q": "Jaka jest ciekawostka na temat Burdż Chalifa?",
+            "a": "Burdż Chalifa to najwyższy budynek świata, mierzący ponad 828 metrów (2717 stóp) wysokości! Dzieci odkrywają takie ciekawostki, rozwiązując łamigłówkę Burdż Chalifa."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Burdż Chalifa to najwyższy budynek, jaki kiedykolwiek wzniesiono ręką człowieka – iglica, która przebija niebo nad Dubajem. Jej wielopoziomowa, spiralna konstrukcja została zainspirowana pustynnym kwiatem o nazwie hymenocallis i od momentu otwarcia w 2010 roku utrzymuje tytuł najwyższego budynku na świecie. Ta 60-punktowa układanka przedstawia jego strzelistą sylwetkę od podstawy do iglicy. Znajdź punkt 1 i sięgnijmy nieba!",
+          "sections": [
+            {
+              "range": "1–12",
+              "title": "Iglica",
+              "learn": "Zacznij od punktu 1 i połącz go z punktem 12, aby narysować cienką, spiczastą iglicę na samym szczycie wieży. Ten wąski fragment od samego początku buduje staranne, kontrolowane pociągnięcia ołówkiem – świetna rozgrzewka przed szerszymi kształtami poniżej. Zachęcaj dzieci do powolnego rysowania, utrzymując linie proste i wysokie.",
+              "fact": "Sama iglica ma około 244 metrów (800 stóp) wysokości – prawie tyle, co niektóre całe wieżowce w innych miastach! Zawiera antenę telekomunikacyjną i to jeden z powodów, dla których Burdż Chalifa jest rekordzistą pod względem wysokości. Pełne rekordy wysokości można znaleźć w <a href=\"https://en.wikipedia.org/wiki/Burj_Khalifa\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">hasie Wikipedii o Burdż Chalifa</a>."
+            },
+            {
+              "range": "13–24",
+              "title": "Górne poziomy",
+              "learn": "Kontynuuj od punktu 13 do punktu 24, aby narysować zwężające się, schodkowe sekcje w pobliżu szczytu wieży. Dzieci ćwiczą rysowanie kształtu, który stopniowo się zmniejsza w miarę wznoszenia, co jest doskonałym sposobem na omówienie perspektywy i tego, jak budynki mogą zwężać się ku niebu.",
+              "fact": "Budynek ma 163 piętra – więcej niż jakikolwiek inny budynek na świecie w momencie ukończenia. Na 148. piętrze znajduje się również najwyższy na świecie taras widokowy, zwany „At the Top”."
+            },
+            {
+              "range": "25–36",
+              "title": "Środkowa spirala",
+              "learn": "Obrysuj kropki od 25 do 36, aby narysować środkową część, gdzie spiralny, wielopoziomowy wzór wieży jest najłatwiejszy do zauważenia. Ta część nagradza uważną uwagę, ponieważ odchylenia i kąty zmieniają kierunek kilkakrotnie, dając dzieciom doskonałe ćwiczenie w podążaniu za bardziej złożonym konturem.",
+              "fact": "Projekt Burdż Chalifa inspirowany jest hymenocallis, pustynnym kwiatem o długich, smukłych płatkach, które spiralnie rozchodzą się od środka. Architekci wykorzystali ten naturalny kształt, aby budynek był odporny na silne pustynne wiatry."
+            },
+            {
+              "range": "37–48",
+              "title": "Dolna Wieża",
+              "learn": "Połącz kropki od 37 do 48, aby wypełnić szerszą, dolną część wieży. To jedna z większych części układanki, która pomaga dzieciom rozwijać koncentrację i cierpliwość, gdy wieża zaczyna nabierać kształtu na stronie.",
+              "fact": "Do budowy Burdż Chalifa zużyto tyle betonu, ile potrzeba do zbudowania chodnika o długości ponad 30 mil, a także tyle stalowych prętów zbrojeniowych, że gdyby ułożyć je jeden za drugim, można by nimi okrążyć ponad jedną czwartą Ziemi!"
+            },
+            {
+              "range": "49–60",
+              "title": "Baza",
+              "learn": "Ukończ układankę, łącząc kropki od 49 do 60, aby narysować szeroką podstawę wieży w miejscu, gdzie styka się ona z ziemią. Tylko dwanaście kropek do mety — zachęć dzieci do uzupełnienia konturu mocnymi, pewnymi siebie liniami końcowymi.",
+              "fact": "Burdż Chalifa znajduje się w samym sercu Dubaju, otoczony dużym sztucznym jeziorem z Fontanną Dubajską, słynącą z organizowanych każdego wieczoru pokazów wodnych z muzyką i światłami."
+            }
+          ],
+          "outro": "Niesamowite — Twój Burdż Chalifa jest gotowy! Teraz nadaj mu lśniący srebrny, złoty lub mieniący się kolorami zachodzącego słońca, aby pasował do słynnych wieczornych pokazów świetlnych wieży. Gotowy na kolejny słynny punkt orientacyjny? Przeglądaj więcej <a href=\"/\">darmowych materiałów do druku z łączeniem kropek</a>, aby dalej odkrywać świat.",
+          "color_schemes": []
         }
-      ],
-      "outro": "Fantastyczna robota — Twój wielbłąd jest gotowy do przekroczenia wydm! Wypróbuj ciepłe, piaskowe brązy i beże, aby uzyskać realistyczny wygląd, lub pobaw się wyrazistymi, nieoczekiwanymi kolorami. Gotowy na nowe wyzwanie? Odkryj więcej <a href=\"/dinosaurs/\">materiałów do druku z łączeniem kropek od 1 do 100</a> w innych motywach."
+      }
     },
-    "seoTitle": "Wielbłąd z Pustyni ZEA – Trudniejsza Łamigłówka Łącz Kropki 105 Kropek"
-  }
-]
+    {
+      "slug": "uae-falcon-dot-to-dot-puzzle",
+      "header": {
+        "title": "Sokół – Ptak Narodowy Emiratów, Łamigłówka Łącz Kropki do Druku",
+        "meta_description": "Połącz 60 kropek, aby odsłonić sokoła w locie z rozłożonymi skrzydłami – ptaka narodowego Zjednoczonych Emiratów Arabskich. Darmowa karta pracy do druku dla dzieci poznających symbole i dziedzictwo Bliskiego Wschodu, ćwicząca sekwencję liczb.",
+        "og": {
+          "title": "Sokół – Ptak Narodowy Emiratów, Łamigłówka Łącz Kropki do Druku",
+          "description": "Połącz 60 kropek, aby odsłonić sokoła w locie z rozłożonymi skrzydłami – ptaka narodowego Zjednoczonych Emiratów Arabskich. Darmowa karta pracy do druku dla dzieci poznających symbole i dziedzictwo Bliskiego Wschodu, ćwicząca sekwencję liczb.",
+          "image_alt": "Sokół w locie z rozłożonymi skrzydłami, ptak narodowy ZEA, złożony z 60 ponumerowanych kropek"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Sokół ZEA",
+          "description": "Połącz 60 kropek, aby odsłonić sokoła w locie z rozłożonymi skrzydłami – ptaka narodowego Zjednoczonych Emiratów Arabskich. Darmowa karta pracy do druku dla dzieci poznających symbole i dziedzictwo Bliskiego Wschodu, ćwicząca sekwencję liczb.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
+      },
+      "body": {
+        "h1": "UAE Sokół Połącz Kropki do Druku — 60 Krotek w Locie",
+        "name": "Sokół ZEA",
+        "tagline": "Ptak narodowy Emiratów",
+        "description": "Połącz 60 kropek, aby odsłonić sokoła w locie, z rozłożonymi skrzydłami i gotowymi szponami. Sokół jest ptakiem narodowym Zjednoczonych Emiratów Arabskich i symbolem dziedzictwa emirackiego. Ta prosta łamigłówka świetnie sprawdzi się dla młodych uczniów, którzy ćwiczą sekwencję liczb, jednocześnie poznając ptaka z bardzo starą historią.",
+        "fun_fact": "Sokoły w Zjednoczonych Emiratach Arabskich mogą posiadać własne paszporty — prawdziwe dokumenty, których używają, podróżując za granicę ze swoimi właścicielami!",
+        "faqs": [
+          {
+            "q": "Ile kropek ma łamigłówka „UAE Falcon”?",
+            "a": "Zestaw do łączenia kropek „Sokół ZEA” do wydrukowania zawiera 60 ponumerowanych kropek. To sprawia, że ​​jest to układanka o łatwym lub średnim stopniu trudności, najlepiej odpowiednia dla dzieci w wieku 5–8 lat (od przedszkola do drugiej klasy). Dzieci łączą kropki w kolejności numerycznej, aby odsłonić gotowy obrazek sokoła ZEA, a następnie go kolorują."
+          },
+          {
+            "q": "Czy grę UAE Falcon można wydrukować bezpłatnie, łącząc kropki?",
+            "a": "Tak. Arkusz kalkulacyjny UAE Falcon można pobrać w 100% za darmo ze strony DotToDotFreePrintables.com — bez konieczności zakładania konta, zakładania adresu e-mail ani dokonywania płatności. Pobiera się natychmiast w formacie PDF gotowym do druku, zarówno w orientacji pionowej, jak i poziomej, w formacie US Letter lub A4."
+          },
+          {
+            "q": "Dla dzieci w jakim wieku najlepsza jest karta pracy „Połącz kropki” UAE Falcon?",
+            "a": "Łamigłówka UAE Falcon, z 60 punktami, najlepiej sprawdzi się w wieku 5–8 lat (od przedszkola do drugiej klasy). Młodsze dzieci mogą czerpać z niej radość, korzystając z lekkiej pomocy dorosłych, a doświadczone liczenie pozwoli im rozwiązać ją samodzielnie i ćwiczyć sekwencję liczb do 60."
+          },
+          {
+            "q": "Jakich umiejętności uczy łamigłówka UAE Falcon?",
+            "a": "Łączenie 60 kropek w układance UAE Falcon rozwija umiejętności rozpoznawania liczb i liczenia do 60, panowania nad ołówkiem, koordynacji wzrokowo-ruchowej i skupienia uwagi – te same podstawy motoryki małej, które wspierają wczesne pisanie odręczne. Pokolorowanie gotowego obrazka to nagroda za kreatywność."
+          },
+          {
+            "q": "Jaka jest ciekawostka na temat sokołów ze Zjednoczonych Emiratów Arabskich?",
+            "a": "Sokoły w Zjednoczonych Emiratach Arabskich mogą posiadać własne paszporty – prawdziwy dokument, którego używają podczas podróży zagranicznych ze swoimi właścicielami! Dzieci odkrywają takie fakty, rozwiązując łamigłówkę „Sokół w Zjednoczonych Emiratach Arabskich”."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Na długo przed erą ropy naftowej i wieżowców istniało sokolnictwo. Plemiona Beduinów na pustyni polegały na wyszkolonych sokołach w polowaniu na pożywienie, a ta współpraca między ptakiem a jego opiekunem stała się jedną z najcenniejszych tradycji w kulturze Emiratów. Dziś sokół widnieje w herbie Zjednoczonych Emiratów Arabskich, a samo sokolnictwo jest chronione jako żywe dziedzictwo. Ta 60-punktowa układanka przedstawia sokoła złapanego w locie. Weź ołówek, znajdź kropkę 1 i ożywmy tego ptaka.",
+          "sections": [
+            {
+              "range": "1–12",
+              "title": "Głowa i haczykowaty dziób",
+              "learn": "Zacznij od punktu 1 i kontynuuj do punktu 12, aby narysować ostrą, czujną głowę sokoła i jego charakterystyczny, zakrzywiony dziób. To niewielki fragment, ale nadaje charakter całemu rysunkowi – twarz sokoła powinna być skupiona, niemal dzika. Staraj się, aby linie były krótkie i precyzyjne, a nie zamaszyste.",
+              "fact": "Dziób sokoła ma małe wcięcie na końcu, zwane „zębem tomialnym”. Sokoły używają go do szybkiego przecinania kręgosłupa ofiary. To jeden z drobnych szczegółów anatomicznych, który odróżnia sokoły od jastrzębi i orłów, które zabijają szponami."
+            },
+            {
+              "range": "13–24",
+              "title": "Czujne Oko i Korona",
+              "learn": "Kontynuuj od punktu 13 do punktu 24, aby ukształtować czubek głowy i duże, skierowane do przodu oko. Sokoły mają jeden z najostrzejszych wzroków w królestwie zwierząt, a poprawne wykonanie tej sekcji naprawdę ożywia wyraz twarzy ptaka. Zachęć dzieci do poświęcenia chwili na narysowanie krzywizny oka – to ona w dużej mierze oddaje charakter rysunku.",
+              "fact": "Sokół potrafi podobno dostrzec królika z odległości około trzech kilometrów. Szacuje się, że jego wzrok jest kilkakrotnie ostrzejszy niż ludzki, dlatego sokolnicy szkolą go do polowań z dużych wysokości i na duże odległości."
+            },
+            {
+              "range": "25–36",
+              "title": "Zamach skrzydłami",
+              "learn": "Obrysuj kropki od 25 do 36, aby narysować długie, zagięte do tyłu skrzydło – tę część układanki, która nadaje temu ptakowi poczucie szybkości. To dobre ćwiczenie, aby poćwiczyć płynne, ciągłe linie zamiast krótkich, poszarpanych. Pewna ręka sprawia, że ​​sokół wygląda, jakby naprawdę przecinał powietrze.",
+              "fact": "Sokół wędrowny, bliski krewny ptaków szkolonych w sokolnictwie w Zjednoczonych Emiratach Arabskich, jest najszybszym zwierzęciem na świecie. Potrafi przekroczyć prędkość 240 mil na godzinę w locie nurkowym, zwanym „stoop”."
+            },
+            {
+              "range": "37–48",
+              "title": "Ciało i klatka piersiowa",
+              "learn": "Połącz kropki od 37 do 48, aby wypełnić klatkę piersiową i korpus sokoła. To największa pojedyncza sekcja układanki i dobre miejsce, aby zwolnić tempo i dokładnie policzyć – łatwo zgubić trop w tak długim odcinku.",
+              "fact": "Sokolnictwo zostało wpisane na listę niematerialnego dziedzictwa kulturowego ludzkości UNESCO w 2010 roku, a Zjednoczone Emiraty Arabskie znalazły się wśród państw założycielskich. Pozostaje ono jednym z najwyraźniejszych ogniw łączących beduińską przeszłość kraju z jego współczesną tożsamością. Dowiedz się więcej na <a href=\"https://ich.unesco.org/en/RL/falconry-a-living-human-heritage-01708\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">liście niematerialnego dziedzictwa kulturowego UNESCO</a>."
+            },
+            {
+              "range": "49–60",
+              "title": "Pióra ogonowe",
+              "learn": "Dokończ układankę, łącząc kropki od 49 do 60, aby narysować wachlarzowate pióra ogonowe ciągnące się za ptakiem. Zostało dwanaście kropek — mocne, pewne zakończenie dopełnia wrażenie ruchu, do którego cały rysunek był budowany.",
+              "fact": "W Abu Zabi mieści się największy na świecie szpital dla sokołów, w którym każdego roku leczy się tysiące ptaków, a także wydaje się paszporty sokołów, niezbędne właścicielom podróżującym ze swoimi ptakami przez granice."
+            }
+          ],
+          "outro": "Dobrze — Twój sokół jest gotowy do lotu! Spróbuj pokolorować go ciepłymi brązami i złotem, jak prawdziwego sokoła raroga, lub nadaj mu bardziej dramatyczny wygląd, używając głębokich szarości i czerni. Ciekawi Cię więcej światowych zabytków i zwierząt? Przejrzyj więcej <a href=\"/\">darmowych materiałów do druku z łączeniem kropek</a> i nie przestawaj rysować.",
+          "color_schemes": []
+        }
+      }
+    },
+    {
+      "slug": "dallah-coffee-pot-dot-to-dot-puzzle",
+      "header": {
+        "title": "Dzbanek Dallah – Symbol Gościnności Emiratów, Łącz Kropki 63 Kropki",
+        "meta_description": "63 kropki odsłaniają dallah – tradycyjny dzbanek do kawy z długim dzióbkiem, używany w Zjednoczonych Emiratach Arabskich do serwowania kawy po arabsku gościom. Darmowa karta pracy do druku przybliżająca dzieciom żywą tradycję regionu Zatoki Perskiej.",
+        "og": {
+          "title": "Dzbanek Dallah – Symbol Gościnności Emiratów, Łącz Kropki 63 Kropki",
+          "description": "63 kropki odsłaniają dallah – tradycyjny dzbanek do kawy z długim dzióbkiem, używany w Zjednoczonych Emiratach Arabskich do serwowania kawy po arabsku gościom. Darmowa karta pracy do druku przybliżająca dzieciom żywą tradycję regionu Zatoki Perskiej.",
+          "image_alt": "Tradycyjny dzbanek do kawy dallah z Zjednoczonych Emiratów Arabskich, złożony z 63 ponumerowanych kropek"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Dzbanek do kawy Dallah",
+          "description": "63 kropki odsłaniają dallah – tradycyjny dzbanek do kawy z długim dzióbkiem, używany w Zjednoczonych Emiratach Arabskich do serwowania kawy po arabsku gościom. Darmowa karta pracy do druku przybliżająca dzieciom żywą tradycję regionu Zatoki Perskiej.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
+      },
+      "body": {
+        "h1": "Dallah Połącz Kropki, darmowy arkusz z 63 Kropkami",
+        "name": "Dzbanek do kawy Dallah",
+        "tagline": "Symbol gościnności Emiratów",
+        "description": "Połącz 63 kropki, aby odkryć dallah, dzbanek do kawy z długim dziobkiem używany w ZEA i w całym regionie Zatoki do serwowania kawy arabskiej gościom. Ta łatwa zagadka jest świetna dla młodych uczniów ćwiczących sekwencjonowanie liczb, jednocześnie zyskując mały wgląd w tradycję, która wciąż jest bardzo żywa dzisiaj.",
+        "fun_fact": "Dallah jest tak znanym symbolem gościnności, że widnieje na monecie jednodirhamowej Zjednoczonych Emiratów Arabskich.",
+        "faqs": [
+          {
+            "q": "Ile kropek ma układanka Dallah Coffee Pot?",
+            "a": "Zestaw do łączenia kropek „Dallah Coffee Pot” do wydrukowania zawiera 63 ponumerowane kropki. To sprawia, że ​​jest to układanka o średnim stopniu trudności, idealna dla dzieci w wieku 5–8 lat (od przedszkola do drugiej klasy). Dzieci łączą kropki w kolejności numerycznej, aby odsłonić gotowy obrazek „Dallah Coffee Pot”, a następnie go kolorują."
+          },
+          {
+            "q": "Czy łamigłówkę Dallah Coffee Pot można wydrukować bezpłatnie?",
+            "a": "Tak. Arkusz ćwiczeń „Dallah Coffee Pot” można pobrać całkowicie za darmo ze strony DotToDotFreePrintables.com — bez konieczności zakładania konta, zakładania adresu e-mail ani dokonywania płatności. Pobiera się natychmiast w formacie PDF gotowym do druku, zarówno w orientacji pionowej, jak i poziomej, w formacie US Letter lub A4."
+          },
+          {
+            "q": "Dla dzieci w jakim wieku najlepsza jest karta pracy „Połącz kropki” Dallah Coffee Pot?",
+            "a": "Puzzle Dallah Coffee Pot, z 63 kropkami, najlepiej sprawdzają się w wieku 5–8 lat (od przedszkola do drugiej klasy). Młodsze dzieci mogą się nimi cieszyć z lekką pomocą dorosłych, a doświadczone liczmany mogą je układać samodzielnie i ćwiczyć sekwencję liczb do 63."
+          },
+          {
+            "q": "Jakich umiejętności uczy układanka Dallah Coffee Pot?",
+            "a": "Połączenie 63 kropek układanki „Dallah Coffee Pot” rozwija umiejętności rozpoznawania liczb i liczenia do 63, panowania nad ołówkiem, koordynacji wzrokowo-ruchowej i skupienia uwagi – te same podstawy motoryki małej, które wspierają wczesne pisanie odręczne. Pokolorowanie gotowego obrazka to nagroda za kreatywność."
+          },
+          {
+            "q": "Jaka jest ciekawostka na temat ekspresu do kawy dallah?",
+            "a": "Dalah jest tak znanym symbolem gościnności, że widnieje na monecie jednodirhamowej Zjednoczonych Emiratów Arabskich. Dzieci odkrywają takie ciekawostki, rozwiązując łamigłówkę „Dallah Coffee Pot”."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Zapytaj niemal każdego w Zatoce Perskiej, co dobry gospodarz oferuje gościowi, a kawa szybko się pojawi. Dallah to dzbanek, który to umożliwia – wysoki, zakrzywiony, z długim dzióbkiem zaprojektowanym do powolnego, ostrożnego nalewania. Pojawia się na weselach, w salonach majlis i w namiotach na festynach, zazwyczaj obok stosu małych kubków bez ucha i talerza z daktylami. Ta łamigłówka z 63 kropkami odwzorowuje jej niepowtarzalny kształt. Znajdź kropkę 1 i nalejmy jedną.",
+          "sections": [
+            {
+              "range": "1–13",
+              "title": "Zakrzywiony uchwyt",
+              "learn": "Zacznij od punktu 1 i połącz go z punktem 13, aby narysować uchwyt pętli z tyłu garnka. To bardziej zakrzywiona linia, niż się wydaje, więc rób to powoli – pośpiech w tej części to element, który zazwyczaj umyka początkującym.",
+              "fact": "Dallahy są tradycyjnie ręcznie kute z mosiądzu lub miedzi, a rzemiosło to przekazywane jest z pokolenia na pokolenie. Dobrze wykonany egzemplarz może przetrwać dekady przy regularnym polerowaniu."
+            },
+            {
+              "range": "14–26",
+              "title": "Kopulasta pokrywa",
+              "learn": "Kontynuuj od punktu 14 do punktu 26, aby nadać zaokrągloną pokrywkę na górze, często zakończoną małym, spiczastym guzikiem. Ta sekcja składa się głównie z łagodnych krzywizn, więc jest to dobre ćwiczenie dla dzieci, które wciąż uczą się rysować zaokrąglone linie.",
+              "fact": "Niektóre dallah mają na pokrywce ozdobny ornament w kształcie półksiężyca lub ptaka zamiast prostego pokrętła — jest to drobny szczegół, który znacznie różni się w zależności od regionu i producenta."
+            },
+            {
+              "range": "27–39",
+              "title": "Długi wylew",
+              "learn": "Obrysuj kropki od 27 do 39, aby narysować długi, wąski dzióbek, który nadaje dallah charakterystyczną sylwetkę. To najtrudniejsza część rysunku – dzióbek zwęża się w miarę rozszerzania, więc zachęcaj dzieci do rysowania go jednym, spokojnym pociągnięciem, a nie kilkoma krótkimi.",
+              "fact": "Długość dzióbka nie jest tylko ozdobą. Pozwala gospodarzowi nalewać kawę z niewielkiej wysokości bez rozlewania, co jest częścią gościnności – nalewanie odbywa się na oczach gości, a nie w innym pomieszczeniu."
+            },
+            {
+              "range": "40–52",
+              "title": "Szerokie ciało",
+              "learn": "Połącz kropki od 40 do 52, aby wypełnić zaokrągloną część dzbanka, w której będzie się parzyła kawa. To najobszerniejsza część, więc warto zatrzymać się w połowie, aby powtórzyć i upewnić się, że nic nie zostało pominięte.",
+              "fact": "Arabska kawa podawana z dallah, znana jako gahwa, jest zazwyczaj parzona z lekko palonych ziaren i kardamonu, a nie z ciemniej palonych ziaren, powszechnie stosowanych w innych miejscach — dlatego wygląda i smakuje wyraźnie inaczej niż espresso lub kawa filtrowana."
+            },
+            {
+              "range": "53–63",
+              "title": "Podstawa i stojak",
+              "learn": "Na koniec połącz kropki od 53 do 63, aby narysować solidną podstawę, na której stoi doniczka. Zostało jedenaście kropek — dobre, solidne wykończenie w tym miejscu stanowi fundament całego rysunku.",
+              "fact": "W 2015 roku UNESCO wpisało kawę arabską na listę niematerialnego dziedzictwa kulturowego, uznając ją za symbol hojności dzielonej między ZEA, Arabią Saudyjską, Omanem i Katarem. Więcej informacji można znaleźć na <a href=\"https://ich.unesco.org/en/RL/arabic-coffee-a-symbol-of-generosity-02111\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">liście kawy arabskiej UNESCO</a>."
+            }
+          ],
+          "outro": "Świetna robota — Twój dallah jest gotowy do podania! Pokoloruj go ciepłymi odcieniami miedzi lub mosiądzu, aby uzyskać tradycyjny wygląd, lub postaw na wyrazisty kolor złota i głębokiej zieleni. Jeśli Twoje dziecko z przyjemnością dowiedziało się, skąd pochodzi ta układanka, mogą mu się spodobać również nasze inne <a href=\"/playgrounds/\">karty do łączenia kropek</a>, które pozwolą mu na więcej praktycznych ćwiczeń.",
+          "color_schemes": []
+        }
+      }
+    },
+    {
+      "slug": "uae-camel-dot-to-dot-puzzle",
+      "header": {
+        "title": "Wielbłąd z Pustyni ZEA – Trudniejsza Łamigłówka Łącz Kropki 105 Kropek",
+        "meta_description": "Połącz 105 kropek, aby odkryć wielbłąda kroczącego po piasku – jeden z najtrwalszych symboli życia na Półwyspie Arabskim. Ta wymagająca karta pracy do druku, trudniejsza niż inne nasze łamigłówki o ZEA, jest idealna dla dzieci gotowych na większe wyzwanie liczbowe.",
+        "og": {
+          "title": "Wielbłąd z Pustyni ZEA – Trudniejsza Łamigłówka Łącz Kropki 105 Kropek",
+          "description": "Połącz 105 kropek, aby odkryć wielbłąda kroczącego po piasku – jeden z najtrwalszych symboli życia na Półwyspie Arabskim. Ta wymagająca karta pracy do druku, trudniejsza niż inne nasze łamigłówki o ZEA, jest idealna dla dzieci gotowych na większe wyzwanie liczbowe.",
+          "image_alt": "Wielbłąd kroczący po pustynnym piasku Zjednoczonych Emiratów Arabskich, złożony z 105 ponumerowanych kropek"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Wielbłąd z ZEA",
+          "description": "Połącz 105 kropek, aby odkryć wielbłąda kroczącego po piasku – jeden z najtrwalszych symboli życia na Półwyspie Arabskim. Ta wymagająca karta pracy do druku, trudniejsza niż inne nasze łamigłówki o ZEA, jest idealna dla dzieci gotowych na większe wyzwanie liczbowe.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
+      },
+      "body": {
+        "h1": "UAE Wielbłąd Połącz Kropki — PDF z 105 Kropkami w Wyzwanie na Pustyni",
+        "name": "Wielbłąd z ZEA",
+        "tagline": "Statek pustyni",
+        "description": "Połącz 105 kropek, aby odkryć wielbłąda kroczącego po piasku – jeden z najtrwalszych symboli życia w Zjednoczonych Emiratach Arabskich i na całym Półwyspie Arabskim. Ta łamigłówka, z większą liczbą kropek niż nasze inne łamigłówki o ZEA, stanowi wyższy poziom trudności – idealna dla dzieci, które chcą przejść przez najłatwiejsze arkusze, a jednocześnie nauczyć się czegoś prawdziwego o życiu na pustyni.",
+        "fun_fact": "Garb wielbłąda w ogóle nie magazynuje wody, lecz tłuszcz, który ciało wielbłąda może przekształcić w energię i wodę, gdy pożywienie jest niewystarczające.",
+        "faqs": [
+          {
+            "q": "Ile kropek ma łamigłówka „Połącz kropki” z obrazkiem UAE Camel?",
+            "a": "Połącz kropki z wielbłądem ze Zjednoczonych Emiratów Arabskich (ZEA) – łamigłówka składa się ze 105 ponumerowanych kropek. To sprawia, że ​​jest to wymagająca łamigłówka, idealna dla dzieci w wieku 7–12 lat (od 2 klasy wzwyż). Dzieci łączą kropki w kolejności numerycznej, aby odsłonić gotowy obrazek wielbłąda ze Zjednoczonych Emiratów Arabskich, a następnie go kolorują."
+          },
+          {
+            "q": "Czy mapa UAE Camel do pobrania jest dostępna za darmo?",
+            "a": "Tak. Arkusz kalkulacyjny „UAE Camel” można pobrać całkowicie za darmo ze strony DotToDotFreePrintables.com — bez konieczności zakładania konta, zakładania adresu e-mail ani dokonywania płatności. Pobiera się natychmiast w formacie PDF gotowym do druku, zarówno w orientacji pionowej, jak i poziomej, w formacie US Letter lub A4."
+          },
+          {
+            "q": "Dla dzieci w jakim wieku najlepiej sprawdzi się karta pracy „Połącz kropki” z serii UAE Camel?",
+            "a": "Puzzle UAE Camel, składające się ze 105 punktów, najlepiej sprawdzą się u dzieci w wieku 7–12 lat (od drugiej klasy wzwyż). Młodsze dzieci mogą czerpać z niej radość, korzystając z lekkiej pomocy dorosłych, a doświadczone liczmany mogą ją rozwiązywać samodzielnie i ćwiczyć sekwencję liczb do 105."
+          },
+          {
+            "q": "Jakich umiejętności uczy łamigłówka UAE Camel?",
+            "a": "Połączenie 105 kropek w łamigłówce „UAE Camel” rozwija umiejętności rozpoznawania liczb i liczenia do 105, panowania nad ołówkiem, koordynacji wzrokowo-ruchowej i skupienia uwagi – te same podstawy motoryki małej, które wspierają wczesne pisanie odręczne. Pokolorowanie gotowego obrazka to nagroda za kreatywność."
+          },
+          {
+            "q": "Jaka jest ciekawostka na temat wielbłąda z ZEA?",
+            "a": "Garb wielbłąda w ogóle nie magazynuje wody – magazynuje tłuszcz, który ciało wielbłąda może przekształcić w energię i wodę, gdy brakuje pożywienia. Dzieci odkrywają takie fakty, rozwiązując łamigłówkę „Wielbłąd z UAE”."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Przez tysiące lat wielbłąd umożliwiał życie na pustyni – przewożąc towary przez wydmy, których nie przejechał żaden wóz kołowy, dostarczając mleko, wełnę i transport społecznościom beduińskim na długo przed pojawieniem się dróg i klimatyzacji. Wielbłądy są nadal hodowane i ścigane w Zjednoczonych Emiratach Arabskich, a mleko wielbłądzie pojawia się we wszystkim, od kawy latte po tabliczki czekolady. Ta łamigłówka składająca się ze 105 punktów jest dłuższa niż większość naszych innych arkuszy, więc stanowi miły kolejny krok, gdy dziecko ma już za sobą kilka łatwiejszych łamigłówek. Znajdź punkt 1 i rozwiązuj go krok po kroku.",
+          "sections": [
+            {
+              "range": "1–21",
+              "title": "Głowa i szyja",
+              "learn": "Zacznij od punktu 1 i kontynuuj do punktu 21, aby narysować długą, zakrzywioną szyję i czujną głowę. Wielbłądy trzymają szyję w charakterystycznym kształcie litery S, więc zachęcaj dzieci, aby pozwalały linii wznosić się i opadać naturalnie, zamiast forsować prostowanie. To duże pierwsze rozciąganie, więc krótka przerwa po nim jest akceptowalna.",
+              "fact": "Wielbłądy mają trzy powieki i dwa rzędy długich rzęs, które razem chronią oczy przed piaskiem podczas burzy. Potrafią też całkowicie zamknąć nozdrza – cecha, której nie posiada żadne inne zwierzę juczne."
+            },
+            {
+              "range": "22–42",
+              "title": "Pierwszy garb",
+              "learn": "Kontynuuj od punktu 22 do punktu 42, aby nadać kształt wysokiemu, zaokrąglonemu pierwszemu garbowi. To satysfakcjonująca krzywa do narysowania — zaleca się wykonanie jednej płynnej kreski zamiast kilku małych, ponieważ poszarpane linie spłaszczają kształt garbu.",
+              "fact": "Dromader, czyli wielbłąd jednogarbny, to gatunek występujący w Zjednoczonych Emiratach Arabskich i na całym Półwyspie Arabskim. Dwugarbny wielbłąd dwugarbny to inny gatunek, pochodzący z Azji Środkowej, a nie z Zatoki Perskiej. Więcej informacji znajdziesz w <a href=\"https://en.wikipedia.org/wiki/Dromedary\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">hasie Wikipedii o wielbłądach jednogarbnych</a>."
+            },
+            {
+              "range": "43–63",
+              "title": "Linia tylna",
+              "learn": "Obrysuj punkty od 43 do 63, aby ukończyć linię grzbietu, wliczając w to zagłębienie za garbem. Prawidłowe zagłębienie – nie za głębokie, nie za płaskie – sprawia, że ​​sylwetka przypomina wielbłąda, a nie tylko grudkowatą linię. Pracuj powoli nad tym fragmentem.",
+              "fact": "Dorosły wielbłąd potrafi wypić około 40 galonów wody w ciągu zaledwie kilku minut, gdy już dotrze do źródła wody — uzupełniając w ciągu jednego posiedzenia ilość, którą stracił w ciągu kilku dni podróży."
+            },
+            {
+              "range": "64–84",
+              "title": "Nogi",
+              "learn": "Połącz kropki od 64 do 84, aby narysować cztery długie, mocne nogi. Ta sekcja ma więcej zmian kierunku niż poprzednie, więc warto zwolnić i sprawdzić każdą liczbę kropek przed narysowaniem kolejnej linii.",
+              "fact": "Wielbłądy chodzą, poruszając jednocześnie obiema nogami po tej samej stronie ciała, w chodach zwanych inochodem. Nadaje im to charakterystyczny, kołyszący ruch, co częściowo wyjaśnia, dlaczego wczesny przydomek wielbłąda brzmiał „statek pustyni”. Wyścigi wielbłądów pozostają ważną dyscypliną sportową w Zjednoczonych Emiratach Arabskich — przeczytaj więcej w <a href=\"https://en.wikipedia.org/wiki/Camel_racing\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">artykule Wikipedii o wyścigach wielbłądów</a>."
+            },
+            {
+              "range": "85–105",
+              "title": "Stopy i ogon",
+              "learn": "Dokończ układankę, łącząc kropki od 85 do 105, aby dodać szerokie stopy i ogon. Zostało dwadzieścia jeden kropek — mocne zakończenie naprawdę umacnia cały rysunek, więc zachęcaj do pewnej ręki aż do ostatniej kropki.",
+              "fact": "Nogi wielbłąda rozkładają się szeroko podczas chodzenia, rozkładając ciężar, dzięki czemu nie zapada się on w miękki piasek – podobnie jak rakiety śnieżne na śniegu. To jedna z kilku cech, które sprawiają, że wielbłąd tak dobrze nadaje się do podróży po pustyni."
+            }
+          ],
+          "outro": "Fantastyczna robota — Twój wielbłąd jest gotowy do przekroczenia wydm! Wypróbuj ciepłe, piaskowe brązy i beże, aby uzyskać realistyczny wygląd, lub pobaw się wyrazistymi, nieoczekiwanymi kolorami. Gotowy na nowe wyzwanie? Odkryj więcej <a href=\"/dinosaurs/\">materiałów do druku z łączeniem kropek od 1 do 100</a> w innych motywach.",
+          "color_schemes": []
+        }
+      }
+    }
+  ]
+}

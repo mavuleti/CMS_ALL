@@ -1,0 +1,47 @@
+<div class="page-editor" data-testid="page-form" [attr.data-document-kind]="documentKind">
+  <h1>{{ documentKind === 'blog' ? 'Blog post' : 'Standalone page' }} editor</h1>
+  <p>Every field is saved in the page's namespaced header/body JSON document. Required fields are marked automatically.</p>
+  <form [formGroup]="form" (ngSubmit)="save()" novalidate>
+    <ng-container *ngTemplateOutlet="tree; context:{control:form, currentPath:''}"></ng-container>
+    <div class="actions">
+      <button type="button" data-testid="page-validate" (click)="validate()">Validate</button>
+      <button type="submit" data-testid="page-save">Save page JSON</button>
+    </div>
+  </form>
+  <section *ngIf="generatedJson" class="output" data-testid="page-output"><h2>Generated JSON</h2><pre>{{ generatedJson }}</pre></section>
+</div>
+
+<ng-template #tree let-control="control" let-currentPath="currentPath">
+  <ng-container *ngIf="isGroup(control)">
+    <fieldset [formGroup]="$any(control)" [attr.data-group-path]="currentPath">
+      <legend *ngIf="currentPath">{{ label(currentPath.split('.').pop()) }}</legend>
+      <ng-container *ngFor="let key of keys(control)">
+        <ng-container *ngTemplateOutlet="node; context:{control:$any(control).controls[key], key:key, currentPath:path(currentPath,key)}"></ng-container>
+      </ng-container>
+    </fieldset>
+  </ng-container>
+  <ng-container *ngIf="isArray(control)">
+    <section class="array" [attr.data-array-path]="currentPath">
+      <h3>{{ label(currentPath.split('.').pop()) }} <span>({{ $any(control).length }})</span></h3>
+      <div class="array-item" *ngFor="let item of $any(control).controls; let i=index" [attr.data-testid]="'page-array-item-' + currentPath + '-' + i">
+        <div class="item-head"><strong>{{ itemLabel(currentPath, i) }}</strong><button type="button" (click)="removeArrayItem($any(control),i)" [disabled]="$any(control).length <= 1">Remove</button></div>
+        <ng-container *ngTemplateOutlet="tree; context:{control:item,currentPath:currentPath+'.'+i}"></ng-container>
+      </div>
+      <button type="button" (click)="addArrayItem($any(control),currentPath)" [attr.data-testid]="'page-add-' + currentPath">+ Add {{ label(currentPath.split('.').pop()) }}</button>
+    </section>
+  </ng-container>
+</ng-template>
+
+<ng-template #node let-control="control" let-key="key" let-currentPath="currentPath">
+  <ng-container *ngIf="isGroup(control) || isArray(control); else scalar">
+    <ng-container *ngTemplateOutlet="tree; context:{control:control,currentPath:currentPath}"></ng-container>
+  </ng-container>
+  <ng-template #scalar>
+    <div class="field">
+      <label [for]="'page-'+currentPath">{{ label(key) }} <span aria-hidden="true">*</span></label>
+      <textarea *ngIf="isTextArea(currentPath,control.value); else input" [id]="'page-'+currentPath" [formControl]="control" rows="4" [attr.data-field-path]="currentPath" [attr.data-testid]="'page-field-'+currentPath"></textarea>
+      <ng-template #input><input [id]="'page-'+currentPath" [formControl]="control" [attr.data-field-path]="currentPath" [attr.data-testid]="'page-field-'+currentPath"></ng-template>
+      <p class="error" *ngIf="isInvalid(control)" role="alert">{{ error(control) }}</p>
+    </div>
+  </ng-template>
+</ng-template>

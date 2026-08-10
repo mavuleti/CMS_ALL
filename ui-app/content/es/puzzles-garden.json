@@ -1,119 +1,300 @@
-[
-  {
-    "slug": "garden-gloves-dot-to-dot-puzzle",
-    "name": "Guantes de jardín",
-    "seoH1": "Guantes de Jardín Conecta los Puntos — Hoja de Inicio Gratuita de 54 Puntos",
-    "tagline": "Listos para una pequeña aventura en el jardín.",
-    "description": "Une 54 puntos para revelar un par de guantes de jardín. Este puzzle imprimible fácil ayuda a los niños a practicar la secuencia numérica, el control del lápiz y la concentración.",
-    "seoDescription": "Los guantes de jardín protegen las manos pequeñas de la tierra y las plantas espinosas. Conecta 54 puntos en esta hoja de trabajo imprimible gratuita para niños de 4 a 8 años.",
-    "funFact": "Los guantes de jardín ayudan a proteger las manos de rasguños, tierra y plantas espinosas mientras se trabaja en el suelo.",
-    "seoImageAlt": "Par de guantes de jardín cosidos juntos por 54 puntos numerados, hoja de trabajo gratuita para principiantes",
-    "dotGuide": {
-      "intro": "Todo jardinero necesita un buen par de guantes antes de tocar la tierra, y este puzzle de 54 puntos dibuja un par a juego, uno para cada mano. Es una actividad corta y amable dividida en cuatro partes, fácil de terminar de una vez. Traza el guante izquierdo, luego el derecho y después los puños que los unen. Encuentra el punto 1 en la punta de un dedo y empieza.",
-      "sections": [
-        {
-          "range": "1–14",
-          "title": "El guante izquierdo",
-          "learn": "Empieza en el punto 1 y une hasta el punto 14 para dibujar el contorno del guante izquierdo, incluidos los dedos. Los dedos pequeños son formas cortas y delicadas, así que conviene hacer trazos lentos y cuidados.",
-          "fact": "Los guantes de jardín suelen quedar ajustados alrededor de los dedos para poder recoger semillas pequeñas o arrancar malas hierbas finas sin que el guante estorbe."
-        },
-        {
-          "range": "15–27",
-          "title": "El guante derecho",
-          "learn": "Continúa del punto 15 al 27 para dibujar el guante derecho. Como se parece al primero, esta parte sirve para comparar las dos formas y comprobar que encajan bien.",
-          "fact": "Muchos guantes de jardín están hechos de algodón o nylon con una capa de goma o látex en la palma y los dedos. Esa capa ayuda a sujetar las herramientas y evita que pasen el agua y la tierra."
-        },
-        {
-          "range": "28–41",
-          "title": "Los puños",
-          "learn": "Une los puntos 28 a 41 para añadir los puños anchos en la base de cada guante. Se abren un poco más que el resto del guante, así que ve despacio en la curva.",
-          "fact": "Los puños anchos no son solo decorativos. Ayudan a impedir que entren tierra, espinas e insectos pequeños mientras se cava o se poda."
-        },
-        {
-          "range": "42–54",
-          "title": "Las costuras finales",
-          "learn": "Termina uniendo los puntos 42 a 54 para añadir las líneas de costura y los últimos detalles en ambos guantes. Quedan trece puntos, y un final firme hará que los guantes se vean completos.",
-          "fact": "Las costuras reforzadas en los dedos y la palma ayudan a que unos buenos guantes de jardín duren toda una temporada en lugar de desgastarse tras pocas semanas."
+{
+  "collection": {
+    "header": {
+      "title": "Dibujos del jardín para unir puntos gratis para niños",
+      "meta_description": "Descarga fichas gratuitas del jardín para unir puntos, con guantes, paletas y herramientas. PDF listo para imprimir.",
+      "og": {
+        "title": "Dibujos del jardín para unir puntos gratis para niños",
+        "description": "Fichas imprimibles gratuitas del jardín para niños.",
+        "image": "/images/garden-gloves-puzzle.webp"
+      },
+      "json_ld": {
+        "type": "CollectionPage",
+        "name": "Jardín",
+        "description": "¡A cultivar! Une los puntos para descubrir guantes de jardinería, paletas y prácticas herramientas de jardín. Todas las hojas de trabajo se pueden descargar e imprimir gratis; no necesitas crear una cuenta.",
+        "image": "/images/garden-gloves-puzzle.webp",
+        "main_entity": {
+          "type": "ItemList",
+          "item_source": "puzzles"
         }
-      ],
-      "outro": "Buen trabajo, tus guantes de jardín están listos para usarse. Coloréalos con tu estampado favorito o mantenlos clásicos en verde y marrón. Para seguir jugando, visita nuestras <a href=\"/\">fichas de unir puntos</a> gratis."
+      },
+      "breadcrumb_json_ld": {
+        "type": "BreadcrumbList",
+        "items": [
+          {
+            "position": 1,
+            "name": "Home",
+            "path": "/"
+          },
+          {
+            "position": 2,
+            "name": "Jardín",
+            "path": "/garden/"
+          }
+        ]
+      }
     },
-    "seoTitle": "Guantes de Jardín Conecta los Puntos — Hoja de Inicio Gratuita de 54 Puntos"
+    "body": {
+      "h1": "Dibujos para imprimir de unir puntos sobre el jardín para niños",
+      "name": "Jardín",
+      "tagline": "¿Por qué a los niños les encantan los rompecabezas de unir puntos sobre el jardín?",
+      "description": "¡A cultivar! Une los puntos para descubrir guantes de jardinería, paletas y prácticas herramientas de jardín. Todas las hojas de trabajo se pueden descargar e imprimir gratis; no necesitas crear una cuenta.",
+      "hero_image": "/images/garden-gloves-puzzle.webp",
+      "slug": "garden",
+      "faqs": [
+        {
+          "q": "¿Cuántos imprimibles gratis hay en la categoría Jardín?",
+          "a": "La categoría Jardín ofrece actualmente 3 fichas gratuitas de unir puntos, de 39–85 puntos. Cada una se descarga al instante como PDF (Carta o A4, vertical u horizontal) sin registro."
+        },
+        {
+          "q": "¿Son gratis los puzles de Jardín?",
+          "a": "Sí — los 3 puzles de la colección Jardín son totalmente gratuitos para casa y aula. Nunca se pide cuenta, correo ni pago en DotToDotFreePrintables.com."
+        },
+        {
+          "q": "¿Para qué edades son los puzles de Jardín?",
+          "a": "Con recuentos de 39–85 puntos, la colección Jardín abarca aproximadamente de 4 a 12 años. Elige menos puntos para preescolar e infantil y más puntos para quienes cuentan con soltura en primaria."
+        },
+        {
+          "q": "¿Qué rompecabezas de unir puntos con temática de jardín hay disponibles?",
+          "a": "Tres imprimibles gratuitos para el jardín: Paleta de jardinería (39 puntos), Guantes de jardinería (54 puntos) y Carretilla (85 puntos). Son ideales para lecciones de primavera, unidades didácticas sobre plantas y actividades al aire libre."
+        }
+      ]
+    }
   },
-  {
-    "slug": "garden-trowel-dot-to-dot-puzzle",
-    "name": "Paleta de jardín",
-    "seoH1": "Pala de Jardín Conecta los Puntos: Solo 39 Puntos, PDF Gratuito",
-    "tagline": "Cava un poco de diversión en el jardín.",
-    "description": "Une 39 puntos para revelar una práctica paleta de jardín. Este puzzle imprimible fácil ayuda a los niños a practicar la secuencia numérica, el control del lápiz y la concentración.",
-    "seoDescription": "Inicia la práctica temprana con lápiz con una pala de jardín de 39 puntos. El PDF gratuito de conecta los puntos ofrece a los niños de 4 a 7 años una actividad corta y alcanzable.",
-    "funFact": "Una paleta es una herramienta pequeña de mano que se usa para plantar brotes, cavar pequeños agujeros y mover tierra.",
-    "seoImageAlt": "Pala de mano tomando forma a partir de solo 39 puntos numerados, vista previa imprimible para principiantes",
-    "dotGuide": {
-      "intro": "La paleta es una de las herramientas más sencillas del cobertizo, y este puzzle de 39 puntos también es sencillo: tres partes cortas y una forma que los niños reconocerán enseguida. Empieza por la hoja curva, sigue con el cuello que la une al mango y termina con el mango. Encuentra el punto 1 en la punta de la hoja y empieza a cavar.",
-      "sections": [
-        {
-          "range": "1–13",
-          "title": "La hoja",
-          "learn": "Empieza en el punto 1 y une hasta el punto 13 para dibujar la hoja puntiaguda y curva de la paleta. La curva de un lado es la parte más delicada, así que es mejor ir despacio que hacer una línea rápida.",
-          "fact": "La hoja de una paleta es curva en vez de plana para poder sacar tierra de un agujero en un solo movimiento."
+  "puzzles": [
+    {
+      "slug": "garden-gloves-dot-to-dot-puzzle",
+      "header": {
+        "title": "Guantes de Jardín Conecta los Puntos — Hoja de Inicio Gratuita de 54 Puntos",
+        "meta_description": "Los guantes de jardín protegen las manos pequeñas de la tierra y las plantas espinosas. Conecta 54 puntos en esta hoja de trabajo imprimible gratuita para niños de 4 a 8 años.",
+        "og": {
+          "title": "Guantes de Jardín Conecta los Puntos — Hoja de Inicio Gratuita de 54 Puntos",
+          "description": "Los guantes de jardín protegen las manos pequeñas de la tierra y las plantas espinosas. Conecta 54 puntos en esta hoja de trabajo imprimible gratuita para niños de 4 a 8 años.",
+          "image_alt": "Par de guantes de jardín cosidos juntos por 54 puntos numerados, hoja de trabajo gratuita para principiantes"
         },
-        {
-          "range": "14–26",
-          "title": "El cuello",
-          "learn": "Continúa del punto 14 al 26 para dibujar el cuello estrecho donde la hoja se une al mango. Es la parte más fina de toda la herramienta, así que mantén las líneas cerca y controladas.",
-          "fact": "El cuello de una paleta suele ser una de las partes más fuertes de la herramienta, porque toda la fuerza de cavar pasa por esa zona estrecha."
-        },
-        {
-          "range": "27–39",
-          "title": "El mango",
-          "learn": "Termina uniendo los puntos 27 a 39 para dibujar el mango redondeado que el jardinero sujeta al cavar. Quedan trece puntos, y un final firme completa la herramienta.",
-          "fact": "Los mangos de las paletas suelen ser un poco más anchos al final para que la herramienta no se resbale de la mano, sobre todo cuando las palmas están húmedas."
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Guantes de jardín",
+          "description": "Los guantes de jardín protegen las manos pequeñas de la tierra y las plantas espinosas. Conecta 54 puntos en esta hoja de trabajo imprimible gratuita para niños de 4 a 8 años.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
         }
-      ],
-      "outro": "Bien hecho, tu paleta está lista para cavar. Colorea la hoja en gris metálico brillante y elige un color vivo para el mango. Si te gustó este puzzle, prueba también nuestra colección de <a href=\"/dinosaurs/\">dinosaurios para unir puntos</a>."
-    },
-    "seoTitle": "Pala de Jardín Conecta los Puntos: Solo 39 Puntos, PDF Gratuito"
-  },
-  {
-    "slug": "wheelbarrow-playground-dot-to-dot-puzzle",
-    "name": "Carretilla de jardín",
-    "seoH1": "Imprimible de Carretilla Conecta los Puntos — 85 Puntos para Rastrear",
-    "tagline": "Cárgala y hazla rodar.",
-    "description": "Conecta 85 puntos para revelar una resistente carretilla de jardín. Este rompecabezas de nivel intermedio es una gran práctica para los niños que han dominado las hojas más fáciles y están listos para una imagen más larga y detallada.",
-    "seoDescription": "Las carretillas fueron inventadas en la antigua China hace más de 2,000 años. Construye una a través de 85 puntos con este PDF imprimible gratuito para edades de 5 a 9 años.",
-    "funFact": "La carretilla fue inventada en la antigua China hace más de 2,000 años. Las versiones tempranas podían transportar a varias personas a la vez e incluso se usaron para mover soldados durante la guerra.",
-    "seoImageAlt": "Resistente carretilla de jardín desplegada a través de 85 puntos en un rompecabezas PDF listo para imprimir",
-    "dotGuide": {
-      "intro": "Ochenta y cinco puntos y cuatro partes forman este puzzle de carretilla de jardín. Es un paso más que las fichas de jardín más sencillas, pero aún se puede terminar en una sola sesión. Trabaja primero la rueda, luego la bandeja, el armazón y las patas, y por último las asas. Encuentra el punto 1 en la parte delantera de la rueda y empieza.",
-      "sections": [
-        {
-          "range": "1–21",
-          "title": "La rueda",
-          "learn": "Empieza en el punto 1 y une hasta el punto 21 para dibujar la rueda redonda de la parte delantera. Las formas circulares necesitan más cuidado que las líneas rectas, así que haz trazos lentos y uniformes.",
-          "fact": "Una sola rueda delantera permite que la carretilla gire fácilmente en espacios pequeños, por eso sigue siendo tan útil para mover tierra y plantas entre macizos."
-        },
-        {
-          "range": "22–43",
-          "title": "La bandeja",
-          "learn": "Continúa del punto 22 al 43 para formar la bandeja ancha e inclinada que sostiene la carga. Sus lados inclinados ayudan a que el contenido no se caiga, así que sigue bien esa inclinación.",
-          "fact": "La bandeja de muchas carretillas es más estrecha delante y más ancha detrás. Esa forma ayuda a mantener en su sitio una carga pesada o desigual."
-        },
-        {
-          "range": "44–64",
-          "title": "El armazón y las patas",
-          "learn": "Une los puntos 44 a 64 para construir el armazón bajo la bandeja y las dos patas que la sostienen cuando está en reposo. Estas líneas son más rectas y constantes, un buen cambio después de la parte curva.",
-          "fact": "Las dos patas traseras solo tocan el suelo cuando la carretilla está parada. Al levantar las asas, el peso pasa hacia la rueda, lo que facilita empujar una carga llena."
-        },
-        {
-          "range": "65–85",
-          "title": "Las asas",
-          "learn": "Termina uniendo los puntos 65 a 85 para dibujar las dos asas que el jardinero sujeta para dirigir y levantar la carga. Quedan veintiún puntos, mantén las líneas parejas hasta el final.",
-          "fact": "Las asas largas funcionan como una palanca. Permiten que una persona levante y equilibre una carga que sería demasiado pesada o incómoda para llevar a mano."
+      },
+      "body": {
+        "h1": "Guantes de Jardín Conecta los Puntos — Hoja de Inicio Gratuita de 54 Puntos",
+        "name": "Guantes de jardín",
+        "tagline": "Listos para una pequeña aventura en el jardín.",
+        "description": "Une 54 puntos para revelar un par de guantes de jardín. Este puzzle imprimible fácil ayuda a los niños a practicar la secuencia numérica, el control del lápiz y la concentración.",
+        "fun_fact": "Los guantes de jardín ayudan a proteger las manos de rasguños, tierra y plantas espinosas mientras se trabaja en el suelo.",
+        "faqs": [
+          {
+            "q": "¿Cuántos puntos tiene el puzle de unir puntos Guantes de jardín?",
+            "a": "El imprimible de unir puntos Guantes de jardín tiene 54 puntos numerados. Es un puzle de nivel fácil a medio, ideal para niños de 5–8 años (de infantil a 2.º de primaria). Los niños conectan los puntos en orden numérico para revelar el dibujo terminado y luego pueden colorearlo."
+          },
+          {
+            "q": "¿Es gratis el imprimible de unir puntos Guantes de jardín?",
+            "a": "Sí. La ficha Guantes de jardín es 100% gratuita en DotToDotFreePrintables.com — sin cuenta, correo ni pago. Se descarga al instante como PDF listo para imprimir, en orientación vertical y horizontal, en tamaño Carta o A4."
+          },
+          {
+            "q": "¿Para qué edad es la ficha de unir puntos Guantes de jardín?",
+            "a": "Con 54 puntos, el puzle Guantes de jardín es ideal para 5–8 años (de infantil a 2.º de primaria). Los más pequeños pueden completarlo contando con ayuda de un adulto, y los que ya cuentan con soltura lo terminan solos practicando la secuencia numérica hasta 54."
+          },
+          {
+            "q": "¿Qué habilidades desarrolla el puzle Guantes de jardín?",
+            "a": "Conectar los 54 puntos del puzle Guantes de jardín desarrolla el reconocimiento de números, el conteo hasta 54, el control del lápiz, la coordinación ojo-mano y la concentración — las mismas bases motrices finas que preparan la escritura. Colorear el dibujo final añade una recompensa creativa."
+          },
+          {
+            "q": "¿Cuál es un dato curioso sobre este puzle?",
+            "a": "Los guantes de jardín protegen las manos de arañazos, tierra y plantas espinosas mientras se trabaja en el suelo. Los niños descubren datos como este mientras completan el puzle Guantes de jardín."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Todo jardinero necesita un buen par de guantes antes de tocar la tierra, y este puzzle de 54 puntos dibuja un par a juego, uno para cada mano. Es una actividad corta y amable dividida en cuatro partes, fácil de terminar de una vez. Traza el guante izquierdo, luego el derecho y después los puños que los unen. Encuentra el punto 1 en la punta de un dedo y empieza.",
+          "sections": [
+            {
+              "range": "1–14",
+              "title": "El guante izquierdo",
+              "learn": "Empieza en el punto 1 y une hasta el punto 14 para dibujar el contorno del guante izquierdo, incluidos los dedos. Los dedos pequeños son formas cortas y delicadas, así que conviene hacer trazos lentos y cuidados.",
+              "fact": "Los guantes de jardín suelen quedar ajustados alrededor de los dedos para poder recoger semillas pequeñas o arrancar malas hierbas finas sin que el guante estorbe."
+            },
+            {
+              "range": "15–27",
+              "title": "El guante derecho",
+              "learn": "Continúa del punto 15 al 27 para dibujar el guante derecho. Como se parece al primero, esta parte sirve para comparar las dos formas y comprobar que encajan bien.",
+              "fact": "Muchos guantes de jardín están hechos de algodón o nylon con una capa de goma o látex en la palma y los dedos. Esa capa ayuda a sujetar las herramientas y evita que pasen el agua y la tierra."
+            },
+            {
+              "range": "28–41",
+              "title": "Los puños",
+              "learn": "Une los puntos 28 a 41 para añadir los puños anchos en la base de cada guante. Se abren un poco más que el resto del guante, así que ve despacio en la curva.",
+              "fact": "Los puños anchos no son solo decorativos. Ayudan a impedir que entren tierra, espinas e insectos pequeños mientras se cava o se poda."
+            },
+            {
+              "range": "42–54",
+              "title": "Las costuras finales",
+              "learn": "Termina uniendo los puntos 42 a 54 para añadir las líneas de costura y los últimos detalles en ambos guantes. Quedan trece puntos, y un final firme hará que los guantes se vean completos.",
+              "fact": "Las costuras reforzadas en los dedos y la palma ayudan a que unos buenos guantes de jardín duren toda una temporada en lugar de desgastarse tras pocas semanas."
+            }
+          ],
+          "outro": "Buen trabajo, tus guantes de jardín están listos para usarse. Coloréalos con tu estampado favorito o mantenlos clásicos en verde y marrón. Para seguir jugando, visita nuestras <a href=\"/\">fichas de unir puntos</a> gratis.",
+          "color_schemes": []
         }
-      ],
-      "outro": "Ya tienes una carretilla cargada y lista para el jardín. Colorea la bandeja de marrón tierra o de rojo brillante como una carretilla clásica, y añade tus propias flores o verduras. Para un reto mayor, prueba después nuestro <a href=\"/playgrounds/roller-coaster-playground-dot-to-dot-puzzle/\">puzzle de montaña rusa</a>."
+      }
     },
-    "seoTitle": "Carretilla para Unir Puntos: Ficha Imprimible de 85 Puntos"
-  }
-]
+    {
+      "slug": "garden-trowel-dot-to-dot-puzzle",
+      "header": {
+        "title": "Pala de Jardín Conecta los Puntos: Solo 39 Puntos, PDF Gratuito",
+        "meta_description": "Inicia la práctica temprana con lápiz con una pala de jardín de 39 puntos. El PDF gratuito de conecta los puntos ofrece a los niños de 4 a 7 años una actividad corta y alcanzable.",
+        "og": {
+          "title": "Pala de Jardín Conecta los Puntos: Solo 39 Puntos, PDF Gratuito",
+          "description": "Inicia la práctica temprana con lápiz con una pala de jardín de 39 puntos. El PDF gratuito de conecta los puntos ofrece a los niños de 4 a 7 años una actividad corta y alcanzable.",
+          "image_alt": "Pala de mano tomando forma a partir de solo 39 puntos numerados, vista previa imprimible para principiantes"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Paleta de jardín",
+          "description": "Inicia la práctica temprana con lápiz con una pala de jardín de 39 puntos. El PDF gratuito de conecta los puntos ofrece a los niños de 4 a 7 años una actividad corta y alcanzable.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
+      },
+      "body": {
+        "h1": "Pala de Jardín Conecta los Puntos: Solo 39 Puntos, PDF Gratuito",
+        "name": "Paleta de jardín",
+        "tagline": "Cava un poco de diversión en el jardín.",
+        "description": "Une 39 puntos para revelar una práctica paleta de jardín. Este puzzle imprimible fácil ayuda a los niños a practicar la secuencia numérica, el control del lápiz y la concentración.",
+        "fun_fact": "Una paleta es una herramienta pequeña de mano que se usa para plantar brotes, cavar pequeños agujeros y mover tierra.",
+        "faqs": [
+          {
+            "q": "¿Cuántos puntos tiene el puzle de unir puntos Paleta de jardín?",
+            "a": "El imprimible de unir puntos Paleta de jardín tiene 39 puntos numerados. Es un puzle de nivel fácil, ideal para niños de 4–6 años (preescolar e infantil). Los niños conectan los puntos en orden numérico para revelar el dibujo terminado y luego pueden colorearlo."
+          },
+          {
+            "q": "¿Es gratis el imprimible de unir puntos Paleta de jardín?",
+            "a": "Sí. La ficha Paleta de jardín es 100% gratuita en DotToDotFreePrintables.com — sin cuenta, correo ni pago. Se descarga al instante como PDF listo para imprimir, en orientación vertical y horizontal, en tamaño Carta o A4."
+          },
+          {
+            "q": "¿Para qué edad es la ficha de unir puntos Paleta de jardín?",
+            "a": "Con 39 puntos, el puzle Paleta de jardín es ideal para 4–6 años (preescolar e infantil). Los más pequeños pueden completarlo contando con ayuda de un adulto, y los que ya cuentan con soltura lo terminan solos practicando la secuencia numérica hasta 39."
+          },
+          {
+            "q": "¿Qué habilidades desarrolla el puzle Paleta de jardín?",
+            "a": "Conectar los 39 puntos del puzle Paleta de jardín desarrolla el reconocimiento de números, el conteo hasta 39, el control del lápiz, la coordinación ojo-mano y la concentración — las mismas bases motrices finas que preparan la escritura. Colorear el dibujo final añade una recompensa creativa."
+          },
+          {
+            "q": "¿Cuál es un dato curioso sobre este puzle?",
+            "a": "Una paleta es una herramienta pequeña de mano que se usa para plantar brotes, cavar pequeños agujeros y mover tierra. Los niños descubren datos como este mientras completan el puzle Paleta de jardín."
+          }
+        ],
+        "dot_guide": {
+          "intro": "La paleta es una de las herramientas más sencillas del cobertizo, y este puzzle de 39 puntos también es sencillo: tres partes cortas y una forma que los niños reconocerán enseguida. Empieza por la hoja curva, sigue con el cuello que la une al mango y termina con el mango. Encuentra el punto 1 en la punta de la hoja y empieza a cavar.",
+          "sections": [
+            {
+              "range": "1–13",
+              "title": "La hoja",
+              "learn": "Empieza en el punto 1 y une hasta el punto 13 para dibujar la hoja puntiaguda y curva de la paleta. La curva de un lado es la parte más delicada, así que es mejor ir despacio que hacer una línea rápida.",
+              "fact": "La hoja de una paleta es curva en vez de plana para poder sacar tierra de un agujero en un solo movimiento."
+            },
+            {
+              "range": "14–26",
+              "title": "El cuello",
+              "learn": "Continúa del punto 14 al 26 para dibujar el cuello estrecho donde la hoja se une al mango. Es la parte más fina de toda la herramienta, así que mantén las líneas cerca y controladas.",
+              "fact": "El cuello de una paleta suele ser una de las partes más fuertes de la herramienta, porque toda la fuerza de cavar pasa por esa zona estrecha."
+            },
+            {
+              "range": "27–39",
+              "title": "El mango",
+              "learn": "Termina uniendo los puntos 27 a 39 para dibujar el mango redondeado que el jardinero sujeta al cavar. Quedan trece puntos, y un final firme completa la herramienta.",
+              "fact": "Los mangos de las paletas suelen ser un poco más anchos al final para que la herramienta no se resbale de la mano, sobre todo cuando las palmas están húmedas."
+            }
+          ],
+          "outro": "Bien hecho, tu paleta está lista para cavar. Colorea la hoja en gris metálico brillante y elige un color vivo para el mango. Si te gustó este puzzle, prueba también nuestra colección de <a href=\"/dinosaurs/\">dinosaurios para unir puntos</a>.",
+          "color_schemes": []
+        }
+      }
+    },
+    {
+      "slug": "wheelbarrow-playground-dot-to-dot-puzzle",
+      "header": {
+        "title": "Carretilla para Unir Puntos: Ficha Imprimible de 85 Puntos",
+        "meta_description": "Las carretillas fueron inventadas en la antigua China hace más de 2,000 años. Construye una a través de 85 puntos con este PDF imprimible gratuito para edades de 5 a 9 años.",
+        "og": {
+          "title": "Carretilla para Unir Puntos: Ficha Imprimible de 85 Puntos",
+          "description": "Las carretillas fueron inventadas en la antigua China hace más de 2,000 años. Construye una a través de 85 puntos con este PDF imprimible gratuito para edades de 5 a 9 años.",
+          "image_alt": "Resistente carretilla de jardín desplegada a través de 85 puntos en un rompecabezas PDF listo para imprimir"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Carretilla de jardín",
+          "description": "Las carretillas fueron inventadas en la antigua China hace más de 2,000 años. Construye una a través de 85 puntos con este PDF imprimible gratuito para edades de 5 a 9 años.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
+      },
+      "body": {
+        "h1": "Imprimible de Carretilla Conecta los Puntos — 85 Puntos para Rastrear",
+        "name": "Carretilla de jardín",
+        "tagline": "Cárgala y hazla rodar.",
+        "description": "Conecta 85 puntos para revelar una resistente carretilla de jardín. Este rompecabezas de nivel intermedio es una gran práctica para los niños que han dominado las hojas más fáciles y están listos para una imagen más larga y detallada.",
+        "fun_fact": "La carretilla fue inventada en la antigua China hace más de 2,000 años. Las versiones tempranas podían transportar a varias personas a la vez e incluso se usaron para mover soldados durante la guerra.",
+        "faqs": [
+          {
+            "q": "¿Cuántos puntos tiene el puzle de unir puntos Carretilla de jardín?",
+            "a": "El imprimible de unir puntos Carretilla de jardín tiene 85 puntos numerados. Es un puzle de nivel medio, ideal para niños de 6–9 años (1.º a 3.º de primaria). Los niños conectan los puntos en orden numérico para revelar el dibujo terminado y luego pueden colorearlo."
+          },
+          {
+            "q": "¿Es gratis el imprimible de unir puntos Carretilla de jardín?",
+            "a": "Sí. La ficha Carretilla de jardín es 100% gratuita en DotToDotFreePrintables.com — sin cuenta, correo ni pago. Se descarga al instante como PDF listo para imprimir, en orientación vertical y horizontal, en tamaño Carta o A4."
+          },
+          {
+            "q": "¿Para qué edad es la ficha de unir puntos Carretilla de jardín?",
+            "a": "Con 85 puntos, el puzle Carretilla de jardín es ideal para 6–9 años (1.º a 3.º de primaria). Los más pequeños pueden completarlo contando con ayuda de un adulto, y los que ya cuentan con soltura lo terminan solos practicando la secuencia numérica hasta 85."
+          },
+          {
+            "q": "¿Qué habilidades desarrolla el puzle Carretilla de jardín?",
+            "a": "Conectar los 85 puntos del puzle Carretilla de jardín desarrolla el reconocimiento de números, el conteo hasta 85, el control del lápiz, la coordinación ojo-mano y la concentración — las mismas bases motrices finas que preparan la escritura. Colorear el dibujo final añade una recompensa creativa."
+          },
+          {
+            "q": "¿Cuál es un dato curioso sobre este puzle?",
+            "a": "La carretilla se inventó en la antigua China hace más de 2.000 años. Los primeros modelos podían transportar a varias personas e incluso se usaban para mover soldados. Los niños descubren datos como este mientras completan el puzle Carretilla de jardín."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Ochenta y cinco puntos y cuatro partes forman este puzzle de carretilla de jardín. Es un paso más que las fichas de jardín más sencillas, pero aún se puede terminar en una sola sesión. Trabaja primero la rueda, luego la bandeja, el armazón y las patas, y por último las asas. Encuentra el punto 1 en la parte delantera de la rueda y empieza.",
+          "sections": [
+            {
+              "range": "1–21",
+              "title": "La rueda",
+              "learn": "Empieza en el punto 1 y une hasta el punto 21 para dibujar la rueda redonda de la parte delantera. Las formas circulares necesitan más cuidado que las líneas rectas, así que haz trazos lentos y uniformes.",
+              "fact": "Una sola rueda delantera permite que la carretilla gire fácilmente en espacios pequeños, por eso sigue siendo tan útil para mover tierra y plantas entre macizos."
+            },
+            {
+              "range": "22–43",
+              "title": "La bandeja",
+              "learn": "Continúa del punto 22 al 43 para formar la bandeja ancha e inclinada que sostiene la carga. Sus lados inclinados ayudan a que el contenido no se caiga, así que sigue bien esa inclinación.",
+              "fact": "La bandeja de muchas carretillas es más estrecha delante y más ancha detrás. Esa forma ayuda a mantener en su sitio una carga pesada o desigual."
+            },
+            {
+              "range": "44–64",
+              "title": "El armazón y las patas",
+              "learn": "Une los puntos 44 a 64 para construir el armazón bajo la bandeja y las dos patas que la sostienen cuando está en reposo. Estas líneas son más rectas y constantes, un buen cambio después de la parte curva.",
+              "fact": "Las dos patas traseras solo tocan el suelo cuando la carretilla está parada. Al levantar las asas, el peso pasa hacia la rueda, lo que facilita empujar una carga llena."
+            },
+            {
+              "range": "65–85",
+              "title": "Las asas",
+              "learn": "Termina uniendo los puntos 65 a 85 para dibujar las dos asas que el jardinero sujeta para dirigir y levantar la carga. Quedan veintiún puntos, mantén las líneas parejas hasta el final.",
+              "fact": "Las asas largas funcionan como una palanca. Permiten que una persona levante y equilibre una carga que sería demasiado pesada o incómoda para llevar a mano."
+            }
+          ],
+          "outro": "Ya tienes una carretilla cargada y lista para el jardín. Colorea la bandeja de marrón tierra o de rojo brillante como una carretilla clásica, y añade tus propias flores o verduras. Para un reto mayor, prueba después nuestro <a href=\"/playgrounds/roller-coaster-playground-dot-to-dot-puzzle/\">puzzle de montaña rusa</a>.",
+          "color_schemes": []
+        }
+      }
+    }
+  ]
+}

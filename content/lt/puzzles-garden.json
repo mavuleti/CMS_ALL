@@ -1,170 +1,300 @@
-[
-  {
-    "slug": "garden-gloves-dot-to-dot-puzzle",
+{
+  "collection": {
     "header": {
-      "title": "Sodo pirštinės: sujunk taškus – nemokamas 54 taškų lapas",
-      "meta_description": "Sodo pirštinės saugo mažas rankas nuo purvo ir dygliuotų augalų. Sujunkite 54 taškus šiame nemokamame spausdinamame darbe vaikams nuo 4 iki 8 metų.",
+      "title": "Garden Dot to Dot Printables for Kids — Free PDF Worksheets",
+      "meta_description": "Free garden-themed dot to dot printables for kids ages 4-9: gloves, trowel, and wheelbarrow. Print-ready PDF worksheets for spring gardening units in the USA, UK, and Canada — no sign-up needed.",
       "og": {
+        "title": "3 Free Garden Dot to Dot Printables",
+        "description": "Garden gloves, trowel, and wheelbarrow — free dot to dot printables, ready to print in seconds.",
+        "image": "/images/garden-gloves-puzzle.webp"
+      },
+      "json_ld": {
+        "type": "CollectionPage",
+        "name": "Sodas",
+        "description": "Augkite! Sujunkite taškus, kad rastumėte sodo pirštines, menteles ir patogius sodo įrankius. Visus darbalapius galima nemokamai atsisiųsti ir atsispausdinti – paskyros nereikia.",
+        "image": "/images/garden-gloves-puzzle.webp",
+        "main_entity": {
+          "type": "ItemList",
+          "item_source": "puzzles"
+        }
+      },
+      "breadcrumb_json_ld": {
+        "type": "BreadcrumbList",
+        "items": [
+          {
+            "position": 1,
+            "name": "Home",
+            "path": "/"
+          },
+          {
+            "position": 2,
+            "name": "Sodas",
+            "path": "/garden/"
+          }
+        ]
+      }
+    },
+    "body": {
+      "h1": "Sodo taškiniai spausdinami paveikslėliai vaikams",
+      "name": "Sodas",
+      "tagline": "Kodėl vaikai mėgsta dėliones sode",
+      "description": "Augkite! Sujunkite taškus, kad rastumėte sodo pirštines, menteles ir patogius sodo įrankius. Visus darbalapius galima nemokamai atsisiųsti ir atsispausdinti – paskyros nereikia.",
+      "hero_image": "/images/garden-gloves-puzzle.webp",
+      "slug": "garden",
+      "faqs": [
+        {
+          "q": "Kiek yra nemokamų spausdinamų sodo taškų schemų?",
+          "a": "„Sodo“ kategorijoje šiuo metu siūlomi 3 nemokami spausdinami taškų sujungimo darbalapiai, kurių dydis – nuo ​​39 iki 85 taškų. Kiekvienas darbalapis akimirksniu atsisiunčiamas kaip spausdinimui paruoštas PDF failas (Letter arba A4 formato, vertikaliai arba horizontaliai) be registracijos."
+        },
+        {
+          "q": "Ar sodo dėliones „taškai ant taško“ galima nemokamai spausdinti?",
+          "a": "Taip – ​​visi 3 „Garden“ kolekcijos galvosūkiai yra visiškai nemokami naudoti namuose ir klasėje. Svetainėje DotToDotFreePrintables.com niekada nereikia jokios paskyros, el. pašto adreso ar mokėjimo."
+        },
+        {
+          "q": "Kokio amžiaus žmonėms skirti sodo galvosūkiai?",
+          "a": "„Garden“ kolekcijoje yra nuo 39 iki 85 taškų, todėl ji tinka maždaug 4–12 metų amžiaus vaikams. Ikimokyklinio amžiaus ir darželinukams rinkitės mažesnį taškų skaičių, o 2–6 klasių mokiniams – didesnį – užtikrintai skaičiuojantiems."
+        },
+        {
+          "q": "Kokie yra sodo tematikos taškiniai galvosūkiai?",
+          "a": "Trys nemokami spausdinami paveikslėliai sodui: sodo kastuvėlis (39 taškai), sodo pirštinės (54 taškai) ir karutis (85 taškai). Jie puikiai dera su pavasario pamokomis, augalų rūšimis ir lauko veiklos temomis."
+        }
+      ]
+    }
+  },
+  "puzzles": [
+    {
+      "slug": "garden-gloves-dot-to-dot-puzzle",
+      "header": {
         "title": "Sodo pirštinės: sujunk taškus – nemokamas 54 taškų lapas",
-        "description": "Sodo pirštinės saugo mažas rankas nuo purvo ir dygliuotų augalų. Sujunkite 54 taškus šiame nemokamame spausdinamame darbe vaikams nuo 4 iki 8 metų.",
-        "image_alt": "Sodo pirštinių pora, sujungta iš 54 sunumeruotų taškų – nemokamas spausdinamas pradedantiesiems lapas"
+        "meta_description": "Sodo pirštinės saugo mažas rankas nuo purvo ir dygliuotų augalų. Sujunkite 54 taškus šiame nemokamame spausdinamame darbe vaikams nuo 4 iki 8 metų.",
+        "og": {
+          "title": "Sodo pirštinės: sujunk taškus – nemokamas 54 taškų lapas",
+          "description": "Sodo pirštinės saugo mažas rankas nuo purvo ir dygliuotų augalų. Sujunkite 54 taškus šiame nemokamame spausdinamame darbe vaikams nuo 4 iki 8 metų.",
+          "image_alt": "Sodo pirštinių pora, sujungta iš 54 sunumeruotų taškų – nemokamas spausdinamas pradedantiesiems lapas"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Sodo pirštinės",
+          "description": "Sodo pirštinės saugo mažas rankas nuo purvo ir dygliuotų augalų. Sujunkite 54 taškus šiame nemokamame spausdinamame darbe vaikams nuo 4 iki 8 metų.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
       },
-      "json_ld": {
-        "type": "CreativeWork",
+      "body": {
+        "h1": "Sodo Pirštinės Taškas iki Taško — Nemokama 54 Taškų Pradžios Lapas",
         "name": "Sodo pirštinės",
-        "description": "Sodo pirštinės saugo mažas rankas nuo purvo ir dygliuotų augalų. Sujunkite 54 taškus šiame nemokamame spausdinamame darbe vaikams nuo 4 iki 8 metų.",
-        "image": "",
-        "educational_use": "Fine motor skills, number sequencing",
-        "age_range": ""
-      }
-    },
-    "body": {
-      "h1": "Sodo Pirštinės Taškas iki Taško — Nemokama 54 Taškų Pradžios Lapas",
-      "name": "Sodo pirštinės",
-      "tagline": "Pasiruošę mažam sodo nuotykiui!",
-      "description": "Sujunkite 54 taškus, kad atskleistumėte sodo pirštines. Ši lengva spausdinama dėlionė padeda jauniems mokiniams praktikuoti skaičių seką, pieštuko valdymą ir koncentraciją.",
-      "fun_fact": "Sodo pirštinės padeda apsaugoti rankas nuo įbrėžimų, purvo ir dygliuotų augalų dirbant dirvoje.",
-      "dot_guide": {
-        "intro": "Kiekvienam sodininkui prieš liečiant žemę reikia geros pirštinių poros, o ši 54 taškų dėlionė ištraukia atitinkamą rinkinį – po vieną kiekvienai rankai. Tai trumpa, patogi dėlionė, padalinta į keturias dalis, kurias lengva išspręsti vienu prisėdimu. Išardykite kairę pirštinę, tada dešinę, tada jas surišančius rankogalius. Suraskite 1 tašką ant piršto galiuko ir užmaskuokite šias rankas.",
-        "sections": [
+        "tagline": "Pasiruošę mažam sodo nuotykiui!",
+        "description": "Sujunkite 54 taškus, kad atskleistumėte sodo pirštines. Ši lengva spausdinama dėlionė padeda jauniems mokiniams praktikuoti skaičių seką, pieštuko valdymą ir koncentraciją.",
+        "fun_fact": "Sodo pirštinės padeda apsaugoti rankas nuo įbrėžimų, purvo ir dygliuotų augalų dirbant dirvoje.",
+        "faqs": [
           {
-            "range": "1–14",
-            "title": "Kairė pirštinė",
-            "learn": "Pradėkite nuo 1 taško ir junkite jį su 14 tašku, kad nubrėžtumėte kairiosios pirštinės kontūrą, įskaitant pirštus. Maži pirštai yra sudėtingos, trumpos formos, todėl skatinkite atsargius, neskubius brūkštelėjimus, o ne vieną greitą brūkštelėjimą.",
-            "fact": "Sodo pirštinės paprastai gaminamos taip, kad priglustų prie pirštų, todėl sodininkas vis tiek gali rinkti mažas sėklas ar ravėti plonas piktžoles pirštinėms netrukdydamas."
+            "q": "Kiek taškų turi dėlionė „Sodo pirštinės“?",
+            "a": "Spausdinamoje sodo pirštinių dėlionėje „Sujunkite taškus“ yra 54 sunumeruoti taškai. Tai lengvas arba vidutinio sunkumo galvosūkis, geriausiai tinkantis 5–8 metų vaikams (nuo darželio iki antros klasės). Vaikai sujungia taškus skaičių tvarka, kad atskleistų gatavą sodo pirštinių paveikslėlį, tada jį nuspalvina."
           },
           {
-            "range": "15–27",
-            "title": "Tinkama pirštinė",
-            "learn": "Tęskite nuo 15 iki 27 taško, kad nupieštumėte derančią dešinę pirštinę. Kadangi ji atspindi pirmąją, ši dalis yra gera proga palyginti dvi figūras ir patikrinti, ar jos sutampa, prieš tęsiant.",
-            "fact": "Dauguma sodo pirštinių yra pagamintos iš medvilnės arba nailono mišinio su gumos arba latekso danga delno ir pirštų srityje. Danga padeda suimti įrankius ir neleidžia vandeniui bei nešvarumams tiesiogiai įsigerti."
+            "q": "Ar sodo pirštinių taškinis spausdinimas yra nemokamas?",
+            "a": "Taip. „Sodo pirštinių“ darbalapį galima 100 % nemokamai atsisiųsti iš DotToDotFreePrintables.com – nereikia jokios paskyros, el. pašto adreso ar mokėjimo. Jis akimirksniu atsisiunčiamas kaip spausdinimui paruoštas PDF failas tiek vertikaliai, tiek horizontaliai, skirtas JAV Letter arba A4 formato popieriui."
           },
           {
-            "range": "28–41",
-            "title": "Rankogaliai",
-            "learn": "Atbraižykite taškus nuo 28 iki 41, kad pridėtumėte plačius rankogalius kiekvienos pirštinės apačioje. Šie rankogaliai šiek tiek platesni nei likusi pirštinės dalis, todėl lėtai kirpkite aplink išlinkį.",
-            "fact": "Platūs sodo pirštinių rankogaliai skirti ne tik išvaizdai – jie neleidžia purvui, spygliams ir ropojantiems vabzdžiams patekti į vidų, kai sodininkas kasa ar geni."
+            "q": "Kokio amžiaus žmonėms labiausiai tinka „Sodo pirštinių“ taškų jungimo darbalapis?",
+            "a": "Dėlionė „Sodo pirštinės“ su 54 taškeliais geriausiai tinka 5–8 metų vaikams (nuo darželio iki antros klasės). Jaunesniems vaikams gali patikti su lengva suaugusiųjų pagalba skaičiuojant, o užtikrintai skaičiuojantys vaikai gali ją išspręsti savarankiškai ir praktikuotis skaičių sudėjimą iki 54."
           },
           {
-            "range": "42–54",
-            "title": "Apdailos siūlės",
-            "learn": "Užbaikite sujungdami taškus nuo 42 iki 54, kad pridėtumėte siūlių linijas ir galutines detales per abi pirštines. Liko trylika taškų – tvarkinga ir kruopšti apdaila čia tikrai suteikia pirštinėms išbaigtumo.",
-            "fact": "Sustiprintos siūlės išilgai pirštų ir delno užtikrina, kad geros sodo pirštinės tarnautų visą vegetacijos sezoną, o ne susidėvėtų po kelių savaičių kasimo."
+            "q": "Kokių įgūdžių moko dėlionė „Sodo pirštinės“?",
+            "a": "Sujungus 54 „Sodo pirštinių“ dėlionės taškus, lavinama skaičių atpažinimo ir skaičiavimo iki 54 gebėjimas, pieštuko valdymas, akių ir rankų koordinacija bei susikaupimo palaikymas – tie patys smulkiosios motorikos pagrindai, kurie padeda rašyti ranka ankstyvuoju laikotarpiu. Galutinio paveikslėlio spalvinimas suteikia kūrybinį atlygį."
+          },
+          {
+            "q": "Koks įdomus faktas apie sodo pirštines?",
+            "a": "Sodo pirštinės padeda apsaugoti rankas nuo įbrėžimų, purvo ir dygliuotų augalų dirbant dirvoje. Vaikai atranda tokių faktų spręsdami dėlionę „Sodo pirštinės“."
           }
         ],
-        "outro": "Puikus darbas – jūsų sodo pirštinės paruoštos darbui! Nuspalvinkite jas mėgstamu raštu arba palikite klasikinę žalią ir rudą spalvą kaip tikros. Pasiruošę pasigilinti? Išbandykite mūsų <a href=\"/\">taškas ant taško spausdinamus galvosūkius</a> ir raskite dar daugiau nemokamų galvosūkių.",
-        "color_schemes": []
+        "dot_guide": {
+          "intro": "Kiekvienam sodininkui prieš liečiant žemę reikia geros pirštinių poros, o ši 54 taškų dėlionė ištraukia atitinkamą rinkinį – po vieną kiekvienai rankai. Tai trumpa, patogi dėlionė, padalinta į keturias dalis, kurias lengva išspręsti vienu prisėdimu. Išardykite kairę pirštinę, tada dešinę, tada jas surišančius rankogalius. Suraskite 1 tašką ant piršto galiuko ir užmaskuokite šias rankas.",
+          "sections": [
+            {
+              "range": "1–14",
+              "title": "Kairė pirštinė",
+              "learn": "Pradėkite nuo 1 taško ir junkite jį su 14 tašku, kad nubrėžtumėte kairiosios pirštinės kontūrą, įskaitant pirštus. Maži pirštai yra sudėtingos, trumpos formos, todėl skatinkite atsargius, neskubius brūkštelėjimus, o ne vieną greitą brūkštelėjimą.",
+              "fact": "Sodo pirštinės paprastai gaminamos taip, kad priglustų prie pirštų, todėl sodininkas vis tiek gali rinkti mažas sėklas ar ravėti plonas piktžoles pirštinėms netrukdydamas."
+            },
+            {
+              "range": "15–27",
+              "title": "Tinkama pirštinė",
+              "learn": "Tęskite nuo 15 iki 27 taško, kad nupieštumėte derančią dešinę pirštinę. Kadangi ji atspindi pirmąją, ši dalis yra gera proga palyginti dvi figūras ir patikrinti, ar jos sutampa, prieš tęsiant.",
+              "fact": "Dauguma sodo pirštinių yra pagamintos iš medvilnės arba nailono mišinio su gumos arba latekso danga delno ir pirštų srityje. Danga padeda suimti įrankius ir neleidžia vandeniui bei nešvarumams tiesiogiai įsigerti."
+            },
+            {
+              "range": "28–41",
+              "title": "Rankogaliai",
+              "learn": "Atbraižykite taškus nuo 28 iki 41, kad pridėtumėte plačius rankogalius kiekvienos pirštinės apačioje. Šie rankogaliai šiek tiek platesni nei likusi pirštinės dalis, todėl lėtai kirpkite aplink išlinkį.",
+              "fact": "Platūs sodo pirštinių rankogaliai skirti ne tik išvaizdai – jie neleidžia purvui, spygliams ir ropojantiems vabzdžiams patekti į vidų, kai sodininkas kasa ar geni."
+            },
+            {
+              "range": "42–54",
+              "title": "Apdailos siūlės",
+              "learn": "Užbaikite sujungdami taškus nuo 42 iki 54, kad pridėtumėte siūlių linijas ir galutines detales per abi pirštines. Liko trylika taškų – tvarkinga ir kruopšti apdaila čia tikrai suteikia pirštinėms išbaigtumo.",
+              "fact": "Sustiprintos siūlės išilgai pirštų ir delno užtikrina, kad geros sodo pirštinės tarnautų visą vegetacijos sezoną, o ne susidėvėtų po kelių savaičių kasimo."
+            }
+          ],
+          "outro": "Puikus darbas – jūsų sodo pirštinės paruoštos darbui! Nuspalvinkite jas mėgstamu raštu arba palikite klasikinę žalią ir rudą spalvą kaip tikros. Pasiruošę pasigilinti? Išbandykite mūsų <a href=\"/\">taškas ant taško spausdinamus galvosūkius</a> ir raskite dar daugiau nemokamų galvosūkių.",
+          "color_schemes": []
+        }
       }
-    }
-  },
-  {
-    "slug": "garden-trowel-dot-to-dot-puzzle",
-    "header": {
-      "title": "Sodo kastuvėlis: vos 39 taškai, nemokamas PDF",
-      "meta_description": "Vos 39 taškų kastuvėlio galvosūkis – vienas trumpiausių mūsų 2026 m. „sujunk taškus“ kolekcijos lapų, tinkamas 4–7 metų vaikams, lavinantiems pieštuko valdymą. Atsispausdink nemokamą PDF ir nubrėžk įrankį, be kurio nė vienas sodininkas neapsieina. Baigiamas per vieną prisėdimą.",
-      "og": {
+    },
+    {
+      "slug": "garden-trowel-dot-to-dot-puzzle",
+      "header": {
         "title": "Sodo kastuvėlis: vos 39 taškai, nemokamas PDF",
-        "description": "Vos 39 taškų kastuvėlio galvosūkis – vienas trumpiausių mūsų 2026 m. „sujunk taškus“ kolekcijos lapų, tinkamas 4–7 metų vaikams, lavinantiems pieštuko valdymą. Atsispausdink nemokamą PDF ir nubrėžk įrankį, be kurio nė vienas sodininkas neapsieina. Baigiamas per vieną prisėdimą.",
-        "image_alt": "Sodo kastuvėlis, atsiskleidžiantis iš vos 39 sunumeruotų taškų – pradedantiesiems skirtas spausdinamas lapas"
+        "meta_description": "Vos 39 taškų kastuvėlio galvosūkis – vienas trumpiausių mūsų 2026 m. „sujunk taškus“ kolekcijos lapų, tinkamas 4–7 metų vaikams, lavinantiems pieštuko valdymą. Atsispausdink nemokamą PDF ir nubrėžk įrankį, be kurio nė vienas sodininkas neapsieina. Baigiamas per vieną prisėdimą.",
+        "og": {
+          "title": "Sodo kastuvėlis: vos 39 taškai, nemokamas PDF",
+          "description": "Vos 39 taškų kastuvėlio galvosūkis – vienas trumpiausių mūsų 2026 m. „sujunk taškus“ kolekcijos lapų, tinkamas 4–7 metų vaikams, lavinantiems pieštuko valdymą. Atsispausdink nemokamą PDF ir nubrėžk įrankį, be kurio nė vienas sodininkas neapsieina. Baigiamas per vieną prisėdimą.",
+          "image_alt": "Sodo kastuvėlis, atsiskleidžiantis iš vos 39 sunumeruotų taškų – pradedantiesiems skirtas spausdinamas lapas"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Sodo kastuvėlis",
+          "description": "Vos 39 taškų kastuvėlio galvosūkis – vienas trumpiausių mūsų 2026 m. „sujunk taškus“ kolekcijos lapų, tinkamas 4–7 metų vaikams, lavinantiems pieštuko valdymą. Atsispausdink nemokamą PDF ir nubrėžk įrankį, be kurio nė vienas sodininkas neapsieina. Baigiamas per vieną prisėdimą.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
       },
-      "json_ld": {
-        "type": "CreativeWork",
+      "body": {
+        "h1": "Sodo Kastuvas Taškas iki Taško: Tik 39 Taškai, Nemokamas PDF",
         "name": "Sodo kastuvėlis",
-        "description": "Vos 39 taškų kastuvėlio galvosūkis – vienas trumpiausių mūsų 2026 m. „sujunk taškus“ kolekcijos lapų, tinkamas 4–7 metų vaikams, lavinantiems pieštuko valdymą. Atsispausdink nemokamą PDF ir nubrėžk įrankį, be kurio nė vienas sodininkas neapsieina. Baigiamas per vieną prisėdimą.",
-        "image": "",
-        "educational_use": "Fine motor skills, number sequencing",
-        "age_range": ""
-      }
-    },
-    "body": {
-      "h1": "Sodo Kastuvas Taškas iki Taško: Tik 39 Taškai, Nemokamas PDF",
-      "name": "Sodo kastuvėlis",
-      "tagline": "Pasinerkite į mažas sodo pramogas!",
-      "description": "Sujunkite 39 taškus, kad atskleistumėte patogų sodo mentelę. Ši lengvai atsispausdinama dėlionė padeda mažiesiems besimokantiesiems praktikuoti skaičių seką, pieštuko valdymą ir susikaupimą.",
-      "fun_fact": "Kastuvas yra mažas rankinis įrankis, naudojamas daigams sodinti, mažoms skylėms kasti ir dirvai perkelti.",
-      "dot_guide": {
-        "intro": "Kastuvėlis yra vienas paprasčiausių įrankių sodo namelyje, o šis 39 taškų galvosūkis viską daro taip paprasta – trys trumpos dalys ir forma, kurią vaikai iš karto atpažins. Pradėkite nuo išgaubto ašmenų, tada kaklelio, jungiančio jį su rankena, ir pačios rankenos. Raskite 1 tašką ašmenų gale ir pradėkime kasti.",
-        "sections": [
+        "tagline": "Pasinerkite į mažas sodo pramogas!",
+        "description": "Sujunkite 39 taškus, kad atskleistumėte patogų sodo mentelę. Ši lengvai atsispausdinama dėlionė padeda mažiesiems besimokantiesiems praktikuoti skaičių seką, pieštuko valdymą ir susikaupimą.",
+        "fun_fact": "Kastuvas yra mažas rankinis įrankis, naudojamas daigams sodinti, mažoms skylėms kasti ir dirvai perkelti.",
+        "faqs": [
           {
-            "range": "1–13",
-            "title": "Ašmenys",
-            "learn": "Pradėkite nuo 1 taško ir tęskite su 13 tašku, kad nubrėžtumėte išgaubtą, smailią mentelę. Vieno krašto išlinkimas čia yra sudėtingiausia dalis, todėl rinkitės lėtą ranką, o ne greitą, tiesią liniją.",
-            "fact": "Mentelės mentė yra išlenkta, o ne plokščia, todėl ja galima ištraukti žemę iš duobės vienu judesiu, o ne atlikti kelis atskirus kasimo ir kėlimo judesius, kaip tai darytų plokščias įrankis."
+            "q": "Kiek taškų turi dėlionė „Garden Trowel“?",
+            "a": "Spausdinamoje sodo kastuvėlio taškų jungimo dėlionėje yra 39 sunumeruoti taškai. Tai lengva dėlionė, geriausiai tinkanti 4–6 metų vaikams (ikimokyklinio amžiaus ir darželinukams). Vaikai sujungia taškus skaičių tvarka, kad atskleistų baigtą sodo kastuvėlio paveikslėlį, tada jį nuspalvina."
           },
           {
-            "range": "14–26",
-            "title": "Kaklas",
-            "learn": "Tęskite nuo 14 iki 26 taško, kad nubrėžtumėte siaurą kaklelį ten, kur ašmenys susitinka su rankena. Tai ploniausia viso įrankio dalis, todėl linijas laikykite arti viena kitos ir kontroliuojamas.",
-            "fact": "Mentelės kaklelis paprastai yra tvirčiausia viso įrankio dalis, nes visa stūmimo ir sverto jėga kasant praeina būtent per tą siaurą dalį."
+            "q": "Ar sodo kastuvo taškinio spausdinimo schema nemokama?",
+            "a": "Taip. „Sodo kastuvo“ darbalapį galima 100 % nemokamai atsisiųsti iš DotToDotFreePrintables.com – nereikia jokios paskyros, el. pašto adreso ar mokėjimo. Jis akimirksniu atsisiunčiamas kaip spausdinimui paruoštas PDF failas tiek vertikaliai, tiek horizontaliai, skirtas JAV „Letter“ arba A4 formato popieriui."
           },
           {
-            "range": "27–39",
-            "title": "Rankena",
-            "learn": "Užbaikite sujungdami taškus nuo 27 iki 39, kad nupieštumėte apvalią rankeną, kurią sodininkas laiko kasdamas. Liko tik trylika taškų – tvirta, užtikrinta apdaila užbaigia įrankį.",
-            "fact": "Mentelės rankenos dažnai būna šiek tiek platesnės gale, kad įrankis neišslystų iš sodininko rankos, ypač kai delnai sudrėksta dirbant šlapioje dirvoje."
+            "q": "Kokio amžiaus žmonėms labiausiai tinka sodo kastuvo „Sujunkite taškus“ darbalapis?",
+            "a": "Dėlionė „Sodo kastuvėlis“ su 39 taškeliais geriausiai tinka 4–6 metų vaikams (ikimokyklinio amžiaus ir darželinukų). Jaunesniems vaikams gali patikti su lengva suaugusiųjų pagalba skaičiuojant, o užtikrintai skaičiuojantys vaikai gali ją išspręsti savarankiškai ir praktikuotis skaičių sudėjimą iki 39."
+          },
+          {
+            "q": "Kokių įgūdžių moko dėlionė „Sodo kastuvėlis“?",
+            "a": "Sujungus 39 sodo mentelės dėlionės taškus, lavinama skaičių atpažinimo ir skaičiavimo iki 39, pieštuko valdymas, akių ir rankų koordinacija bei susikaupimo palaikymas – tie patys smulkiosios motorikos pagrindai, kurie padeda rašyti ranka ankstyvuoju laikotarpiu. Galutinio paveikslėlio spalvinimas suteikia kūrybinį atlygį."
+          },
+          {
+            "q": "Koks įdomus faktas apie sodo kastuvą?",
+            "a": "Mentelė yra mažas rankinis įrankis, naudojamas daigams sodinti, mažoms duobėms kasti ir žemei judinti. Vaikai atranda tokių faktų spręsdami dėlionę „Sodo mentelė“."
           }
         ],
-        "outro": "Puikiai padirbėta – jūsų mentelė paruošta kasti! Nudažykite peilį blizgančia metalo pilka spalva, o rankeną – ryškia pasirinkta spalva. Jei jums patiko šis paveikslėlis, apsilankykite mūsų <a href=\"/dinosaurs/\">dinozaurų taškų spausdinimo</a> kolekcijoje, kurioje rasite visiškai kitokio pobūdžio kasimo darbus.",
-        "color_schemes": []
+        "dot_guide": {
+          "intro": "Kastuvėlis yra vienas paprasčiausių įrankių sodo namelyje, o šis 39 taškų galvosūkis viską daro taip paprasta – trys trumpos dalys ir forma, kurią vaikai iš karto atpažins. Pradėkite nuo išgaubto ašmenų, tada kaklelio, jungiančio jį su rankena, ir pačios rankenos. Raskite 1 tašką ašmenų gale ir pradėkime kasti.",
+          "sections": [
+            {
+              "range": "1–13",
+              "title": "Ašmenys",
+              "learn": "Pradėkite nuo 1 taško ir tęskite su 13 tašku, kad nubrėžtumėte išgaubtą, smailią mentelę. Vieno krašto išlinkimas čia yra sudėtingiausia dalis, todėl rinkitės lėtą ranką, o ne greitą, tiesią liniją.",
+              "fact": "Mentelės mentė yra išlenkta, o ne plokščia, todėl ja galima ištraukti žemę iš duobės vienu judesiu, o ne atlikti kelis atskirus kasimo ir kėlimo judesius, kaip tai darytų plokščias įrankis."
+            },
+            {
+              "range": "14–26",
+              "title": "Kaklas",
+              "learn": "Tęskite nuo 14 iki 26 taško, kad nubrėžtumėte siaurą kaklelį ten, kur ašmenys susitinka su rankena. Tai ploniausia viso įrankio dalis, todėl linijas laikykite arti viena kitos ir kontroliuojamas.",
+              "fact": "Mentelės kaklelis paprastai yra tvirčiausia viso įrankio dalis, nes visa stūmimo ir sverto jėga kasant praeina būtent per tą siaurą dalį."
+            },
+            {
+              "range": "27–39",
+              "title": "Rankena",
+              "learn": "Užbaikite sujungdami taškus nuo 27 iki 39, kad nupieštumėte apvalią rankeną, kurią sodininkas laiko kasdamas. Liko tik trylika taškų – tvirta, užtikrinta apdaila užbaigia įrankį.",
+              "fact": "Mentelės rankenos dažnai būna šiek tiek platesnės gale, kad įrankis neišslystų iš sodininko rankos, ypač kai delnai sudrėksta dirbant šlapioje dirvoje."
+            }
+          ],
+          "outro": "Puikiai padirbėta – jūsų mentelė paruošta kasti! Nudažykite peilį blizgančia metalo pilka spalva, o rankeną – ryškia pasirinkta spalva. Jei jums patiko šis paveikslėlis, apsilankykite mūsų <a href=\"/dinosaurs/\">dinozaurų taškų spausdinimo</a> kolekcijoje, kurioje rasite visiškai kitokio pobūdžio kasimo darbus.",
+          "color_schemes": []
+        }
       }
-    }
-  },
-  {
-    "slug": "wheelbarrow-playground-dot-to-dot-puzzle",
-    "header": {
-      "title": "Karutis: 85 taškų sodo galvosūkis vaikams",
-      "meta_description": "Vežimėliai buvo išrasti senovės Kinijoje prieš daugiau nei 2000 metų. Sukurkite vieną per 85 taškus su šiuo nemokamu spausdinamu PDF vaikams nuo 5 iki 9 metų.",
-      "og": {
+    },
+    {
+      "slug": "wheelbarrow-playground-dot-to-dot-puzzle",
+      "header": {
         "title": "Karutis: 85 taškų sodo galvosūkis vaikams",
-        "description": "Vežimėliai buvo išrasti senovės Kinijoje prieš daugiau nei 2000 metų. Sukurkite vieną per 85 taškus su šiuo nemokamu spausdinamu PDF vaikams nuo 5 iki 9 metų.",
-        "image_alt": "Tvirtas sodo karutis, išryškėjantis iš 85 taškų spausdinamame PDF galvosūkyje"
+        "meta_description": "Vežimėliai buvo išrasti senovės Kinijoje prieš daugiau nei 2000 metų. Sukurkite vieną per 85 taškus su šiuo nemokamu spausdinamu PDF vaikams nuo 5 iki 9 metų.",
+        "og": {
+          "title": "Karutis: 85 taškų sodo galvosūkis vaikams",
+          "description": "Vežimėliai buvo išrasti senovės Kinijoje prieš daugiau nei 2000 metų. Sukurkite vieną per 85 taškus su šiuo nemokamu spausdinamu PDF vaikams nuo 5 iki 9 metų.",
+          "image_alt": "Tvirtas sodo karutis, išryškėjantis iš 85 taškų spausdinamame PDF galvosūkyje"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Karučių žaidimų aikštelė",
+          "description": "Vežimėliai buvo išrasti senovės Kinijoje prieš daugiau nei 2000 metų. Sukurkite vieną per 85 taškus su šiuo nemokamu spausdinamu PDF vaikams nuo 5 iki 9 metų.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
       },
-      "json_ld": {
-        "type": "CreativeWork",
+      "body": {
+        "h1": "Vežimėlis Taškas iki Taško Spausdinamas — 85 Taškai, Kuriuos Reikia Sekti",
         "name": "Karučių žaidimų aikštelė",
-        "description": "Vežimėliai buvo išrasti senovės Kinijoje prieš daugiau nei 2000 metų. Sukurkite vieną per 85 taškus su šiuo nemokamu spausdinamu PDF vaikams nuo 5 iki 9 metų.",
-        "image": "",
-        "educational_use": "Fine motor skills, number sequencing",
-        "age_range": ""
-      }
-    },
-    "body": {
-      "h1": "Vežimėlis Taškas iki Taško Spausdinamas — 85 Taškai, Kuriuos Reikia Sekti",
-      "name": "Karučių žaidimų aikštelė",
-      "tagline": "Susikraukite ir riedėkite!",
-      "description": "Sujunkite 85 taškus, kad atskleistumėte tvirtą sodo vežimėlį. Ši vidutinio sudėtingumo dėlionė puikiai tinka vaikams, kurie įvaldė lengvesnius lapus ir yra pasiruošę ilgesniam, detalesniam piešiniui.",
-      "fun_fact": "Karutis buvo išrastas senovės Kinijoje daugiau nei prieš 2000 metų. Ankstyvosios versijos galėjo vežti kelis žmones vienu metu ir netgi buvo naudojamos kareiviams perkelti karo metu.",
-      "dot_guide": {
-        "intro": "Šią sodo karučio dėlionę sudaro aštuoniasdešimt penki taškai ir keturios dalys. Tai žingsnis į priekį nuo paprasčiausių sodo lakštų, tačiau vis tiek lengvai įveikiama vienu prisėdimu. Pirmiausia išardykite ratą, tada padėklą, rėmą ir kojas, o galiausiai rankenas. Raskite 1 tašką rato priekyje ir pradėkime.",
-        "sections": [
+        "tagline": "Susikraukite ir riedėkite!",
+        "description": "Sujunkite 85 taškus, kad atskleistumėte tvirtą sodo vežimėlį. Ši vidutinio sudėtingumo dėlionė puikiai tinka vaikams, kurie įvaldė lengvesnius lapus ir yra pasiruošę ilgesniam, detalesniam piešiniui.",
+        "fun_fact": "Karutis buvo išrastas senovės Kinijoje daugiau nei prieš 2000 metų. Ankstyvosios versijos galėjo vežti kelis žmones vienu metu ir netgi buvo naudojamos kareiviams perkelti karo metu.",
+        "faqs": [
           {
-            "range": "1–21",
-            "title": "Ratas",
-            "learn": "Pradėkite nuo 1 taško ir junkite jį su 21 tašku, kad nupieštumėte apvalų ratą karučio priekyje. Apskritos formos reikalauja šiek tiek daugiau dėmesio nei tiesios linijos, todėl skatinkite lėtus, lygius brūkšnius, kai kreivė susidėlioja.",
-            "fact": "Vienas priekyje esantis ratas leidžia karučiui lengvai pasisukti ankštose erdvėse, todėl sodininkai vis dar renkasi šį modelį, o ne dviratį vežimėlį, norėdami perkelti dirvą ir augalus aplink gėlynus."
+            "q": "Kiek taškų turi dėlionė „Wheelbarrow Playground“?",
+            "a": "„Wheelbarrow Playground“ taškų jungimo dėlionė turi 85 sunumeruotus taškus. Tai vidutinio dydžio dėlionė, geriausiai tinkanti 6–9 metų vaikams (1–3 klasėms). Vaikai sujungia taškus skaičių tvarka, kad atskleistų galutinį „Wheelbarrow Playground“ paveikslėlį, tada jį nuspalvina."
           },
           {
-            "range": "22–43",
-            "title": "Dėklas",
-            "learn": "Tęskite nuo 22 iki 43 taško, kad suformuotumėte platų, nuožulnų padėklą, kuriame telpa viskas, ką galima nešti į karutį. Padėklo kampuoti kraštai neleidžia jam apvirsti, todėl atsargiai juos atsekite, kad užfiksuotumėte tą pasvirimą.",
-            "fact": "Daugelio karučių padėklas priekyje siaurėja, o gale – platėja. Tokia forma neleidžia sunkiam, kreivai pakreiptam kroviniui nuslysti į priekį ir išsilieti ant rato."
+            "q": "Ar „Wheelbarrow Playground“ taškų spausdinimo schema yra nemokama?",
+            "a": "Taip. „Wheelbarrow Playground“ darbalapį galima 100 % nemokamai atsisiųsti iš DotToDotFreePrintables.com – nereikia jokios paskyros, el. pašto adreso ar mokėjimo. Jis akimirksniu atsisiunčiamas kaip spausdinimui paruoštas PDF failas tiek vertikaliai, tiek horizontaliai, skirtas JAV Letter arba A4 formato popieriui."
           },
           {
-            "range": "44–64",
-            "title": "Rėmas ir kojos",
-            "learn": "Nuo 44 iki 64 taško dirbkite, kad sukonstruotumėte rėmą po padėklu ir dvi kojeles, kurios jį laiko, kai jis stovi. Šios linijos yra tiesesnės ir stabilesnės – maloni permaina po išlenktos padėklo dalies.",
-            "fact": "Dvi karučio gale esančios kojelės liečia žemę tik jam stovint. Pakelkite rankenas ir visas svoris persikelia į priekį ant vieno rato, todėl pilną krovinį stumti daug lengviau."
+            "q": "Kokio amžiaus žmonėms labiausiai tinka „Karučio žaidimų aikštelės taškų jungimo darbalapis“?",
+            "a": "Dėlionė „Karučio žaidimų aikštelė“ su 85 taškeliais geriausiai tinka 6–9 metų vaikams (1–3 klasėms). Jaunesniems vaikams gali patikti su lengva suaugusiųjų pagalba skaičiuojant, o užtikrintai skaičiuojantys vaikai gali ją išspręsti savarankiškai ir praktikuotis skaičių sudėjimą iki 85."
           },
           {
-            "range": "65–85",
-            "title": "Rankenos",
-            "learn": "Užbaikite sujungdami taškus nuo 65 iki 85, kad nubrėžtumėte dvi rankenas, kurias sodininkas laiko vairuodamas ir keldamas krovinį. Paskutinėje atkarpoje liko dvidešimt vienas taškas – linijos turi būti lygios ir baikite tvirtai.",
-            "fact": "Ilgos rankenos veikia kaip svirtis. Jos leidžia vienam asmeniui pakelti ir subalansuoti krovinį, kuris kitaip būtų per sunkus arba nepatogus nešti rankomis, ir tai yra visa karučio veikimo gudrybė."
+            "q": "Kokių įgūdžių moko dėlionė „Wheelbarrow Playground“?",
+            "a": "Sujungus 85 „Wheelbarrow Playground“ dėlionės taškus, lavinama skaičių atpažinimo ir skaičiavimo iki 85, pieštuko valdymas, akių ir rankų koordinacija bei susikaupimo palaikymas – tie patys smulkiosios motorikos pagrindai, kurie padeda rašyti ranka ankstyvuoju laikotarpiu. Galutinio paveikslėlio spalvinimas suteikia kūrybinį atlygį."
+          },
+          {
+            "q": "Koks įdomus faktas apie karučių žaidimų aikštelę?",
+            "a": "Karutis buvo išrastas senovės Kinijoje daugiau nei prieš 2000 metų. Ankstyvosios versijos galėjo vežti kelis žmones vienu metu ir netgi buvo naudojamos kareiviams perkelti karo metu. Vaikai atranda tokius faktus spręsdami dėlionę „Karučio žaidimų aikštelė“."
           }
         ],
-        "outro": "Štai vienas pilnas karutis, paruoštas sodui! Nuspalvinkite padėklą purvo ruda spalva arba ryškiai raudonai kaip klasikinį karutį, tada sudėkite ant jo savo sukurtų gėlių ar daržovių. Pasiruošę kažkam didesniam? Toliau išbandykite mūsų <a href=\"/playgrounds/roller-coaster-playground-dot-to-dot-puzzle/\">kalnelių žaidimų aikštelės dėlionę</a>.",
-        "color_schemes": []
+        "dot_guide": {
+          "intro": "Šią sodo karučio dėlionę sudaro aštuoniasdešimt penki taškai ir keturios dalys. Tai žingsnis į priekį nuo paprasčiausių sodo lakštų, tačiau vis tiek lengvai įveikiama vienu prisėdimu. Pirmiausia išardykite ratą, tada padėklą, rėmą ir kojas, o galiausiai rankenas. Raskite 1 tašką rato priekyje ir pradėkime.",
+          "sections": [
+            {
+              "range": "1–21",
+              "title": "Ratas",
+              "learn": "Pradėkite nuo 1 taško ir junkite jį su 21 tašku, kad nupieštumėte apvalų ratą karučio priekyje. Apskritos formos reikalauja šiek tiek daugiau dėmesio nei tiesios linijos, todėl skatinkite lėtus, lygius brūkšnius, kai kreivė susidėlioja.",
+              "fact": "Vienas priekyje esantis ratas leidžia karučiui lengvai pasisukti ankštose erdvėse, todėl sodininkai vis dar renkasi šį modelį, o ne dviratį vežimėlį, norėdami perkelti dirvą ir augalus aplink gėlynus."
+            },
+            {
+              "range": "22–43",
+              "title": "Dėklas",
+              "learn": "Tęskite nuo 22 iki 43 taško, kad suformuotumėte platų, nuožulnų padėklą, kuriame telpa viskas, ką galima nešti į karutį. Padėklo kampuoti kraštai neleidžia jam apvirsti, todėl atsargiai juos atsekite, kad užfiksuotumėte tą pasvirimą.",
+              "fact": "Daugelio karučių padėklas priekyje siaurėja, o gale – platėja. Tokia forma neleidžia sunkiam, kreivai pakreiptam kroviniui nuslysti į priekį ir išsilieti ant rato."
+            },
+            {
+              "range": "44–64",
+              "title": "Rėmas ir kojos",
+              "learn": "Nuo 44 iki 64 taško dirbkite, kad sukonstruotumėte rėmą po padėklu ir dvi kojeles, kurios jį laiko, kai jis stovi. Šios linijos yra tiesesnės ir stabilesnės – maloni permaina po išlenktos padėklo dalies.",
+              "fact": "Dvi karučio gale esančios kojelės liečia žemę tik jam stovint. Pakelkite rankenas ir visas svoris persikelia į priekį ant vieno rato, todėl pilną krovinį stumti daug lengviau."
+            },
+            {
+              "range": "65–85",
+              "title": "Rankenos",
+              "learn": "Užbaikite sujungdami taškus nuo 65 iki 85, kad nubrėžtumėte dvi rankenas, kurias sodininkas laiko vairuodamas ir keldamas krovinį. Paskutinėje atkarpoje liko dvidešimt vienas taškas – linijos turi būti lygios ir baikite tvirtai.",
+              "fact": "Ilgos rankenos veikia kaip svirtis. Jos leidžia vienam asmeniui pakelti ir subalansuoti krovinį, kuris kitaip būtų per sunkus arba nepatogus nešti rankomis, ir tai yra visa karučio veikimo gudrybė."
+            }
+          ],
+          "outro": "Štai vienas pilnas karutis, paruoštas sodui! Nuspalvinkite padėklą purvo ruda spalva arba ryškiai raudonai kaip klasikinį karutį, tada sudėkite ant jo savo sukurtų gėlių ar daržovių. Pasiruošę kažkam didesniam? Toliau išbandykite mūsų <a href=\"/playgrounds/roller-coaster-playground-dot-to-dot-puzzle/\">kalnelių žaidimų aikštelės dėlionę</a>.",
+          "color_schemes": []
+        }
       }
     }
-  }
-]
+  ]
+}

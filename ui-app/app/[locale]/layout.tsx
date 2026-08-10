@@ -14,7 +14,7 @@ import HideOnLocaleHome from '@/components/HideOnLocaleHome';
 import FloatingShare from '@/components/FloatingShare';
 import { Navbar, Footer } from '@/components/sections';
 import { DEFAULT_OG_IMAGE, SITE_NAME, SITE_URL } from '@/lib/seo';
-import { localizedSiteSeo } from '@/lib/localized-seo';
+import { localizedSiteSeo } from '@/lib/json-seo';
 import type { Metadata, Viewport } from 'next';
 
 const GA_ID = 'G-RCRTCLP0CF';
@@ -152,9 +152,9 @@ export async function generateMetadata({
   const ogLocale = localeToOgLocale[locale] ?? 'en_US';
   const isArabicRegionalAlias = ARABIC_REGIONAL_ALIASES.includes(locale);
   const arabicSeo = localizedSiteSeo(locale);
-  const title = arabicSeo?.title ?? 'Free Dot to Dot Printables for Kids | Connect the Dots Worksheets PDF';
-  const ogTitle = arabicSeo?.ogTitle ?? 'Free dot-to-dot worksheets for kids';
-  const description = arabicSeo?.description ?? 'Download free dot-to-dot printables for kids - animals, dinosaurs, vehicles, holiday themes and more. Print-ready PDF connect-the-dots worksheets for preschool, kindergarten and grades 1-6. No sign-up needed.';
+  const title = arabicSeo.title;
+  const ogTitle = arabicSeo.ogTitle;
+  const description = arabicSeo.description;
   const ogImage = arabicSeo
     ? {
         ...DEFAULT_OG_IMAGE,

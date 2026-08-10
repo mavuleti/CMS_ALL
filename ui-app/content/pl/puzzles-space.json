@@ -1,125 +1,294 @@
-[
-  {
-    "slug": "crescent-moon-dot-to-dot-puzzle",
-    "name": "Półksiężyc",
-    "tagline": "Wytrop błyszczący fragment nocnego nieba!",
-    "description": "Połącz 60 łatwych kropek, aby odkryć piękny półksiężyc świecący na nocnym niebie. Ta darmowa karta pracy pomaga dzieciom ćwiczyć sekwencje liczbowe, śledzenie wzrokowe, koncentrację i płynną kontrolę ołówka.",
-    "funFact": "Księżyc w fazie półksiężyca pojawia się, gdy światło słoneczne oświetla tylko cienką, zakrzywioną część Księżyca, którą widzimy z Ziemi.",
-    "dotGuide": {
-      "intro": "Smukły półksiężyc to jeden z najbardziej rozpoznawalnych kształtów na nocnym niebie. Ta przyjazna łamigłówka z 60 kropkami stopniowo odsłania jego zewnętrzną krzywiznę, spiczaste końcówki i wewnętrzny łuk w pięciu przystępnych etapach. Znajdź kropkę nr 1 i pozwól, by twój księżyc zaczął świecić!",
-      "sections": [
-        {
-          "range": "1–12",
-          "title": "Górna Półksiężycowa Końcówka",
-          "learn": "Połącz kropki od 1 do 12, aby utworzyć wąski górny punkt półksiężyca.",
-          "fact": "Księżyc nie wytwarza własnego światła; świeci odbijając światło słoneczne."
-        },
-        {
-          "range": "13–24",
-          "title": "Zewnętrzna Krzywa",
-          "learn": "Kontynuuj od kropki 13 do kropki 24 wzdłuż szerokiego zewnętrznego łuku Księżyca.",
-          "fact": "Grawitacja ukształtowała Księżyc w niemal idealny okrąg, tak samo jak czyni to z planetami."
-        },
-        {
-          "range": "25–36",
-          "title": "Czubek Dolnego Księżyca",
-          "learn": "Podążaj za kropkami od 25 do 36, aby utworzyć dolny punkt i skręć w kierunku wewnętrznej krzywej.",
-          "fact": "Powierzchnia Księżyca jest pokryta kraterami powstałymi w wyniku uderzeń skał przez miliardy lat."
-        },
-        {
-          "range": "37–48",
-          "title": "Wewnętrzny Półksiężyc",
-          "learn": "Połącz kropki od 37 do 48 wzdłuż wewnętrznego łuku, utrzymując linię ołówka płynną.",
-          "fact": "Księżyc potrzebuje około 29,5 dnia, aby przejść przez pełny cykl faz."
-        },
-        {
-          "range": "49–60",
-          "title": "Blask i Wykończenie",
-          "learn": "Zakończ kropkami od 49 do 60, aby zamknąć półksiężyc i dodać końcowe szczegóły.",
-          "fact": "Ludzie na całym świecie widzą ten sam Księżyc, choć jego sierp może być nachylony inaczej w zależności od lokalizacji."
+{
+  "collection": {
+    "header": {
+      "title": "Free Space Dot-to-Dot Printables for Kids",
+      "meta_description": "Download free space dot-to-dot worksheets for kids, including UFOs, rockets, planets, and more.",
+      "og": {
+        "title": "Free Space Dot-to-Dot Printables for Kids",
+        "description": "Download free space dot-to-dot worksheets for kids, including UFOs, rockets, planets, and more.",
+        "image": "/images/space-rover-puzzle.webp"
+      },
+      "json_ld": {
+        "type": "CollectionPage",
+        "name": "Kosmos",
+        "description": "Wystartuj z darmowymi arkuszami do łączenia kropek w kosmosie. Wydrukuj dzisiaj przyjazną łamigłówkę z łazikiem, a wkrótce pojawią się kolejne rakiety, planety i kosmiczne przygody.",
+        "image": "/images/space-rover-puzzle.webp",
+        "main_entity": {
+          "type": "ItemList",
+          "item_source": "puzzles"
         }
-      ],
-      "outro": "Piękna praca — twój półksiężyc świeci! Dodaj gwiazdy, senne chmurki lub rakietę przemierzającą niebo, a następnie odkryj <a href=\"/space/ringed-planet-dot-to-dot-puzzle/\">zagadkę pierścieniowej planety</a>."
+      },
+      "breadcrumb_json_ld": {
+        "type": "BreadcrumbList",
+        "items": [
+          {
+            "position": 1,
+            "name": "Home",
+            "path": "/"
+          },
+          {
+            "position": 2,
+            "name": "Kosmos",
+            "path": "/space/"
+          }
+        ]
+      }
+    },
+    "body": {
+      "h1": "Darmowe łamigłówki łącz kropki w kosmosie dla dzieci",
+      "name": "Kosmos",
+      "tagline": "{count, plural, one {# darmowa łamigłówka} other {# darmowych łamigłówek}}",
+      "description": "Wystartuj z darmowymi arkuszami do łączenia kropek w kosmosie. Wydrukuj dzisiaj przyjazną łamigłówkę z łazikiem, a wkrótce pojawią się kolejne rakiety, planety i kosmiczne przygody.",
+      "hero_image": "/images/space-rover-puzzle.webp",
+      "slug": "space",
+      "faqs": [
+        {
+          "q": "Czy wszystkie materiały do ​​druku typu „połącz kropki” na tej stronie są całkowicie darmowe?",
+          "a": "Tak — każdy arkusz do łączenia kropek na stronie DotToDotFreePrintables.com jest w 100% darmowy do pobrania i wydrukowania. Nie jest wymagane żadne konto, subskrypcja ani karta kredytowa."
+        },
+        {
+          "q": "Dla dzieci w jakim wieku przeznaczone są arkusze z zadaniami typu „połącz kropki”?",
+          "a": "Nasze materiały do ​​druku są przeznaczone dla dzieci w wieku 2–12 lat. Łatwe arkusze (10–20 punktów) są odpowiednie dla małych dzieci i przedszkolaków, arkusze średnie (20–50 punktów) są idealne dla przedszkolaków i uczniów pierwszej klasy, a trudniejsze arkusze (50–200+ punktów) są odpowiednie dla uczniów od drugiej do szóstej klasy."
+        },
+        {
+          "q": "W jakim formacie są materiały do ​​wydruku, które można połączyć kropki?",
+          "a": "Wszystkie arkusze kalkulacyjne są pobierane jako pliki PDF gotowe do druku, w formacie standardowego papieru US Letter (8,5\" × 11\"). Otwórz w dowolnej przeglądarce lub programie do przeglądania plików PDF i wydrukuj — bez konieczności korzystania ze specjalnego oprogramowania."
+        },
+        {
+          "q": "Czy nauczyciele mogą korzystać z tych arkuszy ćwiczeń do łączenia kropek podczas lekcji?",
+          "a": "Tak! Nasze materiały do ​​druku są bezpłatne do użytku osobistego i szkolnego. Są popularne w porannej pracy, w zajęciach dla uczniów, którzy kończą zajęcia wcześnie, w planach lekcji zastępczych, w centrach motoryki małej i w pakietach zadań domowych."
+        }
+      ]
     }
   },
-  {
-    "slug": "ringed-planet-dot-to-dot-puzzle",
-    "name": "Pierścieniowa Planeta",
-    "tagline": "Narysuj świat owinięty lśniącymi pierścieniami!",
-    "description": "Połącz 43 łatwe kropki, aby odkryć piękną planetę z pierścieniami unoszącą się w kosmosie. Ten darmowy wydruk pomaga młodszym dzieciom ćwiczyć kolejność liczb, śledzenie wzrokowe, koncentrację i precyzyjną kontrolę ołówka.",
-    "funFact": "Pierścienie Saturna składają się z niezliczonych kawałków lodu i skał, o rozmiarach od drobnych ziaren po bryły wielkości domów.",
-    "dotGuide": {
-      "intro": "Daleko poza Ziemią, olbrzymia planeta obraca się, podczas gdy szerokie pierścienie wirują wokół niej. Ta przyjazna łamigłówka z 43 kropkami tworzy planetę i jej pierścienie w czterech krótkich etapach, czyniąc z niej świetne pierwsze kosmiczne wyzwanie. Znajdź kropkę 1 i rozpocznij swoją podróż!",
-      "sections": [
-        {
-          "range": "1–11",
-          "title": "Szczyt Planety",
-          "learn": "Połącz kropki od 1 do 11, aby narysować zakrzywioną górną krawędź odległej planety.",
-          "fact": "Planety wyglądają na okrągłe, ponieważ grawitacja przyciąga ich materię w kierunku środka z każdej strony."
+  "puzzles": [
+    {
+      "slug": "crescent-moon-dot-to-dot-puzzle",
+      "header": {
+        "title": "",
+        "meta_description": "",
+        "og": {
+          "title": "",
+          "description": "",
+          "image_alt": ""
         },
-        {
-          "range": "12–22",
-          "title": "Pierwszy Pierścień",
-          "learn": "Kontynuuj od kropki 12 do kropki 22, aby odtworzyć pierwszy szeroki łuk systemu pierścieni.",
-          "fact": "Saturn ma tysiące wąskich pierścieni, które z daleka wyglądają jak kilka szerokich pierścieni."
-        },
-        {
-          "range": "23–33",
-          "title": "Dolna Krzywa Planety",
-          "learn": "Podążaj za kropkami od 23 do 33 wokół dolnej połowy planety, zachowując płynność krzywej.",
-          "fact": "Saturn to gazowy olbrzym zbudowany głównie z wodoru i helu, dwóch najlżejszych pierwiastków."
-        },
-        {
-          "range": "34–43",
-          "title": "Pierścienie i Wykończenie",
-          "learn": "Zakończ kropkami od 34 do 43, aby ukończyć rozległe pierścienie po drugiej stronie.",
-          "fact": "Pierścienie Saturna są bardzo szerokie, ale zaskakująco cienkie w porównaniu z rozmiarem planety."
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Półksiężyc",
+          "description": "",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
         }
-      ],
-      "outro": "Wspaniała praca — twoja pierścieniowa planeta krąży pośród gwiazd! Dodaj księżyce, rakietę i kolorowe chmury, a następnie kontynuuj eksplorację z <a href=\"/space/space-rover-dot-to-dot-puzzle/\">łamigłówką łazika kosmicznego</a>."
-    }
-  },
-  {
-    "slug": "space-rover-dot-to-dot-puzzle",
-    "name": "Łazik Kosmiczny",
-    "tagline": "Przyjazny odkrywca na kółkach",
-    "description": "Połącz 59 kropek, aby odkryć przyjaznego łazika kosmicznego gotowego do eksploracji innego świata. Ta darmowa łamigłówka do wydruku pomaga dzieciom ćwiczyć kolejność liczb, koncentrację i kontrolę nad ołówkiem.",
-    "funFact": "Łaziki kosmiczne to robotyczne pojazdy eksplorujące powierzchnie ciał niebieskich, takich jak Księżyc czy Mars.",
-    "dotGuide": {
-      "intro": "Gotowy na podróż poza Ziemię? Podążaj za numerami od 1 do 59 i obserwuj, jak pojawia się przyjazny łazik kosmiczny. Poruszaj się powoli, sprawdzaj każdy numer i utrzymuj linie rysunku schludne, podczas gdy podróżujesz wokół pojazdu.",
-      "sections": [
-        {
-          "range": "1–12",
-          "title": "Nadwozie Łazika",
-          "learn": "Zacznij od kropki 1 i połącz przez kropkę 12, aby odtworzyć przyjazny przód i solidne ciało łazika.",
-          "fact": "Łaziki planetarne przenoszą komputery, kamery i narzędzia naukowe wewnątrz wytrzymałego korpusu."
-        },
-        {
-          "range": "13–25",
-          "title": "Pierwsze Koła",
-          "learn": "Kontynuuj od kropki 13 do kropki 25, aby ukształtować dolną część ciała i pierwsze wytrzymałe koło.",
-          "fact": "Koła łazika są zaprojektowane tak, aby chwytać luźny piasek i pokonywać skały bez utknięcia."
-        },
-        {
-          "range": "26–38",
-          "title": "System Kołowy",
-          "learn": "Połącz kropki od 26 do 38, aby dokończyć więcej kół i zawieszenia łazika.",
-          "fact": "Łaziki NASA wykorzystują zawieszenie rocker-bogie, które pomaga utrzymać wszystkie sześć kół na nierównym terenie."
-        },
-        {
-          "range": "39–49",
-          "title": "Siedzenie i wyposażenie",
-          "learn": "Połącz kropki od 39 do 49, aby dodać siedzisko i wyposażenie nad korpusem łazika.",
-          "fact": "Niektóre łaziki księżycowe przewożą astronautów, podczas gdy robotyczne łaziki eksplorują powierzchnię bez załogi na pokładzie."
-        },
-        {
-          "range": "50–59",
-          "title": "Antena Satelitarna",
-          "learn": "Zakończ, łącząc kropki od 50 do 59, aby ukończyć antenę komunikacyjną.",
-          "fact": "Łazik wykorzystuje anteny do przesyłania odkryć na Ziemię i odbierania nowych instrukcji."
+      },
+      "body": {
+        "h1": "",
+        "name": "Półksiężyc",
+        "tagline": "Wytrop błyszczący fragment nocnego nieba!",
+        "description": "Połącz 60 łatwych kropek, aby odkryć piękny półksiężyc świecący na nocnym niebie. Ta darmowa karta pracy pomaga dzieciom ćwiczyć sekwencje liczbowe, śledzenie wzrokowe, koncentrację i płynną kontrolę ołówka.",
+        "fun_fact": "Księżyc w fazie półksiężyca pojawia się, gdy światło słoneczne oświetla tylko cienką, zakrzywioną część Księżyca, którą widzimy z Ziemi.",
+        "faqs": [
+          {
+            "q": "Dla jakiego wieku jest łamigłówka łączenia kropek Półksiężyc?",
+            "a": "Jest przeznaczona dla wieku Wiek 4-8. Z 60 kropkami pasuje dzieciom, które pewnie liczą do 60; młodsze dzieci poradzą sobie z niewielką pomocą."
+          },
+          {
+            "q": "Jak wydrukować kartę pracy Półksiężyc?",
+            "a": "Kliknij przycisk pobierania, aby otrzymać darmowy PDF, a następnie wydrukuj go na zwykłym papierze (A4 lub US Letter) z dowolnej przeglądarki lub czytnika PDF. Nie potrzeba specjalnego oprogramowania."
+          },
+          {
+            "q": "Czy karta do druku Półksiężyc jest naprawdę darmowa?",
+            "a": "Tak — jest w 100% darmowa, bez rejestracji, konta i opłat. Możesz ją drukować do domu lub do klasy."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Smukły półksiężyc to jeden z najbardziej rozpoznawalnych kształtów na nocnym niebie. Ta przyjazna łamigłówka z 60 kropkami stopniowo odsłania jego zewnętrzną krzywiznę, spiczaste końcówki i wewnętrzny łuk w pięciu przystępnych etapach. Znajdź kropkę nr 1 i pozwól, by twój księżyc zaczął świecić!",
+          "sections": [
+            {
+              "range": "1–12",
+              "title": "Górna Półksiężycowa Końcówka",
+              "learn": "Połącz kropki od 1 do 12, aby utworzyć wąski górny punkt półksiężyca.",
+              "fact": "Księżyc nie wytwarza własnego światła; świeci odbijając światło słoneczne."
+            },
+            {
+              "range": "13–24",
+              "title": "Zewnętrzna Krzywa",
+              "learn": "Kontynuuj od kropki 13 do kropki 24 wzdłuż szerokiego zewnętrznego łuku Księżyca.",
+              "fact": "Grawitacja ukształtowała Księżyc w niemal idealny okrąg, tak samo jak czyni to z planetami."
+            },
+            {
+              "range": "25–36",
+              "title": "Czubek Dolnego Księżyca",
+              "learn": "Podążaj za kropkami od 25 do 36, aby utworzyć dolny punkt i skręć w kierunku wewnętrznej krzywej.",
+              "fact": "Powierzchnia Księżyca jest pokryta kraterami powstałymi w wyniku uderzeń skał przez miliardy lat."
+            },
+            {
+              "range": "37–48",
+              "title": "Wewnętrzny Półksiężyc",
+              "learn": "Połącz kropki od 37 do 48 wzdłuż wewnętrznego łuku, utrzymując linię ołówka płynną.",
+              "fact": "Księżyc potrzebuje około 29,5 dnia, aby przejść przez pełny cykl faz."
+            },
+            {
+              "range": "49–60",
+              "title": "Blask i Wykończenie",
+              "learn": "Zakończ kropkami od 49 do 60, aby zamknąć półksiężyc i dodać końcowe szczegóły.",
+              "fact": "Ludzie na całym świecie widzą ten sam Księżyc, choć jego sierp może być nachylony inaczej w zależności od lokalizacji."
+            }
+          ],
+          "outro": "Piękna praca — twój półksiężyc świeci! Dodaj gwiazdy, senne chmurki lub rakietę przemierzającą niebo, a następnie odkryj <a href=\"/space/ringed-planet-dot-to-dot-puzzle/\">zagadkę pierścieniowej planety</a>.",
+          "color_schemes": []
         }
-      ],
-      "outro": "Misja zakończona — wasz łazik kosmiczny jest gotowy do eksploracji! Dodajcie gwiazdy, kratery, planety lub przyjaznego kosmitę, aby stworzyć własną scenę kosmiczną."
+      }
+    },
+    {
+      "slug": "ringed-planet-dot-to-dot-puzzle",
+      "header": {
+        "title": "",
+        "meta_description": "",
+        "og": {
+          "title": "",
+          "description": "",
+          "image_alt": ""
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Pierścieniowa Planeta",
+          "description": "",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
+      },
+      "body": {
+        "h1": "",
+        "name": "Pierścieniowa Planeta",
+        "tagline": "Narysuj świat owinięty lśniącymi pierścieniami!",
+        "description": "Połącz 43 łatwe kropki, aby odkryć piękną planetę z pierścieniami unoszącą się w kosmosie. Ten darmowy wydruk pomaga młodszym dzieciom ćwiczyć kolejność liczb, śledzenie wzrokowe, koncentrację i precyzyjną kontrolę ołówka.",
+        "fun_fact": "Pierścienie Saturna składają się z niezliczonych kawałków lodu i skał, o rozmiarach od drobnych ziaren po bryły wielkości domów.",
+        "faqs": [
+          {
+            "q": "Dla jakiego wieku jest łamigłówka łączenia kropek Pierścieniowa Planeta?",
+            "a": "Jest przeznaczona dla wieku Wiek 4-7. Z 43 kropkami pasuje dzieciom, które pewnie liczą do 43; młodsze dzieci poradzą sobie z niewielką pomocą."
+          },
+          {
+            "q": "Jak wydrukować kartę pracy Pierścieniowa Planeta?",
+            "a": "Kliknij przycisk pobierania, aby otrzymać darmowy PDF, a następnie wydrukuj go na zwykłym papierze (A4 lub US Letter) z dowolnej przeglądarki lub czytnika PDF. Nie potrzeba specjalnego oprogramowania."
+          },
+          {
+            "q": "Czy karta do druku Pierścieniowa Planeta jest naprawdę darmowa?",
+            "a": "Tak — jest w 100% darmowa, bez rejestracji, konta i opłat. Możesz ją drukować do domu lub do klasy."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Daleko poza Ziemią, olbrzymia planeta obraca się, podczas gdy szerokie pierścienie wirują wokół niej. Ta przyjazna łamigłówka z 43 kropkami tworzy planetę i jej pierścienie w czterech krótkich etapach, czyniąc z niej świetne pierwsze kosmiczne wyzwanie. Znajdź kropkę 1 i rozpocznij swoją podróż!",
+          "sections": [
+            {
+              "range": "1–11",
+              "title": "Szczyt Planety",
+              "learn": "Połącz kropki od 1 do 11, aby narysować zakrzywioną górną krawędź odległej planety.",
+              "fact": "Planety wyglądają na okrągłe, ponieważ grawitacja przyciąga ich materię w kierunku środka z każdej strony."
+            },
+            {
+              "range": "12–22",
+              "title": "Pierwszy Pierścień",
+              "learn": "Kontynuuj od kropki 12 do kropki 22, aby odtworzyć pierwszy szeroki łuk systemu pierścieni.",
+              "fact": "Saturn ma tysiące wąskich pierścieni, które z daleka wyglądają jak kilka szerokich pierścieni."
+            },
+            {
+              "range": "23–33",
+              "title": "Dolna Krzywa Planety",
+              "learn": "Podążaj za kropkami od 23 do 33 wokół dolnej połowy planety, zachowując płynność krzywej.",
+              "fact": "Saturn to gazowy olbrzym zbudowany głównie z wodoru i helu, dwóch najlżejszych pierwiastków."
+            },
+            {
+              "range": "34–43",
+              "title": "Pierścienie i Wykończenie",
+              "learn": "Zakończ kropkami od 34 do 43, aby ukończyć rozległe pierścienie po drugiej stronie.",
+              "fact": "Pierścienie Saturna są bardzo szerokie, ale zaskakująco cienkie w porównaniu z rozmiarem planety."
+            }
+          ],
+          "outro": "Wspaniała praca — twoja pierścieniowa planeta krąży pośród gwiazd! Dodaj księżyce, rakietę i kolorowe chmury, a następnie kontynuuj eksplorację z <a href=\"/space/space-rover-dot-to-dot-puzzle/\">łamigłówką łazika kosmicznego</a>.",
+          "color_schemes": []
+        }
+      }
+    },
+    {
+      "slug": "space-rover-dot-to-dot-puzzle",
+      "header": {
+        "title": "",
+        "meta_description": "",
+        "og": {
+          "title": "",
+          "description": "",
+          "image_alt": ""
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Łazik Kosmiczny",
+          "description": "",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
+      },
+      "body": {
+        "h1": "",
+        "name": "Łazik Kosmiczny",
+        "tagline": "Przyjazny odkrywca na kółkach",
+        "description": "Połącz 59 kropek, aby odkryć przyjaznego łazika kosmicznego gotowego do eksploracji innego świata. Ta darmowa łamigłówka do wydruku pomaga dzieciom ćwiczyć kolejność liczb, koncentrację i kontrolę nad ołówkiem.",
+        "fun_fact": "Łaziki kosmiczne to robotyczne pojazdy eksplorujące powierzchnie ciał niebieskich, takich jak Księżyc czy Mars.",
+        "faqs": [
+          {
+            "q": "Dla jakiego wieku jest łamigłówka łączenia kropek Łazik Kosmiczny?",
+            "a": "Jest przeznaczona dla wieku Wiek 4-8. Z 59 kropkami pasuje dzieciom, które pewnie liczą do 59; młodsze dzieci poradzą sobie z niewielką pomocą."
+          },
+          {
+            "q": "Jak wydrukować kartę pracy Łazik Kosmiczny?",
+            "a": "Kliknij przycisk pobierania, aby otrzymać darmowy PDF, a następnie wydrukuj go na zwykłym papierze (A4 lub US Letter) z dowolnej przeglądarki lub czytnika PDF. Nie potrzeba specjalnego oprogramowania."
+          },
+          {
+            "q": "Czy karta do druku Łazik Kosmiczny jest naprawdę darmowa?",
+            "a": "Tak — jest w 100% darmowa, bez rejestracji, konta i opłat. Możesz ją drukować do domu lub do klasy."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Gotowy na podróż poza Ziemię? Podążaj za numerami od 1 do 59 i obserwuj, jak pojawia się przyjazny łazik kosmiczny. Poruszaj się powoli, sprawdzaj każdy numer i utrzymuj linie rysunku schludne, podczas gdy podróżujesz wokół pojazdu.",
+          "sections": [
+            {
+              "range": "1–12",
+              "title": "Nadwozie Łazika",
+              "learn": "Zacznij od kropki 1 i połącz przez kropkę 12, aby odtworzyć przyjazny przód i solidne ciało łazika.",
+              "fact": "Łaziki planetarne przenoszą komputery, kamery i narzędzia naukowe wewnątrz wytrzymałego korpusu."
+            },
+            {
+              "range": "13–25",
+              "title": "Pierwsze Koła",
+              "learn": "Kontynuuj od kropki 13 do kropki 25, aby ukształtować dolną część ciała i pierwsze wytrzymałe koło.",
+              "fact": "Koła łazika są zaprojektowane tak, aby chwytać luźny piasek i pokonywać skały bez utknięcia."
+            },
+            {
+              "range": "26–38",
+              "title": "System Kołowy",
+              "learn": "Połącz kropki od 26 do 38, aby dokończyć więcej kół i zawieszenia łazika.",
+              "fact": "Łaziki NASA wykorzystują zawieszenie rocker-bogie, które pomaga utrzymać wszystkie sześć kół na nierównym terenie."
+            },
+            {
+              "range": "39–49",
+              "title": "Siedzenie i wyposażenie",
+              "learn": "Połącz kropki od 39 do 49, aby dodać siedzisko i wyposażenie nad korpusem łazika.",
+              "fact": "Niektóre łaziki księżycowe przewożą astronautów, podczas gdy robotyczne łaziki eksplorują powierzchnię bez załogi na pokładzie."
+            },
+            {
+              "range": "50–59",
+              "title": "Antena Satelitarna",
+              "learn": "Zakończ, łącząc kropki od 50 do 59, aby ukończyć antenę komunikacyjną.",
+              "fact": "Łazik wykorzystuje anteny do przesyłania odkryć na Ziemię i odbierania nowych instrukcji."
+            }
+          ],
+          "outro": "Misja zakończona — wasz łazik kosmiczny jest gotowy do eksploracji! Dodajcie gwiazdy, kratery, planety lub przyjaznego kosmitę, aby stworzyć własną scenę kosmiczną.",
+          "color_schemes": []
+        }
+      }
     }
-  }
-]
+  ]
+}

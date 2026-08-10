@@ -1,316 +1,490 @@
-[
-  {
-    "slug": "mermaid-dot-to-dot-puzzle",
+{
+  "collection": {
     "header": {
-      "title": "Collegamento dei punti della Sirena — Magico stampabile gratuito con 54 punti",
-      "meta_description": "Le storie delle sirene risalgono a più di 3.000 anni fa. Rivela un nuotatore magico attraverso 54 punti con questo PDF stampabile gratuito per bambini dai 5 agli 8 anni.",
+      "title": "Unisci i puntini oceano gratis per bambini",
+      "meta_description": "Scopri animali marini e sirene con schede gratuite unisci i puntini. Scarica e stampa i PDF.",
       "og": {
+        "title": "Unisci i puntini oceano gratis per bambini",
+        "description": "Schede gratuite di animali marini da stampare.",
+        "image": "/images/mermaid-puzzle.webp"
+      },
+      "json_ld": {
+        "type": "CollectionPage",
+        "name": "Oceano",
+        "description": "Immergiti nel blu profondo! Unisci i puntini per scoprire sirene, creature marine e avventure oceaniche. Tutti i fogli di lavoro sono scaricabili e stampabili gratuitamente, senza bisogno di creare un account.",
+        "image": "/images/mermaid-puzzle.webp",
+        "main_entity": {
+          "type": "ItemList",
+          "item_source": "puzzles"
+        }
+      },
+      "breadcrumb_json_ld": {
+        "type": "BreadcrumbList",
+        "items": [
+          {
+            "position": 1,
+            "name": "Home",
+            "path": "/"
+          },
+          {
+            "position": 2,
+            "name": "Oceano",
+            "path": "/ocean/"
+          }
+        ]
+      }
+    },
+    "body": {
+      "h1": "Disegni da stampare a tema oceano unisci i puntini per bambini",
+      "name": "Oceano",
+      "tagline": "Perché i bambini adorano i puzzle a puntini con l'oceano",
+      "description": "Immergiti nel blu profondo! Unisci i puntini per scoprire sirene, creature marine e avventure oceaniche. Tutti i fogli di lavoro sono scaricabili e stampabili gratuitamente, senza bisogno di creare un account.",
+      "hero_image": "/images/mermaid-puzzle.webp",
+      "slug": "ocean",
+      "faqs": [
+        {
+          "q": "Quanti disegni da stampare gratuitamente a tema oceano unendo i puntini ci sono?",
+          "a": "La categoria Oceano offre attualmente 5 schede stampabili gratuite da unire con i puntini, con un numero di punti variabile da 35 a 88. Ogni scheda si scarica immediatamente in formato PDF pronto per la stampa (Lettera o A4, verticale o orizzontale) senza bisogno di registrazione."
+        },
+        {
+          "q": "I puzzle \"unisci i puntini\" a tema oceano sono gratuiti da stampare?",
+          "a": "Sì, tutti e 5 i puzzle della collezione Ocean sono completamente gratuiti per l'uso domestico e scolastico. Non è mai richiesto alcun account, indirizzo email o pagamento su DotToDotFreePrintables.com."
+        },
+        {
+          "q": "Per quale fascia d'età sono adatti i puzzle a tema oceano?",
+          "a": "Con un numero di punti che varia da 35 a 88, la collezione Ocean è adatta a bambini di età compresa tra i 4 e i 12 anni. Scegliete i livelli con meno punti per la scuola dell'infanzia e la scuola primaria, e quelli con più punti per i bambini più esperti nelle classi dalla seconda alla sesta elementare."
+        },
+        {
+          "q": "Quali puzzle a puntini a tema oceano posso stampare?",
+          "a": "Cinque disegni gratuiti da stampare a tema oceano: Balena (42 punti), Cavalluccio marino (35 punti), Medusa (88 punti), Sirena (54 punti) e Tritone (44 punti). Il Cavalluccio marino è adatto ai più piccoli; la Medusa è la sfida più impegnativa della collezione."
+        }
+      ]
+    }
+  },
+  "puzzles": [
+    {
+      "slug": "mermaid-dot-to-dot-puzzle",
+      "header": {
         "title": "Collegamento dei punti della Sirena — Magico stampabile gratuito con 54 punti",
-        "description": "Le storie delle sirene risalgono a più di 3.000 anni fa. Rivela un nuotatore magico attraverso 54 punti con questo PDF stampabile gratuito per bambini dai 5 agli 8 anni.",
-        "image_alt": "Sirena che scivola sott'acqua con la coda disegnata unendo 54 puntini numerati stampabili"
+        "meta_description": "Le storie delle sirene risalgono a più di 3.000 anni fa. Rivela un nuotatore magico attraverso 54 punti con questo PDF stampabile gratuito per bambini dai 5 agli 8 anni.",
+        "og": {
+          "title": "Collegamento dei punti della Sirena — Magico stampabile gratuito con 54 punti",
+          "description": "Le storie delle sirene risalgono a più di 3.000 anni fa. Rivela un nuotatore magico attraverso 54 punti con questo PDF stampabile gratuito per bambini dai 5 agli 8 anni.",
+          "image_alt": "Sirena che scivola sott'acqua con la coda disegnata unendo 54 puntini numerati stampabili"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Sirena",
+          "description": "Le storie delle sirene risalgono a più di 3.000 anni fa. Rivela un nuotatore magico attraverso 54 punti con questo PDF stampabile gratuito per bambini dai 5 agli 8 anni.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
       },
-      "json_ld": {
-        "type": "CreativeWork",
+      "body": {
+        "h1": "Collegamento dei punti della Sirena — Magico stampabile gratuito con 54 punti",
         "name": "Sirena",
-        "description": "Le storie delle sirene risalgono a più di 3.000 anni fa. Rivela un nuotatore magico attraverso 54 punti con questo PDF stampabile gratuito per bambini dai 5 agli 8 anni.",
-        "image": "",
-        "educational_use": "Fine motor skills, number sequencing",
-        "age_range": ""
-      }
-    },
-    "body": {
-      "h1": "Collegamento dei punti della Sirena — Magico stampabile gratuito con 54 punti",
-      "name": "Sirena",
-      "tagline": "Una magica avventura sottomarina",
-      "description": "Collega i punti per rivelare una bellissima sirena che scivola attraverso l'oceano. Questo facile puzzle con 54 punti è perfetto per i giovani apprendisti che praticano la sequenza dei numeri mentre si godono un tocco di magia sottomarina.",
-      "fun_fact": "Le sirene compaiono nel folklore dell'antica Assiria, oltre 3000 anni fa!",
-      "dot_guide": {
-        "intro": "Le sirene affascinano i bambini da millenni, dagli antichi mari dell'Assiria alle fiabe di Hans Christian Andersen. Questo splendido puzzle da 54 punti ripercorre l'elegante sagoma di una sirena che scivola nelle profondità marine. È un gioco perfetto per momenti di tranquillità e concentrazione, ideale per un pomeriggio piovoso o come <a href=\"/playgrounds/\">attività rilassante in classe</a> . Trova il punto numero 1 e lascia che la magia abbia inizio!",
-        "sections": [
+        "tagline": "Una magica avventura sottomarina",
+        "description": "Collega i punti per rivelare una bellissima sirena che scivola attraverso l'oceano. Questo facile puzzle con 54 punti è perfetto per i giovani apprendisti che praticano la sequenza dei numeri mentre si godono un tocco di magia sottomarina.",
+        "fun_fact": "Le sirene compaiono nel folklore dell'antica Assiria, oltre 3000 anni fa!",
+        "faqs": [
           {
-            "range": "1–9",
-            "title": "Il viso e i capelli",
-            "learn": "Iniziate dal punto 1 e proseguite fino al punto 9 per tracciare il viso della sirena e le linee sinuose dei suoi capelli. I volti si disegnano con curve morbide e arrotondate: un ottimo esercizio di riscaldamento che aiuta a sviluppare la sicurezza nell'uso della matita prima di affrontare forme più complesse. Incoraggiate i bambini ad alzare leggermente il polso e a lasciare che la matita scorra fluidamente.",
-            "fact": "Le leggende sulle sirene sono apparse indipendentemente in culture di tutto il mondo, dagli spiriti acquatici dell'Africa occidentale alle Ningyo giapponesi e alle Nereidi, ninfe marine dell'antica Grecia. L'idea di esseri metà umani e metà pesci sembra essere un tema ricorrente nell'immaginazione umana, a prescindere dall'oceano in cui ci si trova."
+            "q": "Quanti punti ha il puzzle \"unisci i puntini\" della sirena?",
+            "a": "Il disegno \"Unisci i puntini\" della sirena ha 54 punti numerati. È un puzzle di difficoltà medio-facile, ideale per bambini dai 5 agli 8 anni (dalla scuola dell'infanzia alla seconda elementare). I bambini uniscono i puntini in ordine numerico per rivelare l'immagine completa della sirena, che poi possono colorare."
           },
           {
-            "range": "10–22",
-            "title": "Braccia e parte superiore del corpo",
-            "learn": "Proseguite dal punto 10 al punto 22 per disegnare le braccia e il busto. I bambini si esercitano con la simmetria e la curva naturale della figura umana in questa sezione, particolarmente adatta per parlare di proporzioni corporee in modo divertente e rilassato. Un tocco leggero e fluido dona il risultato più elegante.",
-            "fact": "La storia di sirene più famosa nella cultura anglosassone, \"La Sirenetta\", fu scritta da Hans Christian Andersen nel 1837. Il racconto originale è piuttosto diverso dal film d'animazione: è molto più agrodolce e intende riflettere sul sacrificio, sulla nostalgia e sul significato dell'avere un'anima."
+            "q": "Il disegno a puntini della sirena è stampabile gratuitamente?",
+            "a": "Sì. Il foglio di lavoro sulla sirena è scaricabile gratuitamente al 100% da DotToDotFreePrintables.com: non è richiesto alcun account, indirizzo email o pagamento. Il download è immediato in formato PDF pronto per la stampa, sia in orientamento verticale che orizzontale, e dimensionato per carta US Letter o A4."
           },
           {
-            "range": "23–36",
-            "title": "Vita e Bilancia",
-            "learn": "Traccia i punti dal 23 al 36 per la sezione centrale in cui la forma umana si trasforma nella coda di pesce, la parte più caratteristica dell'intero disegno che ricorda una sirena. I bambini imparano a seguire una forma che si restringe e poi si allarga di nuovo. Questa sezione centrale premia la pazienza e l'attenzione nel trovare i punti.",
-            "fact": "Gli scienziati ritengono che il mito della sirena possa aver avuto origine, almeno in parte, dall'avvistamento di lamantini o dugonghi da parte dei marinai in mare. Da lontano, un lamantino che emerge per respirare – con il suo corpo arrotondato e la coda a forma di pagaia – può apparire sorprendentemente umanoide. Si tratta di un'interpretazione generosa, ma la solitudine e la distanza possono fare miracoli con l'immaginazione."
+            "q": "Per quale fascia d'età è più adatto il foglio di lavoro \"Unisci i puntini\" a tema sirena?",
+            "a": "Con 54 punti, il puzzle della Sirena è ideale per bambini dai 5 agli 8 anni (dalla scuola dell'infanzia alla seconda elementare). I più piccoli possono divertirsi con un piccolo aiuto da parte di un adulto che conta insieme, mentre i bambini più abili nel conteggio possono completarlo in autonomia ed esercitarsi con le sequenze numeriche fino a 54."
           },
           {
-            "range": "37–46",
-            "title": "La coda di pesce",
-            "learn": "Collega i punti dal 37 al 46 per tracciare la lunga e aggraziata coda di pesce verso il basso. Questa è la parte più appagante del puzzle: i bambini vedono la sirena assumere la sua forma finale e riconoscibile. Tratti lunghi e fluidi funzionano splendidamente in questa fase. Incoraggia i bambini a disegnare usando la spalla anziché solo il polso.",
-            "fact": "Nella maggior parte delle leggende sulle sirene, la coda viene descritta come iridescente, scintillante di molteplici colori come una bolla di sapone o una squama di pesce alla luce del sole. Quando si tratta di colorare questo puzzle, non c'è una risposta sbagliata: argento, blu oceano, verde smeraldo o tutti e tre insieme sono tutti ugualmente validi!"
+            "q": "Quali abilità insegna il puzzle \"Unisci i puntini\" della sirena?",
+            "a": "Unire i 54 punti del puzzle della Sirena sviluppa il riconoscimento dei numeri e la capacità di contare fino a 54, il controllo della matita, la coordinazione occhio-mano e la concentrazione prolungata: le stesse basi motorie fini che supportano la scrittura a mano nei primi anni di vita. Colorare il disegno completato aggiunge una gratificazione creativa."
           },
           {
-            "range": "47–54",
-            "title": "Le pinne caudali",
-            "learn": "Per finire, unisci i punti dal 47 al 54 per aggiungere le ampie e sinuose pinne caudali che completano la silhouette della sirena. Solo otto punti per arrivare al traguardo: incoraggia i bambini a dare importanza a ognuno di essi e a terminare con un gesto elegante e sicuro. La pinna caudale è il punto finale della sirena!",
-            "fact": "Le code dei pesci si muovono lateralmente, mentre quelle delle balene e dei delfini – chiamate pinne caudali – si muovono verticalmente. Se una sirena esistesse nella realtà, gli scienziati si interrogano su quale tipo di coda sarebbe più adatto a una parte superiore del corpo di forma umana. La risposta, basandosi sul modo in cui si muovono i fianchi umani, sarebbe probabilmente quella del delfino, con il suo movimento verticale."
+            "q": "Qual è una curiosità divertente sulle sirene?",
+            "a": "Le sirene compaiono nel folklore dell'antica Assiria, oltre 3000 anni fa! I bambini scoprono curiosità come questa completando il puzzle \"unisci i puntini\" a tema sirena."
           }
         ],
-        "outro": "Meraviglioso! La tua sirena è pronta a tuffarsi! Ora dona alla sua coda la combinazione di colori più spettacolare che tu possa immaginare. Esposila con orgoglio o regalala: in entrambi i casi, hai creato qualcosa di davvero incantevole. Pronta per un altro progetto? Scopri altri <a href=\"/\">disegni da unire ai puntini gratuiti</a> per continuare a divertirti.",
-        "color_schemes": []
+        "dot_guide": {
+          "intro": "Le sirene affascinano i bambini da millenni, dagli antichi mari dell'Assiria alle fiabe di Hans Christian Andersen. Questo splendido puzzle da 54 punti ripercorre l'elegante sagoma di una sirena che scivola nelle profondità marine. È un gioco perfetto per momenti di tranquillità e concentrazione, ideale per un pomeriggio piovoso o come <a href=\"/playgrounds/\">attività rilassante in classe</a> . Trova il punto numero 1 e lascia che la magia abbia inizio!",
+          "sections": [
+            {
+              "range": "1–9",
+              "title": "Il viso e i capelli",
+              "learn": "Iniziate dal punto 1 e proseguite fino al punto 9 per tracciare il viso della sirena e le linee sinuose dei suoi capelli. I volti si disegnano con curve morbide e arrotondate: un ottimo esercizio di riscaldamento che aiuta a sviluppare la sicurezza nell'uso della matita prima di affrontare forme più complesse. Incoraggiate i bambini ad alzare leggermente il polso e a lasciare che la matita scorra fluidamente.",
+              "fact": "Le leggende sulle sirene sono apparse indipendentemente in culture di tutto il mondo, dagli spiriti acquatici dell'Africa occidentale alle Ningyo giapponesi e alle Nereidi, ninfe marine dell'antica Grecia. L'idea di esseri metà umani e metà pesci sembra essere un tema ricorrente nell'immaginazione umana, a prescindere dall'oceano in cui ci si trova."
+            },
+            {
+              "range": "10–22",
+              "title": "Braccia e parte superiore del corpo",
+              "learn": "Proseguite dal punto 10 al punto 22 per disegnare le braccia e il busto. I bambini si esercitano con la simmetria e la curva naturale della figura umana in questa sezione, particolarmente adatta per parlare di proporzioni corporee in modo divertente e rilassato. Un tocco leggero e fluido dona il risultato più elegante.",
+              "fact": "La storia di sirene più famosa nella cultura anglosassone, \"La Sirenetta\", fu scritta da Hans Christian Andersen nel 1837. Il racconto originale è piuttosto diverso dal film d'animazione: è molto più agrodolce e intende riflettere sul sacrificio, sulla nostalgia e sul significato dell'avere un'anima."
+            },
+            {
+              "range": "23–36",
+              "title": "Vita e Bilancia",
+              "learn": "Traccia i punti dal 23 al 36 per la sezione centrale in cui la forma umana si trasforma nella coda di pesce, la parte più caratteristica dell'intero disegno che ricorda una sirena. I bambini imparano a seguire una forma che si restringe e poi si allarga di nuovo. Questa sezione centrale premia la pazienza e l'attenzione nel trovare i punti.",
+              "fact": "Gli scienziati ritengono che il mito della sirena possa aver avuto origine, almeno in parte, dall'avvistamento di lamantini o dugonghi da parte dei marinai in mare. Da lontano, un lamantino che emerge per respirare – con il suo corpo arrotondato e la coda a forma di pagaia – può apparire sorprendentemente umanoide. Si tratta di un'interpretazione generosa, ma la solitudine e la distanza possono fare miracoli con l'immaginazione."
+            },
+            {
+              "range": "37–46",
+              "title": "La coda di pesce",
+              "learn": "Collega i punti dal 37 al 46 per tracciare la lunga e aggraziata coda di pesce verso il basso. Questa è la parte più appagante del puzzle: i bambini vedono la sirena assumere la sua forma finale e riconoscibile. Tratti lunghi e fluidi funzionano splendidamente in questa fase. Incoraggia i bambini a disegnare usando la spalla anziché solo il polso.",
+              "fact": "Nella maggior parte delle leggende sulle sirene, la coda viene descritta come iridescente, scintillante di molteplici colori come una bolla di sapone o una squama di pesce alla luce del sole. Quando si tratta di colorare questo puzzle, non c'è una risposta sbagliata: argento, blu oceano, verde smeraldo o tutti e tre insieme sono tutti ugualmente validi!"
+            },
+            {
+              "range": "47–54",
+              "title": "Le pinne caudali",
+              "learn": "Per finire, unisci i punti dal 47 al 54 per aggiungere le ampie e sinuose pinne caudali che completano la silhouette della sirena. Solo otto punti per arrivare al traguardo: incoraggia i bambini a dare importanza a ognuno di essi e a terminare con un gesto elegante e sicuro. La pinna caudale è il punto finale della sirena!",
+              "fact": "Le code dei pesci si muovono lateralmente, mentre quelle delle balene e dei delfini – chiamate pinne caudali – si muovono verticalmente. Se una sirena esistesse nella realtà, gli scienziati si interrogano su quale tipo di coda sarebbe più adatto a una parte superiore del corpo di forma umana. La risposta, basandosi sul modo in cui si muovono i fianchi umani, sarebbe probabilmente quella del delfino, con il suo movimento verticale."
+            }
+          ],
+          "outro": "Meraviglioso! La tua sirena è pronta a tuffarsi! Ora dona alla sua coda la combinazione di colori più spettacolare che tu possa immaginare. Esposila con orgoglio o regalala: in entrambi i casi, hai creato qualcosa di davvero incantevole. Pronta per un altro progetto? Scopri altri <a href=\"/\">disegni da unire ai puntini gratuiti</a> per continuare a divertirti.",
+          "color_schemes": []
+        }
       }
-    }
-  },
-  {
-    "slug": "merman-dot-to-dot-puzzle",
-    "header": {
-      "title": "Tritone da Unire i Puntini — 44 Punti Facili per la Scuola dell'Infanzia",
-      "meta_description": "Traccia 44 punti per far emergere un merman mitologico dalle onde. Questo PDF gratuito di collegamento dei punti offre un'attività oceanica accessibile per i bambini dai 4 ai 7 anni.",
-      "og": {
+    },
+    {
+      "slug": "merman-dot-to-dot-puzzle",
+      "header": {
         "title": "Tritone da Unire i Puntini — 44 Punti Facili per la Scuola dell'Infanzia",
-        "description": "Traccia 44 punti per far emergere un merman mitologico dalle onde. Questo PDF gratuito di collegamento dei punti offre un'attività oceanica accessibile per i bambini dai 4 ai 7 anni.",
-        "image_alt": "Merman che emerge dalle onde lungo 44 punti facili su un stampabile per la scuola materna"
+        "meta_description": "Traccia 44 punti per far emergere un merman mitologico dalle onde. Questo PDF gratuito di collegamento dei punti offre un'attività oceanica accessibile per i bambini dai 4 ai 7 anni.",
+        "og": {
+          "title": "Tritone da Unire i Puntini — 44 Punti Facili per la Scuola dell'Infanzia",
+          "description": "Traccia 44 punti per far emergere un merman mitologico dalle onde. Questo PDF gratuito di collegamento dei punti offre un'attività oceanica accessibile per i bambini dai 4 ai 7 anni.",
+          "image_alt": "Merman che emerge dalle onde lungo 44 punti facili su un stampabile per la scuola materna"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Tritone",
+          "description": "Traccia 44 punti per far emergere un merman mitologico dalle onde. Questo PDF gratuito di collegamento dei punti offre un'attività oceanica accessibile per i bambini dai 4 ai 7 anni.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
       },
-      "json_ld": {
-        "type": "CreativeWork",
+      "body": {
+        "h1": "Collegamento dei punti del Merman per la scuola materna: 44 punti facili, gratuito",
         "name": "Tritone",
-        "description": "Traccia 44 punti per far emergere un merman mitologico dalle onde. Questo PDF gratuito di collegamento dei punti offre un'attività oceanica accessibile per i bambini dai 4 ai 7 anni.",
-        "image": "",
-        "educational_use": "Fine motor skills, number sequencing",
-        "age_range": ""
-      }
-    },
-    "body": {
-      "h1": "Collegamento dei punti del Merman per la scuola materna: 44 punti facili, gratuito",
-      "name": "Tritone",
-      "tagline": "Il Re degli Abissi",
-      "description": "Collega i punti per rivelare un magnifico merman che emerge dalle profondità dell'oceano! Con 44 punti facili, questo puzzle è perfetto per i bambini della scuola materna e dell'asilo che praticano la sequenza dei numeri mentre esplorano la fantasia sottomarina.",
-      "fun_fact": "I maschi delle creature marine (merman) appaiono nella mitologia in tutto il mondo — dall'antica Grecia ai Caraibi!",
-      "dot_guide": {
-        "intro": "I tritoni sono i potenti e misteriosi re degli abissi oceanici, protagonisti di miti che spaziano dall'antica Grecia ai Caraibi, dall'Africa occidentale alle coste della Scozia. Spesso raffigurati come feroci sovrani del mare, si sentono a loro agio sia nelle tranquille lagune che nelle tempeste più violente. Questo puzzle da 44 punti è una sfida piacevole e accessibile per i bambini più piccoli. Prendete una matita e andate a conoscere il re degli abissi!",
-        "sections": [
+        "tagline": "Il Re degli Abissi",
+        "description": "Collega i punti per rivelare un magnifico merman che emerge dalle profondità dell'oceano! Con 44 punti facili, questo puzzle è perfetto per i bambini della scuola materna e dell'asilo che praticano la sequenza dei numeri mentre esplorano la fantasia sottomarina.",
+        "fun_fact": "I maschi delle creature marine (merman) appaiono nella mitologia in tutto il mondo — dall'antica Grecia ai Caraibi!",
+        "faqs": [
           {
-            "range": "1–8",
-            "title": "La testa e il viso",
-            "learn": "Iniziate dal punto 1 e collegatevi al punto 8 per disegnare il volto forte e fiero del tritone. Questa sezione introduttiva utilizza curve delicate e aiuta i bambini ad entrare nel ritmo del puzzle. Contare ogni punto ad alta voce è un ottimo modo per genitori e accompagnatori di partecipare fin dall'inizio.",
-            "fact": "Nell'antica mitologia greca, il dio del mare Poseidone (Nettuno nella mitologia romana) era spesso raffigurato come una potente figura simile a un tritone, che governava gli oceani con un tridente. Suo figlio Tritone era un tritone a tutti gli effetti – metà uomo e metà pesce – che poteva calmare o scatenare tempeste soffiando nella sua tromba ricavata da una conchiglia."
+            "q": "Quanti punti ha il puzzle \"Unisci i puntini\" del Tritone?",
+            "a": "Il disegno \"Unisci i puntini\" del tritone ha 44 punti numerati. Questo lo rende un puzzle di difficoltà medio-facile, ideale per bambini dai 5 agli 8 anni (dalla scuola dell'infanzia alla seconda elementare). I bambini uniscono i punti in ordine numerico per rivelare l'immagine completa del tritone, che poi possono colorare."
           },
           {
-            "range": "9–18",
-            "title": "Le armi e il tridente",
-            "learn": "Prosegui dal punto 9 al punto 18 per disegnare le braccia tese e l'accenno di un tridente. I bambini si esercitano a disegnare forme che si estendono verso l'esterno dal corpo, una sfida diversa rispetto al disegnare forme che curvano verso l'interno. Questa sezione sviluppa la consapevolezza dell'orientamento spaziale e tratti sicuri verso l'esterno.",
-            "fact": "Il tridente, una lancia a tre punte, è da millenni il simbolo del potere marittimo nella mitologia. La parola deriva dal latino \"tridens\", che significa tre denti. I pescatori di molte culture hanno utilizzato lance a tre punte per pescare per secoli, quindi è probabile che il simbolo si sia sviluppato a partire da strumenti di uso quotidiano."
+            "q": "Il disegno a puntini del tritone è stampabile gratuitamente?",
+            "a": "Sì. Il foglio di lavoro sul tritone è scaricabile gratuitamente al 100% da DotToDotFreePrintables.com: non è richiesto alcun account, indirizzo email o pagamento. Il download è immediato in formato PDF pronto per la stampa, sia in orientamento verticale che orizzontale, e dimensionato per carta US Letter o A4."
           },
           {
-            "range": "19–30",
-            "title": "Il busto possente",
-            "learn": "Traccia i punti dal 19 al 30 per completare il busto ampio e muscoloso. Questa è la sezione più lunga del puzzle e un'ottima opportunità per sviluppare la concentrazione prolungata, un'abilità importante sia in classe che a casa per i bambini dai 4 ai 7 anni. Festeggia il raggiungimento del punto 30 come traguardo a metà del lavoro.",
-            "fact": "Nel folklore scozzese e irlandese, i tritoni compaiono come gli \"Uomini Blu del Minch\", creature marine magiche che si dice vivano nello stretto tra la Scozia e le Ebridi Esterne. I narratori locali immaginavano questi tritoni dalla pelle blu sfidare i marinai di passaggio a una gara di poesia, lasciando che i poeti migliori proseguissero il loro viaggio in sicurezza!"
+            "q": "Per quale fascia d'età è più adatto il foglio di lavoro \"unisci i puntini\" con il tritone?",
+            "a": "Con 44 punti, il puzzle del Tritone è ideale per bambini dai 5 agli 8 anni (dalla scuola dell'infanzia alla seconda elementare). I più piccoli possono divertirsi con un piccolo aiuto da parte di un adulto che conta insieme, mentre i bambini più abili nel conteggio possono completarlo in autonomia ed esercitarsi con le sequenze numeriche fino a 44."
           },
           {
-            "range": "31–38",
-            "title": "La coda di pesce",
-            "learn": "Collega i punti dal 31 al 38 per dare forma alla coda del pesce. In questa sezione, i bambini vedono emergere la sagoma completa del tritone: un momento appagante che ricompensa tutta la cura e l'attenzione dedicate alla ricerca dei punti. Tratti fluidi e decisi verso il basso conferiscono alla coda un movimento naturale.",
-            "fact": "Olokun, il dio del mare caraibico, presente nella mitologia Yoruba originaria dell'Africa occidentale, è una potente divinità oceanica talvolta raffigurata con una coda di pesce. Olokun rappresenta le profondità dell'oceano: i misteri, le ricchezze nascoste sotto le onde e gli abissi inconsci della mente umana. Un'immagine straordinariamente poetica."
+            "q": "Quali abilità insegna il gioco \"Unisci i puntini\" del Tritone?",
+            "a": "Unire i 44 punti del puzzle del Tritone sviluppa il riconoscimento dei numeri e la capacità di contare fino a 44, il controllo della matita, la coordinazione occhio-mano e la concentrazione prolungata: le stesse basi motorie fini che supportano la scrittura a mano nei primi anni di vita. Colorare il disegno completato aggiunge una gratificazione creativa."
           },
           {
-            "range": "39–44",
-            "title": "Le pinne caudali",
-            "learn": "Termina collegando i punti dal 39 al 44 per aggiungere le pinne caudali sinuose. Sei punti per completare il re degli abissi: incoraggia i bambini a dare a queste linee finali un vero tocco di sicurezza e fluidità. Un finale incisivo vale sempre la pena di prendersi un momento per riflettere prima di iniziare.",
-            "fact": "Nel folklore irlandese, i tritoni sono talvolta chiamati \"Mermen\" o \"Merrows\" e, a differenza di molte creature marine mitologiche, erano considerati generalmente amichevoli nei confronti degli umani, tanto da sposarsi occasionalmente con membri di famiglie di pescatori e vivere sulla terraferma per un certo periodo. L'oceano, in queste storie, non era un luogo da temere, ma un vicino da rispettare."
+            "q": "Qual è una curiosità divertente sull'uomo-pesce?",
+            "a": "Le creature marine maschi (tritoni) compaiono nella mitologia di tutto il mondo, dall'antica Grecia ai Caraibi! I bambini scopriranno curiosità come questa completando il puzzle \"Unisci i puntini\" dedicato ai tritoni."
           }
         ],
-        "outro": "Un lavoro fantastico: il tuo tritone è pronto a dominare gli abissi! Questo è un puzzle meraviglioso da abbinare a una visita in biblioteca per trovare libri sulla mitologia marina. Le storie del mare ispirano l'immaginazione dei bambini da migliaia di anni. Scopri altri dei nostri <a href=\"/ocean/\">disegni da unire ai puntini da 1 a 100</a> ispirati agli abissi.",
-        "color_schemes": []
+        "dot_guide": {
+          "intro": "I tritoni sono i potenti e misteriosi re degli abissi oceanici, protagonisti di miti che spaziano dall'antica Grecia ai Caraibi, dall'Africa occidentale alle coste della Scozia. Spesso raffigurati come feroci sovrani del mare, si sentono a loro agio sia nelle tranquille lagune che nelle tempeste più violente. Questo puzzle da 44 punti è una sfida piacevole e accessibile per i bambini più piccoli. Prendete una matita e andate a conoscere il re degli abissi!",
+          "sections": [
+            {
+              "range": "1–8",
+              "title": "La testa e il viso",
+              "learn": "Iniziate dal punto 1 e collegatevi al punto 8 per disegnare il volto forte e fiero del tritone. Questa sezione introduttiva utilizza curve delicate e aiuta i bambini ad entrare nel ritmo del puzzle. Contare ogni punto ad alta voce è un ottimo modo per genitori e accompagnatori di partecipare fin dall'inizio.",
+              "fact": "Nell'antica mitologia greca, il dio del mare Poseidone (Nettuno nella mitologia romana) era spesso raffigurato come una potente figura simile a un tritone, che governava gli oceani con un tridente. Suo figlio Tritone era un tritone a tutti gli effetti – metà uomo e metà pesce – che poteva calmare o scatenare tempeste soffiando nella sua tromba ricavata da una conchiglia."
+            },
+            {
+              "range": "9–18",
+              "title": "Le armi e il tridente",
+              "learn": "Prosegui dal punto 9 al punto 18 per disegnare le braccia tese e l'accenno di un tridente. I bambini si esercitano a disegnare forme che si estendono verso l'esterno dal corpo, una sfida diversa rispetto al disegnare forme che curvano verso l'interno. Questa sezione sviluppa la consapevolezza dell'orientamento spaziale e tratti sicuri verso l'esterno.",
+              "fact": "Il tridente, una lancia a tre punte, è da millenni il simbolo del potere marittimo nella mitologia. La parola deriva dal latino \"tridens\", che significa tre denti. I pescatori di molte culture hanno utilizzato lance a tre punte per pescare per secoli, quindi è probabile che il simbolo si sia sviluppato a partire da strumenti di uso quotidiano."
+            },
+            {
+              "range": "19–30",
+              "title": "Il busto possente",
+              "learn": "Traccia i punti dal 19 al 30 per completare il busto ampio e muscoloso. Questa è la sezione più lunga del puzzle e un'ottima opportunità per sviluppare la concentrazione prolungata, un'abilità importante sia in classe che a casa per i bambini dai 4 ai 7 anni. Festeggia il raggiungimento del punto 30 come traguardo a metà del lavoro.",
+              "fact": "Nel folklore scozzese e irlandese, i tritoni compaiono come gli \"Uomini Blu del Minch\", creature marine magiche che si dice vivano nello stretto tra la Scozia e le Ebridi Esterne. I narratori locali immaginavano questi tritoni dalla pelle blu sfidare i marinai di passaggio a una gara di poesia, lasciando che i poeti migliori proseguissero il loro viaggio in sicurezza!"
+            },
+            {
+              "range": "31–38",
+              "title": "La coda di pesce",
+              "learn": "Collega i punti dal 31 al 38 per dare forma alla coda del pesce. In questa sezione, i bambini vedono emergere la sagoma completa del tritone: un momento appagante che ricompensa tutta la cura e l'attenzione dedicate alla ricerca dei punti. Tratti fluidi e decisi verso il basso conferiscono alla coda un movimento naturale.",
+              "fact": "Olokun, il dio del mare caraibico, presente nella mitologia Yoruba originaria dell'Africa occidentale, è una potente divinità oceanica talvolta raffigurata con una coda di pesce. Olokun rappresenta le profondità dell'oceano: i misteri, le ricchezze nascoste sotto le onde e gli abissi inconsci della mente umana. Un'immagine straordinariamente poetica."
+            },
+            {
+              "range": "39–44",
+              "title": "Le pinne caudali",
+              "learn": "Termina collegando i punti dal 39 al 44 per aggiungere le pinne caudali sinuose. Sei punti per completare il re degli abissi: incoraggia i bambini a dare a queste linee finali un vero tocco di sicurezza e fluidità. Un finale incisivo vale sempre la pena di prendersi un momento per riflettere prima di iniziare.",
+              "fact": "Nel folklore irlandese, i tritoni sono talvolta chiamati \"Mermen\" o \"Merrows\" e, a differenza di molte creature marine mitologiche, erano considerati generalmente amichevoli nei confronti degli umani, tanto da sposarsi occasionalmente con membri di famiglie di pescatori e vivere sulla terraferma per un certo periodo. L'oceano, in queste storie, non era un luogo da temere, ma un vicino da rispettare."
+            }
+          ],
+          "outro": "Un lavoro fantastico: il tuo tritone è pronto a dominare gli abissi! Questo è un puzzle meraviglioso da abbinare a una visita in biblioteca per trovare libri sulla mitologia marina. Le storie del mare ispirano l'immaginazione dei bambini da migliaia di anni. Scopri altri dei nostri <a href=\"/ocean/\">disegni da unire ai puntini da 1 a 100</a> ispirati agli abissi.",
+          "color_schemes": []
+        }
       }
-    }
-  },
-  {
-    "slug": "seahorse-dot-to-dot-puzzle",
-    "header": {
-      "title": "Cavalluccio Marino da Unire — La Nostra Scheda Oceano Più Facile, 35 Punti",
-      "meta_description": "I padri cavalluccio marino portano i loro piccoli. Incontra questo genitore oceanico insolito in 35 punti con un foglio di lavoro stampabile gratuito per bambini dai 4 ai 7 anni.",
-      "og": {
+    },
+    {
+      "slug": "seahorse-dot-to-dot-puzzle",
+      "header": {
         "title": "Cavalluccio Marino da Unire — La Nostra Scheda Oceano Più Facile, 35 Punti",
-        "description": "I padri cavalluccio marino portano i loro piccoli. Incontra questo genitore oceanico insolito in 35 punti con un foglio di lavoro stampabile gratuito per bambini dai 4 ai 7 anni.",
-        "image_alt": "Adorabile cavalluccio marino che galleggia unendo 35 puntini numerati su scheda stampabile"
+        "meta_description": "I padri cavalluccio marino portano i loro piccoli. Incontra questo genitore oceanico insolito in 35 punti con un foglio di lavoro stampabile gratuito per bambini dai 4 ai 7 anni.",
+        "og": {
+          "title": "Cavalluccio Marino da Unire — La Nostra Scheda Oceano Più Facile, 35 Punti",
+          "description": "I padri cavalluccio marino portano i loro piccoli. Incontra questo genitore oceanico insolito in 35 punti con un foglio di lavoro stampabile gratuito per bambini dai 4 ai 7 anni.",
+          "image_alt": "Adorabile cavalluccio marino che galleggia unendo 35 puntini numerati su scheda stampabile"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Cavalluccio marino",
+          "description": "I padri cavalluccio marino portano i loro piccoli. Incontra questo genitore oceanico insolito in 35 punti con un foglio di lavoro stampabile gratuito per bambini dai 4 ai 7 anni.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
       },
-      "json_ld": {
-        "type": "CreativeWork",
+      "body": {
+        "h1": "Collegamento dei punti del Cavalluccio Marino, il nostro PDF oceanico più facile con 35 punti",
         "name": "Cavalluccio marino",
-        "description": "I padri cavalluccio marino portano i loro piccoli. Incontra questo genitore oceanico insolito in 35 punti con un foglio di lavoro stampabile gratuito per bambini dai 4 ai 7 anni.",
-        "image": "",
-        "educational_use": "Fine motor skills, number sequencing",
-        "age_range": ""
-      }
-    },
-    "body": {
-      "h1": "Collegamento dei punti del Cavalluccio Marino, il nostro PDF oceanico più facile con 35 punti",
-      "name": "Cavalluccio marino",
-      "tagline": "Il piccolo cavaliere dell'oceano",
-      "description": "Collega i punti per rivelare un affascinante cavalluccio marino che fluttua attraverso il mare! Con solo 35 punti facili, questo puzzle è ideale per i bambini della scuola materna e dell'asilo che costruiscono abilità nella sequenza dei numeri con un adorabile amico oceanico.",
-      "fun_fact": "I cavallucci marini sono gli unici pesci in cui il maschio porta e dà alla luce i piccoli!",
-      "dot_guide": {
-        "intro": "Il cavalluccio marino è una delle creature più straordinarie di tutto l'oceano, non solo per il suo aspetto, ma anche per il suo stile di vita. Nuota in posizione eretta, si muove agitando una minuscola pinna sul dorso, si ancora alle alghe con la coda arricciata e il padre si prende cura dei piccoli e li partorisce. Se doveste disegnare un animale da zero, non immaginereste mai qualcosa di così meravigliosamente insolito. Disegniamone uno insieme!",
-        "sections": [
+        "tagline": "Il piccolo cavaliere dell'oceano",
+        "description": "Collega i punti per rivelare un affascinante cavalluccio marino che fluttua attraverso il mare! Con solo 35 punti facili, questo puzzle è ideale per i bambini della scuola materna e dell'asilo che costruiscono abilità nella sequenza dei numeri con un adorabile amico oceanico.",
+        "fun_fact": "I cavallucci marini sono gli unici pesci in cui il maschio porta e dà alla luce i piccoli!",
+        "faqs": [
           {
-            "range": "1–6",
-            "title": "La testa e il muso",
-            "learn": "Iniziate dal punto 1 e collegatevi al punto 6 per disegnare la caratteristica testa simile a quella di un cavallo e il lungo muso tubolare del cavalluccio marino. Questa piccola sezione è un inizio piacevole e gestibile per i bambini più piccoli: solo sei punti per acquisire sicurezza prima di affrontare le sezioni più grandi. Il muso è una delle forme più insolite del regno animale.",
-            "fact": "Il cavalluccio marino non ha denti né stomaco. Aspira minuscoli gamberetti e plancton attraverso il muso come un aspirapolvere e, poiché il cibo passa molto velocemente, deve mangiare quasi costantemente: fino a 3.000 artemie al giorno. Essere un cavalluccio marino è essenzialmente un lavoro a tempo pieno dedicato al mangiare."
+            "q": "Quanti punti ha il gioco \"unisci i puntini\" del cavalluccio marino?",
+            "a": "Il disegno a puntini \"Cavalluccio marino\" ha 35 punti numerati. Questo lo rende un puzzle semplice, ideale per bambini dai 4 ai 6 anni (scuola dell'infanzia e scuola primaria). I bambini uniscono i puntini in ordine numerico per rivelare l'immagine completa del cavalluccio marino, che poi possono colorare."
           },
           {
-            "range": "7–16",
-            "title": "Il collo curvo e la criniera",
-            "learn": "Proseguite dal punto 7 al punto 16 per tracciare il collo elegantemente curvo e la cresta lungo il dorso, a volte chiamata criniera del cavalluccio marino. Questa sezione presenta la curva più bella di tutto il puzzle. I bambini imparano a seguire un arco lungo e fluido, muovendo la matita lentamente e in modo uniforme per ottenere il risultato migliore.",
-            "fact": "I cavallucci marini sono a tutti gli effetti tra i pesci più lenti dell'oceano, con una velocità massima di circa un metro e mezzo all'ora. Per dare un'idea, una lumaca da giardino si muove più velocemente. Invece di inseguire le prede, il cavalluccio marino si affida interamente al mimetismo e all'effetto sorpresa: si lascia trasportare dalla corrente vicino al cibo e poi attacca con la velocità di un fulmine."
+            "q": "Il disegno a puntini del cavalluccio marino è stampabile gratuitamente?",
+            "a": "Sì. Il foglio di lavoro sul cavalluccio marino è scaricabile gratuitamente al 100% da DotToDotFreePrintables.com: non è richiesto alcun account, indirizzo email o pagamento. Il download è immediato in formato PDF pronto per la stampa, sia in orientamento verticale che orizzontale, e dimensionato per carta US Letter o A4."
           },
           {
-            "range": "17–26",
-            "title": "Gli anelli del corpo",
-            "learn": "Segui i punti dal 17 al 26 per disegnare il corpo segmentato in modo caratteristico: quegli anelli ossei in rilievo che vanno dal collo alla coda. I bambini imparano così che il corpo degli animali non è sempre liscio e iniziano a notare la splendida struttura dell'armatura naturale del cavalluccio marino. Questa sezione premia chi segue i punti con attenzione e precisione.",
-            "fact": "Il cavalluccio marino non è ricoperto di squame come la maggior parte dei pesci, bensì il suo corpo è avvolto da placche ossee disposte ad anelli. Questo lo rende piuttosto rigido, motivo per cui non può dimenarsi come la maggior parte dei pesci. È essenzialmente come se indossasse un'armatura, il che lo rende anche una delle creature marine di piccole dimensioni più resistenti da inghiottire per un predatore."
+            "q": "Per quale fascia d'età è più adatto il foglio di lavoro \"unisci i puntini\" a forma di cavalluccio marino?",
+            "a": "Con 35 punti, il puzzle del cavalluccio marino è ideale per bambini dai 4 ai 6 anni (scuola dell'infanzia e primo anno della scuola primaria). I bambini più piccoli possono divertirsi con un piccolo aiuto da parte di un adulto che conta, mentre quelli più abili nel contare possono completarlo in autonomia ed esercitarsi con le sequenze numeriche fino a 35."
           },
           {
-            "range": "27–35",
-            "title": "La coda arricciata",
-            "learn": "Completa il puzzle collegando i punti dal 27 al 35 per disegnare la lunga coda ricurva che si insinua sotto il corpo. La coda è una delle forme più gratificanti da disegnare: i bambini si esercitano a tracciare una spirale stretta e che si restringe progressivamente, un'esperienza stimolante e appagante. Mancano solo nove punti al traguardo!",
-            "fact": "La coda del cavalluccio marino è prensile, ovvero può afferrare oggetti, proprio come la coda di una scimmia. I cavallucci marini si ancorano ai coralli e alle alghe con la coda per evitare di essere trascinati via dalle correnti. Durante l'accoppiamento, il maschio e la femmina intrecciano le code e si lasciano trasportare dalla corrente fianco a fianco: uno degli spettacoli più romantici dell'oceano."
+            "q": "Quali abilità insegna il gioco \"unisci i puntini\" con il cavalluccio marino?",
+            "a": "Unire i 35 punti del puzzle del cavalluccio marino sviluppa il riconoscimento dei numeri e la capacità di contare fino a 35, il controllo della matita, la coordinazione occhio-mano e la concentrazione prolungata: le stesse basi motorie fini che supportano la scrittura a mano nei primi anni di vita. Colorare il disegno completato aggiunge una gratificazione creativa."
+          },
+          {
+            "q": "Qual è una curiosità interessante sui cavallucci marini?",
+            "a": "I cavallucci marini sono gli unici pesci in cui è il maschio a portare in grembo e partorire i piccoli! I bambini scopriranno curiosità come questa completando il puzzle a puntini del cavalluccio marino."
           }
         ],
-        "outro": "Che bel lavoro! Il tuo cavalluccio marino è completo! Lo sapevi che esistono oltre 45 specie diverse di cavallucci marini, con colori che vanno dal giallo brillante al viola intenso, fino a quelli quasi completamente trasparenti? Colora il tuo come preferisci: nel mondo dei cavallucci marini, tutto è possibile. Cerchi una nuova sfida? Scopri tutti i nostri <a href=\"/\">disegni da unire ai puntini</a>.",
-        "color_schemes": []
+        "dot_guide": {
+          "intro": "Il cavalluccio marino è una delle creature più straordinarie di tutto l'oceano, non solo per il suo aspetto, ma anche per il suo stile di vita. Nuota in posizione eretta, si muove agitando una minuscola pinna sul dorso, si ancora alle alghe con la coda arricciata e il padre si prende cura dei piccoli e li partorisce. Se doveste disegnare un animale da zero, non immaginereste mai qualcosa di così meravigliosamente insolito. Disegniamone uno insieme!",
+          "sections": [
+            {
+              "range": "1–6",
+              "title": "La testa e il muso",
+              "learn": "Iniziate dal punto 1 e collegatevi al punto 6 per disegnare la caratteristica testa simile a quella di un cavallo e il lungo muso tubolare del cavalluccio marino. Questa piccola sezione è un inizio piacevole e gestibile per i bambini più piccoli: solo sei punti per acquisire sicurezza prima di affrontare le sezioni più grandi. Il muso è una delle forme più insolite del regno animale.",
+              "fact": "Il cavalluccio marino non ha denti né stomaco. Aspira minuscoli gamberetti e plancton attraverso il muso come un aspirapolvere e, poiché il cibo passa molto velocemente, deve mangiare quasi costantemente: fino a 3.000 artemie al giorno. Essere un cavalluccio marino è essenzialmente un lavoro a tempo pieno dedicato al mangiare."
+            },
+            {
+              "range": "7–16",
+              "title": "Il collo curvo e la criniera",
+              "learn": "Proseguite dal punto 7 al punto 16 per tracciare il collo elegantemente curvo e la cresta lungo il dorso, a volte chiamata criniera del cavalluccio marino. Questa sezione presenta la curva più bella di tutto il puzzle. I bambini imparano a seguire un arco lungo e fluido, muovendo la matita lentamente e in modo uniforme per ottenere il risultato migliore.",
+              "fact": "I cavallucci marini sono a tutti gli effetti tra i pesci più lenti dell'oceano, con una velocità massima di circa un metro e mezzo all'ora. Per dare un'idea, una lumaca da giardino si muove più velocemente. Invece di inseguire le prede, il cavalluccio marino si affida interamente al mimetismo e all'effetto sorpresa: si lascia trasportare dalla corrente vicino al cibo e poi attacca con la velocità di un fulmine."
+            },
+            {
+              "range": "17–26",
+              "title": "Gli anelli del corpo",
+              "learn": "Segui i punti dal 17 al 26 per disegnare il corpo segmentato in modo caratteristico: quegli anelli ossei in rilievo che vanno dal collo alla coda. I bambini imparano così che il corpo degli animali non è sempre liscio e iniziano a notare la splendida struttura dell'armatura naturale del cavalluccio marino. Questa sezione premia chi segue i punti con attenzione e precisione.",
+              "fact": "Il cavalluccio marino non è ricoperto di squame come la maggior parte dei pesci, bensì il suo corpo è avvolto da placche ossee disposte ad anelli. Questo lo rende piuttosto rigido, motivo per cui non può dimenarsi come la maggior parte dei pesci. È essenzialmente come se indossasse un'armatura, il che lo rende anche una delle creature marine di piccole dimensioni più resistenti da inghiottire per un predatore."
+            },
+            {
+              "range": "27–35",
+              "title": "La coda arricciata",
+              "learn": "Completa il puzzle collegando i punti dal 27 al 35 per disegnare la lunga coda ricurva che si insinua sotto il corpo. La coda è una delle forme più gratificanti da disegnare: i bambini si esercitano a tracciare una spirale stretta e che si restringe progressivamente, un'esperienza stimolante e appagante. Mancano solo nove punti al traguardo!",
+              "fact": "La coda del cavalluccio marino è prensile, ovvero può afferrare oggetti, proprio come la coda di una scimmia. I cavallucci marini si ancorano ai coralli e alle alghe con la coda per evitare di essere trascinati via dalle correnti. Durante l'accoppiamento, il maschio e la femmina intrecciano le code e si lasciano trasportare dalla corrente fianco a fianco: uno degli spettacoli più romantici dell'oceano."
+            }
+          ],
+          "outro": "Che bel lavoro! Il tuo cavalluccio marino è completo! Lo sapevi che esistono oltre 45 specie diverse di cavallucci marini, con colori che vanno dal giallo brillante al viola intenso, fino a quelli quasi completamente trasparenti? Colora il tuo come preferisci: nel mondo dei cavallucci marini, tutto è possibile. Cerchi una nuova sfida? Scopri tutti i nostri <a href=\"/\">disegni da unire ai puntini</a>.",
+          "color_schemes": []
+        }
       }
-    }
-  },
-  {
-    "slug": "whale-dot-to-dot-puzzle",
-    "header": {
-      "title": "Balena da Unire i Puntini — 42 Punti Facili da Collegare",
-      "meta_description": "Gli animali più grandi mai conosciuti ispirano questo puzzle della balena con 42 punti. Scarica il PDF stampabile gratuito per una pratica di conteggio delicata per i bambini dai 4 ai 7 anni.",
-      "og": {
+    },
+    {
+      "slug": "whale-dot-to-dot-puzzle",
+      "header": {
         "title": "Balena da Unire i Puntini — 42 Punti Facili da Collegare",
-        "description": "Gli animali più grandi mai conosciuti ispirano questo puzzle della balena con 42 punti. Scarica il PDF stampabile gratuito per una pratica di conteggio delicata per i bambini dai 4 ai 7 anni.",
-        "image_alt": "Magnifica balena che nuota disegnata unendo 42 puntini numerati su scheda gratuita"
+        "meta_description": "Gli animali più grandi mai conosciuti ispirano questo puzzle della balena con 42 punti. Scarica il PDF stampabile gratuito per una pratica di conteggio delicata per i bambini dai 4 ai 7 anni.",
+        "og": {
+          "title": "Balena da Unire i Puntini — 42 Punti Facili da Collegare",
+          "description": "Gli animali più grandi mai conosciuti ispirano questo puzzle della balena con 42 punti. Scarica il PDF stampabile gratuito per una pratica di conteggio delicata per i bambini dai 4 ai 7 anni.",
+          "image_alt": "Magnifica balena che nuota disegnata unendo 42 puntini numerati su scheda gratuita"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Balena",
+          "description": "Gli animali più grandi mai conosciuti ispirano questo puzzle della balena con 42 punti. Scarica il PDF stampabile gratuito per una pratica di conteggio delicata per i bambini dai 4 ai 7 anni.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
       },
-      "json_ld": {
-        "type": "CreativeWork",
+      "body": {
+        "h1": "Collegamento dei punti della Balena Stampabile — 42 punti facili da unire",
         "name": "Balena",
-        "description": "Gli animali più grandi mai conosciuti ispirano questo puzzle della balena con 42 punti. Scarica il PDF stampabile gratuito per una pratica di conteggio delicata per i bambini dai 4 ai 7 anni.",
-        "image": "",
-        "educational_use": "Fine motor skills, number sequencing",
-        "age_range": ""
-      }
-    },
-    "body": {
-      "h1": "Collegamento dei punti della Balena Stampabile — 42 punti facili da unire",
-      "name": "Balena",
-      "tagline": "Un gigante gentile del mare",
-      "description": "Collega 42 punti facili per rivelare una magnifica balena che nuota attraverso l'oceano. Questo puzzle stampabile aiuta i bambini della scuola materna e dell'asilo a praticare la sequenza dei numeri, il controllo della matita e la concentrazione.",
-      "fun_fact": "Le balenottere azzurre sono i più grandi animali mai vissuti sulla Terra!",
-      "dot_guide": {
-        "intro": "La balena è il più grande animale mai esistito sul nostro pianeta: più grande di qualsiasi dinosauro, più grande di qualsiasi creatura terrestre. Eppure, nonostante le loro enormi dimensioni, le balene sono creature gentili, intelligenti e profondamente sociali, che comunicano tra loro attraverso centinaia di chilometri di oceano aperto. Questo puzzle da 42 punti cattura proprio questa qualità di pace e tranquillità. Fai un respiro profondo, trova il punto numero 1 e tuffati!",
-        "sections": [
+        "tagline": "Un gigante gentile del mare",
+        "description": "Collega 42 punti facili per rivelare una magnifica balena che nuota attraverso l'oceano. Questo puzzle stampabile aiuta i bambini della scuola materna e dell'asilo a praticare la sequenza dei numeri, il controllo della matita e la concentrazione.",
+        "fun_fact": "Le balenottere azzurre sono i più grandi animali mai vissuti sulla Terra!",
+        "faqs": [
           {
-            "range": "1–8",
-            "title": "La testa e la bocca",
-            "learn": "Iniziate dal punto 1 e collegatevi al punto 8 per disegnare la testa ampia e arrotondata della balena e la dolce curva della bocca. Le balene hanno una delle teste dalla forma più pacifica in natura: nessun dente aguzzo in vista, nessuna espressione feroce. I bambini si esercitano a disegnare curve ampie e lente, che rispecchiano il carattere tranquillo della balena.",
-            "fact": "Il cuore di una balenottera azzurra ha all'incirca le dimensioni di una piccola automobile, pesando circa 180 kg, e batte solo da 8 a 10 volte al minuto quando la balena si immerge. Quando emerge, la frequenza cardiaca aumenta fino a 25-37 battiti al minuto. È il cuore più grande di qualsiasi animale mai esistito sulla Terra: davvero incredibile!"
+            "q": "Quanti punti ha il gioco \"unisci i puntini\" della balena?",
+            "a": "Il disegno \"Unisci i puntini\" della balena ha 42 punti numerati. Questo lo rende un puzzle di difficoltà medio-facile, ideale per bambini dai 5 agli 8 anni (dalla scuola dell'infanzia alla seconda elementare). I bambini uniscono i punti in ordine numerico per rivelare l'immagine completa della balena, che poi possono colorare."
           },
           {
-            "range": "9–18",
-            "title": "La pinna dorsale e posteriore",
-            "learn": "Proseguite dal punto 9 al punto 18 per tracciare il dorso lungo e liscio e la piccola pinna dorsale. Rispetto alla pinna alta di un delfino, la pinna dorsale di una balenottera azzurra è minuscola: i bambini spesso lo notano, il che dà il via a una piacevole discussione sul perché animali diversi abbiano caratteristiche diverse. Per questa curva delicata, i tratti lunghi e fluidi sono i più adatti.",
-            "fact": "La pelle delle balene presenta disegni unici di cicatrici, macchie e segni, così distintivi che gli scienziati possono identificare i singoli esemplari solo dalle fotografie. Alcune balene, oggetto di studi a lungo termine, sono state monitorate per oltre 30 anni. Conosciamo ogni singola balena per nome, personalità e storia familiare. È una cosa straordinaria."
+            "q": "Il disegno della balena da unire i puntini è stampabile gratuitamente?",
+            "a": "Sì. Il foglio di lavoro sulla balena è scaricabile gratuitamente al 100% da DotToDotFreePrintables.com: non è richiesto alcun account, indirizzo email o pagamento. Il download è immediato in formato PDF pronto per la stampa, sia in orientamento verticale che orizzontale, e dimensionato per carta US Letter o A4."
           },
           {
-            "range": "19–30",
-            "title": "La pancia e il corpo",
-            "learn": "Traccia i punti dal 19 al 30 per riempire l'enorme ventre e completare la forma principale del corpo. La parte inferiore della balena è spesso di un colore più chiaro rispetto al dorso: una forma di mimetismo chiamata controombreggiatura, comune negli animali marini. I bambini si esercitano qui con la sezione più lunga del puzzle, sviluppando una vera e propria resistenza alla concentrazione.",
-            "fact": "Una balenottera azzurra può mangiare fino a quattro tonnellate di krill – minuscoli crostacei simili a gamberetti – in un solo giorno. Ci riesce lanciandosi in uno sciame con la bocca spalancata, inghiottendo un'enorme quantità d'acqua, per poi espellerla attraverso le lamelle di fanoni mentre il krill rimane intrappolato all'interno. Una tecnica elegante e ancestrale."
+            "q": "Per quale fascia d'età è più adatto il foglio di lavoro \"unisci i puntini\" con la balena?",
+            "a": "Con 42 punti, il puzzle della Balena è ideale per bambini dai 5 agli 8 anni (dalla scuola dell'infanzia alla seconda elementare). I più piccoli possono divertirsi con un piccolo aiuto da parte di un adulto che conta insieme, mentre i bambini più abili nel conteggio possono completarlo in autonomia ed esercitarsi con le sequenze numeriche fino a 42."
           },
           {
-            "range": "31–36",
-            "title": "Le Flippers",
-            "learn": "Collega i punti da 31 a 36 per disegnare le lunghe pinne a forma di pagaia. Le pinne delle balene contengono le stesse ossa di una mano e di un braccio umani: cinque ossa delle dita, un polso e un braccio, semplicemente rimodellate nel corso di milioni di anni per adattarsi alla vita nell'oceano. I bambini adorano scoprirlo quando glielo fai notare mentre completano il puzzle.",
-            "fact": "All'interno della pinna di una balena si trovano le stesse ossa che abbiamo nella nostra mano: pollice, dita, polso e tutto il resto. Gli antenati delle balene camminavano sulla terraferma circa 50 milioni di anni fa, e la pinna è ciò che quelle zampe hanno sviluppato nel corso del tempo. L'evoluzione è essenzialmente uno scultore molto lento e molto paziente."
+            "q": "Quali abilità insegna il gioco \"Unisci i puntini\" della balena?",
+            "a": "Unire i 42 punti del puzzle della Balena sviluppa il riconoscimento dei numeri e la capacità di contare fino a 42, il controllo della matita, la coordinazione occhio-mano e la concentrazione prolungata: le stesse basi motorie fini che supportano la scrittura a mano nei primi anni di vita. Colorare il disegno completato aggiunge una gratificazione creativa."
           },
           {
-            "range": "37–42",
-            "title": "Le pinne caudali",
-            "learn": "Completa il puzzle collegando i punti dal 37 al 42 per disegnare le ampie pinne caudali, la struttura più potente del regno animale in relazione alla sua funzione. Bastano solo sei punti per completare questo gigante gentile. Incoraggia una conclusione sicura e decisa: la balena merita un finale grandioso.",
-            "fact": "La coda di una balenottera azzurra può raggiungere una larghezza di 7,6 metri, più ampia di molte case. Ogni colpo verso il basso di queste pinne spinge la balena in avanti a una velocità massima di 32 chilometri orari per brevi tratti. Il canto delle balene, prodotto senza corde vocali, può viaggiare per oltre 1.600 chilometri nelle profondità oceaniche. Questi animali sono straordinari sotto quasi ogni punto di vista immaginabile."
+            "q": "Qual è una curiosità interessante sulle balene?",
+            "a": "Le balenottere azzurre sono gli animali più grandi mai vissuti sulla Terra! I bambini scopriranno curiosità come questa completando il puzzle \"unisci i puntini\" a tema balena."
           }
         ],
-        "outro": "Hai appena disegnato l'animale più grande della Terra: bravissimo! Questo puzzle si abbina perfettamente a una conversazione sulla conservazione degli oceani. Le balene sono state cacciate quasi fino all'estinzione il secolo scorso e ora si stanno lentamente riprendendo. I bambini che oggi amano le balene sono esattamente il tipo di persone che le proteggeranno domani. Per altre pagine pronte per la classe, consulta i nostri <a href=\"/playgrounds/\">schede di lavoro unisci i puntini</a>.",
-        "color_schemes": []
+        "dot_guide": {
+          "intro": "La balena è il più grande animale mai esistito sul nostro pianeta: più grande di qualsiasi dinosauro, più grande di qualsiasi creatura terrestre. Eppure, nonostante le loro enormi dimensioni, le balene sono creature gentili, intelligenti e profondamente sociali, che comunicano tra loro attraverso centinaia di chilometri di oceano aperto. Questo puzzle da 42 punti cattura proprio questa qualità di pace e tranquillità. Fai un respiro profondo, trova il punto numero 1 e tuffati!",
+          "sections": [
+            {
+              "range": "1–8",
+              "title": "La testa e la bocca",
+              "learn": "Iniziate dal punto 1 e collegatevi al punto 8 per disegnare la testa ampia e arrotondata della balena e la dolce curva della bocca. Le balene hanno una delle teste dalla forma più pacifica in natura: nessun dente aguzzo in vista, nessuna espressione feroce. I bambini si esercitano a disegnare curve ampie e lente, che rispecchiano il carattere tranquillo della balena.",
+              "fact": "Il cuore di una balenottera azzurra ha all'incirca le dimensioni di una piccola automobile, pesando circa 180 kg, e batte solo da 8 a 10 volte al minuto quando la balena si immerge. Quando emerge, la frequenza cardiaca aumenta fino a 25-37 battiti al minuto. È il cuore più grande di qualsiasi animale mai esistito sulla Terra: davvero incredibile!"
+            },
+            {
+              "range": "9–18",
+              "title": "La pinna dorsale e posteriore",
+              "learn": "Proseguite dal punto 9 al punto 18 per tracciare il dorso lungo e liscio e la piccola pinna dorsale. Rispetto alla pinna alta di un delfino, la pinna dorsale di una balenottera azzurra è minuscola: i bambini spesso lo notano, il che dà il via a una piacevole discussione sul perché animali diversi abbiano caratteristiche diverse. Per questa curva delicata, i tratti lunghi e fluidi sono i più adatti.",
+              "fact": "La pelle delle balene presenta disegni unici di cicatrici, macchie e segni, così distintivi che gli scienziati possono identificare i singoli esemplari solo dalle fotografie. Alcune balene, oggetto di studi a lungo termine, sono state monitorate per oltre 30 anni. Conosciamo ogni singola balena per nome, personalità e storia familiare. È una cosa straordinaria."
+            },
+            {
+              "range": "19–30",
+              "title": "La pancia e il corpo",
+              "learn": "Traccia i punti dal 19 al 30 per riempire l'enorme ventre e completare la forma principale del corpo. La parte inferiore della balena è spesso di un colore più chiaro rispetto al dorso: una forma di mimetismo chiamata controombreggiatura, comune negli animali marini. I bambini si esercitano qui con la sezione più lunga del puzzle, sviluppando una vera e propria resistenza alla concentrazione.",
+              "fact": "Una balenottera azzurra può mangiare fino a quattro tonnellate di krill – minuscoli crostacei simili a gamberetti – in un solo giorno. Ci riesce lanciandosi in uno sciame con la bocca spalancata, inghiottendo un'enorme quantità d'acqua, per poi espellerla attraverso le lamelle di fanoni mentre il krill rimane intrappolato all'interno. Una tecnica elegante e ancestrale."
+            },
+            {
+              "range": "31–36",
+              "title": "Le Flippers",
+              "learn": "Collega i punti da 31 a 36 per disegnare le lunghe pinne a forma di pagaia. Le pinne delle balene contengono le stesse ossa di una mano e di un braccio umani: cinque ossa delle dita, un polso e un braccio, semplicemente rimodellate nel corso di milioni di anni per adattarsi alla vita nell'oceano. I bambini adorano scoprirlo quando glielo fai notare mentre completano il puzzle.",
+              "fact": "All'interno della pinna di una balena si trovano le stesse ossa che abbiamo nella nostra mano: pollice, dita, polso e tutto il resto. Gli antenati delle balene camminavano sulla terraferma circa 50 milioni di anni fa, e la pinna è ciò che quelle zampe hanno sviluppato nel corso del tempo. L'evoluzione è essenzialmente uno scultore molto lento e molto paziente."
+            },
+            {
+              "range": "37–42",
+              "title": "Le pinne caudali",
+              "learn": "Completa il puzzle collegando i punti dal 37 al 42 per disegnare le ampie pinne caudali, la struttura più potente del regno animale in relazione alla sua funzione. Bastano solo sei punti per completare questo gigante gentile. Incoraggia una conclusione sicura e decisa: la balena merita un finale grandioso.",
+              "fact": "La coda di una balenottera azzurra può raggiungere una larghezza di 7,6 metri, più ampia di molte case. Ogni colpo verso il basso di queste pinne spinge la balena in avanti a una velocità massima di 32 chilometri orari per brevi tratti. Il canto delle balene, prodotto senza corde vocali, può viaggiare per oltre 1.600 chilometri nelle profondità oceaniche. Questi animali sono straordinari sotto quasi ogni punto di vista immaginabile."
+            }
+          ],
+          "outro": "Hai appena disegnato l'animale più grande della Terra: bravissimo! Questo puzzle si abbina perfettamente a una conversazione sulla conservazione degli oceani. Le balene sono state cacciate quasi fino all'estinzione il secolo scorso e ora si stanno lentamente riprendendo. I bambini che oggi amano le balene sono esattamente il tipo di persone che le proteggeranno domani. Per altre pagine pronte per la classe, consulta i nostri <a href=\"/playgrounds/\">schede di lavoro unisci i puntini</a>.",
+          "color_schemes": []
+        }
       }
-    }
-  },
-  {
-    "slug": "jellyfish-dot-to-dot-puzzle",
-    "header": {
-      "title": "Medusa Unisci i Puntini — Scheda Avanzata da 88 Punti",
-      "meta_description": "Nessun cervello, cuore o ossa—eppure le meduse sono sopravvissute per milioni di anni. Segui 88 punti attraverso questo PDF stampabile dettagliato per i bambini dai 6 ai 9 anni.",
-      "og": {
+    },
+    {
+      "slug": "jellyfish-dot-to-dot-puzzle",
+      "header": {
         "title": "Medusa Unisci i Puntini — Scheda Avanzata da 88 Punti",
-        "description": "Nessun cervello, cuore o ossa—eppure le meduse sono sopravvissute per milioni di anni. Segui 88 punti attraverso questo PDF stampabile dettagliato per i bambini dai 6 ai 9 anni.",
-        "image_alt": "Elegante medusa che galleggia disegnata unendo 88 puntini numerati su scheda stampabile"
+        "meta_description": "Nessun cervello, cuore o ossa—eppure le meduse sono sopravvissute per milioni di anni. Segui 88 punti attraverso questo PDF stampabile dettagliato per i bambini dai 6 ai 9 anni.",
+        "og": {
+          "title": "Medusa Unisci i Puntini — Scheda Avanzata da 88 Punti",
+          "description": "Nessun cervello, cuore o ossa—eppure le meduse sono sopravvissute per milioni di anni. Segui 88 punti attraverso questo PDF stampabile dettagliato per i bambini dai 6 ai 9 anni.",
+          "image_alt": "Elegante medusa che galleggia disegnata unendo 88 puntini numerati su scheda stampabile"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Medusa",
+          "description": "Nessun cervello, cuore o ossa—eppure le meduse sono sopravvissute per milioni di anni. Segui 88 punti attraverso questo PDF stampabile dettagliato per i bambini dai 6 ai 9 anni.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
       },
-      "json_ld": {
-        "type": "CreativeWork",
+      "body": {
+        "h1": "Collegamento dei punti della Medusa: un stampabile di 88 punti per un livello superiore",
         "name": "Medusa",
-        "description": "Nessun cervello, cuore o ossa—eppure le meduse sono sopravvissute per milioni di anni. Segui 88 punti attraverso questo PDF stampabile dettagliato per i bambini dai 6 ai 9 anni.",
-        "image": "",
-        "educational_use": "Fine motor skills, number sequencing",
-        "age_range": ""
-      }
-    },
-    "body": {
-      "h1": "Collegamento dei punti della Medusa: un stampabile di 88 punti per un livello superiore",
-      "name": "Medusa",
-      "tagline": "Una meraviglia oceanica alla deriva",
-      "description": "Collega 88 punti per rivelare una graziosa medusa che deriva attraverso il mare. Questo puzzle leggermente più grande è un ottimo passo avanti per i bambini dai 6 ai 9 anni che sono pronti per punti extra e una pratica più dettagliata nella sequenza dei numeri.",
-      "fun_fact": "Le meduse non hanno cervello, né cuore, né ossa, eppure sono sopravvissute per oltre 500 milioni di anni!",
-      "dot_guide": {
-        "intro": "Le meduse sono tra gli animali più strani e antichi dell'oceano: galleggiavano nei mari molto prima che i dinosauri popolassero la Terra e molto prima che esistessero i pesci o persino le ossa. Senza cervello, cuore né sangue, sono la prova vivente che la natura non ha bisogno di complessità per prosperare. Questo puzzle da 88 punti è un'attività stimolante per i bambini più grandi pronti ad affrontare una sfida maggiore. Trova il punto numero 1 e iniziamo a galleggiare!",
-        "sections": [
+        "tagline": "Una meraviglia oceanica alla deriva",
+        "description": "Collega 88 punti per rivelare una graziosa medusa che deriva attraverso il mare. Questo puzzle leggermente più grande è un ottimo passo avanti per i bambini dai 6 ai 9 anni che sono pronti per punti extra e una pratica più dettagliata nella sequenza dei numeri.",
+        "fun_fact": "Le meduse non hanno cervello, né cuore, né ossa, eppure sono sopravvissute per oltre 500 milioni di anni!",
+        "faqs": [
           {
-            "range": "1–18",
-            "title": "La campana",
-            "learn": "Iniziate dal punto 1 e proseguite fino al punto 18 per tracciare la forma arrotondata a cupola della campana, ovvero il corpo principale della medusa. Questa è la sezione più grande del puzzle e un'ottima occasione per esercitarsi a disegnare curve ampie e fluide senza sollevare la matita. Incoraggiate tratti lenti e costanti per mantenere la forma della cupola uniforme e regolare.",
-            "fact": "La campana della medusa non è solo una forma del corpo, ma è anche il mezzo con cui l'animale si muove. Contraendo e rilassando la campana come un ombrello pulsante, la medusa spinge l'acqua dietro di sé e si propelle in avanti. È una delle forme di movimento più antiche e semplici del regno animale, e funziona ancora splendidamente dopo 500 milioni di anni."
+            "q": "Quanti punti ha il disegno a punti della medusa?",
+            "a": "Il disegno a puntini \"Medusa\" ha 88 punti numerati. È un puzzle di media difficoltà, ideale per bambini dai 6 ai 9 anni (dalla prima alla terza elementare). I bambini uniscono i puntini in ordine numerico per rivelare l'immagine completa della medusa, che poi possono colorare."
           },
           {
-            "range": "19–40",
-            "title": "Le frange e i volant",
-            "learn": "Proseguite dal punto 19 al punto 40 per disegnare il bordo arricciato e svolazzante attorno alla base della campana. Questa sezione presenta molte piccole curve ravvicinate, un ottimo esercizio per imparare a individuare i punti con attenzione e pazienza: una bella sfida per i bambini che si cimentano con puzzle più complessi.",
-            "fact": "Alcune specie di meduse sono in grado di produrre luce propria attraverso una reazione chimica chiamata bioluminescenza. Nelle profondità e nell'oscurità dell'oceano, una medusa luminosa può apparire come una lanterna galleggiante: un modo affascinante per attirare le prede o spaventare i predatori, a seconda della specie."
+            "q": "Il disegno a puntini con le meduse è gratuito?",
+            "a": "Sì. Il foglio di lavoro sulle meduse è scaricabile gratuitamente al 100% da DotToDotFreePrintables.com: non è richiesto alcun account, indirizzo email o pagamento. Il download è immediato in formato PDF pronto per la stampa, sia in orientamento verticale che orizzontale, e dimensionato per carta US Letter o A4."
           },
           {
-            "range": "41–62",
-            "title": "I tentacoli striscianti",
-            "learn": "Ricalca i punti dal 41 al 62 per disegnare i lunghi tentacoli che si snodano sotto la campana. Queste linee sono più lunghe e meno definite rispetto alle sezioni precedenti, quindi incoraggia i bambini a disegnarle con mano rilassata, quasi come se la matita stessa galleggiasse nell'acqua.",
-            "fact": "I tentacoli della medusa cubozoa contengono uno dei veleni più potenti dell'intero regno animale, utilizzato per stordire all'istante piccoli pesci e gamberetti. La maggior parte delle meduse, tuttavia, è innocua per l'uomo: solo poche specie possono infliggere una puntura che rappresenti un pericolo."
+            "q": "Per quale fascia d'età è più adatto il foglio di lavoro \"unisci i puntini\" con le meduse?",
+            "a": "Con 88 punti, il puzzle Medusa è ideale per bambini dai 6 ai 9 anni (dalla prima alla terza elementare). I più piccoli possono divertirsi con un piccolo aiuto da parte di un adulto che conta, mentre i bambini più abili nel contare possono completarlo in autonomia ed esercitarsi con le sequenze numeriche fino a 88."
           },
           {
-            "range": "63–80",
-            "title": "Le armi orali",
-            "learn": "Collega i punti da 63 a 80 per aggiungere le braccia orali più corte e frastagliate vicino al centro della medusa, che aiutano a guidare il cibo verso la bocca. Questa sezione richiede molta attenzione, poiché le linee sono molto vicine tra loro. Un ritmo più lento in questa fase porta a risultati più precisi.",
-            "fact": "Le meduse non hanno una bocca e un'uscita separate: il cibo entra e i rifiuti escono attraverso la stessa apertura. Può sembrare insolito, ma si tratta di un design straordinariamente efficiente che non ha avuto bisogno di modifiche in mezzo miliardo di anni."
+            "q": "Quali abilità insegna il gioco \"unisci i puntini\" con le meduse?",
+            "a": "Unire gli 88 punti del puzzle della medusa sviluppa il riconoscimento dei numeri e la capacità di contare fino a 88, il controllo della matita, la coordinazione occhio-mano e la concentrazione prolungata: le stesse basi motorie fini che supportano la scrittura a mano nei primi anni di vita. Colorare il disegno completato aggiunge una gratificazione creativa."
           },
           {
-            "range": "81–88",
-            "title": "I fili finali",
-            "learn": "Completa il puzzle collegando i punti da 81 a 88 per unire gli ultimi fili che si snodano sotto i tentacoli. Solo otto punti per arrivare al traguardo: un modo calmo e delicato per completare un puzzle più grande. Fai un respiro profondo e lascia che le linee finali si sistemino naturalmente al loro posto.",
-            "fact": "Le meduse si trovano in tutti gli oceani della Terra, dalle calde acque superficiali vicino all'equatore alle gelide profondità vicino ai poli. Alcune specie sono state persino trovate a oltre 3.600 metri di profondità, alla deriva silenziosamente nell'oscurità più completa."
+            "q": "Qual è una curiosità interessante sulle meduse?",
+            "a": "Le meduse non hanno cervello, né cuore, né ossa, eppure sono sopravvissute per oltre 500 milioni di anni! I bambini scopriranno curiosità come questa completando il puzzle \"unisci i puntini\" delle meduse."
           }
         ],
-        "outro": "Ottimo lavoro! La tua medusa è pronta a galleggiare! Questo puzzle si abbina perfettamente a una conversazione su come alcuni degli animali più antichi della Terra siano anche tra i più semplici. Colora la tua medusa con blu, viola o rosa traslucidi per un effetto realistico, oppure opta per colori vivaci e brillanti: in entrambi i casi, il risultato sarà splendido. Pronto per la prossima sfida? Scopri altri <a href=\"/ocean/\">disegni da unire ai puntini da 1 a 100</a> ispirati agli abissi.",
-        "color_schemes": []
+        "dot_guide": {
+          "intro": "Le meduse sono tra gli animali più strani e antichi dell'oceano: galleggiavano nei mari molto prima che i dinosauri popolassero la Terra e molto prima che esistessero i pesci o persino le ossa. Senza cervello, cuore né sangue, sono la prova vivente che la natura non ha bisogno di complessità per prosperare. Questo puzzle da 88 punti è un'attività stimolante per i bambini più grandi pronti ad affrontare una sfida maggiore. Trova il punto numero 1 e iniziamo a galleggiare!",
+          "sections": [
+            {
+              "range": "1–18",
+              "title": "La campana",
+              "learn": "Iniziate dal punto 1 e proseguite fino al punto 18 per tracciare la forma arrotondata a cupola della campana, ovvero il corpo principale della medusa. Questa è la sezione più grande del puzzle e un'ottima occasione per esercitarsi a disegnare curve ampie e fluide senza sollevare la matita. Incoraggiate tratti lenti e costanti per mantenere la forma della cupola uniforme e regolare.",
+              "fact": "La campana della medusa non è solo una forma del corpo, ma è anche il mezzo con cui l'animale si muove. Contraendo e rilassando la campana come un ombrello pulsante, la medusa spinge l'acqua dietro di sé e si propelle in avanti. È una delle forme di movimento più antiche e semplici del regno animale, e funziona ancora splendidamente dopo 500 milioni di anni."
+            },
+            {
+              "range": "19–40",
+              "title": "Le frange e i volant",
+              "learn": "Proseguite dal punto 19 al punto 40 per disegnare il bordo arricciato e svolazzante attorno alla base della campana. Questa sezione presenta molte piccole curve ravvicinate, un ottimo esercizio per imparare a individuare i punti con attenzione e pazienza: una bella sfida per i bambini che si cimentano con puzzle più complessi.",
+              "fact": "Alcune specie di meduse sono in grado di produrre luce propria attraverso una reazione chimica chiamata bioluminescenza. Nelle profondità e nell'oscurità dell'oceano, una medusa luminosa può apparire come una lanterna galleggiante: un modo affascinante per attirare le prede o spaventare i predatori, a seconda della specie."
+            },
+            {
+              "range": "41–62",
+              "title": "I tentacoli striscianti",
+              "learn": "Ricalca i punti dal 41 al 62 per disegnare i lunghi tentacoli che si snodano sotto la campana. Queste linee sono più lunghe e meno definite rispetto alle sezioni precedenti, quindi incoraggia i bambini a disegnarle con mano rilassata, quasi come se la matita stessa galleggiasse nell'acqua.",
+              "fact": "I tentacoli della medusa cubozoa contengono uno dei veleni più potenti dell'intero regno animale, utilizzato per stordire all'istante piccoli pesci e gamberetti. La maggior parte delle meduse, tuttavia, è innocua per l'uomo: solo poche specie possono infliggere una puntura che rappresenti un pericolo."
+            },
+            {
+              "range": "63–80",
+              "title": "Le armi orali",
+              "learn": "Collega i punti da 63 a 80 per aggiungere le braccia orali più corte e frastagliate vicino al centro della medusa, che aiutano a guidare il cibo verso la bocca. Questa sezione richiede molta attenzione, poiché le linee sono molto vicine tra loro. Un ritmo più lento in questa fase porta a risultati più precisi.",
+              "fact": "Le meduse non hanno una bocca e un'uscita separate: il cibo entra e i rifiuti escono attraverso la stessa apertura. Può sembrare insolito, ma si tratta di un design straordinariamente efficiente che non ha avuto bisogno di modifiche in mezzo miliardo di anni."
+            },
+            {
+              "range": "81–88",
+              "title": "I fili finali",
+              "learn": "Completa il puzzle collegando i punti da 81 a 88 per unire gli ultimi fili che si snodano sotto i tentacoli. Solo otto punti per arrivare al traguardo: un modo calmo e delicato per completare un puzzle più grande. Fai un respiro profondo e lascia che le linee finali si sistemino naturalmente al loro posto.",
+              "fact": "Le meduse si trovano in tutti gli oceani della Terra, dalle calde acque superficiali vicino all'equatore alle gelide profondità vicino ai poli. Alcune specie sono state persino trovate a oltre 3.600 metri di profondità, alla deriva silenziosamente nell'oscurità più completa."
+            }
+          ],
+          "outro": "Ottimo lavoro! La tua medusa è pronta a galleggiare! Questo puzzle si abbina perfettamente a una conversazione su come alcuni degli animali più antichi della Terra siano anche tra i più semplici. Colora la tua medusa con blu, viola o rosa traslucidi per un effetto realistico, oppure opta per colori vivaci e brillanti: in entrambi i casi, il risultato sarà splendido. Pronto per la prossima sfida? Scopri altri <a href=\"/ocean/\">disegni da unire ai puntini da 1 a 100</a> ispirati agli abissi.",
+          "color_schemes": []
+        }
       }
     }
-  }
-]
+  ]
+}

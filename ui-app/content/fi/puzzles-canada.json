@@ -1,237 +1,456 @@
-[
-  {
-    "slug": "canada-canoe-dot-to-dot-puzzle",
-    "name": "Kanadalainen kanootti",
-    "seoH1": "Kanadalainen kanootti pisteestä pisteeseen — Melonta 69 pistettä läpi",
-    "tagline": "Meloa Kanadan järvien ja jokien yli",
-    "description": "Yhdistä 69 pistettä paljastaaksesi kanadalaisen kanoottin ja melan. Tämä keskikokoinen tulostettava harjoitus kehittää numerojärjestystä ja lyijykynän hallintaa samalla, kun se esittelee vesikulkuneuvon, joka on tiiviisti yhteydessä matkustamiseen Kanadassa.",
-    "seoDescription": "Yhdistä 69 pistettä kanadalaiseksi kanootiksi tässä ilmaisessa yhdistä pisteet -tehtävässä 5–9-vuotiaille lapsille. Kauan ennen teitä kanootit kuljettivat ihmisiä Kanadan järvillä ja joilla — tulosta PDF ja melo läpi koko 2026-kokoelman. Suosikki luokkahuoneissa ympäri maailmaa.",
-    "funFact": "Kanootit mahdollistivat ihmisten ja tarvikkeiden kuljettamisen toisiinsa yhteydessä olevia järviä ja jokia pitkin, joilla teitä ei ollut.",
-    "seoImageAlt": "Kanadalainen kanootti ja mela piirtyvät esiin, kun 69 pistettä yhdistyy ilmaisessa tulostettavassa",
-    "dotGuide": {
-      "intro": "Kanootti on yksi Kanadan tunnistettavimmista vesikulkuneuvoista. Alkuperäiskansat kehittivät hienostuneita kanoottirakenteita, jotka sopivat paikallisille vesille ja saatavilla oleviin materiaaleihin, ja myöhemmin matkailijat luottivat kanootteihin liikkuakseen laajojen joki- ja järviverkostojen läpi. Tämä 69 pisteen pulmapeli jäljittää melan ja kanootin pitkän, siron rungon. Etsi piste 1 ja aloita matkasi!",
-      "sections": [
-        {
-          "range": "1–14",
-          "title": "Mela ja yläreuna",
-          "learn": "Aloita pisteestä 1 ja yhdistä pisteen 14 kautta hahmotellaksesi melan ja kanootin yläreunan. Seuraa pitkää viivaa tasaisesti ja tarkista jokainen numero ennen kuin keula kaartuu ylöspäin.",
-          "fact": "Melassa on kahva, varsi ja lapa. Leveä lapa työntyy vettä vasten liikuttaakseen ja ohjatakseen kanoottia."
-        },
-        {
-          "range": "15–28",
-          "title": "Nouseva jousi",
-          "learn": "Jatka pisteestä 15 pisteeseen 28 kanootin korkean keulan ympäri. Hidasta vauhtia kanootin ääriviivojen muuttuessa, jotta terävä keula pysyy tasaisena.",
-          "fact": "Keula on kanootin etuosa ja perä takaosa. Niiden kohotetut muodot auttavat venettä kulkemaan aaltojen ja virtaavan veden läpi."
-        },
-        {
-          "range": "29–42",
-          "title": "Mela ja runko",
-          "learn": "Piirrä pisteet 29–42 melalapan ja rungon alaosan ympärille. Käytä hallittuja käyriä, joissa kaksi muotoa kulkevat lähellä toisiaan.",
-          "fact": "Kanadan geologinen tutkimuskeskus käytti kanootteja varhaisissa pohjoisissa kenttätöissä. Katso sen historiallinen vuoden 1874 kanootti Kanadan hallituksen verkkosivuilla <a href=\"https://ised-isde.canada.ca/site/science/en/educational-resources/history-geological-survey-canada-175-objects/26-canoe-1874\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">/</a>."
-        },
-        {
-          "range": "43–56",
-          "title": "Pitkä alapuoli",
-          "learn": "Yhdistä pisteet 43 ja 56 kaarevalla alapinnalla. Nämä pidemmät aukot palkitsevat vakaan käden ja huolellisen visuaalisen seurannan.",
-          "fact": "Perinteisiä kanootteja rakennettiin eri muodoissa alkuperäiskansojen kulttuureissa käyttäen materiaaleja, kuten koivuntuhkaa, setriä, eläinten nahkoja ja huolellisesti muotoiltua puuta."
-        },
-        {
-          "range": "57–69",
-          "title": "Stern ja Finish",
-          "learn": "Lopeta pisteillä 57–69 perän ympäri ja takaisin yläreunaan. Laske huolellisesti viimeiseen pisteeseen asti ja tarkista, että koko runko on yhdistetty.",
-          "fact": "Melontaolosuhteet voivat muuttua nopeasti, joten valmistautuminen ja asianmukaiset turvavarusteet ovat tärkeitä. Perheet voivat oppia melonnasta ja vesiturvallisuudesta <a href=\"https://parks.canada.ca/voyage-travel/experiences/sports/pagayer-paddling\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Parks Canada</a>:sta."
+{
+  "collection": {
+    "header": {
+      "title": "Kanadan pisteestä pisteeseen tulostettava lapsille",
+      "meta_description": "Tutustu Kanadaan ilmaisilla pisteestä pisteeseen tulostettavilla tehtävillä: eläimiä, vaahteranlehtiä ja muuta. Tulostusvalmis PDF.",
+      "og": {
+        "title": "Ilmaisia Kanadan pisteestä pisteeseen -pulmia lapsille",
+        "description": "Ilmaisia tulostettavia Kanada-aiheisia tehtäviä lapsille.",
+        "image": "/images/canada-maple-leaf-puzzle.webp"
+      },
+      "json_ld": {
+        "type": "CollectionPage",
+        "name": "Canada",
+        "description": "Paddle a Canadian canoe, trace the maple leaf, then meet a polar bear, moose, and raccoon. This free printable collection turns Canadian symbols and wildlife into hands-on number practice.",
+        "image": "/images/canada-maple-leaf-puzzle.webp",
+        "main_entity": {
+          "type": "ItemList",
+          "item_source": "puzzles"
         }
-      ],
-      "outro": "Erinomaista – kanoottisi on valmis vesille! Väritä runko, lisää sen alle väreilyä ja piirrä taustalle kanadalainen järvi tai metsä. Tutustu muihin virallisiin melontaideoihin <a href=\"https://parks.canada.ca/voyage-travel/experiences/sports/pagayer-paddling\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Parks Canada</a>:sta ja kokeile sitten toista <a href=\"/canada/\">Canada pisteestä pisteeseen -pulmapeliä</a>."
+      },
+      "breadcrumb_json_ld": {
+        "type": "BreadcrumbList",
+        "items": [
+          {
+            "position": 1,
+            "name": "Home",
+            "path": "/"
+          },
+          {
+            "position": 2,
+            "name": "Canada",
+            "path": "/canada/"
+          }
+        ]
+      }
     },
-    "seoTitle": "Kanadalainen kanootti pisteestä pisteeseen — melo 69 pisteen läpi"
+    "body": {
+      "h1": "Free Canada Dot-to-Dot Printables for Kids",
+      "name": "Canada",
+      "tagline": "Discover Canada One Dot at a Time",
+      "description": "Paddle a Canadian canoe, trace the maple leaf, then meet a polar bear, moose, and raccoon. This free printable collection turns Canadian symbols and wildlife into hands-on number practice.",
+      "hero_image": "/images/canada-maple-leaf-puzzle.webp",
+      "slug": "canada",
+      "faqs": [
+        {
+          "q": "Ovatko kaikki tämän sivuston pisteestä pisteeseen tulostettavat kuviot täysin ilmaisia?",
+          "a": "Kyllä — jokainen DotToDotFreePrintables.com-sivuston yhdistä pisteet -tehtävä on 100 % ilmainen ladata ja tulostaa. Tiliä, tilausta tai luottokorttia ei koskaan tarvita."
+        },
+        {
+          "q": "Minkä ikäisille pisteestä pisteeseen -työarkit sopivat?",
+          "a": "Tulostettavat tehtävämme kattavat 2–12-vuotiaat. Helppojen tehtävämonisteiden (pisteestä pisteeseen 1–10 ja 1–20) tulisi sopia taaperoille ja esikoululaisille, keskikokoisten arkkien (pisteestä pisteeseen 1–50) tulisi olla esikoululaisille ja ekaluokkalaisille, ja vaikeampien pisteestä pisteeseen -arkkien (50–200+ pistettä) tulisi haastaa 2.–6. luokkalaisia sekä pisteestä pisteeseen aikuisille -tason harjoittelua etsiviä isompia lapsia."
+        },
+        {
+          "q": "Missä muodossa tulostettavat yhdistä-pisteet-tiedostot ovat?",
+          "a": "Kaikki laskentataulukot ladataan tulostusvalmiina PDF-tiedostoina, jotka ovat kooltaan US Letter -paperille (8,5\" × 11\") sopivia. Avaa ne millä tahansa selaimella tai PDF-lukuohjelmalla ja tulosta – erillistä ohjelmistoa ei tarvita."
+        },
+        {
+          "q": "Voivatko opettajat käyttää näitä yhdistä pisteitä -tehtäviä tunnilla?",
+          "a": "Kyllä! Tulostettavat materiaalimme ovat ilmaisia henkilökohtaiseen ja luokkahuonekäyttöön. Ne ovat suosittuja aamutöissä, varhaisloppuharjoituksissa, korvaavissa oppituntisuunnitelmissa, hienomotorisissa harjoittelukeskuksissa ja kotitehtäväpaketeissa."
+        }
+      ]
+    }
   },
-  {
-    "slug": "canada-maple-leaf-dot-to-dot-puzzle",
-    "name": "Vaahteranlehti",
-    "seoH1": "Vaahteranlehti pisteestä pisteeseen: Kanadan ikoni 70 pisteessä",
-    "tagline": "Yhdistä pisteet ja piirrä Kanadan kuuluisa vaahteranlehti!",
-    "description": "Ilmainen tulostettava vaahteranlehti-pisteestä pisteeseen -tehtävä, joka juhlistaa Kanadan rakastettua tunnusta.",
-    "seoDescription": "Tämä 70 pisteen vaahteranlehti on ilmainen tulostettava pisteytystehtävä 5-9-vuotiaille lapsille, jotka oppivat miksi lehti on koristanut Kanadan lippua vuodesta 1965. Isänmaallinen tehtävä Kanadan kansallispäivälle — piirrä tunnusomainen muoto, tulosta PDF ja lisää syksyn värit A4-paperille.",
-    "funFact": "Vaahteranlehti on koristanut Kanadan kansallislippua vuodesta 1965.",
-    "seoImageAlt": "Kanadan tunnettu vaahteranlehti hahmottuu 70 numeroidun tulostettavan pisteen kautta",
-    "dotGuide": {
-      "intro": "Vaahterat kirkastavat kanadalaisia metsiä tulisilla punaisilla, oransseilla ja kultaisilla lehdillä joka syksy. Vaahteranlehti on edustanut Kanadaa sukupolvien ajan ja se istuu ylpeänä maan punavalkoisen lipun keskellä. Tämä 70 pisteen palapeli seuraa lehden teräviä reunoja ja vahvaa vartta. Etsi piste 1, pidä lyijykynäsi liikkeessä numerojärjestyksessä ja katso, kuinka kanadalainen symboli alkaa muotoutua!",
-      "sections": [
-        {
-          "range": "1–14",
-          "title": "Ylin piste",
-          "learn": "Aloita pisteestä 1 ja yhdistä pisteeseen 14 muodostaaksesi lehden yläosan korkean kärjen. Seuraa jokaista pientä käännöstä huolellisesti — terävät kulmat antavat vaahteranlehdelle sen tunnistettavan muodon.",
-          "fact": "Kanadan lippu esittää yhtä tyyliteltyä punaista vaahteranlehteä, jossa on 11 kärkeä. Opi lipun suunnittelusta ja historiasta <a href=\"https://www.canada.ca/en/canadian-heritage/services/flag-canada-history.html\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Kanadan perinnöstä</a>."
+  "puzzles": [
+    {
+      "slug": "canada-canoe-dot-to-dot-puzzle",
+      "header": {
+        "title": "Kanadalainen kanootti pisteestä pisteeseen — melo 69 pisteen läpi",
+        "meta_description": "Yhdistä 69 pistettä kanadalaiseksi kanootiksi tässä ilmaisessa yhdistä pisteet -tehtävässä 5–9-vuotiaille lapsille. Kauan ennen teitä kanootit kuljettivat ihmisiä Kanadan järvillä ja joilla — tulosta PDF ja melo läpi koko 2026-kokoelman. Suosikki luokkahuoneissa ympäri maailmaa.",
+        "og": {
+          "title": "Kanadalainen kanootti pisteestä pisteeseen — melo 69 pisteen läpi",
+          "description": "Yhdistä 69 pistettä kanadalaiseksi kanootiksi tässä ilmaisessa yhdistä pisteet -tehtävässä 5–9-vuotiaille lapsille. Kauan ennen teitä kanootit kuljettivat ihmisiä Kanadan järvillä ja joilla — tulosta PDF ja melo läpi koko 2026-kokoelman. Suosikki luokkahuoneissa ympäri maailmaa.",
+          "image_alt": "Kanadalainen kanootti ja mela piirtyvät esiin, kun 69 pistettä yhdistyy ilmaisessa tulostettavassa"
         },
-        {
-          "range": "15–28",
-          "title": "Oikean puolen pisteet",
-          "learn": "Jatka pisteestä 15 pisteeseen 28, liikkuen lehden oikeaa puolta alas. Hidasta jokaisessa kulmassa ja tarkista seuraava numero ennen suunnan vaihtamista.",
-          "fact": "Kanadassa on 10 alkuperäistä vaahteralajiketta. Sokerivaahtera on erityisen kuuluisa, koska sen mahlaa voidaan valmistaa vaahterasiirapiksi."
-        },
-        {
-          "range": "29–42",
-          "title": "Varsi",
-          "learn": "Yhdistä pisteet 29–42 piirtääksesi lehden alareunan ja kapean varren. Käytä lyhyempiä vetoja tiukkojen käännösten ympärillä, jotta viivasi pysyy lähellä pisteitä.",
-          "fact": "Ihmiset keräävät vaahteramahlaa varhain keväällä, kun pakkasyöt ja lämpimät päivät auttavat mahlaa virtaamaan puun sisällä."
-        },
-        {
-          "range": "43–56",
-          "title": "Vasen puolen pisteet",
-          "learn": "Jäljitä pisteet 43–56 takaisin vasenta puolta ylös. Nämä pisteet heijastavat oikean puolen muotoja, joten vertaa molempia puolia piirtäessäsi.",
-          "fact": "Kauan ennen kuin Kanadan nykyaikainen lippu hyväksyttiin, vaahteranlehdet esiintyivät kanadalaisissa merkeissä, vaakunoissa, kolikoissa ja sotilasvaakunoissa."
-        },
-        {
-          "range": "57–70",
-          "title": "Lehden sulkeminen",
-          "learn": "Viimeistele pisteillä 57–70, palaten lehden yläosaan. Laske hitaasti viimeiseen pisteeseen, tarkista sitten, että jokainen piste ja kulma on yhdistetty.",
-          "fact": "Vaahteranlehdet tuottavat ravintoa puulle auringonvalon avulla. Syksyllä niiden vihreä pigmentti hajoaa ja muut värit tulevat helpommin näkyviksi."
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Kanadalainen kanootti",
+          "description": "Yhdistä 69 pistettä kanadalaiseksi kanootiksi tässä ilmaisessa yhdistä pisteet -tehtävässä 5–9-vuotiaille lapsille. Kauan ennen teitä kanootit kuljettivat ihmisiä Kanadan järvillä ja joilla — tulosta PDF ja melo läpi koko 2026-kokoelman. Suosikki luokkahuoneissa ympäri maailmaa.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
         }
-      ],
-      "outro": "Mahtavaa — vaahteranlehtesi on valmis! Väritä se kirkkaan punaiseksi kuten Kanadan lippu, tai käytä keltaista ja oranssia syksyn lehden väreinä. Opi lisää Kanadan kansallisista symboleista <a href=\"https://www.canada.ca/en/canadian-heritage/services/official-symbols-canada.html\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Kanadan hallituksen verkkosivustolla</a>, ja kokeile sitten toista <a href=\"/canada/\">Kanada pisteestä pisteeseen -palapeliä</a>."
-    },
-    "seoTitle": "Vaahteranlehti pisteestä pisteeseen: Kanadan tunnus 70 pisteessä"
-  },
-  {
-    "slug": "canada-polar-bear-dot-to-dot-puzzle",
-    "name": "Jääkarhu",
-    "seoH1": "Jääkarhu Yhdistä pisteet -tulostettava, 74 arktista pistettä ilmaiseksi",
-    "tagline": "Yhdistä pisteet ja paljasta mahtava kanadalainen jääkarhu!",
-    "description": "Ilmainen tulostettava jääkarhu-pisteestä pisteeseen -tehtävä lapsille, jotka rakastavat Kanadan eläimistöä.",
-    "seoDescription": "Noin kaksi kolmasosaa maailman jääkarhuista elää Kanadassa. Paljasta tämä arktinen jättiläinen 74 pisteen avulla ilmaisella työarkilla, joka on suunnattu 6–10-vuotiaille.",
-    "funFact": "Noin kaksi kolmasosaa maailman jääkarhuista elää Kanadassa.",
-    "seoImageAlt": "Voimakas jääkarhu ylittää arktista jäätä 74 tulostettavan pisteen muodostamana",
-    "dotGuide": {
-      "intro": "Jääkarhut vaeltavat Kanadan arktisten alueiden jäätyneillä rannoilla ja merijäällä. Niiden paksu turkki, pienet korvat ja valtavat tassut auttavat niitä pysymään lämpiminä ja liikkumaan lumen, jään ja veden yli. Tämä 74 pisteen pulma jäljittää jääkarhun sen nenästä sen leveisiin tassuihin. Aloita pisteestä 1 ja tee matka yksi varovainen viiva kerrallaan.",
-      "sections": [
-        {
-          "range": "1–15",
-          "title": "Nenä ja pää",
-          "learn": "Aloita pisteestä 1 ja yhdistä pisteeseen 15 muotoillaksesi nenän, kuonon ja pyöreän pään. Pidä viivat lempeinä kasvojen ympärillä, jotta karhun profiili näyttää sujuvalta.",
-          "fact": "Jääkarhulla on erinomainen hajuaisti, joka auttaa sitä löytämään hylkeitä, sen pääsaalista, jään yli."
-        },
-        {
-          "range": "16–30",
-          "title": "Selkä ja hartiat",
-          "learn": "Jatka pisteestä 16 pisteeseen 30 vahvojen hartioiden ja kaarevan selän kautta. Yritä tehdä tämä pitkä ääriviiva tasaisilla vedoilla sen sijaan, että tekisit paljon pieniä merkkejä.",
-          "fact": "Jääkarhut ovat Kanadan suurimpia maaeläimiä. Aikuiset urokset voivat painaa useita satoja kiloja."
-        },
-        {
-          "range": "31–45",
-          "title": "Takajalat",
-          "learn": "Jäljitä pisteet 31–45 piirtääksesi takajalat ja tassut. Tarkista jokainen numero huolellisesti, kun ääriviiva muuttuu suuntaa lähellä jalkoja.",
-          "fact": "Jääkarhun leveät tassut jakavat sen painon lumen yli ja toimivat kuin melat, kun se ui."
-        },
-        {
-          "range": "46–60",
-          "title": "Vatsa ja etutassut",
-          "learn": "Yhdistä pisteet 46–60 kehon alapuolella ja etutassujen ympärillä. Lyhyet, hallitut viivat auttavat sinua seuraamaan tiukempia kaaria.",
-          "fact": "Jääkarhuilla on musta iho turkin alla, joka näyttää valkoiselta. Niiden turkki auttaa niitä sulautumaan lumiseen arktiseen maisemaan."
-        },
-        {
-          "range": "61–74",
-          "title": "Rinta ja loppu",
-          "learn": "Viimeistele pisteillä 61–74, liikkuen ylös rintaa ja takaisin kohti päätä. Pysähdy viimeiselle pisteelle ja varmista, ettei yhtään numeroa ole ohitettu.",
-          "fact": "Merijää on elintärkeä jääkarhujen elinympäristö, koska se tarjoaa alustan hylkeiden metsästämiseen. Lue lajin profiili <a href=\"https://www.canada.ca/en/environment-climate-change/services/species-risk-public-registry/cosewic-assessments-status-reports/polar-bear-2018.html\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Ympäristö- ja ilmastomuutos Kanadasta</a>."
+      },
+      "body": {
+        "h1": "Kanadalainen kanootti pisteestä pisteeseen — Melonta 69 pistettä läpi",
+        "name": "Kanadalainen kanootti",
+        "tagline": "Meloa Kanadan järvien ja jokien yli",
+        "description": "Yhdistä 69 pistettä paljastaaksesi kanadalaisen kanoottin ja melan. Tämä keskikokoinen tulostettava harjoitus kehittää numerojärjestystä ja lyijykynän hallintaa samalla, kun se esittelee vesikulkuneuvon, joka on tiiviisti yhteydessä matkustamiseen Kanadassa.",
+        "fun_fact": "Kanootit mahdollistivat ihmisten ja tarvikkeiden kuljettamisen toisiinsa yhteydessä olevia järviä ja jokia pitkin, joilla teitä ei ollut.",
+        "faqs": [
+          {
+            "q": "Minkä ikäisille Kanadalainen kanootti-pisteestä pisteeseen -tehtävä on tarkoitettu?",
+            "a": "Se on suunniteltu ikäryhmälle Ikä 5-9. 69 pisteellään se sopii lapsille, jotka osaavat laskea varmasti 69:een; nuoremmat lapset onnistuvat pienellä avulla."
+          },
+          {
+            "q": "Miten tulostan Kanadalainen kanootti-tehtäväsivun?",
+            "a": "Napsauta latauspainiketta saadaksesi ilmaisen PDF:n ja tulosta se tavalliselle paperille (A4 tai US Letter) mistä tahansa selaimesta tai PDF-lukijasta. Erityistä ohjelmistoa ei tarvita."
+          },
+          {
+            "q": "Onko tulostettava Kanadalainen kanootti todella ilmainen?",
+            "a": "Kyllä — se on 100 % ilmainen, ilman rekisteröitymistä, tiliä tai maksua. Voit tulostaa sen kotiin tai luokkahuoneeseen."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Kanootti on yksi Kanadan tunnistettavimmista vesikulkuneuvoista. Alkuperäiskansat kehittivät hienostuneita kanoottirakenteita, jotka sopivat paikallisille vesille ja saatavilla oleviin materiaaleihin, ja myöhemmin matkailijat luottivat kanootteihin liikkuakseen laajojen joki- ja järviverkostojen läpi. Tämä 69 pisteen pulmapeli jäljittää melan ja kanootin pitkän, siron rungon. Etsi piste 1 ja aloita matkasi!",
+          "sections": [
+            {
+              "range": "1–14",
+              "title": "Mela ja yläreuna",
+              "learn": "Aloita pisteestä 1 ja yhdistä pisteen 14 kautta hahmotellaksesi melan ja kanootin yläreunan. Seuraa pitkää viivaa tasaisesti ja tarkista jokainen numero ennen kuin keula kaartuu ylöspäin.",
+              "fact": "Melassa on kahva, varsi ja lapa. Leveä lapa työntyy vettä vasten liikuttaakseen ja ohjatakseen kanoottia."
+            },
+            {
+              "range": "15–28",
+              "title": "Nouseva jousi",
+              "learn": "Jatka pisteestä 15 pisteeseen 28 kanootin korkean keulan ympäri. Hidasta vauhtia kanootin ääriviivojen muuttuessa, jotta terävä keula pysyy tasaisena.",
+              "fact": "Keula on kanootin etuosa ja perä takaosa. Niiden kohotetut muodot auttavat venettä kulkemaan aaltojen ja virtaavan veden läpi."
+            },
+            {
+              "range": "29–42",
+              "title": "Mela ja runko",
+              "learn": "Piirrä pisteet 29–42 melalapan ja rungon alaosan ympärille. Käytä hallittuja käyriä, joissa kaksi muotoa kulkevat lähellä toisiaan.",
+              "fact": "Kanadan geologinen tutkimuskeskus käytti kanootteja varhaisissa pohjoisissa kenttätöissä. Katso sen historiallinen vuoden 1874 kanootti Kanadan hallituksen verkkosivuilla <a href=\"https://ised-isde.canada.ca/site/science/en/educational-resources/history-geological-survey-canada-175-objects/26-canoe-1874\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">/</a>."
+            },
+            {
+              "range": "43–56",
+              "title": "Pitkä alapuoli",
+              "learn": "Yhdistä pisteet 43 ja 56 kaarevalla alapinnalla. Nämä pidemmät aukot palkitsevat vakaan käden ja huolellisen visuaalisen seurannan.",
+              "fact": "Perinteisiä kanootteja rakennettiin eri muodoissa alkuperäiskansojen kulttuureissa käyttäen materiaaleja, kuten koivuntuhkaa, setriä, eläinten nahkoja ja huolellisesti muotoiltua puuta."
+            },
+            {
+              "range": "57–69",
+              "title": "Stern ja Finish",
+              "learn": "Lopeta pisteillä 57–69 perän ympäri ja takaisin yläreunaan. Laske huolellisesti viimeiseen pisteeseen asti ja tarkista, että koko runko on yhdistetty.",
+              "fact": "Melontaolosuhteet voivat muuttua nopeasti, joten valmistautuminen ja asianmukaiset turvavarusteet ovat tärkeitä. Perheet voivat oppia melonnasta ja vesiturvallisuudesta <a href=\"https://parks.canada.ca/voyage-travel/experiences/sports/pagayer-paddling\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Parks Canada</a>:sta."
+            }
+          ],
+          "outro": "Erinomaista – kanoottisi on valmis vesille! Väritä runko, lisää sen alle väreilyä ja piirrä taustalle kanadalainen järvi tai metsä. Tutustu muihin virallisiin melontaideoihin <a href=\"https://parks.canada.ca/voyage-travel/experiences/sports/pagayer-paddling\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Parks Canada</a>:sta ja kokeile sitten toista <a href=\"/canada/\">Canada pisteestä pisteeseen -pulmapeliä</a>.",
+          "color_schemes": []
         }
-      ],
-      "outro": "Erinomaista—arktinen jättiläisesi on valmis! Jätä turkki valkoiseksi ja lisää vaaleansinisiä varjoja, tai piirrä luminen merijäätausta. Vieraile <a href=\"https://parks.canada.ca/pn-np/mb/wapusk/nature/faune-animals/mammiferes-mammals/ours-bears/polaire-polar\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Parks Canada -sivulla jääkarhuista</a> aikuisen kanssa oppiaksesi lisää, ja tutki lisää <a href=\"/canada/\">ilmaisia Kanadan tulostettavia materiaaleja</a>."
+      }
     },
-    "seoTitle": "Jääkarhu pisteestä pisteeseen -tulostettava, 74 arktista pistettä ilmaiseksi"
-  },
-  {
-    "slug": "canada-moose-dot-to-dot-puzzle",
-    "name": "Hirvi",
-    "seoH1": "Hirvi Pisteestä Pisteeseen — 89-Pisteen Kanadalainen Tulostettava PDF",
-    "tagline": "Yhdistä pisteet ja viimeistele komea kanadalainen hirvi!",
-    "description": "Ilmainen tulostettava hirvi-pisteestä pisteeseen -tehtävä hauskaan Kanadan eläimistöaiheiseen aktiviteettiin.",
-    "seoDescription": "Leveät sarvet kruunaavat suurimman jäsenen hirvieläinten perheessä. Seuraa 89-pisteen polkua täydentääksesi tämän ilmaisen hirven tulostettavan kuvan ikäryhmälle 6–10.",
-    "funFact": "Hirvi on peurojen suurin laji.",
-    "seoImageAlt": "Leveäsarvinen hirvi seisoo ylväänä, kun 89 tulostettavaa pistettä on yhdistetty",
-    "dotGuide": {
-      "intro": "Hirvi voi näyttää lähes esihistorialliselta, kun se astuu Kanadan metsistä: pitkät jalat, raskas kuono ja leveät sarvet kohoavat sen pään ylle. Hirvet ovat vahvoja uimareita ja tuntevat olonsa kotoisaksi järvien, kosteikkojen ja metsäisten alueiden ympärillä. Tässä 89-pisteen palapelissä on runsaasti käännöksiä, erityisesti sarvien ympärillä, joten terota lyijykynäsi, etsi piste 1 ja laske huolellisesti.",
-      "sections": [
-        {
-          "range": "1–18",
-          "title": "Kuono ja Kasvot",
-          "learn": "Aloita pisteestä 1 ja yhdistä pisteeseen 18 piirtääksesi hirven pitkän kuonon ja kasvot. Käytä siistejä, lyhyitä vetoja nenän ja silmän alueella.",
-          "fact": "Hirven leveä kuono auttaa sitä keräämään oksia, lehtiä ja vesikasveja. Hirvet ovat kasvissyöjiä, mikä tarkoittaa, että ne syövät kasveja."
+    {
+      "slug": "canada-maple-leaf-dot-to-dot-puzzle",
+      "header": {
+        "title": "Vaahteranlehti pisteestä pisteeseen: Kanadan tunnus 70 pisteessä",
+        "meta_description": "Tämä 70 pisteen vaahteranlehti on ilmainen tulostettava pisteytystehtävä 5-9-vuotiaille lapsille, jotka oppivat miksi lehti on koristanut Kanadan lippua vuodesta 1965. Isänmaallinen tehtävä Kanadan kansallispäivälle — piirrä tunnusomainen muoto, tulosta PDF ja lisää syksyn värit A4-paperille.",
+        "og": {
+          "title": "Vaahteranlehti pisteestä pisteeseen: Kanadan tunnus 70 pisteessä",
+          "description": "Tämä 70 pisteen vaahteranlehti on ilmainen tulostettava pisteytystehtävä 5-9-vuotiaille lapsille, jotka oppivat miksi lehti on koristanut Kanadan lippua vuodesta 1965. Isänmaallinen tehtävä Kanadan kansallispäivälle — piirrä tunnusomainen muoto, tulosta PDF ja lisää syksyn värit A4-paperille.",
+          "image_alt": "Kanadan tunnettu vaahteranlehti hahmottuu 70 numeroidun tulostettavan pisteen kautta"
         },
-        {
-          "range": "19–36",
-          "title": "Leveät Sarvet",
-          "learn": "Jatka pisteestä 19 pisteeseen 36 sarvien haarautumisen ympärillä. Tämä on haastavin osa, joten etsi seuraava numero ennen jokaisen viivan piirtämistä.",
-          "fact": "Vain urokshirvet kasvattavat normaalisti sarvia. Ne pudottavat ne syksyn lisääntymiskauden jälkeen ja kasvattavat uuden sarvijoukon seuraavana vuonna."
-        },
-        {
-          "range": "37–54",
-          "title": "Kaula ja Selkä",
-          "learn": "Seuraa pisteitä 37–54 alas kaulasta ja yli selän. Anna lyijykynäsi seurata pitkää kaarta sujuvasti, kun eläimen vartalo ilmestyy.",
-          "fact": "Hirven kurkun alla roikkuvaa ihopoimua kutsutaan kelloksi tai kaulapoimuksi."
-        },
-        {
-          "range": "55–72",
-          "title": "Pitkät Jalat",
-          "learn": "Yhdistä pisteet 55–72 takajalkojen ja vatsan ympärillä. Pitkät, kapeat jalan muodot vaativat kärsivällistä laskemista ja hallittuja suuntamuutoksia.",
-          "fact": "Pitkät jalat auttavat hirviä astumaan syvän lumen läpi ja kahlaamaan lampeen päästäkseen vesikasveihin."
-        },
-        {
-          "range": "73–89",
-          "title": "Rinta ja Viimeinen Kavio",
-          "learn": "Lopeta yhdistämällä pisteet 73–89 etujalkojen ja rinnan ympärillä. Jatka huolellisesti suoraan viimeiseen kavioon.",
-          "fact": "Hirvet ovat kykeneviä uimareita ja voivat kulkea veden läpi ruokaillakseen tai paetakseen vaaraa. Löydä lisää kanadalaisia villieläintietoja <a href=\"https://parks.canada.ca/pn-np/mb/wapusk/nature/faune-animals/mammiferes-mammals\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Parks Canadan nisäkäsguidesta</a>."
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Vaahteranlehti",
+          "description": "Tämä 70 pisteen vaahteranlehti on ilmainen tulostettava pisteytystehtävä 5-9-vuotiaille lapsille, jotka oppivat miksi lehti on koristanut Kanadan lippua vuodesta 1965. Isänmaallinen tehtävä Kanadan kansallispäivälle — piirrä tunnusomainen muoto, tulosta PDF ja lisää syksyn värit A4-paperille.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
         }
-      ],
-      "outro": "Upeaa—hirvisi on valmis Kanadan erämaahan! Käytä syvää ruskeaa vartalolle, vaaleampaa ruskeaa sarville ja lisää kuusia tai sininen järvi sen taakse. Jatka tutkimista toisen <a href=\"/canada/\">kanadalaisen eläimen pisteestä pisteeseen tulostettavan kuvan</a> kanssa."
-    },
-    "seoTitle": "Hirvi pisteestä pisteeseen — 89 pisteen kanadalainen tulostettava PDF"
-  },
-  {
-    "slug": "canada-raccoon-dot-to-dot-puzzle",
-    "name": "Pesukarhu",
-    "seoH1": "Pesukarhu Pisteestä Pisteeseen Työlehti: 90 Pistettä Ikäryhmälle 6-10",
-    "tagline": "Yhdistä pisteet ja löydä ovela kanadalainen pesukarhu!",
-    "description": "Ilmainen tulostettava pesukarhu-pisteestä pisteeseen -tehtävä, jossa esitellään yksi Kanadan tutuimmista eläimistä.",
-    "seoDescription": "Herkkä etujalka auttaa pesukarhuja tutkimaan ympäristöään. Paljasta naamio ja raidallinen häntä 90 pisteen avulla ilmaisessa PDF:ssä, joka on tarkoitettu 6–10-vuotiaille.",
-    "funFact": "Pesukarhuilla on erittäin herkät etujalat, jotka auttavat niitä tutkimaan ruokaa ja esineitä.",
-    "seoImageAlt": "Utelias pesukarhu naamiokasvoineen ja raidallisine häntineen piilossa 90 tulostettavassa pisteessä",
-    "dotGuide": {
-      "intro": "Tumman naamion kasvoillaan ja renkaat hännässään pesukarhu on helppo tunnistaa. Nämä sopeutuvat nisäkkäät elävät Kanadan metsissä, kosteikoissa, tiloilla ja kaupungeissa. Ne ovat pääasiassa aktiivisia auringonlaskun jälkeen ja käyttävät ketteriä etujalkojaan tutkimiseen. Tämä 90 pisteen pulma on pidempi haaste, joten aloita pisteestä 1 ja rakenna pesukarhu yksi osa kerrallaan.",
-      "sections": [
-        {
-          "range": "1–18",
-          "title": "Korvat ja naamioitu kasvot",
-          "learn": "Aloita pisteestä 1 ja yhdistä pisteeseen 18 hahmotellaksesi terävät korvat ja pyöreän kasvot. Pidä käännökset siisteinä, jotta pesukarhun valpas ilme tulee esiin.",
-          "fact": "Tummat karvat pesukarhun silmien ympärillä vähentävät häikäisyä ja luovat naamion kaltaisen merkin, joka tekee eläimestä niin tunnistettavan."
-        },
-        {
-          "range": "19–36",
-          "title": "Selkä",
-          "learn": "Jatka pisteestä 19 pisteeseen 36 pitkin hartioita ja hellästi kaarevaa selkää. Suora viiva täällä antaa pesukarhulle pehmeän, karvaisen siluetin.",
-          "fact": "Pesukarhut ovat pääasiassa yöeläimiä, mikä tarkoittaa, että ne ovat yleensä aktiivisia yöllä ja lepäävät suurimman osan päivästä."
-        },
-        {
-          "range": "37–54",
-          "title": "Renkaallinen häntä",
-          "learn": "Seuraa pisteitä 37–54 paksun hännän ympärillä. Seuraa ensin ulkokaarta; voit lisätä tummia ja vaaleita renkaita, kun on aika värittää.",
-          "fact": "Pesukarhun pörröisellä hännällä on yleensä useita tummia renkaita, ja se voi auttaa eläintä tasapainottamaan kiipeämisen aikana."
-        },
-        {
-          "range": "55–72",
-          "title": "Jalat ja vatsa",
-          "learn": "Yhdistä pisteet 55–72 takajalkojen ja vatsan ympärillä. Ole erityisen varovainen, kun numerot ovat lähellä toisiaan varpaiden lähellä.",
-          "fact": "Pesukarhun etujaloissa on viisi pitkää varvasta. Niiden herkät jalat ovat hyödyllisiä ruoan käsittelyssä ja puissa kiipeämisessä."
-        },
-        {
-          "range": "73–90",
-          "title": "Rinta ja loppu",
-          "learn": "Viimeistele pulma pisteillä 73–90, piirtäen etujalat ja rinta ennen kuin palaat kasvoihin. Yhdeksänkymmentä on maaliviiva—hyvin tehty!",
-          "fact": "Pesukarhut ovat kotoisin Pohjois-Amerikasta ja ovat huomattavan sopeutuvia. Lue lisää <a href=\"https://www.thecanadianencyclopedia.ca/en/article/raccoon\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Kanadan tietosanakirjan pesukarhuartikkelista</a>."
+      },
+      "body": {
+        "h1": "Vaahteranlehti pisteestä pisteeseen: Kanadan ikoni 70 pisteessä",
+        "name": "Vaahteranlehti",
+        "tagline": "Yhdistä pisteet ja piirrä Kanadan kuuluisa vaahteranlehti!",
+        "description": "Ilmainen tulostettava vaahteranlehti-pisteestä pisteeseen -tehtävä, joka juhlistaa Kanadan rakastettua tunnusta.",
+        "fun_fact": "Vaahteranlehti on koristanut Kanadan kansallislippua vuodesta 1965.",
+        "faqs": [
+          {
+            "q": "Minkä ikäisille Vaahteranlehti-pisteestä pisteeseen -tehtävä on tarkoitettu?",
+            "a": "Se on suunniteltu ikäryhmälle Ikä 5-9. 70 pisteellään se sopii lapsille, jotka osaavat laskea varmasti 70:een; nuoremmat lapset onnistuvat pienellä avulla."
+          },
+          {
+            "q": "Miten tulostan Vaahteranlehti-tehtäväsivun?",
+            "a": "Napsauta latauspainiketta saadaksesi ilmaisen PDF:n ja tulosta se tavalliselle paperille (A4 tai US Letter) mistä tahansa selaimesta tai PDF-lukijasta. Erityistä ohjelmistoa ei tarvita."
+          },
+          {
+            "q": "Onko tulostettava Vaahteranlehti todella ilmainen?",
+            "a": "Kyllä — se on 100 % ilmainen, ilman rekisteröitymistä, tiliä tai maksua. Voit tulostaa sen kotiin tai luokkahuoneeseen."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Vaahterat kirkastavat kanadalaisia metsiä tulisilla punaisilla, oransseilla ja kultaisilla lehdillä joka syksy. Vaahteranlehti on edustanut Kanadaa sukupolvien ajan ja se istuu ylpeänä maan punavalkoisen lipun keskellä. Tämä 70 pisteen palapeli seuraa lehden teräviä reunoja ja vahvaa vartta. Etsi piste 1, pidä lyijykynäsi liikkeessä numerojärjestyksessä ja katso, kuinka kanadalainen symboli alkaa muotoutua!",
+          "sections": [
+            {
+              "range": "1–14",
+              "title": "Ylin piste",
+              "learn": "Aloita pisteestä 1 ja yhdistä pisteeseen 14 muodostaaksesi lehden yläosan korkean kärjen. Seuraa jokaista pientä käännöstä huolellisesti — terävät kulmat antavat vaahteranlehdelle sen tunnistettavan muodon.",
+              "fact": "Kanadan lippu esittää yhtä tyyliteltyä punaista vaahteranlehteä, jossa on 11 kärkeä. Opi lipun suunnittelusta ja historiasta <a href=\"https://www.canada.ca/en/canadian-heritage/services/flag-canada-history.html\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Kanadan perinnöstä</a>."
+            },
+            {
+              "range": "15–28",
+              "title": "Oikean puolen pisteet",
+              "learn": "Jatka pisteestä 15 pisteeseen 28, liikkuen lehden oikeaa puolta alas. Hidasta jokaisessa kulmassa ja tarkista seuraava numero ennen suunnan vaihtamista.",
+              "fact": "Kanadassa on 10 alkuperäistä vaahteralajiketta. Sokerivaahtera on erityisen kuuluisa, koska sen mahlaa voidaan valmistaa vaahterasiirapiksi."
+            },
+            {
+              "range": "29–42",
+              "title": "Varsi",
+              "learn": "Yhdistä pisteet 29–42 piirtääksesi lehden alareunan ja kapean varren. Käytä lyhyempiä vetoja tiukkojen käännösten ympärillä, jotta viivasi pysyy lähellä pisteitä.",
+              "fact": "Ihmiset keräävät vaahteramahlaa varhain keväällä, kun pakkasyöt ja lämpimät päivät auttavat mahlaa virtaamaan puun sisällä."
+            },
+            {
+              "range": "43–56",
+              "title": "Vasen puolen pisteet",
+              "learn": "Jäljitä pisteet 43–56 takaisin vasenta puolta ylös. Nämä pisteet heijastavat oikean puolen muotoja, joten vertaa molempia puolia piirtäessäsi.",
+              "fact": "Kauan ennen kuin Kanadan nykyaikainen lippu hyväksyttiin, vaahteranlehdet esiintyivät kanadalaisissa merkeissä, vaakunoissa, kolikoissa ja sotilasvaakunoissa."
+            },
+            {
+              "range": "57–70",
+              "title": "Lehden sulkeminen",
+              "learn": "Viimeistele pisteillä 57–70, palaten lehden yläosaan. Laske hitaasti viimeiseen pisteeseen, tarkista sitten, että jokainen piste ja kulma on yhdistetty.",
+              "fact": "Vaahteranlehdet tuottavat ravintoa puulle auringonvalon avulla. Syksyllä niiden vihreä pigmentti hajoaa ja muut värit tulevat helpommin näkyviksi."
+            }
+          ],
+          "outro": "Mahtavaa — vaahteranlehtesi on valmis! Väritä se kirkkaan punaiseksi kuten Kanadan lippu, tai käytä keltaista ja oranssia syksyn lehden väreinä. Opi lisää Kanadan kansallisista symboleista <a href=\"https://www.canada.ca/en/canadian-heritage/services/official-symbols-canada.html\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Kanadan hallituksen verkkosivustolla</a>, ja kokeile sitten toista <a href=\"/canada/\">Kanada pisteestä pisteeseen -palapeliä</a>.",
+          "color_schemes": []
         }
-      ],
-      "outro": "Hienoa työtä—naamioitu tutkijasi on valmis! Väritä karva harmaanruskeaksi, tee naamion ja hännän renkaat tummiksi, ja piirrä yömetsä tai takapihan maisema. Valitse sitten toinen <a href=\"/canada/\">ilmainen Kanadan pulma</a> jatkaaksesi harjoittelua."
+      }
     },
-    "seoTitle": "Pesukarhu-tehtävä: 90 pistettä 6-10-vuotiaille"
-  }
-]
+    {
+      "slug": "canada-polar-bear-dot-to-dot-puzzle",
+      "header": {
+        "title": "Jääkarhu pisteestä pisteeseen -tulostettava, 74 arktista pistettä ilmaiseksi",
+        "meta_description": "Noin kaksi kolmasosaa maailman jääkarhuista elää Kanadassa. Paljasta tämä arktinen jättiläinen 74 pisteen avulla ilmaisella työarkilla, joka on suunnattu 6–10-vuotiaille.",
+        "og": {
+          "title": "Jääkarhu pisteestä pisteeseen -tulostettava, 74 arktista pistettä ilmaiseksi",
+          "description": "Noin kaksi kolmasosaa maailman jääkarhuista elää Kanadassa. Paljasta tämä arktinen jättiläinen 74 pisteen avulla ilmaisella työarkilla, joka on suunnattu 6–10-vuotiaille.",
+          "image_alt": "Voimakas jääkarhu ylittää arktista jäätä 74 tulostettavan pisteen muodostamana"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Jääkarhu",
+          "description": "Noin kaksi kolmasosaa maailman jääkarhuista elää Kanadassa. Paljasta tämä arktinen jättiläinen 74 pisteen avulla ilmaisella työarkilla, joka on suunnattu 6–10-vuotiaille.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
+      },
+      "body": {
+        "h1": "Jääkarhu Yhdistä pisteet -tulostettava, 74 arktista pistettä ilmaiseksi",
+        "name": "Jääkarhu",
+        "tagline": "Yhdistä pisteet ja paljasta mahtava kanadalainen jääkarhu!",
+        "description": "Ilmainen tulostettava jääkarhu-pisteestä pisteeseen -tehtävä lapsille, jotka rakastavat Kanadan eläimistöä.",
+        "fun_fact": "Noin kaksi kolmasosaa maailman jääkarhuista elää Kanadassa.",
+        "faqs": [
+          {
+            "q": "Minkä ikäisille Jääkarhu-pisteestä pisteeseen -tehtävä on tarkoitettu?",
+            "a": "Se on suunniteltu ikäryhmälle Ikä 6-10. 74 pisteellään se sopii lapsille, jotka osaavat laskea varmasti 74:een; nuoremmat lapset onnistuvat pienellä avulla."
+          },
+          {
+            "q": "Miten tulostan Jääkarhu-tehtäväsivun?",
+            "a": "Napsauta latauspainiketta saadaksesi ilmaisen PDF:n ja tulosta se tavalliselle paperille (A4 tai US Letter) mistä tahansa selaimesta tai PDF-lukijasta. Erityistä ohjelmistoa ei tarvita."
+          },
+          {
+            "q": "Onko tulostettava Jääkarhu todella ilmainen?",
+            "a": "Kyllä — se on 100 % ilmainen, ilman rekisteröitymistä, tiliä tai maksua. Voit tulostaa sen kotiin tai luokkahuoneeseen."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Jääkarhut vaeltavat Kanadan arktisten alueiden jäätyneillä rannoilla ja merijäällä. Niiden paksu turkki, pienet korvat ja valtavat tassut auttavat niitä pysymään lämpiminä ja liikkumaan lumen, jään ja veden yli. Tämä 74 pisteen pulma jäljittää jääkarhun sen nenästä sen leveisiin tassuihin. Aloita pisteestä 1 ja tee matka yksi varovainen viiva kerrallaan.",
+          "sections": [
+            {
+              "range": "1–15",
+              "title": "Nenä ja pää",
+              "learn": "Aloita pisteestä 1 ja yhdistä pisteeseen 15 muotoillaksesi nenän, kuonon ja pyöreän pään. Pidä viivat lempeinä kasvojen ympärillä, jotta karhun profiili näyttää sujuvalta.",
+              "fact": "Jääkarhulla on erinomainen hajuaisti, joka auttaa sitä löytämään hylkeitä, sen pääsaalista, jään yli."
+            },
+            {
+              "range": "16–30",
+              "title": "Selkä ja hartiat",
+              "learn": "Jatka pisteestä 16 pisteeseen 30 vahvojen hartioiden ja kaarevan selän kautta. Yritä tehdä tämä pitkä ääriviiva tasaisilla vedoilla sen sijaan, että tekisit paljon pieniä merkkejä.",
+              "fact": "Jääkarhut ovat Kanadan suurimpia maaeläimiä. Aikuiset urokset voivat painaa useita satoja kiloja."
+            },
+            {
+              "range": "31–45",
+              "title": "Takajalat",
+              "learn": "Jäljitä pisteet 31–45 piirtääksesi takajalat ja tassut. Tarkista jokainen numero huolellisesti, kun ääriviiva muuttuu suuntaa lähellä jalkoja.",
+              "fact": "Jääkarhun leveät tassut jakavat sen painon lumen yli ja toimivat kuin melat, kun se ui."
+            },
+            {
+              "range": "46–60",
+              "title": "Vatsa ja etutassut",
+              "learn": "Yhdistä pisteet 46–60 kehon alapuolella ja etutassujen ympärillä. Lyhyet, hallitut viivat auttavat sinua seuraamaan tiukempia kaaria.",
+              "fact": "Jääkarhuilla on musta iho turkin alla, joka näyttää valkoiselta. Niiden turkki auttaa niitä sulautumaan lumiseen arktiseen maisemaan."
+            },
+            {
+              "range": "61–74",
+              "title": "Rinta ja loppu",
+              "learn": "Viimeistele pisteillä 61–74, liikkuen ylös rintaa ja takaisin kohti päätä. Pysähdy viimeiselle pisteelle ja varmista, ettei yhtään numeroa ole ohitettu.",
+              "fact": "Merijää on elintärkeä jääkarhujen elinympäristö, koska se tarjoaa alustan hylkeiden metsästämiseen. Lue lajin profiili <a href=\"https://www.canada.ca/en/environment-climate-change/services/species-risk-public-registry/cosewic-assessments-status-reports/polar-bear-2018.html\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Ympäristö- ja ilmastomuutos Kanadasta</a>."
+            }
+          ],
+          "outro": "Erinomaista—arktinen jättiläisesi on valmis! Jätä turkki valkoiseksi ja lisää vaaleansinisiä varjoja, tai piirrä luminen merijäätausta. Vieraile <a href=\"https://parks.canada.ca/pn-np/mb/wapusk/nature/faune-animals/mammiferes-mammals/ours-bears/polaire-polar\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Parks Canada -sivulla jääkarhuista</a> aikuisen kanssa oppiaksesi lisää, ja tutki lisää <a href=\"/canada/\">ilmaisia Kanadan tulostettavia materiaaleja</a>.",
+          "color_schemes": []
+        }
+      }
+    },
+    {
+      "slug": "canada-moose-dot-to-dot-puzzle",
+      "header": {
+        "title": "Hirvi pisteestä pisteeseen — 89 pisteen kanadalainen tulostettava PDF",
+        "meta_description": "Leveät sarvet kruunaavat suurimman jäsenen hirvieläinten perheessä. Seuraa 89-pisteen polkua täydentääksesi tämän ilmaisen hirven tulostettavan kuvan ikäryhmälle 6–10.",
+        "og": {
+          "title": "Hirvi pisteestä pisteeseen — 89 pisteen kanadalainen tulostettava PDF",
+          "description": "Leveät sarvet kruunaavat suurimman jäsenen hirvieläinten perheessä. Seuraa 89-pisteen polkua täydentääksesi tämän ilmaisen hirven tulostettavan kuvan ikäryhmälle 6–10.",
+          "image_alt": "Leveäsarvinen hirvi seisoo ylväänä, kun 89 tulostettavaa pistettä on yhdistetty"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Hirvi",
+          "description": "Leveät sarvet kruunaavat suurimman jäsenen hirvieläinten perheessä. Seuraa 89-pisteen polkua täydentääksesi tämän ilmaisen hirven tulostettavan kuvan ikäryhmälle 6–10.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
+      },
+      "body": {
+        "h1": "Hirvi Pisteestä Pisteeseen — 89-Pisteen Kanadalainen Tulostettava PDF",
+        "name": "Hirvi",
+        "tagline": "Yhdistä pisteet ja viimeistele komea kanadalainen hirvi!",
+        "description": "Ilmainen tulostettava hirvi-pisteestä pisteeseen -tehtävä hauskaan Kanadan eläimistöaiheiseen aktiviteettiin.",
+        "fun_fact": "Hirvi on peurojen suurin laji.",
+        "faqs": [
+          {
+            "q": "Minkä ikäisille Hirvi-pisteestä pisteeseen -tehtävä on tarkoitettu?",
+            "a": "Se on suunniteltu ikäryhmälle Ikä 6-10. 89 pisteellään se sopii lapsille, jotka osaavat laskea varmasti 89:een; nuoremmat lapset onnistuvat pienellä avulla."
+          },
+          {
+            "q": "Miten tulostan Hirvi-tehtäväsivun?",
+            "a": "Napsauta latauspainiketta saadaksesi ilmaisen PDF:n ja tulosta se tavalliselle paperille (A4 tai US Letter) mistä tahansa selaimesta tai PDF-lukijasta. Erityistä ohjelmistoa ei tarvita."
+          },
+          {
+            "q": "Onko tulostettava Hirvi todella ilmainen?",
+            "a": "Kyllä — se on 100 % ilmainen, ilman rekisteröitymistä, tiliä tai maksua. Voit tulostaa sen kotiin tai luokkahuoneeseen."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Hirvi voi näyttää lähes esihistorialliselta, kun se astuu Kanadan metsistä: pitkät jalat, raskas kuono ja leveät sarvet kohoavat sen pään ylle. Hirvet ovat vahvoja uimareita ja tuntevat olonsa kotoisaksi järvien, kosteikkojen ja metsäisten alueiden ympärillä. Tässä 89-pisteen palapelissä on runsaasti käännöksiä, erityisesti sarvien ympärillä, joten terota lyijykynäsi, etsi piste 1 ja laske huolellisesti.",
+          "sections": [
+            {
+              "range": "1–18",
+              "title": "Kuono ja Kasvot",
+              "learn": "Aloita pisteestä 1 ja yhdistä pisteeseen 18 piirtääksesi hirven pitkän kuonon ja kasvot. Käytä siistejä, lyhyitä vetoja nenän ja silmän alueella.",
+              "fact": "Hirven leveä kuono auttaa sitä keräämään oksia, lehtiä ja vesikasveja. Hirvet ovat kasvissyöjiä, mikä tarkoittaa, että ne syövät kasveja."
+            },
+            {
+              "range": "19–36",
+              "title": "Leveät Sarvet",
+              "learn": "Jatka pisteestä 19 pisteeseen 36 sarvien haarautumisen ympärillä. Tämä on haastavin osa, joten etsi seuraava numero ennen jokaisen viivan piirtämistä.",
+              "fact": "Vain urokshirvet kasvattavat normaalisti sarvia. Ne pudottavat ne syksyn lisääntymiskauden jälkeen ja kasvattavat uuden sarvijoukon seuraavana vuonna."
+            },
+            {
+              "range": "37–54",
+              "title": "Kaula ja Selkä",
+              "learn": "Seuraa pisteitä 37–54 alas kaulasta ja yli selän. Anna lyijykynäsi seurata pitkää kaarta sujuvasti, kun eläimen vartalo ilmestyy.",
+              "fact": "Hirven kurkun alla roikkuvaa ihopoimua kutsutaan kelloksi tai kaulapoimuksi."
+            },
+            {
+              "range": "55–72",
+              "title": "Pitkät Jalat",
+              "learn": "Yhdistä pisteet 55–72 takajalkojen ja vatsan ympärillä. Pitkät, kapeat jalan muodot vaativat kärsivällistä laskemista ja hallittuja suuntamuutoksia.",
+              "fact": "Pitkät jalat auttavat hirviä astumaan syvän lumen läpi ja kahlaamaan lampeen päästäkseen vesikasveihin."
+            },
+            {
+              "range": "73–89",
+              "title": "Rinta ja Viimeinen Kavio",
+              "learn": "Lopeta yhdistämällä pisteet 73–89 etujalkojen ja rinnan ympärillä. Jatka huolellisesti suoraan viimeiseen kavioon.",
+              "fact": "Hirvet ovat kykeneviä uimareita ja voivat kulkea veden läpi ruokaillakseen tai paetakseen vaaraa. Löydä lisää kanadalaisia villieläintietoja <a href=\"https://parks.canada.ca/pn-np/mb/wapusk/nature/faune-animals/mammiferes-mammals\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Parks Canadan nisäkäsguidesta</a>."
+            }
+          ],
+          "outro": "Upeaa—hirvisi on valmis Kanadan erämaahan! Käytä syvää ruskeaa vartalolle, vaaleampaa ruskeaa sarville ja lisää kuusia tai sininen järvi sen taakse. Jatka tutkimista toisen <a href=\"/canada/\">kanadalaisen eläimen pisteestä pisteeseen tulostettavan kuvan</a> kanssa.",
+          "color_schemes": []
+        }
+      }
+    },
+    {
+      "slug": "canada-raccoon-dot-to-dot-puzzle",
+      "header": {
+        "title": "Pesukarhu-tehtävä: 90 pistettä 6-10-vuotiaille",
+        "meta_description": "Herkkä etujalka auttaa pesukarhuja tutkimaan ympäristöään. Paljasta naamio ja raidallinen häntä 90 pisteen avulla ilmaisessa PDF:ssä, joka on tarkoitettu 6–10-vuotiaille.",
+        "og": {
+          "title": "Pesukarhu-tehtävä: 90 pistettä 6-10-vuotiaille",
+          "description": "Herkkä etujalka auttaa pesukarhuja tutkimaan ympäristöään. Paljasta naamio ja raidallinen häntä 90 pisteen avulla ilmaisessa PDF:ssä, joka on tarkoitettu 6–10-vuotiaille.",
+          "image_alt": "Utelias pesukarhu naamiokasvoineen ja raidallisine häntineen piilossa 90 tulostettavassa pisteessä"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Pesukarhu",
+          "description": "Herkkä etujalka auttaa pesukarhuja tutkimaan ympäristöään. Paljasta naamio ja raidallinen häntä 90 pisteen avulla ilmaisessa PDF:ssä, joka on tarkoitettu 6–10-vuotiaille.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
+      },
+      "body": {
+        "h1": "Pesukarhu Pisteestä Pisteeseen Työlehti: 90 Pistettä Ikäryhmälle 6-10",
+        "name": "Pesukarhu",
+        "tagline": "Yhdistä pisteet ja löydä ovela kanadalainen pesukarhu!",
+        "description": "Ilmainen tulostettava pesukarhu-pisteestä pisteeseen -tehtävä, jossa esitellään yksi Kanadan tutuimmista eläimistä.",
+        "fun_fact": "Pesukarhuilla on erittäin herkät etujalat, jotka auttavat niitä tutkimaan ruokaa ja esineitä.",
+        "faqs": [
+          {
+            "q": "Minkä ikäisille Pesukarhu-pisteestä pisteeseen -tehtävä on tarkoitettu?",
+            "a": "Se on suunniteltu ikäryhmälle Ikä 6-10. 90 pisteellään se sopii lapsille, jotka osaavat laskea varmasti 90:een; nuoremmat lapset onnistuvat pienellä avulla."
+          },
+          {
+            "q": "Miten tulostan Pesukarhu-tehtäväsivun?",
+            "a": "Napsauta latauspainiketta saadaksesi ilmaisen PDF:n ja tulosta se tavalliselle paperille (A4 tai US Letter) mistä tahansa selaimesta tai PDF-lukijasta. Erityistä ohjelmistoa ei tarvita."
+          },
+          {
+            "q": "Onko tulostettava Pesukarhu todella ilmainen?",
+            "a": "Kyllä — se on 100 % ilmainen, ilman rekisteröitymistä, tiliä tai maksua. Voit tulostaa sen kotiin tai luokkahuoneeseen."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Tumman naamion kasvoillaan ja renkaat hännässään pesukarhu on helppo tunnistaa. Nämä sopeutuvat nisäkkäät elävät Kanadan metsissä, kosteikoissa, tiloilla ja kaupungeissa. Ne ovat pääasiassa aktiivisia auringonlaskun jälkeen ja käyttävät ketteriä etujalkojaan tutkimiseen. Tämä 90 pisteen pulma on pidempi haaste, joten aloita pisteestä 1 ja rakenna pesukarhu yksi osa kerrallaan.",
+          "sections": [
+            {
+              "range": "1–18",
+              "title": "Korvat ja naamioitu kasvot",
+              "learn": "Aloita pisteestä 1 ja yhdistä pisteeseen 18 hahmotellaksesi terävät korvat ja pyöreän kasvot. Pidä käännökset siisteinä, jotta pesukarhun valpas ilme tulee esiin.",
+              "fact": "Tummat karvat pesukarhun silmien ympärillä vähentävät häikäisyä ja luovat naamion kaltaisen merkin, joka tekee eläimestä niin tunnistettavan."
+            },
+            {
+              "range": "19–36",
+              "title": "Selkä",
+              "learn": "Jatka pisteestä 19 pisteeseen 36 pitkin hartioita ja hellästi kaarevaa selkää. Suora viiva täällä antaa pesukarhulle pehmeän, karvaisen siluetin.",
+              "fact": "Pesukarhut ovat pääasiassa yöeläimiä, mikä tarkoittaa, että ne ovat yleensä aktiivisia yöllä ja lepäävät suurimman osan päivästä."
+            },
+            {
+              "range": "37–54",
+              "title": "Renkaallinen häntä",
+              "learn": "Seuraa pisteitä 37–54 paksun hännän ympärillä. Seuraa ensin ulkokaarta; voit lisätä tummia ja vaaleita renkaita, kun on aika värittää.",
+              "fact": "Pesukarhun pörröisellä hännällä on yleensä useita tummia renkaita, ja se voi auttaa eläintä tasapainottamaan kiipeämisen aikana."
+            },
+            {
+              "range": "55–72",
+              "title": "Jalat ja vatsa",
+              "learn": "Yhdistä pisteet 55–72 takajalkojen ja vatsan ympärillä. Ole erityisen varovainen, kun numerot ovat lähellä toisiaan varpaiden lähellä.",
+              "fact": "Pesukarhun etujaloissa on viisi pitkää varvasta. Niiden herkät jalat ovat hyödyllisiä ruoan käsittelyssä ja puissa kiipeämisessä."
+            },
+            {
+              "range": "73–90",
+              "title": "Rinta ja loppu",
+              "learn": "Viimeistele pulma pisteillä 73–90, piirtäen etujalat ja rinta ennen kuin palaat kasvoihin. Yhdeksänkymmentä on maaliviiva—hyvin tehty!",
+              "fact": "Pesukarhut ovat kotoisin Pohjois-Amerikasta ja ovat huomattavan sopeutuvia. Lue lisää <a href=\"https://www.thecanadianencyclopedia.ca/en/article/raccoon\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Kanadan tietosanakirjan pesukarhuartikkelista</a>."
+            }
+          ],
+          "outro": "Hienoa työtä—naamioitu tutkijasi on valmis! Väritä karva harmaanruskeaksi, tee naamion ja hännän renkaat tummiksi, ja piirrä yömetsä tai takapihan maisema. Valitse sitten toinen <a href=\"/canada/\">ilmainen Kanadan pulma</a> jatkaaksesi harjoittelua.",
+          "color_schemes": []
+        }
+      }
+    }
+  ]
+}

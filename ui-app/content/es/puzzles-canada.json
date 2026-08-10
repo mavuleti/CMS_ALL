@@ -1,237 +1,456 @@
-[
-  {
-    "slug": "canada-canoe-dot-to-dot-puzzle",
-    "name": "Canoa canadiense",
-    "seoH1": "Conecta los puntos del Canoe Canadiense — Rema a través de 69 puntos",
-    "tagline": "Rema por los lagos y ríos de Canadá",
-    "description": "Une 69 puntos para descubrir una canoa canadiense y su remo. Este imprimible de dificultad media practica la secuencia numérica y el control del lápiz mientras presenta una embarcación ligada a los viajes por Canadá.",
-    "seoDescription": "Antes de las carreteras, las canoas transportaban personas a través de los lagos y ríos de Canadá. Rema a través de 69 puntos con este PDF imprimible gratuito para niños de 5 a 9 años.",
-    "funFact": "Las canoas permitían transportar personas y provisiones por lagos y ríos conectados donde no había caminos.",
-    "seoImageAlt": "Canoa canadiense y remo apareciendo a medida que se unen 69 puntos en una ficha gratuita",
-    "dotGuide": {
-      "intro": "La canoa es una de las embarcaciones más reconocibles de Canadá. Los pueblos indígenas desarrollaron diseños adaptados a las aguas y materiales de cada región, y otros viajeros utilizaron después las canoas para recorrer extensas redes de ríos y lagos. Este rompecabezas de 69 puntos dibuja el remo y el casco largo y elegante. ¡Busca el punto 1 y empieza el viaje!",
-      "sections": [
-        {
-          "range": "1–14",
-          "title": "El remo y el borde superior",
-          "learn": "Empieza en el punto 1 y une hasta el 14 para perfilar el remo y el borde de la canoa. Mantén firme el trazo y comprueba cada número antes de la curva de la proa.",
-          "fact": "Un remo tiene empuñadura, pértiga y pala. La pala ancha empuja el agua para mover y dirigir la canoa."
-        },
-        {
-          "range": "15–28",
-          "title": "La proa elevada",
-          "learn": "Continúa del 15 al 28 alrededor de la parte delantera. Ve despacio al cambiar de dirección para mantener suave la proa puntiaguda.",
-          "fact": "La proa es la parte delantera y la popa es la trasera. Sus formas elevadas ayudan a avanzar entre olas y corrientes."
-        },
-        {
-          "range": "29–42",
-          "title": "La pala y el casco",
-          "learn": "Traza del 29 al 42 alrededor de la pala del remo y la parte inferior del casco. Controla las curvas donde ambas formas se acercan.",
-          "fact": "El Servicio Geológico de Canadá utilizó canoas en sus primeras expediciones por el norte. Conoce su canoa histórica de 1874 en el <a href=\"https://ised-isde.canada.ca/site/science/en/educational-resources/history-geological-survey-canada-175-objects/26-canoe-1874\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">sitio oficial del Gobierno de Canadá</a>."
-        },
-        {
-          "range": "43–56",
-          "title": "El largo lado inferior",
-          "learn": "Une del 43 al 56 por la parte inferior con un trazo amplio. Las distancias largas entrenan la firmeza y el seguimiento visual.",
-          "fact": "Las culturas indígenas construyeron distintos tipos de canoa con materiales como corteza de abedul, cedro, pieles y madera trabajada."
-        },
-        {
-          "range": "57–69",
-          "title": "La popa y el final",
-          "learn": "Termina del 57 al 69 alrededor de la popa y regresa al borde superior. Cuenta con cuidado y comprueba que todo el casco quede unido.",
-          "fact": "Las condiciones del agua cambian rápidamente, por lo que la preparación y el equipo de seguridad son esenciales. Consulta los consejos de <a href=\"https://parks.canada.ca/voyage-travel/experiences/sports/pagayer-paddling\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Parques de Canadá</a>."
+{
+  "collection": {
+    "header": {
+      "title": "Dibujos de Canadá para unir puntos gratis para niños",
+      "meta_description": "Descubre Canadá con fichas gratuitas para unir puntos de animales canadienses, hojas de arce y más, listas para imprimir.",
+      "og": {
+        "title": "Dibujos de Canadá para unir puntos gratis para niños",
+        "description": "Fichas imprimibles gratuitas de Canadá para niños.",
+        "image": "/images/canada-maple-leaf-puzzle.webp"
+      },
+      "json_ld": {
+        "type": "CollectionPage",
+        "name": "Canadá",
+        "description": "Descubre Canadá con fichas gratuitas de animales canadienses y la emblemática hoja de arce.",
+        "image": "/images/canada-maple-leaf-puzzle.webp",
+        "main_entity": {
+          "type": "ItemList",
+          "item_source": "puzzles"
         }
-      ],
-      "outro": "¡Excelente, tu canoa está lista! Colorea el casco, añade ondas y dibuja un lago o bosque canadiense. Descubre ideas oficiales en <a href=\"https://parks.canada.ca/voyage-travel/experiences/sports/pagayer-paddling\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Parques de Canadá</a> y prueba otro <a href=\"/es/canada/\">rompecabezas de Canadá</a>."
+      },
+      "breadcrumb_json_ld": {
+        "type": "BreadcrumbList",
+        "items": [
+          {
+            "position": 1,
+            "name": "Home",
+            "path": "/"
+          },
+          {
+            "position": 2,
+            "name": "Canadá",
+            "path": "/canada/"
+          }
+        ]
+      }
     },
-    "seoTitle": "Canoa Canadiense para Unir Puntos: Rema Entre 69 Puntos"
+    "body": {
+      "h1": "Puzles de unir puntos de Canadá",
+      "name": "Canadá",
+      "tagline": "Descubre Canadá punto por punto",
+      "description": "Descubre Canadá con fichas gratuitas de animales canadienses y la emblemática hoja de arce.",
+      "hero_image": "/images/canada-maple-leaf-puzzle.webp",
+      "slug": "canada",
+      "faqs": [
+        {
+          "q": "¿Son todos los dibujos para unir puntos para imprimir en este sitio web completamente gratuitos?",
+          "a": "Sí, todas las hojas de ejercicios de unir los puntos en DotToDotFreePrintables.com son 100% gratuitas para descargar e imprimir. No se requiere cuenta, suscripción ni tarjeta de crédito."
+        },
+        {
+          "q": "¿Para qué edad son adecuadas las hojas de trabajo de unir puntos?",
+          "a": "Nuestros materiales imprimibles abarcan edades de 2 a 12 años. Las hojas de trabajo fáciles (de 10 a 20 puntos) son ideales para niños pequeños y preescolares, las hojas de dificultad media (de 20 a 50 puntos) son excelentes para jardín de infantes y primer grado, y las hojas más difíciles (de 50 a más de 200 puntos) representan un desafío para los alumnos de segundo a sexto grado."
+        },
+        {
+          "q": "¿En qué formato están las hojas para imprimir de unir los puntos?",
+          "a": "Todas las hojas de trabajo se descargan como archivos PDF listos para imprimir, en tamaño A4 estándar (también disponibles en Carta de EE. UU.). Ábrelas en cualquier navegador o visor de PDF e imprímelas; no necesitas ningún software especial."
+        },
+        {
+          "q": "¿Pueden los profesores utilizar estas fichas de unir los puntos en clase?",
+          "a": "¡Sí! Nuestros materiales imprimibles son gratuitos para uso personal y en el aula. Son ideales para actividades matutinas, para alumnos que terminan rápido, para planes de clase de suplentes, para centros de motricidad fina y para paquetes de tareas."
+        }
+      ]
+    }
   },
-  {
-    "slug": "canada-maple-leaf-dot-to-dot-puzzle",
-    "name": "Hoja de arce",
-    "seoH1": "Conecta los puntos de la Hoja de Arce: El ícono de Canadá en 70 puntos",
-    "tagline": "La famosa hoja roja de Canadá",
-    "description": "Une 70 puntos para descubrir una hoja de arce, uno de los símbolos más conocidos de Canadá. Este rompecabezas de dificultad media ayuda a practicar el orden de los números y el control del lápiz mientras los niños aprenden por qué esta hoja aparece en la bandera canadiense.",
-    "seoDescription": "La hoja de arce ha centrado la bandera de Canadá desde 1965. Traza su contorno icónico a través de 70 puntos en un PDF imprimible gratuito para niños de 5 a 9 años.",
-    "funFact": "La hoja de arce ocupa el centro de la bandera nacional de Canadá desde 1965.",
-    "seoImageAlt": "Iconica hoja de arce canadiense, cada punta trazada al unir 70 puntos numerados imprimibles",
-    "dotGuide": {
-      "intro": "Cada otoño, los arces llenan los bosques canadienses de hojas rojas, naranjas y doradas. La hoja de arce representa a Canadá desde hace generaciones y ocupa con orgullo el centro de su bandera roja y blanca. Este rompecabezas de 70 puntos recorre los bordes puntiagudos de la hoja y su resistente tallo. Busca el punto 1, sigue los números en orden y observa cómo aparece este símbolo canadiense.",
-      "sections": [
-        {
-          "range": "1–14",
-          "title": "La punta superior",
-          "learn": "Empieza en el punto 1 y une hasta el 14 para formar la punta alta de la hoja. Sigue con cuidado cada pequeño giro: las esquinas marcadas crean la forma característica de la hoja de arce.",
-          "fact": "La bandera de Canadá muestra una hoja de arce roja estilizada con 11 puntas. Conoce su diseño y su historia en la página de <a href=\"https://www.canada.ca/en/canadian-heritage/services/flag-canada-history.html\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Patrimonio Canadiense</a>."
+  "puzzles": [
+    {
+      "slug": "canada-canoe-dot-to-dot-puzzle",
+      "header": {
+        "title": "Canoa Canadiense para Unir Puntos: Rema Entre 69 Puntos",
+        "meta_description": "Antes de las carreteras, las canoas transportaban personas a través de los lagos y ríos de Canadá. Rema a través de 69 puntos con este PDF imprimible gratuito para niños de 5 a 9 años.",
+        "og": {
+          "title": "Canoa Canadiense para Unir Puntos: Rema Entre 69 Puntos",
+          "description": "Antes de las carreteras, las canoas transportaban personas a través de los lagos y ríos de Canadá. Rema a través de 69 puntos con este PDF imprimible gratuito para niños de 5 a 9 años.",
+          "image_alt": "Canoa canadiense y remo apareciendo a medida que se unen 69 puntos en una ficha gratuita"
         },
-        {
-          "range": "15–28",
-          "title": "Las puntas de la derecha",
-          "learn": "Continúa desde el punto 15 hasta el 28 y baja por el lado derecho de la hoja. Ve despacio en cada esquina y comprueba el siguiente número antes de cambiar de dirección.",
-          "fact": "En Canadá crecen 10 especies autóctonas de arce. El arce azucarero es especialmente famoso porque su savia sirve para elaborar jarabe de arce."
-        },
-        {
-          "range": "29–42",
-          "title": "El tallo",
-          "learn": "Une los puntos 29 a 42 para dibujar el borde inferior y el tallo estrecho. Haz trazos cortos en los giros cerrados para mantener la línea cerca de los puntos.",
-          "fact": "La savia del arce se recoge a comienzos de la primavera, cuando las noches heladas y los días más cálidos ayudan a que fluya dentro del árbol."
-        },
-        {
-          "range": "43–56",
-          "title": "Las puntas de la izquierda",
-          "learn": "Traza desde el punto 43 hasta el 56 y sube por el lado izquierdo. Estas puntas se parecen a las del lado derecho, así que compara ambos lados mientras dibujas.",
-          "fact": "Mucho antes de que se adoptara la bandera actual, la hoja de arce ya aparecía en escudos, monedas, insignias y emblemas militares de Canadá."
-        },
-        {
-          "range": "57–70",
-          "title": "Cierra la hoja",
-          "learn": "Termina uniendo los puntos 57 a 70 para regresar a la parte superior. Cuenta despacio hasta el último punto y comprueba que todas las puntas y esquinas estén conectadas.",
-          "fact": "Las hojas producen alimento para el árbol mediante la luz del sol. En otoño, el pigmento verde se descompone y otros colores se vuelven más visibles."
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Canoa canadiense",
+          "description": "Antes de las carreteras, las canoas transportaban personas a través de los lagos y ríos de Canadá. Rema a través de 69 puntos con este PDF imprimible gratuito para niños de 5 a 9 años.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
         }
-      ],
-      "outro": "¡Fantástico! Tu hoja de arce está completa. Píntala de rojo intenso como la bandera canadiense o utiliza amarillo y naranja para crear una hoja otoñal. Descubre otros símbolos nacionales en el <a href=\"https://www.canada.ca/en/canadian-heritage/services/official-symbols-canada.html\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">sitio web del Gobierno de Canadá</a> y prueba otro <a href=\"/canada/\">rompecabezas de Canadá</a>."
-    },
-    "seoTitle": "Hoja de Arce para Unir Puntos: El Icono de Canada en 70 Puntos"
-  },
-  {
-    "slug": "canada-polar-bear-dot-to-dot-puzzle",
-    "name": "Oso polar",
-    "seoH1": "Conecta los puntos del Oso Polar Imprimible, 74 Puntos Árticos Gratis",
-    "tagline": "Un gigante del Ártico canadiense",
-    "description": "Une 74 puntos para descubrir un poderoso oso polar. Este imprimible de dificultad media permite practicar la secuencia numérica mientras presenta a los niños un animal especialmente adaptado a la vida sobre el hielo marino del Ártico.",
-    "seoDescription": "Cerca de dos tercios de los osos polares del mundo viven en Canadá. Revela este gigante ártico a través de 74 puntos con una hoja de trabajo gratuita para edades de 6 a 10 años.",
-    "funFact": "Aproximadamente dos tercios de los osos polares del mundo viven en Canadá.",
-    "seoImageAlt": "Poderoso oso polar cruzando el hielo artico, formado al unir 74 puntos en un PDF imprimible",
-    "dotGuide": {
-      "intro": "Los osos polares recorren las costas heladas y el hielo marino del Ártico canadiense. Su pelaje espeso, sus orejas pequeñas y sus enormes patas les ayudan a conservar el calor y desplazarse por la nieve, el hielo y el agua. Este rompecabezas de 74 puntos dibuja al oso desde el hocico hasta sus anchas patas. Empieza en el punto 1 y avanza línea por línea con cuidado.",
-      "sections": [
-        {
-          "range": "1–15",
-          "title": "El hocico y la cabeza",
-          "learn": "Empieza en el punto 1 y une hasta el 15 para formar el hocico y la cabeza redondeada. Dibuja líneas suaves alrededor de la cara para conseguir un perfil natural.",
-          "fact": "El oso polar tiene un olfato excelente que le permite localizar focas, su presa principal, a través del hielo."
-        },
-        {
-          "range": "16–30",
-          "title": "El lomo y los hombros",
-          "learn": "Continúa desde el punto 16 hasta el 30 por los fuertes hombros y el lomo curvado. Intenta crear este largo contorno con trazos firmes y no con muchas marcas pequeñas.",
-          "fact": "Los osos polares son los carnívoros terrestres más grandes de Canadá. Los machos adultos pueden pesar varios cientos de kilogramos."
-        },
-        {
-          "range": "31–45",
-          "title": "Las patas traseras",
-          "learn": "Traza los puntos 31 a 45 para dibujar las patas traseras. Comprueba cada número cuando el contorno cambie de dirección cerca de los pies.",
-          "fact": "Las anchas patas del oso polar reparten su peso sobre la nieve y funcionan como remos cuando nada."
-        },
-        {
-          "range": "46–60",
-          "title": "El vientre y las patas delanteras",
-          "learn": "Une los puntos 46 a 60 bajo el cuerpo y alrededor de las patas delanteras. Los trazos cortos y controlados ayudan a seguir las curvas más cerradas.",
-          "fact": "Los osos polares tienen la piel negra bajo un pelaje que parece blanco. Su color les ayuda a confundirse con el paisaje nevado del Ártico."
-        },
-        {
-          "range": "61–74",
-          "title": "El pecho y el final",
-          "learn": "Termina con los puntos 61 a 74, subiendo por el pecho y regresando hacia la cabeza. Detente en el último punto y comprueba que no te hayas saltado ningún número.",
-          "fact": "El hielo marino es esencial para los osos polares porque les sirve de plataforma para cazar focas. Consulta el informe de <a href=\"https://www.canada.ca/en/environment-climate-change/services/species-risk-public-registry/cosewic-assessments-status-reports/polar-bear-2018.html\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Medio Ambiente y Cambio Climático de Canadá</a>."
+      },
+      "body": {
+        "h1": "Conecta los puntos del Canoe Canadiense — Rema a través de 69 puntos",
+        "name": "Canoa canadiense",
+        "tagline": "Rema por los lagos y ríos de Canadá",
+        "description": "Une 69 puntos para descubrir una canoa canadiense y su remo. Este imprimible de dificultad media practica la secuencia numérica y el control del lápiz mientras presenta una embarcación ligada a los viajes por Canadá.",
+        "fun_fact": "Las canoas permitían transportar personas y provisiones por lagos y ríos conectados donde no había caminos.",
+        "faqs": [
+          {
+            "q": "¿Para qué edad es el rompecabezas de unir puntos Canoa canadiense?",
+            "a": "Está diseñado para edades de Edades 5-9. Con 69 puntos, es ideal para niños que saben contar con seguridad hasta 69; los más pequeños pueden completarlo con un poco de ayuda."
+          },
+          {
+            "q": "¿Cómo imprimo la ficha Canoa canadiense?",
+            "a": "Haz clic en el botón de descarga para obtener el PDF gratuito y luego imprímelo en papel normal (A4 o US Letter) desde cualquier navegador o lector de PDF. No se necesita ningún programa especial."
+          },
+          {
+            "q": "¿La ficha imprimible Canoa canadiense es realmente gratis?",
+            "a": "Sí — es 100% gratis, sin registro, cuenta ni pago. Puedes imprimirla para casa o para el aula."
+          }
+        ],
+        "dot_guide": {
+          "intro": "La canoa es una de las embarcaciones más reconocibles de Canadá. Los pueblos indígenas desarrollaron diseños adaptados a las aguas y materiales de cada región, y otros viajeros utilizaron después las canoas para recorrer extensas redes de ríos y lagos. Este rompecabezas de 69 puntos dibuja el remo y el casco largo y elegante. ¡Busca el punto 1 y empieza el viaje!",
+          "sections": [
+            {
+              "range": "1–14",
+              "title": "El remo y el borde superior",
+              "learn": "Empieza en el punto 1 y une hasta el 14 para perfilar el remo y el borde de la canoa. Mantén firme el trazo y comprueba cada número antes de la curva de la proa.",
+              "fact": "Un remo tiene empuñadura, pértiga y pala. La pala ancha empuja el agua para mover y dirigir la canoa."
+            },
+            {
+              "range": "15–28",
+              "title": "La proa elevada",
+              "learn": "Continúa del 15 al 28 alrededor de la parte delantera. Ve despacio al cambiar de dirección para mantener suave la proa puntiaguda.",
+              "fact": "La proa es la parte delantera y la popa es la trasera. Sus formas elevadas ayudan a avanzar entre olas y corrientes."
+            },
+            {
+              "range": "29–42",
+              "title": "La pala y el casco",
+              "learn": "Traza del 29 al 42 alrededor de la pala del remo y la parte inferior del casco. Controla las curvas donde ambas formas se acercan.",
+              "fact": "El Servicio Geológico de Canadá utilizó canoas en sus primeras expediciones por el norte. Conoce su canoa histórica de 1874 en el <a href=\"https://ised-isde.canada.ca/site/science/en/educational-resources/history-geological-survey-canada-175-objects/26-canoe-1874\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">sitio oficial del Gobierno de Canadá</a>."
+            },
+            {
+              "range": "43–56",
+              "title": "El largo lado inferior",
+              "learn": "Une del 43 al 56 por la parte inferior con un trazo amplio. Las distancias largas entrenan la firmeza y el seguimiento visual.",
+              "fact": "Las culturas indígenas construyeron distintos tipos de canoa con materiales como corteza de abedul, cedro, pieles y madera trabajada."
+            },
+            {
+              "range": "57–69",
+              "title": "La popa y el final",
+              "learn": "Termina del 57 al 69 alrededor de la popa y regresa al borde superior. Cuenta con cuidado y comprueba que todo el casco quede unido.",
+              "fact": "Las condiciones del agua cambian rápidamente, por lo que la preparación y el equipo de seguridad son esenciales. Consulta los consejos de <a href=\"https://parks.canada.ca/voyage-travel/experiences/sports/pagayer-paddling\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Parques de Canadá</a>."
+            }
+          ],
+          "outro": "¡Excelente, tu canoa está lista! Colorea el casco, añade ondas y dibuja un lago o bosque canadiense. Descubre ideas oficiales en <a href=\"https://parks.canada.ca/voyage-travel/experiences/sports/pagayer-paddling\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Parques de Canadá</a> y prueba otro <a href=\"/es/canada/\">rompecabezas de Canadá</a>.",
+          "color_schemes": []
         }
-      ],
-      "outro": "¡Excelente! Tu gigante del Ártico está completo. Deja blanco el pelaje, añade sombras azul claro o dibuja un paisaje de hielo marino. Visita con una persona adulta la <a href=\"https://parks.canada.ca/pn-np/mb/wapusk/nature/faune-animals/mammiferes-mammals/ours-bears/polaire-polar\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">página de Parques de Canadá sobre el oso polar</a> y explora más <a href=\"/canada/\">imprimibles gratuitos de Canadá</a>."
+      }
     },
-    "seoTitle": "Oso Polar para Unir Puntos: 74 Puntos Articos Gratis"
-  },
-  {
-    "slug": "canada-moose-dot-to-dot-puzzle",
-    "name": "Alce",
-    "seoH1": "Conecta los puntos del Alce — un PDF Imprimible Canadiense de 89 Puntos",
-    "tagline": "El enorme habitante de los bosques canadienses",
-    "description": "Une 89 puntos para completar un magnífico alce de grandes astas. Este rompecabezas de dificultad media mejora la concentración, el conteo y el control del lápiz mientras los niños conocen a uno de los animales más representativos de Canadá.",
-    "seoDescription": "Grandes astas coronan al miembro más grande de la familia de los ciervos. Sigue un camino de 89 puntos para completar este imprimible gratuito de alce para edades de 6 a 10 años.",
-    "funFact": "Los alces son los miembros más grandes de la familia de los ciervos, y los machos pueden desarrollar unas astas enormes.",
-    "seoImageAlt": "Alce de astas anchas erguido una vez unidos los 89 puntos imprimibles",
-    "dotGuide": {
-      "intro": "Un alce puede parecer casi prehistórico cuando sale de un bosque canadiense: tiene patas largas, un hocico pesado y grandes astas sobre la cabeza. Los alces nadan muy bien y viven cómodamente cerca de lagos, humedales y zonas boscosas. Este rompecabezas de 89 puntos tiene muchos giros, especialmente alrededor de las astas. Prepara el lápiz, busca el punto 1 y cuenta con cuidado.",
-      "sections": [
-        {
-          "range": "1–18",
-          "title": "El hocico y la cara",
-          "learn": "Empieza en el punto 1 y une hasta el 18 para dibujar el largo hocico y la cara del alce. Utiliza trazos cortos y precisos alrededor de la nariz y los ojos.",
-          "fact": "El ancho hocico ayuda al alce a recoger ramitas, hojas y plantas acuáticas. Los alces son herbívoros, es decir, se alimentan de plantas."
+    {
+      "slug": "canada-maple-leaf-dot-to-dot-puzzle",
+      "header": {
+        "title": "Hoja de Arce para Unir Puntos: El Icono de Canada en 70 Puntos",
+        "meta_description": "La hoja de arce ha centrado la bandera de Canadá desde 1965. Traza su contorno icónico a través de 70 puntos en un PDF imprimible gratuito para niños de 5 a 9 años.",
+        "og": {
+          "title": "Hoja de Arce para Unir Puntos: El Icono de Canada en 70 Puntos",
+          "description": "La hoja de arce ha centrado la bandera de Canadá desde 1965. Traza su contorno icónico a través de 70 puntos en un PDF imprimible gratuito para niños de 5 a 9 años.",
+          "image_alt": "Iconica hoja de arce canadiense, cada punta trazada al unir 70 puntos numerados imprimibles"
         },
-        {
-          "range": "19–36",
-          "title": "Las grandes astas",
-          "learn": "Continúa desde el punto 19 hasta el 36 alrededor de las astas ramificadas. Esta es la parte más difícil, así que localiza el número siguiente antes de trazar cada línea.",
-          "fact": "Normalmente, solo los alces machos desarrollan astas. Las pierden después de la época de apareamiento de otoño y les crece un nuevo par al año siguiente."
-        },
-        {
-          "range": "37–54",
-          "title": "El cuello y el lomo",
-          "learn": "Traza los puntos 37 a 54, baja por el cuello y continúa sobre el lomo. Deja que el lápiz siga suavemente la larga curva mientras aparece el cuerpo del animal.",
-          "fact": "El pliegue de piel que cuelga bajo la garganta del alce se conoce como campana o papada."
-        },
-        {
-          "range": "55–72",
-          "title": "Las patas largas",
-          "learn": "Une los puntos 55 a 72 alrededor de las patas traseras y el vientre. Estas formas largas y estrechas exigen contar con paciencia y controlar los cambios de dirección.",
-          "fact": "Sus largas patas ayudan a los alces a caminar por la nieve profunda y a entrar en estanques para alcanzar plantas acuáticas."
-        },
-        {
-          "range": "73–89",
-          "title": "El pecho y la última pezuña",
-          "learn": "Termina uniendo los puntos 73 a 89 alrededor de las patas delanteras y el pecho. Continúa con cuidado hasta llegar a la última pezuña.",
-          "fact": "Los alces son buenos nadadores y pueden desplazarse por el agua para alimentarse o huir del peligro. Encuentra más información en la <a href=\"https://parks.canada.ca/pn-np/mb/wapusk/nature/faune-animals/mammiferes-mammals\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">guía de mamíferos de Parques de Canadá</a>."
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Hoja de arce",
+          "description": "La hoja de arce ha centrado la bandera de Canadá desde 1965. Traza su contorno icónico a través de 70 puntos en un PDF imprimible gratuito para niños de 5 a 9 años.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
         }
-      ],
-      "outro": "¡Muy bien! Tu alce está listo para recorrer la naturaleza canadiense. Pinta el cuerpo de marrón oscuro, utiliza un tono más claro para las astas y añade abetos o un lago azul al fondo. Sigue explorando con otro <a href=\"/canada/\">rompecabezas imprimible de animales de Canadá</a>."
-    },
-    "seoTitle": "Alce para Unir Puntos: Ficha Canadiense de 89 Puntos, PDF"
-  },
-  {
-    "slug": "canada-raccoon-dot-to-dot-puzzle",
-    "name": "Mapache",
-    "seoH1": "Hoja de trabajo de Conecta los puntos del Mapache: 90 Puntos para Edades de 6 a 10",
-    "tagline": "El curioso explorador enmascarado",
-    "description": "Une 90 puntos para descubrir un curioso mapache con su cola anillada y su máscara oscura. Este rompecabezas de dificultad media premia el conteo cuidadoso mientras presenta a un conocido mamífero canadiense.",
-    "seoDescription": "Patas frontales sensibles ayudan a los mapaches a investigar su entorno. Descubre la máscara y la cola a rayas a través de 90 puntos en un PDF gratuito para edades de 6 a 10 años.",
-    "funFact": "Los mapaches tienen unas patas delanteras muy sensibles que les ayudan a investigar alimentos y objetos.",
-    "seoImageAlt": "Curioso mapache con cara enmascarada y cola a rayas, revelado al unir 90 puntos imprimibles",
-    "dotGuide": {
-      "intro": "La máscara oscura de su cara y los anillos de su cola hacen que el mapache sea fácil de reconocer. Estos mamíferos adaptables viven en bosques, humedales, granjas y ciudades de Canadá. Suelen estar activos después del atardecer y utilizan sus hábiles patas delanteras para explorar. Este rompecabezas de 90 puntos es un reto más largo, así que comienza en el punto 1 y construye el mapache por partes.",
-      "sections": [
-        {
-          "range": "1–18",
-          "title": "Las orejas y la cara enmascarada",
-          "learn": "Empieza en el punto 1 y une hasta el 18 para dibujar las orejas puntiagudas y la cara redondeada. Haz giros precisos para conseguir la expresión atenta del mapache.",
-          "fact": "El pelaje oscuro alrededor de los ojos reduce el resplandor y crea la marca parecida a una máscara que hace tan reconocible al mapache."
-        },
-        {
-          "range": "19–36",
-          "title": "El lomo",
-          "learn": "Continúa desde el punto 19 hasta el 36 por los hombros y el lomo ligeramente curvado. Una línea suave dará al mapache una silueta mullida.",
-          "fact": "Los mapaches son principalmente nocturnos: suelen estar activos durante la noche y descansan gran parte del día."
-        },
-        {
-          "range": "37–54",
-          "title": "La cola anillada",
-          "learn": "Traza los puntos 37 a 54 alrededor de la gruesa cola. Sigue primero la curva exterior; podrás añadir anillos claros y oscuros cuando llegue el momento de colorear.",
-          "fact": "La poblada cola del mapache suele tener varios anillos oscuros y puede ayudarle a mantener el equilibrio mientras trepa."
-        },
-        {
-          "range": "55–72",
-          "title": "Las patas y el vientre",
-          "learn": "Une los puntos 55 a 72 alrededor de las patas traseras y el vientre. Ten especial cuidado donde los números están muy juntos cerca de los dedos.",
-          "fact": "Las patas delanteras del mapache tienen cinco dedos largos. Sus sensibles patas son muy útiles para manipular alimentos y trepar a los árboles."
-        },
-        {
-          "range": "73–90",
-          "title": "El pecho y el final",
-          "learn": "Completa el rompecabezas con los puntos 73 a 90, dibujando las patas delanteras y el pecho antes de regresar a la cara. El 90 es la meta. ¡Bien hecho!",
-          "fact": "Los mapaches son originarios de Norteamérica y se adaptan muy bien a distintos entornos. Descubre más en la <a href=\"https://www.thecanadianencyclopedia.ca/en/article/raccoon\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">entrada sobre el mapache de la Enciclopedia Canadiense</a>."
+      },
+      "body": {
+        "h1": "Conecta los puntos de la Hoja de Arce: El ícono de Canadá en 70 puntos",
+        "name": "Hoja de arce",
+        "tagline": "La famosa hoja roja de Canadá",
+        "description": "Une 70 puntos para descubrir una hoja de arce, uno de los símbolos más conocidos de Canadá. Este rompecabezas de dificultad media ayuda a practicar el orden de los números y el control del lápiz mientras los niños aprenden por qué esta hoja aparece en la bandera canadiense.",
+        "fun_fact": "La hoja de arce ocupa el centro de la bandera nacional de Canadá desde 1965.",
+        "faqs": [
+          {
+            "q": "¿Para qué edad es el rompecabezas de unir puntos Hoja de arce?",
+            "a": "Está diseñado para edades de Edades 5-9. Con 70 puntos, es ideal para niños que saben contar con seguridad hasta 70; los más pequeños pueden completarlo con un poco de ayuda."
+          },
+          {
+            "q": "¿Cómo imprimo la ficha Hoja de arce?",
+            "a": "Haz clic en el botón de descarga para obtener el PDF gratuito y luego imprímelo en papel normal (A4 o US Letter) desde cualquier navegador o lector de PDF. No se necesita ningún programa especial."
+          },
+          {
+            "q": "¿La ficha imprimible Hoja de arce es realmente gratis?",
+            "a": "Sí — es 100% gratis, sin registro, cuenta ni pago. Puedes imprimirla para casa o para el aula."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Cada otoño, los arces llenan los bosques canadienses de hojas rojas, naranjas y doradas. La hoja de arce representa a Canadá desde hace generaciones y ocupa con orgullo el centro de su bandera roja y blanca. Este rompecabezas de 70 puntos recorre los bordes puntiagudos de la hoja y su resistente tallo. Busca el punto 1, sigue los números en orden y observa cómo aparece este símbolo canadiense.",
+          "sections": [
+            {
+              "range": "1–14",
+              "title": "La punta superior",
+              "learn": "Empieza en el punto 1 y une hasta el 14 para formar la punta alta de la hoja. Sigue con cuidado cada pequeño giro: las esquinas marcadas crean la forma característica de la hoja de arce.",
+              "fact": "La bandera de Canadá muestra una hoja de arce roja estilizada con 11 puntas. Conoce su diseño y su historia en la página de <a href=\"https://www.canada.ca/en/canadian-heritage/services/flag-canada-history.html\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Patrimonio Canadiense</a>."
+            },
+            {
+              "range": "15–28",
+              "title": "Las puntas de la derecha",
+              "learn": "Continúa desde el punto 15 hasta el 28 y baja por el lado derecho de la hoja. Ve despacio en cada esquina y comprueba el siguiente número antes de cambiar de dirección.",
+              "fact": "En Canadá crecen 10 especies autóctonas de arce. El arce azucarero es especialmente famoso porque su savia sirve para elaborar jarabe de arce."
+            },
+            {
+              "range": "29–42",
+              "title": "El tallo",
+              "learn": "Une los puntos 29 a 42 para dibujar el borde inferior y el tallo estrecho. Haz trazos cortos en los giros cerrados para mantener la línea cerca de los puntos.",
+              "fact": "La savia del arce se recoge a comienzos de la primavera, cuando las noches heladas y los días más cálidos ayudan a que fluya dentro del árbol."
+            },
+            {
+              "range": "43–56",
+              "title": "Las puntas de la izquierda",
+              "learn": "Traza desde el punto 43 hasta el 56 y sube por el lado izquierdo. Estas puntas se parecen a las del lado derecho, así que compara ambos lados mientras dibujas.",
+              "fact": "Mucho antes de que se adoptara la bandera actual, la hoja de arce ya aparecía en escudos, monedas, insignias y emblemas militares de Canadá."
+            },
+            {
+              "range": "57–70",
+              "title": "Cierra la hoja",
+              "learn": "Termina uniendo los puntos 57 a 70 para regresar a la parte superior. Cuenta despacio hasta el último punto y comprueba que todas las puntas y esquinas estén conectadas.",
+              "fact": "Las hojas producen alimento para el árbol mediante la luz del sol. En otoño, el pigmento verde se descompone y otros colores se vuelven más visibles."
+            }
+          ],
+          "outro": "¡Fantástico! Tu hoja de arce está completa. Píntala de rojo intenso como la bandera canadiense o utiliza amarillo y naranja para crear una hoja otoñal. Descubre otros símbolos nacionales en el <a href=\"https://www.canada.ca/en/canadian-heritage/services/official-symbols-canada.html\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">sitio web del Gobierno de Canadá</a> y prueba otro <a href=\"/canada/\">rompecabezas de Canadá</a>.",
+          "color_schemes": []
         }
-      ],
-      "outro": "¡Gran trabajo! Tu explorador enmascarado está completo. Pinta el pelaje de color gris amarronado, oscurece la máscara y los anillos de la cola, y dibuja un bosque nocturno o un jardín. Después elige otro <a href=\"/canada/\">rompecabezas gratuito de Canadá</a> para seguir practicando."
+      }
     },
-    "seoTitle": "Mapache para Unir Puntos: Ficha de 90 Puntos para 6 a 10 Anos"
-  }
-]
+    {
+      "slug": "canada-polar-bear-dot-to-dot-puzzle",
+      "header": {
+        "title": "Oso Polar para Unir Puntos: 74 Puntos Articos Gratis",
+        "meta_description": "Cerca de dos tercios de los osos polares del mundo viven en Canadá. Revela este gigante ártico a través de 74 puntos con una hoja de trabajo gratuita para edades de 6 a 10 años.",
+        "og": {
+          "title": "Oso Polar para Unir Puntos: 74 Puntos Articos Gratis",
+          "description": "Cerca de dos tercios de los osos polares del mundo viven en Canadá. Revela este gigante ártico a través de 74 puntos con una hoja de trabajo gratuita para edades de 6 a 10 años.",
+          "image_alt": "Poderoso oso polar cruzando el hielo artico, formado al unir 74 puntos en un PDF imprimible"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Oso polar",
+          "description": "Cerca de dos tercios de los osos polares del mundo viven en Canadá. Revela este gigante ártico a través de 74 puntos con una hoja de trabajo gratuita para edades de 6 a 10 años.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
+      },
+      "body": {
+        "h1": "Conecta los puntos del Oso Polar Imprimible, 74 Puntos Árticos Gratis",
+        "name": "Oso polar",
+        "tagline": "Un gigante del Ártico canadiense",
+        "description": "Une 74 puntos para descubrir un poderoso oso polar. Este imprimible de dificultad media permite practicar la secuencia numérica mientras presenta a los niños un animal especialmente adaptado a la vida sobre el hielo marino del Ártico.",
+        "fun_fact": "Aproximadamente dos tercios de los osos polares del mundo viven en Canadá.",
+        "faqs": [
+          {
+            "q": "¿Para qué edad es el rompecabezas de unir puntos Oso polar?",
+            "a": "Está diseñado para edades de Edades 6-10. Con 74 puntos, es ideal para niños que saben contar con seguridad hasta 74; los más pequeños pueden completarlo con un poco de ayuda."
+          },
+          {
+            "q": "¿Cómo imprimo la ficha Oso polar?",
+            "a": "Haz clic en el botón de descarga para obtener el PDF gratuito y luego imprímelo en papel normal (A4 o US Letter) desde cualquier navegador o lector de PDF. No se necesita ningún programa especial."
+          },
+          {
+            "q": "¿La ficha imprimible Oso polar es realmente gratis?",
+            "a": "Sí — es 100% gratis, sin registro, cuenta ni pago. Puedes imprimirla para casa o para el aula."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Los osos polares recorren las costas heladas y el hielo marino del Ártico canadiense. Su pelaje espeso, sus orejas pequeñas y sus enormes patas les ayudan a conservar el calor y desplazarse por la nieve, el hielo y el agua. Este rompecabezas de 74 puntos dibuja al oso desde el hocico hasta sus anchas patas. Empieza en el punto 1 y avanza línea por línea con cuidado.",
+          "sections": [
+            {
+              "range": "1–15",
+              "title": "El hocico y la cabeza",
+              "learn": "Empieza en el punto 1 y une hasta el 15 para formar el hocico y la cabeza redondeada. Dibuja líneas suaves alrededor de la cara para conseguir un perfil natural.",
+              "fact": "El oso polar tiene un olfato excelente que le permite localizar focas, su presa principal, a través del hielo."
+            },
+            {
+              "range": "16–30",
+              "title": "El lomo y los hombros",
+              "learn": "Continúa desde el punto 16 hasta el 30 por los fuertes hombros y el lomo curvado. Intenta crear este largo contorno con trazos firmes y no con muchas marcas pequeñas.",
+              "fact": "Los osos polares son los carnívoros terrestres más grandes de Canadá. Los machos adultos pueden pesar varios cientos de kilogramos."
+            },
+            {
+              "range": "31–45",
+              "title": "Las patas traseras",
+              "learn": "Traza los puntos 31 a 45 para dibujar las patas traseras. Comprueba cada número cuando el contorno cambie de dirección cerca de los pies.",
+              "fact": "Las anchas patas del oso polar reparten su peso sobre la nieve y funcionan como remos cuando nada."
+            },
+            {
+              "range": "46–60",
+              "title": "El vientre y las patas delanteras",
+              "learn": "Une los puntos 46 a 60 bajo el cuerpo y alrededor de las patas delanteras. Los trazos cortos y controlados ayudan a seguir las curvas más cerradas.",
+              "fact": "Los osos polares tienen la piel negra bajo un pelaje que parece blanco. Su color les ayuda a confundirse con el paisaje nevado del Ártico."
+            },
+            {
+              "range": "61–74",
+              "title": "El pecho y el final",
+              "learn": "Termina con los puntos 61 a 74, subiendo por el pecho y regresando hacia la cabeza. Detente en el último punto y comprueba que no te hayas saltado ningún número.",
+              "fact": "El hielo marino es esencial para los osos polares porque les sirve de plataforma para cazar focas. Consulta el informe de <a href=\"https://www.canada.ca/en/environment-climate-change/services/species-risk-public-registry/cosewic-assessments-status-reports/polar-bear-2018.html\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Medio Ambiente y Cambio Climático de Canadá</a>."
+            }
+          ],
+          "outro": "¡Excelente! Tu gigante del Ártico está completo. Deja blanco el pelaje, añade sombras azul claro o dibuja un paisaje de hielo marino. Visita con una persona adulta la <a href=\"https://parks.canada.ca/pn-np/mb/wapusk/nature/faune-animals/mammiferes-mammals/ours-bears/polaire-polar\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">página de Parques de Canadá sobre el oso polar</a> y explora más <a href=\"/canada/\">imprimibles gratuitos de Canadá</a>.",
+          "color_schemes": []
+        }
+      }
+    },
+    {
+      "slug": "canada-moose-dot-to-dot-puzzle",
+      "header": {
+        "title": "Alce para Unir Puntos: Ficha Canadiense de 89 Puntos, PDF",
+        "meta_description": "Grandes astas coronan al miembro más grande de la familia de los ciervos. Sigue un camino de 89 puntos para completar este imprimible gratuito de alce para edades de 6 a 10 años.",
+        "og": {
+          "title": "Alce para Unir Puntos: Ficha Canadiense de 89 Puntos, PDF",
+          "description": "Grandes astas coronan al miembro más grande de la familia de los ciervos. Sigue un camino de 89 puntos para completar este imprimible gratuito de alce para edades de 6 a 10 años.",
+          "image_alt": "Alce de astas anchas erguido una vez unidos los 89 puntos imprimibles"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Alce",
+          "description": "Grandes astas coronan al miembro más grande de la familia de los ciervos. Sigue un camino de 89 puntos para completar este imprimible gratuito de alce para edades de 6 a 10 años.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
+      },
+      "body": {
+        "h1": "Conecta los puntos del Alce — un PDF Imprimible Canadiense de 89 Puntos",
+        "name": "Alce",
+        "tagline": "El enorme habitante de los bosques canadienses",
+        "description": "Une 89 puntos para completar un magnífico alce de grandes astas. Este rompecabezas de dificultad media mejora la concentración, el conteo y el control del lápiz mientras los niños conocen a uno de los animales más representativos de Canadá.",
+        "fun_fact": "Los alces son los miembros más grandes de la familia de los ciervos, y los machos pueden desarrollar unas astas enormes.",
+        "faqs": [
+          {
+            "q": "¿Para qué edad es el rompecabezas de unir puntos Alce?",
+            "a": "Está diseñado para edades de Edades 6-10. Con 89 puntos, es ideal para niños que saben contar con seguridad hasta 89; los más pequeños pueden completarlo con un poco de ayuda."
+          },
+          {
+            "q": "¿Cómo imprimo la ficha Alce?",
+            "a": "Haz clic en el botón de descarga para obtener el PDF gratuito y luego imprímelo en papel normal (A4 o US Letter) desde cualquier navegador o lector de PDF. No se necesita ningún programa especial."
+          },
+          {
+            "q": "¿La ficha imprimible Alce es realmente gratis?",
+            "a": "Sí — es 100% gratis, sin registro, cuenta ni pago. Puedes imprimirla para casa o para el aula."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Un alce puede parecer casi prehistórico cuando sale de un bosque canadiense: tiene patas largas, un hocico pesado y grandes astas sobre la cabeza. Los alces nadan muy bien y viven cómodamente cerca de lagos, humedales y zonas boscosas. Este rompecabezas de 89 puntos tiene muchos giros, especialmente alrededor de las astas. Prepara el lápiz, busca el punto 1 y cuenta con cuidado.",
+          "sections": [
+            {
+              "range": "1–18",
+              "title": "El hocico y la cara",
+              "learn": "Empieza en el punto 1 y une hasta el 18 para dibujar el largo hocico y la cara del alce. Utiliza trazos cortos y precisos alrededor de la nariz y los ojos.",
+              "fact": "El ancho hocico ayuda al alce a recoger ramitas, hojas y plantas acuáticas. Los alces son herbívoros, es decir, se alimentan de plantas."
+            },
+            {
+              "range": "19–36",
+              "title": "Las grandes astas",
+              "learn": "Continúa desde el punto 19 hasta el 36 alrededor de las astas ramificadas. Esta es la parte más difícil, así que localiza el número siguiente antes de trazar cada línea.",
+              "fact": "Normalmente, solo los alces machos desarrollan astas. Las pierden después de la época de apareamiento de otoño y les crece un nuevo par al año siguiente."
+            },
+            {
+              "range": "37–54",
+              "title": "El cuello y el lomo",
+              "learn": "Traza los puntos 37 a 54, baja por el cuello y continúa sobre el lomo. Deja que el lápiz siga suavemente la larga curva mientras aparece el cuerpo del animal.",
+              "fact": "El pliegue de piel que cuelga bajo la garganta del alce se conoce como campana o papada."
+            },
+            {
+              "range": "55–72",
+              "title": "Las patas largas",
+              "learn": "Une los puntos 55 a 72 alrededor de las patas traseras y el vientre. Estas formas largas y estrechas exigen contar con paciencia y controlar los cambios de dirección.",
+              "fact": "Sus largas patas ayudan a los alces a caminar por la nieve profunda y a entrar en estanques para alcanzar plantas acuáticas."
+            },
+            {
+              "range": "73–89",
+              "title": "El pecho y la última pezuña",
+              "learn": "Termina uniendo los puntos 73 a 89 alrededor de las patas delanteras y el pecho. Continúa con cuidado hasta llegar a la última pezuña.",
+              "fact": "Los alces son buenos nadadores y pueden desplazarse por el agua para alimentarse o huir del peligro. Encuentra más información en la <a href=\"https://parks.canada.ca/pn-np/mb/wapusk/nature/faune-animals/mammiferes-mammals\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">guía de mamíferos de Parques de Canadá</a>."
+            }
+          ],
+          "outro": "¡Muy bien! Tu alce está listo para recorrer la naturaleza canadiense. Pinta el cuerpo de marrón oscuro, utiliza un tono más claro para las astas y añade abetos o un lago azul al fondo. Sigue explorando con otro <a href=\"/canada/\">rompecabezas imprimible de animales de Canadá</a>.",
+          "color_schemes": []
+        }
+      }
+    },
+    {
+      "slug": "canada-raccoon-dot-to-dot-puzzle",
+      "header": {
+        "title": "Mapache para Unir Puntos: Ficha de 90 Puntos para 6 a 10 Anos",
+        "meta_description": "Patas frontales sensibles ayudan a los mapaches a investigar su entorno. Descubre la máscara y la cola a rayas a través de 90 puntos en un PDF gratuito para edades de 6 a 10 años.",
+        "og": {
+          "title": "Mapache para Unir Puntos: Ficha de 90 Puntos para 6 a 10 Anos",
+          "description": "Patas frontales sensibles ayudan a los mapaches a investigar su entorno. Descubre la máscara y la cola a rayas a través de 90 puntos en un PDF gratuito para edades de 6 a 10 años.",
+          "image_alt": "Curioso mapache con cara enmascarada y cola a rayas, revelado al unir 90 puntos imprimibles"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Mapache",
+          "description": "Patas frontales sensibles ayudan a los mapaches a investigar su entorno. Descubre la máscara y la cola a rayas a través de 90 puntos en un PDF gratuito para edades de 6 a 10 años.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
+      },
+      "body": {
+        "h1": "Hoja de trabajo de Conecta los puntos del Mapache: 90 Puntos para Edades de 6 a 10",
+        "name": "Mapache",
+        "tagline": "El curioso explorador enmascarado",
+        "description": "Une 90 puntos para descubrir un curioso mapache con su cola anillada y su máscara oscura. Este rompecabezas de dificultad media premia el conteo cuidadoso mientras presenta a un conocido mamífero canadiense.",
+        "fun_fact": "Los mapaches tienen unas patas delanteras muy sensibles que les ayudan a investigar alimentos y objetos.",
+        "faqs": [
+          {
+            "q": "¿Para qué edad es el rompecabezas de unir puntos Mapache?",
+            "a": "Está diseñado para edades de Edades 6-10. Con 90 puntos, es ideal para niños que saben contar con seguridad hasta 90; los más pequeños pueden completarlo con un poco de ayuda."
+          },
+          {
+            "q": "¿Cómo imprimo la ficha Mapache?",
+            "a": "Haz clic en el botón de descarga para obtener el PDF gratuito y luego imprímelo en papel normal (A4 o US Letter) desde cualquier navegador o lector de PDF. No se necesita ningún programa especial."
+          },
+          {
+            "q": "¿La ficha imprimible Mapache es realmente gratis?",
+            "a": "Sí — es 100% gratis, sin registro, cuenta ni pago. Puedes imprimirla para casa o para el aula."
+          }
+        ],
+        "dot_guide": {
+          "intro": "La máscara oscura de su cara y los anillos de su cola hacen que el mapache sea fácil de reconocer. Estos mamíferos adaptables viven en bosques, humedales, granjas y ciudades de Canadá. Suelen estar activos después del atardecer y utilizan sus hábiles patas delanteras para explorar. Este rompecabezas de 90 puntos es un reto más largo, así que comienza en el punto 1 y construye el mapache por partes.",
+          "sections": [
+            {
+              "range": "1–18",
+              "title": "Las orejas y la cara enmascarada",
+              "learn": "Empieza en el punto 1 y une hasta el 18 para dibujar las orejas puntiagudas y la cara redondeada. Haz giros precisos para conseguir la expresión atenta del mapache.",
+              "fact": "El pelaje oscuro alrededor de los ojos reduce el resplandor y crea la marca parecida a una máscara que hace tan reconocible al mapache."
+            },
+            {
+              "range": "19–36",
+              "title": "El lomo",
+              "learn": "Continúa desde el punto 19 hasta el 36 por los hombros y el lomo ligeramente curvado. Una línea suave dará al mapache una silueta mullida.",
+              "fact": "Los mapaches son principalmente nocturnos: suelen estar activos durante la noche y descansan gran parte del día."
+            },
+            {
+              "range": "37–54",
+              "title": "La cola anillada",
+              "learn": "Traza los puntos 37 a 54 alrededor de la gruesa cola. Sigue primero la curva exterior; podrás añadir anillos claros y oscuros cuando llegue el momento de colorear.",
+              "fact": "La poblada cola del mapache suele tener varios anillos oscuros y puede ayudarle a mantener el equilibrio mientras trepa."
+            },
+            {
+              "range": "55–72",
+              "title": "Las patas y el vientre",
+              "learn": "Une los puntos 55 a 72 alrededor de las patas traseras y el vientre. Ten especial cuidado donde los números están muy juntos cerca de los dedos.",
+              "fact": "Las patas delanteras del mapache tienen cinco dedos largos. Sus sensibles patas son muy útiles para manipular alimentos y trepar a los árboles."
+            },
+            {
+              "range": "73–90",
+              "title": "El pecho y el final",
+              "learn": "Completa el rompecabezas con los puntos 73 a 90, dibujando las patas delanteras y el pecho antes de regresar a la cara. El 90 es la meta. ¡Bien hecho!",
+              "fact": "Los mapaches son originarios de Norteamérica y se adaptan muy bien a distintos entornos. Descubre más en la <a href=\"https://www.thecanadianencyclopedia.ca/en/article/raccoon\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">entrada sobre el mapache de la Enciclopedia Canadiense</a>."
+            }
+          ],
+          "outro": "¡Gran trabajo! Tu explorador enmascarado está completo. Pinta el pelaje de color gris amarronado, oscurece la máscara y los anillos de la cola, y dibuja un bosque nocturno o un jardín. Después elige otro <a href=\"/canada/\">rompecabezas gratuito de Canadá</a> para seguir practicando.",
+          "color_schemes": []
+        }
+      }
+    }
+  ]
+}

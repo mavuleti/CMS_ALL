@@ -9,6 +9,8 @@
 
   <ng-container *ngIf="activeTab === 'form'">
 
+  <app-keyword-quality display="research" [language]="contentLanguage" [form]="form"></app-keyword-quality>
+
   <div class="visibility-legend" aria-label="Published page field visibility">
     <span><span class="visibility-dot visible"></span><strong>Visible on page</strong> — visitors can read this content</span>
     <span><span class="visibility-dot hidden"></span><strong>Hidden metadata</strong> — used by the URL, search engines, and social sharing</span>
@@ -446,6 +448,8 @@
       </ol>
     </section>
   </form>
+
+  <app-keyword-quality display="dashboard" [language]="contentLanguage" [form]="form"></app-keyword-quality>
 
   <!-- ============================================================ -->
   <!-- OUTPUT                                                        -->

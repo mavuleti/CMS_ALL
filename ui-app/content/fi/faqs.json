@@ -77,8 +77,34 @@
       {
         "q": "Sopivatko pisteestä pisteeseen -tehtävät esiopetukseen ja alkuopetukseen?",
         "a": "Kyllä. Pisteestä pisteeseen -tehtävät harjoittavat juuri niitä taitoja, joita esiopetuksessa ja 1.–2. luokalla painotetaan: lukujonotaitoja, numeroiden tunnistamista, kynäotetta ja hienomotoriikkaa. 10–40 pisteen tehtävät sopivat eskari-ikäisille ja 40–70 pisteen tehtävät alkuopetukseen. Kaikki DotToDotFreePrintables.com-sivuston tehtävät ovat ilmaisia myös luokkakäyttöön."
+      },
+      {
+        "q": "Voiko tehtäviä käyttää päiväkodissa, perhepäivähoidossa tai kerhoissa?",
+        "a": "Kyllä. Kasvattajat, perhepäivähoitajat ja kerho-ohjaajat saavat tulostaa tehtäviä vapaasti kaikille hoidossa oleville lapsille – ilman lupaa, rekisteröitymistä tai maksua. Tehtävät toimivat rauhallisena aamupuuhana, sadepäivän sisäaktiviteettina ja odottelutilanteissa, ja ne tulostuvat mustavalkoisina tavalliselle A4-paperille."
+      },
+      {
+        "q": "Mitä uutta sivustolla on vuonna 2026?",
+        "a": "Kokoelma kasvaa koko vuoden 2026 ajan. Viimeisimpiä lisäyksiä ovat Avaruus-, Kukat- ja Kanada-kategoriat, ja America 250 -kokoelma juhlistaa Yhdysvaltojen 250-vuotispäivää 4. heinäkuuta 2026. Uusia ilmaisia tehtäviä lisätään säännöllisesti — jokainen on edelleen ilmainen, tulostusvalmis PDF ilman rekisteröitymistä."
+      },
+      {
+        "q": "Sopivatko yhdistä pisteet -tehtävät esikoulu- ja eskari-ikäisille?",
+        "a": "Kyllä — helpoimmat tehtävämme (pisteestä pisteeseen 1–10 ja 1–20) on suunniteltu juuri esikoulu- ja eskari-ikäisille (5–6-vuotiaille), joilla numerojärjestyksen hallinta on vasta harjoittelussa. Ne sopivat myös päiväkodin pienryhmätoimintaan ilman aikuisen jatkuvaa apua, ja niistä on luonteva askel vaikeampiin pisteestä pisteeseen -tehtäviin peruskoulun alkuluokilla."
+      },
+      {
+        "q": "Voiko yhdistä pisteet -tehtävän jälkeen myös värittää valmiin kuvan?",
+        "a": "Kyllä — moni tulostettavamme toimii kaksivaiheisena aktiviteettina: ensin yhdistä pisteet numerojärjestyksessä, sitten väritä paljastunut kuva. Tämä yhdistä pisteet ja väritä -yhdistelmä sopii hyvin rauhalliseen hetkeen kotona, päiväkodissa tai luokkahuoneessa, ja jokainen sivu tulostuu selkein ääriviivoin mustavalkoisenakin väritystä varten."
       }
-    ]
+    ],
+    "_disabledFaqs": {
+      "_note": "Not rendered — lib/faqs.ts only reads site.faqs. Held here for re-enabling later; move an entry back into the faqs array above to re-enable it.",
+      "items": [
+        {
+          "_reason": "Negatively-framed question (Onko... vaikeampia...) may read poorly to LLM/AEO summarizers; disabled pending a rephrase.",
+          "q": "Onko sivustolla vaikeampia pisteestä pisteeseen -pulmia?",
+          "a": "Kyllä. Suurin osa pulmistamme on 1–100 pisteen välillä, ja osa haastavimmista nousee jopa yli 130 pisteeseen, joten löydät vaikeampia pisteestä pisteeseen -tehtäviä kokeneemmille laskijoille ja isommille lapsille. Emme tarjoa 1000 pisteen jättihaasteita – sivuston pulmat pysyvät 1–130 pisteen välillä, jotta ne ovat ratkaistavissa yhdellä istumisella."
+        }
+      ]
+    }
   },
   "categories": {
     "cute": {
@@ -361,10 +387,6 @@
         {
           "q": "Mikä on hauska fakta suloisesta pennusta?",
           "a": "Pennut syntyvät näkemättöminä ja kuulemattomina – niiden silmät ja korvat avautuvat noin kahden viikon iässä, ja kolmen viikon iässä ne tutkivat jo maailmaa. Lapset löytävät tällaisia faktoja ratkoessaan Söpön pennun pisteestä pisteeseen -palapeliä."
-        },
-        {
-          "q": "Mitä värejä minun pitäisi käyttää Söpö Koira pisteestä pisteeseen -sivulla?",
-          "a": "Söpö Koira tulostettava sisältää realistisen väritysohjeen, jossa on 2 kaaviota: Kultaista Retriever-pentua (raaka sienna, vaaleanruskea); Musta ja Valkoinen Pentu (mustaa, valkoista). Jokainen kaavio yhdistää jokaisen pistealueen nimettyyn värikynään ja huomautuksen siitä, miksi se on todenmukainen, jotta lapset voivat värittää valmiin söpön koiran niin kuin se todella näyttää luonnossa — tai keksiä oman versionsa."
         }
       ]
     },
@@ -390,10 +412,6 @@
         {
           "q": "Mikä on hauska fakta söpöstä pikku autosta?",
           "a": "Maailman pienin sarjatuotantoauto, Peel P50, on niin pieni, ettei siinä ole peruutusvaihdetta – kuljettaja yksinkertaisesti nousee ulos ja vetää autoa taaksepäin kahvasta. Lapset löytävät tällaisia faktoja ratkoessaan Söpö pieni auto -pisteestä pisteeseen -palapeliä."
-        },
-        {
-          "q": "Mitä värejä minun pitäisi käyttää Söpö Pieni Auto pisteestä pisteeseen -sivulla?",
-          "a": "Söpö Pieni Auto tulostettava sisältää realistisen väritysohjeen, jossa on 2 kaaviota: Klassinen Kilpailu Punainen Auto (skarlet, taivaan sininen); Aurinkoinen Keltainen Taksiauto (keltainen, taivaan sininen). Jokainen kaavio yhdistää jokaisen pistealueen nimettyyn värikynään ja huomautuksen siitä, miksi se on todenmukainen, jotta lapset voivat värittää valmiin söpön pienen auton niin kuin se todella näyttää luonnossa — tai keksiä oman versionsa."
         }
       ]
     },
@@ -419,10 +437,6 @@
         {
           "q": "Mikä on hauska fakta söpöstä leijonasta?",
           "a": "Leijonan karjunta kuuluu jopa kahdeksan kilometrin päähän – mutta leijonanpennut eivät osaa karjua ollenkaan ennen kuin ne ovat noin kaksivuotiaita. Siihen asti ne maukuvat! Lapset löytävät tällaisia faktoja ratkoessaan Söpöleijona-pisteestä pisteeseen -palapeliä."
-        },
-        {
-          "q": "Mitä värejä minun pitäisi käyttää Söpö Leijona pisteestä pisteeseen -sivulla?",
-          "a": "Söpö Leijona tulostettava sisältää realistisen väritysohjeen, jossa on 2 kaaviota: Klassinen Ruskea Kulta Leijona (raaka sienna, vaaleanruskea); Harvinainen Valkoinen Leijona (valkoinen, valkoinen). Jokainen kaavio yhdistää jokaisen pistealueen nimettyyn värikynään ja huomautuksen siitä, miksi se on todenmukainen, jotta lapset voivat värittää valmiin söpön leijonan niin kuin se todella näyttää luonnossa — tai keksiä oman versionsa."
         }
       ]
     },
@@ -448,10 +462,6 @@
         {
           "q": "Mikä on hauska fakta söpöstä perhosesta?",
           "a": "Perhoset maistavat jaloillaan! Heti kun ne laskeutuvat kukalle tai lehdelle, pienet anturit niiden jaloissa kertovat niille, onko se syötävää. Lapset löytävät tällaisia faktoja ratkoessaan Söpö Perhonen pisteestä pisteeseen -palapeliä."
-        },
-        {
-          "q": "Mitä värejä minun pitäisi käyttää Söpö Perhonen pisteestä pisteeseen -sivulla?",
-          "a": "Söpö Perhonen tulostettava sisältää realistisen väritysohjeen, jossa on 2 kaaviota: Monarch Oranssi ja Musta Perhonen (oranssi, oranssi); Sininen Morfo Perhonen (taivaan sininen, taivaan sininen). Jokainen kaavio yhdistää jokaisen pistealueen nimettyyn värikynään ja huomautuksen siitä, miksi se on todenmukainen, jotta lapset voivat värittää valmiin söpön perhosen niin kuin se todella näyttää luonnossa — tai keksiä oman versionsa."
         }
       ]
     },
@@ -477,10 +487,6 @@
         {
           "q": "Mikä on hauska fakta söpöstä rakettilaivasta?",
           "a": "Raketilla kestää noin 8,5 minuuttia päästä avaruuteen laukaisun jälkeen – mutta sama matka takaisin Maahan laskuvarjolla voi kestää paljon kauemmin! Lapset löytävät tällaisia faktoja ratkoessaan Söpöä rakettilaivaa pisteestä pisteeseen -palapeliä."
-        },
-        {
-          "q": "Mitä värejä minun pitäisi käyttää Söpö Raketti alus pisteestä pisteeseen -sivulla?",
-          "a": "Söpö Raketti alus tulostettava sisältää realistisen väritysohjeen, jossa on 2 kaaviota: Klassinen Hopea ja Punainen Raketti (skarlet, hopea); Sininen ja Valkoinen Raketti (taivaan sininen, valkoinen). Jokainen kaavio yhdistää jokaisen pistealueen nimettyyn värikynään ja huomautuksen siitä, miksi se on todenmukainen, jotta lapset voivat värittää valmiin söpön raketti aluksen niin kuin se todella näyttää luonnossa — tai keksiä oman versionsa."
         }
       ]
     },
@@ -506,10 +512,6 @@
         {
           "q": "Mikä on hauska fakta suloisesta kilpikonnanvauvasta?",
           "a": "Merikilpikonnanpoikaset syntyvät tietäen tarkalleen, missä päin valtameri on – ne ryömivät vaistomaisesti kohti kirkkainta horisonttia, joka on yleensä kuutamoinen meri. Lapset löytävät tällaisia faktoja ratkoessaan suloista kilpikonnanpoikasen pisteestä pisteeseen -palapeliä."
-        },
-        {
-          "q": "Mitä värejä minun pitäisi käyttää Söpö Vauva Kilpikonna pisteestä pisteeseen -sivulla?",
-          "a": "Söpö Vauva Kilpikonna tulostettava sisältää realistisen väritysohjeen, jossa on 2 kaaviota: Vihreä Merikilpikonna (vihreä, merivihreä); Maalauskilpikonna (ruskea, skarlet). Jokainen kaavio yhdistää jokaisen pistealueen nimettyyn värikynään ja huomautuksen siitä, miksi se on todenmukainen, jotta lapset voivat värittää valmiin söpön vauva kilpikonnan niin kuin se todella näyttää luonnossa — tai keksiä oman versionsa."
         }
       ]
     },
@@ -535,10 +537,6 @@
         {
           "q": "Mikä on hauska fakta söpöstä pöllöstä?",
           "a": "Pöllöt voivat kääntää päätään jopa 270 astetta – lähes kokonaan ympäri! Ne tekevät tämän, koska toisin kuin ihmisillä, niiden silmät ovat kiinteät eivätkä voi liikkua silmäkuopissaan. Lapset löytävät tällaisia faktoja ratkoessaan Söpöä Pöllöä -pisteestä pisteeseen -palapeliä."
-        },
-        {
-          "q": "Mitä värejä minun pitäisi käyttää Söpö Pöllö pisteestä pisteeseen -sivulla?",
-          "a": "Söpö Pöllö tulostettava sisältää realistisen väritysohjeen, jossa on 2 kaaviota: Suuri Sarvipöllö (keltainen, ruskea); Lumipöllö (keltainen, valkoinen). Jokainen kaavio yhdistää jokaisen pistealueen nimettyyn värikynään ja huomautuksen siitä, miksi se on todenmukainen, jotta lapset voivat värittää valmiin söpön pöllön niin kuin se todella näyttää luonnossa — tai keksiä oman versionsa."
         }
       ]
     },
@@ -564,10 +562,6 @@
         {
           "q": "Mikä on hauska fakta iloisesta ravusta?",
           "a": "Rapujen nivelet eivät kävele eteenpäin kuten useimmat eläimet – niiden jalkojen nivelet taivuvat vain sivusuunnassa, joten puolelta toiselle kiipeäminen on itse asiassa niiden nopein tapa liikkua. Lapset löytävät tällaisia faktoja ratkoessaan Iloinen Rapu -pisteestä pisteeseen -palapeliä."
-        },
-        {
-          "q": "Mitä värejä minun pitäisi käyttää Iloinen Rapu pisteestä pisteeseen -sivulla?",
-          "a": "Iloinen Rapu tulostettava sisältää realistisen väritysohjeen, jossa on 2 kaaviota: Punainen Kallioprapu (skarlet, musta); Sininen Rapu (taivaan sininen, musta). Jokainen kaavio yhdistää jokaisen pistealueen nimettyyn värikynään ja huomautuksen siitä, miksi se on todenmukainen, jotta lapset voivat värittää valmiin iloisen ravun niin kuin se todella näyttää luonnossa — tai keksiä oman versionsa."
         }
       ]
     },
@@ -593,10 +587,6 @@
         {
           "q": "Mikä on hauska fakta suloisesta norsunvauvasta?",
           "a": "Norsunvauvat imevät joskus kärsaansa mukavuudenhalunsa vuoksi, aivan kuten ihmisvauva imee peukaloaan – se auttaa niitä tuntemaan olonsa rauhalliseksi ja turvalliseksi. Lapset löytävät tällaisia faktoja ratkoessaan suloista norsunvauvan pisteestä pisteeseen -palapeliä."
-        },
-        {
-          "q": "Mitä värejä minun pitäisi käyttää Söpö Vauva Elefantti pisteestä pisteeseen -sivulla?",
-          "a": "Söpö Vauva Elefantti tulostettava sisältää realistisen väritysohjeen, jossa on 2 kaaviota: Klassinen Harmaa Afrikkalainen Elefantti (harmaa, harmaa); Pehmeä Vaaleanpunainen Aasian Elefantti (harmaa, neilikkapinkki). Jokainen kaavio yhdistää jokaisen pistealueen nimettyyn värikynään ja huomautuksen siitä, miksi se on todenmukainen, jotta lapset voivat värittää valmiin söpön vauva elefantin niin kuin se todella näyttää luonnossa — tai keksiä oman versionsa."
         }
       ]
     },
@@ -2177,64 +2167,6 @@
         {
           "q": "Mitä värejä minun pitäisi käyttää Kawaii-auringonkukka-pisteestä pisteeseen -sivulla?",
           "a": "Kawaii-auringonkukka-tulostettavaan sivuun sisältyy realistinen väritysopas, jossa on kolme värityskuviota: klassinen kultainen auringonkukka (ruskea, keltainen); Soraya-oranssi auringonkukka (ruskea, oranssi); Velvet Queen Burgundyn auringonkukka (ruskea, mahonki). Jokainen värityskuvio yhdistää jokaisen pistealueen nimettyyn väriliituväriin ja kertoo, miksi se on realistinen. Näin lapset voivat värittää valmiin kawaii-auringonkukan sellaisena kuin se todella näyttää luonnossa – tai keksiä oman versionsa."
-        }
-      ]
-    },
-    "cute/cute-happy-frog-dot-to-dot-puzzle": {
-      "url": "https://dottodotfreeprintables.com/cute/cute-happy-frog-dot-to-dot-puzzle",
-      "faqs": [
-        {
-          "q": "Kuinka monta pistettä Söpö Iloinen Sammakko pisteestä pisteeseen -palapelissä on?",
-          "a": "Söpö Iloinen Sammakko yhdistä pisteet tulostettava sisältää 82 numeroitua pistettä. Se tekee siitä keskikokoisen palapelin, joka sopii parhaiten 6–10-vuotiaille (1. – 4. luokka). Lapset yhdistävät pisteet numerojärjestyksessä paljastaakseen valmiin söpön iloisen sammakon kuvan, ja sitten värittävät sen."
-        },
-        {
-          "q": "Onko Cute Happy Frog -pisteestä pisteeseen tulostettava ilmainen?",
-          "a": "Kyllä. Cute Happy Frog -työlehti on 100 % ilmainen ladattavaksi DotToDotFreePrintables.com -sivustolta — ei vaadita tiliä, sähköpostia tai maksua. Se latautuu heti tulostusvalmiina PDF-tiedostona, joka on mitoitettu US Letter- tai A4-paperille."
-        },
-        {
-          "q": "Minkä ikäisille Cute Happy Frog -pisteestä pisteeseen työlehti on paras?",
-          "a": "82 pisteen kanssa Cute Happy Frog -palapeli toimii parhaiten 6–10-vuotiaille (1.–4. luokka). Nuoremmat lapset voivat nauttia siitä kevyellä aikuisen avustuksella laskemalla, kun taas itsevarmat laskijat voivat suorittaa sen itsenäisesti ja harjoitella numerojärjestystä aina 82:een asti."
-        },
-        {
-          "q": "Mitä taitoja Cute Happy Frog -pisteestä pisteeseen palapeli opettaa?",
-          "a": "Cute Happy Frog -palapelin 82 pisteen yhdistäminen kehittää numeroiden tunnistamista ja laskemista 82:een, lyijykynän hallintaa, käsi-silmä-koordinaatiota ja kestävää keskittymistä — samoja hienomotorisia perustaitoja, jotka tukevat varhaista kirjoittamista. Valmiin kuvan värittäminen mukana olevan realistisen väriohjeen mukaan lisää luovaa palkintoa."
-        },
-        {
-          "q": "Mikä on hauska fakta söpöstä prinsessasta?",
-          "a": "Sammakko hengittää osittain ihonsa kautta, minkä vuoksi sen on aina pysyttävä kosteana — se voi jopa ottaa happea istuessaan täysin paikallaan veden alla. Lapset löytävät tällaisia faktoja suorittaessaan Cute Happy Frog -pisteestä pisteeseen palapeliä."
-        },
-        {
-          "q": "Mitä värejä minun pitäisi käyttää Cute Happy Frog -pisteestä pisteeseen sivulla?",
-          "a": "Cute Happy Frog -tulostettava sisältää realistisen värioppaan, jossa on 2 värimaailmaa: Punasilmäinen puusammakko (punainen oranssi, vihreä); Sininen myrkkynuoli-sammakko (musta, taivaansininen). Jokainen värimaailma yhdistää jokaisen pistealueen nimettyyn värikynään ja huomautuksen siitä, miksi se on todenmukainen, jotta lapset voivat värittää valmiin söpön sammakon niin kuin se todella näyttää luonnossa — tai keksiä oman versionsa."
-        }
-      ]
-    },
-    "cute/cute-princess-dot-to-dot-puzzle": {
-      "url": "https://dottodotfreeprintables.com/cute/cute-princess-dot-to-dot-puzzle",
-      "faqs": [
-        {
-          "q": "Kuinka monta pistettä Cute Princess -pisteestä pisteeseen palapelissä on?",
-          "a": "Cute Princess -pisteestä pisteeseen tulostettavassa on 57 numeroitua pistettä. Se tekee siitä helpon palapelin, joka sopii parhaiten 4–8-vuotiaille (esikoulu-2. luokka). Lapset yhdistävät pisteet numerojärjestyksessä paljastaakseen valmiin söpön prinsessan kuvan, jonka jälkeen he värittävät sen."
-        },
-        {
-          "q": "Onko Cute Princess -pisteestä pisteeseen tulostettava ilmainen?",
-          "a": "Kyllä. Cute Princess -työlehti on 100 % ilmainen ladattavaksi DotToDotFreePrintables.com -sivustolta — ei vaadita tiliä, sähköpostia tai maksua. Se latautuu heti tulostusvalmiina PDF-tiedostona, joka on mitoitettu US Letter- tai A4-paperille."
-        },
-        {
-          "q": "Minkä ikäisille Cute Princess -pisteestä pisteeseen työlehti on paras?",
-          "a": "57 pisteen kanssa Cute Princess -palapeli toimii parhaiten 4–8-vuotiaille (esikoulu-2. luokka). Nuoremmat lapset voivat nauttia siitä kevyellä aikuisen avustuksella laskemalla, kun taas itsevarmat laskijat voivat suorittaa sen itsenäisesti ja harjoitella numerojärjestystä aina 57:ään asti."
-        },
-        {
-          "q": "Mitä taitoja Cute Princess -pisteestä pisteeseen palapeli opettaa?",
-          "a": "Cute Princess -palapelin 57 pisteen yhdistäminen kehittää numeroiden tunnistamista ja laskemista 57:ään, lyijykynän hallintaa, käsi-silmä-koordinaatiota ja kestävää keskittymistä — samoja hienomotorisia perustaitoja, jotka tukevat varhaista kirjoittamista. Valmiin kuvan värittäminen mukana olevan realistisen väriohjeen mukaan lisää luovaa palkintoa."
-        },
-        {
-          "q": "Mikä on hauska fakta söpöstä prinsessasta?",
-          "a": "Aikoinaan oikeat prinsessat oppivat usein useita kieliä ja opiskeli tiedettä ja historiaa — ei vain tanssia — auttaakseen hallitsemaan valtakuntiaan viisaasti. Lapset löytävät tällaisia faktoja suorittaessaan Cute Princess -pisteestä pisteeseen palapeliä."
-        },
-        {
-          "q": "Mitä värejä minun pitäisi käyttää Söpö Prinsessa pisteestä pisteeseen -sivulle?",
-          "a": "Söpö Prinsessa tulostettava sisältää realistisen väritysohjeen, jossa on 2 kaaviota: Klassinen Vaaleanpunainen ja Kultainen Prinsessa (kultakukka, voikukka); Jääsininen ja Hopeinen Prinsessa (hopea, hopea). Jokainen kaavio yhdistää jokaisen pistealueen nimettyyn värikynään, jossa on huomautus siitä, miksi se on totta luonnossa, jotta lapset voivat värittää valmiin söpön prinsessan niin kuin se todellisuudessa näyttää luonnossa — tai keksiä oman versionsa."
         }
       ]
     }

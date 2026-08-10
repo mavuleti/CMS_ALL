@@ -1,578 +1,812 @@
-[
-  {
-    "slug": "spring-horse-playground-dot-to-dot-puzzle",
+{
+  "collection": {
     "header": {
-      "title": "Wiosenny koń Połącz Kropki — 53-kropkowy arkusz placu zabaw",
-      "meta_description": "Przesuwająca się waga dziecka sprawia, że wiosenny jeździec kołysze się. Zbuduj tego konia na placu zabaw z 53 kropkami za pomocą darmowego pliku PDF dla dzieci w wieku 4–8 lat.",
+      "title": "Playground Dot to Dot Printables — Free PDF for Kids",
+      "meta_description": "Free playground dot to dot printables for kids ages 4-12: spring horse, carousel, slide, seesaw, monkey bars, and an extreme 133-dot roller coaster. Print-ready PDF worksheets for the USA, UK, and Canada. No sign-up needed.",
       "og": {
+        "title": "9 Free Playground Dot to Dot Printables",
+        "description": "Swings, slides, seesaws, and an extreme 133-dot roller coaster — free dot to dot printables to print today.",
+        "image": "/images/swing-playgrounds-puzzle.webp"
+      },
+      "json_ld": {
+        "type": "CollectionPage",
+        "name": "Place zabaw",
+        "description": "Przenieś plac zabaw do domu! Połącz kropki, aby odkryć huśtawki, zjeżdżalnie i atrakcje na świeżym powietrzu. Wszystkie arkusze ćwiczeń można pobrać i wydrukować bezpłatnie — nie jest wymagane konto.",
+        "image": "/images/swing-playgrounds-puzzle.webp",
+        "main_entity": {
+          "type": "ItemList",
+          "item_source": "puzzles"
+        }
+      },
+      "breadcrumb_json_ld": {
+        "type": "BreadcrumbList",
+        "items": [
+          {
+            "position": 1,
+            "name": "Home",
+            "path": "/"
+          },
+          {
+            "position": 2,
+            "name": "Place zabaw",
+            "path": "/playgrounds/"
+          }
+        ]
+      }
+    },
+    "body": {
+      "h1": "Połącz kropki na placu zabaw – materiały do ​​druku dla dzieci",
+      "name": "Place zabaw",
+      "tagline": "Dlaczego dzieci uwielbiają układanki typu „połącz kropki” na placu zabaw",
+      "description": "Przenieś plac zabaw do domu! Połącz kropki, aby odkryć huśtawki, zjeżdżalnie i atrakcje na świeżym powietrzu. Wszystkie arkusze ćwiczeń można pobrać i wydrukować bezpłatnie — nie jest wymagane konto.",
+      "hero_image": "/images/swing-playgrounds-puzzle.webp",
+      "slug": "playgrounds",
+      "faqs": [
+        {
+          "q": "Ile jest darmowych, gotowych do druku materiałów do łączenia kropek na placach zabaw?",
+          "a": "Kategoria „Place zabaw” oferuje obecnie 5 darmowych arkuszy do łączenia kropek, o liczbie punktów od 42 do 133. Każdy arkusz jest natychmiast pobierany w formacie PDF gotowym do druku (Letter lub A4, w orientacji pionowej lub poziomej) bez konieczności rejestracji."
+        },
+        {
+          "q": "Czy łamigłówki typu „połącz kropki” na placach zabaw można wydrukować za darmo?",
+          "a": "Tak — wszystkie 5 łamigłówek z kolekcji Playgrounds jest całkowicie darmowych do użytku domowego i szkolnego. Na DotToDotFreePrintables.com nie jest wymagane żadne konto, adres e-mail ani płatność."
+        },
+        {
+          "q": "Dla dzieci w jakim wieku przeznaczone są puzzle na placu zabaw?",
+          "a": "Kolekcja Playgrounds, z liczbą kropek od 42 do 133, jest przeznaczona dla dzieci w wieku od 4 do 12 lat. Wybierz mniejszą liczbę kropek dla przedszkolaków, a większą dla uczniów klas 2–6, którzy mają pewność siebie."
+        },
+        {
+          "q": "Jakie układanki do łączenia kropek mogą wydrukować dzieci?",
+          "a": "Pięć darmowych, przeznaczonych do wydrukowania elementów placu zabaw: Huśtawka (42 punkty), Seesaw (68 punktów), Drążek (94 punkty), Zjeżdżalnia (102 punkty) i Kolejka górska (133 punkty) — najwyższy poziom trudności na stronie, od wyzwań dla przedszkolaków do poziomu dla nastolatków."
+        },
+        {
+          "q": "Jaka jest najtrudniejsza łamigłówka typu „połącz kropki” na stronie?",
+          "a": "Łamigłówka Roller Coaster Playground to największe wyzwanie na stronie, liczące 133 punkty, idealne dla dzieci w wieku 7–12 lat. To ulubiona łamigłówka starszych dzieci, dla których typowe arkusze ćwiczeń są zbyt łatwe."
+        }
+      ]
+    }
+  },
+  "puzzles": [
+    {
+      "slug": "spring-horse-playground-dot-to-dot-puzzle",
+      "header": {
         "title": "Wiosenny koń Połącz Kropki — 53-kropkowy arkusz placu zabaw",
-        "description": "Przesuwająca się waga dziecka sprawia, że wiosenny jeździec kołysze się. Zbuduj tego konia na placu zabaw z 53 kropkami za pomocą darmowego pliku PDF dla dzieci w wieku 4–8 lat.",
-        "image_alt": "Jeździec na wiosennym koniu skaczący w kształt z 53 drukowanych kropek"
+        "meta_description": "Przesuwająca się waga dziecka sprawia, że wiosenny jeździec kołysze się. Zbuduj tego konia na placu zabaw z 53 kropkami za pomocą darmowego pliku PDF dla dzieci w wieku 4–8 lat.",
+        "og": {
+          "title": "Wiosenny koń Połącz Kropki — 53-kropkowy arkusz placu zabaw",
+          "description": "Przesuwająca się waga dziecka sprawia, że wiosenny jeździec kołysze się. Zbuduj tego konia na placu zabaw z 53 kropkami za pomocą darmowego pliku PDF dla dzieci w wieku 4–8 lat.",
+          "image_alt": "Jeździec na wiosennym koniu skaczący w kształt z 53 drukowanych kropek"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Wiosenny koń",
+          "description": "Przesuwająca się waga dziecka sprawia, że wiosenny jeździec kołysze się. Zbuduj tego konia na placu zabaw z 53 kropkami za pomocą darmowego pliku PDF dla dzieci w wieku 4–8 lat.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
       },
-      "json_ld": {
-        "type": "CreativeWork",
+      "body": {
+        "h1": "Wiosenny koń Połącz Kropki — 53-kropkowy arkusz placu zabaw",
         "name": "Wiosenny koń",
-        "description": "Przesuwająca się waga dziecka sprawia, że wiosenny jeździec kołysze się. Zbuduj tego konia na placu zabaw z 53 kropkami za pomocą darmowego pliku PDF dla dzieci w wieku 4–8 lat.",
-        "image": "",
-        "educational_use": "Fine motor skills, number sequencing",
-        "age_range": ""
-      }
-    },
-    "body": {
-      "h1": "Wiosenny koń Połącz Kropki — 53-kropkowy arkusz placu zabaw",
-      "name": "Wiosenny koń",
-      "tagline": "Kolejka i jazda na koniu na placu zabaw!",
-      "description": "Połącz 53 kropki, aby ujawnić radosnego jeźdźca na wiosennym koniu. Ten łatwy do wydrukowania materiał pomaga młodszym dzieciom ćwiczyć sekwencjonowanie liczb, kontrolę ołówka, śledzenie wzrokowe i koncentrację.",
-      "fun_fact": "Wiosenne jeźdźce kołyszą się tam i z powrotem na ciężkiej sprężynie spiralnej, pozwalając dzieciom tworzyć ruch, przesuwając własną wagę.",
-      "dot_guide": {
-        "intro": "Place zabaw to miejsca, gdzie wyobraźnia szaleje, a przyjaźnie się nawiązują – a huśtawka jest niekwestionowanym królem placu zabaw. Niewiele rzeczy może się równać z prostą radością poruszania nogami i czucia wiatru, gdy wznosisz się coraz wyżej i wyżej w niebo. Ta radosna, 42-punktowa układanka oddaje tę magię. Znajdź punkt 1, chwyć ołówek i baw się!",
-        "sections": [
+        "tagline": "Kolejka i jazda na koniu na placu zabaw!",
+        "description": "Połącz 53 kropki, aby ujawnić radosnego jeźdźca na wiosennym koniu. Ten łatwy do wydrukowania materiał pomaga młodszym dzieciom ćwiczyć sekwencjonowanie liczb, kontrolę ołówka, śledzenie wzrokowe i koncentrację.",
+        "fun_fact": "Wiosenne jeźdźce kołyszą się tam i z powrotem na ciężkiej sprężynie spiralnej, pozwalając dzieciom tworzyć ruch, przesuwając własną wagę.",
+        "faqs": [
           {
-            "range": "1–13",
-            "title": "Rama huśtawki",
-            "learn": "Zacznij od punktu 1 i połącz z punktem 8, aby narysować wysoką ramę w kształcie litery A, która utrzymuje huśtawki na miejscu. Dzieci ćwiczą proste, pewne linie, skierowane do wewnątrz w kierunku punktu – to świetne wprowadzenie do kształtów geometrycznych w zabawnym, realistycznym kontekście. Zachęcaj do zdecydowanych, przemyślanych pociągnięć, aby uzyskać najlepszy efekt.",
-            "fact": "Klasyczny zestaw huśtawek w kształcie litery A został zaprojektowany tak, aby zapewnić maksymalną stabilność – trójkątny kształt równomiernie rozkłada ciężar, dzięki czemu cała konstrukcja nie przewraca się nawet podczas intensywnego huśtania się dzieci. Trójkąty to najmocniejszy kształt w inżynierii, dlatego można je spotkać wszędzie – od mostów po ramy placów zabaw."
+            "q": "Dla jakiego wieku jest łamigłówka łączenia kropek Wiosenny koń?",
+            "a": "Jest przeznaczona dla wieku Wiek 4-8. Z 53 kropkami pasuje dzieciom, które pewnie liczą do 53; młodsze dzieci poradzą sobie z niewielką pomocą."
           },
           {
-            "range": "14–27",
-            "title": "Poprzeczka i łańcuchy",
-            "learn": "Kontynuuj od punktu 9 do punktu 18, aby narysować poziomą poprzeczkę u góry oraz wiszące łańcuszki. Dzieci ćwiczą naprzemienne wykonywanie linii poziomych i łańcuszków skierowanych w dół – to wspaniałe ćwiczenie w świadomej i precyzyjnej zmianie kierunku. To właśnie łańcuszki umożliwiają ruch wahadłowy!",
-            "fact": "Nowoczesne łańcuchy na placach zabaw są wykonane z ocynkowanej stali – stali pokrytej warstwą cynku – aby zapobiec rdzewieniu. Przed pojawieniem się stalowych łańcuchów, huśtawki wykorzystywały grube liny z naturalnych włókien, takich jak konopie czy manila. Dla wielu dzieci pierwszym doświadczeniem z huśtawką była prosta deska przywiązana liną do gałęzi drzewa, a tradycja ta jest kontynuowana w ogrodach na całym świecie do dziś."
+            "q": "Jak wydrukować kartę pracy Wiosenny koń?",
+            "a": "Kliknij przycisk pobierania, aby otrzymać darmowy PDF, a następnie wydrukuj go na zwykłym papierze (A4 lub US Letter) z dowolnej przeglądarki lub czytnika PDF. Nie potrzeba specjalnego oprogramowania."
           },
           {
-            "range": "28–40",
-            "title": "Siedzisko i figurka huśtawki",
-            "learn": "Obrysuj kropki od 19 do 28, aby narysować siedzisko huśtawki i zarys siedzącego na nim dziecka. To najbardziej satysfakcjonująca część układanki — dzieci widzą, jak cała konstrukcja staje się spójna, gdy mała figurka zajmuje jej miejsce. Przypomnij dzieciom, aby spojrzały w przyszłość na kolejną kropkę, zanim podniosą ołówek.",
-            "fact": "Wrażenie huśtania – unoszenie się i opadanie, krótka chwila nieważkości na szczycie każdego łuku – aktywuje układ przedsionkowy w mózgu, który odpowiada za równowagę i świadomość przestrzenną. Właśnie dlatego huśtanie się jest tak przyjemne: to autentycznie korzystne bodźce sensoryczne, które pomagają dzieciom rozwijać równowagę, koordynację i świadomość ciała."
-          },
-          {
-            "range": "41–53",
-            "title": "Teren i okolice",
-            "learn": "Połącz kropki od 29 do 36, aby narysować podłoże pod huśtawkami i otaczające je detale. Dzieci ćwiczą osadzanie sceny – nadając placowi zabaw poczucie miejsca i skali. Ta sekcja buduje zrozumienie pierwszego i drugiego planu, co przyda im się w sztuce i rysunku przez wiele lat.",
-            "fact": "Nowoczesne place zabaw wykorzystują specjalnie zaprojektowane nawierzchnie bezpieczeństwa pod huśtawkami – gumowe płytki, wióry drzewne lub gumowe okruchy – aby amortyzować upadki. Materiał ten jest starannie zaprojektowany, aby pochłaniać uderzenia. Zanim w latach 70. i 80. XX wieku nawierzchnie bezpieczeństwa stały się standardem, większość placów zabaw miała pod urządzeniami twardy beton lub ubitą ziemię."
+            "q": "Czy karta do druku Wiosenny koń jest naprawdę darmowa?",
+            "a": "Tak — jest w 100% darmowa, bez rejestracji, konta i opłat. Możesz ją drukować do domu lub do klasy."
           }
         ],
-        "outro": "Świetnie — Twój plac zabaw jest gotowy! Pokoloruj huśtawki swoimi ulubionymi kolorami i dodaj przyjaciół huśtających się obok. A potem wyjdź na zewnątrz i ciesz się prawdziwymi huśtawkami — żadna kredka nie dorówna uczuciu wiatru we włosach na huśtawce! Dla każdego wieku i tematu, przejrzyj naszą pełną bibliotekę <a href=\"/\">materiałów do łączenia kropek</a>.",
-        "color_schemes": []
+        "dot_guide": {
+          "intro": "Place zabaw to miejsca, gdzie wyobraźnia szaleje, a przyjaźnie się nawiązują – a huśtawka jest niekwestionowanym królem placu zabaw. Niewiele rzeczy może się równać z prostą radością poruszania nogami i czucia wiatru, gdy wznosisz się coraz wyżej i wyżej w niebo. Ta radosna, 42-punktowa układanka oddaje tę magię. Znajdź punkt 1, chwyć ołówek i baw się!",
+          "sections": [
+            {
+              "range": "1–13",
+              "title": "Rama huśtawki",
+              "learn": "Zacznij od punktu 1 i połącz z punktem 8, aby narysować wysoką ramę w kształcie litery A, która utrzymuje huśtawki na miejscu. Dzieci ćwiczą proste, pewne linie, skierowane do wewnątrz w kierunku punktu – to świetne wprowadzenie do kształtów geometrycznych w zabawnym, realistycznym kontekście. Zachęcaj do zdecydowanych, przemyślanych pociągnięć, aby uzyskać najlepszy efekt.",
+              "fact": "Klasyczny zestaw huśtawek w kształcie litery A został zaprojektowany tak, aby zapewnić maksymalną stabilność – trójkątny kształt równomiernie rozkłada ciężar, dzięki czemu cała konstrukcja nie przewraca się nawet podczas intensywnego huśtania się dzieci. Trójkąty to najmocniejszy kształt w inżynierii, dlatego można je spotkać wszędzie – od mostów po ramy placów zabaw."
+            },
+            {
+              "range": "14–27",
+              "title": "Poprzeczka i łańcuchy",
+              "learn": "Kontynuuj od punktu 9 do punktu 18, aby narysować poziomą poprzeczkę u góry oraz wiszące łańcuszki. Dzieci ćwiczą naprzemienne wykonywanie linii poziomych i łańcuszków skierowanych w dół – to wspaniałe ćwiczenie w świadomej i precyzyjnej zmianie kierunku. To właśnie łańcuszki umożliwiają ruch wahadłowy!",
+              "fact": "Nowoczesne łańcuchy na placach zabaw są wykonane z ocynkowanej stali – stali pokrytej warstwą cynku – aby zapobiec rdzewieniu. Przed pojawieniem się stalowych łańcuchów, huśtawki wykorzystywały grube liny z naturalnych włókien, takich jak konopie czy manila. Dla wielu dzieci pierwszym doświadczeniem z huśtawką była prosta deska przywiązana liną do gałęzi drzewa, a tradycja ta jest kontynuowana w ogrodach na całym świecie do dziś."
+            },
+            {
+              "range": "28–40",
+              "title": "Siedzisko i figurka huśtawki",
+              "learn": "Obrysuj kropki od 19 do 28, aby narysować siedzisko huśtawki i zarys siedzącego na nim dziecka. To najbardziej satysfakcjonująca część układanki — dzieci widzą, jak cała konstrukcja staje się spójna, gdy mała figurka zajmuje jej miejsce. Przypomnij dzieciom, aby spojrzały w przyszłość na kolejną kropkę, zanim podniosą ołówek.",
+              "fact": "Wrażenie huśtania – unoszenie się i opadanie, krótka chwila nieważkości na szczycie każdego łuku – aktywuje układ przedsionkowy w mózgu, który odpowiada za równowagę i świadomość przestrzenną. Właśnie dlatego huśtanie się jest tak przyjemne: to autentycznie korzystne bodźce sensoryczne, które pomagają dzieciom rozwijać równowagę, koordynację i świadomość ciała."
+            },
+            {
+              "range": "41–53",
+              "title": "Teren i okolice",
+              "learn": "Połącz kropki od 29 do 36, aby narysować podłoże pod huśtawkami i otaczające je detale. Dzieci ćwiczą osadzanie sceny – nadając placowi zabaw poczucie miejsca i skali. Ta sekcja buduje zrozumienie pierwszego i drugiego planu, co przyda im się w sztuce i rysunku przez wiele lat.",
+              "fact": "Nowoczesne place zabaw wykorzystują specjalnie zaprojektowane nawierzchnie bezpieczeństwa pod huśtawkami – gumowe płytki, wióry drzewne lub gumowe okruchy – aby amortyzować upadki. Materiał ten jest starannie zaprojektowany, aby pochłaniać uderzenia. Zanim w latach 70. i 80. XX wieku nawierzchnie bezpieczeństwa stały się standardem, większość placów zabaw miała pod urządzeniami twardy beton lub ubitą ziemię."
+            }
+          ],
+          "outro": "Świetnie — Twój plac zabaw jest gotowy! Pokoloruj huśtawki swoimi ulubionymi kolorami i dodaj przyjaciół huśtających się obok. A potem wyjdź na zewnątrz i ciesz się prawdziwymi huśtawkami — żadna kredka nie dorówna uczuciu wiatru we włosach na huśtawce! Dla każdego wieku i tematu, przejrzyj naszą pełną bibliotekę <a href=\"/\">materiałów do łączenia kropek</a>.",
+          "color_schemes": []
+        }
       }
-    }
-  },
-  {
-    "slug": "playhouse-slide-playground-dot-to-dot-puzzle",
-    "header": {
-      "title": "Plac Zabaw ze Zjeżdżalnią – Łamigłówka Łącz Kropki 102 Kropki",
-      "meta_description": "102 kropki odsłaniają wysoką zjeżdżalnię gotową do wspinaczki i zjazdu – solidne wyzwanie dla dzieci 6–9 lat, które opanowały już łatwiejsze arkusze łącz kropki. Darmowa karta pracy do druku, format A4, na zajęcia o placu zabaw.",
-      "og": {
+    },
+    {
+      "slug": "playhouse-slide-playground-dot-to-dot-puzzle",
+      "header": {
         "title": "Plac Zabaw ze Zjeżdżalnią – Łamigłówka Łącz Kropki 102 Kropki",
-        "description": "102 kropki odsłaniają wysoką zjeżdżalnię gotową do wspinaczki i zjazdu – solidne wyzwanie dla dzieci 6–9 lat, które opanowały już łatwiejsze arkusze łącz kropki. Darmowa karta pracy do druku, format A4, na zajęcia o placu zabaw.",
-        "image_alt": "Wysoka zjeżdżalnia na placu zabaw, złożona z 102 ponumerowanych kropek do połączenia"
+        "meta_description": "102 kropki odsłaniają wysoką zjeżdżalnię gotową do wspinaczki i zjazdu – solidne wyzwanie dla dzieci 6–9 lat, które opanowały już łatwiejsze arkusze łącz kropki. Darmowa karta pracy do druku, format A4, na zajęcia o placu zabaw.",
+        "og": {
+          "title": "Plac Zabaw ze Zjeżdżalnią – Łamigłówka Łącz Kropki 102 Kropki",
+          "description": "102 kropki odsłaniają wysoką zjeżdżalnię gotową do wspinaczki i zjazdu – solidne wyzwanie dla dzieci 6–9 lat, które opanowały już łatwiejsze arkusze łącz kropki. Darmowa karta pracy do druku, format A4, na zajęcia o placu zabaw.",
+          "image_alt": "Wysoka zjeżdżalnia na placu zabaw, złożona z 102 ponumerowanych kropek do połączenia"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Plac zabaw ze zjeżdżalnią",
+          "description": "102 kropki odsłaniają wysoką zjeżdżalnię gotową do wspinaczki i zjazdu – solidne wyzwanie dla dzieci 6–9 lat, które opanowały już łatwiejsze arkusze łącz kropki. Darmowa karta pracy do druku, format A4, na zajęcia o placu zabaw.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
       },
-      "json_ld": {
-        "type": "CreativeWork",
+      "body": {
+        "h1": "Zjeżdżalnia w domku zabaw kropka do kropki: 68 kropek do wydrukowania za darmo",
         "name": "Plac zabaw ze zjeżdżalnią",
-        "description": "102 kropki odsłaniają wysoką zjeżdżalnię gotową do wspinaczki i zjazdu – solidne wyzwanie dla dzieci 6–9 lat, które opanowały już łatwiejsze arkusze łącz kropki. Darmowa karta pracy do druku, format A4, na zajęcia o placu zabaw.",
-        "image": "",
-        "educational_use": "Fine motor skills, number sequencing",
-        "age_range": ""
-      }
-    },
-    "body": {
-      "h1": "Zjeżdżalnia w domku zabaw kropka do kropki: 68 kropek do wydrukowania za darmo",
-      "name": "Plac zabaw ze zjeżdżalnią",
-      "tagline": "Wspinaj się, zjeżdżaj, powtarzaj!",
-      "description": "Połącz 68 kropek, aby odkryć radosny domek zabaw na placu zabaw ze zjeżdżalnią. Ten łatwy do wydrukowania materiał pomaga dzieciom ćwiczyć sekwencjonowanie liczb, kontrolę ołówka, śledzenie wzrokowe i koncentrację.",
-      "fun_fact": "Najwyższa na świecie stała zjeżdżalnia ma ponad 30 metrów długości — mniej więcej tyle, co dziesięciopiętrowy budynek!",
-      "dot_guide": {
-        "intro": "Jeśli huśtawka jest królem placu zabaw, to zjeżdżalnia plasuje się tuż za nią — jest coś nieodpartego we wspinaniu się, siadaniu i pozwalaniu, by grawitacja zrobiła resztę. Ta łamigłówka ze 102 kropkami przedstawia wysoką, klasyczną zjeżdżalnię na placu zabaw, od drabinki z tyłu do zakrzywionej rampy z przodu. Ma więcej kropek niż nasza najłatwiejsza układanka, więc nagradza odrobinę dodatkowej cierpliwości. Znajdź kropkę 1 i zbudujmy coś, na co warto się wspinać.",
-        "sections": [
+        "tagline": "Wspinaj się, zjeżdżaj, powtarzaj!",
+        "description": "Połącz 68 kropek, aby odkryć radosny domek zabaw na placu zabaw ze zjeżdżalnią. Ten łatwy do wydrukowania materiał pomaga dzieciom ćwiczyć sekwencjonowanie liczb, kontrolę ołówka, śledzenie wzrokowe i koncentrację.",
+        "fun_fact": "Najwyższa na świecie stała zjeżdżalnia ma ponad 30 metrów długości — mniej więcej tyle, co dziesięciopiętrowy budynek!",
+        "faqs": [
           {
-            "range": "1–14",
-            "title": "Drabina",
-            "learn": "Zacznij od punktu 1 i połącz go z punktem 20, aby narysować wysoką drabinę prowadzącą na platformę zjeżdżalni. Ta sekcja składa się głównie z prostych, równomiernie rozłożonych linii, co czyni ją dobrą rozgrzewką przed spokojnymi, kontrolowanymi pociągnięciami ołówka przed kolejnymi zakrętami.",
-            "fact": "Drabinki na placach zabaw są zbudowane z szczebli rozmieszczonych na tyle blisko siebie, aby stopa małego dziecka mogła bezpiecznie sięgnąć do następnego szczebla — zwykle nie dalej niż 30 cm od siebie, znacznie bliżej niż szczeble w zwykłej drabinie przystawnej."
+            "q": "Dla jakiego wieku jest łamigłówka łączenia kropek Plac zabaw ze zjeżdżalnią?",
+            "a": "Jest przeznaczona dla wieku Wiek 5-9. Z 68 kropkami pasuje dzieciom, które pewnie liczą do 68; młodsze dzieci poradzą sobie z niewielką pomocą."
           },
           {
-            "range": "15–28",
-            "title": "Platforma",
-            "learn": "Kontynuuj od punktu 21 do punktu 40, aby narysować płaską platformę na górze, gdzie wspinacze zatrzymują się przed zjazdem. Dzieci ćwiczą tutaj łączenie linii poziomych i pionowych pod wyraźnymi kątami prostymi – dobre ćwiczenie struktury i proporcji.",
-            "fact": "Większość platform na placach zabaw jest wyposażona w barierki ochronne z co najmniej trzech stron, pozostawiając otwarte jedynie wejście do zjeżdżalni. Sam ten szczegół konstrukcyjny znacząco zmniejszył ryzyko upadku z platformy, odkąd stał się standardem w wytycznych bezpieczeństwa placów zabaw."
+            "q": "Jak wydrukować kartę pracy Plac zabaw ze zjeżdżalnią?",
+            "a": "Kliknij przycisk pobierania, aby otrzymać darmowy PDF, a następnie wydrukuj go na zwykłym papierze (A4 lub US Letter) z dowolnej przeglądarki lub czytnika PDF. Nie potrzeba specjalnego oprogramowania."
           },
           {
-            "range": "29–41",
-            "title": "Góra slajdu",
-            "learn": "Obrysuj kropki od 41 do 60, aby nadać kształt zakrzywionej krawędzi w miejscu, gdzie platforma styka się ze zjeżdżalnią – dokładnie w miejscu, gdzie zaczyna się zabawa. To bardziej zakrzywiona linia, niż się wydaje, więc zachęcaj do powolnego, rozważnego ruchu dłonią, a nie do szybkiego przesuwania.",
-            "fact": "Pierwszy zakręt na szczycie zjazdu nazywa się „krzywą startową” i jest specjalnie wygięty, aby kontrolować, jak szybko jeździec nabiera prędkości, zamiast zrzucać go prosto w dół."
-          },
-          {
-            "range": "42–55",
-            "title": "Długi spadochron",
-            "learn": "Połącz kropki od 61 do 85, aby narysować długi, szeroki zjazd. To największa i najbardziej satysfakcjonująca część układanki – zachęcaj do jednego płynnego, ciągłego ruchu zamiast kilku krótkich, ponieważ to właśnie one nadają zjazdowi wrażenie szybkości.",
-            "fact": "Nowoczesne zjeżdżalnie na placach zabaw są prawie zawsze wykonane z tworzywa sztucznego formowanego rotacyjnie, a nie z metalu. Metalowe zjeżdżalnie mogą niebezpiecznie się nagrzewać w bezpośrednim letnim słońcu, co jest jednym z głównych powodów, dla których place zabaw w latach 80. i 90. XX wieku w dużej mierze zmieniły materiały."
-          },
-          {
-            "range": "56–68",
-            "title": "Baza i lądowanie",
-            "learn": "Na koniec połącz kropki od 86 do 102, aby narysować podstawę zjeżdżalni i podłoże, na którym lądują zjeżdżający. Pozostało siedemnaście kropek — pewne, stabilne zakończenie dopełnia całą konstrukcję.",
-            "fact": "Podobnie jak huśtawki, zjeżdżalnie znajdują się na specjalnie zaprojektowanej, bezpiecznej nawierzchni — zwykle z gumy, piasku lub wiórów drewnianych — zaprojektowanej tak, aby amortyzować wstrząsy podczas lądowania znacznie lepiej niż zwykła trawa lub beton."
+            "q": "Czy karta do druku Plac zabaw ze zjeżdżalnią jest naprawdę darmowa?",
+            "a": "Tak — jest w 100% darmowa, bez rejestracji, konta i opłat. Możesz ją drukować do domu lub do klasy."
           }
         ],
-        "outro": "Świetna robota — Twoja zjeżdżalnia jest gotowa na wspinaczy! Pokoloruj ją w jaskrawe kolory placu zabaw lub zaprojektuj własny, dziki wzór na zjeżdżalni. Gotowy na coś zupełnie innego? Wypróbuj naszą kolekcję <a href=\"/dinosaurs/\">do druku z dinozaurami</a>.",
-        "color_schemes": []
+        "dot_guide": {
+          "intro": "Jeśli huśtawka jest królem placu zabaw, to zjeżdżalnia plasuje się tuż za nią — jest coś nieodpartego we wspinaniu się, siadaniu i pozwalaniu, by grawitacja zrobiła resztę. Ta łamigłówka ze 102 kropkami przedstawia wysoką, klasyczną zjeżdżalnię na placu zabaw, od drabinki z tyłu do zakrzywionej rampy z przodu. Ma więcej kropek niż nasza najłatwiejsza układanka, więc nagradza odrobinę dodatkowej cierpliwości. Znajdź kropkę 1 i zbudujmy coś, na co warto się wspinać.",
+          "sections": [
+            {
+              "range": "1–14",
+              "title": "Drabina",
+              "learn": "Zacznij od punktu 1 i połącz go z punktem 20, aby narysować wysoką drabinę prowadzącą na platformę zjeżdżalni. Ta sekcja składa się głównie z prostych, równomiernie rozłożonych linii, co czyni ją dobrą rozgrzewką przed spokojnymi, kontrolowanymi pociągnięciami ołówka przed kolejnymi zakrętami.",
+              "fact": "Drabinki na placach zabaw są zbudowane z szczebli rozmieszczonych na tyle blisko siebie, aby stopa małego dziecka mogła bezpiecznie sięgnąć do następnego szczebla — zwykle nie dalej niż 30 cm od siebie, znacznie bliżej niż szczeble w zwykłej drabinie przystawnej."
+            },
+            {
+              "range": "15–28",
+              "title": "Platforma",
+              "learn": "Kontynuuj od punktu 21 do punktu 40, aby narysować płaską platformę na górze, gdzie wspinacze zatrzymują się przed zjazdem. Dzieci ćwiczą tutaj łączenie linii poziomych i pionowych pod wyraźnymi kątami prostymi – dobre ćwiczenie struktury i proporcji.",
+              "fact": "Większość platform na placach zabaw jest wyposażona w barierki ochronne z co najmniej trzech stron, pozostawiając otwarte jedynie wejście do zjeżdżalni. Sam ten szczegół konstrukcyjny znacząco zmniejszył ryzyko upadku z platformy, odkąd stał się standardem w wytycznych bezpieczeństwa placów zabaw."
+            },
+            {
+              "range": "29–41",
+              "title": "Góra slajdu",
+              "learn": "Obrysuj kropki od 41 do 60, aby nadać kształt zakrzywionej krawędzi w miejscu, gdzie platforma styka się ze zjeżdżalnią – dokładnie w miejscu, gdzie zaczyna się zabawa. To bardziej zakrzywiona linia, niż się wydaje, więc zachęcaj do powolnego, rozważnego ruchu dłonią, a nie do szybkiego przesuwania.",
+              "fact": "Pierwszy zakręt na szczycie zjazdu nazywa się „krzywą startową” i jest specjalnie wygięty, aby kontrolować, jak szybko jeździec nabiera prędkości, zamiast zrzucać go prosto w dół."
+            },
+            {
+              "range": "42–55",
+              "title": "Długi spadochron",
+              "learn": "Połącz kropki od 61 do 85, aby narysować długi, szeroki zjazd. To największa i najbardziej satysfakcjonująca część układanki – zachęcaj do jednego płynnego, ciągłego ruchu zamiast kilku krótkich, ponieważ to właśnie one nadają zjazdowi wrażenie szybkości.",
+              "fact": "Nowoczesne zjeżdżalnie na placach zabaw są prawie zawsze wykonane z tworzywa sztucznego formowanego rotacyjnie, a nie z metalu. Metalowe zjeżdżalnie mogą niebezpiecznie się nagrzewać w bezpośrednim letnim słońcu, co jest jednym z głównych powodów, dla których place zabaw w latach 80. i 90. XX wieku w dużej mierze zmieniły materiały."
+            },
+            {
+              "range": "56–68",
+              "title": "Baza i lądowanie",
+              "learn": "Na koniec połącz kropki od 86 do 102, aby narysować podstawę zjeżdżalni i podłoże, na którym lądują zjeżdżający. Pozostało siedemnaście kropek — pewne, stabilne zakończenie dopełnia całą konstrukcję.",
+              "fact": "Podobnie jak huśtawki, zjeżdżalnie znajdują się na specjalnie zaprojektowanej, bezpiecznej nawierzchni — zwykle z gumy, piasku lub wiórów drewnianych — zaprojektowanej tak, aby amortyzować wstrząsy podczas lądowania znacznie lepiej niż zwykła trawa lub beton."
+            }
+          ],
+          "outro": "Świetna robota — Twoja zjeżdżalnia jest gotowa na wspinaczy! Pokoloruj ją w jaskrawe kolory placu zabaw lub zaprojektuj własny, dziki wzór na zjeżdżalni. Gotowy na coś zupełnie innego? Wypróbuj naszą kolekcję <a href=\"/dinosaurs/\">do druku z dinozaurami</a>.",
+          "color_schemes": []
+        }
       }
-    }
-  },
-  {
-    "slug": "carousel-horse-playground-dot-to-dot-puzzle",
-    "header": {
-      "title": "Plac Zabaw z Huśtawką Ważką – Łącz Kropki 68 Kropek do Druku",
-      "meta_description": "Podążaj za falującą grzywą i dekoracyjnym siodłem karuzelowego skoczka przez 88 kropek. Wydrukuj tę darmową łamigłówkę z wesołego miasteczka dla dzieci w wieku 5–9 lat.",
-      "og": {
+    },
+    {
+      "slug": "carousel-horse-playground-dot-to-dot-puzzle",
+      "header": {
         "title": "Plac Zabaw z Huśtawką Ważką – Łącz Kropki 68 Kropek do Druku",
-        "description": "Podążaj za falującą grzywą i dekoracyjnym siodłem karuzelowego skoczka przez 88 kropek. Wydrukuj tę darmową łamigłówkę z wesołego miasteczka dla dzieci w wieku 5–9 lat.",
-        "image_alt": "Dwójka przyjaciół na huśtawce ważce na placu zabaw, złożona z 68 ponumerowanych kropek"
+        "meta_description": "Podążaj za falującą grzywą i dekoracyjnym siodłem karuzelowego skoczka przez 88 kropek. Wydrukuj tę darmową łamigłówkę z wesołego miasteczka dla dzieci w wieku 5–9 lat.",
+        "og": {
+          "title": "Plac Zabaw z Huśtawką Ważką – Łącz Kropki 68 Kropek do Druku",
+          "description": "Podążaj za falującą grzywą i dekoracyjnym siodłem karuzelowego skoczka przez 88 kropek. Wydrukuj tę darmową łamigłówkę z wesołego miasteczka dla dzieci w wieku 5–9 lat.",
+          "image_alt": "Dwójka przyjaciół na huśtawce ważce na placu zabaw, złożona z 68 ponumerowanych kropek"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Plac zabaw z huśtawką",
+          "description": "Podążaj za falującą grzywą i dekoracyjnym siodłem karuzelowego skoczka przez 88 kropek. Wydrukuj tę darmową łamigłówkę z wesołego miasteczka dla dzieci w wieku 5–9 lat.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
       },
-      "json_ld": {
-        "type": "CreativeWork",
+      "body": {
+        "h1": "Karuzelowy koń kropka do kropki — magiczny arkusz z 88 kropkami",
         "name": "Plac zabaw z huśtawką",
-        "description": "Podążaj za falującą grzywą i dekoracyjnym siodłem karuzelowego skoczka przez 88 kropek. Wydrukuj tę darmową łamigłówkę z wesołego miasteczka dla dzieci w wieku 5–9 lat.",
-        "image": "",
-        "educational_use": "Fine motor skills, number sequencing",
-        "age_range": ""
-      }
-    },
-    "body": {
-      "h1": "Karuzelowy koń kropka do kropki — magiczny arkusz z 88 kropkami",
-      "name": "Plac zabaw z huśtawką",
-      "tagline": "W górę, w dół i dookoła!",
-      "description": "Połącz 68 kropek, aby odkryć dwójkę przyjaciół balansujących na klasycznej huśtawce na placu zabaw. Ta układanka z kropkami znajduje się pomiędzy naszymi najłatwiejszymi i najtrudniejszymi łamigłówkami, co stanowi solidny krok w budowaniu pewności siebie w sekwencjonowaniu liczb.",
-      "fun_fact": "Huśtawki w języku amerykańskim są czasami nazywane „teeter-totters” — obie nazwy opisują ten sam prosty ruch w górę i w dół, który bawi dzieci od pokoleń.",
-      "dot_guide": {
-        "intro": "W huśtawce tkwi odrobina pracy zespołowej – działa tylko wtedy, gdy obaj jeźdźcy grają razem, odpychając się i wstając na zmianę. Ta łamigłówka z 68 punktami przedstawia równowagę od dołu do góry, najpierw deska, a jeźdźcy na końcu. To miły krok w górę od naszej najłatwiejszej planszy do zabawy, bez wchodzenia na poziom eksperta. Znajdź punkt 1 i pozwól nam utrzymać równowagę.",
-        "sections": [
+        "tagline": "W górę, w dół i dookoła!",
+        "description": "Połącz 68 kropek, aby odkryć dwójkę przyjaciół balansujących na klasycznej huśtawce na placu zabaw. Ta układanka z kropkami znajduje się pomiędzy naszymi najłatwiejszymi i najtrudniejszymi łamigłówkami, co stanowi solidny krok w budowaniu pewności siebie w sekwencjonowaniu liczb.",
+        "fun_fact": "Huśtawki w języku amerykańskim są czasami nazywane „teeter-totters” — obie nazwy opisują ten sam prosty ruch w górę i w dół, który bawi dzieci od pokoleń.",
+        "faqs": [
           {
-            "range": "1–18",
-            "title": "Punkt podparcia",
-            "learn": "Zacznij od punktu 1 i połącz go z punktem 14, aby narysować solidną, centralną podporę, na której opiera się cała huśtawka. Linie te są krótkie i ukośne, co pozwala dzieciom poćwiczyć budowanie solidnej podstawy, zanim dodadzą cokolwiek na wierzchu.",
-            "fact": "Centralny punkt podparcia huśtawki nazywa się punktem podparcia – tym samym słowem, którego inżynierowie używają do określenia punktu obrotu każdej dźwigni. Huśtawka jest technicznie jedną z najprostszych maszyn: dźwignią balansującą na stałym punkcie."
+            "q": "Dla jakiego wieku jest łamigłówka łączenia kropek Plac zabaw z huśtawką?",
+            "a": "Jest przeznaczona dla wieku Wiek 5-9. Z 88 kropkami pasuje dzieciom, które pewnie liczą do 88; młodsze dzieci poradzą sobie z niewielką pomocą."
           },
           {
-            "range": "19–36",
-            "title": "Deska",
-            "learn": "Kontynuuj od punktu 15 do punktu 28, aby narysować długą deskę, która opiera się na punkcie podparcia. Dzieci ćwiczą rysowanie jednej ciągłej, lekko nachylonej linii – dobre przygotowanie do pewnej kontroli dłoni przy dłuższych pociągnięciach.",
-            "fact": "Starsze huśtawki często budowano z pojedynczej drewnianej deski, stąd też wzięła się nazwa — słowa „see” i „saw” nawiązują do ruchu posuwisto-zwrotnego, jaki wykonywały dwie osoby ciągnące starą piłę po kłodzie."
+            "q": "Jak wydrukować kartę pracy Plac zabaw z huśtawką?",
+            "a": "Kliknij przycisk pobierania, aby otrzymać darmowy PDF, a następnie wydrukuj go na zwykłym papierze (A4 lub US Letter) z dowolnej przeglądarki lub czytnika PDF. Nie potrzeba specjalnego oprogramowania."
           },
           {
-            "range": "37–54",
-            "title": "Uchwyty",
-            "learn": "Obrysuj kropki od 29 do 42, aby dodać uchwyty na obu końcach deski. W tej części dzieci pracują kolejno po obu stronach układanki, ćwicząc symetrię, budując pasujący kształt na każdym końcu.",
-            "fact": "Uchwyty nie zawsze były standardem w huśtawkach. Wczesne wersje huśtawek przeznaczone na place zabaw wymagały, aby użytkownicy chwytali samą deskę, co częściowo wyjaśnia, dlaczego współczesne normy bezpieczeństwa wymagają specjalnych uchwytów po obu stronach."
-          },
-          {
-            "range": "55–72",
-            "title": "Pierwszy Jeździec",
-            "learn": "Połącz kropki od 43 do 56, aby narysować dziecko siedzące na podwyższeniu huśtawki. To właśnie tutaj scena nabiera życia – przypomnij dzieciom, aby przed podniesieniem ołówka spojrzały w przyszłość na kolejną kropkę, aby rysunek wyszedł gładki.",
-            "fact": "Jazda na huśtawce to naprawdę przydatne ćwiczenie równowagi. Przenoszenie ciężaru ciała, aby utrzymać się w pozycji pionowej podczas wykonywania deski, aktywuje te same mięśnie korpusu i układ równowagi w uchu wewnętrznym, które są wykorzystywane w gimnastyce i tańcu."
-          },
-          {
-            "range": "73–88",
-            "title": "Drugi Jeździec i Ziemia",
-            "learn": "Zakończ, łącząc kropki od 57 do 68, aby narysować drugie dziecko na niższym końcu i ziemię pod huśtawką. Zostało tylko dwanaście kropek — staranne, pewne wykończenie dopełnia całą scenę.",
-            "fact": "Na niektórych nowoczesnych placach zabaw tradycyjną huśtawkę dla dwóch osób zastąpiono wersją z siedziskiem sprężynowym, pozwalającą jednemu dziecku kołysać się samemu, choć klasyczna, obrotowa huśtawka dla dwóch osób nadal jest najpopularniejszym projektem na świecie."
+            "q": "Czy karta do druku Plac zabaw z huśtawką jest naprawdę darmowa?",
+            "a": "Tak — jest w 100% darmowa, bez rejestracji, konta i opłat. Możesz ją drukować do domu lub do klasy."
           }
         ],
-        "outro": "Świetnie — Twoja huśtawka jest idealnie wyważona! Pokoloruj dwóch jeźdźców swoimi ulubionymi strojami lub dodaj plac zabaw pełen przyjaciół czekających na swoją kolej. Ciekawi Cię, co jest pod wodą zamiast słońca? Zanurz się w naszych <a href=\"/ocean/\">oceanicznych materiałach do druku</a>.",
-        "color_schemes": []
+        "dot_guide": {
+          "intro": "W huśtawce tkwi odrobina pracy zespołowej – działa tylko wtedy, gdy obaj jeźdźcy grają razem, odpychając się i wstając na zmianę. Ta łamigłówka z 68 punktami przedstawia równowagę od dołu do góry, najpierw deska, a jeźdźcy na końcu. To miły krok w górę od naszej najłatwiejszej planszy do zabawy, bez wchodzenia na poziom eksperta. Znajdź punkt 1 i pozwól nam utrzymać równowagę.",
+          "sections": [
+            {
+              "range": "1–18",
+              "title": "Punkt podparcia",
+              "learn": "Zacznij od punktu 1 i połącz go z punktem 14, aby narysować solidną, centralną podporę, na której opiera się cała huśtawka. Linie te są krótkie i ukośne, co pozwala dzieciom poćwiczyć budowanie solidnej podstawy, zanim dodadzą cokolwiek na wierzchu.",
+              "fact": "Centralny punkt podparcia huśtawki nazywa się punktem podparcia – tym samym słowem, którego inżynierowie używają do określenia punktu obrotu każdej dźwigni. Huśtawka jest technicznie jedną z najprostszych maszyn: dźwignią balansującą na stałym punkcie."
+            },
+            {
+              "range": "19–36",
+              "title": "Deska",
+              "learn": "Kontynuuj od punktu 15 do punktu 28, aby narysować długą deskę, która opiera się na punkcie podparcia. Dzieci ćwiczą rysowanie jednej ciągłej, lekko nachylonej linii – dobre przygotowanie do pewnej kontroli dłoni przy dłuższych pociągnięciach.",
+              "fact": "Starsze huśtawki często budowano z pojedynczej drewnianej deski, stąd też wzięła się nazwa — słowa „see” i „saw” nawiązują do ruchu posuwisto-zwrotnego, jaki wykonywały dwie osoby ciągnące starą piłę po kłodzie."
+            },
+            {
+              "range": "37–54",
+              "title": "Uchwyty",
+              "learn": "Obrysuj kropki od 29 do 42, aby dodać uchwyty na obu końcach deski. W tej części dzieci pracują kolejno po obu stronach układanki, ćwicząc symetrię, budując pasujący kształt na każdym końcu.",
+              "fact": "Uchwyty nie zawsze były standardem w huśtawkach. Wczesne wersje huśtawek przeznaczone na place zabaw wymagały, aby użytkownicy chwytali samą deskę, co częściowo wyjaśnia, dlaczego współczesne normy bezpieczeństwa wymagają specjalnych uchwytów po obu stronach."
+            },
+            {
+              "range": "55–72",
+              "title": "Pierwszy Jeździec",
+              "learn": "Połącz kropki od 43 do 56, aby narysować dziecko siedzące na podwyższeniu huśtawki. To właśnie tutaj scena nabiera życia – przypomnij dzieciom, aby przed podniesieniem ołówka spojrzały w przyszłość na kolejną kropkę, aby rysunek wyszedł gładki.",
+              "fact": "Jazda na huśtawce to naprawdę przydatne ćwiczenie równowagi. Przenoszenie ciężaru ciała, aby utrzymać się w pozycji pionowej podczas wykonywania deski, aktywuje te same mięśnie korpusu i układ równowagi w uchu wewnętrznym, które są wykorzystywane w gimnastyce i tańcu."
+            },
+            {
+              "range": "73–88",
+              "title": "Drugi Jeździec i Ziemia",
+              "learn": "Zakończ, łącząc kropki od 57 do 68, aby narysować drugie dziecko na niższym końcu i ziemię pod huśtawką. Zostało tylko dwanaście kropek — staranne, pewne wykończenie dopełnia całą scenę.",
+              "fact": "Na niektórych nowoczesnych placach zabaw tradycyjną huśtawkę dla dwóch osób zastąpiono wersją z siedziskiem sprężynowym, pozwalającą jednemu dziecku kołysać się samemu, choć klasyczna, obrotowa huśtawka dla dwóch osób nadal jest najpopularniejszym projektem na świecie."
+            }
+          ],
+          "outro": "Świetnie — Twoja huśtawka jest idealnie wyważona! Pokoloruj dwóch jeźdźców swoimi ulubionymi strojami lub dodaj plac zabaw pełen przyjaciół czekających na swoją kolej. Ciekawi Cię, co jest pod wodą zamiast słońca? Zanurz się w naszych <a href=\"/ocean/\">oceanicznych materiałach do druku</a>.",
+          "color_schemes": []
+        }
       }
-    }
-  },
-  {
-    "slug": "dashing-car-playground-dot-to-dot-puzzle",
-    "header": {
-      "title": "Kolejka Górska na Placu Zabaw – Najtrudniejsza Łamigłówka 133 Kropki",
-      "meta_description": "Wyścig od kropki 1 do 48 i odkryj radosny samochód na placu zabaw. Ten darmowy plik PDF do wydrukowania zamienia sekwencjonowanie liczb w szybki przejazd dla dzieci w wieku 4–8 lat.",
-      "og": {
+    },
+    {
+      "slug": "dashing-car-playground-dot-to-dot-puzzle",
+      "header": {
         "title": "Kolejka Górska na Placu Zabaw – Najtrudniejsza Łamigłówka 133 Kropki",
-        "description": "Wyścig od kropki 1 do 48 i odkryj radosny samochód na placu zabaw. Ten darmowy plik PDF do wydrukowania zamienia sekwencjonowanie liczb w szybki przejazd dla dzieci w wieku 4–8 lat.",
-        "image_alt": "Kolejka górska z pętlami na placu zabaw, złożona z 133 ponumerowanych kropek do połączenia"
+        "meta_description": "Wyścig od kropki 1 do 48 i odkryj radosny samochód na placu zabaw. Ten darmowy plik PDF do wydrukowania zamienia sekwencjonowanie liczb w szybki przejazd dla dzieci w wieku 4–8 lat.",
+        "og": {
+          "title": "Kolejka Górska na Placu Zabaw – Najtrudniejsza Łamigłówka 133 Kropki",
+          "description": "Wyścig od kropki 1 do 48 i odkryj radosny samochód na placu zabaw. Ten darmowy plik PDF do wydrukowania zamienia sekwencjonowanie liczb w szybki przejazd dla dzieci w wieku 4–8 lat.",
+          "image_alt": "Kolejka górska z pętlami na placu zabaw, złożona z 133 ponumerowanych kropek do połączenia"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Plac zabaw z kolejką górską",
+          "description": "Wyścig od kropki 1 do 48 i odkryj radosny samochód na placu zabaw. Ten darmowy plik PDF do wydrukowania zamienia sekwencjonowanie liczb w szybki przejazd dla dzieci w wieku 4–8 lat.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
       },
-      "json_ld": {
-        "type": "CreativeWork",
+      "body": {
+        "h1": "Zwinny samochód kropka do kropki, 48 szybkich kropek dla dzieci w wieku 4-8 lat",
         "name": "Plac zabaw z kolejką górską",
-        "description": "Wyścig od kropki 1 do 48 i odkryj radosny samochód na placu zabaw. Ten darmowy plik PDF do wydrukowania zamienia sekwencjonowanie liczb w szybki przejazd dla dzieci w wieku 4–8 lat.",
-        "image": "",
-        "educational_use": "Fine motor skills, number sequencing",
-        "age_range": ""
-      }
-    },
-    "body": {
-      "h1": "Zwinny samochód kropka do kropki, 48 szybkich kropek dla dzieci w wieku 4-8 lat",
-      "name": "Plac zabaw z kolejką górską",
-      "tagline": "Wspinaj się po torze, ścigaj skocznię!",
-      "description": "Połącz 48 łatwych kropek, aby odkryć szybki samochód gotowy do szaleństwa na placu zabaw. Ta darmowa łamigłówka do wydrukowania pomaga małym dzieciom ćwiczyć porządek liczb, kontrolę ołówka i koncentrację w zabawnym temacie pojazdów.",
-      "fun_fact": "Pierwsza pętlowa kolejka górska została otwarta w Paryżu w 1846 roku. Pasażerowie narzekali, że jazda nią boli ich kark, a inżynierowie potrzebowali prawie 50 lat, aby zaprojektować pętlę, która zapewniałaby płynną jazdę, a nie była męcząca.",
-      "dot_guide": {
-        "intro": "Sześć sekcji. Sto trzydzieści trzy kropki. To największa układanka placu zabaw w tym zestawie i wcale nie udaje, że jest inaczej – tor wspina się, opada, zatacza pętle i w końcu stacza się z powrotem na platformę, z której wystartował. Dzieci, które już skończyły huśtawkę, zjeżdżalnię lub drabinkę, rozpoznają ten format, ale sama długość zmienia charakter całości. Powolna, systematyczna praca ołówkiem wygrywa. Znajdź kropkę 1 u podstawy pierwszego wzniesienia i zbudujmy coś, o czym warto krzyczeć.",
-        "sections": [
+        "tagline": "Wspinaj się po torze, ścigaj skocznię!",
+        "description": "Połącz 48 łatwych kropek, aby odkryć szybki samochód gotowy do szaleństwa na placu zabaw. Ta darmowa łamigłówka do wydrukowania pomaga małym dzieciom ćwiczyć porządek liczb, kontrolę ołówka i koncentrację w zabawnym temacie pojazdów.",
+        "fun_fact": "Pierwsza pętlowa kolejka górska została otwarta w Paryżu w 1846 roku. Pasażerowie narzekali, że jazda nią boli ich kark, a inżynierowie potrzebowali prawie 50 lat, aby zaprojektować pętlę, która zapewniałaby płynną jazdę, a nie była męcząca.",
+        "faqs": [
           {
-            "range": "1–10",
-            "title": "Wzgórze Windy",
-            "learn": "Zacznij od punktu 1 i idź do punktu 22, aby narysować długi, stromy podjazd, który wciąga wagonik kolejki górskiej na najwyższy punkt. Linie te biegną po jednej, równej przekątnej, co czyni je dobrym ćwiczeniem do budowania rytmu, zanim układanka stanie się bardziej skomplikowana.",
-            "fact": "Większość kolejek górskich wykorzystuje podnośnik łańcuchowy do wciągania wagonika na pierwsze wzniesienie – zazwyczaj jest to jedyny element przejażdżki napędzany silnikiem. Wszystko, co dzieje się po dotarciu na szczyt wzniesienia, opiera się wyłącznie na grawitacji i pędzie."
+            "q": "Dla jakiego wieku jest łamigłówka łączenia kropek Plac zabaw z kolejką górską?",
+            "a": "Jest przeznaczona dla wieku Wiek 4-8. Z 48 kropkami pasuje dzieciom, które pewnie liczą do 48; młodsze dzieci poradzą sobie z niewielką pomocą."
           },
           {
-            "range": "11–20",
-            "title": "Pierwsza kropla",
-            "learn": "Kontynuuj od punktu 23 do punktu 44, aby nakreślić stromy spadek od szczytu. Kąt jest tu ostrzejszy niż gdziekolwiek indziej na kartce, więc zachęcaj do pewnej, zdecydowanej ręki, a nie do drżącej i niepewnej – szybki spadek wymaga szybkiej, pewnej linii.",
-            "fact": "Pierwszy spadek na kolejce górskiej jest prawie zawsze najwyższy i najbardziej stromy w całej kolejce. Projektanci kolejek celowo umieszczają go na początku, ponieważ to właśnie tam tor zazwyczaj osiąga maksymalną prędkość."
+            "q": "Jak wydrukować kartę pracy Plac zabaw z kolejką górską?",
+            "a": "Kliknij przycisk pobierania, aby otrzymać darmowy PDF, a następnie wydrukuj go na zwykłym papierze (A4 lub US Letter) z dowolnej przeglądarki lub czytnika PDF. Nie potrzeba specjalnego oprogramowania."
           },
           {
-            "range": "21–30",
-            "title": "Pętla",
-            "learn": "Po śladzie punktów od 45 do 66 zbuduj wielką pętlę w sercu trasy. Ten odcinek zakręca, co jest trudniejsze niż prosty podjazd lub zjazd – jedź powoli i sprawdź kolejny punkt, zanim podejmiesz się każdego zakrętu.",
-            "fact": "Wczesne kolejki górskie z pętlą miały idealnie okrągłą pętlę, a użytkownicy często narzekali na obciążenie karku spowodowane nagłą zmianą siły nacisku. Współczesne pętle mają kształt łzy, który jest znacznie łagodniejszy dla ciała przy tej samej prędkości."
-          },
-          {
-            "range": "31–40",
-            "title": "Wzgórza Camelback",
-            "learn": "Połącz kropki od 67 do 88, aby narysować mniejsze, faliste pagórki wzdłuż pętli. Te pagórki pojawiają się jeden po drugim w krótkich odstępach czasu, dając dzieciom możliwość ćwiczenia krótkich, kontrolowanych pociągnięć zamiast jednego długiego zamaszystego ruchu.",
-            "fact": "Te mniejsze wzniesienia są czasami nazywane „grzbietami wielbłąda”, ponieważ ich szereg przypomina garby wielbłąda. Jeźdźcy często czują krótkie uniesienie z siodła na szczycie każdego z nich – prawdziwy, choć krótki, moment nieważkości."
-          },
-          {
-            "range": "41–48",
-            "title": "Ostatni zakręt",
-            "learn": "Pracuj od punktu 89 do punktu 110, aby nadać kształt szerokiemu łukowi, który prowadzi tor z powrotem w kierunku stacji. Ten zakręt jest szeroki i stopniowy, co stanowi miłą odmianę po węższej pętli na początku układanki.",
-            "fact": "Projektanci kolejek górskich nazywają ten odcinek „powrotem”. Jest szeroki i nachylony, co umożliwia wagonikowi utrzymanie prędkości na zakręcie bez konieczności hamowania, a faktyczne hamowanie wykonuje się dopiero na samym końcu."
+            "q": "Czy karta do druku Plac zabaw z kolejką górską jest naprawdę darmowa?",
+            "a": "Tak — jest w 100% darmowa, bez rejestracji, konta i opłat. Możesz ją drukować do domu lub do klasy."
           }
         ],
-        "outro": "To cała jazda, od początku do końca! Pokoloruj tory w wyraziste, jaskrawe pętle i nadaj wagonikowi kolejki górskiej dowolny, szalony kolor. Jeśli 133 kropki były dla Ciebie ekscytujące i chcesz jeszcze większego wyzwania, sprawdź nasze <a href=\"/usa-250/\">ekstremalne materiały do ​​druku</a>.",
-        "color_schemes": []
+        "dot_guide": {
+          "intro": "Sześć sekcji. Sto trzydzieści trzy kropki. To największa układanka placu zabaw w tym zestawie i wcale nie udaje, że jest inaczej – tor wspina się, opada, zatacza pętle i w końcu stacza się z powrotem na platformę, z której wystartował. Dzieci, które już skończyły huśtawkę, zjeżdżalnię lub drabinkę, rozpoznają ten format, ale sama długość zmienia charakter całości. Powolna, systematyczna praca ołówkiem wygrywa. Znajdź kropkę 1 u podstawy pierwszego wzniesienia i zbudujmy coś, o czym warto krzyczeć.",
+          "sections": [
+            {
+              "range": "1–10",
+              "title": "Wzgórze Windy",
+              "learn": "Zacznij od punktu 1 i idź do punktu 22, aby narysować długi, stromy podjazd, który wciąga wagonik kolejki górskiej na najwyższy punkt. Linie te biegną po jednej, równej przekątnej, co czyni je dobrym ćwiczeniem do budowania rytmu, zanim układanka stanie się bardziej skomplikowana.",
+              "fact": "Większość kolejek górskich wykorzystuje podnośnik łańcuchowy do wciągania wagonika na pierwsze wzniesienie – zazwyczaj jest to jedyny element przejażdżki napędzany silnikiem. Wszystko, co dzieje się po dotarciu na szczyt wzniesienia, opiera się wyłącznie na grawitacji i pędzie."
+            },
+            {
+              "range": "11–20",
+              "title": "Pierwsza kropla",
+              "learn": "Kontynuuj od punktu 23 do punktu 44, aby nakreślić stromy spadek od szczytu. Kąt jest tu ostrzejszy niż gdziekolwiek indziej na kartce, więc zachęcaj do pewnej, zdecydowanej ręki, a nie do drżącej i niepewnej – szybki spadek wymaga szybkiej, pewnej linii.",
+              "fact": "Pierwszy spadek na kolejce górskiej jest prawie zawsze najwyższy i najbardziej stromy w całej kolejce. Projektanci kolejek celowo umieszczają go na początku, ponieważ to właśnie tam tor zazwyczaj osiąga maksymalną prędkość."
+            },
+            {
+              "range": "21–30",
+              "title": "Pętla",
+              "learn": "Po śladzie punktów od 45 do 66 zbuduj wielką pętlę w sercu trasy. Ten odcinek zakręca, co jest trudniejsze niż prosty podjazd lub zjazd – jedź powoli i sprawdź kolejny punkt, zanim podejmiesz się każdego zakrętu.",
+              "fact": "Wczesne kolejki górskie z pętlą miały idealnie okrągłą pętlę, a użytkownicy często narzekali na obciążenie karku spowodowane nagłą zmianą siły nacisku. Współczesne pętle mają kształt łzy, który jest znacznie łagodniejszy dla ciała przy tej samej prędkości."
+            },
+            {
+              "range": "31–40",
+              "title": "Wzgórza Camelback",
+              "learn": "Połącz kropki od 67 do 88, aby narysować mniejsze, faliste pagórki wzdłuż pętli. Te pagórki pojawiają się jeden po drugim w krótkich odstępach czasu, dając dzieciom możliwość ćwiczenia krótkich, kontrolowanych pociągnięć zamiast jednego długiego zamaszystego ruchu.",
+              "fact": "Te mniejsze wzniesienia są czasami nazywane „grzbietami wielbłąda”, ponieważ ich szereg przypomina garby wielbłąda. Jeźdźcy często czują krótkie uniesienie z siodła na szczycie każdego z nich – prawdziwy, choć krótki, moment nieważkości."
+            },
+            {
+              "range": "41–48",
+              "title": "Ostatni zakręt",
+              "learn": "Pracuj od punktu 89 do punktu 110, aby nadać kształt szerokiemu łukowi, który prowadzi tor z powrotem w kierunku stacji. Ten zakręt jest szeroki i stopniowy, co stanowi miłą odmianę po węższej pętli na początku układanki.",
+              "fact": "Projektanci kolejek górskich nazywają ten odcinek „powrotem”. Jest szeroki i nachylony, co umożliwia wagonikowi utrzymanie prędkości na zakręcie bez konieczności hamowania, a faktyczne hamowanie wykonuje się dopiero na samym końcu."
+            }
+          ],
+          "outro": "To cała jazda, od początku do końca! Pokoloruj tory w wyraziste, jaskrawe pętle i nadaj wagonikowi kolejki górskiej dowolny, szalony kolor. Jeśli 133 kropki były dla Ciebie ekscytujące i chcesz jeszcze większego wyzwania, sprawdź nasze <a href=\"/usa-250/\">ekstremalne materiały do ​​druku</a>.",
+          "color_schemes": []
+        }
       }
-    }
-  },
-  {
-    "slug": "swing-playgrounds-dot-to-dot-puzzle",
-    "header": {
-      "title": "Huśtawka Połącz Kropki — Najłatwiejszy 42-kropkowy PDF placu zabaw",
-      "meta_description": "Dzieci cieszyły się huśtawkami linowymi przez tysiące lat. Uzupełnij ten znany projekt placu zabaw w 42 kropkach za pomocą darmowego pliku PDF dla dzieci w wieku 4–7 lat.",
-      "og": {
+    },
+    {
+      "slug": "swing-playgrounds-dot-to-dot-puzzle",
+      "header": {
         "title": "Huśtawka Połącz Kropki — Najłatwiejszy 42-kropkowy PDF placu zabaw",
-        "description": "Dzieci cieszyły się huśtawkami linowymi przez tysiące lat. Uzupełnij ten znany projekt placu zabaw w 42 kropkach za pomocą darmowego pliku PDF dla dzieci w wieku 4–7 lat.",
-        "image_alt": "Zestaw huśtawek na placu zabaw zawieszony razem z 42 łatwymi do wydrukowania kropkami"
+        "meta_description": "Dzieci cieszyły się huśtawkami linowymi przez tysiące lat. Uzupełnij ten znany projekt placu zabaw w 42 kropkach za pomocą darmowego pliku PDF dla dzieci w wieku 4–7 lat.",
+        "og": {
+          "title": "Huśtawka Połącz Kropki — Najłatwiejszy 42-kropkowy PDF placu zabaw",
+          "description": "Dzieci cieszyły się huśtawkami linowymi przez tysiące lat. Uzupełnij ten znany projekt placu zabaw w 42 kropkach za pomocą darmowego pliku PDF dla dzieci w wieku 4–7 lat.",
+          "image_alt": "Zestaw huśtawek na placu zabaw zawieszony razem z 42 łatwymi do wydrukowania kropkami"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Huśtawka na placu zabaw",
+          "description": "Dzieci cieszyły się huśtawkami linowymi przez tysiące lat. Uzupełnij ten znany projekt placu zabaw w 42 kropkach za pomocą darmowego pliku PDF dla dzieci w wieku 4–7 lat.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
       },
-      "json_ld": {
-        "type": "CreativeWork",
+      "body": {
+        "h1": "Huśtawka Połącz Kropki — Najłatwiejszy 42-kropkowy PDF placu zabaw",
         "name": "Huśtawka na placu zabaw",
-        "description": "Dzieci cieszyły się huśtawkami linowymi przez tysiące lat. Uzupełnij ten znany projekt placu zabaw w 42 kropkach za pomocą darmowego pliku PDF dla dzieci w wieku 4–7 lat.",
-        "image": "",
-        "educational_use": "Fine motor skills, number sequencing",
-        "age_range": ""
-      }
-    },
-    "body": {
-      "h1": "Huśtawka Połącz Kropki — Najłatwiejszy 42-kropkowy PDF placu zabaw",
-      "name": "Huśtawka na placu zabaw",
-      "tagline": "Huśtawki, zjeżdżalnie i zabawa na świeżym powietrzu!",
-      "description": "Połącz 42 łatwe kropki, aby ujawnić wesołą scenę na placu zabaw z huśtawkami! Ta układanka do wydrukowania jest idealna dla przedszkolaków i dzieci w wieku przedszkolnym, które ćwiczą sekwencjonowanie liczb, celebrując radość z zabawy na świeżym powietrzu.",
-      "fun_fact": "Huśtawki to jeden z najstarszych wynalazków na placu zabaw — dzieci huśtały się na huśtawkach linowych przez tysiące lat!",
-      "dot_guide": {
-        "intro": "Połącz 94 kropki, aby odkryć zabawny zestaw drabinek. Ta łamigłówka dla średnio zaawansowanych to świetne wyzwanie dla dzieci ćwiczących sekwencję liczb, panowanie nad ołówkiem i cierpliwość. Drążki stały się popularnym wyposażeniem placów zabaw na początku XX wieku i pomagają dzieciom ćwiczyć siłę chwytu, równowagę i koordynację górnych partii ciała.",
-        "sections": [
+        "tagline": "Huśtawki, zjeżdżalnie i zabawa na świeżym powietrzu!",
+        "description": "Połącz 42 łatwe kropki, aby ujawnić wesołą scenę na placu zabaw z huśtawkami! Ta układanka do wydrukowania jest idealna dla przedszkolaków i dzieci w wieku przedszkolnym, które ćwiczą sekwencjonowanie liczb, celebrując radość z zabawy na świeżym powietrzu.",
+        "fun_fact": "Huśtawki to jeden z najstarszych wynalazków na placu zabaw — dzieci huśtały się na huśtawkach linowych przez tysiące lat!",
+        "faqs": [
           {
-            "range": "1–8",
-            "title": "Rama podtrzymująca",
-            "learn": "Starannie połącz punkty 1–18, aby narysować część „Rama podtrzymująca”. Sprawdź każdy numer przed narysowaniem następnej linii.",
-            "fact": "Drążki stały się popularnym wyposażeniem placów zabaw na początku XX wieku i pomagają dzieciom ćwiczyć siłę chwytu, równowagę i koordynację górnych partii ciała."
+            "q": "Ile kropek ma układanka łącząca kropki Swing Playground?",
+            "a": "Zestaw do łączenia kropek „Plac zabaw huśtawki” do wydrukowania zawiera 42 ponumerowane kropki. To sprawia, że ​​jest to układanka o łatwym lub średnim stopniu trudności, najlepiej odpowiednia dla dzieci w wieku 5–8 lat (od przedszkola do drugiej klasy). Dzieci łączą kropki w kolejności numerycznej, aby odsłonić gotowy obrazek placu zabaw huśtawki, a następnie go kolorują."
           },
           {
-            "range": "9–18",
-            "title": "Górny drążek",
-            "learn": "Starannie połącz punkty 19–38, aby narysować część „Górny drążek”. Sprawdź każdy numer przed narysowaniem następnej linii.",
-            "fact": "Połącz 94 kropki, aby odkryć zabawny zestaw drabinek. Ta łamigłówka dla średnio zaawansowanych to świetne wyzwanie dla dzieci ćwiczących sekwencję liczb, panowanie nad ołówkiem i cierpliwość."
+            "q": "Czy grę Swing Playground można wydrukować za darmo, łącząc kropki?",
+            "a": "Tak. Arkusz ćwiczeń „Plac zabaw” jest w 100% darmowy do pobrania ze strony DotToDotFreePrintables.com — bez konieczności zakładania konta, zakładania adresu e-mail ani dokonywania płatności. Pobiera się natychmiast w formacie PDF gotowym do druku, zarówno w orientacji pionowej, jak i poziomej, w formacie US Letter lub A4."
           },
           {
-            "range": "19–28",
-            "title": "Szczeble",
-            "learn": "Starannie połącz punkty 39–58, aby narysować część „Szczeble”. Sprawdź każdy numer przed narysowaniem następnej linii.",
-            "fact": "Połącz 94 kropki, aby odkryć zabawny zestaw drabinek linarek na placu zabaw. Ta karta pracy o średnim poziomie trudności ćwiczy sekwencję liczb, panowanie nad ołówkiem i cierpliwość u dzieci 6–9 lat, do druku za darmo w 2026 roku."
+            "q": "Dla dzieci w jakim wieku najlepsza jest karta pracy „Połącz kropki” Swing Playground?",
+            "a": "Z 42 punktami, układanka Swing Playground najlepiej sprawdza się w wieku 5–8 lat (od przedszkola do drugiej klasy). Młodsze dzieci mogą się nią cieszyć z lekką pomocą osoby dorosłej, a doświadczone liczmany mogą ją rozwiązywać samodzielnie i ćwiczyć sekwencję liczb do 42."
           },
           {
-            "range": "29–36",
-            "title": "Wspinające się dziecko",
-            "learn": "Starannie połącz punkty 59–76, aby narysować część „Wspinające się dziecko”. Sprawdź każdy numer przed narysowaniem następnej linii.",
-            "fact": "Drążki stały się popularnym wyposażeniem placów zabaw na początku XX wieku i pomagają dzieciom ćwiczyć siłę chwytu, równowagę i koordynację górnych partii ciała."
+            "q": "Jakich umiejętności uczy układanka łącząca kropki Swing Playground?",
+            "a": "Łączenie 42 kropek w układance Swing Playground rozwija umiejętności rozpoznawania liczb i liczenia do 42, panowania nad ołówkiem, koordynacji wzrokowo-ruchowej i skupienia uwagi – te same podstawy motoryki małej, które wspierają wczesne pisanie odręczne. Pokolorowanie gotowego obrazka to nagroda za kreatywność."
           },
           {
-            "range": "37–42",
-            "title": "Podłoże i miejsce lądowania",
-            "learn": "Starannie połącz punkty 77–94, aby narysować część „Podłoże i miejsce lądowania”. Sprawdź każdy numer przed narysowaniem następnej linii.",
-            "fact": "Huśtaj się, wspinaj i dotrzyj na drugą stronę!"
+            "q": "Jaka jest ciekawostka na temat placu zabaw z huśtawkami?",
+            "a": "Huśtawki to jeden z najstarszych wynalazków na placach zabaw – dzieci huśtają się na huśtawkach linowych od tysięcy lat! Dzieci odkrywają takie ciekawostki, rozwiązując łamigłówkę „Swing Playground”."
           }
         ],
-        "outro": "Huśtaj się, wspinaj i dotrzyj na drugą stronę! <a href=\"/playgrounds/\">Plac zabaw Monkey Bars</a>",
-        "color_schemes": []
+        "dot_guide": {
+          "intro": "Połącz 94 kropki, aby odkryć zabawny zestaw drabinek. Ta łamigłówka dla średnio zaawansowanych to świetne wyzwanie dla dzieci ćwiczących sekwencję liczb, panowanie nad ołówkiem i cierpliwość. Drążki stały się popularnym wyposażeniem placów zabaw na początku XX wieku i pomagają dzieciom ćwiczyć siłę chwytu, równowagę i koordynację górnych partii ciała.",
+          "sections": [
+            {
+              "range": "1–8",
+              "title": "Rama podtrzymująca",
+              "learn": "Starannie połącz punkty 1–18, aby narysować część „Rama podtrzymująca”. Sprawdź każdy numer przed narysowaniem następnej linii.",
+              "fact": "Drążki stały się popularnym wyposażeniem placów zabaw na początku XX wieku i pomagają dzieciom ćwiczyć siłę chwytu, równowagę i koordynację górnych partii ciała."
+            },
+            {
+              "range": "9–18",
+              "title": "Górny drążek",
+              "learn": "Starannie połącz punkty 19–38, aby narysować część „Górny drążek”. Sprawdź każdy numer przed narysowaniem następnej linii.",
+              "fact": "Połącz 94 kropki, aby odkryć zabawny zestaw drabinek. Ta łamigłówka dla średnio zaawansowanych to świetne wyzwanie dla dzieci ćwiczących sekwencję liczb, panowanie nad ołówkiem i cierpliwość."
+            },
+            {
+              "range": "19–28",
+              "title": "Szczeble",
+              "learn": "Starannie połącz punkty 39–58, aby narysować część „Szczeble”. Sprawdź każdy numer przed narysowaniem następnej linii.",
+              "fact": "Połącz 94 kropki, aby odkryć zabawny zestaw drabinek linarek na placu zabaw. Ta karta pracy o średnim poziomie trudności ćwiczy sekwencję liczb, panowanie nad ołówkiem i cierpliwość u dzieci 6–9 lat, do druku za darmo w 2026 roku."
+            },
+            {
+              "range": "29–36",
+              "title": "Wspinające się dziecko",
+              "learn": "Starannie połącz punkty 59–76, aby narysować część „Wspinające się dziecko”. Sprawdź każdy numer przed narysowaniem następnej linii.",
+              "fact": "Drążki stały się popularnym wyposażeniem placów zabaw na początku XX wieku i pomagają dzieciom ćwiczyć siłę chwytu, równowagę i koordynację górnych partii ciała."
+            },
+            {
+              "range": "37–42",
+              "title": "Podłoże i miejsce lądowania",
+              "learn": "Starannie połącz punkty 77–94, aby narysować część „Podłoże i miejsce lądowania”. Sprawdź każdy numer przed narysowaniem następnej linii.",
+              "fact": "Huśtaj się, wspinaj i dotrzyj na drugą stronę!"
+            }
+          ],
+          "outro": "Huśtaj się, wspinaj i dotrzyj na drugą stronę! <a href=\"/playgrounds/\">Plac zabaw Monkey Bars</a>",
+          "color_schemes": []
+        }
       }
-    }
-  },
-  {
-    "slug": "slide-playgrounds-dot-to-dot-puzzle",
-    "header": {
-      "title": "Kolorowy Konik na Karuzeli — Magiczna Karta z 88 Kropkami do Łączenia",
-      "meta_description": "Podążaj za płynną grzywą i ozdobnym siodłem karuzelowego konika przez 88 kropek. Wydrukuj tę wesołomiasteczkową łamigłówkę za darmo dla dzieci w wieku 5–9 lat.",
-      "og": {
+    },
+    {
+      "slug": "slide-playgrounds-dot-to-dot-puzzle",
+      "header": {
         "title": "Kolorowy Konik na Karuzeli — Magiczna Karta z 88 Kropkami do Łączenia",
-        "description": "Podążaj za płynną grzywą i ozdobnym siodłem karuzelowego konika przez 88 kropek. Wydrukuj tę wesołomiasteczkową łamigłówkę za darmo dla dzieci w wieku 5–9 lat.",
-        "image_alt": "Dekoracyjny koń karuzelowy z rozwianą grzywą stworzony z 88 drukowalnych kropek"
+        "meta_description": "Podążaj za płynną grzywą i ozdobnym siodłem karuzelowego konika przez 88 kropek. Wydrukuj tę wesołomiasteczkową łamigłówkę za darmo dla dzieci w wieku 5–9 lat.",
+        "og": {
+          "title": "Kolorowy Konik na Karuzeli — Magiczna Karta z 88 Kropkami do Łączenia",
+          "description": "Podążaj za płynną grzywą i ozdobnym siodłem karuzelowego konika przez 88 kropek. Wydrukuj tę wesołomiasteczkową łamigłówkę za darmo dla dzieci w wieku 5–9 lat.",
+          "image_alt": "Dekoracyjny koń karuzelowy z rozwianą grzywą stworzony z 88 drukowalnych kropek"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Plac Zabaw z Konikami na Karuzeli",
+          "description": "Podążaj za płynną grzywą i ozdobnym siodłem karuzelowego konika przez 88 kropek. Wydrukuj tę wesołomiasteczkową łamigłówkę za darmo dla dzieci w wieku 5–9 lat.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
       },
-      "json_ld": {
-        "type": "CreativeWork",
+      "body": {
+        "h1": "Karykola Konik Łączenie Kropek — Magiczna Karta z 88 Kropkami",
         "name": "Plac Zabaw z Konikami na Karuzeli",
-        "description": "Podążaj za płynną grzywą i ozdobnym siodłem karuzelowego konika przez 88 kropek. Wydrukuj tę wesołomiasteczkową łamigłówkę za darmo dla dzieci w wieku 5–9 lat.",
-        "image": "",
-        "educational_use": "Fine motor skills, number sequencing",
-        "age_range": ""
-      }
-    },
-    "body": {
-      "h1": "Karykola Konik Łączenie Kropek — Magiczna Karta z 88 Kropkami",
-      "name": "Plac Zabaw z Konikami na Karuzeli",
-      "tagline": "Galopuj wokół Karuzeli!",
-      "description": "Połącz 88 kropek, aby odkryć eleganckiego konia karuzelowego gotowego do magicznej przejażdżki. Ta średniozaawansowana łamigłówka do wydruku daje dzieciom wciągający sposób na ćwiczenie sekwencji liczb, koncentracji i precyzyjnej kontroli ołówka.",
-      "fun_fact": "Najwyższa stała zjeżdżalnia na placu zabaw na świecie ma ponad 30 metrów wysokości — mniej więcej tyle, co dziesięciopiętrowy budynek!",
-      "dot_guide": {
-        "intro": "Konie na karuzeli zamieniają zwykłą przejażdżkę w galopującą przygodę. Z ozdobnym siodłem, płynną grzywą i dumną postawą, każdy koń wygląda, jakby gotowy był zeskoczyć z platformy i pognać przed siebie. Ta układanka z 88 kropkami stanowi satysfakcjonujące wyzwanie dla dzieci, które pewnie podążają za dłuższymi sekwencjami numerów. Znajdź kropkę 1, ustal ołówek i pozwól, by karuzela zaczęła się kręcić!",
-        "sections": [
+        "tagline": "Galopuj wokół Karuzeli!",
+        "description": "Połącz 88 kropek, aby odkryć eleganckiego konia karuzelowego gotowego do magicznej przejażdżki. Ta średniozaawansowana łamigłówka do wydruku daje dzieciom wciągający sposób na ćwiczenie sekwencji liczb, koncentracji i precyzyjnej kontroli ołówka.",
+        "fun_fact": "Najwyższa stała zjeżdżalnia na placu zabaw na świecie ma ponad 30 metrów wysokości — mniej więcej tyle, co dziesięciopiętrowy budynek!",
+        "faqs": [
           {
-            "range": "1–20",
-            "title": "Końska Głowa",
-            "learn": "Zacznij od kropki 1 i połącz przez kropkę 18, aby stworzyć kształt końskiej głowy, pyska i czujnych uszu. Ta część łączy krótkie kąty z łagodnymi krzywiznami, pomagając dzieciom zwolnić, patrzeć przed siebie i ostrożnie prowadzić ołówek wokół szczegółowych elementów.",
-            "fact": "Artyści tworzący karuzele często nadają każdemu koniowi inny wyraz. Niektóre wyglądają spokojnie i przyjaźnie, podczas gdy inne mają uniesione głowy i szeroko otwarte oczy, aby sprawiać wrażenie, jakby brały udział w wyścigu."
+            "q": "Ile kropek ma układanka „Połącz kropki” Slide Playground?",
+            "a": "Gra „Połącz kropki” do wydrukowania „Zjeżdżalnia na placu zabaw” składa się ze 102 ponumerowanych kropek. To sprawia, że ​​jest to wymagająca łamigłówka, idealna dla dzieci w wieku 7–12 lat (od 2. klasy). Dzieci łączą kropki w kolejności numerycznej, aby odsłonić gotowy obrazek zjeżdżalni na placu zabaw, a następnie go kolorują."
           },
           {
-            "range": "21–40",
-            "title": "Płynna Grzywa i Szyja",
-            "learn": "Kontynuuj od kropki 19 do kropki 36, aby narysować zakrzywioną szyję i płynącą grzywę. Zmieniający się kierunek grzywy zapewnia dobre ćwiczenie w rysowaniu gładkich, kontrolowanych krzywizn, jednocześnie sprawiając, że koń wygląda, jakby poruszał się na wietrze.",
-            "fact": "Wiele zabytkowych koni z karuzeli było ręcznie rzeźbionych z kilku kawałków drewna. Utalentowani artyści dodawali głębokie rowki do grzywy, aby łapała światło i sprawiała wrażenie falowania, gdy karuzela się obracała."
+            "q": "Czy grę Slide Playground można wydrukować za darmo, łącząc kropki?",
+            "a": "Tak. Arkusz ćwiczeń Slide Playground można pobrać w 100% za darmo ze strony DotToDotFreePrintables.com — bez konieczności zakładania konta, zakładania adresu e-mail ani dokonywania płatności. Pobiera się natychmiast w formacie PDF gotowym do druku, zarówno w orientacji pionowej, jak i poziomej, w formacie US Letter lub A4."
           },
           {
-            "range": "41–60",
-            "title": "Siodło i Korpus",
-            "learn": "Połącz kropki od 37 do 54, aby zbudować mocne ciało konia i ozdobne siodło. Dzieci przechodzą między dłuższymi liniami ciała a mniejszymi kształtami dekoracyjnymi, ćwicząc zarówno płynne pociągnięcia, jak i skupienie na szczegółach.",
-            "fact": "Najbardziej zdobiona strona konia karuzelowego zwykle jest skierowana na zewnątrz, gdzie mogą ją zobaczyć jeźdźcy i widzowie. Rzeźbiarze nazywają tę stronę romantyczną i często pokrywają ją kwiatami, wstążkami, klejnotami lub tarczami."
+            "q": "Dla dzieci w jakim wieku najlepsza jest karta pracy „Połącz kropki” Slide Playground?",
+            "a": "Puzzle Slide Playground, składające się ze 102 punktów, najlepiej sprawdzają się u dzieci w wieku 7–12 lat (od 2. klasy wzwyż). Młodsze dzieci mogą się nimi cieszyć z lekką pomocą dorosłych, a doświadczone liczmany mogą je rozwiązywać samodzielnie i ćwiczyć sekwencję liczb do 102."
           },
           {
-            "range": "61–85",
-            "title": "Galopujące Nogi",
-            "learn": "Połącz kropki od 55 do 72, aby narysować uniesione i rozciągnięte nogi. Te ukośne linie tworzą wrażenie zamrożonego galopu. Zachęć dzieci, aby sprawdzały każdy kolejny numer przed rysowaniem, aby nogi pozostały oddzielone i łatwe do rozpoznania.",
-            "fact": "Konie na karuzeli, które poruszają się w górę i w dół, nazywane są skoczkami, natomiast konie nieruchome są czasem nazywane stójkami. Ruch w górę pomaga jeźdźcom wyobrazić sobie, że ich koń naprawdę galopuje."
+            "q": "Jakich umiejętności uczy układanka łącząca kropki Slide Playground?",
+            "a": "Połączenie 102 punktów układanki Slide Playground rozwija umiejętności rozpoznawania liczb i liczenia do 102, panowania nad ołówkiem, koordynacji wzrokowo-ruchowej i skupienia uwagi – te same podstawy motoryki małej, które wspierają wczesne pisanie odręczne. Pokolorowanie gotowego obrazka to nagroda za kreatywność."
           },
           {
-            "range": "86–102",
-            "title": "Ogon i Wykończenie Szczegółów",
-            "learn": "Zakończ kropkami od 73 do 88, aby dodać efektowny ogon i końcowe dekoracyjne detale. Szesnaście starannych połączeń dopełnia obraz, nagradzając dzieci za utrzymanie koncentracji przez całą długą układankę.",
-            "fact": "Karuzele są również nazywane karuzelami łańcuchowymi. Wczesne wersje były inspirowane grami treningowymi na koniach, ale z czasem stały się kolorowymi atrakcjami, z których korzystają rodziny na całym świecie."
+            "q": "Jaka jest ciekawostka na temat placu zabaw ze zjeżdżalnią?",
+            "a": "Najwyższa na świecie stała zjeżdżalnia na placu zabaw ma ponad 30 metrów – mniej więcej tyle, co dziesięciopiętrowy budynek! Dzieci odkrywają takie ciekawostki, rozwiązując łamigłówkę „Slide Playground”."
           }
         ],
-        "outro": "Wspaniała praca — Twój koń na karuzeli jest gotowy do jazdy! Pokoloruj siodło jaskrawymi karnawałowymi barwami, dodaj wstążki lub lśniące klejnoty i zaprojektuj wokół niego karuzelę. Aby podjąć kolejne zabawne wyzwanie, odkryj więcej <a href=\"/playgrounds/\">kolorowanek z kropkami do łączenia na placu zabaw</a>.",
-        "color_schemes": []
+        "dot_guide": {
+          "intro": "Konie na karuzeli zamieniają zwykłą przejażdżkę w galopującą przygodę. Z ozdobnym siodłem, płynną grzywą i dumną postawą, każdy koń wygląda, jakby gotowy był zeskoczyć z platformy i pognać przed siebie. Ta układanka z 88 kropkami stanowi satysfakcjonujące wyzwanie dla dzieci, które pewnie podążają za dłuższymi sekwencjami numerów. Znajdź kropkę 1, ustal ołówek i pozwól, by karuzela zaczęła się kręcić!",
+          "sections": [
+            {
+              "range": "1–20",
+              "title": "Końska Głowa",
+              "learn": "Zacznij od kropki 1 i połącz przez kropkę 18, aby stworzyć kształt końskiej głowy, pyska i czujnych uszu. Ta część łączy krótkie kąty z łagodnymi krzywiznami, pomagając dzieciom zwolnić, patrzeć przed siebie i ostrożnie prowadzić ołówek wokół szczegółowych elementów.",
+              "fact": "Artyści tworzący karuzele często nadają każdemu koniowi inny wyraz. Niektóre wyglądają spokojnie i przyjaźnie, podczas gdy inne mają uniesione głowy i szeroko otwarte oczy, aby sprawiać wrażenie, jakby brały udział w wyścigu."
+            },
+            {
+              "range": "21–40",
+              "title": "Płynna Grzywa i Szyja",
+              "learn": "Kontynuuj od kropki 19 do kropki 36, aby narysować zakrzywioną szyję i płynącą grzywę. Zmieniający się kierunek grzywy zapewnia dobre ćwiczenie w rysowaniu gładkich, kontrolowanych krzywizn, jednocześnie sprawiając, że koń wygląda, jakby poruszał się na wietrze.",
+              "fact": "Wiele zabytkowych koni z karuzeli było ręcznie rzeźbionych z kilku kawałków drewna. Utalentowani artyści dodawali głębokie rowki do grzywy, aby łapała światło i sprawiała wrażenie falowania, gdy karuzela się obracała."
+            },
+            {
+              "range": "41–60",
+              "title": "Siodło i Korpus",
+              "learn": "Połącz kropki od 37 do 54, aby zbudować mocne ciało konia i ozdobne siodło. Dzieci przechodzą między dłuższymi liniami ciała a mniejszymi kształtami dekoracyjnymi, ćwicząc zarówno płynne pociągnięcia, jak i skupienie na szczegółach.",
+              "fact": "Najbardziej zdobiona strona konia karuzelowego zwykle jest skierowana na zewnątrz, gdzie mogą ją zobaczyć jeźdźcy i widzowie. Rzeźbiarze nazywają tę stronę romantyczną i często pokrywają ją kwiatami, wstążkami, klejnotami lub tarczami."
+            },
+            {
+              "range": "61–85",
+              "title": "Galopujące Nogi",
+              "learn": "Połącz kropki od 55 do 72, aby narysować uniesione i rozciągnięte nogi. Te ukośne linie tworzą wrażenie zamrożonego galopu. Zachęć dzieci, aby sprawdzały każdy kolejny numer przed rysowaniem, aby nogi pozostały oddzielone i łatwe do rozpoznania.",
+              "fact": "Konie na karuzeli, które poruszają się w górę i w dół, nazywane są skoczkami, natomiast konie nieruchome są czasem nazywane stójkami. Ruch w górę pomaga jeźdźcom wyobrazić sobie, że ich koń naprawdę galopuje."
+            },
+            {
+              "range": "86–102",
+              "title": "Ogon i Wykończenie Szczegółów",
+              "learn": "Zakończ kropkami od 73 do 88, aby dodać efektowny ogon i końcowe dekoracyjne detale. Szesnaście starannych połączeń dopełnia obraz, nagradzając dzieci za utrzymanie koncentracji przez całą długą układankę.",
+              "fact": "Karuzele są również nazywane karuzelami łańcuchowymi. Wczesne wersje były inspirowane grami treningowymi na koniach, ale z czasem stały się kolorowymi atrakcjami, z których korzystają rodziny na całym świecie."
+            }
+          ],
+          "outro": "Wspaniała praca — Twój koń na karuzeli jest gotowy do jazdy! Pokoloruj siodło jaskrawymi karnawałowymi barwami, dodaj wstążki lub lśniące klejnoty i zaprojektuj wokół niego karuzelę. Aby podjąć kolejne zabawne wyzwanie, odkryj więcej <a href=\"/playgrounds/\">kolorowanek z kropkami do łączenia na placu zabaw</a>.",
+          "color_schemes": []
+        }
       }
-    }
-  },
-  {
-    "slug": "seesaw-playground-dot-to-dot-puzzle",
-    "header": {
-      "title": "Wiosenny Koń Łączenie Kropek — Arkusz Zabawy z 53 Kropkami",
-      "meta_description": "Zmieniający się ciężar dziecka wprawia bujaka w ruch. Zbuduj tego konika zabawkowego, łącząc 53 kropki, korzystając z darmowego pliku PDF do wydrukowania dla dzieci w wieku 4–8 lat.",
-      "og": {
+    },
+    {
+      "slug": "seesaw-playground-dot-to-dot-puzzle",
+      "header": {
         "title": "Wiosenny Koń Łączenie Kropek — Arkusz Zabawy z 53 Kropkami",
-        "description": "Zmieniający się ciężar dziecka wprawia bujaka w ruch. Zbuduj tego konika zabawkowego, łącząc 53 kropki, korzystając z darmowego pliku PDF do wydrukowania dla dzieci w wieku 4–8 lat.",
-        "image_alt": "Jeździec na sprężynowym koniu z placu zabaw odbijający się do kształtu z 53 drukowalnych kropek"
+        "meta_description": "Zmieniający się ciężar dziecka wprawia bujaka w ruch. Zbuduj tego konika zabawkowego, łącząc 53 kropki, korzystając z darmowego pliku PDF do wydrukowania dla dzieci w wieku 4–8 lat.",
+        "og": {
+          "title": "Wiosenny Koń Łączenie Kropek — Arkusz Zabawy z 53 Kropkami",
+          "description": "Zmieniający się ciężar dziecka wprawia bujaka w ruch. Zbuduj tego konika zabawkowego, łącząc 53 kropki, korzystając z darmowego pliku PDF do wydrukowania dla dzieci w wieku 4–8 lat.",
+          "image_alt": "Jeździec na sprężynowym koniu z placu zabaw odbijający się do kształtu z 53 drukowalnych kropek"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Wiosenny Koń",
+          "description": "Zmieniający się ciężar dziecka wprawia bujaka w ruch. Zbuduj tego konika zabawkowego, łącząc 53 kropki, korzystając z darmowego pliku PDF do wydrukowania dla dzieci w wieku 4–8 lat.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
       },
-      "json_ld": {
-        "type": "CreativeWork",
+      "body": {
+        "h1": "Wiosenny Koń Łączenie Kropek — Arkusz z 53 Punktami na Placu Zabaw",
         "name": "Wiosenny Koń",
-        "description": "Zmieniający się ciężar dziecka wprawia bujaka w ruch. Zbuduj tego konika zabawkowego, łącząc 53 kropki, korzystając z darmowego pliku PDF do wydrukowania dla dzieci w wieku 4–8 lat.",
-        "image": "",
-        "educational_use": "Fine motor skills, number sequencing",
-        "age_range": ""
-      }
-    },
-    "body": {
-      "h1": "Wiosenny Koń Łączenie Kropek — Arkusz z 53 Punktami na Placu Zabaw",
-      "name": "Wiosenny Koń",
-      "tagline": "Kołysz się i galopuj na huśtawce konik!",
-      "description": "Połącz 68 kropek, aby odkryć dwóch przyjaciół balansujących na klasycznej huśtawce na placu zabaw. Z liczbą kropek pomiędzy naszymi najłatwiejszymi a najtrudniejszymi łamigłówkami na placu zabaw, ta jest solidnym krokiem w środku dla dzieci budujących pewność siebie w sekwencjonowaniu liczb.",
-      "fun_fact": "Wiosłujące koniki kołyszą się tam i z powrotem na ciężkiej sprężynie śrubowej, pozwalając dzieciom wprawiać je w ruch poprzez przenoszenie własnego ciężaru.",
-      "dot_guide": {
-        "intro": "Ta przyjazna łamigłówka z 53 punktami tworzy konika na sprężynie placu zabaw, od głowy i tułowia aż po mocną sprężynę i podstawę. Cztery krótkie etapy sprawiają, że jest przystępna dla młodych fanów łączenia kropek.",
-        "sections": [
+        "tagline": "Kołysz się i galopuj na huśtawce konik!",
+        "description": "Połącz 68 kropek, aby odkryć dwóch przyjaciół balansujących na klasycznej huśtawce na placu zabaw. Z liczbą kropek pomiędzy naszymi najłatwiejszymi a najtrudniejszymi łamigłówkami na placu zabaw, ta jest solidnym krokiem w środku dla dzieci budujących pewność siebie w sekwencjonowaniu liczb.",
+        "fun_fact": "Wiosłujące koniki kołyszą się tam i z powrotem na ciężkiej sprężynie śrubowej, pozwalając dzieciom wprawiać je w ruch poprzez przenoszenie własnego ciężaru.",
+        "faqs": [
           {
-            "range": "1–14",
-            "title": "Głowa Konia",
-            "learn": "Połącz kropki od 1 do 13, aby stworzyć kształt głowy konia, uszu i radosnej mordki.",
-            "fact": "Huśtawki sprężynowe na placach zabaw występują w wielu kształtach, w tym koni, motocykli, wielorybów i fantastycznych stworzeń."
+            "q": "Ile kropek ma układanka łącząca kropki Seesaw Playground?",
+            "a": "Zestaw do łączenia kropek „Plac zabaw z huśtawką” do wydrukowania zawiera 68 ponumerowanych kropek. To sprawia, że ​​jest to układanka o średnim stopniu trudności, idealna dla dzieci w wieku 5–8 lat (od przedszkola do drugiej klasy). Dzieci łączą kropki w kolejności numerycznej, aby odsłonić gotowy obrazek placu zabaw z huśtawką, a następnie go kolorują."
           },
           {
-            "range": "15–28",
-            "title": "Korpus i Siedzenie",
-            "learn": "Kontynuuj od kropki 14 do kropki 27, aby narysować tułów konia oraz siedzisko, na którym siedzi jeździec.",
-            "fact": "Rączki i podnóżki pomagają dzieciom utrzymać równowagę podczas bujania się na sprężynowym koniku."
+            "q": "Czy kolorowanka Seesaw Playground jest dostępna do wydrukowania za darmo?",
+            "a": "Tak. Arkusz „Plac zabaw Seesaw” można pobrać całkowicie za darmo ze strony DotToDotFreePrintables.com — bez konieczności zakładania konta, zakładania adresu e-mail ani dokonywania płatności. Pobiera się natychmiast w formacie PDF gotowym do druku, zarówno w orientacji pionowej, jak i poziomej, w formacie US Letter lub A4."
           },
           {
-            "range": "29–42",
-            "title": "Silna Wiosna",
-            "learn": "Podążaj za kropkami od 28 do 40 wokół dużej sprężyny śrubowej pod koniem.",
-            "fact": "Stalowa sprężyna zgina się i powraca do pierwotnej pozycji, tworząc kołyszący ruch atrakcji."
+            "q": "Dla dzieci w jakim wieku najlepsza jest karta pracy „Połącz kropki” Seesaw Playground?",
+            "a": "Puzzle Seesaw Playground, składające się z 68 punktów, najlepiej sprawdzają się w wieku 5–8 lat (od przedszkola do drugiej klasy). Młodsze dzieci mogą czerpać z nich radość, korzystając z lekkiej pomocy dorosłych, a doświadczone liczmany mogą układać je samodzielnie i ćwiczyć sekwencję liczb do 68."
           },
           {
-            "range": "43–56",
-            "title": "Podkład i Wykończenie",
-            "learn": "Zakończ kropkami od 41 do 53, aby dodać solidną podstawę i podłoże pod jeźdźcem.",
-            "fact": "Wiosłujące koniki są solidnie zamocowane pod powierzchnią placu zabaw, dzięki czemu pozostają stabilne podczas ruchu."
+            "q": "Jakich umiejętności uczy układanka łącząca kropki Seesaw Playground?",
+            "a": "Łączenie 68 kropek układanki Seesaw Playground rozwija umiejętności rozpoznawania liczb i liczenia do 68, panowania nad ołówkiem, koordynacji wzrokowo-ruchowej i skupienia – te same podstawy motoryki małej, które wspierają wczesne pisanie odręczne. Pokolorowanie gotowego obrazka to nagroda za kreatywność."
           },
           {
-            "range": "57–68",
-            "title": "Drugi jeździec i ziemia",
-            "learn": "Skończ, łącząc kropki od 57 do 68, aby narysować drugie dziecko na opuszczonym końcu i ziemię pod huśtawką. Zostało tylko dwanaście kropek — staranne, pewne zakończenie tutaj dopełnia całą scenę.",
-            "fact": "Niektóre nowoczesne place zabaw zastąpiły tradycyjne huśtawki dla dwóch jeźdźców wersjami na sprężynach, które pozwalają jednemu dziecku bujać się samodzielnie, chociaż klasyczna huśtawka dla dwóch osób jest nadal najczęściej spotykanym projektem na całym świecie."
+            "q": "Jaka jest ciekawostka na temat placu zabaw z huśtawkami?",
+            "a": "Huśtawki są czasami nazywane w amerykańskim języku angielskim „teeter-totters” – obie nazwy opisują ten sam prosty ruch w górę i w dół, który bawi dzieci od pokoleń. Dzieci odkrywają takie ciekawostki, rozwiązując łamigłówkę „Seasaw Playground”."
           }
         ],
-        "outro": "Twój wiosenny koń jest gotowy do jazdy! Dodaj jaskrawą siodło, bujną grzywę i kolorowy plac zabaw. Wypróbuj <a href=\"/playgrounds/playhouse-slide-playground-dot-to-dot-puzzle/\">układankę ze zjeżdżalnią w domku</a> jako kolejną.",
-        "color_schemes": []
+        "dot_guide": {
+          "intro": "Ta przyjazna łamigłówka z 53 punktami tworzy konika na sprężynie placu zabaw, od głowy i tułowia aż po mocną sprężynę i podstawę. Cztery krótkie etapy sprawiają, że jest przystępna dla młodych fanów łączenia kropek.",
+          "sections": [
+            {
+              "range": "1–14",
+              "title": "Głowa Konia",
+              "learn": "Połącz kropki od 1 do 13, aby stworzyć kształt głowy konia, uszu i radosnej mordki.",
+              "fact": "Huśtawki sprężynowe na placach zabaw występują w wielu kształtach, w tym koni, motocykli, wielorybów i fantastycznych stworzeń."
+            },
+            {
+              "range": "15–28",
+              "title": "Korpus i Siedzenie",
+              "learn": "Kontynuuj od kropki 14 do kropki 27, aby narysować tułów konia oraz siedzisko, na którym siedzi jeździec.",
+              "fact": "Rączki i podnóżki pomagają dzieciom utrzymać równowagę podczas bujania się na sprężynowym koniku."
+            },
+            {
+              "range": "29–42",
+              "title": "Silna Wiosna",
+              "learn": "Podążaj za kropkami od 28 do 40 wokół dużej sprężyny śrubowej pod koniem.",
+              "fact": "Stalowa sprężyna zgina się i powraca do pierwotnej pozycji, tworząc kołyszący ruch atrakcji."
+            },
+            {
+              "range": "43–56",
+              "title": "Podkład i Wykończenie",
+              "learn": "Zakończ kropkami od 41 do 53, aby dodać solidną podstawę i podłoże pod jeźdźcem.",
+              "fact": "Wiosłujące koniki są solidnie zamocowane pod powierzchnią placu zabaw, dzięki czemu pozostają stabilne podczas ruchu."
+            },
+            {
+              "range": "57–68",
+              "title": "Drugi jeździec i ziemia",
+              "learn": "Skończ, łącząc kropki od 57 do 68, aby narysować drugie dziecko na opuszczonym końcu i ziemię pod huśtawką. Zostało tylko dwanaście kropek — staranne, pewne zakończenie tutaj dopełnia całą scenę.",
+              "fact": "Niektóre nowoczesne place zabaw zastąpiły tradycyjne huśtawki dla dwóch jeźdźców wersjami na sprężynach, które pozwalają jednemu dziecku bujać się samodzielnie, chociaż klasyczna huśtawka dla dwóch osób jest nadal najczęściej spotykanym projektem na całym świecie."
+            }
+          ],
+          "outro": "Twój wiosenny koń jest gotowy do jazdy! Dodaj jaskrawą siodło, bujną grzywę i kolorowy plac zabaw. Wypróbuj <a href=\"/playgrounds/playhouse-slide-playground-dot-to-dot-puzzle/\">układankę ze zjeżdżalnią w domku</a> jako kolejną.",
+          "color_schemes": []
+        }
       }
-    }
-  },
-  {
-    "slug": "roller-coaster-playground-dot-to-dot-puzzle",
-    "header": {
-      "title": "Samochód Wyścigowy Łączenie Kropek, 48 Szybkich Kropek dla Wieków 4-8",
-      "meta_description": "Przejedź od kropki 1 do 48 i odkryj wesoły samochodzik z placu zabaw. Ten darmowy plik PDF zamienia naukę kolejności liczb w szybką przejażdżkę dla dzieci w wieku 4–8 lat.",
-      "og": {
+    },
+    {
+      "slug": "roller-coaster-playground-dot-to-dot-puzzle",
+      "header": {
         "title": "Samochód Wyścigowy Łączenie Kropek, 48 Szybkich Kropek dla Wieków 4-8",
-        "description": "Przejedź od kropki 1 do 48 i odkryj wesoły samochodzik z placu zabaw. Ten darmowy plik PDF zamienia naukę kolejności liczb w szybką przejażdżkę dla dzieci w wieku 4–8 lat.",
-        "image_alt": "Szybki samochodzik zabawka pędzi do przodu po połączeniu 48 ponumerowanych kropek"
+        "meta_description": "Przejedź od kropki 1 do 48 i odkryj wesoły samochodzik z placu zabaw. Ten darmowy plik PDF zamienia naukę kolejności liczb w szybką przejażdżkę dla dzieci w wieku 4–8 lat.",
+        "og": {
+          "title": "Samochód Wyścigowy Łączenie Kropek, 48 Szybkich Kropek dla Wieków 4-8",
+          "description": "Przejedź od kropki 1 do 48 i odkryj wesoły samochodzik z placu zabaw. Ten darmowy plik PDF zamienia naukę kolejności liczb w szybką przejażdżkę dla dzieci w wieku 4–8 lat.",
+          "image_alt": "Szybki samochodzik zabawka pędzi do przodu po połączeniu 48 ponumerowanych kropek"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Błyskawiczny Plac Zabaw dla Samochodów",
+          "description": "Przejedź od kropki 1 do 48 i odkryj wesoły samochodzik z placu zabaw. Ten darmowy plik PDF zamienia naukę kolejności liczb w szybką przejażdżkę dla dzieci w wieku 4–8 lat.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
       },
-      "json_ld": {
-        "type": "CreativeWork",
+      "body": {
+        "h1": "Szybki Samochód Łączenie Kropek, 48 Szybkich Kropek dla Wieków 4-8",
         "name": "Błyskawiczny Plac Zabaw dla Samochodów",
-        "description": "Przejedź od kropki 1 do 48 i odkryj wesoły samochodzik z placu zabaw. Ten darmowy plik PDF zamienia naukę kolejności liczb w szybką przejażdżkę dla dzieci w wieku 4–8 lat.",
-        "image": "",
-        "educational_use": "Fine motor skills, number sequencing",
-        "age_range": ""
-      }
-    },
-    "body": {
-      "h1": "Szybki Samochód Łączenie Kropek, 48 Szybkich Kropek dla Wieków 4-8",
-      "name": "Błyskawiczny Plac Zabaw dla Samochodów",
-      "tagline": "Zacznij silnik i połącz kropki!",
-      "description": "Połącz 48 łatwych kropek, aby odkryć szybki samochód gotowy do szaleństwa na placu zabaw. Ta darmowa łamigłówka do wydruku pomaga małym dzieciom ćwiczyć kolejność liczb, kontrolę ołówka i koncentrację z zabawnym motywem pojazdów.",
-      "fun_fact": "Pierwszy roller coaster z pętlą otworzył się w Paryżu w 1846 roku. Jeźdźcy skarżyli się, że boli ich szyja, a inżynierom zajęło prawie 50 lat zaprojektowanie pętli, która była gładka zamiast karząca.",
-      "dot_guide": {
-        "intro": "Elegancki samochód jest stworzony do przygód — nisko przy ziemi, gotowy do drogi i pełen kształtów, które młodzi artyści mogą rozpoznać. Ta przyjazna łamigłówka z 48 punktami to osiągalne pierwsze wyzwanie związane z pojazdem dla dzieci ćwiczących kolejność liczb i kontrolę nad ołówkiem. Znajdź punkt 1, wyobraź sobie odpalający silnik i rysuj swoją drogę do mety!",
-        "sections": [
+        "tagline": "Zacznij silnik i połącz kropki!",
+        "description": "Połącz 48 łatwych kropek, aby odkryć szybki samochód gotowy do szaleństwa na placu zabaw. Ta darmowa łamigłówka do wydruku pomaga małym dzieciom ćwiczyć kolejność liczb, kontrolę ołówka i koncentrację z zabawnym motywem pojazdów.",
+        "fun_fact": "Pierwszy roller coaster z pętlą otworzył się w Paryżu w 1846 roku. Jeźdźcy skarżyli się, że boli ich szyja, a inżynierom zajęło prawie 50 lat zaprojektowanie pętli, która była gładka zamiast karząca.",
+        "faqs": [
           {
-            "range": "1–22",
-            "title": "Maska i Zderzak Przedni",
-            "learn": "Zacznij od kropki 1 i połącz przez kropkę 10, aby narysować przód samochodu. Dzieci ćwiczą krótkie proste linie i łagodne łuki, ucząc się patrzeć na kolejne numery zamiast spieszyć się po całej stronie.",
-            "fact": "Zakrzywiona maska samochodu pomaga powietrzu płynąć gładko nad pojazdem. Projektanci testują te kształty, aby samochody zużywały mniej energii podczas jazdy."
+            "q": "Ile kropek ma układanka „Połącz kropki” w Roller Coaster Playground?",
+            "a": "Gra „Połącz kropki” „Roller Coaster Playground” do wydrukowania zawiera 133 ponumerowane kropki. To sprawia, że ​​jest to wymagająca łamigłówka, idealna dla dzieci w wieku 7–12 lat (od 2. klasy). Dzieci łączą kropki w kolejności numerycznej, aby odsłonić gotowy obrazek przedstawiający plac zabaw z kolejką górską, a następnie go kolorują."
           },
           {
-            "range": "23–44",
-            "title": "Szyba przednia i dach",
-            "learn": "Kontynuuj od kropki 11 do kropki 20, aby ukształtować przednią szybę i dach. Ten fragment wznosi się i opada w jednym płynnym obrysie, dając dzieciom dobre ćwiczenie w łączeniu ukośnych linii bez zbyt częstego odrywania ołówka.",
-            "fact": "Nowoczesne szyby przednie są wykonane z laminowanego szkła bezpiecznego. Przezroczysta warstwa plastikowa znajduje się pomiędzy dwiema taflami szkła i pomaga utrzymać szybę w całości, gdy pęknie."
+            "q": "Czy kolorowanka „Roller Coaster Playground” jest dostępna do wydrukowania za darmo?",
+            "a": "Tak. Arkusz ćwiczeń „Roller Coaster Playground” można pobrać w 100% za darmo ze strony DotToDotFreePrintables.com — bez konieczności zakładania konta, zakładania adresu e-mail ani dokonywania płatności. Pobiera się natychmiast w formacie PDF gotowym do druku, zarówno w orientacji pionowej, jak i poziomej, w formacie US Letter lub A4."
           },
           {
-            "range": "45–66",
-            "title": "Drzwi i Nadwozie",
-            "learn": "Połącz kropki od 21 do 30 wzdłuż boku samochodu, aby dokończyć drzwi i główną karoserię. Dłuższe linie wymagają pewnej ręki, a zmieniające się kąty pomagają dzieciom zauważyć, jak proste kształty łączą się w rozpoznawalny przedmiot.",
-            "fact": "Projektanci samochodów najpierw szkicują pojazdy za pomocą podstawowych linii i kształtów, podobnie jak rysunek łączący kropki. Dopracowują te szkice wielokrotnie, zanim zbudują model w pełnej skali."
+            "q": "Dla dzieci w jakim wieku najlepsza jest karta pracy „Połącz kropki” z serii Roller Coaster Playground?",
+            "a": "Puzzle Roller Coaster Playground, składające się ze 133 punktów, najlepiej sprawdzają się u dzieci w wieku 7–12 lat (od 2. klasy wzwyż). Młodsze dzieci mogą się nimi cieszyć z lekką pomocą dorosłych, a doświadczone liczmany mogą je samodzielnie układać i ćwiczyć sekwencję liczb do 133."
           },
           {
-            "range": "67–88",
-            "title": "Koła",
-            "learn": "Połącz kropki od 31 do 40, aby utworzyć koła i nadkola. Zaokrąglone kształty kół to doskonałe ćwiczenie na płynne ruchy ołówka. Zachęć dzieci, aby dokładnie podążały za ponumerowanym konturem, zamiast starać się narysować idealne koło.",
-            "fact": "Najwcześniejsze koła były wykonane z litego drewna. Współczesne opony samochodowe są gumowe i wypełnione powietrzem, co amortyzuje wstrząsy i pomaga oponie przylegać do drogi."
+            "q": "Jakich umiejętności uczy układanka łącząca kropki Roller Coaster Playground?",
+            "a": "Połączenie 133 kropek układanki Roller Coaster Playground rozwija umiejętności rozpoznawania liczb i liczenia do 133, panowania nad ołówkiem, koordynacji wzrokowo-ruchowej i skupienia – te same podstawy motoryki małej, które wspierają wczesne pisanie odręczne. Pokolorowanie gotowego obrazka to nagroda za kreatywność."
           },
           {
-            "range": "89–110",
-            "title": "Oświetlenie i Ostateczne Detale",
-            "learn": "Zakończ kropkami od 41 do 48, aby dodać światła i pozostałe szczegóły. Pozostało tylko osiem połączeń, więc to dobry moment, aby zwolnić i dokończyć samochód starannym, pewnym finishem.",
-            "fact": "Reflektory nie tylko pomagają kierowcom widzieć w nocy — sprawiają również, że samochód jest lepiej widoczny dla innych osób podczas deszczu, mgły i przy pochmurnej pogodzie."
-          },
-          {
-            "range": "111–133",
-            "title": "Stacja i peron",
-            "learn": "Skończ, łącząc kropki od 111 do 133, aby narysować peron stacji, gdzie przejażdżka się zaczyna i kończy. Zostało dwadzieścia trzy kropki do największej łamigłówki w zestawie placu zabaw — powolne, staranne zakończenie tutaj to prawdziwy znak wytrwałości.",
-            "fact": "Sekcja hamująca na końcu prawdziwego roller coastera jest jedną z jego najbardziej zaawansowanych części. Musi płynnie zatrzymać samochód pełen pasażerów z pełnej prędkości do całkowitego zatrzymania, aby nikt nie został wstrząśnięty."
+            "q": "Jaka jest ciekawostka na temat placu zabaw z kolejką górską?",
+            "a": "Pierwsza kolejka górska z pętlą została otwarta w Paryżu w 1846 roku. Pasażerowie narzekali na ból karku, a inżynierowie potrzebowali prawie 50 lat, aby zaprojektować pętlę, która byłaby płynna, a nie męcząca. Dzieci odkrywają takie ciekawostki, rozwiązując łamigłówkę „Roller Coaster Playground”."
           }
         ],
-        "outro": "Świetna jazda — twój błyskawiczny samochód jest gotowy! Pokoloruj go jak samochód wyścigowy, rodzinny pojazd lub zupełnie nowy wynalazek własnego pomysłu. Dodaj drogę, flagi lub dopingujący tłum, a następnie wybierz kolejną <a href=\"/playgrounds/\">łamigłówkę kropka po kropce z placu zabaw</a> na swoją następną przygodę.",
-        "color_schemes": []
+        "dot_guide": {
+          "intro": "Elegancki samochód jest stworzony do przygód — nisko przy ziemi, gotowy do drogi i pełen kształtów, które młodzi artyści mogą rozpoznać. Ta przyjazna łamigłówka z 48 punktami to osiągalne pierwsze wyzwanie związane z pojazdem dla dzieci ćwiczących kolejność liczb i kontrolę nad ołówkiem. Znajdź punkt 1, wyobraź sobie odpalający silnik i rysuj swoją drogę do mety!",
+          "sections": [
+            {
+              "range": "1–22",
+              "title": "Maska i Zderzak Przedni",
+              "learn": "Zacznij od kropki 1 i połącz przez kropkę 10, aby narysować przód samochodu. Dzieci ćwiczą krótkie proste linie i łagodne łuki, ucząc się patrzeć na kolejne numery zamiast spieszyć się po całej stronie.",
+              "fact": "Zakrzywiona maska samochodu pomaga powietrzu płynąć gładko nad pojazdem. Projektanci testują te kształty, aby samochody zużywały mniej energii podczas jazdy."
+            },
+            {
+              "range": "23–44",
+              "title": "Szyba przednia i dach",
+              "learn": "Kontynuuj od kropki 11 do kropki 20, aby ukształtować przednią szybę i dach. Ten fragment wznosi się i opada w jednym płynnym obrysie, dając dzieciom dobre ćwiczenie w łączeniu ukośnych linii bez zbyt częstego odrywania ołówka.",
+              "fact": "Nowoczesne szyby przednie są wykonane z laminowanego szkła bezpiecznego. Przezroczysta warstwa plastikowa znajduje się pomiędzy dwiema taflami szkła i pomaga utrzymać szybę w całości, gdy pęknie."
+            },
+            {
+              "range": "45–66",
+              "title": "Drzwi i Nadwozie",
+              "learn": "Połącz kropki od 21 do 30 wzdłuż boku samochodu, aby dokończyć drzwi i główną karoserię. Dłuższe linie wymagają pewnej ręki, a zmieniające się kąty pomagają dzieciom zauważyć, jak proste kształty łączą się w rozpoznawalny przedmiot.",
+              "fact": "Projektanci samochodów najpierw szkicują pojazdy za pomocą podstawowych linii i kształtów, podobnie jak rysunek łączący kropki. Dopracowują te szkice wielokrotnie, zanim zbudują model w pełnej skali."
+            },
+            {
+              "range": "67–88",
+              "title": "Koła",
+              "learn": "Połącz kropki od 31 do 40, aby utworzyć koła i nadkola. Zaokrąglone kształty kół to doskonałe ćwiczenie na płynne ruchy ołówka. Zachęć dzieci, aby dokładnie podążały za ponumerowanym konturem, zamiast starać się narysować idealne koło.",
+              "fact": "Najwcześniejsze koła były wykonane z litego drewna. Współczesne opony samochodowe są gumowe i wypełnione powietrzem, co amortyzuje wstrząsy i pomaga oponie przylegać do drogi."
+            },
+            {
+              "range": "89–110",
+              "title": "Oświetlenie i Ostateczne Detale",
+              "learn": "Zakończ kropkami od 41 do 48, aby dodać światła i pozostałe szczegóły. Pozostało tylko osiem połączeń, więc to dobry moment, aby zwolnić i dokończyć samochód starannym, pewnym finishem.",
+              "fact": "Reflektory nie tylko pomagają kierowcom widzieć w nocy — sprawiają również, że samochód jest lepiej widoczny dla innych osób podczas deszczu, mgły i przy pochmurnej pogodzie."
+            },
+            {
+              "range": "111–133",
+              "title": "Stacja i peron",
+              "learn": "Skończ, łącząc kropki od 111 do 133, aby narysować peron stacji, gdzie przejażdżka się zaczyna i kończy. Zostało dwadzieścia trzy kropki do największej łamigłówki w zestawie placu zabaw — powolne, staranne zakończenie tutaj to prawdziwy znak wytrwałości.",
+              "fact": "Sekcja hamująca na końcu prawdziwego roller coastera jest jedną z jego najbardziej zaawansowanych części. Musi płynnie zatrzymać samochód pełen pasażerów z pełnej prędkości do całkowitego zatrzymania, aby nikt nie został wstrząśnięty."
+            }
+          ],
+          "outro": "Świetna jazda — twój błyskawiczny samochód jest gotowy! Pokoloruj go jak samochód wyścigowy, rodzinny pojazd lub zupełnie nowy wynalazek własnego pomysłu. Dodaj drogę, flagi lub dopingujący tłum, a następnie wybierz kolejną <a href=\"/playgrounds/\">łamigłówkę kropka po kropce z placu zabaw</a> na swoją następną przygodę.",
+          "color_schemes": []
+        }
       }
-    }
-  },
-  {
-    "slug": "monkey-bar-playground-dot-to-dot-puzzle",
-    "header": {
-      "title": "Playhouse Slide Kropka do Kropki: 68 Kropek do Darmowego Wydruku",
-      "meta_description": "Wspinaczka, zjeżdżanie i zabawa w udawanie w jednej radosnej konstrukcji. Prześledź zjeżdżalnię domku zabaw poprzez 68 kropek w darmowym PDF dla dzieci w wieku 5–9 lat.",
-      "og": {
+    },
+    {
+      "slug": "monkey-bar-playground-dot-to-dot-puzzle",
+      "header": {
         "title": "Playhouse Slide Kropka do Kropki: 68 Kropek do Darmowego Wydruku",
-        "description": "Wspinaczka, zjeżdżanie i zabawa w udawanie w jednej radosnej konstrukcji. Prześledź zjeżdżalnię domku zabaw poprzez 68 kropek w darmowym PDF dla dzieci w wieku 5–9 lat.",
-        "image_alt": "Dom zabaw z przymocowaną zjeżdżalnią złożony z 68 kropek na stronie z kropkami do połączenia"
+        "meta_description": "Wspinaczka, zjeżdżanie i zabawa w udawanie w jednej radosnej konstrukcji. Prześledź zjeżdżalnię domku zabaw poprzez 68 kropek w darmowym PDF dla dzieci w wieku 5–9 lat.",
+        "og": {
+          "title": "Playhouse Slide Kropka do Kropki: 68 Kropek do Darmowego Wydruku",
+          "description": "Wspinaczka, zjeżdżanie i zabawa w udawanie w jednej radosnej konstrukcji. Prześledź zjeżdżalnię domku zabaw poprzez 68 kropek w darmowym PDF dla dzieci w wieku 5–9 lat.",
+          "image_alt": "Dom zabaw z przymocowaną zjeżdżalnią złożony z 68 kropek na stronie z kropkami do połączenia"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Zjeżdżalnia do Domku Zabaw",
+          "description": "Wspinaczka, zjeżdżanie i zabawa w udawanie w jednej radosnej konstrukcji. Prześledź zjeżdżalnię domku zabaw poprzez 68 kropek w darmowym PDF dla dzieci w wieku 5–9 lat.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
       },
-      "json_ld": {
-        "type": "CreativeWork",
+      "body": {
+        "h1": "Playhouse Slide Kropki do Kropki: 68 Kropek do Wydruku za Darmo",
         "name": "Zjeżdżalnia do Domku Zabaw",
-        "description": "Wspinaczka, zjeżdżanie i zabawa w udawanie w jednej radosnej konstrukcji. Prześledź zjeżdżalnię domku zabaw poprzez 68 kropek w darmowym PDF dla dzieci w wieku 5–9 lat.",
-        "image": "",
-        "educational_use": "Fine motor skills, number sequencing",
-        "age_range": ""
-      }
-    },
-    "body": {
-      "h1": "Playhouse Slide Kropki do Kropki: 68 Kropek do Wydruku za Darmo",
-      "name": "Zjeżdżalnia do Domku Zabaw",
-      "tagline": "Wspinaj się i zjeżdżaj do zabawy!",
-      "description": "Połącz 94 kropki, aby odkryć zabawny zestaw drabinek dla małp. Ta średniozaawansowana zagadka placu zabaw to świetne wyzwanie dla dzieci ćwiczących sekwencjonowanie liczb, kontrolę ołówka i cierpliwość.",
-      "fun_fact": "Konstrukcje zabawkowe łączą wspinaczkę, zabawę w udawanie oraz zjeżdżanie, dając dzieciom możliwość ćwiczenia różnych rodzajów ruchu i pobudzania wyobraźni w jednym miejscu.",
-      "dot_guide": {
-        "intro": "Ta łamigłówka z 68 kropkami pozwala zbudować kompletny plac zabaw z domkiem, od dachu i platformy po drabinkę i kręconą zjeżdżalnię. Pięć krótkich etapów sprawia, że obrazek jest łatwy do wykonania dla młodych artystów.",
-        "sections": [
+        "tagline": "Wspinaj się i zjeżdżaj do zabawy!",
+        "description": "Połącz 94 kropki, aby odkryć zabawny zestaw drabinek dla małp. Ta średniozaawansowana zagadka placu zabaw to świetne wyzwanie dla dzieci ćwiczących sekwencjonowanie liczb, kontrolę ołówka i cierpliwość.",
+        "fun_fact": "Konstrukcje zabawkowe łączą wspinaczkę, zabawę w udawanie oraz zjeżdżanie, dając dzieciom możliwość ćwiczenia różnych rodzajów ruchu i pobudzania wyobraźni w jednym miejscu.",
+        "faqs": [
           {
-            "range": "1–18",
-            "title": "Dach Domku Zabaw",
-            "learn": "Połącz kropki od 1 do 14, aby utworzyć kształt dachu na szczycie domku do zabawy.",
-            "fact": "Dachy na domkach do zabaw na zewnątrz zapewniają cień i sprawiają, że konstrukcja przypomina miniaturowy budynek stworzony do zabawy w udawanie."
+            "q": "Ile kropek ma układanka łącząca kropki Monkey Bars Playground?",
+            "a": "Puzzle do łączenia kropek „Monkey Bars Playground” do wydrukowania zawierają 94 ponumerowane kropki. To sprawia, że ​​jest to układanka średniej wielkości, idealna dla dzieci w wieku 6–9 lat (od 1 do 3 klasy). Dzieci łączą kropki w kolejności numerycznej, aby odsłonić gotowy obrazek placu zabaw „Monkey Bars Playground”, a następnie go kolorują."
           },
           {
-            "range": "19–38",
-            "title": "Dom i Platforma",
-            "learn": "Kontynuuj od kropki 15 do kropki 28, aby narysować ściany domku zabaw i podwyższoną platformę.",
-            "fact": "Podwyższone platformy do zabawy zachęcają dzieci do ćwiczenia równowagi i świadomości przestrzennej podczas poruszania się."
+            "q": "Czy kolorowanka Monkey Bars Playground jest dostępna do wydrukowania za darmo?",
+            "a": "Tak. Arkusz ćwiczeń „Plac zabaw Monkey Bars” można pobrać w 100% za darmo ze strony DotToDotFreePrintables.com — bez konieczności zakładania konta, zakładania adresu e-mail ani dokonywania płatności. Pobiera się natychmiast w formacie PDF gotowym do druku, zarówno w orientacji pionowej, jak i poziomej, w formacie US Letter lub A4."
           },
           {
-            "range": "39–58",
-            "title": "Drabina Wspinaczkowa",
-            "learn": "Podążaj za kropkami od 29 do 41, aby dodać drabinę i równomiernie rozmieszczone stopnie.",
-            "fact": "Wspinanie się po drabinkach pomaga dzieciom rozwijać siłę nóg, koordynację i pewność siebie."
+            "q": "Dla dzieci w jakim wieku najlepsza jest karta pracy do łączenia kropek Monkey Bars Playground?",
+            "a": "Puzzle Monkey Bars Playground, składające się z 94 punktów, najlepiej sprawdzają się w wieku 6–9 lat (od 1 do 3 klasy). Młodsze dzieci mogą się nimi cieszyć z lekką pomocą dorosłych, a doświadczone liczmany mogą je układać samodzielnie i ćwiczyć sekwencję liczb do 94."
           },
           {
-            "range": "59–76",
-            "title": "Zakręcona Zjeżdżalnia",
-            "learn": "Połącz kropki od 42 do 55 w dół po gładkiej zjeżdżalni, utrzymując ołówek stabilnie na każdym zakręcie.",
-            "fact": "Zjeżdżalnie wykorzystują grawitację, aby zamienić wysokość zdobytą podczas wspinaczki w szybką i płynną jazdę w dół."
+            "q": "Jakich umiejętności uczy układanka łącząca kropki Monkey Bars Playground?",
+            "a": "Połączenie 94 kropek układanki Monkey Bars Playground rozwija umiejętności rozpoznawania liczb i liczenia do 94, panowania nad ołówkiem, koordynacji wzrokowo-ruchowej i skupienia – te same podstawy motoryki małej, które wspierają wczesne pisanie odręczne. Pokolorowanie gotowego obrazka to nagroda za kreatywność."
           },
           {
-            "range": "77–94",
-            "title": "Podpory i Podłoże",
-            "learn": "Zakończ kropkami od 56 do 68, aby dodać podpory i podłoże pod domek do zabawy.",
-            "fact": "Wyposażenie placu zabaw jest zamontowane na powierzchniach absorbujących uderzenia, takich jak specjalna włóknina drewniana lub gumowa."
+            "q": "Jaka jest ciekawostka na temat placu zabaw z drabinkami?",
+            "a": "Drabinki stały się popularnym wyposażeniem placów zabaw na początku XX wieku i pomagają dzieciom ćwiczyć siłę chwytu, równowagę i koordynację górnych partii ciała. Dzieci odkrywają takie ciekawostki, rozwiązując łamigłówkę \"Monkey Bars Playground\"."
           }
         ],
-        "outro": "Twój zjeżdżalniowy domek zabaw jest gotowy do zabawy! Dodaj jaskrawe kolory, okna, flagi i cały plac zabaw wokół niego. Wypróbuj następnie <a href=\"/playgrounds/carousel-horse-playground-dot-to-dot-puzzle/\">puzzle z konikiem na karuzeli</a>.",
-        "color_schemes": []
+        "dot_guide": {
+          "intro": "Ta łamigłówka z 68 kropkami pozwala zbudować kompletny plac zabaw z domkiem, od dachu i platformy po drabinkę i kręconą zjeżdżalnię. Pięć krótkich etapów sprawia, że obrazek jest łatwy do wykonania dla młodych artystów.",
+          "sections": [
+            {
+              "range": "1–18",
+              "title": "Dach Domku Zabaw",
+              "learn": "Połącz kropki od 1 do 14, aby utworzyć kształt dachu na szczycie domku do zabawy.",
+              "fact": "Dachy na domkach do zabaw na zewnątrz zapewniają cień i sprawiają, że konstrukcja przypomina miniaturowy budynek stworzony do zabawy w udawanie."
+            },
+            {
+              "range": "19–38",
+              "title": "Dom i Platforma",
+              "learn": "Kontynuuj od kropki 15 do kropki 28, aby narysować ściany domku zabaw i podwyższoną platformę.",
+              "fact": "Podwyższone platformy do zabawy zachęcają dzieci do ćwiczenia równowagi i świadomości przestrzennej podczas poruszania się."
+            },
+            {
+              "range": "39–58",
+              "title": "Drabina Wspinaczkowa",
+              "learn": "Podążaj za kropkami od 29 do 41, aby dodać drabinę i równomiernie rozmieszczone stopnie.",
+              "fact": "Wspinanie się po drabinkach pomaga dzieciom rozwijać siłę nóg, koordynację i pewność siebie."
+            },
+            {
+              "range": "59–76",
+              "title": "Zakręcona Zjeżdżalnia",
+              "learn": "Połącz kropki od 42 do 55 w dół po gładkiej zjeżdżalni, utrzymując ołówek stabilnie na każdym zakręcie.",
+              "fact": "Zjeżdżalnie wykorzystują grawitację, aby zamienić wysokość zdobytą podczas wspinaczki w szybką i płynną jazdę w dół."
+            },
+            {
+              "range": "77–94",
+              "title": "Podpory i Podłoże",
+              "learn": "Zakończ kropkami od 56 do 68, aby dodać podpory i podłoże pod domek do zabawy.",
+              "fact": "Wyposażenie placu zabaw jest zamontowane na powierzchniach absorbujących uderzenia, takich jak specjalna włóknina drewniana lub gumowa."
+            }
+          ],
+          "outro": "Twój zjeżdżalniowy domek zabaw jest gotowy do zabawy! Dodaj jaskrawe kolory, okna, flagi i cały plac zabaw wokół niego. Wypróbuj następnie <a href=\"/playgrounds/carousel-horse-playground-dot-to-dot-puzzle/\">puzzle z konikiem na karuzeli</a>.",
+          "color_schemes": []
+        }
       }
     }
-  }
-]
+  ]
+}

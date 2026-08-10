@@ -14,7 +14,7 @@ import { isSectionAvailable } from './section-locales';
 export type CommonPuzzle = {
   slug: string; name: string; tagline: string; description: string; funFact: string;
   age: string; dots: number; difficulty: 1 | 2 | 3; image: string; pdf: string;
-  isNew?: boolean; seoTitle?: string; seoH1?: string; seoDescription?: string; seoImageAlt?: string;
+  isNew?: boolean; seoTitle?: string; seoH1?: string; seoDescription?: string; seoOgTitle?: string; seoOgDescription?: string; seoImageAlt?: string;
   dotGuide?: any;
 };
 

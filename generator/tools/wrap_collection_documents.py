@@ -6,6 +6,9 @@ import json
 import sys
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from migration_safety import check_count, require_clean_git_tree  # noqa: E402
+
 
 CATEGORY_NAMES = {
     "canada": "Canada",
@@ -102,6 +105,9 @@ def wrap_file(path: Path, apply: bool) -> tuple[str, int]:
 
     slug = path.stem.removeprefix("puzzles-")
     document = {"collection": collection_for(path.parent.name, slug), "puzzles": data}
+    check_count(len(data), len(document["puzzles"]), str(path))
+    if document["puzzles"] != data:
+        print(f"WARNING: {path} puzzle array was altered while wrapping (should be untouched)")
     if apply:
         temporary = path.with_suffix(path.suffix + ".tmp")
         with temporary.open("w", encoding="utf-8", newline="\n") as output:
@@ -115,7 +121,10 @@ def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("content_root", type=Path)
     parser.add_argument("--apply", action="store_true", help="write changes; otherwise preview only")
+    parser.add_argument("--force", action="store_true", help="skip the clean-git-tree safety check")
     args = parser.parse_args()
+    if args.apply:
+        require_clean_git_tree([args.content_root], force=args.force)
     files = sorted(args.content_root.glob("*/puzzles-*.json"))
     wrapped = unchanged = puzzles = failures = 0
     for path in files:

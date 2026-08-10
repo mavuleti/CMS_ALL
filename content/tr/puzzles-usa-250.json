@@ -1,706 +1,1016 @@
-[
-  {
-    "slug": "gas-balloon-usa-250-dot-to-dot-puzzle",
+{
+  "collection": {
     "header": {
-      "title": "Amerika 250 Gaz Balonu Noktaları Birleştir — Havada 48 Nokta",
-      "meta_description": "George Washington, 1793'te Amerika'nın ilk balon uçuşunu izledi. 4-7 yaş arası çocuklar için bu ücretsiz Amerika 250 PDF ile 48 nokta boyunca süzülün.",
+      "title": "America 250 Dot to Dot Printables — Free PDF for Kids",
+      "meta_description": "Celebrate America's 250th anniversary in 2026 with free patriotic dot to dot printables for kids ages 4-10: fireworks, Liberty Bell, bald eagle, astronaut, and Space Shuttle. Print-ready PDF worksheets for classrooms across the USA.",
       "og": {
+        "title": "11 Free America 250 Dot to Dot Printables",
+        "description": "Fireworks, Liberty Bell, bald eagle, astronaut, and more patriotic dot to dot printables for America's 250th.",
+        "image": "/images/gas-balloon-usa-250-puzzle.webp"
+      },
+      "json_ld": {
+        "type": "CollectionPage",
+        "name": "Amerika'nın 250 Yılı",
+        "description": "Amerika'nın 250. doğum gününü kutlayın! Vatansever sahneleri ve ikonik Amerikan sembollerini ortaya çıkarmak için noktaları birleştirin. Tüm çalışma sayfaları ücretsiz olarak indirilebilir ve yazdırılabilir; hesap gerekmez.",
+        "image": "/images/gas-balloon-usa-250-puzzle.webp",
+        "main_entity": {
+          "type": "ItemList",
+          "item_source": "puzzles"
+        }
+      },
+      "breadcrumb_json_ld": {
+        "type": "BreadcrumbList",
+        "items": [
+          {
+            "position": 1,
+            "name": "Home",
+            "path": "/"
+          },
+          {
+            "position": 2,
+            "name": "Amerika'nın 250 Yılı",
+            "path": "/usa-250/"
+          }
+        ]
+      }
+    },
+    "body": {
+      "h1": "Amerika'nın 250. Yılı Çocuklar İçin Noktaları Birleştirme Etkinliği",
+      "name": "Amerika'nın 250 Yılı",
+      "tagline": "Çocuklar Amerika'yı neden seviyor? 250 noktadan noktaya birleştirme bulmacası",
+      "description": "Amerika'nın 250. doğum gününü kutlayın! Vatansever sahneleri ve ikonik Amerikan sembollerini ortaya çıkarmak için noktaları birleştirin. Tüm çalışma sayfaları ücretsiz olarak indirilebilir ve yazdırılabilir; hesap gerekmez.",
+      "hero_image": "/images/gas-balloon-usa-250-puzzle.webp",
+      "slug": "usa-250",
+      "faqs": [
+        {
+          "q": "Amerika temalı 250 noktadan noktaya birleştirme şablonundan kaç tane var?",
+          "a": "Amerika 250 kategorisi şu anda 48 ila 124 nokta arasında değişen 11 adet ücretsiz noktaları birleştirme etkinliği sunmaktadır. Her çalışma sayfası, kayıt olmaya gerek kalmadan anında yazdırmaya hazır PDF (Letter veya A4, dikey veya yatay) olarak indirilebilir."
+        },
+        {
+          "q": "Amerika 250 noktadan noktaya birleştirme bulmacaları ücretsiz olarak yazdırılabilir mi?",
+          "a": "Evet — America 250 koleksiyonundaki 11 bulmacanın tamamı evde ve sınıfta kullanım için tamamen ücretsizdir. DotToDotFreePrintables.com'da hiçbir zaman hesap, e-posta veya ödeme gerekmez."
+        },
+        {
+          "q": "Amerika 250 yapbozları hangi yaş grupları için uygundur?",
+          "a": "48-124 nokta sayısına sahip America 250 koleksiyonu, kabaca 4-12 yaş aralığını kapsar. Okul öncesi ve anaokulu için daha düşük nokta sayısına sahip olanları, 2-6. sınıflardaki sayma konusunda kendine güvenen çocuklar için ise daha yüksek nokta sayısına sahip olanları seçin."
+        },
+        {
+          "q": "Amerika 250 noktadan noktaya birleştirme bulmacaları nedir?",
+          "a": "4 Temmuz 2026'da kutlanacak olan Amerika Birleşik Devletleri'nin 250. yıldönümünü (yarım yüzüncü yıldönümü) kutlayan 11 adet ücretsiz vatansever baskı görseli koleksiyonu; kartal bayrağı, Özgürlük Çanı, havai fişek, astronot, uzay mekiği, doğum günü pastası ve sıcak hava balonu tasarımları dahil olmak üzere 48 ila 124 nokta arasında değişen boyutlarda sunulmaktadır."
+        },
+        {
+          "q": "Bunlar 4 Temmuz sınıf etkinlikleri için uygun mu?",
+          "a": "Evet. America 250 koleksiyonu, 2026 Bağımsızlık Günü kutlamaları, sınıf içi vatandaşlık dersleri ve parti etkinlik masaları için tasarlanmıştır. Tam sınıf setlerini ücretsiz olarak yazdırabilirsiniz — lisans veya kayıt gerekmez."
+        }
+      ]
+    }
+  },
+  "puzzles": [
+    {
+      "slug": "gas-balloon-usa-250-dot-to-dot-puzzle",
+      "header": {
         "title": "Amerika 250 Gaz Balonu Noktaları Birleştir — Havada 48 Nokta",
-        "description": "George Washington, 1793'te Amerika'nın ilk balon uçuşunu izledi. 4-7 yaş arası çocuklar için bu ücretsiz Amerika 250 PDF ile 48 nokta boyunca süzülün.",
-        "image_alt": "Amerika 250 manzarası üzerinde 48 nokta ile yükselen festivale ait gaz balonu"
+        "meta_description": "George Washington, 1793'te Amerika'nın ilk balon uçuşunu izledi. 4-7 yaş arası çocuklar için bu ücretsiz Amerika 250 PDF ile 48 nokta boyunca süzülün.",
+        "og": {
+          "title": "Amerika 250 Gaz Balonu Noktaları Birleştir — Havada 48 Nokta",
+          "description": "George Washington, 1793'te Amerika'nın ilk balon uçuşunu izledi. 4-7 yaş arası çocuklar için bu ücretsiz Amerika 250 PDF ile 48 nokta boyunca süzülün.",
+          "image_alt": "Amerika 250 manzarası üzerinde 48 nokta ile yükselen festivale ait gaz balonu"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Gaz Balonu Amerika 250",
+          "description": "George Washington, 1793'te Amerika'nın ilk balon uçuşunu izledi. 4-7 yaş arası çocuklar için bu ücretsiz Amerika 250 PDF ile 48 nokta boyunca süzülün.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
       },
-      "json_ld": {
-        "type": "CreativeWork",
+      "body": {
+        "h1": "Amerika 250 Gaz Balonu Noktadan Noktaya — 48 Nokta Havada",
         "name": "Gaz Balonu Amerika 250",
-        "description": "George Washington, 1793'te Amerika'nın ilk balon uçuşunu izledi. 4-7 yaş arası çocuklar için bu ücretsiz Amerika 250 PDF ile 48 nokta boyunca süzülün.",
-        "image": "",
-        "educational_use": "Fine motor skills, number sequencing",
-        "age_range": ""
-      }
-    },
-    "body": {
-      "h1": "Amerika 250 Gaz Balonu Noktadan Noktaya — 48 Nokta Havada",
-      "name": "Gaz Balonu Amerika 250",
-      "tagline": "Amerika'nın 250. yılını kutlayın!",
-      "description": "48 kolay noktayı birleştirerek Amerika'nın 250. yıl dönümü kutlaması üzerinde süzülen muhteşem bir gaz balonunu ortaya çıkarın! Bu ücretsiz yazdırılabilir çalışma sayfası, genç çocukların sayı sıralama ve kalem kontrolü pratik yapmalarına yardımcı olurken, 250 yıllık Amerikan tarihini onurlandırıyor.",
-      "fun_fact": "Amerika'daki ilk gaz balonu uçuşu 1793'te gerçekleşti; George Washington bizzat Philadelphia'daki fırlatılışı izledi!",
-      "dot_guide": {
-        "intro": "Amerika 250 yaşında – çeyrek milenyum tarih, icat ve macera dolu! Kutlamanın en güzel yolu, muhteşem bir gaz balonuyla şenliklerin üzerinde süzülmekten daha iyi ne olabilir? Gaz balonları ilk uçan makinelerden biriydi ve Amerikalılar cumhuriyetin ilk günlerinden beri onları çok seviyor. Bir kalem alın, 1 numaralı noktayı bulun ve bu balonu kutlama gökyüzüne gönderelim!",
-        "sections": [
+        "tagline": "Amerika'nın 250. yılını kutlayın!",
+        "description": "48 kolay noktayı birleştirerek Amerika'nın 250. yıl dönümü kutlaması üzerinde süzülen muhteşem bir gaz balonunu ortaya çıkarın! Bu ücretsiz yazdırılabilir çalışma sayfası, genç çocukların sayı sıralama ve kalem kontrolü pratik yapmalarına yardımcı olurken, 250 yıllık Amerikan tarihini onurlandırıyor.",
+        "fun_fact": "Amerika'daki ilk gaz balonu uçuşu 1793'te gerçekleşti; George Washington bizzat Philadelphia'daki fırlatılışı izledi!",
+        "faqs": [
           {
-            "range": "1–10",
-            "title": "Balon Zarfı",
-            "learn": "1. noktadan başlayıp 10. noktaya kadar ilerleyerek balon zarfının büyük, yuvarlak üst kısmını (gazı tutan ve balona klasik şeklini veren büyük, renkli torba) çizin. Çocuklar burada geniş, akıcı kıvrımlar çizmeyi öğrenirler; bu da kalem kontrolünü ve bilek esnekliğini geliştirmek için harika bir yöntemdir.",
-            "fact": "Gaz balonları, genellikle günümüzde helyum olmak üzere, havadan daha hafif bir gazla doldurulur; bu da balonun zarfının sepeti kaldıracak kadar hafif olmasını sağlar. Zarf binlerce metreküp gaz tutabilir ve yuvarlak şekli, basıncın her yöne eşit olarak dağılmasına yardımcı olur."
+            "q": "Gas Balloon America 250 noktadan noktaya birleştirme bulmacasında kaç nokta var?",
+            "a": "\"Gaz Balonu Amerika 250\" noktaları birleştirme etkinliği, 48 numaralı noktadan oluşmaktadır. Bu da onu kolaydan orta zorluğa kadar bir bulmaca haline getirir ve 5-8 yaş arası (anaokulundan 2. sınıfa kadar) çocuklar için en uygunudur. Çocuklar noktaları numara sırasına göre birleştirerek \"Gaz Balonu Amerika 250\" resmini ortaya çıkarır ve ardından boyarlar."
           },
           {
-            "range": "11–22",
-            "title": "Yıldız ve Çizgili Detay",
-            "learn": "11. noktadan 22. noktaya kadar devam ederek balonun etrafını saran dekoratif panel çizgilerini ve vatansever detayları ekleyin. Balon zarfları genellikle birbirine dikilmiş birçok ayrı panelden yapılır ve bu dikiş çizgileri, bitmiş resimde gördüğünüz güzel geometrik desenleri oluşturur. Çocuklar burada daha kısa, daha yönlü çizgiler üzerinde pratik yaparlar.",
-            "fact": "Erken dönem Amerikalı baloncular bazen yeni ulusu kutlamak için balonlarını vatansever renkler ve sembollerle süslerlerdi. 1818 tarihli Bayrak Yasası, her eyalet için bir yıldız olmak üzere 13 şeritli modern kuralı belirledi. Bu nedenle, yeni eyaletler Amerika Birleşik Devletleri'ne katıldıkça Yıldız ve Şeritli Bayrak büyümeye devam edebildi."
+            "q": "\"Gas Balloon America 250 noktadan noktaya çizim şablonu ücretsiz mi?\"",
+            "a": "Evet. Gas Balloon America 250 çalışma sayfası, DotToDotFreePrintables.com adresinden %100 ücretsiz olarak indirilebilir; hesap, e-posta veya ödeme gerekmez. Hem dikey hem de yatay yönlendirmede, ABD Letter veya A4 kağıt boyutuna uygun, baskıya hazır bir PDF olarak anında indirilir."
           },
           {
-            "range": "23–34",
-            "title": "Ağ ve Yük Halkası",
-            "learn": "23 ila 34 arasındaki noktaları takip ederek balonun dışını saran ağı ve sepetin asıldığı zarfın en altındaki dairesel halkayı çizin. Çocuklar, birbirini kesen çizgilerden oluşan bir ağ üzerinde pratik yaparlar; bu da hassasiyet ve ileriye dönük planlama konusunda harika bir alıştırmadır.",
-            "fact": "Birçok gaz balonunun etrafındaki ip ağı sadece dekoratif değil; sepetin ve yolcuların ağırlığını balonun gövdesine dağıtmaya yardımcı oluyor. Ağırlığın birçok ipe dağıtılması, balonun dengede ve sağlam kalmasına yardımcı oluyor."
+            "q": "\"Gaz Balonu Amerika 250 Noktaları Birleştirme\" çalışma sayfası hangi yaş grubu için en uygundur?",
+            "a": "48 noktadan oluşan Gas Balloon America 250 yapbozu, 5-8 yaş arası (anaokulundan 2. sınıfa kadar) çocuklar için en uygundur. Daha küçük çocuklar, yetişkinlerin sayma konusunda hafif yardımıyla yapmaktan keyif alabilirken, kendine güvenen çocuklar bağımsız olarak tamamlayabilir ve 48'e kadar sayı sıralaması pratiği yapabilirler."
           },
           {
-            "range": "35–42",
-            "title": "Askı Halatları ve Sepet",
-            "learn": "35 ile 42 arasındaki noktaları birleştirerek yük halkasından aşağı sarkan askı halatlarını ve altta asılı duran hasır sepeti çizin. Gondol adı verilen sepet, pilotun ve yolcuların durduğu yerdir. Çocuklar, tek bir şekle doğru yakınsayan paralel çizgiler üzerinde pratik yaparak harika mekansal düşünme becerileri geliştirirler.",
-            "fact": "Balon sepetleri 200 yılı aşkın süredir hasırdan yapılıyor ve hasır bugün de hala favori bir malzeme. Hasır hafif ve esnek olduğu için iniş sırasında hafifçe bükülebiliyor. Bazen eski yöntemler gerçekten de en iyi yöntemlerdir!"
+            "q": "Gas Balloon America 250 noktadan noktaya birleştirme bulmacası hangi becerileri öğretiyor?",
+            "a": "Gas Balloon America 250 yapbozunun 48 noktasını birleştirmek, sayı tanıma ve 48'e kadar sayma, kalem kontrolü, el-göz koordinasyonu ve sürekli odaklanma gibi ince motor becerilerinin temelini oluşturur; bu beceriler, erken dönemde el yazısını destekleyen temel unsurlardır. Tamamlanmış resmi boyamak ise yaratıcı bir ödül sunar."
           },
           {
-            "range": "43–48",
-            "title": "Bayrak ve Son Rötuşlar",
-            "learn": "Amerikan bayrağını ve son kutlama detaylarını eklemek için 43 ile 48 arasındaki noktaları birleştirerek bulmacayı tamamlayın. Tüm sahneyi bir araya getirmek için sadece altı nokta kaldı; çocukları yavaşlamaya ve bu son çizgileri en iyi şekilde çizmeye teşvik edin. Temiz ve kendinden emin bir bitiş, gerçek bir noktadan noktaya birleştirme uzmanının işaretidir!",
-            "fact": "Amerika'nın ilk balon pilotu, 9 Ocak 1793'te Philadelphia'dan tarihi uçuşunu gerçekleştiren Fransız Jean-Pierre Blanchard'dı. Başkan George Washington, iniş yaptıktan sonra karşılaştığı herkese göstermesi için ona güvenli geçiş belgesi verdi; bu belge çok işine yaradı çünkü Blanchard New Jersey'deki bir çiftlik tarlasına indi ve kim olduğunu açıklamak zorunda kaldı!"
+            "q": "Gas Balloon America 250 hakkında ilginç bir bilgi nedir?",
+            "a": "Amerika'daki ilk gaz balonu uçuşu 1793'te gerçekleşti; George Washington bizzat Philadelphia'daki kalkışı izledi! Çocuklar, Gaz Balonu Amerika 250 noktadan noktaya birleştirme bulmacasını tamamlarken bunun gibi gerçekleri keşfediyorlar."
           }
         ],
-        "outro": "Harika iş — Amerika 250 gaz balonunuz uçmaya hazır! 48 nokta ve gökyüzü kutlamalarla dolu. Amerika'nın muhteşem 250. doğum gününü kutlamak için kırmızı, beyaz ve maviye boyayın. Mutlu yıldönümü, ABD! Sınıf için mükemmel — daha fazla <a href=\"/playgrounds/\">noktadan noktaya birleştirme çalışma sayfası</a> için bakın.",
-        "color_schemes": []
+        "dot_guide": {
+          "intro": "Amerika 250 yaşında – çeyrek milenyum tarih, icat ve macera dolu! Kutlamanın en güzel yolu, muhteşem bir gaz balonuyla şenliklerin üzerinde süzülmekten daha iyi ne olabilir? Gaz balonları ilk uçan makinelerden biriydi ve Amerikalılar cumhuriyetin ilk günlerinden beri onları çok seviyor. Bir kalem alın, 1 numaralı noktayı bulun ve bu balonu kutlama gökyüzüne gönderelim!",
+          "sections": [
+            {
+              "range": "1–10",
+              "title": "Balon Zarfı",
+              "learn": "1. noktadan başlayıp 10. noktaya kadar ilerleyerek balon zarfının büyük, yuvarlak üst kısmını (gazı tutan ve balona klasik şeklini veren büyük, renkli torba) çizin. Çocuklar burada geniş, akıcı kıvrımlar çizmeyi öğrenirler; bu da kalem kontrolünü ve bilek esnekliğini geliştirmek için harika bir yöntemdir.",
+              "fact": "Gaz balonları, genellikle günümüzde helyum olmak üzere, havadan daha hafif bir gazla doldurulur; bu da balonun zarfının sepeti kaldıracak kadar hafif olmasını sağlar. Zarf binlerce metreküp gaz tutabilir ve yuvarlak şekli, basıncın her yöne eşit olarak dağılmasına yardımcı olur."
+            },
+            {
+              "range": "11–22",
+              "title": "Yıldız ve Çizgili Detay",
+              "learn": "11. noktadan 22. noktaya kadar devam ederek balonun etrafını saran dekoratif panel çizgilerini ve vatansever detayları ekleyin. Balon zarfları genellikle birbirine dikilmiş birçok ayrı panelden yapılır ve bu dikiş çizgileri, bitmiş resimde gördüğünüz güzel geometrik desenleri oluşturur. Çocuklar burada daha kısa, daha yönlü çizgiler üzerinde pratik yaparlar.",
+              "fact": "Erken dönem Amerikalı baloncular bazen yeni ulusu kutlamak için balonlarını vatansever renkler ve sembollerle süslerlerdi. 1818 tarihli Bayrak Yasası, her eyalet için bir yıldız olmak üzere 13 şeritli modern kuralı belirledi. Bu nedenle, yeni eyaletler Amerika Birleşik Devletleri'ne katıldıkça Yıldız ve Şeritli Bayrak büyümeye devam edebildi."
+            },
+            {
+              "range": "23–34",
+              "title": "Ağ ve Yük Halkası",
+              "learn": "23 ila 34 arasındaki noktaları takip ederek balonun dışını saran ağı ve sepetin asıldığı zarfın en altındaki dairesel halkayı çizin. Çocuklar, birbirini kesen çizgilerden oluşan bir ağ üzerinde pratik yaparlar; bu da hassasiyet ve ileriye dönük planlama konusunda harika bir alıştırmadır.",
+              "fact": "Birçok gaz balonunun etrafındaki ip ağı sadece dekoratif değil; sepetin ve yolcuların ağırlığını balonun gövdesine dağıtmaya yardımcı oluyor. Ağırlığın birçok ipe dağıtılması, balonun dengede ve sağlam kalmasına yardımcı oluyor."
+            },
+            {
+              "range": "35–42",
+              "title": "Askı Halatları ve Sepet",
+              "learn": "35 ile 42 arasındaki noktaları birleştirerek yük halkasından aşağı sarkan askı halatlarını ve altta asılı duran hasır sepeti çizin. Gondol adı verilen sepet, pilotun ve yolcuların durduğu yerdir. Çocuklar, tek bir şekle doğru yakınsayan paralel çizgiler üzerinde pratik yaparak harika mekansal düşünme becerileri geliştirirler.",
+              "fact": "Balon sepetleri 200 yılı aşkın süredir hasırdan yapılıyor ve hasır bugün de hala favori bir malzeme. Hasır hafif ve esnek olduğu için iniş sırasında hafifçe bükülebiliyor. Bazen eski yöntemler gerçekten de en iyi yöntemlerdir!"
+            },
+            {
+              "range": "43–48",
+              "title": "Bayrak ve Son Rötuşlar",
+              "learn": "Amerikan bayrağını ve son kutlama detaylarını eklemek için 43 ile 48 arasındaki noktaları birleştirerek bulmacayı tamamlayın. Tüm sahneyi bir araya getirmek için sadece altı nokta kaldı; çocukları yavaşlamaya ve bu son çizgileri en iyi şekilde çizmeye teşvik edin. Temiz ve kendinden emin bir bitiş, gerçek bir noktadan noktaya birleştirme uzmanının işaretidir!",
+              "fact": "Amerika'nın ilk balon pilotu, 9 Ocak 1793'te Philadelphia'dan tarihi uçuşunu gerçekleştiren Fransız Jean-Pierre Blanchard'dı. Başkan George Washington, iniş yaptıktan sonra karşılaştığı herkese göstermesi için ona güvenli geçiş belgesi verdi; bu belge çok işine yaradı çünkü Blanchard New Jersey'deki bir çiftlik tarlasına indi ve kim olduğunu açıklamak zorunda kaldı!"
+            }
+          ],
+          "outro": "Harika iş — Amerika 250 gaz balonunuz uçmaya hazır! 48 nokta ve gökyüzü kutlamalarla dolu. Amerika'nın muhteşem 250. doğum gününü kutlamak için kırmızı, beyaz ve maviye boyayın. Mutlu yıldönümü, ABD! Sınıf için mükemmel — daha fazla <a href=\"/playgrounds/\">noktadan noktaya birleştirme çalışma sayfası</a> için bakın.",
+          "color_schemes": []
+        }
       }
-    }
-  },
-  {
-    "slug": "eagle-kite-banner-usa-250-dot-to-dot-puzzle",
-    "header": {
-      "title": "Kartal Uçurtması Noktadan Noktaya: Amerika 250 için 80 Nokta",
-      "meta_description": "Bir kartal ve vatansever pankart 80 nokta boyunca uçar. 5-9 yaş arası çocuklar için 2026'yı kutlayan bu ücretsiz Amerika 250 yazdırılabilirini indirin.",
-      "og": {
+    },
+    {
+      "slug": "eagle-kite-banner-usa-250-dot-to-dot-puzzle",
+      "header": {
         "title": "Kartal Uçurtması Noktadan Noktaya: Amerika 250 için 80 Nokta",
-        "description": "Bir kartal ve vatansever pankart 80 nokta boyunca uçar. 5-9 yaş arası çocuklar için 2026'yı kutlayan bu ücretsiz Amerika 250 yazdırılabilirini indirin.",
-        "image_alt": "Vatansever bayrak çeken kel kartal uçurtması, 80 yazdırılabilir nokta boyunca dizilmiş"
+        "meta_description": "Bir kartal ve vatansever pankart 80 nokta boyunca uçar. 5-9 yaş arası çocuklar için 2026'yı kutlayan bu ücretsiz Amerika 250 yazdırılabilirini indirin.",
+        "og": {
+          "title": "Kartal Uçurtması Noktadan Noktaya: Amerika 250 için 80 Nokta",
+          "description": "Bir kartal ve vatansever pankart 80 nokta boyunca uçar. 5-9 yaş arası çocuklar için 2026'yı kutlayan bu ücretsiz Amerika 250 yazdırılabilirini indirin.",
+          "image_alt": "Vatansever bayrak çeken kel kartal uçurtması, 80 yazdırılabilir nokta boyunca dizilmiş"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Kartal Uçurtma Bayrağı Amerika 250",
+          "description": "Bir kartal ve vatansever pankart 80 nokta boyunca uçar. 5-9 yaş arası çocuklar için 2026'yı kutlayan bu ücretsiz Amerika 250 yazdırılabilirini indirin.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
       },
-      "json_ld": {
-        "type": "CreativeWork",
+      "body": {
+        "h1": "Kartal Uçurtması Noktadan Noktaya: Amerika 250 için 80 Nokta",
         "name": "Kartal Uçurtma Bayrağı Amerika 250",
-        "description": "Bir kartal ve vatansever pankart 80 nokta boyunca uçar. 5-9 yaş arası çocuklar için 2026'yı kutlayan bu ücretsiz Amerika 250 yazdırılabilirini indirin.",
-        "image": "",
-        "educational_use": "Fine motor skills, number sequencing",
-        "age_range": ""
-      }
-    },
-    "body": {
-      "h1": "Kartal Uçurtması Noktadan Noktaya: Amerika 250 için 80 Nokta",
-      "name": "Kartal Uçurtma Bayrağı Amerika 250",
-      "tagline": "ABD'nin 250. yıl dönümünde Amerikan Kartalı ile birlikte yükselin!",
-      "description": "80 kolay noktayı birleştirerek Amerika'nın 250. yıl dönümünü kutlayan, vatansever bir pankartla yükseklerde süzülen muhteşem bir kel kartalı ortaya çıkarın! Bu ücretsiz yazdırılabilir çalışma sayfası, sayı sıralama ve ince motor becerilerini geliştirirken, 250 yıllık Amerikan tarihine duyulan gururu ateşliyor. 5-9 yaş arası çocuklar için mükemmel.",
-      "fun_fact": "Kel kartal, 1782'de Amerika Birleşik Devletleri'nin Büyük Mühürü'nün bir parçası olarak benimsendi — Bağımsızlık Bildirgesi'nin imzalanmasından sadece altı yıl sonra. Şimdi resmi ulusal kuşdur ve görüntüsü günümüzde pasaportlarda, paralarda ve resmi hükümet belgelerinde yer almaktadır!",
-      "dot_guide": {
-        "intro": "Amerika 250. yaş gününü kutluyor ve ülkenin en ikonik sembolü olan kel kartal, kutlamalara öncülük etmek için burada! Arkasında vatansever bir bayrak dalgalanırken, bu görkemli kuş kutlamanın üzerinde yükseklerde süzülüyor. Kartallar, cumhuriyetin en eski günlerinden beri Amerikan özgürlüğünü ve gücünü temsil etmiştir. Kaleminizi alın, 1 numaralı noktayı bulun ve bu kartalı uçuralım!",
-        "sections": [
+        "tagline": "ABD'nin 250. yıl dönümünde Amerikan Kartalı ile birlikte yükselin!",
+        "description": "80 kolay noktayı birleştirerek Amerika'nın 250. yıl dönümünü kutlayan, vatansever bir pankartla yükseklerde süzülen muhteşem bir kel kartalı ortaya çıkarın! Bu ücretsiz yazdırılabilir çalışma sayfası, sayı sıralama ve ince motor becerilerini geliştirirken, 250 yıllık Amerikan tarihine duyulan gururu ateşliyor. 5-9 yaş arası çocuklar için mükemmel.",
+        "fun_fact": "Kel kartal, 1782'de Amerika Birleşik Devletleri'nin Büyük Mühürü'nün bir parçası olarak benimsendi — Bağımsızlık Bildirgesi'nin imzalanmasından sadece altı yıl sonra. Şimdi resmi ulusal kuşdur ve görüntüsü günümüzde pasaportlarda, paralarda ve resmi hükümet belgelerinde yer almaktadır!",
+        "faqs": [
           {
-            "range": "1–16",
-            "title": "Kartalın Başı ve Gagası",
-            "learn": "1. noktadan başlayıp 16. noktaya kadar ilerleyerek kartalın cesur beyaz başını ve keskin, kavisli gagasını çizin. Bu dikkatlice yönlendirilmiş çizgiler, çocukların kalem tutuşlarını geliştirmelerine ve ileride kanatlar için ihtiyaç duyacakları güvenli el kontrolünü kazanmalarına yardımcı olur. Yavaşça çizmelerini ve her noktayı tam olarak hedeflemelerini teşvik edin.",
-            "fact": "Kel kartallar aslında kel değildir; isimleri eski İngilizce \"balde\" kelimesinden gelir ve beyaz anlamına gelir. Çarpıcı beyaz baş tüyleri, kuş yaklaşık beş yaşında yetişkinliğe ulaştığında ortaya çıkar. Bundan önce, genç kartalların kahverengi ve beyaz benekli tüyleri vardır ve bu da onları tanımayı çok daha zorlaştırır."
+            "q": "Eagle Kite Banner America 250 noktadan oluşan birleştirme bulmacasında kaç nokta var?",
+            "a": "Kartal Uçurtma Bayrağı Amerika 250 nokta birleştirme etkinliği, 80 numaralı noktadan oluşmaktadır. Bu da onu 6-9 yaş arası (1. ila 3. sınıf) çocuklar için en uygun orta zorlukta bir bulmaca yapar. Çocuklar noktaları numara sırasına göre birleştirerek tamamlanmış kartal uçurtma bayrağı Amerika 250 resmini ortaya çıkarır ve ardından boyarlar."
           },
           {
-            "range": "17–36",
-            "title": "Açılmış Kanatlar",
-            "learn": "17. noktadan 36. noktaya kadar devam ederek kartalın güçlü, açılmış kanatlarını çizin; bu, resmin en çarpıcı kısmıdır. Kanat ucundan gövdeye uzanan bu uzun, geniş çizgiler, bilek esnekliği ve düzgün çizgi kontrolü için harika bir egzersizdir. Çocuklar, sayfanın daha büyük bir bölümünde tutarlı bir yönü koruma pratiği yaparlar.",
-            "fact": "Kel kartalın kanat açıklığı 2,4 metreye kadar ulaşabilir; bu da onu Kuzey Amerika'nın en büyük yırtıcı kuşlarından biri yapar. Bu devasa kanatlar, kartalların tek bir kanat çırpışı yapmadan saatlerce sıcak yükselen hava akımlarında süzülmelerini ve çok az çabayla muazzam mesafeler kat etmelerini sağlar."
+            "q": "Kartal Uçurtma Afişi Amerika 250 noktadan noktaya çizim şablonu ücretsiz mi?",
+            "a": "Evet. Eagle Kite Banner America 250 çalışma sayfası DotToDotFreePrintables.com adresinden %100 ücretsiz olarak indirilebilir; hesap, e-posta veya ödeme gerekmez. Hem dikey hem de yatay yönlendirmede, ABD Letter veya A4 kağıt boyutuna uygun, baskıya hazır bir PDF olarak anında indirilir."
           },
           {
-            "range": "37–54",
-            "title": "Kuyruk Tüyleri ve Pençeler",
-            "learn": "37 ile 54 arasındaki noktaları takip ederek beyaz kuyruk tüylerinin yelpazesini ve altındaki güçlü, kavisli pençeleri ekleyin. Çocuklar, tüyler için yelpaze şeklinde vuruşlar ve her pençe için keskin, hassas kıvrımlar karışımını çalışırlar; bu, tek bir bölümde hem akıcılık hem de kontrol geliştirmek için harika bir kombinasyondur.",
-            "fact": "Kartalın pençeleri, insan elinden kat kat daha güçlü, yaklaşık 400 pound/inç karelik bir kuvvetle kavrama yeteneğine sahip, birincil avlanma aracıdır. Kel kartalın ayrıca ayak tabanlarında, nehirlerden ve göllerden doğrudan çekilen kaygan balıkları kavramasına yardımcı olan, spikül adı verilen özel olarak pürüzlü, dikenli bir doku bulunur."
+            "q": "Kartal Uçurtma Bayrağı Amerika 250 noktaları birleştirme çalışma sayfası hangi yaş grubu için en uygundur?",
+            "a": "80 noktadan oluşan Kartal Uçurtma Bayrağı Amerika 250 yapbozu, 6-9 yaş arası (1. ila 3. sınıf) çocuklar için en uygundur. Daha küçük çocuklar, sayma konusunda yetişkinlerin hafif yardımıyla keyif alabilirken, sayı sayma konusunda kendine güvenenler bağımsız olarak tamamlayabilir ve 80'e kadar sayı sıralaması pratiği yapabilirler."
           },
           {
-            "range": "55–68",
-            "title": "Vatanseverlik Sancağı",
-            "learn": "55 ile 68 arasındaki noktaları birleştirerek kartalın arkasında dalgalanan bayrağı çizin. Hareket halindeki bir bayrağın kurdele benzeri kıvrımları, düzgün ve akıcı çizgi çalışmaları için harika bir meydan okumadır. Çocukları, her bir nazik yayı çizerken bayrağın yaz esintisinde dalgalandığını hayal etmeye teşvik edin.",
-            "fact": "Birçok ünlü Amerikan amblemi ve mühründe kel kartal gagasıyla bir bayrak veya kurdele tutar. Amerika Birleşik Devletleri Büyük Mührü'nde kartal, \"E Pluribus Unum\" yazılı bir kurdele tutar; bu Latince ifade \"Çokluktan Birliğe\" anlamına gelir ve 1782'den beri Amerikan paralarında ve belgelerinde yer almaktadır."
+            "q": "Eagle Kite Banner America 250 noktadan noktaya birleştirme bulmacası hangi becerileri öğretiyor?",
+            "a": "Eagle Kite Banner America 250 yapbozunun 80 noktasını birleştirmek, sayı tanıma ve 80'e kadar sayma, kalem kontrolü, el-göz koordinasyonu ve sürekli odaklanma gibi ince motor becerilerini geliştirir; bu beceriler, erken dönemde el yazısını destekleyen temel unsurlardır. Tamamlanmış resmi boyamak ise yaratıcı bir ödül sunar."
           },
           {
-            "range": "69–80",
-            "title": "Yıldızlar ve Son Rötuşlar",
-            "learn": "Vatansever yıldızları ve tüm sahneyi canlandıran son kutlama detaylarını eklemek için 69'dan 80'e kadar olan noktaları birleştirerek yapbozu tamamlayın. Resmi tamamlamak için sadece on iki nokta var; çocukları yavaşlamaya ve bu son çizgileri en iyi şekilde çizmeye teşvik edin. Temiz ve dikkatli bir bitiş, gerçek bir noktadan noktaya birleştirme şampiyonunun işaretidir!",
-            "fact": "Amerikan bayrağındaki 50 yıldızın her biri, birliğin 50 eyaletinden birini temsil eder. Yeni eyaletlerin katılmasıyla bayrak 27 kez güncellenmiştir; en son değişiklik 1960 yılında Hawaii'nin yıldızının eklenmesiyle gerçekleşmiştir. Mevcut 50 yıldızlı tasarım, Amerikan tarihinde diğer tüm versiyonlardan daha uzun süredir resmi bayrak olarak kullanılmaktadır."
+            "q": "Kartal uçurtma afişi Amerika 250 ile ilgili ilginç bir bilgi nedir?",
+            "a": "Kel kartal, Bağımsızlık Bildirgesi'nin imzalanmasından sadece altı yıl sonra, 1782'de Amerika Birleşik Devletleri'nin Büyük Mührü'nün bir parçası olarak kabul edildi. Şimdi resmi ulusal kuştur ve görüntüsü günümüzde bile pasaportlarda, madeni paralarda ve resmi hükümet belgelerinde yer almaktadır! Çocuklar, Kartal Uçurtma Bayrağı Amerika 250 noktadan noktaya birleştirme bulmacasını tamamlarken bunun gibi gerçekleri keşfederler."
           }
         ],
-        "outro": "Muhteşem bir çalışma — Amerika 250 kartalınız gururla süzülüyor! 80 noktadan oluşan bu eser, Amerikan özgürlüğünün muhteşem bir sembolü. Kartalı kahverengi ve beyaz, bayrağı kırmızı ve altın rengi, yıldızları ise kırmızı, beyaz ve mavi renklere boyayarak Amerika'ya mümkün olan en vatansever 250. doğum günü kutlamasını yapın. Mutlu yıldönümü, ABD! Kutlamaları devam ettirmek için daha fazla <a href=\"/usa-250/\">Amerika 250 yazdırılabilir materyali</a> keşfedin.",
-        "color_schemes": []
+        "dot_guide": {
+          "intro": "Amerika 250. yaş gününü kutluyor ve ülkenin en ikonik sembolü olan kel kartal, kutlamalara öncülük etmek için burada! Arkasında vatansever bir bayrak dalgalanırken, bu görkemli kuş kutlamanın üzerinde yükseklerde süzülüyor. Kartallar, cumhuriyetin en eski günlerinden beri Amerikan özgürlüğünü ve gücünü temsil etmiştir. Kaleminizi alın, 1 numaralı noktayı bulun ve bu kartalı uçuralım!",
+          "sections": [
+            {
+              "range": "1–16",
+              "title": "Kartalın Başı ve Gagası",
+              "learn": "1. noktadan başlayıp 16. noktaya kadar ilerleyerek kartalın cesur beyaz başını ve keskin, kavisli gagasını çizin. Bu dikkatlice yönlendirilmiş çizgiler, çocukların kalem tutuşlarını geliştirmelerine ve ileride kanatlar için ihtiyaç duyacakları güvenli el kontrolünü kazanmalarına yardımcı olur. Yavaşça çizmelerini ve her noktayı tam olarak hedeflemelerini teşvik edin.",
+              "fact": "Kel kartallar aslında kel değildir; isimleri eski İngilizce \"balde\" kelimesinden gelir ve beyaz anlamına gelir. Çarpıcı beyaz baş tüyleri, kuş yaklaşık beş yaşında yetişkinliğe ulaştığında ortaya çıkar. Bundan önce, genç kartalların kahverengi ve beyaz benekli tüyleri vardır ve bu da onları tanımayı çok daha zorlaştırır."
+            },
+            {
+              "range": "17–36",
+              "title": "Açılmış Kanatlar",
+              "learn": "17. noktadan 36. noktaya kadar devam ederek kartalın güçlü, açılmış kanatlarını çizin; bu, resmin en çarpıcı kısmıdır. Kanat ucundan gövdeye uzanan bu uzun, geniş çizgiler, bilek esnekliği ve düzgün çizgi kontrolü için harika bir egzersizdir. Çocuklar, sayfanın daha büyük bir bölümünde tutarlı bir yönü koruma pratiği yaparlar.",
+              "fact": "Kel kartalın kanat açıklığı 2,4 metreye kadar ulaşabilir; bu da onu Kuzey Amerika'nın en büyük yırtıcı kuşlarından biri yapar. Bu devasa kanatlar, kartalların tek bir kanat çırpışı yapmadan saatlerce sıcak yükselen hava akımlarında süzülmelerini ve çok az çabayla muazzam mesafeler kat etmelerini sağlar."
+            },
+            {
+              "range": "37–54",
+              "title": "Kuyruk Tüyleri ve Pençeler",
+              "learn": "37 ile 54 arasındaki noktaları takip ederek beyaz kuyruk tüylerinin yelpazesini ve altındaki güçlü, kavisli pençeleri ekleyin. Çocuklar, tüyler için yelpaze şeklinde vuruşlar ve her pençe için keskin, hassas kıvrımlar karışımını çalışırlar; bu, tek bir bölümde hem akıcılık hem de kontrol geliştirmek için harika bir kombinasyondur.",
+              "fact": "Kartalın pençeleri, insan elinden kat kat daha güçlü, yaklaşık 400 pound/inç karelik bir kuvvetle kavrama yeteneğine sahip, birincil avlanma aracıdır. Kel kartalın ayrıca ayak tabanlarında, nehirlerden ve göllerden doğrudan çekilen kaygan balıkları kavramasına yardımcı olan, spikül adı verilen özel olarak pürüzlü, dikenli bir doku bulunur."
+            },
+            {
+              "range": "55–68",
+              "title": "Vatanseverlik Sancağı",
+              "learn": "55 ile 68 arasındaki noktaları birleştirerek kartalın arkasında dalgalanan bayrağı çizin. Hareket halindeki bir bayrağın kurdele benzeri kıvrımları, düzgün ve akıcı çizgi çalışmaları için harika bir meydan okumadır. Çocukları, her bir nazik yayı çizerken bayrağın yaz esintisinde dalgalandığını hayal etmeye teşvik edin.",
+              "fact": "Birçok ünlü Amerikan amblemi ve mühründe kel kartal gagasıyla bir bayrak veya kurdele tutar. Amerika Birleşik Devletleri Büyük Mührü'nde kartal, \"E Pluribus Unum\" yazılı bir kurdele tutar; bu Latince ifade \"Çokluktan Birliğe\" anlamına gelir ve 1782'den beri Amerikan paralarında ve belgelerinde yer almaktadır."
+            },
+            {
+              "range": "69–80",
+              "title": "Yıldızlar ve Son Rötuşlar",
+              "learn": "Vatansever yıldızları ve tüm sahneyi canlandıran son kutlama detaylarını eklemek için 69'dan 80'e kadar olan noktaları birleştirerek yapbozu tamamlayın. Resmi tamamlamak için sadece on iki nokta var; çocukları yavaşlamaya ve bu son çizgileri en iyi şekilde çizmeye teşvik edin. Temiz ve dikkatli bir bitiş, gerçek bir noktadan noktaya birleştirme şampiyonunun işaretidir!",
+              "fact": "Amerikan bayrağındaki 50 yıldızın her biri, birliğin 50 eyaletinden birini temsil eder. Yeni eyaletlerin katılmasıyla bayrak 27 kez güncellenmiştir; en son değişiklik 1960 yılında Hawaii'nin yıldızının eklenmesiyle gerçekleşmiştir. Mevcut 50 yıldızlı tasarım, Amerikan tarihinde diğer tüm versiyonlardan daha uzun süredir resmi bayrak olarak kullanılmaktadır."
+            }
+          ],
+          "outro": "Muhteşem bir çalışma — Amerika 250 kartalınız gururla süzülüyor! 80 noktadan oluşan bu eser, Amerikan özgürlüğünün muhteşem bir sembolü. Kartalı kahverengi ve beyaz, bayrağı kırmızı ve altın rengi, yıldızları ise kırmızı, beyaz ve mavi renklere boyayarak Amerika'ya mümkün olan en vatansever 250. doğum günü kutlamasını yapın. Mutlu yıldönümü, ABD! Kutlamaları devam ettirmek için daha fazla <a href=\"/usa-250/\">Amerika 250 yazdırılabilir materyali</a> keşfedin.",
+          "color_schemes": []
+        }
       }
-    }
-  },
-  {
-    "slug": "america-250-birthday-fireworks-dot-to-dot-puzzle",
-    "header": {
-      "title": "Amerika 250 Havai Fişekleri Noktaları Birleştir — 90 Nokta Aydınlanıyor",
-      "meta_description": "Havai fişekler, 1777'den beri Bağımsızlık Günü'nü işaret ediyor. 6-10 yaş arası çocuklar için bu ücretsiz 2026 Amerika 250 PDF ile 90 noktalık bir gösteriyi aydınlatın.",
-      "og": {
+    },
+    {
+      "slug": "america-250-birthday-fireworks-dot-to-dot-puzzle",
+      "header": {
         "title": "Amerika 250 Havai Fişekleri Noktaları Birleştir — 90 Nokta Aydınlanıyor",
-        "description": "Havai fişekler, 1777'den beri Bağımsızlık Günü'nü işaret ediyor. 6-10 yaş arası çocuklar için bu ücretsiz 2026 Amerika 250 PDF ile 90 noktalık bir gösteriyi aydınlatın.",
-        "image_alt": "Amerika 250 için 90 yazdırılabilir noktadan kaynaklanan patlayan havai fişek gösterisi"
+        "meta_description": "Havai fişekler, 1777'den beri Bağımsızlık Günü'nü işaret ediyor. 6-10 yaş arası çocuklar için bu ücretsiz 2026 Amerika 250 PDF ile 90 noktalık bir gösteriyi aydınlatın.",
+        "og": {
+          "title": "Amerika 250 Havai Fişekleri Noktaları Birleştir — 90 Nokta Aydınlanıyor",
+          "description": "Havai fişekler, 1777'den beri Bağımsızlık Günü'nü işaret ediyor. 6-10 yaş arası çocuklar için bu ücretsiz 2026 Amerika 250 PDF ile 90 noktalık bir gösteriyi aydınlatın.",
+          "image_alt": "Amerika 250 için 90 yazdırılabilir noktadan kaynaklanan patlayan havai fişek gösterisi"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Amerika'nın 250. Doğum Günü Havai Fişekleri",
+          "description": "Havai fişekler, 1777'den beri Bağımsızlık Günü'nü işaret ediyor. 6-10 yaş arası çocuklar için bu ücretsiz 2026 Amerika 250 PDF ile 90 noktalık bir gösteriyi aydınlatın.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
       },
-      "json_ld": {
-        "type": "CreativeWork",
+      "body": {
+        "h1": "Amerika 250 Havai Fişekleri Noktadan Noktaya — 90 Noktayı Aydınlat",
         "name": "Amerika'nın 250. Doğum Günü Havai Fişekleri",
-        "description": "Havai fişekler, 1777'den beri Bağımsızlık Günü'nü işaret ediyor. 6-10 yaş arası çocuklar için bu ücretsiz 2026 Amerika 250 PDF ile 90 noktalık bir gösteriyi aydınlatın.",
-        "image": "",
-        "educational_use": "Fine motor skills, number sequencing",
-        "age_range": ""
-      }
-    },
-    "body": {
-      "h1": "Amerika 250 Havai Fişekleri Noktadan Noktaya — 90 Noktayı Aydınlat",
-      "name": "Amerika'nın 250. Doğum Günü Havai Fişekleri",
-      "tagline": "Amerika'nın 250. kuruluş yıldönümü için gökyüzünü aydınlatalım!",
-      "description": "90 kolay noktayı birleştirerek Amerika'nın 250. yıl dönümünü kutlayan muhteşem bir havai fişek gösterisini ortaya çıkarın! Bu ücretsiz yazdırılabilir çalışma sayfası, sayı sıralama ve ince motor becerilerini geliştirirken, vatansever gururu aydınlatıyor. 6-10 yaş arası çocuklar için daha uzun bir noktadan noktaya zorluğuna hazır olanlar için mükemmel.",
-      "fun_fact": "Havai fişekler, Amerikan Bağımsızlık Günü kutlamalarının ayrılmaz bir parçası olmuştur; bu kutlamalar, Bağımsızlık Bildirgesi'nin imzalanmasından sadece bir yıl sonra, 4 Temmuz 1777'deki ilk yıldönümünden beri yapılmaktadır!",
-      "dot_guide": {
-        "intro": "Amerika Birleşik Devletleri 250 yaşında ve çeyrek milenyumu kutlamanın göz kamaştırıcı havai fişeklerle dolu bir gökyüzüyle yapmaktan daha iyi bir yolu olabilir mi? Havai fişekler, ülkenin en eski günlerinden beri 4 Temmuz'u aydınlatarak gece gökyüzünü renk ve ışık tablosuna dönüştürüyor. Kaleminizi alın, 1 numaralı noktayı bulun ve bu muhteşem doğum günü gösterisini başlatalım!",
-        "sections": [
+        "tagline": "Amerika'nın 250. kuruluş yıldönümü için gökyüzünü aydınlatalım!",
+        "description": "90 kolay noktayı birleştirerek Amerika'nın 250. yıl dönümünü kutlayan muhteşem bir havai fişek gösterisini ortaya çıkarın! Bu ücretsiz yazdırılabilir çalışma sayfası, sayı sıralama ve ince motor becerilerini geliştirirken, vatansever gururu aydınlatıyor. 6-10 yaş arası çocuklar için daha uzun bir noktadan noktaya zorluğuna hazır olanlar için mükemmel.",
+        "fun_fact": "Havai fişekler, Amerikan Bağımsızlık Günü kutlamalarının ayrılmaz bir parçası olmuştur; bu kutlamalar, Bağımsızlık Bildirgesi'nin imzalanmasından sadece bir yıl sonra, 4 Temmuz 1777'deki ilk yıldönümünden beri yapılmaktadır!",
+        "faqs": [
           {
-            "range": "1–18",
-            "title": "Gece Gökyüzü",
-            "learn": "1. noktadan başlayıp 18. noktaya kadar uzanarak, gösterinin arka planını oluşturan derin, yıldızlı gökyüzünü çizin. Bu geniş, akıcı çizgiler, çocukların kalem tutuşlarını geliştirmelerine ve ilerideki heyecan verici havai fişek patlamaları için ihtiyaç duyacakları pürüzsüz, kendinden emin çizgileri oluşturmalarına yardımcı olur.",
-            "fact": "Gece gökyüzü, güneşin dünyanın diğer tarafında olması nedeniyle karanlık görünür, ancak asla tamamen boş değildir; şehir ışıklarından uzak, açık bir gecede çıplak gözle 4.500'e kadar yıldız görebilirsiniz. Kurucu Babalar 1776'da bağımsızlığı ilk kutladıklarında da aynı gökyüzüyle karşılaşmışlardı."
+            "q": "Amerika'nın 250. kuruluş yıldönümü havai fişek temalı noktadan noktaya birleştirme bulmacasında kaç nokta var?",
+            "a": "Amerika'nın 250. Doğum Günü Havai Fişekleri temalı noktaları birleştirme etkinliği, 90 numaralı noktadan oluşmaktadır. Bu da onu 6-9 yaş arası (1. ila 3. sınıf) çocuklar için en uygun orta zorlukta bir bulmaca yapmaktadır. Çocuklar noktaları numara sırasına göre birleştirerek tamamlanmış Amerika'nın 250. doğum günü havai fişekleri resmini ortaya çıkarır ve ardından boyarlar."
           },
           {
-            "range": "19–36",
-            "title": "İlk Havai Fişek Patlaması",
-            "learn": "19. noktadan 36. noktaya kadar devam ederek gökyüzünde patlayan ilk büyük havai fişek patlamasını çizin. Çocuklar, merkezi bir noktadan dışarı doğru yayılan çizgiler çizmeyi öğrenirler; bu, yön kontrolü ve bilek rotasyonu için harika bir egzersizdir.",
-            "fact": "Havai fişekler, 1000 yıldan fazla önce Çin'de simyacıların kömür, kükürt ve potasyum nitrat karışımının parlak bir ışık ve patlama üreteceğini keşfetmesiyle icat edildi. Bu tarif sonunda Avrupa'ya ve ardından Amerika'ya ulaştı ve kutlamaların simgesi haline geldi."
+            "q": "Amerika'nın 250. kuruluş yıldönümü havai fişek temalı noktadan noktaya birleştirme şablonu ücretsiz mi?",
+            "a": "Evet. Amerika'nın 250. Doğum Günü Havai Fişekleri çalışma sayfası, DotToDotFreePrintables.com adresinden %100 ücretsiz olarak indirilebilir; hesap, e-posta veya ödeme gerekmez. Hem dikey hem de yatay yönlendirmede, ABD Letter veya A4 kağıt boyutuna uygun, yazdırmaya hazır bir PDF olarak anında indirilir."
           },
           {
-            "range": "37–54",
-            "title": "Şelale Gibi Akan Kıvılcımlar",
-            "learn": "Ana patlamanın ardından aşağı doğru uzanan ışıltılı kıvılcım şelalesini eklemek için 37 ila 54 arasındaki noktaları takip edin. Bu kıvrımlı, düşen çizgiler havai fişeklere karakteristik ağlayan söğüt şeklini verir ve yumuşak, nazik kıvrımlar çizme konusunda harika bir pratik sağlar.",
-            "fact": "Havai fişeklerdeki farklı renkler, farklı metal tuzlarının yakılmasından kaynaklanır: stronsiyum tuzları kırmızı, baryum tuzları yeşil, bakır bileşikleri mavi ve sodyum bileşikleri parlak sarı renk üretir. Bu tuzların karıştırılması, havai fişek uzmanlarının gökyüzünü istedikleri hemen hemen her renkle boyamalarına olanak tanır."
+            "q": "Amerika'nın 250. kuruluş yıldönümü havai fişekleri temalı noktaları birleştirme çalışma sayfası hangi yaş grubu için en uygundur?",
+            "a": "90 noktadan oluşan Amerika'nın 250. Doğum Günü Havai Fişekleri yapbozu, 6-9 yaş arası (1. ila 3. sınıf) çocuklar için en uygundur. Daha küçük çocuklar, yetişkinlerin sayma konusunda hafif yardımıyla yapmaktan keyif alabilirken, kendine güvenen çocuklar bağımsız olarak tamamlayabilir ve 90'a kadar sayı sıralaması pratiği yapabilirler."
           },
           {
-            "range": "55–72",
-            "title": "Büyük Final Patlaması",
-            "learn": "55 ile 72 arasındaki noktaları birleştirerek en büyük ve en parlak havai fişeği, yani gökyüzünün merkezini dolduran büyük final patlamasını ortaya çıkarın. Çocuklar, tek bir noktada birleşen yoğun bir çizgi dizisi oluşturarak pratik yaparlar; bu, hassasiyet ve mekansal planlama için harika bir meydan okumadır.",
-            "fact": "Havai fişek gösterilerindeki \"büyük final\" geleneği, erken dönem profesyonel piroteknik uzmanlarının kalabalık dağılmadan önce gösterileri en büyük etkiyle sonlandırmak istemelerinden kaynaklanmıştır. Günümüzün büyük finallerinde dakikada yüzlerce fişek ateşlenebilir ve gökyüzü birkaç saniyeliğine neredeyse gündüz kadar parlak hale gelir."
+            "q": "Amerika'nın 250. kuruluş yıldönümü havai fişek temalı noktadan noktaya birleştirme bulmacası hangi becerileri öğretiyor?",
+            "a": "Amerika'nın 250. Doğum Günü Havai Fişekleri yapbozunun 90 noktasını birleştirmek, sayı tanıma ve 90'a kadar sayma, kalem kontrolü, el-göz koordinasyonu ve sürekli odaklanma gibi ince motor becerilerini geliştirir; bu beceriler, erken dönemde el yazısını destekleyen temel unsurlardır. Tamamlanmış resmi boyamak ise yaratıcı bir ödül sunar."
           },
           {
-            "range": "73–90",
-            "title": "Yıldızlar, Bayrak ve Son Rötuşlar",
-            "learn": "73 ile 90 arasındaki noktaları birleştirerek vatansever yıldızları, dalgalanan Amerikan bayrağını ve doğum günü sahnesini tamamlayan son kutlama detaylarını ekleyerek yapbozu tamamlayın. Çocukları acele etmemeye teşvik edin; bu son noktalar tüm resmi canlandırıyor. Dikkatli ve kendinden emin bir bitiş, gerçek bir noktadan noktaya birleştirme şampiyonunun işaretidir!",
-            "fact": "Amerikan bayrağında her eyaleti temsil eden 50 yıldız ve ilk kolonileri temsil eden 13 şerit bulunur. Her yıl 4 Temmuz'da, bayrak ülkenin en küçük kasabasından Beyaz Saray'a kadar evlerde, okullarda ve devlet binalarında gün doğuşundan gün batımına kadar dalgalanır."
+            "q": "Amerika'nın 250. kuruluş yıldönümü havai fişekleriyle ilgili ilginç bir bilgi nedir?",
+            "a": "Havai fişekler, Amerikan Bağımsızlık Günü kutlamalarının ilk yıldönümü olan 4 Temmuz 1777'den beri, yani Bağımsızlık Bildirgesi'nin imzalanmasından sadece bir yıl sonra, bir parçası olmuştur! Çocuklar, Amerika'nın 250. Doğum Günü Havai Fişekleri noktadan noktaya birleştirme bulmacasını tamamlarken bu gibi gerçekleri keşfederler."
           }
         ],
-        "outro": "Harika iş — Amerika'nın 250. yıl dönümü havai fişek gösteriniz gökyüzünü aydınlatıyor! 90 nokta ve muhteşem bir doğum günü kutlaması. Amerika'ya mümkün olan en vatansever vedayı vermek için patlamaları kırmızı, beyaz ve maviye boyayın. Amerika Birleşik Devletleri'nin 250. doğum günü kutlu olsun! <a href=\"/\">Noktadan noktaya birleştirme şablonlarımızın</a> tamamını keşfedin.",
-        "color_schemes": []
+        "dot_guide": {
+          "intro": "Amerika Birleşik Devletleri 250 yaşında ve çeyrek milenyumu kutlamanın göz kamaştırıcı havai fişeklerle dolu bir gökyüzüyle yapmaktan daha iyi bir yolu olabilir mi? Havai fişekler, ülkenin en eski günlerinden beri 4 Temmuz'u aydınlatarak gece gökyüzünü renk ve ışık tablosuna dönüştürüyor. Kaleminizi alın, 1 numaralı noktayı bulun ve bu muhteşem doğum günü gösterisini başlatalım!",
+          "sections": [
+            {
+              "range": "1–18",
+              "title": "Gece Gökyüzü",
+              "learn": "1. noktadan başlayıp 18. noktaya kadar uzanarak, gösterinin arka planını oluşturan derin, yıldızlı gökyüzünü çizin. Bu geniş, akıcı çizgiler, çocukların kalem tutuşlarını geliştirmelerine ve ilerideki heyecan verici havai fişek patlamaları için ihtiyaç duyacakları pürüzsüz, kendinden emin çizgileri oluşturmalarına yardımcı olur.",
+              "fact": "Gece gökyüzü, güneşin dünyanın diğer tarafında olması nedeniyle karanlık görünür, ancak asla tamamen boş değildir; şehir ışıklarından uzak, açık bir gecede çıplak gözle 4.500'e kadar yıldız görebilirsiniz. Kurucu Babalar 1776'da bağımsızlığı ilk kutladıklarında da aynı gökyüzüyle karşılaşmışlardı."
+            },
+            {
+              "range": "19–36",
+              "title": "İlk Havai Fişek Patlaması",
+              "learn": "19. noktadan 36. noktaya kadar devam ederek gökyüzünde patlayan ilk büyük havai fişek patlamasını çizin. Çocuklar, merkezi bir noktadan dışarı doğru yayılan çizgiler çizmeyi öğrenirler; bu, yön kontrolü ve bilek rotasyonu için harika bir egzersizdir.",
+              "fact": "Havai fişekler, 1000 yıldan fazla önce Çin'de simyacıların kömür, kükürt ve potasyum nitrat karışımının parlak bir ışık ve patlama üreteceğini keşfetmesiyle icat edildi. Bu tarif sonunda Avrupa'ya ve ardından Amerika'ya ulaştı ve kutlamaların simgesi haline geldi."
+            },
+            {
+              "range": "37–54",
+              "title": "Şelale Gibi Akan Kıvılcımlar",
+              "learn": "Ana patlamanın ardından aşağı doğru uzanan ışıltılı kıvılcım şelalesini eklemek için 37 ila 54 arasındaki noktaları takip edin. Bu kıvrımlı, düşen çizgiler havai fişeklere karakteristik ağlayan söğüt şeklini verir ve yumuşak, nazik kıvrımlar çizme konusunda harika bir pratik sağlar.",
+              "fact": "Havai fişeklerdeki farklı renkler, farklı metal tuzlarının yakılmasından kaynaklanır: stronsiyum tuzları kırmızı, baryum tuzları yeşil, bakır bileşikleri mavi ve sodyum bileşikleri parlak sarı renk üretir. Bu tuzların karıştırılması, havai fişek uzmanlarının gökyüzünü istedikleri hemen hemen her renkle boyamalarına olanak tanır."
+            },
+            {
+              "range": "55–72",
+              "title": "Büyük Final Patlaması",
+              "learn": "55 ile 72 arasındaki noktaları birleştirerek en büyük ve en parlak havai fişeği, yani gökyüzünün merkezini dolduran büyük final patlamasını ortaya çıkarın. Çocuklar, tek bir noktada birleşen yoğun bir çizgi dizisi oluşturarak pratik yaparlar; bu, hassasiyet ve mekansal planlama için harika bir meydan okumadır.",
+              "fact": "Havai fişek gösterilerindeki \"büyük final\" geleneği, erken dönem profesyonel piroteknik uzmanlarının kalabalık dağılmadan önce gösterileri en büyük etkiyle sonlandırmak istemelerinden kaynaklanmıştır. Günümüzün büyük finallerinde dakikada yüzlerce fişek ateşlenebilir ve gökyüzü birkaç saniyeliğine neredeyse gündüz kadar parlak hale gelir."
+            },
+            {
+              "range": "73–90",
+              "title": "Yıldızlar, Bayrak ve Son Rötuşlar",
+              "learn": "73 ile 90 arasındaki noktaları birleştirerek vatansever yıldızları, dalgalanan Amerikan bayrağını ve doğum günü sahnesini tamamlayan son kutlama detaylarını ekleyerek yapbozu tamamlayın. Çocukları acele etmemeye teşvik edin; bu son noktalar tüm resmi canlandırıyor. Dikkatli ve kendinden emin bir bitiş, gerçek bir noktadan noktaya birleştirme şampiyonunun işaretidir!",
+              "fact": "Amerikan bayrağında her eyaleti temsil eden 50 yıldız ve ilk kolonileri temsil eden 13 şerit bulunur. Her yıl 4 Temmuz'da, bayrak ülkenin en küçük kasabasından Beyaz Saray'a kadar evlerde, okullarda ve devlet binalarında gün doğuşundan gün batımına kadar dalgalanır."
+            }
+          ],
+          "outro": "Harika iş — Amerika'nın 250. yıl dönümü havai fişek gösteriniz gökyüzünü aydınlatıyor! 90 nokta ve muhteşem bir doğum günü kutlaması. Amerika'ya mümkün olan en vatansever vedayı vermek için patlamaları kırmızı, beyaz ve maviye boyayın. Amerika Birleşik Devletleri'nin 250. doğum günü kutlu olsun! <a href=\"/\">Noktadan noktaya birleştirme şablonlarımızın</a> tamamını keşfedin.",
+          "color_schemes": []
+        }
       }
-    }
-  },
-  {
-    "slug": "america-250-anniversary-liberty-bell-wings-1776-dot-to-dot-puzzle",
-    "header": {
-      "title": "Özgürlük Çanı Noktaları Birleştir: 2026 İçin 64 Kanatlı Nokta",
-      "meta_description": "Amerika'nın 250. yıl dönümünü kutlarken 64 nokta boyunca kanatlı bir Özgürlük Çanı çizin. Ücretsiz 2026 yazdırılabilir, 4-8 yaş arası çocuklar için uygundur.",
-      "og": {
+    },
+    {
+      "slug": "america-250-anniversary-liberty-bell-wings-1776-dot-to-dot-puzzle",
+      "header": {
         "title": "Özgürlük Çanı Noktaları Birleştir: 2026 İçin 64 Kanatlı Nokta",
-        "description": "Amerika'nın 250. yıl dönümünü kutlarken 64 nokta boyunca kanatlı bir Özgürlük Çanı çizin. Ücretsiz 2026 yazdırılabilir, 4-8 yaş arası çocuklar için uygundur.",
-        "image_alt": "Kanatlı Özgürlük Çanı, Amerika 250 sayfasında 64 noktadan çınlıyor"
+        "meta_description": "Amerika'nın 250. yıl dönümünü kutlarken 64 nokta boyunca kanatlı bir Özgürlük Çanı çizin. Ücretsiz 2026 yazdırılabilir, 4-8 yaş arası çocuklar için uygundur.",
+        "og": {
+          "title": "Özgürlük Çanı Noktaları Birleştir: 2026 İçin 64 Kanatlı Nokta",
+          "description": "Amerika'nın 250. yıl dönümünü kutlarken 64 nokta boyunca kanatlı bir Özgürlük Çanı çizin. Ücretsiz 2026 yazdırılabilir, 4-8 yaş arası çocuklar için uygundur.",
+          "image_alt": "Kanatlı Özgürlük Çanı, Amerika 250 sayfasında 64 noktadan çınlıyor"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Amerika 250 Özgürlük Çanı Kanatları",
+          "description": "Amerika'nın 250. yıl dönümünü kutlarken 64 nokta boyunca kanatlı bir Özgürlük Çanı çizin. Ücretsiz 2026 yazdırılabilir, 4-8 yaş arası çocuklar için uygundur.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
       },
-      "json_ld": {
-        "type": "CreativeWork",
+      "body": {
+        "h1": "Özgürlük Çanı Noktadan Noktaya: 2026 için 64 Kanatlı Nokta",
         "name": "Amerika 250 Özgürlük Çanı Kanatları",
-        "description": "Amerika'nın 250. yıl dönümünü kutlarken 64 nokta boyunca kanatlı bir Özgürlük Çanı çizin. Ücretsiz 2026 yazdırılabilir, 4-8 yaş arası çocuklar için uygundur.",
-        "image": "",
-        "educational_use": "Fine motor skills, number sequencing",
-        "age_range": ""
-      }
-    },
-    "body": {
-      "h1": "Özgürlük Çanı Noktadan Noktaya: 2026 için 64 Kanatlı Nokta",
-      "name": "Amerika 250 Özgürlük Çanı Kanatları",
-      "tagline": "Amerika'nın 250. yıl dönümünde özgürlük çanları çalsın!",
-      "description": "64 kolay noktayı birleştirerek Amerika'nın 250. yıl dönümünü kutlamak için kanatlarıyla süzülen ikonik Özgürlük Çanı'nı ortaya çıkarın! Bu ücretsiz yazdırılabilir çalışma sayfası, genç çocukların sayı sıralama ve ince motor becerilerini pratik yapmalarına yardımcı olurken, Amerika'nın en sevilen özgürlük sembollerinden birini keşfetmelerini sağlıyor. 4-8 yaş arası için mükemmel.",
-      "fun_fact": "Özgürlük Çanı, yıllarca kullanımdan sonra çatlamasıyla ünlüdür. Orijinal Devlet Binası çanı, 1751'de Londra'dan sipariş edilmiş, ilk deneme çalmasında çatlamış ve 1753'te Philadelphia'da John Pass ve John Stow tarafından yeniden dökülmüştür. Üzerindeki yazı \"Tüm Ülkede Özgürlüğü İlan Edin\" şeklindedir.",
-      "dot_guide": {
-        "intro": "Amerika 250 yaşında ve kutlamak için Özgürlük Çanı'ndan daha iyi bir sembol olabilir mi! Bu efsanevi Eyalet Meclisi çanı, Bağımsızlık Bildirgesi kabul edildiğinde Philadelphia'da asılıydı ve özgürlük mesajı 1800'lerde meşhur oldu. Kaleminizi alın, 1 numaralı noktayı bulun ve özgürlüğün çanlarını çalalım!",
-        "sections": [
+        "tagline": "Amerika'nın 250. yıl dönümünde özgürlük çanları çalsın!",
+        "description": "64 kolay noktayı birleştirerek Amerika'nın 250. yıl dönümünü kutlamak için kanatlarıyla süzülen ikonik Özgürlük Çanı'nı ortaya çıkarın! Bu ücretsiz yazdırılabilir çalışma sayfası, genç çocukların sayı sıralama ve ince motor becerilerini pratik yapmalarına yardımcı olurken, Amerika'nın en sevilen özgürlük sembollerinden birini keşfetmelerini sağlıyor. 4-8 yaş arası için mükemmel.",
+        "fun_fact": "Özgürlük Çanı, yıllarca kullanımdan sonra çatlamasıyla ünlüdür. Orijinal Devlet Binası çanı, 1751'de Londra'dan sipariş edilmiş, ilk deneme çalmasında çatlamış ve 1753'te Philadelphia'da John Pass ve John Stow tarafından yeniden dökülmüştür. Üzerindeki yazı \"Tüm Ülkede Özgürlüğü İlan Edin\" şeklindedir.",
+        "faqs": [
           {
-            "range": "1–13",
-            "title": "Çanın Tacı ve Boyunduruğu",
-            "learn": "1 numaralı noktadan başlayıp 13 numaralı noktaya kadar uzanarak Özgürlük Çanı'nın en tepesindeki taç ve boyunduruğu (çanı yerinde tutan sağlam çerçeve) çizin. Bu istikrarlı kavisli ve düz çizgiler, çocukların kalem tutuşlarını geliştirmelerine ve resmin geri kalanı için ihtiyaç duyacakları kontrollü vuruşları uygulamalarına yardımcı olur.",
-            "fact": "Özgürlük Çanı'nın ahşap askısı Amerikan karaağacından yapılmıştır, ancak tarihçiler bunun çanın orijinal askısı olduğunu kanıtlayamamaktadır. Çan, serbestçe sallanabilmesi ve sömürge dönemi Philadelphia'sında derin, yankılı bir ses çıkarabilmesi için ahşap bir destekten asılmıştı."
+            "q": "Amerika 250 Özgürlük Çanı Kanatları noktadan noktaya birleştirme bulmacasında kaç nokta var?",
+            "a": "Amerika 250 Özgürlük Çanı Kanatları noktaları birleştirme etkinliği, 64 numaralı noktadan oluşmaktadır. Bu da onu kolaydan orta zorluğa kadar bir bulmaca haline getirir ve 5-8 yaş arası (anaokulundan 2. sınıfa kadar) çocuklar için en uygunudur. Çocuklar noktaları numara sırasına göre birleştirerek tamamlanmış Amerika 250 Özgürlük Çanı Kanatları resmini ortaya çıkarır ve ardından boyarlar."
           },
           {
-            "range": "14–26",
-            "title": "Çan Gövdesi",
-            "learn": "14. noktadan 26. noktaya kadar devam ederek Özgürlük Çanı'nın geniş, yuvarlak gövdesini çizin. Bu geniş, kıvrımlı çizgiler, çocukların kendinden emin ve akıcı bir el yazısı için ihtiyaç duydukları kalem kontrolünü geliştirmelerine yardımcı olan, bilek hareketlerinin düzgünlüğü için harika bir alıştırma sağlar.",
-            "fact": "Özgürlük Çanı 2.080 pound ağırlığında - neredeyse bir ton! Geleneksel bronz üretim yöntemi olan bakır ve kalay karışımından dökülmüştür. Çanın kendine özgü derin sesi, büyük boyutundan ve yapımında kullanılan metallerin hassas oranından kaynaklanmaktadır."
+            "q": "Amerika'nın 250. yıl dönümü için hazırlanan Özgürlük Çanı Kanatları temalı noktadan noktaya birleştirme şablonu ücretsiz mi?",
+            "a": "Evet. Amerika 250 Özgürlük Çanı Kanatları çalışma sayfası, DotToDotFreePrintables.com adresinden %100 ücretsiz olarak indirilebilir; hesap, e-posta veya ödeme gerekmez. Hem dikey hem de yatay yönlendirmede, ABD Letter veya A4 kağıt boyutuna uygun, baskıya hazır bir PDF olarak anında indirilir."
           },
           {
-            "range": "27–39",
-            "title": "Yükselen Kanatlar",
-            "learn": "27 ile 39 arasındaki noktaları takip ederek Özgürlük Çanı'nı gökyüzüne doğru kaldıran muhteşem kanatları ekleyin. Bu cesur, geniş yaylar, çocuklara uzun, akıcı çizgiler çizme pratiği yapmaları için harika bir fırsat sunar; bu da erken yazma becerileri için önemli olan kol hareketini ve yön kontrolünü geliştirir.",
-            "fact": "1782'den beri Amerika Birleşik Devletleri'nin sembolü olan kel kartal, 2,4 metreye (8 fit) varan devasa kanat açıklığıyla ünlüdür. Güçlü kanatları, termal adı verilen sıcak hava akımlarında süzülmesini sağlar ve düz uçuşta saatte 45 mil hıza, dalış yaparken ise daha da yüksek hızlara ulaşabilir."
+            "q": "Amerika'nın 250. yıl dönümü için hazırlanan Özgürlük Çanı Kanatları temalı noktaları birleştirme çalışma sayfası hangi yaş grubu için en uygundur?",
+            "a": "64 noktadan oluşan Amerika 250 Özgürlük Çanı Kanatları yapbozu, 5-8 yaş arası (anaokulundan 2. sınıfa kadar) çocuklar için en uygundur. Daha küçük çocuklar, sayma konusunda yetişkinlerin hafif yardımıyla yapmaktan keyif alabilirken, kendine güvenen çocuklar bağımsız olarak tamamlayabilir ve 64'e kadar sayı sıralaması pratiği yapabilirler."
           },
           {
-            "range": "40–52",
-            "title": "Yıldızlar ve Vatansever Detaylar",
-            "learn": "Çanın etrafını saran vatansever yıldızları ve dekoratif detayları eklemek için 40 ile 52 arasındaki noktaları birleştirin. Bu daha kısa ve daha hassas çizgiler, ince motor becerilerini geliştirmek için harikadır; çocuklar her noktayı doğru bir şekilde vurmak için dikkatlice odaklanmalıdır, bu da okuma ve yazma için gerekli olan el-göz koordinasyonunu keskinleştirir.",
-            "fact": "Amerikan bayrağındaki 50 yıldızın her biri 50 eyaletten birini temsil eder. İlk resmi Yıldız ve Şeritler bayrağı tasarımı, 1777'de orijinal eyaletler için 13 yıldız ve 13 şeritle onaylanmıştır. Birliğe yeni eyaletler katıldıkça yeni yıldızlar eklenmiştir; en son eklenen eyalet ise 4 Temmuz 1960'ta Hawaii olmuştur."
+            "q": "Amerika 250 Özgürlük Çanı Kanatları noktadan noktaya birleştirme bulmacası hangi becerileri öğretiyor?",
+            "a": "Amerika 250 Özgürlük Çanı Kanatları yapbozunun 64 noktasını birleştirmek, sayı tanıma ve 64'e kadar sayma, kalem kontrolü, el-göz koordinasyonu ve sürekli odaklanma gibi ince motor becerilerini geliştirir; bu beceriler, erken dönemde el yazısını destekleyen temel unsurlardır. Tamamlanmış resmi boyamak ise yaratıcı bir ödül sunar."
           },
           {
-            "range": "53–64",
-            "title": "1776 Yazıtı ve Son Rötuşlar",
-            "learn": "53 ile 64 arasındaki noktaları birleştirerek \"1776\" yazısını ve tüm resmi canlandıran son dokunuşları tamamlayın. Bu son noktalarla uğraşırken acele etmeyin; istikrarlı ve dikkatli bir bitiş, gerçek bir nokta birleştirme ustasının işaretidir!",
-            "fact": "1776, Amerikan tarihinin en önemli yıllarından biridir. 4 Temmuz 1776'da Kıta Kongresi, Bağımsızlık Bildirgesi'ni resmen kabul ederek on üç Amerikan kolonisinin de özgür ve bağımsız devletler olduğunu ilan etti. Bu tarih, her yıl Bağımsızlık Günü olarak kutlanmaktadır - Amerika'nın doğum günü."
+            "q": "Amerika'nın 250. Özgürlük Çanı Kanatları hakkında ilginç bir bilgi nedir?",
+            "a": "Özgürlük Çanı, yıllarca kullanımdan sonra çatlamasıyla ünlüdür. Orijinal Eyalet Meclisi çanı 1751'de Londra'dan sipariş edilmiş, ilk deneme çalmasında çatlamış ve 1753'te Philadelphia'da John Pass ve John Stow tarafından yeniden dökülmüştür. Üzerindeki yazı \"Tüm Ülkede Özgürlüğü İlan Edin\" şeklindedir. Çocuklar, Amerika 250 Özgürlük Çanı Kanatları noktadan noktaya birleştirme bulmacasını tamamlarken bunun gibi gerçekleri keşfederler."
           }
         ],
-        "outro": "Harika bir çalışma — Özgürlük Çanınız özgürlükle yükseliyor! 64 noktadan oluşan bu muhteşem sembol, Amerikan bağımsızlığının simgesi. Çanı altın bronz, kanatları kahverengi ve beyaz, yıldızları ise kırmızı, beyaz ve mavi renklere boyayarak Amerika'ya mümkün olan en vatansever 250. doğum günü kutlamasını yapın. Özgürlük çınlasın! Zorlu bir mücadele mi arıyorsunuz? <a href=\"/dinosaurs/\">dinozor noktadan noktaya birleştirme yazdırılabilir</a> koleksiyonumuzda daha fazla tarih öncesi arkadaşla tanışın.",
-        "color_schemes": []
+        "dot_guide": {
+          "intro": "Amerika 250 yaşında ve kutlamak için Özgürlük Çanı'ndan daha iyi bir sembol olabilir mi! Bu efsanevi Eyalet Meclisi çanı, Bağımsızlık Bildirgesi kabul edildiğinde Philadelphia'da asılıydı ve özgürlük mesajı 1800'lerde meşhur oldu. Kaleminizi alın, 1 numaralı noktayı bulun ve özgürlüğün çanlarını çalalım!",
+          "sections": [
+            {
+              "range": "1–13",
+              "title": "Çanın Tacı ve Boyunduruğu",
+              "learn": "1 numaralı noktadan başlayıp 13 numaralı noktaya kadar uzanarak Özgürlük Çanı'nın en tepesindeki taç ve boyunduruğu (çanı yerinde tutan sağlam çerçeve) çizin. Bu istikrarlı kavisli ve düz çizgiler, çocukların kalem tutuşlarını geliştirmelerine ve resmin geri kalanı için ihtiyaç duyacakları kontrollü vuruşları uygulamalarına yardımcı olur.",
+              "fact": "Özgürlük Çanı'nın ahşap askısı Amerikan karaağacından yapılmıştır, ancak tarihçiler bunun çanın orijinal askısı olduğunu kanıtlayamamaktadır. Çan, serbestçe sallanabilmesi ve sömürge dönemi Philadelphia'sında derin, yankılı bir ses çıkarabilmesi için ahşap bir destekten asılmıştı."
+            },
+            {
+              "range": "14–26",
+              "title": "Çan Gövdesi",
+              "learn": "14. noktadan 26. noktaya kadar devam ederek Özgürlük Çanı'nın geniş, yuvarlak gövdesini çizin. Bu geniş, kıvrımlı çizgiler, çocukların kendinden emin ve akıcı bir el yazısı için ihtiyaç duydukları kalem kontrolünü geliştirmelerine yardımcı olan, bilek hareketlerinin düzgünlüğü için harika bir alıştırma sağlar.",
+              "fact": "Özgürlük Çanı 2.080 pound ağırlığında - neredeyse bir ton! Geleneksel bronz üretim yöntemi olan bakır ve kalay karışımından dökülmüştür. Çanın kendine özgü derin sesi, büyük boyutundan ve yapımında kullanılan metallerin hassas oranından kaynaklanmaktadır."
+            },
+            {
+              "range": "27–39",
+              "title": "Yükselen Kanatlar",
+              "learn": "27 ile 39 arasındaki noktaları takip ederek Özgürlük Çanı'nı gökyüzüne doğru kaldıran muhteşem kanatları ekleyin. Bu cesur, geniş yaylar, çocuklara uzun, akıcı çizgiler çizme pratiği yapmaları için harika bir fırsat sunar; bu da erken yazma becerileri için önemli olan kol hareketini ve yön kontrolünü geliştirir.",
+              "fact": "1782'den beri Amerika Birleşik Devletleri'nin sembolü olan kel kartal, 2,4 metreye (8 fit) varan devasa kanat açıklığıyla ünlüdür. Güçlü kanatları, termal adı verilen sıcak hava akımlarında süzülmesini sağlar ve düz uçuşta saatte 45 mil hıza, dalış yaparken ise daha da yüksek hızlara ulaşabilir."
+            },
+            {
+              "range": "40–52",
+              "title": "Yıldızlar ve Vatansever Detaylar",
+              "learn": "Çanın etrafını saran vatansever yıldızları ve dekoratif detayları eklemek için 40 ile 52 arasındaki noktaları birleştirin. Bu daha kısa ve daha hassas çizgiler, ince motor becerilerini geliştirmek için harikadır; çocuklar her noktayı doğru bir şekilde vurmak için dikkatlice odaklanmalıdır, bu da okuma ve yazma için gerekli olan el-göz koordinasyonunu keskinleştirir.",
+              "fact": "Amerikan bayrağındaki 50 yıldızın her biri 50 eyaletten birini temsil eder. İlk resmi Yıldız ve Şeritler bayrağı tasarımı, 1777'de orijinal eyaletler için 13 yıldız ve 13 şeritle onaylanmıştır. Birliğe yeni eyaletler katıldıkça yeni yıldızlar eklenmiştir; en son eklenen eyalet ise 4 Temmuz 1960'ta Hawaii olmuştur."
+            },
+            {
+              "range": "53–64",
+              "title": "1776 Yazıtı ve Son Rötuşlar",
+              "learn": "53 ile 64 arasındaki noktaları birleştirerek \"1776\" yazısını ve tüm resmi canlandıran son dokunuşları tamamlayın. Bu son noktalarla uğraşırken acele etmeyin; istikrarlı ve dikkatli bir bitiş, gerçek bir nokta birleştirme ustasının işaretidir!",
+              "fact": "1776, Amerikan tarihinin en önemli yıllarından biridir. 4 Temmuz 1776'da Kıta Kongresi, Bağımsızlık Bildirgesi'ni resmen kabul ederek on üç Amerikan kolonisinin de özgür ve bağımsız devletler olduğunu ilan etti. Bu tarih, her yıl Bağımsızlık Günü olarak kutlanmaktadır - Amerika'nın doğum günü."
+            }
+          ],
+          "outro": "Harika bir çalışma — Özgürlük Çanınız özgürlükle yükseliyor! 64 noktadan oluşan bu muhteşem sembol, Amerikan bağımsızlığının simgesi. Çanı altın bronz, kanatları kahverengi ve beyaz, yıldızları ise kırmızı, beyaz ve mavi renklere boyayarak Amerika'ya mümkün olan en vatansever 250. doğum günü kutlamasını yapın. Özgürlük çınlasın! Zorlu bir mücadele mi arıyorsunuz? <a href=\"/dinosaurs/\">dinozor noktadan noktaya birleştirme yazdırılabilir</a> koleksiyonumuzda daha fazla tarih öncesi arkadaşla tanışın.",
+          "color_schemes": []
+        }
       }
-    }
-  },
-  {
-    "slug": "usa-250-birthday-cake-dot-to-dot-puzzle",
-    "header": {
-      "title": "Amerika 250 Doğum Günü Pastası Noktaları Birleştir — 56 Tatlı Nokta",
-      "meta_description": "56 noktayı birleştirdikten sonra Amerika'nın 250. doğum günü pastasına mumlar ekleyin ve renklendirin. 4-8 yaş arası için bu ücretsiz 2026 kutlama PDF'sini yazdırın.",
-      "og": {
+    },
+    {
+      "slug": "usa-250-birthday-cake-dot-to-dot-puzzle",
+      "header": {
         "title": "Amerika 250 Doğum Günü Pastası Noktaları Birleştir — 56 Tatlı Nokta",
-        "description": "56 noktayı birleştirdikten sonra Amerika'nın 250. doğum günü pastasına mumlar ekleyin ve renklendirin. 4-8 yaş arası için bu ücretsiz 2026 kutlama PDF'sini yazdırın.",
-        "image_alt": "Katmanlı vatansever doğum günü pastası, 56 yazdırılabilir noktadan süslenmiş"
+        "meta_description": "56 noktayı birleştirdikten sonra Amerika'nın 250. doğum günü pastasına mumlar ekleyin ve renklendirin. 4-8 yaş arası için bu ücretsiz 2026 kutlama PDF'sini yazdırın.",
+        "og": {
+          "title": "Amerika 250 Doğum Günü Pastası Noktaları Birleştir — 56 Tatlı Nokta",
+          "description": "56 noktayı birleştirdikten sonra Amerika'nın 250. doğum günü pastasına mumlar ekleyin ve renklendirin. 4-8 yaş arası için bu ücretsiz 2026 kutlama PDF'sini yazdırın.",
+          "image_alt": "Katmanlı vatansever doğum günü pastası, 56 yazdırılabilir noktadan süslenmiş"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Amerika'nın 250. Doğum Günü Pastası",
+          "description": "56 noktayı birleştirdikten sonra Amerika'nın 250. doğum günü pastasına mumlar ekleyin ve renklendirin. 4-8 yaş arası için bu ücretsiz 2026 kutlama PDF'sini yazdırın.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
       },
-      "json_ld": {
-        "type": "CreativeWork",
+      "body": {
+        "h1": "Amerika 250 Doğum Günü Pastası Noktadan Noktaya — 56 Tatlı Nokta",
         "name": "Amerika'nın 250. Doğum Günü Pastası",
-        "description": "56 noktayı birleştirdikten sonra Amerika'nın 250. doğum günü pastasına mumlar ekleyin ve renklendirin. 4-8 yaş arası için bu ücretsiz 2026 kutlama PDF'sini yazdırın.",
-        "image": "",
-        "educational_use": "Fine motor skills, number sequencing",
-        "age_range": ""
-      }
-    },
-    "body": {
-      "h1": "Amerika 250 Doğum Günü Pastası Noktadan Noktaya — 56 Tatlı Nokta",
-      "name": "Amerika'nın 250. Doğum Günü Pastası",
-      "tagline": "Amerika'nın 250. yıldönümü için bir doğum günü pastası yapın!",
-      "description": "56 kolay noktayı birleştirerek Amerika'nın 250. yıl dönümünü kutlayan muhteşem bir doğum günü pastasını ortaya çıkarın! Bu ücretsiz yazdırılabilir çalışma sayfası, genç çocukların sayı sıralama ve kalem kontrolü pratik yapmalarına yardımcı olurken, 250 yıllık Amerikan tarihini kutluyor. 4-8 yaş arası için mükemmel.",
-      "fun_fact": "Mumlu doğum günü pastası geleneğinin 18. yüzyılda Almanya'da başladığı söyleniyor; burada her yıl için pastanın üzerine bir mum konuluyordu. Bugün, mumları üflemek ve bir dilek tutmak, dünya genelinde bir doğum günü kutlama geleneğidir!",
-      "dot_guide": {
-        "intro": "Amerika 250 yaşında ve her doğum günü muhteşem bir pastayı hak ediyor! Bu görkemli kutlama pastası, Amerikan tarihinin en büyük doğum günü için vatansever yıldızlar, çizgiler ve tüm süslemelerle dekore edildi. Bir kalem alın, 1 numaralı noktayı bulun ve bu doğum günü şaheserini katman katman inşa edelim!",
-        "sections": [
+        "tagline": "Amerika'nın 250. yıldönümü için bir doğum günü pastası yapın!",
+        "description": "56 kolay noktayı birleştirerek Amerika'nın 250. yıl dönümünü kutlayan muhteşem bir doğum günü pastasını ortaya çıkarın! Bu ücretsiz yazdırılabilir çalışma sayfası, genç çocukların sayı sıralama ve kalem kontrolü pratik yapmalarına yardımcı olurken, 250 yıllık Amerikan tarihini kutluyor. 4-8 yaş arası için mükemmel.",
+        "fun_fact": "Mumlu doğum günü pastası geleneğinin 18. yüzyılda Almanya'da başladığı söyleniyor; burada her yıl için pastanın üzerine bir mum konuluyordu. Bugün, mumları üflemek ve bir dilek tutmak, dünya genelinde bir doğum günü kutlama geleneğidir!",
+        "faqs": [
           {
-            "range": "1–12",
-            "title": "En Alt Kademe",
-            "learn": "1 numaralı noktadan başlayıp 12 numaralı noktaya kadar uzanarak doğum günü pastasının geniş taban katmanını çizin. Bu istikrarlı yatay ve kavisli çizgiler, çocukların kalem tutuşlarını geliştirmelerine ve resmin temelini oluşturan düzgün, eşit çizgiler çizmeyi öğrenmelerine yardımcı olur.",
-            "fact": "Katlı düğün ve kutlama pastası geleneği, birden fazla katmanın üst üste konulmasının zenginlik ve şenliğin bir işareti olduğu 17. yüzyıl İngiltere'sine dayanmaktadır. Uzun, çok katlı bir pasta, gerçekten görkemli bir kutlamanın sembolü haline geldi."
+            "q": "Amerika'nın 250. doğum günü pastası temalı noktadan noktaya birleştirme bulmacasında kaç nokta var?",
+            "a": "Amerika'nın 250. doğum günü pastası temalı noktaları birleştirme etkinliği, 56 numaralı noktadan oluşmaktadır. Bu da onu kolaydan orta zorluğa kadar bir bulmaca haline getirir ve 5-8 yaş arası (anaokulundan 2. sınıfa kadar) çocuklar için en uygunudur. Çocuklar noktaları numara sırasına göre birleştirerek tamamlanmış Amerika'nın 250. doğum günü pastası resmini ortaya çıkarır ve ardından boyarlar."
           },
           {
-            "range": "13–28",
-            "title": "Orta Katmanlar",
-            "learn": "13. noktadan 28. noktaya kadar devam ederek pastanın orta katmanlarını ekleyin; her katman bir öncekinden biraz daha küçük olsun. Çocuklar içeri doğru basamaklanan şekiller çizmeyi öğrenirler; bu, her yeni katmanla birlikte mekansal farkındalık ve çizgi uzunluğunu kontrol etme konusunda harika bir alıştırmadır.",
-            "fact": "Pastacılar geleneksel olarak katlı pastaların her katını bir altındaki kattan biraz daha dar yaparlar. Bu, klasik piramit şeklini oluşturur ve pastanın dengede kalmasına yardımcı olur. Profesyonel pasta tasarımcıları, her katın ağırlığını desteklemek için gizli dübeller ve tahtalar kullanırlar."
+            "q": "Amerika'nın 250. doğum günü pastası temalı noktaları birleştirme şablonu ücretsiz mi?",
+            "a": "Evet. Amerika'nın 250. Yıl Dönümü Pastası çalışma sayfası, DotToDotFreePrintables.com adresinden %100 ücretsiz olarak indirilebilir; hesap, e-posta veya ödeme gerekmez. Hem dikey hem de yatay yönlendirmede, ABD Letter veya A4 kağıt boyutuna uygun, baskıya hazır bir PDF olarak anında indirilir."
           },
           {
-            "range": "29–42",
-            "title": "Yıldız ve Çizgili Bayrak Süslemesi",
-            "learn": "Pastanın kenarlarını süsleyen vatansever yıldız ve şerit detaylarını eklemek için 29 ila 42 arasındaki noktaları takip edin. Çocuklar, aynı bölümde iki hareket türü arasında geçiş yaparak, açılı yıldız noktaları ve düz yatay çizgilerin bir karışımını uygulamalı olarak öğrenirler; bu, el kontrolü için harika bir meydan okumadır.",
-            "fact": "1777'de Bayrak Kararı ile tasarımın belirlenmesinden bu yana, Amerikan bayrağının renkleri kırmızı, beyaz ve mavidir. Bu renklerle süsleme, okul partilerindeki keklerden devasa geçit töreni araçlarına kadar, Amerikalıların ulusal gururlarını kutlamalarda ifade etmelerinin en popüler yollarından biridir."
+            "q": "Amerika'nın 250. doğum günü pastası temalı noktaları birleştirme çalışma sayfası hangi yaş grubu için en uygundur?",
+            "a": "56 noktadan oluşan Amerika 250. Doğum Günü Pastası yapbozu, 5-8 yaş arası (anaokulundan 2. sınıfa kadar) çocuklar için en uygundur. Daha küçük çocuklar, sayma konusunda yetişkinlerin hafif yardımıyla yapmaktan keyif alabilirken, sayı sayma konusunda kendine güvenen çocuklar bağımsız olarak tamamlayabilir ve 56'ya kadar sayı sıralaması pratiği yapabilirler."
           },
           {
-            "range": "43–50",
-            "title": "En Üst Katman ve Krema",
-            "learn": "43 ile 50 arasındaki noktaları birleştirerek en üst katmanı ve kenarlara sıkılan krema kıvrımlarını çizin. Bu kıvrımlı, dekoratif çizgiler, aşağıdaki daha düz çizgilerden hoş bir değişiklik sunar ve çocuklar, kremanın nefis derecede kabarık görünmesini sağlayan pürüzsüz, akıcı bilek hareketini uygularlar.",
-            "fact": "Kraliyet kreması (kutlama pastalarını süslemek için kullanılan beyaz, sertleşen krema), 18. yüzyıl Britanya'sında mükemmelleştirildi ve Avrupa ve Amerika'da büyük kutlama pastaları için moda haline geldi. Pürüzsüz yüzeyi, vatansever süslemeler için mükemmel bir zemin oluşturuyor."
+            "q": "Amerika'nın 250. doğum günü pastası temalı noktadan noktaya birleştirme bulmacası hangi becerileri öğretiyor?",
+            "a": "Amerika'nın 250. yıl dönümü pastası yapbozunun 56 noktasını birleştirmek, sayı tanıma ve 56'ya kadar sayma, kalem kontrolü, el-göz koordinasyonu ve sürekli odaklanma gibi ince motor becerilerini geliştirir; bu beceriler, erken dönemde el yazısını destekleyen temel unsurlardır. Tamamlanmış resmi boyamak ise yaratıcı bir ödül sunar."
           },
           {
-            "range": "51–56",
-            "title": "Mumlar ve Son Dokunuşlar",
-            "learn": "Mumları ve tüm doğum günü sahnesini canlandıran son şenlikli detayları eklemek için 51'den 56'ya kadar olan noktaları birleştirerek yapbozu tamamlayın. Kutlamayı tamamlamak için sadece altı nokta kaldı — çocukları yavaşlamaya ve bu son çizgileri en iyi şekilde çizmeye teşvik edin!",
-            "fact": "Birçok doğum günü geleneğinde, pastanın üzerindeki mum sayısı kutlanan yaşla eşleşir. Amerika'nın 250. yıldönümü için mum koleksiyonunun ne kadar büyük olacağını hayal edin; çeyrek milenyumluk tarih, hepsi muhteşem bir pastanın üzerinde titreyerek!"
+            "q": "Amerika'nın 250. yıl dönümü pastasıyla ilgili ilginç bir bilgi nedir?",
+            "a": "Mumlu doğum günü pastası geleneğinin 18. yüzyılda Almanya'da başladığı ve pastanın üzerine yaşamın her yılı için bir mum konulduğu söyleniyor. Bugün, mum üflemek ve dilek dilemek dünyanın dört bir yanında bir doğum günü kutlama geleneğidir! Çocuklar, Amerika'nın 250. Doğum Günü Pastası noktadan noktaya birleştirme bulmacasını tamamlarken bunun gibi gerçekleri keşfediyorlar."
           }
         ],
-        "outro": "Harika iş — Amerika'nın 250. doğum günü pastanız parti için hazır! 56 noktadan oluşan bu pasta, Amerikan kutlamasının lezzetli bir sembolü. Katları kırmızı, beyaz ve maviye boyayın ve altın yıldızlar ekleyerek Amerika'ya şimdiye kadarki en vatansever 250. doğum günü pastasını yapın. Amerika Birleşik Devletleri'nin 250. doğum günü kutlu olsun! Daha fazla temalı eğlence için <a href=\"/ocean/\">1-100 noktaları birleştirme şablonlarımıza</a> göz atın.",
-        "color_schemes": []
+        "dot_guide": {
+          "intro": "Amerika 250 yaşında ve her doğum günü muhteşem bir pastayı hak ediyor! Bu görkemli kutlama pastası, Amerikan tarihinin en büyük doğum günü için vatansever yıldızlar, çizgiler ve tüm süslemelerle dekore edildi. Bir kalem alın, 1 numaralı noktayı bulun ve bu doğum günü şaheserini katman katman inşa edelim!",
+          "sections": [
+            {
+              "range": "1–12",
+              "title": "En Alt Kademe",
+              "learn": "1 numaralı noktadan başlayıp 12 numaralı noktaya kadar uzanarak doğum günü pastasının geniş taban katmanını çizin. Bu istikrarlı yatay ve kavisli çizgiler, çocukların kalem tutuşlarını geliştirmelerine ve resmin temelini oluşturan düzgün, eşit çizgiler çizmeyi öğrenmelerine yardımcı olur.",
+              "fact": "Katlı düğün ve kutlama pastası geleneği, birden fazla katmanın üst üste konulmasının zenginlik ve şenliğin bir işareti olduğu 17. yüzyıl İngiltere'sine dayanmaktadır. Uzun, çok katlı bir pasta, gerçekten görkemli bir kutlamanın sembolü haline geldi."
+            },
+            {
+              "range": "13–28",
+              "title": "Orta Katmanlar",
+              "learn": "13. noktadan 28. noktaya kadar devam ederek pastanın orta katmanlarını ekleyin; her katman bir öncekinden biraz daha küçük olsun. Çocuklar içeri doğru basamaklanan şekiller çizmeyi öğrenirler; bu, her yeni katmanla birlikte mekansal farkındalık ve çizgi uzunluğunu kontrol etme konusunda harika bir alıştırmadır.",
+              "fact": "Pastacılar geleneksel olarak katlı pastaların her katını bir altındaki kattan biraz daha dar yaparlar. Bu, klasik piramit şeklini oluşturur ve pastanın dengede kalmasına yardımcı olur. Profesyonel pasta tasarımcıları, her katın ağırlığını desteklemek için gizli dübeller ve tahtalar kullanırlar."
+            },
+            {
+              "range": "29–42",
+              "title": "Yıldız ve Çizgili Bayrak Süslemesi",
+              "learn": "Pastanın kenarlarını süsleyen vatansever yıldız ve şerit detaylarını eklemek için 29 ila 42 arasındaki noktaları takip edin. Çocuklar, aynı bölümde iki hareket türü arasında geçiş yaparak, açılı yıldız noktaları ve düz yatay çizgilerin bir karışımını uygulamalı olarak öğrenirler; bu, el kontrolü için harika bir meydan okumadır.",
+              "fact": "1777'de Bayrak Kararı ile tasarımın belirlenmesinden bu yana, Amerikan bayrağının renkleri kırmızı, beyaz ve mavidir. Bu renklerle süsleme, okul partilerindeki keklerden devasa geçit töreni araçlarına kadar, Amerikalıların ulusal gururlarını kutlamalarda ifade etmelerinin en popüler yollarından biridir."
+            },
+            {
+              "range": "43–50",
+              "title": "En Üst Katman ve Krema",
+              "learn": "43 ile 50 arasındaki noktaları birleştirerek en üst katmanı ve kenarlara sıkılan krema kıvrımlarını çizin. Bu kıvrımlı, dekoratif çizgiler, aşağıdaki daha düz çizgilerden hoş bir değişiklik sunar ve çocuklar, kremanın nefis derecede kabarık görünmesini sağlayan pürüzsüz, akıcı bilek hareketini uygularlar.",
+              "fact": "Kraliyet kreması (kutlama pastalarını süslemek için kullanılan beyaz, sertleşen krema), 18. yüzyıl Britanya'sında mükemmelleştirildi ve Avrupa ve Amerika'da büyük kutlama pastaları için moda haline geldi. Pürüzsüz yüzeyi, vatansever süslemeler için mükemmel bir zemin oluşturuyor."
+            },
+            {
+              "range": "51–56",
+              "title": "Mumlar ve Son Dokunuşlar",
+              "learn": "Mumları ve tüm doğum günü sahnesini canlandıran son şenlikli detayları eklemek için 51'den 56'ya kadar olan noktaları birleştirerek yapbozu tamamlayın. Kutlamayı tamamlamak için sadece altı nokta kaldı — çocukları yavaşlamaya ve bu son çizgileri en iyi şekilde çizmeye teşvik edin!",
+              "fact": "Birçok doğum günü geleneğinde, pastanın üzerindeki mum sayısı kutlanan yaşla eşleşir. Amerika'nın 250. yıldönümü için mum koleksiyonunun ne kadar büyük olacağını hayal edin; çeyrek milenyumluk tarih, hepsi muhteşem bir pastanın üzerinde titreyerek!"
+            }
+          ],
+          "outro": "Harika iş — Amerika'nın 250. doğum günü pastanız parti için hazır! 56 noktadan oluşan bu pasta, Amerikan kutlamasının lezzetli bir sembolü. Katları kırmızı, beyaz ve maviye boyayın ve altın yıldızlar ekleyerek Amerika'ya şimdiye kadarki en vatansever 250. doğum günü pastasını yapın. Amerika Birleşik Devletleri'nin 250. doğum günü kutlu olsun! Daha fazla temalı eğlence için <a href=\"/ocean/\">1-100 noktaları birleştirme şablonlarımıza</a> göz atın.",
+          "color_schemes": []
+        }
       }
-    }
-  },
-  {
-    "slug": "usa-250-astronaut-dot-to-dot-puzzle",
-    "header": {
-      "title": "Amerika 250 Astronotu Noktaları Birleştir — Yukarıya 63 Nokta",
-      "meta_description": "Amerika'nın ilk Ay inişi, bu 63 noktalı astronotu ilham veriyor. Ülkenin 2026 yıl dönümü sırasında 4-8 yaş arası için ücretsiz yazdırılabilir PDF'yi başlat.",
-      "og": {
+    },
+    {
+      "slug": "usa-250-astronaut-dot-to-dot-puzzle",
+      "header": {
         "title": "Amerika 250 Astronotu Noktaları Birleştir — Yukarıya 63 Nokta",
-        "description": "Amerika'nın ilk Ay inişi, bu 63 noktalı astronotu ilham veriyor. Ülkenin 2026 yıl dönümü sırasında 4-8 yaş arası için ücretsiz yazdırılabilir PDF'yi başlat.",
-        "image_alt": "Uzay kıyafeti içinde el sallayan kahraman astronot, 63 yazdırılabilir noktadan giydirilmiş"
+        "meta_description": "Amerika'nın ilk Ay inişi, bu 63 noktalı astronotu ilham veriyor. Ülkenin 2026 yıl dönümü sırasında 4-8 yaş arası için ücretsiz yazdırılabilir PDF'yi başlat.",
+        "og": {
+          "title": "Amerika 250 Astronotu Noktaları Birleştir — Yukarıya 63 Nokta",
+          "description": "Amerika'nın ilk Ay inişi, bu 63 noktalı astronotu ilham veriyor. Ülkenin 2026 yıl dönümü sırasında 4-8 yaş arası için ücretsiz yazdırılabilir PDF'yi başlat.",
+          "image_alt": "Uzay kıyafeti içinde el sallayan kahraman astronot, 63 yazdırılabilir noktadan giydirilmiş"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Amerika'nın 250. Astronotu",
+          "description": "Amerika'nın ilk Ay inişi, bu 63 noktalı astronotu ilham veriyor. Ülkenin 2026 yıl dönümü sırasında 4-8 yaş arası için ücretsiz yazdırılabilir PDF'yi başlat.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
       },
-      "json_ld": {
-        "type": "CreativeWork",
+      "body": {
+        "h1": "Astronot Nokta ile Nokta Amerika 250 — 63 Nokta Yukarı",
         "name": "Amerika'nın 250. Astronotu",
-        "description": "Amerika'nın ilk Ay inişi, bu 63 noktalı astronotu ilham veriyor. Ülkenin 2026 yıl dönümü sırasında 4-8 yaş arası için ücretsiz yazdırılabilir PDF'yi başlat.",
-        "image": "",
-        "educational_use": "Fine motor skills, number sequencing",
-        "age_range": ""
-      }
-    },
-    "body": {
-      "h1": "Astronot Nokta ile Nokta Amerika 250 — 63 Nokta Yukarı",
-      "name": "Amerika'nın 250. Astronotu",
-      "tagline": "Amerika'nın 250. yılını kutlamak için Fırlat!",
-      "description": "63 kolay noktayı birleştirerek Amerika'nın 250. yıl dönümünü kutlayan kahraman bir astronotu ortaya çıkar! Bu ücretsiz yazdırılabilir çalışma sayfası, genç çocukların sayı sıralaması ve kalem kontrolü pratik yapmalarına yardımcı olurken, 250 yıllık Amerikan tarihini ve keşif ruhunu onurlandırır. 4-8 yaş arası için mükemmel.",
-      "fun_fact": "Amerika Birleşik Devletleri, insanları Ay'a indiren ilk ülke oldu. 20 Temmuz 1969'da — Bağımsızlık Bildirgesi'nden sadece 193 yıl sonra — Neil Armstrong ve Buzz Aldrin, insanlığın Ay yüzeyinde attığı ilk adımları attı.",
-      "dot_guide": {
-        "intro": "Amerika 250 yaşında ve Amerikan macera ruhunu astronotlardan daha iyi yansıtan çok az şey var! Uzay Yarışı'nın ilk roketlerinden Ay'a inişlere ve ötesine kadar, Amerikalı kaşifler her zaman yıldızlara ulaşmayı hedeflemiştir. Bir kalem alın, 1 noktasını bulun ve kalkış için hazırlanalım!",
-        "sections": [
+        "tagline": "Amerika'nın 250. yılını kutlamak için Fırlat!",
+        "description": "63 kolay noktayı birleştirerek Amerika'nın 250. yıl dönümünü kutlayan kahraman bir astronotu ortaya çıkar! Bu ücretsiz yazdırılabilir çalışma sayfası, genç çocukların sayı sıralaması ve kalem kontrolü pratik yapmalarına yardımcı olurken, 250 yıllık Amerikan tarihini ve keşif ruhunu onurlandırır. 4-8 yaş arası için mükemmel.",
+        "fun_fact": "Amerika Birleşik Devletleri, insanları Ay'a indiren ilk ülke oldu. 20 Temmuz 1969'da — Bağımsızlık Bildirgesi'nden sadece 193 yıl sonra — Neil Armstrong ve Buzz Aldrin, insanlığın Ay yüzeyinde attığı ilk adımları attı.",
+        "faqs": [
           {
-            "range": "1–14",
-            "title": "Kask",
-            "learn": "1. noktadan başlayıp 14. noktaya kadar uzanarak yuvarlak astronot kaskını çizin. Vizör ve kavisli dış kabuk, çocuklara ilk vuruştan itibaren kendinden emin kalem kontrolü geliştiren, pürüzsüz ve geniş yaylarla harika bir ısınma egzersizi sunar.",
-            "fact": "Astronot kaskları, polikarbonat ve diğer dayanıklı malzemelerin katmanlarından yapılır. Altın renkli vizör, güneş ışınlarını yansıtan ve astronotların gözlerini uzaydaki yoğun güneş ışığından koruyan ince bir gerçek altın tabakasıyla kaplanmıştır."
+            "q": "Amerika 250 Astronot noktadan noktaya birleştirme bulmacasında kaç nokta var?",
+            "a": "Amerika 250 Astronot Noktaları Birleştirme etkinliği, 63 numaralı noktadan oluşmaktadır. Bu da onu kolaydan orta zorluğa kadar bir bulmaca haline getirir ve 5-8 yaş arası (anaokulundan 2. sınıfa kadar) çocuklar için en uygunudur. Çocuklar noktaları numara sırasına göre birleştirerek tamamlanmış Amerika 250 astronot resmini ortaya çıkarır ve ardından boyarlar."
           },
           {
-            "range": "15–30",
-            "title": "Uzay giysisinin gövdesi",
-            "learn": "15. noktadan 30. noktaya kadar devam ederek uzay giysisinin geniş gövdesini çizin. Çocuklar burada daha uzun bağlantı çizgileri kullanarak, astronot figürüne karakteristik köşeli, güçlü şeklini veren sağlam omuzları ve göğsü çizerler.",
-            "fact": "NASA'nın tam bir uzay giysisi olan Ekstravehiküler Hareket Ünitesi (EMU), Dünya'da yaklaşık 127 kilogram ağırlığındadır; ancak uzayın ağırlıksız ortamında ağırlığı yok denecek kadar azdır! Bir astronotun bu giysiyi giymesi 45 dakikaya kadar sürebilir."
+            "q": "Amerika'nın 250. Astronot Noktadan Noktaya Birleştirme etkinliğinin yazdırılabilir versiyonu ücretsiz mi?",
+            "a": "Evet. Amerika'nın 250. Astronot çalışma sayfası DotToDotFreePrintables.com adresinden %100 ücretsiz olarak indirilebilir; hesap, e-posta veya ödeme gerekmez. Hem dikey hem de yatay yönlendirmede, ABD Letter veya A4 kağıt boyutuna uygun, baskıya hazır bir PDF olarak anında indirilir."
           },
           {
-            "range": "31–44",
-            "title": "Kollar ve Eldivenler",
-            "learn": "31'den 44'e kadar olan noktaları takip ederek astronotun kollarını ve kalın eldivenlerini çizin. Bu bölümde daha fazla açısal yön değişikliği yer almaktadır; bu da çocukların durma, hedefleme ve yeni bir çizgiye başlama becerisini geliştirmelerine yardımcı olur; bu beceri aynı zamanda dikkatli sayı takibini de geliştirir.",
-            "fact": "Uzay giysisi eldivenleri, giysinin en karmaşık parçalarından biridir. Astronotların aletleri kavramasına ve parmaklarıyla çalışmasına yetecek kadar esnek olmaları gerekirken, aynı zamanda uzayda 500 derece Fahrenheit'in üzerindeki sıcaklık değişimlerine karşı koruma sağlayacak kadar da güçlü olmaları şarttır."
+            "q": "Amerika'nın 250. Astronotları temalı noktaları birleştirme çalışma sayfası hangi yaş grubu için en uygundur?",
+            "a": "63 noktadan oluşan Amerika 250 Astronot yapbozu, 5-8 yaş arası (anaokulundan 2. sınıfa kadar) çocuklar için en uygundur. Daha küçük çocuklar, sayma konusunda yetişkinlerin hafif yardımıyla yapmaktan keyif alabilirken, sayma konusunda kendine güvenen çocuklar yapbozu bağımsız olarak tamamlayabilir ve 63'e kadar sayı sıralaması pratiği yapabilirler."
           },
           {
-            "range": "45–56",
-            "title": "Bacaklar ve Botlar",
-            "learn": "45 ile 56 arasındaki noktaları birleştirerek uzay giysisinin alt yarısını (bacakları ve kalın botları) tamamlayın. Çocuklar burada istikrarlı, paralel çizgiler çizmeyi öğrenirler; bu da bulmacanın sonuna yaklaşırken tutarlılık ve kontrol geliştirmek için harika bir yöntemdir.",
-            "fact": "Apollo görevleri sırasında giyilen ay botlarının, kromel-R adı verilen dokuma metal kumaştan yapılmış özel bir dış tabanı vardı. Bu taban, astronotların ayaklarını ay yüzeyinin aşırı sıcaklıklarından koruyordu; bu sıcaklıklar gölgede -280°F'den güneş ışığında +260°F'ye kadar değişebiliyordu."
+            "q": "Amerika 250 Astronot noktadan noktaya birleştirme bulmacası hangi becerileri öğretiyor?",
+            "a": "Amerika 250 Astronot yapbozunun 63 noktasını birleştirmek, sayı tanıma ve 63'e kadar sayma, kalem kontrolü, el-göz koordinasyonu ve sürekli odaklanma gibi ince motor becerilerinin temelini oluşturur; bu beceriler, erken dönemde el yazısını da destekler. Tamamlanmış resmi boyamak ise yaratıcı bir ödül sunar."
           },
           {
-            "range": "57–63",
-            "title": "Amerikan Bayrağı ve Son İşlem Detayları",
-            "learn": "Amerikan bayrağı yamasını ve astronotu hayata geçiren son detayları eklemek için 57'den 63'e kadar olan noktaları birleştirerek yapbozu tamamlayın. Sadece yedi nokta kaldı — çocukları bu son çizgileri en düzgün ve en hassas şekilde çizmeleri için teşvik edin!",
-            "fact": "Amerikalı astronotlar, Apollo görevlerinden beri uzay kıyafetlerinin sol omuzunda bayrak yaması taşıyorlar. 1969 ve 1972 yılları arasında Ay'a altı Amerikan bayrağı dikildi ve NASA'nın Ay görüntüleri, bunların çoğunun bugün hala ayakta olduğunu gösteriyor."
+            "q": "Amerika'nın 250. astronotuyla ilgili ilginç bir bilgi nedir?",
+            "a": "Amerika Birleşik Devletleri, Ay'a insan indiren ilk ülke oldu. 20 Temmuz 1969'da, Bağımsızlık Bildirgesi'nden sadece 193 yıl sonra, Neil Armstrong ve Buzz Aldrin insanlığın Ay yüzeyine ilk adımlarını attılar. Çocuklar, Amerika 250 Astronot noktadan noktaya birleştirme bulmacasını tamamlarken bunun gibi gerçekleri keşfediyorlar."
           }
         ],
-        "outro": "Harika iş — Amerika'nın 250. yıl dönümü astronotunuz fırlatmaya hazır! 63 noktadan oluşan bu inanılmaz sembol, Amerikan keşif ve cesaretinin simgesi. Uzay kıyafetini beyaza boyayın ve vatansever kırmızı, beyaz ve mavi detaylar ekleyerek astronotunuzu şık bir şekilde uçurun. Amerika Birleşik Devletleri'nin 250. doğum günü kutlu olsun — ad astra! Her yaş için daha fazla ücretsiz <a href=\"/\">noktadan noktaya birleştirme şablonu</a> keşfedin.",
-        "color_schemes": []
+        "dot_guide": {
+          "intro": "Amerika 250 yaşında ve Amerikan macera ruhunu astronotlardan daha iyi yansıtan çok az şey var! Uzay Yarışı'nın ilk roketlerinden Ay'a inişlere ve ötesine kadar, Amerikalı kaşifler her zaman yıldızlara ulaşmayı hedeflemiştir. Bir kalem alın, 1 noktasını bulun ve kalkış için hazırlanalım!",
+          "sections": [
+            {
+              "range": "1–14",
+              "title": "Kask",
+              "learn": "1. noktadan başlayıp 14. noktaya kadar uzanarak yuvarlak astronot kaskını çizin. Vizör ve kavisli dış kabuk, çocuklara ilk vuruştan itibaren kendinden emin kalem kontrolü geliştiren, pürüzsüz ve geniş yaylarla harika bir ısınma egzersizi sunar.",
+              "fact": "Astronot kaskları, polikarbonat ve diğer dayanıklı malzemelerin katmanlarından yapılır. Altın renkli vizör, güneş ışınlarını yansıtan ve astronotların gözlerini uzaydaki yoğun güneş ışığından koruyan ince bir gerçek altın tabakasıyla kaplanmıştır."
+            },
+            {
+              "range": "15–30",
+              "title": "Uzay giysisinin gövdesi",
+              "learn": "15. noktadan 30. noktaya kadar devam ederek uzay giysisinin geniş gövdesini çizin. Çocuklar burada daha uzun bağlantı çizgileri kullanarak, astronot figürüne karakteristik köşeli, güçlü şeklini veren sağlam omuzları ve göğsü çizerler.",
+              "fact": "NASA'nın tam bir uzay giysisi olan Ekstravehiküler Hareket Ünitesi (EMU), Dünya'da yaklaşık 127 kilogram ağırlığındadır; ancak uzayın ağırlıksız ortamında ağırlığı yok denecek kadar azdır! Bir astronotun bu giysiyi giymesi 45 dakikaya kadar sürebilir."
+            },
+            {
+              "range": "31–44",
+              "title": "Kollar ve Eldivenler",
+              "learn": "31'den 44'e kadar olan noktaları takip ederek astronotun kollarını ve kalın eldivenlerini çizin. Bu bölümde daha fazla açısal yön değişikliği yer almaktadır; bu da çocukların durma, hedefleme ve yeni bir çizgiye başlama becerisini geliştirmelerine yardımcı olur; bu beceri aynı zamanda dikkatli sayı takibini de geliştirir.",
+              "fact": "Uzay giysisi eldivenleri, giysinin en karmaşık parçalarından biridir. Astronotların aletleri kavramasına ve parmaklarıyla çalışmasına yetecek kadar esnek olmaları gerekirken, aynı zamanda uzayda 500 derece Fahrenheit'in üzerindeki sıcaklık değişimlerine karşı koruma sağlayacak kadar da güçlü olmaları şarttır."
+            },
+            {
+              "range": "45–56",
+              "title": "Bacaklar ve Botlar",
+              "learn": "45 ile 56 arasındaki noktaları birleştirerek uzay giysisinin alt yarısını (bacakları ve kalın botları) tamamlayın. Çocuklar burada istikrarlı, paralel çizgiler çizmeyi öğrenirler; bu da bulmacanın sonuna yaklaşırken tutarlılık ve kontrol geliştirmek için harika bir yöntemdir.",
+              "fact": "Apollo görevleri sırasında giyilen ay botlarının, kromel-R adı verilen dokuma metal kumaştan yapılmış özel bir dış tabanı vardı. Bu taban, astronotların ayaklarını ay yüzeyinin aşırı sıcaklıklarından koruyordu; bu sıcaklıklar gölgede -280°F'den güneş ışığında +260°F'ye kadar değişebiliyordu."
+            },
+            {
+              "range": "57–63",
+              "title": "Amerikan Bayrağı ve Son İşlem Detayları",
+              "learn": "Amerikan bayrağı yamasını ve astronotu hayata geçiren son detayları eklemek için 57'den 63'e kadar olan noktaları birleştirerek yapbozu tamamlayın. Sadece yedi nokta kaldı — çocukları bu son çizgileri en düzgün ve en hassas şekilde çizmeleri için teşvik edin!",
+              "fact": "Amerikalı astronotlar, Apollo görevlerinden beri uzay kıyafetlerinin sol omuzunda bayrak yaması taşıyorlar. 1969 ve 1972 yılları arasında Ay'a altı Amerikan bayrağı dikildi ve NASA'nın Ay görüntüleri, bunların çoğunun bugün hala ayakta olduğunu gösteriyor."
+            }
+          ],
+          "outro": "Harika iş — Amerika'nın 250. yıl dönümü astronotunuz fırlatmaya hazır! 63 noktadan oluşan bu inanılmaz sembol, Amerikan keşif ve cesaretinin simgesi. Uzay kıyafetini beyaza boyayın ve vatansever kırmızı, beyaz ve mavi detaylar ekleyerek astronotunuzu şık bir şekilde uçurun. Amerika Birleşik Devletleri'nin 250. doğum günü kutlu olsun — ad astra! Her yaş için daha fazla ücretsiz <a href=\"/\">noktadan noktaya birleştirme şablonu</a> keşfedin.",
+          "color_schemes": []
+        }
       }
-    }
-  },
-  {
-    "slug": "usa-250-anniversary-airplane-banner-dot-to-dot-puzzle",
-    "header": {
-      "title": "Uçak Afişi Nokta ile Nokta: Amerika 250 için 54 Nokta",
-      "meta_description": "Bir çift kanatlı uçak, 54 nokta boyunca bir Amerika 250 afişi taşır. Genç havacılar için 4-8 yaş arası ücretsiz 2026 yıl dönümü çalışma sayfasını indirin.",
-      "og": {
+    },
+    {
+      "slug": "usa-250-anniversary-airplane-banner-dot-to-dot-puzzle",
+      "header": {
         "title": "Uçak Afişi Nokta ile Nokta: Amerika 250 için 54 Nokta",
-        "description": "Bir çift kanatlı uçak, 54 nokta boyunca bir Amerika 250 afişi taşır. Genç havacılar için 4-8 yaş arası ücretsiz 2026 yıl dönümü çalışma sayfasını indirin.",
-        "image_alt": "Amerika 250 bayrağı çeken klasik çift kanatlı uçak, 54 yazdırılabilir nokta boyunca"
+        "meta_description": "Bir çift kanatlı uçak, 54 nokta boyunca bir Amerika 250 afişi taşır. Genç havacılar için 4-8 yaş arası ücretsiz 2026 yıl dönümü çalışma sayfasını indirin.",
+        "og": {
+          "title": "Uçak Afişi Nokta ile Nokta: Amerika 250 için 54 Nokta",
+          "description": "Bir çift kanatlı uçak, 54 nokta boyunca bir Amerika 250 afişi taşır. Genç havacılar için 4-8 yaş arası ücretsiz 2026 yıl dönümü çalışma sayfasını indirin.",
+          "image_alt": "Amerika 250 bayrağı çeken klasik çift kanatlı uçak, 54 yazdırılabilir nokta boyunca"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Amerika'nın 250. Yıldönümü Uçak Afişi",
+          "description": "Bir çift kanatlı uçak, 54 nokta boyunca bir Amerika 250 afişi taşır. Genç havacılar için 4-8 yaş arası ücretsiz 2026 yıl dönümü çalışma sayfasını indirin.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
       },
-      "json_ld": {
-        "type": "CreativeWork",
+      "body": {
+        "h1": "Uçak Afişi Nokta ile Nokta: Amerika 250 için 54 Nokta",
         "name": "Amerika'nın 250. Yıldönümü Uçak Afişi",
-        "description": "Bir çift kanatlı uçak, 54 nokta boyunca bir Amerika 250 afişi taşır. Genç havacılar için 4-8 yaş arası ücretsiz 2026 yıl dönümü çalışma sayfasını indirin.",
-        "image": "",
-        "educational_use": "Fine motor skills, number sequencing",
-        "age_range": ""
-      }
-    },
-    "body": {
-      "h1": "Uçak Afişi Nokta ile Nokta: Amerika 250 için 54 Nokta",
-      "name": "Amerika'nın 250. Yıldönümü Uçak Afişi",
-      "tagline": "Amerika'nın 250. yıldönümü için yüksekten uçun!",
-      "description": "54 kolay noktayı birleştirerek Amerika'nın 250. yıl dönümünü kutlamak için bir vatansever afiş çeken klasik bir çift kanatlı uçağı ortaya çıkar! Bu ücretsiz yazdırılabilir çalışma sayfası, genç çocukların sayı sıralaması ve kalem kontrolü pratik yapmalarına yardımcı olurken, 250 yıllık Amerikan tarihini ve uçuşun öncü ruhunu kutlar. 4-8 yaş arası için mükemmel.",
-      "fun_fact": "Wright Kardeşler, 17 Aralık 1903'te Kuzey Carolina'daki Kitty Hawk'ta dünyanın ilk motorlu uçuşunu gerçekleştirdi — Bağımsızlık Bildirgesi'nin imzalanmasından sadece 127 yıl sonra. O ilk uçuş sadece 12 saniye sürdü ve 120 feet mesafe kat etti, ancak dünyayı sonsuza dek değiştirdi.",
-      "dot_guide": {
-        "intro": "Amerika 250 yaşında ve bu doğum günü mesajını gökyüzünde süzülen vatansever bir uçak pankartıyla yaymaktan daha iyi bir yol olabilir mi? Wright Kardeşler'in 1903'teki ilk uçuşundan beri Amerikalılar havacılığın sınırlarını zorlamayı seviyor. Bugün, pankart taşıyan uçaklar, kıyıdan kıyıya kutlamalarda, plajlarda ve spor etkinliklerinde tanıdık bir manzara. Bir kalem alın, 1 numaralı noktayı bulun ve bu uçağı havalandıralım!",
-        "sections": [
+        "tagline": "Amerika'nın 250. yıldönümü için yüksekten uçun!",
+        "description": "54 kolay noktayı birleştirerek Amerika'nın 250. yıl dönümünü kutlamak için bir vatansever afiş çeken klasik bir çift kanatlı uçağı ortaya çıkar! Bu ücretsiz yazdırılabilir çalışma sayfası, genç çocukların sayı sıralaması ve kalem kontrolü pratik yapmalarına yardımcı olurken, 250 yıllık Amerikan tarihini ve uçuşun öncü ruhunu kutlar. 4-8 yaş arası için mükemmel.",
+        "fun_fact": "Wright Kardeşler, 17 Aralık 1903'te Kuzey Carolina'daki Kitty Hawk'ta dünyanın ilk motorlu uçuşunu gerçekleştirdi — Bağımsızlık Bildirgesi'nin imzalanmasından sadece 127 yıl sonra. O ilk uçuş sadece 12 saniye sürdü ve 120 feet mesafe kat etti, ancak dünyayı sonsuza dek değiştirdi.",
+        "faqs": [
           {
-            "range": "1–12",
-            "title": "Burun ve Pervane",
-            "learn": "1. noktadan başlayıp 12. noktaya kadar ilerleyerek uçağın yuvarlak burnunu ve öndeki dönen pervaneyi çizin. Bu keskin kıvrımlar ve açılı pervane kanatları, en başından itibaren hassas kalem kontrolü geliştiren canlı bir ısınma egzersizi oluşturur.",
-            "fact": "Piston motorlu bir uçağın pervanesi, dönen bir kanat gibi çalışır; her bir kanat, havada dönmesiyle ileri doğru itme kuvveti oluşturacak şekilde şekillendirilmiştir. İlk ahşap pervaneler, tam olarak istenen eğrilere göre elle oyuluyordu ve yetenekli zanaatkarlar, belirli bir motorun güç çıkışına mükemmel şekilde uyan bir pervane şekillendirebiliyordu."
+            "q": "Amerika'nın 250. Yıldönümü Uçak Afişi noktadan noktaya birleştirme bulmacasında kaç nokta var?",
+            "a": "Amerika'nın 250. Yıldönümü Uçak Afişi noktaları birleştirme etkinliği, 54 numaralı noktadan oluşmaktadır. Bu da onu kolaydan orta zorluğa kadar bir bulmaca haline getirir ve 5-8 yaş arası (anaokulundan 2. sınıfa kadar) çocuklar için en uygunudur. Çocuklar noktaları numara sırasına göre birleştirerek tamamlanmış Amerika'nın 250. yıldönümü uçak afişi resmini ortaya çıkarır ve ardından boyarlar."
           },
           {
-            "range": "13–26",
-            "title": "Kokpit ve Gövde",
-            "learn": "13. noktadan 26. noktaya kadar devam ederek kokpit tavanını ve gövdenin uzun kısmını çizin. Çocuklar, uçağın şık ve aerodinamik şeklini yakalayan kavisli ve düz çizgilerin bir karışımını kullanarak, sayfanın daha büyük bir bölümünde özgüvenlerini ve çizgi tutarlılıklarını geliştirirler.",
-            "fact": "İlk uçakların kokpitleri açık ve ön camı yoktu; pilotlar yüksek irtifada rüzgardan ve soğuktan korunmak için deri kask, gözlük ve atkı takarlardı. Cam tavanlı kapalı kokpitler ancak 1930'larda çoğu uçakta standart hale geldi ve uçuşu çok daha konforlu hale getirdi."
+            "q": "Amerika'nın 250. Yıldönümü Uçak Afişi noktadan noktaya birleştirme şablonu ücretsiz mi?",
+            "a": "Evet. Amerika'nın 250. Yıldönümü Uçak Afişi çalışma sayfası, DotToDotFreePrintables.com adresinden %100 ücretsiz olarak indirilebilir; hesap, e-posta veya ödeme gerekmez. Hem dikey hem de yatay yönlendirmede, ABD Letter veya A4 kağıt boyutuna uygun, baskıya hazır bir PDF olarak anında indirilir."
           },
           {
-            "range": "27–38",
-            "title": "Kanatlar",
-            "learn": "Uçağın açılmış kanatlarını çizmek için 27 ila 38 arasındaki noktaları takip edin. Bu uzun, yatay çizgiler, geniş bir alanda düzgün ve eşit çizgi kontrolü için harika bir alıştırmadır. Çocukları her noktayı sakin bir şekilde hedeflemeye ve kalemin tıpkı yumuşak bir hava akımında ilerleyen bir uçak gibi kaymasına izin vermeye teşvik edin.",
-            "fact": "Uçağın kanatları, kavisli üst yüzeyi ve daha düz alt yüzeyi sayesinde kaldırma kuvveti üretir. Kavisli üst yüzey üzerinden geçen hava daha hızlı hareket eder ve daha düşük basınç oluştururken, alttaki daha yavaş hava yukarı doğru iter; bu basınç farkı birlikte uçağın tamamını yerden kaldırır."
+            "q": "Amerika'nın 250. Yıldönümü Uçak Afişi Noktaları Birleştirme Çalışma Sayfası hangi yaş grubu için en uygundur?",
+            "a": "54 noktadan oluşan Amerika 250. Yıldönümü Uçak Afişi yapbozu, 5-8 yaş arası (anaokulundan 2. sınıfa kadar) çocuklar için en uygundur. Daha küçük çocuklar, sayma konusunda yetişkinlerin hafif yardımıyla yapmaktan keyif alabilirken, sayma konusunda kendine güvenen çocuklar bağımsız olarak tamamlayabilir ve 54'e kadar sayı sıralaması pratiği yapabilirler."
           },
           {
-            "range": "39–47",
-            "title": "Kuyruk Kanadı ve Dümen",
-            "learn": "Uçağın dikey kuyruk kanadını ve arkasındaki yatay dengeleyicileri çizmek için 39 ile 47 arasındaki noktaları birleştirin. Bu açılı ve hassas çizgiler, çocukların yön değiştirme ve köşe noktalarını uygulamalarına yardımcı olur; bu da her numaralı noktaya dikkatlice nişan almayı geliştirmek için harika bir meydan okumadır.",
-            "fact": "Kuyruk kanadı (dikey dengeleyici olarak da adlandırılır), uçağın tıpkı bir ok üzerindeki kanatlar gibi düz ileriye doğru yönelmesini sağlar. Onsuz, burun en ufak bir esintide bile kontrolsüz bir şekilde sola ve sağa sallanırdı. Bunun üstünde ve altında bulunan daha küçük yatay dengeleyiciler ise uçağın yukarı ve aşağı eğimini kontrol eder."
+            "q": "Amerika'nın 250. Yıldönümü Uçak Afişi noktadan noktaya birleştirme bulmacası hangi becerileri öğretiyor?",
+            "a": "Amerika'nın 250. Yıldönümü Uçak Afişi yapbozunun 54 noktasını birleştirmek, sayı tanıma ve 54'e kadar sayma, kalem kontrolü, el-göz koordinasyonu ve sürekli odaklanma gibi ince motor becerilerini geliştirir; bu beceriler, erken dönemde el yazısını destekleyen temel unsurlardır. Tamamlanmış resmi boyamak ise yaratıcı bir ödül sunar."
           },
           {
-            "range": "48–54",
-            "title": "Afiş ve Son Rötuşlar",
-            "learn": "Uçağın arkasında çekilen dalgalanan vatansever bayrağı eklemek için 48 ile 54 arasındaki noktaları birleştirerek yapbozu tamamlayın. Resmi tamamlamak için sadece yedi nokta kaldı; çocukları, rüzgarda dalgalanıyormuş gibi görünmesini sağlayacak şekilde, kurdele benzeri bayrağı nazik ve akıcı bir bilek hareketiyle çizmeleri için teşvik edin.",
-            "fact": "Hava yoluyla pankart çekme işi, 1920'lerde Amerika Birleşik Devletleri'nde, zeki pilotların kalabalık plajlar ve spor etkinlikleri üzerinde reklam mesajları uçurarak ek gelir elde edebileceklerini fark etmeleriyle başladı. Günümüzde pankart uçakları genellikle yüzlerce metre uzunluğunda mesajlar çekiyor ve açık bir günde kilometrelerce uzaktan görülebiliyor."
+            "q": "Amerika'nın 250. yıldönümü uçak afişiyle ilgili ilginç bir bilgi nedir?",
+            "a": "Wright Kardeşler, Bağımsızlık Bildirgesi'nin imzalanmasından sadece 127 yıl sonra, 17 Aralık 1903'te Kuzey Carolina, Kitty Hawk'ta dünyanın ilk motorlu uçağını uçurdular. Bu ilk uçuş sadece 12 saniye sürdü ve 120 fit (yaklaşık 36 metre) mesafe katetti, ancak dünyayı sonsuza dek değiştirdi. Çocuklar, Amerika'nın 250. Yıldönümü Uçak Afişi noktadan noktaya birleştirme bulmacasını tamamlarken bunun gibi gerçekleri keşfediyorlar."
           }
         ],
-        "outro": "Harika bir çalışma — Amerika'nın 250. yıldönümü uçağınız gökyüzünde süzülüyor! 54 nokta ve Amerika için gökyüksekliğinde bir doğum günü mesajı. Uçağı kırmızı ve beyaz renklerle, mavi yıldız detaylarıyla boyayın ve Amerikan tarihinin 250 inanılmaz yılını kutlamak için pankartı vatansever renklerle doldurun. Amerika Birleşik Devletleri'nin 250. doğum günü kutlu olsun! Sınıf için mükemmel — daha fazla <a href=\"/playgrounds/\">noktadan noktaya birleştirme çalışma sayfası</a> için bakın.",
-        "color_schemes": []
+        "dot_guide": {
+          "intro": "Amerika 250 yaşında ve bu doğum günü mesajını gökyüzünde süzülen vatansever bir uçak pankartıyla yaymaktan daha iyi bir yol olabilir mi? Wright Kardeşler'in 1903'teki ilk uçuşundan beri Amerikalılar havacılığın sınırlarını zorlamayı seviyor. Bugün, pankart taşıyan uçaklar, kıyıdan kıyıya kutlamalarda, plajlarda ve spor etkinliklerinde tanıdık bir manzara. Bir kalem alın, 1 numaralı noktayı bulun ve bu uçağı havalandıralım!",
+          "sections": [
+            {
+              "range": "1–12",
+              "title": "Burun ve Pervane",
+              "learn": "1. noktadan başlayıp 12. noktaya kadar ilerleyerek uçağın yuvarlak burnunu ve öndeki dönen pervaneyi çizin. Bu keskin kıvrımlar ve açılı pervane kanatları, en başından itibaren hassas kalem kontrolü geliştiren canlı bir ısınma egzersizi oluşturur.",
+              "fact": "Piston motorlu bir uçağın pervanesi, dönen bir kanat gibi çalışır; her bir kanat, havada dönmesiyle ileri doğru itme kuvveti oluşturacak şekilde şekillendirilmiştir. İlk ahşap pervaneler, tam olarak istenen eğrilere göre elle oyuluyordu ve yetenekli zanaatkarlar, belirli bir motorun güç çıkışına mükemmel şekilde uyan bir pervane şekillendirebiliyordu."
+            },
+            {
+              "range": "13–26",
+              "title": "Kokpit ve Gövde",
+              "learn": "13. noktadan 26. noktaya kadar devam ederek kokpit tavanını ve gövdenin uzun kısmını çizin. Çocuklar, uçağın şık ve aerodinamik şeklini yakalayan kavisli ve düz çizgilerin bir karışımını kullanarak, sayfanın daha büyük bir bölümünde özgüvenlerini ve çizgi tutarlılıklarını geliştirirler.",
+              "fact": "İlk uçakların kokpitleri açık ve ön camı yoktu; pilotlar yüksek irtifada rüzgardan ve soğuktan korunmak için deri kask, gözlük ve atkı takarlardı. Cam tavanlı kapalı kokpitler ancak 1930'larda çoğu uçakta standart hale geldi ve uçuşu çok daha konforlu hale getirdi."
+            },
+            {
+              "range": "27–38",
+              "title": "Kanatlar",
+              "learn": "Uçağın açılmış kanatlarını çizmek için 27 ila 38 arasındaki noktaları takip edin. Bu uzun, yatay çizgiler, geniş bir alanda düzgün ve eşit çizgi kontrolü için harika bir alıştırmadır. Çocukları her noktayı sakin bir şekilde hedeflemeye ve kalemin tıpkı yumuşak bir hava akımında ilerleyen bir uçak gibi kaymasına izin vermeye teşvik edin.",
+              "fact": "Uçağın kanatları, kavisli üst yüzeyi ve daha düz alt yüzeyi sayesinde kaldırma kuvveti üretir. Kavisli üst yüzey üzerinden geçen hava daha hızlı hareket eder ve daha düşük basınç oluştururken, alttaki daha yavaş hava yukarı doğru iter; bu basınç farkı birlikte uçağın tamamını yerden kaldırır."
+            },
+            {
+              "range": "39–47",
+              "title": "Kuyruk Kanadı ve Dümen",
+              "learn": "Uçağın dikey kuyruk kanadını ve arkasındaki yatay dengeleyicileri çizmek için 39 ile 47 arasındaki noktaları birleştirin. Bu açılı ve hassas çizgiler, çocukların yön değiştirme ve köşe noktalarını uygulamalarına yardımcı olur; bu da her numaralı noktaya dikkatlice nişan almayı geliştirmek için harika bir meydan okumadır.",
+              "fact": "Kuyruk kanadı (dikey dengeleyici olarak da adlandırılır), uçağın tıpkı bir ok üzerindeki kanatlar gibi düz ileriye doğru yönelmesini sağlar. Onsuz, burun en ufak bir esintide bile kontrolsüz bir şekilde sola ve sağa sallanırdı. Bunun üstünde ve altında bulunan daha küçük yatay dengeleyiciler ise uçağın yukarı ve aşağı eğimini kontrol eder."
+            },
+            {
+              "range": "48–54",
+              "title": "Afiş ve Son Rötuşlar",
+              "learn": "Uçağın arkasında çekilen dalgalanan vatansever bayrağı eklemek için 48 ile 54 arasındaki noktaları birleştirerek yapbozu tamamlayın. Resmi tamamlamak için sadece yedi nokta kaldı; çocukları, rüzgarda dalgalanıyormuş gibi görünmesini sağlayacak şekilde, kurdele benzeri bayrağı nazik ve akıcı bir bilek hareketiyle çizmeleri için teşvik edin.",
+              "fact": "Hava yoluyla pankart çekme işi, 1920'lerde Amerika Birleşik Devletleri'nde, zeki pilotların kalabalık plajlar ve spor etkinlikleri üzerinde reklam mesajları uçurarak ek gelir elde edebileceklerini fark etmeleriyle başladı. Günümüzde pankart uçakları genellikle yüzlerce metre uzunluğunda mesajlar çekiyor ve açık bir günde kilometrelerce uzaktan görülebiliyor."
+            }
+          ],
+          "outro": "Harika bir çalışma — Amerika'nın 250. yıldönümü uçağınız gökyüzünde süzülüyor! 54 nokta ve Amerika için gökyüksekliğinde bir doğum günü mesajı. Uçağı kırmızı ve beyaz renklerle, mavi yıldız detaylarıyla boyayın ve Amerikan tarihinin 250 inanılmaz yılını kutlamak için pankartı vatansever renklerle doldurun. Amerika Birleşik Devletleri'nin 250. doğum günü kutlu olsun! Sınıf için mükemmel — daha fazla <a href=\"/playgrounds/\">noktadan noktaya birleştirme çalışma sayfası</a> için bakın.",
+          "color_schemes": []
+        }
       }
-    }
-  },
-  {
-    "slug": "usa-250-space-shuttle-dot-to-dot-puzzle",
-    "header": {
-      "title": "Uzay Mekiği Nokta ile Nokta — 50 Noktalı Amerika 250 Fırlatışı",
-      "meta_description": "NASA'nın Uzay Mekiği, 135 misyon tamamladı. 4-8 yaş arası çocuklar için bu ücretsiz Amerika 250 yazdırılabilir PDF ile 50 nokta boyunca bir fırlatma inşa edin.",
-      "og": {
+    },
+    {
+      "slug": "usa-250-space-shuttle-dot-to-dot-puzzle",
+      "header": {
         "title": "Uzay Mekiği Nokta ile Nokta — 50 Noktalı Amerika 250 Fırlatışı",
-        "description": "NASA'nın Uzay Mekiği, 135 misyon tamamladı. 4-8 yaş arası çocuklar için bu ücretsiz Amerika 250 yazdırılabilir PDF ile 50 nokta boyunca bir fırlatma inşa edin.",
-        "image_alt": "Bir bulut 50 numaralı yazdırılabilir noktadan yükselen Uzay Mekiği kalkışı"
+        "meta_description": "NASA'nın Uzay Mekiği, 135 misyon tamamladı. 4-8 yaş arası çocuklar için bu ücretsiz Amerika 250 yazdırılabilir PDF ile 50 nokta boyunca bir fırlatma inşa edin.",
+        "og": {
+          "title": "Uzay Mekiği Nokta ile Nokta — 50 Noktalı Amerika 250 Fırlatışı",
+          "description": "NASA'nın Uzay Mekiği, 135 misyon tamamladı. 4-8 yaş arası çocuklar için bu ücretsiz Amerika 250 yazdırılabilir PDF ile 50 nokta boyunca bir fırlatma inşa edin.",
+          "image_alt": "Bir bulut 50 numaralı yazdırılabilir noktadan yükselen Uzay Mekiği kalkışı"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Amerika 250 Uzay Mekiği",
+          "description": "NASA'nın Uzay Mekiği, 135 misyon tamamladı. 4-8 yaş arası çocuklar için bu ücretsiz Amerika 250 yazdırılabilir PDF ile 50 nokta boyunca bir fırlatma inşa edin.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
       },
-      "json_ld": {
-        "type": "CreativeWork",
+      "body": {
+        "h1": "Uzay Mekiği Nokta ile Nokta — 50 Noktalı Amerika 250 Fırlatışı",
         "name": "Amerika 250 Uzay Mekiği",
-        "description": "NASA'nın Uzay Mekiği, 135 misyon tamamladı. 4-8 yaş arası çocuklar için bu ücretsiz Amerika 250 yazdırılabilir PDF ile 50 nokta boyunca bir fırlatma inşa edin.",
-        "image": "",
-        "educational_use": "Fine motor skills, number sequencing",
-        "age_range": ""
-      }
-    },
-    "body": {
-      "h1": "Uzay Mekiği Nokta ile Nokta — 50 Noktalı Amerika 250 Fırlatışı",
-      "name": "Amerika 250 Uzay Mekiği",
-      "tagline": "Uzay Mekiği ile Amerika'nın 250. yıl dönümüne doğru yola çıkın!",
-      "description": "50 kolay noktayı birleştirerek Amerika'nın 250. yıl dönümünü kutlamak için güçlü bir Uzay Mekiği fırlatışını ortaya çıkar! Bu ücretsiz yazdırılabilir çalışma sayfası, genç çocukların sayı sıralaması ve kalem kontrolü pratik yapmalarına yardımcı olurken, 250 yıllık Amerikan keşfi ve yeniliğini onurlandırır. 4-8 yaş arası için mükemmel.",
-      "fun_fact": "NASA'nın Uzay Mekiği programı, 1981 ile 2011 yılları arasında 135 misyon gerçekleştirdi, astronotları, uyduları ve Uluslararası Uzay İstasyonu'nun yapı taşlarını yörüngeye taşıdı. Beş mekik — Columbia, Challenger, Discovery, Atlantis ve Endeavour — toplamda 1,300 günden fazla uzayda kaldı.",
-      "dot_guide": {
-        "intro": "Amerika Birleşik Devletleri 250 yaşında ve az sayıda makine, ülkenin keşif ve hırs ruhunu Uzay Mekiği'nden daha iyi temsil ediyor! 30 yıl boyunca Mekik, Amerikalı astronotları yörüngeye taşıdı, evrene bakış açımızı değiştiren teleskopları fırlattı ve dünyayla paylaşılan bir uzay istasyonunun inşasına yardımcı oldu. Bir kalem alın, 1 numaralı noktayı bulun ve bu Mekiği gökyüzüne gönderelim!",
-        "sections": [
+        "tagline": "Uzay Mekiği ile Amerika'nın 250. yıl dönümüne doğru yola çıkın!",
+        "description": "50 kolay noktayı birleştirerek Amerika'nın 250. yıl dönümünü kutlamak için güçlü bir Uzay Mekiği fırlatışını ortaya çıkar! Bu ücretsiz yazdırılabilir çalışma sayfası, genç çocukların sayı sıralaması ve kalem kontrolü pratik yapmalarına yardımcı olurken, 250 yıllık Amerikan keşfi ve yeniliğini onurlandırır. 4-8 yaş arası için mükemmel.",
+        "fun_fact": "NASA'nın Uzay Mekiği programı, 1981 ile 2011 yılları arasında 135 misyon gerçekleştirdi, astronotları, uyduları ve Uluslararası Uzay İstasyonu'nun yapı taşlarını yörüngeye taşıdı. Beş mekik — Columbia, Challenger, Discovery, Atlantis ve Endeavour — toplamda 1,300 günden fazla uzayda kaldı.",
+        "faqs": [
           {
-            "range": "1–10",
-            "title": "Burun Konisi ve Kokpit",
-            "learn": "1 numaralı noktadan başlayıp 10 numaralı noktaya kadar uzanarak keskin burun konisini ve hemen altındaki kokpit pencereleri sırasını çizin. Bu hassas, açılı çizgiler, genç sanatçılar için harika bir ısınma egzersizi olup, ileride kanatlar ve motorlar için ihtiyaç duyacakları istikrarlı el kontrolünü geliştirmelerine yardımcı olur.",
-            "fact": "Uzay Mekiği'nin burun konisi ve ön gövdesi, her biri silika malzemeden yapılmış binlerce ısı kalkanı karo ile kaplıydı; bu malzeme o kadar etkiliydi ki, yeniden giriş sırasında ulaştığı 2300 derece Fahrenheit sıcaklığa ısıtıldıktan saniyeler sonra bir karoyu çıplak elinizle tutabiliyordunuz."
+            "q": "Amerika 250 Uzay Mekiği noktadan noktaya birleştirme bulmacasında kaç nokta var?",
+            "a": "Amerika 250 Uzay Mekiği noktaları birleştirme etkinliği, 50 numaralı noktadan oluşmaktadır. Bu da onu kolaydan orta zorluğa kadar bir bulmaca haline getirir ve 5-8 yaş arası (anaokulundan 2. sınıfa kadar) çocuklar için en uygunudur. Çocuklar noktaları numara sırasına göre birleştirerek tamamlanmış Amerika 250 uzay mekiği resmini ortaya çıkarır ve ardından boyarlar."
           },
           {
-            "range": "11–24",
-            "title": "Ana Gövde",
-            "learn": "11. noktadan 24. noktaya kadar devam ederek, mürettebat kabinini, yük bölmesini ve tüm görev ekipmanlarını taşıyan uzun, silindirik yörünge aracının gövdesini çizin. Çocuklar burada düz, paralel çizgiler çizmeyi öğrenirler; bu da mükemmel bir tutarlılık sağlar ve heyecan verici detayları eklemeden önce genel şekli anlamalarına yardımcı olur.",
-            "fact": "Uzay mekiğinin devasa yük bölmesi (mürettebat kabininin arkasındaki kargo alanı) 60 fit uzunluğunda ve 15 fit genişliğindeydi; bir okul otobüsünü yörüngeye taşıyabilecek kadar büyüktü. Uyduları yerleştirmek, bilimsel deneyler taşımak ve Uluslararası Uzay İstasyonu'nu inşa etmek için bir araya getirilen dev modülleri nakletmek için kullanıldı."
+            "q": "Amerika 250 Uzay Mekiği noktadan noktaya birleştirme şablonu ücretsiz mi?",
+            "a": "Evet. Amerika'nın 250. Uzay Mekiği çalışma sayfası, DotToDotFreePrintables.com adresinden %100 ücretsiz olarak indirilebilir; hesap, e-posta veya ödeme gerekmez. Hem dikey hem de yatay yönlendirmede, ABD Letter veya A4 kağıt boyutuna uygun, baskıya hazır bir PDF olarak anında indirilir."
           },
           {
-            "range": "25–36",
-            "title": "Delta Kanatları",
-            "learn": "25 ile 36 arasındaki noktaları takip ederek Uzay Mekiği'nin kendine özgü geriye doğru kıvrılmış delta kanatlarını çizin. Bu uzun, diyagonal çizgiler, kendinden emin çizgi kontrolü için harika bir alıştırmadır; çocuklar geniş bir kanat ucundan uzay aracının gövdesine doğru tek bir düzgün, bilinçli hareketle çizim yapmayı öğrenirler.",
-            "fact": "Uzay Mekiği, iniş sırasında planör gibi uçacak şekilde tasarlanmış, dünyanın ilk yeniden kullanılabilir uzay aracıydı. Atmosfere yeniden girdikten sonra motor gücü yoktu ve iniş için sadece bir şansı vardı; pilotlar ona \"dünyanın en ağır planörü\" adını vermişti. Delta şeklindeki kanatları, piste güvenli bir şekilde süzülmesi için gereken kaldırma kuvvetini sağlıyordu."
+            "q": "Amerika 250 Uzay Mekiği noktaları birleştirme çalışma sayfası hangi yaş grubu için en uygundur?",
+            "a": "50 noktadan oluşan Amerika 250 Uzay Mekiği yapbozu, 5-8 yaş arası (anaokulundan 2. sınıfa kadar) çocuklar için en uygundur. Daha küçük çocuklar, sayma konusunda yetişkinlerin hafif yardımıyla yapmaktan keyif alabilirken, sayma konusunda kendine güvenen çocuklar yapbozu bağımsız olarak tamamlayabilir ve 50'ye kadar sayı sıralaması pratiği yapabilirler."
           },
           {
-            "range": "37–44",
-            "title": "Kuyruk Kanadı ve Ana Motorlar",
-            "learn": "37 ile 44 arasındaki noktaları birleştirerek, uzay aracının arkasındaki uzun dikey kuyruk kanadını ve üç ana motor kümesini çizin. Çocuklar, kuyruk kanadı için uzun yukarı doğru bir çizgi ve ardından her bir motor çanı için daha küçük, yuvarlak şekiller çizerek pratik yaparlar; bu, aynı bölümde büyük ve küçük hareketlerin harika bir karışımıdır.",
-            "fact": "Uzay Mekiği Ana Motorlarının (SSME) her biri, yaklaşık 375.000 pound itme gücü üreten, şimdiye kadar yapılmış en güçlü roket motorlarından biriydi. Üç motor, sıvı hidrojen ve sıvı oksijeni birlikte yakarak o kadar sıcak bir alev oluşturuyordu ki, kalkış sırasında sesi ve ısıyı emmek için fırlatma rampasına su dökülmesi gerekiyordu."
+            "q": "Amerika 250 Uzay Mekiği noktadan noktaya birleştirme bulmacası hangi becerileri öğretiyor?",
+            "a": "Amerika 250 Uzay Mekiği yapbozunun 50 noktasını birleştirmek, sayı tanıma ve 50'ye kadar sayma, kalem kontrolü, el-göz koordinasyonu ve sürekli odaklanma gibi ince motor becerilerinin temellerini geliştirir; bu beceriler, erken dönemde el yazısını da destekler. Tamamlanmış resmi boyamak ise yaratıcı bir ödül sunar."
           },
           {
-            "range": "45–50",
-            "title": "Görev Arması ve Son Rötuşlar",
-            "learn": "Amerikan bayrağını, görev armasını ve uzay mekiğini hayata geçiren son detayları eklemek için 45 ile 50 arasındaki noktaları birleştirerek yapbozu tamamlayın. Bu tarihi uzay aracını tamamlamak için sadece altı nokta kaldı; çocukları, görev armasına layık bir resim oluşturmak için bu son çizgileri en düzgün ve en hassas şekilde çizmeleri konusunda teşvik edin!",
-            "fact": "Her uzay mekiği görevinin, astronotların kendileri tarafından tasarlanan ve uçuş kıyafetlerinde taşıdıkları kendine özgü bir mürettebat amblemi vardı. Bu dairesel amblemlerde sanat eserleri, mürettebatın isimleri ve görevin hedeflerini temsil eden semboller yer alıyordu ve bunlar dünya çapındaki uzay meraklıları için değerli koleksiyon parçaları haline geldi."
+            "q": "Amerika 250 uzay mekiğiyle ilgili ilginç bir bilgi nedir?",
+            "a": "NASA'nın Uzay Mekiği programı, 1981 ve 2011 yılları arasında astronotları, uyduları ve Uluslararası Uzay İstasyonu'nun yapı taşlarını yörüngeye taşıyan 135 görev gerçekleştirdi. Columbia, Challenger, Discovery, Atlantis ve Endeavour olmak üzere beş mekik, toplamda 1300 günden fazla uzayda kaldı. Çocuklar, Amerika 250 Uzay Mekiği noktadan noktaya birleştirme bulmacasını tamamlarken bu gibi gerçekleri keşfediyorlar."
           }
         ],
-        "outro": "İnanılmaz bir çalışma — Amerika 250 Uzay Mekiğiniz fırlatılmaya hazır! Bu, 50 nokta ve Amerikan zekasının ve keşiflerinin muhteşem bir sembolü. Mekiği beyaz renge boyayın, siyah ısı yalıtım karoları ekleyin, kırmızı ve mavi bayrak işaretleri ekleyin ve Mekiğiniz tarih kitaplarına doğru fırlatılmaya hazır. Amerika Birleşik Devletleri'nin 250. doğum günü kutlu olsun — gökyüzü kesinlikle sınır değil! Kutlamaları devam ettirmek için daha fazla <a href=\"/usa-250/\">Amerika 250 yazdırılabilir materyali</a> keşfedin.",
-        "color_schemes": []
+        "dot_guide": {
+          "intro": "Amerika Birleşik Devletleri 250 yaşında ve az sayıda makine, ülkenin keşif ve hırs ruhunu Uzay Mekiği'nden daha iyi temsil ediyor! 30 yıl boyunca Mekik, Amerikalı astronotları yörüngeye taşıdı, evrene bakış açımızı değiştiren teleskopları fırlattı ve dünyayla paylaşılan bir uzay istasyonunun inşasına yardımcı oldu. Bir kalem alın, 1 numaralı noktayı bulun ve bu Mekiği gökyüzüne gönderelim!",
+          "sections": [
+            {
+              "range": "1–10",
+              "title": "Burun Konisi ve Kokpit",
+              "learn": "1 numaralı noktadan başlayıp 10 numaralı noktaya kadar uzanarak keskin burun konisini ve hemen altındaki kokpit pencereleri sırasını çizin. Bu hassas, açılı çizgiler, genç sanatçılar için harika bir ısınma egzersizi olup, ileride kanatlar ve motorlar için ihtiyaç duyacakları istikrarlı el kontrolünü geliştirmelerine yardımcı olur.",
+              "fact": "Uzay Mekiği'nin burun konisi ve ön gövdesi, her biri silika malzemeden yapılmış binlerce ısı kalkanı karo ile kaplıydı; bu malzeme o kadar etkiliydi ki, yeniden giriş sırasında ulaştığı 2300 derece Fahrenheit sıcaklığa ısıtıldıktan saniyeler sonra bir karoyu çıplak elinizle tutabiliyordunuz."
+            },
+            {
+              "range": "11–24",
+              "title": "Ana Gövde",
+              "learn": "11. noktadan 24. noktaya kadar devam ederek, mürettebat kabinini, yük bölmesini ve tüm görev ekipmanlarını taşıyan uzun, silindirik yörünge aracının gövdesini çizin. Çocuklar burada düz, paralel çizgiler çizmeyi öğrenirler; bu da mükemmel bir tutarlılık sağlar ve heyecan verici detayları eklemeden önce genel şekli anlamalarına yardımcı olur.",
+              "fact": "Uzay mekiğinin devasa yük bölmesi (mürettebat kabininin arkasındaki kargo alanı) 60 fit uzunluğunda ve 15 fit genişliğindeydi; bir okul otobüsünü yörüngeye taşıyabilecek kadar büyüktü. Uyduları yerleştirmek, bilimsel deneyler taşımak ve Uluslararası Uzay İstasyonu'nu inşa etmek için bir araya getirilen dev modülleri nakletmek için kullanıldı."
+            },
+            {
+              "range": "25–36",
+              "title": "Delta Kanatları",
+              "learn": "25 ile 36 arasındaki noktaları takip ederek Uzay Mekiği'nin kendine özgü geriye doğru kıvrılmış delta kanatlarını çizin. Bu uzun, diyagonal çizgiler, kendinden emin çizgi kontrolü için harika bir alıştırmadır; çocuklar geniş bir kanat ucundan uzay aracının gövdesine doğru tek bir düzgün, bilinçli hareketle çizim yapmayı öğrenirler.",
+              "fact": "Uzay Mekiği, iniş sırasında planör gibi uçacak şekilde tasarlanmış, dünyanın ilk yeniden kullanılabilir uzay aracıydı. Atmosfere yeniden girdikten sonra motor gücü yoktu ve iniş için sadece bir şansı vardı; pilotlar ona \"dünyanın en ağır planörü\" adını vermişti. Delta şeklindeki kanatları, piste güvenli bir şekilde süzülmesi için gereken kaldırma kuvvetini sağlıyordu."
+            },
+            {
+              "range": "37–44",
+              "title": "Kuyruk Kanadı ve Ana Motorlar",
+              "learn": "37 ile 44 arasındaki noktaları birleştirerek, uzay aracının arkasındaki uzun dikey kuyruk kanadını ve üç ana motor kümesini çizin. Çocuklar, kuyruk kanadı için uzun yukarı doğru bir çizgi ve ardından her bir motor çanı için daha küçük, yuvarlak şekiller çizerek pratik yaparlar; bu, aynı bölümde büyük ve küçük hareketlerin harika bir karışımıdır.",
+              "fact": "Uzay Mekiği Ana Motorlarının (SSME) her biri, yaklaşık 375.000 pound itme gücü üreten, şimdiye kadar yapılmış en güçlü roket motorlarından biriydi. Üç motor, sıvı hidrojen ve sıvı oksijeni birlikte yakarak o kadar sıcak bir alev oluşturuyordu ki, kalkış sırasında sesi ve ısıyı emmek için fırlatma rampasına su dökülmesi gerekiyordu."
+            },
+            {
+              "range": "45–50",
+              "title": "Görev Arması ve Son Rötuşlar",
+              "learn": "Amerikan bayrağını, görev armasını ve uzay mekiğini hayata geçiren son detayları eklemek için 45 ile 50 arasındaki noktaları birleştirerek yapbozu tamamlayın. Bu tarihi uzay aracını tamamlamak için sadece altı nokta kaldı; çocukları, görev armasına layık bir resim oluşturmak için bu son çizgileri en düzgün ve en hassas şekilde çizmeleri konusunda teşvik edin!",
+              "fact": "Her uzay mekiği görevinin, astronotların kendileri tarafından tasarlanan ve uçuş kıyafetlerinde taşıdıkları kendine özgü bir mürettebat amblemi vardı. Bu dairesel amblemlerde sanat eserleri, mürettebatın isimleri ve görevin hedeflerini temsil eden semboller yer alıyordu ve bunlar dünya çapındaki uzay meraklıları için değerli koleksiyon parçaları haline geldi."
+            }
+          ],
+          "outro": "İnanılmaz bir çalışma — Amerika 250 Uzay Mekiğiniz fırlatılmaya hazır! Bu, 50 nokta ve Amerikan zekasının ve keşiflerinin muhteşem bir sembolü. Mekiği beyaz renge boyayın, siyah ısı yalıtım karoları ekleyin, kırmızı ve mavi bayrak işaretleri ekleyin ve Mekiğiniz tarih kitaplarına doğru fırlatılmaya hazır. Amerika Birleşik Devletleri'nin 250. doğum günü kutlu olsun — gökyüzü kesinlikle sınır değil! Kutlamaları devam ettirmek için daha fazla <a href=\"/usa-250/\">Amerika 250 yazdırılabilir materyali</a> keşfedin.",
+          "color_schemes": []
+        }
       }
-    }
-  },
-  {
-    "slug": "usa-250-anniversary-sports-kids-podium-dot-to-dot-puzzle",
-    "header": {
-      "title": "Amerika 250 Podyumu Noktaları Birleştir: 124 Noktalık Meydan Okuma",
-      "meta_description": "124 noktalı bir podyum, kendine güvenen sayıcılar için bir Amerika 250 meydan okuması sunar. 6-10 yaş arası çocuklar için ücretsiz spor kutlama PDF'sini yazdırın.",
-      "og": {
+    },
+    {
+      "slug": "usa-250-anniversary-sports-kids-podium-dot-to-dot-puzzle",
+      "header": {
         "title": "Amerika 250 Podyumu Noktaları Birleştir: 124 Noktalık Meydan Okuma",
-        "description": "124 noktalı bir podyum, kendine güvenen sayıcılar için bir Amerika 250 meydan okuması sunar. 6-10 yaş arası çocuklar için ücretsiz spor kutlama PDF'sini yazdırın.",
-        "image_alt": "Zafer podyumunda kutlama yapan üç genç sporcu, 124 noktadan inşa edilmiş"
+        "meta_description": "124 noktalı bir podyum, kendine güvenen sayıcılar için bir Amerika 250 meydan okuması sunar. 6-10 yaş arası çocuklar için ücretsiz spor kutlama PDF'sini yazdırın.",
+        "og": {
+          "title": "Amerika 250 Podyumu Noktaları Birleştir: 124 Noktalık Meydan Okuma",
+          "description": "124 noktalı bir podyum, kendine güvenen sayıcılar için bir Amerika 250 meydan okuması sunar. 6-10 yaş arası çocuklar için ücretsiz spor kutlama PDF'sini yazdırın.",
+          "image_alt": "Zafer podyumunda kutlama yapan üç genç sporcu, 124 noktadan inşa edilmiş"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Amerika'nın 250. Yıldönümü Spor Çocuk Podyumu",
+          "description": "124 noktalı bir podyum, kendine güvenen sayıcılar için bir Amerika 250 meydan okuması sunar. 6-10 yaş arası çocuklar için ücretsiz spor kutlama PDF'sini yazdırın.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
       },
-      "json_ld": {
-        "type": "CreativeWork",
+      "body": {
+        "h1": "Amerika 250 Podyum Nokta ile Nokta: 124 Noktalı Bir Meydan Okuma",
         "name": "Amerika'nın 250. Yıldönümü Spor Çocuk Podyumu",
-        "description": "124 noktalı bir podyum, kendine güvenen sayıcılar için bir Amerika 250 meydan okuması sunar. 6-10 yaş arası çocuklar için ücretsiz spor kutlama PDF'sini yazdırın.",
-        "image": "",
-        "educational_use": "Fine motor skills, number sequencing",
-        "age_range": ""
-      }
-    },
-    "body": {
-      "h1": "Amerika 250 Podyum Nokta ile Nokta: 124 Noktalı Bir Meydan Okuma",
-      "name": "Amerika'nın 250. Yıldönümü Spor Çocuk Podyumu",
-      "tagline": "Amerika'nın Genç Şampiyonlarını 250. yaş gününde destekleyin!",
-      "description": "124 noktayı birleştirerek Amerika'nın 250. yıl dönümünü kutlayan üç genç sporcuyu bir vatansever kazanan podyumunda ortaya çıkar! Bu ücretsiz yazdırılabilir çalışma sayfası, 6-10 yaş arası çocuklara tatmin edici bir sayı sıralama meydan okuması sunarken, 250 yıllık Amerikan sporculuğunu, takım çalışmasını ve rekabet ruhunu onurlandırır.",
-      "fun_fact": "Amerika Birleşik Devletleri, 1896'daki ilk modern Olimpiyat Oyunları'ndan bu yana neredeyse her Yaz Olimpiyat Oyunları'na katıldı ve tüm zamanların toplamında Olimpiyat altın madalyalarında tüm ülkeleri geride bıraktı. Amerikalı sporcular, o en üst podyum basamağında 1,000'den fazla kez durdu — ABD'nin spor ruhunun, tarihi kadar güçlü olduğunun kanıtı!",
-      "dot_guide": {
-        "intro": "Amerika 250 yaşında ve ülke, en yetenekli genç şampiyonlarıyla birlikte zafer kürsüsünde kutlama yapıyor! İlk Olimpiyat oyunlarından mahalledeki küçük liglere kadar spor, Amerikan ruhunun ayrılmaz bir parçası olmuştur: rekabetin heyecanı, takım çalışmasının neşesi ve elinizden gelenin en iyisini yaptıktan sonra zirvede durmanın gururu. Bir kalem alın, 1 numaralı noktayı bulun ve bu kürsüyü adım adım inşa edelim!",
-        "sections": [
+        "tagline": "Amerika'nın Genç Şampiyonlarını 250. yaş gününde destekleyin!",
+        "description": "124 noktayı birleştirerek Amerika'nın 250. yıl dönümünü kutlayan üç genç sporcuyu bir vatansever kazanan podyumunda ortaya çıkar! Bu ücretsiz yazdırılabilir çalışma sayfası, 6-10 yaş arası çocuklara tatmin edici bir sayı sıralama meydan okuması sunarken, 250 yıllık Amerikan sporculuğunu, takım çalışmasını ve rekabet ruhunu onurlandırır.",
+        "fun_fact": "Amerika Birleşik Devletleri, 1896'daki ilk modern Olimpiyat Oyunları'ndan bu yana neredeyse her Yaz Olimpiyat Oyunları'na katıldı ve tüm zamanların toplamında Olimpiyat altın madalyalarında tüm ülkeleri geride bıraktı. Amerikalı sporcular, o en üst podyum basamağında 1,000'den fazla kez durdu — ABD'nin spor ruhunun, tarihi kadar güçlü olduğunun kanıtı!",
+        "faqs": [
           {
-            "range": "1–25",
-            "title": "Podyumun Tabanı ve Basamakları",
-            "learn": "1. noktadan başlayıp 25. noktaya kadar uzanarak kazananın podyumunun sağlam, basamaklı tabanını çizin. 1., 2. ve 3. olarak etiketlenen üç platform, sağlam dikdörtgen şekillerden ve yatay çizgilerden oluşmaktadır. Bu istikrarlı, geometrik vuruşlar mükemmel bir ısınma egzersizi oluşturarak çocukların bir ritim yakalamasına ve ilerideki daha ayrıntılı bölümler için ihtiyaç duyacakları kendinden emin kalem kontrolünü geliştirmelerine yardımcı olur.",
-            "fact": "Üç basamaklı kazananlar kürsüsü, 1932 Los Angeles Olimpiyatları'nda Yaz Olimpiyatları'nda ilk kez kullanıldı; daha önce 1932 Lake Placid Kış Olimpiyatları'nda da yer almıştı. Bu tasarım o kadar güçlü bir görsel etki yarattı ki, dünya çapındaki spor müsabakaları tarafından benimsendi ve günümüze kadar atletik başarının evrensel bir sembolü olarak kaldı."
+            "q": "Amerika'nın 250. Yıldönümü Spor Çocuk Podyumu noktadan noktaya birleştirme yapbozunda kaç nokta var?",
+            "a": "Amerika'nın 250. Yıldönümü Spor Çocuk Podyumu noktaları birleştirme etkinliği, 124 numaralı noktadan oluşmaktadır. Bu da onu zorlu bir bulmaca haline getirir ve 7-12 yaş arası (2. sınıf ve üzeri) çocuklar için en uygunudur. Çocuklar, tamamlanmış Amerika 250. Yıldönümü Spor Çocuk Podyumu resmini ortaya çıkarmak için noktaları numara sırasına göre birleştirir ve ardından boyarlar."
           },
           {
-            "range": "26–50",
-            "title": "Genç Atletlerin Bedenleri ve Formaları",
-            "learn": "26. noktadan 50. noktaya kadar devam ederek, podyum basamaklarında gururla duran üç genç atletin vücutlarını ve spor üniformalarını çizin. Çocuklar burada çeşitli çizim teknikleri uyguluyorlar: bacaklar için düz çizgiler, gövdeler için yumuşak kıvrımlar ve uzatılmış kollar için açılı şekiller. Bu bölüm, kalem esnekliği ve yön kontrolü için harika bir genel egzersiz niteliğinde.",
-            "fact": "Amerikan tarihinin 250 yılı aşkın süresi boyunca spor üniformaları büyük ölçüde değişti. 19. yüzyılın başlarında sporcular günlük iş kıyafetleriyle yarışırken, günümüzün spor giyim ürünleri nemi uzaklaştıran, sürtünmeyi azaltan ve hatta kalp atış hızını izleyen yüksek teknoloji ürünü kumaşlardan üretiliyor. Yıldız ve çizgili bayrak, her uluslararası yarışmada ABD takım üniformalarında gururla yer alıyor."
+            "q": "Amerika'nın 250. Yıldönümü Spor Çocuk Podyumu noktadan noktaya birleştirme oyununun yazdırılabilir versiyonu ücretsiz mi?",
+            "a": "Evet. Amerika'nın 250. Yıldönümü Spor Çocuk Podyumu çalışma sayfası, DotToDotFreePrintables.com adresinden %100 ücretsiz olarak indirilebilir; hesap, e-posta veya ödeme gerekmez. Hem dikey hem de yatay yönlendirmede, ABD Letter veya A4 kağıt boyutuna uygun, baskıya hazır bir PDF olarak anında indirilir."
           },
           {
-            "range": "51–75",
-            "title": "Başlar, Yüzler ve İfadeler",
-            "learn": "51 ile 75 arasındaki noktaları takip ederek üç genç sporcunun başlarını ve yüzlerindeki neşeli ifadeleri ekleyin. Her başın yuvarlak hatları ve gözlerin, burunların ve gülümsemelerin küçük, hassas detayları, dikkatli gözlem ve ince kalem kontrolünü geliştiren keyifli bir meydan okumadır. Çocukları burada yavaşlamaya teşvik edin; bu küçük detaylar tüm resmi canlandıran unsurlardır.",
-            "fact": "Podyumda gülümseyen kazananlar, 20. yüzyılın başlarından beri Amerikan spor kültürünün bir özelliği olmuştur. Bugün, podyum kutlamaları dünyanın dört bir yanındaki milyonlarca izleyiciye canlı olarak yayınlanmaktadır. Amerikalı sporcular en üst basamağa çıktığında ve Amerikan milli marşı çalındığında, bu uluslararası sporun en çok izlenen anlarından biridir."
+            "q": "Amerika'nın 250. Yıldönümü Spor Çocuk Podyumu Noktaları Birleştirme Çalışma Sayfası hangi yaş grubu için en uygundur?",
+            "a": "124 noktadan oluşan Amerika 250. Yıldönümü Spor Çocuk Podyumu yapbozu, 7-12 yaş arası (2. sınıf ve üzeri) çocuklar için en uygundur. Daha küçük çocuklar, sayma konusunda yetişkinlerin hafif yardımıyla keyif alabilirken, sayı sayma konusunda kendine güvenenler bağımsız olarak tamamlayabilir ve 124'e kadar sayı sıralaması pratiği yapabilirler."
           },
           {
-            "range": "76–100",
-            "title": "Madalyalar, Kupalar ve Kurdeleler",
-            "learn": "76 ile 100 arasındaki noktaları birleştirerek sporcuların boyunlarında asılı duran parıldayan madalyaları, ellerindeki kupaları ve podyumu çevreleyen süs kurdelelerini çizin. Çocuklar madalya diskleri için dairesel şekiller, kupalar için köşeli hatlar ve kurdeleler için akıcı kıvrımlar çizerek, zorluğu taze ve ilgi çekici tutan zengin bir çizgi çeşitliliği sunarlar.",
-            "fact": "Olimpiyat altın madalyaları aslında saf altından yapılmaz; en az altı gram altın kaplama ile kaplanmış gümüşten üretilirler. Birinci, ikinci ve üçüncü sıraya altın, gümüş ve bronz madalya verme geleneği, Amerika Birleşik Devletleri'nde düzenlenen 1904 St. Louis Olimpiyatları'nda başladı. St. Louis şehri aynı zamanda Louisiana Satın Alımı'nın yüzüncü yılını kutluyordu ve bu da oyunlara özellikle vatansever bir Amerikan havası katıyordu."
+            "q": "Amerika'nın 250. Yıldönümü Spor Çocuk Podyumu noktadan noktaya birleştirme bulmacası hangi becerileri öğretiyor?",
+            "a": "Amerika'nın 250. Yıldönümü Spor Çocuk Podyumu yapbozunun 124 noktasını birleştirmek, sayı tanıma ve 124'e kadar sayma, kalem kontrolü, el-göz koordinasyonu ve sürekli odaklanma gibi ince motor becerilerini geliştirir; bu beceriler, erken dönemde el yazısını destekleyen temel unsurlardır. Tamamlanmış resmi boyamak ise yaratıcı bir ödül sunar."
           },
           {
-            "range": "101–124",
-            "title": "Yıldızlar, Bayrak ve Son Rötuşlar",
-            "learn": "101'den 124'e kadar olan noktaları birleştirerek vatansever yıldızları, kürsünün üzerindeki kutlama pankartını ve bu sahneyi Amerika'nın 250. doğum günü kutlamasına dönüştüren son dekoratif detayları ekleyerek yapbozu tamamlayın. Bu son 24 nokta, çocukları gerçekten zorlu bir yapbozu tamamladıkları için ödüllendirir; gurur duyabilecekleri bir sonuç elde etmek için her çizgiyi değerlendirmelerini teşvik edin!",
-            "fact": "Amerika'nın 250. yıldönümü, Bağımsızlık Bildirgesi'nin kabul edilmesinden tam 250 yıl sonra, 4 Temmuz 2026'da kutlanacak. Topluluk yarışlarından ulusal şampiyonalara kadar, Amerikalılar bu vesileyle takım çalışması, dostça rekabet ve mükemmelliğe ulaşma çabasıyla kutlama yapabilirler."
+            "q": "Amerika'nın 250. yıldönümü spor çocuk podyumuyla ilgili eğlenceli bir bilgi nedir?",
+            "a": "Amerika Birleşik Devletleri, 1896'daki ilk modern Olimpiyat Oyunlarından bu yana neredeyse her Yaz Olimpiyat Oyununa katıldı ve tüm zamanların en çok Olimpiyat altın madalyasına sahip ülkesi konumunda. Amerikalı sporcular 1000'den fazla kez o en üst podyumda yer aldı; bu da ABD'nin spor ruhunun, uzun tarihi kadar güçlü olduğunun kanıtı! Çocuklar, Amerika'nın 250. Yıldönümü Spor Çocuk Podyumu noktadan noktaya birleştirme bulmacasını tamamlarken bu gibi gerçekleri keşfediyorlar."
           }
         ],
-        "outro": "Olağanüstü bir çalışma — Amerika'nın 250. yıl dönümü spor podyumunuz kutlamaya hazır! 124 nokta ve üç gururlu genç şampiyon, Amerika'nın 250. yıl dönümünü onurlandırıyor. Podyumu altın, gümüş ve bronz renklerle boyayın, sporcuları kırmızı, beyaz ve mavi giydirin ve madalyaları gururla asın. ABD'nin 250. yıl dönümü kutlu olsun — zirveye ulaşmaya devam edin! Başka bir büyük meydan okumaya hazır mısınız? Tüm <a href=\"/\">noktadan noktaya birleştirme şablonlarımıza</a> göz atın.",
-        "color_schemes": []
+        "dot_guide": {
+          "intro": "Amerika 250 yaşında ve ülke, en yetenekli genç şampiyonlarıyla birlikte zafer kürsüsünde kutlama yapıyor! İlk Olimpiyat oyunlarından mahalledeki küçük liglere kadar spor, Amerikan ruhunun ayrılmaz bir parçası olmuştur: rekabetin heyecanı, takım çalışmasının neşesi ve elinizden gelenin en iyisini yaptıktan sonra zirvede durmanın gururu. Bir kalem alın, 1 numaralı noktayı bulun ve bu kürsüyü adım adım inşa edelim!",
+          "sections": [
+            {
+              "range": "1–25",
+              "title": "Podyumun Tabanı ve Basamakları",
+              "learn": "1. noktadan başlayıp 25. noktaya kadar uzanarak kazananın podyumunun sağlam, basamaklı tabanını çizin. 1., 2. ve 3. olarak etiketlenen üç platform, sağlam dikdörtgen şekillerden ve yatay çizgilerden oluşmaktadır. Bu istikrarlı, geometrik vuruşlar mükemmel bir ısınma egzersizi oluşturarak çocukların bir ritim yakalamasına ve ilerideki daha ayrıntılı bölümler için ihtiyaç duyacakları kendinden emin kalem kontrolünü geliştirmelerine yardımcı olur.",
+              "fact": "Üç basamaklı kazananlar kürsüsü, 1932 Los Angeles Olimpiyatları'nda Yaz Olimpiyatları'nda ilk kez kullanıldı; daha önce 1932 Lake Placid Kış Olimpiyatları'nda da yer almıştı. Bu tasarım o kadar güçlü bir görsel etki yarattı ki, dünya çapındaki spor müsabakaları tarafından benimsendi ve günümüze kadar atletik başarının evrensel bir sembolü olarak kaldı."
+            },
+            {
+              "range": "26–50",
+              "title": "Genç Atletlerin Bedenleri ve Formaları",
+              "learn": "26. noktadan 50. noktaya kadar devam ederek, podyum basamaklarında gururla duran üç genç atletin vücutlarını ve spor üniformalarını çizin. Çocuklar burada çeşitli çizim teknikleri uyguluyorlar: bacaklar için düz çizgiler, gövdeler için yumuşak kıvrımlar ve uzatılmış kollar için açılı şekiller. Bu bölüm, kalem esnekliği ve yön kontrolü için harika bir genel egzersiz niteliğinde.",
+              "fact": "Amerikan tarihinin 250 yılı aşkın süresi boyunca spor üniformaları büyük ölçüde değişti. 19. yüzyılın başlarında sporcular günlük iş kıyafetleriyle yarışırken, günümüzün spor giyim ürünleri nemi uzaklaştıran, sürtünmeyi azaltan ve hatta kalp atış hızını izleyen yüksek teknoloji ürünü kumaşlardan üretiliyor. Yıldız ve çizgili bayrak, her uluslararası yarışmada ABD takım üniformalarında gururla yer alıyor."
+            },
+            {
+              "range": "51–75",
+              "title": "Başlar, Yüzler ve İfadeler",
+              "learn": "51 ile 75 arasındaki noktaları takip ederek üç genç sporcunun başlarını ve yüzlerindeki neşeli ifadeleri ekleyin. Her başın yuvarlak hatları ve gözlerin, burunların ve gülümsemelerin küçük, hassas detayları, dikkatli gözlem ve ince kalem kontrolünü geliştiren keyifli bir meydan okumadır. Çocukları burada yavaşlamaya teşvik edin; bu küçük detaylar tüm resmi canlandıran unsurlardır.",
+              "fact": "Podyumda gülümseyen kazananlar, 20. yüzyılın başlarından beri Amerikan spor kültürünün bir özelliği olmuştur. Bugün, podyum kutlamaları dünyanın dört bir yanındaki milyonlarca izleyiciye canlı olarak yayınlanmaktadır. Amerikalı sporcular en üst basamağa çıktığında ve Amerikan milli marşı çalındığında, bu uluslararası sporun en çok izlenen anlarından biridir."
+            },
+            {
+              "range": "76–100",
+              "title": "Madalyalar, Kupalar ve Kurdeleler",
+              "learn": "76 ile 100 arasındaki noktaları birleştirerek sporcuların boyunlarında asılı duran parıldayan madalyaları, ellerindeki kupaları ve podyumu çevreleyen süs kurdelelerini çizin. Çocuklar madalya diskleri için dairesel şekiller, kupalar için köşeli hatlar ve kurdeleler için akıcı kıvrımlar çizerek, zorluğu taze ve ilgi çekici tutan zengin bir çizgi çeşitliliği sunarlar.",
+              "fact": "Olimpiyat altın madalyaları aslında saf altından yapılmaz; en az altı gram altın kaplama ile kaplanmış gümüşten üretilirler. Birinci, ikinci ve üçüncü sıraya altın, gümüş ve bronz madalya verme geleneği, Amerika Birleşik Devletleri'nde düzenlenen 1904 St. Louis Olimpiyatları'nda başladı. St. Louis şehri aynı zamanda Louisiana Satın Alımı'nın yüzüncü yılını kutluyordu ve bu da oyunlara özellikle vatansever bir Amerikan havası katıyordu."
+            },
+            {
+              "range": "101–124",
+              "title": "Yıldızlar, Bayrak ve Son Rötuşlar",
+              "learn": "101'den 124'e kadar olan noktaları birleştirerek vatansever yıldızları, kürsünün üzerindeki kutlama pankartını ve bu sahneyi Amerika'nın 250. doğum günü kutlamasına dönüştüren son dekoratif detayları ekleyerek yapbozu tamamlayın. Bu son 24 nokta, çocukları gerçekten zorlu bir yapbozu tamamladıkları için ödüllendirir; gurur duyabilecekleri bir sonuç elde etmek için her çizgiyi değerlendirmelerini teşvik edin!",
+              "fact": "Amerika'nın 250. yıldönümü, Bağımsızlık Bildirgesi'nin kabul edilmesinden tam 250 yıl sonra, 4 Temmuz 2026'da kutlanacak. Topluluk yarışlarından ulusal şampiyonalara kadar, Amerikalılar bu vesileyle takım çalışması, dostça rekabet ve mükemmelliğe ulaşma çabasıyla kutlama yapabilirler."
+            }
+          ],
+          "outro": "Olağanüstü bir çalışma — Amerika'nın 250. yıl dönümü spor podyumunuz kutlamaya hazır! 124 nokta ve üç gururlu genç şampiyon, Amerika'nın 250. yıl dönümünü onurlandırıyor. Podyumu altın, gümüş ve bronz renklerle boyayın, sporcuları kırmızı, beyaz ve mavi giydirin ve madalyaları gururla asın. ABD'nin 250. yıl dönümü kutlu olsun — zirveye ulaşmaya devam edin! Başka bir büyük meydan okumaya hazır mısınız? Tüm <a href=\"/\">noktadan noktaya birleştirme şablonlarımıza</a> göz atın.",
+          "color_schemes": []
+        }
       }
-    }
-  },
-  {
-    "slug": "usa-250-birthday-balloons-stars-dot-to-dot-puzzle",
-    "header": {
-      "title": "Balonlar & Yıldızlar Noktaları Bağla — Amerika 250'nin 94 Noktası",
-      "meta_description": "Balonlar ve yıldızlar, Amerika'nın 250. doğum günü için 94 noktalık bir kutlama oluşturuyor. 6–10 yaş arası için ücretsiz 2026 PDF etkinliğini indirin.",
-      "og": {
+    },
+    {
+      "slug": "usa-250-birthday-balloons-stars-dot-to-dot-puzzle",
+      "header": {
         "title": "Balonlar & Yıldızlar Noktaları Bağla — Amerika 250'nin 94 Noktası",
-        "description": "Balonlar ve yıldızlar, Amerika'nın 250. doğum günü için 94 noktalık bir kutlama oluşturuyor. 6–10 yaş arası için ücretsiz 2026 PDF etkinliğini indirin.",
-        "image_alt": "Amerika 250 sayfasında 94 nokta boyunca dağılmış parti balonları ve yıldızlar"
+        "meta_description": "Balonlar ve yıldızlar, Amerika'nın 250. doğum günü için 94 noktalık bir kutlama oluşturuyor. 6–10 yaş arası için ücretsiz 2026 PDF etkinliğini indirin.",
+        "og": {
+          "title": "Balonlar & Yıldızlar Noktaları Bağla — Amerika 250'nin 94 Noktası",
+          "description": "Balonlar ve yıldızlar, Amerika'nın 250. doğum günü için 94 noktalık bir kutlama oluşturuyor. 6–10 yaş arası için ücretsiz 2026 PDF etkinliğini indirin.",
+          "image_alt": "Amerika 250 sayfasında 94 nokta boyunca dağılmış parti balonları ve yıldızlar"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Amerika'nın 250. Doğum Günü Balonları ve Yıldızları",
+          "description": "Balonlar ve yıldızlar, Amerika'nın 250. doğum günü için 94 noktalık bir kutlama oluşturuyor. 6–10 yaş arası için ücretsiz 2026 PDF etkinliğini indirin.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
       },
-      "json_ld": {
-        "type": "CreativeWork",
+      "body": {
+        "h1": "Balonlar & Yıldızlar Nokta ile Nokta — Amerika 250 için 94 Nokta",
         "name": "Amerika'nın 250. Doğum Günü Balonları ve Yıldızları",
-        "description": "Balonlar ve yıldızlar, Amerika'nın 250. doğum günü için 94 noktalık bir kutlama oluşturuyor. 6–10 yaş arası için ücretsiz 2026 PDF etkinliğini indirin.",
-        "image": "",
-        "educational_use": "Fine motor skills, number sequencing",
-        "age_range": ""
-      }
-    },
-    "body": {
-      "h1": "Balonlar & Yıldızlar Nokta ile Nokta — Amerika 250 için 94 Nokta",
-      "name": "Amerika'nın 250. Doğum Günü Balonları ve Yıldızları",
-      "tagline": "Amerika'nın 250. kuruluş yıldönümü için parti balonları!",
-      "description": "94 kolay noktayı birleştirerek balonlar, yıldızlar ve vatansever kutlama detaylarıyla dolu şenlikli bir Amerika'nın 250. doğum günü sahnesi ortaya çıkarın. Bu ücretsiz yazdırılabilir çalışma sayfası, çocuklara Amerika'nın 250. yıldönümünü kutlarken daha uzun bir sayı sıralama mücadelesi sunuyor.",
-      "fun_fact": "Balonlar 1800'lerde popüler parti süslemeleri haline geldi ve bugün kırmızı, beyaz ve mavi balonlar, Amerika'nın doğum günü kutlamaları için geçit törenlerini, sınıfları ve topluluk etkinliklerini süslemenin neşeli bir yoludur.",
-      "dot_guide": {
-        "intro": "Amerika 250 yaşında ve bu yapboz partiye hazır! Balonlar, yıldızlar ve parlak vatansever detaylar, ABD için neşeli bir doğum günü sahnesinde bir araya geliyor. Bir kalem alın, 1 numaralı noktayı bulun ve kutlamayı tamamlamak için parçaları birleştirmeye başlayın.",
-        "sections": [
+        "tagline": "Amerika'nın 250. kuruluş yıldönümü için parti balonları!",
+        "description": "94 kolay noktayı birleştirerek balonlar, yıldızlar ve vatansever kutlama detaylarıyla dolu şenlikli bir Amerika'nın 250. doğum günü sahnesi ortaya çıkarın. Bu ücretsiz yazdırılabilir çalışma sayfası, çocuklara Amerika'nın 250. yıldönümünü kutlarken daha uzun bir sayı sıralama mücadelesi sunuyor.",
+        "fun_fact": "Balonlar 1800'lerde popüler parti süslemeleri haline geldi ve bugün kırmızı, beyaz ve mavi balonlar, Amerika'nın doğum günü kutlamaları için geçit törenlerini, sınıfları ve topluluk etkinliklerini süslemenin neşeli bir yoludur.",
+        "faqs": [
           {
-            "range": "1-18",
-            "title": "İlk Balonlar",
-            "learn": "1 numaralı noktadan başlayıp 18 numaralı noktaya kadar ilerleyerek ilk yüzen doğum günü balonlarını çizin. Bu yuvarlak şekiller, çocukların bulmacanın başında düzgün kıvrımlar ve sabit kalem kontrolü pratiği yapmalarına yardımcı olur.",
-            "fact": "Modern parti balonları genellikle esnek bir doğal malzeme olan lateksten yapılır. Hava veya helyumla doldurulduğunda, balon her yöne eşit olarak genişleyerek bildiğimiz yuvarlak şeklini alır."
+            "q": "Amerika'nın 250. Doğum Günü Balonları ve Yıldızları temalı noktadan noktaya birleştirme bulmacasında kaç nokta var?",
+            "a": "Amerika'nın 250. Doğum Günü Balonları ve Yıldızları temalı noktaları birleştirme etkinliği, 94 numaralı noktadan oluşmaktadır. Bu da onu 6-9 yaş arası (1. ila 3. sınıf) çocuklar için en uygun orta zorlukta bir bulmaca yapmaktadır. Çocuklar noktaları numara sırasına göre birleştirerek tamamlanmış Amerika'nın 250. doğum günü balonları ve yıldızları resmini ortaya çıkarır ve ardından boyarlar."
           },
           {
-            "range": "19-38",
-            "title": "Kutlama Kümesi",
-            "learn": "19. noktadan 38. noktaya kadar devam ederek balon kümesini ve üst üste binen parti şekillerini oluşturun. Çocuklar, çizimin daha yoğun bir bölümünde sayıları dikkatlice takip etme pratiği yaparlar.",
-            "fact": "Büyük balon süslemeleri, hafif, renkli ve kemer, sütun ve şenlikli arka planlar oluşturacak şekilde kolayca düzenlenebildikleri için geçit törenlerinde ve topluluk etkinliklerinde popülerdir."
+            "q": "Amerika'nın 250. yıl dönümü için hazırlanan balon ve yıldız temalı noktadan noktaya birleştirme şablonu ücretsiz mi?",
+            "a": "Evet. Amerika'nın 250. Doğum Günü Balonları ve Yıldızları çalışma sayfası, DotToDotFreePrintables.com adresinden %100 ücretsiz olarak indirilebilir; hesap, e-posta veya ödeme gerekmez. Hem dikey hem de yatay yönlendirmede, ABD Letter veya A4 kağıt boyutuna uygun, baskıya hazır bir PDF olarak anında indirilir."
           },
           {
-            "range": "39-58",
-            "title": "Yıldızlar",
-            "learn": "39'dan 58'e kadar olan noktaları takip ederek doğum günü tasarımının etrafına vatansever yıldızlar ekleyin. Yıldızların uçları, çocukları yön değiştirmeye ve her numaralı noktayı dikkatlice hedeflemeye teşvik eder.",
-            "fact": "Yıldızlar, Amerika Birleşik Devletleri bayrağındaki her bir yıldızın birliğin bir eyaletini temsil etmesi nedeniyle en bilindik Amerikan sembollerinden biridir."
+            "q": "Amerika'nın 250. Yıl Dönümü Balonları ve Yıldızları temalı noktaları birleştirme çalışma sayfası hangi yaş grubu için en uygundur?",
+            "a": "94 noktadan oluşan Amerika 250. Doğum Günü Balonları ve Yıldızları yapbozu, 6-9 yaş arası (1. ila 3. sınıf) çocuklar için en uygundur. Daha küçük çocuklar, yetişkinlerin sayma konusunda hafif yardımıyla keyif alabilirken, kendine güvenen çocuklar bağımsız olarak tamamlayabilir ve 94'e kadar sayı sıralaması pratiği yapabilirler."
           },
           {
-            "range": "59-76",
-            "title": "Doğum Günü Detayları",
-            "learn": "59 ile 76 arasındaki noktaları birleştirerek, sahneyi gerçek bir doğum günü partisi gibi hissettirecek ek kutlama detaylarını çizin. Bu bölüm, daha küçük şekiller ve dikkatli dönüşlerle özgüveninizi geliştirmenizi sağlar.",
-            "fact": "Amerika Birleşik Devletleri, Bağımsızlık Günü'nü 4 Temmuz'da kutlar çünkü Bağımsızlık Bildirgesi 4 Temmuz 1776'da kabul edilmiştir."
+            "q": "Amerika'nın 250. Doğum Günü Balonları ve Yıldızları noktadan noktaya birleştirme bulmacası hangi becerileri öğretiyor?",
+            "a": "Amerika'nın 250. Doğum Günü Balonları ve Yıldızları yapbozunun 94 noktasını birleştirmek, sayı tanıma ve 94'e kadar sayma, kalem kontrolü, el-göz koordinasyonu ve sürekli odaklanma gibi ince motor becerilerinin temelini oluşturur; bu beceriler, erken dönemde el yazısını da destekler. Tamamlanmış resmi boyamak ise yaratıcı bir ödül sunar."
           },
           {
-            "range": "77-94",
-            "title": "Son Parti Açıklamaları",
-            "learn": "Balonları, yıldızları ve son şenlikli dokunuşları tamamlamak için 77'den 94'e kadar olan noktaları birleştirerek bulmacayı bitirin. Bu daha uzun 94 noktalı meydan okumadan sonra çocukları düzgün bir şekilde bitirmek için yavaşlamaya teşvik edin.",
-            "fact": "Amerika Birleşik Devletleri'nin 250. kuruluş yıldönümü, Bağımsızlık Bildirgesi'nin ilanından bu yana geçen 250. yıl dönümü olan 4 Temmuz 2026'da kutlanacak."
+            "q": "Amerika'nın 250. doğum günü balonları ve yıldızlarıyla ilgili ilginç bir bilgi nedir?",
+            "a": "Balonlar 1800'lerde popüler parti süslemeleri haline geldi ve bugün kırmızı, beyaz ve mavi balonlar, Amerika'nın doğum günü için geçit törenlerini, sınıfları ve topluluk kutlamalarını süslemenin neşeli bir yoludur. Çocuklar, Amerika'nın 250. Doğum Günü Balonları ve Yıldızları noktadan noktaya birleştirme bulmacasını tamamlarken bunun gibi gerçekleri keşfederler."
           }
         ],
-        "outro": "Harika iş! Amerika'nın 250. doğum günü balonlarınız parti için hazır! Balonları ve yıldızları kırmızı, beyaz ve maviye boyayarak Amerika'nın 250. doğum günü için parlak ve vatansever bir kutlamayı tamamlayın. Zorlu bir mücadele mi arıyorsunuz? <a href=\"/dinosaurs/\">dinozor noktadan noktaya birleştirme şablonu</a> koleksiyonumuzda daha fazla tarih öncesi arkadaşla tanışın.",
-        "color_schemes": []
+        "dot_guide": {
+          "intro": "Amerika 250 yaşında ve bu yapboz partiye hazır! Balonlar, yıldızlar ve parlak vatansever detaylar, ABD için neşeli bir doğum günü sahnesinde bir araya geliyor. Bir kalem alın, 1 numaralı noktayı bulun ve kutlamayı tamamlamak için parçaları birleştirmeye başlayın.",
+          "sections": [
+            {
+              "range": "1-18",
+              "title": "İlk Balonlar",
+              "learn": "1 numaralı noktadan başlayıp 18 numaralı noktaya kadar ilerleyerek ilk yüzen doğum günü balonlarını çizin. Bu yuvarlak şekiller, çocukların bulmacanın başında düzgün kıvrımlar ve sabit kalem kontrolü pratiği yapmalarına yardımcı olur.",
+              "fact": "Modern parti balonları genellikle esnek bir doğal malzeme olan lateksten yapılır. Hava veya helyumla doldurulduğunda, balon her yöne eşit olarak genişleyerek bildiğimiz yuvarlak şeklini alır."
+            },
+            {
+              "range": "19-38",
+              "title": "Kutlama Kümesi",
+              "learn": "19. noktadan 38. noktaya kadar devam ederek balon kümesini ve üst üste binen parti şekillerini oluşturun. Çocuklar, çizimin daha yoğun bir bölümünde sayıları dikkatlice takip etme pratiği yaparlar.",
+              "fact": "Büyük balon süslemeleri, hafif, renkli ve kemer, sütun ve şenlikli arka planlar oluşturacak şekilde kolayca düzenlenebildikleri için geçit törenlerinde ve topluluk etkinliklerinde popülerdir."
+            },
+            {
+              "range": "39-58",
+              "title": "Yıldızlar",
+              "learn": "39'dan 58'e kadar olan noktaları takip ederek doğum günü tasarımının etrafına vatansever yıldızlar ekleyin. Yıldızların uçları, çocukları yön değiştirmeye ve her numaralı noktayı dikkatlice hedeflemeye teşvik eder.",
+              "fact": "Yıldızlar, Amerika Birleşik Devletleri bayrağındaki her bir yıldızın birliğin bir eyaletini temsil etmesi nedeniyle en bilindik Amerikan sembollerinden biridir."
+            },
+            {
+              "range": "59-76",
+              "title": "Doğum Günü Detayları",
+              "learn": "59 ile 76 arasındaki noktaları birleştirerek, sahneyi gerçek bir doğum günü partisi gibi hissettirecek ek kutlama detaylarını çizin. Bu bölüm, daha küçük şekiller ve dikkatli dönüşlerle özgüveninizi geliştirmenizi sağlar.",
+              "fact": "Amerika Birleşik Devletleri, Bağımsızlık Günü'nü 4 Temmuz'da kutlar çünkü Bağımsızlık Bildirgesi 4 Temmuz 1776'da kabul edilmiştir."
+            },
+            {
+              "range": "77-94",
+              "title": "Son Parti Açıklamaları",
+              "learn": "Balonları, yıldızları ve son şenlikli dokunuşları tamamlamak için 77'den 94'e kadar olan noktaları birleştirerek bulmacayı bitirin. Bu daha uzun 94 noktalı meydan okumadan sonra çocukları düzgün bir şekilde bitirmek için yavaşlamaya teşvik edin.",
+              "fact": "Amerika Birleşik Devletleri'nin 250. kuruluş yıldönümü, Bağımsızlık Bildirgesi'nin ilanından bu yana geçen 250. yıl dönümü olan 4 Temmuz 2026'da kutlanacak."
+            }
+          ],
+          "outro": "Harika iş! Amerika'nın 250. doğum günü balonlarınız parti için hazır! Balonları ve yıldızları kırmızı, beyaz ve maviye boyayarak Amerika'nın 250. doğum günü için parlak ve vatansever bir kutlamayı tamamlayın. Zorlu bir mücadele mi arıyorsunuz? <a href=\"/dinosaurs/\">dinozor noktadan noktaya birleştirme şablonu</a> koleksiyonumuzda daha fazla tarih öncesi arkadaşla tanışın.",
+          "color_schemes": []
+        }
       }
-    }
-  },
-  {
-    "slug": "america-250-anniversary-eagle-banner-dot-to-dot-puzzle",
-    "header": {
-      "title": "Amerika 250 Kartal Sancağı Noktaları Birleştir — 104 Nokta Yükseklikte",
-      "meta_description": "1782'de ulusal sembol olarak seçilen bir kızıl şahin, 104 nokta boyunca Amerika 250 afişini taşır. 6–10 yaş arası için ücretsiz PDF'yi yazdırın.",
-      "og": {
+    },
+    {
+      "slug": "america-250-anniversary-eagle-banner-dot-to-dot-puzzle",
+      "header": {
         "title": "Amerika 250 Kartal Sancağı Noktaları Birleştir — 104 Nokta Yükseklikte",
-        "description": "1782'de ulusal sembol olarak seçilen bir kızıl şahin, 104 nokta boyunca Amerika 250 afişini taşır. 6–10 yaş arası için ücretsiz PDF'yi yazdırın.",
-        "image_alt": "Uzun bir sancak taşıyan görkemli kel kartal, 104 yazdırılabilir nokta boyunca kanat açmış"
+        "meta_description": "1782'de ulusal sembol olarak seçilen bir kızıl şahin, 104 nokta boyunca Amerika 250 afişini taşır. 6–10 yaş arası için ücretsiz PDF'yi yazdırın.",
+        "og": {
+          "title": "Amerika 250 Kartal Sancağı Noktaları Birleştir — 104 Nokta Yükseklikte",
+          "description": "1782'de ulusal sembol olarak seçilen bir kızıl şahin, 104 nokta boyunca Amerika 250 afişini taşır. 6–10 yaş arası için ücretsiz PDF'yi yazdırın.",
+          "image_alt": "Uzun bir sancak taşıyan görkemli kel kartal, 104 yazdırılabilir nokta boyunca kanat açmış"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Amerika 250 Kartal Sancağı",
+          "description": "1782'de ulusal sembol olarak seçilen bir kızıl şahin, 104 nokta boyunca Amerika 250 afişini taşır. 6–10 yaş arası için ücretsiz PDF'yi yazdırın.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
       },
-      "json_ld": {
-        "type": "CreativeWork",
+      "body": {
+        "h1": "Amerika 250 Kartal Afişi Noktaları Bağla — 104 Nokta Yüksek",
         "name": "Amerika 250 Kartal Sancağı",
-        "description": "1782'de ulusal sembol olarak seçilen bir kızıl şahin, 104 nokta boyunca Amerika 250 afişini taşır. 6–10 yaş arası için ücretsiz PDF'yi yazdırın.",
-        "image": "",
-        "educational_use": "Fine motor skills, number sequencing",
-        "age_range": ""
-      }
-    },
-    "body": {
-      "h1": "Amerika 250 Kartal Afişi Noktaları Bağla — 104 Nokta Yüksek",
-      "name": "Amerika 250 Kartal Sancağı",
-      "tagline": "Amerikan Kartalı ile Özgürlüğün 250. Yılında Gökyüzüne Yükselin!",
-      "description": "104 noktayı birleştirerek, Amerika'nın 250. yıl dönümünü kutlamak için vatansever bir afiş taşıyan muhteşem bir Amerikan Kızıl Şahinini ortaya çıkarın! Bu ücretsiz yazdırılabilir çalışma sayfası, çocukların sayı sıralama ve konsantrasyon becerilerini geliştirmelerine yardımcı olurken, Amerika'nın özgürlük ve güç sembollerinden birine saygı gösterir. 6–10 yaş arası için mükemmel.",
-      "fun_fact": "Kızıl Şahin, 1782'de Amerika Birleşik Devletleri'nin ulusal sembolü olarak seçilmiştir. Amerika Birleşik Devletleri'nin Büyük Mühürü, Başkanın bayrağı ve sayısız resmi amblemde yer alarak özgürlüğü, gücü ve Amerikan cumhuriyetinin kalıcı ruhunu temsil eder.",
-      "dot_guide": {
-        "intro": "Amerika 250 yaşında ve bu ruhu en iyi yansıtan sembol, görkemli Kel Kartal! Kartal, 244 yıldır Amerika Birleşik Devletleri'nin Büyük Mührü'nü süslüyor ve özgürlüğün yaşayan sembolü olarak süzülüyor. Bugün sizin kartalınız, Amerika'nın en büyük doğum gününü ilan eden bir pankartı tutuyor. Bir kalem alın, 1 numaralı noktayı bulun ve bu kartalın uçmasına yardım edelim!",
-        "sections": [
+        "tagline": "Amerikan Kartalı ile Özgürlüğün 250. Yılında Gökyüzüne Yükselin!",
+        "description": "104 noktayı birleştirerek, Amerika'nın 250. yıl dönümünü kutlamak için vatansever bir afiş taşıyan muhteşem bir Amerikan Kızıl Şahinini ortaya çıkarın! Bu ücretsiz yazdırılabilir çalışma sayfası, çocukların sayı sıralama ve konsantrasyon becerilerini geliştirmelerine yardımcı olurken, Amerika'nın özgürlük ve güç sembollerinden birine saygı gösterir. 6–10 yaş arası için mükemmel.",
+        "fun_fact": "Kızıl Şahin, 1782'de Amerika Birleşik Devletleri'nin ulusal sembolü olarak seçilmiştir. Amerika Birleşik Devletleri'nin Büyük Mühürü, Başkanın bayrağı ve sayısız resmi amblemde yer alarak özgürlüğü, gücü ve Amerikan cumhuriyetinin kalıcı ruhunu temsil eder.",
+        "faqs": [
           {
-            "range": "1–22",
-            "title": "Kartalın Başı ve Gagası",
-            "learn": "1. noktadan başlayıp 22. noktaya kadar ilerleyerek kel kartalın cesur ve gururlu başını, keskin ve kıvrık gagası da dahil olmak üzere çizin. Çocuklar burada kısa yönlü vuruşlar ve yumuşak kıvrımlar yaparak, kartalın en tanınabilir özelliğini oluştururken kalem kontrolünü geliştirirler.",
-            "fact": "Kel kartal aslında kel değildir! Adı, İngilizcede \"beyaz\" anlamına gelen eski bir kelime olan \"balde\"den gelir. Çarpıcı beyaz baş tüyleri, kuş yaklaşık beş yaşında yetişkinliğe ulaştığında ortaya çıkar. Bundan önce, genç kartalların benekli kahverengi ve beyaz tüyleri vardır."
+            "q": "Amerika 250 Kartal Bayrağı noktadan noktaya birleştirme bulmacasında kaç nokta var?",
+            "a": "Amerika 250 Kartal Bayrağı noktaları birleştirme etkinliği, 104 numaralı noktadan oluşmaktadır. Bu da onu zorlu bir bulmaca haline getirir ve 7-12 yaş arası (2. sınıf ve üzeri) çocuklar için en uygunudur. Çocuklar noktaları numara sırasına göre birleştirerek tamamlanmış Amerika 250 Kartal Bayrağı resmini ortaya çıkarır ve ardından boyarlar."
           },
           {
-            "range": "23–46",
-            "title": "Kanat Açıklığı — Sol Kanat",
-            "learn": "23. noktadan 46. noktaya kadar devam ederek kartalın güçlü sol kanadını çizin. Bu uzun, akıcı çizgiler, kol hareketlerini ve geniş ölçekli kalem kontrolünü geliştiren çocuklar için mükemmel bir alıştırmadır. Omuzdan kanat ucuna kadar pürüzsüz ve kendinden emin bir çizgi çekmeyi teşvik edin.",
-            "fact": "Kel kartalın kanat açıklığı uçtan uca 2,4 metreye (yaklaşık 8 fit) ulaşabilir; bu da küçük bir arabanın uzunluğu kadar bir genişlik demektir! Bu devasa kanatlar, kartalın termal adı verilen yükselen sıcak hava sütunlarında saatlerce neredeyse hiç kanat çırpmadan süzülmesini sağlar."
+            "q": "Amerika 250 Kartal Afişi noktadan noktaya birleştirme şablonu ücretsiz mi?",
+            "a": "Evet. Amerika 250 Kartal Bayrağı çalışma sayfası, DotToDotFreePrintables.com adresinden %100 ücretsiz olarak indirilebilir; hesap, e-posta veya ödeme gerekmez. Hem dikey hem de yatay yönlendirmede, ABD Letter veya A4 kağıt boyutuna uygun, baskıya hazır bir PDF olarak anında indirilir."
           },
           {
-            "range": "47–70",
-            "title": "Kanat Açıklığı — Sağ Kanat",
-            "learn": "Sol kanadı, 47 ile 70 numaralı noktaları birleştirerek sağ kanadı oluşturacak şekilde simetrik olarak çizin. Simetri, genç öğrenciler için önemli bir görsel kavramdır ve her iki kanadı da tamamlamak tatmin edici bir denge ve başarı duygusu verir. Çizgilerin şimdi ters yönde nasıl hareket ettiğine dikkat edin.",
-            "fact": "Kartalların vücutlarını kaplayan 7.000'e kadar tüyü vardır ve her biri kendi görevi için hassas bir şekilde şekillendirilmiştir: kaldırma kuvveti için geniş uçuş tüyleri, yalıtım için yumuşak vücut tüyleri ve yönlendirme için sert kuyruk tüyleri. Her zaman uçabilmeleri için tüy dökme ve yeniden çıkarma süreçlerini kademeli olarak gerçekleştirirler."
+            "q": "Amerika 250 Kartal Bayrağı noktaları birleştirme çalışma sayfası hangi yaş grubu için en uygundur?",
+            "a": "104 noktadan oluşan Amerika 250 Kartal Bayrağı yapbozu, 7-12 yaş arası (2. sınıf ve üzeri) çocuklar için en uygundur. Daha küçük çocuklar, sayma konusunda yetişkinlerin hafif yardımıyla keyif alabilirken, sayı sayma konusunda kendine güvenenler bağımsız olarak tamamlayabilir ve 104'e kadar sayı sıralaması pratiği yapabilirler."
           },
           {
-            "range": "71–88",
-            "title": "Pençeler ve Vatansever Bayrak",
-            "learn": "71 ile 88 arasındaki noktaları birleştirerek kartalın güçlü pençelerinin dalgalanan yıldönümü bayrağını nasıl kavradığını çizin. Çocuklar keskin açılı çizgiler ve kavisli kurdele şekilleri üzerinde pratik yaparlar; bu daha zorlu vuruşlar dikkatli ilgi ve istikrarlı el kontrolünü ödüllendirir.",
-            "fact": "Kartalın pençeleri, ortalama bir insan elinden çok daha güçlü olan, inç kare başına yaklaşık 400 pound (psi) kavrama kuvveti uygulayabilir. Pençeler balık ve küçük memelileri yakalamak için kullanılır ve kartalın kavrama gücü o kadar sağlamdır ki, av yakalandıktan sonra nadiren kaçar."
+            "q": "Amerika 250 Kartal Bayrağı noktadan noktaya birleştirme bulmacası hangi becerileri öğretiyor?",
+            "a": "Amerika 250 Kartal Bayrağı yapbozunun 104 noktasını birleştirmek, sayı tanıma ve 104'e kadar sayma, kalem kontrolü, el-göz koordinasyonu ve sürekli odaklanma gibi ince motor becerilerini geliştirir; bu beceriler, erken dönemde el yazısını destekleyen temel unsurlardır. Tamamlanmış resmi boyamak ise yaratıcı bir ödül sunar."
           },
           {
-            "range": "89–104",
-            "title": "Yıldızlar, Kalkan ve Son İşlem Detayları",
-            "learn": "89 ile 104 arasındaki noktaları birleştirerek, bu kartalı gerçekten Amerikan yapan vatansever yıldızları, kalkan işaretlerini ve son detayları ekleyerek yapbozu tamamlayın. Bu son noktalarda acele etmeyin; burada istikrarlı bir bitiş, tüm resmi güzel bir şekilde bir araya getirir.",
-            "fact": "1782'de tasarlanan Amerika Birleşik Devletleri Büyük Mührü, bir pençesinde zeytin dalı (barışı temsil eder) ve diğer pençesinde 13 oktan oluşan bir demet (özgürlüğü savunmaya hazır olmayı temsil eder) tutan Kel Kartalı gösterir. Kartal zeytin dalına doğru bakar; bu da barışın her zaman ilk tercih olduğunu hatırlatır."
+            "q": "Amerika'nın 250. yıl dönümü kutlamalarını simgeleyen kartal bayrağıyla ilgili ilginç bir bilgi nedir?",
+            "a": "Kel kartal, 1782 yılında Amerika Birleşik Devletleri'nin ulusal sembolü olarak seçildi. Amerika Birleşik Devletleri Büyük Mührü'nde, Başkanlık bayrağında ve sayısız resmi amblemde yer alarak özgürlüğü, gücü ve Amerikan cumhuriyetinin kalıcı ruhunu temsil eder. Çocuklar, Amerika 250 Kartal Bayrağı noktadan noktaya birleştirme bulmacasını tamamlarken bu gibi gerçekleri keşfederler."
           }
         ],
-        "outro": "Harika bir çalışma — Amerika'nın 250. yıl dönümü kartalınız, yıldönümü pankartıyla birlikte yükseklerde süzülüyor! 104 noktadan oluşan bu eser, Amerikan özgürlüğünün güçlü bir sembolü. Kartalın beyaz başını, kahverengi kanatlarını ve parlak sarı gagasını boyayın, ardından pankartı kırmızı, beyaz ve mavi renklerle doldurun. Amerika Birleşik Devletleri'nin 250. doğum günü kutlu olsun! Daha fazla temalı eğlence için <a href=\"/ocean/\">noktadan noktaya birleştirme şablonlarımız 1-100</a>'a göz atın.",
-        "color_schemes": []
+        "dot_guide": {
+          "intro": "Amerika 250 yaşında ve bu ruhu en iyi yansıtan sembol, görkemli Kel Kartal! Kartal, 244 yıldır Amerika Birleşik Devletleri'nin Büyük Mührü'nü süslüyor ve özgürlüğün yaşayan sembolü olarak süzülüyor. Bugün sizin kartalınız, Amerika'nın en büyük doğum gününü ilan eden bir pankartı tutuyor. Bir kalem alın, 1 numaralı noktayı bulun ve bu kartalın uçmasına yardım edelim!",
+          "sections": [
+            {
+              "range": "1–22",
+              "title": "Kartalın Başı ve Gagası",
+              "learn": "1. noktadan başlayıp 22. noktaya kadar ilerleyerek kel kartalın cesur ve gururlu başını, keskin ve kıvrık gagası da dahil olmak üzere çizin. Çocuklar burada kısa yönlü vuruşlar ve yumuşak kıvrımlar yaparak, kartalın en tanınabilir özelliğini oluştururken kalem kontrolünü geliştirirler.",
+              "fact": "Kel kartal aslında kel değildir! Adı, İngilizcede \"beyaz\" anlamına gelen eski bir kelime olan \"balde\"den gelir. Çarpıcı beyaz baş tüyleri, kuş yaklaşık beş yaşında yetişkinliğe ulaştığında ortaya çıkar. Bundan önce, genç kartalların benekli kahverengi ve beyaz tüyleri vardır."
+            },
+            {
+              "range": "23–46",
+              "title": "Kanat Açıklığı — Sol Kanat",
+              "learn": "23. noktadan 46. noktaya kadar devam ederek kartalın güçlü sol kanadını çizin. Bu uzun, akıcı çizgiler, kol hareketlerini ve geniş ölçekli kalem kontrolünü geliştiren çocuklar için mükemmel bir alıştırmadır. Omuzdan kanat ucuna kadar pürüzsüz ve kendinden emin bir çizgi çekmeyi teşvik edin.",
+              "fact": "Kel kartalın kanat açıklığı uçtan uca 2,4 metreye (yaklaşık 8 fit) ulaşabilir; bu da küçük bir arabanın uzunluğu kadar bir genişlik demektir! Bu devasa kanatlar, kartalın termal adı verilen yükselen sıcak hava sütunlarında saatlerce neredeyse hiç kanat çırpmadan süzülmesini sağlar."
+            },
+            {
+              "range": "47–70",
+              "title": "Kanat Açıklığı — Sağ Kanat",
+              "learn": "Sol kanadı, 47 ile 70 numaralı noktaları birleştirerek sağ kanadı oluşturacak şekilde simetrik olarak çizin. Simetri, genç öğrenciler için önemli bir görsel kavramdır ve her iki kanadı da tamamlamak tatmin edici bir denge ve başarı duygusu verir. Çizgilerin şimdi ters yönde nasıl hareket ettiğine dikkat edin.",
+              "fact": "Kartalların vücutlarını kaplayan 7.000'e kadar tüyü vardır ve her biri kendi görevi için hassas bir şekilde şekillendirilmiştir: kaldırma kuvveti için geniş uçuş tüyleri, yalıtım için yumuşak vücut tüyleri ve yönlendirme için sert kuyruk tüyleri. Her zaman uçabilmeleri için tüy dökme ve yeniden çıkarma süreçlerini kademeli olarak gerçekleştirirler."
+            },
+            {
+              "range": "71–88",
+              "title": "Pençeler ve Vatansever Bayrak",
+              "learn": "71 ile 88 arasındaki noktaları birleştirerek kartalın güçlü pençelerinin dalgalanan yıldönümü bayrağını nasıl kavradığını çizin. Çocuklar keskin açılı çizgiler ve kavisli kurdele şekilleri üzerinde pratik yaparlar; bu daha zorlu vuruşlar dikkatli ilgi ve istikrarlı el kontrolünü ödüllendirir.",
+              "fact": "Kartalın pençeleri, ortalama bir insan elinden çok daha güçlü olan, inç kare başına yaklaşık 400 pound (psi) kavrama kuvveti uygulayabilir. Pençeler balık ve küçük memelileri yakalamak için kullanılır ve kartalın kavrama gücü o kadar sağlamdır ki, av yakalandıktan sonra nadiren kaçar."
+            },
+            {
+              "range": "89–104",
+              "title": "Yıldızlar, Kalkan ve Son İşlem Detayları",
+              "learn": "89 ile 104 arasındaki noktaları birleştirerek, bu kartalı gerçekten Amerikan yapan vatansever yıldızları, kalkan işaretlerini ve son detayları ekleyerek yapbozu tamamlayın. Bu son noktalarda acele etmeyin; burada istikrarlı bir bitiş, tüm resmi güzel bir şekilde bir araya getirir.",
+              "fact": "1782'de tasarlanan Amerika Birleşik Devletleri Büyük Mührü, bir pençesinde zeytin dalı (barışı temsil eder) ve diğer pençesinde 13 oktan oluşan bir demet (özgürlüğü savunmaya hazır olmayı temsil eder) tutan Kel Kartalı gösterir. Kartal zeytin dalına doğru bakar; bu da barışın her zaman ilk tercih olduğunu hatırlatır."
+            }
+          ],
+          "outro": "Harika bir çalışma — Amerika'nın 250. yıl dönümü kartalınız, yıldönümü pankartıyla birlikte yükseklerde süzülüyor! 104 noktadan oluşan bu eser, Amerikan özgürlüğünün güçlü bir sembolü. Kartalın beyaz başını, kahverengi kanatlarını ve parlak sarı gagasını boyayın, ardından pankartı kırmızı, beyaz ve mavi renklerle doldurun. Amerika Birleşik Devletleri'nin 250. doğum günü kutlu olsun! Daha fazla temalı eğlence için <a href=\"/ocean/\">noktadan noktaya birleştirme şablonlarımız 1-100</a>'a göz atın.",
+          "color_schemes": []
+        }
       }
     }
-  }
-]
+  ]
+}

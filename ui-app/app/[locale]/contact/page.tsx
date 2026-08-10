@@ -7,7 +7,7 @@ import { SITE_URL, buildAlternates } from '@/lib/seo';
 import { UkContactPage } from '@/components/UkLegalPages';
 import { LocalizedContactPage } from '@/components/LocalizedLegalPages';
 import { loadLegalContent } from '@/lib/legal';
-import { localizedStaticSeo } from '@/lib/localized-seo';
+import { localizedStaticSeo } from '@/lib/json-seo';
 
 type Props = {
   params: Promise<{ locale: string }>;

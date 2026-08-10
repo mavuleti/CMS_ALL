@@ -1,316 +1,490 @@
-[
-  {
-    "slug": "mermaid-dot-to-dot-puzzle",
+{
+  "collection": {
     "header": {
-      "title": "Sirenă de Unit Puncte — Fișă Magică cu 54 de Puncte",
-      "meta_description": "Poveștile cu sirene se întind pe mai mult de 3.000 de ani. Dezvăluie un înotător magic pe 54 de puncte cu acest PDF gratuit pentru copii cu vârste între 5-8 ani.",
+      "title": "Ocean Dot to Dot Printables for Kids — Free PDF Worksheets",
+      "meta_description": "Free ocean dot to dot printables for kids ages 4-9: mermaids, mermen, seahorses, whales, and jellyfish. Downloadable PDF worksheets loved by families in the USA, UK, and Canada. No account needed — print and start connecting.",
       "og": {
+        "title": "5 Free Ocean Dot to Dot Printables",
+        "description": "Mermaids, mermen, seahorses, whales, and jellyfish — free dot to dot printables ready to print in a minute.",
+        "image": "/images/mermaid-puzzle.webp"
+      },
+      "json_ld": {
+        "type": "CollectionPage",
+        "name": "Ocean",
+        "description": "Scufundă-te în albastrul adânc! Conectează punctele pentru a descoperi sirene, creaturi marine și aventuri oceanice. Toate fișele de lucru pot fi descărcate și imprimate gratuit — nu este nevoie de un cont.",
+        "image": "/images/mermaid-puzzle.webp",
+        "main_entity": {
+          "type": "ItemList",
+          "item_source": "puzzles"
+        }
+      },
+      "breadcrumb_json_ld": {
+        "type": "BreadcrumbList",
+        "items": [
+          {
+            "position": 1,
+            "name": "Home",
+            "path": "/"
+          },
+          {
+            "position": 2,
+            "name": "Ocean",
+            "path": "/ocean/"
+          }
+        ]
+      }
+    },
+    "body": {
+      "h1": "Fișe imprimabile cu desene unită-punct cu ocean pentru copii",
+      "name": "Ocean",
+      "tagline": "De ce adoră copiii puzzle-urile punct-punct oceanice",
+      "description": "Scufundă-te în albastrul adânc! Conectează punctele pentru a descoperi sirene, creaturi marine și aventuri oceanice. Toate fișele de lucru pot fi descărcate și imprimate gratuit — nu este nevoie de un cont.",
+      "hero_image": "/images/mermaid-puzzle.webp",
+      "slug": "ocean",
+      "faqs": [
+        {
+          "q": "Câte planșe imprimabile gratuite cu oceane, de tip punct cu punct, există?",
+          "a": "Categoria Ocean oferă în prezent 5 materiale imprimabile gratuite cu elemente de tip „conectați punctele”, cu dimensiuni cuprinse între 35 și 88 de puncte. Fiecare fișă de lucru se descarcă instantaneu ca PDF gata de imprimare (Letter sau A4, portret sau peisaj), fără a fi necesară înregistrarea."
+        },
+        {
+          "q": "Puzzle-urile cu oceanul, de tip punct-la-punct, sunt gratuite pentru imprimare?",
+          "a": "Da — toate cele 5 puzzle-uri din colecția Ocean sunt complet gratuite pentru utilizare acasă și în clasă. Nu este necesar niciun cont, e-mail sau plată pe DotToDotFreePrintables.com."
+        },
+        {
+          "q": "Pentru ce vârste sunt puzzle-urile oceanice?",
+          "a": "Cu un număr de puncte între 35 și 88, colecția Ocean acoperă aproximativ vârstele 4-12 ani. Alegeți un număr mai mic de puncte pentru grădiniță și un număr mai mare pentru ghișeele cu bile din clasele 2-6."
+        },
+        {
+          "q": "Ce puzzle-uri punct cu punct cu ocean pot imprima?",
+          "a": "Cinci obiecte imprimabile gratuite cu ocean: Balenă (42 de puncte), Căluț de mare (35 de puncte), Meduză (88 de puncte), Sirenă (54 de puncte) și Triton (44 de puncte). Căluțul de mare se potrivește celor mai tineri jucători de puzzle; Meduza este provocarea colecției."
+        }
+      ]
+    }
+  },
+  "puzzles": [
+    {
+      "slug": "mermaid-dot-to-dot-puzzle",
+      "header": {
         "title": "Sirenă de Unit Puncte — Fișă Magică cu 54 de Puncte",
-        "description": "Poveștile cu sirene se întind pe mai mult de 3.000 de ani. Dezvăluie un înotător magic pe 54 de puncte cu acest PDF gratuit pentru copii cu vârste între 5-8 ani.",
-        "image_alt": "Sirena alunecând sub apă, coada ei curbată prin 54 de puncte numerotate de tipărit"
+        "meta_description": "Poveștile cu sirene se întind pe mai mult de 3.000 de ani. Dezvăluie un înotător magic pe 54 de puncte cu acest PDF gratuit pentru copii cu vârste între 5-8 ani.",
+        "og": {
+          "title": "Sirenă de Unit Puncte — Fișă Magică cu 54 de Puncte",
+          "description": "Poveștile cu sirene se întind pe mai mult de 3.000 de ani. Dezvăluie un înotător magic pe 54 de puncte cu acest PDF gratuit pentru copii cu vârste între 5-8 ani.",
+          "image_alt": "Sirena alunecând sub apă, coada ei curbată prin 54 de puncte numerotate de tipărit"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Sirenă",
+          "description": "Poveștile cu sirene se întind pe mai mult de 3.000 de ani. Dezvăluie un înotător magic pe 54 de puncte cu acest PDF gratuit pentru copii cu vârste între 5-8 ani.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
       },
-      "json_ld": {
-        "type": "CreativeWork",
+      "body": {
+        "h1": "Sirena Conectează Punctele — Magic 54-Puncte Gratuit de Tipărit",
         "name": "Sirenă",
-        "description": "Poveștile cu sirene se întind pe mai mult de 3.000 de ani. Dezvăluie un înotător magic pe 54 de puncte cu acest PDF gratuit pentru copii cu vârste între 5-8 ani.",
-        "image": "",
-        "educational_use": "Fine motor skills, number sequencing",
-        "age_range": ""
-      }
-    },
-    "body": {
-      "h1": "Sirena Conectează Punctele — Magic 54-Puncte Gratuit de Tipărit",
-      "name": "Sirenă",
-      "tagline": "O aventură magică subacvatică",
-      "description": "Conectează punctele pentru a dezvălui o frumoasă sirenă alunecând prin ocean. Acest puzzle ușor cu 54 de puncte este perfect pentru tinerii învățăcei care practică secvențierea numerelor în timp ce se bucură de o fărâmă de magie subacvatică.",
-      "fun_fact": "Sirenele apar în folclorul din vechea Asiriei — acum mai bine de 3.000 de ani!",
-      "dot_guide": {
-        "intro": "Sirenele au captivat imaginația copiilor timp de mii de ani - de la mările antice ale Asiriei până la basmele lui Hans Christian Andersen. Acest puzzle frumos cu 54 de puncte trasează conturul grațios al unei sirene care alunecă prin adâncuri. Este un puzzle minunat pentru momente liniștite și concentrate - perfect pentru o după-amiază ploioasă sau o <a href=\"/playgrounds/\">activitate calmă în clasă pentru copii</a>. Găsiți punctul 1 și lăsați magia să înceapă!",
-        "sections": [
+        "tagline": "O aventură magică subacvatică",
+        "description": "Conectează punctele pentru a dezvălui o frumoasă sirenă alunecând prin ocean. Acest puzzle ușor cu 54 de puncte este perfect pentru tinerii învățăcei care practică secvențierea numerelor în timp ce se bucură de o fărâmă de magie subacvatică.",
+        "fun_fact": "Sirenele apar în folclorul din vechea Asiriei — acum mai bine de 3.000 de ani!",
+        "faqs": [
           {
-            "range": "1–9",
-            "title": "Fața și părul",
-            "learn": "Începeți de la punctul 1 și conectați până la punctul 9 pentru a trasa fața sirenei și liniile fluide ale părului ei. Fețele implică curbe line, rotunjite - o încălzire plăcută care le oferă încredere în folosirea creionului înainte de formele mai mari care urmează. Încurajați copiii să ridice ușor încheietura mâinii și să lase creionul să alunece.",
-            "fact": "Legendele despre sirene au apărut independent în culturi din întreaga lume - de la spiritele apei din Africa de Vest la Ningyo japonez și nereidele nimfe marine grecești antice. Ideea unor ființe pe jumătate oameni, pe jumătate pești pare a fi ceva la care imaginația umană continuă să ajungă, indiferent de ocean."
+            "q": "Câte puncte are puzzle-ul punct-cu-punct cu Sirena?",
+            "a": "Puzzle-ul imprimabil cu sirena, unește punctele, are 54 de puncte numerotate. Asta îl face un puzzle ușor spre mediu, potrivit pentru vârstele de 5-8 ani (grădiniță până la clasa a II-a). Copiii unesc punctele în ordinea numerică pentru a dezvălui imaginea finalizată cu sirena, apoi o colorează."
           },
           {
-            "range": "10–22",
-            "title": "Brațele și partea superioară a corpului",
-            "learn": "Continuați de la punctul 10 la punctul 22 pentru a desena brațele și trunchiul. Copiii exersează aici simetria și curba naturală a unei figuri umane - o secțiune care funcționează deosebit de bine pentru a discuta despre proporțiile corpului într-un mod distractiv, cu presiune redusă. O atingere ușoară și fluidă oferă cel mai elegant rezultat.",
-            "fact": "Cea mai faimoasă poveste cu sirene din cultura vorbitoare de limbă engleză — Mica Sirenă — a fost scrisă de Hans Christian Andersen în 1837. Povestea originală este destul de diferită de filmul de animație: mult mai dulce-amăruie și menită să reflecte asupra sacrificiului, a dorului și a ceea ce înseamnă să ai un suflet."
+            "q": "Este gratuit modelul Sirena de desene unit-to-dot imprimabil?",
+            "a": "Da. Fișa de lucru cu tema Sirena poate fi descărcată 100% gratuit de pe DotToDotFreePrintables.com — nu este necesar un cont, un e-mail sau o plată. Se descarcă instantaneu ca PDF gata de imprimare, atât în ​​orientare portret, cât și peisaj, dimensionată pentru hârtie Letter SUA sau A4."
           },
           {
-            "range": "23–36",
-            "title": "Talia și cântarul",
-            "learn": "Trasați punctele de la 23 la 36 pentru secțiunea mediană, unde forma umană se transformă în coadă de pește - cea mai distinctă parte de sirenă din întregul desen. Copiii învață să urmeze o formă care se îngustează și apoi se întinde din nou spre exterior. Această secțiune mediană recompensează răbdarea și găsirea atentă a punctelor.",
-            "fact": "Oamenii de știință cred că mitul sirenei ar putea proveni parțial din faptul că marinarii au observat lamantini sau dugongi pe mare. De la distanță, un lamantin care iese la suprafață pentru a respira - cu corpul său rotunjit și coada asemănătoare unei vâsle - poate părea surprinzător de umanoid. Este o interpretare generoasă, dar singurătatea și distanța fac lucruri remarcabile imaginației."
+            "q": "Pentru ce vârstă este cea mai potrivită fișă de lucru „Sirena conectează punctele”?",
+            "a": "Cu 54 de puncte, puzzle-ul Sirena este cel mai potrivit pentru vârstele de 5-8 ani (grădiniță până la clasa a II-a). Copiii mai mici se pot bucura de el cu ajutorul unui adult, în timp ce numărătorii încrezători îl pot completa independent și pot exersa secvențierea numerelor până la 54."
           },
           {
-            "range": "37–46",
-            "title": "Coada de pește",
-            "learn": "Conectați punctele 37 cu 46 pentru a desena în jos coada lungă și grațioasă de pește. Aceasta este secțiunea cea mai satisfăcătoare a puzzle-ului - copiii simt cum sirena își ia forma finală, recognoscibilă. Tușele lungi și fluide funcționează perfect aici. Încurajați copiii să deseneze de la umăr, nu doar de la încheietura mâinii.",
-            "fact": "În majoritatea poveștilor despre sirene, coada este descrisă ca fiind iridescentă - strălucind în mai multe culori, precum o bulă de săpun sau un solz de pește în lumina soarelui. Când vine vorba de colorarea acestui puzzle, nu există un răspuns greșit: argintiu, albastru oceanic, verde smarald sau toate trei deodată sunt la fel de valide!"
+            "q": "Ce abilități predă puzzle-ul Sirenă punct-to-punct?",
+            "a": "Conectarea celor 54 de puncte ale puzzle-ului Sirena dezvoltă recunoașterea numerelor și numărarea până la 54, controlul creionului, coordonarea mână-ochi și concentrarea susținută - aceleași fundamente ale motricității fine care susțin scrisul de mână timpuriu. Colorarea imaginii finalizate adaugă o recompensă creativă."
           },
           {
-            "range": "47–54",
-            "title": "Aripioarele caudale",
-            "learn": "Terminați prin a conecta punctele 47 până la 54 pentru a adăuga înotătoarele cozii late și ample care completează silueta sirenei. Doar opt puncte până la linia de sosire - încurajați copiii să facă fiecare punct să conteze și să termine cu o înflorire încrezătoare și grațioasă. Înotătoarea cozii este punctul final al sirenei!",
-            "fact": "Cozile de pește se mișcă lateral, dar cozile de balenă și delfin - numite gălbețe - se mișcă în sus și în jos. Dacă o sirenă ar exista în viața reală, oamenii de știință dezbat ce stil de coadă ar avea mai mult sens pentru o parte superioară a corpului de formă umană. Răspunsul, bazat pe modul în care se mișcă șoldurile umane, ar fi probabil stilul de delfin în sus și în jos."
+            "q": "Care este un fapt amuzant despre sirenă?",
+            "a": "Sirenele apar în folclorul din Asiria antică — acum peste 3.000 de ani! Copiii descoperă fapte de acest gen în timp ce completează puzzle-ul cu puncte și numere de sirenă."
           }
         ],
-        "outro": "Minunat — sirena ta e gata să se scufunde! Acum dă-i cozii cea mai spectaculoasă combinație de culori pe care ți-o poți imagina. Expune-o cu mândrie sau oferă-o cadou — în orice caz, ai creat ceva cu adevărat minunat. Ești gata pentru încă una? Răsfoiește mai multe <a href=\"/\">planșe imprimabile gratuite cu puncte</a> pentru a menține liniștea.",
-        "color_schemes": []
+        "dot_guide": {
+          "intro": "Sirenele au captivat imaginația copiilor timp de mii de ani - de la mările antice ale Asiriei până la basmele lui Hans Christian Andersen. Acest puzzle frumos cu 54 de puncte trasează conturul grațios al unei sirene care alunecă prin adâncuri. Este un puzzle minunat pentru momente liniștite și concentrate - perfect pentru o după-amiază ploioasă sau o <a href=\"/playgrounds/\">activitate calmă în clasă pentru copii</a>. Găsiți punctul 1 și lăsați magia să înceapă!",
+          "sections": [
+            {
+              "range": "1–9",
+              "title": "Fața și părul",
+              "learn": "Începeți de la punctul 1 și conectați până la punctul 9 pentru a trasa fața sirenei și liniile fluide ale părului ei. Fețele implică curbe line, rotunjite - o încălzire plăcută care le oferă încredere în folosirea creionului înainte de formele mai mari care urmează. Încurajați copiii să ridice ușor încheietura mâinii și să lase creionul să alunece.",
+              "fact": "Legendele despre sirene au apărut independent în culturi din întreaga lume - de la spiritele apei din Africa de Vest la Ningyo japonez și nereidele nimfe marine grecești antice. Ideea unor ființe pe jumătate oameni, pe jumătate pești pare a fi ceva la care imaginația umană continuă să ajungă, indiferent de ocean."
+            },
+            {
+              "range": "10–22",
+              "title": "Brațele și partea superioară a corpului",
+              "learn": "Continuați de la punctul 10 la punctul 22 pentru a desena brațele și trunchiul. Copiii exersează aici simetria și curba naturală a unei figuri umane - o secțiune care funcționează deosebit de bine pentru a discuta despre proporțiile corpului într-un mod distractiv, cu presiune redusă. O atingere ușoară și fluidă oferă cel mai elegant rezultat.",
+              "fact": "Cea mai faimoasă poveste cu sirene din cultura vorbitoare de limbă engleză — Mica Sirenă — a fost scrisă de Hans Christian Andersen în 1837. Povestea originală este destul de diferită de filmul de animație: mult mai dulce-amăruie și menită să reflecte asupra sacrificiului, a dorului și a ceea ce înseamnă să ai un suflet."
+            },
+            {
+              "range": "23–36",
+              "title": "Talia și cântarul",
+              "learn": "Trasați punctele de la 23 la 36 pentru secțiunea mediană, unde forma umană se transformă în coadă de pește - cea mai distinctă parte de sirenă din întregul desen. Copiii învață să urmeze o formă care se îngustează și apoi se întinde din nou spre exterior. Această secțiune mediană recompensează răbdarea și găsirea atentă a punctelor.",
+              "fact": "Oamenii de știință cred că mitul sirenei ar putea proveni parțial din faptul că marinarii au observat lamantini sau dugongi pe mare. De la distanță, un lamantin care iese la suprafață pentru a respira - cu corpul său rotunjit și coada asemănătoare unei vâsle - poate părea surprinzător de umanoid. Este o interpretare generoasă, dar singurătatea și distanța fac lucruri remarcabile imaginației."
+            },
+            {
+              "range": "37–46",
+              "title": "Coada de pește",
+              "learn": "Conectați punctele 37 cu 46 pentru a desena în jos coada lungă și grațioasă de pește. Aceasta este secțiunea cea mai satisfăcătoare a puzzle-ului - copiii simt cum sirena își ia forma finală, recognoscibilă. Tușele lungi și fluide funcționează perfect aici. Încurajați copiii să deseneze de la umăr, nu doar de la încheietura mâinii.",
+              "fact": "În majoritatea poveștilor despre sirene, coada este descrisă ca fiind iridescentă - strălucind în mai multe culori, precum o bulă de săpun sau un solz de pește în lumina soarelui. Când vine vorba de colorarea acestui puzzle, nu există un răspuns greșit: argintiu, albastru oceanic, verde smarald sau toate trei deodată sunt la fel de valide!"
+            },
+            {
+              "range": "47–54",
+              "title": "Aripioarele caudale",
+              "learn": "Terminați prin a conecta punctele 47 până la 54 pentru a adăuga înotătoarele cozii late și ample care completează silueta sirenei. Doar opt puncte până la linia de sosire - încurajați copiii să facă fiecare punct să conteze și să termine cu o înflorire încrezătoare și grațioasă. Înotătoarea cozii este punctul final al sirenei!",
+              "fact": "Cozile de pește se mișcă lateral, dar cozile de balenă și delfin - numite gălbețe - se mișcă în sus și în jos. Dacă o sirenă ar exista în viața reală, oamenii de știință dezbat ce stil de coadă ar avea mai mult sens pentru o parte superioară a corpului de formă umană. Răspunsul, bazat pe modul în care se mișcă șoldurile umane, ar fi probabil stilul de delfin în sus și în jos."
+            }
+          ],
+          "outro": "Minunat — sirena ta e gata să se scufunde! Acum dă-i cozii cea mai spectaculoasă combinație de culori pe care ți-o poți imagina. Expune-o cu mândrie sau oferă-o cadou — în orice caz, ai creat ceva cu adevărat minunat. Ești gata pentru încă una? Răsfoiește mai multe <a href=\"/\">planșe imprimabile gratuite cu puncte</a> pentru a menține liniștea.",
+          "color_schemes": []
+        }
       }
-    }
-  },
-  {
-    "slug": "merman-dot-to-dot-puzzle",
-    "header": {
-      "title": "Triton de Unit Puncte pentru Preșcolari: 44 de Puncte Ușoare",
-      "meta_description": "Urmează 44 de puncte pentru a aduce un merman mitic din valuri. Acest PDF gratuit de conectare a punctelor oferă o activitate accesibilă în ocean pentru vârstele 4-7.",
-      "og": {
+    },
+    {
+      "slug": "merman-dot-to-dot-puzzle",
+      "header": {
         "title": "Triton de Unit Puncte pentru Preșcolari: 44 de Puncte Ușoare",
-        "description": "Urmează 44 de puncte pentru a aduce un merman mitic din valuri. Acest PDF gratuit de conectare a punctelor oferă o activitate accesibilă în ocean pentru vârstele 4-7.",
-        "image_alt": "Triton ridicându-se din valuri, conturat din 44 de puncte simple pe o fișă pentru preșcolari"
+        "meta_description": "Urmează 44 de puncte pentru a aduce un merman mitic din valuri. Acest PDF gratuit de conectare a punctelor oferă o activitate accesibilă în ocean pentru vârstele 4-7.",
+        "og": {
+          "title": "Triton de Unit Puncte pentru Preșcolari: 44 de Puncte Ușoare",
+          "description": "Urmează 44 de puncte pentru a aduce un merman mitic din valuri. Acest PDF gratuit de conectare a punctelor oferă o activitate accesibilă în ocean pentru vârstele 4-7.",
+          "image_alt": "Triton ridicându-se din valuri, conturat din 44 de puncte simple pe o fișă pentru preșcolari"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Triton",
+          "description": "Urmează 44 de puncte pentru a aduce un merman mitic din valuri. Acest PDF gratuit de conectare a punctelor oferă o activitate accesibilă în ocean pentru vârstele 4-7.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
       },
-      "json_ld": {
-        "type": "CreativeWork",
+      "body": {
+        "h1": "Sirena Conectează Punctele pentru Grădiniță: 44 de Puncte Ușoare, Gratuit",
         "name": "Triton",
-        "description": "Urmează 44 de puncte pentru a aduce un merman mitic din valuri. Acest PDF gratuit de conectare a punctelor oferă o activitate accesibilă în ocean pentru vârstele 4-7.",
-        "image": "",
-        "educational_use": "Fine motor skills, number sequencing",
-        "age_range": ""
-      }
-    },
-    "body": {
-      "h1": "Sirena Conectează Punctele pentru Grădiniță: 44 de Puncte Ușoare, Gratuit",
-      "name": "Triton",
-      "tagline": "Regele Adâncurilor",
-      "description": "Conectează punctele pentru a dezvălui un merman magnific ieșind din adâncurile oceanului! Cu 44 de puncte ușoare, acest puzzle este perfect pentru copiii de grădiniță care practică secvențierea numerelor în timp ce explorează fantezia subacvatică.",
-      "fun_fact": "Bărbații sirenelor (mermanii) apar în mitologie la nivel mondial — de la Grecia antică până în Caraibe!",
-      "dot_guide": {
-        "intro": "Tritonii sunt regii puternici și misterioși ai adâncurilor oceanului — apărând în mituri din Grecia antică până în Caraibe, din Africa de Vest până la coastele Scoției. Adesea descriși ca niște conducători feroce ai mării, ei se simt la fel de bine în lagune liniștite și în furtuni puternice. Acest puzzle cu 44 de puncte este o provocare încântătoare și ușor de gestionat pentru copiii mai mici. Ia un creion și întâlnește-l pe regele adâncurilor!",
-        "sections": [
+        "tagline": "Regele Adâncurilor",
+        "description": "Conectează punctele pentru a dezvălui un merman magnific ieșind din adâncurile oceanului! Cu 44 de puncte ușoare, acest puzzle este perfect pentru copiii de grădiniță care practică secvențierea numerelor în timp ce explorează fantezia subacvatică.",
+        "fun_fact": "Bărbații sirenelor (mermanii) apar în mitologie la nivel mondial — de la Grecia antică până în Caraibe!",
+        "faqs": [
           {
-            "range": "1–8",
-            "title": "Capul și fața",
-            "learn": "Începeți de la punctul 1 și conectați până la punctul 8 pentru a schița chipul puternic și mândru al sirenei. Această secțiune introductivă folosește curbe ușoare și îi ajută pe copii să se obișnuiască cu ritmul puzzle-ului. Numărarea fiecărui punct cu voce tare este o modalitate excelentă pentru părinți și îngrijitori de a se alătura încă de la început.",
-            "fact": "În mitologia greacă antică, zeul mării Poseidon (Neptun în mitologia romană) era adesea înfățișat ca o figură puternică, asemănătoare unui triton, care domnea oceanele cu un trident. Fiul său, Triton, era un triton în întregime - jumătate om, jumătate pește - care putea calma sau declanșa furtuni suflând în trompeta sa din scoică."
+            "q": "Câte puncte are puzzle-ul punct cu punct Merman?",
+            "a": "Puzzle-ul imprimabil cu sirenul, unește punctele, are 44 de puncte numerotate. Asta îl face un puzzle ușor spre mediu, potrivit pentru vârstele de 5-8 ani (grădiniță până la clasa a II-a). Copiii unesc punctele în ordinea numerică pentru a dezvălui imaginea finalizată cu sirenul, apoi o colorează."
           },
           {
-            "range": "9–18",
-            "title": "Armele și Tridentul",
-            "learn": "Continuați de la punctul 9 la punctul 18 pentru a desena brațele întinse și semnul unui trident. Copiii exersează desenarea unor forme extinse care se extind spre exterior din corp - o provocare diferită față de desenarea unor forme care se curbează spre interior. Această secțiune dezvoltă conștientizarea direcției și dezvoltarea unor mișcări exterioare încrezătoare.",
-            "fact": "Tridentul — o suliță cu trei dinți — a fost simbolul puterii maritime în mitologie timp de mii de ani. Cuvântul provine din latinescul „tridens”, care înseamnă trei dinți. Pescarii din multe culturi au folosit sulițe cu trei dinți pentru a prinde pește la fel de mult timp, așa că simbolul a provenit probabil din uneltele de zi cu zi."
+            "q": "Este gratuit modelul Merman punct cu punct imprimabil?",
+            "a": "Da. Fișa de lucru Merman poate fi descărcată 100% gratuit de pe DotToDotFreePrintables.com — nu este necesar un cont, un e-mail sau o plată. Se descarcă instantaneu ca PDF gata de imprimare, atât în ​​orientare portret, cât și peisaj, dimensionată pentru hârtie Letter SUA sau A4."
           },
           {
-            "range": "19–30",
-            "title": "Trunchiul puternic",
-            "learn": "Trasați punctele de la 19 la 30 pentru a completa trunchiul lat și musculos. Aceasta este cea mai lungă secțiune a puzzle-ului și o oportunitate excelentă de a dezvolta concentrarea susținută - o abilitate importantă pentru sala de clasă și acasă pentru copiii cu vârste cuprinse între 4 și 7 ani. Sărbătoriți atingerea punctului 30 ca o piatră de hotar la jumătatea drumului.",
-            "fact": "Tritonii apar în folclorul scoțian și irlandez ca „Oamenii Albaștri din Minch” - creaturi marine magice despre care se spune că trăiesc în strâmtoarea dintre Scoția și Hebridele Exterioare. Povestitorii locali își imaginau acești tritoni cu pielea albastră provocând marinarii la un concurs de poezie și lăsând cei mai buni poeți să navigheze în siguranță mai departe!"
+            "q": "Pentru ce vârstă este cea mai potrivită fișă de lucru Merman connect-the-dots?",
+            "a": "Cu 44 de puncte, puzzle-ul Merman este cel mai potrivit pentru vârstele de 5-8 ani (grădiniță până la clasa a II-a). Copiii mai mici se pot bucura de el cu ajutorul unui adult, în timp ce numărătorii încrezători îl pot completa independent și pot exersa secvențierea numerelor până la 44."
           },
           {
-            "range": "31–38",
-            "title": "Coada de pește",
-            "learn": "Conectați punctele 31 cu 38 pentru a așeza coada de pește la locul ei. Copiii văd forma completă a tritonului în această secțiune - un moment satisfăcător care recompensează toată căutarea atentă a punctelor de dinainte. Mișcările fluide și sigure în jos conferă cozii mișcarea sa naturală.",
-            "fact": "Zeul mării din Caraibe, Olokun, întâlnit în mitologia yoruba, originar din Africa de Vest, este o puternică zeitate oceanică, uneori reprezentată cu o coadă de pește. Olokun reprezintă adâncurile oceanului - mistere, bogăția ascunsă sub valuri și adâncimile inconștiente ale minții umane. O imagine remarcabil de poetică."
+            "q": "Ce abilități predă jocul puzzle-ului Merman dot-to-dot?",
+            "a": "Conectarea celor 44 de puncte ale puzzle-ului Triton dezvoltă recunoașterea numerelor și numărarea până la 44, controlul creionului, coordonarea mână-ochi și concentrarea susținută - aceleași fundamente ale motricității fine care susțin scrisul de mână timpuriu. Colorarea imaginii finalizate adaugă o recompensă creativă."
           },
           {
-            "range": "39–44",
-            "title": "Aripioarele caudale",
-            "learn": "Terminați prin a conecta punctele 39 până la 44 pentru a adăuga aripioarele cozii care curg. Șase puncte pentru a completa regele adâncurilor — încurajați copiii să dea acestor linii finale încredere și o curbă remarcabilă. Un final puternic merită întotdeauna să vă inspirați înainte de a începe.",
-            "fact": "Tritonii sunt uneori numiți „tritoni” sau „șoricioși” în folclorul irlandez și, spre deosebire de multe creaturi marine mitologice, erau considerați în general prietenoși cu oamenii - ocazional se căsătoreau cu familii de pescari și trăiau pe uscat o perioadă. Oceanul, în aceste povești, nu era un loc de care să te temi, ci un vecin de respectat."
+            "q": "Care este un fapt amuzant despre triton?",
+            "a": "Tritonii (mermenii) de sex masculin apar în mitologia din întreaga lume - din Grecia antică până în Caraibe! Copiii descoperă fapte de acest gen în timp ce completează puzzle-ul Tritonilor, desenandu-l cu puncte."
           }
         ],
-        "outro": "Lucrare genială — tritonul tău e gata să conducă adâncurile! Acesta este un puzzle minunat de asociat cu o vizită la bibliotecă pentru a găsi cărți despre mitologia oceanică. Poveștile de pe mare inspiră imaginația copiilor de mii de ani. Explorează mai multe dintre <a href=\"/ocean/\">fișele noastre imprimabile de desenat puncte cu puncte 1-100</a> din adâncuri.",
-        "color_schemes": []
+        "dot_guide": {
+          "intro": "Tritonii sunt regii puternici și misterioși ai adâncurilor oceanului — apărând în mituri din Grecia antică până în Caraibe, din Africa de Vest până la coastele Scoției. Adesea descriși ca niște conducători feroce ai mării, ei se simt la fel de bine în lagune liniștite și în furtuni puternice. Acest puzzle cu 44 de puncte este o provocare încântătoare și ușor de gestionat pentru copiii mai mici. Ia un creion și întâlnește-l pe regele adâncurilor!",
+          "sections": [
+            {
+              "range": "1–8",
+              "title": "Capul și fața",
+              "learn": "Începeți de la punctul 1 și conectați până la punctul 8 pentru a schița chipul puternic și mândru al sirenei. Această secțiune introductivă folosește curbe ușoare și îi ajută pe copii să se obișnuiască cu ritmul puzzle-ului. Numărarea fiecărui punct cu voce tare este o modalitate excelentă pentru părinți și îngrijitori de a se alătura încă de la început.",
+              "fact": "În mitologia greacă antică, zeul mării Poseidon (Neptun în mitologia romană) era adesea înfățișat ca o figură puternică, asemănătoare unui triton, care domnea oceanele cu un trident. Fiul său, Triton, era un triton în întregime - jumătate om, jumătate pește - care putea calma sau declanșa furtuni suflând în trompeta sa din scoică."
+            },
+            {
+              "range": "9–18",
+              "title": "Armele și Tridentul",
+              "learn": "Continuați de la punctul 9 la punctul 18 pentru a desena brațele întinse și semnul unui trident. Copiii exersează desenarea unor forme extinse care se extind spre exterior din corp - o provocare diferită față de desenarea unor forme care se curbează spre interior. Această secțiune dezvoltă conștientizarea direcției și dezvoltarea unor mișcări exterioare încrezătoare.",
+              "fact": "Tridentul — o suliță cu trei dinți — a fost simbolul puterii maritime în mitologie timp de mii de ani. Cuvântul provine din latinescul „tridens”, care înseamnă trei dinți. Pescarii din multe culturi au folosit sulițe cu trei dinți pentru a prinde pește la fel de mult timp, așa că simbolul a provenit probabil din uneltele de zi cu zi."
+            },
+            {
+              "range": "19–30",
+              "title": "Trunchiul puternic",
+              "learn": "Trasați punctele de la 19 la 30 pentru a completa trunchiul lat și musculos. Aceasta este cea mai lungă secțiune a puzzle-ului și o oportunitate excelentă de a dezvolta concentrarea susținută - o abilitate importantă pentru sala de clasă și acasă pentru copiii cu vârste cuprinse între 4 și 7 ani. Sărbătoriți atingerea punctului 30 ca o piatră de hotar la jumătatea drumului.",
+              "fact": "Tritonii apar în folclorul scoțian și irlandez ca „Oamenii Albaștri din Minch” - creaturi marine magice despre care se spune că trăiesc în strâmtoarea dintre Scoția și Hebridele Exterioare. Povestitorii locali își imaginau acești tritoni cu pielea albastră provocând marinarii la un concurs de poezie și lăsând cei mai buni poeți să navigheze în siguranță mai departe!"
+            },
+            {
+              "range": "31–38",
+              "title": "Coada de pește",
+              "learn": "Conectați punctele 31 cu 38 pentru a așeza coada de pește la locul ei. Copiii văd forma completă a tritonului în această secțiune - un moment satisfăcător care recompensează toată căutarea atentă a punctelor de dinainte. Mișcările fluide și sigure în jos conferă cozii mișcarea sa naturală.",
+              "fact": "Zeul mării din Caraibe, Olokun, întâlnit în mitologia yoruba, originar din Africa de Vest, este o puternică zeitate oceanică, uneori reprezentată cu o coadă de pește. Olokun reprezintă adâncurile oceanului - mistere, bogăția ascunsă sub valuri și adâncimile inconștiente ale minții umane. O imagine remarcabil de poetică."
+            },
+            {
+              "range": "39–44",
+              "title": "Aripioarele caudale",
+              "learn": "Terminați prin a conecta punctele 39 până la 44 pentru a adăuga aripioarele cozii care curg. Șase puncte pentru a completa regele adâncurilor — încurajați copiii să dea acestor linii finale încredere și o curbă remarcabilă. Un final puternic merită întotdeauna să vă inspirați înainte de a începe.",
+              "fact": "Tritonii sunt uneori numiți „tritoni” sau „șoricioși” în folclorul irlandez și, spre deosebire de multe creaturi marine mitologice, erau considerați în general prietenoși cu oamenii - ocazional se căsătoreau cu familii de pescari și trăiau pe uscat o perioadă. Oceanul, în aceste povești, nu era un loc de care să te temi, ci un vecin de respectat."
+            }
+          ],
+          "outro": "Lucrare genială — tritonul tău e gata să conducă adâncurile! Acesta este un puzzle minunat de asociat cu o vizită la bibliotecă pentru a găsi cărți despre mitologia oceanică. Poveștile de pe mare inspiră imaginația copiilor de mii de ani. Explorează mai multe dintre <a href=\"/ocean/\">fișele noastre imprimabile de desenat puncte cu puncte 1-100</a> din adâncuri.",
+          "color_schemes": []
+        }
       }
-    }
-  },
-  {
-    "slug": "seahorse-dot-to-dot-puzzle",
-    "header": {
-      "title": "Călut de Mare de Unit Puncte, Cel Mai Ușor PDF Oceanic cu 35 de Puncte",
-      "meta_description": "Cu doar 35 de puncte, acest călut de mare este cea mai scurtă dintre fișele noastre oceanice de unit puncte, ideală pentru preșcolarii de 4-7 ani în 2026. Taticii călut de mare sunt cei care poartă puii — imprimă PDF-ul gratuit și cunoaște acest prieten adorabil al oceanului. Cea mai scurtă provocare oceanică de până acum.",
-      "og": {
+    },
+    {
+      "slug": "seahorse-dot-to-dot-puzzle",
+      "header": {
         "title": "Călut de Mare de Unit Puncte, Cel Mai Ușor PDF Oceanic cu 35 de Puncte",
-        "description": "Cu doar 35 de puncte, acest călut de mare este cea mai scurtă dintre fișele noastre oceanice de unit puncte, ideală pentru preșcolarii de 4-7 ani în 2026. Taticii călut de mare sunt cei care poartă puii — imprimă PDF-ul gratuit și cunoaște acest prieten adorabil al oceanului. Cea mai scurtă provocare oceanică de până acum.",
-        "image_alt": "Călut de mare mic plutind vertical, conturat din doar 35 de puncte pe o fișă gratuită"
+        "meta_description": "Cu doar 35 de puncte, acest călut de mare este cea mai scurtă dintre fișele noastre oceanice de unit puncte, ideală pentru preșcolarii de 4-7 ani în 2026. Taticii călut de mare sunt cei care poartă puii — imprimă PDF-ul gratuit și cunoaște acest prieten adorabil al oceanului. Cea mai scurtă provocare oceanică de până acum.",
+        "og": {
+          "title": "Călut de Mare de Unit Puncte, Cel Mai Ușor PDF Oceanic cu 35 de Puncte",
+          "description": "Cu doar 35 de puncte, acest călut de mare este cea mai scurtă dintre fișele noastre oceanice de unit puncte, ideală pentru preșcolarii de 4-7 ani în 2026. Taticii călut de mare sunt cei care poartă puii — imprimă PDF-ul gratuit și cunoaște acest prieten adorabil al oceanului. Cea mai scurtă provocare oceanică de până acum.",
+          "image_alt": "Călut de mare mic plutind vertical, conturat din doar 35 de puncte pe o fișă gratuită"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Căluț de mare",
+          "description": "Cu doar 35 de puncte, acest călut de mare este cea mai scurtă dintre fișele noastre oceanice de unit puncte, ideală pentru preșcolarii de 4-7 ani în 2026. Taticii călut de mare sunt cei care poartă puii — imprimă PDF-ul gratuit și cunoaște acest prieten adorabil al oceanului. Cea mai scurtă provocare oceanică de până acum.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
       },
-      "json_ld": {
-        "type": "CreativeWork",
+      "body": {
+        "h1": "Calul de mare Conectează Punctele, Cel Mai Ușor PDF Ocean de 35 de Puncte",
         "name": "Căluț de mare",
-        "description": "Cu doar 35 de puncte, acest călut de mare este cea mai scurtă dintre fișele noastre oceanice de unit puncte, ideală pentru preșcolarii de 4-7 ani în 2026. Taticii călut de mare sunt cei care poartă puii — imprimă PDF-ul gratuit și cunoaște acest prieten adorabil al oceanului. Cea mai scurtă provocare oceanică de până acum.",
-        "image": "",
-        "educational_use": "Fine motor skills, number sequencing",
-        "age_range": ""
-      }
-    },
-    "body": {
-      "h1": "Calul de mare Conectează Punctele, Cel Mai Ușor PDF Ocean de 35 de Puncte",
-      "name": "Căluț de mare",
-      "tagline": "Micul Cavaler Oceanic",
-      "description": "Conectează punctele pentru a dezvălui un cal de mare fermecător plutind prin mare! Cu doar 35 de puncte ușoare, acest puzzle este ideal pentru copiii de grădiniță care își dezvoltă abilitățile de secvențiere a numerelor cu un prieten adorabil din ocean.",
-      "fun_fact": "Căluții de mare sunt singurii pești în care masculul poartă și dă naștere puilor!",
-      "dot_guide": {
-        "intro": "Calul de mare este una dintre cele mai extraordinare creaturi din întregul ocean - nu doar prin aspectul său, ci și prin modul în care trăiește. Înoată în poziție verticală, se mișcă fluturând o mică aripioară de pe spate, se ancorează de alge marine cu coada sa ondulată, iar tatăl este cel care poartă și dă naștere puilor. Dacă ai proiecta un animal de la zero, nu ți-ai imagina niciodată ceva atât de minunat de neobișnuit. Hai să desenăm unul împreună!",
-        "sections": [
+        "tagline": "Micul Cavaler Oceanic",
+        "description": "Conectează punctele pentru a dezvălui un cal de mare fermecător plutind prin mare! Cu doar 35 de puncte ușoare, acest puzzle este ideal pentru copiii de grădiniță care își dezvoltă abilitățile de secvențiere a numerelor cu un prieten adorabil din ocean.",
+        "fun_fact": "Căluții de mare sunt singurii pești în care masculul poartă și dă naștere puilor!",
+        "faqs": [
           {
-            "range": "1–6",
-            "title": "Capul și botul",
-            "learn": "Începeți de la punctul 1 și conectați până la punctul 6 pentru a desena capul distinctiv, asemănător unui cal, și botul lung, în formă de tub, al căluțului de mare. Această secțiune minusculă este un început minunat și ușor de gestionat pentru copiii mai mici - doar șase puncte pentru a le da încredere înainte de secțiunile mai mari care urmează. Botul este una dintre cele mai neobișnuite forme din regnul animal.",
-            "fact": "Un cal de mare nu are dinți și nici stomac. Absoarbe creveți și plancton minusculi prin bot ca un aspirator și, deoarece hrana trece atât de repede, trebuie să mănânce aproape constant - până la 3.000 de artemie pe zi. A fi cal de mare este, în esență, o slujbă de mâncare cu normă întreagă."
+            "q": "Câte puncte are puzzle-ul punct cu căluțul de mare?",
+            "a": "Puzzle-ul imprimabil cu căluțul de mare - unește punctele are 35 de puncte numerotate. Asta îl face un puzzle ușor, potrivit pentru vârstele de 4-6 ani (grădiniță și grădiniță). Copiii unesc punctele în ordinea numerotată pentru a dezvălui imaginea finalizată cu căluțul de mare, apoi o colorează."
           },
           {
-            "range": "7–16",
-            "title": "Gâtul și coama curbate",
-            "learn": "Continuați de la punctul 7 la punctul 16 pentru a trasa gâtul frumos curbat și creasta de-a lungul spatelui — uneori numită coama calului de mare. Această secțiune are cea mai frumoasă curbă din întregul puzzle. Copiii învață să urmeze un arc lung și lin, menținând creionul în mișcare lentă și uniformă pentru cel mai bun rezultat.",
-            "fact": "Căluții de mare sunt cu adevărat printre cei mai lenți pești din ocean, mișcându-se cu o viteză maximă de aproximativ 1,5 metri pe oră. Pentru a pune asta în perspectivă, un melc de grădină se mișcă mai repede. În loc să urmărească prada, căluțul de mare se bazează în întregime pe camuflaj și surpriză - plutind în derivă aproape de hrană și apoi izbindu-se cu viteza fulgerului."
+            "q": "Este gratuit modelul Seahorse dot-to-dot imprimabil?",
+            "a": "Da. Fișa de lucru cu Căluțul de Mare poate fi descărcată 100% gratuit de pe DotToDotFreePrintables.com — nu este necesar un cont, un e-mail sau o plată. Se descarcă instantaneu ca PDF gata de imprimare, atât în ​​orientare portret, cât și peisaj, dimensionată pentru hârtie Letter SUA sau A4."
           },
           {
-            "range": "17–26",
-            "title": "Inelele corpului",
-            "learn": "Trasați punctele de la 17 la 26 pentru a desena corpul distinct segmentat - acele inele osoase proeminente care se întind de la gât la coadă. Copiii învață aici că corpurile animalelor nu sunt întotdeauna netede și încep să observe frumoasa structură a armurii naturale a calului de mare. Această secțiune recompensează urmărirea atentă și deliberată a punctelor.",
-            "fact": "Un căluț de mare nu este acoperit de solzi precum majoritatea peștilor - în schimb, corpul său este învelit în plăci osoase aranjate în inele. Acest lucru îl face destul de rigid, motiv pentru care nu se poate zvârcoli ca majoritatea peștilor. Practic, poartă o armură, ceea ce îl face și una dintre cele mai rezistente creaturi mici din mare pentru un prădător."
+            "q": "Pentru ce vârstă este cea mai potrivită fișă de lucru „Unește punctele” cu Căluții de Mare?",
+            "a": "Cu 35 de puncte, puzzle-ul Căluț de Mare este cel mai potrivit pentru vârstele de 4-6 ani (grădiniță și preșcolar). Copiii mai mici se pot bucura de el cu ajutorul unui adult, în timp ce numărătorii încrezători îl pot completa independent și pot exersa secvențierea numerelor până la 35."
           },
           {
-            "range": "27–35",
-            "title": "Coada ondulată",
-            "learn": "Termină puzzle-ul unind punctele 27 până la 35 pentru a desena coada lungă și ondulată care se întinde pe sub corp. Coada este una dintre cele mai satisfăcătoare forme de desenat - copiii exersează o spirală strânsă, în descreștere, care este atât provocatoare, cât și profund recompensatoare. Nouă puncte până la final!",
-            "fact": "Coada căluțului de mare este prehensilă - ceea ce înseamnă că poate prinde lucruri, exact ca o coadă de maimuță. Căluții de mare se ancorează de corali și alge marine cu cozile pentru a evita să fie luați de curenți. În timpul împerecherii, un mascul și o femelă își vor înfășura cozile împreună și vor pluti prin apă unul lângă altul - una dintre cele mai romantice priveliști din ocean."
+            "q": "Ce abilități predă jocul punct-la-punct cu Căluțul de Mare?",
+            "a": "Conectarea celor 35 de puncte ale puzzle-ului Căluț de Mare dezvoltă recunoașterea numerelor și numărarea până la 35, controlul creionului, coordonarea mână-ochi și concentrarea susținută - aceleași fundamente ale motricității fine care susțin scrisul de mână timpuriu. Colorarea imaginii finalizate adaugă o recompensă creativă."
+          },
+          {
+            "q": "Care este un fapt amuzant despre căluțul de mare?",
+            "a": "Căluții de mare sunt singurii pești în care masculul poartă și dă naștere puilor! Copiii descoperă lucruri de genul acesta în timp ce completează puzzle-ul punct cu căluți de mare."
           }
         ],
-        "outro": "Treabă minunată — căluțul de mare este gata! Știați că există peste 45 de specii diferite de căluți de mare, în culori de la galben aprins la violet închis și aproape complet transparent? Colorați-l cum doriți — în lumea căluților de mare, orice este permis. Căutați următoarea provocare? Răsfoiți toate materialele noastre imprimabile <a href=\"/\">desenați puncte cu puncte</a>.",
-        "color_schemes": []
+        "dot_guide": {
+          "intro": "Calul de mare este una dintre cele mai extraordinare creaturi din întregul ocean - nu doar prin aspectul său, ci și prin modul în care trăiește. Înoată în poziție verticală, se mișcă fluturând o mică aripioară de pe spate, se ancorează de alge marine cu coada sa ondulată, iar tatăl este cel care poartă și dă naștere puilor. Dacă ai proiecta un animal de la zero, nu ți-ai imagina niciodată ceva atât de minunat de neobișnuit. Hai să desenăm unul împreună!",
+          "sections": [
+            {
+              "range": "1–6",
+              "title": "Capul și botul",
+              "learn": "Începeți de la punctul 1 și conectați până la punctul 6 pentru a desena capul distinctiv, asemănător unui cal, și botul lung, în formă de tub, al căluțului de mare. Această secțiune minusculă este un început minunat și ușor de gestionat pentru copiii mai mici - doar șase puncte pentru a le da încredere înainte de secțiunile mai mari care urmează. Botul este una dintre cele mai neobișnuite forme din regnul animal.",
+              "fact": "Un cal de mare nu are dinți și nici stomac. Absoarbe creveți și plancton minusculi prin bot ca un aspirator și, deoarece hrana trece atât de repede, trebuie să mănânce aproape constant - până la 3.000 de artemie pe zi. A fi cal de mare este, în esență, o slujbă de mâncare cu normă întreagă."
+            },
+            {
+              "range": "7–16",
+              "title": "Gâtul și coama curbate",
+              "learn": "Continuați de la punctul 7 la punctul 16 pentru a trasa gâtul frumos curbat și creasta de-a lungul spatelui — uneori numită coama calului de mare. Această secțiune are cea mai frumoasă curbă din întregul puzzle. Copiii învață să urmeze un arc lung și lin, menținând creionul în mișcare lentă și uniformă pentru cel mai bun rezultat.",
+              "fact": "Căluții de mare sunt cu adevărat printre cei mai lenți pești din ocean, mișcându-se cu o viteză maximă de aproximativ 1,5 metri pe oră. Pentru a pune asta în perspectivă, un melc de grădină se mișcă mai repede. În loc să urmărească prada, căluțul de mare se bazează în întregime pe camuflaj și surpriză - plutind în derivă aproape de hrană și apoi izbindu-se cu viteza fulgerului."
+            },
+            {
+              "range": "17–26",
+              "title": "Inelele corpului",
+              "learn": "Trasați punctele de la 17 la 26 pentru a desena corpul distinct segmentat - acele inele osoase proeminente care se întind de la gât la coadă. Copiii învață aici că corpurile animalelor nu sunt întotdeauna netede și încep să observe frumoasa structură a armurii naturale a calului de mare. Această secțiune recompensează urmărirea atentă și deliberată a punctelor.",
+              "fact": "Un căluț de mare nu este acoperit de solzi precum majoritatea peștilor - în schimb, corpul său este învelit în plăci osoase aranjate în inele. Acest lucru îl face destul de rigid, motiv pentru care nu se poate zvârcoli ca majoritatea peștilor. Practic, poartă o armură, ceea ce îl face și una dintre cele mai rezistente creaturi mici din mare pentru un prădător."
+            },
+            {
+              "range": "27–35",
+              "title": "Coada ondulată",
+              "learn": "Termină puzzle-ul unind punctele 27 până la 35 pentru a desena coada lungă și ondulată care se întinde pe sub corp. Coada este una dintre cele mai satisfăcătoare forme de desenat - copiii exersează o spirală strânsă, în descreștere, care este atât provocatoare, cât și profund recompensatoare. Nouă puncte până la final!",
+              "fact": "Coada căluțului de mare este prehensilă - ceea ce înseamnă că poate prinde lucruri, exact ca o coadă de maimuță. Căluții de mare se ancorează de corali și alge marine cu cozile pentru a evita să fie luați de curenți. În timpul împerecherii, un mascul și o femelă își vor înfășura cozile împreună și vor pluti prin apă unul lângă altul - una dintre cele mai romantice priveliști din ocean."
+            }
+          ],
+          "outro": "Treabă minunată — căluțul de mare este gata! Știați că există peste 45 de specii diferite de căluți de mare, în culori de la galben aprins la violet închis și aproape complet transparent? Colorați-l cum doriți — în lumea căluților de mare, orice este permis. Căutați următoarea provocare? Răsfoiți toate materialele noastre imprimabile <a href=\"/\">desenați puncte cu puncte</a>.",
+          "color_schemes": []
+        }
       }
-    }
-  },
-  {
-    "slug": "whale-dot-to-dot-puzzle",
-    "header": {
-      "title": "Balenă de Unit Puncte — 42 de Puncte Ușoare de Legat",
-      "meta_description": "Leagă 42 de puncte simple pentru a da viață unei balene impunătoare, într-o fișă gratuită potrivită copiilor de 4-7 ani. Balenele albastre, zărite uneori de-a lungul coastelor nord-americane, sunt cele mai mari animale cunoscute vreodată. Imprimă PDF-ul și începe să trasezi. Imagine mare, efort mic.",
-      "og": {
+    },
+    {
+      "slug": "whale-dot-to-dot-puzzle",
+      "header": {
         "title": "Balenă de Unit Puncte — 42 de Puncte Ușoare de Legat",
-        "description": "Leagă 42 de puncte simple pentru a da viață unei balene impunătoare, într-o fișă gratuită potrivită copiilor de 4-7 ani. Balenele albastre, zărite uneori de-a lungul coastelor nord-americane, sunt cele mai mari animale cunoscute vreodată. Imprimă PDF-ul și începe să trasezi. Imagine mare, efort mic.",
-        "image_alt": "Balenă impunătoare cu spatele arcuit peste 42 de puncte numerotate, fișă gratuită de tipărit"
+        "meta_description": "Leagă 42 de puncte simple pentru a da viață unei balene impunătoare, într-o fișă gratuită potrivită copiilor de 4-7 ani. Balenele albastre, zărite uneori de-a lungul coastelor nord-americane, sunt cele mai mari animale cunoscute vreodată. Imprimă PDF-ul și începe să trasezi. Imagine mare, efort mic.",
+        "og": {
+          "title": "Balenă de Unit Puncte — 42 de Puncte Ușoare de Legat",
+          "description": "Leagă 42 de puncte simple pentru a da viață unei balene impunătoare, într-o fișă gratuită potrivită copiilor de 4-7 ani. Balenele albastre, zărite uneori de-a lungul coastelor nord-americane, sunt cele mai mari animale cunoscute vreodată. Imprimă PDF-ul și începe să trasezi. Imagine mare, efort mic.",
+          "image_alt": "Balenă impunătoare cu spatele arcuit peste 42 de puncte numerotate, fișă gratuită de tipărit"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Balenă",
+          "description": "Leagă 42 de puncte simple pentru a da viață unei balene impunătoare, într-o fișă gratuită potrivită copiilor de 4-7 ani. Balenele albastre, zărite uneori de-a lungul coastelor nord-americane, sunt cele mai mari animale cunoscute vreodată. Imprimă PDF-ul și începe să trasezi. Imagine mare, efort mic.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
       },
-      "json_ld": {
-        "type": "CreativeWork",
+      "body": {
+        "h1": "Balena Conectează Punctele Tipărit — 42 de Puncte Ușoare de Conectat",
         "name": "Balenă",
-        "description": "Leagă 42 de puncte simple pentru a da viață unei balene impunătoare, într-o fișă gratuită potrivită copiilor de 4-7 ani. Balenele albastre, zărite uneori de-a lungul coastelor nord-americane, sunt cele mai mari animale cunoscute vreodată. Imprimă PDF-ul și începe să trasezi. Imagine mare, efort mic.",
-        "image": "",
-        "educational_use": "Fine motor skills, number sequencing",
-        "age_range": ""
-      }
-    },
-    "body": {
-      "h1": "Balena Conectează Punctele Tipărit — 42 de Puncte Ușoare de Conectat",
-      "name": "Balenă",
-      "tagline": "Un uriaș blând al mării",
-      "description": "Conectează 42 de puncte ușoare pentru a dezvălui o balenă magnifică înotând prin ocean. Acest puzzle de tipărit ajută copiii de grădiniță să practice secvențierea numerelor, controlul creionului și concentrarea.",
-      "fun_fact": "Balenele albastre sunt cele mai mari animale despre care se știe că au trăit vreodată pe Pământ!",
-      "dot_guide": {
-        "intro": "Balena este cel mai mare animal care a existat vreodată pe planeta noastră - mai mare decât orice dinozaur, mai mare decât orice a trăit vreodată pe uscat. Și totuși, în ciuda dimensiunilor lor enorme, balenele sunt creaturi blânde, inteligente, profund sociale, care cântă una alteia pe sute de kilometri de ocean deschis. Acest puzzle cu 42 de puncte surprinde acea calitate pașnică și liniștită. Respiră adânc, găsește punctul 1 și plonjează!",
-        "sections": [
+        "tagline": "Un uriaș blând al mării",
+        "description": "Conectează 42 de puncte ușoare pentru a dezvălui o balenă magnifică înotând prin ocean. Acest puzzle de tipărit ajută copiii de grădiniță să practice secvențierea numerelor, controlul creionului și concentrarea.",
+        "fun_fact": "Balenele albastre sunt cele mai mari animale despre care se știe că au trăit vreodată pe Pământ!",
+        "faqs": [
           {
-            "range": "1–8",
-            "title": "Capul și gura",
-            "learn": "Începeți de la punctul 1 și conectați până la punctul 8 pentru a desena capul lat și rotunjit al balenei și curba blândă a gurii. Balenele au unele dintre cele mai pașnice forme de capete din natură - nu se văd dinți ascuțiți, nu există o expresie feroce. Copiii exersează aici curbe largi și lente, potrivindu-se cu caracterul liniștit al balenei.",
-            "fact": "Inima unei balene albastre are aproximativ dimensiunea unei mașini mici - aproximativ 180 kg - și bate doar de 8 până la 10 ori pe minut atunci când balena se scufundă. Când iese la suprafață, inima accelerează până la 25-37 de bătăi pe minut. Este cea mai mare inimă dintre toate animalele cunoscute vreodată pe Pământ - cu adevărat incredibilă!"
+            "q": "Câte puncte are puzzle-ul punct cu punct cu balena?",
+            "a": "Puzzle-ul imprimabil cu balenă, unește punctele, are 42 de puncte numerotate. Aceasta îl face un puzzle ușor spre mediu, potrivit pentru vârstele de 5-8 ani (grădiniță până la clasa a II-a). Copiii unesc punctele în ordinea numerică pentru a dezvălui imaginea finală a balenei, apoi o colorează."
           },
           {
-            "range": "9–18",
-            "title": "Spatele și aripioarele dorsale",
-            "learn": "Continuați de la punctul 9 la punctul 18 pentru a trasa spatele lung și neted și înotătoarea dorsală mică. Comparativ cu înotătoarea înaltă a unui delfin, înotătoarea dorsală a unei balene albastre este minusculă - copiii comentează adesea acest lucru, ceea ce declanșează o discuție plăcută despre motivul pentru care diferite animale au trăsături diferite. Mișcările lungi și fluide funcționează cel mai bine pentru această curbă ușoară.",
-            "fact": "Pielea balenelor prezintă modele unice de cicatrici, pete și marcaje - atât de distinctive încât oamenii de știință pot identifica balene individuale doar din fotografii. Unele balene, studiate îndelung, au fost urmărite timp de peste 30 de ani. Cunoaștem balenele individuale după nume, personalitate și istoric familial. Acesta este un lucru remarcabil."
+            "q": "Este gratuit modelul Whale dot-to-dot imprimabil?",
+            "a": "Da. Fișa de lucru Balena poate fi descărcată 100% gratuit de pe DotToDotFreePrintables.com — nu este necesar un cont, un e-mail sau o plată. Se descarcă instantaneu ca PDF gata de imprimare, atât în ​​orientare portret, cât și peisaj, dimensionată pentru hârtie Letter SUA sau A4."
           },
           {
-            "range": "19–30",
-            "title": "Burta și corpul",
-            "learn": "Trasați punctele de la 19 la 30 pentru a completa burta enormă și a completa forma corpului principal. Partea inferioară a balenei este adesea de o culoare mai deschisă decât spatele - o formă de camuflaj numită contraumbră, comună la animalele oceanice. Copiii exersează aici cea mai lungă secțiune a puzzle-ului, dezvoltându-și o adevărată concentrare și rezistență.",
-            "fact": "O balenă albastră poate mânca până la patru tone de krill — niște creaturi minuscule asemănătoare creveților — într-o singură zi. Face acest lucru aruncându-se într-un roi cu gura deschisă, înghițind o cantitate enormă de apă, apoi împingând apa afară prin plăci de fanoane, în timp ce krillul rămâne prins înăuntru. O tehnică elegantă și străveche."
+            "q": "Pentru ce vârstă este cea mai potrivită fișă de lucru „Unește punctele” cu balene?",
+            "a": "Cu 42 de puncte, puzzle-ul Balena este cel mai potrivit pentru vârstele de 5-8 ani (grădiniță până la clasa a II-a). Copiii mai mici se pot bucura de el cu ajutorul unui adult, în timp ce numărătorii încrezători îl pot completa independent și pot exersa secvențierea numerelor până la 42."
           },
           {
-            "range": "31–36",
-            "title": "Înotătoarele",
-            "learn": "Unește punctele 31 cu 36 pentru a desena înotătoarele lungi, în formă de paletă. Înotătoarele balenei conțin aceleași oase ca o mână și un braț uman - cinci oase ale degetelor, o încheietură și un braț superior - doar remodelate de-a lungul a milioane de ani pentru viața în ocean. Copiilor le place să descopere acest lucru atunci când le arăți în mijlocul puzzle-ului.",
-            "fact": "În interiorul înotătoarei unei balene se află aceleași oase pe care le aveți în propria mână - degetul mare, degetele, încheietura mâinii și tot ce există. Strămoșii balenelor au mers pe uscat acum aproximativ 50 de milioane de ani, iar înotătoarea este ceea ce au devenit acele picioare în timp. Evoluția este, în esență, un sculptor foarte lent și foarte răbdător."
+            "q": "Ce abilități predă puzzle-ul Whale dot-to-dot?",
+            "a": "Conectarea celor 42 de puncte ale puzzle-ului Balena dezvoltă recunoașterea numerelor și numărarea până la 42, controlul creionului, coordonarea mână-ochi și concentrarea susținută - aceleași fundamente ale motricității fine care susțin scrisul de mână timpuriu. Colorarea imaginii finalizate adaugă o recompensă creativă."
           },
           {
-            "range": "37–42",
-            "title": "Trematodele cozii",
-            "learn": "Termină puzzle-ul unind punctele 37 până la 42 pentru a desena aripioarele cozii late - cea mai puternică structură din regnul animal în raport cu scopul său. Doar șase puncte pentru a completa acest gigant blând. Încurajează un final încrezător și amplu: balena merită o concluzie grandioasă.",
-            "fact": "Coada unei balene albastre poate ajunge până la 7,6 metri în lățime — mai lată decât multe case. Fiecare mișcare descendentă a acestor cozi propulsează balena înainte cu o viteză de până la 32 de kilometri pe oră, în rafale scurte. Cântecul balenei — produs fără corzi vocale — poate călători peste 1.600 de kilometri prin apele adânci ale oceanului. Aceste animale sunt extraordinare în aproape toate modurile imaginabile."
+            "q": "Care este un fapt amuzant despre balenă?",
+            "a": "Balenele albastre sunt cele mai mari animale cunoscute care au trăit vreodată pe Pământ! Copiii descoperă lucruri de acest gen în timp ce completează puzzle-ul punct cu punct cu balene."
           }
         ],
-        "outro": "Tocmai ai desenat cel mai mare animal de pe Pământ — bravo! Acest puzzle se potrivește de minune cu o conversație despre conservarea oceanelor. Balenele au fost vânate aproape până la dispariție în secolul trecut și acum își revin încet. Copiii care iubesc balenele astăzi sunt exact genul de oameni care le vor proteja mâine. Pentru mai multe pagini pregătite pentru clasă, consultați <a href=\"/playgrounds/\">fișele noastre de lucru cu puncte</a>.",
-        "color_schemes": []
+        "dot_guide": {
+          "intro": "Balena este cel mai mare animal care a existat vreodată pe planeta noastră - mai mare decât orice dinozaur, mai mare decât orice a trăit vreodată pe uscat. Și totuși, în ciuda dimensiunilor lor enorme, balenele sunt creaturi blânde, inteligente, profund sociale, care cântă una alteia pe sute de kilometri de ocean deschis. Acest puzzle cu 42 de puncte surprinde acea calitate pașnică și liniștită. Respiră adânc, găsește punctul 1 și plonjează!",
+          "sections": [
+            {
+              "range": "1–8",
+              "title": "Capul și gura",
+              "learn": "Începeți de la punctul 1 și conectați până la punctul 8 pentru a desena capul lat și rotunjit al balenei și curba blândă a gurii. Balenele au unele dintre cele mai pașnice forme de capete din natură - nu se văd dinți ascuțiți, nu există o expresie feroce. Copiii exersează aici curbe largi și lente, potrivindu-se cu caracterul liniștit al balenei.",
+              "fact": "Inima unei balene albastre are aproximativ dimensiunea unei mașini mici - aproximativ 180 kg - și bate doar de 8 până la 10 ori pe minut atunci când balena se scufundă. Când iese la suprafață, inima accelerează până la 25-37 de bătăi pe minut. Este cea mai mare inimă dintre toate animalele cunoscute vreodată pe Pământ - cu adevărat incredibilă!"
+            },
+            {
+              "range": "9–18",
+              "title": "Spatele și aripioarele dorsale",
+              "learn": "Continuați de la punctul 9 la punctul 18 pentru a trasa spatele lung și neted și înotătoarea dorsală mică. Comparativ cu înotătoarea înaltă a unui delfin, înotătoarea dorsală a unei balene albastre este minusculă - copiii comentează adesea acest lucru, ceea ce declanșează o discuție plăcută despre motivul pentru care diferite animale au trăsături diferite. Mișcările lungi și fluide funcționează cel mai bine pentru această curbă ușoară.",
+              "fact": "Pielea balenelor prezintă modele unice de cicatrici, pete și marcaje - atât de distinctive încât oamenii de știință pot identifica balene individuale doar din fotografii. Unele balene, studiate îndelung, au fost urmărite timp de peste 30 de ani. Cunoaștem balenele individuale după nume, personalitate și istoric familial. Acesta este un lucru remarcabil."
+            },
+            {
+              "range": "19–30",
+              "title": "Burta și corpul",
+              "learn": "Trasați punctele de la 19 la 30 pentru a completa burta enormă și a completa forma corpului principal. Partea inferioară a balenei este adesea de o culoare mai deschisă decât spatele - o formă de camuflaj numită contraumbră, comună la animalele oceanice. Copiii exersează aici cea mai lungă secțiune a puzzle-ului, dezvoltându-și o adevărată concentrare și rezistență.",
+              "fact": "O balenă albastră poate mânca până la patru tone de krill — niște creaturi minuscule asemănătoare creveților — într-o singură zi. Face acest lucru aruncându-se într-un roi cu gura deschisă, înghițind o cantitate enormă de apă, apoi împingând apa afară prin plăci de fanoane, în timp ce krillul rămâne prins înăuntru. O tehnică elegantă și străveche."
+            },
+            {
+              "range": "31–36",
+              "title": "Înotătoarele",
+              "learn": "Unește punctele 31 cu 36 pentru a desena înotătoarele lungi, în formă de paletă. Înotătoarele balenei conțin aceleași oase ca o mână și un braț uman - cinci oase ale degetelor, o încheietură și un braț superior - doar remodelate de-a lungul a milioane de ani pentru viața în ocean. Copiilor le place să descopere acest lucru atunci când le arăți în mijlocul puzzle-ului.",
+              "fact": "În interiorul înotătoarei unei balene se află aceleași oase pe care le aveți în propria mână - degetul mare, degetele, încheietura mâinii și tot ce există. Strămoșii balenelor au mers pe uscat acum aproximativ 50 de milioane de ani, iar înotătoarea este ceea ce au devenit acele picioare în timp. Evoluția este, în esență, un sculptor foarte lent și foarte răbdător."
+            },
+            {
+              "range": "37–42",
+              "title": "Trematodele cozii",
+              "learn": "Termină puzzle-ul unind punctele 37 până la 42 pentru a desena aripioarele cozii late - cea mai puternică structură din regnul animal în raport cu scopul său. Doar șase puncte pentru a completa acest gigant blând. Încurajează un final încrezător și amplu: balena merită o concluzie grandioasă.",
+              "fact": "Coada unei balene albastre poate ajunge până la 7,6 metri în lățime — mai lată decât multe case. Fiecare mișcare descendentă a acestor cozi propulsează balena înainte cu o viteză de până la 32 de kilometri pe oră, în rafale scurte. Cântecul balenei — produs fără corzi vocale — poate călători peste 1.600 de kilometri prin apele adânci ale oceanului. Aceste animale sunt extraordinare în aproape toate modurile imaginabile."
+            }
+          ],
+          "outro": "Tocmai ai desenat cel mai mare animal de pe Pământ — bravo! Acest puzzle se potrivește de minune cu o conversație despre conservarea oceanelor. Balenele au fost vânate aproape până la dispariție în secolul trecut și acum își revin încet. Copiii care iubesc balenele astăzi sunt exact genul de oameni care le vor proteja mâine. Pentru mai multe pagini pregătite pentru clasă, consultați <a href=\"/playgrounds/\">fișele noastre de lucru cu puncte</a>.",
+          "color_schemes": []
+        }
       }
-    }
-  },
-  {
-    "slug": "jellyfish-dot-to-dot-puzzle",
-    "header": {
-      "title": "Meduză de Unit Puncte: o Fișă cu 88 de Puncte, Pas Înainte",
-      "meta_description": "Această fișă cu 88 de puncte în care apare o meduză este un pas spre jocurile noastre mai complexe de unit puncte, gândită pentru copiii de 6-9 ani pregătiți pentru mai multe detalii. Fără creier, fără inimă, fără oase — și totuși meduzele plutesc de 500 de milioane de ani. Imprimă PDF-ul gratuit și conturează acest supraviețuitor. Pasul următor după cele cinci fișe ușoare.",
-      "og": {
+    },
+    {
+      "slug": "jellyfish-dot-to-dot-puzzle",
+      "header": {
         "title": "Meduză de Unit Puncte: o Fișă cu 88 de Puncte, Pas Înainte",
-        "description": "Această fișă cu 88 de puncte în care apare o meduză este un pas spre jocurile noastre mai complexe de unit puncte, gândită pentru copiii de 6-9 ani pregătiți pentru mai multe detalii. Fără creier, fără inimă, fără oase — și totuși meduzele plutesc de 500 de milioane de ani. Imprimă PDF-ul gratuit și conturează acest supraviețuitor. Pasul următor după cele cinci fișe ușoare.",
-        "image_alt": "Meduză plutind cu tentacule lungi, conturată din 88 de puncte, previzualizare fișă de tipărit"
+        "meta_description": "Această fișă cu 88 de puncte în care apare o meduză este un pas spre jocurile noastre mai complexe de unit puncte, gândită pentru copiii de 6-9 ani pregătiți pentru mai multe detalii. Fără creier, fără inimă, fără oase — și totuși meduzele plutesc de 500 de milioane de ani. Imprimă PDF-ul gratuit și conturează acest supraviețuitor. Pasul următor după cele cinci fișe ușoare.",
+        "og": {
+          "title": "Meduză de Unit Puncte: o Fișă cu 88 de Puncte, Pas Înainte",
+          "description": "Această fișă cu 88 de puncte în care apare o meduză este un pas spre jocurile noastre mai complexe de unit puncte, gândită pentru copiii de 6-9 ani pregătiți pentru mai multe detalii. Fără creier, fără inimă, fără oase — și totuși meduzele plutesc de 500 de milioane de ani. Imprimă PDF-ul gratuit și conturează acest supraviețuitor. Pasul următor după cele cinci fișe ușoare.",
+          "image_alt": "Meduză plutind cu tentacule lungi, conturată din 88 de puncte, previzualizare fișă de tipărit"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Meduze",
+          "description": "Această fișă cu 88 de puncte în care apare o meduză este un pas spre jocurile noastre mai complexe de unit puncte, gândită pentru copiii de 6-9 ani pregătiți pentru mai multe detalii. Fără creier, fără inimă, fără oase — și totuși meduzele plutesc de 500 de milioane de ani. Imprimă PDF-ul gratuit și conturează acest supraviețuitor. Pasul următor după cele cinci fișe ușoare.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
       },
-      "json_ld": {
-        "type": "CreativeWork",
+      "body": {
+        "h1": "Meduză Conectează Punctele: un PDF de Tipărit cu 88 de Puncte",
         "name": "Meduze",
-        "description": "Această fișă cu 88 de puncte în care apare o meduză este un pas spre jocurile noastre mai complexe de unit puncte, gândită pentru copiii de 6-9 ani pregătiți pentru mai multe detalii. Fără creier, fără inimă, fără oase — și totuși meduzele plutesc de 500 de milioane de ani. Imprimă PDF-ul gratuit și conturează acest supraviețuitor. Pasul următor după cele cinci fișe ușoare.",
-        "image": "",
-        "educational_use": "Fine motor skills, number sequencing",
-        "age_range": ""
-      }
-    },
-    "body": {
-      "h1": "Meduză Conectează Punctele: un PDF de Tipărit cu 88 de Puncte",
-      "name": "Meduze",
-      "tagline": "O minune oceanică în derivă",
-      "description": "Conectează 88 de puncte pentru a dezvălui o meduză grațioasă plutind prin mare. Acest puzzle puțin mai mare este un pas excelent pentru copiii cu vârste între 6-9 ani care sunt pregătiți pentru puncte suplimentare și o practică mai detaliată a secvențierii numerelor.",
-      "fun_fact": "Meduzele nu au creier, inimă și oase - și totuși au supraviețuit peste 500 de milioane de ani!",
-      "dot_guide": {
-        "intro": "Meduzele se numără printre cele mai ciudate și mai vechi animale din ocean - pluteau în derivă prin mări cu mult înainte ca dinozaurii să umble vreodată pe pământ și cu mult înainte ca peștii sau chiar oasele să existe. Fără creier, fără inimă și fără sânge, ele sunt dovada vie că natura nu are nevoie de complexitate pentru a reuși. ​​Acest puzzle cu 88 de puncte este un pas înainte satisfăcător pentru copiii mai mari, pregătiți pentru o provocare și mai mare. Găsiți punctul 1 și haideți să începem să plutim în derivă!",
-        "sections": [
+        "tagline": "O minune oceanică în derivă",
+        "description": "Conectează 88 de puncte pentru a dezvălui o meduză grațioasă plutind prin mare. Acest puzzle puțin mai mare este un pas excelent pentru copiii cu vârste între 6-9 ani care sunt pregătiți pentru puncte suplimentare și o practică mai detaliată a secvențierii numerelor.",
+        "fun_fact": "Meduzele nu au creier, inimă și oase - și totuși au supraviețuit peste 500 de milioane de ani!",
+        "faqs": [
           {
-            "range": "1–18",
-            "title": "Clopotul",
-            "learn": "Începeți de la punctul 1 și conectați-vă la punctul 18 pentru a trasa clopotul rotunjit, în formă de cupolă - corpul principal al meduzei. Aceasta este cea mai mare secțiune a puzzle-ului și o ocazie excelentă de a exersa curbe netede și largi fără a ridica creionul. Încurajați mișcările lente și constante pentru a menține forma cupolei frumoasă și uniformă.",
-            "fact": "Clopotul meduzelor nu reprezintă doar forma corpului - ci și modul în care se mișcă animalul. Prin contractarea și relaxarea clopotului ca o umbrelă care pulsează, meduza împinge apa în spatele ei și se propulsează înainte. Este una dintre cele mai vechi și mai simple forme de mișcare din regnul animal și încă funcționează perfect și după 500 de milioane de ani."
+            "q": "Câte puncte are puzzle-ul punct cu punct cu Meduza?",
+            "a": "Puzzle-ul imprimabil cu meduze, unește punctele, are 88 de puncte numerotate. Asta îl face un puzzle mediu, potrivit pentru vârstele de 6-9 ani (clasele I-III). Copiii unesc punctele în ordinea numerică pentru a dezvălui imaginea finalizată cu meduza, apoi o colorează."
           },
           {
-            "range": "19–40",
-            "title": "Franjurile și volanurile",
-            "learn": "Continuați de la punctul 19 la punctul 40 pentru a desena marginea ondulată și încrețită din jurul bazei clopotului. Această secțiune are o mulțime de curbe mici apropiate una de cealaltă, ceea ce este un exercițiu excelent pentru găsirea atentă și răbdătoare a punctelor - o provocare bună pentru copiii care depășesc cele mai ușoare puzzle-uri.",
-            "fact": "Unele specii de meduze își pot produce propria lumină printr-o reacție chimică numită bioluminescență. În adâncurile oceanului întunecat, o meduză strălucitoare poate arăta ca un felinar plutitor - o modalitate frumoasă fie de a atrage prada, fie de a speria un prădător, în funcție de specie."
+            "q": "Este gratuit modelul Jellyfish punct cu punct imprimabil?",
+            "a": "Da. Fișa de lucru cu meduze poate fi descărcată 100% gratuit de pe DotToDotFreePrintables.com — nu este necesar un cont, un e-mail sau o plată. Se descarcă instantaneu ca PDF gata de imprimare, atât în ​​orientare portret, cât și peisaj, dimensionată pentru hârtie Letter SUA sau A4."
           },
           {
-            "range": "41–62",
-            "title": "Tentaculele care se târăsc",
-            "learn": "Trasați punctele de la 41 la 62 pentru a desena tentaculele lungi și târâtoare care plutesc sub clopot. Aceste linii sunt mai lungi și mai lejere decât secțiunile anterioare, așa că încurajați copiii să le deseneze cu o mână relaxată, aproape ca și cum creionul în sine ar pluti în apă.",
-            "fact": "Tentaculele unei meduzele cutie conțin unele dintre cele mai puternice veninuri din întregul regn animal, folosite pentru a ameți instantaneu peștii mici și creveții. Majoritatea meduzelor, însă, sunt inofensive pentru oameni - doar o mică parte din specii pot produce o înțepătură de care oamenii ar trebui să-și facă griji."
+            "q": "Pentru ce vârstă este cea mai potrivită fișă de lucru cu punctele „Meduze”?",
+            "a": "Cu 88 de puncte, puzzle-ul Meduzelor este potrivit pentru vârstele cu vârste cuprinse între 6 și 9 ani (clasele I-III). Copiii mai mici se pot bucura de el cu ajutorul unui adult, în timp ce numărătorii încrezători îl pot completa independent și pot exersa secvențierea numerelor până la 88."
           },
           {
-            "range": "63–80",
-            "title": "Brațele orale",
-            "learn": "Conectați punctele 63 cu 80 pentru a adăuga brațele orale mai scurte și mai crețoase din apropierea centrului meduzei, care ajută la ghidarea hranei spre gura sa. Această secțiune recompensează o atenție sporită, deoarece liniile sunt așezate una lângă alta. Un ritm mai lent aici duce la cele mai curate rezultate.",
-            "fact": "Meduzele nu au gură și ieșire separată — mâncarea intră, iar deșeurile ies prin aceeași deschidere. Poate părea neobișnuit, dar este un design minunat de eficient, care nu a necesitat îmbunătățiri de o jumătate de miliard de ani."
+            "q": "Ce abilități predau puzzle-ul Jellyfish punct-cu-punct?",
+            "a": "Conectarea celor 88 de puncte ale puzzle-ului Meduzelor dezvoltă recunoașterea numerelor și numărarea până la 88, controlul creionului, coordonarea mână-ochi și concentrarea susținută - aceleași fundamente ale motricității fine care susțin scrisul de mână timpuriu. Colorarea imaginii finalizate adaugă o recompensă creativă."
           },
           {
-            "range": "81–88",
-            "title": "Firele finale",
-            "learn": "Termină puzzle-ul conectând punctele 81 până la 88 pentru a completa ultimele fire plutitoare de sub tentacule. Doar opt puncte până la linia de sosire - o modalitate calmă și blândă de a completa un puzzle mai mare. Respiră adânc și lasă liniile finale să se așeze natural la locul lor.",
-            "fact": "Meduzele se găsesc în fiecare ocean de pe Pământ, de la apele calde de suprafață din apropierea ecuatorului până la adâncimile înghețate din apropierea polilor. Unele specii au fost găsite chiar și la peste 3.600 de metri sub suprafață, plutind în tăcere în întuneric complet."
+            "q": "Care este un fapt amuzant despre meduze?",
+            "a": "Meduzele nu au creier, inimă și oase - și totuși au supraviețuit peste 500 de milioane de ani! Copiii descoperă lucruri de genul acesta în timp ce completează puzzle-ul Meduzele, desenând puncte cu puncte."
           }
         ],
-        "outro": "Treabă minunată — meduza ta e gata să plutească în derivă! Acest puzzle se potrivește frumos cu o conversație despre cum unele dintre cele mai vechi animale de pe Pământ sunt și printre cele mai simple. Colorează-ți meduzele în nuanțe translucide de albastru, violet sau roz pentru o strălucire realistă sau alege-le îndrăznețe și vii — în orice caz, va arăta uimitor. Ești gata pentru următoarea provocare? Răsfoiește mai multe <a href=\"/ocean/\">planșe imprimabile punct cu punct 1-100</a> din adâncuri.",
-        "color_schemes": []
+        "dot_guide": {
+          "intro": "Meduzele se numără printre cele mai ciudate și mai vechi animale din ocean - pluteau în derivă prin mări cu mult înainte ca dinozaurii să umble vreodată pe pământ și cu mult înainte ca peștii sau chiar oasele să existe. Fără creier, fără inimă și fără sânge, ele sunt dovada vie că natura nu are nevoie de complexitate pentru a reuși. ​​Acest puzzle cu 88 de puncte este un pas înainte satisfăcător pentru copiii mai mari, pregătiți pentru o provocare și mai mare. Găsiți punctul 1 și haideți să începem să plutim în derivă!",
+          "sections": [
+            {
+              "range": "1–18",
+              "title": "Clopotul",
+              "learn": "Începeți de la punctul 1 și conectați-vă la punctul 18 pentru a trasa clopotul rotunjit, în formă de cupolă - corpul principal al meduzei. Aceasta este cea mai mare secțiune a puzzle-ului și o ocazie excelentă de a exersa curbe netede și largi fără a ridica creionul. Încurajați mișcările lente și constante pentru a menține forma cupolei frumoasă și uniformă.",
+              "fact": "Clopotul meduzelor nu reprezintă doar forma corpului - ci și modul în care se mișcă animalul. Prin contractarea și relaxarea clopotului ca o umbrelă care pulsează, meduza împinge apa în spatele ei și se propulsează înainte. Este una dintre cele mai vechi și mai simple forme de mișcare din regnul animal și încă funcționează perfect și după 500 de milioane de ani."
+            },
+            {
+              "range": "19–40",
+              "title": "Franjurile și volanurile",
+              "learn": "Continuați de la punctul 19 la punctul 40 pentru a desena marginea ondulată și încrețită din jurul bazei clopotului. Această secțiune are o mulțime de curbe mici apropiate una de cealaltă, ceea ce este un exercițiu excelent pentru găsirea atentă și răbdătoare a punctelor - o provocare bună pentru copiii care depășesc cele mai ușoare puzzle-uri.",
+              "fact": "Unele specii de meduze își pot produce propria lumină printr-o reacție chimică numită bioluminescență. În adâncurile oceanului întunecat, o meduză strălucitoare poate arăta ca un felinar plutitor - o modalitate frumoasă fie de a atrage prada, fie de a speria un prădător, în funcție de specie."
+            },
+            {
+              "range": "41–62",
+              "title": "Tentaculele care se târăsc",
+              "learn": "Trasați punctele de la 41 la 62 pentru a desena tentaculele lungi și târâtoare care plutesc sub clopot. Aceste linii sunt mai lungi și mai lejere decât secțiunile anterioare, așa că încurajați copiii să le deseneze cu o mână relaxată, aproape ca și cum creionul în sine ar pluti în apă.",
+              "fact": "Tentaculele unei meduzele cutie conțin unele dintre cele mai puternice veninuri din întregul regn animal, folosite pentru a ameți instantaneu peștii mici și creveții. Majoritatea meduzelor, însă, sunt inofensive pentru oameni - doar o mică parte din specii pot produce o înțepătură de care oamenii ar trebui să-și facă griji."
+            },
+            {
+              "range": "63–80",
+              "title": "Brațele orale",
+              "learn": "Conectați punctele 63 cu 80 pentru a adăuga brațele orale mai scurte și mai crețoase din apropierea centrului meduzei, care ajută la ghidarea hranei spre gura sa. Această secțiune recompensează o atenție sporită, deoarece liniile sunt așezate una lângă alta. Un ritm mai lent aici duce la cele mai curate rezultate.",
+              "fact": "Meduzele nu au gură și ieșire separată — mâncarea intră, iar deșeurile ies prin aceeași deschidere. Poate părea neobișnuit, dar este un design minunat de eficient, care nu a necesitat îmbunătățiri de o jumătate de miliard de ani."
+            },
+            {
+              "range": "81–88",
+              "title": "Firele finale",
+              "learn": "Termină puzzle-ul conectând punctele 81 până la 88 pentru a completa ultimele fire plutitoare de sub tentacule. Doar opt puncte până la linia de sosire - o modalitate calmă și blândă de a completa un puzzle mai mare. Respiră adânc și lasă liniile finale să se așeze natural la locul lor.",
+              "fact": "Meduzele se găsesc în fiecare ocean de pe Pământ, de la apele calde de suprafață din apropierea ecuatorului până la adâncimile înghețate din apropierea polilor. Unele specii au fost găsite chiar și la peste 3.600 de metri sub suprafață, plutind în tăcere în întuneric complet."
+            }
+          ],
+          "outro": "Treabă minunată — meduza ta e gata să plutească în derivă! Acest puzzle se potrivește frumos cu o conversație despre cum unele dintre cele mai vechi animale de pe Pământ sunt și printre cele mai simple. Colorează-ți meduzele în nuanțe translucide de albastru, violet sau roz pentru o strălucire realistă sau alege-le îndrăznețe și vii — în orice caz, va arăta uimitor. Ești gata pentru următoarea provocare? Răsfoiește mai multe <a href=\"/ocean/\">planșe imprimabile punct cu punct 1-100</a> din adâncuri.",
+          "color_schemes": []
+        }
       }
     }
-  }
-]
+  ]
+}

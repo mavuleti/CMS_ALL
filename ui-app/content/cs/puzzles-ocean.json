@@ -1,231 +1,490 @@
-[
-  {
-    "slug": "mermaid-dot-to-dot-puzzle",
-    "name": "Mořská panna",
-    "seoH1": "Mořská panna spoj tečky — Magických 54 teček zdarma k tisku",
-    "tagline": "Kouzelné podmořské dobrodružství",
-    "description": "Spoj tečky, abys odhalil krásnou mořskou pannu klouzající se oceánem. Tento snadný 54-tečkový hlavolam je ideální pro mladé učící se, kteří procvičují sekvencování čísel a užívají si kousek podvodní magie.",
-    "seoDescription": "Příběhy o mořských pannách sahají více než 3 000 let do minulosti. Odhal kouzelnou plavkyni napříč 54 tečkami s tímto zdarma tisknutelným PDF pro děti ve věku 5–8 let.",
-    "funFact": "Mořské panny se objevují v folklóru od starověké Asýrie – před více než 3 000 lety!",
-    "seoImageAlt": "Mořská panna plovoucí pod hladinou, ocas nakreslený z 54 tisknutelných teček",
-    "dotGuide": {
-      "intro": "Mořské panny uchvacují dětskou představivost po tisíce let – od starověkých asyrských moří až po pohádky Hanse Christiana Andersena. Toto krásné puzzle s 54 tečkami zobrazuje půvabnou siluetu mořské panny, která se vznáší v hlubinách. Je to skvělé puzzle pro klidné a soustředěné chvíle – ideální pro deštivé odpoledne nebo klidnou <a href=\"/playgrounds/\">aktivitu ve třídě pro děti</a>. Najděte tečku 1 a nechte kouzla začít!",
-      "sections": [
-        {
-          "range": "1–9",
-          "title": "Obličej a vlasy",
-          "learn": "Začněte u bodu 1 a propojte jej s bodem 9, abyste obkreslili obličej mořské panny a splývavé linie jejích vlasů. Obličeje se vyznačují jemnými, zaoblenými křivkami – je to příjemné rozcvičení, které vám pomůže budovat sebevědomí při práci s tužkou před většími tvary, které vás čekají. Povzbuďte děti, aby mírně zvedly zápěstí a nechaly tužku klouzat.",
-          "fact": "Legendy o mořských pannách se objevovaly nezávisle na sobě v kulturách po celém světě – od západoafrických vodních duchů přes japonské Ningyo až po starověké řecké mořské nymfy Nereidy. Myšlenka bytostí napůl lidských a napůl rybích se zdá být něčím, k čemu lidská fantazie neustále dospívá, ať už se jedná o oceán."
-        },
-        {
-          "range": "10–22",
-          "title": "Paže a horní část těla",
-          "learn": "Pokračujte od bodu 10 k bodu 22 a nakreslete paže a trup. Děti si zde procvičují symetrii a přirozené křivky lidské postavy – tato část se obzvláště dobře hodí k zábavnému a nenáročnému vysvětlení tělesných proporcí. Lehký, plynulý tah dosáhne nejelegantnějšího výsledku.",
-          "fact": "Nejslavnější příběh o mořské panně v anglicky mluvící kultuře – Malá mořská víla – napsal Hans Christian Andersen v roce 1837. Původní pohádka se od animovaného filmu značně liší: je mnohem hořkosladší a má se zamyslet nad obětí, touhou a tím, co znamená mít duši."
-        },
-        {
-          "range": "23–36",
-          "title": "Pas a váhy",
-          "learn": "Obkreslete body 23 až 36 pro střední část, kde lidská postava přechází do rybího ocasu – nejvýraznější mořské panny na celé kresbě. Děti se učí sledovat tvar, který se zužuje a pak se opět rozšiřuje. Tato střední část odměňuje trpělivost a pečlivé hledání teček.",
-          "fact": "Vědci se domnívají, že mýtus o mořské panně mohl částečně pocházet z toho, že námořníci na moři spatřili kapustňáky nebo dugongy. Z dálky může kapustňák vynořující se nadechnout – se svým zaobleným tělem a pádlovitým ocasem – vypadat překvapivě humanoidně. Je to velkorysá interpretace, ale osamělost a vzdálenost dělají s představivostí pozoruhodné věci."
-        },
-        {
-          "range": "37–46",
-          "title": "Rybí ocas",
-          "learn": "Spojte body 37 až 46 a stáhněte dlouhý, elegantní rybí ocas směrem dolů. Toto je nejuspokojivější část skládačky – děti cítí, jak mořská panna nabývá svého konečného, ​​rozpoznatelného tvaru. Dlouhé, plynulé tahy zde fungují krásně. Povzbuďte děti, aby kreslily od ramene, a ne jen od zápěstí.",
-          "fact": "Ve většině pověstí o mořských pannách je ocas popisován jako duhový – třpytivý v mnoha barvách jako mýdlová bublina nebo rybí šupina na slunci. Pokud jde o vybarvování této hádanky, neexistuje špatná odpověď: stříbrná, oceánská modrá, smaragdově zelená nebo všechny tři najednou jsou stejně platné!"
-        },
-        {
-          "range": "47–54",
-          "title": "Ocasní ploutve",
-          "learn": "Dokončete spojením bodů 47 až 54, abyste přidali široké, táhlé ocasní ploutve, které dotvářejí siluetu mořské panny. Do cíle už jen osm bodů – povzbuďte děti, aby se každá z nich počítala, a zakončete sebevědomým, ladným gestem. Ocasní ploutev je tečkou mořské panny!",
-          "fact": "Rybí ocasy se pohybují ze strany na stranu, ale ocasy velryb a delfínů – nazývané ploutve – se pohybují nahoru a dolů. Pokud by mořská panna existovala v reálném životě, vědci se dohadují o tom, který styl ocasu by dával větší smysl pro horní část těla ve tvaru člověka. Odpověď, založená na způsobu pohybu lidských boků, by pravděpodobně zněla, že se pohybuje delfíní ocas nahoru a dolů."
+{
+  "collection": {
+    "header": {
+      "title": "Ocean Dot to Dot Printables for Kids — Free PDF Worksheets",
+      "meta_description": "Free ocean dot to dot printables for kids ages 4-9: mermaids, mermen, seahorses, whales, and jellyfish. Downloadable PDF worksheets loved by families in the USA, UK, and Canada. No account needed — print and start connecting.",
+      "og": {
+        "title": "5 Free Ocean Dot to Dot Printables",
+        "description": "Mermaids, mermen, seahorses, whales, and jellyfish — free dot to dot printables ready to print in a minute.",
+        "image": "/images/mermaid-puzzle.webp"
+      },
+      "json_ld": {
+        "type": "CollectionPage",
+        "name": "Oceán",
+        "description": "Ponořte se do hluboké modři! Spojte tečky a odhalte mořské panny, mořské tvory a oceánská dobrodružství. Všechny pracovní listy si můžete zdarma stáhnout a vytisknout – není potřeba žádný účet.",
+        "image": "/images/mermaid-puzzle.webp",
+        "main_entity": {
+          "type": "ItemList",
+          "item_source": "puzzles"
         }
-      ],
-      "outro": "Skvělé – vaše mořská panna je připravena se potopit! Nyní dejte jejímu ocasu tu nejúžasnější barevnou kombinaci, jakou si dokážete představit. Vystavte ho hrdě na obdiv nebo ho darujte – v obou případech jste vytvořili něco skutečně krásného. Jste připraveni na další? Prohlédněte si další <a href=\"/\">bezplatné tiskoviny s tečkami</a>, které vám pomohou strávit klidné chvíle."
+      },
+      "breadcrumb_json_ld": {
+        "type": "BreadcrumbList",
+        "items": [
+          {
+            "position": 1,
+            "name": "Home",
+            "path": "/"
+          },
+          {
+            "position": 2,
+            "name": "Oceán",
+            "path": "/ocean/"
+          }
+        ]
+      }
     },
-    "seoTitle": "Mořská panna spoj tečky – kouzelných 54 teček zdarma"
+    "body": {
+      "h1": "Tisknutelné materiály Ocean s tečkami pro děti",
+      "name": "Oceán",
+      "tagline": "Proč děti milují oceánské hádanky s tečkami",
+      "description": "Ponořte se do hluboké modři! Spojte tečky a odhalte mořské panny, mořské tvory a oceánská dobrodružství. Všechny pracovní listy si můžete zdarma stáhnout a vytisknout – není potřeba žádný účet.",
+      "hero_image": "/images/mermaid-puzzle.webp",
+      "slug": "ocean",
+      "faqs": [
+        {
+          "q": "Kolik existuje bezplatných tiskovin s motivem oceánu tečka po tečce?",
+          "a": "Kategorie Oceán aktuálně nabízí 5 bezplatných tisknutelných šablon s metodou spojování teček o velikosti od 35 do 88 bodů. Každý pracovní list se okamžitě stáhne jako PDF připravený k tisku (Letter nebo A4, na výšku nebo na šířku) bez nutnosti registrace."
+        },
+        {
+          "q": "Dají se oceánské puntíky s tečkami zdarma vytisknout?",
+          "a": "Ano – všech 5 puzzle z kolekce Ocean je zcela zdarma pro domácí i školní použití. Na DotToDotFreePrintables.com není nikdy vyžadován žádný účet, e-mail ani platba."
+        },
+        {
+          "q": "Pro jaký věk jsou oceánské hádanky určeny?",
+          "a": "S počtem bodů od 35 do 88 je kolekce Ocean určena zhruba pro věk 4–12 let. Nižší počet bodů zvolte pro předškoláky a mateřské školy a vyšší počet pro sebevědomé počítání ve 2.–6. ročníku."
+        },
+        {
+          "q": "Jaké oceánské puntíky si můžu vytisknout?",
+          "a": "Pět oceánských obrázků k vytisknutí zdarma: Velryba (42 bodů), Mořský koník (35 bodů), Medúza (88 bodů), Mořská panna (54 bodů) a Mořský muž (44 bodů). Mořský koník je vhodný pro nejmladší hádankáře; medúza je výzvou celé kolekce."
+        }
+      ]
+    }
   },
-  {
-    "slug": "merman-dot-to-dot-puzzle",
-    "name": "Mořský muž",
-    "seoH1": "Mořský muž spoj tečky pro předškoláky: 44 snadných teček, zdarma",
-    "tagline": "Král hlubin",
-    "description": "Spoj tečky, abys odhalil nádherného mořského muže vystupujícího z hlubin oceánu! S 44 snadnými tečkami je tento hlavolam ideální pro děti v předškolním a mateřském věku, které procvičují sekvencování čísel a objevují podvodní fantazii.",
-    "seoDescription": "Sleduj 44 teček, abys přivedl mytologického mořského muže z vln. Toto zdarma PDF spoj teček nabízí přístupnou oceánskou aktivitu pro děti ve věku 4–7 let.",
-    "funFact": "Mužští merfolci (mořští muži) se objevují v mytologii po celém světě – od starověkého Řecka až po Karibik!",
-    "seoImageAlt": "Mořský muž vynořující se z vln podél 44 teček na pracovním listu pro školku",
-    "dotGuide": {
-      "intro": "Mořští muži jsou mocní a tajemní králové hlubin oceánu – objevují se v mýtech od starověkého Řecka po Karibik, od západní Afriky po pobřeží Skotska. Často jsou zobrazováni jako nelítostní vládci moře a cítí se stejně dobře v tichých lagunách i v burácejících bouřích. Tato 44bodová hádanka je krásnou a snadno zvládnutelnou výzvou pro mladší děti. Vezměte si tužku a seznamte se s králem hlubin!",
-      "sections": [
-        {
-          "range": "1–8",
-          "title": "Hlava a obličej",
-          "learn": "Začněte u bodu 1 a propojte jej s bodem 8, abyste načrtli silný a hrdý obličej mořského muže. Tato úvodní část využívá jemné křivky a pomáhá dětem zvyknout si na rytmus skládačky. Počítání jednotlivých bodů nahlas je skvělý způsob, jak se rodiče a pečovatelé mohou zapojit od samého začátku.",
-          "fact": "Ve starověké řecké mytologii byl mořský bůh Poseidón (v římské mytologii Neptun) často zobrazován jako mocná postava podobná mořskému muži, vládnoucí oceánům s trojzubcem. Jeho syn Triton byl pravý mořský muž – napůl člověk, napůl ryba – který dokázal uklidnit nebo vyvolat bouře troubením na svou lasturovou trubku."
+  "puzzles": [
+    {
+      "slug": "mermaid-dot-to-dot-puzzle",
+      "header": {
+        "title": "Mořská panna spoj tečky – kouzelných 54 teček zdarma",
+        "meta_description": "Příběhy o mořských pannách sahají více než 3 000 let do minulosti. Odhal kouzelnou plavkyni napříč 54 tečkami s tímto zdarma tisknutelným PDF pro děti ve věku 5–8 let.",
+        "og": {
+          "title": "Mořská panna spoj tečky – kouzelných 54 teček zdarma",
+          "description": "Příběhy o mořských pannách sahají více než 3 000 let do minulosti. Odhal kouzelnou plavkyni napříč 54 tečkami s tímto zdarma tisknutelným PDF pro děti ve věku 5–8 let.",
+          "image_alt": "Mořská panna plovoucí pod hladinou, ocas nakreslený z 54 tisknutelných teček"
         },
-        {
-          "range": "9–18",
-          "title": "Paže a trojzubec",
-          "learn": "Pokračujte od bodu 9 k bodu 18 a nakreslete natažené paže a náznak trojzubce. Děti si procvičují kreslení prodlužujících se tvarů, které vyčnívají z těla ven – což je jiná výzva než kreslení tvarů, které se zakřivují dovnitř. Tato část rozvíjí směrové povědomí a sebevědomé tahy směrem ven.",
-          "fact": "Trojzubec – trojhroté kopí – je v mytologii symbolem námořní síly po tisíce let. Slovo pochází z latinského „tridens“, což znamená tři zuby. Skuteční rybáři v mnoha kulturách používali trojhroté kopí k lovu ryb stejně dlouho, takže tento symbol pravděpodobně vznikl z běžných nástrojů."
-        },
-        {
-          "range": "19–30",
-          "title": "Mocný trup",
-          "learn": "Obkreslete body 19 až 30 a vyplňte tak široký, svalnatý trup. Toto je nejdelší část skládačky a skvělá příležitost k rozvoji trvalé koncentrace – důležité dovednosti ve třídě i doma pro děti ve věku 4 až 7 let. Oslavte dosažení bodu 30 jako milník v polovině.",
-          "fact": "Mořští muži se ve skotském a irském folklóru objevují jako „Modrí muži z Minchů“ – magická mořská stvoření, o nichž se říká, že žijí v průlivu mezi Skotskem a Vnějšími Hebridami. Místní vypravěči si představovali, jak tito modrokoží mořští muži vyzývají proplouvající námořníky k básnické soutěži a nechávají ty nejlepší básníky bezpečně plout dál!"
-        },
-        {
-          "range": "31–38",
-          "title": "Rybí ocas",
-          "learn": "Spojte body 31 až 38, abyste dostali rybí ocas na své místo. Děti v této části vidí, jak se vynořuje plný tvar mořského muže – uspokojivý okamžik, který odměňuje veškeré pečlivé hledání bodů, které předcházelo. Plynulé, sebevědomé tahy směrem dolů dodávají ocasu jeho přirozený pohyb.",
-          "fact": "Karibský mořský bůh Olokun, kterého lze nalézt v jorubské mytologii a původně pochází ze západní Afriky, je mocné oceánské božstvo, někdy zobrazované s rybím ocasem. Olokun představuje hlubiny oceánu – tajemství, bohatství skryté pod vlnami a nevědomé hlubiny lidské mysli. Je to pozoruhodně poetický obraz."
-        },
-        {
-          "range": "39–44",
-          "title": "Ocasní ploutve",
-          "learn": "Dokončete spojením bodů 39 až 44, abyste přidali plynulé ocasní ploutve. Šest bodů dokončete krále hlubin – povzbuďte děti, aby těmto závěrečným čarám dodaly skutečnou sebedůvěru a rozsáhlost. Silný závěr si vždycky zaslouží nadechnout se před zahájením.",
-          "fact": "Mořští muži jsou v irském folklóru někdy nazýváni „Mermen“ nebo „Merrows“ a na rozdíl od mnoha mytologických mořských tvorů byli považováni za obecně přátelské k lidem – občas se přiženili do rybářských rodin a nějakou dobu žili na souši. Oceán v těchto příbězích nebyl místem, kterého se měli bát, ale sousedem, kterého měli respektovat."
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Mořská panna",
+          "description": "Příběhy o mořských pannách sahají více než 3 000 let do minulosti. Odhal kouzelnou plavkyni napříč 54 tečkami s tímto zdarma tisknutelným PDF pro děti ve věku 5–8 let.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
         }
-      ],
-      "outro": "Skvělá práce – váš mořský muž je připraven ovládnout hlubiny! Toto je skvělé puzzle, které můžete spojit s návštěvou knihovny, kde najdete knihy o oceánské mytologii. Příběhy z moře inspirují dětskou fantazii po tisíce let. Prozkoumejte další z našich <a href=\"/ocean/\">tisknutelných šablon 1-100</a> z hlubin."
-    },
-    "seoTitle": "Mořský muž spoj tečky pro školku – 44 snadných teček"
-  },
-  {
-    "slug": "seahorse-dot-to-dot-puzzle",
-    "name": "Mořský koník",
-    "seoH1": "Mořský koník spoj tečky, náš nejjednodušší 35-tečkový oceánský PDF",
-    "tagline": "Malý oceánský rytíř",
-    "description": "Spoj tečky, abys odhalil okouzlujícího mořského koníka plovoucího mořem! S pouhými 35 snadnými tečkami je tento hlavolam ideální pro děti v předškolním a mateřském věku, které budují dovednosti sekvencování čísel s roztomilým oceánským přítelem.",
-    "seoDescription": "Tatínkové mořští koníci nosí své děti. Seznam se s tímto neobvyklým oceánským rodičem v 35 tečkách s zdarma tisknutelným pracovním listem pro děti ve věku 4–7 let.",
-    "funFact": "Mořští koníci jsou jediné ryby, u kterých samec nosí a rodí mláďata!",
-    "seoImageAlt": "Malý mořský koník vztyčený ve vodě, obrys vedený jen 35 tečkami na listu zdarma",
-    "dotGuide": {
-      "intro": "Mořský koník je jedním z nejneobyčejnějších tvorů v celém oceánu – nejen svým vzhledem, ale i způsobem života. Plave vzpřímeně, pohybuje se třepotáním drobné ploutve na hřbetě, svým stočeným ocasem se ukotvuje v mořských řasách a otec je ten, kdo nosí a rodí mláďata. Kdybyste navrhovali zvíře od nuly, nikdy byste si nepředstavovali něco tak úžasně neobvyklého. Pojďme si ho společně nakreslit!",
-      "sections": [
-        {
-          "range": "1–6",
-          "title": "Hlava a čenich",
-          "learn": "Začněte u bodu 1 a propojte jej s bodem 6, abyste nakreslili charakteristickou koňskou hlavu a dlouhý trubicovitý čenich mořského koníka. Tato malá část je krásným a snadno zvládnutelným začátkem pro mladší děti – stačí šest teček, abyste si lépe rozuměli, než se pustíte do větších částí. Čenich je jedním z nejneobvyklejších tvarů v živočišné říši.",
-          "fact": "Mořský koník nemá zuby ani žaludek. Nasává drobné krevety a plankton čenichem jako vysavač, a protože potrava jím prochází tak rychle, musí jíst téměř neustále – až 3 000 solných krevet denně. Být mořským koníkem je v podstatě práce na plný úvazek, která se zabývá jídlem."
-        },
-        {
-          "range": "7–16",
-          "title": "Zakřivený krk a hříva",
-          "learn": "Pokračujte od bodu 7 k bodu 16 a obkreslete krásně zakřivený krk a hřeben podél hřbetu – někdy nazývaný hříva mořského koníka. Tato část má nejkrásnější křivku z celé skládačky. Děti se učí sledovat dlouhý, hladký oblouk a pro dosažení nejlepšího výsledku pomalu a rovnoměrně pohybovat tužkou.",
-          "fact": "Mořští koníci jsou skutečně jedny z nejpomalejších ryb v oceánu, pohybují se maximální rychlostí asi pět stop za hodinu. Pro srovnání, zahradní hlemýžď ​​se pohybuje rychleji. Místo pronásledování kořisti se mořský koník spoléhá výhradně na maskování a překvapení – připluje blízko k potravě a pak bleskově udeří."
-        },
-        {
-          "range": "17–26",
-          "title": "Tělesné kroužky",
-          "learn": "Obkreslete body 17 až 26, abyste nakreslili výrazně segmentované tělo – ty vyvýšené kostěné prstence, které vedou od krku k ocasu. Děti se zde učí, že těla zvířat nejsou vždy hladká, a začínají si všímat krásné struktury přirozeného pancíře mořského koníka. Tato část odměňuje pečlivé a záměrné sledování teček.",
-          "fact": "Mořský koník není pokryt šupinami jako většina ryb – místo toho je jeho tělo obaleno kostěnými destičkami uspořádanými do prstenců. Díky tomu je poměrně tuhý, a proto se nemůže vrtět jako většina ryb. V podstatě má na sobě brnění, což z něj dělá jednoho z nejtvrdších malých tvorů v moři, které by predátor mohl spolknout."
-        },
-        {
-          "range": "27–35",
-          "title": "Kroucený ocas",
-          "learn": "Dokončete hádanku spojením bodů 27 až 35 a nakreslete tak dlouhý, stočený ocas, který se táhne pod tělem. Ocas je jedním z nejuspokojivějších tvarů k kreslení – děti si procvičují úzkou, zmenšující se spirálu, která je náročná i velmi obohacující zároveň. Devět bodů do cíle!",
-          "fact": "Ocas mořského koníka je chápavý – to znamená, že se dokáže uchopit věcí, stejně jako ocas opice. Mořští koníci se svými ocasy kotví ke korálům a mořským řasám, aby je neunášely proudy. Během páření si samec a samice omotají ocasy k sobě a unášejí se vodou vedle sebe – což je jeden z nejromantičtějších pohledů v oceánu."
+      },
+      "body": {
+        "h1": "Mořská panna spoj tečky — Magických 54 teček zdarma k tisku",
+        "name": "Mořská panna",
+        "tagline": "Kouzelné podmořské dobrodružství",
+        "description": "Spoj tečky, abys odhalil krásnou mořskou pannu klouzající se oceánem. Tento snadný 54-tečkový hlavolam je ideální pro mladé učící se, kteří procvičují sekvencování čísel a užívají si kousek podvodní magie.",
+        "fun_fact": "Mořské panny se objevují v folklóru od starověké Asýrie – před více než 3 000 lety!",
+        "faqs": [
+          {
+            "q": "Kolik teček má puzzle s tečkami od Mořské panny?",
+            "a": "Tisknutelný obrázek mořské panny s pojmenováním „spojování teček“ má 54 očíslovaných teček. Díky tomu se jedná o snadnou až středně náročnou skládačku, která je nejvhodnější pro věk 5–8 let (mateřská školka až druhá třída). Děti spojují tečky podle číselného pořadí, aby odhalily hotový obrázek mořské panny, a poté ho vybarví."
+          },
+          {
+            "q": "Je mořská panna k vytisknutí zdarma?",
+            "a": "Ano. Pracovní list s mořskou pannou si můžete stáhnout 100% zdarma z DotToDotFreePrintables.com – není vyžadován žádný účet, e-mail ani platba. Stáhne se okamžitě jako PDF připravený k tisku v orientaci na výšku i na šířku, o velikosti papíru US Letter nebo A4."
+          },
+          {
+            "q": "Pro jaký věk je pracovní list s mořskou pannou a spojováním teček nejvhodnější?",
+            "a": "S 54 tečkami je puzzle Mořská panna nejvhodnější pro děti ve věku 5–8 let (od mateřské školy až po druhou třídu). Mladší děti si ho mohou užít s lehkou pomocí dospělého při počítání, zatímco sebevědomější počítadla ho mohou vyřešit samostatně a procvičovat si číselnou řadu až do 54."
+          },
+          {
+            "q": "Jaké dovednosti učí skládačka Mermaid puntíky?",
+            "a": "Spojováním 54 teček v puzzle s mořskou pannou se rozvíjí rozpoznávání čísel a počítání do 54, ovládání tužky, koordinace ruka-oko a trvalé soustředění – stejné základy jemné motoriky, které podporují rané psaní. Vybarvování hotového obrázku je kreativní odměnou."
+          },
+          {
+            "q": "Co je zajímavého o mořské panně?",
+            "a": "Mořské panny se objevují v folklóru již od starověké Asýrie – před více než 3 000 lety! Děti objevují taková fakta při skládání teček s mořskou pannou."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Mořské panny uchvacují dětskou představivost po tisíce let – od starověkých asyrských moří až po pohádky Hanse Christiana Andersena. Toto krásné puzzle s 54 tečkami zobrazuje půvabnou siluetu mořské panny, která se vznáší v hlubinách. Je to skvělé puzzle pro klidné a soustředěné chvíle – ideální pro deštivé odpoledne nebo klidnou <a href=\"/playgrounds/\">aktivitu ve třídě pro děti</a>. Najděte tečku 1 a nechte kouzla začít!",
+          "sections": [
+            {
+              "range": "1–9",
+              "title": "Obličej a vlasy",
+              "learn": "Začněte u bodu 1 a propojte jej s bodem 9, abyste obkreslili obličej mořské panny a splývavé linie jejích vlasů. Obličeje se vyznačují jemnými, zaoblenými křivkami – je to příjemné rozcvičení, které vám pomůže budovat sebevědomí při práci s tužkou před většími tvary, které vás čekají. Povzbuďte děti, aby mírně zvedly zápěstí a nechaly tužku klouzat.",
+              "fact": "Legendy o mořských pannách se objevovaly nezávisle na sobě v kulturách po celém světě – od západoafrických vodních duchů přes japonské Ningyo až po starověké řecké mořské nymfy Nereidy. Myšlenka bytostí napůl lidských a napůl rybích se zdá být něčím, k čemu lidská fantazie neustále dospívá, ať už se jedná o oceán."
+            },
+            {
+              "range": "10–22",
+              "title": "Paže a horní část těla",
+              "learn": "Pokračujte od bodu 10 k bodu 22 a nakreslete paže a trup. Děti si zde procvičují symetrii a přirozené křivky lidské postavy – tato část se obzvláště dobře hodí k zábavnému a nenáročnému vysvětlení tělesných proporcí. Lehký, plynulý tah dosáhne nejelegantnějšího výsledku.",
+              "fact": "Nejslavnější příběh o mořské panně v anglicky mluvící kultuře – Malá mořská víla – napsal Hans Christian Andersen v roce 1837. Původní pohádka se od animovaného filmu značně liší: je mnohem hořkosladší a má se zamyslet nad obětí, touhou a tím, co znamená mít duši."
+            },
+            {
+              "range": "23–36",
+              "title": "Pas a váhy",
+              "learn": "Obkreslete body 23 až 36 pro střední část, kde lidská postava přechází do rybího ocasu – nejvýraznější mořské panny na celé kresbě. Děti se učí sledovat tvar, který se zužuje a pak se opět rozšiřuje. Tato střední část odměňuje trpělivost a pečlivé hledání teček.",
+              "fact": "Vědci se domnívají, že mýtus o mořské panně mohl částečně pocházet z toho, že námořníci na moři spatřili kapustňáky nebo dugongy. Z dálky může kapustňák vynořující se nadechnout – se svým zaobleným tělem a pádlovitým ocasem – vypadat překvapivě humanoidně. Je to velkorysá interpretace, ale osamělost a vzdálenost dělají s představivostí pozoruhodné věci."
+            },
+            {
+              "range": "37–46",
+              "title": "Rybí ocas",
+              "learn": "Spojte body 37 až 46 a stáhněte dlouhý, elegantní rybí ocas směrem dolů. Toto je nejuspokojivější část skládačky – děti cítí, jak mořská panna nabývá svého konečného, ​​rozpoznatelného tvaru. Dlouhé, plynulé tahy zde fungují krásně. Povzbuďte děti, aby kreslily od ramene, a ne jen od zápěstí.",
+              "fact": "Ve většině pověstí o mořských pannách je ocas popisován jako duhový – třpytivý v mnoha barvách jako mýdlová bublina nebo rybí šupina na slunci. Pokud jde o vybarvování této hádanky, neexistuje špatná odpověď: stříbrná, oceánská modrá, smaragdově zelená nebo všechny tři najednou jsou stejně platné!"
+            },
+            {
+              "range": "47–54",
+              "title": "Ocasní ploutve",
+              "learn": "Dokončete spojením bodů 47 až 54, abyste přidali široké, táhlé ocasní ploutve, které dotvářejí siluetu mořské panny. Do cíle už jen osm bodů – povzbuďte děti, aby se každá z nich počítala, a zakončete sebevědomým, ladným gestem. Ocasní ploutev je tečkou mořské panny!",
+              "fact": "Rybí ocasy se pohybují ze strany na stranu, ale ocasy velryb a delfínů – nazývané ploutve – se pohybují nahoru a dolů. Pokud by mořská panna existovala v reálném životě, vědci se dohadují o tom, který styl ocasu by dával větší smysl pro horní část těla ve tvaru člověka. Odpověď, založená na způsobu pohybu lidských boků, by pravděpodobně zněla, že se pohybuje delfíní ocas nahoru a dolů."
+            }
+          ],
+          "outro": "Skvělé – vaše mořská panna je připravena se potopit! Nyní dejte jejímu ocasu tu nejúžasnější barevnou kombinaci, jakou si dokážete představit. Vystavte ho hrdě na obdiv nebo ho darujte – v obou případech jste vytvořili něco skutečně krásného. Jste připraveni na další? Prohlédněte si další <a href=\"/\">bezplatné tiskoviny s tečkami</a>, které vám pomohou strávit klidné chvíle.",
+          "color_schemes": []
         }
-      ],
-      "outro": "Krásná práce – váš mořský koník je hotový! Věděli jste, že mořští koníci se vyskytují ve více než 45 různých druzích, v barvách od zářivě žluté přes tmavě fialovou až po téměř zcela průhlednou? Vybarvěte si toho svého, jak chcete – ve světě mořských koníků je dovoleno cokoli. Hledáte svou další výzvu? Prohlédněte si všechny naše <a href=\"/\">tisknutelné materiály tečka po tečce</a>."
+      }
     },
-    "seoTitle": "Mořský koník spoj tečky – náš nejkratší, jen 35 teček"
-  },
-  {
-    "slug": "whale-dot-to-dot-puzzle",
-    "name": "Velryba",
-    "seoH1": "Velryba spoj tečky k tisku — 42 snadných teček k spojení",
-    "tagline": "Něžný mořský obr",
-    "description": "Spoj 42 snadných teček, abys odhalil nádhernou velrybu plavající oceánem. Tento tisknutelný hlavolam pomáhá dětem v předškolním a mateřském věku procvičovat sekvencování čísel, kontrolu tužky a koncentraci.",
-    "seoDescription": "Největší známá zvířata inspirují tento 42-tečkový hlavolam s velrybou. Stáhni si zdarma tisknutelné PDF pro jemné procvičování počítání ve věku 4–7 let.",
-    "funFact": "Modré velryby jsou největší zvířata, která kdy na Zemi žila!",
-    "seoImageAlt": "Mohutná velryba uprostřed plavání, hřbet vykreslený ze 42 očíslovaných teček",
-    "dotGuide": {
-      "intro": "Velryba je největší zvíře, které kdy na naší planetě existovalo – větší než jakýkoli dinosaurus, větší než cokoli, co kdy žilo na souši. A přesto jsou velryby navzdory své obrovské velikosti laskavými, inteligentními a hluboce společenským tvory, kteří si navzájem zpívají přes stovky mil otevřeného oceánu. Tato 42bodová hádanka zachycuje tuto mírumilovnou a neuspěchanou kvalitu. Zhluboka se nadechněte, najděte bod 1 a ponořte se do toho!",
-      "sections": [
-        {
-          "range": "1–8",
-          "title": "Hlava a ústa",
-          "learn": "Začněte u bodu 1 a propojte jej s bodem 8, abyste nakreslili širokou, zaoblenou hlavu velryby a jemné zakřivení tlamy. Velryby mají jedny z nejmírumilovnějších tvarů hlav v přírodě – nejsou vidět žádné ostré zuby, žádný divoký výraz. Děti si zde procvičují široké, pomalé zakřivení, které odpovídá velrybí pomalé povaze.",
-          "fact": "Srdce modré velryby má zhruba velikost malého auta – váží zhruba 180 kilogramů – a při potápění velryba tluče pouze 8 až 10krát za minutu. Když se vynoří, srdce se zrychlí na 25–37 tepů za minutu. Je to největší srdce ze všech zvířat, která kdy na Zemi existovala – opravdu neuvěřitelné!"
+    {
+      "slug": "merman-dot-to-dot-puzzle",
+      "header": {
+        "title": "Mořský muž spoj tečky pro školku – 44 snadných teček",
+        "meta_description": "Sleduj 44 teček, abys přivedl mytologického mořského muže z vln. Toto zdarma PDF spoj teček nabízí přístupnou oceánskou aktivitu pro děti ve věku 4–7 let.",
+        "og": {
+          "title": "Mořský muž spoj tečky pro školku – 44 snadných teček",
+          "description": "Sleduj 44 teček, abys přivedl mytologického mořského muže z vln. Toto zdarma PDF spoj teček nabízí přístupnou oceánskou aktivitu pro děti ve věku 4–7 let.",
+          "image_alt": "Mořský muž vynořující se z vln podél 44 teček na pracovním listu pro školku"
         },
-        {
-          "range": "9–18",
-          "title": "Zadní a hřbetní ploutev",
-          "learn": "Pokračujte od bodu 9 k bodu 18 a obkreslete dlouhý, hladký hřbet a malou hřbetní ploutev. Ve srovnání s vysokou ploutví delfína je hřbetní ploutev modré velryby drobná – děti to často komentují, což vyvolává krásnou diskusi o tom, proč mají různá zvířata odlišné rysy. Pro tuto jemnou křivku nejlépe vypadají dlouhé, plynulé tahy.",
-          "fact": "Kůže velryb nese jedinečné vzory jizev, skvrn a znaků – tak charakteristické, že vědci dokáží jednotlivé velryby identifikovat pouze z fotografií. Některé velryby byly v dlouhodobých studiích sledovány více než 30 let. Jednotlivé velryby známe podle jména, osobnosti a rodinné historie. To je pozoruhodná věc."
-        },
-        {
-          "range": "19–30",
-          "title": "Břicho a tělo",
-          "learn": "Obkreslete body 19 až 30, abyste vyplnili obrovské břicho a dokončili tvar hlavního těla. Spodní strana velryby má často světlejší barvu než hřbet – jedná se o formu maskování zvanou protistínění, která je běžná u mořských živočichů. Děti si zde procvičují nejdelší část skládačky a budují si skutečnou soustředěnou výdrž.",
-          "fact": "Modrá velryba dokáže za jediný den sníst až čtyři tuny krilu – drobných tvorů podobných krevetám. Dělá to tak, že se s otevřenou tlamou vrhne do hejna, napije obrovské množství vody a poté ji vytlačí přes pláty kostic, zatímco kril zůstane uvězněn uvnitř. Elegantní a starobylá technika."
-        },
-        {
-          "range": "31–36",
-          "title": "Ploutve",
-          "learn": "Spojte body 31 až 36 a nakreslete dlouhé ploutve ve tvaru pádla. Ploutve velrybí obsahují stejné kosti jako lidská ruka a paže – pět kostí prstů, zápěstí a paži – jen se během milionů let pro život v oceánu vytvarovaly. Děti rády objevují tento druh ploutví, když jim na něj ukážete uprostřed hry.",
-          "fact": "Uvnitř velrybí ploutve se nacházejí stejné kosti, jaké máte ve své ruce – palec, prsty, zápěstí a všechno ostatní. Předkové velryb chodili po souši asi před 50 miliony let a ploutev je to, čím se tyto nohy časem staly. Evoluce je v podstatě velmi pomalý a velmi trpělivý sochař."
-        },
-        {
-          "range": "37–42",
-          "title": "Ocasní plazi",
-          "learn": "Dokončete hádanku spojením bodů 37 až 42 a nakreslete tak široké ocasní ploutve – nejmocnější strukturu v živočišné říši vzhledem ke svému účelu. Stačí šest bodů k dokončení tohoto jemného obra. Povzbuďte sebevědomý a rozsáhlý závěr: velryba si zaslouží velkolepý závěr.",
-          "fact": "Ocasní ploutve modré velryby mohou být až 7,6 metru široké – širší než mnoho domů. Každý pohyb těchto ploutví směrem dolů pohání velrybu vpřed rychlostí až 32 kilometrů za hodinu v krátkých dávkách. Zpěv velryby – vydávaný bez jakýchkoli hlasivek – se může v hlubokých oceánských vodách šířit přes 1600 kilometrů. Tato zvířata jsou mimořádná téměř v každém myslitelném ohledu."
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Mořský muž",
+          "description": "Sleduj 44 teček, abys přivedl mytologického mořského muže z vln. Toto zdarma PDF spoj teček nabízí přístupnou oceánskou aktivitu pro děti ve věku 4–7 let.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
         }
-      ],
-      "outro": "Právě jste nakreslili největší zvíře na Zemi – výborně! Tato hádanka se krásně hodí k rozhovoru o ochraně oceánů. Velryby byly v minulém století loveny téměř k vyhynutí a nyní se pomalu zotavují. Děti, které dnes milují velryby, jsou přesně tím typem lidí, kteří je budou zítra chránit. Další stránky vhodné do třídy najdete v našich <a href=\"/playgrounds/\">pracovních listech s tečkami</a>."
-    },
-    "seoTitle": "Velryba spoj tečky – 42 teček k vytisknutí zdarma"
-  },
-  {
-    "slug": "jellyfish-dot-to-dot-puzzle",
-    "name": "Medúza",
-    "seoH1": "Medúza spoj tečky: 88-tečkový tisknutelný krok vpřed",
-    "tagline": "Unášený oceánský zázrak",
-    "description": "Spoj 88 teček, abys odhalil elegantní medúzu unášející se mořem. Tento o něco větší hlavolam je skvělým krokem vpřed pro děti ve věku 6-9 let, které jsou připraveny na další tečky a podrobnější procvičování sekvencování čísel.",
-    "seoDescription": "Medúzy nemají mozek, srdce ani kosti — přesto přežily miliony let. Sleduj 88 teček skrze toto podrobné tisknutelné PDF pro děti ve věku 6–9 let.",
-    "funFact": "Medúzy nemají mozek, srdce ani kosti — přesto přežily více než 500 milionů let!",
-    "seoImageAlt": "Medúza s vlajícími chapadly nakreslená pomocí 88 teček, náhled pracovního listu",
-    "dotGuide": {
-      "intro": "Medúzy patří k nejpodivnějším a nejstarším živočichům v oceánu – unášely se moři dávno předtím, než po Zemi chodili dinosauři, a dávno předtím, než existovaly ryby, nebo dokonce kosti. Bez mozku, srdce a krve jsou živoucím důkazem toho, že příroda k úspěchu nepotřebuje složitost. Tato 88bodová hádanka je uspokojivým krokem vpřed pro starší děti, které jsou připraveny na větší výzvu. Najděte první bod a pojďme se nechat unášet!",
-      "sections": [
-        {
-          "range": "1–18",
-          "title": "Zvon",
-          "learn": "Začněte u bodu 1 a propojte jej s bodem 18, abyste obkreslili zaoblený, kopulovitý zvon – hlavní tělo medúzy. Toto je největší část skládačky a skvělá příležitost procvičit si hladké, široké křivky, aniž byste museli zvedat tužku. Povzbuzujte pomalé a stálé tahy, aby tvar kopule zůstal pěkný a rovnoměrný.",
-          "fact": "Medúzin zvon není jen tvar těla – je to také způsob, jakým se zvíře pohybuje. Stahováním a uvolňováním zvonu podobně jako pulzující deštník medúza vytlačuje vodu za sebou a pohání se vpřed. Je to jedna z nejstarších a nejjednodušších forem pohybu v živočišné říši a stále funguje krásně i o 500 milionů let později."
-        },
-        {
-          "range": "19–40",
-          "title": "Okraje a ozdůbky",
-          "learn": "Pokračujte od bodu 19 k bodu 40 a nakreslete nařasenou, volánkovou hranu kolem základny zvonu. Tato část má spoustu malých křivek blízko sebe, což je skvělý procvičovací prostředek pro pečlivé a trpělivé hledání teček – dobrá výzva pro děti, které se posunou za hranice těch nejjednodušších hádanek.",
-          "fact": "Některé druhy medúz si dokáží vytvářet vlastní světlo chemickou reakcí zvanou bioluminiscence. V hlubokém, tmavém oceánu může zářící medúza vypadat jako plovoucí lucerna – krásný způsob, jak buď přilákat kořist, nebo vylekat predátora, v závislosti na druhu."
-        },
-        {
-          "range": "41–62",
-          "title": "Tažná chapadla",
-          "learn": "Obkreslete body 41 až 62 a nakreslete tak dlouhá, vlečná chapadla, která se vznášejí pod zvonkem. Tyto čáry jsou delší a volnější než předchozí části, proto děti povzbuzujte, aby je kreslily uvolněnou rukou, téměř jako by tužka sama plavala ve vodě.",
-          "fact": "Chapadla medúzy krabičkové obsahují jeden z nejsilnějších jedů v celé živočišné říši, který se používá k okamžitému omráčení malých ryb a krevet. Většina medúz je však pro člověka neškodná – jen hrstka druhů dokáže způsobit bodnutí, kterého by se lidé měli obávat."
-        },
-        {
-          "range": "63–80",
-          "title": "Ústní paže",
-          "learn": "Spojte body 63 až 80 a přidejte kratší, volánkovatější ústní ramena blízko středu medúzy, která pomáhají navádět potravu k jejím ústům. Tato část odměňuje bedlivou pozornost, protože čáry jsou blízko sebe. Pomalejší tempo zde vede k nejčistším výsledkům.",
-          "fact": "Medúzy nemají ústa a samostatný vývod – potrava vstupuje dovnitř a odpad vychází stejným otvorem. Může to znít neobvykle, ale jedná se o úžasně efektivní konstrukci, která za půl miliardy let nepotřebovala žádné vylepšení."
-        },
-        {
-          "range": "81–88",
-          "title": "Poslední koncová vlákna",
-          "learn": "Dokončete hádanku spojením bodů 81 až 88, abyste dokončili posledních několik vláken pod chapadly. Už jen osm bodů do cílové čáry – klidný a jemný způsob, jak dokončit větší hádanku. Nadechněte se a nechte poslední čáry přirozeně zapadat na svá místa.",
-          "fact": "Medúzy se vyskytují v každém oceánu na Zemi, od teplých povrchových vod poblíž rovníku až po mrazivé hlubiny blízko pólů. Některé druhy byly nalezeny dokonce více než 3 600 metrů pod hladinou, jak se tiše vznášejí v naprosté tmě."
+      },
+      "body": {
+        "h1": "Mořský muž spoj tečky pro předškoláky: 44 snadných teček, zdarma",
+        "name": "Mořský muž",
+        "tagline": "Král hlubin",
+        "description": "Spoj tečky, abys odhalil nádherného mořského muže vystupujícího z hlubin oceánu! S 44 snadnými tečkami je tento hlavolam ideální pro děti v předškolním a mateřském věku, které procvičují sekvencování čísel a objevují podvodní fantazii.",
+        "fun_fact": "Mužští merfolci (mořští muži) se objevují v mytologii po celém světě – od starověkého Řecka až po Karibik!",
+        "faqs": [
+          {
+            "q": "Kolik teček má tečka-po-tečce v hádance Merman?",
+            "a": "Tisknutelný obrázek mořského muže s metodou spojování teček má 44 očíslovaných teček. Díky tomu se jedná o snadnou až středně náročnou skládačku, která je nejvhodnější pro věk 5–8 let (mateřská školka až druhá třída). Děti spojují tečky podle číselného pořadí, aby odhalily hotový obrázek mořského muže, a poté ho vybarví."
+          },
+          {
+            "q": "Je Mořský muž tečka po tečce vytisknutelný zdarma?",
+            "a": "Ano. Pracovní list s motivem mořského muže si můžete stáhnout 100% zdarma z DotToDotFreePrintables.com – není vyžadován žádný účet, e-mail ani platba. Stáhne se okamžitě jako PDF soubor připravený k tisku v orientaci na výšku i na šířku, o velikosti papíru US Letter nebo A4."
+          },
+          {
+            "q": "Pro jaký věk je pracovní list s mořskými spojkami nejlepší?",
+            "a": "S 44 tečkami je hlavolam Mořský muž nejvhodnější pro děti ve věku 5–8 let (od mateřské školy až po druhou třídu). Mladší děti si ho mohou užít s lehkou pomocí dospělého při počítání, zatímco sebevědomější počítající děti ho mohou vyřešit samostatně a procvičovat si číselnou řadu až do 44."
+          },
+          {
+            "q": "Jaké dovednosti učí luštění teček od Mořena?",
+            "a": "Spojováním 44 teček v skládačce Mořský muž rozvíjí rozpoznávání čísel a počítání do 44, ovládání tužky, koordinaci ruka-oko a trvalé soustředění – stejné základy jemné motoriky, které podporují rané psaní. Vybarvování hotového obrázku je kreativní odměnou."
+          },
+          {
+            "q": "Co je zajímavého o mořském muži?",
+            "a": "Mužští mermani (mořští lidé) se objevují v mytologii po celém světě – od starověkého Řecka až po Karibik! Děti objevují fakta, jako je tato, při skládání puntíků s mořskými lidmi."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Mořští muži jsou mocní a tajemní králové hlubin oceánu – objevují se v mýtech od starověkého Řecka po Karibik, od západní Afriky po pobřeží Skotska. Často jsou zobrazováni jako nelítostní vládci moře a cítí se stejně dobře v tichých lagunách i v burácejících bouřích. Tato 44bodová hádanka je krásnou a snadno zvládnutelnou výzvou pro mladší děti. Vezměte si tužku a seznamte se s králem hlubin!",
+          "sections": [
+            {
+              "range": "1–8",
+              "title": "Hlava a obličej",
+              "learn": "Začněte u bodu 1 a propojte jej s bodem 8, abyste načrtli silný a hrdý obličej mořského muže. Tato úvodní část využívá jemné křivky a pomáhá dětem zvyknout si na rytmus skládačky. Počítání jednotlivých bodů nahlas je skvělý způsob, jak se rodiče a pečovatelé mohou zapojit od samého začátku.",
+              "fact": "Ve starověké řecké mytologii byl mořský bůh Poseidón (v římské mytologii Neptun) často zobrazován jako mocná postava podobná mořskému muži, vládnoucí oceánům s trojzubcem. Jeho syn Triton byl pravý mořský muž – napůl člověk, napůl ryba – který dokázal uklidnit nebo vyvolat bouře troubením na svou lasturovou trubku."
+            },
+            {
+              "range": "9–18",
+              "title": "Paže a trojzubec",
+              "learn": "Pokračujte od bodu 9 k bodu 18 a nakreslete natažené paže a náznak trojzubce. Děti si procvičují kreslení prodlužujících se tvarů, které vyčnívají z těla ven – což je jiná výzva než kreslení tvarů, které se zakřivují dovnitř. Tato část rozvíjí směrové povědomí a sebevědomé tahy směrem ven.",
+              "fact": "Trojzubec – trojhroté kopí – je v mytologii symbolem námořní síly po tisíce let. Slovo pochází z latinského „tridens“, což znamená tři zuby. Skuteční rybáři v mnoha kulturách používali trojhroté kopí k lovu ryb stejně dlouho, takže tento symbol pravděpodobně vznikl z běžných nástrojů."
+            },
+            {
+              "range": "19–30",
+              "title": "Mocný trup",
+              "learn": "Obkreslete body 19 až 30 a vyplňte tak široký, svalnatý trup. Toto je nejdelší část skládačky a skvělá příležitost k rozvoji trvalé koncentrace – důležité dovednosti ve třídě i doma pro děti ve věku 4 až 7 let. Oslavte dosažení bodu 30 jako milník v polovině.",
+              "fact": "Mořští muži se ve skotském a irském folklóru objevují jako „Modrí muži z Minchů“ – magická mořská stvoření, o nichž se říká, že žijí v průlivu mezi Skotskem a Vnějšími Hebridami. Místní vypravěči si představovali, jak tito modrokoží mořští muži vyzývají proplouvající námořníky k básnické soutěži a nechávají ty nejlepší básníky bezpečně plout dál!"
+            },
+            {
+              "range": "31–38",
+              "title": "Rybí ocas",
+              "learn": "Spojte body 31 až 38, abyste dostali rybí ocas na své místo. Děti v této části vidí, jak se vynořuje plný tvar mořského muže – uspokojivý okamžik, který odměňuje veškeré pečlivé hledání bodů, které předcházelo. Plynulé, sebevědomé tahy směrem dolů dodávají ocasu jeho přirozený pohyb.",
+              "fact": "Karibský mořský bůh Olokun, kterého lze nalézt v jorubské mytologii a původně pochází ze západní Afriky, je mocné oceánské božstvo, někdy zobrazované s rybím ocasem. Olokun představuje hlubiny oceánu – tajemství, bohatství skryté pod vlnami a nevědomé hlubiny lidské mysli. Je to pozoruhodně poetický obraz."
+            },
+            {
+              "range": "39–44",
+              "title": "Ocasní ploutve",
+              "learn": "Dokončete spojením bodů 39 až 44, abyste přidali plynulé ocasní ploutve. Šest bodů dokončete krále hlubin – povzbuďte děti, aby těmto závěrečným čarám dodaly skutečnou sebedůvěru a rozsáhlost. Silný závěr si vždycky zaslouží nadechnout se před zahájením.",
+              "fact": "Mořští muži jsou v irském folklóru někdy nazýváni „Mermen“ nebo „Merrows“ a na rozdíl od mnoha mytologických mořských tvorů byli považováni za obecně přátelské k lidem – občas se přiženili do rybářských rodin a nějakou dobu žili na souši. Oceán v těchto příbězích nebyl místem, kterého se měli bát, ale sousedem, kterého měli respektovat."
+            }
+          ],
+          "outro": "Skvělá práce – váš mořský muž je připraven ovládnout hlubiny! Toto je skvělé puzzle, které můžete spojit s návštěvou knihovny, kde najdete knihy o oceánské mytologii. Příběhy z moře inspirují dětskou fantazii po tisíce let. Prozkoumejte další z našich <a href=\"/ocean/\">tisknutelných šablon 1-100</a> z hlubin.",
+          "color_schemes": []
         }
-      ],
-      "outro": "Skvělá práce – vaše medúza je připravena k unášení! Tato hádanka se krásně hodí k rozhovoru o tom, jak některá z nejstarších zvířat na Zemi patří zároveň k těm nejjednodušším. Vybarvěte medúzu průsvitnou modrou, fialovou nebo růžovou pro realistickou záři, nebo zvolte výrazné a jasné odstíny – v obou případech bude vypadat úžasně. Jste připraveni na další výzvu? Prohlédněte si další <a href=\"/ocean/\">tisknutelné materiály 1-100 od tečky do tečky</a> z hlubin."
+      }
     },
-    "seoTitle": "Medúza spoj tečky – náročnějších 88 teček zdarma"
-  }
-]
+    {
+      "slug": "seahorse-dot-to-dot-puzzle",
+      "header": {
+        "title": "Mořský koník spoj tečky – náš nejkratší, jen 35 teček",
+        "meta_description": "Tatínkové mořští koníci nosí své děti. Seznam se s tímto neobvyklým oceánským rodičem v 35 tečkách s zdarma tisknutelným pracovním listem pro děti ve věku 4–7 let.",
+        "og": {
+          "title": "Mořský koník spoj tečky – náš nejkratší, jen 35 teček",
+          "description": "Tatínkové mořští koníci nosí své děti. Seznam se s tímto neobvyklým oceánským rodičem v 35 tečkách s zdarma tisknutelným pracovním listem pro děti ve věku 4–7 let.",
+          "image_alt": "Malý mořský koník vztyčený ve vodě, obrys vedený jen 35 tečkami na listu zdarma"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Mořský koník",
+          "description": "Tatínkové mořští koníci nosí své děti. Seznam se s tímto neobvyklým oceánským rodičem v 35 tečkách s zdarma tisknutelným pracovním listem pro děti ve věku 4–7 let.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
+      },
+      "body": {
+        "h1": "Mořský koník spoj tečky, náš nejjednodušší 35-tečkový oceánský PDF",
+        "name": "Mořský koník",
+        "tagline": "Malý oceánský rytíř",
+        "description": "Spoj tečky, abys odhalil okouzlujícího mořského koníka plovoucího mořem! S pouhými 35 snadnými tečkami je tento hlavolam ideální pro děti v předškolním a mateřském věku, které budují dovednosti sekvencování čísel s roztomilým oceánským přítelem.",
+        "fun_fact": "Mořští koníci jsou jediné ryby, u kterých samec nosí a rodí mláďata!",
+        "faqs": [
+          {
+            "q": "Kolik teček má skládačka typu „mořský koník“?",
+            "a": "Tisknutelný obrázek mořského koníka s technikou spojování teček má 35 očíslovaných teček. Díky tomu je to snadná skládačka, nejvhodnější pro věk 4–6 let (předškolní a mateřská škola). Děti spojují tečky podle číselného pořadí, aby odhalily hotový obrázek mořského koníka, a poté ho vybarví."
+          },
+          {
+            "q": "Je mořský koník vytisknutelný tečka po tečce zdarma?",
+            "a": "Ano. Pracovní list s motivem mořského koníka si můžete stáhnout 100% zdarma z DotToDotFreePrintables.com – není vyžadován žádný účet, e-mail ani platba. Stáhne se okamžitě jako PDF soubor připravený k tisku v orientaci na výšku i na šířku, o velikosti papíru US Letter nebo A4."
+          },
+          {
+            "q": "Pro jaký věk je pracovní list s mořským koníkem nejlepší?",
+            "a": "S 35 tečkami je puzzle Mořský koník nejvhodnější pro věk 4–6 let (předškolní a mateřská škola). Mladší děti si ho mohou užít s lehkou pomocí dospělého při počítání, zatímco sebejistější počítající děti ho mohou vyřešit samostatně a procvičovat si číselnou řadu až do 35."
+          },
+          {
+            "q": "Jaké dovednosti učí skládačka Seahorse s tečkami?",
+            "a": "Spojováním 35 teček skládačky Mořský koník se rozvíjí rozpoznávání čísel a počítání do 35, ovládání tužky, koordinace ruka-oko a trvalé soustředění – stejné základy jemné motoriky, které podporují rané psaní. Vybarvování hotového obrázku je kreativní odměnou."
+          },
+          {
+            "q": "Jaký je zajímavý fakt o mořském koníkovi?",
+            "a": "Mořští koníci jsou jediné ryby, u kterých samec nosí a rodí mláďata! Děti objevují taková fakta při skládání teček s mořským koníkem."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Mořský koník je jedním z nejneobyčejnějších tvorů v celém oceánu – nejen svým vzhledem, ale i způsobem života. Plave vzpřímeně, pohybuje se třepotáním drobné ploutve na hřbetě, svým stočeným ocasem se ukotvuje v mořských řasách a otec je ten, kdo nosí a rodí mláďata. Kdybyste navrhovali zvíře od nuly, nikdy byste si nepředstavovali něco tak úžasně neobvyklého. Pojďme si ho společně nakreslit!",
+          "sections": [
+            {
+              "range": "1–6",
+              "title": "Hlava a čenich",
+              "learn": "Začněte u bodu 1 a propojte jej s bodem 6, abyste nakreslili charakteristickou koňskou hlavu a dlouhý trubicovitý čenich mořského koníka. Tato malá část je krásným a snadno zvládnutelným začátkem pro mladší děti – stačí šest teček, abyste si lépe rozuměli, než se pustíte do větších částí. Čenich je jedním z nejneobvyklejších tvarů v živočišné říši.",
+              "fact": "Mořský koník nemá zuby ani žaludek. Nasává drobné krevety a plankton čenichem jako vysavač, a protože potrava jím prochází tak rychle, musí jíst téměř neustále – až 3 000 solných krevet denně. Být mořským koníkem je v podstatě práce na plný úvazek, která se zabývá jídlem."
+            },
+            {
+              "range": "7–16",
+              "title": "Zakřivený krk a hříva",
+              "learn": "Pokračujte od bodu 7 k bodu 16 a obkreslete krásně zakřivený krk a hřeben podél hřbetu – někdy nazývaný hříva mořského koníka. Tato část má nejkrásnější křivku z celé skládačky. Děti se učí sledovat dlouhý, hladký oblouk a pro dosažení nejlepšího výsledku pomalu a rovnoměrně pohybovat tužkou.",
+              "fact": "Mořští koníci jsou skutečně jedny z nejpomalejších ryb v oceánu, pohybují se maximální rychlostí asi pět stop za hodinu. Pro srovnání, zahradní hlemýžď ​​se pohybuje rychleji. Místo pronásledování kořisti se mořský koník spoléhá výhradně na maskování a překvapení – připluje blízko k potravě a pak bleskově udeří."
+            },
+            {
+              "range": "17–26",
+              "title": "Tělesné kroužky",
+              "learn": "Obkreslete body 17 až 26, abyste nakreslili výrazně segmentované tělo – ty vyvýšené kostěné prstence, které vedou od krku k ocasu. Děti se zde učí, že těla zvířat nejsou vždy hladká, a začínají si všímat krásné struktury přirozeného pancíře mořského koníka. Tato část odměňuje pečlivé a záměrné sledování teček.",
+              "fact": "Mořský koník není pokryt šupinami jako většina ryb – místo toho je jeho tělo obaleno kostěnými destičkami uspořádanými do prstenců. Díky tomu je poměrně tuhý, a proto se nemůže vrtět jako většina ryb. V podstatě má na sobě brnění, což z něj dělá jednoho z nejtvrdších malých tvorů v moři, které by predátor mohl spolknout."
+            },
+            {
+              "range": "27–35",
+              "title": "Kroucený ocas",
+              "learn": "Dokončete hádanku spojením bodů 27 až 35 a nakreslete tak dlouhý, stočený ocas, který se táhne pod tělem. Ocas je jedním z nejuspokojivějších tvarů k kreslení – děti si procvičují úzkou, zmenšující se spirálu, která je náročná i velmi obohacující zároveň. Devět bodů do cíle!",
+              "fact": "Ocas mořského koníka je chápavý – to znamená, že se dokáže uchopit věcí, stejně jako ocas opice. Mořští koníci se svými ocasy kotví ke korálům a mořským řasám, aby je neunášely proudy. Během páření si samec a samice omotají ocasy k sobě a unášejí se vodou vedle sebe – což je jeden z nejromantičtějších pohledů v oceánu."
+            }
+          ],
+          "outro": "Krásná práce – váš mořský koník je hotový! Věděli jste, že mořští koníci se vyskytují ve více než 45 různých druzích, v barvách od zářivě žluté přes tmavě fialovou až po téměř zcela průhlednou? Vybarvěte si toho svého, jak chcete – ve světě mořských koníků je dovoleno cokoli. Hledáte svou další výzvu? Prohlédněte si všechny naše <a href=\"/\">tisknutelné materiály tečka po tečce</a>.",
+          "color_schemes": []
+        }
+      }
+    },
+    {
+      "slug": "whale-dot-to-dot-puzzle",
+      "header": {
+        "title": "Velryba spoj tečky – 42 teček k vytisknutí zdarma",
+        "meta_description": "Největší známá zvířata inspirují tento 42-tečkový hlavolam s velrybou. Stáhni si zdarma tisknutelné PDF pro jemné procvičování počítání ve věku 4–7 let.",
+        "og": {
+          "title": "Velryba spoj tečky – 42 teček k vytisknutí zdarma",
+          "description": "Největší známá zvířata inspirují tento 42-tečkový hlavolam s velrybou. Stáhni si zdarma tisknutelné PDF pro jemné procvičování počítání ve věku 4–7 let.",
+          "image_alt": "Mohutná velryba uprostřed plavání, hřbet vykreslený ze 42 očíslovaných teček"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Velryba",
+          "description": "Největší známá zvířata inspirují tento 42-tečkový hlavolam s velrybou. Stáhni si zdarma tisknutelné PDF pro jemné procvičování počítání ve věku 4–7 let.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
+      },
+      "body": {
+        "h1": "Velryba spoj tečky k tisku — 42 snadných teček k spojení",
+        "name": "Velryba",
+        "tagline": "Něžný mořský obr",
+        "description": "Spoj 42 snadných teček, abys odhalil nádhernou velrybu plavající oceánem. Tento tisknutelný hlavolam pomáhá dětem v předškolním a mateřském věku procvičovat sekvencování čísel, kontrolu tužky a koncentraci.",
+        "fun_fact": "Modré velryby jsou největší zvířata, která kdy na Zemi žila!",
+        "faqs": [
+          {
+            "q": "Kolik teček má hlavolam s tečkami o velrybě?",
+            "a": "Tisknutelný obrázek velryby s pojmenováním „spojuj tečky“ má 42 očíslovaných teček. Díky tomu se jedná o snadnou až středně náročnou skládačku, která je nejvhodnější pro věk 5–8 let (mateřská školka až druhá třída). Děti spojují tečky podle číselného pořadí, aby odhalily hotový obrázek velryby, a poté ho vybarví."
+          },
+          {
+            "q": "Je velryba tečka po tečce vytisknutelná zdarma?",
+            "a": "Ano. Pracovní list s motivem velryby si můžete stáhnout 100% zdarma z DotToDotFreePrintables.com – není vyžadován žádný účet, e-mail ani platba. Stáhne se okamžitě jako PDF soubor připravený k tisku v orientaci na výšku i na šířku, o velikosti papíru US Letter nebo A4."
+          },
+          {
+            "q": "Pro jaký věk je pracovní list s velrybou a spojováním teček nejvhodnější?",
+            "a": "S 42 tečkami je hlavolam s velrybou nejvhodnější pro děti ve věku 5–8 let (od mateřské školy až po druhou třídu). Mladší děti si ho mohou užít s lehkou pomocí dospělého při počítání, zatímco sebejistější počítadla ho mohou vyřešit samostatně a procvičovat si číselnou řadu až do 42."
+          },
+          {
+            "q": "Jaké dovednosti učí skládačka Whale puntíky?",
+            "a": "Spojováním 42 teček na skládačce s motivem velryby se rozvíjí rozpoznávání čísel a počítání do 42, ovládání tužky, koordinace ruka-oko a trvalé soustředění – stejné základy jemné motoriky, které podporují rané psaní. Vybarvování hotového obrázku je kreativní odměnou."
+          },
+          {
+            "q": "Jaký je zajímavý fakt o velrybě?",
+            "a": "Modré velryby jsou největší zvířata, která kdy na Zemi žila! Děti objevují taková fakta při skládání puzzle s motivem velryby."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Velryba je největší zvíře, které kdy na naší planetě existovalo – větší než jakýkoli dinosaurus, větší než cokoli, co kdy žilo na souši. A přesto jsou velryby navzdory své obrovské velikosti laskavými, inteligentními a hluboce společenským tvory, kteří si navzájem zpívají přes stovky mil otevřeného oceánu. Tato 42bodová hádanka zachycuje tuto mírumilovnou a neuspěchanou kvalitu. Zhluboka se nadechněte, najděte bod 1 a ponořte se do toho!",
+          "sections": [
+            {
+              "range": "1–8",
+              "title": "Hlava a ústa",
+              "learn": "Začněte u bodu 1 a propojte jej s bodem 8, abyste nakreslili širokou, zaoblenou hlavu velryby a jemné zakřivení tlamy. Velryby mají jedny z nejmírumilovnějších tvarů hlav v přírodě – nejsou vidět žádné ostré zuby, žádný divoký výraz. Děti si zde procvičují široké, pomalé zakřivení, které odpovídá velrybí pomalé povaze.",
+              "fact": "Srdce modré velryby má zhruba velikost malého auta – váží zhruba 180 kilogramů – a při potápění velryba tluče pouze 8 až 10krát za minutu. Když se vynoří, srdce se zrychlí na 25–37 tepů za minutu. Je to největší srdce ze všech zvířat, která kdy na Zemi existovala – opravdu neuvěřitelné!"
+            },
+            {
+              "range": "9–18",
+              "title": "Zadní a hřbetní ploutev",
+              "learn": "Pokračujte od bodu 9 k bodu 18 a obkreslete dlouhý, hladký hřbet a malou hřbetní ploutev. Ve srovnání s vysokou ploutví delfína je hřbetní ploutev modré velryby drobná – děti to často komentují, což vyvolává krásnou diskusi o tom, proč mají různá zvířata odlišné rysy. Pro tuto jemnou křivku nejlépe vypadají dlouhé, plynulé tahy.",
+              "fact": "Kůže velryb nese jedinečné vzory jizev, skvrn a znaků – tak charakteristické, že vědci dokáží jednotlivé velryby identifikovat pouze z fotografií. Některé velryby byly v dlouhodobých studiích sledovány více než 30 let. Jednotlivé velryby známe podle jména, osobnosti a rodinné historie. To je pozoruhodná věc."
+            },
+            {
+              "range": "19–30",
+              "title": "Břicho a tělo",
+              "learn": "Obkreslete body 19 až 30, abyste vyplnili obrovské břicho a dokončili tvar hlavního těla. Spodní strana velryby má často světlejší barvu než hřbet – jedná se o formu maskování zvanou protistínění, která je běžná u mořských živočichů. Děti si zde procvičují nejdelší část skládačky a budují si skutečnou soustředěnou výdrž.",
+              "fact": "Modrá velryba dokáže za jediný den sníst až čtyři tuny krilu – drobných tvorů podobných krevetám. Dělá to tak, že se s otevřenou tlamou vrhne do hejna, napije obrovské množství vody a poté ji vytlačí přes pláty kostic, zatímco kril zůstane uvězněn uvnitř. Elegantní a starobylá technika."
+            },
+            {
+              "range": "31–36",
+              "title": "Ploutve",
+              "learn": "Spojte body 31 až 36 a nakreslete dlouhé ploutve ve tvaru pádla. Ploutve velrybí obsahují stejné kosti jako lidská ruka a paže – pět kostí prstů, zápěstí a paži – jen se během milionů let pro život v oceánu vytvarovaly. Děti rády objevují tento druh ploutví, když jim na něj ukážete uprostřed hry.",
+              "fact": "Uvnitř velrybí ploutve se nacházejí stejné kosti, jaké máte ve své ruce – palec, prsty, zápěstí a všechno ostatní. Předkové velryb chodili po souši asi před 50 miliony let a ploutev je to, čím se tyto nohy časem staly. Evoluce je v podstatě velmi pomalý a velmi trpělivý sochař."
+            },
+            {
+              "range": "37–42",
+              "title": "Ocasní plazi",
+              "learn": "Dokončete hádanku spojením bodů 37 až 42 a nakreslete tak široké ocasní ploutve – nejmocnější strukturu v živočišné říši vzhledem ke svému účelu. Stačí šest bodů k dokončení tohoto jemného obra. Povzbuďte sebevědomý a rozsáhlý závěr: velryba si zaslouží velkolepý závěr.",
+              "fact": "Ocasní ploutve modré velryby mohou být až 7,6 metru široké – širší než mnoho domů. Každý pohyb těchto ploutví směrem dolů pohání velrybu vpřed rychlostí až 32 kilometrů za hodinu v krátkých dávkách. Zpěv velryby – vydávaný bez jakýchkoli hlasivek – se může v hlubokých oceánských vodách šířit přes 1600 kilometrů. Tato zvířata jsou mimořádná téměř v každém myslitelném ohledu."
+            }
+          ],
+          "outro": "Právě jste nakreslili největší zvíře na Zemi – výborně! Tato hádanka se krásně hodí k rozhovoru o ochraně oceánů. Velryby byly v minulém století loveny téměř k vyhynutí a nyní se pomalu zotavují. Děti, které dnes milují velryby, jsou přesně tím typem lidí, kteří je budou zítra chránit. Další stránky vhodné do třídy najdete v našich <a href=\"/playgrounds/\">pracovních listech s tečkami</a>.",
+          "color_schemes": []
+        }
+      }
+    },
+    {
+      "slug": "jellyfish-dot-to-dot-puzzle",
+      "header": {
+        "title": "Medúza spoj tečky – náročnějších 88 teček zdarma",
+        "meta_description": "Medúzy nemají mozek, srdce ani kosti — přesto přežily miliony let. Sleduj 88 teček skrze toto podrobné tisknutelné PDF pro děti ve věku 6–9 let.",
+        "og": {
+          "title": "Medúza spoj tečky – náročnějších 88 teček zdarma",
+          "description": "Medúzy nemají mozek, srdce ani kosti — přesto přežily miliony let. Sleduj 88 teček skrze toto podrobné tisknutelné PDF pro děti ve věku 6–9 let.",
+          "image_alt": "Medúza s vlajícími chapadly nakreslená pomocí 88 teček, náhled pracovního listu"
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Medúza",
+          "description": "Medúzy nemají mozek, srdce ani kosti — přesto přežily miliony let. Sleduj 88 teček skrze toto podrobné tisknutelné PDF pro děti ve věku 6–9 let.",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
+      },
+      "body": {
+        "h1": "Medúza spoj tečky: 88-tečkový tisknutelný krok vpřed",
+        "name": "Medúza",
+        "tagline": "Unášený oceánský zázrak",
+        "description": "Spoj 88 teček, abys odhalil elegantní medúzu unášející se mořem. Tento o něco větší hlavolam je skvělým krokem vpřed pro děti ve věku 6-9 let, které jsou připraveny na další tečky a podrobnější procvičování sekvencování čísel.",
+        "fun_fact": "Medúzy nemají mozek, srdce ani kosti — přesto přežily více než 500 milionů let!",
+        "faqs": [
+          {
+            "q": "Kolik teček má skládačka Medúza?",
+            "a": "Tisknutelný obrázek medúzy s metodou spojování teček má 88 očíslovaných teček. Díky tomu je to středně velká skládačka, nejvhodnější pro věk 6–9 let (1. až 3. třída). Děti spojují tečky podle číselného pořadí, aby odhalily hotový obrázek medúzy, a poté ho vybarví."
+          },
+          {
+            "q": "Je medúza tečka po tečce vytisknutelná zdarma?",
+            "a": "Ano. Pracovní list s medúzou si můžete stáhnout 100% zdarma z DotToDotFreePrintables.com – není vyžadován žádný účet, e-mail ani platba. Stáhne se okamžitě jako PDF soubor připravený k tisku v orientaci na výšku i na šířku, o velikosti papíru US Letter nebo A4."
+          },
+          {
+            "q": "Pro jaký věk je pracovní list s medúzami a spojováním teček nejvhodnější?",
+            "a": "S 88 body je puzzle s medúzou nejvhodnější pro děti ve věku 6–9 let (1. až 3. třída). Mladší děti si ho mohou užít s lehkou pomocí dospělého při počítání, zatímco sebejistější počítadla ho mohou složit samostatně a procvičovat si číselnou řadu až do 88."
+          },
+          {
+            "q": "Jaké dovednosti učí skládačka s tečkami od Medúzy?",
+            "a": "Spojováním 88 teček na skládačce Medúza se rozvíjí rozpoznávání čísel a počítání do 88, ovládání tužky, koordinace ruka-oko a trvalé soustředění – stejné základy jemné motoriky, které podporují rané psaní. Vybarvování hotového obrázku je kreativní odměnou."
+          },
+          {
+            "q": "Jaký je zajímavý fakt o medúzách?",
+            "a": "Medúzy nemají mozek, srdce ani kosti – a přesto přežily více než 500 milionů let! Děti objevují taková fakta při skládání tečky po tečce s medúzou."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Medúzy patří k nejpodivnějším a nejstarším živočichům v oceánu – unášely se moři dávno předtím, než po Zemi chodili dinosauři, a dávno předtím, než existovaly ryby, nebo dokonce kosti. Bez mozku, srdce a krve jsou živoucím důkazem toho, že příroda k úspěchu nepotřebuje složitost. Tato 88bodová hádanka je uspokojivým krokem vpřed pro starší děti, které jsou připraveny na větší výzvu. Najděte první bod a pojďme se nechat unášet!",
+          "sections": [
+            {
+              "range": "1–18",
+              "title": "Zvon",
+              "learn": "Začněte u bodu 1 a propojte jej s bodem 18, abyste obkreslili zaoblený, kopulovitý zvon – hlavní tělo medúzy. Toto je největší část skládačky a skvělá příležitost procvičit si hladké, široké křivky, aniž byste museli zvedat tužku. Povzbuzujte pomalé a stálé tahy, aby tvar kopule zůstal pěkný a rovnoměrný.",
+              "fact": "Medúzin zvon není jen tvar těla – je to také způsob, jakým se zvíře pohybuje. Stahováním a uvolňováním zvonu podobně jako pulzující deštník medúza vytlačuje vodu za sebou a pohání se vpřed. Je to jedna z nejstarších a nejjednodušších forem pohybu v živočišné říši a stále funguje krásně i o 500 milionů let později."
+            },
+            {
+              "range": "19–40",
+              "title": "Okraje a ozdůbky",
+              "learn": "Pokračujte od bodu 19 k bodu 40 a nakreslete nařasenou, volánkovou hranu kolem základny zvonu. Tato část má spoustu malých křivek blízko sebe, což je skvělý procvičovací prostředek pro pečlivé a trpělivé hledání teček – dobrá výzva pro děti, které se posunou za hranice těch nejjednodušších hádanek.",
+              "fact": "Některé druhy medúz si dokáží vytvářet vlastní světlo chemickou reakcí zvanou bioluminiscence. V hlubokém, tmavém oceánu může zářící medúza vypadat jako plovoucí lucerna – krásný způsob, jak buď přilákat kořist, nebo vylekat predátora, v závislosti na druhu."
+            },
+            {
+              "range": "41–62",
+              "title": "Tažná chapadla",
+              "learn": "Obkreslete body 41 až 62 a nakreslete tak dlouhá, vlečná chapadla, která se vznášejí pod zvonkem. Tyto čáry jsou delší a volnější než předchozí části, proto děti povzbuzujte, aby je kreslily uvolněnou rukou, téměř jako by tužka sama plavala ve vodě.",
+              "fact": "Chapadla medúzy krabičkové obsahují jeden z nejsilnějších jedů v celé živočišné říši, který se používá k okamžitému omráčení malých ryb a krevet. Většina medúz je však pro člověka neškodná – jen hrstka druhů dokáže způsobit bodnutí, kterého by se lidé měli obávat."
+            },
+            {
+              "range": "63–80",
+              "title": "Ústní paže",
+              "learn": "Spojte body 63 až 80 a přidejte kratší, volánkovatější ústní ramena blízko středu medúzy, která pomáhají navádět potravu k jejím ústům. Tato část odměňuje bedlivou pozornost, protože čáry jsou blízko sebe. Pomalejší tempo zde vede k nejčistším výsledkům.",
+              "fact": "Medúzy nemají ústa a samostatný vývod – potrava vstupuje dovnitř a odpad vychází stejným otvorem. Může to znít neobvykle, ale jedná se o úžasně efektivní konstrukci, která za půl miliardy let nepotřebovala žádné vylepšení."
+            },
+            {
+              "range": "81–88",
+              "title": "Poslední koncová vlákna",
+              "learn": "Dokončete hádanku spojením bodů 81 až 88, abyste dokončili posledních několik vláken pod chapadly. Už jen osm bodů do cílové čáry – klidný a jemný způsob, jak dokončit větší hádanku. Nadechněte se a nechte poslední čáry přirozeně zapadat na svá místa.",
+              "fact": "Medúzy se vyskytují v každém oceánu na Zemi, od teplých povrchových vod poblíž rovníku až po mrazivé hlubiny blízko pólů. Některé druhy byly nalezeny dokonce více než 3 600 metrů pod hladinou, jak se tiše vznášejí v naprosté tmě."
+            }
+          ],
+          "outro": "Skvělá práce – vaše medúza je připravena k unášení! Tato hádanka se krásně hodí k rozhovoru o tom, jak některá z nejstarších zvířat na Zemi patří zároveň k těm nejjednodušším. Vybarvěte medúzu průsvitnou modrou, fialovou nebo růžovou pro realistickou záři, nebo zvolte výrazné a jasné odstíny – v obou případech bude vypadat úžasně. Jste připraveni na další výzvu? Prohlédněte si další <a href=\"/ocean/\">tisknutelné materiály 1-100 od tečky do tečky</a> z hlubin.",
+          "color_schemes": []
+        }
+      }
+    }
+  ]
+}

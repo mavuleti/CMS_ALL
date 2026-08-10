@@ -1,55 +1,294 @@
-[
-  {
-    "slug": "crescent-moon-dot-to-dot-puzzle",
-    "name": "Crescent Moon",
-    "tagline": "Trace a Shining Slice of the Night Sky!",
-    "description": "Connect 60 easy dots to reveal a beautiful crescent moon glowing in the night sky. This free printable helps children practise number sequencing, visual tracking, concentration, and smooth pencil control.",
-    "funFact": "A crescent moon appears when sunlight illuminates only a thin curved part of the Moon that we can see from Earth.",
-    "dotGuide": {
-      "intro": "A slim crescent moon is one of the most recognisable shapes in the night sky. This friendly 60-dot puzzle builds its outer curve, pointed tips, and inner arc in five manageable stages. Find dot 1 and let your moon begin to glow!",
-      "sections": [
-        { "range": "1–12", "title": "The Upper Moon Tip", "learn": "Connect dots 1 through 12 to shape the crescent's narrow upper point.", "fact": "The Moon does not make its own light; it shines by reflecting sunlight." },
-        { "range": "13–24", "title": "The Outer Curve", "learn": "Continue from dot 13 to dot 24 along the broad outside curve of the Moon.", "fact": "Gravity made the Moon nearly round, just as it makes planets round." },
-        { "range": "25–36", "title": "The Lower Moon Tip", "learn": "Follow dots 25 through 36 to form the lower point and turn toward the inside curve.", "fact": "The Moon's surface is covered with craters made by rocks striking it over billions of years." },
-        { "range": "37–48", "title": "The Inner Crescent", "learn": "Trace dots 37 through 48 up the inner arc, keeping your pencil line smooth.", "fact": "The Moon takes about 29.5 days to move through a complete cycle of phases." },
-        { "range": "49–60", "title": "The Glow and Finish", "learn": "Finish with dots 49 through 60 to close the crescent and add its final details.", "fact": "People around the world see the same Moon, although its crescent can appear tilted differently depending on location." }
-      ],
-      "outro": "Beautiful work—your crescent moon is shining! Add stars, sleepy clouds, or a rocket crossing the sky, then discover the <a href=\"/space/ringed-planet-dot-to-dot-puzzle/\">ringed planet puzzle</a>."
+{
+  "collection": {
+    "header": {
+      "title": "Free Space Dot-to-Dot Printables for Kids",
+      "meta_description": "Download free space dot-to-dot worksheets for kids, including UFOs, rockets, planets, and more.",
+      "og": {
+        "title": "Free Space Dot-to-Dot Printables for Kids",
+        "description": "Download free space dot-to-dot worksheets for kids, including UFOs, rockets, planets, and more.",
+        "image": "/images/space-rover-puzzle.webp"
+      },
+      "json_ld": {
+        "type": "CollectionPage",
+        "name": "Space",
+        "description": "Blast off with free space connect-the-dots worksheets. Print a friendly rover puzzle today, with more rockets, planets, and cosmic adventures coming soon.",
+        "image": "/images/space-rover-puzzle.webp",
+        "main_entity": {
+          "type": "ItemList",
+          "item_source": "puzzles"
+        }
+      },
+      "breadcrumb_json_ld": {
+        "type": "BreadcrumbList",
+        "items": [
+          {
+            "position": 1,
+            "name": "Home",
+            "path": "/"
+          },
+          {
+            "position": 2,
+            "name": "Space",
+            "path": "/space/"
+          }
+        ]
+      }
+    },
+    "body": {
+      "h1": "Free Space Dot-to-Dot Printables for Kids",
+      "name": "Space",
+      "tagline": "{count, plural, one {# free printable puzzle} other {# free printable puzzles}}",
+      "description": "Blast off with free space connect-the-dots worksheets. Print a friendly rover puzzle today, with more rockets, planets, and cosmic adventures coming soon.",
+      "hero_image": "/images/space-rover-puzzle.webp",
+      "slug": "space",
+      "faqs": [
+        {
+          "q": "Are all dot to dot printables on this site completely free?",
+          "a": "Yes — every connect-the-dots worksheet on DotToDotFreePrintables.com is 100% free to download and print. No account, subscription, or credit card is ever required."
+        },
+        {
+          "q": "What age are dot to dot worksheets suitable for?",
+          "a": "Our printables cover ages 4–12. Easy worksheets (around 38–55 dots) suit preschoolers and kindergartners (prep in Australia), medium sheets (around 60–90 dots) are great for kindergarten and 1st grade, and harder sheets (90–130+ dots) challenge 2nd through 6th graders."
+        },
+        {
+          "q": "What format are the connect-the-dots printables?",
+          "a": "All worksheets download as print-ready PDF files sized for standard US Letter (8.5\" × 11\") or A4 paper. Open in any browser or PDF viewer and print — no special software needed."
+        },
+        {
+          "q": "Can teachers use these connect-the-dots worksheets in class?",
+          "a": "Yes! Our printables are free for personal and classroom use. They are popular for morning work, early finisher activities, substitute lesson plans, fine motor centers, and homework packets."
+        }
+      ]
     }
   },
-  {
-    "slug": "ringed-planet-dot-to-dot-puzzle",
-    "name": "Ringed Planet",
-    "tagline": "Draw a World Wrapped in Shining Rings!",
-    "description": "Connect 43 easy dots to reveal a beautiful ringed planet floating in space. This free printable helps younger children practise number order, visual tracking, concentration, and steady pencil control.",
-    "funFact": "Saturn's rings are made of countless pieces of ice and rock, ranging from tiny grains to chunks as large as houses.",
-    "dotGuide": {
-      "intro": "Far beyond Earth, a giant planet turns while broad rings sweep around it. This friendly 43-dot puzzle creates the planet and its rings in four short stages, making it a fun first space challenge. Find dot 1 and begin your journey!",
-      "sections": [
-        { "range": "1–11", "title": "The Top of the Planet", "learn": "Connect dots 1 through 11 to draw the curved upper edge of the distant planet.", "fact": "Planets look round because gravity pulls their material toward the centre from every direction." },
-        { "range": "12–22", "title": "The First Ring", "learn": "Continue from dot 12 to dot 22 to trace the first wide arc of the ring system.", "fact": "Saturn has thousands of narrow ringlets that look like several broad rings when viewed from far away." },
-        { "range": "23–33", "title": "The Planet's Lower Curve", "learn": "Follow dots 23 through 33 around the lower half of the planet, keeping the curve smooth.", "fact": "Saturn is a gas giant made mostly of hydrogen and helium, the two lightest elements." },
-        { "range": "34–43", "title": "The Rings and Finish", "learn": "Finish with dots 34 through 43 to complete the sweeping rings on the other side.", "fact": "Saturn's rings are very wide but surprisingly thin compared with the size of the planet." }
-      ],
-      "outro": "Wonderful work—your ringed planet is orbiting among the stars! Add moons, a rocket, and colourful clouds, then continue exploring with the <a href=\"/space/space-rover-dot-to-dot-puzzle/\">space rover puzzle</a>."
+  "puzzles": [
+    {
+      "slug": "crescent-moon-dot-to-dot-puzzle",
+      "header": {
+        "title": "",
+        "meta_description": "",
+        "og": {
+          "title": "",
+          "description": "",
+          "image_alt": ""
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Crescent Moon",
+          "description": "",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
+      },
+      "body": {
+        "h1": "",
+        "name": "Crescent Moon",
+        "tagline": "Trace a Shining Slice of the Night Sky!",
+        "description": "Connect 60 easy dots to reveal a beautiful crescent moon glowing in the night sky. This free printable helps children practise number sequencing, visual tracking, concentration, and smooth pencil control.",
+        "fun_fact": "A crescent moon appears when sunlight illuminates only a thin curved part of the Moon that we can see from Earth.",
+        "faqs": [
+          {
+            "q": "What age is the Crescent Moon dot to dot puzzle for?",
+            "a": "It is designed for ages Ages 4-8. With 60 dots, it suits children who can confidently count to 60; younger children can complete it with a little help."
+          },
+          {
+            "q": "How do I print the Crescent Moon worksheet?",
+            "a": "Click the download button to get the free PDF, then print it on regular paper (A4 or US Letter) from any browser or PDF reader. No special software is needed."
+          },
+          {
+            "q": "Is the Crescent Moon printable really free?",
+            "a": "Yes — it is 100% free, with no sign-up, account, or payment required. You may print it for home or classroom use."
+          }
+        ],
+        "dot_guide": {
+          "intro": "A slim crescent moon is one of the most recognisable shapes in the night sky. This friendly 60-dot puzzle builds its outer curve, pointed tips, and inner arc in five manageable stages. Find dot 1 and let your moon begin to glow!",
+          "sections": [
+            {
+              "range": "1–12",
+              "title": "The Upper Moon Tip",
+              "learn": "Connect dots 1 through 12 to shape the crescent's narrow upper point.",
+              "fact": "The Moon does not make its own light; it shines by reflecting sunlight."
+            },
+            {
+              "range": "13–24",
+              "title": "The Outer Curve",
+              "learn": "Continue from dot 13 to dot 24 along the broad outside curve of the Moon.",
+              "fact": "Gravity made the Moon nearly round, just as it makes planets round."
+            },
+            {
+              "range": "25–36",
+              "title": "The Lower Moon Tip",
+              "learn": "Follow dots 25 through 36 to form the lower point and turn toward the inside curve.",
+              "fact": "The Moon's surface is covered with craters made by rocks striking it over billions of years."
+            },
+            {
+              "range": "37–48",
+              "title": "The Inner Crescent",
+              "learn": "Trace dots 37 through 48 up the inner arc, keeping your pencil line smooth.",
+              "fact": "The Moon takes about 29.5 days to move through a complete cycle of phases."
+            },
+            {
+              "range": "49–60",
+              "title": "The Glow and Finish",
+              "learn": "Finish with dots 49 through 60 to close the crescent and add its final details.",
+              "fact": "People around the world see the same Moon, although its crescent can appear tilted differently depending on location."
+            }
+          ],
+          "outro": "Beautiful work—your crescent moon is shining! Add stars, sleepy clouds, or a rocket crossing the sky, then discover the <a href=\"/space/ringed-planet-dot-to-dot-puzzle/\">ringed planet puzzle</a>.",
+          "color_schemes": []
+        }
+      }
+    },
+    {
+      "slug": "ringed-planet-dot-to-dot-puzzle",
+      "header": {
+        "title": "",
+        "meta_description": "",
+        "og": {
+          "title": "",
+          "description": "",
+          "image_alt": ""
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Ringed Planet",
+          "description": "",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
+      },
+      "body": {
+        "h1": "",
+        "name": "Ringed Planet",
+        "tagline": "Draw a World Wrapped in Shining Rings!",
+        "description": "Connect 43 easy dots to reveal a beautiful ringed planet floating in space. This free printable helps younger children practise number order, visual tracking, concentration, and steady pencil control.",
+        "fun_fact": "Saturn's rings are made of countless pieces of ice and rock, ranging from tiny grains to chunks as large as houses.",
+        "faqs": [
+          {
+            "q": "What age is the Ringed Planet dot to dot puzzle for?",
+            "a": "It is designed for ages Ages 4-7. With 43 dots, it suits children who can confidently count to 43; younger children can complete it with a little help."
+          },
+          {
+            "q": "How do I print the Ringed Planet worksheet?",
+            "a": "Click the download button to get the free PDF, then print it on regular paper (A4 or US Letter) from any browser or PDF reader. No special software is needed."
+          },
+          {
+            "q": "Is the Ringed Planet printable really free?",
+            "a": "Yes — it is 100% free, with no sign-up, account, or payment required. You may print it for home or classroom use."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Far beyond Earth, a giant planet turns while broad rings sweep around it. This friendly 43-dot puzzle creates the planet and its rings in four short stages, making it a fun first space challenge. Find dot 1 and begin your journey!",
+          "sections": [
+            {
+              "range": "1–11",
+              "title": "The Top of the Planet",
+              "learn": "Connect dots 1 through 11 to draw the curved upper edge of the distant planet.",
+              "fact": "Planets look round because gravity pulls their material toward the centre from every direction."
+            },
+            {
+              "range": "12–22",
+              "title": "The First Ring",
+              "learn": "Continue from dot 12 to dot 22 to trace the first wide arc of the ring system.",
+              "fact": "Saturn has thousands of narrow ringlets that look like several broad rings when viewed from far away."
+            },
+            {
+              "range": "23–33",
+              "title": "The Planet's Lower Curve",
+              "learn": "Follow dots 23 through 33 around the lower half of the planet, keeping the curve smooth.",
+              "fact": "Saturn is a gas giant made mostly of hydrogen and helium, the two lightest elements."
+            },
+            {
+              "range": "34–43",
+              "title": "The Rings and Finish",
+              "learn": "Finish with dots 34 through 43 to complete the sweeping rings on the other side.",
+              "fact": "Saturn's rings are very wide but surprisingly thin compared with the size of the planet."
+            }
+          ],
+          "outro": "Wonderful work—your ringed planet is orbiting among the stars! Add moons, a rocket, and colourful clouds, then continue exploring with the <a href=\"/space/space-rover-dot-to-dot-puzzle/\">space rover puzzle</a>.",
+          "color_schemes": []
+        }
+      }
+    },
+    {
+      "slug": "space-rover-dot-to-dot-puzzle",
+      "header": {
+        "title": "",
+        "meta_description": "",
+        "og": {
+          "title": "",
+          "description": "",
+          "image_alt": ""
+        },
+        "json_ld": {
+          "type": "CreativeWork",
+          "name": "Space Rover",
+          "description": "",
+          "image": "",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": ""
+        }
+      },
+      "body": {
+        "h1": "",
+        "name": "Space Rover",
+        "tagline": "A Friendly Explorer on Wheels",
+        "description": "Connect 59 dots to reveal a friendly space rover ready to explore another world. This free printable puzzle helps children practise number order, concentration, and pencil control.",
+        "fun_fact": "Space rovers are robotic vehicles that explore the surfaces of worlds such as the Moon and Mars.",
+        "faqs": [
+          {
+            "q": "What age is the Space Rover dot to dot puzzle for?",
+            "a": "It is designed for ages Ages 4-8. With 59 dots, it suits children who can confidently count to 59; younger children can complete it with a little help."
+          },
+          {
+            "q": "How do I print the Space Rover worksheet?",
+            "a": "Click the download button to get the free PDF, then print it on regular paper (A4 or US Letter) from any browser or PDF reader. No special software is needed."
+          },
+          {
+            "q": "Is the Space Rover printable really free?",
+            "a": "Yes — it is 100% free, with no sign-up, account, or payment required. You may print it for home or classroom use."
+          }
+        ],
+        "dot_guide": {
+          "intro": "Ready for a trip beyond Earth? Follow the numbers from 1 to 59 and watch a friendly space rover appear. Move slowly, check each number, and keep your pencil lines neat as you travel around the vehicle.",
+          "sections": [
+            {
+              "range": "1–12",
+              "title": "The Rover Body",
+              "learn": "Begin at dot 1 and connect through dot 12 to trace the rover's friendly front and sturdy body.",
+              "fact": "Planetary rovers carry computers, cameras, and scientific tools inside a tough body."
+            },
+            {
+              "range": "13–25",
+              "title": "The First Wheels",
+              "learn": "Continue from dot 13 to dot 25 to shape the lower body and the first rugged wheel.",
+              "fact": "Rover wheels are designed to grip loose sand and roll over rocks without getting stuck."
+            },
+            {
+              "range": "26–38",
+              "title": "The Wheel System",
+              "learn": "Connect dots 26 through 38 to complete more of the rover's wheels and suspension.",
+              "fact": "NASA's Mars rovers use a rocker-bogie suspension that helps all six wheels stay on uneven ground."
+            },
+            {
+              "range": "39–49",
+              "title": "The Seat and Equipment",
+              "learn": "Trace dots 39 to 49 to add the seat and equipment above the rover body.",
+              "fact": "Some lunar rovers carry astronauts, while robotic rovers explore without anyone sitting inside."
+            },
+            {
+              "range": "50–59",
+              "title": "The Dish Antenna",
+              "learn": "Finish by joining dots 50 through 59 to complete the communication dish.",
+              "fact": "A rover uses antennas to send discoveries to Earth and receive new instructions."
+            }
+          ],
+          "outro": "Mission complete—your space rover is ready to explore! Add stars, craters, planets, or a friendly alien to create your own space scene.",
+          "color_schemes": []
+        }
+      }
     }
-  },
-  {
-    "slug": "space-rover-dot-to-dot-puzzle",
-    "name": "Space Rover",
-    "tagline": "A Friendly Explorer on Wheels",
-    "description": "Connect 59 dots to reveal a friendly space rover ready to explore another world. This free printable puzzle helps children practise number order, concentration, and pencil control.",
-    "funFact": "Space rovers are robotic vehicles that explore the surfaces of worlds such as the Moon and Mars.",
-    "dotGuide": {
-      "intro": "Ready for a trip beyond Earth? Follow the numbers from 1 to 59 and watch a friendly space rover appear. Move slowly, check each number, and keep your pencil lines neat as you travel around the vehicle.",
-      "sections": [
-        { "range": "1–12", "title": "The Rover Body", "learn": "Begin at dot 1 and connect through dot 12 to trace the rover's friendly front and sturdy body.", "fact": "Planetary rovers carry computers, cameras, and scientific tools inside a tough body." },
-        { "range": "13–25", "title": "The First Wheels", "learn": "Continue from dot 13 to dot 25 to shape the lower body and the first rugged wheel.", "fact": "Rover wheels are designed to grip loose sand and roll over rocks without getting stuck." },
-        { "range": "26–38", "title": "The Wheel System", "learn": "Connect dots 26 through 38 to complete more of the rover's wheels and suspension.", "fact": "NASA's Mars rovers use a rocker-bogie suspension that helps all six wheels stay on uneven ground." },
-        { "range": "39–49", "title": "The Seat and Equipment", "learn": "Trace dots 39 to 49 to add the seat and equipment above the rover body.", "fact": "Some lunar rovers carry astronauts, while robotic rovers explore without anyone sitting inside." },
-        { "range": "50–59", "title": "The Dish Antenna", "learn": "Finish by joining dots 50 through 59 to complete the communication dish.", "fact": "A rover uses antennas to send discoveries to Earth and receive new instructions." }
-      ],
-      "outro": "Mission complete—your space rover is ready to explore! Add stars, craters, planets, or a friendly alien to create your own space scene."
-    }
-  }
-]
+  ]
+}
