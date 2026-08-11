@@ -40,7 +40,6 @@ export default function ShareButtons({ title, imageUrl, compact }: ShareButtonsP
   const [pinImageUrl, setPinImageUrl] = useState('');
 
   const getUrl = () => currentShareUrl();
-  const getTitle = () => title || document.title;
 
   useEffect(() => {
     setPageUrl(getUrl());

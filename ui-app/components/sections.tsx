@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import Image from 'next/image';
 import dynamic from 'next/dynamic';
 import LanguageSwitcher from '@/components/LanguageSwitcher';
 import {
@@ -14,8 +13,6 @@ import {
   Home,
   LayoutGrid,
   Pencil,
-  Printer,
-  ShieldCheck,
   Smile,
   Star,
   Users,
@@ -23,7 +20,7 @@ import {
 } from 'lucide-react';
 import { getTranslations, getLocale } from 'next-intl/server';
 import { siteFaqs, categoryFaqs, puzzleFaqs, blogFaqs, type FaqItem } from '@/lib/faqs';
-import { categories, puzzles } from '@/lib/site-data';
+import { puzzles } from '@/lib/site-data';
 import { getActiveCategories } from '@/lib/nav-categories';
 import { isPuzzlePageAvailable, isSectionAvailable, readSectionItems, contentLocaleFor } from '@/lib/section-locales';
 import CategoryMenu, { type CategoryMenuItem } from '@/components/CategoryMenu';
@@ -32,10 +29,8 @@ import ResponsiveImage from '@/components/ResponsiveImage';
 import LiteYouTubeEmbed from '@/components/LiteYouTubeEmbed';
 import FeedbackForm from '@/components/FeedbackForm';
 import { isArabic, isGerman, isRussian, isSpanish, localizedPuzzleCardAlt } from '@/lib/json-seo';
-import ShareButtons from '@/components/ShareButtons';
 import HeaderSharePopover from '@/components/HeaderSharePopover';
 import { appVersion } from '@/lib/app-version';
-import TrustBadge from '@/components/TrustBadge';
 import TopDownloadsLeaderboard from '@/components/TopDownloadsLeaderboard';
 import HideOnLocaleHome from '@/components/HideOnLocaleHome';
 import HeaderDotAnimation from '@/components/HeaderDotAnimation';

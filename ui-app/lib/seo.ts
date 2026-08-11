@@ -1,6 +1,5 @@
 import { routing } from '@/i18n/routing';
 import { contentLocaleFor, isSectionAvailable, readSectionItems, sectionFiles } from '@/lib/section-locales';
-import type { Metadata } from 'next';
 
 export const SITE_URL = 'https://dottodotfreeprintables.com';
 export const SITE_NAME = 'DotToDotFreePrintables.com';

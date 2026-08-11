@@ -25,7 +25,6 @@ export async function generateCollectionMetadata({ params }: CollectionRouteProp
   const category = getCategory(slug);
   if (!category) return {};
   const header = collectionHeaderSeo(locale, slug);
-  const title = `${category.h1} — Free PDF Worksheets`;
   return buildCommonHeaderMetadata({
     locale,
     path: `/${slug}`,
