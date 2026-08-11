@@ -328,7 +328,9 @@
     "homeVideoH2": "Nézd meg a pöttyökhöz kapcsolódó mókát akció közben",
     "skipToContent": "Ugrás a fő tartalomra",
     "joinTeachers": "Csatlakozz {count}+ tanárhoz",
-    "breadcrumbAria": "Zsemle"
+    "breadcrumbAria": "Zsemle",
+    "freePrintablePuzzlesCount": "{count} ingyenesen nyomtatható rejtvény",
+    "backToAllCategories": "Vissza az összes kategóriához"
   },
   "puzzleDetail": {
     "agesLabel": "Korosztályok:",
@@ -348,7 +350,13 @@
     "faqQ2": "Hogyan nyomtatom ki a {name} feladatlapot?",
     "faqA2": "Kattints a letöltés gombra az ingyenes PDF-ért, majd nyomtasd ki normál papírra (A4 vagy US Letter) bármely böngészőből vagy PDF-olvasóból. Nincs szükség külön szoftverre.",
     "faqQ3": "A {name} nyomtatható valóban ingyenes?",
-    "faqA3": "Igen — 100%-ban ingyenes, regisztráció, fiók és fizetés nélkül. Otthoni vagy osztálytermi használatra is kinyomtathatod."
+    "faqA3": "Igen — 100%-ban ingyenes, regisztráció, fiók és fizetés nélkül. Otthoni vagy osztálytermi használatra is kinyomtathatod.",
+    "freeCategoryPrintable": "Ingyenes {category} nyomtatvány",
+    "puzzleTitleFallback": "{name} Kösd Össze a Pontokat Nyomtatvány",
+    "backToAllCategoryPuzzles": "Vissza az összes {category} rejtvényhez",
+    "dotGuideHeading": "{name} rejtvény útmutató",
+    "moreFreeCategoryPrintables": "További ingyenes {category} nyomtatványok",
+    "coloringGuideHeading": "{name} színezési útmutató"
   },
   "dinosaursPage": {
     "eyebrow": "{count} ingyenesen nyomtatható munkalap",

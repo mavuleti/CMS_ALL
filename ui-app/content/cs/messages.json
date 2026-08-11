@@ -328,7 +328,9 @@
     "homeVideoH2": "Sledujte zábavu s tečkami v akci",
     "skipToContent": "Přeskočit na hlavní obsah",
     "joinTeachers": "Připojte se k {count}+ učitelům",
-    "breadcrumbAria": "Hlavní stránka"
+    "breadcrumbAria": "Hlavní stránka",
+    "freePrintablePuzzlesCount": "{count} bezplatných tiskových hádanek",
+    "backToAllCategories": "Zpět na všechny kategorie"
   },
   "puzzleDetail": {
     "agesLabel": "Věk:",
@@ -348,7 +350,13 @@
     "faqQ2": "Jak vytisknu pracovní list {name}?",
     "faqA2": "Klikněte na tlačítko stažení a získejte PDF zdarma, poté jej vytiskněte na běžný papír (A4 nebo US Letter) z libovolného prohlížeče či PDF čtečky. Není potřeba žádný speciální software.",
     "faqQ3": "Je tisknutelný list {name} opravdu zdarma?",
-    "faqA3": "Ano — je 100% zdarma, bez registrace, účtu či platby. Můžete jej tisknout pro domácí i školní použití."
+    "faqA3": "Ano — je 100% zdarma, bez registrace, účtu či platby. Můžete jej tisknout pro domácí i školní použití.",
+    "freeCategoryPrintable": "Zdarma tisknutelná hádanka {category}",
+    "puzzleTitleFallback": "{name} — Spoj Tečky k Vytisknutí",
+    "backToAllCategoryPuzzles": "Zpět na všechny hádanky {category}",
+    "dotGuideHeading": "Průvodce hádankou {name}",
+    "moreFreeCategoryPrintables": "Další bezplatné tiskoviny {category}",
+    "coloringGuideHeading": "Průvodce vybarvováním {name}"
   },
   "dinosaursPage": {
     "eyebrow": "{count} pracovních listů k vytisknutí zdarma",

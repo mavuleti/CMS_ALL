@@ -27,6 +27,8 @@ export function mergeLocalizedPuzzles<T extends { slug: string; dotGuide?: unkno
           description: entry.body?.description,
           funFact: entry.body?.fun_fact,
           dotGuide: entry.body?.dot_guide,
+          faqs: entry.body?.faqs,
+          jsonLd: entry.header?.json_ld,
           seoTitle: entry.header?.title,
           seoH1: entry.body?.h1,
           seoDescription: entry.header?.meta_description,

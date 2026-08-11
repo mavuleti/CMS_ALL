@@ -3,6 +3,7 @@ import Image from 'next/image';
 import { Check, Download, FileText, Printer, ShieldCheck, Sparkles } from 'lucide-react';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { routing } from '@/i18n/routing';
+import { buildCommonHeaderMetadata } from '@/components/templates/CommonHeaderTemplate';
 
 import BuyButton from '@/components/BuyButton';
 
@@ -15,7 +16,13 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'purchase' });
-  return { title: t('premium.metaTitle'), description: t('premium.metaDescription') };
+  return buildCommonHeaderMetadata({
+    locale,
+    path: '/premium',
+    title: t('premium.metaTitle'),
+    description: t('premium.metaDescription'),
+    type: 'website'
+  });
 }
 
 export default async function PremiumPage({ params }: Props) {

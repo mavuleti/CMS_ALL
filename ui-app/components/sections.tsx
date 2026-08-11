@@ -22,7 +22,7 @@ import {
   Youtube
 } from 'lucide-react';
 import { getTranslations, getLocale } from 'next-intl/server';
-import { siteFaqs, categoryFaqs, puzzleFaqs, blogFaqs } from '@/lib/faqs';
+import { siteFaqs, categoryFaqs, puzzleFaqs, blogFaqs, type FaqItem } from '@/lib/faqs';
 import { categories, puzzles } from '@/lib/site-data';
 import { getActiveCategories } from '@/lib/nav-categories';
 import { isPuzzlePageAvailable, isSectionAvailable, readSectionItems, contentLocaleFor } from '@/lib/section-locales';
@@ -503,7 +503,6 @@ export async function TrustSection() {
   );
 }
 
-type FaqItem = { q: string; a: string };
 
 // Shared FAQ renderer: visible <details> Q&A plus matching FAQPage JSON-LD.
 // The JSON-LD mirrors the visible text exactly (a Google requirement) so
@@ -554,24 +553,24 @@ export async function FaqSection() {
 // Category-page FAQ: category-specific questions from the locale's faqs.json
 // pack when available, else the four most relevant site-wide questions
 // (free?, ages, PDF format, classroom use) from templated translations.
-export async function CategoryFaqSection({ categoryKey }: { categoryKey?: string } = {}) {
+export async function CategoryFaqSection({ categoryKey, contentFaqs }: { categoryKey?: string; contentFaqs?: FaqItem[] } = {}) {
   const t = await getTranslations('faq');
   const locale = await getLocale();
   const rich = categoryKey ? categoryFaqs(locale, categoryKey) : null;
-  const faqs = rich ?? [1, 2, 3, 5].map((i) => ({ q: t(`q${i}`), a: t(`a${i}`) }));
+  const faqs = rich ?? (contentFaqs && contentFaqs.length > 0 ? contentFaqs : null) ?? [1, 2, 3, 5].map((i) => ({ q: t(`q${i}`), a: t(`a${i}`) }));
   return <FaqBlock faqs={faqs} eyebrow={t('eyebrow')} heading={t('heading')} />;
 }
 
 // Puzzle-detail FAQ: unique per-puzzle questions (dot count, difficulty tier,
 // skills, fun fact) from the locale's faqs.json pack when available, else
 // three templated questions parameterized with name/age/dots.
-export async function PuzzleFaqSection({ name, age, dots, category, slug }: { name: string; age: string; dots: number; category?: string; slug?: string }) {
+export async function PuzzleFaqSection({ name, age, dots, category, slug, contentFaqs }: { name: string; age: string; dots: number; category?: string; slug?: string; contentFaqs?: FaqItem[] }) {
   const t = await getTranslations('faq');
   const tp = await getTranslations('puzzleDetail');
   const locale = await getLocale();
   const rich = category && slug ? puzzleFaqs(locale, category, slug) : null;
   const values = { name, age, dots };
-  const faqs = rich ?? [1, 2, 3].map((i) => ({ q: tp(`faqQ${i}`, values), a: tp(`faqA${i}`, values) }));
+  const faqs = rich ?? (contentFaqs && contentFaqs.length > 0 ? contentFaqs : null) ?? [1, 2, 3].map((i) => ({ q: tp(`faqQ${i}`, values), a: tp(`faqA${i}`, values) }));
   return <FaqBlock faqs={faqs} eyebrow={t('eyebrow')} heading={t('heading')} />;
 }
 

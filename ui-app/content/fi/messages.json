@@ -328,7 +328,9 @@
     "homeVideoH2": "Katso pisteestä pisteeseen -hauskanpitoa toiminnassa",
     "skipToContent": "Siirry pääsisältöön",
     "joinTeachers": "Liity {count}+ opettajaan",
-    "breadcrumbAria": "Leipäpolku"
+    "breadcrumbAria": "Leipäpolku",
+    "freePrintablePuzzlesCount": "{count} ilmaista tulostettavaa palapeliä",
+    "backToAllCategories": "Takaisin kaikkiin kategorioihin"
   },
   "puzzleDetail": {
     "agesLabel": "Ikäryhmät:",
@@ -348,7 +350,13 @@
     "faqQ2": "Miten tulostan {name}-tehtäväsivun?",
     "faqA2": "Napsauta latauspainiketta saadaksesi ilmaisen PDF:n ja tulosta se tavalliselle paperille (A4 tai US Letter) mistä tahansa selaimesta tai PDF-lukijasta. Erityistä ohjelmistoa ei tarvita.",
     "faqQ3": "Onko tulostettava {name} todella ilmainen?",
-    "faqA3": "Kyllä — se on 100 % ilmainen, ilman rekisteröitymistä, tiliä tai maksua. Voit tulostaa sen kotiin tai luokkahuoneeseen."
+    "faqA3": "Kyllä — se on 100 % ilmainen, ilman rekisteröitymistä, tiliä tai maksua. Voit tulostaa sen kotiin tai luokkahuoneeseen.",
+    "freeCategoryPrintable": "Ilmainen {category}-tulostettava",
+    "puzzleTitleFallback": "{name} Pisteestä Pisteeseen -tulostettava",
+    "backToAllCategoryPuzzles": "Takaisin kaikkiin {category}-palapeleihin",
+    "dotGuideHeading": "{name}-palapelin opas",
+    "moreFreeCategoryPrintables": "Lisää ilmaisia {category}-tulostettavia",
+    "coloringGuideHeading": "{name}-värityksen opas"
   },
   "dinosaursPage": {
     "eyebrow": "{count} ilmaista tulostettavaa tehtäväarkkia",

@@ -10,12 +10,13 @@ import { getSpacePuzzleBySlug, getSpacePuzzlesForLocale } from './space-data';
 import { getUaePuzzleBySlug, getUaePuzzlesForLocale } from './uae-data';
 import { getUsa250PuzzleBySlug, getUsa250PuzzlesForLocale, isUsa250Available } from './usa-250-data';
 import { isSectionAvailable } from './section-locales';
+import type { ExportFaq, ExportPuzzleJsonLd } from './content-source';
 
 export type CommonPuzzle = {
   slug: string; name: string; tagline: string; description: string; funFact: string;
   age: string; dots: number; difficulty: 1 | 2 | 3; image: string; pdf: string;
   isNew?: boolean; seoTitle?: string; seoH1?: string; seoDescription?: string; seoOgTitle?: string; seoOgDescription?: string; seoImageAlt?: string;
-  dotGuide?: any;
+  dotGuide?: any; faqs?: ExportFaq[]; jsonLd?: ExportPuzzleJsonLd;
 };
 
 export type CategoryConfig = {

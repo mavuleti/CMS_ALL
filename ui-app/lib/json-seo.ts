@@ -1,3 +1,5 @@
+import { loadExternalCollection, type ExportBreadcrumbJsonLd, type ExportCollectionJsonLd, type ExportFaq } from './content-source';
+
 type JsonSeo = {
   homepage: { title: string; ogTitle: string; description: string };
   staticPages: Record<string, { title: string; description: string }>;
@@ -35,12 +37,24 @@ export function localizedStaticSeo(locale: string, page: 'about' | 'contact' | '
   if (!document.header?.title || !document.header.meta_description) throw new Error(`Missing required JSON SEO metadata for ${locale}/${page}`);
   return { title: document.header.title, description: document.header.meta_description };
 }
+function loadCollectionDocument(locale: string, collection: string) {
+  return (locale === 'en' ? loadExternalCollection(collection) : undefined)
+    ?? require(`../content/${contentLocale(locale)}/puzzles-${collection}.json`) as {
+      collection?: {
+        header?: { title?: string; meta_description?: string; og?: { title?: string; description?: string; image?: string }; json_ld?: ExportCollectionJsonLd; breadcrumb_json_ld?: ExportBreadcrumbJsonLd };
+        body?: { h1?: string; name?: string; tagline?: string; description?: string; hero_image?: string; slug?: string; faqs?: ExportFaq[] };
+      };
+    };
+}
+
 export function localizedCollectionSeo(locale: string, collection: string) { return load(locale).collections[collection] ?? null; }
 export function collectionHeaderSeo(locale: string, collection: string) {
-  const document = require(`../content/${contentLocale(locale)}/puzzles-${collection}.json`) as { collection?: { header?: { title?: string; meta_description?: string; og?: { title?: string; description?: string; image?: string } } } };
-  const header = document.collection?.header;
+  const header = loadCollectionDocument(locale, collection).collection?.header;
   if (!header?.title || !header.meta_description) throw new Error(`Missing required JSON collection SEO metadata for ${locale}/${collection}`);
-  return { title: header.title, description: header.meta_description, ogTitle: header.og?.title ?? header.title, ogDescription: header.og?.description ?? header.meta_description, image: header.og?.image };
+  return { title: header.title, description: header.meta_description, ogTitle: header.og?.title ?? header.title, ogDescription: header.og?.description ?? header.meta_description, image: header.og?.image, jsonLd: header.json_ld, breadcrumbJsonLd: header.breadcrumb_json_ld };
+}
+export function collectionBodyContent(locale: string, collection: string) {
+  return loadCollectionDocument(locale, collection).collection?.body;
 }
 export function localizedSocialImageAlt(locale: string, fallback: string) { return replace(load(locale).imageAlt.social, { fallback }); }
 export function localizedPuzzleCardAlt(locale: string, name: string) { return replace(load(locale).imageAlt.card, { name }); }

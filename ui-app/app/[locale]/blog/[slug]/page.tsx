@@ -8,7 +8,8 @@ import ShareButtons from '@/components/ShareButtons';
 import { formatBlogDate, getAllBlogPostsForLocale, getBlogPostForLocale } from '@/lib/blog-data';
 import { localizeHtmlLinks } from '@/lib/localize-html-links';
 import { routing } from '@/i18n/routing';
-import { SITE_NAME, absoluteUrl, buildAlternates } from '@/lib/seo';
+import { absoluteUrl } from '@/lib/seo';
+import { buildCommonHeaderMetadata } from '@/components/templates/CommonHeaderTemplate';
 import ResponsiveImage from '@/components/ResponsiveImage';
 
 type Props = {
@@ -25,32 +26,20 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale, slug } = await params;
   const post = getBlogPostForLocale(slug, locale);
   if (!post) return {};
-  const path = `/${locale}/blog/${post.slug}/`;
-  const ogImage = { url: absoluteUrl(post.heroImage?.src ?? '/images/trex-61-puzzle.webp'), width: post.heroImage?.width ?? 1401, height: post.heroImage?.height ?? 1123, alt: post.heroImage?.alt ?? post.title };
-  return {
+  return buildCommonHeaderMetadata({
+    locale,
+    path: `/blog/${post.slug}`,
     title: post.title,
     description: post.description,
-    alternates: buildAlternates(locale, `/blog/${post.slug}`),
-    openGraph: {
-      title: post.title,
-      description: post.description,
-      type: 'article',
-      url: path,
-      siteName: SITE_NAME,
-      publishedTime: post.publishedAt,
-      modifiedTime: post.updatedAt ?? post.publishedAt,
-      authors: [post.author],
-      locale: localeToOgLocale[locale] ?? 'en_US',
-      alternateLocale: allOgLocales.filter(l => l !== (localeToOgLocale[locale] ?? 'en_US')),
-      images: [ogImage]
-    },
-    twitter: {
-      card: 'summary_large_image',
-      title: post.title,
-      description: post.description,
-      images: [ogImage.url]
-    }
-  };
+    type: 'article',
+    image: absoluteUrl(post.heroImage?.src ?? '/images/trex-61-puzzle.webp'),
+    imageAlt: post.heroImage?.alt ?? post.title,
+    imageWidth: post.heroImage?.width ?? 1401,
+    imageHeight: post.heroImage?.height ?? 1123,
+    publishedTime: post.publishedAt,
+    modifiedTime: post.updatedAt ?? post.publishedAt,
+    authors: [post.author]
+  });
 }
 
 const localeToLang: Record<string, string> = {
@@ -74,37 +63,6 @@ const localeToLang: Record<string, string> = {
   el: 'el-GR',
   ar: 'ar', id: 'id-ID', ja: 'ja-JP', ko: 'ko-KR', ru: 'ru-RU', th: 'th-TH', vi: 'vi-VN'
 };
-const localeToOgLocale: Record<string, string> = {
-  en: 'en_US',
-  fr: 'fr_FR',
-  es: 'es_ES',
-  de: 'de_DE',
-  pt: 'pt_PT',
-  it: 'it_IT',
-  nl: 'nl_NL',
-  sv: 'sv_SE',
-  no: 'no_NO',
-  pl: 'pl_PL',
-  da: 'da_DK',
-  fi: 'fi_FI',
-  cs: 'cs_CZ',
-  hu: 'hu_HU',
-  ro: 'ro_RO',
-  tr: 'tr_TR',
-  'pt-BR': 'pt_BR',
-  el: 'el_GR',
-  ar: 'ar_SA', id: 'id_ID', ja: 'ja_JP', ko: 'ko_KR', ru: 'ru_RU', th: 'th_TH', vi: 'vi_VN'
-};
-
-// Routable locales intentionally held out of indexing/hreflang while content is
-// only a placeholder. Keep empty for fully released locales.
-const PLACEHOLDER_LOCALES: string[] = [];
-
-// All non-placeholder routable locales pass i18n content validation, so they're
-// announced as alternates — matches the locale set already declared in sitemap.xml.
-const allOgLocales = Object.entries(localeToOgLocale)
-  .filter(([l]) => !PLACEHOLDER_LOCALES.includes(l))
-  .map(([, v]) => v);
 
 export default async function BlogPostPage({ params }: Props) {
   const { locale, slug } = await params;

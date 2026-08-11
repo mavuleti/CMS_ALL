@@ -3,11 +3,12 @@ import Link from 'next/link';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 
 import { routing } from '@/i18n/routing';
-import { SITE_URL, buildAlternates } from '@/lib/seo';
+import { SITE_URL } from '@/lib/seo';
 import { UkContactPage } from '@/components/UkLegalPages';
 import { LocalizedContactPage } from '@/components/LocalizedLegalPages';
 import { loadLegalContent } from '@/lib/legal';
 import { localizedStaticSeo } from '@/lib/json-seo';
+import { buildCommonHeaderMetadata } from '@/components/templates/CommonHeaderTemplate';
 
 type Props = {
   params: Promise<{ locale: string }>;
@@ -22,11 +23,9 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
   const arabicSeo = localizedStaticSeo(locale, 'contact');
-  return {
-    title: arabicSeo?.title ?? (locale === 'uk' ? 'Контакти' : 'Contact Us'),
-    description: arabicSeo?.description ?? 'Contact DotToDotFreePrintables with puzzle requests, corrections, licensing questions, or feedback about our free printable dot-to-dot worksheets.',
-    alternates: buildAlternates(locale, '/contact')
-  };
+  const title = arabicSeo?.title ?? (locale === 'uk' ? 'Контакти' : 'Contact Us');
+  const description = arabicSeo?.description ?? 'Contact DotToDotFreePrintables with puzzle requests, corrections, licensing questions, or feedback about our free printable dot-to-dot worksheets.';
+  return buildCommonHeaderMetadata({ locale, path: '/contact', title, description, type: 'website' });
 }
 
 export default async function ContactPage({ params }: Props) {

@@ -4,8 +4,9 @@ import { ArrowRight, BookOpen, Home } from 'lucide-react';
 import { setRequestLocale, getTranslations } from 'next-intl/server';
 
 import { getAllBlogPostsForLocale, formatBlogDate } from '@/lib/blog-data';
-import { DEFAULT_OG_IMAGE, SITE_NAME, buildAlternates, ogAlternateLocalesFor, ogLocaleFor } from '@/lib/seo';
+import { DEFAULT_OG_IMAGE } from '@/lib/seo';
 import { localizedSocialImageAlt, localizedStaticSeo } from '@/lib/json-seo';
+import { buildCommonHeaderMetadata } from '@/components/templates/CommonHeaderTemplate';
 
 export async function generateMetadata({
   params
@@ -14,29 +15,21 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   const arabicSeo = localizedStaticSeo(locale, 'blog');
+  const title = arabicSeo?.title ?? 'Dot-to-Dot Learning Blog for Parents and Teachers';
+  const description = arabicSeo?.description ?? 'Practical dot-to-dot activity ideas, learning guides, printable tips, and classroom resources for parents and teachers.';
   const ogTitle = arabicSeo?.title ?? 'Dot-to-Dot Learning Blog';
   const ogDescription = arabicSeo?.description ?? 'Activity ideas and practical learning guides for parents and teachers.';
-  return {
-    title: arabicSeo?.title ?? 'Dot-to-Dot Learning Blog for Parents and Teachers',
-    description: arabicSeo?.description ?? 'Practical dot-to-dot activity ideas, learning guides, printable tips, and classroom resources for parents and teachers.',
-    alternates: buildAlternates(locale, '/blog'),
-    openGraph: {
-      title: ogTitle,
-      description: ogDescription,
-      url: `/${locale}/blog/`,
-      siteName: SITE_NAME,
-      type: 'website',
-      locale: ogLocaleFor(locale),
-      alternateLocale: ogAlternateLocalesFor(locale),
-      images: [{ ...DEFAULT_OG_IMAGE, alt: localizedSocialImageAlt(locale, 'Dot-to-dot learning blog for parents and teachers') }]
-    },
-    twitter: {
-      card: 'summary_large_image',
-      title: ogTitle,
-      description: ogDescription,
-      images: [DEFAULT_OG_IMAGE.url]
-    }
-  };
+  return buildCommonHeaderMetadata({
+    locale,
+    path: '/blog',
+    title,
+    description,
+    type: 'website',
+    ogTitle,
+    ogDescription,
+    image: DEFAULT_OG_IMAGE.url,
+    imageAlt: localizedSocialImageAlt(locale, 'Dot-to-dot learning blog for parents and teachers')
+  });
 }
 
 export default async function BlogPage({

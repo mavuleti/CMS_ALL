@@ -328,7 +328,9 @@
     "homeVideoH2": "ชมความสนุกของการลากเส้นต่อจุดได้เลย",
     "skipToContent": "ข้ามไปยังเนื้อหาหลัก",
     "joinTeachers": "เข้าร่วมกับครู {count}+ คน",
-    "breadcrumbAria": "เส้นทาง"
+    "breadcrumbAria": "เส้นทาง",
+    "freePrintablePuzzlesCount": "ปริศนาพิมพ์ฟรี {count} ชิ้น",
+    "backToAllCategories": "กลับไปยังทุกหมวดหมู่"
   },
   "puzzleDetail": {
     "agesLabel": "ช่วงอายุ:",
@@ -348,7 +350,13 @@
     "faqQ2": "ฉันจะพิมพ์ {name} ได้อย่างไร?",
     "faqA2": "ใช้ปุ่มดาวน์โหลดฟรีในหน้านี้ จากนั้นพิมพ์ไฟล์ PDF ที่บ้านหรือที่โรงเรียน",
     "faqQ3": "ไฟล์สำหรับพิมพ์หมายเลข {name} นั้นฟรีจริงหรือ?",
-    "faqA3": "ดินสอเหมาะที่สุดสำหรับการเชื่อมจุดต่างๆ และเด็กๆ สามารถระบายสีภาพที่เสร็จแล้วได้ในภายหลัง"
+    "faqA3": "ดินสอเหมาะที่สุดสำหรับการเชื่อมจุดต่างๆ และเด็กๆ สามารถระบายสีภาพที่เสร็จแล้วได้ในภายหลัง",
+    "freeCategoryPrintable": "ใบงาน {category} พิมพ์ฟรี",
+    "puzzleTitleFallback": "ใบงานลากเส้นต่อจุด {name}",
+    "backToAllCategoryPuzzles": "กลับไปยังปริศนา {category} ทั้งหมด",
+    "dotGuideHeading": "คู่มือปริศนา {name}",
+    "moreFreeCategoryPrintables": "ใบงาน {category} ฟรีเพิ่มเติม",
+    "coloringGuideHeading": "คู่มือระบายสี {name}"
   },
   "dinosaursPage": {
     "eyebrow": "แบบฝึกหัดพิมพ์ได้ฟรี {count}",
