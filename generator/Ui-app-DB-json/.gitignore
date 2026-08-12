@@ -3,4 +3,7 @@ node_modules/
 out/
 *.log
 .env*.local
-generator/Ui-app-DB-json/tsconfig.tsbuildinfo
+tsconfig.tsbuildinfo
+test-results/
+playwright-report*/
+temp/

@@ -1,7 +1,9 @@
 import fs from 'node:fs';
 import path from 'node:path';
 
-const EXPORT_DIR = path.resolve(process.cwd(), '../mapping-check/export/en');
+function exportDir(locale: string) {
+  return path.resolve(process.cwd(), `../mapping-check/export/${locale}`);
+}
 
 export type ColorMapping = { range: string; part: string; color: string; hex?: string; why: string };
 export type ColorScheme = { name: string; note?: string; mapping: ColorMapping[] };
@@ -64,8 +66,8 @@ function normalizePuzzle(document: any, collectionSlug: string): Puzzle {
   };
 }
 
-function readCollection(filename: string): Collection {
-  const source = JSON.parse(fs.readFileSync(path.join(EXPORT_DIR, filename), 'utf8'));
+function readCollection(filename: string, locale: string): Collection {
+  const source = JSON.parse(fs.readFileSync(path.join(exportDir(locale), filename), 'utf8'));
   if (!source?.collection || !Array.isArray(source.puzzles)) throw new Error(`${filename} must contain collection and puzzles`);
   const body = source.collection.body ?? {};
   const fallbackSlug = filename.replace(/^puzzles-/, '').replace(/\.json$/, '');
@@ -77,25 +79,27 @@ function readCollection(filename: string): Collection {
   };
 }
 
-export function getCollections(): Collection[] {
-  return fs.readdirSync(EXPORT_DIR)
+export function getCollections(locale: string = 'en'): Collection[] {
+  const dir = exportDir(locale);
+  if (!fs.existsSync(dir)) return [];
+  return fs.readdirSync(dir)
     .filter((filename) => /^puzzles-.+\.json$/.test(filename))
     .sort()
-    .map(readCollection);
+    .map((filename) => readCollection(filename, locale));
 }
 
-export function getCollection(slug: string) {
-  return getCollections().find((collection) => collection.slug === slug);
+export function getCollection(slug: string, locale: string = 'en') {
+  return getCollections(locale).find((collection) => collection.slug === slug);
 }
 
-export function getPuzzle(category: string, slug: string) {
-  const collection = getCollection(category);
+export function getPuzzle(category: string, slug: string, locale: string = 'en') {
+  const collection = getCollection(category, locale);
   const puzzle = collection?.puzzles.find((item) => item.slug === slug);
   return collection && puzzle ? { collection, puzzle } : undefined;
 }
 
-export function getExportDocument(name: 'about' | 'contact' | 'privacy-policy' | 'terms' | 'blog') {
-  return JSON.parse(fs.readFileSync(path.join(EXPORT_DIR, `${name}.json`), 'utf8')) as any;
+export function getExportDocument(name: 'about' | 'contact' | 'privacy-policy' | 'terms' | 'blog', locale: string = 'en') {
+  return JSON.parse(fs.readFileSync(path.join(exportDir(locale), `${name}.json`), 'utf8')) as any;
 }
 
 export function assetUrl(value?: string) {

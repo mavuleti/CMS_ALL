@@ -1,11 +1,11 @@
 import { BookOpen, Flower2, Shapes, type LucideIcon } from 'lucide-react';
+import { routing } from '@/i18n/routing';
 import { getCollections } from './export-content';
 import { puzzleIdFromHref } from './puzzle-id';
 
 export type Puzzle = { id: string; name: string; category: string; age: string; dots: number; difficulty: 1 | 2 | 3; image: string; href: string; isNew?: boolean };
 export type Category = { id: string; name: string; count: number; description: string; color: string; Icon: LucideIcon; href?: string; badge?: string };
 
-const exportCollections = getCollections();
 // These values are foreground accents (icons, headings, and borders). Soft
 // backgrounds are derived from them with color-mix in CSS, so the source
 // colors need enough contrast to remain readable on white cards.
@@ -15,12 +15,36 @@ const categoryAccents: Partial<Record<string, string>> = {
   ocean: '#087c8f'
 };
 
-export const puzzles: Puzzle[] = exportCollections.flatMap((collection) => collection.puzzles.map((puzzle) => {
-  const href = `/${collection.slug}/${puzzle.slug}/`;
-  return { id: puzzleIdFromHref(href), name: puzzle.name, category: collection.body.name ?? collection.slug, age: puzzle.age ?? '', dots: puzzle.dots ?? 0, difficulty: puzzle.difficulty, image: puzzle.image ?? '', href };
-}));
+function buildPuzzles(locale: string): Puzzle[] {
+  return getCollections(locale).flatMap((collection) => collection.puzzles.map((puzzle) => {
+    const href = `/${collection.slug}/${puzzle.slug}/`;
+    return { id: puzzleIdFromHref(href), name: puzzle.name, category: collection.body.name ?? collection.slug, age: puzzle.age ?? '', dots: puzzle.dots ?? 0, difficulty: puzzle.difficulty, image: puzzle.image ?? '', href };
+  }));
+}
 
-export const categories: Category[] = [
-  ...exportCollections.map((collection, index) => ({ id: collection.slug === 'usa-250' ? 'usa250' : collection.slug, name: collection.body.name ?? collection.slug, count: collection.puzzles.length, description: collection.body.description ?? '', color: categoryAccents[collection.slug] ?? palette[index % palette.length], Icon: collection.slug === 'flowers' ? Flower2 : Shapes, href: `/${collection.slug}/` })),
-  { id: 'blog', name: 'Blog', count: 0, description: 'Learning guides and activity ideas.', color: '#fff0c7', Icon: BookOpen, href: '/blog/' }
-];
+function buildCategories(locale: string): Category[] {
+  const exportCollections = getCollections(locale);
+  return [
+    ...exportCollections.map((collection, index) => ({ id: collection.slug === 'usa-250' ? 'usa250' : collection.slug, name: collection.body.name ?? collection.slug, count: collection.puzzles.length, description: collection.body.description ?? '', color: categoryAccents[collection.slug] ?? palette[index % palette.length], Icon: collection.slug === 'flowers' ? Flower2 : Shapes, href: `/${collection.slug}/` })),
+    { id: 'blog', name: 'Blog', count: 0, description: 'Learning guides and activity ideas.', color: '#fff0c7', Icon: BookOpen, href: '/blog/' }
+  ];
+}
+
+const puzzlesByLocale: Record<string, Puzzle[]> = {};
+const categoriesByLocale: Record<string, Category[]> = {};
+for (const locale of routing.locales) {
+  puzzlesByLocale[locale] = buildPuzzles(locale);
+  categoriesByLocale[locale] = buildCategories(locale);
+}
+
+export function puzzlesForLocale(locale: string): Puzzle[] {
+  return puzzlesByLocale[locale] ?? [];
+}
+export function categoriesForLocale(locale: string): Category[] {
+  return categoriesByLocale[locale] ?? [];
+}
+
+// English-only exports kept for call sites that haven't been made
+// locale-aware yet.
+export const puzzles: Puzzle[] = puzzlesByLocale.en ?? [];
+export const categories: Category[] = categoriesByLocale.en ?? [];

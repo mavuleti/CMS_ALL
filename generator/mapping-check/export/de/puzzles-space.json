@@ -1,0 +1,509 @@
+{
+  "collection": {},
+  "puzzles": [
+    {
+      "slug": "crescent-moon-dot-to-dot-puzzle",
+      "header": {
+        "json_ld": {
+          "name": "Halbmond",
+          "type": "CreativeWork",
+          "educational_use": "Fine motor skills, number sequencing"
+        }
+      },
+      "body": {
+        "name": "Halbmond",
+        "tagline": "Verfolgen Sie einen leuchtenden Ausschnitt des Nachthimmels!",
+        "description": "Verbinde 60 einfache Punkte, um eine wunderschöne Mondsichel zu enthüllen, die am Nachthimmel leuchtet. Diese kostenlose Druckversion hilft Kindern dabei, die Reihenfolge der Zahlen, das visuelle Verfolgen, die Konzentration und die reibungslose Kontrolle des Stifts zu üben.",
+        "fun_fact": "Eine Mondsichel entsteht, wenn das Sonnenlicht nur einen dünnen, gekrümmten Teil des Mondes beleuchtet, den wir von der Erde aus sehen können.",
+        "dot_guide": {
+          "intro": "Eine schlanke Mondsichel ist eine der bekanntesten Formen am Nachthimmel. Dieses freundliche 60-Punkte-Puzzle baut seine äußere Kurve, die spitzen Spitzen und den inneren Bogen in fünf überschaubaren Schritten auf. Finden Sie Punkt 1 und lassen Sie Ihren Mond beginnen zu leuchten!",
+          "outro": "Wunderschöne Arbeit – deine Mondsichel scheint! Fügen Sie Sterne, schläfrige Wolken oder eine Rakete hinzu, die den Himmel überfliegt, und entdecken Sie dann das <a href=\"/space/ringed-planet-dot-to-dot-puzzle/\">Ringed Planet Puzzle</a>.",
+          "sections": [
+            {
+              "range": "1–12",
+              "title": "Die obere Mondspitze",
+              "learn": "Verbinden Sie die Punkte 1 bis 12, um die schmale obere Spitze des Halbmonds zu formen.",
+              "fact": "Der Mond erzeugt kein eigenes Licht; es glänzt, indem es das Sonnenlicht reflektiert."
+            },
+            {
+              "range": "13–24",
+              "title": "Die äußere Kurve",
+              "learn": "Fahren Sie von Punkt 13 bis Punkt 24 entlang der breiten Außenkurve des Mondes fort.",
+              "fact": "Die Schwerkraft hat den Mond fast rund gemacht, genau wie sie auch Planeten rund macht."
+            },
+            {
+              "range": "25–36",
+              "title": "Die untere Mondspitze",
+              "learn": "Folgen Sie den Punkten 25 bis 36, um den unteren Punkt zu bilden, und drehen Sie sich in Richtung der Innenkurve.",
+              "fact": "Die Oberfläche des Mondes ist mit Kratern bedeckt, die im Laufe von Milliarden von Jahren durch Gesteinseinschläge entstanden sind."
+            },
+            {
+              "range": "37–48",
+              "title": "Der innere Halbmond",
+              "learn": "Zeichnen Sie die Punkte 37 bis 48 entlang des inneren Bogens nach, sodass Ihre Bleistiftlinie glatt bleibt.",
+              "fact": "Der Mond braucht etwa 29,5 Tage, um einen vollständigen Phasenzyklus zu durchlaufen."
+            },
+            {
+              "range": "49–60",
+              "title": "Der Glanz und das Finish",
+              "learn": "Schließen Sie den Halbmond mit den Punkten 49 bis 60 ab und fügen Sie die letzten Details hinzu.",
+              "fact": "Menschen auf der ganzen Welt sehen denselben Mond, obwohl seine Sichel je nach Standort unterschiedlich geneigt erscheinen kann."
+            }
+          ],
+          "color_schemes": [
+            {
+              "name": "Halbmond: Klassische Farben aus dem echten Leben",
+              "note": "Diese vertraute Palette verwendet Farben, die häufig bei realen Motiven vorkommen.",
+              "mapping": [
+                {
+                  "range": "1–12",
+                  "part": "Die obere Mondspitze",
+                  "color": "Crayola Silber",
+                  "hex": "#CDC5C2",
+                  "why": "Diese Farbe verleiht diesem Teil sein vertrautes, realitätsnahes Aussehen."
+                },
+                {
+                  "range": "13–24",
+                  "part": "Die äußere Kurve",
+                  "color": "Crayola Scarlet",
+                  "hex": "#FC2847",
+                  "why": "Diese Farbe verleiht diesem Teil sein vertrautes, realitätsnahes Aussehen."
+                },
+                {
+                  "range": "25–36",
+                  "part": "Die untere Mondspitze",
+                  "color": "Crayola Schwarz",
+                  "hex": "#232323",
+                  "why": "Diese Farbe verleiht diesem Teil sein vertrautes, realitätsnahes Aussehen."
+                },
+                {
+                  "range": "37–48",
+                  "part": "Der innere Halbmond",
+                  "color": "Crayola Silber",
+                  "hex": "#CDC5C2",
+                  "why": "Diese Farbe verleiht diesem Teil sein vertrautes, realitätsnahes Aussehen."
+                },
+                {
+                  "range": "49–60",
+                  "part": "Der Glanz und das Finish",
+                  "color": "Crayola Scarlet",
+                  "hex": "#FC2847",
+                  "why": "Diese Farbe verleiht diesem Teil sein vertrautes, realitätsnahes Aussehen."
+                }
+              ]
+            },
+            {
+              "name": "Halbmond: Sanfte natürliche Farben",
+              "note": "Diese hellere Palette spiegelt eine echte sonnenbeschienene oder blasse Version des Motivs wider.",
+              "mapping": [
+                {
+                  "range": "1–12",
+                  "part": "Die obere Mondspitze",
+                  "color": "Crayola Weiß",
+                  "hex": "#FFFFFF",
+                  "why": "Ein hellerer Farbton hilft zu zeigen, wie dieser Teil bei hellem Tageslicht aussehen kann."
+                },
+                {
+                  "range": "13–24",
+                  "part": "Die äußere Kurve",
+                  "color": "Crayola-Kornblume",
+                  "hex": "#9ACEEB",
+                  "why": "Ein hellerer Farbton hilft zu zeigen, wie dieser Teil bei hellem Tageslicht aussehen kann."
+                },
+                {
+                  "range": "25–36",
+                  "part": "Die untere Mondspitze",
+                  "color": "Crayola Gray",
+                  "hex": "#95918C",
+                  "why": "Ein hellerer Farbton hilft zu zeigen, wie dieser Teil bei hellem Tageslicht aussehen kann."
+                },
+                {
+                  "range": "37–48",
+                  "part": "Der innere Halbmond",
+                  "color": "Crayola Weiß",
+                  "hex": "#FFFFFF",
+                  "why": "Ein hellerer Farbton hilft zu zeigen, wie dieser Teil bei hellem Tageslicht aussehen kann."
+                },
+                {
+                  "range": "49–60",
+                  "part": "Der Glanz und das Finish",
+                  "color": "Crayola-Kornblume",
+                  "hex": "#9ACEEB",
+                  "why": "Ein hellerer Farbton hilft zu zeigen, wie dieser Teil bei hellem Tageslicht aussehen kann."
+                }
+              ]
+            },
+            {
+              "name": "Halbmond: Kräftige Farben aus dem echten Leben",
+              "note": "Diese stärkere Palette ist von echten Materialien, Markierungen oder bemalten Versionen inspiriert.",
+              "mapping": [
+                {
+                  "range": "1–12",
+                  "part": "Die obere Mondspitze",
+                  "color": "Crayola-Orange",
+                  "hex": "#FF7538",
+                  "why": "Diese tiefere Farbe spiegelt eine echte Markierung, ein Material oder eine Lackierung wider."
+                },
+                {
+                  "range": "13–24",
+                  "part": "Die äußere Kurve",
+                  "color": "Crayola Goldrute",
+                  "hex": "#FCD975",
+                  "why": "Diese tiefere Farbe spiegelt eine echte Markierung, ein Material oder eine Lackierung wider."
+                },
+                {
+                  "range": "25–36",
+                  "part": "Die untere Mondspitze",
+                  "color": "Crayola Mahagoni",
+                  "hex": "#CA3435",
+                  "why": "Diese tiefere Farbe spiegelt eine echte Markierung, ein Material oder eine Lackierung wider."
+                },
+                {
+                  "range": "37–48",
+                  "part": "Der innere Halbmond",
+                  "color": "Crayola-Orange",
+                  "hex": "#FF7538",
+                  "why": "Diese tiefere Farbe spiegelt eine echte Markierung, ein Material oder eine Lackierung wider."
+                },
+                {
+                  "range": "49–60",
+                  "part": "Der Glanz und das Finish",
+                  "color": "Crayola Goldrute",
+                  "hex": "#FCD975",
+                  "why": "Diese tiefere Farbe spiegelt eine echte Markierung, ein Material oder eine Lackierung wider."
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "slug": "ringed-planet-dot-to-dot-puzzle",
+      "header": {
+        "json_ld": {
+          "name": "Ringplanet",
+          "type": "CreativeWork",
+          "educational_use": "Fine motor skills, number sequencing"
+        }
+      },
+      "body": {
+        "name": "Ringplanet",
+        "tagline": "Zeichne eine in leuchtende Ringe gehüllte Welt!",
+        "description": "Verbinde 43 einfache Punkte, um einen wunderschönen Ringplaneten freizulegen, der im Weltraum schwebt. Diese kostenlose Druckversion hilft jüngeren Kindern dabei, die Reihenfolge der Zahlen, das visuelle Verfolgen, die Konzentration und die sichere Kontrolle des Stifts zu üben.",
+        "fun_fact": "Saturnringe bestehen aus unzähligen Eis- und Gesteinsstücken, von winzigen Körnern bis hin zu hausgroßen Brocken.",
+        "dot_guide": {
+          "intro": "Weit jenseits der Erde dreht sich ein riesiger Planet, während breite Ringe ihn umkreisen. Dieses freundliche 43-Punkte-Puzzle erschafft in vier kurzen Schritten den Planeten und seine Ringe und ist damit eine unterhaltsame erste Weltraumherausforderung. Finden Sie Punkt 1 und beginnen Sie Ihre Reise!",
+          "outro": "Wunderbare Arbeit – Ihr Ringplanet kreist zwischen den Sternen! Fügen Sie Monde, eine Rakete und bunte Wolken hinzu und erkunden Sie dann weiter mit dem <a href=\"/space/space-rover-dot-to-dot-puzzle/\">Space Rover-Puzzle</a>.",
+          "sections": [
+            {
+              "range": "1–11",
+              "title": "Die Spitze des Planeten",
+              "learn": "Verbinden Sie die Punkte 1 bis 11, um die gekrümmte Oberkante des fernen Planeten zu zeichnen.",
+              "fact": "Planeten schauen sich um, weil die Schwerkraft ihre Materie aus allen Richtungen zum Zentrum zieht."
+            },
+            {
+              "range": "12–22",
+              "title": "Der erste Ring",
+              "learn": "Fahren Sie von Punkt 12 bis Punkt 22 fort, um den ersten breiten Bogen des Ringsystems zu zeichnen.",
+              "fact": "Saturn hat Tausende schmaler Ringel, die aus der Ferne wie mehrere breite Ringe aussehen."
+            },
+            {
+              "range": "23–33",
+              "title": "Die untere Kurve des Planeten",
+              "learn": "Folgen Sie den Punkten 23 bis 33 um die untere Hälfte des Planeten und achten Sie darauf, dass die Kurve glatt bleibt.",
+              "fact": "Saturn ist ein Gasriese, der hauptsächlich aus Wasserstoff und Helium besteht, den beiden leichtesten Elementen."
+            },
+            {
+              "range": "34–43",
+              "title": "Die Ringe und das Ende",
+              "learn": "Schließen Sie mit den Punkten 34 bis 43 ab, um die Kehrringe auf der anderen Seite fertigzustellen.",
+              "fact": "Die Saturnringe sind sehr breit, aber im Vergleich zur Größe des Planeten überraschend dünn."
+            }
+          ],
+          "color_schemes": [
+            {
+              "name": "Ringed Planet: Klassische Farben aus dem echten Leben",
+              "note": "Diese vertraute Palette verwendet Farben, die häufig bei realen Motiven vorkommen.",
+              "mapping": [
+                {
+                  "range": "1–11",
+                  "part": "Die Spitze des Planeten",
+                  "color": "Crayola Silber",
+                  "hex": "#CDC5C2",
+                  "why": "Diese Farbe verleiht diesem Teil sein vertrautes, realitätsnahes Aussehen."
+                },
+                {
+                  "range": "12–22",
+                  "part": "Der erste Ring",
+                  "color": "Crayola Scarlet",
+                  "hex": "#FC2847",
+                  "why": "Diese Farbe verleiht diesem Teil sein vertrautes, realitätsnahes Aussehen."
+                },
+                {
+                  "range": "23–33",
+                  "part": "Die untere Kurve des Planeten",
+                  "color": "Crayola Schwarz",
+                  "hex": "#232323",
+                  "why": "Diese Farbe verleiht diesem Teil sein vertrautes, realitätsnahes Aussehen."
+                },
+                {
+                  "range": "34–43",
+                  "part": "Die Ringe und das Ende",
+                  "color": "Crayola Silber",
+                  "hex": "#CDC5C2",
+                  "why": "Diese Farbe verleiht diesem Teil sein vertrautes, realitätsnahes Aussehen."
+                }
+              ]
+            },
+            {
+              "name": "Ringplanet: Sanfte natürliche Farben",
+              "note": "Diese hellere Palette spiegelt eine echte sonnenbeschienene oder blasse Version des Motivs wider.",
+              "mapping": [
+                {
+                  "range": "1–11",
+                  "part": "Die Spitze des Planeten",
+                  "color": "Crayola Weiß",
+                  "hex": "#FFFFFF",
+                  "why": "Ein hellerer Farbton hilft zu zeigen, wie dieser Teil bei hellem Tageslicht aussehen kann."
+                },
+                {
+                  "range": "12–22",
+                  "part": "Der erste Ring",
+                  "color": "Crayola-Kornblume",
+                  "hex": "#9ACEEB",
+                  "why": "Ein hellerer Farbton hilft zu zeigen, wie dieser Teil bei hellem Tageslicht aussehen kann."
+                },
+                {
+                  "range": "23–33",
+                  "part": "Die untere Kurve des Planeten",
+                  "color": "Crayola Gray",
+                  "hex": "#95918C",
+                  "why": "Ein hellerer Farbton hilft zu zeigen, wie dieser Teil bei hellem Tageslicht aussehen kann."
+                },
+                {
+                  "range": "34–43",
+                  "part": "Die Ringe und das Ende",
+                  "color": "Crayola Weiß",
+                  "hex": "#FFFFFF",
+                  "why": "Ein hellerer Farbton hilft zu zeigen, wie dieser Teil bei hellem Tageslicht aussehen kann."
+                }
+              ]
+            },
+            {
+              "name": "Ringed Planet: Kräftige Farben aus dem echten Leben",
+              "note": "Diese stärkere Palette ist von echten Materialien, Markierungen oder bemalten Versionen inspiriert.",
+              "mapping": [
+                {
+                  "range": "1–11",
+                  "part": "Die Spitze des Planeten",
+                  "color": "Crayola-Orange",
+                  "hex": "#FF7538",
+                  "why": "Diese tiefere Farbe spiegelt eine echte Markierung, ein Material oder eine Lackierung wider."
+                },
+                {
+                  "range": "12–22",
+                  "part": "Der erste Ring",
+                  "color": "Crayola Goldrute",
+                  "hex": "#FCD975",
+                  "why": "Diese tiefere Farbe spiegelt eine echte Markierung, ein Material oder eine Lackierung wider."
+                },
+                {
+                  "range": "23–33",
+                  "part": "Die untere Kurve des Planeten",
+                  "color": "Crayola Mahagoni",
+                  "hex": "#CA3435",
+                  "why": "Diese tiefere Farbe spiegelt eine echte Markierung, ein Material oder eine Lackierung wider."
+                },
+                {
+                  "range": "34–43",
+                  "part": "Die Ringe und das Ende",
+                  "color": "Crayola-Orange",
+                  "hex": "#FF7538",
+                  "why": "Diese tiefere Farbe spiegelt eine echte Markierung, ein Material oder eine Lackierung wider."
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "slug": "space-rover-dot-to-dot-puzzle",
+      "header": {
+        "json_ld": {
+          "name": "Weltraumrover",
+          "type": "CreativeWork",
+          "educational_use": "Fine motor skills, number sequencing"
+        }
+      },
+      "body": {
+        "name": "Weltraumrover",
+        "tagline": "Ein freundlicher Entdecker auf Rädern",
+        "description": "Verbinde 59 Punkte, um einen freundlichen Weltraumrover zu entdecken, der bereit ist, eine andere Welt zu erkunden. Dieses kostenlos ausdruckbare Puzzle hilft Kindern beim Üben der Zahlenreihenfolge, der Konzentration und der Bleistiftkontrolle.",
+        "fun_fact": "Space Rover sind Roboterfahrzeuge, die die Oberflächen von Welten wie dem Mond und dem Mars erkunden.",
+        "dot_guide": {
+          "intro": "Bereit für eine Reise über die Erde hinaus? Folgen Sie den Zahlen von 1 bis 59 und beobachten Sie, wie ein freundlicher Weltraumrover auftaucht. Bewegen Sie sich langsam, überprüfen Sie jede Zahl und halten Sie Ihre Bleistiftlinien sauber, während Sie um das Fahrzeug herumfahren.",
+          "outro": "Mission abgeschlossen – Ihr Space Rover ist bereit für die Erkundung! Fügen Sie Sterne, Krater, Planeten oder einen freundlichen Außerirdischen hinzu, um Ihre eigene Weltraumszene zu erstellen.",
+          "sections": [
+            {
+              "range": "1–12",
+              "title": "Der Rover-Körper",
+              "learn": "Beginnen Sie bei Punkt 1 und verbinden Sie sich mit Punkt 12, um die freundliche Vorderseite und den robusten Körper des Rovers nachzuzeichnen.",
+              "fact": "Planetarische Rover transportieren Computer, Kameras und wissenschaftliche Werkzeuge in einem robusten Körper."
+            },
+            {
+              "range": "13–25",
+              "title": "Die ersten Räder",
+              "learn": "Fahren Sie von Punkt 13 bis Punkt 25 fort, um den unteren Körper und das erste robuste Rad zu formen.",
+              "fact": "Rover-Räder sind so konzipiert, dass sie losen Sand greifen und über Steine ​​rollen, ohne stecken zu bleiben."
+            },
+            {
+              "range": "26–38",
+              "title": "Das Radsystem",
+              "learn": "Verbinden Sie die Punkte 26 bis 38, um weitere Räder und Aufhängungen des Rovers fertigzustellen.",
+              "fact": "Die Marsrover der NASA verwenden eine Rocker-Bogie-Aufhängung, die dafür sorgt, dass alle sechs Räder auf unebenem Boden bleiben."
+            },
+            {
+              "range": "39–49",
+              "title": "Der Sitz und die Ausstattung",
+              "learn": "Zeichnen Sie die Punkte 39 bis 49 nach, um den Sitz und die Ausrüstung über dem Rover-Körper hinzuzufügen.",
+              "fact": "Einige Mondrover befördern Astronauten, während Roboterrover die Gegend erkunden, ohne dass jemand darin sitzt."
+            },
+            {
+              "range": "50–59",
+              "title": "Die Parabolantenne",
+              "learn": "Zum Abschluss verbinden Sie die Punkte 50 bis 59, um die Kommunikationsschüssel zu vervollständigen.",
+              "fact": "Ein Rover nutzt Antennen, um Entdeckungen zur Erde zu senden und neue Anweisungen zu empfangen."
+            }
+          ],
+          "color_schemes": [
+            {
+              "name": "Space Rover: Klassische Farben aus dem echten Leben",
+              "note": "Diese vertraute Palette verwendet Farben, die häufig bei realen Motiven vorkommen.",
+              "mapping": [
+                {
+                  "range": "1–12",
+                  "part": "Der Rover-Körper",
+                  "color": "Crayola Silber",
+                  "hex": "#CDC5C2",
+                  "why": "Diese Farbe verleiht diesem Teil sein vertrautes, realitätsnahes Aussehen."
+                },
+                {
+                  "range": "13–25",
+                  "part": "Die ersten Räder",
+                  "color": "Crayola Scarlet",
+                  "hex": "#FC2847",
+                  "why": "Diese Farbe verleiht diesem Teil sein vertrautes, realitätsnahes Aussehen."
+                },
+                {
+                  "range": "26–38",
+                  "part": "Das Radsystem",
+                  "color": "Crayola Schwarz",
+                  "hex": "#232323",
+                  "why": "Diese Farbe verleiht diesem Teil sein vertrautes, realitätsnahes Aussehen."
+                },
+                {
+                  "range": "39–49",
+                  "part": "Der Sitz und die Ausstattung",
+                  "color": "Crayola Silber",
+                  "hex": "#CDC5C2",
+                  "why": "Diese Farbe verleiht diesem Teil sein vertrautes, realitätsnahes Aussehen."
+                },
+                {
+                  "range": "50–59",
+                  "part": "Die Parabolantenne",
+                  "color": "Crayola Scarlet",
+                  "hex": "#FC2847",
+                  "why": "Diese Farbe verleiht diesem Teil sein vertrautes, realitätsnahes Aussehen."
+                }
+              ]
+            },
+            {
+              "name": "Space Rover: Sanfte natürliche Farben",
+              "note": "Diese hellere Palette spiegelt eine echte sonnenbeschienene oder blasse Version des Motivs wider.",
+              "mapping": [
+                {
+                  "range": "1–12",
+                  "part": "Der Rover-Körper",
+                  "color": "Crayola Weiß",
+                  "hex": "#FFFFFF",
+                  "why": "Ein hellerer Farbton hilft zu zeigen, wie dieser Teil bei hellem Tageslicht aussehen kann."
+                },
+                {
+                  "range": "13–25",
+                  "part": "Die ersten Räder",
+                  "color": "Crayola-Kornblume",
+                  "hex": "#9ACEEB",
+                  "why": "Ein hellerer Farbton hilft zu zeigen, wie dieser Teil bei hellem Tageslicht aussehen kann."
+                },
+                {
+                  "range": "26–38",
+                  "part": "Das Radsystem",
+                  "color": "Crayola Gray",
+                  "hex": "#95918C",
+                  "why": "Ein hellerer Farbton hilft zu zeigen, wie dieser Teil bei hellem Tageslicht aussehen kann."
+                },
+                {
+                  "range": "39–49",
+                  "part": "Der Sitz und die Ausstattung",
+                  "color": "Crayola Weiß",
+                  "hex": "#FFFFFF",
+                  "why": "Ein hellerer Farbton hilft zu zeigen, wie dieser Teil bei hellem Tageslicht aussehen kann."
+                },
+                {
+                  "range": "50–59",
+                  "part": "Die Parabolantenne",
+                  "color": "Crayola-Kornblume",
+                  "hex": "#9ACEEB",
+                  "why": "Ein hellerer Farbton hilft zu zeigen, wie dieser Teil bei hellem Tageslicht aussehen kann."
+                }
+              ]
+            },
+            {
+              "name": "Space Rover: Kräftige Farben aus dem echten Leben",
+              "note": "Diese stärkere Palette ist von echten Materialien, Markierungen oder bemalten Versionen inspiriert.",
+              "mapping": [
+                {
+                  "range": "1–12",
+                  "part": "Der Rover-Körper",
+                  "color": "Crayola-Orange",
+                  "hex": "#FF7538",
+                  "why": "Diese tiefere Farbe spiegelt eine echte Markierung, ein Material oder eine Lackierung wider."
+                },
+                {
+                  "range": "13–25",
+                  "part": "Die ersten Räder",
+                  "color": "Crayola Goldrute",
+                  "hex": "#FCD975",
+                  "why": "Diese tiefere Farbe spiegelt eine echte Markierung, ein Material oder eine Lackierung wider."
+                },
+                {
+                  "range": "26–38",
+                  "part": "Das Radsystem",
+                  "color": "Crayola Mahagoni",
+                  "hex": "#CA3435",
+                  "why": "Diese tiefere Farbe spiegelt eine echte Markierung, ein Material oder eine Lackierung wider."
+                },
+                {
+                  "range": "39–49",
+                  "part": "Der Sitz und die Ausstattung",
+                  "color": "Crayola-Orange",
+                  "hex": "#FF7538",
+                  "why": "Diese tiefere Farbe spiegelt eine echte Markierung, ein Material oder eine Lackierung wider."
+                },
+                {
+                  "range": "50–59",
+                  "part": "Die Parabolantenne",
+                  "color": "Crayola Goldrute",
+                  "hex": "#FCD975",
+                  "why": "Diese tiefere Farbe spiegelt eine echte Markierung, ein Material oder eine Lackierung wider."
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

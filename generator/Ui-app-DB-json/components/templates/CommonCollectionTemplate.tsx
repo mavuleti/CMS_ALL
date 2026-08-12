@@ -29,8 +29,8 @@ export async function generateCollectionMetadata({ params }: CollectionRouteProp
   return buildCommonHeaderMetadata({
     locale,
     path: `/${slug}`,
-    title: header.title,
-    description: header.meta_description,
+    title: header.title ?? category.h1,
+    description: header.meta_description ?? category.description,
     type: 'website',
     ogTitle: header.og?.title,
     ogDescription: header.og?.description,

@@ -1,0 +1,509 @@
+{
+  "collection": {},
+  "puzzles": [
+    {
+      "slug": "crescent-moon-dot-to-dot-puzzle",
+      "header": {
+        "json_ld": {
+          "name": "Kuunsirppi",
+          "type": "CreativeWork",
+          "educational_use": "Fine motor skills, number sequencing"
+        }
+      },
+      "body": {
+        "name": "Kuunsirppi",
+        "tagline": "Jäljitä loistava pala yötaivasta!",
+        "description": "Yhdistä 60 helppoa pistettä paljastaaksesi kauniin kuunsirpin, joka loistaa yötaivaalla. Tämä ilmainen tulostettava auttaa lapsia harjoittelemaan numerojärjestystä, visuaalista seuraamista, keskittymistä ja sujuvaa kynänhallintaa.",
+        "fun_fact": "Kuunsirppi ilmestyy, kun auringonvalo valaisee vain ohuen kaarevan osan Kuusta, jonka voimme nähdä Maasta.",
+        "dot_guide": {
+          "intro": "Kapea kuunsirppi on yksi yötaivaan tunnistettavimmista muodoista. Tämä ystävällinen 60-pisteinen pulma rakentaa sen ulkokaarta, teräviä kärkiä ja sisäkaarta viidessä hallittavassa vaiheessa. Etsi piste 1 ja anna kuusi alkaa loistaa!",
+          "outro": "Kaunis työ—kuun sirppisi loistaa! Lisää tähtiä, unisia pilviä tai raketti, joka kulkee taivaalla, ja sitten löydä <a href=\"/space/ringed-planet-dot-to-dot-puzzle/\">renkaallisen planeetan pulma</a>.",
+          "sections": [
+            {
+              "range": "1–12",
+              "title": "Yläsirpin kärki",
+              "learn": "Yhdistä pisteet 1–12 muotoillaksesi kuunsirpin kapean yläpisteen.",
+              "fact": "Kuu ei tuota omaa valoa; se loistaa heijastamalla auringonvaloa."
+            },
+            {
+              "range": "13–24",
+              "title": "Ulkokaari",
+              "learn": "Jatka pisteestä 13 pisteeseen 24 pitkin Kuun leveää ulkokaarta.",
+              "fact": "Painovoima teki Kuusta lähes pyöreän, aivan kuten se tekee planeetoista pyöreitä."
+            },
+            {
+              "range": "25–36",
+              "title": "Alasirpinki",
+              "learn": "Seuraa pisteitä 25–36 muotoillaksesi alaspisteen ja käänny sisäkaarta kohti.",
+              "fact": "Kuun pinta on peitetty kraattereilla, jotka ovat syntyneet kivien iskeytyessä siihen miljardien vuosien aikana."
+            },
+            {
+              "range": "37–48",
+              "title": "Sisäkuunsirppi",
+              "learn": "Jäljitä pisteitä 37–48 sisäkaarta pitkin, pitäen kynäviivan sujuvana.",
+              "fact": "Kuulla kestää noin 29,5 päivää kulkea läpi täydellisen vaiheiden sykli."
+            },
+            {
+              "range": "49–60",
+              "title": "Loisto ja viimeistely",
+              "learn": "Viimeistele pisteillä 49–60 sulkeaksesi kuunsirpin ja lisätäksesi sen viimeiset yksityiskohdat.",
+              "fact": "Ihmiset ympäri maailmaa näkevät saman Kuun, vaikka sen kuunsirppi voi näyttää kallistuvan eri tavalla sijainnista riippuen."
+            }
+          ],
+          "color_schemes": [
+            {
+              "name": "Kuunsirppi: Klassiset aidot värit",
+              "note": "Tässä tutussa paletissa käytetään oikeassa kohteessa yleisesti näkyviä värejä.",
+              "mapping": [
+                {
+                  "range": "1–12",
+                  "part": "Yläsirpin kärki",
+                  "color": "Crayola Silver",
+                  "hex": "#CDC5C2",
+                  "why": "Tämä väri antaa osalle sen tutun, aidon ilmeen."
+                },
+                {
+                  "range": "13–24",
+                  "part": "Ulkokaari",
+                  "color": "Crayola Scarlet",
+                  "hex": "#FC2847",
+                  "why": "Tämä väri antaa osalle sen tutun, aidon ilmeen."
+                },
+                {
+                  "range": "25–36",
+                  "part": "Alasirpinki",
+                  "color": "Crayola Black",
+                  "hex": "#232323",
+                  "why": "Tämä väri antaa osalle sen tutun, aidon ilmeen."
+                },
+                {
+                  "range": "37–48",
+                  "part": "Sisäkuunsirppi",
+                  "color": "Crayola Silver",
+                  "hex": "#CDC5C2",
+                  "why": "Tämä väri antaa osalle sen tutun, aidon ilmeen."
+                },
+                {
+                  "range": "49–60",
+                  "part": "Loisto ja viimeistely",
+                  "color": "Crayola Scarlet",
+                  "hex": "#FC2847",
+                  "why": "Tämä väri antaa osalle sen tutun, aidon ilmeen."
+                }
+              ]
+            },
+            {
+              "name": "Kuunsirppi: Pehmeät luonnonvärit",
+              "note": "Tämä vaaleampi paletti kuvaa kohteen aitoa vaaleaa tai auringon valaisemaa versiota.",
+              "mapping": [
+                {
+                  "range": "1–12",
+                  "part": "Yläsirpin kärki",
+                  "color": "Crayola White",
+                  "hex": "#FFFFFF",
+                  "why": "Vaaleampi sävy näyttää, miltä osa voi näyttää kirkkaassa päivänvalossa."
+                },
+                {
+                  "range": "13–24",
+                  "part": "Ulkokaari",
+                  "color": "Crayola Cornflower",
+                  "hex": "#9ACEEB",
+                  "why": "Vaaleampi sävy näyttää, miltä osa voi näyttää kirkkaassa päivänvalossa."
+                },
+                {
+                  "range": "25–36",
+                  "part": "Alasirpinki",
+                  "color": "Crayola Gray",
+                  "hex": "#95918C",
+                  "why": "Vaaleampi sävy näyttää, miltä osa voi näyttää kirkkaassa päivänvalossa."
+                },
+                {
+                  "range": "37–48",
+                  "part": "Sisäkuunsirppi",
+                  "color": "Crayola White",
+                  "hex": "#FFFFFF",
+                  "why": "Vaaleampi sävy näyttää, miltä osa voi näyttää kirkkaassa päivänvalossa."
+                },
+                {
+                  "range": "49–60",
+                  "part": "Loisto ja viimeistely",
+                  "color": "Crayola Cornflower",
+                  "hex": "#9ACEEB",
+                  "why": "Vaaleampi sävy näyttää, miltä osa voi näyttää kirkkaassa päivänvalossa."
+                }
+              ]
+            },
+            {
+              "name": "Kuunsirppi: Voimakkaat aidot värit",
+              "note": "Tämä voimakas paletti perustuu oikeisiin materiaaleihin, kuvioihin tai maalattuihin pintoihin.",
+              "mapping": [
+                {
+                  "range": "1–12",
+                  "part": "Yläsirpin kärki",
+                  "color": "Crayola Orange",
+                  "hex": "#FF7538",
+                  "why": "Tämä syvempi väri vastaa aitoa kuviota, materiaalia tai maalipintaa."
+                },
+                {
+                  "range": "13–24",
+                  "part": "Ulkokaari",
+                  "color": "Crayola Goldenrod",
+                  "hex": "#FCD975",
+                  "why": "Tämä syvempi väri vastaa aitoa kuviota, materiaalia tai maalipintaa."
+                },
+                {
+                  "range": "25–36",
+                  "part": "Alasirpinki",
+                  "color": "Crayola Mahogany",
+                  "hex": "#CA3435",
+                  "why": "Tämä syvempi väri vastaa aitoa kuviota, materiaalia tai maalipintaa."
+                },
+                {
+                  "range": "37–48",
+                  "part": "Sisäkuunsirppi",
+                  "color": "Crayola Orange",
+                  "hex": "#FF7538",
+                  "why": "Tämä syvempi väri vastaa aitoa kuviota, materiaalia tai maalipintaa."
+                },
+                {
+                  "range": "49–60",
+                  "part": "Loisto ja viimeistely",
+                  "color": "Crayola Goldenrod",
+                  "hex": "#FCD975",
+                  "why": "Tämä syvempi väri vastaa aitoa kuviota, materiaalia tai maalipintaa."
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "slug": "ringed-planet-dot-to-dot-puzzle",
+      "header": {
+        "json_ld": {
+          "name": "Renkaallinen Planeetta",
+          "type": "CreativeWork",
+          "educational_use": "Fine motor skills, number sequencing"
+        }
+      },
+      "body": {
+        "name": "Renkaallinen Planeetta",
+        "tagline": "Piirrä maailma, joka on kääritty loistaviin renkaisiin!",
+        "description": "Yhdistä 43 helppoa pistettä paljastaaksesi kauniin renkaallisen planeetan, joka leijuu avaruudessa. Tämä ilmainen tulostettava auttaa nuorempia lapsia harjoittelemaan numerojärjestystä, visuaalista seurantaa, keskittymistä ja vakaata kynäntuntumaa.",
+        "fun_fact": "Saturnuksen renkaat koostuvat lukemattomista jää- ja kivipaloista, jotka vaihtelevat pienistä jyvistä talojen kokoisiin palasiin.",
+        "dot_guide": {
+          "intro": "Kauas Maan ylle, valtava planeetta pyörii samalla kun leveät renkaat kiertävät sen ympäri. Tämä ystävällinen 43-pisteinen pulma luo planeetan ja sen renkaat neljässä lyhyessä vaiheessa, mikä tekee siitä hauskan ensimmäisen avaruushaasteen. Etsi piste 1 ja aloita matkasi!",
+          "outro": "Upea työ—renkaallinen planeettasi kiertää tähtien keskellä! Lisää kuita, raketti ja värikkäitä pilviä, ja jatka tutkimista <a href=\"/space/space-rover-dot-to-dot-puzzle/\">avaruusroverin pulman</a> avulla.",
+          "sections": [
+            {
+              "range": "1–11",
+              "title": "Planeetan Huippu",
+              "learn": "Yhdistä pisteet 1–11 piirtääksesi kaukaisen planeetan kaarevan yläreunan.",
+              "fact": "Planeetat näyttävät pyöreiltä, koska painovoima vetää niiden materiaalia kohti keskustaa joka suunnasta."
+            },
+            {
+              "range": "12–22",
+              "title": "Ensimmäinen Rengas",
+              "learn": "Jatka pisteestä 12 pisteeseen 22 jäljittääksesi ensimmäisen leveän kaaren rengasjärjestelmässä.",
+              "fact": "Saturnuksella on tuhansia kapeita renkaita, jotka näyttävät useilta leveiltä renkaalta, kun niitä katsotaan kaukaa."
+            },
+            {
+              "range": "23–33",
+              "title": "Planeetan Alareuna",
+              "learn": "Seuraa pisteitä 23–33 planeetan alapuolella, pitäen kaaren sujuvana.",
+              "fact": "Saturnus on kaasujättiläinen, joka koostuu pääasiassa vedystä ja heliumista, kahdesta kevyimmästä alkuaineesta."
+            },
+            {
+              "range": "34–43",
+              "title": "Renkaat ja Valmis",
+              "learn": "Viimeistele pisteillä 34–43 täydentääksesi pyöriviä renkaita toisella puolella.",
+              "fact": "Saturnuksen renkaat ovat hyvin leveät mutta yllättävän ohuet verrattuna planeetan kokoon."
+            }
+          ],
+          "color_schemes": [
+            {
+              "name": "Renkaallinen Planeetta: Klassiset aidot värit",
+              "note": "Tässä tutussa paletissa käytetään oikeassa kohteessa yleisesti näkyviä värejä.",
+              "mapping": [
+                {
+                  "range": "1–11",
+                  "part": "Planeetan Huippu",
+                  "color": "Crayola Silver",
+                  "hex": "#CDC5C2",
+                  "why": "Tämä väri antaa osalle sen tutun, aidon ilmeen."
+                },
+                {
+                  "range": "12–22",
+                  "part": "Ensimmäinen Rengas",
+                  "color": "Crayola Scarlet",
+                  "hex": "#FC2847",
+                  "why": "Tämä väri antaa osalle sen tutun, aidon ilmeen."
+                },
+                {
+                  "range": "23–33",
+                  "part": "Planeetan Alareuna",
+                  "color": "Crayola Black",
+                  "hex": "#232323",
+                  "why": "Tämä väri antaa osalle sen tutun, aidon ilmeen."
+                },
+                {
+                  "range": "34–43",
+                  "part": "Renkaat ja Valmis",
+                  "color": "Crayola Silver",
+                  "hex": "#CDC5C2",
+                  "why": "Tämä väri antaa osalle sen tutun, aidon ilmeen."
+                }
+              ]
+            },
+            {
+              "name": "Renkaallinen Planeetta: Pehmeät luonnonvärit",
+              "note": "Tämä vaaleampi paletti kuvaa kohteen aitoa vaaleaa tai auringon valaisemaa versiota.",
+              "mapping": [
+                {
+                  "range": "1–11",
+                  "part": "Planeetan Huippu",
+                  "color": "Crayola White",
+                  "hex": "#FFFFFF",
+                  "why": "Vaaleampi sävy näyttää, miltä osa voi näyttää kirkkaassa päivänvalossa."
+                },
+                {
+                  "range": "12–22",
+                  "part": "Ensimmäinen Rengas",
+                  "color": "Crayola Cornflower",
+                  "hex": "#9ACEEB",
+                  "why": "Vaaleampi sävy näyttää, miltä osa voi näyttää kirkkaassa päivänvalossa."
+                },
+                {
+                  "range": "23–33",
+                  "part": "Planeetan Alareuna",
+                  "color": "Crayola Gray",
+                  "hex": "#95918C",
+                  "why": "Vaaleampi sävy näyttää, miltä osa voi näyttää kirkkaassa päivänvalossa."
+                },
+                {
+                  "range": "34–43",
+                  "part": "Renkaat ja Valmis",
+                  "color": "Crayola White",
+                  "hex": "#FFFFFF",
+                  "why": "Vaaleampi sävy näyttää, miltä osa voi näyttää kirkkaassa päivänvalossa."
+                }
+              ]
+            },
+            {
+              "name": "Renkaallinen Planeetta: Voimakkaat aidot värit",
+              "note": "Tämä voimakas paletti perustuu oikeisiin materiaaleihin, kuvioihin tai maalattuihin pintoihin.",
+              "mapping": [
+                {
+                  "range": "1–11",
+                  "part": "Planeetan Huippu",
+                  "color": "Crayola Orange",
+                  "hex": "#FF7538",
+                  "why": "Tämä syvempi väri vastaa aitoa kuviota, materiaalia tai maalipintaa."
+                },
+                {
+                  "range": "12–22",
+                  "part": "Ensimmäinen Rengas",
+                  "color": "Crayola Goldenrod",
+                  "hex": "#FCD975",
+                  "why": "Tämä syvempi väri vastaa aitoa kuviota, materiaalia tai maalipintaa."
+                },
+                {
+                  "range": "23–33",
+                  "part": "Planeetan Alareuna",
+                  "color": "Crayola Mahogany",
+                  "hex": "#CA3435",
+                  "why": "Tämä syvempi väri vastaa aitoa kuviota, materiaalia tai maalipintaa."
+                },
+                {
+                  "range": "34–43",
+                  "part": "Renkaat ja Valmis",
+                  "color": "Crayola Orange",
+                  "hex": "#FF7538",
+                  "why": "Tämä syvempi väri vastaa aitoa kuviota, materiaalia tai maalipintaa."
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "slug": "space-rover-dot-to-dot-puzzle",
+      "header": {
+        "json_ld": {
+          "name": "Avaruusrover",
+          "type": "CreativeWork",
+          "educational_use": "Fine motor skills, number sequencing"
+        }
+      },
+      "body": {
+        "name": "Avaruusrover",
+        "tagline": "Ystävällinen tutkija pyörillä",
+        "description": "Yhdistä 59 pistettä paljastaaksesi ystävällisen avaruusroverin, joka on valmis tutkimaan toista maailmaa. Tämä ilmainen tulostettava pulma auttaa lapsia harjoittelemaan numerojärjestystä, keskittymistä ja lyijykynän hallintaa.",
+        "fun_fact": "Avaruusroverit ovat robottiajoneuvoja, jotka tutkivat maailmojen, kuten Kuun ja Marsin, pintoja.",
+        "dot_guide": {
+          "intro": "Valmiina matkalle Maapallon ulkopuolelle? Seuraa numeroita 1–59 ja katso, kuinka ystävällinen avaruusroveri ilmestyy. Liiku hitaasti, tarkista jokainen numero ja pidä lyijykynäviivat siisteinä matkustaessasi ajoneuvon ympäri.",
+          "outro": "Tehtävä suoritettu—avaruusroverisi on valmis tutkimaan! Lisää tähtiä, kraattereita, planeettoja tai ystävällinen avaruusolento luodaksesi oman avaruuskohtauksen.",
+          "sections": [
+            {
+              "range": "1–12",
+              "title": "Roverin runko",
+              "learn": "Aloita pisteestä 1 ja yhdistä pisteeseen 12 jäljittääksesi roverin ystävällisen etuosan ja tukevan rungon.",
+              "fact": "Planeettarovertit kuljettavat tietokoneita, kameroita ja tieteellisiä työkaluja kovan rungon sisällä."
+            },
+            {
+              "range": "13–25",
+              "title": "Ensimmäiset pyörät",
+              "learn": "Jatka pisteestä 13 pisteeseen 25 muotoillaksesi alempaa runkoa ja ensimmäistä karkeaa pyörää.",
+              "fact": "Roverin pyörät on suunniteltu tarttumaan irtonaiseen hiekkaan ja rullaamaan kivien yli jäämättä jumiin."
+            },
+            {
+              "range": "26–38",
+              "title": "Pyöräjärjestelmä",
+              "learn": "Yhdistä pisteet 26–38 täydentääksesi lisää roverin pyöriä ja jousitusta.",
+              "fact": "NASAn Mars-roverit käyttävät rocker-bogie-jousitusta, joka auttaa kaikkia kuutta pyörää pysymään epätasaisella maalla."
+            },
+            {
+              "range": "39–49",
+              "title": "Istuimen ja varusteet",
+              "learn": "Jäljitä pisteet 39–49 lisätäksesi istuimen ja varusteet roverin rungon ylle.",
+              "fact": "Jotkut kuuroverit kuljettavat astronautteja, kun taas robottiroverit tutkivat ilman ketään istumassa sisällä."
+            },
+            {
+              "range": "50–59",
+              "title": "Astian antenni",
+              "learn": "Viimeistele yhdistämällä pisteet 50–59 täydentääksesi viestintäastian.",
+              "fact": "Roveri käyttää antenneja lähettääkseen löytöjä Maahan ja vastaanottaakseen uusia ohjeita."
+            }
+          ],
+          "color_schemes": [
+            {
+              "name": "Avaruusrover: Klassiset aidot värit",
+              "note": "Tässä tutussa paletissa käytetään oikeassa kohteessa yleisesti näkyviä värejä.",
+              "mapping": [
+                {
+                  "range": "1–12",
+                  "part": "Roverin runko",
+                  "color": "Crayola Silver",
+                  "hex": "#CDC5C2",
+                  "why": "Tämä väri antaa osalle sen tutun, aidon ilmeen."
+                },
+                {
+                  "range": "13–25",
+                  "part": "Ensimmäiset pyörät",
+                  "color": "Crayola Scarlet",
+                  "hex": "#FC2847",
+                  "why": "Tämä väri antaa osalle sen tutun, aidon ilmeen."
+                },
+                {
+                  "range": "26–38",
+                  "part": "Pyöräjärjestelmä",
+                  "color": "Crayola Black",
+                  "hex": "#232323",
+                  "why": "Tämä väri antaa osalle sen tutun, aidon ilmeen."
+                },
+                {
+                  "range": "39–49",
+                  "part": "Istuimen ja varusteet",
+                  "color": "Crayola Silver",
+                  "hex": "#CDC5C2",
+                  "why": "Tämä väri antaa osalle sen tutun, aidon ilmeen."
+                },
+                {
+                  "range": "50–59",
+                  "part": "Astian antenni",
+                  "color": "Crayola Scarlet",
+                  "hex": "#FC2847",
+                  "why": "Tämä väri antaa osalle sen tutun, aidon ilmeen."
+                }
+              ]
+            },
+            {
+              "name": "Avaruusrover: Pehmeät luonnonvärit",
+              "note": "Tämä vaaleampi paletti kuvaa kohteen aitoa vaaleaa tai auringon valaisemaa versiota.",
+              "mapping": [
+                {
+                  "range": "1–12",
+                  "part": "Roverin runko",
+                  "color": "Crayola White",
+                  "hex": "#FFFFFF",
+                  "why": "Vaaleampi sävy näyttää, miltä osa voi näyttää kirkkaassa päivänvalossa."
+                },
+                {
+                  "range": "13–25",
+                  "part": "Ensimmäiset pyörät",
+                  "color": "Crayola Cornflower",
+                  "hex": "#9ACEEB",
+                  "why": "Vaaleampi sävy näyttää, miltä osa voi näyttää kirkkaassa päivänvalossa."
+                },
+                {
+                  "range": "26–38",
+                  "part": "Pyöräjärjestelmä",
+                  "color": "Crayola Gray",
+                  "hex": "#95918C",
+                  "why": "Vaaleampi sävy näyttää, miltä osa voi näyttää kirkkaassa päivänvalossa."
+                },
+                {
+                  "range": "39–49",
+                  "part": "Istuimen ja varusteet",
+                  "color": "Crayola White",
+                  "hex": "#FFFFFF",
+                  "why": "Vaaleampi sävy näyttää, miltä osa voi näyttää kirkkaassa päivänvalossa."
+                },
+                {
+                  "range": "50–59",
+                  "part": "Astian antenni",
+                  "color": "Crayola Cornflower",
+                  "hex": "#9ACEEB",
+                  "why": "Vaaleampi sävy näyttää, miltä osa voi näyttää kirkkaassa päivänvalossa."
+                }
+              ]
+            },
+            {
+              "name": "Avaruusrover: Voimakkaat aidot värit",
+              "note": "Tämä voimakas paletti perustuu oikeisiin materiaaleihin, kuvioihin tai maalattuihin pintoihin.",
+              "mapping": [
+                {
+                  "range": "1–12",
+                  "part": "Roverin runko",
+                  "color": "Crayola Orange",
+                  "hex": "#FF7538",
+                  "why": "Tämä syvempi väri vastaa aitoa kuviota, materiaalia tai maalipintaa."
+                },
+                {
+                  "range": "13–25",
+                  "part": "Ensimmäiset pyörät",
+                  "color": "Crayola Goldenrod",
+                  "hex": "#FCD975",
+                  "why": "Tämä syvempi väri vastaa aitoa kuviota, materiaalia tai maalipintaa."
+                },
+                {
+                  "range": "26–38",
+                  "part": "Pyöräjärjestelmä",
+                  "color": "Crayola Mahogany",
+                  "hex": "#CA3435",
+                  "why": "Tämä syvempi väri vastaa aitoa kuviota, materiaalia tai maalipintaa."
+                },
+                {
+                  "range": "39–49",
+                  "part": "Istuimen ja varusteet",
+                  "color": "Crayola Orange",
+                  "hex": "#FF7538",
+                  "why": "Tämä syvempi väri vastaa aitoa kuviota, materiaalia tai maalipintaa."
+                },
+                {
+                  "range": "50–59",
+                  "part": "Astian antenni",
+                  "color": "Crayola Goldenrod",
+                  "hex": "#FCD975",
+                  "why": "Tämä syvempi väri vastaa aitoa kuviota, materiaalia tai maalipintaa."
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

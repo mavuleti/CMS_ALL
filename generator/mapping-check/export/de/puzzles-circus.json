@@ -1,0 +1,359 @@
+{
+  "collection": {},
+  "puzzles": [
+    {
+      "slug": "circus-ringmaster-bear-dot-to-dot-puzzle",
+      "header": {
+        "json_ld": {
+          "name": "Zirkusdirektor Bär",
+          "type": "CreativeWork",
+          "educational_use": "Fine motor skills, number sequencing"
+        }
+      },
+      "body": {
+        "name": "Zirkusdirektor Bär",
+        "tagline": "Lernen Sie den Bären kennen, der die große Show leitet!",
+        "description": "Verbinde 74 Punkte, um einen freundlichen Bären zu entdecken, der als Zirkusdirektor verkleidet ist. Dieser Ausdruck für Fortgeschrittene hilft Kindern beim Üben der Zahlenreihenfolge, der Konzentration, der visuellen Verfolgung und der sorgfältigen Bleistiftkontrolle.",
+        "fun_fact": "Ein Zirkusdirektor stellt die Darsteller vor und führt das Publikum von einem Akt zum nächsten.",
+        "dot_guide": {
+          "intro": "Mit schickem Mantel, hohem Hut und selbstbewusster Pose ist dieser freundliche Bär bereit, jeden im Zirkus willkommen zu heißen. Die 74-Punkte-Herausforderung ist für Kinder, die mit längeren Zahlenfolgen vertraut sind, in fünf übersichtliche Stufen unterteilt. Finden Sie Punkt 1 und lassen Sie die Show beginnen!",
+          "outro": "Fantastische Arbeit – der Zirkusdirektor-Bär ist bereit, die Show anzukündigen! Färben Sie das Kostüm in kräftigen Rot- und Goldtönen und fügen Sie dann Scheinwerfer und ein begeistertes Publikum hinzu. Vervollständigen Sie die Szene mit dem <a href=\"/circus/circus-tent-dot-to-dot-puzzle/\">Zirkuszelt-Puzzle</a>.",
+          "sections": [
+            {
+              "range": "1–15",
+              "title": "Der Hut des Zirkusdirektors",
+              "learn": "Verbinde die Punkte 1 bis 15, um den hohen Hut und die abgerundeten Ohren des Bären zu zeichnen.",
+              "fact": "Zirkusdirektoren tragen oft auffällige formelle Kostüme, damit das Publikum sie im Ring leicht erkennen kann."
+            },
+            {
+              "range": "16–30",
+              "title": "Das Gesicht des Bären",
+              "learn": "Fahren Sie von Punkt 16 bis Punkt 30 fort, um den Kopf, die Schnauze und den fröhlichen Ausdruck des Bären zu formen.",
+              "fact": "Der Geruchssinn eines Bären ist extrem stark und hilft ihm, Nahrung über große Entfernungen zu finden."
+            },
+            {
+              "range": "31–45",
+              "title": "Die smarte Jacke",
+              "learn": "Folgen Sie den Punkten 31 bis 45, um die verzierte Jacke und das Revers des Zirkusdirektors zu formen.",
+              "fact": "Helle Jacken, glänzende Knöpfe und Zierbesatz verleihen dem Kostüm eines Zirkusdirektors einen theatralischen Look."
+            },
+            {
+              "range": "46–60",
+              "title": "Die Arme und die Showpose",
+              "learn": "Zeichnen Sie die Punkte 46 bis 60 nach, um die Arme des Bären und die einladende Performance-Pose hinzuzufügen.",
+              "fact": "Zirkusdirektoren nutzen klare Gesten und eine starke Stimme, um die Aufmerksamkeit auf den nächsten Akt zu lenken."
+            },
+            {
+              "range": "61–74",
+              "title": "Die Stiefel und das Finish",
+              "learn": "Beenden Sie die Zeichnung mit den Punkten 61 bis 74, um die Beine, Stiefel und die letzten Kostümdetails zu zeichnen.",
+              "fact": "Eine Zirkusmanege ist traditionell kreisförmig, sodass die Zuschauer die Aufführung aus vielen Blickwinkeln betrachten können."
+            }
+          ],
+          "color_schemes": [
+            {
+              "name": "Zirkusdirektor-Bär: Klassische, echte Farben",
+              "note": "Diese vertraute Palette verwendet Farben, die häufig bei realen Motiven vorkommen.",
+              "mapping": [
+                {
+                  "range": "1–15",
+                  "part": "Der Hut des Zirkusdirektors",
+                  "color": "Crayola Scarlet",
+                  "hex": "#FC2847",
+                  "why": "Diese Farbe verleiht diesem Teil sein vertrautes, realitätsnahes Aussehen."
+                },
+                {
+                  "range": "16–30",
+                  "part": "Das Gesicht des Bären",
+                  "color": "Crayola Himmelblau",
+                  "hex": "#80DAEB",
+                  "why": "Diese Farbe verleiht diesem Teil sein vertrautes, realitätsnahes Aussehen."
+                },
+                {
+                  "range": "31–45",
+                  "part": "Die smarte Jacke",
+                  "color": "Crayola Goldrute",
+                  "hex": "#FCD975",
+                  "why": "Diese Farbe verleiht diesem Teil sein vertrautes, realitätsnahes Aussehen."
+                },
+                {
+                  "range": "46–60",
+                  "part": "Die Arme und die Showpose",
+                  "color": "Crayola Scarlet",
+                  "hex": "#FC2847",
+                  "why": "Diese Farbe verleiht diesem Teil sein vertrautes, realitätsnahes Aussehen."
+                },
+                {
+                  "range": "61–74",
+                  "part": "Die Stiefel und das Finish",
+                  "color": "Crayola Himmelblau",
+                  "hex": "#80DAEB",
+                  "why": "Diese Farbe verleiht diesem Teil sein vertrautes, realitätsnahes Aussehen."
+                }
+              ]
+            },
+            {
+              "name": "Zirkusdirektor Bär: Sanfte natürliche Farben",
+              "note": "Diese hellere Palette spiegelt eine echte sonnenbeschienene oder blasse Version des Motivs wider.",
+              "mapping": [
+                {
+                  "range": "1–15",
+                  "part": "Der Hut des Zirkusdirektors",
+                  "color": "Crayola Silber",
+                  "hex": "#CDC5C2",
+                  "why": "Ein hellerer Farbton hilft zu zeigen, wie dieser Teil bei hellem Tageslicht aussehen kann."
+                },
+                {
+                  "range": "16–30",
+                  "part": "Das Gesicht des Bären",
+                  "color": "Crayola Tan",
+                  "hex": "#FAA76C",
+                  "why": "Ein hellerer Farbton hilft zu zeigen, wie dieser Teil bei hellem Tageslicht aussehen kann."
+                },
+                {
+                  "range": "31–45",
+                  "part": "Die smarte Jacke",
+                  "color": "Crayola Meergrün",
+                  "hex": "#93DFB8",
+                  "why": "Ein hellerer Farbton hilft zu zeigen, wie dieser Teil bei hellem Tageslicht aussehen kann."
+                },
+                {
+                  "range": "46–60",
+                  "part": "Die Arme und die Showpose",
+                  "color": "Crayola Silber",
+                  "hex": "#CDC5C2",
+                  "why": "Ein hellerer Farbton hilft zu zeigen, wie dieser Teil bei hellem Tageslicht aussehen kann."
+                },
+                {
+                  "range": "61–74",
+                  "part": "Die Stiefel und das Finish",
+                  "color": "Crayola Tan",
+                  "hex": "#FAA76C",
+                  "why": "Ein hellerer Farbton hilft zu zeigen, wie dieser Teil bei hellem Tageslicht aussehen kann."
+                }
+              ]
+            },
+            {
+              "name": "Zirkusdirektor-Bär: Kräftige Farben aus dem echten Leben",
+              "note": "Diese stärkere Palette ist von echten Materialien, Markierungen oder bemalten Versionen inspiriert.",
+              "mapping": [
+                {
+                  "range": "1–15",
+                  "part": "Der Hut des Zirkusdirektors",
+                  "color": "Crayola Waldgrün",
+                  "hex": "#5FA777",
+                  "why": "Diese tiefere Farbe spiegelt eine echte Markierung, ein Material oder eine Lackierung wider."
+                },
+                {
+                  "range": "16–30",
+                  "part": "Das Gesicht des Bären",
+                  "color": "Crayola Brown",
+                  "hex": "#AF593E",
+                  "why": "Diese tiefere Farbe spiegelt eine echte Markierung, ein Material oder eine Lackierung wider."
+                },
+                {
+                  "range": "31–45",
+                  "part": "Die smarte Jacke",
+                  "color": "Crayola-Orange",
+                  "hex": "#FF7538",
+                  "why": "Diese tiefere Farbe spiegelt eine echte Markierung, ein Material oder eine Lackierung wider."
+                },
+                {
+                  "range": "46–60",
+                  "part": "Die Arme und die Showpose",
+                  "color": "Crayola Waldgrün",
+                  "hex": "#5FA777",
+                  "why": "Diese tiefere Farbe spiegelt eine echte Markierung, ein Material oder eine Lackierung wider."
+                },
+                {
+                  "range": "61–74",
+                  "part": "Die Stiefel und das Finish",
+                  "color": "Crayola Brown",
+                  "hex": "#AF593E",
+                  "why": "Diese tiefere Farbe spiegelt eine echte Markierung, ein Material oder eine Lackierung wider."
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "slug": "circus-tent-dot-to-dot-puzzle",
+      "header": {
+        "json_ld": {
+          "name": "Zirkuszelt",
+          "type": "CreativeWork",
+          "educational_use": "Fine motor skills, number sequencing"
+        }
+      },
+      "body": {
+        "name": "Zirkuszelt",
+        "tagline": "Steigen Sie ein in ein Big-Top-Abenteuer!",
+        "description": "Verbinde 59 Punkte, um ein fröhlich gestreiftes Zirkuszelt zu erhalten, das für die Show bereit ist. Dieses leicht ausdruckbare Buch hilft Kindern dabei, das Zählen in der richtigen Reihenfolge, das visuelle Verfolgen, die Konzentration und die sichere Kontrolle des Stifts zu üben.",
+        "fun_fact": "Das Hauptzelt eines Zirkus wird oft als Zirkuszelt bezeichnet, da es das größte Zelt der Show ist.",
+        "dot_guide": {
+          "intro": "Im hellen Zirkuszelt versammeln sich Akrobaten, Clowns und andere Künstler unter einem riesigen Dach. Dieses freundliche 59-Punkte-Puzzle baut das Zirkuszelt in fünf überschaubaren Etappen. Finden Sie Punkt 1, stabilisieren Sie Ihren Bleistift und machen Sie sich bereit für die Show!",
+          "outro": "Bravo – Ihr Zirkuszelt ist bereit für die Eröffnungsnacht! Färben Sie den Baldachin mit kräftigen Streifen, fügen Sie Lichter und Wimpel hinzu und locken Sie eine Menschenmenge an, die zur Show kommt. Probieren Sie als nächstes das <a href=\"/playgrounds/carousel-horse-playground-dot-to-dot-puzzle/\">Karussell-Pferde-Puzzle</a> aus.",
+          "sections": [
+            {
+              "range": "1–12",
+              "title": "Die fliegende Flagge",
+              "learn": "Verbinde die Punkte 1 bis 12, um die Flagge und den höchsten Punkt des Zeltes zu zeichnen.",
+              "fact": "Eine Flagge an der Spitze hilft den Besuchern, das Zirkuszelt von der anderen Seite des Messegeländes aus zu erkennen."
+            },
+            {
+              "range": "13–24",
+              "title": "Der hohe Zeltgipfel",
+              "learn": "Fahren Sie von Punkt 13 bis Punkt 24 fort, um das steile Dach zu formen, das zum Mittelpfosten hin ansteigt.",
+              "fact": "Hohe Mittelstangen stützen das Dach eines traditionellen Zirkuszeltes und sorgen für seine berühmte spitze Form."
+            },
+            {
+              "range": "25–36",
+              "title": "Der gestreifte Baldachin",
+              "learn": "Folgen Sie den Punkten 25 bis 36 über den breiten Baldachin und zeichnen Sie sorgfältig die Linien für die Zierstreifen.",
+              "fact": "Kräftige Streifen machen Zirkuszelte leicht erkennbar und verleihen dem Zirkuszelt einen festlichen Look."
+            },
+            {
+              "range": "37–48",
+              "title": "Die Zeltwände",
+              "learn": "Zeichnen Sie die Punkte 37 bis 48 auf beiden Seiten nach, um die stabilen Wände des Zeltes zu bilden.",
+              "fact": "Starke Seile und Heringe helfen dabei, große Zelte windstabil zu halten."
+            },
+            {
+              "range": "49–59",
+              "title": "Der große Auftritt",
+              "learn": "Schließen Sie mit den Punkten 49 bis 59 ab, um den offenen Eingang hinzuzufügen, durch den das Publikum hineingeht.",
+              "fact": "Zirkuseingänge sind oft farbenfroh geschmückt, um das Publikum willkommen zu heißen und vor der Show für Spannung zu sorgen."
+            }
+          ],
+          "color_schemes": [
+            {
+              "name": "Zirkuszelt: Klassische, echte Farben",
+              "note": "Diese vertraute Palette verwendet Farben, die häufig bei realen Motiven vorkommen.",
+              "mapping": [
+                {
+                  "range": "1–12",
+                  "part": "Die fliegende Flagge",
+                  "color": "Crayola Scarlet",
+                  "hex": "#FC2847",
+                  "why": "Diese Farbe verleiht diesem Teil sein vertrautes, realitätsnahes Aussehen."
+                },
+                {
+                  "range": "13–24",
+                  "part": "Der hohe Zeltgipfel",
+                  "color": "Crayola Himmelblau",
+                  "hex": "#80DAEB",
+                  "why": "Diese Farbe verleiht diesem Teil sein vertrautes, realitätsnahes Aussehen."
+                },
+                {
+                  "range": "25–36",
+                  "part": "Der gestreifte Baldachin",
+                  "color": "Crayola Goldrute",
+                  "hex": "#FCD975",
+                  "why": "Diese Farbe verleiht diesem Teil sein vertrautes, realitätsnahes Aussehen."
+                },
+                {
+                  "range": "37–48",
+                  "part": "Die Zeltwände",
+                  "color": "Crayola Scarlet",
+                  "hex": "#FC2847",
+                  "why": "Diese Farbe verleiht diesem Teil sein vertrautes, realitätsnahes Aussehen."
+                },
+                {
+                  "range": "49–59",
+                  "part": "Der große Auftritt",
+                  "color": "Crayola Himmelblau",
+                  "hex": "#80DAEB",
+                  "why": "Diese Farbe verleiht diesem Teil sein vertrautes, realitätsnahes Aussehen."
+                }
+              ]
+            },
+            {
+              "name": "Zirkuszelt: Sanfte Naturfarben",
+              "note": "Diese hellere Palette spiegelt eine echte sonnenbeschienene oder blasse Version des Motivs wider.",
+              "mapping": [
+                {
+                  "range": "1–12",
+                  "part": "Die fliegende Flagge",
+                  "color": "Crayola Silber",
+                  "hex": "#CDC5C2",
+                  "why": "Ein hellerer Farbton hilft zu zeigen, wie dieser Teil bei hellem Tageslicht aussehen kann."
+                },
+                {
+                  "range": "13–24",
+                  "part": "Der hohe Zeltgipfel",
+                  "color": "Crayola Tan",
+                  "hex": "#FAA76C",
+                  "why": "Ein hellerer Farbton hilft zu zeigen, wie dieser Teil bei hellem Tageslicht aussehen kann."
+                },
+                {
+                  "range": "25–36",
+                  "part": "Der gestreifte Baldachin",
+                  "color": "Crayola Meergrün",
+                  "hex": "#93DFB8",
+                  "why": "Ein hellerer Farbton hilft zu zeigen, wie dieser Teil bei hellem Tageslicht aussehen kann."
+                },
+                {
+                  "range": "37–48",
+                  "part": "Die Zeltwände",
+                  "color": "Crayola Silber",
+                  "hex": "#CDC5C2",
+                  "why": "Ein hellerer Farbton hilft zu zeigen, wie dieser Teil bei hellem Tageslicht aussehen kann."
+                },
+                {
+                  "range": "49–59",
+                  "part": "Der große Auftritt",
+                  "color": "Crayola Tan",
+                  "hex": "#FAA76C",
+                  "why": "Ein hellerer Farbton hilft zu zeigen, wie dieser Teil bei hellem Tageslicht aussehen kann."
+                }
+              ]
+            },
+            {
+              "name": "Zirkuszelt: Kräftige Farben aus dem echten Leben",
+              "note": "Diese stärkere Palette ist von echten Materialien, Markierungen oder bemalten Versionen inspiriert.",
+              "mapping": [
+                {
+                  "range": "1–12",
+                  "part": "Die fliegende Flagge",
+                  "color": "Crayola Waldgrün",
+                  "hex": "#5FA777",
+                  "why": "Diese tiefere Farbe spiegelt eine echte Markierung, ein Material oder eine Lackierung wider."
+                },
+                {
+                  "range": "13–24",
+                  "part": "Der hohe Zeltgipfel",
+                  "color": "Crayola Brown",
+                  "hex": "#AF593E",
+                  "why": "Diese tiefere Farbe spiegelt eine echte Markierung, ein Material oder eine Lackierung wider."
+                },
+                {
+                  "range": "25–36",
+                  "part": "Der gestreifte Baldachin",
+                  "color": "Crayola-Orange",
+                  "hex": "#FF7538",
+                  "why": "Diese tiefere Farbe spiegelt eine echte Markierung, ein Material oder eine Lackierung wider."
+                },
+                {
+                  "range": "37–48",
+                  "part": "Die Zeltwände",
+                  "color": "Crayola Waldgrün",
+                  "hex": "#5FA777",
+                  "why": "Diese tiefere Farbe spiegelt eine echte Markierung, ein Material oder eine Lackierung wider."
+                },
+                {
+                  "range": "49–59",
+                  "part": "Der große Auftritt",
+                  "color": "Crayola Brown",
+                  "hex": "#AF593E",
+                  "why": "Diese tiefere Farbe spiegelt eine echte Markierung, ein Material oder eine Lackierung wider."
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

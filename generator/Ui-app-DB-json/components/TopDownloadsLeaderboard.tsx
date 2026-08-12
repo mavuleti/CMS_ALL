@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { Download, Flame, Sparkles } from 'lucide-react';
 import counts from '@/lib/download-counts.json';
-import { puzzles } from '@/lib/site-data';
+import { puzzlesForLocale, type Puzzle } from '@/lib/site-data';
 import { getTranslations } from 'next-intl/server';
 import { isPuzzlePageAvailable } from '@/lib/section-locales';
 
@@ -15,17 +15,18 @@ export default async function TopDownloadsLeaderboard({
   variant?: 'sidebar' | 'columns';
 }) {
   const isArabic = locale === 'ar' || locale.startsWith('ar-');
+  const puzzles = puzzlesForLocale(locale);
   const puzzleT = await getTranslations({ locale, namespace: 'puzzleSection' });
   const commonT = await getTranslations({ locale, namespace: 'common' });
   const homeT = await getTranslations({ locale, namespace: 'homepageUi' });
-  const puzzleName = (puzzle: (typeof puzzles)[number]) => {
+  const puzzleName = (puzzle: Puzzle) => {
     if (!isArabic) return puzzle.name;
     const key = `items.${puzzle.id}.name`;
     if (puzzleT.has(key)) return puzzleT(key);
     const fallbackKey = `puzzleNames.${puzzle.id}`;
     return homeT.has(fallbackKey) ? homeT(fallbackKey) : puzzle.name;
   };
-  const isPuzzleAvailable = (puzzle: (typeof puzzles)[number]) => {
+  const isPuzzleAvailable = (puzzle: Puzzle) => {
     const [section, slug] = puzzle.href.split('/').filter(Boolean);
     return isPuzzlePageAvailable(locale, `${section}/`, slug);
   };

@@ -9,29 +9,29 @@ export const isSpanish = (locale: string) => locale === 'es' || locale.startsWit
 export const isGerman = (locale: string) => locale === 'de' || locale.startsWith('de-');
 export const isRussian = (locale: string) => locale === 'ru' || locale.startsWith('ru-');
 
-export function localizedSiteSeo(_locale: string) {
-  const collections = getCollections();
+export function localizedSiteSeo(locale: string) {
+  const collections = getCollections(locale);
   const description = collections.map((item) => item.body.description).filter(Boolean).slice(0, 2).join(' ');
   return { title: 'Free Dot-to-Dot Printables for Kids', ogTitle: 'Free Dot-to-Dot Printables for Kids', description };
 }
 export function localizedStaticSeo(locale: string, page: 'about' | 'contact' | 'search' | 'terms' | 'privacy' | 'blog') {
   if (page === 'search') return { title: 'Search Dot-to-Dot Puzzles', description: 'Search free printable dot-to-dot puzzles.' };
   const filenames = { about: 'about', contact: 'contact', terms: 'terms', privacy: 'privacy-policy', blog: 'blog' } as const;
-  const document = getExportDocument(filenames[page]);
+  const document = getExportDocument(filenames[page], locale);
   if (!document.header?.title || !document.header.meta_description) throw new Error(`Missing required JSON SEO metadata for ${locale}/${page}`);
   return { title: document.header.title, description: document.header.meta_description };
 }
-export function localizedCollectionSeo(_locale: string, collection: string) {
-  const header = getCollection(collection)?.header;
+export function localizedCollectionSeo(locale: string, collection: string) {
+  const header = getCollection(collection, locale)?.header;
   return header ? { title: header.title, description: header.meta_description, ogTitle: header.og?.title ?? header.title, ogDescription: header.og?.description ?? header.meta_description } : null;
 }
 export function collectionHeaderSeo(locale: string, collection: string) {
-  const header = getCollection(collection)?.header;
+  const header = getCollection(collection, locale)?.header;
   if (!header?.title || !header.meta_description) throw new Error(`Missing required JSON collection SEO metadata for ${locale}/${collection}`);
   return { title: header.title, description: header.meta_description, ogTitle: header.og?.title ?? header.title, ogDescription: header.og?.description ?? header.meta_description, image: header.og?.image };
 }
 export function collectionBodyContent(locale: string, collection: string) {
-  return getCollection(collection)?.body as { h1?: string; name?: string; tagline?: string; description?: string; hero_image?: string } | undefined;
+  return getCollection(collection, locale)?.body as { h1?: string; name?: string; tagline?: string; description?: string; hero_image?: string } | undefined;
 }
 export function localizedSocialImageAlt(_locale: string, fallback: string) { return fallback; }
 export function localizedPuzzleCardAlt(_locale: string, name: string) { return `${name} dot-to-dot printable`; }

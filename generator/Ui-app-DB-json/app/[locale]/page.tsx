@@ -2,12 +2,12 @@ import { setRequestLocale } from 'next-intl/server';
 import { routing } from '@/i18n/routing';
 import HomeDiscovery from '@/components/HomeDiscovery';
 import TopDownloadsLeaderboard from '@/components/TopDownloadsLeaderboard';
-import { puzzles } from '@/lib/site-data';
+import { puzzles, puzzlesForLocale } from '@/lib/site-data';
 import { AudienceStrip, BenefitsSection, BlogPreview, CategoryGrid, Feedback, FaqSection, HomeVideoSection, HowToSection, TrustSection } from '@/components/sections';
 import { absoluteUrl, DEFAULT_OG_IMAGE, SITE_NAME, SITE_URL } from '@/lib/seo';
 
 function availablePuzzlesForLocale(locale: string) {
-  return locale === 'en' ? puzzles : [];
+  return puzzlesForLocale(locale);
 }
 
 export function generateStaticParams() {
