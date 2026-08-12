@@ -1,0 +1,65 @@
+{
+  "collection": {
+    "header": {
+      "title": "Circus Dot to Dot Printables — Free PDF for Kids",
+      "meta_description": "Free circus dot to dot printables for kids ages 4-9: a ringmaster bear and striped big-top tent. Two print-ready PDF worksheets with no sign-up.",
+      "og": {
+        "title": "2 Free Circus Dot to Dot Printables",
+        "description": "A ringmaster bear and striped big-top tent — two free circus dot to dot printables for kids.",
+        "image": "/images/circus-ringmaster-bear-puzzle.webp"
+      },
+      "json_ld": {
+        "type": "CollectionPage",
+        "name": "Circus",
+        "description": "Step right up for free circus dot to dot printables featuring a friendly ringmaster bear and a striped big-top tent. Download and print both PDF worksheets for counting and pencil practice.",
+        "image": "/images/circus-ringmaster-bear-puzzle.webp",
+        "main_entity": {
+          "type": "ItemList",
+          "item_source": "puzzles"
+        }
+      },
+      "breadcrumb_json_ld": {
+        "type": "BreadcrumbList",
+        "items": [
+          {
+            "position": 1,
+            "name": "Home",
+            "path": "/"
+          },
+          {
+            "position": 2,
+            "name": "Circus",
+            "path": "/circus/"
+          }
+        ]
+      }
+    },
+    "body": {
+      "h1": "Circus Dot to Dot Printables for Kids",
+      "name": "Circus",
+      "tagline": "Why kids love circus dot to dot puzzles",
+      "description": "Step right up for free circus dot to dot printables featuring a friendly ringmaster bear and a striped big-top tent. Download and print both PDF worksheets for counting and pencil practice.",
+      "hero_image": "/images/circus-ringmaster-bear-puzzle.webp",
+      "slug": "circus",
+      "faqs": [
+        {
+          "q": "Are all dot to dot printables on this site completely free?",
+          "a": "Yes — every connect-the-dots worksheet on DotToDotFreePrintables.com is 100% free to download and print. No account, subscription, or credit card is ever required."
+        },
+        {
+          "q": "What age are dot to dot worksheets suitable for?",
+          "a": "Our printables cover ages 4–12. Easy worksheets (around 38–55 dots) suit preschoolers and kindergartners (prep in Australia), medium sheets (around 60–90 dots) are great for kindergarten and 1st grade, and harder sheets (90–130+ dots) challenge 2nd through 6th graders."
+        },
+        {
+          "q": "What format are the connect-the-dots printables?",
+          "a": "All worksheets download as print-ready PDF files sized for standard US Letter (8.5\" × 11\") or A4 paper. Open in any browser or PDF viewer and print — no special software needed."
+        },
+        {
+          "q": "Can teachers use these connect-the-dots worksheets in class?",
+          "a": "Yes! Our printables are free for personal and classroom use. They are popular for morning work, early finisher activities, substitute lesson plans, fine motor centers, and homework packets."
+        }
+      ]
+    }
+  },
+  "puzzles": []
+}

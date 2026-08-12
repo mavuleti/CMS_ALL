@@ -1,0 +1,243 @@
+import { routing } from '@/i18n/routing';
+import { contentLocaleFor, isSectionAvailable, readSectionItems, sectionFiles } from '@/lib/section-locales';
+import type { Metadata } from 'next';
+
+export const SITE_URL = 'https://dottodotfreeprintables.com';
+export const SITE_NAME = 'DotToDotFreePrintables.com';
+
+export function absoluteUrl(path: string) {
+  return path.startsWith('http://') || path.startsWith('https://')
+    ? path
+    : `${SITE_URL}${path.startsWith('/') ? path : `/${path}`}`;
+}
+
+export const DEFAULT_OG_IMAGE = {
+  url: absoluteUrl('/images/trex-61-puzzle.webp'),
+  width: 800,
+  height: 679,
+  alt: 'Free dot-to-dot printable worksheet for kids'
+};
+
+// Routable locales intentionally held out of indexing/hreflang for now.
+// 'ar' has real, complete translations (see content/ar/) — this isn't about
+// incomplete content, it's a deliberate soft launch (see MERGE_PLAN.md /
+// app/[locale]/layout.tsx generateMetadata's noindex). Keep this list in
+// sync with PLACEHOLDER_LOCALES in app/[locale]/layout.tsx,
+// app/[locale]/blog/[slug]/page.tsx, and KNOWN_FALLBACK_LOCALES in
+// scripts/generate-sitemap.mjs — all four must agree or pages end up
+// sending contradictory hreflang/noindex/sitemap signals to search engines.
+const PLACEHOLDER_LOCALES: string[] = [];
+
+// All non-placeholder routable locales pass i18n content validation, so they're
+// announced as alternates — matches the locale set already declared in sitemap.xml.
+const FULLY_TRANSLATED_LOCALES = routing.locales.filter((l) => !PLACEHOLDER_LOCALES.includes(l));
+const ARABIC_REGIONAL_ALIASES = ['ar-AE', 'ar-SA', 'ar-QA'];
+
+const localeToOgLocale: Record<string, string> = {
+  en: 'en_US',
+  fr: 'fr_FR',
+  es: 'es_ES',
+  de: 'de_DE',
+  pt: 'pt_PT',
+  it: 'it_IT',
+  nl: 'nl_NL',
+  sv: 'sv_SE',
+  no: 'no_NO',
+  pl: 'pl_PL',
+  da: 'da_DK',
+  fi: 'fi_FI',
+  cs: 'cs_CZ',
+  hu: 'hu_HU',
+  ro: 'ro_RO',
+  tr: 'tr_TR',
+  'pt-BR': 'pt_BR',
+  el: 'el_GR',
+  ar: 'ar_SA',
+  uk: 'uk_UA',
+  hr: 'hr_HR',
+  sk: 'sk_SK',
+  lt: 'lt_LT',
+  lv: 'lv_LV',
+  sl: 'sl_SI',
+  id: 'id_ID',
+  ja: 'ja_JP',
+  ko: 'ko_KR',
+  ru: 'ru_RU',
+  th: 'th_TH',
+  vi: 'vi_VN'
+};
+
+function localeHasOwnPage(locale: string, normalizedPath: string) {
+  if (locale === routing.defaultLocale) return true;
+  const prefix = Object.keys(sectionFiles).find((candidate) => normalizedPath.startsWith(`/${candidate}`));
+  if (!prefix) return true;
+  if (!isSectionAvailable(locale, prefix)) return false;
+
+  const slug = normalizedPath.slice(prefix.length + 1).replace(/\/$/, '');
+  if (!slug) return true;
+  const own = readSectionItems(contentLocaleFor(locale), prefix).find((item) => item.slug === slug);
+  if (!own) return false;
+
+  // Most puzzle loaders deliberately drop a localized entry when English has
+  // a dot guide but that guide has not been translated. Mirror that rule here
+  // so hreflang never advertises a static page that generateStaticParams omits.
+  // Canada is the one established exception (its loader permits the older
+  // flat localized schema without a guide).
+  if (prefix !== 'canada/') {
+    const english = readSectionItems(routing.defaultLocale, prefix).find((item) => item.slug === slug);
+    if (english?.dotGuide && !own.dotGuide) return false;
+  }
+
+  return true;
+}
+
+/**
+ * Builds a locale-aware canonical + hreflang alternates block for a page.
+ * `path` is the locale-agnostic path (no leading locale segment), e.g. '/dinosaurs' or '/dinosaurs/trex-61'.
+ */
+export function buildAlternates(locale: string, path: string) {
+  // The site is served with trailingSlash:true, so every non-root canonical/
+  // hreflang URL must end in '/' — otherwise it points at a URL that 301s to
+  // itself-with-slash, which is exactly the "Page with redirect" / canonical
+  // mismatch Search Console flags.
+  const normalizedPath = path === '/' || path === '' ? '' : path.endsWith('/') ? path : `${path}/`;
+  const alternateLocales = FULLY_TRANSLATED_LOCALES.filter(
+    (l) => !ARABIC_REGIONAL_ALIASES.includes(l) && localeHasOwnPage(l, normalizedPath)
+  );
+  const canonicalLocale = localeHasOwnPage(locale, normalizedPath) ? locale : routing.defaultLocale;
+  const languages: Record<string, string> = {
+    ...Object.fromEntries(
+      alternateLocales.map((l) => [l, `/${l}${normalizedPath}`])
+    ),
+    // Each Arabic regional alias is a fully self-canonical page (see
+    // scripts/strip-next-runtime.mjs publishArabicRegionalAliases), so it
+    // gets its own hreflang entry pointing at its own URL, forming a
+    // reciprocal cluster with /ar/ rather than all mirroring one URL.
+    ...(false
+      ? Object.fromEntries(ARABIC_REGIONAL_ALIASES.map((l) => [l, `/${l}${normalizedPath}`]))
+      : {}),
+    'x-default': `/${routing.defaultLocale}${normalizedPath}`
+  };
+
+  return {
+    canonical: `/${canonicalLocale}${normalizedPath}`,
+    languages
+  };
+}
+
+/**
+ * Rich JSON-LD for a puzzle detail page: CreativeWork + LearningResource with
+ * free-access, educational and downloadable-PDF signals for search engines and
+ * AI assistants (AEO/GEO). `path` is the locale-agnostic path, e.g.
+ * '/dinosaurs/trex-61-dot-to-dot-puzzle'.
+ */
+export function puzzleJsonLd(opts: {
+  locale: string;
+  path: string;
+  name: string;
+  description: string;
+  age?: string;
+  dots?: number;
+  image?: string;
+  pdf?: string;
+}) {
+  const normalizedPath = opts.path.endsWith('/') ? opts.path : `${opts.path}/`;
+  const url = absoluteUrl(`/${opts.locale}${normalizedPath}`);
+  const ageRange = opts.age?.match(/(\d+)\s*[–-]\s*(\d+)/);
+
+  const schema: Record<string, unknown> = {
+    '@context': 'https://schema.org',
+    '@type': ['CreativeWork', 'LearningResource'],
+    name: opts.name,
+    description: opts.description,
+    url,
+    inLanguage: opts.locale,
+    creator: { '@type': 'Organization', name: 'DotToDotFreePrintables', url: SITE_URL },
+    learningResourceType: 'Worksheet',
+    educationalUse: 'practice',
+    teaches: 'number sequencing, counting, fine motor skills, pencil control',
+    audience: { '@type': 'EducationalAudience', educationalRole: 'student' },
+    isAccessibleForFree: true,
+    isFamilyFriendly: true
+  };
+
+  if (opts.age) schema.educationalLevel = opts.age;
+  if (ageRange) schema.typicalAgeRange = `${ageRange[1]}-${ageRange[2]}`;
+  if (opts.image && opts.image.startsWith('/')) {
+    schema.image = {
+      '@type': 'ImageObject',
+      url: absoluteUrl(opts.image),
+      width: 800,
+      height: 679,
+      caption: `${opts.name} free dot-to-dot printable worksheet for kids`,
+      creator: {
+        '@type': 'Organization',
+        name: SITE_NAME,
+        url: SITE_URL
+      },
+      // Licensing signals: qualifies previews for Google Images' "Licensable"
+      // badge/flow and tells AI engines the usage terms + who to credit.
+      license: absoluteUrl(`/${opts.locale}/terms/`),
+      acquireLicensePage: url,
+      creditText: SITE_NAME,
+      copyrightNotice: SITE_NAME
+    };
+  }
+  if (opts.pdf && opts.pdf.startsWith('/')) {
+    schema.associatedMedia = {
+      '@type': 'DigitalDocument',
+      name: `${opts.name} printable PDF`,
+      contentUrl: absoluteUrl(opts.pdf),
+      encodingFormat: 'application/pdf',
+      isAccessibleForFree: true
+    };
+  }
+
+  return schema;
+}
+
+/**
+ * HowTo JSON-LD built from a puzzle's dotGuide sections (AEO/GEO): each guide
+ * section ("1–15 — The Head and Floppy Ears") becomes a HowToStep, so answer
+ * engines can quote a step-by-step "how to complete this puzzle" walkthrough.
+ * Only emit when a dotGuide with sections exists — schema must mirror the
+ * visible on-page guide.
+ */
+export function howToJsonLd(opts: {
+  locale: string;
+  path: string;
+  name: string;
+  dots?: number;
+  intro?: string;
+  sections: { range: string; title: string; learn: string }[];
+}) {
+  const normalizedPath = opts.path.endsWith('/') ? opts.path : `${opts.path}/`;
+  const url = absoluteUrl(`/${opts.locale}${normalizedPath}`);
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'HowTo',
+    name: `How to complete the ${opts.name}${opts.dots ? ` (${opts.dots} dots)` : ''}`,
+    ...(opts.intro ? { description: opts.intro.replace(/<[^>]+>/g, '') } : {}),
+    url,
+    inLanguage: opts.locale,
+    isAccessibleForFree: true,
+    estimatedCost: { '@type': 'MonetaryAmount', currency: 'USD', value: 0 },
+    supply: [{ '@type': 'HowToSupply', name: 'Printed puzzle PDF (Letter or A4)' }],
+    tool: [{ '@type': 'HowToTool', name: 'Pencil' }],
+    step: opts.sections.map((s, i) => ({
+      '@type': 'HowToStep',
+      position: i + 1,
+      name: `${s.range} — ${s.title}`,
+      text: s.learn,
+      url: `${url}#dot-guide`
+    }))
+  };
+}
+
+export function ogLocaleFor(locale: string) {
+  return localeToOgLocale[locale] ?? 'en_US';
+}
+
+export function ogAlternateLocalesFor(locale: string) {
+  return FULLY_TRANSLATED_LOCALES.filter((l) => l !== locale).map((l) => ogLocaleFor(l));
+}

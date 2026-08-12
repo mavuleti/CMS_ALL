@@ -1,0 +1,65 @@
+{
+  "collection": {
+    "header": {
+      "title": "Free Space Dot-to-Dot Printables for Kids",
+      "meta_description": "Download free space dot-to-dot worksheets for kids, including UFOs, rockets, planets, and more.",
+      "og": {
+        "title": "Free Space Dot-to-Dot Printables for Kids",
+        "description": "Download free space dot-to-dot worksheets for kids, including UFOs, rockets, planets, and more.",
+        "image": "/images/space-rover-puzzle.webp"
+      },
+      "json_ld": {
+        "type": "CollectionPage",
+        "name": "Space",
+        "description": "Blast off with free space connect-the-dots worksheets. Print a friendly rover puzzle today, with more rockets, planets, and cosmic adventures coming soon.",
+        "image": "/images/space-rover-puzzle.webp",
+        "main_entity": {
+          "type": "ItemList",
+          "item_source": "puzzles"
+        }
+      },
+      "breadcrumb_json_ld": {
+        "type": "BreadcrumbList",
+        "items": [
+          {
+            "position": 1,
+            "name": "Home",
+            "path": "/"
+          },
+          {
+            "position": 2,
+            "name": "Space",
+            "path": "/space/"
+          }
+        ]
+      }
+    },
+    "body": {
+      "h1": "Free Space Dot-to-Dot Printables for Kids",
+      "name": "Space",
+      "tagline": "{count, plural, one {# free printable puzzle} other {# free printable puzzles}}",
+      "description": "Blast off with free space connect-the-dots worksheets. Print a friendly rover puzzle today, with more rockets, planets, and cosmic adventures coming soon.",
+      "hero_image": "/images/space-rover-puzzle.webp",
+      "slug": "space",
+      "faqs": [
+        {
+          "q": "Are all dot to dot printables on this site completely free?",
+          "a": "Yes — every connect-the-dots worksheet on DotToDotFreePrintables.com is 100% free to download and print. No account, subscription, or credit card is ever required."
+        },
+        {
+          "q": "What age are dot to dot worksheets suitable for?",
+          "a": "Our printables cover ages 4–12. Easy worksheets (around 38–55 dots) suit preschoolers and kindergartners (prep in Australia), medium sheets (around 60–90 dots) are great for kindergarten and 1st grade, and harder sheets (90–130+ dots) challenge 2nd through 6th graders."
+        },
+        {
+          "q": "What format are the connect-the-dots printables?",
+          "a": "All worksheets download as print-ready PDF files sized for standard US Letter (8.5\" × 11\") or A4 paper. Open in any browser or PDF viewer and print — no special software needed."
+        },
+        {
+          "q": "Can teachers use these connect-the-dots worksheets in class?",
+          "a": "Yes! Our printables are free for personal and classroom use. They are popular for morning work, early finisher activities, substitute lesson plans, fine motor centers, and homework packets."
+        }
+      ]
+    }
+  },
+  "puzzles": []
+}

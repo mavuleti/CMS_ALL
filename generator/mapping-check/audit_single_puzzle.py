@@ -734,14 +734,10 @@ def main() -> int:
         targets = [match]
 
     db_path = args.db or Path(__file__).resolve().parent / f"mapping_audit_{args.slug if args.slug else 'all'}.db"
-    if db_path.exists():
-        try:
-            db_path.unlink()
-        except PermissionError:
-            # File is open elsewhere (e.g. a SQLite browser) — reuse it and
-            # just clear out rows for the slugs we're about to re-audit,
-            # instead of failing the whole run.
-            print(f"NOTE: {db_path} is open in another program; clearing old rows for these slugs instead of recreating the file.")
+    # Reuse an existing db rather than recreating it from scratch — this file
+    # may already hold audit rows for OTHER languages (e.g. 'en'), and a
+    # blind unlink()/recreate would silently destroy them when re-running
+    # this script for a different --language against the same category.
     conn = sqlite3.connect(db_path)
     ensure_schema(conn)
     slugs_to_clear = [raw.get("slug", "<no-slug>") for raw in targets]
@@ -749,8 +745,8 @@ def main() -> int:
     if args.converted_json_path and not args.no_collection:
         slugs_to_clear.append(collection_slug)
     conn.executemany(
-        "DELETE FROM mapping_audit WHERE puzzle_slug = ?",
-        [(slug,) for slug in slugs_to_clear],
+        "DELETE FROM mapping_audit WHERE puzzle_slug = ? AND language = ?",
+        [(slug, args.language) for slug in slugs_to_clear],
     )
     conn.commit()
 

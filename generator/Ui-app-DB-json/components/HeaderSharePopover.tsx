@@ -1,0 +1,166 @@
+'use client';
+
+import { useEffect, useId, useRef, useState } from 'react';
+import { Share2, Link2, Check } from 'lucide-react';
+import { useTranslations } from 'next-intl';
+import { usePathname } from 'next/navigation';
+import {
+  buildFacebookShareUrl,
+  buildPinterestShareUrl,
+  buildWhatsAppShareUrl,
+  buildXShareUrl,
+  copyPageUrl,
+  currentShareUrl
+} from '@/components/share-utils';
+
+const ICON_SIZE = 16;
+
+function absoluteUrl(): string {
+  return currentShareUrl();
+}
+
+interface HeaderSharePopoverProps {
+  className?: string;
+  shareUrl?: string;
+  shareTitle?: string;
+}
+
+export default function HeaderSharePopover({ className, shareUrl = '', shareTitle = '' }: HeaderSharePopoverProps) {
+  const t = useTranslations('shareButtons');
+  const pathname = usePathname();
+  const [isOpen, setIsOpen] = useState(false);
+  const [copied, setCopied] = useState(false);
+  const [pageUrl, setPageUrl] = useState(shareUrl);
+  const [pageTitle, setPageTitle] = useState(shareTitle);
+  const wrapRef = useRef<HTMLDivElement>(null);
+  const triggerRef = useRef<HTMLButtonElement>(null);
+  const popoverId = useId();
+
+  useEffect(() => {
+    setPageUrl(absoluteUrl());
+    setPageTitle(shareTitle || document.title);
+  }, [pathname, shareTitle]);
+
+  useEffect(() => {
+    if (!isOpen) return;
+    const handlePointerDown = (event: MouseEvent) => {
+      if (wrapRef.current && !wrapRef.current.contains(event.target as Node)) {
+        setIsOpen(false);
+      }
+    };
+    const handleKeyDown = (event: KeyboardEvent) => {
+      if (event.key === 'Escape') {
+        event.preventDefault();
+        setIsOpen(false);
+        triggerRef.current?.focus();
+      }
+    };
+    document.addEventListener('mousedown', handlePointerDown);
+    document.addEventListener('keydown', handleKeyDown);
+    return () => {
+      document.removeEventListener('mousedown', handlePointerDown);
+      document.removeEventListener('keydown', handleKeyDown);
+    };
+  }, [isOpen]);
+
+  const handleCopy = async () => {
+    const didCopy = await copyPageUrl(absoluteUrl());
+    if (!didCopy) return;
+    setCopied(true);
+    setTimeout(() => setCopied(false), 2500);
+  };
+
+  const networks = [
+    {
+      key: 'whatsapp',
+      label: 'WhatsApp',
+      color: '#25d366',
+      href: buildWhatsAppShareUrl(pageUrl, pageTitle),
+      icon: (
+        <svg width={ICON_SIZE} height={ICON_SIZE} viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+          <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.52.149-.174.198-.298.297-.497.1-.198.05-.371-.025-.52-.074-.149-.668-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+        </svg>
+      )
+    },
+    {
+      key: 'facebook',
+      label: 'Facebook',
+      color: '#1877f2',
+      href: buildFacebookShareUrl(encodeURIComponent(pageUrl)),
+      icon: (
+        <svg width={ICON_SIZE} height={ICON_SIZE} viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+          <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
+        </svg>
+      )
+    },
+    {
+      key: 'pinterest',
+      label: 'Pinterest',
+      color: '#e60023',
+      href: buildPinterestShareUrl(encodeURIComponent(pageUrl), encodeURIComponent(pageTitle)),
+      icon: (
+        <svg width={ICON_SIZE} height={ICON_SIZE} viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+          <path d="M12.017 0C5.396 0 .029 5.367.029 11.987c0 5.079 3.158 9.417 7.618 11.162-.105-.949-.199-2.403.041-3.439.219-.937 1.406-5.957 1.406-5.957s-.359-.72-.359-1.781c0-1.663.967-2.911 2.168-2.911 1.024 0 1.518.769 1.518 1.688 0 1.029-.653 2.567-.992 3.992-.285 1.193.6 2.165 1.775 2.165 2.128 0 3.768-2.245 3.768-5.487 0-2.861-2.063-4.869-5.008-4.869-3.41 0-5.409 2.562-5.409 5.199 0 1.033.394 2.143.889 2.741.099.12.112.225.085.345-.09.375-.293 1.199-.334 1.363-.053.225-.172.271-.401.165-1.495-.69-2.433-2.878-2.433-4.646 0-3.776 2.748-7.252 7.92-7.252 4.158 0 7.392 2.967 7.392 6.923 0 4.135-2.607 7.462-6.233 7.462-1.214 0-2.354-.629-2.758-1.379l-.749 2.848c-.269 1.045-1.004 2.352-1.498 3.146 1.123.345 2.306.535 3.55.535 6.607 0 11.985-5.365 11.985-11.987C23.97 5.39 18.592.026 11.985.026L12.017 0z" />
+        </svg>
+      )
+    },
+    {
+      key: 'x',
+      label: 'X',
+      color: '#111111',
+      href: buildXShareUrl(encodeURIComponent(pageUrl), encodeURIComponent(pageTitle)),
+      icon: (
+        <svg width={ICON_SIZE} height={ICON_SIZE} viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+          <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+        </svg>
+      )
+    }
+  ];
+
+  return (
+    <div className={`desktop-social-share${isOpen ? ' is-open' : ''}${className ? ` ${className}` : ''}`} ref={wrapRef}>
+      <button
+        type="button"
+        ref={triggerRef}
+        className="desktop-social-link desktop-social-link--share icon-tooltip"
+        onClick={() => setIsOpen((value) => !value)}
+        aria-haspopup="dialog"
+        aria-expanded={isOpen}
+        aria-controls={popoverId}
+        aria-label={t('label')}
+        title={t('label')}
+      >
+        <Share2 size={16} aria-hidden="true" />
+      </button>
+
+      <div id={popoverId} className="desktop-share-popover" role="dialog" aria-label={t('label')}>
+          <div className="desktop-share-popover-grid">
+            {networks.map((n) => (
+              <a
+                key={n.key}
+                href={n.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label={`${t('label')} - ${n.label}`}
+                title={n.label}
+                className="share-btn icon-tooltip"
+                style={{ backgroundColor: n.color }}
+              >
+                {n.icon}
+              </a>
+            ))}
+            <button
+              type="button"
+              onClick={handleCopy}
+              aria-label={copied ? t('copied') : t('copyLink')}
+              title={copied ? t('copied') : t('copyLink')}
+              className="share-btn icon-tooltip"
+              style={{ backgroundColor: copied ? '#2f855a' : '#718096' }}
+            >
+              {copied ? <Check size={ICON_SIZE} aria-hidden="true" /> : <Link2 size={ICON_SIZE} aria-hidden="true" />}
+            </button>
+          </div>
+      </div>
+    </div>
+  );
+}

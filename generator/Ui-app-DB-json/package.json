@@ -1,0 +1,51 @@
+{
+  "name": "ui-app-db-json",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbo",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "validate:i18n": "node scripts/validate-i18n-keys.mjs",
+    "validate:no-hardcoded-jsx": "eslint components app --ext .tsx --quiet",
+    "validate:assets": "node scripts/validate-assets.mjs",
+    "validate:arabic-hreflang": "node scripts/validate-arabic-hreflang.mjs",
+    "validate:locale-links": "python \"TOOLS/link audit tool/check_static_locale_links.py\"",
+    "test:e2e": "playwright test",
+    "test:home": "playwright test --config=playwright.home.config.ts",
+    "test:links": "playwright test tests/all-links.spec.ts --project=desktop-chrome --workers=1",
+    "test:search-index": "playwright test tests/search-index.spec.ts --project=desktop-chrome",
+    "test:alignment:locales:mobile:full": "node scripts/run-mobile-alignment-locales.mjs --projects=pixel-7,iphone-14",
+    "validate:production": "npm run validate:i18n && npm run validate:no-hardcoded-jsx && npm run validate:assets && npm run validate:arabic-hreflang && npm run validate:locale-links"
+  },
+  "dependencies": {
+    "@fontsource/baloo-2": "^5.0.18",
+    "@fontsource/nunito": "^5.0.20",
+    "firebase": "^11.0.0",
+    "lucide-react": "^0.468.0",
+    "next": "14.2.32",
+    "next-intl": "^4.13.0",
+    "purecss": "^3.0.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.60.0",
+    "@types/node": "^20.17.10",
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "eslint": "^8.57.1",
+    "eslint-config-next": "14.2.32",
+    "intl-messageformat": "^10.7.16",
+    "sharp": "^0.34.5",
+    "typescript": "^5.7.2"
+  },
+  "browserslist": [
+    "Chrome >= 92",
+    "Edge >= 92",
+    "Firefox >= 90",
+    "Safari >= 15",
+    "iOS >= 15"
+  ]
+}
