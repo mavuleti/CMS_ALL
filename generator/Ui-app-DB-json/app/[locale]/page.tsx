@@ -22,14 +22,14 @@ export default async function LocaleHomePage({
   const { locale } = await params;
   setRequestLocale(locale);
   const featuredSlugs = [
-    't-rex-dot-to-dot-puzzle',
+    'trex-61-dot-to-dot-puzzle',
     'mermaid-dot-to-dot-puzzle',
     'jellyfish-dot-to-dot-puzzle',
     'cute-puppy-dot-to-dot-puzzle',
-    'slide-dot-to-dot-puzzle',
-    'snowdrop-dot-to-dot-puzzle',
-    'dashing-car-dot-to-dot-puzzle',
-    'lotus-dot-to-dot-puzzle'
+    'slide-playgrounds-dot-to-dot-puzzle',
+    'snowdrop-flower-dot-to-dot-puzzle',
+    'dashing-car-playground-dot-to-dot-puzzle',
+    'lotus-flower-dot-to-dot-puzzle'
   ];
   const localePuzzles = availablePuzzlesForLocale(locale);
   const description = localePuzzles.map((puzzle) => puzzle.category).filter((value, index, values) => values.indexOf(value) === index).join(', ');
