@@ -158,6 +158,16 @@ export function getHomeExport(locale: string = 'en') {
   return JSON.parse(fs.readFileSync(path.join(exportDir(locale), 'home.json'), 'utf8')) as any;
 }
 
+export function getFeaturedPuzzleSlugs(locale: string = 'en'): string[] {
+  const value = getHomeExport(locale).body?.config?.featured_puzzle_slugs;
+  if (typeof value !== 'string') throw new Error(`Missing featured puzzle configuration for ${locale}`);
+  const slugs = JSON.parse(value);
+  if (!Array.isArray(slugs) || !slugs.every((slug) => typeof slug === 'string')) {
+    throw new Error(`Invalid featured puzzle configuration for ${locale}`);
+  }
+  return slugs;
+}
+
 export function assetUrl(value?: string) {
   if (!value) return undefined;
   const base = process.env.NEXT_PUBLIC_ASSET_BASE_URL?.replace(/\/$/, '') ?? '';

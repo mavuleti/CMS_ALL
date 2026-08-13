@@ -5,6 +5,7 @@ import TopDownloadsLeaderboard from '@/components/TopDownloadsLeaderboard';
 import { puzzles, puzzlesForLocale } from '@/lib/site-data';
 import { AudienceStrip, BenefitsSection, BlogPreview, CategoryGrid, Feedback, FaqSection, HomeVideoSection, HowToSection, TrustSection } from '@/components/sections';
 import { absoluteUrl, DEFAULT_OG_IMAGE, SITE_NAME, SITE_URL } from '@/lib/seo';
+import { getFeaturedPuzzleSlugs } from '@/lib/export-content';
 
 function availablePuzzlesForLocale(locale: string) {
   return puzzlesForLocale(locale);
@@ -21,16 +22,7 @@ export default async function LocaleHomePage({
 }) {
   const { locale } = await params;
   setRequestLocale(locale);
-  const featuredSlugs = [
-    'trex-61-dot-to-dot-puzzle',
-    'mermaid-dot-to-dot-puzzle',
-    'jellyfish-dot-to-dot-puzzle',
-    'cute-puppy-dot-to-dot-puzzle',
-    'slide-playgrounds-dot-to-dot-puzzle',
-    'snowdrop-flower-dot-to-dot-puzzle',
-    'dashing-car-playground-dot-to-dot-puzzle',
-    'lotus-flower-dot-to-dot-puzzle'
-  ];
+  const featuredSlugs = getFeaturedPuzzleSlugs(locale);
   const localePuzzles = availablePuzzlesForLocale(locale);
   const description = localePuzzles.map((puzzle) => puzzle.category).filter((value, index, values) => values.indexOf(value) === index).join(', ');
   const featuredPuzzles = featuredSlugs
