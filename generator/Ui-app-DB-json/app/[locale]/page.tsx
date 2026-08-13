@@ -21,20 +21,20 @@ export default async function LocaleHomePage({
 }) {
   const { locale } = await params;
   setRequestLocale(locale);
-  const featuredNames = [
-    'T-Rex 61-Dot Challenge',
-    'Mermaid',
-    'Jellyfish',
-    'Cute Puppy',
-    'Slide Playground',
-    'Snowdrop Flower',
-    'Dashing Car Playground',
-    'Lotus Flower'
+  const featuredSlugs = [
+    't-rex-dot-to-dot-puzzle',
+    'mermaid-dot-to-dot-puzzle',
+    'jellyfish-dot-to-dot-puzzle',
+    'cute-puppy-dot-to-dot-puzzle',
+    'slide-dot-to-dot-puzzle',
+    'snowdrop-dot-to-dot-puzzle',
+    'dashing-car-dot-to-dot-puzzle',
+    'lotus-dot-to-dot-puzzle'
   ];
   const localePuzzles = availablePuzzlesForLocale(locale);
   const description = localePuzzles.map((puzzle) => puzzle.category).filter((value, index, values) => values.indexOf(value) === index).join(', ');
-  const featuredPuzzles = featuredNames
-    .map((name) => localePuzzles.find((puzzle) => puzzle.name === name))
+  const featuredPuzzles = featuredSlugs
+    .map((slug) => localePuzzles.find((puzzle) => puzzle.href.endsWith(`/${slug}/`)))
     .filter((puzzle): puzzle is (typeof puzzles)[number] => Boolean(puzzle));
   const homeUrl = `${SITE_URL}/${locale}/`;
   const websiteSchema = {

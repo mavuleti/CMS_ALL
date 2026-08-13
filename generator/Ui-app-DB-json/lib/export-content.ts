@@ -102,6 +102,10 @@ export function getExportDocument(name: 'about' | 'contact' | 'privacy-policy' |
   return JSON.parse(fs.readFileSync(path.join(exportDir(locale), `${name}.json`), 'utf8')) as any;
 }
 
+export function getHomeExport(locale: string = 'en') {
+  return JSON.parse(fs.readFileSync(path.join(exportDir(locale), 'home.json'), 'utf8')) as any;
+}
+
 export function assetUrl(value?: string) {
   if (!value) return undefined;
   const base = process.env.NEXT_PUBLIC_ASSET_BASE_URL?.replace(/\/$/, '') ?? '';

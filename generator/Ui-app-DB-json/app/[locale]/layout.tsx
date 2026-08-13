@@ -14,7 +14,7 @@ import HideOnLocaleHome from '@/components/HideOnLocaleHome';
 import FloatingShare from '@/components/FloatingShare';
 import { Navbar, Footer } from '@/components/sections';
 import { DEFAULT_OG_IMAGE, SITE_NAME, SITE_URL } from '@/lib/seo';
-import { getCollections } from '@/lib/export-content';
+import { getCollections, getHomeExport } from '@/lib/export-content';
 import type { Metadata, Viewport } from 'next';
 
 const GA_ID = 'G-RCRTCLP0CF';
@@ -155,10 +155,12 @@ export async function generateMetadata({
   const { locale } = await params;
   const ogLocale = localeToOgLocale[locale] ?? 'en_US';
   const isArabicRegionalAlias = ARABIC_REGIONAL_ALIASES.includes(locale);
-  const exportCollections = getCollections();
-  const title = 'Free Dot-to-Dot Printables for Kids';
-  const ogTitle = title;
-  const description = exportCollections.map((collection) => collection.body.description).filter(Boolean).slice(0, 2).join(' ');
+  const exportCollections = getCollections(locale);
+  const homeExport = getHomeExport(locale);
+  const title = homeExport.header?.title ?? 'Free Dot-to-Dot Printables for Kids';
+  const ogTitle = homeExport.header?.og?.title ?? title;
+  const description = homeExport.header?.meta_description
+    ?? exportCollections.map((collection) => collection.body.description).filter(Boolean).slice(0, 2).join(' ');
   const arabicSeo = false;
   const ogImage = arabicSeo
     ? {
