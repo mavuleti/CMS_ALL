@@ -1,13 +1,13 @@
 {
   "slug": "home",
   "header": {
-    "title": "Free Dot to Dot Printables for Kids | Connect the Dots Worksheets PDF",
+    "title": "Besplatno spajanje točkica za djecu | PDF radni listovi za ispis",
     "title_template": "%s | DotToDotFreePrintables.com",
-    "meta_description": "hardcoded literal in layout.tsx generateMetadata() — see file for exact wording, distinct from seo/metadata.json's homepage.description",
+    "meta_description": "Ispišite, spojite točke i oživite nevjerojatne slike. Besplatno i spremno za zabavu!",
     "canonical": "/{locale}/",
     "og": {
-      "title": "Free dot-to-dot worksheets for kids",
-      "description": "same var as header.meta_description (shared, not distinct)",
+      "title": "Spoji točkice – besplatne zagonetke za djecu i odrasle",
+      "description": "Ispišite, spojite točke i oživite nevjerojatne slike. Besplatno i spremno za zabavu!",
       "url": "/{locale}/",
       "site_name": "DotToDotFreePrintables.com",
       "type": "website",
@@ -25,11 +25,11 @@
       "organization": {
         "type": "Organization",
         "logo": "/icon-512.png (absoluteUrl)",
-        "same_as": "hardcoded array: Pinterest, Facebook, YouTube profile URLs"
+        "same_as": "[\"https://www.pinterest.com/hellokidsbookworld/\", \"https://www.facebook.com/dottodotfreeprintables\", \"https://www.youtube.com/@hellokidsbookworld\"]"
       },
       "collection_page": {
         "type": "CollectionPage",
-        "name": "Free Dot to Dot Printables for Kids (third distinct hardcoded title string in the codebase — differs from header.title and seo/metadata.json's homepage.title)"
+        "name": "Pronađite savršene ispisive zagonetke od točke do točke"
       },
       "item_list": {
         "type": "ItemList (featured puzzles)"

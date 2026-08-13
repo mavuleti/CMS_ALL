@@ -6,7 +6,7 @@ const sitemapUrls = [...readFileSync('public/sitemap.xml', 'utf8').matchAll(/<lo
 test('every sitemap page and unique hyperlink resolves', async ({request, baseURL}) => {
   test.skip(test.info().project.name !== 'desktop-chrome', 'This request-based audit is viewport-independent.');
   test.setTimeout(15 * 60_000);
-  const localOrigin = new URL(baseURL ?? 'http://127.0.0.1:4444').origin;
+  const localOrigin = new URL(baseURL ?? 'http://127.0.0.1:45943').origin;
   const links = new Set<string>();
   const failures: string[] = [];
   const inaccessibleExternal: string[] = [];

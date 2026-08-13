@@ -3,11 +3,11 @@
   "header": {
     "title": "Points à relier & relie les points gratuit | PDF à imprimer",
     "title_template": "%s | DotToDotFreePrintables.com",
-    "meta_description": "Points à relier et jeux de relie-les-points à imprimer, gratuits en PDF : fiches faciles pour la maternelle jusqu'à des défis pour adultes. Animaux, dinosaures, véhicules et thèmes de saison. Sans inscription.",
+    "meta_description": "Imprimez, reliez les points et donnez vie à de superbes images. Gratuit et prêt à amuser !",
     "canonical": "/{locale}/",
     "og": {
       "title": "Points à relier / relie les points – jeux gratuits pour enfants & adultes",
-      "description": "Points à relier et jeux de relie-les-points à imprimer, gratuits en PDF : fiches faciles pour la maternelle jusqu'à des défis pour adultes. Animaux, dinosaures, véhicules et thèmes de saison. Sans inscription.",
+      "description": "Imprimez, reliez les points et donnez vie à de superbes images. Gratuit et prêt à amuser !",
       "url": "/{locale}/",
       "site_name": "DotToDotFreePrintables.com",
       "type": "website",
@@ -25,11 +25,11 @@
       "organization": {
         "type": "Organization",
         "logo": "/icon-512.png (absoluteUrl)",
-        "same_as": "hardcoded array: Pinterest, Facebook, YouTube profile URLs"
+        "same_as": "[\"https://www.pinterest.com/hellokidsbookworld/\", \"https://www.facebook.com/dottodotfreeprintables\", \"https://www.youtube.com/@hellokidsbookworld\"]"
       },
       "collection_page": {
         "type": "CollectionPage",
-        "name": "Free Dot to Dot Printables for Kids (third distinct hardcoded title string in the codebase — differs from header.title and seo/metadata.json's homepage.title)"
+        "name": "Trouvez les meilleurs points à relier imprimables"
       },
       "item_list": {
         "type": "ItemList (featured puzzles)"

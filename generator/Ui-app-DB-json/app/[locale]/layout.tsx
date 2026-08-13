@@ -207,9 +207,7 @@ export async function generateMetadata({
       canonical: `/${locale}/`,
       languages: {
         ...Object.fromEntries(FULLY_TRANSLATED_LOCALES.filter((l) => !ARABIC_REGIONAL_ALIASES.includes(l)).map((l) => [l, `/${l}/`])),
-        ...(false
-          ? Object.fromEntries(ARABIC_REGIONAL_ALIASES.map((l) => [l, `/${l}/`]))
-          : {}),
+        ...Object.fromEntries(ARABIC_REGIONAL_ALIASES.map((l) => [l, `/${l}/`])),
         'x-default': `/${routing.defaultLocale}/`
       }
     },

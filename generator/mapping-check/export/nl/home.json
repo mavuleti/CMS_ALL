@@ -3,11 +3,11 @@
   "header": {
     "title": "Verbind de punten & van punt naar punt gratis | PDF om te printen",
     "title_template": "%s | DotToDotFreePrintables.com",
-    "meta_description": "Verbind de punten en van punt naar punt om te printen, gratis als PDF: makkelijke werkbladen vanaf 10 stippen voor peuters tot uitdagingen met meer dan 100 stippen voor volwassenen. Dieren, dinosaurussen, voertuigen en seizoensthema's. Geen account nodig.",
+    "meta_description": "Print, verbind de stippen en breng geweldige plaatjes tot leven. Gratis en klaar voor plezier!",
     "canonical": "/{locale}/",
     "og": {
       "title": "Verbind de punten / van punt naar punt – gratis puzzels voor kinderen & volwassenen",
-      "description": "Verbind de punten en van punt naar punt om te printen, gratis als PDF: makkelijke werkbladen vanaf 10 stippen voor peuters tot uitdagingen met meer dan 100 stippen voor volwassenen. Dieren, dinosaurussen, voertuigen en seizoensthema's. Geen account nodig.",
+      "description": "Print, verbind de stippen en breng geweldige plaatjes tot leven. Gratis en klaar voor plezier!",
       "url": "/{locale}/",
       "site_name": "DotToDotFreePrintables.com",
       "type": "website",
@@ -25,11 +25,11 @@
       "organization": {
         "type": "Organization",
         "logo": "/icon-512.png (absoluteUrl)",
-        "same_as": "hardcoded array: Pinterest, Facebook, YouTube profile URLs"
+        "same_as": "[\"https://www.pinterest.com/hellokidsbookworld/\", \"https://www.facebook.com/dottodotfreeprintables\", \"https://www.youtube.com/@hellokidsbookworld\"]"
       },
       "collection_page": {
         "type": "CollectionPage",
-        "name": "Free Dot to Dot Printables for Kids (third distinct hardcoded title string in the codebase — differs from header.title and seo/metadata.json's homepage.title)"
+        "name": "Vind de perfecte punt-tot-punt printables"
       },
       "item_list": {
         "type": "ItemList (featured puzzles)"

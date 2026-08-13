@@ -3,11 +3,11 @@
   "header": {
     "title": "Бесплатные задания по точкам для детей | PDF для печати",
     "title_template": "%s | DotToDotFreePrintables.com",
-    "meta_description": "Скачивайте и распечатывайте бесплатные задания по точкам для детей: животные, динозавры, транспорт и сезонные темы в PDF. Без регистрации.",
+    "meta_description": "Распечатайте, соедините точки и оживите удивительные картинки. Бесплатно и готово к веселью!",
     "canonical": "/{locale}/",
     "og": {
       "title": "Бесплатные рисунки по точкам и задания для детей",
-      "description": "Скачивайте и распечатывайте бесплатные задания по точкам для детей: животные, динозавры, транспорт и сезонные темы в PDF. Без регистрации.",
+      "description": "Распечатайте, соедините точки и оживите удивительные картинки. Бесплатно и готово к веселью!",
       "url": "/{locale}/",
       "site_name": "DotToDotFreePrintables.com",
       "type": "website",
@@ -25,11 +25,11 @@
       "organization": {
         "type": "Organization",
         "logo": "/icon-512.png (absoluteUrl)",
-        "same_as": "hardcoded array: Pinterest, Facebook, YouTube profile URLs"
+        "same_as": "[\"https://www.pinterest.com/hellokidsbookworld/\", \"https://www.facebook.com/dottodotfreeprintables\", \"https://www.youtube.com/@hellokidsbookworld\"]"
       },
       "collection_page": {
         "type": "CollectionPage",
-        "name": "Free Dot to Dot Printables for Kids (third distinct hardcoded title string in the codebase — differs from header.title and seo/metadata.json's homepage.title)"
+        "name": "Найдите идеальные раскраски-головоломки «точка к точке» для печати"
       },
       "item_list": {
         "type": "ItemList (featured puzzles)"

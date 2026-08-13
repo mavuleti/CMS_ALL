@@ -3,11 +3,11 @@
   "header": {
     "title": "Unisci i puntini gratis | PDF da stampare per bambini",
     "title_template": "%s | DotToDotFreePrintables.com",
-    "meta_description": "Unisci i puntini da stampare gratis in PDF: schede facili per la scuola dell'infanzia fino a sfide per adulti con oltre 100 punti. Animali, dinosauri, veicoli e temi stagionali. Senza registrazione.",
+    "meta_description": "Stampa, unisci i puntini e dai vita a immagini fantastiche. Gratis e pronto per il divertimento!",
     "canonical": "/{locale}/",
     "og": {
       "title": "Unisci i puntini – puzzle gratuiti per bambini e adulti",
-      "description": "Unisci i puntini da stampare gratis in PDF: schede facili per la scuola dell'infanzia fino a sfide per adulti con oltre 100 punti. Animali, dinosauri, veicoli e temi stagionali. Senza registrazione.",
+      "description": "Stampa, unisci i puntini e dai vita a immagini fantastiche. Gratis e pronto per il divertimento!",
       "url": "/{locale}/",
       "site_name": "DotToDotFreePrintables.com",
       "type": "website",
@@ -25,11 +25,11 @@
       "organization": {
         "type": "Organization",
         "logo": "/icon-512.png (absoluteUrl)",
-        "same_as": "hardcoded array: Pinterest, Facebook, YouTube profile URLs"
+        "same_as": "[\"https://www.pinterest.com/hellokidsbookworld/\", \"https://www.facebook.com/dottodotfreeprintables\", \"https://www.youtube.com/@hellokidsbookworld\"]"
       },
       "collection_page": {
         "type": "CollectionPage",
-        "name": "Free Dot to Dot Printables for Kids (third distinct hardcoded title string in the codebase — differs from header.title and seo/metadata.json's homepage.title)"
+        "name": "Trova i migliori disegni da unire i puntini da stampare"
       },
       "item_list": {
         "type": "ItemList (featured puzzles)"

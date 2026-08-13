@@ -342,6 +342,7 @@ export async function CategoryGrid({ excludeIds, includeBlog }: { excludeIds?: s
 export async function PuzzleSection() {
   const t = await getTranslations('puzzleSection');
   const tc = await getTranslations('common');
+  const tCategories = await getTranslations('categories');
   const { getLocale } = await import('next-intl/server');
   const locale = await getLocale();
   const localizedPuzzleNames = new Map<string, string>();
@@ -369,6 +370,9 @@ export async function PuzzleSection() {
       <div className="puzzle-grid">
         {visiblePuzzles.map((puzzle) => {
           const puzzleKey = getPuzzleMessageKey(puzzle.href);
+          const categorySlug = puzzle.href.split('/').filter(Boolean)[0];
+          const categoryId = categorySlug === 'usa-250' ? 'usa250' : categorySlug;
+          const sharedCategoryKey = `items.${categoryId}.name`;
           const messageKey = `items.${puzzleKey}.name`;
           const puzzleName = t.has(messageKey)
             ? t(messageKey)
@@ -391,7 +395,13 @@ export async function PuzzleSection() {
                 {puzzle.isNew ? <span className="badge" aria-hidden="true">{t('new')}</span> : null}
               </Link>
               <div className="puzzle-body">
-                <p className="puzzle-category">{t.has(`categories.${puzzle.category}`) ? t(`categories.${puzzle.category}`) : puzzle.category}</p>
+                <p className="puzzle-category">
+                  {tCategories.has(sharedCategoryKey)
+                    ? tCategories(sharedCategoryKey)
+                    : t.has(`categories.${puzzle.category}`)
+                      ? t(`categories.${puzzle.category}`)
+                      : puzzle.category}
+                </p>
                 <h3>{puzzleName}</h3>
                 <div className="puzzle-meta">
                   <span>{localizedAge}</span>

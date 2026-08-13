@@ -84,4 +84,6 @@ for (const locale of routing.locales) {
 // but resolve their own puzzles/availability from their own export data.
 export const categories: Record<string, CategoryConfig> = categoriesByLocale.en ?? {};
 
-export function getCategory(category: string) { return categories[category]; }
+export function getCategory(category: string, locale: string = routing.defaultLocale) {
+  return categoriesByLocale[locale]?.[category] ?? categories[category];
+}

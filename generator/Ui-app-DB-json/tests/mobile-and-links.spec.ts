@@ -381,7 +381,7 @@ test.describe('No broken links', () => {
           .filter((h): h is string => typeof h === 'string' && h !== '' && !h.startsWith('#') && !h.startsWith('mailto'))
       );
 
-      const base = new URL(baseURL ?? 'http://localhost:4444');
+      const base = new URL(baseURL ?? 'http://localhost:45943');
       const urls = Array.from(new Set(
         hrefs
           .map((h) => new URL(h, base))

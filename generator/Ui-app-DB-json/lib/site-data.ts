@@ -1,4 +1,18 @@
-import { BookOpen, Flower2, Shapes, type LucideIcon } from 'lucide-react';
+import {
+  BookOpen,
+  Flag,
+  Flower2,
+  Footprints,
+  Heart,
+  Landmark,
+  Leaf,
+  Rocket,
+  Shell,
+  Sparkles,
+  Sprout,
+  TentTree,
+  type LucideIcon,
+} from 'lucide-react';
 import { routing } from '@/i18n/routing';
 import { getCollections } from './export-content';
 import { puzzleIdFromHref } from './puzzle-id';
@@ -15,6 +29,20 @@ const categoryAccents: Partial<Record<string, string>> = {
   ocean: '#087c8f'
 };
 
+const categoryIcons: Record<string, LucideIcon> = {
+  canada: Leaf,
+  circus: TentTree,
+  cute: Heart,
+  dinosaurs: Sparkles,
+  flowers: Flower2,
+  garden: Sprout,
+  ocean: Shell,
+  playgrounds: Footprints,
+  space: Rocket,
+  uae: Landmark,
+  'usa-250': Flag,
+};
+
 function buildPuzzles(locale: string): Puzzle[] {
   return getCollections(locale).flatMap((collection) => collection.puzzles.map((puzzle) => {
     const href = `/${collection.slug}/${puzzle.slug}/`;
@@ -25,7 +53,7 @@ function buildPuzzles(locale: string): Puzzle[] {
 function buildCategories(locale: string): Category[] {
   const exportCollections = getCollections(locale);
   return [
-    ...exportCollections.map((collection, index) => ({ id: collection.slug === 'usa-250' ? 'usa250' : collection.slug, name: collection.body.name ?? collection.slug, count: collection.puzzles.length, description: collection.body.description ?? '', color: categoryAccents[collection.slug] ?? palette[index % palette.length], Icon: collection.slug === 'flowers' ? Flower2 : Shapes, href: `/${collection.slug}/` })),
+    ...exportCollections.map((collection, index) => ({ id: collection.slug === 'usa-250' ? 'usa250' : collection.slug, name: collection.body.name ?? collection.slug, count: collection.puzzles.length, description: collection.body.description ?? '', color: categoryAccents[collection.slug] ?? palette[index % palette.length], Icon: categoryIcons[collection.slug] ?? Sparkles, href: `/${collection.slug}/` })),
     { id: 'blog', name: 'Blog', count: 0, description: 'Learning guides and activity ideas.', color: '#fff0c7', Icon: BookOpen, href: '/blog/' }
   ];
 }

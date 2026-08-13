@@ -1,5 +1,4 @@
 import { routing } from '@/i18n/routing';
-import { contentLocaleFor, isSectionAvailable, readSectionItems, sectionFiles } from '@/lib/section-locales';
 import type { Metadata } from 'next';
 
 export const SITE_URL = 'https://dottodotfreeprintables.com';
@@ -67,28 +66,12 @@ const localeToOgLocale: Record<string, string> = {
   vi: 'vi_VN'
 };
 
-function localeHasOwnPage(locale: string, normalizedPath: string) {
-  if (locale === routing.defaultLocale) return true;
-  const prefix = Object.keys(sectionFiles).find((candidate) => normalizedPath.startsWith(`/${candidate}`));
-  if (!prefix) return true;
-  if (!isSectionAvailable(locale, prefix)) return false;
-
-  const slug = normalizedPath.slice(prefix.length + 1).replace(/\/$/, '');
-  if (!slug) return true;
-  const own = readSectionItems(contentLocaleFor(locale), prefix).find((item) => item.slug === slug);
-  if (!own) return false;
-
-  // Most puzzle loaders deliberately drop a localized entry when English has
-  // a dot guide but that guide has not been translated. Mirror that rule here
-  // so hreflang never advertises a static page that generateStaticParams omits.
-  // Canada is the one established exception (its loader permits the older
-  // flat localized schema without a guide).
-  if (prefix !== 'canada/') {
-    const english = readSectionItems(routing.defaultLocale, prefix).find((item) => item.slug === slug);
-    if (english?.dotGuide && !own.dotGuide) return false;
-  }
-
-  return true;
+function localeHasOwnPage(locale: string, _normalizedPath: string) {
+  // Ui-app-DB-json generates its localized pages from mapping-check/export,
+  // not the legacy content/<locale> tree used by dot-to-dot-web. Every locale
+  // admitted to this metadata helper has already been materialized by the
+  // route's generateStaticParams, so it owns the requested page.
+  return routing.locales.includes(locale as (typeof routing.locales)[number]);
 }
 
 /**
@@ -113,9 +96,7 @@ export function buildAlternates(locale: string, path: string) {
     // scripts/strip-next-runtime.mjs publishArabicRegionalAliases), so it
     // gets its own hreflang entry pointing at its own URL, forming a
     // reciprocal cluster with /ar/ rather than all mirroring one URL.
-    ...(false
-      ? Object.fromEntries(ARABIC_REGIONAL_ALIASES.map((l) => [l, `/${l}${normalizedPath}`]))
-      : {}),
+    ...Object.fromEntries(ARABIC_REGIONAL_ALIASES.map((l) => [l, `/${l}${normalizedPath}`])),
     'x-default': `/${routing.defaultLocale}${normalizedPath}`
   };
 

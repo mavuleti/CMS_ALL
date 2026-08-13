@@ -1,13 +1,13 @@
 {
   "slug": "home",
   "header": {
-    "title": "Free Dot to Dot Printables for Kids | Connect the Dots Worksheets PDF",
+    "title": "จุดต่อจุดฟรีสำหรับเด็ก | ใบงาน PDF พร้อมพิมพ์",
     "title_template": "%s | DotToDotFreePrintables.com",
-    "meta_description": "hardcoded literal in layout.tsx generateMetadata() — see file for exact wording, distinct from seo/metadata.json's homepage.description",
+    "meta_description": "พิมพ์ เชื่อมจุด แล้วทำให้ภาพสวยงามมีชีวิตขึ้นมา ฟรีและพร้อมสนุกได้เลย!",
     "canonical": "/{locale}/",
     "og": {
-      "title": "Free dot-to-dot worksheets for kids",
-      "description": "same var as header.meta_description (shared, not distinct)",
+      "title": "จุดต่อจุด — ปริศนาฟรีสำหรับเด็กและผู้ใหญ่",
+      "description": "พิมพ์ เชื่อมจุด แล้วทำให้ภาพสวยงามมีชีวิตขึ้นมา ฟรีและพร้อมสนุกได้เลย!",
       "url": "/{locale}/",
       "site_name": "DotToDotFreePrintables.com",
       "type": "website",
@@ -25,11 +25,11 @@
       "organization": {
         "type": "Organization",
         "logo": "/icon-512.png (absoluteUrl)",
-        "same_as": "hardcoded array: Pinterest, Facebook, YouTube profile URLs"
+        "same_as": "[\"https://www.pinterest.com/hellokidsbookworld/\", \"https://www.facebook.com/dottodotfreeprintables\", \"https://www.youtube.com/@hellokidsbookworld\"]"
       },
       "collection_page": {
         "type": "CollectionPage",
-        "name": "Free Dot to Dot Printables for Kids (third distinct hardcoded title string in the codebase — differs from header.title and seo/metadata.json's homepage.title)"
+        "name": "ค้นหาแบบฝึกจุดต่อจุดที่พิมพ์ได้สมบูรณ์แบบ"
       },
       "item_list": {
         "type": "ItemList (featured puzzles)"

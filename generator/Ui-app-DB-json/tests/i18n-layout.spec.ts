@@ -7,13 +7,13 @@ import { routing } from '../i18n/routing';
    Locales & key pages under test
 ═══════════════════════════════════════════════════════════════════════════ */
 const contentDir = path.resolve('content');
+const exportDir = path.resolve('../mapping-check/export');
 const sourceLocale = 'en';
-const contentFiles = readdirSync(path.join(contentDir, sourceLocale))
-  .filter((file) => file.endsWith('.json'))
-  .sort();
 
 const htmlLangByLocale: Record<string, string> = {
+  az: 'az-AZ',
   en: 'en',
+  fa: 'fa-IR',
   fr: 'fr-FR',
   es: 'es',
   de: 'de-DE',
@@ -50,21 +50,15 @@ function readJson(filePath: string) {
 }
 
 function isPlaceholderLocale(locale: string) {
-  const messages = readJson(path.join(contentDir, locale, 'messages.json'));
-  if (Object.keys(messages).length > 0) return false;
+  const homePath = path.join(exportDir, locale, 'home.json');
+  if (!existsSync(homePath)) return true;
+  const home = readJson(homePath);
+  return !home?.body || Object.keys(home.body).length === 0;
 
   // Section files (e.g. puzzles-flowers.json, puzzles-canada.json) are only
   // written for locales that carry that section at all (see
   // lib/section-locales.ts) — a missing file means "no section," same as an
   // empty one, not a sign the whole locale is untranslated.
-  return contentFiles
-    .filter((file) => file !== 'messages.json')
-    .every((file) => {
-      const filePath = path.join(contentDir, locale, file);
-      if (!existsSync(filePath)) return true;
-      const data = readJson(filePath);
-      return Array.isArray(data) && data.length === 0;
-    });
 }
 
 // content/ may hold locale folders staged ahead of being wired up (see
@@ -73,7 +67,7 @@ function isPlaceholderLocale(locale: string) {
 // never builds pages for them, so testing them here would just assert
 // against a page that doesn't exist. Only test locales the app actually routes.
 const routedLocaleSet = new Set<string>(routing.locales);
-const allRoutedLocales = readdirSync(contentDir, { withFileTypes: true })
+const allRoutedLocales = readdirSync(exportDir, { withFileTypes: true })
   .filter((entry) => entry.isDirectory())
   .map((entry) => entry.name)
   .filter((locale) => routedLocaleSet.has(locale))
@@ -158,7 +152,7 @@ const allPagesAlignmentRoutes = Object.fromEntries(
    English marker strings — used to catch whole-section English leakage on
    non-English locales (a locale whose messages.json override didn't apply)
 ═══════════════════════════════════════════════════════════════════════════ */
-const enMessages = readJson(path.resolve('content/en/messages.json'));
+const enMessages = readJson(path.join(exportDir, sourceLocale, 'home.json')).body;
 
 const englishMarkers = [
   enMessages.hero?.h1,
@@ -315,7 +309,7 @@ test.describe('Arabic regional alias hreflang cluster', () => {
   });
 
   test('nested pages preserve the same Arabic path in every regional alternate', async ({ page }) => {
-    const suffix = 'blog/benefits-of-dot-to-dot-puzzles-for-kids/';
+    const suffix = 'dinosaurs/trex-61-dot-to-dot-puzzle/';
 
     for (const { locale, url } of pages) {
       await page.goto(`${url}${suffix}`, { waitUntil: 'domcontentloaded' });

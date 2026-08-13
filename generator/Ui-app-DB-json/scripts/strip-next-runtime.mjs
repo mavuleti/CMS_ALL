@@ -173,7 +173,7 @@ function aliasArabicHtml(html, alias) {
   const pathSuffix =
     canonicalMatch?.[1].match(/^https:\/\/dottodotfreeprintables\.com\/ar(\/.*)?$/)?.[1] ?? '/';
 
-  const rewritten = html
+  let rewritten = html
     .replace(/<html([^>]*)\blang="[^"]*"/, `<html$1lang="${alias}"`)
     .replace(/<html([^>]*)\bdir="[^"]*"/, '<html$1dir="rtl"')
     .replace(/<html(?![^>]*\bdir=)/, '<html dir="rtl"')
@@ -186,6 +186,18 @@ function aliasArabicHtml(html, alias) {
       /<link\b(?=[^>]*\brel="canonical")[^>]*>/,
       (tag) => tag.replace(/\bhref="[^"]*"/, `href="https://dottodotfreeprintables.com/${alias}${pathSuffix}"`)
     );
+
+  // Restore the reciprocal Arabic hreflang cluster after the broad in-page
+  // `/ar` link rewrite above has run.
+  for (const locale of ['ar', 'ar-AE', 'ar-SA', 'ar-QA']) {
+    const alternatePattern = new RegExp(
+      `<link\\b(?=[^>]*\\brel="alternate")(?=[^>]*\\bhreflang="${locale}")[^>]*>`,
+      'g'
+    );
+    rewritten = rewritten.replace(alternatePattern, (tag) =>
+      tag.replace(/\bhref="[^"]*"/, `href="https://dottodotfreeprintables.com/${locale}${pathSuffix}"`)
+    );
+  }
 
   // The rewrites above only touch the static, server-rendered <head> tags.
   // Next's App Router also embeds the *original* (unrewritten) metadata as

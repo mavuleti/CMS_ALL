@@ -33,9 +33,57 @@ function validObjectArray(value: unknown): any[] {
 
 function numberFrom(...values: unknown[]) {
   for (const value of values) {
-    const match = String(value ?? '').match(/\b(\d{2,3})[ -]dot/i);
+    const match = String(value ?? '').match(/\b(\d{2,3})\s*(?:[ -]?dots?\b|نقطة)/iu);
     if (match) return Number(match[1]);
   }
+}
+
+// Some puzzle image assets don't follow the standard `${slug}-puzzle.webp`
+// naming convention. Map those slugs to their actual filenames explicitly.
+const puzzleImageOverrides: Record<string, string> = {
+  'ostriches-dinosaur-dot-to-dot-puzzle': 'ostriches-puzzle.webp',
+  spinosaurus: 'spinosaurus-74-puzzle.webp',
+  'flax-flower-dot-to-dot-puzzle': 'flower-flax-flower-puzzle.webp',
+  'nasturtium-flower-dot-to-dot-puzzle': 'flower-nasturtium-puzzle.webp',
+  'snowdrop-flower-dot-to-dot-puzzle': 'flower-snowdrop-puzzle.webp',
+  'buttercup-flower-dot-to-dot-puzzle': 'flower-buttercup-puzzle.webp',
+  'camellia-flower-dot-to-dot-puzzle': 'flower-camellia-puzzle.webp',
+  'forget-me-not-flower-dot-to-dot-puzzle': 'flower-forget-me-not-puzzle.webp',
+  'geranium-flower-dot-to-dot-puzzle': 'flower-geranium-puzzle.webp',
+  'jasmine-flower-dot-to-dot-puzzle': 'flower-jasmine-puzzle.webp',
+  'periwinkle-flower-dot-to-dot-puzzle': 'flower-periwinkle-puzzle.webp',
+  'petunia-flower-dot-to-dot-puzzle': 'flower-petunia-puzzle.webp',
+  'plumeria-flower-dot-to-dot-puzzle': 'flower-plumeria-puzzle.webp',
+  'carnation-flower-dot-to-dot-puzzle': 'flower-carnation-puzzle.webp',
+  'six-petal-lily-dot-to-dot-puzzle': 'flower-six-petal-lily-puzzle.webp',
+  'peony-flower-dot-to-dot-puzzle': 'flower-peony-puzzle.webp',
+  'orchid-flower-dot-to-dot-puzzle': 'flower-orchid-puzzle.webp',
+  'lotus-flower-dot-to-dot-puzzle': 'flower-lotus-puzzle.webp',
+  'rose-flower-dot-to-dot-puzzle': 'flower-rose-puzzle.webp',
+  'tulip-flower-dot-to-dot-puzzle': 'flower-tulip-puzzle.webp',
+  'poppy-flower-dot-to-dot-puzzle': 'flower-poppy-puzzle.webp',
+  'kawaii-sunflower-dot-to-dot-puzzle': 'flower-kawaii-sunflower-puzzle.webp',
+  'crescent-moon-dot-to-dot-puzzle': 'space-crescent-moon-puzzle.webp',
+  'ringed-planet-dot-to-dot-puzzle': 'space-ringed-planet-puzzle.webp',
+};
+
+function inferredPuzzleImage(slug: string) {
+  if (puzzleImageOverrides[slug] && fs.existsSync(path.join(process.cwd(), 'public', 'images', puzzleImageOverrides[slug]))) {
+    return `/images/${puzzleImageOverrides[slug]}`;
+  }
+
+  const basename = slug.replace(/-dot-to-dot-puzzle$/, '');
+  const playgroundCore = basename.replace(/-playgrounds?$/, '');
+  const candidates = [
+    `${basename}-puzzle.webp`,
+    `playgrounds-${playgroundCore}-puzzle.webp`,
+    `playground-${playgroundCore}-puzzle.webp`,
+  ];
+
+  const filename = candidates.find((candidate) =>
+    fs.existsSync(path.join(process.cwd(), 'public', 'images', candidate))
+  );
+  return filename ? `/images/${filename}` : undefined;
 }
 
 function normalizePuzzle(document: any, collectionSlug: string): Puzzle {
@@ -43,7 +91,11 @@ function normalizePuzzle(document: any, collectionSlug: string): Puzzle {
   const header = document.header ?? {};
   const guide = body.dot_guide ?? {};
   const dots = numberFrom(body.h1, header.title, body.description);
-  const image = body.assets?.image ?? body.image ?? header.json_ld?.image ?? header.og?.image;
+  const image = body.assets?.image
+    ?? body.image
+    ?? header.json_ld?.image
+    ?? header.og?.image
+    ?? inferredPuzzleImage(document.slug);
   const inferredPdf = typeof image === 'string'
     ? `/${collectionSlug}/${path.basename(image).replace(/-puzzle\.webp$/i, '-dot-to-dot-printable-horizontal.pdf')}`
     : undefined;

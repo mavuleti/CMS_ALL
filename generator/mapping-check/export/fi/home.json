@@ -3,11 +3,11 @@
   "header": {
     "title": "Pisteestä pisteeseen tulostettava lapsille — ilmaiset PDF-tehtävät",
     "title_template": "%s | DotToDotFreePrintables.com",
-    "meta_description": "Lataa ja tulosta ilmaisia pisteestä pisteeseen lapsille tarkoitettuja tehtäviä: eläimiä, dinosauruksia, ajoneuvoja ja vuodenaikojen teemoja PDF-muodossa. Ei rekisteröitymistä.",
+    "meta_description": "Tulosta, yhdistä pisteet ja herätä upeat kuvat eloon. Ilmaista ja valmista hauskanpitoon!",
     "canonical": "/{locale}/",
     "og": {
       "title": "Pisteestä pisteeseen lapsille — ilmaisia tulostettavia tehtäviä",
-      "description": "Lataa ja tulosta ilmaisia pisteestä pisteeseen lapsille tarkoitettuja tehtäviä: eläimiä, dinosauruksia, ajoneuvoja ja vuodenaikojen teemoja PDF-muodossa. Ei rekisteröitymistä.",
+      "description": "Tulosta, yhdistä pisteet ja herätä upeat kuvat eloon. Ilmaista ja valmista hauskanpitoon!",
       "url": "/{locale}/",
       "site_name": "DotToDotFreePrintables.com",
       "type": "website",
@@ -25,11 +25,11 @@
       "organization": {
         "type": "Organization",
         "logo": "/icon-512.png (absoluteUrl)",
-        "same_as": "hardcoded array: Pinterest, Facebook, YouTube profile URLs"
+        "same_as": "[\"https://www.pinterest.com/hellokidsbookworld/\", \"https://www.facebook.com/dottodotfreeprintables\", \"https://www.youtube.com/@hellokidsbookworld\"]"
       },
       "collection_page": {
         "type": "CollectionPage",
-        "name": "Free Dot to Dot Printables for Kids (third distinct hardcoded title string in the codebase — differs from header.title and seo/metadata.json's homepage.title)"
+        "name": "Löydä täydelliset pisteestä pisteeseen -tulosteet"
       },
       "item_list": {
         "type": "ItemList (featured puzzles)"

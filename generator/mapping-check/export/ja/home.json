@@ -3,11 +3,11 @@
   "header": {
     "title": "無料の点つなぎ（てんつなぎ）プリント | 子ども向けPDF",
     "title_template": "%s | DotToDotFreePrintables.com",
-    "meta_description": "無料でダウンロード・印刷できるてんつなぎプリントPDF：幼児向けのやさしいプリントから、100以上の点をつなぐ大人向けの難しいプリントまで。動物、恐竜、乗り物、季節のテーマも。登録不要。",
+    "meta_description": "印刷して点をつなぎ、素敵な絵を完成させよう。無料ですぐに楽しめます！",
     "canonical": "/{locale}/",
     "og": {
       "title": "点つなぎ・数字つなぎ — 子どもから大人まで楽しめる無料プリント",
-      "description": "無料でダウンロード・印刷できるてんつなぎプリントPDF：幼児向けのやさしいプリントから、100以上の点をつなぐ大人向けの難しいプリントまで。動物、恐竜、乗り物、季節のテーマも。登録不要。",
+      "description": "印刷して点をつなぎ、素敵な絵を完成させよう。無料ですぐに楽しめます！",
       "url": "/{locale}/",
       "site_name": "DotToDotFreePrintables.com",
       "type": "website",
@@ -25,11 +25,11 @@
       "organization": {
         "type": "Organization",
         "logo": "/icon-512.png (absoluteUrl)",
-        "same_as": "hardcoded array: Pinterest, Facebook, YouTube profile URLs"
+        "same_as": "[\"https://www.pinterest.com/hellokidsbookworld/\", \"https://www.facebook.com/dottodotfreeprintables\", \"https://www.youtube.com/@hellokidsbookworld\"]"
       },
       "collection_page": {
         "type": "CollectionPage",
-        "name": "Free Dot to Dot Printables for Kids (third distinct hardcoded title string in the codebase — differs from header.title and seo/metadata.json's homepage.title)"
+        "name": "ぴったりの点つなぎ印刷用プリントを見つけよう"
       },
       "item_list": {
         "type": "ItemList (featured puzzles)"

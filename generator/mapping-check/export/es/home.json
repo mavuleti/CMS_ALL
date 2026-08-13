@@ -3,11 +3,11 @@
   "header": {
     "title": "Dibujos para unir puntos imprimibles gratis para niños | Hojas PDF",
     "title_template": "%s | DotToDotFreePrintables.com",
-    "meta_description": "Descarga e imprime fichas gratuitas de unir puntos para niños: animales, dinosaurios, vehículos y temas de temporada en PDF. Sin registro.",
+    "meta_description": "Imprime, une los puntos y da vida a imágenes increíbles. ¡Gratis y listo para divertirse!",
     "canonical": "/{locale}/",
     "og": {
       "title": "Dibujos y fichas de unir puntos gratis para niños",
-      "description": "Descarga e imprime fichas gratuitas de unir puntos para niños: animales, dinosaurios, vehículos y temas de temporada en PDF. Sin registro.",
+      "description": "Imprime, une los puntos y da vida a imágenes increíbles. ¡Gratis y listo para divertirse!",
       "url": "/{locale}/",
       "site_name": "DotToDotFreePrintables.com",
       "type": "website",
@@ -25,11 +25,11 @@
       "organization": {
         "type": "Organization",
         "logo": "/icon-512.png (absoluteUrl)",
-        "same_as": "hardcoded array: Pinterest, Facebook, YouTube profile URLs"
+        "same_as": "[\"https://www.pinterest.com/hellokidsbookworld/\", \"https://www.facebook.com/dottodotfreeprintables\", \"https://www.youtube.com/@hellokidsbookworld\"]"
       },
       "collection_page": {
         "type": "CollectionPage",
-        "name": "Free Dot to Dot Printables for Kids (third distinct hardcoded title string in the codebase — differs from header.title and seo/metadata.json's homepage.title)"
+        "name": "Encuentra los mejores imprimibles de puntos para unir"
       },
       "item_list": {
         "type": "ItemList (featured puzzles)"

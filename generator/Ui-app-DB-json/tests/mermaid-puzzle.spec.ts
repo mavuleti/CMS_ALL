@@ -27,7 +27,7 @@ for (const locale of locales) {
         : '/ocean/mermaid-dot-to-dot-printable-horizontal.pdf';
       await expect(download).toHaveAttribute('href', expectedHref);
       const href = await download.getAttribute('href');
-      const response = await request.get(new URL(href!, baseURL ?? 'http://127.0.0.1:4444').toString());
+      const response = await request.get(new URL(href!, baseURL ?? 'http://127.0.0.1:45943').toString());
       expect(response.status()).toBe(200);
       expect(response.headers()['content-type']).toContain('application/pdf');
 
