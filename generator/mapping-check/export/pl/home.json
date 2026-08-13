@@ -1,0 +1,409 @@
+{
+  "slug": "home",
+  "header": {
+    "title": "Free Dot to Dot Printables for Kids | Connect the Dots Worksheets PDF",
+    "title_template": "%s | DotToDotFreePrintables.com",
+    "meta_description": "hardcoded literal in layout.tsx generateMetadata() — see file for exact wording, distinct from seo/metadata.json's homepage.description",
+    "canonical": "/{locale}/",
+    "og": {
+      "title": "Free dot-to-dot worksheets for kids",
+      "description": "same var as header.meta_description (shared, not distinct)",
+      "url": "/{locale}/",
+      "site_name": "DotToDotFreePrintables.com",
+      "type": "website",
+      "image": "/images/trex-61-puzzle.webp (800x679)"
+    },
+    "twitter": {
+      "card": "summary_large_image"
+    },
+    "manifest": "/manifest.webmanifest",
+    "json_ld": {
+      "website": {
+        "type": "WebSite",
+        "name": "DotToDotFreePrintables.com (SITE_NAME)"
+      },
+      "organization": {
+        "type": "Organization",
+        "logo": "/icon-512.png (absoluteUrl)",
+        "same_as": "hardcoded array: Pinterest, Facebook, YouTube profile URLs"
+      },
+      "collection_page": {
+        "type": "CollectionPage",
+        "name": "Free Dot to Dot Printables for Kids (third distinct hardcoded title string in the codebase — differs from header.title and seo/metadata.json's homepage.title)"
+      },
+      "item_list": {
+        "type": "ItemList (featured puzzles)"
+      }
+    }
+  },
+  "body": {
+    "nav": {
+      "kids": "Dzieci - Puzzle",
+      "teachers": "Nauczycielstwo",
+      "parents": "Rodzice",
+      "contact": "Skontaktuj się z nami",
+      "blog": "Blog",
+      "search": "Szukaj",
+      "freePack": "Darmowy pakiet",
+      "scanMe": "Zeskanuj mnie"
+    },
+    "homepageUi": {
+      "title": "Znajdź idealne łamigłówki od kropki do kropki do druku",
+      "description": "Wydrukuj, połącz kropki i ożyw niesamowite obrazki. Za darmo i gotowe do zabawy!",
+      "searchPlaceholder": "Spróbuj: ocean, dinozaur lub kwiaty",
+      "filterPuzzles": "Filtruj łamigłówki",
+      "age": "Wiek",
+      "dots": "kropek",
+      "featuredPuzzles": "Polecane łamigłówki do druku",
+      "savePuzzle": "Zapisz {name}",
+      "removeSavedPuzzle": "Usuń {name} z zapisanych",
+      "downloads": "pobrań",
+      "bookTitle": "Najlepsze z 2026 · {count}",
+      "bookDescription": "Nasze ulubione łamigłówki od kropki do kropki w jednej książce PDF do druku.",
+      "searchUnavailable": "Wyszukiwanie jest tymczasowo niedostępne. Spróbuj ponownie.",
+      "popularEyebrow": "Popularne w tym tygodniu",
+      "mostDownloaded": "Najczęściej pobierane łamigłówki",
+      "downloadCountAria": "{count} lub więcej pobrań",
+      "freshPrintables": "Świeże materiały do druku",
+      "recentlyAdded": "Ostatnio dodane",
+      "browseCategories": "Przeglądaj kategorie łamigłówek",
+      "openCategories": "Otwórz menu kategorii",
+      "closeCategories": "Zamknij menu kategorii",
+      "browseByTheme": "Przeglądaj według tematu",
+      "quickLinks": "Szybkie linki",
+      "bundlePacks": "Pakiety zestawów",
+      "parentsTeachers": "Dla rodziców i nauczycieli",
+      "more": "Więcej kategorii",
+      "kids": "Dzieci",
+      "categoryNames": {
+        "cute": "Urocze łamigłówki",
+        "flowers": "Kwiaty"
+      }
+    },
+    "audience": {
+      "kidsTitle": "Dla dzieci",
+      "kidsText": "Przyjazne motywy zwierząt, dinozaurów i pojazdów z wyraźnymi, ponumerowanymi kropkami. Łatwe zwycięstwa, które budują prawdziwą pewność siebie.",
+      "parentsTitle": "Dla rodziców",
+      "parentsText": "Ćwiczenia na ciszę bez ekranu w domu, w podróży i w restauracjach. Drukuj z dowolnego urządzenia w mniej niż minutę.",
+      "teachersTitle": "Dla nauczycieli",
+      "teachersText": "Łatwe do łączenia elementy do pracy porannej, do szybkiego kończenia zajęć, do zastępstw i na stanowiska w klasach — nie wymagają przygotowania."
+    },
+    "categories": {
+      "eyebrow": "Zorganizowane według tematu i poziomu umiejętności",
+      "heading": "Przeglądaj łamigłówki typu „połącz kropki” według kategorii",
+      "description": "Od prostych kształtów składających się z 10 kropek dla maluchów po wyzwania składające się z 200 kropek dla starszych dzieci — posortowane według kategorii, dzięki czemu w kilka sekund znajdziesz odpowiedni, darmowy plik do wydrukowania.",
+      "puzzles": "{count, plural, one {# łamigłówka} few {# łamigłówki} many {# łamigłówek} other {# łamigłówki}}",
+      "comingSoon": "Już wkrótce",
+      "badges": {
+        "dinosaurs": "Dostępne już teraz!",
+        "ocean": "Dostępne już teraz!",
+        "playgrounds": "Dostępne już teraz!",
+        "garden": "Dostępne już teraz!",
+        "usa250": "Nowy!",
+        "uae": "Dostępne już teraz!",
+        "cute": "Nowy!",
+        "circus": "Nowość!"
+      },
+      "items": {
+        "dinosaurs": {
+          "name": "Dinozaury",
+          "description": "Zanurz się w prehistoryczną zabawę! T-Rex, Triceratops, Velociraptor i {count} darmowych łamigłówek typu „połącz kropki”, które pokochają Twoje dzieci."
+        },
+        "animals": {
+          "name": "Zwierzęta",
+          "description": "Przyjazne stworzenia do nauki liczb."
+        },
+        "vehicles": {
+          "name": "Pojazdy",
+          "description": "Samochody, ciężarówki, rakiety i maszyny."
+        },
+        "fantasy": {
+          "name": "Kaprys",
+          "description": "Zamki, jednorożce, smoki i podpowiedzi do opowieści."
+        },
+        "seasonal": {
+          "name": "Sezonowy",
+          "description": "Aktywności w czasie świąt i zajęć klasowych."
+        },
+        "ocean": {
+          "name": "Osean",
+          "description": "Kolorowanki przedstawiające zwierzęta morskie i spokój."
+        },
+        "playgrounds": {
+          "name": "Place zabaw",
+          "description": "Huśtawki, zjeżdżalnie i zabawa na świeżym powietrzu dla małych poszukiwaczy przygód."
+        },
+        "garden": {
+          "name": "Ogród",
+          "description": "Rękawice, szpadle i narzędzia dla małych pomocników ogrodowych."
+        },
+        "usa250": {
+          "name": "Ameryka 250 lat",
+          "description": "Obchodź 250. rocznicę powstania Ameryki rozwiązując patriotyczne łamigłówki typu „połącz kropki”, oddające hołd amerykańskiej historii."
+        },
+        "uae": {
+          "name": "ZEA",
+          "description": "Odkryj Zjednoczone Emiraty Arabskie! Kultowe zabytki, takie jak Burdż Al-Arab, gotowe do połączenia i pokolorowania."
+        },
+        "space": {
+          "name": "Przestrzeń",
+          "description": "Planety, astronauci i przygody rakietowe."
+        },
+        "worksheets": {
+          "name": "Arkusze robocze",
+          "description": "Arkusze do układania liczb gotowe do użycia przez nauczyciela."
+        },
+        "bigDotBooks": {
+          "name": "Książki Big Dot",
+          "description": "Dłuższe łamigłówki dla skupionych starszych uczniów."
+        },
+        "cute": {
+          "name": "Uroczy",
+          "description": "Urocze szczeniaczki, małe samochodziki i {count} uroczych, darmowych puzzli typu „połącz kropki”, które Twoje dzieci pokochają."
+        },
+        "circus": {
+          "name": "Cyrk",
+          "description": "Mistrzowie ceremonii, wielkie namioty i zabawa na pokazie dla młodych uczniów."
+        }
+      }
+    },
+    "puzzleSection": {
+      "eyebrow": "Bezpłatne próbki do druku — bez konieczności rejestracji",
+      "heading": "Popularne arkusze do łączenia kropek do wydrukowania już teraz",
+      "weeklyPack": "Zobacz pakiet tygodniowy →",
+      "downloadLink": "Pobierz bezpłatnie wersję do druku",
+      "new": "Nowy",
+      "imageAlt": "{name} darmowy arkusz do łączenia kropek do wydrukowania dla {age}",
+      "categories": {
+        "Dinosaurs": "Dinozaury",
+        "Ocean": "Ocean",
+        "Playgrounds": "Place zabaw",
+        "Garden": "Ogród",
+        "Cute": "Uroczy",
+        "USA 250 Years": "Ameryka 250 lat",
+        "UAE": "ZEA"
+      },
+      "items": {
+        "trex-61-dot-to-dot-puzzle": {
+          "name": "Wyzwanie T-Rex 61-Dot"
+        },
+        "brontosaurus-dot-to-dot-puzzle": {
+          "name": "Brontozaur"
+        },
+        "mermaid-dot-to-dot-puzzle": {
+          "name": "Syrena"
+        },
+        "merman-dot-to-dot-puzzle": {
+          "name": "Syrena"
+        },
+        "seahorse-dot-to-dot-puzzle": {
+          "name": "Konik morski"
+        },
+        "whale-dot-to-dot-puzzle": {
+          "name": "Wieloryb"
+        },
+        "swing-playgrounds-dot-to-dot-puzzle": {
+          "name": "Plac zabaw z huśtawkami"
+        },
+        "slide-playgrounds-dot-to-dot-puzzle": {
+          "name": "Plac zabaw ze zjeżdżalnią"
+        },
+        "seesaw-playground-dot-to-dot-puzzle": {
+          "name": "Plac zabaw z huśtawką"
+        },
+        "roller-coaster-playground-dot-to-dot-puzzle": {
+          "name": "Plac zabaw z kolejką górską"
+        },
+        "wheelbarrow-playground-dot-to-dot-puzzle": {
+          "name": "Plac zabaw z taczkami"
+        },
+        "garden-gloves-dot-to-dot-puzzle": {
+          "name": "Rękawice ogrodowe"
+        },
+        "garden-trowel-dot-to-dot-puzzle": {
+          "name": "Łopatka ogrodowa"
+        },
+        "gas-balloon-usa-250-dot-to-dot-puzzle": {
+          "name": "Balon gazowy Ameryka 250"
+        },
+        "america-250-birthday-fireworks-dot-to-dot-puzzle": {
+          "name": "Pokaz fajerwerków z okazji 250. urodzin Ameryki"
+        },
+        "america-250-anniversary-liberty-bell-wings-1776-dot-to-dot-puzzle": {
+          "name": "Ameryka 250 Skrzydła Dzwonu Wolności"
+        },
+        "usa-250-astronaut-dot-to-dot-puzzle": {
+          "name": "Ameryka 250 Astronauta"
+        },
+        "usa-250-anniversary-sports-kids-podium-dot-to-dot-puzzle": {
+          "name": "Podium dla dzieci z okazji 250. rocznicy Ameryki"
+        },
+        "usa-250-anniversary-airplane-banner-dot-to-dot-puzzle": {
+          "name": "Sztandar samolotu z okazji 250. rocznicy Ameryki"
+        },
+        "usa-250-space-shuttle-dot-to-dot-puzzle": {
+          "name": "Prom kosmiczny America 250"
+        },
+        "usa-250-birthday-balloons-stars-dot-to-dot-puzzle": {
+          "name": "Balony i gwiazdki urodzinowe America 250"
+        },
+        "usa-250-birthday-cake-dot-to-dot-puzzle": {
+          "name": "Tort urodzinowy America 250"
+        },
+        "america-250-anniversary-eagle-banner-dot-to-dot-puzzle": {
+          "name": "Sztandar orła Ameryki 250"
+        },
+        "burj-al-arab-dot-to-dot-puzzle": {
+          "name": "Burdż Al-Arab"
+        },
+        "dallah-coffee-pot-dot-to-dot-puzzle": {
+          "name": "Dzbanek do kawy Dallah"
+        }
+      }
+    },
+    "benefits": {
+      "eyebrow": "Wspierane przez nauczycieli wczesnego dzieciństwa",
+      "heading": "Dlaczego arkusze łączące kropki są świetne dla rozwoju dziecka",
+      "description": "Materiały do ​​druku polegające na łączeniu kropek to coś więcej niż tylko świetna zabawa — to narzędzie poparte badaniami, z którego korzystają nauczyciele przedszkola i szkoły podstawowej, aby rozwijać podstawowe umiejętności w zakresie wczesnej nauki.",
+      "fineMotorTitle": "Rozwija umiejętności motoryki małej",
+      "fineMotorText": "Rysowanie kropek rozwija u dzieci chwyt ołówka, koordynację wzrokowo-ruchową oraz kontrolę mięśni niezbędną do pisania ręcznego.",
+      "numberTitle": "Wzmacnia rozpoznawanie liczb",
+      "numberText": "Podążanie za kropkami 1 → 2 → 3 w kolejności pozwala w naturalny sposób, poprzez zabawę, uczyć się liczenia, rozpoznawania liczb i podstawowych pojęć matematycznych.",
+      "focusTitle": "Poprawia skupienie i koncentrację",
+      "focusText": "Układanie puzzli polegających na łączeniu kropek wymaga ciągłej uwagi — to spokojny sposób na ćwiczenie koncentracji bez korzystania z ekranu w wieku przedszkolnym i wczesnoszkolnym.",
+      "confidenceTitle": "Natychmiastowa nagroda i pewność siebie",
+      "confidenceText": "Kiedy ukryty obrazek się pojawia, dzieci od razu czują satysfakcję. Ten mały sukces buduje w nich miłość do nauki i nastawienie na rozwój."
+    },
+    "howTo": {
+      "eyebrow": "Gotowe w mniej niż 60 sekund",
+      "heading": "Jak pobrać i wydrukować bezpłatne arkusze do łączenia kropek",
+      "step1Title": "Wybierz swoją układankę",
+      "step1Text": "Wybierz temat (zwierzęta, dinozaury, pojazdy, święta) i zakres tematyczny odpowiadający wiekowi i umiejętnościom Twojego dziecka.",
+      "step2Title": "Pobierz bezpłatny plik PDF",
+      "step2Text": "Kliknij „Pobierz darmowy plik do druku” — bez konta, adresu e-mail i opłat. Twoja przeglądarka natychmiast pobierze plik PDF.",
+      "step3Title": "Wydrukuj i ciesz się",
+      "step3Text": "Wydrukuj na standardowym papierze US Letter (8,5\" × 11\"). Czarno-biały wydruk sprawdzi się idealnie. Podaj go dziecku i obserwuj, jak łączy kropki!"
+    },
+    "trust": {
+      "eyebrow": "Dlaczego rodzice i nauczyciele wybierają nas",
+      "heading": "Bezpłatne, bezpieczne i niezwykle łatwe w użyciu.",
+      "noAccountTitle": "Nie jest wymagane konto",
+      "noAccountText": "Każdy plik do druku typu „połącz kropki” pobiera się natychmiast — bez rejestracji, bez e-maili, bez opłat. Po prostu kliknij i wydrukuj.",
+      "safeTitle": "Bezpieczny w klasie",
+      "safeText": "Czyste, bez reklam strony z łamigłówkami, zaprojektowane do szkolnych drukarek. Idealne do porannej pracy, odrabiania lekcji lub na chwilę relaksu.",
+      "fastTitle": "Szybki z założenia",
+      "fastText": "Statyczne strony, zoptymalizowane obrazy i lokalne czcionki sprawiają, że łamigłówki szybko ładują się na każdym urządzeniu — telefonie, tablecie lub laptopie."
+    },
+    "faq": {
+      "eyebrow": "Często zadawane pytania",
+      "heading": "Często zadawane pytania",
+      "q1": "Czy wszystkie materiały do ​​druku typu „połącz kropki” na tej stronie są całkowicie darmowe?",
+      "a1": "Tak — każdy arkusz do łączenia kropek na stronie DotToDotFreePrintables.com jest w 100% darmowy do pobrania i wydrukowania. Nie jest wymagane żadne konto, subskrypcja ani karta kredytowa.",
+      "q2": "Dla dzieci w jakim wieku przeznaczone są arkusze z zadaniami typu „połącz kropki”?",
+      "a2": "Nasze materiały do ​​druku są przeznaczone dla dzieci w wieku 2–12 lat. Łatwe arkusze (10–20 punktów) są odpowiednie dla małych dzieci i przedszkolaków, arkusze średnie (20–50 punktów) są idealne dla przedszkolaków i uczniów pierwszej klasy, a trudniejsze arkusze (50–200+ punktów) są odpowiednie dla uczniów od drugiej do szóstej klasy.",
+      "q3": "W jakim formacie są materiały do ​​wydruku, które można połączyć kropki?",
+      "a3": "Wszystkie arkusze kalkulacyjne są pobierane jako pliki PDF gotowe do druku, w formacie standardowego papieru US Letter (8,5\" × 11\"). Otwórz w dowolnej przeglądarce lub programie do przeglądania plików PDF i wydrukuj — bez konieczności korzystania ze specjalnego oprogramowania.",
+      "q4": "Czy mają Państwo arkusze do łączenia kropek dla dzieci w wieku przedszkolnym?",
+      "a4": "Oczywiście. Nasze najłatwiejsze arkusze ćwiczeń zaczynają się od 1–10 kropek (idealne dla dzieci w wieku 2–4 lat) i obejmują tematy związane z alfabetem i rozpoznawaniem cyfr, przeznaczone dla dzieci w wieku przedszkolnym.",
+      "q5": "Czy nauczyciele mogą korzystać z tych arkuszy ćwiczeń do łączenia kropek podczas lekcji?",
+      "a5": "Tak! Nasze materiały do ​​druku są bezpłatne do użytku osobistego i szkolnego. Są popularne w porannej pracy, w zajęciach dla uczniów, którzy kończą zajęcia wcześnie, w planach lekcji zastępczych, w centrach motoryki małej i w pakietach zadań domowych.",
+      "q6": "Czy układanie kropek wspomaga rozwój małej motoryki?",
+      "a6": "Tak — rysowanie linii między kropkami rozwija siłę chwytu ołówka i koordynację wzrokowo-ruchową, co sprzyja nauce pisania. Z tego powodu wielu terapeutów zajęciowych i nauczycieli przedszkolnych poleca zabawy polegające na łączeniu kropek.",
+      "q7": "Czy masz do wydrukowania elementy do łączenia kropek o różnych motywach, np. zwierzęta lub dinozaury?",
+      "a7": "Oferujemy 11 kategorii, w tym: zwierzęta, dinozaury, pojazdy, stworzenia morskie, place zabaw, „Ameryka 250 lat”, kosmos, fantasy, tematy sezonowe/świąteczne, zestawy arkuszy dla nauczycieli oraz książki z dużymi kropkami. Nowe wzory dodajemy co tydzień.",
+      "q8": "Czy mogę wydrukować te puzzle w czerni i bieli?",
+      "a8": "Tak — wszystkie nasze arkusze do łączenia kropek są przeznaczone do druku czarno-białego, co pozwala oszczędzać tusz. Świetnie prezentują się na każdej drukarce domowej lub szkolnej."
+    },
+    "newsletter": {
+      "eyebrow": "Pakiet startowy do druku — całkowicie za darmo",
+      "heading": "Otrzymaj 20 bezpłatnych materiałów do druku, łączących kropki, dostarczonych do Twojej skrzynki odbiorczej.",
+      "description": "Kolekcja przyjazna rodzicom i nauczycielom obejmująca zwierzęta, pojazdy, dinozaury i motywy sezonowe — wszystkie w formacie dostosowanym do standardowego papieru formatu US Letter i zoptymalizowane do druku czarno-białego."
+    },
+    "blog": {
+      "eyebrow": "Pomysły dla dorosłych",
+      "heading": "Wskazówki dotyczące nauki w domu i w klasie",
+      "viewAll": "Zobacz wszystkie artykuły",
+      "read": "Czytać"
+    },
+    "feedback": {
+      "eyebrow": "Chcielibyśmy usłyszeć od Ciebie",
+      "heading": "Wyślij opinię",
+      "description": "Masz pomysł na zagadkę, zauważyłeś niedziałający link, a może po prostu chcesz się przywitać? Napisz do nas poniżej."
+    },
+    "footer": {
+      "description": "Darmowe materiały do ​​łączenia kropek i arkusze do łączenia kropek dla dzieci, rodziców i nauczycieli. Wszystkie łamigłówki można pobrać, wydrukować i udostępnić za darmo.",
+      "kids": "Dzieci",
+      "parents": "Rodzice",
+      "teachers": "Nauczycielstwo",
+      "blog": "Blog",
+      "faq": "Często zadawane pytania",
+      "feedback": "Informacja zwrotna",
+      "about": "O",
+      "contact": "Kontakt",
+      "privacy": "Prywatność",
+      "terms": "Warunki",
+      "sitemap": "Mapa witryny",
+      "copyright": "© {year} DotToDotFreePrintables.com · Bezpłatne materiały do ​​wydrukowania dla dzieci"
+    },
+    "common": {
+      "home": "Dom",
+      "new": "Nowy",
+      "comingSoon": "Już wkrótce",
+      "downloadFree": "Pobierz bezpłatnie wersję do druku",
+      "viewDownload": "Wyświetl i pobierz",
+      "shareTitle": "{name} Łącz punktów do druku - Darmowy PDF",
+      "downloadAria": "Pobierz darmowy PDF do druku {name} łącz punktów",
+      "bookmarkTitle": "{name} Łącz punktów do druku – Darmowy PDF dla dzieci",
+      "showSlide": "Pokaż slajd {number}",
+      "ageRange": "Wiek {min}-{max}",
+      "difficultyLabel": "Poziom trudności {level} z 3",
+      "difficulty": {
+        "1": "Łatwy",
+        "2": "Średni",
+        "3": "Twardy"
+      },
+      "dots": "1–{count} kropek",
+      "homeVideoEyebrow": "Wideo",
+      "homeVideoH2": "Obejrzyj zabawę w łączenie kropek",
+      "skipToContent": "Przejdź do głównej treści",
+      "joinTeachers": "Dołącz do {count}+ nauczycieli",
+      "breadcrumbAria": "Okruszki"
+    },
+    "puzzleSearch": {
+      "searchAria": "Szukaj łamigłówek",
+      "resultsFound": "{count, plural, one {# łamigłówka znaleziona} few {# łamigłówki znalezione} many {# łamigłówek znalezionych} other {# łamigłówki znalezione}}",
+      "noMatches": "Nie znaleziono łamigłówek odpowiadających Twojemu wyszukiwaniu.",
+      "imageAlt": "{name} łączenie kropek do druku"
+    },
+    "newsletterForm": {
+      "ariaLabel": "Pobierz bezpłatny pakiet do wydrukowania z łączeniem kropek",
+      "emailLabel": "Adres e-mail",
+      "submit": "Wyślij darmowy pakiet",
+      "honeypot": "Pozostaw to pole puste",
+      "privacy": "Żadnego spamu. Zrezygnuj w dowolnym momencie.",
+      "error": "Nie można wysłać tego formularza.",
+      "notConnected": "Rejestracja na bezpłatny pakiet nie została jeszcze połączona."
+    },
+    "feedbackForm": {
+      "ariaLabel": "Wyślij opinię",
+      "notConnected": "Ten formularz opinii nie jest jeszcze połączony.",
+      "typeLabel": "Jakiego rodzaju informacje zwrotne?",
+      "selectTopic": "Wybierz temat...",
+      "types": {
+        "general": "Ogólna opinia",
+        "requestTheme": "Poproś o temat układanki",
+        "brokenLink": "Zgłoś uszkodzony link",
+        "improvement": "Zaproponuj ulepszenie",
+        "other": "Inny"
+      },
+      "messageLabel": "Twoja wiadomość",
+      "messagePlaceholder": "Powiedz nam, co myślisz...",
+      "emailLabel": "E-mail",
+      "emailOptional": "(opcjonalnie - tylko jeśli chcesz otrzymać odpowiedź)",
+      "submit": "Wyślij opinię",
+      "success": "Dziękujemy. Twoja opinia została wysłana.",
+      "disclaimer": "Prosimy nie podawać poufnych danych osobowych. Adres e-mail jest opcjonalny i zostanie użyty tylko wtedy, gdy będziemy musieli odpowiedzieć.",
+      "iframeTitle": "Przesyłanie opinii"
+    }
+  }
+}

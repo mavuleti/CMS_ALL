@@ -1,0 +1,359 @@
+{
+  "collection": {},
+  "puzzles": [
+    {
+      "slug": "circus-ringmaster-bear-dot-to-dot-puzzle",
+      "header": {
+        "json_ld": {
+          "name": "Cirkuszi Igazgató Medve",
+          "type": "CreativeWork",
+          "educational_use": "Fine motor skills, number sequencing"
+        }
+      },
+      "body": {
+        "name": "Cirkuszi Igazgató Medve",
+        "tagline": "Ismerd meg a Medvét, Aki Vezeti a Nagy Show-t!",
+        "description": "Kösd össze a 74 pontot, hogy felfedd a barátságos medvét, aki cirkuszi igazgatónak öltözött. Ez a középhaladó nyomtatható segít a gyerekeknek a számok sorrendjének, a koncentrációnak, a vizuális nyomkövetésnek és a gondos ceruzakezelésnek a gyakorlásában.",
+        "fun_fact": "Egy cirkuszi igazgató bemutatja az előadókat és irányítja a közönséget egyik számról a másikra.",
+        "dot_guide": {
+          "intro": "Okos kabátjával, magas kalapjával és magabiztos pózával ez a barátságos medve készen áll, hogy üdvözölje a cirkuszba érkezőket. A 74 pontos kihívás öt világos szakaszra van osztva, hogy a gyerekek kényelmesen tudják kezelni a hosszabb számok sorozatát. Találd meg az 1. pontot, és kezdődhet a show!",
+          "outro": "Fantasztikus munka—az artista medve készen áll, hogy bejelentse a show-t! Színezd ki a jelmezt élénk vörös és arany színekben, majd adj hozzá reflektorokat és egy izgatott közönséget. Fejezd be a jelenetet a <a href=\"/circus/circus-tent-dot-to-dot-puzzle/\">cirkuszi sátor kirakós játékkal</a>.",
+          "sections": [
+            {
+              "range": "1–15",
+              "title": "Az Igazgató Kalapja",
+              "learn": "Kösd össze az 1-től 15-ig terjedő pontokat, hogy megrajzold a magas kalapot és a medve kerek fülét.",
+              "fact": "Az igazgatók gyakran viselnek feltűnő, formális kosztümöket, hogy a közönség könnyen észlelje őket a ringben."
+            },
+            {
+              "range": "16–30",
+              "title": "A Medve Arca",
+              "learn": "Folytasd a 16. ponttól a 30. pontig, hogy megformázd a medve fejét, pofáját és vidám kifejezését.",
+              "fact": "A medvék szaglása rendkívül erős, és segít nekik távolságokból élelmet találni."
+            },
+            {
+              "range": "31–45",
+              "title": "A Okos Dzseki",
+              "learn": "Kövesd a 31-től 45-ig terjedő pontokat, hogy megformázd az igazgató díszes dzsekijét és hajtókáját.",
+              "fact": "Fényes dzsekik, fényes gombok és díszes szegélyek segítenek, hogy az igazgató kosztümje színházi hatású legyen."
+            },
+            {
+              "range": "46–60",
+              "title": "A Karok és Előadói Póz",
+              "learn": "Kövesd a 46-tól 60-ig terjedő pontokat, hogy hozzáadd a medve karjait és üdvözlő előadói pózát.",
+              "fact": "Az igazgatók világos gesztusokat és erős hangot használnak, hogy a figyelmet a következő számra irányítsák."
+            },
+            {
+              "range": "61–74",
+              "title": "A Csizmák és Befejezés",
+              "learn": "Fejezd be a 61-től 74-ig terjedő pontokkal, hogy megrajzold a lábakat, csizmákat és a végső kosztüm részleteit.",
+              "fact": "A cirkuszi ring hagyományosan kör alakú, hogy a körülötte lévő nézők sok szögből láthassák az előadást."
+            }
+          ],
+          "color_schemes": [
+            {
+              "name": "Cirkuszi Igazgató Medve: Klasszikus valós színek",
+              "note": "Ez az ismerős paletta a valódi témán gyakran látható színeket használja.",
+              "mapping": [
+                {
+                  "range": "1–15",
+                  "part": "Az Igazgató Kalapja",
+                  "color": "Crayola Scarlet",
+                  "hex": "#FC2847",
+                  "why": "Ez a szín ismerős, valós megjelenést ad ennek a résznek."
+                },
+                {
+                  "range": "16–30",
+                  "part": "A Medve Arca",
+                  "color": "Crayola Sky Blue",
+                  "hex": "#80DAEB",
+                  "why": "Ez a szín ismerős, valós megjelenést ad ennek a résznek."
+                },
+                {
+                  "range": "31–45",
+                  "part": "A Okos Dzseki",
+                  "color": "Crayola Goldenrod",
+                  "hex": "#FCD975",
+                  "why": "Ez a szín ismerős, valós megjelenést ad ennek a résznek."
+                },
+                {
+                  "range": "46–60",
+                  "part": "A Karok és Előadói Póz",
+                  "color": "Crayola Scarlet",
+                  "hex": "#FC2847",
+                  "why": "Ez a szín ismerős, valós megjelenést ad ennek a résznek."
+                },
+                {
+                  "range": "61–74",
+                  "part": "A Csizmák és Befejezés",
+                  "color": "Crayola Sky Blue",
+                  "hex": "#80DAEB",
+                  "why": "Ez a szín ismerős, valós megjelenést ad ennek a résznek."
+                }
+              ]
+            },
+            {
+              "name": "Cirkuszi Igazgató Medve: Lágy természetes színek",
+              "note": "Ez a világos paletta a téma valódi halvány vagy napfényes változatát mutatja.",
+              "mapping": [
+                {
+                  "range": "1–15",
+                  "part": "Az Igazgató Kalapja",
+                  "color": "Crayola Silver",
+                  "hex": "#CDC5C2",
+                  "why": "A világos árnyalat megmutatja a részt erős nappali fényben."
+                },
+                {
+                  "range": "16–30",
+                  "part": "A Medve Arca",
+                  "color": "Crayola Tan",
+                  "hex": "#FAA76C",
+                  "why": "A világos árnyalat megmutatja a részt erős nappali fényben."
+                },
+                {
+                  "range": "31–45",
+                  "part": "A Okos Dzseki",
+                  "color": "Crayola Sea Green",
+                  "hex": "#93DFB8",
+                  "why": "A világos árnyalat megmutatja a részt erős nappali fényben."
+                },
+                {
+                  "range": "46–60",
+                  "part": "A Karok és Előadói Póz",
+                  "color": "Crayola Silver",
+                  "hex": "#CDC5C2",
+                  "why": "A világos árnyalat megmutatja a részt erős nappali fényben."
+                },
+                {
+                  "range": "61–74",
+                  "part": "A Csizmák és Befejezés",
+                  "color": "Crayola Tan",
+                  "hex": "#FAA76C",
+                  "why": "A világos árnyalat megmutatja a részt erős nappali fényben."
+                }
+              ]
+            },
+            {
+              "name": "Cirkuszi Igazgató Medve: Élénk valós színek",
+              "note": "Ez az erős paletta valódi anyagokból, mintákból vagy festésekből merít.",
+              "mapping": [
+                {
+                  "range": "1–15",
+                  "part": "Az Igazgató Kalapja",
+                  "color": "Crayola Forest Green",
+                  "hex": "#5FA777",
+                  "why": "A mélyebb szín valódi mintát, anyagot vagy festést tükröz."
+                },
+                {
+                  "range": "16–30",
+                  "part": "A Medve Arca",
+                  "color": "Crayola Brown",
+                  "hex": "#AF593E",
+                  "why": "A mélyebb szín valódi mintát, anyagot vagy festést tükröz."
+                },
+                {
+                  "range": "31–45",
+                  "part": "A Okos Dzseki",
+                  "color": "Crayola Orange",
+                  "hex": "#FF7538",
+                  "why": "A mélyebb szín valódi mintát, anyagot vagy festést tükröz."
+                },
+                {
+                  "range": "46–60",
+                  "part": "A Karok és Előadói Póz",
+                  "color": "Crayola Forest Green",
+                  "hex": "#5FA777",
+                  "why": "A mélyebb szín valódi mintát, anyagot vagy festést tükröz."
+                },
+                {
+                  "range": "61–74",
+                  "part": "A Csizmák és Befejezés",
+                  "color": "Crayola Brown",
+                  "hex": "#AF593E",
+                  "why": "A mélyebb szín valódi mintát, anyagot vagy festést tükröz."
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "slug": "circus-tent-dot-to-dot-puzzle",
+      "header": {
+        "json_ld": {
+          "name": "Cirkuszi Sátor",
+          "type": "CreativeWork",
+          "educational_use": "Fine motor skills, number sequencing"
+        }
+      },
+      "body": {
+        "name": "Cirkuszi Sátor",
+        "tagline": "Lépj be egy Nagy Tetős Kalandra!",
+        "description": "Köss össze 59 pontot, hogy felfedd a vidám csíkos cirkuszi sátrat, amely készen áll a show-ra. Ez a könnyen nyomtatható feladat segít a gyerekeknek a számolás gyakorlásában, a vizuális követésben, a koncentrációban és a stabil ceruzakezelésben.",
+        "fun_fact": "A cirkusz fő előadási sátrát gyakran nagy tetőnek hívják, mert ez a legnagyobb sátor a show-ban.",
+        "dot_guide": {
+          "intro": "A fényes cirkuszi sátor az a hely, ahol az akrobaták, bohócok és más előadók egy hatalmas tető alatt gyűlnek össze. Ez a barátságos 59 pontos kirakós öt kezelhető szakaszban építi fel a nagy tetőt. Találd meg az 1. pontot, stabilizáld a ceruzádat, és készülj a show-ra!",
+          "outro": "Bravo—a cirkuszi sátrad készen áll a nyitóestre! Színezd ki a ponyvát merész csíkokkal, adj hozzá fényeket és zászlókat, és rajzolj egy tömeget, amely a műsorra érkezik. Próbáld ki a <a href=\"/playgrounds/carousel-horse-playground-dot-to-dot-puzzle/\">karusszel ló puzzle-t</a> legközelebb.",
+          "sections": [
+            {
+              "range": "1–12",
+              "title": "A Repülő Zászló",
+              "learn": "Köss össze az 1-től 12-ig terjedő pontokat, hogy megrajzold a zászlót és a sátor legmagasabb pontját.",
+              "fact": "A tetőn lévő zászló segít a látogatóknak észrevenni a nagy tetőt a vásár területéről."
+            },
+            {
+              "range": "13–24",
+              "title": "A Magas Sátor Csúcs",
+              "learn": "Folytasd a 13. ponttól a 24. pontig, hogy megformázd a meredek tetőt, amely a középső oszlop felé emelkedik.",
+              "fact": "A magas középső oszlopok tartják a hagyományos cirkuszi sátor tetőjét, és létrehozzák annak híres hegyes formáját."
+            },
+            {
+              "range": "25–36",
+              "title": "A Csíkos Tető",
+              "learn": "Kövesd a 25-től 36-ig terjedő pontokat a széles tetőn, gondosan húzva vonalakat a díszítő csíkokhoz.",
+              "fact": "A merész csíkok könnyen felismerhetővé teszik a cirkuszi sátrakat, és ünnepi megjelenést adnak a nagy tetőnek."
+            },
+            {
+              "range": "37–48",
+              "title": "A Sátor Falai",
+              "learn": "Kövesd a 37-től 48-ig terjedő pontokat mindkét oldalon, hogy megformázzák a sátor masszív falait.",
+              "fact": "Erős kötelek és cövekek segítenek stabilan tartani a nagy sátrakat a széllel szemben."
+            },
+            {
+              "range": "49–59",
+              "title": "A Nagy Bejárat",
+              "learn": "Fejezd be a 49-től 59-ig terjedő pontokkal, hogy hozzáadd a nyitott bejáratot, ahol a közönség belép.",
+              "fact": "A cirkuszi bejáratokat gyakran élénk színekkel díszítik, hogy üdvözöljék a közönséget és fokozzák az izgalmat a műsor előtt."
+            }
+          ],
+          "color_schemes": [
+            {
+              "name": "Cirkuszi Sátor: Klasszikus valós színek",
+              "note": "Ez az ismerős paletta a valódi témán gyakran látható színeket használja.",
+              "mapping": [
+                {
+                  "range": "1–12",
+                  "part": "A Repülő Zászló",
+                  "color": "Crayola Scarlet",
+                  "hex": "#FC2847",
+                  "why": "Ez a szín ismerős, valós megjelenést ad ennek a résznek."
+                },
+                {
+                  "range": "13–24",
+                  "part": "A Magas Sátor Csúcs",
+                  "color": "Crayola Sky Blue",
+                  "hex": "#80DAEB",
+                  "why": "Ez a szín ismerős, valós megjelenést ad ennek a résznek."
+                },
+                {
+                  "range": "25–36",
+                  "part": "A Csíkos Tető",
+                  "color": "Crayola Goldenrod",
+                  "hex": "#FCD975",
+                  "why": "Ez a szín ismerős, valós megjelenést ad ennek a résznek."
+                },
+                {
+                  "range": "37–48",
+                  "part": "A Sátor Falai",
+                  "color": "Crayola Scarlet",
+                  "hex": "#FC2847",
+                  "why": "Ez a szín ismerős, valós megjelenést ad ennek a résznek."
+                },
+                {
+                  "range": "49–59",
+                  "part": "A Nagy Bejárat",
+                  "color": "Crayola Sky Blue",
+                  "hex": "#80DAEB",
+                  "why": "Ez a szín ismerős, valós megjelenést ad ennek a résznek."
+                }
+              ]
+            },
+            {
+              "name": "Cirkuszi Sátor: Lágy természetes színek",
+              "note": "Ez a világos paletta a téma valódi halvány vagy napfényes változatát mutatja.",
+              "mapping": [
+                {
+                  "range": "1–12",
+                  "part": "A Repülő Zászló",
+                  "color": "Crayola Silver",
+                  "hex": "#CDC5C2",
+                  "why": "A világos árnyalat megmutatja a részt erős nappali fényben."
+                },
+                {
+                  "range": "13–24",
+                  "part": "A Magas Sátor Csúcs",
+                  "color": "Crayola Tan",
+                  "hex": "#FAA76C",
+                  "why": "A világos árnyalat megmutatja a részt erős nappali fényben."
+                },
+                {
+                  "range": "25–36",
+                  "part": "A Csíkos Tető",
+                  "color": "Crayola Sea Green",
+                  "hex": "#93DFB8",
+                  "why": "A világos árnyalat megmutatja a részt erős nappali fényben."
+                },
+                {
+                  "range": "37–48",
+                  "part": "A Sátor Falai",
+                  "color": "Crayola Silver",
+                  "hex": "#CDC5C2",
+                  "why": "A világos árnyalat megmutatja a részt erős nappali fényben."
+                },
+                {
+                  "range": "49–59",
+                  "part": "A Nagy Bejárat",
+                  "color": "Crayola Tan",
+                  "hex": "#FAA76C",
+                  "why": "A világos árnyalat megmutatja a részt erős nappali fényben."
+                }
+              ]
+            },
+            {
+              "name": "Cirkuszi Sátor: Élénk valós színek",
+              "note": "Ez az erős paletta valódi anyagokból, mintákból vagy festésekből merít.",
+              "mapping": [
+                {
+                  "range": "1–12",
+                  "part": "A Repülő Zászló",
+                  "color": "Crayola Forest Green",
+                  "hex": "#5FA777",
+                  "why": "A mélyebb szín valódi mintát, anyagot vagy festést tükröz."
+                },
+                {
+                  "range": "13–24",
+                  "part": "A Magas Sátor Csúcs",
+                  "color": "Crayola Brown",
+                  "hex": "#AF593E",
+                  "why": "A mélyebb szín valódi mintát, anyagot vagy festést tükröz."
+                },
+                {
+                  "range": "25–36",
+                  "part": "A Csíkos Tető",
+                  "color": "Crayola Orange",
+                  "hex": "#FF7538",
+                  "why": "A mélyebb szín valódi mintát, anyagot vagy festést tükröz."
+                },
+                {
+                  "range": "37–48",
+                  "part": "A Sátor Falai",
+                  "color": "Crayola Forest Green",
+                  "hex": "#5FA777",
+                  "why": "A mélyebb szín valódi mintát, anyagot vagy festést tükröz."
+                },
+                {
+                  "range": "49–59",
+                  "part": "A Nagy Bejárat",
+                  "color": "Crayola Brown",
+                  "hex": "#AF593E",
+                  "why": "A mélyebb szín valódi mintát, anyagot vagy festést tükröz."
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

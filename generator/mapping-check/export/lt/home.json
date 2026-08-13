@@ -1,0 +1,409 @@
+{
+  "slug": "home",
+  "header": {
+    "title": "Free Dot to Dot Printables for Kids | Connect the Dots Worksheets PDF",
+    "title_template": "%s | DotToDotFreePrintables.com",
+    "meta_description": "hardcoded literal in layout.tsx generateMetadata() — see file for exact wording, distinct from seo/metadata.json's homepage.description",
+    "canonical": "/{locale}/",
+    "og": {
+      "title": "Free dot-to-dot worksheets for kids",
+      "description": "same var as header.meta_description (shared, not distinct)",
+      "url": "/{locale}/",
+      "site_name": "DotToDotFreePrintables.com",
+      "type": "website",
+      "image": "/images/trex-61-puzzle.webp (800x679)"
+    },
+    "twitter": {
+      "card": "summary_large_image"
+    },
+    "manifest": "/manifest.webmanifest",
+    "json_ld": {
+      "website": {
+        "type": "WebSite",
+        "name": "DotToDotFreePrintables.com (SITE_NAME)"
+      },
+      "organization": {
+        "type": "Organization",
+        "logo": "/icon-512.png (absoluteUrl)",
+        "same_as": "hardcoded array: Pinterest, Facebook, YouTube profile URLs"
+      },
+      "collection_page": {
+        "type": "CollectionPage",
+        "name": "Free Dot to Dot Printables for Kids (third distinct hardcoded title string in the codebase — differs from header.title and seo/metadata.json's homepage.title)"
+      },
+      "item_list": {
+        "type": "ItemList (featured puzzles)"
+      }
+    }
+  },
+  "body": {
+    "nav": {
+      "kids": "Vaikams - Dėlionės",
+      "teachers": "Mokytojai",
+      "parents": "Tėvai",
+      "contact": "Susisiekite su mumis",
+      "blog": "Dienoraštis",
+      "search": "Paieška",
+      "freePack": "Nemokamas paketas",
+      "scanMe": "Nuskaitykite mane"
+    },
+    "homepageUi": {
+      "title": "Raskite tobulus taško prie taško spausdinamus lapus",
+      "description": "Spausdinkite, sujunkite taškus ir atgaivinkite nuostabius paveikslėlius. Nemokama ir paruošta smagiai veiklai!",
+      "searchPlaceholder": "Pabandykite vandenyną, dinozaurą ar gėles",
+      "filterPuzzles": "Filtruoti galvosūkius",
+      "age": "Amžius",
+      "dots": "taškai",
+      "featuredPuzzles": "Rekomenduojami spausdinami galvosūkiai",
+      "savePuzzle": "Išsaugoti {name}",
+      "removeSavedPuzzle": "Pašalinti {name} iš išsaugotų",
+      "downloads": "atsisiuntimai",
+      "bookTitle": "2026 m. geriausi · {count}",
+      "bookDescription": "Mūsų mėgstamiausi taško prie taško galvosūkiai vienoje spausdinamoje PDF knygoje.",
+      "searchUnavailable": "Paieška laikinai nepasiekiama. Bandykite dar kartą.",
+      "popularEyebrow": "Populiaru šią savaitę",
+      "mostDownloaded": "Daugiausiai atsisiųstų galvosūkių",
+      "downloadCountAria": "{count} arba daugiau atsisiuntimų",
+      "freshPrintables": "Nauji spausdinami dokumentai",
+      "recentlyAdded": "Neseniai pridėti",
+      "browseCategories": "Naršyti galvosūkių kategorijas",
+      "openCategories": "Atidaryti kategorijų meniu",
+      "closeCategories": "Uždaryti kategorijų meniu",
+      "browseByTheme": "Naršyti pagal temą",
+      "quickLinks": "Greiti nuorodos",
+      "bundlePacks": "Rinkinių paketai",
+      "parentsTeachers": "Tėvams ir mokytojams",
+      "more": "Daugiau kategorijų",
+      "kids": "Vaikams",
+      "categoryNames": {
+        "cute": "Mielos galvosūkiai",
+        "flowers": "Gėlės"
+      }
+    },
+    "audience": {
+      "kidsTitle": "Vaikams",
+      "kidsText": "Draugiškos gyvūnų, dinozaurų ir transporto priemonių temos su aiškiai sunumeruotais taškais. Lengvos pergalės, kurios ugdo pasitikėjimą savimi.",
+      "parentsTitle": "Tėvams",
+      "parentsText": "Ramios veiklos be ekranų namuose, kelionėse ir restoranuose. Spausdinkite iš bet kurio įrenginio per mažiau nei minutę.",
+      "teachersTitle": "Mokytojams",
+      "teachersText": "Mažai pasiruošimo reikalaujantys sujungimo taškai rytiniams darbams, anksčiau pamokas baigiantiems mokiniams, pavaduojantiems ir klasėje esančioms darbo vietoms – jokio pasiruošimo nereikia."
+    },
+    "categories": {
+      "eyebrow": "Sutvarkyta pagal temą ir įgūdžių lygį",
+      "heading": "Naršykite taškinius galvosūkius pagal kategoriją",
+      "description": "Nuo paprastų 10 taškų formų mažyliams iki 200 taškų iššūkių vyresniems vaikams – surūšiuoti pagal kategorijas, kad per kelias sekundes rastumėte tinkamą nemokamą spausdinamą lapą.",
+      "puzzles": "{count, plural, one {# galvosūkis} few {# galvosūkiai} other {# galvosūkių}}",
+      "comingSoon": "Netrukus pasirodys",
+      "badges": {
+        "dinosaurs": "Jau galima įsigyti!",
+        "ocean": "Jau galima įsigyti!",
+        "playgrounds": "Jau galima įsigyti!",
+        "garden": "Jau galima įsigyti!",
+        "usa250": "Nauja!",
+        "uae": "Jau galima įsigyti!",
+        "cute": "Nauja!",
+        "circus": "Nauja!"
+      },
+      "items": {
+        "dinosaurs": {
+          "name": "Dinozaurai",
+          "description": "Pasinerkite į priešistorines pramogas! Tiranozauras, triceratopsas, velociraptorius ir {count} nemokamų taškų galvosūkių, kurie patiks jūsų vaikams."
+        },
+        "animals": {
+          "name": "Gyvūnai",
+          "description": "Draugiškos būtybės ankstyvajai skaičių praktikai."
+        },
+        "vehicles": {
+          "name": "Transporto priemonės",
+          "description": "Automobiliai, sunkvežimiai, raketos ir mašinos."
+        },
+        "fantasy": {
+          "name": "Fantazija",
+          "description": "Pilys, vienaragiai, drakonai ir istorijų užuominos."
+        },
+        "seasonal": {
+          "name": "Sezoninis",
+          "description": "Švenčių ir klasės kalendoriaus veikla."
+        },
+        "ocean": {
+          "name": "Vandenynas",
+          "description": "Jūros gyvūnai ir ramūs spalvinimo puslapiai."
+        },
+        "playgrounds": {
+          "name": "Žaidimų aikštelės",
+          "description": "Sūpynės, čiuožyklos ir lauko pramogos mažiesiems nuotykių ieškotojams."
+        },
+        "garden": {
+          "name": "Sodas",
+          "description": "Pirštinės, mentelės ir įrankiai mažiesiems sodo pagalbininkams."
+        },
+        "usa250": {
+          "name": "Amerikai 250 metų",
+          "description": "Švęskite Amerikos 250-ąjį gimtadienį spręsdami patriotinius dėliones, pagerbiančias Amerikos istoriją."
+        },
+        "uae": {
+          "name": "JAE",
+          "description": "Tyrinėkite Jungtinius Arabų Emyratus! Tokie žymūs objektai kaip „Burj Al Arab“ pasiruošę susisiekti ir pasimėgauti spalvomis."
+        },
+        "space": {
+          "name": "Erdvė",
+          "description": "Planetos, astronautai ir raketų nuotykiai."
+        },
+        "worksheets": {
+          "name": "Darbalapiai",
+          "description": "Mokytojui paruošti skaičių sekos nustatymo lapai."
+        },
+        "bigDotBooks": {
+          "name": "„Big Dot“ knygos",
+          "description": "Ilgos formos galvosūkiai susikaupusiems vyresnio amžiaus mokiniams."
+        },
+        "cute": {
+          "name": "Mielas",
+          "description": "Žavingi šuniukai, maži automobiliukai ir {count} žavingų nemokamų dėlionių „taškas prie taško“, kurios patiks jūsų vaikams."
+        },
+        "circus": {
+          "name": "Cirkas",
+          "description": "Žiedų meistrai, didieji palapinės ir šou laiko pramogos jauniesiems mokiniams."
+        }
+      }
+    },
+    "puzzleSection": {
+      "eyebrow": "Nemokami spausdinami pavyzdžiai – nereikia registracijos",
+      "heading": "Populiarūs taškų sujungimo lapai, kuriuos galite spausdinti dabar",
+      "weeklyPack": "Žiūrėti savaitės pakuotę →",
+      "downloadLink": "Atsisiųskite nemokamą spausdinamą versiją",
+      "new": "Naujas",
+      "imageAlt": "{name} nemokamų spausdinamų „taškas į tašką“ užduočių lapų {age} asmeniui",
+      "categories": {
+        "Dinosaurs": "Dinozaurai",
+        "Ocean": "Vandenynas",
+        "Playgrounds": "Žaidimų aikštelės",
+        "Garden": "Sodas",
+        "Cute": "Mielas",
+        "USA 250 Years": "Amerikai 250 metų",
+        "UAE": "JAE"
+      },
+      "items": {
+        "trex-61-dot-to-dot-puzzle": {
+          "name": "T-Rex 61 taško iššūkis"
+        },
+        "brontosaurus-dot-to-dot-puzzle": {
+          "name": "Brontozauras"
+        },
+        "mermaid-dot-to-dot-puzzle": {
+          "name": "Undinėlė"
+        },
+        "merman-dot-to-dot-puzzle": {
+          "name": "Mermanas"
+        },
+        "seahorse-dot-to-dot-puzzle": {
+          "name": "Jūrų arkliukas"
+        },
+        "whale-dot-to-dot-puzzle": {
+          "name": "Banginis"
+        },
+        "swing-playgrounds-dot-to-dot-puzzle": {
+          "name": "Sūpynės žaidimų aikštelė"
+        },
+        "slide-playgrounds-dot-to-dot-puzzle": {
+          "name": "Čiuožykla"
+        },
+        "seesaw-playground-dot-to-dot-puzzle": {
+          "name": "Sūpynių žaidimų aikštelė"
+        },
+        "roller-coaster-playground-dot-to-dot-puzzle": {
+          "name": "Amerikietiškų kalnelių žaidimų aikštelė"
+        },
+        "wheelbarrow-playground-dot-to-dot-puzzle": {
+          "name": "Karučių žaidimų aikštelė"
+        },
+        "garden-gloves-dot-to-dot-puzzle": {
+          "name": "Sodo pirštinės"
+        },
+        "garden-trowel-dot-to-dot-puzzle": {
+          "name": "Sodo kastuvėlis"
+        },
+        "gas-balloon-usa-250-dot-to-dot-puzzle": {
+          "name": "Dujų balionas „Amerika 250“"
+        },
+        "america-250-birthday-fireworks-dot-to-dot-puzzle": {
+          "name": "Amerikos 250-ojo gimtadienio fejerverkai"
+        },
+        "america-250-anniversary-liberty-bell-wings-1776-dot-to-dot-puzzle": {
+          "name": "„America 250 Liberty Bell“ sparnai"
+        },
+        "usa-250-astronaut-dot-to-dot-puzzle": {
+          "name": "Amerika 250 astronautas"
+        },
+        "usa-250-anniversary-sports-kids-podium-dot-to-dot-puzzle": {
+          "name": "Amerikos 250-ųjų jubiliejaus sporto vaikų podiumas"
+        },
+        "usa-250-anniversary-airplane-banner-dot-to-dot-puzzle": {
+          "name": "Amerikos 250-ųjų metinių lėktuvo reklaminė juosta"
+        },
+        "usa-250-space-shuttle-dot-to-dot-puzzle": {
+          "name": "„America 250“ kosminis laivas"
+        },
+        "usa-250-birthday-balloons-stars-dot-to-dot-puzzle": {
+          "name": "Amerikos 250-ojo gimtadienio balionai ir žvaigždės"
+        },
+        "usa-250-birthday-cake-dot-to-dot-puzzle": {
+          "name": "Amerikos 250-ųjų gimtadienio tortas"
+        },
+        "america-250-anniversary-eagle-banner-dot-to-dot-puzzle": {
+          "name": "„America 250 Eagle“ reklaminė juosta"
+        },
+        "burj-al-arab-dot-to-dot-puzzle": {
+          "name": "Buržas Al Arab"
+        },
+        "dallah-coffee-pot-dot-to-dot-puzzle": {
+          "name": "Dallah kavos virimo aparatas"
+        }
+      }
+    },
+    "benefits": {
+      "eyebrow": "Remiama ikimokyklinio ugdymo pedagogų",
+      "heading": "Kodėl „taškas prie taško“ darbalapiai puikiai tinka vaiko raidai",
+      "description": "Spausdinami lapai sujungiant taškus yra daugiau nei tiesiog smagu – tai moksliniais tyrimais pagrįsta priemonė, kurią ikimokyklinio ir darželio mokytojai naudoja pagrindiniams ankstyvojo mokymosi įgūdžiams lavinti.",
+      "fineMotorTitle": "Lavina smulkiąją motoriką",
+      "fineMotorText": "Linijų piešimas nuo taškų iki taškų lavina pieštuko sukibimą, akių ir rankų koordinaciją bei raumenų kontrolę, kurios vaikams reikia rašant ranka.",
+      "numberTitle": "Sustiprina skaičių atpažinimą",
+      "numberText": "Sekant taškus 1 → 2 → 3 iš eilės, žaidimo būdu natūraliai mokoma skaičiavimo tvarkos, skaičių atpažinimo ir ankstyvųjų matematikos sąvokų.",
+      "focusTitle": "Gerina susikaupimą ir dėmesio koncentraciją",
+      "focusText": "Dėlionės „sujung taškus“ sprendimas reikalauja nuolatinio dėmesio – tai ramus, be ekranų būdas lavinti susikaupimą nuo ikimokyklinio amžiaus iki 3 klasės.",
+      "confidenceTitle": "Momentinis atlygis ir pasitikėjimas savimi",
+      "confidenceText": "Kai pasirodo paslėptas paveikslėlis, vaikai iš karto pajunta pasiekimo jausmą. Ta maža pergalė ugdo meilę mokymuisi ir augimo mąstyseną."
+    },
+    "howTo": {
+      "eyebrow": "Paruošiama per mažiau nei 60 sekundžių",
+      "heading": "Kaip atsisiųsti ir atsispausdinti nemokamus taškinio jungimo darbalapius",
+      "step1Title": "Pasirinkite savo galvosūkį",
+      "step1Text": "Pasirinkite temą (gyvūnai, dinozaurai, transporto priemonės, šventė) ir taškų diapazoną, atitinkantį jūsų vaiko amžių ir įgūdžių lygį.",
+      "step2Title": "Atsisiųskite nemokamą PDF failą",
+      "step2Text": "Spustelėkite „Atsisiųsti nemokamą spausdinamą failą“ – nereikia jokios paskyros, el. pašto adreso, mokamos prieigos. Jūsų naršyklė akimirksniu atsisiunčia PDF failą.",
+      "step3Title": "Spausdinkite ir mėgaukitės",
+      "step3Text": "Spausdinkite ant standartinio JAV „Letter“ formato (8,5 colio × 11 colių) popieriaus. Juoda ir balta spalvos puikiai dera. Paduokite vaikui ir stebėkite, kaip jis sujungia taškus!"
+    },
+    "trust": {
+      "eyebrow": "Kodėl tėvai ir mokytojai renkasi mus",
+      "heading": "Nemokama, saugu ir juokingai paprasta naudoti.",
+      "noAccountTitle": "Paskyros nereikia",
+      "noAccountText": "Kiekvienas spausdinamas dokumentas atsisiunčiamas iš karto – nereikia jokios registracijos, el. pašto adreso ar mokamos prieigos. Tiesiog spustelėkite ir atsispausdinkite.",
+      "safeTitle": "Saugu klasėje",
+      "safeText": "Švarūs, be reklamų galvosūkių puslapiai, sukurti mokykliniams spausdintuvams. Tinka rytiniam darbui, namų darbams ar ramiam laikui.",
+      "fastTitle": "Greitas dizainas",
+      "fastText": "Statiniai puslapiai, optimizuoti vaizdai ir vietiniai šriftai reiškia, kad galvosūkiai greitai įkeliami bet kuriame įrenginyje – telefone, planšetiniame kompiuteryje ar nešiojamajame kompiuteryje."
+    },
+    "faq": {
+      "eyebrow": "Dažnai užduodami klausimai",
+      "heading": "Dažnai užduodami klausimai",
+      "q1": "Ar visi šioje svetainėje esantys spausdinami taškeliai yra visiškai nemokami?",
+      "a1": "Taip – ​​kiekvieną taškų sujungimo užduoties lapą svetainėje DotToDotFreePrintables.com galima atsisiųsti ir atsispausdinti 100 % nemokamai. Nereikia jokios paskyros, prenumeratos ar kreditinės kortelės.",
+      "q2": "Kokio amžiaus žmonėms tinka taškinio mokymosi darbalapiai?",
+      "a2": "Mūsų spausdinami lapai skirti 2–12 metų amžiaus vaikams. Lengvi darbalapiai (10–20 taškų) tinka mažyliams ir ikimokyklinio amžiaus vaikams, vidutinio dydžio lapai (20–50 taškų) puikiai tinka darželinukams ir pirmokams, o sunkesni lapai (50–200 ir daugiau taškų) – antrokams–šeštokams.",
+      "q3": "Kokiu formatu spausdinami taškų sujungimo failai?",
+      "a3": "Visi darbalapiai atsisiunčiami kaip spausdinimui paruošti PDF failai, kurių dydis atitinka standartinį JAV „Letter“ formatą (8,5 colio × 11 colių). Atidarykite bet kurioje naršyklėje arba PDF peržiūros programoje ir spausdinkite – nereikia jokios specialios programinės įrangos.",
+      "q4": "Ar turite taškinio mokymosi lapelių ikimokyklinio amžiaus vaikams ir darželinukams?",
+      "a4": "Žinoma. Mūsų lengviausi darbalapiai prasideda nuo 1–10 taškų (puikiai tinka 2–4 ​​metų vaikams) ir apima abėcėlės bei skaičių atpažinimo temas, skirtas ikimokyklinio amžiaus ir darželio klasėms.",
+      "q5": "Ar mokytojai gali naudoti šiuos taškų jungimo darbalapius pamokoje?",
+      "a5": "Taip! Mūsų spausdinami failai yra nemokami asmeniniam naudojimui ir klasėje. Jie populiarūs rytiniams darbams, ankstyvo baigimo užsiėmimams, pakaitiniams pamokų planams, smulkiosios motorikos centrams ir namų darbų paketams.",
+      "q6": "Ar dėlionės „nuo taško iki taško“ padeda lavinti smulkiąją motoriką?",
+      "a6": "Taip – ​​linijų brėžimas tarp taškų lavina pieštuko laikymo jėgą ir akių bei rankų koordinaciją, kurie padeda rašyti ranka. Dėl šios priežasties daugelis ergoterapeutų ir darželio mokytojų rekomenduoja taškų jungimo užduotis.",
+      "q7": "Ar turite teminių taškelių spausdinamų paveikslėlių, pavyzdžiui, gyvūnų ar dinozaurų?",
+      "a7": "Turime 11 kategorijų, įskaitant gyvūnus, dinozaurus, transporto priemones, vandenyno gyvūnus, žaidimų aikšteles, „Amerikos 250 metų“, kosmosą, fantastiką, sezonines / šventines temas, mokytojų darbalapių rinkinius ir „didelių taškų“ knygeles. Nauji dizainai pridedami kas savaitę.",
+      "q8": "Ar galiu šiuos galvosūkius atsispausdinti nespalvotai?",
+      "a8": "Taip – ​​visi mūsų taškų jungimo darbalapiai skirti spausdinti nespalvotai, kad būtų taupomas rašalas. Jie puikiai atrodo ant bet kurio namų ar klasės spausdintuvo."
+    },
+    "newsletter": {
+      "eyebrow": "Spausdinamas pradinis paketas – visiškai nemokamas",
+      "heading": "Gaukite 20 nemokamų spausdinamų paveikslėlių su nuo taško iki taško tiesiai į savo el. pašto dėžutę.",
+      "description": "Tėvams ir mokytojams skirta kolekcija, apimanti gyvūnus, transporto priemones, dinozaurus ir sezonines temas – visi dydžiai pritaikyti standartiniam JAV „Letter“ popieriui ir optimizuoti nespalvotam spausdinimui."
+    },
+    "blog": {
+      "eyebrow": "Idėjos suaugusiems",
+      "heading": "Mokymosi patarimai namams ir klasei",
+      "viewAll": "Peržiūrėti visus straipsnius",
+      "read": "Skaityti"
+    },
+    "feedback": {
+      "eyebrow": "Mielai išgirstume jūsų nuomonę",
+      "heading": "Siųsti atsiliepimą",
+      "description": "Turite galvosūkio idėją, pastebėjote neveikiančią nuorodą ar tiesiog norite pasisveikinti? Parašykite mums žinutę apačioje."
+    },
+    "footer": {
+      "description": "Nemokami spausdinami taškų sujungimo galvosūkiai ir taškų sujungimo darbalapiai vaikams, tėvams ir mokytojams. Visus galvosūkius galima nemokamai atsisiųsti, atsispausdinti ir bendrinti.",
+      "kids": "Vaikai",
+      "parents": "Tėvai",
+      "teachers": "Mokytojai",
+      "blog": "Dienoraštis",
+      "faq": "DUK",
+      "feedback": "Atsiliepimai",
+      "about": "Apie",
+      "contact": "Kontaktas",
+      "privacy": "Privatumas",
+      "terms": "Sąlygos",
+      "sitemap": "Svetainės planas",
+      "copyright": "© {year} DotToDotFreePrintables.com · Nemokami spausdinami užsiėmimai vaikams"
+    },
+    "common": {
+      "home": "Pradžia",
+      "new": "Naujas",
+      "comingSoon": "Netrukus pasirodys",
+      "downloadFree": "Atsisiųskite nemokamą spausdinamą versiją",
+      "viewDownload": "Peržiūrėti ir atsisiųsti",
+      "shareTitle": "{name} Taškas į Tašką Spausdinamas - Nemokamas PDF",
+      "downloadAria": "Atsisiųsti nemokamą {name} taškas į tašką spausdinamą PDF",
+      "bookmarkTitle": "{name} Taškas į Tašką Spausdinamas – Nemokamas PDF vaikams",
+      "showSlide": "Rodyti skaidrę {number}",
+      "ageRange": "Amžius {min}–{max}",
+      "difficultyLabel": "Sudėtingumas {level} iš 3",
+      "difficulty": {
+        "1": "Lengva",
+        "2": "Vidutinis",
+        "3": "Sunku"
+      },
+      "dots": "1–{count} taškai",
+      "homeVideoEyebrow": "Vaizdo įrašas",
+      "homeVideoH2": "Stebėkite taškelių kūrimo linksmybes veiksme",
+      "skipToContent": "Praleisti į pagrindinį turinį",
+      "joinTeachers": "Prisijunkite prie {count}+ mokytojų",
+      "breadcrumbAria": "Kepurėlė"
+    },
+    "puzzleSearch": {
+      "searchAria": "Ieškoti galvosūkių",
+      "resultsFound": "{count, plural, one {rastas # galvosūkis} few {rasti # galvosūkiai} other {rasta # galvosūkių}}",
+      "noMatches": "Nėra pagal jūsų paiešką rastų galvosūkių.",
+      "imageAlt": "{name} taškinis spausdinimas"
+    },
+    "newsletterForm": {
+      "ariaLabel": "Gaukite nemokamą spausdinamą „taškas-taškas“ rinkinį",
+      "emailLabel": "El. pašto adresas",
+      "submit": "Siųsti nemokamą paketą",
+      "honeypot": "Palikite šį lauką tuščią",
+      "privacy": "Jokių brukalų. Galite bet kada atsisakyti prenumeratos.",
+      "error": "Nepavyko pateikti šios formos.",
+      "notConnected": "Nemokamo paketo registracija dar neprijungta."
+    },
+    "feedbackForm": {
+      "ariaLabel": "Siųsti atsiliepimą",
+      "notConnected": "Ši atsiliepimų forma dar neprijungta.",
+      "typeLabel": "Kokio pobūdžio atsiliepimai?",
+      "selectTopic": "Pasirinkite temą...",
+      "types": {
+        "general": "Bendri atsiliepimai",
+        "requestTheme": "Dėlionės temos užklausa",
+        "brokenLink": "Pranešti apie neveikiančią nuorodą",
+        "improvement": "Pasiūlyti patobulinimą",
+        "other": "Kita"
+      },
+      "messageLabel": "Jūsų žinutė",
+      "messagePlaceholder": "Papasakokite, ką manote...",
+      "emailLabel": "El. paštas",
+      "emailOptional": "(nebūtina – tik jei norite atsakymo)",
+      "submit": "Siųsti atsiliepimą",
+      "success": "Ačiū. Jūsų atsiliepimas išsiųstas.",
+      "disclaimer": "Prašome nenurodyti neskelbtinos asmeninės informacijos. El. pašto adresas yra neprivalomas ir naudojamas tik tuo atveju, jei turime atsakyti.",
+      "iframeTitle": "Atsiliepimų pateikimas"
+    }
+  }
+}

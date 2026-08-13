@@ -2,7 +2,7 @@
 
 import { useEffect } from 'react';
 
-const rtlLocales = new Set(['ar']);
+const rtlLocales = new Set(['ar', 'fa']);
 const arabicRegionalAliases = new Set(['ar-AE', 'ar-SA', 'ar-QA']);
 
 export default function LocaleHtml({ locale }: { locale: string }) {

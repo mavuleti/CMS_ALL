@@ -42,6 +42,7 @@ const FULLY_TRANSLATED_LOCALES = routing.locales.filter((l) => !PLACEHOLDER_LOCA
 const ARABIC_REGIONAL_ALIASES = ['ar-AE', 'ar-SA', 'ar-QA'];
 
 const localeToHtmlLang: Record<string, string> = {
+  az: 'az-AZ',
   en: 'en',
   fr: 'fr-FR',
   es: 'es',
@@ -59,6 +60,7 @@ const localeToHtmlLang: Record<string, string> = {
   ro: 'ro-RO',
   tr: 'tr-TR',
   ar: 'ar',
+  fa: 'fa-IR',
   'pt-BR': 'pt-BR',
   el: 'el-GR',
   uk: 'uk-UA',
@@ -75,6 +77,7 @@ const localeToHtmlLang: Record<string, string> = {
   vi: 'vi-VN'
 };
 const localeToOgLocale: Record<string, string> = {
+  az: 'az_AZ',
   en: 'en_US',
   fr: 'fr_FR',
   es: 'es_ES',
@@ -92,6 +95,7 @@ const localeToOgLocale: Record<string, string> = {
   ro: 'ro_RO',
   tr: 'tr_TR',
   ar: 'ar_SA',
+  fa: 'fa_IR',
   'pt-BR': 'pt_BR',
   el: 'el_GR',
   uk: 'uk_UA',

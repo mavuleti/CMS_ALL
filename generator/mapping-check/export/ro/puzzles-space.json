@@ -1,0 +1,509 @@
+{
+  "collection": {},
+  "puzzles": [
+    {
+      "slug": "crescent-moon-dot-to-dot-puzzle",
+      "header": {
+        "json_ld": {
+          "name": "Semilună",
+          "type": "CreativeWork",
+          "educational_use": "Fine motor skills, number sequencing"
+        }
+      },
+      "body": {
+        "name": "Semilună",
+        "tagline": "Trasează o Porțiune Strălucitoare a Cerului Noptii!",
+        "description": "Conectează 60 de puncte ușoare pentru a descoperi o frumoasă lună în semilună strălucind pe cerul nopții. Acest material gratuit de tipar ajută copiii să exerseze secvențierea numerelor, urmărirea vizuală, concentrarea și controlul precis al creionului.",
+        "fun_fact": "O lună în semilună apare atunci când lumina soarelui iluminează doar o parte subțire și curbă a Lunii pe care o putem vedea de pe Pământ.",
+        "dot_guide": {
+          "intro": "O semilună subțire este una dintre cele mai recunoscute forme din cerul nopții. Acest prietenos puzzle cu 60 de puncte îți permite să construiești curba exterioară, vârfurile ascuțite și arcul interior în cinci etape accesibile. Găsește punctul 1 și lasă-ți luna să înceapă să strălucească!",
+          "outro": "Frumoasă lucrare—luna în semilună strălucește! Adaugă stele, nori somnoroși sau o rachetă care traversează cerul, apoi descoperă <a href=\"/space/ringed-planet-dot-to-dot-puzzle/\">puzzle-ul planetei inelate</a>.",
+          "sections": [
+            {
+              "range": "1–12",
+              "title": "Vârful Lunii Superioare",
+              "learn": "Unește punctele de la 1 la 12 pentru a forma vârful îngust al semilunei.",
+              "fact": "Luna nu produce lumină proprie; ea strălucește prin reflectarea luminii soarelui."
+            },
+            {
+              "range": "13–24",
+              "title": "Curba Externă",
+              "learn": "Continuați de la punctul 13 la punctul 24 de-a lungul curbei late exterioare a Lunii.",
+              "fact": "Gravitația a făcut Luna aproape rotundă, la fel cum face planetele rotunde."
+            },
+            {
+              "range": "25–36",
+              "title": "Vârful Lunii Inferioare",
+              "learn": "Urmează punctele de la 25 la 36 pentru a forma vârful inferior și întoarce-te spre curba interioară.",
+              "fact": "Suprafața Lunii este acoperită cu cratere create de roci care au lovit-o de-a lungul miliardelor de ani."
+            },
+            {
+              "range": "37–48",
+              "title": "Semiluna Interioară",
+              "learn": "Trasează punctele de la 37 la 48 pe arcul interior, menținând linia creionului netedă.",
+              "fact": "Lunii îi ia aproximativ 29,5 de zile să parcurgă un ciclu complet de faze."
+            },
+            {
+              "range": "49–60",
+              "title": "Strălucirea și Finisajul",
+              "learn": "Finalizați cu punctele de la 49 la 60 pentru a închide semiluna și a adăuga detaliile finale.",
+              "fact": "Oamenii din întreaga lume văd aceeași Lună, deși semiluna poate apărea înclinată diferit în funcție de locație."
+            }
+          ],
+          "color_schemes": [
+            {
+              "name": "Semilună: Culori reale clasice",
+              "note": "Această paletă familiară folosește culori des întâlnite la subiectul real.",
+              "mapping": [
+                {
+                  "range": "1–12",
+                  "part": "Vârful Lunii Superioare",
+                  "color": "Crayola Silver",
+                  "hex": "#CDC5C2",
+                  "why": "Această culoare oferă părții aspectul real familiar."
+                },
+                {
+                  "range": "13–24",
+                  "part": "Curba Externă",
+                  "color": "Crayola Scarlet",
+                  "hex": "#FC2847",
+                  "why": "Această culoare oferă părții aspectul real familiar."
+                },
+                {
+                  "range": "25–36",
+                  "part": "Vârful Lunii Inferioare",
+                  "color": "Crayola Black",
+                  "hex": "#232323",
+                  "why": "Această culoare oferă părții aspectul real familiar."
+                },
+                {
+                  "range": "37–48",
+                  "part": "Semiluna Interioară",
+                  "color": "Crayola Silver",
+                  "hex": "#CDC5C2",
+                  "why": "Această culoare oferă părții aspectul real familiar."
+                },
+                {
+                  "range": "49–60",
+                  "part": "Strălucirea și Finisajul",
+                  "color": "Crayola Scarlet",
+                  "hex": "#FC2847",
+                  "why": "Această culoare oferă părții aspectul real familiar."
+                }
+              ]
+            },
+            {
+              "name": "Semilună: Culori naturale blânde",
+              "note": "Această paletă deschisă arată o variantă reală palidă sau luminată de soare.",
+              "mapping": [
+                {
+                  "range": "1–12",
+                  "part": "Vârful Lunii Superioare",
+                  "color": "Crayola White",
+                  "hex": "#FFFFFF",
+                  "why": "Nuanța deschisă arată partea în lumina puternică a zilei."
+                },
+                {
+                  "range": "13–24",
+                  "part": "Curba Externă",
+                  "color": "Crayola Cornflower",
+                  "hex": "#9ACEEB",
+                  "why": "Nuanța deschisă arată partea în lumina puternică a zilei."
+                },
+                {
+                  "range": "25–36",
+                  "part": "Vârful Lunii Inferioare",
+                  "color": "Crayola Gray",
+                  "hex": "#95918C",
+                  "why": "Nuanța deschisă arată partea în lumina puternică a zilei."
+                },
+                {
+                  "range": "37–48",
+                  "part": "Semiluna Interioară",
+                  "color": "Crayola White",
+                  "hex": "#FFFFFF",
+                  "why": "Nuanța deschisă arată partea în lumina puternică a zilei."
+                },
+                {
+                  "range": "49–60",
+                  "part": "Strălucirea și Finisajul",
+                  "color": "Crayola Cornflower",
+                  "hex": "#9ACEEB",
+                  "why": "Nuanța deschisă arată partea în lumina puternică a zilei."
+                }
+              ]
+            },
+            {
+              "name": "Semilună: Culori reale intense",
+              "note": "Această paletă intensă se inspiră din materiale, semne sau vopsele reale.",
+              "mapping": [
+                {
+                  "range": "1–12",
+                  "part": "Vârful Lunii Superioare",
+                  "color": "Crayola Orange",
+                  "hex": "#FF7538",
+                  "why": "Culoarea mai profundă reflectă un semn, material sau finisaj real."
+                },
+                {
+                  "range": "13–24",
+                  "part": "Curba Externă",
+                  "color": "Crayola Goldenrod",
+                  "hex": "#FCD975",
+                  "why": "Culoarea mai profundă reflectă un semn, material sau finisaj real."
+                },
+                {
+                  "range": "25–36",
+                  "part": "Vârful Lunii Inferioare",
+                  "color": "Crayola Mahogany",
+                  "hex": "#CA3435",
+                  "why": "Culoarea mai profundă reflectă un semn, material sau finisaj real."
+                },
+                {
+                  "range": "37–48",
+                  "part": "Semiluna Interioară",
+                  "color": "Crayola Orange",
+                  "hex": "#FF7538",
+                  "why": "Culoarea mai profundă reflectă un semn, material sau finisaj real."
+                },
+                {
+                  "range": "49–60",
+                  "part": "Strălucirea și Finisajul",
+                  "color": "Crayola Goldenrod",
+                  "hex": "#FCD975",
+                  "why": "Culoarea mai profundă reflectă un semn, material sau finisaj real."
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "slug": "ringed-planet-dot-to-dot-puzzle",
+      "header": {
+        "json_ld": {
+          "name": "Planetă Inelată",
+          "type": "CreativeWork",
+          "educational_use": "Fine motor skills, number sequencing"
+        }
+      },
+      "body": {
+        "name": "Planetă Inelată",
+        "tagline": "Desenează o Lume Înfășurată în Inele Strălucitoare!",
+        "description": "Conectează 43 de puncte ușoare pentru a descoperi o planetă inelată frumoasă plutind în spațiu. Acest material gratuit de tipărit îi ajută pe copiii mai mici să exerseze ordinea numerelor, urmărirea vizuală, concentrarea și controlul ferm al creionului.",
+        "fun_fact": "Inelele lui Saturn sunt alcătuite din nenumărate bucăți de gheață și piatră, variind de la particule minuscule la bucăți mari cât case.",
+        "dot_guide": {
+          "intro": "Dincolo de Pământ, un planetă uriașă se rotește în timp ce inele largi se învârt în jurul ei. Acest prietenos puzzle cu 43 de puncte creează planeta și inelele ei în patru etape scurte, făcându-l o provocare spațială distractivă pentru începători. Găsește punctul 1 și începe-ți călătoria!",
+          "outro": "Lucrare minunată—planeta ta inelată orbitează printre stele! Adaugă lunete, o rachetă și nori colorați, apoi continuă explorarea cu <a href=\"/space/space-rover-dot-to-dot-puzzle/\">puzzle-ul rover spațial</a>.",
+          "sections": [
+            {
+              "range": "1–11",
+              "title": "Vârful Planetei",
+              "learn": "Unește punctele de la 1 la 11 pentru a desena marginea superioară curbă a planetei îndepărtate.",
+              "fact": "Planetele arată rotunde deoarece gravitația atrage materialul lor spre centru din toate direcțiile."
+            },
+            {
+              "range": "12–22",
+              "title": "Primul Inel",
+              "learn": "Continuați de la punctul 12 la punctul 22 pentru a trasa primul arc larg al sistemului de inele.",
+              "fact": "Saturn are mii de inele înguste care, privite de la distanță, par a fi câteva inele largi."
+            },
+            {
+              "range": "23–33",
+              "title": "Curba Inferioară a Planetei",
+              "learn": "Urmați punctele de la 23 la 33 în jurul jumătății inferioare a planetei, menținând curba lină.",
+              "fact": "Saturn este un gigant gazos format în principal din hidrogen și heliu, cele două elemente cele mai ușoare."
+            },
+            {
+              "range": "34–43",
+              "title": "Inelele și Finisajul",
+              "learn": "Finalizați cu punctele de la 34 la 43 pentru a completa inelele de pe cealaltă parte.",
+              "fact": "Inelele lui Saturn sunt foarte largi, dar surprinzător de subțiri în comparație cu dimensiunea planetei."
+            }
+          ],
+          "color_schemes": [
+            {
+              "name": "Planetă Inelată: Culori reale clasice",
+              "note": "Această paletă familiară folosește culori des întâlnite la subiectul real.",
+              "mapping": [
+                {
+                  "range": "1–11",
+                  "part": "Vârful Planetei",
+                  "color": "Crayola Silver",
+                  "hex": "#CDC5C2",
+                  "why": "Această culoare oferă părții aspectul real familiar."
+                },
+                {
+                  "range": "12–22",
+                  "part": "Primul Inel",
+                  "color": "Crayola Scarlet",
+                  "hex": "#FC2847",
+                  "why": "Această culoare oferă părții aspectul real familiar."
+                },
+                {
+                  "range": "23–33",
+                  "part": "Curba Inferioară a Planetei",
+                  "color": "Crayola Black",
+                  "hex": "#232323",
+                  "why": "Această culoare oferă părții aspectul real familiar."
+                },
+                {
+                  "range": "34–43",
+                  "part": "Inelele și Finisajul",
+                  "color": "Crayola Silver",
+                  "hex": "#CDC5C2",
+                  "why": "Această culoare oferă părții aspectul real familiar."
+                }
+              ]
+            },
+            {
+              "name": "Planetă Inelată: Culori naturale blânde",
+              "note": "Această paletă deschisă arată o variantă reală palidă sau luminată de soare.",
+              "mapping": [
+                {
+                  "range": "1–11",
+                  "part": "Vârful Planetei",
+                  "color": "Crayola White",
+                  "hex": "#FFFFFF",
+                  "why": "Nuanța deschisă arată partea în lumina puternică a zilei."
+                },
+                {
+                  "range": "12–22",
+                  "part": "Primul Inel",
+                  "color": "Crayola Cornflower",
+                  "hex": "#9ACEEB",
+                  "why": "Nuanța deschisă arată partea în lumina puternică a zilei."
+                },
+                {
+                  "range": "23–33",
+                  "part": "Curba Inferioară a Planetei",
+                  "color": "Crayola Gray",
+                  "hex": "#95918C",
+                  "why": "Nuanța deschisă arată partea în lumina puternică a zilei."
+                },
+                {
+                  "range": "34–43",
+                  "part": "Inelele și Finisajul",
+                  "color": "Crayola White",
+                  "hex": "#FFFFFF",
+                  "why": "Nuanța deschisă arată partea în lumina puternică a zilei."
+                }
+              ]
+            },
+            {
+              "name": "Planetă Inelată: Culori reale intense",
+              "note": "Această paletă intensă se inspiră din materiale, semne sau vopsele reale.",
+              "mapping": [
+                {
+                  "range": "1–11",
+                  "part": "Vârful Planetei",
+                  "color": "Crayola Orange",
+                  "hex": "#FF7538",
+                  "why": "Culoarea mai profundă reflectă un semn, material sau finisaj real."
+                },
+                {
+                  "range": "12–22",
+                  "part": "Primul Inel",
+                  "color": "Crayola Goldenrod",
+                  "hex": "#FCD975",
+                  "why": "Culoarea mai profundă reflectă un semn, material sau finisaj real."
+                },
+                {
+                  "range": "23–33",
+                  "part": "Curba Inferioară a Planetei",
+                  "color": "Crayola Mahogany",
+                  "hex": "#CA3435",
+                  "why": "Culoarea mai profundă reflectă un semn, material sau finisaj real."
+                },
+                {
+                  "range": "34–43",
+                  "part": "Inelele și Finisajul",
+                  "color": "Crayola Orange",
+                  "hex": "#FF7538",
+                  "why": "Culoarea mai profundă reflectă un semn, material sau finisaj real."
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "slug": "space-rover-dot-to-dot-puzzle",
+      "header": {
+        "json_ld": {
+          "name": "Rover Spațial",
+          "type": "CreativeWork",
+          "educational_use": "Fine motor skills, number sequencing"
+        }
+      },
+      "body": {
+        "name": "Rover Spațial",
+        "tagline": "Un Explorator Prietenos pe Roti",
+        "description": "Conectează 59 de puncte pentru a descoperi un rover spațial prietenos, pregătit să exploreze o altă lume. Acest puzzle gratuit de printat îi ajută pe copii să exerseze ordinea numerelor, concentrarea și controlul creionului.",
+        "fun_fact": "Roverii spațiali sunt vehicule robotizate care explorează suprafețele unor corpuri cerești precum Luna și Marte.",
+        "dot_guide": {
+          "intro": "Pregătit pentru o călătorie dincolo de Pământ? Urmează numerele de la 1 la 59 și vei vedea cum apare un rover spațial prietenos. Mergi încet, verifică fiecare număr și păstrează liniile creionului ordonate în timp ce parcurgi conturul vehiculului.",
+          "outro": "Misiune completă—roverul tău spațial este gata de explorare! Adaugă stele, cratere, planete sau un prietenos extraterestru pentru a-ți crea propria scenă spațială.",
+          "sections": [
+            {
+              "range": "1–12",
+              "title": "Caroseria Rover",
+              "learn": "Începeți de la punctul 1 și conectați până la punctul 12 pentru a trasa fața prietenoasă și corpul robust al roverului.",
+              "fact": "Roverii planetare transportă computere, camere și instrumente științifice în interiorul unui corp rezistent."
+            },
+            {
+              "range": "13–25",
+              "title": "Primele Roți",
+              "learn": "Continuați de la punctul 13 la punctul 25 pentru a contura partea inferioară și prima roată robustă.",
+              "fact": "Roțile roverelor sunt concepute pentru a prinde nisipul afânat și a trece peste pietre fără a se bloca."
+            },
+            {
+              "range": "26–38",
+              "title": "Sistemul Roți",
+              "learn": "Unește punctele de la 26 la 38 pentru a completa mai multe dintre roțile și suspensia roverului.",
+              "fact": "Roverele NASA de pe Marte folosesc o suspensie de tip rocker-bogie care ajută toate cele șase roți să rămână pe teren denivelat."
+            },
+            {
+              "range": "39–49",
+              "title": "Scaunul și Echipamentul",
+              "learn": "Trasează punctele de la 39 la 49 pentru a adăuga scaunul și echipamentul de deasupra caroseriei roverului.",
+              "fact": "Unele vehicule lunare transportă astronauți, în timp ce rovere robotizate explorează fără ca cineva să stea în interior."
+            },
+            {
+              "range": "50–59",
+              "title": "Antena parabolică",
+              "learn": "Finalizați unind punctele de la 50 la 59 pentru a completa antena de comunicație.",
+              "fact": "Un rover utilizează antene pentru a trimite descoperirile pe Pământ și a primi noi instrucțiuni."
+            }
+          ],
+          "color_schemes": [
+            {
+              "name": "Rover Spațial: Culori reale clasice",
+              "note": "Această paletă familiară folosește culori des întâlnite la subiectul real.",
+              "mapping": [
+                {
+                  "range": "1–12",
+                  "part": "Caroseria Rover",
+                  "color": "Crayola Silver",
+                  "hex": "#CDC5C2",
+                  "why": "Această culoare oferă părții aspectul real familiar."
+                },
+                {
+                  "range": "13–25",
+                  "part": "Primele Roți",
+                  "color": "Crayola Scarlet",
+                  "hex": "#FC2847",
+                  "why": "Această culoare oferă părții aspectul real familiar."
+                },
+                {
+                  "range": "26–38",
+                  "part": "Sistemul Roți",
+                  "color": "Crayola Black",
+                  "hex": "#232323",
+                  "why": "Această culoare oferă părții aspectul real familiar."
+                },
+                {
+                  "range": "39–49",
+                  "part": "Scaunul și Echipamentul",
+                  "color": "Crayola Silver",
+                  "hex": "#CDC5C2",
+                  "why": "Această culoare oferă părții aspectul real familiar."
+                },
+                {
+                  "range": "50–59",
+                  "part": "Antena parabolică",
+                  "color": "Crayola Scarlet",
+                  "hex": "#FC2847",
+                  "why": "Această culoare oferă părții aspectul real familiar."
+                }
+              ]
+            },
+            {
+              "name": "Rover Spațial: Culori naturale blânde",
+              "note": "Această paletă deschisă arată o variantă reală palidă sau luminată de soare.",
+              "mapping": [
+                {
+                  "range": "1–12",
+                  "part": "Caroseria Rover",
+                  "color": "Crayola White",
+                  "hex": "#FFFFFF",
+                  "why": "Nuanța deschisă arată partea în lumina puternică a zilei."
+                },
+                {
+                  "range": "13–25",
+                  "part": "Primele Roți",
+                  "color": "Crayola Cornflower",
+                  "hex": "#9ACEEB",
+                  "why": "Nuanța deschisă arată partea în lumina puternică a zilei."
+                },
+                {
+                  "range": "26–38",
+                  "part": "Sistemul Roți",
+                  "color": "Crayola Gray",
+                  "hex": "#95918C",
+                  "why": "Nuanța deschisă arată partea în lumina puternică a zilei."
+                },
+                {
+                  "range": "39–49",
+                  "part": "Scaunul și Echipamentul",
+                  "color": "Crayola White",
+                  "hex": "#FFFFFF",
+                  "why": "Nuanța deschisă arată partea în lumina puternică a zilei."
+                },
+                {
+                  "range": "50–59",
+                  "part": "Antena parabolică",
+                  "color": "Crayola Cornflower",
+                  "hex": "#9ACEEB",
+                  "why": "Nuanța deschisă arată partea în lumina puternică a zilei."
+                }
+              ]
+            },
+            {
+              "name": "Rover Spațial: Culori reale intense",
+              "note": "Această paletă intensă se inspiră din materiale, semne sau vopsele reale.",
+              "mapping": [
+                {
+                  "range": "1–12",
+                  "part": "Caroseria Rover",
+                  "color": "Crayola Orange",
+                  "hex": "#FF7538",
+                  "why": "Culoarea mai profundă reflectă un semn, material sau finisaj real."
+                },
+                {
+                  "range": "13–25",
+                  "part": "Primele Roți",
+                  "color": "Crayola Goldenrod",
+                  "hex": "#FCD975",
+                  "why": "Culoarea mai profundă reflectă un semn, material sau finisaj real."
+                },
+                {
+                  "range": "26–38",
+                  "part": "Sistemul Roți",
+                  "color": "Crayola Mahogany",
+                  "hex": "#CA3435",
+                  "why": "Culoarea mai profundă reflectă un semn, material sau finisaj real."
+                },
+                {
+                  "range": "39–49",
+                  "part": "Scaunul și Echipamentul",
+                  "color": "Crayola Orange",
+                  "hex": "#FF7538",
+                  "why": "Culoarea mai profundă reflectă un semn, material sau finisaj real."
+                },
+                {
+                  "range": "50–59",
+                  "part": "Antena parabolică",
+                  "color": "Crayola Goldenrod",
+                  "hex": "#FCD975",
+                  "why": "Culoarea mai profundă reflectă un semn, material sau finisaj real."
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

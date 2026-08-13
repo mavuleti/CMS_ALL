@@ -1,0 +1,409 @@
+{
+  "slug": "home",
+  "header": {
+    "title": "無料の点つなぎ（てんつなぎ）プリント | 子ども向けPDF",
+    "title_template": "%s | DotToDotFreePrintables.com",
+    "meta_description": "無料でダウンロード・印刷できるてんつなぎプリントPDF：幼児向けのやさしいプリントから、100以上の点をつなぐ大人向けの難しいプリントまで。動物、恐竜、乗り物、季節のテーマも。登録不要。",
+    "canonical": "/{locale}/",
+    "og": {
+      "title": "点つなぎ・数字つなぎ — 子どもから大人まで楽しめる無料プリント",
+      "description": "無料でダウンロード・印刷できるてんつなぎプリントPDF：幼児向けのやさしいプリントから、100以上の点をつなぐ大人向けの難しいプリントまで。動物、恐竜、乗り物、季節のテーマも。登録不要。",
+      "url": "/{locale}/",
+      "site_name": "DotToDotFreePrintables.com",
+      "type": "website",
+      "image": "/images/trex-61-puzzle.webp (800x679)"
+    },
+    "twitter": {
+      "card": "summary_large_image"
+    },
+    "manifest": "/manifest.webmanifest",
+    "json_ld": {
+      "website": {
+        "type": "WebSite",
+        "name": "DotToDotFreePrintables.com (SITE_NAME)"
+      },
+      "organization": {
+        "type": "Organization",
+        "logo": "/icon-512.png (absoluteUrl)",
+        "same_as": "hardcoded array: Pinterest, Facebook, YouTube profile URLs"
+      },
+      "collection_page": {
+        "type": "CollectionPage",
+        "name": "Free Dot to Dot Printables for Kids (third distinct hardcoded title string in the codebase — differs from header.title and seo/metadata.json's homepage.title)"
+      },
+      "item_list": {
+        "type": "ItemList (featured puzzles)"
+      }
+    }
+  },
+  "body": {
+    "nav": {
+      "kids": "子供向けパズル",
+      "teachers": "教師",
+      "parents": "両親",
+      "contact": "お問い合わせ",
+      "blog": "ブログ",
+      "search": "検索",
+      "freePack": "無料パック",
+      "scanMe": "スキャンしてください"
+    },
+    "homepageUi": {
+      "title": "ぴったりの点つなぎ印刷用プリントを見つけよう",
+      "description": "印刷して点をつなぎ、素敵な絵を完成させよう。無料ですぐに楽しめます！",
+      "searchPlaceholder": "海、恐竜、花などで検索",
+      "filterPuzzles": "パズルを絞り込む",
+      "age": "年齢",
+      "dots": "ドット",
+      "featuredPuzzles": "おすすめの印刷用パズル",
+      "savePuzzle": "{name}を保存",
+      "removeSavedPuzzle": "{name}を保存済みから削除",
+      "downloads": "ダウンロード",
+      "bookTitle": "2026年ベスト · {count}",
+      "bookDescription": "お気に入りの点つなぎパズルを1冊の印刷用PDFブックにまとめました。",
+      "searchUnavailable": "検索は一時的に利用できません。もう一度お試しください。",
+      "popularEyebrow": "今週の人気",
+      "mostDownloaded": "最もダウンロードされたパズル",
+      "downloadCountAria": "{count}回以上のダウンロード",
+      "freshPrintables": "新しい印刷可能な素材",
+      "recentlyAdded": "最近追加された",
+      "browseCategories": "パズルカテゴリをブラウズ",
+      "openCategories": "カテゴリメニューを開く",
+      "closeCategories": "カテゴリメニューを閉じる",
+      "browseByTheme": "テーマ別にブラウズ",
+      "quickLinks": "クイックリンク",
+      "bundlePacks": "バンドルパック",
+      "parentsTeachers": "保護者と教師のために",
+      "more": "さらに多くのカテゴリ",
+      "kids": "子供",
+      "categoryNames": {
+        "cute": "かわいいパズル",
+        "flowers": "花"
+      }
+    },
+    "audience": {
+      "kidsTitle": "子供向け",
+      "kidsText": "動物、恐竜、乗り物など、親しみやすいテーマと分かりやすい番号付きドット。簡単に勝てるので、自信がぐんと身につきます。",
+      "parentsTitle": "保護者の皆様へ",
+      "parentsText": "自宅、旅行先、レストランなどで楽しめる、画面を見ない静かな時間のためのアクティビティ。どのデバイスからでも1分以内に印刷できます。",
+      "teachersTitle": "教師向け",
+      "teachersText": "準備の手間がほとんどかからない点つなぎアクティビティ。朝の学習、早く終わった生徒、代用教員、教室内のステーション学習などに最適です。準備は一切不要です。"
+    },
+    "categories": {
+      "eyebrow": "テーマ別、スキルレベル別に整理されています",
+      "heading": "点つなぎパズルをカテゴリ別に閲覧する",
+      "description": "幼児向けのシンプルな10個の点を使った図形から、年長の子供向けの200個の点を使ったチャレンジまで、カテゴリー別に分類されているので、適切な無料プリントを数秒で見つけることができます。",
+      "puzzles": "{count, plural, one {#パズル} other {#パズル}}",
+      "comingSoon": "近日公開",
+      "badges": {
+        "dinosaurs": "好評発売中！",
+        "ocean": "好評発売中！",
+        "playgrounds": "好評発売中！",
+        "garden": "好評発売中！",
+        "usa250": "新しい！",
+        "uae": "好評発売中！",
+        "cute": "新しい！",
+        "circus": "新着！"
+      },
+      "items": {
+        "dinosaurs": {
+          "name": "恐竜",
+          "description": "太古の世界に飛び込もう！T-Rex、トリケラトプス、ヴェロキラプトルなど、{count}種類の無料知育てんつなぎパズルで、お子様もきっと夢中になります。"
+        },
+        "animals": {
+          "name": "動物",
+          "description": "数字の練習を始めるのにぴったりの、親しみやすい生き物たち。"
+        },
+        "vehicles": {
+          "name": "車両",
+          "description": "自動車、トラック、ロケット、そして機械。"
+        },
+        "fantasy": {
+          "name": "ファンタジー",
+          "description": "城、ユニコーン、ドラゴン、そして物語のヒント。"
+        },
+        "seasonal": {
+          "name": "季節限定",
+          "description": "祝日や授業に関する年間行事予定。"
+        },
+        "ocean": {
+          "name": "海",
+          "description": "海の生き物と穏やかな風景の塗り絵。"
+        },
+        "playgrounds": {
+          "name": "遊び場",
+          "description": "ブランコ、滑り台、そして小さな冒険家のための屋外アクティビティ。"
+        },
+        "garden": {
+          "name": "庭",
+          "description": "小さな庭のお手伝いさんのための手袋、こて、その他の道具。"
+        },
+        "usa250": {
+          "name": "アメリカ建国250周年",
+          "description": "アメリカ建国250周年を、アメリカの歴史を称える愛国的な点つなぎパズルでお祝いしましょう。"
+        },
+        "uae": {
+          "name": "アラブ首長国連邦",
+          "description": "アラブ首長国連邦を探検しよう！ブルジュ・アル・アラブなど象徴的なランドマークを点つなぎで描き出し、彩りを添えよう。"
+        },
+        "space": {
+          "name": "宇宙",
+          "description": "惑星、宇宙飛行士、そしてロケットの冒険。"
+        },
+        "worksheets": {
+          "name": "ワークシート",
+          "description": "教師がすぐに使える数字の順序付けシート。"
+        },
+        "bigDotBooks": {
+          "name": "ビッグドットブックス",
+          "description": "集中力のある年長の学習者向けの、長尺パズル。"
+        },
+        "cute": {
+          "name": "かわいい",
+          "description": "愛らしい子犬、小さな車など、お子様がきっと喜ぶ魅力的な無料のてんつなぎパズルが{count}種類。"
+        },
+        "circus": {
+          "name": "サーカス",
+          "description": "リングマスター、大きなテント、そして若い学習者のためのショータイムの楽しみ。"
+        }
+      }
+    },
+    "puzzleSection": {
+      "eyebrow": "無料の印刷可能なサンプル - 登録不要",
+      "heading": "今すぐ印刷できる人気の点つなぎシート",
+      "weeklyPack": "週間パックを見る →",
+      "downloadLink": "無料で印刷できるものをダウンロード",
+      "new": "新しい",
+      "imageAlt": "{name} の無料てんつなぎ印刷可能ワークシート（{age}用）",
+      "categories": {
+        "Dinosaurs": "恐竜",
+        "Ocean": "海",
+        "Playgrounds": "遊び場",
+        "Garden": "庭",
+        "Cute": "かわいい",
+        "USA 250 Years": "アメリカ建国250周年",
+        "UAE": "アラブ首長国連邦"
+      },
+      "items": {
+        "trex-61-dot-to-dot-puzzle": {
+          "name": "T-Rex 61ドットチャレンジ"
+        },
+        "brontosaurus-dot-to-dot-puzzle": {
+          "name": "ブロントサウルス"
+        },
+        "mermaid-dot-to-dot-puzzle": {
+          "name": "マーメイド"
+        },
+        "merman-dot-to-dot-puzzle": {
+          "name": "人魚"
+        },
+        "seahorse-dot-to-dot-puzzle": {
+          "name": "タツノオトシゴ"
+        },
+        "whale-dot-to-dot-puzzle": {
+          "name": "鯨"
+        },
+        "swing-playgrounds-dot-to-dot-puzzle": {
+          "name": "ブランコ遊び場"
+        },
+        "slide-playgrounds-dot-to-dot-puzzle": {
+          "name": "滑り台遊具"
+        },
+        "seesaw-playground-dot-to-dot-puzzle": {
+          "name": "シーソー遊具"
+        },
+        "roller-coaster-playground-dot-to-dot-puzzle": {
+          "name": "ジェットコースター遊具施設"
+        },
+        "wheelbarrow-playground-dot-to-dot-puzzle": {
+          "name": "手押し車遊び場"
+        },
+        "garden-gloves-dot-to-dot-puzzle": {
+          "name": "ガーデニンググローブ"
+        },
+        "garden-trowel-dot-to-dot-puzzle": {
+          "name": "園芸用こて"
+        },
+        "gas-balloon-usa-250-dot-to-dot-puzzle": {
+          "name": "ガスバルーンアメリカ250"
+        },
+        "america-250-birthday-fireworks-dot-to-dot-puzzle": {
+          "name": "アメリカ建国250周年記念花火大会"
+        },
+        "america-250-anniversary-liberty-bell-wings-1776-dot-to-dot-puzzle": {
+          "name": "アメリカ250周年記念リバティベルウィング"
+        },
+        "usa-250-astronaut-dot-to-dot-puzzle": {
+          "name": "アメリカ建国250周年記念宇宙飛行士"
+        },
+        "usa-250-anniversary-sports-kids-podium-dot-to-dot-puzzle": {
+          "name": "アメリカ建国250周年記念スポーツキッズ表彰台"
+        },
+        "usa-250-anniversary-airplane-banner-dot-to-dot-puzzle": {
+          "name": "アメリカ建国250周年記念飛行機バナー"
+        },
+        "usa-250-space-shuttle-dot-to-dot-puzzle": {
+          "name": "アメリカ250周年記念スペースシャトル"
+        },
+        "usa-250-birthday-balloons-stars-dot-to-dot-puzzle": {
+          "name": "アメリカ建国250周年記念バルーンと星"
+        },
+        "usa-250-birthday-cake-dot-to-dot-puzzle": {
+          "name": "アメリカ建国250周年記念ケーキ"
+        },
+        "america-250-anniversary-eagle-banner-dot-to-dot-puzzle": {
+          "name": "アメリカ建国250周年記念イーグルバナー"
+        },
+        "burj-al-arab-dot-to-dot-puzzle": {
+          "name": "ブルジュ・アル・アラブ"
+        },
+        "dallah-coffee-pot-dot-to-dot-puzzle": {
+          "name": "ダラーコーヒーポット"
+        }
+      }
+    },
+    "benefits": {
+      "eyebrow": "幼児教育者によって支持されている",
+      "heading": "点つなぎワークシートが子供の発達に優れた理由",
+      "description": "点つなぎのプリント教材は、単に楽しいだけでなく、就学前教育や幼稚園の教師が幼児期の基礎的な学習スキルを育成するために使用する、研究に基づいたツールです。",
+      "fineMotorTitle": "細かい運動能力を養います",
+      "fineMotorText": "点つなぎ（運筆てんつなぎ）は、鉛筆の持ち方、手と目の協調性、そして子供たちが文字を書くために必要な筋肉のコントロール能力を養う、知育の定番アクティビティです。",
+      "numberTitle": "数字認識を強化する",
+      "numberText": "点1→2→3を順番にたどることで、遊びを通して自然に数え方の順序、数字の認識、そして初期の算数概念を学ぶことができます。",
+      "focusTitle": "集中力と注意力を向上させる",
+      "focusText": "点つなぎパズルを完成させるには、持続的な集中力が必要です。これは、就学前のお子様から小学3年生までのお子様にとって、画面を見ずに集中力を養うための穏やかな方法です。",
+      "confidenceTitle": "即座に得られる報酬と自信",
+      "confidenceText": "隠された絵が現れると、子どもたちはすぐに達成感を覚えます。この小さな成功体験が、学習への意欲と成長志向を育むのです。"
+    },
+    "howTo": {
+      "eyebrow": "60秒以内に準備完了",
+      "heading": "無料の点つなぎワークシートをダウンロードして印刷する方法",
+      "step1Title": "パズルを選んでください",
+      "step1Text": "お子様の年齢とスキルレベルに合ったテーマ（動物、恐竜、乗り物、祝日など）とドットの範囲を選択してください。",
+      "step2Title": "無料のPDFをダウンロード",
+      "step2Text": "「無料印刷用ファイルをダウンロード」をクリックしてください。アカウント登録もメールアドレスも不要、有料コンテンツもありません。ブラウザがPDFファイルを即座にダウンロードします。",
+      "step3Title": "印刷してお楽しみください",
+      "step3Text": "A4サイズ、またはUSレターサイズ（8.5インチ×11インチ）の用紙に印刷してください。白黒印刷で問題ありません。お子様に渡して、点と点をつなげる様子を観察してみてください！"
+    },
+    "trust": {
+      "eyebrow": "保護者と教師が私たちを選ぶ理由",
+      "heading": "無料、安全、そして驚くほど簡単に使えます。",
+      "noAccountTitle": "アカウントは不要です",
+      "noAccountText": "点つなぎのプリントはすべてすぐにダウンロードできます。登録もメールアドレスも有料コンテンツも不要です。クリックして印刷するだけです。",
+      "safeTitle": "教室でも安心",
+      "safeText": "学校のプリンター向けにデザインされた、広告なしのきれいなパズルページ。朝の学習、宿題、または静かに過ごす時間に最適です。",
+      "fastTitle": "設計段階から高速化",
+      "fastText": "静的ページ、最適化された画像、ローカルフォントのおかげで、パズルはスマートフォン、タブレット、ノートパソコンなど、あらゆるデバイスで高速に読み込まれます。"
+    },
+    "faq": {
+      "eyebrow": "よくある質問",
+      "heading": "よくある質問",
+      "q1": "このサイトにある点つなぎのプリント教材はすべて完全に無料ですか？",
+      "a1": "はい、DotToDotFreePrintables.comにある点つなぎ（てんつなぎ）ワークシートはすべて100%無料でダウンロードして印刷できます。アカウント登録、購読、クレジットカード情報は一切必要ありません。",
+      "q2": "点つなぎのワークシートは何歳くらいの子どもに適していますか？",
+      "a2": "当サイトのプリント教材は2歳から12歳までを対象としています。簡単なワークシート（ドット数10～20個）は幼児や未就学児に、中程度のシート（ドット数20～50個）は幼稚園児や小学1年生に、そして難しいシート（ドット数50～200個以上）は小学2年生から6年生までのお子様の挑戦に最適です。",
+      "q3": "点つなぎの印刷用シートはどのような形式ですか？",
+      "a3": "すべてのワークシートは、A4またはUSレターサイズ（8.5インチ×11インチ）の用紙に対応した印刷可能なPDFファイルとしてダウンロードされます。ブラウザまたはPDFビューアで開いて印刷するだけで、特別なソフトウェアは必要ありません。",
+      "q4": "幼稚園児や保育園児向けの点つなぎワークシートはありますか？",
+      "a4": "もちろんです。当社の最も簡単なワークシートは、1～10個のドット（2～4歳のお子様に最適）から始まり、就学前児童や幼稚園児向けにデザインされたアルファベットと数字の認識をテーマにしています。",
+      "q5": "教師はこれらの点つなぎワークシートを授業で使用できますか？",
+      "a5": "はい！当サイトの印刷教材は、個人利用および教室での利用に限り無料です。朝の学習、早く終わった生徒向けのアクティビティ、代用授業計画、指先を使った運動コーナー、宿題パックなど、様々な用途で人気があります。",
+      "q6": "点つなぎパズルは、細かい運動能力の発達に役立ちますか？",
+      "a6": "はい、点と点を線でつなぐことで、鉛筆を握る力や手と目の協調性が養われ、文字を書く準備が整います。そのため、多くの作業療法士や幼稚園の先生が、点つなぎのアクティビティを推奨しています。",
+      "q7": "動物や恐竜など、テーマ別の点つなぎのプリント教材はありますか？",
+      "a7": "動物、恐竜、乗り物、海洋生物、遊び場、アメリカ建国250周年、宇宙、ファンタジー、季節・祝日テーマ、教師用ワークシートパック、大きなドット絵本など、11のカテゴリーをご用意しています。新しいデザインは毎週追加されます。",
+      "q8": "これらのパズルを白黒で印刷してもいいですか？",
+      "a8": "はい、当社の点つなぎワークシートはすべて、インクを節約するために白黒印刷用に設計されています。ご家庭や教室のプリンターで綺麗に印刷できます。"
+    },
+    "newsletter": {
+      "eyebrow": "印刷可能なスターターパック - 完全無料",
+      "heading": "てんつなぎの無料プリント20枚をメールでお届けします。",
+      "description": "動物、乗り物、恐竜、季節のテーマなどを網羅した、保護者や教師に優しいコレクション。すべてA4またはUSレターサイズの用紙に合うように作られており、白黒印刷に最適化されています。"
+    },
+    "blog": {
+      "eyebrow": "大人向けのアイデア",
+      "heading": "家庭と教室での学習のヒント",
+      "viewAll": "すべての記事を見る",
+      "read": "読む"
+    },
+    "feedback": {
+      "eyebrow": "ぜひご意見をお聞かせください",
+      "heading": "フィードバックを送信",
+      "description": "パズルのアイデアをお持ちの方、リンク切れを見つけた方、または単に挨拶したい方は、下記のフォームからご連絡ください。"
+    },
+    "footer": {
+      "description": "子供、保護者、教師向けの無料の点つなぎ（てんつなぎ）プリントとワークシート。すべてのパズルは無料でダウンロード、印刷、共有できます。",
+      "kids": "子供たち",
+      "parents": "両親",
+      "teachers": "教師",
+      "blog": "ブログ",
+      "faq": "よくある質問",
+      "feedback": "フィードバック",
+      "about": "サイトについて",
+      "contact": "お問い合わせ",
+      "privacy": "プライバシー",
+      "terms": "利用規約",
+      "sitemap": "サイトマップ",
+      "copyright": "© {year} DotToDotFreePrintables.com · 子供向け無料印刷可能アクティビティ"
+    },
+    "common": {
+      "home": "ホーム",
+      "new": "新しい",
+      "comingSoon": "近日公開",
+      "downloadFree": "無料で印刷できるものをダウンロード",
+      "viewDownload": "表示とダウンロード",
+      "shareTitle": "{name} 点つなぎプリント - 無料PDF",
+      "downloadAria": "無料の{name}点つなぎプリントPDFをダウンロード",
+      "bookmarkTitle": "{name} 点つなぎプリント – 子供向けの無料PDF",
+      "showSlide": "スライド {number} を表示",
+      "ageRange": "年齢 {min}～{max}",
+      "difficultyLabel": "難易度：3段階中{level}",
+      "difficulty": {
+        "1": "簡単",
+        "2": "中くらい",
+        "3": "難しい"
+      },
+      "dots": "1–{count}ドット",
+      "homeVideoEyebrow": "ビデオ",
+      "homeVideoH2": "点つなぎの楽しさを実際に見てみよう",
+      "skipToContent": "メインコンテンツにスキップ",
+      "joinTeachers": "{count}+ 人の教師に参加",
+      "breadcrumbAria": "パンくずリスト"
+    },
+    "puzzleSearch": {
+      "searchAria": "パズルを探す",
+      "resultsFound": "{count, plural, one {# パズルが見つかりました} other {パズルが見つかりました}}",
+      "noMatches": "検索条件に一致するパズルは見つかりませんでした。",
+      "imageAlt": "{name} 点つなぎプリント"
+    },
+    "newsletterForm": {
+      "ariaLabel": "無料の点つなぎプリントパックを入手しよう",
+      "emailLabel": "電子メールアドレス",
+      "submit": "無料パックをお送りします",
+      "honeypot": "このフィールドは空欄のままにしてください。",
+      "privacy": "スパムメールは一切送信しません。いつでも購読解除できます。",
+      "error": "このフォームを送信できません。",
+      "notConnected": "無料パックの登録はまだ接続されていません。"
+    },
+    "feedbackForm": {
+      "ariaLabel": "フィードバックを送信",
+      "notConnected": "このフィードバックフォームはまだ接続されていません。",
+      "typeLabel": "どのようなフィードバックですか？",
+      "selectTopic": "トピックを選択してください...",
+      "types": {
+        "general": "一般的なフィードバック",
+        "requestTheme": "パズルテーマをリクエストする",
+        "brokenLink": "リンク切れを報告する",
+        "improvement": "改善案を提案する",
+        "other": "その他"
+      },
+      "messageLabel": "あなたのメッセージ",
+      "messagePlaceholder": "ご意見をお聞かせください。",
+      "emailLabel": "メール",
+      "emailOptional": "（任意 - 返信をご希望の場合のみ）",
+      "submit": "フィードバックを送信",
+      "success": "ありがとうございます。ご意見は送信されました。",
+      "disclaimer": "個人情報は記載しないでください。メールアドレスは任意であり、返信が必要な場合のみ使用いたします。",
+      "iframeTitle": "フィードバックの送信"
+    }
+  }
+}

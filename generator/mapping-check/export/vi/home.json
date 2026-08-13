@@ -1,0 +1,409 @@
+{
+  "slug": "home",
+  "header": {
+    "title": "Free Dot to Dot Printables for Kids | Connect the Dots Worksheets PDF",
+    "title_template": "%s | DotToDotFreePrintables.com",
+    "meta_description": "hardcoded literal in layout.tsx generateMetadata() — see file for exact wording, distinct from seo/metadata.json's homepage.description",
+    "canonical": "/{locale}/",
+    "og": {
+      "title": "Free dot-to-dot worksheets for kids",
+      "description": "same var as header.meta_description (shared, not distinct)",
+      "url": "/{locale}/",
+      "site_name": "DotToDotFreePrintables.com",
+      "type": "website",
+      "image": "/images/trex-61-puzzle.webp (800x679)"
+    },
+    "twitter": {
+      "card": "summary_large_image"
+    },
+    "manifest": "/manifest.webmanifest",
+    "json_ld": {
+      "website": {
+        "type": "WebSite",
+        "name": "DotToDotFreePrintables.com (SITE_NAME)"
+      },
+      "organization": {
+        "type": "Organization",
+        "logo": "/icon-512.png (absoluteUrl)",
+        "same_as": "hardcoded array: Pinterest, Facebook, YouTube profile URLs"
+      },
+      "collection_page": {
+        "type": "CollectionPage",
+        "name": "Free Dot to Dot Printables for Kids (third distinct hardcoded title string in the codebase — differs from header.title and seo/metadata.json's homepage.title)"
+      },
+      "item_list": {
+        "type": "ItemList (featured puzzles)"
+      }
+    }
+  },
+  "body": {
+    "nav": {
+      "kids": "Trẻ em - Trò chơi xếp hình",
+      "teachers": "Giáo viên",
+      "parents": "Cha mẹ",
+      "contact": "Liên hệ với chúng tôi",
+      "blog": "Blog",
+      "search": "Tìm kiếm",
+      "freePack": "Gói miễn phí",
+      "scanMe": "Quét tôi"
+    },
+    "homepageUi": {
+      "title": "Tìm bản in nối chấm hoàn hảo",
+      "description": "In ra, nối các chấm lại và làm cho những bức tranh tuyệt đẹp trở nên sống động. Miễn phí và sẵn sàng cho niềm vui!",
+      "searchPlaceholder": "Thử tìm đại dương, khủng long hoặc hoa",
+      "filterPuzzles": "Lọc câu đố",
+      "age": "Độ tuổi",
+      "dots": "chấm",
+      "featuredPuzzles": "Câu đố in nổi bật",
+      "savePuzzle": "Lưu {name}",
+      "removeSavedPuzzle": "Xóa {name} khỏi mục đã lưu",
+      "downloads": "lượt tải",
+      "bookTitle": "Tuyển tập hay nhất 2026 · {count}",
+      "bookDescription": "Những câu đố nối chấm yêu thích của chúng tôi trong một cuốn sách PDF để in.",
+      "searchUnavailable": "Tìm kiếm tạm thời không khả dụng. Vui lòng thử lại.",
+      "popularEyebrow": "Phổ biến trong tuần này",
+      "mostDownloaded": "Các câu đố được tải xuống nhiều nhất",
+      "downloadCountAria": "{count} lần tải xuống hoặc nhiều hơn",
+      "freshPrintables": "Tài liệu in mới",
+      "recentlyAdded": "Mới được thêm vào",
+      "browseCategories": "Duyệt các danh mục câu đố",
+      "openCategories": "Mở menu danh mục",
+      "closeCategories": "Đóng menu danh mục",
+      "browseByTheme": "Duyệt theo chủ đề",
+      "quickLinks": "Liên kết nhanh",
+      "bundlePacks": "Gói combo",
+      "parentsTeachers": "Dành cho Phụ huynh & Giáo viên",
+      "more": "Nhiều danh mục hơn",
+      "kids": "Trẻ em",
+      "categoryNames": {
+        "cute": "Câu đố dễ thương",
+        "flowers": "Hoa"
+      }
+    },
+    "audience": {
+      "kidsTitle": "Dành cho trẻ em",
+      "kidsText": "Các chủ đề động vật, khủng long và xe cộ thân thiện với các chấm số rõ ràng. Những chiến thắng dễ dàng giúp xây dựng sự tự tin thực sự.",
+      "parentsTitle": "Dành cho phụ huynh",
+      "parentsText": "Các hoạt động thư giãn không cần màn hình dành cho gia đình, du lịch và nhà hàng. In từ bất kỳ thiết bị nào trong vòng chưa đầy một phút.",
+      "teachersTitle": "Dành cho giáo viên",
+      "teachersText": "Trò chơi nối điểm đơn giản, dễ chuẩn bị, thích hợp cho hoạt động đầu giờ học, học sinh hoàn thành bài sớm, giáo viên dạy thay và các trạm học trong lớp — không cần chuẩn bị gì cả."
+    },
+    "categories": {
+      "eyebrow": "Được sắp xếp theo chủ đề và trình độ kỹ năng.",
+      "heading": "Tìm các câu đố nối điểm theo danh mục",
+      "description": "Từ những hình vẽ đơn giản 10 chấm dành cho trẻ nhỏ đến những thử thách 200 chấm dành cho trẻ lớn hơn — được sắp xếp theo danh mục để bạn có thể tìm thấy bản in miễn phí phù hợp chỉ trong vài giây.",
+      "puzzles": "{count, plural, one {# câu đố} other {# câu đố}}",
+      "comingSoon": "Sắp ra mắt",
+      "badges": {
+        "dinosaurs": "Hiện đã có hàng!",
+        "ocean": "Hiện đã có hàng!",
+        "playgrounds": "Hiện đã có hàng!",
+        "garden": "Hiện đã có hàng!",
+        "usa250": "Mới!",
+        "uae": "Hiện đã có hàng!",
+        "cute": "Mới!",
+        "circus": "Mới!"
+      },
+      "items": {
+        "dinosaurs": {
+          "name": "Khủng long",
+          "description": "Cùng hòa mình vào thế giới tiền sử đầy thú vị! Trò chơi nối điểm miễn phí với T-Rex, Triceratops, Velociraptor và {count} chắc chắn sẽ làm các bé thích mê."
+        },
+        "animals": {
+          "name": "Động vật",
+          "description": "Những sinh vật thân thiện giúp trẻ luyện tập số từ sớm."
+        },
+        "vehicles": {
+          "name": "Xe cộ",
+          "description": "Ô tô, xe tải, tên lửa và máy móc."
+        },
+        "fantasy": {
+          "name": "Giả tưởng",
+          "description": "Lâu đài, kỳ lân, rồng và những gợi ý viết truyện."
+        },
+        "seasonal": {
+          "name": "Theo mùa",
+          "description": "Các hoạt động theo lịch nghỉ lễ và lịch học trên lớp."
+        },
+        "ocean": {
+          "name": "Đại dương",
+          "description": "Trang tô màu về động vật biển và cảnh sắc yên bình."
+        },
+        "playgrounds": {
+          "name": "Sân chơi",
+          "description": "Xích đu, cầu trượt và các hoạt động vui chơi ngoài trời dành cho những nhà thám hiểm nhỏ tuổi."
+        },
+        "garden": {
+          "name": "Vườn",
+          "description": "Găng tay, xẻng nhỏ và các dụng cụ làm vườn dành cho những người trợ giúp nhỏ tuổi."
+        },
+        "usa250": {
+          "name": "Nước Mỹ 250 năm",
+          "description": "Hãy cùng kỷ niệm 250 năm ngày Quốc khánh Hoa Kỳ với những trò chơi nối điểm mang đậm tinh thần yêu nước, tôn vinh lịch sử nước Mỹ."
+        },
+        "uae": {
+          "name": "Các tiểu vương quốc Ả Rập thống nhất",
+          "description": "Khám phá Các Tiểu vương quốc Ả Rập Thống nhất! Những địa danh mang tính biểu tượng như Burj Al Arab, sẵn sàng kết nối và tô điểm thêm sắc màu cho cuộc sống của bạn."
+        },
+        "space": {
+          "name": "Không gian",
+          "description": "Các hành tinh, phi hành gia và những cuộc phiêu lưu tên lửa."
+        },
+        "worksheets": {
+          "name": "Phiếu bài tập",
+          "description": "Phiếu bài tập sắp xếp số theo thứ tự, sẵn sàng cho giáo viên giảng dạy."
+        },
+        "bigDotBooks": {
+          "name": "Sách Chấm Bi Lớn",
+          "description": "Các câu đố dài dành cho người học lớn tuổi cần tập trung cao độ."
+        },
+        "cute": {
+          "name": "Dễ thương",
+          "description": "Những chú cún con đáng yêu, những chiếc xe nhỏ xinh và {count} trò chơi nối điểm miễn phí hấp dẫn mà con bạn sẽ yêu thích."
+        },
+        "circus": {
+          "name": "Rạp Xiếc",
+          "description": "Những người điều hành, rạp lớn và niềm vui biểu diễn cho những người học trẻ."
+        }
+      }
+    },
+    "puzzleSection": {
+      "eyebrow": "Mẫu in miễn phí — không cần đăng ký",
+      "heading": "Những bộ tranh nối điểm phổ biến để in ngay bây giờ",
+      "weeklyPack": "Xem gói hàng tuần →",
+      "downloadLink": "Tải xuống bản in miễn phí",
+      "new": "Mới",
+      "imageAlt": "Phiếu bài tập nối điểm miễn phí {name} dành cho {age}",
+      "categories": {
+        "Dinosaurs": "Khủng long",
+        "Ocean": "Đại dương",
+        "Playgrounds": "Sân chơi",
+        "Garden": "Vườn",
+        "Cute": "Dễ thương",
+        "USA 250 Years": "Nước Mỹ 250 năm",
+        "UAE": "Các tiểu vương quốc Ả Rập thống nhất"
+      },
+      "items": {
+        "trex-61-dot-to-dot-puzzle": {
+          "name": "Thử thách 61 chấm của T-Rex"
+        },
+        "brontosaurus-dot-to-dot-puzzle": {
+          "name": "Khủng long Brontosaurus"
+        },
+        "mermaid-dot-to-dot-puzzle": {
+          "name": "Nàng tiên cá"
+        },
+        "merman-dot-to-dot-puzzle": {
+          "name": "Người cá"
+        },
+        "seahorse-dot-to-dot-puzzle": {
+          "name": "Cá ngựa"
+        },
+        "whale-dot-to-dot-puzzle": {
+          "name": "Cá voi"
+        },
+        "swing-playgrounds-dot-to-dot-puzzle": {
+          "name": "Sân chơi xích đu"
+        },
+        "slide-playgrounds-dot-to-dot-puzzle": {
+          "name": "Sân chơi cầu trượt"
+        },
+        "seesaw-playground-dot-to-dot-puzzle": {
+          "name": "Sân chơi bập bênh"
+        },
+        "roller-coaster-playground-dot-to-dot-puzzle": {
+          "name": "Sân chơi tàu lượn siêu tốc"
+        },
+        "wheelbarrow-playground-dot-to-dot-puzzle": {
+          "name": "Sân chơi xe cút kít"
+        },
+        "garden-gloves-dot-to-dot-puzzle": {
+          "name": "Găng tay làm vườn"
+        },
+        "garden-trowel-dot-to-dot-puzzle": {
+          "name": "Bay làm vườn"
+        },
+        "gas-balloon-usa-250-dot-to-dot-puzzle": {
+          "name": "Khinh khí cầu Mỹ 250"
+        },
+        "america-250-birthday-fireworks-dot-to-dot-puzzle": {
+          "name": "Pháo hoa mừng sinh nhật lần thứ 250 của nước Mỹ"
+        },
+        "america-250-anniversary-liberty-bell-wings-1776-dot-to-dot-puzzle": {
+          "name": "Mỹ 250 Đôi Cánh Chuông Tự Do"
+        },
+        "usa-250-astronaut-dot-to-dot-puzzle": {
+          "name": "Phi hành gia thứ 250 của Mỹ"
+        },
+        "usa-250-anniversary-sports-kids-podium-dot-to-dot-puzzle": {
+          "name": "Bục vinh danh thể thao thiếu nhi nhân kỷ niệm 250 năm thành lập nước Mỹ"
+        },
+        "usa-250-anniversary-airplane-banner-dot-to-dot-puzzle": {
+          "name": "Biểu ngữ máy bay kỷ niệm 250 năm nước Mỹ"
+        },
+        "usa-250-space-shuttle-dot-to-dot-puzzle": {
+          "name": "Tàu con thoi không gian America 250"
+        },
+        "usa-250-birthday-balloons-stars-dot-to-dot-puzzle": {
+          "name": "Bóng bay và ngôi sao mừng sinh nhật lần thứ 250 của nước Mỹ."
+        },
+        "usa-250-birthday-cake-dot-to-dot-puzzle": {
+          "name": "Bánh sinh nhật kỷ niệm 250 năm nước Mỹ"
+        },
+        "america-250-anniversary-eagle-banner-dot-to-dot-puzzle": {
+          "name": "Biểu ngữ Đại bàng kỷ niệm 250 năm nước Mỹ"
+        },
+        "burj-al-arab-dot-to-dot-puzzle": {
+          "name": "Bớt Al Ả Rập"
+        },
+        "dallah-coffee-pot-dot-to-dot-puzzle": {
+          "name": "Ấm pha cà phê Dallah"
+        }
+      }
+    },
+    "benefits": {
+      "eyebrow": "Được hỗ trợ bởi các nhà giáo dục mầm non",
+      "heading": "Vì sao phiếu bài tập nối điểm rất tốt cho sự phát triển của trẻ em",
+      "description": "Các bài tập nối điểm in sẵn không chỉ thú vị mà còn là công cụ được nghiên cứu chứng minh hiệu quả, được các giáo viên mầm non và mẫu giáo sử dụng để xây dựng các kỹ năng học tập cốt lõi ngay từ giai đoạn đầu đời.",
+      "fineMotorTitle": "Phát triển kỹ năng vận động tinh",
+      "fineMotorText": "Vẽ các đường nối điểm giúp phát triển khả năng cầm bút chì, phối hợp tay mắt và khả năng kiểm soát cơ bắp cần thiết cho việc viết chữ.",
+      "numberTitle": "Củng cố khả năng nhận biết số",
+      "numberText": "Việc nối các chấm 1 → 2 → 3 theo trình tự giúp trẻ học cách đếm thứ tự, nhận biết số và các khái niệm toán học cơ bản một cách tự nhiên thông qua trò chơi.",
+      "focusTitle": "Cải thiện khả năng tập trung",
+      "focusText": "Hoàn thành trò chơi nối điểm đòi hỏi sự tập trung cao độ — một cách thư giãn, không dùng màn hình để rèn luyện khả năng tập trung cho trẻ từ mẫu giáo đến lớp 3.",
+      "confidenceTitle": "Phần thưởng và sự tự tin tức thì",
+      "confidenceText": "Khi bức tranh ẩn hiện ra, trẻ em sẽ cảm thấy ngay lập tức có được cảm giác thành tựu. Chiến thắng nhỏ đó sẽ xây dựng tình yêu học hỏi và tư duy phát triển."
+    },
+    "howTo": {
+      "eyebrow": "Sẵn sàng trong vòng chưa đầy 60 giây",
+      "heading": "Hướng dẫn cách tải xuống và in các bài tập nối điểm miễn phí",
+      "step1Title": "Chọn câu đố của bạn",
+      "step1Text": "Hãy chọn một chủ đề (động vật, khủng long, phương tiện giao thông, ngày lễ) và một phạm vi chấm phù hợp với độ tuổi và trình độ kỹ năng của con bạn.",
+      "step2Title": "Tải xuống bản PDF miễn phí",
+      "step2Text": "Nhấp vào \"Tải xuống bản in miễn phí\" — không cần tài khoản, không cần email, không cần trả phí. Trình duyệt của bạn sẽ tải xuống tệp PDF ngay lập tức.",
+      "step3Title": "In và thưởng thức!",
+      "step3Text": "In trên giấy khổ tiêu chuẩn US Letter (8,5\" × 11\"). In đen trắng đều được. Đưa cho con bạn và xem chúng nối các chấm lại với nhau!"
+    },
+    "trust": {
+      "eyebrow": "Vì sao phụ huynh và giáo viên chọn chúng tôi",
+      "heading": "Miễn phí, an toàn và cực kỳ dễ sử dụng.",
+      "noAccountTitle": "Không cần tài khoản",
+      "noAccountText": "Mọi mẫu nối điểm in được đều có thể tải xuống ngay lập tức — không cần đăng ký, không cần email, không cần trả phí. Chỉ cần nhấp chuột và in.",
+      "safeTitle": "Lớp học an toàn",
+      "safeText": "Các trang trò chơi ghép hình sạch sẽ, không có quảng cáo, được thiết kế dành cho máy in trường học. Phù hợp cho hoạt động đầu giờ học, bài tập về nhà hoặc thời gian thư giãn.",
+      "fastTitle": "Nhanh chóng theo thiết kế",
+      "fastText": "Các trang tĩnh, hình ảnh được tối ưu hóa và phông chữ cục bộ giúp các câu đố tải nhanh trên mọi thiết bị — điện thoại, máy tính bảng hoặc máy tính xách tay."
+    },
+    "faq": {
+      "eyebrow": "Câu hỏi thường gặp",
+      "heading": "Câu hỏi thường gặp",
+      "q1": "Tất cả các mẫu nối điểm in được trên trang web này đều hoàn toàn miễn phí phải không?",
+      "a1": "Đúng vậy — tất cả các bài tập nối điểm trên DotToDotFreePrintables.com đều hoàn toàn miễn phí để tải xuống và in. Không cần tài khoản, đăng ký hay thẻ tín dụng.",
+      "q2": "Phiếu bài tập nối điểm phù hợp với độ tuổi nào?",
+      "a2": "Tài liệu in của chúng tôi dành cho lứa tuổi từ 2 đến 12. Các bài tập dễ (10-20 chấm) phù hợp với trẻ mới biết đi và trẻ mẫu giáo, các bài tập trung bình (20-50 chấm) rất tốt cho học sinh lớp mẫu giáo và lớp 1, và các bài tập khó hơn (50-200+ chấm) sẽ thử thách học sinh lớp 2 đến lớp 6.",
+      "q3": "Các mẫu in trò chơi nối điểm có định dạng như thế nào?",
+      "a3": "Tất cả các bài tập đều được tải xuống dưới dạng tệp PDF sẵn sàng in, có kích thước phù hợp với khổ giấy tiêu chuẩn US Letter (8,5\" × 11\"). Mở bằng bất kỳ trình duyệt hoặc trình xem PDF nào và in — không cần phần mềm đặc biệt nào.",
+      "q4": "Bạn có phiếu bài tập nối điểm dành cho trẻ mẫu giáo và lớp mầm non không?",
+      "a4": "Chắc chắn rồi. Các bài tập dễ nhất của chúng tôi bắt đầu từ 1–10 chấm (hoàn hảo cho trẻ từ 2–4 tuổi) và bao gồm các chủ đề nhận biết bảng chữ cái và số được thiết kế cho các lớp mầm non và mẫu giáo.",
+      "q5": "Giáo viên có thể sử dụng những bài tập nối điểm này trong lớp học không?",
+      "a5": "Đúng vậy! Các tài liệu in của chúng tôi hoàn toàn miễn phí cho mục đích cá nhân và sử dụng trong lớp học. Chúng rất phổ biến cho hoạt động đầu giờ học, hoạt động dành cho học sinh hoàn thành bài sớm, kế hoạch bài học cho giáo viên thay thế, các hoạt động rèn luyện kỹ năng tinh và bài tập về nhà.",
+      "q6": "Trò chơi nối điểm có giúp cải thiện kỹ năng vận động tinh không?",
+      "a6": "Đúng vậy — việc nối các chấm giúp tăng cường sức mạnh cầm bút và sự phối hợp giữa tay và mắt, hỗ trợ cho việc chuẩn bị viết chữ. Nhiều nhà trị liệu nghề nghiệp và giáo viên mẫu giáo khuyên dùng các hoạt động nối chấm vì lý do này.",
+      "q7": "Bạn có các mẫu nối điểm theo chủ đề như động vật hoặc khủng long không?",
+      "a7": "Chúng tôi có 11 danh mục bao gồm động vật, khủng long, phương tiện giao thông, sinh vật biển, sân chơi, kỷ niệm 250 năm nước Mỹ, không gian, giả tưởng, chủ đề theo mùa/ngày lễ, bộ tài liệu bài tập cho giáo viên và sách chấm lớn. Các mẫu thiết kế mới được bổ sung hàng tuần.",
+      "q8": "Tôi có thể in những bức tranh ghép hình này bằng màu đen trắng được không?",
+      "a8": "Đúng vậy — tất cả các bài tập nối điểm của chúng tôi đều được thiết kế để in đen trắng nhằm tiết kiệm mực. Chúng trông rất đẹp trên bất kỳ máy in nào ở nhà hoặc trong lớp học."
+    },
+    "newsletter": {
+      "eyebrow": "Bộ tài liệu khởi đầu có thể in — hoàn toàn miễn phí",
+      "heading": "Nhận ngay 20 mẫu nối điểm miễn phí được gửi trực tiếp vào hộp thư đến của bạn.",
+      "description": "Bộ sưu tập thân thiện với phụ huynh và giáo viên, bao gồm các chủ đề về động vật, phương tiện giao thông, khủng long và các mùa trong năm — tất cả đều có kích thước phù hợp với khổ giấy US Letter tiêu chuẩn và được tối ưu hóa cho việc in đen trắng."
+    },
+    "blog": {
+      "eyebrow": "Ý tưởng dành cho người lớn",
+      "heading": "Mẹo học tập tại nhà và lớp học",
+      "viewAll": "Xem tất cả bài viết",
+      "read": "Đọc"
+    },
+    "feedback": {
+      "eyebrow": "Chúng tôi rất mong nhận được phản hồi từ bạn.",
+      "heading": "Gửi phản hồi",
+      "description": "Bạn có ý tưởng về câu đố, phát hiện liên kết bị hỏng, hay chỉ muốn chào hỏi? Hãy để lại lời nhắn bên dưới nhé."
+    },
+    "footer": {
+      "description": "Các bài tập nối điểm và ghép hình miễn phí dành cho trẻ em, phụ huynh và giáo viên. Tất cả các câu đố đều có thể tải xuống, in và chia sẻ miễn phí.",
+      "kids": "Trẻ em",
+      "parents": "Cha mẹ",
+      "teachers": "Giáo viên",
+      "blog": "Blog",
+      "faq": "Câu hỏi thường gặp",
+      "feedback": "Nhận xét",
+      "about": "Giới thiệu",
+      "contact": "Liên hệ",
+      "privacy": "Quyền riêng tư",
+      "terms": "Điều khoản",
+      "sitemap": "Sơ đồ trang web",
+      "copyright": "© {year} DotToDotFreePrintables.com · Các hoạt động in miễn phí dành cho trẻ em"
+    },
+    "common": {
+      "home": "Trang chủ",
+      "new": "Mới",
+      "comingSoon": "Sắp ra mắt",
+      "downloadFree": "Tải xuống bản in miễn phí",
+      "viewDownload": "Xem & Tải xuống",
+      "shareTitle": "{name} In Chấm Chấm - PDF Miễn Phí",
+      "downloadAria": "Tải xuống PDF in chấm chấm miễn phí {name}",
+      "bookmarkTitle": "{name} In Chấm Chấm – PDF Miễn Phí cho Trẻ Em",
+      "showSlide": "Hiện slide {number}",
+      "ageRange": "Độ tuổi {min}-{max}",
+      "difficultyLabel": "Độ khó {level} trên 3",
+      "difficulty": {
+        "1": "Dễ",
+        "2": "Trung bình",
+        "3": "Khó"
+      },
+      "dots": "1–{count} chấm",
+      "homeVideoEyebrow": "Băng hình",
+      "homeVideoH2": "Hãy cùng xem trò chơi nối điểm thú vị diễn ra như thế nào!",
+      "skipToContent": "Bỏ qua nội dung chính",
+      "joinTeachers": "Tham gia {count}+ giáo viên",
+      "breadcrumbAria": "Đường dẫn điều hướng"
+    },
+    "puzzleSearch": {
+      "searchAria": "Tìm câu đố",
+      "resultsFound": "{count, plural, one {# câu đố đã được tìm thấy} other {# câu đố đã tìm thấy}}",
+      "noMatches": "Không có câu đố nào phù hợp với tìm kiếm của bạn.",
+      "imageAlt": "{name} nối điểm có thể in được"
+    },
+    "newsletterForm": {
+      "ariaLabel": "Tải xuống bộ tài liệu in hình nối điểm miễn phí",
+      "emailLabel": "Địa chỉ email",
+      "submit": "Gửi gói hàng miễn phí",
+      "honeypot": "Để trống ô này",
+      "privacy": "Không bao giờ gửi thư rác. Bạn có thể hủy đăng ký bất cứ lúc nào.",
+      "error": "Không thể gửi biểu mẫu này.",
+      "notConnected": "Quá trình đăng ký gói miễn phí chưa được kết nối."
+    },
+    "feedbackForm": {
+      "ariaLabel": "Gửi phản hồi",
+      "notConnected": "Biểu mẫu phản hồi này chưa được kết nối.",
+      "typeLabel": "Bạn muốn nhận phản hồi như thế nào?",
+      "selectTopic": "Chọn một chủ đề...",
+      "types": {
+        "general": "Phản hồi chung",
+        "requestTheme": "Hãy yêu cầu một chủ đề trò chơi xếp hình.",
+        "brokenLink": "Báo cáo liên kết bị hỏng",
+        "improvement": "Đề xuất cải tiến",
+        "other": "Khác"
+      },
+      "messageLabel": "Tin nhắn của bạn",
+      "messagePlaceholder": "Hãy cho chúng tôi biết suy nghĩ của bạn...",
+      "emailLabel": "E-mail",
+      "emailOptional": "(Tùy chọn - chỉ khi bạn muốn nhận phản hồi)",
+      "submit": "Gửi phản hồi",
+      "success": "Cảm ơn bạn. Phản hồi của bạn đã được gửi đi.",
+      "disclaimer": "Vui lòng không cung cấp thông tin cá nhân nhạy cảm. Email là tùy chọn và chỉ được sử dụng khi chúng tôi cần trả lời.",
+      "iframeTitle": "Gửi phản hồi"
+    }
+  }
+}

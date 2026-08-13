@@ -1,0 +1,409 @@
+{
+  "slug": "home",
+  "header": {
+    "title": "Free Dot to Dot Printables for Kids | Connect the Dots Worksheets PDF",
+    "title_template": "%s | DotToDotFreePrintables.com",
+    "meta_description": "hardcoded literal in layout.tsx generateMetadata() — see file for exact wording, distinct from seo/metadata.json's homepage.description",
+    "canonical": "/{locale}/",
+    "og": {
+      "title": "Free dot-to-dot worksheets for kids",
+      "description": "same var as header.meta_description (shared, not distinct)",
+      "url": "/{locale}/",
+      "site_name": "DotToDotFreePrintables.com",
+      "type": "website",
+      "image": "/images/trex-61-puzzle.webp (800x679)"
+    },
+    "twitter": {
+      "card": "summary_large_image"
+    },
+    "manifest": "/manifest.webmanifest",
+    "json_ld": {
+      "website": {
+        "type": "WebSite",
+        "name": "DotToDotFreePrintables.com (SITE_NAME)"
+      },
+      "organization": {
+        "type": "Organization",
+        "logo": "/icon-512.png (absoluteUrl)",
+        "same_as": "hardcoded array: Pinterest, Facebook, YouTube profile URLs"
+      },
+      "collection_page": {
+        "type": "CollectionPage",
+        "name": "Free Dot to Dot Printables for Kids (third distinct hardcoded title string in the codebase — differs from header.title and seo/metadata.json's homepage.title)"
+      },
+      "item_list": {
+        "type": "ItemList (featured puzzles)"
+      }
+    }
+  },
+  "body": {
+    "nav": {
+      "kids": "Deti - Hádanky",
+      "teachers": "Učitelia",
+      "parents": "Rodičia",
+      "contact": "Kontaktujte nás",
+      "blog": "Blog",
+      "search": "Hľadať",
+      "freePack": "Bezplatný balíček",
+      "scanMe": "Naskenuj ma"
+    },
+    "homepageUi": {
+      "title": "Nájdite dokonalé tlačiteľné omaľovánky bodka po bodke",
+      "description": "Vytlačte, spojte bodky a oživte úžasné obrázky. Zadarmo a pripravené na zábavu!",
+      "searchPlaceholder": "Skúste oceán, dinosaura alebo kvety",
+      "filterPuzzles": "Filtrovať hádanky",
+      "age": "Vek",
+      "dots": "bodov",
+      "featuredPuzzles": "Odporúčané tlačiteľné hádanky",
+      "savePuzzle": "Uložiť {name}",
+      "removeSavedPuzzle": "Odstrániť {name} z uložených",
+      "downloads": "stiahnutí",
+      "bookTitle": "Najlepšie z roku 2026 · {count}",
+      "bookDescription": "Naše obľúbené hádanky od bodky po bodku v jednej tlačiteľnej PDF knihe.",
+      "searchUnavailable": "Vyhľadávanie je dočasne nedostupné. Skúste to znova.",
+      "popularEyebrow": "Populárne tento týždeň",
+      "mostDownloaded": "Najviac sťahované hádanky",
+      "downloadCountAria": "{count} alebo viac stiahnutí",
+      "freshPrintables": "Čerstvé tlačiteľné materiály",
+      "recentlyAdded": "Nedávno pridané",
+      "browseCategories": "Prehliadať kategórie hádaniek",
+      "openCategories": "Otvoriť menu kategórií",
+      "closeCategories": "Zavrieť menu kategórií",
+      "browseByTheme": "Prehliadať podľa témy",
+      "quickLinks": "Rýchle odkazy",
+      "bundlePacks": "Balíky",
+      "parentsTeachers": "Pre rodičov a učiteľov",
+      "more": "Viac kategórií",
+      "kids": "Deti",
+      "categoryNames": {
+        "cute": "Roztomilé hádanky",
+        "flowers": "Kvety"
+      }
+    },
+    "audience": {
+      "kidsTitle": "Pre deti",
+      "kidsText": "Priateľské motívy zvierat, dinosaurov a vozidiel s jasnými očíslovanými bodkami. Jednoduché výhry, ktoré budujú skutočné sebavedomie.",
+      "parentsTitle": "Pre rodičov",
+      "parentsText": "Tiché aktivity bez obrazovky doma, na cestách a v reštauráciách. Tlačte z akéhokoľvek zariadenia za menej ako minútu.",
+      "teachersTitle": "Pre učiteľov",
+      "teachersText": "Jednoduché spájanie bodov pre rannú prácu, skoré dokončenie, suplovanie a pracovné stanice v triede – žiadna príprava nie je potrebná."
+    },
+    "categories": {
+      "eyebrow": "Zoradené podľa témy a úrovne zručností",
+      "heading": "Prehliadajte hádanky bodka po bodke podľa kategórie",
+      "description": "Od jednoduchých 10-bodových tvarov pre batoľatá až po 200-bodové výzvy pre staršie deti – zoradené podľa kategórie, aby ste našli ten správny bezplatný tlačiteľný materiál v priebehu niekoľkých sekúnd.",
+      "puzzles": "{count, plural, one {# hlavolam} few {# hlavolamy} other {# hlavolamov}}",
+      "comingSoon": "Čoskoro",
+      "badges": {
+        "dinosaurs": "Teraz k dispozícii!",
+        "ocean": "Teraz k dispozícii!",
+        "playgrounds": "Teraz k dispozícii!",
+        "garden": "Teraz k dispozícii!",
+        "usa250": "Nové!",
+        "uae": "Teraz k dispozícii!",
+        "cute": "Nové!",
+        "circus": "Nové!"
+      },
+      "items": {
+        "dinosaurs": {
+          "name": "Dinosaury",
+          "description": "Vrhnite sa na prehistorickú zábavu! T-Rex, Triceratops, Velociraptor a {count} bezplatných bodkovaných hádaniek, ktoré si vaše deti zamilujú."
+        },
+        "animals": {
+          "name": "Zvieratá",
+          "description": "Priateľské stvorenia na skorý precvičovanie čísel."
+        },
+        "vehicles": {
+          "name": "Vozidlá",
+          "description": "Autá, nákladné autá, rakety a stroje."
+        },
+        "fantasy": {
+          "name": "Fantázia",
+          "description": "Hrady, jednorožce, draci a námety na príbehy."
+        },
+        "seasonal": {
+          "name": "Sezónne",
+          "description": "Aktivity súvisiace so sviatkami a triednym kalendárom."
+        },
+        "ocean": {
+          "name": "Oceán",
+          "description": "Morské živočíchy a pokojné omaľovánky."
+        },
+        "playgrounds": {
+          "name": "Ihriská",
+          "description": "Hojdačky, šmykľavky a vonkajšia zábava pre malých dobrodruhov."
+        },
+        "garden": {
+          "name": "Záhrada",
+          "description": "Rukavice, stierky a náradie pre malých záhradných pomocníkov."
+        },
+        "usa250": {
+          "name": "Amerika 250 rokov",
+          "description": "Oslavujte 250. výročie Ameriky vlasteneckými hádankami typu bodka po bodke, ktoré ctia americkú históriu."
+        },
+        "uae": {
+          "name": "Spojené arabské emiráty",
+          "description": "Preskúmajte Spojené arabské emiráty! Ikonické pamiatky ako Burdž al-Arab sú pripravené na spojenie a vyfarbenie."
+        },
+        "space": {
+          "name": "Priestor",
+          "description": "Planéty, astronauti a raketové dobrodružstvá."
+        },
+        "worksheets": {
+          "name": "Pracovné listy",
+          "description": "Pracovné listy na tvorbu číselných postupností pripravené pre učiteľov."
+        },
+        "bigDotBooks": {
+          "name": "Knihy Big Dot",
+          "description": "Dlhé hádanky pre sústredených starších študentov."
+        },
+        "cute": {
+          "name": "Roztomilý",
+          "description": "Rozkošné šteniatka, malé autíčka a {count} očarujúcich bezplatných bodkovaných hádaniek, ktoré si vaše deti zamilujú."
+        },
+        "circus": {
+          "name": "Cirkus",
+          "description": "Majitelia arény, veľké stany a zábava na predstaveniach pre mladých žiakov."
+        }
+      }
+    },
+    "puzzleSection": {
+      "eyebrow": "Bezplatné tlačiteľné vzorky – bez registrácie",
+      "heading": "Populárne hárky typu „spoj bodky“ na tlač teraz",
+      "weeklyPack": "Pozrieť si týždenný balíček →",
+      "downloadLink": "Stiahnite si bezplatnú tlačiteľnú verziu",
+      "new": "Nové",
+      "imageAlt": "{name} bezplatný pracovný list s bodkami na vytlačenie pre {age}",
+      "categories": {
+        "Dinosaurs": "Dinosaury",
+        "Ocean": "Oceán",
+        "Playgrounds": "Ihriská",
+        "Garden": "Záhrada",
+        "Cute": "Roztomilý",
+        "USA 250 Years": "Amerika 250 rokov",
+        "UAE": "Spojené arabské emiráty"
+      },
+      "items": {
+        "trex-61-dot-to-dot-puzzle": {
+          "name": "Výzva T-Rexa 61-bodka"
+        },
+        "brontosaurus-dot-to-dot-puzzle": {
+          "name": "Brontozaurus"
+        },
+        "mermaid-dot-to-dot-puzzle": {
+          "name": "Morská panna"
+        },
+        "merman-dot-to-dot-puzzle": {
+          "name": "Morský muž"
+        },
+        "seahorse-dot-to-dot-puzzle": {
+          "name": "Morský koník"
+        },
+        "whale-dot-to-dot-puzzle": {
+          "name": "Veľryba"
+        },
+        "swing-playgrounds-dot-to-dot-puzzle": {
+          "name": "Hojdacie ihrisko"
+        },
+        "slide-playgrounds-dot-to-dot-puzzle": {
+          "name": "Ihrisko so šmykľavkou"
+        },
+        "seesaw-playground-dot-to-dot-puzzle": {
+          "name": "Hojdačka na ihrisku"
+        },
+        "roller-coaster-playground-dot-to-dot-puzzle": {
+          "name": "Ihrisko s horskou dráhou"
+        },
+        "wheelbarrow-playground-dot-to-dot-puzzle": {
+          "name": "Ihrisko s fúrikmi"
+        },
+        "garden-gloves-dot-to-dot-puzzle": {
+          "name": "Záhradné rukavice"
+        },
+        "garden-trowel-dot-to-dot-puzzle": {
+          "name": "Záhradná murárska lyžica"
+        },
+        "gas-balloon-usa-250-dot-to-dot-puzzle": {
+          "name": "Plynový balón Amerika 250"
+        },
+        "america-250-birthday-fireworks-dot-to-dot-puzzle": {
+          "name": "Ohňostroj k narodeninám Ameriky 250"
+        },
+        "america-250-anniversary-liberty-bell-wings-1776-dot-to-dot-puzzle": {
+          "name": "Krídla America 250 Liberty Bell"
+        },
+        "usa-250-astronaut-dot-to-dot-puzzle": {
+          "name": "Amerika 250 Astronaut"
+        },
+        "usa-250-anniversary-sports-kids-podium-dot-to-dot-puzzle": {
+          "name": "Americký športový pódium k 250. výročiu"
+        },
+        "usa-250-anniversary-airplane-banner-dot-to-dot-puzzle": {
+          "name": "Banner lietadla k 250. výročiu Ameriky"
+        },
+        "usa-250-space-shuttle-dot-to-dot-puzzle": {
+          "name": "Raketoplán America 250"
+        },
+        "usa-250-birthday-balloons-stars-dot-to-dot-puzzle": {
+          "name": "Americké 250 narodeninových balónov a hviezd"
+        },
+        "usa-250-birthday-cake-dot-to-dot-puzzle": {
+          "name": "Narodeninová torta America 250"
+        },
+        "america-250-anniversary-eagle-banner-dot-to-dot-puzzle": {
+          "name": "Amerika 250 Zástava s orlom"
+        },
+        "burj-al-arab-dot-to-dot-puzzle": {
+          "name": "Burdž al-Arab"
+        },
+        "dallah-coffee-pot-dot-to-dot-puzzle": {
+          "name": "Kávový hrniec Dallah"
+        }
+      }
+    },
+    "benefits": {
+      "eyebrow": "S podporou pedagógov v ranom detstve",
+      "heading": "Prečo sú pracovné listy s bodkami skvelé pre vývoj dieťaťa",
+      "description": "Tlačiteľné materiály na spájanie bodiek sú viac než len zábava – sú to výskumom podložené nástroje, ktoré používajú predškolskí učitelia a učitelia v materských školách na budovanie základných zručností v ranom vzdelávaní.",
+      "fineMotorTitle": "Rozvíja jemnú motoriku",
+      "fineMotorText": "Kreslenie čiar bodk po bodke rozvíja úchop ceruzky, koordináciu ruka-oko a kontrolu svalov, ktorú deti potrebujú na písanie rukou.",
+      "numberTitle": "Posilňuje rozpoznávanie čísel",
+      "numberText": "Postupné sledovanie bodiek 1 → 2 → 3 učí prirodzene prostredníctvom hry poradie počítania, rozpoznávanie čísel a rané matematické pojmy.",
+      "focusTitle": "Zlepšuje sústredenie a koncentráciu",
+      "focusText": "Dokončenie skladačky typu spájanie bodiek si vyžaduje sústredenú pozornosť – pokojný spôsob precvičovania sústredenia bez obrazovky pre predškolákov až 3. ročník.",
+      "confidenceTitle": "Okamžitá odmena a sebavedomie",
+      "confidenceText": "Keď sa objaví skrytý obrázok, deti okamžite pocítia pocit úspechu. Toto malé víťazstvo buduje lásku k učeniu a rastové zmýšľanie."
+    },
+    "howTo": {
+      "eyebrow": "Pripravené za menej ako 60 sekúnd",
+      "heading": "Ako si stiahnuť a vytlačiť bezplatné pracovné listy s bodkami",
+      "step1Title": "Vyberte si svoju skladačku",
+      "step1Text": "Vyberte si tému (zvieratá, dinosaury, vozidlá, sviatky) a rozsah bodiek, ktorý zodpovedá veku a úrovni zručností vášho dieťaťa.",
+      "step2Title": "Stiahnite si bezplatný PDF súbor",
+      "step2Text": "Kliknite na tlačidlo „Stiahnuť si bezplatnú verziu na tlač“ – bez účtu, bez e-mailu, bez plateného prístupu. Váš prehliadač stiahne PDF súbor okamžite.",
+      "step3Title": "Vytlačte si a užívajte si",
+      "step3Text": "Tlačte na štandardný papier formátu US Letter (8,5\" × 11\"). Čiernobiela tlač funguje perfektne. Dajte to svojmu dieťaťu a sledujte, ako spája bodky!"
+    },
+    "trust": {
+      "eyebrow": "Prečo si nás rodičia a učitelia vyberajú",
+      "heading": "Zadarmo, bezpečné a neuveriteľne jednoduché na používanie.",
+      "noAccountTitle": "Nevyžaduje sa žiadny účet",
+      "noAccountText": "Každá tlačiteľná pomôcka sa stiahne okamžite – bez registrácie, e-mailov ani platených účtov. Stačí kliknúť a vytlačiť.",
+      "safeTitle": "Trezor v triede",
+      "safeText": "Čisté stránky s puzzle bez reklám určené pre školské tlačiarne. Hodí sa na rannú prácu, domáce úlohy alebo na tichý čas.",
+      "fastTitle": "Rýchly už od návrhu",
+      "fastText": "Statické stránky, optimalizované obrázky a lokálne písma znamenajú, že sa hádanky načítavajú rýchlo na akomkoľvek zariadení – telefóne, tablete alebo notebooku."
+    },
+    "faq": {
+      "eyebrow": "Časté otázky",
+      "heading": "Často kladené otázky",
+      "q1": "Sú všetky tlačiteľné materiály bodka po bodke na tejto stránke úplne zadarmo?",
+      "a1": "Áno – každý pracovný list s bodkami na DotToDotFreePrintables.com si môžete stiahnuť a vytlačiť úplne zadarmo. Nikdy nie je potrebný žiadny účet, predplatné ani kreditná karta.",
+      "q2": "Pre aký vek sú vhodné pracovné listy s bodkami?",
+      "a2": "Naše tlačiteľné materiály pokrývajú vekovú kategóriu od 2 do 12 rokov. Jednoduché pracovné listy (10 – 20 bodov) sú vhodné pre batoľatá a predškolákov, stredne veľké listy (20 – 50 bodov) sú skvelé pre materské školy a 1. ročník a tvrdšie listy (50 – 200+ bodov) sú výzvou pre žiakov 2. až 6. ročníka.",
+      "q3": "V akom formáte sú tlačiteľné materiály typu „spoj bodky“?",
+      "a3": "Všetky pracovné listy sa dajú stiahnuť ako súbory PDF pripravené na tlač vo veľkosti štandardného papiera US Letter (8,5\" × 11\"). Otvorte ich v ľubovoľnom prehliadači alebo prehliadači PDF a tlačte – nie je potrebný žiadny špeciálny softvér.",
+      "q4": "Máte pracovné listy s bodkami pre predškolákov a škôlkarov?",
+      "a4": "Rozhodne. Naše najjednoduchšie pracovné listy začínajú na 1 – 10 bodoch (ideálne pre deti vo veku 2 – 4 roky) a obsahujú témy abecedy a rozpoznávania čísel určené pre predškolské a materské školy.",
+      "q5": "Môžu učitelia použiť tieto pracovné listy s bodkami na vyučovaní?",
+      "a5": "Áno! Naše tlačiteľné materiály sú bezplatné na osobné použitie aj na použitie v triede. Sú obľúbené pri ranných aktivitách, aktivitách pre skorých študentov, plánoch náhradných hodín, centrách jemnej motoriky a balíčkoch domácich úloh.",
+      "q6": "Pomáhajú bodkované hádanky rozvíjať jemnú motoriku?",
+      "a6": "Áno – kreslenie čiar medzi bodkami buduje silu úchopu ceruzky a koordináciu rúk a očí, ktoré podporujú pripravenosť na písanie rukou. Mnoho ergoterapeutov a učiteľov v materských školách z tohto dôvodu odporúča aktivity spájania bodiek.",
+      "q7": "Máte tematické vytlačiteľné obrázky s bodkami, ako sú zvieratá alebo dinosaury?",
+      "a7": "Máme 11 kategórií vrátane zvierat, dinosaurov, vozidiel, morských tvorov, ihrísk, 250 rokov Ameriky, vesmíru, fantázie, sezónnych/sviatočných tém, balíčkov pracovných listov pre učiteľov a kníh Big Dot. Nové návrhy pridávame každý týždeň.",
+      "q8": "Môžem si tieto puzzle vytlačiť čiernobielo?",
+      "a8": "Áno – všetky naše pracovné listy s bodkami sú určené na čiernobielu tlač, aby sa ušetril atrament. Vyzerajú skvele na akejkoľvek domácej alebo triednej tlačiarni."
+    },
+    "newsletter": {
+      "eyebrow": "Štartovací balíček na vytlačenie – úplne zadarmo",
+      "heading": "Získajte 20 bezplatných tlačiteľných materiálov s bodkami doručených priamo do vašej schránky.",
+      "description": "Kolekcia vhodná pre rodičov a učiteľov, ktorá zahŕňa zvieratá, vozidlá, dinosaury a sezónne témy – všetky vo veľkosti pre štandardný papier US Letter a optimalizované pre čiernobielu tlač."
+    },
+    "blog": {
+      "eyebrow": "Nápady pre dospelých",
+      "heading": "Tipy na učenie doma a v triede",
+      "viewAll": "Zobraziť všetky články",
+      "read": "Čítať"
+    },
+    "feedback": {
+      "eyebrow": "Radi by sme od vás počuli",
+      "heading": "Odoslať spätnú väzbu",
+      "description": "Máte nápad na hádanku, našli ste nefunkčný odkaz alebo nás len chcete pozdraviť? Napíšte nám nižšie."
+    },
+    "footer": {
+      "description": "Bezplatné tlačiteľné materiály na spájanie bodiek a pracovné listy s bodkami pre deti, rodičov a učiteľov. Všetky hádanky si môžete zadarmo stiahnuť, vytlačiť a zdieľať.",
+      "kids": "Deti",
+      "parents": "Rodičia",
+      "teachers": "Učitelia",
+      "blog": "Blog",
+      "faq": "Často kladené otázky",
+      "feedback": "Spätná väzba",
+      "about": "O nás",
+      "contact": "Kontakt",
+      "privacy": "Súkromie",
+      "terms": "Podmienky",
+      "sitemap": "Mapa stránok",
+      "copyright": "© {year} DotToDotFreePrintables.com · Bezplatné tlačiteľné aktivity pre deti"
+    },
+    "common": {
+      "home": "Domov",
+      "new": "Nové",
+      "comingSoon": "Čoskoro",
+      "downloadFree": "Stiahnite si bezplatnú tlačiteľnú verziu",
+      "viewDownload": "Zobraziť a stiahnuť",
+      "shareTitle": "{name} Spoj bodky - Bezplatný PDF",
+      "downloadAria": "Stiahnite si bezplatný PDF spoj bodky {name}",
+      "bookmarkTitle": "{name} Spoj bodky – Bezplatný PDF pre deti",
+      "showSlide": "Zobraziť snímku {number}",
+      "ageRange": "Vek {min}-{max}",
+      "difficultyLabel": "Obtiažnosť {level} z 3",
+      "difficulty": {
+        "1": "Ľahké",
+        "2": "Stredné",
+        "3": "Tvrdý"
+      },
+      "dots": "1–{count} bodov",
+      "homeVideoEyebrow": "Video",
+      "homeVideoH2": "Pozrite si zábavu s bodkami v akcii",
+      "skipToContent": "Preskočiť na hlavný obsah",
+      "joinTeachers": "Pripojte sa k {count}+ učiteľom",
+      "breadcrumbAria": "Navigačná cesta"
+    },
+    "puzzleSearch": {
+      "searchAria": "Hľadať hádanky",
+      "resultsFound": "{count, plural, one {nájdený # hlavolam} few {nájdené # hlavolamy} other {nájdených # hlavolamov}}",
+      "noMatches": "Žiadne hádanky nezodpovedajú vášmu vyhľadávaniu.",
+      "imageAlt": "{name} bodka po bodke na tlač"
+    },
+    "newsletterForm": {
+      "ariaLabel": "Získajte bezplatný tlačiteľný balíček bodkovania",
+      "emailLabel": "E-mailová adresa",
+      "submit": "Poslať bezplatný balíček",
+      "honeypot": "Toto pole nechajte prázdne",
+      "privacy": "Žiadny spam, nikdy. Kedykoľvek sa môžete odhlásiť.",
+      "error": "Tento formulár sa nepodarilo odoslať.",
+      "notConnected": "Registrácia bezplatného balíka ešte nie je pripojená."
+    },
+    "feedbackForm": {
+      "ariaLabel": "Odoslať spätnú väzbu",
+      "notConnected": "Tento formulár spätnej väzby ešte nie je pripojený.",
+      "typeLabel": "Aký druh spätnej väzby?",
+      "selectTopic": "Vyberte tému...",
+      "types": {
+        "general": "Všeobecná spätná väzba",
+        "requestTheme": "Vyžiadajte si tému puzzle",
+        "brokenLink": "Nahlásiť nefunkčný odkaz",
+        "improvement": "Navrhnite zlepšenie",
+        "other": "Iné"
+      },
+      "messageLabel": "Vaša správa",
+      "messagePlaceholder": "Povedzte nám, čo si myslíte...",
+      "emailLabel": "E-mail",
+      "emailOptional": "(voliteľné – iba ak chcete odpoveď)",
+      "submit": "Odoslať spätnú väzbu",
+      "success": "Ďakujeme. Vaša spätná väzba bola odoslaná.",
+      "disclaimer": "Neuvádzajte citlivé osobné údaje. E-mail je voliteľný a použijeme ho iba v prípade, že potrebujeme odpovedať.",
+      "iframeTitle": "Odoslanie spätnej väzby"
+    }
+  }
+}

@@ -1,0 +1,359 @@
+{
+  "collection": {},
+  "puzzles": [
+    {
+      "slug": "circus-ringmaster-bear-dot-to-dot-puzzle",
+      "header": {
+        "json_ld": {
+          "name": "Sirkus Şefi Ayı",
+          "type": "CreativeWork",
+          "educational_use": "Fine motor skills, number sequencing"
+        }
+      },
+      "body": {
+        "name": "Sirkus Şefi Ayı",
+        "tagline": "Büyük Gösteriyi Yöneten Ayı ile Tanışın!",
+        "description": "Dost canlısı bir ayıyı sirk şefi kıyafetiyle ortaya çıkarmak için 74 noktayı birleştirin. Bu orta seviye yazdırılabilir etkinlik, çocukların sayı sıralama, konsantrasyon, görsel takip ve dikkatli kalem kontrolü pratiği yapmalarına yardımcı olur.",
+        "fun_fact": "Bir sirk şefi, sanatçıları tanıtır ve izleyiciyi bir gösteriden diğerine yönlendirir.",
+        "dot_guide": {
+          "intro": "Akıllı bir palto, uzun bir şapka ve kendine güvenen bir duruşla, bu dost canlısı ayı herkesi sirke karşılamaya hazır. 74 noktalık zorluk, daha uzun sayı dizileriyle rahat olan çocuklar için beş net aşamaya ayrılmıştır. Nokta 1'i bulun ve gösteri başlasın!",
+          "outro": "Harika bir çalışma - ringmaster ayısı gösteriyi duyurmaya hazır! Kostümü cesur kırmızılar ve altınlarla renklendir, sonra spot ışıkları ve heyecanlı bir izleyici ekle. Sahneyi <a href=\"/circus/circus-tent-dot-to-dot-puzzle/\">sirk çadırı bulmacası</a> ile tamamla.",
+          "sections": [
+            {
+              "range": "1–15",
+              "title": "Şefin Şapkası",
+              "learn": "Uzun şapkayı ve ayının yuvarlak kulaklarını çizmek için 1'den 15'e kadar noktaları birleştirin.",
+              "fact": "Şefler genellikle dikkat çekici resmi kostümler giyerler, böylece izleyiciler onları ring içinde kolayca görebilir."
+            },
+            {
+              "range": "16–30",
+              "title": "Ayının Yüzü",
+              "learn": "Ayının başını, burnunu ve neşeli ifadesini şekillendirmek için 16'dan 30'a kadar noktaları takip edin.",
+              "fact": "Bir ayının koku alma yeteneği son derece güçlüdür ve uzun mesafelerde yiyecek bulmasına yardımcı olur."
+            },
+            {
+              "range": "31–45",
+              "title": "Akıllı Ceket",
+              "learn": "Şefin süslü ceketini ve yaka kısımlarını oluşturmak için 31'den 45'e kadar noktaları takip edin.",
+              "fact": "Parlak ceketler, parlak düğmeler ve dekoratif süslemeler, bir şefin kostümünü tiyatral hale getirmeye yardımcı olur."
+            },
+            {
+              "range": "46–60",
+              "title": "Kollar ve Gösteri Duruşu",
+              "learn": "Ayının kollarını ve karşılayıcı performans duruşunu eklemek için 46'dan 60'a kadar noktaları izleyin.",
+              "fact": "Şefler, dikkatleri bir sonraki gösteriye yönlendirmek için net jestler ve güçlü bir ses kullanır."
+            },
+            {
+              "range": "61–74",
+              "title": "Botlar ve Tamamla",
+              "learn": "Bacakları, botları ve son kostüm detaylarını çizmek için 61'den 74'e kadar noktaları tamamlayın.",
+              "fact": "Bir sirk halkası geleneksel olarak daireseldir, böylece etrafındaki izleyiciler gösteriyi birçok açıdan görebilir."
+            }
+          ],
+          "color_schemes": [
+            {
+              "name": "Sirkus Şefi Ayı: Klasik gerçek renkler",
+              "note": "Bu tanıdık palette gerçek konuda sık görülen renkler kullanılır.",
+              "mapping": [
+                {
+                  "range": "1–15",
+                  "part": "Şefin Şapkası",
+                  "color": "Crayola Scarlet",
+                  "hex": "#FC2847",
+                  "why": "Bu renk parçaya tanıdık gerçek görünümünü verir."
+                },
+                {
+                  "range": "16–30",
+                  "part": "Ayının Yüzü",
+                  "color": "Crayola Sky Blue",
+                  "hex": "#80DAEB",
+                  "why": "Bu renk parçaya tanıdık gerçek görünümünü verir."
+                },
+                {
+                  "range": "31–45",
+                  "part": "Akıllı Ceket",
+                  "color": "Crayola Goldenrod",
+                  "hex": "#FCD975",
+                  "why": "Bu renk parçaya tanıdık gerçek görünümünü verir."
+                },
+                {
+                  "range": "46–60",
+                  "part": "Kollar ve Gösteri Duruşu",
+                  "color": "Crayola Scarlet",
+                  "hex": "#FC2847",
+                  "why": "Bu renk parçaya tanıdık gerçek görünümünü verir."
+                },
+                {
+                  "range": "61–74",
+                  "part": "Botlar ve Tamamla",
+                  "color": "Crayola Sky Blue",
+                  "hex": "#80DAEB",
+                  "why": "Bu renk parçaya tanıdık gerçek görünümünü verir."
+                }
+              ]
+            },
+            {
+              "name": "Sirkus Şefi Ayı: Yumuşak doğal renkler",
+              "note": "Bu açık palet konunun gerçek soluk veya güneşli bir görünümünü gösterir.",
+              "mapping": [
+                {
+                  "range": "1–15",
+                  "part": "Şefin Şapkası",
+                  "color": "Crayola Silver",
+                  "hex": "#CDC5C2",
+                  "why": "Açık ton parçanın parlak gün ışığındaki görünümünü gösterir."
+                },
+                {
+                  "range": "16–30",
+                  "part": "Ayının Yüzü",
+                  "color": "Crayola Tan",
+                  "hex": "#FAA76C",
+                  "why": "Açık ton parçanın parlak gün ışığındaki görünümünü gösterir."
+                },
+                {
+                  "range": "31–45",
+                  "part": "Akıllı Ceket",
+                  "color": "Crayola Sea Green",
+                  "hex": "#93DFB8",
+                  "why": "Açık ton parçanın parlak gün ışığındaki görünümünü gösterir."
+                },
+                {
+                  "range": "46–60",
+                  "part": "Kollar ve Gösteri Duruşu",
+                  "color": "Crayola Silver",
+                  "hex": "#CDC5C2",
+                  "why": "Açık ton parçanın parlak gün ışığındaki görünümünü gösterir."
+                },
+                {
+                  "range": "61–74",
+                  "part": "Botlar ve Tamamla",
+                  "color": "Crayola Tan",
+                  "hex": "#FAA76C",
+                  "why": "Açık ton parçanın parlak gün ışığındaki görünümünü gösterir."
+                }
+              ]
+            },
+            {
+              "name": "Sirkus Şefi Ayı: Canlı gerçek renkler",
+              "note": "Bu güçlü palet gerçek malzemelerden, işaretlerden veya boyalardan esinlenir.",
+              "mapping": [
+                {
+                  "range": "1–15",
+                  "part": "Şefin Şapkası",
+                  "color": "Crayola Forest Green",
+                  "hex": "#5FA777",
+                  "why": "Koyu renk gerçek bir işareti, malzemeyi veya boyayı yansıtır."
+                },
+                {
+                  "range": "16–30",
+                  "part": "Ayının Yüzü",
+                  "color": "Crayola Brown",
+                  "hex": "#AF593E",
+                  "why": "Koyu renk gerçek bir işareti, malzemeyi veya boyayı yansıtır."
+                },
+                {
+                  "range": "31–45",
+                  "part": "Akıllı Ceket",
+                  "color": "Crayola Orange",
+                  "hex": "#FF7538",
+                  "why": "Koyu renk gerçek bir işareti, malzemeyi veya boyayı yansıtır."
+                },
+                {
+                  "range": "46–60",
+                  "part": "Kollar ve Gösteri Duruşu",
+                  "color": "Crayola Forest Green",
+                  "hex": "#5FA777",
+                  "why": "Koyu renk gerçek bir işareti, malzemeyi veya boyayı yansıtır."
+                },
+                {
+                  "range": "61–74",
+                  "part": "Botlar ve Tamamla",
+                  "color": "Crayola Brown",
+                  "hex": "#AF593E",
+                  "why": "Koyu renk gerçek bir işareti, malzemeyi veya boyayı yansıtır."
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "slug": "circus-tent-dot-to-dot-puzzle",
+      "header": {
+        "json_ld": {
+          "name": "Sirk Çadırı",
+          "type": "CreativeWork",
+          "educational_use": "Fine motor skills, number sequencing"
+        }
+      },
+      "body": {
+        "name": "Sirk Çadırı",
+        "tagline": "Büyük Çadır Macerasına Doğru Adım Atın!",
+        "description": "59 noktayı birleştirerek gösteriye hazır neşeli çizgili sirk çadırını ortaya çıkarın. Bu kolay yazdırılabilir etkinlik, çocukların sıralı sayma, görsel takip, konsantrasyon ve sabit kalem kontrolü pratiği yapmalarına yardımcı olur.",
+        "fun_fact": "Bir sirkın ana performans çadırına genellikle büyük çadır denir çünkü gösterideki en büyük çadırdır.",
+        "dot_guide": {
+          "intro": "Parlak sirk çadırı, akrobatların, palyaçoların ve diğer sanatçıların tek bir devasa çatının altında toplandığı yerdir. Bu dostça 59 noktalı bulmaca, büyük çadırı beş yönetilebilir aşamada inşa eder. Nokta 1'i bul, kalemini sabitle ve gösteriye hazır ol!",
+          "outro": "Aferin—sirk çadırın açılış gecesi için hazır! Çadırı cesur şeritlerle renklendir, ışıklar ve bayraklar ekle ve gösteri için gelen bir kalabalık çiz. Sonra <a href=\"/playgrounds/carousel-horse-playground-dot-to-dot-puzzle/\">atlıkarınca bulmacasını</a> dene.",
+          "sections": [
+            {
+              "range": "1–12",
+              "title": "Uçan Bayrak",
+              "learn": "Bayrağı ve çadırın en yüksek noktasını çizmek için 1'den 12'ye kadar noktaları birleştir.",
+              "fact": "Üstteki bir bayrak, ziyaretçilerin büyük çadırı fuar alanının karşısından görmesine yardımcı olur."
+            },
+            {
+              "range": "13–24",
+              "title": "Yüksek Çadır Zirvesi",
+              "learn": "Merkez direğine doğru yükselen dik çatıyı şekillendirmek için 13'ten 24'e kadar noktaları takip et.",
+              "fact": "Uzun merkez direkleri, geleneksel bir sirk çadırının çatısını destekler ve onun ünlü sivri şeklinin oluşmasını sağlar."
+            },
+            {
+              "range": "25–36",
+              "title": "Çizgili Çatı",
+              "learn": "Geniş çatı boyunca 25'ten 36'ya kadar noktaları takip ederek dekoratif çizgileri oluşturmak için dikkatli çizgiler yap.",
+              "fact": "Cesur çizgiler, sirk çadırlarının kolayca tanınmasını sağlar ve büyük çadıra şenlikli bir görünüm kazandırır."
+            },
+            {
+              "range": "37–48",
+              "title": "Çadır Duvarları",
+              "learn": "Çadırın sağlam duvarlarını oluşturmak için her iki tarafta 37'den 48'e kadar noktaları izleyin.",
+              "fact": "Güçlü ipler ve kazıklar, büyük çadırların rüzgara karşı sabit kalmasına yardımcı olur."
+            },
+            {
+              "range": "49–59",
+              "title": "Büyük Giriş",
+              "learn": "İzleyicilerin içeri girdiği açık girişi eklemek için 49'dan 59'a kadar noktaları tamamlayın.",
+              "fact": "Sirk girişleri genellikle izleyiciyi karşılamak ve gösteriden önce heyecan yaratmak için parlak bir şekilde süslenir."
+            }
+          ],
+          "color_schemes": [
+            {
+              "name": "Sirk Çadırı: Klasik gerçek renkler",
+              "note": "Bu tanıdık palette gerçek konuda sık görülen renkler kullanılır.",
+              "mapping": [
+                {
+                  "range": "1–12",
+                  "part": "Uçan Bayrak",
+                  "color": "Crayola Scarlet",
+                  "hex": "#FC2847",
+                  "why": "Bu renk parçaya tanıdık gerçek görünümünü verir."
+                },
+                {
+                  "range": "13–24",
+                  "part": "Yüksek Çadır Zirvesi",
+                  "color": "Crayola Sky Blue",
+                  "hex": "#80DAEB",
+                  "why": "Bu renk parçaya tanıdık gerçek görünümünü verir."
+                },
+                {
+                  "range": "25–36",
+                  "part": "Çizgili Çatı",
+                  "color": "Crayola Goldenrod",
+                  "hex": "#FCD975",
+                  "why": "Bu renk parçaya tanıdık gerçek görünümünü verir."
+                },
+                {
+                  "range": "37–48",
+                  "part": "Çadır Duvarları",
+                  "color": "Crayola Scarlet",
+                  "hex": "#FC2847",
+                  "why": "Bu renk parçaya tanıdık gerçek görünümünü verir."
+                },
+                {
+                  "range": "49–59",
+                  "part": "Büyük Giriş",
+                  "color": "Crayola Sky Blue",
+                  "hex": "#80DAEB",
+                  "why": "Bu renk parçaya tanıdık gerçek görünümünü verir."
+                }
+              ]
+            },
+            {
+              "name": "Sirk Çadırı: Yumuşak doğal renkler",
+              "note": "Bu açık palet konunun gerçek soluk veya güneşli bir görünümünü gösterir.",
+              "mapping": [
+                {
+                  "range": "1–12",
+                  "part": "Uçan Bayrak",
+                  "color": "Crayola Silver",
+                  "hex": "#CDC5C2",
+                  "why": "Açık ton parçanın parlak gün ışığındaki görünümünü gösterir."
+                },
+                {
+                  "range": "13–24",
+                  "part": "Yüksek Çadır Zirvesi",
+                  "color": "Crayola Tan",
+                  "hex": "#FAA76C",
+                  "why": "Açık ton parçanın parlak gün ışığındaki görünümünü gösterir."
+                },
+                {
+                  "range": "25–36",
+                  "part": "Çizgili Çatı",
+                  "color": "Crayola Sea Green",
+                  "hex": "#93DFB8",
+                  "why": "Açık ton parçanın parlak gün ışığındaki görünümünü gösterir."
+                },
+                {
+                  "range": "37–48",
+                  "part": "Çadır Duvarları",
+                  "color": "Crayola Silver",
+                  "hex": "#CDC5C2",
+                  "why": "Açık ton parçanın parlak gün ışığındaki görünümünü gösterir."
+                },
+                {
+                  "range": "49–59",
+                  "part": "Büyük Giriş",
+                  "color": "Crayola Tan",
+                  "hex": "#FAA76C",
+                  "why": "Açık ton parçanın parlak gün ışığındaki görünümünü gösterir."
+                }
+              ]
+            },
+            {
+              "name": "Sirk Çadırı: Canlı gerçek renkler",
+              "note": "Bu güçlü palet gerçek malzemelerden, işaretlerden veya boyalardan esinlenir.",
+              "mapping": [
+                {
+                  "range": "1–12",
+                  "part": "Uçan Bayrak",
+                  "color": "Crayola Forest Green",
+                  "hex": "#5FA777",
+                  "why": "Koyu renk gerçek bir işareti, malzemeyi veya boyayı yansıtır."
+                },
+                {
+                  "range": "13–24",
+                  "part": "Yüksek Çadır Zirvesi",
+                  "color": "Crayola Brown",
+                  "hex": "#AF593E",
+                  "why": "Koyu renk gerçek bir işareti, malzemeyi veya boyayı yansıtır."
+                },
+                {
+                  "range": "25–36",
+                  "part": "Çizgili Çatı",
+                  "color": "Crayola Orange",
+                  "hex": "#FF7538",
+                  "why": "Koyu renk gerçek bir işareti, malzemeyi veya boyayı yansıtır."
+                },
+                {
+                  "range": "37–48",
+                  "part": "Çadır Duvarları",
+                  "color": "Crayola Forest Green",
+                  "hex": "#5FA777",
+                  "why": "Koyu renk gerçek bir işareti, malzemeyi veya boyayı yansıtır."
+                },
+                {
+                  "range": "49–59",
+                  "part": "Büyük Giriş",
+                  "color": "Crayola Brown",
+                  "hex": "#AF593E",
+                  "why": "Koyu renk gerçek bir işareti, malzemeyi veya boyayı yansıtır."
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

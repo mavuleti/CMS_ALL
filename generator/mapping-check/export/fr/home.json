@@ -1,0 +1,409 @@
+{
+  "slug": "home",
+  "header": {
+    "title": "Points à relier & relie les points gratuit | PDF à imprimer",
+    "title_template": "%s | DotToDotFreePrintables.com",
+    "meta_description": "Points à relier et jeux de relie-les-points à imprimer, gratuits en PDF : fiches faciles pour la maternelle jusqu'à des défis pour adultes. Animaux, dinosaures, véhicules et thèmes de saison. Sans inscription.",
+    "canonical": "/{locale}/",
+    "og": {
+      "title": "Points à relier / relie les points – jeux gratuits pour enfants & adultes",
+      "description": "Points à relier et jeux de relie-les-points à imprimer, gratuits en PDF : fiches faciles pour la maternelle jusqu'à des défis pour adultes. Animaux, dinosaures, véhicules et thèmes de saison. Sans inscription.",
+      "url": "/{locale}/",
+      "site_name": "DotToDotFreePrintables.com",
+      "type": "website",
+      "image": "/images/trex-61-puzzle.webp (800x679)"
+    },
+    "twitter": {
+      "card": "summary_large_image"
+    },
+    "manifest": "/manifest.webmanifest",
+    "json_ld": {
+      "website": {
+        "type": "WebSite",
+        "name": "DotToDotFreePrintables.com (SITE_NAME)"
+      },
+      "organization": {
+        "type": "Organization",
+        "logo": "/icon-512.png (absoluteUrl)",
+        "same_as": "hardcoded array: Pinterest, Facebook, YouTube profile URLs"
+      },
+      "collection_page": {
+        "type": "CollectionPage",
+        "name": "Free Dot to Dot Printables for Kids (third distinct hardcoded title string in the codebase — differs from header.title and seo/metadata.json's homepage.title)"
+      },
+      "item_list": {
+        "type": "ItemList (featured puzzles)"
+      }
+    }
+  },
+  "body": {
+    "nav": {
+      "kids": "Enfants - Puzzles",
+      "teachers": "Enseignants",
+      "parents": "Parents",
+      "contact": "Contactez-nous",
+      "blog": "Blog",
+      "search": "Recherche",
+      "freePack": "Pack gratuit",
+      "scanMe": "Scannez-moi"
+    },
+    "homepageUi": {
+      "title": "Trouvez les meilleurs points à relier imprimables",
+      "description": "Imprimez, reliez les points et donnez vie à de superbes images. Gratuit et prêt à amuser !",
+      "searchPlaceholder": "Essayez océan, dinosaure ou fleurs",
+      "filterPuzzles": "Filtrer les puzzles",
+      "age": "Âge",
+      "dots": "points",
+      "featuredPuzzles": "Puzzles imprimables en vedette",
+      "savePuzzle": "Enregistrer {name}",
+      "removeSavedPuzzle": "Retirer {name} des puzzles enregistrés",
+      "downloads": "téléchargements",
+      "bookTitle": "Le meilleur de 2026 · {count}",
+      "bookDescription": "Nos points à relier préférés dans un livre PDF imprimable.",
+      "searchUnavailable": "La recherche est temporairement indisponible. Merci de réessayer.",
+      "popularEyebrow": "Populaire cette semaine",
+      "mostDownloaded": "Puzzles les plus téléchargés",
+      "downloadCountAria": "{count} téléchargements ou plus",
+      "freshPrintables": "Nouveaux imprimables",
+      "recentlyAdded": "Ajouté récemment",
+      "browseCategories": "Parcourir les catégories de puzzles",
+      "openCategories": "Ouvrir le menu des catégories",
+      "closeCategories": "Fermer le menu des catégories",
+      "browseByTheme": "Parcourir par thème",
+      "quickLinks": "Liens rapides",
+      "bundlePacks": "Packs de regroupement",
+      "parentsTeachers": "Pour les parents et les enseignants",
+      "more": "Plus de catégories",
+      "kids": "Enfants",
+      "categoryNames": {
+        "cute": "Jolis puzzles",
+        "flowers": "Fleurs"
+      }
+    },
+    "audience": {
+      "kidsTitle": "Pour les enfants",
+      "kidsText": "Des thèmes sympathiques d'animaux, de dinosaures et de véhicules avec des points numérotés clairement. Des victoires faciles qui développent une réelle confiance en soi.",
+      "parentsTitle": "Pour les parents",
+      "parentsText": "Des activités calmes et sans écran pour la maison, les voyages et les restaurants. Imprimez depuis n'importe quel appareil en moins d'une minute.",
+      "teachersTitle": "Pour les enseignants",
+      "teachersText": "Des jeux de points à relier faciles à préparer pour le travail du matin, les élèves qui terminent rapidement, les remplaçants et les ateliers en classe — aucune préparation requise."
+    },
+    "categories": {
+      "eyebrow": "Organisé par thème et niveau de compétence",
+      "heading": "Parcourez les jeux de points à relier par catégorie",
+      "description": "Des formes simples à 10 points pour les tout-petits aux défis à 200 points pour les enfants plus âgés — classées par catégorie pour que vous trouviez le bon jeu de points à relier à imprimer, du facile au difficile, en quelques secondes.",
+      "puzzles": "{count, plural, one {# casse-tête} other {# casse-têtes}}",
+      "comingSoon": "À venir",
+      "badges": {
+        "dinosaurs": "Disponible dès maintenant !",
+        "ocean": "Disponible dès maintenant !",
+        "playgrounds": "Disponible dès maintenant !",
+        "garden": "Disponible dès maintenant !",
+        "usa250": "Nouveau!",
+        "uae": "Disponible dès maintenant !",
+        "cute": "Nouveau!",
+        "circus": "Nouveau !"
+      },
+      "items": {
+        "dinosaurs": {
+          "name": "Dinosaures",
+          "description": "Plongez dans un univers préhistorique amusant ! Des puzzles de points à relier gratuits avec des T-Rex, des Tricératops, des Vélociraptors et {count} que vos enfants adoreront."
+        },
+        "animals": {
+          "name": "Animaux",
+          "description": "Des créatures sympathiques pour s'initier aux chiffres."
+        },
+        "vehicles": {
+          "name": "Véhicules",
+          "description": "Voitures, camions, fusées et machines."
+        },
+        "fantasy": {
+          "name": "Fantaisie",
+          "description": "Châteaux, licornes, dragons et amorces d'histoires."
+        },
+        "seasonal": {
+          "name": "Saisonnier",
+          "description": "Activités liées aux vacances et au calendrier scolaire."
+        },
+        "ocean": {
+          "name": "Océan",
+          "description": "Animaux marins et coloriages apaisants."
+        },
+        "playgrounds": {
+          "name": "Aires de jeux",
+          "description": "Balançoires, toboggans et jeux de plein air pour les petits aventuriers."
+        },
+        "garden": {
+          "name": "Jardin",
+          "description": "Gants, truelles et outils pour les petits assistants jardiniers."
+        },
+        "usa250": {
+          "name": "L'Amérique 250 ans",
+          "description": "Célébrez le 250e anniversaire de l'Amérique avec des jeux de points à relier patriotiques rendant hommage à l'histoire américaine."
+        },
+        "uae": {
+          "name": "Émirats arabes unis",
+          "description": "Explorez les Émirats arabes unis ! Des monuments emblématiques comme le Burj Al Arab, prêts à être découverts et colorés."
+        },
+        "space": {
+          "name": "Espace",
+          "description": "Planètes, astronautes et aventures spatiales."
+        },
+        "worksheets": {
+          "name": "Feuilles de travail",
+          "description": "Fiches d'exercices de séquençage numérique prêtes à l'emploi pour les enseignants."
+        },
+        "bigDotBooks": {
+          "name": "Livres à gros points",
+          "description": "Des puzzles de longue durée pour les apprenants plus âgés et concentrés."
+        },
+        "cute": {
+          "name": "Mignon",
+          "description": "Des chiots adorables, des petites voitures et {count} charmants jeux de points à relier gratuits que vos enfants adoreront."
+        },
+        "circus": {
+          "name": "Cirque",
+          "description": "Maîtres de cérémonie, grands chapiteaux et plaisir de spectacle pour les jeunes apprenants."
+        }
+      }
+    },
+    "puzzleSection": {
+      "eyebrow": "Échantillons imprimables gratuits — sans inscription",
+      "heading": "Feuilles de points à relier populaires à imprimer maintenant",
+      "weeklyPack": "Voir le pack hebdomadaire →",
+      "downloadLink": "Téléchargez gratuitement des modèles imprimables",
+      "new": "Nouveau",
+      "imageAlt": "{name} feuille de travail imprimable gratuite de points à relier pour {age}",
+      "categories": {
+        "Dinosaurs": "Dinosaures",
+        "Ocean": "Océan",
+        "Playgrounds": "Aires de jeux",
+        "Garden": "Jardin",
+        "Cute": "Mignon",
+        "USA 250 Years": "L'Amérique 250 ans",
+        "UAE": "Émirats arabes unis"
+      },
+      "items": {
+        "trex-61-dot-to-dot-puzzle": {
+          "name": "Défi des 61 points du T-Rex"
+        },
+        "brontosaurus-dot-to-dot-puzzle": {
+          "name": "Brontosaure"
+        },
+        "mermaid-dot-to-dot-puzzle": {
+          "name": "Sirène"
+        },
+        "merman-dot-to-dot-puzzle": {
+          "name": "Triton"
+        },
+        "seahorse-dot-to-dot-puzzle": {
+          "name": "Hippocampe"
+        },
+        "whale-dot-to-dot-puzzle": {
+          "name": "Baleine"
+        },
+        "swing-playgrounds-dot-to-dot-puzzle": {
+          "name": "Aire de jeux avec balançoires"
+        },
+        "slide-playgrounds-dot-to-dot-puzzle": {
+          "name": "Aire de jeux avec toboggan"
+        },
+        "seesaw-playground-dot-to-dot-puzzle": {
+          "name": "Aire de jeux à bascule"
+        },
+        "roller-coaster-playground-dot-to-dot-puzzle": {
+          "name": "Aire de jeux de montagnes russes"
+        },
+        "wheelbarrow-playground-dot-to-dot-puzzle": {
+          "name": "Aire de jeux de la brouette"
+        },
+        "garden-gloves-dot-to-dot-puzzle": {
+          "name": "Gants de jardin"
+        },
+        "garden-trowel-dot-to-dot-puzzle": {
+          "name": "Truelle de jardin"
+        },
+        "gas-balloon-usa-250-dot-to-dot-puzzle": {
+          "name": "Ballon à gaz Amérique 250"
+        },
+        "america-250-birthday-fireworks-dot-to-dot-puzzle": {
+          "name": "Feux d'artifice pour le 250e anniversaire de l'Amérique"
+        },
+        "america-250-anniversary-liberty-bell-wings-1776-dot-to-dot-puzzle": {
+          "name": "Ailes de la cloche de la Liberté américaine 250"
+        },
+        "usa-250-astronaut-dot-to-dot-puzzle": {
+          "name": "250e astronaute américain"
+        },
+        "usa-250-anniversary-sports-kids-podium-dot-to-dot-puzzle": {
+          "name": "Podium des enfants sportifs du 250e anniversaire de l'Amérique"
+        },
+        "usa-250-anniversary-airplane-banner-dot-to-dot-puzzle": {
+          "name": "Bannière commémorative du 250e anniversaire de l'Amérique"
+        },
+        "usa-250-space-shuttle-dot-to-dot-puzzle": {
+          "name": "Navette spatiale américaine 250"
+        },
+        "usa-250-birthday-balloons-stars-dot-to-dot-puzzle": {
+          "name": "Ballons et étoiles pour le 250e anniversaire de l'Amérique"
+        },
+        "usa-250-birthday-cake-dot-to-dot-puzzle": {
+          "name": "Gâteau du 250e anniversaire de l'Amérique"
+        },
+        "america-250-anniversary-eagle-banner-dot-to-dot-puzzle": {
+          "name": "Bannière de l'Aigle America 250"
+        },
+        "burj-al-arab-dot-to-dot-puzzle": {
+          "name": "Bourdj Al Arab"
+        },
+        "dallah-coffee-pot-dot-to-dot-puzzle": {
+          "name": "Cafetière Dallah"
+        }
+      }
+    },
+    "benefits": {
+      "eyebrow": "Soutenu par des éducateurs de la petite enfance",
+      "heading": "Pourquoi les feuilles de travail à relier sont excellentes pour le développement de l'enfant",
+      "description": "Les jeux de points à relier à imprimer sont bien plus qu'un simple divertissement : il s'agit d'un outil validé par la recherche, utilisé par les enseignants de maternelle et de jardin d'enfants pour développer les compétences fondamentales d'apprentissage précoce.",
+      "fineMotorTitle": "Développe la motricité fine",
+      "fineMotorText": "Comme les exercices de graphisme travaillés en maternelle, relier les points développe la prise en main du crayon, la coordination œil-main et le contrôle musculaire dont les enfants ont besoin pour l'écriture — une fiche de motricité fine maternelle idéale pour s'entraîner à la maison.",
+      "numberTitle": "Renforce la reconnaissance des chiffres",
+      "numberText": "Suivre les points 1 → 2 → 3 dans l'ordre permet d'apprendre l'ordre de comptage, la reconnaissance des nombres et les concepts mathématiques de base de manière naturelle par le jeu.",
+      "focusTitle": "Améliore la concentration",
+      "focusText": "Réaliser un puzzle de points à relier exige une attention soutenue — une activité calme et sans écran pour pratiquer la concentration, du préscolaire à la 3e année.",
+      "confidenceTitle": "Récompense et confiance immédiates",
+      "confidenceText": "Lorsque l'image cachée apparaît, les enfants éprouvent un sentiment de réussite immédiat. Cette petite victoire contribue à développer le goût d'apprendre et une mentalité de croissance."
+    },
+    "howTo": {
+      "eyebrow": "Prêt en moins de 60 secondes",
+      "heading": "Comment télécharger et imprimer vos feuilles d'exercices gratuites de points à relier",
+      "step1Title": "Choisissez votre puzzle",
+      "step1Text": "Choisissez un thème (animaux, dinosaures, véhicules, vacances) et une gamme de points correspondant à l'âge et au niveau de compétence de votre enfant.",
+      "step2Title": "Téléchargez le PDF gratuit",
+      "step2Text": "Cliquez sur « Télécharger le document imprimable gratuit » : aucun compte, aucune adresse e-mail, aucun abonnement requis. Votre navigateur téléchargera instantanément le PDF.",
+      "step3Title": "Imprimez et profitez-en",
+      "step3Text": "Imprimez sur du papier au format A4 standard. Le noir et blanc convient parfaitement. Donnez-le à votre enfant et regardez-le relier les points !"
+    },
+    "trust": {
+      "eyebrow": "Pourquoi les parents et les enseignants nous choisissent",
+      "heading": "Gratuit, sûr et incroyablement facile à utiliser.",
+      "noAccountTitle": "Aucun compte requis",
+      "noAccountText": "Chaque dessin à relier est téléchargeable immédiatement — sans inscription, sans adresse e-mail, sans abonnement. Il suffit de cliquer et d’imprimer.",
+      "safeTitle": "Salle de classe sécurisée",
+      "safeText": "Des pages de puzzles épurées et sans publicité, conçues pour les imprimantes scolaires. Idéales pour les activités du matin, les devoirs ou les moments de calme.",
+      "fastTitle": "Rapide par conception",
+      "fastText": "Pages statiques, images optimisées et polices locales garantissent un chargement rapide des puzzles sur tous les appareils : téléphone, tablette ou ordinateur portable."
+    },
+    "faq": {
+      "eyebrow": "Questions fréquentes",
+      "heading": "Foire aux questions",
+      "q1": "Tous les dessins à relier à imprimer sur ce site sont-ils entièrement gratuits ?",
+      "a1": "Oui, toutes les fiches d'exercices de points à relier sur DotToDotFreePrintables.com sont entièrement gratuites à télécharger et à imprimer. Aucun compte, abonnement ou carte de crédit n'est requis.",
+      "q2": "À quel âge les feuilles d'exercices de points à relier conviennent-elles ?",
+      "a2": "Nos documents imprimables couvrent les âges de 2 à 12 ans. Les fiches faciles (10 à 20 points) conviennent aux tout-petits et aux enfants de petite et moyenne section de maternelle, les fiches moyennes (20 à 50 points) sont idéales pour la grande section et le CP, et les fiches plus difficiles (50 à plus de 200 points) mettent au défi les élèves du CE1 au CM2.",
+      "q3": "Quel est le format des fiches à imprimer « relier les points » ?",
+      "a3": "Tous les exercices sont téléchargeables au format PDF prêt à imprimer, au format A4 standard. Ouvrez-les dans n'importe quel navigateur ou lecteur PDF et imprimez-les ; aucun logiciel spécifique n'est requis.",
+      "q4": "Avez-vous des fiches d'exercices de points à relier pour la maternelle et le CP ?",
+      "a4": "Absolument. Nos fiches d'exercices les plus faciles commencent avec 1 à 10 points (parfaites pour les enfants de petite section, 2 à 4 ans) et comprennent des thèmes de reconnaissance de l'alphabet et des chiffres conçus pour la grande section et le CP.",
+      "q5": "Les enseignants peuvent-ils utiliser ces feuilles de travail de points à relier en classe ?",
+      "a5": "Oui ! Nos documents imprimables sont gratuits pour un usage personnel et scolaire. Ils sont très appréciés pour les activités du matin, les activités pour les élèves qui terminent rapidement, les plans de cours pour les remplaçants, les ateliers de motricité fine et les devoirs à la maison.",
+      "q6": "Les jeux de points à relier aident-ils à développer la motricité fine ?",
+      "a6": "Oui, relier des points permet de renforcer la prise en main du crayon et d'améliorer la coordination œil-main, deux éléments essentiels à l'apprentissage de l'écriture. C'est pourquoi de nombreux ergothérapeutes et enseignants de maternelle recommandent ce jeu.",
+      "q7": "Avez-vous des jeux de points à relier à imprimer sur des thèmes comme les animaux ou les dinosaures ?",
+      "a7": "Nous proposons 11 catégories, dont les animaux, les dinosaures, les véhicules, les créatures marines, les aires de jeux, les 250 ans de l'Amérique, l'espace, le fantastique, les thèmes saisonniers et festifs, des fiches pédagogiques et des livres à gros points. De nouveaux modèles sont ajoutés chaque semaine.",
+      "q8": "Puis-je imprimer ces puzzles en noir et blanc ?",
+      "a8": "Oui, toutes nos fiches d'exercices de points à relier sont conçues pour une impression en noir et blanc afin d'économiser l'encre. Elles s'affichent parfaitement sur toutes les imprimantes, à la maison comme en classe."
+    },
+    "newsletter": {
+      "eyebrow": "Kit de démarrage à imprimer — entièrement gratuit",
+      "heading": "Recevez 20 dessins mystères à relier gratuits à imprimer directement dans votre boîte mail.",
+      "description": "Une collection adaptée aux parents et aux enseignants, couvrant les animaux, les véhicules, les dinosaures et les thèmes saisonniers — tous au format de papier A4 standard et optimisés pour l'impression en noir et blanc."
+    },
+    "blog": {
+      "eyebrow": "Idées pour adultes",
+      "heading": "Conseils d'apprentissage pour la maison et la classe",
+      "viewAll": "Voir tous les articles",
+      "read": "Lire"
+    },
+    "feedback": {
+      "eyebrow": "Nous serions ravis d'avoir de vos nouvelles.",
+      "heading": "Envoyer des commentaires",
+      "description": "Vous avez une idée de puzzle, repéré un lien brisé ou vous voulez simplement nous saluer ? Écrivez-nous ci-dessous."
+    },
+    "footer": {
+      "description": "Des jeux de points à relier gratuits à imprimer pour les enfants, les parents et les enseignants. Tous les puzzles sont gratuits à télécharger, imprimer et partager.",
+      "kids": "Enfants",
+      "parents": "Parents",
+      "teachers": "Enseignants",
+      "blog": "Blog",
+      "faq": "FAQ",
+      "feedback": "Retour",
+      "about": "À propos",
+      "contact": "Contact",
+      "privacy": "Confidentialité",
+      "terms": "Termes",
+      "sitemap": "Plan du site",
+      "copyright": "© {year} DotToDotFreePrintables.com · Activités imprimables gratuites pour enfants"
+    },
+    "common": {
+      "home": "Maison",
+      "new": "Nouveau",
+      "comingSoon": "À venir",
+      "downloadFree": "Téléchargez gratuitement des modèles imprimables",
+      "viewDownload": "Voir et télécharger",
+      "shareTitle": "{name} Dot-à-Dot Imprimable - PDF Gratuit",
+      "downloadAria": "Télécharger le PDF imprimable Dot-à-Dot {name} gratuit",
+      "bookmarkTitle": "Dot-à-Dot {name} Imprimable – PDF Gratuit pour Enfants",
+      "showSlide": "Afficher la diapositive {number}",
+      "ageRange": "Âges {min} - {max}",
+      "difficultyLabel": "Niveau de difficulté {level} sur 3",
+      "difficulty": {
+        "1": "Facile",
+        "2": "Moyen",
+        "3": "Dur"
+      },
+      "dots": "1–{count} points",
+      "homeVideoEyebrow": "Vidéo",
+      "homeVideoH2": "Regardez le jeu de points à relier en action",
+      "skipToContent": "Passer au contenu principal",
+      "joinTeachers": "Rejoignez {count}+ enseignants",
+      "breadcrumbAria": "Fil d'Ariane"
+    },
+    "puzzleSearch": {
+      "searchAria": "Puzzles de recherche",
+      "resultsFound": "{count, plural, one {# casse-tête trouvé} other {# casse-têtes trouvés}}",
+      "noMatches": "Aucun puzzle ne correspond à votre recherche.",
+      "imageAlt": "{name} point à point imprimable"
+    },
+    "newsletterForm": {
+      "ariaLabel": "Obtenez le pack gratuit de jeux de points à relier à imprimer",
+      "emailLabel": "Adresse email",
+      "submit": "Envoyez un colis gratuit",
+      "honeypot": "Laissez ce champ vide.",
+      "privacy": "Aucun spam, jamais. Désabonnez-vous à tout moment.",
+      "error": "Impossible de soumettre ce formulaire.",
+      "notConnected": "L'inscription au pack gratuit n'est pas encore disponible."
+    },
+    "feedbackForm": {
+      "ariaLabel": "Envoyer des commentaires",
+      "notConnected": "Ce formulaire de commentaires n'est pas encore fonctionnel.",
+      "typeLabel": "Quel genre de retour d'information ?",
+      "selectTopic": "Sélectionnez un sujet...",
+      "types": {
+        "general": "Commentaires généraux",
+        "requestTheme": "Demander un thème de puzzle",
+        "brokenLink": "Signaler un lien brisé",
+        "improvement": "Suggérer une amélioration",
+        "other": "Autre"
+      },
+      "messageLabel": "Votre message",
+      "messagePlaceholder": "Dites-nous ce que vous en pensez...",
+      "emailLabel": "E-mail",
+      "emailOptional": "(facultatif - uniquement si vous souhaitez une réponse)",
+      "submit": "Envoyer des commentaires",
+      "success": "Merci. Votre commentaire a bien été envoyé.",
+      "disclaimer": "Veuillez ne pas inclure d'informations personnelles sensibles. L'adresse e-mail est facultative et ne sera utilisée que si nous devons vous répondre.",
+      "iframeTitle": "Soumission de commentaires"
+    }
+  }
+}

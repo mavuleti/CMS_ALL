@@ -1,0 +1,509 @@
+{
+  "collection": {},
+  "puzzles": [
+    {
+      "slug": "crescent-moon-dot-to-dot-puzzle",
+      "header": {
+        "json_ld": {
+          "name": "Trăng Lưỡi Liềm",
+          "type": "CreativeWork",
+          "educational_use": "Fine motor skills, number sequencing"
+        }
+      },
+      "body": {
+        "name": "Trăng Lưỡi Liềm",
+        "tagline": "Vẽ lại một Mảnh Sáng Lấp Lánh của Bầu Trời Đêm!",
+        "description": "Nối 60 chấm đơn giản để khám phá hình ảnh mặt trăng lưỡi liềm lấp lánh trên bầu trời đêm. Bản in miễn phí này giúp trẻ em luyện tập kỹ năng đếm số theo thứ tự, theo dõi hình ảnh, tập trung và kiểm soát bút mượt mà.",
+        "fun_fact": "Trăng lưỡi liềm xuất hiện khi ánh sáng mặt trời chỉ chiếu sáng một phần mỏng hình lưỡi liềm của Mặt Trăng mà chúng ta có thể nhìn thấy từ Trái Đất.",
+        "dot_guide": {
+          "intro": "Một vầng trăng lưỡi liềm mảnh mai là một trong những hình dạng dễ nhận biết nhất trên bầu trời đêm. Câu đố 60 chấm thân thiện này xây dựng đường cong bên ngoài, những đầu nhọn và cung bên trong qua năm giai đoạn dễ quản lý. Hãy tìm chấm số 1 và để mặt trăng của bạn bắt đầu tỏa sáng!",
+          "outro": "Tác phẩm tuyệt đẹp—vầng trăng khuyết của bạn đang tỏa sáng! Hãy thêm những ngôi sao, đám mây buồn ngủ, hoặc một chiếc tên lửa băng qua bầu trời, sau đó khám phá <a href=\"/space/ringed-planet-dot-to-dot-puzzle/\">câu đố hành tinh có vành đai</a>.",
+          "sections": [
+            {
+              "range": "1–12",
+              "title": "Đỉnh Trăng Thượng",
+              "learn": "Nối các chấm từ 1 đến 12 để tạo thành điểm nhọn phía trên của hình trăng lưỡi liềm.",
+              "fact": "Mặt Trăng không tự phát ra ánh sáng; nó tỏa sáng nhờ phản xạ ánh sáng Mặt Trời."
+            },
+            {
+              "range": "13–24",
+              "title": "Đường Cong Ngoại Vi",
+              "learn": "Tiếp tục từ chấm 13 đến chấm 24 dọc theo đường cong rộng phía ngoài của Mặt Trăng.",
+              "fact": "Lực hấp dẫn đã khiến Mặt Trăng có hình dạng gần như tròn, giống như cách nó tạo ra các hành tinh hình cầu."
+            },
+            {
+              "range": "25–36",
+              "title": "Đầu Trăng Hạ",
+              "learn": "Theo các chấm từ 25 đến 36 để tạo thành điểm dưới và rẽ vào đường cong bên trong.",
+              "fact": "Bề mặt Mặt Trăng được bao phủ bởi các hố va chạm được tạo ra bởi những tảng đá va vào nó trong hàng tỷ năm."
+            },
+            {
+              "range": "37–48",
+              "title": "Vành Đai Trong",
+              "learn": "Nối các chấm từ 37 đến 48 dọc theo đường cong phía trong, giữ cho nét bút của bạn được mượt mà.",
+              "fact": "Mặt Trăng mất khoảng 29,5 ngày để hoàn thành một chu kỳ các pha."
+            },
+            {
+              "range": "49–60",
+              "title": "Ánh Sáng và Hoàn Thiện",
+              "learn": "Hoàn thành với các chấm từ 49 đến 60 để đóng hình trăng lưỡi liềm và thêm các chi tiết cuối cùng.",
+              "fact": "Mọi người trên khắp thế giới đều nhìn thấy cùng một Mặt Trăng, mặc dù hình lưỡi liềm của nó có thể nghiêng khác nhau tùy theo vị trí."
+            }
+          ],
+          "color_schemes": [
+            {
+              "name": "Trăng Lưỡi Liềm: Màu thật cổ điển",
+              "note": "Bảng màu quen thuộc này dùng những màu thường thấy ở chủ thể thật.",
+              "mapping": [
+                {
+                  "range": "1–12",
+                  "part": "Đỉnh Trăng Thượng",
+                  "color": "Crayola Silver",
+                  "hex": "#CDC5C2",
+                  "why": "Màu này tạo cho bộ phận vẻ thật quen thuộc."
+                },
+                {
+                  "range": "13–24",
+                  "part": "Đường Cong Ngoại Vi",
+                  "color": "Crayola Scarlet",
+                  "hex": "#FC2847",
+                  "why": "Màu này tạo cho bộ phận vẻ thật quen thuộc."
+                },
+                {
+                  "range": "25–36",
+                  "part": "Đầu Trăng Hạ",
+                  "color": "Crayola Black",
+                  "hex": "#232323",
+                  "why": "Màu này tạo cho bộ phận vẻ thật quen thuộc."
+                },
+                {
+                  "range": "37–48",
+                  "part": "Vành Đai Trong",
+                  "color": "Crayola Silver",
+                  "hex": "#CDC5C2",
+                  "why": "Màu này tạo cho bộ phận vẻ thật quen thuộc."
+                },
+                {
+                  "range": "49–60",
+                  "part": "Ánh Sáng và Hoàn Thiện",
+                  "color": "Crayola Scarlet",
+                  "hex": "#FC2847",
+                  "why": "Màu này tạo cho bộ phận vẻ thật quen thuộc."
+                }
+              ]
+            },
+            {
+              "name": "Trăng Lưỡi Liềm: Màu thiên nhiên dịu nhẹ",
+              "note": "Bảng màu sáng này thể hiện một phiên bản thật nhạt màu hoặc được chiếu nắng.",
+              "mapping": [
+                {
+                  "range": "1–12",
+                  "part": "Đỉnh Trăng Thượng",
+                  "color": "Crayola White",
+                  "hex": "#FFFFFF",
+                  "why": "Tông sáng cho thấy bộ phận dưới ánh sáng ban ngày."
+                },
+                {
+                  "range": "13–24",
+                  "part": "Đường Cong Ngoại Vi",
+                  "color": "Crayola Cornflower",
+                  "hex": "#9ACEEB",
+                  "why": "Tông sáng cho thấy bộ phận dưới ánh sáng ban ngày."
+                },
+                {
+                  "range": "25–36",
+                  "part": "Đầu Trăng Hạ",
+                  "color": "Crayola Gray",
+                  "hex": "#95918C",
+                  "why": "Tông sáng cho thấy bộ phận dưới ánh sáng ban ngày."
+                },
+                {
+                  "range": "37–48",
+                  "part": "Vành Đai Trong",
+                  "color": "Crayola White",
+                  "hex": "#FFFFFF",
+                  "why": "Tông sáng cho thấy bộ phận dưới ánh sáng ban ngày."
+                },
+                {
+                  "range": "49–60",
+                  "part": "Ánh Sáng và Hoàn Thiện",
+                  "color": "Crayola Cornflower",
+                  "hex": "#9ACEEB",
+                  "why": "Tông sáng cho thấy bộ phận dưới ánh sáng ban ngày."
+                }
+              ]
+            },
+            {
+              "name": "Trăng Lưỡi Liềm: Màu thật nổi bật",
+              "note": "Bảng màu đậm này lấy cảm hứng từ vật liệu, dấu hiệu hoặc lớp sơn thật.",
+              "mapping": [
+                {
+                  "range": "1–12",
+                  "part": "Đỉnh Trăng Thượng",
+                  "color": "Crayola Orange",
+                  "hex": "#FF7538",
+                  "why": "Màu đậm hơn phản ánh dấu hiệu, vật liệu hoặc lớp sơn có thật."
+                },
+                {
+                  "range": "13–24",
+                  "part": "Đường Cong Ngoại Vi",
+                  "color": "Crayola Goldenrod",
+                  "hex": "#FCD975",
+                  "why": "Màu đậm hơn phản ánh dấu hiệu, vật liệu hoặc lớp sơn có thật."
+                },
+                {
+                  "range": "25–36",
+                  "part": "Đầu Trăng Hạ",
+                  "color": "Crayola Mahogany",
+                  "hex": "#CA3435",
+                  "why": "Màu đậm hơn phản ánh dấu hiệu, vật liệu hoặc lớp sơn có thật."
+                },
+                {
+                  "range": "37–48",
+                  "part": "Vành Đai Trong",
+                  "color": "Crayola Orange",
+                  "hex": "#FF7538",
+                  "why": "Màu đậm hơn phản ánh dấu hiệu, vật liệu hoặc lớp sơn có thật."
+                },
+                {
+                  "range": "49–60",
+                  "part": "Ánh Sáng và Hoàn Thiện",
+                  "color": "Crayola Goldenrod",
+                  "hex": "#FCD975",
+                  "why": "Màu đậm hơn phản ánh dấu hiệu, vật liệu hoặc lớp sơn có thật."
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "slug": "ringed-planet-dot-to-dot-puzzle",
+      "header": {
+        "json_ld": {
+          "name": "Hành Tinh Có Vành Đai",
+          "type": "CreativeWork",
+          "educational_use": "Fine motor skills, number sequencing"
+        }
+      },
+      "body": {
+        "name": "Hành Tinh Có Vành Đai",
+        "tagline": "Vẽ một Thế Giới Được Bao Bọc Bởi Những Vòng Hào Quang Rực Rỡ!",
+        "description": "Nối 43 chấm đơn giản để khám phá một hành tinh có vành đai tuyệt đẹp đang trôi nổi trong không gian. Bản in miễn phí này giúp trẻ nhỏ luyện tập thứ tự số, khả năng quan sát, sự tập trung và kiểm soát bút chì ổn định.",
+        "fun_fact": "Vành đai Sao Thổ được tạo thành từ vô số mảnh băng và đá, với kích thước từ những hạt nhỏ li ti đến những khối lớn bằng cả ngôi nhà.",
+        "dot_guide": {
+          "intro": "Xa xôi ngoài Trái Đất, một hành tinh khổng lồ quay tròn trong khi những vành đai rộng lớn quét quanh nó. Câu đố thân thiện với 43 chấm này tạo nên hành tinh và các vành đai của nó trong bốn giai đoạn ngắn, biến nó thành thử thách không gian đầu tiên thú vị. Hãy tìm chấm số 1 và bắt đầu hành trình của bạn!",
+          "outro": "Tuyệt vời—hành tinh có vành đai của bạn đang quay quanh giữa các vì sao! Hãy thêm mặt trăng, tên lửa và những đám mây đầy màu sắc, sau đó tiếp tục khám phá với <a href=\"/space/space-rover-dot-to-dot-puzzle/\">trò chơi nối điểm xe thám hiểm không gian</a>.",
+          "sections": [
+            {
+              "range": "1–11",
+              "title": "Đỉnh Của Hành Tinh",
+              "learn": "Nối các chấm từ 1 đến 11 để vẽ đường cong phía trên của hành tinh ở xa.",
+              "fact": "Các hành tinh có hình tròn vì lực hấp dẫn kéo vật chất của chúng về phía trung tâm từ mọi hướng."
+            },
+            {
+              "range": "12–22",
+              "title": "Chiếc Nhẫn Đầu Tiên",
+              "learn": "Tiếp tục từ chấm 12 đến chấm 22 để vẽ theo đường cong rộng đầu tiên của hệ thống vòng.",
+              "fact": "Sao Thổ có hàng ngàn vành đai hẹp trông giống như những chiếc vòng rộng khi quan sát từ xa."
+            },
+            {
+              "range": "23–33",
+              "title": "Đường Cong Phía Dưới Hành Tinh",
+              "learn": "Nối các chấm từ 23 đến 33 xung quanh nửa dưới hành tinh, giữ cho đường cong được mượt mà.",
+              "fact": "Sao Thổ là một hành tinh khí khổng lồ cấu tạo chủ yếu từ hydro và heli, hai nguyên tố nhẹ nhất vũ trụ."
+            },
+            {
+              "range": "34–43",
+              "title": "Nhẫn và Hoàn thiện",
+              "learn": "Hoàn thành các chấm từ 34 đến 43 để hoàn thiện các vòng quét ở phía bên kia.",
+              "fact": "Vành đai của sao Thổ rất rộng nhưng mỏng một cách đáng ngạc nhiên so với kích thước của hành tinh."
+            }
+          ],
+          "color_schemes": [
+            {
+              "name": "Hành Tinh Có Vành Đai: Màu thật cổ điển",
+              "note": "Bảng màu quen thuộc này dùng những màu thường thấy ở chủ thể thật.",
+              "mapping": [
+                {
+                  "range": "1–11",
+                  "part": "Đỉnh Của Hành Tinh",
+                  "color": "Crayola Silver",
+                  "hex": "#CDC5C2",
+                  "why": "Màu này tạo cho bộ phận vẻ thật quen thuộc."
+                },
+                {
+                  "range": "12–22",
+                  "part": "Chiếc Nhẫn Đầu Tiên",
+                  "color": "Crayola Scarlet",
+                  "hex": "#FC2847",
+                  "why": "Màu này tạo cho bộ phận vẻ thật quen thuộc."
+                },
+                {
+                  "range": "23–33",
+                  "part": "Đường Cong Phía Dưới Hành Tinh",
+                  "color": "Crayola Black",
+                  "hex": "#232323",
+                  "why": "Màu này tạo cho bộ phận vẻ thật quen thuộc."
+                },
+                {
+                  "range": "34–43",
+                  "part": "Nhẫn và Hoàn thiện",
+                  "color": "Crayola Silver",
+                  "hex": "#CDC5C2",
+                  "why": "Màu này tạo cho bộ phận vẻ thật quen thuộc."
+                }
+              ]
+            },
+            {
+              "name": "Hành Tinh Có Vành Đai: Màu thiên nhiên dịu nhẹ",
+              "note": "Bảng màu sáng này thể hiện một phiên bản thật nhạt màu hoặc được chiếu nắng.",
+              "mapping": [
+                {
+                  "range": "1–11",
+                  "part": "Đỉnh Của Hành Tinh",
+                  "color": "Crayola White",
+                  "hex": "#FFFFFF",
+                  "why": "Tông sáng cho thấy bộ phận dưới ánh sáng ban ngày."
+                },
+                {
+                  "range": "12–22",
+                  "part": "Chiếc Nhẫn Đầu Tiên",
+                  "color": "Crayola Cornflower",
+                  "hex": "#9ACEEB",
+                  "why": "Tông sáng cho thấy bộ phận dưới ánh sáng ban ngày."
+                },
+                {
+                  "range": "23–33",
+                  "part": "Đường Cong Phía Dưới Hành Tinh",
+                  "color": "Crayola Gray",
+                  "hex": "#95918C",
+                  "why": "Tông sáng cho thấy bộ phận dưới ánh sáng ban ngày."
+                },
+                {
+                  "range": "34–43",
+                  "part": "Nhẫn và Hoàn thiện",
+                  "color": "Crayola White",
+                  "hex": "#FFFFFF",
+                  "why": "Tông sáng cho thấy bộ phận dưới ánh sáng ban ngày."
+                }
+              ]
+            },
+            {
+              "name": "Hành Tinh Có Vành Đai: Màu thật nổi bật",
+              "note": "Bảng màu đậm này lấy cảm hứng từ vật liệu, dấu hiệu hoặc lớp sơn thật.",
+              "mapping": [
+                {
+                  "range": "1–11",
+                  "part": "Đỉnh Của Hành Tinh",
+                  "color": "Crayola Orange",
+                  "hex": "#FF7538",
+                  "why": "Màu đậm hơn phản ánh dấu hiệu, vật liệu hoặc lớp sơn có thật."
+                },
+                {
+                  "range": "12–22",
+                  "part": "Chiếc Nhẫn Đầu Tiên",
+                  "color": "Crayola Goldenrod",
+                  "hex": "#FCD975",
+                  "why": "Màu đậm hơn phản ánh dấu hiệu, vật liệu hoặc lớp sơn có thật."
+                },
+                {
+                  "range": "23–33",
+                  "part": "Đường Cong Phía Dưới Hành Tinh",
+                  "color": "Crayola Mahogany",
+                  "hex": "#CA3435",
+                  "why": "Màu đậm hơn phản ánh dấu hiệu, vật liệu hoặc lớp sơn có thật."
+                },
+                {
+                  "range": "34–43",
+                  "part": "Nhẫn và Hoàn thiện",
+                  "color": "Crayola Orange",
+                  "hex": "#FF7538",
+                  "why": "Màu đậm hơn phản ánh dấu hiệu, vật liệu hoặc lớp sơn có thật."
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "slug": "space-rover-dot-to-dot-puzzle",
+      "header": {
+        "json_ld": {
+          "name": "Xe tự hành Không gian",
+          "type": "CreativeWork",
+          "educational_use": "Fine motor skills, number sequencing"
+        }
+      },
+      "body": {
+        "name": "Xe tự hành Không gian",
+        "tagline": "Một Nhà Thám Hiểm Thân Thiện Trên Bánh Xe",
+        "description": "Nối 59 chấm để khám phá hình chú rover thám hiểm không gian đáng yêu sẵn sàng khám phá một thế giới khác. Câu đố in miễn phí này giúp trẻ luyện tập thứ tự số, khả năng tập trung và kiểm soát bút chì.",
+        "fun_fact": "Xe tự hành vũ trụ là phương tiện robot được sử dụng để khám phá bề mặt của các thiên thể như Mặt Trăng và Sao Hỏa.",
+        "dot_guide": {
+          "intro": "Sẵn sàng cho một chuyến du hành vượt khỏi Trái Đất chưa? Hãy theo dõi các số từ 1 đến 59 và xem một chiếc xe thám hiểm không gian thân thiện dần hiện ra. Di chuyển chậm rãi, kiểm tra từng số và giữ các nét bút chì gọn gàng khi bạn di chuyển xung quanh phương tiện.",
+          "outro": "Nhiệm vụ hoàn thành — xe thám hiểm không gian của bạn đã sẵn sàng khám phá! Hãy thêm những ngôi sao, hố thiên thạch, hành tinh hoặc một người ngoài hành tinh thân thiện để tạo nên khung cảnh không gian của riêng bạn.",
+          "sections": [
+            {
+              "range": "1–12",
+              "title": "Thân Xe Rover",
+              "learn": "Bắt đầu từ chấm 1 và nối qua chấm 12 để vẽ đường viền mặt trước thân thiện cùng thân hình vững chãi của chiếc rover.",
+              "fact": "Các xe tự hành hành tinh mang theo máy tính, camera và công cụ khoa học bên trong một thân máy cứng cáp."
+            },
+            {
+              "range": "13–25",
+              "title": "Những Bánh Xe Đầu Tiên",
+              "learn": "Tiếp tục từ chấm 13 đến chấm 25 để tạo hình phần thân dưới và bánh xe gồ ghề đầu tiên.",
+              "fact": "Bánh xe rover được thiết kế để bám chặt vào cát lỏng và lăn qua đá mà không bị kẹt."
+            },
+            {
+              "range": "26–38",
+              "title": "Hệ Thống Bánh Xe",
+              "learn": "Nối các điểm từ 26 đến 38 để hoàn thành thêm bánh xe và hệ thống treo của xe tự hành.",
+              "fact": "Các robot tự hành của NASA sử dụng hệ thống treo rocker-bogie giúp cả sáu bánh xe luôn tiếp xúc với mặt đất gồ ghề."
+            },
+            {
+              "range": "39–49",
+              "title": "Ghế ngồi và Thiết bị",
+              "learn": "Nối các chấm từ 39 đến 49 để thêm ghế ngồi và thiết bị phía trên thân xe rover.",
+              "fact": "Một số xe thám hiểm mặt trăng chở theo phi hành gia, trong khi các xe robot thám hiểm mà không cần người ngồi bên trong."
+            },
+            {
+              "range": "50–59",
+              "title": "Ăng-ten Dạng Đĩa",
+              "learn": "Hoàn thành bằng cách nối các chấm từ 50 đến 59 để hoàn thiện chiếc đĩa thông tin liên lạc.",
+              "fact": "Một xe tự hành sử dụng ăng-ten để gửi các phát hiện về Trái Đất và nhận chỉ dẫn mới."
+            }
+          ],
+          "color_schemes": [
+            {
+              "name": "Xe tự hành Không gian: Màu thật cổ điển",
+              "note": "Bảng màu quen thuộc này dùng những màu thường thấy ở chủ thể thật.",
+              "mapping": [
+                {
+                  "range": "1–12",
+                  "part": "Thân Xe Rover",
+                  "color": "Crayola Silver",
+                  "hex": "#CDC5C2",
+                  "why": "Màu này tạo cho bộ phận vẻ thật quen thuộc."
+                },
+                {
+                  "range": "13–25",
+                  "part": "Những Bánh Xe Đầu Tiên",
+                  "color": "Crayola Scarlet",
+                  "hex": "#FC2847",
+                  "why": "Màu này tạo cho bộ phận vẻ thật quen thuộc."
+                },
+                {
+                  "range": "26–38",
+                  "part": "Hệ Thống Bánh Xe",
+                  "color": "Crayola Black",
+                  "hex": "#232323",
+                  "why": "Màu này tạo cho bộ phận vẻ thật quen thuộc."
+                },
+                {
+                  "range": "39–49",
+                  "part": "Ghế ngồi và Thiết bị",
+                  "color": "Crayola Silver",
+                  "hex": "#CDC5C2",
+                  "why": "Màu này tạo cho bộ phận vẻ thật quen thuộc."
+                },
+                {
+                  "range": "50–59",
+                  "part": "Ăng-ten Dạng Đĩa",
+                  "color": "Crayola Scarlet",
+                  "hex": "#FC2847",
+                  "why": "Màu này tạo cho bộ phận vẻ thật quen thuộc."
+                }
+              ]
+            },
+            {
+              "name": "Xe tự hành Không gian: Màu thiên nhiên dịu nhẹ",
+              "note": "Bảng màu sáng này thể hiện một phiên bản thật nhạt màu hoặc được chiếu nắng.",
+              "mapping": [
+                {
+                  "range": "1–12",
+                  "part": "Thân Xe Rover",
+                  "color": "Crayola White",
+                  "hex": "#FFFFFF",
+                  "why": "Tông sáng cho thấy bộ phận dưới ánh sáng ban ngày."
+                },
+                {
+                  "range": "13–25",
+                  "part": "Những Bánh Xe Đầu Tiên",
+                  "color": "Crayola Cornflower",
+                  "hex": "#9ACEEB",
+                  "why": "Tông sáng cho thấy bộ phận dưới ánh sáng ban ngày."
+                },
+                {
+                  "range": "26–38",
+                  "part": "Hệ Thống Bánh Xe",
+                  "color": "Crayola Gray",
+                  "hex": "#95918C",
+                  "why": "Tông sáng cho thấy bộ phận dưới ánh sáng ban ngày."
+                },
+                {
+                  "range": "39–49",
+                  "part": "Ghế ngồi và Thiết bị",
+                  "color": "Crayola White",
+                  "hex": "#FFFFFF",
+                  "why": "Tông sáng cho thấy bộ phận dưới ánh sáng ban ngày."
+                },
+                {
+                  "range": "50–59",
+                  "part": "Ăng-ten Dạng Đĩa",
+                  "color": "Crayola Cornflower",
+                  "hex": "#9ACEEB",
+                  "why": "Tông sáng cho thấy bộ phận dưới ánh sáng ban ngày."
+                }
+              ]
+            },
+            {
+              "name": "Xe tự hành Không gian: Màu thật nổi bật",
+              "note": "Bảng màu đậm này lấy cảm hứng từ vật liệu, dấu hiệu hoặc lớp sơn thật.",
+              "mapping": [
+                {
+                  "range": "1–12",
+                  "part": "Thân Xe Rover",
+                  "color": "Crayola Orange",
+                  "hex": "#FF7538",
+                  "why": "Màu đậm hơn phản ánh dấu hiệu, vật liệu hoặc lớp sơn có thật."
+                },
+                {
+                  "range": "13–25",
+                  "part": "Những Bánh Xe Đầu Tiên",
+                  "color": "Crayola Goldenrod",
+                  "hex": "#FCD975",
+                  "why": "Màu đậm hơn phản ánh dấu hiệu, vật liệu hoặc lớp sơn có thật."
+                },
+                {
+                  "range": "26–38",
+                  "part": "Hệ Thống Bánh Xe",
+                  "color": "Crayola Mahogany",
+                  "hex": "#CA3435",
+                  "why": "Màu đậm hơn phản ánh dấu hiệu, vật liệu hoặc lớp sơn có thật."
+                },
+                {
+                  "range": "39–49",
+                  "part": "Ghế ngồi và Thiết bị",
+                  "color": "Crayola Orange",
+                  "hex": "#FF7538",
+                  "why": "Màu đậm hơn phản ánh dấu hiệu, vật liệu hoặc lớp sơn có thật."
+                },
+                {
+                  "range": "50–59",
+                  "part": "Ăng-ten Dạng Đĩa",
+                  "color": "Crayola Goldenrod",
+                  "hex": "#FCD975",
+                  "why": "Màu đậm hơn phản ánh dấu hiệu, vật liệu hoặc lớp sơn có thật."
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

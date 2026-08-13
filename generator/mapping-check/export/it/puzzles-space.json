@@ -1,0 +1,509 @@
+{
+  "collection": {},
+  "puzzles": [
+    {
+      "slug": "crescent-moon-dot-to-dot-puzzle",
+      "header": {
+        "json_ld": {
+          "name": "Luna Crescente",
+          "type": "CreativeWork",
+          "educational_use": "Fine motor skills, number sequencing"
+        }
+      },
+      "body": {
+        "name": "Luna Crescente",
+        "tagline": "Traccia una Fetta Splendente del Cielo Notturno!",
+        "description": "Collega 60 punti facili per rivelare una bellissima luna crescente che brilla nel cielo notturno. Questo stampabile gratuito aiuta i bambini a praticare la sequenza numerica, il tracciamento visivo, la concentrazione e il controllo fluido della matita.",
+        "fun_fact": "Una luna crescente appare quando la luce del sole illumina solo una sottile parte curva della Luna che possiamo vedere dalla Terra.",
+        "dot_guide": {
+          "intro": "Una luna crescente sottile è una delle forme più riconoscibili nel cielo notturno. Questo amichevole puzzle di 60 punti costruisce la sua curva esterna, le punte appuntite e l'arco interno in cinque fasi gestibili. Trova il punto 1 e lascia che la tua luna inizi a brillare!",
+          "outro": "Bel lavoro—la tua luna crescente sta brillando! Aggiungi stelle, nuvole assonnate o un razzo che attraversa il cielo, poi scopri il <a href=\"/space/ringed-planet-dot-to-dot-puzzle/\">puzzle del pianeta anellato</a>.",
+          "sections": [
+            {
+              "range": "1–12",
+              "title": "La Punta Superiore della Luna",
+              "learn": "Collega i punti da 1 a 12 per dare forma al punto superiore stretto della luna crescente.",
+              "fact": "La Luna non produce la propria luce; brilla riflettendo la luce del sole."
+            },
+            {
+              "range": "13–24",
+              "title": "La Curva Esterna",
+              "learn": "Continua dal punto 13 al punto 24 lungo la larga curva esterna della Luna.",
+              "fact": "La gravità ha reso la Luna quasi rotonda, proprio come rende rotondi i pianeti."
+            },
+            {
+              "range": "25–36",
+              "title": "La Punta Inferiore della Luna",
+              "learn": "Segui i punti da 25 a 36 per formare il punto inferiore e girare verso la curva interna.",
+              "fact": "La superficie della Luna è coperta di crateri creati da rocce che la colpiscono per miliardi di anni."
+            },
+            {
+              "range": "37–48",
+              "title": "La Luna Interna",
+              "learn": "Traccia i punti da 37 a 48 lungo l'arco interno, mantenendo la linea della matita fluida.",
+              "fact": "La Luna impiega circa 29,5 giorni per muoversi attraverso un ciclo completo di fasi."
+            },
+            {
+              "range": "49–60",
+              "title": "Il Bagliore e la Finitura",
+              "learn": "Completa con i punti da 49 a 60 per chiudere la luna crescente e aggiungere i suoi dettagli finali.",
+              "fact": "Le persone in tutto il mondo vedono la stessa Luna, anche se la sua crescente può apparire inclinata in modo diverso a seconda della posizione."
+            }
+          ],
+          "color_schemes": [
+            {
+              "name": "Luna Crescente: Colori reali classici",
+              "note": "Questa tavolozza familiare usa colori che si vedono spesso nel soggetto reale.",
+              "mapping": [
+                {
+                  "range": "1–12",
+                  "part": "La Punta Superiore della Luna",
+                  "color": "Crayola Silver",
+                  "hex": "#CDC5C2",
+                  "why": "Questo colore dà alla parte il suo familiare aspetto reale."
+                },
+                {
+                  "range": "13–24",
+                  "part": "La Curva Esterna",
+                  "color": "Crayola Scarlet",
+                  "hex": "#FC2847",
+                  "why": "Questo colore dà alla parte il suo familiare aspetto reale."
+                },
+                {
+                  "range": "25–36",
+                  "part": "La Punta Inferiore della Luna",
+                  "color": "Crayola Black",
+                  "hex": "#232323",
+                  "why": "Questo colore dà alla parte il suo familiare aspetto reale."
+                },
+                {
+                  "range": "37–48",
+                  "part": "La Luna Interna",
+                  "color": "Crayola Silver",
+                  "hex": "#CDC5C2",
+                  "why": "Questo colore dà alla parte il suo familiare aspetto reale."
+                },
+                {
+                  "range": "49–60",
+                  "part": "Il Bagliore e la Finitura",
+                  "color": "Crayola Scarlet",
+                  "hex": "#FC2847",
+                  "why": "Questo colore dà alla parte il suo familiare aspetto reale."
+                }
+              ]
+            },
+            {
+              "name": "Luna Crescente: Colori naturali delicati",
+              "note": "Questa tavolozza chiara rappresenta una vera variante pallida o illuminata dal sole.",
+              "mapping": [
+                {
+                  "range": "1–12",
+                  "part": "La Punta Superiore della Luna",
+                  "color": "Crayola White",
+                  "hex": "#FFFFFF",
+                  "why": "La tonalità chiara mostra come può apparire questa parte alla luce del giorno."
+                },
+                {
+                  "range": "13–24",
+                  "part": "La Curva Esterna",
+                  "color": "Crayola Cornflower",
+                  "hex": "#9ACEEB",
+                  "why": "La tonalità chiara mostra come può apparire questa parte alla luce del giorno."
+                },
+                {
+                  "range": "25–36",
+                  "part": "La Punta Inferiore della Luna",
+                  "color": "Crayola Gray",
+                  "hex": "#95918C",
+                  "why": "La tonalità chiara mostra come può apparire questa parte alla luce del giorno."
+                },
+                {
+                  "range": "37–48",
+                  "part": "La Luna Interna",
+                  "color": "Crayola White",
+                  "hex": "#FFFFFF",
+                  "why": "La tonalità chiara mostra come può apparire questa parte alla luce del giorno."
+                },
+                {
+                  "range": "49–60",
+                  "part": "Il Bagliore e la Finitura",
+                  "color": "Crayola Cornflower",
+                  "hex": "#9ACEEB",
+                  "why": "La tonalità chiara mostra come può apparire questa parte alla luce del giorno."
+                }
+              ]
+            },
+            {
+              "name": "Luna Crescente: Colori reali vivaci",
+              "note": "Questa tavolozza intensa si ispira a materiali, segni o finiture dipinte reali.",
+              "mapping": [
+                {
+                  "range": "1–12",
+                  "part": "La Punta Superiore della Luna",
+                  "color": "Crayola Orange",
+                  "hex": "#FF7538",
+                  "why": "Questo colore più profondo riflette un segno, un materiale o una finitura reale."
+                },
+                {
+                  "range": "13–24",
+                  "part": "La Curva Esterna",
+                  "color": "Crayola Goldenrod",
+                  "hex": "#FCD975",
+                  "why": "Questo colore più profondo riflette un segno, un materiale o una finitura reale."
+                },
+                {
+                  "range": "25–36",
+                  "part": "La Punta Inferiore della Luna",
+                  "color": "Crayola Mahogany",
+                  "hex": "#CA3435",
+                  "why": "Questo colore più profondo riflette un segno, un materiale o una finitura reale."
+                },
+                {
+                  "range": "37–48",
+                  "part": "La Luna Interna",
+                  "color": "Crayola Orange",
+                  "hex": "#FF7538",
+                  "why": "Questo colore più profondo riflette un segno, un materiale o una finitura reale."
+                },
+                {
+                  "range": "49–60",
+                  "part": "Il Bagliore e la Finitura",
+                  "color": "Crayola Goldenrod",
+                  "hex": "#FCD975",
+                  "why": "Questo colore più profondo riflette un segno, un materiale o una finitura reale."
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "slug": "ringed-planet-dot-to-dot-puzzle",
+      "header": {
+        "json_ld": {
+          "name": "Pianeta Anellato",
+          "type": "CreativeWork",
+          "educational_use": "Fine motor skills, number sequencing"
+        }
+      },
+      "body": {
+        "name": "Pianeta Anellato",
+        "tagline": "Disegna un Mondo Avvolto in Anelli Brillanti!",
+        "description": "Collega 43 punti facili per rivelare un bellissimo pianeta anellato che fluttua nello spazio. Questo stampabile gratuito aiuta i bambini più piccoli a praticare l'ordine dei numeri, il tracciamento visivo, la concentrazione e il controllo costante della matita.",
+        "fun_fact": "Gli anelli di Saturno sono composti da innumerevoli pezzi di ghiaccio e roccia, che variano da minuscole particelle a pezzi grandi come case.",
+        "dot_guide": {
+          "intro": "Lontano dalla Terra, un pianeta gigante ruota mentre ampi anelli si estendono attorno ad esso. Questo amichevole puzzle di 43 punti crea il pianeta e i suoi anelli in quattro brevi fasi, rendendolo una divertente prima sfida spaziale. Trova il punto 1 e inizia il tuo viaggio!",
+          "outro": "Ottimo lavoro—il tuo pianeta anellato sta orbitando tra le stelle! Aggiungi lune, un razzo e nuvole colorate, poi continua a esplorare con il <a href=\"/space/space-rover-dot-to-dot-puzzle/\">puzzle del rover spaziale</a>.",
+          "sections": [
+            {
+              "range": "1–11",
+              "title": "La Parte Superiore del Pianeta",
+              "learn": "Collega i punti da 1 a 11 per disegnare il bordo superiore curvo del pianeta distante.",
+              "fact": "I pianeti appaiono rotondi perché la gravità attira il loro materiale verso il centro da ogni direzione."
+            },
+            {
+              "range": "12–22",
+              "title": "Il Primo Anello",
+              "learn": "Continua dal punto 12 al punto 22 per tracciare il primo ampio arco del sistema ad anelli.",
+              "fact": "Saturno ha migliaia di anelli sottili che sembrano diversi anelli ampi quando vengono visti da lontano."
+            },
+            {
+              "range": "23–33",
+              "title": "La Curva Inferiore del Pianeta",
+              "learn": "Segui i punti da 23 a 33 attorno alla metà inferiore del pianeta, mantenendo la curva liscia.",
+              "fact": "Saturno è un gigante gassoso composto principalmente da idrogeno ed elio, i due elementi più leggeri."
+            },
+            {
+              "range": "34–43",
+              "title": "Gli Anelli e la Conclusione",
+              "learn": "Finisci con i punti da 34 a 43 per completare gli anelli che si estendono dall'altro lato.",
+              "fact": "Gli anelli di Saturno sono molto larghi ma sorprendentemente sottili rispetto alle dimensioni del pianeta."
+            }
+          ],
+          "color_schemes": [
+            {
+              "name": "Pianeta Anellato: Colori reali classici",
+              "note": "Questa tavolozza familiare usa colori che si vedono spesso nel soggetto reale.",
+              "mapping": [
+                {
+                  "range": "1–11",
+                  "part": "La Parte Superiore del Pianeta",
+                  "color": "Crayola Silver",
+                  "hex": "#CDC5C2",
+                  "why": "Questo colore dà alla parte il suo familiare aspetto reale."
+                },
+                {
+                  "range": "12–22",
+                  "part": "Il Primo Anello",
+                  "color": "Crayola Scarlet",
+                  "hex": "#FC2847",
+                  "why": "Questo colore dà alla parte il suo familiare aspetto reale."
+                },
+                {
+                  "range": "23–33",
+                  "part": "La Curva Inferiore del Pianeta",
+                  "color": "Crayola Black",
+                  "hex": "#232323",
+                  "why": "Questo colore dà alla parte il suo familiare aspetto reale."
+                },
+                {
+                  "range": "34–43",
+                  "part": "Gli Anelli e la Conclusione",
+                  "color": "Crayola Silver",
+                  "hex": "#CDC5C2",
+                  "why": "Questo colore dà alla parte il suo familiare aspetto reale."
+                }
+              ]
+            },
+            {
+              "name": "Pianeta Anellato: Colori naturali delicati",
+              "note": "Questa tavolozza chiara rappresenta una vera variante pallida o illuminata dal sole.",
+              "mapping": [
+                {
+                  "range": "1–11",
+                  "part": "La Parte Superiore del Pianeta",
+                  "color": "Crayola White",
+                  "hex": "#FFFFFF",
+                  "why": "La tonalità chiara mostra come può apparire questa parte alla luce del giorno."
+                },
+                {
+                  "range": "12–22",
+                  "part": "Il Primo Anello",
+                  "color": "Crayola Cornflower",
+                  "hex": "#9ACEEB",
+                  "why": "La tonalità chiara mostra come può apparire questa parte alla luce del giorno."
+                },
+                {
+                  "range": "23–33",
+                  "part": "La Curva Inferiore del Pianeta",
+                  "color": "Crayola Gray",
+                  "hex": "#95918C",
+                  "why": "La tonalità chiara mostra come può apparire questa parte alla luce del giorno."
+                },
+                {
+                  "range": "34–43",
+                  "part": "Gli Anelli e la Conclusione",
+                  "color": "Crayola White",
+                  "hex": "#FFFFFF",
+                  "why": "La tonalità chiara mostra come può apparire questa parte alla luce del giorno."
+                }
+              ]
+            },
+            {
+              "name": "Pianeta Anellato: Colori reali vivaci",
+              "note": "Questa tavolozza intensa si ispira a materiali, segni o finiture dipinte reali.",
+              "mapping": [
+                {
+                  "range": "1–11",
+                  "part": "La Parte Superiore del Pianeta",
+                  "color": "Crayola Orange",
+                  "hex": "#FF7538",
+                  "why": "Questo colore più profondo riflette un segno, un materiale o una finitura reale."
+                },
+                {
+                  "range": "12–22",
+                  "part": "Il Primo Anello",
+                  "color": "Crayola Goldenrod",
+                  "hex": "#FCD975",
+                  "why": "Questo colore più profondo riflette un segno, un materiale o una finitura reale."
+                },
+                {
+                  "range": "23–33",
+                  "part": "La Curva Inferiore del Pianeta",
+                  "color": "Crayola Mahogany",
+                  "hex": "#CA3435",
+                  "why": "Questo colore più profondo riflette un segno, un materiale o una finitura reale."
+                },
+                {
+                  "range": "34–43",
+                  "part": "Gli Anelli e la Conclusione",
+                  "color": "Crayola Orange",
+                  "hex": "#FF7538",
+                  "why": "Questo colore più profondo riflette un segno, un materiale o una finitura reale."
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "slug": "space-rover-dot-to-dot-puzzle",
+      "header": {
+        "json_ld": {
+          "name": "Rover Spaziale",
+          "type": "CreativeWork",
+          "educational_use": "Fine motor skills, number sequencing"
+        }
+      },
+      "body": {
+        "name": "Rover Spaziale",
+        "tagline": "Un Esploratore Amichevole su Ruote",
+        "description": "Collega 59 punti per rivelare un amichevole rover spaziale pronto a esplorare un altro mondo. Questo puzzle stampabile gratuito aiuta i bambini a praticare l'ordine dei numeri, la concentrazione e il controllo della matita.",
+        "fun_fact": "I rover spaziali sono veicoli robotici che esplorano le superfici di mondi come la Luna e Marte.",
+        "dot_guide": {
+          "intro": "Pronto per un viaggio oltre la Terra? Segui i numeri da 1 a 59 e guarda apparire un amichevole rover spaziale. Muoviti lentamente, controlla ogni numero e mantieni le linee della matita ordinate mentre ti sposti attorno al veicolo.",
+          "outro": "Missione completata—il tuo rover spaziale è pronto per esplorare! Aggiungi stelle, crateri, pianeti o un alieno amichevole per creare la tua scena spaziale.",
+          "sections": [
+            {
+              "range": "1–12",
+              "title": "Il Corpo del Rover",
+              "learn": "Inizia dal punto 1 e collega fino al punto 12 per tracciare la parte anteriore amichevole e il robusto corpo del rover.",
+              "fact": "I rover planetari trasportano computer, telecamere e strumenti scientifici all'interno di un corpo resistente."
+            },
+            {
+              "range": "13–25",
+              "title": "Le Prime Ruote",
+              "learn": "Continua dal punto 13 al punto 25 per modellare la parte inferiore e la prima ruota robusta.",
+              "fact": "Le ruote del rover sono progettate per afferrare sabbia sciolta e rotolare su rocce senza rimanere bloccate."
+            },
+            {
+              "range": "26–38",
+              "title": "Il Sistema delle Ruote",
+              "learn": "Collega i punti 26 fino al 38 per completare altre ruote e la sospensione del rover.",
+              "fact": "I rover di Marte della NASA utilizzano una sospensione rocker-bogie che aiuta tutte e sei le ruote a rimanere su terreni irregolari."
+            },
+            {
+              "range": "39–49",
+              "title": "Il Sedile e l'Attrezzatura",
+              "learn": "Traccia i punti 39 fino al 49 per aggiungere il sedile e l'attrezzatura sopra il corpo del rover.",
+              "fact": "Alcuni rover lunari trasportano astronauti, mentre i rover robotici esplorano senza nessuno seduto all'interno."
+            },
+            {
+              "range": "50–59",
+              "title": "L'Antenna Parabolica",
+              "learn": "Finisci unendo i punti 50 fino al 59 per completare la parabola di comunicazione.",
+              "fact": "Un rover utilizza antenne per inviare scoperte sulla Terra e ricevere nuove istruzioni."
+            }
+          ],
+          "color_schemes": [
+            {
+              "name": "Rover Spaziale: Colori reali classici",
+              "note": "Questa tavolozza familiare usa colori che si vedono spesso nel soggetto reale.",
+              "mapping": [
+                {
+                  "range": "1–12",
+                  "part": "Il Corpo del Rover",
+                  "color": "Crayola Silver",
+                  "hex": "#CDC5C2",
+                  "why": "Questo colore dà alla parte il suo familiare aspetto reale."
+                },
+                {
+                  "range": "13–25",
+                  "part": "Le Prime Ruote",
+                  "color": "Crayola Scarlet",
+                  "hex": "#FC2847",
+                  "why": "Questo colore dà alla parte il suo familiare aspetto reale."
+                },
+                {
+                  "range": "26–38",
+                  "part": "Il Sistema delle Ruote",
+                  "color": "Crayola Black",
+                  "hex": "#232323",
+                  "why": "Questo colore dà alla parte il suo familiare aspetto reale."
+                },
+                {
+                  "range": "39–49",
+                  "part": "Il Sedile e l'Attrezzatura",
+                  "color": "Crayola Silver",
+                  "hex": "#CDC5C2",
+                  "why": "Questo colore dà alla parte il suo familiare aspetto reale."
+                },
+                {
+                  "range": "50–59",
+                  "part": "L'Antenna Parabolica",
+                  "color": "Crayola Scarlet",
+                  "hex": "#FC2847",
+                  "why": "Questo colore dà alla parte il suo familiare aspetto reale."
+                }
+              ]
+            },
+            {
+              "name": "Rover Spaziale: Colori naturali delicati",
+              "note": "Questa tavolozza chiara rappresenta una vera variante pallida o illuminata dal sole.",
+              "mapping": [
+                {
+                  "range": "1–12",
+                  "part": "Il Corpo del Rover",
+                  "color": "Crayola White",
+                  "hex": "#FFFFFF",
+                  "why": "La tonalità chiara mostra come può apparire questa parte alla luce del giorno."
+                },
+                {
+                  "range": "13–25",
+                  "part": "Le Prime Ruote",
+                  "color": "Crayola Cornflower",
+                  "hex": "#9ACEEB",
+                  "why": "La tonalità chiara mostra come può apparire questa parte alla luce del giorno."
+                },
+                {
+                  "range": "26–38",
+                  "part": "Il Sistema delle Ruote",
+                  "color": "Crayola Gray",
+                  "hex": "#95918C",
+                  "why": "La tonalità chiara mostra come può apparire questa parte alla luce del giorno."
+                },
+                {
+                  "range": "39–49",
+                  "part": "Il Sedile e l'Attrezzatura",
+                  "color": "Crayola White",
+                  "hex": "#FFFFFF",
+                  "why": "La tonalità chiara mostra come può apparire questa parte alla luce del giorno."
+                },
+                {
+                  "range": "50–59",
+                  "part": "L'Antenna Parabolica",
+                  "color": "Crayola Cornflower",
+                  "hex": "#9ACEEB",
+                  "why": "La tonalità chiara mostra come può apparire questa parte alla luce del giorno."
+                }
+              ]
+            },
+            {
+              "name": "Rover Spaziale: Colori reali vivaci",
+              "note": "Questa tavolozza intensa si ispira a materiali, segni o finiture dipinte reali.",
+              "mapping": [
+                {
+                  "range": "1–12",
+                  "part": "Il Corpo del Rover",
+                  "color": "Crayola Orange",
+                  "hex": "#FF7538",
+                  "why": "Questo colore più profondo riflette un segno, un materiale o una finitura reale."
+                },
+                {
+                  "range": "13–25",
+                  "part": "Le Prime Ruote",
+                  "color": "Crayola Goldenrod",
+                  "hex": "#FCD975",
+                  "why": "Questo colore più profondo riflette un segno, un materiale o una finitura reale."
+                },
+                {
+                  "range": "26–38",
+                  "part": "Il Sistema delle Ruote",
+                  "color": "Crayola Mahogany",
+                  "hex": "#CA3435",
+                  "why": "Questo colore più profondo riflette un segno, un materiale o una finitura reale."
+                },
+                {
+                  "range": "39–49",
+                  "part": "Il Sedile e l'Attrezzatura",
+                  "color": "Crayola Orange",
+                  "hex": "#FF7538",
+                  "why": "Questo colore più profondo riflette un segno, un materiale o una finitura reale."
+                },
+                {
+                  "range": "50–59",
+                  "part": "L'Antenna Parabolica",
+                  "color": "Crayola Goldenrod",
+                  "hex": "#FCD975",
+                  "why": "Questo colore più profondo riflette un segno, un materiale o una finitura reale."
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

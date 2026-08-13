@@ -1,0 +1,359 @@
+{
+  "collection": {},
+  "puzzles": [
+    {
+      "slug": "circus-ringmaster-bear-dot-to-dot-puzzle",
+      "header": {
+        "json_ld": {
+          "name": "Cirką Vedantis Meška",
+          "type": "CreativeWork",
+          "educational_use": "Fine motor skills, number sequencing"
+        }
+      },
+      "body": {
+        "name": "Cirką Vedantis Meška",
+        "tagline": "Susipažink su Mešku, Kuris Vykdo Didįjį Šou!",
+        "description": "Sujunkite 74 taškus, kad atskleistumėte draugišką mešką, apsirengusį cirko arenoščiaus kostiumu. Šis vidutinio sudėtingumo spausdinamas darbalapis padeda vaikams lavinti skaičių sekų sekimą, koncentraciją, regimąjį sekimą ir atsargų pieštuko valdymą.",
+        "fun_fact": "Cirkoso režisierius pristato atlikėjus ir veda publiką nuo vieno pasirodymo prie kito.",
+        "dot_guide": {
+          "intro": "Su išmintingais paltu, aukštu skrybėle ir pasitikincią poza, šis draugiškas lokys pasiruošęs visus sveikinti cirke. 74 taškų iššūkis suskirstytas į penkias aiškias stadijas vaikams, kurie jaučiasi patogiai su ilgesnėmis skaičių sekomis. Suraskite pirmą tašką ir leiskite pasirodymui prasidėti!",
+          "outro": "Puikus darbas—vedančiojo meškos renginys pasiruošęs pranešti apie šou! Nuspalvinkite kostiumą ryškiai raudonai ir auksinėmis spalvomis, tada pridėkite prožektorius ir susijaudinusią publiką. Užbaikite sceną su <a href=\"/circus/circus-tent-dot-to-dot-puzzle/\">cirko palapinės taškas po taško galvosūkiu</a>.",
+          "sections": [
+            {
+              "range": "1–15",
+              "title": "Cirkmeisterio skrybėlė",
+              "learn": "Sujunkite taškus nuo 1 iki 15, kad nupieštumėte aukštą skrybėlę ir meškos apvalias ausis.",
+              "fact": "Cirkelmeisteriai dažnai dėvi akį patraukiančius formaliuosius kostiumus, kad publiką juos būtų lengviau pastebėti arenoje."
+            },
+            {
+              "range": "16–30",
+              "title": "Lokio veidas",
+              "learn": "Tęskite nuo 16 iki 30 taško, kad suformuotumėte meškos galvą, snukį ir linksmą išraišką.",
+              "fact": "Meškos uoslė yra nepaprastai gera ir padeda jai rasti maistą dideliais atstumais."
+            },
+            {
+              "range": "31–45",
+              "title": "Išmanioji striukė",
+              "learn": "Sekite taškus nuo 31 iki 45, kad sudarytumėte cirko režisieriaus dekoruotą striukę ir apykakles.",
+              "fact": "Ryškūs švarkai, blizgantys sagai ir dekoratyvinės apdailos detalės padeda sukurti teatralų cirko režisieriaus kostiumo išvaizdą."
+            },
+            {
+              "range": "46–60",
+              "title": "Rankų ir Rodyklių Poza",
+              "learn": "Sekite taškus nuo 46 iki 60, kad pridėtumėte meškos rankas ir sveikinamąją pozą.",
+              "fact": "Cirkelės naudojasi aiškiais gestais ir garsiu balsu, kad nukreiptų dėmesį į kitą pasirodymą."
+            },
+            {
+              "range": "61–74",
+              "title": "Batai ir apdaila",
+              "learn": "Užbaikite taškais nuo 61 iki 74, kad nupieštumėte kojas, batus ir galutinius kostiumo detalės.",
+              "fact": "Cirko arena tradiciškai yra apskrita, kad aplink ją stovintys žiūrovai galėtų matyti pasirodymą iš įvairių kampų."
+            }
+          ],
+          "color_schemes": [
+            {
+              "name": "Cirką Vedantis Meška: Klasikinės tikros spalvos",
+              "note": "Šioje pažįstamoje paletėje naudojamos tikrame objekte dažnos spalvos.",
+              "mapping": [
+                {
+                  "range": "1–15",
+                  "part": "Cirkmeisterio skrybėlė",
+                  "color": "Crayola Scarlet",
+                  "hex": "#FC2847",
+                  "why": "Ši spalva suteikia daliai pažįstamą tikrą išvaizdą."
+                },
+                {
+                  "range": "16–30",
+                  "part": "Lokio veidas",
+                  "color": "Crayola Sky Blue",
+                  "hex": "#80DAEB",
+                  "why": "Ši spalva suteikia daliai pažįstamą tikrą išvaizdą."
+                },
+                {
+                  "range": "31–45",
+                  "part": "Išmanioji striukė",
+                  "color": "Crayola Goldenrod",
+                  "hex": "#FCD975",
+                  "why": "Ši spalva suteikia daliai pažįstamą tikrą išvaizdą."
+                },
+                {
+                  "range": "46–60",
+                  "part": "Rankų ir Rodyklių Poza",
+                  "color": "Crayola Scarlet",
+                  "hex": "#FC2847",
+                  "why": "Ši spalva suteikia daliai pažįstamą tikrą išvaizdą."
+                },
+                {
+                  "range": "61–74",
+                  "part": "Batai ir apdaila",
+                  "color": "Crayola Sky Blue",
+                  "hex": "#80DAEB",
+                  "why": "Ši spalva suteikia daliai pažįstamą tikrą išvaizdą."
+                }
+              ]
+            },
+            {
+              "name": "Cirką Vedantis Meška: Švelnios gamtos spalvos",
+              "note": "Ši šviesi paletė rodo tikrą blyškią arba saulės apšviestą versiją.",
+              "mapping": [
+                {
+                  "range": "1–15",
+                  "part": "Cirkmeisterio skrybėlė",
+                  "color": "Crayola Silver",
+                  "hex": "#CDC5C2",
+                  "why": "Šviesus atspalvis rodo dalį ryškioje dienos šviesoje."
+                },
+                {
+                  "range": "16–30",
+                  "part": "Lokio veidas",
+                  "color": "Crayola Tan",
+                  "hex": "#FAA76C",
+                  "why": "Šviesus atspalvis rodo dalį ryškioje dienos šviesoje."
+                },
+                {
+                  "range": "31–45",
+                  "part": "Išmanioji striukė",
+                  "color": "Crayola Sea Green",
+                  "hex": "#93DFB8",
+                  "why": "Šviesus atspalvis rodo dalį ryškioje dienos šviesoje."
+                },
+                {
+                  "range": "46–60",
+                  "part": "Rankų ir Rodyklių Poza",
+                  "color": "Crayola Silver",
+                  "hex": "#CDC5C2",
+                  "why": "Šviesus atspalvis rodo dalį ryškioje dienos šviesoje."
+                },
+                {
+                  "range": "61–74",
+                  "part": "Batai ir apdaila",
+                  "color": "Crayola Tan",
+                  "hex": "#FAA76C",
+                  "why": "Šviesus atspalvis rodo dalį ryškioje dienos šviesoje."
+                }
+              ]
+            },
+            {
+              "name": "Cirką Vedantis Meška: Ryškios tikros spalvos",
+              "note": "Šią ryškią paletę įkvėpė tikros medžiagos, žymės ar dažai.",
+              "mapping": [
+                {
+                  "range": "1–15",
+                  "part": "Cirkmeisterio skrybėlė",
+                  "color": "Crayola Forest Green",
+                  "hex": "#5FA777",
+                  "why": "Sodresnė spalva atitinka tikrą žymę, medžiagą ar dažus."
+                },
+                {
+                  "range": "16–30",
+                  "part": "Lokio veidas",
+                  "color": "Crayola Brown",
+                  "hex": "#AF593E",
+                  "why": "Sodresnė spalva atitinka tikrą žymę, medžiagą ar dažus."
+                },
+                {
+                  "range": "31–45",
+                  "part": "Išmanioji striukė",
+                  "color": "Crayola Orange",
+                  "hex": "#FF7538",
+                  "why": "Sodresnė spalva atitinka tikrą žymę, medžiagą ar dažus."
+                },
+                {
+                  "range": "46–60",
+                  "part": "Rankų ir Rodyklių Poza",
+                  "color": "Crayola Forest Green",
+                  "hex": "#5FA777",
+                  "why": "Sodresnė spalva atitinka tikrą žymę, medžiagą ar dažus."
+                },
+                {
+                  "range": "61–74",
+                  "part": "Batai ir apdaila",
+                  "color": "Crayola Brown",
+                  "hex": "#AF593E",
+                  "why": "Sodresnė spalva atitinka tikrą žymę, medžiagą ar dažus."
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "slug": "circus-tent-dot-to-dot-puzzle",
+      "header": {
+        "json_ld": {
+          "name": "Cirko palapinė",
+          "type": "CreativeWork",
+          "educational_use": "Fine motor skills, number sequencing"
+        }
+      },
+      "body": {
+        "name": "Cirko palapinė",
+        "tagline": "Prieikite arčiau ir patirkite didį cirko nuotykį!",
+        "description": "Sujunkite 59 taškus, kad atskleistumėte linksmą dryžuotą cirko palapinę, pasiruošią šou. Šis lengvas spausdinamas darbalapis padeda vaikams praktikuoti skaičiavimą eilės tvarka, regimąjį sekimą, koncentraciją ir tikslų pieštuko valdymą.",
+        "fun_fact": "Cirko pagrindinis pasirodymo palapinas dažnai vadinamas didžiąja palapine, nes tai didžiausia pasirodymo palapinė.",
+        "dot_guide": {
+          "intro": "Ryškus cirko palapinė yra vieta, kur akrobatai, klounai ir kiti atlikėjai susirenka po vienu didžiuliu stogu. Šis draugiškas 59-taškių galvosūkis statys didžiąją areną penkiose lengvai suvokiamose stadijose. Suraskite 1-ąjį tašką, užtikrinkite pieštuko tvirtumą ir būkite pasiruošę šou!",
+          "outro": "Bravo—jūsų cirko palapinė yra paruošta atidarymo vakarui! Nuspalvinkite stogą ryškiomis juostomis, pridėkite šviesas ir vėliavas, ir nupieškite minią, atvykstančią į šou. Išbandykite <a href=\"/playgrounds/carousel-horse-playground-dot-to-dot-puzzle/\">karuselinio arklio galvosūkį</a> toliau.",
+          "sections": [
+            {
+              "range": "1–12",
+              "title": "Skraidanti vėliava",
+              "learn": "Sujunkite taškus nuo 1 iki 12, kad nupieštumėte vėliavą ir palapinės aukščiausią tašką.",
+              "fact": "Vėliava viršuje padeda lankytojams išvysti cirko palapinę iš viso mugės teritorijos."
+            },
+            {
+              "range": "13–24",
+              "title": "Aukštojo Palapinės Viršūnė",
+              "learn": "Tęskite nuo 13 taško iki 24 taško, kad suformuotumėte statų stogą, kylantį link centrinio stulpo.",
+              "fact": "Aukšti centriniai stulpai palaiko tradicinio cirko palapinės stogą ir suteikia jai žymią smailią formą."
+            },
+            {
+              "range": "25–36",
+              "title": "Dryžuotasis Baldakimas",
+              "learn": "Sekite taškus nuo 25 iki 36 per plačią baldakimo dalį, kruopščiai brėždami linijas jo dekoratyvioms dryžėms.",
+              "fact": "Paryškintos juostos leidžia lengvai atpažinti cirko palapines ir suteikia pagrindinei patalpai šventiškumo."
+            },
+            {
+              "range": "37–48",
+              "title": "Palapinės Sienos",
+              "learn": "Sekite taškus nuo 37 iki 48 abiejose pusėse, kad suformuotumėte tvirtus palapinės sienus.",
+              "fact": "Stiprūs virvės ir kuoleliai padeda laikyti dideles palapines tvirtai prieš vėją."
+            },
+            {
+              "range": "49–59",
+              "title": "Didžioji įėjimo erdvė",
+              "learn": "Užbaikite taškais nuo 49 iki 59, kad pridėtumėte atvirą įėjimą, kuriuo žiūrovai patenka į vidų.",
+              "fact": "Cirko įėjimai dažnai būna ryškiai papuošti, kad pasveikintų žiūrovus ir sukeltų jaudulį prieš prasidedant pasirodymui."
+            }
+          ],
+          "color_schemes": [
+            {
+              "name": "Cirko palapinė: Klasikinės tikros spalvos",
+              "note": "Šioje pažįstamoje paletėje naudojamos tikrame objekte dažnos spalvos.",
+              "mapping": [
+                {
+                  "range": "1–12",
+                  "part": "Skraidanti vėliava",
+                  "color": "Crayola Scarlet",
+                  "hex": "#FC2847",
+                  "why": "Ši spalva suteikia daliai pažįstamą tikrą išvaizdą."
+                },
+                {
+                  "range": "13–24",
+                  "part": "Aukštojo Palapinės Viršūnė",
+                  "color": "Crayola Sky Blue",
+                  "hex": "#80DAEB",
+                  "why": "Ši spalva suteikia daliai pažįstamą tikrą išvaizdą."
+                },
+                {
+                  "range": "25–36",
+                  "part": "Dryžuotasis Baldakimas",
+                  "color": "Crayola Goldenrod",
+                  "hex": "#FCD975",
+                  "why": "Ši spalva suteikia daliai pažįstamą tikrą išvaizdą."
+                },
+                {
+                  "range": "37–48",
+                  "part": "Palapinės Sienos",
+                  "color": "Crayola Scarlet",
+                  "hex": "#FC2847",
+                  "why": "Ši spalva suteikia daliai pažįstamą tikrą išvaizdą."
+                },
+                {
+                  "range": "49–59",
+                  "part": "Didžioji įėjimo erdvė",
+                  "color": "Crayola Sky Blue",
+                  "hex": "#80DAEB",
+                  "why": "Ši spalva suteikia daliai pažįstamą tikrą išvaizdą."
+                }
+              ]
+            },
+            {
+              "name": "Cirko palapinė: Švelnios gamtos spalvos",
+              "note": "Ši šviesi paletė rodo tikrą blyškią arba saulės apšviestą versiją.",
+              "mapping": [
+                {
+                  "range": "1–12",
+                  "part": "Skraidanti vėliava",
+                  "color": "Crayola Silver",
+                  "hex": "#CDC5C2",
+                  "why": "Šviesus atspalvis rodo dalį ryškioje dienos šviesoje."
+                },
+                {
+                  "range": "13–24",
+                  "part": "Aukštojo Palapinės Viršūnė",
+                  "color": "Crayola Tan",
+                  "hex": "#FAA76C",
+                  "why": "Šviesus atspalvis rodo dalį ryškioje dienos šviesoje."
+                },
+                {
+                  "range": "25–36",
+                  "part": "Dryžuotasis Baldakimas",
+                  "color": "Crayola Sea Green",
+                  "hex": "#93DFB8",
+                  "why": "Šviesus atspalvis rodo dalį ryškioje dienos šviesoje."
+                },
+                {
+                  "range": "37–48",
+                  "part": "Palapinės Sienos",
+                  "color": "Crayola Silver",
+                  "hex": "#CDC5C2",
+                  "why": "Šviesus atspalvis rodo dalį ryškioje dienos šviesoje."
+                },
+                {
+                  "range": "49–59",
+                  "part": "Didžioji įėjimo erdvė",
+                  "color": "Crayola Tan",
+                  "hex": "#FAA76C",
+                  "why": "Šviesus atspalvis rodo dalį ryškioje dienos šviesoje."
+                }
+              ]
+            },
+            {
+              "name": "Cirko palapinė: Ryškios tikros spalvos",
+              "note": "Šią ryškią paletę įkvėpė tikros medžiagos, žymės ar dažai.",
+              "mapping": [
+                {
+                  "range": "1–12",
+                  "part": "Skraidanti vėliava",
+                  "color": "Crayola Forest Green",
+                  "hex": "#5FA777",
+                  "why": "Sodresnė spalva atitinka tikrą žymę, medžiagą ar dažus."
+                },
+                {
+                  "range": "13–24",
+                  "part": "Aukštojo Palapinės Viršūnė",
+                  "color": "Crayola Brown",
+                  "hex": "#AF593E",
+                  "why": "Sodresnė spalva atitinka tikrą žymę, medžiagą ar dažus."
+                },
+                {
+                  "range": "25–36",
+                  "part": "Dryžuotasis Baldakimas",
+                  "color": "Crayola Orange",
+                  "hex": "#FF7538",
+                  "why": "Sodresnė spalva atitinka tikrą žymę, medžiagą ar dažus."
+                },
+                {
+                  "range": "37–48",
+                  "part": "Palapinės Sienos",
+                  "color": "Crayola Forest Green",
+                  "hex": "#5FA777",
+                  "why": "Sodresnė spalva atitinka tikrą žymę, medžiagą ar dažus."
+                },
+                {
+                  "range": "49–59",
+                  "part": "Didžioji įėjimo erdvė",
+                  "color": "Crayola Brown",
+                  "hex": "#AF593E",
+                  "why": "Sodresnė spalva atitinka tikrą žymę, medžiagą ar dažus."
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

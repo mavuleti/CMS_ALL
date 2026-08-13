@@ -1,0 +1,409 @@
+{
+  "slug": "home",
+  "header": {
+    "title": "Ligar os pontos grátis para crianças | Fichas PDF para imprimir",
+    "title_template": "%s | DotToDotFreePrintables.com",
+    "meta_description": "Descarrega e imprime fichas grátis de ligar os pontos: animais, dinossauros, veículos e temas sazonais em PDF. Fichas fáceis para o pré-escolar e desafios com mais de 100 pontos para adultos. Sem registo.",
+    "canonical": "/{locale}/",
+    "og": {
+      "title": "Ligar os pontos — fichas gratuitas para crianças e adultos",
+      "description": "Descarrega e imprime fichas grátis de ligar os pontos: animais, dinossauros, veículos e temas sazonais em PDF. Fichas fáceis para o pré-escolar e desafios com mais de 100 pontos para adultos. Sem registo.",
+      "url": "/{locale}/",
+      "site_name": "DotToDotFreePrintables.com",
+      "type": "website",
+      "image": "/images/trex-61-puzzle.webp (800x679)"
+    },
+    "twitter": {
+      "card": "summary_large_image"
+    },
+    "manifest": "/manifest.webmanifest",
+    "json_ld": {
+      "website": {
+        "type": "WebSite",
+        "name": "DotToDotFreePrintables.com (SITE_NAME)"
+      },
+      "organization": {
+        "type": "Organization",
+        "logo": "/icon-512.png (absoluteUrl)",
+        "same_as": "hardcoded array: Pinterest, Facebook, YouTube profile URLs"
+      },
+      "collection_page": {
+        "type": "CollectionPage",
+        "name": "Free Dot to Dot Printables for Kids (third distinct hardcoded title string in the codebase — differs from header.title and seo/metadata.json's homepage.title)"
+      },
+      "item_list": {
+        "type": "ItemList (featured puzzles)"
+      }
+    }
+  },
+  "body": {
+    "nav": {
+      "kids": "Crianças - Puzzles",
+      "teachers": "Professores",
+      "parents": "Pais",
+      "contact": "Contate-nos",
+      "blog": "Blog",
+      "search": "Pesquisa",
+      "freePack": "Pacote grátis",
+      "scanMe": "Escaneie-me"
+    },
+    "homepageUi": {
+      "title": "Encontre as melhores atividades de ligar pontos para imprimir",
+      "description": "Imprima, ligue os pontos e dê vida a imagens incríveis. Grátis e pronto para a diversão!",
+      "searchPlaceholder": "Experimente oceano, dinossauro ou flores",
+      "filterPuzzles": "Filtrar puzzles",
+      "age": "Idade",
+      "dots": "pontos",
+      "featuredPuzzles": "Puzzles para imprimir em destaque",
+      "savePuzzle": "Guardar {name}",
+      "removeSavedPuzzle": "Remover {name} dos guardados",
+      "downloads": "transferências",
+      "bookTitle": "O melhor de 2026 · {count}",
+      "bookDescription": "Os nossos puzzles de ligar pontos preferidos num único livro PDF para imprimir.",
+      "searchUnavailable": "A pesquisa está temporariamente indisponível. Tente novamente.",
+      "popularEyebrow": "Popular esta semana",
+      "mostDownloaded": "Quebra-cabeças mais baixados",
+      "downloadCountAria": "{count} ou mais downloads",
+      "freshPrintables": "Novos imprimíveis",
+      "recentlyAdded": "Adicionados recentemente",
+      "browseCategories": "Navegar por categorias de quebra-cabeças",
+      "openCategories": "Abrir menu de categorias",
+      "closeCategories": "Fechar menu de categorias",
+      "browseByTheme": "Navegar por tema",
+      "quickLinks": "Links rápidos",
+      "bundlePacks": "Pacotes de Bundles",
+      "parentsTeachers": "Para Pais e Professores",
+      "more": "Mais categorias",
+      "kids": "Crianças",
+      "categoryNames": {
+        "cute": "Quebra-cabeças fofos",
+        "flowers": "Flores"
+      }
+    },
+    "audience": {
+      "kidsTitle": "Para crianças",
+      "kidsText": "Temas amigáveis ​​de animais, dinossauros e veículos com pontos numerados claros. Vitórias fáceis que aumentam a confiança.",
+      "parentsTitle": "Para pais",
+      "parentsText": "Atividades relaxantes sem ecrãs para casa, viagens e restaurantes. Imprima a partir de qualquer dispositivo em menos de um minuto.",
+      "teachersTitle": "Para professores",
+      "teachersText": "Atividades de ligar os pontos com pouca preparação, ideais para atividades matinais, alunos que terminam as tarefas mais cedo, professores substitutos e estações de aula — sem necessidade de preparação."
+    },
+    "categories": {
+      "eyebrow": "Organizado por tema e nível de competência",
+      "heading": "Navegue pelos jogos de ligar os pontos por categoria",
+      "description": "Desde formas simples com 10 pontos para crianças pequenas até desafios com 200 pontos para crianças mais velhas — tudo organizado por categoria para que encontre o ficheiro para imprimir gratuito ideal em segundos.",
+      "puzzles": "{count, plural, one {# quebra-cabeça} other {# quebra-cabeças}}",
+      "comingSoon": "Em breve",
+      "badges": {
+        "dinosaurs": "Disponível agora!",
+        "ocean": "Disponível agora!",
+        "playgrounds": "Disponível agora!",
+        "garden": "Disponível agora!",
+        "usa250": "Novo!",
+        "uae": "Disponível agora!",
+        "cute": "Novo!",
+        "circus": "Novo!"
+      },
+      "items": {
+        "dinosaurs": {
+          "name": "Dinossauros",
+          "description": "Prepare-se para uma aventura pré-histórica! {count} que os seus filhos vão adorar."
+        },
+        "animals": {
+          "name": "Animais",
+          "description": "Criaturas amigáveis ​​para praticar números desde cedo."
+        },
+        "vehicles": {
+          "name": "Veículos",
+          "description": "Automóveis, camiões, foguetes e máquinas."
+        },
+        "fantasy": {
+          "name": "Fantasia",
+          "description": "Castelos, unicórnios, dragões e ideias para histórias."
+        },
+        "seasonal": {
+          "name": "Sazonal",
+          "description": "Atividades com calendário de feriados e salas de aula."
+        },
+        "ocean": {
+          "name": "Oceano",
+          "description": "Desenhos para colorir de animais marinhos e paisagens tranquilas."
+        },
+        "playgrounds": {
+          "name": "Parques infantis",
+          "description": "Baloiços, escorregas e diversão ao ar livre para os pequenos aventureiros."
+        },
+        "garden": {
+          "name": "Jardim",
+          "description": "Luvas, pás e ferramentas para os pequenos ajudantes do jardim."
+        },
+        "usa250": {
+          "name": "América 250 Anos",
+          "description": "Celebre o 250º aniversário dos Estados Unidos com puzzles patrióticos de ligar os pontos que homenageiam a história americana."
+        },
+        "uae": {
+          "name": "Emirados Árabes Unidos",
+          "description": "Explore os Emirados Árabes Unidos! Pontos turísticos icónicos como o Burj Al Arab, prontos para ligar e colorir."
+        },
+        "space": {
+          "name": "Espaço",
+          "description": "Planetas, astronautas e aventuras em foguetões."
+        },
+        "worksheets": {
+          "name": "Folhas de exercícios",
+          "description": "Fichas de sequenciação numérica prontas para uso em sala de aula."
+        },
+        "bigDotBooks": {
+          "name": "Livros Big Dot",
+          "description": "Puzzles de formato longo para alunos mais velhos com foco."
+        },
+        "cute": {
+          "name": "Fofo",
+          "description": "Adoráveis ​​cachorros, carrinhos e {count} encantadores puzzles de ligar os pontos gratuitos que os seus filhos vão adorar."
+        },
+        "circus": {
+          "name": "Circo",
+          "description": "Mestres de cerimônias, tendas grandes e diversão de show para jovens aprendizes."
+        }
+      }
+    },
+    "puzzleSection": {
+      "eyebrow": "Amostras imprimíveis gratuitas — sem necessidade de registo",
+      "heading": "Folhas populares de ligar os pontos para imprimir agora",
+      "weeklyPack": "Veja o pacote semanal →",
+      "downloadLink": "Descarregue gratuitamente a versão para impressão.",
+      "new": "Novo",
+      "imageAlt": "{name} folha de exercícios gratuita para imprimir de ligar os pontos para {age}",
+      "categories": {
+        "Dinosaurs": "Dinossauros",
+        "Ocean": "Oceano",
+        "Playgrounds": "Parques infantis",
+        "Garden": "Jardim",
+        "Cute": "Fofo",
+        "USA 250 Years": "América 250 Anos",
+        "UAE": "Emirados Árabes Unidos"
+      },
+      "items": {
+        "trex-61-dot-to-dot-puzzle": {
+          "name": "Desafio T-Rex de 61 pontos"
+        },
+        "brontosaurus-dot-to-dot-puzzle": {
+          "name": "Brontossauro"
+        },
+        "mermaid-dot-to-dot-puzzle": {
+          "name": "Sereia"
+        },
+        "merman-dot-to-dot-puzzle": {
+          "name": "Tritão"
+        },
+        "seahorse-dot-to-dot-puzzle": {
+          "name": "Cavalo-marinho"
+        },
+        "whale-dot-to-dot-puzzle": {
+          "name": "Baleia"
+        },
+        "swing-playgrounds-dot-to-dot-puzzle": {
+          "name": "Parque infantil com baloiços"
+        },
+        "slide-playgrounds-dot-to-dot-puzzle": {
+          "name": "Parque infantil com escorrega"
+        },
+        "seesaw-playground-dot-to-dot-puzzle": {
+          "name": "Parque infantil da Gangorra"
+        },
+        "roller-coaster-playground-dot-to-dot-puzzle": {
+          "name": "Parque de diversões com montanha russa"
+        },
+        "wheelbarrow-playground-dot-to-dot-puzzle": {
+          "name": "Parque infantil com carrinho de mão"
+        },
+        "garden-gloves-dot-to-dot-puzzle": {
+          "name": "Luvas de jardinagem"
+        },
+        "garden-trowel-dot-to-dot-puzzle": {
+          "name": "Pá de jardim"
+        },
+        "gas-balloon-usa-250-dot-to-dot-puzzle": {
+          "name": "Balão a gás América 250"
+        },
+        "america-250-birthday-fireworks-dot-to-dot-puzzle": {
+          "name": "Fogos de artifício do 250º aniversário dos Estados Unidos"
+        },
+        "america-250-anniversary-liberty-bell-wings-1776-dot-to-dot-puzzle": {
+          "name": "América 250 Asas do Sino da Liberdade"
+        },
+        "usa-250-astronaut-dot-to-dot-puzzle": {
+          "name": "Astronauta norte-americano 250"
+        },
+        "usa-250-anniversary-sports-kids-podium-dot-to-dot-puzzle": {
+          "name": "Pódio Infantil Desportivo do 250º Aniversário dos Estados Unidos"
+        },
+        "usa-250-anniversary-airplane-banner-dot-to-dot-puzzle": {
+          "name": "Bandeira comemorativa do 250º aniversário dos Estados Unidos"
+        },
+        "usa-250-space-shuttle-dot-to-dot-puzzle": {
+          "name": "Space Shuttle America 250"
+        },
+        "usa-250-birthday-balloons-stars-dot-to-dot-puzzle": {
+          "name": "Balões e estrelas para celebrar o 250º aniversário dos Estados Unidos"
+        },
+        "usa-250-birthday-cake-dot-to-dot-puzzle": {
+          "name": "Bolo de aniversário dos 250 anos dos Estados Unidos"
+        },
+        "america-250-anniversary-eagle-banner-dot-to-dot-puzzle": {
+          "name": "Bandeira da Águia dos 250 Anos da América"
+        },
+        "burj-al-arab-dot-to-dot-puzzle": {
+          "name": "Burj Al Árabe"
+        },
+        "dallah-coffee-pot-dot-to-dot-puzzle": {
+          "name": "Cafeteira Dallah"
+        }
+      }
+    },
+    "benefits": {
+      "eyebrow": "Com o apoio de educadores de infância.",
+      "heading": "Por que razão as fichas de trabalho de ligar os pontos são ótimas para o desenvolvimento infantil",
+      "description": "Os desenhos para imprimir de ligar os pontos são mais do que apenas diversão — são uma ferramenta comprovada por pesquisas, utilizada por professores da pré-escola e do jardim de infância para desenvolver competências essenciais de aprendizagem precoce.",
+      "fineMotorTitle": "Desenvolve a coordenação motora fina.",
+      "fineMotorText": "Desenhar linhas de ligar os pontos desenvolve a pega correta do lápis, a coordenação motora e o controlo muscular necessários para a escrita manual.",
+      "numberTitle": "Reforça o reconhecimento de números.",
+      "numberText": "Seguir a sequência de pontos 1 → 2 → 3 ensina a ordem dos números, o reconhecimento dos números e conceitos matemáticos básicos de forma natural e lúdica.",
+      "focusTitle": "Melhora o foco e a concentração.",
+      "focusText": "Completar um puzzle de ligar os pontos exige uma atenção sustentada — uma forma calma e sem ecrãs de praticar o foco para crianças desde a pré-escola até ao 3.º ano do ensino básico.",
+      "confidenceTitle": "Recompensa e confiança instantâneas",
+      "confidenceText": "Quando a imagem escondida aparece, as crianças sentem uma sensação imediata de conquista. Esta pequena vitória constrói o amor pela aprendizagem e uma mentalidade de crescimento."
+    },
+    "howTo": {
+      "eyebrow": "Pronto em menos de 60 segundos",
+      "heading": "Como descarregar e imprimir as suas folhas de exercícios de ligar os pontos gratuitas",
+      "step1Title": "Escolha o seu puzzle",
+      "step1Text": "Escolha um tema (animais, dinossauros, veículos, férias) e uma gama de pontos que corresponda à idade e ao nível de habilidade do seu filho.",
+      "step2Title": "Descarregue o PDF gratuito",
+      "step2Text": "Clique em \"Descarregar versão para impressão gratuita\" — sem necessidade de registo, e-mail ou pagamento. O seu navegador fará o download do PDF instantaneamente.",
+      "step3Title": "Imprima e desfrute!",
+      "step3Text": "Imprima em papel de tamanho Carta padrão (8,5\" × 11\"). A impressão a preto e branco funciona perfeitamente. Entregue ao seu filho e veja-o ligar os pontos!"
+    },
+    "trust": {
+      "eyebrow": "Porque é que os pais e os professores nos escolhem?",
+      "heading": "Gratuito, seguro e ridiculamente fácil de usar.",
+      "noAccountTitle": "Não é necessário criar uma conta.",
+      "noAccountText": "Todos os desenhos para imprimir de ligar os pontos são descarregados imediatamente — sem registo, sem e-mail, sem pagamento. Basta clicar e imprimir.",
+      "safeTitle": "Seguro para a sala de aula",
+      "safeText": "Páginas de puzzles limpas e sem anúncios, concebidas para impressoras escolares. Ideais para atividades matinais, trabalhos de casa ou momentos de tranquilidade.",
+      "fastTitle": "Rápido por natureza",
+      "fastText": "Páginas estáticas, imagens otimizadas e fontes locais garantem que os puzzles carregam rapidamente em qualquer dispositivo — telemóvel, tablet ou portátil."
+    },
+    "faq": {
+      "eyebrow": "Perguntas frequentes",
+      "heading": "Perguntas frequentes",
+      "q1": "Todos os desenhos para ligar os pontos neste site são totalmente gratuitos?",
+      "a1": "Sim — todas as fichas de trabalho de ligar os pontos no DotToDotFreePrintables.com são 100% gratuitas para descarregar e imprimir. Não é necessário criar uma conta, subscrever um plano ou utilizar um cartão de crédito.",
+      "q2": "Para que idade são adequadas as fichas de exercícios de ligar os pontos?",
+      "a2": "Os nossos materiais para imprimir abrangem idades dos 2 aos 12 anos. As fichas de atividades fáceis (10 a 20 pontos) são adequadas para crianças pequenas e em idade pré-escolar, as fichas de nível médio (20 a 50 pontos) são ótimas para o jardim de infância e o 1º ano, e as fichas mais difíceis (50 a mais de 200 pontos) desafiam os alunos do 2º ao 6º ano.",
+      "q3": "Qual o formato dos desenhos a imprimir de ligar os pontos?",
+      "a3": "Todas as fichas de trabalho são descarregadas como ficheiros PDF prontos para impressão, no tamanho padrão de papel Carta (8,5\" × 11\"). Abra em qualquer browser ou visualizador de PDF e imprima — não é necessário software especial.",
+      "q4": "Tem fichas de atividades de ligar os pontos para o pré-escolar e jardim de infância?",
+      "a4": "Com certeza. As nossas fichas de atividades mais fáceis começam com 1 a 10 pontos (perfeitas para crianças dos 2 aos 4 anos) e incluem temas de reconhecimento do alfabeto e dos números, desenvolvidos para salas de pré-escolar e jardim de infância.",
+      "q5": "Os professores podem utilizar estas fichas de exercícios de ligar os pontos na sala de aula?",
+      "a5": "Sim! Os nossos materiais para impressão são gratuitos para uso pessoal e em sala de aula. São populares para atividades matinais, atividades para alunos que terminam as tarefas mais cedo, planos de aula para professores substitutos, centros de desenvolvimento da motricidade fina e pacotes de trabalhos de casa.",
+      "q6": "Os jogos de ligar os pontos ajudam a desenvolver a motricidade fina?",
+      "a6": "Sim — ligar os pontos com linhas ajuda a desenvolver a força da preensão do lápis e a coordenação motora, que são essenciais para o desenvolvimento da escrita. Muitos terapeutas ocupacionais e professores de educação de infância recomendam atividades de ligar os pontos por este motivo.",
+      "q7": "Tem desenhos para imprimir de ligar os pontos com temas como animais ou dinossauros?",
+      "a7": "Temos 11 categorias, incluindo animais, dinossauros, veículos, criaturas marinhas, parques infantis, 250 anos da América, espaço, fantasia, temas sazonais/de férias, pacotes de atividades para professores e livros de pontos grandes. Novos designs são adicionados semanalmente.",
+      "q8": "Posso imprimir estes puzzles em preto e branco?",
+      "a8": "Sim, todas as nossas fichas de trabalho de ligar os pontos são concebidas para impressão a preto e branco, poupando tinta. Ficam muito bem em qualquer impressora doméstica ou escolar."
+    },
+    "newsletter": {
+      "eyebrow": "Kit de iniciação para imprimir — totalmente gratuito",
+      "heading": "Receba 20 desenhos para ligar os pontos gratuitos diretamente na sua caixa de entrada.",
+      "description": "Uma coleção prática para pais e professores, que abrange animais, veículos, dinossauros e temas sazonais — todas no tamanho padrão de papel Carta (US Letter) e otimizadas para impressão a preto e branco."
+    },
+    "blog": {
+      "eyebrow": "Ideias para adultos",
+      "heading": "Dicas de aprendizagem para casa e para a sala de aula.",
+      "viewAll": "Ver todos os artigos",
+      "read": "Ler"
+    },
+    "feedback": {
+      "eyebrow": "Adoraríamos ouvir a sua opinião.",
+      "heading": "Enviar feedback",
+      "description": "Tem uma ideia para um enigma, encontrou um link quebrado ou apenas quer dizer olá? Deixe uma mensagem abaixo."
+    },
+    "footer": {
+      "description": "Desenhos de ligar os pontos gratuitos para imprimir, ideais para crianças, pais e professores. Todos os puzzles podem ser descarregados, impressos e partilhados gratuitamente.",
+      "kids": "Miúdos",
+      "parents": "Pais",
+      "teachers": "Professores",
+      "blog": "Blog",
+      "faq": "Perguntas frequentes",
+      "feedback": "Feedback",
+      "about": "Sobre",
+      "contact": "Contacto",
+      "privacy": "Privacidade",
+      "terms": "Termos",
+      "sitemap": "Mapa do site",
+      "copyright": "© {year} DotToDotFreePrintables.com · Atividades imprimíveis gratuitas para crianças"
+    },
+    "common": {
+      "home": "Casa",
+      "new": "Novo",
+      "comingSoon": "Em breve",
+      "downloadFree": "Descarregue gratuitamente a versão para impressão.",
+      "viewDownload": "Ver e descarregar",
+      "shareTitle": "{name} Conecte os Pontos Imprimível - PDF Grátis",
+      "downloadAria": "Baixar PDF imprimível de conecte os pontos {name} grátis",
+      "bookmarkTitle": "{name} Conecte os Pontos Imprimível – PDF Grátis para Crianças",
+      "showSlide": "Mostrar slide {number}",
+      "ageRange": "Idades {min}-{max}",
+      "difficultyLabel": "Dificuldade {level} de 3",
+      "difficulty": {
+        "1": "Fácil",
+        "2": "Médio",
+        "3": "Duro"
+      },
+      "dots": "1–{count} pontos",
+      "homeVideoEyebrow": "Vídeo",
+      "homeVideoH2": "Veja a diversão de ligar os pontos em ação.",
+      "skipToContent": "Pular para o conteúdo principal",
+      "joinTeachers": "Junte-se a {count}+ professores",
+      "breadcrumbAria": "Caminho"
+    },
+    "puzzleSearch": {
+      "searchAria": "Quebra-cabeças de busca",
+      "resultsFound": "{count, plural, one {# quebra-cabeça encontrado} other {# quebra-cabeças encontrados}}",
+      "noMatches": "Nenhum resultado correspondeu à sua pesquisa.",
+      "imageAlt": "{name} ligar os pontos imprimível"
+    },
+    "newsletterForm": {
+      "ariaLabel": "Descarregue o pacote gratuito de desenhos para ligar os pontos para imprimir.",
+      "emailLabel": "Endereço de e-mail",
+      "submit": "Envio de pacote grátis",
+      "honeypot": "Deixe este campo vazio",
+      "privacy": "Sem spam, nunca. Cancele a subscrição quando quiser.",
+      "error": "Não foi possível submeter este formulário.",
+      "notConnected": "O registo para o pacote gratuito ainda não foi ativado."
+    },
+    "feedbackForm": {
+      "ariaLabel": "Enviar feedback",
+      "notConnected": "Este formulário de feedback ainda não está ligado.",
+      "typeLabel": "Que tipo de feedback?",
+      "selectTopic": "Selecione um tópico...",
+      "types": {
+        "general": "Feedback geral",
+        "requestTheme": "Solicite um tema de puzzle",
+        "brokenLink": "Reportar um link quebrado",
+        "improvement": "Sugira uma melhoria",
+        "other": "Outro"
+      },
+      "messageLabel": "A sua mensagem",
+      "messagePlaceholder": "Diga-nos o que pensa...",
+      "emailLabel": "E-mail",
+      "emailOptional": "(opcional - apenas se desejar uma resposta)",
+      "submit": "Enviar feedback",
+      "success": "Obrigado. O seu feedback foi enviado.",
+      "disclaimer": "Por favor, não inclua informações pessoais sensíveis. O e-mail é opcional e será utilizado apenas se precisarmos de responder.",
+      "iframeTitle": "Envio de feedback"
+    }
+  }
+}

@@ -1,0 +1,359 @@
+{
+  "collection": {},
+  "puzzles": [
+    {
+      "slug": "circus-ringmaster-bear-dot-to-dot-puzzle",
+      "header": {
+        "json_ld": {
+          "name": "Oso maestro de ceremonias",
+          "type": "CreativeWork",
+          "educational_use": "Fine motor skills, number sequencing"
+        }
+      },
+      "body": {
+        "name": "Oso maestro de ceremonias",
+        "tagline": "¡Conoce al oso que dirige el gran espectáculo!",
+        "description": "Une 74 puntos para descubrir un simpático oso vestido de maestro de ceremonias. Este imprimible de nivel intermedio ayuda a practicar la secuencia numérica, la concentración, el seguimiento visual y el control preciso del lápiz.",
+        "fun_fact": "El maestro de ceremonias presenta a los artistas y guía al público de un número al siguiente.",
+        "dot_guide": {
+          "intro": "Con su elegante chaqueta, sombrero alto y pose segura, este simpático oso está listo para dar la bienvenida al circo. El reto de 74 puntos se divide en cinco etapas claras para niños que ya siguen secuencias más largas. ¡Busca el punto 1 y que empiece la función!",
+          "outro": "Fantástico trabajo: ¡el oso maestro de ceremonias está listo para anunciar el espectáculo! Colorea el disfraz con rojos y dorados llamativos, luego agrega focos y una audiencia emocionada. Completa la escena con el <a href=\"/circus/circus-tent-dot-to-dot-puzzle/\">rompecabezas de carpa de circo</a>.",
+          "sections": [
+            {
+              "range": "1–15",
+              "title": "El sombrero del maestro",
+              "learn": "Une los puntos del 1 al 15 para dibujar el sombrero alto y las orejas redondeadas del oso.",
+              "fact": "Los maestros de ceremonias suelen llevar trajes elegantes y llamativos para que el público los vea fácilmente en la pista."
+            },
+            {
+              "range": "16–30",
+              "title": "La cara del oso",
+              "learn": "Continúa del punto 16 al 30 para formar la cabeza, el hocico y la expresión alegre del oso.",
+              "fact": "El olfato de los osos es muy potente y les ayuda a encontrar alimento a grandes distancias."
+            },
+            {
+              "range": "31–45",
+              "title": "La chaqueta elegante",
+              "learn": "Sigue los puntos del 31 al 45 para formar la chaqueta decorada y sus solapas.",
+              "fact": "Las chaquetas brillantes, los botones relucientes y los adornos dan un aspecto teatral al traje."
+            },
+            {
+              "range": "46–60",
+              "title": "Los brazos y la pose",
+              "learn": "Traza los puntos del 46 al 60 para añadir los brazos y la acogedora pose del artista.",
+              "fact": "El maestro de ceremonias usa gestos claros y una voz firme para dirigir la atención hacia el siguiente número."
+            },
+            {
+              "range": "61–74",
+              "title": "Las botas y el final",
+              "learn": "Termina con los puntos del 61 al 74 para dibujar las piernas, las botas y los últimos detalles del traje.",
+              "fact": "La pista de circo es tradicionalmente circular para que el público pueda ver el espectáculo desde muchos ángulos."
+            }
+          ],
+          "color_schemes": [
+            {
+              "name": "Oso maestro de ceremonias: Colores reales clásicos",
+              "note": "Esta paleta familiar usa colores que suelen verse en el motivo real.",
+              "mapping": [
+                {
+                  "range": "1–15",
+                  "part": "El sombrero del maestro",
+                  "color": "Crayola Scarlet",
+                  "hex": "#FC2847",
+                  "why": "Este color da a esta parte su aspecto real más conocido."
+                },
+                {
+                  "range": "16–30",
+                  "part": "La cara del oso",
+                  "color": "Crayola Sky Blue",
+                  "hex": "#80DAEB",
+                  "why": "Este color da a esta parte su aspecto real más conocido."
+                },
+                {
+                  "range": "31–45",
+                  "part": "La chaqueta elegante",
+                  "color": "Crayola Goldenrod",
+                  "hex": "#FCD975",
+                  "why": "Este color da a esta parte su aspecto real más conocido."
+                },
+                {
+                  "range": "46–60",
+                  "part": "Los brazos y la pose",
+                  "color": "Crayola Scarlet",
+                  "hex": "#FC2847",
+                  "why": "Este color da a esta parte su aspecto real más conocido."
+                },
+                {
+                  "range": "61–74",
+                  "part": "Las botas y el final",
+                  "color": "Crayola Sky Blue",
+                  "hex": "#80DAEB",
+                  "why": "Este color da a esta parte su aspecto real más conocido."
+                }
+              ]
+            },
+            {
+              "name": "Oso maestro de ceremonias: Colores naturales suaves",
+              "note": "Esta paleta clara refleja una versión real pálida o iluminada por el sol.",
+              "mapping": [
+                {
+                  "range": "1–15",
+                  "part": "El sombrero del maestro",
+                  "color": "Crayola Silver",
+                  "hex": "#CDC5C2",
+                  "why": "El tono claro muestra cómo puede verse esta parte a plena luz del día."
+                },
+                {
+                  "range": "16–30",
+                  "part": "La cara del oso",
+                  "color": "Crayola Tan",
+                  "hex": "#FAA76C",
+                  "why": "El tono claro muestra cómo puede verse esta parte a plena luz del día."
+                },
+                {
+                  "range": "31–45",
+                  "part": "La chaqueta elegante",
+                  "color": "Crayola Sea Green",
+                  "hex": "#93DFB8",
+                  "why": "El tono claro muestra cómo puede verse esta parte a plena luz del día."
+                },
+                {
+                  "range": "46–60",
+                  "part": "Los brazos y la pose",
+                  "color": "Crayola Silver",
+                  "hex": "#CDC5C2",
+                  "why": "El tono claro muestra cómo puede verse esta parte a plena luz del día."
+                },
+                {
+                  "range": "61–74",
+                  "part": "Las botas y el final",
+                  "color": "Crayola Tan",
+                  "hex": "#FAA76C",
+                  "why": "El tono claro muestra cómo puede verse esta parte a plena luz del día."
+                }
+              ]
+            },
+            {
+              "name": "Oso maestro de ceremonias: Colores reales intensos",
+              "note": "Esta paleta intensa se inspira en materiales, marcas o acabados pintados reales.",
+              "mapping": [
+                {
+                  "range": "1–15",
+                  "part": "El sombrero del maestro",
+                  "color": "Crayola Forest Green",
+                  "hex": "#5FA777",
+                  "why": "Este color profundo refleja una marca, un material o un acabado pintado real."
+                },
+                {
+                  "range": "16–30",
+                  "part": "La cara del oso",
+                  "color": "Crayola Brown",
+                  "hex": "#AF593E",
+                  "why": "Este color profundo refleja una marca, un material o un acabado pintado real."
+                },
+                {
+                  "range": "31–45",
+                  "part": "La chaqueta elegante",
+                  "color": "Crayola Orange",
+                  "hex": "#FF7538",
+                  "why": "Este color profundo refleja una marca, un material o un acabado pintado real."
+                },
+                {
+                  "range": "46–60",
+                  "part": "Los brazos y la pose",
+                  "color": "Crayola Forest Green",
+                  "hex": "#5FA777",
+                  "why": "Este color profundo refleja una marca, un material o un acabado pintado real."
+                },
+                {
+                  "range": "61–74",
+                  "part": "Las botas y el final",
+                  "color": "Crayola Brown",
+                  "hex": "#AF593E",
+                  "why": "Este color profundo refleja una marca, un material o un acabado pintado real."
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "slug": "circus-tent-dot-to-dot-puzzle",
+      "header": {
+        "json_ld": {
+          "name": "Carpa de circo",
+          "type": "CreativeWork",
+          "educational_use": "Fine motor skills, number sequencing"
+        }
+      },
+      "body": {
+        "name": "Carpa de circo",
+        "tagline": "¡Pasa y disfruta de una aventura bajo la gran carpa!",
+        "description": "Une 59 puntos para descubrir una alegre carpa de circo a rayas, lista para el espectáculo. Este imprimible fácil ayuda a practicar el conteo en orden, el seguimiento visual, la concentración y el control del lápiz.",
+        "fun_fact": "La carpa principal de un circo suele llamarse gran carpa porque es la más grande de todo el espectáculo.",
+        "dot_guide": {
+          "intro": "La colorida carpa de circo es el lugar donde acróbatas, payasos y otros artistas se reúnen bajo un enorme techo. Este simpático puzle de 59 puntos construye la gran carpa en cinco etapas. ¡Busca el punto 1, prepara el lápiz y que empiece la función!",
+          "outro": "Bravo: ¡tu carpa de circo está lista para la noche del estreno! Colorea el dosel con rayas llamativas, agrega luces y banderines y atrae a la multitud que llega al espectáculo. Prueba el <a href=\"/playgrounds/carousel-horse-playground-dot-to-dot-puzzle/\">rompecabezas del caballo del carrusel</a> a continuación.",
+          "sections": [
+            {
+              "range": "1–12",
+              "title": "La bandera al viento",
+              "learn": "Une los puntos del 1 al 12 para dibujar la bandera y la parte más alta de la carpa.",
+              "fact": "La bandera de la cima ayuda a los visitantes a encontrar la gran carpa desde lejos."
+            },
+            {
+              "range": "13–24",
+              "title": "El alto pico de la carpa",
+              "learn": "Continúa del punto 13 al 24 para formar el techo inclinado que sube hacia el poste central.",
+              "fact": "Los altos postes centrales sostienen el techo de una carpa tradicional y crean su conocida forma puntiaguda."
+            },
+            {
+              "range": "25–36",
+              "title": "La lona a rayas",
+              "learn": "Sigue los puntos del 25 al 36 por la ancha lona y traza con cuidado sus rayas decorativas.",
+              "fact": "Las rayas llamativas hacen que las carpas de circo sean fáciles de reconocer y les dan un aspecto festivo."
+            },
+            {
+              "range": "37–48",
+              "title": "Las paredes de la carpa",
+              "learn": "Traza los puntos del 37 al 48 por ambos lados para formar las resistentes paredes.",
+              "fact": "Las cuerdas fuertes y las estacas ayudan a mantener firmes las grandes carpas cuando sopla el viento."
+            },
+            {
+              "range": "49–59",
+              "title": "La gran entrada",
+              "learn": "Termina con los puntos del 49 al 59 para añadir la entrada abierta por donde pasa el público.",
+              "fact": "Las entradas del circo suelen tener adornos de colores para dar la bienvenida y crear emoción antes de la función."
+            }
+          ],
+          "color_schemes": [
+            {
+              "name": "Carpa de circo: Colores reales clásicos",
+              "note": "Esta paleta familiar usa colores que suelen verse en el motivo real.",
+              "mapping": [
+                {
+                  "range": "1–12",
+                  "part": "La bandera al viento",
+                  "color": "Crayola Scarlet",
+                  "hex": "#FC2847",
+                  "why": "Este color da a esta parte su aspecto real más conocido."
+                },
+                {
+                  "range": "13–24",
+                  "part": "El alto pico de la carpa",
+                  "color": "Crayola Sky Blue",
+                  "hex": "#80DAEB",
+                  "why": "Este color da a esta parte su aspecto real más conocido."
+                },
+                {
+                  "range": "25–36",
+                  "part": "La lona a rayas",
+                  "color": "Crayola Goldenrod",
+                  "hex": "#FCD975",
+                  "why": "Este color da a esta parte su aspecto real más conocido."
+                },
+                {
+                  "range": "37–48",
+                  "part": "Las paredes de la carpa",
+                  "color": "Crayola Scarlet",
+                  "hex": "#FC2847",
+                  "why": "Este color da a esta parte su aspecto real más conocido."
+                },
+                {
+                  "range": "49–59",
+                  "part": "La gran entrada",
+                  "color": "Crayola Sky Blue",
+                  "hex": "#80DAEB",
+                  "why": "Este color da a esta parte su aspecto real más conocido."
+                }
+              ]
+            },
+            {
+              "name": "Carpa de circo: Colores naturales suaves",
+              "note": "Esta paleta clara refleja una versión real pálida o iluminada por el sol.",
+              "mapping": [
+                {
+                  "range": "1–12",
+                  "part": "La bandera al viento",
+                  "color": "Crayola Silver",
+                  "hex": "#CDC5C2",
+                  "why": "El tono claro muestra cómo puede verse esta parte a plena luz del día."
+                },
+                {
+                  "range": "13–24",
+                  "part": "El alto pico de la carpa",
+                  "color": "Crayola Tan",
+                  "hex": "#FAA76C",
+                  "why": "El tono claro muestra cómo puede verse esta parte a plena luz del día."
+                },
+                {
+                  "range": "25–36",
+                  "part": "La lona a rayas",
+                  "color": "Crayola Sea Green",
+                  "hex": "#93DFB8",
+                  "why": "El tono claro muestra cómo puede verse esta parte a plena luz del día."
+                },
+                {
+                  "range": "37–48",
+                  "part": "Las paredes de la carpa",
+                  "color": "Crayola Silver",
+                  "hex": "#CDC5C2",
+                  "why": "El tono claro muestra cómo puede verse esta parte a plena luz del día."
+                },
+                {
+                  "range": "49–59",
+                  "part": "La gran entrada",
+                  "color": "Crayola Tan",
+                  "hex": "#FAA76C",
+                  "why": "El tono claro muestra cómo puede verse esta parte a plena luz del día."
+                }
+              ]
+            },
+            {
+              "name": "Carpa de circo: Colores reales intensos",
+              "note": "Esta paleta intensa se inspira en materiales, marcas o acabados pintados reales.",
+              "mapping": [
+                {
+                  "range": "1–12",
+                  "part": "La bandera al viento",
+                  "color": "Crayola Forest Green",
+                  "hex": "#5FA777",
+                  "why": "Este color profundo refleja una marca, un material o un acabado pintado real."
+                },
+                {
+                  "range": "13–24",
+                  "part": "El alto pico de la carpa",
+                  "color": "Crayola Brown",
+                  "hex": "#AF593E",
+                  "why": "Este color profundo refleja una marca, un material o un acabado pintado real."
+                },
+                {
+                  "range": "25–36",
+                  "part": "La lona a rayas",
+                  "color": "Crayola Orange",
+                  "hex": "#FF7538",
+                  "why": "Este color profundo refleja una marca, un material o un acabado pintado real."
+                },
+                {
+                  "range": "37–48",
+                  "part": "Las paredes de la carpa",
+                  "color": "Crayola Forest Green",
+                  "hex": "#5FA777",
+                  "why": "Este color profundo refleja una marca, un material o un acabado pintado real."
+                },
+                {
+                  "range": "49–59",
+                  "part": "La gran entrada",
+                  "color": "Crayola Brown",
+                  "hex": "#AF593E",
+                  "why": "Este color profundo refleja una marca, un material o un acabado pintado real."
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

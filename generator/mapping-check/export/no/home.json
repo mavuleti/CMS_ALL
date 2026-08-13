@@ -1,0 +1,409 @@
+{
+  "slug": "home",
+  "header": {
+    "title": "Free Dot to Dot Printables for Kids | Connect the Dots Worksheets PDF",
+    "title_template": "%s | DotToDotFreePrintables.com",
+    "meta_description": "hardcoded literal in layout.tsx generateMetadata() — see file for exact wording, distinct from seo/metadata.json's homepage.description",
+    "canonical": "/{locale}/",
+    "og": {
+      "title": "Free dot-to-dot worksheets for kids",
+      "description": "same var as header.meta_description (shared, not distinct)",
+      "url": "/{locale}/",
+      "site_name": "DotToDotFreePrintables.com",
+      "type": "website",
+      "image": "/images/trex-61-puzzle.webp (800x679)"
+    },
+    "twitter": {
+      "card": "summary_large_image"
+    },
+    "manifest": "/manifest.webmanifest",
+    "json_ld": {
+      "website": {
+        "type": "WebSite",
+        "name": "DotToDotFreePrintables.com (SITE_NAME)"
+      },
+      "organization": {
+        "type": "Organization",
+        "logo": "/icon-512.png (absoluteUrl)",
+        "same_as": "hardcoded array: Pinterest, Facebook, YouTube profile URLs"
+      },
+      "collection_page": {
+        "type": "CollectionPage",
+        "name": "Free Dot to Dot Printables for Kids (third distinct hardcoded title string in the codebase — differs from header.title and seo/metadata.json's homepage.title)"
+      },
+      "item_list": {
+        "type": "ItemList (featured puzzles)"
+      }
+    }
+  },
+  "body": {
+    "nav": {
+      "kids": "Barn - Puslespill",
+      "teachers": "Lærere",
+      "parents": "Foreldre",
+      "contact": "Kontakt oss",
+      "blog": "Blogg",
+      "search": "Søk",
+      "freePack": "Gratis pakke",
+      "scanMe": "Skann meg"
+    },
+    "homepageUi": {
+      "title": "Finn de perfekte prikk-til-prikk-utskriftene",
+      "description": "Skriv ut, koble prikkene, og gjør fantastiske bilder levende. Gratis og klart for moro!",
+      "searchPlaceholder": "Prøv hav, dinosaur eller blomster",
+      "filterPuzzles": "Filtrer puslespill",
+      "age": "Alder",
+      "dots": "prikker",
+      "featuredPuzzles": "Utvalgte utskrivbare puslespill",
+      "savePuzzle": "Lagre {name}",
+      "removeSavedPuzzle": "Fjern {name} fra lagrede",
+      "downloads": "nedlastinger",
+      "bookTitle": "Det beste fra 2026 · {count}",
+      "bookDescription": "Våre favoritt prikk-til-prikk-oppgaver i én utskrivbar PDF-bok.",
+      "searchUnavailable": "Søk er midlertidig utilgjengelig. Prøv igjen.",
+      "popularEyebrow": "Populært denne uken",
+      "mostDownloaded": "Mest nedlastede puslespill",
+      "downloadCountAria": "{count} eller flere nedlastinger",
+      "freshPrintables": "Friske utskrifter",
+      "recentlyAdded": "Nylig lagt til",
+      "browseCategories": "Bla gjennom puslespillkategorier",
+      "openCategories": "Åpne kategorimeny",
+      "closeCategories": "Lukk kategorimeny",
+      "browseByTheme": "Bla gjennom etter tema",
+      "quickLinks": "Hurtiglenker",
+      "bundlePacks": "Pakker med flere",
+      "parentsTeachers": "For foreldre og lærere",
+      "more": "Flere kategorier",
+      "kids": "Barn",
+      "categoryNames": {
+        "cute": "Søte puslespill",
+        "flowers": "Blomster"
+      }
+    },
+    "audience": {
+      "kidsTitle": "For barn",
+      "kidsText": "Vennlige dyre-, dinosaur- og kjøretøytemaer med tydelige nummererte prikker. Enkle gevinster som bygger ekte selvtillit.",
+      "parentsTitle": "For foreldre",
+      "parentsText": "Skjermfrie aktiviteter for stille stunder hjemme, på reise og på restauranter. Skriv ut fra hvilken som helst enhet på under ett minutt.",
+      "teachersTitle": "For lærere",
+      "teachersText": "Lavforberedende koblinger til morgenarbeid, tidlige ferdige elever, vikarer og klasseromsstasjoner – ingen forberedelse nødvendig."
+    },
+    "categories": {
+      "eyebrow": "Organisert etter tema og ferdighetsnivå",
+      "heading": "Bla gjennom prikk-til-prikk-puslespill etter kategori",
+      "description": "Fra enkle 10-punktsformer for småbarn til 200-punkts utfordringer for eldre barn – sortert etter kategori, slik at du finner den rette gratis utskriften på sekunder.",
+      "puzzles": "{count, plural, one {# puslespill} other {# puslespill}}",
+      "comingSoon": "Kommer snart",
+      "badges": {
+        "dinosaurs": "Tilgjengelig nå!",
+        "ocean": "Tilgjengelig nå!",
+        "playgrounds": "Tilgjengelig nå!",
+        "garden": "Tilgjengelig nå!",
+        "usa250": "Ny!",
+        "uae": "Tilgjengelig nå!",
+        "cute": "Ny!",
+        "circus": "Ny!"
+      },
+      "items": {
+        "dinosaurs": {
+          "name": "Dinosaurer",
+          "description": "Brøl inn i forhistorisk moro! T-Rex, Triceratops, Velociraptor og {count} gratis prikk-til-prikk-puslespill som barna dine vil elske."
+        },
+        "animals": {
+          "name": "Dyr",
+          "description": "Vennlige skapninger for tidlig talløving."
+        },
+        "vehicles": {
+          "name": "Kjøretøy",
+          "description": "Biler, lastebiler, raketter og maskiner."
+        },
+        "fantasy": {
+          "name": "Fantasi",
+          "description": "Slott, enhjørninger, drager og historieoppfordringer."
+        },
+        "seasonal": {
+          "name": "Sesongbasert",
+          "description": "Ferie- og klasseromskalenderaktiviteter."
+        },
+        "ocean": {
+          "name": "Hav",
+          "description": "Sjødyr og rolige fargeleggingssider."
+        },
+        "playgrounds": {
+          "name": "Lekeplasser",
+          "description": "Husker, sklier og utendørsmoro for små eventyrere."
+        },
+        "garden": {
+          "name": "Hage",
+          "description": "Hansker, sparkel og verktøy for små hagehjelpere."
+        },
+        "usa250": {
+          "name": "Amerika 250 år",
+          "description": "Feir Amerikas 250-årsdag med patriotiske prikk-til-prikk-puslespill som hedrer amerikansk historie."
+        },
+        "uae": {
+          "name": "De forente arabiske emirater",
+          "description": "Utforsk De forente arabiske emirater! Ikoniske landemerker som Burj Al Arab, klare til å bli kjent med hverandre og fargelegges."
+        },
+        "space": {
+          "name": "Rom",
+          "description": "Planeter, astronauter og rakett-eventyr."
+        },
+        "worksheets": {
+          "name": "Regneark",
+          "description": "Lærerklare tallsekvenseringsark."
+        },
+        "bigDotBooks": {
+          "name": "Store Prikkbøker",
+          "description": "Lange puslespill for fokuserte eldre elever."
+        },
+        "cute": {
+          "name": "Søt",
+          "description": "Nydelige valper, små biler og {count} sjarmerende gratis prikk-til-prikk-puslespill som barna dine vil elske."
+        },
+        "circus": {
+          "name": "Sirkus",
+          "description": "Ringmestere, store telt og showtids moro for unge lærere."
+        }
+      }
+    },
+    "puzzleSection": {
+      "eyebrow": "Gratis utskrivbare prøver – ingen påmelding",
+      "heading": "Populære «koble prikkene sammen»-ark som kan skrives ut nå",
+      "weeklyPack": "Se ukepakken →",
+      "downloadLink": "Last ned gratis utskrift",
+      "new": "Ny",
+      "imageAlt": "Gratis utskrivbart punkt-til-punkt-ark med {name} for {age}",
+      "categories": {
+        "Dinosaurs": "Dinosaurer",
+        "Ocean": "Hav",
+        "Playgrounds": "Lekeplasser",
+        "Garden": "Hage",
+        "Cute": "Søt",
+        "USA 250 Years": "Amerika 250 år",
+        "UAE": "De forente arabiske emirater"
+      },
+      "items": {
+        "trex-61-dot-to-dot-puzzle": {
+          "name": "T-Rex 61-punkts utfordring"
+        },
+        "brontosaurus-dot-to-dot-puzzle": {
+          "name": "Brontosaurus"
+        },
+        "mermaid-dot-to-dot-puzzle": {
+          "name": "Havfrue"
+        },
+        "merman-dot-to-dot-puzzle": {
+          "name": "Havmann"
+        },
+        "seahorse-dot-to-dot-puzzle": {
+          "name": "Sjøhest"
+        },
+        "whale-dot-to-dot-puzzle": {
+          "name": "Hval"
+        },
+        "swing-playgrounds-dot-to-dot-puzzle": {
+          "name": "Huskeplass"
+        },
+        "slide-playgrounds-dot-to-dot-puzzle": {
+          "name": "Skli-lekeplass"
+        },
+        "seesaw-playground-dot-to-dot-puzzle": {
+          "name": "Vippeplass"
+        },
+        "roller-coaster-playground-dot-to-dot-puzzle": {
+          "name": "Berg-og-dal-bane lekeplass"
+        },
+        "wheelbarrow-playground-dot-to-dot-puzzle": {
+          "name": "Trillebår-lekeplass"
+        },
+        "garden-gloves-dot-to-dot-puzzle": {
+          "name": "Hagehansker"
+        },
+        "garden-trowel-dot-to-dot-puzzle": {
+          "name": "Hagesparkel"
+        },
+        "gas-balloon-usa-250-dot-to-dot-puzzle": {
+          "name": "Gassballong America 250"
+        },
+        "america-250-birthday-fireworks-dot-to-dot-puzzle": {
+          "name": "Amerikas 250-årsdagsfyrverkeri"
+        },
+        "america-250-anniversary-liberty-bell-wings-1776-dot-to-dot-puzzle": {
+          "name": "Amerika 250 Frihetsklokke-vinger"
+        },
+        "usa-250-astronaut-dot-to-dot-puzzle": {
+          "name": "Amerika 250 Astronaut"
+        },
+        "usa-250-anniversary-sports-kids-podium-dot-to-dot-puzzle": {
+          "name": "America 250-årsjubileumsidrettsbarnepodium"
+        },
+        "usa-250-anniversary-airplane-banner-dot-to-dot-puzzle": {
+          "name": "Amerikas 250-årsjubileumsbanner for fly"
+        },
+        "usa-250-space-shuttle-dot-to-dot-puzzle": {
+          "name": "America 250 romferge"
+        },
+        "usa-250-birthday-balloons-stars-dot-to-dot-puzzle": {
+          "name": "Amerikas 250-årsdagsballonger og stjerner"
+        },
+        "usa-250-birthday-cake-dot-to-dot-puzzle": {
+          "name": "Amerika 250 bursdagskake"
+        },
+        "america-250-anniversary-eagle-banner-dot-to-dot-puzzle": {
+          "name": "Amerika 250 Ørnebanner"
+        },
+        "burj-al-arab-dot-to-dot-puzzle": {
+          "name": "Burj Al Arab"
+        },
+        "dallah-coffee-pot-dot-to-dot-puzzle": {
+          "name": "Dallah kaffekanne"
+        }
+      }
+    },
+    "benefits": {
+      "eyebrow": "Støttet av førskolelærere",
+      "heading": "Hvorfor prikk-til-prikk-arbeidsark er bra for barns utvikling",
+      "description": "Utskrivbare «koble prikkene»-ark er mer enn bare moro – de er et forskningsbasert verktøy som brukes av førskole- og barnehagelærere for å bygge grunnleggende ferdigheter i tidlig læring.",
+      "fineMotorTitle": "Bygger finmotorikk",
+      "fineMotorText": "Å tegne prikk-til-prikk-linjer utvikler blyantgrep, hånd-øye-koordinasjon og muskelkontrollen barn trenger for håndskrift.",
+      "numberTitle": "Forsterker tallgjenkjenning",
+      "numberText": "Å følge punktene 1 → 2 → 3 i rekkefølge lærer tellerekkefølge, tallgjenkjenning og tidlige mattebegreper naturlig gjennom lek.",
+      "focusTitle": "Forbedrer fokus og konsentrasjon",
+      "focusText": "Å fullføre en koble-til-prikken-gåte krever vedvarende oppmerksomhet – en rolig, skjermfri måte å øve fokus på fra førskole til 3. klasse.",
+      "confidenceTitle": "Øyeblikkelig belønning og selvtillit",
+      "confidenceText": "Når det skjulte bildet dukker opp, føler barna en umiddelbar følelse av prestasjon. Den lille seieren bygger opp en kjærlighet til læring og en veksttankegang."
+    },
+    "howTo": {
+      "eyebrow": "Klar på under 60 sekunder",
+      "heading": "Slik laster du ned og skriver ut gratis punkt-til-punkt-arbeidsark",
+      "step1Title": "Velg puslespillet ditt",
+      "step1Text": "Velg et tema (dyr, dinosaurer, kjøretøy, høytid) og et prikkutvalg som passer til barnets alder og ferdighetsnivå.",
+      "step2Title": "Last ned gratis PDF-fil",
+      "step2Text": "Klikk på «Last ned gratis utskrift» – ingen konto, ingen e-post, ingen betalingsmur. Nettleseren din laster ned PDF-filen umiddelbart.",
+      "step3Title": "Skriv ut og nyt",
+      "step3Text": "Skriv ut på standard US Letter-papir (8,5\" × 11\"). Svart-hvitt fungerer perfekt. Gi det til barnet ditt og se dem koble sammen prikkene!"
+    },
+    "trust": {
+      "eyebrow": "Hvorfor foreldre og lærere velger oss",
+      "heading": "Gratis, trygt og latterlig enkelt å bruke.",
+      "noAccountTitle": "Ingen konto kreves",
+      "noAccountText": "Alle utskrivbare punkt-til-punkt-bilder lastes ned umiddelbart – ingen registrering, ingen e-post, ingen betalingsmur. Bare klikk og skriv ut.",
+      "safeTitle": "Klasseromssikkerhet",
+      "safeText": "Rene, reklamefrie puslespillsider designet for skoleskrivere. Fungerer til morgenarbeid, lekser eller stille stunder.",
+      "fastTitle": "Raskt av design",
+      "fastText": "Statiske sider, optimaliserte bilder og lokale fonter betyr at oppgaver lastes raskt på alle enheter – telefon, nettbrett eller bærbar PC."
+    },
+    "faq": {
+      "eyebrow": "Vanlige spørsmål",
+      "heading": "Ofte stilte spørsmål",
+      "q1": "Er alle punkt-til-punkt-utskrivbare ark på dette nettstedet helt gratis?",
+      "a1": "Ja – alle «koble sammen prikkene»-arbeidsark på DotToDotFreePrintables.com er 100 % gratis å laste ned og skrive ut. Det kreves ingen konto, abonnement eller kredittkort.",
+      "q2": "Hvilken alder passer prikk-til-prikk-arbeidsark for?",
+      "a2": "Våre utskrivbare ark dekker alderen 2–12 år. Enkle arbeidsark (10–20 prikker) passer for småbarn og førskolebarn, mellomstore ark (20–50 prikker) er flotte for barnehage og 1. klasse, og vanskeligere ark (50–200+ prikker) utfordrer 2. til 6. klassinger.",
+      "q3": "Hvilket format er de utskrivbare «koble-prikkene»-filene?",
+      "a3": "Alle arbeidsark kan lastes ned som utskriftsklare PDF-filer i størrelse for standard US Letter-papir (8,5 × 11 tommer). Åpne i hvilken som helst nettleser eller PDF-leser og skriv ut – ingen spesiell programvare er nødvendig.",
+      "q4": "Har dere prikk-til-prikk-arbeidsark for førskole og barnehage?",
+      "a4": "Absolutt. Våre enkleste arbeidsark starter på 1–10 prikker (perfekt for alderen 2–4) og inkluderer temaer for alfabet- og tallgjenkjenning designet for førskole- og barnehageklasser.",
+      "q5": "Kan lærere bruke disse koble-prikkene-arbeidsarkene i klasserommet?",
+      "a5": "Ja! Våre utskriftsmateriell er gratis for personlig bruk og bruk i klasserommet. De er populære for morgenarbeid, tidlige skoleoppgaver, vikartimer, finmotoriske sentre og leksepakker.",
+      "q6": "Hjelper prikk-til-prikk-puslespill med finmotorikk?",
+      "a6": "Ja – å tegne linjer mellom prikker bygger opp blyantgrepsstyrken og hånd-øye-koordinasjonen som støtter håndskriftforberedelsen. Mange ergoterapeuter og barnehagelærere anbefaler prikkkoblende aktiviteter av denne grunn.",
+      "q7": "Har dere temabaserte punkt-til-punkt-utskriftbare ark som dyr eller dinosaurer?",
+      "a7": "Vi har 11 kategorier, inkludert dyr, dinosaurer, kjøretøy, havdyr, lekeplasser, Amerika 250 år, romfart, fantasi, sesong-/høytidstemaer, arbeidsarkpakker for lærere og bøker med store prikker. Nye design legges til ukentlig.",
+      "q8": "Kan jeg skrive ut disse puslespillene i svart-hvitt?",
+      "a8": "Ja – alle våre «koble sammen prikkene»-arbeidsark er laget for svart-hvitt-utskrift for å spare blekk. De ser flotte ut på enhver skriver hjemme eller i klasserommet."
+    },
+    "newsletter": {
+      "eyebrow": "Utskrivbar startpakke – helt gratis",
+      "heading": "Få 20 gratis punkt-til-punkt-utskrivbare ark levert i innboksen din.",
+      "description": "En foreldre- og lærervennlig samling som dekker dyr, kjøretøy, dinosaurer og sesongtemaer – alt i størrelse for standard amerikansk Letter-papir og optimalisert for svart-hvitt-utskrift."
+    },
+    "blog": {
+      "eyebrow": "Ideer for voksne",
+      "heading": "Læringstips for hjemmet og klasserommet",
+      "viewAll": "Se alle artiklene",
+      "read": "Lese"
+    },
+    "feedback": {
+      "eyebrow": "Vi vil gjerne høre fra deg",
+      "heading": "Send tilbakemelding",
+      "description": "Har du en idé til et puslespill, oppdaget en ødelagt lenke, eller vil du bare si hei? Send oss ​​en beskjed nedenfor."
+    },
+    "footer": {
+      "description": "Gratis utskrivbare prikk-til-prikk-oppgaver og koble-prikkene-arbeidsark for barn, foreldre og lærere. Alle oppgavene er gratis å laste ned, skrive ut og dele.",
+      "kids": "Barn",
+      "parents": "Foreldre",
+      "teachers": "Lærere",
+      "blog": "Blogg",
+      "faq": "Vanlige spørsmål",
+      "feedback": "Tilbakemelding",
+      "about": "Om",
+      "contact": "Kontakt",
+      "privacy": "Privatliv",
+      "terms": "Vilkår",
+      "sitemap": "Nettstedkart",
+      "copyright": "© {year} DotToDotFreePrintables.com · Gratis utskrivbare aktiviteter for barn"
+    },
+    "common": {
+      "home": "Hjem",
+      "new": "Ny",
+      "comingSoon": "Kommer snart",
+      "downloadFree": "Last ned gratis utskrift",
+      "viewDownload": "Vis og last ned",
+      "shareTitle": "{name} Prikk-til-prikk Utskrivbar - Gratis PDF",
+      "downloadAria": "Last ned gratis {name} prikk-til-prikk utskrivbar PDF",
+      "bookmarkTitle": "{name} Prikk-til-prikk Utskrivbar – Gratis PDF for Barn",
+      "showSlide": "Vis lysbilde {number}",
+      "ageRange": "Alder {min}–{max}",
+      "difficultyLabel": "Vanskelighetsgrad {level} av 3",
+      "difficulty": {
+        "1": "Lett",
+        "2": "Moderat",
+        "3": "Vanskelig"
+      },
+      "dots": "1–{count} prikker",
+      "homeVideoEyebrow": "Video",
+      "homeVideoH2": "Se prikk-til-prikk-moro i aksjon",
+      "skipToContent": "Hopp til hovedinnhold",
+      "joinTeachers": "Bli med {count}+ lærere",
+      "breadcrumbAria": "Brødsmulesti"
+    },
+    "puzzleSearch": {
+      "searchAria": "Søk i gåter",
+      "resultsFound": "{count, plural, one {# puslespill funnet} other {# puslespill funnet}}",
+      "noMatches": "Ingen gåter samsvarte med søket ditt.",
+      "imageAlt": "{name} punkt-til-punkt utskrivbar"
+    },
+    "newsletterForm": {
+      "ariaLabel": "Få den gratis utskrivbare punkt-til-punkt-pakken",
+      "emailLabel": "E-postadresse",
+      "submit": "Send gratis pakke",
+      "honeypot": "La dette feltet stå tomt",
+      "privacy": "Ingen spam, noensinne. Du kan melde deg av når som helst.",
+      "error": "Kan ikke sende inn dette skjemaet.",
+      "notConnected": "Registreringen for gratispakken er ikke koblet til ennå."
+    },
+    "feedbackForm": {
+      "ariaLabel": "Send tilbakemelding",
+      "notConnected": "Dette tilbakemeldingsskjemaet er ikke koblet til ennå.",
+      "typeLabel": "Hva slags tilbakemeldinger?",
+      "selectTopic": "Velg et emne...",
+      "types": {
+        "general": "Generell tilbakemelding",
+        "requestTheme": "Be om et puslespilltema",
+        "brokenLink": "Rapporter en ødelagt lenke",
+        "improvement": "Foreslå en forbedring",
+        "other": "Annen"
+      },
+      "messageLabel": "Din melding",
+      "messagePlaceholder": "Fortell oss hva du synes...",
+      "emailLabel": "E-post",
+      "emailOptional": "(valgfritt – kun hvis du ønsker svar)",
+      "submit": "Send tilbakemelding",
+      "success": "Takk. Tilbakemeldingen din er sendt.",
+      "disclaimer": "Vennligst ikke oppgi sensitiv personlig informasjon. E-post er valgfritt og brukes kun hvis vi trenger å svare.",
+      "iframeTitle": "Innsending av tilbakemeldinger"
+    }
+  }
+}

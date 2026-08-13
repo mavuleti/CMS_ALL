@@ -1,0 +1,509 @@
+{
+  "collection": {},
+  "puzzles": [
+    {
+      "slug": "crescent-moon-dot-to-dot-puzzle",
+      "header": {
+        "json_ld": {
+          "name": "Halvmåne",
+          "type": "CreativeWork",
+          "educational_use": "Fine motor skills, number sequencing"
+        }
+      },
+      "body": {
+        "name": "Halvmåne",
+        "tagline": "Tegn en strålende skive af nattehimlen!",
+        "description": "Forbind 60 lette prikker for at afsløre en smuk halvmåne, der lyser op på nattehimlen. Dette gratis printbare hjælper børn med at øve talrækkefølge, visuel sporing, koncentration og glat blyantkontrol.",
+        "fun_fact": "En halvmåne vises, når sollys kun oplyser en tynd buet del af Månen, som vi kan se fra Jorden.",
+        "dot_guide": {
+          "intro": "En slank halvmåne er en af de mest genkendelige former på nattehimlen. Dette venlige 60-prik puslespil bygger dens ydre kurve, spidse tip og indre bue i fem håndterbare trin. Find prik 1, og lad din måne begynde at lyse!",
+          "outro": "Smukt arbejde—din halvmåne skinner! Tilføj stjerner, søvnige skyer eller en raket, der krydser himlen, og opdag <a href=\"/space/ringed-planet-dot-to-dot-puzzle/\">ringen planet puslespillet</a>.",
+          "sections": [
+            {
+              "range": "1–12",
+              "title": "Den Øverste Månetip",
+              "learn": "Forbind prikkerne 1 til 12 for at forme halvmånens smalle øverste punkt.",
+              "fact": "Månen laver ikke sit eget lys; den skinner ved at reflektere sollys."
+            },
+            {
+              "range": "13–24",
+              "title": "Den Ydre Kurve",
+              "learn": "Fortsæt fra prik 13 til prik 24 langs den brede ydre kurve af Månen.",
+              "fact": "Tyngdekraften gjorde Månen næsten rund, ligesom den gør planeter runde."
+            },
+            {
+              "range": "25–36",
+              "title": "Den Nedre Månetip",
+              "learn": "Følg prikkerne 25 til 36 for at danne det nederste punkt og dreje mod den indre kurve.",
+              "fact": "Månens overflade er dækket af kratre lavet af klipper, der rammer den gennem milliarder af år."
+            },
+            {
+              "range": "37–48",
+              "title": "Den Indre Halvmåne",
+              "learn": "Tegn prikkerne 37 til 48 op ad den indre bue, og hold din blyantlinje glat.",
+              "fact": "Månen tager cirka 29,5 dage at bevæge sig gennem en komplet cyklus af faser."
+            },
+            {
+              "range": "49–60",
+              "title": "Gløden og Afslutningen",
+              "learn": "Afslut med prikkerne 49 til 60 for at lukke halvmånen og tilføje dens sidste detaljer.",
+              "fact": "Folk over hele verden ser den samme Måne, selvom dens halvmåne kan fremstå skråt forskelligt afhængigt af placeringen."
+            }
+          ],
+          "color_schemes": [
+            {
+              "name": "Halvmåne: Klassiske virkelige farver",
+              "note": "Denne velkendte palet bruger farver, der ofte ses på det virkelige motiv.",
+              "mapping": [
+                {
+                  "range": "1–12",
+                  "part": "Den Øverste Månetip",
+                  "color": "Crayola Silver",
+                  "hex": "#CDC5C2",
+                  "why": "Farven giver delen dens velkendte virkelige udseende."
+                },
+                {
+                  "range": "13–24",
+                  "part": "Den Ydre Kurve",
+                  "color": "Crayola Scarlet",
+                  "hex": "#FC2847",
+                  "why": "Farven giver delen dens velkendte virkelige udseende."
+                },
+                {
+                  "range": "25–36",
+                  "part": "Den Nedre Månetip",
+                  "color": "Crayola Black",
+                  "hex": "#232323",
+                  "why": "Farven giver delen dens velkendte virkelige udseende."
+                },
+                {
+                  "range": "37–48",
+                  "part": "Den Indre Halvmåne",
+                  "color": "Crayola Silver",
+                  "hex": "#CDC5C2",
+                  "why": "Farven giver delen dens velkendte virkelige udseende."
+                },
+                {
+                  "range": "49–60",
+                  "part": "Gløden og Afslutningen",
+                  "color": "Crayola Scarlet",
+                  "hex": "#FC2847",
+                  "why": "Farven giver delen dens velkendte virkelige udseende."
+                }
+              ]
+            },
+            {
+              "name": "Halvmåne: Bløde naturfarver",
+              "note": "Denne lyse palet viser en ægte bleg eller solbelyst udgave af motivet.",
+              "mapping": [
+                {
+                  "range": "1–12",
+                  "part": "Den Øverste Månetip",
+                  "color": "Crayola White",
+                  "hex": "#FFFFFF",
+                  "why": "Den lyse tone viser delen i klart dagslys."
+                },
+                {
+                  "range": "13–24",
+                  "part": "Den Ydre Kurve",
+                  "color": "Crayola Cornflower",
+                  "hex": "#9ACEEB",
+                  "why": "Den lyse tone viser delen i klart dagslys."
+                },
+                {
+                  "range": "25–36",
+                  "part": "Den Nedre Månetip",
+                  "color": "Crayola Gray",
+                  "hex": "#95918C",
+                  "why": "Den lyse tone viser delen i klart dagslys."
+                },
+                {
+                  "range": "37–48",
+                  "part": "Den Indre Halvmåne",
+                  "color": "Crayola White",
+                  "hex": "#FFFFFF",
+                  "why": "Den lyse tone viser delen i klart dagslys."
+                },
+                {
+                  "range": "49–60",
+                  "part": "Gløden og Afslutningen",
+                  "color": "Crayola Cornflower",
+                  "hex": "#9ACEEB",
+                  "why": "Den lyse tone viser delen i klart dagslys."
+                }
+              ]
+            },
+            {
+              "name": "Halvmåne: Stærke virkelige farver",
+              "note": "Denne stærke palet er inspireret af virkelige materialer, mærker eller maling.",
+              "mapping": [
+                {
+                  "range": "1–12",
+                  "part": "Den Øverste Månetip",
+                  "color": "Crayola Orange",
+                  "hex": "#FF7538",
+                  "why": "Den dybere farve afspejler et virkeligt mærke, materiale eller maling."
+                },
+                {
+                  "range": "13–24",
+                  "part": "Den Ydre Kurve",
+                  "color": "Crayola Goldenrod",
+                  "hex": "#FCD975",
+                  "why": "Den dybere farve afspejler et virkeligt mærke, materiale eller maling."
+                },
+                {
+                  "range": "25–36",
+                  "part": "Den Nedre Månetip",
+                  "color": "Crayola Mahogany",
+                  "hex": "#CA3435",
+                  "why": "Den dybere farve afspejler et virkeligt mærke, materiale eller maling."
+                },
+                {
+                  "range": "37–48",
+                  "part": "Den Indre Halvmåne",
+                  "color": "Crayola Orange",
+                  "hex": "#FF7538",
+                  "why": "Den dybere farve afspejler et virkeligt mærke, materiale eller maling."
+                },
+                {
+                  "range": "49–60",
+                  "part": "Gløden og Afslutningen",
+                  "color": "Crayola Goldenrod",
+                  "hex": "#FCD975",
+                  "why": "Den dybere farve afspejler et virkeligt mærke, materiale eller maling."
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "slug": "ringed-planet-dot-to-dot-puzzle",
+      "header": {
+        "json_ld": {
+          "name": "Ringet Planet",
+          "type": "CreativeWork",
+          "educational_use": "Fine motor skills, number sequencing"
+        }
+      },
+      "body": {
+        "name": "Ringet Planet",
+        "tagline": "Tegn en Verden Indhyllet i Skinne Ringe!",
+        "description": "Forbind 43 lette prikker for at afsløre en smuk ringet planet, der svæver i rummet. Dette gratis printbare hjælper yngre børn med at øve talrækkefølge, visuel sporing, koncentration og stabil blyantkontrol.",
+        "fun_fact": "Saturns ringe er lavet af utallige stykker is og sten, der spænder fra små korn til stykker så store som huse.",
+        "dot_guide": {
+          "intro": "Langt ud over Jorden drejer en kæmpe planet, mens brede ringe fejer omkring den. Dette venlige 43-prik puslespil skaber planeten og dens ringe i fire korte faser, hvilket gør det til en sjov første rumsudfordring. Find prik 1 og begynd din rejse!",
+          "outro": "Vidunderligt arbejde—din ringede planet kredser blandt stjernerne! Tilføj måner, en raket og farverige skyer, og fortsæt med at udforske med <a href=\"/space/space-rover-dot-to-dot-puzzle/\">rumfartøjet puslespil</a>.",
+          "sections": [
+            {
+              "range": "1–11",
+              "title": "Toppen af Planeten",
+              "learn": "Forbind prikkerne 1 til 11 for at tegne den buede øverste kant af den fjerne planet.",
+              "fact": "Planeter ser runde ud, fordi tyngdekraften trækker deres materiale mod centrum fra alle retninger."
+            },
+            {
+              "range": "12–22",
+              "title": "Den Første Ring",
+              "learn": "Fortsæt fra prik 12 til prik 22 for at spore den første brede bue af ringsystemet.",
+              "fact": "Saturn har tusindvis af smalle ringe, der ser ud som flere brede ringe, når de ses fra langt væk."
+            },
+            {
+              "range": "23–33",
+              "title": "Planetens Nedre Kurve",
+              "learn": "Følg prikkerne 23 til 33 rundt om den nederste halvdel af planeten, og hold kurven glat.",
+              "fact": "Saturn er en gasgigant, der hovedsageligt består af brint og helium, de to letteste elementer."
+            },
+            {
+              "range": "34–43",
+              "title": "Ringene og Afslutningen",
+              "learn": "Afslut med prikkerne 34 til 43 for at fuldføre de fejede ringe på den anden side.",
+              "fact": "Saturns ringe er meget brede, men overraskende tynde sammenlignet med planetens størrelse."
+            }
+          ],
+          "color_schemes": [
+            {
+              "name": "Ringet Planet: Klassiske virkelige farver",
+              "note": "Denne velkendte palet bruger farver, der ofte ses på det virkelige motiv.",
+              "mapping": [
+                {
+                  "range": "1–11",
+                  "part": "Toppen af Planeten",
+                  "color": "Crayola Silver",
+                  "hex": "#CDC5C2",
+                  "why": "Farven giver delen dens velkendte virkelige udseende."
+                },
+                {
+                  "range": "12–22",
+                  "part": "Den Første Ring",
+                  "color": "Crayola Scarlet",
+                  "hex": "#FC2847",
+                  "why": "Farven giver delen dens velkendte virkelige udseende."
+                },
+                {
+                  "range": "23–33",
+                  "part": "Planetens Nedre Kurve",
+                  "color": "Crayola Black",
+                  "hex": "#232323",
+                  "why": "Farven giver delen dens velkendte virkelige udseende."
+                },
+                {
+                  "range": "34–43",
+                  "part": "Ringene og Afslutningen",
+                  "color": "Crayola Silver",
+                  "hex": "#CDC5C2",
+                  "why": "Farven giver delen dens velkendte virkelige udseende."
+                }
+              ]
+            },
+            {
+              "name": "Ringet Planet: Bløde naturfarver",
+              "note": "Denne lyse palet viser en ægte bleg eller solbelyst udgave af motivet.",
+              "mapping": [
+                {
+                  "range": "1–11",
+                  "part": "Toppen af Planeten",
+                  "color": "Crayola White",
+                  "hex": "#FFFFFF",
+                  "why": "Den lyse tone viser delen i klart dagslys."
+                },
+                {
+                  "range": "12–22",
+                  "part": "Den Første Ring",
+                  "color": "Crayola Cornflower",
+                  "hex": "#9ACEEB",
+                  "why": "Den lyse tone viser delen i klart dagslys."
+                },
+                {
+                  "range": "23–33",
+                  "part": "Planetens Nedre Kurve",
+                  "color": "Crayola Gray",
+                  "hex": "#95918C",
+                  "why": "Den lyse tone viser delen i klart dagslys."
+                },
+                {
+                  "range": "34–43",
+                  "part": "Ringene og Afslutningen",
+                  "color": "Crayola White",
+                  "hex": "#FFFFFF",
+                  "why": "Den lyse tone viser delen i klart dagslys."
+                }
+              ]
+            },
+            {
+              "name": "Ringet Planet: Stærke virkelige farver",
+              "note": "Denne stærke palet er inspireret af virkelige materialer, mærker eller maling.",
+              "mapping": [
+                {
+                  "range": "1–11",
+                  "part": "Toppen af Planeten",
+                  "color": "Crayola Orange",
+                  "hex": "#FF7538",
+                  "why": "Den dybere farve afspejler et virkeligt mærke, materiale eller maling."
+                },
+                {
+                  "range": "12–22",
+                  "part": "Den Første Ring",
+                  "color": "Crayola Goldenrod",
+                  "hex": "#FCD975",
+                  "why": "Den dybere farve afspejler et virkeligt mærke, materiale eller maling."
+                },
+                {
+                  "range": "23–33",
+                  "part": "Planetens Nedre Kurve",
+                  "color": "Crayola Mahogany",
+                  "hex": "#CA3435",
+                  "why": "Den dybere farve afspejler et virkeligt mærke, materiale eller maling."
+                },
+                {
+                  "range": "34–43",
+                  "part": "Ringene og Afslutningen",
+                  "color": "Crayola Orange",
+                  "hex": "#FF7538",
+                  "why": "Den dybere farve afspejler et virkeligt mærke, materiale eller maling."
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "slug": "space-rover-dot-to-dot-puzzle",
+      "header": {
+        "json_ld": {
+          "name": "Rumfartøj",
+          "type": "CreativeWork",
+          "educational_use": "Fine motor skills, number sequencing"
+        }
+      },
+      "body": {
+        "name": "Rumfartøj",
+        "tagline": "En venlig udforsker på hjul",
+        "description": "Forbind 59 prikker for at afsløre en venlig rumfartøj klar til at udforske en anden verden. Dette gratis printbare puslespil hjælper børn med at øve talrækkefølge, koncentration og blyantkontrol.",
+        "fun_fact": "Rumfartøjer er robotiske køretøjer, der udforsker overfladerne af verdener som Månen og Mars.",
+        "dot_guide": {
+          "intro": "Klar til en rejse ud over Jorden? Følg tallene fra 1 til 59 og se et venligt rumfartøj dukke op. Bevæg dig langsomt, tjek hvert nummer, og hold dine blyantlinjer pæne, mens du bevæger dig rundt om køretøjet.",
+          "outro": "Missionen er fuldført - dit rumfartøj er klar til at udforske! Tilføj stjerner, kratere, planeter eller en venlig alien for at skabe din egen rumscene.",
+          "sections": [
+            {
+              "range": "1–12",
+              "title": "Roverkroppen",
+              "learn": "Begynd ved prik 1 og forbind gennem prik 12 for at tegne roverens venlige front og robuste krop.",
+              "fact": "Planetære rovere bærer computere, kameraer og videnskabelige værktøjer inde i en hårdfør krop."
+            },
+            {
+              "range": "13–25",
+              "title": "De første hjul",
+              "learn": "Fortsæt fra prik 13 til prik 25 for at forme den nederste krop og det første robuste hjul.",
+              "fact": "Roverhjul er designet til at gribe løs sand og rulle over klipper uden at sidde fast."
+            },
+            {
+              "range": "26–38",
+              "title": "Hjulsystemet",
+              "learn": "Forbind prikkerne 26 til 38 for at fuldføre flere af roverens hjul og affjedring.",
+              "fact": "NASAs Mars-rovere bruger en rocker-bogie affjedring, der hjælper alle seks hjul med at forblive på ujævnt terræn."
+            },
+            {
+              "range": "39–49",
+              "title": "Sædet og udstyret",
+              "learn": "Tegn prikkerne 39 til 49 for at tilføje sædet og udstyret over roverkroppen.",
+              "fact": "Nogle månerovere bærer astronauter, mens robotrovere udforsker uden nogen siddende indeni."
+            },
+            {
+              "range": "50–59",
+              "title": "Dish-antennen",
+              "learn": "Afslut ved at forbinde prikkerne 50 til 59 for at fuldføre kommunikationsskålen.",
+              "fact": "En rover bruger antenner til at sende opdagelser til Jorden og modtage nye instruktioner."
+            }
+          ],
+          "color_schemes": [
+            {
+              "name": "Rumfartøj: Klassiske virkelige farver",
+              "note": "Denne velkendte palet bruger farver, der ofte ses på det virkelige motiv.",
+              "mapping": [
+                {
+                  "range": "1–12",
+                  "part": "Roverkroppen",
+                  "color": "Crayola Silver",
+                  "hex": "#CDC5C2",
+                  "why": "Farven giver delen dens velkendte virkelige udseende."
+                },
+                {
+                  "range": "13–25",
+                  "part": "De første hjul",
+                  "color": "Crayola Scarlet",
+                  "hex": "#FC2847",
+                  "why": "Farven giver delen dens velkendte virkelige udseende."
+                },
+                {
+                  "range": "26–38",
+                  "part": "Hjulsystemet",
+                  "color": "Crayola Black",
+                  "hex": "#232323",
+                  "why": "Farven giver delen dens velkendte virkelige udseende."
+                },
+                {
+                  "range": "39–49",
+                  "part": "Sædet og udstyret",
+                  "color": "Crayola Silver",
+                  "hex": "#CDC5C2",
+                  "why": "Farven giver delen dens velkendte virkelige udseende."
+                },
+                {
+                  "range": "50–59",
+                  "part": "Dish-antennen",
+                  "color": "Crayola Scarlet",
+                  "hex": "#FC2847",
+                  "why": "Farven giver delen dens velkendte virkelige udseende."
+                }
+              ]
+            },
+            {
+              "name": "Rumfartøj: Bløde naturfarver",
+              "note": "Denne lyse palet viser en ægte bleg eller solbelyst udgave af motivet.",
+              "mapping": [
+                {
+                  "range": "1–12",
+                  "part": "Roverkroppen",
+                  "color": "Crayola White",
+                  "hex": "#FFFFFF",
+                  "why": "Den lyse tone viser delen i klart dagslys."
+                },
+                {
+                  "range": "13–25",
+                  "part": "De første hjul",
+                  "color": "Crayola Cornflower",
+                  "hex": "#9ACEEB",
+                  "why": "Den lyse tone viser delen i klart dagslys."
+                },
+                {
+                  "range": "26–38",
+                  "part": "Hjulsystemet",
+                  "color": "Crayola Gray",
+                  "hex": "#95918C",
+                  "why": "Den lyse tone viser delen i klart dagslys."
+                },
+                {
+                  "range": "39–49",
+                  "part": "Sædet og udstyret",
+                  "color": "Crayola White",
+                  "hex": "#FFFFFF",
+                  "why": "Den lyse tone viser delen i klart dagslys."
+                },
+                {
+                  "range": "50–59",
+                  "part": "Dish-antennen",
+                  "color": "Crayola Cornflower",
+                  "hex": "#9ACEEB",
+                  "why": "Den lyse tone viser delen i klart dagslys."
+                }
+              ]
+            },
+            {
+              "name": "Rumfartøj: Stærke virkelige farver",
+              "note": "Denne stærke palet er inspireret af virkelige materialer, mærker eller maling.",
+              "mapping": [
+                {
+                  "range": "1–12",
+                  "part": "Roverkroppen",
+                  "color": "Crayola Orange",
+                  "hex": "#FF7538",
+                  "why": "Den dybere farve afspejler et virkeligt mærke, materiale eller maling."
+                },
+                {
+                  "range": "13–25",
+                  "part": "De første hjul",
+                  "color": "Crayola Goldenrod",
+                  "hex": "#FCD975",
+                  "why": "Den dybere farve afspejler et virkeligt mærke, materiale eller maling."
+                },
+                {
+                  "range": "26–38",
+                  "part": "Hjulsystemet",
+                  "color": "Crayola Mahogany",
+                  "hex": "#CA3435",
+                  "why": "Den dybere farve afspejler et virkeligt mærke, materiale eller maling."
+                },
+                {
+                  "range": "39–49",
+                  "part": "Sædet og udstyret",
+                  "color": "Crayola Orange",
+                  "hex": "#FF7538",
+                  "why": "Den dybere farve afspejler et virkeligt mærke, materiale eller maling."
+                },
+                {
+                  "range": "50–59",
+                  "part": "Dish-antennen",
+                  "color": "Crayola Goldenrod",
+                  "hex": "#FCD975",
+                  "why": "Den dybere farve afspejler et virkeligt mærke, materiale eller maling."
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

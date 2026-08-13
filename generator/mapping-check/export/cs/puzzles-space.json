@@ -1,0 +1,509 @@
+{
+  "collection": {},
+  "puzzles": [
+    {
+      "slug": "crescent-moon-dot-to-dot-puzzle",
+      "header": {
+        "json_ld": {
+          "name": "Krescent Mún",
+          "type": "CreativeWork",
+          "educational_use": "Fine motor skills, number sequencing"
+        }
+      },
+      "body": {
+        "name": "Krescent Mún",
+        "tagline": "Sledujte zářící kus noční oblohy!",
+        "description": "Spojte 60 snadných teček, abyste odhalili krásný srpek měsíce zářící v noční obloze. Tento volně tisknutelný materiál pomáhá dětem procvičovat sekvencování čísel, vizuální sledování, koncentraci a plynulou kontrolu tužky.",
+        "fun_fact": "Srpek měsíce se objevuje, když sluneční světlo osvětluje pouze tenkou zakřivenou část Měsíce, kterou můžeme vidět ze Země.",
+        "dot_guide": {
+          "intro": "Úzký srpek měsíce je jedním z nejrozpoznatelnějších tvarů na noční obloze. Tento přátelský puzzle se 60 tečkami buduje jeho vnější křivku, špičaté konce a vnitřní oblouk ve pěti zvládnutelných krocích. Najděte tečku 1 a nechte svůj měsíc začít zářit!",
+          "outro": "Krásná práce—tvůj srpkovitý měsíc svítí! Přidej hvězdy, ospalé mraky nebo raketu křížící oblohu, a pak objev <a href=\"/space/ringed-planet-dot-to-dot-puzzle/\">hádanku s prstencovým planetem</a>.",
+          "sections": [
+            {
+              "range": "1–12",
+              "title": "Horní špička měsíce",
+              "learn": "Spojte tečky 1 až 12, abyste vytvořili úzký horní bod srpku.",
+              "fact": "Měsíc nevytváří své vlastní světlo; září odrážením slunečního světla."
+            },
+            {
+              "range": "13–24",
+              "title": "Vnější křivka",
+              "learn": "Pokračujte od tečky 13 k tečce 24 podél široké vnější křivky Měsíce.",
+              "fact": "Gravitace udělala Měsíc téměř kulatým, stejně jako dělá planety kulatými."
+            },
+            {
+              "range": "25–36",
+              "title": "Dolní špička měsíce",
+              "learn": "Sledujte tečky 25 až 36, abyste vytvořili dolní bod a otočili se směrem k vnitřní křivce.",
+              "fact": "Povrch Měsíce je pokryt krátery, které vznikly nárazy kamenů během miliard let."
+            },
+            {
+              "range": "37–48",
+              "title": "Vnitřní srpek",
+              "learn": "Sledujte tečky 37 až 48 po vnitřním oblouku, udržujte svou čáru tužky hladkou.",
+              "fact": "Měsíci trvá přibližně 29,5 dne, aby prošel úplným cyklem fází."
+            },
+            {
+              "range": "49–60",
+              "title": "Záření a dokončení",
+              "learn": "Dokončete tečkami 49 až 60, abyste uzavřeli srpek a přidali jeho konečné detaily.",
+              "fact": "Lidé po celém světě vidí stejný Měsíc, ačkoli jeho srpek se může zdát nakloněný jinak v závislosti na poloze."
+            }
+          ],
+          "color_schemes": [
+            {
+              "name": "Krescent Mún: Klasické skutečné barvy",
+              "note": "Tato známá paleta používá barvy běžné na skutečném předmětu.",
+              "mapping": [
+                {
+                  "range": "1–12",
+                  "part": "Horní špička měsíce",
+                  "color": "Crayola Silver",
+                  "hex": "#CDC5C2",
+                  "why": "Tato barva dává části známý skutečný vzhled."
+                },
+                {
+                  "range": "13–24",
+                  "part": "Vnější křivka",
+                  "color": "Crayola Scarlet",
+                  "hex": "#FC2847",
+                  "why": "Tato barva dává části známý skutečný vzhled."
+                },
+                {
+                  "range": "25–36",
+                  "part": "Dolní špička měsíce",
+                  "color": "Crayola Black",
+                  "hex": "#232323",
+                  "why": "Tato barva dává části známý skutečný vzhled."
+                },
+                {
+                  "range": "37–48",
+                  "part": "Vnitřní srpek",
+                  "color": "Crayola Silver",
+                  "hex": "#CDC5C2",
+                  "why": "Tato barva dává části známý skutečný vzhled."
+                },
+                {
+                  "range": "49–60",
+                  "part": "Záření a dokončení",
+                  "color": "Crayola Scarlet",
+                  "hex": "#FC2847",
+                  "why": "Tato barva dává části známý skutečný vzhled."
+                }
+              ]
+            },
+            {
+              "name": "Krescent Mún: Jemné přírodní barvy",
+              "note": "Tato světlejší paleta ukazuje skutečnou bledou nebo sluncem osvětlenou podobu.",
+              "mapping": [
+                {
+                  "range": "1–12",
+                  "part": "Horní špička měsíce",
+                  "color": "Crayola White",
+                  "hex": "#FFFFFF",
+                  "why": "Světlejší odstín ukazuje část za jasného denního světla."
+                },
+                {
+                  "range": "13–24",
+                  "part": "Vnější křivka",
+                  "color": "Crayola Cornflower",
+                  "hex": "#9ACEEB",
+                  "why": "Světlejší odstín ukazuje část za jasného denního světla."
+                },
+                {
+                  "range": "25–36",
+                  "part": "Dolní špička měsíce",
+                  "color": "Crayola Gray",
+                  "hex": "#95918C",
+                  "why": "Světlejší odstín ukazuje část za jasného denního světla."
+                },
+                {
+                  "range": "37–48",
+                  "part": "Vnitřní srpek",
+                  "color": "Crayola White",
+                  "hex": "#FFFFFF",
+                  "why": "Světlejší odstín ukazuje část za jasného denního světla."
+                },
+                {
+                  "range": "49–60",
+                  "part": "Záření a dokončení",
+                  "color": "Crayola Cornflower",
+                  "hex": "#9ACEEB",
+                  "why": "Světlejší odstín ukazuje část za jasného denního světla."
+                }
+              ]
+            },
+            {
+              "name": "Krescent Mún: Výrazné skutečné barvy",
+              "note": "Tato výrazná paleta vychází ze skutečných materiálů, znaků nebo nátěrů.",
+              "mapping": [
+                {
+                  "range": "1–12",
+                  "part": "Horní špička měsíce",
+                  "color": "Crayola Orange",
+                  "hex": "#FF7538",
+                  "why": "Hlubší barva odpovídá skutečnému znaku, materiálu nebo nátěru."
+                },
+                {
+                  "range": "13–24",
+                  "part": "Vnější křivka",
+                  "color": "Crayola Goldenrod",
+                  "hex": "#FCD975",
+                  "why": "Hlubší barva odpovídá skutečnému znaku, materiálu nebo nátěru."
+                },
+                {
+                  "range": "25–36",
+                  "part": "Dolní špička měsíce",
+                  "color": "Crayola Mahogany",
+                  "hex": "#CA3435",
+                  "why": "Hlubší barva odpovídá skutečnému znaku, materiálu nebo nátěru."
+                },
+                {
+                  "range": "37–48",
+                  "part": "Vnitřní srpek",
+                  "color": "Crayola Orange",
+                  "hex": "#FF7538",
+                  "why": "Hlubší barva odpovídá skutečnému znaku, materiálu nebo nátěru."
+                },
+                {
+                  "range": "49–60",
+                  "part": "Záření a dokončení",
+                  "color": "Crayola Goldenrod",
+                  "hex": "#FCD975",
+                  "why": "Hlubší barva odpovídá skutečnému znaku, materiálu nebo nátěru."
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "slug": "ringed-planet-dot-to-dot-puzzle",
+      "header": {
+        "json_ld": {
+          "name": "Prstencový planet",
+          "type": "CreativeWork",
+          "educational_use": "Fine motor skills, number sequencing"
+        }
+      },
+      "body": {
+        "name": "Prstencový planet",
+        "tagline": "Nakresli svět obklopený zářícími prstenci!",
+        "description": "Spoj 43 snadných teček, abys odhalil krásný prstencový planet plovoucí ve vesmíru. Tento zdarma tisknutelný materiál pomáhá mladším dětem procvičovat pořadí čísel, vizuální sledování, koncentraci a stabilní kontrolu tužky.",
+        "fun_fact": "Saturnovy prstence jsou složeny z nespočetných kousků ledu a kamene, od drobných zrn až po kusy velké jako domy.",
+        "dot_guide": {
+          "intro": "Daleko za Zemí se otáčí obrovský planet, zatímco široké prstence se kolem něj pohybují. Tato přátelská hádanka se 43 tečkami vytváří planetu a její prstence ve čtyřech krátkých fázích, což z ní činí zábavnou první vesmírnou výzvu. Najdi tečku 1 a začni svou cestu!",
+          "outro": "Úžasná práce—tvůj prstencový planet obíhá mezi hvězdami! Přidej měsíce, raketu a barevné mraky, a pak pokračuj v objevování s <a href=\"/space/space-rover-dot-to-dot-puzzle/\">hádankou s vesmírným roverem</a>.",
+          "sections": [
+            {
+              "range": "1–11",
+              "title": "Vrchol planety",
+              "learn": "Spoj tečky 1 až 11, abys nakreslil zakřivenou horní hranu vzdáleného planety.",
+              "fact": "Planety vypadají kulaté, protože gravitace táhne jejich materiál směrem k centru ze všech směrů."
+            },
+            {
+              "range": "12–22",
+              "title": "První prstenec",
+              "learn": "Pokračuj od tečky 12 k tečce 22, abys vykreslil první široký oblouk prstencového systému.",
+              "fact": "Saturn má tisíce úzkých prstýnků, které vypadají jako několik širokých prstenů, když jsou pozorovány z dálky."
+            },
+            {
+              "range": "23–33",
+              "title": "Dolní křivka planety",
+              "learn": "Sleduj tečky 23 až 33 kolem dolní poloviny planety, aby křivka zůstala hladká.",
+              "fact": "Saturn je plynný obr složený převážně z vodíku a hélia, dvou nejlehčích prvků."
+            },
+            {
+              "range": "34–43",
+              "title": "Prstence a dokončení",
+              "learn": "Dokonči tečkami 34 až 43, abys uzavřel široké prstence na druhé straně.",
+              "fact": "Saturnovy prstence jsou velmi široké, ale překvapivě tenké ve srovnání s velikostí planety."
+            }
+          ],
+          "color_schemes": [
+            {
+              "name": "Prstencový planet: Klasické skutečné barvy",
+              "note": "Tato známá paleta používá barvy běžné na skutečném předmětu.",
+              "mapping": [
+                {
+                  "range": "1–11",
+                  "part": "Vrchol planety",
+                  "color": "Crayola Silver",
+                  "hex": "#CDC5C2",
+                  "why": "Tato barva dává části známý skutečný vzhled."
+                },
+                {
+                  "range": "12–22",
+                  "part": "První prstenec",
+                  "color": "Crayola Scarlet",
+                  "hex": "#FC2847",
+                  "why": "Tato barva dává části známý skutečný vzhled."
+                },
+                {
+                  "range": "23–33",
+                  "part": "Dolní křivka planety",
+                  "color": "Crayola Black",
+                  "hex": "#232323",
+                  "why": "Tato barva dává části známý skutečný vzhled."
+                },
+                {
+                  "range": "34–43",
+                  "part": "Prstence a dokončení",
+                  "color": "Crayola Silver",
+                  "hex": "#CDC5C2",
+                  "why": "Tato barva dává části známý skutečný vzhled."
+                }
+              ]
+            },
+            {
+              "name": "Prstencový planet: Jemné přírodní barvy",
+              "note": "Tato světlejší paleta ukazuje skutečnou bledou nebo sluncem osvětlenou podobu.",
+              "mapping": [
+                {
+                  "range": "1–11",
+                  "part": "Vrchol planety",
+                  "color": "Crayola White",
+                  "hex": "#FFFFFF",
+                  "why": "Světlejší odstín ukazuje část za jasného denního světla."
+                },
+                {
+                  "range": "12–22",
+                  "part": "První prstenec",
+                  "color": "Crayola Cornflower",
+                  "hex": "#9ACEEB",
+                  "why": "Světlejší odstín ukazuje část za jasného denního světla."
+                },
+                {
+                  "range": "23–33",
+                  "part": "Dolní křivka planety",
+                  "color": "Crayola Gray",
+                  "hex": "#95918C",
+                  "why": "Světlejší odstín ukazuje část za jasného denního světla."
+                },
+                {
+                  "range": "34–43",
+                  "part": "Prstence a dokončení",
+                  "color": "Crayola White",
+                  "hex": "#FFFFFF",
+                  "why": "Světlejší odstín ukazuje část za jasného denního světla."
+                }
+              ]
+            },
+            {
+              "name": "Prstencový planet: Výrazné skutečné barvy",
+              "note": "Tato výrazná paleta vychází ze skutečných materiálů, znaků nebo nátěrů.",
+              "mapping": [
+                {
+                  "range": "1–11",
+                  "part": "Vrchol planety",
+                  "color": "Crayola Orange",
+                  "hex": "#FF7538",
+                  "why": "Hlubší barva odpovídá skutečnému znaku, materiálu nebo nátěru."
+                },
+                {
+                  "range": "12–22",
+                  "part": "První prstenec",
+                  "color": "Crayola Goldenrod",
+                  "hex": "#FCD975",
+                  "why": "Hlubší barva odpovídá skutečnému znaku, materiálu nebo nátěru."
+                },
+                {
+                  "range": "23–33",
+                  "part": "Dolní křivka planety",
+                  "color": "Crayola Mahogany",
+                  "hex": "#CA3435",
+                  "why": "Hlubší barva odpovídá skutečnému znaku, materiálu nebo nátěru."
+                },
+                {
+                  "range": "34–43",
+                  "part": "Prstence a dokončení",
+                  "color": "Crayola Orange",
+                  "hex": "#FF7538",
+                  "why": "Hlubší barva odpovídá skutečnému znaku, materiálu nebo nátěru."
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "slug": "space-rover-dot-to-dot-puzzle",
+      "header": {
+        "json_ld": {
+          "name": "Vesmírný rover",
+          "type": "CreativeWork",
+          "educational_use": "Fine motor skills, number sequencing"
+        }
+      },
+      "body": {
+        "name": "Vesmírný rover",
+        "tagline": "Přátelský průzkumník na kolech",
+        "description": "Spojte 59 teček, abyste odhalili přátelského vesmírného rover, který je připraven prozkoumat jiný svět. Tato zdarma tisknutelná hádanka pomáhá dětem procvičovat pořadí čísel, koncentraci a kontrolu nad tužkou.",
+        "fun_fact": "Vesmírné rovery jsou robotická vozidla, která zkoumají povrchy světů, jako je Měsíc a Mars.",
+        "dot_guide": {
+          "intro": "Připraveni na výlet za hranice Země? Sledujte čísla od 1 do 59 a sledujte, jak se objeví přátelský vesmírný rover. Pohybujte se pomalu, zkontrolujte každé číslo a udržujte své tužkové čáry úhledné, když se pohybujete kolem vozidla.",
+          "outro": "Mise dokončena—váš vesmírný rover je připraven prozkoumat! Přidejte hvězdy, krátery, planety nebo přátelského mimozemšťana, abyste vytvořili svou vlastní vesmírnou scénu.",
+          "sections": [
+            {
+              "range": "1–12",
+              "title": "Tělo roveru",
+              "learn": "Začněte na tečce 1 a spojte se přes tečku 12, abyste vykreslili přátelskou přední část roveru a jeho robustní tělo.",
+              "fact": "Planetární rovery nesou počítače, kamery a vědecké nástroje uvnitř odolného těla."
+            },
+            {
+              "range": "13–25",
+              "title": "První kola",
+              "learn": "Pokračujte od tečky 13 k tečce 25, abyste vytvořili dolní část těla a první robustní kolo.",
+              "fact": "Kola roveru jsou navržena tak, aby se uchytila na volném písku a přejížděla přes kameny, aniž by se zasekla."
+            },
+            {
+              "range": "26–38",
+              "title": "Systém kol",
+              "learn": "Spojte tečky 26 až 38, abyste dokončili další kola roveru a jeho odpružení.",
+              "fact": "NASA používá u svých marsovských roverů odpružení rocker-bogie, které pomáhá všem šesti kolům zůstat na nerovném terénu."
+            },
+            {
+              "range": "39–49",
+              "title": "Sedadlo a vybavení",
+              "learn": "Vykreslete tečky 39 až 49, abyste přidali sedadlo a vybavení nad tělo roveru.",
+              "fact": "Některé lunární rovery přepravují astronauty, zatímco robotické rovery prozkoumávají bez nikoho uvnitř."
+            },
+            {
+              "range": "50–59",
+              "title": "Anténa dish",
+              "learn": "Dokončete spojení teček 50 až 59, abyste dokončili komunikační talíř.",
+              "fact": "Rover používá antény k odesílání objevů na Zemi a přijímání nových pokynů."
+            }
+          ],
+          "color_schemes": [
+            {
+              "name": "Vesmírný rover: Klasické skutečné barvy",
+              "note": "Tato známá paleta používá barvy běžné na skutečném předmětu.",
+              "mapping": [
+                {
+                  "range": "1–12",
+                  "part": "Tělo roveru",
+                  "color": "Crayola Silver",
+                  "hex": "#CDC5C2",
+                  "why": "Tato barva dává části známý skutečný vzhled."
+                },
+                {
+                  "range": "13–25",
+                  "part": "První kola",
+                  "color": "Crayola Scarlet",
+                  "hex": "#FC2847",
+                  "why": "Tato barva dává části známý skutečný vzhled."
+                },
+                {
+                  "range": "26–38",
+                  "part": "Systém kol",
+                  "color": "Crayola Black",
+                  "hex": "#232323",
+                  "why": "Tato barva dává části známý skutečný vzhled."
+                },
+                {
+                  "range": "39–49",
+                  "part": "Sedadlo a vybavení",
+                  "color": "Crayola Silver",
+                  "hex": "#CDC5C2",
+                  "why": "Tato barva dává části známý skutečný vzhled."
+                },
+                {
+                  "range": "50–59",
+                  "part": "Anténa dish",
+                  "color": "Crayola Scarlet",
+                  "hex": "#FC2847",
+                  "why": "Tato barva dává části známý skutečný vzhled."
+                }
+              ]
+            },
+            {
+              "name": "Vesmírný rover: Jemné přírodní barvy",
+              "note": "Tato světlejší paleta ukazuje skutečnou bledou nebo sluncem osvětlenou podobu.",
+              "mapping": [
+                {
+                  "range": "1–12",
+                  "part": "Tělo roveru",
+                  "color": "Crayola White",
+                  "hex": "#FFFFFF",
+                  "why": "Světlejší odstín ukazuje část za jasného denního světla."
+                },
+                {
+                  "range": "13–25",
+                  "part": "První kola",
+                  "color": "Crayola Cornflower",
+                  "hex": "#9ACEEB",
+                  "why": "Světlejší odstín ukazuje část za jasného denního světla."
+                },
+                {
+                  "range": "26–38",
+                  "part": "Systém kol",
+                  "color": "Crayola Gray",
+                  "hex": "#95918C",
+                  "why": "Světlejší odstín ukazuje část za jasného denního světla."
+                },
+                {
+                  "range": "39–49",
+                  "part": "Sedadlo a vybavení",
+                  "color": "Crayola White",
+                  "hex": "#FFFFFF",
+                  "why": "Světlejší odstín ukazuje část za jasného denního světla."
+                },
+                {
+                  "range": "50–59",
+                  "part": "Anténa dish",
+                  "color": "Crayola Cornflower",
+                  "hex": "#9ACEEB",
+                  "why": "Světlejší odstín ukazuje část za jasného denního světla."
+                }
+              ]
+            },
+            {
+              "name": "Vesmírný rover: Výrazné skutečné barvy",
+              "note": "Tato výrazná paleta vychází ze skutečných materiálů, znaků nebo nátěrů.",
+              "mapping": [
+                {
+                  "range": "1–12",
+                  "part": "Tělo roveru",
+                  "color": "Crayola Orange",
+                  "hex": "#FF7538",
+                  "why": "Hlubší barva odpovídá skutečnému znaku, materiálu nebo nátěru."
+                },
+                {
+                  "range": "13–25",
+                  "part": "První kola",
+                  "color": "Crayola Goldenrod",
+                  "hex": "#FCD975",
+                  "why": "Hlubší barva odpovídá skutečnému znaku, materiálu nebo nátěru."
+                },
+                {
+                  "range": "26–38",
+                  "part": "Systém kol",
+                  "color": "Crayola Mahogany",
+                  "hex": "#CA3435",
+                  "why": "Hlubší barva odpovídá skutečnému znaku, materiálu nebo nátěru."
+                },
+                {
+                  "range": "39–49",
+                  "part": "Sedadlo a vybavení",
+                  "color": "Crayola Orange",
+                  "hex": "#FF7538",
+                  "why": "Hlubší barva odpovídá skutečnému znaku, materiálu nebo nátěru."
+                },
+                {
+                  "range": "50–59",
+                  "part": "Anténa dish",
+                  "color": "Crayola Goldenrod",
+                  "hex": "#FCD975",
+                  "why": "Hlubší barva odpovídá skutečnému znaku, materiálu nebo nátěru."
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,359 @@
+{
+  "collection": {},
+  "puzzles": [
+    {
+      "slug": "circus-ringmaster-bear-dot-to-dot-puzzle",
+      "header": {
+        "json_ld": {
+          "name": "Cirka režisora lācis",
+          "type": "CreativeWork",
+          "educational_use": "Fine motor skills, number sequencing"
+        }
+      },
+      "body": {
+        "name": "Cirka režisora lācis",
+        "tagline": "Iepazīstieties ar lāci, kurš vada lielo šovu!",
+        "description": "Savieno 74 punktus, lai atklātu draudzīgu lāci, kas ģērbies cirka režisora tērpā. Šis vidējās grūtības līmeņa drukājums palīdz bērniem praktizēt skaitļu secības, koncentrēšanos, vizuālo izsekošanu un rūpīgu zīmuļa vadību.",
+        "fun_fact": "Cirka režisors iepazīstina publiku ar izpildītājiem un vada to no viena numura uz nākamo.",
+        "dot_guide": {
+          "intro": "Ar elegantu mēteli, augstu cepuri un pārliecinātu pozu, šis draudzīgais lācis ir gatavs pasveicināt visus cirkā. 74-punktu izaicinājums ir sadalīts piecās skaidrās fāzēs bērniem, kuri jūtas pārliecināti ar garākām skaitļu sekvencēm. Atrodi punktu 1 un ļauj izrādei sākties!",
+          "outro": "Lielisks darbs — lāču cirka direktors ir gatavs pasludinot izrādi! Izkrāso tērpu spilgtos sarkanos un zelta toņos, pēc tam pievieno prožektorus un satrauktu publiku. Pabeidz ainu ar <a href=\"/circus/circus-tent-dot-to-dot-puzzle/\">cirka telts punktu savienošanas puzzli</a>.",
+          "sections": [
+            {
+              "range": "1–15",
+              "title": "Cirkusmeistara cepure",
+              "learn": "Savienojiet punktus no 1 līdz 15, lai uzzīmētu augsto cepuri un lāča apaļās ausis.",
+              "fact": "Cirkusmeistari bieži valkā uz acīm krītošas formālās tērpes, lai skatītāji tos varētu viegli pamanīt manēžā."
+            },
+            {
+              "range": "16–30",
+              "title": "Lāča seja",
+              "learn": "Turpiniet no 16. punkta līdz 30. punktam, lai izveidotu lāča galvu, purnu un draudzīgo izteiksmi.",
+              "fact": "Lāča oža ir ārkārtīgi spēcīga un palīdz tam atrast pārtiku lielos attālumos."
+            },
+            {
+              "range": "31–45",
+              "title": "Gudrais jaka",
+              "learn": "Seko punktiem no 31 līdz 45, lai izveidotu cirka direktora dekorētu žaketi un apkakles.",
+              "fact": "Spilgtas jakas, spīdošas pogas un dekoratīvas apdares palīdz padarīt cirka režisiera tēlu teatrālu."
+            },
+            {
+              "range": "46–60",
+              "title": "Roku un Šova Poza",
+              "learn": "Izseko punktus no 46. līdz 60., lai pievienotu lāča rokas un sveiciena pozā.",
+              "fact": "Cirkusmeistari izmanto skaidrus žestus un spēcīgu balsi, lai pavērstu uzmanību uz nākamo numuru."
+            },
+            {
+              "range": "61–74",
+              "title": "Zābaki un apdare",
+              "learn": "Pabeidziet ar punktiem no 61 līdz 74, lai uzzīmētu kājas, zābakus un galīgos kostīma detaļas.",
+              "fact": "Cirka arēna tradicionāli ir apaļa, lai apkārt esošie skatītāji varētu redzēt izrādi no dažādiem skatu punktiem."
+            }
+          ],
+          "color_schemes": [
+            {
+              "name": "Cirka režisora lācis: Klasiskas īstās krāsas",
+              "note": "Šajā pazīstamajā paletē izmantotas krāsas, kas bieži redzamas īstajā objektā.",
+              "mapping": [
+                {
+                  "range": "1–15",
+                  "part": "Cirkusmeistara cepure",
+                  "color": "Crayola Scarlet",
+                  "hex": "#FC2847",
+                  "why": "Šī krāsa daļai piešķir pazīstamu īstu izskatu."
+                },
+                {
+                  "range": "16–30",
+                  "part": "Lāča seja",
+                  "color": "Crayola Sky Blue",
+                  "hex": "#80DAEB",
+                  "why": "Šī krāsa daļai piešķir pazīstamu īstu izskatu."
+                },
+                {
+                  "range": "31–45",
+                  "part": "Gudrais jaka",
+                  "color": "Crayola Goldenrod",
+                  "hex": "#FCD975",
+                  "why": "Šī krāsa daļai piešķir pazīstamu īstu izskatu."
+                },
+                {
+                  "range": "46–60",
+                  "part": "Roku un Šova Poza",
+                  "color": "Crayola Scarlet",
+                  "hex": "#FC2847",
+                  "why": "Šī krāsa daļai piešķir pazīstamu īstu izskatu."
+                },
+                {
+                  "range": "61–74",
+                  "part": "Zābaki un apdare",
+                  "color": "Crayola Sky Blue",
+                  "hex": "#80DAEB",
+                  "why": "Šī krāsa daļai piešķir pazīstamu īstu izskatu."
+                }
+              ]
+            },
+            {
+              "name": "Cirka režisora lācis: Maigas dabas krāsas",
+              "note": "Šī gaišā palete rāda īstu bālu vai saules apspīdētu variantu.",
+              "mapping": [
+                {
+                  "range": "1–15",
+                  "part": "Cirkusmeistara cepure",
+                  "color": "Crayola Silver",
+                  "hex": "#CDC5C2",
+                  "why": "Gaišais tonis rāda daļu spilgtā dienasgaismā."
+                },
+                {
+                  "range": "16–30",
+                  "part": "Lāča seja",
+                  "color": "Crayola Tan",
+                  "hex": "#FAA76C",
+                  "why": "Gaišais tonis rāda daļu spilgtā dienasgaismā."
+                },
+                {
+                  "range": "31–45",
+                  "part": "Gudrais jaka",
+                  "color": "Crayola Sea Green",
+                  "hex": "#93DFB8",
+                  "why": "Gaišais tonis rāda daļu spilgtā dienasgaismā."
+                },
+                {
+                  "range": "46–60",
+                  "part": "Roku un Šova Poza",
+                  "color": "Crayola Silver",
+                  "hex": "#CDC5C2",
+                  "why": "Gaišais tonis rāda daļu spilgtā dienasgaismā."
+                },
+                {
+                  "range": "61–74",
+                  "part": "Zābaki un apdare",
+                  "color": "Crayola Tan",
+                  "hex": "#FAA76C",
+                  "why": "Gaišais tonis rāda daļu spilgtā dienasgaismā."
+                }
+              ]
+            },
+            {
+              "name": "Cirka režisora lācis: Košas īstās krāsas",
+              "note": "Šo košo paleti iedvesmojuši īsti materiāli, zīmējumi vai krāsojumi.",
+              "mapping": [
+                {
+                  "range": "1–15",
+                  "part": "Cirkusmeistara cepure",
+                  "color": "Crayola Forest Green",
+                  "hex": "#5FA777",
+                  "why": "Dziļākā krāsa atbilst īstam zīmējumam, materiālam vai krāsojumam."
+                },
+                {
+                  "range": "16–30",
+                  "part": "Lāča seja",
+                  "color": "Crayola Brown",
+                  "hex": "#AF593E",
+                  "why": "Dziļākā krāsa atbilst īstam zīmējumam, materiālam vai krāsojumam."
+                },
+                {
+                  "range": "31–45",
+                  "part": "Gudrais jaka",
+                  "color": "Crayola Orange",
+                  "hex": "#FF7538",
+                  "why": "Dziļākā krāsa atbilst īstam zīmējumam, materiālam vai krāsojumam."
+                },
+                {
+                  "range": "46–60",
+                  "part": "Roku un Šova Poza",
+                  "color": "Crayola Forest Green",
+                  "hex": "#5FA777",
+                  "why": "Dziļākā krāsa atbilst īstam zīmējumam, materiālam vai krāsojumam."
+                },
+                {
+                  "range": "61–74",
+                  "part": "Zābaki un apdare",
+                  "color": "Crayola Brown",
+                  "hex": "#AF593E",
+                  "why": "Dziļākā krāsa atbilst īstam zīmējumam, materiālam vai krāsojumam."
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "slug": "circus-tent-dot-to-dot-puzzle",
+      "header": {
+        "json_ld": {
+          "name": "Cirka telts",
+          "type": "CreativeWork",
+          "educational_use": "Fine motor skills, number sequencing"
+        }
+      },
+      "body": {
+        "name": "Cirka telts",
+        "tagline": "Nāc iekšā lielā cirka piedzīvojumā!",
+        "description": "Savieno 59 punktus, lai atklātu jautru svītrainu cirka telti, kas gatava izrādei. Šis vienkāršais drukājums palīdz bērniem praktizēt skaitīšanu secībā, vizuālo izsekošanu, koncentrēšanos un vienmērīgu zīmuļa vadīšanu.",
+        "fun_fact": "Cirka galveno izrādes telpu bieži sauc par lielo kupolu, jo tā ir lielākā telpa izrādē.",
+        "dot_guide": {
+          "intro": "Spilgtā cirka telts ir vieta, kur akrobāti, klauni un citi izpildītāji pulcējas zem viena milzīga jumta. Šī draudzīgā 59-punktu mīkla veido lielo telpu piecos pārvaldāmos posmos. Atrodi punktu 1, nostiprini zīmuli un esi gatavs izrādei!",
+          "outro": "Bravo—jūsu cirka telts ir gatava atklāšanas vakaram! Izkrāsojiet nojumes segumu ar treknām svītrām, pievienojiet gaismas un karogus, un uzzīmējiet pūli, kas ierodas izrādei. Izmēģiniet nākamo <a href=\"/playgrounds/carousel-horse-playground-dot-to-dot-puzzle/\">karuselļa zirga puzzle</a>.",
+          "sections": [
+            {
+              "range": "1–12",
+              "title": "Lidojošais karogs",
+              "learn": "Savienojiet punktus no 1 līdz 12, lai uzzīmētu karogu un tenta augstāko punktu.",
+              "fact": "Karogs augšpusē palīdz apmeklētājiem no attāluma ieraudzīt cirka lielo telpu."
+            },
+            {
+              "range": "13–24",
+              "title": "Augstā tenta virsotne",
+              "learn": "Turpiniet no 13. punkta līdz 24. punktam, lai izveidotu stāvu jumtu, kas paceļas virzienā uz centra stabu.",
+              "fact": "Augsti centra stabili atbalsta tradicionālā cirka tenta jumtu un veido tā slaveno smailo formu."
+            },
+            {
+              "range": "25–36",
+              "title": "Svītrainais nojume",
+              "learn": "Seko punktiem no 25. līdz 36. pāri plašajam nojumejam, rūpīgi velkot līnijas tā dekoratīvajām svītrām.",
+              "fact": "Treknās svītras padara cirka teltis viegli atpazīstamas un piešķir lielajam topam svētku izskatu."
+            },
+            {
+              "range": "37–48",
+              "title": "Tenda sienas",
+              "learn": "Izvēlieties punktus no 37. līdz 48. abās pusēs, lai izveidotu teltī stabilietas sienas.",
+              "fact": "Stipri aukli un mieti palīdz noturēt lielus teltus stabilus pret vēju."
+            },
+            {
+              "range": "49–59",
+              "title": "Lieliskā ieeja",
+              "learn": "Pabeidziet ar punktiem no 49 līdz 59, lai izveidotu atvērtu ieeju, kurā apmeklētāji ienāk iekšā.",
+              "fact": "Cirka ieejas bieži ir koši dekorētas, lai sveiktu skatītājus un radītu satraukumu pirms izrādes."
+            }
+          ],
+          "color_schemes": [
+            {
+              "name": "Cirka telts: Klasiskas īstās krāsas",
+              "note": "Šajā pazīstamajā paletē izmantotas krāsas, kas bieži redzamas īstajā objektā.",
+              "mapping": [
+                {
+                  "range": "1–12",
+                  "part": "Lidojošais karogs",
+                  "color": "Crayola Scarlet",
+                  "hex": "#FC2847",
+                  "why": "Šī krāsa daļai piešķir pazīstamu īstu izskatu."
+                },
+                {
+                  "range": "13–24",
+                  "part": "Augstā tenta virsotne",
+                  "color": "Crayola Sky Blue",
+                  "hex": "#80DAEB",
+                  "why": "Šī krāsa daļai piešķir pazīstamu īstu izskatu."
+                },
+                {
+                  "range": "25–36",
+                  "part": "Svītrainais nojume",
+                  "color": "Crayola Goldenrod",
+                  "hex": "#FCD975",
+                  "why": "Šī krāsa daļai piešķir pazīstamu īstu izskatu."
+                },
+                {
+                  "range": "37–48",
+                  "part": "Tenda sienas",
+                  "color": "Crayola Scarlet",
+                  "hex": "#FC2847",
+                  "why": "Šī krāsa daļai piešķir pazīstamu īstu izskatu."
+                },
+                {
+                  "range": "49–59",
+                  "part": "Lieliskā ieeja",
+                  "color": "Crayola Sky Blue",
+                  "hex": "#80DAEB",
+                  "why": "Šī krāsa daļai piešķir pazīstamu īstu izskatu."
+                }
+              ]
+            },
+            {
+              "name": "Cirka telts: Maigas dabas krāsas",
+              "note": "Šī gaišā palete rāda īstu bālu vai saules apspīdētu variantu.",
+              "mapping": [
+                {
+                  "range": "1–12",
+                  "part": "Lidojošais karogs",
+                  "color": "Crayola Silver",
+                  "hex": "#CDC5C2",
+                  "why": "Gaišais tonis rāda daļu spilgtā dienasgaismā."
+                },
+                {
+                  "range": "13–24",
+                  "part": "Augstā tenta virsotne",
+                  "color": "Crayola Tan",
+                  "hex": "#FAA76C",
+                  "why": "Gaišais tonis rāda daļu spilgtā dienasgaismā."
+                },
+                {
+                  "range": "25–36",
+                  "part": "Svītrainais nojume",
+                  "color": "Crayola Sea Green",
+                  "hex": "#93DFB8",
+                  "why": "Gaišais tonis rāda daļu spilgtā dienasgaismā."
+                },
+                {
+                  "range": "37–48",
+                  "part": "Tenda sienas",
+                  "color": "Crayola Silver",
+                  "hex": "#CDC5C2",
+                  "why": "Gaišais tonis rāda daļu spilgtā dienasgaismā."
+                },
+                {
+                  "range": "49–59",
+                  "part": "Lieliskā ieeja",
+                  "color": "Crayola Tan",
+                  "hex": "#FAA76C",
+                  "why": "Gaišais tonis rāda daļu spilgtā dienasgaismā."
+                }
+              ]
+            },
+            {
+              "name": "Cirka telts: Košas īstās krāsas",
+              "note": "Šo košo paleti iedvesmojuši īsti materiāli, zīmējumi vai krāsojumi.",
+              "mapping": [
+                {
+                  "range": "1–12",
+                  "part": "Lidojošais karogs",
+                  "color": "Crayola Forest Green",
+                  "hex": "#5FA777",
+                  "why": "Dziļākā krāsa atbilst īstam zīmējumam, materiālam vai krāsojumam."
+                },
+                {
+                  "range": "13–24",
+                  "part": "Augstā tenta virsotne",
+                  "color": "Crayola Brown",
+                  "hex": "#AF593E",
+                  "why": "Dziļākā krāsa atbilst īstam zīmējumam, materiālam vai krāsojumam."
+                },
+                {
+                  "range": "25–36",
+                  "part": "Svītrainais nojume",
+                  "color": "Crayola Orange",
+                  "hex": "#FF7538",
+                  "why": "Dziļākā krāsa atbilst īstam zīmējumam, materiālam vai krāsojumam."
+                },
+                {
+                  "range": "37–48",
+                  "part": "Tenda sienas",
+                  "color": "Crayola Forest Green",
+                  "hex": "#5FA777",
+                  "why": "Dziļākā krāsa atbilst īstam zīmējumam, materiālam vai krāsojumam."
+                },
+                {
+                  "range": "49–59",
+                  "part": "Lieliskā ieeja",
+                  "color": "Crayola Brown",
+                  "hex": "#AF593E",
+                  "why": "Dziļākā krāsa atbilst īstam zīmējumam, materiālam vai krāsojumam."
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

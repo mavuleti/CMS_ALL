@@ -1,0 +1,409 @@
+{
+  "slug": "home",
+  "header": {
+    "title": "Dibujos para unir puntos imprimibles gratis para niños | Hojas PDF",
+    "title_template": "%s | DotToDotFreePrintables.com",
+    "meta_description": "Descarga e imprime fichas gratuitas de unir puntos para niños: animales, dinosaurios, vehículos y temas de temporada en PDF. Sin registro.",
+    "canonical": "/{locale}/",
+    "og": {
+      "title": "Dibujos y fichas de unir puntos gratis para niños",
+      "description": "Descarga e imprime fichas gratuitas de unir puntos para niños: animales, dinosaurios, vehículos y temas de temporada en PDF. Sin registro.",
+      "url": "/{locale}/",
+      "site_name": "DotToDotFreePrintables.com",
+      "type": "website",
+      "image": "/images/trex-61-puzzle.webp (800x679)"
+    },
+    "twitter": {
+      "card": "summary_large_image"
+    },
+    "manifest": "/manifest.webmanifest",
+    "json_ld": {
+      "website": {
+        "type": "WebSite",
+        "name": "DotToDotFreePrintables.com (SITE_NAME)"
+      },
+      "organization": {
+        "type": "Organization",
+        "logo": "/icon-512.png (absoluteUrl)",
+        "same_as": "hardcoded array: Pinterest, Facebook, YouTube profile URLs"
+      },
+      "collection_page": {
+        "type": "CollectionPage",
+        "name": "Free Dot to Dot Printables for Kids (third distinct hardcoded title string in the codebase — differs from header.title and seo/metadata.json's homepage.title)"
+      },
+      "item_list": {
+        "type": "ItemList (featured puzzles)"
+      }
+    }
+  },
+  "body": {
+    "nav": {
+      "kids": "Niños - Rompecabezas",
+      "teachers": "Profesores",
+      "parents": "Padres",
+      "contact": "Contáctanos",
+      "blog": "Blog",
+      "search": "Buscar",
+      "freePack": "Paquete gratuito",
+      "scanMe": "Escanéame"
+    },
+    "homepageUi": {
+      "title": "Encuentra los mejores imprimibles de puntos para unir",
+      "description": "Imprime, une los puntos y da vida a imágenes increíbles. ¡Gratis y listo para divertirse!",
+      "searchPlaceholder": "Prueba océano, dinosaurio o flores",
+      "filterPuzzles": "Filtrar puzzles",
+      "age": "Edad",
+      "dots": "puntos",
+      "featuredPuzzles": "Puzzles imprimibles destacados",
+      "savePuzzle": "Guardar {name}",
+      "removeSavedPuzzle": "Quitar {name} de los guardados",
+      "downloads": "descargas",
+      "bookTitle": "Lo mejor de 2026 · {count}",
+      "bookDescription": "Nuestros puzzles de unir puntos favoritos en un libro PDF imprimible.",
+      "searchUnavailable": "La búsqueda no está disponible temporalmente. Inténtalo de nuevo.",
+      "popularEyebrow": "Popular esta semana",
+      "mostDownloaded": "Los rompecabezas más descargados",
+      "downloadCountAria": "{count} o más descargas",
+      "freshPrintables": "Imprimibles nuevos",
+      "recentlyAdded": "Añadido recientemente",
+      "browseCategories": "Explorar categorías de rompecabezas",
+      "openCategories": "Abrir menú de categorías",
+      "closeCategories": "Cerrar menú de categorías",
+      "browseByTheme": "Explorar por tema",
+      "quickLinks": "Enlaces rápidos",
+      "bundlePacks": "Paquetes de Bundles",
+      "parentsTeachers": "Para padres y maestros",
+      "more": "Más categorías",
+      "kids": "Niños",
+      "categoryNames": {
+        "cute": "Rompecabezas lindos",
+        "flowers": "Flores"
+      }
+    },
+    "audience": {
+      "kidsTitle": "Para niños",
+      "kidsText": "Temas de animales, dinosaurios y vehículos amigables con puntos numerados claros. Victorias fáciles que generan verdadera confianza.",
+      "parentsTitle": "Para padres",
+      "parentsText": "Actividades relajantes sin pantallas para el hogar, los viajes y los restaurantes. Imprime desde cualquier dispositivo en menos de un minuto.",
+      "teachersTitle": "Para profesores",
+      "teachersText": "Juegos de unir los puntos que requieren poca preparación para el trabajo matutino, los alumnos que terminan rápido, los profesores suplentes y las estaciones de clase; no se requiere ninguna preparación."
+    },
+    "categories": {
+      "eyebrow": "Organizado por tema y nivel de habilidad.",
+      "heading": "Explora rompecabezas de unir puntos por categoría",
+      "description": "Desde fichas de unir puntos preescolar con figuras sencillas de 10 puntos hasta retos de unir números del 1 al 100 para niños mayores, todo clasificado por categoría para que encuentres el imprimible gratuito adecuado en segundos.",
+      "puzzles": "{count, plural, one {# rompecabezas} other {# rompecabezas}}",
+      "comingSoon": "Muy pronto",
+      "badges": {
+        "dinosaurs": "¡Ya disponible!",
+        "ocean": "¡Ya disponible!",
+        "playgrounds": "¡Ya disponible!",
+        "garden": "¡Ya disponible!",
+        "usa250": "¡Nuevo!",
+        "uae": "¡Ya disponible!",
+        "cute": "¡Nuevo!",
+        "circus": "¡Nuevo!"
+      },
+      "items": {
+        "dinosaurs": {
+          "name": "Dinosaurios",
+          "description": "¡Sumérgete en la diversión prehistórica! Rompecabezas gratuitos de unir puntos con T-Rex, Triceratops, Velociraptor y {count} que a tus hijos les encantarán."
+        },
+        "animals": {
+          "name": "Animales",
+          "description": "Criaturas amigables para practicar los números desde temprana edad."
+        },
+        "vehicles": {
+          "name": "Vehículos",
+          "description": "Automóviles, camiones, cohetes y máquinas."
+        },
+        "fantasy": {
+          "name": "Fantasía",
+          "description": "Castillos, unicornios, dragones e ideas para historias."
+        },
+        "seasonal": {
+          "name": "Estacional",
+          "description": "Actividades del calendario de vacaciones y del aula."
+        },
+        "ocean": {
+          "name": "Océano",
+          "description": "Dibujos para colorear de animales marinos y momentos de tranquilidad."
+        },
+        "playgrounds": {
+          "name": "Parques infantiles",
+          "description": "Columpios, toboganes y diversión al aire libre para pequeños aventureros."
+        },
+        "garden": {
+          "name": "Jardín",
+          "description": "Guantes, paletas y herramientas para los pequeños ayudantes de jardinería."
+        },
+        "usa250": {
+          "name": "Estados Unidos 250 años",
+          "description": "Celebra el 250 aniversario de Estados Unidos con rompecabezas patrióticos de unir puntos que rinden homenaje a la historia estadounidense."
+        },
+        "uae": {
+          "name": "Emiratos Árabes Unidos",
+          "description": "¡Explora los Emiratos Árabes Unidos! Lugares emblemáticos como el Burj Al Arab, listos para conectar y llenarse de color."
+        },
+        "space": {
+          "name": "Espacio",
+          "description": "Planetas, astronautas y aventuras espaciales."
+        },
+        "worksheets": {
+          "name": "Hojas de trabajo",
+          "description": "Hojas de secuencias numéricas listas para usar por el profesor."
+        },
+        "bigDotBooks": {
+          "name": "Libros de Big Dot",
+          "description": "Rompecabezas de formato largo para estudiantes mayores que buscan concentrarse."
+        },
+        "cute": {
+          "name": "Adorables",
+          "description": "Cachorritos adorables, cochecitos y {count} encantadores puzles gratis de unir puntos que a tus hijos les encantarán."
+        },
+        "circus": {
+          "name": "Circo",
+          "description": "Maestros de ceremonias, grandes carpas y diversión para pequeños aprendices."
+        }
+      }
+    },
+    "puzzleSection": {
+      "eyebrow": "Muestras imprimibles gratuitas — sin necesidad de registrarse",
+      "heading": "Hojas de unir puntos populares para imprimir ahora",
+      "weeklyPack": "Ver paquete semanal →",
+      "downloadLink": "Descarga imprimibles gratuitos",
+      "new": "Nuevo",
+      "imageAlt": "Hoja de trabajo imprimible gratuita de unir puntos para {name} para {age}",
+      "categories": {
+        "Dinosaurs": "Dinosaurios",
+        "Ocean": "Océano",
+        "Playgrounds": "Parques infantiles",
+        "Garden": "Jardín",
+        "Cute": "Adorables",
+        "USA 250 Years": "Estados Unidos 250 años",
+        "UAE": "Emiratos Árabes Unidos"
+      },
+      "items": {
+        "trex-61-dot-to-dot-puzzle": {
+          "name": "Desafío de 61 puntos del T-Rex"
+        },
+        "brontosaurus-dot-to-dot-puzzle": {
+          "name": "Brontosaurio"
+        },
+        "mermaid-dot-to-dot-puzzle": {
+          "name": "Sirena"
+        },
+        "merman-dot-to-dot-puzzle": {
+          "name": "Tritón"
+        },
+        "seahorse-dot-to-dot-puzzle": {
+          "name": "caballito de mar"
+        },
+        "whale-dot-to-dot-puzzle": {
+          "name": "Ballena"
+        },
+        "swing-playgrounds-dot-to-dot-puzzle": {
+          "name": "Parque infantil con columpios"
+        },
+        "slide-playgrounds-dot-to-dot-puzzle": {
+          "name": "Parque infantil con toboganes"
+        },
+        "seesaw-playground-dot-to-dot-puzzle": {
+          "name": "Parque infantil con balancín"
+        },
+        "roller-coaster-playground-dot-to-dot-puzzle": {
+          "name": "Parque infantil con montaña rusa"
+        },
+        "wheelbarrow-playground-dot-to-dot-puzzle": {
+          "name": "Parque infantil con carretilla"
+        },
+        "garden-gloves-dot-to-dot-puzzle": {
+          "name": "Guantes de jardinería"
+        },
+        "garden-trowel-dot-to-dot-puzzle": {
+          "name": "Paleta de jardinería"
+        },
+        "gas-balloon-usa-250-dot-to-dot-puzzle": {
+          "name": "Globo de gas América 250"
+        },
+        "america-250-birthday-fireworks-dot-to-dot-puzzle": {
+          "name": "Fuegos artificiales por el 250 aniversario de Estados Unidos"
+        },
+        "america-250-anniversary-liberty-bell-wings-1776-dot-to-dot-puzzle": {
+          "name": "Estados Unidos 250 Alas de la Campana de la Libertad"
+        },
+        "usa-250-astronaut-dot-to-dot-puzzle": {
+          "name": "Astronauta estadounidense número 250"
+        },
+        "usa-250-anniversary-sports-kids-podium-dot-to-dot-puzzle": {
+          "name": "Podio deportivo infantil del 250 aniversario de Estados Unidos"
+        },
+        "usa-250-anniversary-airplane-banner-dot-to-dot-puzzle": {
+          "name": "Pancarta de avión del 250 aniversario de Estados Unidos"
+        },
+        "usa-250-space-shuttle-dot-to-dot-puzzle": {
+          "name": "Transbordador espacial America 250"
+        },
+        "usa-250-birthday-balloons-stars-dot-to-dot-puzzle": {
+          "name": "Globos y estrellas para celebrar el 250 aniversario de Estados Unidos."
+        },
+        "usa-250-birthday-cake-dot-to-dot-puzzle": {
+          "name": "Pastel de cumpleaños número 250 de Estados Unidos"
+        },
+        "america-250-anniversary-eagle-banner-dot-to-dot-puzzle": {
+          "name": "Bandera del águila de Estados Unidos 250"
+        },
+        "burj-al-arab-dot-to-dot-puzzle": {
+          "name": "Burj Al Árab"
+        },
+        "dallah-coffee-pot-dot-to-dot-puzzle": {
+          "name": "Cafetera Dallah"
+        }
+      }
+    },
+    "benefits": {
+      "eyebrow": "Con el respaldo de educadores de la primera infancia.",
+      "heading": "Por qué las hojas de trabajo de unir puntos son excelentes para el desarrollo infantil.",
+      "description": "Los imprimibles de unir los puntos y colorear son más que divertidos: son una herramienta respaldada por investigaciones que utilizan los maestros de Educación Infantil para desarrollar la motricidad fina y otras habilidades básicas de aprendizaje temprano.",
+      "fineMotorTitle": "Desarrolla la motricidad fina.",
+      "fineMotorText": "Dibujar líneas que unen puntos desarrolla la forma de sujetar el lápiz, la coordinación mano-ojo y el control muscular que los niños necesitan para escribir a mano.",
+      "numberTitle": "Refuerza el reconocimiento de números",
+      "numberText": "Seguir la secuencia de puntos 1 → 2 → 3 enseña el orden de conteo, el reconocimiento de números y los conceptos matemáticos básicos de forma natural a través del juego.",
+      "focusTitle": "Mejora la concentración y la atención",
+      "focusText": "Completar un rompecabezas de unir los puntos requiere atención sostenida: una forma tranquila y sin pantallas de practicar la concentración para niños desde preescolar hasta tercer grado.",
+      "confidenceTitle": "Recompensa instantánea y confianza",
+      "confidenceText": "Cuando aparece la imagen oculta, los niños experimentan una inmediata sensación de logro. Ese pequeño triunfo fomenta el amor por el aprendizaje y una mentalidad de crecimiento."
+    },
+    "howTo": {
+      "eyebrow": "Listo en menos de 60 segundos.",
+      "heading": "Cómo descargar e imprimir tus hojas de trabajo gratuitas de unir puntos",
+      "step1Title": "Elige tu rompecabezas",
+      "step1Text": "Elige un tema (animales, dinosaurios, vehículos, vacaciones) y una gama de puntos que se ajuste a la edad y el nivel de habilidad de tu hijo.",
+      "step2Title": "Descarga el PDF gratuito",
+      "step2Text": "Haz clic en \"Descargar imprimible gratis\" — sin necesidad de cuenta, correo electrónico ni pago. Tu navegador descargará el PDF al instante.",
+      "step3Title": "Imprime y disfruta",
+      "step3Text": "Imprime en papel A4 estándar (también compatible con Carta de EE. UU.). El blanco y negro funciona perfectamente. Una vez unidos los puntos, tu hijo puede colorear el dibujo terminado. ¡Dáselo y observa cómo une los puntos!"
+    },
+    "trust": {
+      "eyebrow": "Por qué los padres y los profesores nos eligen",
+      "heading": "Gratuito, seguro y ridículamente fácil de usar.",
+      "noAccountTitle": "No se requiere cuenta",
+      "noAccountText": "Todos los dibujos para unir puntos se descargan al instante: sin registro, sin correo electrónico, sin suscripción de pago. Solo tienes que hacer clic e imprimir.",
+      "safeTitle": "Aula segura",
+      "safeText": "Páginas de rompecabezas limpias y sin anuncios, diseñadas para impresoras escolares. Ideales para actividades matutinas, tareas escolares o momentos de tranquilidad.",
+      "fastTitle": "Rápido por diseño",
+      "fastText": "Las páginas estáticas, las imágenes optimizadas y las fuentes locales hacen que los rompecabezas se carguen rápidamente en cualquier dispositivo: teléfono, tableta u ordenador portátil."
+    },
+    "faq": {
+      "eyebrow": "Preguntas frecuentes",
+      "heading": "Preguntas frecuentes",
+      "q1": "¿Son todos los dibujos para unir puntos para imprimir en este sitio web completamente gratuitos?",
+      "a1": "Sí, todas las hojas de ejercicios de unir los puntos en DotToDotFreePrintables.com son 100% gratuitas para descargar e imprimir. No se requiere cuenta, suscripción ni tarjeta de crédito.",
+      "q2": "¿Para qué edad son adecuadas las hojas de trabajo de unir puntos?",
+      "a2": "Nuestros materiales imprimibles abarcan edades de 2 a 12 años. Las hojas de trabajo fáciles (de 10 a 20 puntos) son ideales para niños pequeños y preescolares, las hojas de dificultad media (de 20 a 50 puntos) son excelentes para jardín de infantes y primer grado, y las hojas más difíciles (de 50 a más de 200 puntos) representan un desafío para los alumnos de segundo a sexto grado.",
+      "q3": "¿En qué formato están las hojas para imprimir de unir los puntos?",
+      "a3": "Todas las hojas de trabajo se descargan como archivos PDF listos para imprimir, en tamaño A4 estándar (también disponibles en Carta de EE. UU.). Ábrelas en cualquier navegador o visor de PDF e imprímelas; no necesitas ningún software especial.",
+      "q4": "¿Tienes fichas de unir puntos para preescolar y jardín de infancia?",
+      "a4": "Por supuesto. Nuestras fichas de trabajo más sencillas comienzan con 1 a 10 puntos (perfectas para niños de 2 a 4 años) e incluyen temas de reconocimiento del alfabeto y los números, diseñados para aulas de preescolar y jardín de infancia.",
+      "q5": "¿Pueden los profesores utilizar estas fichas de unir los puntos en clase?",
+      "a5": "¡Sí! Nuestros materiales imprimibles son gratuitos para uso personal y en el aula. Son ideales para actividades matutinas, para alumnos que terminan rápido, para planes de clase de suplentes, para centros de motricidad fina y para paquetes de tareas.",
+      "q6": "¿Los rompecabezas de unir puntos ayudan a desarrollar la motricidad fina?",
+      "a6": "Sí, unir los puntos con líneas fortalece el agarre del lápiz y mejora la coordinación ojo-mano, lo cual facilita la escritura. Muchos terapeutas ocupacionales y maestros de preescolar recomiendan actividades de unir los puntos por este motivo.",
+      "q7": "¿Tienes láminas para imprimir de unir puntos con temáticas como animales o dinosaurios?",
+      "a7": "Tenemos 11 categorías, que incluyen animales, dinosaurios, vehículos, criaturas marinas, parques infantiles, 250 años de Estados Unidos, espacio, fantasía, temas de temporada/festivos, paquetes de hojas de trabajo para maestros y libros de puntos grandes. Se añaden nuevos diseños semanalmente.",
+      "q8": "¿Puedo imprimir estos rompecabezas en blanco y negro?",
+      "a8": "Sí, todas nuestras hojas de ejercicios de unir los puntos están diseñadas para imprimirse en blanco y negro y así ahorrar tinta. Se ven muy bien en cualquier impresora, ya sea doméstica o escolar."
+    },
+    "newsletter": {
+      "eyebrow": "Paquete de inicio imprimible — totalmente gratis",
+      "heading": "Recibe 20 fichas gratis de unir puntos para imprimir directamente en tu correo electrónico.",
+      "description": "Una colección ideal para padres y profesores que abarca animales, vehículos, dinosaurios y temas de temporada; todo ello con el tamaño adecuado para papel Carta estándar de EE. UU. y optimizado para la impresión en blanco y negro."
+    },
+    "blog": {
+      "eyebrow": "Ideas para adultos",
+      "heading": "Consejos de aprendizaje para el hogar y el aula.",
+      "viewAll": "Ver todos los artículos",
+      "read": "Leer"
+    },
+    "feedback": {
+      "eyebrow": "Nos encantaría saber de ti.",
+      "heading": "Enviar comentarios",
+      "description": "¿Tienes alguna idea para un rompecabezas, has encontrado un enlace roto o simplemente quieres saludar? Déjanos un mensaje a continuación."
+    },
+    "footer": {
+      "description": "Fichas de unir puntos para imprimir gratis, para niños de Educación Infantil y Primaria, padres y profesores. Todos los rompecabezas se pueden descargar, imprimir y compartir gratis.",
+      "kids": "Niños",
+      "parents": "Padres",
+      "teachers": "Profesores",
+      "blog": "Blog",
+      "faq": "Preguntas frecuentes",
+      "feedback": "Comentario",
+      "about": "Acerca de",
+      "contact": "Contacto",
+      "privacy": "Privacidad",
+      "terms": "Términos",
+      "sitemap": "Mapa del sitio",
+      "copyright": "© {year} DotToDotFreePrintables.com · Actividades imprimibles gratuitas para niños"
+    },
+    "common": {
+      "home": "Hogar",
+      "new": "Nuevo",
+      "comingSoon": "Muy pronto",
+      "downloadFree": "Descarga imprimibles gratuitos",
+      "viewDownload": "Ver y descargar",
+      "shareTitle": "{name} Conecta los Puntos Imprimible - PDF Gratis",
+      "downloadAria": "Descargar gratis PDF imprimible de conecta los puntos {name}",
+      "bookmarkTitle": "{name} Conecta los Puntos Imprimible – PDF Gratis para Niños",
+      "showSlide": "Mostrar diapositiva {number}",
+      "ageRange": "Edades {min}-{max}",
+      "difficultyLabel": "Dificultad {level} de 3",
+      "difficulty": {
+        "1": "Fácil",
+        "2": "Medio",
+        "3": "Duro"
+      },
+      "dots": "1–{count} puntos",
+      "homeVideoEyebrow": "Vídeo",
+      "homeVideoH2": "¡Mira la diversión de unir los puntos en acción!",
+      "skipToContent": "Saltar al contenido principal",
+      "joinTeachers": "Unirse a {count}+ maestros",
+      "breadcrumbAria": "Miga de pan"
+    },
+    "puzzleSearch": {
+      "searchAria": "Rompecabezas de búsqueda",
+      "resultsFound": "{count, plural, one {# rompecabezas encontrado} other {# rompecabezas encontrados}}",
+      "noMatches": "No se encontraron rompecabezas que coincidieran con su búsqueda.",
+      "imageAlt": "{name} dibujo para unir puntos imprimible"
+    },
+    "newsletterForm": {
+      "ariaLabel": "Obtén el paquete imprimible gratuito de unir puntos",
+      "emailLabel": "Dirección de correo electrónico",
+      "submit": "Envío de paquete gratuito",
+      "honeypot": "Deje este campo vacío.",
+      "privacy": "Nunca recibirás spam. Puedes darte de baja cuando quieras.",
+      "error": "No se pudo enviar este formulario.",
+      "notConnected": "El registro para el paquete gratuito aún no está disponible."
+    },
+    "feedbackForm": {
+      "ariaLabel": "Enviar comentarios",
+      "notConnected": "Este formulario de comentarios aún no está conectado.",
+      "typeLabel": "¿Qué tipo de retroalimentación?",
+      "selectTopic": "Seleccione un tema...",
+      "types": {
+        "general": "Comentarios generales",
+        "requestTheme": "Solicita un tema para un rompecabezas.",
+        "brokenLink": "Informar de un enlace roto",
+        "improvement": "Sugiera una mejora",
+        "other": "Otro"
+      },
+      "messageLabel": "Tu mensaje",
+      "messagePlaceholder": "Cuéntanos qué opinas...",
+      "emailLabel": "Correo electrónico",
+      "emailOptional": "(opcional - solo si desea una respuesta)",
+      "submit": "Enviar comentarios",
+      "success": "Gracias. Sus comentarios fueron enviados.",
+      "disclaimer": "Por favor, no incluya información personal sensible. El correo electrónico es opcional y solo lo utilizaremos si necesitamos responderle.",
+      "iframeTitle": "Envío de comentarios"
+    }
+  }
+}

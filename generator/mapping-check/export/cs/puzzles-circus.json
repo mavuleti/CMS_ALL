@@ -1,0 +1,359 @@
+{
+  "collection": {},
+  "puzzles": [
+    {
+      "slug": "circus-ringmaster-bear-dot-to-dot-puzzle",
+      "header": {
+        "json_ld": {
+          "name": "Medvěd cirkusový ředitel",
+          "type": "CreativeWork",
+          "educational_use": "Fine motor skills, number sequencing"
+        }
+      },
+      "body": {
+        "name": "Medvěd cirkusový ředitel",
+        "tagline": "Seznamte se s medvědem, který řídí velkou show!",
+        "description": "Spojte 74 teček, abyste odhalili přátelského medvěda oblečeného jako cirkusového ředitele. Tento středně obtížný tiskový materiál pomáhá dětem procvičovat pořadí čísel, koncentraci, vizuální sledování a pečlivou kontrolu tužky.",
+        "fun_fact": "Cirkusový ředitel představuje vystupující a provádí publikum od jednoho čísla k dalšímu.",
+        "dot_guide": {
+          "intro": "S chytrým kabátem, vysokým kloboukem a sebevědomým postojem je tento přátelský medvěd připraven přivítat všechny v cirkusu. Výzva se 74 tečkami je rozdělena do pěti jasných fází pro děti, které se cítí pohodlně s delšími sekvencemi čísel. Najděte tečku 1 a ať show začíná!",
+          "outro": "Fantastická práce—medvěd kouzelník je připraven oznámit představení! Obarvěte kostým v odvážných červených a zlatých barvách, poté přidejte reflektory a nadšené publikum. Dokončete scénu s <a href=\"/circus/circus-tent-dot-to-dot-puzzle/\">puzzle stanu cirkusu</a>.",
+          "sections": [
+            {
+              "range": "1–15",
+              "title": "Klobouk ředitele",
+              "learn": "Spojte tečky 1 až 15, abyste nakreslili vysoký klobouk a zaoblené uši medvěda.",
+              "fact": "Ředitelé cirkusu často nosí nápadné formální kostýmy, aby je publikum snadno spatřilo uvnitř kruhu."
+            },
+            {
+              "range": "16–30",
+              "title": "Medvědova tvář",
+              "learn": "Pokračujte od tečky 16 do tečky 30, abyste vytvořili hlavu medvěda, čenich a veselý výraz.",
+              "fact": "Medvědův čich je extrémně silný a pomáhá mu najít potravu na velké vzdálenosti."
+            },
+            {
+              "range": "31–45",
+              "title": "Chytrá bunda",
+              "learn": "Následujte tečky 31 až 45, abyste vytvořili zdobenou bundu ředitele a klopy.",
+              "fact": "Jasné bundy, lesklé knoflíky a dekorativní lemování pomáhají, aby kostým ředitele cirkusu vypadal divadelní."
+            },
+            {
+              "range": "46–60",
+              "title": "Ruce a póza představení",
+              "learn": "Sledujte tečky 46 až 60, abyste přidali medvědovy ruce a vítací pózu představení.",
+              "fact": "Ředitelé cirkusu používají jasné gesta a silný hlas, aby nasměrovali pozornost k dalšímu číslu."
+            },
+            {
+              "range": "61–74",
+              "title": "Boty a dokončení",
+              "learn": "Dokončete tečkami 61 až 74, abyste nakreslili nohy, boty a poslední detaily kostýmu.",
+              "fact": "Cirkusový kruh je tradičně kruhový, aby diváci kolem něj mohli vidět představení z mnoha úhlů."
+            }
+          ],
+          "color_schemes": [
+            {
+              "name": "Medvěd cirkusový ředitel: Klasické skutečné barvy",
+              "note": "Tato známá paleta používá barvy běžné na skutečném předmětu.",
+              "mapping": [
+                {
+                  "range": "1–15",
+                  "part": "Klobouk ředitele",
+                  "color": "Crayola Scarlet",
+                  "hex": "#FC2847",
+                  "why": "Tato barva dává části známý skutečný vzhled."
+                },
+                {
+                  "range": "16–30",
+                  "part": "Medvědova tvář",
+                  "color": "Crayola Sky Blue",
+                  "hex": "#80DAEB",
+                  "why": "Tato barva dává části známý skutečný vzhled."
+                },
+                {
+                  "range": "31–45",
+                  "part": "Chytrá bunda",
+                  "color": "Crayola Goldenrod",
+                  "hex": "#FCD975",
+                  "why": "Tato barva dává části známý skutečný vzhled."
+                },
+                {
+                  "range": "46–60",
+                  "part": "Ruce a póza představení",
+                  "color": "Crayola Scarlet",
+                  "hex": "#FC2847",
+                  "why": "Tato barva dává části známý skutečný vzhled."
+                },
+                {
+                  "range": "61–74",
+                  "part": "Boty a dokončení",
+                  "color": "Crayola Sky Blue",
+                  "hex": "#80DAEB",
+                  "why": "Tato barva dává části známý skutečný vzhled."
+                }
+              ]
+            },
+            {
+              "name": "Medvěd cirkusový ředitel: Jemné přírodní barvy",
+              "note": "Tato světlejší paleta ukazuje skutečnou bledou nebo sluncem osvětlenou podobu.",
+              "mapping": [
+                {
+                  "range": "1–15",
+                  "part": "Klobouk ředitele",
+                  "color": "Crayola Silver",
+                  "hex": "#CDC5C2",
+                  "why": "Světlejší odstín ukazuje část za jasného denního světla."
+                },
+                {
+                  "range": "16–30",
+                  "part": "Medvědova tvář",
+                  "color": "Crayola Tan",
+                  "hex": "#FAA76C",
+                  "why": "Světlejší odstín ukazuje část za jasného denního světla."
+                },
+                {
+                  "range": "31–45",
+                  "part": "Chytrá bunda",
+                  "color": "Crayola Sea Green",
+                  "hex": "#93DFB8",
+                  "why": "Světlejší odstín ukazuje část za jasného denního světla."
+                },
+                {
+                  "range": "46–60",
+                  "part": "Ruce a póza představení",
+                  "color": "Crayola Silver",
+                  "hex": "#CDC5C2",
+                  "why": "Světlejší odstín ukazuje část za jasného denního světla."
+                },
+                {
+                  "range": "61–74",
+                  "part": "Boty a dokončení",
+                  "color": "Crayola Tan",
+                  "hex": "#FAA76C",
+                  "why": "Světlejší odstín ukazuje část za jasného denního světla."
+                }
+              ]
+            },
+            {
+              "name": "Medvěd cirkusový ředitel: Výrazné skutečné barvy",
+              "note": "Tato výrazná paleta vychází ze skutečných materiálů, znaků nebo nátěrů.",
+              "mapping": [
+                {
+                  "range": "1–15",
+                  "part": "Klobouk ředitele",
+                  "color": "Crayola Forest Green",
+                  "hex": "#5FA777",
+                  "why": "Hlubší barva odpovídá skutečnému znaku, materiálu nebo nátěru."
+                },
+                {
+                  "range": "16–30",
+                  "part": "Medvědova tvář",
+                  "color": "Crayola Brown",
+                  "hex": "#AF593E",
+                  "why": "Hlubší barva odpovídá skutečnému znaku, materiálu nebo nátěru."
+                },
+                {
+                  "range": "31–45",
+                  "part": "Chytrá bunda",
+                  "color": "Crayola Orange",
+                  "hex": "#FF7538",
+                  "why": "Hlubší barva odpovídá skutečnému znaku, materiálu nebo nátěru."
+                },
+                {
+                  "range": "46–60",
+                  "part": "Ruce a póza představení",
+                  "color": "Crayola Forest Green",
+                  "hex": "#5FA777",
+                  "why": "Hlubší barva odpovídá skutečnému znaku, materiálu nebo nátěru."
+                },
+                {
+                  "range": "61–74",
+                  "part": "Boty a dokončení",
+                  "color": "Crayola Brown",
+                  "hex": "#AF593E",
+                  "why": "Hlubší barva odpovídá skutečnému znaku, materiálu nebo nátěru."
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "slug": "circus-tent-dot-to-dot-puzzle",
+      "header": {
+        "json_ld": {
+          "name": "Cirkusový stan",
+          "type": "CreativeWork",
+          "educational_use": "Fine motor skills, number sequencing"
+        }
+      },
+      "body": {
+        "name": "Cirkusový stan",
+        "tagline": "Přijďte na velkolepé dobrodružství!",
+        "description": "Spojte 59 teček, abyste odhalili veselý pruhovaný cirkusový stan připravený na představení. Tento snadno tisknutelný úkol pomáhá dětem procvičovat počítání v pořadí, vizuální sledování, koncentraci a stabilní ovládání tužky.",
+        "fun_fact": "Hlavní představení cirkusu se často nazývá velký stan, protože je to největší stan na představení.",
+        "dot_guide": {
+          "intro": "Jasný cirkusový stan je místem, kde se akrobaté, klauni a další umělci shromažďují pod jednou obrovskou střechou. Tento přátelský 59-tečkový puzzle vytváří velký stan ve pěti zvládnutelných krocích. Najděte tečku 1, stabilizujte svou tužku a připravte se na představení!",
+          "outro": "Bravo—váš cirkusový stan je připraven na zahajovací noc! Obarvěte plachtu odvážnými pruhy, přidejte světla a praporky a nakreslete dav přicházející na představení. Zkuste <a href=\"/playgrounds/carousel-horse-playground-dot-to-dot-puzzle/\">puzzle s karuselským koněm</a> příště.",
+          "sections": [
+            {
+              "range": "1–12",
+              "title": "Létající vlajka",
+              "learn": "Spojte tečky 1 až 12, abyste nakreslili vlajku a nejvyšší bod stanu.",
+              "fact": "Vlajka na vrcholu pomáhá návštěvníkům spatřit velký stan z druhé strany výstaviště."
+            },
+            {
+              "range": "13–24",
+              "title": "Vysoký vrchol stanu",
+              "learn": "Pokračujte od tečky 13 k tečce 24, abyste vytvořili strmou střechu stoupající k centrálnímu sloupu.",
+              "fact": "Vysoké centrální sloupy podpírají střechu tradičního cirkusového stanu a vytvářejí jeho slavný špičatý tvar."
+            },
+            {
+              "range": "25–36",
+              "title": "Pruhovaná střecha",
+              "learn": "Následujte tečky 25 až 36 přes širokou střechu a pečlivě kreslete linie pro její dekorativní pruhy.",
+              "fact": "Odvážné pruhy činí cirkusové stany snadno rozpoznatelnými a dodávají velkému stanu slavnostní vzhled."
+            },
+            {
+              "range": "37–48",
+              "title": "Stěny stanu",
+              "learn": "Sledujte tečky 37 až 48 dolů po obou stranách, abyste vytvořili pevné stěny stanu.",
+              "fact": "Silné lana a kolíky pomáhají udržet velké stany stabilní proti větru."
+            },
+            {
+              "range": "49–59",
+              "title": "Velký vstup",
+              "learn": "Dokončete tečkami 49 až 59, abyste přidali otevřený vstup, kudy publikum vstupuje dovnitř.",
+              "fact": "Vstupy do cirkusu jsou často jasně zdobeny, aby přivítaly publikum a vybudovaly vzrušení před představením."
+            }
+          ],
+          "color_schemes": [
+            {
+              "name": "Cirkusový stan: Klasické skutečné barvy",
+              "note": "Tato známá paleta používá barvy běžné na skutečném předmětu.",
+              "mapping": [
+                {
+                  "range": "1–12",
+                  "part": "Létající vlajka",
+                  "color": "Crayola Scarlet",
+                  "hex": "#FC2847",
+                  "why": "Tato barva dává části známý skutečný vzhled."
+                },
+                {
+                  "range": "13–24",
+                  "part": "Vysoký vrchol stanu",
+                  "color": "Crayola Sky Blue",
+                  "hex": "#80DAEB",
+                  "why": "Tato barva dává části známý skutečný vzhled."
+                },
+                {
+                  "range": "25–36",
+                  "part": "Pruhovaná střecha",
+                  "color": "Crayola Goldenrod",
+                  "hex": "#FCD975",
+                  "why": "Tato barva dává části známý skutečný vzhled."
+                },
+                {
+                  "range": "37–48",
+                  "part": "Stěny stanu",
+                  "color": "Crayola Scarlet",
+                  "hex": "#FC2847",
+                  "why": "Tato barva dává části známý skutečný vzhled."
+                },
+                {
+                  "range": "49–59",
+                  "part": "Velký vstup",
+                  "color": "Crayola Sky Blue",
+                  "hex": "#80DAEB",
+                  "why": "Tato barva dává části známý skutečný vzhled."
+                }
+              ]
+            },
+            {
+              "name": "Cirkusový stan: Jemné přírodní barvy",
+              "note": "Tato světlejší paleta ukazuje skutečnou bledou nebo sluncem osvětlenou podobu.",
+              "mapping": [
+                {
+                  "range": "1–12",
+                  "part": "Létající vlajka",
+                  "color": "Crayola Silver",
+                  "hex": "#CDC5C2",
+                  "why": "Světlejší odstín ukazuje část za jasného denního světla."
+                },
+                {
+                  "range": "13–24",
+                  "part": "Vysoký vrchol stanu",
+                  "color": "Crayola Tan",
+                  "hex": "#FAA76C",
+                  "why": "Světlejší odstín ukazuje část za jasného denního světla."
+                },
+                {
+                  "range": "25–36",
+                  "part": "Pruhovaná střecha",
+                  "color": "Crayola Sea Green",
+                  "hex": "#93DFB8",
+                  "why": "Světlejší odstín ukazuje část za jasného denního světla."
+                },
+                {
+                  "range": "37–48",
+                  "part": "Stěny stanu",
+                  "color": "Crayola Silver",
+                  "hex": "#CDC5C2",
+                  "why": "Světlejší odstín ukazuje část za jasného denního světla."
+                },
+                {
+                  "range": "49–59",
+                  "part": "Velký vstup",
+                  "color": "Crayola Tan",
+                  "hex": "#FAA76C",
+                  "why": "Světlejší odstín ukazuje část za jasného denního světla."
+                }
+              ]
+            },
+            {
+              "name": "Cirkusový stan: Výrazné skutečné barvy",
+              "note": "Tato výrazná paleta vychází ze skutečných materiálů, znaků nebo nátěrů.",
+              "mapping": [
+                {
+                  "range": "1–12",
+                  "part": "Létající vlajka",
+                  "color": "Crayola Forest Green",
+                  "hex": "#5FA777",
+                  "why": "Hlubší barva odpovídá skutečnému znaku, materiálu nebo nátěru."
+                },
+                {
+                  "range": "13–24",
+                  "part": "Vysoký vrchol stanu",
+                  "color": "Crayola Brown",
+                  "hex": "#AF593E",
+                  "why": "Hlubší barva odpovídá skutečnému znaku, materiálu nebo nátěru."
+                },
+                {
+                  "range": "25–36",
+                  "part": "Pruhovaná střecha",
+                  "color": "Crayola Orange",
+                  "hex": "#FF7538",
+                  "why": "Hlubší barva odpovídá skutečnému znaku, materiálu nebo nátěru."
+                },
+                {
+                  "range": "37–48",
+                  "part": "Stěny stanu",
+                  "color": "Crayola Forest Green",
+                  "hex": "#5FA777",
+                  "why": "Hlubší barva odpovídá skutečnému znaku, materiálu nebo nátěru."
+                },
+                {
+                  "range": "49–59",
+                  "part": "Velký vstup",
+                  "color": "Crayola Brown",
+                  "hex": "#AF593E",
+                  "why": "Hlubší barva odpovídá skutečnému znaku, materiálu nebo nátěru."
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

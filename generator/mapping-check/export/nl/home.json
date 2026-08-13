@@ -1,0 +1,409 @@
+{
+  "slug": "home",
+  "header": {
+    "title": "Verbind de punten & van punt naar punt gratis | PDF om te printen",
+    "title_template": "%s | DotToDotFreePrintables.com",
+    "meta_description": "Verbind de punten en van punt naar punt om te printen, gratis als PDF: makkelijke werkbladen vanaf 10 stippen voor peuters tot uitdagingen met meer dan 100 stippen voor volwassenen. Dieren, dinosaurussen, voertuigen en seizoensthema's. Geen account nodig.",
+    "canonical": "/{locale}/",
+    "og": {
+      "title": "Verbind de punten / van punt naar punt – gratis puzzels voor kinderen & volwassenen",
+      "description": "Verbind de punten en van punt naar punt om te printen, gratis als PDF: makkelijke werkbladen vanaf 10 stippen voor peuters tot uitdagingen met meer dan 100 stippen voor volwassenen. Dieren, dinosaurussen, voertuigen en seizoensthema's. Geen account nodig.",
+      "url": "/{locale}/",
+      "site_name": "DotToDotFreePrintables.com",
+      "type": "website",
+      "image": "/images/trex-61-puzzle.webp (800x679)"
+    },
+    "twitter": {
+      "card": "summary_large_image"
+    },
+    "manifest": "/manifest.webmanifest",
+    "json_ld": {
+      "website": {
+        "type": "WebSite",
+        "name": "DotToDotFreePrintables.com (SITE_NAME)"
+      },
+      "organization": {
+        "type": "Organization",
+        "logo": "/icon-512.png (absoluteUrl)",
+        "same_as": "hardcoded array: Pinterest, Facebook, YouTube profile URLs"
+      },
+      "collection_page": {
+        "type": "CollectionPage",
+        "name": "Free Dot to Dot Printables for Kids (third distinct hardcoded title string in the codebase — differs from header.title and seo/metadata.json's homepage.title)"
+      },
+      "item_list": {
+        "type": "ItemList (featured puzzles)"
+      }
+    }
+  },
+  "body": {
+    "nav": {
+      "kids": "Kinderen - Puzzels",
+      "teachers": "Leraren",
+      "parents": "Ouders",
+      "contact": "Neem contact met ons op",
+      "blog": "Blog",
+      "search": "Zoekopdracht",
+      "freePack": "Gratis pakket",
+      "scanMe": "Scan mij"
+    },
+    "homepageUi": {
+      "title": "Vind de perfecte punt-tot-punt printables",
+      "description": "Print, verbind de stippen en breng geweldige plaatjes tot leven. Gratis en klaar voor plezier!",
+      "searchPlaceholder": "Probeer oceaan, dinosaurus of bloemen",
+      "filterPuzzles": "Puzzels filteren",
+      "age": "Leeftijd",
+      "dots": "stippen",
+      "featuredPuzzles": "Uitgelichte printbare puzzels",
+      "savePuzzle": "{name} opslaan",
+      "removeSavedPuzzle": "{name} verwijderen uit opgeslagen puzzels",
+      "downloads": "downloads",
+      "bookTitle": "Het beste van 2026 · {count}",
+      "bookDescription": "Onze favoriete punt-tot-punt-puzzels in één printbaar PDF-boek.",
+      "searchUnavailable": "Zoeken is tijdelijk niet beschikbaar. Probeer het opnieuw.",
+      "popularEyebrow": "Populair deze week",
+      "mostDownloaded": "Meest gedownloade puzzels",
+      "downloadCountAria": "{count} of meer downloads",
+      "freshPrintables": "Verse printables",
+      "recentlyAdded": "Recent toegevoegd",
+      "browseCategories": "Blader door puzzelcategorieën",
+      "openCategories": "Open categorieënmenu",
+      "closeCategories": "Sluit categorieënmenu",
+      "browseByTheme": "Blader op thema",
+      "quickLinks": "Snelle links",
+      "bundlePacks": "Bundelpakketten",
+      "parentsTeachers": "Voor ouders en leraren",
+      "more": "Meer categorieën",
+      "kids": "Kinderen",
+      "categoryNames": {
+        "cute": "Schattige puzzels",
+        "flowers": "Bloemen"
+      }
+    },
+    "audience": {
+      "kidsTitle": "Voor kinderen",
+      "kidsText": "Vriendelijke thema's met dieren, dinosaurussen en voertuigen, duidelijk aangegeven met genummerde stippen. Makkelijke overwinningen die echt zelfvertrouwen opbouwen.",
+      "parentsTitle": "Voor ouders",
+      "parentsText": "Schermvrije ontspanningsactiviteiten voor thuis, op reis en in restaurants. Print ze binnen een minuut vanaf elk apparaat.",
+      "teachersTitle": "Voor leerkrachten",
+      "teachersText": "Eenvoudige punt-tot-punt-opdrachten voor ochtendwerk, snelle leerlingen, invallers en leerstations in de klas — geen voorbereiding nodig."
+    },
+    "categories": {
+      "eyebrow": "Georganiseerd op thema en vaardigheidsniveau",
+      "heading": "Blader door punt-tot-punt puzzels per categorie.",
+      "description": "Van simpele vormen met 10 stippen voor peuters tot uitdagingen met 200 stippen voor oudere kinderen: alles is gesorteerd per categorie, zodat je binnen enkele seconden de juiste gratis printbare vorm vindt.",
+      "puzzles": "{count, plural, one {# puzzel} other {# puzzels}}",
+      "comingSoon": "Binnenkort beschikbaar",
+      "badges": {
+        "dinosaurs": "Nu verkrijgbaar!",
+        "ocean": "Nu verkrijgbaar!",
+        "playgrounds": "Nu verkrijgbaar!",
+        "garden": "Nu verkrijgbaar!",
+        "usa250": "Nieuw!",
+        "uae": "Nu verkrijgbaar!",
+        "cute": "Nieuw!",
+        "circus": "Nieuw!"
+      },
+      "items": {
+        "dinosaurs": {
+          "name": "Dinosaurussen",
+          "description": "Duik in de prehistorie! T-Rex, Triceratops, Velociraptor en {count} gratis punt-tot-punt puzzels waar je kinderen dol op zullen zijn."
+        },
+        "animals": {
+          "name": "Dieren",
+          "description": "Vriendelijke wezens voor het oefenen van getallen in een vroeg stadium."
+        },
+        "vehicles": {
+          "name": "Voertuigen",
+          "description": "Auto's, vrachtwagens, raketten en machines."
+        },
+        "fantasy": {
+          "name": "Fantasie",
+          "description": "Kastelen, eenhoorns, draken en inspiratie voor verhalen."
+        },
+        "seasonal": {
+          "name": "Seizoensgebonden",
+          "description": "Vakantie- en klassenkalenderactiviteiten."
+        },
+        "ocean": {
+          "name": "Oceaan",
+          "description": "Kleurplaten met zeedieren en rustgevende afbeeldingen."
+        },
+        "playgrounds": {
+          "name": "Speeltuinen",
+          "description": "Schommels, glijbanen en buitenplezier voor kleine avonturiers."
+        },
+        "garden": {
+          "name": "Tuin",
+          "description": "Handschoenen, schepjes en gereedschap voor kleine tuinhulpjes."
+        },
+        "usa250": {
+          "name": "Amerika 250 jaar",
+          "description": "Vier de 250e verjaardag van Amerika met patriottische punt-tot-punt puzzels die de Amerikaanse geschiedenis eren."
+        },
+        "uae": {
+          "name": "VAE",
+          "description": "Ontdek de Verenigde Arabische Emiraten! Iconische bezienswaardigheden zoals de Burj Al Arab, klaar om te verbinden en kleur te geven."
+        },
+        "space": {
+          "name": "Ruimte",
+          "description": "Planeten, astronauten en raketavonturen."
+        },
+        "worksheets": {
+          "name": "Werkbladen",
+          "description": "Kant-en-klare werkbladen voor het oefenen van getallenreeksen."
+        },
+        "bigDotBooks": {
+          "name": "Boeken met grote stippen",
+          "description": "Uitgebreide puzzels voor geconcentreerde oudere leerlingen."
+        },
+        "cute": {
+          "name": "Schattig",
+          "description": "Schattige puppy&#39;s, kleine autootjes en {count} leuke gratis punt-tot-punt puzzels waar je kinderen dol op zullen zijn."
+        },
+        "circus": {
+          "name": "Sirkus",
+          "description": "Ringmeesters, grote tenten en showtijd plezier voor jonge leerlingen."
+        }
+      }
+    },
+    "puzzleSection": {
+      "eyebrow": "Gratis printbare voorbeelden — aanmelden is niet nodig",
+      "heading": "Populaire punt-tot-punt-tekeningen om nu te printen",
+      "weeklyPack": "Bekijk het weekpakket →",
+      "downloadLink": "Download gratis printbare versie",
+      "new": "Nieuw",
+      "imageAlt": "{name} gratis punt-naar-punt werkblad om te printen voor {age}",
+      "categories": {
+        "Dinosaurs": "Dinosaurussen",
+        "Ocean": "Oceaan",
+        "Playgrounds": "Speeltuinen",
+        "Garden": "Tuin",
+        "Cute": "Schattig",
+        "USA 250 Years": "Amerika 250 jaar",
+        "UAE": "VAE"
+      },
+      "items": {
+        "trex-61-dot-to-dot-puzzle": {
+          "name": "T-Rex 61-Stippen Uitdaging"
+        },
+        "brontosaurus-dot-to-dot-puzzle": {
+          "name": "Brontosaurus"
+        },
+        "mermaid-dot-to-dot-puzzle": {
+          "name": "Meermin"
+        },
+        "merman-dot-to-dot-puzzle": {
+          "name": "Meerman"
+        },
+        "seahorse-dot-to-dot-puzzle": {
+          "name": "Zeepaardje"
+        },
+        "whale-dot-to-dot-puzzle": {
+          "name": "Walvis"
+        },
+        "swing-playgrounds-dot-to-dot-puzzle": {
+          "name": "Schommelspeeltuin"
+        },
+        "slide-playgrounds-dot-to-dot-puzzle": {
+          "name": "Glijbaan Speeltuin"
+        },
+        "seesaw-playground-dot-to-dot-puzzle": {
+          "name": "Wipspeeltuin"
+        },
+        "roller-coaster-playground-dot-to-dot-puzzle": {
+          "name": "Speeltuin met achtbanen"
+        },
+        "wheelbarrow-playground-dot-to-dot-puzzle": {
+          "name": "Kruiwagen Speeltuin"
+        },
+        "garden-gloves-dot-to-dot-puzzle": {
+          "name": "Tuinhandschoenen"
+        },
+        "garden-trowel-dot-to-dot-puzzle": {
+          "name": "Tuinschepje"
+        },
+        "gas-balloon-usa-250-dot-to-dot-puzzle": {
+          "name": "Gasballon Amerika 250"
+        },
+        "america-250-birthday-fireworks-dot-to-dot-puzzle": {
+          "name": "Vuurwerk ter ere van Amerika's 250e verjaardag"
+        },
+        "america-250-anniversary-liberty-bell-wings-1776-dot-to-dot-puzzle": {
+          "name": "Amerika 250 Liberty Bell-vleugels"
+        },
+        "usa-250-astronaut-dot-to-dot-puzzle": {
+          "name": "Amerika 250 Astronaut"
+        },
+        "usa-250-anniversary-sports-kids-podium-dot-to-dot-puzzle": {
+          "name": "Amerika 250-jarig jubileum Sport Kinderpodium"
+        },
+        "usa-250-anniversary-airplane-banner-dot-to-dot-puzzle": {
+          "name": "Vliegtuigbanner ter ere van het 250-jarig jubileum van Amerika"
+        },
+        "usa-250-space-shuttle-dot-to-dot-puzzle": {
+          "name": "Amerika 250 Space Shuttle"
+        },
+        "usa-250-birthday-balloons-stars-dot-to-dot-puzzle": {
+          "name": "Ballonnen en sterren voor de 250e verjaardag van Amerika"
+        },
+        "usa-250-birthday-cake-dot-to-dot-puzzle": {
+          "name": "Amerika 250e verjaardagstaart"
+        },
+        "america-250-anniversary-eagle-banner-dot-to-dot-puzzle": {
+          "name": "Amerika 250 Adelaarsbanner"
+        },
+        "burj-al-arab-dot-to-dot-puzzle": {
+          "name": "Boersj Al Arab"
+        },
+        "dallah-coffee-pot-dot-to-dot-puzzle": {
+          "name": "Dallah koffiepot"
+        }
+      }
+    },
+    "benefits": {
+      "eyebrow": "Ondersteund door pedagogen in de vroege kinderjaren",
+      "heading": "Waarom punt-tot-punt-werkbladen geweldig zijn voor de ontwikkeling van kinderen",
+      "description": "Verbind-de-punten-werkbladen zijn niet alleen leuk, maar ook een wetenschappelijk onderbouwd hulpmiddel dat door kleuter- en basisschoolleerkrachten wordt gebruikt om essentiële leervaardigheden bij jonge kinderen te ontwikkelen.",
+      "fineMotorTitle": "Bevordert de fijne motoriek",
+      "fineMotorText": "Het tekenen van punt-naar-puntlijnen ontwikkelt de potloodgreep, de hand-oogcoördinatie en de spiercontrole die kinderen nodig hebben voor het leren schrijven.",
+      "numberTitle": "Versterkt de herkenning van getallen.",
+      "numberText": "Door de stippen 1 → 2 → 3 in de juiste volgorde te volgen, leren kinderen op een natuurlijke manier, spelenderwijs, de telvolgorde, getallen herkennen en de eerste wiskundige concepten leren.",
+      "focusTitle": "Verbetert de focus en concentratie.",
+      "focusText": "Het voltooien van een punt-tot-punt-puzzel vereist aanhoudende concentratie — een rustige, schermvrije manier om de concentratie te oefenen voor kleuters tot en met groep 3.",
+      "confidenceTitle": "Directe beloning en zelfvertrouwen",
+      "confidenceText": "Wanneer de verborgen afbeelding verschijnt, ervaren kinderen direct een gevoel van voldoening. Die kleine overwinning wakkert de liefde voor leren aan en bevordert een groeimindset."
+    },
+    "howTo": {
+      "eyebrow": "Klaar in minder dan 60 seconden",
+      "heading": "Zo download en print je je gratis punt-tot-punt-werkbladen.",
+      "step1Title": "Kies je puzzel",
+      "step1Text": "Kies een thema (dieren, dinosaurussen, voertuigen, feestdagen) en een stippenbereik dat past bij de leeftijd en het vaardigheidsniveau van uw kind.",
+      "step2Title": "Download de gratis PDF",
+      "step2Text": "Klik op \"Gratis printbaar downloaden\" — geen account, geen e-mailadres, geen betaalmuur. Je browser downloadt de PDF direct.",
+      "step3Title": "Print het uit en geniet ervan!",
+      "step3Text": "Print het af op standaard Amerikaans Letter-papier (8,5\" × 11\"). Zwart-wit werkt prima. Geef het aan je kind en kijk hoe hij of zij de verbanden legt!"
+    },
+    "trust": {
+      "eyebrow": "Waarom ouders en leerkrachten voor ons kiezen",
+      "heading": "Gratis, veilig en ongelooflijk makkelijk in gebruik.",
+      "noAccountTitle": "Geen account vereist",
+      "noAccountText": "Alle punt-naar-punt-tekeningen zijn direct te downloaden — zonder aanmelden, e-mail of betaalmuur. Gewoon klikken en printen.",
+      "safeTitle": "Veilige klaslokalen",
+      "safeText": "Schone, reclamevrije puzzelpagina's, speciaal ontworpen voor schoolprinters. Geschikt voor ochtendtaken, huiswerk of rustige momenten.",
+      "fastTitle": "Snel door ontwerp",
+      "fastText": "Dankzij statische pagina's, geoptimaliseerde afbeeldingen en lokale lettertypen laden puzzels snel op elk apparaat: telefoon, tablet of laptop."
+    },
+    "faq": {
+      "eyebrow": "Veelgestelde vragen",
+      "heading": "Veelgestelde vragen",
+      "q1": "Zijn alle punt-na-punt-tekeningen op deze site volledig gratis?",
+      "a1": "Ja, alle 'verbind de punten'-werkbladen op DotToDotFreePrintables.com zijn 100% gratis te downloaden en te printen. Je hebt geen account, abonnement of creditcard nodig.",
+      "q2": "Voor welke leeftijd zijn punt-tot-punt-werkbladen geschikt?",
+      "a2": "Onze printbare werkbladen zijn geschikt voor kinderen van 2 tot en met 12 jaar. De makkelijke werkbladen (10-20 stippen) zijn ideaal voor peuters en kleuters, de gemiddelde werkbladen (20-50 stippen) zijn perfect voor groep 1 en 2, en de moeilijkere werkbladen (50-200+ stippen) vormen een uitdaging voor kinderen van groep 3 tot en met 6.",
+      "q3": "In welk formaat zijn de printbare 'verbind de punten'-werkbladen?",
+      "a3": "Alle werkbladen worden gedownload als printklare PDF-bestanden op standaard Amerikaans Letter-formaat (8,5\" × 11\"). Open ze in elke browser of PDF-viewer en print ze af — er is geen speciale software nodig.",
+      "q4": "Heeft u punt-tot-punt-werkbladen voor peuters en kleuters?",
+      "a4": "Absoluut. Onze eenvoudigste werkbladen beginnen bij 1-10 stippen (perfect voor kinderen van 2-4 jaar) en bevatten thema's voor het herkennen van letters en cijfers, speciaal ontworpen voor peuter- en kleuterklassen.",
+      "q5": "Kunnen leerkrachten deze 'verbind de punten'-werkbladen in de klas gebruiken?",
+      "a5": "Jazeker! Onze printbare materialen zijn gratis te gebruiken voor persoonlijk en klassikaal gebruik. Ze zijn populair voor ochtendactiviteiten, opdrachten voor snelle leerlingen, invallessen, fijne motoriekoefeningen en huiswerkpakketten.",
+      "q6": "Helpen punt-na-punt-puzzels bij het ontwikkelen van fijne motorische vaardigheden?",
+      "a6": "Ja, het trekken van lijnen tussen stippen versterkt de potloodgreep en de hand-oogcoördinatie, wat essentieel is voor de ontwikkeling van het handschrift. Veel ergotherapeuten en kleuterjuffen bevelen om die reden activiteiten aan waarbij stippen met elkaar verbonden moeten worden.",
+      "q7": "Heeft u punt-na-punt-tekeningen met een bepaald thema, zoals dieren of dinosaurussen?",
+      "a7": "We hebben 11 categorieën, waaronder dieren, dinosaurussen, voertuigen, zeedieren, speeltuinen, 250 jaar Amerika, ruimte, fantasie, seizoens-/feestdagenthema's, werkbladenpakketten voor leerkrachten en boeken met grote stippen. Er worden wekelijks nieuwe ontwerpen toegevoegd.",
+      "q8": "Kan ik deze puzzels in zwart-wit afdrukken?",
+      "a8": "Ja, al onze punt-tot-punt-werkbladen zijn ontworpen voor zwart-wit afdrukken om inkt te besparen. Ze zien er prima uit op elke printer thuis of in de klas."
+    },
+    "newsletter": {
+      "eyebrow": "Printbaar starterspakket — helemaal gratis",
+      "heading": "Ontvang 20 gratis punt-na-punt-tekeningen in je inbox.",
+      "description": "Een ouder- en leerkrachtvriendelijke collectie met afbeeldingen van dieren, voertuigen, dinosaurussen en seizoensthema's — allemaal op standaard A4-formaat en geoptimaliseerd voor zwart-wit afdrukken."
+    },
+    "blog": {
+      "eyebrow": "Ideeën voor volwassenen",
+      "heading": "Leertips voor thuis en in de klas",
+      "viewAll": "Bekijk alle artikelen",
+      "read": "Lezen"
+    },
+    "feedback": {
+      "eyebrow": "We horen graag van u.",
+      "heading": "Feedback verzenden",
+      "description": "Heb je een puzzelidee, een kapotte link gevonden of wil je gewoon even hallo zeggen? Laat hieronder een berichtje achter."
+    },
+    "footer": {
+      "description": "Gratis punt-tot-punt-tekeningen en verbind-de-punten-werkbladen voor kinderen, ouders en leerkrachten. Alle puzzels zijn gratis te downloaden, printen en delen.",
+      "kids": "Kinderen",
+      "parents": "Ouders",
+      "teachers": "Leraren",
+      "blog": "Blog",
+      "faq": "Veelgestelde vragen",
+      "feedback": "Feedback",
+      "about": "Over",
+      "contact": "Contact",
+      "privacy": "Privacy",
+      "terms": "Voorwaarden",
+      "sitemap": "Sitemap",
+      "copyright": "© {year} DotToDotFreePrintables.com · Gratis printbare activiteiten voor kinderen"
+    },
+    "common": {
+      "home": "Thuis",
+      "new": "Nieuw",
+      "comingSoon": "Binnenkort beschikbaar",
+      "downloadFree": "Download gratis printbare versie",
+      "viewDownload": "Bekijken en downloaden",
+      "shareTitle": "{name} Verbinden de Punten Afdrukbaar - Gratis PDF",
+      "downloadAria": "Download gratis {name} verbinden de punten afdrukbare PDF",
+      "bookmarkTitle": "{name} Verbinden de Punten Afdrukbaar – Gratis PDF voor Kinderen",
+      "showSlide": "Toon dia {number}",
+      "ageRange": "Leeftijden {min}-{max}",
+      "difficultyLabel": "Moeilijkheidsgraad {level} uit 3",
+      "difficulty": {
+        "1": "Eenvoudig",
+        "2": "Gemiddeld",
+        "3": "Moeilijk"
+      },
+      "dots": "1–{count} stippen",
+      "homeVideoEyebrow": "Video",
+      "homeVideoH2": "Bekijk hoe leuk punt-naar-punt tekenen is!",
+      "skipToContent": "Overslaan naar hoofdinhoud",
+      "joinTeachers": "Doe mee met {count}+ docenten",
+      "breadcrumbAria": "Broodkruimel"
+    },
+    "puzzleSearch": {
+      "searchAria": "Zoekpuzzels",
+      "resultsFound": "{count, plural, one {# puzzel gevonden} other {# puzzels gevonden}}",
+      "noMatches": "Er zijn geen puzzels gevonden die overeenkomen met uw zoekopdracht.",
+      "imageAlt": "{name} punt-na-punt afdrukbaar"
+    },
+    "newsletterForm": {
+      "ariaLabel": "Download het gratis printbare pakket met punt-naar-punt tekeningen.",
+      "emailLabel": "E-mailadres",
+      "submit": "Verzend gratis pakket",
+      "honeypot": "Laat dit veld leeg.",
+      "privacy": "Geen spam, nooit. U kunt zich op elk moment afmelden.",
+      "error": "Het lukt niet om dit formulier te verzenden.",
+      "notConnected": "De aanmelding voor het gratis pakket is nog niet gekoppeld."
+    },
+    "feedbackForm": {
+      "ariaLabel": "Feedback verzenden",
+      "notConnected": "Dit feedbackformulier is nog niet gekoppeld.",
+      "typeLabel": "Wat voor soort feedback?",
+      "selectTopic": "Kies een onderwerp...",
+      "types": {
+        "general": "Algemene feedback",
+        "requestTheme": "Vraag een puzzelthema aan",
+        "brokenLink": "Meld een defecte link",
+        "improvement": "Een verbetering voorstellen",
+        "other": "Ander"
+      },
+      "messageLabel": "Uw bericht",
+      "messagePlaceholder": "Vertel ons wat je ervan vindt...",
+      "emailLabel": "E-mail",
+      "emailOptional": "(optioneel - alleen als u een antwoord wilt ontvangen)",
+      "submit": "Feedback verzenden",
+      "success": "Dank u wel. Uw feedback is verzonden.",
+      "disclaimer": "Gelieve geen gevoelige persoonlijke informatie te vermelden. E-mail is optioneel en wordt alleen gebruikt als we u moeten antwoorden.",
+      "iframeTitle": "Feedback indienen"
+    }
+  }
+}
