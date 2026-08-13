@@ -3,7 +3,7 @@ import { Download, Flame, Sparkles } from 'lucide-react';
 import counts from '@/lib/download-counts.json';
 import { puzzlesForLocale, type Puzzle } from '@/lib/site-data';
 import { getTranslations } from 'next-intl/server';
-import { isPuzzlePageAvailable } from '@/lib/section-locales';
+import { getRecentPuzzleSlugs } from '@/lib/export-content';
 
 export default async function TopDownloadsLeaderboard({
   locale = 'en',
@@ -26,18 +26,16 @@ export default async function TopDownloadsLeaderboard({
     const fallbackKey = `puzzleNames.${puzzle.id}`;
     return homeT.has(fallbackKey) ? homeT(fallbackKey) : puzzle.name;
   };
-  const isPuzzleAvailable = (puzzle: Puzzle) => {
-    const [section, slug] = puzzle.href.split('/').filter(Boolean);
-    return isPuzzlePageAvailable(locale, `${section}/`, slug);
-  };
   const top = (counts as { top?: Array<{ puzzleId: string; totalClickCount: number }> }).top ?? [];
   const items = top
     .map((entry) => ({ ...entry, puzzle: puzzles.find((puzzle) => puzzle.id === entry.puzzleId) }))
     .filter((entry): entry is typeof entry & { puzzle: NonNullable<typeof entry.puzzle> } =>
-      Boolean(entry.puzzle) && isPuzzleAvailable(entry.puzzle!)
+      Boolean(entry.puzzle)
     )
     .slice(0, 8);
-  const recentItems = puzzles.filter((puzzle) => puzzle.isNew && isPuzzleAvailable(puzzle)).slice(0, 4);
+  const recentItems = getRecentPuzzleSlugs(locale)
+    .map((slug) => puzzles.find((puzzle) => puzzle.href.endsWith(`/${slug}/`)))
+    .filter((puzzle): puzzle is Puzzle => Boolean(puzzle));
 
   if (!items.length && !recentItems.length) return null;
 

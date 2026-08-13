@@ -159,11 +159,19 @@ export function getHomeExport(locale: string = 'en') {
 }
 
 export function getFeaturedPuzzleSlugs(locale: string = 'en'): string[] {
-  const value = getHomeExport(locale).body?.config?.featured_puzzle_slugs;
-  if (typeof value !== 'string') throw new Error(`Missing featured puzzle configuration for ${locale}`);
+  return getHomePuzzleSlugConfig(locale, 'featured_puzzle_slugs');
+}
+
+export function getRecentPuzzleSlugs(locale: string = 'en'): string[] {
+  return getHomePuzzleSlugConfig(locale, 'recent_puzzle_slugs');
+}
+
+function getHomePuzzleSlugConfig(locale: string, key: string): string[] {
+  const value = getHomeExport(locale).body?.config?.[key];
+  if (typeof value !== 'string') throw new Error(`Missing ${key} configuration for ${locale}`);
   const slugs = JSON.parse(value);
   if (!Array.isArray(slugs) || !slugs.every((slug) => typeof slug === 'string')) {
-    throw new Error(`Invalid featured puzzle configuration for ${locale}`);
+    throw new Error(`Invalid ${key} configuration for ${locale}`);
   }
   return slugs;
 }
