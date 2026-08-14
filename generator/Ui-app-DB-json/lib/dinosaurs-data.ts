@@ -23,6 +23,7 @@ export type ColorScheme = {
 };
 
 export type DotGuide = {
+  heading: string;
   intro: string;
   sections: DotGuideSection[];
   outro: string;
@@ -38,6 +39,8 @@ export type DinosaurShell = {
   image: string;
   pdf: string;
   isNew?: boolean;
+  /** Set to false to exclude this puzzle from rendering/export (e.g. no real image/PDF yet) while keeping its row and content intact. Defaults to true. */
+  show?: boolean;
 };
 
 export type DinosaurContent = {
@@ -89,10 +92,10 @@ export const dinosaurShells: DinosaurShell[] = [
   { slug: 'velociraptor-dot-to-dot-puzzle', emoji: '🦕', age: 'Ages 6–9', dots: 54, difficulty: 2, image: '/images/velociraptor-puzzle.webp', pdf: '/dinosaurs/velociraptor-dot-to-dot-puzzle-printable-horizontal.pdf', isNew: true },
   { slug: 'stegosaurus-dot-to-dot-puzzle', emoji: '🦕', age: 'Ages 4–7', dots: 52, difficulty: 1, image: '/images/stegosaurus-puzzle.webp', pdf: '/dinosaurs/stegosaurus-dot-to-dot-puzzle-printable-horizontal.pdf', isNew: true },
   { slug: 'spinosaurus', emoji: '🦖', age: 'Ages 6–10', dots: 74, difficulty: 2, image: '/images/spinosaurus-74-puzzle.webp', pdf: '/dinosaurs/spinosaurus-74-dot-to-dot-printable-horizontal.pdf', isNew: true },
-  { slug: 'brachiosaurus', emoji: '🦕', age: 'Ages 5–9', dots: 38, difficulty: 2, image: 'dummy-brachiosaurus', pdf: 'dummy-brachiosaurus.pdf' },
-  { slug: 'ankylosaurus', emoji: '🦕', age: 'Ages 5–8', dots: 32, difficulty: 2, image: 'dummy-ankylosaurus', pdf: 'dummy-ankylosaurus.pdf' },
+  { slug: 'brachiosaurus', emoji: '🦕', age: 'Ages 5–9', dots: 38, difficulty: 2, image: 'dummy-brachiosaurus', pdf: 'dummy-brachiosaurus.pdf', show: false },
+  { slug: 'ankylosaurus', emoji: '🦕', age: 'Ages 5–8', dots: 32, difficulty: 2, image: 'dummy-ankylosaurus', pdf: 'dummy-ankylosaurus.pdf', show: false },
   { slug: 'pterodactyl-dot-to-dot-puzzle', emoji: '🦅', age: 'Ages 6–9', dots: 67, difficulty: 2, image: '/images/pterodactyl-puzzle.webp', pdf: '/dinosaurs/pterodactyl-dot-to-dot-puzzle-printable-horizontal.pdf', isNew: true },
-  { slug: 'allosaurus', emoji: '🦖', age: 'Ages 6–10', dots: 42, difficulty: 3, image: 'dummy-allosaurus', pdf: 'dummy-allosaurus.pdf' }
+  { slug: 'allosaurus', emoji: '🦖', age: 'Ages 6–10', dots: 42, difficulty: 3, image: 'dummy-allosaurus', pdf: 'dummy-allosaurus.pdf', show: false }
 ];
 
 function loadDinosaurContent(locale: string): DinosaurContent[] {
@@ -109,6 +112,7 @@ export function getDinosaursForLocale(locale: string): Dinosaur[] {
   const contentBySlug = new Map(content.map((c) => [c.slug, c]));
 
   return dinosaurShells
+    .filter((shell) => shell.show !== false)
     .map((shell): Dinosaur | undefined => {
       const c = contentBySlug.get(shell.slug);
       if (!c) return undefined;

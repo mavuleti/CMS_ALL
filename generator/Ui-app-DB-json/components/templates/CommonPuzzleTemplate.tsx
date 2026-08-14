@@ -19,6 +19,17 @@ import { FaqBlock } from '@/components/sections';
 
 export type PuzzleRouteProps = { params: Promise<{ locale: string; category: string; slug: string }> };
 
+// No empty/missing DB content ships silently — a puzzle missing a required
+// field must fail generation for that page instead of falling back to
+// generic/templated text (see CLAUDE.md: "No empty/missing translation
+// values — ever").
+function requireField<T>(value: T | null | undefined, field: string, locale: string, categorySlug: string, slug: string): T {
+  if (value === null || value === undefined || (typeof value === 'string' && value.trim() === '')) {
+    throw new Error(`Missing required field "${field}" for ${locale}/${categorySlug}/${slug} — backfill it in the DB, do not add a fallback.`);
+  }
+  return value;
+}
+
 const collectionPageNamespaces: Record<string, string> = {
   dinosaurs: 'dinosaursPage', ocean: 'oceanPage', uae: 'uaePage',
   playgrounds: 'playgroundsPage', garden: 'gardenPage', cute: 'cutePage',
@@ -37,18 +48,16 @@ export async function generatePuzzleMetadata({ params }: PuzzleRouteProps): Prom
   const category = getCategory(categorySlug, locale);
   const puzzle = category?.getPuzzle(slug, locale);
   if (!category || !puzzle) return {};
-  const title = puzzle.seoTitle ?? puzzle.name;
-  const description = puzzle.seoDescription ?? puzzle.description;
   return buildCommonHeaderMetadata({
     locale,
     path: `/${categorySlug}/${slug}`,
-    title,
-    description,
+    title: requireField(puzzle.seoTitle, 'seoTitle', locale, categorySlug, slug),
+    description: requireField(puzzle.seoDescription, 'seoDescription', locale, categorySlug, slug),
     type: 'article',
     ogTitle: puzzle.seoOgTitle,
     ogDescription: puzzle.seoOgDescription,
     image: puzzle.image,
-    imageAlt: puzzle.seoImageAlt ?? puzzleImageAlt(locale, puzzle, 'card')
+    imageAlt: requireField(puzzle.seoImageAlt, 'seoImageAlt', locale, categorySlug, slug)
   });
 }
 
@@ -78,6 +87,8 @@ export default async function CommonPuzzleTemplate({ params }: PuzzleRouteProps)
   const puzzle = category?.getPuzzle(slug, locale);
   if (!category || !puzzle || !category.isAvailable(locale)) notFound();
   setRequestLocale(locale);
+  const seoH1 = requireField(puzzle.seoH1, 'seoH1', locale, categorySlug, slug);
+  if (puzzle.dotGuide) requireField(puzzle.dotGuide.heading, 'dotGuide.heading', locale, categorySlug, slug);
   const tp = await getTranslations('puzzleDetail');
   const tc = await getTranslations('common');
   const tFaq = await getTranslations('faq');
@@ -101,7 +112,7 @@ export default async function CommonPuzzleTemplate({ params }: PuzzleRouteProps)
       <div style={{ maxWidth: 1180, margin: '0 auto', padding: '0 24px 20px' }}><AdSlot id={`ad-puzzle-top-${puzzle.slug}`} size="leaderboard" label="Puzzle page - top" /></div>
       <div className="puzzle-page-layout section" style={{ paddingTop: 0 }}>
         <div className="puzzle-preview-col"><div className="puzzle-preview-card"><ResponsiveImage src={puzzle.image} alt={puzzleImageAlt(locale, puzzle, 'preview')} width={540} height={420} priority sizes="(max-width: 640px) 92vw, (max-width: 960px) 600px, 540px" style={{ width: '100%', height: 'auto', display: 'block', borderRadius: 16 }} /></div><div className="puzzle-side-ad"><AdSlot id={`ad-puzzle-side-${puzzle.slug}`} size="rectangle" label="Puzzle page - beside image" /></div></div>
-        <div className="puzzle-details-col"><p className="eyebrow">{tPage?.has('slugEyebrow') ? tPage('slugEyebrow') : categoryName}</p><h1 style={{ fontSize: 'clamp(1.8rem, 4vw, 2.8rem)' }}>{puzzle.seoH1 ?? `${puzzle.name} ${tPage?.has('slugH1Suffix') ? tPage('slugH1Suffix') : ''}`}</h1><p style={{ color: 'var(--muted)', fontSize: '1.05rem', lineHeight: 1.65, margin: '14px 0 20px' }}>{puzzle.description}</p>
+        <div className="puzzle-details-col"><p className="eyebrow">{tPage?.has('slugEyebrow') ? tPage('slugEyebrow') : categoryName}</p><h1 style={{ fontSize: 'clamp(1.8rem, 4vw, 2.8rem)' }}>{seoH1}</h1><p style={{ color: 'var(--muted)', fontSize: '1.05rem', lineHeight: 1.65, margin: '14px 0 20px' }}>{puzzle.description}</p>
           <div className="meta-chips"><span className="chip">{tp('agesLabel')} {bareAgeRange(puzzle.age)}</span><span className="chip">{tp('dotsLabel')} 1–{puzzle.dots}</span><span className="chip chip--free">{tp('freeLabel')}</span></div>
           <div style={{ margin: '16px 0' }}><p style={{ fontWeight: 800, marginBottom: 8, fontSize: '0.9rem' }}>{tp('difficultyHeading')}</p><DifficultyBar level={puzzle.difficulty} labels={difficultyLabels} ariaLabel={tc('difficultyLabel', { level: puzzle.difficulty })} /></div>
           <div className="fun-fact-box"><span style={{ fontSize: '1.3rem' }} aria-hidden="true">!</span><div><strong>{tp('funFactPrefix')}</strong> {puzzle.funFact}</div></div>
@@ -112,7 +123,7 @@ export default async function CommonPuzzleTemplate({ params }: PuzzleRouteProps)
         </div>
       </div>
       {related.length > 0 && <section className="section" style={{ paddingTop: 8 }}><div className="section-heading"><p className="eyebrow">{tPage?.has('relatedEyebrow') ? tPage('relatedEyebrow') : categoryName}</p><h2 style={{ fontSize: 'clamp(1.5rem, 3vw, 2.2rem)' }}>{tp('youMightLike')}</h2></div><div className="puzzle-grid">{related.map((item) => <article className="puzzle-card" key={item.slug}><Link href={`/${locale}/${categorySlug}/${item.slug}/`} className="puzzle-image"><ResponsiveImage src={item.image} alt={puzzleImageAlt(locale, item, 'card')} width={420} height={320} sizes="(max-width: 760px) 92vw, 30vw" /></Link><div className="puzzle-body"><p className="puzzle-category">{categoryName}</p><h3>{item.name}</h3><div className="puzzle-meta"><span>{localizeAge(tc, item.age)}</span><span>{tc('dots', { count: item.dots })}</span></div><Link href={`/${locale}/${categorySlug}/${item.slug}/`} className="download-link"><Star size={15} aria-hidden="true" /> {tc('viewDownload')}</Link></div></article>)}</div></section>}
-      {puzzle.dotGuide && <section id="dot-guide" className="section" style={{ paddingTop: 0, maxWidth: 800, margin: '0 auto', padding: '0 24px 48px' }}><h2 style={{ fontSize: 'clamp(1.4rem, 3vw, 2rem)', marginBottom: 12 }}>{puzzle.dotGuide.heading ?? tp('dotGuideHeading', { name: puzzle.name })}</h2><p style={{ color: 'var(--muted)', lineHeight: 1.7, marginBottom: 28 }} dangerouslySetInnerHTML={{ __html: localizeHtmlLinks(puzzle.dotGuide.intro, locale) }} />{puzzle.dotGuide.sections?.map((section: any) => <div key={section.range} style={{ marginBottom: 24, paddingInlineStart: 16, borderInlineStart: '3px solid var(--blue-light, #63b3ed)' }}><h3 style={{ fontSize: '1rem', fontWeight: 800, marginBottom: 6 }}>{section.range} — {section.title}</h3><p style={{ lineHeight: 1.7, marginBottom: 6 }}>{section.learn}</p><div className="guide-fact"><span className="guide-fact__icon" aria-hidden="true">💡</span><div className="guide-fact__body"><span className="guide-fact__label">{tp('funFactLabel')}</span><br />{section.fact}</div></div></div>)}</section>}
+      {puzzle.dotGuide && <section id="dot-guide" className="section" style={{ paddingTop: 0, maxWidth: 800, margin: '0 auto', padding: '0 24px 48px' }}><h2 style={{ fontSize: 'clamp(1.4rem, 3vw, 2rem)', marginBottom: 12 }}>{puzzle.dotGuide.heading}</h2><p style={{ color: 'var(--muted)', lineHeight: 1.7, marginBottom: 28 }} dangerouslySetInnerHTML={{ __html: localizeHtmlLinks(puzzle.dotGuide.intro, locale) }} />{puzzle.dotGuide.sections?.map((section: any) => <div key={section.range} style={{ marginBottom: 24, paddingInlineStart: 16, borderInlineStart: '3px solid var(--blue-light, #63b3ed)' }}><h3 style={{ fontSize: '1rem', fontWeight: 800, marginBottom: 6 }}>{section.range} — {section.title}</h3><p style={{ lineHeight: 1.7, marginBottom: 6 }}>{section.learn}</p><div className="guide-fact"><span className="guide-fact__icon" aria-hidden="true">💡</span><div className="guide-fact__body"><span className="guide-fact__label">{tp('funFactLabel')}</span><br />{section.fact}</div></div></div>)}</section>}
       {puzzle.dotGuide?.outro && <section className="section" style={{ paddingTop: 0, maxWidth: 800 }}><p dangerouslySetInnerHTML={{ __html: localizeHtmlLinks(puzzle.dotGuide.outro, locale) }} /></section>}
       <ColoringGuide schemes={puzzle.dotGuide?.colorSchemes} heading={tPage?.has('colorH2') ? tPage('colorH2') : tp('colorGuideHeading')} />
       {puzzle.faqs && puzzle.faqs.length > 0 && <FaqBlock faqs={puzzle.faqs} eyebrow={tFaq('eyebrow')} heading={tFaq('heading')} />}

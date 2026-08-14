@@ -198,21 +198,16 @@ function compareLocale(locale, file) {
   const warnings = {
     identical: [],
     extra: [],
-    missingPage: [],
-    seoH1: []
+    missingPage: []
   };
 
-  // seoH1 is warn-only regardless of failure type: it's English-first SEO/EEAT
-  // copy with an automatic code-level fallback to the generic localized
-  // generator (see lib/localized-seo.ts), so a bad translation there degrades
-  // gracefully rather than breaking the page. Every other field stays strict.
-  const isSeoH1Key = (key) => /\.seoH1$/.test(key);
+  // seoTitle/seoH1/seoDescription/seoImageAlt(N) used to have a code-level
+  // fallback to generic/templated copy, so this validator let them warn
+  // instead of fail. That fallback has been removed (see CLAUDE.md: "No
+  // empty/missing translation values — ever") and the template now throws at
+  // generation time when any of them is missing, so every field is strict.
   function pushError(bucket, key, message) {
-    if (isSeoH1Key(key)) {
-      warnings.seoH1.push(`${key}: ${bucket} (${message ?? 'see report'})`);
-    } else {
-      errors[bucket].push(message ?? key);
-    }
+    errors[bucket].push(message ?? key);
   }
 
   const sourcePath = path.join(contentDir, sourceLocale, file);
@@ -281,15 +276,6 @@ function compareLocale(locale, file) {
 
   for (const [key, sourceValue] of Object.entries(sourceFlat)) {
     if (!(key in targetFlat)) {
-      // seoH1/seoTitle/seoDescription/seoImageAlt(N) are English-first SEO/EEAT copy
-      // fields with automatic code-level fallback to the generic localized
-      // generator (see lib/localized-seo.ts) when absent for a locale. They're
-      // rolled out to English first and are not translation gaps - warn, don't fail.
-      if (/\.(seoTitle|seoDescription|seoImageAlt\d*)$/.test(key)) continue;
-      if (isSeoH1Key(key)) {
-        warnings.seoH1.push(`${key}: missing`);
-        continue;
-      }
       if (file === 'faqs.json' && isOptionalColorFaqField(locale, sourceData, key)) continue;
       // The cute coloring heading is only needed when this locale has at least
       // one localized coloring guide to render.
@@ -387,7 +373,7 @@ for (const locale of locales) {
   const row = {
     locale,
     errors: { parse: 0, missing: 0, empty: 0, placeholders: 0, parameterMismatch: 0, brokenIcu: 0, htmlMismatch: 0, mojibake: 0 },
-    warnings: { identical: 0, extra: 0, missingPage: 0, seoH1: 0 },
+    warnings: { identical: 0, extra: 0, missingPage: 0 },
     details: []
   };
 
@@ -419,11 +405,11 @@ if (skippedLocales.length) {
 
 lines.push('i18n validation report (source of truth: en)');
 lines.push('');
-lines.push('locale  missing  empty  junk  params  icu  html  mojibake  identical  extra  no-page  seoH1');
-lines.push('------  -------  -----  ----  ------  ---  ----  --------  ---------  -----  -------  -----');
+lines.push('locale  missing  empty  junk  params  icu  html  mojibake  identical  extra  no-page');
+lines.push('------  -------  -----  ----  ------  ---  ----  --------  ---------  -----  -------');
 for (const row of summary) {
   lines.push(
-    `${row.locale.padEnd(6)}  ${String(row.errors.missing).padEnd(7)}  ${String(row.errors.empty).padEnd(5)}  ${String(row.errors.placeholders).padEnd(4)}  ${String(row.errors.parameterMismatch).padEnd(6)}  ${String(row.errors.brokenIcu).padEnd(3)}  ${String(row.errors.htmlMismatch).padEnd(4)}  ${String(row.errors.mojibake).padEnd(8)}  ${String(row.warnings.identical).padEnd(9)}  ${String(row.warnings.extra).padEnd(5)}  ${String(row.warnings.missingPage).padEnd(7)}  ${row.warnings.seoH1}`
+    `${row.locale.padEnd(6)}  ${String(row.errors.missing).padEnd(7)}  ${String(row.errors.empty).padEnd(5)}  ${String(row.errors.placeholders).padEnd(4)}  ${String(row.errors.parameterMismatch).padEnd(6)}  ${String(row.errors.brokenIcu).padEnd(3)}  ${String(row.errors.htmlMismatch).padEnd(4)}  ${String(row.errors.mojibake).padEnd(8)}  ${String(row.warnings.identical).padEnd(9)}  ${String(row.warnings.extra).padEnd(5)}  ${row.warnings.missingPage}`
   );
 }
 lines.push('');
@@ -455,7 +441,7 @@ const totals = summary.reduce(
   },
   {
     errors: { parse: 0, missing: 0, empty: 0, placeholders: 0, parameterMismatch: 0, brokenIcu: 0, htmlMismatch: 0, mojibake: 0 },
-    warnings: { identical: 0, extra: 0, missingPage: 0, seoH1: 0 }
+    warnings: { identical: 0, extra: 0, missingPage: 0 }
   }
 );
 
