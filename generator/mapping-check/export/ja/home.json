@@ -107,7 +107,7 @@
       "items": {
         "dinosaurs": {
           "name": "恐竜",
-          "description": "太古の世界に飛び込もう！????????、トリケラトプス、ヴェロキラプトルなど、{count}種類の無料知育てんつなぎパズルで、お子様もきっと夢中になります。"
+          "description": "太古の世界に飛び込もう！T-Rex、トリケラトプス、ヴェロキラプトルなど、{count}種類の無料知育てんつなぎパズルで、お子様もきっと夢中になります。"
         },
         "animals": {
           "name": "動物",
@@ -185,7 +185,7 @@
       },
       "items": {
         "trex-61-dot-to-dot-puzzle": {
-          "name": "???????? 61ドットチャレンジ"
+          "name": "T-Rex 61ドットチャレンジ"
         },
         "brontosaurus-dot-to-dot-puzzle": {
           "name": "ブロントサウルス"
@@ -370,11 +370,38 @@
       "breadcrumbAria": "パンくずリスト"
     },
     "puzzleSearch": {
-      "placeholder": "??????????????????????????",
+      "placeholder": "名前やテーマで検索…例：海、クジラ、ティラノサウルス",
       "searchAria": "パズルを探す",
+      "clearSearch": "検索をクリア",
+      "toggleFilters": "フィルターの表示切替",
+      "filters": "フィルター",
+      "filterOptions": "フィルターオプション",
+      "topic": "テーマ",
+      "numberOfDots": "点の数",
+      "recentlyAddedOnly": "新着のみ",
+      "clearAllFilters": "すべてのフィルターをクリア",
+      "clearFilters": "フィルターをクリア",
       "resultsFound": "{count, plural, one {# パズルが見つかりました} other {パズルが見つかりました}}",
+      "puzzlesAvailable": "{count, plural, other {利用可能なパズル # 個}}",
       "noMatches": "検索条件に一致するパズルは見つかりませんでした。",
-      "imageAlt": "{name} 点つなぎプリント"
+      "openPuzzle": "{name}を開く",
+      "imageAlt": "{name} 点つなぎプリント",
+      "viewPuzzle": "パズルを見る →",
+      "dotRanges": {
+        "under35": "35点未満",
+        "35to50": "35〜50点",
+        "51to70": "51〜70点",
+        "over70": "70点以上"
+      },
+      "categories": {
+        "Dinosaurs": "恐竜",
+        "Ocean": "海",
+        "Playgrounds": "遊び場",
+        "Garden": "庭",
+        "Cute": "かわいい",
+        "USA 250 Years": "アメリカ建国250周年",
+        "UAE": "UAE"
+      }
     },
     "newsletterForm": {
       "ariaLabel": "無料の点つなぎプリントパックを入手しよう",
@@ -411,16 +438,155 @@
       "recent_puzzle_slugs": "[\"circus-ringmaster-bear-dot-to-dot-puzzle\",\"circus-tent-dot-to-dot-puzzle\",\"space-rover-dot-to-dot-puzzle\",\"ringed-planet-dot-to-dot-puzzle\"]"
     },
     "purchase": {
+      "premium": {
+        "metaTitle": "Best of 2026 プレミアム 点つなぎパズルパック",
+        "metaDescription": "子どもたちに人気の点つなぎパズルを集めた、印刷してすぐ使える便利なPDFコレクションです。",
+        "eyebrow": "印刷用プレミアムコレクション",
+        "heading": "パズルはもっと、検索の手間はもっと少なく。すべてが1つの便利なPDFに。",
+        "lede": "Best of 2026コレクションは、人気の点つなぎアクティビティを1つの印刷しやすいパックにまとめました。静かな時間、雨の日、ホームスクール、教室での学習にぴったりです。",
+        "digitalPdf": "デジタルPDF",
+        "printAtHome": "自宅で印刷",
+        "instantAccess": "即時アクセス",
+        "purchaseAria": "Best of 2026パズルパックを購入する",
+        "coverAlt": "Best of 2026 - 点つなぎパズル25問 書籍カバー",
+        "oneTime": "一回限りのお支払い",
+        "buyButton": "パズルパックを手に入れる",
+        "localNote": "localhostでは、安全なチェックアウトのデモが開き、カードに請求されることは一切ありません。",
+        "detailsEyebrow": "印刷してすぐ遊べる設計",
+        "detailsHeading": "画面を使わない楽しい時間に必要なものすべて",
+        "detailsText": "一度ダウンロードすれば手元にいつでも置いておけて、必要なときに好きなアクティビティを印刷できます。",
+        "benefits": {
+          "onePdf": "印刷しやすい便利なPDFが1つに",
+          "kidFriendly": "難易度もさまざまな、子ども向けパズル",
+          "paperSizes": "US Letterサイズ・A4サイズどちらの用紙にも対応",
+          "instantAccess": "お支払い完了後すぐにアクセス可能",
+          "classroomUse": "ご家庭で、または1つの教室でご利用いただけます"
+        },
+        "guaranteeHeading": "シンプルで安全、数分で準備完了",
+        "guaranteeText": "お支払い完了後、専用のダウンロードリンクがすぐに表示されます。定期購入や予期しない更新はありません。"
+      },
+      "checkout": {
+        "consent": "このデジタルPDFの即時配信に同意します。アクセスが開始された後は、法律で義務付けられている場合、またはファイルが配信されない・不良品である場合を除き、購入は最終的なものであり返金できないことを理解しています。",
+        "refundPolicy": "返金ポリシーを読む",
+        "opening": "チェックアウトを開いています...",
+        "secureNote": "Stripeによる安全なチェックアウト。一回限りのお支払い。定期購入ではありません。",
+        "error": "チェックアウトの開始中に問題が発生しました。もう一度お試しください。"
+      },
+      "success": {
+        "metaTitle": "ご購入ありがとうございます",
+        "eyebrow": "お支払い確認済み",
+        "heading": "ありがとうございます！ご購入が完了しました。",
+        "lede": "お支払いが正常に完了しました。アカウントに購入内容が反映されるまで、数秒かかる場合があります。"
+      },
+      "cancelled": {
+        "metaTitle": "チェックアウトがキャンセルされました",
+        "eyebrow": "お支払いは行われていません",
+        "heading": "チェックアウトがキャンセルされました",
+        "lede": "料金は請求されていません。いつでも再度お試しいただけます。"
+      },
+      "download": {
+        "demoTitle": "ローカルチェックアウトのテストに成功しました。",
+        "demoText": "実際の購入完了画面では、ここにPDFダウンロードボタンが表示されます。ローカルデモでは非公開ファイルは配布されません。",
+        "button": "パズルパックをダウンロードする",
+        "expires": "このリンクは24時間で有効期限が切れます。ダウンロードしたファイルは安全な場所に保存してください。",
+        "failed": "まだご購入の確認が取れていません。お支払いが完了している場合は、しばらくしてからこのページを更新するか、サポートまでお問い合わせください。",
+        "preparing": "ダウンロードを準備しています..."
+      },
       "ad": {
-        "packName": "??????????",
-        "pdfBook": "PDF???",
-        "bookTitle": "2026????",
-        "puzzleCount": "25?????????",
-        "viewBook": "????"
+        "packName": "点つなぎパズルパック",
+        "pdfBook": "PDFブック",
+        "bookTitle": "2026年のベスト",
+        "puzzleCount": "25 個の点つなぎパズル",
+        "viewBook": "本を見る"
       },
       "shared": {
-        "specialSale": "?????"
+        "specialSale": "特売",
+        "returnToPack": "パズルパックに戻る",
+        "contactUs": "お問い合わせ"
       }
+    },
+    "puzzleDetail": {
+      "agesLabel": "対象年齢:",
+      "dotsLabel": "点の数:",
+      "freeLabel": "完全無料",
+      "difficultyHeading": "難易度",
+      "difficultyEasy": "簡単",
+      "difficultyMedium": "中級",
+      "difficultyHard": "難しい",
+      "funFactPrefix": "豆知識:",
+      "funFactLabel": "豆知識！",
+      "noSignUp": "登録不要。PDFで開きます。USレター（8.5×11インチ）またはA4用紙に印刷できます。家庭や教室で無料で利用できます。",
+      "comingSoon": "無料PDFをダウンロード — 近日公開",
+      "youMightLike": "こちらもおすすめ",
+      "colorGuideHeading": "塗り絵ガイド",
+      "dotGuideHeading": "{name}の点つなぎパズルの解き方は？"
+    },
+    "downloadButton": {
+      "label": "無料の印刷用PDFをダウンロード",
+      "usage": "家庭や教室で無料で利用できます。",
+      "paperNote": "{size}用紙向けサイズです。",
+      "paperLetter": "USレター",
+      "paperA4": "A4",
+      "alternateLink": "A4版をご希望ですか？こちらをダウンロード",
+      "downloadSize": "ダウンロード（印刷サイズ: {size}）"
+    },
+    "downloadBadge": {
+      "downloaded": "ダウンロード回数",
+      "times": "回",
+      "greatChoice": "素敵なパズルを選びました！"
+    },
+    "shareButtons": {
+      "label": "共有",
+      "copyLink": "リンクをコピー",
+      "copied": "リンクをコピーしました！",
+      "shareMe": "共有する"
+    },
+    "canadaPage": {
+      "category": "カナダ"
+    },
+    "circusPage": {
+      "category": "サーカス"
+    },
+    "cutePage": {
+      "category": "かわいいパズル"
+    },
+    "dinosaursPage": {
+      "category": "恐竜"
+    },
+    "flowersPage": {
+      "category": "花"
+    },
+    "gardenPage": {
+      "category": "庭"
+    },
+    "oceanPage": {
+      "category": "海"
+    },
+    "playgroundsPage": {
+      "category": "遊び場"
+    },
+    "spacePage": {
+      "category": "宇宙"
+    },
+    "uaePage": {
+      "category": "アラブ首長国連邦"
+    },
+    "usa250Page": {
+      "category": "アメリカ建国250周年"
+    },
+    "blogPage": {
+      "eyebrow": "学習リソース",
+      "h1": "保護者と教師のための点つなぎアイデア",
+      "description": "活動選び、幼児期の学習力育成、家庭や教室での印刷用ワークシート活用に役立つ実践ガイドです。",
+      "breadcrumb": "ブログ",
+      "latestEyebrow": "最新記事",
+      "latestH2": "今日から使える役立つアイデア",
+      "readArticle": "記事を読む",
+      "by": "執筆:",
+      "backToAll": "← すべての記事に戻る",
+      "savePinterest": "Pinterestに保存",
+      "relatedEyebrow": "無料プリント",
+      "relatedHeading": "次はこちらの点つなぎコレクションをお試しください"
     }
   }
 }

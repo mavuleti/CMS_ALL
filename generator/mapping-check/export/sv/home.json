@@ -370,10 +370,38 @@
       "breadcrumbAria": "Brödsmulor"
     },
     "puzzleSearch": {
+      "placeholder": "Sök efter namn eller ämne... t.ex. hav, val, T-Rex",
       "searchAria": "Sök pussel",
+      "clearSearch": "Rensa sökning",
+      "toggleFilters": "Visa/dölj filter",
+      "filters": "Filter",
+      "filterOptions": "Filteralternativ",
+      "topic": "Ämne",
+      "numberOfDots": "Antal prickar",
+      "recentlyAddedOnly": "Endast nyligen tillagda",
+      "clearAllFilters": "Rensa alla filter",
+      "clearFilters": "Rensa filter",
       "resultsFound": "{count, plural, one {# pussel hittades} other {# pussel hittades}}",
+      "puzzlesAvailable": "{count, plural, one {# pussel tillgängligt} other {# pussel tillgängliga}}",
       "noMatches": "Inga pussel matchade din sökning.",
-      "imageAlt": "{name} punkt-till-punkt utskrivbar"
+      "openPuzzle": "Öppna {name}",
+      "imageAlt": "{name} punkt-till-punkt utskrivbar",
+      "viewPuzzle": "Visa pussel →",
+      "dotRanges": {
+        "under35": "Under 35 prickar",
+        "35to50": "35-50 prickar",
+        "51to70": "51-70 prickar",
+        "over70": "70+ prickar"
+      },
+      "categories": {
+        "Dinosaurs": "Dinosaurier",
+        "Ocean": "Hav",
+        "Playgrounds": "Lekplatser",
+        "Garden": "Trädgård",
+        "Cute": "Gulligt",
+        "USA 250 Years": "USA 250 år",
+        "UAE": "UAE"
+      }
     },
     "newsletterForm": {
       "ariaLabel": "Skaffa det kostnadsfria utskrivbara prick-till-prick-paketet",
@@ -410,16 +438,161 @@
       "recent_puzzle_slugs": "[\"circus-ringmaster-bear-dot-to-dot-puzzle\",\"circus-tent-dot-to-dot-puzzle\",\"space-rover-dot-to-dot-puzzle\",\"ringed-planet-dot-to-dot-puzzle\"]"
     },
     "purchase": {
+      "premium": {
+        "metaTitle": "Best of 2026 Premium prick-till-prick-pusselpaket",
+        "metaDescription": "En utskriftsklar samling av barnens favoritpussel att dra streck mellan prickar, samlade i en praktisk PDF.",
+        "eyebrow": "Utskriftsbar premiumsamling",
+        "heading": "Fler pussel. Mindre letande. Allt i en praktisk PDF.",
+        "lede": "Best of 2026-samlingen för samman våra favoritaktiviteter med prick-till-prick i ett lättutskrivet paket – perfekt för lugna stunder, regniga dagar, hemundervisning och klassrummet.",
+        "digitalPdf": "Digital PDF",
+        "printAtHome": "Skriv ut hemma",
+        "instantAccess": "Omedelbar åtkomst",
+        "purchaseAria": "Köp pusselpaketet Best of 2026",
+        "coverAlt": "Best of 2026 - bokomslag med 25 prick-till-prick-pussel",
+        "oneTime": "engångsbetalning",
+        "buyButton": "Skaffa pusselpaketet",
+        "localNote": "På localhost öppnas en säker betalningsdemo och inget kort belastas någonsin.",
+        "detailsEyebrow": "Skapat för enkel utskrift och lek",
+        "detailsHeading": "Allt du behöver för skärmfri underhållning",
+        "detailsText": "Ladda ner en gång, ha det nära till hands och skriv ut de aktiviteter du vill ha när du behöver dem.",
+        "benefits": {
+          "onePdf": "En praktisk PDF, klar att skriva ut",
+          "kidFriendly": "Barnvänliga pussel med varierande svårighetsgrad",
+          "paperSizes": "Fungerar på US Letter- och A4-papper",
+          "instantAccess": "Omedelbar åtkomst efter lyckad betalning",
+          "classroomUse": "Kan användas hemma eller i ett klassrum"
+        },
+        "guaranteeHeading": "Enkelt, säkert och klart på några minuter",
+        "guaranteeText": "Efter köpet visas din privata nedladdningslänk direkt. Inget abonnemang och ingen överraskande förnyelse."
+      },
+      "checkout": {
+        "consent": "Jag godkänner omedelbar leverans av denna digitala PDF och förstår att köpet är slutgiltigt och inte återbetalningsbart när åtkomsten väl har börjat, förutom där lagen kräver det eller om filen inte levereras eller är felaktig.",
+        "refundPolicy": "Läs återbetalningspolicyn",
+        "opening": "Öppnar betalningen...",
+        "secureNote": "Säker betalning via Stripe. Engångsbetalning. Inget abonnemang.",
+        "error": "Något gick fel när betalningen skulle startas. Försök igen."
+      },
+      "success": {
+        "metaTitle": "Tack för ditt köp",
+        "eyebrow": "Betalning bekräftad",
+        "heading": "Tack! Ditt köp är slutfört.",
+        "lede": "Din betalning genomfördes. Det kan ta några sekunder innan köpet visas på ditt konto."
+      },
+      "cancelled": {
+        "metaTitle": "Betalning avbruten",
+        "eyebrow": "Ingen betalning gjordes",
+        "heading": "Betalning avbruten",
+        "lede": "Ingen debitering gjordes. Du kan försöka igen när som helst."
+      },
+      "download": {
+        "demoTitle": "Lokalt betalningstest lyckades.",
+        "demoText": "På den riktiga skärmen för lyckat köp visas nedladdningsknappen för PDF:en här. Den lokala demon lämnar inte ut den privata filen.",
+        "button": "Ladda ner ditt pusselpaket",
+        "expires": "Den här länken slutar gälla om 24 timmar. Spara din nedladdning på en säker plats.",
+        "failed": "Vi kunde inte bekräfta ditt köp ännu. Om du har debiterats kan du uppdatera den här sidan om en minut eller kontakta oss för hjälp.",
+        "preparing": "Förbereder din nedladdning..."
+      },
       "ad": {
         "packName": "Paket med prick-till-prick-pussel",
         "pdfBook": "PDF-BOK",
-        "bookTitle": "Det b?sta fr?n 2026",
+        "bookTitle": "Bästa 2026",
         "puzzleCount": "25 prick-till-prick-pussel",
         "viewBook": "Visa bok"
       },
       "shared": {
-        "specialSale": "SPECIALERBJUDANDE"
+        "specialSale": "SPECIALERBJUDANDE",
+        "returnToPack": "Tillbaka till pusselpaketet",
+        "contactUs": "Kontakta oss"
       }
+    },
+    "puzzleDetail": {
+      "agesLabel": "Ålder:",
+      "dotsLabel": "Prickar:",
+      "freeLabel": "100 % gratis",
+      "difficultyHeading": "Svårighet",
+      "difficultyEasy": "Lätt",
+      "difficultyMedium": "Medium",
+      "difficultyHard": "Hård",
+      "funFactPrefix": "Kul fakta:",
+      "funFactLabel": "Kul fakta!",
+      "noSignUp": "Ingen registrering behövs.Öppnas som PDF.Skriv ut på US Letter (8,5 × 11 tum) eller A4-papper.Gratis för hem och klassrum.",
+      "comingSoon": "Ladda ner gratis PDF – Kommer snart",
+      "youMightLike": "Du kanske också gillar",
+      "faqQ1": "Vilken ålder är {name} prick-pusslet för?",
+      "faqA1": "Den är designad för åldrarna {age}.Med {dots} prickar passar det barn som med säkerhet kan räkna till {dots};yngre barn kan slutföra det med lite hjälp.",
+      "faqQ2": "Hur skriver jag ut kalkylbladet {name}?",
+      "faqA2": "Klicka på nedladdningsknappen för att få den kostnadsfria PDF-filen, skriv sedan ut den på vanligt papper (A4 eller US Letter) från valfri webbläsare eller PDF-läsare.Ingen speciell programvara behövs.",
+      "faqQ3": "Är den utskrivbara {name} verkligen gratis?",
+      "faqA3": "Ja – det är 100 % gratis, utan registrering, konto eller betalning krävs.Du kan skriva ut den för hem- eller klassrumsbruk.",
+      "colorGuideHeading": "Färgläggningsguide",
+      "dotGuideHeading": "Hur löser man prick-till-prick-pusslet {name}?"
+    },
+    "downloadButton": {
+      "label": "Ladda ner gratis utskrivbar PDF",
+      "usage": "Gratis för hem och klassrum.",
+      "paperNote": "Storlek för {size} papper.",
+      "paperLetter": "US Letter",
+      "paperA4": "A4",
+      "alternateLink": "Föredrar du {size}?Ladda ner den versionen",
+      "downloadSize": "Ladda ner (Utskriftsstorlek: {size})"
+    },
+    "downloadBadge": {
+      "downloaded": "Nedladdat",
+      "times": "gånger",
+      "greatChoice": "Du har gjort ett bra val!"
+    },
+    "shareButtons": {
+      "label": "Dela",
+      "copyLink": "Kopiera länk",
+      "copied": "Länken kopierad!",
+      "shareMe": "Dela med mig"
+    },
+    "blogPage": {
+      "eyebrow": "Lärresurser",
+      "h1": "Punkt till punkt-idéer för föräldrar och lärare",
+      "description": "Praktiska guider för att välja aktiviteter, bygga upp tidig inlärningsförmåga och använda utskrivbara arbetsblad hemma eller i klassrummet.",
+      "breadcrumb": "Blogg",
+      "latestEyebrow": "Senaste artiklarna",
+      "latestH2": "Användbara idéer du kan använda idag",
+      "readArticle": "Läs artikeln",
+      "by": "Av",
+      "backToAll": "← Tillbaka till alla artiklar",
+      "savePinterest": "Spara på Pinterest",
+      "relatedEyebrow": "Gratis utskrifter",
+      "relatedHeading": "Prova dessa prick-till-prick-samlingar härnäst"
+    },
+    "canadaPage": {
+      "category": "Kanada"
+    },
+    "circusPage": {
+      "category": "Cirkus"
+    },
+    "cutePage": {
+      "category": "Söt"
+    },
+    "dinosaursPage": {
+      "category": "Dinosaurier"
+    },
+    "flowersPage": {
+      "category": "Blommor"
+    },
+    "gardenPage": {
+      "category": "Trädgård"
+    },
+    "oceanPage": {
+      "category": "Hav"
+    },
+    "playgroundsPage": {
+      "category": "Lekplatser"
+    },
+    "spacePage": {
+      "category": "Utrymme"
+    },
+    "uaePage": {
+      "category": "Förenade Arabemiraten"
+    },
+    "usa250Page": {
+      "category": "USA 250-årsjubileum"
     }
   }
 }

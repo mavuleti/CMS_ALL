@@ -11,10 +11,13 @@ export type BlogPost = {
   sections: BlogSection[]; relatedLinks?: RelatedLink[]; header?: any;
 };
 
-const BLOG_FILE = path.resolve(process.cwd(), '../mapping-check/export/en/blog.json');
+const BLOG_DIR = path.resolve(process.cwd(), '../mapping-check/export');
 
-function loadBlog(): BlogPost[] {
-  const documents = JSON.parse(fs.readFileSync(BLOG_FILE, 'utf8')) as any[];
+function loadBlog(locale: string): BlogPost[] {
+  const localizedFile = path.join(BLOG_DIR, locale, 'blog.json');
+  const fallbackFile = path.join(BLOG_DIR, 'en', 'blog.json');
+  const blogFile = fs.existsSync(localizedFile) ? localizedFile : fallbackFile;
+  const documents = JSON.parse(fs.readFileSync(blogFile, 'utf8')) as any[];
   return documents.map((document) => {
     const body = document.body ?? {};
     const hero = body.hero_image;
@@ -36,7 +39,7 @@ function loadBlog(): BlogPost[] {
   });
 }
 
-export function getAllBlogPostsForLocale(locale: string) { return locale === 'en' ? loadBlog() : []; }
+export function getAllBlogPostsForLocale(locale: string) { return loadBlog(locale); }
 export function getBlogPostForLocale(slug: string, locale: string) { return getAllBlogPostsForLocale(locale).find((post) => post.slug === slug); }
 export function calcReadTime(post: BlogPost) { return post.readTime; }
-export function formatBlogDate(date: string, _locale = 'en') { return date ? new Intl.DateTimeFormat('en-US', { month: 'long', day: 'numeric', year: 'numeric', timeZone: 'UTC' }).format(new Date(`${date}T00:00:00Z`)) : ''; }
+export function formatBlogDate(date: string, locale = 'en') { return date ? new Intl.DateTimeFormat(locale, { month: 'long', day: 'numeric', year: 'numeric', timeZone: 'UTC' }).format(new Date(`${date}T00:00:00Z`)) : ''; }

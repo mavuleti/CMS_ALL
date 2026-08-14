@@ -370,10 +370,38 @@
       "breadcrumbAria": "Caminho"
     },
     "puzzleSearch": {
+      "placeholder": "Pesquisar por nome ou tema... ex. oceano, baleia, T-Rex",
       "searchAria": "Quebra-cabeças de busca",
+      "clearSearch": "Limpar pesquisa",
+      "toggleFilters": "Mostrar/ocultar filtros",
+      "filters": "Filtros",
+      "filterOptions": "Opções de filtro",
+      "topic": "Tema",
+      "numberOfDots": "Número de pontos",
+      "recentlyAddedOnly": "Apenas adicionados recentemente",
+      "clearAllFilters": "Limpar todos os filtros",
+      "clearFilters": "Limpar filtros",
       "resultsFound": "{count, plural, one {# quebra-cabeça encontrado} other {# quebra-cabeças encontrados}}",
+      "puzzlesAvailable": "{count, plural, one {# puzzle disponível} other {# puzzles disponíveis}}",
       "noMatches": "Nenhum resultado correspondeu à sua pesquisa.",
-      "imageAlt": "{name} ligar os pontos imprimível"
+      "openPuzzle": "Abrir {name}",
+      "imageAlt": "{name} ligar os pontos imprimível",
+      "viewPuzzle": "Ver puzzle →",
+      "dotRanges": {
+        "under35": "Menos de 35 pontos",
+        "35to50": "35-50 pontos",
+        "51to70": "51-70 pontos",
+        "over70": "70+ pontos"
+      },
+      "categories": {
+        "Dinosaurs": "Dinossauros",
+        "Ocean": "Oceano",
+        "Playgrounds": "Parques infantis",
+        "Garden": "Jardim",
+        "Cute": "Fofo",
+        "USA 250 Years": "EUA 250 anos",
+        "UAE": "EAU"
+      }
     },
     "newsletterForm": {
       "ariaLabel": "Descarregue o pacote gratuito de desenhos para ligar os pontos para imprimir.",
@@ -410,6 +438,60 @@
       "recent_puzzle_slugs": "[\"circus-ringmaster-bear-dot-to-dot-puzzle\",\"circus-tent-dot-to-dot-puzzle\",\"space-rover-dot-to-dot-puzzle\",\"ringed-planet-dot-to-dot-puzzle\"]"
     },
     "purchase": {
+      "premium": {
+        "metaTitle": "Pacote Premium Best of 2026 de Puzzles Une os Pontos",
+        "metaDescription": "Uma coleção pronta a imprimir com os puzzles de unir pontos preferidos das crianças, reunidos num PDF prático.",
+        "eyebrow": "Coleção premium para imprimir",
+        "heading": "Mais puzzles. Menos procura. Tudo num PDF prático.",
+        "lede": "A coleção Best of 2026 reúne as nossas atividades de unir pontos preferidas num pacote fácil de imprimir, ideal para momentos calmos, dias de chuva, ensino doméstico e a sala de aula.",
+        "digitalPdf": "PDF digital",
+        "printAtHome": "Imprimir em casa",
+        "instantAccess": "Acesso imediato",
+        "purchaseAria": "Comprar o pacote de puzzles Best of 2026",
+        "coverAlt": "Best of 2026 - capa do livro com 25 puzzles Une os Pontos",
+        "oneTime": "pagamento único",
+        "buyButton": "Adquirir o pacote de puzzles",
+        "localNote": "Em localhost, isto abre uma demonstração de pagamento segura e nunca é cobrado qualquer cartão.",
+        "detailsEyebrow": "Pensado para imprimir e brincar sem complicações",
+        "detailsHeading": "Tudo o que precisa para diversão sem ecrãs",
+        "detailsText": "Faça o download uma vez, mantenha-o à mão e imprima as atividades que quiser sempre que precisar.",
+        "benefits": {
+          "onePdf": "Um único PDF prático, pronto a imprimir",
+          "kidFriendly": "Puzzles adequados a crianças, com vários níveis de dificuldade",
+          "paperSizes": "Compatível com papel US Letter e A4",
+          "instantAccess": "Acesso imediato após pagamento bem-sucedido",
+          "classroomUse": "Pode ser usado em casa ou numa única sala de aula"
+        },
+        "guaranteeHeading": "Simples, seguro e pronto em minutos",
+        "guaranteeText": "Após a compra, o seu link privado de download aparece de imediato. Sem subscrição e sem renovações surpresa."
+      },
+      "checkout": {
+        "consent": "Concordo com a entrega imediata deste PDF digital e compreendo que, assim que o acesso for iniciado, a venda é final e não reembolsável, exceto quando exigido por lei ou se o ficheiro não for entregue ou estiver com defeito.",
+        "refundPolicy": "Ler a política de reembolso",
+        "opening": "A abrir o pagamento...",
+        "secureNote": "Pagamento seguro fornecido pela Stripe. Pagamento único. Sem subscrição.",
+        "error": "Ocorreu um problema ao iniciar o pagamento. Tente novamente."
+      },
+      "success": {
+        "metaTitle": "Obrigado pela sua compra",
+        "eyebrow": "Pagamento confirmado",
+        "heading": "Obrigado! A sua compra está concluída.",
+        "lede": "O seu pagamento foi bem-sucedido. Pode demorar alguns segundos até a compra aparecer na sua conta."
+      },
+      "cancelled": {
+        "metaTitle": "Pagamento cancelado",
+        "eyebrow": "Nenhum pagamento efetuado",
+        "heading": "Pagamento cancelado",
+        "lede": "Não foi feita qualquer cobrança. Pode tentar novamente a qualquer momento."
+      },
+      "download": {
+        "demoTitle": "Teste de pagamento local concluído com sucesso.",
+        "demoText": "O verdadeiro ecrã de compra bem-sucedida mostra aqui o botão de download do PDF. A demonstração local não disponibiliza o ficheiro privado.",
+        "button": "Descarregue o seu pacote de puzzles",
+        "expires": "Este link expira dentro de 24 horas. Guarde o seu download num local seguro.",
+        "failed": "Ainda não foi possível confirmar a sua compra. Se foi cobrado, atualize esta página dentro de um minuto ou contacte-nos para obter ajuda.",
+        "preparing": "A preparar o seu download..."
+      },
       "ad": {
         "packName": "Pacote de puzzles liga os pontos",
         "pdfBook": "LIVRO PDF",
@@ -418,8 +500,99 @@
         "viewBook": "Ver livro"
       },
       "shared": {
-        "specialSale": "OFERTA ESPECIAL"
+        "specialSale": "OFERTA ESPECIAL",
+        "returnToPack": "Voltar ao pacote de puzzles",
+        "contactUs": "Contacte-nos"
       }
+    },
+    "puzzleDetail": {
+      "agesLabel": "Idades:",
+      "dotsLabel": "Pontos:",
+      "freeLabel": "100% grátis",
+      "difficultyHeading": "Dificuldade",
+      "difficultyEasy": "Fácil",
+      "difficultyMedium": "Médio",
+      "difficultyHard": "Duro",
+      "funFactPrefix": "Curiosidade:",
+      "funFactLabel": "Curiosidade!",
+      "noSignUp": "Não é necessária inscrição.Abre como PDF.Imprima em papel US Letter (8,5 × 11 polegadas) ou A4.Gratuito para uso doméstico e em sala de aula.",
+      "comingSoon": "Baixe PDF grátis – em breve",
+      "youMightLike": "Você também pode gostar",
+      "faqQ1": "Para que idade serve o quebra-cabeça {name} ponto a ponto?",
+      "faqA1": "Ele foi projetado para idades {age}.Com {dots} pontos, é adequado para crianças que podem contar até {dots} com segurança;as crianças mais novas podem completá-lo com um pouco de ajuda.",
+      "faqQ2": "Como imprimo a planilha {name}?",
+      "faqA2": "Clique no botão de download para obter o PDF gratuito e imprima-o em papel comum (A4 ou US Letter) em qualquer navegador ou leitor de PDF.Nenhum software especial é necessário.",
+      "faqQ3": "A impressão de {name} é realmente gratuita?",
+      "faqA3": "Sim - é 100% gratuito, sem necessidade de inscrição, conta ou pagamento.Você pode imprimi-lo para uso doméstico ou em sala de aula.",
+      "colorGuideHeading": "Guia de cores",
+      "dotGuideHeading": "Como resolver o puzzle de unir pontos {name}?"
+    },
+    "downloadButton": {
+      "label": "Baixe PDF para impressão grátis",
+      "usage": "Gratuito para uso doméstico e em sala de aula.",
+      "paperNote": "Dimensionado para papel {size}.",
+      "paperLetter": "Carta dos EUA",
+      "paperA4": "A4",
+      "alternateLink": "Prefere {size}?Baixe essa versão",
+      "downloadSize": "Baixar (tamanho de impressão: {size})"
+    },
+    "downloadBadge": {
+      "downloaded": "Baixado",
+      "times": "vezes",
+      "greatChoice": "Você fez uma ótima escolha!"
+    },
+    "shareButtons": {
+      "label": "Compartilhar",
+      "copyLink": "Copiar link",
+      "copied": "Link copiado!",
+      "shareMe": "Compartilhe-me"
+    },
+    "blogPage": {
+      "eyebrow": "Recursos de aprendizagem",
+      "h1": "Idéias ponto a ponto para pais e professores",
+      "description": "Guias práticos para escolher atividades, desenvolver habilidades de aprendizagem precoce e usar planilhas para impressão em casa ou na sala de aula.",
+      "breadcrumb": "Blogue",
+      "latestEyebrow": "Artigos mais recentes",
+      "latestH2": "Ideias úteis que você pode usar hoje",
+      "readArticle": "Leia o artigo",
+      "by": "Por",
+      "backToAll": "← Voltar para todos os artigos",
+      "savePinterest": "Salvar no Pinterest",
+      "relatedEyebrow": "Imprimíveis grátis",
+      "relatedHeading": "Experimente estas coleções ponto a ponto a seguir"
+    },
+    "canadaPage": {
+      "category": "Canadá"
+    },
+    "circusPage": {
+      "category": "Circo"
+    },
+    "cutePage": {
+      "category": "Bonitinho"
+    },
+    "dinosaursPage": {
+      "category": "Dinossauros"
+    },
+    "flowersPage": {
+      "category": "Flores"
+    },
+    "gardenPage": {
+      "category": "Jardim"
+    },
+    "oceanPage": {
+      "category": "Oceano"
+    },
+    "playgroundsPage": {
+      "category": "Parques infantis"
+    },
+    "spacePage": {
+      "category": "Espaço"
+    },
+    "uaePage": {
+      "category": "Emirados Árabes Unidos"
+    },
+    "usa250Page": {
+      "category": "250º aniversário dos EUA"
     }
   }
 }

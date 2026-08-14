@@ -370,10 +370,38 @@
       "breadcrumbAria": "Okruszki"
     },
     "puzzleSearch": {
+      "placeholder": "Szukaj po nazwie lub temacie... np. ocean, wieloryb, T-Rex",
       "searchAria": "Szukaj łamigłówek",
+      "clearSearch": "Wyczyść wyszukiwanie",
+      "toggleFilters": "Pokaż/ukryj filtry",
+      "filters": "Filtry",
+      "filterOptions": "Opcje filtrów",
+      "topic": "Temat",
+      "numberOfDots": "Liczba kropek",
+      "recentlyAddedOnly": "Tylko niedawno dodane",
+      "clearAllFilters": "Wyczyść wszystkie filtry",
+      "clearFilters": "Wyczyść filtry",
       "resultsFound": "{count, plural, one {# łamigłówka znaleziona} few {# łamigłówki znalezione} many {# łamigłówek znalezionych} other {# łamigłówki znalezione}}",
+      "puzzlesAvailable": "{count, plural, one {# łamigłówka dostępna} few {# łamigłówki dostępne} many {# łamigłówek dostępnych} other {# łamigłówki dostępne}}",
       "noMatches": "Nie znaleziono łamigłówek odpowiadających Twojemu wyszukiwaniu.",
-      "imageAlt": "{name} łączenie kropek do druku"
+      "openPuzzle": "Otwórz {name}",
+      "imageAlt": "{name} łączenie kropek do druku",
+      "viewPuzzle": "Zobacz łamigłówkę →",
+      "dotRanges": {
+        "under35": "Mniej niż 35 kropek",
+        "35to50": "35-50 kropek",
+        "51to70": "51-70 kropek",
+        "over70": "70+ kropek"
+      },
+      "categories": {
+        "Dinosaurs": "Dinozaury",
+        "Ocean": "Ocean",
+        "Playgrounds": "Place zabaw",
+        "Garden": "Ogród",
+        "Cute": "Słodkie",
+        "USA 250 Years": "USA 250 lat",
+        "UAE": "ZEA"
+      }
     },
     "newsletterForm": {
       "ariaLabel": "Pobierz bezpłatny pakiet do wydrukowania z łączeniem kropek",
@@ -410,16 +438,161 @@
       "recent_puzzle_slugs": "[\"circus-ringmaster-bear-dot-to-dot-puzzle\",\"circus-tent-dot-to-dot-puzzle\",\"space-rover-dot-to-dot-puzzle\",\"ringed-planet-dot-to-dot-puzzle\"]"
     },
     "purchase": {
+      "premium": {
+        "metaTitle": "Pakiet Premium Best of 2026 – łącz kropki",
+        "metaDescription": "Gotowa do druku kolekcja ulubionych łamigłówek łącz kropki dla dzieci, zebrana w jednym wygodnym pliku PDF.",
+        "eyebrow": "Kolekcja premium do druku",
+        "heading": "Więcej łamigłówek. Mniej szukania. Wszystko w jednym wygodnym pliku PDF.",
+        "lede": "Kolekcja Best of 2026 łączy nasze ulubione zabawy łącz kropki w jednym łatwym do wydrukowania pakiecie – idealnym na spokojne chwile, deszczowe dni, edukację domową i lekcje w klasie.",
+        "digitalPdf": "Cyfrowy PDF",
+        "printAtHome": "Drukuj w domu",
+        "instantAccess": "Natychmiastowy dostęp",
+        "purchaseAria": "Kup pakiet łamigłówek Best of 2026",
+        "coverAlt": "Best of 2026 - okładka książki z 25 łamigłówkami łącz kropki",
+        "oneTime": "płatność jednorazowa",
+        "buyButton": "Zdobądź pakiet łamigłówek",
+        "localNote": "Na localhost otwiera się bezpieczne demo płatności i karta nigdy nie zostaje obciążona.",
+        "detailsEyebrow": "Stworzone z myślą o łatwym druku i zabawie",
+        "detailsHeading": "Wszystko, czego potrzeba do zabawy bez ekranu",
+        "detailsText": "Pobierz raz, miej pod ręką i drukuj wybrane zajęcia zawsze, kiedy tego potrzebujesz.",
+        "benefits": {
+          "onePdf": "Jeden wygodny plik PDF gotowy do druku",
+          "kidFriendly": "Łamigłówki przyjazne dzieciom o różnym poziomie trudności",
+          "paperSizes": "Działa na papierze US Letter i A4",
+          "instantAccess": "Natychmiastowy dostęp po pomyślnej płatności",
+          "classroomUse": "Do użytku w domu lub w jednej klasie"
+        },
+        "guaranteeHeading": "Prosto, bezpiecznie i gotowe w kilka minut",
+        "guaranteeText": "Po zakupie od razu pojawia się Twój prywatny link do pobrania. Bez subskrypcji i bez niespodziewanego odnowienia."
+      },
+      "checkout": {
+        "consent": "Zgadzam się na natychmiastowe dostarczenie tego cyfrowego pliku PDF i rozumiem, że po rozpoczęciu dostępu zakup jest ostateczny i niepodlegający zwrotowi, chyba że wymaga tego prawo lub gdy plik nie zostanie dostarczony bądź jest wadliwy.",
+        "refundPolicy": "Przeczytaj zasady zwrotów",
+        "opening": "Otwieranie płatności...",
+        "secureNote": "Bezpieczna płatność obsługiwana przez Stripe. Płatność jednorazowa. Bez subskrypcji.",
+        "error": "Wystąpił problem podczas uruchamiania płatności. Spróbuj ponownie."
+      },
+      "success": {
+        "metaTitle": "Dziękujemy za zakup",
+        "eyebrow": "Płatność potwierdzona",
+        "heading": "Dziękujemy! Twój zakup został zrealizowany.",
+        "lede": "Twoja płatność zakończyła się powodzeniem. Wyświetlenie zakupu na Twoim koncie może zająć kilka sekund."
+      },
+      "cancelled": {
+        "metaTitle": "Płatność anulowana",
+        "eyebrow": "Nie pobrano żadnej opłaty",
+        "heading": "Płatność anulowana",
+        "lede": "Nie pobrano żadnej opłaty. Możesz spróbować ponownie w dowolnym momencie."
+      },
+      "download": {
+        "demoTitle": "Lokalny test płatności zakończony powodzeniem.",
+        "demoText": "Na prawdziwym ekranie udanego zakupu pojawia się tutaj przycisk pobierania pliku PDF. Lokalne demo nie udostępnia prywatnego pliku.",
+        "button": "Pobierz swój pakiet łamigłówek",
+        "expires": "Ten link wygasa za 24 godziny. Zapisz pobrany plik w bezpiecznym miejscu.",
+        "failed": "Nie mogliśmy jeszcze potwierdzić Twojego zakupu. Jeśli zostałeś obciążony opłatą, odśwież tę stronę za minutę lub skontaktuj się z nami po pomoc.",
+        "preparing": "Przygotowywanie pobierania..."
+      },
       "ad": {
-        "packName": "Pakiet ?amig??wek po??cz kropki",
-        "pdfBook": "KSI??KA PDF",
+        "packName": "Pakiet puzzli kropka-kropka",
+        "pdfBook": "KSIĄŻKA PDF",
         "bookTitle": "Najlepsze z 2026 roku",
-        "puzzleCount": "25 ?amig??wek po??cz kropki",
-        "viewBook": "Zobacz ksi??k?"
+        "puzzleCount": "25 łamigłówek od kropki do kropki",
+        "viewBook": "Zobacz książkę"
       },
       "shared": {
-        "specialSale": "OFERTA SPECJALNA"
+        "specialSale": "OFERTA SPECJALNA",
+        "returnToPack": "Wróć do pakietu łamigłówek",
+        "contactUs": "Skontaktuj się z nami"
       }
+    },
+    "puzzleDetail": {
+      "agesLabel": "Wieczność:",
+      "dotsLabel": "Kropki:",
+      "freeLabel": "100% za darmo",
+      "difficultyHeading": "Trudność",
+      "difficultyEasy": "Łatwy",
+      "difficultyMedium": "Średni",
+      "difficultyHard": "Twardy",
+      "funFactPrefix": "Ciekawostka:",
+      "funFactLabel": "Ciekawostka!",
+      "noSignUp": "Nie jest wymagana rejestracja.Otwiera się jako plik PDF.Drukuj na papierze US Letter (8,5 × 11 cali) lub A4.Bezpłatnie do użytku domowego i szkolnego.",
+      "comingSoon": "Pobierz bezpłatny plik PDF – już wkrótce",
+      "youMightLike": "Może ci się spodobać",
+      "faqQ1": "Dla jakiego wieku jest przeznaczona łamigłówka {name}?",
+      "faqA1": "Jest przeznaczony dla osób w wieku {age}.Dzięki kropkom {dots} pasuje do dzieci, które potrafią pewnie liczyć do {dots};młodsze dzieci mogą go ukończyć z niewielką pomocą.",
+      "faqQ2": "Jak wydrukować arkusz {name}?",
+      "faqA2": "Kliknij przycisk pobierania, aby pobrać bezpłatny plik PDF, a następnie wydrukuj go na zwykłym papierze (A4 lub US Letter) z dowolnej przeglądarki lub czytnika plików PDF.Nie jest potrzebne żadne specjalne oprogramowanie.",
+      "faqQ3": "Czy wydruk {name} jest naprawdę darmowy?",
+      "faqA3": "Tak – jest w 100% darmowy, nie wymaga rejestracji, konta ani płatności.Można go wydrukować do użytku w domu lub w klasie.",
+      "colorGuideHeading": "Przewodnik po kolorowaniu",
+      "dotGuideHeading": "Jak rozwiązać łamigłówkę połącz kropki {name}?"
+    },
+    "downloadButton": {
+      "label": "Pobierz bezpłatny plik PDF do wydrukowania",
+      "usage": "Bezpłatnie do użytku domowego i szkolnego.",
+      "paperNote": "Rozmiar dla papieru {size}.",
+      "paperLetter": "List amerykański",
+      "paperA4": "A4",
+      "alternateLink": "Wolisz {size}?Pobierz tę wersję",
+      "downloadSize": "Pobierz (rozmiar wydruku: {size})"
+    },
+    "downloadBadge": {
+      "downloaded": "Pobrano",
+      "times": "czasy",
+      "greatChoice": "Dokonałeś świetnego wyboru!"
+    },
+    "shareButtons": {
+      "label": "Udział",
+      "copyLink": "Skopiuj link",
+      "copied": "Link skopiowany!",
+      "shareMe": "Podziel się mną"
+    },
+    "blogPage": {
+      "eyebrow": "Zasoby edukacyjne",
+      "h1": "Pomysły „Połącz kropki” dla rodziców i nauczycieli",
+      "description": "Praktyczne przewodniki dotyczące wyboru zajęć, rozwijania umiejętności wczesnego uczenia się i korzystania z arkuszy ćwiczeń do wydrukowania w domu lub w klasie.",
+      "breadcrumb": "Bloga",
+      "latestEyebrow": "Najnowsze artykuły",
+      "latestH2": "Pomocne pomysły, które możesz wykorzystać już dziś",
+      "readArticle": "Przeczytaj artykuł",
+      "by": "Przez",
+      "backToAll": "← Powrót do wszystkich artykułów",
+      "savePinterest": "Zapisz na Pintereście",
+      "relatedEyebrow": "Darmowe materiały do ​​wydrukowania",
+      "relatedHeading": "Następnie wypróbuj te kolekcje od kropki do kropki"
+    },
+    "canadaPage": {
+      "category": "Kanada"
+    },
+    "circusPage": {
+      "category": "Cyrk"
+    },
+    "cutePage": {
+      "category": "Uroczy"
+    },
+    "dinosaursPage": {
+      "category": "Dinozaury"
+    },
+    "flowersPage": {
+      "category": "Kwiaty"
+    },
+    "gardenPage": {
+      "category": "Ogród"
+    },
+    "oceanPage": {
+      "category": "Ocean"
+    },
+    "playgroundsPage": {
+      "category": "Place zabaw"
+    },
+    "spacePage": {
+      "category": "Przestrzeń"
+    },
+    "uaePage": {
+      "category": "Emiraty Arabskie"
+    },
+    "usa250Page": {
+      "category": "USA 250. rocznica"
     }
   }
 }

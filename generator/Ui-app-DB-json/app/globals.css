@@ -1908,6 +1908,14 @@ a.category-card:hover {
     gap: 24px;
   }
 
+  .puzzle-details-col {
+    order: 1;
+  }
+
+  .puzzle-preview-col {
+    order: 2;
+  }
+
   .puzzle-side-ad {
     display: none; /* hide rectangle ad beside image on tablet/mobile — use inline ads instead */
   }

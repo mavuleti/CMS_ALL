@@ -370,10 +370,38 @@
       "breadcrumbAria": "Coadă de navigare"
     },
     "puzzleSearch": {
+      "placeholder": "Caută după nume sau temă... ex. ocean, balenă, T-Rex",
       "searchAria": "Căutați puzzle-uri",
+      "clearSearch": "Șterge căutarea",
+      "toggleFilters": "Afișează/ascunde filtrele",
+      "filters": "Filtre",
+      "filterOptions": "Opțiuni de filtrare",
+      "topic": "Temă",
+      "numberOfDots": "Număr de puncte",
+      "recentlyAddedOnly": "Doar cele adăugate recent",
+      "clearAllFilters": "Șterge toate filtrele",
+      "clearFilters": "Șterge filtrele",
       "resultsFound": "{count, plural, one {# puzzle găsit} few {# puzzle-uri găsite} other {# de puzzle-uri găsite}}",
+      "puzzlesAvailable": "{count, plural, one {# puzzle disponibil} few {# puzzle-uri disponibile} other {# de puzzle-uri disponibile}}",
       "noMatches": "Niciun puzzle nu a corespuns căutării tale.",
-      "imageAlt": "{name} imprimabilă punct cu punct"
+      "openPuzzle": "Deschide {name}",
+      "imageAlt": "{name} imprimabilă punct cu punct",
+      "viewPuzzle": "Vezi puzzle-ul →",
+      "dotRanges": {
+        "under35": "Sub 35 de puncte",
+        "35to50": "35-50 de puncte",
+        "51to70": "51-70 de puncte",
+        "over70": "70+ de puncte"
+      },
+      "categories": {
+        "Dinosaurs": "Dinozauri",
+        "Ocean": "Ocean",
+        "Playgrounds": "Locuri de joacă",
+        "Garden": "Grădină",
+        "Cute": "Drăguț",
+        "USA 250 Years": "SUA 250 de ani",
+        "UAE": "EAU"
+      }
     },
     "newsletterForm": {
       "ariaLabel": "Obțineți pachetul imprimabil gratuit de desenare punct cu punct",
@@ -410,16 +438,161 @@
       "recent_puzzle_slugs": "[\"circus-ringmaster-bear-dot-to-dot-puzzle\",\"circus-tent-dot-to-dot-puzzle\",\"space-rover-dot-to-dot-puzzle\",\"ringed-planet-dot-to-dot-puzzle\"]"
     },
     "purchase": {
+      "premium": {
+        "metaTitle": "Pachetul Premium Best of 2026 de Puzzle-uri Unește Punctele",
+        "metaDescription": "O colecție gata de tipărit cu puzzle-urile preferate de tip unește punctele pentru copii, adunate într-un PDF practic.",
+        "eyebrow": "Colecție premium tipăribilă",
+        "heading": "Mai multe puzzle-uri. Mai puțină căutare. Totul într-un singur PDF practic.",
+        "lede": "Colecția Best of 2026 adună activitățile noastre preferate de tip unește punctele într-un pachet ușor de tipărit, ideal pentru momente liniștite, zile ploioase, educație acasă și clasă.",
+        "digitalPdf": "PDF digital",
+        "printAtHome": "Tipărește acasă",
+        "instantAccess": "Acces instantaneu",
+        "purchaseAria": "Cumpără pachetul de puzzle-uri Best of 2026",
+        "coverAlt": "Best of 2026 - coperta cărții cu 25 de puzzle-uri Unește Punctele",
+        "oneTime": "plată unică",
+        "buyButton": "Obține pachetul de puzzle-uri",
+        "localNote": "Pe localhost, aceasta deschide o demonstrație de plată sigură și nu debitează niciodată vreun card.",
+        "detailsEyebrow": "Creat pentru tipărire și joacă simplă",
+        "detailsHeading": "Tot ce ai nevoie pentru distracție fără ecrane",
+        "detailsText": "Descarcă o dată, păstrează-l la îndemână și tipărește activitățile dorite oricând ai nevoie de ele.",
+        "benefits": {
+          "onePdf": "Un singur PDF practic, gata de tipărit",
+          "kidFriendly": "Puzzle-uri potrivite pentru copii, cu niveluri variate de dificultate",
+          "paperSizes": "Funcționează pe hârtie US Letter și A4",
+          "instantAccess": "Acces instantaneu după o plată reușită",
+          "classroomUse": "Poate fi folosit acasă sau într-o singură sală de clasă"
+        },
+        "guaranteeHeading": "Simplu, sigur și gata în câteva minute",
+        "guaranteeText": "După finalizarea plății, linkul tău privat de descărcare apare imediat. Fără abonament și fără reînnoire surpriză."
+      },
+      "checkout": {
+        "consent": "Sunt de acord cu livrarea imediată a acestui PDF digital și înțeleg că, odată ce accesul începe, vânzarea este finală și nerambursabilă, cu excepția cazurilor prevăzute de lege sau dacă fișierul nu este livrat ori este defect.",
+        "refundPolicy": "Citește politica de rambursare",
+        "opening": "Se deschide plata...",
+        "secureNote": "Plată securizată, susținută de Stripe. Plată unică. Fără abonament.",
+        "error": "A apărut o problemă la inițierea plății. Te rugăm să încerci din nou."
+      },
+      "success": {
+        "metaTitle": "Îți mulțumim pentru achiziție",
+        "eyebrow": "Plată confirmată",
+        "heading": "Îți mulțumim! Achiziția ta este finalizată.",
+        "lede": "Plata ta a fost efectuată cu succes. Poate dura câteva secunde până când achiziția apare în contul tău."
+      },
+      "cancelled": {
+        "metaTitle": "Plată anulată",
+        "eyebrow": "Nu a fost efectuată nicio plată",
+        "heading": "Plată anulată",
+        "lede": "Nu a fost efectuată nicio taxă. Poți încerca din nou oricând."
+      },
+      "download": {
+        "demoTitle": "Testul local de plată a fost finalizat cu succes.",
+        "demoText": "Ecranul real de reușită a achiziției afișează aici butonul de descărcare a PDF-ului. Demonstrația locală nu eliberează fișierul privat.",
+        "button": "Descarcă-ți pachetul de puzzle-uri",
+        "expires": "Acest link expiră în 24 de ore. Salvează fișierul descărcat într-un loc sigur.",
+        "failed": "Nu am putut confirma încă achiziția ta. Dacă ai fost debitat, reîmprospătează această pagină peste un minut sau contactează-ne pentru ajutor.",
+        "preparing": "Se pregătește descărcarea..."
+      },
       "ad": {
-        "packName": "Pachet de puzzle une?te punctele",
+        "packName": "Pachet de puzzle punct la punct",
         "pdfBook": "CARTE PDF",
         "bookTitle": "Cele mai bune din 2026",
-        "puzzleCount": "25 de puzzle-uri une?te punctele",
+        "puzzleCount": "25 de puzzle-uri punct la punct",
         "viewBook": "Vezi cartea"
       },
       "shared": {
-        "specialSale": "OFERT? SPECIAL?"
+        "specialSale": "OFERT? SPECIAL?",
+        "returnToPack": "Înapoi la pachetul de puzzle-uri",
+        "contactUs": "Contactează-ne"
       }
+    },
+    "puzzleDetail": {
+      "agesLabel": "Vârste:",
+      "dotsLabel": "Puncte:",
+      "freeLabel": "100% gratuit",
+      "difficultyHeading": "Dificultate",
+      "difficultyEasy": "Uşor",
+      "difficultyMedium": "Mediu",
+      "difficultyHard": "Greu",
+      "funFactPrefix": "Fapt amuzant:",
+      "funFactLabel": "Fapt amuzant!",
+      "noSignUp": "Nu este nevoie de înscriere.Se deschide ca PDF.Imprimați pe hârtie US Letter (8,5 × 11 inchi) sau A4.Gratuit pentru utilizare acasă și la clasă.",
+      "comingSoon": "Descărcați PDF gratuit – În curând",
+      "youMightLike": "S-ar putea să-ți placă și",
+      "faqQ1": "Pentru ce vârstă este puzzle-ul punct cu punct {name}?",
+      "faqA1": "Este conceput pentru vârste {age}.Cu {dots} puncte, se potrivește copiilor care pot număra cu încredere până la {dots};copiii mai mici îl pot completa cu puțin ajutor.",
+      "faqQ2": "Cum pot imprima foaia de lucru {name}?",
+      "faqA2": "Faceți clic pe butonul de descărcare pentru a obține PDF-ul gratuit, apoi tipăriți-l pe hârtie obișnuită (A4 sau US Letter) din orice browser sau cititor PDF.Nu este nevoie de software special.",
+      "faqQ3": "Este {name} imprimabil cu adevărat gratuit?",
+      "faqA3": "Da — este 100% gratuit, fără a fi nevoie de înregistrare, cont sau plată.Îl puteți imprima pentru uz acasă sau în clasă.",
+      "colorGuideHeading": "Ghid de colorat",
+      "dotGuideHeading": "Cum rezolvi puzzle-ul unește punctele {name}?"
+    },
+    "downloadButton": {
+      "label": "Descarcă PDF imprimabil gratuit",
+      "usage": "Gratuit pentru utilizare acasă și la clasă.",
+      "paperNote": "Dimensiune pentru hârtie {size}.",
+      "paperLetter": "Scrisoarea SUA",
+      "paperA4": "A4",
+      "alternateLink": "Preferi {size}?Descărcați acea versiune",
+      "downloadSize": "Descărcați (Dimensiune tipărire: {size})"
+    },
+    "downloadBadge": {
+      "downloaded": "Descărcat",
+      "times": "ori",
+      "greatChoice": "Ai făcut o alegere grozavă!"
+    },
+    "shareButtons": {
+      "label": "Distribuie",
+      "copyLink": "Copiați linkul",
+      "copied": "Link copiat!",
+      "shareMe": "Împărtășește-mă"
+    },
+    "blogPage": {
+      "eyebrow": "Resurse de învățare",
+      "h1": "Idei punct la punct pentru părinți și profesori",
+      "description": "Ghiduri practice pentru alegerea activităților, dezvoltarea abilităților de învățare timpurie și utilizarea foilor de lucru imprimabile acasă sau la clasă.",
+      "breadcrumb": "Blog",
+      "latestEyebrow": "Ultimele articole",
+      "latestH2": "Idei utile pe care le puteți folosi astăzi",
+      "readArticle": "Citiți articolul",
+      "by": "De",
+      "backToAll": "← Înapoi la toate articolele",
+      "savePinterest": "Salvați pe Pinterest",
+      "relatedEyebrow": "Imprimabile gratuite",
+      "relatedHeading": "Încercați apoi aceste colecții punct cu punct"
+    },
+    "canadaPage": {
+      "category": "Canada"
+    },
+    "circusPage": {
+      "category": "Circ"
+    },
+    "cutePage": {
+      "category": "Drăguţ"
+    },
+    "dinosaursPage": {
+      "category": "Dinozaurii"
+    },
+    "flowersPage": {
+      "category": "Flori"
+    },
+    "gardenPage": {
+      "category": "Grădină"
+    },
+    "oceanPage": {
+      "category": "Ocean"
+    },
+    "playgroundsPage": {
+      "category": "Locuri de joacă"
+    },
+    "spacePage": {
+      "category": "Spaţiu"
+    },
+    "uaePage": {
+      "category": "Emiratele Arabe Unite"
+    },
+    "usa250Page": {
+      "category": "250 de ani de la SUA"
     }
   }
 }

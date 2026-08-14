@@ -370,10 +370,38 @@
       "breadcrumbAria": "Leipäpolku"
     },
     "puzzleSearch": {
+      "placeholder": "Hae nimen tai aiheen mukaan... esim. valtameri, valas, T-Rex",
       "searchAria": "Hae pulmia",
+      "clearSearch": "Tyhjennä haku",
+      "toggleFilters": "Näytä/piilota suodattimet",
+      "filters": "Suodattimet",
+      "filterOptions": "Suodatinvalinnat",
+      "topic": "Aihe",
+      "numberOfDots": "Pisteiden määrä",
+      "recentlyAddedOnly": "Vain äskettäin lisätyt",
+      "clearAllFilters": "Tyhjennä kaikki suodattimet",
+      "clearFilters": "Tyhjennä suodattimet",
       "resultsFound": "{count, plural, one {# palapeli löydetty} other {# palapeliä löydetty}}",
+      "puzzlesAvailable": "{count, plural, one {# palapeli saatavilla} other {# palapeliä saatavilla}}",
       "noMatches": "Hakuasi vastaavia pulmia ei löytynyt.",
-      "imageAlt": "{name} pisteestä pisteeseen tulostettava"
+      "openPuzzle": "Avaa {name}",
+      "imageAlt": "{name} pisteestä pisteeseen tulostettava",
+      "viewPuzzle": "Näytä palapeli →",
+      "dotRanges": {
+        "under35": "Alle 35 pistettä",
+        "35to50": "35-50 pistettä",
+        "51to70": "51-70 pistettä",
+        "over70": "Yli 70 pistettä"
+      },
+      "categories": {
+        "Dinosaurs": "Dinosaurukset",
+        "Ocean": "Valtameri",
+        "Playgrounds": "Leikkikentät",
+        "Garden": "Puutarha",
+        "Cute": "Söpö",
+        "USA 250 Years": "USA 250 vuotta",
+        "UAE": "AAE"
+      }
     },
     "newsletterForm": {
       "ariaLabel": "Hanki ilmainen tulostettava pisteestä pisteeseen -paketti",
@@ -410,16 +438,161 @@
       "recent_puzzle_slugs": "[\"circus-ringmaster-bear-dot-to-dot-puzzle\",\"circus-tent-dot-to-dot-puzzle\",\"space-rover-dot-to-dot-puzzle\",\"ringed-planet-dot-to-dot-puzzle\"]"
     },
     "purchase": {
+      "premium": {
+        "metaTitle": "Best of 2026 -premium-yhdistä pisteet -pulmapaketti",
+        "metaDescription": "Tulostusvalmis kokoelma lasten suosikki yhdistä pisteet -tehtäviä yhdessä kätevässä PDF-tiedostossa.",
+        "eyebrow": "Tulostettava premium-kokoelma",
+        "heading": "Lisää tehtäviä. Vähemmän etsimistä. Kaikki yhdessä kätevässä PDF:ssä.",
+        "lede": "Best of 2026 -kokoelma tuo suosikkimme yhdistä pisteet -tehtävät yhteen helposti tulostettavaan pakettiin rauhallisiin hetkiin, sadepäiviin, kotikouluun ja luokkahuoneeseen.",
+        "digitalPdf": "Digitaalinen PDF",
+        "printAtHome": "Tulosta kotona",
+        "instantAccess": "Välitön pääsy",
+        "purchaseAria": "Osta Best of 2026 -tehtäväpaketti",
+        "coverAlt": "Best of 2026 - 25 yhdistä pisteet -tehtävää, kirjan kansi",
+        "oneTime": "kertamaksu",
+        "buyButton": "Hanki tehtäväpaketti",
+        "localNote": "Paikallisessa ympäristössä (localhost) tämä avaa turvallisen maksudemon, eikä korttia koskaan veloiteta.",
+        "detailsEyebrow": "Suunniteltu helppoon tulostukseen ja leikkiin",
+        "detailsHeading": "Kaikki mitä tarvitset ruudutonta hauskanpitoa varten",
+        "detailsText": "Lataa kerran, pidä tallessa ja tulosta haluamasi tehtävät aina tarvittaessa.",
+        "benefits": {
+          "onePdf": "Yksi kätevä, tulostusvalmis PDF",
+          "kidFriendly": "Lapsille sopivia tehtäviä eri vaikeustasoilla",
+          "paperSizes": "Toimii US Letter- ja A4-paperilla",
+          "instantAccess": "Välitön pääsy onnistuneen maksun jälkeen",
+          "classroomUse": "Käytettävissä kotona tai yhdessä luokkahuoneessa"
+        },
+        "guaranteeHeading": "Yksinkertaista, turvallista ja valmista minuuteissa",
+        "guaranteeText": "Maksun jälkeen yksityinen latauslinkkisi ilmestyy heti. Ei tilausta eikä yllättäviä uusimisia."
+      },
+      "checkout": {
+        "consent": "Hyväksyn tämän digitaalisen PDF-tiedoston välittömän toimituksen ja ymmärrän, että kun käyttöoikeus alkaa, kauppa on lopullinen eikä sitä voi peruuttaa, paitsi lain niin vaatiessa tai jos tiedostoa ei toimiteta tai se on viallinen.",
+        "refundPolicy": "Lue palautuskäytäntö",
+        "opening": "Avataan kassaa...",
+        "secureNote": "Turvallinen maksu Stripen tuella. Kertamaksu. Ei tilausta.",
+        "error": "Maksun aloittamisessa tapahtui virhe. Yritä uudelleen."
+      },
+      "success": {
+        "metaTitle": "Kiitos ostoksestasi",
+        "eyebrow": "Maksu vahvistettu",
+        "heading": "Kiitos! Ostoksesi on valmis.",
+        "lede": "Maksusi onnistui. Ostoksen näkyminen tililläsi voi kestää muutaman sekunnin."
+      },
+      "cancelled": {
+        "metaTitle": "Maksu peruutettu",
+        "eyebrow": "Maksua ei veloitettu",
+        "heading": "Maksu peruutettu",
+        "lede": "Maksua ei veloitettu. Voit yrittää uudelleen milloin tahansa."
+      },
+      "download": {
+        "demoTitle": "Paikallinen maksutesti onnistui.",
+        "demoText": "Oikealla onnistuneen maksun näytöllä näkyy tässä PDF-latauspainike. Paikallinen demo ei julkaise yksityistä tiedostoa.",
+        "button": "Lataa tehtäväpakettisi",
+        "expires": "Tämä linkki vanhenee 24 tunnin kuluttua. Tallenna latauksesi turvalliseen paikkaan.",
+        "failed": "Emme voineet vielä vahvistaa ostostasi. Jos sinulta veloitettiin, päivitä tämä sivu hetken kuluttua tai ota meihin yhteyttä.",
+        "preparing": "Valmistellaan latausta..."
+      },
       "ad": {
-        "packName": "Yhdist? pisteet -teht?v?paketti",
+        "packName": "Pisteestä pisteeseen -palapelipaketti",
         "pdfBook": "PDF-KIRJA",
         "bookTitle": "Vuoden 2026 parhaat",
-        "puzzleCount": "25 yhdist? pisteet -teht?v??",
-        "viewBook": "N?yt? kirja"
+        "puzzleCount": "25 pisteestä pisteeseen -palapeliä",
+        "viewBook": "Näytä kirja"
       },
       "shared": {
-        "specialSale": "ERIKOISTARJOUS"
+        "specialSale": "ERIKOISTARJOUS",
+        "returnToPack": "Palaa tehtäväpakettiin",
+        "contactUs": "Ota yhteyttä"
       }
+    },
+    "puzzleDetail": {
+      "agesLabel": "Ikärajat:",
+      "dotsLabel": "Pisteet:",
+      "freeLabel": "100 % ilmainen",
+      "difficultyHeading": "Vaikeus",
+      "difficultyEasy": "Helppo",
+      "difficultyMedium": "Keskikokoinen",
+      "difficultyHard": "Kovaa",
+      "funFactPrefix": "Hauska fakta:",
+      "funFactLabel": "Hauska fakta!",
+      "noSignUp": "Ilmoittautumista ei tarvita.Avautuu PDF-tiedostona.Tulosta US Letter (8,5 × 11 tuumaa) tai A4-paperille.Ilmainen koti- ja luokkakäyttöön.",
+      "comingSoon": "Lataa ilmainen PDF – tulossa pian",
+      "youMightLike": "Saatat myös pitää",
+      "faqQ1": "Minkä ikäiselle pisteestä pisteeseen -pulma on tarkoitettu?",
+      "faqA1": "Se on suunniteltu {age} ikäisille.{dots} pisteen ansiosta se sopii lapsille, jotka osaavat laskea luottavaisesti {dots};nuoremmat lapset voivat suorittaa sen pienellä avustuksella.",
+      "faqQ2": "Kuinka tulostan laskentataulukon {name}?",
+      "faqA2": "Napsauta latauspainiketta saadaksesi ilmaisen PDF-tiedoston ja tulosta se sitten tavalliselle paperille (A4 tai US Letter) mistä tahansa selaimesta tai PDF-lukijasta.Mitään erityistä ohjelmistoa ei tarvita.",
+      "faqQ3": "Onko {name} tulostettava todella ilmainen?",
+      "faqA3": "Kyllä – se on 100 % ilmainen, ilman rekisteröitymistä, tiliä tai maksua.Voit tulostaa sen koti- tai luokkakäyttöön.",
+      "colorGuideHeading": "Väritysopas",
+      "dotGuideHeading": "Miten ratkaista {name} pisteestä pisteeseen -palapeli?"
+    },
+    "downloadButton": {
+      "label": "Lataa ilmainen tulostettava PDF",
+      "usage": "Ilmainen koti- ja luokkakäyttöön.",
+      "paperNote": "Koko {size} paperille.",
+      "paperLetter": "Yhdysvaltain kirje",
+      "paperA4": "A4",
+      "alternateLink": "Haluatko mieluummin {size}?Lataa tuo versio",
+      "downloadSize": "Lataa (tulostuskoko: {size})"
+    },
+    "downloadBadge": {
+      "downloaded": "Ladattu",
+      "times": "kertaa",
+      "greatChoice": "Olet tehnyt loistavan valinnan!"
+    },
+    "shareButtons": {
+      "label": "Jakaa",
+      "copyLink": "Kopioi linkki",
+      "copied": "Linkki kopioitu!",
+      "shareMe": "Jaa minulle"
+    },
+    "blogPage": {
+      "eyebrow": "Oppimisresurssit",
+      "h1": "Pisteestä pisteeseen -ideoita vanhemmille ja opettajille",
+      "description": "Käytännön oppaita toimintojen valintaan, varhaisten oppimistaitojen kehittämiseen ja tulostettavien laskentataulukoiden käyttöön kotona tai luokkahuoneessa.",
+      "breadcrumb": "Blogi",
+      "latestEyebrow": "Uusimmat artikkelit",
+      "latestH2": "Hyödyllisiä ideoita, joita voit käyttää tänään",
+      "readArticle": "Lue artikkeli",
+      "by": "Tekijä:",
+      "backToAll": "← Takaisin kaikkiin artikkeleihin",
+      "savePinterest": "Tallenna Pinterestiin",
+      "relatedEyebrow": "Ilmaiset tulosteet",
+      "relatedHeading": "Kokeile seuraavaksi näitä pisteistä pisteisiin -kokoelmia"
+    },
+    "canadaPage": {
+      "category": "Kanada"
+    },
+    "circusPage": {
+      "category": "Sirkus"
+    },
+    "cutePage": {
+      "category": "Söpö"
+    },
+    "dinosaursPage": {
+      "category": "Dinosaurukset"
+    },
+    "flowersPage": {
+      "category": "Kukat"
+    },
+    "gardenPage": {
+      "category": "Puutarha"
+    },
+    "oceanPage": {
+      "category": "Valtameri"
+    },
+    "playgroundsPage": {
+      "category": "Leikkikentät"
+    },
+    "spacePage": {
+      "category": "Space"
+    },
+    "uaePage": {
+      "category": "Yhdistyneet arabiemiirikunnat"
+    },
+    "usa250Page": {
+      "category": "USA 250 vuotta"
     }
   }
 }

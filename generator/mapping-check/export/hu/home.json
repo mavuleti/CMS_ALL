@@ -370,10 +370,38 @@
       "breadcrumbAria": "Zsemle"
     },
     "puzzleSearch": {
+      "placeholder": "Keresés név vagy téma alapján... pl. óceán, bálna, T-Rex",
       "searchAria": "Rejtvények keresése",
+      "clearSearch": "Keresés törlése",
+      "toggleFilters": "Szűrők be/ki",
+      "filters": "Szűrők",
+      "filterOptions": "Szűrési lehetőségek",
+      "topic": "Téma",
+      "numberOfDots": "Pontok száma",
+      "recentlyAddedOnly": "Csak a nemrég hozzáadottak",
+      "clearAllFilters": "Összes szűrő törlése",
+      "clearFilters": "Szűrők törlése",
       "resultsFound": "{count, plural, one {# rejtvény található} other {# rejtvény található}}",
+      "puzzlesAvailable": "{count, plural, one {# elérhető rejtvény} other {# elérhető rejtvény}}",
       "noMatches": "Egyik rejtvény sem felelt meg a keresésnek.",
-      "imageAlt": "{name} pontról pontra nyomtatható"
+      "openPuzzle": "{name} megnyitása",
+      "imageAlt": "{name} pontról pontra nyomtatható",
+      "viewPuzzle": "Rejtvény megtekintése →",
+      "dotRanges": {
+        "under35": "35 pont alatt",
+        "35to50": "35-50 pont",
+        "51to70": "51-70 pont",
+        "over70": "70+ pont"
+      },
+      "categories": {
+        "Dinosaurs": "Dinoszauruszok",
+        "Ocean": "Óceán",
+        "Playgrounds": "Játszóterek",
+        "Garden": "Kert",
+        "Cute": "Aranyos",
+        "USA 250 Years": "USA 250 év",
+        "UAE": "EAE"
+      }
     },
     "newsletterForm": {
       "ariaLabel": "Szerezd meg az ingyenes, pontról pontra nyomtatható csomagot",
@@ -410,16 +438,161 @@
       "recent_puzzle_slugs": "[\"circus-ringmaster-bear-dot-to-dot-puzzle\",\"circus-tent-dot-to-dot-puzzle\",\"space-rover-dot-to-dot-puzzle\",\"ringed-planet-dot-to-dot-puzzle\"]"
     },
     "purchase": {
+      "premium": {
+        "metaTitle": "Best of 2026 Prémium Kösd Össze a Pontokat Puzzle-csomag",
+        "metaDescription": "Nyomtatásra kész gyűjtemény a gyerekek kedvenc pontösszekötős rejtvényeiből, egyetlen kényelmes PDF-be gyűjtve.",
+        "eyebrow": "Nyomtatható prémium gyűjtemény",
+        "heading": "Több rejtvény. Kevesebb keresgélés. Minden egy kényelmes PDF-ben.",
+        "lede": "A Best of 2026 gyűjtemény egyetlen, könnyen nyomtatható csomagba gyűjti kedvenc pontösszekötős tevékenységeinket – tökéletes a nyugodt percekre, esős napokra, otthoni tanulásra és a tanórákra.",
+        "digitalPdf": "Digitális PDF",
+        "printAtHome": "Otthoni nyomtatás",
+        "instantAccess": "Azonnali hozzáférés",
+        "purchaseAria": "Best of 2026 rejtvénycsomag megvásárlása",
+        "coverAlt": "Best of 2026 - 25 pontösszekötős rejtvény, könyvborító",
+        "oneTime": "egyszeri fizetés",
+        "buyButton": "Szerezd meg a rejtvénycsomagot",
+        "localNote": "Localhoston ez egy biztonságos fizetési demót nyit meg, és soha nem terheli meg a kártyát.",
+        "detailsEyebrow": "Egyszerű nyomtatásra és játékra tervezve",
+        "detailsHeading": "Minden, ami a képernyőmentes szórakozáshoz kell",
+        "detailsText": "Töltsd le egyszer, tartsd kéznél, és nyomtasd ki a kívánt tevékenységeket, amikor csak szükséged van rájuk.",
+        "benefits": {
+          "onePdf": "Egy kényelmes, nyomtatásra kész PDF",
+          "kidFriendly": "Gyerekbarát rejtvények változatos nehézségi szinttel",
+          "paperSizes": "US Letter és A4 papírméretre is alkalmas",
+          "instantAccess": "Azonnali hozzáférés sikeres fizetés után",
+          "classroomUse": "Otthon vagy egyetlen tanteremben használható"
+        },
+        "guaranteeHeading": "Egyszerű, biztonságos, és percek alatt kész",
+        "guaranteeText": "A fizetés után azonnal megjelenik a privát letöltési linked. Nincs előfizetés, és nincs meglepetésszerű megújítás."
+      },
+      "checkout": {
+        "consent": "Elfogadom ennek a digitális PDF-nek az azonnali kézbesítését, és tudomásul veszem, hogy a hozzáférés megkezdését követően a vásárlás végleges és nem visszatéríthető, kivéve, ha ezt jogszabály írja elő, vagy ha a fájlt nem kézbesítik, illetve az hibás.",
+        "refundPolicy": "Visszatérítési szabályzat elolvasása",
+        "opening": "Fizetési folyamat megnyitása...",
+        "secureNote": "Biztonságos fizetés a Stripe támogatásával. Egyszeri fizetés. Nincs előfizetés.",
+        "error": "Hiba történt a fizetés indításakor. Kérjük, próbáld újra."
+      },
+      "success": {
+        "metaTitle": "Köszönjük a vásárlást",
+        "eyebrow": "Fizetés megerősítve",
+        "heading": "Köszönjük! A vásárlás sikeresen megtörtént.",
+        "lede": "A fizetés sikeres volt. Előfordulhat, hogy néhány másodpercbe telik, amíg a vásárlás megjelenik a fiókodban."
+      },
+      "cancelled": {
+        "metaTitle": "Fizetés megszakítva",
+        "eyebrow": "Nem történt terhelés",
+        "heading": "Fizetés megszakítva",
+        "lede": "Nem történt terhelés. Bármikor újra megpróbálhatod."
+      },
+      "download": {
+        "demoTitle": "A helyi fizetési teszt sikeres volt.",
+        "demoText": "A valódi sikeres fizetési képernyőn itt jelenik meg a PDF letöltési gombja. A helyi demó nem adja ki a privát fájlt.",
+        "button": "Töltsd le a rejtvénycsomagot",
+        "expires": "Ez a link 24 óra múlva lejár. Mentsd el a letöltött fájlt biztonságos helyre.",
+        "failed": "Még nem tudtuk megerősíteni a vásárlásodat. Ha megtörtént a terhelés, frissítsd az oldalt egy perc múlva, vagy vedd fel velünk a kapcsolatot segítségért.",
+        "preparing": "Letöltés előkészítése..."
+      },
       "ad": {
-        "packName": "Pont?sszek?t? feladatcsomag",
-        "pdfBook": "PDF-K?NYV",
+        "packName": "Pontról pontra kirakós csomag",
+        "pdfBook": "PDF KÖNYV",
         "bookTitle": "2026 legjobbjai",
-        "puzzleCount": "25 pont?sszek?t? feladat",
-        "viewBook": "K?nyv megtekint?se"
+        "puzzleCount": "25 pontról pontra rejtvény",
+        "viewBook": "Könyv megtekintése"
       },
       "shared": {
-        "specialSale": "K?L?NLEGES AJ?NLAT"
+        "specialSale": "Különleges akció",
+        "returnToPack": "Vissza a rejtvénycsomaghoz",
+        "contactUs": "Kapcsolatfelvétel"
       }
+    },
+    "puzzleDetail": {
+      "agesLabel": "Életkorok:",
+      "dotsLabel": "Pontok:",
+      "freeLabel": "100% ingyenes",
+      "difficultyHeading": "Nehézség",
+      "difficultyEasy": "Könnyen",
+      "difficultyMedium": "Közepes",
+      "difficultyHard": "Kemény",
+      "funFactPrefix": "Érdekes tény:",
+      "funFactLabel": "Érdekes tény!",
+      "noSignUp": "Nincs szükség regisztrációra.PDF formátumban nyílik meg.Nyomtatás US Letter (8,5 × 11 hüvelyk) vagy A4-es papírra.Ingyenes otthoni és tantermi használatra.",
+      "comingSoon": "Ingyenes PDF letöltése – Hamarosan",
+      "youMightLike": "Ön is kedvelheti",
+      "faqQ1": "Hány korosztálynak való a {name} ponttól pontig kirakós játék?",
+      "faqA1": "{age} korosztály számára készült.A {dots} ponttal olyan gyerekeknek felel meg, akik magabiztosan tudnak {pontig számolni;a kisebb gyerekek kis segítséggel kiegészíthetik.",
+      "faqQ2": "Hogyan nyomtathatom ki a(z) {name} munkalapot?",
+      "faqA2": "Kattintson a letöltés gombra az ingyenes PDF letöltéséhez, majd nyomtassa ki normál papírra (A4 vagy US Letter) bármely böngészőből vagy PDF-olvasóból.Nincs szükség speciális szoftverre.",
+      "faqQ3": "A(z) {name} valóban ingyenes?",
+      "faqA3": "Igen – 100%-ban ingyenes, nincs szükség regisztrációra, fiókra vagy fizetésre.Kinyomtathatja otthoni vagy tantermi használatra.",
+      "colorGuideHeading": "Színezési útmutató",
+      "dotGuideHeading": "Hogyan oldjuk meg a(z) {name} pontról pontra rejtvényt?"
+    },
+    "downloadButton": {
+      "label": "Ingyenesen nyomtatható PDF letöltése",
+      "usage": "Ingyenes otthoni és tantermi használatra.",
+      "paperNote": "{size} papírhoz méretezve.",
+      "paperLetter": "Amerikai levél",
+      "paperA4": "A4",
+      "alternateLink": "Inkább {size}?Töltse le azt a verziót",
+      "downloadSize": "Letöltés (Nyomtatási méret: {size})"
+    },
+    "downloadBadge": {
+      "downloaded": "Letöltve",
+      "times": "alkalommal",
+      "greatChoice": "Remekül választottál!"
+    },
+    "shareButtons": {
+      "label": "Részesedés",
+      "copyLink": "Link másolása",
+      "copied": "Link másolva!",
+      "shareMe": "Oszd meg velem"
+    },
+    "blogPage": {
+      "eyebrow": "Tanulási források",
+      "h1": "Pontról pontra ötletek szülőknek és tanároknak",
+      "description": "Gyakorlati útmutatók a tevékenységek kiválasztásához, a korai tanulási készségek fejlesztéséhez és a nyomtatható munkalapok otthoni vagy tantermi használatához.",
+      "breadcrumb": "Blog",
+      "latestEyebrow": "Legújabb cikkek",
+      "latestH2": "Hasznos ötletek, amelyeket ma is felhasználhatsz",
+      "readArticle": "Olvassa el a cikket",
+      "by": "Által",
+      "backToAll": "← Vissza az összes cikkhez",
+      "savePinterest": "Mentés a Pinterestre",
+      "relatedEyebrow": "Ingyenes nyomtatható anyagok",
+      "relatedHeading": "Legközelebb próbálja ki ezeket a pontról pontra gyűjtött gyűjteményeket"
+    },
+    "canadaPage": {
+      "category": "Kanada"
+    },
+    "circusPage": {
+      "category": "Cirkusz"
+    },
+    "cutePage": {
+      "category": "Csinos"
+    },
+    "dinosaursPage": {
+      "category": "Dinoszauruszok"
+    },
+    "flowersPage": {
+      "category": "Virágok"
+    },
+    "gardenPage": {
+      "category": "Kert"
+    },
+    "oceanPage": {
+      "category": "Óceán"
+    },
+    "playgroundsPage": {
+      "category": "Játszóterek"
+    },
+    "spacePage": {
+      "category": "Tér"
+    },
+    "uaePage": {
+      "category": "Egyesült Arab Emírségek"
+    },
+    "usa250Page": {
+      "category": "USA 250. évfordulója"
     }
   }
 }

@@ -370,10 +370,38 @@
       "breadcrumbAria": "Çörək qırıntısı"
     },
     "puzzleSearch": {
+      "placeholder": "Ad və ya mövzuya görə axtar... məs. okean, balina, T-Rex",
       "searchAria": "Bulmacalar axtarın",
+      "clearSearch": "Axtarışı təmizlə",
+      "toggleFilters": "Filtrləri göstər/gizlət",
+      "filters": "Filtrlər",
+      "filterOptions": "Filtr seçimləri",
+      "topic": "Mövzu",
+      "numberOfDots": "Nöqtələrin sayı",
+      "recentlyAddedOnly": "Yalnız yeni əlavə edilənlər",
+      "clearAllFilters": "Bütün filtrləri təmizlə",
+      "clearFilters": "Filtrləri təmizlə",
       "resultsFound": "{count, plural, one {# tapmaca tapıldı} other {# tapmaca tapıldı}}",
+      "puzzlesAvailable": "{count, plural, one {# tapmaca mövcuddur} other {# tapmaca mövcuddur}}",
       "noMatches": "Axtarışınıza uyğun tapmacalar tapılmadı.",
-      "imageAlt": "{name} nöqtədən nöqtəyə çap edilə bilər"
+      "openPuzzle": "{name} aç",
+      "imageAlt": "{name} nöqtədən nöqtəyə çap edilə bilər",
+      "viewPuzzle": "Tapmacaya bax →",
+      "dotRanges": {
+        "under35": "35 nöqtədən az",
+        "35to50": "35-50 nöqtə",
+        "51to70": "51-70 nöqtə",
+        "over70": "70+ nöqtə"
+      },
+      "categories": {
+        "Dinosaurs": "Dinozavrlar",
+        "Ocean": "Okean",
+        "Playgrounds": "Uşaq meydançaları",
+        "Garden": "Bağ",
+        "Cute": "Şirin",
+        "USA 250 Years": "ABŞ 250 il",
+        "UAE": "BƏƏ"
+      }
     },
     "newsletterForm": {
       "ariaLabel": "Pulsuz nöqtədən nöqtəyə çap edilə bilən paketi əldə edin",
@@ -410,16 +438,161 @@
       "recent_puzzle_slugs": "[\"circus-ringmaster-bear-dot-to-dot-puzzle\",\"circus-tent-dot-to-dot-puzzle\",\"space-rover-dot-to-dot-puzzle\",\"ringed-planet-dot-to-dot-puzzle\"]"
     },
     "purchase": {
+      "premium": {
+        "metaTitle": "2026-nın ən yaxşı Premium Nöqtədən Nöqtəyə Tapmaca Paketi",
+        "metaDescription": "Uşaqlar üçün ən sevilən nöqtədən nöqtəyə tapmacaların çap üçün hazır toplusu, bir rahat PDF-də toplanıb.",
+        "eyebrow": "Premium çap kolleksiyası",
+        "heading": "Daha çox tapmaca. Daha az axtarış. Hər şey bir rahat PDF-də.",
+        "lede": "2026-nın ən yaxşıları kolleksiyası sevimli nöqtə-birləşdirmə fəaliyyətlərimizi sakit vaxt, yağışlı günlər, ev təhsili və siniflər üçün asan çap edilə bilən bir paketdə birləşdirir.",
+        "digitalPdf": "Rəqəmsal PDF",
+        "printAtHome": "Evdə çap et",
+        "instantAccess": "Ani giriş",
+        "purchaseAria": "2026-nın ən yaxşısı tapmaca paketini satın al",
+        "coverAlt": "2026-nın ən yaxşısı - 25 Nöqtədən Nöqtəyə Tapmaca kitab üzlüyü",
+        "oneTime": "birdəfəlik",
+        "buyButton": "Tapmaca paketini əldə et",
+        "localNote": "Localhost-da bu, təhlükəsiz ödəniş demosunu açır və heç vaxt karta pul yazmır.",
+        "detailsEyebrow": "Asan çap-və-oyna üçün hazırlanıb",
+        "detailsHeading": "Ekransız əyləncə üçün lazım olan hər şey",
+        "detailsText": "Bir dəfə yüklə, əldə saxla və istədiyin fəaliyyətləri istədiyin zaman çap et.",
+        "benefits": {
+          "onePdf": "Bir rahat, çapa hazır PDF",
+          "kidFriendly": "Müxtəlif çətinlik dərəcəli uşaq dostu tapmacalar",
+          "paperSizes": "US Letter və A4 kağızlarında işləyir",
+          "instantAccess": "Uğurlu ödənişdən sonra ani giriş",
+          "classroomUse": "Evdə və ya bir sinifdə istifadə üçün"
+        },
+        "guaranteeHeading": "Sadə, təhlükəsiz və bir neçə dəqiqəyə hazır",
+        "guaranteeText": "Ödənişdən sonra şəxsi endirmə linkiniz dərhal görünür. Abunəlik və gözlənilməz yenilənmə yoxdur."
+      },
+      "checkout": {
+        "consent": "Bu rəqəmsal PDF-in dərhal çatdırılmasına razıyam və girişin başlamasından sonra satışın qanunla tələb olunmadıqca və ya fayl çatdırılmadıqda və ya qüsurlu olduqda son və geri qaytarılmaz olduğunu anlayıram.",
+        "refundPolicy": "Geri qaytarma siyasətini oxu",
+        "opening": "Ödəniş açılır...",
+        "secureNote": "Stripe tərəfindən təmin edilən təhlükəsiz ödəniş. Birdəfəlik ödəniş. Abunəlik yoxdur.",
+        "error": "Ödəniş başladılarkən xəta baş verdi. Yenidən cəhd edin."
+      },
+      "success": {
+        "metaTitle": "Alışınız üçün təşəkkürlər",
+        "eyebrow": "Ödəniş təsdiqləndi",
+        "heading": "Təşəkkürlər! Alışınız tamamlandı.",
+        "lede": "Ödənişiniz uğurlu oldu. Alışınızın hesabınızda görünməsi bir neçə saniyə çəkə bilər."
+      },
+      "cancelled": {
+        "metaTitle": "Ödəniş ləğv edildi",
+        "eyebrow": "Ödəniş alınmadı",
+        "heading": "Ödəniş ləğv edildi",
+        "lede": "Heç bir ödəniş edilmədi. İstənilən vaxt yenidən cəhd edə bilərsiniz."
+      },
+      "download": {
+        "demoTitle": "Yerli ödəniş testi keçdi.",
+        "demoText": "Əsl ödənişli uğur ekranı burada PDF endirmə düyməsini göstərir. Yerli demo şəxsi faylı buraxmır.",
+        "button": "Tapmaca paketinizi endirin",
+        "expires": "Bu link 24 saatdan sonra bitir. Endirdiyinizi təhlükəsiz yerdə saxlayın.",
+        "failed": "Alışınızı hələ təsdiqləyə bilmədik. Əgər ödəniş edilibsə, bir dəqiqədən sonra bu səhifəni yeniləyin və ya kömək üçün bizimlə əlaqə saxlayın.",
+        "preparing": "Endirməniz hazırlanır..."
+      },
       "ad": {
-        "packName": "N?qt?-birl??dirm? tapmaca paketi",
-        "pdfBook": "PDF K?TAB",
-        "bookTitle": "2026-n?n ?n yax??lar?",
-        "puzzleCount": "25 n?qt?-birl??dirm? tapmacas?",
+        "packName": "Nöqtədən Nöqtəyə Tapmaca Paketi",
+        "pdfBook": "PDF KİTAB",
+        "bookTitle": "2026-nın ən yaxşıları",
+        "puzzleCount": "25 Nöqtədən Nöqtəyə Tapmaca",
         "viewBook": "Kitaba bax"
       },
       "shared": {
-        "specialSale": "X?SUS? END?R?M"
+        "specialSale": "Xüsusi endirim",
+        "returnToPack": "Tapmaca paketinə qayıt",
+        "contactUs": "Bizimlə əlaqə"
       }
+    },
+    "puzzleDetail": {
+      "agesLabel": "Yaşlar:",
+      "dotsLabel": "Nöqtələr:",
+      "freeLabel": "100% Pulsuz",
+      "difficultyHeading": "Çətinlik",
+      "difficultyEasy": "Asan",
+      "difficultyMedium": "Orta",
+      "difficultyHard": "Çətin",
+      "funFactPrefix": "Əyləncəli fakt:",
+      "funFactLabel": "Əyləncəli fakt!",
+      "noSignUp": "Qeydiyyata ehtiyac yoxdur.PDF olaraq açılır.US Letter (8,5 × 11 düym) və ya A4 kağızında çap edin.Evdə və sinifdə istifadə üçün pulsuzdur.",
+      "comingSoon": "Pulsuz PDF Yükləyin – Tezliklə",
+      "youMightLike": "Siz də bəyənə bilərsiniz",
+      "faqQ1": "{name} nöqtədən nöqtəyə tapmaca neçə yaş üçündür?",
+      "faqA1": "O, {age} yaş üçün nəzərdə tutulmuşdur.{dots} nöqtələri ilə o, {dots} inamla saya bilən uşaqlar üçün uyğundur;kiçik uşaqlar bunu bir az köməklə tamamlaya bilərlər.",
+      "faqQ2": "{name} iş vərəqini necə çap edə bilərəm?",
+      "faqA2": "Pulsuz PDF əldə etmək üçün yükləmə düyməsini klikləyin, sonra onu istənilən brauzerdən və ya PDF oxuyucudan adi kağıza (A4 və ya ABŞ məktubu) çap edin.Heç bir xüsusi proqram tələb olunmur.",
+      "faqQ3": "{name} həqiqətən pulsuz çap edilə bilərmi?",
+      "faqA3": "Bəli - 100% pulsuzdur, qeydiyyat, hesab və ya ödəniş tələb olunmur.Siz onu evdə və ya sinifdə istifadə etmək üçün çap edə bilərsiniz.",
+      "colorGuideHeading": "Rəngləmə Bələdçisi",
+      "dotGuideHeading": "{name} nöqtədən nöqtəyə tapmacası necə həll edilir?"
+    },
+    "downloadButton": {
+      "label": "Pulsuz çap edilə bilən PDF yükləyin",
+      "usage": "Evdə və sinifdə istifadə üçün pulsuzdur.",
+      "paperNote": "{size} kağız üçün ölçülü.",
+      "paperLetter": "ABŞ məktubu",
+      "paperA4": "A4",
+      "alternateLink": "{size} seçirsiniz?Həmin versiyanı yükləyin",
+      "downloadSize": "Yükləyin (Çap Ölçüsü: {size})"
+    },
+    "downloadBadge": {
+      "downloaded": "Endirildi",
+      "times": "dəfə",
+      "greatChoice": "Siz əla seçim etdiniz!"
+    },
+    "shareButtons": {
+      "label": "Paylaşın",
+      "copyLink": "Linki kopyalayın",
+      "copied": "Link kopyalandı!",
+      "shareMe": "Məni paylaş"
+    },
+    "blogPage": {
+      "eyebrow": "Öyrənmə resursları",
+      "h1": "Valideynlər və Müəllimlər üçün Nöqtədən Nöqtəyə İdeyalar",
+      "description": "Fəaliyyətlərin seçilməsi, erkən öyrənmə bacarıqlarının formalaşdırılması və evdə və ya sinifdə çap edilə bilən iş vərəqlərindən istifadə üçün praktiki təlimatlar.",
+      "breadcrumb": "Bloq",
+      "latestEyebrow": "Ən son məqalələr",
+      "latestH2": "Bu gün istifadə edə biləcəyiniz faydalı fikirlər",
+      "readArticle": "Məqaləni oxuyun",
+      "by": "By",
+      "backToAll": "← Bütün məqalələrə qayıt",
+      "savePinterest": "Pinterest-də yadda saxlayın",
+      "relatedEyebrow": "Pulsuz çap üçün",
+      "relatedHeading": "Növbəti nöqtədən nöqtəyə bu kolleksiyaları sınayın"
+    },
+    "canadaPage": {
+      "category": "Kanada"
+    },
+    "circusPage": {
+      "category": "Sirk"
+    },
+    "cutePage": {
+      "category": "Şirin"
+    },
+    "dinosaursPage": {
+      "category": "Dinozavrlar"
+    },
+    "flowersPage": {
+      "category": "Çiçəklər"
+    },
+    "gardenPage": {
+      "category": "Bağ"
+    },
+    "oceanPage": {
+      "category": "Okean"
+    },
+    "playgroundsPage": {
+      "category": "Oyun meydançaları"
+    },
+    "spacePage": {
+      "category": "Kosmos"
+    },
+    "uaePage": {
+      "category": "Birləşmiş Ərəb Əmirlikləri"
+    },
+    "usa250Page": {
+      "category": "ABŞ-ın 250 illik yubileyi"
     }
   }
 }

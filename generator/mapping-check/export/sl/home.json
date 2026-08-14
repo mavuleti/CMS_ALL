@@ -370,10 +370,38 @@
       "breadcrumbAria": "Breadcrumb"
     },
     "puzzleSearch": {
+      "placeholder": "Iskanje po imenu ali temi... npr. ocean, kit, T-Rex",
       "searchAria": "Iskanje ugank",
+      "clearSearch": "Počisti iskanje",
+      "toggleFilters": "Preklopi filtre",
+      "filters": "Filtri",
+      "filterOptions": "Možnosti filtra",
+      "topic": "Tema",
+      "numberOfDots": "Število pik",
+      "recentlyAddedOnly": "Samo nedavno dodano",
+      "clearAllFilters": "Počisti vse filtre",
+      "clearFilters": "Počisti filtre",
       "resultsFound": "{count, plural, one {najdena # uganka} two {najdeni # uganki} few {najdene # uganke} other {najdenih # ugank}}",
+      "puzzlesAvailable": "{count, plural, one {# sestavljanka na voljo} two {# sestavljanki na voljo} few {# sestavljanke na voljo} other {# sestavljank na voljo}}",
       "noMatches": "Nobena uganka ne ustreza vašemu iskanju.",
-      "imageAlt": "{name} pika-do-pika za tiskanje"
+      "openPuzzle": "Odpri {name}",
+      "imageAlt": "{name} pika-do-pika za tiskanje",
+      "viewPuzzle": "Ogled sestavljanke →",
+      "dotRanges": {
+        "under35": "Manj kot 35 pik",
+        "35to50": "35-50 pik",
+        "51to70": "51-70 pik",
+        "over70": "70+ pik"
+      },
+      "categories": {
+        "Dinosaurs": "Dinozavri",
+        "Ocean": "Ocean",
+        "Playgrounds": "Igrišča",
+        "Garden": "Vrt",
+        "Cute": "Ljubko",
+        "USA 250 Years": "ZDA 250 let",
+        "UAE": "ZAE"
+      }
     },
     "newsletterForm": {
       "ariaLabel": "Pridobite brezplačen paket za tiskanje pika-po-piki",
@@ -410,16 +438,161 @@
       "recent_puzzle_slugs": "[\"circus-ringmaster-bear-dot-to-dot-puzzle\",\"circus-tent-dot-to-dot-puzzle\",\"space-rover-dot-to-dot-puzzle\",\"ringed-planet-dot-to-dot-puzzle\"]"
     },
     "purchase": {
+      "premium": {
+        "metaTitle": "Premijski paket Best of 2026 – uganke poveži pike",
+        "metaDescription": "Za tisk pripravljena zbirka najljubših otroških ugank poveži pike, združenih v enem priročnem PDF-ju.",
+        "eyebrow": "Premijska zbirka za tiskanje",
+        "heading": "Več ugank. Manj iskanja. Vse v enem priročnem PDF-ju.",
+        "lede": "Zbirka Best of 2026 združuje naše najljubše aktivnosti poveži pike v enem enostavno natisljivem paketu – idealno za mirne trenutke, deževne dni, domače šolanje in pouk.",
+        "digitalPdf": "Digitalni PDF",
+        "printAtHome": "Natisnite doma",
+        "instantAccess": "Takojšen dostop",
+        "purchaseAria": "Kupite paket ugank Best of 2026",
+        "coverAlt": "Best of 2026 - naslovnica knjige s 25 ugankami poveži pike",
+        "oneTime": "enkratno plačilo",
+        "buyButton": "Pridobite paket ugank",
+        "localNote": "Na localhostu se odpre varen preizkus plačila in kartica nikoli ni bremenjena.",
+        "detailsEyebrow": "Zasnovano za enostavno tiskanje in igro",
+        "detailsHeading": "Vse, kar potrebujete za zabavo brez zaslonov",
+        "detailsText": "Prenesite enkrat, imejte pri roki in natisnite dejavnosti, ki jih želite, kadar koli jih potrebujete.",
+        "benefits": {
+          "onePdf": "En priročen PDF, pripravljen za tiskanje",
+          "kidFriendly": "Uganke, primerne za otroke, z različnimi stopnjami težavnosti",
+          "paperSizes": "Deluje na papirju formata US Letter in A4",
+          "instantAccess": "Takojšen dostop po uspešnem plačilu",
+          "classroomUse": "Uporabno doma ali v eni učilnici"
+        },
+        "guaranteeHeading": "Preprosto, varno in pripravljeno v nekaj minutah",
+        "guaranteeText": "Po nakupu se takoj prikaže vaša zasebna povezava za prenos. Brez naročnine in brez presenetljive obnovitve."
+      },
+      "checkout": {
+        "consent": "Strinjam se s takojšnjo dostavo tega digitalnega PDF-ja in razumem, da je po začetku dostopa nakup dokončen in ni vračljiv, razen kadar to zahteva zakon ali če datoteka ni dostavljena oziroma je pomanjkljiva.",
+        "refundPolicy": "Preberite pravilnik o vračilih",
+        "opening": "Odpiranje plačila...",
+        "secureNote": "Varno plačilo, ki ga omogoča Stripe. Enkratno plačilo. Brez naročnine.",
+        "error": "Pri zagonu plačila je prišlo do napake. Poskusite znova."
+      },
+      "success": {
+        "metaTitle": "Hvala za nakup",
+        "eyebrow": "Plačilo potrjeno",
+        "heading": "Hvala! Vaš nakup je zaključen.",
+        "lede": "Vaše plačilo je bilo uspešno. Nekaj sekund lahko traja, da se nakup prikaže v vašem računu."
+      },
+      "cancelled": {
+        "metaTitle": "Plačilo preklicano",
+        "eyebrow": "Plačilo ni bilo izvedeno",
+        "heading": "Plačilo preklicano",
+        "lede": "Noben znesek ni bil zaračunan. Znova lahko poskusite kadar koli."
+      },
+      "download": {
+        "demoTitle": "Lokalni preizkus plačila je bil uspešen.",
+        "demoText": "Na resničnem zaslonu uspešnega nakupa se tu prikaže gumb za prenos PDF-ja. Lokalna predstavitev ne omogoča dostopa do zasebne datoteke.",
+        "button": "Prenesite svoj paket ugank",
+        "expires": "Ta povezava poteče čez 24 ur. Preneseno datoteko shranite na varno mesto.",
+        "failed": "Vašega nakupa še nismo mogli potrditi. Če vam je bil znesek zaračunan, to stran osvežite čez minuto ali nas kontaktirajte za pomoč.",
+        "preparing": "Pripravljamo vaš prenos..."
+      },
       "ad": {
-        "packName": "Paket ugank pove?i pike",
+        "packName": "Paket ugank poveži pike",
         "pdfBook": "PDF KNJIGA",
-        "bookTitle": "Najbolj?e iz leta 2026",
-        "puzzleCount": "25 ugank pove?i pike",
+        "bookTitle": "Najboljše v 2026",
+        "puzzleCount": "25 ugank od pike do pike",
         "viewBook": "Oglej si knjigo"
       },
       "shared": {
-        "specialSale": "POSEBNA PONUDBA"
+        "specialSale": "POSEBNA PONUDBA",
+        "returnToPack": "Nazaj na paket ugank",
+        "contactUs": "Kontaktirajte nas"
       }
+    },
+    "puzzleDetail": {
+      "agesLabel": "Starost:",
+      "dotsLabel": "pike:",
+      "freeLabel": "100% brezplačno",
+      "difficultyHeading": "Težavnost",
+      "difficultyEasy": "enostavno",
+      "difficultyMedium": "Srednje",
+      "difficultyHard": "težko",
+      "funFactPrefix": "zabavno dejstvo:",
+      "funFactLabel": "Zabavno dejstvo!",
+      "noSignUp": "Prijava ni potrebna.Odpre se kot PDF.Natisnite na papir US Letter (8,5 × 11 palcev) ali A4.Brezplačno za uporabo doma in v razredu.",
+      "comingSoon": "Prenesite brezplačen PDF – kmalu na voljo",
+      "youMightLike": "Morda vam bo všeč tudi",
+      "faqQ1": "Za katero starost je uganka {name} od pike do pike?",
+      "faqA1": "Zasnovan je za starost {age}.S {dots} pikami je primeren za otroke, ki lahko samozavestno štejejo do {dots};mlajši otroci ga lahko dokončajo z malo pomoči.",
+      "faqQ2": "Kako natisnem delovni list {name}?",
+      "faqA2": "Kliknite gumb za prenos, da dobite brezplačen PDF, nato pa ga natisnite na običajen papir (A4 ali US Letter) iz katerega koli brskalnika ali bralnika PDF.Posebna programska oprema ni potrebna.",
+      "faqQ3": "Je {name} za tiskanje res brezplačen?",
+      "faqA3": "Da — je 100 % brezplačen, brez prijave, računa ali plačila.Lahko ga natisnete za uporabo doma ali v razredu.",
+      "colorGuideHeading": "Vodnik za barvanje",
+      "dotGuideHeading": "Kako rešiti uganko poveži pike {name}?"
+    },
+    "downloadButton": {
+      "label": "Prenesite brezplačen PDF za tiskanje",
+      "usage": "Brezplačno za uporabo doma in v razredu.",
+      "paperNote": "Velikost za {size} papir.",
+      "paperLetter": "US pismo",
+      "paperA4": "A4",
+      "alternateLink": "Imate raje {size}?Prenesite to različico",
+      "downloadSize": "Prenos (velikost tiskanja: {size})"
+    },
+    "downloadBadge": {
+      "downloaded": "Preneseno",
+      "times": "krat",
+      "greatChoice": "Odlično ste se odločili!"
+    },
+    "shareButtons": {
+      "label": "Delite",
+      "copyLink": "Kopiraj povezavo",
+      "copied": "Povezava je kopirana!",
+      "shareMe": "Delite me"
+    },
+    "blogPage": {
+      "eyebrow": "Učni viri",
+      "h1": "Ideje od pike do pike za starše in učitelje",
+      "description": "Praktični vodniki za izbiro dejavnosti, krepitev zgodnjih učnih spretnosti in uporabo natisljivih delovnih listov doma ali v razredu.",
+      "breadcrumb": "Blog",
+      "latestEyebrow": "Najnovejši članki",
+      "latestH2": "Koristne ideje, ki jih lahko uporabite že danes",
+      "readArticle": "Preberi članek",
+      "by": "Avtor:",
+      "backToAll": "← Nazaj na vse članke",
+      "savePinterest": "Shrani v Pinterest",
+      "relatedEyebrow": "Brezplačni natisi",
+      "relatedHeading": "Preizkusite naslednje zbirke od pike do pike"
+    },
+    "canadaPage": {
+      "category": "Kanada"
+    },
+    "circusPage": {
+      "category": "Cirkus"
+    },
+    "cutePage": {
+      "category": "ljubek"
+    },
+    "dinosaursPage": {
+      "category": "Dinozavri"
+    },
+    "flowersPage": {
+      "category": "Rože"
+    },
+    "gardenPage": {
+      "category": "Vrt"
+    },
+    "oceanPage": {
+      "category": "Ocean"
+    },
+    "playgroundsPage": {
+      "category": "igrišča"
+    },
+    "spacePage": {
+      "category": "Vesolje"
+    },
+    "uaePage": {
+      "category": "Združeni arabski emirati"
+    },
+    "usa250Page": {
+      "category": "250. obletnica ZDA"
     }
   }
 }

@@ -370,10 +370,38 @@
       "breadcrumbAria": "Kruhna mrva"
     },
     "puzzleSearch": {
+      "placeholder": "Pretraži po imenu ili temi... npr. ocean, kit, T-Rex",
       "searchAria": "Pretraži zagonetke",
+      "clearSearch": "Obriši pretragu",
+      "toggleFilters": "Prikaži/sakrij filtre",
+      "filters": "Filtri",
+      "filterOptions": "Mogućnosti filtra",
+      "topic": "Tema",
+      "numberOfDots": "Broj točaka",
+      "recentlyAddedOnly": "Samo nedavno dodano",
+      "clearAllFilters": "Obriši sve filtre",
+      "clearFilters": "Obriši filtre",
       "resultsFound": "{count, plural, one {pronađena # zagonetka} few {pronađene # zagonetke} other {pronađeno # zagonetki}}",
+      "puzzlesAvailable": "{count, plural, one {# slagalica dostupna} few {# slagalice dostupne} other {# slagalica dostupno}}",
       "noMatches": "Nijedna zagonetka ne odgovara vašoj pretrazi.",
-      "imageAlt": "{name} ispisivo od točke do točke"
+      "openPuzzle": "Otvori {name}",
+      "imageAlt": "{name} ispisivo od točke do točke",
+      "viewPuzzle": "Pogledaj slagalicu →",
+      "dotRanges": {
+        "under35": "Manje od 35 točaka",
+        "35to50": "35-50 točaka",
+        "51to70": "51-70 točaka",
+        "over70": "70+ točaka"
+      },
+      "categories": {
+        "Dinosaurs": "Dinosauri",
+        "Ocean": "Ocean",
+        "Playgrounds": "Igrališta",
+        "Garden": "Vrt",
+        "Cute": "Slatko",
+        "USA 250 Years": "SAD 250 godina",
+        "UAE": "UAE"
+      }
     },
     "newsletterForm": {
       "ariaLabel": "Preuzmite besplatni paket za ispis od točke do točke",
@@ -410,16 +438,161 @@
       "recent_puzzle_slugs": "[\"circus-ringmaster-bear-dot-to-dot-puzzle\",\"circus-tent-dot-to-dot-puzzle\",\"space-rover-dot-to-dot-puzzle\",\"ringed-planet-dot-to-dot-puzzle\"]"
     },
     "purchase": {
+      "premium": {
+        "metaTitle": "Premium paket Best of 2026 – slagalice spoji točke",
+        "metaDescription": "Zbirka omiljenih dječjih slagalica spoji-točke, spremna za ispis i objedinjena u praktičan PDF.",
+        "eyebrow": "Premium zbirka za ispis",
+        "heading": "Više slagalica. Manje traženja. Sve u jednom praktičnom PDF-u.",
+        "lede": "Zbirka Best of 2026 donosi naše omiljene aktivnosti spoji-točke u jednom paketu jednostavnom za ispis, savršenom za mirne trenutke, kišne dane, kućno obrazovanje i učionicu.",
+        "digitalPdf": "Digitalni PDF",
+        "printAtHome": "Ispis kod kuće",
+        "instantAccess": "Trenutni pristup",
+        "purchaseAria": "Kupite paket slagalica Best of 2026",
+        "coverAlt": "Best of 2026 - naslovnica knjige s 25 slagalica spoji točke",
+        "oneTime": "jednokratno",
+        "buyButton": "Nabavite paket slagalica",
+        "localNote": "Na localhostu ovo otvara sigurnu demo verziju plaćanja i nikada ne naplaćuje karticu.",
+        "detailsEyebrow": "Osmišljeno za jednostavan ispis i igru",
+        "detailsHeading": "Sve što treba za zabavu bez ekrana",
+        "detailsText": "Preuzmite jednom, držite pri ruci i ispišite željene aktivnosti kad god vam zatrebaju.",
+        "benefits": {
+          "onePdf": "Jedan praktičan PDF spreman za ispis",
+          "kidFriendly": "Slagalice prilagođene djeci s različitim stupnjevima težine",
+          "paperSizes": "Radi na papiru US Letter i A4 formata",
+          "instantAccess": "Trenutni pristup nakon uspješnog plaćanja",
+          "classroomUse": "Za korištenje kod kuće ili u jednoj učionici"
+        },
+        "guaranteeHeading": "Jednostavno, sigurno i spremno za nekoliko minuta",
+        "guaranteeText": "Nakon plaćanja odmah se pojavljuje vaša privatna poveznica za preuzimanje. Bez pretplate i bez iznenadnih obnova."
+      },
+      "checkout": {
+        "consent": "Slažem se s trenutnom dostavom ovog digitalnog PDF-a i razumijem da je, nakon što pristup započne, kupnja konačna i nepovratna, osim ako je to zakonom propisano ili ako datoteka nije isporučena ili je neispravna.",
+        "refundPolicy": "Pročitajte politiku povrata novca",
+        "opening": "Otvaranje plaćanja...",
+        "secureNote": "Sigurno plaćanje putem Stripea. Jednokratno plaćanje. Bez pretplate.",
+        "error": "Došlo je do pogreške pri pokretanju plaćanja. Pokušajte ponovno."
+      },
+      "success": {
+        "metaTitle": "Hvala vam na kupnji",
+        "eyebrow": "Plaćanje potvrđeno",
+        "heading": "Hvala vam! Vaša kupnja je dovršena.",
+        "lede": "Vaše plaćanje je uspješno provedeno. Kupnja se na vašem računu može pojaviti nakon nekoliko sekundi."
+      },
+      "cancelled": {
+        "metaTitle": "Plaćanje otkazano",
+        "eyebrow": "Naplata nije izvršena",
+        "heading": "Plaćanje otkazano",
+        "lede": "Naplata nije izvršena. Možete pokušati ponovno u bilo kojem trenutku."
+      },
+      "download": {
+        "demoTitle": "Lokalni test plaćanja uspješno je proveden.",
+        "demoText": "Na stvarnom zaslonu uspješne kupnje ovdje se prikazuje gumb za preuzimanje PDF-a. Lokalna demo verzija ne otključava privatnu datoteku.",
+        "button": "Preuzmite svoj paket slagalica",
+        "expires": "Ova poveznica istječe za 24 sata. Spremite preuzetu datoteku na sigurno mjesto.",
+        "failed": "Još nismo mogli potvrditi vašu kupnju. Ako vam je naplaćeno, osvježite ovu stranicu za minutu ili nas kontaktirajte za pomoć.",
+        "preparing": "Priprema vašeg preuzimanja..."
+      },
       "ad": {
-        "packName": "Paket zagonetki spoji to?ke",
+        "packName": "Paket slagalica od točke do točke",
         "pdfBook": "PDF KNJIGA",
         "bookTitle": "Najbolje iz 2026.",
-        "puzzleCount": "25 zagonetki spoji to?ke",
+        "puzzleCount": "25 zagonetki od točke do točke",
         "viewBook": "Pogledaj knjigu"
       },
       "shared": {
-        "specialSale": "POSEBNA PONUDA"
+        "specialSale": "POSEBNA PONUDA",
+        "returnToPack": "Povratak na paket slagalica",
+        "contactUs": "Kontaktirajte nas"
       }
+    },
+    "puzzleDetail": {
+      "agesLabel": "Dob:",
+      "dotsLabel": "točkice:",
+      "freeLabel": "100% besplatno",
+      "difficultyHeading": "Poteškoće",
+      "difficultyEasy": "Lako",
+      "difficultyMedium": "srednje",
+      "difficultyHard": "teško",
+      "funFactPrefix": "Zabavna činjenica:",
+      "funFactLabel": "Zabavna činjenica!",
+      "noSignUp": "Nije potrebna prijava.Otvara se kao PDF.Ispis na papiru US Letter (8,5 × 11 inča) ili A4.Besplatno za kućnu upotrebu i upotrebu u učionici.",
+      "comingSoon": "Preuzmite besplatni PDF – uskoro",
+      "youMightLike": "Možda bi vam se također svidjelo",
+      "faqQ1": "Za koju dob je {name} slagalica od točke do točke?",
+      "faqA1": "Namijenjen je za dob od {age}.S {dots} točkica, odgovara djeci koja mogu pouzdano brojati do {dots};mlađa ga djeca mogu dovršiti uz malu pomoć.",
+      "faqQ2": "Kako mogu ispisati radni list {name}?",
+      "faqA2": "Pritisnite gumb za preuzimanje da biste dobili besplatni PDF, zatim ga ispišite na običnom papiru (A4 ili US Letter) iz bilo kojeg preglednika ili PDF čitača.Nije potreban poseban softver.",
+      "faqQ3": "Je li ispis {name} stvarno besplatan?",
+      "faqA3": "Da — 100% je besplatno, bez potrebe za registracijom, računom ili plaćanjem.Možete ga ispisati za kućnu ili učionicu.",
+      "colorGuideHeading": "Vodič za bojanje",
+      "dotGuideHeading": "Kako riješiti zagonetku spoji točke {name}?"
+    },
+    "downloadButton": {
+      "label": "Preuzmite besplatni PDF za ispis",
+      "usage": "Besplatno za kućnu upotrebu i upotrebu u učionici.",
+      "paperNote": "Veličine za {size} papir.",
+      "paperLetter": "US pismo",
+      "paperA4": "A4",
+      "alternateLink": "Više volite {size}?Preuzmite tu verziju",
+      "downloadSize": "Preuzmi (veličina ispisa: {size})"
+    },
+    "downloadBadge": {
+      "downloaded": "Preuzeto",
+      "times": "puta",
+      "greatChoice": "Napravili ste odličan izbor!"
+    },
+    "shareButtons": {
+      "label": "Udio",
+      "copyLink": "Kopiraj vezu",
+      "copied": "Veza je kopirana!",
+      "shareMe": "Podijeli me"
+    },
+    "blogPage": {
+      "eyebrow": "Sredstva za učenje",
+      "h1": "Ideje od točke do točke za roditelje i učitelje",
+      "description": "Praktični vodiči za odabir aktivnosti, izgradnju vještina ranog učenja i korištenje radnih listova za ispis kod kuće ili u učionici.",
+      "breadcrumb": "Blog",
+      "latestEyebrow": "Najnoviji članci",
+      "latestH2": "Korisne ideje koje možete iskoristiti danas",
+      "readArticle": "Pročitaj članak",
+      "by": "Po",
+      "backToAll": "← Natrag na sve članke",
+      "savePinterest": "Spremi na Pinterest",
+      "relatedEyebrow": "Besplatni ispisi",
+      "relatedHeading": "Isprobajte sljedeće kolekcije od točke do točke"
+    },
+    "canadaPage": {
+      "category": "Kanada"
+    },
+    "circusPage": {
+      "category": "Cirkus"
+    },
+    "cutePage": {
+      "category": "slatka"
+    },
+    "dinosaursPage": {
+      "category": "Dinosauri"
+    },
+    "flowersPage": {
+      "category": "Cvijeće"
+    },
+    "gardenPage": {
+      "category": "Vrt"
+    },
+    "oceanPage": {
+      "category": "Ocean"
+    },
+    "playgroundsPage": {
+      "category": "Igrališta"
+    },
+    "spacePage": {
+      "category": "Prostor"
+    },
+    "uaePage": {
+      "category": "Ujedinjeni Arapski Emirati"
+    },
+    "usa250Page": {
+      "category": "250. obljetnica SAD-a"
     }
   }
 }

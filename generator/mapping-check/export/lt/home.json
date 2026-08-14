@@ -370,10 +370,38 @@
       "breadcrumbAria": "Kepurėlė"
     },
     "puzzleSearch": {
+      "placeholder": "Ieškoti pagal pavadinimą ar temą... pvz. vandenynas, banginis, T-Rex",
       "searchAria": "Ieškoti galvosūkių",
+      "clearSearch": "Išvalyti paiešką",
+      "toggleFilters": "Rodyti / slėpti filtrus",
+      "filters": "Filtrai",
+      "filterOptions": "Filtrų parinktys",
+      "topic": "Tema",
+      "numberOfDots": "Taškų skaičius",
+      "recentlyAddedOnly": "Tik neseniai pridėti",
+      "clearAllFilters": "Išvalyti visus filtrus",
+      "clearFilters": "Išvalyti filtrus",
       "resultsFound": "{count, plural, one {rastas # galvosūkis} few {rasti # galvosūkiai} other {rasta # galvosūkių}}",
+      "puzzlesAvailable": "{count, plural, one {# galvosūkis pasiekiamas} few {# galvosūkiai pasiekiami} other {# galvosūkių pasiekiama}}",
       "noMatches": "Nėra pagal jūsų paiešką rastų galvosūkių.",
-      "imageAlt": "{name} taškinis spausdinimas"
+      "openPuzzle": "Atidaryti {name}",
+      "imageAlt": "{name} taškinis spausdinimas",
+      "viewPuzzle": "Žiūrėti galvosūkį →",
+      "dotRanges": {
+        "under35": "Mažiau nei 35 taškai",
+        "35to50": "35–50 taškų",
+        "51to70": "51–70 taškų",
+        "over70": "70+ taškų"
+      },
+      "categories": {
+        "Dinosaurs": "Dinozaurai",
+        "Ocean": "Vandenynas",
+        "Playgrounds": "Žaidimų aikštelės",
+        "Garden": "Sodas",
+        "Cute": "Mielas",
+        "USA 250 Years": "JAV 250 metų",
+        "UAE": "JAE"
+      }
     },
     "newsletterForm": {
       "ariaLabel": "Gaukite nemokamą spausdinamą „taškas-taškas“ rinkinį",
@@ -410,16 +438,161 @@
       "recent_puzzle_slugs": "[\"circus-ringmaster-bear-dot-to-dot-puzzle\",\"circus-tent-dot-to-dot-puzzle\",\"space-rover-dot-to-dot-puzzle\",\"ringed-planet-dot-to-dot-puzzle\"]"
     },
     "purchase": {
+      "premium": {
+        "metaTitle": "Best of 2026 „Premium“ taškų jungimo galvosūkių rinkinys",
+        "metaDescription": "Spausdinti paruošta mėgstamiausių vaikiškų taškų jungimo galvosūkių kolekcija, sutalpinta viename patogiame PDF faile.",
+        "eyebrow": "Spausdinama „Premium“ kolekcija",
+        "heading": "Daugiau galvosūkių. Mažiau ieškojimo. Viskas viename patogiame PDF faile.",
+        "lede": "Kolekcijoje „Best of 2026“ sutelktos mūsų mėgstamiausios taškų jungimo veiklos viename lengvai atspausdinamame rinkinyje – puikiai tinka ramioms akimirkoms, lietingoms dienoms, namų mokymui ir pamokoms.",
+        "digitalPdf": "Skaitmeninis PDF",
+        "printAtHome": "Spausdinkite namuose",
+        "instantAccess": "Prieiga akimirksniu",
+        "purchaseAria": "Pirkti „Best of 2026“ galvosūkių rinkinį",
+        "coverAlt": "Best of 2026 - 25 taškų jungimo galvosūkiai, knygos viršelis",
+        "oneTime": "vienkartinis mokėjimas",
+        "buyButton": "Įsigyti galvosūkių rinkinį",
+        "localNote": "„Localhost“ aplinkoje atsidaro saugi apmokėjimo demo versija ir jokia kortelė niekada nenuskaitoma.",
+        "detailsEyebrow": "Sukurta lengvam spausdinimui ir žaidimui",
+        "detailsHeading": "Viskas, ko reikia smagiam laikui be ekranų",
+        "detailsText": "Atsisiųskite vieną kartą, laikykite po ranka ir spausdinkite norimas veiklas, kada tik jų reikia.",
+        "benefits": {
+          "onePdf": "Vienas patogus, spausdinti paruoštas PDF failas",
+          "kidFriendly": "Vaikams pritaikyti galvosūkiai su įvairiu sudėtingumo lygiu",
+          "paperSizes": "Tinka US Letter ir A4 formato popieriui",
+          "instantAccess": "Prieiga akimirksniu po sėkmingo apmokėjimo",
+          "classroomUse": "Galima naudoti namuose arba vienoje klasėje"
+        },
+        "guaranteeHeading": "Paprasta, saugu ir paruošta per kelias minutes",
+        "guaranteeText": "Apmokėjus, iš karto pasirodo jūsų asmeninė atsisiuntimo nuoroda. Jokios prenumeratos ir jokio netikėto pratęsimo."
+      },
+      "checkout": {
+        "consent": "Sutinku, kad šis skaitmeninis PDF failas būtų pateiktas nedelsiant, ir suprantu, kad, prasidėjus prieigai, pirkimas yra galutinis ir negrąžinamas, išskyrus atvejus, kai to reikalauja įstatymai arba jei failas nepateikiamas ar yra su defektu.",
+        "refundPolicy": "Skaityti grąžinimo politiką",
+        "opening": "Atidaromas apmokėjimas...",
+        "secureNote": "Saugus atsiskaitymas per „Stripe“. Vienkartinis mokėjimas. Jokios prenumeratos.",
+        "error": "Pradedant apmokėjimą įvyko klaida. Bandykite dar kartą."
+      },
+      "success": {
+        "metaTitle": "Dėkojame už pirkinį",
+        "eyebrow": "Mokėjimas patvirtintas",
+        "heading": "Ačiū! Jūsų pirkimas baigtas.",
+        "lede": "Jūsų mokėjimas sėkmingai atliktas. Gali praeiti kelios sekundės, kol pirkinys atsiras jūsų paskyroje."
+      },
+      "cancelled": {
+        "metaTitle": "Apmokėjimas atšauktas",
+        "eyebrow": "Mokėjimas nebuvo nuskaitytas",
+        "heading": "Apmokėjimas atšauktas",
+        "lede": "Jokia suma nebuvo nuskaityta. Galite bandyti dar kartą bet kuriuo metu."
+      },
+      "download": {
+        "demoTitle": "Vietinis apmokėjimo testas sėkmingas.",
+        "demoText": "Tikrame sėkmingo pirkimo ekrane čia rodomas PDF atsisiuntimo mygtukas. Vietinė demo versija neatskleidžia privataus failo.",
+        "button": "Atsisiųsti galvosūkių rinkinį",
+        "expires": "Ši nuoroda nustos galioti po 24 valandų. Išsaugokite atsisiųstą failą saugioje vietoje.",
+        "failed": "Kol kas negalėjome patvirtinti jūsų pirkimo. Jei pinigai buvo nuskaityti, atnaujinkite šį puslapį po minutės arba susisiekite su mumis pagalbos.",
+        "preparing": "Ruošiamas jūsų atsisiuntimas..."
+      },
       "ad": {
-        "packName": "Ta?k? sujungimo galvos?ki? rinkinys",
+        "packName": "Galvosūkių paketas „Taškas į tašką“.",
         "pdfBook": "PDF KNYGA",
         "bookTitle": "Geriausia 2026 m.",
-        "puzzleCount": "25 ta?k? sujungimo galvos?kiai",
-        "viewBook": "?i?r?ti knyg?"
+        "puzzleCount": "25 galvosūkiai iš taško į tašką",
+        "viewBook": "Žiūrėti knygą"
       },
       "shared": {
-        "specialSale": "SPECIALUS PASI?LYMAS"
+        "specialSale": "Specialus išpardavimas",
+        "returnToPack": "Grįžti į galvosūkių rinkinį",
+        "contactUs": "Susisiekite su mumis"
       }
+    },
+    "puzzleDetail": {
+      "agesLabel": "Amžius:",
+      "dotsLabel": "Taškai:",
+      "freeLabel": "100% nemokama",
+      "difficultyHeading": "Sunkumai",
+      "difficultyEasy": "Lengva",
+      "difficultyMedium": "Vidutinis",
+      "difficultyHard": "Sunku",
+      "funFactPrefix": "Įdomus faktas:",
+      "funFactLabel": "Įdomus faktas!",
+      "noSignUp": "Nereikia registruotis.Atsidaro kaip PDF.Spausdinkite ant US Letter (8,5 × 11 colių) arba A4 formato popieriaus.Nemokamai naudoti namuose ir klasėje.",
+      "comingSoon": "Atsisiųskite nemokamą PDF – netrukus",
+      "youMightLike": "Jums taip pat gali patikti",
+      "faqQ1": "Kokiam amžiui skirta galvosūkis nuo taško iki taško?",
+      "faqA1": "Jis skirtas {age} amžiaus žmonėms.Su {dots} taškais tinka vaikams, kurie gali užtikrintai suskaičiuoti iki {dots};jaunesni vaikai gali tai užbaigti su nedidele pagalba.",
+      "faqQ2": "Kaip atspausdinti {name} darbalapį?",
+      "faqA2": "Spustelėkite atsisiuntimo mygtuką, kad gautumėte nemokamą PDF, tada atspausdinkite jį ant įprasto popieriaus (A4 arba US Letter) iš bet kurios naršyklės arba PDF skaitytuvo.Nereikia jokios specialios programinės įrangos.",
+      "faqQ3": "Ar tikrai galima spausdinti {name} nemokamai?",
+      "faqA3": "Taip – ​​ji yra 100% nemokama, nereikia prisiregistruoti, turėti sąskaitos ar mokėti.Galite atspausdinti jį naudoti namuose ar klasėje.",
+      "colorGuideHeading": "Spalvinimo gidas",
+      "dotGuideHeading": "Kaip išspręsti \"sujunk taškus\" galvosūkį {name}?"
+    },
+    "downloadButton": {
+      "label": "Atsisiųskite nemokamą spausdinimą PDF",
+      "usage": "Nemokamai naudoti namuose ir klasėje.",
+      "paperNote": "Dydis tinka {size} popieriui.",
+      "paperLetter": "JAV laiškas",
+      "paperA4": "A4",
+      "alternateLink": "Norite {size}?Atsisiųskite tą versiją",
+      "downloadSize": "Atsisiųsti (spausdinimo dydis: {size})"
+    },
+    "downloadBadge": {
+      "downloaded": "Atsisiųsta",
+      "times": "kartų",
+      "greatChoice": "Jūs padarėte puikų pasirinkimą!"
+    },
+    "shareButtons": {
+      "label": "Dalintis",
+      "copyLink": "Nukopijuoti nuorodą",
+      "copied": "Nuoroda nukopijuota!",
+      "shareMe": "Pasidalink manim"
+    },
+    "blogPage": {
+      "eyebrow": "Mokymosi ištekliai",
+      "h1": "Taškas į tašką idėjos tėvams ir mokytojams",
+      "description": "Praktiniai vadovai, kaip pasirinkti veiklą, ugdyti ankstyvojo mokymosi įgūdžius ir naudoti spausdinamus darbalapius namuose ar klasėje.",
+      "breadcrumb": "Dienoraštis",
+      "latestEyebrow": "Naujausi straipsniai",
+      "latestH2": "Naudingos idėjos, kurias galite panaudoti šiandien",
+      "readArticle": "Skaityti straipsnį",
+      "by": "Autorius",
+      "backToAll": "← Atgal į visus straipsnius",
+      "savePinterest": "Išsaugoti Pinterest",
+      "relatedEyebrow": "Nemokamai spausdinti",
+      "relatedHeading": "Toliau išbandykite šias kolekcijas nuo taško iki taško"
+    },
+    "canadaPage": {
+      "category": "Kanada"
+    },
+    "circusPage": {
+      "category": "Cirkas"
+    },
+    "cutePage": {
+      "category": "Mielas"
+    },
+    "dinosaursPage": {
+      "category": "Dinozaurai"
+    },
+    "flowersPage": {
+      "category": "Gėlės"
+    },
+    "gardenPage": {
+      "category": "Sodas"
+    },
+    "oceanPage": {
+      "category": "Vandenynas"
+    },
+    "playgroundsPage": {
+      "category": "Žaidimų aikštelės"
+    },
+    "spacePage": {
+      "category": "Erdvė"
+    },
+    "uaePage": {
+      "category": "Jungtiniai Arabų Emyratai"
+    },
+    "usa250Page": {
+      "category": "JAV 250 metų jubiliejus"
     }
   }
 }

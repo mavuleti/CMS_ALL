@@ -370,10 +370,38 @@
       "breadcrumbAria": "Hlavní stránka"
     },
     "puzzleSearch": {
+      "placeholder": "Hledat podle jména nebo tématu... např. oceán, velryba, T-Rex",
       "searchAria": "Hledat hádanky",
+      "clearSearch": "Vymazat hledání",
+      "toggleFilters": "Přepnout filtry",
+      "filters": "Filtry",
+      "filterOptions": "Možnosti filtrů",
+      "topic": "Téma",
+      "numberOfDots": "Počet teček",
+      "recentlyAddedOnly": "Pouze nedávno přidané",
+      "clearAllFilters": "Vymazat všechny filtry",
+      "clearFilters": "Vymazat filtry",
       "resultsFound": "{count, plural, one {nalezen # hlavolam} few {nalezeny # hlavolamy} other {nalezeno # hlavolamů}}",
+      "puzzlesAvailable": "{count, plural, one {# hádanka k dispozici} few {# hádanky k dispozici} other {# hádanek k dispozici}}",
       "noMatches": "Žádné hádanky neodpovídají vašemu vyhledávání.",
-      "imageAlt": "{name} tečka po tečce k tisku"
+      "openPuzzle": "Otevřít {name}",
+      "imageAlt": "{name} tečka po tečce k tisku",
+      "viewPuzzle": "Zobrazit hádanku →",
+      "dotRanges": {
+        "under35": "Méně než 35 teček",
+        "35to50": "35–50 teček",
+        "51to70": "51–70 teček",
+        "over70": "70+ teček"
+      },
+      "categories": {
+        "Dinosaurs": "Dinosauři",
+        "Ocean": "Oceán",
+        "Playgrounds": "Hřiště",
+        "Garden": "Zahrada",
+        "Cute": "Roztomilé",
+        "USA 250 Years": "USA 250 let",
+        "UAE": "SAE"
+      }
     },
     "newsletterForm": {
       "ariaLabel": "Získejte bezplatný tisknutelný balíček tečka-po-tečce",
@@ -410,16 +438,161 @@
       "recent_puzzle_slugs": "[\"circus-ringmaster-bear-dot-to-dot-puzzle\",\"circus-tent-dot-to-dot-puzzle\",\"space-rover-dot-to-dot-puzzle\",\"ringed-planet-dot-to-dot-puzzle\"]"
     },
     "purchase": {
+      "premium": {
+        "metaTitle": "Nejlepší prémiový balíček spojovaček z roku 2026",
+        "metaDescription": "K tisku připravená kolekce oblíbených spojovaček pro děti v jednom praktickém PDF.",
+        "eyebrow": "Prémiová tisková kolekce",
+        "heading": "Více hádanek. Méně hledání. Vše v jednom praktickém PDF.",
+        "lede": "Kolekce Nejlepší z roku 2026 přináší naše oblíbené spojovačky v jednom snadno tisknutelném balíčku na klidné chvíle, deštivé dny, domácí výuku i školní třídy.",
+        "digitalPdf": "Digitální PDF",
+        "printAtHome": "Tisk doma",
+        "instantAccess": "Okamžitý přístup",
+        "purchaseAria": "Zakoupit balíček hádanek Nejlepší z roku 2026",
+        "coverAlt": "Nejlepší z roku 2026 - obálka knihy s 25 spojovačkami",
+        "oneTime": "jednorázově",
+        "buyButton": "Získat balíček hádanek",
+        "localNote": "Na localhostu se otevře bezpečné demo pokladny a karta nikdy nebude zatížena.",
+        "detailsEyebrow": "Navrženo pro snadný tisk a hraní",
+        "detailsHeading": "Vše, co potřebujete pro zábavu bez obrazovky",
+        "detailsText": "Stáhněte jednou, mějte po ruce a vytiskněte si aktivity, kdykoli je potřebujete.",
+        "benefits": {
+          "onePdf": "Jedno praktické, k tisku připravené PDF",
+          "kidFriendly": "Hádanky pro děti s různou obtížností",
+          "paperSizes": "Funguje na papíru US Letter i A4",
+          "instantAccess": "Okamžitý přístup po úspěšné platbě",
+          "classroomUse": "Použití doma nebo v jedné třídě"
+        },
+        "guaranteeHeading": "Jednoduché, bezpečné a připravené během minut",
+        "guaranteeText": "Po dokončení objednávky se okamžitě zobrazí váš soukromý odkaz ke stažení. Žádné předplatné ani nečekané obnovení."
+      },
+      "checkout": {
+        "consent": "Souhlasím s okamžitým doručením tohoto digitálního PDF a rozumím, že jakmile přístup začne, prodej je konečný a nevratný, s výjimkou případů vyžadovaných zákonem nebo pokud soubor nebyl doručen či je vadný.",
+        "refundPolicy": "Přečíst zásady vracení peněz",
+        "opening": "Otevírání pokladny...",
+        "secureNote": "Bezpečná platba zajištěná společností Stripe. Jednorázová platba. Bez předplatného.",
+        "error": "Při zahájení platby došlo k chybě. Zkuste to prosím znovu."
+      },
+      "success": {
+        "metaTitle": "Děkujeme za váš nákup",
+        "eyebrow": "Platba potvrzena",
+        "heading": "Děkujeme! Váš nákup je dokončen.",
+        "lede": "Vaše platba byla úspěšná. Zobrazení nákupu ve vašem účtu může trvat několik sekund."
+      },
+      "cancelled": {
+        "metaTitle": "Platba zrušena",
+        "eyebrow": "Žádná platba nebyla provedena",
+        "heading": "Platba zrušena",
+        "lede": "Nebyl účtován žádný poplatek. Můžete to kdykoli zkusit znovu."
+      },
+      "download": {
+        "demoTitle": "Místní test pokladny byl úspěšný.",
+        "demoText": "Skutečná placená obrazovka úspěchu zde zobrazuje tlačítko pro stažení PDF. Místní demo neuvolní soukromý soubor.",
+        "button": "Stáhnout váš balíček hádanek",
+        "expires": "Platnost tohoto odkazu vyprší za 24 hodin. Uložte si stažený soubor na bezpečné místo.",
+        "failed": "Váš nákup jsme zatím nemohli potvrdit. Pokud vám byla částka strhnuta, obnovte prosím tuto stránku za minutu nebo nás kontaktujte pro pomoc.",
+        "preparing": "Připravujeme vaše stažení..."
+      },
       "ad": {
-        "packName": "Bal??ek spojova?ek",
+        "packName": "Balíček spojovaček",
         "pdfBook": "KNIHA PDF",
-        "bookTitle": "To nejlep?? z roku 2026",
-        "puzzleCount": "25 spojova?ek",
+        "bookTitle": "Nejlepší z roku 2026",
+        "puzzleCount": "25 hádanek typu tečka k tečce",
         "viewBook": "Zobrazit knihu"
       },
       "shared": {
-        "specialSale": "SPECI?LN? NAB?DKA"
+        "specialSale": "Speciální prodej",
+        "returnToPack": "Zpět na balíček hádanek",
+        "contactUs": "Kontaktujte nás"
       }
+    },
+    "puzzleDetail": {
+      "agesLabel": "Věk:",
+      "dotsLabel": "Tečky:",
+      "freeLabel": "100% zdarma",
+      "difficultyHeading": "Obtížnost",
+      "difficultyEasy": "Snadný",
+      "difficultyMedium": "Střední",
+      "difficultyHard": "Tvrdý",
+      "funFactPrefix": "Zajímavý fakt:",
+      "funFactLabel": "Zábavný fakt!",
+      "noSignUp": "Není potřeba žádná registrace.Otevře se jako PDF.Tiskněte na papír US Letter (8,5 × 11 palců) nebo A4.Zdarma pro použití doma a ve třídě.",
+      "comingSoon": "Stáhněte si zdarma PDF – již brzy",
+      "youMightLike": "Také by se vám mohlo líbit",
+      "faqQ1": "Pro jaký věk je {name} puzzle tečka k tečce?",
+      "faqA1": "Je určen pro věkové skupiny {age}.S {dots} tečkami to vyhovuje dětem, které umí s jistotou počítat do {dots};mladší děti jej s malou pomocí doplní.",
+      "faqQ2": "Jak vytisknu pracovní list {name}?",
+      "faqA2": "Kliknutím na tlačítko stažení získáte bezplatný soubor PDF a poté jej vytiskněte na běžný papír (A4 nebo US Letter) z libovolného prohlížeče nebo čtečky PDF.Není potřeba žádný speciální software.",
+      "faqQ3": "Je {name} k vytisknutí opravdu zdarma?",
+      "faqA3": "Ano – je 100% zdarma, bez nutnosti registrace, účtu nebo platby.Můžete si jej vytisknout pro použití doma nebo ve třídě.",
+      "colorGuideHeading": "Návod na vybarvování",
+      "dotGuideHeading": "Jak vyřešit puzzle {name} spoj tečky?"
+    },
+    "downloadButton": {
+      "label": "Stáhněte si zdarma tisknutelný PDF",
+      "usage": "Zdarma pro použití doma a ve třídě.",
+      "paperNote": "Velikost pro papír {size}.",
+      "paperLetter": "US Letter",
+      "paperA4": "A4",
+      "alternateLink": "Preferujete {size}?Stáhněte si tuto verzi",
+      "downloadSize": "Stáhnout (velikost tisku: {size})"
+    },
+    "downloadBadge": {
+      "downloaded": "Staženo",
+      "times": "časy",
+      "greatChoice": "Udělali jste skvělou volbu!"
+    },
+    "shareButtons": {
+      "label": "Podíl",
+      "copyLink": "Zkopírujte odkaz",
+      "copied": "Odkaz zkopírován!",
+      "shareMe": "Sdílejte mě"
+    },
+    "blogPage": {
+      "eyebrow": "Učební zdroje",
+      "h1": "Tečka za tečkou nápady pro rodiče a učitele",
+      "description": "Praktické příručky pro výběr aktivit, budování dovedností v raném věku a používání pracovních listů, které lze tisknout doma nebo ve třídě.",
+      "breadcrumb": "Blog",
+      "latestEyebrow": "Nejnovější články",
+      "latestH2": "Užitečné nápady, které můžete použít ještě dnes",
+      "readArticle": "Přečtěte si článek",
+      "by": "Podle",
+      "backToAll": "← Zpět na všechny články",
+      "savePinterest": "Uložit na Pinterest",
+      "relatedEyebrow": "Volný tisk",
+      "relatedHeading": "Vyzkoušejte tyto kolekce tečka po tečce jako další"
+    },
+    "canadaPage": {
+      "category": "Kanada"
+    },
+    "circusPage": {
+      "category": "Cirkus"
+    },
+    "cutePage": {
+      "category": "Roztomilý"
+    },
+    "dinosaursPage": {
+      "category": "Dinosauři"
+    },
+    "flowersPage": {
+      "category": "Květiny"
+    },
+    "gardenPage": {
+      "category": "Zahrada"
+    },
+    "oceanPage": {
+      "category": "Oceán"
+    },
+    "playgroundsPage": {
+      "category": "Dětská hřiště"
+    },
+    "spacePage": {
+      "category": "Plocha"
+    },
+    "uaePage": {
+      "category": "Spojené arabské emiráty"
+    },
+    "usa250Page": {
+      "category": "250. výročí USA"
     }
   }
 }

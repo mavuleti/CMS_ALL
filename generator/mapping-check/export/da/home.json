@@ -370,10 +370,38 @@
       "breadcrumbAria": "Brødkrumme"
     },
     "puzzleSearch": {
+      "placeholder": "Søg efter navn eller emne... f.eks. hav, hval, T-Rex",
       "searchAria": "Søg puslespil",
+      "clearSearch": "Ryd søgning",
+      "toggleFilters": "Vis/skjul filtre",
+      "filters": "Filtre",
+      "filterOptions": "Filtermuligheder",
+      "topic": "Emne",
+      "numberOfDots": "Antal prikker",
+      "recentlyAddedOnly": "Kun nyligt tilføjede",
+      "clearAllFilters": "Ryd alle filtre",
+      "clearFilters": "Ryd filtre",
       "resultsFound": "{count, plural, one {# puslespil fundet} other {# puslespil fundet}}",
+      "puzzlesAvailable": "{count, plural, one {# puslespil tilgængeligt} other {# puslespil tilgængelige}}",
       "noMatches": "Ingen puslespil matchede din søgning.",
-      "imageAlt": "{name} prik-til-prik printbar"
+      "openPuzzle": "Åbn {name}",
+      "imageAlt": "{name} prik-til-prik printbar",
+      "viewPuzzle": "Se puslespil →",
+      "dotRanges": {
+        "under35": "Under 35 prikker",
+        "35to50": "35-50 prikker",
+        "51to70": "51-70 prikker",
+        "over70": "70+ prikker"
+      },
+      "categories": {
+        "Dinosaurs": "Dinosaurer",
+        "Ocean": "Hav",
+        "Playgrounds": "Legepladser",
+        "Garden": "Have",
+        "Cute": "Sødt",
+        "USA 250 Years": "USA 250 år",
+        "UAE": "UAE"
+      }
     },
     "newsletterForm": {
       "ariaLabel": "Få den gratis printbare dot-to-prik-pakke",
@@ -410,6 +438,60 @@
       "recent_puzzle_slugs": "[\"circus-ringmaster-bear-dot-to-dot-puzzle\",\"circus-tent-dot-to-dot-puzzle\",\"space-rover-dot-to-dot-puzzle\",\"ringed-planet-dot-to-dot-puzzle\"]"
     },
     "purchase": {
+      "premium": {
+        "metaTitle": "Bedste af 2026 Premium Prik-til-prik-puslespilspakke",
+        "metaDescription": "En printklar samling af populære prik-til-prik-puslespil til børn, samlet i én bekvem PDF.",
+        "eyebrow": "Premium printsamling",
+        "heading": "Flere puslespil. Mindre søgning. Alt i én bekvem PDF.",
+        "lede": "Samlingen Bedste af 2026 samler vores foretrukne prik-til-prik-aktiviteter i én nem-at-printe pakke til stille stunder, regnvejrsdage, hjemmeundervisning og klasseværelser.",
+        "digitalPdf": "Digital PDF",
+        "printAtHome": "Print hjemme",
+        "instantAccess": "Øjeblikkelig adgang",
+        "purchaseAria": "Køb Bedste af 2026-puslespilspakken",
+        "coverAlt": "Bedste af 2026 - 25 prik-til-prik-puslespil bogomslag",
+        "oneTime": "engangsbeløb",
+        "buyButton": "Få puslespilspakken",
+        "localNote": "På localhost åbner dette en sikker demokassekomponent og opkræver aldrig et kort.",
+        "detailsEyebrow": "Lavet til nem print-og-leg",
+        "detailsHeading": "Alt hvad du behøver til skærmfri sjov",
+        "detailsText": "Download én gang, hold den ved hånden, og print de aktiviteter du vil, når du har brug for dem.",
+        "benefits": {
+          "onePdf": "Én bekvem, printklar PDF",
+          "kidFriendly": "Børnevenlige puslespil med varierende sværhedsgrad",
+          "paperSizes": "Fungerer med US Letter og A4 papir",
+          "instantAccess": "Øjeblikkelig adgang efter gennemført betaling",
+          "classroomUse": "Brug hjemme eller i ét klasseværelse"
+        },
+        "guaranteeHeading": "Enkel, sikker og klar på få minutter",
+        "guaranteeText": "Efter checkout vises dit private downloadlink med det samme. Intet abonnement og ingen overraskende fornyelse."
+      },
+      "checkout": {
+        "consent": "Jeg accepterer øjeblikkelig levering af denne digitale PDF og forstår, at når adgangen er begyndt, er salget endeligt og ikke refunderbart, medmindre loven kræver det, eller filen ikke er leveret eller er defekt.",
+        "refundPolicy": "Læs refusionspolitikken",
+        "opening": "Åbner betaling...",
+        "secureNote": "Sikker betaling drevet af Stripe. Engangsbetaling. Intet abonnement.",
+        "error": "Noget gik galt under start af betaling. Prøv igen."
+      },
+      "success": {
+        "metaTitle": "Tak for dit køb",
+        "eyebrow": "Betaling bekræftet",
+        "heading": "Tak! Dit køb er gennemført.",
+        "lede": "Din betaling var vellykket. Det kan tage et par sekunder, før dit køb vises på din konto."
+      },
+      "cancelled": {
+        "metaTitle": "Betaling annulleret",
+        "eyebrow": "Ingen betaling foretaget",
+        "heading": "Betaling annulleret",
+        "lede": "Der blev ikke opkrævet noget. Du kan prøve igen når som helst."
+      },
+      "download": {
+        "demoTitle": "Lokal betalingstest bestået.",
+        "demoText": "Den rigtige betalte successkærm viser PDF-downloadknappen her. Den lokale demo frigiver ikke den private fil.",
+        "button": "Download din puslespilspakke",
+        "expires": "Dette link udløber om 24 timer. Gem dit download et sikkert sted.",
+        "failed": "Vi kunne endnu ikke bekræfte dit køb. Hvis du blev opkrævet, så genindlæs venligst siden om et minut eller kontakt os for hjælp.",
+        "preparing": "Forbereder dit download..."
+      },
       "ad": {
         "packName": "Pakke med prik-til-prik-opgaver",
         "pdfBook": "PDF-BOG",
@@ -418,8 +500,99 @@
         "viewBook": "Se bog"
       },
       "shared": {
-        "specialSale": "S?RTILBUD"
+        "specialSale": "Særligt udsalg",
+        "returnToPack": "Tilbage til puslespilspakken",
+        "contactUs": "Kontakt os"
       }
+    },
+    "puzzleDetail": {
+      "agesLabel": "Alder:",
+      "dotsLabel": "Prikker:",
+      "freeLabel": "100 % gratis",
+      "difficultyHeading": "Vanskelighed",
+      "difficultyEasy": "Let",
+      "difficultyMedium": "Medium",
+      "difficultyHard": "Hård",
+      "funFactPrefix": "Sjov fakta:",
+      "funFactLabel": "Sjov fakta!",
+      "noSignUp": "Ingen tilmelding nødvendig.Åbner som PDF.Udskriv på US Letter (8,5 × 11 tommer) eller A4-papir.Gratis til brug i hjemmet og i klasseværelset.",
+      "comingSoon": "Download gratis PDF - Kommer snart",
+      "youMightLike": "Du kan også lide",
+      "faqQ1": "Hvilken alder er {name}-puslespillet til prik for?",
+      "faqA1": "Det er designet til aldre {age}.Med {dots} prikker passer det børn, der trygt kan tælle til {dots};yngre børn kan fuldføre det med lidt hjælp.",
+      "faqQ2": "Hvordan udskriver jeg {name}-regnearket?",
+      "faqA2": "Klik på download-knappen for at få den gratis PDF, og udskriv den derefter på almindeligt papir (A4 eller US Letter) fra en hvilken som helst browser eller PDF-læser.Der kræves ingen speciel software.",
+      "faqQ3": "Er {name}, der kan udskrives, virkelig gratis?",
+      "faqA3": "Ja – det er 100 % gratis uden tilmelding, konto eller betaling.Du kan printe den til hjemme- eller klasseværelsesbrug.",
+      "colorGuideHeading": "Farvelægningsguide",
+      "dotGuideHeading": "Hvordan løser man {name} prik-til-prik-puslespillet?"
+    },
+    "downloadButton": {
+      "label": "Download gratis printbar PDF",
+      "usage": "Gratis til brug i hjemmet og i klasseværelset.",
+      "paperNote": "Størrelse til {size} papir.",
+      "paperLetter": "US Brev",
+      "paperA4": "A4",
+      "alternateLink": "Foretrækker du {size}?Download den version",
+      "downloadSize": "Download (Udskriftsstørrelse: {size})"
+    },
+    "downloadBadge": {
+      "downloaded": "Downloadet",
+      "times": "gange",
+      "greatChoice": "Du har truffet et godt valg!"
+    },
+    "shareButtons": {
+      "label": "Dele",
+      "copyLink": "Kopiér link",
+      "copied": "Linket er kopieret!",
+      "shareMe": "Del mig"
+    },
+    "blogPage": {
+      "eyebrow": "Læringsressourcer",
+      "h1": "Prik til prik-ideer til forældre og lærere",
+      "description": "Praktiske vejledninger til valg af aktiviteter, opbygning af tidlige læringsevner og brug af udskrivbare arbejdsark derhjemme eller i klasseværelset.",
+      "breadcrumb": "Blog",
+      "latestEyebrow": "Seneste artikler",
+      "latestH2": "Nyttige ideer, du kan bruge i dag",
+      "readArticle": "Læs artiklen",
+      "by": "Ved",
+      "backToAll": "← Tilbage til alle artikler",
+      "savePinterest": "Gem på Pinterest",
+      "relatedEyebrow": "Gratis printables",
+      "relatedHeading": "Prøv disse prik til prik samlinger næste gang"
+    },
+    "canadaPage": {
+      "category": "Canada"
+    },
+    "circusPage": {
+      "category": "Cirkus"
+    },
+    "cutePage": {
+      "category": "Sød"
+    },
+    "dinosaursPage": {
+      "category": "Dinosaurer"
+    },
+    "flowersPage": {
+      "category": "Blomster"
+    },
+    "gardenPage": {
+      "category": "Have"
+    },
+    "oceanPage": {
+      "category": "Ocean"
+    },
+    "playgroundsPage": {
+      "category": "Legepladser"
+    },
+    "spacePage": {
+      "category": "Plads"
+    },
+    "uaePage": {
+      "category": "Forenede Arabiske Emirater"
+    },
+    "usa250Page": {
+      "category": "USA 250 års jubilæum"
     }
   }
 }

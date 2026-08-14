@@ -370,10 +370,38 @@
       "breadcrumbAria": "Roti lapis"
     },
     "puzzleSearch": {
+      "placeholder": "Cari berdasarkan nama atau topik... mis. laut, paus, T-Rex",
       "searchAria": "Teka-teki pencarian",
+      "clearSearch": "Hapus pencarian",
+      "toggleFilters": "Tampilkan/sembunyikan filter",
+      "filters": "Filter",
+      "filterOptions": "Opsi filter",
+      "topic": "Topik",
+      "numberOfDots": "Jumlah titik",
+      "recentlyAddedOnly": "Hanya yang baru ditambahkan",
+      "clearAllFilters": "Hapus semua filter",
+      "clearFilters": "Hapus filter",
       "resultsFound": "{count, plural, one {# teka-teki ditemukan} other {# teka-teki ditemukan}}",
+      "puzzlesAvailable": "{count, plural, other {# puzzle tersedia}}",
       "noMatches": "Tidak ada teka-teki yang sesuai dengan pencarian Anda.",
-      "imageAlt": "{name} gambar titik-ke-titik yang dapat dicetak"
+      "openPuzzle": "Buka {name}",
+      "imageAlt": "{name} gambar titik-ke-titik yang dapat dicetak",
+      "viewPuzzle": "Lihat puzzle →",
+      "dotRanges": {
+        "under35": "Kurang dari 35 titik",
+        "35to50": "35-50 titik",
+        "51to70": "51-70 titik",
+        "over70": "70+ titik"
+      },
+      "categories": {
+        "Dinosaurs": "Dinosaurus",
+        "Ocean": "Laut",
+        "Playgrounds": "Taman bermain",
+        "Garden": "Taman",
+        "Cute": "Lucu",
+        "USA 250 Years": "AS 250 Tahun",
+        "UAE": "UEA"
+      }
     },
     "newsletterForm": {
       "ariaLabel": "Dapatkan paket gambar menghubungkan titik-titik yang dapat dicetak secara gratis.",
@@ -410,6 +438,60 @@
       "recent_puzzle_slugs": "[\"circus-ringmaster-bear-dot-to-dot-puzzle\",\"circus-tent-dot-to-dot-puzzle\",\"space-rover-dot-to-dot-puzzle\",\"ringed-planet-dot-to-dot-puzzle\"]"
     },
     "purchase": {
+      "premium": {
+        "metaTitle": "Paket Premium Best of 2026 Teka-teki Hubungkan Titik",
+        "metaDescription": "Koleksi siap cetak berisi teka-teki hubungkan titik favorit anak-anak, digabung dalam satu PDF yang praktis.",
+        "eyebrow": "Koleksi premium siap cetak",
+        "heading": "Lebih banyak teka-teki. Lebih sedikit mencari. Semua dalam satu PDF praktis.",
+        "lede": "Koleksi Best of 2026 menghadirkan aktivitas hubungkan titik favorit kami dalam satu paket yang mudah dicetak, cocok untuk waktu santai, hari hujan, homeschooling, dan kelas.",
+        "digitalPdf": "PDF digital",
+        "printAtHome": "Cetak di rumah",
+        "instantAccess": "Akses instan",
+        "purchaseAria": "Beli paket teka-teki Best of 2026",
+        "coverAlt": "Best of 2026 - Sampul buku 25 Teka-teki Hubungkan Titik",
+        "oneTime": "sekali bayar",
+        "buyButton": "Dapatkan paket teka-teki",
+        "localNote": "Di localhost, ini membuka demo checkout yang aman dan tidak pernah membebankan biaya ke kartu apa pun.",
+        "detailsEyebrow": "Dirancang untuk cetak dan main yang mudah",
+        "detailsHeading": "Semua yang Anda butuhkan untuk keseruan tanpa layar",
+        "detailsText": "Unduh sekali, simpan agar mudah diakses, dan cetak aktivitas yang Anda inginkan kapan saja dibutuhkan.",
+        "benefits": {
+          "onePdf": "Satu PDF praktis yang siap cetak",
+          "kidFriendly": "Teka-teki ramah anak dengan berbagai tingkat kesulitan",
+          "paperSizes": "Cocok untuk kertas US Letter dan A4",
+          "instantAccess": "Akses instan setelah pembayaran berhasil",
+          "classroomUse": "Dapat digunakan di rumah atau di satu kelas"
+        },
+        "guaranteeHeading": "Sederhana, aman, dan siap dalam hitungan menit",
+        "guaranteeText": "Setelah checkout, tautan unduhan pribadi Anda langsung muncul. Tanpa langganan dan tanpa perpanjangan tak terduga."
+      },
+      "checkout": {
+        "consent": "Saya setuju dengan pengiriman langsung PDF digital ini dan memahami bahwa, setelah akses dimulai, pembelian ini bersifat final dan tidak dapat dikembalikan kecuali diwajibkan oleh hukum atau jika berkas tidak terkirim atau cacat.",
+        "refundPolicy": "Baca kebijakan pengembalian dana",
+        "opening": "Membuka proses checkout...",
+        "secureNote": "Checkout aman didukung oleh Stripe. Pembayaran sekali. Tanpa langganan.",
+        "error": "Terjadi kesalahan saat memulai checkout. Silakan coba lagi."
+      },
+      "success": {
+        "metaTitle": "Terima Kasih atas Pembelian Anda",
+        "eyebrow": "Pembayaran dikonfirmasi",
+        "heading": "Terima kasih! Pembelian Anda telah selesai.",
+        "lede": "Pembayaran Anda berhasil. Mungkin butuh beberapa detik hingga pembelian Anda muncul di akun Anda."
+      },
+      "cancelled": {
+        "metaTitle": "Checkout Dibatalkan",
+        "eyebrow": "Tidak ada pembayaran yang dilakukan",
+        "heading": "Checkout dibatalkan",
+        "lede": "Tidak ada biaya yang dikenakan. Anda dapat mencoba lagi kapan saja."
+      },
+      "download": {
+        "demoTitle": "Uji coba checkout lokal berhasil.",
+        "demoText": "Layar keberhasilan pembayaran yang sebenarnya menampilkan tombol unduh PDF di sini. Demo lokal tidak merilis berkas pribadi.",
+        "button": "Unduh paket teka-teki Anda",
+        "expires": "Tautan ini akan kedaluwarsa dalam 24 jam. Simpan hasil unduhan Anda di tempat yang aman.",
+        "failed": "Kami belum dapat mengonfirmasi pembelian Anda. Jika Anda telah dikenakan biaya, muat ulang halaman ini beberapa saat lagi atau hubungi kami untuk bantuan.",
+        "preparing": "Menyiapkan unduhan Anda..."
+      },
       "ad": {
         "packName": "Paket teka-teki hubungkan titik",
         "pdfBook": "BUKU PDF",
@@ -418,8 +500,99 @@
         "viewBook": "Lihat buku"
       },
       "shared": {
-        "specialSale": "PENAWARAN KHUSUS"
+        "specialSale": "PENAWARAN KHUSUS",
+        "returnToPack": "Kembali ke paket teka-teki",
+        "contactUs": "Hubungi kami"
       }
+    },
+    "puzzleDetail": {
+      "agesLabel": "Usia:",
+      "dotsLabel": "Titik:",
+      "freeLabel": "100% Gratis",
+      "difficultyHeading": "Kesulitan",
+      "difficultyEasy": "Mudah",
+      "difficultyMedium": "Sedang",
+      "difficultyHard": "Keras",
+      "funFactPrefix": "Fakta menarik:",
+      "funFactLabel": "Fakta menyenangkan!",
+      "noSignUp": "Tidak perlu mendaftar.Terbuka sebagai PDF.Cetak pada kertas US Letter (8,5 × 11 inci) atau A4.Gratis untuk digunakan di rumah dan ruang kelas.",
+      "comingSoon": "Unduh PDF Gratis – Segera Hadir",
+      "youMightLike": "Anda mungkin juga menyukainya",
+      "faqQ1": "Untuk usia berapa teka-teki titik ke titik {name}?",
+      "faqA1": "Ini dirancang untuk usia {age}.Dengan {dots} titik, cocok untuk anak-anak yang percaya diri menghitung hingga {dots};anak kecil dapat menyelesaikannya dengan sedikit bantuan.",
+      "faqQ2": "Bagaimana cara mencetak lembar kerja {name}?",
+      "faqA2": "Klik tombol unduh untuk mendapatkan PDF gratis, lalu cetak pada kertas biasa (A4 atau US Letter) dari browser atau pembaca PDF apa pun.Tidak diperlukan perangkat lunak khusus.",
+      "faqQ3": "Apakah cetakan {name} benar-benar gratis?",
+      "faqA3": "Ya — 100% gratis, tanpa perlu mendaftar, akun, atau pembayaran.Anda dapat mencetaknya untuk digunakan di rumah atau ruang kelas.",
+      "colorGuideHeading": "Panduan Mewarnai",
+      "dotGuideHeading": "Bagaimana cara menyelesaikan teka-teki hubungkan titik {name}?"
+    },
+    "downloadButton": {
+      "label": "Unduh PDF Gratis yang Dapat Dicetak",
+      "usage": "Gratis untuk digunakan di rumah dan ruang kelas.",
+      "paperNote": "Berukuran untuk kertas {size}.",
+      "paperLetter": "Surat AS",
+      "paperA4": "A4",
+      "alternateLink": "Lebih suka {size}?Unduh versi itu",
+      "downloadSize": "Unduh (Ukuran Cetak: {size})"
+    },
+    "downloadBadge": {
+      "downloaded": "Diunduh",
+      "times": "kali",
+      "greatChoice": "Anda telah membuat pilihan yang bagus!"
+    },
+    "shareButtons": {
+      "label": "Membagikan",
+      "copyLink": "Salin tautan",
+      "copied": "Tautan disalin!",
+      "shareMe": "Bagikan padaku"
+    },
+    "blogPage": {
+      "eyebrow": "Sumber Belajar",
+      "h1": "Ide Dot to Dot untuk Orang Tua dan Guru",
+      "description": "Panduan praktis untuk memilih kegiatan, membangun keterampilan belajar sejak dini, dan menggunakan lembar kerja yang dapat dicetak di rumah atau di kelas.",
+      "breadcrumb": "blog",
+      "latestEyebrow": "Artikel terbaru",
+      "latestH2": "Ide bermanfaat yang dapat Anda gunakan hari ini",
+      "readArticle": "Baca artikel",
+      "by": "Oleh",
+      "backToAll": "← Kembali ke semua artikel",
+      "savePinterest": "Simpan ke Pinterest",
+      "relatedEyebrow": "Barang cetakan gratis",
+      "relatedHeading": "Coba koleksi titik ke titik berikut ini"
+    },
+    "canadaPage": {
+      "category": "Kanada"
+    },
+    "circusPage": {
+      "category": "Sirkus"
+    },
+    "cutePage": {
+      "category": "Imut-imut"
+    },
+    "dinosaursPage": {
+      "category": "Dinosaurus"
+    },
+    "flowersPage": {
+      "category": "Bunga"
+    },
+    "gardenPage": {
+      "category": "Kebun"
+    },
+    "oceanPage": {
+      "category": "Laut"
+    },
+    "playgroundsPage": {
+      "category": "Taman bermain"
+    },
+    "spacePage": {
+      "category": "Ruang angkasa"
+    },
+    "uaePage": {
+      "category": "Uni Emirat Arab"
+    },
+    "usa250Page": {
+      "category": "Peringatan 250 Tahun AS"
     }
   }
 }

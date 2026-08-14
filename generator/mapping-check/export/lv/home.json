@@ -370,10 +370,38 @@
       "breadcrumbAria": "Maizes drupačas"
     },
     "puzzleSearch": {
+      "placeholder": "Meklēt pēc nosaukuma vai tēmas... piem. okeāns, valis, T-Rex",
       "searchAria": "Meklēt mīklas",
+      "clearSearch": "Notīrīt meklēšanu",
+      "toggleFilters": "Rādīt/slēpt filtrus",
+      "filters": "Filtri",
+      "filterOptions": "Filtru opcijas",
+      "topic": "Tēma",
+      "numberOfDots": "Punktu skaits",
+      "recentlyAddedOnly": "Tikai nesen pievienotie",
+      "clearAllFilters": "Notīrīt visus filtrus",
+      "clearFilters": "Notīrīt filtrus",
       "resultsFound": "{count, plural, one {# puzle atrasta} other {# puzles atrastas}}",
+      "puzzlesAvailable": "{count, plural, zero {# mīklu pieejams} one {# mīkla pieejama} other {# mīklas pieejamas}}",
       "noMatches": "Neviena mīkla neatbilda jūsu meklēšanas vaicājumam.",
-      "imageAlt": "{name} drukājams no punktiem uz punktiem"
+      "openPuzzle": "Atvērt {name}",
+      "imageAlt": "{name} drukājams no punktiem uz punktiem",
+      "viewPuzzle": "Skatīt mīklu →",
+      "dotRanges": {
+        "under35": "Mazāk par 35 punktiem",
+        "35to50": "35-50 punkti",
+        "51to70": "51-70 punkti",
+        "over70": "70+ punkti"
+      },
+      "categories": {
+        "Dinosaurs": "Dinozauri",
+        "Ocean": "Okeāns",
+        "Playgrounds": "Rotaļu laukumi",
+        "Garden": "Dārzs",
+        "Cute": "Mīlīgs",
+        "USA 250 Years": "ASV 250 gadi",
+        "UAE": "AAE"
+      }
     },
     "newsletterForm": {
       "ariaLabel": "Iegūstiet bezmaksas punktveida drukājamo komplektu",
@@ -410,16 +438,161 @@
       "recent_puzzle_slugs": "[\"circus-ringmaster-bear-dot-to-dot-puzzle\",\"circus-tent-dot-to-dot-puzzle\",\"space-rover-dot-to-dot-puzzle\",\"ringed-planet-dot-to-dot-puzzle\"]"
     },
     "purchase": {
+      "premium": {
+        "metaTitle": "Best of 2026 „Premium“ punktu savienošanas puzles komplekts",
+        "metaDescription": "Drukāšanai gatava kolekcija ar bērnu iemīļotākajām punktu savienošanas puzlēm, apkopota vienā ērtā PDF failā.",
+        "eyebrow": "Drukājama „Premium“ kolekcija",
+        "heading": "Vairāk puzļu. Mazāk meklēšanas. Viss vienā ērtā PDF failā.",
+        "lede": "Kolekcijā „Best of 2026“ apkopotas mūsu iemīļotākās punktu savienošanas aktivitātes vienā viegli izdrukājamā komplektā — ideāli piemērots mierīgiem brīžiem, lietainām dienām, mājmācībai un klasei.",
+        "digitalPdf": "Digitāls PDF",
+        "printAtHome": "Izdrukāt mājās",
+        "instantAccess": "Tūlītēja piekļuve",
+        "purchaseAria": "Iegādāties „Best of 2026“ puzļu komplektu",
+        "coverAlt": "Best of 2026 - 25 punktu savienošanas puzles, grāmatas vāks",
+        "oneTime": "vienreizējs maksājums",
+        "buyButton": "Iegūt puzļu komplektu",
+        "localNote": "Vietnē „localhost“ tiek atvērta droša apmaksas demo versija, un karte nekad netiek apmaksāta.",
+        "detailsEyebrow": "Radīts vienkāršai drukāšanai un spēlēšanai",
+        "detailsHeading": "Viss, kas nepieciešams jautrībai bez ekrāniem",
+        "detailsText": "Lejupielādējiet vienreiz, glabājiet pa rokai un izdrukājiet vēlamās aktivitātes, kad vien tās nepieciešamas.",
+        "benefits": {
+          "onePdf": "Viens ērts, drukāšanai gatavs PDF fails",
+          "kidFriendly": "Bērniem piemērotas puzles ar dažādu grūtības pakāpi",
+          "paperSizes": "Der gan US Letter, gan A4 formāta papīram",
+          "instantAccess": "Tūlītēja piekļuve pēc veiksmīga maksājuma",
+          "classroomUse": "Izmantojama mājās vai vienā klasē"
+        },
+        "guaranteeHeading": "Vienkārši, droši un gatavs dažu minūšu laikā",
+        "guaranteeText": "Pēc apmaksas nekavējoties parādās jūsu personīgā lejupielādes saite. Bez abonementa un bez negaidītas atjaunošanas."
+      },
+      "checkout": {
+        "consent": "Es piekrītu šī digitālā PDF faila tūlītējai piegādei un saprotu, ka pēc piekļuves sākuma pirkums ir galīgs un neatgriežams, izņemot gadījumus, kad to prasa likums, vai ja fails netiek piegādāts vai ir bojāts.",
+        "refundPolicy": "Lasīt atmaksas politiku",
+        "opening": "Tiek atvērta apmaksas lapa...",
+        "secureNote": "Droša apmaksa, ko nodrošina „Stripe“. Vienreizējs maksājums. Bez abonementa.",
+        "error": "Sākot apmaksu, radās kļūda. Lūdzu, mēģiniet vēlreiz."
+      },
+      "success": {
+        "metaTitle": "Paldies par jūsu pirkumu",
+        "eyebrow": "Maksājums apstiprināts",
+        "heading": "Paldies! Jūsu pirkums ir pabeigts.",
+        "lede": "Jūsu maksājums bija veiksmīgs. Var paiet dažas sekundes, līdz pirkums parādīsies jūsu kontā."
+      },
+      "cancelled": {
+        "metaTitle": "Apmaksa atcelta",
+        "eyebrow": "Maksājums nav veikts",
+        "heading": "Apmaksa atcelta",
+        "lede": "Maksājums netika veikts. Varat mēģināt vēlreiz jebkurā laikā."
+      },
+      "download": {
+        "demoTitle": "Lokālā apmaksas pārbaude bija veiksmīga.",
+        "demoText": "Īstajā veiksmīga pirkuma ekrānā šeit tiek rādīta PDF lejupielādes poga. Lokālā demo versija neatklāj privāto failu.",
+        "button": "Lejupielādēt savu puzļu komplektu",
+        "expires": "Šīs saites derīguma termiņš beidzas pēc 24 stundām. Saglabājiet lejupielādēto failu drošā vietā.",
+        "failed": "Mēs vēl nevarējām apstiprināt jūsu pirkumu. Ja jums tika izrakstīts maksājums, atsvaidziniet šo lapu pēc minūtes vai sazinieties ar mums, lai saņemtu palīdzību.",
+        "preparing": "Tiek sagatavota jūsu lejupielāde..."
+      },
       "ad": {
-        "packName": "Punktu savieno?anas m?klu komplekts",
-        "pdfBook": "PDF GR?MATA",
-        "bookTitle": "2026. gada lab?kie",
-        "puzzleCount": "25 punktu savieno?anas m?klas",
-        "viewBook": "Skat?t gr?matu"
+        "packName": "Mīklu komplekts no punkta uz punktu",
+        "pdfBook": "PDF GRĀMATA",
+        "bookTitle": "Labākais 2026. gadā",
+        "puzzleCount": "25 punktu-punktu mīklas",
+        "viewBook": "Skatīt grāmatu"
       },
       "shared": {
-        "specialSale": "?PA?AIS PIED?V?JUMS"
+        "specialSale": "Īpaša izpārdošana",
+        "returnToPack": "Atgriezties pie puzļu komplekta",
+        "contactUs": "Sazinieties ar mums"
       }
+    },
+    "puzzleDetail": {
+      "agesLabel": "Vecums:",
+      "dotsLabel": "Punkti:",
+      "freeLabel": "100% bezmaksas",
+      "difficultyHeading": "Grūtības",
+      "difficultyEasy": "Viegli",
+      "difficultyMedium": "Vidēja",
+      "difficultyHard": "Grūti",
+      "funFactPrefix": "Jautrs fakts:",
+      "funFactLabel": "Jautrs fakts!",
+      "noSignUp": "Nav nepieciešama pierakstīšanās.Tiek atvērts kā PDF.Drukājiet uz US Letter (8,5 × 11 collu) vai A4 formāta papīra.Bezmaksas lietošanai mājās un klasē.",
+      "comingSoon": "Lejupielādēt bezmaksas PDF — drīzumā",
+      "youMightLike": "Jums varētu arī patikt",
+      "faqQ1": "Kādam vecumam ir paredzēta mīkla {name} no punkta līdz punktam?",
+      "faqA1": "Tas ir paredzēts {age} vecumam.Ar {dots} punktiem tas ir piemērots bērniem, kuri var droši skaitīt līdz {dots};jaunāki bērni to var pabeigt ar nelielu palīdzību.",
+      "faqQ2": "Kā izdrukāt {name} darblapu?",
+      "faqA2": "Noklikšķiniet uz lejupielādes pogas, lai iegūtu bezmaksas PDF failu, pēc tam izdrukājiet to uz parasta papīra (A4 vai US Letter) no jebkuras pārlūkprogrammas vai PDF lasītāja.Nav nepieciešama īpaša programmatūra.",
+      "faqQ3": "Vai {name} var izdrukāt bez maksas?",
+      "faqA3": "Jā — tas ir 100% bez maksas, nav nepieciešama reģistrācija, konts vai maksājums.Varat to izdrukāt lietošanai mājās vai klasē.",
+      "colorGuideHeading": "Krāsošanas ceļvedis",
+      "dotGuideHeading": "Kā atrisināt \"savieno punktus\" mīklu {name}?"
+    },
+    "downloadButton": {
+      "label": "Lejupielādējiet bezmaksas drukājamu PDF",
+      "usage": "Bezmaksas lietošanai mājās un klasē.",
+      "paperNote": "Izmērs {size} papīram.",
+      "paperLetter": "ASV vēstule",
+      "paperA4": "A4",
+      "alternateLink": "Vai vēlaties {size}?Lejupielādējiet šo versiju",
+      "downloadSize": "Lejupielādēt (drukas izmērs: {size})"
+    },
+    "downloadBadge": {
+      "downloaded": "Lejupielādēts",
+      "times": "reizes",
+      "greatChoice": "Jūs esat izdarījis lielisku izvēli!"
+    },
+    "shareButtons": {
+      "label": "Dalīties",
+      "copyLink": "Kopēt saiti",
+      "copied": "Saite nokopēta!",
+      "shareMe": "Dalies ar mani"
+    },
+    "blogPage": {
+      "eyebrow": "Mācību resursi",
+      "h1": "Idejas no punkta līdz punktam vecākiem un skolotājiem",
+      "description": "Praktiski ceļveži aktivitāšu izvēlei, agrīnas mācīšanās prasmju veidošanai un drukājamu darblapu lietošanai mājās vai klasē.",
+      "breadcrumb": "Emuārs",
+      "latestEyebrow": "Jaunākie raksti",
+      "latestH2": "Noderīgas idejas, kuras varat izmantot jau šodien",
+      "readArticle": "Izlasi rakstu",
+      "by": "Autors",
+      "backToAll": "← Atpakaļ uz visiem rakstiem",
+      "savePinterest": "Saglabāt vietnē Pinterest",
+      "relatedEyebrow": "Bezmaksas izdrukas",
+      "relatedHeading": "Tālāk izmēģiniet šīs kolekcijas no punktiem līdz punktiem"
+    },
+    "canadaPage": {
+      "category": "Kanāda"
+    },
+    "circusPage": {
+      "category": "Cirks"
+    },
+    "cutePage": {
+      "category": "Jauki"
+    },
+    "dinosaursPage": {
+      "category": "Dinozauri"
+    },
+    "flowersPage": {
+      "category": "Ziedi"
+    },
+    "gardenPage": {
+      "category": "Dārzs"
+    },
+    "oceanPage": {
+      "category": "Okeāns"
+    },
+    "playgroundsPage": {
+      "category": "Rotaļu laukumi"
+    },
+    "spacePage": {
+      "category": "Kosmoss"
+    },
+    "uaePage": {
+      "category": "Apvienotie Arābu Emirāti"
+    },
+    "usa250Page": {
+      "category": "ASV 250. gadadiena"
     }
   }
 }

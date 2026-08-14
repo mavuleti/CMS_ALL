@@ -370,10 +370,38 @@
       "breadcrumbAria": "Broodkruimel"
     },
     "puzzleSearch": {
+      "placeholder": "Zoek op naam of onderwerp... bijv. oceaan, walvis, T-Rex",
       "searchAria": "Zoekpuzzels",
+      "clearSearch": "Zoekopdracht wissen",
+      "toggleFilters": "Filters weergeven/verbergen",
+      "filters": "Filters",
+      "filterOptions": "Filteropties",
+      "topic": "Onderwerp",
+      "numberOfDots": "Aantal stippen",
+      "recentlyAddedOnly": "Alleen recent toegevoegd",
+      "clearAllFilters": "Alle filters wissen",
+      "clearFilters": "Filters wissen",
       "resultsFound": "{count, plural, one {# puzzel gevonden} other {# puzzels gevonden}}",
+      "puzzlesAvailable": "{count, plural, one {# puzzel beschikbaar} other {# puzzels beschikbaar}}",
       "noMatches": "Er zijn geen puzzels gevonden die overeenkomen met uw zoekopdracht.",
-      "imageAlt": "{name} punt-na-punt afdrukbaar"
+      "openPuzzle": "{name} openen",
+      "imageAlt": "{name} punt-na-punt afdrukbaar",
+      "viewPuzzle": "Bekijk puzzel →",
+      "dotRanges": {
+        "under35": "Minder dan 35 stippen",
+        "35to50": "35-50 stippen",
+        "51to70": "51-70 stippen",
+        "over70": "70+ stippen"
+      },
+      "categories": {
+        "Dinosaurs": "Dinosaurussen",
+        "Ocean": "Oceaan",
+        "Playgrounds": "Speeltuinen",
+        "Garden": "Tuin",
+        "Cute": "Schattig",
+        "USA 250 Years": "VS 250 jaar",
+        "UAE": "VAE"
+      }
     },
     "newsletterForm": {
       "ariaLabel": "Download het gratis printbare pakket met punt-naar-punt tekeningen.",
@@ -410,6 +438,60 @@
       "recent_puzzle_slugs": "[\"circus-ringmaster-bear-dot-to-dot-puzzle\",\"circus-tent-dot-to-dot-puzzle\",\"space-rover-dot-to-dot-puzzle\",\"ringed-planet-dot-to-dot-puzzle\"]"
     },
     "purchase": {
+      "premium": {
+        "metaTitle": "Best of 2026 Premium Verbind-de-Puntjes Puzzelpakket",
+        "metaDescription": "Een printklare collectie van favoriete verbind-de-puntjes puzzels voor kinderen, gebundeld in één handige PDF.",
+        "eyebrow": "Printbare premium collectie",
+        "heading": "Meer puzzels. Minder zoeken. Alles in één handige PDF.",
+        "lede": "De Best of 2026-collectie brengt onze favoriete verbind-de-puntjes activiteiten samen in één gemakkelijk te printen pakket voor rustige momenten, regenachtige dagen, thuisonderwijs en de klas.",
+        "digitalPdf": "Digitale PDF",
+        "printAtHome": "Thuis printen",
+        "instantAccess": "Directe toegang",
+        "purchaseAria": "Koop het Best of 2026 puzzelpakket",
+        "coverAlt": "Best of 2026 - 25 verbind-de-puntjes puzzels, boekomslag",
+        "oneTime": "eenmalig",
+        "buyButton": "Bestel het puzzelpakket",
+        "localNote": "Op localhost opent dit een veilige checkout-demo en wordt er nooit een kaart belast.",
+        "detailsEyebrow": "Gemaakt om makkelijk te printen en te spelen",
+        "detailsHeading": "Alles wat je nodig hebt voor plezier zonder scherm",
+        "detailsText": "Download eenmalig, houd het bij de hand en print de activiteiten die je wilt wanneer je ze nodig hebt.",
+        "benefits": {
+          "onePdf": "Eén handige, printklare PDF",
+          "kidFriendly": "Kindvriendelijke puzzels met verschillende moeilijkheidsgraden",
+          "paperSizes": "Werkt op US Letter- en A4-papier",
+          "instantAccess": "Directe toegang na succesvolle betaling",
+          "classroomUse": "Te gebruiken thuis of in één klaslokaal"
+        },
+        "guaranteeHeading": "Simpel, veilig en binnen enkele minuten klaar",
+        "guaranteeText": "Na het afrekenen verschijnt je persoonlijke downloadlink direct. Geen abonnement en geen onverwachte verlenging."
+      },
+      "checkout": {
+        "consent": "Ik ga akkoord met de directe levering van deze digitale PDF en begrijp dat, zodra de toegang begint, de verkoop definitief en niet-restitueerbaar is, tenzij dit wettelijk verplicht is of als het bestand niet is geleverd of defect is.",
+        "refundPolicy": "Lees het restitutiebeleid",
+        "opening": "Checkout wordt geopend...",
+        "secureNote": "Veilige checkout mogelijk gemaakt door Stripe. Eenmalige betaling. Geen abonnement.",
+        "error": "Er is iets misgegaan bij het starten van de checkout. Probeer het opnieuw."
+      },
+      "success": {
+        "metaTitle": "Bedankt voor je aankoop",
+        "eyebrow": "Betaling bevestigd",
+        "heading": "Bedankt! Je aankoop is voltooid.",
+        "lede": "Je betaling is geslaagd. Het kan een paar seconden duren voordat je aankoop op je account verschijnt."
+      },
+      "cancelled": {
+        "metaTitle": "Checkout geannuleerd",
+        "eyebrow": "Geen betaling uitgevoerd",
+        "heading": "Checkout geannuleerd",
+        "lede": "Er is geen bedrag afgeschreven. Je kunt het op elk moment opnieuw proberen."
+      },
+      "download": {
+        "demoTitle": "Lokale checkouttest geslaagd.",
+        "demoText": "Op het echte succesvolle betaalscherm staat hier de PDF-downloadknop. De lokale demo geeft het privébestand niet vrij.",
+        "button": "Download je puzzelpakket",
+        "expires": "Deze link verloopt over 24 uur. Bewaar je download op een veilige plek.",
+        "failed": "We konden je aankoop nog niet bevestigen. Als er bij je is afgeschreven, vernieuw deze pagina dan over een minuut of neem contact met ons op voor hulp.",
+        "preparing": "Je download wordt voorbereid..."
+      },
       "ad": {
         "packName": "Pakket met verbind-de-puntenpuzzels",
         "pdfBook": "PDF-BOEK",
@@ -418,8 +500,99 @@
         "viewBook": "Boek bekijken"
       },
       "shared": {
-        "specialSale": "SPECIALE AANBIEDING"
+        "specialSale": "SPECIALE AANBIEDING",
+        "returnToPack": "Terug naar het puzzelpakket",
+        "contactUs": "Neem contact met ons op"
       }
+    },
+    "puzzleDetail": {
+      "agesLabel": "Leeftijden:",
+      "dotsLabel": "Punten:",
+      "freeLabel": "100% gratis",
+      "difficultyHeading": "Moeilijkheidsgraad",
+      "difficultyEasy": "Eenvoudig",
+      "difficultyMedium": "Medium",
+      "difficultyHard": "Moeilijk",
+      "funFactPrefix": "Leuk weetje:",
+      "funFactLabel": "Leuk feit!",
+      "noSignUp": "Aanmelden is niet nodig.Wordt geopend als PDF.Afdrukken op US Letter- (8,5 x 11 inch) of A4-papier.Gratis voor thuis- en klasgebruik.",
+      "comingSoon": "Download gratis pdf – binnenkort beschikbaar",
+      "youMightLike": "Misschien vind je het ook leuk",
+      "faqQ1": "Voor welke leeftijd is de {name} puzzel van punt naar punt?",
+      "faqA1": "Het is ontworpen voor leeftijden {age}.Met {dots} dots is het geschikt voor kinderen die vol vertrouwen tot {dots} kunnen tellen;jongere kinderen kunnen het met een beetje hulp voltooien.",
+      "faqQ2": "Hoe druk ik het werkblad {name} af?",
+      "faqA2": "Klik op de downloadknop om de gratis pdf te verkrijgen en druk deze vervolgens af op normaal papier (A4 of US Letter) vanuit elke browser of pdf-lezer.Er is geen speciale software nodig.",
+      "faqQ3": "Is de printbare {name} echt gratis?",
+      "faqA3": "Ja, het is 100% gratis en er is geen aanmelding, account of betaling vereist.U kunt het afdrukken voor thuis- of klasgebruik.",
+      "colorGuideHeading": "Kleurgids",
+      "dotGuideHeading": "Hoe los je de stip-tot-stip puzzel {name} op?"
+    },
+    "downloadButton": {
+      "label": "Download gratis afdrukbare PDF",
+      "usage": "Gratis voor thuis- en klasgebruik.",
+      "paperNote": "Op maat gemaakt voor papier van {size}.",
+      "paperLetter": "Amerikaanse brief",
+      "paperA4": "A4",
+      "alternateLink": "Liever {size}?Download die versie",
+      "downloadSize": "Downloaden (afdrukformaat: {size})"
+    },
+    "downloadBadge": {
+      "downloaded": "Gedownload",
+      "times": "keer",
+      "greatChoice": "Je hebt een geweldige keuze gemaakt!"
+    },
+    "shareButtons": {
+      "label": "Deel",
+      "copyLink": "Kopieer link",
+      "copied": "Link gekopieerd!",
+      "shareMe": "Deel mij"
+    },
+    "blogPage": {
+      "eyebrow": "Leermiddelen",
+      "h1": "Punt-tot-punt-ideeën voor ouders en leerkrachten",
+      "description": "Praktische handleidingen voor het kiezen van activiteiten, het ontwikkelen van vroege leervaardigheden en het gebruik van afdrukbare werkbladen thuis of in de klas.",
+      "breadcrumb": "Bloggen",
+      "latestEyebrow": "Laatste artikelen",
+      "latestH2": "Nuttige ideeën die u vandaag nog kunt gebruiken",
+      "readArticle": "Lees artikel",
+      "by": "Door",
+      "backToAll": "← Terug naar alle artikelen",
+      "savePinterest": "Opslaan op Pinterest",
+      "relatedEyebrow": "Gratis printables",
+      "relatedHeading": "Probeer vervolgens deze punt-tot-punt-collecties"
+    },
+    "canadaPage": {
+      "category": "Canada"
+    },
+    "circusPage": {
+      "category": "Circus"
+    },
+    "cutePage": {
+      "category": "Schattig"
+    },
+    "dinosaursPage": {
+      "category": "Dinosaurussen"
+    },
+    "flowersPage": {
+      "category": "Bloemen"
+    },
+    "gardenPage": {
+      "category": "Tuin"
+    },
+    "oceanPage": {
+      "category": "Oceaan"
+    },
+    "playgroundsPage": {
+      "category": "Speeltuinen"
+    },
+    "spacePage": {
+      "category": "Ruimte"
+    },
+    "uaePage": {
+      "category": "Verenigde Arabische Emiraten"
+    },
+    "usa250Page": {
+      "category": "250e verjaardag van de VS"
     }
   }
 }

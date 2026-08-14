@@ -370,10 +370,38 @@
       "breadcrumbAria": "Navigačná cesta"
     },
     "puzzleSearch": {
+      "placeholder": "Hľadať podľa názvu alebo témy... napr. oceán, veľryba, T-Rex",
       "searchAria": "Hľadať hádanky",
+      "clearSearch": "Vymazať vyhľadávanie",
+      "toggleFilters": "Prepnúť filtre",
+      "filters": "Filtre",
+      "filterOptions": "Možnosti filtra",
+      "topic": "Téma",
+      "numberOfDots": "Počet bodiek",
+      "recentlyAddedOnly": "Iba nedávno pridané",
+      "clearAllFilters": "Vymazať všetky filtre",
+      "clearFilters": "Vymazať filtre",
       "resultsFound": "{count, plural, one {nájdený # hlavolam} few {nájdené # hlavolamy} other {nájdených # hlavolamov}}",
+      "puzzlesAvailable": "{count, plural, one {# hádanka k dispozícii} few {# hádanky k dispozícii} other {# hádaniek k dispozícii}}",
       "noMatches": "Žiadne hádanky nezodpovedajú vášmu vyhľadávaniu.",
-      "imageAlt": "{name} bodka po bodke na tlač"
+      "openPuzzle": "Otvoriť {name}",
+      "imageAlt": "{name} bodka po bodke na tlač",
+      "viewPuzzle": "Zobraziť hádanku →",
+      "dotRanges": {
+        "under35": "Menej ako 35 bodiek",
+        "35to50": "35-50 bodiek",
+        "51to70": "51-70 bodiek",
+        "over70": "70+ bodiek"
+      },
+      "categories": {
+        "Dinosaurs": "Dinosaury",
+        "Ocean": "Oceán",
+        "Playgrounds": "Ihriská",
+        "Garden": "Záhrada",
+        "Cute": "Roztomilé",
+        "USA 250 Years": "USA 250 rokov",
+        "UAE": "SAE"
+      }
     },
     "newsletterForm": {
       "ariaLabel": "Získajte bezplatný tlačiteľný balíček bodkovania",
@@ -410,16 +438,161 @@
       "recent_puzzle_slugs": "[\"circus-ringmaster-bear-dot-to-dot-puzzle\",\"circus-tent-dot-to-dot-puzzle\",\"space-rover-dot-to-dot-puzzle\",\"ringed-planet-dot-to-dot-puzzle\"]"
     },
     "purchase": {
+      "premium": {
+        "metaTitle": "Prémiový balík Best of 2026 – hlavolamy spoj bodky",
+        "metaDescription": "Zbierka obľúbených detských hlavolamov spoj bodky pripravená na tlač, spojená do jedného praktického PDF.",
+        "eyebrow": "Prémiová zbierka na tlač",
+        "heading": "Viac hlavolamov. Menej hľadania. Všetko v jednom praktickom PDF.",
+        "lede": "Zbierka Best of 2026 prináša naše obľúbené aktivity spoj bodky v jednom ľahko vytlačiteľnom balíku – ideálne na pokojné chvíle, daždivé dni, domáce vzdelávanie aj vyučovanie.",
+        "digitalPdf": "Digitálne PDF",
+        "printAtHome": "Tlač doma",
+        "instantAccess": "Okamžitý prístup",
+        "purchaseAria": "Kúpiť balík hlavolamov Best of 2026",
+        "coverAlt": "Best of 2026 - obal knihy s 25 hlavolamami spoj bodky",
+        "oneTime": "jednorazová platba",
+        "buyButton": "Získať balík hlavolamov",
+        "localNote": "Na localhoste sa otvorí bezpečné demo platby a karta nikdy nie je zaťažená.",
+        "detailsEyebrow": "Vytvorené pre jednoduchú tlač a hru",
+        "detailsHeading": "Všetko, čo potrebujete na zábavu bez obrazoviek",
+        "detailsText": "Stiahnite si raz, majte poruke a vytlačte si aktivity, ktoré chcete, kedykoľvek ich potrebujete.",
+        "benefits": {
+          "onePdf": "Jedno praktické PDF pripravené na tlač",
+          "kidFriendly": "Hlavolamy vhodné pre deti s rôznou úrovňou náročnosti",
+          "paperSizes": "Funguje na papieri US Letter aj A4",
+          "instantAccess": "Okamžitý prístup po úspešnej platbe",
+          "classroomUse": "Možno použiť doma alebo v jednej triede"
+        },
+        "guaranteeHeading": "Jednoduché, bezpečné a pripravené za pár minút",
+        "guaranteeText": "Po zaplatení sa okamžite zobrazí váš súkromný odkaz na stiahnutie. Žiadne predplatné a žiadne prekvapivé obnovenie."
+      },
+      "checkout": {
+        "consent": "Súhlasím s okamžitým doručením tohto digitálneho PDF a rozumiem, že po začatí prístupu je nákup konečný a nevratný, s výnimkou prípadov vyžadovaných zákonom alebo ak súbor nie je doručený či je chybný.",
+        "refundPolicy": "Prečítať si zásady vrátenia peňazí",
+        "opening": "Otvára sa platba...",
+        "secureNote": "Bezpečná platba zabezpečená spoločnosťou Stripe. Jednorazová platba. Žiadne predplatné.",
+        "error": "Pri spúšťaní platby sa vyskytla chyba. Skúste to prosím znova."
+      },
+      "success": {
+        "metaTitle": "Ďakujeme za nákup",
+        "eyebrow": "Platba potvrdená",
+        "heading": "Ďakujeme! Váš nákup je dokončený.",
+        "lede": "Vaša platba bola úspešná. Zobrazenie nákupu vo vašom účte môže trvať niekoľko sekúnd."
+      },
+      "cancelled": {
+        "metaTitle": "Platba zrušená",
+        "eyebrow": "Platba nebola vykonaná",
+        "heading": "Platba zrušená",
+        "lede": "Nebola vykonaná žiadna platba. Môžete to kedykoľvek skúsiť znova."
+      },
+      "download": {
+        "demoTitle": "Lokálny test platby bol úspešný.",
+        "demoText": "Na skutočnej obrazovke úspešného nákupu sa tu zobrazí tlačidlo na stiahnutie PDF. Lokálne demo súkromný súbor neuvoľňuje.",
+        "button": "Stiahnite si balík hlavolamov",
+        "expires": "Platnosť tohto odkazu vyprší o 24 hodín. Uložte si stiahnutý súbor na bezpečné miesto.",
+        "failed": "Váš nákup sme zatiaľ nedokázali potvrdiť. Ak vám bola suma odpočítaná, obnovte túto stránku o minútu alebo nás kontaktujte, aby sme vám pomohli.",
+        "preparing": "Pripravuje sa vaše stiahnutie..."
+      },
       "ad": {
-        "packName": "Bal?k sp?jania bodiek",
+        "packName": "Balíček spájačiek",
         "pdfBook": "PDF KNIHA",
-        "bookTitle": "To najlep?ie z roku 2026",
-        "puzzleCount": "25 sp?jan? bodiek",
+        "bookTitle": "Najlepšie z roku 2026",
+        "puzzleCount": "25 hádaniek od bodky po bodku",
         "viewBook": "Zobrazi? knihu"
       },
       "shared": {
-        "specialSale": "?PECI?LNA PONUKA"
+        "specialSale": "Špeciálny predaj",
+        "returnToPack": "Späť na balík hlavolamov",
+        "contactUs": "Kontaktujte nás"
       }
+    },
+    "puzzleDetail": {
+      "agesLabel": "Vek:",
+      "dotsLabel": "Bodky:",
+      "freeLabel": "100% zadarmo",
+      "difficultyHeading": "Náročnosť",
+      "difficultyEasy": "Jednoduché",
+      "difficultyMedium": "Stredná",
+      "difficultyHard": "Ťažko",
+      "funFactPrefix": "Zábavný fakt:",
+      "funFactLabel": "Zábavný fakt!",
+      "noSignUp": "Nie je potrebná žiadna registrácia.Otvorí sa ako PDF.Tlačte na papier US Letter (8,5 × 11 palcov) alebo A4.Zadarmo pre použitie doma a v triede.",
+      "comingSoon": "Stiahnite si zadarmo PDF – už čoskoro",
+      "youMightLike": "Tiež by sa vám mohlo páčiť",
+      "faqQ1": "Pre aký vek je hlavolam {name} bodka k bodke?",
+      "faqA1": "Je určený pre vek {age}.S {dots} bodkami to vyhovuje deťom, ktoré vedia s istotou počítať do {dots};mladšie deti ho s malou pomocou zvládnu.",
+      "faqQ2": "Ako vytlačím pracovný hárok {name}?",
+      "faqA2": "Kliknutím na tlačidlo sťahovania získate bezplatný súbor PDF a potom ho vytlačte na bežný papier (A4 alebo US Letter) z ľubovoľného prehliadača alebo čítačky PDF.Nie je potrebný žiadny špeciálny softvér.",
+      "faqQ3": "Je tlač {name} skutočne zadarmo?",
+      "faqA3": "Áno – je to 100 % zadarmo, nevyžaduje sa žiadna registrácia, účet ani platba.Môžete si ho vytlačiť doma alebo v triede.",
+      "colorGuideHeading": "Návod na vyfarbovanie",
+      "dotGuideHeading": "Ako vyriešiť puzzle spoj bodky {name}?"
+    },
+    "downloadButton": {
+      "label": "Stiahnite si zadarmo tlač PDF",
+      "usage": "Zadarmo pre použitie doma a v triede.",
+      "paperNote": "Veľkosť papiera {size}.",
+      "paperLetter": "US Letter",
+      "paperA4": "A4",
+      "alternateLink": "Preferujete {size}?Stiahnite si túto verziu",
+      "downloadSize": "Stiahnuť (veľkosť tlače: {size})"
+    },
+    "downloadBadge": {
+      "downloaded": "Stiahnuté",
+      "times": "krát",
+      "greatChoice": "Vybrali ste si skvele!"
+    },
+    "shareButtons": {
+      "label": "zdieľať",
+      "copyLink": "Kopírovať odkaz",
+      "copied": "Odkaz bol skopírovaný!",
+      "shareMe": "Zdieľajte ma"
+    },
+    "blogPage": {
+      "eyebrow": "Učebné zdroje",
+      "h1": "Bodka po bodka nápady pre rodičov a učiteľov",
+      "description": "Praktické príručky na výber aktivít, budovanie zručností v ranom vzdelávaní a používanie pracovných listov, ktoré je možné vytlačiť doma alebo v triede.",
+      "breadcrumb": "Blog",
+      "latestEyebrow": "Najnovšie články",
+      "latestH2": "Užitočné nápady, ktoré môžete použiť už dnes",
+      "readArticle": "Prečítajte si článok",
+      "by": "Autor:",
+      "backToAll": "← Späť na všetky články",
+      "savePinterest": "Uložiť na Pinterest",
+      "relatedEyebrow": "Bezplatné tlačové materiály",
+      "relatedHeading": "Ako ďalšie vyskúšajte tieto bodkové zbierky"
+    },
+    "canadaPage": {
+      "category": "Kanada"
+    },
+    "circusPage": {
+      "category": "Cirkus"
+    },
+    "cutePage": {
+      "category": "Roztomilé"
+    },
+    "dinosaursPage": {
+      "category": "Dinosaury"
+    },
+    "flowersPage": {
+      "category": "Kvety"
+    },
+    "gardenPage": {
+      "category": "Záhrada"
+    },
+    "oceanPage": {
+      "category": "oceán"
+    },
+    "playgroundsPage": {
+      "category": "Ihriská"
+    },
+    "spacePage": {
+      "category": "Priestor"
+    },
+    "uaePage": {
+      "category": "Spojené arabské emiráty"
+    },
+    "usa250Page": {
+      "category": "250. výročie USA"
     }
   }
 }

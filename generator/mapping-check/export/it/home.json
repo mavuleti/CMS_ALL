@@ -370,10 +370,38 @@
       "breadcrumbAria": "Briciole di pane"
     },
     "puzzleSearch": {
+      "placeholder": "Cerca per nome o argomento... es. oceano, balena, T-Rex",
       "searchAria": "Puzzle di ricerca",
+      "clearSearch": "Cancella ricerca",
+      "toggleFilters": "Mostra/nascondi filtri",
+      "filters": "Filtri",
+      "filterOptions": "Opzioni filtro",
+      "topic": "Argomento",
+      "numberOfDots": "Numero di punti",
+      "recentlyAddedOnly": "Solo aggiunti di recente",
+      "clearAllFilters": "Cancella tutti i filtri",
+      "clearFilters": "Cancella filtri",
       "resultsFound": "{count, plural, one {# puzzle trovato} other {# puzzle trovati}}",
+      "puzzlesAvailable": "{count, plural, one {# puzzle disponibile} other {# puzzle disponibili}}",
       "noMatches": "Nessun puzzle corrisponde alla tua ricerca.",
-      "imageAlt": "{name} unisci i puntini stampabile"
+      "openPuzzle": "Apri {name}",
+      "imageAlt": "{name} unisci i puntini stampabile",
+      "viewPuzzle": "Vedi puzzle →",
+      "dotRanges": {
+        "under35": "Meno di 35 punti",
+        "35to50": "35-50 punti",
+        "51to70": "51-70 punti",
+        "over70": "70+ punti"
+      },
+      "categories": {
+        "Dinosaurs": "Dinosauri",
+        "Ocean": "Oceano",
+        "Playgrounds": "Parchi giochi",
+        "Garden": "Giardino",
+        "Cute": "Carino",
+        "USA 250 Years": "USA 250 anni",
+        "UAE": "EAU"
+      }
     },
     "newsletterForm": {
       "ariaLabel": "Scarica il pacchetto gratuito di disegni da unire i puntini",
@@ -410,6 +438,60 @@
       "recent_puzzle_slugs": "[\"circus-ringmaster-bear-dot-to-dot-puzzle\",\"circus-tent-dot-to-dot-puzzle\",\"space-rover-dot-to-dot-puzzle\",\"ringed-planet-dot-to-dot-puzzle\"]"
     },
     "purchase": {
+      "premium": {
+        "metaTitle": "Pacchetto Premium Best of 2026 Puzzle Unisci i Puntini",
+        "metaDescription": "Una raccolta pronta da stampare dei puzzle unisci i puntini preferiti dai bambini, riuniti in un comodo PDF.",
+        "eyebrow": "Collezione premium stampabile",
+        "heading": "Più puzzle. Meno ricerca. Tutto in un comodo PDF.",
+        "lede": "La collezione Best of 2026 raccoglie le nostre attività unisci i puntini preferite in un pacchetto facile da stampare, perfetto per i momenti tranquilli, i giorni di pioggia, l'homeschooling e la classe.",
+        "digitalPdf": "PDF digitale",
+        "printAtHome": "Stampa a casa",
+        "instantAccess": "Accesso immediato",
+        "purchaseAria": "Acquista il pacchetto puzzle Best of 2026",
+        "coverAlt": "Best of 2026 - Copertina del libro con 25 puzzle Unisci i Puntini",
+        "oneTime": "pagamento unico",
+        "buyButton": "Ottieni il pacchetto puzzle",
+        "localNote": "Su localhost, questo apre una demo di pagamento sicura e non addebita mai alcuna carta.",
+        "detailsEyebrow": "Pensato per stampare e giocare senza complicazioni",
+        "detailsHeading": "Tutto ciò che serve per divertirsi lontano dagli schermi",
+        "detailsText": "Scarica una volta, tienilo sempre a portata di mano e stampa le attività che vuoi quando ne hai bisogno.",
+        "benefits": {
+          "onePdf": "Un unico PDF comodo, pronto da stampare",
+          "kidFriendly": "Puzzle adatti ai bambini con diversi livelli di difficoltà",
+          "paperSizes": "Compatibile con carta US Letter e A4",
+          "instantAccess": "Accesso immediato dopo un pagamento riuscito",
+          "classroomUse": "Utilizzabile a casa o in una singola classe"
+        },
+        "guaranteeHeading": "Semplice, sicuro e pronto in pochi minuti",
+        "guaranteeText": "Dopo il pagamento, il tuo link di download privato appare immediatamente. Nessun abbonamento e nessun rinnovo a sorpresa."
+      },
+      "checkout": {
+        "consent": "Accetto la consegna immediata di questo PDF digitale e comprendo che, una volta iniziato l'accesso, la vendita è definitiva e non rimborsabile, salvo quanto richiesto dalla legge o nel caso in cui il file non venga consegnato o sia difettoso.",
+        "refundPolicy": "Leggi la politica di rimborso",
+        "opening": "Apertura del pagamento in corso...",
+        "secureNote": "Pagamento sicuro offerto da Stripe. Pagamento unico. Nessun abbonamento.",
+        "error": "Si è verificato un problema durante l'avvio del pagamento. Riprova."
+      },
+      "success": {
+        "metaTitle": "Grazie per il tuo acquisto",
+        "eyebrow": "Pagamento confermato",
+        "heading": "Grazie! Il tuo acquisto è stato completato.",
+        "lede": "Il pagamento è andato a buon fine. Potrebbero volerci alcuni secondi prima che l'acquisto compaia nel tuo account."
+      },
+      "cancelled": {
+        "metaTitle": "Pagamento annullato",
+        "eyebrow": "Nessun addebito effettuato",
+        "heading": "Pagamento annullato",
+        "lede": "Non è stato effettuato alcun addebito. Puoi riprovare in qualsiasi momento."
+      },
+      "download": {
+        "demoTitle": "Test di pagamento locale superato.",
+        "demoText": "La vera schermata di pagamento riuscito mostra qui il pulsante di download del PDF. La demo locale non rilascia il file privato.",
+        "button": "Scarica il tuo pacchetto puzzle",
+        "expires": "Questo link scade tra 24 ore. Salva il file scaricato in un luogo sicuro.",
+        "failed": "Non siamo ancora riusciti a confermare il tuo acquisto. Se l'addebito è stato effettuato, aggiorna questa pagina tra un minuto o contattaci per assistenza.",
+        "preparing": "Preparazione del download in corso..."
+      },
       "ad": {
         "packName": "Pacchetto di puzzle unisci i puntini",
         "pdfBook": "LIBRO PDF",
@@ -418,8 +500,99 @@
         "viewBook": "Vedi libro"
       },
       "shared": {
-        "specialSale": "OFFERTA SPECIALE"
+        "specialSale": "OFFERTA SPECIALE",
+        "returnToPack": "Torna al pacchetto puzzle",
+        "contactUs": "Contattaci"
       }
+    },
+    "puzzleDetail": {
+      "agesLabel": "Età:",
+      "dotsLabel": "Punti:",
+      "freeLabel": "100% gratuito",
+      "difficultyHeading": "Difficoltà",
+      "difficultyEasy": "Facile",
+      "difficultyMedium": "Medio",
+      "difficultyHard": "Difficile",
+      "funFactPrefix": "Fatto divertente:",
+      "funFactLabel": "Fatto divertente!",
+      "noSignUp": "Non è necessaria la registrazione.Si apre come PDF.Stampa su carta US Letter (8,5 × 11 pollici) o A4.Gratuito per uso domestico e in classe.",
+      "comingSoon": "Scarica il PDF gratuito – Disponibile a breve",
+      "youMightLike": "Potrebbe piacerti anche",
+      "faqQ1": "Per che età è adatto il puzzle punto per punto di {name}?",
+      "faqA1": "È progettato per età {age}.Con i punti {dots}, è adatto ai bambini che sanno contare con sicurezza fino a {dots};i bambini più piccoli potranno completarlo con un piccolo aiuto.",
+      "faqQ2": "Come posso stampare il foglio di lavoro di {name}?",
+      "faqA2": "Fai clic sul pulsante di download per ottenere il PDF gratuito, quindi stampalo su carta normale (A4 o US Letter) da qualsiasi browser o lettore PDF.Non è necessario alcun software speciale.",
+      "faqQ3": "Il formato stampabile di {name} è davvero gratuito?",
+      "faqA3": "Sì, è gratuito al 100%, senza registrazione, account o pagamento richiesti.Puoi stamparlo per uso domestico o in classe.",
+      "colorGuideHeading": "Guida ai colori",
+      "dotGuideHeading": "Come risolvere il puzzle unisci i puntini {name}?"
+    },
+    "downloadButton": {
+      "label": "Scarica il PDF stampabile gratuito",
+      "usage": "Gratuito per uso domestico e in classe.",
+      "paperNote": "Dimensionato per carta {size}.",
+      "paperLetter": "Lettera degli Stati Uniti",
+      "paperA4": "A4",
+      "alternateLink": "Preferisci la {size}?Scarica quella versione",
+      "downloadSize": "Scarica (dimensione stampa: {size})"
+    },
+    "downloadBadge": {
+      "downloaded": "Scaricato",
+      "times": "volte",
+      "greatChoice": "Hai fatto un'ottima scelta!"
+    },
+    "shareButtons": {
+      "label": "Condividere",
+      "copyLink": "Copia collegamento",
+      "copied": "Link copiato!",
+      "shareMe": "Condividimi"
+    },
+    "blogPage": {
+      "eyebrow": "Risorse per l'apprendimento",
+      "h1": "Idee punto per punto per genitori e insegnanti",
+      "description": "Guide pratiche per scegliere le attività, sviluppare competenze di apprendimento precoce e utilizzare fogli di lavoro stampabili a casa o in classe.",
+      "breadcrumb": "Blog",
+      "latestEyebrow": "Ultimi articoli",
+      "latestH2": "Idee utili che puoi utilizzare oggi",
+      "readArticle": "Leggi l'articolo",
+      "by": "Di",
+      "backToAll": "← Torna a tutti gli articoli",
+      "savePinterest": "Salva su Pinterest",
+      "relatedEyebrow": "Stampabili gratuiti",
+      "relatedHeading": "Prova queste raccolte punto per punto successivamente"
+    },
+    "canadaPage": {
+      "category": "Canada"
+    },
+    "circusPage": {
+      "category": "Circo"
+    },
+    "cutePage": {
+      "category": "Carino"
+    },
+    "dinosaursPage": {
+      "category": "Dinosauri"
+    },
+    "flowersPage": {
+      "category": "Fiori"
+    },
+    "gardenPage": {
+      "category": "Giardino"
+    },
+    "oceanPage": {
+      "category": "Oceano"
+    },
+    "playgroundsPage": {
+      "category": "Campi da gioco"
+    },
+    "spacePage": {
+      "category": "Spazio"
+    },
+    "uaePage": {
+      "category": "Emirati Arabi Uniti"
+    },
+    "usa250Page": {
+      "category": "250° anniversario degli Stati Uniti"
     }
   }
 }

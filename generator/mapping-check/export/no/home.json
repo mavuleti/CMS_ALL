@@ -370,10 +370,38 @@
       "breadcrumbAria": "Brødsmulesti"
     },
     "puzzleSearch": {
+      "placeholder": "Søk etter navn eller emne... f.eks. hav, hval, T-Rex",
       "searchAria": "Søk i gåter",
+      "clearSearch": "Tøm søk",
+      "toggleFilters": "Vis/skjul filtre",
+      "filters": "Filtre",
+      "filterOptions": "Filteralternativer",
+      "topic": "Emne",
+      "numberOfDots": "Antall prikker",
+      "recentlyAddedOnly": "Kun nylig lagt til",
+      "clearAllFilters": "Fjern alle filtre",
+      "clearFilters": "Fjern filtre",
       "resultsFound": "{count, plural, one {# puslespill funnet} other {# puslespill funnet}}",
+      "puzzlesAvailable": "{count, plural, one {# puslespill tilgjengelig} other {# puslespill tilgjengelige}}",
       "noMatches": "Ingen gåter samsvarte med søket ditt.",
-      "imageAlt": "{name} punkt-til-punkt utskrivbar"
+      "openPuzzle": "Åpne {name}",
+      "imageAlt": "{name} punkt-til-punkt utskrivbar",
+      "viewPuzzle": "Se puslespill →",
+      "dotRanges": {
+        "under35": "Under 35 prikker",
+        "35to50": "35-50 prikker",
+        "51to70": "51-70 prikker",
+        "over70": "70+ prikker"
+      },
+      "categories": {
+        "Dinosaurs": "Dinosaurer",
+        "Ocean": "Hav",
+        "Playgrounds": "Lekeplasser",
+        "Garden": "Hage",
+        "Cute": "Søtt",
+        "USA 250 Years": "USA 250 år",
+        "UAE": "UAE"
+      }
     },
     "newsletterForm": {
       "ariaLabel": "Få den gratis utskrivbare punkt-til-punkt-pakken",
@@ -410,6 +438,60 @@
       "recent_puzzle_slugs": "[\"circus-ringmaster-bear-dot-to-dot-puzzle\",\"circus-tent-dot-to-dot-puzzle\",\"space-rover-dot-to-dot-puzzle\",\"ringed-planet-dot-to-dot-puzzle\"]"
     },
     "purchase": {
+      "premium": {
+        "metaTitle": "Best of 2026 Premium prikk-til-prikk-puslespillpakke",
+        "metaDescription": "En utskriftsklar samling av de mest populære prikk-til-prikk-oppgavene for barn, samlet i én praktisk PDF.",
+        "eyebrow": "Utskriftsvennlig premiumsamling",
+        "heading": "Flere puslespill. Mindre leting. Alt i én praktisk PDF.",
+        "lede": "Best of 2026-samlingen samler våre favoritt prikk-til-prikk-aktiviteter i én lettvint utskriftspakke – perfekt for rolige stunder, regnværsdager, hjemmeundervisning og klasserommet.",
+        "digitalPdf": "Digital PDF",
+        "printAtHome": "Skriv ut hjemme",
+        "instantAccess": "Umiddelbar tilgang",
+        "purchaseAria": "Kjøp Best of 2026-puslespillpakken",
+        "coverAlt": "Best of 2026 - 25 prikk-til-prikk-puslespill, bokomslag",
+        "oneTime": "engangsbeløp",
+        "buyButton": "Få puslespillpakken",
+        "localNote": "På localhost åpner dette en trygg kassedemo, og det belastes aldri noe kort.",
+        "detailsEyebrow": "Laget for enkel utskrift og lek",
+        "detailsHeading": "Alt du trenger for skjermfri moro",
+        "detailsText": "Last ned én gang, hold den for hånden, og skriv ut aktivitetene du vil ha når du trenger dem.",
+        "benefits": {
+          "onePdf": "Én praktisk PDF, klar for utskrift",
+          "kidFriendly": "Barnevennlige puslespill med varierende vanskelighetsgrad",
+          "paperSizes": "Fungerer på US Letter- og A4-papir",
+          "instantAccess": "Umiddelbar tilgang etter vellykket betaling",
+          "classroomUse": "Kan brukes hjemme eller i ett klasserom"
+        },
+        "guaranteeHeading": "Enkelt, trygt og klart på få minutter",
+        "guaranteeText": "Etter betaling vises din private nedlastingslenke umiddelbart. Ingen abonnement og ingen overraskende fornyelse."
+      },
+      "checkout": {
+        "consent": "Jeg godtar umiddelbar levering av denne digitale PDF-en og forstår at når tilgangen har startet, er kjøpet endelig og kan ikke refunderes, unntatt der loven krever det, eller hvis filen ikke leveres eller er defekt.",
+        "refundPolicy": "Les refusjonspolicyen",
+        "opening": "Åpner betalingsløsningen...",
+        "secureNote": "Trygg betaling levert av Stripe. Engangsbetaling. Ingen abonnement.",
+        "error": "Noe gikk galt under start av betalingen. Prøv igjen."
+      },
+      "success": {
+        "metaTitle": "Takk for kjøpet ditt",
+        "eyebrow": "Betaling bekreftet",
+        "heading": "Takk! Kjøpet ditt er fullført.",
+        "lede": "Betalingen din var vellykket. Det kan ta noen sekunder før kjøpet vises på kontoen din."
+      },
+      "cancelled": {
+        "metaTitle": "Betaling avbrutt",
+        "eyebrow": "Ingen betaling ble gjennomført",
+        "heading": "Betaling avbrutt",
+        "lede": "Ingen belastning ble gjort. Du kan prøve igjen når som helst."
+      },
+      "download": {
+        "demoTitle": "Lokal betalingstest bestått.",
+        "demoText": "Den ekte suksessiden viser PDF-nedlastingsknappen her. Den lokale demoen gir ikke ut den private filen.",
+        "button": "Last ned puslespillpakken din",
+        "expires": "Denne lenken utløper om 24 timer. Lagre nedlastingen din et trygt sted.",
+        "failed": "Vi kunne ikke bekrefte kjøpet ditt ennå. Hvis du ble belastet, kan du oppdatere denne siden om et minutt eller kontakte oss for hjelp.",
+        "preparing": "Forbereder nedlastingen din..."
+      },
       "ad": {
         "packName": "Pakke med prikk-til-prikk-oppgaver",
         "pdfBook": "PDF-BOK",
@@ -418,8 +500,99 @@
         "viewBook": "Se bok"
       },
       "shared": {
-        "specialSale": "SPESIALTILBUD"
+        "specialSale": "SPESIALTILBUD",
+        "returnToPack": "Tilbake til puslespillpakken",
+        "contactUs": "Kontakt oss"
       }
+    },
+    "puzzleDetail": {
+      "agesLabel": "Alder:",
+      "dotsLabel": "Prikker:",
+      "freeLabel": "100 % gratis",
+      "difficultyHeading": "Vanskelighet",
+      "difficultyEasy": "Lett",
+      "difficultyMedium": "Medium",
+      "difficultyHard": "Hard",
+      "funFactPrefix": "Morsomt faktum:",
+      "funFactLabel": "Morsomt faktum!",
+      "noSignUp": "Ingen påmelding nødvendig.Åpnes som PDF.Skriv ut på US Letter (8,5 × 11 tommer) eller A4-papir.Gratis for hjemme- og klasseromsbruk.",
+      "comingSoon": "Last ned gratis PDF – Kommer snart",
+      "youMightLike": "Du vil kanskje også like",
+      "faqQ1": "Hvilken alder er {name} prikken å prikke puslespillet for?",
+      "faqA1": "Den er designet for alderen {age}.Med {dots} prikker passer det barn som trygt kan telle til {dots};yngre barn kan fullføre det med litt hjelp.",
+      "faqQ2": "Hvordan skriver jeg ut {name}-regnearket?",
+      "faqA2": "Klikk på nedlastingsknappen for å få den gratis PDF-filen, og skriv den deretter ut på vanlig papir (A4 eller US Letter) fra hvilken som helst nettleser eller PDF-leser.Ingen spesiell programvare er nødvendig.",
+      "faqQ3": "Er {name} utskrivbar virkelig gratis?",
+      "faqA3": "Ja – det er 100 % gratis, uten registrering, konto eller betaling nødvendig.Du kan skrive den ut for hjemme- eller klasseromsbruk.",
+      "colorGuideHeading": "Fargeleggingsguide",
+      "dotGuideHeading": "Hvordan løse prikk-til-prikk-puslespillet {name}?"
+    },
+    "downloadButton": {
+      "label": "Last ned gratis utskriftsvennlig PDF",
+      "usage": "Gratis for hjemme- og klasseromsbruk.",
+      "paperNote": "Størrelse for {size} papir.",
+      "paperLetter": "US Letter",
+      "paperA4": "A4",
+      "alternateLink": "Foretrekker du {size}?Last ned den versjonen",
+      "downloadSize": "Last ned (Utskriftsstørrelse: {size})"
+    },
+    "downloadBadge": {
+      "downloaded": "Lastet ned",
+      "times": "ganger",
+      "greatChoice": "Du har gjort et godt valg!"
+    },
+    "shareButtons": {
+      "label": "Dele",
+      "copyLink": "Kopier lenken",
+      "copied": "Linken er kopiert!",
+      "shareMe": "Del meg"
+    },
+    "blogPage": {
+      "eyebrow": "Læringsressurser",
+      "h1": "Punkt til prikk-ideer for foreldre og lærere",
+      "description": "Praktiske veiledninger for valg av aktiviteter, utvikling av tidlige læringsferdigheter og bruk av utskrivbare arbeidsark hjemme eller i klasserommet.",
+      "breadcrumb": "Blogg",
+      "latestEyebrow": "Siste artikler",
+      "latestH2": "Nyttige ideer du kan bruke i dag",
+      "readArticle": "Les artikkelen",
+      "by": "Ved",
+      "backToAll": "← Tilbake til alle artikler",
+      "savePinterest": "Lagre på Pinterest",
+      "relatedEyebrow": "Gratis utskriftsmateriale",
+      "relatedHeading": "Prøv disse punkt-til-punkt-samlingene neste gang"
+    },
+    "canadaPage": {
+      "category": "Canada"
+    },
+    "circusPage": {
+      "category": "Sirkus"
+    },
+    "cutePage": {
+      "category": "Søt"
+    },
+    "dinosaursPage": {
+      "category": "Dinosaurer"
+    },
+    "flowersPage": {
+      "category": "Blomster"
+    },
+    "gardenPage": {
+      "category": "Hage"
+    },
+    "oceanPage": {
+      "category": "Hav"
+    },
+    "playgroundsPage": {
+      "category": "Lekeplasser"
+    },
+    "spacePage": {
+      "category": "Rom"
+    },
+    "uaePage": {
+      "category": "De forente arabiske emirater"
+    },
+    "usa250Page": {
+      "category": "USAs 250-årsjubileum"
     }
   }
 }

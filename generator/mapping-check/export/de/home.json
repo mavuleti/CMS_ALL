@@ -370,10 +370,38 @@
       "breadcrumbAria": "Brotkrumen"
     },
     "puzzleSearch": {
+      "placeholder": "Nach Name oder Thema suchen... z. B. Ozean, Wal, T-Rex",
       "searchAria": "Rätsel suchen",
+      "clearSearch": "Suche löschen",
+      "toggleFilters": "Filter ein-/ausblenden",
+      "filters": "Filter",
+      "filterOptions": "Filteroptionen",
+      "topic": "Thema",
+      "numberOfDots": "Anzahl der Punkte",
+      "recentlyAddedOnly": "Nur kürzlich hinzugefügt",
+      "clearAllFilters": "Alle Filter löschen",
+      "clearFilters": "Filter löschen",
       "resultsFound": "{count, plural, one {# Rätsel gefunden} other {# Rätsel gefunden}}",
+      "puzzlesAvailable": "{count, plural, one {# Rätsel verfügbar} other {# Rätsel verfügbar}}",
       "noMatches": "Keine Rätsel passen zu deiner Suche.",
-      "imageAlt": "{name} Punkt-zu-Punkt-Druckvorlage"
+      "openPuzzle": "{name} öffnen",
+      "imageAlt": "{name} Punkt-zu-Punkt-Druckvorlage",
+      "viewPuzzle": "Rätsel ansehen →",
+      "dotRanges": {
+        "under35": "Unter 35 Punkte",
+        "35to50": "35-50 Punkte",
+        "51to70": "51-70 Punkte",
+        "over70": "70+ Punkte"
+      },
+      "categories": {
+        "Dinosaurs": "Dinosaurier",
+        "Ocean": "Ozean",
+        "Playgrounds": "Spielplätze",
+        "Garden": "Garten",
+        "Cute": "Niedlich",
+        "USA 250 Years": "USA 250 Jahre",
+        "UAE": "VAE"
+      }
     },
     "newsletterForm": {
       "ariaLabel": "Kostenloses Punkt-zu-Punkt-Druckpaket erhalten",
@@ -410,16 +438,161 @@
       "recent_puzzle_slugs": "[\"circus-ringmaster-bear-dot-to-dot-puzzle\",\"circus-tent-dot-to-dot-puzzle\",\"space-rover-dot-to-dot-puzzle\",\"ringed-planet-dot-to-dot-puzzle\"]"
     },
     "purchase": {
+      "premium": {
+        "metaTitle": "Best of 2026 Premium Verbinde-die-Punkte-Rätselpaket",
+        "metaDescription": "Eine druckfertige Sammlung beliebter Verbinde-die-Punkte-Rätsel für Kinder, gebündelt in einer praktischen PDF-Datei.",
+        "eyebrow": "Druckbare Premium-Sammlung",
+        "heading": "Mehr Rätsel. Weniger Suchen. Alles in einer praktischen PDF-Datei.",
+        "lede": "Die Best-of-2026-Sammlung vereint unsere beliebtesten Verbinde-die-Punkte-Aktivitäten in einem druckfertigen Paket für ruhige Stunden, Regentage, Homeschooling und den Unterricht.",
+        "digitalPdf": "Digitale PDF",
+        "printAtHome": "Zu Hause ausdrucken",
+        "instantAccess": "Sofortiger Zugriff",
+        "purchaseAria": "Das Best-of-2026-Rätselpaket kaufen",
+        "coverAlt": "Best of 2026 - 25 Verbinde-die-Punkte-Rätsel, Buchcover",
+        "oneTime": "einmalig",
+        "buyButton": "Rätselpaket sichern",
+        "localNote": "Auf localhost öffnet dies eine sichere Checkout-Demo, bei der niemals eine Karte belastet wird.",
+        "detailsEyebrow": "Für einfaches Drucken und Spielen gemacht",
+        "detailsHeading": "Alles für bildschirmfreien Spaß",
+        "detailsText": "Einmal herunterladen, griffbereit halten und die gewünschten Aktivitäten ausdrucken, wann immer Sie sie brauchen.",
+        "benefits": {
+          "onePdf": "Eine praktische, druckfertige PDF-Datei",
+          "kidFriendly": "Kindgerechte Rätsel mit unterschiedlichem Schwierigkeitsgrad",
+          "paperSizes": "Geeignet für US-Letter- und A4-Papier",
+          "instantAccess": "Sofortiger Zugriff nach erfolgreicher Zahlung",
+          "classroomUse": "Nutzbar zu Hause oder in einem Klassenzimmer"
+        },
+        "guaranteeHeading": "Einfach, sicher und in wenigen Minuten startklar",
+        "guaranteeText": "Nach dem Bezahlvorgang erscheint sofort Ihr privater Download-Link. Kein Abonnement und keine überraschende Verlängerung."
+      },
+      "checkout": {
+        "consent": "Ich stimme der sofortigen Bereitstellung dieser digitalen PDF-Datei zu und verstehe, dass der Kauf nach Beginn des Zugriffs endgültig und nicht erstattungsfähig ist, außer wenn gesetzlich vorgeschrieben oder wenn die Datei nicht geliefert wird oder fehlerhaft ist.",
+        "refundPolicy": "Rückerstattungsrichtlinie lesen",
+        "opening": "Checkout wird geöffnet...",
+        "secureNote": "Sicherer Checkout powered by Stripe. Einmalzahlung. Kein Abonnement.",
+        "error": "Beim Starten des Bezahlvorgangs ist etwas schiefgelaufen. Bitte versuchen Sie es erneut."
+      },
+      "success": {
+        "metaTitle": "Vielen Dank für Ihren Kauf",
+        "eyebrow": "Zahlung bestätigt",
+        "heading": "Vielen Dank! Ihr Kauf ist abgeschlossen.",
+        "lede": "Ihre Zahlung war erfolgreich. Es kann einige Sekunden dauern, bis Ihr Kauf in Ihrem Konto erscheint."
+      },
+      "cancelled": {
+        "metaTitle": "Checkout abgebrochen",
+        "eyebrow": "Keine Zahlung erfolgt",
+        "heading": "Checkout abgebrochen",
+        "lede": "Es wurde keine Zahlung vorgenommen. Sie können es jederzeit erneut versuchen."
+      },
+      "download": {
+        "demoTitle": "Lokaler Checkout-Test erfolgreich.",
+        "demoText": "Der echte Erfolgsbildschirm zeigt hier den PDF-Download-Button. Die lokale Demo gibt die private Datei nicht frei.",
+        "button": "Rätselpaket herunterladen",
+        "expires": "Dieser Link läuft in 24 Stunden ab. Speichern Sie Ihren Download an einem sicheren Ort.",
+        "failed": "Wir konnten Ihren Kauf noch nicht bestätigen. Falls Sie belastet wurden, aktualisieren Sie diese Seite in einer Minute erneut oder kontaktieren Sie uns.",
+        "preparing": "Ihr Download wird vorbereitet..."
+      },
       "ad": {
-        "packName": "Punkt-zu-Punkt-R?tselpaket",
+        "packName": "Punkt-zu-Punkt-Rätselpaket",
         "pdfBook": "PDF-BUCH",
         "bookTitle": "Das Beste aus 2026",
-        "puzzleCount": "25 Punkt-zu-Punkt-R?tsel",
+        "puzzleCount": "25 Punkt-zu-Punkt-Rätsel",
         "viewBook": "Buch ansehen"
       },
       "shared": {
-        "specialSale": "SONDERANGEBOT"
+        "specialSale": "SONDERANGEBOT",
+        "returnToPack": "Zurück zum Rätselpaket",
+        "contactUs": "Kontaktieren Sie uns"
       }
+    },
+    "puzzleDetail": {
+      "agesLabel": "Alter:",
+      "dotsLabel": "Punkte:",
+      "freeLabel": "100 % kostenlos",
+      "difficultyHeading": "Schwierigkeit",
+      "difficultyEasy": "Einfach",
+      "difficultyMedium": "Medium",
+      "difficultyHard": "Hart",
+      "funFactPrefix": "Interessante Tatsache:",
+      "funFactLabel": "Lustige Tatsache!",
+      "noSignUp": "Keine Anmeldung erforderlich.Öffnet als PDF.Drucken Sie auf US-Letter- (8,5 × 11 Zoll) oder A4-Papier.Kostenlos für den Gebrauch zu Hause und im Klassenzimmer.",
+      "comingSoon": "Kostenloses PDF herunterladen – Demnächst verfügbar",
+      "youMightLike": "Das könnte Ihnen auch gefallen",
+      "faqQ1": "Für welches Alter ist das Punkt-zu-Punkt-Rätsel {name} geeignet?",
+      "faqA1": "Es ist für Kinder ab {age} konzipiert.Mit {dots} dots eignet es sich für Kinder, die sicher bis {dots} zählen können;Jüngere Kinder können es mit etwas Hilfe vervollständigen.",
+      "faqQ2": "Wie drucke ich das Arbeitsblatt „{name}“ aus?",
+      "faqA2": "Klicken Sie auf den Download-Button, um das kostenlose PDF zu erhalten, und drucken Sie es dann in einem beliebigen Browser oder PDF-Reader auf Normalpapier (A4 oder US-Letter) aus.Es ist keine spezielle Software erforderlich.",
+      "faqQ3": "Ist die Druckversion von {name} wirklich kostenlos?",
+      "faqA3": "Ja – es ist 100 % kostenlos, eine Anmeldung, ein Konto oder eine Zahlung sind nicht erforderlich.Sie können es für den Gebrauch zu Hause oder im Klassenzimmer ausdrucken.",
+      "colorGuideHeading": "Ausmal-Anleitung",
+      "dotGuideHeading": "Wie löst man das Punkt-zu-Punkt-Rätsel {name}?"
+    },
+    "downloadButton": {
+      "label": "Laden Sie das kostenlose druckbare PDF herunter",
+      "usage": "Kostenlos für den Gebrauch zu Hause und im Klassenzimmer.",
+      "paperNote": "Größe für Papier der Größe {size}.",
+      "paperLetter": "US-Brief",
+      "paperA4": "A4",
+      "alternateLink": "Bevorzugen Sie {size}?Laden Sie diese Version herunter",
+      "downloadSize": "Herunterladen (Druckgröße: {size})"
+    },
+    "downloadBadge": {
+      "downloaded": "Heruntergeladen",
+      "times": "mal",
+      "greatChoice": "Sie haben eine gute Wahl getroffen!"
+    },
+    "shareButtons": {
+      "label": "Aktie",
+      "copyLink": "Link kopieren",
+      "copied": "Link kopiert!",
+      "shareMe": "Teile mich"
+    },
+    "blogPage": {
+      "eyebrow": "Lernressourcen",
+      "h1": "Punkt-zu-Punkt-Ideen für Eltern und Lehrer",
+      "description": "Praktische Leitfäden für die Auswahl von Aktivitäten, den Aufbau früher Lernfähigkeiten und die Verwendung druckbarer Arbeitsblätter zu Hause oder im Klassenzimmer.",
+      "breadcrumb": "Blog",
+      "latestEyebrow": "Neueste Artikel",
+      "latestH2": "Hilfreiche Ideen, die Sie heute nutzen können",
+      "readArticle": "Artikel lesen",
+      "by": "Von",
+      "backToAll": "← Zurück zu allen Artikeln",
+      "savePinterest": "Auf Pinterest speichern",
+      "relatedEyebrow": "Kostenlose Ausdrucke",
+      "relatedHeading": "Probieren Sie als nächstes diese Punkt-zu-Punkt-Kollektionen aus"
+    },
+    "canadaPage": {
+      "category": "Kanada"
+    },
+    "circusPage": {
+      "category": "Zirkus"
+    },
+    "cutePage": {
+      "category": "Niedlich"
+    },
+    "dinosaursPage": {
+      "category": "Dinosaurier"
+    },
+    "flowersPage": {
+      "category": "Blumen"
+    },
+    "gardenPage": {
+      "category": "Garten"
+    },
+    "oceanPage": {
+      "category": "Ozean"
+    },
+    "playgroundsPage": {
+      "category": "Spielplätze"
+    },
+    "spacePage": {
+      "category": "Raum"
+    },
+    "uaePage": {
+      "category": "Vereinigte Arabische Emirate"
+    },
+    "usa250Page": {
+      "category": "250. Jahrestag der USA"
     }
   }
 }

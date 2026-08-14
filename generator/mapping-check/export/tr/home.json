@@ -370,10 +370,38 @@
       "breadcrumbAria": "İz"
     },
     "puzzleSearch": {
+      "placeholder": "İsim veya konuya göre ara... örn. okyanus, balina, T-Rex",
       "searchAria": "Arama bulmacaları",
+      "clearSearch": "Aramayı temizle",
+      "toggleFilters": "Filtreleri göster/gizle",
+      "filters": "Filtreler",
+      "filterOptions": "Filtre seçenekleri",
+      "topic": "Konu",
+      "numberOfDots": "Nokta sayısı",
+      "recentlyAddedOnly": "Yalnızca yeni eklenenler",
+      "clearAllFilters": "Tüm filtreleri temizle",
+      "clearFilters": "Filtreleri temizle",
       "resultsFound": "{count, plural, one {# bulmaca bulundu} other {# bulmaca bulundu}}",
+      "puzzlesAvailable": "{count, plural, one {# bulmaca mevcut} other {# bulmaca mevcut}}",
       "noMatches": "Arama kriterlerinize uygun bulmaca bulunamadı.",
-      "imageAlt": "{name} noktadan noktaya birleştirme yazdırılabilir"
+      "openPuzzle": "{name} aç",
+      "imageAlt": "{name} noktadan noktaya birleştirme yazdırılabilir",
+      "viewPuzzle": "Bulmacayı görüntüle →",
+      "dotRanges": {
+        "under35": "35 noktanın altı",
+        "35to50": "35-50 nokta",
+        "51to70": "51-70 nokta",
+        "over70": "70+ nokta"
+      },
+      "categories": {
+        "Dinosaurs": "Dinozorlar",
+        "Ocean": "Okyanus",
+        "Playgrounds": "Oyun alanları",
+        "Garden": "Bahçe",
+        "Cute": "Sevimli",
+        "USA 250 Years": "ABD 250. Yıl",
+        "UAE": "BAE"
+      }
     },
     "newsletterForm": {
       "ariaLabel": "Ücretsiz noktadan noktaya birleştirme şablonu paketini edinin.",
@@ -410,16 +438,161 @@
       "recent_puzzle_slugs": "[\"circus-ringmaster-bear-dot-to-dot-puzzle\",\"circus-tent-dot-to-dot-puzzle\",\"space-rover-dot-to-dot-puzzle\",\"ringed-planet-dot-to-dot-puzzle\"]"
     },
     "purchase": {
+      "premium": {
+        "metaTitle": "Best of 2026 Premium Noktaları Birleştir Bulmaca Paketi",
+        "metaDescription": "Çocukların en sevdiği noktaları birleştir bulmacalarının, tek ve pratik bir PDF içinde toplanmış, baskıya hazır koleksiyonu.",
+        "eyebrow": "Baskıya uygun premium koleksiyon",
+        "heading": "Daha fazla bulmaca. Daha az arama. Her şey tek bir pratik PDF içinde.",
+        "lede": "Best of 2026 koleksiyonu, en sevdiğimiz noktaları birleştir etkinliklerini sakin anlar, yağmurlu günler, ev okulu ve sınıflar için kolayca yazdırılabilen tek bir pakette bir araya getiriyor.",
+        "digitalPdf": "Dijital PDF",
+        "printAtHome": "Evde yazdırın",
+        "instantAccess": "Anında erişim",
+        "purchaseAria": "Best of 2026 bulmaca paketini satın alın",
+        "coverAlt": "Best of 2026 - 25 Noktaları Birleştir Bulmacası kitap kapağı",
+        "oneTime": "tek seferlik",
+        "buyButton": "Bulmaca paketini edinin",
+        "localNote": "Localhost üzerinde bu, güvenli bir ödeme demosu açar ve hiçbir zaman karttan ücret çekmez.",
+        "detailsEyebrow": "Kolay yazdırma ve oynama için tasarlandı",
+        "detailsHeading": "Ekransız eğlence için ihtiyacınız olan her şey",
+        "detailsText": "Bir kez indirin, elinizin altında bulundurun ve ihtiyaç duyduğunuzda istediğiniz etkinlikleri yazdırın.",
+        "benefits": {
+          "onePdf": "Tek, pratik ve baskıya hazır bir PDF",
+          "kidFriendly": "Farklı zorluk seviyelerinde çocuk dostu bulmacalar",
+          "paperSizes": "US Letter ve A4 kağıt boyutlarıyla uyumlu",
+          "instantAccess": "Başarılı ödemenin ardından anında erişim",
+          "classroomUse": "Evde veya tek bir sınıfta kullanılabilir"
+        },
+        "guaranteeHeading": "Basit, güvenli ve dakikalar içinde hazır",
+        "guaranteeText": "Ödeme sonrasında özel indirme bağlantınız hemen görünür. Abonelik yok, sürpriz yenileme yok."
+      },
+      "checkout": {
+        "consent": "Bu dijital PDF'in anında teslim edilmesini kabul ediyorum ve erişim başladıktan sonra, yasa gereği zorunlu olmadıkça veya dosya teslim edilmez ya da kusurlu olmadıkça satışın kesin ve iade edilemez olduğunu anlıyorum.",
+        "refundPolicy": "İade politikasını okuyun",
+        "opening": "Ödeme sayfası açılıyor...",
+        "secureNote": "Stripe tarafından desteklenen güvenli ödeme. Tek seferlik ödeme. Abonelik yok.",
+        "error": "Ödeme başlatılırken bir şeyler ters gitti. Lütfen tekrar deneyin."
+      },
+      "success": {
+        "metaTitle": "Satın Aldığınız İçin Teşekkürler",
+        "eyebrow": "Ödeme onaylandı",
+        "heading": "Teşekkürler! Satın alma işleminiz tamamlandı.",
+        "lede": "Ödemeniz başarılı oldu. Satın alma işleminizin hesabınızda görünmesi birkaç saniye sürebilir."
+      },
+      "cancelled": {
+        "metaTitle": "Ödeme İptal Edildi",
+        "eyebrow": "Herhangi bir ödeme alınmadı",
+        "heading": "Ödeme iptal edildi",
+        "lede": "Herhangi bir ücret tahsil edilmedi. Dilediğiniz zaman tekrar deneyebilirsiniz."
+      },
+      "download": {
+        "demoTitle": "Yerel ödeme testi başarılı oldu.",
+        "demoText": "Gerçek başarılı ödeme ekranında PDF indirme düğmesi burada gösterilir. Yerel demo, özel dosyayı paylaşıma açmaz.",
+        "button": "Bulmaca paketinizi indirin",
+        "expires": "Bu bağlantının süresi 24 saat içinde dolar. İndirdiğiniz dosyayı güvenli bir yerde saklayın.",
+        "failed": "Satın alma işleminizi henüz onaylayamadık. Ücret tahsil edildiyse lütfen bir dakika sonra bu sayfayı yenileyin veya yardım için bizimle iletişime geçin.",
+        "preparing": "İndirmeniz hazırlanıyor..."
+      },
       "ad": {
-        "packName": "Noktalar? birle?tirme bulmaca paketi",
-        "pdfBook": "PDF K?TAP",
-        "bookTitle": "2026?n?n en iyileri",
-        "puzzleCount": "25 noktalar? birle?tirme bulmacas?",
-        "viewBook": "Kitab? g?r?nt?le"
+        "packName": "Noktadan Noktaya Bulmaca Paketi",
+        "pdfBook": "PDF KİTAP",
+        "bookTitle": "2026'nın En İyileri",
+        "puzzleCount": "25 Noktadan Noktaya Bulmaca",
+        "viewBook": "Kitabı görüntüle"
       },
       "shared": {
-        "specialSale": "?ZEL ?ND?R?M"
+        "specialSale": "Özel indirim",
+        "returnToPack": "Bulmaca paketine dön",
+        "contactUs": "Bize ulaşın"
       }
+    },
+    "puzzleDetail": {
+      "agesLabel": "Yaşlar:",
+      "dotsLabel": "Noktalar:",
+      "freeLabel": "%100 Ücretsiz",
+      "difficultyHeading": "Zorluk",
+      "difficultyEasy": "Kolay",
+      "difficultyMedium": "Orta",
+      "difficultyHard": "Zor",
+      "funFactPrefix": "Eğlenceli gerçek:",
+      "funFactLabel": "Eğlenceli gerçek!",
+      "noSignUp": "Kayıt olmanıza gerek yok.PDF olarak açılır.US Letter (8,5 × 11 inç) veya A4 kağıda yazdırın.Ev ve sınıf kullanımı için ücretsizdir.",
+      "comingSoon": "Ücretsiz PDF İndir – Çok Yakında",
+      "youMightLike": "Şunları da beğenebilirsin",
+      "faqQ1": "{name} nokta nokta bulmacası kaç yaş için?",
+      "faqA1": "{age} yaşları için tasarlanmıştır.{dots} nokta ile güvenle {dots}'ya kadar sayabilen çocuklara uygundur;küçük çocuklar biraz yardımla bunu tamamlayabilirler.",
+      "faqQ2": "{name} çalışma sayfasını nasıl yazdırırım?",
+      "faqA2": "Ücretsiz PDF'yi almak için indirme düğmesine tıklayın, ardından herhangi bir tarayıcıdan veya PDF okuyucudan normal kağıda (A4 veya US Letter) yazdırın.Özel bir yazılıma gerek yoktur.",
+      "faqQ3": "{name} yazdırılabilir gerçekten ücretsiz mi?",
+      "faqA3": "Evet — %100 ücretsizdir; kayıt, hesap veya ödeme gerektirmez.Evde veya sınıfta kullanmak üzere yazdırabilirsiniz.",
+      "colorGuideHeading": "Boyama Rehberi",
+      "dotGuideHeading": "{name} noktaları birleştir bulmacası nasıl çözülür?"
+    },
+    "downloadButton": {
+      "label": "Ücretsiz Yazdırılabilir PDF'yi İndirin",
+      "usage": "Ev ve sınıf kullanımı için ücretsizdir.",
+      "paperNote": "{size} kağıt için boyutlandırılmıştır.",
+      "paperLetter": "ABD Mektubu",
+      "paperA4": "A4",
+      "alternateLink": "{size}'ı mı tercih edersiniz?Bu sürümü indirin",
+      "downloadSize": "İndir (Baskı Boyutu: {size})"
+    },
+    "downloadBadge": {
+      "downloaded": "İndirildi",
+      "times": "kez",
+      "greatChoice": "Harika bir seçim yaptın!"
+    },
+    "shareButtons": {
+      "label": "Paylaşmak",
+      "copyLink": "Bağlantıyı kopyala",
+      "copied": "Bağlantı kopyalandı!",
+      "shareMe": "Beni paylaş"
+    },
+    "blogPage": {
+      "eyebrow": "Öğrenme kaynakları",
+      "h1": "Ebeveynler ve Öğretmenler için Noktadan Noktaya Fikirler",
+      "description": "Etkinlik seçimi, erken öğrenme becerilerinin geliştirilmesi ve yazdırılabilir çalışma sayfalarının evde veya sınıfta kullanılması için pratik kılavuzlar.",
+      "breadcrumb": "Blog",
+      "latestEyebrow": "En son makaleler",
+      "latestH2": "Bugün kullanabileceğiniz faydalı fikirler",
+      "readArticle": "Makaleyi okuyun",
+      "by": "İle",
+      "backToAll": "← Tüm makalelere geri dön",
+      "savePinterest": "Pinterest'e kaydet",
+      "relatedEyebrow": "Ücretsiz basılabilirler",
+      "relatedHeading": "Şimdi bu noktadan noktaya koleksiyonları deneyin"
+    },
+    "canadaPage": {
+      "category": "Kanada"
+    },
+    "circusPage": {
+      "category": "Sirk"
+    },
+    "cutePage": {
+      "category": "Sevimli"
+    },
+    "dinosaursPage": {
+      "category": "Dinozorlar"
+    },
+    "flowersPage": {
+      "category": "Çiçekler"
+    },
+    "gardenPage": {
+      "category": "Bahçe"
+    },
+    "oceanPage": {
+      "category": "Okyanus"
+    },
+    "playgroundsPage": {
+      "category": "Oyun Alanları"
+    },
+    "spacePage": {
+      "category": "Uzay"
+    },
+    "uaePage": {
+      "category": "Birleşik Arap Emirlikleri"
+    },
+    "usa250Page": {
+      "category": "ABD 250. Yıldönümü"
     }
   }
 }

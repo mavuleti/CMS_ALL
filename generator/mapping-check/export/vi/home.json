@@ -370,10 +370,38 @@
       "breadcrumbAria": "Đường dẫn điều hướng"
     },
     "puzzleSearch": {
+      "placeholder": "Tìm theo tên hoặc chủ đề... vd. đại dương, cá voi, T-Rex",
       "searchAria": "Tìm câu đố",
+      "clearSearch": "Xóa tìm kiếm",
+      "toggleFilters": "Bật/tắt bộ lọc",
+      "filters": "Bộ lọc",
+      "filterOptions": "Tùy chọn bộ lọc",
+      "topic": "Chủ đề",
+      "numberOfDots": "Số lượng chấm",
+      "recentlyAddedOnly": "Chỉ mới thêm gần đây",
+      "clearAllFilters": "Xóa tất cả bộ lọc",
+      "clearFilters": "Xóa bộ lọc",
       "resultsFound": "{count, plural, one {# câu đố đã được tìm thấy} other {# câu đố đã tìm thấy}}",
+      "puzzlesAvailable": "{count, plural, other {# câu đố khả dụng}}",
       "noMatches": "Không có câu đố nào phù hợp với tìm kiếm của bạn.",
-      "imageAlt": "{name} nối điểm có thể in được"
+      "openPuzzle": "Mở {name}",
+      "imageAlt": "{name} nối điểm có thể in được",
+      "viewPuzzle": "Xem câu đố →",
+      "dotRanges": {
+        "under35": "Dưới 35 chấm",
+        "35to50": "35-50 chấm",
+        "51to70": "51-70 chấm",
+        "over70": "70+ chấm"
+      },
+      "categories": {
+        "Dinosaurs": "Khủng long",
+        "Ocean": "Đại dương",
+        "Playgrounds": "Sân chơi",
+        "Garden": "Vườn",
+        "Cute": "Dễ thương",
+        "USA 250 Years": "Mỹ 250 năm",
+        "UAE": "UAE"
+      }
     },
     "newsletterForm": {
       "ariaLabel": "Tải xuống bộ tài liệu in hình nối điểm miễn phí",
@@ -410,16 +438,161 @@
       "recent_puzzle_slugs": "[\"circus-ringmaster-bear-dot-to-dot-puzzle\",\"circus-tent-dot-to-dot-puzzle\",\"space-rover-dot-to-dot-puzzle\",\"ringed-planet-dot-to-dot-puzzle\"]"
     },
     "purchase": {
+      "premium": {
+        "metaTitle": "Gói Premium Best of 2026 Câu Đố Nối Điểm",
+        "metaDescription": "Bộ sưu tập sẵn sàng để in gồm những câu đố nối điểm được trẻ em yêu thích nhất, gộp chung trong một file PDF tiện lợi.",
+        "eyebrow": "Bộ sưu tập premium có thể in",
+        "heading": "Nhiều câu đố hơn. Ít tìm kiếm hơn. Tất cả trong một file PDF tiện lợi.",
+        "lede": "Bộ sưu tập Best of 2026 tập hợp những hoạt động nối điểm yêu thích của chúng tôi vào một gói dễ in, phù hợp cho giờ nghỉ ngơi, ngày mưa, học tại nhà và lớp học.",
+        "digitalPdf": "PDF kỹ thuật số",
+        "printAtHome": "In tại nhà",
+        "instantAccess": "Truy cập tức thì",
+        "purchaseAria": "Mua gói câu đố Best of 2026",
+        "coverAlt": "Best of 2026 - Bìa sách 25 câu đố Nối Điểm",
+        "oneTime": "thanh toán một lần",
+        "buyButton": "Nhận gói câu đố",
+        "localNote": "Trên localhost, thao tác này sẽ mở một bản demo thanh toán an toàn và không bao giờ tính phí bất kỳ thẻ nào.",
+        "detailsEyebrow": "Được thiết kế để in và chơi dễ dàng",
+        "detailsHeading": "Mọi thứ bạn cần cho niềm vui không màn hình",
+        "detailsText": "Tải xuống một lần, giữ sẵn bên mình và in những hoạt động bạn muốn bất cứ khi nào cần.",
+        "benefits": {
+          "onePdf": "Một file PDF tiện lợi, sẵn sàng để in",
+          "kidFriendly": "Câu đố thân thiện với trẻ em, có nhiều mức độ khó khác nhau",
+          "paperSizes": "Phù hợp với giấy khổ US Letter và A4",
+          "instantAccess": "Truy cập tức thì sau khi thanh toán thành công",
+          "classroomUse": "Có thể sử dụng tại nhà hoặc trong một lớp học"
+        },
+        "guaranteeHeading": "Đơn giản, an toàn và sẵn sàng chỉ trong vài phút",
+        "guaranteeText": "Sau khi thanh toán, liên kết tải xuống riêng của bạn sẽ xuất hiện ngay lập tức. Không cần đăng ký thuê bao và không có gia hạn bất ngờ."
+      },
+      "checkout": {
+        "consent": "Tôi đồng ý với việc giao ngay file PDF kỹ thuật số này và hiểu rằng, sau khi quyền truy cập bắt đầu, giao dịch mua là cuối cùng và không được hoàn tiền, trừ khi pháp luật yêu cầu hoặc nếu tệp không được giao hoặc bị lỗi.",
+        "refundPolicy": "Đọc chính sách hoàn tiền",
+        "opening": "Đang mở trang thanh toán...",
+        "secureNote": "Thanh toán an toàn được hỗ trợ bởi Stripe. Thanh toán một lần. Không có đăng ký thuê bao.",
+        "error": "Đã xảy ra sự cố khi bắt đầu thanh toán. Vui lòng thử lại."
+      },
+      "success": {
+        "metaTitle": "Cảm Ơn Bạn Đã Mua Hàng",
+        "eyebrow": "Đã xác nhận thanh toán",
+        "heading": "Cảm ơn bạn! Giao dịch mua của bạn đã hoàn tất.",
+        "lede": "Thanh toán của bạn đã thành công. Có thể mất vài giây để giao dịch mua hiển thị trong tài khoản của bạn."
+      },
+      "cancelled": {
+        "metaTitle": "Đã Hủy Thanh Toán",
+        "eyebrow": "Không có khoản thanh toán nào được thực hiện",
+        "heading": "Đã hủy thanh toán",
+        "lede": "Không có khoản phí nào được tính. Bạn có thể thử lại bất cứ lúc nào."
+      },
+      "download": {
+        "demoTitle": "Thử nghiệm thanh toán cục bộ đã thành công.",
+        "demoText": "Màn hình thành công thực tế sẽ hiển thị nút tải xuống PDF tại đây. Bản demo cục bộ này không phát hành tệp riêng tư.",
+        "button": "Tải xuống gói câu đố của bạn",
+        "expires": "Liên kết này sẽ hết hạn sau 24 giờ. Hãy lưu tệp đã tải xuống của bạn ở nơi an toàn.",
+        "failed": "Chúng tôi chưa thể xác nhận giao dịch mua của bạn. Nếu bạn đã bị tính phí, vui lòng làm mới trang này sau một phút hoặc liên hệ với chúng tôi để được trợ giúp.",
+        "preparing": "Đang chuẩn bị tệp tải xuống của bạn..."
+      },
       "ad": {
-        "packName": "G?i c?u ?? n?i ?i?m",
-        "pdfBook": "S?CH PDF",
-        "bookTitle": "Tuy?n ch?n hay nh?t 2026",
-        "puzzleCount": "25 c?u ?? n?i ?i?m",
-        "viewBook": "Xem s?ch"
+        "packName": "Gói câu đố Dot-to-Dot",
+        "pdfBook": "SÁCH PDF",
+        "bookTitle": "Tốt nhất năm 2026",
+        "puzzleCount": "25 câu đố chấm-điểm",
+        "viewBook": "Xem sách"
       },
       "shared": {
-        "specialSale": "?U ??I ??C BI?T"
+        "specialSale": "Giảm giá đặc biệt",
+        "returnToPack": "Quay lại gói câu đố",
+        "contactUs": "Liên hệ với chúng tôi"
       }
+    },
+    "puzzleDetail": {
+      "agesLabel": "Độ tuổi:",
+      "dotsLabel": "Dấu chấm:",
+      "freeLabel": "Miễn phí 100%",
+      "difficultyHeading": "Khó khăn",
+      "difficultyEasy": "Dễ",
+      "difficultyMedium": "Trung bình",
+      "difficultyHard": "Cứng",
+      "funFactPrefix": "Sự thật thú vị:",
+      "funFactLabel": "Sự thật thú vị!",
+      "noSignUp": "Không cần đăng ký.Mở dưới dạng PDF.In trên giấy US Letter (8,5×11 inch) hoặc giấy A4.Miễn phí sử dụng tại nhà và lớp học.",
+      "comingSoon": "Tải xuống bản PDF miễn phí – Sắp ra mắt",
+      "youMightLike": "Bạn cũng có thể thích",
+      "faqQ1": "Câu đố về dấu chấm của {name} dành cho độ tuổi nào?",
+      "faqA1": "Nó được thiết kế cho lứa tuổi {age}.Với {dots} dấu chấm, phù hợp với những trẻ có thể tự tin đếm đến {dots};trẻ nhỏ hơn có thể hoàn thành nó với một chút giúp đỡ.",
+      "faqQ2": "Làm cách nào để in bảng tính {name}?",
+      "faqA2": "Nhấp vào nút tải xuống để nhận bản PDF miễn phí, sau đó in nó trên giấy thông thường (A4 hoặc US Letter) từ bất kỳ trình duyệt hoặc trình đọc PDF nào.Không cần phần mềm đặc biệt.",
+      "faqQ3": "Bản in {name} có thực sự miễn phí không?",
+      "faqA3": "Có - nó miễn phí 100%, không cần đăng ký, tài khoản hoặc thanh toán.Bạn có thể in nó để sử dụng ở nhà hoặc lớp học.",
+      "colorGuideHeading": "Hướng dẫn tô màu",
+      "dotGuideHeading": "Cách giải câu đố nối các chấm {name}?"
+    },
+    "downloadButton": {
+      "label": "Tải xuống bản PDF có thể in miễn phí",
+      "usage": "Miễn phí sử dụng tại nhà và lớp học.",
+      "paperNote": "Có kích thước cho giấy {size}.",
+      "paperLetter": "Thư Mỹ",
+      "paperA4": "A4",
+      "alternateLink": "Thích {size}?Tải xuống phiên bản đó",
+      "downloadSize": "Tải xuống (Kích thước in: {size})"
+    },
+    "downloadBadge": {
+      "downloaded": "Đã tải xuống",
+      "times": "lần",
+      "greatChoice": "Bạn đã có một sự lựa chọn tuyệt vời!"
+    },
+    "shareButtons": {
+      "label": "Chia sẻ",
+      "copyLink": "Sao chép liên kết",
+      "copied": "Đã sao chép liên kết!",
+      "shareMe": "Chia sẻ với tôi"
+    },
+    "blogPage": {
+      "eyebrow": "Tài nguyên học tập",
+      "h1": "Ý tưởng Dot to Dot dành cho phụ huynh và giáo viên",
+      "description": "Hướng dẫn thực tế để lựa chọn hoạt động, xây dựng kỹ năng học tập sớm và sử dụng các bài tập có thể in được ở nhà hoặc trong lớp học.",
+      "breadcrumb": "Blog",
+      "latestEyebrow": "Bài viết mới nhất",
+      "latestH2": "Những ý tưởng hữu ích bạn có thể sử dụng ngay hôm nay",
+      "readArticle": "Đọc bài viết",
+      "by": "Qua",
+      "backToAll": "← Quay lại tất cả các bài viết",
+      "savePinterest": "Lưu vào Pinterest",
+      "relatedEyebrow": "Bản in miễn phí",
+      "relatedHeading": "Hãy thử các bộ sưu tập dấu chấm này tiếp theo"
+    },
+    "canadaPage": {
+      "category": "Canada"
+    },
+    "circusPage": {
+      "category": "Xiếc"
+    },
+    "cutePage": {
+      "category": "Dễ thương"
+    },
+    "dinosaursPage": {
+      "category": "khủng long"
+    },
+    "flowersPage": {
+      "category": "hoa"
+    },
+    "gardenPage": {
+      "category": "Vườn"
+    },
+    "oceanPage": {
+      "category": "Đại dương"
+    },
+    "playgroundsPage": {
+      "category": "Sân chơi"
+    },
+    "spacePage": {
+      "category": "Không gian"
+    },
+    "uaePage": {
+      "category": "Các tiểu vương quốc Ả Rập thống nhất"
+    },
+    "usa250Page": {
+      "category": "Kỷ niệm 250 năm Hoa Kỳ"
     }
   }
 }

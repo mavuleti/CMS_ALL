@@ -370,10 +370,38 @@
       "breadcrumbAria": "Caminho de Navegação"
     },
     "puzzleSearch": {
+      "placeholder": "Pesquisar por nome ou tema... ex. oceano, baleia, T-Rex",
       "searchAria": "Quebra-cabeças de busca",
+      "clearSearch": "Limpar pesquisa",
+      "toggleFilters": "Mostrar/ocultar filtros",
+      "filters": "Filtros",
+      "filterOptions": "Opções de filtro",
+      "topic": "Tema",
+      "numberOfDots": "Número de pontos",
+      "recentlyAddedOnly": "Apenas adicionados recentemente",
+      "clearAllFilters": "Limpar todos os filtros",
+      "clearFilters": "Limpar filtros",
       "resultsFound": "{count, plural, one {# quebra-cabeça encontrado} other {# quebra-cabeças encontrados}}",
+      "puzzlesAvailable": "{count, plural, one {# quebra-cabeça disponível} other {# quebra-cabeças disponíveis}}",
       "noMatches": "Nenhum resultado correspondeu à sua pesquisa.",
-      "imageAlt": "{name} ligue os pontos imprimível"
+      "openPuzzle": "Abrir {name}",
+      "imageAlt": "{name} ligue os pontos imprimível",
+      "viewPuzzle": "Ver quebra-cabeça →",
+      "dotRanges": {
+        "under35": "Menos de 35 pontos",
+        "35to50": "35-50 pontos",
+        "51to70": "51-70 pontos",
+        "over70": "70+ pontos"
+      },
+      "categories": {
+        "Dinosaurs": "Dinossauros",
+        "Ocean": "Oceano",
+        "Playgrounds": "Playgrounds",
+        "Garden": "Jardim",
+        "Cute": "Fofo",
+        "USA 250 Years": "EUA 250 anos",
+        "UAE": "EAU"
+      }
     },
     "newsletterForm": {
       "ariaLabel": "Baixe o pacote gratuito de desenhos para ligar os pontos para imprimir.",
@@ -410,16 +438,161 @@
       "recent_puzzle_slugs": "[\"circus-ringmaster-bear-dot-to-dot-puzzle\",\"circus-tent-dot-to-dot-puzzle\",\"space-rover-dot-to-dot-puzzle\",\"ringed-planet-dot-to-dot-puzzle\"]"
     },
     "purchase": {
+      "premium": {
+        "metaTitle": "Pacote Premium Best of 2026 de Quebra-cabeças Ligue os Pontos",
+        "metaDescription": "Uma coleção pronta para imprimir com os quebra-cabeças de ligar pontos favoritos das crianças, reunidos em um PDF prático.",
+        "eyebrow": "Coleção premium para impressão",
+        "heading": "Mais quebra-cabeças. Menos busca. Tudo em um PDF prático.",
+        "lede": "A coleção Best of 2026 reúne nossas atividades favoritas de ligar pontos em um pacote fácil de imprimir, perfeito para momentos tranquilos, dias de chuva, homeschooling e sala de aula.",
+        "digitalPdf": "PDF digital",
+        "printAtHome": "Imprima em casa",
+        "instantAccess": "Acesso instantâneo",
+        "purchaseAria": "Comprar o pacote de quebra-cabeças Best of 2026",
+        "coverAlt": "Best of 2026 - capa do livro com 25 quebra-cabeças Ligue os Pontos",
+        "oneTime": "pagamento único",
+        "buyButton": "Garantir o pacote de quebra-cabeças",
+        "localNote": "No localhost, isso abre uma demonstração de checkout segura e nenhum cartão é cobrado.",
+        "detailsEyebrow": "Feito para imprimir e brincar com facilidade",
+        "detailsHeading": "Tudo que você precisa para diversão sem telas",
+        "detailsText": "Baixe uma vez, mantenha à mão e imprima as atividades que quiser sempre que precisar.",
+        "benefits": {
+          "onePdf": "Um único PDF prático, pronto para imprimir",
+          "kidFriendly": "Quebra-cabeças pensados para crianças, com vários níveis de dificuldade",
+          "paperSizes": "Compatível com papel US Letter e A4",
+          "instantAccess": "Acesso instantâneo após pagamento aprovado",
+          "classroomUse": "Pode ser usado em casa ou em uma sala de aula"
+        },
+        "guaranteeHeading": "Simples, seguro e pronto em minutos",
+        "guaranteeText": "Depois da compra, seu link de download privado aparece na hora. Sem assinatura e sem renovação surpresa."
+      },
+      "checkout": {
+        "consent": "Concordo com a entrega imediata deste PDF digital e entendo que, assim que o acesso começar, a compra é final e não reembolsável, exceto quando exigido por lei ou se o arquivo não for entregue ou estiver com defeito.",
+        "refundPolicy": "Leia a política de reembolso",
+        "opening": "Abrindo o checkout...",
+        "secureNote": "Checkout seguro com tecnologia Stripe. Pagamento único. Sem assinatura.",
+        "error": "Algo deu errado ao iniciar o checkout. Tente novamente."
+      },
+      "success": {
+        "metaTitle": "Obrigado pela sua compra",
+        "eyebrow": "Pagamento confirmado",
+        "heading": "Obrigado! Sua compra foi concluída.",
+        "lede": "Seu pagamento foi aprovado. Pode levar alguns segundos até a compra aparecer na sua conta."
+      },
+      "cancelled": {
+        "metaTitle": "Checkout cancelado",
+        "eyebrow": "Nenhum pagamento realizado",
+        "heading": "Checkout cancelado",
+        "lede": "Nenhuma cobrança foi feita. Você pode tentar novamente quando quiser."
+      },
+      "download": {
+        "demoTitle": "Teste de checkout local concluído com sucesso.",
+        "demoText": "Na tela real de compra aprovada, o botão de download do PDF aparece aqui. A demonstração local não libera o arquivo privado.",
+        "button": "Baixe seu pacote de quebra-cabeças",
+        "expires": "Este link expira em 24 horas. Salve seu download em um lugar seguro.",
+        "failed": "Ainda não conseguimos confirmar sua compra. Se você foi cobrado, atualize esta página em um minuto ou entre em contato conosco para obter ajuda.",
+        "preparing": "Preparando seu download..."
+      },
       "ad": {
-        "packName": "Pacote de quebra-cabe?as ligue os pontos",
+        "packName": "Pacote de quebra-cabeça ponto a ponto",
         "pdfBook": "LIVRO PDF",
         "bookTitle": "O melhor de 2026",
-        "puzzleCount": "25 quebra-cabe?as ligue os pontos",
+        "puzzleCount": "25 quebra-cabeças ponto a ponto",
         "viewBook": "Ver livro"
       },
       "shared": {
-        "specialSale": "OFERTA ESPECIAL"
+        "specialSale": "OFERTA ESPECIAL",
+        "returnToPack": "Voltar ao pacote de quebra-cabeças",
+        "contactUs": "Fale conosco"
       }
+    },
+    "puzzleDetail": {
+      "agesLabel": "Idades:",
+      "dotsLabel": "Pontos:",
+      "freeLabel": "100% grátis",
+      "difficultyHeading": "Dificuldade",
+      "difficultyEasy": "Fácil",
+      "difficultyMedium": "Médio",
+      "difficultyHard": "Duro",
+      "funFactPrefix": "Curiosidade:",
+      "funFactLabel": "Curiosidade!",
+      "noSignUp": "Não é necessária inscrição.Abre como PDF.Imprima em papel US Letter (8,5 × 11 polegadas) ou A4.Gratuito para uso doméstico e em sala de aula.",
+      "comingSoon": "Baixe PDF grátis – em breve",
+      "youMightLike": "Você também pode gostar",
+      "faqQ1": "Para que idade serve o quebra-cabeça {name} ponto a ponto?",
+      "faqA1": "Ele foi projetado para idades {age}.Com {dots} pontos, é adequado para crianças que podem contar até {dots} com segurança;as crianças mais novas podem completá-lo com um pouco de ajuda.",
+      "faqQ2": "Como imprimo a planilha {name}?",
+      "faqA2": "Clique no botão de download para obter o PDF gratuito e imprima-o em papel comum (A4 ou US Letter) em qualquer navegador ou leitor de PDF.Nenhum software especial é necessário.",
+      "faqQ3": "A impressão de {name} é realmente gratuita?",
+      "faqA3": "Sim - é 100% gratuito, sem necessidade de inscrição, conta ou pagamento.Você pode imprimi-lo para uso doméstico ou em sala de aula.",
+      "colorGuideHeading": "Guia de cores",
+      "dotGuideHeading": "Como resolver o quebra-cabeça de ligar pontos {name}?"
+    },
+    "downloadButton": {
+      "label": "Baixe PDF para impressão grátis",
+      "usage": "Gratuito para uso doméstico e em sala de aula.",
+      "paperNote": "Dimensionado para papel {size}.",
+      "paperLetter": "Carta dos EUA",
+      "paperA4": "A4",
+      "alternateLink": "Prefere {size}?Baixe essa versão",
+      "downloadSize": "Baixar (tamanho de impressão: {size})"
+    },
+    "downloadBadge": {
+      "downloaded": "Baixado",
+      "times": "vezes",
+      "greatChoice": "Você fez uma ótima escolha!"
+    },
+    "shareButtons": {
+      "label": "Compartilhar",
+      "copyLink": "Copiar link",
+      "copied": "Link copiado!",
+      "shareMe": "Compartilhe-me"
+    },
+    "blogPage": {
+      "eyebrow": "Recursos de aprendizagem",
+      "h1": "Idéias ponto a ponto para pais e professores",
+      "description": "Guias práticos para escolher atividades, desenvolver habilidades de aprendizagem precoce e usar planilhas para impressão em casa ou na sala de aula.",
+      "breadcrumb": "Blogue",
+      "latestEyebrow": "Artigos mais recentes",
+      "latestH2": "Ideias úteis que você pode usar hoje",
+      "readArticle": "Leia o artigo",
+      "by": "Por",
+      "backToAll": "← Voltar para todos os artigos",
+      "savePinterest": "Salvar no Pinterest",
+      "relatedEyebrow": "Imprimíveis grátis",
+      "relatedHeading": "Experimente estas coleções ponto a ponto a seguir"
+    },
+    "canadaPage": {
+      "category": "Canadá"
+    },
+    "circusPage": {
+      "category": "Circo"
+    },
+    "cutePage": {
+      "category": "Bonitinho"
+    },
+    "dinosaursPage": {
+      "category": "Dinossauros"
+    },
+    "flowersPage": {
+      "category": "Flores"
+    },
+    "gardenPage": {
+      "category": "Jardim"
+    },
+    "oceanPage": {
+      "category": "Oceano"
+    },
+    "playgroundsPage": {
+      "category": "Parques infantis"
+    },
+    "spacePage": {
+      "category": "Espaço"
+    },
+    "uaePage": {
+      "category": "Emirados Árabes Unidos"
+    },
+    "usa250Page": {
+      "category": "250º aniversário dos EUA"
     }
   }
 }

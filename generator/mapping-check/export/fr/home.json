@@ -370,10 +370,38 @@
       "breadcrumbAria": "Fil d'Ariane"
     },
     "puzzleSearch": {
+      "placeholder": "Rechercher par nom ou thème... ex. océan, baleine, T-Rex",
       "searchAria": "Puzzles de recherche",
+      "clearSearch": "Effacer la recherche",
+      "toggleFilters": "Afficher/masquer les filtres",
+      "filters": "Filtres",
+      "filterOptions": "Options de filtre",
+      "topic": "Thème",
+      "numberOfDots": "Nombre de points",
+      "recentlyAddedOnly": "Ajoutés récemment uniquement",
+      "clearAllFilters": "Effacer tous les filtres",
+      "clearFilters": "Effacer les filtres",
       "resultsFound": "{count, plural, one {# casse-tête trouvé} other {# casse-têtes trouvés}}",
+      "puzzlesAvailable": "{count, plural, one {# puzzle disponible} other {# puzzles disponibles}}",
       "noMatches": "Aucun puzzle ne correspond à votre recherche.",
-      "imageAlt": "{name} point à point imprimable"
+      "openPuzzle": "Ouvrir {name}",
+      "imageAlt": "{name} point à point imprimable",
+      "viewPuzzle": "Voir le puzzle →",
+      "dotRanges": {
+        "under35": "Moins de 35 points",
+        "35to50": "35 à 50 points",
+        "51to70": "51 à 70 points",
+        "over70": "70+ points"
+      },
+      "categories": {
+        "Dinosaurs": "Dinosaures",
+        "Ocean": "Océan",
+        "Playgrounds": "Aires de jeux",
+        "Garden": "Jardin",
+        "Cute": "Mignon",
+        "USA 250 Years": "États-Unis 250 ans",
+        "UAE": "EAU"
+      }
     },
     "newsletterForm": {
       "ariaLabel": "Obtenez le pack gratuit de jeux de points à relier à imprimer",
@@ -410,6 +438,60 @@
       "recent_puzzle_slugs": "[\"circus-ringmaster-bear-dot-to-dot-puzzle\",\"circus-tent-dot-to-dot-puzzle\",\"space-rover-dot-to-dot-puzzle\",\"ringed-planet-dot-to-dot-puzzle\"]"
     },
     "purchase": {
+      "premium": {
+        "metaTitle": "Pack Premium Best of 2026 de puzzles Relier les Points",
+        "metaDescription": "Une collection prête à imprimer des puzzles « relier les points » préférés des enfants, réunis dans un PDF pratique.",
+        "eyebrow": "Collection premium à imprimer",
+        "heading": "Plus de puzzles. Moins de recherche. Tout dans un seul PDF pratique.",
+        "lede": "La collection Best of 2026 rassemble nos activités « relier les points » préférées dans un pack facile à imprimer, parfait pour les moments calmes, les jours de pluie, l'école à la maison et la classe.",
+        "digitalPdf": "PDF numérique",
+        "printAtHome": "Impression à la maison",
+        "instantAccess": "Accès immédiat",
+        "purchaseAria": "Acheter le pack de puzzles Best of 2026",
+        "coverAlt": "Best of 2026 - Couverture du livre de 25 puzzles Relier les Points",
+        "oneTime": "paiement unique",
+        "buyButton": "Obtenir le pack de puzzles",
+        "localNote": "Sur localhost, cela ouvre une démo de paiement sécurisée et ne débite jamais de carte.",
+        "detailsEyebrow": "Conçu pour imprimer et jouer facilement",
+        "detailsHeading": "Tout ce qu'il faut pour s'amuser sans écran",
+        "detailsText": "Téléchargez une fois, gardez-le à portée de main et imprimez les activités souhaitées dès que vous en avez besoin.",
+        "benefits": {
+          "onePdf": "Un seul PDF pratique, prêt à imprimer",
+          "kidFriendly": "Des puzzles adaptés aux enfants, avec plusieurs niveaux de difficulté",
+          "paperSizes": "Compatible avec le papier US Letter et A4",
+          "instantAccess": "Accès immédiat après un paiement réussi",
+          "classroomUse": "Utilisable à la maison ou dans une seule classe"
+        },
+        "guaranteeHeading": "Simple, sécurisé et prêt en quelques minutes",
+        "guaranteeText": "Après le paiement, votre lien de téléchargement privé apparaît immédiatement. Pas d'abonnement, pas de renouvellement surprise."
+      },
+      "checkout": {
+        "consent": "J'accepte la livraison immédiate de ce PDF numérique et je comprends qu'une fois l'accès accordé, la vente est définitive et non remboursable, sauf disposition légale contraire ou si le fichier n'est pas livré ou est défectueux.",
+        "refundPolicy": "Consulter la politique de remboursement",
+        "opening": "Ouverture du paiement...",
+        "secureNote": "Paiement sécurisé propulsé par Stripe. Paiement unique. Pas d'abonnement.",
+        "error": "Une erreur est survenue lors du démarrage du paiement. Veuillez réessayer."
+      },
+      "success": {
+        "metaTitle": "Merci pour votre achat",
+        "eyebrow": "Paiement confirmé",
+        "heading": "Merci ! Votre achat est terminé.",
+        "lede": "Votre paiement a été effectué avec succès. Il peut s'écouler quelques secondes avant que votre achat n'apparaisse sur votre compte."
+      },
+      "cancelled": {
+        "metaTitle": "Paiement annulé",
+        "eyebrow": "Aucun paiement effectué",
+        "heading": "Paiement annulé",
+        "lede": "Aucun montant n'a été débité. Vous pouvez réessayer à tout moment."
+      },
+      "download": {
+        "demoTitle": "Le test de paiement local a réussi.",
+        "demoText": "Le véritable écran de succès affiche ici le bouton de téléchargement du PDF. La démo locale ne libère pas le fichier privé.",
+        "button": "Téléchargez votre pack de puzzles",
+        "expires": "Ce lien expire dans 24 heures. Enregistrez votre téléchargement dans un endroit sûr.",
+        "failed": "Nous n'avons pas encore pu confirmer votre achat. Si vous avez été débité, actualisez cette page dans une minute ou contactez-nous pour obtenir de l'aide.",
+        "preparing": "Préparation de votre téléchargement..."
+      },
       "ad": {
         "packName": "Pack de jeux de points ? relier",
         "pdfBook": "LIVRE PDF",
@@ -418,8 +500,99 @@
         "viewBook": "Voir le livre"
       },
       "shared": {
-        "specialSale": "OFFRE SP?CIALE"
+        "specialSale": "Vente spéciale",
+        "returnToPack": "Retour au pack de puzzles",
+        "contactUs": "Nous contacter"
       }
+    },
+    "puzzleDetail": {
+      "agesLabel": "Âge:",
+      "dotsLabel": "Points :",
+      "freeLabel": "100% Gratuit",
+      "difficultyHeading": "Difficulté",
+      "difficultyEasy": "Facile",
+      "difficultyMedium": "Moyen",
+      "difficultyHard": "Dur",
+      "funFactPrefix": "Fait amusant :",
+      "funFactLabel": "Fait amusant !",
+      "noSignUp": "Aucune inscription nécessaire.S'ouvre au format PDF.Imprimez sur du papier US Letter (8,5 × 11 pouces) ou A4.Gratuit pour une utilisation à la maison et en classe.",
+      "comingSoon": "Télécharger le PDF gratuit – Bientôt disponible",
+      "youMightLike": "Vous aimerez peut-être aussi",
+      "faqQ1": "À quel âge est destiné le puzzle point à point {name} ?",
+      "faqA1": "Il est conçu pour les âges {age}.Avec {dots} points, il convient aux enfants qui peuvent compter en toute confiance jusqu'à {dots} ;les plus jeunes peuvent le compléter avec un peu d'aide.",
+      "faqQ2": "Comment imprimer la feuille de calcul {name} ?",
+      "faqA2": "Cliquez sur le bouton de téléchargement pour obtenir le PDF gratuit, puis imprimez-le sur du papier ordinaire (A4 ou US Letter) à partir de n'importe quel navigateur ou lecteur PDF.Aucun logiciel spécial n'est nécessaire.",
+      "faqQ3": "L'imprimable {name} est-il vraiment gratuit ?",
+      "faqA3": "Oui, c'est 100 % gratuit, sans inscription, compte ou paiement requis.Vous pouvez l'imprimer pour un usage domestique ou en classe.",
+      "colorGuideHeading": "Guide de coloriage",
+      "dotGuideHeading": "Comment résoudre le puzzle à points à relier {name} ?"
+    },
+    "downloadButton": {
+      "label": "Télécharger le PDF imprimable gratuit",
+      "usage": "Gratuit pour une utilisation à la maison et en classe.",
+      "paperNote": "Dimensionné pour le papier {size}.",
+      "paperLetter": "Lettre américaine",
+      "paperA4": "A4",
+      "alternateLink": "Vous préférez {size} ?Téléchargez cette version",
+      "downloadSize": "Télécharger (Taille d'impression : {size})"
+    },
+    "downloadBadge": {
+      "downloaded": "Téléchargé",
+      "times": "fois",
+      "greatChoice": "Vous avez fait un excellent choix !"
+    },
+    "shareButtons": {
+      "label": "Partager",
+      "copyLink": "Copier le lien",
+      "copied": "Lien copié !",
+      "shareMe": "Partagez-moi"
+    },
+    "blogPage": {
+      "eyebrow": "Ressources d'apprentissage",
+      "h1": "Idées point à point pour les parents et les enseignants",
+      "description": "Des guides pratiques pour choisir des activités, développer des compétences d’apprentissage précoce et utiliser des feuilles de travail imprimables à la maison ou en classe.",
+      "breadcrumb": "Blogue",
+      "latestEyebrow": "Derniers articles",
+      "latestH2": "Idées utiles que vous pouvez utiliser aujourd’hui",
+      "readArticle": "Lire l'article",
+      "by": "Par",
+      "backToAll": "← Retour à tous les articles",
+      "savePinterest": "Enregistrer sur Pinterest",
+      "relatedEyebrow": "Imprimables gratuits",
+      "relatedHeading": "Essayez ensuite ces collections point à point"
+    },
+    "canadaPage": {
+      "category": "Canada"
+    },
+    "circusPage": {
+      "category": "Cirque"
+    },
+    "cutePage": {
+      "category": "Mignon"
+    },
+    "dinosaursPage": {
+      "category": "Dinosaures"
+    },
+    "flowersPage": {
+      "category": "Fleurs"
+    },
+    "gardenPage": {
+      "category": "Jardin"
+    },
+    "oceanPage": {
+      "category": "Océan"
+    },
+    "playgroundsPage": {
+      "category": "Terrains de jeux"
+    },
+    "spacePage": {
+      "category": "Espace"
+    },
+    "uaePage": {
+      "category": "Émirats arabes unis"
+    },
+    "usa250Page": {
+      "category": "250e anniversaire des États-Unis"
     }
   }
 }

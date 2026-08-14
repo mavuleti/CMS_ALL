@@ -19,6 +19,7 @@ const collectionPageNamespaces: Record<string, string> = {
   dinosaurs: 'dinosaursPage', ocean: 'oceanPage', uae: 'uaePage',
   playgrounds: 'playgroundsPage', garden: 'gardenPage', cute: 'cutePage',
   'usa-250': 'usa250Page', circus: 'circusPage', space: 'spacePage',
+  canada: 'canadaPage', flowers: 'flowersPage'
 };
 
 export function generateCollectionStaticParams() {
