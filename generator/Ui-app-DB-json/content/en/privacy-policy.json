@@ -2,20 +2,20 @@
   "slug": "privacy-policy",
   "header": {
     "title": "Privacy Policy",
-    "meta_description": "This policy explains what information DotToDotFreePrintables.com collects when you visit, how it is used, and the choices you have. The short version: we do…",
     "og": {
       "title": "Privacy Policy",
       "description": "This policy explains what information DotToDotFreePrintables.com collects when you visit, how it is used, and the choices you have. The short version: we do…"
     },
     "json_ld": {
-      "type": "WebPage",
       "name": "Privacy Policy",
-      "description": "This policy explains what information DotToDotFreePrintables.com collects when you visit, how it is used, and the choices you have. The short version: we do…"
-    }
+      "description": "This policy explains what information DotToDotFreePrintables.com collects when you visit, how it is used, and the choices you have. The short version: we do…",
+      "type": "WebPage"
+    },
+    "meta_description": "This policy explains what information DotToDotFreePrintables.com collects when you visit, how it is used, and the choices you have. The short version: we do…"
   },
   "body": {
-    "h1": "Privacy Policy",
     "title": "Privacy Policy",
+    "h1": "Privacy Policy",
     "effective": "Effective date: July 11, 2026",
     "intro": "This policy explains what information DotToDotFreePrintables.com collects when you visit, how it is used, and the choices you have. The short version: we do not require accounts, we do not sell personal information, and you can download every puzzle without giving us any personal data at all.",
     "collectTitle": "Information we collect",

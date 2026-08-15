@@ -1,12 +1,13 @@
 {
+  "slug": "home",
   "header": {
     "title": "Free Dot to Dot Printables for Kids | Connect the Dots Worksheets PDF",
     "title_template": "%s | DotToDotFreePrintables.com",
-    "meta_description": "hardcoded literal in layout.tsx generateMetadata() — see file for exact wording, distinct from seo/metadata.json's homepage.description",
+    "meta_description": "Print, connect the dots, and bring amazing pictures to life. Free and ready for fun!",
     "canonical": "/{locale}/",
     "og": {
       "title": "Free printable dot-to-dot worksheets for kids",
-      "description": "same var as header.meta_description (shared, not distinct)",
+      "description": "Print, connect the dots, and bring amazing pictures to life. Free and ready for fun!",
       "url": "/{locale}/",
       "site_name": "DotToDotFreePrintables.com",
       "type": "website",
@@ -24,22 +25,34 @@
       "organization": {
         "type": "Organization",
         "logo": "/icon-512.png (absoluteUrl)",
-        "same_as": "hardcoded array: Pinterest, Facebook, YouTube profile URLs"
+        "same_as": "[\"https://www.pinterest.com/hellokidsbookworld/\", \"https://www.facebook.com/dottodotfreeprintables\", \"https://www.youtube.com/@hellokidsbookworld\"]"
       },
       "collection_page": {
         "type": "CollectionPage",
-        "name": "Free Dot to Dot Printables for Kids (third distinct hardcoded title string in the codebase — differs from header.title and seo/metadata.json's homepage.title)"
+        "name": "Find the perfect dot to dot printables"
       },
       "item_list": {
         "type": "ItemList (featured puzzles)"
       }
     }
   },
+  "UNUSED:seo/metadata": {
+    "json:homepage": {
+      "title": "Free Dot to Dot Printables for Kids | Connect the Dots Worksheets PDF",
+      "ogTitle": "Free dot-to-dot worksheets for kids",
+      "description": "Download free dot-to-dot printables for kids - animals, dinosaurs, vehicles, holiday themes and more. Print-ready PDF connect-the-dots worksheets for preschool, kindergarten and grades 1-6. No sign-up needed."
+    }
+  },
   "body": {
     "nav": {
-      "scanMe": "Scan me",
+      "kids": "Kids - Puzzles",
+      "teachers": "Teachers",
+      "parents": "Parents",
+      "contact": "Contact us",
       "blog": "Blog",
-      "search": "Search"
+      "search": "Search",
+      "freePack": "Free pack",
+      "scanMe": "Scan me"
     },
     "homepageUi": {
       "title": "Find the perfect dot to dot printables",
@@ -426,6 +439,35 @@
       "success": "Thank you. Your feedback was sent.",
       "disclaimer": "Please do not include sensitive personal information. Email is optional and is only used if we need to reply.",
       "iframeTitle": "Feedback submission"
+    },
+    "hero": {
+      "badge": "100% free · no account needed",
+      "h1": "Free Dot to Dot Printables for Kids — Connect the Dots Worksheets",
+      "description": "Download free connect-the-dots worksheets for preschool (nursery/reception) and kindergarten (prep in Australia) through elementary school — for the US, UK, Canada, and Australia, including UK EYFS settings. From simple 38-dot starter pages to 130+ dot challenges, covering animals, dinosaurs, vehicles, and holiday themes — print-ready in seconds with no sign-up required.",
+      "browsePuzzles": "Browse free puzzles",
+      "starterPack": "Get 20-puzzle starter pack",
+      "stat1Value": "Well-validated",
+      "stat1Label": "free printable puzzles",
+      "stat2Value": "Ages 2–12",
+      "stat2Label": "all skill levels",
+      "stat3Value": "100%",
+      "stat3Label": "free, forever"
+    },
+    "config": {
+      "featured_puzzle_slugs": "[\"trex-61-dot-to-dot-puzzle\",\"mermaid-dot-to-dot-puzzle\",\"jellyfish-dot-to-dot-puzzle\",\"cute-puppy-dot-to-dot-puzzle\",\"slide-playgrounds-dot-to-dot-puzzle\",\"snowdrop-flower-dot-to-dot-puzzle\",\"dashing-car-playground-dot-to-dot-puzzle\",\"lotus-flower-dot-to-dot-puzzle\"]",
+      "recent_puzzle_slugs": "[\"circus-ringmaster-bear-dot-to-dot-puzzle\",\"circus-tent-dot-to-dot-puzzle\",\"space-rover-dot-to-dot-puzzle\",\"ringed-planet-dot-to-dot-puzzle\"]"
+    },
+    "purchase": {
+      "ad": {
+        "packName": "Dot to Dot Puzzle Pack",
+        "pdfBook": "PDF BOOK",
+        "bookTitle": "Best of 2026",
+        "puzzleCount": "25 Dot to Dot Puzzles",
+        "viewBook": "View book"
+      },
+      "shared": {
+        "specialSale": "SPECIAL SALE"
+      }
     }
   }
 }

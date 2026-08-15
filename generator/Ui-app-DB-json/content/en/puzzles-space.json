@@ -5,61 +5,544 @@
       "meta_description": "Download free printable dot-to-dot worksheets for kids with a space theme, including UFOs, rockets, planets, and more.",
       "og": {
         "title": "Free Space Dot to Dot Printable Worksheets for Kids",
-        "description": "Download free printable dot-to-dot worksheets for kids with a space theme, including UFOs, rockets, planets, and more.",
-        "image": "/images/space-rover-puzzle.webp"
-      },
-      "json_ld": {
-        "type": "CollectionPage",
-        "name": "Space",
-        "description": "Blast off with free space connect-the-dots worksheets. Print a friendly rover puzzle today, with more rockets, planets, and cosmic adventures coming soon.",
-        "image": "/images/space-rover-puzzle.webp",
-        "main_entity": {
-          "type": "ItemList",
-          "item_source": "puzzles"
-        }
-      },
-      "breadcrumb_json_ld": {
-        "type": "BreadcrumbList",
-        "items": [
-          {
-            "position": 1,
-            "name": "Home",
-            "path": "/"
-          },
-          {
-            "position": 2,
-            "name": "Space",
-            "path": "/space/"
-          }
-        ]
+        "description": "Download free printable dot-to-dot worksheets for kids with a space theme, including UFOs, rockets, planets, and more."
       }
     },
     "body": {
-      "h1": "Free Space Dot to Dot Puzzles for Kids",
-      "name": "Space",
-      "tagline": "{count, plural, one {# free printable puzzle} other {# free printable puzzles}}",
-      "description": "Blast off with free space connect-the-dots worksheets. Print a friendly rover puzzle today, with more rockets, planets, and cosmic adventures coming soon.",
-      "hero_image": "/images/space-rover-puzzle.webp",
-      "slug": "space",
-      "faqs": [
-        {
-          "q": "Are all dot to dot printables on this site completely free?",
-          "a": "Yes — every connect-the-dots worksheet on DotToDotFreePrintables.com is 100% free to download and print. No account, subscription, or credit card is ever required."
-        },
-        {
-          "q": "What age are dot to dot worksheets suitable for?",
-          "a": "Our printables cover ages 4–12. Easy worksheets (around 38–55 dots) suit preschoolers and kindergartners (prep in Australia), medium sheets (around 60–90 dots) are great for kindergarten and 1st grade, and harder sheets (90–130+ dots) challenge 2nd through 6th graders."
-        },
-        {
-          "q": "What format are the connect-the-dots printables?",
-          "a": "All worksheets download as print-ready PDF files sized for standard US Letter (8.5\" × 11\") or A4 paper. Open in any browser or PDF viewer and print — no special software needed."
-        },
-        {
-          "q": "Can teachers use these connect-the-dots worksheets in class?",
-          "a": "Yes! Our printables are free for personal and classroom use. They are popular for morning work, early finisher activities, substitute lesson plans, fine motor centers, and homework packets."
-        }
-      ]
+      "h1": "Free Space Dot to Dot Puzzles for Kids"
     }
   },
-  "puzzles": []
+  "puzzles": [
+    {
+      "slug": "crescent-moon-dot-to-dot-puzzle",
+      "header": {
+        "title": "Crescent Moon Dot to Dot — 60 Dots, Free Printable",
+        "og": {
+          "title": "Crescent Moon Dot to Dot — 60 Dots, Free Printable",
+          "description": "Trace a shining slice of the night sky! Connect 60 easy dots to reveal a crescent moon in this free dot-to-dot printable for kids ages 4–7.",
+          "image_alt": "Glowing crescent moon in a night sky, 60-dot printable puzzle"
+        },
+        "meta_description": "Trace a shining slice of the night sky! Connect 60 easy dots to reveal a crescent moon in this free dot-to-dot printable for kids ages 4–7.",
+        "json_ld": {
+          "description": "A crescent moon glows by reflecting sunlight. Connect 60 easy dots in this free printable dot to dot puzzle for kids ages 4–7.",
+          "name": "Crescent Moon",
+          "type": "CreativeWork",
+          "educational_use": "Fine motor skills, number sequencing"
+        }
+      },
+      "body": {
+        "name": "Crescent Moon",
+        "h1": "Crescent Moon Dot to Dot — 60 Easy Dots of Night-Sky Fun",
+        "tagline": "Trace a Shining Slice of the Night Sky!",
+        "description": "Connect 60 easy dots to reveal a beautiful crescent moon glowing in the night sky. This free printable helps children practise number sequencing, visual tracking, concentration, and smooth pencil control.",
+        "fun_fact": "A crescent moon appears when sunlight illuminates only a thin curved part of the Moon that we can see from Earth.",
+        "dot_guide": {
+          "intro": "A slim crescent moon is one of the most recognisable shapes in the night sky. This friendly 60-dot puzzle builds its outer curve, pointed tips, and inner arc in five manageable stages. Find dot 1 and let your moon begin to glow!",
+          "outro": "Beautiful work—your crescent moon is shining! Add stars, sleepy clouds, or a rocket crossing the sky, then discover the <a href=\"/space/ringed-planet-dot-to-dot-puzzle/\">ringed planet puzzle</a>.",
+          "sections": [
+            {
+              "range": "1–12",
+              "title": "The Upper Moon Tip",
+              "learn": "Connect dots 1 through 12 to shape the crescent's narrow upper point.",
+              "fact": "The Moon does not make its own light; it shines by reflecting sunlight."
+            },
+            {
+              "range": "13–24",
+              "title": "The Outer Curve",
+              "learn": "Continue from dot 13 to dot 24 along the broad outside curve of the Moon.",
+              "fact": "Gravity made the Moon nearly round, just as it makes planets round."
+            },
+            {
+              "range": "25–36",
+              "title": "The Lower Moon Tip",
+              "learn": "Follow dots 25 through 36 to form the lower point and turn toward the inside curve.",
+              "fact": "The Moon's surface is covered with craters made by rocks striking it over billions of years."
+            },
+            {
+              "range": "37–48",
+              "title": "The Inner Crescent",
+              "learn": "Trace dots 37 through 48 up the inner arc, keeping your pencil line smooth.",
+              "fact": "The Moon takes about 29.5 days to move through a complete cycle of phases."
+            },
+            {
+              "range": "49–60",
+              "title": "The Glow and Finish",
+              "learn": "Finish with dots 49 through 60 to close the crescent and add its final details.",
+              "fact": "People around the world see the same Moon, although its crescent can appear tilted differently depending on location."
+            }
+          ],
+          "color_schemes": [
+            {
+              "name": "Crescent Moon: Classic Real-Life Colors",
+              "note": "This familiar palette uses colors commonly seen on the real subject.",
+              "mapping": [
+                {
+                  "range": "1–12",
+                  "part": "The Upper Moon Tip",
+                  "color": "Crayola Silver",
+                  "hex": "#CDC5C2",
+                  "why": "This color gives this part its familiar real-life appearance."
+                },
+                {
+                  "range": "13–24",
+                  "part": "The Outer Curve",
+                  "color": "Crayola Scarlet",
+                  "hex": "#FC2847",
+                  "why": "This color gives this part its familiar real-life appearance."
+                },
+                {
+                  "range": "25–36",
+                  "part": "The Lower Moon Tip",
+                  "color": "Crayola Black",
+                  "hex": "#232323",
+                  "why": "This color gives this part its familiar real-life appearance."
+                },
+                {
+                  "range": "37–48",
+                  "part": "The Inner Crescent",
+                  "color": "Crayola Silver",
+                  "hex": "#CDC5C2",
+                  "why": "This color gives this part its familiar real-life appearance."
+                },
+                {
+                  "range": "49–60",
+                  "part": "The Glow and Finish",
+                  "color": "Crayola Scarlet",
+                  "hex": "#FC2847",
+                  "why": "This color gives this part its familiar real-life appearance."
+                }
+              ]
+            },
+            {
+              "name": "Crescent Moon: Soft Natural Colors",
+              "note": "This lighter palette reflects a real sunlit or pale version of the subject.",
+              "mapping": [
+                {
+                  "range": "1–12",
+                  "part": "The Upper Moon Tip",
+                  "color": "Crayola White",
+                  "hex": "#FFFFFF",
+                  "why": "A lighter shade helps show how this part can look in bright daylight."
+                },
+                {
+                  "range": "13–24",
+                  "part": "The Outer Curve",
+                  "color": "Crayola Cornflower",
+                  "hex": "#9ACEEB",
+                  "why": "A lighter shade helps show how this part can look in bright daylight."
+                },
+                {
+                  "range": "25–36",
+                  "part": "The Lower Moon Tip",
+                  "color": "Crayola Gray",
+                  "hex": "#95918C",
+                  "why": "A lighter shade helps show how this part can look in bright daylight."
+                },
+                {
+                  "range": "37–48",
+                  "part": "The Inner Crescent",
+                  "color": "Crayola White",
+                  "hex": "#FFFFFF",
+                  "why": "A lighter shade helps show how this part can look in bright daylight."
+                },
+                {
+                  "range": "49–60",
+                  "part": "The Glow and Finish",
+                  "color": "Crayola Cornflower",
+                  "hex": "#9ACEEB",
+                  "why": "A lighter shade helps show how this part can look in bright daylight."
+                }
+              ]
+            },
+            {
+              "name": "Crescent Moon: Bold Real-Life Colors",
+              "note": "This stronger palette is inspired by real materials, markings, or painted versions.",
+              "mapping": [
+                {
+                  "range": "1–12",
+                  "part": "The Upper Moon Tip",
+                  "color": "Crayola Orange",
+                  "hex": "#FF7538",
+                  "why": "This deeper color reflects a real marking, material, or painted finish."
+                },
+                {
+                  "range": "13–24",
+                  "part": "The Outer Curve",
+                  "color": "Crayola Goldenrod",
+                  "hex": "#FCD975",
+                  "why": "This deeper color reflects a real marking, material, or painted finish."
+                },
+                {
+                  "range": "25–36",
+                  "part": "The Lower Moon Tip",
+                  "color": "Crayola Mahogany",
+                  "hex": "#CA3435",
+                  "why": "This deeper color reflects a real marking, material, or painted finish."
+                },
+                {
+                  "range": "37–48",
+                  "part": "The Inner Crescent",
+                  "color": "Crayola Orange",
+                  "hex": "#FF7538",
+                  "why": "This deeper color reflects a real marking, material, or painted finish."
+                },
+                {
+                  "range": "49–60",
+                  "part": "The Glow and Finish",
+                  "color": "Crayola Goldenrod",
+                  "hex": "#FCD975",
+                  "why": "This deeper color reflects a real marking, material, or painted finish."
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "slug": "ringed-planet-dot-to-dot-puzzle",
+      "header": {
+        "title": "Ringed Planet Dot to Dot — 43 Dots, Free Printable",
+        "og": {
+          "title": "Ringed Planet Dot to Dot — 43 Dots, Free Printable",
+          "description": "Draw a world wrapped in shining rings! Connect 43 easy dots to reveal a ringed planet in this free dot-to-dot printable for kids ages 4–6.",
+          "image_alt": "Ringed planet floating in space, 43-dot printable puzzle for young kids"
+        },
+        "meta_description": "Draw a world wrapped in shining rings! Connect 43 easy dots to reveal a ringed planet in this free dot-to-dot printable for kids ages 4–6.",
+        "json_ld": {
+          "description": "Saturn's rings are made of countless pieces of ice and rock. Connect 43 easy dots in this free printable dot to dot puzzle for kids ages 4–6.",
+          "name": "Ringed Planet",
+          "type": "CreativeWork",
+          "educational_use": "Fine motor skills, number sequencing"
+        }
+      },
+      "body": {
+        "name": "Ringed Planet",
+        "h1": "Ringed Planet Dot to Dot — 43 Easy Dots, a First Space Challenge",
+        "tagline": "Draw a World Wrapped in Shining Rings!",
+        "description": "Connect 43 easy dots to reveal a beautiful ringed planet floating in space. This free printable helps younger children practise number order, visual tracking, concentration, and steady pencil control.",
+        "fun_fact": "Saturn's rings are made of countless pieces of ice and rock, ranging from tiny grains to chunks as large as houses.",
+        "dot_guide": {
+          "intro": "Far beyond Earth, a giant planet turns while broad rings sweep around it. This friendly 43-dot puzzle creates the planet and its rings in four short stages, making it a fun first space challenge. Find dot 1 and begin your journey!",
+          "outro": "Wonderful work—your ringed planet is orbiting among the stars! Add moons, a rocket, and colourful clouds, then continue exploring with the <a href=\"/space/space-rover-dot-to-dot-puzzle/\">space rover puzzle</a>.",
+          "sections": [
+            {
+              "range": "1–11",
+              "title": "The Top of the Planet",
+              "learn": "Connect dots 1 through 11 to draw the curved upper edge of the distant planet.",
+              "fact": "Planets look round because gravity pulls their material toward the centre from every direction."
+            },
+            {
+              "range": "12–22",
+              "title": "The First Ring",
+              "learn": "Continue from dot 12 to dot 22 to trace the first wide arc of the ring system.",
+              "fact": "Saturn has thousands of narrow ringlets that look like several broad rings when viewed from far away."
+            },
+            {
+              "range": "23–33",
+              "title": "The Planet's Lower Curve",
+              "learn": "Follow dots 23 through 33 around the lower half of the planet, keeping the curve smooth.",
+              "fact": "Saturn is a gas giant made mostly of hydrogen and helium, the two lightest elements."
+            },
+            {
+              "range": "34–43",
+              "title": "The Rings and Finish",
+              "learn": "Finish with dots 34 through 43 to complete the sweeping rings on the other side.",
+              "fact": "Saturn's rings are very wide but surprisingly thin compared with the size of the planet."
+            }
+          ],
+          "color_schemes": [
+            {
+              "name": "Ringed Planet: Classic Real-Life Colors",
+              "note": "This familiar palette uses colors commonly seen on the real subject.",
+              "mapping": [
+                {
+                  "range": "1–11",
+                  "part": "The Top of the Planet",
+                  "color": "Crayola Silver",
+                  "hex": "#CDC5C2",
+                  "why": "This color gives this part its familiar real-life appearance."
+                },
+                {
+                  "range": "12–22",
+                  "part": "The First Ring",
+                  "color": "Crayola Scarlet",
+                  "hex": "#FC2847",
+                  "why": "This color gives this part its familiar real-life appearance."
+                },
+                {
+                  "range": "23–33",
+                  "part": "The Planet's Lower Curve",
+                  "color": "Crayola Black",
+                  "hex": "#232323",
+                  "why": "This color gives this part its familiar real-life appearance."
+                },
+                {
+                  "range": "34–43",
+                  "part": "The Rings and Finish",
+                  "color": "Crayola Silver",
+                  "hex": "#CDC5C2",
+                  "why": "This color gives this part its familiar real-life appearance."
+                }
+              ]
+            },
+            {
+              "name": "Ringed Planet: Soft Natural Colors",
+              "note": "This lighter palette reflects a real sunlit or pale version of the subject.",
+              "mapping": [
+                {
+                  "range": "1–11",
+                  "part": "The Top of the Planet",
+                  "color": "Crayola White",
+                  "hex": "#FFFFFF",
+                  "why": "A lighter shade helps show how this part can look in bright daylight."
+                },
+                {
+                  "range": "12–22",
+                  "part": "The First Ring",
+                  "color": "Crayola Cornflower",
+                  "hex": "#9ACEEB",
+                  "why": "A lighter shade helps show how this part can look in bright daylight."
+                },
+                {
+                  "range": "23–33",
+                  "part": "The Planet's Lower Curve",
+                  "color": "Crayola Gray",
+                  "hex": "#95918C",
+                  "why": "A lighter shade helps show how this part can look in bright daylight."
+                },
+                {
+                  "range": "34–43",
+                  "part": "The Rings and Finish",
+                  "color": "Crayola White",
+                  "hex": "#FFFFFF",
+                  "why": "A lighter shade helps show how this part can look in bright daylight."
+                }
+              ]
+            },
+            {
+              "name": "Ringed Planet: Bold Real-Life Colors",
+              "note": "This stronger palette is inspired by real materials, markings, or painted versions.",
+              "mapping": [
+                {
+                  "range": "1–11",
+                  "part": "The Top of the Planet",
+                  "color": "Crayola Orange",
+                  "hex": "#FF7538",
+                  "why": "This deeper color reflects a real marking, material, or painted finish."
+                },
+                {
+                  "range": "12–22",
+                  "part": "The First Ring",
+                  "color": "Crayola Goldenrod",
+                  "hex": "#FCD975",
+                  "why": "This deeper color reflects a real marking, material, or painted finish."
+                },
+                {
+                  "range": "23–33",
+                  "part": "The Planet's Lower Curve",
+                  "color": "Crayola Mahogany",
+                  "hex": "#CA3435",
+                  "why": "This deeper color reflects a real marking, material, or painted finish."
+                },
+                {
+                  "range": "34–43",
+                  "part": "The Rings and Finish",
+                  "color": "Crayola Orange",
+                  "hex": "#FF7538",
+                  "why": "This deeper color reflects a real marking, material, or painted finish."
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "slug": "space-rover-dot-to-dot-puzzle",
+      "header": {
+        "title": "Space Rover Dot to Dot — 59 Dots, Free Printable",
+        "og": {
+          "title": "Space Rover Dot to Dot — 59 Dots, Free Printable",
+          "description": "A friendly explorer on wheels! Connect 59 dots to reveal a space rover in this free dot-to-dot printable for kids ages 5–8.",
+          "image_alt": "Friendly space rover on wheels exploring another world, 59-dot printable puzzle"
+        },
+        "meta_description": "A friendly explorer on wheels! Connect 59 dots to reveal a space rover in this free dot-to-dot printable for kids ages 5–8.",
+        "json_ld": {
+          "description": "Space rovers are robotic vehicles that explore worlds like the Moon and Mars. Connect 59 dots in this free printable dot to dot puzzle for kids ages 5–8.",
+          "name": "Space Rover",
+          "type": "CreativeWork",
+          "educational_use": "Fine motor skills, number sequencing"
+        }
+      },
+      "body": {
+        "name": "Space Rover",
+        "h1": "Space Rover Dot to Dot — 59 Dots, Ready for Exploration",
+        "tagline": "A Friendly Explorer on Wheels",
+        "description": "Connect 59 dots to reveal a friendly space rover ready to explore another world. This free printable puzzle helps children practise number order, concentration, and pencil control.",
+        "fun_fact": "Space rovers are robotic vehicles that explore the surfaces of worlds such as the Moon and Mars.",
+        "dot_guide": {
+          "intro": "Ready for a trip beyond Earth? Follow the numbers from 1 to 59 and watch a friendly space rover appear. Move slowly, check each number, and keep your pencil lines neat as you travel around the vehicle.",
+          "outro": "Mission complete—your space rover is ready to explore! Add stars, craters, planets, or a friendly alien to create your own space scene.",
+          "sections": [
+            {
+              "range": "1–12",
+              "title": "The Rover Body",
+              "learn": "Begin at dot 1 and connect through dot 12 to trace the rover's friendly front and sturdy body.",
+              "fact": "Planetary rovers carry computers, cameras, and scientific tools inside a tough body."
+            },
+            {
+              "range": "13–25",
+              "title": "The First Wheels",
+              "learn": "Continue from dot 13 to dot 25 to shape the lower body and the first rugged wheel.",
+              "fact": "Rover wheels are designed to grip loose sand and roll over rocks without getting stuck."
+            },
+            {
+              "range": "26–38",
+              "title": "The Wheel System",
+              "learn": "Connect dots 26 through 38 to complete more of the rover's wheels and suspension.",
+              "fact": "NASA's Mars rovers use a rocker-bogie suspension that helps all six wheels stay on uneven ground."
+            },
+            {
+              "range": "39–49",
+              "title": "The Seat and Equipment",
+              "learn": "Trace dots 39 to 49 to add the seat and equipment above the rover body.",
+              "fact": "Some lunar rovers carry astronauts, while robotic rovers explore without anyone sitting inside."
+            },
+            {
+              "range": "50–59",
+              "title": "The Dish Antenna",
+              "learn": "Finish by joining dots 50 through 59 to complete the communication dish.",
+              "fact": "A rover uses antennas to send discoveries to Earth and receive new instructions."
+            }
+          ],
+          "color_schemes": [
+            {
+              "name": "Space Rover: Classic Real-Life Colors",
+              "note": "This familiar palette uses colors commonly seen on the real subject.",
+              "mapping": [
+                {
+                  "range": "1–12",
+                  "part": "The Rover Body",
+                  "color": "Crayola Silver",
+                  "hex": "#CDC5C2",
+                  "why": "This color gives this part its familiar real-life appearance."
+                },
+                {
+                  "range": "13–25",
+                  "part": "The First Wheels",
+                  "color": "Crayola Scarlet",
+                  "hex": "#FC2847",
+                  "why": "This color gives this part its familiar real-life appearance."
+                },
+                {
+                  "range": "26–38",
+                  "part": "The Wheel System",
+                  "color": "Crayola Black",
+                  "hex": "#232323",
+                  "why": "This color gives this part its familiar real-life appearance."
+                },
+                {
+                  "range": "39–49",
+                  "part": "The Seat and Equipment",
+                  "color": "Crayola Silver",
+                  "hex": "#CDC5C2",
+                  "why": "This color gives this part its familiar real-life appearance."
+                },
+                {
+                  "range": "50–59",
+                  "part": "The Dish Antenna",
+                  "color": "Crayola Scarlet",
+                  "hex": "#FC2847",
+                  "why": "This color gives this part its familiar real-life appearance."
+                }
+              ]
+            },
+            {
+              "name": "Space Rover: Soft Natural Colors",
+              "note": "This lighter palette reflects a real sunlit or pale version of the subject.",
+              "mapping": [
+                {
+                  "range": "1–12",
+                  "part": "The Rover Body",
+                  "color": "Crayola White",
+                  "hex": "#FFFFFF",
+                  "why": "A lighter shade helps show how this part can look in bright daylight."
+                },
+                {
+                  "range": "13–25",
+                  "part": "The First Wheels",
+                  "color": "Crayola Cornflower",
+                  "hex": "#9ACEEB",
+                  "why": "A lighter shade helps show how this part can look in bright daylight."
+                },
+                {
+                  "range": "26–38",
+                  "part": "The Wheel System",
+                  "color": "Crayola Gray",
+                  "hex": "#95918C",
+                  "why": "A lighter shade helps show how this part can look in bright daylight."
+                },
+                {
+                  "range": "39–49",
+                  "part": "The Seat and Equipment",
+                  "color": "Crayola White",
+                  "hex": "#FFFFFF",
+                  "why": "A lighter shade helps show how this part can look in bright daylight."
+                },
+                {
+                  "range": "50–59",
+                  "part": "The Dish Antenna",
+                  "color": "Crayola Cornflower",
+                  "hex": "#9ACEEB",
+                  "why": "A lighter shade helps show how this part can look in bright daylight."
+                }
+              ]
+            },
+            {
+              "name": "Space Rover: Bold Real-Life Colors",
+              "note": "This stronger palette is inspired by real materials, markings, or painted versions.",
+              "mapping": [
+                {
+                  "range": "1–12",
+                  "part": "The Rover Body",
+                  "color": "Crayola Orange",
+                  "hex": "#FF7538",
+                  "why": "This deeper color reflects a real marking, material, or painted finish."
+                },
+                {
+                  "range": "13–25",
+                  "part": "The First Wheels",
+                  "color": "Crayola Goldenrod",
+                  "hex": "#FCD975",
+                  "why": "This deeper color reflects a real marking, material, or painted finish."
+                },
+                {
+                  "range": "26–38",
+                  "part": "The Wheel System",
+                  "color": "Crayola Mahogany",
+                  "hex": "#CA3435",
+                  "why": "This deeper color reflects a real marking, material, or painted finish."
+                },
+                {
+                  "range": "39–49",
+                  "part": "The Seat and Equipment",
+                  "color": "Crayola Orange",
+                  "hex": "#FF7538",
+                  "why": "This deeper color reflects a real marking, material, or painted finish."
+                },
+                {
+                  "range": "50–59",
+                  "part": "The Dish Antenna",
+                  "color": "Crayola Goldenrod",
+                  "hex": "#FCD975",
+                  "why": "This deeper color reflects a real marking, material, or painted finish."
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
 }
