@@ -1,0 +1,83 @@
+
+> ui-app-db-json@1.0.0 dev
+> next dev --turbo -p 4555
+
+  ▲ Next.js 14.2.32 (turbo)
+  - Local:        http://localhost:4555
+  - Experiments (use with caution):
+    · turbo
+
+ ✓ Starting...
+Creating turbopack project {
+  dir: 'C:\\Users\\Kalapa-Guest\\CHATGPT_AUTO_SOURCE\\dot-to-dot-page-generator\\generator\\Ui-app-DB-json',
+  testMode: true
+}
+ ✓ Ready in 6.5s
+ ○ Compiling /[locale] ...
+ ✓ Compiled /[locale] in 5.1s
+ GET /en/ 200 in 8501ms
+ GET /en/ 200 in 625ms
+ GET /en/ 200 in 564ms
+ ○ Compiling /[locale]/[category] ...
+ ✓ Compiled /[locale]/[category] in 840ms
+ ○ Compiling /_error ...
+ ✓ Compiled /_error in 1579ms
+ GET /en/dummy-allosaurus/ 500 in 17274ms
+ GET /en/dummy-brachiosaurus/ 500 in 17279ms
+ GET /en/dummy-ankylosaurus/ 500 in 17288ms
+ ○ Compiling /[locale]/[category]/[slug] ...
+ ✓ Compiled /[locale]/[category]/[slug] in 2.1s
+ ✓ Compiled /[locale]/[category] in 55ms
+ GET /en/dinosaurs/dummy-allosaurus/ 500 in 23626ms
+ GET /en/dinosaurs/dummy-ankylosaurus/ 500 in 23646ms
+ GET /en/dinosaurs/dummy-brachiosaurus/ 500 in 23685ms
+ ○ Compiling /[locale]/blog ...
+ ✓ Compiled /[locale]/blog in 1426ms
+ ✓ Compiled /[locale] in 172ms
+ ✓ Compiled /[locale] in 82ms
+ ○ Compiling /[locale]/blog/[slug] ...
+ ✓ Compiled /[locale]/blog/[slug] in 1131ms
+ ✓ Compiled /[locale] in 98ms
+ ✓ Compiled in 251ms
+ ✓ Compiled /[locale] in 402ms
+ ✓ Compiled in 382ms
+ ✓ Compiled /[locale]/blog/[slug] in 336ms
+ GET /en/blog/dot-to-dot-puzzle-facts-and-statistics/ 500 in 155ms
+ ✓ Compiled in 281ms
+ ✓ Compiled /[locale] in 486ms
+ GET /en/blog/dot-to-dot-puzzle-facts-and-statistics/ 500 in 1342ms
+ ✓ Compiled in 239ms
+ ✓ Compiled /[locale]/blog/[slug] in 257ms
+ GET /en/blog/dot-to-dot-puzzle-facts-and-statistics/ 500 in 902ms
+ ✓ Compiled in 90ms
+ GET /en/blog/dot-to-dot-puzzle-facts-and-statistics/ 500 in 415ms
+ ✓ Compiled in 96ms
+ GET /en/blog/dot-to-dot-puzzle-facts-and-statistics/ 500 in 379ms
+ ✓ Compiled in 85ms
+ GET /en/blog/dot-to-dot-puzzle-facts-and-statistics/ 500 in 479ms
+ ✓ Compiled in 195ms
+ ✓ Compiled /[locale]/blog/[slug] in 142ms
+ GET /en/blog/dot-to-dot-puzzle-facts-and-statistics/ 500 in 851ms
+ ✓ Compiled in 171ms
+ ✓ Compiled /[locale] in 245ms
+ GET /en/blog/dot-to-dot-puzzle-facts-and-statistics/ 500 in 857ms
+ ✓ Compiled in 25ms
+ ✓ Compiled /[locale] in 187ms
+ GET /en/blog/dot-to-dot-puzzle-facts-and-statistics/ 500 in 1128ms
+ GET /en/ 500 in 1271ms
+ ✓ Compiled in 55ms
+ ✓ Compiled /[locale] in 196ms
+ GET /en/blog/dot-to-dot-puzzle-facts-and-statistics/ 500 in 1239ms
+ GET /en/ 200 in 1305ms
+ ✓ Compiled in 54ms
+ ✓ Compiled /[locale] in 208ms
+ ✓ Compiled in 46ms
+ ✓ Compiled /[locale]/blog/[slug] in 104ms
+ ✓ Compiled /[locale] in 94ms
+ ✓ Compiled in 45ms
+ ✓ Compiled /[locale]/blog/[slug] in 84ms
+ ✓ Compiled /[locale] in 68ms
+ ✓ Compiled in 117ms
+ ✓ Compiled /[locale] in 1ms
+ ✓ Compiled /[locale]/blog/[slug] in 125ms
+ ✓ Compiled /[locale]/[category]/[slug] in 238ms

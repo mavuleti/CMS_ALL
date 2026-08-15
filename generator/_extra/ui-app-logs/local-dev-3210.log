@@ -1,0 +1,194 @@
+
+> ui-app-db-json@1.0.0 dev
+> next dev --turbo --port 3210
+
+  ▲ Next.js 14.2.32 (turbo)
+  - Local:        http://localhost:3210
+  - Environments: .env
+  - Experiments (use with caution):
+    · turbo
+
+ ✓ Starting...
+Creating turbopack project {
+  dir: 'C:\\Users\\Kalapa-Guest\\CHATGPT_AUTO_SOURCE\\dot-to-dot-page-generator\\generator\\Ui-app-DB-json',
+  testMode: true
+}
+ ✓ Ready in 6.5s
+ ○ Compiling /_not-found/page ...
+ GET /_next/static/webpack/89eac778c78274b8.webpack.hot-update.json 404 in 5819ms
+ GET /_next/static/webpack/89eac778c78274b8.webpack.hot-update.json 404 in 368ms
+ ✓ Compiled in 670ms
+ ✓ Compiled /_not-found/page in 6.8s
+ GET /_next/static/webpack/89eac778c78274b8.webpack.hot-update.json 404 in 931ms
+ GET /en/ 200 in 898ms
+ GET /_next/static/webpack/89eac778c78274b8.webpack.hot-update.json 404 in 469ms
+ GET /ar/canada/ 200 in 848ms
+ GET /_next/static/webpack/89eac778c78274b8.webpack.hot-update.json 404 in 399ms
+ GET /en/ 200 in 636ms
+ GET /_next/static/webpack/89eac778c78274b8.webpack.hot-update.json 404 in 287ms
+ GET /ar/canada/ 200 in 577ms
+ GET /_next/static/webpack/89eac778c78274b8.webpack.hot-update.json 404 in 345ms
+ GET /en/ 200 in 619ms
+ GET /_next/static/webpack/89eac778c78274b8.webpack.hot-update.json 404 in 318ms
+ GET /ar/canada/ 200 in 615ms
+ GET /_next/static/webpack/89eac778c78274b8.webpack.hot-update.json 404 in 304ms
+ GET /ar/canada/ 200 in 298ms
+ GET /_next/static/webpack/89eac778c78274b8.webpack.hot-update.json 404 in 315ms
+ GET /en/ 200 in 953ms
+ GET /_next/static/webpack/89eac778c78274b8.webpack.hot-update.json 404 in 370ms
+ GET /en/ 200 in 12674ms
+ GET /ar/canada/ 200 in 4286ms
+ GET /en/ 200 in 4390ms
+ GET /ar/canada/ 200 in 229ms
+ ○ Compiling /[locale]/[category]/[slug] ...
+ ✓ Compiled /[locale]/[category]/[slug] in 1316ms
+ GET /ar/ 200 in 511ms
+ GET /en/ 200 in 904ms
+ GET /en/ 200 in 536ms
+ ✓ Compiled in 22ms
+ ✓ Compiled /[locale] in 246ms
+ GET /en/ 200 in 450ms
+ GET /en/ 200 in 253ms
+ GET /ar/ocean/jellyfish-dot-to-dot-puzzle/ 200 in 325ms
+ GET /ar/canada/canada-maple-leaf-dot-to-dot-puzzle/ 200 in 202ms
+ ○ Compiling /_error ...
+ ✓ Compiled /_error in 1622ms
+ GET /ar/canada/ 200 in 622ms
+ ✓ Compiled in 133ms
+ ✓ Compiled /[locale] in 350ms
+ GET /ar/ 200 in 1785ms
+ ✓ Compiled in 77ms
+ ✓ Compiled /[locale] in 292ms
+ GET /ar/ 200 in 576ms
+ ✓ Compiled /[locale]/[category] in 123ms
+ GET /ar/dinosaurs/ 200 in 519ms
+ GET /ar/cute/ 200 in 1142ms
+ ✓ Compiled in 94ms
+ ○ Compiling /[locale]/[category] ...
+ ✓ Compiled /[locale]/[category] in 600ms
+ GET /ar/playgrounds/ 200 in 437ms
+ GET /en/ 200 in 765ms
+ GET /en/ 200 in 573ms
+ GET /cs/ 200 in 684ms
+ ✓ Compiled in 22ms
+ ✓ Compiled /[locale]/[category]/[slug] in 272ms
+ ○ Compiling /[locale]/premium ...
+ ✓ Compiled /[locale]/premium in 920ms
+ ✓ Compiled /[locale]/[category]/[slug] in 187ms
+ ✓ Compiled in 1501ms
+ ○ Compiling /[locale] ...
+ ✓ Compiled /[locale] in 513ms
+ ✓ Compiled /[locale]/[category] in 356ms
+ GET /en/premium/ 200 in 936ms
+ GET /fa/premium/ 200 in 634ms
+ GET /en/premium/ 200 in 500ms
+ GET /ar/ 200 in 496ms
+ GET /az/ 200 in 376ms
+ GET /cs/ 200 in 299ms
+ GET /da/ 200 in 297ms
+ GET /de/ 200 in 368ms
+ GET /el/ 200 in 316ms
+ GET /en/ 200 in 329ms
+ GET /es/ 200 in 340ms
+ GET /fa/ 200 in 360ms
+ GET /fi/ 200 in 312ms
+ GET /fr/ 200 in 252ms
+ GET /hr/ 200 in 329ms
+ GET /hu/ 200 in 301ms
+ GET /id/ 200 in 386ms
+ GET /it/ 200 in 312ms
+ GET /ja/ 200 in 364ms
+ GET /ko/ 200 in 286ms
+ GET /lt/ 200 in 349ms
+ GET /lv/ 200 in 769ms
+ GET /uk/premium/ 200 in 813ms
+ GET /nl/ 200 in 570ms
+ GET /no/ 200 in 291ms
+ GET /pl/ 200 in 430ms
+ GET /pt/ 200 in 312ms
+ GET /pt-BR/ 200 in 307ms
+ GET /ro/ 200 in 333ms
+ GET /ru/ 200 in 379ms
+ GET /sk/ 200 in 330ms
+ GET /sl/ 200 in 340ms
+ GET /sv/ 200 in 413ms
+ GET /th/ 200 in 331ms
+ GET /tr/ 200 in 347ms
+ GET /uk/ 200 in 354ms
+ GET /vi/ 200 in 346ms
+ ○ Compiling /[locale]/contact ...
+ ✓ Compiled /[locale]/contact in 582ms
+ ✓ Compiled /[locale]/[category]/[slug] in 201ms
+ ✓ Compiled in 1897ms
+ ○ Compiling /[locale]/[category] ...
+ ✓ Compiled /[locale]/[category] in 787ms
+ ○ Compiling /[locale]/[category]/[slug] ...
+ ✓ Compiled /[locale]/[category]/[slug] in 869ms
+ ○ Compiling /[locale] ...
+ ✓ Compiled /[locale] in 572ms
+ ✓ Compiled /[locale]/contact in 181ms
+ ○ Compiling /[locale]/privacy-policy ...
+ ✓ Compiled /[locale]/privacy-policy in 1693ms
+ ✓ Compiled /[locale]/[category] in 263ms
+ ✓ Compiled /[locale] in 431ms
+ ✓ Compiled in 41ms
+ ○ Compiling /[locale]/[category]/[slug] ...
+ ✓ Compiled /[locale]/[category]/[slug] in 747ms
+ ✓ Compiled in 37ms
+ ✓ Compiled /[locale]/[category] in 310ms
+ GET /.well-known/appspecific/com.chrome.devtools.json 500 in 1310ms
+ ✓ Compiled in 113ms
+ ✓ Compiled /[locale]/[category] in 268ms
+ ✓ Compiled in 112ms
+ ○ Compiling /[locale]/[category] ...
+ ✓ Compiled /[locale]/[category] in 564ms
+ GET /cs/cute/ 200 in 572ms
+ ✓ Compiled in 48ms
+ ✓ Compiled /[locale]/[category] in 255ms
+ GET /ar/cute/ 200 in 630ms
+ GET /az/cute/ 200 in 452ms
+ GET /cs/cute/ 200 in 402ms
+ GET /da/cute/ 200 in 399ms
+ GET /de/cute/ 200 in 348ms
+ GET /el/cute/ 200 in 350ms
+ GET /en/cute/ 200 in 350ms
+ GET /es/cute/ 200 in 299ms
+ GET /fa/cute/ 200 in 404ms
+ GET /fi/cute/ 200 in 405ms
+ GET /fr/cute/ 200 in 296ms
+ GET /hr/cute/ 200 in 268ms
+ GET /hu/cute/ 200 in 452ms
+ GET /id/cute/ 200 in 292ms
+ GET /it/cute/ 200 in 263ms
+ GET /ja/cute/ 200 in 289ms
+ GET /ko/cute/ 200 in 352ms
+ GET /lt/cute/ 200 in 293ms
+ GET /lv/cute/ 200 in 298ms
+ GET /nl/cute/ 200 in 434ms
+ GET /no/cute/ 200 in 493ms
+ GET /pl/cute/ 200 in 295ms
+ GET /pt/cute/ 200 in 259ms
+ GET /pt-BR/cute/ 200 in 231ms
+ GET /ro/cute/ 200 in 375ms
+ GET /ru/cute/ 200 in 252ms
+ GET /sk/cute/ 200 in 331ms
+ GET /sl/cute/ 200 in 245ms
+ GET /sv/cute/ 200 in 346ms
+ GET /th/cute/ 200 in 282ms
+ GET /tr/cute/ 200 in 233ms
+ GET /uk/cute/ 200 in 282ms
+ GET /vi/cute/ 200 in 320ms
+ GET /cs/cute/ 200 in 363ms
+ GET /en/circus/ 200 in 634ms
+ GET /ar/circus/ 200 in 438ms
+ ✓ Compiled in 102ms
+ ○ Compiling /[locale]/[category]/[slug] ...
+ ✓ Compiled /[locale]/[category]/[slug] in 984ms
+ ✓ Compiled in 40ms
+ ✓ Compiled /[locale]/[category]/[slug] in 318ms
+ GET /ar/canada/canada-maple-leaf-dot-to-dot-puzzle/ 500 in 14302ms
+ ✓ Compiled in 175ms
+ ✓ Compiled /[locale]/[category]/[slug] in 479ms
+ GET /ar/canada/canada-maple-leaf-dot-to-dot-puzzle/ 200 in 9938ms
+ ✓ Compiled in 53ms
+ ✓ Compiled /[locale]/[category]/[slug] in 342ms

@@ -1,0 +1,39 @@
+  ▲ Next.js 14.2.32
+  - Local:        http://localhost:3210
+  - Environments: .env
+  - Experiments (use with caution):
+    · turbo
+
+ ✓ Starting...
+ ✓ Ready in 2.9s
+ ○ Compiling /[locale] ...
+ ✓ Compiled /[locale] in 2.2s (798 modules)
+ GET /ja/ 200 in 8167ms
+ ○ Compiling /[locale]/[category]/[slug] ...
+ ✓ Compiled /[locale]/[category]/[slug] in 2.7s (858 modules)
+ GET /ja/dinosaurs/trex-61-dot-to-dot-puzzle/ 200 in 22670ms
+ GET /ja/dinosaurs/spinosaurus/ 200 in 304ms
+ ○ Compiling /[locale]/premium ...
+ ✓ Compiled /[locale]/premium in 670ms (844 modules)
+ GET /ja/premium/ 200 in 8478ms
+ GET /ja/premium/ 200 in 214ms
+ GET /ja/premium/ 200 in 170ms
+ ✓ Compiled /[locale]/[category] in 484ms (854 modules)
+ ✓ Compiled /[locale] in 167ms (513 modules)
+ GET /ja/dinosaurs/ 200 in 218ms
+ GET /en/ 200 in 180ms
+ GET /uk/ 200 in 191ms
+ ✓ Compiled /[locale]/[category]/[slug] in 219ms (531 modules)
+ GET /ja/ 200 in 494ms
+ GET /ja/ 200 in 570ms
+ GET /ja/ 200 in 559ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 2.6s (889 modules)
+ GET /_next/static/css/app/layout.css?v=1786664838396 404 in 3240ms
+ GET /_next/static/chunks/webpack.js?v=1786664838396 404 in 3266ms
+ GET /_next/static/chunks/main-app.js?v=1786664838396 404 in 3266ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 3255ms
+ GET /_next/static/chunks/app/layout.js 404 in 3261ms
+ GET /_next/static/chunks/app/%5Blocale%5D/page.js 404 in 2961ms
+ GET /_next/static/chunks/app/%5Blocale%5D/layout.js 404 in 48ms
+[?25h

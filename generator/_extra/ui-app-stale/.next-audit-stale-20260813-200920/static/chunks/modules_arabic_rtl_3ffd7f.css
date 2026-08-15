@@ -1,0 +1,163 @@
+/* [project]/modules/arabic/rtl.css [app-client] (css, ) */
+:lang(ar) {
+  font-family: Cairo, Segoe UI, Tahoma, Arial, sans-serif;
+  line-height: 1.8;
+}
+
+[dir="rtl"] {
+  direction: rtl;
+}
+
+[dir="rtl"] body {
+  text-align: right;
+}
+
+[dir="rtl"] .nav-shell {
+  flex-direction: row-reverse;
+}
+
+[dir="rtl"] .nav-links {
+  flex-direction: row-reverse;
+  direction: rtl;
+  margin-right: auto;
+  margin-left: 0;
+}
+
+[dir="rtl"] .brand-dots {
+  margin-inline-start: 0;
+  margin-inline-end: 8px;
+}
+
+[dir="rtl"] .hero {
+  direction: rtl;
+}
+
+[dir="rtl"] .hero-actions {
+  flex-direction: row-reverse;
+}
+
+[dir="rtl"] .stats {
+  text-align: center;
+}
+
+[dir="rtl"] .badge {
+  left: auto;
+  inset-inline-start: 16px;
+}
+
+[dir="rtl"] .puzzle-meta {
+  flex-direction: row-reverse;
+}
+
+[dir="rtl"] .difficulty {
+  flex-direction: row-reverse;
+}
+
+[dir="rtl"] .puzzle-category, [dir="rtl"] .puzzle-body {
+  text-align: right;
+}
+
+[dir="rtl"] .section-heading.split {
+  flex-direction: row-reverse;
+}
+
+[dir="rtl"] .breadcrumb {
+  flex-direction: row-reverse;
+  text-align: right;
+  direction: rtl;
+}
+
+[dir="rtl"] .signup-form div {
+  flex-direction: row-reverse;
+}
+
+[dir="rtl"] .signup-form input {
+  text-align: right;
+}
+
+[dir="rtl"] .trust-item {
+  text-align: right;
+}
+
+[dir="rtl"] .faq-item summary {
+  flex-direction: row-reverse;
+}
+
+[dir="rtl"] .footer nav {
+  flex-direction: row-reverse;
+  direction: rtl;
+}
+
+[dir="rtl"] .download-link, [dir="rtl"] .button, [dir="rtl"] .blog-back-link {
+  flex-direction: row-reverse;
+}
+
+@media (width >= 981px) {
+  [dir="rtl"] .desktop-social-bar {
+    right: auto;
+    left: 24px;
+  }
+
+  [dir="rtl"] .nav-shell {
+    position: relative;
+    padding-right: 24px;
+    padding-left: 210px;
+  }
+
+  [dir="rtl"] .floating-bookmark-wrap.header-bookmark {
+    position: absolute;
+    top: 50%;
+    left: 24px;
+    margin: 0;
+    transform: translateY(-50%);
+  }
+}
+
+@media (width >= 981px) and (width <= 1180px) {
+  [dir="rtl"] .nav-shell {
+    padding-left: 230px;
+  }
+}
+
+@media (width <= 980px) {
+  [dir="rtl"] .mobile-share-toggle {
+    right: auto;
+    left: auto;
+    inset-inline-end: 9%;
+  }
+
+  [dir="rtl"] .floating-bookmark-wrap.mobile-bookmark-fab {
+    right: auto;
+    left: auto;
+    inset-inline-end: 9%;
+  }
+}
+
+[dir="rtl"] .desktop-share-popover {
+  right: auto;
+  left: 0;
+}
+
+[dir="rtl"] .rtl-flip-icon {
+  transform: scaleX(-1);
+}
+
+.logical-inline-start {
+  margin-inline-start: var(--space, 1rem);
+  margin-inline-end: 0;
+}
+
+.logical-inline-end {
+  margin-inline-end: var(--space, 1rem);
+  margin-inline-start: 0;
+}
+
+.logical-text-start {
+  text-align: start;
+}
+
+.logical-text-end {
+  text-align: end;
+}
+
+/*# sourceMappingURL=modules_arabic_rtl_3ffd7f.css.map*/

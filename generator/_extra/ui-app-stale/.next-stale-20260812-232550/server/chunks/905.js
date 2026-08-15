@@ -1,0 +1,1 @@
+"use strict";exports.id=905,exports.ids=[905],exports.modules={6905:(e,s,t)=>{t.d(s,{getLocale:()=>o.Z});var o=t(2126)}};

@@ -1,0 +1,210 @@
+[
+  {
+    "route": "/ja/flowers/rose-flower-dot-to-dot-puzzle/",
+    "status": "ok",
+    "english": [
+      "バラの茎にある鋭いとげは、厳密にはとげ（thorn）ではなく皮刺（prickle）と呼ばれます。これは茎の外側の層から生えているためです。"
+    ],
+    "questions": false,
+    "file": "056-flowers-rose-flower-dot-to-dot-puzzle.png",
+    "false_positive_note": "Flagged strings are Japanese sentences containing embedded English/Latin loanwords (etymology asides) — not untranslated UI text. Verified 2026-08-13."
+  },
+  {
+    "route": "/ja/flowers/tulip-flower-dot-to-dot-puzzle/",
+    "status": "ok",
+    "english": [],
+    "questions": false,
+    "file": "057-flowers-tulip-flower-dot-to-dot-puzzle.png",
+    "resolved_2026_08_13": true
+  },
+  {
+    "route": "/ja/flowers/poppy-flower-dot-to-dot-puzzle/",
+    "status": "ok",
+    "english": [],
+    "questions": false,
+    "file": "058-flowers-poppy-flower-dot-to-dot-puzzle.png",
+    "resolved_2026_08_13": true
+  },
+  {
+    "route": "/ja/flowers/kawaii-sunflower-dot-to-dot-puzzle/",
+    "status": "ok",
+    "english": [],
+    "questions": false,
+    "file": "059-flowers-kawaii-sunflower-dot-to-dot-puzzle.png",
+    "resolved_2026_08_13": true
+  },
+  {
+    "route": "/ja/garden/garden-gloves-dot-to-dot-puzzle/",
+    "status": "ok",
+    "english": [],
+    "questions": false,
+    "file": "060-garden-garden-gloves-dot-to-dot-puzzle.png",
+    "resolved_2026_08_13": true
+  },
+  {
+    "route": "/ja/garden/garden-trowel-dot-to-dot-puzzle/",
+    "status": "ok",
+    "english": [
+      "よくできました！これでコテを使って掘る準備ができました！刃は光沢のあるメタリックグレーに、柄はお好みの明るい色に塗ってください。もしこれが気に入ったら、dinosaur dot to dot printable コレクションにアクセスして、全く違う種類の掘り方を試してみてください。"
+    ],
+    "questions": false,
+    "file": "061-garden-garden-trowel-dot-to-dot-puzzle.png",
+    "false_positive_note": "Flagged strings are Japanese sentences containing embedded English/Latin loanwords (etymology asides) — not untranslated UI text. Verified 2026-08-13."
+  },
+  {
+    "route": "/ja/garden/wheelbarrow-playground-dot-to-dot-puzzle/",
+    "status": "ok",
+    "english": [],
+    "questions": false,
+    "file": "062-garden-wheelbarrow-playground-dot-to-dot-puzzle.png",
+    "resolved_2026_08_13": true
+  },
+  {
+    "route": "/ja/ocean/mermaid-dot-to-dot-puzzle/",
+    "status": "ok",
+    "english": [],
+    "questions": false,
+    "file": "063-ocean-mermaid-dot-to-dot-puzzle.png",
+    "resolved_2026_08_13": true
+  },
+  {
+    "route": "/ja/ocean/merman-dot-to-dot-puzzle/",
+    "status": "ok",
+    "english": [
+      "三叉槍（三つ又の槍）は、数千年にわたり神話の中で海の力の象徴とされてきた。この言葉はラテン語の「tridens」（三つの歯）に由来する。多くの文化圏の漁師たちは、同じくらい長い間、三叉槍を使って魚を捕ってきたため、この象徴は日常的な道具から生まれた可能性が高い。"
+    ],
+    "questions": false,
+    "file": "064-ocean-merman-dot-to-dot-puzzle.png",
+    "false_positive_note": "Flagged strings are Japanese sentences containing embedded English/Latin loanwords (etymology asides) — not untranslated UI text. Verified 2026-08-13."
+  },
+  {
+    "route": "/ja/ocean/seahorse-dot-to-dot-puzzle/",
+    "status": "ok",
+    "english": [],
+    "questions": false,
+    "file": "065-ocean-seahorse-dot-to-dot-puzzle.png",
+    "resolved_2026_08_13": true
+  },
+  {
+    "route": "/ja/ocean/whale-dot-to-dot-puzzle/",
+    "status": "ok",
+    "english": [],
+    "questions": false,
+    "file": "066-ocean-whale-dot-to-dot-puzzle.png",
+    "resolved_2026_08_13": true
+  },
+  {
+    "route": "/ja/ocean/jellyfish-dot-to-dot-puzzle/",
+    "status": "ok",
+    "english": [],
+    "questions": false,
+    "file": "067-ocean-jellyfish-dot-to-dot-puzzle.png",
+    "resolved_2026_08_13": true
+  },
+  {
+    "route": "/ja/playgrounds/spring-horse-playground-dot-to-dot-puzzle/",
+    "status": "ok",
+    "english": [],
+    "questions": false,
+    "file": "068-playgrounds-spring-horse-playground-dot-to-dot-puzzle.png",
+    "resolved_2026_08_13": true
+  },
+  {
+    "route": "/ja/playgrounds/playhouse-slide-playground-dot-to-dot-puzzle/",
+    "status": "ok",
+    "english": [],
+    "questions": false,
+    "file": "069-playgrounds-playhouse-slide-playground-dot-to-dot-puzzle.png",
+    "resolved_2026_08_13": true
+  },
+  {
+    "route": "/ja/playgrounds/carousel-horse-playground-dot-to-dot-puzzle/",
+    "status": "ok",
+    "english": [],
+    "questions": false,
+    "file": "070-playgrounds-carousel-horse-playground-dot-to-dot-puzzle.png",
+    "resolved_2026_08_13": true
+  },
+  {
+    "route": "/ja/playgrounds/dashing-car-playground-dot-to-dot-puzzle/",
+    "status": "ok",
+    "english": [],
+    "questions": false,
+    "file": "071-playgrounds-dashing-car-playground-dot-to-dot-puzzle.png",
+    "resolved_2026_08_13": true
+  },
+  {
+    "route": "/ja/playgrounds/swing-playgrounds-dot-to-dot-puzzle/",
+    "status": "ok",
+    "english": [],
+    "questions": false,
+    "file": "072-playgrounds-swing-playgrounds-dot-to-dot-puzzle.png",
+    "resolved_2026_08_13": true
+  },
+  {
+    "route": "/ja/playgrounds/slide-playgrounds-dot-to-dot-puzzle/",
+    "status": "ok",
+    "english": [],
+    "questions": false,
+    "file": "073-playgrounds-slide-playgrounds-dot-to-dot-puzzle.png",
+    "resolved_2026_08_13": true
+  },
+  {
+    "route": "/ja/playgrounds/seesaw-playground-dot-to-dot-puzzle/",
+    "status": "ok",
+    "english": [],
+    "questions": false,
+    "file": "074-playgrounds-seesaw-playground-dot-to-dot-puzzle.png",
+    "resolved_2026_08_13": true
+  },
+  {
+    "route": "/ja/playgrounds/roller-coaster-playground-dot-to-dot-puzzle/",
+    "status": "ok",
+    "english": [],
+    "questions": false,
+    "file": "075-playgrounds-roller-coaster-playground-dot-to-dot-puzzle.png",
+    "resolved_2026_08_13": true
+  },
+  {
+    "route": "/ja/playgrounds/monkey-bar-playground-dot-to-dot-puzzle/",
+    "status": "ok",
+    "english": [
+      "点59から76をつなげて、子供がスイングしている姿を描きます。一方の腕は次の rung に手を伸ばしています。ここでパズルが生き生きとします — 子供たちに次の点を見据えるように思い出させて、スイングのポーズがギザギザではなく滑らかに出るようにしましょう。"
+    ],
+    "questions": false,
+    "file": "076-playgrounds-monkey-bar-playground-dot-to-dot-puzzle.png",
+    "false_positive_note": "Flagged strings are Japanese sentences containing embedded English/Latin loanwords (etymology asides) — not untranslated UI text. Verified 2026-08-13."
+  },
+  {
+    "route": "/ja/space/crescent-moon-dot-to-dot-puzzle/",
+    "status": "ok",
+    "english": [],
+    "questions": false,
+    "file": "077-space-crescent-moon-dot-to-dot-puzzle.png",
+    "resolved_2026_08_13": true
+  },
+  {
+    "route": "/ja/space/ringed-planet-dot-to-dot-puzzle/",
+    "status": "ok",
+    "english": [],
+    "questions": false,
+    "file": "078-space-ringed-planet-dot-to-dot-puzzle.png",
+    "resolved_2026_08_13": true
+  },
+  {
+    "route": "/ja/space/space-rover-dot-to-dot-puzzle/",
+    "status": "ok",
+    "english": [],
+    "questions": false,
+    "file": "079-space-space-rover-dot-to-dot-puzzle.png",
+    "resolved_2026_08_13": true
+  },
+  {
+    "route": "/ja/uae/burj-al-arab-dot-to-dot-puzzle/",
+    "status": "ok",
+    "english": [],
+    "questions": false,
+    "file": "080-uae-burj-al-arab-dot-to-dot-puzzle.png",
+    "resolved_2026_08_13": true
+  }
+]
