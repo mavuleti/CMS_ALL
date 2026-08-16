@@ -1,5 +1,17 @@
 {
-  "collection": {},
+  "collection": {
+    "header": {
+      "title": "Tuin-punt-na-punt-tekeningen om te printen voor kinderen",
+      "meta_description": "Ga aan de slag! Verbind de stippen om tuinhandschoenen, troffels en handige tuingereedschappen te ontdekken. Alle werkbladen zijn gratis te downloaden en uit te printen – je hebt geen account nodig.",
+      "og": {
+        "title": "Tuin-punt-na-punt-tekeningen om te printen voor kinderen",
+        "description": "Ga aan de slag! Verbind de stippen om tuinhandschoenen, troffels en handige tuingereedschappen te ontdekken. Alle werkbladen zijn gratis te downloaden en uit te printen – je hebt geen account nodig."
+      }
+    },
+    "body": {
+      "h1": "Tuin-punt-na-punt-tekeningen om te printen voor kinderen"
+    }
+  },
   "puzzles": [
     {
       "slug": "garden-gloves-dot-to-dot-puzzle",
@@ -15,7 +27,9 @@
           "description": "Tuinhandschoenen beschermen kleine handjes tegen vuil en stekelige planten. Verbind 54 punten in deze gratis afdrukbare werkblad voor kinderen van 4–8 jaar.",
           "name": "Tuinhandschoenen",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/garden-gloves-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -156,7 +170,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Zo los je de Tuinhandschoenen stip-tot-stip-puzzel op"
         }
       }
     },
@@ -174,7 +189,9 @@
           "description": "Begin met vroege potloodoefeningen met een 39-punt tuinschep. De gratis punt tot punt PDF biedt kinderen van 4–7 jaar een korte, haalbare activiteit.",
           "name": "Tuinschepje",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/garden-trowel-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-7"
         }
       },
       "body": {
@@ -288,7 +305,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Zo los je de Tuinschepje stip-tot-stip-puzzel op"
         }
       }
     },
@@ -306,7 +324,9 @@
           "description": "Kruiwagens werden meer dan 2.000 jaar geleden uitgevonden in het oude China. Bouw er een over 85 punten met deze gratis afdrukbare PDF voor 5–9 jaar.",
           "name": "Kruiwagen Speeltuin",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/wheelbarrow-playground-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
@@ -447,7 +467,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Zo los je de Kruiwagen Speeltuin stip-tot-stip-puzzel op"
         }
       }
     }

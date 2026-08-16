@@ -1,17 +1,40 @@
 {
-  "collection": {},
+  "collection": {
+    "header": {
+      "title": "Circus Punt-voor-Punt Printables voor Kinderen",
+      "meta_description": "Stap naar voren voor gratis circus punt-voor-punt printables met een vriendelijke ringmeesterbeer en een gestreepte grote tent. Download en print beide PDF-werkbladen voor tel- en potloodoefeningen.",
+      "og": {
+        "title": "Circus Punt-voor-Punt Printables voor Kinderen",
+        "description": "Stap naar voren voor gratis circus punt-voor-punt printables met een vriendelijke ringmeesterbeer en een gestreepte grote tent. Download en print beide PDF-werkbladen voor tel- en potloodoefeningen."
+      }
+    },
+    "body": {
+      "h1": "Circus Punt-voor-Punt Printables voor Kinderen"
+    }
+  },
   "puzzles": [
     {
       "slug": "circus-ringmaster-bear-dot-to-dot-puzzle",
       "header": {
+        "title": "Circusdirecteur Beer Stippen Verbinden — 74 Stippen, Gratis",
+        "og": {
+          "title": "Circusdirecteur Beer Stippen Verbinden — 74 Stippen, Gratis",
+          "description": "Ontmoet de beer die de grote show leidt! Verbind 74 stippen en onthul een circusdirecteur in dit gratis werkblad voor kinderen van 6-9 jaar.",
+          "image_alt": "Circusdirecteur-beer met hoge hoed en jas, stippen-verbinden puzzel met 74 stippen om te printen"
+        },
+        "meta_description": "Ontmoet de beer die de grote show leidt! Verbind 74 stippen en onthul een circusdirecteur in dit gratis werkblad voor kinderen van 6-9 jaar — Punten verbinden voor volwassenen.",
         "json_ld": {
-          "name": "Circus Ringmeester Beer",
+          "description": "Een circusdirecteur kondigt de artiesten aan en leidt de show. Verbind 74 stippen in dit gratis printbare stippenspel voor kinderen van 6-9 jaar.",
+          "name": "Circusdirecteur Beer",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/circus-ringmaster-bear-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
         "name": "Circus Ringmeester Beer",
+        "h1": "Circusdirecteur Beer Stippen Verbinden — 74 Stippen, Iets Uitdagender",
         "tagline": "Maak kennis met de beer die de grote show runt!",
         "description": "Verbind 74 punten om een vriendelijke beer te onthullen, gekleed als een circusringmeester. Dit middelmatige printblad helpt kinderen om getallenreeksen te oefenen, concentratie, visuele tracking en zorgvuldige potloodbeheersing",
         "fun_fact": "Een circusringmeester stelt de artiesten voor en begeleidt het publiek van de ene act naar de volgende.",
@@ -174,21 +197,33 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Zo los je de Circus Ringmeester Beer stip-tot-stip-puzzel op"
         }
       }
     },
     {
       "slug": "circus-tent-dot-to-dot-puzzle",
       "header": {
+        "title": "Circustent Stippen Verbinden — 59 Stippen, Gratis Printen",
+        "og": {
+          "title": "Circustent Stippen Verbinden — 59 Stippen, Gratis Printen",
+          "description": "Stap binnen bij de grote show! Verbind 59 stippen en onthul een vrolijke gestreepte circustent, een gratis werkblad voor kinderen van 5-8 jaar.",
+          "image_alt": "Gestreepte circustent met een vlag op de top, stippen-verbinden puzzel met 59 stippen om te printen"
+        },
+        "meta_description": "Stap binnen bij de grote show! Verbind 59 stippen en onthul een vrolijke gestreepte circustent, een gratis werkblad voor kinderen van 5-8 jaar — Punten verbinden printen PDF.",
         "json_ld": {
+          "description": "Een circustent is de grote tent waarin de hele show plaatsvindt. Verbind 59 stippen in dit gratis printbare stippenspel voor kinderen van 5-8 jaar.",
           "name": "Circustent",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/circus-tent-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
         "name": "Circustent",
+        "h1": "Circustent Stippen Verbinden — 59 Stippen voor Circusplezier",
         "tagline": "Stap binnen in een groot circusavontuur!",
         "description": "Verbind 59 punten om een vrolijke gestreepte circustent te onthullen, klaar voor de voorstelling. Deze eenvoudige printbare helpt kinderen om te oefenen met tellen in volgorde, visuele tracking, concentratie en stabiele potloodbeheersing",
         "fun_fact": "De hoofdvoorstellingstent van een circus wordt vaak de 'big top' genoemd omdat dit de grootste tent van de voorstelling is.",
@@ -351,7 +386,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Zo los je de Circustent stip-tot-stip-puzzel op"
         }
       }
     }

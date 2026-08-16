@@ -1,5 +1,21 @@
 {
-  "collection": {},
+  "collection": {
+    "header": {
+      "title": "ภาพลากเส้นต่อจุดน่ารักๆ สำหรับเด็กๆ",
+      "meta_description": "เตรียมพบกับความน่ารักสุดๆ! เชื่อมจุดต่างๆ เพื่อเผยให้เห็นลูกสุนัขแสนน่ารัก รถยนต์คันเล็กๆ และผองเพื่อนสุดน่ารักอีกมากมาย แบบฝึกหัดทั้งหมดสามารถดาวน์โหลดและพิมพ์ได้ฟรี ไม่จำเป็นต้องสมัครบัญชีผู้ใช้",
+      "og": {
+        "title": "ภาพลากเส้นต่อจุดน่ารักๆ สำหรับเด็กๆ",
+        "description": "เตรียมพบกับความน่ารักสุดๆ! เชื่อมจุดต่างๆ เพื่อเผยให้เห็นลูกสุนัขแสนน่ารัก รถยนต์คันเล็กๆ และผองเพื่อนสุดน่ารักอีกมากมาย แบบฝึกหัดทั้งหมดสามารถดาวน์โหลดและพิมพ์ได้ฟรี ไม่จำเป็นต้องสมัครบัญชีผู้ใช้"
+      },
+      "json_ld": {
+        "description": "เตรียมพบกับความน่ารักสุดๆ! เชื่อมจุดต่างๆ เพื่อเผยให้เห็นลูกสุนัขแสนน่ารัก รถยนต์คันเล็กๆ และผองเพื่อนสุดน่ารักอีกมากมาย แบบฝึกหัดทั้งหมดสามารถดาวน์โหลดและพิมพ์ได้ฟรี ไม่จำเป็นต้องสมัครบัญชีผู้ใช้"
+      }
+    },
+    "body": {
+      "h1": "ภาพลากเส้นต่อจุดน่ารักๆ สำหรับเด็กๆ",
+      "description": "เตรียมพบกับความน่ารักสุดๆ! เชื่อมจุดต่างๆ เพื่อเผยให้เห็นลูกสุนัขแสนน่ารัก รถยนต์คันเล็กๆ และผองเพื่อนสุดน่ารักอีกมากมาย แบบฝึกหัดทั้งหมดสามารถดาวน์โหลดและพิมพ์ได้ฟรี ไม่จำเป็นต้องสมัครบัญชีผู้ใช้"
+    }
+  },
   "puzzles": [
     {
       "slug": "cute-puppy-dot-to-dot-puzzle",
@@ -15,8 +31,8 @@
           "description": "ลูกสุนัขแรกเกิดไม่สามารถมองเห็นหรือได้ยินเป็นเวลาประมาณสองสัปดาห์ เปิดเผยลูกสุนัขที่น่าสนใจนี้ผ่าน 70 จุดพร้อม PDF ที่พิมพ์ได้ฟรีสำหรับอายุ 5–9 ปี",
           "name": "ลูกสุนัขน่ารัก",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing",
           "image": "/images/cute-puppy-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
           "age_range": "5-9"
         }
       },
@@ -144,7 +160,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "วิธีแก้ปริศนาลากเส้นต่อจุด ลูกสุนัขน่ารัก"
         }
       }
     },
@@ -162,7 +179,9 @@
           "description": "ขับผ่าน 55 จุดที่มีหมายเลขเพื่อสร้างรถเล็กที่มีความสุข PDF ที่พิมพ์ได้ฟรีมีการทำกิจกรรมลำดับที่เป็นมิตรสำหรับเด็กอายุ 4–8 ปี",
           "name": "รถคันเล็กน่ารัก",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/cute-little-car-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -269,7 +288,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "วิธีแก้ปริศนาลากเส้นต่อจุด รถคันเล็กน่ารัก"
         }
       }
     },
@@ -287,7 +307,9 @@
           "description": "ลูกสิงโตจะร้องก่อนที่จะเรียนรู้ที่จะคำราม สร้างรูปสิงโตหนุ่มผ่าน 74 จุดด้วยแผ่นงานพิมพ์ฟรีสำหรับเด็กอายุ 5–9 ปี",
           "name": "สิงโตน่ารัก",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/cute-lion-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
@@ -414,7 +436,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "วิธีแก้ปริศนาลากเส้นต่อจุด สิงโตน่ารัก"
         }
       }
     },
@@ -432,7 +455,9 @@
           "description": "ผีเสื้อใช้เซนเซอร์ที่เท้าในการรับรส เชื่อมต่อ 67 จุดเพื่อเผยให้เห็นปีกที่มีลวดลายของผีเสื้อตัวนี้ในไฟล์ PDF ที่พิมพ์ได้ฟรีสำหรับเด็กอายุ 5–9 ปี",
           "name": "ผีเสื้อน่ารัก",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/cute-butterfly-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
@@ -539,7 +564,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "วิธีแก้ปริศนาลากเส้นต่อจุด ผีเสื้อน่ารัก"
         }
       }
     },
@@ -557,7 +583,9 @@
           "description": "นับถอยหลังจากจุด 1 และสร้างจรวดข้าม 66 จุด ดาวน์โหลด PDF ธีมอวกาศฟรีสำหรับนักสำรวจอายุ 4–8 ปี",
           "name": "ยานอวกาศน่ารัก",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/cute-rocket-ship-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -664,7 +692,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "วิธีแก้ปริศนาลากเส้นต่อจุด ยานอวกาศน่ารัก"
         }
       }
     },
@@ -682,7 +711,9 @@
           "description": "เต่าทะเลน้อยตามแนวขอบฟ้าที่สดใสที่สุดสู่มหาสมุทร นำทางนักสำรวจตัวน้อยนี้ผ่าน 65 จุดใน PDF ฟรีสำหรับเด็กอายุ 4–8 ปี",
           "name": "ลูกเต่าตัวน้อยน่ารัก",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/cute-baby-turtle-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -789,7 +820,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "วิธีแก้ปริศนาลากเส้นต่อจุด ลูกเต่าตัวน้อยน่ารัก"
         }
       }
     },
@@ -807,7 +839,9 @@
           "description": "ตาที่คงที่ช่วยอธิบายว่าทำไมนกฮูกจึงหมุนหัวได้ไกลมาก เผยให้เห็นนกฮูกที่มีตากว้างผ่าน 65 จุดด้วยเอกสารพิมพ์ฟรีสำหรับเด็กอายุ 4–8 ปี",
           "name": "นกฮูกน่ารัก",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/cute-owl-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -914,7 +948,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "วิธีแก้ปริศนาลากเส้นต่อจุด นกฮูกน่ารัก"
         }
       }
     },
@@ -932,7 +967,9 @@
           "description": "ขาปูถูกสร้างขึ้นเพื่อการเคลื่อนไหวไปข้างข้างอย่างรวดเร็ว วิ่งผ่าน 72 จุดเพื่อทำให้ PDF ปูที่มีความสุขนี้เสร็จสมบูรณ์สำหรับเด็กอายุ 5–9 ปี",
           "name": "ปูร่าเริง",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/cute-crab-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
@@ -1039,7 +1076,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "วิธีแก้ปริศนาลากเส้นต่อจุด ปูร่าเริง"
         }
       }
     },
@@ -1057,7 +1095,9 @@
           "description": "ลูกช้างบางตัวมักดูดงวงของตัวเองเพื่อความสบาย พบกับลูกช้างน่ารักนี้ใน 50 จุดพร้อม PDF ที่พิมพ์ได้ฟรีสำหรับเด็กอายุ 4–8 ปี",
           "name": "ลูกช้างน้อยน่ารัก",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/cute-baby-elephant-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -1164,7 +1204,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "วิธีแก้ปริศนาลากเส้นต่อจุด ลูกช้างน้อยน่ารัก"
         }
       }
     },
@@ -1182,7 +1223,9 @@
           "description": "กบสามารถดูดซับออกซิเจนผ่านผิวหนังที่ชุ่มชื้นได้บางส่วน กระโดดข้ามจุด 82 จุดเพื่อเผยภาพกบยิ้มแย้มในไฟล์ PDF ฟรีสำหรับเด็กอายุ 6–10 ปีนี้",
           "name": "กบน้อยแสนสุข",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/cute-happy-frog-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "6-10"
         }
       },
       "body": {
@@ -1289,7 +1332,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "วิธีแก้ปริศนาลากเส้นต่อจุด กบน้อยแสนสุข"
         }
       }
     },
@@ -1307,7 +1351,9 @@
           "description": "ชุดราตรีและมงกุฎประกายวิบวับจะปรากฏขึ้นเมื่อบิดาเชื่อมจุดราชวงศ์ 57 จุด พิมพ์ไฟล์ PDF เจ้าหญิงฟรีเพื่อการฝึกนับเลขเชิงจินตนาการสำหรับเด็กอายุ 4–8 ปี",
           "name": "เจ้าหญิงสุดน่ารัก",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/cute-princess-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -1414,7 +1460,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "วิธีแก้ปริศนาลากเส้นต่อจุด เจ้าหญิงสุดน่ารัก"
         }
       }
     }

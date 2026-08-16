@@ -1,5 +1,17 @@
 {
-  "collection": {},
+  "collection": {
+    "header": {
+      "title": "Coloriages de jardin à relier pour enfants",
+      "meta_description": "À vos outils de jardinage ! Reliez les points pour révéler des gants, des truelles et des outils pratiques. Toutes les fiches sont téléchargeables et imprimables gratuitement, sans inscription.",
+      "og": {
+        "title": "Coloriages de jardin à relier pour enfants",
+        "description": "À vos outils de jardinage ! Reliez les points pour révéler des gants, des truelles et des outils pratiques. Toutes les fiches sont téléchargeables et imprimables gratuitement, sans inscription."
+      }
+    },
+    "body": {
+      "h1": "Coloriages de jardin à relier pour enfants"
+    }
+  },
   "puzzles": [
     {
       "slug": "garden-gloves-dot-to-dot-puzzle",
@@ -15,7 +27,9 @@
           "description": "Cette fiche de 54 points à relier forme une paire de gants de jardin, un exercice doux et gratuit pour les enfants de 4 à 8 ans qui démarrent l'ordre numérique. Idéale pour les activités de printemps en maternelle et primaire en France, elle s'imprime en un clic au format A4. Assez simple pour une première fois.",
           "name": "Gants de jardin",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/garden-gloves-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -156,7 +170,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Comment résoudre le puzzle de points à relier Gants de jardin"
         }
       }
     },
@@ -174,7 +189,9 @@
           "description": "Plongez dans la pratique précoce du crayon avec une truelle de jardin à 39 points. Le PDF gratuit dot à dot offre aux enfants de 4 à 7 ans une activité courte et réalisable.",
           "name": "Truelle de jardin",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/garden-trowel-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-7"
         }
       },
       "body": {
@@ -288,7 +305,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Comment résoudre le puzzle de points à relier Truelle de jardin"
         }
       }
     },
@@ -306,7 +324,9 @@
           "description": "Les brouettes ont été inventées dans la Chine ancienne il y a plus de 2 000 ans. Construisez-en une à travers 85 points avec ce PDF imprimable gratuit pour les âges de 5 à 9 ans.",
           "name": "Aire de jeux de la brouette",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/wheelbarrow-playground-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
@@ -447,7 +467,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Comment résoudre le puzzle de points à relier Aire de jeux de la brouette"
         }
       }
     }

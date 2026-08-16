@@ -1,17 +1,40 @@
 {
-  "collection": {},
+  "collection": {
+    "header": {
+      "title": "Uşaqlar üçün Pulsuz Kosmos Nöqtədən Nöqtəyə Çap Edilə Bilənlər",
+      "meta_description": "Pulsuz kosmos nöqtədən nöqtəyə iş vərəqləri ilə partlayın. Bu gün dostca bir rover tapmacasını çap edin, daha çox raket, planet və kosmik macəralar yaxın zamanda gələcək.",
+      "og": {
+        "title": "Uşaqlar üçün Pulsuz Kosmos Nöqtədən Nöqtəyə Çap Edilə Bilənlər",
+        "description": "Pulsuz kosmos nöqtədən nöqtəyə iş vərəqləri ilə partlayın. Bu gün dostca bir rover tapmacasını çap edin, daha çox raket, planet və kosmik macəralar yaxın zamanda gələcək."
+      }
+    },
+    "body": {
+      "h1": "Uşaqlar üçün Pulsuz Kosmos Nöqtədən Nöqtəyə Çap Edilə Bilənlər"
+    }
+  },
   "puzzles": [
     {
       "slug": "crescent-moon-dot-to-dot-puzzle",
       "header": {
+        "title": "Aypara Ay: Nöqtələri Birləşdir — 60 Asan Nöqtə, Pulsuz",
+        "og": {
+          "title": "Aypara Ay: Nöqtələri Birləşdir — 60 Asan Nöqtə, Pulsuz",
+          "description": "Gecə səmasının parlaq dilimini çəkin! Gözəl aypara ayı görmək üçün 60 asan nöqtəni birləşdirin — 4-7 yaş uşaqları üçün pulsuz çap olunan tapşırıq.",
+          "image_alt": "Gecə səmasında parlayan aypara ay, 60 nöqtəli çap olunan tapşırıq"
+        },
+        "meta_description": "Gecə səmasının parlaq dilimini çəkin! Gözəl aypara ayı görmək üçün 60 asan nöqtəni birləşdirin — 4-7 yaş uşaqları üçün pulsuz çap olunan tapşırıq — Nöqtələri birləşdir.",
         "json_ld": {
-          "name": "Ay",
+          "description": "Aypara ay Günəş işığını əks etdirərək parlayır. Bu pulsuz çap olunan tapşırıqda 4-7 yaş uşaqları üçün 60 asan nöqtəni birləşdirin.",
+          "name": "Aypara Ay",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/space-crescent-moon-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
         "name": "Ay",
+        "h1": "Aypara Ay Nöqtələri Birləşdir — Gecə Səması üçün 60 Asan Nöqtə",
         "tagline": "Parlaq Gecə Göyünün Parlaq Bir Dilimini İzlə!",
         "description": "Gecə göyündə parlayan gözəl bir ayı ortaya çıxarmaq üçün 60 asan nöqtəni birləşdirin. Bu pulsuz çap edilə bilən material uşaqlara nömrə sıralamasını, vizual izləməyi, diqqəti və hamar qələm idarəsini praktika etməyə kömək edir",
         "fun_fact": "Ayın yalnız Yer üzündən görə bildiyimiz incə, əyri bir hissəsi günəş işığı ilə işıqlandığı zaman ay yarımçıq görünür.",
@@ -174,21 +197,33 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Ay Nöqtədən Nöqtəyə Tapmacasını Necə Həll Etməli"
         }
       }
     },
     {
       "slug": "ringed-planet-dot-to-dot-puzzle",
       "header": {
+        "title": "Halqalı Planet: Nöqtələri Birləşdir — 43 Asan Nöqtə",
+        "og": {
+          "title": "Halqalı Planet: Nöqtələri Birləşdir — 43 Asan Nöqtə",
+          "description": "Parlaq halqalarla örtülmüş bir dünya çəkin! Halqalı planeti görmək üçün 43 asan nöqtəni birləşdirin — 4-6 yaş uşaqları üçün pulsuz çap olunan tapşırıq.",
+          "image_alt": "Kosmosda üzən halqalı planet, kiçik uşaqlar üçün 43 nöqtəli çap olunan tapşırıq"
+        },
+        "meta_description": "Parlaq halqalarla örtülmüş bir dünya çəkin! Halqalı planeti görmək üçün 43 asan nöqtəni birləşdirin — 4-6 yaş uşaqları üçün pulsuz çap olunan tapşırıq — Nöqtəli rəsmlər çap etmək üçün.",
         "json_ld": {
-          "name": "Halqa Planet",
+          "description": "Saturnun halqaları saysız-hesabsız buz və qaya parçalarından ibarətdir. Bu pulsuz çap olunan tapşırıqda 4-6 yaş uşaqları üçün 43 asan nöqtəni birləşdirin.",
+          "name": "Halqalı Planet",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/space-ringed-planet-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-7"
         }
       },
       "body": {
         "name": "Halqa Planet",
+        "h1": "Halqalı Planet Nöqtələri Birləşdir — İlk Kosmik Macəra üçün 43 Nöqtə",
         "tagline": "Parlayan Halqalara Sarılmış Bir Dünya Çiz!",
         "description": "43 asan nöqtəni birləşdirərək kosmosda üzən gözəl halqa planetini açığa çıxarın. Bu pulsuz çap edilə bilən material, kiçik uşaqlara nömrə sırasını, vizual izləməyi, konsentrasiyanı və sabit qələm idarəsini öyrənməyə kömək edir",
         "fun_fact": "Saturnun halqaları, kiçik dənələrdən ev boyda parçalara qədər dəyişən sayısız buz və daş parçasından ibarətdir.",
@@ -324,21 +359,33 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Halqa Planet Nöqtədən Nöqtəyə Tapmacasını Necə Həll Etməli"
         }
       }
     },
     {
       "slug": "space-rover-dot-to-dot-puzzle",
       "header": {
+        "title": "Kosmik Rover: Nöqtələri Birləşdir — 59 Nöqtə, Pulsuz",
+        "og": {
+          "title": "Kosmik Rover: Nöqtələri Birləşdir — 59 Nöqtə, Pulsuz",
+          "description": "Təkərli mehriban kəşfiyyatçı! Kosmik roveri görmək üçün 59 nöqtəni birləşdirin — 5-8 yaş uşaqları üçün pulsuz çap olunan tapşırıq.",
+          "image_alt": "Başqa bir dünyanı araşdıran mehriban təkərli kosmik rover, 59 nöqtəli çap olunan tapşırıq"
+        },
+        "meta_description": "Təkərli mehriban kəşfiyyatçı! Kosmik roveri görmək üçün 59 nöqtəni birləşdirin — 5-8 yaş uşaqları üçün pulsuz çap olunan tapşırıq — Nöqtələri birləşdir uşaqlar üçün.",
         "json_ld": {
-          "name": "Kosmos Rover",
+          "description": "Kosmik roverlər Ay və Mars kimi dünyaları araşdıran robot avtomobillərdir. Bu pulsuz çap olunan tapşırıqda 5-8 yaş uşaqları üçün 59 nöqtəni birləşdirin.",
+          "name": "Kosmik Rover",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/space-rover-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
         "name": "Kosmos Rover",
+        "h1": "Kosmik Rover Nöqtələri Birləşdir — Kəşfə Hazır 59 Nöqtə",
         "tagline": "Təkərlərdə Dostcanlı Kəşfiyyatçı",
         "description": "59 nöqtəni birləşdirərək başqa bir dünyanı kəşf etməyə hazır dostcanlı kosmik roveri ortaya çıxarın. Bu pulsuz çap edilə bilən tapmaca uşaqlara ədədi sıralama, diqqət və qələm idarəsini məşq etməyə kömək edir",
         "fun_fact": "Kosmik roverlər Ay və Mars kimi dünyaların səthini kəşf edən robotik vasitələrdir.",
@@ -501,7 +548,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Kosmos Rover Nöqtədən Nöqtəyə Tapmacasını Necə Həll Etməli"
         }
       }
     }

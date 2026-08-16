@@ -1,5 +1,17 @@
 {
-  "collection": {},
+  "collection": {
+    "header": {
+      "title": "子供向けの遊び場をテーマにした点つなぎプリント",
+      "meta_description": "遊び場を家に持ち帰ろう！点をつなげて、ブランコや滑り台、楽しい屋外遊びを見つけよう。すべてのワークシートは無料でダウンロードして印刷できます。アカウント登録は不要です。",
+      "og": {
+        "title": "子供向けの遊び場をテーマにした点つなぎプリント",
+        "description": "遊び場を家に持ち帰ろう！点をつなげて、ブランコや滑り台、楽しい屋外遊びを見つけよう。すべてのワークシートは無料でダウンロードして印刷できます。アカウント登録は不要です。"
+      }
+    },
+    "body": {
+      "h1": "子供向けの遊び場をテーマにした点つなぎプリント"
+    }
+  },
   "puzzles": [
     {
       "slug": "spring-horse-playground-dot-to-dot-puzzle",
@@ -15,7 +27,9 @@
           "description": "体重移動で揺れるスプリング木馬を53個の点でつなぐ、やさしい無料点つなぎプリントです。4〜8歳のお子様向けの2026年版プレイグラウンドシリーズ、無料で印刷できます。",
           "name": "スプリング木馬",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/playgrounds-spring-horse-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -156,7 +170,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "スプリング木馬の点つなぎパズルの解き方"
         }
       }
     },
@@ -174,7 +189,9 @@
           "description": "登る楽しさと滑る楽しさが一度に味わえるプレイハウス滑り台を68個の点でつなぐ無料点つなぎプリントです。5〜9歳の幼児〜小学生向けの2026年版プレイグラウンドシリーズ、無料で印刷できます。",
           "name": "プレイハウス滑り台",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/playgrounds-playhouse-slide-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
@@ -342,7 +359,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "プレイハウス滑り台の点つなぎパズルの解き方"
         }
       }
     },
@@ -360,7 +378,9 @@
           "description": "なびくたてがみと飾り鞍が美しいメリーゴーランドの馬を88個の点でつなぐ無料点つなぎプリントです。5〜9歳のお子様向けの2026年版プレイグラウンドシリーズ、無料で印刷できます。",
           "name": "メリーゴーランドの馬",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/playground-carousel-horse-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
@@ -528,7 +548,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "メリーゴーランドの馬の点つなぎパズルの解き方"
         }
       }
     },
@@ -546,7 +567,9 @@
           "description": "遊び場を駆け抜ける元気な車を48個の点でつなぐ、やさしい無料点つなぎプリントです。4〜8歳のお子様向けの2026年版プレイグラウンドシリーズ、無料で印刷できます。",
           "name": "走る車",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/playgrounds-dashing-car-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -714,7 +737,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "走る車の点つなぎパズルの解き方"
         }
       }
     },
@@ -732,7 +756,9 @@
           "description": "公園の定番遊具ブランコを42個の点でつなぐ、やさしい無料点つなぎプリントです。数字が少なく、3〜7歳の幼児の点つなぎ入門にぴったりな2026年版プレイグラウンドシリーズ、保育園・幼稚園でも無料で印刷できます。",
           "name": "ブランコ遊び場",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/swing-playgrounds-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-7"
         }
       },
       "body": {
@@ -900,7 +926,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "ブランコ遊び場の点つなぎパズルの解き方"
         }
       }
     },
@@ -918,7 +945,9 @@
           "description": "102のドットに挑戦する準備はできていますか？自信のあるカウンター向けの詳細な印刷可能PDFチャレンジで、高い遊び場のスライドを登ったり降りたりしましょう（6-10歳向け）。",
           "name": "スライド遊び場",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/slide-playgrounds-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "6-10"
         }
       },
       "body": {
@@ -1086,7 +1115,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "スライド遊び場の点つなぎパズルの解き方"
         }
       }
     },
@@ -1104,7 +1134,9 @@
           "description": "シーソーまたはティータートッター、動きは上下します。この無料の遊び場プリント可能な資料で、5〜9歳の子供たちのために68の番号付きの点をバランスさせてください。",
           "name": "シーソー遊び場",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/seesaw-playground-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
@@ -1272,7 +1304,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "シーソー遊び場の点つなぎパズルの解き方"
         }
       }
     },
@@ -1290,7 +1323,9 @@
           "description": "133のひねりとターンを通して、最も長い遊び場のシーケンスを乗りこなしてください。この無料のローラーコースターPDFは、8〜12歳の集中したパズルファンに挑戦します。",
           "name": "ローラーコースター遊び場",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/roller-coaster-playground-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "8-12"
         }
       },
       "body": {
@@ -1485,7 +1520,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "ローラーコースター遊び場の点つなぎパズルの解き方"
         }
       }
     },
@@ -1503,7 +1539,9 @@
           "description": "モンキーバーは遊び場でのグリップとコーディネーションを育てます。この94ドット版は鉛筆のコントロールを育てます。5歳から9歳向けの無料PDFをダウンロードしてください。",
           "name": "モンキーバー遊び場",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/monkey-bar-playground-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
@@ -1671,7 +1709,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "モンキーバー遊び場の点つなぎパズルの解き方"
         }
       }
     }

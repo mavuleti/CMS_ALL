@@ -1,17 +1,40 @@
 {
-  "collection": {},
+  "collection": {
+    "header": {
+      "title": "Cirkus prik-til-prik udskrifter til børn",
+      "meta_description": "Træd frem for gratis cirkus prik-til-prik udskrifter med en venlig ringmesterbjørn og et stribet telt. Download og udskriv begge PDF arbejdsark til tælling og blyantøvelse.",
+      "og": {
+        "title": "Cirkus prik-til-prik udskrifter til børn",
+        "description": "Træd frem for gratis cirkus prik-til-prik udskrifter med en venlig ringmesterbjørn og et stribet telt. Download og udskriv begge PDF arbejdsark til tælling og blyantøvelse."
+      }
+    },
+    "body": {
+      "h1": "Cirkus prik-til-prik udskrifter til børn"
+    }
+  },
   "puzzles": [
     {
       "slug": "circus-ringmaster-bear-dot-to-dot-puzzle",
       "header": {
+        "title": "Cirkusdirektør-bjørn – forbind prikkerne, 74 prikker",
+        "og": {
+          "title": "Cirkusdirektør-bjørn – forbind prikkerne, 74 prikker",
+          "description": "Mød bjørnen, der styrer hele showet! Forbind 74 prikker og afslør en cirkusdirektør i dette gratis prik-til-prik ark til børn i alderen 6-9 år.",
+          "image_alt": "Cirkusdirektør-bjørn i høj hat og frakke, prik til prik-opgave med 74 prikker til print"
+        },
+        "meta_description": "Mød bjørnen, der styrer hele showet! Forbind 74 prikker og afslør en cirkusdirektør i dette gratis prik-til-prik ark til børn i alderen 6-9 år — Forbind prikkerne opgaver børn.",
         "json_ld": {
-          "name": "Cirkus Ringmaster Bjørn",
+          "description": "En cirkusdirektør præsenterer artisterne og guider showet. Forbind 74 prikker i dette gratis prik-til-prik ark til børn i alderen 6-9 år.",
+          "name": "Cirkusdirektør-bjørn",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/circus-ringmaster-bear-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
         "name": "Cirkus Ringmaster Bjørn",
+        "h1": "Cirkusdirektør-bjørn prik til prik — 74 prikker med manege-hygge",
         "tagline": "Mød Bjørnen, der styrer det store show!",
         "description": "Forbind 74 prikker for at afsløre en venlig bjørn klædt som en cirkus ringmaster. Denne mellemstore print hjælper børn med at øve talrækkefølge, koncentration, visuel sporing og omhyggelig blyantkontrol",
         "fun_fact": "En cirkus ringmaster introducerer performerene og guider publikum fra en akt til den næste.",
@@ -174,21 +197,33 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Sådan løser du prik til prik-puslespillet Cirkus Ringmaster Bjørn"
         }
       }
     },
     {
       "slug": "circus-tent-dot-to-dot-puzzle",
       "header": {
+        "title": "Cirkustelt – forbind prikkerne, 59 prikker, gratis print",
+        "og": {
+          "title": "Cirkustelt – forbind prikkerne, 59 prikker, gratis print",
+          "description": "Velkommen til manegen! Forbind 59 prikker og afslør et flot stribet cirkustelt i dette gratis prik-til-prik ark til børn i alderen 5-8 år.",
+          "image_alt": "Stribet cirkustelt med et flag på toppen, prik til prik-opgave med 59 prikker til print"
+        },
+        "meta_description": "Velkommen til manegen! Forbind 59 prikker og afslør et flot stribet cirkustelt i dette gratis prik-til-prik ark til børn i alderen 5-8 år — Prik til prik tegninger gratis.",
         "json_ld": {
-          "name": "Circus Telt",
+          "description": "Cirkussets hovedtelt er det største telt i showet. Forbind 59 prikker i dette gratis prik-til-prik ark til børn i alderen 5-8 år.",
+          "name": "Cirkustelt",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/circus-tent-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
         "name": "Circus Telt",
+        "h1": "Cirkustelt prik til prik — 59 prikker til en stor manege-oplevelse",
         "tagline": "Træd frem til et Big-Top Eventyr!",
         "description": "Forbind 59 prikker for at afsløre et muntert stribet circus telt klar til showet. Dette nemme printbare hjælper børn med at øve sig i at tælle i rækkefølge, visuel sporing, koncentration og stabil blyantkontrol",
         "fun_fact": "Et circus' hovedoptrædenstelt kaldes ofte big top, fordi det er det største telt ved showet.",
@@ -351,7 +386,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Sådan løser du prik til prik-puslespillet Circus Telt"
         }
       }
     }

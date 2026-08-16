@@ -1,5 +1,17 @@
 {
-  "collection": {},
+  "collection": {
+    "header": {
+      "title": "Динозаври крапка за крапкою для друку",
+      "meta_description": "З’єднайте точки, щоб побачити своїх улюблених динозаврів! Усі аркуші можна безкоштовно завантажити та роздрукувати — обліковий запис не потрібен. Ідеально підходить для дітей віком від 4 до 10 років, дошкільних закладів, дитячих садочків і класів.",
+      "og": {
+        "title": "Динозаври крапка за крапкою для друку",
+        "description": "З’єднайте точки, щоб побачити своїх улюблених динозаврів! Усі аркуші можна безкоштовно завантажити та роздрукувати — обліковий запис не потрібен. Ідеально підходить для дітей віком від 4 до 10 років, дошкільних закладів, дитячих садочків і класів."
+      }
+    },
+    "body": {
+      "h1": "Динозаври крапка за крапкою для друку"
+    }
+  },
   "puzzles": [
     {
       "slug": "trex-61-dot-to-dot-puzzle",
@@ -15,7 +27,9 @@
           "description": "Безкоштовна головоломка «Тиранозавр рекс»: з’єднайте 61 крапок. Завантажте PDF для друку — цікаве завдання для розвитку уваги, лічби та дрібної моторики.",
           "name": "Виклик 61 точки тиранозавра",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/trex-61-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "6-9"
         }
       },
       "body": {
@@ -210,7 +224,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Як розв'язати головоломку «З'єднай крапки» Виклик 61 точки тиранозавра"
         }
       }
     },
@@ -228,7 +243,9 @@
           "description": "Безкоштовна головоломка «Страус»: з’єднайте 55 крапок. Завантажте PDF для друку — цікаве завдання для розвитку уваги, лічби та дрібної моторики.",
           "name": "страус",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/ostriches-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-8"
         }
       },
       "body": {
@@ -396,7 +413,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Як розв'язати головоломку «З'єднай крапки» страус"
         }
       }
     },
@@ -414,7 +432,9 @@
           "description": "Безкоштовна головоломка «Бронтозавр»: з’єднайте 50 крапок. Завантажте PDF для друку — цікаве завдання для розвитку уваги, лічби та дрібної моторики.",
           "name": "бронтозавр",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/brontosaurus-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-7"
         }
       },
       "body": {
@@ -582,7 +602,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Як розв'язати головоломку «З'єднай крапки» бронтозавр"
         }
       }
     },
@@ -600,7 +621,9 @@
           "description": "Безкоштовна головоломка «Трицератопс»: з’єднайте 70 крапок. Завантажте PDF для друку — цікаве завдання для розвитку уваги, лічби та дрібної моторики.",
           "name": "Трицератопс",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/triceratops-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "6-9"
         }
       },
       "body": {
@@ -768,7 +791,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Як розв'язати головоломку «З'єднай крапки» Трицератопс"
         }
       }
     },
@@ -786,7 +810,9 @@
           "description": "Безкоштовна головоломка «Велоцираптор»: з’єднайте 54 крапок. Завантажте PDF для друку — цікаве завдання для розвитку уваги, лічби та дрібної моторики.",
           "name": "Велоцираптор",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/velociraptor-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "6-9"
         }
       },
       "body": {
@@ -954,7 +980,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Як розв'язати головоломку «З'єднай крапки» Велоцираптор"
         }
       }
     },
@@ -972,7 +999,9 @@
           "description": "Безкоштовна головоломка «Стегозавр»: з’єднайте 52 крапок. Завантажте PDF для друку — цікаве завдання для розвитку уваги, лічби та дрібної моторики.",
           "name": "Стегозавр",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/stegosaurus-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-7"
         }
       },
       "body": {
@@ -1140,7 +1169,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Як розв'язати головоломку «З'єднай крапки» Стегозавр"
         }
       }
     },
@@ -1158,7 +1188,9 @@
           "description": "Безкоштовна головоломка «Спінозавр»: з’єднайте 74 крапок. Завантажте PDF для друку — цікаве завдання для розвитку уваги, лічби та дрібної моторики.",
           "name": "Спінозавр",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/spinosaurus-74-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "6-10"
         }
       },
       "body": {
@@ -1326,7 +1358,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Як розв'язати головоломку «З'єднай крапки» Спінозавр"
         }
       }
     },
@@ -1344,7 +1377,9 @@
           "description": "Безкоштовна головоломка «Брахіозавр»: з’єднайте 38 крапок. Завантажте PDF для друку — цікаве завдання для розвитку уваги, лічби та дрібної моторики.",
           "name": "Брахіозавр",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "dummy-brachiosaurus",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
@@ -1485,7 +1520,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Як розв'язати головоломку «З'єднай крапки» Брахіозавр"
         }
       }
     },
@@ -1503,7 +1539,9 @@
           "description": "Безкоштовна головоломка «Анкілозавр»: з’єднайте 32 крапок. Завантажте PDF для друку — цікаве завдання для розвитку уваги, лічби та дрібної моторики.",
           "name": "Анкілозавр",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "dummy-ankylosaurus",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-8"
         }
       },
       "body": {
@@ -1644,7 +1682,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Як розв'язати головоломку «З'єднай крапки» Анкілозавр"
         }
       }
     },
@@ -1662,7 +1701,9 @@
           "description": "Безкоштовна головоломка «Птеродактиль»: з’єднайте 67 крапок. Завантажте PDF для друку — цікаве завдання для розвитку уваги, лічби та дрібної моторики.",
           "name": "Птеродактиль",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/pterodactyl-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "6-9"
         }
       },
       "body": {
@@ -1830,7 +1871,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Як розв'язати головоломку «З'єднай крапки» Птеродактиль"
         }
       }
     },
@@ -1848,7 +1890,9 @@
           "description": "Безкоштовна головоломка «Алозавр»: з’єднайте 42 крапок. Завантажте PDF для друку — цікаве завдання для розвитку уваги, лічби та дрібної моторики.",
           "name": "Алозавр",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "dummy-allosaurus",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "6-10"
         }
       },
       "body": {
@@ -2016,7 +2060,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Як розв'язати головоломку «З'єднай крапки» Алозавр"
         }
       }
     }

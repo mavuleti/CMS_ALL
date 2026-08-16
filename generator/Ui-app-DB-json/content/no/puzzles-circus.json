@@ -1,17 +1,40 @@
 {
-  "collection": {},
+  "collection": {
+    "header": {
+      "title": "Sirkus Punkt til Punkt Utskrifter for Barn",
+      "meta_description": "Trinn rett opp for gratis sirkus punkt til punkt utskrifter med en vennlig ringmesterbjørn og et stripete stortelt. Last ned og skriv ut begge PDF-arbeidsarkene for telling og blyantøvelse.",
+      "og": {
+        "title": "Sirkus Punkt til Punkt Utskrifter for Barn",
+        "description": "Trinn rett opp for gratis sirkus punkt til punkt utskrifter med en vennlig ringmesterbjørn og et stripete stortelt. Last ned og skriv ut begge PDF-arbeidsarkene for telling og blyantøvelse."
+      }
+    },
+    "body": {
+      "h1": "Sirkus Punkt til Punkt Utskrifter for Barn"
+    }
+  },
   "puzzles": [
     {
       "slug": "circus-ringmaster-bear-dot-to-dot-puzzle",
       "header": {
+        "title": "Sirkusdirektør-bjørn Prikk til Prikk — 74 Prikker, Litt Vanskeligere",
+        "og": {
+          "title": "Sirkusdirektør-bjørn Prikk til Prikk — 74 Prikker, Litt Vanskeligere",
+          "description": "Møt bjørnen som styrer hele showet! Koble 74 prikker og avslør en sirkusdirektør i sylinderhatt, et gratis oppgaveark for barn 6-9 år.",
+          "image_alt": "Sirkusdirektør-bjørn i høy hatt og frakk, prikk til prikk-oppgave med 74 prikker til utskrift"
+        },
+        "meta_description": "Møt bjørnen som styrer hele showet! Koble 74 prikker og avslør en sirkusdirektør i sylinderhatt, et gratis oppgaveark for barn 6-9 år — Koble prikkene med tall.",
         "json_ld": {
-          "name": "Sirkusdirektør Bjørn",
+          "description": "En sirkusdirektør presenterer artistene og leder showet fra nummer til nummer. Koble 74 prikker i dette gratis oppgavearket for barn 6-9 år.",
+          "name": "Sirkusdirektør-bjørn",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/circus-ringmaster-bear-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
         "name": "Sirkusdirektør Bjørn",
+        "h1": "Sirkusdirektør-bjørn Prikk til Prikk — 74 Prikker med Sirkusmoro",
         "tagline": "Møt bjørnen som styrer det store showet!",
         "description": "Koble sammen 74 punkter for å avsløre en vennlig bjørn kledd som en sirkusdirektør. Dette mellomliggende utskriftsarket hjelper barn med å øve på tallrekker, konsentrasjon, visuell sporingsferdighet og presis blyantkontroll",
         "fun_fact": "En sirkusdirektør presenterer artistene og leder publikum fra en opptreden til den neste.",
@@ -174,21 +197,33 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Slik løser du prikk til prikk-puslespillet Sirkusdirektør Bjørn"
         }
       }
     },
     {
       "slug": "circus-tent-dot-to-dot-puzzle",
       "header": {
+        "title": "Sirkustelt Prikk til Prikk — 59 Prikker, Gratis Utskrift",
+        "og": {
+          "title": "Sirkustelt Prikk til Prikk — 59 Prikker, Gratis Utskrift",
+          "description": "Kom nærmere, showet starter snart! Koble 59 prikker og avslør et muntert stripete sirkustelt, et gratis oppgaveark for barn 5-8 år.",
+          "image_alt": "Stripete sirkustelt med et flagg på toppen, prikk til prikk-oppgave med 59 prikker til utskrift"
+        },
+        "meta_description": "Kom nærmere, showet starter snart! Koble 59 prikker og avslør et muntert stripete sirkustelt, et gratis oppgaveark for barn 5-8 år — Prikk til prikk til utskrift PDF.",
         "json_ld": {
+          "description": "Sirkusteltet er det største teltet på showet, der alle opptredenene finner sted. Koble 59 prikker i dette gratis prikk til prikk-oppgavearket for barn 5-8 år.",
           "name": "Sirkustelt",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/circus-tent-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
         "name": "Sirkustelt",
+        "h1": "Sirkustelt Prikk til Prikk — 59 Prikker med Sirkusmoro",
         "tagline": "Kom inn under sirkusteltet for et stort eventyr!",
         "description": "Koble sammen 59 punkter for å avsløre et muntert stripet sirkustelt klart for forestillingen. Dette enkle utskriftsarket hjelper barn med å øve på å telle i rekkefølge, visuell sporingsferdighet, konsentrasjon og jevn blyantkontroll",
         "fun_fact": "En sirkus' hovedforestillingstelt kalles ofte big top fordi det er det største teltet på showet.",
@@ -351,7 +386,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Slik løser du prikk til prikk-puslespillet Sirkustelt"
         }
       }
     }

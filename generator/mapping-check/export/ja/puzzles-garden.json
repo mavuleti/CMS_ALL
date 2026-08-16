@@ -1,5 +1,17 @@
 {
-  "collection": {},
+  "collection": {
+    "header": {
+      "title": "子供向けガーデン点つなぎプリント",
+      "meta_description": "さあ、ガーデニングを始めましょう！点をつなげて、ガーデニンググローブ、こて、便利なガーデニングツールを見つけましょう。すべてのワークシートは無料でダウンロードして印刷できます。アカウント登録は不要です。",
+      "og": {
+        "title": "子供向けガーデン点つなぎプリント",
+        "description": "さあ、ガーデニングを始めましょう！点をつなげて、ガーデニンググローブ、こて、便利なガーデニングツールを見つけましょう。すべてのワークシートは無料でダウンロードして印刷できます。アカウント登録は不要です。"
+      }
+    },
+    "body": {
+      "h1": "子供向けガーデン点つなぎプリント"
+    }
+  },
   "puzzles": [
     {
       "slug": "garden-gloves-dot-to-dot-puzzle",
@@ -15,7 +27,9 @@
           "description": "土いじりに欠かせないガーデニンググローブを54個の点でつなぐ無料点つなぎプリントです。庭仕事に興味がある4〜8歳の幼児〜低学年の数字練習にぴったりで、手を守る道具の役割も学べる知育プリント。2026年版のガーデンシリーズから無料で印刷できます。",
           "name": "ガーデニンググローブ",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/garden-gloves-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -156,7 +170,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "ガーデニンググローブの点つなぎパズルの解き方"
         }
       }
     },
@@ -174,7 +189,9 @@
           "description": "苗植えや土掘りに使う園芸用こてを39個の点でつなぐ、初級レベルの無料点つなぎプリントです。数字が少なく、3〜6歳の幼児が初めて挑戦する点つなぎにもおすすめ。保育園・幼稚園の知育プリントとして印刷してご活用ください。",
           "name": "園芸用こて",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/garden-trowel-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-7"
         }
       },
       "body": {
@@ -288,7 +305,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "園芸用こての点つなぎパズルの解き方"
         }
       }
     },
@@ -306,7 +324,9 @@
           "description": "2000年以上前の古代中国生まれの手押し車を85個の点でつなぐ無料点つなぎプリントです。庭や公園での荷物運びの道具に興味がある5〜9歳の子どもの数字順序と集中力を育みます。2026年版のガーデンシリーズから無料で印刷できます。",
           "name": "手押し車遊び場",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/wheelbarrow-playground-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
@@ -447,7 +467,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "手押し車遊び場の点つなぎパズルの解き方"
         }
       }
     }

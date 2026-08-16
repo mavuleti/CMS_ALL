@@ -1,5 +1,17 @@
 {
-  "collection": {},
+  "collection": {
+    "header": {
+      "title": "Zirkus Punkt-zu-Punkt Druckvorlagen für Kinder",
+      "meta_description": "Treten Sie näher für kostenlose Zirkus Punkt-zu-Punkt Druckvorlagen mit einem freundlichen Ringmaster-Bären und einem gestreiften Zelt. Laden Sie beide PDF-Arbeitsblätter für Zählen und Bleistiftübungen herunter und drucken Sie sie aus.",
+      "og": {
+        "title": "Zirkus Punkt-zu-Punkt Druckvorlagen für Kinder",
+        "description": "Treten Sie näher für kostenlose Zirkus Punkt-zu-Punkt Druckvorlagen mit einem freundlichen Ringmaster-Bären und einem gestreiften Zelt. Laden Sie beide PDF-Arbeitsblätter für Zählen und Bleistiftübungen herunter und drucken Sie sie aus."
+      }
+    },
+    "body": {
+      "h1": "Zirkus Punkt-zu-Punkt Druckvorlagen für Kinder"
+    }
+  },
   "puzzles": [
     {
       "slug": "circus-ringmaster-bear-dot-to-dot-puzzle",
@@ -7,14 +19,17 @@
         "title": "Zirkusdirektor-Bär Von Punkt zu Punkt — 74 Punkte für Fortgeschrittene",
         "og": {
           "title": "Zirkusdirektor-Bär Von Punkt zu Punkt — 74 Punkte für Fortgeschrittene",
-          "description": "Verbinde 74 Punkte zu einem Bären im Zirkusdirektor-Kostüm. Dieses anspruchsvollere Von-Punkt-zu-Punkt-Arbeitsblatt übt Zahlenreihenfolge, Konzentration und sichere Stiftführung."
+          "description": "Verbinde 74 Punkte zu einem Bären im Zirkusdirektor-Kostüm. Dieses anspruchsvollere Von-Punkt-zu-Punkt-Arbeitsblatt übt Zahlenreihenfolge, Konzentration und sichere Stiftführung.",
+          "image_alt": "Zirkusdirektor-Bär mit hohem Hut und Mantel, Von-Punkt-zu-Punkt-Rätsel mit 74 Punkten zum Ausdrucken"
         },
         "meta_description": "Verbinde 74 Punkte zu einem Bären im Zirkusdirektor-Kostüm. Dieses anspruchsvollere Von-Punkt-zu-Punkt-Arbeitsblatt übt Zahlenreihenfolge, Konzentration und sichere Stiftführung — Punkte verbinden für Erwachsene.",
         "json_ld": {
           "description": "Verbinde 74 Punkte zu einem Bären im Zirkusdirektor-Kostüm. Dieses anspruchsvollere Von-Punkt-zu-Punkt-Arbeitsblatt übt Zahlenreihenfolge, Konzentration und sichere Stiftführung.",
           "name": "Zirkusdirektor Bär",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/circus-ringmaster-bear-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
@@ -182,7 +197,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "So löst du das Zirkusdirektor Bär Punkt-zu-Punkt-Rätsel"
         }
       }
     },
@@ -192,14 +208,17 @@
         "title": "Zirkuszelt Zahlenbild — 59 Punkte kostenlos zum Ausdrucken",
         "og": {
           "title": "Zirkuszelt Zahlenbild — 59 Punkte kostenlos zum Ausdrucken",
-          "description": "Verbinde 59 Punkte zu einem fröhlich gestreiften Zirkuszelt. Dieses leichte, kostenlose Zahlenbild hilft Kindern, Zählen, Konzentration und Stiftkontrolle zu üben."
+          "description": "Verbinde 59 Punkte zu einem fröhlich gestreiften Zirkuszelt. Dieses leichte, kostenlose Zahlenbild hilft Kindern, Zählen, Konzentration und Stiftkontrolle zu üben.",
+          "image_alt": "Gestreiftes Zirkuszelt mit Fahne auf der Spitze, Von-Punkt-zu-Punkt-Rätsel mit 59 Punkten zum Ausdrucken"
         },
         "meta_description": "Verbinde 59 Punkte zu einem fröhlich gestreiften Zirkuszelt. Dieses leichte, kostenlose Zahlenbild hilft Kindern, Zählen, Konzentration und Stiftkontrolle zu üben — Zahlenbilder bis 100.",
         "json_ld": {
           "description": "Verbinde 59 Punkte zu einem fröhlich gestreiften Zirkuszelt. Dieses leichte, kostenlose Zahlenbild hilft Kindern, Zählen, Konzentration und Stiftkontrolle zu üben.",
           "name": "Zirkuszelt",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/circus-tent-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -367,7 +386,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "So löst du das Zirkuszelt Punkt-zu-Punkt-Rätsel"
         }
       }
     }

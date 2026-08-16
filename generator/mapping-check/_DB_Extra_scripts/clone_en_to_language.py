@@ -51,12 +51,17 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
-sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "tools"))
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent.parent / "tools"))
 from migrate_legacy_schema import convert_entry
 from migrate_page_schema import migrate_blog_entry, migrate_page
 from i18n_technical_fields import is_i18n_required
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from value_repr import full_repr
+from dot_guide_heading_templates import heading_for
 
-DB_DIR = Path(__file__).resolve().parent
+# As of the 2026-08-14 "Reorganize mapping tools" commit, mapping_audit_*.db
+# files live in a sibling DB/ folder rather than alongside this script.
+DB_DIR = Path(__file__).resolve().parent.parent / "DB"
 
 _MISSING = object()
 _TOKEN_RE = re.compile(r"[^.\[\]]+|\[\d+\]")
@@ -199,12 +204,10 @@ LOCALIZED_HOME_SEO: dict[str, dict[str, str]] = {
 }
 
 
-def compact_repr(value: Any, limit: int = 500) -> str:
+def compact_repr(value: Any) -> str:
     if value is _MISSING or value is None:
         return ""
-    text = json.dumps(value, ensure_ascii=False) if not isinstance(value, str) else value
-    text = " ".join(str(text).split())
-    return text if len(text) <= limit else text[: limit - 1] + "…"
+    return full_repr(value)
 
 
 def resolve_path(obj: Any, path: str) -> Any:
@@ -280,6 +283,18 @@ def clone_db(
                     nv = resolve_path(converted_cache[slug], new_key)
                     if nv is not _MISSING:
                         new_val = compact_repr(nv)
+
+            # body.dot_guide.heading has no legacy/prod source at all (see
+            # audit_single_puzzle.py) — it's synthesized per-locale from that
+            # locale's own translated name via HEADING_TEMPLATES, not cloned
+            # like an ordinary field. Without this, every re-clone silently
+            # blanks it out again (see POPULATE-NEW-LANGUAGE-RULES.md §3c).
+            if new_key == "body.dot_guide.heading" and not new_val and raw_entry is not None:
+                name_val = resolve_path(converted_cache.get(slug, {}), "body.name")
+                if isinstance(name_val, str) and name_val:
+                    generated = heading_for(lang, name_val)
+                    if generated:
+                        new_val = generated
 
         if leg_val or new_val:
             filled += 1

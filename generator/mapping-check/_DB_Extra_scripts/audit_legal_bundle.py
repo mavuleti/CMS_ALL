@@ -27,8 +27,10 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
-sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "tools"))
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent.parent / "tools"))
 from migrate_page_schema import PAGE_FILES, description_for, migrate_page  # noqa: E402
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from value_repr import full_repr  # noqa: E402
 
 _MISSING = object()
 
@@ -42,12 +44,8 @@ def get_path(obj: Any, path: str) -> Any:
     return current
 
 
-def compact_repr(value: Any, limit: int = 500) -> str:
-    if value is _MISSING:
-        return "<absent>"
-    text = json.dumps(value, ensure_ascii=False) if not isinstance(value, str) else value
-    text = " ".join(str(text).split())
-    return text if len(text) <= limit else text[: limit - 1] + "…"
+def compact_repr(value: Any) -> str:
+    return full_repr(value, missing=_MISSING)
 
 
 def _status_for(container_has_key: bool, mapped_value: Any, legacy_value: Any) -> str:

@@ -1,5 +1,17 @@
 {
-  "collection": {},
+  "collection": {
+    "header": {
+      "title": "Dinozaurų taškeliai spausdinami vaikams",
+      "meta_description": "Sujunkite taškus ir atskleiskite savo mėgstamiausius dinozaurus! Visus darbalapius galima nemokamai atsisiųsti ir atsispausdinti – paskyros nereikia. Puikiai tinka 4–10 metų vaikams, ikimokyklinio amžiaus vaikams, darželiams ir klasėms.",
+      "og": {
+        "title": "Dinozaurų taškeliai spausdinami vaikams",
+        "description": "Sujunkite taškus ir atskleiskite savo mėgstamiausius dinozaurus! Visus darbalapius galima nemokamai atsisiųsti ir atsispausdinti – paskyros nereikia. Puikiai tinka 4–10 metų vaikams, ikimokyklinio amžiaus vaikams, darželiams ir klasėms."
+      }
+    },
+    "body": {
+      "h1": "Dinozaurų taškeliai spausdinami vaikams"
+    }
+  },
   "puzzles": [
     {
       "slug": "trex-61-dot-to-dot-puzzle",
@@ -15,7 +27,9 @@
           "description": "T-Rex keitė prarastus dantis visą savo gyvenimą. Sujunkite 61 tašką šiame nemokamame spausdinamame taškas į tašką PDF vaikams nuo 6 iki 9 metų, iš mūsų 2026 metų kolekcijos.",
           "name": "T-Rex 61 taško iššūkis",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/trex-61-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "6-9"
         }
       },
       "body": {
@@ -210,7 +224,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Kaip išspręsti „Sujunk taškus\" galvosūkį T-Rex 61 taško iššūkis"
         }
       }
     },
@@ -228,7 +243,9 @@
           "description": "Nubrėžk 55 lengvus taškus ir sukurk strutį – didžiausią gyvą paukštį Žemėje. Nemokamas „sujunk taškus“ lapas 5–8 metų vaikams. Neskraidantis, bet greitesnis už arklį – iki 72 km/val – atsispausdink PDF ir sunumeruok šį šiuolaikinį dinozaurų giminaitį. Greičiau baigsi, nei pavytum.",
           "name": "Strutis",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/ostriches-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-8"
         }
       },
       "body": {
@@ -396,7 +413,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Kaip išspręsti „Sujunk taškus\" galvosūkį Strutis"
         }
       }
     },
@@ -414,7 +432,9 @@
           "description": "Brontosaurus reiškia griaustinio lizdą. Sekite jo ilgą kaklą ir uodegą per 50 taškų su šiuo nemokamu spausdinamu taškas į tašką lapu vaikams nuo 4 iki 7 metų.",
           "name": "Brontozauras",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/brontosaurus-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-7"
         }
       },
       "body": {
@@ -582,7 +602,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Kaip išspręsti „Sujunk taškus\" galvosūkį Brontozauras"
         }
       }
     },
@@ -600,7 +621,9 @@
           "description": "Sujunk 70 taškų ir nubrėžk trirage triceratopsą – nemokamas „sujunk taškus“ lapas darželinukams ir pirmokams. Jo ragai augdavo iki 90 cm ilgio, ilgesni už beisbolo lazdą – atsispausdink PDF ir nubrėžk kaulinį raištį. Pirma ragai, paskui raištis.",
           "name": "Triceratops",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/triceratops-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "6-9"
         }
       },
       "body": {
@@ -768,7 +791,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Kaip išspręsti „Sujunk taškus\" galvosūkį Triceratops"
         }
       }
     },
@@ -786,7 +810,9 @@
           "description": "Tikri Velociraptor buvo kalakuto dydžio ir plunksnuoti. Atskirkite vieną per 54 taškus su šiuo taškas į tašką spausdinamu lapu vaikams nuo 5 iki 8 metų.",
           "name": "Velociraptorius",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/velociraptor-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "6-9"
         }
       },
       "body": {
@@ -954,7 +980,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Kaip išspręsti „Sujunk taškus\" galvosūkį Velociraptorius"
         }
       }
     },
@@ -972,7 +999,9 @@
           "description": "Sekite Stegosaurus nuo jo deimanto formos plokštelių iki spygliuoto uodegos 52 taškais. Gaukite nemokamą spausdinamą taškų lapą vaikams nuo 4 iki 7 metų.",
           "name": "Stegozauras",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/stegosaurus-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-7"
         }
       },
       "body": {
@@ -1140,7 +1169,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Kaip išspręsti „Sujunk taškus\" galvosūkį Stegozauras"
         }
       }
     },
@@ -1158,7 +1188,9 @@
           "description": "Spinosaurus buvo ilgesnis už T-Rex ir turėjo milžinišką burę. Atskirkite ją per 74 taškus šiame nemokamame taškų spausdinamame PDF dokumente 1–2 klasėms.",
           "name": "Spinozauras",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/spinosaurus-74-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "6-10"
         }
       },
       "body": {
@@ -1326,7 +1358,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Kaip išspręsti „Sujunk taškus\" galvosūkį Spinozauras"
         }
       }
     },
@@ -1344,7 +1377,9 @@
           "description": "Nubrėžk 38 taškus ir sukurk aukščiausią bei ramiausią juros periodo milžiną – nemokamas „sujunk taškus“ lapas 5–9 metų vaikams. Brachiozauras sverdavo iki 60 tonų – tiek pat, kiek 10 dramblių – atsispausdink PDF ir sunumeruok aukštybinį kaklą. Trumpas skaičiavimas, aukštas atlygis.",
           "name": "Brachiozauras",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "dummy-brachiosaurus",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
@@ -1485,7 +1520,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Kaip išspręsti „Sujunk taškus\" galvosūkį Brachiozauras"
         }
       }
     },
@@ -1503,7 +1539,9 @@
           "description": "Šis trumpas 32 taškų ankilozauro lapas – greitas „sujunk taškus“ galvosūkis darželinukams ir pirmokams nuo 5 iki 8 metų. Net jo akių vokai buvo padengti kauliniais šarvais – atsispausdink nemokamą PDF iš 2026 m. dinozaurų puslapių ir nubrėžk uodegos vėzdą. Apsišarvuok per penkias minutes.",
           "name": "Ankilozauras",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "dummy-ankylosaurus",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-8"
         }
       },
       "body": {
@@ -1644,7 +1682,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Kaip išspręsti „Sujunk taškus\" galvosūkį Ankilozauras"
         }
       }
     },
@@ -1662,7 +1701,9 @@
           "description": "Sujunk 67 taškus ir nubrėžk garsiausią priešistorės skraidantį roplį – nemokamas „sujunk taškus“ lapas 6–9 metų vaikams. Pterodaktiliai iš tikrųjų nebuvo dinozaurai – jie priklausė pterozaurų grupei. Atsispausdink PDF ir sklandyk per skaičius. Sparnai išskleisti per visą puslapį.",
           "name": "Pterodaktilas",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/pterodactyl-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "6-9"
         }
       },
       "body": {
@@ -1830,7 +1871,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Kaip išspręsti „Sujunk taškus\" galvosūkį Pterodaktilas"
         }
       }
     },
@@ -1848,7 +1890,9 @@
           "description": "Allosaurus valdė Juras ilgai prieš T-Rex pasirodymą. Sekite 42 taškus aplink šį galingą plėšrūną mįslėje, sukurtoje vaikams nuo 6 iki 10 metų.",
           "name": "Alozauras",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "dummy-allosaurus",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "6-10"
         }
       },
       "body": {
@@ -2016,7 +2060,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Kaip išspręsti „Sujunk taškus\" galvosūkį Alozauras"
         }
       }
     }

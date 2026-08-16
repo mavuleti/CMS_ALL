@@ -1,5 +1,17 @@
 {
-  "collection": {},
+  "collection": {
+    "header": {
+      "title": "Prik-til-prik-printbare havefigurer til børn",
+      "meta_description": "Kom i gang med at dyrke! Forbind prikkerne for at afdække havehandsker, murskeer og praktiske haveredskaber. Alle arbejdsark kan downloades og udskrives gratis – ingen konto nødvendig.",
+      "og": {
+        "title": "Prik-til-prik-printbare havefigurer til børn",
+        "description": "Kom i gang med at dyrke! Forbind prikkerne for at afdække havehandsker, murskeer og praktiske haveredskaber. Alle arbejdsark kan downloades og udskrives gratis – ingen konto nødvendig."
+      }
+    },
+    "body": {
+      "h1": "Prik-til-prik-printbare havefigurer til børn"
+    }
+  },
   "puzzles": [
     {
       "slug": "garden-gloves-dot-to-dot-puzzle",
@@ -15,7 +27,9 @@
           "description": "Dette lette prik-til-prik-ark med 54 prikker viser et par havehandsker og er perfekt til børnehavebørn, der øver tal og finmotorik. Print gratis og forbind prikkerne til en hyggelig forårsaktivitet i børnehaven. Skånsomt nok til de mindste hænder.",
           "name": "Havehandsker",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/garden-gloves-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -156,7 +170,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Sådan løser du prik til prik-puslespillet Havehandsker"
         }
       }
     },
@@ -174,7 +189,9 @@
           "description": "Med blot 39 prikker er denne murske et af de korteste gratis prik-til-prik-ark i vores 2026-samling, oplagt til børnehavebørn, der lige er startet med tal. Print PDF'en og tegn haveredskabet, enhver lille gartner kender. Klaret på et kvarter.",
           "name": "Haveske",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/garden-trowel-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-7"
         }
       },
       "body": {
@@ -288,7 +305,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Sådan løser du prik til prik-puslespillet Haveske"
         }
       }
     },
@@ -306,7 +324,9 @@
           "description": "Skubbevogne blev opfundet i det gamle Kina for over 2.000 år siden. Byg en over 85 punkter med denne gratis udskrivbare PDF til børn i alderen 5–9.",
           "name": "Trillebør Legeplads",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/wheelbarrow-playground-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
@@ -447,7 +467,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Sådan løser du prik til prik-puslespillet Trillebør Legeplads"
         }
       }
     }

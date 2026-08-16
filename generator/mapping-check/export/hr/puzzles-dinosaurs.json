@@ -1,5 +1,17 @@
 {
-  "collection": {},
+  "collection": {
+    "header": {
+      "title": "Dinosauri točkasto-točkirani materijali za ispis za djecu",
+      "meta_description": "Spojite točkice i otkrijte svoje omiljene dinosaure! Svi radni listovi mogu se besplatno preuzeti i ispisati - nije potreban račun. Savršeno za djecu od 4 do 10 godina, predškolce, vrtić i djecu u učionici.",
+      "og": {
+        "title": "Dinosauri točkasto-točkirani materijali za ispis za djecu",
+        "description": "Spojite točkice i otkrijte svoje omiljene dinosaure! Svi radni listovi mogu se besplatno preuzeti i ispisati - nije potreban račun. Savršeno za djecu od 4 do 10 godina, predškolce, vrtić i djecu u učionici."
+      }
+    },
+    "body": {
+      "h1": "Dinosauri točkasto-točkirani materijali za ispis za djecu"
+    }
+  },
   "puzzles": [
     {
       "slug": "trex-61-dot-to-dot-puzzle",
@@ -15,7 +27,9 @@
           "description": "Ovaj T-Rex sa 61 točkom donosi dulji izazov spoji točkice sigurnim brojačima od 6 do 9 godina. T-Rexu su zubi rasli cijeli život – ispišite besplatan PDF, vrhunski izbor ljubitelja dinosaura diljem SAD-a, Velike Britanije i Kanade u 2026. Onaj kojeg svi traže.",
           "name": "Izazov T-Rexa sa 61 točkom",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/trex-61-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "6-9"
         }
       },
       "body": {
@@ -210,7 +224,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Kako riješiti puzzle spoji točke Izazov T-Rexa sa 61 točkom"
         }
       }
     },
@@ -228,7 +243,9 @@
           "description": "Nacrtajte 55 lakih točaka i otkrijte noja, najveću živuću pticu na svijetu, u ovom besplatnom predlošku spoji točkice za djecu od 5 do 8 godina. Ne leti, ali trči brže od konja, i do 72 km/h – ispišite PDF i posložite ovog modernog rođaka dinosaura. Brže gotovo nego uhvatiti ga.",
           "name": "Noj",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/ostriches-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-8"
         }
       },
       "body": {
@@ -396,7 +413,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Kako riješiti puzzle spoji točke Noj"
         }
       }
     },
@@ -414,7 +432,9 @@
           "description": "Brontosaurus znači grom gušter. Pratite njegovo dugo vrat i rep kroz 50 točaka s ovim besplatnim radnim listom za djecu u dobi od 4 do 7 godina.",
           "name": "Brontosaurus",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/brontosaurus-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-7"
         }
       },
       "body": {
@@ -582,7 +602,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Kako riješiti puzzle spoji točke Brontosaurus"
         }
       }
     },
@@ -600,7 +621,9 @@
           "description": "Spojite 70 točaka i nacrtajte trorogog Triceratopsa ovim besplatnim predloškom spoji točkice za djecu vrtićke dobi i 1. razred osnovne škole. Njegovi rogovi narasli su i do 90 centimetara, duže od bejzbolske palice – ispišite PDF i nacrtajte koštani ovratnik. Prvo rogovi, ovratnik na kraju.",
           "name": "Triceratops",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/triceratops-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "6-9"
         }
       },
       "body": {
@@ -768,7 +791,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Kako riješiti puzzle spoji točke Triceratops"
         }
       }
     },
@@ -786,7 +810,9 @@
           "description": "Ovaj Velociraptor s 54 točke gradi vještine brojanja kod djece od 5 do 8 godina uz besplatan predložak spoji točkice. Pravi je raptor bio lovac veličine purana prekriven perjem koji je trčao i do 40 km/h – ispišite PDF i nacrtajte ovog lukavog predatora. Brzo ime, mirna ruka.",
           "name": "Velociraptor",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/velociraptor-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "6-9"
         }
       },
       "body": {
@@ -954,7 +980,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Kako riješiti puzzle spoji točke Velociraptor"
         }
       }
     },
@@ -972,7 +999,9 @@
           "description": "Spojite 52 točke u Stegosaura i njegove dijamantne leđne ploče – omiljen besplatan predložak spoji točkice za predškolce od 4 do 7 godina diljem SAD-a, Velike Britanije i Kanade. Mozak veličine oraha, no rep prava supersila. Ispišite besplatan PDF i nacrtajte ga. Te ploče uče strpljenju.",
           "name": "Stegosaur",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/stegosaurus-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-7"
         }
       },
       "body": {
@@ -1140,7 +1169,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Kako riješiti puzzle spoji točke Stegosaur"
         }
       }
     },
@@ -1158,7 +1188,9 @@
           "description": "Ovaj Spinosaurus sa 74 točke otkriva najvećeg pronađenog mesožderskog dinosaura – većeg od T-Rexa – u besplatnom predlošku spoji točkice za 1. i 2. razred osnovne škole. Dugačak i do 18 metara, duže od školskog autobusa – ispišite PDF i nacrtajte njegovo jedro. Najveći lovac, točka po točka.",
           "name": "Spinosaurs",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/spinosaurus-74-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "6-10"
         }
       },
       "body": {
@@ -1326,7 +1358,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Kako riješiti puzzle spoji točke Spinosaurs"
         }
       }
     },
@@ -1344,7 +1377,9 @@
           "description": "Nacrtajte 38 točaka i otkrijte najvišeg i najmirnijeg diva jure u ovom besplatnom predlošku spoji točkice za djecu od 5 do 9 godina. Brahiosaurus je težio i do 60 tona, koliko deset slonova zajedno – ispišite PDF i posložite njegov visoki vrat. Kratko brojanje, velika nagrada.",
           "name": "Brahiosaurus",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "dummy-brachiosaurus",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
@@ -1485,7 +1520,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Kako riješiti puzzle spoji točke Brahiosaurus"
         }
       }
     },
@@ -1503,7 +1539,9 @@
           "description": "Ovaj kratki Ankilosaur s 32 točke brz je predložak spoji točkice za djecu vrtićke dobi i 1. razreda, od 5 do 8 godina. Čak su mu i vjeđe bile obložene koštanim oklopom – ispišite besplatan PDF iz zbirke dinosaura za 2026. i nacrtajte njegov toljagasti rep. Naoružajte se za pet minuta.",
           "name": "Ankilosaur",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "dummy-ankylosaurus",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-8"
         }
       },
       "body": {
@@ -1644,7 +1682,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Kako riješiti puzzle spoji točke Ankilosaur"
         }
       }
     },
@@ -1662,7 +1701,9 @@
           "description": "Spojite 67 točaka i nacrtajte najpoznatijeg letećeg gmaza prapovijesti ovim besplatnim predloškom spoji točkice za djecu od 6 do 9 godina. Pterodaktili uopće nisu bili dinosauri – bili su pterosauri. Ispišite PDF i letite kroz niz brojeva. Krila razapeta preko cijele stranice.",
           "name": "Pterodaktil",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/pterodactyl-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "6-9"
         }
       },
       "body": {
@@ -1830,7 +1871,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Kako riješiti puzzle spoji točke Pterodaktil"
         }
       }
     },
@@ -1848,7 +1890,9 @@
           "description": "Alosaurus je vladao jurskim razdobljem dugo prije nego što se pojavio T-Rex. Pratite 42 točke oko ovog moćnog grabežljivca u zagonetki dizajniranoj za djecu uzrasta 6–10 godina.",
           "name": "Alozaur",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "dummy-allosaurus",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "6-10"
         }
       },
       "body": {
@@ -2016,7 +2060,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Kako riješiti puzzle spoji točke Alozaur"
         }
       }
     }

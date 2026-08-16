@@ -1,5 +1,17 @@
 {
-  "collection": {},
+  "collection": {
+    "header": {
+      "title": "Sodo taškiniai spausdinami paveikslėliai vaikams",
+      "meta_description": "Augkite! Sujunkite taškus, kad rastumėte sodo pirštines, menteles ir patogius sodo įrankius. Visus darbalapius galima nemokamai atsisiųsti ir atsispausdinti – paskyros nereikia.",
+      "og": {
+        "title": "Sodo taškiniai spausdinami paveikslėliai vaikams",
+        "description": "Augkite! Sujunkite taškus, kad rastumėte sodo pirštines, menteles ir patogius sodo įrankius. Visus darbalapius galima nemokamai atsisiųsti ir atsispausdinti – paskyros nereikia."
+      }
+    },
+    "body": {
+      "h1": "Sodo taškiniai spausdinami paveikslėliai vaikams"
+    }
+  },
   "puzzles": [
     {
       "slug": "garden-gloves-dot-to-dot-puzzle",
@@ -15,7 +27,9 @@
           "description": "Sodo pirštinės saugo mažas rankas nuo purvo ir dygliuotų augalų. Sujunkite 54 taškus šiame nemokamame spausdinamame darbe vaikams nuo 4 iki 8 metų.",
           "name": "Sodo pirštinės",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/garden-gloves-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -156,7 +170,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Kaip išspręsti „Sujunk taškus\" galvosūkį Sodo pirštinės"
         }
       }
     },
@@ -174,7 +189,9 @@
           "description": "Vos 39 taškų kastuvėlio galvosūkis – vienas trumpiausių mūsų 2026 m. „sujunk taškus“ kolekcijos lapų, tinkamas 4–7 metų vaikams, lavinantiems pieštuko valdymą. Atsispausdink nemokamą PDF ir nubrėžk įrankį, be kurio nė vienas sodininkas neapsieina. Baigiamas per vieną prisėdimą.",
           "name": "Sodo kastuvėlis",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/garden-trowel-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-7"
         }
       },
       "body": {
@@ -288,7 +305,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Kaip išspręsti „Sujunk taškus\" galvosūkį Sodo kastuvėlis"
         }
       }
     },
@@ -306,7 +324,9 @@
           "description": "Vežimėliai buvo išrasti senovės Kinijoje prieš daugiau nei 2000 metų. Sukurkite vieną per 85 taškus su šiuo nemokamu spausdinamu PDF vaikams nuo 5 iki 9 metų.",
           "name": "Karučių žaidimų aikštelė",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/wheelbarrow-playground-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
@@ -447,7 +467,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Kaip išspręsti „Sujunk taškus\" galvosūkį Karučių žaidimų aikštelė"
         }
       }
     }

@@ -1,17 +1,40 @@
 {
-  "collection": {},
+  "collection": {
+    "header": {
+      "title": "Dibujos de circo para unir puntos para niños",
+      "meta_description": "Descubre fichas gratuitas de circo para unir puntos con un simpático oso maestro de ceremonias y una carpa de rayas. Descarga e imprime ambos PDF para practicar el conteo y el control del lápiz.",
+      "og": {
+        "title": "Dibujos de circo para unir puntos para niños",
+        "description": "Descubre fichas gratuitas de circo para unir puntos con un simpático oso maestro de ceremonias y una carpa de rayas. Descarga e imprime ambos PDF para practicar el conteo y el control del lápiz."
+      }
+    },
+    "body": {
+      "h1": "Dibujos de circo para unir puntos para niños"
+    }
+  },
   "puzzles": [
     {
       "slug": "circus-ringmaster-bear-dot-to-dot-puzzle",
       "header": {
+        "title": "Oso Maestro de Ceremonias: Une los Puntos — 74 Puntos",
+        "og": {
+          "title": "Oso Maestro de Ceremonias: Une los Puntos — 74 Puntos",
+          "description": "¡Conoce al oso que dirige el gran espectáculo! Une 74 puntos para descubrir a un maestro de ceremonias en esta ficha gratuita para imprimir, para niños de 6 a 9 años.",
+          "image_alt": "Oso maestro de ceremonias de circo con sombrero de copa y chaqueta, puzzle de unir puntos imprimible de 74 puntos"
+        },
+        "meta_description": "¡Conoce al oso que dirige el gran espectáculo! Une 74 puntos para descubrir a un maestro de ceremonias en esta ficha gratuita para imprimir, para niños de 6 a 9 años — Juegos de conectar puntos para niños.",
         "json_ld": {
-          "name": "Oso maestro de ceremonias",
+          "description": "El maestro de ceremonias del circo presenta a los artistas y guía el espectáculo. Une 74 puntos en esta ficha gratuita para imprimir, para niños de 6 a 9 años.",
+          "name": "Oso Maestro de Ceremonias",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/circus-ringmaster-bear-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
         "name": "Oso maestro de ceremonias",
+        "h1": "Oso Maestro de Ceremonias: Une los Puntos — 74 Puntos de Diversión Circense",
         "tagline": "¡Conoce al oso que dirige el gran espectáculo!",
         "description": "Une 74 puntos para descubrir un simpático oso vestido de maestro de ceremonias. Este imprimible de nivel intermedio ayuda a practicar la secuencia numérica, la concentración, el seguimiento visual y el control preciso del lápiz",
         "fun_fact": "El maestro de ceremonias presenta a los artistas y guía al público de un número al siguiente.",
@@ -174,21 +197,33 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Cómo resolver el rompecabezas de unir puntos Oso maestro de ceremonias"
         }
       }
     },
     {
       "slug": "circus-tent-dot-to-dot-puzzle",
       "header": {
+        "title": "Carpa de Circo: Une los Puntos — 59 Puntos, Gratis",
+        "og": {
+          "title": "Carpa de Circo: Une los Puntos — 59 Puntos, Gratis",
+          "description": "¡Pasen y vean! Une 59 puntos para descubrir una alegre carpa de circo a rayas en esta ficha gratuita para imprimir, para niños de 5 a 8 años.",
+          "image_alt": "Carpa de circo a rayas con una bandera en la parte superior, puzzle de unir puntos imprimible de 59 puntos"
+        },
+        "meta_description": "¡Pasen y vean! Une 59 puntos para descubrir una alegre carpa de circo a rayas en esta ficha gratuita para imprimir, para niños de 5 a 8 años — Unir puntos para imprimir PDF.",
         "json_ld": {
-          "name": "Carpa de circo",
+          "description": "La carpa principal de un circo es la más grande del espectáculo. Une 59 puntos en esta ficha gratuita para imprimir, para niños de 5 a 8 años.",
+          "name": "Carpa de Circo",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/circus-tent-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
         "name": "Carpa de circo",
+        "h1": "Carpa de Circo: Une los Puntos — 59 Puntos de Aventura bajo la Gran Carpa",
         "tagline": "¡Pasa y disfruta de una aventura bajo la gran carpa!",
         "description": "Une 59 puntos para descubrir una alegre carpa de circo a rayas, lista para el espectáculo. Este imprimible fácil ayuda a practicar el conteo en orden, el seguimiento visual, la concentración y el control del lápiz",
         "fun_fact": "La carpa principal de un circo suele llamarse gran carpa porque es la más grande de todo el espectáculo.",
@@ -351,7 +386,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Cómo resolver el rompecabezas de unir puntos Carpa de circo"
         }
       }
     }

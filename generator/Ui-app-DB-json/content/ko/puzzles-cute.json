@@ -1,5 +1,21 @@
 {
-  "collection": {},
+  "collection": {
+    "header": {
+      "title": "아이들을 위한 귀여운 점 잇기 그림 자료",
+      "meta_description": "귀여움 폭발을 준비하세요! 점들을 연결하여 사랑스러운 강아지, 꼬마 자동차, 그리고 더 많은 매력적인 친구들을 만나보세요. 모든 활동지는 무료로 다운로드하고 인쇄할 수 있으며, 계정 등록은 필요하지 않습니다.",
+      "og": {
+        "title": "아이들을 위한 귀여운 점 잇기 그림 자료",
+        "description": "귀여움 폭발을 준비하세요! 점들을 연결하여 사랑스러운 강아지, 꼬마 자동차, 그리고 더 많은 매력적인 친구들을 만나보세요. 모든 활동지는 무료로 다운로드하고 인쇄할 수 있으며, 계정 등록은 필요하지 않습니다."
+      },
+      "json_ld": {
+        "description": "귀여움 폭발을 준비하세요! 점들을 연결하여 사랑스러운 강아지, 꼬마 자동차, 그리고 더 많은 매력적인 친구들을 만나보세요. 모든 활동지는 무료로 다운로드하고 인쇄할 수 있으며, 계정 등록은 필요하지 않습니다."
+      }
+    },
+    "body": {
+      "h1": "아이들을 위한 귀여운 점 잇기 그림 자료",
+      "description": "귀여움 폭발을 준비하세요! 점들을 연결하여 사랑스러운 강아지, 꼬마 자동차, 그리고 더 많은 매력적인 친구들을 만나보세요. 모든 활동지는 무료로 다운로드하고 인쇄할 수 있으며, 계정 등록은 필요하지 않습니다."
+    }
+  },
   "puzzles": [
     {
       "slug": "cute-puppy-dot-to-dot-puzzle",
@@ -15,8 +31,8 @@
           "description": "70개의 점으로 완성하는 귀여운 강아지 도안은 조금 더 긴 순서에 도전하고 싶은 만 5~9세 아이를 위한 무료 점 잇기예요. 갓 태어난 강아지는 생후 약 2주까지 앞이 보이지도, 소리가 들리지도 않는다고 해요. 2026년 인기 도안을 무료 PDF로 몇 번이고 다시 인쇄해도 좋아요.",
           "name": "귀여운 강아지",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing",
           "image": "/images/cute-puppy-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
           "age_range": "5-9"
         }
       },
@@ -144,7 +160,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "귀여운 강아지 점 잇기 퍼즐 푸는 방법"
         }
       }
     },
@@ -162,7 +179,9 @@
           "description": "55개의 점으로 완성하는 귀여운 자동차 도안은 만 4~8세 아이를 위한 무료 점 잇기예요. 영국에서 만든 세계에서 가장 작은 양산차 필 P50에는 후진 기어가 없다고 해요. 무료 PDF를 인쇄해 점을 잇고, 완성 후에는 매번 다른 색으로 칠해보세요.",
           "name": "귀여운 작은 자동차",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/cute-little-car-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -269,7 +288,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "귀여운 작은 자동차 점 잇기 퍼즐 푸는 방법"
         }
       }
     },
@@ -287,7 +307,9 @@
           "description": "74개의 점으로 완성하는 귀여운 아기 사자 도안은 조금 긴 도안에 도전하고 싶은 만 5~9세 아이에게 알맞은 무료 점 잇기예요. 사자의 포효는 8킬로미터까지 들리지만, 새끼 사자는 두 살까지 야옹 소리만 낸다고 해요. 무료 PDF를 인쇄해 이 사랑스러운 아기 사자를 그려보세요.",
           "name": "귀여운 사자",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/cute-lion-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
@@ -414,7 +436,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "귀여운 사자 점 잇기 퍼즐 푸는 방법"
         }
       }
     },
@@ -432,7 +455,9 @@
           "description": "67개의 점으로 완성하는 아름다운 나비 도안은 만 5~9세 아이를 위한 무료 점 잇기예요. 나비는 발로 맛을 느낀다는 신기한 사실을 아시나요? 봄철 교실 활동으로도 인기가 많은 도안이에요. 무료 PDF를 인쇄해 세심하게 날개의 무늬를 완성해보세요.",
           "name": "귀여운 나비",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/cute-butterfly-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
@@ -539,7 +564,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "귀여운 나비 점 잇기 퍼즐 푸는 방법"
         }
       }
     },
@@ -557,7 +583,9 @@
           "description": "66개의 점으로 완성하는 귀여운 로켓 우주선 도안은 우주를 사랑하는 만 4~8세 아이를 위한 무료 점 잇기예요. 로켓은 발사 후 약 8.5분 만에 우주에 도달한다고 해요. 2026년 귀여운 테마 모음의 무료 PDF를 인쇄해 카운트다운과 함께 점을 이어보세요.",
           "name": "귀여운 로켓 우주선",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/cute-rocket-ship-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -664,7 +692,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "귀여운 로켓 우주선 점 잇기 퍼즐 푸는 방법"
         }
       }
     },
@@ -682,7 +711,9 @@
           "description": "65개의 점으로 완성하는 사랑스러운 아기 거북이 도안은 만 4~8세 아이를 위한 무료 점 잇기예요. 알에서 갓 깨어난 새끼 거북이는 본능적으로 가장 밝은 방향, 보통은 달빛 비치는 바다 쪽으로 기어간다고 해요. 무료 PDF를 인쇄해 이 작은 탐험가를 그려보세요.",
           "name": "귀여운 아기 거북이",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/cute-baby-turtle-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -789,7 +820,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "귀여운 아기 거북이 점 잇기 퍼즐 푸는 방법"
         }
       }
     },
@@ -807,7 +839,9 @@
           "description": "65개의 점으로 완성하는 귀여운 부엉이 도안은 순서 익히기와 연필 조절 연습에 좋은 만 4~8세 아이용 무료 점 잇기예요. 부엉이는 눈을 움직일 수 없는 대신 고개를 최대 270도까지 돌릴 수 있다고 해요. 무료 PDF를 인쇄해 이 동그란 눈의 부엉이를 완성해보세요.",
           "name": "귀여운 올빼미",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/cute-owl-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -914,7 +948,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "귀여운 올빼미 점 잇기 퍼즐 푸는 방법"
         }
       }
     },
@@ -932,7 +967,9 @@
           "description": "72개의 점으로 완성하는 쾌활한 게 도안은 만 5~9세 아이를 위한 무료 점 잇기예요. 게의 다리는 옆으로만 굽혀지기 때문에 옆걸음이 가장 빠른 이동 방법이라고 해요. 해변 나들이에도 잘 어울리는 도안으로, 무료 PDF를 인쇄해 어디서든 바로 즐겨보세요.",
           "name": "쾌활한 게",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/cute-crab-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
@@ -1039,7 +1076,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "쾌활한 게 점 잇기 퍼즐 푸는 방법"
         }
       }
     },
@@ -1057,7 +1095,9 @@
           "description": "50개의 점으로 완성하는 귀여운 아기 코끼리 도안은 귀여운 테마 중 가장 쉬운 무료 점 잇기로, 만 4~8세 아이에게 딱 맞아요. 아기 코끼리는 사람 아기가 손가락을 빨듯 코를 빤다는 사실을 알고 계셨나요? 무료 PDF를 인쇄해 이 작고 순한 거인을 완성해보세요.",
           "name": "귀여운 아기 코끼리",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/cute-baby-elephant-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -1164,7 +1204,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "귀여운 아기 코끼리 점 잇기 퍼즐 푸는 방법"
         }
       }
     },
@@ -1182,7 +1223,9 @@
           "description": "개구리는 축축한 피부를 통해 부분적으로 산소를 흡수합니다. 6~10세 어린이를 위한 무료 PDF로, 82개의 점을 따라가며 웃는 개구리를 찾아보세요.",
           "name": "귀여운 행복한 개구리",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/cute-happy-frog-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "6-10"
         }
       },
       "body": {
@@ -1289,7 +1332,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "귀여운 행복한 개구리 점 잇기 퍼즐 푸는 방법"
         }
       }
     },
@@ -1307,7 +1351,9 @@
           "description": "57개의 왕실 점들을 연결하면 반짝이는 드레스와 왕관이 나타납니다. 4~8세 아이들의 상상력을 자극하는 숫자 연습을 위해 무료 프린세스 PDF를 인쇄하세요.",
           "name": "귀여운 공주",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/cute-princess-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -1414,7 +1460,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "귀여운 공주 점 잇기 퍼즐 푸는 방법"
         }
       }
     }

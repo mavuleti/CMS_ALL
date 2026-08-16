@@ -33,8 +33,10 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
-sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "tools"))
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent.parent / "tools"))
 from migrate_legacy_schema import convert_entry  # noqa: E402
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from value_repr import full_repr  # noqa: E402
 
 
 _MISSING = object()
@@ -50,12 +52,8 @@ def get_path(obj: Any, path: str) -> Any:
     return current
 
 
-def compact_repr(value: Any, limit: int = 500) -> str:
-    if value is _MISSING:
-        return "<absent>"
-    text = json.dumps(value, ensure_ascii=False) if not isinstance(value, str) else value
-    text = " ".join(str(text).split())
-    return text if len(text) <= limit else text[: limit - 1] + "…"
+def compact_repr(value: Any) -> str:
+    return full_repr(value, missing=_MISSING)
 
 
 # Legacy key -> new key(s), per puzzle-json-schema.md §2.
@@ -453,6 +451,23 @@ def build_rows(
         mapped_value = get_path(converted, target)
         status = _status_for(legacy_sub in dot_guide, mapped_value, legacy_value)
         rows.append(_r(f"dotGuide.{legacy_sub}", legacy_value, target, mapped_value, status))
+
+    # dot_guide.heading: NEW_FIELD, no legacy source at all — synthesized as
+    # "How to Solve the {name} Dot-to-Dot Puzzle" (verified 2026-08-16 against
+    # every already-migrated category's real content, e.g. dinosaurs/garden).
+    # CommonPuzzleTemplate.tsx's requireField() throws a hard build error if
+    # dotGuide is present but heading is missing/empty, so this must always be
+    # generated whenever a dot_guide block exists — it was missing from this
+    # script entirely until 2026-08-16, which silently broke canada/uae/
+    # usa-250/ocean once a stale build-cache fallback stopped covering for it
+    # (see POPULATE-NEW-LANGUAGE-RULES.md 3c). Non-English locales do NOT get
+    # this from cloning — clone_en_to_language.py re-derives it per locale
+    # from that locale's own translated name via HEADING_TEMPLATES.
+    if get_path(converted, "body.dot_guide") not in (_MISSING, None):
+        name = get_path(converted, "body.name")
+        heading = f"How to Solve the {name} Dot-to-Dot Puzzle" if isinstance(name, str) and name else _MISSING
+        target = "body.dot_guide.heading"
+        rows.append(_r(_source_key(target), heading, target, heading, "NEW_FIELD"))
 
     legacy_sections = dot_guide.get("sections", [])
     new_sections = get_path(converted, "body.dot_guide.sections")

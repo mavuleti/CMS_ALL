@@ -1,7 +1,15 @@
 {
   "collection": {
     "header": {
-      "meta_description": "Free garden-themed dot to dot printables for kids ages 4-9: gloves, trowel, and wheelbarrow. These connect the dots worksheets for kids are print-ready for spring gardening units in the USA, UK, and Canada — no sign-up needed."
+      "meta_description": "Free garden-themed dot to dot printables for kids ages 4-9: gloves, trowel, and wheelbarrow. These connect the dots worksheets for kids are print-ready for spring gardening units in the USA, UK, and Canada — no sign-up needed.",
+      "title": "Garden Dot to Dot Printables for Kids",
+      "og": {
+        "title": "Garden Dot to Dot Printables for Kids",
+        "description": "Put on the garden gloves, find the next number, and uncover a trowel or wheelbarrow. Each free connect-the-dots PDF gives preschoolers focused pencil practice."
+      }
+    },
+    "body": {
+      "h1": "Garden Dot to Dot Printables for Kids"
     }
   },
   "puzzles": [
@@ -19,7 +27,9 @@
           "description": "Garden gloves protect little hands from dirt and prickly plants. Connect 54 dots in this free printable dot-to-dot worksheet for kids ages 4–8.",
           "name": "Garden Gloves",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/garden-gloves-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -160,7 +170,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "How to Solve the Garden Gloves Dot-to-Dot Puzzle"
         }
       }
     },
@@ -178,7 +189,9 @@
           "description": "Dig into early pencil practice with a 39-dot garden trowel. The free dot to dot PDF gives children ages 4–7 a short, achievable activity.",
           "name": "Garden Trowel",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/garden-trowel-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-7"
         }
       },
       "body": {
@@ -292,7 +305,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "How to Solve the Garden Trowel Dot-to-Dot Puzzle"
         }
       }
     },
@@ -310,7 +324,9 @@
           "description": "Wheelbarrows were invented in ancient China over 2,000 years ago. Build one across 85 dots with this free dot to dot printable PDF for ages 5–9.",
           "name": "Wheelbarrow Playground",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/wheelbarrow-playground-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
@@ -451,7 +467,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "How to Solve the Wheelbarrow Playground Dot-to-Dot Puzzle"
         }
       }
     }

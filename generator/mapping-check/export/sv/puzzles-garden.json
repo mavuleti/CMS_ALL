@@ -1,5 +1,17 @@
 {
-  "collection": {},
+  "collection": {
+    "header": {
+      "title": "Utskrivbara prick-till-prick-bilder i trädgården för barn",
+      "meta_description": "Sätt igång med odlingen! Koppla ihop prickarna för att avslöja trädgårdshandskar, murslev och praktiska trädgårdsredskap. Alla arbetsblad är gratis att ladda ner och skriva ut – inget konto behövs.",
+      "og": {
+        "title": "Utskrivbara prick-till-prick-bilder i trädgården för barn",
+        "description": "Sätt igång med odlingen! Koppla ihop prickarna för att avslöja trädgårdshandskar, murslev och praktiska trädgårdsredskap. Alla arbetsblad är gratis att ladda ner och skriva ut – inget konto behövs."
+      }
+    },
+    "body": {
+      "h1": "Utskrivbara prick-till-prick-bilder i trädgården för barn"
+    }
+  },
   "puzzles": [
     {
       "slug": "garden-gloves-dot-to-dot-puzzle",
@@ -15,7 +27,9 @@
           "description": "Trädgårdshandskar skyddar små händer från smuts och taggiga växter. Koppla ihop 54 punkter i detta gratis utskrivbara arbetsblad för barn i åldrarna 4–8.",
           "name": "Trädgårdshandskar",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/garden-gloves-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -156,7 +170,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Så löser du prick till prick-pusslet Trädgårdshandskar"
         }
       }
     },
@@ -174,7 +189,9 @@
           "description": "Gräv in dig i tidig blyertspennaträning med en 39-punkts trädgårdsspade. Den gratis punkt till punkt PDF ger barn i åldrarna 4–7 en kort, uppnåelig aktivitet.",
           "name": "Trädgårdsslev",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/garden-trowel-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-7"
         }
       },
       "body": {
@@ -288,7 +305,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Så löser du prick till prick-pusslet Trädgårdsslev"
         }
       }
     },
@@ -306,7 +324,9 @@
           "description": "Skottkärror uppfanns i det antika Kina för över 2 000 år sedan. Bygg en över 85 punkter med denna gratis utskrivbara PDF för åldrarna 5–9.",
           "name": "Skottkärra Lekplats",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/wheelbarrow-playground-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
@@ -447,7 +467,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Så löser du prick till prick-pusslet Skottkärra Lekplats"
         }
       }
     }

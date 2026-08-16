@@ -1,17 +1,40 @@
 {
-  "collection": {},
+  "collection": {
+    "header": {
+      "title": "Cirkuszi Pont-Pont Nyomtatható Anyagok Gyerekeknek",
+      "meta_description": "Lépj előre az ingyenes cirkuszi pont-pont nyomtatható anyagokért, amelyek egy barátságos ringmester medvét és egy csíkos nagy sátort ábrázolnak. Töltsd le és nyomtasd ki mindkét PDF munkalapot a számolás és ceruzás gyakorlás érdekében.",
+      "og": {
+        "title": "Cirkuszi Pont-Pont Nyomtatható Anyagok Gyerekeknek",
+        "description": "Lépj előre az ingyenes cirkuszi pont-pont nyomtatható anyagokért, amelyek egy barátságos ringmester medvét és egy csíkos nagy sátort ábrázolnak. Töltsd le és nyomtasd ki mindkét PDF munkalapot a számolás és ceruzás gyakorlás érdekében."
+      }
+    },
+    "body": {
+      "h1": "Cirkuszi Pont-Pont Nyomtatható Anyagok Gyerekeknek"
+    }
+  },
   "puzzles": [
     {
       "slug": "circus-ringmaster-bear-dot-to-dot-puzzle",
       "header": {
+        "title": "Cirkuszigazgató Medve Pontösszekötő — 74 Pont, Ingyenes",
+        "og": {
+          "title": "Cirkuszigazgató Medve Pontösszekötő — 74 Pont, Ingyenes",
+          "description": "Ismerd meg a medvét, aki a nagy show-t vezeti! Kösd össze a 74 pontot, hogy felfedj egy cirkuszigazgatót, ingyenes pontösszekötő feladat 6–9 éves gyerekeknek.",
+          "image_alt": "Cirkuszigazgató medve magas kalapban és kabátban, 74 pontos nyomtatható pontösszekötő rejtvény"
+        },
+        "meta_description": "Ismerd meg a medvét, aki a nagy show-t vezeti! Kösd össze a 74 pontot, hogy felfedj egy cirkuszigazgatót, ingyenes pontösszekötő feladat 6–9 éves gyerekeknek — rejtett kép pontösszekötő.",
         "json_ld": {
-          "name": "Cirkuszi Igazgató Medve",
+          "description": "A cirkuszigazgató mutatja be az előadókat és vezeti a show-t. Kösd össze a 74 pontot ebben az ingyenes, nyomtatható pontösszekötő feladatban 6–9 éves gyerekeknek.",
+          "name": "Cirkuszigazgató Medve",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/circus-ringmaster-bear-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
         "name": "Cirkuszi Igazgató Medve",
+        "h1": "Cirkuszigazgató Medve Pontösszekötő — 74 Pont Cirkuszi Móka",
         "tagline": "Ismerd meg a Medvét, Aki Vezeti a Nagy Show-t!",
         "description": "Kösd össze a 74 pontot, hogy felfedd a barátságos medvét, aki cirkuszi igazgatónak öltözött. Ez a középhaladó nyomtatható segít a gyerekeknek a számok sorrendjének, a koncentrációnak, a vizuális nyomkövetésnek és a gondos ceruzakezelésnek a gyakorlásában",
         "fun_fact": "Egy cirkuszi igazgató bemutatja az előadókat és irányítja a közönséget egyik számról a másikra.",
@@ -174,21 +197,33 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Hogyan oldd meg a Cirkuszi Igazgató Medve pontösszekötő rejtvényt"
         }
       }
     },
     {
       "slug": "circus-tent-dot-to-dot-puzzle",
       "header": {
+        "title": "Cirkuszsátor Pontösszekötő — 59 Pont, Ingyenes Nyomtatható",
+        "og": {
+          "title": "Cirkuszsátor Pontösszekötő — 59 Pont, Ingyenes Nyomtatható",
+          "description": "Gyertek a nagy sátor alá! Kösd össze az 59 pontot, hogy felfedj egy vidám csíkos cirkuszsátrat, ingyenes pontösszekötő feladat 5–8 éves gyerekeknek.",
+          "image_alt": "Csíkos cirkuszi sátor zászlóval a tetején, 59 pontos nyomtatható pontösszekötő rejtvény"
+        },
+        "meta_description": "Gyertek a nagy sátor alá! Kösd össze az 59 pontot, hogy felfedj egy vidám csíkos cirkuszsátrat, ingyenes pontösszekötő feladat 5–8 éves gyerekeknek — pontösszekötő játékok gyerekeknek.",
         "json_ld": {
-          "name": "Cirkuszi Sátor",
+          "description": "A cirkusz fő sátra a legnagyobb sátor az előadáson. Kösd össze az 59 pontot ebben az ingyenes, nyomtatható pontösszekötő feladatban 5–8 éves gyerekeknek.",
+          "name": "Cirkuszsátor",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/circus-tent-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
         "name": "Cirkuszi Sátor",
+        "h1": "Cirkuszsátor Pontösszekötő — 59 Pont egy Nagy Kalandhoz",
         "tagline": "Lépj be egy Nagy Tetős Kalandra!",
         "description": "Köss össze 59 pontot, hogy felfedd a vidám csíkos cirkuszi sátrat, amely készen áll a show-ra. Ez a könnyen nyomtatható feladat segít a gyerekeknek a számolás gyakorlásában, a vizuális követésben, a koncentrációban és a stabil ceruzakezelésben",
         "fun_fact": "A cirkusz fő előadási sátrát gyakran nagy tetőnek hívják, mert ez a legnagyobb sátor a show-ban.",
@@ -351,7 +386,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Hogyan oldd meg a Cirkuszi Sátor pontösszekötő rejtvényt"
         }
       }
     }

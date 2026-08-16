@@ -1,17 +1,40 @@
 {
-  "collection": {},
+  "collection": {
+    "header": {
+      "title": "Zdarma tisknutelné spojovačky s vesmírem pro děti",
+      "meta_description": "Vystartujte s zdarma tisknutelnými spojovačkami s vesmírem. Dnes si vytiskněte přátelskou hádanku s roverem, brzy přijdou další rakety, planety a kosmické dobrodružství.",
+      "og": {
+        "title": "Zdarma tisknutelné spojovačky s vesmírem pro děti",
+        "description": "Vystartujte s zdarma tisknutelnými spojovačkami s vesmírem. Dnes si vytiskněte přátelskou hádanku s roverem, brzy přijdou další rakety, planety a kosmické dobrodružství."
+      }
+    },
+    "body": {
+      "h1": "Zdarma tisknutelné spojovačky s vesmírem pro děti"
+    }
+  },
   "puzzles": [
     {
       "slug": "crescent-moon-dot-to-dot-puzzle",
       "header": {
+        "title": "Půlměsíc: spojovačka — 60 snadných teček, zdarma",
+        "og": {
+          "title": "Půlměsíc: spojovačka — 60 snadných teček, zdarma",
+          "description": "Zachyťte zářivý kousek noční oblohy! Spojte 60 snadných teček a odhalte krásný půlměsíc v této bezplatné spojovačce pro děti od 4 do 7 let.",
+          "image_alt": "Zářící půlměsíc na noční obloze, tisknutelná spojovačka s 60 tečkami"
+        },
+        "meta_description": "Zachyťte zářivý kousek noční oblohy! Spojte 60 snadných teček a odhalte krásný půlměsíc v této bezplatné spojovačce pro děti od 4 do 7 let — Spojovačky k vytisknutí PDF.",
         "json_ld": {
-          "name": "Krescent Mún",
+          "description": "Půlměsíc září díky odrazu slunečního světla. Spojte 60 snadných teček v této bezplatné tiskové spojovačce pro děti od 4 do 7 let.",
+          "name": "Půlměsíc",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/space-crescent-moon-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
         "name": "Krescent Mún",
+        "h1": "Půlměsíc – 60 snadných teček z noční oblohy",
         "tagline": "Sledujte zářící kus noční oblohy!",
         "description": "Spojte 60 snadných teček, abyste odhalili krásný srpek měsíce zářící v noční obloze. Tento volně tisknutelný materiál pomáhá dětem procvičovat sekvencování čísel, vizuální sledování, koncentraci a plynulou kontrolu tužky",
         "fun_fact": "Srpek měsíce se objevuje, když sluneční světlo osvětluje pouze tenkou zakřivenou část Měsíce, kterou můžeme vidět ze Země.",
@@ -174,21 +197,33 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Jak vyřešit obrázek spoj tečky Krescent Mún"
         }
       }
     },
     {
       "slug": "ringed-planet-dot-to-dot-puzzle",
       "header": {
+        "title": "Prstencová planeta: spojovačka — 43 snadných teček",
+        "og": {
+          "title": "Prstencová planeta: spojovačka — 43 snadných teček",
+          "description": "Nakreslete svět obklopený zářícími prstenci! Spojte 43 snadných teček a odhalte prstencovou planetu v této bezplatné spojovačce pro děti od 4 do 6 let.",
+          "image_alt": "Prstencová planeta plovoucí ve vesmíru, tisknutelná spojovačka s 43 tečkami pro nejmenší děti"
+        },
+        "meta_description": "Nakreslete svět obklopený zářícími prstenci! Spojte 43 snadných teček a odhalte prstencovou planetu v této bezplatné spojovačce pro děti od 4 do 6 let — Obrázky ze spojování teček.",
         "json_ld": {
-          "name": "Prstencový planet",
+          "description": "Saturnovy prstence tvoří nespočet kousků ledu a kamení. Spojte 43 snadných teček v této bezplatné tiskové spojovačce pro děti od 4 do 6 let.",
+          "name": "Prstencová planeta",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/space-ringed-planet-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-7"
         }
       },
       "body": {
         "name": "Prstencový planet",
+        "h1": "Prstencová planeta – 43 teček na první vesmírnou výzvu",
         "tagline": "Nakresli svět obklopený zářícími prstenci!",
         "description": "Spoj 43 snadných teček, abys odhalil krásný prstencový planet plovoucí ve vesmíru. Tento zdarma tisknutelný materiál pomáhá mladším dětem procvičovat pořadí čísel, vizuální sledování, koncentraci a stabilní kontrolu tužky",
         "fun_fact": "Saturnovy prstence jsou složeny z nespočetných kousků ledu a kamene, od drobných zrn až po kusy velké jako domy.",
@@ -324,21 +359,33 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Jak vyřešit obrázek spoj tečky Prstencový planet"
         }
       }
     },
     {
       "slug": "space-rover-dot-to-dot-puzzle",
       "header": {
+        "title": "Vesmírné vozítko: spojovačka — 59 teček, zdarma",
+        "og": {
+          "title": "Vesmírné vozítko: spojovačka — 59 teček, zdarma",
+          "description": "Přátelský průzkumník na kolech! Spojte 59 teček a odhalte vesmírné vozítko v této bezplatné spojovačce pro děti od 5 do 8 let.",
+          "image_alt": "Přátelské vesmírné vozítko na kolech zkoumající jiný svět, tisknutelná spojovačka s 59 tečkami"
+        },
+        "meta_description": "Přátelský průzkumník na kolech! Spojte 59 teček a odhalte vesmírné vozítko v této bezplatné spojovačce pro děti od 5 do 8 let — Spojování teček pro děti zdarma.",
         "json_ld": {
-          "name": "Vesmírný rover",
+          "description": "Vesmírná vozítka jsou robotická vozidla, která zkoumají světy jako Měsíc a Mars. Spojte 59 teček v této bezplatné tiskové spojovačce pro děti od 5 do 8 let.",
+          "name": "Vesmírné vozítko",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/space-rover-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
         "name": "Vesmírný rover",
+        "h1": "Vesmírné vozítko – 59 teček připravených k průzkumu",
         "tagline": "Přátelský průzkumník na kolech",
         "description": "Spojte 59 teček, abyste odhalili přátelského vesmírného rover, který je připraven prozkoumat jiný svět. Tato zdarma tisknutelná hádanka pomáhá dětem procvičovat pořadí čísel, koncentraci a kontrolu nad tužkou",
         "fun_fact": "Vesmírné rovery jsou robotická vozidla, která zkoumají povrchy světů, jako je Měsíc a Mars.",
@@ -501,7 +548,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Jak vyřešit obrázek spoj tečky Vesmírný rover"
         }
       }
     }

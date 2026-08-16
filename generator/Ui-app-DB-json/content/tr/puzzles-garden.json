@@ -1,5 +1,17 @@
 {
-  "collection": {},
+  "collection": {
+    "header": {
+      "title": "Çocuklar için Bahçe Temalı Noktaları Birleştirme Çalışma Sayfaları",
+      "meta_description": "Bahçe işlerine başlayın! Noktaları birleştirerek bahçe eldivenlerini, kürekleri ve kullanışlı bahçe aletlerini ortaya çıkarın. Tüm çalışma sayfaları ücretsiz olarak indirilebilir ve yazdırılabilir; hesap gerekmez.",
+      "og": {
+        "title": "Çocuklar için Bahçe Temalı Noktaları Birleştirme Çalışma Sayfaları",
+        "description": "Bahçe işlerine başlayın! Noktaları birleştirerek bahçe eldivenlerini, kürekleri ve kullanışlı bahçe aletlerini ortaya çıkarın. Tüm çalışma sayfaları ücretsiz olarak indirilebilir ve yazdırılabilir; hesap gerekmez."
+      }
+    },
+    "body": {
+      "h1": "Çocuklar için Bahçe Temalı Noktaları Birleştirme Çalışma Sayfaları"
+    }
+  },
   "puzzles": [
     {
       "slug": "garden-gloves-dot-to-dot-puzzle",
@@ -15,7 +27,9 @@
           "description": "Bahçe eldivenleri küçük elleri kirden ve dikenli bitkilerden korur. 4-8 yaş arası çocuklar için bu ücretsiz yazdırılabilir çalışma sayfasında 54 noktayı birleştirin.",
           "name": "Bahçe Eldivenleri",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/garden-gloves-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -156,7 +170,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Bahçe Eldivenleri noktaları birleştirme bulmacası nasıl çözülür"
         }
       }
     },
@@ -174,7 +189,9 @@
           "description": "Sadece 39 noktadan oluşan bu bahçe küreği, 2026 koleksiyonumuzdaki en kısa ücretsiz yazdırılabilir noktaları birleştir sayfalarından biri olup 4-7 yaş arası çocuklarda erken kalem kontrolü geliştirir. Ücretsiz A4 PDF'yi yazdırın ve her genç bahçıvanın ihtiyaç duyduğu küreği çizin. Tek oturuşta bitirilir.",
           "name": "Bahçe Küreği",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/garden-trowel-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-7"
         }
       },
       "body": {
@@ -288,7 +305,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Bahçe Küreği noktaları birleştirme bulmacası nasıl çözülür"
         }
       }
     },
@@ -306,7 +324,9 @@
           "description": "El arabaları, antik Çin'de 2.000 yıl önce icat edilmiştir. 5-9 yaş arası çocuklar için bu ücretsiz yazdırılabilir PDF ile 85 nokta boyunca bir tane inşa edin.",
           "name": "El arabası oyun alanı",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/wheelbarrow-playground-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
@@ -447,7 +467,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "El arabası oyun alanı noktaları birleştirme bulmacası nasıl çözülür"
         }
       }
     }

@@ -1,5 +1,17 @@
 {
-  "collection": {},
+  "collection": {
+    "header": {
+      "title": "Uşaqlar üçün Bağçadan Nöqtədən Nöqtəyə Çap Edilənlər",
+      "meta_description": "Artın! Bağ əlcəklərini, malaları və lazımlı bağ alətlərini aşkar etmək üçün nöqtələri birləşdirin. Bütün iş vərəqlərini yükləmək və çap etmək pulsuzdur – hesaba ehtiyac yoxdur.",
+      "og": {
+        "title": "Uşaqlar üçün Bağçadan Nöqtədən Nöqtəyə Çap Edilənlər",
+        "description": "Artın! Bağ əlcəklərini, malaları və lazımlı bağ alətlərini aşkar etmək üçün nöqtələri birləşdirin. Bütün iş vərəqlərini yükləmək və çap etmək pulsuzdur – hesaba ehtiyac yoxdur."
+      }
+    },
+    "body": {
+      "h1": "Uşaqlar üçün Bağçadan Nöqtədən Nöqtəyə Çap Edilənlər"
+    }
+  },
   "puzzles": [
     {
       "slug": "garden-gloves-dot-to-dot-puzzle",
@@ -15,7 +27,9 @@
           "description": "Bağcıq qlovesi kiçik əlləri torpaqdan və tikanlı bitkilərdən qoruyur. 4-8 yaş arası uşaqlar üçün bu pulsuz çap edilə bilən iş vərəqəsində 54 nöqtəni birləşdirin.",
           "name": "Bağ əlcəkləri",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/garden-gloves-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -156,7 +170,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Bağ əlcəkləri Nöqtədən Nöqtəyə Tapmacasını Necə Həll Etməli"
         }
       }
     },
@@ -174,7 +189,9 @@
           "description": "39 nöqtə ilə erkən qələm praktikasına başlayın. Pulsuz nöqtədən nöqtəyə PDF 4-7 yaş arası uşaqlara qısa, əldə edilə bilən bir fəaliyyət təqdim edir.",
           "name": "Bağ malası",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/garden-trowel-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-7"
         }
       },
       "body": {
@@ -288,7 +305,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Bağ malası Nöqtədən Nöqtəyə Tapmacasını Necə Həll Etməli"
         }
       }
     },
@@ -306,7 +324,9 @@
           "description": "Təkərli arabalar 2,000 ildən çox əvvəl qədim Çində icad edilib. 5-9 yaş arası uşaqlar üçün bu pulsuz çap edilə bilən PDF ilə 85 nöqtə boyunca birini qurun.",
           "name": "Əl arabası oyun meydançası",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/wheelbarrow-playground-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
@@ -447,7 +467,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Əl arabası oyun meydançası Nöqtədən Nöqtəyə Tapmacasını Necə Həll Etməli"
         }
       }
     }

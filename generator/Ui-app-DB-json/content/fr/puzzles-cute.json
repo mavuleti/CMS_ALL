@@ -1,5 +1,21 @@
 {
-  "collection": {},
+  "collection": {
+    "header": {
+      "title": "Jolis jeux de points à relier à imprimer pour les enfants",
+      "meta_description": "Préparez-vous à un maximum de mignonnerie ! Reliez les points pour révéler d&#39;adorables chiots, de petites voitures et d&#39;autres amis charmants. Toutes les fiches sont téléchargeables et imprimables gratuitement — aucun compte n&#39;est requis.",
+      "og": {
+        "title": "Jolis jeux de points à relier à imprimer pour les enfants",
+        "description": "Préparez-vous à un maximum de mignonnerie ! Reliez les points pour révéler d&#39;adorables chiots, de petites voitures et d&#39;autres amis charmants. Toutes les fiches sont téléchargeables et imprimables gratuitement — aucun compte n&#39;est requis."
+      },
+      "json_ld": {
+        "description": "Préparez-vous à un maximum de mignonnerie ! Reliez les points pour révéler d&#39;adorables chiots, de petites voitures et d&#39;autres amis charmants. Toutes les fiches sont téléchargeables et imprimables gratuitement — aucun compte n&#39;est requis."
+      }
+    },
+    "body": {
+      "h1": "Jolis jeux de points à relier à imprimer pour les enfants",
+      "description": "Préparez-vous à un maximum de mignonnerie ! Reliez les points pour révéler d&#39;adorables chiots, de petites voitures et d&#39;autres amis charmants. Toutes les fiches sont téléchargeables et imprimables gratuitement — aucun compte n&#39;est requis."
+    }
+  },
   "puzzles": [
     {
       "slug": "cute-puppy-dot-to-dot-puzzle",
@@ -15,8 +31,8 @@
           "description": "Ce chiot de 70 points est une fiche gratuite pour enfants de 5 à 9 ans qui s'entraînent sur des séquences plus longues. Les chiots nouveau-nés ne voient ni n'entendent avant environ deux semaines — imprimez le PDF au format A4, un favori 2026 des familles françaises. Vous pouvez l'imprimer autant de fois que vous voulez.",
           "name": "Chiot mignon",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing",
           "image": "/images/cute-puppy-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
           "age_range": "5-9"
         }
       },
@@ -144,7 +160,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Comment résoudre le puzzle de points à relier Chiot mignon"
         }
       }
     },
@@ -162,7 +179,9 @@
           "description": "Traversez 55 points numérotés pour construire une petite voiture joyeuse. Le PDF imprimable gratuit offre une activité de séquençage conviviale pour les enfants de 4 à 8 ans.",
           "name": "Petite voiture mignonne",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/cute-little-car-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -269,7 +288,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Comment résoudre le puzzle de points à relier Petite voiture mignonne"
         }
       }
     },
@@ -287,7 +307,9 @@
           "description": "Les lionceaux miaulent avant d'apprendre à rugir. Dessinez un jeune lion à travers 74 points avec cette fiche de travail imprimable gratuite pour les enfants de 5 à 9 ans.",
           "name": "Lion mignon",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/cute-lion-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
@@ -414,7 +436,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Comment résoudre le puzzle de points à relier Lion mignon"
         }
       }
     },
@@ -432,7 +455,9 @@
           "description": "Tracez 67 points pour dessiner un magnifique papillon dans cette fiche gratuite pour enfants de 5 à 9 ans. Les papillons goûtent avec leurs pattes — un classique des salles de classe au printemps en France comme ailleurs. Imprimez le PDF au format A4 et reliez les points. Des ailes qui récompensent un comptage attentif.",
           "name": "Papillon mignon",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/cute-butterfly-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
@@ -539,7 +564,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Comment résoudre le puzzle de points à relier Papillon mignon"
         }
       }
     },
@@ -557,7 +583,9 @@
           "description": "Cette fusée de 66 points est une fiche gratuite pour les petits passionnés d'espace de 4 à 8 ans. Une fusée atteint l'espace environ 8,5 minutes après le décollage — imprimez le PDF au format A4 tiré de notre collection Mignon 2026 et filez à travers les numéros. Le compte à rebours démarre au tout premier point.",
           "name": "adorable petite fusée",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/cute-rocket-ship-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -664,7 +692,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Comment résoudre le puzzle de points à relier adorable petite fusée"
         }
       }
     },
@@ -682,7 +711,9 @@
           "description": "Les bébés tortues de mer suivent l'horizon le plus lumineux vers l'océan. Guidez ce petit explorateur à travers 65 points dans un PDF gratuit pour les 4 à 8 ans.",
           "name": "Bébé tortue adorable",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/cute-baby-turtle-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -789,7 +820,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Comment résoudre le puzzle de points à relier Bébé tortue adorable"
         }
       }
     },
@@ -807,7 +839,9 @@
           "description": "Des yeux fixes aident à expliquer pourquoi les hiboux tournent si loin la tête. Révélez un hibou aux yeux grands ouverts à travers 65 points avec cet imprimable gratuit pour les enfants de 4 à 8 ans.",
           "name": "Chouette mignonne",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/cute-owl-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -914,7 +948,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Comment résoudre le puzzle de points à relier Chouette mignonne"
         }
       }
     },
@@ -932,7 +967,9 @@
           "description": "Tracez 72 points pour dessiner un crabe tout joyeux dans cette fiche gratuite pour enfants de 5 à 9 ans. Les pattes du crabe ne plient que sur le côté, ce qui explique sa démarche si particulière — une fiche idéale pour un jour de plage, des côtes françaises jusqu'aux plages britanniques. Imprimez le PDF au format A4.",
           "name": "Crabe joyeux",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/cute-crab-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
@@ -1039,7 +1076,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Comment résoudre le puzzle de points à relier Crabe joyeux"
         }
       }
     },
@@ -1057,7 +1095,9 @@
           "description": "Ce bébé éléphant de 50 points est l'une des fiches à relier les plus faciles de la collection Mignon, parfaite dès 4 ans jusqu'à 8 ans. Les bébés éléphants sucent leur trompe pour se rassurer, comme un pouce — imprimez le PDF au format A4 et tracez ce futur géant tout doux. Un format idéal dès quatre ans.",
           "name": "Bébé éléphant mignon",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/cute-baby-elephant-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -1164,7 +1204,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Comment résoudre le puzzle de points à relier Bébé éléphant mignon"
         }
       }
     },
@@ -1182,7 +1223,9 @@
           "description": "Les grenouilles absorbent l'oxygène en partie par leur peau humide. Sautez sur 82 points pour révéler un crapaud souriant dans ce PDF gratuit pour les enfants de 6 à 10 ans.",
           "name": "Mignon crapaud heureux",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/cute-happy-frog-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "6-10"
         }
       },
       "body": {
@@ -1289,7 +1332,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Comment résoudre le puzzle de points à relier Mignon crapaud heureux"
         }
       }
     },
@@ -1307,7 +1351,9 @@
           "description": "Une robe scintillante et une couronne apparaissent lorsque les enfants relient 57 points royaux. Imprimez le PDF de princesse gratuit pour une pratique imaginative des nombres chez les enfants de 4 à 8 ans.",
           "name": "Princesse mignonne",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/cute-princess-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -1414,7 +1460,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Comment résoudre le puzzle de points à relier Princesse mignonne"
         }
       }
     }

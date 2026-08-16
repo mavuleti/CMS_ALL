@@ -1,5 +1,17 @@
 {
-  "collection": {},
+  "collection": {
+    "header": {
+      "title": "Puutarhan pisteestä pisteeseen tulostettavat materiaalit lapsille",
+      "meta_description": "Ryhdy kasvamaan! Yhdistä pisteet paljastaaksesi puutarhahanskat, istutuslapiot ja kätevät puutarhatyökalut. Kaikki tehtävät ovat ilmaisia ladata ja tulostaa – tiliä ei tarvita.",
+      "og": {
+        "title": "Puutarhan pisteestä pisteeseen tulostettavat materiaalit lapsille",
+        "description": "Ryhdy kasvamaan! Yhdistä pisteet paljastaaksesi puutarhahanskat, istutuslapiot ja kätevät puutarhatyökalut. Kaikki tehtävät ovat ilmaisia ladata ja tulostaa – tiliä ei tarvita."
+      }
+    },
+    "body": {
+      "h1": "Puutarhan pisteestä pisteeseen tulostettavat materiaalit lapsille"
+    }
+  },
   "puzzles": [
     {
       "slug": "garden-gloves-dot-to-dot-puzzle",
@@ -15,7 +27,9 @@
           "description": "Puutarhahanskat suojaavat pieniä käsiä dirt ja piikikkäiltä kasveilta. Yhdistä 54 pistettä tässä ilmaisessa tulostettavassa työlehdessä, joka on tarkoitettu 4–8-vuotiaille lapsille.",
           "name": "Puutarhakäsineet",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/garden-gloves-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -156,7 +170,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Näin ratkaiset Puutarhakäsineet-yhdistä pisteet -tehtävän"
         }
       }
     },
@@ -174,7 +189,9 @@
           "description": "Aloita varhaiset kynäharjoitukset 39 pisteen puutarhalapiolla. Ilmainen yhdistä pisteet PDF tarjoaa 4–7-vuotiaille lapsille lyhyen, saavutettavan aktiviteetin.",
           "name": "Puutarhalapio",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/garden-trowel-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-7"
         }
       },
       "body": {
@@ -288,7 +305,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Näin ratkaiset Puutarhalapio-yhdistä pisteet -tehtävän"
         }
       }
     },
@@ -306,7 +324,9 @@
           "description": "Yhdistä 85 pistettä tukeviksi kottikärryiksi tässä ilmaisessa tulostettavassa, joka sopii 5–9-vuotiaille pidempää harjoitusta kaipaaville. Muinaiset kiinalaiset kottikärryt kuljettivat jopa sotilaita — tulosta PDF ja aloita numerointi ilman rekisteröitymistä. Tulostuu tarkasti 100 %:n mittakaavassa.",
           "name": "Kottikärryjen leikkikenttä",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/wheelbarrow-playground-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
@@ -447,7 +467,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Näin ratkaiset Kottikärryjen leikkikenttä-yhdistä pisteet -tehtävän"
         }
       }
     }

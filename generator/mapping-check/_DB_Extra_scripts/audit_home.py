@@ -76,10 +76,8 @@ ORPHANED_KEYS = {
 }
 
 
-def compact_repr(value: Any, limit: int = 500) -> str:
-    text = json.dumps(value, ensure_ascii=False) if not isinstance(value, str) else value
-    text = " ".join(str(text).split())
-    return text if len(text) <= limit else text[: limit - 1] + "…"
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from value_repr import full_repr as compact_repr  # noqa: E402
 
 
 def flatten(prefix: str, value: Any) -> list[tuple[str, Any]]:

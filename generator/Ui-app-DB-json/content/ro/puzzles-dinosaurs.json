@@ -1,5 +1,17 @@
 {
-  "collection": {},
+  "collection": {
+    "header": {
+      "title": "Fișe imprimabile cu dinozauri, desene unită-punct, pentru copii",
+      "meta_description": "Conectează punctele pentru a descoperi dinozaurii tăi preferați! Toate fișele de lucru pot fi descărcate și imprimate gratuit — nu este nevoie de un cont. Perfecte pentru copiii cu vârste cuprinse între 4 și 10 ani, pentru grădiniță, preșcolari și pentru utilizare în clasă.",
+      "og": {
+        "title": "Fișe imprimabile cu dinozauri, desene unită-punct, pentru copii",
+        "description": "Conectează punctele pentru a descoperi dinozaurii tăi preferați! Toate fișele de lucru pot fi descărcate și imprimate gratuit — nu este nevoie de un cont. Perfecte pentru copiii cu vârste cuprinse între 4 și 10 ani, pentru grădiniță, preșcolari și pentru utilizare în clasă."
+      }
+    },
+    "body": {
+      "h1": "Fișe imprimabile cu dinozauri, desene unită-punct, pentru copii"
+    }
+  },
   "puzzles": [
     {
       "slug": "trex-61-dot-to-dot-puzzle",
@@ -15,7 +27,9 @@
           "description": "Această fișă cu 61 de puncte îl aduce pe T-Rex la viață pentru copiii de 6-9 ani gata de o provocare mai lungă. T-Rex își putea înlocui dinții toată viața, dezvoltând alții noi când cei vechi cădeau — imprimă PDF-ul gratuit și conturează acest gigant preistoric, un favorit constant al iubitorilor de dinozauri.",
           "name": "Provocarea T-Rex cu 61 de puncte",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/trex-61-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "6-9"
         }
       },
       "body": {
@@ -210,7 +224,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Cum se rezolvă puzzle-ul unește punctele Provocarea T-Rex cu 61 de puncte"
         }
       }
     },
@@ -228,7 +243,9 @@
           "description": "Leagă 55 de puncte pentru a desena un struț impunător, o fișă gratuită potrivită copiilor de 5-8 ani. Struții sunt cele mai rapide păsări alergătoare de pe Pământ, atingând viteze de peste 70 km/h — imprimă PDF-ul gratuit și conturează acest sprinter al savanei.",
           "name": "Struţ",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/ostriches-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-8"
         }
       },
       "body": {
@@ -396,7 +413,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Cum se rezolvă puzzle-ul unește punctele Struţ"
         }
       }
     },
@@ -414,7 +432,9 @@
           "description": "Această fișă cu 50 de puncte desenează un brontozaur uriaș, potrivită copiilor de 4-7 ani. Numele înseamnă „șopârla tunetului”, inspirat de dimensiunile sale enorme — imprimă PDF-ul gratuit și conturează acest gigant blând al preistoriei.",
           "name": "Brontosauru",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/brontosaurus-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-7"
         }
       },
       "body": {
@@ -582,7 +602,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Cum se rezolvă puzzle-ul unește punctele Brontosauru"
         }
       }
     },
@@ -600,7 +621,9 @@
           "description": "Conturează 70 de puncte pentru a desena un triceratops robust, o fișă gratuită de unit puncte plină de detalii. Coarnele sale puteau ajunge la aproape un metru lungime — imprimă PDF-ul gratuit și trasează acest dinozaur blindat, punct cu punct.",
           "name": "Triceratops",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/triceratops-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "6-9"
         }
       },
       "body": {
@@ -768,7 +791,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Cum se rezolvă puzzle-ul unește punctele Triceratops"
         }
       }
     },
@@ -786,7 +810,9 @@
           "description": "Leagă 54 de puncte pentru a desena un velociraptor agil, o fișă gratuită potrivită copiilor de 5-8 ani. Numele înseamnă „hoțul iute” și putea sprinta cu până la 40 km/h — imprimă PDF-ul gratuit și conturează acest vânător preistoric rapid.",
           "name": "Velociraptor",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/velociraptor-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "6-9"
         }
       },
       "body": {
@@ -954,7 +980,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Cum se rezolvă puzzle-ul unește punctele Velociraptor"
         }
       }
     },
@@ -972,7 +999,9 @@
           "description": "Această fișă cu 52 de puncte desenează un stegozaur cu plăci pe spate, potrivită copiilor de 4-7 ani. Avea un creier de mărimea unei nuci, dar coada sa cu țepi era adevărata superputere — imprimă PDF-ul gratuit și conturează acest dinozaur blindat.",
           "name": "Stegosauruș",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/stegosaurus-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-7"
         }
       },
       "body": {
@@ -1140,7 +1169,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Cum se rezolvă puzzle-ul unește punctele Stegosauruș"
         }
       }
     },
@@ -1158,7 +1188,9 @@
           "description": "Conturează 74 de puncte pentru a desena un spinozaur masiv, o fișă gratuită plină de detalii pentru micii pasionați de dinozauri. Putea ajunge la aproape 18 metri lungime, mai mult decât un autobuz școlar — imprimă PDF-ul gratuit și trasează acest gigant al apelor preistorice.",
           "name": "Spinosaurus",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/spinosaurus-74-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "6-10"
         }
       },
       "body": {
@@ -1326,7 +1358,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Cum se rezolvă puzzle-ul unește punctele Spinosaurus"
         }
       }
     },
@@ -1344,7 +1377,9 @@
           "description": "Această fișă scurtă cu 38 de puncte desenează un brahiozaur cu gâtul lung, potrivită copiilor de 5-9 ani. Putea cântări până la 60 de tone, cât 10 elefanți la un loc — imprimă PDF-ul gratuit și conturează acest gigant blând, ideal pentru începători.",
           "name": "Brakiosaurus",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "dummy-brachiosaurus",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
@@ -1485,7 +1520,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Cum se rezolvă puzzle-ul unește punctele Brakiosaurus"
         }
       }
     },
@@ -1503,7 +1539,9 @@
           "description": "Chiar și Ankylosaurus avea o armură osoasă peste pleoape. Dezvăluie corpul său protejat și coada cu ciocan pe 32 de puncte într-un puzzle pentru copii cu vârste între 5 și 8 ani.",
           "name": "Anchilozaur",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "dummy-ankylosaurus",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-8"
         }
       },
       "body": {
@@ -1644,7 +1682,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Cum se rezolvă puzzle-ul unește punctele Anchilozaur"
         }
       }
     },
@@ -1662,7 +1701,9 @@
           "description": "Pterodactyl era un pterosaur zburător, nu un dinozaur. Conectează 67 de puncte cu acest PDF gratuit de conectat punctele pentru copii cu vârste între 6 și 9 ani.",
           "name": "Pterodactil",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/pterodactyl-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "6-9"
         }
       },
       "body": {
@@ -1830,7 +1871,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Cum se rezolvă puzzle-ul unește punctele Pterodactil"
         }
       }
     },
@@ -1848,7 +1890,9 @@
           "description": "Allosaurus a dominat Jurassicul cu mult înainte de apariția T-Rex. Urmează 42 de puncte în jurul acestui prădător puternic într-un puzzle destinat copiilor cu vârste între 6 și 10 ani.",
           "name": "Alosauruș",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "dummy-allosaurus",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "6-10"
         }
       },
       "body": {
@@ -2016,7 +2060,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Cum se rezolvă puzzle-ul unește punctele Alosauruș"
         }
       }
     }

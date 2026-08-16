@@ -1,5 +1,17 @@
 {
-  "collection": {},
+  "collection": {
+    "header": {
+      "title": "Lekplats prick-till-prick utskrivbara för barn",
+      "meta_description": "Ta med lekplatsen hem! Koppla ihop prickarna för att avslöja gungor, rutschkanor och utomhuslek. Alla arbetsblad är gratis att ladda ner och skriva ut – inget konto behövs.",
+      "og": {
+        "title": "Lekplats prick-till-prick utskrivbara för barn",
+        "description": "Ta med lekplatsen hem! Koppla ihop prickarna för att avslöja gungor, rutschkanor och utomhuslek. Alla arbetsblad är gratis att ladda ner och skriva ut – inget konto behövs."
+      }
+    },
+    "body": {
+      "h1": "Lekplats prick-till-prick utskrivbara för barn"
+    }
+  },
   "puzzles": [
     {
       "slug": "spring-horse-playground-dot-to-dot-puzzle",
@@ -15,7 +27,9 @@
           "description": "Ett barns skiftande vikt får en vårhäst att gunga. Bygg denna lekplats häst över 53 punkter med en gratis utskrivbar PDF för åldrarna 4–8.",
           "name": "Gunglekplats",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/playgrounds-spring-horse-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -156,7 +170,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Så löser du prick till prick-pusslet Gunglekplats"
         }
       }
     },
@@ -174,7 +189,9 @@
           "description": "Klatring, rutschande och låtsaslek möts i en glad struktur. Spåra lekhusets rutschkana genom 68 punkter i en gratis PDF för åldrarna 5–9.",
           "name": "Rutschkana",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/playgrounds-playhouse-slide-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
@@ -342,7 +359,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Så löser du prick till prick-pusslet Rutschkana"
         }
       }
     },
@@ -360,7 +378,9 @@
           "description": "Följ den flödande manen och den dekorativa sadeln på en karusellhopprare över 88 punkter. Skriv ut detta nöjesparkspussel gratis för barn i åldrarna 5–9.",
           "name": "Gungbräda Lekplats",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/playground-carousel-horse-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
@@ -528,7 +548,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Så löser du prick till prick-pusslet Gungbräda Lekplats"
         }
       }
     },
@@ -546,7 +567,9 @@
           "description": "Racet från punkt 1 till 48 och avslöja en glad lekplatsbil. Denna gratis utskrivbara PDF gör nummersekvensering till en snabb åktur för åldrarna 4–8.",
           "name": "Berg-och-dalbana lekplats",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/playgrounds-dashing-car-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -714,7 +737,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Så löser du prick till prick-pusslet Berg-och-dalbana lekplats"
         }
       }
     },
@@ -732,7 +756,9 @@
           "description": "Barn har njutit av repgungor i tusentals år. Avsluta denna bekanta lekplatsdesign i 42 punkter med en gratis PDF för åldrarna 4–7.",
           "name": "Apa Bars Lekplats",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/swing-playgrounds-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-7"
         }
       },
       "body": {
@@ -900,7 +926,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Så löser du prick till prick-pusslet Apa Bars Lekplats"
         }
       }
     },
@@ -918,7 +945,9 @@
           "description": "Redo för 102 prickar? Klättra upp och ner för en hög lekplatsrutschkana i denna detaljerade utskrivbara PDF-utmaning för självsäkra räknare i åldrarna 6–10.",
           "name": "Karusellhäst-lekplats",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/slide-playgrounds-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "6-10"
         }
       },
       "body": {
@@ -1086,7 +1115,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Så löser du prick till prick-pusslet Karusellhäst-lekplats"
         }
       }
     },
@@ -1104,7 +1134,9 @@
           "description": "Gungbräda eller teeter-totter, rörelsen går upp och ner. Balansera 68 numrerade prickar i denna gratis utskrivbara lekplats för barn i åldrarna 5–9.",
           "name": "Fjäderhäst",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/seesaw-playground-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
@@ -1272,7 +1304,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Så löser du prick till prick-pusslet Fjäderhäst"
         }
       }
     },
@@ -1290,7 +1323,9 @@
           "description": "Åk den längsta lekplatssekvensen genom 133 svängar och vändningar. Denna gratis berg-och-dal-bana PDF utmanar fokuserade pusselentusiaster i åldrarna 8–12.",
           "name": "Snabba bil-lekplats",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/roller-coaster-playground-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "8-12"
         }
       },
       "body": {
@@ -1485,7 +1520,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Så löser du prick till prick-pusslet Snabba bil-lekplats"
         }
       }
     },
@@ -1503,7 +1539,9 @@
           "description": "Kattgångar bygger grepp och koordination på lekplatsen; denna 94-pricks version bygger blyertskontroll. Ladda ner den gratis PDF:en för åldrarna 5–9.",
           "name": "Lekstugeglid",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/monkey-bar-playground-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
@@ -1671,7 +1709,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Så löser du prick till prick-pusslet Lekstugeglid"
         }
       }
     }

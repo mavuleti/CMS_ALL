@@ -1,5 +1,17 @@
 {
-  "collection": {},
+  "collection": {
+    "header": {
+      "title": "Coloriages de dinosaures à relier pour enfants",
+      "meta_description": "Relie les points pour révéler tes dinosaures préférés ! Toutes les fiches sont téléchargeables et imprimables gratuitement, sans inscription. Idéal pour les enfants de 4 à 10 ans, en maternelle et en classe.",
+      "og": {
+        "title": "Coloriages de dinosaures à relier pour enfants",
+        "description": "Relie les points pour révéler tes dinosaures préférés ! Toutes les fiches sont téléchargeables et imprimables gratuitement, sans inscription. Idéal pour les enfants de 4 à 10 ans, en maternelle et en classe."
+      }
+    },
+    "body": {
+      "h1": "Coloriages de dinosaures à relier pour enfants"
+    }
+  },
   "puzzles": [
     {
       "slug": "trex-61-dot-to-dot-puzzle",
@@ -15,7 +27,9 @@
           "description": "Le T-Rex a remplacé ses dents perdues tout au long de sa vie. Connectez 61 points dans ce PDF à imprimer gratuitement pour les enfants de 6 à 9 ans, de notre collection 2026.",
           "name": "Défi des 61 points du T-Rex",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/trex-61-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "6-9"
         }
       },
       "body": {
@@ -210,7 +224,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Comment résoudre le puzzle de points à relier Défi des 61 points du T-Rex"
         }
       }
     },
@@ -228,7 +243,9 @@
           "description": "Les autruches peuvent courir jusqu'à 45 mph. Révélez-en une à travers 55 points sur nos pages de point à point gratuites pour les enfants de 5 à 8 ans, avec un PDF imprimable prêt à l'emploi.",
           "name": "Autruche",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/ostriches-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-8"
         }
       },
       "body": {
@@ -396,7 +413,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Comment résoudre le puzzle de points à relier Autruche"
         }
       }
     },
@@ -414,7 +432,9 @@
           "description": "Brontosaurus signifie lézard du tonnerre. Tracez son long cou et sa queue à travers 50 points avec cette feuille de point à point imprimable gratuite pour les enfants de 4 à 7 ans.",
           "name": "Brontosaure",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/brontosaurus-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-7"
         }
       },
       "body": {
@@ -582,7 +602,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Comment résoudre le puzzle de points à relier Brontosaure"
         }
       }
     },
@@ -600,7 +621,9 @@
           "description": "Le Triceratops avait trois cornes et une large collerette osseuse. Connectez 70 points avec cette feuille de point à point gratuite pour la maternelle et la première année.",
           "name": "Tricératops",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/triceratops-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "6-9"
         }
       },
       "body": {
@@ -768,7 +791,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Comment résoudre le puzzle de points à relier Tricératops"
         }
       }
     },
@@ -786,7 +810,9 @@
           "description": "Ce Vélociraptor de 54 points développe le sens des chiffres des enfants de 5 à 8 ans avec une fiche à imprimer gratuite. Le vrai raptor était un chasseur à plumes de la taille d'une dinde, capable de sprinter à 40 km/h — imprimez le PDF au format A4 et tracez ce prédateur malin. Nom rapide, crayon posé.",
           "name": "Vélociraptor",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/velociraptor-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "6-9"
         }
       },
       "body": {
@@ -954,7 +980,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Comment résoudre le puzzle de points à relier Vélociraptor"
         }
       }
     },
@@ -972,7 +999,9 @@
           "description": "Reliez 52 points pour dessiner un Stégosaure et ses plaques dorsales en forme de losange, une fiche gratuite très appréciée des petits de 4 à 7 ans en France. Cerveau de la taille d'une noix, queue à pointes redoutable. Imprimez le PDF gratuit au format A4 et tracez. Ces plaques apprennent la patience.",
           "name": "Stégosaure",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/stegosaurus-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-7"
         }
       },
       "body": {
@@ -1140,7 +1169,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Comment résoudre le puzzle de points à relier Stégosaure"
         }
       }
     },
@@ -1158,7 +1188,9 @@
           "description": "Le Spinosaurus était plus long que le T-Rex et avait une grande voile. Révélez-le à travers 74 points dans ce PDF imprimable gratuit de point à point pour les classes de 1 à 2.",
           "name": "Spinosaure",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/spinosaurus-74-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "6-10"
         }
       },
       "body": {
@@ -1326,7 +1358,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Comment résoudre le puzzle de points à relier Spinosaure"
         }
       }
     },
@@ -1344,7 +1377,9 @@
           "description": "Le Brachiosaurus portait sa petite tête au sommet d'un cou immense. Reliez 38 points pour révéler ce géant jurassique dans un puzzle conçu pour les enfants de 5 à 9 ans.",
           "name": "Brachiosaure",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "dummy-brachiosaurus",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
@@ -1485,7 +1520,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Comment résoudre le puzzle de points à relier Brachiosaure"
         }
       }
     },
@@ -1503,7 +1539,9 @@
           "description": "Cet Ankylosaure court de 32 points est une fiche à imprimer rapide pour les enfants de grande section et de CP, de 5 à 8 ans. Même ses paupières portaient une armure osseuse — imprimez le PDF gratuit au format A4 tiré des pages dinosaures 2026 et tracez sa queue-massue. Une armure complète en cinq minutes.",
           "name": "Ankylosaure",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "dummy-ankylosaurus",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-8"
         }
       },
       "body": {
@@ -1644,7 +1682,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Comment résoudre le puzzle de points à relier Ankylosaure"
         }
       }
     },
@@ -1662,7 +1701,9 @@
           "description": "Le ptérodactyle était un ptérosaurien volant, pas un dinosaure. Reliez 67 points avec ce PDF de point à point imprimable gratuit pour les enfants de 6 à 9 ans.",
           "name": "Ptérodactyle",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/pterodactyl-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "6-9"
         }
       },
       "body": {
@@ -1830,7 +1871,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Comment résoudre le puzzle de points à relier Ptérodactyle"
         }
       }
     },
@@ -1848,7 +1890,9 @@
           "description": "Cet Allosaure de 42 points met au défi les enfants du CP au CE2 avec une fiche à imprimer un peu plus difficile. Il régnait sur le Jurassique bien avant l'apparition du T-Rex, et plus de 40 fossiles ont été trouvés sur un même site aux États-Unis — imprimez le PDF au format A4 et lancez-vous. Pour les solveurs qui aiment les dents.",
           "name": "Allosaure",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "dummy-allosaurus",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "6-10"
         }
       },
       "body": {
@@ -2016,7 +2060,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Comment résoudre le puzzle de points à relier Allosaure"
         }
       }
     }

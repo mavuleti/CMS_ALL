@@ -1,17 +1,40 @@
 {
-  "collection": {},
+  "collection": {
+    "header": {
+      "title": "Brezplačne uganke poveži pike za otroke",
+      "meta_description": "Pridite po brezplačne uganke poveži pike z prijaznim vodnikom medvedom in črtastim šotorom. Prenesite in natisnite oba PDF delovna lista za štetje in vaje s svinčnikom.",
+      "og": {
+        "title": "Brezplačne uganke poveži pike za otroke",
+        "description": "Pridite po brezplačne uganke poveži pike z prijaznim vodnikom medvedom in črtastim šotorom. Prenesite in natisnite oba PDF delovna lista za štetje in vaje s svinčnikom."
+      }
+    },
+    "body": {
+      "h1": "Brezplačne uganke poveži pike za otroke"
+    }
+  },
   "puzzles": [
     {
       "slug": "circus-ringmaster-bear-dot-to-dot-puzzle",
       "header": {
+        "title": "Medved Cirkuški Direktor — Poveži Pike, 74 Pik",
+        "og": {
+          "title": "Medved Cirkuški Direktor — Poveži Pike, 74 Pik",
+          "description": "Spoznaj medveda, ki vodi veliko predstavo! Poveži 74 pik in odkrij medveda v vlogi cirkuškega direktorja v tej brezplačni nalogi poveži pike za otroke 6–9 let.",
+          "image_alt": "Cirkuški direktor medved v visokem klobuku in plašču, tiskljiva uganka poveži pike s 74 pikami"
+        },
+        "meta_description": "Spoznaj medveda, ki vodi veliko predstavo! Poveži 74 pik in odkrij medveda v vlogi cirkuškega direktorja v tej brezplačni nalogi poveži pike za otroke 6–9 let — poveži pike za otroke.",
         "json_ld": {
-          "name": "Medved Cirkuski Vodja",
+          "description": "Cirkuški direktor predstavi nastopajoče in vodi predstavo. Poveži 74 pik v tej brezplačni nalogi poveži pike za otroke od 6 do 9 let.",
+          "name": "Medved Cirkuški Direktor",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/circus-ringmaster-bear-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
         "name": "Medved Cirkuski Vodja",
+        "h1": "Medved Cirkuški Direktor Poveži Pike — 74 Pik Cirkuške Zabave",
         "tagline": "Spoznajte Medveda, Ki Vodi Veliko Predstavo!",
         "description": "Povežite 74 pik, da razkrijete prijaznega medveda oblečenega kot cirkuski vodja. Ta srednje zahtevna naloga pomaga otrokom pri vadbi zaporedja števil, koncentracije, vizualnega sledenja in natančnega upravljanja s svinčnikom",
         "fun_fact": "Cirkuski vodja predstavi izvajalce in usmerja občinstvo od enega nastopa do drugega.",
@@ -174,21 +197,33 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Kako rešiti sestavljanko poveži pike Medved Cirkuski Vodja"
         }
       }
     },
     {
       "slug": "circus-tent-dot-to-dot-puzzle",
       "header": {
+        "title": "Cirkuški Šotor — Poveži Pike, 59 Pik Brezplačno",
+        "og": {
+          "title": "Cirkuški Šotor — Poveži Pike, 59 Pik Brezplačno",
+          "description": "Dobrodošli pod velikim šotorom! Poveži 59 pik in odkrij vesel progast cirkuški šotor v tej brezplačni pobarvanki poveži pike za otroke 5–8 let.",
+          "image_alt": "Progast cirkuški šotor z zastavo na vrhu, tiskljiva uganka poveži pike s 59 pikami"
+        },
+        "meta_description": "Dobrodošli pod velikim šotorom! Poveži 59 pik in odkrij vesel progast cirkuški šotor v tej brezplačni pobarvanki poveži pike za otroke 5–8 let — poveži pike natisni.",
         "json_ld": {
-          "name": "Cirkuski šotor",
+          "description": "Glavni cirkuški šotor je največji šotor na predstavi. Poveži 59 pik v tej brezplačni nalogi poveži pike za otroke od 5 do 8 let.",
+          "name": "Cirkuški Šotor",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/circus-tent-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
         "name": "Cirkuski šotor",
+        "h1": "Cirkuški Šotor Poveži Pike — 59 Pik za Veliko Cirkuško Doživetje",
         "tagline": "Pridite na veliko pustolovščino!",
         "description": "Povežite 59 pik, da razkrijete veseli črtasti cirkuski šotor, pripravljen za predstavo. Ta enostavna tiskalna naloga pomaga otrokom vaditi štetje v pravilnem vrstnem redu, vizualno sledenje, koncentracijo in nadzor nad svinčnikom",
         "fun_fact": "Glavni predstaviščni šotor cirkusa pogosto imenujemo veliki šotor, ker je največji šotor na predstavi.",
@@ -351,7 +386,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Kako rešiti sestavljanko poveži pike Cirkuski šotor"
         }
       }
     }

@@ -1,5 +1,21 @@
 {
-  "collection": {},
+  "collection": {
+    "header": {
+      "title": "Aranyos pont-pont nyomtatható anyagok gyerekeknek",
+      "meta_description": "Készülj fel a maximális cukiságra! Kösd össze a pontokat, hogy felfedd az imádnivaló kiskutyákat, kis autókat és még több bájos barátot. Minden munkalap ingyenesen letölthető és kinyomtatható – nincs szükség fiókra.",
+      "og": {
+        "title": "Aranyos pont-pont nyomtatható anyagok gyerekeknek",
+        "description": "Készülj fel a maximális cukiságra! Kösd össze a pontokat, hogy felfedd az imádnivaló kiskutyákat, kis autókat és még több bájos barátot. Minden munkalap ingyenesen letölthető és kinyomtatható – nincs szükség fiókra."
+      },
+      "json_ld": {
+        "description": "Készülj fel a maximális cukiságra! Kösd össze a pontokat, hogy felfedd az imádnivaló kiskutyákat, kis autókat és még több bájos barátot. Minden munkalap ingyenesen letölthető és kinyomtatható – nincs szükség fiókra."
+      }
+    },
+    "body": {
+      "h1": "Aranyos pont-pont nyomtatható anyagok gyerekeknek",
+      "description": "Készülj fel a maximális cukiságra! Kösd össze a pontokat, hogy felfedd az imádnivaló kiskutyákat, kis autókat és még több bájos barátot. Minden munkalap ingyenesen letölthető és kinyomtatható – nincs szükség fiókra."
+    }
+  },
   "puzzles": [
     {
       "slug": "cute-puppy-dot-to-dot-puzzle",
@@ -15,8 +31,8 @@
           "description": "Köss össze 70 pontot, hogy előhívd ezt az imádnivaló kiskutyát. Ingyenesen nyomtatható, könnyű feladatlap fiatal tanulóknak a számsorrend, a ceruzafogás és a koncentráció gyakorlásához egy szőrös barát társaságában.",
           "name": "Aranyos kiskutya",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing",
           "image": "/images/cute-puppy-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
           "age_range": "5-9"
         }
       },
@@ -144,7 +160,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Hogyan oldd meg a Aranyos kiskutya pontösszekötő rejtvényt"
         }
       }
     },
@@ -162,7 +179,9 @@
           "description": "Bíp-bíp! Köss össze 55 pontot, hogy előhívd ezt a vidám kisautót egy rövid kalandra. Könnyű, ingyenesen nyomtatható feladatlap fiatal tanulóknak a számsorrend és a ceruzafogás gyakorlásához.",
           "name": "Aranyos kis autó",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/cute-little-car-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -269,7 +288,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Hogyan oldd meg a Aranyos kis autó pontösszekötő rejtvényt"
         }
       }
     },
@@ -287,7 +307,9 @@
           "description": "Az oroszlánkölykök nyávognak, mielőtt megtanulnának üvölteni. Formázz egy fiatal oroszlánt 74 ponton ezzel az ingyenes nyomtatható munkalappal 5–9 éves gyermekek számára.",
           "name": "Aranyos oroszlán",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/cute-lion-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
@@ -414,7 +436,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Hogyan oldd meg a Aranyos oroszlán pontösszekötő rejtvényt"
         }
       }
     },
@@ -432,7 +455,9 @@
           "description": "Repülj, repkedj – köss össze 67 pontot, hogy előhívd ezt a gyönyörű pillangót. Ingyenesen nyomtatható, könnyű feladatlap fiatal tanulóknak a számsorrend és a ceruzafogás gyakorlásához tavaszi témában.",
           "name": "Aranyos pillangó",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/cute-butterfly-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
@@ -539,7 +564,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Hogyan oldd meg a Aranyos pillangó pontösszekötő rejtvényt"
         }
       }
     },
@@ -557,7 +583,9 @@
           "description": "Számolj vissza az 1. pöttyből és építs egy rakéta hajót 66 ponton keresztül. Töltsd le a fiatal felfedezőknek készült ingyenes űr témájú PDF-et 4–8 éves korig.",
           "name": "Aranyos rakétahajó",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/cute-rocket-ship-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -664,7 +692,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Hogyan oldd meg a Aranyos rakétahajó pontösszekötő rejtvényt"
         }
       }
     },
@@ -682,7 +711,9 @@
           "description": "Lassan és biztosan – köss össze 65 pontot, hogy megrajzold ezt az imádnivaló bébi teknőst a kagylójával együtt. Ingyenesen nyomtatható feladatlap fiatal tanulóknak a számsorrend és a koncentráció gyakorlásához.",
           "name": "Aranyos bébi teknős",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/cute-baby-turtle-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -789,7 +820,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Hogyan oldd meg a Aranyos bébi teknős pontösszekötő rejtvényt"
         }
       }
     },
@@ -807,7 +839,9 @@
           "description": "Ki készen áll egy éjszakai kalandra? Köss össze 65 pontot, hogy előhívd ezt az imádnivaló baglyot. Könnyű, ingyenesen nyomtatható feladatlap fiatal tanulóknak a számsorrend és a ceruzafogás gyakorlásához.",
           "name": "Aranyos bagoly",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/cute-owl-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -914,7 +948,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Hogyan oldd meg a Aranyos bagoly pontösszekötő rejtvényt"
         }
       }
     },
@@ -932,7 +967,9 @@
           "description": "A rák lábai gyors oldalirányú mozgásra épülnek. Száguldj át a 72 ponton, hogy befejezd ezt a vidám rák PDF-et 5–9 éves gyermekek számára.",
           "name": "Vidám rák",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/cute-crab-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
@@ -1039,7 +1076,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Hogyan oldd meg a Vidám rák pontösszekötő rejtvényt"
         }
       }
     },
@@ -1057,7 +1095,9 @@
           "description": "Egy szelíd óriás köszönni akar – köss össze 50 pontot, hogy előhívd ezt az imádnivaló bébi elefántot. Rövid, ingyenesen nyomtatható feladatlap fiatal tanulóknak, tökéletes első próbálkozásnak a számsorrend gyakorlásához.",
           "name": "Aranyos bébi elefánt",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/cute-baby-elephant-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -1164,7 +1204,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Hogyan oldd meg a Aranyos bébi elefánt pontösszekötő rejtvényt"
         }
       }
     },
@@ -1182,7 +1223,9 @@
           "description": "A békák részben a nedves bőrükön keresztül szívják fel az oxigént. Ugrálj át 82 ponton, hogy felfedd a mosolygó békát ebben az ingyenes PDF-ben 6-10 éves gyerekeknek.",
           "name": "Cuki Boldog Béka",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/cute-happy-frog-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "6-10"
         }
       },
       "body": {
@@ -1289,7 +1332,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Hogyan oldd meg a Cuki Boldog Béka pontösszekötő rejtvényt"
         }
       }
     },
@@ -1307,7 +1351,9 @@
           "description": "Egy csillogó ruha és korona jelenik meg, amikor a gyerekek összekapcsolják az 57 királyi pontot. Nyomtasd ki az ingyenes hercegnős PDF-et a képzeletbeli számgyakorláshoz 4-8 éveseknek.",
           "name": "Aranyos hercegnő",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/cute-princess-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -1414,7 +1460,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Hogyan oldd meg a Aranyos hercegnő pontösszekötő rejtvényt"
         }
       }
     }

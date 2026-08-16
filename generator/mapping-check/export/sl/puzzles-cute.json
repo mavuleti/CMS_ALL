@@ -1,5 +1,21 @@
 {
-  "collection": {},
+  "collection": {
+    "header": {
+      "title": "Simpatični otroški natisljivi motivi od pik do pik",
+      "meta_description": "Pripravite se na največjo ljubkost! Povežite pike in odkrijte čudovite kužke, majhne avtomobilčke in še več očarljivih prijateljev. Vse delovne liste lahko brezplačno prenesete in natisnete – račun ni potreben.",
+      "og": {
+        "title": "Simpatični otroški natisljivi motivi od pik do pik",
+        "description": "Pripravite se na največjo ljubkost! Povežite pike in odkrijte čudovite kužke, majhne avtomobilčke in še več očarljivih prijateljev. Vse delovne liste lahko brezplačno prenesete in natisnete – račun ni potreben."
+      },
+      "json_ld": {
+        "description": "Pripravite se na največjo ljubkost! Povežite pike in odkrijte čudovite kužke, majhne avtomobilčke in še več očarljivih prijateljev. Vse delovne liste lahko brezplačno prenesete in natisnete – račun ni potreben."
+      }
+    },
+    "body": {
+      "h1": "Simpatični otroški natisljivi motivi od pik do pik",
+      "description": "Pripravite se na največjo ljubkost! Povežite pike in odkrijte čudovite kužke, majhne avtomobilčke in še več očarljivih prijateljev. Vse delovne liste lahko brezplačno prenesete in natisnete – račun ni potreben."
+    }
+  },
   "puzzles": [
     {
       "slug": "cute-puppy-dot-to-dot-puzzle",
@@ -15,8 +31,8 @@
           "description": "Novorojeni kužki ne morejo videti ali slišati približno dva tedna. Razkrijte tega radovednega kužka čez 70 točk s prostim PDF-jem za tiskanje za starosti 5–9.",
           "name": "Prikupen kužek",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing",
           "image": "/images/cute-puppy-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
           "age_range": "5-9"
         }
       },
@@ -144,7 +160,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Kako rešiti sestavljanko poveži pike Prikupen kužek"
         }
       }
     },
@@ -162,7 +179,9 @@
           "description": "Pelji skozi 55 označenih pik, da zgradiš vesel mali avto. Brezplačni PDF za tiskanje ponuja prijazno dejavnost zaporedja za otroke, stare od 4 do 8 let.",
           "name": "Simpatičen avtoček",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/cute-little-car-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -269,7 +288,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Kako rešiti sestavljanko poveži pike Simpatičen avtoček"
         }
       }
     },
@@ -287,7 +307,9 @@
           "description": "Levji mladiči mijavkajo, preden se naučijo rjoveti. Oblikuj mladega leva skozi 74 pik s to brezplačno natisljivo delovno listo za otroke, stare od 5 do 9 let.",
           "name": "Ljubki lev",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/cute-lion-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
@@ -414,7 +436,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Kako rešiti sestavljanko poveži pike Ljubki lev"
         }
       }
     },
@@ -432,7 +455,9 @@
           "description": "Metulji okušajo s senzorji na svojih tačkah. Poveži 67 pik, da razširiš krila tega metulja v brezplačni tiskalni PDF za starosti 5–9.",
           "name": "Ljubki metulj",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/cute-butterfly-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
@@ -539,7 +564,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Kako rešiti sestavljanko poveži pike Ljubki metulj"
         }
       }
     },
@@ -557,7 +583,9 @@
           "description": "Štej od pike 1 in zgradi raketo čez 66 točk. Prenesite brezplačni PDF s temo vesolja za mlade raziskovalce, stare od 4 do 8 let.",
           "name": "Ljubka raketna ladja",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/cute-rocket-ship-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -664,7 +692,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Kako rešiti sestavljanko poveži pike Ljubka raketna ladja"
         }
       }
     },
@@ -682,7 +711,9 @@
           "description": "Dojenčke morske želvice sledijo najsvetlejši horizont proti oceanu. Vodite tega majhnega raziskovalca skozi 65 pik v brezplačnem PDF-ju za starosti 4–8.",
           "name": "Ljubka želva",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/cute-baby-turtle-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -789,7 +820,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Kako rešiti sestavljanko poveži pike Ljubka želva"
         }
       }
     },
@@ -807,7 +839,9 @@
           "description": "Fiksne oči pomagajo razložiti, zakaj se sove tako daleč obračajo. Razkrijte sovo z velikimi očmi preko 65 točk s to brezplačno printable za starosti 4–8.",
           "name": "Ljubka sova",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/cute-owl-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -914,7 +948,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Kako rešiti sestavljanko poveži pike Ljubka sova"
         }
       }
     },
@@ -932,7 +967,9 @@
           "description": "Rakove noge so zgrajene za hitro stransko gibanje. Priklopite se skozi 72 točk, da dokončate ta veseli rak PDF za otroke, stare od 5 do 9 let.",
           "name": "Vesel rak",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/cute-crab-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
@@ -1039,7 +1076,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Kako rešiti sestavljanko poveži pike Vesel rak"
         }
       }
     },
@@ -1057,7 +1095,9 @@
           "description": "Dojenčki sloni včasih sesajo svoje kljune za tolažbo. Spoznajte tega nežnega mladiča v 50 pikah z brezplačnim printable PDF za starosti 4–8.",
           "name": "Prikupen slonček",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/cute-baby-elephant-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -1164,7 +1204,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Kako rešiti sestavljanko poveži pike Prikupen slonček"
         }
       }
     },
@@ -1182,7 +1223,9 @@
           "description": "Žabe delno absorbirajo kisik skozi svojo vlažno kožo. Preskočite čez 82 točk, da razkrijete nasmejano žabo v tem brezplačnem PDF-ju za otroke, stare od 6 do 10 let.",
           "name": "Lepo srečno žabo",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/cute-happy-frog-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "6-10"
         }
       },
       "body": {
@@ -1289,7 +1332,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Kako rešiti sestavljanko poveži pike Lepo srečno žabo"
         }
       }
     },
@@ -1307,7 +1351,9 @@
           "description": "Bleščeč plašč in krona se pojavita, ko otroci povežejo 57 kraljevskih točk. Natisnite brezplačen PDF princeske za domišljijsko vadbo števil pri starosti od 4 do 8 let.",
           "name": "Lepo kralično dekle",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/cute-princess-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -1414,7 +1460,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Kako rešiti sestavljanko poveži pike Lepo kralično dekle"
         }
       }
     }

@@ -1,5 +1,17 @@
 {
-  "collection": {},
+  "collection": {
+    "header": {
+      "title": "Vrtni ispisi od točke do točke za djecu",
+      "meta_description": "Uzgajajte! Spojite točkice i otkrijte vrtne rukavice, lopatice i praktični vrtni alat. Svi radni listovi mogu se besplatno preuzeti i ispisati - nije potreban račun.",
+      "og": {
+        "title": "Vrtni ispisi od točke do točke za djecu",
+        "description": "Uzgajajte! Spojite točkice i otkrijte vrtne rukavice, lopatice i praktični vrtni alat. Svi radni listovi mogu se besplatno preuzeti i ispisati - nije potreban račun."
+      }
+    },
+    "body": {
+      "h1": "Vrtni ispisi od točke do točke za djecu"
+    }
+  },
   "puzzles": [
     {
       "slug": "garden-gloves-dot-to-dot-puzzle",
@@ -15,7 +27,9 @@
           "description": "Spojite 54 točkice i otkrijte par vrtnih rukavica u ovom nježnom radnom listu za djecu od 4 do 8 godina koja tek uče redoslijed brojeva. Savršen dodatak proljetnoj temi vrta u vrtiću ili nižim razredima osnovne škole – ispišite PDF i krenite spajati. Dovoljno jednostavno za prve pokušaje.",
           "name": "Vrtne rukavice",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/garden-gloves-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -156,7 +170,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Kako riješiti puzzle spoji točke Vrtne rukavice"
         }
       }
     },
@@ -174,7 +189,9 @@
           "description": "Sa svega 39 točaka, ova lopatica jedna je od najkraćih besplatnih zagonetki spoji točkice u našoj zbirci za 2026., idealna za djecu od 4 do 7 godina koja uvježbavaju držanje olovke. Ispišite besplatan PDF radni list i nacrtajte alat za kopanje bez kojeg nijedan mali vrtlar ne može. Gotovo za jedno kratko sjedenje.",
           "name": "Vrtna lopatica",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/garden-trowel-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-7"
         }
       },
       "body": {
@@ -288,7 +305,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Kako riješiti puzzle spoji točke Vrtna lopatica"
         }
       }
     },
@@ -306,7 +324,9 @@
           "description": "Spojite 85 točkica u čvrsta vrtna kolica ovim besplatnim predloškom spoji točkice za djecu od 5 do 9 godina spremnu za dulji izazov. Drevna kineska kolica nekoć su prevozila čak i vojnike – ispišite PDF i krenite s redanjem brojeva, bez prijave. Ispisuje se točno u mjerilu 100%.",
           "name": "Igralište s kolicima",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/wheelbarrow-playground-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
@@ -447,7 +467,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Kako riješiti puzzle spoji točke Igralište s kolicima"
         }
       }
     }

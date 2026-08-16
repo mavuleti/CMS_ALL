@@ -1,5 +1,17 @@
 {
-  "collection": {},
+  "collection": {
+    "header": {
+      "title": "Kvetinové spojovačky pre deti na vytlačenie",
+      "og": {
+        "title": "20 spojovačiek s kvetmi pre deti zadarmo",
+        "description": "Ruže, tulipány, orchidey a ďalšie — spojovačky pre deti zadarmo, pripravené na stiahnutie a tlač."
+      },
+      "meta_description": "Spomaľte pri lupienkoch, vzoroch a číselných cestičkách. Od snežienok a ľalií po orchidey a ruže — tieto kvetinové spojovačky zadarmo spájajú pokojné precvičovanie ceruzkou s obrázkom, ktorý si deti môžu vyfarbiť."
+    },
+    "body": {
+      "h1": "Kvetinové spojovačky pre deti na vytlačenie"
+    }
+  },
   "puzzles": [
     {
       "slug": "flax-flower-dot-to-dot-puzzle",
@@ -15,7 +27,9 @@
           "description": "Ľan poskytoval ľanové vlákno po tisíce rokov. Vytvorte jeho jemnú kvetinu cez 90 bodov s bezplatným tlačiteľným PDF pre deti vo veku 6–10 rokov.",
           "name": "Ľanová kvetina",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/flower-flax-flower-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "6-10"
         }
       },
       "body": {
@@ -183,7 +197,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Ako vyriešiť obrázok spoj bodky Ľanová kvetina"
         }
       }
     },
@@ -201,7 +216,9 @@
           "description": "Kvetiny a listy nechtíka majú korenistú chuť. Sledujte tento jedlý kvet cez 96 bodov v bezplatnom tlačiteľnom PDF pre vek 6–10.",
           "name": "Kvetina nechtíka",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/flower-nasturtium-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "6-10"
         }
       },
       "body": {
@@ -369,7 +386,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Ako vyriešiť obrázok spoj bodky Kvetina nechtíka"
         }
       }
     },
@@ -387,7 +405,9 @@
           "description": "Snežienka môže kvitnúť, zatiaľ čo sneh stále pokrýva záhradu. Trpezliví riešitelia vo veku 8–12 rokov môžu odhaliť jednu cez 145 bodov v tomto bezplatnom PDF.",
           "name": "Snežienka",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/flower-snowdrop-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "8-12"
         }
       },
       "body": {
@@ -582,7 +602,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Ako vyriešiť obrázok spoj bodky Snežienka"
         }
       }
     },
@@ -600,7 +621,9 @@
           "description": "Lesklé okvetné lístky odrážajú svetlo a dodávajú púpavám ich jasný lesk. Prepojte 62 bodov, aby ste dokončili tento bezplatný tlačiteľný kvet pre vek 5–9.",
           "name": "Púpava",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/flower-buttercup-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
@@ -768,7 +791,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Ako vyriešiť obrázok spoj bodky Púpava"
         }
       }
     },
@@ -786,7 +810,9 @@
           "description": "Kamélie si zachovávajú lesklé zelené listy po celý rok a môžu kvitnúť v zime. Odhaľte vrstvené lupene na 45 bodoch v bezplatnom PDF pre deti vo veku 4–8 rokov.",
           "name": "Kvet kamélie",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/flower-camellia-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -927,7 +953,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Ako vyriešiť obrázok spoj bodky Kvet kamélie"
         }
       }
     },
@@ -945,7 +972,9 @@
           "description": "Drobné modré lupienky a žlté centrá sa objavujú naprieč 107 bodmi. Stiahnite si tento podrobný tlačiteľný PDF nezábudky pre deti vo veku 6–10 rokov.",
           "name": "Nezábudka",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/flower-forget-me-not-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "6-10"
         }
       },
       "body": {
@@ -1113,7 +1142,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Ako vyriešiť obrázok spoj bodky Nezábudka"
         }
       }
     },
@@ -1131,7 +1161,9 @@
           "description": "Mnoho malých kvetov geránia sa zhromažďuje do jedného zaobleného zhluku. Sledujte jeho obrys s 92 bodmi s bezplatným tlačiteľným pracovným listom pre vek 6–10.",
           "name": "Kvet geránia",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/flower-geranium-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "6-10"
         }
       },
       "body": {
@@ -1299,7 +1331,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Ako vyriešiť obrázok spoj bodky Kvet geránia"
         }
       }
     },
@@ -1317,7 +1350,9 @@
           "description": "Jazmín uvoľňuje svoju sladkú vôňu najintenzívnejšie po západe slnka. Vytvorte hviezdny kvet v 97 bodoch s bezplatným PDF pre deti vo veku 6–10 rokov.",
           "name": "Jazmínový kvet",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/flower-jasmine-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "6-10"
         }
       },
       "body": {
@@ -1485,7 +1520,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Ako vyriešiť obrázok spoj bodky Jazmínový kvet"
         }
       }
     },
@@ -1503,7 +1539,9 @@
           "description": "Päť prekrývajúcich sa lupienkov dáva pohľadnicovému kvetu jeho malý tvar veterného mlyna. Spojte 72 bodov v tejto bezplatnej tlačiteľnej aktivite pre kvety pre vek 5–9.",
           "name": "Pohľadnicový kvet",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/flower-periwinkle-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
@@ -1671,7 +1709,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Ako vyriešiť obrázok spoj bodky Pohľadnicový kvet"
         }
       }
     },
@@ -1689,7 +1728,9 @@
           "description": "Petúnie v tvare trúbky kvitnú v pevných, pruhovaných a škvrnitých farbách. Odhaľte jednu cez 53 bodiek s bezplatným tlačiteľným PDF pre vek 4–8.",
           "name": "Kvet petúnie",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/flower-petunia-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -1830,7 +1871,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Ako vyriešiť obrázok spoj bodky Kvet petúnie"
         }
       }
     },
@@ -1848,7 +1890,9 @@
           "description": "Teplé večery posilňujú sladkú vôňu kvetov plumerie. Sledujte tento tropický kvet cez 95 bodov v bezplatnom PDF pre vek 6–10.",
           "name": "Kvet plumerie",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/flower-plumeria-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "6-10"
         }
       },
       "body": {
@@ -2016,7 +2060,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Ako vyriešiť obrázok spoj bodky Kvet plumerie"
         }
       }
     },
@@ -2034,7 +2079,9 @@
           "description": "Riasené okraje dávajú okvetným lístkom karafiátu ich jemný, riasený vzhľad. Dokončite kyticu kvetov v 53 bodoch s bezplatným PDF pre deti vo veku 4–8 rokov.",
           "name": "Karafiát",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/flower-carnation-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -2175,7 +2222,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Ako vyriešiť obrázok spoj bodky Karafiát"
         }
       }
     },
@@ -2193,7 +2241,9 @@
           "description": "Ľalia sa zdá mať šesť lupienkov, hoci tri sú vlastne kalichové lístky. Preskúmajte jej symetriu cez 62 bodov v bezplatnom tlačiteľnom materiáli pre vek 5–9 rokov.",
           "name": "Šesť-okvetný ľalia",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/flower-six-petal-lily-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
@@ -2361,7 +2411,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Ako vyriešiť obrázok spoj bodky Šesť-okvetný ľalia"
         }
       }
     },
@@ -2379,7 +2430,9 @@
           "description": "Pivónie môžu kvitnúť viac ako sto rokov. Vytvorte jednu nadýchanú kvetinu z 46 bodov s týmto bezplatným tlačiteľným PDF pre vek 4–8.",
           "name": "Pivonka",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/flower-peony-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -2520,7 +2573,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Ako vyriešiť obrázok spoj bodky Pivonka"
         }
       }
     },
@@ -2538,7 +2592,9 @@
           "description": "Orchidey rastú na všetkých kontinentoch okrem Antarktídy. Sledujte charakteristickú peru a stonku kvetu cez 76 bodov v bezplatnom PDF pre vek 6–10.",
           "name": "Orchideový kvet",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/flower-orchid-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "6-10"
         }
       },
       "body": {
@@ -2706,7 +2762,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Ako vyriešiť obrázok spoj bodky Orchideový kvet"
         }
       }
     },
@@ -2724,7 +2781,9 @@
           "description": "Vodné kvapky sa vytvárajú a valia z pozoruhodného povrchu lotusového listu. Otvorte vrstvený kvet cez 46 bodov s bezplatným PDF pre vek 4–8.",
           "name": "Lotusový kvet",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/flower-lotus-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -2865,7 +2924,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Ako vyriešiť obrázok spoj bodky Lotusový kvet"
         }
       }
     },
@@ -2883,7 +2943,9 @@
           "description": "Ruže sa pestujú už tisíce rokov. Vytvorte klasický vrstvený kvet cez 66 bodov s bezplatným tlačiteľným PDF pre deti vo veku 5–9 rokov.",
           "name": "Ružová kvetina",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/flower-rose-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
@@ -3051,7 +3113,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Ako vyriešiť obrázok spoj bodky Ružová kvetina"
         }
       }
     },
@@ -3069,7 +3132,9 @@
           "description": "Tulipánové cibule ukladajú potravu pod zem na ďalšiu rastovú sezónu. Vypestujte si kvetinu v tvare pohára cez 88 bodov s bezplatným PDF pre vek 5–9.",
           "name": "Tulipánová kvetina",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/flower-tulip-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
@@ -3237,7 +3302,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Ako vyriešiť obrázok spoj bodky Tulipánová kvetina"
         }
       }
     },
@@ -3255,7 +3321,9 @@
           "description": "Tenké makové lupene sa v najľahšom vánku vznášajú. Sledujte 106 bodiek cez kvet a stonku v bezplatnej tlačiteľnej verzii pre vek 6–10 rokov.",
           "name": "Mák kvet",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/flower-poppy-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "6-10"
         }
       },
       "body": {
@@ -3423,7 +3491,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Ako vyriešiť obrázok spoj bodky Mák kvet"
         }
       }
     },
@@ -3441,7 +3510,9 @@
           "description": "Mladé púčiky slnečníc sa otáčajú, aby sledovali slnko. Spojte 58 bodov, aby ste odhalili usmievavý kawaii kvet v tomto bezplatnom tlačiteľnom PDF pre vek 4–8 rokov.",
           "name": "Kawaii slnečnica",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/flower-kawaii-sunflower-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -3609,7 +3680,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Ako vyriešiť obrázok spoj bodky Kawaii slnečnica"
         }
       }
     }

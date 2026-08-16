@@ -1,5 +1,17 @@
 {
-  "collection": {},
+  "collection": {
+    "header": {
+      "title": "Játszótéri pont-pont nyomtatható anyagok gyerekeknek",
+      "meta_description": "Vidd haza a játszóteret! Kösd össze a pontokat, hogy felfedezd a hintákat, csúszdákat és a szabadtéri szórakozást. Minden munkalap ingyenesen letölthető és kinyomtatható – nincs szükség fiókra.",
+      "og": {
+        "title": "Játszótéri pont-pont nyomtatható anyagok gyerekeknek",
+        "description": "Vidd haza a játszóteret! Kösd össze a pontokat, hogy felfedezd a hintákat, csúszdákat és a szabadtéri szórakozást. Minden munkalap ingyenesen letölthető és kinyomtatható – nincs szükség fiókra."
+      }
+    },
+    "body": {
+      "h1": "Játszótéri pont-pont nyomtatható anyagok gyerekeknek"
+    }
+  },
   "puzzles": [
     {
       "slug": "spring-horse-playground-dot-to-dot-puzzle",
@@ -15,7 +27,9 @@
           "description": "Köss össze 42 pontot, hogy megrajzold a klasszikus játszótéri rugós lovacskát. Ez az ingyenesen nyomtatható, könnyű feladatlap kiváló első próbálkozás óvodásoknak a számsorrend és a ceruzafogás gyakorlásához játszótéri témában.",
           "name": "Rugós Lovacska Játszótér",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/playgrounds-spring-horse-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -156,7 +170,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Hogyan oldd meg a Rugós Lovacska Játszótér pontösszekötő rejtvényt"
         }
       }
     },
@@ -174,7 +189,9 @@
           "description": "Fedezd fel ezt a magas játszótéri csúszdát 102 pont összekötésével. Több ponttal, mint a legkönnyebb játszótéri lapunk, ez a feladat jó következő kihívás azoknak a gyerekeknek, akik túllépnek a kezdő szintű feladatlapokon.",
           "name": "Csúszdás Játszóház",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/playgrounds-playhouse-slide-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
@@ -342,7 +359,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Hogyan oldd meg a Csúszdás Játszóház pontösszekötő rejtvényt"
         }
       }
     },
@@ -360,7 +378,9 @@
           "description": "Köss össze 68 pontot, hogy megrajzold a klasszikus, festői körhinta lovat. Ez a pontszámban a legkönnyebb és legnehezebb lapunk közé eső feladatlap jó középső lépcsőfok a magabiztosság építéséhez.",
           "name": "Körhinta Lovas Játszótér",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/playground-carousel-horse-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
@@ -528,7 +548,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Hogyan oldd meg a Körhinta Lovas Játszótér pontösszekötő rejtvényt"
         }
       }
     },
@@ -546,7 +567,9 @@
           "description": "Köss össze 48 pontot, hogy megrajzold a játszótér sebes autóját, amely készen áll a versenyre. Ez az ingyenesen nyomtatható, könnyű feladatlap kiváló bevezetés óvodásoknak és kisiskolásoknak a számsorrend és a ceruzafogás gyakorlásához.",
           "name": "Sebes Autó Játszótér",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/playgrounds-dashing-car-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -714,7 +737,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Hogyan oldd meg a Sebes Autó Játszótér pontösszekötő rejtvényt"
         }
       }
     },
@@ -732,7 +756,9 @@
           "description": "Köss össze 42 pontot, hogy megrajzold ezt a vidám hinta szettet. Ez a legkönnyebb játszótéri feladatlapunk, remek kezdő szint azoknak a gyerekeknek, akik a számsorrendet, a ceruzahasználatot és a türelmet gyakorolják egy ingyenesen nyomtatható PDF-en.",
           "name": "Hinta Szett Játszótér",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/swing-playgrounds-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-7"
         }
       },
       "body": {
@@ -900,7 +926,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Hogyan oldd meg a Hinta Szett Játszótér pontösszekötő rejtvényt"
         }
       }
     },
@@ -918,7 +945,9 @@
           "description": "Készen állsz a 102 pontra? Mászd meg és ereszkedj le egy magas játszótéri csúszdán ebben a részletes nyomtatható PDF kihívásban, amely a magabiztos számolók számára készült 6-10 éves korig.",
           "name": "Csúszda Játszótér",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/slide-playgrounds-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "6-10"
         }
       },
       "body": {
@@ -1086,7 +1115,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Hogyan oldd meg a Csúszda Játszótér pontösszekötő rejtvényt"
         }
       }
     },
@@ -1104,7 +1134,9 @@
           "description": "A libikókát néha 'teeter-totter'-nek is nevezik az amerikai angolban — mindkét név ugyanazt az egyszerű felfelé és lefelé mozgást írja le, ami generációk óta szórakoztatja a gyerekeket.",
           "name": "Libikóka Játszótér",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/seesaw-playground-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
@@ -1272,7 +1304,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Hogyan oldd meg a Libikóka Játszótér pontösszekötő rejtvényt"
         }
       }
     },
@@ -1290,7 +1323,9 @@
           "description": "Utazz a leghosszabb játszótéri szekvencián 133 kanyaron és fordulón keresztül. Ez a ingyenes hullámvasút PDF kihívást jelent a fókuszált rejtvényrajongók számára 8–12 éves korig.",
           "name": "Hullámvasút Játszótér",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/roller-coaster-playground-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "8-12"
         }
       },
       "body": {
@@ -1485,7 +1520,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Hogyan oldd meg a Hullámvasút Játszótér pontösszekötő rejtvényt"
         }
       }
     },
@@ -1503,7 +1539,9 @@
           "description": "A majommászók fejlesztik a fogást és a koordinációt a játszótéren; ez a 94 pontos változat a ceruza kezelését fejleszti. Töltsd le az ingyenes PDF-et 5–9 éveseknek.",
           "name": "Majommászó játszótér",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/monkey-bar-playground-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
@@ -1671,7 +1709,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Hogyan oldd meg a Majommászó játszótér pontösszekötő rejtvényt"
         }
       }
     }

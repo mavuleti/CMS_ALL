@@ -1,5 +1,17 @@
 {
-  "collection": {},
+  "collection": {
+    "header": {
+      "title": "Blumen-Punkt-zu-Punkt-Bilder für Kinder",
+      "meta_description": "Lass die Kreativität erblühen! Verbinde die Punkte und entdecke Rosen und andere schöne Blumen. Jedes Arbeitsblatt kann kostenlos und ohne Anmeldung heruntergeladen und ausgedruckt werden.",
+      "og": {
+        "title": "Blumen-Punkt-zu-Punkt-Bilder für Kinder",
+        "description": "Lass die Kreativität erblühen! Verbinde die Punkte und entdecke Rosen und andere schöne Blumen. Jedes Arbeitsblatt kann kostenlos und ohne Anmeldung heruntergeladen und ausgedruckt werden."
+      }
+    },
+    "body": {
+      "h1": "Blumen-Punkt-zu-Punkt-Bilder für Kinder"
+    }
+  },
   "puzzles": [
     {
       "slug": "flax-flower-dot-to-dot-puzzle",
@@ -15,7 +27,9 @@
           "description": "Flachs hat seit tausenden von Jahren Leinenfasern geliefert. Baue seine zarte Blume über 90 Punkte mit einem kostenlosen druckbaren PDF für Kinder im Alter von 6–10 Jahren.",
           "name": "Flachsblüte",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/flower-flax-flower-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "6-10"
         }
       },
       "body": {
@@ -183,7 +197,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "So löst du das Flachsblüte Punkt-zu-Punkt-Rätsel"
         }
       }
     },
@@ -201,7 +216,9 @@
           "description": "Nasturtium-Blüten und -Blätter haben einen pfeffrigen Geschmack. Verfolge diese essbare Blüte durch 96 Punkte in einem kostenlosen druckbaren PDF für 6–10 Jahre.",
           "name": "Kapuzinerkresseblüte",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/flower-nasturtium-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "6-10"
         }
       },
       "body": {
@@ -369,7 +386,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "So löst du das Kapuzinerkresseblüte Punkt-zu-Punkt-Rätsel"
         }
       }
     },
@@ -387,7 +405,9 @@
           "description": "Mit 145 Punkten ist dieses Schneeglöckchen eines unserer anspruchsvollsten Punkt-zu-Punkt-Bilder – eine echte Herausforderung für geübte Kinder zwischen 8 und 12 Jahren. Drucken Sie das kostenlose PDF-Arbeitsblatt aus und beobachten Sie, wie die erste Frühlingsblume Zeile für Zeile entsteht. Neu in der Blumenkollektion 2026. Geeignet für A4 und US Letter.",
           "name": "Schneeglöckchen",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/flower-snowdrop-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "8-12"
         }
       },
       "body": {
@@ -582,7 +602,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "So löst du das Schneeglöckchen Punkt-zu-Punkt-Rätsel"
         }
       }
     },
@@ -600,7 +621,9 @@
           "description": "Glänzende Blütenblätter reflektieren Licht und geben Butterblumen ihren hellen Glanz. Verbinde 62 Punkte, um dieses kostenlose Blumen-PDF für 5–9 Jahre abzuschließen.",
           "name": "Butterblume",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/flower-buttercup-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
@@ -768,7 +791,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "So löst du das Butterblume Punkt-zu-Punkt-Rätsel"
         }
       }
     },
@@ -786,7 +810,9 @@
           "description": "Mit nur 45 Punkten ist diese Kamelie eines unserer einfachsten kostenlosen Punkt-zu-Punkt-Bilder zum Ausdrucken – ideal für Kinder von 4 bis 8 Jahren, die 2026 mit dem Zahlenverständnis beginnen. Drucken Sie die kostenlose PDF-Datei aus und entdecken Sie die Blütenblätter dieses winterblühenden immergrünen Strauchs. Einmal herunterladen, immer wieder ausdrucken.",
           "name": "Kamelienblüte",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/flower-camellia-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -927,7 +953,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "So löst du das Kamelienblüte Punkt-zu-Punkt-Rätsel"
         }
       }
     },
@@ -945,7 +972,9 @@
           "description": "Winzige blaue Blütenblätter und gelbe Zentren erscheinen über 107 Punkte. Lade dieses detaillierte Vergissmeinnicht druckbare PDF für Kinder im Alter von 6–10 Jahren herunter.",
           "name": "Vergissmeinnicht",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/flower-forget-me-not-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "6-10"
         }
       },
       "body": {
@@ -1113,7 +1142,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "So löst du das Vergissmeinnicht Punkt-zu-Punkt-Rätsel"
         }
       }
     },
@@ -1131,7 +1161,9 @@
           "description": "Viele kleine Geraniumblüten versammeln sich in einem runden Cluster. Folgen Sie der Umrisslinie mit 92 Punkten mit einem kostenlosen Arbeitsblatt zum Ausdrucken für Kinder im Alter von 6–10 Jahren.",
           "name": "Geranie",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/flower-geranium-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "6-10"
         }
       },
       "body": {
@@ -1299,7 +1331,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "So löst du das Geranie Punkt-zu-Punkt-Rätsel"
         }
       }
     },
@@ -1317,7 +1350,9 @@
           "description": "Jasmin entfaltet seinen süßen Duft am stärksten nach Sonnenuntergang. Gestalte die sternenförmige Blüte in 97 Punkten mit einem kostenlosen PDF für Kinder im Alter von 6–10 Jahren.",
           "name": "Jasminblüte",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/flower-jasmine-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "6-10"
         }
       },
       "body": {
@@ -1485,7 +1520,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "So löst du das Jasminblüte Punkt-zu-Punkt-Rätsel"
         }
       }
     },
@@ -1503,7 +1539,9 @@
           "description": "Fünf überlappende Blütenblätter geben dem Immergrün seine winzige Windradform. Verbinde 72 Punkte in dieser kostenlosen Druckvorlage für Blumenaktivitäten für 5–9-Jährige.",
           "name": "Immergrünblüte",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/flower-periwinkle-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
@@ -1671,7 +1709,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "So löst du das Immergrünblüte Punkt-zu-Punkt-Rätsel"
         }
       }
     },
@@ -1689,7 +1728,9 @@
           "description": "Trumpet-förmige Petunien blühen in einfarbigen, gestreiften und gefleckten Farben. Enthülle eine über 53 Punkte mit einem kostenlosen druckbaren PDF für Kinder im Alter von 4–8 Jahren.",
           "name": "Petunie",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/flower-petunia-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -1830,7 +1871,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "So löst du das Petunie Punkt-zu-Punkt-Rätsel"
         }
       }
     },
@@ -1848,7 +1890,9 @@
           "description": "Warme Abende verstärken den süßen Duft der Plumeria-Blüten. Verfolge diese tropische Blüte durch 95 Punkte in einem kostenlosen PDF für Kinder im Alter von 6–10 Jahren.",
           "name": "Plumeria",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/flower-plumeria-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "6-10"
         }
       },
       "body": {
@@ -2016,7 +2060,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "So löst du das Plumeria Punkt-zu-Punkt-Rätsel"
         }
       }
     },
@@ -2034,7 +2079,9 @@
           "description": "Fransige Ränder verleihen den Nelkenblütenblättern ihr weiches, gerüschtes Aussehen. Vervollständigen Sie die Blumenstraußblume in 53 Punkten mit einem kostenlosen PDF für Kinder im Alter von 4–8 Jahren.",
           "name": "Nelke",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/flower-carnation-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -2175,7 +2222,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "So löst du das Nelke Punkt-zu-Punkt-Rätsel"
         }
       }
     },
@@ -2193,7 +2241,9 @@
           "description": "Eine Lilie scheint sechs Blütenblätter zu haben, obwohl drei tatsächlich Kelchblätter sind. Entdecken Sie ihre Symmetrie über 62 Punkte in einem kostenlosen Ausdruck für Kinder im Alter von 5–9 Jahren.",
           "name": "Sechsblättrige Lilie",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/flower-six-petal-lily-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
@@ -2361,7 +2411,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "So löst du das Sechsblättrige Lilie Punkt-zu-Punkt-Rätsel"
         }
       }
     },
@@ -2379,7 +2430,9 @@
           "description": "Pfingstrosen können über ein Jahrhundert lang blühen. Baue eine flauschige Blume in 46 Punkten mit diesem kostenlosen druckbaren PDF für 4–8 Jahre.",
           "name": "Pfingstrose",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/flower-peony-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -2520,7 +2573,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "So löst du das Pfingstrose Punkt-zu-Punkt-Rätsel"
         }
       }
     },
@@ -2538,7 +2592,9 @@
           "description": "Orchideen wachsen auf jedem Kontinent außer der Antarktis. Zeichne die charakteristische Lippe und den Stängel der Blume über 76 Punkte in einem kostenlosen PDF für Kinder im Alter von 6–10 Jahren nach.",
           "name": "Orchidee",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/flower-orchid-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "6-10"
         }
       },
       "body": {
@@ -2706,7 +2762,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "So löst du das Orchidee Punkt-zu-Punkt-Rätsel"
         }
       }
     },
@@ -2724,7 +2781,9 @@
           "description": "Wassertropfen perlen und rollen von der bemerkenswerten Oberfläche eines Lotusblattes. Öffnen Sie die geschichtete Blume über 46 Punkte mit einem kostenlosen PDF für Kinder im Alter von 4–8 Jahren.",
           "name": "Lotusblume",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/flower-lotus-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -2865,7 +2924,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "So löst du das Lotusblume Punkt-zu-Punkt-Rätsel"
         }
       }
     },
@@ -2883,7 +2943,9 @@
           "description": "Rosen werden seit Tausenden von Jahren kultiviert. Erstelle eine klassische geschichtete Blüte über 66 Punkte mit einem kostenlosen druckbaren PDF für Kinder im Alter von 5–9 Jahren.",
           "name": "Rosenblüte",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/flower-rose-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
@@ -3051,7 +3113,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "So löst du das Rosenblüte Punkt-zu-Punkt-Rätsel"
         }
       }
     },
@@ -3069,7 +3132,9 @@
           "description": "Verbinde 88 Punkte und lass eine Frühlingstulpe wachsen! Diese kostenlose Punkt-zu-Punkt-Vorlage ist perfekt für Kinder von 5 bis 9 Jahren. Von der kelchförmigen Blüte bis zu den breiten, wachsartigen Blättern – eine tolle Übung für die Mittelstufe, ideal für das Schuljahr 2026. Lade dir das PDF-Arbeitsblatt noch heute herunter und drucke es aus. Perfekt für den Start ins Frühjahr 2026!",
           "name": "Tulpenblume",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/flower-tulip-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
@@ -3237,7 +3302,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "So löst du das Tulpenblume Punkt-zu-Punkt-Rätsel"
         }
       }
     },
@@ -3255,7 +3321,9 @@
           "description": "Papierdünne Mohnblütenblätter flattern im leichtesten Wind. Folge 106 Punkten durch die Blume und den Stiel in einem kostenlosen Druck für Kinder im Alter von 6–10 Jahren.",
           "name": "Mohnblume",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/flower-poppy-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "6-10"
         }
       },
       "body": {
@@ -3423,7 +3491,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "So löst du das Mohnblume Punkt-zu-Punkt-Rätsel"
         }
       }
     },
@@ -3441,7 +3510,9 @@
           "description": "Junge Sonnenblumenknospen drehen sich, um der Sonne zu folgen. Verbinde 58 Punkte, um eine lächelnde kawaii Blüte in diesem kostenlosen druckbaren PDF für Kinder im Alter von 4–8 Jahren zu enthüllen.",
           "name": "Kawaii Sonnenblume",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/flower-kawaii-sunflower-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -3609,7 +3680,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "So löst du das Kawaii Sonnenblume Punkt-zu-Punkt-Rätsel"
         }
       }
     }

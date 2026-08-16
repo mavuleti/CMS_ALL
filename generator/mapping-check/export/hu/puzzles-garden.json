@@ -1,5 +1,17 @@
 {
-  "collection": {},
+  "collection": {
+    "header": {
+      "title": "Kerti pont-pont nyomtatható anyagok gyerekeknek",
+      "meta_description": "Kezdj el növekedni! Kösd össze a pontokat, hogy kerti kesztyűket, kerti kanálakat és praktikus kerti szerszámokat találj. Minden munkalap ingyenesen letölthető és kinyomtatható – nincs szükség fiókra.",
+      "og": {
+        "title": "Kerti pont-pont nyomtatható anyagok gyerekeknek",
+        "description": "Kezdj el növekedni! Kösd össze a pontokat, hogy kerti kesztyűket, kerti kanálakat és praktikus kerti szerszámokat találj. Minden munkalap ingyenesen letölthető és kinyomtatható – nincs szükség fiókra."
+      }
+    },
+    "body": {
+      "h1": "Kerti pont-pont nyomtatható anyagok gyerekeknek"
+    }
+  },
   "puzzles": [
     {
       "slug": "garden-gloves-dot-to-dot-puzzle",
@@ -15,7 +27,9 @@
           "description": "Ez az 54 pontos kerti kesztyű feladatlap ingyenes, nyomtatható pontról pontra rejtvény 4-8 éves gyerekeknek, akik most ismerkednek a számsorrenddel. Kiváló kiegészítő az óvodai és általános iskolai kertészkedős témahetekhez – nyomtasd ki A4-en, és kezdődhet a pöttyök összekötése.",
           "name": "Kerti kesztyűk",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/garden-gloves-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -156,7 +170,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Hogyan oldd meg a Kerti kesztyűk pontösszekötő rejtvényt"
         }
       }
     },
@@ -174,7 +189,9 @@
           "description": "Köss össze 39 pontot, és fedezd fel a kerti simítót ezen az ingyenesen letölthető, pontról pontra feladatlapon. Rövid, barátságos rejtvény, tökéletes első próbálkozásnak óvodásoknak és kisiskolásoknak a finommotorika fejlesztéséhez kertészkedős témában.",
           "name": "Kerti simító",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/garden-trowel-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-7"
         }
       },
       "body": {
@@ -288,7 +305,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Hogyan oldd meg a Kerti simító pontösszekötő rejtvényt"
         }
       }
     },
@@ -306,7 +324,9 @@
           "description": "A kerekes talicskát több mint 2000 évvel ezelőtt találták fel az ókori Kínában. Építs egyet 85 pont mentén ezzel az ingyenes nyomtatható PDF-fel 5-9 éveseknek.",
           "name": "Talicska játszótér",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/wheelbarrow-playground-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
@@ -447,7 +467,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Hogyan oldd meg a Talicska játszótér pontösszekötő rejtvényt"
         }
       }
     }

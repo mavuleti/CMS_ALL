@@ -1,17 +1,40 @@
 {
-  "collection": {},
+  "collection": {
+    "header": {
+      "title": "Darmowe łamigłówki łącz kropki z cyrku dla dzieci",
+      "meta_description": "Podejdź po darmowe łamigłówki łącz kropki z cyrku z przyjaznym misiem dyrektorem cyrku i pasiasym namiotem. Pobierz i wydrukuj oba arkusze PDF do liczenia i ćwiczeń z ołówkiem.",
+      "og": {
+        "title": "Darmowe łamigłówki łącz kropki z cyrku dla dzieci",
+        "description": "Podejdź po darmowe łamigłówki łącz kropki z cyrku z przyjaznym misiem dyrektorem cyrku i pasiasym namiotem. Pobierz i wydrukuj oba arkusze PDF do liczenia i ćwiczeń z ołówkiem."
+      }
+    },
+    "body": {
+      "h1": "Darmowe łamigłówki łącz kropki z cyrku dla dzieci"
+    }
+  },
   "puzzles": [
     {
       "slug": "circus-ringmaster-bear-dot-to-dot-puzzle",
       "header": {
+        "title": "Niedźwiedź Dyrektor Cyrku Połącz Kropki — 74 Kropki, Za Darmo",
+        "og": {
+          "title": "Niedźwiedź Dyrektor Cyrku Połącz Kropki — 74 Kropki, Za Darmo",
+          "description": "Poznaj niedźwiedzia, który prowadzi wielki pokaz! Połącz 74 kropki i odkryj dyrektora cyrku w cylindrze — darmowa karta pracy dla dzieci 6-9 lat.",
+          "image_alt": "Niedźwiedź dyrektor cyrku w wysokim kapeluszu i płaszczu, łamigłówka połącz kropki do druku z 74 kropkami"
+        },
+        "meta_description": "Poznaj niedźwiedzia, który prowadzi wielki pokaz! Połącz 74 kropki i odkryj dyrektora cyrku w cylindrze — darmowa karta pracy dla dzieci 6-9 lat — Łączenie kropek dla dzieci.",
         "json_ld": {
-          "name": "Niedźwiedź Mistrz Ceremonii Cyrku",
+          "description": "Dyrektor cyrku zapowiada artystów i prowadzi cały pokaz. Połącz 74 kropki w tej darmowej łamigłówce dla dzieci 6-9 lat.",
+          "name": "Niedźwiedź Dyrektor Cyrku",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/circus-ringmaster-bear-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
         "name": "Niedźwiedź Mistrz Ceremonii Cyrku",
+        "h1": "Niedźwiedź Dyrektor Cyrku Połącz Kropki — 74 Kropki, Poziom Średni",
         "tagline": "Poznaj niedźwiedzia, który prowadzi wielkie show!",
         "description": "Połącz 74 kropki, aby odkryć przyjaznego niedźwiedzia przebranego za dyrektora cyrku. Ta średniozaawansowana karta pracy pomaga dzieciom ćwiczyć sekwencje liczbowe, koncentrację, śledzenie wzrokowe oraz precyzyjną kontrolę ołówka",
         "fun_fact": "Dyrygent cyrku przedstawia artystów i prowadzi publiczność od jednego numeru do kolejnego.",
@@ -174,21 +197,33 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Jak rozwiązać łamigłówkę połącz kropki Niedźwiedź Mistrz Ceremonii Cyrku"
         }
       }
     },
     {
       "slug": "circus-tent-dot-to-dot-puzzle",
       "header": {
+        "title": "Namiot Cyrkowy Połącz Kropki — 59 Kropek, Do Druku Za Darmo",
+        "og": {
+          "title": "Namiot Cyrkowy Połącz Kropki — 59 Kropek, Do Druku Za Darmo",
+          "description": "Zapraszamy do wielkiego namiotu! Połącz 59 kropek i odkryj wesoły, pasiasty namiot cyrkowy — darmowa karta pracy dla dzieci 5-8 lat.",
+          "image_alt": "Pasiasty namiot cyrkowy z flagą na szczycie, łamigłówka połącz kropki do druku z 59 kropkami"
+        },
+        "meta_description": "Zapraszamy do wielkiego namiotu! Połącz 59 kropek i odkryj wesoły, pasiasty namiot cyrkowy — darmowa karta pracy dla dzieci 5-8 lat — Połącz kropki do wydruku PDF.",
         "json_ld": {
-          "name": "Namiot cyrkowy",
+          "description": "Wielki namiot cyrkowy to największy namiot na pokazie, w którym odbywają się wszystkie występy. Połącz 59 kropek w tej darmowej łamigłówce dla dzieci 5-8 lat.",
+          "name": "Namiot Cyrkowy",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/circus-tent-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
         "name": "Namiot cyrkowy",
+        "h1": "Namiot Cyrkowy Połącz Kropki — 59 Kropek Cyrkowej Zabawy",
         "tagline": "Krok w stronę wielkiej przygody pod cyrkowym namiotem!",
         "description": "Połącz 59 kropek, aby odsłonić wesoły pasiasty namiot cyrkowy gotowy na przedstawienie. To łatwe wydrukowane ćwiczenie pomaga dzieciom ćwiczyć liczenie po kolei, śledzenie wzrokowe, koncentrację i precyzyjne prowadzenie ołówka",
         "fun_fact": "Główny namiot cyrku często nazywany jest \"big top\", ponieważ jest to największy namiot podczas przedstawienia.",
@@ -351,7 +386,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Jak rozwiązać łamigłówkę połącz kropki Namiot cyrkowy"
         }
       }
     }

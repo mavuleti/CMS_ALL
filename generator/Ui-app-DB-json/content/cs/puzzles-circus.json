@@ -1,17 +1,40 @@
 {
-  "collection": {},
+  "collection": {
+    "header": {
+      "title": "Tisknutelné spojovačky s cirkusem pro děti",
+      "meta_description": "Přijďte si pro zdarma tisknutelné spojovačky s cirkusem, které představují přátelského medvěda v roli ringmistra a pruhovaný stan. Stáhněte si a vytiskněte oba PDF pracovní listy pro počítání a cvičení s tužkou.",
+      "og": {
+        "title": "Tisknutelné spojovačky s cirkusem pro děti",
+        "description": "Přijďte si pro zdarma tisknutelné spojovačky s cirkusem, které představují přátelského medvěda v roli ringmistra a pruhovaný stan. Stáhněte si a vytiskněte oba PDF pracovní listy pro počítání a cvičení s tužkou."
+      }
+    },
+    "body": {
+      "h1": "Tisknutelné spojovačky s cirkusem pro děti"
+    }
+  },
   "puzzles": [
     {
       "slug": "circus-ringmaster-bear-dot-to-dot-puzzle",
       "header": {
+        "title": "Medvěd ředitel cirkusu: spojovačka — 74 teček, zdarma",
+        "og": {
+          "title": "Medvěd ředitel cirkusu: spojovačka — 74 teček, zdarma",
+          "description": "Poznejte medvěda, který řídí celou show! Spojte 74 teček a odhalte cirkusového ředitele v této bezplatné spojovačce pro děti od 6 do 9 let.",
+          "image_alt": "Medvěd ředitel cirkusu ve vysokém klobouku a kabátě, tisknutelná spojovačka s 74 tečkami"
+        },
+        "meta_description": "Poznejte medvěda, který řídí celou show! Spojte 74 teček a odhalte cirkusového ředitele v této bezplatné spojovačce pro děti od 6 do 9 let — Pracovní listy spojování teček.",
         "json_ld": {
-          "name": "Medvěd cirkusový ředitel",
+          "description": "Ředitel cirkusu představuje účinkující a provází celým programem. Spojte 74 teček v této bezplatné tiskové spojovačce pro děti od 6 do 9 let.",
+          "name": "Medvěd ředitel cirkusu",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/circus-ringmaster-bear-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
         "name": "Medvěd cirkusový ředitel",
+        "h1": "Medvěd ředitel cirkusu – 74 teček plných cirkusové zábavy",
         "tagline": "Seznamte se s medvědem, který řídí velkou show!",
         "description": "Spojte 74 teček, abyste odhalili přátelského medvěda oblečeného jako cirkusového ředitele. Tento středně obtížný tiskový materiál pomáhá dětem procvičovat pořadí čísel, koncentraci, vizuální sledování a pečlivou kontrolu tužky",
         "fun_fact": "Cirkusový ředitel představuje vystupující a provádí publikum od jednoho čísla k dalšímu.",
@@ -174,21 +197,33 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Jak vyřešit obrázek spoj tečky Medvěd cirkusový ředitel"
         }
       }
     },
     {
       "slug": "circus-tent-dot-to-dot-puzzle",
       "header": {
+        "title": "Cirkusový stan: spojovačka — 59 teček, zdarma k tisku",
+        "og": {
+          "title": "Cirkusový stan: spojovačka — 59 teček, zdarma k tisku",
+          "description": "Pojďte do manéže! Spojte 59 teček a odhalte veselý pruhovaný cirkusový stan v této bezplatné spojovačce pro děti od 5 do 8 let.",
+          "image_alt": "Pruhovaný cirkusový stan s vlajkou na vrcholu, tisknutelná spojovačka s 59 tečkami"
+        },
+        "meta_description": "Pojďte do manéže! Spojte 59 teček a odhalte veselý pruhovaný cirkusový stan v této bezplatné spojovačce pro děti od 5 do 8 let — Spojování teček pro děti zdarma.",
         "json_ld": {
+          "description": "Hlavní cirkusový stan je největším stanem celé show. Spojte 59 teček v této bezplatné tiskové spojovačce pro děti od 5 do 8 let.",
           "name": "Cirkusový stan",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/circus-tent-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
         "name": "Cirkusový stan",
+        "h1": "Cirkusový stan – spojovačka na 59 teček plná zábavy",
         "tagline": "Přijďte na velkolepé dobrodružství!",
         "description": "Spojte 59 teček, abyste odhalili veselý pruhovaný cirkusový stan připravený na představení. Tento snadno tisknutelný úkol pomáhá dětem procvičovat počítání v pořadí, vizuální sledování, koncentraci a stabilní ovládání tužky",
         "fun_fact": "Hlavní představení cirkusu se často nazývá velký stan, protože je to největší stan na představení.",
@@ -351,7 +386,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Jak vyřešit obrázek spoj tečky Cirkusový stan"
         }
       }
     }

@@ -1,5 +1,17 @@
 {
-  "collection": {},
+  "collection": {
+    "header": {
+      "title": "Dārza punktu drukājamie materiāli bērniem",
+      "meta_description": "Sāc augt! Savieno punktus, lai atklātu dārza cimdus, lāpstiņas un ērtus dārza instrumentus. Visas darba lapas var lejupielādēt un izdrukāt bez maksas — konts nav nepieciešams.",
+      "og": {
+        "title": "Dārza punktu drukājamie materiāli bērniem",
+        "description": "Sāc augt! Savieno punktus, lai atklātu dārza cimdus, lāpstiņas un ērtus dārza instrumentus. Visas darba lapas var lejupielādēt un izdrukāt bez maksas — konts nav nepieciešams."
+      }
+    },
+    "body": {
+      "h1": "Dārza punktu drukājamie materiāli bērniem"
+    }
+  },
   "puzzles": [
     {
       "slug": "garden-gloves-dot-to-dot-puzzle",
@@ -15,7 +27,9 @@
           "description": "Dārza cimdi aizsargā mazas rokas no netīrumiem un dzelkšņainiem augiem. Savienojiet 54 punktus šajā bezmaksas drukājamajā darba lapā bērniem vecumā no 4 līdz 8 gadiem.",
           "name": "Dārza cimdi",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/garden-gloves-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -156,7 +170,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Kā atrisināt \"Savieno punktus\" mīklu Dārza cimdi"
         }
       }
     },
@@ -174,7 +189,9 @@
           "description": "Ienirstiet agrīnā zīmēšanas praksē ar 39 punktu dārza lāpstiņu. Bezmaksas punktu uz punktu PDF sniedz bērniem vecumā no 4 līdz 7 gadiem īsu, sasniedzamu aktivitāti.",
           "name": "Dārza lāpstiņa",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/garden-trowel-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-7"
         }
       },
       "body": {
@@ -288,7 +305,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Kā atrisināt \"Savieno punktus\" mīklu Dārza lāpstiņa"
         }
       }
     },
@@ -306,7 +324,9 @@
           "description": "Ratiņi tika izgudroti senajā Ķīnā pirms vairāk nekā 2000 gadiem. Uzbūvējiet vienu, sekojot 85 punktiem ar šo bezmaksas drukājamo PDF bērniem vecumā no 5 līdz 9 gadiem.",
           "name": "Ķerru rotaļu laukums",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/wheelbarrow-playground-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
@@ -447,7 +467,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Kā atrisināt \"Savieno punktus\" mīklu Ķerru rotaļu laukums"
         }
       }
     }

@@ -1,17 +1,40 @@
 {
-  "collection": {},
+  "collection": {
+    "header": {
+      "title": "Imprimíveis de Conectar os Pontos do Circo para Crianças",
+      "meta_description": "Venha conferir imprimíveis de conectar os pontos do circo grátis com um amigável urso mestre de cerimônias e uma tenda listrada. Baixe e imprima ambas as folhas em PDF para prática de contagem e lápis.",
+      "og": {
+        "title": "Imprimíveis de Conectar os Pontos do Circo para Crianças",
+        "description": "Venha conferir imprimíveis de conectar os pontos do circo grátis com um amigável urso mestre de cerimônias e uma tenda listrada. Baixe e imprima ambas as folhas em PDF para prática de contagem e lápis."
+      }
+    },
+    "body": {
+      "h1": "Imprimíveis de Conectar os Pontos do Circo para Crianças"
+    }
+  },
   "puzzles": [
     {
       "slug": "circus-ringmaster-bear-dot-to-dot-puzzle",
       "header": {
+        "title": "Urso Diretor de Circo Ligar Pontos — 74 Pontos, Grátis",
+        "og": {
+          "title": "Urso Diretor de Circo Ligar Pontos — 74 Pontos, Grátis",
+          "description": "Conhece o urso que comanda o grande espetáculo! Liga 74 pontos e descobre um diretor de circo de cartola nesta ficha grátis para crianças dos 6 aos 9 anos.",
+          "image_alt": "Urso mestre de cerimónias de circo com cartola e casaco, puzzle de ligar os pontos imprimível de 74 pontos"
+        },
+        "meta_description": "Conhece o urso que comanda o grande espetáculo! Liga 74 pontos e descobre um diretor de circo de cartola nesta ficha grátis para crianças dos 6 aos 9 anos — Ligar pontos difícil para adultos.",
         "json_ld": {
-          "name": "Urso Mestre de Cerimônias do Circo",
+          "description": "O diretor de circo apresenta os artistas e conduz o espetáculo do início ao fim. Liga 74 pontos nesta ficha gratuita para crianças dos 6 aos 9 anos.",
+          "name": "Urso Diretor de Circo",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/circus-ringmaster-bear-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
         "name": "Urso Mestre de Cerimônias do Circo",
+        "h1": "Urso Diretor de Circo Ligar Pontos — 74 Pontos, Nível Intermédio",
         "tagline": "Conheça o Urso que Comanda o Grande Show!",
         "description": "Conecte 74 pontos para revelar um urso amigável vestido como um mestre de circo. Este impressível intermediário ajuda as crianças a praticar sequência numérica, concentração, acompanhamento visual e controle cuidadoso do lápis",
         "fun_fact": "Um mestre de cerimônias de circo apresenta os artistas e guia o público de um ato para o próximo.",
@@ -174,21 +197,33 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Como resolver o puzzle de ligar pontos Urso Mestre de Cerimônias do Circo"
         }
       }
     },
     {
       "slug": "circus-tent-dot-to-dot-puzzle",
       "header": {
+        "title": "Tenda de Circo Ligar Pontos — 59 Pontos, Grátis para Imprimir",
+        "og": {
+          "title": "Tenda de Circo Ligar Pontos — 59 Pontos, Grátis para Imprimir",
+          "description": "Entra no espetáculo! Liga 59 pontos e descobre uma alegre tenda de circo às riscas nesta ficha grátis para crianças dos 5 aos 8 anos.",
+          "image_alt": "Tenda de circo às riscas com uma bandeira no topo, puzzle de ligar os pontos imprimível de 59 pontos"
+        },
+        "meta_description": "Entra no espetáculo! Liga 59 pontos e descobre uma alegre tenda de circo às riscas nesta ficha grátis para crianças dos 5 aos 8 anos — Ligar os pontos para imprimir PDF.",
         "json_ld": {
+          "description": "A tenda principal é a maior tenda do circo, onde decorre todo o espetáculo. Liga 59 pontos nesta ficha gratuita para crianças dos 5 aos 8 anos.",
           "name": "Tenda de Circo",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/circus-tent-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
         "name": "Tenda de Circo",
+        "h1": "Tenda de Circo Ligar Pontos — 59 Pontos de Diversão",
         "tagline": "Venha Participar de uma Aventura de Circo!",
         "description": "Conecte 59 pontos para revelar uma alegre tenda de circo listrada, pronta para o espetáculo. Este impressível fácil ajuda as crianças a praticar a contagem em ordem, o acompanhamento visual, a concentração e o controle firme do lápis",
         "fun_fact": "A tenda principal de um circo é frequentemente chamada de 'big top' porque é a maior tenda do espetáculo.",
@@ -351,7 +386,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Como resolver o puzzle de ligar pontos Tenda de Circo"
         }
       }
     }

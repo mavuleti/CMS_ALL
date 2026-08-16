@@ -1,5 +1,17 @@
 {
-  "collection": {},
+  "collection": {
+    "header": {
+      "title": "Vrtni pikčasti tisk za otroke",
+      "meta_description": "Začnite rasti! Povežite pike in odkrijte vrtne rokavice, lopatice in priročno vrtno orodje. Vse delovne liste lahko brezplačno prenesete in natisnete – brez potrebe po računu.",
+      "og": {
+        "title": "Vrtni pikčasti tisk za otroke",
+        "description": "Začnite rasti! Povežite pike in odkrijte vrtne rokavice, lopatice in priročno vrtno orodje. Vse delovne liste lahko brezplačno prenesete in natisnete – brez potrebe po računu."
+      }
+    },
+    "body": {
+      "h1": "Vrtni pikčasti tisk za otroke"
+    }
+  },
   "puzzles": [
     {
       "slug": "garden-gloves-dot-to-dot-puzzle",
@@ -15,7 +27,9 @@
           "description": "Vrtnarske rokavice ščitijo majhne roke pred umazanijo in bodičastimi rastlinami. Povežite 54 točk v tem brezplačnem printable delovnem listu za otroke, stare od 4 do 8 let.",
           "name": "Vrtne rokavice",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/garden-gloves-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -156,7 +170,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Kako rešiti sestavljanko poveži pike Vrtne rokavice"
         }
       }
     },
@@ -174,7 +189,9 @@
           "description": "Začnite z zgodnjo prakso svinčnika s 39-točkovno vrtnarsko lopatico. Brezplačen PDF dot to dot ponuja otrokom, starim od 4 do 7 let, kratko, dosegljivo aktivnost.",
           "name": "Vrtna lopatica",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/garden-trowel-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-7"
         }
       },
       "body": {
@@ -288,7 +305,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Kako rešiti sestavljanko poveži pike Vrtna lopatica"
         }
       }
     },
@@ -306,7 +324,9 @@
           "description": "Kolica so bila izumljena v stari Kitajski pred več kot 2.000 leti. Zgradite jih čez 85 točk s tem brezplačnim printable PDF-jem za otroke, stare od 5 do 9 let.",
           "name": "Igrišče s samokolnico",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/wheelbarrow-playground-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
@@ -447,7 +467,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Kako rešiti sestavljanko poveži pike Igrišče s samokolnico"
         }
       }
     }

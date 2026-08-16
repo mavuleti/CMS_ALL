@@ -1,5 +1,17 @@
 {
-  "collection": {},
+  "collection": {
+    "header": {
+      "title": "어린이를 위한 정원 점 잇기 그림 도안",
+      "meta_description": "정원 가꾸기를 시작해 보세요! 점들을 연결하여 정원 장갑, 흙손, 그리고 유용한 정원 도구를 완성해 보세요. 모든 활동지는 무료로 다운로드하고 인쇄할 수 있으며, 계정 등록은 필요하지 않습니다.",
+      "og": {
+        "title": "어린이를 위한 정원 점 잇기 그림 도안",
+        "description": "정원 가꾸기를 시작해 보세요! 점들을 연결하여 정원 장갑, 흙손, 그리고 유용한 정원 도구를 완성해 보세요. 모든 활동지는 무료로 다운로드하고 인쇄할 수 있으며, 계정 등록은 필요하지 않습니다."
+      }
+    },
+    "body": {
+      "h1": "어린이를 위한 정원 점 잇기 그림 도안"
+    }
+  },
   "puzzles": [
     {
       "slug": "garden-gloves-dot-to-dot-puzzle",
@@ -15,7 +27,9 @@
           "description": "점 54개를 연결하면 앙증맞은 정원용 장갑 한 켤레가 완성되는 무료 점 잇기 학습지예요. 만 4~8세 유아동의 수 순서 익히기와 연필 잡기 연습에 좋은 입문용 도안으로, 봄철 텃밭 활동 수업에도 잘 어울려요. A4로 인쇄해 바로 시작해보세요.",
           "name": "정원용 장갑",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/garden-gloves-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -156,7 +170,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "정원용 장갑 점 잇기 퍼즐 푸는 방법"
         }
       }
     },
@@ -174,7 +189,9 @@
           "description": "39개의 점만으로 완성되는 정원용 흙손 도안은 2026년 텃밭 테마 모음 중 가장 짧은 점 잇기예요. 만 4~7세 유아의 초기 연필 조절력을 길러주기에 알맞고, 짧은 시간 안에 성취감을 느낄 수 있어요. 무료 PDF를 A4로 인쇄해 바로 그려보세요.",
           "name": "정원용 흙손",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/garden-trowel-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-7"
         }
       },
       "body": {
@@ -288,7 +305,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "정원용 흙손 점 잇기 퍼즐 푸는 방법"
         }
       }
     },
@@ -306,7 +324,9 @@
           "description": "85개의 점을 이어 튼튼한 손수레를 완성하는 무료 점 잇기 학습지로, 조금 더 긴 도안에 도전할 준비가 된 만 5~9세 아이에게 알맞아요. 고대 중국에서는 손수레로 병사까지 실어 날랐다는 재미있는 사실도 함께 알아보세요. A4 PDF로 인쇄해 100% 크기로 사용하세요.",
           "name": "손수레 놀이터",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/wheelbarrow-playground-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
@@ -447,7 +467,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "손수레 놀이터 점 잇기 퍼즐 푸는 방법"
         }
       }
     }

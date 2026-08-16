@@ -1,5 +1,17 @@
 {
-  "collection": {},
+  "collection": {
+    "header": {
+      "title": "Desenhos de jardim para ligar os pontos para crianças",
+      "meta_description": "Mãos à obra! Ligue os pontos para revelar luvas de jardinagem, pás e outras ferramentas úteis para o jardim. Todas as fichas de atividades são gratuitas para descarregar e imprimir — não é necessário criar uma conta.",
+      "og": {
+        "title": "Desenhos de jardim para ligar os pontos para crianças",
+        "description": "Mãos à obra! Ligue os pontos para revelar luvas de jardinagem, pás e outras ferramentas úteis para o jardim. Todas as fichas de atividades são gratuitas para descarregar e imprimir — não é necessário criar uma conta."
+      }
+    },
+    "body": {
+      "h1": "Desenhos de jardim para ligar os pontos para crianças"
+    }
+  },
   "puzzles": [
     {
       "slug": "garden-gloves-dot-to-dot-puzzle",
@@ -15,7 +27,9 @@
           "description": "As luvas de jardim protegem as mãos pequenas da sujeira e de plantas espinhosas. Conecte 54 pontos nesta folha de trabalho imprimível gratuita para crianças de 4 a 8 anos.",
           "name": "Luvas de jardinagem",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/garden-gloves-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -156,7 +170,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Como resolver o puzzle de ligar pontos Luvas de jardinagem"
         }
       }
     },
@@ -174,7 +189,9 @@
           "description": "Mergulhe na prática inicial com lápis com uma pá de jardim de 39 pontos. O PDF gratuito de conectar os pontos oferece às crianças de 4 a 7 anos uma atividade curta e alcançável.",
           "name": "Pá de jardim",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/garden-trowel-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-7"
         }
       },
       "body": {
@@ -288,7 +305,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Como resolver o puzzle de ligar pontos Pá de jardim"
         }
       }
     },
@@ -306,7 +324,9 @@
           "description": "As carretas foram inventadas na antiga China há mais de 2.000 anos. Construa uma ao longo de 85 pontos com este PDF imprimível gratuito para idades de 5 a 9 anos.",
           "name": "Parque infantil com carrinho de mão",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/wheelbarrow-playground-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
@@ -447,7 +467,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Como resolver o puzzle de ligar pontos Parque infantil com carrinho de mão"
         }
       }
     }

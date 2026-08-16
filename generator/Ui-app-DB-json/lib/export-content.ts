@@ -118,6 +118,20 @@ function normalizePuzzle(document: any, collectionSlug: string): Puzzle {
   };
 }
 
+// A puzzle whose content image is a "dummy-*" placeholder (see
+// lib/dinosaurs-data.ts's `show: false` shell entries, e.g. brachiosaurus/
+// ankylosaurus/allosaurus) has no real image/PDF yet and must not get a
+// static page, category listing, or sitemap entry in any locale — the
+// placeholder string was otherwise leaking straight into og:image/preload
+// links (e.g. og:image content="https://.../dummy-allosaurus").
+function isDummyPlaceholder(puzzle: any): boolean {
+  const image = puzzle?.body?.assets?.image
+    ?? puzzle?.body?.image
+    ?? puzzle?.header?.json_ld?.image
+    ?? puzzle?.header?.og?.image;
+  return typeof image === 'string' && image.startsWith('dummy-');
+}
+
 function readCollection(filename: string, locale: string): Collection {
   const source = JSON.parse(fs.readFileSync(path.join(exportDir(locale), filename), 'utf8'));
   if (!source?.collection || !Array.isArray(source.puzzles)) throw new Error(`${filename} must contain collection and puzzles`);
@@ -127,7 +141,9 @@ function readCollection(filename: string, locale: string): Collection {
     slug: body.slug ?? fallbackSlug,
     header: source.collection.header ?? {},
     body,
-    puzzles: source.puzzles.map((puzzle: any) => normalizePuzzle(puzzle, body.slug ?? fallbackSlug))
+    puzzles: source.puzzles
+      .filter((puzzle: any) => !isDummyPlaceholder(puzzle))
+      .map((puzzle: any) => normalizePuzzle(puzzle, body.slug ?? fallbackSlug))
   };
 }
 

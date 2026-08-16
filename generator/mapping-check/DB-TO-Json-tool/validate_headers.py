@@ -33,7 +33,12 @@ import argparse
 import sqlite3
 from pathlib import Path
 
+from collection_status import is_active
+
 HERE = Path(__file__).resolve().parent
+# mapping_audit_*.db files live in the sibling DB/ folder, not next to this
+# script (see export_locale_content.py's DEFAULT_DB_DIR for the same fix).
+DEFAULT_DB_DIR = HERE.parent / "DB"
 
 # Home has a structurally different header (site-wide JSON-LD graph, no
 # single body.h1 concept — its slug is "home" and it has no body.h1 row at
@@ -71,32 +76,46 @@ def validate_db(db_path: Path, min_headers: int) -> list[dict]:
         if "new_key" not in cols:
             return []
         has_lang = "language" in cols
+        # A puzzle can legitimately be re-audited later (content edited, the
+        # slug re-run against the same db) — only the LATEST row per (slug,
+        # language, new_key) reflects current reality, not every historical
+        # value ever inserted for that key. A window-function rank replaces
+        # the old per-row correlated MAX(id) subquery, which was O(rows^2)
+        # and became unusably slow once dbs grew to tens of thousands of
+        # rows across 33 locales.
         if has_lang:
-            pages = conn.execute("SELECT DISTINCT puzzle_slug, language FROM mapping_audit").fetchall()
-            # A puzzle can legitimately be re-audited later (content edited,
-            # the slug re-run against the same db) — only the LATEST row per
-            # (slug, language, new_key) reflects current reality, not every
-            # historical value ever inserted for that key.
             latest_rows_sql = """
-                SELECT m1.new_key, m1.new_value FROM mapping_audit m1
-                WHERE m1.puzzle_slug = ? AND m1.language = ?
-                  AND m1.id = (SELECT MAX(m2.id) FROM mapping_audit m2
-                               WHERE m2.puzzle_slug = m1.puzzle_slug AND m2.language = m1.language
-                               AND m2.new_key = m1.new_key)
+                SELECT puzzle_slug, language, new_key, new_value FROM (
+                    SELECT puzzle_slug, language, new_key, new_value,
+                           ROW_NUMBER() OVER (
+                               PARTITION BY puzzle_slug, language, new_key
+                               ORDER BY id DESC
+                           ) AS rn
+                    FROM mapping_audit
+                ) WHERE rn = 1
             """
         else:
-            pages = [(r[0], "en") for r in conn.execute("SELECT DISTINCT puzzle_slug FROM mapping_audit").fetchall()]
             latest_rows_sql = """
-                SELECT m1.new_key, m1.new_value FROM mapping_audit m1
-                WHERE m1.puzzle_slug = ?
-                  AND m1.id = (SELECT MAX(m2.id) FROM mapping_audit m2
-                               WHERE m2.puzzle_slug = m1.puzzle_slug AND m2.new_key = m1.new_key)
+                SELECT puzzle_slug, 'en' AS language, new_key, new_value FROM (
+                    SELECT puzzle_slug, new_key, new_value,
+                           ROW_NUMBER() OVER (
+                               PARTITION BY puzzle_slug, new_key
+                               ORDER BY id DESC
+                           ) AS rn
+                    FROM mapping_audit
+                ) WHERE rn = 1
             """
 
+        by_page: dict[tuple[str, str], list[sqlite3.Row]] = {}
+        for row in conn.execute(latest_rows_sql):
+            by_page.setdefault((row["puzzle_slug"], row["language"]), []).append(row)
+
+        collection_name = db_path.stem.removeprefix("mapping_audit_")
+
         results = []
-        for slug, language in pages:
-            params = (slug, language) if has_lang else (slug,)
-            latest = conn.execute(latest_rows_sql, params).fetchall()
+        for (slug, language), latest in by_page.items():
+            if not is_active(collection_name, language):
+                continue
             header_count = sum(
                 1 for r in latest
                 if r["new_key"].startswith("header") and r["new_value"] not in (None, "", "<absent>")
@@ -148,13 +167,14 @@ def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("--min-headers", type=int, default=7)
     parser.add_argument("--db", type=Path, default=HERE / "mapping_audit_validation.db")
+    parser.add_argument("--db-dir", type=Path, default=DEFAULT_DB_DIR, help="folder containing mapping_audit_*.db source files")
     args = parser.parse_args()
 
     out_conn = sqlite3.connect(args.db)
     ensure_schema(out_conn)
 
     all_results: list[dict] = []
-    for db_path in sorted(HERE.glob("mapping_audit_*.db")):
+    for db_path in sorted(args.db_dir.glob("mapping_audit_*.db")):
         if db_path.name == args.db.name:
             continue
         results = validate_db(db_path, args.min_headers)

@@ -1,17 +1,40 @@
 {
-  "collection": {},
+  "collection": {
+    "header": {
+      "title": "Tranh nối điểm chủ đề rạp xiếc dành cho trẻ em",
+      "meta_description": "Bước ngay lên để nhận tài liệu in nối điểm miễn phí với một chú gấu quản trò thân thiện và một chiếc lều lớn có sọc. Tải xuống và in cả hai tài liệu PDF để thực hành đếm và viết bút chì.",
+      "og": {
+        "title": "Tranh nối điểm chủ đề rạp xiếc dành cho trẻ em",
+        "description": "Bước ngay lên để nhận tài liệu in nối điểm miễn phí với một chú gấu quản trò thân thiện và một chiếc lều lớn có sọc. Tải xuống và in cả hai tài liệu PDF để thực hành đếm và viết bút chì."
+      }
+    },
+    "body": {
+      "h1": "Tranh nối điểm chủ đề rạp xiếc dành cho trẻ em"
+    }
+  },
   "puzzles": [
     {
       "slug": "circus-ringmaster-bear-dot-to-dot-puzzle",
       "header": {
+        "title": "Gấu Quản Trò Xiếc Nối Điểm — 74 Điểm, Miễn Phí",
+        "og": {
+          "title": "Gấu Quản Trò Xiếc Nối Điểm — 74 Điểm, Miễn Phí",
+          "description": "Gặp gỡ chú gấu điều khiển cả buổi diễn! Nối 74 điểm để khám phá một chú gấu quản trò xiếc, phiếu bài tập nối điểm miễn phí cho trẻ 6–9 tuổi.",
+          "image_alt": "Gấu quản trò xiếc đội mũ cao và mặc áo khoác, hình nối điểm in miễn phí với 74 điểm"
+        },
+        "meta_description": "Gặp gỡ chú gấu điều khiển cả buổi diễn! Nối 74 điểm để khám phá một chú gấu quản trò xiếc, phiếu bài tập nối điểm miễn phí cho trẻ 6–9 tuổi — phiếu bài tập nối số từ 1 đến 10.",
         "json_ld": {
-          "name": "Gấu Chủ Rạp Xiếc",
+          "description": "Quản trò xiếc là người giới thiệu các nghệ sĩ biểu diễn và dẫn dắt cả buổi diễn. Hãy nối 74 điểm trong phiếu bài tập nối điểm miễn phí này dành cho trẻ 6–9 tuổi.",
+          "name": "Gấu Quản Trò Xiếc",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/circus-ringmaster-bear-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
         "name": "Gấu Chủ Rạp Xiếc",
+        "h1": "Gấu Quản Trò Xiếc Nối Điểm — 74 Điểm Vui Nhộn Dưới Mái Lều Xiếc",
         "tagline": "Gặp Gỡ Chú Gấu Điều Hành Chương Trình Lớn!",
         "description": "Nối 74 chấm để khám phá hình chú gấu thân thiện mặc trang phục quản trò rạp xiếc. Bản in trình độ trung cấp này giúp trẻ luyện tập kỹ năng đếm số theo thứ tự, khả năng tập trung, theo dõi hình ảnh và kiểm soát bút chì cẩn thận",
         "fun_fact": "Một người dẫn chương trình xiếc giới thiệu các nghệ sĩ biểu diễn và hướng dẫn khán giả từ tiết mục này sang tiết mục khác.",
@@ -174,21 +197,33 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Cách giải câu đố nối các chấm Gấu Chủ Rạp Xiếc"
         }
       }
     },
     {
       "slug": "circus-tent-dot-to-dot-puzzle",
       "header": {
+        "title": "Lều Xiếc Nối Điểm — 59 Điểm, In Miễn Phí",
+        "og": {
+          "title": "Lều Xiếc Nối Điểm — 59 Điểm, In Miễn Phí",
+          "description": "Cùng bước vào lều xiếc lớn nào! Nối 59 điểm để khám phá một chiếc lều xiếc sọc rực rỡ, phiếu bài tập nối điểm miễn phí cho trẻ 5–8 tuổi.",
+          "image_alt": "Lều xiếc sọc có lá cờ trên đỉnh, hình nối điểm in miễn phí với 59 điểm"
+        },
+        "meta_description": "Cùng bước vào lều xiếc lớn nào! Nối 59 điểm để khám phá một chiếc lều xiếc sọc rực rỡ, phiếu bài tập nối điểm miễn phí cho trẻ 5–8 tuổi — tranh nối số cho bé.",
         "json_ld": {
+          "description": "Lều xiếc lớn là chiếc lều to nhất trong buổi biểu diễn. Hãy nối 59 điểm trong phiếu bài tập nối điểm miễn phí này dành cho trẻ 5–8 tuổi.",
           "name": "Lều Xiếc",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/circus-tent-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
         "name": "Lều Xiếc",
+        "h1": "Lều Xiếc Nối Điểm — 59 Điểm Cho Cuộc Phiêu Lưu Dưới Mái Lều Lớn",
         "tagline": "Bước vào Cuộc Phiêu Lưu Đại Hội Rạp Xiếc!",
         "description": "Nối 59 chấm để khám phá hình chiếc lều xiếc sọc vui nhộn sẵn sàng cho buổi biểu diễn. Bản in dễ dàng này giúp trẻ em luyện tập đếm số theo thứ tự, theo dõi bằng mắt, tập trung và kiểm soát bút chì ổn định",
         "fun_fact": "Lều biểu diễn chính của rạp xiếc thường được gọi là big top vì đây là chiếc lều lớn nhất trong buổi diễn.",
@@ -351,7 +386,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Cách giải câu đố nối các chấm Lều Xiếc"
         }
       }
     }

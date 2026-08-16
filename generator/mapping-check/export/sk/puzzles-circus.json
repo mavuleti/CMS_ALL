@@ -1,17 +1,40 @@
 {
-  "collection": {},
+  "collection": {
+    "header": {
+      "title": "Tlačiteľné spojovačky s cirkusom pre deti",
+      "meta_description": "Príďte si po voľné tlačiteľné spojovačky s cirkusom, ktoré obsahujú priateľského medveďa v úlohe ringmastera a pruhovaný stan. Stiahnite si a vytlačte obe PDF pracovné listy na počítanie a cvičenie s ceruzkou.",
+      "og": {
+        "title": "Tlačiteľné spojovačky s cirkusom pre deti",
+        "description": "Príďte si po voľné tlačiteľné spojovačky s cirkusom, ktoré obsahujú priateľského medveďa v úlohe ringmastera a pruhovaný stan. Stiahnite si a vytlačte obe PDF pracovné listy na počítanie a cvičenie s ceruzkou."
+      }
+    },
+    "body": {
+      "h1": "Tlačiteľné spojovačky s cirkusom pre deti"
+    }
+  },
   "puzzles": [
     {
       "slug": "circus-ringmaster-bear-dot-to-dot-puzzle",
       "header": {
+        "title": "Medveď Riaditeľ Cirkusu — Spojovačka 74 Bodov",
+        "og": {
+          "title": "Medveď Riaditeľ Cirkusu — Spojovačka 74 Bodov",
+          "description": "Spoznaj medveďa, ktorý vedie veľkú show! Spoj 74 bodov a odhaľ medveďa v úlohe cirkusového riaditeľa v tejto bezplatnej spojovačke pre deti vo veku 6–9 rokov.",
+          "image_alt": "Medveď riaditeľ cirkusu vo vysokom klobúku a kabáte, tlačiteľná spojovačka so 74 bodmi"
+        },
+        "meta_description": "Spoznaj medveďa, ktorý vedie veľkú show! Spoj 74 bodov a odhaľ medveďa v úlohe cirkusového riaditeľa v tejto bezplatnej spojovačke pre deti vo veku 6–9 rokov — číselné spojovačky.",
         "json_ld": {
-          "name": "Cirkusový riaditeľ Medveď",
+          "description": "Riaditeľ cirkusu predstavuje účinkujúcich a sprevádza predstavenie. Spoj 74 bodov v tejto bezplatnej spojovačke pre deti vo veku 6–9 rokov.",
+          "name": "Medveď Riaditeľ Cirkusu",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/circus-ringmaster-bear-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
         "name": "Cirkusový riaditeľ Medveď",
+        "h1": "Medveď Riaditeľ Cirkusu Spojovačka — 74 Bodov Cirkusovej Zábavy",
         "tagline": "Zoznámte sa s medveďom, ktorý vedie veľkú šou!",
         "description": "Prepojte 74 bodov, aby ste odhalili priateľského medveďa oblečeného ako cirkusového riaditeľa. Tento stredne náročný tlačiteľný materiál pomáha deťom cvičiť číselné sekvencie, koncentráciu, vizuálne sledovanie a opatrnú kontrolu ceruzky",
         "fun_fact": "Cirkusový riaditeľ predstavuje vystupujúcich a vedie publikum z jedného čísla k druhému.",
@@ -174,21 +197,33 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Ako vyriešiť obrázok spoj bodky Cirkusový riaditeľ Medveď"
         }
       }
     },
     {
       "slug": "circus-tent-dot-to-dot-puzzle",
       "header": {
+        "title": "Cirkusový Stan — Spojovačka 59 Bodov Zadarmo",
+        "og": {
+          "title": "Cirkusový Stan — Spojovačka 59 Bodov Zadarmo",
+          "description": "Poď pod veľký šapito! Spoj 59 bodov a odhaľ veselý pruhovaný cirkusový stan v tejto bezplatnej spojovačke pre deti vo veku 5–8 rokov.",
+          "image_alt": "Pruhovaný cirkusový stan s vlajkou na vrchole, tlačiteľná spojovačka s 59 bodmi"
+        },
+        "meta_description": "Poď pod veľký šapito! Spoj 59 bodov a odhaľ veselý pruhovaný cirkusový stan v tejto bezplatnej spojovačke pre deti vo veku 5–8 rokov — spojovačky pre deti zadarmo.",
         "json_ld": {
-          "name": "Cirkusový stan",
+          "description": "Cirkusové šapito je najväčší stan na predstavení. Spoj 59 bodov v tejto bezplatnej spojovačke pre deti vo veku 5–8 rokov.",
+          "name": "Cirkusový Stan",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/circus-tent-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
         "name": "Cirkusový stan",
+        "h1": "Cirkusový Stan Spojovačka — 59 Bodov pre Veľké Dobrodružstvo",
         "tagline": "Príďte na veľké dobrodružstvo pod veľkým stanom!",
         "description": "Spojte 59 bodov, aby ste odhalili veselý pruhovaný cirkusový stan pripravený na predstavenie. Tento jednoduchý tlačiteľný materiál pomáha deťom cvičiť počítanie v poradí, vizuálne sledovanie, koncentráciu a stabilnú kontrolu ceruzky",
         "fun_fact": "Hlavný výkonový stan cirkusu sa často nazýva veľký stan, pretože je to najväčší stan na predstavení.",
@@ -351,7 +386,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Ako vyriešiť obrázok spoj bodky Cirkusový stan"
         }
       }
     }

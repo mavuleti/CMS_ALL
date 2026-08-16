@@ -1,17 +1,40 @@
 {
-  "collection": {},
+  "collection": {
+    "header": {
+      "title": "Besplatne printabilne točke za povezivanje u svemiru za djecu",
+      "meta_description": "Poletite s besplatnim radnim listovima za povezivanje točaka u svemiru. Ispišite prijateljsku zagonetku rover danas, s više raketa, planeta i kozmičkih avantura koje dolaze uskoro.",
+      "og": {
+        "title": "Besplatne printabilne točke za povezivanje u svemiru za djecu",
+        "description": "Poletite s besplatnim radnim listovima za povezivanje točaka u svemiru. Ispišite prijateljsku zagonetku rover danas, s više raketa, planeta i kozmičkih avantura koje dolaze uskoro."
+      }
+    },
+    "body": {
+      "h1": "Besplatne printabilne točke za povezivanje u svemiru za djecu"
+    }
+  },
   "puzzles": [
     {
       "slug": "crescent-moon-dot-to-dot-puzzle",
       "header": {
+        "title": "Mladi Mjesec Spoji Točke — 60 Točaka, Besplatno za Ispis",
+        "og": {
+          "title": "Mladi Mjesec Spoji Točke — 60 Točaka, Besplatno za Ispis",
+          "description": "Nacrtaj blistavu krišku noćnog neba! Spoji 60 lakih točaka i otkrij mladi mjesec, besplatna točkalica za djecu od 4 do 7 godina.",
+          "image_alt": "Blistavi mladi mjesec na noćnom nebu, točkalica za ispis sa 60 točaka"
+        },
+        "meta_description": "Nacrtaj blistavu krišku noćnog neba! Spoji 60 lakih točaka i otkrij mladi mjesec, besplatna točkalica za djecu od 4 do 7 godina — točkalice za ispis.",
         "json_ld": {
-          "name": "Polumjesec",
+          "description": "Mladi mjesec sja odbijajući sunčevu svjetlost. Spoji 60 lakih točaka u ovoj besplatnoj točkalici za ispis za djecu od 4 do 7 godina.",
+          "name": "Mladi Mjesec",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/space-crescent-moon-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
         "name": "Polumjesec",
+        "h1": "Mladi Mjesec: Spoji Točke — 60 Lakih Točaka Noćnog Neba",
         "tagline": "Ocrtajte sjajni komad noćnog neba!",
         "description": "Povežite 60 lakih točaka kako biste otkrili prekrasan polumjesec koji svijetli na noćnom nebu. Ovaj besplatni isprint pomaže djeci da vježbaju redoslijed brojeva, vizualno praćenje, koncentraciju i glatku kontrolu olovke",
         "fun_fact": "Polumjesec se pojavljuje kada sunčeva svjetlost osvijetli samo tanak zakrivljeni dio Mjeseca koji možemo vidjeti sa Zemlje.",
@@ -174,21 +197,33 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Kako riješiti puzzle spoji točke Polumjesec"
         }
       }
     },
     {
       "slug": "ringed-planet-dot-to-dot-puzzle",
       "header": {
+        "title": "Planet s Prstenovima Spoji Točke — 43 Točke, Besplatno",
+        "og": {
+          "title": "Planet s Prstenovima Spoji Točke — 43 Točke, Besplatno",
+          "description": "Nacrtaj svijet omotan sjajnim prstenovima! Spoji 43 lake točke i otkrij planet s prstenovima, besplatna točkalica za djecu od 4 do 6 godina.",
+          "image_alt": "Prstenasti planet koji lebdi u svemiru, točkalica za ispis s 43 točke za najmlađu djecu"
+        },
+        "meta_description": "Nacrtaj svijet omotan sjajnim prstenovima! Spoji 43 lake točke i otkrij planet s prstenovima, besplatna točkalica za djecu od 4 do 6 godina — besplatne točkalice za djecu.",
         "json_ld": {
-          "name": "Prstenasti planet",
+          "description": "Saturnovi prstenovi sastoje se od bezbroj komadića leda i stijena. Spoji 43 lake točke u ovoj besplatnoj točkalici za ispis za djecu od 4 do 6 godina.",
+          "name": "Planet s Prstenovima",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/space-ringed-planet-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-7"
         }
       },
       "body": {
         "name": "Prstenasti planet",
+        "h1": "Planet s Prstenovima: Spoji Točke — 43 Lake Točke, Prvi Svemirski Izazov",
         "tagline": "Nacrtaj svijet omotan sjajnim prstenovima!",
         "description": "Poveži 43 jednostavne točke kako bi otkrio prekrasan prstenasti planet koji lebdi u svemiru. Ovaj besplatni isprint pomaže mlađoj djeci da vježbaju redoslijed brojeva, vizualno praćenje, koncentraciju i stabilnu kontrolu olovke",
         "fun_fact": "Saturnovi prstenovi sastavljeni su od bezbroj komadića leda i stijena, od sitnih zrnaca do komada velikih poput kuća.",
@@ -324,21 +359,33 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Kako riješiti puzzle spoji točke Prstenasti planet"
         }
       }
     },
     {
       "slug": "space-rover-dot-to-dot-puzzle",
       "header": {
+        "title": "Svemirski Rover Spoji Točke — 59 Točaka, Besplatno za Ispis",
+        "og": {
+          "title": "Svemirski Rover Spoji Točke — 59 Točaka, Besplatno za Ispis",
+          "description": "Prijateljski istraživač na kotačima! Spoji 59 točaka i otkrij svemirski rover, besplatna točkalica za djecu od 5 do 8 godina.",
+          "image_alt": "Prijateljski svemirski rover na kotačima koji istražuje drugi svijet, točkalica za ispis sa 59 točaka"
+        },
+        "meta_description": "Prijateljski istraživač na kotačima! Spoji 59 točaka i otkrij svemirski rover, besplatna točkalica za djecu od 5 do 8 godina — radni listići spoji točke.",
         "json_ld": {
-          "name": "Svemirski rover",
+          "description": "Svemirski roveri robotska su vozila koja istražuju svjetove poput Mjeseca i Marsa. Spoji 59 točaka u ovoj besplatnoj točkalici za ispis za djecu od 5 do 8 godina.",
+          "name": "Svemirski Rover",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/space-rover-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
         "name": "Svemirski rover",
+        "h1": "Svemirski Rover: Spoji Točke — 59 Točaka Spremnih za Istraživanje",
         "tagline": "Prijateljski istraživač na kotačima",
         "description": "Povežite 59 točaka kako biste otkrili prijateljskog svemirskog rover koji je spreman istražiti drugi svijet. Ova besplatna printable zagonetka pomaže djeci da vježbaju redoslijed brojeva, koncentraciju i kontrolu olovke",
         "fun_fact": "Svemirski roveri su robotska vozila koja istražuju površine svjetova kao što su Mjesec i Mars.",
@@ -501,7 +548,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Kako riješiti puzzle spoji točke Svemirski rover"
         }
       }
     }

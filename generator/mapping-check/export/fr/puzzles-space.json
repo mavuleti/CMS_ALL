@@ -1,17 +1,40 @@
 {
-  "collection": {},
+  "collection": {
+    "header": {
+      "title": "Imprimables de points à relier sur le thème de l'espace pour les enfants",
+      "meta_description": "Décollez avec des fiches d'activités gratuites de points à relier sur le thème de l'espace. Imprimez un casse-tête de rover amical aujourd'hui, avec plus de fusées, de planètes et d'aventures cosmiques à venir bientôt.",
+      "og": {
+        "title": "Imprimables de points à relier sur le thème de l'espace pour les enfants",
+        "description": "Décollez avec des fiches d'activités gratuites de points à relier sur le thème de l'espace. Imprimez un casse-tête de rover amical aujourd'hui, avec plus de fusées, de planètes et d'aventures cosmiques à venir bientôt."
+      }
+    },
+    "body": {
+      "h1": "Imprimables de points à relier sur le thème de l'espace pour les enfants"
+    }
+  },
   "puzzles": [
     {
       "slug": "crescent-moon-dot-to-dot-puzzle",
       "header": {
+        "title": "Croissant de Lune à Relier — 60 Points, Gratuit à Imprimer",
+        "og": {
+          "title": "Croissant de Lune à Relier — 60 Points, Gratuit à Imprimer",
+          "description": "Dessinez une tranche brillante du ciel nocturne ! Reliez 60 points faciles pour révéler un croissant de lune, jeu de points à relier gratuit pour enfants de 4 à 7 ans.",
+          "image_alt": "Croissant de lune lumineux dans un ciel nocturne, points à relier imprimable de 60 points"
+        },
+        "meta_description": "Dessinez une tranche brillante du ciel nocturne ! Reliez 60 points faciles pour révéler un croissant de lune, jeu de points à relier gratuit pour enfants de 4 à 7 ans — points à relier maternelle.",
         "json_ld": {
-          "name": "Lune croissante",
+          "description": "Le croissant de lune brille en reflétant la lumière du soleil. Reliez 60 points faciles dans ce jeu de points à relier gratuit à imprimer pour enfants de 4 à 7 ans.",
+          "name": "Croissant de Lune",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/space-crescent-moon-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
         "name": "Lune croissante",
+        "h1": "Croissant de Lune à Relier — 60 Points Faciles sous les Étoiles",
         "tagline": "Tracez un éclat scintillant du ciel nocturne !",
         "description": "Reliez 60 points faciles pour révéler une belle lune croissante brillant dans le ciel nocturne. Cette fiche imprimable gratuite aide les enfants à pratiquer la séquence des nombres, le suivi visuel, la concentration et la maîtrise fluide du crayon",
         "fun_fact": "Une lune croissante apparaît lorsque la lumière du soleil n'éclaire qu'une fine partie courbe de la Lune visible depuis la Terre.",
@@ -174,21 +197,33 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Comment résoudre le puzzle de points à relier Lune croissante"
         }
       }
     },
     {
       "slug": "ringed-planet-dot-to-dot-puzzle",
       "header": {
+        "title": "Planète à Anneaux à Relier — 43 Points, Gratuit à Imprimer",
+        "og": {
+          "title": "Planète à Anneaux à Relier — 43 Points, Gratuit à Imprimer",
+          "description": "Dessinez un monde entouré d'anneaux scintillants ! Reliez 43 points faciles pour révéler une planète à anneaux, jeu de points à relier gratuit pour enfants de 4 à 6 ans.",
+          "image_alt": "Planète à anneaux flottant dans l'espace, points à relier imprimable de 43 points pour jeunes enfants"
+        },
+        "meta_description": "Dessinez un monde entouré d'anneaux scintillants ! Reliez 43 points faciles pour révéler une planète à anneaux, jeu de points à relier gratuit pour enfants de 4 à 6 ans — points à relier de 1 à 100.",
         "json_ld": {
-          "name": "Planète annulaire",
+          "description": "Les anneaux de Saturne sont formés d'innombrables morceaux de glace et de roche. Reliez 43 points faciles dans ce jeu de points à relier gratuit à imprimer pour enfants de 4 à 6 ans.",
+          "name": "Planète à Anneaux",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/space-ringed-planet-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-7"
         }
       },
       "body": {
         "name": "Planète annulaire",
+        "h1": "Planète à Anneaux à Relier — 43 Points, un Premier Défi Spatial",
         "tagline": "Dessinez un Monde Enveloppé d'Anneaux Brillants !",
         "description": "Reliez 43 points faciles pour révéler une belle planète annulaire flottant dans l'espace. Cette fiche imprimable gratuite aide les jeunes enfants à pratiquer l'ordre des nombres, le suivi visuel, la concentration et le contrôle stable du crayon",
         "fun_fact": "Les anneaux de Saturne sont composés d'innombrables morceaux de glace et de roche, allant de fines particules à des blocs aussi grands que des maisons.",
@@ -324,21 +359,33 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Comment résoudre le puzzle de points à relier Planète annulaire"
         }
       }
     },
     {
       "slug": "space-rover-dot-to-dot-puzzle",
       "header": {
+        "title": "Robot d'Exploration Spatiale à Relier — 59 Points, Gratuit",
+        "og": {
+          "title": "Robot d'Exploration Spatiale à Relier — 59 Points, Gratuit",
+          "description": "Un explorateur amical sur roues ! Reliez 59 points pour révéler un robot d'exploration spatiale, jeu de points à relier gratuit pour enfants de 5 à 8 ans.",
+          "image_alt": "Astromobile amical sur roues explorant un autre monde, points à relier imprimable de 59 points"
+        },
+        "meta_description": "Un explorateur amical sur roues ! Reliez 59 points pour révéler un robot d'exploration spatiale, jeu de points à relier gratuit pour enfants de 5 à 8 ans — jeux de points à relier à imprimer.",
         "json_ld": {
-          "name": "Rover spatial",
+          "description": "Les robots d'exploration spatiale sont des véhicules robotisés qui explorent des mondes comme la Lune et Mars. Reliez 59 points dans ce jeu de points à relier gratuit à imprimer pour enfants de 5 à 8 ans.",
+          "name": "Robot d'Exploration Spatiale",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/space-rover-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
         "name": "Rover spatial",
+        "h1": "Robot d'Exploration Spatiale à Relier — 59 Points, Prêt à Explorer",
         "tagline": "Un explorateur amical sur roues",
         "description": "Reliez 59 points pour révéler un rover spatial amical prêt à explorer un autre monde. Ce puzzle gratuit à imprimer aide les enfants à pratiquer l'ordre des nombres, la concentration et le contrôle du crayon",
         "fun_fact": "Les rovers spatiaux sont des véhicules robotisés qui explorent les surfaces de mondes tels que la Lune et Mars.",
@@ -501,7 +548,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Comment résoudre le puzzle de points à relier Rover spatial"
         }
       }
     }

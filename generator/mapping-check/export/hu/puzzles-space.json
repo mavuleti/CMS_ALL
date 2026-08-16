@@ -1,17 +1,40 @@
 {
-  "collection": {},
+  "collection": {
+    "header": {
+      "title": "Ingyenes Űr Pont-Pont Nyomtatható Anyagok Gyerekeknek",
+      "meta_description": "Indulj el az ingyenes űr összekötős munkalapokkal. Nyomtass ki ma egy barátságos rover rejtvényt, több rakétával, bolygóval és kozmikus kalanddal hamarosan.",
+      "og": {
+        "title": "Ingyenes Űr Pont-Pont Nyomtatható Anyagok Gyerekeknek",
+        "description": "Indulj el az ingyenes űr összekötős munkalapokkal. Nyomtass ki ma egy barátságos rover rejtvényt, több rakétával, bolygóval és kozmikus kalanddal hamarosan."
+      }
+    },
+    "body": {
+      "h1": "Ingyenes Űr Pont-Pont Nyomtatható Anyagok Gyerekeknek"
+    }
+  },
   "puzzles": [
     {
       "slug": "crescent-moon-dot-to-dot-puzzle",
       "header": {
+        "title": "Holdsarló Pontösszekötő — 60 Pont, Ingyenes Nyomtatható",
+        "og": {
+          "title": "Holdsarló Pontösszekötő — 60 Pont, Ingyenes Nyomtatható",
+          "description": "Rajzolj egy ragyogó szeletet az éjszakai égboltból! Kösd össze a 60 könnyű pontot, hogy felfedj egy holdsarlót, ingyenes pontösszekötő feladat 4–7 éves gyerekeknek.",
+          "image_alt": "Izzó holdsarló éjszakai égbolton, 60 pontos nyomtatható pontösszekötő rejtvény"
+        },
+        "meta_description": "Rajzolj egy ragyogó szeletet az éjszakai égboltból! Kösd össze a 60 könnyű pontot, hogy felfedj egy holdsarlót, ingyenes pontösszekötő feladat 4–7 éves gyerekeknek — pontról pontra színező ingyen.",
         "json_ld": {
-          "name": "Félhold",
+          "description": "A holdsarló a napfényt visszaverve ragyog. Kösd össze a 60 könnyű pontot ebben az ingyenes, nyomtatható pontösszekötő feladatban 4–7 éves gyerekeknek.",
+          "name": "Holdsarló",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/space-crescent-moon-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
         "name": "Félhold",
+        "h1": "Holdsarló Pontösszekötő — 60 Könnyű Pont az Éjszakai Égen",
         "tagline": "Kövesd a ragyogó éjszakai ég egy szeletét!",
         "description": "Kösd össze a 60 könnyű pontot, hogy felfedd a gyönyörű félholdat, amely ragyog az éjszakai égbolton. Ez a nyomtatható ingyenes anyag segít a gyerekeknek a számok sorrendjének, a vizuális követésnek, a koncentrációnak és a sima ceruzakezelésnek a gyakorlásában",
         "fun_fact": "Félhold akkor jelenik meg, amikor a napfény csak a Hold egy vékony, ívelt részét világítja meg, amit a Földről látunk.",
@@ -174,21 +197,33 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Hogyan oldd meg a Félhold pontösszekötő rejtvényt"
         }
       }
     },
     {
       "slug": "ringed-planet-dot-to-dot-puzzle",
       "header": {
+        "title": "Gyűrűs Bolygó Pontösszekötő — 43 Pont, Ingyenes Nyomtatható",
+        "og": {
+          "title": "Gyűrűs Bolygó Pontösszekötő — 43 Pont, Ingyenes Nyomtatható",
+          "description": "Rajzolj egy ragyogó gyűrűkkel körülvett világot! Kösd össze a 43 könnyű pontot, hogy felfedj egy gyűrűs bolygót, ingyenes pontösszekötő feladat 4–6 éves gyerekeknek.",
+          "image_alt": "Gyűrűs bolygó, amely az űrben lebeg, 43 pontos nyomtatható pontösszekötő rejtvény kisgyerekeknek"
+        },
+        "meta_description": "Rajzolj egy ragyogó gyűrűkkel körülvett világot! Kösd össze a 43 könnyű pontot, hogy felfedj egy gyűrűs bolygót, ingyenes pontösszekötő feladat 4–6 éves gyerekeknek — pontösszekötő játékok gyerekeknek.",
         "json_ld": {
+          "description": "A Szaturnusz gyűrűi számtalan jég- és kőzetdarabból állnak. Kösd össze a 43 könnyű pontot ebben az ingyenes, nyomtatható pontösszekötő feladatban 4–6 éves gyerekeknek.",
           "name": "Gyűrűs Bolygó",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/space-ringed-planet-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-7"
         }
       },
       "body": {
         "name": "Gyűrűs Bolygó",
+        "h1": "Gyűrűs Bolygó Pontösszekötő — 43 Könnyű Pont, az Első Űrkaland",
         "tagline": "Rajzolj egy világot ragyogó gyűrűkben!",
         "description": "Köss össze 43 egyszerű pontot, hogy felfedd a gyönyörű gyűrűs bolygót, ami az űrben lebeg. Ez a nyomtatható ingyenes anyag segít a fiatalabb gyerekeknek a számok sorrendjének, a vizuális követésnek, a koncentrációnak és a stabil ceruzakezelésnek a gyakorlásában",
         "fun_fact": "Szaturnusz gyűrűi számtalan jég- és kődarabból állnak, amelyek a legkisebb szemcséktől kezdve a házak méretű tömbökig terjednek.",
@@ -324,21 +359,33 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Hogyan oldd meg a Gyűrűs Bolygó pontösszekötő rejtvényt"
         }
       }
     },
     {
       "slug": "space-rover-dot-to-dot-puzzle",
       "header": {
+        "title": "Űrjáró Pontösszekötő — 59 Pont, Ingyenes Nyomtatható PDF",
+        "og": {
+          "title": "Űrjáró Pontösszekötő — 59 Pont, Ingyenes Nyomtatható PDF",
+          "description": "Egy barátságos felfedező kerekeken! Kösd össze az 59 pontot, hogy felfedj egy űrjárót, ingyenes pontösszekötő feladat 5–8 éves gyerekeknek.",
+          "image_alt": "Barátságos űrjármű kerekeken, amely egy másik világot fedez fel, 59 pontos nyomtatható pontösszekötő rejtvény"
+        },
+        "meta_description": "Egy barátságos felfedező kerekeken! Kösd össze az 59 pontot, hogy felfedj egy űrjárót, ingyenes pontösszekötő feladat 5–8 éves gyerekeknek — pontösszekötő feladatok nyomtatható pdf.",
         "json_ld": {
+          "description": "Az űrjárók robotjárművek, amelyek olyan világokat fedeznek fel, mint a Hold és a Mars. Kösd össze az 59 pontot ebben az ingyenes, nyomtatható pontösszekötő feladatban 5–8 éves gyerekeknek.",
           "name": "Űrjáró",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/space-rover-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
         "name": "Űrjáró",
+        "h1": "Űrjáró Pontösszekötő — 59 Pont, Készen a Felfedezésre",
         "tagline": "Barátságos Felfedező Kerekeken",
         "description": "Kösd össze az 59 pontot, hogy felfedd a barátságos űrszondát, amely készen áll egy másik világ felfedezésére. Ez a nyomtatható ingyenes rejtvény segít a gyerekeknek a számok sorrendjének, a koncentrációnak és a ceruza kezelésének gyakorlásában",
         "fun_fact": "Az űrszondák robot járművek, amelyek olyan világok felszínét fedezik fel, mint a Hold és a Mars.",
@@ -501,7 +548,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Hogyan oldd meg a Űrjáró pontösszekötő rejtvényt"
         }
       }
     }

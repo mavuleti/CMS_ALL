@@ -1,5 +1,17 @@
 {
-  "collection": {},
+  "collection": {
+    "header": {
+      "title": "แบบฝึกหัดลากเส้นต่อจุดรูปสวนสำหรับเด็ก",
+      "meta_description": "มาปลูกต้นไม้กันเถอะ! เชื่อมจุดต่างๆ เพื่อค้นพบถุงมือทำสวน เกรียง และอุปกรณ์ทำสวนแสนสะดวก แบบฝึกหัดทั้งหมดสามารถดาวน์โหลดและพิมพ์ได้ฟรี ไม่จำเป็นต้องสมัครบัญชีผู้ใช้",
+      "og": {
+        "title": "แบบฝึกหัดลากเส้นต่อจุดรูปสวนสำหรับเด็ก",
+        "description": "มาปลูกต้นไม้กันเถอะ! เชื่อมจุดต่างๆ เพื่อค้นพบถุงมือทำสวน เกรียง และอุปกรณ์ทำสวนแสนสะดวก แบบฝึกหัดทั้งหมดสามารถดาวน์โหลดและพิมพ์ได้ฟรี ไม่จำเป็นต้องสมัครบัญชีผู้ใช้"
+      }
+    },
+    "body": {
+      "h1": "แบบฝึกหัดลากเส้นต่อจุดรูปสวนสำหรับเด็ก"
+    }
+  },
   "puzzles": [
     {
       "slug": "garden-gloves-dot-to-dot-puzzle",
@@ -15,7 +27,9 @@
           "description": "ถุงมือทำสวนปกป้องมือเล็ก ๆ จากดินและพืชที่มีหนาม เชื่อมต่อ 54 จุดในแผ่นงานพิมพ์ฟรีนี้สำหรับเด็กอายุ 4–8 ปี",
           "name": "ถุงมือทำสวน",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/garden-gloves-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -156,7 +170,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "วิธีแก้ปริศนาลากเส้นต่อจุด ถุงมือทำสวน"
         }
       }
     },
@@ -174,7 +189,9 @@
           "description": "เริ่มต้นการฝึกเขียนด้วยดินสอด้วยจอบทำสวน 39 จุด PDF จุดต่อจุดฟรีนี้ให้เด็กอายุ 4–7 ปีมีกิจกรรมสั้น ๆ ที่ทำได้",
           "name": "พลั่วทำสวน",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/garden-trowel-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-7"
         }
       },
       "body": {
@@ -288,7 +305,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "วิธีแก้ปริศนาลากเส้นต่อจุด พลั่วทำสวน"
         }
       }
     },
@@ -306,7 +324,9 @@
           "description": "รถเข็นดินถูกประดิษฐ์ขึ้นในประเทศจีนโบราณเมื่อกว่า 2,000 ปีที่แล้ว สร้างหนึ่งคันจาก 85 จุดด้วย PDF พิมพ์ได้ฟรีสำหรับอายุ 5–9 ปี",
           "name": "สนามเด็กเล่นรถเข็น",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/wheelbarrow-playground-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
@@ -447,7 +467,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "วิธีแก้ปริศนาลากเส้นต่อจุด สนามเด็กเล่นรถเข็น"
         }
       }
     }

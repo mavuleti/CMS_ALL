@@ -1,5 +1,17 @@
 {
-  "collection": {},
+  "collection": {
+    "header": {
+      "title": "Planșe imprimabile de grădină Dot-to-Dot pentru copii",
+      "meta_description": "Crește! Conectează punctele pentru a descoperi mănuși de grădinărit, mistrii și unelte de grădinărit practice. Toate fișele de lucru pot fi descărcate și imprimate gratuit - nu este nevoie de cont.",
+      "og": {
+        "title": "Planșe imprimabile de grădină Dot-to-Dot pentru copii",
+        "description": "Crește! Conectează punctele pentru a descoperi mănuși de grădinărit, mistrii și unelte de grădinărit practice. Toate fișele de lucru pot fi descărcate și imprimate gratuit - nu este nevoie de cont."
+      }
+    },
+    "body": {
+      "h1": "Planșe imprimabile de grădină Dot-to-Dot pentru copii"
+    }
+  },
   "puzzles": [
     {
       "slug": "garden-gloves-dot-to-dot-puzzle",
@@ -15,7 +27,9 @@
           "description": "Această fișă cu 54 de puncte desenează o pereche de mănuși de grădină, ideală pentru copii de 4-8 ani care încep exercițiile de numărare și control al creionului. Perfectă pentru activitățile de primăvară la grădiniță sau acasă — imprimă PDF-ul gratuit și leagă punctele. Suficient de simplă pentru primii pași.",
           "name": "Mănuși de grădină",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/garden-gloves-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -156,7 +170,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Cum se rezolvă puzzle-ul unește punctele Mănuși de grădină"
         }
       }
     },
@@ -174,7 +189,9 @@
           "description": "Aprofundează practica timpurie cu un exercițiu de 39 de puncte cu lopata de grădină. PDF-ul gratuit dot to dot oferă copiilor cu vârste între 4-7 ani o activitate scurtă și realizabilă.",
           "name": "Mistrie de grădină",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/garden-trowel-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-7"
         }
       },
       "body": {
@@ -288,7 +305,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Cum se rezolvă puzzle-ul unește punctele Mistrie de grădină"
         }
       }
     },
@@ -306,7 +324,9 @@
           "description": "Leagă 85 de puncte pentru a desena o roabă solidă, o fișă gratuită potrivită copiilor de 5-9 ani pregătiți pentru o provocare mai lungă. Roabele antice chineze puteau transporta chiar și soldați — imprimă PDF-ul și începe numărătoarea, fără cont necesar. Se tipărește la scară 100%.",
           "name": "Loc de joacă cu roabă",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/wheelbarrow-playground-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
@@ -447,7 +467,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Cum se rezolvă puzzle-ul unește punctele Loc de joacă cu roabă"
         }
       }
     }

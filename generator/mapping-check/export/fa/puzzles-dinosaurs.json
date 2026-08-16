@@ -1,5 +1,17 @@
 {
-  "collection": {},
+  "collection": {
+    "header": {
+      "title": "دایناسورهای نقطه به نقطه قابل چاپ برای کودکان",
+      "meta_description": "نقطه‌ها را به هم وصل کنید تا دایناسورهای مورد علاقه‌تان را بشناسید! دانلود و چاپ همه برگه‌های تمرین رایگان است - نیازی به حساب کاربری نیست. مناسب برای کودکان ۴ تا ۱۰ ساله، پیش‌دبستانی، مهدکودک و کلاس درس.",
+      "og": {
+        "title": "دایناسورهای نقطه به نقطه قابل چاپ برای کودکان",
+        "description": "نقطه‌ها را به هم وصل کنید تا دایناسورهای مورد علاقه‌تان را بشناسید! دانلود و چاپ همه برگه‌های تمرین رایگان است - نیازی به حساب کاربری نیست. مناسب برای کودکان ۴ تا ۱۰ ساله، پیش‌دبستانی، مهدکودک و کلاس درس."
+      }
+    },
+    "body": {
+      "h1": "دایناسورهای نقطه به نقطه قابل چاپ برای کودکان"
+    }
+  },
   "puzzles": [
     {
       "slug": "trex-61-dot-to-dot-puzzle",
@@ -15,7 +27,9 @@
           "description": "تی‌رکس در طول زندگی خود دندان‌های از دست رفته را جایگزین می‌کرد. در این فایل PDF رایگان و قابل چاپ برای کودکان ۶ تا ۹ ساله، از مجموعه ۲۰۲۶ ما، ۶۱ نقطه را به هم وصل کنید.",
           "name": "چالش ۶۱ نقطه‌ای تی-رکس",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/trex-61-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "6-9"
         }
       },
       "body": {
@@ -210,7 +224,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "چگونه پازل نقطه به نقطه چالش ۶۱ نقطه‌ای تی-رکس را حل کنیم"
         }
       }
     },
@@ -228,7 +243,9 @@
           "description": "شترمرغ‌ها می‌توانند تا ۴۵ مایل در ساعت بدوند. یکی از آنها را در ۵۵ نقطه در صفحات نقطه به نقطه رایگان ما برای کودکان ۵ تا ۸ ساله، به همراه یک فایل PDF قابل چاپ آماده برای استفاده، آشکار کنید.",
           "name": "شترمرغ",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/ostriches-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-8"
         }
       },
       "body": {
@@ -396,7 +413,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "چگونه پازل نقطه به نقطه شترمرغ را حل کنیم"
         }
       }
     },
@@ -414,7 +432,9 @@
           "description": "برونتوسوروس به معنی مارمولک رعد و برق است. با استفاده از این برگه نقطه به نقطه قابل چاپ رایگان برای کودکان ۴ تا ۷ ساله، گردن و دم بلند آن را روی ۵۰ نقطه بکشید.",
           "name": "برونتوسوروس",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/brontosaurus-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-7"
         }
       },
       "body": {
@@ -582,7 +602,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "چگونه پازل نقطه به نقطه برونتوسوروس را حل کنیم"
         }
       }
     },
@@ -600,7 +621,9 @@
           "description": "تریسراتوپس‌ها سه شاخ و یک چین استخوانی پهن داشتند. با این کاربرگ نقطه به نقطه رایگان برای مهدکودک و کلاس اول، ۷۰ نقطه را به هم وصل کنید.",
           "name": "تریسراتوپس",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/triceratops-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "6-9"
         }
       },
       "body": {
@@ -768,7 +791,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "چگونه پازل نقطه به نقطه تریسراتوپس را حل کنیم"
         }
       }
     },
@@ -786,7 +810,9 @@
           "description": "ولوسیراپتورهای واقعی به اندازه بوقلمون و پردار بودند. با این طرح نقطه به نقطه، یکی از هر ۵۴ نقطه را آشکار کنید، قابل چاپ برای کودکان ۵ تا ۸ ساله.",
           "name": "ولوسیراپتور",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/velociraptor-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "6-9"
         }
       },
       "body": {
@@ -954,7 +980,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "چگونه پازل نقطه به نقطه ولوسیراپتور را حل کنیم"
         }
       }
     },
@@ -972,7 +999,9 @@
           "description": "استگوسوروس را از صفحات الماس‌شکلش تا دم میخ‌دارش با ۵۲ نقطه رسم کنید. برگه نقطه به نقطه قابل چاپ رایگان را برای کودکان ۴ تا ۷ ساله تهیه کنید.",
           "name": "استگوزاروس",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/stegosaurus-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-7"
         }
       },
       "body": {
@@ -1140,7 +1169,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "چگونه پازل نقطه به نقطه استگوزاروس را حل کنیم"
         }
       }
     },
@@ -1158,7 +1188,9 @@
           "description": "اسپینوسوروس از تی-رکس بلندتر بود و بادبانی غول‌پیکر داشت. آن را در ۷۴ نقطه در این فایل PDF قابل چاپ نقطه به نقطه رایگان برای پایه‌های اول تا دوم آشکار کنید.",
           "name": "اسپینوسوروس",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/spinosaurus-74-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "6-10"
         }
       },
       "body": {
@@ -1326,7 +1358,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "چگونه پازل نقطه به نقطه اسپینوسوروس را حل کنیم"
         }
       }
     },
@@ -1344,7 +1377,9 @@
           "description": "براکیوسوروس سر کوچک خود را روی گردنی بلند حمل می‌کرد. در این پازل که برای کودکان ۵ تا ۹ ساله طراحی شده است، ۳۸ نقطه را به هم وصل کنید تا این غول ژوراسیک را پیدا کنید.",
           "name": "براکیوسوروس",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "dummy-brachiosaurus",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
@@ -1485,7 +1520,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "چگونه پازل نقطه به نقطه براکیوسوروس را حل کنیم"
         }
       }
     },
@@ -1503,7 +1539,9 @@
           "description": "حتی آنکیلوسوروس هم روی پلک‌هایش زره استخوانی داشت. بدن محافظت‌شده و دم چماق‌دار آن را در ۳۲ نقطه در یک پازل برای کودکان ۵ تا ۸ ساله نشان دهید.",
           "name": "آنکیلوسوروس",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "dummy-ankylosaurus",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-8"
         }
       },
       "body": {
@@ -1644,7 +1682,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "چگونه پازل نقطه به نقطه آنکیلوسوروس را حل کنیم"
         }
       }
     },
@@ -1662,7 +1701,9 @@
           "description": "پتروداکتیل یک پتروسور پرنده بود، نه دایناسور. با این فایل PDF رایگان و قابل چاپ نقطه به نقطه برای کودکان ۶ تا ۹ ساله، ۶۷ نقطه را به هم وصل کنید.",
           "name": "پتروداکتیل",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/pterodactyl-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "6-9"
         }
       },
       "body": {
@@ -1830,7 +1871,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "چگونه پازل نقطه به نقطه پتروداکتیل را حل کنیم"
         }
       }
     },
@@ -1848,7 +1890,9 @@
           "description": "آلوسوروس مدت‌ها قبل از ظهور تی‌رکس، در دوران ژوراسیک حکومت می‌کرد. در این پازل که برای کودکان ۶ تا ۱۰ ساله طراحی شده است، ۴۲ نقطه را در اطراف این شکارچی قدرتمند دنبال کنید.",
           "name": "آلوزاروس",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "dummy-allosaurus",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "6-10"
         }
       },
       "body": {
@@ -2016,7 +2060,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "چگونه پازل نقطه به نقطه آلوزاروس را حل کنیم"
         }
       }
     }

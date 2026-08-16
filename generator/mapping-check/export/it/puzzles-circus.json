@@ -1,17 +1,40 @@
 {
-  "collection": {},
+  "collection": {
+    "header": {
+      "title": "Stampabili Circus Dot to Dot per bambini",
+      "meta_description": "Avvicinati per stampabili gratuiti di circus dot to dot con un amichevole orso direttore e un tendone a strisce. Scarica e stampa entrambe le schede PDF per contare e praticare con la matita.",
+      "og": {
+        "title": "Stampabili Circus Dot to Dot per bambini",
+        "description": "Avvicinati per stampabili gratuiti di circus dot to dot con un amichevole orso direttore e un tendone a strisce. Scarica e stampa entrambe le schede PDF per contare e praticare con la matita."
+      }
+    },
+    "body": {
+      "h1": "Stampabili Circus Dot to Dot per bambini"
+    }
+  },
   "puzzles": [
     {
       "slug": "circus-ringmaster-bear-dot-to-dot-puzzle",
       "header": {
+        "title": "Orso Direttore di Circo Unisci i Puntini — 74 Punti Gratis",
+        "og": {
+          "title": "Orso Direttore di Circo Unisci i Puntini — 74 Punti Gratis",
+          "description": "Incontra l'orso che guida il grande spettacolo! Unisci 74 punti per scoprire un simpatico direttore di circo, un disegno gratuito da stampare per bambini dai 6 ai 9 anni.",
+          "image_alt": "Orso direttore di circo con cilindro e giacca, unisci i puntini da stampare da 74 puntini"
+        },
+        "meta_description": "Incontra l'orso che guida il grande spettacolo! Unisci 74 punti per scoprire un simpatico direttore di circo, un disegno gratuito da stampare per bambini dai 6 ai 9 anni — Unisci i puntini per bambini scuola primaria.",
         "json_ld": {
-          "name": "Orso Direttore del Circo",
+          "description": "Il direttore di circo presenta gli artisti e guida lo spettacolo. Unisci 74 punti in questo disegno gratuito da stampare per bambini dai 6 ai 9 anni.",
+          "name": "Orso Direttore di Circo",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/circus-ringmaster-bear-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
         "name": "Orso Direttore del Circo",
+        "h1": "Orso Direttore di Circo Unisci i Puntini — 74 Punti di Divertimento",
         "tagline": "Incontra l'Orso Che Gestisce il Grande Spettacolo!",
         "description": "Collega 74 punti per rivelare un orso amichevole vestito da direttore del circo. Questo stampabile intermedio aiuta i bambini a praticare la sequenza dei numeri, la concentrazione, il tracciamento visivo e il controllo attento della matita",
         "fun_fact": "Un direttore del circo presenta gli artisti e guida il pubblico da un atto all'altro.",
@@ -174,21 +197,33 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Come risolvere il puzzle unisci i puntini Orso Direttore del Circo"
         }
       }
     },
     {
       "slug": "circus-tent-dot-to-dot-puzzle",
       "header": {
+        "title": "Tenda del Circo Unisci i Puntini — 59 Punti, Stampa Gratis",
+        "og": {
+          "title": "Tenda del Circo Unisci i Puntini — 59 Punti, Stampa Gratis",
+          "description": "Fai il tuo ingresso nel tendone! Unisci 59 punti per scoprire un'allegra tenda da circo a righe, un disegno gratuito da stampare per bambini dai 5 agli 8 anni.",
+          "image_alt": "Tendone da circo a righe con una bandiera in cima, unisci i puntini da stampare da 59 puntini"
+        },
+        "meta_description": "Fai il tuo ingresso nel tendone! Unisci 59 punti per scoprire un'allegra tenda da circo a righe, un disegno gratuito da stampare per bambini dai 5 agli 8 anni — Unisci i puntini da stampare PDF.",
         "json_ld": {
+          "description": "Il tendone è la tenda più grande dello spettacolo circense. Unisci 59 punti in questo disegno gratuito da stampare per bambini dai 5 agli 8 anni.",
           "name": "Tenda del Circo",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/circus-tent-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
         "name": "Tenda del Circo",
+        "h1": "Tenda del Circo Unisci i Puntini — 59 Punti per una Grande Avventura",
         "tagline": "Avvicinati a un'avventura sotto il tendone!",
         "description": "Collega 59 punti per rivelare una tenda da circo a strisce allegra pronta per lo spettacolo. Questo stampabile facile aiuta i bambini a praticare il conteggio in ordine, il tracciamento visivo, la concentrazione e il controllo costante della matita",
         "fun_fact": "La tenda principale di un circo è spesso chiamata tendone perché è la tenda più grande dello spettacolo.",
@@ -351,7 +386,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Come risolvere il puzzle unisci i puntini Tenda del Circo"
         }
       }
     }

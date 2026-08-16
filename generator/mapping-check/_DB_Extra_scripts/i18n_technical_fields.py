@@ -59,11 +59,32 @@ TECHNICAL_NEW_KEYS = frozenset({
     "header.manifest",
     "header.breadcrumb_json_ld.items[].path",
     "header.breadcrumb_json_ld.items[].position",  # numeric ("1", "2", ...)
+    "body.related_links[].href",  # internal site path, identical across locales
 
     # Constants / brand name, identical in every locale by design.
     "header.twitter.card",
     "header.og.site_name",
     "header.json_ld.website.name",
+
+    # home.json's body.downloadButton block — verified 2026-08-16: this is an
+    # orphaned duplicate of common.json's (English-only, un-translated by
+    # design) downloadButton namespace. i18n/request.ts always merges
+    # localizedHome.body on TOP of the correct English common.json base, so
+    # any translated copy here silently overrides the working English
+    # fallback. Found broken in prod for 15 locales: translators translated
+    # the ICU variable NAME itself (e.g. Thai "{ขนาด}", German "{Größe}")
+    # instead of leaving it as the "{size}" the code actually passes
+    # (components/DownloadButton.tsx: t("alternateLink", { size: ... })),
+    # crashing next-intl's formatter on every render. Forced to English
+    # verbatim, not translated, until this duplicate block is removed
+    # entirely from home.json in favor of common.json's copy.
+    "body.downloadButton.label",
+    "body.downloadButton.usage",
+    "body.downloadButton.paperNote",
+    "body.downloadButton.paperLetter",
+    "body.downloadButton.paperA4",
+    "body.downloadButton.alternateLink",
+    "body.downloadButton.downloadSize",
 
     # Out-of-scope shell fields (blog) — informational rows, never real
     # per-language content to begin with.

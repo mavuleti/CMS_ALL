@@ -1,17 +1,40 @@
 {
-  "collection": {},
+  "collection": {
+    "header": {
+      "title": "Çocuklar için Sirk Nokta Bağlama Yazdırmaları",
+      "meta_description": "Ücretsiz sirk nokta bağlama yazdırmaları için hemen gelin, dost canlısı bir ringmaster ayısı ve çizgili büyük çadırı içeren. Sayma ve kalem pratiği için her iki PDF çalışma sayfasını indirin ve yazdırın.",
+      "og": {
+        "title": "Çocuklar için Sirk Nokta Bağlama Yazdırmaları",
+        "description": "Ücretsiz sirk nokta bağlama yazdırmaları için hemen gelin, dost canlısı bir ringmaster ayısı ve çizgili büyük çadırı içeren. Sayma ve kalem pratiği için her iki PDF çalışma sayfasını indirin ve yazdırın."
+      }
+    },
+    "body": {
+      "h1": "Çocuklar için Sirk Nokta Bağlama Yazdırmaları"
+    }
+  },
   "puzzles": [
     {
       "slug": "circus-ringmaster-bear-dot-to-dot-puzzle",
       "header": {
+        "title": "Sirk Yöneticisi Ayı Nokta Birleştirme — 74 Nokta, Ücretsiz",
+        "og": {
+          "title": "Sirk Yöneticisi Ayı Nokta Birleştirme — 74 Nokta, Ücretsiz",
+          "description": "Büyük gösteriyi yöneten dostane ayıyla tanışın! 74 noktayı birleştirerek bir sirk yöneticisini ortaya çıkarın, 6-9 yaş için ücretsiz çalışma sayfası.",
+          "image_alt": "Uzun şapkalı ve paltolu sirk yöneticisi ayı, 74 noktalı yazdırılabilir bulmaca"
+        },
+        "meta_description": "Büyük gösteriyi yöneten dostane ayıyla tanışın! 74 noktayı birleştirerek bir sirk yöneticisini ortaya çıkarın, 6-9 yaş için ücretsiz çalışma sayfası — nokta birleştirme çalışma sayfaları.",
         "json_ld": {
-          "name": "Sirkus Şefi Ayı",
+          "description": "Sirk yöneticisi, gösteri sanatçılarını tanıtır ve gösteriyi yönetir. Bu ücretsiz yazdırılabilir nokta birleştirme bulmacasında 74 noktayı birleştirin, 6-9 yaş çocuklar için.",
+          "name": "Sirk Yöneticisi Ayı",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/circus-ringmaster-bear-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
         "name": "Sirkus Şefi Ayı",
+        "h1": "Sirk Yöneticisi Ayı Nokta Birleştirme — 74 Noktalık Sirk Eğlencesi",
         "tagline": "Büyük Gösteriyi Yöneten Ayı ile Tanışın!",
         "description": "Dost canlısı bir ayıyı sirk şefi kıyafetiyle ortaya çıkarmak için 74 noktayı birleştirin. Bu orta seviye yazdırılabilir etkinlik, çocukların sayı sıralama, konsantrasyon, görsel takip ve dikkatli kalem kontrolü pratiği yapmalarına yardımcı olur",
         "fun_fact": "Bir sirk şefi, sanatçıları tanıtır ve izleyiciyi bir gösteriden diğerine yönlendirir.",
@@ -174,21 +197,33 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Sirkus Şefi Ayı noktaları birleştirme bulmacası nasıl çözülür"
         }
       }
     },
     {
       "slug": "circus-tent-dot-to-dot-puzzle",
       "header": {
+        "title": "Sirk Çadırı Nokta Birleştirme — 59 Nokta, Ücretsiz Yazdır",
+        "og": {
+          "title": "Sirk Çadırı Nokta Birleştirme — 59 Nokta, Ücretsiz Yazdır",
+          "description": "Haydi büyük gösteriye çıkalım! 59 noktayı birleştirerek neşeli çizgili bir sirk çadırı ortaya çıkarın, 5-8 yaş için ücretsiz çalışma sayfası.",
+          "image_alt": "Üzerinde bayrak olan çizgili sirk çadırı, 59 noktalı yazdırılabilir bulmaca"
+        },
+        "meta_description": "Haydi büyük gösteriye çıkalım! 59 noktayı birleştirerek neşeli çizgili bir sirk çadırı ortaya çıkarın, 5-8 yaş için ücretsiz çalışma sayfası — nokta birleştirme oyunu.",
         "json_ld": {
+          "description": "Sirk çadırı, gösterinin yapıldığı en büyük çadırdır. Bu ücretsiz yazdırılabilir nokta birleştirme bulmacasında 59 noktayı birleştirin, 5-8 yaş çocuklar için.",
           "name": "Sirk Çadırı",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/circus-tent-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
         "name": "Sirk Çadırı",
+        "h1": "Sirk Çadırı Nokta Birleştirme — Büyük Gösteri İçin 59 Nokta",
         "tagline": "Büyük Çadır Macerasına Doğru Adım Atın!",
         "description": "59 noktayı birleştirerek gösteriye hazır neşeli çizgili sirk çadırını ortaya çıkarın. Bu kolay yazdırılabilir etkinlik, çocukların sıralı sayma, görsel takip, konsantrasyon ve sabit kalem kontrolü pratiği yapmalarına yardımcı olur",
         "fun_fact": "Bir sirkın ana performans çadırına genellikle büyük çadır denir çünkü gösterideki en büyük çadırdır.",
@@ -351,7 +386,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Sirk Çadırı noktaları birleştirme bulmacası nasıl çözülür"
         }
       }
     }

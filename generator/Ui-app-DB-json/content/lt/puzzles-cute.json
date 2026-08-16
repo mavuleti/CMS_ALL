@@ -1,5 +1,21 @@
 {
-  "collection": {},
+  "collection": {
+    "header": {
+      "title": "Mieli taškeliai spausdinami vaikams",
+      "meta_description": "Pasiruoškite didžiausiam žavingumui! Sujunkite taškus, kad atskleistumėte žavingus šuniukus, mažus automobilius ir daugiau žavingų draugų. Visus darbalapius galima nemokamai atsisiųsti ir atsispausdinti – paskyros nereikia.",
+      "og": {
+        "title": "Mieli taškeliai spausdinami vaikams",
+        "description": "Pasiruoškite didžiausiam žavingumui! Sujunkite taškus, kad atskleistumėte žavingus šuniukus, mažus automobilius ir daugiau žavingų draugų. Visus darbalapius galima nemokamai atsisiųsti ir atsispausdinti – paskyros nereikia."
+      },
+      "json_ld": {
+        "description": "Pasiruoškite didžiausiam žavingumui! Sujunkite taškus, kad atskleistumėte žavingus šuniukus, mažus automobilius ir daugiau žavingų draugų. Visus darbalapius galima nemokamai atsisiųsti ir atsispausdinti – paskyros nereikia."
+      }
+    },
+    "body": {
+      "h1": "Mieli taškeliai spausdinami vaikams",
+      "description": "Pasiruoškite didžiausiam žavingumui! Sujunkite taškus, kad atskleistumėte žavingus šuniukus, mažus automobilius ir daugiau žavingų draugų. Visus darbalapius galima nemokamai atsisiųsti ir atsispausdinti – paskyros nereikia."
+    }
+  },
   "puzzles": [
     {
       "slug": "cute-puppy-dot-to-dot-puzzle",
@@ -15,8 +31,8 @@
           "description": "Naujagimiai šuniukai apie dvi savaites nemato ir negirdi. Atsklekite šį smalsų šuniuką per 70 taškų su nemokamu spausdinamu PDF, skirtu 5–9 metų vaikams.",
           "name": "Mielas šuniukas",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing",
           "image": "/images/cute-puppy-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
           "age_range": "5-9"
         }
       },
@@ -144,7 +160,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Kaip išspręsti „Sujunk taškus\" galvosūkį Mielas šuniukas"
         }
       }
     },
@@ -162,7 +179,9 @@
           "description": "Važiuokite per 55 numeruotus taškus, kad sukurtumėte linksmas mažas automobilis. Nemokamas spausdinamas PDF siūlo draugišką sekimo veiklą vaikams nuo 4 iki 8 metų.",
           "name": "Mielas mažas automobilis",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/cute-little-car-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -269,7 +288,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Kaip išspręsti „Sujunk taškus\" galvosūkį Mielas mažas automobilis"
         }
       }
     },
@@ -287,7 +307,9 @@
           "description": "Liūto kūdikiai miaukia prieš išmokdami riaumoti. Suformuokite jauną liūtą per 74 taškus su šiuo nemokamu spausdinamu darbo lapeliu vaikams nuo 5 iki 9 metų.",
           "name": "Mielas liūtas",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/cute-lion-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
@@ -414,7 +436,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Kaip išspręsti „Sujunk taškus\" galvosūkį Mielas liūtas"
         }
       }
     },
@@ -432,7 +455,9 @@
           "description": "Drugeliai ragauja su jutikliais ant savo kojų. Sujunkite 67 taškų, kad išskleistumėte šio drugelio raštuotus sparnus nemokamame spausdinamame PDF, skirtame 5–9 metų vaikams.",
           "name": "Mielas drugelis",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/cute-butterfly-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
@@ -539,7 +564,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Kaip išspręsti „Sujunk taškus\" galvosūkį Mielas drugelis"
         }
       }
     },
@@ -557,7 +583,9 @@
           "description": "Skaičiuokite atgal nuo taško 1 ir sukurkite raketą per 66 taškus. Atsisiųskite nemokamą PDF su kosmoso tema jauniesiems tyrinėtojams nuo 4 iki 8 metų.",
           "name": "Mielas raketinis laivas",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/cute-rocket-ship-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -664,7 +692,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Kaip išspręsti „Sujunk taškus\" galvosūkį Mielas raketinis laivas"
         }
       }
     },
@@ -682,7 +711,9 @@
           "description": "Kūdikio jūros vėžliai seka ryškiausią horizontą link vandenyno. Padedkite šiam mažam tyrinėtojui pereiti per 65 taškus nemokamame PDF, skirtame 4–8 metų vaikams.",
           "name": "Mielas vėžliukas",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/cute-baby-turtle-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -789,7 +820,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Kaip išspręsti „Sujunk taškus\" galvosūkį Mielas vėžliukas"
         }
       }
     },
@@ -807,7 +839,9 @@
           "description": "Fiksuoti akys padeda paaiškinti, kodėl pelėdos taip toli pasuka galvas. Atsklekite plačiomis akimis pelėdą per 65 taškus su šiuo nemokamu spausdinamu variantu, skirtu 4–8 metų vaikams.",
           "name": "Mielas pelėda",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/cute-owl-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -914,7 +948,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Kaip išspręsti „Sujunk taškus\" galvosūkį Mielas pelėda"
         }
       }
     },
@@ -932,7 +967,9 @@
           "description": "Krabų kojos yra pritaikytos greitam šoniniam judėjimui. Bėkite per 72 taškus, kad užbaigtumėte šį linksmą krabą PDF vaikams nuo 5 iki 9 metų.",
           "name": "Linksmas krabas",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/cute-crab-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
@@ -1039,7 +1076,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Kaip išspręsti „Sujunk taškus\" galvosūkį Linksmas krabas"
         }
       }
     },
@@ -1057,7 +1095,9 @@
           "description": "Kūdikiai drambliai kartais čiulpia savo snukius, kad jaustųsi patogiai. Susipažinkite su šiuo švelniu jaunuoliu 50 taškų su nemokamu spausdinamu PDF, skirtu 4–8 metų vaikams.",
           "name": "Mielas drambliukas",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/cute-baby-elephant-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -1164,7 +1204,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Kaip išspręsti „Sujunk taškus\" galvosūkį Mielas drambliukas"
         }
       }
     },
@@ -1182,7 +1223,9 @@
           "description": "Blizganti suknelė ir karūna atsiranda, kai vaikai sujungia 57 karališkus taškus. Atsispausdinkite nemokamą princesės PDF failą, skirtą kūrybiškai skaičiuoti 4–8 metų amžiaus vaikams.",
           "name": "Miela Princesė",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/cute-happy-frog-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "6-10"
         }
       },
       "body": {
@@ -1289,7 +1332,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Kaip išspręsti „Sujunk taškus\" galvosūkį Miela Princesė"
         }
       }
     },
@@ -1307,7 +1351,9 @@
           "description": "Varlės iš dalies absorbuok deguonį per savo drėgną odą. Šok per 82 taškus, kad atskleistum šypsančią varle šiame nemokamame PDF vaikams nuo 6 iki 10 metų.",
           "name": "Miela Laiminga Varlė",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/cute-princess-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -1414,7 +1460,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Kaip išspręsti „Sujunk taškus\" galvosūkį Miela Laiminga Varlė"
         }
       }
     }

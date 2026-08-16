@@ -1,5 +1,17 @@
 {
-  "collection": {},
+  "collection": {
+    "header": {
+      "title": "Ispisi za djecu s točkama za igralište",
+      "meta_description": "Donesite igralište kući! Spojite točkice i otkrijte ljuljačke, tobogane i zabavu na otvorenom. Svi radni listovi mogu se besplatno preuzeti i ispisati - nije potreban račun.",
+      "og": {
+        "title": "Ispisi za djecu s točkama za igralište",
+        "description": "Donesite igralište kući! Spojite točkice i otkrijte ljuljačke, tobogane i zabavu na otvorenom. Svi radni listovi mogu se besplatno preuzeti i ispisati - nije potreban račun."
+      }
+    },
+    "body": {
+      "h1": "Ispisi za djecu s točkama za igralište"
+    }
+  },
   "puzzles": [
     {
       "slug": "spring-horse-playground-dot-to-dot-puzzle",
@@ -15,7 +27,9 @@
           "description": "Ove ljuljačke s 42 točke besplatan su predložak spoji točkice za djecu u vrtiću i nižim razredima osnovne škole od 4 do 7 godina. Ljuljačke od užeta zabavljaju djecu tisućama godina – ispišite PDF i krenite s jednom od naših najlakših stranica o igralištima za 2026. Odavde većina rješavatelja i kreće.",
           "name": "Igralište s ljuljačkama",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/playgrounds-spring-horse-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -156,7 +170,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Kako riješiti puzzle spoji točke Igralište s ljuljačkama"
         }
       }
     },
@@ -174,7 +189,9 @@
           "description": "Sa 102 točke, ovaj visoki tobogan sljedeći je korak u besplatnim predlošcima spoji točkice za djecu od 6 do 10 godina koja su prerasla početničke zagonetke. Najviši stalni tobogan na svijetu prelazi 30 metara – ispišite PDF i popnite se cijelim nizom brojeva. Pravi iskorak u duljini zagonetke.",
           "name": "Igralište s toboganom",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/playgrounds-playhouse-slide-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
@@ -342,7 +359,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Kako riješiti puzzle spoji točke Igralište s toboganom"
         }
       }
     },
@@ -360,7 +378,9 @@
           "description": "Ova klackalica s 68 točaka smještena je u sredini težine među našim spoji točkice zagonetkama, prikladna za djecu od 5 do 9 godina koja grade samopouzdanje. Na engleskom se ponekad zove i teeter-totter – ispišite besplatan PDF i uravnotežite brojeve, jednu stranu po jednu. Ravnomjerno raspoređeno za srednju razinu.",
           "name": "Igralište s klackalicom",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/playground-carousel-horse-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
@@ -528,7 +548,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Kako riješiti puzzle spoji točke Igralište s klackalicom"
         }
       }
     },
@@ -546,7 +567,9 @@
           "description": "Sa 133 točke, ovaj vlak smrti naš je najekstremniji besplatni predložak spoji točkice u setu o igralištima, namijenjen djeci od 8 do 12 godina koja žele pravi izazov. Prva petlja na vlaku smrti otvorena je u Parizu 1846. godine – ispišite PDF i provozajte se kroz cijeli niz brojeva. Uključuje pravo na hvalisanje.",
           "name": "Igralište s vlakovima smrti",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/playgrounds-dashing-car-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -714,7 +737,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Kako riješiti puzzle spoji točke Igralište s vlakovima smrti"
         }
       }
     },
@@ -732,7 +756,9 @@
           "description": "Ovaj radni list s prečkama za penjanje i 94 točke srednje je zahtjevan besplatan predložak spoji točkice za djecu od 5 do 9 godina koja uče strpljenju. Stalnica na igralištima diljem SAD-a, Velike Britanije i Kanade još od početka 1900-ih – ispišite PDF i provucite se kroz brojeve. Snaga stiska za olovku.",
           "name": "Igralište Monkey Bars",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/swing-playgrounds-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-7"
         }
       },
       "body": {
@@ -900,7 +926,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Kako riješiti puzzle spoji točke Igralište Monkey Bars"
         }
       }
     },
@@ -918,7 +945,9 @@
           "description": "Spremni za 102 točke? Penjite se i silazite s visokog klizališta u ovom detaljnom PDF izazovu za samouvjerene brojače uzrasta 6-10.",
           "name": "Klizalište za igralište",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/slide-playgrounds-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "6-10"
         }
       },
       "body": {
@@ -1086,7 +1115,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Kako riješiti puzzle spoji točke Klizalište za igralište"
         }
       }
     },
@@ -1104,7 +1134,9 @@
           "description": "Ljuljačke se ponekad nazivaju 'teeter-totters' na američkom engleskom — oba naziva opisuju isti jednostavni pokret gore-dolje koji zabavlja djecu generacijama.",
           "name": "Igrališna ljuljačka",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/seesaw-playground-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
@@ -1272,7 +1304,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Kako riješiti puzzle spoji točke Igrališna ljuljačka"
         }
       }
     },
@@ -1290,7 +1323,9 @@
           "description": "Prođite najdužu sekvencu igrališta kroz 133 zavoja. Ovaj besplatni PDF roller coastera izaziva ljubitelje zagonetki u dobi od 8 do 12 godina.",
           "name": "Igralište s roler coasterom",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/roller-coaster-playground-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "8-12"
         }
       },
       "body": {
@@ -1485,7 +1520,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Kako riješiti puzzle spoji točke Igralište s roler coasterom"
         }
       }
     },
@@ -1503,7 +1539,9 @@
           "description": "Majmunske prečke jačaju grip i koordinaciju na igralištu; ova verzija s 94 točke jača kontrolu olovke. Preuzmite besplatan PDF za uzrast 5–9.",
           "name": "Igralište s majmunskim prečkama",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/monkey-bar-playground-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
@@ -1671,7 +1709,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Kako riješiti puzzle spoji točke Igralište s majmunskim prečkama"
         }
       }
     }

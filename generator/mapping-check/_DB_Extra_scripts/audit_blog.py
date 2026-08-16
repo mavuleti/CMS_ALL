@@ -41,8 +41,9 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
-sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "tools"))
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent.parent / "tools"))
 from migrate_page_schema import migrate_blog_entry  # noqa: E402
+from value_repr import full_repr  # noqa: E402
 
 
 _MISSING = object()
@@ -64,12 +65,8 @@ def get_path(obj: Any, path: str) -> Any:
     return current
 
 
-def compact_repr(value: Any, limit: int = 500) -> str:
-    if value is _MISSING:
-        return "<absent>"
-    text = json.dumps(value, ensure_ascii=False) if not isinstance(value, str) else value
-    text = " ".join(str(text).split())
-    return text if len(text) <= limit else text[: limit - 1] + "…"
+def compact_repr(value: Any) -> str:
+    return full_repr(value, missing=_MISSING)
 
 
 # legacy_key -> list of new_key paths it feeds, per migrate_page_schema.migrate_blog_entry.
@@ -104,6 +101,7 @@ WHERE_USED_IN_PAGE = {
     "body.sections": "page.tsx lines 202-217: blog-content headings/paragraphs/tips loop over post.sections",
     "body.related_links": "page.tsx lines 241-254: blog-related-grid loop over post.relatedLinks",
     "body.hero_image": "page.tsx line 189-198 ResponsiveImage alt text only (post.heroImage.alt); src/width/height come from the lib/blog-data.ts shell, NOT this content field",
+    "body.hero_image.alt": "page.tsx line 189-198 ResponsiveImage alt text (post.heroImage.alt); src/width/height come from the lib/blog-data.ts shell, NOT this content field",
     "header.json_ld.type": "AUTO-DETECTED (unverified rel.): prod's articleSchema hardcodes '@type': 'BlogPosting' itself in page.tsx rather than reading a stored value — consistent value, not read from content",
 }
 
@@ -146,8 +144,6 @@ def build_rows(raw: dict, converted: dict, source_file: str = "") -> list[dict]:
                 status, relevant = "OK", "YES"
             elif lv and lv in nv:
                 status, relevant = "OK", "YES"
-            elif nv.endswith("…") and lv.startswith(nv[:-1]):
-                status, relevant, notes = "OK", "YES", (notes + " (truncated to SEO length limit, same convention as puzzles)").strip()
             else:
                 status, relevant = "MISMATCH", "NO"
         import re as _re
@@ -176,9 +172,12 @@ def build_rows(raw: dict, converted: dict, source_file: str = "") -> list[dict]:
         for nk in new_keys:
             add(legacy_key, lv, nk)
 
-    # heroImage: optional, structural passthrough (only { alt } lives in content JSON).
+    # heroImage: optional, structural passthrough (only { alt } lives in content
+    # JSON) - decomposed to .alt, same convention as related_links above, so
+    # export writes a real { alt } object instead of a JSON-stringified blob.
     hero = raw.get("heroImage", _MISSING)
-    add("heroImage", hero, "body.hero_image")
+    hero_alt = hero.get("alt", _MISSING) if isinstance(hero, dict) else hero if hero is _MISSING else _MISSING
+    add("heroImage.alt", hero_alt, "body.hero_image.alt")
 
     # NEW_FIELD with no legacy source at all.
     add("<none>", _MISSING, "header.json_ld.type")
@@ -192,9 +191,14 @@ def build_rows(raw: dict, converted: dict, source_file: str = "") -> list[dict]:
             for ti, tip in enumerate(section["tips"]):
                 add(f"sections[{si}].tips[{ti}]", tip, f"body.sections[{si}].tips[{ti}]")
 
-    # relatedLinks: flatten one row per link.
+    # relatedLinks: flatten one row per sub-field (title/href/description), same
+    # convention as sections[i].heading/paragraphs[i] above - not one row holding
+    # the whole link as a JSON-stringified blob, which export_locale_content.py
+    # would then write into content JSON as a literal string instead of an object.
     for li, link in enumerate(raw.get("relatedLinks", []) or []):
-        add(f"relatedLinks[{li}]", link, f"body.related_links[{li}]")
+        for subfield in ("title", "href", "description"):
+            value = (link or {}).get(subfield, _MISSING) if isinstance(link, dict) else _MISSING
+            add(f"relatedLinks[{li}].{subfield}", value, f"body.related_links[{li}].{subfield}")
 
     # Shell-only fields (prod, NOT this content JSON) — flagged so they're not
     # mistaken for a silent drop when they're simply out of scope.

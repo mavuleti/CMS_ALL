@@ -1,17 +1,40 @@
 {
-  "collection": {},
+  "collection": {
+    "header": {
+      "title": "Cirko taškas į tašką spausdinami dokumentai vaikams",
+      "meta_description": "Ženkite į priekį dėl nemokamų cirko taškas į tašką spausdinamų dokumentų su draugišku cirko meškiuku ir dryžuotu palapinės stogu. Atsisiųskite ir spausdinkite abu PDF darbo lapus skaičiavimui ir piešimo praktikai.",
+      "og": {
+        "title": "Cirko taškas į tašką spausdinami dokumentai vaikams",
+        "description": "Ženkite į priekį dėl nemokamų cirko taškas į tašką spausdinamų dokumentų su draugišku cirko meškiuku ir dryžuotu palapinės stogu. Atsisiųskite ir spausdinkite abu PDF darbo lapus skaičiavimui ir piešimo praktikai."
+      }
+    },
+    "body": {
+      "h1": "Cirko taškas į tašką spausdinami dokumentai vaikams"
+    }
+  },
   "puzzles": [
     {
       "slug": "circus-ringmaster-bear-dot-to-dot-puzzle",
       "header": {
+        "title": "Cirko Direktorius Meška: Sujunk Taškus — 74 Taškai",
+        "og": {
+          "title": "Cirko Direktorius Meška: Sujunk Taškus — 74 Taškai",
+          "description": "Susipažink su meška, kuri veda didįjį šou! Sujunk 74 taškus ir atrask draugišką cirko direktorių mešką – nemokamą užduotėlę 6–9 metų vaikams.",
+          "image_alt": "Cirko direktorius meška su aukšta kepure ir švarku, 74 taškų spausdinamas galvosūkis"
+        },
+        "meta_description": "Susipažink su meška, kuri veda didįjį šou! Sujunk 74 taškus ir atrask draugišką cirko direktorių mešką – nemokamą užduotėlę 6–9 metų vaikams — Sujunk taškus vaikams.",
         "json_ld": {
-          "name": "Cirką Vedantis Meška",
+          "description": "Cirko direktorius pristato artistus ir veda visą programą. Sujunk 74 taškus šioje nemokamoje spausdinamoje sujunk taškus užduotėlėje 6–9 metų vaikams.",
+          "name": "Cirko Direktorius Meška",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/circus-ringmaster-bear-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
         "name": "Cirką Vedantis Meška",
+        "h1": "Cirko Direktorius Meška: Sujunk Taškus — 74 Taškai Cirko Linksmybių",
         "tagline": "Susipažink su Mešku, Kuris Vykdo Didįjį Šou!",
         "description": "Sujunkite 74 taškus, kad atskleistumėte draugišką mešką, apsirengusį cirko arenoščiaus kostiumu. Šis vidutinio sudėtingumo spausdinamas darbalapis padeda vaikams lavinti skaičių sekų sekimą, koncentraciją, regimąjį sekimą ir atsargų pieštuko valdymą",
         "fun_fact": "Cirkoso režisierius pristato atlikėjus ir veda publiką nuo vieno pasirodymo prie kito.",
@@ -174,21 +197,33 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Kaip išspręsti „Sujunk taškus\" galvosūkį Cirką Vedantis Meška"
         }
       }
     },
     {
       "slug": "circus-tent-dot-to-dot-puzzle",
       "header": {
+        "title": "Cirko Palapinė: Sujunk Taškus — 59 Taškai, Nemokamai",
+        "og": {
+          "title": "Cirko Palapinė: Sujunk Taškus — 59 Taškai, Nemokamai",
+          "description": "Žengk po didžiąja palapine! Sujunk 59 taškus ir atrask linksmą dryžuotą cirko palapinę – nemokamą spausdinamą užduotėlę 5–8 metų vaikams.",
+          "image_alt": "Dryžuota cirko palapinė su vėliavėle viršuje, 59 taškų spausdinamas galvosūkis"
+        },
+        "meta_description": "Žengk po didžiąja palapine! Sujunk 59 taškus ir atrask linksmą dryžuotą cirko palapinę – nemokamą spausdinamą užduotėlę 5–8 metų vaikams — Sujunk taškus atspausdinti.",
         "json_ld": {
-          "name": "Cirko palapinė",
+          "description": "Cirko didžioji palapinė yra didžiausia scenos vietoje. Sujunk 59 taškus šioje nemokamoje spausdinamoje sujunk taškus užduotėlėje 5–8 metų vaikams.",
+          "name": "Cirko Palapinė",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/circus-tent-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
         "name": "Cirko palapinė",
+        "h1": "Cirko Palapinė: Sujunk Taškus — 59 Taškai Didžiam Nuotykiui",
         "tagline": "Prieikite arčiau ir patirkite didį cirko nuotykį!",
         "description": "Sujunkite 59 taškus, kad atskleistumėte linksmą dryžuotą cirko palapinę, pasiruošią šou. Šis lengvas spausdinamas darbalapis padeda vaikams praktikuoti skaičiavimą eilės tvarka, regimąjį sekimą, koncentraciją ir tikslų pieštuko valdymą",
         "fun_fact": "Cirko pagrindinis pasirodymo palapinas dažnai vadinamas didžiąja palapine, nes tai didžiausia pasirodymo palapinė.",
@@ -351,7 +386,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Kaip išspręsti „Sujunk taškus\" galvosūkį Cirko palapinė"
         }
       }
     }

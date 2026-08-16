@@ -1,17 +1,40 @@
 {
-  "collection": {},
+  "collection": {
+    "header": {
+      "title": "Cirka punkti uz punktu drukājamie materiāli bērniem",
+      "meta_description": "Nāciet klāt, lai saņemtu bezmaksas cirka punkti uz punktu drukājamus materiālus ar draudzīgu riņķa meistaru lāci un svītrainu lielo telti. Lejupielādējiet un izdrukājiet abas PDF darba lapas skaitīšanai un zīmuļa praksei.",
+      "og": {
+        "title": "Cirka punkti uz punktu drukājamie materiāli bērniem",
+        "description": "Nāciet klāt, lai saņemtu bezmaksas cirka punkti uz punktu drukājamus materiālus ar draudzīgu riņķa meistaru lāci un svītrainu lielo telti. Lejupielādējiet un izdrukājiet abas PDF darba lapas skaitīšanai un zīmuļa praksei."
+      }
+    },
+    "body": {
+      "h1": "Cirka punkti uz punktu drukājamie materiāli bērniem"
+    }
+  },
   "puzzles": [
     {
       "slug": "circus-ringmaster-bear-dot-to-dot-puzzle",
       "header": {
+        "title": "Cirka Direktors Lācis: Savieno Punktus — 74 Punkti",
+        "og": {
+          "title": "Cirka Direktors Lācis: Savieno Punktus — 74 Punkti",
+          "description": "Iepazīsti lāci, kurš vada lielo izrādi! Savieno 74 punktus un atklāj draudzīgu cirka direktoru lāci – bezmaksas darba lapu bērniem no 6 līdz 9 gadiem.",
+          "image_alt": "Cirka režisora lācis augstā cepurē un mētelī, 74 punktu drukājama mīkla"
+        },
+        "meta_description": "Iepazīsti lāci, kurš vada lielo izrādi! Savieno 74 punktus un atklāj draudzīgu cirka direktoru lāci – bezmaksas darba lapu bērniem no 6 līdz 9 gadiem — savieno punktus bērniem.",
         "json_ld": {
-          "name": "Cirka režisora lācis",
+          "description": "Cirka direktors iepazīstina ar māksliniekiem un vada izrādi. Savieno 74 punktus šajā bezmaksas izdrukājamajā savieno punktus darba lapā bērniem no 6 līdz 9 gadiem.",
+          "name": "Cirka Direktors Lācis",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/circus-ringmaster-bear-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
         "name": "Cirka režisora lācis",
+        "h1": "Cirka Direktors Lācis: Savieno Punktus — 74 Punkti Cirka Prieku",
         "tagline": "Iepazīstieties ar lāci, kurš vada lielo šovu!",
         "description": "Savieno 74 punktus, lai atklātu draudzīgu lāci, kas ģērbies cirka režisora tērpā. Šis vidējās grūtības līmeņa drukājums palīdz bērniem praktizēt skaitļu secības, koncentrēšanos, vizuālo izsekošanu un rūpīgu zīmuļa vadību",
         "fun_fact": "Cirka režisors iepazīstina publiku ar izpildītājiem un vada to no viena numura uz nākamo.",
@@ -174,21 +197,33 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Kā atrisināt \"Savieno punktus\" mīklu Cirka režisora lācis"
         }
       }
     },
     {
       "slug": "circus-tent-dot-to-dot-puzzle",
       "header": {
+        "title": "Cirka Telts: Savieno Punktus — 59 Punkti, Bez Maksas",
+        "og": {
+          "title": "Cirka Telts: Savieno Punktus — 59 Punkti, Bez Maksas",
+          "description": "Ieej zem lielā jumta! Savieno 59 punktus un atklāj jautru svītrainu cirka telti – bezmaksas izdrukājamu darba lapu bērniem no 5 līdz 8 gadiem.",
+          "image_alt": "Svītraina cirka telts ar karodziņu virsotnē, 59 punktu drukājama mīkla"
+        },
+        "meta_description": "Ieej zem lielā jumta! Savieno 59 punktus un atklāj jautru svītrainu cirka telti – bezmaksas izdrukājamu darba lapu bērniem no 5 līdz 8 gadiem — savieno punktus izdrukāt.",
         "json_ld": {
-          "name": "Cirka telts",
+          "description": "Cirka lielā telts ir izrādes lielākā telts. Savieno 59 punktus šajā bezmaksas izdrukājamajā savieno punktus darba lapā bērniem no 5 līdz 8 gadiem.",
+          "name": "Cirka Telts",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/circus-tent-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
         "name": "Cirka telts",
+        "h1": "Cirka Telts: Savieno Punktus — 59 Punkti Lielai Piedzīvojumu Dienai",
         "tagline": "Nāc iekšā lielā cirka piedzīvojumā!",
         "description": "Savieno 59 punktus, lai atklātu jautru svītrainu cirka telti, kas gatava izrādei. Šis vienkāršais drukājums palīdz bērniem praktizēt skaitīšanu secībā, vizuālo izsekošanu, koncentrēšanos un vienmērīgu zīmuļa vadīšanu",
         "fun_fact": "Cirka galveno izrādes telpu bieži sauc par lielo kupolu, jo tā ir lielākā telpa izrādē.",
@@ -351,7 +386,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Kā atrisināt \"Savieno punktus\" mīklu Cirka telts"
         }
       }
     }

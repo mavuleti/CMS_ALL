@@ -1,17 +1,40 @@
 {
-  "collection": {},
+  "collection": {
+    "header": {
+      "title": "Voľné tlačiteľné spojovačky s vesmírom pre deti",
+      "meta_description": "Odštartujte s voľnými pracovnými listami na spojovanie bodov vo vesmíre. Dnes vytlačte priateľskú hádanku s roverom, s ďalšími raketami, planétami a kozmickými dobrodružstvami prichádzajúcimi čoskoro.",
+      "og": {
+        "title": "Voľné tlačiteľné spojovačky s vesmírom pre deti",
+        "description": "Odštartujte s voľnými pracovnými listami na spojovanie bodov vo vesmíre. Dnes vytlačte priateľskú hádanku s roverom, s ďalšími raketami, planétami a kozmickými dobrodružstvami prichádzajúcimi čoskoro."
+      }
+    },
+    "body": {
+      "h1": "Voľné tlačiteľné spojovačky s vesmírom pre deti"
+    }
+  },
   "puzzles": [
     {
       "slug": "crescent-moon-dot-to-dot-puzzle",
       "header": {
+        "title": "Kosáčik Mesiaca — Spojovačka 60 Bodov Zadarmo",
+        "og": {
+          "title": "Kosáčik Mesiaca — Spojovačka 60 Bodov Zadarmo",
+          "description": "Nakresli žiariaci kúsok nočnej oblohy! Spoj 60 ľahkých bodov a odhaľ krásny kosáčik mesiaca v tejto bezplatnej spojovačke pre deti vo veku 4–7 rokov.",
+          "image_alt": "Žiariaci kosáčik mesiaca na nočnej oblohe, tlačiteľná spojovačka so 60 bodmi"
+        },
+        "meta_description": "Nakresli žiariaci kúsok nočnej oblohy! Spoj 60 ľahkých bodov a odhaľ krásny kosáčik mesiaca v tejto bezplatnej spojovačke pre deti vo veku 4–7 rokov — spojovačky pre predškolákov.",
         "json_ld": {
-          "name": "Polmesiac",
+          "description": "Kosáčik mesiaca žiari vďaka odrazu slnečného svetla. Spoj 60 ľahkých bodov v tejto bezplatnej spojovačke pre deti vo veku 4–7 rokov.",
+          "name": "Kosáčik Mesiaca",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/space-crescent-moon-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
         "name": "Polmesiac",
+        "h1": "Kosáčik Mesiaca Spojovačka — 60 Ľahkých Bodov Nočnej Oblohy",
         "tagline": "Sledujte žiarivý plátok nočnej oblohy!",
         "description": "Spojte 60 jednoduchých bodov, aby ste odhalili krásny polmesiac žiariaci na nočnej oblohe. Tento bezplatný tlačiteľný materiál pomáha deťom cvičiť číselné poradie, vizuálne sledovanie, sústredenie a hladké ovládanie ceruzky",
         "fun_fact": "Polmesiac sa objaví, keď slnečné svetlo osvetľuje len tenkú zakrivenú časť Mesiaca, ktorú môžeme vidieť zo Zeme.",
@@ -174,21 +197,33 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Ako vyriešiť obrázok spoj bodky Polmesiac"
         }
       }
     },
     {
       "slug": "ringed-planet-dot-to-dot-puzzle",
       "header": {
+        "title": "Planéta s Prstencami — Spojovačka 43 Bodov",
+        "og": {
+          "title": "Planéta s Prstencami — Spojovačka 43 Bodov",
+          "description": "Nakresli svet obklopený žiarivými prstencami! Spoj 43 ľahkých bodov a odhaľ planétu s prstencami v tejto bezplatnej spojovačke pre deti vo veku 4–6 rokov.",
+          "image_alt": "Prstencová planéta plávajúca vo vesmíre, tlačiteľná spojovačka so 43 bodmi pre najmenšie deti"
+        },
+        "meta_description": "Nakresli svet obklopený žiarivými prstencami! Spoj 43 ľahkých bodov a odhaľ planétu s prstencami v tejto bezplatnej spojovačke pre deti vo veku 4–6 rokov — spojovačky podľa čísel na vytlačenie.",
         "json_ld": {
-          "name": "Prstencový planet",
+          "description": "Saturnove prstence tvoria nespočetné kúsky ľadu a horniny. Spoj 43 ľahkých bodov v tejto bezplatnej spojovačke pre deti vo veku 4–6 rokov.",
+          "name": "Planéta s Prstencami",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/space-ringed-planet-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-7"
         }
       },
       "body": {
         "name": "Prstencový planet",
+        "h1": "Planéta s Prstencami Spojovačka — 43 Ľahkých Bodov, Prvá Vesmírna Výzva",
         "tagline": "Nakresli svet obalený žiarivými prstencom!",
         "description": "Spoj 43 jednoduchých bodov, aby si odhalil krásny prstencový planet plávajúci vo vesmíre. Tento voľne tlačiteľný materiál pomáha mladším deťom cvičiť poradie čísel, vizuálne sledovanie, koncentráciu a stabilnú kontrolu ceruzky",
         "fun_fact": "Prstence Saturnu sú zložené z nespočetných kusov ľadu a skaly, od drobných zŕn po kusy veľké ako domy.",
@@ -324,21 +359,33 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Ako vyriešiť obrázok spoj bodky Prstencový planet"
         }
       }
     },
     {
       "slug": "space-rover-dot-to-dot-puzzle",
       "header": {
+        "title": "Vesmírne Vozidlo Rover — Spojovačka 59 Bodov",
+        "og": {
+          "title": "Vesmírne Vozidlo Rover — Spojovačka 59 Bodov",
+          "description": "Priateľský prieskumník na kolesách! Spoj 59 bodov a odhaľ vesmírne vozidlo rover v tejto bezplatnej spojovačke pre deti vo veku 5–8 rokov.",
+          "image_alt": "Priateľské vesmírne vozidlo na kolesách skúmajúce iný svet, tlačiteľná spojovačka s 59 bodmi"
+        },
+        "meta_description": "Priateľský prieskumník na kolesách! Spoj 59 bodov a odhaľ vesmírne vozidlo rover v tejto bezplatnej spojovačke pre deti vo veku 5–8 rokov — omaľovánky a spojovačky.",
         "json_ld": {
-          "name": "Vesmírny rover",
+          "description": "Vesmírne rovery sú robotické vozidlá, ktoré skúmajú svety ako Mesiac a Mars. Spoj 59 bodov v tejto bezplatnej spojovačke pre deti vo veku 5–8 rokov.",
+          "name": "Vesmírny Rover",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/space-rover-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
         "name": "Vesmírny rover",
+        "h1": "Vesmírny Rover Spojovačka — 59 Bodov Pripravených na Prieskum",
         "tagline": "Priateľský prieskumník na kolesách",
         "description": "Spojte 59 bodov, aby ste odhalili priateľského vesmírneho rover, ktorý je pripravený preskúmať iný svet. Tento bezplatný tlačiteľný puzzle pomáha deťom cvičiť poradie čísel, koncentráciu a kontrolu ceruzky",
         "fun_fact": "Vesmírne rovery sú robotické vozidlá, ktoré preskúmavajú povrchy svetov ako Mesiac a Mars.",
@@ -501,7 +548,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Ako vyriešiť obrázok spoj bodky Vesmírny rover"
         }
       }
     }

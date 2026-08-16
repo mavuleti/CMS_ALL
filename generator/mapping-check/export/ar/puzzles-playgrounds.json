@@ -1,5 +1,17 @@
 {
-  "collection": {},
+  "collection": {
+    "header": {
+      "title": "أوراق توصيل النقاط للملاعب للأطفال",
+      "meta_description": "أحضر الملعب إلى المنزل! وصّل النقاط لكشف الأراجيح والزحاليق والمرح في الهواء الطلق. جميع الأوراق مجانية للتحميل والطباعة — بلا حاجة لحساب.",
+      "og": {
+        "title": "أوراق توصيل النقاط للملاعب للأطفال",
+        "description": "أحضر الملعب إلى المنزل! وصّل النقاط لكشف الأراجيح والزحاليق والمرح في الهواء الطلق. جميع الأوراق مجانية للتحميل والطباعة — بلا حاجة لحساب."
+      }
+    },
+    "body": {
+      "h1": "أوراق توصيل النقاط للملاعب للأطفال"
+    }
+  },
   "puzzles": [
     {
       "slug": "spring-horse-playground-dot-to-dot-puzzle",
@@ -15,7 +27,9 @@
           "description": "يجعل تحريك الطفل لوزن جسمه حصان الأرجوحة النابضة يتأرجح ذهابًا وإيابًا. اِبنِ حصان الملعب هذا عبر 53 نقطة بملف PDF مجاني للطباعة، ضمن نشاط توصيل النقاط الممتع، مخصص لسن 4 إلى 8 سنوات.",
           "name": "حصان الأرجوحة النابضة",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/playgrounds-spring-horse-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -156,7 +170,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "كيفية حل لغز توصيل النقاط حصان الأرجوحة النابضة"
         }
       }
     },
@@ -174,7 +189,9 @@
           "description": "يجتمع التسلق والانزلاق ولعب التخيل في هيكل واحد مرح. وهي من أوراق وصل النقاط الجاهزة للطباعة، تتبّع منزلق بيت اللعب عبر 68 نقطة في ملف PDF مجاني مخصص لسن 5 إلى 9 سنوات.",
           "name": "منزلق بيت اللعب",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/playgrounds-playhouse-slide-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
@@ -342,7 +359,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "كيفية حل لغز توصيل النقاط منزلق بيت اللعب"
         }
       }
     },
@@ -360,7 +378,9 @@
           "description": "تتبّع العرف المتطاير والسرج المزخرف لحصان دوّامة قافز عبر 88 نقطة. وهي من أوراق وصل النقاط الجاهزة للطباعة، اطبع هذه اللغزية المستوحاة من الملاهي مجانًا للأطفال من سن 5 إلى 9 سنوات.",
           "name": "حصان الكاروسيل",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/playground-carousel-horse-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
@@ -528,7 +548,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "كيفية حل لغز توصيل النقاط حصان الكاروسيل"
         }
       }
     },
@@ -546,7 +567,9 @@
           "description": "تسابق من النقطة 1 حتى النقطة 48 لتكشف عن سيارة ملعب مرحة. إحدى أوراق وصل النقاط المجانية، يحوّل ملف PDF المجاني هذا ترتيب الأرقام إلى جولة سريعة وممتعة للأطفال من سن 4 إلى 8 سنوات.",
           "name": "السيارة السريعة",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/playgrounds-dashing-car-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -714,7 +737,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "كيفية حل لغز توصيل النقاط السيارة السريعة"
         }
       }
     },
@@ -732,7 +756,9 @@
           "description": "تُعد هذه الأرجوحة المكونة من 42 نقطة ورقة مجانية لتوصيل النقاط مخصصة لأطفال الروضة والصف التمهيدي من سن 4 إلى 7 سنوات، فقد أمتعت أراجيح الحبال الأطفال منذ آلاف السنين، فاطبع ورقة PDF وابدأ إحدى أسهل صفحات الملاهي لعام 2026، فهي نقطة انطلاق مثالية لصغار الحلّالين.",
           "name": "ملعب الأراجيح",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/swing-playgrounds-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-7"
         }
       },
       "body": {
@@ -900,7 +926,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "كيفية حل لغز توصيل النقاط ملعب الأراجيح"
         }
       }
     },
@@ -918,7 +945,9 @@
           "description": "بـ 102 نقطة، تُعد هذه الزحليقة الطويلة خطوة تالية في أوراق وصّل النقاط المجانية المخصصة لسن 6 إلى 10 سنوات المتجاوزين للأوراق التمهيدية، فأطول زحليقة ثابتة في العالم يتجاوز ارتفاعها 30 مترًا، فاطبع ورقة PDF وتسلّق تسلسل الأرقام كاملًا، فهي قفزة حقيقية في الطول.",
           "name": "ملعب الزحليقة",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/slide-playgrounds-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "6-10"
         }
       },
       "body": {
@@ -1086,7 +1115,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "كيفية حل لغز توصيل النقاط ملعب الزحليقة"
         }
       }
     },
@@ -1104,7 +1134,9 @@
           "description": "تقع هذه الأرجوحة المتوازنة المكونة من 68 نقطة في منتصف مستوى الصعوبة بين أوراقنا، وهي من أوراق وصل النقاط الجاهزة للطباعة، وهي مناسبة للأطفال من سن 5 إلى 9 سنوات الباحثين عن بناء الثقة، وتُعرف في بعض اللهجات بلعبة الميزان، فاطبع ورقة PDF المجانية ووازن الأرقام جانبًا بعد جانب، فهي متوازنة تمامًا لمستوى متوسط.",
           "name": "أرجوحة الميزان",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/seesaw-playground-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
@@ -1272,7 +1304,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "كيفية حل لغز توصيل النقاط أرجوحة الميزان"
         }
       }
     },
@@ -1290,7 +1323,9 @@
           "description": "استمتع بأطول تسلسل في الملعب من خلال 133 منعطفًا. في هذه الورقة المخصصة لـوصل النقاط، هذا PDF المجاني لقطار الملاهي يتحدى عشاق الألغاز المركزة من الأعمار 8-12.",
           "name": "ملعب قطار الملاهي",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/roller-coaster-playground-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "8-12"
         }
       },
       "body": {
@@ -1485,7 +1520,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "كيفية حل لغز توصيل النقاط ملعب قطار الملاهي"
         }
       }
     },
@@ -1503,7 +1539,9 @@
           "description": "تبني ألعاب القردة قوة القبضة والتنسيق في الملعب؛ بينما تبني هذه النسخة المكونة من 94 نقطة التحكم في القلم. في ورقة توصيل النقاط هذه، قم بتنزيل ملف PDF المجاني للأعمار من 5 إلى 9.",
           "name": "ألعاب القردة في الملعب",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/monkey-bar-playground-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
@@ -1671,7 +1709,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "كيفية حل لغز توصيل النقاط ألعاب القردة في الملعب"
         }
       }
     }

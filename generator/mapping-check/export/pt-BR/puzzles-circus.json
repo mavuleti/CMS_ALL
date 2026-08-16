@@ -1,17 +1,40 @@
 {
-  "collection": {},
+  "collection": {
+    "header": {
+      "title": "Imprimíveis de Conecte os Pontos do Circo para Crianças",
+      "meta_description": "Venha conferir imprimíveis gratuitos de conecte os pontos do circo com um amigável urso mestre de cerimônias e uma tenda listrada. Baixe e imprima ambas as folhas de atividades em PDF para contagem e prática com lápis.",
+      "og": {
+        "title": "Imprimíveis de Conecte os Pontos do Circo para Crianças",
+        "description": "Venha conferir imprimíveis gratuitos de conecte os pontos do circo com um amigável urso mestre de cerimônias e uma tenda listrada. Baixe e imprima ambas as folhas de atividades em PDF para contagem e prática com lápis."
+      }
+    },
+    "body": {
+      "h1": "Imprimíveis de Conecte os Pontos do Circo para Crianças"
+    }
+  },
   "puzzles": [
     {
       "slug": "circus-ringmaster-bear-dot-to-dot-puzzle",
       "header": {
+        "title": "Urso Mestre de Cerimônias Ligue os Pontos — 74 Pontos, Grátis",
+        "og": {
+          "title": "Urso Mestre de Cerimônias Ligue os Pontos — 74 Pontos, Grátis",
+          "description": "Conheça o urso que comanda o grande espetáculo! Ligue 74 pontos e revele um mestre de cerimônias de cartola nesta atividade grátis para crianças de 6 a 9 anos.",
+          "image_alt": "Urso mestre de cerimônias de circo com cartola e casaco, quebra-cabeça de ligar os pontos para imprimir com 74 pontos"
+        },
+        "meta_description": "Conheça o urso que comanda o grande espetáculo! Ligue 74 pontos e revele um mestre de cerimônias de cartola nesta atividade grátis para crianças de 6 a 9 anos — ligue os pontos para adultos.",
         "json_ld": {
-          "name": "Urso Mestre de Cerimônias do Circo",
+          "description": "O mestre de cerimônias apresenta os artistas e conduz o show do início ao fim. Ligue 74 pontos nesta atividade grátis para crianças de 6 a 9 anos.",
+          "name": "Urso Mestre de Cerimônias",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/circus-ringmaster-bear-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
         "name": "Urso Mestre de Cerimônias do Circo",
+        "h1": "Urso Mestre de Cerimônias Ligue os Pontos — 74 Pontos, Nível Médio",
         "tagline": "Conheça o Urso que Comanda o Grande Show!",
         "description": "Conecte 74 pontos para revelar um urso amigável vestido como um mestre de circo. Este impressível intermediário ajuda as crianças a praticar sequenciamento numérico, concentração, acompanhamento visual e controle cuidadoso do lápis",
         "fun_fact": "Um mestre de cerimônias de circo apresenta os artistas e guia o público de um ato para o próximo.",
@@ -174,21 +197,33 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Como resolver o quebra-cabeça de ligar pontos Urso Mestre de Cerimônias do Circo"
         }
       }
     },
     {
       "slug": "circus-tent-dot-to-dot-puzzle",
       "header": {
+        "title": "Barraca de Circo Ligue os Pontos — 59 Pontos, Grátis para Imprimir",
+        "og": {
+          "title": "Barraca de Circo Ligue os Pontos — 59 Pontos, Grátis para Imprimir",
+          "description": "Entre no espetáculo! Ligue 59 pontos e revele uma alegre barraca de circo listrada nesta atividade grátis para crianças de 5 a 8 anos.",
+          "image_alt": "Tenda de circo listrada com uma bandeira no topo, quebra-cabeça de ligar os pontos para imprimir com 59 pontos"
+        },
+        "meta_description": "Entre no espetáculo! Ligue 59 pontos e revele uma alegre barraca de circo listrada nesta atividade grátis para crianças de 5 a 8 anos — atividades de ligar os pontos para imprimir.",
         "json_ld": {
-          "name": "Tenda de Circo",
+          "description": "A barraca principal é a maior lona do circo, onde acontece todo o espetáculo. Ligue 59 pontos nesta atividade grátis para crianças de 5 a 8 anos.",
+          "name": "Barraca de Circo",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/circus-tent-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
         "name": "Tenda de Circo",
+        "h1": "Barraca de Circo Ligue os Pontos — 59 Pontos de Diversão",
         "tagline": "Venha para uma Aventura de Circo!",
         "description": "Conecte 59 pontos para revelar uma alegre barraca de circo listrada, pronta para o espetáculo. Este impressível fácil ajuda as crianças a praticar contagem em ordem, rastreamento visual, concentração e controle firme do lápis",
         "fun_fact": "A tenda principal de um circo é frequentemente chamada de lona principal porque é a maior tenda do espetáculo.",
@@ -351,7 +386,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Como resolver o quebra-cabeça de ligar pontos Tenda de Circo"
         }
       }
     }

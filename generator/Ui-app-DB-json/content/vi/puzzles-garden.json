@@ -1,5 +1,17 @@
 {
-  "collection": {},
+  "collection": {
+    "header": {
+      "title": "Tranh nối điểm chủ đề khu vườn dành cho trẻ em",
+      "meta_description": "Hãy bắt đầu trồng trọt! Nối các chấm để tạo thành găng tay làm vườn, xẻng nhỏ và các dụng cụ làm vườn tiện dụng. Tất cả các bài tập đều có thể tải xuống và in miễn phí — không cần tài khoản.",
+      "og": {
+        "title": "Tranh nối điểm chủ đề khu vườn dành cho trẻ em",
+        "description": "Hãy bắt đầu trồng trọt! Nối các chấm để tạo thành găng tay làm vườn, xẻng nhỏ và các dụng cụ làm vườn tiện dụng. Tất cả các bài tập đều có thể tải xuống và in miễn phí — không cần tài khoản."
+      }
+    },
+    "body": {
+      "h1": "Tranh nối điểm chủ đề khu vườn dành cho trẻ em"
+    }
+  },
   "puzzles": [
     {
       "slug": "garden-gloves-dot-to-dot-puzzle",
@@ -15,7 +27,9 @@
           "description": "Găng tay làm vườn bảo vệ những bàn tay nhỏ khỏi đất và cây có gai. Kết nối 54 điểm trong tờ worksheet in miễn phí này dành cho trẻ em từ 4–8 tuổi.",
           "name": "Găng tay làm vườn",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/garden-gloves-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -156,7 +170,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Cách giải câu đố nối các chấm Găng tay làm vườn"
         }
       }
     },
@@ -174,7 +189,9 @@
           "description": "Khám phá việc luyện tập bút chì sớm với xẻng làm vườn 39 điểm. PDF nối điểm miễn phí cung cấp cho trẻ em từ 4–7 tuổi một hoạt động ngắn gọn, dễ thực hiện.",
           "name": "Bay làm vườn",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/garden-trowel-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-7"
         }
       },
       "body": {
@@ -288,7 +305,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Cách giải câu đố nối các chấm Bay làm vườn"
         }
       }
     },
@@ -306,7 +324,9 @@
           "description": "Xe đẩy được phát minh ở Trung Quốc cổ đại hơn 2.000 năm trước. Xây dựng một cái qua 85 điểm với PDF in miễn phí này dành cho trẻ em từ 5–9 tuổi.",
           "name": "Sân chơi xe cút kít",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/wheelbarrow-playground-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
@@ -447,7 +467,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Cách giải câu đố nối các chấm Sân chơi xe cút kít"
         }
       }
     }

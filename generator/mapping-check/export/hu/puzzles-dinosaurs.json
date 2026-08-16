@@ -1,5 +1,17 @@
 {
-  "collection": {},
+  "collection": {
+    "header": {
+      "title": "Dinoszaurusz pont-pont nyomtatható anyagok gyerekeknek",
+      "meta_description": "Kösd össze a pontokat, hogy felfedd kedvenc dinoszauruszaidat! Minden munkalap ingyenesen letölthető és kinyomtatható – fiók nem szükséges hozzá. Tökéletes 4–10 éves gyerekeknek, óvodásoknak, kisiskolásoknak és osztálytermi használatra.",
+      "og": {
+        "title": "Dinoszaurusz pont-pont nyomtatható anyagok gyerekeknek",
+        "description": "Kösd össze a pontokat, hogy felfedd kedvenc dinoszauruszaidat! Minden munkalap ingyenesen letölthető és kinyomtatható – fiók nem szükséges hozzá. Tökéletes 4–10 éves gyerekeknek, óvodásoknak, kisiskolásoknak és osztálytermi használatra."
+      }
+    },
+    "body": {
+      "h1": "Dinoszaurusz pont-pont nyomtatható anyagok gyerekeknek"
+    }
+  },
   "puzzles": [
     {
       "slug": "trex-61-dot-to-dot-puzzle",
@@ -15,7 +27,9 @@
           "description": "Köss össze 61 pontot, hogy felfedd a hatalmas Tyrannosaurus Rexet. Ez a nyomtatható dinoszauruszos feladatlap hosszabb számsorolvasási kihívást kínál magabiztos fiatal számlálóknak, miközben fejleszti a ceruzahasználatot és a finommotoros készségeket.",
           "name": "T-Rex 61-pontos kihívás",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/trex-61-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "6-9"
         }
       },
       "body": {
@@ -210,7 +224,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Hogyan oldd meg a T-Rex 61-pontos kihívás pontösszekötő rejtvényt"
         }
       }
     },
@@ -228,7 +243,9 @@
           "description": "Köss össze 55 pontot, hogy felfedd a Föld legnagyobb élő madarát, a struccot, amely nem repül, de gyorsabban fut, mint egy ló. Ingyenesen nyomtatható munkalap általános iskolásoknak a számsorírás gyakorlásához egy lenyűgöző állatról tanulva.",
           "name": "Strucc",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/ostriches-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-8"
         }
       },
       "body": {
@@ -396,7 +413,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Hogyan oldd meg a Strucc pontösszekötő rejtvényt"
         }
       }
     },
@@ -414,7 +432,9 @@
           "description": "Köss össze 50 pontot, hogy felfedd a vidám, hosszú nyakú Brontosaurust íves farkával. Ingyenesen nyomtatható munkalap óvodásoknak és kisiskolásoknak a számsorírás, a ceruzahasználat és a koncentráció gyakorlásához.",
           "name": "Brontoszaurusz",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/brontosaurus-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-7"
         }
       },
       "body": {
@@ -582,7 +602,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Hogyan oldd meg a Brontoszaurusz pontösszekötő rejtvényt"
         }
       }
     },
@@ -600,7 +621,9 @@
           "description": "Kövesd a pontokat, hogy lerajzold minden idők legikonikusabb szarvas dinoszauruszát, amely három arcszarvával és óriási csontos nyakfodrával a T-Rex kortársa volt. Ez a 70 pontos, ingyenesen nyomtatható lap tökéletes óvodásoknak és első osztályosoknak.",
           "name": "Triceratops",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/triceratops-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "6-9"
         }
       },
       "body": {
@@ -768,7 +791,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Hogyan oldd meg a Triceratops pontösszekötő rejtvényt"
         }
       }
     },
@@ -786,7 +810,9 @@
           "description": "Kösd össze a 54 pontot, hogy felfedd az okos Velociraptort, amelyet a valóságban pulyka méretű, tollas vadászként ismerünk. Ez az ingyenesen nyomtatható munkalap a számsorolvasási készségeket fejleszti 5–8 éves gyerekek számára.",
           "name": "Velociraptor",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/velociraptor-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "6-9"
         }
       },
       "body": {
@@ -954,7 +980,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Hogyan oldd meg a Velociraptor pontösszekötő rejtvényt"
         }
       }
     },
@@ -972,7 +999,9 @@
           "description": "Köss össze 52 pontot, hogy megrajzold a lenyűgöző Stegosaurust hátán a rombusz alakú lemezek dupla sorával. Ez a könnyen összeilleszthető feladatlap óvodások és kisiskolások kedvence a számsorírás és a koncentráció fejlesztéséhez.",
           "name": "Sztegosaurus",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/stegosaurus-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-7"
         }
       },
       "body": {
@@ -1140,7 +1169,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Hogyan oldd meg a Sztegosaurus pontösszekötő rejtvényt"
         }
       }
     },
@@ -1158,7 +1188,9 @@
           "description": "Kösd össze a pontokat, hogy felfedd a valaha felfedezett legnagyobb húsevő dinoszauruszt, amely nagyobb volt, mint a T-Rex, és óriási hátvitorlájával folyókban vadászott halakra. Ez a 74 pontos lap nagyszerű 1. és 2. osztályosoknak.",
           "name": "Spinoszaurusz",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/spinosaurus-74-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "6-10"
         }
       },
       "body": {
@@ -1326,7 +1358,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Hogyan oldd meg a Spinoszaurusz pontösszekötő rejtvényt"
         }
       }
     },
@@ -1344,7 +1377,9 @@
           "description": "Kösd össze a pontokat, hogy megrajzold a jura korszak legmagasabb és legbékésebb dinoszauruszát, hosszú, zsiráfszerű nyakával és a legtöbb háznál magasabb első lábaival. Ez a 38 pontos, ingyenesen nyomtatható lap tökéletes a nagy dinoszauruszok rajongóinak.",
           "name": "Brakioszaurusz",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "dummy-brachiosaurus",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
@@ -1485,7 +1520,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Hogyan oldd meg a Brakioszaurusz pontösszekötő rejtvényt"
         }
       }
     },
@@ -1503,7 +1539,9 @@
           "description": "Kösd össze a pontokat, hogy felfedd az Ankylosaurust, a dinoszauruszvilág páncélos szupersztárját, akinek testét csontos lemezek borították, farka pedig nehéz bunkóban végződött. Ez a rövid, 32 pontos lap nagyszerű óvodásoknak és első osztályosoknak.",
           "name": "Ankilozaurus",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "dummy-ankylosaurus",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-8"
         }
       },
       "body": {
@@ -1644,7 +1682,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Hogyan oldd meg a Ankilozaurus pontösszekötő rejtvényt"
         }
       }
     },
@@ -1662,7 +1701,9 @@
           "description": "Kösd össze a pontokat, hogy lerajzold az őskori világ leghíresebb repülő hüllőjét, amely az ősi óceánok felett szállt halakra vadászva. Ez a könnyen használható, 24 pontos munkalap tökéletes kisgyermekek és óvodáskorúak számára.",
           "name": "Szárnyas gyík",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/pterodactyl-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "6-9"
         }
       },
       "body": {
@@ -1830,7 +1871,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Hogyan oldd meg a Szárnyas gyík pontösszekötő rejtvényt"
         }
       }
     },
@@ -1848,7 +1890,9 @@
           "description": "Kösd össze a pontokat, hogy felfedd az Allosaurust, a jura időszak leghíresebb dinoszauruszát, még a T-Rex megjelenése előtt. Erős fogaival, állkapcsával és csoportos életmódjával ez a 42 pontos, nehezebb feladatlap az 1–3. osztályosok számára készült.",
           "name": "Alloszaurusz",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "dummy-allosaurus",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "6-10"
         }
       },
       "body": {
@@ -2016,7 +2060,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Hogyan oldd meg a Alloszaurusz pontösszekötő rejtvényt"
         }
       }
     }

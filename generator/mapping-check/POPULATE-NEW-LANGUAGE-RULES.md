@@ -126,6 +126,82 @@ must come from an actual content JSON file for that language.
 
 ---
 
+## 3b. MUST NOT truncate a value — ever, for any reason
+
+**What went wrong:** every `audit_*.py` / `clone_en_to_language.py` script
+used to define its own local `compact_repr(value, limit=500)`, which clipped
+any string over 500 chars to `text[:499] + "…"` before writing it into
+`Legacy_value_by_key` / `new_value`. That function was written as a display
+helper to keep the audit report's diff column short, but its truncated
+output was what actually got stored in the DB and later exported verbatim
+into `content/{locale}/*.json` by `export_locale_content.py`. This shipped
+mid-`<a>`-tag cutoffs to every locale's `blog.json` (18 English paragraphs
+alone) with no warning — the content looked complete (valid JSON, no error)
+but silently lost text and broke HTML.
+
+The same bug also stringified whole nested objects (e.g. a
+`related_links[i]` link, or `heroImage`) via `json.dumps(...)` into a single
+opaque string field instead of decomposing them into their sub-key rows
+(`related_links[i].title` / `.href` / `.description`, `hero_image.alt`) —
+the same convention already used for `sections[i].heading` /
+`sections[i].paragraphs[i]`. A JSON string in a field the app expects to be
+an object breaks the feature (see `lib/blog-data.ts`'s `RelatedLink[]`
+type), it doesn't just look ugly.
+
+**Rule:**
+- Every value written into a `mapping_audit` row (`Legacy_value_by_key`,
+  `new_value`) must be the **full, untruncated** value. Use
+  `_DB_Extra_scripts/value_repr.py`'s `full_repr()` — the shared, no-limit
+  serializer — never a local reimplementation with a `limit=` parameter.
+- Any nested object (a dict with more than one meaningful sub-field) must be
+  decomposed into one row per sub-key, matching the array/dotted-path
+  convention already used everywhere else in these scripts. Do not
+  `json.dumps()` a whole object into one row's value as a shortcut.
+- If you need a short preview for a console `print()` statement, truncate
+  that print argument locally, right at the call site — never truncate the
+  value before it's stored.
+- `export_locale_content.py` writes DB values into `content/{locale}/*.json`
+  **verbatim, with no length limit of its own** — any truncation belongs
+  nowhere in this pipeline, at any stage, full stop.
+
+---
+
+## 3c. `body.dot_guide.heading` is a synthesized field, not a clonable one
+
+**What went wrong:** `audit_single_puzzle.py` never generated a row for
+`body.dot_guide.heading` at all (it isn't in `DOT_GUIDE_SIMPLE`) — every
+already-migrated category (dinosaurs, garden, ...) had it anyway because it
+was quietly backfilled once, outside this script. When `canada`/`uae`/
+`usa-250`/`ocean` were regenerated via this script (2026-08-16, fixing the
+truncation bug in §3b), their `heading` values were never produced, and the
+gap was masked by a stale, since-deleted `.next` build cache — until a
+genuinely clean build hard-failed on `CommonPuzzleTemplate.tsx`'s
+`requireField(dotGuide.heading, ...)`, which throws whenever `dotGuide` is
+present but `.heading` is falsy.
+
+**Rule:** `dot_guide.heading` has **no legacy or prod source at all** — it is
+synthesized per-locale as `"{prefix}{puzzle name}{suffix}"` (English:
+`"How to Solve the {name} Dot-to-Dot Puzzle"`). Because of this:
+- `audit_single_puzzle.py` generates it as a `NEW_FIELD` row for `en`
+  automatically (from `body.name` + the hardcoded English template) — do not
+  remove that without replacing it some other way.
+- `clone_en_to_language.py` does **not** treat it like an ordinary clonable
+  field. It has a dedicated special-case: after the normal clone logic (which
+  would leave it blank, since prod has no such field), it looks up the
+  target locale's own translated `body.name` and regenerates `heading` via
+  `dot_guide_heading_templates.py`'s `HEADING_TEMPLATES` dict — one
+  `(prefix, suffix)` pair per locale, extracted from that locale's own
+  already-migrated content and cross-checked against a second category
+  before use.
+- If you add a **new locale**, add its `(prefix, suffix)` pair to
+  `HEADING_TEMPLATES` by reading one real example from that locale's own
+  content first (e.g. `content/{locale}/puzzles-garden.json`) — never guess
+  or machine-translate the template blind.
+- If a **new puzzle category** is added, this requires no extra work — the
+  clone-time special-case applies to every category automatically.
+
+---
+
 ## 4. MUST NOT touch prod content
 
 Every script in this process is read-only against

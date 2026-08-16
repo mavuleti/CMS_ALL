@@ -1,17 +1,40 @@
 {
-  "collection": {},
+  "collection": {
+    "header": {
+      "title": "Cetakan Dot to Dot Sirkus untuk Anak-anak",
+      "meta_description": "Langkah maju untuk cetakan dot to dot sirkus gratis yang menampilkan beruang pengatur acara yang ramah dan tenda besar bergaris. Unduh dan cetak kedua lembar kerja PDF untuk latihan menghitung dan pensil.",
+      "og": {
+        "title": "Cetakan Dot to Dot Sirkus untuk Anak-anak",
+        "description": "Langkah maju untuk cetakan dot to dot sirkus gratis yang menampilkan beruang pengatur acara yang ramah dan tenda besar bergaris. Unduh dan cetak kedua lembar kerja PDF untuk latihan menghitung dan pensil."
+      }
+    },
+    "body": {
+      "h1": "Cetakan Dot to Dot Sirkus untuk Anak-anak"
+    }
+  },
   "puzzles": [
     {
       "slug": "circus-ringmaster-bear-dot-to-dot-puzzle",
       "header": {
+        "title": "Beruang Pemimpin Sirkus Menghubungkan Titik — 74 Titik, Gratis",
+        "og": {
+          "title": "Beruang Pemimpin Sirkus Menghubungkan Titik — 74 Titik, Gratis",
+          "description": "Kenalan dengan beruang yang memimpin pertunjukan besar! Hubungkan 74 titik untuk mengungkap pemimpin sirkus, lembar aktivitas gratis untuk anak usia 6–9 tahun.",
+          "image_alt": "Beruang pemimpin sirkus bertopi tinggi dan berjas, puzzle cetak 74 titik"
+        },
+        "meta_description": "Kenalan dengan beruang yang memimpin pertunjukan besar! Hubungkan 74 titik untuk mengungkap pemimpin sirkus, lembar aktivitas gratis untuk anak usia 6–9 tahun — puzzle menghubungkan titik susah.",
         "json_ld": {
-          "name": "Beruang Pengatur Sirkus",
+          "description": "Pemimpin sirkus memperkenalkan para pemain dan memandu pertunjukan. Hubungkan 74 titik dalam lembar kerja menghubungkan titik gratis ini untuk anak usia 6–9 tahun.",
+          "name": "Beruang Pemimpin Sirkus",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/circus-ringmaster-bear-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
         "name": "Beruang Pengatur Sirkus",
+        "h1": "Beruang Pemimpin Sirkus Menghubungkan Titik — 74 Titik Keseruan Sirkus",
         "tagline": "Temui Beruang yang Menjalankan Pertunjukan Besar!",
         "description": "Sambungkan 74 titik untuk mengungkap beruang ramah yang mengenakan kostum pengatur sirkus. Printable tingkat menengah ini membantu anak-anak berlatih urutan angka, konsentrasi, pelacakan visual, dan kontrol pensil yang hati-hati",
         "fun_fact": "Seorang pengatur sirkus memperkenalkan para penampil dan membimbing penonton dari satu aksi ke aksi berikutnya.",
@@ -174,21 +197,33 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Cara menyelesaikan teka-teki hubungkan titik Beruang Pengatur Sirkus"
         }
       }
     },
     {
       "slug": "circus-tent-dot-to-dot-puzzle",
       "header": {
+        "title": "Tenda Sirkus Menghubungkan Titik — 59 Titik, Gratis Cetak",
+        "og": {
+          "title": "Tenda Sirkus Menghubungkan Titik — 59 Titik, Gratis Cetak",
+          "description": "Ayo masuk ke tenda besar! Hubungkan 59 titik untuk mengungkap tenda sirkus bergaris ceria, lembar aktivitas gratis untuk anak usia 5–8 tahun.",
+          "image_alt": "Tenda sirkus bergaris dengan bendera di atasnya, puzzle cetak 59 titik"
+        },
+        "meta_description": "Ayo masuk ke tenda besar! Hubungkan 59 titik untuk mengungkap tenda sirkus bergaris ceria, lembar aktivitas gratis untuk anak usia 5–8 tahun — lembar kerja menghubungkan titik angka.",
         "json_ld": {
+          "description": "Tenda utama sirkus adalah tenda terbesar dalam pertunjukan. Hubungkan 59 titik dalam lembar kerja menghubungkan titik gratis ini untuk anak usia 5–8 tahun.",
           "name": "Tenda Sirkus",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/circus-tent-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
         "name": "Tenda Sirkus",
+        "h1": "Tenda Sirkus Menghubungkan Titik — 59 Titik untuk Petualangan Seru",
         "tagline": "Langkah ke Depan untuk Petualangan Big-Top!",
         "description": "Sambungkan 59 titik untuk mengungkap tenda sirkus bergaris yang ceria siap untuk pertunjukan. Printable mudah ini membantu anak-anak berlatih menghitung secara berurutan, pelacakan visual, konsentrasi, dan kontrol pensil yang stabil",
         "fun_fact": "Tenda pertunjukan utama sirkus sering disebut big top karena merupakan tenda terbesar di pertunjukan.",
@@ -351,7 +386,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Cara menyelesaikan teka-teki hubungkan titik Tenda Sirkus"
         }
       }
     }

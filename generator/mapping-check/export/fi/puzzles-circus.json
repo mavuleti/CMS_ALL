@@ -1,5 +1,17 @@
 {
-  "collection": {},
+  "collection": {
+    "header": {
+      "title": "Sirkusaiheiset pisteestä pisteeseen -tulostettavat lapsille",
+      "meta_description": "Astu sirkukseen ilmaisten pisteestä pisteeseen -tehtävien parissa: mukana ovat ystävällinen tirehtöörikarhu ja raidallinen sirkusteltta. Lataa ja tulosta molemmat PDF-tehtävät.",
+      "og": {
+        "title": "Sirkusaiheiset pisteestä pisteeseen -tulostettavat lapsille",
+        "description": "Astu sirkukseen ilmaisten pisteestä pisteeseen -tehtävien parissa: mukana ovat ystävällinen tirehtöörikarhu ja raidallinen sirkusteltta. Lataa ja tulosta molemmat PDF-tehtävät."
+      }
+    },
+    "body": {
+      "h1": "Sirkusaiheiset pisteestä pisteeseen -tulostettavat lapsille"
+    }
+  },
   "puzzles": [
     {
       "slug": "circus-ringmaster-bear-dot-to-dot-puzzle",
@@ -7,14 +19,17 @@
         "title": "Sirkustirehtääri-karhu – yhdistä pisteet 74 kpl (tulostettava)",
         "og": {
           "title": "Sirkustirehtääri-karhu – yhdistä pisteet 74 kpl (tulostettava)",
-          "description": "Paljasta ystävällinen sirkustirehtääri-karhu yhdistämällä 74 pistettä. Ilmainen tulostettava PDF sopii numerojärjestyksen ja kynänhallinnan harjoitteluun."
+          "description": "Paljasta ystävällinen sirkustirehtääri-karhu yhdistämällä 74 pistettä. Ilmainen tulostettava PDF sopii numerojärjestyksen ja kynänhallinnan harjoitteluun.",
+          "image_alt": "Sirkustirehtööri-karhu korkeassa hatussa ja takissa, 74 pisteen tulostettava tehtävä"
         },
         "meta_description": "Yhdistä 74 pistettä ja paljasta ystävällinen sirkustirehtääri-karhu. Ilmainen tulostettava pisteestä pisteeseen -tehtävä harjoittaa numerojärjestystä ja kynänhallintaa — Yhdistä pisteet 1-100 tulostus.",
         "json_ld": {
           "description": "Tämä 74 pisteen sirkustirehtääri-karhu on ilmainen tulostettava yhdistä pisteet -tehtävä, joka harjoittaa numerojärjestystä, keskittymistä ja kynänhallintaa.",
           "name": "Sirkustirehtööri-karhu",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/circus-ringmaster-bear-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
@@ -182,7 +197,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Näin ratkaiset Sirkustirehtööri-karhu-yhdistä pisteet -tehtävän"
         }
       }
     },
@@ -192,14 +208,17 @@
         "title": "Sirkusteltta – yhdistä pisteet 59 kpl, helppo tulostettava",
         "og": {
           "title": "Sirkusteltta – yhdistä pisteet 59 kpl, helppo tulostettava",
-          "description": "Paljasta raidallinen sirkusteltta yhdistämällä 59 pistettä. Helppo ja ilmainen tulostettava tehtävä pienille lapsille."
+          "description": "Paljasta raidallinen sirkusteltta yhdistämällä 59 pistettä. Helppo ja ilmainen tulostettava tehtävä pienille lapsille.",
+          "image_alt": "Raidallinen sirkusteltta lipulla huipulla, 59 pisteen tulostettava tehtävä"
         },
         "meta_description": "Yhdistä 59 pistettä ja paljasta iloinen raidallinen sirkusteltta. Helppo, ilmainen pisteestä pisteeseen -tulostettava pienille lapsille — Yhdistä pisteet tulostettava PDF.",
         "json_ld": {
           "description": "Tämä 59 pisteen sirkusteltta on helppo, ilmainen yhdistä pisteet -tehtävä aloitteleville laskijoille.",
           "name": "Sirkusteltta",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/circus-tent-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -367,7 +386,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Näin ratkaiset Sirkusteltta-yhdistä pisteet -tehtävän"
         }
       }
     }

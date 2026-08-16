@@ -1,5 +1,17 @@
 {
-  "collection": {},
+  "collection": {
+    "header": {
+      "title": "Disegni da completare unendo i puntini a tema giardino per bambini",
+      "meta_description": "Inizia a coltivare! Unisci i puntini per scoprire guanti da giardinaggio, palette e utili attrezzi da giardino. Tutti i fogli di lavoro sono scaricabili e stampabili gratuitamente, senza bisogno di creare un account.",
+      "og": {
+        "title": "Disegni da completare unendo i puntini a tema giardino per bambini",
+        "description": "Inizia a coltivare! Unisci i puntini per scoprire guanti da giardinaggio, palette e utili attrezzi da giardino. Tutti i fogli di lavoro sono scaricabili e stampabili gratuitamente, senza bisogno di creare un account."
+      }
+    },
+    "body": {
+      "h1": "Disegni da completare unendo i puntini a tema giardino per bambini"
+    }
+  },
   "puzzles": [
     {
       "slug": "garden-gloves-dot-to-dot-puzzle",
@@ -15,7 +27,9 @@
           "description": "I guanti da giardino proteggono le piccole mani dalla terra e dalle piante spinose. Collega 54 puntini in questo foglio di lavoro stampabile gratuito per bambini dai 4 agli 8 anni.",
           "name": "Guanti da giardinaggio",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/garden-gloves-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -156,7 +170,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Come risolvere il puzzle unisci i puntini Guanti da giardinaggio"
         }
       }
     },
@@ -174,7 +189,9 @@
           "description": "Inizia a praticare con la matita con una pala da giardino a 39 puntini. Il PDF gratuito da puntini da unire offre ai bambini dai 4 ai 7 anni un'attività breve e realizzabile.",
           "name": "Cazzuola da giardino",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/garden-trowel-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-7"
         }
       },
       "body": {
@@ -288,7 +305,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Come risolvere il puzzle unisci i puntini Cazzuola da giardino"
         }
       }
     },
@@ -306,7 +324,9 @@
           "description": "I carrelli sono stati inventati nella Cina antica oltre 2.000 anni fa. Costruiscine uno attraverso 85 puntini con questo PDF stampabile gratuito per età 5–9.",
           "name": "Parco giochi con carriola",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/wheelbarrow-playground-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
@@ -447,7 +467,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Come risolvere il puzzle unisci i puntini Parco giochi con carriola"
         }
       }
     }

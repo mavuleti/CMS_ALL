@@ -1,5 +1,17 @@
 {
-  "collection": {},
+  "collection": {
+    "header": {
+      "title": "چاپ‌های نقطه به نقطه باغ برای کودکان",
+      "meta_description": "رشد کنید! نقاط را به هم وصل کنید تا دستکش‌های باغبانی، بیلچه‌ها و ابزارهای مفید باغبانی را ببینید. دانلود و چاپ همه برگه‌های تمرین رایگان است - نیازی به حساب کاربری نیست.",
+      "og": {
+        "title": "چاپ‌های نقطه به نقطه باغ برای کودکان",
+        "description": "رشد کنید! نقاط را به هم وصل کنید تا دستکش‌های باغبانی، بیلچه‌ها و ابزارهای مفید باغبانی را ببینید. دانلود و چاپ همه برگه‌های تمرین رایگان است - نیازی به حساب کاربری نیست."
+      }
+    },
+    "body": {
+      "h1": "چاپ‌های نقطه به نقطه باغ برای کودکان"
+    }
+  },
   "puzzles": [
     {
       "slug": "garden-gloves-dot-to-dot-puzzle",
@@ -15,7 +27,9 @@
           "description": "دستکش‌های باغبانی از دستان کوچک در برابر کثیفی و گیاهان خاردار محافظت می‌کنند. 54 نقطه را در این ورق کار چاپی رایگان برای کودکان 4 تا 8 سال متصل کنید.",
           "name": "دستکش باغبانی",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/garden-gloves-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -156,7 +170,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "چگونه پازل نقطه به نقطه دستکش باغبانی را حل کنیم"
         }
       }
     },
@@ -174,7 +189,9 @@
           "description": "با یک بیلچه باغبانی 39 نقطه‌ای به تمرین زودهنگام مداد بپردازید. PDF نقطه به نقطه رایگان یک فعالیت کوتاه و قابل دستیابی برای کودکان 4 تا 7 سال فراهم می‌کند.",
           "name": "ماله باغبانی",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/garden-trowel-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-7"
         }
       },
       "body": {
@@ -288,7 +305,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "چگونه پازل نقطه به نقطه ماله باغبانی را حل کنیم"
         }
       }
     },
@@ -306,7 +324,9 @@
           "description": "چرخ دستی‌ها بیش از 2000 سال پیش در چین باستان اختراع شدند. با این PDF چاپی رایگان برای سنین 5 تا 9، یکی را در 85 نقطه بسازید.",
           "name": "زمین بازی چرخ دستی",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/wheelbarrow-playground-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
@@ -447,7 +467,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "چگونه پازل نقطه به نقطه زمین بازی چرخ دستی را حل کنیم"
         }
       }
     }

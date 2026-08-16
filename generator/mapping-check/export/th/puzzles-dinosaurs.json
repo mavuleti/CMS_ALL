@@ -1,5 +1,17 @@
 {
-  "collection": {},
+  "collection": {
+    "header": {
+      "title": "แบบฝึกหัดลากเส้นต่อจุดรูปไดโนเสาร์สำหรับเด็ก",
+      "meta_description": "เชื่อมจุดเพื่อเผยไดโนเสาร์ตัวโปรดของคุณ! สามารถดาวน์โหลดและพิมพ์แบบฝึกหัดทั้งหมดได้ฟรี โดยไม่ต้องสมัครบัญชี เหมาะสำหรับเด็กอายุ 4-10 ปี เด็กก่อนวัยเรียน อนุบาล และใช้ในห้องเรียน",
+      "og": {
+        "title": "แบบฝึกหัดลากเส้นต่อจุดรูปไดโนเสาร์สำหรับเด็ก",
+        "description": "เชื่อมจุดเพื่อเผยไดโนเสาร์ตัวโปรดของคุณ! สามารถดาวน์โหลดและพิมพ์แบบฝึกหัดทั้งหมดได้ฟรี โดยไม่ต้องสมัครบัญชี เหมาะสำหรับเด็กอายุ 4-10 ปี เด็กก่อนวัยเรียน อนุบาล และใช้ในห้องเรียน"
+      }
+    },
+    "body": {
+      "h1": "แบบฝึกหัดลากเส้นต่อจุดรูปไดโนเสาร์สำหรับเด็ก"
+    }
+  },
   "puzzles": [
     {
       "slug": "trex-61-dot-to-dot-puzzle",
@@ -15,7 +27,9 @@
           "description": "T-Rex เปลี่ยนฟันที่หายไปตลอดชีวิตของมัน เชื่อมต่อ 61 จุดใน PDF จุดต่อจุดที่พิมพ์ได้ฟรีสำหรับเด็กอายุ 6–9 ปี จากคอลเล็กชันปี 2026 ของเรา",
           "name": "ความท้าทาย 61 จุด ทีเร็กซ์",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/trex-61-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "6-9"
         }
       },
       "body": {
@@ -210,7 +224,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "วิธีแก้ปริศนาลากเส้นต่อจุด ความท้าทาย 61 จุด ทีเร็กซ์"
         }
       }
     },
@@ -228,7 +243,9 @@
           "description": "นกกระจอกเทศสามารถวิ่งได้ถึง 45 ไมล์ต่อชั่วโมง เปิดเผยหนึ่งใน 55 จุดในหน้าจุดต่อจุดฟรีของเราสำหรับเด็กอายุ 5–8 ปี โดยมี PDF ที่พิมพ์ได้พร้อมใช้งาน",
           "name": "นกกระจอกเทศ",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/ostriches-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-8"
         }
       },
       "body": {
@@ -396,7 +413,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "วิธีแก้ปริศนาลากเส้นต่อจุด นกกระจอกเทศ"
         }
       }
     },
@@ -414,7 +432,9 @@
           "description": "บรอนโตซอรัสหมายถึงไดโนเสาร์ฟ้าผ่า ลากคอและหางยาวของมันผ่าน 50 จุดด้วยแผ่นจุดต่อจุดที่พิมพ์ได้ฟรีสำหรับเด็กอายุ 4–7 ปี",
           "name": "บรอนโตซอรัส",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/brontosaurus-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-7"
         }
       },
       "body": {
@@ -582,7 +602,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "วิธีแก้ปริศนาลากเส้นต่อจุด บรอนโตซอรัส"
         }
       }
     },
@@ -600,7 +621,9 @@
           "description": "ไทรเซอราทอปส์มีเขาสามเขาและขอบกระดูกกว้าง เชื่อมต่อ 70 จุดด้วยแผ่นงานจุดต่อจุดฟรีนี้สำหรับเด็กอนุบาลและเกรดหนึ่ง",
           "name": "ไทรเซอราทอปส์",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/triceratops-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "6-9"
         }
       },
       "body": {
@@ -768,7 +791,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "วิธีแก้ปริศนาลากเส้นต่อจุด ไทรเซอราทอปส์"
         }
       }
     },
@@ -786,7 +810,9 @@
           "description": "เวโลซิแรพเตอร์จริงมีขนาดเท่ากับไก่งวงและมีขน เผยให้เห็นหนึ่งใน 54 จุดด้วยการพิมพ์จุดต่อจุดนี้สำหรับเด็กอายุ 5–8 ปี",
           "name": "เวลโลซิแรปเตอร์",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/velociraptor-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "6-9"
         }
       },
       "body": {
@@ -954,7 +980,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "วิธีแก้ปริศนาลากเส้นต่อจุด เวลโลซิแรปเตอร์"
         }
       }
     },
@@ -972,7 +999,9 @@
           "description": "ติดตามสเตโกซอรัสจากแผ่นเพชรที่มีรูปทรงเพชรไปยังหางที่มีหนามใน 52 จุด รับแผ่นพิมพ์จุดต่อจุดฟรีสำหรับเด็กอายุ 4–7 ปี",
           "name": "สเตโกซอรัส",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/stegosaurus-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-7"
         }
       },
       "body": {
@@ -1140,7 +1169,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "วิธีแก้ปริศนาลากเส้นต่อจุด สเตโกซอรัส"
         }
       }
     },
@@ -1158,7 +1188,9 @@
           "description": "สไปโนซอรัสยาวกว่าที-เร็กซ์และมีใบเรือขนาดใหญ่ เผยให้เห็นมันใน 74 จุดใน PDF จุดต่อจุดฟรีนี้สำหรับชั้นประถมศึกษาปีที่ 1–2",
           "name": "สไปโนซอรัส",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/spinosaurus-74-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "6-10"
         }
       },
       "body": {
@@ -1326,7 +1358,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "วิธีแก้ปริศนาลากเส้นต่อจุด สไปโนซอรัส"
         }
       }
     },
@@ -1344,7 +1377,9 @@
           "description": "บราคิโอซอรัสมีหัวเล็กอยู่บนคอยาวที่สูงตระหง่าน เชื่อมต่อ 38 จุดเพื่อเผยให้เห็นยักษ์จูราสสิคนี้ในปริศนาที่ออกแบบมาสำหรับเด็กอายุ 5–9 ปี",
           "name": "บราคิโอซอรัส",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "dummy-brachiosaurus",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
@@ -1485,7 +1520,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "วิธีแก้ปริศนาลากเส้นต่อจุด บราคิโอซอรัส"
         }
       }
     },
@@ -1503,7 +1539,9 @@
           "description": "แม้แต่แองคิโลซอรัสก็มีเกราะกระดูกปกคลุมเปลือกตาของมัน เปิดเผยร่างกายที่ได้รับการปกป้องและหางที่มีลูกตุ้มผ่าน 32 จุดในปริศนาสำหรับเด็กอายุ 5–8 ปี",
           "name": "แอนคิโลซอรัส",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "dummy-ankylosaurus",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-8"
         }
       },
       "body": {
@@ -1644,7 +1682,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "วิธีแก้ปริศนาลากเส้นต่อจุด แอนคิโลซอรัส"
         }
       }
     },
@@ -1662,7 +1701,9 @@
           "description": "พเทอโรดัคทิลเป็นพีเทอโรซอร์ที่บินได้ ไม่ใช่ไดโนเสาร์ เชื่อมต่อ 67 จุดด้วย PDF จุดต่อจุดที่พิมพ์ได้ฟรีสำหรับเด็กอายุ 6–9 ปี",
           "name": "เทอโรแดคทิล",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/pterodactyl-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "6-9"
         }
       },
       "body": {
@@ -1830,7 +1871,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "วิธีแก้ปริศนาลากเส้นต่อจุด เทอโรแดคทิล"
         }
       }
     },
@@ -1848,7 +1890,9 @@
           "description": "แอลโลซอรัสปกครองยุคเจอราสสิคก่อนที่ทีเร็กซ์จะปรากฏตัว ตาม 42 จุดรอบๆ นักล่าที่ทรงพลังนี้ในปริศนาที่ออกแบบมาสำหรับเด็กอายุ 6–10 ปี",
           "name": "อัลโลซอรัส",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "dummy-allosaurus",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "6-10"
         }
       },
       "body": {
@@ -2016,7 +2060,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "วิธีแก้ปริศนาลากเส้นต่อจุด อัลโลซอรัส"
         }
       }
     }

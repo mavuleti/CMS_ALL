@@ -27,3 +27,24 @@ every field without exception — including ones that look decorative or seconda
 See [[project_full_translation_policy]] equivalent context in memory: as of 2026-08-10,
 every locale must be 100% translated — this file makes that rule enforceable, not just
 aspirational.
+
+## No truncation of any content value — ever, in export or DB tooling
+
+Every value in `content/{locale}/*.json` must be the full, complete value — no length
+limit applied anywhere in the pipeline that produces it.
+
+- This bit us for real: `../mapping-check/_DB_Extra_scripts/audit_blog.py` used to clip
+  any value over 500 chars to `text[:499] + "…"` before writing it into the DB row that
+  `../mapping-check/DB-TO-Json-tool/export_locale_content.py` later exported verbatim.
+  It shipped `blog.json` paragraphs cut off mid-`<a>`-tag to every locale, with valid JSON
+  and no error — just silently missing content.
+- `../mapping-check/_DB_Extra_scripts/value_repr.py`'s `full_repr()` is the shared,
+  no-limit serializer for anything written into a `mapping_audit` DB row — never
+  reimplement a local `compact_repr(..., limit=N)`.
+- Nested objects (e.g. a related-link `{title, href, description}`, a hero image
+  `{alt}`) must be decomposed into one DB row per sub-key, not `json.dumps()`'d whole
+  into a single string field — a JSON string where the app expects a real object breaks
+  the feature, not just the validator (see `../mapping-check/POPULATE-NEW-LANGUAGE-RULES.md`
+  §3b for the full incident writeup).
+- `export_locale_content.py` itself must never impose a length limit either — the DB
+  value is written to the content JSON as-is.

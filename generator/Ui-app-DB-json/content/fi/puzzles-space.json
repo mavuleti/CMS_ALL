@@ -1,5 +1,17 @@
 {
-  "collection": {},
+  "collection": {
+    "header": {
+      "title": "Ilmaiset avaruus yhdistä pisteet -tulostettavat lapsille",
+      "meta_description": "Lähde matkaan ilmaisilla avaruuden yhdistä pisteet -työlehdillä. Tulosta ystävällinen rover-palapeli tänään, lisää raketteja, planeettoja ja kosmisia seikkailuja on tulossa pian.",
+      "og": {
+        "title": "Ilmaiset avaruus yhdistä pisteet -tulostettavat lapsille",
+        "description": "Lähde matkaan ilmaisilla avaruuden yhdistä pisteet -työlehdillä. Tulosta ystävällinen rover-palapeli tänään, lisää raketteja, planeettoja ja kosmisia seikkailuja on tulossa pian."
+      }
+    },
+    "body": {
+      "h1": "Ilmaiset avaruus yhdistä pisteet -tulostettavat lapsille"
+    }
+  },
   "puzzles": [
     {
       "slug": "crescent-moon-dot-to-dot-puzzle",
@@ -7,14 +19,17 @@
         "title": "Kuunsirppi – yhdistä pisteet 60 kpl, helppo tulostettava",
         "og": {
           "title": "Kuunsirppi – yhdistä pisteet 60 kpl, helppo tulostettava",
-          "description": "Paljasta kaunis kuunsirppi yhdistämällä 60 helppoa pistettä. Ilmainen tulostettava tehtävä harjoittaa numerojärjestystä ja kynänhallintaa."
+          "description": "Paljasta kaunis kuunsirppi yhdistämällä 60 helppoa pistettä. Ilmainen tulostettava tehtävä harjoittaa numerojärjestystä ja kynänhallintaa.",
+          "image_alt": "Hehkuva kuunsirppi yötaivaalla, 60 pisteen tulostettava tehtävä"
         },
         "meta_description": "Yhdistä 60 helppoa pistettä ja paljasta kaunis kuunsirppi yötaivaalla. Ilmainen tulostettava pisteestä pisteeseen -tehtävä pienille lapsille — Pisteestä pisteeseen tehtävät ilmaiseksi.",
         "json_ld": {
           "description": "Tämä 60 pisteen kuunsirppi on helppo, ilmainen yhdistä pisteet -tehtävä pienille lapsille.",
           "name": "Kuunsirppi",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/space-crescent-moon-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -182,7 +197,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Näin ratkaiset Kuunsirppi-yhdistä pisteet -tehtävän"
         }
       }
     },
@@ -192,14 +208,17 @@
         "title": "Renkaallinen planeetta – yhdistä pisteet 43 kpl, helppo tulostettava",
         "og": {
           "title": "Renkaallinen planeetta – yhdistä pisteet 43 kpl, helppo tulostettava",
-          "description": "Paljasta avaruudessa leijuva renkaallinen planeetta yhdistämällä 43 helppoa pistettä. Ilmainen tulostettava tehtävä pienille lapsille."
+          "description": "Paljasta avaruudessa leijuva renkaallinen planeetta yhdistämällä 43 helppoa pistettä. Ilmainen tulostettava tehtävä pienille lapsille.",
+          "image_alt": "Rengasplaneetta leijumassa avaruudessa, 43 pisteen tulostettava tehtävä pienille lapsille"
         },
         "meta_description": "Yhdistä 43 helppoa pistettä ja paljasta renkaallinen planeetta avaruudessa. Ilmainen tulostettava pisteestä pisteeseen -tehtävä nuoremmille lapsille — Yhdistä pisteet kuvat lapsille.",
         "json_ld": {
           "description": "Tämä 43 pisteen renkaallinen planeetta on helppo, ilmainen yhdistä pisteet -tehtävä nuoremmille lapsille.",
           "name": "Renkaallinen Planeetta",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/space-ringed-planet-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-7"
         }
       },
       "body": {
@@ -340,7 +359,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Näin ratkaiset Renkaallinen Planeetta-yhdistä pisteet -tehtävän"
         }
       }
     },
@@ -350,14 +370,17 @@
         "title": "Avaruusrover – yhdistä pisteet 59 kpl, ilmainen tulostettava",
         "og": {
           "title": "Avaruusrover – yhdistä pisteet 59 kpl, ilmainen tulostettava",
-          "description": "Paljasta ystävällinen avaruusrover yhdistämällä 59 pistettä. Ilmainen tulostettava tehtävä harjoittaa numerojärjestystä ja kynänhallintaa."
+          "description": "Paljasta ystävällinen avaruusrover yhdistämällä 59 pistettä. Ilmainen tulostettava tehtävä harjoittaa numerojärjestystä ja kynänhallintaa.",
+          "image_alt": "Ystävällinen avaruusmönkijä pyörillä tutkimassa toista maailmaa, 59 pisteen tulostettava tehtävä"
         },
         "meta_description": "Yhdistä 59 pistettä ja paljasta ystävällinen avaruusrover, joka on valmis tutkimaan toista maailmaa. Ilmainen pisteestä pisteeseen -tulostettava lapsille — Pistepeli numerot piirtäminen.",
         "json_ld": {
           "description": "Tämä 59 pisteen avaruusrover on ilmainen yhdistä pisteet -tehtävä, joka harjoittaa numerojärjestystä ja keskittymistä.",
           "name": "Avaruusrover",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/space-rover-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -525,7 +548,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Näin ratkaiset Avaruusrover-yhdistä pisteet -tehtävän"
         }
       }
     }

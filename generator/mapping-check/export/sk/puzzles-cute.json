@@ -1,5 +1,21 @@
 {
-  "collection": {},
+  "collection": {
+    "header": {
+      "title": "Roztomilé tlačiteľné materiály s bodkami pre deti",
+      "meta_description": "Pripravte sa na maximálnu roztomilosť! Spojte bodky a odhaľte rozkošné šteniatka, malé autíčka a ďalších očarujúcich priateľov. Všetky pracovné listy si môžete zadarmo stiahnuť a vytlačiť – nie je potrebný žiadny účet.",
+      "og": {
+        "title": "Roztomilé tlačiteľné materiály s bodkami pre deti",
+        "description": "Pripravte sa na maximálnu roztomilosť! Spojte bodky a odhaľte rozkošné šteniatka, malé autíčka a ďalších očarujúcich priateľov. Všetky pracovné listy si môžete zadarmo stiahnuť a vytlačiť – nie je potrebný žiadny účet."
+      },
+      "json_ld": {
+        "description": "Pripravte sa na maximálnu roztomilosť! Spojte bodky a odhaľte rozkošné šteniatka, malé autíčka a ďalších očarujúcich priateľov. Všetky pracovné listy si môžete zadarmo stiahnuť a vytlačiť – nie je potrebný žiadny účet."
+      }
+    },
+    "body": {
+      "h1": "Roztomilé tlačiteľné materiály s bodkami pre deti",
+      "description": "Pripravte sa na maximálnu roztomilosť! Spojte bodky a odhaľte rozkošné šteniatka, malé autíčka a ďalších očarujúcich priateľov. Všetky pracovné listy si môžete zadarmo stiahnuť a vytlačiť – nie je potrebný žiadny účet."
+    }
+  },
   "puzzles": [
     {
       "slug": "cute-puppy-dot-to-dot-puzzle",
@@ -15,8 +31,8 @@
           "description": "Novorodené šteniatka nemôžu vidieť ani počuť približne dva týždne. Odhaľte toto zvedavé šteniatko cez 70 bodov s bezplatným tlačiteľným PDF pre vek 5–9 rokov.",
           "name": "Roztomilé šteniatko",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing",
           "image": "/images/cute-puppy-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
           "age_range": "5-9"
         }
       },
@@ -144,7 +160,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Ako vyriešiť obrázok spoj bodky Roztomilé šteniatko"
         }
       }
     },
@@ -162,7 +179,9 @@
           "description": "Prejdi cez 55 číslovaných bodov, aby si postavil veselého malého autíčko. Bezplatný tlačiteľný PDF ponúka priateľskú sekvenčnú aktivitu pre deti vo veku 4–8 rokov.",
           "name": "Roztomilé malé auto",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/cute-little-car-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -269,7 +288,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Ako vyriešiť obrázok spoj bodky Roztomilé malé auto"
         }
       }
     },
@@ -287,7 +307,9 @@
           "description": "Levíčatá mňaukajú, kým sa nenaučia hromžiť. Vytvarujte mladého leva cez 74 bodov s týmto voľným tlačiteľným pracovným listom pre deti vo veku 5–9 rokov.",
           "name": "Roztomilý lev",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/cute-lion-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
@@ -414,7 +436,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Ako vyriešiť obrázok spoj bodky Roztomilý lev"
         }
       }
     },
@@ -432,7 +455,9 @@
           "description": "Motýle chutnajú senzormi na svojich nohách. Spojte 67 bodov, aby ste rozprestreli krídla tohto motýľa s vzorom v bezplatnom tlačiteľnom PDF pre vek 5–9.",
           "name": "Roztomilý motýľ",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/cute-butterfly-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
@@ -539,7 +564,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Ako vyriešiť obrázok spoj bodky Roztomilý motýľ"
         }
       }
     },
@@ -557,7 +583,9 @@
           "description": "Odpočítavajte od bodu 1 a zostavte raketu cez 66 bodov. Stiahnite si bezplatný PDF s vesmírnou témou pre mladých objaviteľov vo veku 4–8 rokov.",
           "name": "Roztomilá raketová loď",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/cute-rocket-ship-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -664,7 +692,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Ako vyriešiť obrázok spoj bodky Roztomilá raketová loď"
         }
       }
     },
@@ -682,7 +711,9 @@
           "description": "Bábätkové morská korytnačka nasleduje najjasnejší horizont smerom k oceánu. Vedieme tohto malého prieskumníka cez 65 bodov v bezplatnom PDF pre vek 4–8.",
           "name": "Roztomilé mláďa korytnačky",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/cute-baby-turtle-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -789,7 +820,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Ako vyriešiť obrázok spoj bodky Roztomilé mláďa korytnačky"
         }
       }
     },
@@ -807,7 +839,9 @@
           "description": "Fixované oči pomáhajú vysvetliť, prečo sa sovy otáčajú tak ďaleko. Odhaľte sovu s veľkými očami cez 65 bodov s touto bezplatnou tlačiteľnou verziou pre vek 4–8 rokov.",
           "name": "Roztomilá sova",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/cute-owl-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -914,7 +948,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Ako vyriešiť obrázok spoj bodky Roztomilá sova"
         }
       }
     },
@@ -932,7 +967,9 @@
           "description": "Krabie nohy sú stavané na rýchly bočný pohyb. Prejdite 72 bodkami, aby ste dokončili tento veselý krabí PDF pre deti vo veku 5–9 rokov.",
           "name": "Veselý krab",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/cute-crab-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
@@ -1039,7 +1076,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Ako vyriešiť obrázok spoj bodky Veselý krab"
         }
       }
     },
@@ -1057,7 +1095,9 @@
           "description": "Bábätká slonov niekedy cucajú svoje choboty pre pohodlie. Spoznajte tohto jemného mladíka v 50 bodoch s bezplatným tlačiteľným PDF pre vek 4–8.",
           "name": "Roztomilý sloník",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/cute-baby-elephant-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -1164,7 +1204,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Ako vyriešiť obrázok spoj bodky Roztomilý sloník"
         }
       }
     },
@@ -1182,7 +1223,9 @@
           "description": "Žaby absorbujú kyslík čiastočne cez svoju vlhkú pokožku. Skáčte cez 82 bodov, aby ste odhalili usmievajúcu sa žabu v tomto bezplatnom PDF pre deti vo veku 6–10 rokov.",
           "name": "Roztomilá šťastná žaba",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/cute-happy-frog-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "6-10"
         }
       },
       "body": {
@@ -1289,7 +1332,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Ako vyriešiť obrázok spoj bodky Roztomilá šťastná žaba"
         }
       }
     },
@@ -1307,7 +1351,9 @@
           "description": "Trblietavý šat a koruna sa objavia, keď deti spoja 57 kráľovských bodov. Vytlačte bezplatný PDF súbor s princeznou na imaginatívne cvičenie čísel vo veku 4–8 rokov.",
           "name": "Roztomilá princezná",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/cute-princess-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -1414,7 +1460,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Ako vyriešiť obrázok spoj bodky Roztomilá princezná"
         }
       }
     }

@@ -1,5 +1,17 @@
 {
-  "collection": {},
+  "collection": {
+    "header": {
+      "title": "Záhradné bodkované tlačiteľné materiály pre deti",
+      "meta_description": "Začnite pestovať! Spojte bodky a odhaľte záhradné rukavice, lyžice a praktické záhradné náradie. Všetky pracovné listy si môžete zadarmo stiahnuť a vytlačiť – nie je potrebný žiadny účet.",
+      "og": {
+        "title": "Záhradné bodkované tlačiteľné materiály pre deti",
+        "description": "Začnite pestovať! Spojte bodky a odhaľte záhradné rukavice, lyžice a praktické záhradné náradie. Všetky pracovné listy si môžete zadarmo stiahnuť a vytlačiť – nie je potrebný žiadny účet."
+      }
+    },
+    "body": {
+      "h1": "Záhradné bodkované tlačiteľné materiály pre deti"
+    }
+  },
   "puzzles": [
     {
       "slug": "garden-gloves-dot-to-dot-puzzle",
@@ -15,7 +27,9 @@
           "description": "Záhradné rukavice chránia malé ruky pred špinou a pichľavými rastlinami. Spojte 54 bodov v tomto bezplatnom tlačiteľnom pracovnom liste pre deti vo veku 4–8 rokov.",
           "name": "Záhradné rukavice",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/garden-gloves-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -156,7 +170,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Ako vyriešiť obrázok spoj bodky Záhradné rukavice"
         }
       }
     },
@@ -174,7 +189,9 @@
           "description": "Začnite s raným cvičením s ceruzkou pomocou 39-bodovej záhradnej lopatky. Bezplatný PDF spoj bodov poskytuje deťom vo veku 4–7 rokov krátku, dosiahnuteľnú aktivitu.",
           "name": "Záhradná murárska lyžica",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/garden-trowel-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-7"
         }
       },
       "body": {
@@ -288,7 +305,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Ako vyriešiť obrázok spoj bodky Záhradná murárska lyžica"
         }
       }
     },
@@ -306,7 +324,9 @@
           "description": "Vozíky boli vynájdené v starovekej Číne pred viac ako 2 000 rokmi. Postavte jeden cez 85 bodov s týmto bezplatným tlačiteľným PDF pre vek 5–9 rokov.",
           "name": "Ihrisko s fúrikmi",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/wheelbarrow-playground-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
@@ -447,7 +467,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Ako vyriešiť obrázok spoj bodky Ihrisko s fúrikmi"
         }
       }
     }

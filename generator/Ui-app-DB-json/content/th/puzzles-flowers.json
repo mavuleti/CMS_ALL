@@ -1,5 +1,17 @@
 {
-  "collection": {},
+  "collection": {
+    "header": {
+      "title": "ใบงานลากเส้นต่อจุดดอกไม้สำหรับเด็ก",
+      "og": {
+        "title": "ใบงานลากเส้นต่อจุดดอกไม้ฟรี 20 แบบสำหรับเด็ก",
+        "description": "กุหลาบ ทิวลิป กล้วยไม้ และอื่นๆ — ใบงานลากเส้นต่อจุดฟรีสำหรับเด็ก พร้อมดาวน์โหลดและพิมพ์ได้ทันที"
+      },
+      "meta_description": "ผ่อนคลายไปกับกลีบดอก ลวดลาย และเส้นทางตัวเลข ตั้งแต่ดอกสโนว์ดรอปและลิลลี่ ไปจนถึงกล้วยไม้และกุหลาบ ใบงานลากเส้นต่อจุดดอกไม้ฟรีเหล่านี้ผสมผสานการฝึกลากดินสออย่างสงบเข้ากับภาพที่เด็กๆ สามารถระบายสีได้"
+    },
+    "body": {
+      "h1": "ใบงานลากเส้นต่อจุดดอกไม้สำหรับเด็ก"
+    }
+  },
   "puzzles": [
     {
       "slug": "flax-flower-dot-to-dot-puzzle",
@@ -15,7 +27,9 @@
           "description": "ต้นแฟลกซ์เป็นแหล่งผลิตเส้นใยลินินมาหลายพันปีแล้ว สร้างดอกไม้ที่ละเอียดอ่อนของมันผ่านจุด 90 จุดด้วยไฟล์ PDF สำหรับพิมพ์ฟรีสำหรับเด็กอายุ 6–10 ปี",
           "name": "ดอกแฟลกซ์",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/flower-flax-flower-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "6-10"
         }
       },
       "body": {
@@ -183,7 +197,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "วิธีแก้ปริศนาลากเส้นต่อจุด ดอกแฟลกซ์"
         }
       }
     },
@@ -201,7 +216,9 @@
           "description": "ดอกและใบดาวเรืองน้ำมีรสเผ็ดร้อนเล็กน้อย วาดตามจุด 96 จุดของดอกไม้กินได้นี้ในไฟล์ PDF ฟรีสำหรับอายุ 6–10 ปี",
           "name": "ดอกดาวเรืองน้ำ",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/flower-nasturtium-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "6-10"
         }
       },
       "body": {
@@ -369,7 +386,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "วิธีแก้ปริศนาลากเส้นต่อจุด ดอกดาวเรืองน้ำ"
         }
       }
     },
@@ -387,7 +405,9 @@
           "description": "ดอกซโนว์ดรอปสามารถบานสะพรั่งได้แม้หิมะจะยังปกคลุมสวนอยู่ ผู้แก้โจทย์ที่มีความอดทนอายุ 8–12 ปี สามารถเปิดเผยภาพผ่านจุด 145 จุดได้ใน PDF ฟรีนี้",
           "name": "ดอกซโนว์ดรอป",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/flower-snowdrop-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "8-12"
         }
       },
       "body": {
@@ -582,7 +602,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "วิธีแก้ปริศนาลากเส้นต่อจุด ดอกซโนว์ดรอป"
         }
       }
     },
@@ -600,7 +621,9 @@
           "description": "กลีบดอกที่มีความมันวาวจะสะท้อนแสงและมอบความแวววาวสว่างไสวให้กับดอกแบคพาป ต่อจุด 62 จุดเพื่อเติมเต็มแบบฝึกหัดดอกไม้ฟรีนี้สำหรับเด็กอายุ 5–9 ปี",
           "name": "ดอกแบคพาป",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/flower-buttercup-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
@@ -768,7 +791,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "วิธีแก้ปริศนาลากเส้นต่อจุด ดอกแบคพาป"
         }
       }
     },
@@ -786,7 +810,9 @@
           "description": "คามิเลียมีใบสีเขียวมันวาวตลอดปีและสามารถออกดอกในฤดูหนาว เปิดรับชมกลีบซ้อนกันผ่าน 45 จุดในไฟล์ PDF ฟรีสำหรับเด็กอายุ 4–8 ปี",
           "name": "ดอกคามิเลีย",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/flower-camellia-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -927,7 +953,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "วิธีแก้ปริศนาลากเส้นต่อจุด ดอกคามิเลีย"
         }
       }
     },
@@ -945,7 +972,9 @@
           "description": "กลีบดอกสีฟ้าขนาดเล็กและเกสรสีเหลืองจะปรากฏขึ้นทั่วทั้ง 107 จุด ดาวน์โหลดไฟล์ PDF แบบฝึกหัดพิมพ์ฟรีรายละเอียดสูงสำหรับเด็กอายุ 6–10 ปีนี้ได้เลย",
           "name": "ดอกฟอกเมทน็อต",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/flower-forget-me-not-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "6-10"
         }
       },
       "body": {
@@ -1113,7 +1142,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "วิธีแก้ปริศนาลากเส้นต่อจุด ดอกฟอกเมทน็อต"
         }
       }
     },
@@ -1131,7 +1161,9 @@
           "description": "ดอกเจอร์เรเนียมขนาดเล็กจำนวนมากมารวมตัวกันเป็นพวงกลมมน ใช้แผ่นงานพิมพ์ฟรีสำหรับอายุ 6–10 ปีตามรอยเส้นขอบ 92 จุดนี้ได้เลย",
           "name": "ดอกเจอร์เรเนียม",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/flower-geranium-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "6-10"
         }
       },
       "body": {
@@ -1299,7 +1331,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "วิธีแก้ปริศนาลากเส้นต่อจุด ดอกเจอร์เรเนียม"
         }
       }
     },
@@ -1317,7 +1350,9 @@
           "description": "มะลิจะปล่อยกลิ่นหอมหวานจัดที่สุดหลังพระอาทิตย์ตกดิน วาดรูปทรงดอกดาวด้วยจุด 97 จุด พร้อมดาวน์โหลด PDF ฟรีสำหรับเด็กอายุ 6–10 ปี",
           "name": "ดอกมะลิ",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/flower-jasmine-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "6-10"
         }
       },
       "body": {
@@ -1485,7 +1520,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "วิธีแก้ปริศนาลากเส้นต่อจุด ดอกมะลิ"
         }
       }
     },
@@ -1503,7 +1539,9 @@
           "description": "กลีบดอก 5 กลีบที่ซ้อนทับกันทำให้ดอกผักเบี้ยใหญ่มีรูปร่างคล้ายกังหันลมขนาดเล็ก ต่อจุด 72 จุดในกิจกรรมดอกไม้ดาวน์โหลดฟรีนี้สำหรับเด็กอายุ 5–9 ปี",
           "name": "ดอกผักเบี้ยใหญ่",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/flower-periwinkle-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
@@ -1671,7 +1709,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "วิธีแก้ปริศนาลากเส้นต่อจุด ดอกผักเบี้ยใหญ่"
         }
       }
     },
@@ -1689,7 +1728,9 @@
           "description": "ดอกพิทูเนียรูปแตรมีทั้งสีพื้น ลายทาง และลายจุด เปิดภาพหนึ่งดอกผ่านจุด 53 จุดด้วยไฟล์ PDF แบบฝึกหัดพิมพ์ได้ฟรีสำหรับอายุ 4–8 ปี",
           "name": "ดอกพิทูเนีย",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/flower-petunia-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -1830,7 +1871,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "วิธีแก้ปริศนาลากเส้นต่อจุด ดอกพิทูเนีย"
         }
       }
     },
@@ -1848,7 +1890,9 @@
           "description": "บรรยากาศยามเย็นที่อบอุ่นจะเสริมกลิ่นหอมหวานของดอกพุดเตเรียให้ชัดเจนขึ้น ลากเส้นตามจุด 95 จุดของดอกไม้เขตร้อนนี้ในไฟล์ PDF ฟรีสำหรับเด็กอายุ 6–10 ปี",
           "name": "ดอกพุดเตเรีย",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/flower-plumeria-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "6-10"
         }
       },
       "body": {
@@ -2016,7 +2060,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "วิธีแก้ปริศนาลากเส้นต่อจุด ดอกพุดเตเรีย"
         }
       }
     },
@@ -2034,7 +2079,9 @@
           "description": "ขอบหยักเว้าช่วยให้กลีบดอกคาร์เนชันดูนุ่มนวลและมีจีบพลิ้ว วาดให้เสร็จครบ 53 จุด พร้อมดาวน์โหลด PDF ฟรีสำหรับเด็กอายุ 4–8 ปี",
           "name": "ดอกคาร์เนชัน",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/flower-carnation-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -2175,7 +2222,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "วิธีแก้ปริศนาลากเส้นต่อจุด ดอกคาร์เนชัน"
         }
       }
     },
@@ -2193,7 +2241,9 @@
           "description": "ดอกลิลลี่ดูเหมือนจะมีหกกลีบ แม้ในความเป็นจริงแล้วสามกลีบจะเป็นกลีบเลี้ยง ลองสำรวจความสมมาตรของมันผ่านจุด 62 จุดในแบบฝึกหัดพิมพ์ฟรีสำหรับอายุ 5–9 ปี",
           "name": "ดอกลิลลี่หกกลีบ",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/flower-six-petal-lily-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
@@ -2361,7 +2411,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "วิธีแก้ปริศนาลากเส้นต่อจุด ดอกลิลลี่หกกลีบ"
         }
       }
     },
@@ -2379,7 +2430,9 @@
           "description": "ต้นโบตั๋นสามารถออกดอกต่อเนื่องได้นานกว่าหนึ่งศตวรรษ สร้างดอกไม้ฟูฟ่องหนึ่งดอกจาก 46 จุดด้วยไฟล์ PDF พิมพ์ฟรีสำหรับอายุ 4–8 ปี",
           "name": "ดอกโบตั๋น",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/flower-peony-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -2520,7 +2573,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "วิธีแก้ปริศนาลากเส้นต่อจุด ดอกโบตั๋น"
         }
       }
     },
@@ -2538,7 +2592,9 @@
           "description": "กล้วยไม้เจริญเติบโตในทุกทวีปยกเว้นแอนตาร์กติกา ลากเส้นตามกลีบริมปากและก้านดอกอันเป็นเอกลักษณ์ผ่านจุด 76 จุด ในไฟล์ PDF ฟรีสำหรับเด็กอายุ 6–10 ปี",
           "name": "ดอกกล้วยไม้",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/flower-orchid-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "6-10"
         }
       },
       "body": {
@@ -2706,7 +2762,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "วิธีแก้ปริศนาลากเส้นต่อจุด ดอกกล้วยไม้"
         }
       }
     },
@@ -2724,7 +2781,9 @@
           "description": "หยดน้ำจะเกาะตัวเป็นทรงกลมและกลิ้งไปบนพื้นผิวพิเศษของใบบัว เปิดภาพดอกบัวซ้อนชั้นผ่านจุด 46 จุด พร้อมดาวน์โหลด PDF ฟรีสำหรับเด็กอายุ 4–8 ปี",
           "name": "ดอกบัว",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/flower-lotus-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -2865,7 +2924,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "วิธีแก้ปริศนาลากเส้นต่อจุด ดอกบัว"
         }
       }
     },
@@ -2883,7 +2943,9 @@
           "description": "กุหลาบถูกปลูกเลี้ยงมาหลายพันปี สร้างดอกกุหลาบชั้นคลาสสิกผ่านจุด 66 จุดด้วยไฟล์ PDF ที่พิมพ์ได้ฟรีสำหรับเด็กอายุ 5–9 ปี",
           "name": "ดอกกุหลาบ",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/flower-rose-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
@@ -3051,7 +3113,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "วิธีแก้ปริศนาลากเส้นต่อจุด ดอกกุหลาบ"
         }
       }
     },
@@ -3069,7 +3132,9 @@
           "description": "หัวทิวลิปจะสะสมอาหารไว้ใต้ดินเพื่อใช้ในช่วงฤดูปลูกครั้งถัดไป มาต่อจุดสร้างดอกทรงถ้วยผ่านจุด 88 จุดด้วยไฟล์ PDF ฟรีสำหรับเด็กอายุ 5–9 ปี",
           "name": "ดอกทิวลิป",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/flower-tulip-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
@@ -3237,7 +3302,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "วิธีแก้ปริศนาลากเส้นต่อจุด ดอกทิวลิป"
         }
       }
     },
@@ -3255,7 +3321,9 @@
           "description": "กลีบป๊อปปี้บางเฉียบเหมือนกระดาษทิชชูไหวเอนตามลมเบาๆ ลากเส้นผ่านจุด 106 จุดตามรูปดอกไม้และก้านในไฟล์พิมพ์ฟรีสำหรับเด็กอายุ 6–10 ปี",
           "name": "ดอกป๊อปปี้",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/flower-poppy-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "6-10"
         }
       },
       "body": {
@@ -3423,7 +3491,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "วิธีแก้ปริศนาลากเส้นต่อจุด ดอกป๊อปปี้"
         }
       }
     },
@@ -3441,7 +3510,9 @@
           "description": "ดอกตูมทานตะวันวัยเยาว์มักหันตามดวงอาทิตย์ เชื่อมต่อจุด 58 จุดเพื่อเผยโฉมดอกไม้คาวาอี้ยิ้มแย้มในไฟล์ PDF พิมพ์ฟรีสำหรับอายุ 4–8 ปี",
           "name": "ดอกทานตะวันคาวาอี้",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/flower-kawaii-sunflower-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -3609,7 +3680,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "วิธีแก้ปริศนาลากเส้นต่อจุด ดอกทานตะวันคาวาอี้"
         }
       }
     }

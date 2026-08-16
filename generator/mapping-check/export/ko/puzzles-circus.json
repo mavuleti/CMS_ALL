@@ -1,17 +1,40 @@
 {
-  "collection": {},
+  "collection": {
+    "header": {
+      "title": "아이들을 위한 서커스 점잇기 인쇄물",
+      "meta_description": "친근한 링마스터 곰과 줄무늬 큰 텐트를 특징으로 하는 무료 서커스 점잇기 인쇄물을 위해 지금 바로 오세요. 세기와 연필 연습을 위한 두 개의 PDF 워크시트를 다운로드하고 인쇄하세요.",
+      "og": {
+        "title": "아이들을 위한 서커스 점잇기 인쇄물",
+        "description": "친근한 링마스터 곰과 줄무늬 큰 텐트를 특징으로 하는 무료 서커스 점잇기 인쇄물을 위해 지금 바로 오세요. 세기와 연필 연습을 위한 두 개의 PDF 워크시트를 다운로드하고 인쇄하세요."
+      }
+    },
+    "body": {
+      "h1": "아이들을 위한 서커스 점잇기 인쇄물"
+    }
+  },
   "puzzles": [
     {
       "slug": "circus-ringmaster-bear-dot-to-dot-puzzle",
       "header": {
+        "title": "서커스 단장 곰 점잇기 - 74개 점, 무료 프린트",
+        "og": {
+          "title": "서커스 단장 곰 점잇기 - 74개 점, 무료 프린트",
+          "description": "큰 쇼를 이끄는 곰을 만나보세요! 74개의 점을 이어서 서커스 단장 곰을 완성하는 6~9세 어린이를 위한 무료 점잇기 프린트예요.",
+          "image_alt": "높은 모자와 코트를 입은 서커스 단장 곰, 74개 점으로 완성하는 무료 점잇기 도안"
+        },
+        "meta_description": "큰 쇼를 이끄는 곰을 만나보세요! 74개의 점을 이어서 서커스 단장 곰을 완성하는 6~9세 어린이를 위한 무료 점잇기 프린트예요 — 숫자 잇기 프린트.",
         "json_ld": {
+          "description": "서커스 단장은 출연자를 소개하고 공연을 진행합니다. 6~9세 어린이를 위한 이 무료 점잇기 프린트에서 74개의 점을 이어보세요.",
           "name": "서커스 단장 곰",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/circus-ringmaster-bear-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
         "name": "서커스 단장 곰",
+        "h1": "서커스 단장 곰 점잇기 - 74개 점으로 즐기는 서커스",
         "tagline": "큰 공연을 이끄는 곰을 만나보세요!",
         "description": "74개의 점을 연결해 서커스 단장 차림의 친근한 곰을 완성하세요. 이 중급 난이도의 프린트 자료는 어린이들이 숫자 순서 익히기, 집중력 향상, 시각적 추적 능력 및 세심한 연필 조작성을 연습할 수 있도록 도와줍니다",
         "fun_fact": "서커스 단장이 공연자들을 소개하고 관객을 한 무대에서 다음 무대로 안내합니다.",
@@ -174,21 +197,33 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "서커스 단장 곰 점 잇기 퍼즐 푸는 방법"
         }
       }
     },
     {
       "slug": "circus-tent-dot-to-dot-puzzle",
       "header": {
+        "title": "서커스 텐트 점잇기 - 59개 점, 무료 프린트",
+        "og": {
+          "title": "서커스 텐트 점잇기 - 59개 점, 무료 프린트",
+          "description": "큰 천막 아래로 들어가 보세요! 59개의 점을 이어서 알록달록한 줄무늬 서커스 텐트를 완성하는 5~8세 어린이를 위한 무료 점잇기 프린트예요.",
+          "image_alt": "깃발을 단 줄무늬 서커스 텐트, 59개 점으로 완성하는 무료 점잇기 도안"
+        },
+        "meta_description": "큰 천막 아래로 들어가 보세요! 59개의 점을 이어서 알록달록한 줄무늬 서커스 텐트를 완성하는 5~8세 어린이를 위한 무료 점잇기 프린트예요 — 점잇기 프린트.",
         "json_ld": {
+          "description": "서커스 대형 천막은 공연장에서 가장 큰 텐트입니다. 5~8세 어린이를 위한 이 무료 점잇기 프린트에서 59개의 점을 이어보세요.",
           "name": "서커스 텐트",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/circus-tent-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
         "name": "서커스 텐트",
+        "h1": "서커스 텐트 점잇기 - 59개 점으로 떠나는 대형 천막 모험",
         "tagline": "빅톱 모험을 위해 바로 옆으로 오세요!",
         "description": "59개의 점을 연결하면 쇼를 준비한 밝은 줄무늬 서커스 천막이 나타납니다. 이 쉬운 프린터블 활동은 아이들이 순서대로 세기, 시각적 추적, 집중력, 그리고 일정한 연필 조작성을 연습하는 데 도움이 됩니다",
         "fun_fact": "서커스의 주요 공연용 천막은 쇼장에서 가장 큰 천막이기 때문에 '빅톱(big top)'이라고 불립니다.",
@@ -351,7 +386,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "서커스 텐트 점 잇기 퍼즐 푸는 방법"
         }
       }
     }

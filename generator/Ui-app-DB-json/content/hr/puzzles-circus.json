@@ -1,17 +1,40 @@
 {
-  "collection": {},
+  "collection": {
+    "header": {
+      "title": "Circus Dot to Dot printabilni materijali za djecu",
+      "meta_description": "Pristupite besplatnim circus dot to dot printabilnim materijalima s prijateljskim mađioničarom medvjedom i prugastim šatorom. Preuzmite i isprintajte obje PDF radne liste za brojanje i vježbu s olovkom.",
+      "og": {
+        "title": "Circus Dot to Dot printabilni materijali za djecu",
+        "description": "Pristupite besplatnim circus dot to dot printabilnim materijalima s prijateljskim mađioničarom medvjedom i prugastim šatorom. Preuzmite i isprintajte obje PDF radne liste za brojanje i vježbu s olovkom."
+      }
+    },
+    "body": {
+      "h1": "Circus Dot to Dot printabilni materijali za djecu"
+    }
+  },
   "puzzles": [
     {
       "slug": "circus-ringmaster-bear-dot-to-dot-puzzle",
       "header": {
+        "title": "Medvjed Ravnatelj Cirkusa Spoji Točke — 74 Točke, Besplatno",
+        "og": {
+          "title": "Medvjed Ravnatelj Cirkusa Spoji Točke — 74 Točke, Besplatno",
+          "description": "Upoznaj medvjeda koji vodi veliku predstavu! Spoji 74 točke i otkrij ravnatelja cirkusa, besplatna točkalica za djecu od 6 do 9 godina.",
+          "image_alt": "Medvjed ravnatelj cirkusa u visokom šeširu i kaputu, točkalica za ispis sa 74 točke"
+        },
+        "meta_description": "Upoznaj medvjeda koji vodi veliku predstavu! Spoji 74 točke i otkrij ravnatelja cirkusa, besplatna točkalica za djecu od 6 do 9 godina — spoji točke po brojevima.",
         "json_ld": {
-          "name": "Medvjed Upravitelj Cirkusa",
+          "description": "Ravnatelj cirkusa najavljuje izvođače i vodi predstavu. Spoji 74 točke u ovoj besplatnoj točkalici za ispis za djecu od 6 do 9 godina.",
+          "name": "Medvjed Ravnatelj Cirkusa",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/circus-ringmaster-bear-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
         "name": "Medvjed Upravitelj Cirkusa",
+        "h1": "Medvjed Ravnatelj Cirkusa: Spoji Točke — 74 Točke Cirkuske Zabave",
         "tagline": "Upoznajte Medvjeda Koji Vodi Veliki Šou!",
         "description": "Povežite 74 točke kako biste otkrili prijateljskog medvjeda odjevenog kao upravitelja cirkusa. Ova srednje teška aktivnost pomaže djeci u vježbanju redoslijeda brojeva, koncentracije, vizualnog praćenja i pažljivog upravljanja olovkom",
         "fun_fact": "Upravitelj cirkusa predstavlja izvođače i vodi publiku od jednog nastupa do drugog.",
@@ -174,21 +197,33 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Kako riješiti puzzle spoji točke Medvjed Upravitelj Cirkusa"
         }
       }
     },
     {
       "slug": "circus-tent-dot-to-dot-puzzle",
       "header": {
+        "title": "Cirkuski Šator Spoji Točke — 59 Točaka, Besplatno za Ispis",
+        "og": {
+          "title": "Cirkuski Šator Spoji Točke — 59 Točaka, Besplatno za Ispis",
+          "description": "Dobrodošli pod veliki šator! Spoji 59 točaka i otkrij veseli prugasti cirkuski šator, besplatna točkalica za djecu od 5 do 8 godina.",
+          "image_alt": "Prugasti cirkuski šator sa zastavom na vrhu, točkalica za ispis sa 59 točaka"
+        },
+        "meta_description": "Dobrodošli pod veliki šator! Spoji 59 točaka i otkrij veseli prugasti cirkuski šator, besplatna točkalica za djecu od 5 do 8 godina — besplatne točkalice za djecu.",
         "json_ld": {
-          "name": "Šator za cirkus",
+          "description": "Glavni cirkuski šator najveći je šator u cirkusu. Spoji 59 točaka u ovoj besplatnoj točkalici za ispis za djecu od 5 do 8 godina.",
+          "name": "Cirkuski Šator",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/circus-tent-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
         "name": "Šator za cirkus",
+        "h1": "Cirkuski Šator: Spoji Točke — 59 Točaka za Veliku Pustolovinu",
         "tagline": "Pristupite velikoj avanturi pod šatorom!",
         "description": "Povežite 59 točaka kako biste otkrili veseli prugasti cirkuski šator spreman za predstavu. Ova jednostavna printable pomaže djeci da vježbaju brojanje redom, vizualno praćenje, koncentraciju i kontrolu olovke",
         "fun_fact": "Glavni šator cirkusa često se naziva velikim šatorom jer je to najveći šator na predstavi.",
@@ -351,7 +386,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Kako riješiti puzzle spoji točke Šator za cirkus"
         }
       }
     }

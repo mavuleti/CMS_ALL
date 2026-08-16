@@ -1,5 +1,17 @@
 {
-  "collection": {},
+  "collection": {
+    "header": {
+      "title": "Lembar Kerja Menghubungkan Titik-Titik Bertema Taman untuk Anak-Anak",
+      "meta_description": "Ayo bercocok tanam! Hubungkan titik-titik untuk menemukan sarung tangan berkebun, sekop kecil, dan peralatan berkebun yang praktis. Semua lembar kerja gratis untuk diunduh dan dicetak — tidak perlu akun.",
+      "og": {
+        "title": "Lembar Kerja Menghubungkan Titik-Titik Bertema Taman untuk Anak-Anak",
+        "description": "Ayo bercocok tanam! Hubungkan titik-titik untuk menemukan sarung tangan berkebun, sekop kecil, dan peralatan berkebun yang praktis. Semua lembar kerja gratis untuk diunduh dan dicetak — tidak perlu akun."
+      }
+    },
+    "body": {
+      "h1": "Lembar Kerja Menghubungkan Titik-Titik Bertema Taman untuk Anak-Anak"
+    }
+  },
   "puzzles": [
     {
       "slug": "garden-gloves-dot-to-dot-puzzle",
@@ -15,7 +27,9 @@
           "description": "Sarung tangan kebun melindungi tangan kecil dari kotoran dan tanaman berduri. Hubungkan 54 titik dalam lembar kerja cetak gratis ini untuk anak-anak usia 4–8 tahun.",
           "name": "Sarung Tangan Berkebun",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/garden-gloves-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -156,7 +170,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Cara menyelesaikan teka-teki hubungkan titik Sarung Tangan Berkebun"
         }
       }
     },
@@ -174,7 +189,9 @@
           "description": "Mulailah latihan pensil awal dengan sekop kebun 39 titik. PDF titik ke titik gratis ini memberikan anak-anak usia 4–7 tahun aktivitas singkat yang dapat dicapai.",
           "name": "Sekop Kebun",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/garden-trowel-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-7"
         }
       },
       "body": {
@@ -288,7 +305,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Cara menyelesaikan teka-teki hubungkan titik Sekop Kebun"
         }
       }
     },
@@ -306,7 +324,9 @@
           "description": "Gerobak dorong ditemukan di Tiongkok kuno lebih dari 2.000 tahun yang lalu. Bangun satu di atas 85 titik dengan PDF cetak gratis ini untuk usia 5–9 tahun.",
           "name": "Taman Bermain Gerobak Dorong",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/wheelbarrow-playground-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
@@ -447,7 +467,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Cara menyelesaikan teka-teki hubungkan titik Taman Bermain Gerobak Dorong"
         }
       }
     }

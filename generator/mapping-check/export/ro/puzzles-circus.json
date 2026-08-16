@@ -1,17 +1,40 @@
 {
-  "collection": {},
+  "collection": {
+    "header": {
+      "title": "Imprimabile Circus Dot to Dot pentru copii",
+      "meta_description": "Vino să iei gratuit imprimabile circus dot to dot cu un urs prietenos de ringmaster și un cort mare cu dungi. Descarcă și imprimă ambele fișe PDF pentru numărare și practică cu creionul.",
+      "og": {
+        "title": "Imprimabile Circus Dot to Dot pentru copii",
+        "description": "Vino să iei gratuit imprimabile circus dot to dot cu un urs prietenos de ringmaster și un cort mare cu dungi. Descarcă și imprimă ambele fișe PDF pentru numărare și practică cu creionul."
+      }
+    },
+    "body": {
+      "h1": "Imprimabile Circus Dot to Dot pentru copii"
+    }
+  },
   "puzzles": [
     {
       "slug": "circus-ringmaster-bear-dot-to-dot-puzzle",
       "header": {
+        "title": "Ursul Maestru de Ceremonii — Unește 74 de Puncte, Gratis",
+        "og": {
+          "title": "Ursul Maestru de Ceremonii — Unește 74 de Puncte, Gratis",
+          "description": "Cunoaște ursul care conduce marele spectacol! Unește 74 de puncte pentru a descoperi un maestru de ceremonii de circ, planșă gratuită pentru copii de 6–9 ani.",
+          "image_alt": "Urs maestru de ceremonii de circ cu joben și haină, puzzle unește punctele de printat cu 74 de puncte"
+        },
+        "meta_description": "Cunoaște ursul care conduce marele spectacol! Unește 74 de puncte pentru a descoperi un maestru de ceremonii de circ, planșă gratuită pentru copii de 6–9 ani — Jocuri cu unește punctele pentru copii.",
         "json_ld": {
-          "name": "Ursul Maestru de Cercuri de Circ",
+          "description": "Maestrul de ceremonii al circului îi prezintă pe artiști și ghidează spectacolul. Unește 74 de puncte în această planșă gratuită de unit punctele pentru copii de 6–9 ani.",
+          "name": "Ursul Maestru de Ceremonii",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/circus-ringmaster-bear-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
         "name": "Ursul Maestru de Cercuri de Circ",
+        "h1": "Ursul Maestru de Ceremonii Unește Punctele — 74 de Puncte de Distracție",
         "tagline": "Întâlnește ursul care conduce marea spectacol!",
         "description": "Conectează 74 de puncte pentru a descoperi un urs prietenos îmbrăcat în costum de maestru de ceremonii de circ. Acest exercițiu intermediar imprimabil ajută copiii să exerseze secvențierea numerelor, concentrarea, urmărirea vizuală și controlul precis al creionului",
         "fun_fact": "Un prezentator de circ introduce artiștii și ghidează publicul de la un număr la altul.",
@@ -174,21 +197,33 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Cum se rezolvă puzzle-ul unește punctele Ursul Maestru de Cercuri de Circ"
         }
       }
     },
     {
       "slug": "circus-tent-dot-to-dot-puzzle",
       "header": {
+        "title": "Cort de Circ Unește Punctele — 59 de Puncte, Gratis",
+        "og": {
+          "title": "Cort de Circ Unește Punctele — 59 de Puncte, Gratis",
+          "description": "Pas cu pas spre marele spectacol! Unește 59 de puncte pentru a descoperi un cort de circ vesel, dungat, o planșă gratuită pentru copii de 5–8 ani.",
+          "image_alt": "Cort de circ dungat cu un steag în vârf, puzzle unește punctele de printat cu 59 de puncte"
+        },
+        "meta_description": "Pas cu pas spre marele spectacol! Unește 59 de puncte pentru a descoperi un cort de circ vesel, dungat, o planșă gratuită pentru copii de 5–8 ani — Unește punctele de printat PDF.",
         "json_ld": {
-          "name": "Cort de circ",
+          "description": "Cortul mare de circ este cel mai mare cort din spectacol. Unește 59 de puncte în această planșă gratuită de unit punctele pentru copii de 5–8 ani.",
+          "name": "Cort de Circ",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/circus-tent-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
         "name": "Cort de circ",
+        "h1": "Cort de Circ Unește Punctele — 59 de Puncte pentru o Aventură Mare",
         "tagline": "Intrați în Culisele unei Aventuri de Circ!",
         "description": "Conectează 59 de puncte pentru a descoperi un cort de circ cu dungi vesel, pregătit pentru spectacol. Acest exercițiu tipărit ușor îi ajută pe copii să exerseze numărarea în ordine, urmărirea vizuală, concentrarea și controlul ferm al creionului",
         "fun_fact": "Cortul principal al unui circ este adesea numit \"big top\" deoarece este cel mai mare cort din spectacol.",
@@ -351,7 +386,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Cum se rezolvă puzzle-ul unește punctele Cort de circ"
         }
       }
     }

@@ -1,5 +1,17 @@
 {
-  "collection": {},
+  "collection": {
+    "header": {
+      "title": "Zahradní tečkované materiály pro děti",
+      "meta_description": "Začněte pěstovat! Spojte tečky a odhalte zahradní rukavice, lopatky a praktické zahradní nářadí. Všechny pracovní listy si můžete zdarma stáhnout a vytisknout – není potřeba žádný účet.",
+      "og": {
+        "title": "Zahradní tečkované materiály pro děti",
+        "description": "Začněte pěstovat! Spojte tečky a odhalte zahradní rukavice, lopatky a praktické zahradní nářadí. Všechny pracovní listy si můžete zdarma stáhnout a vytisknout – není potřeba žádný účet."
+      }
+    },
+    "body": {
+      "h1": "Zahradní tečkované materiály pro děti"
+    }
+  },
   "puzzles": [
     {
       "slug": "garden-gloves-dot-to-dot-puzzle",
@@ -15,7 +27,9 @@
           "description": "Zahradní rukavice chrání malé ruce před špínou a trnitými rostlinami. Spojte 54 bodů v tomto bezplatném tištěném pracovním listu pro děti ve věku 4–8 let.",
           "name": "Zahradní rukavice",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/garden-gloves-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -156,7 +170,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Jak vyřešit obrázek spoj tečky Zahradní rukavice"
         }
       }
     },
@@ -174,7 +189,9 @@
           "description": "S pouhými 39 tečkami patří zahradní lopatka mezi naše nejsnazší pracovní listy, ideální pro předškoláky, kteří teprve začínají s řazením čísel. Lopatkou se sází sazenice a kopou malé jamky – vytiskněte si PDF zdarma a užijte si jarní zahradničení s dětmi v roce 2026.",
           "name": "Zahradní lopatka",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/garden-trowel-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-7"
         }
       },
       "body": {
@@ -288,7 +305,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Jak vyřešit obrázek spoj tečky Zahradní lopatka"
         }
       }
     },
@@ -306,7 +324,9 @@
           "description": "Kolečkové vozíky byly vynalezeny ve starověké Číně před více než 2 000 lety. Postavte jeden přes 85 bodů s tímto bezplatným tištěným PDF pro děti ve věku 5–9 let.",
           "name": "Hřiště s trakařem",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/wheelbarrow-playground-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
@@ -447,7 +467,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Jak vyřešit obrázek spoj tečky Hřiště s trakařem"
         }
       }
     }

@@ -1,5 +1,17 @@
 {
-  "collection": {},
+  "collection": {
+    "header": {
+      "title": "Tisknutelné materiály s dinosaury tečka po tečce pro děti",
+      "meta_description": "Spojte tečky a odhalte své oblíbené dinosaury! Všechny pracovní listy si můžete zdarma stáhnout a vytisknout – není potřeba žádný účet. Ideální pro děti ve věku 4–10 let, předškoláky, mateřské školy a třídy.",
+      "og": {
+        "title": "Tisknutelné materiály s dinosaury tečka po tečce pro děti",
+        "description": "Spojte tečky a odhalte své oblíbené dinosaury! Všechny pracovní listy si můžete zdarma stáhnout a vytisknout – není potřeba žádný účet. Ideální pro děti ve věku 4–10 let, předškoláky, mateřské školy a třídy."
+      }
+    },
+    "body": {
+      "h1": "Tisknutelné materiály s dinosaury tečka po tečce pro děti"
+    }
+  },
   "puzzles": [
     {
       "slug": "trex-61-dot-to-dot-puzzle",
@@ -15,7 +27,9 @@
           "description": "T-Rex během svého života nahrazoval ztracené zuby. Spojte 61 bodů v tomto bezplatném tisknutelném PDF bod po bodu pro děti ve věku 6–9 let, z naší kolekce 2026.",
           "name": "Výzva T-Rex 61 teček",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/trex-61-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "6-9"
         }
       },
       "body": {
@@ -210,7 +224,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Jak vyřešit obrázek spoj tečky Výzva T-Rex 61 teček"
         }
       }
     },
@@ -228,7 +243,9 @@
           "description": "Pštrosi mohou běžet až 72 km/h. Odhalte jednoho přes 55 bodů na našich bezplatných stránkách bod po bodu pro děti ve věku 5–8 let, s tisknutelným PDF připraveným k použití.",
           "name": "Pštros",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/ostriches-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-8"
         }
       },
       "body": {
@@ -396,7 +413,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Jak vyřešit obrázek spoj tečky Pštros"
         }
       }
     },
@@ -414,7 +432,9 @@
           "description": "Brontosaurus znamená hromový ještěr. Sledujte jeho dlouhý krk a ocas přes 50 bodů s tímto bezplatným tisknutelným listem bod po bodu pro děti ve věku 4–7 let.",
           "name": "Brontosaurus",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/brontosaurus-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-7"
         }
       },
       "body": {
@@ -582,7 +602,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Jak vyřešit obrázek spoj tečky Brontosaurus"
         }
       }
     },
@@ -600,7 +621,9 @@
           "description": "Spojte 70 teček a nakreslete Triceratopse, nejikoničtějšího rohatého dinosaura, na listu vhodném pro děti z mateřské školy a první třídy. Jeho rohy mohly dorůst až 90 centimetrů, tedy déle než baseballová pálka – vytiskněte si PDF zdarma a projděte s dítětem jeho kostěný límec.",
           "name": "Triceratops",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/triceratops-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "6-9"
         }
       },
       "body": {
@@ -768,7 +791,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Jak vyřešit obrázek spoj tečky Triceratops"
         }
       }
     },
@@ -786,7 +810,9 @@
           "description": "Skuteční Velociraptoři byli velcí jako krůty a opeření. Odhalte jednoho v 54 bodech s tímto tisknutelným bodem po bodu pro děti ve věku 5–8 let.",
           "name": "Velociraptor",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/velociraptor-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "6-9"
         }
       },
       "body": {
@@ -954,7 +980,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Jak vyřešit obrázek spoj tečky Velociraptor"
         }
       }
     },
@@ -972,7 +999,9 @@
           "description": "Spojte 52 teček a nakreslete Stegosaura s dvojitou řadou kosočtvercových destiček na zádech, oblíbeného mezi předškoláky a dětmi z mateřské školy. Jeho mozek byl velký jako vlašský ořech, ale ostnatý ocas fungoval jako obranná zbraň – vytiskněte si PDF zdarma.",
           "name": "Stegosaurus",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/stegosaurus-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-7"
         }
       },
       "body": {
@@ -1140,7 +1169,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Jak vyřešit obrázek spoj tečky Stegosaurus"
         }
       }
     },
@@ -1158,7 +1188,9 @@
           "description": "Spinosaurus byl delší než T-Rex a měl obrovskou plachtu. Odhalte ho napříč 74 body v tomto bezplatném PDF ke spojování bodů pro 1. a 2. třídu.",
           "name": "Spinosaurus",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/spinosaurus-74-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "6-10"
         }
       },
       "body": {
@@ -1326,7 +1358,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Jak vyřešit obrázek spoj tečky Spinosaurus"
         }
       }
     },
@@ -1344,7 +1377,9 @@
           "description": "Brachiosaurus nesl svou malou hlavu na vysokém krku. Spojte 38 bodů, abyste odhalili tohoto jurského obra v hádance navržené pro děti ve věku 5–9 let.",
           "name": "Brachiocaurus",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "dummy-brachiosaurus",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
@@ -1485,7 +1520,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Jak vyřešit obrázek spoj tečky Brachiocaurus"
         }
       }
     },
@@ -1503,7 +1539,9 @@
           "description": "Dokonce i Ankylosaurus měl kostěný brnění přes víčka. Odhalte jeho chráněné tělo a kladivový ocas napříč 32 body v hádance pro děti ve věku 5–8 let.",
           "name": "Ankylosaurus",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "dummy-ankylosaurus",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-8"
         }
       },
       "body": {
@@ -1644,7 +1682,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Jak vyřešit obrázek spoj tečky Ankylosaurus"
         }
       }
     },
@@ -1662,7 +1701,9 @@
           "description": "Spojte 67 teček a nakreslete nejslavnějšího létajícího plaza pravěku na listu vhodném pro děti ve věku 6–9 let. Pterodaktylové technicky vůbec nebyli dinosauři, ale létající plazi zvaní ptérosauři – vytiskněte si PDF zdarma a proleťte s dítětem číselnou řadou.",
           "name": "Pterodaktyl",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/pterodactyl-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "6-9"
         }
       },
       "body": {
@@ -1830,7 +1871,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Jak vyřešit obrázek spoj tečky Pterodaktyl"
         }
       }
     },
@@ -1848,7 +1890,9 @@
           "description": "Allosaurus vládl jurskému období dlouho předtím, než se objevil T-Rex. Sledujte 42 bodů kolem tohoto mocného predátora v hádance navržené pro děti ve věku 6–10 let.",
           "name": "Alosaurus",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "dummy-allosaurus",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "6-10"
         }
       },
       "body": {
@@ -2016,7 +2060,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Jak vyřešit obrázek spoj tečky Alosaurus"
         }
       }
     }

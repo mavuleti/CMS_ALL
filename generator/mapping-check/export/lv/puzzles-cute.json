@@ -1,5 +1,21 @@
 {
-  "collection": {},
+  "collection": {
+    "header": {
+      "title": "Jauki punktveida drukājamie materiāli bērniem",
+      "meta_description": "Gatavojieties maksimālam mīlīgumam! Savienojiet punktus, lai atklātu burvīgus kucēnus, mazas mašīnītes un citus burvīgus draugus. Visas darba lapas var lejupielādēt un izdrukāt bez maksas — konts nav nepieciešams.",
+      "og": {
+        "title": "Jauki punktveida drukājamie materiāli bērniem",
+        "description": "Gatavojieties maksimālam mīlīgumam! Savienojiet punktus, lai atklātu burvīgus kucēnus, mazas mašīnītes un citus burvīgus draugus. Visas darba lapas var lejupielādēt un izdrukāt bez maksas — konts nav nepieciešams."
+      },
+      "json_ld": {
+        "description": "Gatavojieties maksimālam mīlīgumam! Savienojiet punktus, lai atklātu burvīgus kucēnus, mazas mašīnītes un citus burvīgus draugus. Visas darba lapas var lejupielādēt un izdrukāt bez maksas — konts nav nepieciešams."
+      }
+    },
+    "body": {
+      "h1": "Jauki punktveida drukājamie materiāli bērniem",
+      "description": "Gatavojieties maksimālam mīlīgumam! Savienojiet punktus, lai atklātu burvīgus kucēnus, mazas mašīnītes un citus burvīgus draugus. Visas darba lapas var lejupielādēt un izdrukāt bez maksas — konts nav nepieciešams."
+    }
+  },
   "puzzles": [
     {
       "slug": "cute-puppy-dot-to-dot-puzzle",
@@ -15,8 +31,8 @@
           "description": "Jaunajiem kucēniem apmēram divas nedēļas nav redzes vai dzirdes. Atklāj šo ziņkārīgo kucēnu 70 punktos ar bezmaksas drukājamu PDF, kas paredzēts vecumā no 5 līdz 9 gadiem.",
           "name": "Jauka kucēna",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing",
           "image": "/images/cute-puppy-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
           "age_range": "5-9"
         }
       },
@@ -144,7 +160,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Kā atrisināt \"Savieno punktus\" mīklu Jauka kucēna"
         }
       }
     },
@@ -162,7 +179,9 @@
           "description": "Brauciet cauri 55 numurētiem punktiem, lai izveidotu priecīgu mazu auto. Bezmaksas drukājamais PDF piedāvā draudzīgu secības aktivitāti bērniem vecumā no 4 līdz 8 gadiem.",
           "name": "Jauka maza automašīna",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/cute-little-car-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -269,7 +288,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Kā atrisināt \"Savieno punktus\" mīklu Jauka maza automašīna"
         }
       }
     },
@@ -287,7 +307,9 @@
           "description": "Lauvu mazuļi murrā pirms viņi iemācās rūkt. Izveido jaunu lauvu pa 74 punktiem ar šo bezmaksas izdrukājamo darba lapu bērniem vecumā no 5 līdz 9 gadiem.",
           "name": "Jauka lauva",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/cute-lion-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
@@ -414,7 +436,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Kā atrisināt \"Savieno punktus\" mīklu Jauka lauva"
         }
       }
     },
@@ -432,7 +455,9 @@
           "description": "Taureņi garšo ar sensoriem uz savām kājām. Savienojiet 67 punktus, lai izplatītu šī taureņa rakstainos spārnus bezmaksas drukājamā PDF versijā vecumā no 5 līdz 9 gadiem.",
           "name": "Gudrs tauriņš",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/cute-butterfly-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
@@ -539,7 +564,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Kā atrisināt \"Savieno punktus\" mīklu Gudrs tauriņš"
         }
       }
     },
@@ -557,7 +583,9 @@
           "description": "Saskaiti no punkta 1 un uzbūvē raķešu kuģi pa 66 punktiem. Lejupielādē bezmaksas PDF ar kosmosa tēmu jaunajiem pētniekiem vecumā no 4 līdz 8 gadiem.",
           "name": "Gudrs raķešu kuģis",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/cute-rocket-ship-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -664,7 +692,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Kā atrisināt \"Savieno punktus\" mīklu Gudrs raķešu kuģis"
         }
       }
     },
@@ -682,7 +711,9 @@
           "description": "Bērnu jūras bruņurupuči seko spilgtākajam horizontam uz okeānu. Vadiet šo mazo pētnieku cauri 65 punktiem bezmaksas PDF formātā vecumā no 4 līdz 8 gadiem.",
           "name": "Gudrs bruņurupuča mazulis",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/cute-baby-turtle-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -789,7 +820,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Kā atrisināt \"Savieno punktus\" mīklu Gudrs bruņurupuča mazulis"
         }
       }
     },
@@ -807,7 +839,9 @@
           "description": "Fiksētās acis palīdz izskaidrot, kāpēc pūces pagriež galvas tik tālu. Atklāj plašacainu pūci 65 punktos ar šo bezmaksas izdrukājamo materiālu vecumā no 4 līdz 8 gadiem.",
           "name": "Jauka pūce",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/cute-owl-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -914,7 +948,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Kā atrisināt \"Savieno punktus\" mīklu Jauka pūce"
         }
       }
     },
@@ -932,7 +967,9 @@
           "description": "Krabju kājas ir veidotas ātrai sānu kustībai. Izskrieniet cauri 72 punktiem, lai pabeigtu šo priecīgo krabju PDF bērniem vecumā no 5 līdz 9 gadiem.",
           "name": "Jautrs krabis",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/cute-crab-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
@@ -1039,7 +1076,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Kā atrisināt \"Savieno punktus\" mīklu Jautrs krabis"
         }
       }
     },
@@ -1057,7 +1095,9 @@
           "description": "Bebru ziloņi dažreiz sūc savas snuķus mierinājumam. Iepazīstieties ar šo maigo jaunieti 50 punktos ar bezmaksas izdrukājamu PDF vecumā no 4 līdz 8 gadiem.",
           "name": "Gudrs mazulis zilonis",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/cute-baby-elephant-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -1164,7 +1204,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Kā atrisināt \"Savieno punktus\" mīklu Gudrs mazulis zilonis"
         }
       }
     },
@@ -1182,7 +1223,9 @@
           "description": "Vardes daļēji uzsūc skābekli caur savu mitro ādu. Lēciet pāri 82 punktiem, lai atklātu smaidošu vardi šajā bezmaksas PDF failā bērniem vecumā no 6 līdz 10 gadiem.",
           "name": "Jauks Priecīgs Varde",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/cute-happy-frog-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "6-10"
         }
       },
       "body": {
@@ -1289,7 +1332,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Kā atrisināt \"Savieno punktus\" mīklu Jauks Priecīgs Varde"
         }
       }
     },
@@ -1307,7 +1351,9 @@
           "description": "Mirdzoša kleita un kronis parādās, kad bērni savieno 57 karaliskos punktus. Drukājiet bezmaksas princeses PDF radošai skaitļu praksei vecumā no 4 līdz 8 gadiem.",
           "name": "Jauka Princese",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/cute-princess-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -1414,7 +1460,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Kā atrisināt \"Savieno punktus\" mīklu Jauka Princese"
         }
       }
     }

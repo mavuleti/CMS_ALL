@@ -1,5 +1,17 @@
 {
-  "collection": {},
+  "collection": {
+    "header": {
+      "title": "Garten-Punkt-zu-Punkt-Vorlagen für Kinder",
+      "meta_description": "Auf geht's in den Garten! Verbinde die Punkte, um Gartenhandschuhe, Kellen und praktische Gartenwerkzeuge zu entdecken. Alle Arbeitsblätter können kostenlos heruntergeladen und ausgedruckt werden – ganz ohne Registrierung.",
+      "og": {
+        "title": "Garten-Punkt-zu-Punkt-Vorlagen für Kinder",
+        "description": "Auf geht's in den Garten! Verbinde die Punkte, um Gartenhandschuhe, Kellen und praktische Gartenwerkzeuge zu entdecken. Alle Arbeitsblätter können kostenlos heruntergeladen und ausgedruckt werden – ganz ohne Registrierung."
+      }
+    },
+    "body": {
+      "h1": "Garten-Punkt-zu-Punkt-Vorlagen für Kinder"
+    }
+  },
   "puzzles": [
     {
       "slug": "garden-gloves-dot-to-dot-puzzle",
@@ -15,7 +27,9 @@
           "description": "Gartenhandschuhe schützen kleine Hände vor Schmutz und stacheligen Pflanzen. Verbinde 54 Punkte in diesem kostenlosen ausdruckbaren Arbeitsblatt für Kinder im Alter von 4–8 Jahren.",
           "name": "Gartenhandschuhe",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/garden-gloves-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -156,7 +170,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "So löst du das Gartenhandschuhe Punkt-zu-Punkt-Rätsel"
         }
       }
     },
@@ -174,7 +189,9 @@
           "description": "Tauche ein in frühe Bleistiftübungen mit einer 39-Punkte Gartenkelle. Das kostenlose Punkt zu Punkt PDF bietet Kindern im Alter von 4–7 Jahren eine kurze, erreichbare Aktivität.",
           "name": "Gartenkelle",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/garden-trowel-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-7"
         }
       },
       "body": {
@@ -288,7 +305,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "So löst du das Gartenkelle Punkt-zu-Punkt-Rätsel"
         }
       }
     },
@@ -306,7 +324,9 @@
           "description": "Schubkarren wurden vor über 2.000 Jahren im alten China erfunden. Baue eine über 85 Punkte mit diesem kostenlosen ausdruckbaren PDF für Kinder im Alter von 5–9 Jahren.",
           "name": "Schubkarren-Spielplatz",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/wheelbarrow-playground-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
@@ -447,7 +467,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "So löst du das Schubkarren-Spielplatz Punkt-zu-Punkt-Rätsel"
         }
       }
     }

@@ -1,17 +1,40 @@
 {
-  "collection": {},
+  "collection": {
+    "header": {
+      "title": "Imprimables Circus Point à Point pour Enfants",
+      "meta_description": "Venez découvrir des imprimables gratuits de point à point sur le cirque avec un ours maître de cérémonie amical et un chapiteau rayé. Téléchargez et imprimez les deux fiches PDF pour la comptabilité et la pratique du crayon.",
+      "og": {
+        "title": "Imprimables Circus Point à Point pour Enfants",
+        "description": "Venez découvrir des imprimables gratuits de point à point sur le cirque avec un ours maître de cérémonie amical et un chapiteau rayé. Téléchargez et imprimez les deux fiches PDF pour la comptabilité et la pratique du crayon."
+      }
+    },
+    "body": {
+      "h1": "Imprimables Circus Point à Point pour Enfants"
+    }
+  },
   "puzzles": [
     {
       "slug": "circus-ringmaster-bear-dot-to-dot-puzzle",
       "header": {
+        "title": "Ours Maître de Cirque à Relier — 74 Points, Gratuit à Imprimer",
+        "og": {
+          "title": "Ours Maître de Cirque à Relier — 74 Points, Gratuit à Imprimer",
+          "description": "Découvrez l'ours qui dirige le grand spectacle ! Reliez 74 points pour révéler un maître de cérémonie de cirque, points à relier gratuits pour enfants de 6 à 9 ans.",
+          "image_alt": "Ours maître de cérémonie de cirque avec haut-de-forme et habit, points à relier imprimable de 74 points"
+        },
+        "meta_description": "Découvrez l'ours qui dirige le grand spectacle ! Reliez 74 points pour révéler un maître de cérémonie de cirque, points à relier gratuits pour enfants de 6 à 9 ans — dessin mystère points à relier.",
         "json_ld": {
-          "name": "Ours chef de cirque",
+          "description": "Le maître de cérémonie présente les artistes et guide le spectacle. Reliez 74 points dans ce jeu de points à relier gratuit à imprimer pour enfants de 6 à 9 ans.",
+          "name": "Ours Maître de Cirque",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/circus-ringmaster-bear-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
         "name": "Ours chef de cirque",
+        "h1": "Ours Maître de Cirque à Relier — 74 Points de Fête Foraine",
         "tagline": "Découvrez l'ours qui dirige le grand spectacle !",
         "description": "Reliez 74 points pour révéler un ours amical déguisé en chef de cirque. Cette activité imprimable de niveau intermédiaire aide les enfants à pratiquer la séquence des nombres, la concentration, le suivi visuel et le contrôle précis du crayon",
         "fun_fact": "Le chef de cirque présente les artistes et guide le public d'un numéro à l'autre.",
@@ -174,21 +197,33 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Comment résoudre le puzzle de points à relier Ours chef de cirque"
         }
       }
     },
     {
       "slug": "circus-tent-dot-to-dot-puzzle",
       "header": {
+        "title": "Chapiteau de Cirque à Relier — 59 Points, Gratuit à Imprimer",
+        "og": {
+          "title": "Chapiteau de Cirque à Relier — 59 Points, Gratuit à Imprimer",
+          "description": "En piste ! Reliez 59 points pour révéler un chapiteau de cirque rayé et joyeux, un jeu de points à relier gratuit pour enfants de 5 à 8 ans.",
+          "image_alt": "Chapiteau de cirque rayé avec un drapeau au sommet, points à relier imprimable de 59 points"
+        },
+        "meta_description": "En piste ! Reliez 59 points pour révéler un chapiteau de cirque rayé et joyeux, un jeu de points à relier gratuit pour enfants de 5 à 8 ans — jeux de points à relier à imprimer.",
         "json_ld": {
-          "name": "Tente de cirque",
+          "description": "Le chapiteau est la plus grande tente du cirque. Reliez 59 points dans ce jeu de points à relier gratuit à imprimer pour enfants de 5 à 8 ans.",
+          "name": "Chapiteau de Cirque",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/circus-tent-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
         "name": "Tente de cirque",
+        "h1": "Chapiteau de Cirque à Relier — 59 Points pour une Grande Aventure",
         "tagline": "Approchez-vous pour une aventure dans la grande tente !",
         "description": "Reliez 59 points pour révéler une joyeuse tente de cirque rayée, prête pour le spectacle. Cette activité facile à imprimer aide les enfants à pratiquer le comptage dans l'ordre, le suivi visuel, la concentration et le contrôle du crayon",
         "fun_fact": "La tente principale d'un cirque est souvent appelée « big top » car c'est la plus grande tente du spectacle.",
@@ -351,7 +386,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Comment résoudre le puzzle de points à relier Tente de cirque"
         }
       }
     }

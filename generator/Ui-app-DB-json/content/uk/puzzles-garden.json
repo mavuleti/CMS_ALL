@@ -1,5 +1,17 @@
 {
-  "collection": {},
+  "collection": {
+    "header": {
+      "title": "Роздруківки крапки в саду для дітей",
+      "meta_description": "Рости! З’єднайте точки, щоб побачити садові рукавички, кельми та зручні садові інструменти. Усі аркуші можна безкоштовно завантажити та роздрукувати — обліковий запис не потрібен.",
+      "og": {
+        "title": "Роздруківки крапки в саду для дітей",
+        "description": "Рости! З’єднайте точки, щоб побачити садові рукавички, кельми та зручні садові інструменти. Усі аркуші можна безкоштовно завантажити та роздрукувати — обліковий запис не потрібен."
+      }
+    },
+    "body": {
+      "h1": "Роздруківки крапки в саду для дітей"
+    }
+  },
   "puzzles": [
     {
       "slug": "garden-gloves-dot-to-dot-puzzle",
@@ -15,7 +27,9 @@
           "description": "Безкоштовна головоломка «Садові рукавички»: з’єднайте 54 крапок. Завантажте PDF для друку — цікаве завдання для розвитку уваги, лічби та дрібної моторики.",
           "name": "Садові рукавички",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/garden-gloves-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -156,7 +170,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Як розв'язати головоломку «З'єднай крапки» Садові рукавички"
         }
       }
     },
@@ -174,7 +189,9 @@
           "description": "Безкоштовна головоломка «Садова кельма»: з’єднайте 39 крапок. Завантажте PDF для друку — цікаве завдання для розвитку уваги, лічби та дрібної моторики.",
           "name": "Садова кельма",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/garden-trowel-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-7"
         }
       },
       "body": {
@@ -288,7 +305,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Як розв'язати головоломку «З'єднай крапки» Садова кельма"
         }
       }
     },
@@ -306,7 +324,9 @@
           "description": "Безкоштовна головоломка «Садова тачка»: з’єднайте 85 крапок. Завантажте PDF для друку — цікаве завдання для розвитку уваги, лічби та дрібної моторики.",
           "name": "Дитячий майданчик Тачка",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/wheelbarrow-playground-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
@@ -447,7 +467,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Як розв'язати головоломку «З'єднай крапки» Дитячий майданчик Тачка"
         }
       }
     }

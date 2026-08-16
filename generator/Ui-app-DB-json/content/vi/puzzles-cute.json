@@ -1,5 +1,21 @@
 {
-  "collection": {},
+  "collection": {
+    "header": {
+      "title": "Những hình vẽ nối điểm dễ thương dành cho trẻ em",
+      "meta_description": "Hãy sẵn sàng cho những khoảnh khắc đáng yêu tột đỉnh! Nối các chấm để tạo thành những chú cún con dễ thương, những chiếc xe nhỏ xinh và nhiều người bạn đáng yêu khác. Tất cả các bài tập đều được tải xuống và in miễn phí — không cần tài khoản.",
+      "og": {
+        "title": "Những hình vẽ nối điểm dễ thương dành cho trẻ em",
+        "description": "Hãy sẵn sàng cho những khoảnh khắc đáng yêu tột đỉnh! Nối các chấm để tạo thành những chú cún con dễ thương, những chiếc xe nhỏ xinh và nhiều người bạn đáng yêu khác. Tất cả các bài tập đều được tải xuống và in miễn phí — không cần tài khoản."
+      },
+      "json_ld": {
+        "description": "Hãy sẵn sàng cho những khoảnh khắc đáng yêu tột đỉnh! Nối các chấm để tạo thành những chú cún con dễ thương, những chiếc xe nhỏ xinh và nhiều người bạn đáng yêu khác. Tất cả các bài tập đều được tải xuống và in miễn phí — không cần tài khoản."
+      }
+    },
+    "body": {
+      "h1": "Những hình vẽ nối điểm dễ thương dành cho trẻ em",
+      "description": "Hãy sẵn sàng cho những khoảnh khắc đáng yêu tột đỉnh! Nối các chấm để tạo thành những chú cún con dễ thương, những chiếc xe nhỏ xinh và nhiều người bạn đáng yêu khác. Tất cả các bài tập đều được tải xuống và in miễn phí — không cần tài khoản."
+    }
+  },
   "puzzles": [
     {
       "slug": "cute-puppy-dot-to-dot-puzzle",
@@ -15,8 +31,8 @@
           "description": "Chó con mới sinh không thể nhìn hoặc nghe trong khoảng hai tuần. Khám phá chú chó con tò mò này qua 70 điểm với PDF in miễn phí cho độ tuổi 5–9.",
           "name": "Chú cún con dễ thương",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing",
           "image": "/images/cute-puppy-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
           "age_range": "5-9"
         }
       },
@@ -144,7 +160,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Cách giải câu đố nối các chấm Chú cún con dễ thương"
         }
       }
     },
@@ -162,7 +179,9 @@
           "description": "Nối 55 chấm để vẽ chiếc xe nhỏ xinh xắn, bài tập in miễn phí khổ A4 cho bé mẫu giáo luyện đếm số và điều khiển bút chì. Kèm sự thật vui: chiếc Peel P50 — xe sản xuất hàng loạt nhỏ nhất thế giới — nhỏ đến mức không có số lùi.",
           "name": "Chiếc xe nhỏ dễ thương",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/cute-little-car-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -269,7 +288,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Cách giải câu đố nối các chấm Chiếc xe nhỏ dễ thương"
         }
       }
     },
@@ -287,7 +307,9 @@
           "description": "Nối 74 chấm để vẽ chú sư tử con đáng yêu, bài tập in miễn phí khổ A4 dành cho bé mẫu giáo luyện sắp xếp số thứ tự. Kèm sự thật thú vị: tiếng gầm sư tử trưởng thành nghe được từ 8km, nhưng sư tử con chỉ biết kêu meo meo đến khi hai tuổi.",
           "name": "Sư tử dễ thương",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/cute-lion-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
@@ -414,7 +436,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Cách giải câu đố nối các chấm Sư tử dễ thương"
         }
       }
     },
@@ -432,7 +455,9 @@
           "description": "Bướm cảm nhận vị bằng các cảm biến trên chân. Kết nối 67 chấm để mở rộng cánh có hoa văn của bướm này trong một PDF in miễn phí cho trẻ từ 5–9 tuổi.",
           "name": "Con bướm dễ thương",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/cute-butterfly-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
@@ -539,7 +564,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Cách giải câu đố nối các chấm Con bướm dễ thương"
         }
       }
     },
@@ -557,7 +583,9 @@
           "description": "Đếm ngược từ chấm 1 và xây dựng một chiếc tàu vũ trụ qua 66 điểm. Tải xuống PDF miễn phí theo chủ đề không gian cho các nhà thám hiểm nhỏ từ 4–8 tuổi.",
           "name": "Tàu vũ trụ dễ thương",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/cute-rocket-ship-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -664,7 +692,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Cách giải câu đố nối các chấm Tàu vũ trụ dễ thương"
         }
       }
     },
@@ -682,7 +711,9 @@
           "description": "Chú rùa biển con theo đuổi chân trời sáng nhất về phía đại dương. Hướng dẫn nhà thám hiểm nhỏ bé này qua 65 điểm trong một PDF miễn phí cho độ tuổi 4–8.",
           "name": "Rùa con dễ thương",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/cute-baby-turtle-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -789,7 +820,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Cách giải câu đố nối các chấm Rùa con dễ thương"
         }
       }
     },
@@ -807,7 +839,9 @@
           "description": "Nối 65 chấm để vẽ chú cú đáng yêu sẵn sàng cho chuyến phiêu lưu ban đêm, bài tập in miễn phí khổ A4 giúp bé mẫu giáo luyện sắp xếp số. Kèm sự thật thú vị: cú có thể xoay đầu tới 270 độ vì mắt chúng cố định, không di chuyển được trong hốc mắt.",
           "name": "Cú dễ thương",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/cute-owl-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -914,7 +948,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Cách giải câu đố nối các chấm Cú dễ thương"
         }
       }
     },
@@ -932,7 +967,9 @@
           "description": "Chân cua được xây dựng để di chuyển nhanh theo chiều ngang. Chạy qua 72 điểm để hoàn thành PDF cua vui vẻ này cho trẻ em từ 5–9 tuổi.",
           "name": "Cua Vui Vẻ",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/cute-crab-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
@@ -1039,7 +1076,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Cách giải câu đố nối các chấm Cua Vui Vẻ"
         }
       }
     },
@@ -1057,7 +1095,9 @@
           "description": "Nối 50 chấm để vẽ chú voi con đáng yêu gửi lời chào thân thiện, bài tập dễ và ngắn gọn, in miễn phí khổ A4 lý tưởng cho bé mầm non mới làm quen với số đếm. Kèm sự thật dễ thương: voi con hay mút vòi để cảm thấy an toàn, giống trẻ sơ sinh mút ngón tay.",
           "name": "Chú voi con dễ thương",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/cute-baby-elephant-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -1164,7 +1204,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Cách giải câu đố nối các chấm Chú voi con dễ thương"
         }
       }
     },
@@ -1182,7 +1223,9 @@
           "description": "Ếch hấp thụ oxy một phần qua làn da ẩm ướt của chúng. Hãy nhảy qua 82 chấm để khám phá chú ếch đang cười trong file PDF miễn phí này dành cho trẻ em từ 6–10 tuổi.",
           "name": "Chú Ếch Đáng Yêu Vui Vẻ",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/cute-happy-frog-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "6-10"
         }
       },
       "body": {
@@ -1289,7 +1332,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Cách giải câu đố nối các chấm Chú Ếch Đáng Yêu Vui Vẻ"
         }
       }
     },
@@ -1307,7 +1351,9 @@
           "description": "Một bộ váy lấp lánh và vương miện xuất hiện khi trẻ kết nối 57 chấm hoàng gia. In PDF công chúa miễn phí để thực hành số sáng tạo cho trẻ từ 4–8 tuổi.",
           "name": "Công Chúa Dễ Thương",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/cute-princess-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -1414,7 +1460,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Cách giải câu đố nối các chấm Công Chúa Dễ Thương"
         }
       }
     }

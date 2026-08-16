@@ -1,5 +1,17 @@
 {
-  "collection": {},
+  "collection": {
+    "header": {
+      "title": "Dinosaurusten pisteestä pisteeseen tulostettavat materiaalit lapsille",
+      "meta_description": "Yhdistä pisteet ja paljasta suosikkidinosauruksesi! Kaikki tehtävät ovat ilmaisia ladata ja tulostaa – käyttäjätiliä ei tarvita. Täydellinen 4–10-vuotiaille lapsille, esikoululaisille, päiväkoti-ikäisille ja luokkahuonekäyttöön.",
+      "og": {
+        "title": "Dinosaurusten pisteestä pisteeseen tulostettavat materiaalit lapsille",
+        "description": "Yhdistä pisteet ja paljasta suosikkidinosauruksesi! Kaikki tehtävät ovat ilmaisia ladata ja tulostaa – käyttäjätiliä ei tarvita. Täydellinen 4–10-vuotiaille lapsille, esikoululaisille, päiväkoti-ikäisille ja luokkahuonekäyttöön."
+      }
+    },
+    "body": {
+      "h1": "Dinosaurusten pisteestä pisteeseen tulostettavat materiaalit lapsille"
+    }
+  },
   "puzzles": [
     {
       "slug": "trex-61-dot-to-dot-puzzle",
@@ -15,7 +27,9 @@
           "description": "Tämä 61 pisteen T-Rex tarjoaa varmoille laskijoille 6–9-vuotiaille pidemmän yhdistä pisteet -haasteen. T-Rexille kasvoi uusia hampaita koko elämän ajan — tulosta ilmainen PDF, suomalaisten dinosaurusfanien suosikki vuonna 2026. Se, jota kaikki pyytävät.",
           "name": "T-Rex 61-pistehaaste",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/trex-61-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "6-9"
         }
       },
       "body": {
@@ -210,7 +224,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Näin ratkaiset T-Rex 61-pistehaaste-yhdistä pisteet -tehtävän"
         }
       }
     },
@@ -228,7 +243,9 @@
           "description": "Strutsit voivat juosta jopa 45 mph. Paljasta yksi 55 pisteen kautta ilmaisilla yhdistä pisteet -sivuillamme lapsille, jotka ovat 5–8-vuotiaita, tulostettavan PDF:n kanssa, joka on valmis käytettäväksi.",
           "name": "Strutsi",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/ostriches-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-8"
         }
       },
       "body": {
@@ -396,7 +413,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Näin ratkaiset Strutsi-yhdistä pisteet -tehtävän"
         }
       }
     },
@@ -414,7 +432,9 @@
           "description": "Tämä 50 pisteen Brontosaurus on yhdistä pisteet -tehtävä esikouluikäisille 4–7-vuotiaille. Sen nimi tarkoittaa ukkosliskoa, saanut nimensä valtavasta koostaan — tulosta ilmainen PDF ja piirrä pitkä kaula ja leveä häntä. Lempeä jättiläinen aloittelijoille.",
           "name": "Brontosaurus",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/brontosaurus-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-7"
         }
       },
       "body": {
@@ -582,7 +602,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Näin ratkaiset Brontosaurus-yhdistä pisteet -tehtävän"
         }
       }
     },
@@ -600,7 +621,9 @@
           "description": "Triceratopsilla oli kolme hornia ja leveä luinen kaulus. Yhdistä 70 pistettä tällä ilmaisella yhdistä pisteet -työlehdellä esikoululaisille ja ensimmäiselle luokalle.",
           "name": "Trikseratops",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/triceratops-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "6-9"
         }
       },
       "body": {
@@ -768,7 +791,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Näin ratkaiset Trikseratops-yhdistä pisteet -tehtävän"
         }
       }
     },
@@ -786,7 +810,9 @@
           "description": "Tämä 54 pisteen Velociraptor kehittää numerotaitoja 5–8-vuotiaille ilmaisen yhdistä pisteet -tehtävän avulla. Todellinen raptor oli kalkkunan kokoinen höyhenpeitteinen saalistaja, joka juoksi 40 km/h — tulosta PDF ja piirrä tämä älykäs peto. Vikkelä nimi, vakaa kynänkäyttö.",
           "name": "Velosiraptor",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/velociraptor-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "6-9"
         }
       },
       "body": {
@@ -954,7 +980,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Näin ratkaiset Velosiraptor-yhdistä pisteet -tehtävän"
         }
       }
     },
@@ -972,7 +999,9 @@
           "description": "Yhdistä 52 pistettä Stegosaurukseksi ja sen timantinmuotoisiksi selkälevyiksi — suosittu ilmainen yhdistä pisteet -tehtävä esikouluikäisille 4–7-vuotiaille. Saksanpähkinän kokoinen aivo, piikikäs häntä superaseena. Tulosta ilmainen PDF ja piirrä. Nuo levyt opettavat kärsivällisyyttä.",
           "name": "Stegosaurus",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/stegosaurus-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-7"
         }
       },
       "body": {
@@ -1140,7 +1169,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Näin ratkaiset Stegosaurus-yhdistä pisteet -tehtävän"
         }
       }
     },
@@ -1158,7 +1188,9 @@
           "description": "Spinosaurus oli pidempi kuin T-Rex ja sillä oli valtava purje. Paljasta se 74 pisteen avulla tässä ilmaisessa yhdistä pisteet -tulostettavassa PDF:ssä 1.–2. luokkalaisille.",
           "name": "Spinosauraus",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/spinosaurus-74-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "6-10"
         }
       },
       "body": {
@@ -1326,7 +1358,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Näin ratkaiset Spinosauraus-yhdistä pisteet -tehtävän"
         }
       }
     },
@@ -1344,7 +1377,9 @@
           "description": "Brachiosaurus kantoi pientä päätään valtavan kaulan päällä. Yhdistä 38 pistettä paljastaaksesi tämä jurakauden jättiläinen pulmassa, joka on suunniteltu 5–9-vuotiaille lapsille.",
           "name": "Brakiotaurus",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "dummy-brachiosaurus",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
@@ -1485,7 +1520,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Näin ratkaiset Brakiotaurus-yhdistä pisteet -tehtävän"
         }
       }
     },
@@ -1503,7 +1539,9 @@
           "description": "Jopa Ankylosaurusilla oli luupanssari silmäluomiensa päällä. Paljasta sen suojattu vartalo ja nuijahäntä yhdistämällä 32 pistettä pulmassa, joka on suunniteltu 5–8-vuotiaille lapsille.",
           "name": "Ankilosaurus",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "dummy-ankylosaurus",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-8"
         }
       },
       "body": {
@@ -1644,7 +1682,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Näin ratkaiset Ankilosaurus-yhdistä pisteet -tehtävän"
         }
       }
     },
@@ -1662,7 +1701,9 @@
           "description": "Pterodaktyyli oli lentävä pterosaur, ei dinosauruksen. Yhdistä 67 pistettä tämän ilmaisen tulostettavan yhdistä pisteet -PDF:n avulla 6–9-vuotiaille lapsille.",
           "name": "Pterodaktyyli",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/pterodactyl-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "6-9"
         }
       },
       "body": {
@@ -1830,7 +1871,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Näin ratkaiset Pterodaktyyli-yhdistä pisteet -tehtävän"
         }
       }
     },
@@ -1848,7 +1890,9 @@
           "description": "Allosaurus hallitsi jurakautta pitkään ennen kuin T-Rex ilmestyi. Yhdistä 42 pistettä tämän voimakkaan saalistajan ympärille pulmassa, joka on suunniteltu 6–10-vuotiaille lapsille.",
           "name": "Allosaurus",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "dummy-allosaurus",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "6-10"
         }
       },
       "body": {
@@ -2016,7 +2060,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Näin ratkaiset Allosaurus-yhdistä pisteet -tehtävän"
         }
       }
     }

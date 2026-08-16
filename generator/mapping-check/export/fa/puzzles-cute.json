@@ -1,5 +1,21 @@
 {
-  "collection": {},
+  "collection": {
+    "header": {
+      "title": "چاپ‌های نقطه به نقطه زیبا برای کودکان",
+      "meta_description": "برای نهایت بامزه بودن آماده شوید! نقطه‌ها را به هم وصل کنید تا توله سگ‌های بامزه، ماشین‌های کوچک و دوستان جذاب‌تری را ببینید. دانلود و چاپ همه برگه‌های تمرین رایگان است - نیازی به حساب کاربری نیست.",
+      "og": {
+        "title": "چاپ‌های نقطه به نقطه زیبا برای کودکان",
+        "description": "برای نهایت بامزه بودن آماده شوید! نقطه‌ها را به هم وصل کنید تا توله سگ‌های بامزه، ماشین‌های کوچک و دوستان جذاب‌تری را ببینید. دانلود و چاپ همه برگه‌های تمرین رایگان است - نیازی به حساب کاربری نیست."
+      },
+      "json_ld": {
+        "description": "برای نهایت بامزه بودن آماده شوید! نقطه‌ها را به هم وصل کنید تا توله سگ‌های بامزه، ماشین‌های کوچک و دوستان جذاب‌تری را ببینید. دانلود و چاپ همه برگه‌های تمرین رایگان است - نیازی به حساب کاربری نیست."
+      }
+    },
+    "body": {
+      "h1": "چاپ‌های نقطه به نقطه زیبا برای کودکان",
+      "description": "برای نهایت بامزه بودن آماده شوید! نقطه‌ها را به هم وصل کنید تا توله سگ‌های بامزه، ماشین‌های کوچک و دوستان جذاب‌تری را ببینید. دانلود و چاپ همه برگه‌های تمرین رایگان است - نیازی به حساب کاربری نیست."
+    }
+  },
   "puzzles": [
     {
       "slug": "cute-puppy-dot-to-dot-puzzle",
@@ -15,8 +31,8 @@
           "description": "پاپی‌های نوزاد به مدت حدود دو هفته نمی‌توانند ببینند یا بشنوند. این پاپی کنجکاو را در 70 نقطه با یک PDF قابل چاپ رایگان برای سنین 5 تا 9 سال نشان دهید.",
           "name": "توله سگ ناز",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing",
           "image": "/images/cute-puppy-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
           "age_range": "5-9"
         }
       },
@@ -144,7 +160,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "چگونه پازل نقطه به نقطه توله سگ ناز را حل کنیم"
         }
       }
     },
@@ -162,7 +179,9 @@
           "description": "از میان 55 نقطه شماره‌گذاری شده عبور کنید تا یک ماشین کوچک شاد بسازید. PDF قابل چاپ رایگان یک فعالیت ترتیب‌دهی دوستانه برای کودکان 4 تا 8 ساله ارائه می‌دهد.",
           "name": "ماشین کوچولوی بامزه",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/cute-little-car-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -269,7 +288,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "چگونه پازل نقطه به نقطه ماشین کوچولوی بامزه را حل کنیم"
         }
       }
     },
@@ -287,7 +307,9 @@
           "description": "شیرهای کوچک قبل از اینکه یاد بگیرند غرش کنند، میو می‌کنند. با این کاربرگ قابل چاپ رایگان برای کودکان 5 تا 9 سال، یک شیر جوان را در 74 نقطه شکل دهید.",
           "name": "شیر ناز",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/cute-lion-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
@@ -414,7 +436,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "چگونه پازل نقطه به نقطه شیر ناز را حل کنیم"
         }
       }
     },
@@ -432,7 +455,9 @@
           "description": "پروانه‌ها با حسگرهایی که بر روی پاهایشان دارند، طعم را حس می‌کنند. 67 نقطه را به هم متصل کنید تا بال‌های الگو دار این پروانه را در یک PDF قابل چاپ رایگان برای سنین 5 تا 9 گسترش دهید.",
           "name": "پروانه ناز",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/cute-butterfly-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
@@ -539,7 +564,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "چگونه پازل نقطه به نقطه پروانه ناز را حل کنیم"
         }
       }
     },
@@ -557,7 +583,9 @@
           "description": "از نقطه 1 شمارش معکوس کنید و یک کشتی فضایی را در 66 نقطه بسازید. PDF رایگان با تم فضایی برای کاوشگران جوان 4 تا 8 ساله را دانلود کنید.",
           "name": "کشتی موشکی زیبا",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/cute-rocket-ship-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -664,7 +692,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "چگونه پازل نقطه به نقطه کشتی موشکی زیبا را حل کنیم"
         }
       }
     },
@@ -682,7 +711,9 @@
           "description": "لاک‌پشت‌های نوزاد دریایی به سمت افق روشن‌ترین به سمت اقیانوس حرکت می‌کنند. این کاوشگر کوچک را از طریق 65 نقطه در یک PDF رایگان برای سنین 4 تا 8 راهنمایی کنید.",
           "name": "لاک‌پشت کوچولوی ناز",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/cute-baby-turtle-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -789,7 +820,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "چگونه پازل نقطه به نقطه لاک‌پشت کوچولوی ناز را حل کنیم"
         }
       }
     },
@@ -807,7 +839,9 @@
           "description": "چشم‌های ثابت کمک می‌کنند تا توضیح دهند چرا جغدها سر خود را اینقدر می‌چرخانند. با این چاپی رایگان برای سنین 4 تا 8، یک جغد با چشمان بزرگ را در 65 نقطه نشان دهید.",
           "name": "جغد ناز",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/cute-owl-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -914,7 +948,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "چگونه پازل نقطه به نقطه جغد ناز را حل کنیم"
         }
       }
     },
@@ -932,7 +967,9 @@
           "description": "پاهای خرچنگ برای حرکت سریع جانبی ساخته شده‌اند. از طریق ۷۲ نقطه برای تکمیل این PDF خرچنگ شاد برای کودکان ۵ تا ۹ سال عبور کنید.",
           "name": "خرچنگ شاد",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/cute-crab-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
@@ -1039,7 +1076,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "چگونه پازل نقطه به نقطه خرچنگ شاد را حل کنیم"
         }
       }
     },
@@ -1057,7 +1095,9 @@
           "description": "نوزادان فیل گاهی برای آرامش خرطوم خود را می‌مکند. با این جوان ملایم در 50 نقطه آشنا شوید و یک PDF قابل چاپ رایگان برای سنین 4 تا 8 دریافت کنید.",
           "name": "بچه فیل ناز",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/cute-baby-elephant-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -1164,7 +1204,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "چگونه پازل نقطه به نقطه بچه فیل ناز را حل کنیم"
         }
       }
     },
@@ -1182,7 +1223,9 @@
           "description": "قورباغه‌ها بخشی از اکسیژن را از طریق پوست مرطوب خود جذب می‌کنند. بر روی 82 نقطه بپرید تا یک قورباغه خندان را در این پی‌دی‌اف رایگان برای کودکان 6 تا 10 ساله آشکار کنید.",
           "name": "قورباغه خوشحال و بامزه",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/cute-happy-frog-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "6-10"
         }
       },
       "body": {
@@ -1289,7 +1332,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "چگونه پازل نقطه به نقطه قورباغه خوشحال و بامزه را حل کنیم"
         }
       }
     },
@@ -1307,7 +1351,9 @@
           "description": "یک لباس درخشان و تاج زمانی که کودکان 57 نقطه سلطنتی را وصل می‌کنند ظاهر می‌شود. PDF رایگان پرنسس را برای تمرین شماره‌های تخیلی در سنین 4 تا 8 چاپ کنید.",
           "name": "پرنسس بامزه",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/cute-princess-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -1414,7 +1460,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "چگونه پازل نقطه به نقطه پرنسس بامزه را حل کنیم"
         }
       }
     }

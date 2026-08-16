@@ -1,17 +1,40 @@
 {
-  "collection": {},
+  "collection": {
+    "header": {
+      "title": "Cirkus punkt till punkt utskrifter för barn",
+      "meta_description": "Steg fram för gratis cirkus punkt till punkt utskrifter med en vänlig cirkusdirektörs-björn och ett randigt stort tält. Ladda ner och skriv ut båda PDF-arbetsbladen för räkning och blyertsträning.",
+      "og": {
+        "title": "Cirkus punkt till punkt utskrifter för barn",
+        "description": "Steg fram för gratis cirkus punkt till punkt utskrifter med en vänlig cirkusdirektörs-björn och ett randigt stort tält. Ladda ner och skriv ut båda PDF-arbetsbladen för räkning och blyertsträning."
+      }
+    },
+    "body": {
+      "h1": "Cirkus punkt till punkt utskrifter för barn"
+    }
+  },
   "puzzles": [
     {
       "slug": "circus-ringmaster-bear-dot-to-dot-puzzle",
       "header": {
+        "title": "Cirkusdirektör-björnen — Prick till Prick, 74 Prickar",
+        "og": {
+          "title": "Cirkusdirektör-björnen — Prick till Prick, 74 Prickar",
+          "description": "Möt björnen som leder den stora showen! Dra streck mellan 74 prickar och avslöja en cirkusdirektör-björn i denna gratis pyssel för barn 6–9 år.",
+          "image_alt": "Cirkusdirektör-björn i hög hatt och rock, prick till prick-pussel med 74 prickar att skriva ut"
+        },
+        "meta_description": "Möt björnen som leder den stora showen! Dra streck mellan 74 prickar och avslöja en cirkusdirektör-björn i denna gratis pyssel för barn 6–9 år — Punkt till punkt ritning barn.",
         "json_ld": {
-          "name": "Cirkusdirektör Björn",
+          "description": "En cirkusdirektör presenterar artisterna och leder showen. Dra streck mellan 74 prickar i detta gratis prick till prick-pyssel för barn 6–9 år.",
+          "name": "Cirkusdirektör-björnen",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/circus-ringmaster-bear-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
         "name": "Cirkusdirektör Björn",
+        "h1": "Cirkusdirektör-björnen Prick till Prick — 74 Prickar av Cirkusskoj",
         "tagline": "Möt björnen som driver den stora showen!",
         "description": "Anslut 74 prickar för att avslöja en vänlig björn klädd som cirkusdirektör. Denna mellanliggande utskrivbara hjälper barn att öva på nummerserier, koncentration, visuell spårning och noggrann blyertskontroll",
         "fun_fact": "En cirkusdirektör introducerar artisterna och guidar publiken från en akt till nästa.",
@@ -174,21 +197,33 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Så löser du prick till prick-pusslet Cirkusdirektör Björn"
         }
       }
     },
     {
       "slug": "circus-tent-dot-to-dot-puzzle",
       "header": {
+        "title": "Cirkustält Prick till Prick — 59 Prickar Gratis",
+        "og": {
+          "title": "Cirkustält Prick till Prick — 59 Prickar Gratis",
+          "description": "Stig in under det stora tältet! Dra streck mellan 59 prickar och avslöja ett glatt randigt cirkustält i denna gratis pyssel för barn 5–8 år.",
+          "image_alt": "Randigt cirkustält med en flagga på toppen, prick till prick-pussel med 59 prickar att skriva ut"
+        },
+        "meta_description": "Stig in under det stora tältet! Dra streck mellan 59 prickar och avslöja ett glatt randigt cirkustält i denna gratis pyssel för barn 5–8 år — Följ punkterna att skriva ut PDF.",
         "json_ld": {
+          "description": "Cirkusens stora tält är det största tältet i showen. Dra streck mellan 59 prickar i detta gratis prick till prick-pyssel för barn 5–8 år.",
           "name": "Cirkustält",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/circus-tent-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
         "name": "Cirkustält",
+        "h1": "Cirkustält Prick till Prick — 59 Prickar för Ett Stort Äventyr",
         "tagline": "Steg fram till ett stortäventyr!",
         "description": "Anslut 59 prickar för att avslöja ett glatt randigt cirkustält redo för showen. Denna enkla utskrivbara hjälper barn att öva på att räkna i ordning, visuell spårning, koncentration och stadig pennkontroll",
         "fun_fact": "Cirkusens huvuduppträdande tält kallas ofta för big top eftersom det är det största tältet på showen.",
@@ -351,7 +386,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Så löser du prick till prick-pusslet Cirkustält"
         }
       }
     }

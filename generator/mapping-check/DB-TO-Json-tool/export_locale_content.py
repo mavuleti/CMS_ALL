@@ -33,7 +33,12 @@ if hasattr(sys.stdout, "buffer"):
     sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
     sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding="utf-8", errors="replace")
 
+from collection_status import is_active
+
 HERE = Path(__file__).resolve().parent
+# As of the 2026-08-14 "Reorganize mapping tools" commit, the mapping_audit_*.db
+# files live in a sibling DB/ folder rather than alongside this script.
+DEFAULT_DB_DIR = HERE.parent / "DB"
 
 DEFAULT_LANGS = ["en", "ar", "de", "fi"]
 
@@ -189,8 +194,8 @@ def write_single_document_export(document: dict, out_path: Path) -> None:
     out_path.write_text(json.dumps(document, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
 
 
-def export_legal_bundle(out_dir: Path, language: str) -> int:
-    db_path = HERE / "mapping_audit_legal.db"
+def export_legal_bundle(out_dir: Path, language: str, db_dir: Path) -> int:
+    db_path = db_dir / "mapping_audit_legal.db"
     if not db_path.exists():
         print("SKIP legal: mapping_audit_legal.db not found")
         return 0
@@ -222,8 +227,8 @@ def export_legal_bundle(out_dir: Path, language: str) -> int:
     return total
 
 
-def export_home(out_dir: Path, language: str) -> int:
-    db_path = HERE / "mapping_audit_home.db"
+def export_home(out_dir: Path, language: str, db_dir: Path) -> int:
+    db_path = db_dir / "mapping_audit_home.db"
     if not db_path.exists():
         print("SKIP home: mapping_audit_home.db not found")
         return 0
@@ -242,8 +247,10 @@ def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("names", nargs="*", help="db stems to export (default: all known)")
     parser.add_argument("--langs", nargs="*", default=DEFAULT_LANGS, help=f"language codes to export (default: {DEFAULT_LANGS})")
-    parser.add_argument("--out-dir", type=Path, default=HERE / "export", help="base export dir; each language gets its own subfolder")
+    parser.add_argument("--out-dir", type=Path, default=HERE.parent / "export", help="base export dir; each language gets its own subfolder")
+    parser.add_argument("--db-dir", type=Path, default=DEFAULT_DB_DIR, help="folder containing mapping_audit_*.db files")
     args = parser.parse_args()
+    db_dir = args.db_dir
 
     requested = args.names or list(DB_TO_OUTPUT) + ["legal", "home"]
 
@@ -267,12 +274,12 @@ def main() -> int:
         total = 0
 
         if "legal" in requested:
-            total += export_legal_bundle(lang_out_dir, language)
+            total += export_legal_bundle(lang_out_dir, language, db_dir)
         if "home" in requested:
-            total += export_home(lang_out_dir, language)
+            total += export_home(lang_out_dir, language, db_dir)
 
         for out_name in requested_outputs:
-            db_names = [n for n in all_by_output[out_name] if (HERE / f"mapping_audit_{n}.db").exists()]
+            db_names = [n for n in all_by_output[out_name] if (db_dir / f"mapping_audit_{n}.db").exists()]
             missing = [n for n in all_by_output[out_name] if n not in db_names]
             if missing:
                 print(f"NOTE {out_name}: {', '.join(m + '.db' for m in missing)} not found on disk, exporting from the rest")
@@ -280,12 +287,23 @@ def main() -> int:
                 print(f"SKIP {out_name}: no source db found")
                 continue
 
+            active_db_names = [n for n in db_names if is_active(n, language)]
+            inactive_db_names = [n for n in db_names if n not in active_db_names]
+            if inactive_db_names:
+                print(f"INACTIVE {out_name} for '{language}': {', '.join(inactive_db_names)} marked active=false, skipping")
+            if not active_db_names:
+                out_path = lang_out_dir / out_name
+                if out_path.exists():
+                    out_path.unlink()
+                    print(f"REMOVED stale {out_path} (inactive for '{language}')")
+                continue
+
             puzzles: dict[str, dict] = {}
             collection: dict = {}
             seen: dict[tuple[str, str], tuple[str, str]] = {}
             written = 0
-            for name in db_names:
-                rows = read_rows(HERE / f"mapping_audit_{name}.db", language)
+            for name in active_db_names:
+                rows = read_rows(db_dir / f"mapping_audit_{name}.db", language)
                 written += apply_rows(rows, f"{name}.db", puzzles, collection, seen)
 
             out_path = lang_out_dir / out_name

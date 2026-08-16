@@ -1,5 +1,17 @@
 {
-  "collection": {},
+  "collection": {
+    "header": {
+      "title": "Kukkien pisteestä pisteeseen -tulostettavat lapsille",
+      "meta_description": "Anna luovuuden kukkia! Yhdistä pisteet ja paljasta ruusuja ja kauniita kukkia. Jokainen tehtävämoniste on ilmainen ladata ja tulostaa – ei tiliä tarvita.",
+      "og": {
+        "title": "Kukkien pisteestä pisteeseen -tulostettavat lapsille",
+        "description": "Anna luovuuden kukkia! Yhdistä pisteet ja paljasta ruusuja ja kauniita kukkia. Jokainen tehtävämoniste on ilmainen ladata ja tulostaa – ei tiliä tarvita."
+      }
+    },
+    "body": {
+      "h1": "Kukkien pisteestä pisteeseen -tulostettavat lapsille"
+    }
+  },
   "puzzles": [
     {
       "slug": "flax-flower-dot-to-dot-puzzle",
@@ -15,7 +27,9 @@
           "description": "Linum on toimittanut pellavakuitua tuhansien vuosien ajan. Rakenna sen herkkä kukka yhdistämällä 90 pistettä ilmaiseksi tulostettavassa PDF:ssä lapsille, jotka ovat 6–10-vuotiaita.",
           "name": "Pellavakukka",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/flower-flax-flower-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "6-10"
         }
       },
       "body": {
@@ -183,7 +197,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Näin ratkaiset Pellavakukka-yhdistä pisteet -tehtävän"
         }
       }
     },
@@ -201,7 +216,9 @@
           "description": "Nasturtiumin kukilla ja lehdillä on pippurinen maku. Jäljitä tämä syötävä kukka yhdistämällä 96 pistettä ilmaisessa tulostettavassa PDF:ssä 6–10-vuotiaille.",
           "name": "Krassin kukka",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/flower-nasturtium-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "6-10"
         }
       },
       "body": {
@@ -369,7 +386,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Näin ratkaiset Krassin kukka-yhdistä pisteet -tehtävän"
         }
       }
     },
@@ -387,7 +405,9 @@
           "description": "145 pisteellään tämä lumikello on yksi monimutkaisimmista pisteestä pisteeseen -tulostettavista työkirjoistamme – todellinen haaste itsevarmoille 8–12-vuotiaille lapsille. Tulosta ilmainen PDF-työarkki ja katso kevään varhaisimman kukan ilmestyvän rivi riviltä. Uutta vuoden 2026 kukkakokoelmassa. Koko sopii sekä A4- että US Letter -kokoon.",
           "name": "Lumikellokukka",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/flower-snowdrop-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "8-12"
         }
       },
       "body": {
@@ -582,7 +602,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Näin ratkaiset Lumikellokukka-yhdistä pisteet -tehtävän"
         }
       }
     },
@@ -600,7 +621,9 @@
           "description": "Piirrä 62 pistettä kiiltävän keltaiseen leinikkikukkaan tällä ilmaisella pisteestä pisteeseen -tulostettavalla tehtävällä 5–9-vuotiaille lapsille. Iloinen niittykukka, jota esiintyy kaikkialla Isossa-Britanniassa, Yhdysvalloissa ja Kanadassa – tulosta PDF-työkirja heti, tiliä ei tarvita. Tarkistettu piste pisteeltä ennen julkaisua.",
           "name": "Leinikkikukka",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/flower-buttercup-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
@@ -768,7 +791,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Näin ratkaiset Leinikkikukka-yhdistä pisteet -tehtävän"
         }
       }
     },
@@ -786,7 +810,9 @@
           "description": "Kamelioilla on kiiltävät vihreät lehdet ympäri vuoden ja ne voivat kukkia talvella. Paljasta kerrokselliset terälehdet yhdistämällä 45 pistettä ilmaisessa PDF:ssä 4–8-vuotiaille.",
           "name": "Kamelian kukka",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/flower-camellia-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -927,7 +953,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Näin ratkaiset Kamelian kukka-yhdistä pisteet -tehtävän"
         }
       }
     },
@@ -945,7 +972,9 @@
           "description": "Pienet siniset terälehdet ja keltaiset keskukset nousevat esiin, kun yhdistät 107 pistettä. Lataa tämä yksityiskohtainen unohda minut -tulostettava PDF lapsille, jotka ovat 6–10-vuotiaita.",
           "name": "Unnikkei-kukka",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/flower-forget-me-not-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "6-10"
         }
       },
       "body": {
@@ -1113,7 +1142,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Näin ratkaiset Unnikkei-kukka-yhdistä pisteet -tehtävän"
         }
       }
     },
@@ -1131,7 +1161,9 @@
           "description": "Monet pienet geraniumikukat kerääntyvät yhteen pyöreään klusteriin. Yhdistä sen 92 pistettä ilmaisella tulostettavalla työlehdellä, joka on tarkoitettu 6–10-vuotiaille.",
           "name": "Geranium-kukka",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/flower-geranium-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "6-10"
         }
       },
       "body": {
@@ -1299,7 +1331,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Näin ratkaiset Geranium-kukka-yhdistä pisteet -tehtävän"
         }
       }
     },
@@ -1317,7 +1350,9 @@
           "description": "Jasmiini vapauttaa makeaa tuoksuaan voimakkaimmin auringonlaskun jälkeen. Muotoile tähtikukka yhdistämällä 97 pistettä ilmaisella PDF:llä 6–10-vuotiaille lapsille.",
           "name": "Jasmiinikukka",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/flower-jasmine-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "6-10"
         }
       },
       "body": {
@@ -1485,7 +1520,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Näin ratkaiset Jasmiinikukka-yhdistä pisteet -tehtävän"
         }
       }
     },
@@ -1503,7 +1539,9 @@
           "description": "Yhdistä 72 pistettä viisiterälehtiseksi sinivinkaksi tässä ilmaisessa yhdistä pisteet -tehtävässä 5–9-vuotiaille. Tuulimyllymäinen kukka sopii tasaiseen numerojärjestyksen harjoitteluun päiväkodeissa ja kouluissa — lataa ja tulosta PDF muutamassa sekunnissa. Opettajien ja vanhempien luottama.",
           "name": "Periwinkle-kukka",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/flower-periwinkle-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
@@ -1671,7 +1709,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Näin ratkaiset Periwinkle-kukka-yhdistä pisteet -tehtävän"
         }
       }
     },
@@ -1689,7 +1728,9 @@
           "description": "Tämä lempeä 53 pisteen petunia on yksi sivuston helpoimmista yhdistä pisteet -tehtävistä, tehty 4–8-vuotiaille ensimmäistä tehtäväänsä tekeville. Nappaa tulostettava PDF ja paljasta yksi suosituimmista ripustettavien koristekukista. Jokainen numero aseteltu käsin.",
           "name": "Petunian kukka",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/flower-petunia-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -1830,7 +1871,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Näin ratkaiset Petunian kukka-yhdistä pisteet -tehtävän"
         }
       }
     },
@@ -1848,7 +1890,9 @@
           "description": "Lämpimät illat vahvistavat plumeria-kukkien makeaa tuoksua. Yhdistä tämän trooppisen kukan 95 pistettä ilmaisessa PDF:ssä ikäryhmälle 6–10.",
           "name": "Plumeria-kukka",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/flower-plumeria-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "6-10"
         }
       },
       "body": {
@@ -2016,7 +2060,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Näin ratkaiset Plumeria-kukka-yhdistä pisteet -tehtävän"
         }
       }
     },
@@ -2034,7 +2079,9 @@
           "description": "53 pisteellä tämä rypytetty neilikka on nopea ilmainen yhdistä pisteet -tehtävä 4–8-vuotiaille. Klassinen kukkakimppukukka, jota käytetään myös suomalaisissa ylioppilasjuhlissa — piirrä rypytetyt terälehdet, tulosta PDF ja aloita värittäminen. Ei maksua, ei koukkuja.",
           "name": "Neilikka",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/flower-carnation-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -2175,7 +2222,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Näin ratkaiset Neilikka-yhdistä pisteet -tehtävän"
         }
       }
     },
@@ -2193,7 +2241,9 @@
           "description": "Tämä 62 pisteen lilja on ilmainen yhdistä pisteet -valinta 5–9-vuotiaille, jotka pitävät symmetrisistä muodoista. Kuusi tyylikästä terälehteä ja yksi pitkä varsi — lataa PDF 2026-kukkasivuiltamme ilman rekisteröitymistä. Terävät viivat missä tahansa tulostuskoossa.",
           "name": "Kuusiterälehtililja",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/flower-six-petal-lily-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
@@ -2361,7 +2411,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Näin ratkaiset Kuusiterälehtililja-yhdistä pisteet -tehtävän"
         }
       }
     },
@@ -2379,7 +2430,9 @@
           "description": "Pionikasvit voivat kukkia yli vuosisadan. Rakenna yksi pörräinen kukka yhdistämällä 46 pistettä tämän ilmaisen tulostettavan PDF:n avulla ikäryhmälle 4–8.",
           "name": "Pioni kukka",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/flower-peony-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -2520,7 +2573,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Näin ratkaiset Pioni kukka-yhdistä pisteet -tehtävän"
         }
       }
     },
@@ -2538,7 +2592,9 @@
           "description": "Piirrä 76 pistettä tyylikkääksi orkideaksi tässä ilmaisessa yhdistä pisteet -tehtävässä 6–10-vuotiaille. Tehtävä seuraa kukan erottuvaa huuliterälehteä ennen varteen päättymistä — tulosta PDF heti, missä tahansa Suomessa olet. Suunnittelutiimimme tarkistama.",
           "name": "Orkidea kukka",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/flower-orchid-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "6-10"
         }
       },
       "body": {
@@ -2706,7 +2762,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Näin ratkaiset Orkidea kukka-yhdistä pisteet -tehtävän"
         }
       }
     },
@@ -2724,7 +2781,9 @@
           "description": "Tämä helppo 46 pisteen lootus on rauhallinen, aloittelijaystävällinen yhdistä pisteet -tehtävä 4–8-vuotiaille. Yhdistä numerot avoimeksi kerrokselliseksi kukaksi, tulosta PDF ja lisää lammikkoinspiroituja värejä — mielekäs valinta vuodelle 2026. Vanhempien hyväksymä rauhoittumishetki.",
           "name": "Lootuskukka",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/flower-lotus-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -2865,7 +2924,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Näin ratkaiset Lootuskukka-yhdistä pisteet -tehtävän"
         }
       }
     },
@@ -2883,7 +2943,9 @@
           "description": "Tämä 66 pisteen ruusu antaa 5–9-vuotiaille mahdollisuuden rakentaa klassisen kerroksellisen kukan terälehti kerrallaan. Rakastettu yhdistä pisteet -tehtävä kynänkäytön ja numerojärjestyksen harjoitteluun — tulosta PDF ja valitse ruususi väri. Pitkäaikainen lukijoiden suosikki.",
           "name": "Ruusukukka",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/flower-rose-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
@@ -3051,7 +3113,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Näin ratkaiset Ruusukukka-yhdistä pisteet -tehtävän"
         }
       }
     },
@@ -3069,7 +3132,9 @@
           "description": "Tulppaanin sipulit varastoivat ravintoa maan alle seuraavaa kasvukautta varten. Kasvata kupumainen kukka yhdistämällä 88 pistettä ilmaisella PDF:llä 5–9-vuotiaille.",
           "name": "Tulppaanikukka",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/flower-tulip-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
@@ -3237,7 +3302,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Näin ratkaiset Tulppaanikukka-yhdistä pisteet -tehtävän"
         }
       }
     },
@@ -3255,7 +3321,9 @@
           "description": "Yhdistä 106 pistettä – tämä ohuenhaurastuntuinen unikko on yksi pidemmistä kukkatehtävistämme 6–10-vuotiaille. Muistokukka, joka tunnetaan myös Suomessa, seuraa numeroita terälehtien ja varren läpi, tulosta sitten ilmainen PDF. Sähköpostiosoitetta ei koskaan kysytä.",
           "name": "Unikkokukka",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/flower-poppy-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "6-10"
         }
       },
       "body": {
@@ -3423,7 +3491,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Näin ratkaiset Unikkokukka-yhdistä pisteet -tehtävän"
         }
       }
     },
@@ -3441,7 +3510,9 @@
           "description": "Nuoret auringonkukkapungot kääntyvät seuraamaan aurinkoa. Yhdistä 58 pistettä paljastaaksesi hymyilevän kawaii-kukan tässä ilmaisessa tulostettavassa PDF:ssä, joka on tarkoitettu 4–8-vuotiaille.",
           "name": "Kawaii-auringonkukka",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/flower-kawaii-sunflower-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -3609,7 +3680,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Näin ratkaiset Kawaii-auringonkukka-yhdistä pisteet -tehtävän"
         }
       }
     }

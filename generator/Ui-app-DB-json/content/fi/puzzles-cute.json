@@ -1,5 +1,21 @@
 {
-  "collection": {},
+  "collection": {
+    "header": {
+      "title": "Söpöjä pisteestä pisteeseen -tulostettavia lapsille",
+      "meta_description": "Valmistaudu äärimmäiseen suloisuuteen! Yhdistä pisteet paljastaaksesi ihastuttavia pentuja, pieniä autoja ja lisää viehättäviä ystäviä. Kaikki tehtävät ovat ilmaisia ladata ja tulostaa – tiliä ei tarvita.",
+      "og": {
+        "title": "Söpöjä pisteestä pisteeseen -tulostettavia lapsille",
+        "description": "Valmistaudu äärimmäiseen suloisuuteen! Yhdistä pisteet paljastaaksesi ihastuttavia pentuja, pieniä autoja ja lisää viehättäviä ystäviä. Kaikki tehtävät ovat ilmaisia ladata ja tulostaa – tiliä ei tarvita."
+      },
+      "json_ld": {
+        "description": "Valmistaudu äärimmäiseen suloisuuteen! Yhdistä pisteet paljastaaksesi ihastuttavia pentuja, pieniä autoja ja lisää viehättäviä ystäviä. Kaikki tehtävät ovat ilmaisia ladata ja tulostaa – tiliä ei tarvita."
+      }
+    },
+    "body": {
+      "h1": "Söpöjä pisteestä pisteeseen -tulostettavia lapsille",
+      "description": "Valmistaudu äärimmäiseen suloisuuteen! Yhdistä pisteet paljastaaksesi ihastuttavia pentuja, pieniä autoja ja lisää viehättäviä ystäviä. Kaikki tehtävät ovat ilmaisia ladata ja tulostaa – tiliä ei tarvita."
+    }
+  },
   "puzzles": [
     {
       "slug": "cute-puppy-dot-to-dot-puzzle",
@@ -15,8 +31,8 @@
           "description": "Vastasyntyneet pennut eivät näe tai kuule noin kahteen viikkoon. Paljasta tämä utelias pentu yhdistämällä 70 pistettä ilmaisessa tulostettavassa PDF:ssä, joka on tarkoitettu 5–9-vuotiaille.",
           "name": "Söpö pentu",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing",
           "image": "/images/cute-puppy-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
           "age_range": "5-9"
         }
       },
@@ -144,7 +160,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Näin ratkaiset Söpö pentu-yhdistä pisteet -tehtävän"
         }
       }
     },
@@ -162,7 +179,9 @@
           "description": "Aja läpi 55 numeroitua pistettä rakentaaksesi iloisen pienen auton. Ilmainen tulostettava yhdistä pisteet -PDF tarjoaa ystävällisen järjestämistehtävän 4–8-vuotiaille lapsille.",
           "name": "Söpö pieni auto",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/cute-little-car-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -269,7 +288,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Näin ratkaiset Söpö pieni auto-yhdistä pisteet -tehtävän"
         }
       }
     },
@@ -287,7 +307,9 @@
           "description": "Leijonanpennut maukuvat ennen kuin ne oppivat murisemaan. Muotoile nuori leijona yhdistämällä 74 pistettä tällä ilmaisella tulostettavalla työarkilla lapsille, jotka ovat 5–9-vuotiaita.",
           "name": "Söpö leijona",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/cute-lion-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
@@ -414,7 +436,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Näin ratkaiset Söpö leijona-yhdistä pisteet -tehtävän"
         }
       }
     },
@@ -432,7 +455,9 @@
           "description": "Piirrä 67 pistettä kauniiksi perhoseksi tässä ilmaisessa yhdistä pisteet -tehtävässä 5–9-vuotiaille. Perhoset maistavat ruokaa jaloillaan — kevään luokkahuonesuosikki myös suomalaiskouluissa. Tulosta PDF ja yhdistä pisteet. Siivet palkitsevat tarkasta laskemisesta.",
           "name": "Söpö perhonen",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/cute-butterfly-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
@@ -539,7 +564,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Näin ratkaiset Söpö perhonen-yhdistä pisteet -tehtävän"
         }
       }
     },
@@ -557,7 +583,9 @@
           "description": "Laskeudu pisteestä 1 ja yhdistä 66 pistettä rakentaaksesi iloisen rakettialuksen. Lataa ilmainen avaruusteemainen PDF nuorille tutkijoille, ikäryhmässä 4–8.",
           "name": "Söpö rakettilaiva",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/cute-rocket-ship-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -664,7 +692,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Näin ratkaiset Söpö rakettilaiva-yhdistä pisteet -tehtävän"
         }
       }
     },
@@ -682,7 +711,9 @@
           "description": "Yhdistä 65 pistettä ihastuttavaksi vauvakilpikonnaksi tässä ilmaisessa yhdistä pisteet -tehtävässä 4–8-vuotiaille. Vastakuoriutuneet ryömivät vaistomaisesti kohti kirkkainta horisonttia, yleensä kuutamon valaisemaa merta. Tulosta ilmainen PDF ja piirrä tämä pieni seikkailija. Hitaasti mutta varmasti pärjää täälläkin.",
           "name": "Söpö vauvakilpikonna",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/cute-baby-turtle-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -789,7 +820,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Näin ratkaiset Söpö vauvakilpikonna-yhdistä pisteet -tehtävän"
         }
       }
     },
@@ -807,7 +839,9 @@
           "description": "Tämä 65 pisteen pöllö on ilmainen yhdistä pisteet -tehtävä 4–8-vuotiaille, jotka harjoittelevat numerojärjestystä ja kynänkäyttöä. Pöllöt kääntävät päätään jopa 270 astetta, koska niiden silmät eivät liiku — tulosta PDF ja piirrä tämä suursilmäinen lintu. Rauhallinen tekeminen hiljaiseen iltapäivään.",
           "name": "Söpö pöllö",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/cute-owl-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -914,7 +948,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Näin ratkaiset Söpö pöllö-yhdistä pisteet -tehtävän"
         }
       }
     },
@@ -932,7 +967,9 @@
           "description": "Ravun jalat on rakennettu nopeaa vaakasuoraa liikettä varten. Yhdistä 72 pistettä saadaksesi tämän iloisen rapu-PDF:n lapsille, jotka ovat 5–9-vuotiaita.",
           "name": "Iloinen rapu",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/cute-crab-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
@@ -1039,7 +1076,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Näin ratkaiset Iloinen rapu-yhdistä pisteet -tehtävän"
         }
       }
     },
@@ -1057,7 +1095,9 @@
           "description": "Vauvaelefantit imevät joskus torviaan lohduttaakseen itseään. Tapaa tämä lempeä nuori yhdistä pisteet -tehtävässä, 50 pistettä, ilmaisessa tulostettavassa PDF:ssä ikäryhmälle 4–8.",
           "name": "Söpö vauvanorsu",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/cute-baby-elephant-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -1164,7 +1204,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Näin ratkaiset Söpö vauvanorsu-yhdistä pisteet -tehtävän"
         }
       }
     },
@@ -1182,7 +1223,9 @@
           "description": "Sammakot imevät happea osittain kosteasta ihostaan. Hyppää 82 pistettä läpi paljastaaksesi hymyilevän sammakon tässä ilmaisessa pisteestä pisteeseen -PDF:ssä, joka on tarkoitettu 6–10-vuotiaille lapsille.",
           "name": "Söpö onnellinen sammakko",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/cute-happy-frog-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "6-10"
         }
       },
       "body": {
@@ -1289,7 +1332,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Näin ratkaiset Söpö onnellinen sammakko-yhdistä pisteet -tehtävän"
         }
       }
     },
@@ -1307,7 +1351,9 @@
           "description": "Tämä 57 pisteen prinsessa on ilmainen yhdistä pisteet -tehtävä 4–8-vuotiaille, joka piirtää kimaltelevan hameen ja kruunun. Todelliset prinsessat opiskelivat tiedettä, historiaa ja kieliä hallitakseen viisaasti — tulosta PDF ja yhdistä kuninkaalliset numerot. Kruunu vaatii siistiä viivanvetoa.",
           "name": "Söpö prinsessa",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/cute-princess-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -1414,7 +1460,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Näin ratkaiset Söpö prinsessa-yhdistä pisteet -tehtävän"
         }
       }
     }

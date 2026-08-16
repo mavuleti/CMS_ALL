@@ -1,17 +1,40 @@
 {
-  "collection": {},
+  "collection": {
+    "header": {
+      "title": "Cetakan Dot-to-Dot Ruang Gratis untuk Anak-anak",
+      "meta_description": "Luncurkan dengan lembar kerja connect-the-dots ruang gratis. Cetak teka-teki rover yang ramah hari ini, dengan lebih banyak roket, planet, dan petualangan kosmik yang akan datang segera.",
+      "og": {
+        "title": "Cetakan Dot-to-Dot Ruang Gratis untuk Anak-anak",
+        "description": "Luncurkan dengan lembar kerja connect-the-dots ruang gratis. Cetak teka-teki rover yang ramah hari ini, dengan lebih banyak roket, planet, dan petualangan kosmik yang akan datang segera."
+      }
+    },
+    "body": {
+      "h1": "Cetakan Dot-to-Dot Ruang Gratis untuk Anak-anak"
+    }
+  },
   "puzzles": [
     {
       "slug": "crescent-moon-dot-to-dot-puzzle",
       "header": {
+        "title": "Bulan Sabit Menghubungkan Titik — 60 Titik, Gratis Cetak",
+        "og": {
+          "title": "Bulan Sabit Menghubungkan Titik — 60 Titik, Gratis Cetak",
+          "description": "Gambarlah kilauan langit malam! Hubungkan 60 titik mudah untuk mengungkap bulan sabit, lembar aktivitas gratis untuk anak usia 4–7 tahun.",
+          "image_alt": "Bulan sabit yang bersinar di langit malam, puzzle cetak 60 titik"
+        },
+        "meta_description": "Gambarlah kilauan langit malam! Hubungkan 60 titik mudah untuk mengungkap bulan sabit, lembar aktivitas gratis untuk anak usia 4–7 tahun — menyambung titik titik printable.",
         "json_ld": {
+          "description": "Bulan sabit bersinar karena memantulkan cahaya matahari. Hubungkan 60 titik mudah dalam lembar kerja menghubungkan titik gratis ini untuk anak usia 4–7 tahun.",
           "name": "Bulan Sabit",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/space-crescent-moon-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
         "name": "Bulan Sabit",
+        "h1": "Bulan Sabit Menghubungkan Titik — 60 Titik Mudah di Langit Malam",
         "tagline": "Gambarlah Irisan Bersinar dari Langit Malam!",
         "description": "Sambungkan 60 titik mudah untuk mengungkapkan bulan sabit yang indah bersinar di langit malam. Printable gratis ini membantu anak-anak berlatih urutan angka, pelacakan visual, konsentrasi, dan kontrol pensil yang halus",
         "fun_fact": "Bulan sabit muncul ketika sinar matahari menerangi hanya bagian melengkung tipis dari Bulan yang dapat kita lihat dari Bumi.",
@@ -174,21 +197,33 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Cara menyelesaikan teka-teki hubungkan titik Bulan Sabit"
         }
       }
     },
     {
       "slug": "ringed-planet-dot-to-dot-puzzle",
       "header": {
+        "title": "Planet Bercincin Menghubungkan Titik — 43 Titik, Gratis Cetak",
+        "og": {
+          "title": "Planet Bercincin Menghubungkan Titik — 43 Titik, Gratis Cetak",
+          "description": "Gambarlah dunia yang dibalut cincin berkilau! Hubungkan 43 titik mudah untuk mengungkap planet bercincin, lembar aktivitas gratis untuk anak usia 4–6 tahun.",
+          "image_alt": "Planet bercincin yang melayang di luar angkasa, puzzle cetak 43 titik untuk anak kecil"
+        },
+        "meta_description": "Gambarlah dunia yang dibalut cincin berkilau! Hubungkan 43 titik mudah untuk mengungkap planet bercincin, lembar aktivitas gratis untuk anak usia 4–6 tahun — gambar menghubungkan titik untuk paud.",
         "json_ld": {
+          "description": "Cincin Saturnus terbentuk dari jutaan pecahan es dan batu. Hubungkan 43 titik mudah dalam lembar kerja menghubungkan titik gratis ini untuk anak usia 4–6 tahun.",
           "name": "Planet Bercincin",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/space-ringed-planet-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-7"
         }
       },
       "body": {
         "name": "Planet Bercincin",
+        "h1": "Planet Bercincin Menghubungkan Titik — 43 Titik Mudah, Tantangan Antariksa Pertama",
         "tagline": "Gambar Dunia yang Terbungkus dalam Cincin yang Bersinar!",
         "description": "Sambungkan 43 titik mudah untuk mengungkap planet bercincin yang indah melayang di luar angkasa. Printable gratis ini membantu anak-anak yang lebih muda berlatih urutan angka, pelacakan visual, konsentrasi, dan kontrol pensil yang stabil",
         "fun_fact": "Cincin Saturnus terbuat dari tak terhitung banyaknya potongan es dan batu, mulai dari butiran kecil hingga potongan sebesar rumah.",
@@ -324,21 +359,33 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Cara menyelesaikan teka-teki hubungkan titik Planet Bercincin"
         }
       }
     },
     {
       "slug": "space-rover-dot-to-dot-puzzle",
       "header": {
+        "title": "Robot Penjelajah Antariksa Menghubungkan Titik — 59 Titik, Gratis",
+        "og": {
+          "title": "Robot Penjelajah Antariksa Menghubungkan Titik — 59 Titik, Gratis",
+          "description": "Penjelajah ramah beroda! Hubungkan 59 titik untuk mengungkap robot penjelajah antariksa, lembar aktivitas gratis untuk anak usia 5–8 tahun.",
+          "image_alt": "Robot penjelajah antariksa beroda yang ramah menjelajahi dunia lain, puzzle cetak 59 titik"
+        },
+        "meta_description": "Penjelajah ramah beroda! Hubungkan 59 titik untuk mengungkap robot penjelajah antariksa, lembar aktivitas gratis untuk anak usia 5–8 tahun — menghubungkan titik titik anak tk.",
         "json_ld": {
-          "name": "Rover Luar Angkasa",
+          "description": "Robot penjelajah antariksa adalah kendaraan robotik yang menjelajahi dunia seperti Bulan dan Mars. Hubungkan 59 titik dalam lembar kerja menghubungkan titik gratis ini untuk anak usia 5–8 tahun.",
+          "name": "Robot Penjelajah Antariksa",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/space-rover-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
         "name": "Rover Luar Angkasa",
+        "h1": "Robot Penjelajah Antariksa Menghubungkan Titik — 59 Titik Siap Menjelajah",
         "tagline": "Penjelajah Ramah di Atas Roda",
         "description": "Sambungkan 59 titik untuk mengungkap rover luar angkasa yang ramah siap menjelajahi dunia lain. Teka-teki cetak gratis ini membantu anak-anak berlatih urutan angka, konsentrasi, dan kontrol pensil",
         "fun_fact": "Rover luar angkasa adalah kendaraan robotik yang menjelajahi permukaan dunia seperti Bulan dan Mars.",
@@ -501,7 +548,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Cara menyelesaikan teka-teki hubungkan titik Rover Luar Angkasa"
         }
       }
     }

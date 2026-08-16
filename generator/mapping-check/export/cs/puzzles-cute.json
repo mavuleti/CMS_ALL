@@ -1,5 +1,21 @@
 {
-  "collection": {},
+  "collection": {
+    "header": {
+      "title": "Roztomilé tečkované motivy pro děti",
+      "meta_description": "Připravte se na maximální roztomilost! Spojte tečky a odhalte rozkošná štěňátka, malá autíčka a další okouzlující kamarády. Všechny pracovní listy si můžete zdarma stáhnout a vytisknout – není potřeba žádný účet.",
+      "og": {
+        "title": "Roztomilé tečkované motivy pro děti",
+        "description": "Připravte se na maximální roztomilost! Spojte tečky a odhalte rozkošná štěňátka, malá autíčka a další okouzlující kamarády. Všechny pracovní listy si můžete zdarma stáhnout a vytisknout – není potřeba žádný účet."
+      },
+      "json_ld": {
+        "description": "Připravte se na maximální roztomilost! Spojte tečky a odhalte rozkošná štěňátka, malá autíčka a další okouzlující kamarády. Všechny pracovní listy si můžete zdarma stáhnout a vytisknout – není potřeba žádný účet."
+      }
+    },
+    "body": {
+      "h1": "Roztomilé tečkované motivy pro děti",
+      "description": "Připravte se na maximální roztomilost! Spojte tečky a odhalte rozkošná štěňátka, malá autíčka a další okouzlující kamarády. Všechny pracovní listy si můžete zdarma stáhnout a vytisknout – není potřeba žádný účet."
+    }
+  },
   "puzzles": [
     {
       "slug": "cute-puppy-dot-to-dot-puzzle",
@@ -15,8 +31,8 @@
           "description": "Novorozená štěňata nemohou vidět ani slyšet přibližně dva týdny. Odhalte toto zvědavé štěně napříč 70 tečkami s bezplatným tisknutelným PDF pro věk 5–9.",
           "name": "Roztomilé štěně",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing",
           "image": "/images/cute-puppy-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
           "age_range": "5-9"
         }
       },
@@ -144,7 +160,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Jak vyřešit obrázek spoj tečky Roztomilé štěně"
         }
       }
     },
@@ -162,7 +179,9 @@
           "description": "Projeďte 55 číslovanými tečkami, abyste vytvořili veselého malého auta. Bezplatný tisknutelný PDF nabízí přátelskou sekvenční aktivitu pro děti ve věku 4–8 let.",
           "name": "Roztomilé malé autíčko",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/cute-little-car-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -269,7 +288,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Jak vyřešit obrázek spoj tečky Roztomilé malé autíčko"
         }
       }
     },
@@ -287,7 +307,9 @@
           "description": "Lvíčata mňoukají, než se naučí hřmět. Vytvoř mladého lva přes 74 teček s tímto volným tisknutelným pracovním listem pro děti ve věku 5–9 let.",
           "name": "Roztomilý lev",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/cute-lion-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
@@ -414,7 +436,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Jak vyřešit obrázek spoj tečky Roztomilý lev"
         }
       }
     },
@@ -432,7 +455,9 @@
           "description": "Motýli ochutnávají pomocí senzorů na svých nohách. Spojte 67 teček, abyste rozprostřeli křídla tohoto vzoru v bezplatném PDF ke stažení pro děti ve věku 5–9 let.",
           "name": "Roztomilý motýl",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/cute-butterfly-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
@@ -539,7 +564,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Jak vyřešit obrázek spoj tečky Roztomilý motýl"
         }
       }
     },
@@ -557,7 +583,9 @@
           "description": "Odpočítávejte od bodu 1 a postavte raketu přes 66 bodů. Stáhněte si zdarma PDF s tématem vesmíru pro mladé objevitele ve věku 4–8 let.",
           "name": "Roztomilá raketová loď",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/cute-rocket-ship-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -664,7 +692,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Jak vyřešit obrázek spoj tečky Roztomilá raketová loď"
         }
       }
     },
@@ -682,7 +711,9 @@
           "description": "Dětské mořské želvy následují nejjasnější horizont směrem k oceánu. Provádějte tohoto malého průzkumníka skrze 65 teček v bezplatném PDF pro věk 4–8.",
           "name": "Roztomilé želví mládě",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/cute-baby-turtle-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -789,7 +820,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Jak vyřešit obrázek spoj tečky Roztomilé želví mládě"
         }
       }
     },
@@ -807,7 +839,9 @@
           "description": "Pevné oči pomáhají vysvětlit, proč se sovy otáčejí tak daleko. Odhalte sovu s širokými očima napříč 65 body s tímto bezplatným tisknutelným materiálem pro děti ve věku 4–8 let.",
           "name": "Roztomilá sova",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/cute-owl-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -914,7 +948,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Jak vyřešit obrázek spoj tečky Roztomilá sova"
         }
       }
     },
@@ -932,7 +967,9 @@
           "description": "Krabí nohy jsou stavěny pro rychlý boční pohyb. Procházejte 72 tečkami, abyste dokončili tento veselý krab PDF pro děti ve věku 5–9 let.",
           "name": "Veselý krab",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/cute-crab-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
@@ -1039,7 +1076,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Jak vyřešit obrázek spoj tečky Veselý krab"
         }
       }
     },
@@ -1057,7 +1095,9 @@
           "description": "Slůňata si někdy cucají své choboty pro útěchu. Seznamte se s tímto jemným mládětem v 50 bodech s bezplatným tištěným PDF pro věk 4–8.",
           "name": "Roztomilé slůně",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/cute-baby-elephant-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -1164,7 +1204,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Jak vyřešit obrázek spoj tečky Roztomilé slůně"
         }
       }
     },
@@ -1182,7 +1223,9 @@
           "description": "Žáby absorbují kyslík částečně skrze svou vlhkou kůži. Skákej přes 82 teček a odhal usmívající se žábu v tomto bezplatném PDF pro děti ve věku 6–10 let.",
           "name": "Roztomilá šťastná žába",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/cute-happy-frog-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "6-10"
         }
       },
       "body": {
@@ -1289,7 +1332,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Jak vyřešit obrázek spoj tečky Roztomilá šťastná žába"
         }
       }
     },
@@ -1307,7 +1351,9 @@
           "description": "Třpytivý šat a koruna se objeví, když děti spojí 57 královských teček. Vytiskněte si zdarma PDF princezny pro imaginativní procvičování čísel ve věku 4–8 let.",
           "name": "Roztomilá princezna",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/cute-princess-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -1414,7 +1460,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Jak vyřešit obrázek spoj tečky Roztomilá princezna"
         }
       }
     }

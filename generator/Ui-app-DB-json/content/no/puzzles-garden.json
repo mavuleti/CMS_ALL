@@ -1,5 +1,17 @@
 {
-  "collection": {},
+  "collection": {
+    "header": {
+      "title": "Prikk-til-prikk-utskriftbare ting i hagen for barn",
+      "meta_description": "Kom i gang med å dyrke! Koble sammen prikkene for å avdekke hagehansker, sparkelmurskjeer og praktiske hageredskaper. Alle arbeidsarkene kan lastes ned og skrives ut gratis – ingen konto nødvendig.",
+      "og": {
+        "title": "Prikk-til-prikk-utskriftbare ting i hagen for barn",
+        "description": "Kom i gang med å dyrke! Koble sammen prikkene for å avdekke hagehansker, sparkelmurskjeer og praktiske hageredskaper. Alle arbeidsarkene kan lastes ned og skrives ut gratis – ingen konto nødvendig."
+      }
+    },
+    "body": {
+      "h1": "Prikk-til-prikk-utskriftbare ting i hagen for barn"
+    }
+  },
   "puzzles": [
     {
       "slug": "garden-gloves-dot-to-dot-puzzle",
@@ -15,7 +27,9 @@
           "description": "Hagehansker beskytter små hender mot jord og tornete planter. Koble sammen 54 punkter i dette gratis utskrivbare arbeidsarket for barn i alderen 4–8.",
           "name": "Hagehansker",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/garden-gloves-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -156,7 +170,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Slik løser du prikk til prikk-puslespillet Hagehansker"
         }
       }
     },
@@ -174,7 +189,9 @@
           "description": "Grav deg inn i tidlig blyantpraksis med en 39-punkts hage spade. Den gratis punkt til punkt PDF gir barn i alderen 4–7 en kort, oppnåelig aktivitet.",
           "name": "Hagesparkel",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/garden-trowel-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-7"
         }
       },
       "body": {
@@ -288,7 +305,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Slik løser du prikk til prikk-puslespillet Hagesparkel"
         }
       }
     },
@@ -306,7 +324,9 @@
           "description": "Hjulvogner ble oppfunnet i det gamle Kina for over 2 000 år siden. Bygg en over 85 punkter med denne gratis utskrivbare PDF-en for alderen 5–9.",
           "name": "Trillebår-lekeplass",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/wheelbarrow-playground-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
@@ -447,7 +467,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Slik løser du prikk til prikk-puslespillet Trillebår-lekeplass"
         }
       }
     }

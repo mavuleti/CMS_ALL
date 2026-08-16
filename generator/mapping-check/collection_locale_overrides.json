@@ -1,0 +1,6 @@
+{
+  "_comment": "Per-(collection, locale) active flag. Default is active=true for every collection/locale not listed here. Set a locale to false to exclude a collection from that locale entirely: export_locale_content.py skips writing (and removes any stale) content/<locale>/<file> for it, and validate_headers.py skips validating it, instead of flagging it as missing/incomplete. Use this instead of hand-deleting content files.",
+  "usa-250": {
+    "ar": false
+  }
+}

@@ -1,5 +1,17 @@
 {
-  "collection": {},
+  "collection": {
+    "header": {
+      "title": "Ogrodowe materiały do ​​łączenia kropek dla dzieci",
+      "meta_description": "Zacznij rosnąć! Połącz kropki, aby odkryć rękawice ogrodnicze, szpadle i przydatne narzędzia ogrodnicze. Wszystkie arkusze ćwiczeń można pobrać i wydrukować bezpłatnie — nie jest wymagane konto.",
+      "og": {
+        "title": "Ogrodowe materiały do ​​łączenia kropek dla dzieci",
+        "description": "Zacznij rosnąć! Połącz kropki, aby odkryć rękawice ogrodnicze, szpadle i przydatne narzędzia ogrodnicze. Wszystkie arkusze ćwiczeń można pobrać i wydrukować bezpłatnie — nie jest wymagane konto."
+      }
+    },
+    "body": {
+      "h1": "Ogrodowe materiały do ​​łączenia kropek dla dzieci"
+    }
+  },
   "puzzles": [
     {
       "slug": "garden-gloves-dot-to-dot-puzzle",
@@ -15,7 +27,9 @@
           "description": "Bezpłatna karta pracy „łącz kropki” z 54 kropkami do wydrukowania – rękawice ogrodowe idealne dla przedszkolaków 4–6 lat ćwiczących liczenie i motorykę małą. Świetne na wiosenne zajęcia o ogrodnictwie w przedszkolu i klasie 1 szkoły podstawowej. Pobierz PDF i drukuj od razu.",
           "name": "Rękawice ogrodowe",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/garden-gloves-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
@@ -156,7 +170,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Jak rozwiązać łamigłówkę połącz kropki Rękawice ogrodowe"
         }
       }
     },
@@ -174,7 +189,9 @@
           "description": "Ta darmowa układanka łącz kropki z 39 kropkami przedstawia poręczną łopatkę ogrodową – idealna pierwsza łamigłówka dla przedszkolaków 3–5 lat, którzy dopiero zaczynają liczyć do 40. Do druku na A4, bez rejestracji, gotowa na wiosenne zajęcia o ogrodzie w 2026 roku.",
           "name": "Łopatka ogrodowa",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/garden-trowel-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-7"
         }
       },
       "body": {
@@ -288,7 +305,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Jak rozwiązać łamigłówkę połącz kropki Łopatka ogrodowa"
         }
       }
     },
@@ -306,7 +324,9 @@
           "description": "Połącz 85 kropek i odkryj solidną taczkę ogrodową w tej darmowej karcie pracy dla uczniów klas 1–3 szkoły podstawowej (6–9 lat), gotowych na dłuższe wyzwanie po opanowaniu łatwiejszych arkuszy. Format A4 do druku, idealny na zajęcia o ogrodzie i motorykę małą.",
           "name": "Plac zabaw z taczkami",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/wheelbarrow-playground-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "5-9"
         }
       },
       "body": {
@@ -447,7 +467,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Jak rozwiązać łamigłówkę połącz kropki Plac zabaw z taczkami"
         }
       }
     }

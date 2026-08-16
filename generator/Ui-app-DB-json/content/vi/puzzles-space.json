@@ -1,17 +1,40 @@
 {
-  "collection": {},
+  "collection": {
+    "header": {
+      "title": "Tranh nối điểm chủ đề không gian miễn phí dành cho trẻ em",
+      "meta_description": "Khởi động với các bài tập nối điểm không gian miễn phí. In một câu đố rover thân thiện hôm nay, với nhiều tên lửa, hành tinh và cuộc phiêu lưu vũ trụ sắp tới.",
+      "og": {
+        "title": "Tranh nối điểm chủ đề không gian miễn phí dành cho trẻ em",
+        "description": "Khởi động với các bài tập nối điểm không gian miễn phí. In một câu đố rover thân thiện hôm nay, với nhiều tên lửa, hành tinh và cuộc phiêu lưu vũ trụ sắp tới."
+      }
+    },
+    "body": {
+      "h1": "Tranh nối điểm chủ đề không gian miễn phí dành cho trẻ em"
+    }
+  },
   "puzzles": [
     {
       "slug": "crescent-moon-dot-to-dot-puzzle",
       "header": {
+        "title": "Trăng Lưỡi Liềm Nối Điểm — 60 Điểm, In Miễn Phí",
+        "og": {
+          "title": "Trăng Lưỡi Liềm Nối Điểm — 60 Điểm, In Miễn Phí",
+          "description": "Vẽ theo một lát trăng lấp lánh trên bầu trời đêm! Nối 60 điểm dễ dàng để khám phá hình trăng lưỡi liềm, phiếu bài tập nối điểm miễn phí cho trẻ 4–7 tuổi.",
+          "image_alt": "Trăng lưỡi liềm tỏa sáng trên bầu trời đêm, hình nối điểm in miễn phí với 60 điểm"
+        },
+        "meta_description": "Vẽ theo một lát trăng lấp lánh trên bầu trời đêm! Nối 60 điểm dễ dàng để khám phá hình trăng lưỡi liềm, phiếu bài tập nối điểm miễn phí cho trẻ 4–7 tuổi — hình nối điểm in ra.",
         "json_ld": {
+          "description": "Trăng lưỡi liềm tỏa sáng nhờ phản chiếu ánh sáng mặt trời. Hãy nối 60 điểm dễ dàng trong phiếu bài tập nối điểm miễn phí này dành cho trẻ 4–7 tuổi.",
           "name": "Trăng Lưỡi Liềm",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/space-crescent-moon-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
         "name": "Trăng Lưỡi Liềm",
+        "h1": "Trăng Lưỡi Liềm Nối Điểm — 60 Điểm Dễ Dàng Cho Bầu Trời Đêm",
         "tagline": "Vẽ lại một Mảnh Sáng Lấp Lánh của Bầu Trời Đêm!",
         "description": "Nối 60 chấm đơn giản để khám phá hình ảnh mặt trăng lưỡi liềm lấp lánh trên bầu trời đêm. Bản in miễn phí này giúp trẻ em luyện tập kỹ năng đếm số theo thứ tự, theo dõi hình ảnh, tập trung và kiểm soát bút mượt mà",
         "fun_fact": "Trăng lưỡi liềm xuất hiện khi ánh sáng mặt trời chỉ chiếu sáng một phần mỏng hình lưỡi liềm của Mặt Trăng mà chúng ta có thể nhìn thấy từ Trái Đất.",
@@ -174,21 +197,33 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Cách giải câu đố nối các chấm Trăng Lưỡi Liềm"
         }
       }
     },
     {
       "slug": "ringed-planet-dot-to-dot-puzzle",
       "header": {
+        "title": "Hành Tinh Có Vành Đai Nối Điểm — 43 Điểm, Miễn Phí",
+        "og": {
+          "title": "Hành Tinh Có Vành Đai Nối Điểm — 43 Điểm, Miễn Phí",
+          "description": "Vẽ một thế giới được bao bọc bởi những vành đai lấp lánh! Nối 43 điểm dễ dàng để khám phá hành tinh có vành đai, phiếu bài tập miễn phí cho trẻ 4–6 tuổi.",
+          "image_alt": "Hành tinh có vành đai lơ lửng trong vũ trụ, hình nối điểm in miễn phí với 43 điểm, dành cho trẻ nhỏ"
+        },
+        "meta_description": "Vẽ một thế giới được bao bọc bởi những vành đai lấp lánh! Nối 43 điểm dễ dàng để khám phá hành tinh có vành đai, phiếu bài tập miễn phí cho trẻ 4–6 tuổi — trò chơi nối điểm vẽ hình.",
         "json_ld": {
+          "description": "Các vành đai của Sao Thổ được tạo thành từ vô số mảnh băng và đá. Hãy nối 43 điểm dễ dàng trong phiếu bài tập nối điểm miễn phí này dành cho trẻ 4–6 tuổi.",
           "name": "Hành Tinh Có Vành Đai",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/space-ringed-planet-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-7"
         }
       },
       "body": {
         "name": "Hành Tinh Có Vành Đai",
+        "h1": "Hành Tinh Có Vành Đai Nối Điểm — 43 Điểm Cho Thử Thách Vũ Trụ Đầu Tiên",
         "tagline": "Vẽ một Thế Giới Được Bao Bọc Bởi Những Vòng Hào Quang Rực Rỡ!",
         "description": "Nối 43 chấm đơn giản để khám phá một hành tinh có vành đai tuyệt đẹp đang trôi nổi trong không gian. Bản in miễn phí này giúp trẻ nhỏ luyện tập thứ tự số, khả năng quan sát, sự tập trung và kiểm soát bút chì ổn định",
         "fun_fact": "Vành đai Sao Thổ được tạo thành từ vô số mảnh băng và đá, với kích thước từ những hạt nhỏ li ti đến những khối lớn bằng cả ngôi nhà.",
@@ -324,21 +359,33 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Cách giải câu đố nối các chấm Hành Tinh Có Vành Đai"
         }
       }
     },
     {
       "slug": "space-rover-dot-to-dot-puzzle",
       "header": {
+        "title": "Xe Tự Hành Vũ Trụ Nối Điểm — 59 Điểm, In Miễn Phí",
+        "og": {
+          "title": "Xe Tự Hành Vũ Trụ Nối Điểm — 59 Điểm, In Miễn Phí",
+          "description": "Một nhà thám hiểm thân thiện trên bánh xe! Nối 59 điểm để khám phá hình xe tự hành vũ trụ, phiếu bài tập nối điểm miễn phí cho trẻ 5–8 tuổi.",
+          "image_alt": "Xe tự hành vũ trụ thân thiện di chuyển bằng bánh xe khám phá hành tinh khác, hình nối điểm in miễn phí với 59 điểm"
+        },
+        "meta_description": "Một nhà thám hiểm thân thiện trên bánh xe! Nối 59 điểm để khám phá hình xe tự hành vũ trụ, phiếu bài tập nối điểm miễn phí cho trẻ 5–8 tuổi — file pdf nối số cho trẻ.",
         "json_ld": {
-          "name": "Xe tự hành Không gian",
+          "description": "Xe tự hành vũ trụ là những phương tiện robot khám phá các thế giới như Mặt Trăng và Sao Hỏa. Hãy nối 59 điểm trong phiếu bài tập nối điểm miễn phí này dành cho trẻ 5–8 tuổi.",
+          "name": "Xe Tự Hành Vũ Trụ",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/space-rover-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
         "name": "Xe tự hành Không gian",
+        "h1": "Xe Tự Hành Vũ Trụ Nối Điểm — 59 Điểm Sẵn Sàng Khám Phá",
         "tagline": "Một Nhà Thám Hiểm Thân Thiện Trên Bánh Xe",
         "description": "Nối 59 chấm để khám phá hình chú rover thám hiểm không gian đáng yêu sẵn sàng khám phá một thế giới khác. Câu đố in miễn phí này giúp trẻ luyện tập thứ tự số, khả năng tập trung và kiểm soát bút chì",
         "fun_fact": "Xe tự hành vũ trụ là phương tiện robot được sử dụng để khám phá bề mặt của các thiên thể như Mặt Trăng và Sao Hỏa.",
@@ -501,7 +548,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Cách giải câu đố nối các chấm Xe tự hành Không gian"
         }
       }
     }

@@ -1,17 +1,40 @@
 {
-  "collection": {},
+  "collection": {
+    "header": {
+      "title": "Çocuklar için Ücretsiz Uzay Nokta Bağlama Yazdırmaları",
+      "meta_description": "Ücretsiz uzay nokta bağlama çalışma sayfaları ile fırlatmaya başlayın. Bugün dost canlısı bir rover bulmacası yazdırın, daha fazla roket, gezegen ve kozmik macera yakında geliyor.",
+      "og": {
+        "title": "Çocuklar için Ücretsiz Uzay Nokta Bağlama Yazdırmaları",
+        "description": "Ücretsiz uzay nokta bağlama çalışma sayfaları ile fırlatmaya başlayın. Bugün dost canlısı bir rover bulmacası yazdırın, daha fazla roket, gezegen ve kozmik macera yakında geliyor."
+      }
+    },
+    "body": {
+      "h1": "Çocuklar için Ücretsiz Uzay Nokta Bağlama Yazdırmaları"
+    }
+  },
   "puzzles": [
     {
       "slug": "crescent-moon-dot-to-dot-puzzle",
       "header": {
+        "title": "Hilal Ay Nokta Birleştirme — 60 Nokta, Ücretsiz Yazdır",
+        "og": {
+          "title": "Hilal Ay Nokta Birleştirme — 60 Nokta, Ücretsiz Yazdır",
+          "description": "Gece gökyüzünden parlayan bir dilim çizin! 60 kolay noktayı birleştirerek bir hilal ay ortaya çıkarın, 4-7 yaş için ücretsiz çalışma sayfası.",
+          "image_alt": "Gece gökyüzünde parlayan hilal ay, 60 noktalı yazdırılabilir bulmaca"
+        },
+        "meta_description": "Gece gökyüzünden parlayan bir dilim çizin! 60 kolay noktayı birleştirerek bir hilal ay ortaya çıkarın, 4-7 yaş için ücretsiz çalışma sayfası — yazdırılabilir nokta birleştirme.",
         "json_ld": {
-          "name": "Hilal",
+          "description": "Hilal ay, güneş ışığını yansıtarak parlar. Bu ücretsiz yazdırılabilir nokta birleştirme bulmacasında 60 kolay noktayı birleştirin, 4-7 yaş çocuklar için.",
+          "name": "Hilal Ay",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/space-crescent-moon-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
         "name": "Hilal",
+        "h1": "Hilal Ay Nokta Birleştirme — Gece Gökyüzünde 60 Kolay Nokta",
         "tagline": "Gece gökyüzünün parlayan dilimini izleyin!",
         "description": "Gecenin gökyüzünde parlayan güzel bir hilali ortaya çıkarmak için 60 kolay noktayı birleştirin. Bu ücretsiz yazdırılabilir, çocukların sayı sıralama, görsel takip, konsantrasyon ve düzgün kalem kontrolü pratiği yapmalarına yardımcı olur",
         "fun_fact": "Güneş ışığı, Dünya'dan görebildiğimiz Ay'ın sadece ince kıvrımlı bir kısmını aydınlattığında hilal görünür.",
@@ -174,21 +197,33 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Hilal noktaları birleştirme bulmacası nasıl çözülür"
         }
       }
     },
     {
       "slug": "ringed-planet-dot-to-dot-puzzle",
       "header": {
+        "title": "Halkalı Gezegen Nokta Birleştirme — 43 Nokta, Ücretsiz",
+        "og": {
+          "title": "Halkalı Gezegen Nokta Birleştirme — 43 Nokta, Ücretsiz",
+          "description": "Parlayan halkalarla sarılı bir dünya çizin! 43 kolay noktayı birleştirerek halkalı bir gezegen ortaya çıkarın, 4-6 yaş için ücretsiz çalışma sayfası.",
+          "image_alt": "Uzayda süzülen halkalı gezegen, küçük çocuklar için 43 noktalı yazdırılabilir bulmaca"
+        },
+        "meta_description": "Parlayan halkalarla sarılı bir dünya çizin! 43 kolay noktayı birleştirerek halkalı bir gezegen ortaya çıkarın, 4-6 yaş için ücretsiz çalışma sayfası — okul öncesi nokta birleştirme.",
         "json_ld": {
-          "name": "Halka Gezegen",
+          "description": "Satürn'ün halkaları sayısız buz ve kaya parçasından oluşur. Bu ücretsiz yazdırılabilir nokta birleştirme bulmacasında 43 kolay noktayı birleştirin, 4-6 yaş çocuklar için.",
+          "name": "Halkalı Gezegen",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/space-ringed-planet-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-7"
         }
       },
       "body": {
         "name": "Halka Gezegen",
+        "h1": "Halkalı Gezegen Nokta Birleştirme — İlk Uzay Macerası İçin 43 Nokta",
         "tagline": "Parlayan Halkalarla Sarılı Bir Dünya Çizin!",
         "description": "Uzayda yüzen güzel bir halka gezegeni ortaya çıkarmak için 43 kolay noktayı birleştirin. Bu ücretsiz yazdırılabilir, daha küçük çocukların sayı sırasını, görsel izlemeyi, konsantrasyonu ve sabit kalem kontrolünü pratik yapmalarına yardımcı olur",
         "fun_fact": "Satürn'ün halkaları, küçük tanelerden ev büyüklüğünde parçalara kadar değişen sayısız buz ve kaya parçasından oluşur.",
@@ -324,21 +359,33 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Halka Gezegen noktaları birleştirme bulmacası nasıl çözülür"
         }
       }
     },
     {
       "slug": "space-rover-dot-to-dot-puzzle",
       "header": {
+        "title": "Uzay Aracı Nokta Birleştirme — 59 Nokta, Ücretsiz Yazdır",
+        "og": {
+          "title": "Uzay Aracı Nokta Birleştirme — 59 Nokta, Ücretsiz Yazdır",
+          "description": "Tekerlekli dostane bir kaşif! 59 noktayı birleştirerek bir uzay aracı ortaya çıkarın, 5-8 yaş için ücretsiz çalışma sayfası.",
+          "image_alt": "Başka bir dünyayı keşfeden tekerlekli dostane uzay aracı, 59 noktalı yazdırılabilir bulmaca"
+        },
+        "meta_description": "Tekerlekli dostane bir kaşif! 59 noktayı birleştirerek bir uzay aracı ortaya çıkarın, 5-8 yaş için ücretsiz çalışma sayfası — nokta birleştirme etkinlikleri PDF.",
         "json_ld": {
+          "description": "Uzay araçları, Ay ve Mars gibi dünyaları keşfeden robotik araçlardır. Bu ücretsiz yazdırılabilir nokta birleştirme bulmacasında 59 noktayı birleştirin, 5-8 yaş çocuklar için.",
           "name": "Uzay Aracı",
           "type": "CreativeWork",
-          "educational_use": "Fine motor skills, number sequencing"
+          "image": "/images/space-rover-puzzle.webp",
+          "educational_use": "Fine motor skills, number sequencing",
+          "age_range": "4-8"
         }
       },
       "body": {
         "name": "Uzay Aracı",
+        "h1": "Uzay Aracı Nokta Birleştirme — Keşfe Hazır 59 Nokta",
         "tagline": "Dostça Bir Keşifci Tekerlekler Üzerinde",
         "description": "59 noktayı birleştirerek başka bir dünyayı keşfetmeye hazır dostça bir uzay keşif aracını ortaya çıkarın. Bu ücretsiz yazdırılabilir bulmaca, çocukların sayı sırasını, konsantrasyonu ve kalem kontrolünü pratik yapmalarına yardımcı olur",
         "fun_fact": "Uzay keşif araçları, Ay ve Mars gibi dünyaların yüzeylerini keşfeden robotik araçlardır.",
@@ -501,7 +548,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "heading": "Uzay Aracı noktaları birleştirme bulmacası nasıl çözülür"
         }
       }
     }
