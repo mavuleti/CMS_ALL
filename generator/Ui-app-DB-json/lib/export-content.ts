@@ -86,6 +86,28 @@ function inferredPuzzleImage(slug: string) {
   return filename ? `/images/${filename}` : undefined;
 }
 
+// Most puzzle PDFs live at `/${collectionSlug}/${basename}-dot-to-dot-printable-horizontal.pdf`,
+// but some legacy assets deviate: a handful of dinosaur PDFs have an extra `-puzzle-`
+// segment in the filename, and the circus puzzles' PDFs live under `public/playgrounds/`
+// instead of `public/circus/`. Search the real candidates on disk rather than assuming a
+// single fixed pattern, so we never link a PDF that doesn't exist.
+function inferredPuzzlePdf(image: string, collectionSlug: string): string | undefined {
+  const basename = path.basename(image).replace(/-puzzle\.webp$/i, '');
+  const dirCandidates = [collectionSlug, 'playgrounds'];
+  const nameCandidates = [
+    `${basename}-dot-to-dot-printable-horizontal.pdf`,
+    `${basename}-dot-to-dot-puzzle-printable-horizontal.pdf`,
+  ];
+  for (const dir of dirCandidates) {
+    for (const name of nameCandidates) {
+      if (fs.existsSync(path.join(process.cwd(), 'public', dir, name))) {
+        return `/${dir}/${name}`;
+      }
+    }
+  }
+  return undefined;
+}
+
 function normalizePuzzle(document: any, collectionSlug: string): Puzzle {
   const body = document.body ?? {};
   const header = document.header ?? {};
@@ -97,7 +119,7 @@ function normalizePuzzle(document: any, collectionSlug: string): Puzzle {
     ?? header.og?.image
     ?? inferredPuzzleImage(document.slug);
   const inferredPdf = typeof image === 'string'
-    ? `/${collectionSlug}/${path.basename(image).replace(/-puzzle\.webp$/i, '-dot-to-dot-printable-horizontal.pdf')}`
+    ? inferredPuzzlePdf(image, collectionSlug)
     : undefined;
   return {
     slug: document.slug,
