@@ -9,6 +9,7 @@ on:
     paths:
       - 'CMS/web-app/**'
       - '.github/workflows/web-app-ci.yml'
+  workflow_dispatch: {}
 
 jobs:
   build-and-test:
