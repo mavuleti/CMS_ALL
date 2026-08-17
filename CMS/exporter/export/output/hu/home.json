@@ -1,0 +1,602 @@
+{
+  "slug": "home",
+  "header": {
+    "title": "Ingyenes pontösszekötő gyerekeknek | Nyomtatható PDF feladatlapok",
+    "title_template": "%s | DotToDotFreePrintables.com",
+    "meta_description": "Nyomtasd ki, kösd össze a pontokat, és kelts életre lenyűgöző képeket. Ingyenes és készen áll a szórakozásra — Pontösszekötő játékok gyerekeknek.",
+    "canonical": "/{locale}/",
+    "og": {
+      "title": "Pontösszekötő – ingyenes rejtvények gyerekeknek és felnőtteknek",
+      "description": "Nyomtasd ki, kösd össze a pontokat, és kelts életre lenyűgöző képeket. Ingyenes és készen áll a szórakozásra!",
+      "url": "/{locale}/",
+      "site_name": "DotToDotFreePrintables.com",
+      "type": "website",
+      "image": "/images/trex-61-puzzle.webp (800x679)"
+    },
+    "twitter": {
+      "card": "summary_large_image"
+    },
+    "manifest": "/manifest.webmanifest",
+    "json_ld": {
+      "website": {
+        "type": "WebSite",
+        "name": "DotToDotFreePrintables.com (SITE_NAME)"
+      },
+      "organization": {
+        "type": "Organization",
+        "logo": "/icon-512.png (absoluteUrl)",
+        "same_as": "[\"https://www.pinterest.com/hellokidsbookworld/\", \"https://www.facebook.com/dottodotfreeprintables\", \"https://www.youtube.com/@hellokidsbookworld\"]"
+      },
+      "collection_page": {
+        "type": "CollectionPage",
+        "name": "Találd meg a tökéletes pontról pontra nyomtatványokat"
+      },
+      "item_list": {
+        "type": "ItemList (featured puzzles)"
+      }
+    }
+  },
+  "UNUSED:seo/metadata": {
+    "json:homepage": {
+      "title": "Ingyenes kösd össze a pontokat feladatlapok gyerekeknek | Munkalapok PDF-ben",
+      "ogTitle": "Ingyenes kösd össze a pontokat feladatlapok gyerekeknek",
+      "description": "Töltsd le ingyen a kösd össze a pontokat feladatlapokat gyerekeknek: állatok, dinoszauruszok, járművek, ünnepi témák és még sok más. Nyomtatásra kész PDF óvodától az általános iskoláig. Regisztráció nélkül."
+    }
+  },
+  "body": {
+    "nav": {
+      "kids": "Gyerekek - Kirakós játékok",
+      "teachers": "Tanárok",
+      "parents": "Szülők",
+      "contact": "Kapcsolat",
+      "blog": "Blog",
+      "search": "Keresés",
+      "freePack": "Ingyenes csomag",
+      "scanMe": "Szkennelj be"
+    },
+    "homepageUi": {
+      "title": "Találd meg a tökéletes pontról pontra nyomtatványokat",
+      "description": "Nyomtasd ki, kösd össze a pontokat, és kelts életre lenyűgöző képeket. Ingyenes és készen áll a szórakozásra!",
+      "searchPlaceholder": "Próbáld ki: óceán, dinoszaurusz vagy virágok",
+      "filterPuzzles": "Rejtvények szűrése",
+      "age": "Életkor",
+      "dots": "pont",
+      "featuredPuzzles": "Kiemelt nyomtatható rejtvények",
+      "savePuzzle": "{name} mentése",
+      "removeSavedPuzzle": "{name} eltávolítása a mentettek közül",
+      "downloads": "letöltés",
+      "bookTitle": "2026 legjobbjai · {count}",
+      "bookDescription": "Kedvenc pontról pontra rejtvényeink egyetlen nyomtatható PDF könyvben.",
+      "searchUnavailable": "A keresés átmenetileg nem érhető el. Kérjük, próbáld újra.",
+      "popularEyebrow": "Népszerű ezen a héten",
+      "mostDownloaded": "Legtöbbet letöltött rejtvények",
+      "downloadCountAria": "{count} vagy több letöltés",
+      "freshPrintables": "Friss nyomtatható anyagok",
+      "recentlyAdded": "Nemrégiben hozzáadva",
+      "browseCategories": "Rejtvénykategóriák böngészése",
+      "openCategories": "Kategóriák menü megnyitása",
+      "closeCategories": "Kategóriák menü bezárása",
+      "browseByTheme": "Böngészés téma szerint",
+      "quickLinks": "Gyors linkek",
+      "bundlePacks": "Csomagok",
+      "parentsTeachers": "Szülőknek és tanároknak",
+      "more": "További kategóriák",
+      "kids": "Gyerekek",
+      "categoryNames": {
+        "cute": "Aranyos rejtvények",
+        "flowers": "Virágok"
+      }
+    },
+    "audience": {
+      "kidsTitle": "Gyerekeknek",
+      "kidsText": "Barátságos állat-, dinoszaurusz- és járműtémák egyértelmű számozott pontokkal. Könnyű győzelmek, amelyek valódi önbizalmat építenek.",
+      "parentsTitle": "Szülőknek",
+      "parentsText": "Képernyőmentes, csendes elfoglaltságok otthonra, utazáshoz és éttermekben. Nyomtasson bármilyen eszközről kevesebb mint egy perc alatt.",
+      "teachersTitle": "Tanároknak",
+      "teachersText": "Kevés előkészületet igénylő összekapcsoló feladatok a reggeli munkához, a korán végzőkhöz, a póttagokhoz és az osztálytermi állomásokhoz – nincs szükség előkészületre."
+    },
+    "categories": {
+      "eyebrow": "Téma és képzettségi szint szerint rendezve",
+      "heading": "Böngéssz a pont-pont rejtvények között kategóriák szerint",
+      "description": "A kisgyermekeknek szánt egyszerű 10 pontos formáktól a nagyobb gyerekeknek szánt 200 pontos kihívásokig – kategóriák szerint rendezve, így másodpercek alatt megtalálhatod a megfelelő ingyenes nyomtatható anyagot.",
+      "puzzles": "{count, plural, one {# rejtvény} other {# rejtvény}}",
+      "comingSoon": "Hamarosan érkezik",
+      "badges": {
+        "dinosaurs": "Már elérhető!",
+        "ocean": "Már elérhető!",
+        "playgrounds": "Már elérhető!",
+        "garden": "Már elérhető!",
+        "usa250": "Új!",
+        "uae": "Már elérhető!",
+        "cute": "Új!",
+        "circus": "Új!"
+      },
+      "items": {
+        "dinosaurs": {
+          "name": "Dinoszauruszok",
+          "description": "Zörögj az őskori mókába! T-Rex, Triceratops, Velociraptor és {count} ingyenes pont-pont kirakó, amit a gyermekeid imádni fognak."
+        },
+        "animals": {
+          "name": "Állatok",
+          "description": "Barátságos lények a korai számgyakorláshoz."
+        },
+        "vehicles": {
+          "name": "Járművek",
+          "description": "Autók, teherautók, rakéták és gépek."
+        },
+        "fantasy": {
+          "name": "Fantázia",
+          "description": "Kastélyok, unikornisok, sárkányok és történetötletek."
+        },
+        "seasonal": {
+          "name": "Szezonális",
+          "description": "Ünnepi és osztálytermi naptári tevékenységek."
+        },
+        "ocean": {
+          "name": "Óceán",
+          "description": "Tengeri állatok és nyugodt színező oldalak."
+        },
+        "playgrounds": {
+          "name": "Játszóterek",
+          "description": "Hinták, csúszdák és szabadtéri szórakozás a kis kalandoroknak."
+        },
+        "garden": {
+          "name": "Kert",
+          "description": "Kesztyűk, simítók és szerszámok a kis kerti segítőknek."
+        },
+        "usa250": {
+          "name": "Amerika 250 éve",
+          "description": "Ünnepeld Amerika 250. születésnapját hazafias, pont-pont kirakókkal, amelyek az amerikai történelmet tisztelegik."
+        },
+        "uae": {
+          "name": "Egyesült Arab Emírségek",
+          "description": "Fedezd fel az Egyesült Arab Emírségeket! Ikonikus nevezetességek, mint például a Burj Al Arab, készen állnak a kapcsolatteremtésre és a színpompázásra."
+        },
+        "space": {
+          "name": "Tér",
+          "description": "Bolygók, űrhajósok és rakétakalandok."
+        },
+        "worksheets": {
+          "name": "Munkalapok",
+          "description": "Tanároknak is használható számsorrend-készítő lapok."
+        },
+        "bigDotBooks": {
+          "name": "Big Dot könyvek",
+          "description": "Hosszú formájú rejtvények koncentrált idősebb tanulók számára."
+        },
+        "cute": {
+          "name": "Csinos",
+          "description": "Imádnivaló kiskutyák, kis autók és {count} bájos ingyenes pont-pont kirakó, amit a gyerekeid imádni fognak."
+        },
+        "circus": {
+          "name": "Cirkusz",
+          "description": "Körvezetők, nagy sátrak és szórakozás fiatal tanulók számára."
+        }
+      }
+    },
+    "puzzleSection": {
+      "eyebrow": "Ingyenesen nyomtatható minták – regisztráció nélkül",
+      "heading": "Népszerű pontok összekötésére szolgáló lapok, amiket most ki lehet nyomtatni",
+      "weeklyPack": "Lásd a heti csomagot →",
+      "downloadLink": "Ingyenesen letölthető nyomtatható anyag",
+      "new": "Új",
+      "imageAlt": "{name} ingyenes, pontról pontra nyomtatható munkalap {age} számára",
+      "categories": {
+        "Dinosaurs": "Dinoszauruszok",
+        "Ocean": "Óceán",
+        "Playgrounds": "Játszóterek",
+        "Garden": "Kert",
+        "Cute": "Csinos",
+        "USA 250 Years": "Amerika 250 éve",
+        "UAE": "Egyesült Arab Emírségek"
+      },
+      "items": {
+        "trex-61-dot-to-dot-puzzle": {
+          "name": "T-Rex 61-pontos kihívás"
+        },
+        "brontosaurus-dot-to-dot-puzzle": {
+          "name": "Brontoszaurusz"
+        },
+        "mermaid-dot-to-dot-puzzle": {
+          "name": "Sellő"
+        },
+        "merman-dot-to-dot-puzzle": {
+          "name": "Férfisellő"
+        },
+        "seahorse-dot-to-dot-puzzle": {
+          "name": "Csikóhal"
+        },
+        "whale-dot-to-dot-puzzle": {
+          "name": "Bálna"
+        },
+        "swing-playgrounds-dot-to-dot-puzzle": {
+          "name": "Hinta játszótér"
+        },
+        "slide-playgrounds-dot-to-dot-puzzle": {
+          "name": "Csúszdás játszótér"
+        },
+        "seesaw-playground-dot-to-dot-puzzle": {
+          "name": "Likkúszó játszótér"
+        },
+        "roller-coaster-playground-dot-to-dot-puzzle": {
+          "name": "Hullámvasút játszótér"
+        },
+        "wheelbarrow-playground-dot-to-dot-puzzle": {
+          "name": "Talicska játszótér"
+        },
+        "garden-gloves-dot-to-dot-puzzle": {
+          "name": "Kerti kesztyűk"
+        },
+        "garden-trowel-dot-to-dot-puzzle": {
+          "name": "Kerti simító"
+        },
+        "gas-balloon-usa-250-dot-to-dot-puzzle": {
+          "name": "Gázballon Amerika 250"
+        },
+        "america-250-birthday-fireworks-dot-to-dot-puzzle": {
+          "name": "Amerika 250. születésnapi tűzijáték"
+        },
+        "america-250-anniversary-liberty-bell-wings-1776-dot-to-dot-puzzle": {
+          "name": "America 250 Liberty Bell szárnyak"
+        },
+        "usa-250-astronaut-dot-to-dot-puzzle": {
+          "name": "Amerika 250 űrhajós"
+        },
+        "usa-250-anniversary-sports-kids-podium-dot-to-dot-puzzle": {
+          "name": "Amerika 250. évfordulós sport gyerekeknek szóló dobogója"
+        },
+        "usa-250-anniversary-airplane-banner-dot-to-dot-puzzle": {
+          "name": "Amerika 250. évfordulós repülőgép szalagcím"
+        },
+        "usa-250-space-shuttle-dot-to-dot-puzzle": {
+          "name": "America 250 űrsikló"
+        },
+        "usa-250-birthday-balloons-stars-dot-to-dot-puzzle": {
+          "name": "Amerika 250. születésnapi lufik és csillagok"
+        },
+        "usa-250-birthday-cake-dot-to-dot-puzzle": {
+          "name": "Amerika 250 születésnapi torta"
+        },
+        "america-250-anniversary-eagle-banner-dot-to-dot-puzzle": {
+          "name": "Amerika 250 Eagle Banner"
+        },
+        "burj-al-arab-dot-to-dot-puzzle": {
+          "name": "Burdzs Al Arab"
+        },
+        "dallah-coffee-pot-dot-to-dot-puzzle": {
+          "name": "Dallah kávéfőző"
+        }
+      }
+    },
+    "benefits": {
+      "eyebrow": "Óvodapedagógusok támogatásával",
+      "heading": "Miért nagyszerűek a pont-pont munkalapok a gyermek fejlődéséhez?",
+      "description": "A pontokat összekötő nyomtatható feladatok nem csupán szórakozást nyújtanak – kutatásokon alapuló eszközök, amelyeket az óvodai és kisgyermekkori tanárok használnak az alapvető korai tanulási készségek fejlesztésére.",
+      "fineMotorTitle": "Fejleszti a finommotoros készségeket",
+      "fineMotorText": "A pontokba illeszkedő vonalak rajzolása fejleszti a ceruzafogást, a kéz-szem koordinációt és az izomkontrollt, amelyre a gyerekeknek szükségük van a kézíráshoz.",
+      "numberTitle": "Erősíti a számfelismerést",
+      "numberText": "Az 1 → 2 → 3 pontok sorrendben történő követése természetes módon, játékosan tanítja meg a számolási sorrendet, a számfelismerést és a korai matematikai fogalmakat.",
+      "focusTitle": "Javítja a fókuszt és a koncentrációt",
+      "focusText": "A pontok összekötése kirakós játék megoldása folyamatos figyelmet igényel – ez egy nyugodt, képernyőmentes módja a koncentráció gyakorlásának az óvodásoktól a 3. osztályosokig.",
+      "confidenceTitle": "Azonnali jutalom és önbizalom",
+      "confidenceText": "Amikor a rejtett kép megjelenik, a gyerekek azonnal sikerélményt éreznek. Ez a kis győzelem a tanulás szeretetét és a fejlődésre ösztönző gondolkodásmódot építi ki."
+    },
+    "howTo": {
+      "eyebrow": "Kevesebb mint 60 másodperc alatt kész",
+      "heading": "Hogyan töltheted le és nyomtathatod ki az ingyenes pont-pont munkalapjaidat?",
+      "step1Title": "Válaszd ki a rejtvényedet",
+      "step1Text": "Válassz egy témát (állatok, dinoszauruszok, járművek, ünnep) és egy olyan ponttartományt, amely megfelel gyermeked életkorának és képességszintjének.",
+      "step2Title": "Töltsd le az ingyenes PDF-et",
+      "step2Text": "Kattints az „Ingyenes nyomtatható fájl letöltése” gombra – nincs fiók, nincs e-mail cím, nincs fizetős fal. A böngésződ azonnal letölti a PDF-et.",
+      "step3Title": "Nyomtasd ki és élvezd",
+      "step3Text": "Nyomtass szabványos amerikai Letter (8,5\" × 11\") méretű papírra. A fekete-fehér tökéletesen működik. Add oda a gyermekednek, és nézd, ahogy összeköti a pontokat!"
+    },
+    "trust": {
+      "eyebrow": "Miért választanak minket a szülők és a tanárok?",
+      "heading": "Ingyenes, biztonságos és nevetségesen könnyen használható.",
+      "noAccountTitle": "Nincs szükség fiókra",
+      "noAccountText": "Minden nyomtatható, pontról pontra összeállított dokumentum azonnal letölthető – regisztráció, e-mail cím vagy fizetős fal nélkül. Csak kattints és nyomtasd ki.",
+      "safeTitle": "Biztonságos az osztályteremben",
+      "safeText": "Letisztult, hirdetésmentes kirakós oldalak iskolai nyomtatókhoz. Alkalmas reggeli munkához, házi feladathoz vagy csendes időtöltéshez.",
+      "fastTitle": "Gyorsan tervezett",
+      "fastText": "A statikus oldalak, az optimalizált képek és a helyi betűtípusok azt jelentik, hogy a rejtvények gyorsan betöltődnek bármilyen eszközön – telefonon, táblagépen vagy laptopon."
+    },
+    "faq": {
+      "eyebrow": "Gyakori kérdések",
+      "heading": "Gyakran ismételt kérdések",
+      "q1": "Teljesen ingyenesek az összes pontról pontra nyomtatható képek ezen az oldalon?",
+      "a1": "Igen — a DotToDotFreePrintables.com oldalon található összes pontok összekötése feladatlap 100%-ban ingyenesen letölthető és kinyomtatható. Soha nincs szükség fiókra, előfizetésre vagy hitelkártyára.",
+      "q2": "Milyen korosztály számára alkalmasak a pontozásos feladatlapok?",
+      "a2": "Nyomtatható anyagaink 2–12 éves korosztály számára készültek. Az egyszerű munkalapok (10–20 pont) a kisgyermekeknek és az óvodásoknak, a közepes méretű lapok (20–50 pont) az óvodásoknak és az első osztályosoknak, míg a nehezebb lapok (50–200+ pont) a 2–6. osztályosoknak szólnak.",
+      "q3": "Milyen formátumúak a pontok összekötése nyomtatható fájljai?",
+      "a3": "Minden munkalap nyomtatásra kész PDF fájlként tölthető le, szabványos US Letter (8,5\" × 11\") méretű papírra. Nyissa meg bármilyen böngészőben vagy PDF-megjelenítőben, és nyomtassa ki – nincs szükség speciális szoftverre.",
+      "q4": "Vannak pont-pont feladatlapjaid óvodásoknak és kisiskolásoknak?",
+      "a4": "Abszolút. A legegyszerűbb munkafüzeteink 1–10 pöttyökkel kezdődnek (tökéletesek 2–4 éves korig), és óvodai és óvodai osztályok számára tervezett ábécé- és számfelismerő témákat tartalmaznak.",
+      "q5": "Használhatják a tanárok ezeket a pontok összekötésére szolgáló munkalapokat az órán?",
+      "a5": "Igen! Nyomtatható anyagaink ingyenesek személyes és osztálytermi használatra. Népszerűek reggeli munkához, korai befejezéshez, helyettesítő óravázlatokhoz, finommotoros központokhoz és házi feladat csomagokhoz.",
+      "q6": "A pont-pont kirakók segítenek a finommotoros készségek fejlesztésében?",
+      "a6": "Igen – a pontok közé húzott vonalak fejlesztik a ceruzafogás erejét és a kéz-szem koordinációt, amelyek támogatják a kézírásra való felkészülést. Sok foglalkozásterapeuta és óvodapedagógus emiatt ajánlja a pontok összekötésére irányuló tevékenységeket.",
+      "q7": "Vannak tematikus, pont-pont mintás nyomtatható anyagaid, például állatok vagy dinoszauruszok?",
+      "a7": "11 kategóriánk van, beleértve az állatokat, dinoszauruszokat, járműveket, óceáni élőlényeket, játszótereket, Amerika 250 éve, űrkutatást, fantasyt, szezonális/ünnepi témákat, tanári munkafüzeteket és nagy pöttyös könyveket. Hetente új dizájnok kerülnek fel.",
+      "q8": "Kinyomtathatom ezeket a rejtvényeket fekete-fehérben?",
+      "a8": "Igen — az összes pontok összekötésére szolgáló munkalapunkat fekete-fehér nyomtatásra terveztük a tinta megtakarítása érdekében. Remekül mutatnak bármilyen otthoni vagy osztálytermi nyomtatón."
+    },
+    "newsletter": {
+      "eyebrow": "Nyomtatható kezdőcsomag – teljesen ingyenes",
+      "heading": "Kapj 20 ingyenes, pontról pontra nyomtatható képet a postaládádba.",
+      "description": "Szülő- és tanárbarát gyűjtemény állatokkal, járművekkel, dinoszauruszokkal és évszakos témákkal – mindegyik szabványos amerikai Letter papírra méretezve és fekete-fehér nyomtatásra optimalizálva."
+    },
+    "blog": {
+      "eyebrow": "Ötletek felnőtteknek",
+      "heading": "Tanulási tippek otthonra és osztályterembe",
+      "viewAll": "Az összes cikk megtekintése",
+      "read": "Olvas"
+    },
+    "feedback": {
+      "eyebrow": "Szeretnénk hallani felőled",
+      "heading": "Visszajelzés küldése",
+      "description": "Van egy rejtvényötleted, hibás linket találtál, vagy csak köszönni szeretnél? Írj nekünk egy üzenetet lent."
+    },
+    "footer": {
+      "description": "Ingyenes pont-pont kirakós feladatok és pontok összekötésére szolgáló feladatok gyerekeknek, szülőknek és tanároknak. Minden rejtvény ingyenesen letölthető, kinyomtatható és megosztható.",
+      "kids": "Gyerekek",
+      "parents": "Szülők",
+      "teachers": "Tanárok",
+      "blog": "Blog",
+      "faq": "GYIK",
+      "feedback": "Visszacsatolás",
+      "about": "Körülbelül",
+      "contact": "Érintkezés",
+      "privacy": "Magánélet",
+      "terms": "Feltételek",
+      "sitemap": "Oldaltérkép",
+      "copyright": "© {year} DotToDotFreePrintables.com · Ingyenesen nyomtatható tevékenységek gyerekeknek"
+    },
+    "common": {
+      "home": "Otthon",
+      "new": "Új",
+      "comingSoon": "Hamarosan érkezik",
+      "downloadFree": "Ingyenesen letölthető nyomtatható anyag",
+      "viewDownload": "Megtekintés és letöltés",
+      "shareTitle": "{name} Pont-pont Nyomtatható - Ingyenes PDF",
+      "downloadAria": "Töltsd le ingyen a {name} pont-pont nyomtatható PDF-et",
+      "bookmarkTitle": "{name} Pont-pont Nyomtatható – Ingyenes PDF gyerekeknek",
+      "showSlide": "Diavetítés {number}",
+      "ageRange": "Korosztály {min}-{max}",
+      "difficultyLabel": "Nehézség {level} a 3-ból",
+      "difficulty": {
+        "1": "Könnyen",
+        "2": "Közepes",
+        "3": "Kemény"
+      },
+      "dots": "1–{count} pont",
+      "homeVideoEyebrow": "Videó",
+      "homeVideoH2": "Nézd meg a pöttyökhöz kapcsolódó mókát akció közben",
+      "skipToContent": "Ugrás a fő tartalomra",
+      "joinTeachers": "Csatlakozz {count}+ tanárhoz",
+      "breadcrumbAria": "Zsemle"
+    },
+    "puzzleSearch": {
+      "placeholder": "Keresés név vagy téma alapján... pl. óceán, bálna, T-Rex",
+      "searchAria": "Rejtvények keresése",
+      "clearSearch": "Keresés törlése",
+      "toggleFilters": "Szűrők be/ki",
+      "filters": "Szűrők",
+      "filterOptions": "Szűrési lehetőségek",
+      "topic": "Téma",
+      "numberOfDots": "Pontok száma",
+      "recentlyAddedOnly": "Csak a nemrég hozzáadottak",
+      "clearAllFilters": "Összes szűrő törlése",
+      "clearFilters": "Szűrők törlése",
+      "resultsFound": "{count, plural, one {# rejtvény található} other {# rejtvény található}}",
+      "puzzlesAvailable": "{count, plural, one {# elérhető rejtvény} other {# elérhető rejtvény}}",
+      "noMatches": "Egyik rejtvény sem felelt meg a keresésnek.",
+      "openPuzzle": "{name} megnyitása",
+      "imageAlt": "{name} pontról pontra nyomtatható",
+      "viewPuzzle": "Rejtvény megtekintése →",
+      "dotRanges": {
+        "under35": "35 pont alatt",
+        "35to50": "35-50 pont",
+        "51to70": "51-70 pont",
+        "over70": "70+ pont"
+      },
+      "categories": {
+        "Dinosaurs": "Dinoszauruszok",
+        "Ocean": "Óceán",
+        "Playgrounds": "Játszóterek",
+        "Garden": "Kert",
+        "Cute": "Aranyos",
+        "USA 250 Years": "USA 250 év",
+        "UAE": "EAE"
+      }
+    },
+    "newsletterForm": {
+      "ariaLabel": "Szerezd meg az ingyenes, pontról pontra nyomtatható csomagot",
+      "emailLabel": "E-mail cím",
+      "submit": "Ingyenes csomag küldése",
+      "honeypot": "Hagyja ezt a mezőt üresen",
+      "privacy": "Soha nincs spam. Bármikor leiratkozhatsz.",
+      "error": "Nem sikerült elküldeni ezt az űrlapot.",
+      "notConnected": "Az ingyenes csomag regisztrációja még nincs összekapcsolva."
+    },
+    "feedbackForm": {
+      "ariaLabel": "Visszajelzés küldése",
+      "notConnected": "Ez a visszajelző űrlap még nincs csatlakoztatva.",
+      "typeLabel": "Milyen visszajelzés?",
+      "selectTopic": "Válasszon egy témát...",
+      "types": {
+        "general": "Általános visszajelzés",
+        "requestTheme": "Kirakós téma kérése",
+        "brokenLink": "Hibás link jelentése",
+        "improvement": "Javasoljon egy fejlesztést",
+        "other": "Más"
+      },
+      "messageLabel": "Az üzeneted",
+      "messagePlaceholder": "Mondd el a véleményed...",
+      "emailLabel": "Email",
+      "emailOptional": "(opcionális - csak akkor, ha választ szeretne kapni)",
+      "submit": "Visszajelzés küldése",
+      "success": "Köszönjük. Visszajelzését elküldtük.",
+      "disclaimer": "Kérjük, ne adjon meg érzékeny személyes adatokat. Az e-mail cím megadása opcionális, és csak akkor használjuk, ha válaszolnunk kell.",
+      "iframeTitle": "Visszajelzés beküldése"
+    },
+    "hero": {
+      "badge": "100% ingyenes · regisztráció nélkül",
+      "h1": "Ingyenes pontosszorozz feladatlapok gyerekeknek – kösd össze a pontokat munkalapok",
+      "description": "Töltsd le ingyen a kösd össze a pontokat munkalapokat óvodás kortól az általános iskola alsó tagozatáig – az USA, az Egyesült Királyság, Kanada és Ausztrália számára, beleértve a brit EYFS intézményeket is. Az egyszerű 38 pontos lapoktól a 130-nál is több pontos kihívásokig, állatokkal, dinoszauruszokkal, járművekkel és ünnepi témákkal – másodpercek alatt nyomtatásra készen, regisztráció nélkül.",
+      "browsePuzzles": "Ingyenes kirakók böngészése",
+      "starterPack": "Igényeld a 20 kirakós kezdőcsomagot",
+      "stat1Value": "Alaposan ellenőrzött",
+      "stat1Label": "ingyenesen nyomtatható kirakó",
+      "stat2Value": "2–12 éves kor",
+      "stat2Label": "minden szinten",
+      "stat3Value": "100%",
+      "stat3Label": "ingyenes, örökre"
+    },
+    "config": {
+      "featured_puzzle_slugs": "[\"trex-61-dot-to-dot-puzzle\",\"mermaid-dot-to-dot-puzzle\",\"jellyfish-dot-to-dot-puzzle\",\"cute-puppy-dot-to-dot-puzzle\",\"slide-playgrounds-dot-to-dot-puzzle\",\"snowdrop-flower-dot-to-dot-puzzle\",\"dashing-car-playground-dot-to-dot-puzzle\",\"lotus-flower-dot-to-dot-puzzle\"]",
+      "recent_puzzle_slugs": "[\"circus-ringmaster-bear-dot-to-dot-puzzle\",\"circus-tent-dot-to-dot-puzzle\",\"space-rover-dot-to-dot-puzzle\",\"ringed-planet-dot-to-dot-puzzle\"]"
+    },
+    "purchase": {
+      "ad": {
+        "packName": "Pontról pontra kirakós csomag",
+        "pdfBook": "PDF KÖNYV",
+        "bookTitle": "2026 legjobbjai",
+        "puzzleCount": "25 pontról pontra rejtvény",
+        "viewBook": "Könyv megtekintése"
+      },
+      "shared": {
+        "specialSale": "Különleges akció",
+        "returnToPack": "Vissza a rejtvénycsomaghoz",
+        "contactUs": "Kapcsolatfelvétel"
+      },
+      "premium": {
+        "metaTitle": "Best of 2026 Prémium Kösd Össze a Pontokat Puzzle-csomag",
+        "metaDescription": "Nyomtatásra kész gyűjtemény a gyerekek kedvenc pontösszekötős rejtvényeiből, egyetlen kényelmes PDF-be gyűjtve.",
+        "eyebrow": "Nyomtatható prémium gyűjtemény",
+        "lede": "A Best of 2026 gyűjtemény egyetlen, könnyen nyomtatható csomagba gyűjti kedvenc pontösszekötős tevékenységeinket – tökéletes a nyugodt percekre, esős napokra, otthoni tanulásra és a tanórákra.",
+        "digitalPdf": "Digitális PDF",
+        "printAtHome": "Otthoni nyomtatás",
+        "instantAccess": "Azonnali hozzáférés",
+        "purchaseAria": "Best of 2026 rejtvénycsomag megvásárlása",
+        "coverAlt": "Best of 2026 - 25 pontösszekötős rejtvény, könyvborító",
+        "oneTime": "egyszeri fizetés",
+        "buyButton": "Szerezd meg a rejtvénycsomagot",
+        "localNote": "Localhoston ez egy biztonságos fizetési demót nyit meg, és soha nem terheli meg a kártyát.",
+        "detailsEyebrow": "Egyszerű nyomtatásra és játékra tervezve",
+        "detailsText": "Töltsd le egyszer, tartsd kéznél, és nyomtasd ki a kívánt tevékenységeket, amikor csak szükséged van rájuk.",
+        "benefits": {
+          "onePdf": "Egy kényelmes, nyomtatásra kész PDF",
+          "kidFriendly": "Gyerekbarát rejtvények változatos nehézségi szinttel",
+          "paperSizes": "US Letter és A4 papírméretre is alkalmas",
+          "instantAccess": "Azonnali hozzáférés sikeres fizetés után",
+          "classroomUse": "Otthon vagy egyetlen tanteremben használható"
+        },
+        "guaranteeText": "A fizetés után azonnal megjelenik a privát letöltési linked. Nincs előfizetés, és nincs meglepetésszerű megújítás."
+      },
+      "checkout": {
+        "consent": "Elfogadom ennek a digitális PDF-nek az azonnali kézbesítését, és tudomásul veszem, hogy a hozzáférés megkezdését követően a vásárlás végleges és nem visszatéríthető, kivéve, ha ezt jogszabály írja elő, vagy ha a fájlt nem kézbesítik, illetve az hibás.",
+        "refundPolicy": "Visszatérítési szabályzat elolvasása",
+        "opening": "Fizetési folyamat megnyitása...",
+        "secureNote": "Biztonságos fizetés a Stripe támogatásával. Egyszeri fizetés. Nincs előfizetés.",
+        "error": "Hiba történt a fizetés indításakor. Kérjük, próbáld újra."
+      },
+      "success": {
+        "metaTitle": "Köszönjük a vásárlást",
+        "eyebrow": "Fizetés megerősítve",
+        "lede": "A fizetés sikeres volt. Előfordulhat, hogy néhány másodpercbe telik, amíg a vásárlás megjelenik a fiókodban."
+      },
+      "cancelled": {
+        "metaTitle": "Fizetés megszakítva",
+        "eyebrow": "Nem történt terhelés",
+        "lede": "Nem történt terhelés. Bármikor újra megpróbálhatod."
+      },
+      "download": {
+        "demoTitle": "A helyi fizetési teszt sikeres volt.",
+        "demoText": "A valódi sikeres fizetési képernyőn itt jelenik meg a PDF letöltési gombja. A helyi demó nem adja ki a privát fájlt.",
+        "button": "Töltsd le a rejtvénycsomagot",
+        "expires": "Ez a link 24 óra múlva lejár. Mentsd el a letöltött fájlt biztonságos helyre.",
+        "failed": "Még nem tudtuk megerősíteni a vásárlásodat. Ha megtörtént a terhelés, frissítsd az oldalt egy perc múlva, vagy vedd fel velünk a kapcsolatot segítségért.",
+        "preparing": "Letöltés előkészítése..."
+      }
+    },
+    "puzzleDetail": {
+      "agesLabel": "Életkorok:",
+      "dotsLabel": "Pontok:",
+      "freeLabel": "100% ingyenes",
+      "difficultyHeading": "Nehézség",
+      "difficultyEasy": "Könnyen",
+      "difficultyMedium": "Közepes",
+      "difficultyHard": "Kemény",
+      "funFactPrefix": "Érdekes tény:",
+      "funFactLabel": "Érdekes tény!",
+      "noSignUp": "Nincs szükség regisztrációra.PDF formátumban nyílik meg.Nyomtatás US Letter (8,5 × 11 hüvelyk) vagy A4-es papírra.Ingyenes otthoni és tantermi használatra.",
+      "comingSoon": "Ingyenes PDF letöltése – Hamarosan",
+      "youMightLike": "Ön is kedvelheti",
+      "faqQ1": "Hány korosztálynak való a {name} ponttól pontig kirakós játék?",
+      "faqA1": "{age} korosztály számára készült.A {pont} ponttal olyan gyerekeknek felel meg, akik magabiztosan tudnak {pontig számolni;a kisebb gyerekek kis segítséggel kiegészíthetik.",
+      "faqQ2": "Hogyan nyomtathatom ki a(z) {name} munkalapot?",
+      "faqA2": "Kattintson a letöltés gombra az ingyenes PDF letöltéséhez, majd nyomtassa ki normál papírra (A4 vagy US Letter) bármely böngészőből vagy PDF-olvasóból.Nincs szükség speciális szoftverre.",
+      "faqQ3": "A(z) {name} valóban ingyenes?",
+      "faqA3": "Igen – 100%-ban ingyenes, nincs szükség regisztrációra, fiókra vagy fizetésre.Kinyomtathatja otthoni vagy tantermi használatra."
+    },
+    "downloadBadge": {
+      "downloaded": "Letöltve",
+      "times": "alkalommal",
+      "greatChoice": "Remekül választottál!"
+    },
+    "shareButtons": {
+      "label": "Részesedés",
+      "copyLink": "Link másolása",
+      "copied": "Link másolva!",
+      "shareMe": "Oszd meg velem"
+    },
+    "blogPage": {
+      "eyebrow": "Tanulási források",
+      "h1": "Pontról pontra ötletek szülőknek és tanároknak",
+      "description": "Gyakorlati útmutatók a tevékenységek kiválasztásához, a korai tanulási készségek fejlesztéséhez és a nyomtatható munkalapok otthoni vagy tantermi használatához.",
+      "breadcrumb": "Blog",
+      "latestEyebrow": "Legújabb cikkek",
+      "latestH2": "Hasznos ötletek, amelyeket ma is felhasználhatsz",
+      "readArticle": "Olvassa el a cikket",
+      "by": "Által",
+      "backToAll": "← Vissza az összes cikkhez",
+      "savePinterest": "Mentés a Pinterestre",
+      "relatedEyebrow": "Ingyenes nyomtatható anyagok",
+      "relatedHeading": "Legközelebb próbálja ki ezeket a pontról pontra gyűjtött gyűjteményeket"
+    },
+    "canadaPage": {
+      "category": "Kanada"
+    },
+    "circusPage": {
+      "category": "Cirkusz"
+    },
+    "cutePage": {
+      "category": "Csinos"
+    },
+    "dinosaursPage": {
+      "category": "Dinoszauruszok"
+    },
+    "flowersPage": {
+      "category": "Virágok"
+    },
+    "gardenPage": {
+      "category": "Kert"
+    },
+    "oceanPage": {
+      "category": "Óceán"
+    },
+    "playgroundsPage": {
+      "category": "Játszóterek"
+    },
+    "spacePage": {
+      "category": "Tér"
+    },
+    "uaePage": {
+      "category": "Egyesült Arab Emírségek"
+    },
+    "usa250Page": {
+      "category": "USA 250. évfordulója"
+    }
+  }
+}

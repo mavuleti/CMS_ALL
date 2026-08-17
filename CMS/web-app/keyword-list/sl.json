@@ -1,0 +1,163 @@
+{
+  "scoring_model": {
+    "name": "heuristic_opportunity_score_v1",
+    "status": "tunable_not_calibrated",
+    "purpose": "Prioritize phrases within this collected locale dataset only.",
+    "not_valid_for": [
+      "estimating search volume",
+      "predicting sales",
+      "measuring keyword competition",
+      "comparing external market demand"
+    ]
+  },
+  "locale": "sl",
+  "data": {
+    "alias_source_key": "sl",
+    "native_phrases": [
+      {
+        "phrase": "Poveži pike",
+        "normalized": "poveži pike",
+        "meaning": "Connect the dots",
+        "note": "Most common, high-volume phrase"
+      },
+      {
+        "phrase": "Od pike do pike",
+        "normalized": "od pike do pike",
+        "meaning": "From dot to dot",
+        "note": "Very popular among parents and school teachers"
+      },
+      {
+        "phrase": "Poveži pike za otroke",
+        "normalized": "poveži pike za otroke",
+        "meaning": "Connect the dots for kids",
+        "note": ""
+      },
+      {
+        "phrase": "Poveži pike natisni",
+        "normalized": "poveži pike natisni",
+        "meaning": "Connect the dots printable",
+        "note": "Natisni indicates a physical copy to print"
+      },
+      {
+        "phrase": "Poveži pike pobarvanke",
+        "normalized": "poveži pike pobarvanke",
+        "meaning": "Connect the dots coloring pages",
+        "note": "These puzzles are often hosted on local coloring-page websites"
+      },
+      {
+        "phrase": "Poveži številke",
+        "normalized": "poveži številke",
+        "meaning": "Connect the numbers",
+        "note": "Common because the puzzles follow numeric sequences"
+      },
+      {
+        "phrase": "Poveži pike za otroke",
+        "normalized": "poveži pike za otroke",
+        "meaning": "Connect the dots for kids",
+        "note": ""
+      },
+      {
+        "phrase": "Poveži pike natisni",
+        "normalized": "poveži pike natisni",
+        "meaning": "Connect the dots printable",
+        "note": ""
+      },
+      {
+        "phrase": "Poveži pike pobarvanke",
+        "normalized": "poveži pike pobarvanke",
+        "meaning": "Connect the dots coloring pages",
+        "note": ""
+      },
+      {
+        "phrase": "Extreme dot to dot for adults",
+        "normalized": "extreme dot to dot for adults",
+        "meaning": "Extreme dot-to-dot for adults",
+        "note": ""
+      },
+      {
+        "phrase": "Poveži pike",
+        "normalized": "poveži pike",
+        "meaning": "Connect the dots",
+        "note": ""
+      },
+      {
+        "phrase": "Od pike do pike",
+        "normalized": "od pike do pike",
+        "meaning": "From dot to dot",
+        "note": ""
+      },
+      {
+        "phrase": "natisni",
+        "normalized": "natisni",
+        "meaning": "print / printable intent",
+        "note": ""
+      },
+      {
+        "phrase": "pobarvanke",
+        "normalized": "pobarvanke",
+        "meaning": "coloring pages",
+        "note": ""
+      },
+      {
+        "phrase": "Poveži številke",
+        "normalized": "poveži številke",
+        "meaning": "Connect the numbers",
+        "note": ""
+      },
+      {
+        "phrase": "Develop keywords for a website or digital assets targeting Slovenian speakers",
+        "normalized": "develop keywords for a website or digital assets targeting slovenian speakers",
+        "meaning": "",
+        "note": ""
+      },
+      {
+        "phrase": "Develop localized terms for specific variations such as extreme dot-to-dots or educational puzzles",
+        "normalized": "develop localized terms for specific variations such as extreme dot-to-dots or educational puzzle",
+        "meaning": "",
+        "note": ""
+      }
+    ],
+    "romanized_phrases": [],
+    "english_phrases_used_by_locals": [
+      {
+        "phrase": "Dot to dot printables",
+        "normalized": "dot to dot printable",
+        "meaning": "",
+        "note": ""
+      },
+      {
+        "phrase": "Connect the dots worksheets PDF",
+        "normalized": "connect the dots worksheet pdf",
+        "meaning": "",
+        "note": ""
+      },
+      {
+        "phrase": "Extreme dot to dot for adults",
+        "normalized": "extreme dot to dot for adults",
+        "meaning": "",
+        "note": ""
+      },
+      {
+        "phrase": "Hard dot to dot puzzles",
+        "normalized": "hard dot to dot puzzle",
+        "meaning": "",
+        "note": ""
+      },
+      {
+        "phrase": "Connect the dots drawing",
+        "normalized": "connect the dots drawing",
+        "meaning": "",
+        "note": ""
+      }
+    ],
+    "intent_modifiers": []
+  },
+  "opportunity_summary": {
+    "primary_term": "Poveži pike",
+    "print_modifier": "Poveži pike natisni",
+    "free_modifier": "",
+    "children_modifier": "Poveži pike za otroke",
+    "adult_modifier": "Extreme dot to dot for adults",
+    "recommended_local_phrase": "Poveži pike"
+  }
+}

@@ -1,0 +1,473 @@
+{
+  "slug": "home",
+  "header": {
+    "title": "Free Dot to Dot Printables for Kids | Connect the Dots Worksheets PDF",
+    "title_template": "%s | DotToDotFreePrintables.com",
+    "meta_description": "Print, connect the dots, and bring amazing pictures to life. Free and ready for fun!",
+    "canonical": "/{locale}/",
+    "og": {
+      "title": "Free printable dot-to-dot worksheets for kids",
+      "description": "Print, connect the dots, and bring amazing pictures to life. Free and ready for fun!",
+      "url": "/{locale}/",
+      "site_name": "DotToDotFreePrintables.com",
+      "type": "website",
+      "image": "/images/trex-61-puzzle.webp (800x679)"
+    },
+    "twitter": {
+      "card": "summary_large_image"
+    },
+    "manifest": "/manifest.webmanifest",
+    "json_ld": {
+      "website": {
+        "type": "WebSite",
+        "name": "DotToDotFreePrintables.com (SITE_NAME)"
+      },
+      "organization": {
+        "type": "Organization",
+        "logo": "/icon-512.png (absoluteUrl)",
+        "same_as": "[\"https://www.pinterest.com/hellokidsbookworld/\", \"https://www.facebook.com/dottodotfreeprintables\", \"https://www.youtube.com/@hellokidsbookworld\"]"
+      },
+      "collection_page": {
+        "type": "CollectionPage",
+        "name": "Find the perfect dot to dot printables"
+      },
+      "item_list": {
+        "type": "ItemList (featured puzzles)"
+      }
+    }
+  },
+  "UNUSED:seo/metadata": {
+    "json:homepage": {
+      "title": "Free Dot to Dot Printables for Kids | Connect the Dots Worksheets PDF",
+      "ogTitle": "Free dot-to-dot worksheets for kids",
+      "description": "Download free dot-to-dot printables for kids - animals, dinosaurs, vehicles, holiday themes and more. Print-ready PDF connect-the-dots worksheets for preschool, kindergarten and grades 1-6. No sign-up needed."
+    }
+  },
+  "body": {
+    "nav": {
+      "kids": "Kids - Puzzles",
+      "teachers": "Teachers",
+      "parents": "Parents",
+      "contact": "Contact us",
+      "blog": "Blog",
+      "search": "Search",
+      "freePack": "Free pack",
+      "scanMe": "Scan me"
+    },
+    "homepageUi": {
+      "title": "Find the perfect dot to dot printables",
+      "description": "Print free dot to dot printables, then connect the dots to bring amazing pictures to life. Ready for fun!",
+      "searchPlaceholder": "Try ocean, dinosaur, or flowers",
+      "filterPuzzles": "Filter puzzles",
+      "age": "Age",
+      "dots": "Dots",
+      "featuredPuzzles": "Featured printable puzzles",
+      "savePuzzle": "Save {name}",
+      "removeSavedPuzzle": "Remove {name} from saved puzzles",
+      "downloads": "downloads",
+      "bookTitle": "Best of 2026 · {count}",
+      "bookDescription": "Our favorite dot-to-dots in one printable PDF book.",
+      "searchUnavailable": "Search is temporarily unavailable. Please try again.",
+      "popularEyebrow": "Popular this week",
+      "mostDownloaded": "Most downloaded puzzles",
+      "downloadCountAria": "{count} or more downloads",
+      "freshPrintables": "Fresh printables",
+      "recentlyAdded": "Recently added",
+      "browseCategories": "Browse puzzle categories",
+      "openCategories": "Open categories menu",
+      "closeCategories": "Close categories menu",
+      "browseByTheme": "Browse by theme",
+      "quickLinks": "Quick links",
+      "bundlePacks": "Bundle Packs",
+      "parentsTeachers": "For Parents & Teachers",
+      "more": "More categories",
+      "kids": "Kids",
+      "categoryNames": {
+        "cute": "Cute Puzzles",
+        "flowers": "Flowers"
+      }
+    },
+    "audience": {
+      "kidsTitle": "For kids",
+      "kidsText": "Friendly animal, dinosaur, and vehicle themes with clear numbered dots. Easy wins that build real confidence.",
+      "parentsTitle": "For parents",
+      "parentsText": "Screen-free quiet-time activities for home, travel, and restaurants. Print from any device in under a minute.",
+      "teachersTitle": "For teachers",
+      "teachersText": "Low-prep connect-the-dots for morning work, early finishers, subs, and classroom stations — no prep required."
+    },
+    "categories": {
+      "eyebrow": "Organized by theme and skill level",
+      "heading": "Browse dot to dot puzzles by category",
+      "description": "From simple 38-dot shapes for beginners to 130+ dot challenges for older kids — sorted by category so you find the right free dot to dot printable in seconds.",
+      "puzzles": "{count, plural, one {# puzzle} other {# puzzles}}",
+      "comingSoon": "Coming soon",
+      "badges": {
+        "dinosaurs": "Available now!",
+        "ocean": "Available now!",
+        "playgrounds": "Available now!",
+        "garden": "Available now!",
+        "usa250": "New!",
+        "uae": "Available now!",
+        "cute": "New!",
+        "circus": "New!"
+      },
+      "items": {
+        "dinosaurs": {
+          "name": "Dinosaurs",
+          "description": "Roar into prehistoric fun! T-Rex, Triceratops, Velociraptor and {count} free dot to dot puzzles your kids will love."
+        },
+        "animals": {
+          "name": "Animals",
+          "description": "Friendly creatures for early number practice."
+        },
+        "vehicles": {
+          "name": "Vehicles",
+          "description": "Cars, trucks, rockets, and machines."
+        },
+        "fantasy": {
+          "name": "Fantasy",
+          "description": "Castles, unicorns, dragons, and story prompts."
+        },
+        "seasonal": {
+          "name": "Seasonal",
+          "description": "Holiday and classroom calendar activities."
+        },
+        "ocean": {
+          "name": "Ocean",
+          "description": "Sea animals and calm coloring and colouring pages."
+        },
+        "playgrounds": {
+          "name": "Playgrounds",
+          "description": "Swings, slides, and outdoor fun for little adventurers."
+        },
+        "garden": {
+          "name": "Garden",
+          "description": "Gloves, trowels, and tools for little garden helpers."
+        },
+        "usa250": {
+          "name": "America 250 Years",
+          "description": "Celebrate America's 250th birthday with patriotic dot to dot puzzles honoring American history."
+        },
+        "uae": {
+          "name": "UAE",
+          "description": "Explore the United Arab Emirates! Iconic landmarks like the Burj Al Arab, ready to connect and colour."
+        },
+        "space": {
+          "name": "Space",
+          "description": "Planets, astronauts, and rocket adventures."
+        },
+        "worksheets": {
+          "name": "Worksheets",
+          "description": "Teacher-ready number sequencing sheets."
+        },
+        "bigDotBooks": {
+          "name": "Big Dot Books",
+          "description": "Long-form puzzles for focused older learners."
+        },
+        "cute": {
+          "name": "Cute",
+          "description": "Adorable puppies, little cars, and {count} charming free dot to dot puzzles your kids will love."
+        },
+        "circus": {
+          "name": "Circus",
+          "description": "Ringmasters, big tops, and showtime fun for young learners."
+        }
+      }
+    },
+    "puzzleSection": {
+      "eyebrow": "Free printable samples — no sign-up",
+      "heading": "Popular connect-the-dots sheets to print now",
+      "weeklyPack": "See weekly pack →",
+      "downloadLink": "Download free printable",
+      "new": "New",
+      "imageAlt": "{name} free dot to dot printable worksheet for {age}",
+      "categories": {
+        "Dinosaurs": "Dinosaurs",
+        "Ocean": "Ocean",
+        "Playgrounds": "Playgrounds",
+        "Garden": "Garden",
+        "Cute": "Cute",
+        "USA 250 Years": "America 250 Years",
+        "UAE": "UAE"
+      },
+      "items": {
+        "trex-61-dot-to-dot-puzzle": {
+          "name": "T-Rex 61-Dot Challenge"
+        },
+        "brontosaurus-dot-to-dot-puzzle": {
+          "name": "Brontosaurus"
+        },
+        "mermaid-dot-to-dot-puzzle": {
+          "name": "Mermaid"
+        },
+        "merman-dot-to-dot-puzzle": {
+          "name": "Merman"
+        },
+        "seahorse-dot-to-dot-puzzle": {
+          "name": "Seahorse"
+        },
+        "whale-dot-to-dot-puzzle": {
+          "name": "Whale"
+        },
+        "swing-playgrounds-dot-to-dot-puzzle": {
+          "name": "Swing Playground"
+        },
+        "slide-playgrounds-dot-to-dot-puzzle": {
+          "name": "Slide Playground"
+        },
+        "seesaw-playground-dot-to-dot-puzzle": {
+          "name": "Seesaw Playground"
+        },
+        "roller-coaster-playground-dot-to-dot-puzzle": {
+          "name": "Roller Coaster Playground"
+        },
+        "wheelbarrow-playground-dot-to-dot-puzzle": {
+          "name": "Wheelbarrow Playground"
+        },
+        "garden-gloves-dot-to-dot-puzzle": {
+          "name": "Garden Gloves"
+        },
+        "garden-trowel-dot-to-dot-puzzle": {
+          "name": "Garden Trowel"
+        },
+        "gas-balloon-usa-250-dot-to-dot-puzzle": {
+          "name": "Gas Balloon America 250"
+        },
+        "america-250-birthday-fireworks-dot-to-dot-puzzle": {
+          "name": "America 250 Birthday Fireworks"
+        },
+        "america-250-anniversary-liberty-bell-wings-1776-dot-to-dot-puzzle": {
+          "name": "America 250 Liberty Bell Wings"
+        },
+        "usa-250-astronaut-dot-to-dot-puzzle": {
+          "name": "America 250 Astronaut"
+        },
+        "usa-250-anniversary-sports-kids-podium-dot-to-dot-puzzle": {
+          "name": "America 250 Anniversary Sports Kids Podium"
+        },
+        "usa-250-anniversary-airplane-banner-dot-to-dot-puzzle": {
+          "name": "America 250 Anniversary Airplane Banner"
+        },
+        "usa-250-space-shuttle-dot-to-dot-puzzle": {
+          "name": "America 250 Space Shuttle"
+        },
+        "usa-250-birthday-balloons-stars-dot-to-dot-puzzle": {
+          "name": "America 250 Birthday Balloons and Stars"
+        },
+        "usa-250-birthday-cake-dot-to-dot-puzzle": {
+          "name": "America 250 Birthday Cake"
+        },
+        "america-250-anniversary-eagle-banner-dot-to-dot-puzzle": {
+          "name": "America 250 Eagle Banner"
+        },
+        "burj-al-arab-dot-to-dot-puzzle": {
+          "name": "Burj Al Arab"
+        },
+        "dallah-coffee-pot-dot-to-dot-puzzle": {
+          "name": "Dallah Coffee Pot"
+        }
+      }
+    },
+    "benefits": {
+      "eyebrow": "Backed by early childhood educators",
+      "heading": "Why dot to dot worksheets are great for child development",
+      "description": "Connect-the-dots printables are more than just fun — they support early learning in preschool (nursery/reception), kindergarten/prep, and UK EYFS classrooms across the US, UK, Canada, and Australia.",
+      "fineMotorTitle": "Builds fine motor skills",
+      "fineMotorText": "Drawing dot to dot lines develops pencil grip, hand-eye coordination, and the muscle control children need for handwriting.",
+      "numberTitle": "Reinforces number recognition",
+      "numberText": "Following dots 1 → 2 → 3 in sequence teaches counting order, number recognition, and early math concepts naturally through play.",
+      "focusTitle": "Improves focus and concentration",
+      "focusText": "Completing a connect-the-dots puzzle requires sustained attention — a calm, screen-free way to practice focus for preschool to grade 3.",
+      "confidenceTitle": "Instant reward and confidence",
+      "confidenceText": "When the hidden picture appears, kids feel an immediate sense of achievement. That small win builds a love of learning and a growth mindset."
+    },
+    "howTo": {
+      "eyebrow": "Ready in under 60 seconds",
+      "heading": "How to download and print your free dot to dot worksheets",
+      "step1Title": "Choose your puzzle",
+      "step1Text": "Pick a theme (animals, dinosaurs, vehicles, holiday) and a dot range that matches your child's age and skill level.",
+      "step2Title": "Download the free PDF",
+      "step2Text": "Click \"Download free printable\" — no account, no email, no paywall. Your browser downloads the PDF instantly.",
+      "step3Title": "Print and enjoy",
+      "step3Text": "Print on standard US Letter (8.5\" × 11\") or A4 paper. Black and white works perfectly. After connecting the dots, children can use the finished picture as a coloring (colouring) page."
+    },
+    "trust": {
+      "eyebrow": "Why parents and teachers choose us",
+      "heading": "Free, safe, and ridiculously easy to use.",
+      "noAccountTitle": "No account required",
+      "noAccountText": "Every dot to dot printable downloads immediately — no sign-up, no email, no paywall. Just click and print.",
+      "safeTitle": "Classroom safe",
+      "safeText": "Clean, ad-free puzzle pages designed for school printers. Works for morning work, homework, or quiet time.",
+      "fastTitle": "Fast by design",
+      "fastText": "Static pages, optimized images, and local fonts mean puzzles load fast on any device — phone, tablet, or laptop."
+    },
+    "faq": {
+      "eyebrow": "Common questions",
+      "heading": "Frequently asked questions",
+      "q1": "Are all dot to dot printables on this site completely free?",
+      "a1": "Yes — every connect-the-dots worksheet on DotToDotFreePrintables.com is 100% free to download and print. No account, subscription, or credit card is ever required.",
+      "q2": "What age are dot to dot worksheets suitable for?",
+      "a2": "Our printables cover ages 4–12. Easy worksheets (around 38–55 dots) suit preschoolers and kindergartners (prep in Australia), medium sheets (around 60–90 dots) are great for kindergarten and 1st grade, and harder sheets (90–130+ dots) challenge 2nd through 6th graders.",
+      "q3": "What format are the connect-the-dots printables?",
+      "a3": "All worksheets download as print-ready PDF files sized for standard US Letter (8.5\" × 11\") or A4 paper. Open in any browser or PDF viewer and print — no special software needed.",
+      "q4": "Do you have dot to dot worksheets for preschool and kindergarten?",
+      "a4": "Absolutely. Our easiest worksheets start at 1–10 dots (perfect for ages 2–4) and include alphabet and number-recognition themes designed for Pre-K and kindergarten classrooms.",
+      "q5": "Can teachers use these connect-the-dots worksheets in class?",
+      "a5": "Yes! Our printables are free for personal and classroom use. They are popular for morning work, early finisher activities, substitute lesson plans, fine motor centers, and homework packets.",
+      "q6": "Do dot to dot puzzles help with fine motor skills?",
+      "a6": "Yes — drawing lines between dots builds the pencil-grip strength and hand-eye coordination that support handwriting readiness. Many occupational therapists and kindergarten teachers recommend connect-the-dots activities for this reason.",
+      "q7": "Do you have themed dot to dot printables like animals or dinosaurs?",
+      "a7": "We have 11 categories including animals, dinosaurs, vehicles, ocean creatures, playgrounds, America 250 Years, space, fantasy, seasonal/holiday themes, teacher worksheet packs, and big dot books. New designs are added weekly.",
+      "q8": "Can I print these puzzles in black and white?",
+      "a8": "Yes — all of our connect-the-dots worksheets are designed for black and white printing to save on ink. They look great on any home or classroom printer."
+    },
+    "newsletter": {
+      "eyebrow": "Printable starter pack — totally free",
+      "heading": "Get 20 free dot to dot printables delivered to your inbox.",
+      "description": "A parent and teacher-friendly collection of free dot to dot printables covering animals, vehicles, dinosaurs, and seasonal themes — sized for standard US Letter or A4 paper and optimized for black and white printing."
+    },
+    "blog": {
+      "eyebrow": "Ideas for grown-ups",
+      "heading": "Learning tips for home and classroom",
+      "viewAll": "View all articles",
+      "read": "Read"
+    },
+    "feedback": {
+      "eyebrow": "We'd love to hear from you",
+      "heading": "Send feedback",
+      "description": "Have a puzzle idea, spotted a broken link, or just want to say hi? Drop us a note below."
+    },
+    "footer": {
+      "description": "Free dot to dot printables and connect-the-dots worksheets for kids, parents, and teachers in the US, UK, Canada, and Australia. All puzzles are free to download, print, and share.",
+      "kids": "Kids",
+      "parents": "Parents",
+      "teachers": "Teachers",
+      "blog": "Blog",
+      "faq": "FAQ",
+      "feedback": "Feedback",
+      "about": "About",
+      "contact": "Contact",
+      "privacy": "Privacy",
+      "terms": "Terms",
+      "sitemap": "Sitemap",
+      "copyright": "© {year} DotToDotFreePrintables.com · Free printable activities for children"
+    },
+    "common": {
+      "home": "Home",
+      "new": "New",
+      "comingSoon": "Coming soon",
+      "downloadFree": "Download free printable",
+      "viewDownload": "View & Download",
+      "shareTitle": "{name} Dot-to-Dot Printable - Free PDF",
+      "downloadAria": "Download free {name} dot-to-dot printable PDF",
+      "bookmarkTitle": "{name} Dot-to-Dot Printable – Free PDF for Kids",
+      "showSlide": "Show slide {number}",
+      "ageRange": "Ages {min}-{max}",
+      "difficultyLabel": "Difficulty {level} out of 3",
+      "difficulty": {
+        "1": "Easy",
+        "2": "Medium",
+        "3": "Hard"
+      },
+      "dots": "1–{count} dots",
+      "homeVideoEyebrow": "Video",
+      "homeVideoH2": "Watch dot to dot fun in action",
+      "skipToContent": "Skip to main content",
+      "joinTeachers": "Join {count}+ teachers",
+      "breadcrumbAria": "Breadcrumb"
+    },
+    "puzzleSearch": {
+      "placeholder": "Search by name or topic... e.g. ocean, whale, T-Rex",
+      "searchAria": "Search puzzles",
+      "clearSearch": "Clear search",
+      "toggleFilters": "Toggle filters",
+      "filters": "Filters",
+      "filterOptions": "Filter options",
+      "topic": "Topic",
+      "numberOfDots": "Number of dots",
+      "recentlyAddedOnly": "Recently added only",
+      "clearAllFilters": "Clear all filters",
+      "clearFilters": "Clear filters",
+      "resultsFound": "{count, plural, one {# puzzle found} other {# puzzles found}}",
+      "puzzlesAvailable": "{count, plural, one {# puzzle available} other {# puzzles available}}",
+      "noMatches": "No puzzles matched your search.",
+      "openPuzzle": "Open {name}",
+      "imageAlt": "{name} dot to dot printable",
+      "viewPuzzle": "View puzzle →",
+      "dotRanges": {
+        "under35": "Under 35 dots",
+        "35to50": "35-50 dots",
+        "51to70": "51-70 dots",
+        "over70": "70+ dots"
+      },
+      "categories": {
+        "Dinosaurs": "Dinosaurs",
+        "Ocean": "Ocean",
+        "Playgrounds": "Playgrounds",
+        "Garden": "Garden",
+        "Cute": "Cute",
+        "USA 250 Years": "America 250 Years",
+        "UAE": "UAE"
+      }
+    },
+    "newsletterForm": {
+      "ariaLabel": "Get the free dot to dot printable pack",
+      "emailLabel": "Email address",
+      "submit": "Send free pack",
+      "honeypot": "Leave this field empty",
+      "privacy": "No spam, ever. Unsubscribe any time.",
+      "error": "Unable to submit this form.",
+      "notConnected": "The free pack signup is not connected yet."
+    },
+    "feedbackForm": {
+      "ariaLabel": "Send feedback",
+      "notConnected": "This feedback form is not connected yet.",
+      "typeLabel": "What kind of feedback?",
+      "selectTopic": "Select a topic...",
+      "types": {
+        "general": "General feedback",
+        "requestTheme": "Request a puzzle theme",
+        "brokenLink": "Report a broken link",
+        "improvement": "Suggest an improvement",
+        "other": "Other"
+      },
+      "messageLabel": "Your message",
+      "messagePlaceholder": "Tell us what you think...",
+      "emailLabel": "Email",
+      "emailOptional": "(optional - only if you'd like a reply)",
+      "submit": "Send feedback",
+      "success": "Thank you. Your feedback was sent.",
+      "disclaimer": "Please do not include sensitive personal information. Email is optional and is only used if we need to reply.",
+      "iframeTitle": "Feedback submission"
+    },
+    "hero": {
+      "badge": "100% free · no account needed",
+      "h1": "Free Dot to Dot Printables for Kids — Connect the Dots Worksheets",
+      "description": "Download free connect-the-dots worksheets for preschool (nursery/reception) and kindergarten (prep in Australia) through elementary school — for the US, UK, Canada, and Australia, including UK EYFS settings. From simple 38-dot starter pages to 130+ dot challenges, covering animals, dinosaurs, vehicles, and holiday themes — print-ready in seconds with no sign-up required.",
+      "browsePuzzles": "Browse free puzzles",
+      "starterPack": "Get 20-puzzle starter pack",
+      "stat1Value": "Well-validated",
+      "stat1Label": "free printable puzzles",
+      "stat2Value": "Ages 2–12",
+      "stat2Label": "all skill levels",
+      "stat3Value": "100%",
+      "stat3Label": "free, forever"
+    },
+    "config": {
+      "featured_puzzle_slugs": "[\"trex-61-dot-to-dot-puzzle\",\"mermaid-dot-to-dot-puzzle\",\"jellyfish-dot-to-dot-puzzle\",\"cute-puppy-dot-to-dot-puzzle\",\"slide-playgrounds-dot-to-dot-puzzle\",\"snowdrop-flower-dot-to-dot-puzzle\",\"dashing-car-playground-dot-to-dot-puzzle\",\"lotus-flower-dot-to-dot-puzzle\"]",
+      "recent_puzzle_slugs": "[\"circus-ringmaster-bear-dot-to-dot-puzzle\",\"circus-tent-dot-to-dot-puzzle\",\"space-rover-dot-to-dot-puzzle\",\"ringed-planet-dot-to-dot-puzzle\"]"
+    },
+    "purchase": {
+      "ad": {
+        "packName": "Dot to Dot Puzzle Pack",
+        "pdfBook": "PDF BOOK",
+        "bookTitle": "Best of 2026",
+        "puzzleCount": "25 Dot to Dot Puzzles",
+        "viewBook": "View book"
+      },
+      "shared": {
+        "specialSale": "SPECIAL SALE"
+      }
+    }
+  }
+}

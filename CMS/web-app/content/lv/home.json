@@ -1,0 +1,602 @@
+{
+  "slug": "home",
+  "header": {
+    "title": "Bezmaksas punktu savienošana bērniem | Drukājamas PDF darblapas",
+    "title_template": "%s | DotToDotFreePrintables.com",
+    "meta_description": "Izdrukājiet, savienojiet punktus un atdzīviniet brīnišķīgus attēlus. Bezmaksas un gatavs jautrībai — savieno punktus bērniem.",
+    "canonical": "/{locale}/",
+    "og": {
+      "title": "Savieno punktus – bezmaksas mīklas bērniem un pieaugušajiem",
+      "description": "Izdrukājiet, savienojiet punktus un atdzīviniet brīnišķīgus attēlus. Bezmaksas un gatavs jautrībai!",
+      "url": "/{locale}/",
+      "site_name": "DotToDotFreePrintables.com",
+      "type": "website",
+      "image": "/images/trex-61-puzzle.webp (800x679)"
+    },
+    "twitter": {
+      "card": "summary_large_image"
+    },
+    "manifest": "/manifest.webmanifest",
+    "json_ld": {
+      "website": {
+        "type": "WebSite",
+        "name": "DotToDotFreePrintables.com (SITE_NAME)"
+      },
+      "organization": {
+        "type": "Organization",
+        "logo": "/icon-512.png (absoluteUrl)",
+        "same_as": "[\"https://www.pinterest.com/hellokidsbookworld/\", \"https://www.facebook.com/dottodotfreeprintables\", \"https://www.youtube.com/@hellokidsbookworld\"]"
+      },
+      "collection_page": {
+        "type": "CollectionPage",
+        "name": "Atrodiet ideālās punktu savienošanas izdrukas"
+      },
+      "item_list": {
+        "type": "ItemList (featured puzzles)"
+      }
+    }
+  },
+  "UNUSED:seo/metadata": {
+    "json:homepage": {
+      "title": "Bezmaksas savieno punktus lapas bērniem | Savieno punktus darba lapas PDF formātā",
+      "ogTitle": "Bezmaksas savieno punktus darba lapas bērniem",
+      "description": "Lejupielādējiet bezmaksas savieno punktus lapas bērniem: dzīvnieki, dinozauri, transportlīdzekļi, svētku tēmas un vēl. Drukāšanai gatavs PDF pirmsskolas un sākumskolas vecumam. Bez reģistrācijas."
+    }
+  },
+  "body": {
+    "nav": {
+      "kids": "Bērniem - Puzles",
+      "teachers": "Skolotāji",
+      "parents": "Vecāki",
+      "contact": "Sazinieties ar mums",
+      "blog": "Blogs",
+      "search": "Meklēt",
+      "freePack": "Bezmaksas komplekts",
+      "scanMe": "Skenēt mani"
+    },
+    "homepageUi": {
+      "title": "Atrodiet ideālās punktu savienošanas izdrukas",
+      "description": "Izdrukājiet, savienojiet punktus un atdzīviniet brīnišķīgus attēlus. Bezmaksas un gatavs jautrībai!",
+      "searchPlaceholder": "Izmēģiniet okeānu, dinozauru vai puķes",
+      "filterPuzzles": "Filtrēt mīklas",
+      "age": "Vecums",
+      "dots": "punkti",
+      "featuredPuzzles": "Izceltās drukājamās mīklas",
+      "savePuzzle": "Saglabāt {name}",
+      "removeSavedPuzzle": "Noņemt {name} no saglabātajiem",
+      "downloads": "lejupielādes",
+      "bookTitle": "2026. gada labākie · {count}",
+      "bookDescription": "Mūsu iecienītākās punktu-punktu mīklas vienā drukājamā PDF grāmatā.",
+      "searchUnavailable": "Meklēšana īslaicīgi nav pieejama. Lūdzu, mēģiniet vēlreiz.",
+      "popularEyebrow": "Populāri šajā nedēļā",
+      "mostDownloaded": "Visvairāk lejupielādētās mīklas",
+      "downloadCountAria": "{count} vai vairāk lejupielādes",
+      "freshPrintables": "Jauni drukājamie materiāli",
+      "recentlyAdded": "Nesen pievienots",
+      "browseCategories": "Pārlūkot mīklu kategorijas",
+      "openCategories": "Atvērt kategoriju izvēlni",
+      "closeCategories": "Aizvērt kategoriju izvēlni",
+      "browseByTheme": "Pārlūkot pēc tēmas",
+      "quickLinks": "Ātrie saites",
+      "bundlePacks": "Kopas komplekti",
+      "parentsTeachers": "Vecākiem un skolotājiem",
+      "more": "Vairāk kategoriju",
+      "kids": "Bērniem",
+      "categoryNames": {
+        "cute": "Skaistas mīklas",
+        "flowers": "Ziedi"
+      }
+    },
+    "audience": {
+      "kidsTitle": "Bērniem",
+      "kidsText": "Draudzīgas dzīvnieku, dinozauru un transportlīdzekļu tēmas ar skaidriem numurētiem punktiem. Vieglas uzvaras, kas vairo patiesu pārliecību.",
+      "parentsTitle": "Vecākiem",
+      "parentsText": "Klusas aktivitātes bez ekrāna mājās, ceļojumos un restorānos. Drukājiet no jebkuras ierīces mazāk nekā minūtē.",
+      "teachersTitle": "Skolotājiem",
+      "teachersText": "Viegli sagatavošanās darbi rīta darbiem, agrākajiem skolēniem, aizvietotājiem un klases stacijām — sagatavošanās nav nepieciešama."
+    },
+    "categories": {
+      "eyebrow": "Organizēts pēc tēmas un prasmju līmeņa",
+      "heading": "Pārlūkojiet punktu salikšanas mīklas pēc kategorijas",
+      "description": "No vienkāršām 10 punktu formām mazuļiem līdz 200 punktu izaicinājumiem vecākiem bērniem — sakārtoti pa kategorijām, lai jūs dažu sekunžu laikā atrastu sev piemērotāko bezmaksas drukājamo materiālu.",
+      "puzzles": "{count, plural, one {# puzle} other {# puzles}}",
+      "comingSoon": "Drīzumā",
+      "badges": {
+        "dinosaurs": "Pieejams jau tagad!",
+        "ocean": "Pieejams jau tagad!",
+        "playgrounds": "Pieejams jau tagad!",
+        "garden": "Pieejams jau tagad!",
+        "usa250": "Jaunums!",
+        "uae": "Pieejams jau tagad!",
+        "cute": "Jaunums!",
+        "circus": "Jauns!"
+      },
+      "items": {
+        "dinosaurs": {
+          "name": "Dinozauri",
+          "description": "Iesaistieties aizvēsturiskās jautrībās! T-Rex, triceratops, velociraptor un {count} bezmaksas punktu salīdzināšanas puzles, kas patiks jūsu bērniem."
+        },
+        "animals": {
+          "name": "Dzīvnieki",
+          "description": "Draudzīgas radības agrīnai skaitļu praktizēšanai."
+        },
+        "vehicles": {
+          "name": "Transportlīdzekļi",
+          "description": "Automašīnas, kravas automašīnas, raķetes un mašīnas."
+        },
+        "fantasy": {
+          "name": "Fantāzija",
+          "description": "Pilis, vienradži, pūķi un stāstu uzdevumi."
+        },
+        "seasonal": {
+          "name": "Sezonāls",
+          "description": "Brīvdienu un klases kalendāra aktivitātes."
+        },
+        "ocean": {
+          "name": "Okeāns",
+          "description": "Jūras dzīvnieki un mierīgas krāsojamās lapas."
+        },
+        "playgrounds": {
+          "name": "Rotaļu laukumi",
+          "description": "Šūpoles, slidkalniņi un jautrība brīvā dabā mazajiem piedzīvojumu meklētājiem."
+        },
+        "garden": {
+          "name": "Dārzs",
+          "description": "Cimdi, ķelles un instrumenti mazajiem dārza palīgiem."
+        },
+        "usa250": {
+          "name": "Amerika 250 gadi",
+          "description": "Nosvini Amerikas 250. dzimšanas dienu ar patriotiskām punktu salikšanas mīklām, kas godina Amerikas vēsturi."
+        },
+        "uae": {
+          "name": "AAE",
+          "description": "Iepazīsti Apvienotos Arābu Emirātus! Ikoniskas apskates vietas, piemēram, Burj Al Arab, gatavas savienošanai un krāsošanās."
+        },
+        "space": {
+          "name": "Kosmoss",
+          "description": "Planētas, astronauti un raķešu piedzīvojumi."
+        },
+        "worksheets": {
+          "name": "Darba lapas",
+          "description": "Skolotājiem gatavas skaitļu secības lapas."
+        },
+        "bigDotBooks": {
+          "name": "Big Dot grāmatas",
+          "description": "Garas formas mīklas koncentrētiem vecākiem skolēniem."
+        },
+        "cute": {
+          "name": "Mīlīgs",
+          "description": "Apburoši kucēni, mazas mašīnītes un {count} burvīgas bezmaksas punktu salikšanas puzles, kas patiks jūsu bērniem."
+        },
+        "circus": {
+          "name": "Cirkus",
+          "description": "Gredzenmeistari, lielie teltis un izrādes jautrība jaunajiem mācībniekiem."
+        }
+      }
+    },
+    "puzzleSection": {
+      "eyebrow": "Bezmaksas izdrukājami paraugi — bez reģistrēšanās",
+      "heading": "Populāras punktu savienošanas lapas, ko var drukāt tūlīt",
+      "weeklyPack": "Skatīt nedēļas iepakojumu →",
+      "downloadLink": "Lejupielādēt bezmaksas drukājamu",
+      "new": "Jauns",
+      "imageAlt": "{name} bezmaksas punktveida drukājama darba lapa {age} vecumam",
+      "categories": {
+        "Dinosaurs": "Dinozauri",
+        "Ocean": "Okeāns",
+        "Playgrounds": "Rotaļu laukumi",
+        "Garden": "Dārzs",
+        "Cute": "Mīlīgs",
+        "USA 250 Years": "Amerika 250 gadi",
+        "UAE": "AAE"
+      },
+      "items": {
+        "trex-61-dot-to-dot-puzzle": {
+          "name": "T-Rex 61 punkta izaicinājums"
+        },
+        "brontosaurus-dot-to-dot-puzzle": {
+          "name": "Brontozaurs"
+        },
+        "mermaid-dot-to-dot-puzzle": {
+          "name": "Nāra"
+        },
+        "merman-dot-to-dot-puzzle": {
+          "name": "Nāra"
+        },
+        "seahorse-dot-to-dot-puzzle": {
+          "name": "Jūras zirdziņš"
+        },
+        "whale-dot-to-dot-puzzle": {
+          "name": "Valis"
+        },
+        "swing-playgrounds-dot-to-dot-puzzle": {
+          "name": "Šūpoles rotaļu laukums"
+        },
+        "slide-playgrounds-dot-to-dot-puzzle": {
+          "name": "Slaidu rotaļu laukums"
+        },
+        "seesaw-playground-dot-to-dot-puzzle": {
+          "name": "Šūpoļu rotaļu laukums"
+        },
+        "roller-coaster-playground-dot-to-dot-puzzle": {
+          "name": "Amerikāņu kalniņu rotaļu laukums"
+        },
+        "wheelbarrow-playground-dot-to-dot-puzzle": {
+          "name": "Ķerru rotaļu laukums"
+        },
+        "garden-gloves-dot-to-dot-puzzle": {
+          "name": "Dārza cimdi"
+        },
+        "garden-trowel-dot-to-dot-puzzle": {
+          "name": "Dārza lāpstiņa"
+        },
+        "gas-balloon-usa-250-dot-to-dot-puzzle": {
+          "name": "Gāzes balons America 250"
+        },
+        "america-250-birthday-fireworks-dot-to-dot-puzzle": {
+          "name": "Amerikas 250. dzimšanas dienas uguņošana"
+        },
+        "america-250-anniversary-liberty-bell-wings-1776-dot-to-dot-puzzle": {
+          "name": "America 250 Liberty Bell spārni"
+        },
+        "usa-250-astronaut-dot-to-dot-puzzle": {
+          "name": "Amerika 250 astronauts"
+        },
+        "usa-250-anniversary-sports-kids-podium-dot-to-dot-puzzle": {
+          "name": "Amerikas 250. gadadienas sporta bērnu tribīne"
+        },
+        "usa-250-anniversary-airplane-banner-dot-to-dot-puzzle": {
+          "name": "Amerikas 250. gadadienas lidmašīnas reklāmkarogs"
+        },
+        "usa-250-space-shuttle-dot-to-dot-puzzle": {
+          "name": "Kosmosa kuģis America 250"
+        },
+        "usa-250-birthday-balloons-stars-dot-to-dot-puzzle": {
+          "name": "Amerika 250. dzimšanas dienas baloni un zvaigznes"
+        },
+        "usa-250-birthday-cake-dot-to-dot-puzzle": {
+          "name": "Amerika 250 dzimšanas dienas torte"
+        },
+        "america-250-anniversary-eagle-banner-dot-to-dot-puzzle": {
+          "name": "Amerika 250 Ērgļa Karogs"
+        },
+        "burj-al-arab-dot-to-dot-puzzle": {
+          "name": "Burž Al Arab"
+        },
+        "dallah-coffee-pot-dot-to-dot-puzzle": {
+          "name": "Dallah kafijas kanna"
+        }
+      }
+    },
+    "benefits": {
+      "eyebrow": "Atbalsta pirmsskolas pedagogi",
+      "heading": "Kāpēc punktu veidošanas darba lapas ir lieliskas bērna attīstībai",
+      "description": "Izdrukājamie materiāli ar \"Savieno punktus\" ir vairāk nekā tikai izklaide — tie ir uz pētījumiem balstīts rīks, ko pirmsskolas un bērnudārza skolotāji izmanto, lai attīstītu agrīnās mācīšanās pamatprasmes.",
+      "fineMotorTitle": "Attīsta smalko motoriku",
+      "fineMotorText": "Punktu līniju zīmēšana attīsta zīmuļa satvērienu, roku un acu koordināciju un muskuļu kontroli, kas bērniem nepieciešama rokrakstam.",
+      "numberTitle": "Pastiprina skaitļu atpazīšanu",
+      "numberText": "Sekojot punktiem 1 → 2 → 3 secībā, rotaļājoties dabiski tiek mācīta skaitīšanas secība, skaitļu atpazīšana un agrīnie matemātikas jēdzieni.",
+      "focusTitle": "Uzlabo fokusu un koncentrēšanās spējas",
+      "focusText": "Punktu savienošanas mīklas atrisināšana prasa ilgstošu uzmanību — mierīgs, bez ekrāna veids, kā praktizēt koncentrēšanos no pirmsskolas līdz 3. klasei.",
+      "confidenceTitle": "Tūlītēja atlīdzība un pārliecība",
+      "confidenceText": "Kad parādās slēptais attēls, bērni izjūt tūlītēju sasnieguma sajūtu. Šī mazā uzvara veido mīlestību pret mācīšanos un izaugsmes domāšanas veidu."
+    },
+    "howTo": {
+      "eyebrow": "Gatavs mazāk nekā 60 sekundēs",
+      "heading": "Kā lejupielādēt un izdrukāt bezmaksas punktu veidošanas darblapas",
+      "step1Title": "Izvēlies savu mīklu",
+      "step1Text": "Izvēlieties tēmu (dzīvnieki, dinozauri, transportlīdzekļi, svētki) un punktu diapazonu, kas atbilst jūsu bērna vecumam un prasmju līmenim.",
+      "step2Title": "Lejupielādējiet bezmaksas PDF failu",
+      "step2Text": "Noklikšķiniet uz \"Lejupielādēt bezmaksas drukājamo failu\" — nav nepieciešams konts, e-pasts vai maksas saturs. Jūsu pārlūkprogramma lejupielādē PDF failu acumirklī.",
+      "step3Title": "Izdrukājiet un izbaudiet",
+      "step3Text": "Drukājiet uz standarta ASV vēstules (8,5\" × 11\") papīra. Melnbalts izskatās lieliski. Iedodiet to savam bērnam un vērojiet, kā viņš savieno punktus!"
+    },
+    "trust": {
+      "eyebrow": "Kāpēc vecāki un skolotāji izvēlas mūs",
+      "heading": "Bezmaksas, drošs un smieklīgi viegli lietojams.",
+      "noAccountTitle": "Konts nav nepieciešams",
+      "noAccountText": "Katrs drukājamais dokuments tiek lejupielādēts nekavējoties — nav jāreģistrējas, nav e-pasta adreses vai maksas sienas. Vienkārši noklikšķiniet un izdrukājiet.",
+      "safeTitle": "Drošs klasē",
+      "safeText": "Tīras, bez reklāmām veidotas mīklu lapas, kas paredzētas skolu printeriem. Piemērotas rīta darbam, mājasdarbiem vai klusumam laikam.",
+      "fastTitle": "Ātrs pēc konstrukcijas",
+      "fastText": "Statiskas lapas, optimizēti attēli un lokālie fonti nozīmē, ka mīklas ātri ielādējas jebkurā ierīcē — tālrunī, planšetdatorā vai klēpjdatorā."
+    },
+    "faq": {
+      "eyebrow": "Bieži uzdotie jautājumi",
+      "heading": "Bieži uzdotie jautājumi",
+      "q1": "Vai visi šajā vietnē pieejamie punktveida drukājamie materiāli ir pilnīgi bez maksas?",
+      "a1": "Jā — visas DotToDotFreePrintables.com darblapas ar punktu savienošanu ir 100% bez maksas lejupielādējamas un izdrukājamas. Nav nepieciešams konts, abonements vai kredītkarte.",
+      "q2": "Kādam vecumam ir piemērotas punktu veidošanas darba lapas?",
+      "a2": "Mūsu drukājamie materiāli ir paredzēti vecumam no 2 līdz 12 gadiem. Vienkāršas darba lapas (10–20 punkti) ir piemērotas mazuļiem un pirmsskolas vecuma bērniem, vidēja izmēra lapas (20–50 punkti) ir lieliski piemērotas bērnudārzam un 1. klasei, savukārt grūtāk lietojamas lapas (50–200+ punkti) ir piemērotas 2.–6. klases skolēniem.",
+      "q3": "Kādā formātā ir drukājamie \"Savieno punktus\" faili?",
+      "a3": "Visas darba lapas tiek lejupielādētas kā drukāšanai gatavi PDF faili standarta ASV vēstules (8,5 collu × 11 collu) papīra izmērā. Atveriet tās jebkurā pārlūkprogrammā vai PDF skatītājā un drukājiet — nav nepieciešama īpaša programmatūra.",
+      "q4": "Vai jums ir punktu veidošanas darba lapas pirmsskolas vecuma bērniem un bērnudārza skolēniem?",
+      "a4": "Pilnīgi noteikti. Mūsu vienkāršākās darba lapas sākas ar 1–10 punktiem (ideāli piemērotas 2–4 gadu vecumam) un ietver alfabēta un ciparu atpazīšanas tēmas, kas paredzētas pirmsskolas un bērnudārza klasēm.",
+      "q5": "Vai skolotāji var izmantot šīs punktu savienošanas darba lapas stundās?",
+      "a5": "Jā! Mūsu drukājamie materiāli ir bez maksas personīgai lietošanai un lietošanai klasē. Tie ir iecienīti rīta mācībām, priekšlaicīgas mācību pabeigšanas aktivitātēm, aizvietošanas stundu plāniem, smalko motoriku centriem un mājasdarbu komplektiem.",
+      "q6": "Vai punktu salikšanas puzles palīdz attīstīt smalko motoriku?",
+      "a6": "Jā — līniju zīmēšana starp punktiem veicina zīmuļa satvēriena spēku un roku-acu koordināciju, kas atbalsta rokraksta gatavību. Daudzi ergoterapeiti un bērnudārza skolotāji šī iemesla dēļ iesaka punktu savienošanas aktivitātes.",
+      "q7": "Vai jums ir tematiskas punktveida izdrukājamas lapas, piemēram, dzīvnieki vai dinozauri?",
+      "a7": "Mums ir 11 kategorijas, tostarp dzīvnieki, dinozauri, transportlīdzekļi, okeāna radības, rotaļu laukumi, Amerika 250 gadi, kosmoss, fantāzija, sezonālas/svētku tēmas, skolotāju darba lapu komplekti un lielo punktu grāmatas. Jauni dizaini tiek pievienoti katru nedēļu.",
+      "q8": "Vai es varu izdrukāt šīs mīklas melnbaltā krāsā?",
+      "a8": "Jā — visas mūsu punktu savienošanas darba lapas ir paredzētas melnbaltai drukāšanai, lai ietaupītu tinti. Tās izskatās lieliski uz jebkura mājas vai klases printera."
+    },
+    "newsletter": {
+      "eyebrow": "Izdrukājama sākuma komplekta versija — pilnīgi bez maksas",
+      "heading": "Saņemiet 20 bezmaksas punktveida drukājamus materiālus savā iesūtnē.",
+      "description": "Vecākiem un skolotājiem draudzīga kolekcija, kurā aplūkoti dzīvnieki, transportlīdzekļi, dinozauri un sezonālas tēmas — visi materiāli ir standarta ASV vēstuļu papīram piemēroti un optimizēti melnbaltai drukāšanai."
+    },
+    "blog": {
+      "eyebrow": "Idejas pieaugušajiem",
+      "heading": "Mācību padomi mājām un klasei",
+      "viewAll": "Skatīt visus rakstus",
+      "read": "Lasīt"
+    },
+    "feedback": {
+      "eyebrow": "Mēs labprāt uzklausītu jūsu viedokli",
+      "heading": "Sūtīt atsauksmes",
+      "description": "Vai jums ir mīklas ideja, pamanījāt bojātu saiti vai vienkārši vēlaties sasveicināties? Uzrakstiet mums ziņu zemāk."
+    },
+    "footer": {
+      "description": "Bezmaksas punktu savienošanas puzles un punktu savienošanas darba lapas bērniem, vecākiem un skolotājiem. Visas puzles var lejupielādēt, izdrukāt un kopīgot bez maksas.",
+      "kids": "Bērni",
+      "parents": "Vecāki",
+      "teachers": "Skolotāji",
+      "blog": "Blogs",
+      "faq": "Bieži uzdotie jautājumi",
+      "feedback": "Atsauksmes",
+      "about": "Par mums",
+      "contact": "Kontaktinformācija",
+      "privacy": "Privātums",
+      "terms": "Noteikumi",
+      "sitemap": "Vietnes karte",
+      "copyright": "© {year} DotToDotFreePrintables.com · Bezmaksas drukājamas aktivitātes bērniem"
+    },
+    "common": {
+      "home": "Sākums",
+      "new": "Jauns",
+      "comingSoon": "Drīzumā",
+      "downloadFree": "Lejupielādēt bezmaksas drukājamu",
+      "viewDownload": "Skatīt un lejupielādēt",
+      "shareTitle": "{name} Punktu savienošana izdrukājama - Bezmaksas PDF",
+      "downloadAria": "Lejupielādējiet bezmaksas {name} punktu savienošana izdrukājamu PDF",
+      "bookmarkTitle": "{name} Punktu savienošana izdrukājama – Bezmaksas PDF bērniem",
+      "showSlide": "Rādīt slaidu {number}",
+      "ageRange": "Vecums {min}–{max}",
+      "difficultyLabel": "Grūtības pakāpe {level} no 3",
+      "difficulty": {
+        "1": "Viegli",
+        "2": "Vidējs",
+        "3": "Grūti"
+      },
+      "dots": "1–{count} punkti",
+      "homeVideoEyebrow": "Video",
+      "homeVideoH2": "Vērojiet punktu mijiedarbības jautrību darbībā",
+      "skipToContent": "Izlaist uz galveno saturu",
+      "joinTeachers": "Pievienojieties {count}+ skolotājiem",
+      "breadcrumbAria": "Maizes drupačas"
+    },
+    "puzzleSearch": {
+      "placeholder": "Meklēt pēc nosaukuma vai tēmas... piem. okeāns, valis, T-Rex",
+      "searchAria": "Meklēt mīklas",
+      "clearSearch": "Notīrīt meklēšanu",
+      "toggleFilters": "Rādīt/slēpt filtrus",
+      "filters": "Filtri",
+      "filterOptions": "Filtru opcijas",
+      "topic": "Tēma",
+      "numberOfDots": "Punktu skaits",
+      "recentlyAddedOnly": "Tikai nesen pievienotie",
+      "clearAllFilters": "Notīrīt visus filtrus",
+      "clearFilters": "Notīrīt filtrus",
+      "resultsFound": "{count, plural, one {# puzle atrasta} other {# puzles atrastas}}",
+      "puzzlesAvailable": "{count, plural, zero {# mīklu pieejams} one {# mīkla pieejama} other {# mīklas pieejamas}}",
+      "noMatches": "Neviena mīkla neatbilda jūsu meklēšanas vaicājumam.",
+      "openPuzzle": "Atvērt {name}",
+      "imageAlt": "{name} drukājams no punktiem uz punktiem",
+      "viewPuzzle": "Skatīt mīklu →",
+      "dotRanges": {
+        "under35": "Mazāk par 35 punktiem",
+        "35to50": "35-50 punkti",
+        "51to70": "51-70 punkti",
+        "over70": "70+ punkti"
+      },
+      "categories": {
+        "Dinosaurs": "Dinozauri",
+        "Ocean": "Okeāns",
+        "Playgrounds": "Rotaļu laukumi",
+        "Garden": "Dārzs",
+        "Cute": "Mīlīgs",
+        "USA 250 Years": "ASV 250 gadi",
+        "UAE": "AAE"
+      }
+    },
+    "newsletterForm": {
+      "ariaLabel": "Iegūstiet bezmaksas punktveida drukājamo komplektu",
+      "emailLabel": "E-pasta adrese",
+      "submit": "Nosūtiet bezmaksas paku",
+      "honeypot": "Atstājiet šo lauku tukšu",
+      "privacy": "Nekad bez surogātpasta. Abonēšanu var atcelt jebkurā laikā.",
+      "error": "Nevar iesniegt šo veidlapu.",
+      "notConnected": "Bezmaksas pakotnes reģistrācija vēl nav savienota."
+    },
+    "feedbackForm": {
+      "ariaLabel": "Sūtīt atsauksmes",
+      "notConnected": "Šī atsauksmju veidlapa vēl nav pievienota.",
+      "typeLabel": "Kāda veida atsauksmes?",
+      "selectTopic": "Izvēlieties tēmu...",
+      "types": {
+        "general": "Vispārīgas atsauksmes",
+        "requestTheme": "Pieprasīt puzles tēmu",
+        "brokenLink": "Ziņot par bojātu saiti",
+        "improvement": "Ieteikt uzlabojumu",
+        "other": "Citi"
+      },
+      "messageLabel": "Jūsu ziņojums",
+      "messagePlaceholder": "Pastāstiet mums savu viedokli...",
+      "emailLabel": "E-pasts",
+      "emailOptional": "(pēc izvēles — tikai tad, ja vēlaties atbildi)",
+      "submit": "Sūtīt atsauksmes",
+      "success": "Paldies. Jūsu atsauksme ir nosūtīta.",
+      "disclaimer": "Lūdzu, nenorādiet sensitīvu personas informāciju. E-pasts nav obligāts un tiek izmantots tikai tad, ja mums ir jāatbild.",
+      "iframeTitle": "Atsauksmju iesniegšana"
+    },
+    "hero": {
+      "badge": "100% bezmaksas · konts nav nepieciešams",
+      "h1": "Bezmaksas savieno punšus lapas bērniem – savieno punktus darba lapas",
+      "description": "Lejupielādējiet bezmaksas savieno punktus darba lapas pirmsskolas un sākumskolas bērniem – piemērotas ASV, Apvienotajai Karalistei, Kanādai un Austrālijai, ieskaitot Apvienotās Karalistes EYFS iestādes. Sākot no vienkāršām 38 punktu lapām līdz izaicinājumiem ar vairāk nekā 130 punktiem, ar dzīvnieku, dinozauru, transportlīdzekļu un svētku tēmām – gatavas drukāšanai dažās sekundēs, bez reģistrācijas.",
+      "browsePuzzles": "Skatīt bezmaksas mozaikīkus",
+      "starterPack": "Saņemt 20 mozaikīku sākuma pakotni",
+      "stat1Value": "Rūpīgi pārbaudīts",
+      "stat1Label": "bezmaksas drukājamo mozaikīku",
+      "stat2Value": "No 2 līdz 12 gadiem",
+      "stat2Label": "visi grūtības līmeņi",
+      "stat3Value": "100%",
+      "stat3Label": "bezmaksas uz visiem laikiem"
+    },
+    "config": {
+      "featured_puzzle_slugs": "[\"trex-61-dot-to-dot-puzzle\",\"mermaid-dot-to-dot-puzzle\",\"jellyfish-dot-to-dot-puzzle\",\"cute-puppy-dot-to-dot-puzzle\",\"slide-playgrounds-dot-to-dot-puzzle\",\"snowdrop-flower-dot-to-dot-puzzle\",\"dashing-car-playground-dot-to-dot-puzzle\",\"lotus-flower-dot-to-dot-puzzle\"]",
+      "recent_puzzle_slugs": "[\"circus-ringmaster-bear-dot-to-dot-puzzle\",\"circus-tent-dot-to-dot-puzzle\",\"space-rover-dot-to-dot-puzzle\",\"ringed-planet-dot-to-dot-puzzle\"]"
+    },
+    "purchase": {
+      "ad": {
+        "packName": "Mīklu komplekts no punkta uz punktu",
+        "pdfBook": "PDF GRĀMATA",
+        "bookTitle": "Labākais 2026. gadā",
+        "puzzleCount": "25 punktu-punktu mīklas",
+        "viewBook": "Skatīt grāmatu"
+      },
+      "shared": {
+        "specialSale": "Īpaša izpārdošana",
+        "returnToPack": "Atgriezties pie puzļu komplekta",
+        "contactUs": "Sazinieties ar mums"
+      },
+      "premium": {
+        "metaTitle": "Best of 2026 „Premium“ punktu savienošanas puzles komplekts",
+        "metaDescription": "Drukāšanai gatava kolekcija ar bērnu iemīļotākajām punktu savienošanas puzlēm, apkopota vienā ērtā PDF failā.",
+        "eyebrow": "Drukājama „Premium“ kolekcija",
+        "lede": "Kolekcijā „Best of 2026“ apkopotas mūsu iemīļotākās punktu savienošanas aktivitātes vienā viegli izdrukājamā komplektā — ideāli piemērots mierīgiem brīžiem, lietainām dienām, mājmācībai un klasei.",
+        "digitalPdf": "Digitāls PDF",
+        "printAtHome": "Izdrukāt mājās",
+        "instantAccess": "Tūlītēja piekļuve",
+        "purchaseAria": "Iegādāties „Best of 2026“ puzļu komplektu",
+        "coverAlt": "Best of 2026 - 25 punktu savienošanas puzles, grāmatas vāks",
+        "oneTime": "vienreizējs maksājums",
+        "buyButton": "Iegūt puzļu komplektu",
+        "localNote": "Vietnē „localhost“ tiek atvērta droša apmaksas demo versija, un karte nekad netiek apmaksāta.",
+        "detailsEyebrow": "Radīts vienkāršai drukāšanai un spēlēšanai",
+        "detailsText": "Lejupielādējiet vienreiz, glabājiet pa rokai un izdrukājiet vēlamās aktivitātes, kad vien tās nepieciešamas.",
+        "benefits": {
+          "onePdf": "Viens ērts, drukāšanai gatavs PDF fails",
+          "kidFriendly": "Bērniem piemērotas puzles ar dažādu grūtības pakāpi",
+          "paperSizes": "Der gan US Letter, gan A4 formāta papīram",
+          "instantAccess": "Tūlītēja piekļuve pēc veiksmīga maksājuma",
+          "classroomUse": "Izmantojama mājās vai vienā klasē"
+        },
+        "guaranteeText": "Pēc apmaksas nekavējoties parādās jūsu personīgā lejupielādes saite. Bez abonementa un bez negaidītas atjaunošanas."
+      },
+      "checkout": {
+        "consent": "Es piekrītu šī digitālā PDF faila tūlītējai piegādei un saprotu, ka pēc piekļuves sākuma pirkums ir galīgs un neatgriežams, izņemot gadījumus, kad to prasa likums, vai ja fails netiek piegādāts vai ir bojāts.",
+        "refundPolicy": "Lasīt atmaksas politiku",
+        "opening": "Tiek atvērta apmaksas lapa...",
+        "secureNote": "Droša apmaksa, ko nodrošina „Stripe“. Vienreizējs maksājums. Bez abonementa.",
+        "error": "Sākot apmaksu, radās kļūda. Lūdzu, mēģiniet vēlreiz."
+      },
+      "success": {
+        "metaTitle": "Paldies par jūsu pirkumu",
+        "eyebrow": "Maksājums apstiprināts",
+        "lede": "Jūsu maksājums bija veiksmīgs. Var paiet dažas sekundes, līdz pirkums parādīsies jūsu kontā."
+      },
+      "cancelled": {
+        "metaTitle": "Apmaksa atcelta",
+        "eyebrow": "Maksājums nav veikts",
+        "lede": "Maksājums netika veikts. Varat mēģināt vēlreiz jebkurā laikā."
+      },
+      "download": {
+        "demoTitle": "Lokālā apmaksas pārbaude bija veiksmīga.",
+        "demoText": "Īstajā veiksmīga pirkuma ekrānā šeit tiek rādīta PDF lejupielādes poga. Lokālā demo versija neatklāj privāto failu.",
+        "button": "Lejupielādēt savu puzļu komplektu",
+        "expires": "Šīs saites derīguma termiņš beidzas pēc 24 stundām. Saglabājiet lejupielādēto failu drošā vietā.",
+        "failed": "Mēs vēl nevarējām apstiprināt jūsu pirkumu. Ja jums tika izrakstīts maksājums, atsvaidziniet šo lapu pēc minūtes vai sazinieties ar mums, lai saņemtu palīdzību.",
+        "preparing": "Tiek sagatavota jūsu lejupielāde..."
+      }
+    },
+    "puzzleDetail": {
+      "agesLabel": "Vecums:",
+      "dotsLabel": "Punkti:",
+      "freeLabel": "100% bezmaksas",
+      "difficultyHeading": "Grūtības",
+      "difficultyEasy": "Viegli",
+      "difficultyMedium": "Vidēja",
+      "difficultyHard": "Grūti",
+      "funFactPrefix": "Jautrs fakts:",
+      "funFactLabel": "Jautrs fakts!",
+      "noSignUp": "Nav nepieciešama pierakstīšanās.Tiek atvērts kā PDF.Drukājiet uz US Letter (8,5 × 11 collu) vai A4 formāta papīra.Bezmaksas lietošanai mājās un klasē.",
+      "comingSoon": "Lejupielādēt bezmaksas PDF — drīzumā",
+      "youMightLike": "Jums varētu arī patikt",
+      "faqQ1": "Kādam vecumam ir paredzēta mīkla {name} no punkta līdz punktam?",
+      "faqA1": "Tas ir paredzēts {age} vecumam.Ar {dots} punktiem tas ir piemērots bērniem, kuri var droši skaitīt līdz {punktiem};jaunāki bērni to var pabeigt ar nelielu palīdzību.",
+      "faqQ2": "Kā izdrukāt {name} darblapu?",
+      "faqA2": "Noklikšķiniet uz lejupielādes pogas, lai iegūtu bezmaksas PDF failu, pēc tam izdrukājiet to uz parasta papīra (A4 vai US Letter) no jebkuras pārlūkprogrammas vai PDF lasītāja.Nav nepieciešama īpaša programmatūra.",
+      "faqQ3": "Vai {name} var izdrukāt bez maksas?",
+      "faqA3": "Jā — tas ir 100% bez maksas, nav nepieciešama reģistrācija, konts vai maksājums.Varat to izdrukāt lietošanai mājās vai klasē."
+    },
+    "downloadBadge": {
+      "downloaded": "Lejupielādēts",
+      "times": "reizes",
+      "greatChoice": "Jūs esat izdarījis lielisku izvēli!"
+    },
+    "shareButtons": {
+      "label": "Dalīties",
+      "copyLink": "Kopēt saiti",
+      "copied": "Saite nokopēta!",
+      "shareMe": "Dalies ar mani"
+    },
+    "blogPage": {
+      "eyebrow": "Mācību resursi",
+      "h1": "Idejas no punkta līdz punktam vecākiem un skolotājiem",
+      "description": "Praktiski ceļveži aktivitāšu izvēlei, agrīnas mācīšanās prasmju veidošanai un drukājamu darblapu lietošanai mājās vai klasē.",
+      "breadcrumb": "Emuārs",
+      "latestEyebrow": "Jaunākie raksti",
+      "latestH2": "Noderīgas idejas, kuras varat izmantot jau šodien",
+      "readArticle": "Izlasi rakstu",
+      "by": "Autors",
+      "backToAll": "← Atpakaļ uz visiem rakstiem",
+      "savePinterest": "Saglabāt vietnē Pinterest",
+      "relatedEyebrow": "Bezmaksas izdrukas",
+      "relatedHeading": "Tālāk izmēģiniet šīs kolekcijas no punktiem līdz punktiem"
+    },
+    "canadaPage": {
+      "category": "Kanāda"
+    },
+    "circusPage": {
+      "category": "Cirks"
+    },
+    "cutePage": {
+      "category": "Jauki"
+    },
+    "dinosaursPage": {
+      "category": "Dinozauri"
+    },
+    "flowersPage": {
+      "category": "Ziedi"
+    },
+    "gardenPage": {
+      "category": "Dārzs"
+    },
+    "oceanPage": {
+      "category": "Okeāns"
+    },
+    "playgroundsPage": {
+      "category": "Rotaļu laukumi"
+    },
+    "spacePage": {
+      "category": "Kosmoss"
+    },
+    "uaePage": {
+      "category": "Apvienotie Arābu Emirāti"
+    },
+    "usa250Page": {
+      "category": "ASV 250. gadadiena"
+    }
+  }
+}

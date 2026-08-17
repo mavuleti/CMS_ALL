@@ -1,0 +1,602 @@
+{
+  "slug": "home",
+  "header": {
+    "title": "Pulsuz nöqtələri birləşdir uşaqlar üçün | PDF çap materialları",
+    "title_template": "%s | DotToDotFreePrintables.com",
+    "meta_description": "Çap edin, nöqtələri birləşdirin və heyrətamiz şəkilləri canlandırın. Pulsuz və əyləncəyə hazırdır",
+    "canonical": "/{locale}/",
+    "og": {
+      "title": "Nöqtələri birləşdir – uşaqlar və böyüklər üçün pulsuz tapmacalar",
+      "description": "Çap edin, nöqtələri birləşdirin və heyrətamiz şəkilləri canlandırın. Pulsuz və əyləncəyə hazırdır!",
+      "url": "/{locale}/",
+      "site_name": "DotToDotFreePrintables.com",
+      "type": "website",
+      "image": "/images/trex-61-puzzle.webp (800x679)"
+    },
+    "twitter": {
+      "card": "summary_large_image"
+    },
+    "manifest": "/manifest.webmanifest",
+    "json_ld": {
+      "website": {
+        "type": "WebSite",
+        "name": "DotToDotFreePrintables.com (SITE_NAME)"
+      },
+      "organization": {
+        "type": "Organization",
+        "logo": "/icon-512.png (absoluteUrl)",
+        "same_as": "[\"https://www.pinterest.com/hellokidsbookworld/\", \"https://www.facebook.com/dottodotfreeprintables\", \"https://www.youtube.com/@hellokidsbookworld\"]"
+      },
+      "collection_page": {
+        "type": "CollectionPage",
+        "name": "Mükəmməl nöqtədən-nöqtəyə çap materiallarını tapın"
+      },
+      "item_list": {
+        "type": "ItemList (featured puzzles)"
+      }
+    }
+  },
+  "UNUSED:seo/metadata": {
+    "json:homepage": {
+      "title": "Uşaqlar üçün pulsuz nöqtələri birləşdir vərəqləri | PDF iş vərəqləri",
+      "ogTitle": "Uşaqlar üçün pulsuz nöqtələri birləşdir iş vərəqləri",
+      "description": "Uşaqlar üçün pulsuz nöqtələri birləşdir vərəqlərini yükləyin: heyvanlar, dinozavrlar, nəqliyyat vasitələri, bayram mövzuları və daha çoxu. Məktəbəqədər və ibtidai siniflər üçün çapa hazır PDF. Qeydiyyatsız."
+    }
+  },
+  "body": {
+    "nav": {
+      "kids": "Uşaqlar - Bulmacalar",
+      "teachers": "Müəllimlər",
+      "parents": "Valideynlər",
+      "contact": "Bizimlə əlaqə saxlayın",
+      "blog": "Bloq",
+      "search": "Axtar",
+      "freePack": "Pulsuz paket",
+      "scanMe": "Məni skan edin"
+    },
+    "homepageUi": {
+      "title": "Mükəmməl nöqtədən-nöqtəyə çap materiallarını tapın",
+      "description": "Çap edin, nöqtələri birləşdirin və heyrətamiz şəkilləri canlandırın. Pulsuz və əyləncəyə hazırdır!",
+      "searchPlaceholder": "Okean, dinozavr və ya güllər axtarın",
+      "filterPuzzles": "Tapmacaları filtrləyin",
+      "age": "Yaş",
+      "dots": "nöqtələr",
+      "featuredPuzzles": "Seçilmiş çap olunan tapmacalar",
+      "savePuzzle": "{name} saxla",
+      "removeSavedPuzzle": "{name} saxlanılanlardan sil",
+      "downloads": "yükləmə",
+      "bookTitle": "2026-nın ən yaxşıları · {count}",
+      "bookDescription": "Sevimli nöqtədən-nöqtəyə tapmacalarımız bir çap olunan PDF kitabda.",
+      "searchUnavailable": "Axtarış müvəqqəti əlçatan deyil. Zəhmət olmasa yenidən cəhd edin.",
+      "popularEyebrow": "Bu həftənin populyarları",
+      "mostDownloaded": "Ən çox yüklənmiş bulmacalar",
+      "downloadCountAria": "{count} və ya daha çox yükləmə",
+      "freshPrintables": "Yeni çap edilə bilənlər",
+      "recentlyAdded": "Son əlavə olunanlar",
+      "browseCategories": "Bulmaca kateqoriyalarına bax",
+      "openCategories": "Kateqoriyalar menyusunu aç",
+      "closeCategories": "Kateqoriyalar menyusunu bağla",
+      "browseByTheme": "Mövzulara görə bax",
+      "quickLinks": "Tez keçidlər",
+      "bundlePacks": "Paketlər",
+      "parentsTeachers": "Valideynlər və Müəllimlər üçün",
+      "more": "Daha çox kateqoriya",
+      "kids": "Uşaqlar",
+      "categoryNames": {
+        "cute": "Şirin Bulmacalar",
+        "flowers": "Çiçəklər"
+      }
+    },
+    "audience": {
+      "kidsTitle": "Uşaqlar üçün",
+      "kidsText": "Aydın nömrəli nöqtələrlə dost heyvan, dinozavr və nəqliyyat vasitələri mövzuları. Əsl inam yaradan asan qələbələr.",
+      "parentsTitle": "Valideynlər üçün",
+      "parentsText": "Ev, səyahət və restoranlar üçün ekransız sakit vaxt fəaliyyətləri. Bir dəqiqədən az müddətdə istənilən cihazdan çap edin.",
+      "teachersTitle": "Müəllimlər üçün",
+      "teachersText": "Səhər işi, erkən bitirənlər, subs və sinif stansiyaları üçün aşağı hazırlıqlı birləşmələr - hazırlıq tələb olunmur."
+    },
+    "categories": {
+      "eyebrow": "Mövzuya və bacarıq səviyyəsinə görə təşkil edilir",
+      "heading": "Kateqoriyaya görə nöqtə-nöqtə bulmacalarına göz atın",
+      "description": "Körpələr üçün sadə 10 nöqtəli formalardan böyük uşaqlar üçün 200 nöqtəli çağırışlara qədər — kateqoriyalara görə sıralanır ki, bir neçə saniyə ərzində lazımi pulsuz çapı tapasınız.",
+      "puzzles": "{count, plural, one {# tapmaca} other {# tapmaca}}",
+      "comingSoon": "Tezliklə",
+      "badges": {
+        "dinosaurs": "İndi mövcuddur!",
+        "ocean": "İndi mövcuddur!",
+        "playgrounds": "İndi mövcuddur!",
+        "garden": "İndi mövcuddur!",
+        "usa250": "Yeni!",
+        "uae": "İndi mövcuddur!",
+        "cute": "Yeni!",
+        "circus": "Yeni!"
+      },
+      "items": {
+        "dinosaurs": {
+          "name": "Dinozavrlar",
+          "description": "Tarixdən əvvəlki əyləncəyə girin! T-Rex, Triceratops, Velociraptor və {count} pulsuz nöqtə-nöqtə bulmacaları uşaqlarınızın sevəcəyi."
+        },
+        "animals": {
+          "name": "Heyvanlar",
+          "description": "Erkən nömrə təcrübəsi üçün dost canlılar."
+        },
+        "vehicles": {
+          "name": "Nəqliyyat vasitələri",
+          "description": "Avtomobillər, yük maşınları, raketlər və maşınlar."
+        },
+        "fantasy": {
+          "name": "Fantaziya",
+          "description": "Qalalar, unicorns, əjdahalar və hekayə göstərişləri."
+        },
+        "seasonal": {
+          "name": "Mövsümi",
+          "description": "Tətil və sinif təqvim fəaliyyətləri."
+        },
+        "ocean": {
+          "name": "Okean",
+          "description": "Dəniz heyvanları və sakit rəngləmə səhifələri."
+        },
+        "playgrounds": {
+          "name": "Oyun meydançaları",
+          "description": "Kiçik macəraçılar üçün yelləncəklər, slaydlar və açıq havada əyləncə."
+        },
+        "garden": {
+          "name": "Bağ",
+          "description": "Kiçik bağ köməkçiləri üçün əlcəklər, malalar və alətlər."
+        },
+        "usa250": {
+          "name": "Amerika 250 il",
+          "description": "Amerikanın 250 illik yubileyini Amerika tarixinə həsr olunmuş vətənpərvər nöqtədən nöqtəyə bulmacalarla qeyd edin."
+        },
+        "uae": {
+          "name": "BƏƏ",
+          "description": "Birləşmiş Ərəb Əmirliklərini kəşf edin! Birləşməyə və rənglənməyə hazır olan Burj Al Arab kimi ikonik görməli yerlər."
+        },
+        "space": {
+          "name": "Kosmos",
+          "description": "Planetlər, astronavtlar və raket sərgüzəştləri."
+        },
+        "worksheets": {
+          "name": "İş vərəqləri",
+          "description": "Müəllim üçün hazır nömrə ardıcıllığı vərəqləri."
+        },
+        "bigDotBooks": {
+          "name": "Böyük nöqtə kitablar",
+          "description": "Fokuslanmış yaşlı öyrənənlər üçün uzun formalı bulmacalar."
+        },
+        "cute": {
+          "name": "Şirin",
+          "description": "Uşaqlarınızın sevəcəyi sevimli bala itlər, kiçik maşınlar və cazibədar {count} pulsuz nöqtə-nöqtə tapmacaları."
+        },
+        "circus": {
+          "name": "Sirkin",
+          "description": "Rinq ustaları, böyük çadırlar və gənc öyrənənlər üçün şou vaxtı əyləncəsi."
+        }
+      }
+    },
+    "puzzleSection": {
+      "eyebrow": "Pulsuz çap edilə bilən nümunələr - qeydiyyatdan keçməyin",
+      "heading": "İndi çap etmək üçün populyar birləşdirən vərəqlər",
+      "weeklyPack": "Həftəlik paketə baxın →",
+      "downloadLink": "Çap üçün pulsuz yükləyin",
+      "new": "Yeni",
+      "imageAlt": "{name} {age} üçün pulsuz nöqtədən-nöqtəyə çap edilə bilən iş vərəqi",
+      "categories": {
+        "Dinosaurs": "Dinozavrlar",
+        "Ocean": "Okean",
+        "Playgrounds": "Oyun meydançaları",
+        "Garden": "Bağ",
+        "Cute": "Şirin",
+        "USA 250 Years": "Amerika 250 il",
+        "UAE": "BƏƏ"
+      },
+      "items": {
+        "trex-61-dot-to-dot-puzzle": {
+          "name": "T-Rex 61 Nöqtəli Çağırış"
+        },
+        "brontosaurus-dot-to-dot-puzzle": {
+          "name": "Brontozavr"
+        },
+        "mermaid-dot-to-dot-puzzle": {
+          "name": "su pərisi"
+        },
+        "merman-dot-to-dot-puzzle": {
+          "name": "Dəniz adamı"
+        },
+        "seahorse-dot-to-dot-puzzle": {
+          "name": "Dəniz atı"
+        },
+        "whale-dot-to-dot-puzzle": {
+          "name": "balina"
+        },
+        "swing-playgrounds-dot-to-dot-puzzle": {
+          "name": "Yelləncək Oyun Meydançası"
+        },
+        "slide-playgrounds-dot-to-dot-puzzle": {
+          "name": "Slayd Oyun Meydançası"
+        },
+        "seesaw-playground-dot-to-dot-puzzle": {
+          "name": "Tahterevalli oyun meydançası"
+        },
+        "roller-coaster-playground-dot-to-dot-puzzle": {
+          "name": "Roller Coaster Oyun Meydançası"
+        },
+        "wheelbarrow-playground-dot-to-dot-puzzle": {
+          "name": "Əl arabası oyun meydançası"
+        },
+        "garden-gloves-dot-to-dot-puzzle": {
+          "name": "Bağ əlcəkləri"
+        },
+        "garden-trowel-dot-to-dot-puzzle": {
+          "name": "Bağ malası"
+        },
+        "gas-balloon-usa-250-dot-to-dot-puzzle": {
+          "name": "Qaz Balonu Amerika 250"
+        },
+        "america-250-birthday-fireworks-dot-to-dot-puzzle": {
+          "name": "Amerika 250 Ad günü atəşfəşanlığı"
+        },
+        "america-250-anniversary-liberty-bell-wings-1776-dot-to-dot-puzzle": {
+          "name": "Amerika 250 Liberty Bell Wings"
+        },
+        "usa-250-astronaut-dot-to-dot-puzzle": {
+          "name": "Amerika 250 Astronavt"
+        },
+        "usa-250-anniversary-sports-kids-podium-dot-to-dot-puzzle": {
+          "name": "Amerika 250 Yubiley İdman Uşaq Podiumu"
+        },
+        "usa-250-anniversary-airplane-banner-dot-to-dot-puzzle": {
+          "name": "Amerikanın 250 Yubiley Təyyarə Banneri"
+        },
+        "usa-250-space-shuttle-dot-to-dot-puzzle": {
+          "name": "Amerika 250 kosmik gəmisi"
+        },
+        "usa-250-birthday-balloons-stars-dot-to-dot-puzzle": {
+          "name": "Amerika 250 Ad günü Balonları və Ulduzları"
+        },
+        "usa-250-birthday-cake-dot-to-dot-puzzle": {
+          "name": "Amerika 250 ad günü tortu"
+        },
+        "america-250-anniversary-eagle-banner-dot-to-dot-puzzle": {
+          "name": "Amerika 250 Qartal Bayrağı"
+        },
+        "burj-al-arab-dot-to-dot-puzzle": {
+          "name": "Burc əl-Ərəb"
+        },
+        "dallah-coffee-pot-dot-to-dot-puzzle": {
+          "name": "Dəllə qəhvədanı"
+        }
+      }
+    },
+    "benefits": {
+      "eyebrow": "Erkən uşaqlıq müəllimləri tərəfindən dəstəklənir",
+      "heading": "Nə üçün nöqtədən nöqtəyə iş vərəqləri uşaq inkişafı üçün əladır",
+      "description": "Nöqtələri birləşdirən çap materialları sadəcə əyləncə deyil – onlar məktəbəqədər və uşaq bağçası müəllimləri tərəfindən əsas erkən öyrənmə bacarıqlarını formalaşdırmaq üçün istifadə olunan tədqiqata əsaslanan vasitədir.",
+      "fineMotorTitle": "İncə motor bacarıqlarını inkişaf etdirir",
+      "fineMotorText": "Nöqtə-nöqtə xətlərinin çəkilməsi qələm tutuşunu, əl-göz koordinasiyasını və uşaqların əl yazısı üçün ehtiyac duyduğu əzələ nəzarətini inkişaf etdirir.",
+      "numberTitle": "Nömrə tanınmasını gücləndirir",
+      "numberText": "Ardıcıllıqla aşağıdakı 1 → 2 → 3 nöqtələri oyun vasitəsilə təbii olaraq sayma qaydasını, ədədin tanınmasını və erkən riyaziyyat anlayışlarını öyrədir.",
+      "focusTitle": "Diqqəti və konsentrasiyanı yaxşılaşdırır",
+      "focusText": "Nöqtələri birləşdirən tapmacanı tamamlamaq davamlı diqqət tələb edir – məktəbəqədər təhsil müəssisəsindən 3-cü sinifə qədər diqqəti cəmləşdirməyin sakit, ekransız bir yolu.",
+      "confidenceTitle": "Ani mükafat və güvən",
+      "confidenceText": "Gizli şəkil görünəndə uşaqlar dərhal nailiyyət hissi hiss edirlər. Bu kiçik qələbə öyrənmə sevgisini və inkişaf zehniyyətini yaradır."
+    },
+    "howTo": {
+      "eyebrow": "60 saniyədən az müddətdə hazırdır",
+      "heading": "Pulsuz nöqtə-nöqtə iş vərəqlərinizi necə endirmək və çap etmək olar",
+      "step1Title": "Tapmacanızı seçin",
+      "step1Text": "Uşağınızın yaşına və bacarıq səviyyəsinə uyğun bir mövzu (heyvanlar, dinozavrlar, nəqliyyat vasitələri, tətil) və nöqtə diapazonu seçin.",
+      "step2Title": "Pulsuz PDF yükləyin",
+      "step2Text": "\"Pulsuz çap oluna bilən yüklə\" üzərinə klikləyin — hesab yoxdur, e-poçt yoxdur, ödəniş divarı yoxdur. Brauzeriniz PDF faylını dərhal yükləyir.",
+      "step3Title": "Çap edin və həzz alın",
+      "step3Text": "Standart ABŞ Letter (8,5\" × 11\") kağızda çap edin. Qara və ağ mükəmməl işləyir. Onu uşağınıza verin və onların nöqtələri birləşdirməsinə baxın!"
+    },
+    "trust": {
+      "eyebrow": "Valideynlər və müəllimlər niyə bizi seçirlər",
+      "heading": "Pulsuz, təhlükəsiz və istifadəsi gülünc dərəcədə asandır.",
+      "noAccountTitle": "Hesab tələb olunmur",
+      "noAccountText": "Hər nöqtədən-nöqtəyə çap edilə bilən endirmələr dərhal həyata keçirilir — qeydiyyatdan keçmə, e-poçt, ödəniş paneli yoxdur. Sadəcə vurun və çap edin.",
+      "safeTitle": "Sinif seyfi",
+      "safeText": "Məktəb printerləri üçün nəzərdə tutulmuş təmiz, reklamsız tapmaca səhifələri. Səhər işi, ev tapşırığı və ya sakit vaxt üçün işləyir.",
+      "fastTitle": "Dizaynla sürətli",
+      "fastText": "Statik səhifələr, optimallaşdırılmış şəkillər və yerli şriftlər tapmacaların istənilən cihazda - telefonda, planşetdə və ya noutbukda sürətli yüklənməsi deməkdir."
+    },
+    "faq": {
+      "eyebrow": "Ümumi suallar",
+      "heading": "Tez-tez verilən suallar",
+      "q1": "Bu saytdakı bütün nöqtədən-nöqtəyə çap edilə bilənlər tamamilə pulsuzdurmu?",
+      "a1": "Bəli — DotToDotFreePrintables.com saytındakı hər bir əlaqə nöqtəsi iş vərəqi 100% yükləmək və çap etmək üçün pulsuzdur. Heç bir hesab, abunə və ya kredit kartı tələb olunmur.",
+      "q2": "Nöqtədən-nöqtəyə iş vərəqləri hansı yaşa uyğundur?",
+      "a2": "Çap materiallarımız 2-12 yaşları əhatə edir. Asan iş vərəqləri (10-20 nöqtə) körpələr və məktəbəqədər uşaqlar üçün uyğundur, orta vərəqlər (20-50 nöqtə) uşaq bağçası və 1-ci siniflər üçün əladır və daha sərt vərəqlər (50-200+ nöqtə) 2-ci sinifdən 6-cı sinifə qədər olan uşaqlar üçün uyğundur.",
+      "q3": "Nöqtələri birləşdirən çap sənədləri hansı formatdır?",
+      "a3": "Bütün iş vərəqləri standart US Letter (8,5\" × 11\") kağız üçün ölçüdə çapa hazır PDF faylları kimi endirilir. İstənilən brauzerdə və ya PDF görüntüləyicisində açın və çap edin - xüsusi proqrama ehtiyac yoxdur.",
+      "q4": "Məktəbəqədər və uşaq bağçası üçün nöqtə-nöqtə iş vərəqləriniz varmı?",
+      "a4": "Tamamilə. Bizim ən asan iş vərəqlərimiz 1-10 nöqtə ilə başlayır (2-4 yaş üçün mükəmməldir) və Pre-K və uşaq bağçası sinifləri üçün nəzərdə tutulmuş əlifba və rəqəmlərin tanınması mövzularını ehtiva edir.",
+      "q5": "Müəllimlər bu nöqtələri birləşdirən iş vərəqlərindən sinifdə istifadə edə bilərlərmi?",
+      "a5": "Bəli! Çap materiallarımız şəxsi və sinifdə istifadə üçün pulsuzdur. Onlar səhər işi, erkən bitirmə fəaliyyətləri, əvəzedici dərs planları, incə motor mərkəzləri və ev tapşırığı paketləri üçün məşhurdur.",
+      "q6": "Nöqtədən nöqtəyə bulmacalar incə motor bacarıqlarına kömək edirmi?",
+      "a6": "Bəli — nöqtələr arasında xətlərin çəkilməsi əl yazısına hazırlığı dəstəkləyən qələm tutma gücünü və əl-göz koordinasiyasını inkişaf etdirir. Bir çox peşə terapevtləri və uşaq bağçası müəllimləri bu səbəbdən nöqtələri birləşdirən fəaliyyətləri tövsiyə edirlər.",
+      "q7": "Heyvanlar və ya dinozavrlar kimi temalı nöqtədən-nöqtəyə çap edilə bilən əsərləriniz varmı?",
+      "a7": "Heyvanlar, dinozavrlar, nəqliyyat vasitələri, okean canlıları, oyun meydançaları, Amerika 250 İl, kosmos, fantaziya, mövsümi/bayram mövzuları, müəllim iş vərəqləri paketləri və böyük nöqtəli kitablar daxil olmaqla 11 kateqoriyamız var. Yeni dizaynlar həftəlik əlavə olunur.",
+      "q8": "Bu tapmacaları ağ və qara rəngdə çap edə bilərəmmi?",
+      "a8": "Bəli — bütün nöqtələri birləşdirən iş vərəqlərimiz mürəkkəbə qənaət etmək üçün ağ və qara çap üçün nəzərdə tutulub. İstənilən ev və ya sinif printerində əla görünürlər."
+    },
+    "newsletter": {
+      "eyebrow": "Çap edilə bilən başlanğıc paketi - tamamilə pulsuz",
+      "heading": "Gələnlər qutunuza çatdırılan 20 pulsuz nöqtədən-nöqtəyə çap materialı əldə edin.",
+      "description": "Heyvanları, nəqliyyat vasitələrini, dinozavrları və mövsümi mövzuları əhatə edən valideynlər və müəllimlər üçün uyğun kolleksiya – hamısı standart ABŞ məktubu üçün ölçülü və ağ-qara çap üçün optimallaşdırılıb."
+    },
+    "blog": {
+      "eyebrow": "Böyüklər üçün fikirlər",
+      "heading": "Ev və sinif üçün öyrənmə məsləhətləri",
+      "viewAll": "Bütün məqalələrə baxın",
+      "read": "Oxuyun"
+    },
+    "feedback": {
+      "eyebrow": "Sizdən eşitmək istərdik",
+      "heading": "Rəy göndərin",
+      "description": "Bir tapmaca fikriniz var, pozulmuş link tapdınız və ya sadəcə salam demək istəyirsiniz? Aşağıda bizə bir qeyd buraxın."
+    },
+    "footer": {
+      "description": "Uşaqlar, valideynlər və müəllimlər üçün pulsuz nöqtədən-nöqtəyə çap materialları və nöqtələri birləşdirən iş vərəqləri. Bütün bulmacalar yükləmək, çap etmək və paylaşmaq üçün pulsuzdur.",
+      "kids": "Uşaqlar",
+      "parents": "Valideynlər",
+      "teachers": "Müəllimlər",
+      "blog": "Bloq",
+      "faq": "Tez-tez verilən suallar",
+      "feedback": "Əlaqə",
+      "about": "Haqqımızda",
+      "contact": "Əlaqə",
+      "privacy": "Məxfilik siyasəti",
+      "terms": "İstifadə şərtləri",
+      "sitemap": "Saytın xəritəsi",
+      "copyright": "© {year} DotToDotFreePrintables.com · Uşaqlar üçün pulsuz çap edilə bilən fəaliyyətlər"
+    },
+    "common": {
+      "home": "Ev",
+      "new": "Yeni",
+      "comingSoon": "Tezliklə",
+      "downloadFree": "Çap üçün pulsuz yükləyin",
+      "viewDownload": "Baxın və Yükləyin",
+      "shareTitle": "{name} Nöqtədən Nöqtəyə Çap Olunan - Pulsuz PDF",
+      "downloadAria": "Pulsuz {name} nöqtədən nöqtəyə çap oluna bilən PDF yükləyin",
+      "bookmarkTitle": "{name} Nöqtədən Nöqtəyə Çap Olunan – Uşaqlar üçün Pulsuz PDF",
+      "showSlide": "Slayd {number} göstər",
+      "ageRange": "Əsrlər {min}-{max}",
+      "difficultyLabel": "Çətinlik {level} 3-dən",
+      "difficulty": {
+        "1": "Asan",
+        "2": "Orta",
+        "3": "Çətin"
+      },
+      "dots": "1–{count} nöqtələr",
+      "homeVideoEyebrow": "Video",
+      "homeVideoH2": "Fəaliyyətdə nöqtə-nöqtə əyləncəsinə baxın",
+      "skipToContent": "Əsas məzmuna keç",
+      "joinTeachers": "{count}+ müəllimə qoşulun",
+      "breadcrumbAria": "Çörək qırıntısı"
+    },
+    "puzzleSearch": {
+      "placeholder": "Ad və ya mövzuya görə axtar... məs. okean, balina, T-Rex",
+      "searchAria": "Bulmacalar axtarın",
+      "clearSearch": "Axtarışı təmizlə",
+      "toggleFilters": "Filtrləri göstər/gizlət",
+      "filters": "Filtrlər",
+      "filterOptions": "Filtr seçimləri",
+      "topic": "Mövzu",
+      "numberOfDots": "Nöqtələrin sayı",
+      "recentlyAddedOnly": "Yalnız yeni əlavə edilənlər",
+      "clearAllFilters": "Bütün filtrləri təmizlə",
+      "clearFilters": "Filtrləri təmizlə",
+      "resultsFound": "{count, plural, one {# tapmaca tapıldı} other {# tapmaca tapıldı}}",
+      "puzzlesAvailable": "{count, plural, one {# tapmaca mövcuddur} other {# tapmaca mövcuddur}}",
+      "noMatches": "Axtarışınıza uyğun tapmacalar tapılmadı.",
+      "openPuzzle": "{name} aç",
+      "imageAlt": "{name} nöqtədən nöqtəyə çap edilə bilər",
+      "viewPuzzle": "Tapmacaya bax →",
+      "dotRanges": {
+        "under35": "35 nöqtədən az",
+        "35to50": "35-50 nöqtə",
+        "51to70": "51-70 nöqtə",
+        "over70": "70+ nöqtə"
+      },
+      "categories": {
+        "Dinosaurs": "Dinozavrlar",
+        "Ocean": "Okean",
+        "Playgrounds": "Uşaq meydançaları",
+        "Garden": "Bağ",
+        "Cute": "Şirin",
+        "USA 250 Years": "ABŞ 250 il",
+        "UAE": "BƏƏ"
+      }
+    },
+    "newsletterForm": {
+      "ariaLabel": "Pulsuz nöqtədən nöqtəyə çap edilə bilən paketi əldə edin",
+      "emailLabel": "E-poçt ünvanı",
+      "submit": "Pulsuz paket göndərin",
+      "honeypot": "Bu sahəni boş buraxın",
+      "privacy": "Heç vaxt spam yoxdur. İstənilən vaxt abunəlikdən çıxın.",
+      "error": "Bu formanı təqdim etmək mümkün deyil.",
+      "notConnected": "Pulsuz paket qeydiyyatı hələ qoşulmayıb."
+    },
+    "feedbackForm": {
+      "ariaLabel": "Rəy göndərin",
+      "notConnected": "Bu rəy forması hələ qoşulmayıb.",
+      "typeLabel": "Hansı rəy?",
+      "selectTopic": "Mövzu seçin...",
+      "types": {
+        "general": "Ümumi rəy",
+        "requestTheme": "Bir tapmaca mövzusu tələb edin",
+        "brokenLink": "Qırılmış linki bildirin",
+        "improvement": "Təkmilləşdirmə təklif edin",
+        "other": "Digər"
+      },
+      "messageLabel": "Mesajınız",
+      "messagePlaceholder": "Nə düşündüyünüzü bizə bildirin...",
+      "emailLabel": "E-poçt",
+      "emailOptional": "(isteğe bağlı - yalnız cavab vermək istəsəniz)",
+      "submit": "Rəy göndərin",
+      "success": "təşəkkür edirəm. Rəyiniz göndərildi.",
+      "disclaimer": "Zəhmət olmasa həssas şəxsi məlumatları daxil etməyin. E-poçt isteğe bağlıdır və yalnız cavab verməli olduğumuz halda istifadə olunur.",
+      "iframeTitle": "Əlaqənin təqdim edilməsi"
+    },
+    "hero": {
+      "badge": "100% pulsuz · hesab tələb olunmur",
+      "h1": "Uşaqlar üçün pulsuz nöqtələri birləşdir vərəqləri – nöqtələri birləşdir iş vərəqləri",
+      "description": "Məktəbəqədər və ibtidai siniflər üçün pulsuz nöqtələri birləşdir iş vərəqlərini yükləyin – ABŞ, Böyük Britaniya, Kanada və Avstraliya üçün uyğunlaşdırılmış, Britaniyanın EYFS müəssisələri daxil olmaqla. Sadə 38 nöqtəli səhifələrdən 130-dan çox nöqtəli çətin tapşırıqlara qədər, heyvanlar, dinozavrlar, nəqliyyat vasitələri və bayram mövzuları ilə – qeydiyyatsız saniyələr içində çapa hazır.",
+      "browsePuzzles": "Pulsuz tapmacalara bax",
+      "starterPack": "20 tapmacalıq başlanğıc dəsti əldə edin",
+      "stat1Value": "Dəqiqlə yoxlanılmış",
+      "stat1Label": "pulsuz çap oluna bilən tapmaca",
+      "stat2Value": "2-12 yaş arası",
+      "stat2Label": "bütün səviyyələr",
+      "stat3Value": "100%",
+      "stat3Label": "pulsuz, həmişəlik"
+    },
+    "config": {
+      "featured_puzzle_slugs": "[\"trex-61-dot-to-dot-puzzle\",\"mermaid-dot-to-dot-puzzle\",\"jellyfish-dot-to-dot-puzzle\",\"cute-puppy-dot-to-dot-puzzle\",\"slide-playgrounds-dot-to-dot-puzzle\",\"snowdrop-flower-dot-to-dot-puzzle\",\"dashing-car-playground-dot-to-dot-puzzle\",\"lotus-flower-dot-to-dot-puzzle\"]",
+      "recent_puzzle_slugs": "[\"circus-ringmaster-bear-dot-to-dot-puzzle\",\"circus-tent-dot-to-dot-puzzle\",\"space-rover-dot-to-dot-puzzle\",\"ringed-planet-dot-to-dot-puzzle\"]"
+    },
+    "purchase": {
+      "ad": {
+        "packName": "Nöqtədən Nöqtəyə Tapmaca Paketi",
+        "pdfBook": "PDF KİTAB",
+        "bookTitle": "2026-nın ən yaxşıları",
+        "puzzleCount": "25 Nöqtədən Nöqtəyə Tapmaca",
+        "viewBook": "Kitaba bax"
+      },
+      "shared": {
+        "specialSale": "Xüsusi endirim",
+        "returnToPack": "Tapmaca paketinə qayıt",
+        "contactUs": "Bizimlə əlaqə"
+      },
+      "premium": {
+        "metaTitle": "2026-nın ən yaxşı Premium Nöqtədən Nöqtəyə Tapmaca Paketi",
+        "metaDescription": "Uşaqlar üçün ən sevilən nöqtədən nöqtəyə tapmacaların çap üçün hazır toplusu, bir rahat PDF-də toplanıb.",
+        "eyebrow": "Premium çap kolleksiyası",
+        "lede": "2026-nın ən yaxşıları kolleksiyası sevimli nöqtə-birləşdirmə fəaliyyətlərimizi sakit vaxt, yağışlı günlər, ev təhsili və siniflər üçün asan çap edilə bilən bir paketdə birləşdirir.",
+        "digitalPdf": "Rəqəmsal PDF",
+        "printAtHome": "Evdə çap et",
+        "instantAccess": "Ani giriş",
+        "purchaseAria": "2026-nın ən yaxşısı tapmaca paketini satın al",
+        "coverAlt": "2026-nın ən yaxşısı - 25 Nöqtədən Nöqtəyə Tapmaca kitab üzlüyü",
+        "oneTime": "birdəfəlik",
+        "buyButton": "Tapmaca paketini əldə et",
+        "localNote": "Localhost-da bu, təhlükəsiz ödəniş demosunu açır və heç vaxt karta pul yazmır.",
+        "detailsEyebrow": "Asan çap-və-oyna üçün hazırlanıb",
+        "detailsText": "Bir dəfə yüklə, əldə saxla və istədiyin fəaliyyətləri istədiyin zaman çap et.",
+        "benefits": {
+          "onePdf": "Bir rahat, çapa hazır PDF",
+          "kidFriendly": "Müxtəlif çətinlik dərəcəli uşaq dostu tapmacalar",
+          "paperSizes": "US Letter və A4 kağızlarında işləyir",
+          "instantAccess": "Uğurlu ödənişdən sonra ani giriş",
+          "classroomUse": "Evdə və ya bir sinifdə istifadə üçün"
+        },
+        "guaranteeText": "Ödənişdən sonra şəxsi endirmə linkiniz dərhal görünür. Abunəlik və gözlənilməz yenilənmə yoxdur."
+      },
+      "checkout": {
+        "consent": "Bu rəqəmsal PDF-in dərhal çatdırılmasına razıyam və girişin başlamasından sonra satışın qanunla tələb olunmadıqca və ya fayl çatdırılmadıqda və ya qüsurlu olduqda son və geri qaytarılmaz olduğunu anlayıram.",
+        "refundPolicy": "Geri qaytarma siyasətini oxu",
+        "opening": "Ödəniş açılır...",
+        "secureNote": "Stripe tərəfindən təmin edilən təhlükəsiz ödəniş. Birdəfəlik ödəniş. Abunəlik yoxdur.",
+        "error": "Ödəniş başladılarkən xəta baş verdi. Yenidən cəhd edin."
+      },
+      "success": {
+        "metaTitle": "Alışınız üçün təşəkkürlər",
+        "eyebrow": "Ödəniş təsdiqləndi",
+        "lede": "Ödənişiniz uğurlu oldu. Alışınızın hesabınızda görünməsi bir neçə saniyə çəkə bilər."
+      },
+      "cancelled": {
+        "metaTitle": "Ödəniş ləğv edildi",
+        "eyebrow": "Ödəniş alınmadı",
+        "lede": "Heç bir ödəniş edilmədi. İstənilən vaxt yenidən cəhd edə bilərsiniz."
+      },
+      "download": {
+        "demoTitle": "Yerli ödəniş testi keçdi.",
+        "demoText": "Əsl ödənişli uğur ekranı burada PDF endirmə düyməsini göstərir. Yerli demo şəxsi faylı buraxmır.",
+        "button": "Tapmaca paketinizi endirin",
+        "expires": "Bu link 24 saatdan sonra bitir. Endirdiyinizi təhlükəsiz yerdə saxlayın.",
+        "failed": "Alışınızı hələ təsdiqləyə bilmədik. Əgər ödəniş edilibsə, bir dəqiqədən sonra bu səhifəni yeniləyin və ya kömək üçün bizimlə əlaqə saxlayın.",
+        "preparing": "Endirməniz hazırlanır..."
+      }
+    },
+    "puzzleDetail": {
+      "agesLabel": "Yaşlar:",
+      "dotsLabel": "Nöqtələr:",
+      "freeLabel": "100% Pulsuz",
+      "difficultyHeading": "Çətinlik",
+      "difficultyEasy": "Asan",
+      "difficultyMedium": "Orta",
+      "difficultyHard": "Çətin",
+      "funFactPrefix": "Əyləncəli fakt:",
+      "funFactLabel": "Əyləncəli fakt!",
+      "noSignUp": "Qeydiyyata ehtiyac yoxdur.PDF olaraq açılır.US Letter (8,5 × 11 düym) və ya A4 kağızında çap edin.Evdə və sinifdə istifadə üçün pulsuzdur.",
+      "comingSoon": "Pulsuz PDF Yükləyin – Tezliklə",
+      "youMightLike": "Siz də bəyənə bilərsiniz",
+      "faqQ1": "{name} nöqtədən nöqtəyə tapmaca neçə yaş üçündür?",
+      "faqA1": "O, {yaş} yaş üçün nəzərdə tutulmuşdur.{nöqtələr} nöqtələri ilə o, {nöqtələrə} inamla saya bilən uşaqlar üçün uyğundur;kiçik uşaqlar bunu bir az köməklə tamamlaya bilərlər.",
+      "faqQ2": "{name} iş vərəqini necə çap edə bilərəm?",
+      "faqA2": "Pulsuz PDF əldə etmək üçün yükləmə düyməsini klikləyin, sonra onu istənilən brauzerdən və ya PDF oxuyucudan adi kağıza (A4 və ya ABŞ məktubu) çap edin.Heç bir xüsusi proqram tələb olunmur.",
+      "faqQ3": "{name} həqiqətən pulsuz çap edilə bilərmi?",
+      "faqA3": "Bəli - 100% pulsuzdur, qeydiyyat, hesab və ya ödəniş tələb olunmur.Siz onu evdə və ya sinifdə istifadə etmək üçün çap edə bilərsiniz."
+    },
+    "downloadBadge": {
+      "downloaded": "Endirildi",
+      "times": "dəfə",
+      "greatChoice": "Siz əla seçim etdiniz!"
+    },
+    "shareButtons": {
+      "label": "Paylaşın",
+      "copyLink": "Linki kopyalayın",
+      "copied": "Link kopyalandı!",
+      "shareMe": "Məni paylaş"
+    },
+    "blogPage": {
+      "eyebrow": "Öyrənmə resursları",
+      "h1": "Valideynlər və Müəllimlər üçün Nöqtədən Nöqtəyə İdeyalar",
+      "description": "Fəaliyyətlərin seçilməsi, erkən öyrənmə bacarıqlarının formalaşdırılması və evdə və ya sinifdə çap edilə bilən iş vərəqlərindən istifadə üçün praktiki təlimatlar.",
+      "breadcrumb": "Bloq",
+      "latestEyebrow": "Ən son məqalələr",
+      "latestH2": "Bu gün istifadə edə biləcəyiniz faydalı fikirlər",
+      "readArticle": "Məqaləni oxuyun",
+      "by": "By",
+      "backToAll": "← Bütün məqalələrə qayıt",
+      "savePinterest": "Pinterest-də yadda saxlayın",
+      "relatedEyebrow": "Pulsuz çap üçün",
+      "relatedHeading": "Növbəti nöqtədən nöqtəyə bu kolleksiyaları sınayın"
+    },
+    "canadaPage": {
+      "category": "Kanada"
+    },
+    "circusPage": {
+      "category": "Sirk"
+    },
+    "cutePage": {
+      "category": "Şirin"
+    },
+    "dinosaursPage": {
+      "category": "Dinozavrlar"
+    },
+    "flowersPage": {
+      "category": "Çiçəklər"
+    },
+    "gardenPage": {
+      "category": "Bağ"
+    },
+    "oceanPage": {
+      "category": "Okean"
+    },
+    "playgroundsPage": {
+      "category": "Oyun meydançaları"
+    },
+    "spacePage": {
+      "category": "Kosmos"
+    },
+    "uaePage": {
+      "category": "Birləşmiş Ərəb Əmirlikləri"
+    },
+    "usa250Page": {
+      "category": "ABŞ-ın 250 illik yubileyi"
+    }
+  }
+}

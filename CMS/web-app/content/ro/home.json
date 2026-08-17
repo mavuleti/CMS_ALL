@@ -1,0 +1,602 @@
+{
+  "slug": "home",
+  "header": {
+    "title": "Unește punctele gratuit pentru copii | Fișe PDF de printat",
+    "title_template": "%s | DotToDotFreePrintables.com",
+    "meta_description": "Printează, unește punctele și dă viață unor imagini uimitoare. Gratuit și gata de distracție — Jocuri cu unește punctele pentru copii.",
+    "canonical": "/{locale}/",
+    "og": {
+      "title": "Unește punctele – jocuri gratuite pentru copii și adulți",
+      "description": "Printează, unește punctele și dă viață unor imagini uimitoare. Gratuit și gata de distracție!",
+      "url": "/{locale}/",
+      "site_name": "DotToDotFreePrintables.com",
+      "type": "website",
+      "image": "/images/trex-61-puzzle.webp (800x679)"
+    },
+    "twitter": {
+      "card": "summary_large_image"
+    },
+    "manifest": "/manifest.webmanifest",
+    "json_ld": {
+      "website": {
+        "type": "WebSite",
+        "name": "DotToDotFreePrintables.com (SITE_NAME)"
+      },
+      "organization": {
+        "type": "Organization",
+        "logo": "/icon-512.png (absoluteUrl)",
+        "same_as": "[\"https://www.pinterest.com/hellokidsbookworld/\", \"https://www.facebook.com/dottodotfreeprintables\", \"https://www.youtube.com/@hellokidsbookworld\"]"
+      },
+      "collection_page": {
+        "type": "CollectionPage",
+        "name": "Găsește cele mai bune fișe de unire a punctelor de printat"
+      },
+      "item_list": {
+        "type": "ItemList (featured puzzles)"
+      }
+    }
+  },
+  "UNUSED:seo/metadata": {
+    "json:homepage": {
+      "title": "Fișe gratuite unește punctele pentru copii | Fișe de conectat punctele în format PDF",
+      "ogTitle": "Fișe gratuite unește punctele pentru copii",
+      "description": "Descărcați gratuit fișe unește punctele pentru copii: animale, dinozauri, vehicule, teme de sărbători și multe altele. PDF gata de printat pentru grădiniță și școala primară. Fără înregistrare."
+    }
+  },
+  "body": {
+    "nav": {
+      "kids": "Copii - Puzzle-uri",
+      "teachers": "Profesori",
+      "parents": "Părinţi",
+      "contact": "Contactaţi-ne",
+      "blog": "Blog",
+      "search": "Căutare",
+      "freePack": "Pachet gratuit",
+      "scanMe": "Scanează-mă"
+    },
+    "homepageUi": {
+      "title": "Găsește cele mai bune fișe de unire a punctelor de printat",
+      "description": "Printează, unește punctele și dă viață unor imagini uimitoare. Gratuit și gata de distracție!",
+      "searchPlaceholder": "Încearcă ocean, dinozaur sau flori",
+      "filterPuzzles": "Filtrează puzzle-urile",
+      "age": "Vârstă",
+      "dots": "puncte",
+      "featuredPuzzles": "Puzzle-uri de printat recomandate",
+      "savePuzzle": "Salvează {name}",
+      "removeSavedPuzzle": "Elimină {name} din cele salvate",
+      "downloads": "descărcări",
+      "bookTitle": "Cele mai bune din 2026 · {count}",
+      "bookDescription": "Puzzle-urile noastre preferate punct la punct, într-o singură carte PDF de printat.",
+      "searchUnavailable": "Căutarea este temporar indisponibilă. Încearcă din nou.",
+      "popularEyebrow": "Populare săptămâna aceasta",
+      "mostDownloaded": "Cele mai descărcate puzzle-uri",
+      "downloadCountAria": "{count} sau mai multe descărcări",
+      "freshPrintables": "Materiale tipărite proaspete",
+      "recentlyAdded": "Adăugate recent",
+      "browseCategories": "Răsfoiește categoriile de puzzle-uri",
+      "openCategories": "Deschide meniul categoriilor",
+      "closeCategories": "Închide meniul categoriilor",
+      "browseByTheme": "Răsfoiește după temă",
+      "quickLinks": "Linkuri rapide",
+      "bundlePacks": "Pachete de bundle",
+      "parentsTeachers": "Pentru părinți și profesori",
+      "more": "Mai multe categorii",
+      "kids": "Copii",
+      "categoryNames": {
+        "cute": "Puzzle-uri drăguțe",
+        "flowers": "Flori"
+      }
+    },
+    "audience": {
+      "kidsTitle": "Pentru copii",
+      "kidsText": "Teme prietenoase cu animale, dinozauri și vehicule, cu puncte numerotate clare. Câștiguri ușoare care dau încredere reală.",
+      "parentsTitle": "Pentru părinți",
+      "parentsText": "Activități liniștite fără ecran pentru acasă, în călătorii și la restaurante. Imprimați de pe orice dispozitiv în mai puțin de un minut.",
+      "teachersTitle": "Pentru profesori",
+      "teachersText": "Lecții de legătură cu temele, cu puțină pregătire, pentru temele de dimineață, pentru cei care termină devreme, pentru suplinitori și pentru stațiile de clasă - nu este nevoie de nicio pregătire."
+    },
+    "categories": {
+      "eyebrow": "Organizat după temă și nivel de calificare",
+      "heading": "Răsfoiți puzzle-uri punct cu punct după categorie",
+      "description": "De la forme simple cu 10 puncte pentru copii mici până la provocări cu 200 de puncte pentru copiii mai mari — sortate pe categorii, astfel încât să găsești materialul imprimabil gratuit potrivit în câteva secunde.",
+      "puzzles": "{count, plural, one {# puzzle} few {# puzzle-uri} other {# de puzzle-uri}}",
+      "comingSoon": "În curând",
+      "badges": {
+        "dinosaurs": "Disponibil acum!",
+        "ocean": "Disponibil acum!",
+        "playgrounds": "Disponibil acum!",
+        "garden": "Disponibil acum!",
+        "usa250": "Nou!",
+        "uae": "Disponibil acum!",
+        "cute": "Nou!",
+        "circus": "Nou!"
+      },
+      "items": {
+        "dinosaurs": {
+          "name": "Dinozauri",
+          "description": "Distrează-te în preistorie! Puzzle-uri gratuite cu T-Rex, Triceratops, Velociraptor și {count} puzzle-uri unit-to-dot pe care copiii tăi le vor adora."
+        },
+        "animals": {
+          "name": "Animale",
+          "description": "Creaturi prietenoase pentru exersarea numerelor timpurii."
+        },
+        "vehicles": {
+          "name": "Vehicule",
+          "description": "Mașini, camioane, rachete și utilaje."
+        },
+        "fantasy": {
+          "name": "Fantezie",
+          "description": "Castele, unicorni, dragoni și sugestii de poveste."
+        },
+        "seasonal": {
+          "name": "Sezonier",
+          "description": "Activități din calendarul sărbătorilor și al clasei."
+        },
+        "ocean": {
+          "name": "Oșean",
+          "description": "Animale marine și pagini de colorat calme."
+        },
+        "playgrounds": {
+          "name": "Locuri de joacă",
+          "description": "Leagăne, tobogane și distracție în aer liber pentru micii aventurieri."
+        },
+        "garden": {
+          "name": "Grădină",
+          "description": "Mănuși, mistrii și unelte pentru micii ajutoare în grădină."
+        },
+        "usa250": {
+          "name": "America 250 de ani",
+          "description": "Sărbătoriți cea de-a 250-a aniversare a Americii cu puzzle-uri patriotice de tip punct cu punct care onorează istoria americană."
+        },
+        "uae": {
+          "name": "Emiratele Arabe Unite",
+          "description": "Explorează Emiratele Arabe Unite! Repere emblematice precum Burj Al Arab, gata să te conectezi și să colorezi."
+        },
+        "space": {
+          "name": "Spaţiu",
+          "description": "Planete, astronauți și aventuri cu rachete."
+        },
+        "worksheets": {
+          "name": "Fișe de lucru",
+          "description": "Fișe de secvențiere a numerelor, pregătite pentru profesori."
+        },
+        "bigDotBooks": {
+          "name": "Cărți Big Dot",
+          "description": "Puzzle-uri lungi pentru elevi mai mari și concentrați."
+        },
+        "cute": {
+          "name": "Drăguţ",
+          "description": "Căței adorabili, mașinuțe și {count} puzzle-uri uni-punct gratuite și fermecătoare pe care copiii tăi le vor adora."
+        },
+        "circus": {
+          "name": "Circ",
+          "description": "Maestri de ring, corturi mari și distracție de spectacol pentru tinerii învățăcei."
+        }
+      }
+    },
+    "puzzleSection": {
+      "eyebrow": "Mostre imprimabile gratuite — fără înscriere",
+      "heading": "Fișe populare de unire a punctelor, disponibile acum pentru imprimare",
+      "weeklyPack": "Vezi pachetul săptămânal →",
+      "downloadLink": "Descarcă gratuit imprimabil",
+      "new": "Nou",
+      "imageAlt": "Fișă de lucru gratuită imprimabilă de desenat punct cu punct {name} pentru {age}",
+      "categories": {
+        "Dinosaurs": "Dinozauri",
+        "Ocean": "Ocean",
+        "Playgrounds": "Locuri de joacă",
+        "Garden": "Grădină",
+        "Cute": "Drăguţ",
+        "USA 250 Years": "America 250 de ani",
+        "UAE": "Emiratele Arabe Unite"
+      },
+      "items": {
+        "trex-61-dot-to-dot-puzzle": {
+          "name": "Provocarea T-Rex cu 61 de puncte"
+        },
+        "brontosaurus-dot-to-dot-puzzle": {
+          "name": "Brontosauru"
+        },
+        "mermaid-dot-to-dot-puzzle": {
+          "name": "Sirenă"
+        },
+        "merman-dot-to-dot-puzzle": {
+          "name": "Triton"
+        },
+        "seahorse-dot-to-dot-puzzle": {
+          "name": "Căluț de mare"
+        },
+        "whale-dot-to-dot-puzzle": {
+          "name": "Balenă"
+        },
+        "swing-playgrounds-dot-to-dot-puzzle": {
+          "name": "Loc de joacă cu leagăn"
+        },
+        "slide-playgrounds-dot-to-dot-puzzle": {
+          "name": "Loc de joacă cu tobogane"
+        },
+        "seesaw-playground-dot-to-dot-puzzle": {
+          "name": "Loc de joacă cu balansoare"
+        },
+        "roller-coaster-playground-dot-to-dot-puzzle": {
+          "name": "Loc de joacă Roller Coaster"
+        },
+        "wheelbarrow-playground-dot-to-dot-puzzle": {
+          "name": "Loc de joacă cu roabă"
+        },
+        "garden-gloves-dot-to-dot-puzzle": {
+          "name": "Mănuși de grădină"
+        },
+        "garden-trowel-dot-to-dot-puzzle": {
+          "name": "Mistrie de grădină"
+        },
+        "gas-balloon-usa-250-dot-to-dot-puzzle": {
+          "name": "Balon cu gaz America 250"
+        },
+        "america-250-birthday-fireworks-dot-to-dot-puzzle": {
+          "name": "Focuri de artificii pentru aniversarea a 250 de ani de la naștere a Americii"
+        },
+        "america-250-anniversary-liberty-bell-wings-1776-dot-to-dot-puzzle": {
+          "name": "America 250 Aripi de Clopot al Libertății"
+        },
+        "usa-250-astronaut-dot-to-dot-puzzle": {
+          "name": "America 250 Astronautul"
+        },
+        "usa-250-anniversary-sports-kids-podium-dot-to-dot-puzzle": {
+          "name": "Podiumul pentru copii al aniversării a 250 de ani de la America"
+        },
+        "usa-250-anniversary-airplane-banner-dot-to-dot-puzzle": {
+          "name": "Banner de avion aniversar cu 250 de ani de la America"
+        },
+        "usa-250-space-shuttle-dot-to-dot-puzzle": {
+          "name": "Naveta spațială America 250"
+        },
+        "usa-250-birthday-balloons-stars-dot-to-dot-puzzle": {
+          "name": "Baloane și stele cu ocazia aniversării a 250 de ani de la America"
+        },
+        "usa-250-birthday-cake-dot-to-dot-puzzle": {
+          "name": "Tort aniversar America 250"
+        },
+        "america-250-anniversary-eagle-banner-dot-to-dot-puzzle": {
+          "name": "America 250 Banner cu Vultur"
+        },
+        "burj-al-arab-dot-to-dot-puzzle": {
+          "name": "Burj Al-Arab"
+        },
+        "dallah-coffee-pot-dot-to-dot-puzzle": {
+          "name": "Cafetieră Dallah"
+        }
+      }
+    },
+    "benefits": {
+      "eyebrow": "Susținut de educatori pentru copii mici",
+      "heading": "De ce fișele de lucru punct cu punct sunt excelente pentru dezvoltarea copilului",
+      "description": "Materialele imprimabile cu punctele de unire sunt mai mult decât distractive - sunt un instrument susținut de cercetare, folosit de profesorii de grădiniță și preșcolari pentru a dezvolta abilități de bază de învățare timpurie.",
+      "fineMotorTitle": "Dezvoltă abilitățile motorii fine",
+      "fineMotorText": "Desenarea liniilor punct cu punct dezvoltă prinderea creionului, coordonarea mână-ochi și controlul muscular de care copiii au nevoie pentru scrisul de mână.",
+      "numberTitle": "Întărește recunoașterea numerelor",
+      "numberText": "Urmând ordinea punctelor 1 → 2 → 3 în ordine, se predă numărarea, recunoașterea numerelor și conceptele matematice timpurii în mod natural, prin joc.",
+      "focusTitle": "Îmbunătățește concentrarea și concentrarea",
+      "focusText": "Completarea unui puzzle de tip „conectați punctele” necesită atenție susținută — o modalitate calmă, fără ecrane, de a exersa concentrarea, pentru preșcolari și elevi de clasa a III-a.",
+      "confidenceTitle": "Recompensă instantanee și încredere",
+      "confidenceText": "Când apare imaginea ascunsă, copiii simt un sentiment imediat de realizare. Această mică victorie le dezvoltă dragostea pentru învățare și o mentalitate de dezvoltare."
+    },
+    "howTo": {
+      "eyebrow": "Gata în mai puțin de 60 de secunde",
+      "heading": "Cum să descarci și să imprimi fișe de lucru gratuite cu desene punct-cu-punct",
+      "step1Title": "Alege-ți puzzle-ul",
+      "step1Text": "Alegeți o temă (animale, dinozauri, vehicule, sărbători) și o gamă de puncte care se potrivește vârstei și nivelului de abilități al copilului dumneavoastră.",
+      "step2Title": "Descărcați PDF-ul gratuit",
+      "step2Text": "Apasă pe „Descărcare gratuită imprimabilă” — fără cont, fără e-mail, fără paywall. Browserul tău descarcă PDF-ul instantaneu.",
+      "step3Title": "Printează și bucură-te",
+      "step3Text": "Imprimați pe hârtie standard US Letter (8,5\" × 11\"). Alb-negrul funcționează perfect. Dați-i-o copilului dumneavoastră și urmăriți-l cum unește punctele!"
+    },
+    "trust": {
+      "eyebrow": "De ce ne aleg părinții și profesorii",
+      "heading": "Gratuit, sigur și incredibil de ușor de utilizat.",
+      "noAccountTitle": "Nu este necesar un cont",
+      "noAccountText": "Fiecare fișier imprimabil de tip „punct cu punct” se descarcă imediat — fără înscriere, fără e-mail, fără plată. Pur și simplu faceți clic și imprimați.",
+      "safeTitle": "Seif pentru clasă",
+      "safeText": "Pagini de puzzle curate, fără reclame, concepute pentru imprimantele școlare. Funcționează pentru temele de dimineață, temele sau momentele de liniște.",
+      "fastTitle": "Rapid prin design",
+      "fastText": "Paginile statice, imaginile optimizate și fonturile locale înseamnă că puzzle-urile se încarcă rapid pe orice dispozitiv - telefon, tabletă sau laptop."
+    },
+    "faq": {
+      "eyebrow": "Întrebări frecvente",
+      "heading": "Întrebări frecvente",
+      "q1": "Toate materialele imprimabile punct cu punct de pe acest site sunt complet gratuite?",
+      "a1": "Da — fiecare fișă de lucru cu elemente de conectare a punctelor de pe DotToDotFreePrintables.com este 100% gratuită pentru descărcare și imprimare. Nu este necesar niciodată un cont, un abonament sau un card de credit.",
+      "q2": "Pentru ce vârstă sunt potrivite fișele de lucru punct cu punct?",
+      "a2": "Materialele noastre imprimabile acoperă vârste între 2 și 12 ani. Fișele de lucru ușoare (10-20 de puncte) sunt potrivite pentru copiii mici și preșcolari, foile medii (20-50 de puncte) sunt excelente pentru grădiniță și clasa I, iar foile mai dificile (50-200+ puncte) sunt o provocare pentru elevii din clasa a II-a până la a VI-a.",
+      "q3": "În ce format sunt materialele imprimabile cu „conectați punctele”?",
+      "a3": "Toate foile de lucru se descarcă ca fișiere PDF gata de imprimare, de dimensiunea standard a hârtiei US Letter (8,5\" × 11\"). Deschideți-le în orice browser sau vizualizator PDF și imprimați-le — nu este nevoie de software special.",
+      "q4": "Aveți fișe de lucru de tip „punct cu punct” pentru grădiniță și grădiniță?",
+      "a4": "Absolut. Cele mai simple fișe de lucru ale noastre încep de la 1–10 puncte (perfecte pentru vârste între 2 și 4 ani) și includ teme de recunoaștere a alfabetului și a numerelor, concepute pentru clasele de preșcolar și grădiniță.",
+      "q5": "Pot profesorii să folosească aceste fișe de lucru cu punctele de unit la clasă?",
+      "a5": "Da! Materialele noastre imprimabile sunt gratuite pentru uz personal și în clasă. Sunt populare pentru temele de dimineață, activitățile pentru cei care termină devreme lecțiile, planurile de lecții alternative, centrele de motricitate fină și pachetele cu teme pentru acasă.",
+      "q6": "Puzzle-urile punct cu punct ajută la motricitatea fină?",
+      "a6": "Da — trasarea liniilor între puncte dezvoltă forța prinderii creionului și coordonarea mână-ochi, care susțin pregătirea pentru scrisul de mână. Mulți terapeuți ocupaționali și educatori recomandă activități de conectare a punctelor din acest motiv.",
+      "q7": "Ai planșe tematice imprimabile cu desene punct cu punct, cum ar fi animale sau dinozauri?",
+      "a7": "Avem 11 categorii, inclusiv animale, dinozauri, vehicule, creaturi oceanice, locuri de joacă, America 250 de ani, spațiu, fantezie, teme sezoniere/de sărbători, pachete de fișe de lucru pentru profesori și cărți Big Dot. Modele noi sunt adăugate săptămânal.",
+      "q8": "Pot imprima aceste puzzle-uri alb-negru?",
+      "a8": "Da — toate fișele noastre de lucru cu punctele de unire sunt concepute pentru imprimare alb-negru pentru a economisi cerneală. Arată grozav pe orice imprimantă de acasă sau de la clasă."
+    },
+    "newsletter": {
+      "eyebrow": "Pachet de început imprimabil — complet gratuit",
+      "heading": "Primește 20 de materiale imprimabile gratuite, de tip dot-to-dot, livrate direct în căsuța ta poștală.",
+      "description": "O colecție ușor de utilizat pentru părinți și profesori, care acoperă animale, vehicule, dinozauri și teme sezoniere — toate dimensionate pentru hârtie standard US Letter și optimizate pentru imprimare alb-negru."
+    },
+    "blog": {
+      "eyebrow": "Idei pentru adulți",
+      "heading": "Sfaturi de învățare pentru acasă și la clasă",
+      "viewAll": "Vezi toate articolele",
+      "read": "Citire"
+    },
+    "feedback": {
+      "eyebrow": "Ne-ar plăcea să auzim de la tine",
+      "heading": "Trimite feedback",
+      "description": "Ai o idee de puzzle, ai observat un link nefuncțional sau vrei doar să ne saluți? Trimite-ne un mesaj mai jos."
+    },
+    "footer": {
+      "description": "Fișe de lucru gratuite cu desene unește-le și unește-le pentru copii, părinți și profesori. Toate puzzle-urile pot fi descărcate, imprimate și partajate gratuit.",
+      "kids": "Copii",
+      "parents": "Părinţi",
+      "teachers": "Profesori",
+      "blog": "Blog",
+      "faq": "Întrebări frecvente",
+      "feedback": "Feedback",
+      "about": "Despre",
+      "contact": "Contact",
+      "privacy": "Confidențialitate",
+      "terms": "Termeni",
+      "sitemap": "Harta site-ului",
+      "copyright": "© {year} DotToDotFreePrintables.com · Activități imprimabile gratuite pentru copii"
+    },
+    "common": {
+      "home": "Acasă",
+      "new": "Nou",
+      "comingSoon": "În curând",
+      "downloadFree": "Descarcă gratuit imprimabil",
+      "viewDownload": "Vizualizați și descărcați",
+      "shareTitle": "{name} Conectează punctele - PDF gratuit",
+      "downloadAria": "Descarcă PDF-ul gratuit {name} conectează punctele",
+      "bookmarkTitle": "{name} Conectează punctele – PDF gratuit pentru copii",
+      "showSlide": "Arată diapozitivul {number}",
+      "ageRange": "Vârste {min}-{max}",
+      "difficultyLabel": "Nivel de dificultate {level} din 3",
+      "difficulty": {
+        "1": "Uşor",
+        "2": "Mediu",
+        "3": "Greu"
+      },
+      "dots": "1–{count} puncte",
+      "homeVideoEyebrow": "Video",
+      "homeVideoH2": "Urmărește distracția de la un punct la altul în acțiune",
+      "skipToContent": "Sari la conținutul principal",
+      "joinTeachers": "Alătură-te profesorilor {count}+",
+      "breadcrumbAria": "Coadă de navigare"
+    },
+    "puzzleSearch": {
+      "placeholder": "Caută după nume sau temă... ex. ocean, balenă, T-Rex",
+      "searchAria": "Căutați puzzle-uri",
+      "clearSearch": "Șterge căutarea",
+      "toggleFilters": "Afișează/ascunde filtrele",
+      "filters": "Filtre",
+      "filterOptions": "Opțiuni de filtrare",
+      "topic": "Temă",
+      "numberOfDots": "Număr de puncte",
+      "recentlyAddedOnly": "Doar cele adăugate recent",
+      "clearAllFilters": "Șterge toate filtrele",
+      "clearFilters": "Șterge filtrele",
+      "resultsFound": "{count, plural, one {# puzzle găsit} few {# puzzle-uri găsite} other {# de puzzle-uri găsite}}",
+      "puzzlesAvailable": "{count, plural, one {# puzzle disponibil} few {# puzzle-uri disponibile} other {# de puzzle-uri disponibile}}",
+      "noMatches": "Niciun puzzle nu a corespuns căutării tale.",
+      "openPuzzle": "Deschide {name}",
+      "imageAlt": "{name} imprimabilă punct cu punct",
+      "viewPuzzle": "Vezi puzzle-ul →",
+      "dotRanges": {
+        "under35": "Sub 35 de puncte",
+        "35to50": "35-50 de puncte",
+        "51to70": "51-70 de puncte",
+        "over70": "70+ de puncte"
+      },
+      "categories": {
+        "Dinosaurs": "Dinozauri",
+        "Ocean": "Ocean",
+        "Playgrounds": "Locuri de joacă",
+        "Garden": "Grădină",
+        "Cute": "Drăguț",
+        "USA 250 Years": "SUA 250 de ani",
+        "UAE": "EAU"
+      }
+    },
+    "newsletterForm": {
+      "ariaLabel": "Obțineți pachetul imprimabil gratuit de desenare punct cu punct",
+      "emailLabel": "Adresa de e-mail",
+      "submit": "Trimiteți un pachet gratuit",
+      "honeypot": "Lăsați acest câmp gol",
+      "privacy": "Fără spam, niciodată. Dezabonare oricând.",
+      "error": "Nu se poate trimite acest formular.",
+      "notConnected": "Înscrierea la pachetul gratuit nu este încă conectată."
+    },
+    "feedbackForm": {
+      "ariaLabel": "Trimite feedback",
+      "notConnected": "Acest formular de feedback nu este încă conectat.",
+      "typeLabel": "Ce fel de feedback?",
+      "selectTopic": "Selectați un subiect...",
+      "types": {
+        "general": "Feedback general",
+        "requestTheme": "Solicitați o temă de puzzle",
+        "brokenLink": "Raportează un link defect",
+        "improvement": "Sugerează o îmbunătățire",
+        "other": "Alte"
+      },
+      "messageLabel": "Mesajul dvs",
+      "messagePlaceholder": "Spune-ne ce crezi...",
+      "emailLabel": "E-mail",
+      "emailOptional": "(opțional - doar dacă doriți un răspuns)",
+      "submit": "Trimite feedback",
+      "success": "Mulțumesc. Feedback-ul dumneavoastră a fost trimis.",
+      "disclaimer": "Vă rugăm să nu includeți informații personale sensibile. Adresa de e-mail este opțională și este utilizată doar dacă trebuie să vă răspundem.",
+      "iframeTitle": "Trimiterea feedback-ului"
+    },
+    "hero": {
+      "badge": "100% gratuit · fără cont necesar",
+      "h1": "Fișe gratuite unește punctele pentru copii – fișe de conectat punctele",
+      "description": "Descărcați gratuit fișe unește punctele pentru grădiniță și școala primară – potrivite pentru SUA, Marea Britanie, Canada și Australia, inclusiv unități EYFS din Marea Britanie. De la pagini simple cu 38 de puncte până la provocări cu peste 130 de puncte, cu animale, dinozauri, vehicule și teme de sărbători – gata de printat în câteva secunde, fără înregistrare.",
+      "browsePuzzles": "Vezi puzzle-urile gratuite",
+      "starterPack": "Obține pachetul de start cu 20 de puzzle-uri",
+      "stat1Value": "Verificat riguros",
+      "stat1Label": "puzzle-uri gratuite de printat",
+      "stat2Value": "2–12 ani",
+      "stat2Label": "toate nivelurile",
+      "stat3Value": "100%",
+      "stat3Label": "gratuit, pentru totdeauna"
+    },
+    "config": {
+      "featured_puzzle_slugs": "[\"trex-61-dot-to-dot-puzzle\",\"mermaid-dot-to-dot-puzzle\",\"jellyfish-dot-to-dot-puzzle\",\"cute-puppy-dot-to-dot-puzzle\",\"slide-playgrounds-dot-to-dot-puzzle\",\"snowdrop-flower-dot-to-dot-puzzle\",\"dashing-car-playground-dot-to-dot-puzzle\",\"lotus-flower-dot-to-dot-puzzle\"]",
+      "recent_puzzle_slugs": "[\"circus-ringmaster-bear-dot-to-dot-puzzle\",\"circus-tent-dot-to-dot-puzzle\",\"space-rover-dot-to-dot-puzzle\",\"ringed-planet-dot-to-dot-puzzle\"]"
+    },
+    "purchase": {
+      "ad": {
+        "packName": "Pachet de puzzle punct la punct",
+        "pdfBook": "CARTE PDF",
+        "bookTitle": "Cele mai bune din 2026",
+        "puzzleCount": "25 de puzzle-uri punct la punct",
+        "viewBook": "Vezi cartea"
+      },
+      "shared": {
+        "specialSale": "OFERT? SPECIAL?",
+        "returnToPack": "Înapoi la pachetul de puzzle-uri",
+        "contactUs": "Contactează-ne"
+      },
+      "premium": {
+        "metaTitle": "Pachetul Premium Best of 2026 de Puzzle-uri Unește Punctele",
+        "metaDescription": "O colecție gata de tipărit cu puzzle-urile preferate de tip unește punctele pentru copii, adunate într-un PDF practic.",
+        "eyebrow": "Colecție premium tipăribilă",
+        "lede": "Colecția Best of 2026 adună activitățile noastre preferate de tip unește punctele într-un pachet ușor de tipărit, ideal pentru momente liniștite, zile ploioase, educație acasă și clasă.",
+        "digitalPdf": "PDF digital",
+        "printAtHome": "Tipărește acasă",
+        "instantAccess": "Acces instantaneu",
+        "purchaseAria": "Cumpără pachetul de puzzle-uri Best of 2026",
+        "coverAlt": "Best of 2026 - coperta cărții cu 25 de puzzle-uri Unește Punctele",
+        "oneTime": "plată unică",
+        "buyButton": "Obține pachetul de puzzle-uri",
+        "localNote": "Pe localhost, aceasta deschide o demonstrație de plată sigură și nu debitează niciodată vreun card.",
+        "detailsEyebrow": "Creat pentru tipărire și joacă simplă",
+        "detailsText": "Descarcă o dată, păstrează-l la îndemână și tipărește activitățile dorite oricând ai nevoie de ele.",
+        "benefits": {
+          "onePdf": "Un singur PDF practic, gata de tipărit",
+          "kidFriendly": "Puzzle-uri potrivite pentru copii, cu niveluri variate de dificultate",
+          "paperSizes": "Funcționează pe hârtie US Letter și A4",
+          "instantAccess": "Acces instantaneu după o plată reușită",
+          "classroomUse": "Poate fi folosit acasă sau într-o singură sală de clasă"
+        },
+        "guaranteeText": "După finalizarea plății, linkul tău privat de descărcare apare imediat. Fără abonament și fără reînnoire surpriză."
+      },
+      "checkout": {
+        "consent": "Sunt de acord cu livrarea imediată a acestui PDF digital și înțeleg că, odată ce accesul începe, vânzarea este finală și nerambursabilă, cu excepția cazurilor prevăzute de lege sau dacă fișierul nu este livrat ori este defect.",
+        "refundPolicy": "Citește politica de rambursare",
+        "opening": "Se deschide plata...",
+        "secureNote": "Plată securizată, susținută de Stripe. Plată unică. Fără abonament.",
+        "error": "A apărut o problemă la inițierea plății. Te rugăm să încerci din nou."
+      },
+      "success": {
+        "metaTitle": "Îți mulțumim pentru achiziție",
+        "eyebrow": "Plată confirmată",
+        "lede": "Plata ta a fost efectuată cu succes. Poate dura câteva secunde până când achiziția apare în contul tău."
+      },
+      "cancelled": {
+        "metaTitle": "Plată anulată",
+        "eyebrow": "Nu a fost efectuată nicio plată",
+        "lede": "Nu a fost efectuată nicio taxă. Poți încerca din nou oricând."
+      },
+      "download": {
+        "demoTitle": "Testul local de plată a fost finalizat cu succes.",
+        "demoText": "Ecranul real de reușită a achiziției afișează aici butonul de descărcare a PDF-ului. Demonstrația locală nu eliberează fișierul privat.",
+        "button": "Descarcă-ți pachetul de puzzle-uri",
+        "expires": "Acest link expiră în 24 de ore. Salvează fișierul descărcat într-un loc sigur.",
+        "failed": "Nu am putut confirma încă achiziția ta. Dacă ai fost debitat, reîmprospătează această pagină peste un minut sau contactează-ne pentru ajutor.",
+        "preparing": "Se pregătește descărcarea..."
+      }
+    },
+    "puzzleDetail": {
+      "agesLabel": "Vârste:",
+      "dotsLabel": "Puncte:",
+      "freeLabel": "100% gratuit",
+      "difficultyHeading": "Dificultate",
+      "difficultyEasy": "Uşor",
+      "difficultyMedium": "Mediu",
+      "difficultyHard": "Greu",
+      "funFactPrefix": "Fapt amuzant:",
+      "funFactLabel": "Fapt amuzant!",
+      "noSignUp": "Nu este nevoie de înscriere.Se deschide ca PDF.Imprimați pe hârtie US Letter (8,5 × 11 inchi) sau A4.Gratuit pentru utilizare acasă și la clasă.",
+      "comingSoon": "Descărcați PDF gratuit – În curând",
+      "youMightLike": "S-ar putea să-ți placă și",
+      "faqQ1": "Pentru ce vârstă este puzzle-ul punct cu punct {name}?",
+      "faqA1": "Este conceput pentru vârste {vârsta}.Cu {dots} puncte, se potrivește copiilor care pot număra cu încredere până la {dots};copiii mai mici îl pot completa cu puțin ajutor.",
+      "faqQ2": "Cum pot imprima foaia de lucru {name}?",
+      "faqA2": "Faceți clic pe butonul de descărcare pentru a obține PDF-ul gratuit, apoi tipăriți-l pe hârtie obișnuită (A4 sau US Letter) din orice browser sau cititor PDF.Nu este nevoie de software special.",
+      "faqQ3": "Este {name} imprimabil cu adevărat gratuit?",
+      "faqA3": "Da — este 100% gratuit, fără a fi nevoie de înregistrare, cont sau plată.Îl puteți imprima pentru uz acasă sau în clasă."
+    },
+    "downloadBadge": {
+      "downloaded": "Descărcat",
+      "times": "ori",
+      "greatChoice": "Ai făcut o alegere grozavă!"
+    },
+    "shareButtons": {
+      "label": "Distribuie",
+      "copyLink": "Copiați linkul",
+      "copied": "Link copiat!",
+      "shareMe": "Împărtășește-mă"
+    },
+    "blogPage": {
+      "eyebrow": "Resurse de învățare",
+      "h1": "Idei punct la punct pentru părinți și profesori",
+      "description": "Ghiduri practice pentru alegerea activităților, dezvoltarea abilităților de învățare timpurie și utilizarea foilor de lucru imprimabile acasă sau la clasă.",
+      "breadcrumb": "Blog",
+      "latestEyebrow": "Ultimele articole",
+      "latestH2": "Idei utile pe care le puteți folosi astăzi",
+      "readArticle": "Citiți articolul",
+      "by": "De",
+      "backToAll": "← Înapoi la toate articolele",
+      "savePinterest": "Salvați pe Pinterest",
+      "relatedEyebrow": "Imprimabile gratuite",
+      "relatedHeading": "Încercați apoi aceste colecții punct cu punct"
+    },
+    "canadaPage": {
+      "category": "Canada"
+    },
+    "circusPage": {
+      "category": "Circ"
+    },
+    "cutePage": {
+      "category": "Drăguţ"
+    },
+    "dinosaursPage": {
+      "category": "Dinozaurii"
+    },
+    "flowersPage": {
+      "category": "Flori"
+    },
+    "gardenPage": {
+      "category": "Grădină"
+    },
+    "oceanPage": {
+      "category": "Ocean"
+    },
+    "playgroundsPage": {
+      "category": "Locuri de joacă"
+    },
+    "spacePage": {
+      "category": "Spaţiu"
+    },
+    "uaePage": {
+      "category": "Emiratele Arabe Unite"
+    },
+    "usa250Page": {
+      "category": "250 de ani de la SUA"
+    }
+  }
+}

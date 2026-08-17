@@ -1,0 +1,253 @@
+{
+  "scoring_model": {
+    "name": "heuristic_opportunity_score_v1",
+    "status": "tunable_not_calibrated",
+    "purpose": "Prioritize phrases within this collected locale dataset only.",
+    "not_valid_for": [
+      "estimating search volume",
+      "predicting sales",
+      "measuring keyword competition",
+      "comparing external market demand"
+    ]
+  },
+  "locale": "tr",
+  "data": {
+    "alias_source_key": "tr",
+    "native_phrases": [
+      {
+        "phrase": "Nokta birleştirme",
+        "normalized": "nokta birleştirme",
+        "meaning": "Dot-to-dot / Connect the dots",
+        "note": ""
+      },
+      {
+        "phrase": "Nokta birleştirme bulmacası",
+        "normalized": "nokta birleştirme bulmacası",
+        "meaning": "Dot-to-dot puzzle",
+        "note": ""
+      },
+      {
+        "phrase": "Nokta birleştirme oyunu",
+        "normalized": "nokta birleştirme oyunu",
+        "meaning": "Connect the dots game",
+        "note": ""
+      },
+      {
+        "phrase": "Nokta birleştirme çalışma sayfaları",
+        "normalized": "nokta birleştirme çalışma sayfaları",
+        "meaning": "Dot-to-dot worksheets",
+        "note": ""
+      },
+      {
+        "phrase": "Nokta birleştirme etkinlikleri PDF",
+        "normalized": "nokta birleştirme etkinlikleri pdf",
+        "meaning": "Dot-to-dot activities PDF",
+        "note": ""
+      },
+      {
+        "phrase": "Yazdırılabilir nokta birleştirme",
+        "normalized": "yazdırılabilir nokta birleştirme",
+        "meaning": "Printable dot-to-dot",
+        "note": ""
+      },
+      {
+        "phrase": "Nokta birleştirme boyama sayfası",
+        "normalized": "nokta birleştirme boyama sayfası",
+        "meaning": "Dot-to-dot coloring page",
+        "note": ""
+      },
+      {
+        "phrase": "Okul öncesi nokta birleştirme",
+        "normalized": "okul öncesi nokta birleştirme",
+        "meaning": "Preschool dot-to-dot",
+        "note": ""
+      },
+      {
+        "phrase": "Çocuklar için nokta birleştirme",
+        "normalized": "çocuklar için nokta birleştirme",
+        "meaning": "Connect the dots for kids",
+        "note": ""
+      },
+      {
+        "phrase": "Sayılarla nokta birleştirme",
+        "normalized": "sayılarla nokta birleştirme",
+        "meaning": "Connect the dots by numbers",
+        "note": ""
+      },
+      {
+        "phrase": "Zor nokta birleştirme",
+        "normalized": "zor nokta birleştirme",
+        "meaning": "Hard / Advanced dot-to-dot",
+        "note": ""
+      },
+      {
+        "phrase": "Büyükler için nokta birleştirme bulmacaları",
+        "normalized": "büyükler için nokta birleştirme bulmacaları",
+        "meaning": "Dot-to-dot puzzles for adults",
+        "note": ""
+      },
+      {
+        "phrase": "Noktaları birleştirme bulmaca kitabı",
+        "normalized": "noktaları birleştirme bulmaca kitabı",
+        "meaning": "Connect the dots puzzle book",
+        "note": ""
+      },
+      {
+        "phrase": "çalışma sayfası",
+        "normalized": "çalışma sayfası",
+        "meaning": "worksheet",
+        "note": ""
+      },
+      {
+        "phrase": "etkinlik",
+        "normalized": "etkinlik",
+        "meaning": "activity",
+        "note": ""
+      },
+      {
+        "phrase": "yazdırılabilir",
+        "normalized": "yazdırılabilir",
+        "meaning": "printable / to print",
+        "note": ""
+      },
+      {
+        "phrase": "çıktı",
+        "normalized": "çıktı",
+        "meaning": "printout",
+        "note": ""
+      },
+      {
+        "phrase": "PDF",
+        "normalized": "pdf",
+        "meaning": "PDF file format",
+        "note": ""
+      },
+      {
+        "phrase": "zor",
+        "normalized": "zor",
+        "meaning": "hard / advanced",
+        "note": ""
+      },
+      {
+        "phrase": "Create SEO tags using these keywords",
+        "normalized": "create seo tags using these keywords",
+        "meaning": "",
+        "note": ""
+      },
+      {
+        "phrase": "Write localized Turkish website copy",
+        "normalized": "write localized turkish website copy",
+        "meaning": "",
+        "note": ""
+      },
+      {
+        "phrase": "Create Turkish meta descriptions using these keywords",
+        "normalized": "create turkish meta descriptions using these keywords",
+        "meaning": "",
+        "note": ""
+      }
+    ],
+    "romanized_phrases": [],
+    "english_phrases_used_by_locals": [
+      {
+        "phrase": "Dot-to-dot",
+        "normalized": "dot to dot",
+        "meaning": "",
+        "note": ""
+      },
+      {
+        "phrase": "Connect the dots",
+        "normalized": "connect the dots",
+        "meaning": "",
+        "note": ""
+      },
+      {
+        "phrase": "Dot-to-dot puzzle",
+        "normalized": "dot to dot puzzle",
+        "meaning": "",
+        "note": ""
+      },
+      {
+        "phrase": "Connect the dots game",
+        "normalized": "connect the dots game",
+        "meaning": "",
+        "note": ""
+      },
+      {
+        "phrase": "Dot-to-dot worksheets",
+        "normalized": "dot to dot worksheet",
+        "meaning": "",
+        "note": ""
+      },
+      {
+        "phrase": "Dot-to-dot activities PDF",
+        "normalized": "dot to dot activities pdf",
+        "meaning": "",
+        "note": ""
+      },
+      {
+        "phrase": "Printable dot-to-dot",
+        "normalized": "printable dot to dot",
+        "meaning": "",
+        "note": ""
+      },
+      {
+        "phrase": "Dot-to-dot coloring page",
+        "normalized": "dot to dot coloring page",
+        "meaning": "",
+        "note": ""
+      },
+      {
+        "phrase": "Preschool dot-to-dot",
+        "normalized": "preschool dot to dot",
+        "meaning": "",
+        "note": ""
+      },
+      {
+        "phrase": "Connect the dots for kids",
+        "normalized": "connect the dots for kids",
+        "meaning": "",
+        "note": ""
+      },
+      {
+        "phrase": "Connect the dots by numbers",
+        "normalized": "connect the dots by numbers",
+        "meaning": "",
+        "note": ""
+      },
+      {
+        "phrase": "Hard dot-to-dot",
+        "normalized": "hard dot to dot",
+        "meaning": "",
+        "note": ""
+      },
+      {
+        "phrase": "Advanced dot-to-dot",
+        "normalized": "advanced dot to dot",
+        "meaning": "",
+        "note": ""
+      },
+      {
+        "phrase": "Dot-to-dot puzzles for adults",
+        "normalized": "dot to dot puzzle for adults",
+        "meaning": "",
+        "note": ""
+      },
+      {
+        "phrase": "Connect the dots puzzle book",
+        "normalized": "connect the dots puzzle book",
+        "meaning": "",
+        "note": ""
+      }
+    ],
+    "intent_modifiers": []
+  },
+  "opportunity_summary": {
+    "primary_term": "Nokta birleştirme",
+    "print_modifier": "Nokta birleştirme etkinlikleri PDF",
+    "free_modifier": "",
+    "children_modifier": "Okul öncesi nokta birleştirme",
+    "adult_modifier": "Büyükler için nokta birleştirme bulmacaları",
+    "recommended_local_phrase": "Nokta birleştirme"
+  }
+}

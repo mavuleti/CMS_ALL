@@ -1,0 +1,602 @@
+{
+  "slug": "home",
+  "header": {
+    "title": "Besplatno spajanje točkica za djecu | PDF radni listovi za ispis",
+    "title_template": "%s | DotToDotFreePrintables.com",
+    "meta_description": "Ispišite, spojite točke i oživite nevjerojatne slike. Besplatno i spremno za zabavu — Spoji točke listići PDF.",
+    "canonical": "/{locale}/",
+    "og": {
+      "title": "Spoji točkice – besplatne zagonetke za djecu i odrasle",
+      "description": "Ispišite, spojite točke i oživite nevjerojatne slike. Besplatno i spremno za zabavu!",
+      "url": "/{locale}/",
+      "site_name": "DotToDotFreePrintables.com",
+      "type": "website",
+      "image": "/images/trex-61-puzzle.webp (800x679)"
+    },
+    "twitter": {
+      "card": "summary_large_image"
+    },
+    "manifest": "/manifest.webmanifest",
+    "json_ld": {
+      "website": {
+        "type": "WebSite",
+        "name": "DotToDotFreePrintables.com (SITE_NAME)"
+      },
+      "organization": {
+        "type": "Organization",
+        "logo": "/icon-512.png (absoluteUrl)",
+        "same_as": "[\"https://www.pinterest.com/hellokidsbookworld/\", \"https://www.facebook.com/dottodotfreeprintables\", \"https://www.youtube.com/@hellokidsbookworld\"]"
+      },
+      "collection_page": {
+        "type": "CollectionPage",
+        "name": "Pronađite savršene ispisive zagonetke od točke do točke"
+      },
+      "item_list": {
+        "type": "ItemList (featured puzzles)"
+      }
+    }
+  },
+  "UNUSED:seo/metadata": {
+    "json:homepage": {
+      "title": "Besplatni listići spoji točkice za djecu | Radni listovi spoji točke u PDF-u",
+      "ogTitle": "Besplatni radni listovi spoji točke za djecu",
+      "description": "Preuzmite besplatne radne listove spoji točke za djecu: životinje, dinosauri, vozila, praznične teme i još mnogo toga. PDF spreman za ispis za vrtić i osnovnu školu. Bez registracije."
+    }
+  },
+  "body": {
+    "nav": {
+      "kids": "Djeca - Zagonetke",
+      "teachers": "Učitelji",
+      "parents": "Roditelji",
+      "contact": "Kontaktirajte nas",
+      "blog": "Blog",
+      "search": "Pretraživanje",
+      "freePack": "Besplatni paket",
+      "scanMe": "Skeniraj me"
+    },
+    "homepageUi": {
+      "title": "Pronađite savršene ispisive zagonetke od točke do točke",
+      "description": "Ispišite, spojite točke i oživite nevjerojatne slike. Besplatno i spremno za zabavu!",
+      "searchPlaceholder": "Pokušajte ocean, dinosaur ili cvijeće",
+      "filterPuzzles": "Filtriraj zagonetke",
+      "age": "Dob",
+      "dots": "točaka",
+      "featuredPuzzles": "Izdvojene zagonetke za ispis",
+      "savePuzzle": "Spremi {name}",
+      "removeSavedPuzzle": "Ukloni {name} iz spremljenih",
+      "downloads": "preuzimanja",
+      "bookTitle": "Najbolje iz 2026. · {count}",
+      "bookDescription": "Naše omiljene zagonetke od točke do točke u jednoj PDF knjizi za ispis.",
+      "searchUnavailable": "Pretraživanje je privremeno nedostupno. Pokušajte ponovno.",
+      "popularEyebrow": "Popularno ovog tjedna",
+      "mostDownloaded": "Najpreuzimanije zagonetke",
+      "downloadCountAria": "{count} ili više preuzimanja",
+      "freshPrintables": "Svježi printabilni materijali",
+      "recentlyAdded": "Nedavno dodano",
+      "browseCategories": "Pretraži kategorije zagonetki",
+      "openCategories": "Otvorite izbornik kategorija",
+      "closeCategories": "Zatvorite izbornik kategorija",
+      "browseByTheme": "Pretraži po temi",
+      "quickLinks": "Brze veze",
+      "bundlePacks": "Paketi",
+      "parentsTeachers": "Za roditelje i učitelje",
+      "more": "Više kategorija",
+      "kids": "Djeca",
+      "categoryNames": {
+        "cute": "Slatke zagonetke",
+        "flowers": "Cvijeće"
+      }
+    },
+    "audience": {
+      "kidsTitle": "Za djecu",
+      "kidsText": "Prijateljske teme životinja, dinosaura i vozila s jasnim numeriranim točkicama. Lake pobjede koje grade pravo samopouzdanje.",
+      "parentsTitle": "Za roditelje",
+      "parentsText": "Mirne aktivnosti bez ekrana za dom, putovanja i restorane. Ispisujte s bilo kojeg uređaja za manje od minute.",
+      "teachersTitle": "Za učitelje",
+      "teachersText": "Spojite točke s malo pripreme za jutarnji rad, rano završavanje nastave, zamjene i učioničke stanice - nije potrebna priprema."
+    },
+    "categories": {
+      "eyebrow": "Organizirano po temi i razini vještine",
+      "heading": "Pregledajte zagonetke od točke do točke po kategoriji",
+      "description": "Od jednostavnih oblika s 10 točaka za malu djecu do izazova s ​​200 točaka za stariju djecu - sortirano po kategorijama kako biste u sekundama pronašli pravi besplatni ispis.",
+      "puzzles": "{count, plural, one {# zagonetka} few {# zagonetke} other {# zagonetki}}",
+      "comingSoon": "Uskoro",
+      "badges": {
+        "dinosaurs": "Dostupno odmah!",
+        "ocean": "Dostupno odmah!",
+        "playgrounds": "Dostupno odmah!",
+        "garden": "Dostupno odmah!",
+        "usa250": "Novi!",
+        "uae": "Dostupno odmah!",
+        "cute": "Novi!",
+        "circus": "Novi!"
+      },
+      "items": {
+        "dinosaurs": {
+          "name": "Dinosauri",
+          "description": "Zakoračite u pretpovijesnu zabavu! T-Rex, Triceratops, Velociraptor i {count} besplatnih zagonetki s točkama koje će vaša djeca obožavati."
+        },
+        "animals": {
+          "name": "Životinje",
+          "description": "Prijateljska stvorenja za ranu vježbu brojeva."
+        },
+        "vehicles": {
+          "name": "Vozila",
+          "description": "Automobili, kamioni, rakete i strojevi."
+        },
+        "fantasy": {
+          "name": "Fantazija",
+          "description": "Dvorci, jednorozi, zmajevi i teme za priče."
+        },
+        "seasonal": {
+          "name": "Sezonski",
+          "description": "Aktivnosti vezane uz praznike i razredni kalendar."
+        },
+        "ocean": {
+          "name": "Okean",
+          "description": "Morske životinje i mirne stranice za bojanje."
+        },
+        "playgrounds": {
+          "name": "Igrališta",
+          "description": "Ljuljačke, tobogani i zabava na otvorenom za male avanturiste."
+        },
+        "garden": {
+          "name": "Vrt",
+          "description": "Rukavice, lopatice i alati za male vrtne pomoćnike."
+        },
+        "usa250": {
+          "name": "Amerika 250 godina",
+          "description": "Proslavite 250. rođendan Amerike domoljubnim zagonetkama od točke do točke u čast američke povijesti."
+        },
+        "uae": {
+          "name": "UAE",
+          "description": "Istražite Ujedinjene Arapske Emirate! Kultne znamenitosti poput Burj Al Araba, spremne za povezivanje i bojanje."
+        },
+        "space": {
+          "name": "Prostor",
+          "description": "Planeti, astronauti i raketne avanture."
+        },
+        "worksheets": {
+          "name": "Radni listovi",
+          "description": "Radni listovi za nizanje brojeva spremni za učitelje."
+        },
+        "bigDotBooks": {
+          "name": "Velike točkaste knjige",
+          "description": "Dugačke zagonetke za fokusirane starije učenike."
+        },
+        "cute": {
+          "name": "Slatko",
+          "description": "Preslatki štenci, mali automobili i {count} šarmantnih besplatnih zagonetki s točkama koje će vaša djeca obožavati."
+        },
+        "circus": {
+          "name": "Cirkus",
+          "description": "Majstori prstenova, veliki šatori i zabava za mlade učenike."
+        }
+      }
+    },
+    "puzzleSection": {
+      "eyebrow": "Besplatni uzorci za ispis — bez prijave",
+      "heading": "Popularni listovi s točkama za ispis odmah",
+      "weeklyPack": "Pogledajte tjedni paket →",
+      "downloadLink": "Preuzmite besplatni ispis",
+      "new": "Novi",
+      "imageAlt": "{name} besplatni radni list za ispis s točkama za {age}",
+      "categories": {
+        "Dinosaurs": "Dinosauri",
+        "Ocean": "Okean",
+        "Playgrounds": "Igrališta",
+        "Garden": "Vrt",
+        "Cute": "Slatko",
+        "USA 250 Years": "Amerika 250 godina",
+        "UAE": "UAE"
+      },
+      "items": {
+        "trex-61-dot-to-dot-puzzle": {
+          "name": "Izazov T-Rexa sa 61 točkom"
+        },
+        "brontosaurus-dot-to-dot-puzzle": {
+          "name": "Brontosaurus"
+        },
+        "mermaid-dot-to-dot-puzzle": {
+          "name": "Sirena"
+        },
+        "merman-dot-to-dot-puzzle": {
+          "name": "Triton"
+        },
+        "seahorse-dot-to-dot-puzzle": {
+          "name": "Morski konjic"
+        },
+        "whale-dot-to-dot-puzzle": {
+          "name": "Kit"
+        },
+        "swing-playgrounds-dot-to-dot-puzzle": {
+          "name": "Igralište s ljuljačkama"
+        },
+        "slide-playgrounds-dot-to-dot-puzzle": {
+          "name": "Igralište s toboganom"
+        },
+        "seesaw-playground-dot-to-dot-puzzle": {
+          "name": "Igralište s klackalicom"
+        },
+        "roller-coaster-playground-dot-to-dot-puzzle": {
+          "name": "Igralište s vlakovima smrti"
+        },
+        "wheelbarrow-playground-dot-to-dot-puzzle": {
+          "name": "Igralište s kolicima"
+        },
+        "garden-gloves-dot-to-dot-puzzle": {
+          "name": "Vrtne rukavice"
+        },
+        "garden-trowel-dot-to-dot-puzzle": {
+          "name": "Vrtna lopatica"
+        },
+        "gas-balloon-usa-250-dot-to-dot-puzzle": {
+          "name": "Plinski balon Amerika 250"
+        },
+        "america-250-birthday-fireworks-dot-to-dot-puzzle": {
+          "name": "Vatromet za rođendan Amerike 250"
+        },
+        "america-250-anniversary-liberty-bell-wings-1776-dot-to-dot-puzzle": {
+          "name": "Amerika 250 Liberty Bell krila"
+        },
+        "usa-250-astronaut-dot-to-dot-puzzle": {
+          "name": "Amerika 250 Astronaut"
+        },
+        "usa-250-anniversary-sports-kids-podium-dot-to-dot-puzzle": {
+          "name": "Sportski dječji podij za 250. obljetnicu Amerike"
+        },
+        "usa-250-anniversary-airplane-banner-dot-to-dot-puzzle": {
+          "name": "Zastava za avion povodom 250. obljetnice Amerike"
+        },
+        "usa-250-space-shuttle-dot-to-dot-puzzle": {
+          "name": "Amerika 250 Svemirski šatl"
+        },
+        "usa-250-birthday-balloons-stars-dot-to-dot-puzzle": {
+          "name": "Amerika 250 balona i zvijezda za rođendan"
+        },
+        "usa-250-birthday-cake-dot-to-dot-puzzle": {
+          "name": "Amerika 250 Rođendanska torta"
+        },
+        "america-250-anniversary-eagle-banner-dot-to-dot-puzzle": {
+          "name": "Amerika 250 Eagle Banner"
+        },
+        "burj-al-arab-dot-to-dot-puzzle": {
+          "name": "Burž Al Arab"
+        },
+        "dallah-coffee-pot-dot-to-dot-puzzle": {
+          "name": "Dallah lonac za kavu"
+        }
+      }
+    },
+    "benefits": {
+      "eyebrow": "Uz podršku odgajatelja u ranom djetinjstvu",
+      "heading": "Zašto su radni listovi s točkama izvrsni za razvoj djeteta",
+      "description": "Ispisi s točkama više su od puke zabave - oni su alat utemeljen na istraživanjima koji koriste predškolski odgojitelji i učitelji vrtića za izgradnju temeljnih vještina ranog učenja.",
+      "fineMotorTitle": "Razvija fine motoričke sposobnosti",
+      "fineMotorText": "Crtanje linija od točke do točke razvija hvat olovke, koordinaciju ruku i očiju te kontrolu mišića koja je djeci potrebna za pisanje rukom.",
+      "numberTitle": "Pojačava prepoznavanje brojeva",
+      "numberText": "Slijedeći točke 1 → 2 → 3 u nizu, djeca prirodno kroz igru ​​uče redoslijedu brojanja, prepoznavanju brojeva i ranim matematičkim konceptima.",
+      "focusTitle": "Poboljšava fokus i koncentraciju",
+      "focusText": "Rješavanje slagalice s točkama zahtijeva kontinuiranu pažnju - miran način vježbanja fokusa bez ekrana za predškolce do 3. razreda.",
+      "confidenceTitle": "Trenutna nagrada i samopouzdanje",
+      "confidenceText": "Kad se pojavi skrivena slika, djeca odmah osjete postignuće. Ta mala pobjeda gradi ljubav prema učenju i usmjerenost na rast."
+    },
+    "howTo": {
+      "eyebrow": "Spremno za manje od 60 sekundi",
+      "heading": "Kako preuzeti i ispisati besplatne radne listove s točkama",
+      "step1Title": "Odaberite svoju zagonetku",
+      "step1Text": "Odaberite temu (životinje, dinosauri, vozila, praznik) i raspon točaka koji odgovara dobi i razini vještina vašeg djeteta.",
+      "step2Title": "Preuzmite besplatni PDF",
+      "step2Text": "Kliknite \"Preuzmi besplatni ispis\" - bez računa, bez e-pošte, bez naplate. Vaš preglednik odmah preuzima PDF.",
+      "step3Title": "Isprintajte i uživajte",
+      "step3Text": "Ispisujte na standardnom papiru formata US Letter (8,5\" × 11\"). Crno-bijela boja savršeno funkcionira. Dajte je svom djetetu i gledajte kako spaja točkice!"
+    },
+    "trust": {
+      "eyebrow": "Zašto nas roditelji i učitelji biraju",
+      "heading": "Besplatno, sigurno i nevjerojatno jednostavno za korištenje.",
+      "noAccountTitle": "Nije potreban račun",
+      "noAccountText": "Svaki ispisivi dokument preuzima se odmah - bez registracije, bez e-pošte, bez naplate. Samo kliknite i isprintajte.",
+      "safeTitle": "Sef u učionici",
+      "safeText": "Čiste stranice za zagonetke bez oglasa dizajnirane za školske pisače. Odgovaraju za jutarnji rad, domaću zadaću ili mirno vrijeme.",
+      "fastTitle": "Brzo po dizajnu",
+      "fastText": "Statične stranice, optimizirane slike i lokalni fontovi znače da se zagonetke brzo učitavaju na bilo kojem uređaju - telefonu, tabletu ili prijenosnom računalu."
+    },
+    "faq": {
+      "eyebrow": "Česta pitanja",
+      "heading": "Često postavljana pitanja",
+      "q1": "Jesu li svi materijali za ispis od točke do točke na ovoj stranici potpuno besplatni?",
+      "a1": "Da — svaki radni list s vezom točaka na DotToDotFreePrintables.com je 100% besplatan za preuzimanje i ispis. Nikada nije potreban račun, pretplata ili kreditna kartica.",
+      "q2": "Za koju dob su prikladni radni listovi s točkama?",
+      "a2": "Naši materijali za ispis pokrivaju dob od 2 do 12 godina. Jednostavni radni listovi (10-20 točaka) prikladni su za malu djecu i predškolce, srednji listovi (20-50 točaka) izvrsni su za vrtić i 1. razred, a teži listovi (50-200+ točaka) izazovni su za učenike od 2. do 6. razreda.",
+      "q3": "U kojem su formatu ispisivi materijali za spajanje točaka?",
+      "a3": "Svi radni listovi preuzimaju se kao PDF datoteke spremne za ispis veličine standardnog papira US Letter (8,5\" × 11\"). Otvorite u bilo kojem pregledniku ili PDF pregledniku i isprintajte - nije potreban poseban softver.",
+      "q4": "Imate li radne listove s točkama za predškolce i vrtić?",
+      "a4": "Apsolutno. Naši najlakši radni listovi počinju od 1 do 10 točaka (idealno za dob od 2 do 4 godine) i uključuju teme za prepoznavanje abecede i brojeva osmišljene za predškolski uzrast i vrtić.",
+      "q5": "Mogu li učitelji koristiti ove radne listove s metodom spajanja točaka u razredu?",
+      "a5": "Da! Naši materijali za ispis su besplatni za osobnu i učionu upotrebu. Popularni su za jutarnji rad, aktivnosti za rani završetak nastave, zamjenske planove lekcija, centre za finu motoriku i pakete domaćih zadaća.",
+      "q6": "Pomažu li zagonetke od točkice do točkice kod razvoja fine motorike?",
+      "a6": "Da - crtanje linija između točaka gradi snagu stiska olovke i koordinaciju ruku i očiju koji podržavaju spremnost za pisanje rukom. Mnogi radni terapeuti i učitelji u vrtiću preporučuju aktivnosti spajanja točaka iz tog razloga.",
+      "q7": "Imate li tematske crteže s točkama poput životinja ili dinosaura?",
+      "a7": "Imamo 11 kategorija, uključujući životinje, dinosaure, vozila, morska stvorenja, igrališta, 250 godina Amerike, svemir, fantastiku, sezonske/blagdanske teme, pakete radnih listova za učitelje i knjige Big Dot. Novi dizajni dodaju se tjedno.",
+      "q8": "Mogu li isprintati ove zagonetke u crno-bijeloj tehnici?",
+      "a8": "Da — svi naši radni listovi s točkama za spajanje dizajnirani su za crno-bijeli ispis radi uštede tinte. Izgledaju sjajno na bilo kojem kućnom ili učioničkom pisaču."
+    },
+    "newsletter": {
+      "eyebrow": "Početni paket za ispis — potpuno besplatno",
+      "heading": "Primajte 20 besplatnih ispisanih materijala s točkama u inbox.",
+      "description": "Kolekcija prilagođena roditeljima i učiteljima koja obuhvaća životinje, vozila, dinosaure i sezonske teme — sve veličine za standardni papir US Letter i optimizirano za crno-bijeli ispis."
+    },
+    "blog": {
+      "eyebrow": "Ideje za odrasle",
+      "heading": "Savjeti za učenje kod kuće i u učionici",
+      "viewAll": "Pogledajte sve članke",
+      "read": "Čitaj"
+    },
+    "feedback": {
+      "eyebrow": "Voljeli bismo čuti vaše mišljenje",
+      "heading": "Pošalji povratne informacije",
+      "description": "Imate ideju za zagonetku, uočili ste neispravan link ili nas samo želite pozdraviti? Pošaljite nam poruku ispod."
+    },
+    "footer": {
+      "description": "Besplatni radni listovi s točkama za ispis i spoji točke za djecu, roditelje i učitelje. Sve zagonetke mogu se besplatno preuzeti, ispisati i dijeljenje.",
+      "kids": "Djeca",
+      "parents": "Roditelji",
+      "teachers": "Učitelji",
+      "blog": "Blog",
+      "faq": "Često postavljana pitanja",
+      "feedback": "Povratne informacije",
+      "about": "Oko",
+      "contact": "Kontakt",
+      "privacy": "Privatnost",
+      "terms": "Uvjeti",
+      "sitemap": "Mapa stranice",
+      "copyright": "© {year} DotToDotFreePrintables.com · Besplatne aktivnosti za ispis za djecu"
+    },
+    "common": {
+      "home": "Dom",
+      "new": "Novi",
+      "comingSoon": "Uskoro",
+      "downloadFree": "Preuzmite besplatni ispis",
+      "viewDownload": "Prikaži i preuzmi",
+      "shareTitle": "{name} Igra povezivanja točaka - Besplatan PDF",
+      "downloadAria": "Preuzmite besplatan PDF za povezivanje točaka {name}",
+      "bookmarkTitle": "{name} Igra povezivanja točaka – Besplatan PDF za djecu",
+      "showSlide": "Prikaži slajd {number}",
+      "ageRange": "Dob {min}-{max}",
+      "difficultyLabel": "Teškoća {level} od 3",
+      "difficulty": {
+        "1": "Lako",
+        "2": "Srednji",
+        "3": "Tvrdo"
+      },
+      "dots": "1–{count} točaka",
+      "homeVideoEyebrow": "Video",
+      "homeVideoH2": "Pogledajte zabavu od točke do točke u akciji",
+      "skipToContent": "Preskoči na glavni sadržaj",
+      "joinTeachers": "Pridružite se {count}+ učiteljima",
+      "breadcrumbAria": "Kruhna mrva"
+    },
+    "puzzleSearch": {
+      "placeholder": "Pretraži po imenu ili temi... npr. ocean, kit, T-Rex",
+      "searchAria": "Pretraži zagonetke",
+      "clearSearch": "Obriši pretragu",
+      "toggleFilters": "Prikaži/sakrij filtre",
+      "filters": "Filtri",
+      "filterOptions": "Mogućnosti filtra",
+      "topic": "Tema",
+      "numberOfDots": "Broj točaka",
+      "recentlyAddedOnly": "Samo nedavno dodano",
+      "clearAllFilters": "Obriši sve filtre",
+      "clearFilters": "Obriši filtre",
+      "resultsFound": "{count, plural, one {pronađena # zagonetka} few {pronađene # zagonetke} other {pronađeno # zagonetki}}",
+      "puzzlesAvailable": "{count, plural, one {# slagalica dostupna} few {# slagalice dostupne} other {# slagalica dostupno}}",
+      "noMatches": "Nijedna zagonetka ne odgovara vašoj pretrazi.",
+      "openPuzzle": "Otvori {name}",
+      "imageAlt": "{name} ispisivo od točke do točke",
+      "viewPuzzle": "Pogledaj slagalicu →",
+      "dotRanges": {
+        "under35": "Manje od 35 točaka",
+        "35to50": "35-50 točaka",
+        "51to70": "51-70 točaka",
+        "over70": "70+ točaka"
+      },
+      "categories": {
+        "Dinosaurs": "Dinosauri",
+        "Ocean": "Ocean",
+        "Playgrounds": "Igrališta",
+        "Garden": "Vrt",
+        "Cute": "Slatko",
+        "USA 250 Years": "SAD 250 godina",
+        "UAE": "UAE"
+      }
+    },
+    "newsletterForm": {
+      "ariaLabel": "Preuzmite besplatni paket za ispis od točke do točke",
+      "emailLabel": "E-mail adresa",
+      "submit": "Pošaljite besplatni paket",
+      "honeypot": "Ostavite ovo polje praznim",
+      "privacy": "Nema neželjene pošte, nikad. Odjavite se bilo kada.",
+      "error": "Nije moguće poslati ovaj obrazac.",
+      "notConnected": "Prijava za besplatni paket još nije povezana."
+    },
+    "feedbackForm": {
+      "ariaLabel": "Pošalji povratne informacije",
+      "notConnected": "Ovaj obrazac za povratne informacije još nije povezan.",
+      "typeLabel": "Kakve povratne informacije?",
+      "selectTopic": "Odaberite temu...",
+      "types": {
+        "general": "Opće povratne informacije",
+        "requestTheme": "Zatražite temu slagalice",
+        "brokenLink": "Prijavi neispravnu poveznicu",
+        "improvement": "Predložite poboljšanje",
+        "other": "Ostalo"
+      },
+      "messageLabel": "Vaša poruka",
+      "messagePlaceholder": "Recite nam što mislite...",
+      "emailLabel": "E-pošta",
+      "emailOptional": "(neobavezno - samo ako želite odgovor)",
+      "submit": "Pošalji povratne informacije",
+      "success": "Hvala vam. Vaša povratna informacija je poslana.",
+      "disclaimer": "Molimo vas da ne navodite osjetljive osobne podatke. E-pošta nije obavezna i koristi se samo ako vam trebamo odgovoriti.",
+      "iframeTitle": "Slanje povratnih informacija"
+    },
+    "hero": {
+      "badge": "100% besplatno · bez potrebe za računom",
+      "h1": "Besplatni listići spoji točkice za djecu – radni listovi spoji točke",
+      "description": "Preuzmite besplatne radne listove spoji točke za vrtić i od predškole do osnovne škole – prilagođeno za SAD, Ujedinjeno Kraljevstvo, Kanadu i Australiju, uključujući britanske EYFS ustanove. Od jednostavnih stranica s 38 točaka do izazova s više od 130 točaka, s temama životinja, dinosaura, vozila i praznika – spremno za ispis u sekundi, bez potrebe za registracijom.",
+      "browsePuzzles": "Pregledaj besplatne zagonetke",
+      "starterPack": "Preuzmi početni paket od 20 zagonetki",
+      "stat1Value": "Temeljito provjereno",
+      "stat1Label": "besplatnih zagonetki za ispis",
+      "stat2Value": "Od 2 do 12 godina",
+      "stat2Label": "sve razine",
+      "stat3Value": "100%",
+      "stat3Label": "besplatno, zauvijek"
+    },
+    "config": {
+      "featured_puzzle_slugs": "[\"trex-61-dot-to-dot-puzzle\",\"mermaid-dot-to-dot-puzzle\",\"jellyfish-dot-to-dot-puzzle\",\"cute-puppy-dot-to-dot-puzzle\",\"slide-playgrounds-dot-to-dot-puzzle\",\"snowdrop-flower-dot-to-dot-puzzle\",\"dashing-car-playground-dot-to-dot-puzzle\",\"lotus-flower-dot-to-dot-puzzle\"]",
+      "recent_puzzle_slugs": "[\"circus-ringmaster-bear-dot-to-dot-puzzle\",\"circus-tent-dot-to-dot-puzzle\",\"space-rover-dot-to-dot-puzzle\",\"ringed-planet-dot-to-dot-puzzle\"]"
+    },
+    "purchase": {
+      "ad": {
+        "packName": "Paket slagalica od točke do točke",
+        "pdfBook": "PDF KNJIGA",
+        "bookTitle": "Najbolje iz 2026.",
+        "puzzleCount": "25 zagonetki od točke do točke",
+        "viewBook": "Pogledaj knjigu"
+      },
+      "shared": {
+        "specialSale": "POSEBNA PONUDA",
+        "returnToPack": "Povratak na paket slagalica",
+        "contactUs": "Kontaktirajte nas"
+      },
+      "premium": {
+        "metaTitle": "Premium paket Best of 2026 – slagalice spoji točke",
+        "metaDescription": "Zbirka omiljenih dječjih slagalica spoji-točke, spremna za ispis i objedinjena u praktičan PDF.",
+        "eyebrow": "Premium zbirka za ispis",
+        "lede": "Zbirka Best of 2026 donosi naše omiljene aktivnosti spoji-točke u jednom paketu jednostavnom za ispis, savršenom za mirne trenutke, kišne dane, kućno obrazovanje i učionicu.",
+        "digitalPdf": "Digitalni PDF",
+        "printAtHome": "Ispis kod kuće",
+        "instantAccess": "Trenutni pristup",
+        "purchaseAria": "Kupite paket slagalica Best of 2026",
+        "coverAlt": "Best of 2026 - naslovnica knjige s 25 slagalica spoji točke",
+        "oneTime": "jednokratno",
+        "buyButton": "Nabavite paket slagalica",
+        "localNote": "Na localhostu ovo otvara sigurnu demo verziju plaćanja i nikada ne naplaćuje karticu.",
+        "detailsEyebrow": "Osmišljeno za jednostavan ispis i igru",
+        "detailsText": "Preuzmite jednom, držite pri ruci i ispišite željene aktivnosti kad god vam zatrebaju.",
+        "benefits": {
+          "onePdf": "Jedan praktičan PDF spreman za ispis",
+          "kidFriendly": "Slagalice prilagođene djeci s različitim stupnjevima težine",
+          "paperSizes": "Radi na papiru US Letter i A4 formata",
+          "instantAccess": "Trenutni pristup nakon uspješnog plaćanja",
+          "classroomUse": "Za korištenje kod kuće ili u jednoj učionici"
+        },
+        "guaranteeText": "Nakon plaćanja odmah se pojavljuje vaša privatna poveznica za preuzimanje. Bez pretplate i bez iznenadnih obnova."
+      },
+      "checkout": {
+        "consent": "Slažem se s trenutnom dostavom ovog digitalnog PDF-a i razumijem da je, nakon što pristup započne, kupnja konačna i nepovratna, osim ako je to zakonom propisano ili ako datoteka nije isporučena ili je neispravna.",
+        "refundPolicy": "Pročitajte politiku povrata novca",
+        "opening": "Otvaranje plaćanja...",
+        "secureNote": "Sigurno plaćanje putem Stripea. Jednokratno plaćanje. Bez pretplate.",
+        "error": "Došlo je do pogreške pri pokretanju plaćanja. Pokušajte ponovno."
+      },
+      "success": {
+        "metaTitle": "Hvala vam na kupnji",
+        "eyebrow": "Plaćanje potvrđeno",
+        "lede": "Vaše plaćanje je uspješno provedeno. Kupnja se na vašem računu može pojaviti nakon nekoliko sekundi."
+      },
+      "cancelled": {
+        "metaTitle": "Plaćanje otkazano",
+        "eyebrow": "Naplata nije izvršena",
+        "lede": "Naplata nije izvršena. Možete pokušati ponovno u bilo kojem trenutku."
+      },
+      "download": {
+        "demoTitle": "Lokalni test plaćanja uspješno je proveden.",
+        "demoText": "Na stvarnom zaslonu uspješne kupnje ovdje se prikazuje gumb za preuzimanje PDF-a. Lokalna demo verzija ne otključava privatnu datoteku.",
+        "button": "Preuzmite svoj paket slagalica",
+        "expires": "Ova poveznica istječe za 24 sata. Spremite preuzetu datoteku na sigurno mjesto.",
+        "failed": "Još nismo mogli potvrditi vašu kupnju. Ako vam je naplaćeno, osvježite ovu stranicu za minutu ili nas kontaktirajte za pomoć.",
+        "preparing": "Priprema vašeg preuzimanja..."
+      }
+    },
+    "puzzleDetail": {
+      "agesLabel": "Dob:",
+      "dotsLabel": "točkice:",
+      "freeLabel": "100% besplatno",
+      "difficultyHeading": "Poteškoće",
+      "difficultyEasy": "Lako",
+      "difficultyMedium": "srednje",
+      "difficultyHard": "teško",
+      "funFactPrefix": "Zabavna činjenica:",
+      "funFactLabel": "Zabavna činjenica!",
+      "noSignUp": "Nije potrebna prijava.Otvara se kao PDF.Ispis na papiru US Letter (8,5 × 11 inča) ili A4.Besplatno za kućnu upotrebu i upotrebu u učionici.",
+      "comingSoon": "Preuzmite besplatni PDF – uskoro",
+      "youMightLike": "Možda bi vam se također svidjelo",
+      "faqQ1": "Za koju dob je {name} slagalica od točke do točke?",
+      "faqA1": "Namijenjen je za dob od {age}.S {dots} točkica, odgovara djeci koja mogu pouzdano brojati do {dots};mlađa ga djeca mogu dovršiti uz malu pomoć.",
+      "faqQ2": "Kako mogu ispisati radni list {name}?",
+      "faqA2": "Pritisnite gumb za preuzimanje da biste dobili besplatni PDF, zatim ga ispišite na običnom papiru (A4 ili US Letter) iz bilo kojeg preglednika ili PDF čitača.Nije potreban poseban softver.",
+      "faqQ3": "Je li ispis {name} stvarno besplatan?",
+      "faqA3": "Da — 100% je besplatno, bez potrebe za registracijom, računom ili plaćanjem.Možete ga ispisati za kućnu ili učionicu."
+    },
+    "downloadBadge": {
+      "downloaded": "Preuzeto",
+      "times": "puta",
+      "greatChoice": "Napravili ste odličan izbor!"
+    },
+    "shareButtons": {
+      "label": "Udio",
+      "copyLink": "Kopiraj vezu",
+      "copied": "Veza je kopirana!",
+      "shareMe": "Podijeli me"
+    },
+    "blogPage": {
+      "eyebrow": "Sredstva za učenje",
+      "h1": "Ideje od točke do točke za roditelje i učitelje",
+      "description": "Praktični vodiči za odabir aktivnosti, izgradnju vještina ranog učenja i korištenje radnih listova za ispis kod kuće ili u učionici.",
+      "breadcrumb": "Blog",
+      "latestEyebrow": "Najnoviji članci",
+      "latestH2": "Korisne ideje koje možete iskoristiti danas",
+      "readArticle": "Pročitaj članak",
+      "by": "Po",
+      "backToAll": "← Natrag na sve članke",
+      "savePinterest": "Spremi na Pinterest",
+      "relatedEyebrow": "Besplatni ispisi",
+      "relatedHeading": "Isprobajte sljedeće kolekcije od točke do točke"
+    },
+    "canadaPage": {
+      "category": "Kanada"
+    },
+    "circusPage": {
+      "category": "Cirkus"
+    },
+    "cutePage": {
+      "category": "slatka"
+    },
+    "dinosaursPage": {
+      "category": "Dinosauri"
+    },
+    "flowersPage": {
+      "category": "Cvijeće"
+    },
+    "gardenPage": {
+      "category": "Vrt"
+    },
+    "oceanPage": {
+      "category": "Ocean"
+    },
+    "playgroundsPage": {
+      "category": "Igrališta"
+    },
+    "spacePage": {
+      "category": "Prostor"
+    },
+    "uaePage": {
+      "category": "Ujedinjeni Arapski Emirati"
+    },
+    "usa250Page": {
+      "category": "250. obljetnica SAD-a"
+    }
+  }
+}

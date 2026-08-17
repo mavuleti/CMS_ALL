@@ -1,0 +1,251 @@
+/*
+ * modules/arabic/rtl.css
+ * -----------------------------------------------------------------------
+ * SINGLE SOURCE OF TRUTH for RTL overrides + Arabic typography. Imported
+ * globally via app/globals.css (`@import '../modules/arabic/rtl.css';`).
+ * Everything here is scoped to `[dir="rtl"]` / `:lang(ar)`, so it's a
+ * no-op for the 18 LTR locales, whose markup never carries dir="rtl" or
+ * lang="ar".
+ *
+ * IMPORTANT: this used to be split across this file and a second block
+ * duplicated directly in app/globals.css. That duplication has been
+ * consolidated here — do not re-add a second "RTL layout support" block
+ * to globals.css; add new RTL rules to this file instead.
+ *
+ * Approach:
+ *   1. Prefer CSS logical properties (margin-inline-start, inset-inline-end,
+ *      text-align: start/end, etc.) directly in globals.css long-term — they
+ *      auto-flip with `dir` and need zero overrides here.
+ *   2. Where globals.css still uses physical properties (left/right,
+ *      margin-left/-right, text-align: left/right, flex-direction: row),
+ *      this file supplies the [dir="rtl"] override.
+ *   3. Do NOT blanket-flip every element. Only override selectors that are
+ *      genuinely direction-sensitive (nav, badges, breadcrumbs, forms,
+ *      puzzle meta rows, download buttons, icons that imply direction).
+ *      Things like images, dot-numbered puzzle overlays, and numerals stay
+ *      as-is (see MERGE_PLAN.md QA checklist re: Western digits).
+ * -----------------------------------------------------------------------
+ */
+
+/* Arabic web font ----------------------------------------------------------
+   IMPORTANT: the Cairo font stylesheet is NOT imported here. A CSS
+   `@import url(...)` is fetched by the browser the moment this stylesheet
+   is parsed, regardless of whether any selector below it ever matches —
+   putting it in this globally-imported file (rtl.css is pulled into
+   globals.css for every locale) meant every one of the 30+ LTR locale
+   pages was paying a render-blocking third-party round-trip to
+   fonts.googleapis.com for a font they never use, tanking homepage FCP/LCP.
+   The stylesheet link is instead added conditionally in
+   app/[locale]/layout.tsx only for locale === 'ar', so LTR pages never
+   request it. Self-hosting via @fontsource/cairo would remove the
+   third-party origin entirely and is worth revisiting alongside the
+   already-unused @fontsource/baloo-2 and @fontsource/nunito packages. */
+
+:lang(ar) {
+  font-family: 'Cairo', 'Segoe UI', 'Tahoma', 'Arial', sans-serif;
+  line-height: 1.8;
+}
+
+[dir='rtl'] {
+  direction: rtl;
+}
+
+/* Base text alignment ---------------------------------------------------- */
+[dir='rtl'] body {
+  text-align: right;
+}
+
+/* Header / nav ------------------------------------------------------------
+   .nav-shell and .nav-links use flexbox row layout; logical alternative
+   would be `flex-direction` staying `row` since flex already reverses
+   visually under dir="rtl" for `row`, but explicit content order (logo
+   first vs. last) still needs `row-reverse` here to match RTL reading
+   order for the current markup, which places the brand before nav links
+   in DOM order. */
+[dir='rtl'] .nav-shell {
+  flex-direction: row-reverse;
+}
+
+[dir='rtl'] .nav-links {
+  flex-direction: row-reverse;
+  direction: rtl;
+  margin-right: auto;
+  margin-left: 0;
+}
+
+[dir='rtl'] .brand-dots {
+  margin-inline-start: 0;
+  margin-inline-end: 8px;
+}
+
+/* Hero -------------------------------------------------------------------- */
+[dir='rtl'] .hero {
+  direction: rtl;
+}
+
+[dir='rtl'] .hero-actions {
+  flex-direction: row-reverse;
+}
+
+[dir='rtl'] .stats {
+  text-align: center; /* symmetric layout, no change needed, kept explicit */
+}
+
+/* Puzzle badge (uses physical `left` in globals.css) ----------------------
+   Logical property equivalent: inset-inline-start. Mirrors to the right
+   edge under RTL without needing to know physical direction. */
+[dir='rtl'] .badge {
+  left: auto;
+  inset-inline-start: 16px;
+}
+
+/* Puzzle grid / cards ------------------------------------------------------
+   Grid columns don't need flipping (grid-auto-flow stays row), but the
+   meta row (difficulty dots + age) is a flex row that should read in
+   natural RTL order. */
+[dir='rtl'] .puzzle-meta {
+  flex-direction: row-reverse;
+}
+
+[dir='rtl'] .difficulty {
+  flex-direction: row-reverse;
+}
+
+[dir='rtl'] .puzzle-category,
+[dir='rtl'] .puzzle-body {
+  text-align: right;
+}
+
+/* Section headings with a trailing action link (.section-heading.split) -- */
+[dir='rtl'] .section-heading.split {
+  flex-direction: row-reverse;
+}
+
+/* Breadcrumbs --------------------------------------------------------------
+   Chevron/slash separators read correctly since they're symmetric
+   characters; only the flex order needs reversing so the "current page"
+   crumb stays visually last in RTL reading order. */
+[dir='rtl'] .breadcrumb {
+  flex-direction: row-reverse;
+  text-align: right;
+  direction: rtl;
+}
+
+/* Newsletter / signup forms -------------------------------------------- */
+[dir='rtl'] .signup-form div {
+  flex-direction: row-reverse;
+}
+
+[dir='rtl'] .signup-form input {
+  text-align: right;
+}
+
+/* Trust section ------------------------------------------------------------ */
+[dir='rtl'] .trust-item {
+  text-align: right;
+}
+
+/* FAQ accordion -------------------------------------------------------------
+   <summary> renders its default disclosure triangle at the start edge;
+   the row also has custom flex content (question text + icon) that
+   should read right-to-left. */
+[dir='rtl'] .faq-item summary {
+  flex-direction: row-reverse;
+}
+
+/* Footer -------------------------------------------------------------------
+   .footer already uses text-align: center, so no override needed for
+   alignment, but the footer nav links row should reverse. */
+[dir='rtl'] .footer nav {
+  flex-direction: row-reverse;
+  direction: rtl;
+}
+
+/* Download / CTA buttons with a leading icon --------------------------------
+   Icon + label rows built with flex + gap: reverse so the icon still sits
+   nearest the "start" edge (which is visually the right edge in RTL). */
+[dir='rtl'] .download-link,
+[dir='rtl'] .button,
+[dir='rtl'] .blog-back-link {
+  flex-direction: row-reverse;
+}
+
+/* Desktop social bar (flush to the header's true edge) ----------------------
+   Positioned with a physical `right` in globals.css so it hugs the far edge
+   on wide screens; under RTL the "far" edge is the left, so mirror it. The
+   reserved `.nav-shell` padding stays physical padding-right in LTR, so it
+   needs the same left/right swap here. */
+@media (min-width: 981px) {
+  [dir='rtl'] .desktop-social-bar {
+    right: auto;
+    left: 24px;
+  }
+
+  [dir='rtl'] .nav-shell {
+    position: relative;
+    padding-right: 24px;
+    padding-left: 210px;
+  }
+
+  [dir='rtl'] .floating-bookmark-wrap.header-bookmark {
+    position: absolute;
+    top: 50%;
+    left: 24px;
+    margin: 0;
+    transform: translateY(-50%);
+  }
+}
+
+@media (min-width: 981px) and (max-width: 1180px) {
+  [dir='rtl'] .nav-shell {
+    padding-left: 230px;
+  }
+}
+
+/* Mobile share toggle (visible below 981px) --------------------------------
+   `margin-left: auto` pushes it to the trailing edge in LTR; mirror to the
+   other side so it still lands next to the language switcher under RTL. */
+@media (max-width: 980px) {
+  [dir='rtl'] .mobile-share-toggle {
+    right: auto;
+    left: auto;
+    inset-inline-end: 9%;
+  }
+
+  [dir='rtl'] .floating-bookmark-wrap.mobile-bookmark-fab {
+    right: auto;
+    left: auto;
+    inset-inline-end: 9%;
+  }
+}
+
+/* Share popover + QR label ---------------------------------------------- */
+[dir='rtl'] .desktop-share-popover {
+  right: auto;
+  left: 0;
+}
+
+/* Utility: use logical margin/padding instead of left/right wherever new
+   RTL-aware markup is added in modules/arabic. Example utility classes
+   available to the preview route and, later, the merged site: */
+[dir='rtl'] .rtl-flip-icon {
+  transform: scaleX(-1);
+}
+
+.logical-inline-start {
+  margin-inline-start: var(--space, 1rem);
+  margin-inline-end: 0;
+}
+
+.logical-inline-end {
+  margin-inline-end: var(--space, 1rem);
+  margin-inline-start: 0;
+}
+
+.logical-text-start {
+  text-align: start;
+}
+
+.logical-text-end {
+  text-align: end;
+}

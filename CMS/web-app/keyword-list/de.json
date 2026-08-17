@@ -1,0 +1,128 @@
+{
+  "scoring_model": {
+    "name": "heuristic_opportunity_score_v1",
+    "status": "tunable_not_calibrated",
+    "purpose": "Prioritize phrases within this collected locale dataset only.",
+    "not_valid_for": [
+      "estimating search volume",
+      "predicting sales",
+      "measuring keyword competition",
+      "comparing external market demand"
+    ]
+  },
+  "locale": "de",
+  "data": {
+    "alias_source_key": "german",
+    "native_phrases": [
+      {
+        "phrase": "Zahlenbilder zum ausdrucken",
+        "normalized": "zahlenbilder zum ausdrucken",
+        "meaning": "Number pictures to print",
+        "note": "Most common for kids"
+      },
+      {
+        "phrase": "Von Punkt zu Punkt Vorlagen kostenlos",
+        "normalized": "von punkt zu punkt vorlagen kostenlos",
+        "meaning": "Point-to-point templates free",
+        "note": ""
+      },
+      {
+        "phrase": "Punkte verbinden Rätsel PDF",
+        "normalized": "punkte verbinden rätsel pdf",
+        "meaning": "Connect-the-dots puzzle PDF",
+        "note": ""
+      },
+      {
+        "phrase": "Malen nach Zahlen Punkte verbinden",
+        "normalized": "malen nach zahlen punkte verbinden",
+        "meaning": "Paint by numbers connect dots",
+        "note": ""
+      },
+      {
+        "phrase": "Punkte verbinden für Erwachsene",
+        "normalized": "punkte verbinden für erwachsene",
+        "meaning": "Connect the dots for adults",
+        "note": "Usually 500 or more dots"
+      },
+      {
+        "phrase": "Zahlenbilder bis 100",
+        "normalized": "zahlenbilder bis 100",
+        "meaning": "Number pictures up to 100",
+        "note": "Specifies the numerical count for children"
+      },
+      {
+        "phrase": "Punkte verbinden Kindergarten",
+        "normalized": "punkte verbinden kindergarten",
+        "meaning": "Connect the dots for preschool/kindergarten",
+        "note": ""
+      },
+      {
+        "phrase": "Provide German phrases for mazes or word searches",
+        "normalized": "provide german phrases for mazes or word searches",
+        "meaning": "",
+        "note": ""
+      },
+      {
+        "phrase": "Draft a German email to request puzzle permissions",
+        "normalized": "draft a german email to request puzzle permissions",
+        "meaning": "",
+        "note": ""
+      },
+      {
+        "phrase": "Show German vocabulary used in worksheet instructions",
+        "normalized": "show german vocabulary used in worksheet instructions",
+        "meaning": "",
+        "note": ""
+      }
+    ],
+    "romanized_phrases": [],
+    "english_phrases_used_by_locals": [
+      {
+        "phrase": "Extreme dot to dot printables",
+        "normalized": "extreme dot to dot printable",
+        "meaning": "",
+        "note": ""
+      },
+      {
+        "phrase": "Dot to dot worksheets for kids PDF",
+        "normalized": "dot to dot worksheet for kids pdf",
+        "meaning": "",
+        "note": ""
+      },
+      {
+        "phrase": "Connect the dots puzzles free download",
+        "normalized": "connect the dots puzzle free download",
+        "meaning": "",
+        "note": ""
+      }
+    ],
+    "intent_modifiers": [
+      {
+        "phrase": "kostenlos",
+        "normalized": "kostenlos",
+        "meaning": "free",
+        "note": ""
+      },
+      {
+        "phrase": "Ausdrucken",
+        "normalized": "ausdrucken",
+        "meaning": "print",
+        "note": ""
+      },
+      {
+        "phrase": "PDF",
+        "normalized": "pdf",
+        "meaning": "PDF file format",
+        "note": ""
+      }
+    ]
+  },
+  "opportunity_summary": {
+    "primary_term": "Zahlenbilder zum ausdrucken",
+    "print_modifier": "Zahlenbilder zum ausdrucken",
+    "free_modifier": "Von Punkt zu Punkt Vorlagen kostenlos",
+    "children_modifier": "Punkte verbinden Kindergarten",
+    "adult_modifier": "Punkte verbinden für Erwachsene",
+    "recommended_local_phrase": "Zahlenbilder zum ausdrucken"
+  }
+}

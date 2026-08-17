@@ -1,0 +1,602 @@
+{
+  "slug": "home",
+  "header": {
+    "title": "Unisci i puntini gratis | PDF da stampare per bambini",
+    "title_template": "%s | DotToDotFreePrintables.com",
+    "meta_description": "Stampa, unisci i puntini e dai vita a immagini fantastiche. Gratis e pronto per il divertimento — Unisci i puntini per bambini scuola primaria.",
+    "canonical": "/{locale}/",
+    "og": {
+      "title": "Unisci i puntini – puzzle gratuiti per bambini e adulti",
+      "description": "Stampa, unisci i puntini e dai vita a immagini fantastiche. Gratis e pronto per il divertimento!",
+      "url": "/{locale}/",
+      "site_name": "DotToDotFreePrintables.com",
+      "type": "website",
+      "image": "/images/trex-61-puzzle.webp (800x679)"
+    },
+    "twitter": {
+      "card": "summary_large_image"
+    },
+    "manifest": "/manifest.webmanifest",
+    "json_ld": {
+      "website": {
+        "type": "WebSite",
+        "name": "DotToDotFreePrintables.com (SITE_NAME)"
+      },
+      "organization": {
+        "type": "Organization",
+        "logo": "/icon-512.png (absoluteUrl)",
+        "same_as": "[\"https://www.pinterest.com/hellokidsbookworld/\", \"https://www.facebook.com/dottodotfreeprintables\", \"https://www.youtube.com/@hellokidsbookworld\"]"
+      },
+      "collection_page": {
+        "type": "CollectionPage",
+        "name": "Trova i migliori disegni da unire i puntini da stampare"
+      },
+      "item_list": {
+        "type": "ItemList (featured puzzles)"
+      }
+    }
+  },
+  "UNUSED:seo/metadata": {
+    "json:homepage": {
+      "title": "Schede gratuite di unisci i puntini per bambini | Disegni da unire con i numeri in PDF",
+      "ogTitle": "Schede gratuite di unisci i puntini per bambini",
+      "description": "Scarica gratis schede di unisci i puntini per bambini: animali, dinosauri, veicoli, temi delle festività e altro. PDF pronto da stampare per la scuola dell'infanzia e primaria. Senza registrazione."
+    }
+  },
+  "body": {
+    "nav": {
+      "kids": "Puzzle per bambini",
+      "teachers": "Insegnanti",
+      "parents": "Genitori",
+      "contact": "Contattaci",
+      "blog": "Blog",
+      "search": "Ricerca",
+      "freePack": "Pacchetto gratuito",
+      "scanMe": "Scansionami"
+    },
+    "homepageUi": {
+      "title": "Trova i migliori disegni da unire i puntini da stampare",
+      "description": "Stampa, unisci i puntini e dai vita a immagini fantastiche. Gratis e pronto per il divertimento!",
+      "searchPlaceholder": "Prova oceano, dinosauro o fiori",
+      "filterPuzzles": "Filtra puzzle",
+      "age": "Età",
+      "dots": "punti",
+      "featuredPuzzles": "Puzzle stampabili in evidenza",
+      "savePuzzle": "Salva {name}",
+      "removeSavedPuzzle": "Rimuovi {name} dai salvati",
+      "downloads": "download",
+      "bookTitle": "Il meglio del 2026 · {count}",
+      "bookDescription": "I nostri puzzle punto per punto preferiti in un unico libro PDF stampabile.",
+      "searchUnavailable": "La ricerca non è temporaneamente disponibile. Riprova.",
+      "popularEyebrow": "Popolare questa settimana",
+      "mostDownloaded": "Puzzle più scaricati",
+      "downloadCountAria": "{count} o più download",
+      "freshPrintables": "Stampabili freschi",
+      "recentlyAdded": "Recentemente aggiunto",
+      "browseCategories": "Sfoglia le categorie di puzzle",
+      "openCategories": "Apri il menu delle categorie",
+      "closeCategories": "Chiudi il menu delle categorie",
+      "browseByTheme": "Sfoglia per tema",
+      "quickLinks": "Link rapidi",
+      "bundlePacks": "Pacchetti Bundle",
+      "parentsTeachers": "Per genitori e insegnanti",
+      "more": "Altre categorie",
+      "kids": "Bambini",
+      "categoryNames": {
+        "cute": "Puzzle carini",
+        "flowers": "Fiori"
+      }
+    },
+    "audience": {
+      "kidsTitle": "Per bambini",
+      "kidsText": "Simpatici temi con animali, dinosauri e veicoli, accompagnati da chiari punti numerati. Vittorie facili che infondono vera fiducia.",
+      "parentsTitle": "Per i genitori",
+      "parentsText": "Attività rilassanti senza schermi per casa, viaggi e ristoranti. Stampa da qualsiasi dispositivo in meno di un minuto.",
+      "teachersTitle": "Per gli insegnanti",
+      "teachersText": "Attività a punti da completare in modo semplice, ideali per il lavoro mattutino, per chi finisce prima, per i supplenti e per le postazioni in classe: non è richiesta alcuna preparazione."
+    },
+    "categories": {
+      "eyebrow": "Organizzato per tema e livello di competenza",
+      "heading": "Sfoglia i puzzle unisci i puntini per categoria",
+      "description": "Dalle semplici forme a 10 punti per i più piccoli alle sfide a 200 punti per i bambini più grandi: tutto è suddiviso per categoria, così puoi trovare in pochi secondi il materiale stampabile gratuito più adatto alle tue esigenze.",
+      "puzzles": "{count, plural, one {# puzzle} other {# puzzle}}",
+      "comingSoon": "Prossimamente",
+      "badges": {
+        "dinosaurs": "Disponibile ora!",
+        "ocean": "Disponibile ora!",
+        "playgrounds": "Disponibile ora!",
+        "garden": "Disponibile ora!",
+        "usa250": "Nuovo!",
+        "uae": "Disponibile ora!",
+        "cute": "Nuovo!",
+        "circus": "Nuovo!"
+      },
+      "items": {
+        "dinosaurs": {
+          "name": "Dinosauri",
+          "description": "Tuffati nel divertimento preistorico! T-Rex, Triceratopo, Velociraptor e {count} puzzle gratuiti unisci i puntini che i tuoi bambini adoreranno."
+        },
+        "animals": {
+          "name": "Animali",
+          "description": "Simpatiche creature per esercitarsi con i numeri fin da piccoli."
+        },
+        "vehicles": {
+          "name": "Veicoli",
+          "description": "Automobili, camion, razzi e macchinari."
+        },
+        "fantasy": {
+          "name": "Fantasia",
+          "description": "Castelli, unicorni, draghi e spunti per storie."
+        },
+        "seasonal": {
+          "name": "Stagionale",
+          "description": "Attività per le festività e per il calendario scolastico."
+        },
+        "ocean": {
+          "name": "Oceano",
+          "description": "Disegni da colorare di animali marini e soggetti rilassanti."
+        },
+        "playgrounds": {
+          "name": "campi da gioco",
+          "description": "Altalene, scivoli e divertimento all'aria aperta per i piccoli avventurieri."
+        },
+        "garden": {
+          "name": "Giardino",
+          "description": "Guanti, palette e attrezzi per i piccoli aiutanti da giardino."
+        },
+        "usa250": {
+          "name": "250 anni dell'America",
+          "description": "Festeggia il 250° compleanno dell'America con dei puzzle patriottici \"unisci i puntini\" che celebrano la storia americana."
+        },
+        "uae": {
+          "name": "Emirati Arabi Uniti",
+          "description": "Esplora gli Emirati Arabi Uniti! Monumenti iconici come il Burj Al Arab, pronti a connettersi e a colorarsi."
+        },
+        "space": {
+          "name": "Spazio",
+          "description": "Pianeti, astronauti e avventure spaziali."
+        },
+        "worksheets": {
+          "name": "Fogli di lavoro",
+          "description": "Schede per l'apprendimento della sequenza numerica, pronte per l'uso da parte degli insegnanti."
+        },
+        "bigDotBooks": {
+          "name": "Big Dot Books",
+          "description": "Puzzle di lunga durata per studenti più grandi e concentrati."
+        },
+        "cute": {
+          "name": "Carino",
+          "description": "Cuccioli adorabili, macchinine e {count} incantevoli puzzle &quot;unisci i puntini&quot; gratuiti che i tuoi bambini adoreranno."
+        },
+        "circus": {
+          "name": "Circo",
+          "description": "Maestri di cerimonia, tendoni e divertimento per i giovani apprendisti."
+        }
+      }
+    },
+    "puzzleSection": {
+      "eyebrow": "Campioni gratuiti da stampare, senza bisogno di registrazione.",
+      "heading": "Fogli \"unisci i puntini\" popolari da stampare ora",
+      "weeklyPack": "Vedi il pacchetto settimanale →",
+      "downloadLink": "Scarica gratuitamente stampabile",
+      "new": "Nuovo",
+      "imageAlt": "{name} foglio di lavoro gratuito \"unisci i puntini\" stampabile per {age}",
+      "categories": {
+        "Dinosaurs": "Dinosauri",
+        "Ocean": "Oceano",
+        "Playgrounds": "campi da gioco",
+        "Garden": "Giardino",
+        "Cute": "Carino",
+        "USA 250 Years": "250 anni dell'America",
+        "UAE": "Emirati Arabi Uniti"
+      },
+      "items": {
+        "trex-61-dot-to-dot-puzzle": {
+          "name": "Sfida T-Rex a 61 punti"
+        },
+        "brontosaurus-dot-to-dot-puzzle": {
+          "name": "Brontosauro"
+        },
+        "mermaid-dot-to-dot-puzzle": {
+          "name": "Sirena"
+        },
+        "merman-dot-to-dot-puzzle": {
+          "name": "Tritone"
+        },
+        "seahorse-dot-to-dot-puzzle": {
+          "name": "Cavalluccio marino"
+        },
+        "whale-dot-to-dot-puzzle": {
+          "name": "Balena"
+        },
+        "swing-playgrounds-dot-to-dot-puzzle": {
+          "name": "Altalene da parco giochi"
+        },
+        "slide-playgrounds-dot-to-dot-puzzle": {
+          "name": "Parco giochi con scivolo"
+        },
+        "seesaw-playground-dot-to-dot-puzzle": {
+          "name": "Altalena da parco giochi"
+        },
+        "roller-coaster-playground-dot-to-dot-puzzle": {
+          "name": "Parco giochi con montagne russe"
+        },
+        "wheelbarrow-playground-dot-to-dot-puzzle": {
+          "name": "Parco giochi con carriola"
+        },
+        "garden-gloves-dot-to-dot-puzzle": {
+          "name": "Guanti da giardinaggio"
+        },
+        "garden-trowel-dot-to-dot-puzzle": {
+          "name": "Cazzuola da giardino"
+        },
+        "gas-balloon-usa-250-dot-to-dot-puzzle": {
+          "name": "Pallone a Gas America 250"
+        },
+        "america-250-birthday-fireworks-dot-to-dot-puzzle": {
+          "name": "Fuochi d'artificio per il 250° compleanno dell'America"
+        },
+        "america-250-anniversary-liberty-bell-wings-1776-dot-to-dot-puzzle": {
+          "name": "America 250 Ali della Campana della Libertà"
+        },
+        "usa-250-astronaut-dot-to-dot-puzzle": {
+          "name": "250° Astronauta d'America"
+        },
+        "usa-250-anniversary-sports-kids-podium-dot-to-dot-puzzle": {
+          "name": "Podio dei bambini dello sport per il 250° anniversario dell'America"
+        },
+        "usa-250-anniversary-airplane-banner-dot-to-dot-puzzle": {
+          "name": "Stendardo dell'aereo per il 250° anniversario dell'America"
+        },
+        "usa-250-space-shuttle-dot-to-dot-puzzle": {
+          "name": "250° anniversario dello Space Shuttle in America"
+        },
+        "usa-250-birthday-balloons-stars-dot-to-dot-puzzle": {
+          "name": "Palloncini e stelle per il 250° compleanno dell'America"
+        },
+        "usa-250-birthday-cake-dot-to-dot-puzzle": {
+          "name": "Torta per il 250° compleanno dell'America"
+        },
+        "america-250-anniversary-eagle-banner-dot-to-dot-puzzle": {
+          "name": "Stendardo dell'aquila per il 250° anniversario dell'America"
+        },
+        "burj-al-arab-dot-to-dot-puzzle": {
+          "name": "Burg Al Arab"
+        },
+        "dallah-coffee-pot-dot-to-dot-puzzle": {
+          "name": "Caffettiera Dallah"
+        }
+      }
+    },
+    "benefits": {
+      "eyebrow": "Supportato dagli educatori della prima infanzia",
+      "heading": "Perché i fogli di lavoro \"unisci i puntini\" sono ottimi per lo sviluppo del bambino",
+      "description": "I disegni da stampare unendo i puntini non sono solo divertenti, ma rappresentano anche uno strumento scientificamente provato e utilizzato dagli insegnanti della scuola dell'infanzia e della scuola primaria per sviluppare le competenze fondamentali dell'apprendimento precoce.",
+      "fineMotorTitle": "Sviluppa le capacità motorie fini",
+      "fineMotorText": "Disegnare linee unendo i puntini sviluppa la presa della matita, la coordinazione occhio-mano e il controllo muscolare necessario ai bambini per la scrittura.",
+      "numberTitle": "Rafforza il riconoscimento dei numeri",
+      "numberText": "Seguire i punti 1 → 2 → 3 in sequenza insegna l'ordine di conteggio, il riconoscimento dei numeri e i primi concetti matematici in modo naturale attraverso il gioco.",
+      "focusTitle": "Migliora la concentrazione e l'attenzione.",
+      "focusText": "Completare un puzzle unendo i puntini richiede un'attenzione costante: un modo tranquillo e senza schermi per esercitare la concentrazione, adatto ai bambini dalla scuola dell'infanzia alla terza elementare.",
+      "confidenceTitle": "Ricompensa immediata e fiducia in sé stessi",
+      "confidenceText": "Quando l'immagine nascosta appare, i bambini provano un immediato senso di soddisfazione. Questa piccola vittoria alimenta l'amore per l'apprendimento e una mentalità orientata alla crescita."
+    },
+    "howTo": {
+      "eyebrow": "Pronto in meno di 60 secondi",
+      "heading": "Come scaricare e stampare i tuoi fogli di lavoro gratuiti \"unisci i puntini\"",
+      "step1Title": "Scegli il tuo puzzle",
+      "step1Text": "Scegli un tema (animali, dinosauri, veicoli, festività) e un intervallo di punti adatto all'età e al livello di abilità di tuo figlio.",
+      "step2Title": "Scarica il PDF gratuito",
+      "step2Text": "Clicca su \"Scarica la versione stampabile gratuita\" — non è necessario alcun account, email o abbonamento a pagamento. Il tuo browser scaricherà il PDF all'istante.",
+      "step3Title": "Stampa e divertiti",
+      "step3Text": "Stampate su carta standard formato US Letter (21,6 x 27,9 cm). Il bianco e nero funziona perfettamente. Date il foglio a vostro figlio e guardatelo mentre unisce i puntini!"
+    },
+    "trust": {
+      "eyebrow": "Perché genitori e insegnanti ci scelgono",
+      "heading": "Gratuito, sicuro e incredibilmente facile da usare.",
+      "noAccountTitle": "Non è richiesto alcun account",
+      "noAccountText": "Ogni disegno da completare unendo i puntini si scarica immediatamente: nessuna registrazione, nessuna email, nessun abbonamento a pagamento. Basta cliccare e stampare.",
+      "safeTitle": "Cassaforte in classe",
+      "safeText": "Pagine di puzzle pulite e senza pubblicità, progettate per le stampanti scolastiche. Ideali per le attività mattutine, i compiti a casa o i momenti di relax.",
+      "fastTitle": "Veloce per sua stessa natura",
+      "fastText": "Pagine statiche, immagini ottimizzate e font locali garantiscono un caricamento rapido dei puzzle su qualsiasi dispositivo: telefono, tablet o laptop."
+    },
+    "faq": {
+      "eyebrow": "Domande frequenti",
+      "heading": "Domande frequenti",
+      "q1": "Tutti i disegni da unire i puntini presenti su questo sito sono completamente gratuiti?",
+      "a1": "Sì, tutti i fogli di lavoro \"unisci i puntini\" su DotToDotFreePrintables.com sono scaricabili e stampabili gratuitamente al 100%. Non è richiesto alcun account, abbonamento o carta di credito.",
+      "q2": "Per quale fascia d'età sono adatti i fogli di lavoro \"unisci i puntini\"?",
+      "a2": "I nostri materiali stampabili sono adatti a bambini dai 2 ai 12 anni. Le schede facili (10-20 punti) sono ideali per i più piccoli e per i bambini in età prescolare, quelle di livello intermedio (20-50 punti) sono perfette per la scuola dell'infanzia e la prima elementare, mentre quelle più difficili (50-200+ punti) rappresentano una sfida per gli alunni dalla seconda alla sesta elementare.",
+      "q3": "In che formato sono i file stampabili \"unisci i puntini\"?",
+      "a3": "Tutti i fogli di lavoro vengono scaricati come file PDF pronti per la stampa, dimensionati per carta standard US Letter (8,5\" × 11\"). Aprili con qualsiasi browser o visualizzatore PDF e stampali: non è necessario alcun software speciale.",
+      "q4": "Avete schede di esercizi \"unisci i puntini\" per la scuola dell'infanzia e la scuola primaria?",
+      "a4": "Certamente. I nostri fogli di lavoro più semplici iniziano con 1-10 punti (perfetti per bambini dai 2 ai 4 anni) e includono temi di riconoscimento dell'alfabeto e dei numeri pensati per le classi della scuola dell'infanzia e della scuola primaria.",
+      "q5": "Gli insegnanti possono utilizzare questi fogli di lavoro \"unisci i puntini\" in classe?",
+      "a5": "Sì! I nostri materiali stampabili sono gratuiti sia per uso personale che scolastico. Sono molto apprezzati per le attività del mattino, per gli studenti che finiscono prima, per le lezioni di supplenza, per i centri di motricità fine e come pacchetti di compiti a casa.",
+      "q6": "I giochi \"unisci i puntini\" aiutano a sviluppare la motricità fine?",
+      "a6": "Sì, tracciare linee tra i puntini rafforza la presa della matita e migliora la coordinazione occhio-mano, elementi fondamentali per l'apprendimento della scrittura. Molti terapisti occupazionali e insegnanti di scuola dell'infanzia raccomandano attività di unire i puntini proprio per questo motivo.",
+      "q7": "Avete dei disegni da stampare unendo i puntini a tema, ad esempio animali o dinosauri?",
+      "a7": "Abbiamo 11 categorie, tra cui animali, dinosauri, veicoli, creature marine, parchi giochi, America 250 Years, spazio, fantasy, temi stagionali/festivi, pacchetti di schede didattiche per insegnanti e libri con puntini grandi. Nuovi design vengono aggiunti settimanalmente.",
+      "q8": "Posso stampare questi puzzle in bianco e nero?",
+      "a8": "Sì, tutti i nostri fogli di lavoro \"unisci i puntini\" sono progettati per la stampa in bianco e nero, in modo da risparmiare inchiostro. Hanno un aspetto perfetto su qualsiasi stampante, sia domestica che scolastica."
+    },
+    "newsletter": {
+      "eyebrow": "Kit di base stampabile, completamente gratuito.",
+      "heading": "Ricevi 20 disegni da unire i puntini gratuiti direttamente nella tua casella di posta elettronica.",
+      "description": "Una raccolta pensata per genitori e insegnanti, con illustrazioni di animali, veicoli, dinosauri e temi stagionali, tutte in formato standard US Letter e ottimizzate per la stampa in bianco e nero."
+    },
+    "blog": {
+      "eyebrow": "Idee per adulti",
+      "heading": "Consigli di apprendimento per casa e in classe",
+      "viewAll": "Visualizza tutti gli articoli",
+      "read": "Leggere"
+    },
+    "feedback": {
+      "eyebrow": "Ci farebbe piacere ricevere un tuo feedback.",
+      "heading": "Invia feedback",
+      "description": "Hai un'idea per un enigma, hai trovato un link non funzionante o vuoi semplicemente salutarci? Scrivici qui sotto."
+    },
+    "footer": {
+      "description": "Disegni da completare unendo i puntini, gratuiti per bambini, genitori e insegnanti. Tutti i puzzle sono scaricabili, stampabili e condivisibili gratuitamente.",
+      "kids": "Bambini",
+      "parents": "Genitori",
+      "teachers": "Insegnanti",
+      "blog": "Blog",
+      "faq": "FAQ",
+      "feedback": "Feedback",
+      "about": "Di",
+      "contact": "Contatto",
+      "privacy": "Privacy",
+      "terms": "Informazioni",
+      "sitemap": "Mappa del sito",
+      "copyright": "© {year} DotToDotFreePrintables.com · Attività stampabili gratuite per bambini"
+    },
+    "common": {
+      "home": "Casa",
+      "new": "Nuovo",
+      "comingSoon": "Prossimamente",
+      "downloadFree": "Scarica gratuitamente stampabile",
+      "viewDownload": "Visualizza e scarica",
+      "shareTitle": "{name} Collega i Punti Stampabile - PDF Gratuito",
+      "downloadAria": "Scarica il PDF stampabile {name} collega i punti gratuito",
+      "bookmarkTitle": "{name} Collega i Punti Stampabile – PDF Gratuito per Bambini",
+      "showSlide": "Mostra diapositiva {number}",
+      "ageRange": "Età {min}-{max}",
+      "difficultyLabel": "Livello di difficoltà {level} su 3",
+      "difficulty": {
+        "1": "Facile",
+        "2": "Mezzo",
+        "3": "Difficile"
+      },
+      "dots": "1–{count} punti",
+      "homeVideoEyebrow": "Video",
+      "homeVideoH2": "Guarda il divertimento di unire i puntini in azione",
+      "skipToContent": "Salta al contenuto principale",
+      "joinTeachers": "Unisciti a {count}+ insegnanti",
+      "breadcrumbAria": "Briciole di pane"
+    },
+    "puzzleSearch": {
+      "placeholder": "Cerca per nome o argomento... es. oceano, balena, T-Rex",
+      "searchAria": "Puzzle di ricerca",
+      "clearSearch": "Cancella ricerca",
+      "toggleFilters": "Mostra/nascondi filtri",
+      "filters": "Filtri",
+      "filterOptions": "Opzioni filtro",
+      "topic": "Argomento",
+      "numberOfDots": "Numero di punti",
+      "recentlyAddedOnly": "Solo aggiunti di recente",
+      "clearAllFilters": "Cancella tutti i filtri",
+      "clearFilters": "Cancella filtri",
+      "resultsFound": "{count, plural, one {# puzzle trovato} other {# puzzle trovati}}",
+      "puzzlesAvailable": "{count, plural, one {# puzzle disponibile} other {# puzzle disponibili}}",
+      "noMatches": "Nessun puzzle corrisponde alla tua ricerca.",
+      "openPuzzle": "Apri {name}",
+      "imageAlt": "{name} unisci i puntini stampabile",
+      "viewPuzzle": "Vedi puzzle →",
+      "dotRanges": {
+        "under35": "Meno di 35 punti",
+        "35to50": "35-50 punti",
+        "51to70": "51-70 punti",
+        "over70": "70+ punti"
+      },
+      "categories": {
+        "Dinosaurs": "Dinosauri",
+        "Ocean": "Oceano",
+        "Playgrounds": "Parchi giochi",
+        "Garden": "Giardino",
+        "Cute": "Carino",
+        "USA 250 Years": "USA 250 anni",
+        "UAE": "EAU"
+      }
+    },
+    "newsletterForm": {
+      "ariaLabel": "Scarica il pacchetto gratuito di disegni da unire i puntini",
+      "emailLabel": "Indirizzo e-mail",
+      "submit": "invia un pacco gratuito",
+      "honeypot": "Lascia vuoto questo campo",
+      "privacy": "Niente spam, mai. Puoi disiscriverti in qualsiasi momento.",
+      "error": "Impossibile inviare il modulo.",
+      "notConnected": "La registrazione al pacchetto gratuito non è ancora attiva."
+    },
+    "feedbackForm": {
+      "ariaLabel": "Invia feedback",
+      "notConnected": "Questo modulo di feedback non è ancora collegato.",
+      "typeLabel": "Che tipo di feedback?",
+      "selectTopic": "Seleziona un argomento...",
+      "types": {
+        "general": "Feedback generale",
+        "requestTheme": "Richiedi un tema per puzzle",
+        "brokenLink": "Segnala un link non funzionante",
+        "improvement": "Suggerisci un miglioramento",
+        "other": "Altro"
+      },
+      "messageLabel": "Il tuo messaggio",
+      "messagePlaceholder": "Dicci cosa ne pensi...",
+      "emailLabel": "E-mail",
+      "emailOptional": "(facoltativo - solo se desideri una risposta)",
+      "submit": "Invia feedback",
+      "success": "Grazie. Il tuo feedback è stato inoltrato.",
+      "disclaimer": "Si prega di non includere informazioni personali sensibili. L'indirizzo email è facoltativo e verrà utilizzato solo se avremo bisogno di rispondere.",
+      "iframeTitle": "Invio del feedback"
+    },
+    "hero": {
+      "badge": "100% gratis · nessun account richiesto",
+      "h1": "Schede gratuite di unisci i puntini per bambini – disegni da unire con i numeri",
+      "description": "Scarica gratis le schede di unisci i puntini per la scuola dell'infanzia e la scuola primaria, pensate per Stati Uniti, Regno Unito, Canada e Australia, inclusi i contesti EYFS britannici. Da semplici pagine da 38 puntini fino a sfide con oltre 130 puntini, con animali, dinosauri, veicoli e temi delle festività – pronte da stampare in pochi secondi, senza bisogno di registrazione.",
+      "browsePuzzles": "Sfoglia i puzzle gratuiti",
+      "starterPack": "Ottieni il pacchetto iniziale da 20 puzzle",
+      "stat1Value": "Accuratamente verificato",
+      "stat1Label": "puzzle stampabili gratuiti",
+      "stat2Value": "Da 2 a 12 anni",
+      "stat2Label": "tutti i livelli",
+      "stat3Value": "100%",
+      "stat3Label": "gratis, per sempre"
+    },
+    "config": {
+      "featured_puzzle_slugs": "[\"trex-61-dot-to-dot-puzzle\",\"mermaid-dot-to-dot-puzzle\",\"jellyfish-dot-to-dot-puzzle\",\"cute-puppy-dot-to-dot-puzzle\",\"slide-playgrounds-dot-to-dot-puzzle\",\"snowdrop-flower-dot-to-dot-puzzle\",\"dashing-car-playground-dot-to-dot-puzzle\",\"lotus-flower-dot-to-dot-puzzle\"]",
+      "recent_puzzle_slugs": "[\"circus-ringmaster-bear-dot-to-dot-puzzle\",\"circus-tent-dot-to-dot-puzzle\",\"space-rover-dot-to-dot-puzzle\",\"ringed-planet-dot-to-dot-puzzle\"]"
+    },
+    "purchase": {
+      "ad": {
+        "packName": "Pacchetto di puzzle unisci i puntini",
+        "pdfBook": "LIBRO PDF",
+        "bookTitle": "Il meglio del 2026",
+        "puzzleCount": "25 puzzle unisci i puntini",
+        "viewBook": "Vedi libro"
+      },
+      "shared": {
+        "specialSale": "OFFERTA SPECIALE",
+        "returnToPack": "Torna al pacchetto puzzle",
+        "contactUs": "Contattaci"
+      },
+      "premium": {
+        "metaTitle": "Pacchetto Premium Best of 2026 Puzzle Unisci i Puntini",
+        "metaDescription": "Una raccolta pronta da stampare dei puzzle unisci i puntini preferiti dai bambini, riuniti in un comodo PDF.",
+        "eyebrow": "Collezione premium stampabile",
+        "lede": "La collezione Best of 2026 raccoglie le nostre attività unisci i puntini preferite in un pacchetto facile da stampare, perfetto per i momenti tranquilli, i giorni di pioggia, l'homeschooling e la classe.",
+        "digitalPdf": "PDF digitale",
+        "printAtHome": "Stampa a casa",
+        "instantAccess": "Accesso immediato",
+        "purchaseAria": "Acquista il pacchetto puzzle Best of 2026",
+        "coverAlt": "Best of 2026 - Copertina del libro con 25 puzzle Unisci i Puntini",
+        "oneTime": "pagamento unico",
+        "buyButton": "Ottieni il pacchetto puzzle",
+        "localNote": "Su localhost, questo apre una demo di pagamento sicura e non addebita mai alcuna carta.",
+        "detailsEyebrow": "Pensato per stampare e giocare senza complicazioni",
+        "detailsText": "Scarica una volta, tienilo sempre a portata di mano e stampa le attività che vuoi quando ne hai bisogno.",
+        "benefits": {
+          "onePdf": "Un unico PDF comodo, pronto da stampare",
+          "kidFriendly": "Puzzle adatti ai bambini con diversi livelli di difficoltà",
+          "paperSizes": "Compatibile con carta US Letter e A4",
+          "instantAccess": "Accesso immediato dopo un pagamento riuscito",
+          "classroomUse": "Utilizzabile a casa o in una singola classe"
+        },
+        "guaranteeText": "Dopo il pagamento, il tuo link di download privato appare immediatamente. Nessun abbonamento e nessun rinnovo a sorpresa."
+      },
+      "checkout": {
+        "consent": "Accetto la consegna immediata di questo PDF digitale e comprendo che, una volta iniziato l'accesso, la vendita è definitiva e non rimborsabile, salvo quanto richiesto dalla legge o nel caso in cui il file non venga consegnato o sia difettoso.",
+        "refundPolicy": "Leggi la politica di rimborso",
+        "opening": "Apertura del pagamento in corso...",
+        "secureNote": "Pagamento sicuro offerto da Stripe. Pagamento unico. Nessun abbonamento.",
+        "error": "Si è verificato un problema durante l'avvio del pagamento. Riprova."
+      },
+      "success": {
+        "metaTitle": "Grazie per il tuo acquisto",
+        "eyebrow": "Pagamento confermato",
+        "lede": "Il pagamento è andato a buon fine. Potrebbero volerci alcuni secondi prima che l'acquisto compaia nel tuo account."
+      },
+      "cancelled": {
+        "metaTitle": "Pagamento annullato",
+        "eyebrow": "Nessun addebito effettuato",
+        "lede": "Non è stato effettuato alcun addebito. Puoi riprovare in qualsiasi momento."
+      },
+      "download": {
+        "demoTitle": "Test di pagamento locale superato.",
+        "demoText": "La vera schermata di pagamento riuscito mostra qui il pulsante di download del PDF. La demo locale non rilascia il file privato.",
+        "button": "Scarica il tuo pacchetto puzzle",
+        "expires": "Questo link scade tra 24 ore. Salva il file scaricato in un luogo sicuro.",
+        "failed": "Non siamo ancora riusciti a confermare il tuo acquisto. Se l'addebito è stato effettuato, aggiorna questa pagina tra un minuto o contattaci per assistenza.",
+        "preparing": "Preparazione del download in corso..."
+      }
+    },
+    "puzzleDetail": {
+      "agesLabel": "Età:",
+      "dotsLabel": "Punti:",
+      "freeLabel": "100% gratuito",
+      "difficultyHeading": "Difficoltà",
+      "difficultyEasy": "Facile",
+      "difficultyMedium": "Medio",
+      "difficultyHard": "Difficile",
+      "funFactPrefix": "Fatto divertente:",
+      "funFactLabel": "Fatto divertente!",
+      "noSignUp": "Non è necessaria la registrazione.Si apre come PDF.Stampa su carta US Letter (8,5 × 11 pollici) o A4.Gratuito per uso domestico e in classe.",
+      "comingSoon": "Scarica il PDF gratuito – Disponibile a breve",
+      "youMightLike": "Potrebbe piacerti anche",
+      "faqQ1": "Per che età è adatto il puzzle punto per punto di {nome}?",
+      "faqA1": "È progettato per età {age}.Con i punti {dots}, è adatto ai bambini che sanno contare con sicurezza fino a {dots};i bambini più piccoli potranno completarlo con un piccolo aiuto.",
+      "faqQ2": "Come posso stampare il foglio di lavoro di {nome}?",
+      "faqA2": "Fai clic sul pulsante di download per ottenere il PDF gratuito, quindi stampalo su carta normale (A4 o US Letter) da qualsiasi browser o lettore PDF.Non è necessario alcun software speciale.",
+      "faqQ3": "Il formato stampabile di {nome} è davvero gratuito?",
+      "faqA3": "Sì, è gratuito al 100%, senza registrazione, account o pagamento richiesti.Puoi stamparlo per uso domestico o in classe."
+    },
+    "downloadBadge": {
+      "downloaded": "Scaricato",
+      "times": "volte",
+      "greatChoice": "Hai fatto un'ottima scelta!"
+    },
+    "shareButtons": {
+      "label": "Condividere",
+      "copyLink": "Copia collegamento",
+      "copied": "Link copiato!",
+      "shareMe": "Condividimi"
+    },
+    "blogPage": {
+      "eyebrow": "Risorse per l'apprendimento",
+      "h1": "Idee punto per punto per genitori e insegnanti",
+      "description": "Guide pratiche per scegliere le attività, sviluppare competenze di apprendimento precoce e utilizzare fogli di lavoro stampabili a casa o in classe.",
+      "breadcrumb": "Blog",
+      "latestEyebrow": "Ultimi articoli",
+      "latestH2": "Idee utili che puoi utilizzare oggi",
+      "readArticle": "Leggi l'articolo",
+      "by": "Di",
+      "backToAll": "← Torna a tutti gli articoli",
+      "savePinterest": "Salva su Pinterest",
+      "relatedEyebrow": "Stampabili gratuiti",
+      "relatedHeading": "Prova queste raccolte punto per punto successivamente"
+    },
+    "canadaPage": {
+      "category": "Canada"
+    },
+    "circusPage": {
+      "category": "Circo"
+    },
+    "cutePage": {
+      "category": "Carino"
+    },
+    "dinosaursPage": {
+      "category": "Dinosauri"
+    },
+    "flowersPage": {
+      "category": "Fiori"
+    },
+    "gardenPage": {
+      "category": "Giardino"
+    },
+    "oceanPage": {
+      "category": "Oceano"
+    },
+    "playgroundsPage": {
+      "category": "Campi da gioco"
+    },
+    "spacePage": {
+      "category": "Spazio"
+    },
+    "uaePage": {
+      "category": "Emirati Arabi Uniti"
+    },
+    "usa250Page": {
+      "category": "250° anniversario degli Stati Uniti"
+    }
+  }
+}

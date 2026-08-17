@@ -1,0 +1,602 @@
+{
+  "slug": "home",
+  "header": {
+    "title": "Gratis prick till prick för barn | PDF-ark att skriva ut",
+    "title_template": "%s | DotToDotFreePrintables.com",
+    "meta_description": "Skriv ut, koppla prickarna och väck fantastiska bilder till liv. Gratis och redo för skoj — Punkt till punkt ritning barn.",
+    "canonical": "/{locale}/",
+    "og": {
+      "title": "Prick till prick – gratis pussel för barn och vuxna",
+      "description": "Skriv ut, koppla prickarna och väck fantastiska bilder till liv. Gratis och redo för skoj!",
+      "url": "/{locale}/",
+      "site_name": "DotToDotFreePrintables.com",
+      "type": "website",
+      "image": "/images/trex-61-puzzle.webp (800x679)"
+    },
+    "twitter": {
+      "card": "summary_large_image"
+    },
+    "manifest": "/manifest.webmanifest",
+    "json_ld": {
+      "website": {
+        "type": "WebSite",
+        "name": "DotToDotFreePrintables.com (SITE_NAME)"
+      },
+      "organization": {
+        "type": "Organization",
+        "logo": "/icon-512.png (absoluteUrl)",
+        "same_as": "[\"https://www.pinterest.com/hellokidsbookworld/\", \"https://www.facebook.com/dottodotfreeprintables\", \"https://www.youtube.com/@hellokidsbookworld\"]"
+      },
+      "collection_page": {
+        "type": "CollectionPage",
+        "name": "Hitta de perfekta prick-till-prick-utskrifterna"
+      },
+      "item_list": {
+        "type": "ItemList (featured puzzles)"
+      }
+    }
+  },
+  "UNUSED:seo/metadata": {
+    "json:homepage": {
+      "title": "Gratis prick-till-prick-ark för barn | Anslut-prickarna-uppgifter som PDF",
+      "ogTitle": "Gratis prick-till-prick-ark för barn",
+      "description": "Ladda ner gratis anslut-prickarna-ark för barn: djur, dinosaurier, fordon, högtidsteman och mer. Utskriftsklar PDF för förskola och lågstadiet. Helt utan registrering."
+    }
+  },
+  "body": {
+    "nav": {
+      "kids": "Barn - Pussel",
+      "teachers": "Lärare",
+      "parents": "Föräldrar",
+      "contact": "Kontakta oss",
+      "blog": "Blogg",
+      "search": "Söka",
+      "freePack": "Gratispaket",
+      "scanMe": "Skanna mig"
+    },
+    "homepageUi": {
+      "title": "Hitta de perfekta prick-till-prick-utskrifterna",
+      "description": "Skriv ut, koppla prickarna och väck fantastiska bilder till liv. Gratis och redo för skoj!",
+      "searchPlaceholder": "Prova hav, dinosaurie eller blommor",
+      "filterPuzzles": "Filtrera pussel",
+      "age": "Ålder",
+      "dots": "prickar",
+      "featuredPuzzles": "Utvalda utskrivbara pussel",
+      "savePuzzle": "Spara {name}",
+      "removeSavedPuzzle": "Ta bort {name} från sparade",
+      "downloads": "nedladdningar",
+      "bookTitle": "Bästa av 2026 · {count}",
+      "bookDescription": "Våra favoritprick-till-prick-pussel i en utskrivbar PDF-bok.",
+      "searchUnavailable": "Sökningen är tillfälligt otillgänglig. Försök igen.",
+      "popularEyebrow": "Populärt denna vecka",
+      "mostDownloaded": "Mest nedladdade pussel",
+      "downloadCountAria": "{count} eller fler nedladdningar",
+      "freshPrintables": "Nya utskrifter",
+      "recentlyAdded": "Nyligen tillagda",
+      "browseCategories": "Bläddra i pusselkategorier",
+      "openCategories": "Öppna kategorimeny",
+      "closeCategories": "Stäng kategorimeny",
+      "browseByTheme": "Bläddra efter tema",
+      "quickLinks": "Snabblänkar",
+      "bundlePacks": "Paket med bundlar",
+      "parentsTeachers": "För föräldrar och lärare",
+      "more": "Fler kategorier",
+      "kids": "Barn",
+      "categoryNames": {
+        "cute": "Söta pussel",
+        "flowers": "Blommor"
+      }
+    },
+    "audience": {
+      "kidsTitle": "För barn",
+      "kidsText": "Vänliga djur-, dinosaurie- och fordonsteman med tydliga numrerade prickar. Enkla vinster som bygger upp riktigt självförtroende.",
+      "parentsTitle": "För föräldrar",
+      "parentsText": "Skärmfria aktiviteter för lugn och ro hemma, på resor och restauranger. Skriv ut från vilken enhet som helst på under en minut.",
+      "teachersTitle": "För lärare",
+      "teachersText": "Lättförberedande kopplingar till morgonarbete, tidiga slutföranden, avbyten och klassrumsstationer – ingen förberedelse krävs."
+    },
+    "categories": {
+      "eyebrow": "Organiserad efter tema och färdighetsnivå",
+      "heading": "Bläddra bland prick-till-prick-pussel efter kategori",
+      "description": "Från enkla 10-punktsformer för småbarn till 200-punktsutmaningar för äldre barn – sorterade efter kategori så att du hittar rätt gratis utskrivbara material på några sekunder.",
+      "puzzles": "{count, plural, one {# pussel} other {# pussel}}",
+      "comingSoon": "Kommer snart",
+      "badges": {
+        "dinosaurs": "Tillgänglig nu!",
+        "ocean": "Tillgänglig nu!",
+        "playgrounds": "Tillgänglig nu!",
+        "garden": "Tillgänglig nu!",
+        "usa250": "Ny!",
+        "uae": "Tillgänglig nu!",
+        "cute": "Ny!",
+        "circus": "Ny!"
+      },
+      "items": {
+        "dinosaurs": {
+          "name": "Dinosaurier",
+          "description": "Ryt in i förhistoriskt skoj! T-Rex, Triceratops, Velociraptor och {count} gratis prick-till-prick-pussel som dina barn kommer att älska."
+        },
+        "animals": {
+          "name": "Djur",
+          "description": "Vänliga varelser för tidig sifferövning."
+        },
+        "vehicles": {
+          "name": "Fordon",
+          "description": "Bilar, lastbilar, raketer och maskiner."
+        },
+        "fantasy": {
+          "name": "Fantasi",
+          "description": "Slott, enhörningar, drakar och berättelser."
+        },
+        "seasonal": {
+          "name": "Säsong",
+          "description": "Aktiviteter i klassrummet och under helgdagar."
+        },
+        "ocean": {
+          "name": "Hav",
+          "description": "Havsdjur och lugna målarbilder."
+        },
+        "playgrounds": {
+          "name": "Lekplatser",
+          "description": "Gungor, rutschkanor och utomhuskul för små äventyrare."
+        },
+        "garden": {
+          "name": "Trädgård",
+          "description": "Handskar, murslev och verktyg för små trädgårdshjälpare."
+        },
+        "usa250": {
+          "name": "Amerika 250 år",
+          "description": "Fira Amerikas 250-årsdag med patriotiska prick-till-prick-pussel som hyllar amerikansk historia."
+        },
+        "uae": {
+          "name": "Förenade Arabemiraten",
+          "description": "Utforska Förenade Arabemiraten! Ikoniska landmärken som Burj Al Arab, redo att skapas och färgläggas."
+        },
+        "space": {
+          "name": "Utrymme",
+          "description": "Planeter, astronauter och raketäventyr."
+        },
+        "worksheets": {
+          "name": "Arbetsblad",
+          "description": "Lärarfärdiga blad för nummersekvensering."
+        },
+        "bigDotBooks": {
+          "name": "Stora prickböcker",
+          "description": "Långa pussel för fokuserade äldre elever."
+        },
+        "cute": {
+          "name": "Söt",
+          "description": "Bedårande valpar, små bilar och {count} charmiga gratis prick-till-prick-pussel som dina barn kommer att älska."
+        },
+        "circus": {
+          "name": "Cirkus",
+          "description": "Ringmaster, stora tält och underhållning för unga lärande."
+        }
+      }
+    },
+    "puzzleSection": {
+      "eyebrow": "Gratis utskrivbara prover – ingen registrering",
+      "heading": "Populära sammanbindningsark att skriva ut nu",
+      "weeklyPack": "Se veckopaket →",
+      "downloadLink": "Ladda ner gratis utskrivbar",
+      "new": "Ny",
+      "imageAlt": "{name} gratis utskrivbara prick-till-prick-arbetsblad för {age}",
+      "categories": {
+        "Dinosaurs": "Dinosaurier",
+        "Ocean": "Hav",
+        "Playgrounds": "Lekplatser",
+        "Garden": "Trädgård",
+        "Cute": "Söt",
+        "USA 250 Years": "Amerika 250 år",
+        "UAE": "Förenade Arabemiraten"
+      },
+      "items": {
+        "trex-61-dot-to-dot-puzzle": {
+          "name": "T-Rex 61-punktsutmaning"
+        },
+        "brontosaurus-dot-to-dot-puzzle": {
+          "name": "Brontosaurus"
+        },
+        "mermaid-dot-to-dot-puzzle": {
+          "name": "Sjöjungfru"
+        },
+        "merman-dot-to-dot-puzzle": {
+          "name": "Sjöman"
+        },
+        "seahorse-dot-to-dot-puzzle": {
+          "name": "Sjöhäst"
+        },
+        "whale-dot-to-dot-puzzle": {
+          "name": "Val"
+        },
+        "swing-playgrounds-dot-to-dot-puzzle": {
+          "name": "Gunglekplats"
+        },
+        "slide-playgrounds-dot-to-dot-puzzle": {
+          "name": "Rutschkana"
+        },
+        "seesaw-playground-dot-to-dot-puzzle": {
+          "name": "Gungbräda Lekplats"
+        },
+        "roller-coaster-playground-dot-to-dot-puzzle": {
+          "name": "Berg-och-dalbana lekplats"
+        },
+        "wheelbarrow-playground-dot-to-dot-puzzle": {
+          "name": "Skottkärra Lekplats"
+        },
+        "garden-gloves-dot-to-dot-puzzle": {
+          "name": "Trädgårdshandskar"
+        },
+        "garden-trowel-dot-to-dot-puzzle": {
+          "name": "Trädgårdsslev"
+        },
+        "gas-balloon-usa-250-dot-to-dot-puzzle": {
+          "name": "Gasballong America 250"
+        },
+        "america-250-birthday-fireworks-dot-to-dot-puzzle": {
+          "name": "Amerikas 250-årsdagsfyrverkerier"
+        },
+        "america-250-anniversary-liberty-bell-wings-1776-dot-to-dot-puzzle": {
+          "name": "Amerika 250 Frihetsklockans vingar"
+        },
+        "usa-250-astronaut-dot-to-dot-puzzle": {
+          "name": "Amerika 250 Astronaut"
+        },
+        "usa-250-anniversary-sports-kids-podium-dot-to-dot-puzzle": {
+          "name": "America 250-årsjubileumsidrott för barn"
+        },
+        "usa-250-anniversary-airplane-banner-dot-to-dot-puzzle": {
+          "name": "Amerikas 250-årsjubileumsflygplansbanner"
+        },
+        "usa-250-space-shuttle-dot-to-dot-puzzle": {
+          "name": "Rymdfärjan America 250"
+        },
+        "usa-250-birthday-balloons-stars-dot-to-dot-puzzle": {
+          "name": "Amerikas 250-årsdagsballonger och stjärnor"
+        },
+        "usa-250-birthday-cake-dot-to-dot-puzzle": {
+          "name": "Amerikas 250-årsdagstårta"
+        },
+        "america-250-anniversary-eagle-banner-dot-to-dot-puzzle": {
+          "name": "Amerika 250 Örnbanderoll"
+        },
+        "burj-al-arab-dot-to-dot-puzzle": {
+          "name": "Burdj Al Arab"
+        },
+        "dallah-coffee-pot-dot-to-dot-puzzle": {
+          "name": "Dallah Kaffekanna"
+        }
+      }
+    },
+    "benefits": {
+      "eyebrow": "Stöds av förskollärare",
+      "heading": "Varför prick-till-prick-arbetsblad är bra för barns utveckling",
+      "description": "Utskrivbara \"connect-the-pricks\"-bilder är mer än bara roliga – de är ett forskningsbaserat verktyg som används av förskollärare och dagislärare för att bygga upp grundläggande färdigheter i tidig inlärning.",
+      "fineMotorTitle": "Bygger upp finmotorik",
+      "fineMotorText": "Att rita prick-till-prick-linjer utvecklar penngrepp, hand-öga-koordination och den muskelkontroll som barn behöver för handstil.",
+      "numberTitle": "Förstärker nummerigenkänning",
+      "numberText": "Att följa punkterna 1 → 2 → 3 i följd lär barnen räkneordning, taligenkänning och tidiga matematiska begrepp på ett naturligt sätt genom lek.",
+      "focusTitle": "Förbättrar fokus och koncentration",
+      "focusText": "Att lägga ett pussel med prickar kräver ihållande uppmärksamhet – ett lugnt, skärmfritt sätt att öva fokus för förskola till årskurs 3.",
+      "confidenceTitle": "Omedelbar belöning och självförtroende",
+      "confidenceText": "När den dolda bilden dyker upp känner barnen en omedelbar känsla av prestation. Den lilla vinsten bygger upp en kärlek till lärande och ett utvecklingsinriktat tankesätt."
+    },
+    "howTo": {
+      "eyebrow": "Klar på under 60 sekunder",
+      "heading": "Hur du laddar ner och skriver ut dina gratis prick-till-prick-arbetsblad",
+      "step1Title": "Välj ditt pussel",
+      "step1Text": "Välj ett tema (djur, dinosaurier, fordon, högtid) och ett prickintervall som matchar ditt barns ålder och färdighetsnivå.",
+      "step2Title": "Ladda ner den kostnadsfria PDF-filen",
+      "step2Text": "Klicka på \"Ladda ner gratis utskrivbar fil\" — inget konto, ingen e-postadress, ingen betalvägg. Din webbläsare laddar ner PDF-filen direkt.",
+      "step3Title": "Skriv ut och njut",
+      "step3Text": "Skriv ut på vanligt US Letter-papper (8,5 × 11 tum). Svartvitt fungerar perfekt. Ge det till ditt barn och se dem koppla ihop prickarna!"
+    },
+    "trust": {
+      "eyebrow": "Varför föräldrar och lärare väljer oss",
+      "heading": "Gratis, säkert och otroligt enkelt att använda.",
+      "noAccountTitle": "Inget konto krävs",
+      "noAccountText": "Alla utskrivbara prick-till-prick-bilder laddas ner direkt – ingen registrering, ingen e-post, ingen betalvägg. Bara klicka och skriv ut.",
+      "safeTitle": "Klassrumssäkert",
+      "safeText": "Rena, reklamfria pusselsidor utformade för skolskrivare. Fungerar för morgonarbete, läxor eller lugn stund.",
+      "fastTitle": "Snabb genom design",
+      "fastText": "Statiska sidor, optimerade bilder och lokala teckensnitt gör att pussel laddas snabbt på alla enheter – telefon, surfplatta eller bärbar dator."
+    },
+    "faq": {
+      "eyebrow": "Vanliga frågor",
+      "heading": "Vanliga frågor",
+      "q1": "Är alla prick-till-prick-utskrivbara bilder på den här webbplatsen helt gratis?",
+      "a1": "Ja — alla arbetsblad med prickförbindelser på DotToDotFreePrintables.com är 100 % gratis att ladda ner och skriva ut. Inget konto, prenumeration eller kreditkort krävs någonsin.",
+      "q2": "För vilken ålder passar prick-till-prick-arbetsblad?",
+      "a2": "Våra utskrivbara ark täcker åldrarna 2–12. Enkla arbetsblad (10–20 prickar) passar småbarn och förskolebarn, mellanstora ark (20–50 prickar) är utmärkta för dagis och årskurs 1, och svårare ark (50–200+ prickar) utmanar andra till sjätte klass.",
+      "q3": "Vilket format har de utskrivbara \"connect the dots\"-bilderna?",
+      "a3": "Alla arbetsblad laddas ner som utskriftsklara PDF-filer i storlek för standardpapper i USA, Letter (8,5 × 11 tum). Öppna i valfri webbläsare eller PDF-läsare och skriv ut – ingen särskild programvara behövs.",
+      "q4": "Har ni prick-till-prick-arbetsblad för förskola och dagis?",
+      "a4": "Absolut. Våra enklaste arbetsblad börjar på 1–10 punkter (perfekt för åldrarna 2–4) och innehåller teman om alfabets- och sifferigenkänning utformade för förskoleklass och dagisklassrum.",
+      "q5": "Kan lärare använda dessa arbetsblad med prickar i klassrummet?",
+      "a5": "Ja! Våra utskrivbara material är gratis för personligt bruk och klassrumsbruk. De är populära för morgonarbete, aktiviteter för tidig avslutning, vikarieplaneringar, finmotorikcenter och läxpaket.",
+      "q6": "Hjälper prick-till-prick-pussel med finmotoriken?",
+      "a6": "Ja – att rita linjer mellan prickar stärker penngreppsstyrkan och hand-öga-koordinationen som stöder handstilsberedskap. Många arbetsterapeuter och förskolelärare rekommenderar prickförbindande aktiviteter av denna anledning.",
+      "q7": "Har ni temainriktade prick-till-prick-utskrivbara saker som djur eller dinosaurier?",
+      "a7": "Vi har 11 kategorier inklusive djur, dinosaurier, fordon, havsdjur, lekplatser, Amerika 250 år, rymden, fantasy, säsongs-/högtidsteman, arbetsblad för lärare och böcker med stora prickar. Nya designer läggs till varje vecka.",
+      "q8": "Kan jag skriva ut dessa pussel i svartvitt?",
+      "a8": "Ja – alla våra arbetsblad med punktförbindelser är utformade för svartvit utskrift för att spara bläck. De ser bra ut på vilken skrivare som helst, både hemma och i klassrummet."
+    },
+    "newsletter": {
+      "eyebrow": "Utskrivbart startpaket – helt gratis",
+      "heading": "Få 20 gratis prick-till-prick-utskrivbara bilder levererade till din inkorg.",
+      "description": "En föräldra- och lärarvänlig samling som täcker djur, fordon, dinosaurier och säsongsteman – alla i storlek för standard US Letter-papper och optimerade för svartvit utskrift."
+    },
+    "blog": {
+      "eyebrow": "Idéer för vuxna",
+      "heading": "Lärandetips för hemmet och klassrummet",
+      "viewAll": "Visa alla artiklar",
+      "read": "Läsa"
+    },
+    "feedback": {
+      "eyebrow": "Vi vill gärna höra från dig",
+      "heading": "Skicka feedback",
+      "description": "Har du en idé om ett pussel, upptäckt en trasig länk eller bara vill säga hej? Skriv ett meddelande nedan."
+    },
+    "footer": {
+      "description": "Gratis utskrivbara prick-till-prick-pussel och prickförbindelse-arbetsblad för barn, föräldrar och lärare. Alla pussel är gratis att ladda ner, skriva ut och dela.",
+      "kids": "Barn",
+      "parents": "Föräldrar",
+      "teachers": "Lärare",
+      "blog": "Blogg",
+      "faq": "Vanliga frågor",
+      "feedback": "Feed-back",
+      "about": "Om",
+      "contact": "Kontakta",
+      "privacy": "Privatliv",
+      "terms": "Villkor",
+      "sitemap": "Webbplatskarta",
+      "copyright": "© {year} DotToDotFreePrintables.com · Gratis utskrivbara aktiviteter för barn"
+    },
+    "common": {
+      "home": "Hem",
+      "new": "Ny",
+      "comingSoon": "Kommer snart",
+      "downloadFree": "Ladda ner gratis utskrivbar",
+      "viewDownload": "Visa och ladda ner",
+      "shareTitle": "{name} Prick-och-drag Utskrivbar - Gratis PDF",
+      "downloadAria": "Ladda ner gratis {name} prick-och-drag utskrivbar PDF",
+      "bookmarkTitle": "{name} Prick-och-drag Utskrivbar – Gratis PDF för barn",
+      "showSlide": "Visa bildspel {number}",
+      "ageRange": "Ålder {min}-{max}",
+      "difficultyLabel": "Svårighetsgrad {level} av 3",
+      "difficulty": {
+        "1": "Lätt",
+        "2": "Medium",
+        "3": "Hård"
+      },
+      "dots": "1–{count} prickar",
+      "homeVideoEyebrow": "Video",
+      "homeVideoH2": "Se prick-till-prick-leken i aktion",
+      "skipToContent": "Hoppa till huvudinnhold",
+      "joinTeachers": "Gå med {count}+ lärare",
+      "breadcrumbAria": "Brödsmulor"
+    },
+    "puzzleSearch": {
+      "placeholder": "Sök efter namn eller ämne... t.ex. hav, val, T-Rex",
+      "searchAria": "Sök pussel",
+      "clearSearch": "Rensa sökning",
+      "toggleFilters": "Visa/dölj filter",
+      "filters": "Filter",
+      "filterOptions": "Filteralternativ",
+      "topic": "Ämne",
+      "numberOfDots": "Antal prickar",
+      "recentlyAddedOnly": "Endast nyligen tillagda",
+      "clearAllFilters": "Rensa alla filter",
+      "clearFilters": "Rensa filter",
+      "resultsFound": "{count, plural, one {# pussel hittades} other {# pussel hittades}}",
+      "puzzlesAvailable": "{count, plural, one {# pussel tillgängligt} other {# pussel tillgängliga}}",
+      "noMatches": "Inga pussel matchade din sökning.",
+      "openPuzzle": "Öppna {name}",
+      "imageAlt": "{name} punkt-till-punkt utskrivbar",
+      "viewPuzzle": "Visa pussel →",
+      "dotRanges": {
+        "under35": "Under 35 prickar",
+        "35to50": "35-50 prickar",
+        "51to70": "51-70 prickar",
+        "over70": "70+ prickar"
+      },
+      "categories": {
+        "Dinosaurs": "Dinosaurier",
+        "Ocean": "Hav",
+        "Playgrounds": "Lekplatser",
+        "Garden": "Trädgård",
+        "Cute": "Gulligt",
+        "USA 250 Years": "USA 250 år",
+        "UAE": "UAE"
+      }
+    },
+    "newsletterForm": {
+      "ariaLabel": "Skaffa det kostnadsfria utskrivbara prick-till-prick-paketet",
+      "emailLabel": "E-postadress",
+      "submit": "Skicka gratispaket",
+      "honeypot": "Lämna detta fält tomt",
+      "privacy": "Aldrig spam. Avsluta prenumerationen när som helst.",
+      "error": "Det gick inte att skicka in det här formuläret.",
+      "notConnected": "Registreringen för gratispaketet är inte ansluten än."
+    },
+    "feedbackForm": {
+      "ariaLabel": "Skicka feedback",
+      "notConnected": "Detta feedbackformulär är inte anslutet ännu.",
+      "typeLabel": "Vilken typ av feedback?",
+      "selectTopic": "Välj ett ämne...",
+      "types": {
+        "general": "Allmän feedback",
+        "requestTheme": "Begär ett pusseltema",
+        "brokenLink": "Rapportera en trasig länk",
+        "improvement": "Föreslå en förbättring",
+        "other": "Andra"
+      },
+      "messageLabel": "Ditt meddelande",
+      "messagePlaceholder": "Berätta vad du tycker...",
+      "emailLabel": "E-post",
+      "emailOptional": "(valfritt – endast om du vill ha svar)",
+      "submit": "Skicka feedback",
+      "success": "Tack. Din feedback har skickats.",
+      "disclaimer": "Vänligen inkludera inte känsliga personuppgifter. E-postadress är valfri och används endast om vi behöver svara.",
+      "iframeTitle": "Feedbackinlämning"
+    },
+    "hero": {
+      "badge": "100% gratis · inget konto behövs",
+      "h1": "Gratis prick-till-prick-ark för barn – anslut-prickarna-uppgifter",
+      "description": "Ladda ner gratis anslut-prickarna-ark för förskola och från förskoleklass till lågstadiet – för USA, Storbritannien, Kanada och Australien, inklusive brittiska EYFS-miljöer. Från enkla sidor med 38 prickar till utmaningar med över 130 prickar, med djur, dinosaurier, fordon och högtidsteman – utskriftsklara på sekunder, helt utan registrering.",
+      "browsePuzzles": "Bläddra bland gratis pussel",
+      "starterPack": "Skaffa startpaketet med 20 pussel",
+      "stat1Value": "Noggrant kvalitetssäkrat",
+      "stat1Label": "gratis utskrivbara pussel",
+      "stat2Value": "2 till 12 år",
+      "stat2Label": "alla nivåer",
+      "stat3Value": "100%",
+      "stat3Label": "gratis, för alltid"
+    },
+    "config": {
+      "featured_puzzle_slugs": "[\"trex-61-dot-to-dot-puzzle\",\"mermaid-dot-to-dot-puzzle\",\"jellyfish-dot-to-dot-puzzle\",\"cute-puppy-dot-to-dot-puzzle\",\"slide-playgrounds-dot-to-dot-puzzle\",\"snowdrop-flower-dot-to-dot-puzzle\",\"dashing-car-playground-dot-to-dot-puzzle\",\"lotus-flower-dot-to-dot-puzzle\"]",
+      "recent_puzzle_slugs": "[\"circus-ringmaster-bear-dot-to-dot-puzzle\",\"circus-tent-dot-to-dot-puzzle\",\"space-rover-dot-to-dot-puzzle\",\"ringed-planet-dot-to-dot-puzzle\"]"
+    },
+    "purchase": {
+      "ad": {
+        "packName": "Paket med prick-till-prick-pussel",
+        "pdfBook": "PDF-BOK",
+        "bookTitle": "Bästa 2026",
+        "puzzleCount": "25 prick-till-prick-pussel",
+        "viewBook": "Visa bok"
+      },
+      "shared": {
+        "specialSale": "SPECIALERBJUDANDE",
+        "returnToPack": "Tillbaka till pusselpaketet",
+        "contactUs": "Kontakta oss"
+      },
+      "premium": {
+        "metaTitle": "Best of 2026 Premium prick-till-prick-pusselpaket",
+        "metaDescription": "En utskriftsklar samling av barnens favoritpussel att dra streck mellan prickar, samlade i en praktisk PDF.",
+        "eyebrow": "Utskriftsbar premiumsamling",
+        "lede": "Best of 2026-samlingen för samman våra favoritaktiviteter med prick-till-prick i ett lättutskrivet paket – perfekt för lugna stunder, regniga dagar, hemundervisning och klassrummet.",
+        "digitalPdf": "Digital PDF",
+        "printAtHome": "Skriv ut hemma",
+        "instantAccess": "Omedelbar åtkomst",
+        "purchaseAria": "Köp pusselpaketet Best of 2026",
+        "coverAlt": "Best of 2026 - bokomslag med 25 prick-till-prick-pussel",
+        "oneTime": "engångsbetalning",
+        "buyButton": "Skaffa pusselpaketet",
+        "localNote": "På localhost öppnas en säker betalningsdemo och inget kort belastas någonsin.",
+        "detailsEyebrow": "Skapat för enkel utskrift och lek",
+        "detailsText": "Ladda ner en gång, ha det nära till hands och skriv ut de aktiviteter du vill ha när du behöver dem.",
+        "benefits": {
+          "onePdf": "En praktisk PDF, klar att skriva ut",
+          "kidFriendly": "Barnvänliga pussel med varierande svårighetsgrad",
+          "paperSizes": "Fungerar på US Letter- och A4-papper",
+          "instantAccess": "Omedelbar åtkomst efter lyckad betalning",
+          "classroomUse": "Kan användas hemma eller i ett klassrum"
+        },
+        "guaranteeText": "Efter köpet visas din privata nedladdningslänk direkt. Inget abonnemang och ingen överraskande förnyelse."
+      },
+      "checkout": {
+        "consent": "Jag godkänner omedelbar leverans av denna digitala PDF och förstår att köpet är slutgiltigt och inte återbetalningsbart när åtkomsten väl har börjat, förutom där lagen kräver det eller om filen inte levereras eller är felaktig.",
+        "refundPolicy": "Läs återbetalningspolicyn",
+        "opening": "Öppnar betalningen...",
+        "secureNote": "Säker betalning via Stripe. Engångsbetalning. Inget abonnemang.",
+        "error": "Något gick fel när betalningen skulle startas. Försök igen."
+      },
+      "success": {
+        "metaTitle": "Tack för ditt köp",
+        "eyebrow": "Betalning bekräftad",
+        "lede": "Din betalning genomfördes. Det kan ta några sekunder innan köpet visas på ditt konto."
+      },
+      "cancelled": {
+        "metaTitle": "Betalning avbruten",
+        "eyebrow": "Ingen betalning gjordes",
+        "lede": "Ingen debitering gjordes. Du kan försöka igen när som helst."
+      },
+      "download": {
+        "demoTitle": "Lokalt betalningstest lyckades.",
+        "demoText": "På den riktiga skärmen för lyckat köp visas nedladdningsknappen för PDF:en här. Den lokala demon lämnar inte ut den privata filen.",
+        "button": "Ladda ner ditt pusselpaket",
+        "expires": "Den här länken slutar gälla om 24 timmar. Spara din nedladdning på en säker plats.",
+        "failed": "Vi kunde inte bekräfta ditt köp ännu. Om du har debiterats kan du uppdatera den här sidan om en minut eller kontakta oss för hjälp.",
+        "preparing": "Förbereder din nedladdning..."
+      }
+    },
+    "puzzleDetail": {
+      "agesLabel": "Ålder:",
+      "dotsLabel": "Prickar:",
+      "freeLabel": "100 % gratis",
+      "difficultyHeading": "Svårighet",
+      "difficultyEasy": "Lätt",
+      "difficultyMedium": "Medium",
+      "difficultyHard": "Hård",
+      "funFactPrefix": "Kul fakta:",
+      "funFactLabel": "Kul fakta!",
+      "noSignUp": "Ingen registrering behövs.Öppnas som PDF.Skriv ut på US Letter (8,5 × 11 tum) eller A4-papper.Gratis för hem och klassrum.",
+      "comingSoon": "Ladda ner gratis PDF – Kommer snart",
+      "youMightLike": "Du kanske också gillar",
+      "faqQ1": "Vilken ålder är {name} prick-pusslet för?",
+      "faqA1": "Den är designad för åldrarna {age}.Med {prickar} prickar passar det barn som med säkerhet kan räkna till {prickar};yngre barn kan slutföra det med lite hjälp.",
+      "faqQ2": "Hur skriver jag ut kalkylbladet {name}?",
+      "faqA2": "Klicka på nedladdningsknappen för att få den kostnadsfria PDF-filen, skriv sedan ut den på vanligt papper (A4 eller US Letter) från valfri webbläsare eller PDF-läsare.Ingen speciell programvara behövs.",
+      "faqQ3": "Är den utskrivbara {name} verkligen gratis?",
+      "faqA3": "Ja – det är 100 % gratis, utan registrering, konto eller betalning krävs.Du kan skriva ut den för hem- eller klassrumsbruk."
+    },
+    "downloadBadge": {
+      "downloaded": "Nedladdat",
+      "times": "gånger",
+      "greatChoice": "Du har gjort ett bra val!"
+    },
+    "shareButtons": {
+      "label": "Dela",
+      "copyLink": "Kopiera länk",
+      "copied": "Länken kopierad!",
+      "shareMe": "Dela med mig"
+    },
+    "blogPage": {
+      "eyebrow": "Lärresurser",
+      "h1": "Punkt till punkt-idéer för föräldrar och lärare",
+      "description": "Praktiska guider för att välja aktiviteter, bygga upp tidig inlärningsförmåga och använda utskrivbara arbetsblad hemma eller i klassrummet.",
+      "breadcrumb": "Blogg",
+      "latestEyebrow": "Senaste artiklarna",
+      "latestH2": "Användbara idéer du kan använda idag",
+      "readArticle": "Läs artikeln",
+      "by": "Av",
+      "backToAll": "← Tillbaka till alla artiklar",
+      "savePinterest": "Spara på Pinterest",
+      "relatedEyebrow": "Gratis utskrifter",
+      "relatedHeading": "Prova dessa prick-till-prick-samlingar härnäst"
+    },
+    "canadaPage": {
+      "category": "Kanada"
+    },
+    "circusPage": {
+      "category": "Cirkus"
+    },
+    "cutePage": {
+      "category": "Söt"
+    },
+    "dinosaursPage": {
+      "category": "Dinosaurier"
+    },
+    "flowersPage": {
+      "category": "Blommor"
+    },
+    "gardenPage": {
+      "category": "Trädgård"
+    },
+    "oceanPage": {
+      "category": "Hav"
+    },
+    "playgroundsPage": {
+      "category": "Lekplatser"
+    },
+    "spacePage": {
+      "category": "Utrymme"
+    },
+    "uaePage": {
+      "category": "Förenade Arabemiraten"
+    },
+    "usa250Page": {
+      "category": "USA 250-årsjubileum"
+    }
+  }
+}

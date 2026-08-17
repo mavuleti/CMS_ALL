@@ -1,0 +1,602 @@
+{
+  "slug": "home",
+  "header": {
+    "title": "Pisteestä pisteeseen tulostettava lapsille — ilmaiset PDF-tehtävät",
+    "title_template": "%s | DotToDotFreePrintables.com",
+    "meta_description": "Tulosta, yhdistä pisteet ja herätä upeat kuvat eloon. Ilmaista ja valmista hauskanpitoon — Yhdistä pisteet vaikea aikuisille.",
+    "canonical": "/{locale}/",
+    "og": {
+      "title": "Pisteestä pisteeseen lapsille — ilmaisia tulostettavia tehtäviä",
+      "description": "Tulosta, yhdistä pisteet ja herätä upeat kuvat eloon. Ilmaista ja valmista hauskanpitoon!",
+      "url": "/{locale}/",
+      "site_name": "DotToDotFreePrintables.com",
+      "type": "website",
+      "image": "/images/trex-61-puzzle.webp (800x679)"
+    },
+    "twitter": {
+      "card": "summary_large_image"
+    },
+    "manifest": "/manifest.webmanifest",
+    "json_ld": {
+      "website": {
+        "type": "WebSite",
+        "name": "DotToDotFreePrintables.com (SITE_NAME)"
+      },
+      "organization": {
+        "type": "Organization",
+        "logo": "/icon-512.png (absoluteUrl)",
+        "same_as": "[\"https://www.pinterest.com/hellokidsbookworld/\", \"https://www.facebook.com/dottodotfreeprintables\", \"https://www.youtube.com/@hellokidsbookworld\"]"
+      },
+      "collection_page": {
+        "type": "CollectionPage",
+        "name": "Löydä täydelliset pisteestä pisteeseen -tulosteet"
+      },
+      "item_list": {
+        "type": "ItemList (featured puzzles)"
+      }
+    }
+  },
+  "UNUSED:seo/metadata": {
+    "json:homepage": {
+      "title": "Ilmaiset pisteestä-pisteeseen-tulostettavat lapsille | Yhdistä-pisteet-tehtävät PDF-muodossa",
+      "ogTitle": "Ilmaiset yhdistä-pisteet-tehtävät lapsille",
+      "description": "Lataa ilmaisia yhdistä-pisteet-tehtäviä lapsille: eläimet, dinosaurukset, ajoneuvot, juhlapyhät ja paljon muuta. Tulostusvalmis PDF esikoulusta alakouluun. Ilman rekisteröitymistä."
+    }
+  },
+  "body": {
+    "nav": {
+      "kids": "Lapset - Palapelit",
+      "teachers": "Opettajat",
+      "parents": "Vanhemmat",
+      "contact": "Ota yhteyttä",
+      "blog": "Blogi",
+      "search": "Haku",
+      "freePack": "Ilmainen paketti",
+      "scanMe": "Skannaa minut"
+    },
+    "homepageUi": {
+      "title": "Löydä täydelliset pisteestä pisteeseen -tulosteet",
+      "description": "Tulosta, yhdistä pisteet ja herätä upeat kuvat eloon. Ilmaista ja valmista hauskanpitoon!",
+      "searchPlaceholder": "Kokeile vaikka merta, dinosaurusta tai kukkia",
+      "filterPuzzles": "Suodata palapelejä",
+      "age": "Ikä",
+      "dots": "pistettä",
+      "featuredPuzzles": "Suosikkitulostettavat palapelit",
+      "savePuzzle": "Tallenna {name}",
+      "removeSavedPuzzle": "Poista {name} tallennetuista",
+      "downloads": "latausta",
+      "bookTitle": "Vuoden 2026 parhaat · {count}",
+      "bookDescription": "Suosikkimme pisteestä pisteeseen -palapelit yhdessä tulostettavassa PDF-kirjassa.",
+      "searchUnavailable": "Haku ei ole tilapäisesti käytettävissä. Yritä uudelleen.",
+      "popularEyebrow": "Suosittu tällä viikolla",
+      "mostDownloaded": "Eniten ladatut palapelit",
+      "downloadCountAria": "{count} tai enemmän latauksia",
+      "freshPrintables": "Tuoreet tulostettavat",
+      "recentlyAdded": "Äskettäin lisätty",
+      "browseCategories": "Selaa palapeliluokkia",
+      "openCategories": "Avaa luokkavalikko",
+      "closeCategories": "Sulje luokkavalikko",
+      "browseByTheme": "Selaa teeman mukaan",
+      "quickLinks": "Nopeat linkit",
+      "bundlePacks": "Pakettikoot",
+      "parentsTeachers": "Vanhemmille ja opettajille",
+      "more": "Lisää luokkia",
+      "kids": "Lapset",
+      "categoryNames": {
+        "cute": "Söpöt palapelit",
+        "flowers": "Kukat"
+      }
+    },
+    "audience": {
+      "kidsTitle": "Lapsille",
+      "kidsText": "Ystävällisiä eläin-, dinosaurus- ja ajoneuvoteemoja selkeillä numeroiduilla pisteillä. Helppoja voittoja, jotka rakentavat todellista itseluottamusta.",
+      "parentsTitle": "Vanhemmille",
+      "parentsText": "Näytöttömät hiljaiset aktiviteetit kotiin, matkoille ja ravintoloihin. Tulosta miltä tahansa laitteelta alle minuutissa.",
+      "teachersTitle": "Opettajille",
+      "teachersText": "Vähän valmistelua vaativat yhdistämismenetelmät aamutöihin, aikaisin valmistuviin, sijaisiin ja luokkahuonepisteisiin – ei vaadi esivalmisteluja."
+    },
+    "categories": {
+      "eyebrow": "Järjestetty teeman ja taitotason mukaan",
+      "heading": "Selaa pisteestä pisteeseen -pulmia luokittain",
+      "description": "Yksinkertaisista pisteestä pisteeseen 1–10 ja 1–20 muodoista taaperoille ja esikoulu-ikäisille vaikeampiin pisteestä pisteeseen 1–50 ja 200 pisteen haasteisiin vanhemmille lapsille (ja miksei myös aikuisille) – lajiteltuna luokittain, jotta löydät oikean ilmaisen tulostettavan sekunneissa.",
+      "puzzles": "{count, plural, one {# palapeli} other {# palapeliä}}",
+      "comingSoon": "Tulossa pian",
+      "badges": {
+        "dinosaurs": "Saatavilla nyt!",
+        "ocean": "Saatavilla nyt!",
+        "playgrounds": "Saatavilla nyt!",
+        "garden": "Saatavilla nyt!",
+        "usa250": "Uusi!",
+        "uae": "Saatavilla nyt!",
+        "cute": "Uusi!",
+        "circus": "Uusi!"
+      },
+      "items": {
+        "dinosaurs": {
+          "name": "Dinosaurukset",
+          "description": "Karju esihistorialliseen hauskanpitoon! T-Rex, Triceratops, Velociraptor ja {count} ilmaista pisteestä pisteeseen -pulmaa, joista lapsesi pitävät."
+        },
+        "animals": {
+          "name": "Eläimet",
+          "description": "Ystävällisiä olentoja numeroiden harjoitteluun."
+        },
+        "vehicles": {
+          "name": "Ajoneuvot",
+          "description": "Autoja, kuorma-autoja, raketteja ja koneita."
+        },
+        "fantasy": {
+          "name": "Fantasia",
+          "description": "Linnoja, yksisarvisia, lohikäärmeitä ja tarinaideoita."
+        },
+        "seasonal": {
+          "name": "Kausiluonteinen",
+          "description": "Loma- ja luokkakalenterin aktiviteetit."
+        },
+        "ocean": {
+          "name": "Valtameri",
+          "description": "Merieläimet ja rauhalliset värityskuvat."
+        },
+        "playgrounds": {
+          "name": "Leikkikentät",
+          "description": "Keinut, liukumäet ja ulkoilmaleikkejä pienille seikkailijoille."
+        },
+        "garden": {
+          "name": "Puutarha",
+          "description": "Käsineet, istutuslapiot ja työkalut pienille puutarha-apulaisille."
+        },
+        "usa250": {
+          "name": "Amerikka 250 vuotta",
+          "description": "Juhlista Amerikan 250-vuotissyntymäpäivää isänmaallisilla pisteestä pisteeseen -pulmilla, jotka kunnioittavat Amerikan historiaa."
+        },
+        "uae": {
+          "name": "Yhdistyneet arabiemiirikunnat",
+          "description": "Tutustu Yhdistyneisiin arabiemiirikuntiin! Ikoniset maamerkit, kuten Burj Al Arab, ovat valmiina yhteydenpitoon ja värien keräämiseen."
+        },
+        "space": {
+          "name": "Avaruus",
+          "description": "Planeettoja, astronautit ja rakettiseikkailuja."
+        },
+        "worksheets": {
+          "name": "Työarkit",
+          "description": "Opettajan käyttövalmiit numeroiden järjestyksen arkit."
+        },
+        "bigDotBooks": {
+          "name": "Big Dot -kirjat",
+          "description": "Pitkäkestoisia pulmia keskittyneille vanhemmille oppijoille."
+        },
+        "cute": {
+          "name": "Söpö",
+          "description": "Ihastuttavia pentuja, pieniä autoja ja {count} viehättävää ilmaista pisteestä pisteeseen -pulmaa, joista lapsesi pitävät."
+        },
+        "circus": {
+          "name": "Sirkus",
+          "description": "Tirehtöörit, suuret teltat ja sirkushuvia nuorille oppijoille."
+        }
+      }
+    },
+    "puzzleSection": {
+      "eyebrow": "Ilmaisia tulostettavia näytteitä – ei rekisteröitymistä",
+      "heading": "Suosittuja yhdistä pisteitä -arkkeja, jotka voit tulostaa nyt",
+      "weeklyPack": "Katso viikkopakkaus →",
+      "downloadLink": "Lataa ilmainen tulostettava",
+      "new": "Uusi",
+      "imageAlt": "{name} ilmainen pisteestä pisteeseen tulostettava tehtävämonisteet {age}:lle",
+      "categories": {
+        "Dinosaurs": "Dinosaurukset",
+        "Ocean": "Valtameri",
+        "Playgrounds": "Leikkikentät",
+        "Garden": "Puutarha",
+        "Cute": "Söpö",
+        "USA 250 Years": "Amerikka 250 vuotta",
+        "UAE": "Yhdistyneet arabiemiirikunnat"
+      },
+      "items": {
+        "trex-61-dot-to-dot-puzzle": {
+          "name": "T-Rex 61-pistehaaste"
+        },
+        "brontosaurus-dot-to-dot-puzzle": {
+          "name": "Brontosauruksen"
+        },
+        "mermaid-dot-to-dot-puzzle": {
+          "name": "Merenneito"
+        },
+        "merman-dot-to-dot-puzzle": {
+          "name": "Ukkonen"
+        },
+        "seahorse-dot-to-dot-puzzle": {
+          "name": "Merihevonen"
+        },
+        "whale-dot-to-dot-puzzle": {
+          "name": "Valas"
+        },
+        "swing-playgrounds-dot-to-dot-puzzle": {
+          "name": "Keinuleikkikenttä"
+        },
+        "slide-playgrounds-dot-to-dot-puzzle": {
+          "name": "Liukumäki leikkikenttä"
+        },
+        "seesaw-playground-dot-to-dot-puzzle": {
+          "name": "Keinulauta leikkikenttä"
+        },
+        "roller-coaster-playground-dot-to-dot-puzzle": {
+          "name": "Vuoristorata-leikkikenttä"
+        },
+        "wheelbarrow-playground-dot-to-dot-puzzle": {
+          "name": "Kottikärryjen leikkikenttä"
+        },
+        "garden-gloves-dot-to-dot-puzzle": {
+          "name": "Puutarhakäsineet"
+        },
+        "garden-trowel-dot-to-dot-puzzle": {
+          "name": "Puutarhalapio"
+        },
+        "gas-balloon-usa-250-dot-to-dot-puzzle": {
+          "name": "Kaasupallo America 250"
+        },
+        "america-250-birthday-fireworks-dot-to-dot-puzzle": {
+          "name": "Amerikan 250-vuotissyntymäpäivän ilotulitus"
+        },
+        "america-250-anniversary-liberty-bell-wings-1776-dot-to-dot-puzzle": {
+          "name": "America 250 Liberty Bellin siivet"
+        },
+        "usa-250-astronaut-dot-to-dot-puzzle": {
+          "name": "America 250 Astronautti"
+        },
+        "usa-250-anniversary-sports-kids-podium-dot-to-dot-puzzle": {
+          "name": "America 250 Anniversary Sports Kids -palkintokoroke"
+        },
+        "usa-250-anniversary-airplane-banner-dot-to-dot-puzzle": {
+          "name": "Amerikan 250-vuotisjuhlan lentokonebanderoli"
+        },
+        "usa-250-space-shuttle-dot-to-dot-puzzle": {
+          "name": "America 250 -avaruussukkula"
+        },
+        "usa-250-birthday-balloons-stars-dot-to-dot-puzzle": {
+          "name": "Amerikan 250-vuotissyntymäpäiväilmapallot ja tähdet"
+        },
+        "usa-250-birthday-cake-dot-to-dot-puzzle": {
+          "name": "Amerikka 250 syntymäpäiväkakku"
+        },
+        "america-250-anniversary-eagle-banner-dot-to-dot-puzzle": {
+          "name": "Amerikka 250 Kotkalippu"
+        },
+        "burj-al-arab-dot-to-dot-puzzle": {
+          "name": "Burji Al Arab"
+        },
+        "dallah-coffee-pot-dot-to-dot-puzzle": {
+          "name": "Dallah-kahvipannu"
+        }
+      }
+    },
+    "benefits": {
+      "eyebrow": "Varhaiskasvatuksen opettajien tukema",
+      "heading": "Miksi pisteestä pisteeseen -työarkit ovat loistavia lapsen kehitykselle",
+      "description": "Yhdistä pisteet -tulostettavat tehtävät ovat enemmän kuin vain hauskoja – ne ovat tutkimukseen perustuva työkalu, jota esikoulu- ja päiväkotiopettajat käyttävät varhaisen oppimisen ydintaitojen kehittämiseen. Hienomotoriset tehtävät lapsille, kuten pisteiden yhdistäminen, ovat yksi helpoimmin arkeen sovitettavista tavoista harjoitella kynäotetta.",
+      "fineMotorTitle": "Kehittää hienomotorisia taitoja",
+      "fineMotorText": "Pisteestä pisteeseen -viivojen piirtäminen kehittää kynän otetta, käden ja silmän koordinaatiota sekä lihashallintaa, jota lapset tarvitsevat käsin kirjoittamiseen.",
+      "numberTitle": "Vahvistaa numeroiden tunnistusta",
+      "numberText": "Pisteiden 1 → 2 → 3 seuraaminen järjestyksessä opettaa laskujärjestystä, numeroiden tunnistamista ja varhaisia matemaattisia käsitteitä luonnollisesti leikin kautta.",
+      "focusTitle": "Parantaa keskittymiskykyä ja keskittymiskykyä",
+      "focusText": "Yhdistä pisteet -palapelin ratkaiseminen vaatii pitkäjänteistä huomiota – rauhallinen, ruuduton tapa harjoitella keskittymistä esikoululaisista 3. luokkaan.",
+      "confidenceTitle": "Välitön palkinto ja itseluottamus",
+      "confidenceText": "Kun piilotettu kuva ilmestyy, lapset tuntevat välittömän saavutuksen tunteen. Tuo pieni voitto rakentaa oppimisen iloa ja kasvun ajattelutapaa."
+    },
+    "howTo": {
+      "eyebrow": "Valmis alle 60 sekunnissa",
+      "heading": "Kuinka ladata ja tulostaa ilmaisia pisteestä pisteeseen -laskentataulukoita",
+      "step1Title": "Valitse palapelisi",
+      "step1Text": "Valitse teema (eläimet, dinosaurukset, ajoneuvot, loma) ja pistealue, joka vastaa lapsesi ikää ja taitotasoa.",
+      "step2Title": "Lataa ilmainen PDF-tiedosto",
+      "step2Text": "Klikkaa \"Lataa ilmainen tulostettava tiedosto\" – ei tiliä, ei sähköpostiosoitetta, ei maksumuuria. Selaimesi lataa PDF-tiedoston välittömästi.",
+      "step3Title": "Tulosta ja nauti",
+      "step3Text": "Tulosta tavalliselle US Letter -paperille (8,5\" × 11\") (8,5\" × 11\"). Mustavalkoinen toimii täydellisesti. Anna se lapsellesi ja katso, kuinka hän yhdistää pisteet!"
+    },
+    "trust": {
+      "eyebrow": "Miksi vanhemmat ja opettajat valitsevat meidät",
+      "heading": "Ilmainen, turvallinen ja naurettavan helppokäyttöinen.",
+      "noAccountTitle": "Ei tiliä vaadita",
+      "noAccountText": "Jokainen pisteestä pisteeseen tulostettava tiedosto latautuu välittömästi – ei rekisteröitymistä, ei sähköpostia, ei maksumuuria. Klikkaa ja tulosta.",
+      "safeTitle": "Turvallinen luokkahuoneessa",
+      "safeText": "Selkeät, mainoksettomat pulmasivut, jotka on suunniteltu koulun tulostimille. Sopii aamutöihin, läksyihin tai hiljaiseen hetkeen.",
+      "fastTitle": "Nopea suunnittelultaan",
+      "fastText": "Staattiset sivut, optimoidut kuvat ja paikalliset fontit tarkoittavat, että pulmat latautuvat nopeasti millä tahansa laitteella – puhelimella, tabletilla tai kannettavalla tietokoneella."
+    },
+    "faq": {
+      "eyebrow": "Yleisiä kysymyksiä",
+      "heading": "Usein kysytyt kysymykset",
+      "q1": "Ovatko kaikki tämän sivuston pisteestä pisteeseen tulostettavat kuviot täysin ilmaisia?",
+      "a1": "Kyllä — jokainen DotToDotFreePrintables.com-sivuston yhdistä pisteet -tehtävä on 100 % ilmainen ladata ja tulostaa. Tiliä, tilausta tai luottokorttia ei koskaan tarvita.",
+      "q2": "Minkä ikäisille pisteestä pisteeseen -työarkit sopivat?",
+      "a2": "Tulostettavat tehtävämme kattavat 2–12-vuotiaat. Helppojen tehtävämonisteiden (pisteestä pisteeseen 1–10 ja 1–20) tulisi sopia taaperoille ja esikoululaisille, keskikokoisten arkkien (pisteestä pisteeseen 1–50) tulisi olla esikoululaisille ja ekaluokkalaisille, ja vaikeampien pisteestä pisteeseen -arkkien (50–200+ pistettä) tulisi haastaa 2.–6. luokkalaisia sekä pisteestä pisteeseen aikuisille -tason harjoittelua etsiviä isompia lapsia.",
+      "q3": "Missä muodossa tulostettavat yhdistä-pisteet-tiedostot ovat?",
+      "a3": "Kaikki laskentataulukot ladataan tulostusvalmiina PDF-tiedostoina, jotka ovat kooltaan US Letter -paperille (8,5\" × 11\") sopivia. Avaa ne millä tahansa selaimella tai PDF-lukuohjelmalla ja tulosta – erillistä ohjelmistoa ei tarvita.",
+      "q4": "Onko teillä pisteestä pisteeseen -työarkkeja esikoululaisille ja päiväkodeille?",
+      "a4": "Ehdottomasti. Helpoimmat tehtävävihkomme alkavat 1–10 pisteestä (täydelliset 2–4-vuotiaille) ja sisältävät aakkosten ja numeroiden tunnistamiseen liittyviä teemoja, jotka on suunniteltu esikoulu- ja päiväkotiluokkahuoneisiin.",
+      "q5": "Voivatko opettajat käyttää näitä yhdistä pisteitä -tehtäviä tunnilla?",
+      "a5": "Kyllä! Tulostettavat materiaalimme ovat ilmaisia henkilökohtaiseen ja luokkahuonekäyttöön. Ne ovat suosittuja aamutöissä, varhaisloppuharjoituksissa, korvaavissa oppituntisuunnitelmissa, hienomotorisissa harjoittelukeskuksissa ja kotitehtäväpaketeissa.",
+      "q6": "Auttavatko pisteestä pisteeseen -palapelit hienomotoriikkaa?",
+      "a6": "Kyllä — pisteiden väliin viivojen piirtäminen kehittää kynän otteen voimaa ja käden ja silmän koordinaatiota, jotka tukevat käsin kirjoittamisen valmiutta. Monet toimintaterapeutit ja lastentarhanopettajat suosittelevat pisteiden yhdistämisharjoituksia tästä syystä.",
+      "q7": "Onko teillä teemoitettuja pisteestä pisteeseen -tulostettavia materiaaleja, kuten eläimet tai dinosaurukset?",
+      "a7": "Meillä on 11 kategoriaa, mukaan lukien eläimet, dinosaurukset, ajoneuvot, merieläimet, leikkikentät, Amerikka 250 vuotta, avaruus, fantasia, vuodenaikojen/juhlavuoden teemat, opettajan tehtäväkirjapakkaukset ja Big Dot -kirjat. Uusia malleja lisätään viikoittain.",
+      "q8": "Voinko tulostaa nämä palapelit mustavalkoisina?",
+      "a8": "Kyllä — kaikki yhdistä pisteet -työkirjamme on suunniteltu mustavalkotulostettavaksi musteen säästämiseksi. Ne näyttävät upeilta millä tahansa koti- tai luokkahuonetulostimella."
+    },
+    "newsletter": {
+      "eyebrow": "Tulostettava aloituspaketti — täysin ilmainen",
+      "heading": "Saat 20 ilmaista pisteestä pisteeseen tulostettavaa artikkelia sähköpostiisi.",
+      "description": "Vanhemmille ja opettajille sopiva kokoelma, joka käsittelee eläimiä, ajoneuvoja, dinosauruksia ja vuodenaikojen teemoja – helppoja yhdistä pisteet -tehtäviä taaperoille ja vaativampia pisteestä pisteeseen -pulmia isommille lapsille, kaikki kooltaan US Letter -paperille ja optimoitu mustavalkotulostukseen."
+    },
+    "blog": {
+      "eyebrow": "Ideoita aikuisille",
+      "heading": "Oppimisvinkkejä kotiin ja luokkahuoneeseen",
+      "viewAll": "Näytä kaikki artikkelit",
+      "read": "Lukea"
+    },
+    "feedback": {
+      "eyebrow": "Haluaisimme kuulla sinusta",
+      "heading": "Lähetä palautetta",
+      "description": "Onko sinulla pulmaidea, huomasitko rikkinäisen linkin tai haluatko vain tervehtiä? Lähetä meille viesti alle."
+    },
+    "footer": {
+      "description": "Ilmaisia pisteestä pisteeseen -tulostettavia palapelejä ja yhdistä pisteet -tehtäviä lapsille, vanhemmille ja opettajille päiväkodista peruskouluun. Kaikki palapelit ovat ilmaisia ladata, tulostaa ja jakaa.",
+      "kids": "Lapset",
+      "parents": "Vanhemmat",
+      "teachers": "Opettajat",
+      "blog": "Blogi",
+      "faq": "Usein kysytyt kysymykset",
+      "feedback": "Palaute",
+      "about": "Noin",
+      "contact": "Yhteystiedot",
+      "privacy": "Tietosuoja",
+      "terms": "Ehdot",
+      "sitemap": "Sivukartta",
+      "copyright": "© {year} DotToDotFreePrintables.com · Ilmaisia tulostettavia aktiviteetteja lapsille"
+    },
+    "common": {
+      "home": "Kotiin",
+      "new": "Uusi",
+      "comingSoon": "Tulossa pian",
+      "downloadFree": "Lataa ilmainen tulostettava",
+      "viewDownload": "Näytä ja lataa",
+      "shareTitle": "{name} Yhdistä pisteet - Tulostettava - Ilmainen PDF",
+      "downloadAria": "Lataa ilmainen {name} yhdistä pisteet tulostettava PDF",
+      "bookmarkTitle": "{name} Yhdistä pisteet - Tulostettava – Ilmainen PDF lapsille",
+      "showSlide": "Näytä dia {number}",
+      "ageRange": "Ikä {min}-{max}",
+      "difficultyLabel": "Vaikeusaste {level}/3",
+      "difficulty": {
+        "1": "Helppo",
+        "2": "Keskikokoinen",
+        "3": "Kova"
+      },
+      "dots": "1–{count} pistettä",
+      "homeVideoEyebrow": "Video",
+      "homeVideoH2": "Katso pisteestä pisteeseen -hauskanpitoa toiminnassa",
+      "skipToContent": "Siirry pääsisältöön",
+      "joinTeachers": "Liity {count}+ opettajaan",
+      "breadcrumbAria": "Leipäpolku"
+    },
+    "puzzleSearch": {
+      "placeholder": "Hae nimen tai aiheen mukaan... esim. valtameri, valas, T-Rex",
+      "searchAria": "Hae pulmia",
+      "clearSearch": "Tyhjennä haku",
+      "toggleFilters": "Näytä/piilota suodattimet",
+      "filters": "Suodattimet",
+      "filterOptions": "Suodatinvalinnat",
+      "topic": "Aihe",
+      "numberOfDots": "Pisteiden määrä",
+      "recentlyAddedOnly": "Vain äskettäin lisätyt",
+      "clearAllFilters": "Tyhjennä kaikki suodattimet",
+      "clearFilters": "Tyhjennä suodattimet",
+      "resultsFound": "{count, plural, one {# palapeli löydetty} other {# palapeliä löydetty}}",
+      "puzzlesAvailable": "{count, plural, one {# palapeli saatavilla} other {# palapeliä saatavilla}}",
+      "noMatches": "Hakuasi vastaavia pulmia ei löytynyt.",
+      "openPuzzle": "Avaa {name}",
+      "imageAlt": "{name} pisteestä pisteeseen tulostettava",
+      "viewPuzzle": "Näytä palapeli →",
+      "dotRanges": {
+        "under35": "Alle 35 pistettä",
+        "35to50": "35-50 pistettä",
+        "51to70": "51-70 pistettä",
+        "over70": "Yli 70 pistettä"
+      },
+      "categories": {
+        "Dinosaurs": "Dinosaurukset",
+        "Ocean": "Valtameri",
+        "Playgrounds": "Leikkikentät",
+        "Garden": "Puutarha",
+        "Cute": "Söpö",
+        "USA 250 Years": "USA 250 vuotta",
+        "UAE": "AAE"
+      }
+    },
+    "newsletterForm": {
+      "ariaLabel": "Hanki ilmainen tulostettava pisteestä pisteeseen -paketti",
+      "emailLabel": "Sähköpostiosoite",
+      "submit": "Lähetä ilmainen paketti",
+      "honeypot": "Jätä tämä kenttä tyhjäksi",
+      "privacy": "Ei roskapostia, koskaan. Voit peruuttaa tilauksen milloin tahansa.",
+      "error": "Lomakkeen lähettäminen epäonnistui.",
+      "notConnected": "Ilmaisen paketin rekisteröitymistä ei ole vielä yhdistetty."
+    },
+    "feedbackForm": {
+      "ariaLabel": "Lähetä palautetta",
+      "notConnected": "Tätä palautelomaketta ei ole vielä yhdistetty.",
+      "typeLabel": "Millaista palautetta?",
+      "selectTopic": "Valitse aihe...",
+      "types": {
+        "general": "Yleinen palaute",
+        "requestTheme": "Pyydä palapelin teemaa",
+        "brokenLink": "Ilmoita rikkinäisestä linkistä",
+        "improvement": "Ehdota parannusta",
+        "other": "Muut"
+      },
+      "messageLabel": "Viestisi",
+      "messagePlaceholder": "Kerro meille, mitä mieltä olet...",
+      "emailLabel": "Sähköposti",
+      "emailOptional": "(valinnainen - vain jos haluat vastauksen)",
+      "submit": "Lähetä palautetta",
+      "success": "Kiitos. Palautteesi on lähetetty.",
+      "disclaimer": "Älä lisää arkaluonteisia henkilötietoja. Sähköpostiosoite on valinnainen ja sitä käytetään vain, jos meidän on vastattava.",
+      "iframeTitle": "Palautteen lähettäminen"
+    },
+    "hero": {
+      "badge": "100% ilmainen · ei tiliä tarvita",
+      "h1": "Ilmaiset pisteestä-pisteeseen-tulostettavat lapsille – yhdistä-pisteet-tehtävät",
+      "description": "Lataa ilmaisia yhdistä-pisteet-tehtävälehtiä esikoulusta alakouluun – sopivat Yhdysvaltoihin, Isoon-Britanniaan, Kanadaan ja Australiaan, mukaan lukien brittiläiset EYFS-ympäristöt. Yksinkertaisista 38 pisteen sivuista aina yli 130 pisteen haasteisiin, aiheina eläimet, dinosaurukset, ajoneuvot ja juhlapyhät – tulostusvalmiina sekunneissa, ilman rekisteröitymistä.",
+      "browsePuzzles": "Selaa ilmaisia pulmia",
+      "starterPack": "Hanki 20 pulman aloituspaketti",
+      "stat1Value": "Huolellisesti tarkistettu",
+      "stat1Label": "ilmaista tulostettavaa pulmaa",
+      "stat2Value": "2–12-vuotiaille",
+      "stat2Label": "kaikille taitotasoille",
+      "stat3Value": "100%",
+      "stat3Label": "ilmainen, ikuisesti"
+    },
+    "config": {
+      "featured_puzzle_slugs": "[\"trex-61-dot-to-dot-puzzle\",\"mermaid-dot-to-dot-puzzle\",\"jellyfish-dot-to-dot-puzzle\",\"cute-puppy-dot-to-dot-puzzle\",\"slide-playgrounds-dot-to-dot-puzzle\",\"snowdrop-flower-dot-to-dot-puzzle\",\"dashing-car-playground-dot-to-dot-puzzle\",\"lotus-flower-dot-to-dot-puzzle\"]",
+      "recent_puzzle_slugs": "[\"circus-ringmaster-bear-dot-to-dot-puzzle\",\"circus-tent-dot-to-dot-puzzle\",\"space-rover-dot-to-dot-puzzle\",\"ringed-planet-dot-to-dot-puzzle\"]"
+    },
+    "purchase": {
+      "ad": {
+        "packName": "Pisteestä pisteeseen -palapelipaketti",
+        "pdfBook": "PDF-KIRJA",
+        "bookTitle": "Vuoden 2026 parhaat",
+        "puzzleCount": "25 pisteestä pisteeseen -palapeliä",
+        "viewBook": "Näytä kirja"
+      },
+      "shared": {
+        "specialSale": "ERIKOISTARJOUS",
+        "returnToPack": "Palaa tehtäväpakettiin",
+        "contactUs": "Ota yhteyttä"
+      },
+      "premium": {
+        "metaTitle": "Best of 2026 -premium-yhdistä pisteet -pulmapaketti",
+        "metaDescription": "Tulostusvalmis kokoelma lasten suosikki yhdistä pisteet -tehtäviä yhdessä kätevässä PDF-tiedostossa.",
+        "eyebrow": "Tulostettava premium-kokoelma",
+        "lede": "Best of 2026 -kokoelma tuo suosikkimme yhdistä pisteet -tehtävät yhteen helposti tulostettavaan pakettiin rauhallisiin hetkiin, sadepäiviin, kotikouluun ja luokkahuoneeseen.",
+        "digitalPdf": "Digitaalinen PDF",
+        "printAtHome": "Tulosta kotona",
+        "instantAccess": "Välitön pääsy",
+        "purchaseAria": "Osta Best of 2026 -tehtäväpaketti",
+        "coverAlt": "Best of 2026 - 25 yhdistä pisteet -tehtävää, kirjan kansi",
+        "oneTime": "kertamaksu",
+        "buyButton": "Hanki tehtäväpaketti",
+        "localNote": "Paikallisessa ympäristössä (localhost) tämä avaa turvallisen maksudemon, eikä korttia koskaan veloiteta.",
+        "detailsEyebrow": "Suunniteltu helppoon tulostukseen ja leikkiin",
+        "detailsText": "Lataa kerran, pidä tallessa ja tulosta haluamasi tehtävät aina tarvittaessa.",
+        "benefits": {
+          "onePdf": "Yksi kätevä, tulostusvalmis PDF",
+          "kidFriendly": "Lapsille sopivia tehtäviä eri vaikeustasoilla",
+          "paperSizes": "Toimii US Letter- ja A4-paperilla",
+          "instantAccess": "Välitön pääsy onnistuneen maksun jälkeen",
+          "classroomUse": "Käytettävissä kotona tai yhdessä luokkahuoneessa"
+        },
+        "guaranteeText": "Maksun jälkeen yksityinen latauslinkkisi ilmestyy heti. Ei tilausta eikä yllättäviä uusimisia."
+      },
+      "checkout": {
+        "consent": "Hyväksyn tämän digitaalisen PDF-tiedoston välittömän toimituksen ja ymmärrän, että kun käyttöoikeus alkaa, kauppa on lopullinen eikä sitä voi peruuttaa, paitsi lain niin vaatiessa tai jos tiedostoa ei toimiteta tai se on viallinen.",
+        "refundPolicy": "Lue palautuskäytäntö",
+        "opening": "Avataan kassaa...",
+        "secureNote": "Turvallinen maksu Stripen tuella. Kertamaksu. Ei tilausta.",
+        "error": "Maksun aloittamisessa tapahtui virhe. Yritä uudelleen."
+      },
+      "success": {
+        "metaTitle": "Kiitos ostoksestasi",
+        "eyebrow": "Maksu vahvistettu",
+        "lede": "Maksusi onnistui. Ostoksen näkyminen tililläsi voi kestää muutaman sekunnin."
+      },
+      "cancelled": {
+        "metaTitle": "Maksu peruutettu",
+        "eyebrow": "Maksua ei veloitettu",
+        "lede": "Maksua ei veloitettu. Voit yrittää uudelleen milloin tahansa."
+      },
+      "download": {
+        "demoTitle": "Paikallinen maksutesti onnistui.",
+        "demoText": "Oikealla onnistuneen maksun näytöllä näkyy tässä PDF-latauspainike. Paikallinen demo ei julkaise yksityistä tiedostoa.",
+        "button": "Lataa tehtäväpakettisi",
+        "expires": "Tämä linkki vanhenee 24 tunnin kuluttua. Tallenna latauksesi turvalliseen paikkaan.",
+        "failed": "Emme voineet vielä vahvistaa ostostasi. Jos sinulta veloitettiin, päivitä tämä sivu hetken kuluttua tai ota meihin yhteyttä.",
+        "preparing": "Valmistellaan latausta..."
+      }
+    },
+    "puzzleDetail": {
+      "agesLabel": "Ikärajat:",
+      "dotsLabel": "Pisteet:",
+      "freeLabel": "100 % ilmainen",
+      "difficultyHeading": "Vaikeus",
+      "difficultyEasy": "Helppo",
+      "difficultyMedium": "Keskikokoinen",
+      "difficultyHard": "Kovaa",
+      "funFactPrefix": "Hauska fakta:",
+      "funFactLabel": "Hauska fakta!",
+      "noSignUp": "Ilmoittautumista ei tarvita.Avautuu PDF-tiedostona.Tulosta US Letter (8,5 × 11 tuumaa) tai A4-paperille.Ilmainen koti- ja luokkakäyttöön.",
+      "comingSoon": "Lataa ilmainen PDF – tulossa pian",
+      "youMightLike": "Saatat myös pitää",
+      "faqQ1": "Minkä ikäiselle pisteestä pisteeseen -pulma on tarkoitettu?",
+      "faqA1": "Se on suunniteltu {age} ikäisille.{dots} pisteen ansiosta se sopii lapsille, jotka osaavat laskea luottavaisesti {pisteisiin};nuoremmat lapset voivat suorittaa sen pienellä avustuksella.",
+      "faqQ2": "Kuinka tulostan laskentataulukon {name}?",
+      "faqA2": "Napsauta latauspainiketta saadaksesi ilmaisen PDF-tiedoston ja tulosta se sitten tavalliselle paperille (A4 tai US Letter) mistä tahansa selaimesta tai PDF-lukijasta.Mitään erityistä ohjelmistoa ei tarvita.",
+      "faqQ3": "Onko {name} tulostettava todella ilmainen?",
+      "faqA3": "Kyllä – se on 100 % ilmainen, ilman rekisteröitymistä, tiliä tai maksua.Voit tulostaa sen koti- tai luokkakäyttöön."
+    },
+    "downloadBadge": {
+      "downloaded": "Ladattu",
+      "times": "kertaa",
+      "greatChoice": "Olet tehnyt loistavan valinnan!"
+    },
+    "shareButtons": {
+      "label": "Jakaa",
+      "copyLink": "Kopioi linkki",
+      "copied": "Linkki kopioitu!",
+      "shareMe": "Jaa minulle"
+    },
+    "blogPage": {
+      "eyebrow": "Oppimisresurssit",
+      "h1": "Pisteestä pisteeseen -ideoita vanhemmille ja opettajille",
+      "description": "Käytännön oppaita toimintojen valintaan, varhaisten oppimistaitojen kehittämiseen ja tulostettavien laskentataulukoiden käyttöön kotona tai luokkahuoneessa.",
+      "breadcrumb": "Blogi",
+      "latestEyebrow": "Uusimmat artikkelit",
+      "latestH2": "Hyödyllisiä ideoita, joita voit käyttää tänään",
+      "readArticle": "Lue artikkeli",
+      "by": "Tekijä:",
+      "backToAll": "← Takaisin kaikkiin artikkeleihin",
+      "savePinterest": "Tallenna Pinterestiin",
+      "relatedEyebrow": "Ilmaiset tulosteet",
+      "relatedHeading": "Kokeile seuraavaksi näitä pisteistä pisteisiin -kokoelmia"
+    },
+    "canadaPage": {
+      "category": "Kanada"
+    },
+    "circusPage": {
+      "category": "Sirkus"
+    },
+    "cutePage": {
+      "category": "Söpö"
+    },
+    "dinosaursPage": {
+      "category": "Dinosaurukset"
+    },
+    "flowersPage": {
+      "category": "Kukat"
+    },
+    "gardenPage": {
+      "category": "Puutarha"
+    },
+    "oceanPage": {
+      "category": "Valtameri"
+    },
+    "playgroundsPage": {
+      "category": "Leikkikentät"
+    },
+    "spacePage": {
+      "category": "Space"
+    },
+    "uaePage": {
+      "category": "Yhdistyneet arabiemiirikunnat"
+    },
+    "usa250Page": {
+      "category": "USA 250 vuotta"
+    }
+  }
+}

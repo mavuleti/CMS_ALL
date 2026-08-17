@@ -1,0 +1,602 @@
+{
+  "slug": "home",
+  "header": {
+    "title": "Spojovačky zdarma pro děti | PDF pracovní listy ke stažení",
+    "title_template": "%s | DotToDotFreePrintables.com",
+    "meta_description": "Vytiskněte, spojte tečky a oživte úžasné obrázky. Zdarma a připraveno k zábavě — Pracovní listy spojování teček.",
+    "canonical": "/{locale}/",
+    "og": {
+      "title": "Spojovačky – bezplatné hádanky pro děti i dospělé",
+      "description": "Vytiskněte, spojte tečky a oživte úžasné obrázky. Zdarma a připraveno k zábavě!",
+      "url": "/{locale}/",
+      "site_name": "DotToDotFreePrintables.com",
+      "type": "website",
+      "image": "/images/trex-61-puzzle.webp (800x679)"
+    },
+    "twitter": {
+      "card": "summary_large_image"
+    },
+    "manifest": "/manifest.webmanifest",
+    "json_ld": {
+      "website": {
+        "type": "WebSite",
+        "name": "DotToDotFreePrintables.com (SITE_NAME)"
+      },
+      "organization": {
+        "type": "Organization",
+        "logo": "/icon-512.png (absoluteUrl)",
+        "same_as": "[\"https://www.pinterest.com/hellokidsbookworld/\", \"https://www.facebook.com/dottodotfreeprintables\", \"https://www.youtube.com/@hellokidsbookworld\"]"
+      },
+      "collection_page": {
+        "type": "CollectionPage",
+        "name": "Najděte dokonalé tečka k tečce omalovánky k vytisknutí"
+      },
+      "item_list": {
+        "type": "ItemList (featured puzzles)"
+      }
+    }
+  },
+  "UNUSED:seo/metadata": {
+    "json:homepage": {
+      "title": "Zdarma spoj tečky pro děti | Pracovní listy spoj body v PDF",
+      "ogTitle": "Zdarma pracovní listy spoj body pro děti",
+      "description": "Stáhněte si zdarma pracovní listy spoj body pro děti: zvířata, dinosauři, vozidla, svátky a další témata. PDF připravené k tisku pro mateřskou a základní školu. Bez nutnosti registrace."
+    }
+  },
+  "body": {
+    "nav": {
+      "kids": "Děti - Hádanky",
+      "teachers": "Učitelé",
+      "parents": "Rodiče",
+      "contact": "Kontaktujte nás",
+      "blog": "Blog",
+      "search": "Vyhledávání",
+      "freePack": "Balíček zdarma",
+      "scanMe": "Naskenuj mě"
+    },
+    "homepageUi": {
+      "title": "Najděte dokonalé tečka k tečce omalovánky k vytisknutí",
+      "description": "Vytiskněte, spojte tečky a oživte úžasné obrázky. Zdarma a připraveno k zábavě!",
+      "searchPlaceholder": "Zkuste oceán, dinosaura nebo květiny",
+      "filterPuzzles": "Filtrovat hádanky",
+      "age": "Věk",
+      "dots": "teček",
+      "featuredPuzzles": "Doporučené tisknutelné hádanky",
+      "savePuzzle": "Uložit {name}",
+      "removeSavedPuzzle": "Odebrat {name} z uložených hádanek",
+      "downloads": "stažení",
+      "bookTitle": "Nejlepší z roku 2026 · {count}",
+      "bookDescription": "Naše oblíbené hádanky tečka k tečce v jedné tisknutelné PDF knize.",
+      "searchUnavailable": "Vyhledávání je dočasně nedostupné. Zkuste to prosím znovu.",
+      "popularEyebrow": "Populární tento týden",
+      "mostDownloaded": "Nejvíce stahované hádanky",
+      "downloadCountAria": "{count} nebo více stažení",
+      "freshPrintables": "Čerstvé tisknutelné materiály",
+      "recentlyAdded": "Nedávno přidáno",
+      "browseCategories": "Procházet kategorie hádanek",
+      "openCategories": "Otevřít menu kategorií",
+      "closeCategories": "Zavřít menu kategorií",
+      "browseByTheme": "Procházet podle tématu",
+      "quickLinks": "Rychlé odkazy",
+      "bundlePacks": "Sady balíčků",
+      "parentsTeachers": "Pro rodiče a učitele",
+      "more": "Více kategorií",
+      "kids": "Děti",
+      "categoryNames": {
+        "cute": "Roztomilé hádanky",
+        "flowers": "Květy"
+      }
+    },
+    "audience": {
+      "kidsTitle": "Pro děti",
+      "kidsText": "Přátelské motivy zvířat, dinosaurů a vozidel s jasně očíslovanými tečkami. Snadné výhry, které posilují skutečnou sebedůvěru.",
+      "parentsTitle": "Pro rodiče",
+      "parentsText": "Tiché aktivity bez obrazovky doma, na cestách i v restauracích. Tisk z jakéhokoli zařízení za méně než minutu.",
+      "teachersTitle": "Pro učitele",
+      "teachersText": "Nenáročné pojmy pro ranní práci, brzké dokončení práce, suplování a pracovní stanice ve třídě – žádná příprava není nutná."
+    },
+    "categories": {
+      "eyebrow": "Uspořádáno podle tématu a úrovně dovedností",
+      "heading": "Procházet hádanky typu „tečka po tečce“ podle kategorie",
+      "description": "Od jednoduchých 10bodových tvarů pro batolata až po 200bodové výzvy pro starší děti – seřazené podle kategorií, abyste během několika sekund našli ten správný bezplatný tisknutelný materiál.",
+      "puzzles": "{count, plural, one {# hlavolam} few {# hlavolamy} other {# hlavolamů}}",
+      "comingSoon": "Již brzy",
+      "badges": {
+        "dinosaurs": "Nyní k dispozici!",
+        "ocean": "Nyní k dispozici!",
+        "playgrounds": "Nyní k dispozici!",
+        "garden": "Nyní k dispozici!",
+        "usa250": "Nový!",
+        "uae": "Nyní k dispozici!",
+        "cute": "Nový!",
+        "circus": "Nové!"
+      },
+      "items": {
+        "dinosaurs": {
+          "name": "Dinosauři",
+          "description": "Vrhněte se do prehistorické zábavy! T-Rex, Triceratops, Velociraptor a {count} bezplatných tečkovaných hádanek, které si vaše děti zamilují."
+        },
+        "animals": {
+          "name": "Zvířata",
+          "description": "Přátelští tvorové pro raný procvičování čísel."
+        },
+        "vehicles": {
+          "name": "Vozidla",
+          "description": "Auta, nákladní auta, rakety a stroje."
+        },
+        "fantasy": {
+          "name": "Fantazie",
+          "description": "Hrady, jednorožci, draci a náměty k příběhům."
+        },
+        "seasonal": {
+          "name": "Sezónní",
+          "description": "Prázdninové a třídní kalendářní aktivity."
+        },
+        "ocean": {
+          "name": "Oceán",
+          "description": "Mořští živočichové a klidné omalovánky."
+        },
+        "playgrounds": {
+          "name": "Hřiště",
+          "description": "Houpačky, skluzavky a venkovní zábava pro malé dobrodruhy."
+        },
+        "garden": {
+          "name": "Zahrada",
+          "description": "Rukavice, zednická lžíce a nářadí pro malé zahradní pomocníky."
+        },
+        "usa250": {
+          "name": "Amerika 250 let",
+          "description": "Oslavte 250. výročí Ameriky vlasteneckými hádankami typu tečka po tečce, které ctí americkou historii."
+        },
+        "uae": {
+          "name": "Spojené arabské emiráty",
+          "description": "Prozkoumejte Spojené arabské emiráty! Ikonické památky jako Burdž al-Arab jsou připraveny k propojení a vybarvení."
+        },
+        "space": {
+          "name": "Plocha",
+          "description": "Planety, astronauti a raketová dobrodružství."
+        },
+        "worksheets": {
+          "name": "Pracovní listy",
+          "description": "Pracovní listy pro tvorbu číselných řad připravené pro učitele."
+        },
+        "bigDotBooks": {
+          "name": "Knihy Big Dot",
+          "description": "Dlouhé hádanky pro soustředěné starší studenty."
+        },
+        "cute": {
+          "name": "Roztomilý",
+          "description": "Rozkošná štěňátka, malá autíčka a {count} okouzlujících bezplatných puzzle s puntíky, které si vaše děti zamilují."
+        },
+        "circus": {
+          "name": "Cirkus",
+          "description": "Mistrův kruh, velké stany a zábava na show pro mladé učitele."
+        }
+      }
+    },
+    "puzzleSection": {
+      "eyebrow": "Ukázky k vytištění zdarma – bez registrace",
+      "heading": "Oblíbené spojovací listy k tisku",
+      "weeklyPack": "Viz týdenní balíček →",
+      "downloadLink": "Stáhněte si zdarma tisknutelný dokument",
+      "new": "Nový",
+      "imageAlt": "{name} bezplatný tisknutelný pracovní list s tečkami pro {age}",
+      "categories": {
+        "Dinosaurs": "Dinosauři",
+        "Ocean": "Oceán",
+        "Playgrounds": "Hřiště",
+        "Garden": "Zahrada",
+        "Cute": "Roztomilý",
+        "USA 250 Years": "Amerika 250 let",
+        "UAE": "Spojené arabské emiráty"
+      },
+      "items": {
+        "trex-61-dot-to-dot-puzzle": {
+          "name": "Výzva T-Rex 61 teček"
+        },
+        "brontosaurus-dot-to-dot-puzzle": {
+          "name": "Brontosaurus"
+        },
+        "mermaid-dot-to-dot-puzzle": {
+          "name": "Mořská panna"
+        },
+        "merman-dot-to-dot-puzzle": {
+          "name": "Mořský muž"
+        },
+        "seahorse-dot-to-dot-puzzle": {
+          "name": "Mořský koník"
+        },
+        "whale-dot-to-dot-puzzle": {
+          "name": "Velryba"
+        },
+        "swing-playgrounds-dot-to-dot-puzzle": {
+          "name": "Houpačka na hřišti"
+        },
+        "slide-playgrounds-dot-to-dot-puzzle": {
+          "name": "Skluzavka hřiště"
+        },
+        "seesaw-playground-dot-to-dot-puzzle": {
+          "name": "Houpačka na hřišti"
+        },
+        "roller-coaster-playground-dot-to-dot-puzzle": {
+          "name": "Hřiště s horskou dráhou"
+        },
+        "wheelbarrow-playground-dot-to-dot-puzzle": {
+          "name": "Hřiště s trakařem"
+        },
+        "garden-gloves-dot-to-dot-puzzle": {
+          "name": "Zahradní rukavice"
+        },
+        "garden-trowel-dot-to-dot-puzzle": {
+          "name": "Zahradní lopatka"
+        },
+        "gas-balloon-usa-250-dot-to-dot-puzzle": {
+          "name": "Plynový balón Amerika 250"
+        },
+        "america-250-birthday-fireworks-dot-to-dot-puzzle": {
+          "name": "Ohňostroj k narozeninám Ameriky 250"
+        },
+        "america-250-anniversary-liberty-bell-wings-1776-dot-to-dot-puzzle": {
+          "name": "Křídla America 250 Liberty Bell"
+        },
+        "usa-250-astronaut-dot-to-dot-puzzle": {
+          "name": "Amerika 250 Astronaut"
+        },
+        "usa-250-anniversary-sports-kids-podium-dot-to-dot-puzzle": {
+          "name": "Americké sportovní dětské pódium k 250. výročí"
+        },
+        "usa-250-anniversary-airplane-banner-dot-to-dot-puzzle": {
+          "name": "Letadlo k 250. výročí Ameriky"
+        },
+        "usa-250-space-shuttle-dot-to-dot-puzzle": {
+          "name": "Raketoplán America 250"
+        },
+        "usa-250-birthday-balloons-stars-dot-to-dot-puzzle": {
+          "name": "Amerika 250 narozeninových balónků a hvězd"
+        },
+        "usa-250-birthday-cake-dot-to-dot-puzzle": {
+          "name": "Amerika 250 Narozeninový dort"
+        },
+        "america-250-anniversary-eagle-banner-dot-to-dot-puzzle": {
+          "name": "Amerika 250 Eagle Banner"
+        },
+        "burj-al-arab-dot-to-dot-puzzle": {
+          "name": "Burdž al-Arab"
+        },
+        "dallah-coffee-pot-dot-to-dot-puzzle": {
+          "name": "Kávová konvice Dallah"
+        }
+      }
+    },
+    "benefits": {
+      "eyebrow": "S podporou pedagogů v raném dětství",
+      "heading": "Proč jsou pracovní listy s tečkami skvělé pro rozvoj dítěte",
+      "description": "Tisknutelné šablony s technikou spojování teček nejsou jen zábava – jsou to výzkumně podložené nástroje, které používají učitelé v předškolních zařízeních a mateřských školách k rozvoji základních dovedností v raném učení.",
+      "fineMotorTitle": "Rozvíjí jemnou motoriku",
+      "fineMotorText": "Kreslení čar od tečky k tečce rozvíjí úchop tužky, koordinaci rukou a očí a svalovou kontrolu, kterou děti potřebují pro psaní.",
+      "numberTitle": "Posiluje rozpoznávání čísel",
+      "numberText": "Postupné čtení bodů 1 → 2 → 3 učí přirozeně prostřednictvím hry pořadí počítání, rozpoznávání čísel a rané matematické pojmy.",
+      "focusTitle": "Zlepšuje soustředění a koncentraci",
+      "focusText": "Luštění skládačky typu „spojování teček“ vyžaduje trvalou pozornost – jde o klidný způsob, jak si procvičit soustředění pro předškoláky až 3. ročník bez použití obrazovky.",
+      "confidenceTitle": "Okamžitá odměna a sebevědomí",
+      "confidenceText": "Když se objeví skrytý obrázek, děti okamžitě pocítí pocit úspěchu. Toto malé vítězství buduje lásku k učení a zaměření na růst."
+    },
+    "howTo": {
+      "eyebrow": "Připraveno za méně než 60 sekund",
+      "heading": "Jak si stáhnout a vytisknout bezplatné pracovní listy s tečkami",
+      "step1Title": "Vyberte si hádanku",
+      "step1Text": "Vyberte si téma (zvířata, dinosauři, vozidla, svátky) a škálu teček, která odpovídá věku a úrovni dovedností vašeho dítěte.",
+      "step2Title": "Stáhněte si zdarma PDF",
+      "step2Text": "Klikněte na „Stáhnout bezplatnou verzi pro tisk“ – žádný účet, žádný e-mail, žádný paywall. Váš prohlížeč si PDF stáhne okamžitě.",
+      "step3Title": "Vytiskněte a užívejte si",
+      "step3Text": "Tiskněte na standardní papír formátu US Letter (8,5\" × 11\"). Černá a bílá funguje perfektně. Dejte to svému dítěti a sledujte, jak spojuje tečky!"
+    },
+    "trust": {
+      "eyebrow": "Proč si nás rodiče a učitelé vybírají",
+      "heading": "Zdarma, bezpečné a neuvěřitelně snadno použitelné.",
+      "noAccountTitle": "Není vyžadován žádný účet",
+      "noAccountText": "Každý tisknutelný dokument se stáhne okamžitě – bez registrace, e-mailů ani paywallu. Stačí kliknout a vytisknout.",
+      "safeTitle": "Trezor ve třídě",
+      "safeText": "Čisté stránky s puzzle bez reklam určené pro školní tiskárny. Vhodné pro ranní práci, domácí úkoly nebo klidné chvíle.",
+      "fastTitle": "Rychlý už od návrhu",
+      "fastText": "Statické stránky, optimalizované obrázky a lokální fonty znamenají, že se hádanky načítají rychle na jakémkoli zařízení – telefonu, tabletu nebo notebooku."
+    },
+    "faq": {
+      "eyebrow": "Časté otázky",
+      "heading": "Často kladené otázky",
+      "q1": "Jsou všechny tisknutelné materiály s tečkami na tomto webu zcela zdarma?",
+      "a1": "Ano – každý pracovní list s nácvikem spojování teček na DotToDotFreePrintables.com si můžete stáhnout a vytisknout 100% zdarma. Nikdy není vyžadován žádný účet, předplatné ani kreditní karta.",
+      "q2": "Pro jaký věk jsou vhodné pracovní listy s tečkami?",
+      "a2": "Naše tisknutelné materiály pokrývají věk 2–12 let. Jednoduché pracovní listy (10–20 bodů) jsou vhodné pro batolata a předškoláky, střední listy (20–50 bodů) jsou skvělé pro mateřskou školu a první třídu a tvrdší listy (50–200+ bodů) jsou výzvou pro žáky 2. až 6. třídy.",
+      "q3": "V jakém formátu jsou tisknutelné materiály typu „spojování teček“?",
+      "a3": "Všechny pracovní listy se stáhnou jako soubory PDF připravené k tisku o velikosti pro standardní papír US Letter (8,5\" × 11\"). Otevřete je v libovolném prohlížeči nebo prohlížeči PDF a vytiskněte – není potřeba žádný speciální software.",
+      "q4": "Máte pracovní listy s tečkami pro předškoláky a mateřské školy?",
+      "a4": "Rozhodně. Naše nejjednodušší pracovní listy začínají na 1–10 tečkách (ideální pro děti ve věku 2–4 roky) a zahrnují témata pro rozpoznávání abecedy a čísel určená pro předškolní a mateřské školy.",
+      "q5": "Mohou učitelé tyto pracovní listy s technikou spojování teček používat ve výuce?",
+      "a5": "Ano! Naše tisknutelné materiály jsou zdarma pro osobní i školní použití. Jsou oblíbené pro ranní práci, aktivity pro brzké dokončení výuky, plány náhradních hodin, centra jemné motoriky a balíčky domácích úkolů.",
+      "q6": "Pomáhají tečkované puzzle s jemnou motorikou?",
+      "a6": "Ano – kreslení čar mezi tečkami posiluje úchop tužky a koordinaci rukou a očí, což podporuje připravenost na psaní. Mnoho ergoterapeutů a učitelů v mateřských školách z tohoto důvodu doporučuje aktivity spojování teček.",
+      "q7": "Máte motivy k vytištění s puntíky, jako jsou zvířata nebo dinosauři?",
+      "a7": "Máme 11 kategorií, včetně zvířat, dinosaurů, vozidel, mořských tvorů, hřišť, 250 let Ameriky, vesmíru, fantasy, sezónních/prázdninových témat, sad pracovních listů pro učitele a knih Big Dot. Nové návrhy přidáváme každý týden.",
+      "q8": "Můžu si tyto puzzle vytisknout černobíle?",
+      "a8": "Ano – všechny naše pracovní listy s metodou spojování teček jsou navrženy pro černobílý tisk, aby se ušetřil inkoust. Vypadají skvěle na jakékoli domácí i školní tiskárně."
+    },
+    "newsletter": {
+      "eyebrow": "Startovací balíček k vytištění – zcela zdarma",
+      "heading": "Získejte 20 bezplatných tiskovin s motivem tečky do vaší schránky.",
+      "description": "Kolekce vhodná pro rodiče a učitele, která zahrnuje zvířata, vozidla, dinosaury a sezónní témata – vše ve standardní velikosti pro papír US Letter a optimalizované pro černobílý tisk."
+    },
+    "blog": {
+      "eyebrow": "Nápady pro dospělé",
+      "heading": "Tipy pro učení doma i ve třídě",
+      "viewAll": "Zobrazit všechny články",
+      "read": "Číst"
+    },
+    "feedback": {
+      "eyebrow": "Rádi bychom od vás slyšeli",
+      "heading": "Odeslat zpětnou vazbu",
+      "description": "Máte nápad na hádanku, našli jste nefunkční odkaz nebo nás jen chcete pozdravit? Napište nám níže."
+    },
+    "footer": {
+      "description": "Tisknutelné materiály s tečkami a pracovní listy s technikou spojování teček pro děti, rodiče a učitele zdarma. Všechny hádanky si můžete zdarma stáhnout, vytisknout a sdílet.",
+      "kids": "Děti",
+      "parents": "Rodiče",
+      "teachers": "Učitelé",
+      "blog": "Blog",
+      "faq": "Často kladené otázky",
+      "feedback": "Zpětná vazba",
+      "about": "O",
+      "contact": "Kontakt",
+      "privacy": "Soukromí",
+      "terms": "Podmínky",
+      "sitemap": "Mapa stránek",
+      "copyright": "© {year} DotToDotFreePrintables.com · Aktivity pro děti k vytisknutí zdarma"
+    },
+    "common": {
+      "home": "Domov",
+      "new": "Nový",
+      "comingSoon": "Již brzy",
+      "downloadFree": "Stáhněte si zdarma tisknutelný dokument",
+      "viewDownload": "Zobrazit a stáhnout",
+      "shareTitle": "{name} Spojovací obrázek - Zdarma PDF",
+      "downloadAria": "Stáhnout zdarma {name} spojovací obrázek PDF",
+      "bookmarkTitle": "{name} Spojovací obrázek – Zdarma PDF pro děti",
+      "showSlide": "Zobrazit snímek {number}",
+      "ageRange": "Věk {min}-{max}",
+      "difficultyLabel": "Obtížnost {level} ze 3",
+      "difficulty": {
+        "1": "Snadný",
+        "2": "Střední",
+        "3": "Tvrdý"
+      },
+      "dots": "1–{count} teček",
+      "homeVideoEyebrow": "Video",
+      "homeVideoH2": "Sledujte zábavu s tečkami v akci",
+      "skipToContent": "Přeskočit na hlavní obsah",
+      "joinTeachers": "Připojte se k {count}+ učitelům",
+      "breadcrumbAria": "Hlavní stránka"
+    },
+    "puzzleSearch": {
+      "placeholder": "Hledat podle jména nebo tématu... např. oceán, velryba, T-Rex",
+      "searchAria": "Hledat hádanky",
+      "clearSearch": "Vymazat hledání",
+      "toggleFilters": "Přepnout filtry",
+      "filters": "Filtry",
+      "filterOptions": "Možnosti filtrů",
+      "topic": "Téma",
+      "numberOfDots": "Počet teček",
+      "recentlyAddedOnly": "Pouze nedávno přidané",
+      "clearAllFilters": "Vymazat všechny filtry",
+      "clearFilters": "Vymazat filtry",
+      "resultsFound": "{count, plural, one {nalezen # hlavolam} few {nalezeny # hlavolamy} other {nalezeno # hlavolamů}}",
+      "puzzlesAvailable": "{count, plural, one {# hádanka k dispozici} few {# hádanky k dispozici} other {# hádanek k dispozici}}",
+      "noMatches": "Žádné hádanky neodpovídají vašemu vyhledávání.",
+      "openPuzzle": "Otevřít {name}",
+      "imageAlt": "{name} tečka po tečce k tisku",
+      "viewPuzzle": "Zobrazit hádanku →",
+      "dotRanges": {
+        "under35": "Méně než 35 teček",
+        "35to50": "35–50 teček",
+        "51to70": "51–70 teček",
+        "over70": "70+ teček"
+      },
+      "categories": {
+        "Dinosaurs": "Dinosauři",
+        "Ocean": "Oceán",
+        "Playgrounds": "Hřiště",
+        "Garden": "Zahrada",
+        "Cute": "Roztomilé",
+        "USA 250 Years": "USA 250 let",
+        "UAE": "SAE"
+      }
+    },
+    "newsletterForm": {
+      "ariaLabel": "Získejte bezplatný tisknutelný balíček tečka-po-tečce",
+      "emailLabel": "E-mailová adresa",
+      "submit": "Zaslat balíček zdarma",
+      "honeypot": "Toto pole nechte prázdné",
+      "privacy": "Žádný spam, nikdy. Odhlásit se můžete kdykoli.",
+      "error": "Tento formulář nelze odeslat.",
+      "notConnected": "Registrace k bezplatnému balíčku ještě není připojena."
+    },
+    "feedbackForm": {
+      "ariaLabel": "Odeslat zpětnou vazbu",
+      "notConnected": "Tento formulář zpětné vazby ještě není připojen.",
+      "typeLabel": "Jaký druh zpětné vazby?",
+      "selectTopic": "Vyberte téma...",
+      "types": {
+        "general": "Obecná zpětná vazba",
+        "requestTheme": "Poptejte téma puzzle",
+        "brokenLink": "Nahlásit nefunkční odkaz",
+        "improvement": "Navrhněte vylepšení",
+        "other": "Ostatní"
+      },
+      "messageLabel": "Vaše zpráva",
+      "messagePlaceholder": "Řekněte nám, co si myslíte...",
+      "emailLabel": "E-mail",
+      "emailOptional": "(volitelné - pouze pokud chcete odpověď)",
+      "submit": "Odeslat zpětnou vazbu",
+      "success": "Děkujeme. Vaše zpětná vazba byla odeslána.",
+      "disclaimer": "Neuvádějte prosím citlivé osobní údaje. E-mail je volitelný a použijeme jej pouze v případě, že potřebujeme odpovědět.",
+      "iframeTitle": "Odeslání zpětné vazby"
+    },
+    "hero": {
+      "badge": "100% zdarma · bez nutnosti registrace",
+      "h1": "Zdarma spoj tečky pro děti – pracovní listy spoj body",
+      "description": "Stahujte zdarma pracovní listy spoj body pro mateřskou školu až po první stupeň základní školy – vhodné pro USA, Velkou Británii, Kanadu a Austrálii, včetně britských zařízení EYFS. Od jednoduchých stránek s 38 body až po výzvy s více než 130 body, s tématy zvířat, dinosaurů, vozidel a svátků – připravené k tisku během vteřin, bez nutnosti registrace.",
+      "browsePuzzles": "Procházet bezplatné hádanky",
+      "starterPack": "Získat startovací balíček 20 hádanek",
+      "stat1Value": "Důkladně ověřeno",
+      "stat1Label": "bezplatných tiskovitelných hádanek",
+      "stat2Value": "2 až 12 let",
+      "stat2Label": "všechny obtížnosti",
+      "stat3Value": "100%",
+      "stat3Label": "zdarma, navždy"
+    },
+    "config": {
+      "featured_puzzle_slugs": "[\"trex-61-dot-to-dot-puzzle\",\"mermaid-dot-to-dot-puzzle\",\"jellyfish-dot-to-dot-puzzle\",\"cute-puppy-dot-to-dot-puzzle\",\"slide-playgrounds-dot-to-dot-puzzle\",\"snowdrop-flower-dot-to-dot-puzzle\",\"dashing-car-playground-dot-to-dot-puzzle\",\"lotus-flower-dot-to-dot-puzzle\"]",
+      "recent_puzzle_slugs": "[\"circus-ringmaster-bear-dot-to-dot-puzzle\",\"circus-tent-dot-to-dot-puzzle\",\"space-rover-dot-to-dot-puzzle\",\"ringed-planet-dot-to-dot-puzzle\"]"
+    },
+    "purchase": {
+      "ad": {
+        "packName": "Balíček spojovaček",
+        "pdfBook": "KNIHA PDF",
+        "bookTitle": "Nejlepší z roku 2026",
+        "puzzleCount": "25 hádanek typu tečka k tečce",
+        "viewBook": "Zobrazit knihu"
+      },
+      "shared": {
+        "specialSale": "Speciální prodej",
+        "returnToPack": "Zpět na balíček hádanek",
+        "contactUs": "Kontaktujte nás"
+      },
+      "premium": {
+        "metaTitle": "Nejlepší prémiový balíček spojovaček z roku 2026",
+        "metaDescription": "K tisku připravená kolekce oblíbených spojovaček pro děti v jednom praktickém PDF.",
+        "eyebrow": "Prémiová tisková kolekce",
+        "lede": "Kolekce Nejlepší z roku 2026 přináší naše oblíbené spojovačky v jednom snadno tisknutelném balíčku na klidné chvíle, deštivé dny, domácí výuku i školní třídy.",
+        "digitalPdf": "Digitální PDF",
+        "printAtHome": "Tisk doma",
+        "instantAccess": "Okamžitý přístup",
+        "purchaseAria": "Zakoupit balíček hádanek Nejlepší z roku 2026",
+        "coverAlt": "Nejlepší z roku 2026 - obálka knihy s 25 spojovačkami",
+        "oneTime": "jednorázově",
+        "buyButton": "Získat balíček hádanek",
+        "localNote": "Na localhostu se otevře bezpečné demo pokladny a karta nikdy nebude zatížena.",
+        "detailsEyebrow": "Navrženo pro snadný tisk a hraní",
+        "detailsText": "Stáhněte jednou, mějte po ruce a vytiskněte si aktivity, kdykoli je potřebujete.",
+        "benefits": {
+          "onePdf": "Jedno praktické, k tisku připravené PDF",
+          "kidFriendly": "Hádanky pro děti s různou obtížností",
+          "paperSizes": "Funguje na papíru US Letter i A4",
+          "instantAccess": "Okamžitý přístup po úspěšné platbě",
+          "classroomUse": "Použití doma nebo v jedné třídě"
+        },
+        "guaranteeText": "Po dokončení objednávky se okamžitě zobrazí váš soukromý odkaz ke stažení. Žádné předplatné ani nečekané obnovení."
+      },
+      "checkout": {
+        "consent": "Souhlasím s okamžitým doručením tohoto digitálního PDF a rozumím, že jakmile přístup začne, prodej je konečný a nevratný, s výjimkou případů vyžadovaných zákonem nebo pokud soubor nebyl doručen či je vadný.",
+        "refundPolicy": "Přečíst zásady vracení peněz",
+        "opening": "Otevírání pokladny...",
+        "secureNote": "Bezpečná platba zajištěná společností Stripe. Jednorázová platba. Bez předplatného.",
+        "error": "Při zahájení platby došlo k chybě. Zkuste to prosím znovu."
+      },
+      "success": {
+        "metaTitle": "Děkujeme za váš nákup",
+        "eyebrow": "Platba potvrzena",
+        "lede": "Vaše platba byla úspěšná. Zobrazení nákupu ve vašem účtu může trvat několik sekund."
+      },
+      "cancelled": {
+        "metaTitle": "Platba zrušena",
+        "eyebrow": "Žádná platba nebyla provedena",
+        "lede": "Nebyl účtován žádný poplatek. Můžete to kdykoli zkusit znovu."
+      },
+      "download": {
+        "demoTitle": "Místní test pokladny byl úspěšný.",
+        "demoText": "Skutečná placená obrazovka úspěchu zde zobrazuje tlačítko pro stažení PDF. Místní demo neuvolní soukromý soubor.",
+        "button": "Stáhnout váš balíček hádanek",
+        "expires": "Platnost tohoto odkazu vyprší za 24 hodin. Uložte si stažený soubor na bezpečné místo.",
+        "failed": "Váš nákup jsme zatím nemohli potvrdit. Pokud vám byla částka strhnuta, obnovte prosím tuto stránku za minutu nebo nás kontaktujte pro pomoc.",
+        "preparing": "Připravujeme vaše stažení..."
+      }
+    },
+    "puzzleDetail": {
+      "agesLabel": "Věk:",
+      "dotsLabel": "Tečky:",
+      "freeLabel": "100% zdarma",
+      "difficultyHeading": "Obtížnost",
+      "difficultyEasy": "Snadný",
+      "difficultyMedium": "Střední",
+      "difficultyHard": "Tvrdý",
+      "funFactPrefix": "Zajímavý fakt:",
+      "funFactLabel": "Zábavný fakt!",
+      "noSignUp": "Není potřeba žádná registrace.Otevře se jako PDF.Tiskněte na papír US Letter (8,5 × 11 palců) nebo A4.Zdarma pro použití doma a ve třídě.",
+      "comingSoon": "Stáhněte si zdarma PDF – již brzy",
+      "youMightLike": "Také by se vám mohlo líbit",
+      "faqQ1": "Pro jaký věk je {name} puzzle tečka k tečce?",
+      "faqA1": "Je určen pro věkové skupiny {age}.S {tečkami} tečkami to vyhovuje dětem, které umí s jistotou počítat do {teček};mladší děti jej s malou pomocí doplní.",
+      "faqQ2": "Jak vytisknu pracovní list {name}?",
+      "faqA2": "Kliknutím na tlačítko stažení získáte bezplatný soubor PDF a poté jej vytiskněte na běžný papír (A4 nebo US Letter) z libovolného prohlížeče nebo čtečky PDF.Není potřeba žádný speciální software.",
+      "faqQ3": "Je {name} k vytisknutí opravdu zdarma?",
+      "faqA3": "Ano – je 100% zdarma, bez nutnosti registrace, účtu nebo platby.Můžete si jej vytisknout pro použití doma nebo ve třídě."
+    },
+    "downloadBadge": {
+      "downloaded": "Staženo",
+      "times": "časy",
+      "greatChoice": "Udělali jste skvělou volbu!"
+    },
+    "shareButtons": {
+      "label": "Podíl",
+      "copyLink": "Zkopírujte odkaz",
+      "copied": "Odkaz zkopírován!",
+      "shareMe": "Sdílejte mě"
+    },
+    "blogPage": {
+      "eyebrow": "Učební zdroje",
+      "h1": "Tečka za tečkou nápady pro rodiče a učitele",
+      "description": "Praktické příručky pro výběr aktivit, budování dovedností v raném věku a používání pracovních listů, které lze tisknout doma nebo ve třídě.",
+      "breadcrumb": "Blog",
+      "latestEyebrow": "Nejnovější články",
+      "latestH2": "Užitečné nápady, které můžete použít ještě dnes",
+      "readArticle": "Přečtěte si článek",
+      "by": "Podle",
+      "backToAll": "← Zpět na všechny články",
+      "savePinterest": "Uložit na Pinterest",
+      "relatedEyebrow": "Volný tisk",
+      "relatedHeading": "Vyzkoušejte tyto kolekce tečka po tečce jako další"
+    },
+    "canadaPage": {
+      "category": "Kanada"
+    },
+    "circusPage": {
+      "category": "Cirkus"
+    },
+    "cutePage": {
+      "category": "Roztomilý"
+    },
+    "dinosaursPage": {
+      "category": "Dinosauři"
+    },
+    "flowersPage": {
+      "category": "Květiny"
+    },
+    "gardenPage": {
+      "category": "Zahrada"
+    },
+    "oceanPage": {
+      "category": "Oceán"
+    },
+    "playgroundsPage": {
+      "category": "Dětská hřiště"
+    },
+    "spacePage": {
+      "category": "Plocha"
+    },
+    "uaePage": {
+      "category": "Spojené arabské emiráty"
+    },
+    "usa250Page": {
+      "category": "250. výročí USA"
+    }
+  }
+}
