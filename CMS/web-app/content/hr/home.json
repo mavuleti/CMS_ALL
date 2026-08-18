@@ -149,7 +149,7 @@
           "description": "Proslavite 250. rođendan Amerike domoljubnim zagonetkama od točke do točke u čast američke povijesti."
         },
         "uae": {
-          "name": "UAE",
+          "name": "Ujedinjeni Arapski Emirati",
           "description": "Istražite Ujedinjene Arapske Emirate! Kultne znamenitosti poput Burj Al Araba, spremne za povezivanje i bojanje."
         },
         "space": {
@@ -188,7 +188,7 @@
         "Garden": "Vrt",
         "Cute": "Slatko",
         "USA 250 Years": "Amerika 250 godina",
-        "UAE": "UAE"
+        "UAE": "Ujedinjeni Arapski Emirati"
       },
       "items": {
         "trex-61-dot-to-dot-puzzle": {
@@ -407,7 +407,7 @@
         "Garden": "Vrt",
         "Cute": "Slatko",
         "USA 250 Years": "SAD 250 godina",
-        "UAE": "UAE"
+        "UAE": "Ujedinjeni Arapski Emirati"
       }
     },
     "newsletterForm": {
@@ -492,7 +492,10 @@
           "instantAccess": "Trenutni pristup nakon uspješnog plaćanja",
           "classroomUse": "Za korištenje kod kuće ili u jednoj učionici"
         },
-        "guaranteeText": "Nakon plaćanja odmah se pojavljuje vaša privatna poveznica za preuzimanje. Bez pretplate i bez iznenadnih obnova."
+        "guaranteeText": "Nakon plaćanja odmah se pojavljuje vaša privatna poveznica za preuzimanje. Bez pretplate i bez iznenadnih obnova.",
+        "heading": "Više točkalica. Manje traženja. Sve na jednom praktičnom PDF-u.",
+        "detailsHeading": "Sve što trebate za zabavu bez ekrana",
+        "guaranteeHeading": "Jednostavno, sigurno i spremno za nekoliko minuta"
       },
       "checkout": {
         "consent": "Slažem se s trenutnom dostavom ovog digitalnog PDF-a i razumijem da je, nakon što pristup započne, kupnja konačna i nepovratna, osim ako je to zakonom propisano ili ako datoteka nije isporučena ili je neispravna.",
@@ -539,6 +542,15 @@
       "faqA2": "Pritisnite gumb za preuzimanje da biste dobili besplatni PDF, zatim ga ispišite na običnom papiru (A4 ili US Letter) iz bilo kojeg preglednika ili PDF čitača.Nije potreban poseban softver.",
       "faqQ3": "Je li ispis {name} stvarno besplatan?",
       "faqA3": "Da — 100% je besplatno, bez potrebe za registracijom, računom ili plaćanjem.Možete ga ispisati za kućnu ili učionicu."
+    },
+    "downloadButton": {
+      "label": "Preuzmite besplatni PDF za ispis",
+      "usage": "Besplatno za kućnu upotrebu i upotrebu u učionici.",
+      "paperNote": "Veličine za {size} papir.",
+      "paperLetter": "US pismo",
+      "paperA4": "A4",
+      "alternateLink": "Više volite {size}?Preuzmite tu verziju",
+      "downloadSize": "Preuzmi (veličina ispisa: {size})"
     },
     "downloadBadge": {
       "downloaded": "Preuzeto",

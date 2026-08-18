@@ -492,7 +492,10 @@
           "instantAccess": "Başarılı ödemenin ardından anında erişim",
           "classroomUse": "Evde veya tek bir sınıfta kullanılabilir"
         },
-        "guaranteeText": "Ödeme sonrasında özel indirme bağlantınız hemen görünür. Abonelik yok, sürpriz yenileme yok."
+        "guaranteeText": "Ödeme sonrasında özel indirme bağlantınız hemen görünür. Abonelik yok, sürpriz yenileme yok.",
+        "heading": "Daha fazla bulmaca. Daha az arama. Hepsi tek bir pratik PDF'de.",
+        "detailsHeading": "Ekransız eğlence için ihtiyacınız olan her şey",
+        "guaranteeHeading": "Basit, güvenli ve dakikalar içinde hazır"
       },
       "checkout": {
         "consent": "Bu dijital PDF'in anında teslim edilmesini kabul ediyorum ve erişim başladıktan sonra, yasa gereği zorunlu olmadıkça veya dosya teslim edilmez ya da kusurlu olmadıkça satışın kesin ve iade edilemez olduğunu anlıyorum.",
@@ -539,6 +542,15 @@
       "faqA2": "Ücretsiz PDF'yi almak için indirme düğmesine tıklayın, ardından herhangi bir tarayıcıdan veya PDF okuyucudan normal kağıda (A4 veya US Letter) yazdırın.Özel bir yazılıma gerek yoktur.",
       "faqQ3": "{name} yazdırılabilir gerçekten ücretsiz mi?",
       "faqA3": "Evet — %100 ücretsizdir; kayıt, hesap veya ödeme gerektirmez.Evde veya sınıfta kullanmak üzere yazdırabilirsiniz."
+    },
+    "downloadButton": {
+      "label": "Ücretsiz Yazdırılabilir PDF'yi İndirin",
+      "usage": "Ev ve sınıf kullanımı için ücretsizdir.",
+      "paperNote": "{size} kağıt için boyutlandırılmıştır.",
+      "paperLetter": "ABD Mektubu",
+      "paperA4": "A4",
+      "alternateLink": "{size}'ı mı tercih edersiniz?Bu sürümü indirin",
+      "downloadSize": "İndir (Baskı Boyutu: {size})"
     },
     "downloadBadge": {
       "downloaded": "İndirildi",

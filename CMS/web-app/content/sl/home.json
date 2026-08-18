@@ -374,7 +374,7 @@
       "homeVideoH2": "Oglejte si zabavo pika-dot v akciji",
       "skipToContent": "Preskoči na glavno vsebino",
       "joinTeachers": "Pridruži se {count}+ učiteljem",
-      "breadcrumbAria": "Breadcrumb"
+      "breadcrumbAria": "Drobtinice"
     },
     "puzzleSearch": {
       "placeholder": "Iskanje po imenu ali temi... npr. ocean, kit, T-Rex",
@@ -492,7 +492,10 @@
           "instantAccess": "Takojšen dostop po uspešnem plačilu",
           "classroomUse": "Uporabno doma ali v eni učilnici"
         },
-        "guaranteeText": "Po nakupu se takoj prikaže vaša zasebna povezava za prenos. Brez naročnine in brez presenetljive obnovitve."
+        "guaranteeText": "Po nakupu se takoj prikaže vaša zasebna povezava za prenos. Brez naročnine in brez presenetljive obnovitve.",
+        "heading": "Več ugank. Manj iskanja. Vse na enem priročnem PDF-ju.",
+        "detailsHeading": "Vse, kar potrebujete za zabavo brez zaslonov",
+        "guaranteeHeading": "Preprosto, varno in pripravljeno v nekaj minutah"
       },
       "checkout": {
         "consent": "Strinjam se s takojšnjo dostavo tega digitalnega PDF-ja in razumem, da je po začetku dostopa nakup dokončen in ni vračljiv, razen kadar to zahteva zakon ali če datoteka ni dostavljena oziroma je pomanjkljiva.",
@@ -539,6 +542,15 @@
       "faqA2": "Kliknite gumb za prenos, da dobite brezplačen PDF, nato pa ga natisnite na običajen papir (A4 ali US Letter) iz katerega koli brskalnika ali bralnika PDF.Posebna programska oprema ni potrebna.",
       "faqQ3": "Je {name} za tiskanje res brezplačen?",
       "faqA3": "Da — je 100 % brezplačen, brez prijave, računa ali plačila.Lahko ga natisnete za uporabo doma ali v razredu."
+    },
+    "downloadButton": {
+      "label": "Prenesite brezplačen PDF za tiskanje",
+      "usage": "Brezplačno za uporabo doma in v razredu.",
+      "paperNote": "Velikost za {size} papir.",
+      "paperLetter": "US pismo",
+      "paperA4": "A4",
+      "alternateLink": "Imate raje {size}?Prenesite to različico",
+      "downloadSize": "Prenos (velikost tiskanja: {size})"
     },
     "downloadBadge": {
       "downloaded": "Preneseno",

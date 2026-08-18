@@ -1,0 +1,10 @@
+rules_version = '2';
+service firebase.storage {
+  match /b/{bucket}/o {
+    // All deliverables are private. The only access path is a time-limited
+    // signed URL minted server-side by getDownloadLink after a verified purchase.
+    match /{allPaths=**} {
+      allow read, write: if false;
+    }
+  }
+}

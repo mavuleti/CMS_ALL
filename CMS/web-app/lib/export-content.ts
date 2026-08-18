@@ -33,7 +33,13 @@ function validObjectArray(value: unknown): any[] {
 
 function numberFrom(...values: unknown[]) {
   for (const value of values) {
-    const match = String(value ?? '').match(/\b(\d{2,3})\s*(?:[ -]?dots?\b|نقطة)/iu);
+    const text = String(value ?? '');
+    // Titles like "70 Three-Horned Dots Free" put an adjective between the
+    // count and "dot(s)" — allow up to a few intervening words, not just
+    // direct adjacency, or puzzles like Triceratops/Velociraptor silently
+    // lose their dot count (and fall back to a bogus "Easy · 1–0 dots").
+    const match = text.match(/\b(\d{2,3})\b(?:[\s-]+[\p{L}][\p{L}'-]*){0,3}[\s-]+dots?\b/iu)
+      ?? text.match(/\b(\d{2,3})\s*نقطة/u);
     if (match) return Number(match[1]);
   }
 }

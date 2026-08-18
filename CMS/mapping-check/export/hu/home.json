@@ -433,7 +433,7 @@
       },
       "messageLabel": "Az üzeneted",
       "messagePlaceholder": "Mondd el a véleményed...",
-      "emailLabel": "Email",
+      "emailLabel": "E-mail",
       "emailOptional": "(opcionális - csak akkor, ha választ szeretne kapni)",
       "submit": "Visszajelzés küldése",
       "success": "Köszönjük. Visszajelzését elküldtük.",
@@ -492,7 +492,10 @@
           "instantAccess": "Azonnali hozzáférés sikeres fizetés után",
           "classroomUse": "Otthon vagy egyetlen tanteremben használható"
         },
-        "guaranteeText": "A fizetés után azonnal megjelenik a privát letöltési linked. Nincs előfizetés, és nincs meglepetésszerű megújítás."
+        "guaranteeText": "A fizetés után azonnal megjelenik a privát letöltési linked. Nincs előfizetés, és nincs meglepetésszerű megújítás.",
+        "heading": "Több feladvány. Kevesebb keresgélés. Minden egy kényelmes PDF-ben.",
+        "detailsHeading": "Minden, ami a képernyőmentes szórakozáshoz kell",
+        "guaranteeHeading": "Egyszerű, biztonságos, és percek alatt kész"
       },
       "checkout": {
         "consent": "Elfogadom ennek a digitális PDF-nek az azonnali kézbesítését, és tudomásul veszem, hogy a hozzáférés megkezdését követően a vásárlás végleges és nem visszatéríthető, kivéve, ha ezt jogszabály írja elő, vagy ha a fájlt nem kézbesítik, illetve az hibás.",
@@ -539,6 +542,15 @@
       "faqA2": "Kattintson a letöltés gombra az ingyenes PDF letöltéséhez, majd nyomtassa ki normál papírra (A4 vagy US Letter) bármely böngészőből vagy PDF-olvasóból.Nincs szükség speciális szoftverre.",
       "faqQ3": "A(z) {name} valóban ingyenes?",
       "faqA3": "Igen – 100%-ban ingyenes, nincs szükség regisztrációra, fiókra vagy fizetésre.Kinyomtathatja otthoni vagy tantermi használatra."
+    },
+    "downloadButton": {
+      "label": "Ingyenesen nyomtatható PDF letöltése",
+      "usage": "Ingyenes otthoni és tantermi használatra.",
+      "paperNote": "{size} papírhoz méretezve.",
+      "paperLetter": "Amerikai levél",
+      "paperA4": "A4",
+      "alternateLink": "Inkább {size}?Töltse le azt a verziót",
+      "downloadSize": "Letöltés (Nyomtatási méret: {size})"
     },
     "downloadBadge": {
       "downloaded": "Letöltve",

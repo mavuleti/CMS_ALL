@@ -407,7 +407,7 @@
         "Garden": "Hage",
         "Cute": "Søtt",
         "USA 250 Years": "USA 250 år",
-        "UAE": "UAE"
+        "UAE": "De forente arabiske emirater"
       }
     },
     "newsletterForm": {
@@ -492,7 +492,10 @@
           "instantAccess": "Umiddelbar tilgang etter vellykket betaling",
           "classroomUse": "Kan brukes hjemme eller i ett klasserom"
         },
-        "guaranteeText": "Etter betaling vises din private nedlastingslenke umiddelbart. Ingen abonnement og ingen overraskende fornyelse."
+        "guaranteeText": "Etter betaling vises din private nedlastingslenke umiddelbart. Ingen abonnement og ingen overraskende fornyelse.",
+        "heading": "Flere oppgaver. Mindre leting. Alt i én praktisk PDF.",
+        "detailsHeading": "Alt du trenger for skjermfri moro",
+        "guaranteeHeading": "Enkelt, trygt og klart på få minutter"
       },
       "checkout": {
         "consent": "Jeg godtar umiddelbar levering av denne digitale PDF-en og forstår at når tilgangen har startet, er kjøpet endelig og kan ikke refunderes, unntatt der loven krever det, eller hvis filen ikke leveres eller er defekt.",
@@ -539,6 +542,15 @@
       "faqA2": "Klikk på nedlastingsknappen for å få den gratis PDF-filen, og skriv den deretter ut på vanlig papir (A4 eller US Letter) fra hvilken som helst nettleser eller PDF-leser.Ingen spesiell programvare er nødvendig.",
       "faqQ3": "Er {name} utskrivbar virkelig gratis?",
       "faqA3": "Ja – det er 100 % gratis, uten registrering, konto eller betaling nødvendig.Du kan skrive den ut for hjemme- eller klasseromsbruk."
+    },
+    "downloadButton": {
+      "label": "Last ned gratis utskriftsvennlig PDF",
+      "usage": "Gratis for hjemme- og klasseromsbruk.",
+      "paperNote": "Størrelse for {size} papir.",
+      "paperLetter": "US Letter",
+      "paperA4": "A4",
+      "alternateLink": "Foretrekker du {size}?Last ned den versjonen",
+      "downloadSize": "Last ned (Utskriftsstørrelse: {size})"
     },
     "downloadBadge": {
       "downloaded": "Lastet ned",

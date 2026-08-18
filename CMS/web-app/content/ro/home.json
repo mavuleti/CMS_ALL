@@ -492,7 +492,10 @@
           "instantAccess": "Acces instantaneu după o plată reușită",
           "classroomUse": "Poate fi folosit acasă sau într-o singură sală de clasă"
         },
-        "guaranteeText": "După finalizarea plății, linkul tău privat de descărcare apare imediat. Fără abonament și fără reînnoire surpriză."
+        "guaranteeText": "După finalizarea plății, linkul tău privat de descărcare apare imediat. Fără abonament și fără reînnoire surpriză.",
+        "heading": "Mai multe puzzle-uri. Mai puțină căutare. Totul într-un singur PDF practic.",
+        "detailsHeading": "Tot ce ai nevoie pentru distracție fără ecrane",
+        "guaranteeHeading": "Simplu, sigur și gata în câteva minute"
       },
       "checkout": {
         "consent": "Sunt de acord cu livrarea imediată a acestui PDF digital și înțeleg că, odată ce accesul începe, vânzarea este finală și nerambursabilă, cu excepția cazurilor prevăzute de lege sau dacă fișierul nu este livrat ori este defect.",
@@ -539,6 +542,15 @@
       "faqA2": "Faceți clic pe butonul de descărcare pentru a obține PDF-ul gratuit, apoi tipăriți-l pe hârtie obișnuită (A4 sau US Letter) din orice browser sau cititor PDF.Nu este nevoie de software special.",
       "faqQ3": "Este {name} imprimabil cu adevărat gratuit?",
       "faqA3": "Da — este 100% gratuit, fără a fi nevoie de înregistrare, cont sau plată.Îl puteți imprima pentru uz acasă sau în clasă."
+    },
+    "downloadButton": {
+      "label": "Descarcă PDF imprimabil gratuit",
+      "usage": "Gratuit pentru utilizare acasă și la clasă.",
+      "paperNote": "Dimensiune pentru hârtie {size}.",
+      "paperLetter": "Scrisoarea SUA",
+      "paperA4": "A4",
+      "alternateLink": "Preferi {size}?Descărcați acea versiune",
+      "downloadSize": "Descărcați (Dimensiune tipărire: {size})"
     },
     "downloadBadge": {
       "downloaded": "Descărcat",

@@ -347,7 +347,7 @@
       "feedback": "Feedback",
       "about": "Over",
       "contact": "Contact",
-      "privacy": "Privacy",
+      "privacy": "Privacybeleid",
       "terms": "Voorwaarden",
       "sitemap": "Sitemap",
       "copyright": "© {year} DotToDotFreePrintables.com · Gratis printbare activiteiten voor kinderen"
@@ -492,7 +492,10 @@
           "instantAccess": "Directe toegang na succesvolle betaling",
           "classroomUse": "Te gebruiken thuis of in één klaslokaal"
         },
-        "guaranteeText": "Na het afrekenen verschijnt je persoonlijke downloadlink direct. Geen abonnement en geen onverwachte verlenging."
+        "guaranteeText": "Na het afrekenen verschijnt je persoonlijke downloadlink direct. Geen abonnement en geen onverwachte verlenging.",
+        "heading": "Meer puzzels. Minder zoeken. Alles in één handige PDF.",
+        "detailsHeading": "Alles wat je nodig hebt voor schermvrij plezier",
+        "guaranteeHeading": "Eenvoudig, veilig en binnen enkele minuten klaar"
       },
       "checkout": {
         "consent": "Ik ga akkoord met de directe levering van deze digitale PDF en begrijp dat, zodra de toegang begint, de verkoop definitief en niet-restitueerbaar is, tenzij dit wettelijk verplicht is of als het bestand niet is geleverd of defect is.",
@@ -539,6 +542,15 @@
       "faqA2": "Klik op de downloadknop om de gratis pdf te verkrijgen en druk deze vervolgens af op normaal papier (A4 of US Letter) vanuit elke browser of pdf-lezer.Er is geen speciale software nodig.",
       "faqQ3": "Is de printbare {naam} echt gratis?",
       "faqA3": "Ja, het is 100% gratis en er is geen aanmelding, account of betaling vereist.U kunt het afdrukken voor thuis- of klasgebruik."
+    },
+    "downloadButton": {
+      "label": "Download gratis afdrukbare PDF",
+      "usage": "Gratis voor thuis- en klasgebruik.",
+      "paperNote": "Op maat gemaakt voor papier van {size}.",
+      "paperLetter": "Amerikaanse brief",
+      "paperA4": "A4",
+      "alternateLink": "Liever {maat}?Download die versie",
+      "downloadSize": "Downloaden (afdrukformaat: {size})"
     },
     "downloadBadge": {
       "downloaded": "Gedownload",

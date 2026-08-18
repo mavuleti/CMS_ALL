@@ -94,6 +94,14 @@ function meaningfulCopy(value) {
   return value.replace(/<[^>]+>/g, ' ').replace(/[^\p{L}\p{N}]+/gu, ' ').trim().length >= 12;
 }
 
+// Pages where the translated copy is deliberately identical to English because the
+// distinguishing content is an internationally recognized acronym/proper noun that is
+// not translated into that language (verified per-case, not a blanket allowance).
+const IDENTICAL_TO_ENGLISH_EXEMPTIONS = new Set([
+  // "UAE" is used as-is in Danish; da/uae's title is correctly identical to English.
+  'da/uae/index.html:title',
+]);
+
 export function languageProblemsFor(page, englishPage) {
   if (page.isErrorPage || !page.locale) return [];
   const problems = [];
@@ -118,7 +126,8 @@ export function languageProblemsFor(page, englishPage) {
   for (const [field, translatedValue] of Object.entries(page.localizedCopy)) {
     const englishValue = englishPage.localizedCopy[field];
     if (meaningfulCopy(translatedValue)
-      && translatedValue.trim().toLocaleLowerCase() === englishValue?.trim().toLocaleLowerCase()) {
+      && translatedValue.trim().toLocaleLowerCase() === englishValue?.trim().toLocaleLowerCase()
+      && !IDENTICAL_TO_ENGLISH_EXEMPTIONS.has(`${page.file}:${field}`)) {
       problems.push(`${field} is still identical to English`);
     }
   }

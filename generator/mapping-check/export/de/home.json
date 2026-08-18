@@ -492,7 +492,10 @@
           "instantAccess": "Sofortiger Zugriff nach erfolgreicher Zahlung",
           "classroomUse": "Nutzbar zu Hause oder in einem Klassenzimmer"
         },
-        "guaranteeText": "Nach dem Bezahlvorgang erscheint sofort Ihr privater Download-Link. Kein Abonnement und keine überraschende Verlängerung."
+        "guaranteeText": "Nach dem Bezahlvorgang erscheint sofort Ihr privater Download-Link. Kein Abonnement und keine überraschende Verlängerung.",
+        "heading": "Mehr Rätsel. Weniger Suchen. Alles in einem praktischen PDF.",
+        "detailsHeading": "Alles, was du für bildschirmfreien Spaß brauchst",
+        "guaranteeHeading": "Einfach, sicher und in wenigen Minuten startklar"
       },
       "checkout": {
         "consent": "Ich stimme der sofortigen Bereitstellung dieser digitalen PDF-Datei zu und verstehe, dass der Kauf nach Beginn des Zugriffs endgültig und nicht erstattungsfähig ist, außer wenn gesetzlich vorgeschrieben oder wenn die Datei nicht geliefert wird oder fehlerhaft ist.",
@@ -539,6 +542,15 @@
       "faqA2": "Klicken Sie auf den Download-Button, um das kostenlose PDF zu erhalten, und drucken Sie es dann in einem beliebigen Browser oder PDF-Reader auf Normalpapier (A4 oder US-Letter) aus.Es ist keine spezielle Software erforderlich.",
       "faqQ3": "Ist die Druckversion von {name} wirklich kostenlos?",
       "faqA3": "Ja – es ist 100 % kostenlos, eine Anmeldung, ein Konto oder eine Zahlung sind nicht erforderlich.Sie können es für den Gebrauch zu Hause oder im Klassenzimmer ausdrucken."
+    },
+    "downloadButton": {
+      "label": "Laden Sie das kostenlose druckbare PDF herunter",
+      "usage": "Kostenlos für den Gebrauch zu Hause und im Klassenzimmer.",
+      "paperNote": "Größe für Papier der Größe {size}.",
+      "paperLetter": "US-Brief",
+      "paperA4": "A4",
+      "alternateLink": "Bevorzugen Sie {Größe}?Laden Sie diese Version herunter",
+      "downloadSize": "Herunterladen (Druckgröße: {size})"
     },
     "downloadBadge": {
       "downloaded": "Heruntergeladen",

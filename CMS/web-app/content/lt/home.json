@@ -492,7 +492,10 @@
           "instantAccess": "Prieiga akimirksniu po sėkmingo apmokėjimo",
           "classroomUse": "Galima naudoti namuose arba vienoje klasėje"
         },
-        "guaranteeText": "Apmokėjus, iš karto pasirodo jūsų asmeninė atsisiuntimo nuoroda. Jokios prenumeratos ir jokio netikėto pratęsimo."
+        "guaranteeText": "Apmokėjus, iš karto pasirodo jūsų asmeninė atsisiuntimo nuoroda. Jokios prenumeratos ir jokio netikėto pratęsimo.",
+        "heading": "Daugiau galvosūkių. Mažiau paieškų. Viskas viename patogiame PDF faile.",
+        "detailsHeading": "Viskas, ko reikia smagiam laikui be ekranų",
+        "guaranteeHeading": "Paprasta, saugu ir paruošta per kelias minutes"
       },
       "checkout": {
         "consent": "Sutinku, kad šis skaitmeninis PDF failas būtų pateiktas nedelsiant, ir suprantu, kad, prasidėjus prieigai, pirkimas yra galutinis ir negrąžinamas, išskyrus atvejus, kai to reikalauja įstatymai arba jei failas nepateikiamas ar yra su defektu.",
@@ -539,6 +542,15 @@
       "faqA2": "Spustelėkite atsisiuntimo mygtuką, kad gautumėte nemokamą PDF, tada atspausdinkite jį ant įprasto popieriaus (A4 arba US Letter) iš bet kurios naršyklės arba PDF skaitytuvo.Nereikia jokios specialios programinės įrangos.",
       "faqQ3": "Ar tikrai galima spausdinti {name} nemokamai?",
       "faqA3": "Taip – ​​ji yra 100% nemokama, nereikia prisiregistruoti, turėti sąskaitos ar mokėti.Galite atspausdinti jį naudoti namuose ar klasėje."
+    },
+    "downloadButton": {
+      "label": "Atsisiųskite nemokamą spausdinimą PDF",
+      "usage": "Nemokamai naudoti namuose ir klasėje.",
+      "paperNote": "Dydis tinka {size} popieriui.",
+      "paperLetter": "JAV laiškas",
+      "paperA4": "A4",
+      "alternateLink": "Norite {size}?Atsisiųskite tą versiją",
+      "downloadSize": "Atsisiųsti (spausdinimo dydis: {size})"
     },
     "downloadBadge": {
       "downloaded": "Atsisiųsta",

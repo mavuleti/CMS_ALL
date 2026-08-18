@@ -492,7 +492,10 @@
           "instantAccess": "Okamžitý přístup po úspěšné platbě",
           "classroomUse": "Použití doma nebo v jedné třídě"
         },
-        "guaranteeText": "Po dokončení objednávky se okamžitě zobrazí váš soukromý odkaz ke stažení. Žádné předplatné ani nečekané obnovení."
+        "guaranteeText": "Po dokončení objednávky se okamžitě zobrazí váš soukromý odkaz ke stažení. Žádné předplatné ani nečekané obnovení.",
+        "heading": "Více hádanek. Méně hledání. Všechno v jednom praktickém PDF.",
+        "detailsHeading": "Vše, co potřebujete pro zábavu bez obrazovek",
+        "guaranteeHeading": "Jednoduché, bezpečné a připravené za pár minut"
       },
       "checkout": {
         "consent": "Souhlasím s okamžitým doručením tohoto digitálního PDF a rozumím, že jakmile přístup začne, prodej je konečný a nevratný, s výjimkou případů vyžadovaných zákonem nebo pokud soubor nebyl doručen či je vadný.",
@@ -539,6 +542,15 @@
       "faqA2": "Kliknutím na tlačítko stažení získáte bezplatný soubor PDF a poté jej vytiskněte na běžný papír (A4 nebo US Letter) z libovolného prohlížeče nebo čtečky PDF.Není potřeba žádný speciální software.",
       "faqQ3": "Je {name} k vytisknutí opravdu zdarma?",
       "faqA3": "Ano – je 100% zdarma, bez nutnosti registrace, účtu nebo platby.Můžete si jej vytisknout pro použití doma nebo ve třídě."
+    },
+    "downloadButton": {
+      "label": "Stáhněte si zdarma tisknutelný PDF",
+      "usage": "Zdarma pro použití doma a ve třídě.",
+      "paperNote": "Velikost pro papír {size}.",
+      "paperLetter": "US Letter",
+      "paperA4": "A4",
+      "alternateLink": "Preferujete {size}?Stáhněte si tuto verzi",
+      "downloadSize": "Stáhnout (velikost tisku: {size})"
     },
     "downloadBadge": {
       "downloaded": "Staženo",

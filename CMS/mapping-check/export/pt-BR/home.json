@@ -403,7 +403,7 @@
       "categories": {
         "Dinosaurs": "Dinossauros",
         "Ocean": "Oceano",
-        "Playgrounds": "Playgrounds",
+        "Playgrounds": "Parques infantis",
         "Garden": "Jardim",
         "Cute": "Fofo",
         "USA 250 Years": "EUA 250 anos",
@@ -492,7 +492,10 @@
           "instantAccess": "Acesso instantâneo após pagamento aprovado",
           "classroomUse": "Pode ser usado em casa ou em uma sala de aula"
         },
-        "guaranteeText": "Depois da compra, seu link de download privado aparece na hora. Sem assinatura e sem renovação surpresa."
+        "guaranteeText": "Depois da compra, seu link de download privado aparece na hora. Sem assinatura e sem renovação surpresa.",
+        "heading": "Mais quebra-cabeças. Menos busca. Tudo em um único PDF prático.",
+        "detailsHeading": "Tudo o que você precisa para se divertir longe das telas",
+        "guaranteeHeading": "Simples, seguro e pronto em minutos"
       },
       "checkout": {
         "consent": "Concordo com a entrega imediata deste PDF digital e entendo que, assim que o acesso começar, a compra é final e não reembolsável, exceto quando exigido por lei ou se o arquivo não for entregue ou estiver com defeito.",
@@ -539,6 +542,15 @@
       "faqA2": "Clique no botão de download para obter o PDF gratuito e imprima-o em papel comum (A4 ou US Letter) em qualquer navegador ou leitor de PDF.Nenhum software especial é necessário.",
       "faqQ3": "A impressão de {nome} é realmente gratuita?",
       "faqA3": "Sim - é 100% gratuito, sem necessidade de inscrição, conta ou pagamento.Você pode imprimi-lo para uso doméstico ou em sala de aula."
+    },
+    "downloadButton": {
+      "label": "Baixe PDF para impressão grátis",
+      "usage": "Gratuito para uso doméstico e em sala de aula.",
+      "paperNote": "Dimensionado para papel {tamanho}.",
+      "paperLetter": "Carta dos EUA",
+      "paperA4": "A4",
+      "alternateLink": "Prefere {tamanho}?Baixe essa versão",
+      "downloadSize": "Baixar (tamanho de impressão: {tamanho})"
     },
     "downloadBadge": {
       "downloaded": "Baixado",

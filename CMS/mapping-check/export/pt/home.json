@@ -49,7 +49,7 @@
       "teachers": "Professores",
       "parents": "Pais",
       "contact": "Contate-nos",
-      "blog": "Blog",
+      "blog": "Blogue",
       "search": "Pesquisa",
       "freePack": "Pacote grátis",
       "scanMe": "Escaneie-me"
@@ -342,9 +342,9 @@
       "kids": "Miúdos",
       "parents": "Pais",
       "teachers": "Professores",
-      "blog": "Blog",
+      "blog": "Blogue",
       "faq": "Perguntas frequentes",
-      "feedback": "Feedback",
+      "feedback": "Comentários",
       "about": "Sobre",
       "contact": "Contacto",
       "privacy": "Privacidade",
@@ -492,7 +492,10 @@
           "instantAccess": "Acesso imediato após pagamento bem-sucedido",
           "classroomUse": "Pode ser usado em casa ou numa única sala de aula"
         },
-        "guaranteeText": "Após a compra, o seu link privado de download aparece de imediato. Sem subscrição e sem renovações surpresa."
+        "guaranteeText": "Após a compra, o seu link privado de download aparece de imediato. Sem subscrição e sem renovações surpresa.",
+        "heading": "Mais puzzles. Menos procura. Tudo num único PDF prático.",
+        "detailsHeading": "Tudo o que precisa para diversão sem ecrãs",
+        "guaranteeHeading": "Simples, seguro e pronto em minutos"
       },
       "checkout": {
         "consent": "Concordo com a entrega imediata deste PDF digital e compreendo que, assim que o acesso for iniciado, a venda é final e não reembolsável, exceto quando exigido por lei ou se o ficheiro não for entregue ou estiver com defeito.",
@@ -539,6 +542,15 @@
       "faqA2": "Clique no botão de download para obter o PDF gratuito e imprima-o em papel comum (A4 ou US Letter) em qualquer navegador ou leitor de PDF.Nenhum software especial é necessário.",
       "faqQ3": "A impressão de {nome} é realmente gratuita?",
       "faqA3": "Sim - é 100% gratuito, sem necessidade de inscrição, conta ou pagamento.Você pode imprimi-lo para uso doméstico ou em sala de aula."
+    },
+    "downloadButton": {
+      "label": "Baixe PDF para impressão grátis",
+      "usage": "Gratuito para uso doméstico e em sala de aula.",
+      "paperNote": "Dimensionado para papel {tamanho}.",
+      "paperLetter": "Carta dos EUA",
+      "paperA4": "A4",
+      "alternateLink": "Prefere {tamanho}?Baixe essa versão",
+      "downloadSize": "Baixar (tamanho de impressão: {tamanho})"
     },
     "downloadBadge": {
       "downloaded": "Baixado",

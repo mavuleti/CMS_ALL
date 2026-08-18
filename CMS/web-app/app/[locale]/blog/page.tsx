@@ -4,7 +4,7 @@ import { ArrowRight, BookOpen, Home } from 'lucide-react';
 import { setRequestLocale, getTranslations } from 'next-intl/server';
 
 import { getAllBlogPostsForLocale, formatBlogDate } from '@/lib/blog-data';
-import { DEFAULT_OG_IMAGE, SITE_NAME, buildAlternates } from '@/lib/seo';
+import { DEFAULT_OG_IMAGE, SITE_NAME, buildAlternates, ogLocaleFor } from '@/lib/seo';
 
 export async function generateMetadata({
   params
@@ -12,8 +12,9 @@ export async function generateMetadata({
   params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
   const { locale } = await params;
-  const ogTitle = 'Dot-to-Dot Learning Blog';
-  const ogDescription = 'Activity ideas and practical learning guides for parents and teachers.';
+  const t = await getTranslations({ locale, namespace: 'blogPage' });
+  const ogTitle = t('h1');
+  const ogDescription = t('description');
   return {
     title: ogTitle,
     description: ogDescription,
@@ -24,7 +25,7 @@ export async function generateMetadata({
       url: `/${locale}/blog/`,
       siteName: SITE_NAME,
       type: 'website',
-      locale: 'en_US',
+      locale: ogLocaleFor(locale),
       images: [DEFAULT_OG_IMAGE]
     },
     twitter: {
@@ -50,8 +51,8 @@ export default async function BlogPage({
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Home', item: `https://dottodotfreeprintables.com/${locale}/` },
-      { '@type': 'ListItem', position: 2, name: 'Blog', item: `https://dottodotfreeprintables.com/${locale}/blog/` }
+      { '@type': 'ListItem', position: 1, name: tc('home'), item: `https://dottodotfreeprintables.com/${locale}/` },
+      { '@type': 'ListItem', position: 2, name: t('breadcrumb'), item: `https://dottodotfreeprintables.com/${locale}/blog/` }
     ]
   };
 

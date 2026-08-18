@@ -492,7 +492,10 @@
           "instantAccess": "Tūlītēja piekļuve pēc veiksmīga maksājuma",
           "classroomUse": "Izmantojama mājās vai vienā klasē"
         },
-        "guaranteeText": "Pēc apmaksas nekavējoties parādās jūsu personīgā lejupielādes saite. Bez abonementa un bez negaidītas atjaunošanas."
+        "guaranteeText": "Pēc apmaksas nekavējoties parādās jūsu personīgā lejupielādes saite. Bez abonementa un bez negaidītas atjaunošanas.",
+        "heading": "Vairāk mīklu. Mazāk meklēšanas. Viss vienā ērtā PDF failā.",
+        "detailsHeading": "Viss nepieciešamais priekam bez ekrāniem",
+        "guaranteeHeading": "Vienkārši, droši un gatavs dažu minūšu laikā"
       },
       "checkout": {
         "consent": "Es piekrītu šī digitālā PDF faila tūlītējai piegādei un saprotu, ka pēc piekļuves sākuma pirkums ir galīgs un neatgriežams, izņemot gadījumus, kad to prasa likums, vai ja fails netiek piegādāts vai ir bojāts.",
@@ -539,6 +542,15 @@
       "faqA2": "Noklikšķiniet uz lejupielādes pogas, lai iegūtu bezmaksas PDF failu, pēc tam izdrukājiet to uz parasta papīra (A4 vai US Letter) no jebkuras pārlūkprogrammas vai PDF lasītāja.Nav nepieciešama īpaša programmatūra.",
       "faqQ3": "Vai {name} var izdrukāt bez maksas?",
       "faqA3": "Jā — tas ir 100% bez maksas, nav nepieciešama reģistrācija, konts vai maksājums.Varat to izdrukāt lietošanai mājās vai klasē."
+    },
+    "downloadButton": {
+      "label": "Lejupielādējiet bezmaksas drukājamu PDF",
+      "usage": "Bezmaksas lietošanai mājās un klasē.",
+      "paperNote": "Izmērs {size} papīram.",
+      "paperLetter": "ASV vēstule",
+      "paperA4": "A4",
+      "alternateLink": "Vai vēlaties {size}?Lejupielādējiet šo versiju",
+      "downloadSize": "Lejupielādēt (drukas izmērs: {size})"
     },
     "downloadBadge": {
       "downloaded": "Lejupielādēts",

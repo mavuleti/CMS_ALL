@@ -492,7 +492,10 @@
           "instantAccess": "Uğurlu ödənişdən sonra ani giriş",
           "classroomUse": "Evdə və ya bir sinifdə istifadə üçün"
         },
-        "guaranteeText": "Ödənişdən sonra şəxsi endirmə linkiniz dərhal görünür. Abunəlik və gözlənilməz yenilənmə yoxdur."
+        "guaranteeText": "Ödənişdən sonra şəxsi endirmə linkiniz dərhal görünür. Abunəlik və gözlənilməz yenilənmə yoxdur.",
+        "heading": "Daha çox tapmaca. Daha az axtarış. Hər şey bir rahat PDF-də.",
+        "detailsHeading": "Ekransız əyləncə üçün lazım olan hər şey",
+        "guaranteeHeading": "Sadə, təhlükəsiz və bir neçə dəqiqəyə hazır"
       },
       "checkout": {
         "consent": "Bu rəqəmsal PDF-in dərhal çatdırılmasına razıyam və girişin başlamasından sonra satışın qanunla tələb olunmadıqca və ya fayl çatdırılmadıqda və ya qüsurlu olduqda son və geri qaytarılmaz olduğunu anlayıram.",
@@ -539,6 +542,15 @@
       "faqA2": "Pulsuz PDF əldə etmək üçün yükləmə düyməsini klikləyin, sonra onu istənilən brauzerdən və ya PDF oxuyucudan adi kağıza (A4 və ya ABŞ məktubu) çap edin.Heç bir xüsusi proqram tələb olunmur.",
       "faqQ3": "{name} həqiqətən pulsuz çap edilə bilərmi?",
       "faqA3": "Bəli - 100% pulsuzdur, qeydiyyat, hesab və ya ödəniş tələb olunmur.Siz onu evdə və ya sinifdə istifadə etmək üçün çap edə bilərsiniz."
+    },
+    "downloadButton": {
+      "label": "Pulsuz çap edilə bilən PDF yükləyin",
+      "usage": "Evdə və sinifdə istifadə üçün pulsuzdur.",
+      "paperNote": "{size} kağız üçün ölçülü.",
+      "paperLetter": "ABŞ məktubu",
+      "paperA4": "A4",
+      "alternateLink": "{size} seçirsiniz?Həmin versiyanı yükləyin",
+      "downloadSize": "Yükləyin (Çap Ölçüsü: {size})"
     },
     "downloadBadge": {
       "downloaded": "Endirildi",

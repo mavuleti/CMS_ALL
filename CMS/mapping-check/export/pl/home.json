@@ -492,7 +492,10 @@
           "instantAccess": "Natychmiastowy dostęp po pomyślnej płatności",
           "classroomUse": "Do użytku w domu lub w jednej klasie"
         },
-        "guaranteeText": "Po zakupie od razu pojawia się Twój prywatny link do pobrania. Bez subskrypcji i bez niespodziewanego odnowienia."
+        "guaranteeText": "Po zakupie od razu pojawia się Twój prywatny link do pobrania. Bez subskrypcji i bez niespodziewanego odnowienia.",
+        "heading": "Więcej łamigłówek. Mniej szukania. Wszystko w jednym wygodnym pliku PDF.",
+        "detailsHeading": "Wszystko, czego potrzeba do zabawy bez ekranu",
+        "guaranteeHeading": "Prosto, bezpiecznie i gotowe w kilka minut"
       },
       "checkout": {
         "consent": "Zgadzam się na natychmiastowe dostarczenie tego cyfrowego pliku PDF i rozumiem, że po rozpoczęciu dostępu zakup jest ostateczny i niepodlegający zwrotowi, chyba że wymaga tego prawo lub gdy plik nie zostanie dostarczony bądź jest wadliwy.",
@@ -539,6 +542,15 @@
       "faqA2": "Kliknij przycisk pobierania, aby pobrać bezpłatny plik PDF, a następnie wydrukuj go na zwykłym papierze (A4 lub US Letter) z dowolnej przeglądarki lub czytnika plików PDF.Nie jest potrzebne żadne specjalne oprogramowanie.",
       "faqQ3": "Czy wydruk {name} jest naprawdę darmowy?",
       "faqA3": "Tak – jest w 100% darmowy, nie wymaga rejestracji, konta ani płatności.Można go wydrukować do użytku w domu lub w klasie."
+    },
+    "downloadButton": {
+      "label": "Pobierz bezpłatny plik PDF do wydrukowania",
+      "usage": "Bezpłatnie do użytku domowego i szkolnego.",
+      "paperNote": "Rozmiar dla papieru {size}.",
+      "paperLetter": "List amerykański",
+      "paperA4": "A4",
+      "alternateLink": "Wolisz {rozmiar}?Pobierz tę wersję",
+      "downloadSize": "Pobierz (rozmiar wydruku: {size})"
     },
     "downloadBadge": {
       "downloaded": "Pobrano",

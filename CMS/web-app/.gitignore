@@ -2,8 +2,12 @@ node_modules/
 .next/
 out/
 *.log
-.env*.local
+.env*
+!.env.example
+!functions/.env.example
 tsconfig.tsbuildinfo
 test-results/
 playwright-report*/
 temp/
+functions/lib/
+.firebase/

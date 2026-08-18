@@ -492,7 +492,10 @@
           "instantAccess": "Okamžitý prístup po úspešnej platbe",
           "classroomUse": "Možno použiť doma alebo v jednej triede"
         },
-        "guaranteeText": "Po zaplatení sa okamžite zobrazí váš súkromný odkaz na stiahnutie. Žiadne predplatné a žiadne prekvapivé obnovenie."
+        "guaranteeText": "Po zaplatení sa okamžite zobrazí váš súkromný odkaz na stiahnutie. Žiadne predplatné a žiadne prekvapivé obnovenie.",
+        "heading": "Viac spojovačiek. Menej hľadania. Všetko v jednom praktickom PDF.",
+        "detailsHeading": "Všetko, čo potrebujete na zábavu bez obrazovky",
+        "guaranteeHeading": "Jednoduché, bezpečné a pripravené za pár minút"
       },
       "checkout": {
         "consent": "Súhlasím s okamžitým doručením tohto digitálneho PDF a rozumiem, že po začatí prístupu je nákup konečný a nevratný, s výnimkou prípadov vyžadovaných zákonom alebo ak súbor nie je doručený či je chybný.",
@@ -539,6 +542,15 @@
       "faqA2": "Kliknutím na tlačidlo sťahovania získate bezplatný súbor PDF a potom ho vytlačte na bežný papier (A4 alebo US Letter) z ľubovoľného prehliadača alebo čítačky PDF.Nie je potrebný žiadny špeciálny softvér.",
       "faqQ3": "Je tlač {name} skutočne zadarmo?",
       "faqA3": "Áno – je to 100 % zadarmo, nevyžaduje sa žiadna registrácia, účet ani platba.Môžete si ho vytlačiť doma alebo v triede."
+    },
+    "downloadButton": {
+      "label": "Stiahnite si zadarmo tlač PDF",
+      "usage": "Zadarmo pre použitie doma a v triede.",
+      "paperNote": "Veľkosť papiera {size}.",
+      "paperLetter": "US Letter",
+      "paperA4": "A4",
+      "alternateLink": "Preferujete {size}?Stiahnite si túto verziu",
+      "downloadSize": "Stiahnuť (veľkosť tlače: {size})"
     },
     "downloadBadge": {
       "downloaded": "Stiahnuté",

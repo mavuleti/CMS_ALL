@@ -366,7 +366,7 @@
       "difficultyLabel": "Svårighetsgrad {level} av 3",
       "difficulty": {
         "1": "Lätt",
-        "2": "Medium",
+        "2": "Medel",
         "3": "Hård"
       },
       "dots": "1–{count} prickar",
@@ -407,7 +407,7 @@
         "Garden": "Trädgård",
         "Cute": "Gulligt",
         "USA 250 Years": "USA 250 år",
-        "UAE": "UAE"
+        "UAE": "Förenade Arabemiraten"
       }
     },
     "newsletterForm": {
@@ -492,7 +492,10 @@
           "instantAccess": "Omedelbar åtkomst efter lyckad betalning",
           "classroomUse": "Kan användas hemma eller i ett klassrum"
         },
-        "guaranteeText": "Efter köpet visas din privata nedladdningslänk direkt. Inget abonnemang och ingen överraskande förnyelse."
+        "guaranteeText": "Efter köpet visas din privata nedladdningslänk direkt. Inget abonnemang och ingen överraskande förnyelse.",
+        "heading": "Fler pussel. Mindre letande. Allt i en smidig PDF.",
+        "detailsHeading": "Allt du behöver för skärmfri kul",
+        "guaranteeHeading": "Enkelt, säkert och klart på minuter"
       },
       "checkout": {
         "consent": "Jag godkänner omedelbar leverans av denna digitala PDF och förstår att köpet är slutgiltigt och inte återbetalningsbart när åtkomsten väl har börjat, förutom där lagen kräver det eller om filen inte levereras eller är felaktig.",
@@ -539,6 +542,15 @@
       "faqA2": "Klicka på nedladdningsknappen för att få den kostnadsfria PDF-filen, skriv sedan ut den på vanligt papper (A4 eller US Letter) från valfri webbläsare eller PDF-läsare.Ingen speciell programvara behövs.",
       "faqQ3": "Är den utskrivbara {name} verkligen gratis?",
       "faqA3": "Ja – det är 100 % gratis, utan registrering, konto eller betalning krävs.Du kan skriva ut den för hem- eller klassrumsbruk."
+    },
+    "downloadButton": {
+      "label": "Ladda ner gratis utskrivbar PDF",
+      "usage": "Gratis för hem och klassrum.",
+      "paperNote": "Storlek för {size} papper.",
+      "paperLetter": "US Letter",
+      "paperA4": "A4",
+      "alternateLink": "Föredrar du {size}?Ladda ner den versionen",
+      "downloadSize": "Ladda ner (Utskriftsstorlek: {size})"
     },
     "downloadBadge": {
       "downloaded": "Nedladdat",

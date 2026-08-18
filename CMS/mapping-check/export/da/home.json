@@ -133,7 +133,7 @@
           "description": "Ferie- og klassekalenderaktiviteter."
         },
         "ocean": {
-          "name": "Ocean",
+          "name": "Hav",
           "description": "Havdyr og rolige farvelægningssider."
         },
         "playgrounds": {
@@ -334,7 +334,7 @@
     },
     "feedback": {
       "eyebrow": "Vi vil meget gerne høre fra dig",
-      "heading": "Send feedback",
+      "heading": "Giv feedback",
       "description": "Har du en idé til et puslespil, har du set et defekt link, eller vil du bare sige hej? Skriv til os nedenfor."
     },
     "footer": {
@@ -366,7 +366,7 @@
       "difficultyLabel": "Sværhedsgrad {level} ud af 3",
       "difficulty": {
         "1": "Let",
-        "2": "Medium",
+        "2": "Middel",
         "3": "Hård"
       },
       "dots": "1–{count} prikker",
@@ -420,7 +420,7 @@
       "notConnected": "Tilmeldingen til den gratis pakke er ikke tilsluttet endnu."
     },
     "feedbackForm": {
-      "ariaLabel": "Send feedback",
+      "ariaLabel": "Send feedback-formular",
       "notConnected": "Denne feedbackformular er endnu ikke forbundet.",
       "typeLabel": "Hvilken slags feedback?",
       "selectTopic": "Vælg et emne...",
@@ -435,7 +435,7 @@
       "messagePlaceholder": "Fortæl os, hvad du synes...",
       "emailLabel": "E-mail",
       "emailOptional": "(valgfrit - kun hvis du ønsker et svar)",
-      "submit": "Send feedback",
+      "submit": "Send",
       "success": "Tak. Din feedback er blevet sendt.",
       "disclaimer": "Medtag venligst ikke følsomme personlige oplysninger. E-mail er valgfri og bruges kun, hvis vi har brug for at svare.",
       "iframeTitle": "Feedbackindsendelse"
@@ -492,7 +492,10 @@
           "instantAccess": "Øjeblikkelig adgang efter gennemført betaling",
           "classroomUse": "Brug hjemme eller i ét klasseværelse"
         },
-        "guaranteeText": "Efter checkout vises dit private downloadlink med det samme. Intet abonnement og ingen overraskende fornyelse."
+        "guaranteeText": "Efter checkout vises dit private downloadlink med det samme. Intet abonnement og ingen overraskende fornyelse.",
+        "heading": "Flere puslespil. Mindre søgen. Alt samlet i én praktisk PDF.",
+        "detailsHeading": "Alt du behøver til skærmfri hygge",
+        "guaranteeHeading": "Enkelt, sikkert og klar på få minutter"
       },
       "checkout": {
         "consent": "Jeg accepterer øjeblikkelig levering af denne digitale PDF og forstår, at når adgangen er begyndt, er salget endeligt og ikke refunderbart, medmindre loven kræver det, eller filen ikke er leveret eller er defekt.",
@@ -539,6 +542,15 @@
       "faqA2": "Klik på download-knappen for at få den gratis PDF, og udskriv den derefter på almindeligt papir (A4 eller US Letter) fra en hvilken som helst browser eller PDF-læser.Der kræves ingen speciel software.",
       "faqQ3": "Er {name}, der kan udskrives, virkelig gratis?",
       "faqA3": "Ja – det er 100 % gratis uden tilmelding, konto eller betaling.Du kan printe den til hjemme- eller klasseværelsesbrug."
+    },
+    "downloadButton": {
+      "label": "Download gratis printbar PDF",
+      "usage": "Gratis til brug i hjemmet og i klasseværelset.",
+      "paperNote": "Størrelse til {size} papir.",
+      "paperLetter": "US Brev",
+      "paperA4": "A4",
+      "alternateLink": "Foretrækker du {størrelse}?Download den version",
+      "downloadSize": "Download (Udskriftsstørrelse: {størrelse})"
     },
     "downloadBadge": {
       "downloaded": "Downloadet",

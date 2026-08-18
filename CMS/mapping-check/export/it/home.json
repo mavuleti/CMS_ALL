@@ -161,7 +161,7 @@
           "description": "Schede per l'apprendimento della sequenza numerica, pronte per l'uso da parte degli insegnanti."
         },
         "bigDotBooks": {
-          "name": "Big Dot Books",
+          "name": "Libri a puntini grandi",
           "description": "Puzzle di lunga durata per studenti più grandi e concentrati."
         },
         "cute": {
@@ -492,7 +492,10 @@
           "instantAccess": "Accesso immediato dopo un pagamento riuscito",
           "classroomUse": "Utilizzabile a casa o in una singola classe"
         },
-        "guaranteeText": "Dopo il pagamento, il tuo link di download privato appare immediatamente. Nessun abbonamento e nessun rinnovo a sorpresa."
+        "guaranteeText": "Dopo il pagamento, il tuo link di download privato appare immediatamente. Nessun abbonamento e nessun rinnovo a sorpresa.",
+        "heading": "Più puzzle. Meno ricerche. Tutto in un comodo PDF.",
+        "detailsHeading": "Tutto il necessario per divertirsi lontano dagli schermi",
+        "guaranteeHeading": "Semplice, sicuro e pronto in pochi minuti"
       },
       "checkout": {
         "consent": "Accetto la consegna immediata di questo PDF digitale e comprendo che, una volta iniziato l'accesso, la vendita è definitiva e non rimborsabile, salvo quanto richiesto dalla legge o nel caso in cui il file non venga consegnato o sia difettoso.",
@@ -539,6 +542,15 @@
       "faqA2": "Fai clic sul pulsante di download per ottenere il PDF gratuito, quindi stampalo su carta normale (A4 o US Letter) da qualsiasi browser o lettore PDF.Non è necessario alcun software speciale.",
       "faqQ3": "Il formato stampabile di {nome} è davvero gratuito?",
       "faqA3": "Sì, è gratuito al 100%, senza registrazione, account o pagamento richiesti.Puoi stamparlo per uso domestico o in classe."
+    },
+    "downloadButton": {
+      "label": "Scarica il PDF stampabile gratuito",
+      "usage": "Gratuito per uso domestico e in classe.",
+      "paperNote": "Dimensionato per carta {formato}.",
+      "paperLetter": "Lettera degli Stati Uniti",
+      "paperA4": "A4",
+      "alternateLink": "Preferisci la {taglia}?Scarica quella versione",
+      "downloadSize": "Scarica (dimensione stampa: {size})"
     },
     "downloadBadge": {
       "downloaded": "Scaricato",

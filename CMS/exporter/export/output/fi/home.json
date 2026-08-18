@@ -492,7 +492,10 @@
           "instantAccess": "Välitön pääsy onnistuneen maksun jälkeen",
           "classroomUse": "Käytettävissä kotona tai yhdessä luokkahuoneessa"
         },
-        "guaranteeText": "Maksun jälkeen yksityinen latauslinkkisi ilmestyy heti. Ei tilausta eikä yllättäviä uusimisia."
+        "guaranteeText": "Maksun jälkeen yksityinen latauslinkkisi ilmestyy heti. Ei tilausta eikä yllättäviä uusimisia.",
+        "heading": "Enemmän tehtäviä. Vähemmän etsimistä. Kaikki yhdessä kätevässä PDF:ssä.",
+        "detailsHeading": "Kaikki mitä tarvitset ruudutonta hauskanpitoa varten",
+        "guaranteeHeading": "Yksinkertaista, turvallista ja valmista minuuteissa"
       },
       "checkout": {
         "consent": "Hyväksyn tämän digitaalisen PDF-tiedoston välittömän toimituksen ja ymmärrän, että kun käyttöoikeus alkaa, kauppa on lopullinen eikä sitä voi peruuttaa, paitsi lain niin vaatiessa tai jos tiedostoa ei toimiteta tai se on viallinen.",
@@ -539,6 +542,15 @@
       "faqA2": "Napsauta latauspainiketta saadaksesi ilmaisen PDF-tiedoston ja tulosta se sitten tavalliselle paperille (A4 tai US Letter) mistä tahansa selaimesta tai PDF-lukijasta.Mitään erityistä ohjelmistoa ei tarvita.",
       "faqQ3": "Onko {name} tulostettava todella ilmainen?",
       "faqA3": "Kyllä – se on 100 % ilmainen, ilman rekisteröitymistä, tiliä tai maksua.Voit tulostaa sen koti- tai luokkakäyttöön."
+    },
+    "downloadButton": {
+      "label": "Lataa ilmainen tulostettava PDF",
+      "usage": "Ilmainen koti- ja luokkakäyttöön.",
+      "paperNote": "Koko {koko} paperille.",
+      "paperLetter": "Yhdysvaltain kirje",
+      "paperA4": "A4",
+      "alternateLink": "Haluatko mieluummin {size}?Lataa tuo versio",
+      "downloadSize": "Lataa (tulostuskoko: {size})"
     },
     "downloadBadge": {
       "downloaded": "Ladattu",
