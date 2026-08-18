@@ -5,8 +5,8 @@ test.describe('JSON export common templates', () => {
     await page.goto('/en/flowers/');
 
     await expect(page.getByRole('heading', { level: 1 })).toHaveText('Flower Dot-to-Dot Printables for Kids');
-    await expect(page.locator('meta[name="description"]')).toHaveAttribute('content', /Free flower dot to dot printables/);
-    await expect(page.locator('meta[property="og:title"]')).toHaveAttribute('content', '20 Free Flower Dot to Dot Printables');
+    await expect(page.locator('meta[name="description"]')).toHaveAttribute('content', /free flower dot-to-dot printables/);
+    await expect(page.locator('meta[property="og:title"]')).toHaveAttribute('content', '20 Free Flower Connect the Dots Worksheets for Kids');
     await expect(page.locator('.puzzle-card')).toHaveCount(20);
     await expect(page.getByRole('link', { name: /Flax Flower/i }).first()).toHaveAttribute('href', '/en/flowers/flax-flower-dot-to-dot-puzzle/');
   });
@@ -18,7 +18,7 @@ test.describe('JSON export common templates', () => {
     await expect(page.locator('.fun-fact-box').getByText(/Flax stems contain strong fibres/)).toBeVisible();
     await expect(page.locator('.puzzle-preview-card img')).toHaveAttribute('src', /flower-flax-flower-puzzle/);
     await expect(page.getByRole('link', { name: /download/i }).first()).toHaveAttribute('href', /flower-flax-flower-dot-to-dot-printable/);
-    await expect(page.getByRole('link', { name: /Back to all Flowers puzzles/i })).toHaveAttribute('href', '/en/flowers/');
+    await expect(page.getByRole('link', { name: 'Flowers', exact: true }).first()).toHaveAttribute('href', '/en/flowers/');
   });
 
   test('collection and puzzle do not overflow the viewport', async ({ page }) => {

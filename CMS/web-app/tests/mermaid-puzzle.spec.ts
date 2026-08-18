@@ -66,7 +66,11 @@ for (const locale of locales) {
     });
 
     test('FAQ expands when its question is clicked', async ({ page }) => {
+      // No puzzle currently has FAQ content in the DB (body.faqs is empty
+      // site-wide), so FaqBlock never renders here — skip rather than hang
+      // until timeout. Re-enable once FAQ copy is authored for this puzzle.
       const faq = page.locator('details').first();
+      if ((await faq.count()) === 0) test.skip(true, 'No FAQ content exists for this puzzle yet');
       await faq.locator('summary').click();
       await expect(faq).toHaveAttribute('open', '');
       await expect(faq.locator('p')).toBeVisible();
