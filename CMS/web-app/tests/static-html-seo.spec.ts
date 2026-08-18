@@ -6,12 +6,16 @@ import { auditStaticHtml, findHtmlFiles, inspectHtml } from '../scripts/audit-st
 
 const outputRoot = path.resolve('out');
 const htmlFiles = findHtmlFiles(outputRoot);
+// GA is only baked into the export when the build set NEXT_PUBLIC_ENABLE_ANALYTICS=true
+// (see the comment in app/[locale]/layout.tsx) — require it here iff the build did too,
+// so this audit reflects what was actually built rather than assuming a prod build.
+const requireGa = process.env.NEXT_PUBLIC_ENABLE_ANALYTICS === 'true';
 const auditedPages: Map<string, { problems: string[] }> = new Map(
-  auditStaticHtml({ root: outputRoot }).map((page: { file: string; problems: string[] }) => [page.file, page]),
+  auditStaticHtml({ root: outputRoot, requireGa }).map((page: { file: string; problems: string[] }) => [page.file, page]),
 );
 
 test.describe('generated static HTML SEO and Google Analytics', () => {
-  test.skip(({ browserName }) => browserName !== 'chromium', 'Static-file audit only needs one browser engine.');
+  test.skip(({ browserName }, testInfo) => browserName !== 'chromium' || testInfo.project.name !== 'desktop-chrome', 'Static-file audit only needs one project — both projects use chromium, so skip the duplicate mobile-chrome run.');
 
   test('production export contains HTML pages', async () => {
     expect(htmlFiles.length, 'Run the production build before this audit').toBeGreaterThan(0);

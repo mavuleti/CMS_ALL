@@ -1,3 +1,4 @@
+import '../globals.css';
 import { Suspense } from 'react';
 import { hasLocale } from 'next-intl';
 import { NextIntlClientProvider } from 'next-intl';
@@ -5,7 +6,7 @@ import { getMessages, setRequestLocale } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import Script from 'next/script';
 import { routing } from '@/i18n/routing';
-import LocaleHtml from '@/components/LocaleHtml';
+import BrowserErrorTracker from '@/components/BrowserErrorTracker';
 import RouteProgressBar from '@/components/RouteProgressBar';
 import GlobalSkipLink from '@/components/GlobalSkipLink';
 import AnalyticsPageView from '@/components/AnalyticsPageView';
@@ -40,6 +41,7 @@ const PLACEHOLDER_LOCALES: string[] = [];
 // announced as alternates — matches the locale set already declared in sitemap.xml.
 const FULLY_TRANSLATED_LOCALES = routing.locales.filter((l) => !PLACEHOLDER_LOCALES.includes(l));
 const ARABIC_REGIONAL_ALIASES = ['ar-AE', 'ar-SA', 'ar-QA'];
+const RTL_HTML_LANGS = new Set(['ar', 'fa']);
 
 const localeToHtmlLang: Record<string, string> = {
   az: 'az-AZ',
@@ -248,61 +250,69 @@ export default async function LocaleLayout({
   setRequestLocale(locale);
   const messages = await getMessages();
   const htmlLang = localeToHtmlLang[locale] ?? locale;
+  // Mirrors the pre-existing client-side dir logic in the (now-removed)
+  // LocaleHtml component: an Arabic regional alias (ar-AE/ar-SA/ar-QA) uses
+  // its own alias as both lang and the RTL signal; everything else uses the
+  // resolved htmlLang.
+  const htmlLocale = ARABIC_REGIONAL_ALIASES.includes(locale) ? locale : htmlLang;
+  const dir = RTL_HTML_LANGS.has(htmlLang) || ARABIC_REGIONAL_ALIASES.includes(htmlLocale) ? 'rtl' : 'ltr';
   const isArabic = false;
   return (
-    <>
-      <LocaleHtml locale={htmlLang} />
-      {isArabic && (
-        <>
-          <link rel="preconnect" href="https://fonts.googleapis.com" />
-          <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-          <link
-            rel="stylesheet"
-            href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&display=swap"
-          />
-        </>
-      )}
-      <Suspense fallback={null}>
-        <RouteProgressBar />
-      </Suspense>
-      <NextIntlClientProvider messages={messages}>
-        <GlobalSkipLink />
-        <Navbar />
-        {children}
-        <HideOnLocaleHome locale={locale}>
-          <TopDownloadsLeaderboard locale={locale} />
-        </HideOnLocaleHome>
-        <FloatingShare />
-        <Footer />
-      </NextIntlClientProvider>
-      <script dangerouslySetInnerHTML={{ __html: languageSwitcherScript }} />
-      {ANALYTICS_ENABLED && <>
-      <Suspense fallback={null}><AnalyticsPageView /></Suspense>
-      <Script id="google-analytics" strategy="lazyOnload">
-        {/* eslint-disable no-restricted-syntax -- inline JS source for the <Script> tag, not user-facing text */}
-        {`
-          (function() {
-            // Skip analytics for automated browsers (Playwright/Selenium tests),
-            // local/dev hosts, and sessions opted out via localStorage.
-            if (navigator.webdriver) return;
-            var host = location.hostname;
-            if (host === 'localhost' || host === '127.0.0.1' || host.endsWith('.local')) return;
-            try { if (localStorage.getItem('disable-analytics') === 'true') return; } catch (e) {}
-            var s = document.createElement('script');
-            s.async = true;
-            s.src = 'https://www.googletagmanager.com/gtag/js?id=${GA_ID}';
-            document.head.appendChild(s);
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            window.gtag = gtag;
-            gtag('js', new Date());
-            gtag('config', '${GA_ID}');
-          })();
-        `}
-        {/* eslint-enable no-restricted-syntax */}
-      </Script>
-      </>}
-    </>
+    <html lang={htmlLocale} dir={dir}>
+      <body>
+        <BrowserErrorTracker />
+        {isArabic && (
+          <>
+            <link rel="preconnect" href="https://fonts.googleapis.com" />
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+            <link
+              rel="stylesheet"
+              href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&display=swap"
+            />
+          </>
+        )}
+        <Suspense fallback={null}>
+          <RouteProgressBar />
+        </Suspense>
+        <NextIntlClientProvider messages={messages}>
+          <GlobalSkipLink />
+          <Navbar />
+          {children}
+          <HideOnLocaleHome locale={locale}>
+            <TopDownloadsLeaderboard locale={locale} />
+          </HideOnLocaleHome>
+          <FloatingShare />
+          <Footer />
+        </NextIntlClientProvider>
+        <script dangerouslySetInnerHTML={{ __html: languageSwitcherScript }} />
+        {ANALYTICS_ENABLED && <>
+        <Suspense fallback={null}><AnalyticsPageView /></Suspense>
+        <Script id="google-analytics" strategy="lazyOnload">
+          {/* eslint-disable no-restricted-syntax -- inline JS source for the <Script> tag, not user-facing text */}
+          {`
+            (function() {
+              // Skip analytics for automated browsers (Playwright/Selenium tests),
+              // local/dev hosts, and sessions opted out via localStorage.
+              if (navigator.webdriver) return;
+              var host = location.hostname;
+              if (host === 'localhost' || host === '127.0.0.1' || host.endsWith('.local')) return;
+              try { if (localStorage.getItem('disable-analytics') === 'true') return; } catch (e) {}
+              var s = document.createElement('script');
+              s.async = true;
+              s.src = 'https://www.googletagmanager.com/gtag/js?id=${GA_ID}';
+              document.head.appendChild(s);
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              window.gtag = gtag;
+              gtag('js', new Date());
+              gtag('config', '${GA_ID}');
+            })();
+          `}
+          {/* eslint-enable no-restricted-syntax */}
+        </Script>
+        </>}
+      </body>
+    </html>
   );
 }
 

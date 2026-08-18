@@ -4,7 +4,7 @@ import { ArrowRight, BookOpen, Home } from 'lucide-react';
 import { setRequestLocale, getTranslations } from 'next-intl/server';
 
 import { getAllBlogPostsForLocale, formatBlogDate } from '@/lib/blog-data';
-import { SITE_NAME, buildAlternates } from '@/lib/seo';
+import { DEFAULT_OG_IMAGE, SITE_NAME, buildAlternates } from '@/lib/seo';
 
 export async function generateMetadata({
   params
@@ -24,13 +24,14 @@ export async function generateMetadata({
       url: `/${locale}/blog/`,
       siteName: SITE_NAME,
       type: 'website',
-      locale: 'en_US'
+      locale: 'en_US',
+      images: [DEFAULT_OG_IMAGE]
     },
     twitter: {
       card: 'summary_large_image',
       title: ogTitle,
       description: ogDescription,
-      images: []
+      images: [DEFAULT_OG_IMAGE.url]
     }
   };
 }
