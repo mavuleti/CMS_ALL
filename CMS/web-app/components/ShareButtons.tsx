@@ -18,6 +18,13 @@ interface ShareButtonsProps {
   title?: string;
   /** Absolute or relative image URL, used for Pinterest pins. */
   imageUrl?: string;
+  /**
+   * Absolute canonical URL of the current page, computed server-side by the
+   * caller. Used as the initial share-link target so the static HTML (as
+   * seen by crawlers and social-media unfurlers before hydration runs)
+   * already has real, non-empty share URLs instead of `?url=`/`?text=`.
+   */
+  pageUrl?: string;
   /** 'row' = inline compact row (default). */
   compact?: boolean;
 }
@@ -31,16 +38,15 @@ function absolute(url: string | undefined): string {
   return `${window.location.origin}${url.startsWith('/') ? '' : '/'}${url}`;
 }
 
-export default function ShareButtons({ title, imageUrl, compact }: ShareButtonsProps) {
+export default function ShareButtons({ title, imageUrl, pageUrl: initialPageUrl, compact }: ShareButtonsProps) {
   const t = useTranslations('shareButtons');
   const pathname = usePathname();
   const [copied, setCopied] = useState(false);
-  const [pageUrl, setPageUrl] = useState('');
-  const [pageTitle, setPageTitle] = useState('');
-  const [pinImageUrl, setPinImageUrl] = useState('');
+  const [pageUrl, setPageUrl] = useState(initialPageUrl ?? '');
+  const [pageTitle, setPageTitle] = useState(title ?? '');
+  const [pinImageUrl, setPinImageUrl] = useState(() => absolute(imageUrl));
 
   const getUrl = () => currentShareUrl();
-  const getTitle = () => title || document.title;
 
   useEffect(() => {
     setPageUrl(getUrl());

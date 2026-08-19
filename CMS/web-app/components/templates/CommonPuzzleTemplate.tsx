@@ -15,6 +15,7 @@ import { categories, getCategory } from '@/lib/category-registry';
 import { localizeHtmlLinks } from '@/lib/localize-html-links';
 import { puzzleImageAlt } from '@/lib/json-seo';
 import { buildCommonHeaderMetadata } from '@/components/templates/CommonHeaderTemplate';
+import { absoluteUrl } from '@/lib/seo';
 import { FaqBlock } from '@/components/sections';
 
 export type PuzzleRouteProps = { params: Promise<{ locale: string; category: string; slug: string }> };
@@ -118,7 +119,7 @@ export default async function CommonPuzzleTemplate({ params }: PuzzleRouteProps)
           <div className="fun-fact-box"><span style={{ fontSize: '1.3rem' }} aria-hidden="true">!</span><div><strong>{tp('funFactPrefix')}</strong> {puzzle.funFact}</div></div>
           <div style={{ margin: '20px 0 16px' }}><AdSlot id={`ad-puzzle-predownload-${puzzle.slug}`} size="inline" label="Puzzle page - pre-download" /></div>
           {puzzle.pdf ? <DownloadButton puzzleId={puzzle.slug} pdfUrl={puzzle.pdf} locale={locale} ariaLabel={tc('downloadAria', { name: puzzle.name })} /> : <p className="asset-note">{tp('comingSoon')}</p>}
-          <BestOf2026BookAd locale={locale} /><ShareButtons title={tc('shareTitle', { name: puzzle.name })} imageUrl={puzzle.image} compact /><p style={{ fontSize: '0.8rem', color: 'var(--muted)', marginTop: 10, lineHeight: 1.5 }}>{tp('noSignUp')}</p>
+          <BestOf2026BookAd locale={locale} /><ShareButtons title={tc('shareTitle', { name: puzzle.name })} imageUrl={puzzle.image} pageUrl={absoluteUrl(`/${locale}/${categorySlug}/${puzzle.slug}/`)} compact /><p style={{ fontSize: '0.8rem', color: 'var(--muted)', marginTop: 10, lineHeight: 1.5 }}>{tp('noSignUp')}</p>
         </div>
       </div>
       {related.length > 0 && <section className="section" style={{ paddingTop: 8 }}><div className="section-heading"><Link href={`/${locale}/${categorySlug}/`} className="eyebrow" style={{ textDecoration: 'none' }}>{tPage?.has('relatedEyebrow') ? tPage('relatedEyebrow') : categoryName}</Link><h2 style={{ fontSize: 'clamp(1.5rem, 3vw, 2.2rem)' }}>{tp('youMightLike')}</h2></div><div className="puzzle-grid">{related.map((item) => <article className="puzzle-card" key={item.slug}><Link href={`/${locale}/${categorySlug}/${item.slug}/`} className="puzzle-image"><ResponsiveImage src={item.image} alt={puzzleImageAlt(locale, item, 'card')} width={420} height={320} sizes="(max-width: 760px) 92vw, 30vw" /></Link><div className="puzzle-body"><p className="puzzle-category">{categoryName}</p><h3>{item.name}</h3><div className="puzzle-meta"><span>{localizeAge(tc, item.age)}</span><span>{tc('dots', { count: item.dots })}</span></div><Link href={`/${locale}/${categorySlug}/${item.slug}/`} className="download-link"><Star size={15} aria-hidden="true" /> {tc('viewDownload')}</Link></div></article>)}</div></section>}

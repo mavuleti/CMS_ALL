@@ -226,7 +226,7 @@ export default async function BlogPostPage({ params }: Props) {
               </svg>
               {tb('savePinterest')}
             </a>
-            <ShareButtons title={`${post!.title} — ${post!.description}`} compact />
+            <ShareButtons title={`${post!.title} — ${post!.description}`} pageUrl={pageUrl} compact />
           </div>
 
           <div className="blog-author-bio">

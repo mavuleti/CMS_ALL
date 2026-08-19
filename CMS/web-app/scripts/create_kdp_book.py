@@ -1039,7 +1039,7 @@ def build_book():
     total = doc.page_count
     print(f"Book built: {total} pages")
 
-    out_path = BASE / "public" / "usa-250-kdp-activity-book-interior.pdf"
+    out_path = BASE / "kdp-output" / "usa-250-kdp-activity-book-interior.pdf"
     out_path.parent.mkdir(parents=True, exist_ok=True)
     doc.save(str(out_path), garbage=4, deflate=True)
     doc.close()
