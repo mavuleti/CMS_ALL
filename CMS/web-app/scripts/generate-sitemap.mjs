@@ -42,6 +42,16 @@ function slugsFor(locale, file) {
 
 const staticPaths = ['', 'dinosaurs/', 'ocean/', 'playgrounds/', 'circus/', 'garden/', 'flowers/', 'cute/', 'space/', 'usa-250/', 'uae/', 'canada/', 'blog/', 'about/', 'contact/', 'privacy-policy/', 'terms/'];
 
+// Age/difficulty hub pages (lib/hub-content.ts) are English-only for now —
+// they cross-cut section availability logic (isExcludedForLocale would treat
+// them as an "available for every non-placeholder locale" plain static page,
+// which is wrong here), so they're handled entirely separately below instead
+// of going through `paths`/`isExcludedForLocale`/hreflang alternates.
+const enOnlyPaths = [
+  'ages/4-6/', 'ages/7-9/', 'ages/9-12/',
+  'difficulty/easy-1-20-dots/', 'difficulty/medium-21-60-dots/', 'difficulty/hard-61-plus-dots/'
+];
+
 const escapeXml = (value) => String(value)
   .replaceAll('&', '&amp;')
   .replaceAll('"', '&quot;')
@@ -194,6 +204,23 @@ for (const locale of locales) {
     entriesBySitemap.get(sitemapFile).push(urlEntry(localePath, lastModified, metadata));
   }
 }
+const enSitemapFile = `sitemap-${DEFAULT_LOCALE}.xml`;
+if (entriesBySitemap.has(enSitemapFile)) {
+  for (const p of enOnlyPaths) {
+    const localePath = { locale: DEFAULT_LOCALE, path: p };
+    const url = `${SITE}/${DEFAULT_LOCALE}/${p}`;
+    // No cross-locale alternates — this page only exists in English.
+    const metadata = { alternates: '', imageEntry: '' };
+    const hash = sha256(JSON.stringify({ localePath, metadata, enOnly: true }));
+    const previous = oldState.urls[url];
+    const lastModified = previous?.hash === hash ? previous.lastModified : TODAY;
+    if (!previous) added += 1;
+    else if (previous.hash !== hash) changed += 1;
+    newState.urls[url] = { hash, lastModified };
+    entriesBySitemap.get(enSitemapFile).push(urlEntry(localePath, lastModified, metadata));
+  }
+}
+
 const deleted = Object.keys(oldState.urls).filter((url) => !newState.urls[url]).length;
 
 function urlSetXml(entries) {

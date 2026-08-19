@@ -89,8 +89,19 @@ export function getCategory(category: string, locale: string = routing.defaultLo
   return categoriesByLocale[locale]?.[category] ?? categories[category];
 }
 
-function difficultyTier(dots: number): 1 | 2 | 3 {
+export function difficultyTier(dots: number): 1 | 2 | 3 {
   return dots <= 20 ? 1 : dots <= 60 ? 2 : 3;
+}
+
+// Every puzzle across every category, tagged with which category it belongs
+// to — the aggregation source for the age/difficulty hub pages (see
+// lib/hub-content.ts), which cross-cut the theme-based category taxonomy.
+export function getAllPuzzles(locale: string): CrossTierPuzzle[] {
+  return Object.keys(categories).flatMap((categorySlug) => {
+    const category = getCategory(categorySlug, locale);
+    if (!category) return [];
+    return category.getPuzzles(locale).map((puzzle) => ({ ...puzzle, categorySlug, categoryName: category.name }));
+  });
 }
 
 export type CrossTierPuzzle = CommonPuzzle & { categorySlug: string; categoryName: string };
