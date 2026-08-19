@@ -686,6 +686,19 @@ export async function Footer() {
         <Link href={`/${locale}/premium/`}>{tPurchase('ad.packName')}</Link>
         <Link href="/sitemap.xml">{t('sitemap')}</Link>
       </nav>
+      {/* eslint-disable no-restricted-syntax -- English-only: the age/difficulty hub pages
+          only exist for 'en' (see lib/hub-content.ts) — no content/<locale> translation
+          backs this link list yet, so it isn't routed through next-intl on purpose. */}
+      {locale === 'en' && (
+        <nav aria-label="Browse by age or difficulty" className="footer-hub-links">
+          <Link href="/en/ages/4-6/">Ages 4-6</Link>
+          <Link href="/en/ages/7-9/">Ages 7-9</Link>
+          <Link href="/en/ages/9-12/">Ages 9-12</Link>
+          <Link href="/en/difficulty/medium-21-60-dots/">Medium Puzzles</Link>
+          <Link href="/en/difficulty/hard-61-plus-dots/">Hard Puzzles</Link>
+        </nav>
+      )}
+      {/* eslint-enable no-restricted-syntax */}
       <div className="footer-social-bar" aria-label={t('description')}>
         <a
           className="desktop-social-link desktop-social-link--youtube icon-tooltip"
