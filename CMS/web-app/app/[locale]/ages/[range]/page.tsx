@@ -9,8 +9,16 @@ import HubTemplate, { hubJsonLd } from '@/components/templates/HubTemplate';
 
 export type AgeHubRouteProps = { params: Promise<{ locale: string; range: string }> };
 
+// Only generate a hub page for ranges that actually have matching puzzles —
+// see the equivalent guard in app/[locale]/difficulty/[tier]/page.tsx.
 export function generateStaticParams() {
-  return AGE_HUBS.map((hub) => ({ locale: 'en', range: hub.range }));
+  const puzzles = getAllPuzzles('en');
+  return AGE_HUBS
+    .filter((hub) => puzzles.some((puzzle) => {
+      const puzzleRange = getAgeRange(puzzle.age);
+      return Boolean(puzzleRange) && puzzleRange!.max >= hub.min && puzzleRange!.min <= hub.max;
+    }))
+    .map((hub) => ({ locale: 'en', range: hub.range }));
 }
 
 export async function generateMetadata({ params }: AgeHubRouteProps): Promise<Metadata> {

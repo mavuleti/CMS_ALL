@@ -8,8 +8,16 @@ import HubTemplate, { hubJsonLd } from '@/components/templates/HubTemplate';
 
 export type DifficultyHubRouteProps = { params: Promise<{ locale: string; tier: string }> };
 
+// Only generate a hub page for tiers that actually have matching puzzles —
+// the catalog's real dot counts (32-250 as of 2026-08-19) mean the "easy
+// 1-20 dots" tier is currently empty (see homepage FILTERS in
+// HomeDiscovery.tsx, which has the same gap); shipping a static page with
+// zero puzzles is a dead SEO page, not a hub. Re-included automatically once
+// the catalog gets a puzzle in that range.
 export function generateStaticParams() {
-  return DIFFICULTY_HUBS.map((hub) => ({ locale: 'en', tier: hub.slug }));
+  return DIFFICULTY_HUBS
+    .filter((hub) => getAllPuzzles('en').some((puzzle) => puzzle.dots >= hub.min && puzzle.dots <= hub.max))
+    .map((hub) => ({ locale: 'en', tier: hub.slug }));
 }
 
 export async function generateMetadata({ params }: DifficultyHubRouteProps): Promise<Metadata> {

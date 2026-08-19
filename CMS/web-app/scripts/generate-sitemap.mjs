@@ -47,9 +47,14 @@ const staticPaths = ['', 'dinosaurs/', 'ocean/', 'playgrounds/', 'circus/', 'gar
 // them as an "available for every non-placeholder locale" plain static page,
 // which is wrong here), so they're handled entirely separately below instead
 // of going through `paths`/`isExcludedForLocale`/hreflang alternates.
+// 'difficulty/easy-1-20-dots/' is deliberately excluded: the real catalog's
+// dot counts (32-250 as of 2026-08-19) mean that tier has zero puzzles, so
+// the route itself skips generating it (see generateStaticParams in
+// app/[locale]/difficulty/[tier]/page.tsx) — listing it here would sitemap
+// a 404.
 const enOnlyPaths = [
   'ages/4-6/', 'ages/7-9/', 'ages/9-12/',
-  'difficulty/easy-1-20-dots/', 'difficulty/medium-21-60-dots/', 'difficulty/hard-61-plus-dots/'
+  'difficulty/medium-21-60-dots/', 'difficulty/hard-61-plus-dots/'
 ];
 
 const escapeXml = (value) => String(value)
