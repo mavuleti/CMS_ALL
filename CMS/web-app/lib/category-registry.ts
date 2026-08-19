@@ -1,4 +1,5 @@
 import { routing } from '@/i18n/routing';
+import { getAgeRange } from './age';
 import { getCollections, type Puzzle as ExportPuzzle } from './export-content';
 
 export type CommonPuzzle = {
@@ -86,4 +87,40 @@ export const categories: Record<string, CategoryConfig> = categoriesByLocale.en 
 
 export function getCategory(category: string, locale: string = routing.defaultLocale) {
   return categoriesByLocale[locale]?.[category] ?? categories[category];
+}
+
+function difficultyTier(dots: number): 1 | 2 | 3 {
+  return dots <= 20 ? 1 : dots <= 60 ? 2 : 3;
+}
+
+export type CrossTierPuzzle = CommonPuzzle & { categorySlug: string; categoryName: string };
+
+// Cross-category "more puzzles at this skill level" links, matched by
+// difficulty tier (same dot-count bucket as the homepage filters) and
+// overlapping age range, one pick per other category so PageRank flows
+// horizontally across the catalog instead of staying inside one category
+// silo. See TODO-seo.md.
+export function getCrossTierPuzzles(locale: string, currentCategorySlug: string, puzzle: CommonPuzzle, limit = 3): CrossTierPuzzle[] {
+  const tier = difficultyTier(puzzle.dots);
+  const ageRange = getAgeRange(puzzle.age);
+  const results: CrossTierPuzzle[] = [];
+
+  for (const categorySlug of Object.keys(categories)) {
+    if (categorySlug === currentCategorySlug || results.length >= limit) continue;
+    const otherCategory = getCategory(categorySlug, locale);
+    if (!otherCategory) continue;
+
+    const candidates = otherCategory.getPuzzles(locale).filter((candidate) => {
+      if (difficultyTier(candidate.dots) !== tier) return false;
+      if (!ageRange) return true;
+      const candidateRange = getAgeRange(candidate.age);
+      return Boolean(candidateRange) && candidateRange!.max >= ageRange.min && candidateRange!.min <= ageRange.max;
+    });
+    if (!candidates.length) continue;
+
+    candidates.sort((a, b) => Math.abs(a.dots - puzzle.dots) - Math.abs(b.dots - puzzle.dots));
+    results.push({ ...candidates[0], categorySlug, categoryName: otherCategory.name });
+  }
+
+  return results;
 }
