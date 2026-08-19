@@ -4,6 +4,10 @@ import { join } from 'node:path';
 const outDir = 'out';
 const nextStaticDir = join(outDir, '_next', 'static');
 const publicAssetDir = join(outDir, 'assets');
+const ALL_LOCALE_DIRS = [
+  'en', 'fr', 'es', 'de', 'pt', 'it', 'nl', 'sv', 'no', 'pl', 'da', 'fi', 'cs', 'hu', 'ro', 'tr',
+  'pt-BR', 'el', 'ar', 'uk', 'hr', 'sk', 'lt', 'lv', 'sl', 'id', 'ja', 'ko', 'ru', 'th', 'vi', 'az', 'fa'
+];
 
 async function matchingFiles(dir, extension) {
   const entries = await readdir(dir, { withFileTypes: true });
@@ -111,11 +115,7 @@ async function removeFiles(dir, extensions, preservedFiles = []) {
 }
 
 async function patchLocaleHtmlAttributes() {
-  const localeDirs = new Set([
-    'en', 'fr', 'es', 'de', 'pt', 'it', 'nl', 'sv', 'no', 'pl', 'da', 'fi', 'cs', 'hu', 'ro', 'tr',
-    'pt-BR', 'el', 'ar', 'uk', 'hr', 'sk', 'lt', 'lv', 'sl', 'id', 'ja', 'ko', 'ru', 'th', 'vi',
-    'ar-AE', 'ar-SA', 'ar-QA'
-  ]);
+  const localeDirs = new Set(ALL_LOCALE_DIRS);
 
   for (const file of await matchingFiles(outDir, '.html')) {
     const relative = file.slice(outDir.length + 1).split('\\').join('/');
@@ -136,10 +136,7 @@ async function patchLocaleHtmlAttributes() {
       sk: 'sk_SK',
       lt: 'lt_LT',
       lv: 'lv_LV',
-      sl: 'sl_SI',
-      'ar-AE': 'ar_AE',
-      'ar-SA': 'ar_SA',
-      'ar-QA': 'ar_QA'
+      sl: 'sl_SI'
     }[documentLocale];
     const dir = documentLocale.startsWith('ar') ? 'rtl' : 'ltr';
     let patched = html
@@ -160,91 +157,35 @@ async function patchLocaleHtmlAttributes() {
   }
 }
 
-function aliasArabicHtml(html, alias) {
-  // Alias pages are full self-canonical members of the Arabic hreflang
-  // cluster (ar / ar-AE / ar-SA / ar-QA all reciprocally reference each
-  // other's own URL — see MERGE_PLAN.md and tests/i18n-layout.spec.ts).
-  // The source /ar/ page's <link rel="alternate"> tags already carry
-  // absolute URLs for the full cluster (including this alias's own URL,
-  // via lib/seo.ts buildAlternates), so copying them verbatim is correct —
-  // only the lang/dir attributes, the self-referencing canonical link, and
-  // relative in-page nav links need to move onto this alias's path.
-  const canonicalMatch = html.match(/<link\b(?=[^>]*\brel="canonical")(?=[^>]*\bhref="([^"]+)")[^>]*>/);
-  const pathSuffix =
-    canonicalMatch?.[1].match(/^https:\/\/dottodotfreeprintables\.com\/ar(\/.*)?$/)?.[1] ?? '/';
-
-  let rewritten = html
-    .replace(/<html([^>]*)\blang="[^"]*"/, `<html$1lang="${alias}"`)
-    .replace(/<html([^>]*)\bdir="[^"]*"/, '<html$1dir="rtl"')
-    .replace(/<html(?![^>]*\bdir=)/, '<html dir="rtl"')
-    .replace(/(["'])\/ar(?=\/|#|")/g, `$1/${alias}`)
-    .replace(
-      /<meta property="og:locale" content="[^"]*"/,
-      `<meta property="og:locale" content="${alias.replace('-', '_')}"`
-    )
-    .replace(
-      /<link\b(?=[^>]*\brel="canonical")[^>]*>/,
-      (tag) => tag.replace(/\bhref="[^"]*"/, `href="https://dottodotfreeprintables.com/${alias}${pathSuffix}"`)
-    );
-
-  // Restore the reciprocal Arabic hreflang cluster after the broad in-page
-  // `/ar` link rewrite above has run.
-  for (const locale of ['ar', 'ar-AE', 'ar-SA', 'ar-QA']) {
-    const alternatePattern = new RegExp(
-      `<link\\b(?=[^>]*\\brel="alternate")(?=[^>]*\\bhreflang="${locale}")[^>]*>`,
-      'g'
-    );
-    rewritten = rewritten.replace(alternatePattern, (tag) =>
-      tag.replace(/\bhref="[^"]*"/, `href="https://dottodotfreeprintables.com/${locale}${pathSuffix}"`)
-    );
+// Publishes app/[locale]/404-page's rendered output as a real 404.html per
+// locale directory (out/{locale}/404.html), plus the English version at the
+// site root (out/404.html and out/404/index.html). Firebase Hosting looks
+// for a literal 404.html in the requested path's own directory, walking up
+// to the root if none is found — so this makes /fr/xyz serve the French
+// not-found page and /xyz (or any other locale with no 404-page of its own,
+// e.g. a typo'd locale segment) fall back to the English one, both with a
+// real HTTP 404 status. Previously this cloned the homepage HTML instead,
+// which is a soft-404 (200-shaped content) Google flags and users find
+// confusing — see the "Custom 404 page" work item.
+async function publishNotFoundPages() {
+  for (const locale of ALL_LOCALE_DIRS) {
+    const sourceFile = join(outDir, locale, '404-page', 'index.html');
+    if (!(await pathExists(join(outDir, locale, '404-page')))) continue;
+    const html = await readFile(sourceFile, 'utf8');
+    await writeFile(join(outDir, locale, '404.html'), html);
+    await rm(join(outDir, locale, '404-page'), { recursive: true, force: true });
   }
 
-  // The rewrites above only touch the static, server-rendered <head> tags.
-  // Next's App Router also embeds the *original* (unrewritten) metadata as
-  // an RSC flight payload inside `self.__next_f.push(...)` <script> tags,
-  // which client-side hydration reads to reconcile <head> — left running,
-  // hydration re-inserts the original /ar/ canonical (and other
-  // self-referential fields) alongside our rewritten one, producing
-  // duplicate <link rel="canonical"> elements (caught by
-  // tests/i18n-layout.spec.ts "home pages are self-canonical"). Since these
-  // alias pages exist purely for hreflang/SEO — not for interactive client
-  // features — stripping their runtime scripts (via the same stripRuntime()
-  // used elsewhere in this file) removes hydration entirely, so the
-  // rewritten static HTML is the final, single source of truth.
-  return stripRuntime(rewritten);
-}
-
-async function publishArabicRegionalAliases() {
-  const sourceDir = join(outDir, 'ar');
-  const aliases = ['ar-AE', 'ar-SA', 'ar-QA'];
-
-  if (!(await pathExists(sourceDir))) {
-    return;
-  }
-
-  for (const alias of aliases) {
-    const targetDir = join(outDir, alias);
-    await rm(targetDir, { recursive: true, force: true });
-    await cp(sourceDir, targetDir, { recursive: true, force: true });
-
-    for (const file of await matchingFiles(targetDir, '.html')) {
-      const html = await readFile(file, 'utf8');
-      await writeFile(file, aliasArabicHtml(html, alias));
-    }
-
-    console.log(`Published Arabic regional alias in ${targetDir}`);
-  }
+  const englishHtml = await readFile(join(outDir, 'en', '404.html'), 'utf8');
+  await writeFile(join(outDir, '404.html'), englishHtml);
+  await mkdir(join(outDir, '404'), { recursive: true });
+  await writeFile(join(outDir, '404', 'index.html'), englishHtml);
 }
 
 await publishStaticAssets();
 await externalizeStylesheets();
 await patchLocaleHtmlAttributes();
-await publishArabicRegionalAliases();
+await publishNotFoundPages();
 // Keep .txt RSC payload files: Next.js prefetches them for every link, and
 // deleting them floods the browser console with 404s on each page.
 await removeFiles(outDir, ['.map'], []);
-
-const homeHtml = await readFile(join(outDir, 'en', 'index.html'), 'utf8');
-await writeFile(join(outDir, '404.html'), homeHtml);
-await mkdir(join(outDir, '404'), { recursive: true });
-await writeFile(join(outDir, '404', 'index.html'), homeHtml);

@@ -29,11 +29,9 @@ for (const orphan of findOrphanSlugs()) {
 const contentLocales = allLocales.filter(
   (locale) => locale === DEFAULT_LOCALE || statusFor(locale, '').status === 'available'
 );
-// Regional Arabic paths (ar-AE/ar-SA/ar-QA) are compatibility aliases whose
-// pages canonicalize to /ar/ and are excluded from on-page hreflang
-// (app/[locale]/layout.tsx). They must not appear in the sitemap: submitting
-// non-canonical URLs triggers "Alternate page with proper canonical tag" /
-// "Duplicate, Google chose different canonical" in Search Console.
+// Regional Arabic paths (ar-AE/ar-SA/ar-QA) no longer exist as pages at all
+// — Firebase Hosting 301s them to /ar/ (see firebase.json) — so they were
+// never routable locales here and never appear in the sitemap.
 const locales = contentLocales;
 
 function slugsFor(locale, file) {

@@ -84,11 +84,7 @@ const locales = fullLocaleSweep
   ? allRoutedLocales
   : allRoutedLocales.filter((locale) => defaultSweepLocales.includes(locale));
 const translatedLocales = locales.filter((locale) => !isPlaceholderLocale(locale));
-const arabicLocales = ['ar', 'ar-AE', 'ar-SA', 'ar-QA'];
-const arabicAliasLocales = arabicLocales.filter((locale) => locale !== 'ar');
-const effectiveHreflangLocales = translatedLocales.includes('ar')
-  ? [...translatedLocales, ...arabicAliasLocales]
-  : translatedLocales;
+const effectiveHreflangLocales = translatedLocales;
 const runVisualBaselines = process.env.I18N_VISUAL_BASELINE === '1';
 
 const keyPages = [
@@ -101,20 +97,6 @@ const keyPages = [
 
 function withTrailingSlash(pathname: string) {
   return pathname.endsWith('/') ? pathname : `${pathname}/`;
-}
-
-async function alternateMap(page: import('@playwright/test').Page) {
-  return page.locator('link[rel="alternate"]').evaluateAll((links) =>
-    Object.fromEntries(
-      links
-        .map((link) => [
-          link.getAttribute('hreflang') ?? '',
-          new URL(link.getAttribute('href') ?? '', document.baseURI).pathname
-        ])
-        .filter(([hreflang, href]) => hreflang && href)
-        .sort(([a], [b]) => a.localeCompare(b))
-    )
-  );
 }
 
 function collectStaticHtmlRoutes(rootDir: string, routePrefix: string) {
@@ -265,67 +247,6 @@ for (const locale of locales) {
     });
   }
 }
-
-test.describe('Arabic regional alias hreflang cluster', () => {
-  const pages = [
-    { locale: 'ar', url: '/ar/' },
-    { locale: 'ar-AE', url: '/ar-AE/' },
-    { locale: 'ar-SA', url: '/ar-SA/' },
-    { locale: 'ar-QA', url: '/ar-QA/' }
-  ];
-
-  const expectedArabicAlternates = {
-    ar: '/ar/',
-    'ar-AE': '/ar-AE/',
-    'ar-SA': '/ar-SA/',
-    'ar-QA': '/ar-QA/'
-  };
-
-  test('home pages are self-canonical, RTL, and share identical alternates', async ({ page }) => {
-    let baseline: Record<string, string> | null = null;
-
-    for (const { locale, url } of pages) {
-      await page.goto(url, { waitUntil: 'domcontentloaded' });
-
-      await expect(page.locator('html'), `${url} html lang`).toHaveAttribute('lang', locale);
-      await expect(page.locator('html'), `${url} html dir`).toHaveAttribute('dir', 'rtl');
-
-      const canonicalHref = await page.locator('link[rel="canonical"]').getAttribute('href');
-      expect(canonicalHref, `${url} canonical link missing`).not.toBeNull();
-      expect(new URL(canonicalHref!, page.url()).pathname).toBe(url);
-
-      const alternates = await alternateMap(page);
-
-      for (const [hreflang, expectedPath] of Object.entries(expectedArabicAlternates)) {
-        expect(alternates[hreflang], `${url} ${hreflang} alternate`).toBe(expectedPath);
-      }
-
-      if (!baseline) {
-        baseline = alternates;
-      } else {
-        expect(alternates, `${url} hreflang cluster differs from /ar/`).toEqual(baseline);
-      }
-    }
-  });
-
-  test('nested pages preserve the same Arabic path in every regional alternate', async ({ page }) => {
-    const suffix = 'dinosaurs/trex-61-dot-to-dot-puzzle/';
-
-    for (const { locale, url } of pages) {
-      await page.goto(`${url}${suffix}`, { waitUntil: 'domcontentloaded' });
-
-      const canonicalHref = await page.locator('link[rel="canonical"]').getAttribute('href');
-      expect(canonicalHref, `${locale} nested canonical link missing`).not.toBeNull();
-      expect(new URL(canonicalHref!, page.url()).pathname).toBe(`/${locale}/${suffix}`);
-
-      const alternates = await alternateMap(page);
-
-      for (const hreflang of arabicLocales) {
-        expect(alternates[hreflang], `${locale} nested ${hreflang} alternate`).toBe(`/${hreflang}/${suffix}`);
-      }
-    }
-  });
-});
 
 for (const locale of allPagesAlignmentLocales) {
   test.describe(`${locale} all pages alignment`, () => {

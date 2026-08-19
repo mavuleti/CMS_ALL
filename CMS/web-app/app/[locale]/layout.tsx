@@ -40,7 +40,6 @@ const PLACEHOLDER_LOCALES: string[] = [];
 // All non-placeholder routable locales pass i18n content validation, so they're
 // announced as alternates — matches the locale set already declared in sitemap.xml.
 const FULLY_TRANSLATED_LOCALES = routing.locales.filter((l) => !PLACEHOLDER_LOCALES.includes(l));
-const ARABIC_REGIONAL_ALIASES = ['ar-AE', 'ar-SA', 'ar-QA'];
 const RTL_HTML_LANGS = new Set(['ar', 'fa']);
 
 const localeToHtmlLang: Record<string, string> = {
@@ -156,7 +155,6 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   const ogLocale = localeToOgLocale[locale] ?? 'en_US';
-  const isArabicRegionalAlias = ARABIC_REGIONAL_ALIASES.includes(locale);
   const exportCollections = getCollections(locale);
   const homeExport = getHomeExport(locale);
   const title = homeExport.header?.title ?? 'Free Dot-to-Dot Printables for Kids';
@@ -178,7 +176,6 @@ export async function generateMetadata({
     : DEFAULT_OG_IMAGE;
 
   return {
-    ...(isArabicRegionalAlias ? { robots: { index: false, follow: true } } : {}),
     metadataBase: new URL(SITE_URL),
     manifest: '/manifest.webmanifest',
     title: {
@@ -208,8 +205,7 @@ export async function generateMetadata({
     alternates: {
       canonical: `/${locale}/`,
       languages: {
-        ...Object.fromEntries(FULLY_TRANSLATED_LOCALES.filter((l) => !ARABIC_REGIONAL_ALIASES.includes(l)).map((l) => [l, `/${l}/`])),
-        ...Object.fromEntries(ARABIC_REGIONAL_ALIASES.map((l) => [l, `/${l}/`])),
+        ...Object.fromEntries(FULLY_TRANSLATED_LOCALES.map((l) => [l, `/${l}/`])),
         'x-default': `/${routing.defaultLocale}/`
       }
     },
@@ -250,15 +246,10 @@ export default async function LocaleLayout({
   setRequestLocale(locale);
   const messages = await getMessages();
   const htmlLang = localeToHtmlLang[locale] ?? locale;
-  // Mirrors the pre-existing client-side dir logic in the (now-removed)
-  // LocaleHtml component: an Arabic regional alias (ar-AE/ar-SA/ar-QA) uses
-  // its own alias as both lang and the RTL signal; everything else uses the
-  // resolved htmlLang.
-  const htmlLocale = ARABIC_REGIONAL_ALIASES.includes(locale) ? locale : htmlLang;
-  const dir = RTL_HTML_LANGS.has(htmlLang) || ARABIC_REGIONAL_ALIASES.includes(htmlLocale) ? 'rtl' : 'ltr';
+  const dir = RTL_HTML_LANGS.has(htmlLang) ? 'rtl' : 'ltr';
   const isArabic = false;
   return (
-    <html lang={htmlLocale} dir={dir}>
+    <html lang={htmlLang} dir={dir}>
       <body>
         <BrowserErrorTracker />
         {isArabic && (

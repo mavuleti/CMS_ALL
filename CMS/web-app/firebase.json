@@ -139,6 +139,16 @@
         "type": 301
       },
       {
+        "regex": "^/(ar-AE|ar-SA|ar-QA)/?$",
+        "destination": "/ar/",
+        "type": 301
+      },
+      {
+        "regex": "^/(ar-AE|ar-SA|ar-QA)/(.+)$",
+        "destination": "/ar/:2",
+        "type": 301
+      },
+      {
         "regex": "^/(about|blog|canada|contact|cute|dinosaurs|flowers|garden|ocean|playgrounds|premium|privacy-policy|purchase|search|terms|uae|usa-250)/([^/.]+)/index\\.txt$",
         "destination": "/en/:1/:2/index.txt",
         "type": 301

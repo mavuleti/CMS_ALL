@@ -30,7 +30,6 @@ const PLACEHOLDER_LOCALES: string[] = [];
 // All non-placeholder routable locales pass i18n content validation, so they're
 // announced as alternates — matches the locale set already declared in sitemap.xml.
 const FULLY_TRANSLATED_LOCALES = routing.locales.filter((l) => !PLACEHOLDER_LOCALES.includes(l));
-const ARABIC_REGIONAL_ALIASES = ['ar-AE', 'ar-SA', 'ar-QA'];
 
 const localeToOgLocale: Record<string, string> = {
   en: 'en_US',
@@ -84,19 +83,12 @@ export function buildAlternates(locale: string, path: string) {
   // itself-with-slash, which is exactly the "Page with redirect" / canonical
   // mismatch Search Console flags.
   const normalizedPath = path === '/' || path === '' ? '' : path.endsWith('/') ? path : `${path}/`;
-  const alternateLocales = FULLY_TRANSLATED_LOCALES.filter(
-    (l) => !ARABIC_REGIONAL_ALIASES.includes(l) && localeHasOwnPage(l, normalizedPath)
-  );
+  const alternateLocales = FULLY_TRANSLATED_LOCALES.filter((l) => localeHasOwnPage(l, normalizedPath));
   const canonicalLocale = localeHasOwnPage(locale, normalizedPath) ? locale : routing.defaultLocale;
   const languages: Record<string, string> = {
     ...Object.fromEntries(
       alternateLocales.map((l) => [l, `/${l}${normalizedPath}`])
     ),
-    // Each Arabic regional alias is a fully self-canonical page (see
-    // scripts/strip-next-runtime.mjs publishArabicRegionalAliases), so it
-    // gets its own hreflang entry pointing at its own URL, forming a
-    // reciprocal cluster with /ar/ rather than all mirroring one URL.
-    ...Object.fromEntries(ARABIC_REGIONAL_ALIASES.map((l) => [l, `/${l}${normalizedPath}`])),
     'x-default': `/${routing.defaultLocale}${normalizedPath}`
   };
 

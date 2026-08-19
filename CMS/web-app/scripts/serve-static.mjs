@@ -79,6 +79,23 @@ function isMissingRscPrefetch(requestUrl) {
   return url.pathname.endsWith('.txt') && url.searchParams.has('_rsc');
 }
 
+// Mirrors Firebase Hosting's 404.html lookup: walk up from the requested
+// path's own directory to the site root, serving the first 404.html found
+// with a real 404 status. Never falls back to index.html/homepage content —
+// that would be a soft-404 (real content served with a 200-shaped response)
+// which is exactly what the "Custom 404 page" work item fixed for production.
+function resolveNotFoundFile(pathname) {
+  const segments = pathname.split('/').filter(Boolean);
+  segments.pop();
+
+  for (let i = segments.length; i >= 0; i -= 1) {
+    const candidate = path.join(root, ...segments.slice(0, i), '404.html');
+    if (existsSync(candidate)) return candidate;
+  }
+
+  return null;
+}
+
 function resolveFile(requestPath) {
   const pathname = decodeURIComponent(new URL(requestPath, `http://localhost:${port}`).pathname);
   let file = path.join(root, pathname);
@@ -98,8 +115,7 @@ function resolveFile(requestPath) {
     }
 
     const withIndex = path.join(root, pathname, 'index.html');
-    const rootIndex = path.join(root, 'index.html');
-    file = existsSync(withIndex) ? withIndex : (existsSync(rootIndex) ? rootIndex : null);
+    file = existsSync(withIndex) ? withIndex : null;
   }
 
   return file;
@@ -117,6 +133,8 @@ const server = http.createServer((request, response) => {
   }
 
   const file = resolveFile(request.url ?? '/');
+  let notFoundFile = null;
+
   if (!file) {
     if (isMissingRscPrefetch(request.url)) {
       response.writeHead(204, { 'Content-Type': 'text/x-component; charset=utf-8' });
@@ -124,12 +142,16 @@ const server = http.createServer((request, response) => {
       return;
     }
 
-    response.writeHead(404, { 'Content-Type': 'text/plain; charset=utf-8' });
-    response.end('Not found');
-    return;
+    notFoundFile = resolveNotFoundFile(pathname);
+    if (!notFoundFile) {
+      response.writeHead(404, { 'Content-Type': 'text/plain; charset=utf-8' });
+      response.end('Not found');
+      return;
+    }
   }
 
-  const extension = path.extname(file).toLowerCase();
+  const servedFile = file ?? notFoundFile;
+  const extension = path.extname(servedFile).toLowerCase();
   const headers = {
     'Content-Type': contentTypes[extension] ?? 'application/octet-stream'
   };
@@ -140,15 +162,16 @@ const server = http.createServer((request, response) => {
     headers['Cache-Control'] = 'no-cache';
   }
 
+  const status = notFoundFile ? 404 : 200;
   const acceptsGzip = /\bgzip\b/.test(request.headers['accept-encoding'] ?? '');
   if (acceptsGzip && compressible.has(extension)) {
-    response.writeHead(200, { ...headers, 'Content-Encoding': 'gzip', Vary: 'Accept-Encoding' });
-    createReadStream(file).pipe(createGzip()).pipe(response);
+    response.writeHead(status, { ...headers, 'Content-Encoding': 'gzip', Vary: 'Accept-Encoding' });
+    createReadStream(servedFile).pipe(createGzip()).pipe(response);
     return;
   }
 
-  response.writeHead(200, headers);
-  createReadStream(file).pipe(response);
+  response.writeHead(status, headers);
+  createReadStream(servedFile).pipe(response);
 });
 
 function scheduleIdleExit() {
