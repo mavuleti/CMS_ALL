@@ -8,8 +8,10 @@ import ResponsiveImage from '@/components/ResponsiveImage';
 import { trackEvent } from '@/lib/client-analytics';
 import { useTranslations } from 'next-intl';
 
+// 'easy' (1-20 dots) is hidden until the catalog has puzzles in that range
+// (currently 32-250 dots minimum as of 2026-08-19) — re-add once real
+// low-dot-count puzzles exist. See TODO-seo.md.
 const FILTERS = [
-  { id: 'easy', detail: '1–20 Dots', icon: Star },
   { id: 'medium', detail: '21–60 Dots', icon: Star },
   { id: 'hard', detail: '61+ Dots', icon: Star },
   { id: 'age4', detail: '4–6', icon: UserRound },
@@ -123,7 +125,7 @@ export default function HomeDiscovery({ locale, featuredPuzzles, searchPuzzles }
         <div className="discovery-filters" aria-label={homeT('filterPuzzles')}>
           {FILTERS.map(({ id, detail, icon: Icon }, index) => (
             <Fragment key={id}>
-              {index === 3 && <span className="discovery-filters-divider" aria-hidden="true" />}
+              {index === 2 && <span className="discovery-filters-divider" aria-hidden="true" />}
               <button
                 type="button"
                 className={activeFilter === id ? `is-active filter-${id}` : `filter-${id}`}
@@ -137,7 +139,7 @@ export default function HomeDiscovery({ locale, featuredPuzzles, searchPuzzles }
               >
                 <Icon className="discovery-filter-icon" size={22} fill="currentColor" aria-hidden="true" />
                 <span className="discovery-filter-copy">
-                  <strong>{id.startsWith('age') ? homeT('age') : commonT(`difficulty.${id === 'easy' ? '1' : id === 'medium' ? '2' : '3'}`)}</strong>
+                  <strong>{id.startsWith('age') ? homeT('age') : commonT(`difficulty.${id === 'medium' ? '2' : '3'}`)}</strong>
                   <span>{detail.replace('Dots', homeT('dots'))}</span>
                 </span>
               </button>
