@@ -13,12 +13,15 @@ Not done — needs a call before implementing.
 - [ ] **HTML summary/data tables** on category and puzzle pages (puzzle
       name, dot count, age, difficulty) for AEO/GEO citation by ChatGPT
       Search, Perplexity, Gemini.
-- [ ] **Cross-category interlinking by dot-count/age tier** (e.g. link a
-      Dinosaur 50-dot puzzle to an Ocean 50-dot puzzle), not just within
-      the same category.
+- [x] **Cross-category interlinking by dot-count/age tier** — done 2026-08-19.
+      `getCrossTierPuzzles()` in `lib/category-registry.ts` adds a second
+      "more puzzles at this skill level" grid on every puzzle page, linking
+      to up to 3 puzzles from other categories at the same difficulty tier
+      and overlapping age range. No new i18n keys needed. Verified with a
+      full `next build`.
 - [ ] **Inline Microdata** (`itemscope`/`itemprop`) alongside existing
       JSON-LD, as a fallback if script-tag JSON-LD is truncated/fails to
       parse.
 
-All four of the non-srcset items touch JSON-LD generation and/or page data
-structures more broadly — scope each one before starting.
+The remaining Speakable schema and Microdata items touch JSON-LD generation
+more broadly — scope each one before starting.
