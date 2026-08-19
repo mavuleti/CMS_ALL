@@ -25,18 +25,6 @@ async function matchingFiles(dir, extension) {
   return files.flat();
 }
 
-function stripRuntime(html) {
-  return html
-    .replace(/\sdata-precedence="next"/g, '')
-    .replace(/<link[^>]+rel="preload"[^>]+href="\/_next\/static\/chunks\/[^"]+"[^>]*>/g, '')
-    .replace(/<link[^>]+href="\/_next\/static\/chunks\/[^"]+"[^>]+rel="preload"[^>]*>/g, '')
-    .replace(/href="\/_next\/static\/css\/([^"]+)"/g, 'href="/assets/css/$1"')
-    .replace(/<script[^>]+src="\/_next\/static\/chunks\/[^"]+"[^>]*><\/script>/g, '')
-    .replace(/<script[^>]*>\s*self\.__next_[\s\S]*?<\/script>/g, '')
-    .replace(/<script[^>]*>\s*\(self\.__next_[\s\S]*?<\/script>/g, '')
-    .replace(/<div hidden id="S:0">[\s\S]*?<\/div><script[^>]*>[\s\S]*?<\/script>/g, '');
-}
-
 async function pathExists(path) {
   try {
     await readdir(path);
