@@ -3764,7 +3764,9 @@ main:focus { outline: none; }
   box-shadow: 0 6px 16px rgba(84, 57, 32, .04);
 }
 .discovery-image { display: block; aspect-ratio: 1.42; overflow: hidden; background: #fff; }
+.discovery-image figure { margin: 0; height: 100%; }
 .discovery-image img { width: 100%; height: 100%; object-fit: contain; }
+.puzzle-image figure { margin: 0; height: 100%; }
 .discovery-heart { position: absolute; top: 9px; right: 9px; z-index: 2; display: grid; place-items: center; width: 34px; height: 34px; padding: 0; border: 1px solid #efcdbc; border-radius: 50%; color: #ef4a43; background: rgba(255,255,255,.94); cursor: pointer; }
 .discovery-heart.is-saved { color: #fff; background: #ef4a43; }
 .discovery-card h2 { margin: 3px 14px 6px; font-size: 1rem; }

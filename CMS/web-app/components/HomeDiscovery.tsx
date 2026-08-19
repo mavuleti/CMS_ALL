@@ -163,7 +163,10 @@ export default function HomeDiscovery({ locale, featuredPuzzles, searchPuzzles }
               onClick={() => toggleFavorite(puzzle.id)}
             ><Heart size={20} fill={favorites.includes(puzzle.id) ? 'currentColor' : 'none'} /></button>
             <Link href={localizedPuzzleHref(locale, puzzle)} className="discovery-image" onClick={() => trackEvent('select_item', { item_id: puzzle.id, item_name: puzzle.name, location: 'homepage_image' })}>
-              <ResponsiveImage src={puzzle.image} alt={searchT('imageAlt', { name: puzzle.name })} width={600} height={480} sizes="(max-width: 700px) 46vw, 280px" priority={index === 0} />
+              <figure>
+                <ResponsiveImage src={puzzle.image} alt={searchT('imageAlt', { name: puzzle.name })} width={600} height={480} sizes="(max-width: 700px) 46vw, 280px" priority={index === 0} />
+                <figcaption className="sr-only">{searchT('imageAlt', { name: puzzle.name })}</figcaption>
+              </figure>
             </Link>
             <h2><Link href={localizedPuzzleHref(locale, puzzle)} onClick={() => trackEvent('select_item', { item_id: puzzle.id, item_name: puzzle.name, location: 'homepage_title' })}>{puzzle.name}</Link></h2>
             <div className="discovery-meta">
