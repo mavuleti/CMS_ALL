@@ -198,6 +198,18 @@ export function getExportDocument(name: 'about' | 'contact' | 'privacy-policy' |
   return JSON.parse(fs.readFileSync(path.join(exportDir(locale), `${name}.json`), 'utf8')) as any;
 }
 
+export type HubSlug =
+  | 'hub-ages-4-6'
+  | 'hub-ages-7-9'
+  | 'hub-ages-9-12'
+  | 'hub-difficulty-easy-1-20-dots'
+  | 'hub-difficulty-medium-21-60-dots'
+  | 'hub-difficulty-hard-61-plus-dots';
+
+export function getHubDocument(slug: HubSlug, locale: string = 'en') {
+  return JSON.parse(fs.readFileSync(path.join(exportDir(locale), `${slug}.json`), 'utf8')) as any;
+}
+
 export function getHomeExport(locale: string = 'en') {
   return JSON.parse(fs.readFileSync(path.join(exportDir(locale), 'home.json'), 'utf8')) as any;
 }

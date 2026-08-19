@@ -22,33 +22,20 @@ export const sectionFilesList = Object.values(sectionFiles);
 
 export const staticPaths = ['', 'search/', 'dinosaurs/', 'ocean/', 'playgrounds/', 'garden/', 'flowers/', 'cute/', 'usa-250/', 'uae/', 'canada/', 'blog/', 'about/', 'contact/', 'privacy-policy/', 'terms/'];
 
-// Locales explicitly known to carry English-fallback text rather than real
-// translations, for cases the structural check below wouldn't catch (e.g. a
-// placeholder locale whose fallback files aren't literally empty). Keep in
-// sync with PLACEHOLDER_LOCALES in lib/seo.ts, app/[locale]/layout.tsx, and
-// app/[locale]/blog/[slug]/page.tsx.
-const KNOWN_FALLBACK_LOCALES = [];
-
-export function isPlaceholderLocale(locale) {
-  if (KNOWN_FALLBACK_LOCALES.includes(locale)) return true;
-
-  const messagesPath = path.join('content', locale, 'messages.json');
-  if (!existsSync(messagesPath)) return true;
-
-  const messages = JSON.parse(readFileSync(messagesPath, 'utf8'));
-  if (Object.keys(messages).length > 0) return false;
-
-  return sectionFilesList.every((f) => {
-    const p = path.join('content', locale, f);
-    if (!existsSync(p)) return true;
-    return JSON.parse(readFileSync(p, 'utf8')).length === 0;
-  });
+// A section file is either a bare array of items, or (for sections mid-
+// migration to the {collection, puzzles} envelope shape, e.g. circus/cute/
+// flowers) an object with a `puzzles` array — normalize both to a plain
+// array so callers never need to know which shape is on disk.
+export function sectionItemsArray(data) {
+  if (Array.isArray(data)) return data;
+  if (data && Array.isArray(data.puzzles)) return data.puzzles;
+  return [];
 }
 
 function readSectionItems(locale, file) {
   const p = path.join('content', locale, file);
   if (!existsSync(p)) return [];
-  return JSON.parse(readFileSync(p, 'utf8'));
+  return sectionItemsArray(JSON.parse(readFileSync(p, 'utf8')));
 }
 
 function sectionExcludedReason(locale, prefix) {
@@ -93,16 +80,8 @@ export function computeAvailability() {
     return localeSectionCache.get(key);
   }
 
-  const placeholderCache = new Map();
-  function placeholder(locale) {
-    if (!placeholderCache.has(locale)) placeholderCache.set(locale, isPlaceholderLocale(contentLocaleFor(locale)));
-    return placeholderCache.get(locale);
-  }
-
   function statusFor(locale, pagePath) {
     if (locale === DEFAULT_LOCALE) return { status: 'available' };
-
-    if (placeholder(locale)) return { status: 'missing', reason: 'placeholder', fallback: DEFAULT_LOCALE };
 
     // Which section prefix (if any) this path belongs to.
     const prefix = Object.keys(sectionFiles).find((p) => p !== 'blog/' && pagePath.startsWith(p));

@@ -1,7 +1,7 @@
 import { createHash } from 'node:crypto';
 import { existsSync, readFileSync, readdirSync, unlinkSync, writeFileSync } from 'node:fs';
 import path from 'node:path';
-import { computeAvailability, findOrphanSlugs, sectionFiles, ARABIC_REGIONAL_ALIASES } from './lib/translation-availability.mjs';
+import { computeAvailability, findOrphanSlugs, sectionFiles, ARABIC_REGIONAL_ALIASES, sectionItemsArray } from './lib/translation-availability.mjs';
 
 const SITE = 'https://dottodotfreeprintables.com';
 const DEFAULT_LOCALE = 'en';
@@ -36,23 +36,25 @@ const locales = contentLocales;
 
 function slugsFor(locale, file) {
   const p = path.join('content', locale, file);
-  const data = JSON.parse(readFileSync(p, 'utf8'));
+  const data = sectionItemsArray(JSON.parse(readFileSync(p, 'utf8')));
   return data.map((item) => item.slug);
 }
 
 const staticPaths = ['', 'dinosaurs/', 'ocean/', 'playgrounds/', 'circus/', 'garden/', 'flowers/', 'cute/', 'space/', 'usa-250/', 'uae/', 'canada/', 'blog/', 'about/', 'contact/', 'privacy-policy/', 'terms/'];
 
-// Age/difficulty hub pages (lib/hub-content.ts) are English-only for now —
-// they cross-cut section availability logic (isExcludedForLocale would treat
-// them as an "available for every non-placeholder locale" plain static page,
-// which is wrong here), so they're handled entirely separately below instead
-// of going through `paths`/`isExcludedForLocale`/hreflang alternates.
+// Age/difficulty hub pages (lib/hub-content.ts) are DB-backed content routed
+// through mapping_audit_hub.db, real and complete for every locale — but they
+// cross-cut section availability logic (isExcludedForLocale would treat them
+// as a plain static page gated on content/<locale> JSON, which doesn't back
+// these), so they're handled entirely separately below instead of going
+// through `paths`/`isExcludedForLocale`, though every locale still gets full
+// hreflang alternates to every other locale (see hubPaths loop below).
 // 'difficulty/easy-1-20-dots/' is deliberately excluded: the real catalog's
 // dot counts (32-250 as of 2026-08-19) mean that tier has zero puzzles, so
 // the route itself skips generating it (see generateStaticParams in
 // app/[locale]/difficulty/[tier]/page.tsx) — listing it here would sitemap
 // a 404.
-const enOnlyPaths = [
+const hubPaths = [
   'ages/4-6/', 'ages/7-9/', 'ages/9-12/',
   'difficulty/medium-21-60-dots/', 'difficulty/hard-61-plus-dots/'
 ];
@@ -110,7 +112,7 @@ for (const [prefix, file] of Object.entries(sectionFiles)) {
   const source = readFileSync(path.join('lib', dataFiles[prefix]), 'utf8');
   for (const match of source.matchAll(/slug:\s*'([^']+)'[\s\S]*?image:\s*'([^']+)'/g)) {
     if (match[2].startsWith('/images/')) {
-      const item = JSON.parse(readFileSync(path.join('content', DEFAULT_LOCALE, file), 'utf8'))
+      const item = sectionItemsArray(JSON.parse(readFileSync(path.join('content', DEFAULT_LOCALE, file), 'utf8')))
         .find((candidate) => candidate.slug === match[1]);
       puzzleImages.set(`${prefix}${match[1]}/`, { image: match[2], title: item?.name ?? match[1] });
     }
@@ -149,7 +151,7 @@ function localizedPageContent(locale, p) {
     const availabilityLocale = ARABIC_REGIONAL_ALIASES.includes(locale) ? 'ar' : locale;
     const localizedFile = path.join('content', availabilityLocale, file);
     const fallbackFile = path.join('content', DEFAULT_LOCALE, file);
-    const items = readJsonIfPresent(localizedFile) ?? readJsonIfPresent(fallbackFile) ?? [];
+    const items = sectionItemsArray(readJsonIfPresent(localizedFile) ?? readJsonIfPresent(fallbackFile) ?? []);
     if (p === prefix) return items;
     const slug = p.slice(prefix.length).replace(/\/$/, '');
     return items.find((item) => item.slug === slug) ?? null;
@@ -209,20 +211,26 @@ for (const locale of locales) {
     entriesBySitemap.get(sitemapFile).push(urlEntry(localePath, lastModified, metadata));
   }
 }
-const enSitemapFile = `sitemap-${DEFAULT_LOCALE}.xml`;
-if (entriesBySitemap.has(enSitemapFile)) {
-  for (const p of enOnlyPaths) {
-    const localePath = { locale: DEFAULT_LOCALE, path: p };
-    const url = `${SITE}/${DEFAULT_LOCALE}/${p}`;
-    // No cross-locale alternates — this page only exists in English.
-    const metadata = { alternates: '', imageEntry: '' };
-    const hash = sha256(JSON.stringify({ localePath, metadata, enOnly: true }));
+// Hub pages exist for every locale now — give each one full hreflang
+// alternates to every other locale, same as the main loop above, instead of
+// the old en-only/no-alternates handling.
+for (const p of hubPaths) {
+  const alternates = locales
+    .map((l) => `    <xhtml:link rel="alternate" hreflang="${l}" href="${SITE}/${l}/${p}"/>`)
+    .join('\n');
+  for (const locale of locales) {
+    const sitemapFile = `sitemap-${locale}.xml`;
+    if (!entriesBySitemap.has(sitemapFile)) continue;
+    const localePath = { locale, path: p };
+    const url = `${SITE}/${locale}/${p}`;
+    const metadata = { alternates, imageEntry: '' };
+    const hash = sha256(JSON.stringify({ localePath, metadata, hub: true }));
     const previous = oldState.urls[url];
     const lastModified = previous?.hash === hash ? previous.lastModified : TODAY;
     if (!previous) added += 1;
     else if (previous.hash !== hash) changed += 1;
     newState.urls[url] = { hash, lastModified };
-    entriesBySitemap.get(enSitemapFile).push(urlEntry(localePath, lastModified, metadata));
+    entriesBySitemap.get(sitemapFile).push(urlEntry(localePath, lastModified, metadata));
   }
 }
 
@@ -325,7 +333,7 @@ let llms = intro;
 let llmsFull = intro;
 
 for (const [prefix, cat] of Object.entries(CATEGORY_INFO)) {
-  const items = JSON.parse(readFileSync(path.join('content', DEFAULT_LOCALE, cat.file), 'utf8'));
+  const items = sectionItemsArray(JSON.parse(readFileSync(path.join('content', DEFAULT_LOCALE, cat.file), 'utf8')));
   llms += `\n## ${cat.label}\n\n`;
   llmsFull += `\n## ${cat.label}\n\n`;
   for (const item of items) {

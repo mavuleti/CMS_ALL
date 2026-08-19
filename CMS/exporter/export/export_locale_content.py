@@ -73,6 +73,17 @@ LEGAL_SLUG_TO_OUTPUT = {
 }
 HOME_SLUG_TO_OUTPUT = {"home": "home.json"}
 
+# The "hub" db covers the six age/difficulty hub pages (/ages/*, /difficulty/*)
+# -- same one-db-to-many-single-document shape as "legal", handled the same way.
+HUB_SLUG_TO_OUTPUT = {
+    "hub-ages-4-6": "hub-ages-4-6.json",
+    "hub-ages-7-9": "hub-ages-7-9.json",
+    "hub-ages-9-12": "hub-ages-9-12.json",
+    "hub-difficulty-easy-1-20-dots": "hub-difficulty-easy-1-20-dots.json",
+    "hub-difficulty-medium-21-60-dots": "hub-difficulty-medium-21-60-dots.json",
+    "hub-difficulty-hard-61-plus-dots": "hub-difficulty-hard-61-plus-dots.json",
+}
+
 _INDEX_RE = re.compile(r"^([^\[]+)\[(\d+)\]$")
 
 
@@ -227,6 +238,39 @@ def export_legal_bundle(out_dir: Path, language: str, db_dir: Path) -> int:
     return total
 
 
+def export_hub_bundle(out_dir: Path, language: str, db_dir: Path) -> int:
+    db_path = db_dir / "mapping_audit_hub.db"
+    if not db_path.exists():
+        print("SKIP hub: mapping_audit_hub.db not found")
+        return 0
+
+    rows_by_slug: dict[str, list[sqlite3.Row]] = {}
+    for row in read_rows(db_path, language):
+        rows_by_slug.setdefault(row["puzzle_slug"], []).append(row)
+
+    total = 0
+    for slug, out_name in HUB_SLUG_TO_OUTPUT.items():
+        rows = rows_by_slug.get(slug, [])
+        document: dict[str, Any] = {"slug": slug}
+        seen: dict[tuple[str, str], tuple[str, str]] = {}
+        written = 0
+        for row in rows:
+            new_key, new_value = row["new_key"], row["new_value"]
+            if new_value in (None, "", "<absent>"):
+                continue
+            seen_key = (slug, new_key)
+            if seen_key in seen:
+                continue
+            seen[seen_key] = (new_value, "hub.db")
+            set_path(document, new_key, new_value)
+            written += 1
+        out_path = out_dir / out_name
+        write_single_document_export(document, out_path)
+        print(f"[{language}] hub.db [{slug}]: {written} key/value pairs -> {out_path}")
+        total += written
+    return total
+
+
 def export_home(out_dir: Path, language: str, db_dir: Path) -> int:
     db_path = db_dir / "mapping_audit_home.db"
     if not db_path.exists():
@@ -252,7 +296,7 @@ def main() -> int:
     args = parser.parse_args()
     db_dir = args.db_dir
 
-    requested = args.names or list(DB_TO_OUTPUT) + ["legal", "home"]
+    requested = args.names or list(DB_TO_OUTPUT) + ["legal", "home", "hub"]
 
     all_by_output: dict[str, list[str]] = {}
     for name, out_name in DB_TO_OUTPUT.items():
@@ -260,11 +304,11 @@ def main() -> int:
 
     requested_outputs: set[str] = set()
     for name in requested:
-        if name in ("legal", "home"):
+        if name in ("legal", "home", "hub"):
             continue
         out_name = DB_TO_OUTPUT.get(name)
         if out_name is None:
-            print(f"SKIP {name}: no known db (known: {', '.join(DB_TO_OUTPUT)}, legal, home)")
+            print(f"SKIP {name}: no known db (known: {', '.join(DB_TO_OUTPUT)}, legal, home, hub)")
             continue
         requested_outputs.add(out_name)
 
@@ -277,6 +321,8 @@ def main() -> int:
             total += export_legal_bundle(lang_out_dir, language, db_dir)
         if "home" in requested:
             total += export_home(lang_out_dir, language, db_dir)
+        if "hub" in requested:
+            total += export_hub_bundle(lang_out_dir, language, db_dir)
 
         for out_name in requested_outputs:
             db_names = [n for n in all_by_output[out_name] if (db_dir / f"mapping_audit_{n}.db").exists()]
