@@ -4,7 +4,7 @@ import { setRequestLocale } from 'next-intl/server';
 import { getAllPuzzles } from '@/lib/category-registry';
 import { routing } from '@/i18n/routing';
 import { DIFFICULTY_HUBS, DIFFICULTY_ROUTE_SLUG, getDifficultyHubText } from '@/lib/hub-content';
-import { SITE_NAME, buildAlternates } from '@/lib/seo';
+import { SITE_NAME, absoluteUrl, buildAlternates } from '@/lib/seo';
 import HubTemplate, { hubJsonLd } from '@/components/templates/HubTemplate';
 
 export type DifficultyHubRouteProps = { params: Promise<{ locale: string; tier: string }> };
@@ -31,12 +31,13 @@ export async function generateMetadata({ params }: DifficultyHubRouteProps): Pro
   const text = getDifficultyHubText(locale, tier);
   if (!text) return {};
   const path = `/difficulty/${tier}/`;
+  const ogImage = { url: absoluteUrl('/images/trex-61-puzzle.webp'), width: 1401, height: 1123, alt: text.h1 };
   return {
     title: text.seoTitle,
     description: text.seoDescription,
     alternates: buildAlternates(locale, path),
-    openGraph: { title: text.seoTitle, description: text.seoDescription, url: `/${locale}${path}`, siteName: SITE_NAME, type: 'website' },
-    twitter: { card: 'summary', title: text.seoTitle, description: text.seoDescription }
+    openGraph: { title: text.seoTitle, description: text.seoDescription, url: `/${locale}${path}`, siteName: SITE_NAME, type: 'website', images: [ogImage] },
+    twitter: { card: 'summary_large_image', title: text.seoTitle, description: text.seoDescription, images: [ogImage.url] }
   };
 }
 

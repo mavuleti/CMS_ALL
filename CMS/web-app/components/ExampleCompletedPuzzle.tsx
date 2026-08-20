@@ -3,6 +3,8 @@ type ExampleCompletedPuzzleProps = {
   puzzleName: string;
   caption: string;
   imageTitle?: string;
+  eyebrow: string;
+  heading: string;
 };
 
 /** A reusable showcase for a real, completed puzzle photo. */
@@ -11,14 +13,14 @@ export default function ExampleCompletedPuzzle({
   puzzleName,
   caption,
   imageTitle = `Completed ${puzzleName} Dot to Dot Printable`,
+  eyebrow,
+  heading,
 }: ExampleCompletedPuzzleProps) {
   return (
     <section className="completed-puzzle" aria-labelledby="completed-puzzle-heading">
       <div className="completed-puzzle__heading">
-        {/* eslint-disable-next-line no-restricted-syntax -- only rendered for locale === 'en' (see app/[locale]/cute/[slug]/page.tsx); not translated by design */}
-        <p className="eyebrow">Made by a young artist</p>
-        {/* eslint-disable-next-line no-restricted-syntax -- only rendered for locale === 'en'; not translated by design */}
-        <h2 id="completed-puzzle-heading">Example Completed Puzzle</h2>
+        <p className="eyebrow">{eyebrow}</p>
+        <h2 id="completed-puzzle-heading">{heading}</h2>
       </div>
       <figure className="completed-puzzle__card">
         {/* Static export serves this already-optimized WebP directly. */}

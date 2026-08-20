@@ -350,7 +350,13 @@
       "privacy": "Datenschutz",
       "terms": "Nutzungsbedingungen",
       "sitemap": "Seitenübersicht",
-      "copyright": "© {year} DotToDotFreePrintables.com · Kostenlose Druckaktivitäten für Kinder"
+      "copyright": "© {year} DotToDotFreePrintables.com · Kostenlose Druckaktivitäten für Kinder",
+      "hubAges46": "Alter 4-6",
+      "hubAges79": "Alter 7-9",
+      "hubAges912": "Alter 9-12",
+      "hubDifficultyMedium": "Mittlere Rätsel",
+      "hubDifficultyHard": "Schwere Rätsel",
+      "hubNavLabel": "Nach Alter oder Schwierigkeit durchsuchen"
     },
     "common": {
       "home": "Startseite",
@@ -463,7 +469,9 @@
         "pdfBook": "PDF-BUCH",
         "bookTitle": "Das Beste aus 2026",
         "puzzleCount": "25 Punkt-zu-Punkt-Rätsel",
-        "viewBook": "Buch ansehen"
+        "viewBook": "Buch ansehen",
+        "advertisementAria": "Werbung: Best of 2026 Verbinde-die-Punkte-Aktivitätsbuch",
+        "viewPackAria": "Best of 2026 Verbinde-die-Punkte-Rätselpaket ansehen"
       },
       "shared": {
         "specialSale": "SONDERANGEBOT",
@@ -493,9 +501,9 @@
           "classroomUse": "Nutzbar zu Hause oder in einem Klassenzimmer"
         },
         "guaranteeText": "Nach dem Bezahlvorgang erscheint sofort Ihr privater Download-Link. Kein Abonnement und keine überraschende Verlängerung.",
-        "heading": "Mehr Rätsel. Weniger Suchen. Alles in einem praktischen PDF.",
-        "detailsHeading": "Alles, was du für bildschirmfreien Spaß brauchst",
-        "guaranteeHeading": "Einfach, sicher und in wenigen Minuten startklar"
+        "heading": "Mehr Rätsel. Weniger Suchen. Alles in einer praktischen PDF-Datei.",
+        "detailsHeading": "Alles, was Sie für bildschirmfreien Spaß brauchen",
+        "guaranteeHeading": "Einfach, sicher und in wenigen Minuten bereit"
       },
       "checkout": {
         "consent": "Ich stimme der sofortigen Bereitstellung dieser digitalen PDF-Datei zu und verstehe, dass der Kauf nach Beginn des Zugriffs endgültig und nicht erstattungsfähig ist, außer wenn gesetzlich vorgeschrieben oder wenn die Datei nicht geliefert wird oder fehlerhaft ist.",
@@ -507,12 +515,14 @@
       "success": {
         "metaTitle": "Vielen Dank für Ihren Kauf",
         "eyebrow": "Zahlung bestätigt",
-        "lede": "Ihre Zahlung war erfolgreich. Es kann einige Sekunden dauern, bis Ihr Kauf in Ihrem Konto erscheint."
+        "lede": "Ihre Zahlung war erfolgreich. Es kann einige Sekunden dauern, bis Ihr Kauf in Ihrem Konto erscheint.",
+        "heading": "Vielen Dank! Ihr Kauf ist abgeschlossen."
       },
       "cancelled": {
         "metaTitle": "Checkout abgebrochen",
         "eyebrow": "Keine Zahlung erfolgt",
-        "lede": "Es wurde keine Zahlung vorgenommen. Sie können es jederzeit erneut versuchen."
+        "lede": "Es wurde keine Zahlung vorgenommen. Sie können es jederzeit erneut versuchen.",
+        "heading": "Bezahlvorgang abgebrochen"
       },
       "download": {
         "demoTitle": "Lokaler Checkout-Test erfolgreich.",
@@ -609,11 +619,6 @@
     },
     "usa250Page": {
       "category": "250. Jahrestag der USA"
-    },
-    "notFound": {
-      "heading": "Seite nicht gefunden",
-      "message": "Entschuldigung, wir konnten die gesuchte Seite nicht finden. Sie wurde möglicherweise verschoben oder gelöscht.",
-      "categoriesHeading": "Beliebte Kategorien"
     }
   }
 }

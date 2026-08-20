@@ -7,6 +7,7 @@ import { getTranslations, setRequestLocale } from 'next-intl/server';
 import AdSlot from '@/components/AdSlot';
 import BestOf2026BookAd from '@/components/BestOf2026BookAd';
 import DownloadButton from '@/components/DownloadButton';
+import ExampleCompletedPuzzle from '@/components/ExampleCompletedPuzzle';
 import ResponsiveImage from '@/components/ResponsiveImage';
 import ShareButtons from '@/components/ShareButtons';
 import { routing } from '@/i18n/routing';
@@ -90,6 +91,10 @@ export default async function CommonPuzzleTemplate({ params }: PuzzleRouteProps)
   setRequestLocale(locale);
   const seoH1 = requireField(puzzle.seoH1, 'seoH1', locale, categorySlug, slug);
   if (puzzle.dotGuide) requireField(puzzle.dotGuide.heading, 'dotGuide.heading', locale, categorySlug, slug);
+  if (puzzle.exampleCompleted) {
+    requireField(puzzle.exampleCompleted.imageTitle, 'exampleCompleted.imageTitle', locale, categorySlug, slug);
+    requireField(puzzle.exampleCompleted.caption, 'exampleCompleted.caption', locale, categorySlug, slug);
+  }
   const tp = await getTranslations('puzzleDetail');
   const tc = await getTranslations('common');
   const tFaq = await getTranslations('faq');
@@ -130,6 +135,36 @@ export default async function CommonPuzzleTemplate({ params }: PuzzleRouteProps)
       {puzzle.dotGuide?.outro && <section className="section" style={{ paddingTop: 0, maxWidth: 800 }}><p dangerouslySetInnerHTML={{ __html: localizeHtmlLinks(puzzle.dotGuide.outro, locale) }} /></section>}
       <ColoringGuide schemes={puzzle.dotGuide?.colorSchemes} heading={tPage?.has('colorH2') ? tPage('colorH2') : tp('colorGuideHeading')} />
       {puzzle.faqs && puzzle.faqs.length > 0 && <FaqBlock faqs={puzzle.faqs} eyebrow={tFaq('eyebrow')} heading={tFaq('heading')} />}
+      {puzzle.slug === 'cute-little-car-dot-to-dot-puzzle' && puzzle.exampleCompleted && (
+        <ExampleCompletedPuzzle
+          imageFile="/images/completed/completed-cute-car-dot-to-dot-printable.webp"
+          puzzleName={puzzle.name}
+          imageTitle={puzzle.exampleCompleted.imageTitle}
+          caption={puzzle.exampleCompleted.caption}
+          eyebrow={tp('exampleCompletedEyebrow')}
+          heading={tp('exampleCompletedHeading')}
+        />
+      )}
+      {puzzle.slug === 'circus-tent-dot-to-dot-puzzle' && puzzle.exampleCompleted && (
+        <ExampleCompletedPuzzle
+          imageFile="/images/completed/completed-circus-tent-dot-to-dot-puzzle.webp"
+          puzzleName={puzzle.name}
+          imageTitle={puzzle.exampleCompleted.imageTitle}
+          caption={puzzle.exampleCompleted.caption}
+          eyebrow={tp('exampleCompletedEyebrow')}
+          heading={tp('exampleCompletedHeading')}
+        />
+      )}
+      {puzzle.slug === 'periwinkle-flower-dot-to-dot-puzzle' && puzzle.exampleCompleted && (
+        <ExampleCompletedPuzzle
+          imageFile="/images/completed/completed-periwinkle-dot-to-dot-printable.webp"
+          puzzleName={puzzle.name}
+          imageTitle={puzzle.exampleCompleted.imageTitle}
+          caption={puzzle.exampleCompleted.caption}
+          eyebrow={tp('exampleCompletedEyebrow')}
+          heading={tp('exampleCompletedHeading')}
+        />
+      )}
     </main>
   </>;
 }

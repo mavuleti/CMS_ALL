@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev --turbo",
-    "prebuild": "npm run validate:i18n",
+    "prebuild": "npm run validate:i18n && npm run validate:completed-image-metadata",
     "build": "next build",
     "postbuild": "node scripts/strip-next-runtime.mjs",
     "start": "next start",
@@ -12,6 +12,7 @@
     "validate:i18n": "node scripts/validate-i18n-keys.mjs",
     "validate:no-hardcoded-jsx": "eslint components app --ext .tsx --quiet",
     "validate:assets": "node scripts/validate-assets.mjs",
+    "validate:completed-image-metadata": "node scripts/validate-completed-image-metadata.mjs",
     "validate:locale-links": "python \"TOOLS/link audit tool/check_static_locale_links.py\"",
     "test:e2e": "playwright test",
     "test:home": "playwright test --config=playwright.home.config.ts",

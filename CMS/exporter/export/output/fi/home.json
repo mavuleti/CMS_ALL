@@ -350,7 +350,13 @@
       "privacy": "Tietosuoja",
       "terms": "Ehdot",
       "sitemap": "Sivukartta",
-      "copyright": "© {year} DotToDotFreePrintables.com · Ilmaisia tulostettavia aktiviteetteja lapsille"
+      "copyright": "© {year} DotToDotFreePrintables.com · Ilmaisia tulostettavia aktiviteetteja lapsille",
+      "hubAges46": "Ikä 4-6",
+      "hubAges79": "Ikä 7-9",
+      "hubAges912": "Ikä 9-12",
+      "hubDifficultyMedium": "Keskitason tehtävät",
+      "hubDifficultyHard": "Vaikeat tehtävät",
+      "hubNavLabel": "Selaa iän tai vaikeustason mukaan"
     },
     "common": {
       "home": "Kotiin",
@@ -463,7 +469,9 @@
         "pdfBook": "PDF-KIRJA",
         "bookTitle": "Vuoden 2026 parhaat",
         "puzzleCount": "25 pisteestä pisteeseen -palapeliä",
-        "viewBook": "Näytä kirja"
+        "viewBook": "Näytä kirja",
+        "advertisementAria": "Mainos: Best of 2026 pisteestä pisteeseen -aktiviteettikirja",
+        "viewPackAria": "Katso Best of 2026 pisteestä pisteeseen -pulmapaketti"
       },
       "shared": {
         "specialSale": "ERIKOISTARJOUS",
@@ -493,7 +501,7 @@
           "classroomUse": "Käytettävissä kotona tai yhdessä luokkahuoneessa"
         },
         "guaranteeText": "Maksun jälkeen yksityinen latauslinkkisi ilmestyy heti. Ei tilausta eikä yllättäviä uusimisia.",
-        "heading": "Enemmän tehtäviä. Vähemmän etsimistä. Kaikki yhdessä kätevässä PDF:ssä.",
+        "heading": "Enemmän palapelejä. Vähemmän etsimistä. Kaikki yhdessä kätevässä PDF:ssä.",
         "detailsHeading": "Kaikki mitä tarvitset ruudutonta hauskanpitoa varten",
         "guaranteeHeading": "Yksinkertaista, turvallista ja valmista minuuteissa"
       },
@@ -507,12 +515,14 @@
       "success": {
         "metaTitle": "Kiitos ostoksestasi",
         "eyebrow": "Maksu vahvistettu",
-        "lede": "Maksusi onnistui. Ostoksen näkyminen tililläsi voi kestää muutaman sekunnin."
+        "lede": "Maksusi onnistui. Ostoksen näkyminen tililläsi voi kestää muutaman sekunnin.",
+        "heading": "Kiitos! Ostoksesi on valmis."
       },
       "cancelled": {
         "metaTitle": "Maksu peruutettu",
         "eyebrow": "Maksua ei veloitettu",
-        "lede": "Maksua ei veloitettu. Voit yrittää uudelleen milloin tahansa."
+        "lede": "Maksua ei veloitettu. Voit yrittää uudelleen milloin tahansa.",
+        "heading": "Maksu peruutettu"
       },
       "download": {
         "demoTitle": "Paikallinen maksutesti onnistui.",
@@ -609,11 +619,6 @@
     },
     "usa250Page": {
       "category": "USA 250 vuotta"
-    },
-    "notFound": {
-      "heading": "Sivua ei löytynyt",
-      "message": "Valitettavasti etsimääsi sivua ei löytynyt. Se on saatettu siirtää tai poistaa.",
-      "categoriesHeading": "Suositut kategoriat"
     }
   }
 }

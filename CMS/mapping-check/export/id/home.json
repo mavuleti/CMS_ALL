@@ -350,7 +350,13 @@
       "privacy": "Pribadi",
       "terms": "Ketentuan",
       "sitemap": "Peta Situs",
-      "copyright": "© {year} DotToDotFreePrintables.com · Aktivitas cetak gratis untuk anak-anak"
+      "copyright": "© {year} DotToDotFreePrintables.com · Aktivitas cetak gratis untuk anak-anak",
+      "hubAges46": "Usia 4-6",
+      "hubAges79": "Usia 7-9",
+      "hubAges912": "Usia 9-12",
+      "hubDifficultyMedium": "Teka-teki Sedang",
+      "hubDifficultyHard": "Teka-teki Sulit",
+      "hubNavLabel": "Jelajahi berdasarkan usia atau tingkat kesulitan"
     },
     "common": {
       "home": "Rumah",
@@ -463,7 +469,9 @@
         "pdfBook": "BUKU PDF",
         "bookTitle": "Terbaik 2026",
         "puzzleCount": "25 teka-teki hubungkan titik",
-        "viewBook": "Lihat buku"
+        "viewBook": "Lihat buku",
+        "advertisementAria": "Iklan: buku aktivitas hubungkan titik Best of 2026",
+        "viewPackAria": "Lihat paket teka-teki hubungkan titik Best of 2026"
       },
       "shared": {
         "specialSale": "PENAWARAN KHUSUS",
@@ -493,9 +501,9 @@
           "classroomUse": "Dapat digunakan di rumah atau di satu kelas"
         },
         "guaranteeText": "Setelah checkout, tautan unduhan pribadi Anda langsung muncul. Tanpa langganan dan tanpa perpanjangan tak terduga.",
-        "heading": "Lebih banyak puzzle. Lebih sedikit repot mencari. Semua dalam satu PDF praktis.",
-        "detailsHeading": "Semua yang dibutuhkan untuk keseruan tanpa layar",
-        "guaranteeHeading": "Mudah, aman, dan siap dalam hitungan menit"
+        "heading": "Lebih banyak teka-teki. Lebih sedikit pencarian. Semua dalam satu PDF yang praktis.",
+        "detailsHeading": "Semua yang Anda butuhkan untuk kesenangan tanpa layar",
+        "guaranteeHeading": "Sederhana, aman, dan siap dalam hitungan menit"
       },
       "checkout": {
         "consent": "Saya setuju dengan pengiriman langsung PDF digital ini dan memahami bahwa, setelah akses dimulai, pembelian ini bersifat final dan tidak dapat dikembalikan kecuali diwajibkan oleh hukum atau jika berkas tidak terkirim atau cacat.",
@@ -507,12 +515,14 @@
       "success": {
         "metaTitle": "Terima Kasih atas Pembelian Anda",
         "eyebrow": "Pembayaran dikonfirmasi",
-        "lede": "Pembayaran Anda berhasil. Mungkin butuh beberapa detik hingga pembelian Anda muncul di akun Anda."
+        "lede": "Pembayaran Anda berhasil. Mungkin butuh beberapa detik hingga pembelian Anda muncul di akun Anda.",
+        "heading": "Terima kasih! Pembelian Anda telah selesai."
       },
       "cancelled": {
         "metaTitle": "Checkout Dibatalkan",
         "eyebrow": "Tidak ada pembayaran yang dilakukan",
-        "lede": "Tidak ada biaya yang dikenakan. Anda dapat mencoba lagi kapan saja."
+        "lede": "Tidak ada biaya yang dikenakan. Anda dapat mencoba lagi kapan saja.",
+        "heading": "Pembayaran dibatalkan"
       },
       "download": {
         "demoTitle": "Uji coba checkout lokal berhasil.",
@@ -609,11 +619,6 @@
     },
     "usa250Page": {
       "category": "Peringatan 250 Tahun AS"
-    },
-    "notFound": {
-      "heading": "Halaman Tidak Ditemukan",
-      "message": "Maaf, kami tidak dapat menemukan halaman yang Anda cari. Mungkin telah dipindahkan atau dihapus.",
-      "categoriesHeading": "Kategori Populer"
     }
   }
 }

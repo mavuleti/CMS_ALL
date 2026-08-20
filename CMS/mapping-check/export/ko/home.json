@@ -350,7 +350,13 @@
       "privacy": "은둔",
       "terms": "자귀",
       "sitemap": "사이트맵",
-      "copyright": "© {year} DotToDotFreePrintables.com · 어린이를 위한 무료 인쇄용 활동지"
+      "copyright": "© {year} DotToDotFreePrintables.com · 어린이를 위한 무료 인쇄용 활동지",
+      "hubAges46": "4-6세",
+      "hubAges79": "7-9세",
+      "hubAges912": "9-12세",
+      "hubDifficultyMedium": "중간 난이도 퍼즐",
+      "hubDifficultyHard": "어려운 퍼즐",
+      "hubNavLabel": "연령 또는 난이도별로 찾아보기"
     },
     "common": {
       "home": "집",
@@ -407,7 +413,7 @@
         "Garden": "정원",
         "Cute": "귀여움",
         "USA 250 Years": "미국 건국 250주년",
-        "UAE": "아랍에미리트"
+        "UAE": "UAE"
       }
     },
     "newsletterForm": {
@@ -463,7 +469,9 @@
         "pdfBook": "PDF ?",
         "bookTitle": "2026년 최고의",
         "puzzleCount": "25개의 도트 대 도트 퍼즐",
-        "viewBook": "책 보기"
+        "viewBook": "책 보기",
+        "advertisementAria": "광고: Best of 2026 점 잇기 활동북",
+        "viewPackAria": "Best of 2026 점 잇기 퍼즐 팩 보기"
       },
       "shared": {
         "specialSale": "특별 세일",
@@ -493,9 +501,9 @@
           "classroomUse": "가정 또는 하나의 교실에서 사용 가능"
         },
         "guaranteeText": "결제가 완료되면 개인 다운로드 링크가 바로 나타납니다. 구독도, 예상치 못한 갱신도 없습니다.",
-        "heading": "더 많은 퍼즐, 더 적은 검색. 편리한 PDF 한 권에 모두 담았습니다.",
-        "detailsHeading": "스크린 없이 즐기는 재미, 이 안에 다 있어요",
-        "guaranteeHeading": "간편하고 안전하게, 몇 분 만에 준비 완료"
+        "heading": "더 많은 퍼즐. 더 적은 검색. 모든 것을 하나의 편리한 PDF로.",
+        "detailsHeading": "화면 없는 즐거움을 위한 모든 것",
+        "guaranteeHeading": "간단하고 안전하며 몇 분 안에 준비 완료"
       },
       "checkout": {
         "consent": "이 디지털 PDF가 즉시 제공되는 것에 동의하며, 접근이 시작된 후에는 법률상 요구되는 경우나 파일이 제공되지 않거나 결함이 있는 경우를 제외하고 판매가 최종적이며 환불이 불가능함을 이해합니다.",
@@ -507,12 +515,14 @@
       "success": {
         "metaTitle": "구매해 주셔서 감사합니다",
         "eyebrow": "결제 확인됨",
-        "lede": "결제가 성공적으로 완료되었습니다. 계정에 구매 내역이 표시되기까지 몇 초 정도 걸릴 수 있습니다."
+        "lede": "결제가 성공적으로 완료되었습니다. 계정에 구매 내역이 표시되기까지 몇 초 정도 걸릴 수 있습니다.",
+        "heading": "감사합니다! 구매가 완료되었습니다."
       },
       "cancelled": {
         "metaTitle": "결제가 취소되었습니다",
         "eyebrow": "결제되지 않음",
-        "lede": "결제된 금액이 없습니다. 언제든지 다시 시도하실 수 있습니다."
+        "lede": "결제된 금액이 없습니다. 언제든지 다시 시도하실 수 있습니다.",
+        "heading": "결제가 취소되었습니다"
       },
       "download": {
         "demoTitle": "로컬 결제 테스트를 통과했습니다.",
@@ -609,11 +619,6 @@
     },
     "usa250Page": {
       "category": "미국 250주년"
-    },
-    "notFound": {
-      "heading": "페이지를 찾을 수 없습니다",
-      "message": "죄송합니다. 찾으시는 페이지를 찾을 수 없습니다. 페이지가 이동되었거나 삭제되었을 수 있습니다.",
-      "categoriesHeading": "인기 카테고리"
     }
   }
 }

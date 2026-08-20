@@ -17,8 +17,7 @@ export default async function BestOf2026BookAd({ locale }: { locale: string }) {
         <span className="best-of-2026-book-ad__tag">{t('ad.pdfBook')}</span>
         <strong>{t('ad.bookTitle')}</strong>
         <span>{t('ad.puzzleCount')}</span>
-        <span className="best-of-2026-book-ad__sale">{t('shared.specialSale')}</span>
-        <b><del>$9.00</del> $5.00</b>
+        <b>$5.00</b>
         <span className="best-of-2026-book-ad__cta">{t('ad.viewBook')}</span>
       </Link>
     </aside>

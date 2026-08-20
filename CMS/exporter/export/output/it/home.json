@@ -161,7 +161,7 @@
           "description": "Schede per l'apprendimento della sequenza numerica, pronte per l'uso da parte degli insegnanti."
         },
         "bigDotBooks": {
-          "name": "Libri a puntini grandi",
+          "name": "Big Dot Books",
           "description": "Puzzle di lunga durata per studenti più grandi e concentrati."
         },
         "cute": {
@@ -350,7 +350,13 @@
       "privacy": "Privacy",
       "terms": "Informazioni",
       "sitemap": "Mappa del sito",
-      "copyright": "© {year} DotToDotFreePrintables.com · Attività stampabili gratuite per bambini"
+      "copyright": "© {year} DotToDotFreePrintables.com · Attività stampabili gratuite per bambini",
+      "hubAges46": "Età 4-6",
+      "hubAges79": "Età 7-9",
+      "hubAges912": "Età 9-12",
+      "hubDifficultyMedium": "Puzzle Medi",
+      "hubDifficultyHard": "Puzzle Difficili",
+      "hubNavLabel": "Sfoglia per età o difficoltà"
     },
     "common": {
       "home": "Casa",
@@ -463,7 +469,9 @@
         "pdfBook": "LIBRO PDF",
         "bookTitle": "Il meglio del 2026",
         "puzzleCount": "25 puzzle unisci i puntini",
-        "viewBook": "Vedi libro"
+        "viewBook": "Vedi libro",
+        "advertisementAria": "Pubblicità: libro di attività unisci i puntini Best of 2026",
+        "viewPackAria": "Vedi il pacchetto di puzzle unisci i puntini Best of 2026"
       },
       "shared": {
         "specialSale": "OFFERTA SPECIALE",
@@ -494,7 +502,7 @@
         },
         "guaranteeText": "Dopo il pagamento, il tuo link di download privato appare immediatamente. Nessun abbonamento e nessun rinnovo a sorpresa.",
         "heading": "Più puzzle. Meno ricerche. Tutto in un comodo PDF.",
-        "detailsHeading": "Tutto il necessario per divertirsi lontano dagli schermi",
+        "detailsHeading": "Tutto ciò che serve per divertirsi senza schermi",
         "guaranteeHeading": "Semplice, sicuro e pronto in pochi minuti"
       },
       "checkout": {
@@ -507,12 +515,14 @@
       "success": {
         "metaTitle": "Grazie per il tuo acquisto",
         "eyebrow": "Pagamento confermato",
-        "lede": "Il pagamento è andato a buon fine. Potrebbero volerci alcuni secondi prima che l'acquisto compaia nel tuo account."
+        "lede": "Il pagamento è andato a buon fine. Potrebbero volerci alcuni secondi prima che l'acquisto compaia nel tuo account.",
+        "heading": "Grazie! Il tuo acquisto è completato."
       },
       "cancelled": {
         "metaTitle": "Pagamento annullato",
         "eyebrow": "Nessun addebito effettuato",
-        "lede": "Non è stato effettuato alcun addebito. Puoi riprovare in qualsiasi momento."
+        "lede": "Non è stato effettuato alcun addebito. Puoi riprovare in qualsiasi momento.",
+        "heading": "Pagamento annullato"
       },
       "download": {
         "demoTitle": "Test di pagamento locale superato.",
@@ -609,11 +619,6 @@
     },
     "usa250Page": {
       "category": "250° anniversario degli Stati Uniti"
-    },
-    "notFound": {
-      "heading": "Pagina non trovata",
-      "message": "Siamo spiacenti, non siamo riusciti a trovare la pagina che cercavi. Potrebbe essere stata spostata o rimossa.",
-      "categoriesHeading": "Categorie popolari"
     }
   }
 }

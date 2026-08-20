@@ -350,7 +350,13 @@
       "privacy": "Magánélet",
       "terms": "Feltételek",
       "sitemap": "Oldaltérkép",
-      "copyright": "© {year} DotToDotFreePrintables.com · Ingyenesen nyomtatható tevékenységek gyerekeknek"
+      "copyright": "© {year} DotToDotFreePrintables.com · Ingyenesen nyomtatható tevékenységek gyerekeknek",
+      "hubAges46": "4-6 Éves",
+      "hubAges79": "7-9 Éves",
+      "hubAges912": "9-12 Éves",
+      "hubDifficultyMedium": "Közepes Feladványok",
+      "hubDifficultyHard": "Nehéz Feladványok",
+      "hubNavLabel": "Böngészés életkor vagy nehézség szerint"
     },
     "common": {
       "home": "Otthon",
@@ -433,7 +439,7 @@
       },
       "messageLabel": "Az üzeneted",
       "messagePlaceholder": "Mondd el a véleményed...",
-      "emailLabel": "E-mail",
+      "emailLabel": "Email",
       "emailOptional": "(opcionális - csak akkor, ha választ szeretne kapni)",
       "submit": "Visszajelzés küldése",
       "success": "Köszönjük. Visszajelzését elküldtük.",
@@ -463,7 +469,9 @@
         "pdfBook": "PDF KÖNYV",
         "bookTitle": "2026 legjobbjai",
         "puzzleCount": "25 pontról pontra rejtvény",
-        "viewBook": "Könyv megtekintése"
+        "viewBook": "Könyv megtekintése",
+        "advertisementAria": "Hirdetés: Best of 2026 pontösszekötős foglalkoztatókönyv",
+        "viewPackAria": "Best of 2026 pontösszekötő rejtvénycsomag megtekintése"
       },
       "shared": {
         "specialSale": "Különleges akció",
@@ -493,9 +501,9 @@
           "classroomUse": "Otthon vagy egyetlen tanteremben használható"
         },
         "guaranteeText": "A fizetés után azonnal megjelenik a privát letöltési linked. Nincs előfizetés, és nincs meglepetésszerű megújítás.",
-        "heading": "Több feladvány. Kevesebb keresgélés. Minden egy kényelmes PDF-ben.",
+        "heading": "Több rejtvény. Kevesebb keresgélés. Minden egy kényelmes PDF-ben.",
         "detailsHeading": "Minden, ami a képernyőmentes szórakozáshoz kell",
-        "guaranteeHeading": "Egyszerű, biztonságos, és percek alatt kész"
+        "guaranteeHeading": "Egyszerű, biztonságos és percek alatt kész"
       },
       "checkout": {
         "consent": "Elfogadom ennek a digitális PDF-nek az azonnali kézbesítését, és tudomásul veszem, hogy a hozzáférés megkezdését követően a vásárlás végleges és nem visszatéríthető, kivéve, ha ezt jogszabály írja elő, vagy ha a fájlt nem kézbesítik, illetve az hibás.",
@@ -507,12 +515,14 @@
       "success": {
         "metaTitle": "Köszönjük a vásárlást",
         "eyebrow": "Fizetés megerősítve",
-        "lede": "A fizetés sikeres volt. Előfordulhat, hogy néhány másodpercbe telik, amíg a vásárlás megjelenik a fiókodban."
+        "lede": "A fizetés sikeres volt. Előfordulhat, hogy néhány másodpercbe telik, amíg a vásárlás megjelenik a fiókodban.",
+        "heading": "Köszönjük! A vásárlása sikeresen megtörtént."
       },
       "cancelled": {
         "metaTitle": "Fizetés megszakítva",
         "eyebrow": "Nem történt terhelés",
-        "lede": "Nem történt terhelés. Bármikor újra megpróbálhatod."
+        "lede": "Nem történt terhelés. Bármikor újra megpróbálhatod.",
+        "heading": "A fizetés megszakítva"
       },
       "download": {
         "demoTitle": "A helyi fizetési teszt sikeres volt.",
@@ -609,11 +619,6 @@
     },
     "usa250Page": {
       "category": "USA 250. évfordulója"
-    },
-    "notFound": {
-      "heading": "Az oldal nem található",
-      "message": "Sajnáljuk, nem találtuk meg a keresett oldalt. Lehet, hogy áthelyezték vagy törölték.",
-      "categoriesHeading": "Népszerű kategóriák"
     }
   }
 }

@@ -5,7 +5,7 @@ import { getAllPuzzles } from '@/lib/category-registry';
 import { getAgeRange } from '@/lib/age';
 import { routing } from '@/i18n/routing';
 import { AGE_HUBS, getAgeHubText } from '@/lib/hub-content';
-import { SITE_NAME, buildAlternates } from '@/lib/seo';
+import { SITE_NAME, absoluteUrl, buildAlternates } from '@/lib/seo';
 import HubTemplate, { hubJsonLd } from '@/components/templates/HubTemplate';
 
 export type AgeHubRouteProps = { params: Promise<{ locale: string; range: string }> };
@@ -30,12 +30,13 @@ export async function generateMetadata({ params }: AgeHubRouteProps): Promise<Me
   const text = getAgeHubText(locale, range);
   if (!text) return {};
   const path = `/ages/${hub.range}/`;
+  const ogImage = { url: absoluteUrl('/images/trex-61-puzzle.webp'), width: 1401, height: 1123, alt: text.h1 };
   return {
     title: text.seoTitle,
     description: text.seoDescription,
     alternates: buildAlternates(locale, path),
-    openGraph: { title: text.seoTitle, description: text.seoDescription, url: `/${locale}${path}`, siteName: SITE_NAME, type: 'website' },
-    twitter: { card: 'summary', title: text.seoTitle, description: text.seoDescription }
+    openGraph: { title: text.seoTitle, description: text.seoDescription, url: `/${locale}${path}`, siteName: SITE_NAME, type: 'website', images: [ogImage] },
+    twitter: { card: 'summary_large_image', title: text.seoTitle, description: text.seoDescription, images: [ogImage.url] }
   };
 }
 

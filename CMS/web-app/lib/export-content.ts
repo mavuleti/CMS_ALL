@@ -114,11 +114,40 @@ function inferredPuzzlePdf(image: string, collectionSlug: string): string | unde
   return undefined;
 }
 
-function normalizePuzzle(document: any, collectionSlug: string): Puzzle {
+// Dot count is structural, locale-invariant data (the same puzzle has the
+// same number of dots in every language) but numberFrom() only finds it by
+// matching the literal word "dot(s)"/"نقطة" next to the number in the
+// locale's own translated title/description. Most non-English, non-Arabic
+// locales phrase that differently (German "Punkte", French "points", ...),
+// so the regex finds nothing there and every puzzle silently got dots: 0 —
+// breaking difficulty badges, hub-page tier assignment, and cross-tier
+// links for every such locale. Fall back to the English document's dot
+// count (same slug) rather than leaving it at 0.
+let englishDotsBySlug: Map<string, number> | null = null;
+function englishDotsFor(slug: string): number | undefined {
+  if (!englishDotsBySlug) {
+    englishDotsBySlug = new Map();
+    const dir = exportDir('en');
+    if (fs.existsSync(dir)) {
+      for (const filename of fs.readdirSync(dir).filter((f) => /^puzzles-.+\.json$/.test(f))) {
+        const source = JSON.parse(fs.readFileSync(path.join(dir, filename), 'utf8'));
+        for (const puzzle of source.puzzles ?? []) {
+          const body = puzzle.body ?? {};
+          const header = puzzle.header ?? {};
+          const dots = numberFrom(body.h1, header.title, body.description);
+          if (dots) englishDotsBySlug.set(puzzle.slug, dots);
+        }
+      }
+    }
+  }
+  return englishDotsBySlug.get(slug);
+}
+
+function normalizePuzzle(document: any, collectionSlug: string, locale: string): Puzzle {
   const body = document.body ?? {};
   const header = document.header ?? {};
   const guide = body.dot_guide ?? {};
-  const dots = numberFrom(body.h1, header.title, body.description);
+  const dots = numberFrom(body.h1, header.title, body.description) ?? (locale !== 'en' ? englishDotsFor(document.slug) : undefined);
   const image = body.assets?.image
     ?? body.image
     ?? header.json_ld?.image
@@ -171,7 +200,7 @@ function readCollection(filename: string, locale: string): Collection {
     body,
     puzzles: source.puzzles
       .filter((puzzle: any) => !isDummyPlaceholder(puzzle))
-      .map((puzzle: any) => normalizePuzzle(puzzle, body.slug ?? fallbackSlug))
+      .map((puzzle: any) => normalizePuzzle(puzzle, body.slug ?? fallbackSlug, locale))
   };
 }
 

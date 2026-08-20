@@ -138,8 +138,7 @@ export default function FloatingShare({ shareUrl = '', shareTitle = 'DotToDotFre
       <span className="floating-book-ad__tag">{tp('ad.pdfBook')}</span>
       <strong>{tp('ad.bookTitle')}</strong>
       <span>{tp('ad.packName')}</span>
-      <span className="floating-book-ad__sale">{tp('shared.specialSale')}</span>
-      <b className="sale-price"><del>$9.00</del><span>$5.00</span></b>
+      <b className="sale-price"><span>$5.00</span></b>
       <span className="floating-book-ad__cta">{tp('ad.viewBook')}</span>
     </Link>}
     </>

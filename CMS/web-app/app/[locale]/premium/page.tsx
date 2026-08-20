@@ -50,15 +50,15 @@ export default async function PremiumPage({ params }: Props) {
             </div>
             <div className="premium-price-row">
               <div className="premium-sale-price">
-                <span className="premium-sale-label">{t('shared.specialSale')}</span>
-                <del>$9.00</del>
                 <span className="premium-price">$5.00</span>
                 <span className="premium-once"> {t('premium.oneTime')}</span>
               </div>
               <span className="premium-format">{'PDF'}</span>
             </div>
             <BuyButton productId="premium-puzzle-pack" locale={locale} label={t('premium.buyButton')} />
-            <p className="local-test-note">{t('premium.localNote')}</p>
+            {process.env.NODE_ENV !== 'production' && (
+              <p className="local-test-note">{t('premium.localNote')}</p>
+            )}
           </aside>
         </section>
         <section className="premium-details" aria-labelledby="included-title">

@@ -7,6 +7,7 @@ export type CommonPuzzle = {
   age: string; dots: number; difficulty: 1 | 2 | 3; image: string; pdf: string;
   isNew?: boolean; seoTitle?: string; seoH1?: string; seoDescription?: string; seoOgTitle?: string; seoOgDescription?: string; seoImageAlt?: string;
   dotGuide?: any; faqs?: any[]; header?: any;
+  exampleCompleted?: { imageTitle: string; caption: string };
 };
 
 export type CategoryConfig = {
@@ -48,7 +49,10 @@ function toCommonPuzzle(puzzle: ExportPuzzle): CommonPuzzle {
     seoImageAlt: puzzle.header?.og?.image_alt,
     dotGuide: { ...(puzzle.body?.dot_guide ?? {}), sections: puzzle.sections, colorSchemes: puzzle.colorSchemes },
     faqs: Array.isArray(puzzle.body?.faqs) ? puzzle.body.faqs : [],
-    header: puzzle.header
+    header: puzzle.header,
+    exampleCompleted: puzzle.body?.example_completed
+      ? { imageTitle: puzzle.body.example_completed.image_title, caption: puzzle.body.example_completed.caption }
+      : undefined
   };
 }
 

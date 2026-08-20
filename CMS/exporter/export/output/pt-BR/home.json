@@ -350,7 +350,13 @@
       "privacy": "Privacidade",
       "terms": "Termos",
       "sitemap": "Mapa do site",
-      "copyright": "© {year} DotToDotFreePrintables.com · Atividades imprimíveis gratuitas para crianças"
+      "copyright": "© {year} DotToDotFreePrintables.com · Atividades imprimíveis gratuitas para crianças",
+      "hubAges46": "Idades 4-6",
+      "hubAges79": "Idades 7-9",
+      "hubAges912": "Idades 9-12",
+      "hubDifficultyMedium": "Atividades Médias",
+      "hubDifficultyHard": "Atividades Difíceis",
+      "hubNavLabel": "Navegar por idade ou dificuldade"
     },
     "common": {
       "home": "Lar",
@@ -403,7 +409,7 @@
       "categories": {
         "Dinosaurs": "Dinossauros",
         "Ocean": "Oceano",
-        "Playgrounds": "Parques infantis",
+        "Playgrounds": "Playgrounds",
         "Garden": "Jardim",
         "Cute": "Fofo",
         "USA 250 Years": "EUA 250 anos",
@@ -463,7 +469,9 @@
         "pdfBook": "LIVRO PDF",
         "bookTitle": "O melhor de 2026",
         "puzzleCount": "25 quebra-cabeças ponto a ponto",
-        "viewBook": "Ver livro"
+        "viewBook": "Ver livro",
+        "advertisementAria": "Anúncio: livro de atividades de ligar pontos Best of 2026",
+        "viewPackAria": "Ver o pacote de quebra-cabeças de ligar pontos Best of 2026"
       },
       "shared": {
         "specialSale": "OFERTA ESPECIAL",
@@ -493,8 +501,8 @@
           "classroomUse": "Pode ser usado em casa ou em uma sala de aula"
         },
         "guaranteeText": "Depois da compra, seu link de download privado aparece na hora. Sem assinatura e sem renovação surpresa.",
-        "heading": "Mais quebra-cabeças. Menos busca. Tudo em um único PDF prático.",
-        "detailsHeading": "Tudo o que você precisa para se divertir longe das telas",
+        "heading": "Mais quebra-cabeças. Menos busca. Tudo em um PDF conveniente.",
+        "detailsHeading": "Tudo o que você precisa para diversão sem telas",
         "guaranteeHeading": "Simples, seguro e pronto em minutos"
       },
       "checkout": {
@@ -507,12 +515,14 @@
       "success": {
         "metaTitle": "Obrigado pela sua compra",
         "eyebrow": "Pagamento confirmado",
-        "lede": "Seu pagamento foi aprovado. Pode levar alguns segundos até a compra aparecer na sua conta."
+        "lede": "Seu pagamento foi aprovado. Pode levar alguns segundos até a compra aparecer na sua conta.",
+        "heading": "Obrigado! Sua compra foi concluída."
       },
       "cancelled": {
         "metaTitle": "Checkout cancelado",
         "eyebrow": "Nenhum pagamento realizado",
-        "lede": "Nenhuma cobrança foi feita. Você pode tentar novamente quando quiser."
+        "lede": "Nenhuma cobrança foi feita. Você pode tentar novamente quando quiser.",
+        "heading": "Pagamento cancelado"
       },
       "download": {
         "demoTitle": "Teste de checkout local concluído com sucesso.",
@@ -609,11 +619,6 @@
     },
     "usa250Page": {
       "category": "250º aniversário dos EUA"
-    },
-    "notFound": {
-      "heading": "Página não encontrada",
-      "message": "Desculpe, não conseguimos encontrar a página que você procurava. Ela pode ter sido movida ou removida.",
-      "categoriesHeading": "Categorias populares"
     }
   }
 }

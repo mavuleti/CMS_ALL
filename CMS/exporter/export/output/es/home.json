@@ -350,7 +350,13 @@
       "privacy": "Privacidad",
       "terms": "Términos",
       "sitemap": "Mapa del sitio",
-      "copyright": "© {year} DotToDotFreePrintables.com · Actividades imprimibles gratuitas para niños"
+      "copyright": "© {year} DotToDotFreePrintables.com · Actividades imprimibles gratuitas para niños",
+      "hubAges46": "Edades 4-6",
+      "hubAges79": "Edades 7-9",
+      "hubAges912": "Edades 9-12",
+      "hubDifficultyMedium": "Puzles Medios",
+      "hubDifficultyHard": "Puzles Difíciles",
+      "hubNavLabel": "Explorar por edad o dificultad"
     },
     "common": {
       "home": "Hogar",
@@ -463,7 +469,9 @@
         "pdfBook": "LIBRO PDF",
         "bookTitle": "Lo mejor de 2026",
         "puzzleCount": "25 puzzles de unir puntos",
-        "viewBook": "Ver libro"
+        "viewBook": "Ver libro",
+        "advertisementAria": "Anuncio: libro de actividades de unir puntos Best of 2026",
+        "viewPackAria": "Ver el paquete de puzles de unir puntos Best of 2026"
       },
       "shared": {
         "specialSale": "OFERTA ESPECIAL",
@@ -493,7 +501,7 @@
           "classroomUse": "Úsalo en casa o en un aula"
         },
         "guaranteeText": "Tras completar la compra, tu enlace de descarga privado aparece de inmediato. Sin suscripción y sin renovaciones sorpresa.",
-        "heading": "Más puzles. Menos búsquedas. Todo en un práctico PDF.",
+        "heading": "Más rompecabezas. Menos búsquedas. Todo en un práctico PDF.",
         "detailsHeading": "Todo lo que necesitas para divertirte sin pantallas",
         "guaranteeHeading": "Sencillo, seguro y listo en minutos"
       },
@@ -507,12 +515,14 @@
       "success": {
         "metaTitle": "Gracias por tu compra",
         "eyebrow": "Pago confirmado",
-        "lede": "Tu pago se realizó correctamente. Puede tardar unos segundos en aparecer en tu cuenta."
+        "lede": "Tu pago se realizó correctamente. Puede tardar unos segundos en aparecer en tu cuenta.",
+        "heading": "¡Gracias! Tu compra se ha completado."
       },
       "cancelled": {
         "metaTitle": "Compra cancelada",
         "eyebrow": "No se realizó ningún cargo",
-        "lede": "No se realizó ningún cargo. Puedes intentarlo de nuevo cuando quieras."
+        "lede": "No se realizó ningún cargo. Puedes intentarlo de nuevo cuando quieras.",
+        "heading": "Pago cancelado"
       },
       "download": {
         "demoTitle": "La prueba de compra local se superó correctamente.",
@@ -609,11 +619,6 @@
     },
     "usa250Page": {
       "category": "Estados Unidos 250 Aniversario"
-    },
-    "notFound": {
-      "heading": "Página no encontrada",
-      "message": "Lo sentimos, no pudimos encontrar la página que buscabas. Puede que se haya movido o eliminado.",
-      "categoriesHeading": "Categorías populares"
     }
   }
 }

@@ -350,7 +350,13 @@
       "privacy": "Soukromí",
       "terms": "Podmínky",
       "sitemap": "Mapa stránek",
-      "copyright": "© {year} DotToDotFreePrintables.com · Aktivity pro děti k vytisknutí zdarma"
+      "copyright": "© {year} DotToDotFreePrintables.com · Aktivity pro děti k vytisknutí zdarma",
+      "hubAges46": "Věk 4-6",
+      "hubAges79": "Věk 7-9",
+      "hubAges912": "Věk 9-12",
+      "hubDifficultyMedium": "Střední skládačky",
+      "hubDifficultyHard": "Těžké skládačky",
+      "hubNavLabel": "Procházet podle věku nebo obtížnosti"
     },
     "common": {
       "home": "Domov",
@@ -463,7 +469,9 @@
         "pdfBook": "KNIHA PDF",
         "bookTitle": "Nejlepší z roku 2026",
         "puzzleCount": "25 hádanek typu tečka k tečce",
-        "viewBook": "Zobrazit knihu"
+        "viewBook": "Zobrazit knihu",
+        "advertisementAria": "Reklama: aktivitní kniha Best of 2026 spoj čísla",
+        "viewPackAria": "Zobrazit balíček puzzle Best of 2026 spoj čísla"
       },
       "shared": {
         "specialSale": "Speciální prodej",
@@ -507,12 +515,14 @@
       "success": {
         "metaTitle": "Děkujeme za váš nákup",
         "eyebrow": "Platba potvrzena",
-        "lede": "Vaše platba byla úspěšná. Zobrazení nákupu ve vašem účtu může trvat několik sekund."
+        "lede": "Vaše platba byla úspěšná. Zobrazení nákupu ve vašem účtu může trvat několik sekund.",
+        "heading": "Děkujeme! Váš nákup je dokončen."
       },
       "cancelled": {
         "metaTitle": "Platba zrušena",
         "eyebrow": "Žádná platba nebyla provedena",
-        "lede": "Nebyl účtován žádný poplatek. Můžete to kdykoli zkusit znovu."
+        "lede": "Nebyl účtován žádný poplatek. Můžete to kdykoli zkusit znovu.",
+        "heading": "Platba byla zrušena"
       },
       "download": {
         "demoTitle": "Místní test pokladny byl úspěšný.",
@@ -609,11 +619,6 @@
     },
     "usa250Page": {
       "category": "250. výročí USA"
-    },
-    "notFound": {
-      "heading": "Stránka nenalezena",
-      "message": "Omlouváme se, stránku, kterou hledáte, se nepodařilo najít. Možná byla přesunuta nebo odstraněna.",
-      "categoriesHeading": "Oblíbené kategorie"
     }
   }
 }

@@ -49,7 +49,7 @@
       "teachers": "Professores",
       "parents": "Pais",
       "contact": "Contate-nos",
-      "blog": "Blogue",
+      "blog": "Blog",
       "search": "Pesquisa",
       "freePack": "Pacote grátis",
       "scanMe": "Escaneie-me"
@@ -342,15 +342,21 @@
       "kids": "Miúdos",
       "parents": "Pais",
       "teachers": "Professores",
-      "blog": "Blogue",
+      "blog": "Blog",
       "faq": "Perguntas frequentes",
-      "feedback": "Comentários",
+      "feedback": "Feedback",
       "about": "Sobre",
       "contact": "Contacto",
       "privacy": "Privacidade",
       "terms": "Termos",
       "sitemap": "Mapa do site",
-      "copyright": "© {year} DotToDotFreePrintables.com · Atividades imprimíveis gratuitas para crianças"
+      "copyright": "© {year} DotToDotFreePrintables.com · Atividades imprimíveis gratuitas para crianças",
+      "hubAges46": "Idades 4-6",
+      "hubAges79": "Idades 7-9",
+      "hubAges912": "Idades 9-12",
+      "hubDifficultyMedium": "Puzzles Médios",
+      "hubDifficultyHard": "Puzzles Difíceis",
+      "hubNavLabel": "Explorar por idade ou dificuldade"
     },
     "common": {
       "home": "Casa",
@@ -463,7 +469,9 @@
         "pdfBook": "LIVRO PDF",
         "bookTitle": "O melhor de 2026",
         "puzzleCount": "25 puzzles liga os pontos",
-        "viewBook": "Ver livro"
+        "viewBook": "Ver livro",
+        "advertisementAria": "Anúncio: livro de atividades de unir pontos Best of 2026",
+        "viewPackAria": "Ver o pacote de puzzles de unir pontos Best of 2026"
       },
       "shared": {
         "specialSale": "OFERTA ESPECIAL",
@@ -493,7 +501,7 @@
           "classroomUse": "Pode ser usado em casa ou numa única sala de aula"
         },
         "guaranteeText": "Após a compra, o seu link privado de download aparece de imediato. Sem subscrição e sem renovações surpresa.",
-        "heading": "Mais puzzles. Menos procura. Tudo num único PDF prático.",
+        "heading": "Mais puzzles. Menos procura. Tudo num PDF conveniente.",
         "detailsHeading": "Tudo o que precisa para diversão sem ecrãs",
         "guaranteeHeading": "Simples, seguro e pronto em minutos"
       },
@@ -507,12 +515,14 @@
       "success": {
         "metaTitle": "Obrigado pela sua compra",
         "eyebrow": "Pagamento confirmado",
-        "lede": "O seu pagamento foi bem-sucedido. Pode demorar alguns segundos até a compra aparecer na sua conta."
+        "lede": "O seu pagamento foi bem-sucedido. Pode demorar alguns segundos até a compra aparecer na sua conta.",
+        "heading": "Obrigado! A sua compra está concluída."
       },
       "cancelled": {
         "metaTitle": "Pagamento cancelado",
         "eyebrow": "Nenhum pagamento efetuado",
-        "lede": "Não foi feita qualquer cobrança. Pode tentar novamente a qualquer momento."
+        "lede": "Não foi feita qualquer cobrança. Pode tentar novamente a qualquer momento.",
+        "heading": "Pagamento cancelado"
       },
       "download": {
         "demoTitle": "Teste de pagamento local concluído com sucesso.",
@@ -609,11 +619,6 @@
     },
     "usa250Page": {
       "category": "250º aniversário dos EUA"
-    },
-    "notFound": {
-      "heading": "Página não encontrada",
-      "message": "Lamentamos, não conseguimos encontrar a página que procurava. Pode ter sido movida ou removida.",
-      "categoriesHeading": "Categorias populares"
     }
   }
 }

@@ -350,7 +350,13 @@
       "privacy": "Prywatność",
       "terms": "Warunki",
       "sitemap": "Mapa witryny",
-      "copyright": "© {year} DotToDotFreePrintables.com · Bezpłatne materiały do ​​wydrukowania dla dzieci"
+      "copyright": "© {year} DotToDotFreePrintables.com · Bezpłatne materiały do ​​wydrukowania dla dzieci",
+      "hubAges46": "Wiek 4-6",
+      "hubAges79": "Wiek 7-9",
+      "hubAges912": "Wiek 9-12",
+      "hubDifficultyMedium": "Średnie Zagadki",
+      "hubDifficultyHard": "Trudne Zagadki",
+      "hubNavLabel": "Przeglądaj według wieku lub trudności"
     },
     "common": {
       "home": "Dom",
@@ -463,7 +469,9 @@
         "pdfBook": "KSIĄŻKA PDF",
         "bookTitle": "Najlepsze z 2026 roku",
         "puzzleCount": "25 łamigłówek od kropki do kropki",
-        "viewBook": "Zobacz książkę"
+        "viewBook": "Zobacz książkę",
+        "advertisementAria": "Reklama: książka aktywności łącz kropki Best of 2026",
+        "viewPackAria": "Zobacz pakiet łamigłówek łącz kropki Best of 2026"
       },
       "shared": {
         "specialSale": "OFERTA SPECJALNA",
@@ -494,8 +502,8 @@
         },
         "guaranteeText": "Po zakupie od razu pojawia się Twój prywatny link do pobrania. Bez subskrypcji i bez niespodziewanego odnowienia.",
         "heading": "Więcej łamigłówek. Mniej szukania. Wszystko w jednym wygodnym pliku PDF.",
-        "detailsHeading": "Wszystko, czego potrzeba do zabawy bez ekranu",
-        "guaranteeHeading": "Prosto, bezpiecznie i gotowe w kilka minut"
+        "detailsHeading": "Wszystko, czego potrzebujesz do zabawy bez ekranu",
+        "guaranteeHeading": "Proste, bezpieczne i gotowe w kilka minut"
       },
       "checkout": {
         "consent": "Zgadzam się na natychmiastowe dostarczenie tego cyfrowego pliku PDF i rozumiem, że po rozpoczęciu dostępu zakup jest ostateczny i niepodlegający zwrotowi, chyba że wymaga tego prawo lub gdy plik nie zostanie dostarczony bądź jest wadliwy.",
@@ -507,12 +515,14 @@
       "success": {
         "metaTitle": "Dziękujemy za zakup",
         "eyebrow": "Płatność potwierdzona",
-        "lede": "Twoja płatność zakończyła się powodzeniem. Wyświetlenie zakupu na Twoim koncie może zająć kilka sekund."
+        "lede": "Twoja płatność zakończyła się powodzeniem. Wyświetlenie zakupu na Twoim koncie może zająć kilka sekund.",
+        "heading": "Dziękujemy! Twój zakup został zakończony."
       },
       "cancelled": {
         "metaTitle": "Płatność anulowana",
         "eyebrow": "Nie pobrano żadnej opłaty",
-        "lede": "Nie pobrano żadnej opłaty. Możesz spróbować ponownie w dowolnym momencie."
+        "lede": "Nie pobrano żadnej opłaty. Możesz spróbować ponownie w dowolnym momencie.",
+        "heading": "Płatność anulowana"
       },
       "download": {
         "demoTitle": "Lokalny test płatności zakończony powodzeniem.",
@@ -609,11 +619,6 @@
     },
     "usa250Page": {
       "category": "USA 250. rocznica"
-    },
-    "notFound": {
-      "heading": "Nie znaleziono strony",
-      "message": "Przepraszamy, nie mogliśmy znaleźć szukanej strony. Mogła zostać przeniesiona lub usunięta.",
-      "categoriesHeading": "Popularne kategorie"
     }
   }
 }

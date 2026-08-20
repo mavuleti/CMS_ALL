@@ -350,7 +350,13 @@
       "privacy": "Məxfilik siyasəti",
       "terms": "İstifadə şərtləri",
       "sitemap": "Saytın xəritəsi",
-      "copyright": "© {year} DotToDotFreePrintables.com · Uşaqlar üçün pulsuz çap edilə bilən fəaliyyətlər"
+      "copyright": "© {year} DotToDotFreePrintables.com · Uşaqlar üçün pulsuz çap edilə bilən fəaliyyətlər",
+      "hubAges46": "Yaş 4-6",
+      "hubAges79": "Yaş 7-9",
+      "hubAges912": "Yaş 9-12",
+      "hubDifficultyMedium": "Orta Tapmacalar",
+      "hubDifficultyHard": "Çətin Tapmacalar",
+      "hubNavLabel": "Yaşa və ya çətinlik dərəcəsinə görə gəzin"
     },
     "common": {
       "home": "Ev",
@@ -463,7 +469,9 @@
         "pdfBook": "PDF KİTAB",
         "bookTitle": "2026-nın ən yaxşıları",
         "puzzleCount": "25 Nöqtədən Nöqtəyə Tapmaca",
-        "viewBook": "Kitaba bax"
+        "viewBook": "Kitaba bax",
+        "advertisementAria": "Reklam: Best of 2026 nöqtədən-nöqtəyə fəaliyyət kitabı",
+        "viewPackAria": "Best of 2026 nöqtədən-nöqtəyə tapmaca paketinə baxın"
       },
       "shared": {
         "specialSale": "Xüsusi endirim",
@@ -507,12 +515,14 @@
       "success": {
         "metaTitle": "Alışınız üçün təşəkkürlər",
         "eyebrow": "Ödəniş təsdiqləndi",
-        "lede": "Ödənişiniz uğurlu oldu. Alışınızın hesabınızda görünməsi bir neçə saniyə çəkə bilər."
+        "lede": "Ödənişiniz uğurlu oldu. Alışınızın hesabınızda görünməsi bir neçə saniyə çəkə bilər.",
+        "heading": "Təşəkkürlər! Alışınız tamamlandı."
       },
       "cancelled": {
         "metaTitle": "Ödəniş ləğv edildi",
         "eyebrow": "Ödəniş alınmadı",
-        "lede": "Heç bir ödəniş edilmədi. İstənilən vaxt yenidən cəhd edə bilərsiniz."
+        "lede": "Heç bir ödəniş edilmədi. İstənilən vaxt yenidən cəhd edə bilərsiniz.",
+        "heading": "Ödəniş ləğv edildi"
       },
       "download": {
         "demoTitle": "Yerli ödəniş testi keçdi.",
@@ -609,11 +619,6 @@
     },
     "usa250Page": {
       "category": "ABŞ-ın 250 illik yubileyi"
-    },
-    "notFound": {
-      "heading": "Səhifə Tapılmadı",
-      "message": "Üzr istəyirik, axtardığınız səhifəni tapa bilmədik. O, silinmiş və ya adı dəyişdirilmiş ola bilər.",
-      "categoriesHeading": "Populyar Kateqoriyalar"
     }
   }
 }
