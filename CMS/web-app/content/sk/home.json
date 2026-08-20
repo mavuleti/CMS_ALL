@@ -109,7 +109,8 @@
         "usa250": "Nové!",
         "uae": "Teraz k dispozícii!",
         "cute": "Nové!",
-        "circus": "Nové!"
+        "circus": "Nové!",
+        "planes": "Nové!"
       },
       "items": {
         "dinosaurs": {
@@ -171,6 +172,10 @@
         "circus": {
           "name": "Cirkus",
           "description": "Majitelia arény, veľké stany a zábava na predstaveniach pre mladých žiakov."
+        },
+        "planes": {
+          "name": "Lietadlá",
+          "description": "Stíhačky, súkromné lietadlá, papierové lietadielka a klzáky pre malých leteckých nadšencov."
         }
       }
     },
@@ -350,7 +355,13 @@
       "privacy": "Súkromie",
       "terms": "Podmienky",
       "sitemap": "Mapa stránok",
-      "copyright": "© {year} DotToDotFreePrintables.com · Bezplatné tlačiteľné aktivity pre deti"
+      "copyright": "© {year} DotToDotFreePrintables.com · Bezplatné tlačiteľné aktivity pre deti",
+      "hubAges46": "Vek 4-6",
+      "hubAges79": "Vek 7-9",
+      "hubAges912": "Vek 9-12",
+      "hubDifficultyMedium": "Stredné Skladačky",
+      "hubDifficultyHard": "Ťažké Skladačky",
+      "hubNavLabel": "Prehľadávať podľa veku alebo náročnosti"
     },
     "common": {
       "home": "Domov",
@@ -463,7 +474,9 @@
         "pdfBook": "PDF KNIHA",
         "bookTitle": "Najlepšie z roku 2026",
         "puzzleCount": "25 hádaniek od bodky po bodku",
-        "viewBook": "Zobrazi? knihu"
+        "viewBook": "Zobrazi? knihu",
+        "advertisementAria": "Reklama: aktivitná kniha Best of 2026 spoj čísla",
+        "viewPackAria": "Zobraziť balík hádaniek Best of 2026 spoj čísla"
       },
       "shared": {
         "specialSale": "Špeciálny predaj",
@@ -493,8 +506,8 @@
           "classroomUse": "Možno použiť doma alebo v jednej triede"
         },
         "guaranteeText": "Po zaplatení sa okamžite zobrazí váš súkromný odkaz na stiahnutie. Žiadne predplatné a žiadne prekvapivé obnovenie.",
-        "heading": "Viac spojovačiek. Menej hľadania. Všetko v jednom praktickom PDF.",
-        "detailsHeading": "Všetko, čo potrebujete na zábavu bez obrazovky",
+        "heading": "Viac hádaniek. Menej hľadania. Všetko v jednom praktickom PDF.",
+        "detailsHeading": "Všetko, čo potrebujete na zábavu bez obrazoviek",
         "guaranteeHeading": "Jednoduché, bezpečné a pripravené za pár minút"
       },
       "checkout": {
@@ -507,12 +520,14 @@
       "success": {
         "metaTitle": "Ďakujeme za nákup",
         "eyebrow": "Platba potvrdená",
-        "lede": "Vaša platba bola úspešná. Zobrazenie nákupu vo vašom účte môže trvať niekoľko sekúnd."
+        "lede": "Vaša platba bola úspešná. Zobrazenie nákupu vo vašom účte môže trvať niekoľko sekúnd.",
+        "heading": "Ďakujeme! Váš nákup je dokončený."
       },
       "cancelled": {
         "metaTitle": "Platba zrušená",
         "eyebrow": "Platba nebola vykonaná",
-        "lede": "Nebola vykonaná žiadna platba. Môžete to kedykoľvek skúsiť znova."
+        "lede": "Nebola vykonaná žiadna platba. Môžete to kedykoľvek skúsiť znova.",
+        "heading": "Platba zrušená"
       },
       "download": {
         "demoTitle": "Lokálny test platby bol úspešný.",
@@ -533,11 +548,11 @@
       "difficultyHard": "Ťažko",
       "funFactPrefix": "Zábavný fakt:",
       "funFactLabel": "Zábavný fakt!",
-      "noSignUp": "Nie je potrebná žiadna registrácia.Otvorí sa ako PDF.Tlačte na papier US Letter (8,5 × 11 palcov) alebo A4.Zadarmo pre použitie doma a v triede.",
+      "noSignUp": "Nie je potrebná žiadna registrácia. Otvorí sa ako PDF. Tlačte na papier US Letter (8,5 × 11 palcov) alebo A4. Zadarmo pre použitie doma a v triede.",
       "comingSoon": "Stiahnite si zadarmo PDF – už čoskoro",
       "youMightLike": "Tiež by sa vám mohlo páčiť",
       "faqQ1": "Pre aký vek je hlavolam {name} bodka k bodke?",
-      "faqA1": "Je určený pre vek {vek}.S {bodkami} bodkami to vyhovuje deťom, ktoré vedia s istotou počítať do {bodiek};mladšie deti ho s malou pomocou zvládnu.",
+      "faqA1": "Je určený pre vek {age}.S {dots} bodkami to vyhovuje deťom, ktoré vedia s istotou počítať do {dots};mladšie deti ho s malou pomocou zvládnu.",
       "faqQ2": "Ako vytlačím pracovný hárok {name}?",
       "faqA2": "Kliknutím na tlačidlo sťahovania získate bezplatný súbor PDF a potom ho vytlačte na bežný papier (A4 alebo US Letter) z ľubovoľného prehliadača alebo čítačky PDF.Nie je potrebný žiadny špeciálny softvér.",
       "faqQ3": "Je tlač {name} skutočne zadarmo?",

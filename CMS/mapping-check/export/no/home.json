@@ -109,7 +109,8 @@
         "usa250": "Ny!",
         "uae": "Tilgjengelig nå!",
         "cute": "Ny!",
-        "circus": "Ny!"
+        "circus": "Ny!",
+        "planes": "Ny!"
       },
       "items": {
         "dinosaurs": {
@@ -171,6 +172,10 @@
         "circus": {
           "name": "Sirkus",
           "description": "Ringmestere, store telt og showtids moro for unge lærere."
+        },
+        "planes": {
+          "name": "Fly",
+          "description": "Jagerfly, privatfly, papirfly og seilfly for små flyentusiaster."
         }
       }
     },
@@ -543,15 +548,17 @@
       "difficultyHard": "Hard",
       "funFactPrefix": "Morsomt faktum:",
       "funFactLabel": "Morsomt faktum!",
-      "noSignUp": "Ingen påmelding nødvendig.Åpnes som PDF.Skriv ut på US Letter (8,5 × 11 tommer) eller A4-papir.Gratis for hjemme- og klasseromsbruk.",
+      "noSignUp": "Ingen påmelding nødvendig. Åpnes som PDF. Skriv ut på US Letter (8,5 × 11 tommer) eller A4-papir. Gratis for hjemme- og klasseromsbruk.",
       "comingSoon": "Last ned gratis PDF – Kommer snart",
       "youMightLike": "Du vil kanskje også like",
       "faqQ1": "Hvilken alder er {name} prikken å prikke puslespillet for?",
-      "faqA1": "Den er designet for alderen {age}.Med {prikker} prikker passer det barn som trygt kan telle til {prikker};yngre barn kan fullføre det med litt hjelp.",
+      "faqA1": "Den er designet for alderen {age}.Med {dots} prikker passer det barn som trygt kan telle til {dots};yngre barn kan fullføre det med litt hjelp.",
       "faqQ2": "Hvordan skriver jeg ut {name}-regnearket?",
       "faqA2": "Klikk på nedlastingsknappen for å få den gratis PDF-filen, og skriv den deretter ut på vanlig papir (A4 eller US Letter) fra hvilken som helst nettleser eller PDF-leser.Ingen spesiell programvare er nødvendig.",
       "faqQ3": "Er {name} utskrivbar virkelig gratis?",
-      "faqA3": "Ja – det er 100 % gratis, uten registrering, konto eller betaling nødvendig.Du kan skrive den ut for hjemme- eller klasseromsbruk."
+      "faqA3": "Ja – det er 100 % gratis, uten registrering, konto eller betaling nødvendig.Du kan skrive den ut for hjemme- eller klasseromsbruk.",
+      "exampleCompletedEyebrow": "Laget av en ung kunstner",
+      "exampleCompletedHeading": "Eksempel fullført puslespill"
     },
     "downloadButton": {
       "label": "Last ned gratis utskriftsvennlig PDF",
@@ -619,6 +626,11 @@
     },
     "usa250Page": {
       "category": "USAs 250-årsjubileum"
+    },
+    "notFound": {
+      "heading": "Siden ble ikke funnet",
+      "message": "Beklager, vi fant ikke siden du lette etter. Den kan ha blitt flyttet eller slettet.",
+      "categoriesHeading": "Populære kategorier"
     }
   }
 }

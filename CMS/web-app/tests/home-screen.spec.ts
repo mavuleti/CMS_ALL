@@ -3,11 +3,11 @@ import { expect, test } from '@playwright/test';
 const locales = ['en', 'ar'] as const;
 
 // Puzzle names on the redesigned homepage's *featured* list (T-Rex, Mermaid,
-// Jellyfish, …) are rendered in English even on /ar/. But typing a query or
-// picking a filter loads the full catalog from public/search-index/{locale}.json
-// (scripts/generate-search-index.mjs), which carries each locale's translated
-// puzzle names — so search/filter results on /ar/ show Arabic names. The rest
-// of these labels mirror the real strings from content/ar/messages.json
+// Jellyfish, …) are rendered in each locale's real translated name, same as
+// the full catalog loaded from public/search-index/{locale}.json (scripts/
+// generate-search-index.mjs) — see the full-translation policy, every locale
+// ships 100% real content, no English-fallback featured names. The rest of
+// these labels mirror the real strings from content/ar/messages.json
 // (homepageUi / common / nav / purchase.ad namespaces) as rendered by
 // components/HomeDiscovery.tsx.
 const ui = {
@@ -24,7 +24,8 @@ const ui = {
     viewBook: /view book/i,
     browseByTheme: /browse by theme/i,
     mermaid: 'Mermaid',
-    jellyfish: 'Jellyfish'
+    jellyfish: 'Jellyfish',
+    trex: 'T-Rex'
   },
   ar: {
     h1: /اعثر على أوراق توصيل النقاط المثالية للطباعة/,
@@ -39,7 +40,8 @@ const ui = {
     viewBook: /عرض الكتاب/,
     browseByTheme: /تصفح حسب الموضوع/,
     mermaid: 'حورية البحر',
-    jellyfish: 'قنديل البحر'
+    jellyfish: 'قنديل البحر',
+    trex: 'تحدي التيركس'
   }
 } as const;
 
@@ -141,18 +143,18 @@ for (const locale of locales) {
     });
 
     test('favorite state persists after reload', async ({ page }) => {
-      const saveButton = page.getByRole('button', { name: labels.save('T-Rex') });
+      const saveButton = page.getByRole('button', { name: labels.save(labels.trex) });
       await saveButton.click();
-      await expect(page.getByRole('button', { name: labels.remove('T-Rex') })).toHaveAttribute('aria-pressed', 'true');
+      await expect(page.getByRole('button', { name: labels.remove(labels.trex) })).toHaveAttribute('aria-pressed', 'true');
 
       await page.reload();
       await expect(page.locator('.discovery-home')).toHaveAttribute('data-ready', 'true');
-      await expect(page.getByRole('button', { name: labels.remove('T-Rex') })).toHaveAttribute('aria-pressed', 'true');
+      await expect(page.getByRole('button', { name: labels.remove(labels.trex) })).toHaveAttribute('aria-pressed', 'true');
     });
 
     test('Print button opens the selected puzzle page', async ({ page }) => {
       const firstCard = page.locator('.discovery-card').first();
-      await expect(firstCard.getByRole('heading')).toContainText('T-Rex');
+      await expect(firstCard.getByRole('heading')).toContainText(labels.trex);
       await firstCard.getByRole('link', { name: labels.printForFree }).click();
       await expect(page).toHaveURL(new RegExp(`/${locale}/dinosaurs/trex-61-dot-to-dot-puzzle/$`));
       await expect(page.getByRole('heading', { level: 1 }).first()).toBeVisible();

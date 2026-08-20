@@ -93,8 +93,11 @@ const allowedTokens = new Set([
   'H.C', // H.C. Andersen
   'q.b', // Portuguese "quanto baste"
 ]);
-// Domains, file names, and other URL-ish tokens rendered as text.
-const urlLikePattern = /\.(?:com|org|net|gov|edu|io|co|uk|html)$/i;
+// Domains, file names, and other URL-ish tokens rendered as text. 'ca' covers
+// real Canadian citation domains in the canada category's fun-fact links
+// (canada.ca, thecanadianencyclopedia.ca), same URL/domain identically across
+// every locale — not a translation gap.
+const urlLikePattern = /\.(?:com|org|net|gov|edu|io|co|uk|ca|html)$/i;
 
 test('static HTML visible text contains no key-shaped tokens (reverse scan)', () => {
   expect(fs.existsSync(buildDirectory), 'Run npm run build before this test.').toBe(true);

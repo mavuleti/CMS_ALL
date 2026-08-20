@@ -109,7 +109,8 @@
         "usa250": "Baru!",
         "uae": "Tersedia sekarang!",
         "cute": "Baru!",
-        "circus": "Baru!"
+        "circus": "Baru!",
+        "planes": "Baru!"
       },
       "items": {
         "dinosaurs": {
@@ -171,6 +172,10 @@
         "circus": {
           "name": "Sirkus",
           "description": "Pengatur ring, tenda besar, dan kesenangan waktu pertunjukan untuk pembelajar muda."
+        },
+        "planes": {
+          "name": "Pesawat",
+          "description": "Jet tempur, jet pribadi, pesawat kertas, dan pesawat layang untuk anak-anak pecinta penerbangan."
         }
       }
     },
@@ -543,7 +548,7 @@
       "difficultyHard": "Keras",
       "funFactPrefix": "Fakta menarik:",
       "funFactLabel": "Fakta menyenangkan!",
-      "noSignUp": "Tidak perlu mendaftar.Terbuka sebagai PDF.Cetak pada kertas US Letter (8,5 × 11 inci) atau A4.Gratis untuk digunakan di rumah dan ruang kelas.",
+      "noSignUp": "Tidak perlu mendaftar. Terbuka sebagai PDF. Cetak pada kertas US Letter (8,5 × 11 inci) atau A4. Gratis untuk digunakan di rumah dan ruang kelas.",
       "comingSoon": "Unduh PDF Gratis – Segera Hadir",
       "youMightLike": "Anda mungkin juga menyukainya",
       "faqQ1": "Untuk usia berapa teka-teki titik ke titik {name}?",
@@ -551,7 +556,9 @@
       "faqQ2": "Bagaimana cara mencetak lembar kerja {name}?",
       "faqA2": "Klik tombol unduh untuk mendapatkan PDF gratis, lalu cetak pada kertas biasa (A4 atau US Letter) dari browser atau pembaca PDF apa pun.Tidak diperlukan perangkat lunak khusus.",
       "faqQ3": "Apakah cetakan {name} benar-benar gratis?",
-      "faqA3": "Ya — 100% gratis, tanpa perlu mendaftar, akun, atau pembayaran.Anda dapat mencetaknya untuk digunakan di rumah atau ruang kelas."
+      "faqA3": "Ya — 100% gratis, tanpa perlu mendaftar, akun, atau pembayaran.Anda dapat mencetaknya untuk digunakan di rumah atau ruang kelas.",
+      "exampleCompletedEyebrow": "Dibuat oleh seniman muda",
+      "exampleCompletedHeading": "Contoh Puzzle Selesai"
     },
     "downloadButton": {
       "label": "Unduh PDF Gratis yang Dapat Dicetak",
@@ -559,7 +566,7 @@
       "paperNote": "Berukuran untuk kertas {size}.",
       "paperLetter": "Surat AS",
       "paperA4": "A4",
-      "alternateLink": "Lebih suka {ukuran}?Unduh versi itu",
+      "alternateLink": "Lebih suka {size}?Unduh versi itu",
       "downloadSize": "Unduh (Ukuran Cetak: {size})"
     },
     "downloadBadge": {
@@ -619,6 +626,11 @@
     },
     "usa250Page": {
       "category": "Peringatan 250 Tahun AS"
+    },
+    "notFound": {
+      "heading": "Halaman Tidak Ditemukan",
+      "message": "Maaf, kami tidak dapat menemukan halaman yang Anda cari. Mungkin telah dipindahkan atau dihapus.",
+      "categoriesHeading": "Kategori Populer"
     }
   }
 }

@@ -109,7 +109,8 @@
         "usa250": "Ny!",
         "uae": "Tillgänglig nu!",
         "cute": "Ny!",
-        "circus": "Ny!"
+        "circus": "Ny!",
+        "planes": "Ny!"
       },
       "items": {
         "dinosaurs": {
@@ -171,6 +172,10 @@
         "circus": {
           "name": "Cirkus",
           "description": "Ringmaster, stora tält och underhållning för unga lärande."
+        },
+        "planes": {
+          "name": "Flygplan",
+          "description": "Jaktplan, privatjet, pappersflygplan och segelflygplan för små flygentusiaster."
         }
       }
     },
@@ -350,7 +355,13 @@
       "privacy": "Privatliv",
       "terms": "Villkor",
       "sitemap": "Webbplatskarta",
-      "copyright": "© {year} DotToDotFreePrintables.com · Gratis utskrivbara aktiviteter för barn"
+      "copyright": "© {year} DotToDotFreePrintables.com · Gratis utskrivbara aktiviteter för barn",
+      "hubAges46": "Ålder 4-6",
+      "hubAges79": "Ålder 7-9",
+      "hubAges912": "Ålder 9-12",
+      "hubDifficultyMedium": "Medelsvåra Pussel",
+      "hubDifficultyHard": "Svåra Pussel",
+      "hubNavLabel": "Bläddra efter ålder eller svårighetsgrad"
     },
     "common": {
       "home": "Hem",
@@ -366,7 +377,7 @@
       "difficultyLabel": "Svårighetsgrad {level} av 3",
       "difficulty": {
         "1": "Lätt",
-        "2": "Medel",
+        "2": "Medium",
         "3": "Hård"
       },
       "dots": "1–{count} prickar",
@@ -407,7 +418,7 @@
         "Garden": "Trädgård",
         "Cute": "Gulligt",
         "USA 250 Years": "USA 250 år",
-        "UAE": "Förenade Arabemiraten"
+        "UAE": "UAE"
       }
     },
     "newsletterForm": {
@@ -463,7 +474,9 @@
         "pdfBook": "PDF-BOK",
         "bookTitle": "Bästa 2026",
         "puzzleCount": "25 prick-till-prick-pussel",
-        "viewBook": "Visa bok"
+        "viewBook": "Visa bok",
+        "advertisementAria": "Annons: Best of 2026 prick-till-prick-aktivitetsbok",
+        "viewPackAria": "Se Best of 2026 prick-till-prick-pusselpaket"
       },
       "shared": {
         "specialSale": "SPECIALERBJUDANDE",
@@ -493,9 +506,9 @@
           "classroomUse": "Kan användas hemma eller i ett klassrum"
         },
         "guaranteeText": "Efter köpet visas din privata nedladdningslänk direkt. Inget abonnemang och ingen överraskande förnyelse.",
-        "heading": "Fler pussel. Mindre letande. Allt i en smidig PDF.",
-        "detailsHeading": "Allt du behöver för skärmfri kul",
-        "guaranteeHeading": "Enkelt, säkert och klart på minuter"
+        "heading": "Fler pussel. Mindre letande. Allt i en praktisk PDF.",
+        "detailsHeading": "Allt du behöver för skärmfri underhållning",
+        "guaranteeHeading": "Enkelt, säkert och klart på några minuter"
       },
       "checkout": {
         "consent": "Jag godkänner omedelbar leverans av denna digitala PDF och förstår att köpet är slutgiltigt och inte återbetalningsbart när åtkomsten väl har börjat, förutom där lagen kräver det eller om filen inte levereras eller är felaktig.",
@@ -507,12 +520,14 @@
       "success": {
         "metaTitle": "Tack för ditt köp",
         "eyebrow": "Betalning bekräftad",
-        "lede": "Din betalning genomfördes. Det kan ta några sekunder innan köpet visas på ditt konto."
+        "lede": "Din betalning genomfördes. Det kan ta några sekunder innan köpet visas på ditt konto.",
+        "heading": "Tack! Ditt köp är slutfört."
       },
       "cancelled": {
         "metaTitle": "Betalning avbruten",
         "eyebrow": "Ingen betalning gjordes",
-        "lede": "Ingen debitering gjordes. Du kan försöka igen när som helst."
+        "lede": "Ingen debitering gjordes. Du kan försöka igen när som helst.",
+        "heading": "Betalning avbruten"
       },
       "download": {
         "demoTitle": "Lokalt betalningstest lyckades.",
@@ -533,11 +548,11 @@
       "difficultyHard": "Hård",
       "funFactPrefix": "Kul fakta:",
       "funFactLabel": "Kul fakta!",
-      "noSignUp": "Ingen registrering behövs.Öppnas som PDF.Skriv ut på US Letter (8,5 × 11 tum) eller A4-papper.Gratis för hem och klassrum.",
+      "noSignUp": "Ingen registrering behövs. Öppnas som PDF. Skriv ut på US Letter (8,5 × 11 tum) eller A4-papper. Gratis för hem och klassrum.",
       "comingSoon": "Ladda ner gratis PDF – Kommer snart",
       "youMightLike": "Du kanske också gillar",
       "faqQ1": "Vilken ålder är {name} prick-pusslet för?",
-      "faqA1": "Den är designad för åldrarna {age}.Med {prickar} prickar passar det barn som med säkerhet kan räkna till {prickar};yngre barn kan slutföra det med lite hjälp.",
+      "faqA1": "Den är designad för åldrarna {age}.Med {dots} prickar passar det barn som med säkerhet kan räkna till {dots};yngre barn kan slutföra det med lite hjälp.",
       "faqQ2": "Hur skriver jag ut kalkylbladet {name}?",
       "faqA2": "Klicka på nedladdningsknappen för att få den kostnadsfria PDF-filen, skriv sedan ut den på vanligt papper (A4 eller US Letter) från valfri webbläsare eller PDF-läsare.Ingen speciell programvara behövs.",
       "faqQ3": "Är den utskrivbara {name} verkligen gratis?",

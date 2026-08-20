@@ -109,7 +109,8 @@
         "usa250": "Nuovo!",
         "uae": "Disponibile ora!",
         "cute": "Nuovo!",
-        "circus": "Nuovo!"
+        "circus": "Nuovo!",
+        "planes": "Nuovo!"
       },
       "items": {
         "dinosaurs": {
@@ -171,6 +172,10 @@
         "circus": {
           "name": "Circo",
           "description": "Maestri di cerimonia, tendoni e divertimento per i giovani apprendisti."
+        },
+        "planes": {
+          "name": "Aerei",
+          "description": "Caccia, jet privati, aeroplanini di carta e alianti per i piccoli appassionati di aviazione."
         }
       }
     },
@@ -543,23 +548,25 @@
       "difficultyHard": "Difficile",
       "funFactPrefix": "Fatto divertente:",
       "funFactLabel": "Fatto divertente!",
-      "noSignUp": "Non è necessaria la registrazione.Si apre come PDF.Stampa su carta US Letter (8,5 × 11 pollici) o A4.Gratuito per uso domestico e in classe.",
+      "noSignUp": "Non è necessaria la registrazione. Si apre come PDF. Stampa su carta US Letter (8,5 × 11 pollici) o A4. Gratuito per uso domestico e in classe.",
       "comingSoon": "Scarica il PDF gratuito – Disponibile a breve",
       "youMightLike": "Potrebbe piacerti anche",
-      "faqQ1": "Per che età è adatto il puzzle punto per punto di {nome}?",
+      "faqQ1": "Per che età è adatto il puzzle punto per punto di {name}?",
       "faqA1": "È progettato per età {age}.Con i punti {dots}, è adatto ai bambini che sanno contare con sicurezza fino a {dots};i bambini più piccoli potranno completarlo con un piccolo aiuto.",
       "faqQ2": "Come posso stampare il foglio di lavoro di {nome}?",
       "faqA2": "Fai clic sul pulsante di download per ottenere il PDF gratuito, quindi stampalo su carta normale (A4 o US Letter) da qualsiasi browser o lettore PDF.Non è necessario alcun software speciale.",
       "faqQ3": "Il formato stampabile di {nome} è davvero gratuito?",
-      "faqA3": "Sì, è gratuito al 100%, senza registrazione, account o pagamento richiesti.Puoi stamparlo per uso domestico o in classe."
+      "faqA3": "Sì, è gratuito al 100%, senza registrazione, account o pagamento richiesti.Puoi stamparlo per uso domestico o in classe.",
+      "exampleCompletedEyebrow": "Realizzato da un giovane artista",
+      "exampleCompletedHeading": "Esempio di puzzle completato"
     },
     "downloadButton": {
       "label": "Scarica il PDF stampabile gratuito",
       "usage": "Gratuito per uso domestico e in classe.",
-      "paperNote": "Dimensionato per carta {formato}.",
+      "paperNote": "Dimensionato per carta {size}.",
       "paperLetter": "Lettera degli Stati Uniti",
       "paperA4": "A4",
-      "alternateLink": "Preferisci la {taglia}?Scarica quella versione",
+      "alternateLink": "Preferisci la {size}?Scarica quella versione",
       "downloadSize": "Scarica (dimensione stampa: {size})"
     },
     "downloadBadge": {
@@ -619,6 +626,11 @@
     },
     "usa250Page": {
       "category": "250° anniversario degli Stati Uniti"
+    },
+    "notFound": {
+      "heading": "Pagina non trovata",
+      "message": "Siamo spiacenti, non siamo riusciti a trovare la pagina che cercavi. Potrebbe essere stata spostata o rimossa.",
+      "categoriesHeading": "Categorie popolari"
     }
   }
 }

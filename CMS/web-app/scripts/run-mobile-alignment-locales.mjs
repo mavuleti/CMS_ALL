@@ -14,11 +14,15 @@ function readJson(filePath) {
 }
 
 function isPlaceholderLocale(locale) {
-  const messages = readJson(path.join(contentDir, locale, 'messages.json'));
-  if (Object.keys(messages).length > 0) return false;
+  // UI message strings (including plurals) aren't a standalone messages.json —
+  // i18n/request.ts builds them by merging content/en/common.json with each
+  // locale's content/{locale}/home.json `body`, so that's where translated
+  // content actually lives.
+  const home = readJson(path.join(contentDir, locale, 'home.json'));
+  if (Object.keys(home.body ?? {}).length > 0) return false;
 
   return sourceFiles
-    .filter((file) => file !== 'messages.json')
+    .filter((file) => file !== 'home.json')
     .every((file) => {
       const data = readJson(path.join(contentDir, locale, file));
       return Array.isArray(data) && data.length === 0;
@@ -64,7 +68,11 @@ function runPlaywright(args, label) {
   return new Promise((resolve) => {
     const child = spawn(process.execPath, [playwrightCli, ...args], {
       stdio: ['ignore', 'pipe', 'pipe'],
-      shell: false
+      shell: false,
+      // tests/i18n-layout.spec.ts only builds describe blocks for non-en/ar
+      // locales when this is set — without it, --grep for any other locale
+      // matches zero tests and Playwright exits with "No tests found".
+      env: { ...process.env, I18N_FULL_LOCALE_SWEEP: '1' }
     });
 
     let lastActivity = Date.now();

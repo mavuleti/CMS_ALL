@@ -109,7 +109,8 @@
         "usa250": "Nou!",
         "uae": "Disponibil acum!",
         "cute": "Nou!",
-        "circus": "Nou!"
+        "circus": "Nou!",
+        "planes": "Nou!"
       },
       "items": {
         "dinosaurs": {
@@ -171,6 +172,10 @@
         "circus": {
           "name": "Circ",
           "description": "Maestri de ring, corturi mari și distracție de spectacol pentru tinerii învățăcei."
+        },
+        "planes": {
+          "name": "Avioane",
+          "description": "Avioane de vânătoare, avioane private, avioane din hârtie și planoare pentru micii pasionați de aviație."
         }
       }
     },
@@ -543,15 +548,17 @@
       "difficultyHard": "Greu",
       "funFactPrefix": "Fapt amuzant:",
       "funFactLabel": "Fapt amuzant!",
-      "noSignUp": "Nu este nevoie de înscriere.Se deschide ca PDF.Imprimați pe hârtie US Letter (8,5 × 11 inchi) sau A4.Gratuit pentru utilizare acasă și la clasă.",
+      "noSignUp": "Nu este nevoie de înscriere. Se deschide ca PDF. Imprimați pe hârtie US Letter (8,5 × 11 inchi) sau A4. Gratuit pentru utilizare acasă și la clasă.",
       "comingSoon": "Descărcați PDF gratuit – În curând",
       "youMightLike": "S-ar putea să-ți placă și",
       "faqQ1": "Pentru ce vârstă este puzzle-ul punct cu punct {name}?",
-      "faqA1": "Este conceput pentru vârste {vârsta}.Cu {dots} puncte, se potrivește copiilor care pot număra cu încredere până la {dots};copiii mai mici îl pot completa cu puțin ajutor.",
+      "faqA1": "Este conceput pentru vârste {age}.Cu {dots} puncte, se potrivește copiilor care pot număra cu încredere până la {dots};copiii mai mici îl pot completa cu puțin ajutor.",
       "faqQ2": "Cum pot imprima foaia de lucru {name}?",
       "faqA2": "Faceți clic pe butonul de descărcare pentru a obține PDF-ul gratuit, apoi tipăriți-l pe hârtie obișnuită (A4 sau US Letter) din orice browser sau cititor PDF.Nu este nevoie de software special.",
       "faqQ3": "Este {name} imprimabil cu adevărat gratuit?",
-      "faqA3": "Da — este 100% gratuit, fără a fi nevoie de înregistrare, cont sau plată.Îl puteți imprima pentru uz acasă sau în clasă."
+      "faqA3": "Da — este 100% gratuit, fără a fi nevoie de înregistrare, cont sau plată.Îl puteți imprima pentru uz acasă sau în clasă.",
+      "exampleCompletedEyebrow": "Realizat de un tânăr artist",
+      "exampleCompletedHeading": "Exemplu de puzzle finalizat"
     },
     "downloadButton": {
       "label": "Descarcă PDF imprimabil gratuit",
@@ -619,6 +626,11 @@
     },
     "usa250Page": {
       "category": "250 de ani de la SUA"
+    },
+    "notFound": {
+      "heading": "Pagina nu a fost găsită",
+      "message": "Ne pare rău, nu am putut găsi pagina căutată. Este posibil să fi fost mutată sau ștearsă.",
+      "categoriesHeading": "Categorii populare"
     }
   }
 }

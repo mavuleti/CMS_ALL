@@ -109,7 +109,8 @@
         "usa250": "Uusi!",
         "uae": "Saatavilla nyt!",
         "cute": "Uusi!",
-        "circus": "Uusi!"
+        "circus": "Uusi!",
+        "planes": "Uusi!"
       },
       "items": {
         "dinosaurs": {
@@ -171,6 +172,10 @@
         "circus": {
           "name": "Sirkus",
           "description": "Tirehtöörit, suuret teltat ja sirkushuvia nuorille oppijoille."
+        },
+        "planes": {
+          "name": "Lentokoneet",
+          "description": "Hävittäjät, yksityisjetit, paperilentokoneet ja liitokoneet nuorille ilmailun ystäville."
         }
       }
     },
@@ -543,20 +548,22 @@
       "difficultyHard": "Kovaa",
       "funFactPrefix": "Hauska fakta:",
       "funFactLabel": "Hauska fakta!",
-      "noSignUp": "Ilmoittautumista ei tarvita.Avautuu PDF-tiedostona.Tulosta US Letter (8,5 × 11 tuumaa) tai A4-paperille.Ilmainen koti- ja luokkakäyttöön.",
+      "noSignUp": "Ilmoittautumista ei tarvita. Avautuu PDF-tiedostona. Tulosta US Letter (8,5 × 11 tuumaa) tai A4-paperille. Ilmainen koti- ja luokkakäyttöön.",
       "comingSoon": "Lataa ilmainen PDF – tulossa pian",
       "youMightLike": "Saatat myös pitää",
       "faqQ1": "Minkä ikäiselle pisteestä pisteeseen -pulma on tarkoitettu?",
-      "faqA1": "Se on suunniteltu {age} ikäisille.{dots} pisteen ansiosta se sopii lapsille, jotka osaavat laskea luottavaisesti {pisteisiin};nuoremmat lapset voivat suorittaa sen pienellä avustuksella.",
+      "faqA1": "Se on suunniteltu {age} ikäisille.{dots} pisteen ansiosta se sopii lapsille, jotka osaavat laskea luottavaisesti {dots};nuoremmat lapset voivat suorittaa sen pienellä avustuksella.",
       "faqQ2": "Kuinka tulostan laskentataulukon {name}?",
       "faqA2": "Napsauta latauspainiketta saadaksesi ilmaisen PDF-tiedoston ja tulosta se sitten tavalliselle paperille (A4 tai US Letter) mistä tahansa selaimesta tai PDF-lukijasta.Mitään erityistä ohjelmistoa ei tarvita.",
       "faqQ3": "Onko {name} tulostettava todella ilmainen?",
-      "faqA3": "Kyllä – se on 100 % ilmainen, ilman rekisteröitymistä, tiliä tai maksua.Voit tulostaa sen koti- tai luokkakäyttöön."
+      "faqA3": "Kyllä – se on 100 % ilmainen, ilman rekisteröitymistä, tiliä tai maksua.Voit tulostaa sen koti- tai luokkakäyttöön.",
+      "exampleCompletedEyebrow": "Nuoren taiteilijan tekemä",
+      "exampleCompletedHeading": "Esimerkki valmiista palapelistä"
     },
     "downloadButton": {
       "label": "Lataa ilmainen tulostettava PDF",
       "usage": "Ilmainen koti- ja luokkakäyttöön.",
-      "paperNote": "Koko {koko} paperille.",
+      "paperNote": "Koko {size} paperille.",
       "paperLetter": "Yhdysvaltain kirje",
       "paperA4": "A4",
       "alternateLink": "Haluatko mieluummin {size}?Lataa tuo versio",
@@ -619,6 +626,11 @@
     },
     "usa250Page": {
       "category": "USA 250 vuotta"
+    },
+    "notFound": {
+      "heading": "Sivua ei löytynyt",
+      "message": "Valitettavasti etsimääsi sivua ei löytynyt. Se on saatettu siirtää tai poistaa.",
+      "categoriesHeading": "Suositut kategoriat"
     }
   }
 }

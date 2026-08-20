@@ -109,7 +109,8 @@
         "usa250": "Yeni!",
         "uae": "Şimdi satışta!",
         "cute": "Yeni!",
-        "circus": "Yeni!"
+        "circus": "Yeni!",
+        "planes": "Yeni!"
       },
       "items": {
         "dinosaurs": {
@@ -171,6 +172,10 @@
         "circus": {
           "name": "Sirk",
           "description": "Yüzük ustaları, büyük çadırlar ve genç öğreniciler için gösteri zamanı eğlencesi."
+        },
+        "planes": {
+          "name": "Uçaklar",
+          "description": "Küçük havacılık hayranları için savaş uçakları, özel jetler, kağıt uçaklar ve planörler."
         }
       }
     },
@@ -350,7 +355,13 @@
       "privacy": "Mahremiyet",
       "terms": "Şartlar",
       "sitemap": "Site Haritası",
-      "copyright": "© {year} DotToDotFreePrintables.com · Çocuklar için ücretsiz yazdırılabilir etkinlikler"
+      "copyright": "© {year} DotToDotFreePrintables.com · Çocuklar için ücretsiz yazdırılabilir etkinlikler",
+      "hubAges46": "Yaş 4-6",
+      "hubAges79": "Yaş 7-9",
+      "hubAges912": "Yaş 9-12",
+      "hubDifficultyMedium": "Orta Bulmacalar",
+      "hubDifficultyHard": "Zor Bulmacalar",
+      "hubNavLabel": "Yaşa veya zorluk seviyesine göre göz atın"
     },
     "common": {
       "home": "Ev",
@@ -463,7 +474,9 @@
         "pdfBook": "PDF KİTAP",
         "bookTitle": "2026'nın En İyileri",
         "puzzleCount": "25 Noktadan Noktaya Bulmaca",
-        "viewBook": "Kitabı görüntüle"
+        "viewBook": "Kitabı görüntüle",
+        "advertisementAria": "Reklam: Best of 2026 noktaları birleştirme etkinlik kitabı",
+        "viewPackAria": "Best of 2026 noktaları birleştirme bulmaca paketini görüntüle"
       },
       "shared": {
         "specialSale": "Özel indirim",
@@ -493,7 +506,7 @@
           "classroomUse": "Evde veya tek bir sınıfta kullanılabilir"
         },
         "guaranteeText": "Ödeme sonrasında özel indirme bağlantınız hemen görünür. Abonelik yok, sürpriz yenileme yok.",
-        "heading": "Daha fazla bulmaca. Daha az arama. Hepsi tek bir pratik PDF'de.",
+        "heading": "Daha fazla bulmaca. Daha az arama. Her şey tek bir uygun PDF'de.",
         "detailsHeading": "Ekransız eğlence için ihtiyacınız olan her şey",
         "guaranteeHeading": "Basit, güvenli ve dakikalar içinde hazır"
       },
@@ -507,12 +520,14 @@
       "success": {
         "metaTitle": "Satın Aldığınız İçin Teşekkürler",
         "eyebrow": "Ödeme onaylandı",
-        "lede": "Ödemeniz başarılı oldu. Satın alma işleminizin hesabınızda görünmesi birkaç saniye sürebilir."
+        "lede": "Ödemeniz başarılı oldu. Satın alma işleminizin hesabınızda görünmesi birkaç saniye sürebilir.",
+        "heading": "Teşekkürler! Satın alımınız tamamlandı."
       },
       "cancelled": {
         "metaTitle": "Ödeme İptal Edildi",
         "eyebrow": "Herhangi bir ödeme alınmadı",
-        "lede": "Herhangi bir ücret tahsil edilmedi. Dilediğiniz zaman tekrar deneyebilirsiniz."
+        "lede": "Herhangi bir ücret tahsil edilmedi. Dilediğiniz zaman tekrar deneyebilirsiniz.",
+        "heading": "Ödeme iptal edildi"
       },
       "download": {
         "demoTitle": "Yerel ödeme testi başarılı oldu.",
@@ -533,11 +548,11 @@
       "difficultyHard": "Zor",
       "funFactPrefix": "Eğlenceli gerçek:",
       "funFactLabel": "Eğlenceli gerçek!",
-      "noSignUp": "Kayıt olmanıza gerek yok.PDF olarak açılır.US Letter (8,5 × 11 inç) veya A4 kağıda yazdırın.Ev ve sınıf kullanımı için ücretsizdir.",
+      "noSignUp": "Kayıt olmanıza gerek yok. PDF olarak açılır. US Letter (8,5 × 11 inç) veya A4 kağıda yazdırın. Ev ve sınıf kullanımı için ücretsizdir.",
       "comingSoon": "Ücretsiz PDF İndir – Çok Yakında",
       "youMightLike": "Şunları da beğenebilirsin",
       "faqQ1": "{name} nokta nokta bulmacası kaç yaş için?",
-      "faqA1": "{age} yaşları için tasarlanmıştır.{nokta} nokta ile güvenle {nokta}'ya kadar sayabilen çocuklara uygundur;küçük çocuklar biraz yardımla bunu tamamlayabilirler.",
+      "faqA1": "{age} yaşları için tasarlanmıştır.{dots} nokta ile güvenle {dots}'ya kadar sayabilen çocuklara uygundur;küçük çocuklar biraz yardımla bunu tamamlayabilirler.",
       "faqQ2": "{name} çalışma sayfasını nasıl yazdırırım?",
       "faqA2": "Ücretsiz PDF'yi almak için indirme düğmesine tıklayın, ardından herhangi bir tarayıcıdan veya PDF okuyucudan normal kağıda (A4 veya US Letter) yazdırın.Özel bir yazılıma gerek yoktur.",
       "faqQ3": "{name} yazdırılabilir gerçekten ücretsiz mi?",

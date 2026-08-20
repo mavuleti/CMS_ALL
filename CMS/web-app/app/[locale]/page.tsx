@@ -68,7 +68,7 @@ export default async function LocaleHomePage({
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(collectionPageSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema) }} />
       <main id="main-content" className="home-page-main" tabIndex={-1}>
-        <HomeDiscovery locale={locale} featuredPuzzles={featuredPuzzles} searchPuzzles={localePuzzles} />
+        <HomeDiscovery locale={locale} featuredPuzzles={featuredPuzzles} />
         <div className="legacy-home-content">
           <HomeVideoSection />
           <TopDownloadsLeaderboard locale={locale} variant="columns" />

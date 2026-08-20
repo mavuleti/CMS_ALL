@@ -109,7 +109,8 @@
         "usa250": "Új!",
         "uae": "Már elérhető!",
         "cute": "Új!",
-        "circus": "Új!"
+        "circus": "Új!",
+        "planes": "Új!"
       },
       "items": {
         "dinosaurs": {
@@ -171,6 +172,10 @@
         "circus": {
           "name": "Cirkusz",
           "description": "Körvezetők, nagy sátrak és szórakozás fiatal tanulók számára."
+        },
+        "planes": {
+          "name": "Repülők",
+          "description": "Vadászgépek, magánrepülők, papírrepülők és vitorlázók a kis repülésrajongóknak."
         }
       }
     },
@@ -543,15 +548,17 @@
       "difficultyHard": "Kemény",
       "funFactPrefix": "Érdekes tény:",
       "funFactLabel": "Érdekes tény!",
-      "noSignUp": "Nincs szükség regisztrációra.PDF formátumban nyílik meg.Nyomtatás US Letter (8,5 × 11 hüvelyk) vagy A4-es papírra.Ingyenes otthoni és tantermi használatra.",
+      "noSignUp": "Nincs szükség regisztrációra. PDF formátumban nyílik meg. Nyomtatás US Letter (8,5 × 11 hüvelyk) vagy A4-es papírra. Ingyenes otthoni és tantermi használatra.",
       "comingSoon": "Ingyenes PDF letöltése – Hamarosan",
       "youMightLike": "Ön is kedvelheti",
       "faqQ1": "Hány korosztálynak való a {name} ponttól pontig kirakós játék?",
-      "faqA1": "{age} korosztály számára készült.A {pont} ponttal olyan gyerekeknek felel meg, akik magabiztosan tudnak {pontig számolni;a kisebb gyerekek kis segítséggel kiegészíthetik.",
+      "faqA1": "{age} korosztály számára készült.A {dots} ponttal olyan gyerekeknek felel meg, akik magabiztosan tudnak {pontig számolni;a kisebb gyerekek kis segítséggel kiegészíthetik.",
       "faqQ2": "Hogyan nyomtathatom ki a(z) {name} munkalapot?",
       "faqA2": "Kattintson a letöltés gombra az ingyenes PDF letöltéséhez, majd nyomtassa ki normál papírra (A4 vagy US Letter) bármely böngészőből vagy PDF-olvasóból.Nincs szükség speciális szoftverre.",
       "faqQ3": "A(z) {name} valóban ingyenes?",
-      "faqA3": "Igen – 100%-ban ingyenes, nincs szükség regisztrációra, fiókra vagy fizetésre.Kinyomtathatja otthoni vagy tantermi használatra."
+      "faqA3": "Igen – 100%-ban ingyenes, nincs szükség regisztrációra, fiókra vagy fizetésre.Kinyomtathatja otthoni vagy tantermi használatra.",
+      "exampleCompletedEyebrow": "Egy fiatal művész készítette",
+      "exampleCompletedHeading": "Példa befejezett rejtvényre"
     },
     "downloadButton": {
       "label": "Ingyenesen nyomtatható PDF letöltése",
@@ -619,6 +626,11 @@
     },
     "usa250Page": {
       "category": "USA 250. évfordulója"
+    },
+    "notFound": {
+      "heading": "Az oldal nem található",
+      "message": "Sajnáljuk, nem találtuk meg a keresett oldalt. Lehet, hogy áthelyezték vagy törölték.",
+      "categoriesHeading": "Népszerű kategóriák"
     }
   }
 }

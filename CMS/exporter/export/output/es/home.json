@@ -109,7 +109,8 @@
         "usa250": "¡Nuevo!",
         "uae": "¡Ya disponible!",
         "cute": "¡Nuevo!",
-        "circus": "¡Nuevo!"
+        "circus": "¡Nuevo!",
+        "planes": "¡Nuevo!"
       },
       "items": {
         "dinosaurs": {
@@ -171,6 +172,10 @@
         "circus": {
           "name": "Circo",
           "description": "Maestros de ceremonias, grandes carpas y diversión para pequeños aprendices."
+        },
+        "planes": {
+          "name": "Aviones",
+          "description": "Aviones de combate, jets privados, aviones de papel y planeadores para los pequeños amantes de la aviación."
         }
       }
     },
@@ -543,23 +548,25 @@
       "difficultyHard": "Duro",
       "funFactPrefix": "Dato curioso:",
       "funFactLabel": "¡Dato curioso!",
-      "noSignUp": "No es necesario registrarse.Se abre como PDF.Imprima en papel Carta estadounidense (8,5 × 11 pulgadas) o A4.Gratis para uso doméstico y en el aula.",
+      "noSignUp": "No es necesario registrarse. Se abre como PDF. Imprima en papel Carta estadounidense (8,5 × 11 pulgadas) o A4. Gratis para uso doméstico y en el aula.",
       "comingSoon": "Descargar PDF gratuito – Próximamente",
       "youMightLike": "También te puede gustar",
-      "faqQ1": "¿Para qué edad es el rompecabezas punto a punto de {nombre}?",
-      "faqA1": "Está diseñado para edades {age}.Con {puntos} puntos, es adecuado para niños que pueden contar con confianza hasta {puntos};Los niños más pequeños pueden completarlo con un poco de ayuda.",
+      "faqQ1": "¿Para qué edad es el rompecabezas punto a punto de {name}?",
+      "faqA1": "Está diseñado para edades {age}.Con {dots} puntos, es adecuado para niños que pueden contar con confianza hasta {dots};Los niños más pequeños pueden completarlo con un poco de ayuda.",
       "faqQ2": "¿Cómo imprimo la hoja de trabajo de {nombre}?",
       "faqA2": "Haga clic en el botón de descarga para obtener el PDF gratuito y luego imprímalo en papel normal (A4 o Carta estadounidense) desde cualquier navegador o lector de PDF.No se necesita ningún software especial.",
       "faqQ3": "¿El imprimible de {nombre} es realmente gratuito?",
-      "faqA3": "Sí, es 100% gratis, no requiere registro, cuenta ni pago.Puede imprimirlo para uso en casa o en el aula."
+      "faqA3": "Sí, es 100% gratis, no requiere registro, cuenta ni pago.Puede imprimirlo para uso en casa o en el aula.",
+      "exampleCompletedEyebrow": "Realizado por un joven artista.",
+      "exampleCompletedHeading": "Ejemplo de rompecabezas completado"
     },
     "downloadButton": {
       "label": "Descargar PDF imprimible gratis",
       "usage": "Gratis para uso doméstico y en el aula.",
-      "paperNote": "Tamaño para papel {tamaño}.",
+      "paperNote": "Tamaño para papel {size}.",
       "paperLetter": "Carta de EE. UU.",
       "paperA4": "A4",
-      "alternateLink": "¿Prefieres {tamaño}?descargar esa versión",
+      "alternateLink": "¿Prefieres {size}?descargar esa versión",
       "downloadSize": "Descargar (Tamaño de impresión: {size})"
     },
     "downloadBadge": {
@@ -619,6 +626,11 @@
     },
     "usa250Page": {
       "category": "Estados Unidos 250 Aniversario"
+    },
+    "notFound": {
+      "heading": "Página no encontrada",
+      "message": "Lo sentimos, no pudimos encontrar la página que buscabas. Puede que se haya movido o eliminado.",
+      "categoriesHeading": "Categorías populares"
     }
   }
 }

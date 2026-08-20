@@ -109,7 +109,8 @@
         "usa250": "Novo!",
         "uae": "Na voljo zdaj!",
         "cute": "Novo!",
-        "circus": "Novo!"
+        "circus": "Novo!",
+        "planes": "Novo!"
       },
       "items": {
         "dinosaurs": {
@@ -171,6 +172,10 @@
         "circus": {
           "name": "Cirkus",
           "description": "Voditelji ringa, veliki šotori in zabava ob predstavi za mlade učence."
+        },
+        "planes": {
+          "name": "Letala",
+          "description": "Lovska letala, zasebna letala, papirnata letala in jadralna letala za male ljubitelje letalstva."
         }
       }
     },
@@ -350,7 +355,13 @@
       "privacy": "Zasebnost",
       "terms": "Pogoji",
       "sitemap": "Zemljevid spletnega mesta",
-      "copyright": "© {year} DotToDotFreePrintables.com · Brezplačne dejavnosti za otroke za tiskanje"
+      "copyright": "© {year} DotToDotFreePrintables.com · Brezplačne dejavnosti za otroke za tiskanje",
+      "hubAges46": "Starost 4-6",
+      "hubAges79": "Starost 7-9",
+      "hubAges912": "Starost 9-12",
+      "hubDifficultyMedium": "Srednje Uganke",
+      "hubDifficultyHard": "Težke Uganke",
+      "hubNavLabel": "Brskaj po starosti ali težavnosti"
     },
     "common": {
       "home": "Domov",
@@ -374,7 +385,7 @@
       "homeVideoH2": "Oglejte si zabavo pika-dot v akciji",
       "skipToContent": "Preskoči na glavno vsebino",
       "joinTeachers": "Pridruži se {count}+ učiteljem",
-      "breadcrumbAria": "Drobtinice"
+      "breadcrumbAria": "Breadcrumb"
     },
     "puzzleSearch": {
       "placeholder": "Iskanje po imenu ali temi... npr. ocean, kit, T-Rex",
@@ -463,7 +474,9 @@
         "pdfBook": "PDF KNJIGA",
         "bookTitle": "Najboljše v 2026",
         "puzzleCount": "25 ugank od pike do pike",
-        "viewBook": "Oglej si knjigo"
+        "viewBook": "Oglej si knjigo",
+        "advertisementAria": "Oglas: knjiga dejavnosti poveži pike Best of 2026",
+        "viewPackAria": "Oglejte si paket ugank poveži pike Best of 2026"
       },
       "shared": {
         "specialSale": "POSEBNA PONUDBA",
@@ -493,7 +506,7 @@
           "classroomUse": "Uporabno doma ali v eni učilnici"
         },
         "guaranteeText": "Po nakupu se takoj prikaže vaša zasebna povezava za prenos. Brez naročnine in brez presenetljive obnovitve.",
-        "heading": "Več ugank. Manj iskanja. Vse na enem priročnem PDF-ju.",
+        "heading": "Več ugank. Manj iskanja. Vse v enem priročnem PDF-ju.",
         "detailsHeading": "Vse, kar potrebujete za zabavo brez zaslonov",
         "guaranteeHeading": "Preprosto, varno in pripravljeno v nekaj minutah"
       },
@@ -507,12 +520,14 @@
       "success": {
         "metaTitle": "Hvala za nakup",
         "eyebrow": "Plačilo potrjeno",
-        "lede": "Vaše plačilo je bilo uspešno. Nekaj sekund lahko traja, da se nakup prikaže v vašem računu."
+        "lede": "Vaše plačilo je bilo uspešno. Nekaj sekund lahko traja, da se nakup prikaže v vašem računu.",
+        "heading": "Hvala! Vaš nakup je zaključen."
       },
       "cancelled": {
         "metaTitle": "Plačilo preklicano",
         "eyebrow": "Plačilo ni bilo izvedeno",
-        "lede": "Noben znesek ni bil zaračunan. Znova lahko poskusite kadar koli."
+        "lede": "Noben znesek ni bil zaračunan. Znova lahko poskusite kadar koli.",
+        "heading": "Plačilo preklicano"
       },
       "download": {
         "demoTitle": "Lokalni preizkus plačila je bil uspešen.",
@@ -533,11 +548,11 @@
       "difficultyHard": "težko",
       "funFactPrefix": "zabavno dejstvo:",
       "funFactLabel": "Zabavno dejstvo!",
-      "noSignUp": "Prijava ni potrebna.Odpre se kot PDF.Natisnite na papir US Letter (8,5 × 11 palcev) ali A4.Brezplačno za uporabo doma in v razredu.",
+      "noSignUp": "Prijava ni potrebna. Odpre se kot PDF. Natisnite na papir US Letter (8,5 × 11 palcev) ali A4. Brezplačno za uporabo doma in v razredu.",
       "comingSoon": "Prenesite brezplačen PDF – kmalu na voljo",
       "youMightLike": "Morda vam bo všeč tudi",
       "faqQ1": "Za katero starost je uganka {name} od pike do pike?",
-      "faqA1": "Zasnovan je za starost {age}.S {dots} pikami je primeren za otroke, ki lahko samozavestno štejejo do {pik};mlajši otroci ga lahko dokončajo z malo pomoči.",
+      "faqA1": "Zasnovan je za starost {age}.S {dots} pikami je primeren za otroke, ki lahko samozavestno štejejo do {dots};mlajši otroci ga lahko dokončajo z malo pomoči.",
       "faqQ2": "Kako natisnem delovni list {name}?",
       "faqA2": "Kliknite gumb za prenos, da dobite brezplačen PDF, nato pa ga natisnite na običajen papir (A4 ali US Letter) iz katerega koli brskalnika ali bralnika PDF.Posebna programska oprema ni potrebna.",
       "faqQ3": "Je {name} za tiskanje res brezplačen?",

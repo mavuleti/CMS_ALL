@@ -109,7 +109,8 @@
         "usa250": "Novo!",
         "uae": "Disponível agora!",
         "cute": "Novo!",
-        "circus": "Novo!"
+        "circus": "Novo!",
+        "planes": "Novo!"
       },
       "items": {
         "dinosaurs": {
@@ -171,6 +172,10 @@
         "circus": {
           "name": "Circo",
           "description": "Mestres de cerimônia, tendas grandes e diversão de show para jovens aprendizes."
+        },
+        "planes": {
+          "name": "Aviões",
+          "description": "Caças, jatinhos particulares, aviõezinhos de papel e planadores para os pequenos apaixonados por aviação."
         }
       }
     },
@@ -350,7 +355,13 @@
       "privacy": "Privacidade",
       "terms": "Termos",
       "sitemap": "Mapa do site",
-      "copyright": "© {year} DotToDotFreePrintables.com · Atividades imprimíveis gratuitas para crianças"
+      "copyright": "© {year} DotToDotFreePrintables.com · Atividades imprimíveis gratuitas para crianças",
+      "hubAges46": "Idades 4-6",
+      "hubAges79": "Idades 7-9",
+      "hubAges912": "Idades 9-12",
+      "hubDifficultyMedium": "Atividades Médias",
+      "hubDifficultyHard": "Atividades Difíceis",
+      "hubNavLabel": "Navegar por idade ou dificuldade"
     },
     "common": {
       "home": "Lar",
@@ -403,7 +414,7 @@
       "categories": {
         "Dinosaurs": "Dinossauros",
         "Ocean": "Oceano",
-        "Playgrounds": "Parques infantis",
+        "Playgrounds": "Playgrounds",
         "Garden": "Jardim",
         "Cute": "Fofo",
         "USA 250 Years": "EUA 250 anos",
@@ -463,7 +474,9 @@
         "pdfBook": "LIVRO PDF",
         "bookTitle": "O melhor de 2026",
         "puzzleCount": "25 quebra-cabeças ponto a ponto",
-        "viewBook": "Ver livro"
+        "viewBook": "Ver livro",
+        "advertisementAria": "Anúncio: livro de atividades de ligar pontos Best of 2026",
+        "viewPackAria": "Ver o pacote de quebra-cabeças de ligar pontos Best of 2026"
       },
       "shared": {
         "specialSale": "OFERTA ESPECIAL",
@@ -493,8 +506,8 @@
           "classroomUse": "Pode ser usado em casa ou em uma sala de aula"
         },
         "guaranteeText": "Depois da compra, seu link de download privado aparece na hora. Sem assinatura e sem renovação surpresa.",
-        "heading": "Mais quebra-cabeças. Menos busca. Tudo em um único PDF prático.",
-        "detailsHeading": "Tudo o que você precisa para se divertir longe das telas",
+        "heading": "Mais quebra-cabeças. Menos busca. Tudo em um PDF conveniente.",
+        "detailsHeading": "Tudo o que você precisa para diversão sem telas",
         "guaranteeHeading": "Simples, seguro e pronto em minutos"
       },
       "checkout": {
@@ -507,12 +520,14 @@
       "success": {
         "metaTitle": "Obrigado pela sua compra",
         "eyebrow": "Pagamento confirmado",
-        "lede": "Seu pagamento foi aprovado. Pode levar alguns segundos até a compra aparecer na sua conta."
+        "lede": "Seu pagamento foi aprovado. Pode levar alguns segundos até a compra aparecer na sua conta.",
+        "heading": "Obrigado! Sua compra foi concluída."
       },
       "cancelled": {
         "metaTitle": "Checkout cancelado",
         "eyebrow": "Nenhum pagamento realizado",
-        "lede": "Nenhuma cobrança foi feita. Você pode tentar novamente quando quiser."
+        "lede": "Nenhuma cobrança foi feita. Você pode tentar novamente quando quiser.",
+        "heading": "Pagamento cancelado"
       },
       "download": {
         "demoTitle": "Teste de checkout local concluído com sucesso.",
@@ -533,11 +548,11 @@
       "difficultyHard": "Duro",
       "funFactPrefix": "Curiosidade:",
       "funFactLabel": "Curiosidade!",
-      "noSignUp": "Não é necessária inscrição.Abre como PDF.Imprima em papel US Letter (8,5 × 11 polegadas) ou A4.Gratuito para uso doméstico e em sala de aula.",
+      "noSignUp": "Não é necessária inscrição. Abre como PDF. Imprima em papel US Letter (8,5 × 11 polegadas) ou A4. Gratuito para uso doméstico e em sala de aula.",
       "comingSoon": "Baixe PDF grátis – em breve",
       "youMightLike": "Você também pode gostar",
-      "faqQ1": "Para que idade serve o quebra-cabeça {nome} ponto a ponto?",
-      "faqA1": "Ele foi projetado para idades {age}.Com {pontos} pontos, é adequado para crianças que podem contar até {pontos} com segurança;as crianças mais novas podem completá-lo com um pouco de ajuda.",
+      "faqQ1": "Para que idade serve o quebra-cabeça {name} ponto a ponto?",
+      "faqA1": "Ele foi projetado para idades {age}.Com {dots} pontos, é adequado para crianças que podem contar até {dots} com segurança;as crianças mais novas podem completá-lo com um pouco de ajuda.",
       "faqQ2": "Como imprimo a planilha {nome}?",
       "faqA2": "Clique no botão de download para obter o PDF gratuito e imprima-o em papel comum (A4 ou US Letter) em qualquer navegador ou leitor de PDF.Nenhum software especial é necessário.",
       "faqQ3": "A impressão de {nome} é realmente gratuita?",
@@ -548,11 +563,11 @@
     "downloadButton": {
       "label": "Baixe PDF para impressão grátis",
       "usage": "Gratuito para uso doméstico e em sala de aula.",
-      "paperNote": "Dimensionado para papel {tamanho}.",
+      "paperNote": "Dimensionado para papel {size}.",
       "paperLetter": "Carta dos EUA",
       "paperA4": "A4",
-      "alternateLink": "Prefere {tamanho}?Baixe essa versão",
-      "downloadSize": "Baixar (tamanho de impressão: {tamanho})"
+      "alternateLink": "Prefere {size}?Baixe essa versão",
+      "downloadSize": "Baixar (tamanho de impressão: {size})"
     },
     "downloadBadge": {
       "downloaded": "Baixado",

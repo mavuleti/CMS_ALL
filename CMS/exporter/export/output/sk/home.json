@@ -109,7 +109,8 @@
         "usa250": "Nové!",
         "uae": "Teraz k dispozícii!",
         "cute": "Nové!",
-        "circus": "Nové!"
+        "circus": "Nové!",
+        "planes": "Nové!"
       },
       "items": {
         "dinosaurs": {
@@ -171,6 +172,10 @@
         "circus": {
           "name": "Cirkus",
           "description": "Majitelia arény, veľké stany a zábava na predstaveniach pre mladých žiakov."
+        },
+        "planes": {
+          "name": "Lietadlá",
+          "description": "Stíhačky, súkromné lietadlá, papierové lietadielka a klzáky pre malých leteckých nadšencov."
         }
       }
     },
@@ -543,15 +548,17 @@
       "difficultyHard": "Ťažko",
       "funFactPrefix": "Zábavný fakt:",
       "funFactLabel": "Zábavný fakt!",
-      "noSignUp": "Nie je potrebná žiadna registrácia.Otvorí sa ako PDF.Tlačte na papier US Letter (8,5 × 11 palcov) alebo A4.Zadarmo pre použitie doma a v triede.",
+      "noSignUp": "Nie je potrebná žiadna registrácia. Otvorí sa ako PDF. Tlačte na papier US Letter (8,5 × 11 palcov) alebo A4. Zadarmo pre použitie doma a v triede.",
       "comingSoon": "Stiahnite si zadarmo PDF – už čoskoro",
       "youMightLike": "Tiež by sa vám mohlo páčiť",
       "faqQ1": "Pre aký vek je hlavolam {name} bodka k bodke?",
-      "faqA1": "Je určený pre vek {vek}.S {bodkami} bodkami to vyhovuje deťom, ktoré vedia s istotou počítať do {bodiek};mladšie deti ho s malou pomocou zvládnu.",
+      "faqA1": "Je určený pre vek {age}.S {dots} bodkami to vyhovuje deťom, ktoré vedia s istotou počítať do {dots};mladšie deti ho s malou pomocou zvládnu.",
       "faqQ2": "Ako vytlačím pracovný hárok {name}?",
       "faqA2": "Kliknutím na tlačidlo sťahovania získate bezplatný súbor PDF a potom ho vytlačte na bežný papier (A4 alebo US Letter) z ľubovoľného prehliadača alebo čítačky PDF.Nie je potrebný žiadny špeciálny softvér.",
       "faqQ3": "Je tlač {name} skutočne zadarmo?",
-      "faqA3": "Áno – je to 100 % zadarmo, nevyžaduje sa žiadna registrácia, účet ani platba.Môžete si ho vytlačiť doma alebo v triede."
+      "faqA3": "Áno – je to 100 % zadarmo, nevyžaduje sa žiadna registrácia, účet ani platba.Môžete si ho vytlačiť doma alebo v triede.",
+      "exampleCompletedEyebrow": "Vyrobil mladý umelec",
+      "exampleCompletedHeading": "Príklad dokončeného puzzle"
     },
     "downloadButton": {
       "label": "Stiahnite si zadarmo tlač PDF",
@@ -619,6 +626,11 @@
     },
     "usa250Page": {
       "category": "250. výročie USA"
+    },
+    "notFound": {
+      "heading": "Stránka nenájdená",
+      "message": "Prepáčte, nepodarilo sa nám nájsť hľadanú stránku. Mohla byť presunutá alebo odstránená.",
+      "categoriesHeading": "Obľúbené kategórie"
     }
   }
 }

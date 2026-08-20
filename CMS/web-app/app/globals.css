@@ -3897,7 +3897,11 @@ main:focus { outline: none; }
     text-align: center;
   }
   .discovery-filter-icon { grid-row: 1 / 3; width: 25px; height: 25px; }
-  .discovery-filter-copy { align-self: end; display: flex; flex-direction: column; align-items: flex-start; gap: 0; }
+  /* overflow-wrap so long unbroken words in other locales (e.g. Finnish
+     "Keskikokoinen") wrap inside the narrow 3-column grid instead of
+     overflowing the button — see i18n-layout.spec.ts "clipped links/buttons". */
+  .discovery-filter-copy { align-self: end; display: flex; flex-direction: column; align-items: flex-start; gap: 0; min-width: 0; width: 100%; }
+  .discovery-filter-copy strong, .discovery-filter-copy > span { min-width: 0; width: 100%; overflow-wrap: break-word; }
   .discovery-filter-copy strong { font-size: .72rem; }
   .discovery-filter-copy > span { font-size: .65rem; }
   .discovery-newsletter { padding: 12px; gap: 10px; }

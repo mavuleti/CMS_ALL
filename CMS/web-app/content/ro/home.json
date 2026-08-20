@@ -109,7 +109,8 @@
         "usa250": "Nou!",
         "uae": "Disponibil acum!",
         "cute": "Nou!",
-        "circus": "Nou!"
+        "circus": "Nou!",
+        "planes": "Nou!"
       },
       "items": {
         "dinosaurs": {
@@ -171,6 +172,10 @@
         "circus": {
           "name": "Circ",
           "description": "Maestri de ring, corturi mari și distracție de spectacol pentru tinerii învățăcei."
+        },
+        "planes": {
+          "name": "Avioane",
+          "description": "Avioane de vânătoare, avioane private, avioane din hârtie și planoare pentru micii pasionați de aviație."
         }
       }
     },
@@ -350,7 +355,13 @@
       "privacy": "Confidențialitate",
       "terms": "Termeni",
       "sitemap": "Harta site-ului",
-      "copyright": "© {year} DotToDotFreePrintables.com · Activități imprimabile gratuite pentru copii"
+      "copyright": "© {year} DotToDotFreePrintables.com · Activități imprimabile gratuite pentru copii",
+      "hubAges46": "Vârste 4-6",
+      "hubAges79": "Vârste 7-9",
+      "hubAges912": "Vârste 9-12",
+      "hubDifficultyMedium": "Puzzle-uri Medii",
+      "hubDifficultyHard": "Puzzle-uri Grele",
+      "hubNavLabel": "Răsfoiește după vârstă sau dificultate"
     },
     "common": {
       "home": "Acasă",
@@ -463,7 +474,9 @@
         "pdfBook": "CARTE PDF",
         "bookTitle": "Cele mai bune din 2026",
         "puzzleCount": "25 de puzzle-uri punct la punct",
-        "viewBook": "Vezi cartea"
+        "viewBook": "Vezi cartea",
+        "advertisementAria": "Reclamă: cartea de activități unește punctele Best of 2026",
+        "viewPackAria": "Vezi pachetul de puzzle-uri unește punctele Best of 2026"
       },
       "shared": {
         "specialSale": "OFERT? SPECIAL?",
@@ -493,7 +506,7 @@
           "classroomUse": "Poate fi folosit acasă sau într-o singură sală de clasă"
         },
         "guaranteeText": "După finalizarea plății, linkul tău privat de descărcare apare imediat. Fără abonament și fără reînnoire surpriză.",
-        "heading": "Mai multe puzzle-uri. Mai puțină căutare. Totul într-un singur PDF practic.",
+        "heading": "Mai multe puzzle-uri. Mai puține căutări. Totul într-un singur PDF convenabil.",
         "detailsHeading": "Tot ce ai nevoie pentru distracție fără ecrane",
         "guaranteeHeading": "Simplu, sigur și gata în câteva minute"
       },
@@ -507,12 +520,14 @@
       "success": {
         "metaTitle": "Îți mulțumim pentru achiziție",
         "eyebrow": "Plată confirmată",
-        "lede": "Plata ta a fost efectuată cu succes. Poate dura câteva secunde până când achiziția apare în contul tău."
+        "lede": "Plata ta a fost efectuată cu succes. Poate dura câteva secunde până când achiziția apare în contul tău.",
+        "heading": "Mulțumim! Achiziția ta este finalizată."
       },
       "cancelled": {
         "metaTitle": "Plată anulată",
         "eyebrow": "Nu a fost efectuată nicio plată",
-        "lede": "Nu a fost efectuată nicio taxă. Poți încerca din nou oricând."
+        "lede": "Nu a fost efectuată nicio taxă. Poți încerca din nou oricând.",
+        "heading": "Plata a fost anulată"
       },
       "download": {
         "demoTitle": "Testul local de plată a fost finalizat cu succes.",
@@ -533,11 +548,11 @@
       "difficultyHard": "Greu",
       "funFactPrefix": "Fapt amuzant:",
       "funFactLabel": "Fapt amuzant!",
-      "noSignUp": "Nu este nevoie de înscriere.Se deschide ca PDF.Imprimați pe hârtie US Letter (8,5 × 11 inchi) sau A4.Gratuit pentru utilizare acasă și la clasă.",
+      "noSignUp": "Nu este nevoie de înscriere. Se deschide ca PDF. Imprimați pe hârtie US Letter (8,5 × 11 inchi) sau A4. Gratuit pentru utilizare acasă și la clasă.",
       "comingSoon": "Descărcați PDF gratuit – În curând",
       "youMightLike": "S-ar putea să-ți placă și",
       "faqQ1": "Pentru ce vârstă este puzzle-ul punct cu punct {name}?",
-      "faqA1": "Este conceput pentru vârste {vârsta}.Cu {dots} puncte, se potrivește copiilor care pot număra cu încredere până la {dots};copiii mai mici îl pot completa cu puțin ajutor.",
+      "faqA1": "Este conceput pentru vârste {age}.Cu {dots} puncte, se potrivește copiilor care pot număra cu încredere până la {dots};copiii mai mici îl pot completa cu puțin ajutor.",
       "faqQ2": "Cum pot imprima foaia de lucru {name}?",
       "faqA2": "Faceți clic pe butonul de descărcare pentru a obține PDF-ul gratuit, apoi tipăriți-l pe hârtie obișnuită (A4 sau US Letter) din orice browser sau cititor PDF.Nu este nevoie de software special.",
       "faqQ3": "Este {name} imprimabil cu adevărat gratuit?",

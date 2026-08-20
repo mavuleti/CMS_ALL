@@ -109,7 +109,8 @@
         "usa250": "Neu!",
         "uae": "Jetzt verfügbar!",
         "cute": "Neu!",
-        "circus": "Neu!"
+        "circus": "Neu!",
+        "planes": "Neu!"
       },
       "items": {
         "dinosaurs": {
@@ -171,6 +172,10 @@
         "circus": {
           "name": "Zirkus",
           "description": "Ringmeister, große Zelte und Showspaß für junge Lernende."
+        },
+        "planes": {
+          "name": "Flugzeuge",
+          "description": "Kampfjets, Privatjets, Papierflieger und Segelflugzeuge für kleine Luftfahrtfans."
         }
       }
     },
@@ -543,15 +548,17 @@
       "difficultyHard": "Hart",
       "funFactPrefix": "Interessante Tatsache:",
       "funFactLabel": "Lustige Tatsache!",
-      "noSignUp": "Keine Anmeldung erforderlich.Öffnet als PDF.Drucken Sie auf US-Letter- (8,5 × 11 Zoll) oder A4-Papier.Kostenlos für den Gebrauch zu Hause und im Klassenzimmer.",
+      "noSignUp": "Keine Anmeldung erforderlich. Öffnet als PDF. Drucken Sie auf US-Letter- (8,5 × 11 Zoll) oder A4-Papier. Kostenlos für den Gebrauch zu Hause und im Klassenzimmer.",
       "comingSoon": "Kostenloses PDF herunterladen – Demnächst verfügbar",
       "youMightLike": "Das könnte Ihnen auch gefallen",
-      "faqQ1": "Für welches Alter ist das Punkt-zu-Punkt-Rätsel {Name} geeignet?",
-      "faqA1": "Es ist für Kinder ab {Alter} konzipiert.Mit {dots} dots eignet es sich für Kinder, die sicher bis {dots} zählen können;Jüngere Kinder können es mit etwas Hilfe vervollständigen.",
+      "faqQ1": "Für welches Alter ist das Punkt-zu-Punkt-Rätsel {name} geeignet?",
+      "faqA1": "Es ist für Kinder ab {age} konzipiert.Mit {dots} dots eignet es sich für Kinder, die sicher bis {dots} zählen können;Jüngere Kinder können es mit etwas Hilfe vervollständigen.",
       "faqQ2": "Wie drucke ich das Arbeitsblatt „{name}“ aus?",
       "faqA2": "Klicken Sie auf den Download-Button, um das kostenlose PDF zu erhalten, und drucken Sie es dann in einem beliebigen Browser oder PDF-Reader auf Normalpapier (A4 oder US-Letter) aus.Es ist keine spezielle Software erforderlich.",
       "faqQ3": "Ist die Druckversion von {name} wirklich kostenlos?",
-      "faqA3": "Ja – es ist 100 % kostenlos, eine Anmeldung, ein Konto oder eine Zahlung sind nicht erforderlich.Sie können es für den Gebrauch zu Hause oder im Klassenzimmer ausdrucken."
+      "faqA3": "Ja – es ist 100 % kostenlos, eine Anmeldung, ein Konto oder eine Zahlung sind nicht erforderlich.Sie können es für den Gebrauch zu Hause oder im Klassenzimmer ausdrucken.",
+      "exampleCompletedEyebrow": "Hergestellt von einem jungen Künstler",
+      "exampleCompletedHeading": "Beispiel für ein abgeschlossenes Puzzle"
     },
     "downloadButton": {
       "label": "Laden Sie das kostenlose druckbare PDF herunter",
@@ -559,7 +566,7 @@
       "paperNote": "Größe für Papier der Größe {size}.",
       "paperLetter": "US-Brief",
       "paperA4": "A4",
-      "alternateLink": "Bevorzugen Sie {Größe}?Laden Sie diese Version herunter",
+      "alternateLink": "Bevorzugen Sie {size}?Laden Sie diese Version herunter",
       "downloadSize": "Herunterladen (Druckgröße: {size})"
     },
     "downloadBadge": {
@@ -619,6 +626,11 @@
     },
     "usa250Page": {
       "category": "250. Jahrestag der USA"
+    },
+    "notFound": {
+      "heading": "Seite nicht gefunden",
+      "message": "Entschuldigung, wir konnten die gesuchte Seite nicht finden. Sie wurde möglicherweise verschoben oder gelöscht.",
+      "categoriesHeading": "Beliebte Kategorien"
     }
   }
 }

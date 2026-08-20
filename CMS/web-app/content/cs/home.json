@@ -109,7 +109,8 @@
         "usa250": "Nový!",
         "uae": "Nyní k dispozici!",
         "cute": "Nový!",
-        "circus": "Nové!"
+        "circus": "Nové!",
+        "planes": "Nové!"
       },
       "items": {
         "dinosaurs": {
@@ -171,6 +172,10 @@
         "circus": {
           "name": "Cirkus",
           "description": "Mistrův kruh, velké stany a zábava na show pro mladé učitele."
+        },
+        "planes": {
+          "name": "Letadla",
+          "description": "Stíhačky, soukromá letadla, papírové letadélka a kluzáky pro malé letecké nadšence."
         }
       }
     },
@@ -350,7 +355,13 @@
       "privacy": "Soukromí",
       "terms": "Podmínky",
       "sitemap": "Mapa stránek",
-      "copyright": "© {year} DotToDotFreePrintables.com · Aktivity pro děti k vytisknutí zdarma"
+      "copyright": "© {year} DotToDotFreePrintables.com · Aktivity pro děti k vytisknutí zdarma",
+      "hubAges46": "Věk 4-6",
+      "hubAges79": "Věk 7-9",
+      "hubAges912": "Věk 9-12",
+      "hubDifficultyMedium": "Střední skládačky",
+      "hubDifficultyHard": "Těžké skládačky",
+      "hubNavLabel": "Procházet podle věku nebo obtížnosti"
     },
     "common": {
       "home": "Domov",
@@ -463,7 +474,9 @@
         "pdfBook": "KNIHA PDF",
         "bookTitle": "Nejlepší z roku 2026",
         "puzzleCount": "25 hádanek typu tečka k tečce",
-        "viewBook": "Zobrazit knihu"
+        "viewBook": "Zobrazit knihu",
+        "advertisementAria": "Reklama: aktivitní kniha Best of 2026 spoj čísla",
+        "viewPackAria": "Zobrazit balíček puzzle Best of 2026 spoj čísla"
       },
       "shared": {
         "specialSale": "Speciální prodej",
@@ -507,12 +520,14 @@
       "success": {
         "metaTitle": "Děkujeme za váš nákup",
         "eyebrow": "Platba potvrzena",
-        "lede": "Vaše platba byla úspěšná. Zobrazení nákupu ve vašem účtu může trvat několik sekund."
+        "lede": "Vaše platba byla úspěšná. Zobrazení nákupu ve vašem účtu může trvat několik sekund.",
+        "heading": "Děkujeme! Váš nákup je dokončen."
       },
       "cancelled": {
         "metaTitle": "Platba zrušena",
         "eyebrow": "Žádná platba nebyla provedena",
-        "lede": "Nebyl účtován žádný poplatek. Můžete to kdykoli zkusit znovu."
+        "lede": "Nebyl účtován žádný poplatek. Můžete to kdykoli zkusit znovu.",
+        "heading": "Platba byla zrušena"
       },
       "download": {
         "demoTitle": "Místní test pokladny byl úspěšný.",
@@ -533,11 +548,11 @@
       "difficultyHard": "Tvrdý",
       "funFactPrefix": "Zajímavý fakt:",
       "funFactLabel": "Zábavný fakt!",
-      "noSignUp": "Není potřeba žádná registrace.Otevře se jako PDF.Tiskněte na papír US Letter (8,5 × 11 palců) nebo A4.Zdarma pro použití doma a ve třídě.",
+      "noSignUp": "Není potřeba žádná registrace. Otevře se jako PDF. Tiskněte na papír US Letter (8,5 × 11 palců) nebo A4. Zdarma pro použití doma a ve třídě.",
       "comingSoon": "Stáhněte si zdarma PDF – již brzy",
       "youMightLike": "Také by se vám mohlo líbit",
       "faqQ1": "Pro jaký věk je {name} puzzle tečka k tečce?",
-      "faqA1": "Je určen pro věkové skupiny {age}.S {tečkami} tečkami to vyhovuje dětem, které umí s jistotou počítat do {teček};mladší děti jej s malou pomocí doplní.",
+      "faqA1": "Je určen pro věkové skupiny {age}.S {dots} tečkami to vyhovuje dětem, které umí s jistotou počítat do {dots};mladší děti jej s malou pomocí doplní.",
       "faqQ2": "Jak vytisknu pracovní list {name}?",
       "faqA2": "Kliknutím na tlačítko stažení získáte bezplatný soubor PDF a poté jej vytiskněte na běžný papír (A4 nebo US Letter) z libovolného prohlížeče nebo čtečky PDF.Není potřeba žádný speciální software.",
       "faqQ3": "Je {name} k vytisknutí opravdu zdarma?",

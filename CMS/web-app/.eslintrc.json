@@ -3,7 +3,7 @@
   "overrides": [
     {
       "files": ["components/**/*.tsx", "app/**/*.tsx"],
-      "excludedFiles": ["**/*.test.tsx", "**/*.stories.tsx", "app/rtl-preview/**"],
+      "excludedFiles": ["**/*.test.tsx", "**/*.stories.tsx", "app/(non-locale)/rtl-preview/**"],
       "rules": {
         "no-restricted-syntax": [
           "error",

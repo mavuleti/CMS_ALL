@@ -109,7 +109,8 @@
         "usa250": "Nouveau!",
         "uae": "Disponible dès maintenant !",
         "cute": "Nouveau!",
-        "circus": "Nouveau !"
+        "circus": "Nouveau !",
+        "planes": "Nouveau !"
       },
       "items": {
         "dinosaurs": {
@@ -171,6 +172,10 @@
         "circus": {
           "name": "Cirque",
           "description": "Maîtres de cérémonie, grands chapiteaux et plaisir de spectacle pour les jeunes apprenants."
+        },
+        "planes": {
+          "name": "Avions",
+          "description": "Avions de chasse, jets privés, avions en papier et planeurs pour les jeunes passionnés d'aviation."
         }
       }
     },
@@ -350,7 +355,13 @@
       "privacy": "Confidentialité",
       "terms": "Termes",
       "sitemap": "Plan du site",
-      "copyright": "© {year} DotToDotFreePrintables.com · Activités imprimables gratuites pour enfants"
+      "copyright": "© {year} DotToDotFreePrintables.com · Activités imprimables gratuites pour enfants",
+      "hubAges46": "Âges 4-6",
+      "hubAges79": "Âges 7-9",
+      "hubAges912": "Âges 9-12",
+      "hubDifficultyMedium": "Puzzles Moyens",
+      "hubDifficultyHard": "Puzzles Difficiles",
+      "hubNavLabel": "Parcourir par âge ou difficulté"
     },
     "common": {
       "home": "Maison",
@@ -463,7 +474,9 @@
         "pdfBook": "LIVRE PDF",
         "bookTitle": "Le meilleur de 2026",
         "puzzleCount": "25 jeux de points ? relier",
-        "viewBook": "Voir le livre"
+        "viewBook": "Voir le livre",
+        "advertisementAria": "Publicité : livre d'activités points à relier Best of 2026",
+        "viewPackAria": "Voir le pack de puzzles points à relier Best of 2026"
       },
       "shared": {
         "specialSale": "Vente spéciale",
@@ -493,7 +506,7 @@
           "classroomUse": "Utilisable à la maison ou dans une seule classe"
         },
         "guaranteeText": "Après le paiement, votre lien de téléchargement privé apparaît immédiatement. Pas d'abonnement, pas de renouvellement surprise.",
-        "heading": "Plus de jeux. Moins de recherche. Tout dans un seul PDF pratique.",
+        "heading": "Plus de puzzles. Moins de recherche. Tout dans un seul PDF pratique.",
         "detailsHeading": "Tout ce qu'il faut pour s'amuser sans écran",
         "guaranteeHeading": "Simple, sécurisé et prêt en quelques minutes"
       },
@@ -507,12 +520,14 @@
       "success": {
         "metaTitle": "Merci pour votre achat",
         "eyebrow": "Paiement confirmé",
-        "lede": "Votre paiement a été effectué avec succès. Il peut s'écouler quelques secondes avant que votre achat n'apparaisse sur votre compte."
+        "lede": "Votre paiement a été effectué avec succès. Il peut s'écouler quelques secondes avant que votre achat n'apparaisse sur votre compte.",
+        "heading": "Merci ! Votre achat est terminé."
       },
       "cancelled": {
         "metaTitle": "Paiement annulé",
         "eyebrow": "Aucun paiement effectué",
-        "lede": "Aucun montant n'a été débité. Vous pouvez réessayer à tout moment."
+        "lede": "Aucun montant n'a été débité. Vous pouvez réessayer à tout moment.",
+        "heading": "Paiement annulé"
       },
       "download": {
         "demoTitle": "Le test de paiement local a réussi.",
@@ -533,7 +548,7 @@
       "difficultyHard": "Dur",
       "funFactPrefix": "Fait amusant :",
       "funFactLabel": "Fait amusant !",
-      "noSignUp": "Aucune inscription nécessaire.S'ouvre au format PDF.Imprimez sur du papier US Letter (8,5 × 11 pouces) ou A4.Gratuit pour une utilisation à la maison et en classe.",
+      "noSignUp": "Aucune inscription nécessaire. S'ouvre au format PDF. Imprimez sur du papier US Letter (8,5 × 11 pouces) ou A4. Gratuit pour une utilisation à la maison et en classe.",
       "comingSoon": "Télécharger le PDF gratuit – Bientôt disponible",
       "youMightLike": "Vous aimerez peut-être aussi",
       "faqQ1": "À quel âge est destiné le puzzle point à point {name} ?",
@@ -548,10 +563,10 @@
     "downloadButton": {
       "label": "Télécharger le PDF imprimable gratuit",
       "usage": "Gratuit pour une utilisation à la maison et en classe.",
-      "paperNote": "Dimensionné pour le papier {taille}.",
+      "paperNote": "Dimensionné pour le papier {size}.",
       "paperLetter": "Lettre américaine",
       "paperA4": "A4",
-      "alternateLink": "Vous préférez {taille} ?Téléchargez cette version",
+      "alternateLink": "Vous préférez {size} ?Téléchargez cette version",
       "downloadSize": "Télécharger (Taille d'impression : {size})"
     },
     "downloadBadge": {

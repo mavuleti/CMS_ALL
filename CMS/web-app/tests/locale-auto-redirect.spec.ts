@@ -21,12 +21,11 @@ test.describe('locale auto-redirect', () => {
     const page = await context.newPage();
 
     await page.goto(`${baseURL}/en/`);
-    await page.waitForTimeout(300);
+    await expect.poll(async () => {
+      const cookies = await context.cookies();
+      return cookies.find((c) => c.name === 'preferred-locale')?.value;
+    }).toBe('en');
     expect(page.url()).toBe(`${baseURL}/en/`);
-
-    const cookies = await context.cookies();
-    const preferred = cookies.find((c) => c.name === 'preferred-locale');
-    expect(preferred?.value).toBe('en');
 
     await context.close();
   });

@@ -109,7 +109,8 @@
         "usa250": "Yeni!",
         "uae": "İndi mövcuddur!",
         "cute": "Yeni!",
-        "circus": "Yeni!"
+        "circus": "Yeni!",
+        "planes": "Yeni!"
       },
       "items": {
         "dinosaurs": {
@@ -171,6 +172,10 @@
         "circus": {
           "name": "Sirkin",
           "description": "Rinq ustaları, böyük çadırlar və gənc öyrənənlər üçün şou vaxtı əyləncəsi."
+        },
+        "planes": {
+          "name": "Təyyarələr",
+          "description": "Qırıcı təyyarələr, xüsusi təyyarələr, kağız təyyarələr və planerlər — kiçik aviasiya həvəskarları üçün."
         }
       }
     },
@@ -543,15 +548,17 @@
       "difficultyHard": "Çətin",
       "funFactPrefix": "Əyləncəli fakt:",
       "funFactLabel": "Əyləncəli fakt!",
-      "noSignUp": "Qeydiyyata ehtiyac yoxdur.PDF olaraq açılır.US Letter (8,5 × 11 düym) və ya A4 kağızında çap edin.Evdə və sinifdə istifadə üçün pulsuzdur.",
+      "noSignUp": "Qeydiyyata ehtiyac yoxdur. PDF olaraq açılır. US Letter (8,5 × 11 düym) və ya A4 kağızında çap edin. Evdə və sinifdə istifadə üçün pulsuzdur.",
       "comingSoon": "Pulsuz PDF Yükləyin – Tezliklə",
       "youMightLike": "Siz də bəyənə bilərsiniz",
       "faqQ1": "{name} nöqtədən nöqtəyə tapmaca neçə yaş üçündür?",
-      "faqA1": "O, {yaş} yaş üçün nəzərdə tutulmuşdur.{nöqtələr} nöqtələri ilə o, {nöqtələrə} inamla saya bilən uşaqlar üçün uyğundur;kiçik uşaqlar bunu bir az köməklə tamamlaya bilərlər.",
+      "faqA1": "O, {age} yaş üçün nəzərdə tutulmuşdur.{dots} nöqtələri ilə o, {dots} inamla saya bilən uşaqlar üçün uyğundur;kiçik uşaqlar bunu bir az köməklə tamamlaya bilərlər.",
       "faqQ2": "{name} iş vərəqini necə çap edə bilərəm?",
       "faqA2": "Pulsuz PDF əldə etmək üçün yükləmə düyməsini klikləyin, sonra onu istənilən brauzerdən və ya PDF oxuyucudan adi kağıza (A4 və ya ABŞ məktubu) çap edin.Heç bir xüsusi proqram tələb olunmur.",
       "faqQ3": "{name} həqiqətən pulsuz çap edilə bilərmi?",
-      "faqA3": "Bəli - 100% pulsuzdur, qeydiyyat, hesab və ya ödəniş tələb olunmur.Siz onu evdə və ya sinifdə istifadə etmək üçün çap edə bilərsiniz."
+      "faqA3": "Bəli - 100% pulsuzdur, qeydiyyat, hesab və ya ödəniş tələb olunmur.Siz onu evdə və ya sinifdə istifadə etmək üçün çap edə bilərsiniz.",
+      "exampleCompletedEyebrow": "Gənc rəssam tərəfindən hazırlanmışdır",
+      "exampleCompletedHeading": "Tamamlanmış Tapmaca nümunəsi"
     },
     "downloadButton": {
       "label": "Pulsuz çap edilə bilən PDF yükləyin",
@@ -619,6 +626,11 @@
     },
     "usa250Page": {
       "category": "ABŞ-ın 250 illik yubileyi"
+    },
+    "notFound": {
+      "heading": "Səhifə Tapılmadı",
+      "message": "Üzr istəyirik, axtardığınız səhifəni tapa bilmədik. O, silinmiş və ya adı dəyişdirilmiş ola bilər.",
+      "categoriesHeading": "Populyar Kateqoriyalar"
     }
   }
 }

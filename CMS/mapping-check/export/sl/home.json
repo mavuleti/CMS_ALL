@@ -109,7 +109,8 @@
         "usa250": "Novo!",
         "uae": "Na voljo zdaj!",
         "cute": "Novo!",
-        "circus": "Novo!"
+        "circus": "Novo!",
+        "planes": "Novo!"
       },
       "items": {
         "dinosaurs": {
@@ -171,6 +172,10 @@
         "circus": {
           "name": "Cirkus",
           "description": "Voditelji ringa, veliki šotori in zabava ob predstavi za mlade učence."
+        },
+        "planes": {
+          "name": "Letala",
+          "description": "Lovska letala, zasebna letala, papirnata letala in jadralna letala za male ljubitelje letalstva."
         }
       }
     },
@@ -543,15 +548,17 @@
       "difficultyHard": "težko",
       "funFactPrefix": "zabavno dejstvo:",
       "funFactLabel": "Zabavno dejstvo!",
-      "noSignUp": "Prijava ni potrebna.Odpre se kot PDF.Natisnite na papir US Letter (8,5 × 11 palcev) ali A4.Brezplačno za uporabo doma in v razredu.",
+      "noSignUp": "Prijava ni potrebna. Odpre se kot PDF. Natisnite na papir US Letter (8,5 × 11 palcev) ali A4. Brezplačno za uporabo doma in v razredu.",
       "comingSoon": "Prenesite brezplačen PDF – kmalu na voljo",
       "youMightLike": "Morda vam bo všeč tudi",
       "faqQ1": "Za katero starost je uganka {name} od pike do pike?",
-      "faqA1": "Zasnovan je za starost {age}.S {dots} pikami je primeren za otroke, ki lahko samozavestno štejejo do {pik};mlajši otroci ga lahko dokončajo z malo pomoči.",
+      "faqA1": "Zasnovan je za starost {age}.S {dots} pikami je primeren za otroke, ki lahko samozavestno štejejo do {dots};mlajši otroci ga lahko dokončajo z malo pomoči.",
       "faqQ2": "Kako natisnem delovni list {name}?",
       "faqA2": "Kliknite gumb za prenos, da dobite brezplačen PDF, nato pa ga natisnite na običajen papir (A4 ali US Letter) iz katerega koli brskalnika ali bralnika PDF.Posebna programska oprema ni potrebna.",
       "faqQ3": "Je {name} za tiskanje res brezplačen?",
-      "faqA3": "Da — je 100 % brezplačen, brez prijave, računa ali plačila.Lahko ga natisnete za uporabo doma ali v razredu."
+      "faqA3": "Da — je 100 % brezplačen, brez prijave, računa ali plačila.Lahko ga natisnete za uporabo doma ali v razredu.",
+      "exampleCompletedEyebrow": "Izdelal mlad umetnik",
+      "exampleCompletedHeading": "Primer dokončane uganke"
     },
     "downloadButton": {
       "label": "Prenesite brezplačen PDF za tiskanje",
@@ -619,6 +626,11 @@
     },
     "usa250Page": {
       "category": "250. obletnica ZDA"
+    },
+    "notFound": {
+      "heading": "Stran ni najdena",
+      "message": "Oprostite, iskane strani nismo našli. Morda je bila premaknjena ali izbrisana.",
+      "categoriesHeading": "Priljubljene kategorije"
     }
   }
 }

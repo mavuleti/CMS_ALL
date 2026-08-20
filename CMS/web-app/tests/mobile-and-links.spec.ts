@@ -141,7 +141,7 @@ test.describe('Home page — mobile layout', () => {
 test.describe('Dinosaurs page — content', () => {
   test('page heading is correct', async ({ page }) => {
     await page.goto(en('/dinosaurs/'));
-    await expect(page.getByRole('heading', { name: /dinosaur dot to dot printables for kids/i })).toBeVisible();
+    await expect(page.getByRole('heading', { name: /dinosaur dot to dot printable worksheets for kids/i })).toBeVisible();
   });
 
   test('breadcrumb shows Home > Dinosaurs', async ({ page }) => {
@@ -174,7 +174,7 @@ test.describe('Dinosaurs page — content', () => {
     await expect(image).toHaveAttribute('src', '/images/triceratops-puzzle-400.webp');
     await expect(image).toHaveAttribute(
       'srcset',
-      '/images/triceratops-puzzle-400.webp 400w, /images/triceratops-puzzle-600.webp 600w, /images/triceratops-puzzle-700.webp 700w, /images/triceratops-puzzle.webp 420w'
+      '/images/triceratops-puzzle-400.webp 400w, /images/triceratops-puzzle-600.webp 600w, /images/triceratops-puzzle-700.webp 700w, /images/triceratops-puzzle.webp 800w, /images/triceratops-puzzle-1200.webp 1200w'
     );
   });
 
@@ -198,7 +198,7 @@ test.describe('Dinosaurs page — content', () => {
     await expect(
       page.getByRole('heading', { level: 1, name: /brontosaurus dot to dot/i })
     ).toBeVisible();
-    await expect(page.getByText(/dots:\s*1.*50/i)).toBeVisible();
+    await expect(page.locator('.chip', { hasText: /dots:\s*1.*50/i })).toBeVisible();
     await expect(
       page.getByRole('link', { name: /us letter.*download free brontosaurus dot-to-dot printable pdf/i })
     ).toHaveAttribute(
@@ -296,7 +296,7 @@ test.describe('T-Rex 61-dot puzzle page — content', () => {
 
   test('back link goes to /dinosaurs', async ({ page }) => {
     await page.goto(en('/dinosaurs/trex-61-dot-to-dot-puzzle/'));
-    await expect(page.getByRole('link', { name: /back to all dinosaur puzzles/i })).toHaveAttribute('href', '/en/dinosaurs/');
+    await expect(page.locator('nav.breadcrumb').getByRole('link', { name: /dinosaurs/i })).toHaveAttribute('href', '/en/dinosaurs/');
   });
 
   test('JSON-LD CreativeWork schema is present', async ({ page }) => {
@@ -317,13 +317,16 @@ test.describe('T-Rex 61-dot puzzle page — content', () => {
 });
 
 test.describe('Coming-soon puzzle pages (dummy assets)', () => {
+  // lib/dinosaurs-data.ts's brachiosaurus/ankylosaurus/allosaurus shells are
+  // `show: false` — deliberately excluded from generateStaticParams until
+  // real image/PDF assets replace their `dummy-*` placeholders, so these
+  // routes are never built and fall through to the site's 404 page.
   const dummySlugs = ['brachiosaurus', 'ankylosaurus', 'allosaurus'];
 
   for (const slug of dummySlugs) {
-    test(`${slug} page loads and shows coming soon button`, async ({ page }) => {
-      await page.goto(en(`/dinosaurs/${slug}/`));
-      await expect(page.getByRole('heading', { level: 1 })).toBeVisible();
-      await expect(page.getByText(/coming soon/i).first()).toBeVisible();
+    test(`${slug} page is not published (show: false)`, async ({ page }) => {
+      const response = await page.goto(en(`/dinosaurs/${slug}/`));
+      expect(response?.status()).toBe(404);
     });
   }
 });
@@ -341,7 +344,7 @@ test.describe('Navigation flow', () => {
       : page.locator('.category-menu-bar');
     await navigation.getByRole('link', { name: /^dinosaurs$/i }).click();
     await expect(page).toHaveURL(/\/en\/dinosaurs\/?$/);
-    await expect(page.getByRole('heading', { name: /dinosaur dot to dot printables/i })).toBeVisible();
+    await expect(page.getByRole('heading', { name: /dinosaur dot to dot printable worksheets for kids/i })).toBeVisible();
   });
 
   test('/dinosaurs -> puzzle page in 1 click', async ({ page }) => {

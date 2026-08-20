@@ -109,7 +109,8 @@
         "usa250": "Nowy!",
         "uae": "Dostępne już teraz!",
         "cute": "Nowy!",
-        "circus": "Nowość!"
+        "circus": "Nowość!",
+        "planes": "Nowość!"
       },
       "items": {
         "dinosaurs": {
@@ -171,6 +172,10 @@
         "circus": {
           "name": "Cyrk",
           "description": "Mistrzowie ceremonii, wielkie namioty i zabawa na pokazie dla młodych uczniów."
+        },
+        "planes": {
+          "name": "Samoloty",
+          "description": "Myśliwce, prywatne odrzutowce, papierowe samolociki i szybowce dla małych fanów lotnictwa."
         }
       }
     },
@@ -543,15 +548,17 @@
       "difficultyHard": "Twardy",
       "funFactPrefix": "Ciekawostka:",
       "funFactLabel": "Ciekawostka!",
-      "noSignUp": "Nie jest wymagana rejestracja.Otwiera się jako plik PDF.Drukuj na papierze US Letter (8,5 × 11 cali) lub A4.Bezpłatnie do użytku domowego i szkolnego.",
+      "noSignUp": "Nie jest wymagana rejestracja. Otwiera się jako plik PDF. Drukuj na papierze US Letter (8,5 × 11 cali) lub A4. Bezpłatnie do użytku domowego i szkolnego.",
       "comingSoon": "Pobierz bezpłatny plik PDF – już wkrótce",
       "youMightLike": "Może ci się spodobać",
       "faqQ1": "Dla jakiego wieku jest przeznaczona łamigłówka {name}?",
-      "faqA1": "Jest przeznaczony dla osób w wieku {age}.Dzięki kropkom {dots} pasuje do dzieci, które potrafią pewnie liczyć do {kropek};młodsze dzieci mogą go ukończyć z niewielką pomocą.",
+      "faqA1": "Jest przeznaczony dla osób w wieku {age}.Dzięki kropkom {dots} pasuje do dzieci, które potrafią pewnie liczyć do {dots};młodsze dzieci mogą go ukończyć z niewielką pomocą.",
       "faqQ2": "Jak wydrukować arkusz {name}?",
       "faqA2": "Kliknij przycisk pobierania, aby pobrać bezpłatny plik PDF, a następnie wydrukuj go na zwykłym papierze (A4 lub US Letter) z dowolnej przeglądarki lub czytnika plików PDF.Nie jest potrzebne żadne specjalne oprogramowanie.",
       "faqQ3": "Czy wydruk {name} jest naprawdę darmowy?",
-      "faqA3": "Tak – jest w 100% darmowy, nie wymaga rejestracji, konta ani płatności.Można go wydrukować do użytku w domu lub w klasie."
+      "faqA3": "Tak – jest w 100% darmowy, nie wymaga rejestracji, konta ani płatności.Można go wydrukować do użytku w domu lub w klasie.",
+      "exampleCompletedEyebrow": "Wykonane przez młodego artystę",
+      "exampleCompletedHeading": "Przykładowa ukończona łamigłówka"
     },
     "downloadButton": {
       "label": "Pobierz bezpłatny plik PDF do wydrukowania",
@@ -559,7 +566,7 @@
       "paperNote": "Rozmiar dla papieru {size}.",
       "paperLetter": "List amerykański",
       "paperA4": "A4",
-      "alternateLink": "Wolisz {rozmiar}?Pobierz tę wersję",
+      "alternateLink": "Wolisz {size}?Pobierz tę wersję",
       "downloadSize": "Pobierz (rozmiar wydruku: {size})"
     },
     "downloadBadge": {
@@ -619,6 +626,11 @@
     },
     "usa250Page": {
       "category": "USA 250. rocznica"
+    },
+    "notFound": {
+      "heading": "Nie znaleziono strony",
+      "message": "Przepraszamy, nie mogliśmy znaleźć szukanej strony. Mogła zostać przeniesiona lub usunięta.",
+      "categoriesHeading": "Popularne kategorie"
     }
   }
 }

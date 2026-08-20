@@ -109,7 +109,8 @@
         "usa250": "Uusi!",
         "uae": "Saatavilla nyt!",
         "cute": "Uusi!",
-        "circus": "Uusi!"
+        "circus": "Uusi!",
+        "planes": "Uusi!"
       },
       "items": {
         "dinosaurs": {
@@ -171,6 +172,10 @@
         "circus": {
           "name": "Sirkus",
           "description": "Tirehtöörit, suuret teltat ja sirkushuvia nuorille oppijoille."
+        },
+        "planes": {
+          "name": "Lentokoneet",
+          "description": "Hävittäjät, yksityisjetit, paperilentokoneet ja liitokoneet nuorille ilmailun ystäville."
         }
       }
     },
@@ -350,7 +355,13 @@
       "privacy": "Tietosuoja",
       "terms": "Ehdot",
       "sitemap": "Sivukartta",
-      "copyright": "© {year} DotToDotFreePrintables.com · Ilmaisia tulostettavia aktiviteetteja lapsille"
+      "copyright": "© {year} DotToDotFreePrintables.com · Ilmaisia tulostettavia aktiviteetteja lapsille",
+      "hubAges46": "Ikä 4-6",
+      "hubAges79": "Ikä 7-9",
+      "hubAges912": "Ikä 9-12",
+      "hubDifficultyMedium": "Keskitason tehtävät",
+      "hubDifficultyHard": "Vaikeat tehtävät",
+      "hubNavLabel": "Selaa iän tai vaikeustason mukaan"
     },
     "common": {
       "home": "Kotiin",
@@ -463,7 +474,9 @@
         "pdfBook": "PDF-KIRJA",
         "bookTitle": "Vuoden 2026 parhaat",
         "puzzleCount": "25 pisteestä pisteeseen -palapeliä",
-        "viewBook": "Näytä kirja"
+        "viewBook": "Näytä kirja",
+        "advertisementAria": "Mainos: Best of 2026 pisteestä pisteeseen -aktiviteettikirja",
+        "viewPackAria": "Katso Best of 2026 pisteestä pisteeseen -pulmapaketti"
       },
       "shared": {
         "specialSale": "ERIKOISTARJOUS",
@@ -493,7 +506,7 @@
           "classroomUse": "Käytettävissä kotona tai yhdessä luokkahuoneessa"
         },
         "guaranteeText": "Maksun jälkeen yksityinen latauslinkkisi ilmestyy heti. Ei tilausta eikä yllättäviä uusimisia.",
-        "heading": "Enemmän tehtäviä. Vähemmän etsimistä. Kaikki yhdessä kätevässä PDF:ssä.",
+        "heading": "Enemmän palapelejä. Vähemmän etsimistä. Kaikki yhdessä kätevässä PDF:ssä.",
         "detailsHeading": "Kaikki mitä tarvitset ruudutonta hauskanpitoa varten",
         "guaranteeHeading": "Yksinkertaista, turvallista ja valmista minuuteissa"
       },
@@ -507,12 +520,14 @@
       "success": {
         "metaTitle": "Kiitos ostoksestasi",
         "eyebrow": "Maksu vahvistettu",
-        "lede": "Maksusi onnistui. Ostoksen näkyminen tililläsi voi kestää muutaman sekunnin."
+        "lede": "Maksusi onnistui. Ostoksen näkyminen tililläsi voi kestää muutaman sekunnin.",
+        "heading": "Kiitos! Ostoksesi on valmis."
       },
       "cancelled": {
         "metaTitle": "Maksu peruutettu",
         "eyebrow": "Maksua ei veloitettu",
-        "lede": "Maksua ei veloitettu. Voit yrittää uudelleen milloin tahansa."
+        "lede": "Maksua ei veloitettu. Voit yrittää uudelleen milloin tahansa.",
+        "heading": "Maksu peruutettu"
       },
       "download": {
         "demoTitle": "Paikallinen maksutesti onnistui.",
@@ -533,11 +548,11 @@
       "difficultyHard": "Kovaa",
       "funFactPrefix": "Hauska fakta:",
       "funFactLabel": "Hauska fakta!",
-      "noSignUp": "Ilmoittautumista ei tarvita.Avautuu PDF-tiedostona.Tulosta US Letter (8,5 × 11 tuumaa) tai A4-paperille.Ilmainen koti- ja luokkakäyttöön.",
+      "noSignUp": "Ilmoittautumista ei tarvita. Avautuu PDF-tiedostona. Tulosta US Letter (8,5 × 11 tuumaa) tai A4-paperille. Ilmainen koti- ja luokkakäyttöön.",
       "comingSoon": "Lataa ilmainen PDF – tulossa pian",
       "youMightLike": "Saatat myös pitää",
       "faqQ1": "Minkä ikäiselle pisteestä pisteeseen -pulma on tarkoitettu?",
-      "faqA1": "Se on suunniteltu {age} ikäisille.{dots} pisteen ansiosta se sopii lapsille, jotka osaavat laskea luottavaisesti {pisteisiin};nuoremmat lapset voivat suorittaa sen pienellä avustuksella.",
+      "faqA1": "Se on suunniteltu {age} ikäisille.{dots} pisteen ansiosta se sopii lapsille, jotka osaavat laskea luottavaisesti {dots};nuoremmat lapset voivat suorittaa sen pienellä avustuksella.",
       "faqQ2": "Kuinka tulostan laskentataulukon {name}?",
       "faqA2": "Napsauta latauspainiketta saadaksesi ilmaisen PDF-tiedoston ja tulosta se sitten tavalliselle paperille (A4 tai US Letter) mistä tahansa selaimesta tai PDF-lukijasta.Mitään erityistä ohjelmistoa ei tarvita.",
       "faqQ3": "Onko {name} tulostettava todella ilmainen?",
@@ -548,7 +563,7 @@
     "downloadButton": {
       "label": "Lataa ilmainen tulostettava PDF",
       "usage": "Ilmainen koti- ja luokkakäyttöön.",
-      "paperNote": "Koko {koko} paperille.",
+      "paperNote": "Koko {size} paperille.",
       "paperLetter": "Yhdysvaltain kirje",
       "paperA4": "A4",
       "alternateLink": "Haluatko mieluummin {size}?Lataa tuo versio",

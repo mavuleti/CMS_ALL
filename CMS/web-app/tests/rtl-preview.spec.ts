@@ -289,8 +289,12 @@ test.describe('Arabic locale - release activation', () => {
     expect(rtlCss).toMatch(/:lang\(ar\)\s*\{[^}]*Cairo/);
   });
 
-  test('ar messages.json plural strings use full Arabic CLDR categories, not just one/other', async () => {
-    const messages = readFileSync(path.join(repoRoot, 'content', 'ar', 'messages.json'), 'utf8');
+  test('ar home.json plural strings use full Arabic CLDR categories, not just one/other', async () => {
+    // Locale UI message strings (including plurals) are no longer a
+    // standalone messages.json — i18n/request.ts builds them by merging
+    // content/en/common.json with each locale's content/{locale}/home.json
+    // `body`, so that's where translated plural strings actually live.
+    const messages = readFileSync(path.join(repoRoot, 'content', 'ar', 'home.json'), 'utf8');
     // Each plural string is `{count, plural, zero {..} one {..} two {..} few {..} many {..} other {..}}` —
     // match through to the final `other {...}}` rather than stopping at the first closing brace.
     const pluralStrings = messages.match(/\{count, plural,[\s\S]*?other \{[^}]*\}\}/g) ?? [];
@@ -305,7 +309,7 @@ test.describe('Arabic locale - release activation', () => {
   test('content/ar exists with the full locale file set', async () => {
     const arDir = path.join(repoRoot, 'content', 'ar');
     expect(existsSync(arDir)).toBe(true);
-    for (const file of ['messages.json', 'blog.json', 'puzzles-dinosaurs.json', 'puzzles-ocean.json', 'puzzles-playgrounds.json']) {
+    for (const file of ['home.json', 'blog.json', 'puzzles-dinosaurs.json', 'puzzles-ocean.json', 'puzzles-playgrounds.json']) {
       expect(existsSync(path.join(arDir, file))).toBe(true);
     }
   });

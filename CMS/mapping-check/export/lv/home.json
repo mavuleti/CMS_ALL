@@ -109,7 +109,8 @@
         "usa250": "Jaunums!",
         "uae": "Pieejams jau tagad!",
         "cute": "Jaunums!",
-        "circus": "Jauns!"
+        "circus": "Jauns!",
+        "planes": "Jauns!"
       },
       "items": {
         "dinosaurs": {
@@ -171,6 +172,10 @@
         "circus": {
           "name": "Cirkus",
           "description": "Gredzenmeistari, lielie teltis un izrādes jautrība jaunajiem mācībniekiem."
+        },
+        "planes": {
+          "name": "Lidmašīnas",
+          "description": "Iznīcinātāji, privātās lidmašīnas, papīra lidmašīnas un planieri maziem aviācijas cienītājiem."
         }
       }
     },
@@ -543,15 +548,17 @@
       "difficultyHard": "Grūti",
       "funFactPrefix": "Jautrs fakts:",
       "funFactLabel": "Jautrs fakts!",
-      "noSignUp": "Nav nepieciešama pierakstīšanās.Tiek atvērts kā PDF.Drukājiet uz US Letter (8,5 × 11 collu) vai A4 formāta papīra.Bezmaksas lietošanai mājās un klasē.",
+      "noSignUp": "Nav nepieciešama pierakstīšanās. Tiek atvērts kā PDF. Drukājiet uz US Letter (8,5 × 11 collu) vai A4 formāta papīra. Bezmaksas lietošanai mājās un klasē.",
       "comingSoon": "Lejupielādēt bezmaksas PDF — drīzumā",
       "youMightLike": "Jums varētu arī patikt",
       "faqQ1": "Kādam vecumam ir paredzēta mīkla {name} no punkta līdz punktam?",
-      "faqA1": "Tas ir paredzēts {age} vecumam.Ar {dots} punktiem tas ir piemērots bērniem, kuri var droši skaitīt līdz {punktiem};jaunāki bērni to var pabeigt ar nelielu palīdzību.",
+      "faqA1": "Tas ir paredzēts {age} vecumam.Ar {dots} punktiem tas ir piemērots bērniem, kuri var droši skaitīt līdz {dots};jaunāki bērni to var pabeigt ar nelielu palīdzību.",
       "faqQ2": "Kā izdrukāt {name} darblapu?",
       "faqA2": "Noklikšķiniet uz lejupielādes pogas, lai iegūtu bezmaksas PDF failu, pēc tam izdrukājiet to uz parasta papīra (A4 vai US Letter) no jebkuras pārlūkprogrammas vai PDF lasītāja.Nav nepieciešama īpaša programmatūra.",
       "faqQ3": "Vai {name} var izdrukāt bez maksas?",
-      "faqA3": "Jā — tas ir 100% bez maksas, nav nepieciešama reģistrācija, konts vai maksājums.Varat to izdrukāt lietošanai mājās vai klasē."
+      "faqA3": "Jā — tas ir 100% bez maksas, nav nepieciešama reģistrācija, konts vai maksājums.Varat to izdrukāt lietošanai mājās vai klasē.",
+      "exampleCompletedEyebrow": "Izgatavojis jauns mākslinieks",
+      "exampleCompletedHeading": "Pabeigtas mīklas piemērs"
     },
     "downloadButton": {
       "label": "Lejupielādējiet bezmaksas drukājamu PDF",
@@ -619,6 +626,11 @@
     },
     "usa250Page": {
       "category": "ASV 250. gadadiena"
+    },
+    "notFound": {
+      "heading": "Lapa nav atrasta",
+      "message": "Diemžēl neizdevās atrast meklēto lapu. Iespējams, tā ir pārvietota vai dzēsta.",
+      "categoriesHeading": "Populārākās kategorijas"
     }
   }
 }

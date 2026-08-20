@@ -23,7 +23,7 @@ function localizedPuzzleHref(locale: string, puzzle: Puzzle) {
   return puzzle.href.startsWith(`/${locale}/`) ? puzzle.href : `/${locale}${puzzle.href}`;
 }
 
-export default function HomeDiscovery({ locale, featuredPuzzles, searchPuzzles }: { locale: string; featuredPuzzles: Puzzle[]; searchPuzzles: Puzzle[] }) {
+export default function HomeDiscovery({ locale, featuredPuzzles }: { locale: string; featuredPuzzles: Puzzle[] }) {
   const searchT = useTranslations('puzzleSearch');
   const navT = useTranslations('nav');
   const commonT = useTranslations('common');
@@ -31,7 +31,7 @@ export default function HomeDiscovery({ locale, featuredPuzzles, searchPuzzles }
   const homeT = useTranslations('homepageUi');
   const [query, setQuery] = useState('');
   const [activeFilter, setActiveFilter] = useState('');
-  const [allPuzzles, setAllPuzzles] = useState<Puzzle[] | null>(searchPuzzles);
+  const [allPuzzles, setAllPuzzles] = useState<Puzzle[] | null>(null);
   const [searchLoadFailed, setSearchLoadFailed] = useState(false);
   const [favorites, setFavorites] = useState<string[]>([]);
   const [isReady, setIsReady] = useState(false);

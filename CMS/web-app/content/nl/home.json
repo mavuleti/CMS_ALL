@@ -109,7 +109,8 @@
         "usa250": "Nieuw!",
         "uae": "Nu verkrijgbaar!",
         "cute": "Nieuw!",
-        "circus": "Nieuw!"
+        "circus": "Nieuw!",
+        "planes": "Nieuw!"
       },
       "items": {
         "dinosaurs": {
@@ -171,6 +172,10 @@
         "circus": {
           "name": "Sirkus",
           "description": "Ringmeesters, grote tenten en showtijd plezier voor jonge leerlingen."
+        },
+        "planes": {
+          "name": "Vliegtuigen",
+          "description": "Gevechtsvliegtuigen, privéjets, papieren vliegtuigjes en zweefvliegtuigen voor kleine luchtvaartfans."
         }
       }
     },
@@ -347,10 +352,16 @@
       "feedback": "Feedback",
       "about": "Over",
       "contact": "Contact",
-      "privacy": "Privacybeleid",
+      "privacy": "Privacy",
       "terms": "Voorwaarden",
       "sitemap": "Sitemap",
-      "copyright": "© {year} DotToDotFreePrintables.com · Gratis printbare activiteiten voor kinderen"
+      "copyright": "© {year} DotToDotFreePrintables.com · Gratis printbare activiteiten voor kinderen",
+      "hubAges46": "Leeftijd 4-6",
+      "hubAges79": "Leeftijd 7-9",
+      "hubAges912": "Leeftijd 9-12",
+      "hubDifficultyMedium": "Gemiddelde Puzzels",
+      "hubDifficultyHard": "Moeilijke Puzzels",
+      "hubNavLabel": "Bladeren op leeftijd of moeilijkheidsgraad"
     },
     "common": {
       "home": "Thuis",
@@ -463,7 +474,9 @@
         "pdfBook": "PDF-BOEK",
         "bookTitle": "Het beste van 2026",
         "puzzleCount": "25 verbind-de-puntenpuzzels",
-        "viewBook": "Boek bekijken"
+        "viewBook": "Boek bekijken",
+        "advertisementAria": "Advertentie: Best of 2026 stip-tot-stip activiteitenboek",
+        "viewPackAria": "Bekijk het Best of 2026 stip-tot-stip puzzelpakket"
       },
       "shared": {
         "specialSale": "SPECIALE AANBIEDING",
@@ -494,7 +507,7 @@
         },
         "guaranteeText": "Na het afrekenen verschijnt je persoonlijke downloadlink direct. Geen abonnement en geen onverwachte verlenging.",
         "heading": "Meer puzzels. Minder zoeken. Alles in één handige PDF.",
-        "detailsHeading": "Alles wat je nodig hebt voor schermvrij plezier",
+        "detailsHeading": "Alles wat je nodig hebt voor plezier zonder scherm",
         "guaranteeHeading": "Eenvoudig, veilig en binnen enkele minuten klaar"
       },
       "checkout": {
@@ -507,12 +520,14 @@
       "success": {
         "metaTitle": "Bedankt voor je aankoop",
         "eyebrow": "Betaling bevestigd",
-        "lede": "Je betaling is geslaagd. Het kan een paar seconden duren voordat je aankoop op je account verschijnt."
+        "lede": "Je betaling is geslaagd. Het kan een paar seconden duren voordat je aankoop op je account verschijnt.",
+        "heading": "Bedankt! Je aankoop is voltooid."
       },
       "cancelled": {
         "metaTitle": "Checkout geannuleerd",
         "eyebrow": "Geen betaling uitgevoerd",
-        "lede": "Er is geen bedrag afgeschreven. Je kunt het op elk moment opnieuw proberen."
+        "lede": "Er is geen bedrag afgeschreven. Je kunt het op elk moment opnieuw proberen.",
+        "heading": "Afrekenen geannuleerd"
       },
       "download": {
         "demoTitle": "Lokale checkouttest geslaagd.",
@@ -533,10 +548,10 @@
       "difficultyHard": "Moeilijk",
       "funFactPrefix": "Leuk weetje:",
       "funFactLabel": "Leuk feit!",
-      "noSignUp": "Aanmelden is niet nodig.Wordt geopend als PDF.Afdrukken op US Letter- (8,5 x 11 inch) of A4-papier.Gratis voor thuis- en klasgebruik.",
+      "noSignUp": "Aanmelden is niet nodig. Wordt geopend als PDF. Afdrukken op US Letter- (8,5 x 11 inch) of A4-papier. Gratis voor thuis- en klasgebruik.",
       "comingSoon": "Download gratis pdf – binnenkort beschikbaar",
       "youMightLike": "Misschien vind je het ook leuk",
-      "faqQ1": "Voor welke leeftijd is de {naam} puzzel van punt naar punt?",
+      "faqQ1": "Voor welke leeftijd is de {name} puzzel van punt naar punt?",
       "faqA1": "Het is ontworpen voor leeftijden {age}.Met {dots} dots is het geschikt voor kinderen die vol vertrouwen tot {dots} kunnen tellen;jongere kinderen kunnen het met een beetje hulp voltooien.",
       "faqQ2": "Hoe druk ik het werkblad {naam} af?",
       "faqA2": "Klik op de downloadknop om de gratis pdf te verkrijgen en druk deze vervolgens af op normaal papier (A4 of US Letter) vanuit elke browser of pdf-lezer.Er is geen speciale software nodig.",
@@ -551,7 +566,7 @@
       "paperNote": "Op maat gemaakt voor papier van {size}.",
       "paperLetter": "Amerikaanse brief",
       "paperA4": "A4",
-      "alternateLink": "Liever {maat}?Download die versie",
+      "alternateLink": "Liever {size}?Download die versie",
       "downloadSize": "Downloaden (afdrukformaat: {size})"
     },
     "downloadBadge": {

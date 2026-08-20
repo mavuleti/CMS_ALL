@@ -109,7 +109,8 @@
         "usa250": "Mới!",
         "uae": "Hiện đã có hàng!",
         "cute": "Mới!",
-        "circus": "Mới!"
+        "circus": "Mới!",
+        "planes": "Mới!"
       },
       "items": {
         "dinosaurs": {
@@ -171,6 +172,10 @@
         "circus": {
           "name": "Rạp Xiếc",
           "description": "Những người điều hành, rạp lớn và niềm vui biểu diễn cho những người học trẻ."
+        },
+        "planes": {
+          "name": "Máy Bay",
+          "description": "Máy bay chiến đấu, phản lực riêng, máy bay giấy và tàu lượn dành cho các bé yêu thích hàng không."
         }
       }
     },
@@ -543,7 +548,7 @@
       "difficultyHard": "Cứng",
       "funFactPrefix": "Sự thật thú vị:",
       "funFactLabel": "Sự thật thú vị!",
-      "noSignUp": "Không cần đăng ký.Mở dưới dạng PDF.In trên giấy US Letter (8,5×11 inch) hoặc giấy A4.Miễn phí sử dụng tại nhà và lớp học.",
+      "noSignUp": "Không cần đăng ký. Mở dưới dạng PDF. In trên giấy US Letter (8,5×11 inch) hoặc giấy A4. Miễn phí sử dụng tại nhà và lớp học.",
       "comingSoon": "Tải xuống bản PDF miễn phí – Sắp ra mắt",
       "youMightLike": "Bạn cũng có thể thích",
       "faqQ1": "Câu đố về dấu chấm của {name} dành cho độ tuổi nào?",
@@ -551,7 +556,9 @@
       "faqQ2": "Làm cách nào để in bảng tính {name}?",
       "faqA2": "Nhấp vào nút tải xuống để nhận bản PDF miễn phí, sau đó in nó trên giấy thông thường (A4 hoặc US Letter) từ bất kỳ trình duyệt hoặc trình đọc PDF nào.Không cần phần mềm đặc biệt.",
       "faqQ3": "Bản in {name} có thực sự miễn phí không?",
-      "faqA3": "Có - nó miễn phí 100%, không cần đăng ký, tài khoản hoặc thanh toán.Bạn có thể in nó để sử dụng ở nhà hoặc lớp học."
+      "faqA3": "Có - nó miễn phí 100%, không cần đăng ký, tài khoản hoặc thanh toán.Bạn có thể in nó để sử dụng ở nhà hoặc lớp học.",
+      "exampleCompletedEyebrow": "Được thực hiện bởi một nghệ sĩ trẻ",
+      "exampleCompletedHeading": "Ví dụ câu đố đã hoàn thành"
     },
     "downloadButton": {
       "label": "Tải xuống bản PDF có thể in miễn phí",
@@ -619,6 +626,11 @@
     },
     "usa250Page": {
       "category": "Kỷ niệm 250 năm Hoa Kỳ"
+    },
+    "notFound": {
+      "heading": "Không tìm thấy trang",
+      "message": "Xin lỗi, chúng tôi không thể tìm thấy trang bạn đang tìm kiếm. Có thể trang đã bị di chuyển hoặc xóa.",
+      "categoriesHeading": "Danh mục phổ biến"
     }
   }
 }

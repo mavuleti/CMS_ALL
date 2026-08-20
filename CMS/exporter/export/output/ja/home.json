@@ -109,7 +109,8 @@
         "usa250": "新しい！",
         "uae": "好評発売中！",
         "cute": "新しい！",
-        "circus": "新着！"
+        "circus": "新着！",
+        "planes": "新着！"
       },
       "items": {
         "dinosaurs": {
@@ -171,6 +172,10 @@
         "circus": {
           "name": "サーカス",
           "description": "リングマスター、大きなテント、そして若い学習者のためのショータイムの楽しみ。"
+        },
+        "planes": {
+          "name": "飛行機",
+          "description": "戦闘機、プライベートジェット、紙飛行機、グライダーなど、飛行機好きな子どもたちにぴったり。"
         }
       }
     },
@@ -545,7 +550,9 @@
       "funFactLabel": "豆知識！",
       "noSignUp": "登録不要。PDFで開きます。USレター（8.5×11インチ）またはA4用紙に印刷できます。家庭や教室で無料で利用できます。",
       "comingSoon": "無料PDFをダウンロード — 近日公開",
-      "youMightLike": "こちらもおすすめ"
+      "youMightLike": "こちらもおすすめ",
+      "exampleCompletedEyebrow": "若いアーティストが作った",
+      "exampleCompletedHeading": "完成したパズルの例"
     },
     "downloadButton": {
       "label": "無料の印刷用PDFをダウンロード",
@@ -613,6 +620,11 @@
       "savePinterest": "Pinterestに保存",
       "relatedEyebrow": "無料プリント",
       "relatedHeading": "次はこちらの点つなぎコレクションをお試しください"
+    },
+    "notFound": {
+      "heading": "ページが見つかりません",
+      "message": "申し訳ございません。お探しのページが見つかりませんでした。移動または削除された可能性があります。",
+      "categoriesHeading": "人気カテゴリー"
     }
   }
 }

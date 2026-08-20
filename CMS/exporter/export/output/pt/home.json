@@ -109,7 +109,8 @@
         "usa250": "Novo!",
         "uae": "Disponível agora!",
         "cute": "Novo!",
-        "circus": "Novo!"
+        "circus": "Novo!",
+        "planes": "Novo!"
       },
       "items": {
         "dinosaurs": {
@@ -171,6 +172,10 @@
         "circus": {
           "name": "Circo",
           "description": "Mestres de cerimônias, tendas grandes e diversão de show para jovens aprendizes."
+        },
+        "planes": {
+          "name": "Aviões",
+          "description": "Caças, jatos privados, aviões de papel e planadores para os pequenos apaixonados por aviação."
         }
       }
     },
@@ -543,24 +548,26 @@
       "difficultyHard": "Duro",
       "funFactPrefix": "Curiosidade:",
       "funFactLabel": "Curiosidade!",
-      "noSignUp": "Não é necessária inscrição.Abre como PDF.Imprima em papel US Letter (8,5 × 11 polegadas) ou A4.Gratuito para uso doméstico e em sala de aula.",
+      "noSignUp": "Não é necessária inscrição. Abre como PDF. Imprima em papel US Letter (8,5 × 11 polegadas) ou A4. Gratuito para uso doméstico e em sala de aula.",
       "comingSoon": "Baixe PDF grátis – em breve",
       "youMightLike": "Você também pode gostar",
-      "faqQ1": "Para que idade serve o quebra-cabeça {nome} ponto a ponto?",
-      "faqA1": "Ele foi projetado para idades {age}.Com {pontos} pontos, é adequado para crianças que podem contar até {pontos} com segurança;as crianças mais novas podem completá-lo com um pouco de ajuda.",
+      "faqQ1": "Para que idade serve o quebra-cabeça {name} ponto a ponto?",
+      "faqA1": "Ele foi projetado para idades {age}.Com {dots} pontos, é adequado para crianças que podem contar até {dots} com segurança;as crianças mais novas podem completá-lo com um pouco de ajuda.",
       "faqQ2": "Como imprimo a planilha {nome}?",
       "faqA2": "Clique no botão de download para obter o PDF gratuito e imprima-o em papel comum (A4 ou US Letter) em qualquer navegador ou leitor de PDF.Nenhum software especial é necessário.",
       "faqQ3": "A impressão de {nome} é realmente gratuita?",
-      "faqA3": "Sim - é 100% gratuito, sem necessidade de inscrição, conta ou pagamento.Você pode imprimi-lo para uso doméstico ou em sala de aula."
+      "faqA3": "Sim - é 100% gratuito, sem necessidade de inscrição, conta ou pagamento.Você pode imprimi-lo para uso doméstico ou em sala de aula.",
+      "exampleCompletedEyebrow": "Feito por um jovem artista",
+      "exampleCompletedHeading": "Exemplo de puzzle concluído"
     },
     "downloadButton": {
       "label": "Baixe PDF para impressão grátis",
       "usage": "Gratuito para uso doméstico e em sala de aula.",
-      "paperNote": "Dimensionado para papel {tamanho}.",
+      "paperNote": "Dimensionado para papel {size}.",
       "paperLetter": "Carta dos EUA",
       "paperA4": "A4",
-      "alternateLink": "Prefere {tamanho}?Baixe essa versão",
-      "downloadSize": "Baixar (tamanho de impressão: {tamanho})"
+      "alternateLink": "Prefere {size}?Baixe essa versão",
+      "downloadSize": "Baixar (tamanho de impressão: {size})"
     },
     "downloadBadge": {
       "downloaded": "Baixado",
@@ -619,6 +626,11 @@
     },
     "usa250Page": {
       "category": "250º aniversário dos EUA"
+    },
+    "notFound": {
+      "heading": "Página não encontrada",
+      "message": "Lamentamos, não conseguimos encontrar a página que procurava. Pode ter sido movida ou removida.",
+      "categoriesHeading": "Categorias populares"
     }
   }
 }

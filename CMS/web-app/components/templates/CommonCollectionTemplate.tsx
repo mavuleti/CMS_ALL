@@ -12,7 +12,7 @@ import { localizeAge } from '@/lib/age';
 import { buildCommonHeaderMetadata } from '@/components/templates/CommonHeaderTemplate';
 import { ogImageFor } from '@/lib/seo';
 import { puzzleImageAlt } from '@/lib/json-seo';
-import { FaqBlock } from '@/components/sections';
+import { CategoryFaqSection } from '@/components/sections';
 
 export type CollectionRouteProps = { params: Promise<{ locale: string; category: string }> };
 
@@ -72,7 +72,6 @@ export default async function CommonCollectionTemplate({ params }: CollectionRou
   if (!category || !category.isAvailable(locale)) notFound();
   setRequestLocale(locale);
   const tc = await getTranslations('common');
-  const tFaq = await getTranslations('faq');
   const tCategories = await getTranslations('categories');
   const pageNamespace = collectionPageNamespaces[slug];
   const tPage = pageNamespace ? await getTranslations(pageNamespace) : null;
@@ -97,9 +96,17 @@ export default async function CommonCollectionTemplate({ params }: CollectionRou
     { '@type': 'ListItem', position: 2, name: categoryName, item: `https://dottodotfreeprintables.com/${locale}/${slug}/` }
   ] };
   const exportedSchema = category.header?.json_ld ? { '@context': 'https://schema.org', '@type': category.header.json_ld.type, name: category.header.json_ld.name, description: category.header.json_ld.description, image: category.header.json_ld.image } : null;
+  const itemListSchema = {
+    '@context': 'https://schema.org', '@type': 'ItemList', name: categoryName, numberOfItems: puzzles.length,
+    itemListElement: puzzles.map((puzzle, index) => ({
+      '@type': 'ListItem', position: index + 1,
+      item: { '@type': 'CreativeWork', name: puzzle.name, url: `https://dottodotfreeprintables.com/${locale}/${slug}/${puzzle.slug}/` }
+    }))
+  };
 
   return <>
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
+    <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema) }} />
     {exportedSchema && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(exportedSchema) }} />}
     <main>
       <nav className="breadcrumb" aria-label={tc('breadcrumbAria')}><Link href={`/${locale}/`}><Home size={14} aria-hidden="true" /> {tc('home')}</Link><span aria-hidden="true"> › </span><span aria-current="page">{categoryName}</span></nav>
@@ -112,7 +119,7 @@ export default async function CommonCollectionTemplate({ params }: CollectionRou
         </article>
       )}</div></section>
       <section className="section" style={{ paddingTop: 0, maxWidth: 760, textAlign: 'center' }}><h2 style={{ fontSize: 'clamp(1.5rem, 3vw, 2rem)' }}>{categoryTagline}</h2><p style={{ color: 'var(--muted)', lineHeight: 1.7, marginTop: 12 }}>{tPage?.has('whyP') ? tPage.rich('whyP', { link: (chunks) => <Link href={`/${locale}/`}>{chunks}</Link> }) : categoryDescription}</p><Link href={`/${locale}/`} className="button secondary" style={{ marginTop: 24, display: 'inline-flex' }}>{tPage?.has('backToCategories') ? tPage('backToCategories') : tc('home')}</Link></section>
-      {category.faqs.length > 0 && <FaqBlock faqs={category.faqs} eyebrow={tFaq('eyebrow')} heading={tFaq('heading')} />}
+      <CategoryFaqSection categoryKey={slug} />
     </main>
   </>;
 }

@@ -8,6 +8,17 @@ const ALL_LOCALE_DIRS = [
   'en', 'fr', 'es', 'de', 'pt', 'it', 'nl', 'sv', 'no', 'pl', 'da', 'fi', 'cs', 'hu', 'ro', 'tr',
   'pt-BR', 'el', 'ar', 'uk', 'hr', 'sk', 'lt', 'lv', 'sl', 'id', 'ja', 'ko', 'ru', 'th', 'vi', 'az', 'fa'
 ];
+// Mirrors app/[locale]/layout.tsx's localeToHtmlLang — the SSR-rendered
+// <html lang> already carries the correct regional BCP-47 tag (e.g.
+// fr -> fr-FR), so this script must reuse the same mapping rather than
+// stomping it back down to the bare locale folder name.
+const localeToHtmlLang = {
+  az: 'az-AZ', en: 'en', fr: 'fr-FR', es: 'es', de: 'de-DE', pt: 'pt-PT', it: 'it-IT',
+  nl: 'nl-NL', sv: 'sv-SE', no: 'no-NO', pl: 'pl-PL', da: 'da-DK', fi: 'fi-FI', cs: 'cs-CZ',
+  hu: 'hu-HU', ro: 'ro-RO', tr: 'tr-TR', ar: 'ar', fa: 'fa-IR', 'pt-BR': 'pt-BR', el: 'el-GR',
+  uk: 'uk-UA', hr: 'hr-HR', sk: 'sk-SK', lt: 'lt-LT', lv: 'lv-LV', sl: 'sl-SI', id: 'id-ID',
+  ja: 'ja-JP', ko: 'ko-KR', ru: 'ru-RU', th: 'th-TH', vi: 'vi-VN'
+};
 
 async function matchingFiles(dir, extension) {
   const entries = await readdir(dir, { withFileTypes: true });
@@ -127,8 +138,9 @@ async function patchLocaleHtmlAttributes() {
       sl: 'sl_SI'
     }[documentLocale];
     const dir = documentLocale.startsWith('ar') ? 'rtl' : 'ltr';
+    const htmlLang = localeToHtmlLang[documentLocale] ?? documentLocale;
     let patched = html
-      .replace(/<html([^>]*)\blang="[^"]*"/, `<html$1lang="${documentLocale}"`)
+      .replace(/<html([^>]*)\blang="[^"]*"/, `<html$1lang="${htmlLang}"`)
       .replace(/<html([^>]*)\bdir="[^"]*"/, `<html$1dir="${dir}"`)
       .replace(/<html(?![^>]*\bdir=)/, `<html dir="${dir}"`);
     if (ogLocaleOverride) {

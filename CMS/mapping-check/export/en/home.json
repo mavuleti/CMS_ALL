@@ -109,7 +109,8 @@
         "usa250": "New!",
         "uae": "Available now!",
         "cute": "New!",
-        "circus": "New!"
+        "circus": "New!",
+        "planes": "New!"
       },
       "items": {
         "dinosaurs": {
@@ -171,6 +172,10 @@
         "circus": {
           "name": "Circus",
           "description": "Ringmasters, big tops, and showtime fun for young learners."
+        },
+        "planes": {
+          "name": "Planes",
+          "description": "Fighter jets, private jets, paper airplanes, and gliders for young aviation fans."
         }
       }
     },
@@ -474,6 +479,11 @@
       "shared": {
         "specialSale": "SPECIAL SALE"
       }
+    },
+    "notFound": {
+      "heading": "Page Not Found",
+      "message": "Sorry, we couldn't find the page you were looking for. It may have been moved, renamed, or never existed.",
+      "categoriesHeading": "Popular Categories"
     }
   }
 }

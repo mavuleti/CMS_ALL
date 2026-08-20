@@ -109,7 +109,8 @@
         "usa250": "Neu!",
         "uae": "Jetzt verfügbar!",
         "cute": "Neu!",
-        "circus": "Neu!"
+        "circus": "Neu!",
+        "planes": "Neu!"
       },
       "items": {
         "dinosaurs": {
@@ -171,6 +172,10 @@
         "circus": {
           "name": "Zirkus",
           "description": "Ringmeister, große Zelte und Showspaß für junge Lernende."
+        },
+        "planes": {
+          "name": "Flugzeuge",
+          "description": "Kampfjets, Privatjets, Papierflieger und Segelflugzeuge für kleine Luftfahrtfans."
         }
       }
     },
@@ -350,7 +355,13 @@
       "privacy": "Datenschutz",
       "terms": "Nutzungsbedingungen",
       "sitemap": "Seitenübersicht",
-      "copyright": "© {year} DotToDotFreePrintables.com · Kostenlose Druckaktivitäten für Kinder"
+      "copyright": "© {year} DotToDotFreePrintables.com · Kostenlose Druckaktivitäten für Kinder",
+      "hubAges46": "Alter 4-6",
+      "hubAges79": "Alter 7-9",
+      "hubAges912": "Alter 9-12",
+      "hubDifficultyMedium": "Mittlere Rätsel",
+      "hubDifficultyHard": "Schwere Rätsel",
+      "hubNavLabel": "Nach Alter oder Schwierigkeit durchsuchen"
     },
     "common": {
       "home": "Startseite",
@@ -463,7 +474,9 @@
         "pdfBook": "PDF-BUCH",
         "bookTitle": "Das Beste aus 2026",
         "puzzleCount": "25 Punkt-zu-Punkt-Rätsel",
-        "viewBook": "Buch ansehen"
+        "viewBook": "Buch ansehen",
+        "advertisementAria": "Werbung: Best of 2026 Verbinde-die-Punkte-Aktivitätsbuch",
+        "viewPackAria": "Best of 2026 Verbinde-die-Punkte-Rätselpaket ansehen"
       },
       "shared": {
         "specialSale": "SONDERANGEBOT",
@@ -493,9 +506,9 @@
           "classroomUse": "Nutzbar zu Hause oder in einem Klassenzimmer"
         },
         "guaranteeText": "Nach dem Bezahlvorgang erscheint sofort Ihr privater Download-Link. Kein Abonnement und keine überraschende Verlängerung.",
-        "heading": "Mehr Rätsel. Weniger Suchen. Alles in einem praktischen PDF.",
-        "detailsHeading": "Alles, was du für bildschirmfreien Spaß brauchst",
-        "guaranteeHeading": "Einfach, sicher und in wenigen Minuten startklar"
+        "heading": "Mehr Rätsel. Weniger Suchen. Alles in einer praktischen PDF-Datei.",
+        "detailsHeading": "Alles, was Sie für bildschirmfreien Spaß brauchen",
+        "guaranteeHeading": "Einfach, sicher und in wenigen Minuten bereit"
       },
       "checkout": {
         "consent": "Ich stimme der sofortigen Bereitstellung dieser digitalen PDF-Datei zu und verstehe, dass der Kauf nach Beginn des Zugriffs endgültig und nicht erstattungsfähig ist, außer wenn gesetzlich vorgeschrieben oder wenn die Datei nicht geliefert wird oder fehlerhaft ist.",
@@ -507,12 +520,14 @@
       "success": {
         "metaTitle": "Vielen Dank für Ihren Kauf",
         "eyebrow": "Zahlung bestätigt",
-        "lede": "Ihre Zahlung war erfolgreich. Es kann einige Sekunden dauern, bis Ihr Kauf in Ihrem Konto erscheint."
+        "lede": "Ihre Zahlung war erfolgreich. Es kann einige Sekunden dauern, bis Ihr Kauf in Ihrem Konto erscheint.",
+        "heading": "Vielen Dank! Ihr Kauf ist abgeschlossen."
       },
       "cancelled": {
         "metaTitle": "Checkout abgebrochen",
         "eyebrow": "Keine Zahlung erfolgt",
-        "lede": "Es wurde keine Zahlung vorgenommen. Sie können es jederzeit erneut versuchen."
+        "lede": "Es wurde keine Zahlung vorgenommen. Sie können es jederzeit erneut versuchen.",
+        "heading": "Bezahlvorgang abgebrochen"
       },
       "download": {
         "demoTitle": "Lokaler Checkout-Test erfolgreich.",
@@ -533,11 +548,11 @@
       "difficultyHard": "Hart",
       "funFactPrefix": "Interessante Tatsache:",
       "funFactLabel": "Lustige Tatsache!",
-      "noSignUp": "Keine Anmeldung erforderlich.Öffnet als PDF.Drucken Sie auf US-Letter- (8,5 × 11 Zoll) oder A4-Papier.Kostenlos für den Gebrauch zu Hause und im Klassenzimmer.",
+      "noSignUp": "Keine Anmeldung erforderlich. Öffnet als PDF. Drucken Sie auf US-Letter- (8,5 × 11 Zoll) oder A4-Papier. Kostenlos für den Gebrauch zu Hause und im Klassenzimmer.",
       "comingSoon": "Kostenloses PDF herunterladen – Demnächst verfügbar",
       "youMightLike": "Das könnte Ihnen auch gefallen",
-      "faqQ1": "Für welches Alter ist das Punkt-zu-Punkt-Rätsel {Name} geeignet?",
-      "faqA1": "Es ist für Kinder ab {Alter} konzipiert.Mit {dots} dots eignet es sich für Kinder, die sicher bis {dots} zählen können;Jüngere Kinder können es mit etwas Hilfe vervollständigen.",
+      "faqQ1": "Für welches Alter ist das Punkt-zu-Punkt-Rätsel {name} geeignet?",
+      "faqA1": "Es ist für Kinder ab {age} konzipiert.Mit {dots} dots eignet es sich für Kinder, die sicher bis {dots} zählen können;Jüngere Kinder können es mit etwas Hilfe vervollständigen.",
       "faqQ2": "Wie drucke ich das Arbeitsblatt „{name}“ aus?",
       "faqA2": "Klicken Sie auf den Download-Button, um das kostenlose PDF zu erhalten, und drucken Sie es dann in einem beliebigen Browser oder PDF-Reader auf Normalpapier (A4 oder US-Letter) aus.Es ist keine spezielle Software erforderlich.",
       "faqQ3": "Ist die Druckversion von {name} wirklich kostenlos?",
@@ -551,7 +566,7 @@
       "paperNote": "Größe für Papier der Größe {size}.",
       "paperLetter": "US-Brief",
       "paperA4": "A4",
-      "alternateLink": "Bevorzugen Sie {Größe}?Laden Sie diese Version herunter",
+      "alternateLink": "Bevorzugen Sie {size}?Laden Sie diese Version herunter",
       "downloadSize": "Herunterladen (Druckgröße: {size})"
     },
     "downloadBadge": {

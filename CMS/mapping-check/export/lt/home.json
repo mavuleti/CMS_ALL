@@ -109,7 +109,8 @@
         "usa250": "Nauja!",
         "uae": "Jau galima įsigyti!",
         "cute": "Nauja!",
-        "circus": "Nauja!"
+        "circus": "Nauja!",
+        "planes": "Nauja!"
       },
       "items": {
         "dinosaurs": {
@@ -171,6 +172,10 @@
         "circus": {
           "name": "Cirkas",
           "description": "Žiedų meistrai, didieji palapinės ir šou laiko pramogos jauniesiems mokiniams."
+        },
+        "planes": {
+          "name": "Lėktuvai",
+          "description": "Naikintuvai, privatūs lėktuvai, popieriniai lėktuvėliai ir sklandytuvai mažiems aviacijos mėgėjams."
         }
       }
     },
@@ -543,15 +548,17 @@
       "difficultyHard": "Sunku",
       "funFactPrefix": "Įdomus faktas:",
       "funFactLabel": "Įdomus faktas!",
-      "noSignUp": "Nereikia registruotis.Atsidaro kaip PDF.Spausdinkite ant US Letter (8,5 × 11 colių) arba A4 formato popieriaus.Nemokamai naudoti namuose ir klasėje.",
+      "noSignUp": "Nereikia registruotis. Atsidaro kaip PDF. Spausdinkite ant US Letter (8,5 × 11 colių) arba A4 formato popieriaus. Nemokamai naudoti namuose ir klasėje.",
       "comingSoon": "Atsisiųskite nemokamą PDF – netrukus",
       "youMightLike": "Jums taip pat gali patikti",
       "faqQ1": "Kokiam amžiui skirta galvosūkis nuo taško iki taško?",
-      "faqA1": "Jis skirtas {age} amžiaus žmonėms.Su {taškais} taškais tinka vaikams, kurie gali užtikrintai suskaičiuoti iki {taškų};jaunesni vaikai gali tai užbaigti su nedidele pagalba.",
+      "faqA1": "Jis skirtas {age} amžiaus žmonėms.Su {dots} taškais tinka vaikams, kurie gali užtikrintai suskaičiuoti iki {dots};jaunesni vaikai gali tai užbaigti su nedidele pagalba.",
       "faqQ2": "Kaip atspausdinti {name} darbalapį?",
       "faqA2": "Spustelėkite atsisiuntimo mygtuką, kad gautumėte nemokamą PDF, tada atspausdinkite jį ant įprasto popieriaus (A4 arba US Letter) iš bet kurios naršyklės arba PDF skaitytuvo.Nereikia jokios specialios programinės įrangos.",
       "faqQ3": "Ar tikrai galima spausdinti {name} nemokamai?",
-      "faqA3": "Taip – ​​ji yra 100% nemokama, nereikia prisiregistruoti, turėti sąskaitos ar mokėti.Galite atspausdinti jį naudoti namuose ar klasėje."
+      "faqA3": "Taip – ​​ji yra 100% nemokama, nereikia prisiregistruoti, turėti sąskaitos ar mokėti.Galite atspausdinti jį naudoti namuose ar klasėje.",
+      "exampleCompletedEyebrow": "Pagaminta jauno menininko",
+      "exampleCompletedHeading": "Užbaigto galvosūkio pavyzdys"
     },
     "downloadButton": {
       "label": "Atsisiųskite nemokamą spausdinimą PDF",
@@ -619,6 +626,11 @@
     },
     "usa250Page": {
       "category": "JAV 250 metų jubiliejus"
+    },
+    "notFound": {
+      "heading": "Puslapis nerastas",
+      "message": "Atsiprašome, nepavyko rasti ieškomo puslapio. Galbūt jis buvo perkeltas arba ištrintas.",
+      "categoriesHeading": "Populiarios kategorijos"
     }
   }
 }

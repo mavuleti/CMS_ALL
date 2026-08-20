@@ -109,7 +109,8 @@
         "usa250": "Nieuw!",
         "uae": "Nu verkrijgbaar!",
         "cute": "Nieuw!",
-        "circus": "Nieuw!"
+        "circus": "Nieuw!",
+        "planes": "Nieuw!"
       },
       "items": {
         "dinosaurs": {
@@ -171,6 +172,10 @@
         "circus": {
           "name": "Sirkus",
           "description": "Ringmeesters, grote tenten en showtijd plezier voor jonge leerlingen."
+        },
+        "planes": {
+          "name": "Vliegtuigen",
+          "description": "Gevechtsvliegtuigen, privéjets, papieren vliegtuigjes en zweefvliegtuigen voor kleine luchtvaartfans."
         }
       }
     },
@@ -543,15 +548,17 @@
       "difficultyHard": "Moeilijk",
       "funFactPrefix": "Leuk weetje:",
       "funFactLabel": "Leuk feit!",
-      "noSignUp": "Aanmelden is niet nodig.Wordt geopend als PDF.Afdrukken op US Letter- (8,5 x 11 inch) of A4-papier.Gratis voor thuis- en klasgebruik.",
+      "noSignUp": "Aanmelden is niet nodig. Wordt geopend als PDF. Afdrukken op US Letter- (8,5 x 11 inch) of A4-papier. Gratis voor thuis- en klasgebruik.",
       "comingSoon": "Download gratis pdf – binnenkort beschikbaar",
       "youMightLike": "Misschien vind je het ook leuk",
-      "faqQ1": "Voor welke leeftijd is de {naam} puzzel van punt naar punt?",
+      "faqQ1": "Voor welke leeftijd is de {name} puzzel van punt naar punt?",
       "faqA1": "Het is ontworpen voor leeftijden {age}.Met {dots} dots is het geschikt voor kinderen die vol vertrouwen tot {dots} kunnen tellen;jongere kinderen kunnen het met een beetje hulp voltooien.",
       "faqQ2": "Hoe druk ik het werkblad {naam} af?",
       "faqA2": "Klik op de downloadknop om de gratis pdf te verkrijgen en druk deze vervolgens af op normaal papier (A4 of US Letter) vanuit elke browser of pdf-lezer.Er is geen speciale software nodig.",
       "faqQ3": "Is de printbare {naam} echt gratis?",
-      "faqA3": "Ja, het is 100% gratis en er is geen aanmelding, account of betaling vereist.U kunt het afdrukken voor thuis- of klasgebruik."
+      "faqA3": "Ja, het is 100% gratis en er is geen aanmelding, account of betaling vereist.U kunt het afdrukken voor thuis- of klasgebruik.",
+      "exampleCompletedEyebrow": "Gemaakt door een jonge kunstenaar",
+      "exampleCompletedHeading": "Voorbeeld voltooide puzzel"
     },
     "downloadButton": {
       "label": "Download gratis afdrukbare PDF",
@@ -559,7 +566,7 @@
       "paperNote": "Op maat gemaakt voor papier van {size}.",
       "paperLetter": "Amerikaanse brief",
       "paperA4": "A4",
-      "alternateLink": "Liever {maat}?Download die versie",
+      "alternateLink": "Liever {size}?Download die versie",
       "downloadSize": "Downloaden (afdrukformaat: {size})"
     },
     "downloadBadge": {
@@ -619,6 +626,11 @@
     },
     "usa250Page": {
       "category": "250e verjaardag van de VS"
+    },
+    "notFound": {
+      "heading": "Pagina niet gevonden",
+      "message": "Sorry, we konden de pagina die je zocht niet vinden. Deze is mogelijk verplaatst of verwijderd.",
+      "categoriesHeading": "Populaire categorieën"
     }
   }
 }

@@ -109,7 +109,8 @@
         "usa250": "Ny!",
         "uae": "Tilgængelig nu!",
         "cute": "Ny!",
-        "circus": "Ny!"
+        "circus": "Ny!",
+        "planes": "Ny!"
       },
       "items": {
         "dinosaurs": {
@@ -133,7 +134,7 @@
           "description": "Ferie- og klassekalenderaktiviteter."
         },
         "ocean": {
-          "name": "Hav",
+          "name": "Ocean",
           "description": "Havdyr og rolige farvelægningssider."
         },
         "playgrounds": {
@@ -171,6 +172,10 @@
         "circus": {
           "name": "Cirkus",
           "description": "Ringmastere, store telte, og showtime sjov for unge lærende."
+        },
+        "planes": {
+          "name": "Fly",
+          "description": "Kampfly, privatfly, papirflyvere og svævefly til små flyentusiaster."
         }
       }
     },
@@ -334,7 +339,7 @@
     },
     "feedback": {
       "eyebrow": "Vi vil meget gerne høre fra dig",
-      "heading": "Giv feedback",
+      "heading": "Send feedback",
       "description": "Har du en idé til et puslespil, har du set et defekt link, eller vil du bare sige hej? Skriv til os nedenfor."
     },
     "footer": {
@@ -350,7 +355,13 @@
       "privacy": "Privatliv",
       "terms": "Vilkår",
       "sitemap": "Sitemap",
-      "copyright": "© {year} DotToDotFreePrintables.com · Gratis printbare aktiviteter for børn"
+      "copyright": "© {year} DotToDotFreePrintables.com · Gratis printbare aktiviteter for børn",
+      "hubAges46": "Alder 4-6",
+      "hubAges79": "Alder 7-9",
+      "hubAges912": "Alder 9-12",
+      "hubDifficultyMedium": "Mellemsvære opgaver",
+      "hubDifficultyHard": "Svære opgaver",
+      "hubNavLabel": "Gennemse efter alder eller sværhedsgrad"
     },
     "common": {
       "home": "Hjem",
@@ -366,7 +377,7 @@
       "difficultyLabel": "Sværhedsgrad {level} ud af 3",
       "difficulty": {
         "1": "Let",
-        "2": "Middel",
+        "2": "Medium",
         "3": "Hård"
       },
       "dots": "1–{count} prikker",
@@ -420,7 +431,7 @@
       "notConnected": "Tilmeldingen til den gratis pakke er ikke tilsluttet endnu."
     },
     "feedbackForm": {
-      "ariaLabel": "Send feedback-formular",
+      "ariaLabel": "Send feedback",
       "notConnected": "Denne feedbackformular er endnu ikke forbundet.",
       "typeLabel": "Hvilken slags feedback?",
       "selectTopic": "Vælg et emne...",
@@ -435,7 +446,7 @@
       "messagePlaceholder": "Fortæl os, hvad du synes...",
       "emailLabel": "E-mail",
       "emailOptional": "(valgfrit - kun hvis du ønsker et svar)",
-      "submit": "Send",
+      "submit": "Send feedback",
       "success": "Tak. Din feedback er blevet sendt.",
       "disclaimer": "Medtag venligst ikke følsomme personlige oplysninger. E-mail er valgfri og bruges kun, hvis vi har brug for at svare.",
       "iframeTitle": "Feedbackindsendelse"
@@ -463,7 +474,9 @@
         "pdfBook": "PDF-BOG",
         "bookTitle": "Det bedste fra 2026",
         "puzzleCount": "25 prik-til-prik-opgaver",
-        "viewBook": "Se bog"
+        "viewBook": "Se bog",
+        "advertisementAria": "Annonce: Best of 2026 forbind-prikkerne aktivitetsbog",
+        "viewPackAria": "Se Best of 2026 prik-til-prik-puslespilspakken"
       },
       "shared": {
         "specialSale": "Særligt udsalg",
@@ -493,8 +506,8 @@
           "classroomUse": "Brug hjemme eller i ét klasseværelse"
         },
         "guaranteeText": "Efter checkout vises dit private downloadlink med det samme. Intet abonnement og ingen overraskende fornyelse.",
-        "heading": "Flere puslespil. Mindre søgen. Alt samlet i én praktisk PDF.",
-        "detailsHeading": "Alt du behøver til skærmfri hygge",
+        "heading": "Flere puslespil. Mindre søgning. Alt i én bekvem PDF.",
+        "detailsHeading": "Alt, hvad du behøver til skærmfri hygge",
         "guaranteeHeading": "Enkelt, sikkert og klar på få minutter"
       },
       "checkout": {
@@ -507,12 +520,14 @@
       "success": {
         "metaTitle": "Tak for dit køb",
         "eyebrow": "Betaling bekræftet",
-        "lede": "Din betaling var vellykket. Det kan tage et par sekunder, før dit køb vises på din konto."
+        "lede": "Din betaling var vellykket. Det kan tage et par sekunder, før dit køb vises på din konto.",
+        "heading": "Tak! Dit køb er gennemført."
       },
       "cancelled": {
         "metaTitle": "Betaling annulleret",
         "eyebrow": "Ingen betaling foretaget",
-        "lede": "Der blev ikke opkrævet noget. Du kan prøve igen når som helst."
+        "lede": "Der blev ikke opkrævet noget. Du kan prøve igen når som helst.",
+        "heading": "Betaling annulleret"
       },
       "download": {
         "demoTitle": "Lokal betalingstest bestået.",
@@ -533,10 +548,10 @@
       "difficultyHard": "Hård",
       "funFactPrefix": "Sjov fakta:",
       "funFactLabel": "Sjov fakta!",
-      "noSignUp": "Ingen tilmelding nødvendig.Åbner som PDF.Udskriv på US Letter (8,5 × 11 tommer) eller A4-papir.Gratis til brug i hjemmet og i klasseværelset.",
+      "noSignUp": "Ingen tilmelding nødvendig. Åbner som PDF. Udskriv på US Letter (8,5 × 11 tommer) eller A4-papir. Gratis til brug i hjemmet og i klasseværelset.",
       "comingSoon": "Download gratis PDF - Kommer snart",
       "youMightLike": "Du kan også lide",
-      "faqQ1": "Hvilken alder er {navn}-puslespillet til prik for?",
+      "faqQ1": "Hvilken alder er {name}-puslespillet til prik for?",
       "faqA1": "Det er designet til aldre {age}.Med {dots} prikker passer det børn, der trygt kan tælle til {dots};yngre børn kan fuldføre det med lidt hjælp.",
       "faqQ2": "Hvordan udskriver jeg {name}-regnearket?",
       "faqA2": "Klik på download-knappen for at få den gratis PDF, og udskriv den derefter på almindeligt papir (A4 eller US Letter) fra en hvilken som helst browser eller PDF-læser.Der kræves ingen speciel software.",
@@ -551,8 +566,8 @@
       "paperNote": "Størrelse til {size} papir.",
       "paperLetter": "US Brev",
       "paperA4": "A4",
-      "alternateLink": "Foretrækker du {størrelse}?Download den version",
-      "downloadSize": "Download (Udskriftsstørrelse: {størrelse})"
+      "alternateLink": "Foretrækker du {size}?Download den version",
+      "downloadSize": "Download (Udskriftsstørrelse: {size})"
     },
     "downloadBadge": {
       "downloaded": "Downloadet",

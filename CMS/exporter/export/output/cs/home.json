@@ -109,7 +109,8 @@
         "usa250": "Nový!",
         "uae": "Nyní k dispozici!",
         "cute": "Nový!",
-        "circus": "Nové!"
+        "circus": "Nové!",
+        "planes": "Nové!"
       },
       "items": {
         "dinosaurs": {
@@ -171,6 +172,10 @@
         "circus": {
           "name": "Cirkus",
           "description": "Mistrův kruh, velké stany a zábava na show pro mladé učitele."
+        },
+        "planes": {
+          "name": "Letadla",
+          "description": "Stíhačky, soukromá letadla, papírové letadélka a kluzáky pro malé letecké nadšence."
         }
       }
     },
@@ -543,15 +548,17 @@
       "difficultyHard": "Tvrdý",
       "funFactPrefix": "Zajímavý fakt:",
       "funFactLabel": "Zábavný fakt!",
-      "noSignUp": "Není potřeba žádná registrace.Otevře se jako PDF.Tiskněte na papír US Letter (8,5 × 11 palců) nebo A4.Zdarma pro použití doma a ve třídě.",
+      "noSignUp": "Není potřeba žádná registrace. Otevře se jako PDF. Tiskněte na papír US Letter (8,5 × 11 palců) nebo A4. Zdarma pro použití doma a ve třídě.",
       "comingSoon": "Stáhněte si zdarma PDF – již brzy",
       "youMightLike": "Také by se vám mohlo líbit",
       "faqQ1": "Pro jaký věk je {name} puzzle tečka k tečce?",
-      "faqA1": "Je určen pro věkové skupiny {age}.S {tečkami} tečkami to vyhovuje dětem, které umí s jistotou počítat do {teček};mladší děti jej s malou pomocí doplní.",
+      "faqA1": "Je určen pro věkové skupiny {age}.S {dots} tečkami to vyhovuje dětem, které umí s jistotou počítat do {dots};mladší děti jej s malou pomocí doplní.",
       "faqQ2": "Jak vytisknu pracovní list {name}?",
       "faqA2": "Kliknutím na tlačítko stažení získáte bezplatný soubor PDF a poté jej vytiskněte na běžný papír (A4 nebo US Letter) z libovolného prohlížeče nebo čtečky PDF.Není potřeba žádný speciální software.",
       "faqQ3": "Je {name} k vytisknutí opravdu zdarma?",
-      "faqA3": "Ano – je 100% zdarma, bez nutnosti registrace, účtu nebo platby.Můžete si jej vytisknout pro použití doma nebo ve třídě."
+      "faqA3": "Ano – je 100% zdarma, bez nutnosti registrace, účtu nebo platby.Můžete si jej vytisknout pro použití doma nebo ve třídě.",
+      "exampleCompletedEyebrow": "Vyrobeno mladým umělcem",
+      "exampleCompletedHeading": "Příklad dokončeného puzzle"
     },
     "downloadButton": {
       "label": "Stáhněte si zdarma tisknutelný PDF",
@@ -619,6 +626,11 @@
     },
     "usa250Page": {
       "category": "250. výročí USA"
+    },
+    "notFound": {
+      "heading": "Stránka nenalezena",
+      "message": "Omlouváme se, stránku, kterou hledáte, se nepodařilo najít. Možná byla přesunuta nebo odstraněna.",
+      "categoriesHeading": "Oblíbené kategorie"
     }
   }
 }
