@@ -45,10 +45,15 @@ export const recordDownload = onCall({ enforceAppCheck: true }, async (request) 
       throw new HttpsError('resource-exhausted', 'Please wait before recording another download.');
     }
 
+    if (!distributionSnap.exists) {
+      throw new HttpsError(
+        'failed-precondition',
+        `puzzleDistributionCounts/${puzzleId} has not been migrated yet.`
+      );
+    }
     const distributionData = distributionSnap.data() ?? {};
     transaction.set(distributionRef, {
       totalClickCount: Number(distributionData.totalClickCount ?? distributionData.onlineDistributionCount ?? 0) + 1,
-      offlineDistributionCount: Number(distributionData.offlineDistributionCount ?? 0),
       onlineDistributionCount: Number(distributionData.onlineDistributionCount ?? 0) + 1,
       lastDownloadedAt: FieldValue.serverTimestamp(),
       locales: { [locale]: FieldValue.increment(1) },

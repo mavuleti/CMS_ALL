@@ -4,7 +4,9 @@ import type { MouseEvent, ReactNode } from "react";
 import { recordPuzzleDownload } from "@/lib/firebase";
 
 export default function DownloadTracker({ puzzleId, locale, children }: { puzzleId: string; locale?: string; children: ReactNode }) {
-  const onClick = (_event: MouseEvent<HTMLDivElement>) => {
+  const onClick = (event: MouseEvent<HTMLDivElement>) => {
+    const target = event.target as HTMLElement;
+    if (!target.closest("a[download]")) return;
     void recordPuzzleDownload(puzzleId, locale)
       .then(() => window.dispatchEvent(new CustomEvent("puzzle-download-recorded", { detail: { puzzleId } })))
       .catch((error) => {

@@ -4,7 +4,7 @@ import counts from '@/lib/download-counts.json';
 import { puzzlesForLocale, type Puzzle } from '@/lib/site-data';
 import { getTranslations } from 'next-intl/server';
 import { getRecentPuzzleSlugs } from '@/lib/export-content';
-import { displayedDistributionTotal, type DistributionCount } from '@/lib/distribution-counts';
+import { onlinePopularity, type DistributionCount } from '@/lib/distribution-counts';
 
 export default async function TopDownloadsLeaderboard({
   locale = 'en',
@@ -51,14 +51,14 @@ export default async function TopDownloadsLeaderboard({
       </div>
       <ol className="top-downloads-list">
         {items.map(({ puzzle, ...distribution }, index) => {
-          const totalDownloadCount = displayedDistributionTotal(distribution);
+          const onlineDownloadCount = onlinePopularity(distribution);
           return (
           <li key={puzzle!.id}>
             <span className="top-downloads-rank" aria-hidden="true">{index + 1}</span>
             <Link href={`/${locale}${puzzle!.href}`}>{puzzleName(puzzle!)}</Link>
-            <span className="top-downloads-count" aria-label={homeT('downloadCountAria', { count: totalDownloadCount.toLocaleString(locale) })}>
+            <span className="top-downloads-count" aria-label={homeT('downloadCountAria', { count: onlineDownloadCount.toLocaleString(locale) })}>
               <Download size={13} aria-hidden="true" />
-              {totalDownloadCount.toLocaleString(locale)}+
+              {onlineDownloadCount.toLocaleString(locale)}+
             </span>
           </li>
           );

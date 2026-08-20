@@ -1,219 +1,419 @@
 {
   "global": {
-    "totalUniqueDevices": 52,
-    "totalUniqueDownloads": 149
+    "totalUniqueDevices": 108,
+    "totalUniqueDownloads": 363
   },
   "top": [
     {
       "puzzleId": "trex-61-dot-to-dot-puzzle",
-      "offlineDistributionCount": 0,
-      "onlineDistributionCount": 23
+      "offlineDistributionCount": 1000,
+      "onlineDistributionCount": 49
     },
     {
       "puzzleId": "mermaid-dot-to-dot-puzzle",
-      "offlineDistributionCount": 0,
-      "onlineDistributionCount": 20
+      "offlineDistributionCount": 1000,
+      "onlineDistributionCount": 30
     },
     {
       "puzzleId": "jellyfish-dot-to-dot-puzzle",
-      "offlineDistributionCount": 0,
-      "onlineDistributionCount": 10
-    },
-    {
-      "puzzleId": "cute-puppy-dot-to-dot-puzzle",
-      "offlineDistributionCount": 0,
-      "onlineDistributionCount": 9
-    },
-    {
-      "puzzleId": "triceratops-dot-to-dot-puzzle",
-      "offlineDistributionCount": 0,
-      "onlineDistributionCount": 7
-    },
-    {
-      "puzzleId": "spring-horse-playground-dot-to-dot-puzzle",
-      "offlineDistributionCount": 0,
-      "onlineDistributionCount": 7
-    },
-    {
-      "puzzleId": "spinosaurus",
-      "offlineDistributionCount": 0,
-      "onlineDistributionCount": 7
+      "offlineDistributionCount": 1000,
+      "onlineDistributionCount": 20
     },
     {
       "puzzleId": "snowdrop-flower-dot-to-dot-puzzle",
-      "offlineDistributionCount": 0,
-      "onlineDistributionCount": 7
+      "offlineDistributionCount": 1000,
+      "onlineDistributionCount": 19
+    },
+    {
+      "puzzleId": "cute-puppy-dot-to-dot-puzzle",
+      "offlineDistributionCount": 1000,
+      "onlineDistributionCount": 17
+    },
+    {
+      "puzzleId": "dashing-car-playground-dot-to-dot-puzzle",
+      "offlineDistributionCount": 1000,
+      "onlineDistributionCount": 14
     },
     {
       "puzzleId": "slide-playgrounds-dot-to-dot-puzzle",
-      "offlineDistributionCount": 0,
-      "onlineDistributionCount": 6
+      "offlineDistributionCount": 1000,
+      "onlineDistributionCount": 13
     },
     {
-      "puzzleId": "ostriches-dinosaur-dot-to-dot-puzzle",
-      "offlineDistributionCount": 0,
-      "onlineDistributionCount": 6
+      "puzzleId": "spinosaurus",
+      "offlineDistributionCount": 1000,
+      "onlineDistributionCount": 12
+    },
+    {
+      "puzzleId": "brontosaurus-dot-to-dot-puzzle",
+      "offlineDistributionCount": 1000,
+      "onlineDistributionCount": 11
+    },
+    {
+      "puzzleId": "canada-raccoon-dot-to-dot-puzzle",
+      "offlineDistributionCount": 1000,
+      "onlineDistributionCount": 11
     }
   ],
   "puzzles": {
+    "allosaurus": {
+      "offlineDistributionCount": 1000,
+      "onlineDistributionCount": 0
+    },
     "america-250-anniversary-eagle-banner-dot-to-dot-puzzle": {
-      "offlineDistributionCount": 0,
-      "onlineDistributionCount": 1
+      "offlineDistributionCount": 1000,
+      "onlineDistributionCount": 2
+    },
+    "america-250-anniversary-liberty-bell-wings-1776-dot-to-dot-puzzle": {
+      "offlineDistributionCount": 1000,
+      "onlineDistributionCount": 0
     },
     "america-250-birthday-fireworks-dot-to-dot-puzzle": {
-      "offlineDistributionCount": 0,
+      "offlineDistributionCount": 1000,
       "onlineDistributionCount": 1
+    },
+    "ankylosaurus": {
+      "offlineDistributionCount": 1000,
+      "onlineDistributionCount": 0
+    },
+    "brachiosaurus": {
+      "offlineDistributionCount": 1000,
+      "onlineDistributionCount": 0
     },
     "brontosaurus-dot-to-dot-puzzle": {
-      "offlineDistributionCount": 0,
-      "onlineDistributionCount": 4
+      "offlineDistributionCount": 1000,
+      "onlineDistributionCount": 11
+    },
+    "burj-al-arab-dot-to-dot-puzzle": {
+      "offlineDistributionCount": 1000,
+      "onlineDistributionCount": 0
+    },
+    "burj-khalifa-dot-to-dot-puzzle": {
+      "offlineDistributionCount": 1000,
+      "onlineDistributionCount": 0
     },
     "buttercup-flower-dot-to-dot-puzzle": {
-      "offlineDistributionCount": 0,
-      "onlineDistributionCount": 5
+      "offlineDistributionCount": 1000,
+      "onlineDistributionCount": 7
     },
     "camellia-flower-dot-to-dot-puzzle": {
-      "offlineDistributionCount": 0,
-      "onlineDistributionCount": 2
-    },
-    "canada-canoe-dot-to-dot-puzzle": {
-      "offlineDistributionCount": 0,
-      "onlineDistributionCount": 2
-    },
-    "canada-maple-leaf-dot-to-dot-puzzle": {
-      "offlineDistributionCount": 0,
-      "onlineDistributionCount": 2
-    },
-    "canada-moose-dot-to-dot-puzzle": {
-      "offlineDistributionCount": 0,
-      "onlineDistributionCount": 1
-    },
-    "canada-polar-bear-dot-to-dot-puzzle": {
-      "offlineDistributionCount": 0,
-      "onlineDistributionCount": 3
-    },
-    "canada-raccoon-dot-to-dot-puzzle": {
-      "offlineDistributionCount": 0,
+      "offlineDistributionCount": 1000,
       "onlineDistributionCount": 6
     },
-    "carousel-horse-playground-dot-to-dot-puzzle": {
-      "offlineDistributionCount": 0,
+    "canada-canoe-dot-to-dot-puzzle": {
+      "offlineDistributionCount": 1000,
+      "onlineDistributionCount": 6
+    },
+    "canada-maple-leaf-dot-to-dot-puzzle": {
+      "offlineDistributionCount": 1000,
       "onlineDistributionCount": 3
+    },
+    "canada-moose-dot-to-dot-puzzle": {
+      "offlineDistributionCount": 1000,
+      "onlineDistributionCount": 3
+    },
+    "canada-polar-bear-dot-to-dot-puzzle": {
+      "offlineDistributionCount": 1000,
+      "onlineDistributionCount": 5
+    },
+    "canada-raccoon-dot-to-dot-puzzle": {
+      "offlineDistributionCount": 1000,
+      "onlineDistributionCount": 11
+    },
+    "carnation-flower-dot-to-dot-puzzle": {
+      "offlineDistributionCount": 1000,
+      "onlineDistributionCount": 1
+    },
+    "carousel-horse-playground-dot-to-dot-puzzle": {
+      "offlineDistributionCount": 1000,
+      "onlineDistributionCount": 5
     },
     "circus-ringmaster-bear-dot-to-dot-puzzle": {
-      "offlineDistributionCount": 0,
-      "onlineDistributionCount": 3
+      "offlineDistributionCount": 1000,
+      "onlineDistributionCount": 7
+    },
+    "circus-tent-dot-to-dot-puzzle": {
+      "offlineDistributionCount": 1000,
+      "onlineDistributionCount": 4
+    },
+    "crescent-moon-dot-to-dot-puzzle": {
+      "offlineDistributionCount": 1000,
+      "onlineDistributionCount": 0
+    },
+    "cute-baby-elephant-dot-to-dot-puzzle": {
+      "offlineDistributionCount": 1000,
+      "onlineDistributionCount": 4
     },
     "cute-baby-turtle-dot-to-dot-puzzle": {
-      "offlineDistributionCount": 0,
-      "onlineDistributionCount": 1
+      "offlineDistributionCount": 1000,
+      "onlineDistributionCount": 4
     },
     "cute-butterfly-dot-to-dot-puzzle": {
-      "offlineDistributionCount": 0,
-      "onlineDistributionCount": 1
+      "offlineDistributionCount": 1000,
+      "onlineDistributionCount": 5
+    },
+    "cute-crab-dot-to-dot-puzzle": {
+      "offlineDistributionCount": 1000,
+      "onlineDistributionCount": 2
+    },
+    "cute-happy-frog-dot-to-dot-puzzle": {
+      "offlineDistributionCount": 1000,
+      "onlineDistributionCount": 2
     },
     "cute-lion-dot-to-dot-puzzle": {
-      "offlineDistributionCount": 0,
+      "offlineDistributionCount": 1000,
+      "onlineDistributionCount": 4
+    },
+    "cute-little-car-dot-to-dot-puzzle": {
+      "offlineDistributionCount": 1000,
+      "onlineDistributionCount": 4
+    },
+    "cute-owl-dot-to-dot-puzzle": {
+      "offlineDistributionCount": 1000,
       "onlineDistributionCount": 1
     },
     "cute-princess-dot-to-dot-puzzle": {
-      "offlineDistributionCount": 0,
-      "onlineDistributionCount": 2
+      "offlineDistributionCount": 1000,
+      "onlineDistributionCount": 7
     },
     "cute-puppy-dot-to-dot-puzzle": {
-      "offlineDistributionCount": 0,
-      "onlineDistributionCount": 9
+      "offlineDistributionCount": 1000,
+      "onlineDistributionCount": 17
+    },
+    "cute-rocket-ship-dot-to-dot-puzzle": {
+      "offlineDistributionCount": 1000,
+      "onlineDistributionCount": 3
+    },
+    "dallah-coffee-pot-dot-to-dot-puzzle": {
+      "offlineDistributionCount": 1000,
+      "onlineDistributionCount": 0
     },
     "dashing-car-playground-dot-to-dot-puzzle": {
-      "offlineDistributionCount": 0,
-      "onlineDistributionCount": 6
+      "offlineDistributionCount": 1000,
+      "onlineDistributionCount": 14
+    },
+    "eagle-kite-banner-usa-250-dot-to-dot-puzzle": {
+      "offlineDistributionCount": 1000,
+      "onlineDistributionCount": 0
+    },
+    "fighter-jet-dot-to-dot-puzzle": {
+      "offlineDistributionCount": 1000,
+      "onlineDistributionCount": 0
+    },
+    "flax-flower-dot-to-dot-puzzle": {
+      "offlineDistributionCount": 1000,
+      "onlineDistributionCount": 1
     },
     "forget-me-not-flower-dot-to-dot-puzzle": {
-      "offlineDistributionCount": 0,
-      "onlineDistributionCount": 3
+      "offlineDistributionCount": 1000,
+      "onlineDistributionCount": 7
     },
     "garden-gloves-dot-to-dot-puzzle": {
-      "offlineDistributionCount": 0,
+      "offlineDistributionCount": 1000,
       "onlineDistributionCount": 3
+    },
+    "garden-trowel-dot-to-dot-puzzle": {
+      "offlineDistributionCount": 1000,
+      "onlineDistributionCount": 1
     },
     "gas-balloon-usa-250-dot-to-dot-puzzle": {
-      "offlineDistributionCount": 0,
+      "offlineDistributionCount": 1000,
       "onlineDistributionCount": 3
     },
-    "jellyfish-dot-to-dot-puzzle": {
-      "offlineDistributionCount": 0,
-      "onlineDistributionCount": 10
+    "geranium-flower-dot-to-dot-puzzle": {
+      "offlineDistributionCount": 1000,
+      "onlineDistributionCount": 1
     },
-    "mermaid-dot-to-dot-puzzle": {
-      "offlineDistributionCount": 0,
+    "glider-dot-to-dot-puzzle": {
+      "offlineDistributionCount": 1000,
+      "onlineDistributionCount": 0
+    },
+    "great-white-shark-dot-to-dot-puzzle": {
+      "offlineDistributionCount": 1000,
+      "onlineDistributionCount": 0
+    },
+    "jasmine-flower-dot-to-dot-puzzle": {
+      "offlineDistributionCount": 1000,
+      "onlineDistributionCount": 1
+    },
+    "jellyfish-dot-to-dot-puzzle": {
+      "offlineDistributionCount": 1000,
       "onlineDistributionCount": 20
     },
+    "kawaii-sunflower-dot-to-dot-puzzle": {
+      "offlineDistributionCount": 1000,
+      "onlineDistributionCount": 1
+    },
+    "lotus-flower-dot-to-dot-puzzle": {
+      "offlineDistributionCount": 1000,
+      "onlineDistributionCount": 7
+    },
+    "mermaid-dot-to-dot-puzzle": {
+      "offlineDistributionCount": 1000,
+      "onlineDistributionCount": 30
+    },
+    "merman-dot-to-dot-puzzle": {
+      "offlineDistributionCount": 1000,
+      "onlineDistributionCount": 2
+    },
+    "monkey-bar-playground-dot-to-dot-puzzle": {
+      "offlineDistributionCount": 1000,
+      "onlineDistributionCount": 1
+    },
     "nasturtium-flower-dot-to-dot-puzzle": {
-      "offlineDistributionCount": 0,
+      "offlineDistributionCount": 1000,
+      "onlineDistributionCount": 1
+    },
+    "orchid-flower-dot-to-dot-puzzle": {
+      "offlineDistributionCount": 1000,
       "onlineDistributionCount": 1
     },
     "ostriches-dinosaur-dot-to-dot-puzzle": {
-      "offlineDistributionCount": 0,
-      "onlineDistributionCount": 6
+      "offlineDistributionCount": 1000,
+      "onlineDistributionCount": 9
+    },
+    "paper-airplane-dot-to-dot-puzzle": {
+      "offlineDistributionCount": 1000,
+      "onlineDistributionCount": 0
+    },
+    "peony-flower-dot-to-dot-puzzle": {
+      "offlineDistributionCount": 1000,
+      "onlineDistributionCount": 2
+    },
+    "periwinkle-flower-dot-to-dot-puzzle": {
+      "offlineDistributionCount": 1000,
+      "onlineDistributionCount": 1
+    },
+    "petunia-flower-dot-to-dot-puzzle": {
+      "offlineDistributionCount": 1000,
+      "onlineDistributionCount": 2
     },
     "playhouse-slide-playground-dot-to-dot-puzzle": {
-      "offlineDistributionCount": 0,
-      "onlineDistributionCount": 3
+      "offlineDistributionCount": 1000,
+      "onlineDistributionCount": 5
+    },
+    "plumeria-flower-dot-to-dot-puzzle": {
+      "offlineDistributionCount": 1000,
+      "onlineDistributionCount": 1
+    },
+    "poppy-flower-dot-to-dot-puzzle": {
+      "offlineDistributionCount": 1000,
+      "onlineDistributionCount": 1
+    },
+    "private-jet-dot-to-dot-puzzle": {
+      "offlineDistributionCount": 1000,
+      "onlineDistributionCount": 0
     },
     "pterodactyl-dot-to-dot-puzzle": {
-      "offlineDistributionCount": 0,
-      "onlineDistributionCount": 4
+      "offlineDistributionCount": 1000,
+      "onlineDistributionCount": 9
+    },
+    "ringed-planet-dot-to-dot-puzzle": {
+      "offlineDistributionCount": 1000,
+      "onlineDistributionCount": 0
+    },
+    "roller-coaster-playground-dot-to-dot-puzzle": {
+      "offlineDistributionCount": 1000,
+      "onlineDistributionCount": 1
+    },
+    "rose-flower-dot-to-dot-puzzle": {
+      "offlineDistributionCount": 1000,
+      "onlineDistributionCount": 1
     },
     "seahorse-dot-to-dot-puzzle": {
-      "offlineDistributionCount": 0,
+      "offlineDistributionCount": 1000,
+      "onlineDistributionCount": 3
+    },
+    "seesaw-playground-dot-to-dot-puzzle": {
+      "offlineDistributionCount": 1000,
+      "onlineDistributionCount": 1
+    },
+    "six-petal-lily-dot-to-dot-puzzle": {
+      "offlineDistributionCount": 1000,
       "onlineDistributionCount": 1
     },
     "slide-playgrounds-dot-to-dot-puzzle": {
-      "offlineDistributionCount": 0,
-      "onlineDistributionCount": 6
+      "offlineDistributionCount": 1000,
+      "onlineDistributionCount": 13
     },
     "snowdrop-flower-dot-to-dot-puzzle": {
-      "offlineDistributionCount": 0,
-      "onlineDistributionCount": 7
+      "offlineDistributionCount": 1000,
+      "onlineDistributionCount": 19
     },
-    "spinosaurus": {
-      "offlineDistributionCount": 0,
-      "onlineDistributionCount": 7
-    },
-    "spring-horse-playground-dot-to-dot-puzzle": {
-      "offlineDistributionCount": 0,
-      "onlineDistributionCount": 7
-    },
-    "stegosaurus-dot-to-dot-puzzle": {
-      "offlineDistributionCount": 0,
-      "onlineDistributionCount": 2
-    },
-    "swing-playgrounds-dot-to-dot-puzzle": {
-      "offlineDistributionCount": 0,
+    "space-rover-dot-to-dot-puzzle": {
+      "offlineDistributionCount": 1000,
       "onlineDistributionCount": 1
     },
+    "spinosaurus": {
+      "offlineDistributionCount": 1000,
+      "onlineDistributionCount": 12
+    },
+    "spring-horse-playground-dot-to-dot-puzzle": {
+      "offlineDistributionCount": 1000,
+      "onlineDistributionCount": 11
+    },
+    "stegosaurus-dot-to-dot-puzzle": {
+      "offlineDistributionCount": 1000,
+      "onlineDistributionCount": 9
+    },
+    "swing-playgrounds-dot-to-dot-puzzle": {
+      "offlineDistributionCount": 1000,
+      "onlineDistributionCount": 2
+    },
     "trex-61-dot-to-dot-puzzle": {
-      "offlineDistributionCount": 0,
-      "onlineDistributionCount": 23
+      "offlineDistributionCount": 1000,
+      "onlineDistributionCount": 49
     },
     "triceratops-dot-to-dot-puzzle": {
-      "offlineDistributionCount": 0,
-      "onlineDistributionCount": 7
+      "offlineDistributionCount": 1000,
+      "onlineDistributionCount": 9
+    },
+    "tulip-flower-dot-to-dot-puzzle": {
+      "offlineDistributionCount": 1000,
+      "onlineDistributionCount": 1
+    },
+    "uae-camel-dot-to-dot-puzzle": {
+      "offlineDistributionCount": 1000,
+      "onlineDistributionCount": 0
     },
     "uae-falcon-dot-to-dot-puzzle": {
-      "offlineDistributionCount": 0,
+      "offlineDistributionCount": 1000,
       "onlineDistributionCount": 2
+    },
+    "usa-250-anniversary-airplane-banner-dot-to-dot-puzzle": {
+      "offlineDistributionCount": 1000,
+      "onlineDistributionCount": 0
+    },
+    "usa-250-anniversary-sports-kids-podium-dot-to-dot-puzzle": {
+      "offlineDistributionCount": 1000,
+      "onlineDistributionCount": 0
+    },
+    "usa-250-astronaut-dot-to-dot-puzzle": {
+      "offlineDistributionCount": 1000,
+      "onlineDistributionCount": 0
+    },
+    "usa-250-birthday-balloons-stars-dot-to-dot-puzzle": {
+      "offlineDistributionCount": 1000,
+      "onlineDistributionCount": 0
+    },
+    "usa-250-birthday-cake-dot-to-dot-puzzle": {
+      "offlineDistributionCount": 1000,
+      "onlineDistributionCount": 0
+    },
+    "usa-250-space-shuttle-dot-to-dot-puzzle": {
+      "offlineDistributionCount": 1000,
+      "onlineDistributionCount": 0
     },
     "velociraptor-dot-to-dot-puzzle": {
-      "offlineDistributionCount": 0,
-      "onlineDistributionCount": 2
+      "offlineDistributionCount": 1000,
+      "onlineDistributionCount": 7
     },
     "whale-dot-to-dot-puzzle": {
-      "offlineDistributionCount": 0,
-      "onlineDistributionCount": 2
+      "offlineDistributionCount": 1000,
+      "onlineDistributionCount": 7
     },
     "wheelbarrow-playground-dot-to-dot-puzzle": {
-      "offlineDistributionCount": 0,
+      "offlineDistributionCount": 1000,
       "onlineDistributionCount": 3
     }
   }
