@@ -110,7 +110,7 @@ export default async function CommonPuzzleTemplate({ params }: PuzzleRouteProps)
     { '@type': 'ListItem', position: 2, name: categoryName, item: `https://dottodotfreeprintables.com/${locale}/${categorySlug}/` },
     { '@type': 'ListItem', position: 3, name: puzzle.name, item: `https://dottodotfreeprintables.com/${locale}/${categorySlug}/${puzzle.slug}/` }
   ] };
-  const exportedSchema = puzzle.header?.json_ld ? { '@context': 'https://schema.org', '@type': puzzle.header.json_ld.type, name: puzzle.header.json_ld.name, description: puzzle.header.json_ld.description, image: puzzle.header.json_ld.image, educationalUse: puzzle.header.json_ld.educational_use, typicalAgeRange: puzzle.header.json_ld.age_range } : null;
+  const exportedSchema = puzzle.header?.json_ld ? { '@context': 'https://schema.org', '@type': puzzle.header.json_ld.type, name: puzzle.header.json_ld.name, description: puzzle.header.json_ld.description, image: puzzle.header.json_ld.image, educationalUse: puzzle.header.json_ld.educational_use, typicalAgeRange: puzzle.header.json_ld.age_range, speakable: { '@type': 'SpeakableSpecification', cssSelector: ['#puzzle-h1', '#puzzle-description'] } } : null;
 
   return <>
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
@@ -119,10 +119,22 @@ export default async function CommonPuzzleTemplate({ params }: PuzzleRouteProps)
       <nav className="breadcrumb" aria-label={tc('breadcrumbAria')}><Link href={`/${locale}/`}><Home size={14} aria-hidden="true" /> {tc('home')}</Link><span aria-hidden="true"> › </span><Link href={`/${locale}/${categorySlug}/`}>{categoryName}</Link><span aria-hidden="true"> › </span><span aria-current="page">{puzzle.name}</span></nav>
       <div style={{ maxWidth: 1180, margin: '0 auto', padding: '0 24px 20px' }}><AdSlot id={`ad-puzzle-top-${puzzle.slug}`} size="leaderboard" label="Puzzle page - top" /></div>
       <div className="puzzle-page-layout section" style={{ paddingTop: 0 }}>
-        <div className="puzzle-preview-col"><div className="puzzle-preview-card"><figure style={{ margin: 0 }}><ResponsiveImage src={puzzle.image} alt={puzzleImageAlt(locale, puzzle, 'preview')} width={540} height={420} priority sizes="(max-width: 640px) 92vw, (max-width: 960px) 600px, 540px" style={{ width: '100%', height: 'auto', display: 'block', borderRadius: 16 }} /><figcaption className="sr-only">{puzzleImageAlt(locale, puzzle, 'preview')}</figcaption></figure></div><div className="puzzle-side-ad"><AdSlot id={`ad-puzzle-side-${puzzle.slug}`} size="rectangle" label="Puzzle page - beside image" /></div></div>
-        <div className="puzzle-details-col"><p className="eyebrow">{tPage?.has('slugEyebrow') ? tPage('slugEyebrow') : categoryName}</p><h1 style={{ fontSize: 'clamp(1.8rem, 4vw, 2.8rem)' }}>{seoH1}</h1><p style={{ color: 'var(--muted)', fontSize: '1.05rem', lineHeight: 1.65, margin: '14px 0 20px' }}>{puzzle.description}</p>
+        <div className="puzzle-preview-col" itemScope itemType="https://schema.org/CreativeWork"><div className="puzzle-preview-card"><figure style={{ margin: 0 }}><ResponsiveImage src={puzzle.image} alt={puzzleImageAlt(locale, puzzle, 'preview')} width={540} height={420} priority sizes="(max-width: 640px) 92vw, (max-width: 960px) 600px, 540px" style={{ width: '100%', height: 'auto', display: 'block', borderRadius: 16 }} /><figcaption className="sr-only">{puzzleImageAlt(locale, puzzle, 'preview')}</figcaption></figure></div><div className="puzzle-side-ad"><AdSlot id={`ad-puzzle-side-${puzzle.slug}`} size="rectangle" label="Puzzle page - beside image" /></div>
+          <meta itemProp="image" content={absoluteUrl(puzzle.image)} />
+          <meta itemProp="educationalUse" content="practice" />
+          {puzzle.age && <meta itemProp="typicalAgeRange" content={bareAgeRange(puzzle.age)} />}
+        </div>
+        <div className="puzzle-details-col"><p className="eyebrow">{tPage?.has('slugEyebrow') ? tPage('slugEyebrow') : categoryName}</p><h1 id="puzzle-h1" itemProp="name" style={{ fontSize: 'clamp(1.8rem, 4vw, 2.8rem)' }}>{seoH1}</h1><p id="puzzle-description" itemProp="description" style={{ color: 'var(--muted)', fontSize: '1.05rem', lineHeight: 1.65, margin: '14px 0 20px' }}>{puzzle.description}</p>
           <div className="meta-chips"><span className="chip">{tp('agesLabel')} {bareAgeRange(puzzle.age)}</span><span className="chip">{tp('dotsLabel')} 1–{puzzle.dots}</span><span className="chip chip--free">{tp('freeLabel')}</span></div>
           <div style={{ margin: '16px 0' }}><p style={{ fontWeight: 800, marginBottom: 8, fontSize: '0.9rem' }}>{tp('difficultyHeading')}</p><DifficultyBar level={puzzle.difficulty} labels={difficultyLabels} ariaLabel={tc('difficultyLabel', { level: puzzle.difficulty })} /></div>
+          <table className="puzzle-facts-table" style={{ borderCollapse: 'collapse', fontSize: '0.85rem', margin: '4px 0 16px' }}>
+            <caption className="sr-only">{puzzle.name}</caption>
+            <tbody>
+              <tr><th scope="row" style={{ textAlign: 'start', fontWeight: 700, paddingInlineEnd: 12, color: 'var(--muted)' }}>{tp('agesLabel')}</th><td>{bareAgeRange(puzzle.age)}</td></tr>
+              <tr><th scope="row" style={{ textAlign: 'start', fontWeight: 700, paddingInlineEnd: 12, color: 'var(--muted)' }}>{tp('dotsLabel')}</th><td>1–{puzzle.dots}</td></tr>
+              <tr><th scope="row" style={{ textAlign: 'start', fontWeight: 700, paddingInlineEnd: 12, color: 'var(--muted)' }}>{tp('difficultyHeading')}</th><td>{difficultyLabels[puzzle.difficulty - 1]}</td></tr>
+            </tbody>
+          </table>
           <div className="fun-fact-box"><span style={{ fontSize: '1.3rem' }} aria-hidden="true">!</span><div><strong>{tp('funFactPrefix')}</strong> {puzzle.funFact}</div></div>
           <div style={{ margin: '20px 0 16px' }}><AdSlot id={`ad-puzzle-predownload-${puzzle.slug}`} size="inline" label="Puzzle page - pre-download" /></div>
           {puzzle.pdf ? <DownloadButton puzzleId={puzzle.slug} pdfUrl={puzzle.pdf} locale={locale} ariaLabel={tc('downloadAria', { name: puzzle.name })} /> : <p className="asset-note">{tp('comingSoon')}</p>}
