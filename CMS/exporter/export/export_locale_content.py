@@ -54,6 +54,7 @@ DB_TO_OUTPUT = {
     "flowers": "puzzles-flowers.json",
     "garden": "puzzles-garden.json",
     "ocean": "puzzles-ocean.json",
+    "planes": "puzzles-planes.json",
     "playgrounds": "puzzles-playgrounds.json",
     "space": "puzzles-space.json",
     "uae": "puzzles-uae.json",
