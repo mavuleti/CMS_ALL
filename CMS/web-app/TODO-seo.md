@@ -8,20 +8,29 @@ Not done — needs a call before implementing.
       upscaling, which `scripts/generate-responsive-images.mjs` explicitly
       disables (`withoutEnlargement: true`). Not actionable without
       re-sourcing higher-resolution originals.
-- [ ] **Speakable schema** (`SpeakableSpecification` in JSON-LD) for voice
-      search / AI audio overviews.
-- [ ] **HTML summary/data tables** on category and puzzle pages (puzzle
-      name, dot count, age, difficulty) for AEO/GEO citation by ChatGPT
-      Search, Perplexity, Gemini.
+- [x] **Speakable schema** (`SpeakableSpecification` in JSON-LD) for voice
+      search / AI audio overviews — done 2026-08-19. `exportedSchema` in
+      `components/templates/CommonPuzzleTemplate.tsx` now includes
+      `speakable: { cssSelector: ['#puzzle-h1', '#puzzle-description'] }`,
+      matching new ids added to the on-page h1/description elements.
+- [x] **HTML summary/data tables** on puzzle pages (age, dot count,
+      difficulty) for AEO/GEO citation by ChatGPT Search, Perplexity,
+      Gemini — done 2026-08-19, puzzle pages only (category pages not
+      attempted). Reuses existing translated labels (`agesLabel`,
+      `dotsLabel`, `difficultyHeading`) so no new i18n keys/translation
+      backfill was needed.
 - [x] **Cross-category interlinking by dot-count/age tier** — done 2026-08-19.
       `getCrossTierPuzzles()` in `lib/category-registry.ts` adds a second
       "more puzzles at this skill level" grid on every puzzle page, linking
       to up to 3 puzzles from other categories at the same difficulty tier
       and overlapping age range. No new i18n keys needed. Verified with a
       full `next build`.
-- [ ] **Inline Microdata** (`itemscope`/`itemprop`) alongside existing
+- [x] **Inline Microdata** (`itemscope`/`itemprop`) alongside existing
       JSON-LD, as a fallback if script-tag JSON-LD is truncated/fails to
-      parse.
+      parse — done 2026-08-19, puzzle pages only. Added
+      `itemScope itemType="https://schema.org/CreativeWork"` on the
+      preview column with `itemProp` on name/description/image/
+      educationalUse/typicalAgeRange, mirroring `exportedSchema`.
 
 The remaining Speakable schema and Microdata items touch JSON-LD generation
 more broadly — scope each one before starting.
