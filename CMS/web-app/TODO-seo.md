@@ -2,12 +2,30 @@
 
 Not done — needs a call before implementing.
 
-- [ ] **1200px srcset for puzzle images** — source puzzle images are only
-      800px wide natively (checked via sharp metadata on
-      `public/images/*-puzzle.webp`), so a 1200px variant would require
-      upscaling, which `scripts/generate-responsive-images.mjs` explicitly
-      disables (`withoutEnlargement: true`). Not actionable without
-      re-sourcing higher-resolution originals.
+- [x] **1200px srcset + OG image for puzzle images** — done 2026-08-19.
+      The 800px web originals turned out not to be the highest-resolution
+      source: every puzzle's print PDF embeds a 300dpi (2550x3300 or
+      3300x2550) JPEG of the same artwork. `scripts/generate-1200px-puzzle-images.mjs`
+      extracts that embedded image, isolates the artwork from the page's
+      fixed-position footer/QR/branding block (verified identical at row
+      2298 for landscape pages and 3048 for portrait pages across
+      unrelated puzzles), and derives the equivalent full-canvas crop by
+      matching ink bounding boxes against the existing 800px webp — so the
+      1200px output is real captured detail, not an upscale. Wired into
+      `ResponsiveImage.tsx`'s srcset (also fixed a pre-existing bug there:
+      the 800px source was mislabeled with the display-width descriptor
+      instead of its real 800w, which could stop browsers from ever
+      selecting it) and into puzzle/category `og:image` via
+      `lib/seo.ts`'s new `ogImageFor()`, plus the sitewide
+      `DEFAULT_OG_IMAGE` fallback — all now meet Google's 1200px+
+      large-image-preview / Discover threshold.
+      Coverage: 78 of 82 puzzles (tracked in `lib/puzzle-1200-manifest.json`,
+      regenerate by rerunning the script). Known gaps, left unresolved
+      rather than shipping a bad crop: `seahorse`, `whale`,
+      `gas-balloon-usa-250` use an older PDF template (a boxed "CONNECT
+      THE DOTS" caption instead of the footer/QR block) that the fixed
+      footer-row assumption doesn't handle — needs a second template
+      profile if these are wanted; `ostriches` has no PDF at all.
 - [x] **Speakable schema** (`SpeakableSpecification` in JSON-LD) for voice
       search / AI audio overviews — done 2026-08-19. `exportedSchema` in
       `components/templates/CommonPuzzleTemplate.tsx` now includes

@@ -10,6 +10,7 @@ import { routing } from '@/i18n/routing';
 import { categories, getCategory } from '@/lib/category-registry';
 import { localizeAge } from '@/lib/age';
 import { buildCommonHeaderMetadata } from '@/components/templates/CommonHeaderTemplate';
+import { ogImageFor } from '@/lib/seo';
 import { puzzleImageAlt } from '@/lib/json-seo';
 import { FaqBlock } from '@/components/sections';
 
@@ -57,7 +58,7 @@ export async function generateCollectionMetadata({ params }: CollectionRouteProp
     // Collection headers never carry their own og.image (the mapping_audit DBs
     // never captured one), so fall back to the category's first puzzle image —
     // same source puzzle pages already use for their own ogImage.
-    image: header.og?.image ?? category.getPuzzles(locale)[0]?.image
+    image: header.og?.image ?? ogImageFor(category.getPuzzles(locale)[0]?.image)
   });
 }
 

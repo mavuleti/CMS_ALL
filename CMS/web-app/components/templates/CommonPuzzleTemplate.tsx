@@ -16,7 +16,7 @@ import { categories, getCategory, getCrossTierPuzzles } from '@/lib/category-reg
 import { localizeHtmlLinks } from '@/lib/localize-html-links';
 import { puzzleImageAlt } from '@/lib/json-seo';
 import { buildCommonHeaderMetadata } from '@/components/templates/CommonHeaderTemplate';
-import { absoluteUrl } from '@/lib/seo';
+import { absoluteUrl, ogImageFor } from '@/lib/seo';
 import { FaqBlock } from '@/components/sections';
 
 export type PuzzleRouteProps = { params: Promise<{ locale: string; category: string; slug: string }> };
@@ -58,7 +58,7 @@ export async function generatePuzzleMetadata({ params }: PuzzleRouteProps): Prom
     type: 'article',
     ogTitle: puzzle.seoOgTitle,
     ogDescription: puzzle.seoOgDescription,
-    image: puzzle.image,
+    image: ogImageFor(puzzle.image),
     imageAlt: requireField(puzzle.seoImageAlt, 'seoImageAlt', locale, categorySlug, slug)
   });
 }

@@ -1,5 +1,19 @@
 import { routing } from '@/i18n/routing';
 import type { Metadata } from 'next';
+import puzzle1200Manifest from '@/lib/puzzle-1200-manifest.json';
+
+const puzzle1200Sources = new Set<string>(puzzle1200Manifest);
+
+// Google's large-image-preview / Discover eligibility wants og:image at
+// 1200px+ (see TODO-seo.md). Puzzle originals are 800px; use the real
+// 1200px crop (extracted from that puzzle's print PDF — see
+// scripts/generate-1200px-puzzle-images.mjs) for social/search sharing
+// when one exists, and fall back to the 800px original otherwise.
+export function ogImageFor(image: string | undefined): string | undefined {
+  if (!image || !image.endsWith('-puzzle.webp')) return image;
+  const variant = image.replace(/\.webp$/, '-1200.webp');
+  return puzzle1200Sources.has(image) ? variant : image;
+}
 
 export const SITE_URL = 'https://dottodotfreeprintables.com';
 export const SITE_NAME = 'DotToDotFreePrintables.com';
@@ -11,9 +25,9 @@ export function absoluteUrl(path: string) {
 }
 
 export const DEFAULT_OG_IMAGE = {
-  url: absoluteUrl('/images/trex-61-puzzle.webp'),
-  width: 800,
-  height: 679,
+  url: absoluteUrl('/images/trex-61-puzzle-1200.webp'),
+  width: 1200,
+  height: 900,
   alt: 'Free dot-to-dot printable worksheet for kids'
 };
 
