@@ -9,6 +9,7 @@ import { routing } from '@/i18n/routing';
 import BrowserErrorTracker from '@/components/BrowserErrorTracker';
 import RouteProgressBar from '@/components/RouteProgressBar';
 import GlobalSkipLink from '@/components/GlobalSkipLink';
+import LocaleAutoRedirect from '@/components/LocaleAutoRedirect';
 import AnalyticsPageView from '@/components/AnalyticsPageView';
 import TopDownloadsLeaderboard from '@/components/TopDownloadsLeaderboard';
 import HideOnLocaleHome from '@/components/HideOnLocaleHome';
@@ -126,6 +127,7 @@ const languageSwitcherScript = `
       parts.splice(1, 0, nextLocale);
     }
 
+    document.cookie = 'preferred-locale=' + encodeURIComponent(nextLocale) + '; path=/; max-age=' + (60 * 60 * 24 * 365) + '; SameSite=Lax';
     window.location.assign(parts.join('/') + window.location.search + window.location.hash);
   }
 
@@ -252,6 +254,7 @@ export default async function LocaleLayout({
     <html lang={htmlLang} dir={dir}>
       <body>
         <BrowserErrorTracker />
+        <LocaleAutoRedirect currentLocale={locale} />
         {isArabic && (
           <>
             <link rel="preconnect" href="https://fonts.googleapis.com" />
