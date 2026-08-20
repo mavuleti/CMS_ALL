@@ -27,14 +27,14 @@ export const recordDownload = onCall({ enforceAppCheck: true }, async (request) 
 
   const userRef = db.doc(`users/${uid}`);
   const downloadRef = userRef.collection('downloads').doc(puzzleId);
-  const puzzleRef = db.doc(`puzzles/${puzzleId}`);
+  const distributionRef = db.doc(`puzzleDistributionCounts/${puzzleId}`);
   const globalRef = db.doc('stats/global');
 
   await db.runTransaction(async (transaction) => {
-    const [userSnap, downloadSnap, puzzleSnap] = await Promise.all([
+    const [userSnap, downloadSnap, distributionSnap] = await Promise.all([
       transaction.get(userRef),
       transaction.get(downloadRef),
-      transaction.get(puzzleRef)
+      transaction.get(distributionRef)
     ]);
     const now = Date.now();
     const lastDownloadAt = userSnap.get('lastDownloadAt')?.toMillis?.() ?? 0;
@@ -45,9 +45,11 @@ export const recordDownload = onCall({ enforceAppCheck: true }, async (request) 
       throw new HttpsError('resource-exhausted', 'Please wait before recording another download.');
     }
 
-    const puzzleData = puzzleSnap.data() ?? {};
-    transaction.set(puzzleRef, {
-      totalClickCount: (puzzleData.totalClickCount ?? 0) + 1,
+    const distributionData = distributionSnap.data() ?? {};
+    transaction.set(distributionRef, {
+      totalClickCount: Number(distributionData.totalClickCount ?? distributionData.onlineDistributionCount ?? 0) + 1,
+      offlineDistributionCount: Number(distributionData.offlineDistributionCount ?? 0),
+      onlineDistributionCount: Number(distributionData.onlineDistributionCount ?? 0) + 1,
       lastDownloadedAt: FieldValue.serverTimestamp(),
       locales: { [locale]: FieldValue.increment(1) },
       countries: { [country]: FieldValue.increment(1) }
@@ -65,7 +67,7 @@ export const recordDownload = onCall({ enforceAppCheck: true }, async (request) 
 
     if (!downloadSnap.exists) {
       transaction.set(downloadRef, { downloadedAt: FieldValue.serverTimestamp(), locale, country });
-      transaction.set(puzzleRef, { downloadCount: (puzzleData.downloadCount ?? 0) + 1 }, { merge: true });
+      transaction.set(distributionRef, { downloadCount: Number(distributionData.downloadCount ?? 0) + 1 }, { merge: true });
       transaction.set(globalRef, {
         totalUniqueDownloads: FieldValue.increment(1),
         totalUniqueDevices: userSnap.exists ? FieldValue.increment(0) : FieldValue.increment(1),

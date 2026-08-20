@@ -7,6 +7,7 @@ const badge = fs.readFileSync('components/DownloadBadge.tsx', 'utf8');
 
 const requiredRules = [
   'match /puzzles/{puzzleId}',
+  'match /puzzleDistributionCounts/{puzzleId}',
   'match /users/{uid}',
   'match /users/{uid}/downloads/{puzzleId}',
   'match /stats/{doc}',
@@ -15,7 +16,7 @@ const requiredRules = [
 for (const entry of requiredRules) {
   if (!rules.includes(entry)) throw new Error(`Firestore contract missing: ${entry}`);
 }
-for (const deniedPath of ['puzzles/{puzzleId}', 'users/{uid}', 'users/{uid}/downloads/{puzzleId}', 'stats/{doc}']) {
+for (const deniedPath of ['puzzles/{puzzleId}', 'puzzleDistributionCounts/{puzzleId}', 'users/{uid}', 'users/{uid}/downloads/{puzzleId}', 'stats/{doc}']) {
   const block = rules.slice(rules.indexOf(`match /${deniedPath}`));
   if (!block.includes('allow write: if false')) throw new Error(`Direct writes are not denied for ${deniedPath}`);
 }

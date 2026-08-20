@@ -16,4 +16,4 @@ for (const [puzzleId, totalClickCount] of seeds) {
   await db.doc(`puzzles/${puzzleId}`).set({ totalClickCount }, { merge: true });
 }
 
-console.log(`Seeded ${seeds.length} emulator puzzle documents.`);
+console.log(`Seeded ${seeds.length} legacy emulator puzzle documents. Run npm run migrate:distribution-counts to create the new collection.`);

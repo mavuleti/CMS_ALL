@@ -1,11 +1,12 @@
 const host = process.env.FIRESTORE_EMULATOR_HOST ?? '127.0.0.1:8080';
 const base = `http://${host}/v1/projects/demo-project/databases/(default)/documents`;
 
-const read = await fetch(`${base}/puzzles/trex-61-dot-to-dot-puzzle`);
+const read = await fetch(`${base}/puzzleDistributionCounts/trex-61-dot-to-dot-puzzle`);
 if (!read.ok) throw new Error(`Expected public puzzle read to succeed, got ${read.status}`);
 
 const writes = [
   ['puzzles/rules-test', { fields: { totalClickCount: { integerValue: '1' } } }],
+  ['puzzleDistributionCounts/rules-test', { fields: { onlineDistributionCount: { integerValue: '1' } } }],
   ['users/rules-test', { fields: { marker: { stringValue: 'blocked' } } }],
   ['users/rules-test/downloads/rules-test', { fields: { marker: { stringValue: 'blocked' } } }],
   ['stats/global', { fields: { marker: { stringValue: 'blocked' } } }]

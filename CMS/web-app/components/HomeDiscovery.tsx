@@ -7,6 +7,8 @@ import type { Puzzle } from '@/lib/site-data';
 import ResponsiveImage from '@/components/ResponsiveImage';
 import { trackEvent } from '@/lib/client-analytics';
 import { useTranslations } from 'next-intl';
+import downloadCounts from '@/lib/download-counts.json';
+import { displayedDistributionTotal, type DistributionCount } from '@/lib/distribution-counts';
 
 // 'easy' (1-20 dots) is hidden until the catalog has puzzles in that range
 // (currently 32-250 dots minimum as of 2026-08-19) — re-add once real
@@ -155,7 +157,11 @@ export default function HomeDiscovery({ locale, featuredPuzzles }: { locale: str
       </div>
 
       <section className="discovery-grid" ref={gridRef} aria-busy={isSearching && allPuzzles === null && !searchLoadFailed} aria-label={homeT('featuredPuzzles')}>
-        {visible.slice(0, isSearching ? 24 : 8).map((puzzle, index) => (
+        {visible.slice(0, isSearching ? 24 : 8).map((puzzle, index) => {
+          const downloadCount = displayedDistributionTotal(
+            (downloadCounts as { puzzles?: Record<string, DistributionCount> }).puzzles?.[puzzle.id]
+          );
+          return (
           <article className="discovery-card" key={puzzle.id}>
             <button
               className={`discovery-heart${favorites.includes(puzzle.id) ? ' is-saved' : ''}`}
@@ -173,11 +179,12 @@ export default function HomeDiscovery({ locale, featuredPuzzles }: { locale: str
             <h2><Link href={localizedPuzzleHref(locale, puzzle)} onClick={() => trackEvent('select_item', { item_id: puzzle.id, item_name: puzzle.name, location: 'homepage_title' })}>{puzzle.name}</Link></h2>
             <div className="discovery-meta">
               <span className={`difficulty-${puzzle.difficulty}`}><i />{commonT(`difficulty.${puzzle.difficulty}`)} · {commonT('dots', { count: puzzle.dots })}</span>
-              <span><Download size={15} aria-hidden="true" />{(1.9 + (index % 5) * .3).toFixed(1)}k {homeT('downloads')}</span>
+              <span><Download size={15} aria-hidden="true" />{downloadCount.toLocaleString(locale)} {homeT('downloads')}</span>
             </div>
             <Link className="discovery-print" href={localizedPuzzleHref(locale, puzzle)} onClick={() => trackEvent('select_item', { item_id: puzzle.id, item_name: puzzle.name, location: 'homepage_print_button' })}>{commonT('downloadFree')}</Link>
           </article>
-        ))}
+          );
+        })}
         {!visible.length && allPuzzles !== null && <p className="discovery-empty">{searchT('noMatches')}</p>}
         {searchLoadFailed && <p className="discovery-empty" role="status">{homeT('searchUnavailable')}</p>}
       </section>

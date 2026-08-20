@@ -2,7 +2,8 @@
 
 import { useEffect, useState } from "react";
 import { useLocale, useTranslations } from "next-intl";
-import { PUZZLE_BADGE_MIN_COUNT, DOWNLOAD_OFFLINE_BASELINE } from "@/lib/social-proof-config";
+import { PUZZLE_BADGE_MIN_COUNT } from "@/lib/social-proof-config";
+import { displayedDistributionTotal } from "@/lib/distribution-counts";
 
 export default function DownloadBadge({ puzzleId, bakedCount }: { puzzleId: string; bakedCount: number }) {
   const t = useTranslations("downloadBadge");
@@ -26,14 +27,16 @@ export default function DownloadBadge({ puzzleId, bakedCount }: { puzzleId: stri
           : `https://firestore.googleapis.com/v1/projects/${projectId}/databases/(default)/documents`;
         let response: Response;
         try {
-          response = await fetch(`${firestoreBase}/puzzles/${puzzleId}`);
+          response = await fetch(`${firestoreBase}/puzzleDistributionCounts/${puzzleId}`);
         } catch {
           return;
         }
         if (!response.ok) return;
         const document = await response.json();
-        const realCount = Number(document.fields?.totalClickCount?.integerValue ?? 0);
-        const freshCount = DOWNLOAD_OFFLINE_BASELINE + realCount;
+        const freshCount = displayedDistributionTotal({
+          offlineDistributionCount: document.fields?.offlineDistributionCount?.integerValue,
+          onlineDistributionCount: document.fields?.onlineDistributionCount?.integerValue
+        });
         setCount((current) => Math.max(current, freshCount));
         localStorage.setItem(key, JSON.stringify({ count: freshCount, expiresAt: Date.now() + 3600000 }));
       };

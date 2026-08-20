@@ -4,6 +4,7 @@ import counts from '@/lib/download-counts.json';
 import { puzzlesForLocale, type Puzzle } from '@/lib/site-data';
 import { getTranslations } from 'next-intl/server';
 import { getRecentPuzzleSlugs } from '@/lib/export-content';
+import { displayedDistributionTotal, type DistributionCount } from '@/lib/distribution-counts';
 
 export default async function TopDownloadsLeaderboard({
   locale = 'en',
@@ -26,7 +27,7 @@ export default async function TopDownloadsLeaderboard({
     const fallbackKey = `puzzleNames.${puzzle.id}`;
     return homeT.has(fallbackKey) ? homeT(fallbackKey) : puzzle.name;
   };
-  const top = (counts as { top?: Array<{ puzzleId: string; totalClickCount: number }> }).top ?? [];
+  const top = (counts as { top?: Array<{ puzzleId: string } & DistributionCount> }).top ?? [];
   const items = top
     .map((entry) => ({ ...entry, puzzle: puzzles.find((puzzle) => puzzle.id === entry.puzzleId) }))
     .filter((entry): entry is typeof entry & { puzzle: NonNullable<typeof entry.puzzle> } =>
@@ -49,16 +50,19 @@ export default async function TopDownloadsLeaderboard({
         </div>
       </div>
       <ol className="top-downloads-list">
-        {items.map(({ puzzle, totalClickCount }, index) => (
+        {items.map(({ puzzle, ...distribution }, index) => {
+          const totalDownloadCount = displayedDistributionTotal(distribution);
+          return (
           <li key={puzzle!.id}>
             <span className="top-downloads-rank" aria-hidden="true">{index + 1}</span>
             <Link href={`/${locale}${puzzle!.href}`}>{puzzleName(puzzle!)}</Link>
-            <span className="top-downloads-count" aria-label={homeT('downloadCountAria', { count: totalClickCount.toLocaleString(locale) })}>
+            <span className="top-downloads-count" aria-label={homeT('downloadCountAria', { count: totalDownloadCount.toLocaleString(locale) })}>
               <Download size={13} aria-hidden="true" />
-              {totalClickCount.toLocaleString(locale)}+
+              {totalDownloadCount.toLocaleString(locale)}+
             </span>
           </li>
-        ))}
+          );
+        })}
       </ol>
     </div>
   );

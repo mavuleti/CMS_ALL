@@ -4,7 +4,7 @@ import { resolvePdfVariants, isAmbiguousPaperLocale } from "@/lib/paper-size";
 import DownloadTracker from "./DownloadTracker";
 import DownloadBadge from "./DownloadBadge";
 import downloadCounts from "@/lib/download-counts.json";
-import { DOWNLOAD_OFFLINE_BASELINE } from "@/lib/social-proof-config";
+import { displayedDistributionTotal, type DistributionCount } from "@/lib/distribution-counts";
 
 interface DownloadButtonProps {
   pdfUrl: string;
@@ -27,7 +27,9 @@ export default async function DownloadButton({
 
   const sizeLabel = (size: "letter" | "a4") =>
     size === "a4" ? t("paperA4") : t("paperLetter");
-  const bakedCount = DOWNLOAD_OFFLINE_BASELINE + Number((downloadCounts as { puzzles?: Record<string, number> }).puzzles?.[puzzleId] ?? 0);
+  const bakedCount = displayedDistributionTotal(
+    (downloadCounts as { puzzles?: Record<string, DistributionCount> }).puzzles?.[puzzleId]
+  );
 
   // en / es / fr genuinely mix Letter and A4 markets within one locale
   // code — show both sizes as equal, prominent buttons instead of

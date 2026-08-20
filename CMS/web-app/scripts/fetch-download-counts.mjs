@@ -46,22 +46,26 @@ function numberField(document, name) {
 
 try {
   if (!base) throw new Error('NEXT_PUBLIC_FIREBASE_PROJECT_ID is not configured');
-  const [puzzles, global, top] = await Promise.all([
-    fetchCollection('puzzles'),
-    fetchDocument('stats/global'),
-    fetchDocument('stats/top_puzzles')
+  const [puzzles, global] = await Promise.all([
+    fetchCollection('puzzleDistributionCounts'),
+    fetchDocument('stats/global')
   ]);
+  const puzzleCounts = (puzzles.documents ?? []).map((document) => ({
+    puzzleId: document.name.split('/').pop(),
+    offlineDistributionCount: numberField(document, 'offlineDistributionCount'),
+    onlineDistributionCount: numberField(document, 'onlineDistributionCount')
+  }));
   const counts = {
     global: {
       totalUniqueDevices: numberField(global, 'totalUniqueDevices'),
       totalUniqueDownloads: numberField(global, 'totalUniqueDownloads')
     },
-    top: top.fields?.top?.arrayValue?.values?.map((entry) => ({
-      puzzleId: entry.mapValue?.fields?.puzzleId?.stringValue ?? '',
-      totalClickCount: Number(entry.mapValue?.fields?.totalClickCount?.integerValue ?? 0)
-    })) ?? [],
-    puzzles: Object.fromEntries((puzzles.documents ?? []).map((document) => [
-      document.name.split('/').pop(), numberField(document, 'totalClickCount')
+    // Popularity is intentionally based only on current online activity.
+    top: [...puzzleCounts]
+      .sort((left, right) => right.onlineDistributionCount - left.onlineDistributionCount)
+      .slice(0, 10),
+    puzzles: Object.fromEntries(puzzleCounts.map(({ puzzleId, ...distribution }) => [
+      puzzleId, distribution
     ]))
   };
   await writeFile(outputPath, `${JSON.stringify(counts, null, 2)}\n`);
