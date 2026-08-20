@@ -2952,6 +2952,24 @@ a.category-card:hover {
   }
 }
 
+.english-fallback-link {
+  display: inline-flex;
+  align-items: center;
+  flex-shrink: 0;
+  border: 1.5px solid #ddd3c6;
+  border-radius: 8px;
+  color: var(--ink);
+  font-size: 0.85rem;
+  font-weight: 700;
+  min-height: 34px;
+  padding: 5px 9px;
+  text-decoration: none;
+}
+.english-fallback-link:hover,
+.english-fallback-link:focus-visible {
+  border-color: var(--red);
+}
+
 .sr-only {
   position: absolute;
   width: 1px;

@@ -2,6 +2,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import dynamic from 'next/dynamic';
 import LanguageSwitcher from '@/components/LanguageSwitcher';
+import EnglishFallbackLink from '@/components/EnglishFallbackLink';
 import {
   ArrowRight,
   BookOpenCheck,
@@ -154,6 +155,7 @@ export async function Navbar() {
           }}
         />
         <LanguageSwitcher currentLocale={locale} />
+        <EnglishFallbackLink currentLocale={locale} />
       </nav>
       <HeaderDotAnimation />
     </header>
