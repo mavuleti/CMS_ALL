@@ -98,7 +98,7 @@
     "categories": {
       "eyebrow": "Järjestetty teeman ja taitotason mukaan",
       "heading": "Selaa pisteestä pisteeseen -pulmia luokittain",
-      "description": "Yksinkertaisista pisteestä pisteeseen 1–10 ja 1–20 muodoista taaperoille ja esikoulu-ikäisille vaikeampiin pisteestä pisteeseen 1–50 ja 200 pisteen haasteisiin vanhemmille lapsille (ja miksei myös aikuisille) – lajiteltuna luokittain, jotta löydät oikean ilmaisen tulostettavan sekunneissa.",
+      "description": "Yksinkertaisista 32 pisteen muodoista nuoremmille lapsille aina 145 pisteen haasteisiin vanhemmille lapsille (ja miksei myös aikuisille) – lajiteltuna luokittain, jotta löydät oikean ilmaisen tulostettavan sekunneissa.",
       "puzzles": "{count, plural, one {# palapeli} other {# palapeliä}}",
       "comingSoon": "Tulossa pian",
       "badges": {
@@ -109,7 +109,8 @@
         "usa250": "Uusi!",
         "uae": "Saatavilla nyt!",
         "cute": "Uusi!",
-        "circus": "Uusi!"
+        "circus": "Uusi!",
+        "planes": "Uusi!"
       },
       "items": {
         "dinosaurs": {
@@ -171,6 +172,10 @@
         "circus": {
           "name": "Sirkus",
           "description": "Tirehtöörit, suuret teltat ja sirkushuvia nuorille oppijoille."
+        },
+        "planes": {
+          "name": "Lentokoneet",
+          "description": "Hävittäjät, yksityisjetit, paperilentokoneet ja liitokoneet nuorille ilmailun ystäville."
         }
       }
     },
@@ -285,7 +290,7 @@
       "eyebrow": "Valmis alle 60 sekunnissa",
       "heading": "Kuinka ladata ja tulostaa ilmaisia pisteestä pisteeseen -laskentataulukoita",
       "step1Title": "Valitse palapelisi",
-      "step1Text": "Valitse teema (eläimet, dinosaurukset, ajoneuvot, loma) ja pistealue, joka vastaa lapsesi ikää ja taitotasoa.",
+      "step1Text": "Valitse teema (eläimet, dinosaurukset, ajoneuvot, loma) ja pistealue — yhdistä pisteet 1–100 tulostukseen tai suurempaan haasteeseen — joka vastaa lapsesi ikää ja taitotasoa.",
       "step2Title": "Lataa ilmainen PDF-tiedosto",
       "step2Text": "Klikkaa \"Lataa ilmainen tulostettava tiedosto\" – ei tiliä, ei sähköpostiosoitetta, ei maksumuuria. Selaimesi lataa PDF-tiedoston välittömästi.",
       "step3Title": "Tulosta ja nauti",
@@ -317,7 +322,7 @@
       "q6": "Auttavatko pisteestä pisteeseen -palapelit hienomotoriikkaa?",
       "a6": "Kyllä — pisteiden väliin viivojen piirtäminen kehittää kynän otteen voimaa ja käden ja silmän koordinaatiota, jotka tukevat käsin kirjoittamisen valmiutta. Monet toimintaterapeutit ja lastentarhanopettajat suosittelevat pisteiden yhdistämisharjoituksia tästä syystä.",
       "q7": "Onko teillä teemoitettuja pisteestä pisteeseen -tulostettavia materiaaleja, kuten eläimet tai dinosaurukset?",
-      "a7": "Meillä on 11 kategoriaa, mukaan lukien eläimet, dinosaurukset, ajoneuvot, merieläimet, leikkikentät, Amerikka 250 vuotta, avaruus, fantasia, vuodenaikojen/juhlavuoden teemat, opettajan tehtäväkirjapakkaukset ja Big Dot -kirjat. Uusia malleja lisätään viikoittain.",
+      "a7": "Meillä on 12 kategoriaa: dinosaurukset, meri, leikkikentät, puutarha, kukat, söpöt eläimet, avaruus, sirkus, lentokoneet, Kanada, Arabiemiraatit ja Amerikka 250 vuotta. Uusia malleja lisätään viikoittain.",
       "q8": "Voinko tulostaa nämä palapelit mustavalkoisina?",
       "a8": "Kyllä — kaikki yhdistä pisteet -työkirjamme on suunniteltu mustavalkotulostettavaksi musteen säästämiseksi. Ne näyttävät upeilta millä tahansa koti- tai luokkahuonetulostimella."
     },
@@ -350,7 +355,13 @@
       "privacy": "Tietosuoja",
       "terms": "Ehdot",
       "sitemap": "Sivukartta",
-      "copyright": "© {year} DotToDotFreePrintables.com · Ilmaisia tulostettavia aktiviteetteja lapsille"
+      "copyright": "© {year} DotToDotFreePrintables.com · Ilmaisia tulostettavia aktiviteetteja lapsille",
+      "hubAges46": "Ikä 4-6",
+      "hubAges79": "Ikä 7-9",
+      "hubAges912": "Ikä 9-12",
+      "hubDifficultyMedium": "Keskitason tehtävät",
+      "hubDifficultyHard": "Vaikeat tehtävät",
+      "hubNavLabel": "Selaa iän tai vaikeustason mukaan"
     },
     "common": {
       "home": "Kotiin",
@@ -463,7 +474,9 @@
         "pdfBook": "PDF-KIRJA",
         "bookTitle": "Vuoden 2026 parhaat",
         "puzzleCount": "25 pisteestä pisteeseen -palapeliä",
-        "viewBook": "Näytä kirja"
+        "viewBook": "Näytä kirja",
+        "advertisementAria": "Mainos: Best of 2026 pisteestä pisteeseen -aktiviteettikirja",
+        "viewPackAria": "Katso Best of 2026 pisteestä pisteeseen -pulmapaketti"
       },
       "shared": {
         "specialSale": "ERIKOISTARJOUS",
@@ -493,7 +506,7 @@
           "classroomUse": "Käytettävissä kotona tai yhdessä luokkahuoneessa"
         },
         "guaranteeText": "Maksun jälkeen yksityinen latauslinkkisi ilmestyy heti. Ei tilausta eikä yllättäviä uusimisia.",
-        "heading": "Enemmän tehtäviä. Vähemmän etsimistä. Kaikki yhdessä kätevässä PDF:ssä.",
+        "heading": "Enemmän palapelejä. Vähemmän etsimistä. Kaikki yhdessä kätevässä PDF:ssä.",
         "detailsHeading": "Kaikki mitä tarvitset ruudutonta hauskanpitoa varten",
         "guaranteeHeading": "Yksinkertaista, turvallista ja valmista minuuteissa"
       },
@@ -507,12 +520,14 @@
       "success": {
         "metaTitle": "Kiitos ostoksestasi",
         "eyebrow": "Maksu vahvistettu",
-        "lede": "Maksusi onnistui. Ostoksen näkyminen tililläsi voi kestää muutaman sekunnin."
+        "lede": "Maksusi onnistui. Ostoksen näkyminen tililläsi voi kestää muutaman sekunnin.",
+        "heading": "Kiitos! Ostoksesi on valmis."
       },
       "cancelled": {
         "metaTitle": "Maksu peruutettu",
         "eyebrow": "Maksua ei veloitettu",
-        "lede": "Maksua ei veloitettu. Voit yrittää uudelleen milloin tahansa."
+        "lede": "Maksua ei veloitettu. Voit yrittää uudelleen milloin tahansa.",
+        "heading": "Maksu peruutettu"
       },
       "download": {
         "demoTitle": "Paikallinen maksutesti onnistui.",
@@ -533,20 +548,22 @@
       "difficultyHard": "Kovaa",
       "funFactPrefix": "Hauska fakta:",
       "funFactLabel": "Hauska fakta!",
-      "noSignUp": "Ilmoittautumista ei tarvita.Avautuu PDF-tiedostona.Tulosta US Letter (8,5 × 11 tuumaa) tai A4-paperille.Ilmainen koti- ja luokkakäyttöön.",
+      "noSignUp": "Ilmoittautumista ei tarvita. Avautuu PDF-tiedostona. Tulosta US Letter (8,5 × 11 tuumaa) tai A4-paperille. Ilmainen koti- ja luokkakäyttöön.",
       "comingSoon": "Lataa ilmainen PDF – tulossa pian",
       "youMightLike": "Saatat myös pitää",
       "faqQ1": "Minkä ikäiselle pisteestä pisteeseen -pulma on tarkoitettu?",
-      "faqA1": "Se on suunniteltu {age} ikäisille.{dots} pisteen ansiosta se sopii lapsille, jotka osaavat laskea luottavaisesti {pisteisiin};nuoremmat lapset voivat suorittaa sen pienellä avustuksella.",
+      "faqA1": "Se on suunniteltu {age} ikäisille.{dots} pisteen ansiosta se sopii lapsille, jotka osaavat laskea luottavaisesti {dots};nuoremmat lapset voivat suorittaa sen pienellä avustuksella.",
       "faqQ2": "Kuinka tulostan laskentataulukon {name}?",
       "faqA2": "Napsauta latauspainiketta saadaksesi ilmaisen PDF-tiedoston ja tulosta se sitten tavalliselle paperille (A4 tai US Letter) mistä tahansa selaimesta tai PDF-lukijasta.Mitään erityistä ohjelmistoa ei tarvita.",
       "faqQ3": "Onko {name} tulostettava todella ilmainen?",
-      "faqA3": "Kyllä – se on 100 % ilmainen, ilman rekisteröitymistä, tiliä tai maksua.Voit tulostaa sen koti- tai luokkakäyttöön."
+      "faqA3": "Kyllä – se on 100 % ilmainen, ilman rekisteröitymistä, tiliä tai maksua.Voit tulostaa sen koti- tai luokkakäyttöön.",
+      "exampleCompletedEyebrow": "Nuoren taiteilijan tekemä",
+      "exampleCompletedHeading": "Esimerkki valmiista palapelistä"
     },
     "downloadButton": {
       "label": "Lataa ilmainen tulostettava PDF",
       "usage": "Ilmainen koti- ja luokkakäyttöön.",
-      "paperNote": "Koko {koko} paperille.",
+      "paperNote": "Koko {size} paperille.",
       "paperLetter": "Yhdysvaltain kirje",
       "paperA4": "A4",
       "alternateLink": "Haluatko mieluummin {size}?Lataa tuo versio",
@@ -609,6 +626,11 @@
     },
     "usa250Page": {
       "category": "USA 250 vuotta"
+    },
+    "notFound": {
+      "heading": "Sivua ei löytynyt",
+      "message": "Valitettavasti etsimääsi sivua ei löytynyt. Se on saatettu siirtää tai poistaa.",
+      "categoriesHeading": "Suositut kategoriat"
     }
   }
 }
