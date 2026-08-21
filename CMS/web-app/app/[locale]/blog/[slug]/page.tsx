@@ -95,9 +95,12 @@ const localeToOgLocale: Record<string, string> = {
   ar: 'ar_SA', id: 'id_ID', ja: 'ja_JP', ko: 'ko_KR', ru: 'ru_RU', th: 'th_TH', vi: 'vi_VN'
 };
 
-// Routable locales intentionally held out of indexing/hreflang while content is
-// only a placeholder. Keep empty for fully released locales.
-const PLACEHOLDER_LOCALES: string[] = [];
+// Routable locales intentionally held out of indexing (see lib/seo.ts for the
+// full rationale and the other 3 files this list must stay in sync with).
+const PLACEHOLDER_LOCALES: string[] = [
+  'az', 'cs', 'el', 'fa', 'hr', 'hu', 'id', 'it', 'ko', 'lt', 'lv', 'nl',
+  'no', 'pl', 'pt', 'pt-BR', 'ro', 'ru', 'sk', 'sl', 'sv', 'th', 'tr', 'uk', 'vi'
+];
 
 // All non-placeholder routable locales pass i18n content validation, so they're
 // announced as alternates — matches the locale set already declared in sitemap.xml.

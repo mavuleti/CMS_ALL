@@ -109,7 +109,8 @@
         "usa250": "Ny!",
         "uae": "Tilgjengelig nå!",
         "cute": "Ny!",
-        "circus": "Ny!"
+        "circus": "Ny!",
+        "planes": "Ny!"
       },
       "items": {
         "dinosaurs": {
@@ -171,6 +172,10 @@
         "circus": {
           "name": "Sirkus",
           "description": "Ringmestere, store telt og showtids moro for unge lærere."
+        },
+        "planes": {
+          "name": "Fly",
+          "description": "Jagerfly, privatfly, papirfly og seilfly for små flyentusiaster."
         }
       }
     },
@@ -350,7 +355,13 @@
       "privacy": "Privatliv",
       "terms": "Vilkår",
       "sitemap": "Nettstedkart",
-      "copyright": "© {year} DotToDotFreePrintables.com · Gratis utskrivbare aktiviteter for barn"
+      "copyright": "© {year} DotToDotFreePrintables.com · Gratis utskrivbare aktiviteter for barn",
+      "hubAges46": "Alder 4-6",
+      "hubAges79": "Alder 7-9",
+      "hubAges912": "Alder 9-12",
+      "hubDifficultyMedium": "Middels Oppgaver",
+      "hubDifficultyHard": "Vanskelige Oppgaver",
+      "hubNavLabel": "Bla gjennom etter alder eller vanskelighetsgrad"
     },
     "common": {
       "home": "Hjem",
@@ -407,7 +418,7 @@
         "Garden": "Hage",
         "Cute": "Søtt",
         "USA 250 Years": "USA 250 år",
-        "UAE": "De forente arabiske emirater"
+        "UAE": "UAE"
       }
     },
     "newsletterForm": {
@@ -463,7 +474,9 @@
         "pdfBook": "PDF-BOK",
         "bookTitle": "Det beste fra 2026",
         "puzzleCount": "25 prikk-til-prikk-oppgaver",
-        "viewBook": "Se bok"
+        "viewBook": "Se bok",
+        "advertisementAria": "Annonse: Best of 2026 prikk-til-prikk-aktivitetsbok",
+        "viewPackAria": "Se Best of 2026 prikk-til-prikk-puslespillpakken"
       },
       "shared": {
         "specialSale": "SPESIALTILBUD",
@@ -493,7 +506,7 @@
           "classroomUse": "Kan brukes hjemme eller i ett klasserom"
         },
         "guaranteeText": "Etter betaling vises din private nedlastingslenke umiddelbart. Ingen abonnement og ingen overraskende fornyelse.",
-        "heading": "Flere oppgaver. Mindre leting. Alt i én praktisk PDF.",
+        "heading": "Flere puslespill. Mindre leting. Alt i én praktisk PDF.",
         "detailsHeading": "Alt du trenger for skjermfri moro",
         "guaranteeHeading": "Enkelt, trygt og klart på få minutter"
       },
@@ -507,12 +520,14 @@
       "success": {
         "metaTitle": "Takk for kjøpet ditt",
         "eyebrow": "Betaling bekreftet",
-        "lede": "Betalingen din var vellykket. Det kan ta noen sekunder før kjøpet vises på kontoen din."
+        "lede": "Betalingen din var vellykket. Det kan ta noen sekunder før kjøpet vises på kontoen din.",
+        "heading": "Takk! Kjøpet ditt er fullført."
       },
       "cancelled": {
         "metaTitle": "Betaling avbrutt",
         "eyebrow": "Ingen betaling ble gjennomført",
-        "lede": "Ingen belastning ble gjort. Du kan prøve igjen når som helst."
+        "lede": "Ingen belastning ble gjort. Du kan prøve igjen når som helst.",
+        "heading": "Betaling avbrutt"
       },
       "download": {
         "demoTitle": "Lokal betalingstest bestått.",
@@ -537,7 +552,7 @@
       "comingSoon": "Last ned gratis PDF – Kommer snart",
       "youMightLike": "Du vil kanskje også like",
       "faqQ1": "Hvilken alder er {name} prikken å prikke puslespillet for?",
-      "faqA1": "Den er designet for alderen {age}.Med {prikker} prikker passer det barn som trygt kan telle til {prikker};yngre barn kan fullføre det med litt hjelp.",
+      "faqA1": "Den er designet for alderen {age}.Med {dots} prikker passer det barn som trygt kan telle til {dots};yngre barn kan fullføre det med litt hjelp.",
       "faqQ2": "Hvordan skriver jeg ut {name}-regnearket?",
       "faqA2": "Klikk på nedlastingsknappen for å få den gratis PDF-filen, og skriv den deretter ut på vanlig papir (A4 eller US Letter) fra hvilken som helst nettleser eller PDF-leser.Ingen spesiell programvare er nødvendig.",
       "faqQ3": "Er {name} utskrivbar virkelig gratis?",

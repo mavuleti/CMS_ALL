@@ -109,7 +109,8 @@
         "usa250": "Jaunums!",
         "uae": "Pieejams jau tagad!",
         "cute": "Jaunums!",
-        "circus": "Jauns!"
+        "circus": "Jauns!",
+        "planes": "Jauns!"
       },
       "items": {
         "dinosaurs": {
@@ -171,6 +172,10 @@
         "circus": {
           "name": "Cirkus",
           "description": "Gredzenmeistari, lielie teltis un izrādes jautrība jaunajiem mācībniekiem."
+        },
+        "planes": {
+          "name": "Lidmašīnas",
+          "description": "Iznīcinātāji, privātās lidmašīnas, papīra lidmašīnas un planieri maziem aviācijas cienītājiem."
         }
       }
     },
@@ -350,7 +355,13 @@
       "privacy": "Privātums",
       "terms": "Noteikumi",
       "sitemap": "Vietnes karte",
-      "copyright": "© {year} DotToDotFreePrintables.com · Bezmaksas drukājamas aktivitātes bērniem"
+      "copyright": "© {year} DotToDotFreePrintables.com · Bezmaksas drukājamas aktivitātes bērniem",
+      "hubAges46": "4-6 Gadi",
+      "hubAges79": "7-9 Gadi",
+      "hubAges912": "9-12 Gadi",
+      "hubDifficultyMedium": "Vidēji Grūtas Mīklas",
+      "hubDifficultyHard": "Grūtas Mīklas",
+      "hubNavLabel": "Pārlūkot pēc vecuma vai grūtības pakāpes"
     },
     "common": {
       "home": "Sākums",
@@ -463,7 +474,9 @@
         "pdfBook": "PDF GRĀMATA",
         "bookTitle": "Labākais 2026. gadā",
         "puzzleCount": "25 punktu-punktu mīklas",
-        "viewBook": "Skatīt grāmatu"
+        "viewBook": "Skatīt grāmatu",
+        "advertisementAria": "Reklāma: Best of 2026 punktu savienošanas nodarbību grāmata",
+        "viewPackAria": "Skatīt Best of 2026 punktu savienošanas mīklu paketi"
       },
       "shared": {
         "specialSale": "Īpaša izpārdošana",
@@ -494,7 +507,7 @@
         },
         "guaranteeText": "Pēc apmaksas nekavējoties parādās jūsu personīgā lejupielādes saite. Bez abonementa un bez negaidītas atjaunošanas.",
         "heading": "Vairāk mīklu. Mazāk meklēšanas. Viss vienā ērtā PDF failā.",
-        "detailsHeading": "Viss nepieciešamais priekam bez ekrāniem",
+        "detailsHeading": "Viss, kas nepieciešams izklaidei bez ekrāna",
         "guaranteeHeading": "Vienkārši, droši un gatavs dažu minūšu laikā"
       },
       "checkout": {
@@ -507,12 +520,14 @@
       "success": {
         "metaTitle": "Paldies par jūsu pirkumu",
         "eyebrow": "Maksājums apstiprināts",
-        "lede": "Jūsu maksājums bija veiksmīgs. Var paiet dažas sekundes, līdz pirkums parādīsies jūsu kontā."
+        "lede": "Jūsu maksājums bija veiksmīgs. Var paiet dažas sekundes, līdz pirkums parādīsies jūsu kontā.",
+        "heading": "Paldies! Jūsu pirkums ir pabeigts."
       },
       "cancelled": {
         "metaTitle": "Apmaksa atcelta",
         "eyebrow": "Maksājums nav veikts",
-        "lede": "Maksājums netika veikts. Varat mēģināt vēlreiz jebkurā laikā."
+        "lede": "Maksājums netika veikts. Varat mēģināt vēlreiz jebkurā laikā.",
+        "heading": "Maksājums atcelts"
       },
       "download": {
         "demoTitle": "Lokālā apmaksas pārbaude bija veiksmīga.",
@@ -537,7 +552,7 @@
       "comingSoon": "Lejupielādēt bezmaksas PDF — drīzumā",
       "youMightLike": "Jums varētu arī patikt",
       "faqQ1": "Kādam vecumam ir paredzēta mīkla {name} no punkta līdz punktam?",
-      "faqA1": "Tas ir paredzēts {age} vecumam.Ar {dots} punktiem tas ir piemērots bērniem, kuri var droši skaitīt līdz {punktiem};jaunāki bērni to var pabeigt ar nelielu palīdzību.",
+      "faqA1": "Tas ir paredzēts {age} vecumam.Ar {dots} punktiem tas ir piemērots bērniem, kuri var droši skaitīt līdz {dots};jaunāki bērni to var pabeigt ar nelielu palīdzību.",
       "faqQ2": "Kā izdrukāt {name} darblapu?",
       "faqA2": "Noklikšķiniet uz lejupielādes pogas, lai iegūtu bezmaksas PDF failu, pēc tam izdrukājiet to uz parasta papīra (A4 vai US Letter) no jebkuras pārlūkprogrammas vai PDF lasītāja.Nav nepieciešama īpaša programmatūra.",
       "faqQ3": "Vai {name} var izdrukāt bez maksas?",

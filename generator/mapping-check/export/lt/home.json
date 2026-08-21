@@ -109,7 +109,8 @@
         "usa250": "Nauja!",
         "uae": "Jau galima įsigyti!",
         "cute": "Nauja!",
-        "circus": "Nauja!"
+        "circus": "Nauja!",
+        "planes": "Nauja!"
       },
       "items": {
         "dinosaurs": {
@@ -171,6 +172,10 @@
         "circus": {
           "name": "Cirkas",
           "description": "Žiedų meistrai, didieji palapinės ir šou laiko pramogos jauniesiems mokiniams."
+        },
+        "planes": {
+          "name": "Lėktuvai",
+          "description": "Naikintuvai, privatūs lėktuvai, popieriniai lėktuvėliai ir sklandytuvai mažiems aviacijos mėgėjams."
         }
       }
     },
@@ -350,7 +355,13 @@
       "privacy": "Privatumas",
       "terms": "Sąlygos",
       "sitemap": "Svetainės planas",
-      "copyright": "© {year} DotToDotFreePrintables.com · Nemokami spausdinami užsiėmimai vaikams"
+      "copyright": "© {year} DotToDotFreePrintables.com · Nemokami spausdinami užsiėmimai vaikams",
+      "hubAges46": "4-6 Metai",
+      "hubAges79": "7-9 Metai",
+      "hubAges912": "9-12 Metai",
+      "hubDifficultyMedium": "Vidutiniai Galvosūkiai",
+      "hubDifficultyHard": "Sunkūs Galvosūkiai",
+      "hubNavLabel": "Naršyti pagal amžių arba sudėtingumą"
     },
     "common": {
       "home": "Pradžia",
@@ -463,7 +474,9 @@
         "pdfBook": "PDF KNYGA",
         "bookTitle": "Geriausia 2026 m.",
         "puzzleCount": "25 galvosūkiai iš taško į tašką",
-        "viewBook": "Žiūrėti knygą"
+        "viewBook": "Žiūrėti knygą",
+        "advertisementAria": "Reklama: Best of 2026 taškų jungimo veiklos knyga",
+        "viewPackAria": "Peržiūrėti Best of 2026 taškų jungimo galvosūkių rinkinį"
       },
       "shared": {
         "specialSale": "Specialus išpardavimas",
@@ -493,8 +506,8 @@
           "classroomUse": "Galima naudoti namuose arba vienoje klasėje"
         },
         "guaranteeText": "Apmokėjus, iš karto pasirodo jūsų asmeninė atsisiuntimo nuoroda. Jokios prenumeratos ir jokio netikėto pratęsimo.",
-        "heading": "Daugiau galvosūkių. Mažiau paieškų. Viskas viename patogiame PDF faile.",
-        "detailsHeading": "Viskas, ko reikia smagiam laikui be ekranų",
+        "heading": "Daugiau galvosūkių. Mažiau paieškų. Viskas viename patogiame PDF.",
+        "detailsHeading": "Viskas, ko reikia pramogai be ekranų",
         "guaranteeHeading": "Paprasta, saugu ir paruošta per kelias minutes"
       },
       "checkout": {
@@ -507,12 +520,14 @@
       "success": {
         "metaTitle": "Dėkojame už pirkinį",
         "eyebrow": "Mokėjimas patvirtintas",
-        "lede": "Jūsų mokėjimas sėkmingai atliktas. Gali praeiti kelios sekundės, kol pirkinys atsiras jūsų paskyroje."
+        "lede": "Jūsų mokėjimas sėkmingai atliktas. Gali praeiti kelios sekundės, kol pirkinys atsiras jūsų paskyroje.",
+        "heading": "Ačiū! Jūsų pirkimas baigtas."
       },
       "cancelled": {
         "metaTitle": "Apmokėjimas atšauktas",
         "eyebrow": "Mokėjimas nebuvo nuskaitytas",
-        "lede": "Jokia suma nebuvo nuskaityta. Galite bandyti dar kartą bet kuriuo metu."
+        "lede": "Jokia suma nebuvo nuskaityta. Galite bandyti dar kartą bet kuriuo metu.",
+        "heading": "Mokėjimas atšauktas"
       },
       "download": {
         "demoTitle": "Vietinis apmokėjimo testas sėkmingas.",
@@ -537,7 +552,7 @@
       "comingSoon": "Atsisiųskite nemokamą PDF – netrukus",
       "youMightLike": "Jums taip pat gali patikti",
       "faqQ1": "Kokiam amžiui skirta galvosūkis nuo taško iki taško?",
-      "faqA1": "Jis skirtas {age} amžiaus žmonėms.Su {taškais} taškais tinka vaikams, kurie gali užtikrintai suskaičiuoti iki {taškų};jaunesni vaikai gali tai užbaigti su nedidele pagalba.",
+      "faqA1": "Jis skirtas {age} amžiaus žmonėms.Su {dots} taškais tinka vaikams, kurie gali užtikrintai suskaičiuoti iki {dots};jaunesni vaikai gali tai užbaigti su nedidele pagalba.",
       "faqQ2": "Kaip atspausdinti {name} darbalapį?",
       "faqA2": "Spustelėkite atsisiuntimo mygtuką, kad gautumėte nemokamą PDF, tada atspausdinkite jį ant įprasto popieriaus (A4 arba US Letter) iš bet kurios naršyklės arba PDF skaitytuvo.Nereikia jokios specialios programinės įrangos.",
       "faqQ3": "Ar tikrai galima spausdinti {name} nemokamai?",

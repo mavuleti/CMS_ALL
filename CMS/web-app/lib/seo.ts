@@ -32,14 +32,21 @@ export const DEFAULT_OG_IMAGE = {
 };
 
 // Routable locales intentionally held out of indexing/hreflang for now.
-// 'ar' has real, complete translations (see content/ar/) — this isn't about
-// incomplete content, it's a deliberate soft launch (see MERGE_PLAN.md /
-// app/[locale]/layout.tsx generateMetadata's noindex). Keep this list in
-// sync with PLACEHOLDER_LOCALES in app/[locale]/layout.tsx,
-// app/[locale]/blog/[slug]/page.tsx, and KNOWN_FALLBACK_LOCALES in
+// These all have real, complete translations (every locale does, per the
+// full-translation launch policy) — this isn't about incomplete content,
+// it's a deliberate crawl-focus decision (2026-08-21): concentrate Google's
+// crawl/indexing attention on the locales with actual measured traffic
+// (en/de/fi/es/da) plus strategic-growth languages (fr/ar/ja) while GSC data
+// showed indexing was thin across the board, not just in secondary locales.
+// Reversible: remove a locale from this list once it's worth re-indexing.
+// Keep this list in sync with PLACEHOLDER_LOCALES in app/[locale]/layout.tsx,
+// app/[locale]/blog/[slug]/page.tsx, and PLACEHOLDER_LOCALES in
 // scripts/generate-sitemap.mjs — all four must agree or pages end up
 // sending contradictory hreflang/noindex/sitemap signals to search engines.
-const PLACEHOLDER_LOCALES: string[] = [];
+const PLACEHOLDER_LOCALES: string[] = [
+  'az', 'cs', 'el', 'fa', 'hr', 'hu', 'id', 'it', 'ko', 'lt', 'lv', 'nl',
+  'no', 'pl', 'pt', 'pt-BR', 'ro', 'ru', 'sk', 'sl', 'sv', 'th', 'tr', 'uk', 'vi'
+];
 
 // All non-placeholder routable locales pass i18n content validation, so they're
 // announced as alternates — matches the locale set already declared in sitemap.xml.

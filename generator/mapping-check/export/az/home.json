@@ -109,7 +109,8 @@
         "usa250": "Yeni!",
         "uae": "İndi mövcuddur!",
         "cute": "Yeni!",
-        "circus": "Yeni!"
+        "circus": "Yeni!",
+        "planes": "Yeni!"
       },
       "items": {
         "dinosaurs": {
@@ -171,6 +172,10 @@
         "circus": {
           "name": "Sirkin",
           "description": "Rinq ustaları, böyük çadırlar və gənc öyrənənlər üçün şou vaxtı əyləncəsi."
+        },
+        "planes": {
+          "name": "Təyyarələr",
+          "description": "Qırıcı təyyarələr, xüsusi təyyarələr, kağız təyyarələr və planerlər — kiçik aviasiya həvəskarları üçün."
         }
       }
     },
@@ -350,7 +355,13 @@
       "privacy": "Məxfilik siyasəti",
       "terms": "İstifadə şərtləri",
       "sitemap": "Saytın xəritəsi",
-      "copyright": "© {year} DotToDotFreePrintables.com · Uşaqlar üçün pulsuz çap edilə bilən fəaliyyətlər"
+      "copyright": "© {year} DotToDotFreePrintables.com · Uşaqlar üçün pulsuz çap edilə bilən fəaliyyətlər",
+      "hubAges46": "Yaş 4-6",
+      "hubAges79": "Yaş 7-9",
+      "hubAges912": "Yaş 9-12",
+      "hubDifficultyMedium": "Orta Tapmacalar",
+      "hubDifficultyHard": "Çətin Tapmacalar",
+      "hubNavLabel": "Yaşa və ya çətinlik dərəcəsinə görə gəzin"
     },
     "common": {
       "home": "Ev",
@@ -463,7 +474,9 @@
         "pdfBook": "PDF KİTAB",
         "bookTitle": "2026-nın ən yaxşıları",
         "puzzleCount": "25 Nöqtədən Nöqtəyə Tapmaca",
-        "viewBook": "Kitaba bax"
+        "viewBook": "Kitaba bax",
+        "advertisementAria": "Reklam: Best of 2026 nöqtədən-nöqtəyə fəaliyyət kitabı",
+        "viewPackAria": "Best of 2026 nöqtədən-nöqtəyə tapmaca paketinə baxın"
       },
       "shared": {
         "specialSale": "Xüsusi endirim",
@@ -507,12 +520,14 @@
       "success": {
         "metaTitle": "Alışınız üçün təşəkkürlər",
         "eyebrow": "Ödəniş təsdiqləndi",
-        "lede": "Ödənişiniz uğurlu oldu. Alışınızın hesabınızda görünməsi bir neçə saniyə çəkə bilər."
+        "lede": "Ödənişiniz uğurlu oldu. Alışınızın hesabınızda görünməsi bir neçə saniyə çəkə bilər.",
+        "heading": "Təşəkkürlər! Alışınız tamamlandı."
       },
       "cancelled": {
         "metaTitle": "Ödəniş ləğv edildi",
         "eyebrow": "Ödəniş alınmadı",
-        "lede": "Heç bir ödəniş edilmədi. İstənilən vaxt yenidən cəhd edə bilərsiniz."
+        "lede": "Heç bir ödəniş edilmədi. İstənilən vaxt yenidən cəhd edə bilərsiniz.",
+        "heading": "Ödəniş ləğv edildi"
       },
       "download": {
         "demoTitle": "Yerli ödəniş testi keçdi.",
@@ -537,7 +552,7 @@
       "comingSoon": "Pulsuz PDF Yükləyin – Tezliklə",
       "youMightLike": "Siz də bəyənə bilərsiniz",
       "faqQ1": "{name} nöqtədən nöqtəyə tapmaca neçə yaş üçündür?",
-      "faqA1": "O, {yaş} yaş üçün nəzərdə tutulmuşdur.{nöqtələr} nöqtələri ilə o, {nöqtələrə} inamla saya bilən uşaqlar üçün uyğundur;kiçik uşaqlar bunu bir az köməklə tamamlaya bilərlər.",
+      "faqA1": "O, {age} yaş üçün nəzərdə tutulmuşdur.{dots} nöqtələri ilə o, {dots} inamla saya bilən uşaqlar üçün uyğundur;kiçik uşaqlar bunu bir az köməklə tamamlaya bilərlər.",
       "faqQ2": "{name} iş vərəqini necə çap edə bilərəm?",
       "faqA2": "Pulsuz PDF əldə etmək üçün yükləmə düyməsini klikləyin, sonra onu istənilən brauzerdən və ya PDF oxuyucudan adi kağıza (A4 və ya ABŞ məktubu) çap edin.Heç bir xüsusi proqram tələb olunmur.",
       "faqQ3": "{name} həqiqətən pulsuz çap edilə bilərmi?",

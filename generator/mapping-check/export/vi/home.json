@@ -109,7 +109,8 @@
         "usa250": "Mới!",
         "uae": "Hiện đã có hàng!",
         "cute": "Mới!",
-        "circus": "Mới!"
+        "circus": "Mới!",
+        "planes": "Mới!"
       },
       "items": {
         "dinosaurs": {
@@ -171,6 +172,10 @@
         "circus": {
           "name": "Rạp Xiếc",
           "description": "Những người điều hành, rạp lớn và niềm vui biểu diễn cho những người học trẻ."
+        },
+        "planes": {
+          "name": "Máy Bay",
+          "description": "Máy bay chiến đấu, phản lực riêng, máy bay giấy và tàu lượn dành cho các bé yêu thích hàng không."
         }
       }
     },
@@ -350,7 +355,13 @@
       "privacy": "Quyền riêng tư",
       "terms": "Điều khoản",
       "sitemap": "Sơ đồ trang web",
-      "copyright": "© {year} DotToDotFreePrintables.com · Các hoạt động in miễn phí dành cho trẻ em"
+      "copyright": "© {year} DotToDotFreePrintables.com · Các hoạt động in miễn phí dành cho trẻ em",
+      "hubAges46": "Tuổi 4-6",
+      "hubAges79": "Tuổi 7-9",
+      "hubAges912": "Tuổi 9-12",
+      "hubDifficultyMedium": "Câu Đố Trung Bình",
+      "hubDifficultyHard": "Câu Đố Khó",
+      "hubNavLabel": "Duyệt theo độ tuổi hoặc độ khó"
     },
     "common": {
       "home": "Trang chủ",
@@ -407,7 +418,7 @@
         "Garden": "Vườn",
         "Cute": "Dễ thương",
         "USA 250 Years": "Mỹ 250 năm",
-        "UAE": "Các Tiểu vương quốc Ả Rập Thống nhất"
+        "UAE": "UAE"
       }
     },
     "newsletterForm": {
@@ -463,7 +474,9 @@
         "pdfBook": "SÁCH PDF",
         "bookTitle": "Tốt nhất năm 2026",
         "puzzleCount": "25 câu đố chấm-điểm",
-        "viewBook": "Xem sách"
+        "viewBook": "Xem sách",
+        "advertisementAria": "Quảng cáo: sách hoạt động nối điểm Best of 2026",
+        "viewPackAria": "Xem bộ câu đố nối điểm Best of 2026"
       },
       "shared": {
         "specialSale": "Giảm giá đặc biệt",
@@ -493,9 +506,9 @@
           "classroomUse": "Có thể sử dụng tại nhà hoặc trong một lớp học"
         },
         "guaranteeText": "Sau khi thanh toán, liên kết tải xuống riêng của bạn sẽ xuất hiện ngay lập tức. Không cần đăng ký thuê bao và không có gia hạn bất ngờ.",
-        "heading": "Nhiều trò chơi hơn. Tìm kiếm ít hơn. Tất cả trong một file PDF tiện lợi.",
-        "detailsHeading": "Mọi thứ bạn cần cho niềm vui không màn hình",
-        "guaranteeHeading": "Đơn giản, an toàn và sẵn sàng chỉ trong vài phút"
+        "heading": "Nhiều câu đố hơn. Ít tìm kiếm hơn. Tất cả trong một tệp PDF tiện lợi.",
+        "detailsHeading": "Mọi thứ bạn cần cho niềm vui không cần màn hình",
+        "guaranteeHeading": "Đơn giản, an toàn và sẵn sàng trong vài phút"
       },
       "checkout": {
         "consent": "Tôi đồng ý với việc giao ngay file PDF kỹ thuật số này và hiểu rằng, sau khi quyền truy cập bắt đầu, giao dịch mua là cuối cùng và không được hoàn tiền, trừ khi pháp luật yêu cầu hoặc nếu tệp không được giao hoặc bị lỗi.",
@@ -507,12 +520,14 @@
       "success": {
         "metaTitle": "Cảm Ơn Bạn Đã Mua Hàng",
         "eyebrow": "Đã xác nhận thanh toán",
-        "lede": "Thanh toán của bạn đã thành công. Có thể mất vài giây để giao dịch mua hiển thị trong tài khoản của bạn."
+        "lede": "Thanh toán của bạn đã thành công. Có thể mất vài giây để giao dịch mua hiển thị trong tài khoản của bạn.",
+        "heading": "Cảm ơn bạn! Đơn hàng của bạn đã hoàn tất."
       },
       "cancelled": {
         "metaTitle": "Đã Hủy Thanh Toán",
         "eyebrow": "Không có khoản thanh toán nào được thực hiện",
-        "lede": "Không có khoản phí nào được tính. Bạn có thể thử lại bất cứ lúc nào."
+        "lede": "Không có khoản phí nào được tính. Bạn có thể thử lại bất cứ lúc nào.",
+        "heading": "Đã hủy thanh toán"
       },
       "download": {
         "demoTitle": "Thử nghiệm thanh toán cục bộ đã thành công.",

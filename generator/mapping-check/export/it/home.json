@@ -109,7 +109,8 @@
         "usa250": "Nuovo!",
         "uae": "Disponibile ora!",
         "cute": "Nuovo!",
-        "circus": "Nuovo!"
+        "circus": "Nuovo!",
+        "planes": "Nuovo!"
       },
       "items": {
         "dinosaurs": {
@@ -161,7 +162,7 @@
           "description": "Schede per l'apprendimento della sequenza numerica, pronte per l'uso da parte degli insegnanti."
         },
         "bigDotBooks": {
-          "name": "Libri a puntini grandi",
+          "name": "Big Dot Books",
           "description": "Puzzle di lunga durata per studenti più grandi e concentrati."
         },
         "cute": {
@@ -171,6 +172,10 @@
         "circus": {
           "name": "Circo",
           "description": "Maestri di cerimonia, tendoni e divertimento per i giovani apprendisti."
+        },
+        "planes": {
+          "name": "Aerei",
+          "description": "Caccia, jet privati, aeroplanini di carta e alianti per i piccoli appassionati di aviazione."
         }
       }
     },
@@ -350,7 +355,13 @@
       "privacy": "Privacy",
       "terms": "Informazioni",
       "sitemap": "Mappa del sito",
-      "copyright": "© {year} DotToDotFreePrintables.com · Attività stampabili gratuite per bambini"
+      "copyright": "© {year} DotToDotFreePrintables.com · Attività stampabili gratuite per bambini",
+      "hubAges46": "Età 4-6",
+      "hubAges79": "Età 7-9",
+      "hubAges912": "Età 9-12",
+      "hubDifficultyMedium": "Puzzle Medi",
+      "hubDifficultyHard": "Puzzle Difficili",
+      "hubNavLabel": "Sfoglia per età o difficoltà"
     },
     "common": {
       "home": "Casa",
@@ -463,7 +474,9 @@
         "pdfBook": "LIBRO PDF",
         "bookTitle": "Il meglio del 2026",
         "puzzleCount": "25 puzzle unisci i puntini",
-        "viewBook": "Vedi libro"
+        "viewBook": "Vedi libro",
+        "advertisementAria": "Pubblicità: libro di attività unisci i puntini Best of 2026",
+        "viewPackAria": "Vedi il pacchetto di puzzle unisci i puntini Best of 2026"
       },
       "shared": {
         "specialSale": "OFFERTA SPECIALE",
@@ -494,7 +507,7 @@
         },
         "guaranteeText": "Dopo il pagamento, il tuo link di download privato appare immediatamente. Nessun abbonamento e nessun rinnovo a sorpresa.",
         "heading": "Più puzzle. Meno ricerche. Tutto in un comodo PDF.",
-        "detailsHeading": "Tutto il necessario per divertirsi lontano dagli schermi",
+        "detailsHeading": "Tutto ciò che serve per divertirsi senza schermi",
         "guaranteeHeading": "Semplice, sicuro e pronto in pochi minuti"
       },
       "checkout": {
@@ -507,12 +520,14 @@
       "success": {
         "metaTitle": "Grazie per il tuo acquisto",
         "eyebrow": "Pagamento confermato",
-        "lede": "Il pagamento è andato a buon fine. Potrebbero volerci alcuni secondi prima che l'acquisto compaia nel tuo account."
+        "lede": "Il pagamento è andato a buon fine. Potrebbero volerci alcuni secondi prima che l'acquisto compaia nel tuo account.",
+        "heading": "Grazie! Il tuo acquisto è completato."
       },
       "cancelled": {
         "metaTitle": "Pagamento annullato",
         "eyebrow": "Nessun addebito effettuato",
-        "lede": "Non è stato effettuato alcun addebito. Puoi riprovare in qualsiasi momento."
+        "lede": "Non è stato effettuato alcun addebito. Puoi riprovare in qualsiasi momento.",
+        "heading": "Pagamento annullato"
       },
       "download": {
         "demoTitle": "Test di pagamento locale superato.",
@@ -536,7 +551,7 @@
       "noSignUp": "Non è necessaria la registrazione.Si apre come PDF.Stampa su carta US Letter (8,5 × 11 pollici) o A4.Gratuito per uso domestico e in classe.",
       "comingSoon": "Scarica il PDF gratuito – Disponibile a breve",
       "youMightLike": "Potrebbe piacerti anche",
-      "faqQ1": "Per che età è adatto il puzzle punto per punto di {nome}?",
+      "faqQ1": "Per che età è adatto il puzzle punto per punto di {name}?",
       "faqA1": "È progettato per età {age}.Con i punti {dots}, è adatto ai bambini che sanno contare con sicurezza fino a {dots};i bambini più piccoli potranno completarlo con un piccolo aiuto.",
       "faqQ2": "Come posso stampare il foglio di lavoro di {nome}?",
       "faqA2": "Fai clic sul pulsante di download per ottenere il PDF gratuito, quindi stampalo su carta normale (A4 o US Letter) da qualsiasi browser o lettore PDF.Non è necessario alcun software speciale.",
@@ -546,10 +561,10 @@
     "downloadButton": {
       "label": "Scarica il PDF stampabile gratuito",
       "usage": "Gratuito per uso domestico e in classe.",
-      "paperNote": "Dimensionato per carta {formato}.",
+      "paperNote": "Dimensionato per carta {size}.",
       "paperLetter": "Lettera degli Stati Uniti",
       "paperA4": "A4",
-      "alternateLink": "Preferisci la {taglia}?Scarica quella versione",
+      "alternateLink": "Preferisci la {size}?Scarica quella versione",
       "downloadSize": "Scarica (dimensione stampa: {size})"
     },
     "downloadBadge": {

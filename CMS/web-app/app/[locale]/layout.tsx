@@ -34,9 +34,12 @@ const GA_ID = 'G-RCRTCLP0CF';
 // real build that `googletagmanager` does/doesn't appear in out/**/*.html.
 const ANALYTICS_ENABLED = process.env.NEXT_PUBLIC_ENABLE_ANALYTICS === 'true';
 
-// Routable locales with only English-fallback placeholder content (see I18N.md).
-// Excluded from hreflang/OG alternates and the sitemap until real translations land.
-const PLACEHOLDER_LOCALES: string[] = [];
+// Routable locales intentionally held out of indexing (see lib/seo.ts for the
+// full rationale and the other 3 files this list must stay in sync with).
+const PLACEHOLDER_LOCALES: string[] = [
+  'az', 'cs', 'el', 'fa', 'hr', 'hu', 'id', 'it', 'ko', 'lt', 'lv', 'nl',
+  'no', 'pl', 'pt', 'pt-BR', 'ro', 'ru', 'sk', 'sl', 'sv', 'th', 'tr', 'uk', 'vi'
+];
 
 // All non-placeholder routable locales pass i18n content validation, so they're
 // announced as alternates — matches the locale set already declared in sitemap.xml.
@@ -185,6 +188,11 @@ export async function generateMetadata({
       template: '%s | DotToDotFreePrintables.com'
     },
     description,
+    // Inherited by every page under this locale (home, category, puzzle,
+    // blog, static pages) since none of them set their own `robots` — see
+    // PLACEHOLDER_LOCALES above. `follow: true` keeps internal link equity
+    // flowing instead of orphaning these pages entirely.
+    ...(PLACEHOLDER_LOCALES.includes(locale) ? { robots: { index: false, follow: true } } : {}),
     verification: {
       other: {
         'msvalidate.01': 'B681C0C723F28F15919D6170A9C0E054',

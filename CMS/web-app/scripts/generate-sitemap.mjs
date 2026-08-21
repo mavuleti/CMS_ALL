@@ -29,10 +29,16 @@ for (const orphan of findOrphanSlugs()) {
 const contentLocales = allLocales.filter(
   (locale) => locale === DEFAULT_LOCALE || statusFor(locale, '').status === 'available'
 );
+// Routable locales intentionally held out of the sitemap (see lib/seo.ts for
+// the full rationale and the other 3 files this list must stay in sync with).
+const PLACEHOLDER_LOCALES = [
+  'az', 'cs', 'el', 'fa', 'hr', 'hu', 'id', 'it', 'ko', 'lt', 'lv', 'nl',
+  'no', 'pl', 'pt', 'pt-BR', 'ro', 'ru', 'sk', 'sl', 'sv', 'th', 'tr', 'uk', 'vi'
+];
 // Regional Arabic paths (ar-AE/ar-SA/ar-QA) no longer exist as pages at all
 // — Firebase Hosting 301s them to /ar/ (see firebase.json) — so they were
 // never routable locales here and never appear in the sitemap.
-const locales = contentLocales;
+const locales = contentLocales.filter((locale) => !PLACEHOLDER_LOCALES.includes(locale));
 
 function slugsFor(locale, file) {
   const p = path.join('content', locale, file);

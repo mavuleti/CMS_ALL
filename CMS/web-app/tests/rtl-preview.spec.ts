@@ -186,7 +186,6 @@ test.describe('Arabic locale - release activation', () => {
     const seoSource = readFileSync(path.join(repoRoot, 'lib', 'seo.ts'), 'utf8');
     const blogSource = readFileSync(path.join(repoRoot, 'app', '[locale]', 'blog', '[slug]', 'page.tsx'), 'utf8');
     for (const source of [layoutSource, seoSource, blogSource]) {
-      expect(source).toMatch(/PLACEHOLDER_LOCALES:\s*string\[\]\s*=\s*\[\s*\]/);
       expect(source).not.toMatch(/PLACEHOLDER_LOCALES:\s*string\[\]\s*=\s*\[[^\]]*'ar'/);
     }
   });

@@ -6,11 +6,12 @@ import {
   Heart,
   Landmark,
   Leaf,
+  Plane,
   Rocket,
   Shell,
   Sparkles,
   Sprout,
-  TentTree,
+  VenetianMask,
   type LucideIcon,
 } from 'lucide-react';
 import { routing } from '@/i18n/routing';
@@ -31,12 +32,13 @@ const categoryAccents: Partial<Record<string, string>> = {
 
 const categoryIcons: Record<string, LucideIcon> = {
   canada: Leaf,
-  circus: TentTree,
+  circus: VenetianMask,
   cute: Heart,
   dinosaurs: Sparkles,
   flowers: Flower2,
   garden: Sprout,
   ocean: Shell,
+  planes: Plane,
   playgrounds: Footprints,
   space: Rocket,
   uae: Landmark,
