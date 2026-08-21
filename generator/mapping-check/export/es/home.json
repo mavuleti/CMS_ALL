@@ -98,7 +98,7 @@
     "categories": {
       "eyebrow": "Organizado por tema y nivel de habilidad.",
       "heading": "Explora rompecabezas de unir puntos por categoría",
-      "description": "Desde fichas de unir puntos preescolar con figuras sencillas de 10 puntos hasta retos de unir números del 1 al 100 para niños mayores, todo clasificado por categoría para que encuentres el imprimible gratuito adecuado en segundos.",
+      "description": "Desde fichas de unir puntos preescolar con figuras sencillas de 32 puntos hasta retos de hasta 145 puntos para niños mayores, todo clasificado por categoría para que encuentres el imprimible gratuito adecuado en segundos.",
       "puzzles": "{count, plural, one {# rompecabezas} other {# rompecabezas}}",
       "comingSoon": "Muy pronto",
       "badges": {
@@ -109,7 +109,8 @@
         "usa250": "¡Nuevo!",
         "uae": "¡Ya disponible!",
         "cute": "¡Nuevo!",
-        "circus": "¡Nuevo!"
+        "circus": "¡Nuevo!",
+        "planes": "¡Nuevo!"
       },
       "items": {
         "dinosaurs": {
@@ -171,6 +172,10 @@
         "circus": {
           "name": "Circo",
           "description": "Maestros de ceremonias, grandes carpas y diversión para pequeños aprendices."
+        },
+        "planes": {
+          "name": "Aviones",
+          "description": "Aviones de combate, jets privados, aviones de papel y planeadores para los pequeños amantes de la aviación."
         }
       }
     },
@@ -317,7 +322,7 @@
       "q6": "¿Los rompecabezas de unir puntos ayudan a desarrollar la motricidad fina?",
       "a6": "Sí, unir los puntos con líneas fortalece el agarre del lápiz y mejora la coordinación ojo-mano, lo cual facilita la escritura. Muchos terapeutas ocupacionales y maestros de preescolar recomiendan actividades de unir los puntos por este motivo.",
       "q7": "¿Tienes láminas para imprimir de unir puntos con temáticas como animales o dinosaurios?",
-      "a7": "Tenemos 11 categorías, que incluyen animales, dinosaurios, vehículos, criaturas marinas, parques infantiles, 250 años de Estados Unidos, espacio, fantasía, temas de temporada/festivos, paquetes de hojas de trabajo para maestros y libros de puntos grandes. Se añaden nuevos diseños semanalmente.",
+      "a7": "Tenemos 12 categorías: Dinosaurios, Océano, Parques infantiles, Jardín, Flores, Animales tiernos, Espacio, Circo, Aviones, Canadá, Emiratos Árabes Unidos y Estados Unidos 250 años. Se añaden nuevos diseños semanalmente.",
       "q8": "¿Puedo imprimir estos rompecabezas en blanco y negro?",
       "a8": "Sí, todas nuestras hojas de ejercicios de unir los puntos están diseñadas para imprimirse en blanco y negro y así ahorrar tinta. Se ven muy bien en cualquier impresora, ya sea doméstica o escolar."
     },
@@ -350,7 +355,13 @@
       "privacy": "Privacidad",
       "terms": "Términos",
       "sitemap": "Mapa del sitio",
-      "copyright": "© {year} DotToDotFreePrintables.com · Actividades imprimibles gratuitas para niños"
+      "copyright": "© {year} DotToDotFreePrintables.com · Actividades imprimibles gratuitas para niños",
+      "hubAges46": "Edades 4-6",
+      "hubAges79": "Edades 7-9",
+      "hubAges912": "Edades 9-12",
+      "hubDifficultyMedium": "Puzles Medios",
+      "hubDifficultyHard": "Puzles Difíciles",
+      "hubNavLabel": "Explorar por edad o dificultad"
     },
     "common": {
       "home": "Hogar",
@@ -463,7 +474,9 @@
         "pdfBook": "LIBRO PDF",
         "bookTitle": "Lo mejor de 2026",
         "puzzleCount": "25 puzzles de unir puntos",
-        "viewBook": "Ver libro"
+        "viewBook": "Ver libro",
+        "advertisementAria": "Anuncio: libro de actividades de unir puntos Best of 2026",
+        "viewPackAria": "Ver el paquete de puzles de unir puntos Best of 2026"
       },
       "shared": {
         "specialSale": "OFERTA ESPECIAL",
@@ -493,7 +506,7 @@
           "classroomUse": "Úsalo en casa o en un aula"
         },
         "guaranteeText": "Tras completar la compra, tu enlace de descarga privado aparece de inmediato. Sin suscripción y sin renovaciones sorpresa.",
-        "heading": "Más puzles. Menos búsquedas. Todo en un práctico PDF.",
+        "heading": "Más rompecabezas. Menos búsquedas. Todo en un práctico PDF.",
         "detailsHeading": "Todo lo que necesitas para divertirte sin pantallas",
         "guaranteeHeading": "Sencillo, seguro y listo en minutos"
       },
@@ -507,12 +520,14 @@
       "success": {
         "metaTitle": "Gracias por tu compra",
         "eyebrow": "Pago confirmado",
-        "lede": "Tu pago se realizó correctamente. Puede tardar unos segundos en aparecer en tu cuenta."
+        "lede": "Tu pago se realizó correctamente. Puede tardar unos segundos en aparecer en tu cuenta.",
+        "heading": "¡Gracias! Tu compra se ha completado."
       },
       "cancelled": {
         "metaTitle": "Compra cancelada",
         "eyebrow": "No se realizó ningún cargo",
-        "lede": "No se realizó ningún cargo. Puedes intentarlo de nuevo cuando quieras."
+        "lede": "No se realizó ningún cargo. Puedes intentarlo de nuevo cuando quieras.",
+        "heading": "Pago cancelado"
       },
       "download": {
         "demoTitle": "La prueba de compra local se superó correctamente.",
@@ -536,8 +551,8 @@
       "noSignUp": "No es necesario registrarse.Se abre como PDF.Imprima en papel Carta estadounidense (8,5 × 11 pulgadas) o A4.Gratis para uso doméstico y en el aula.",
       "comingSoon": "Descargar PDF gratuito – Próximamente",
       "youMightLike": "También te puede gustar",
-      "faqQ1": "¿Para qué edad es el rompecabezas punto a punto de {nombre}?",
-      "faqA1": "Está diseñado para edades {age}.Con {puntos} puntos, es adecuado para niños que pueden contar con confianza hasta {puntos};Los niños más pequeños pueden completarlo con un poco de ayuda.",
+      "faqQ1": "¿Para qué edad es el rompecabezas punto a punto de {name}?",
+      "faqA1": "Está diseñado para edades {age}.Con {dots} puntos, es adecuado para niños que pueden contar con confianza hasta {dots};Los niños más pequeños pueden completarlo con un poco de ayuda.",
       "faqQ2": "¿Cómo imprimo la hoja de trabajo de {nombre}?",
       "faqA2": "Haga clic en el botón de descarga para obtener el PDF gratuito y luego imprímalo en papel normal (A4 o Carta estadounidense) desde cualquier navegador o lector de PDF.No se necesita ningún software especial.",
       "faqQ3": "¿El imprimible de {nombre} es realmente gratuito?",
@@ -546,10 +561,10 @@
     "downloadButton": {
       "label": "Descargar PDF imprimible gratis",
       "usage": "Gratis para uso doméstico y en el aula.",
-      "paperNote": "Tamaño para papel {tamaño}.",
+      "paperNote": "Tamaño para papel {size}.",
       "paperLetter": "Carta de EE. UU.",
       "paperA4": "A4",
-      "alternateLink": "¿Prefieres {tamaño}?descargar esa versión",
+      "alternateLink": "¿Prefieres {size}?descargar esa versión",
       "downloadSize": "Descargar (Tamaño de impresión: {size})"
     },
     "downloadBadge": {
