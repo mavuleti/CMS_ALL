@@ -46,6 +46,26 @@ export const spacePuzzleShells: SpacePuzzleShell[] = [
     isNew: true
   },
   {
+    slug: 'saturn-dot-to-dot-puzzle',
+    emoji: '🪐',
+    age: 'Ages 4–7',
+    dots: 43,
+    difficulty: 1,
+    image: '/images/space-saturn-puzzle.webp',
+    pdf: '/space/space-saturn-dot-to-dot-printable-horizontal.pdf',
+    isNew: true
+  },
+  {
+    slug: 'astronaut-boots-dot-to-dot-puzzle',
+    emoji: '🥾',
+    age: 'Ages 4–8',
+    dots: 51,
+    difficulty: 1,
+    image: '/images/space-astronaut-boots-puzzle.webp',
+    pdf: '/space/space-astronaut-boots-dot-to-dot-printable-horizontal.pdf',
+    isNew: true
+  },
+  {
     slug: 'space-rover-dot-to-dot-puzzle',
     emoji: '🚀',
     age: 'Ages 4–8',
