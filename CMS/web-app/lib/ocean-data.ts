@@ -61,7 +61,8 @@ export const oceanPuzzleShells: OceanPuzzleShell[] = [
   { slug: 'seahorse-dot-to-dot-puzzle', emoji: '🐠', age: 'Ages 4–7', dots: 35, difficulty: 1, image: '/images/seahorse-puzzle.webp', pdf: '/ocean/seahorse-dot-to-dot-printable-horizontal.pdf', isNew: true },
   { slug: 'whale-dot-to-dot-puzzle', emoji: '🐋', age: 'Ages 4–7', dots: 42, difficulty: 1, image: '/images/whale-puzzle.webp', pdf: '/ocean/whale-dot-to-dot-printable-horizontal.pdf', isNew: true },
   { slug: 'jellyfish-dot-to-dot-puzzle', emoji: '🪼', age: 'Ages 6–9', dots: 88, difficulty: 2, image: '/images/jellyfish-puzzle.webp', pdf: '/ocean/jellyfish-dot-to-dot-printable-horizontal.pdf', isNew: true },
-  { slug: 'electric-eel-dot-to-dot-puzzle', emoji: '⚡', age: 'Ages 6–10', dots: 81, difficulty: 2, image: '/images/ocean_fish_electric_eel_81_dots_easy-puzzle.webp', pdf: '/ocean/ocean_fish_electric_eel_81_dots_easy_dot_to_dot_printable_horizontal.pdf', isNew: true }
+  { slug: 'electric-eel-dot-to-dot-puzzle', emoji: '⚡', age: 'Ages 6–10', dots: 81, difficulty: 2, image: '/images/ocean_fish_electric_eel_81_dots_easy-puzzle.webp', pdf: '/ocean/ocean_fish_electric_eel_81_dots_easy_dot_to_dot_printable_horizontal.pdf', isNew: true },
+  { slug: 'zebra-danio-dot-to-dot-puzzle', emoji: '🐟', age: 'Ages 6–9', dots: 62, difficulty: 2, image: '/images/ocean_fish_zebra_danio_62_dots_easy-puzzle.webp', pdf: '/ocean/ocean_fish_zebra_danio_62_dots_easy_dot_to_dot_printable_horizontal.pdf', isNew: true }
 ];
 
 function loadOceanContent(locale: string): OceanPuzzleContent[] {
