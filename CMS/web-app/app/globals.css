@@ -48,6 +48,16 @@ a {
   color: inherit;
 }
 
+.content-prose a {
+  color: var(--teal);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.content-prose a:hover {
+  color: var(--red-dark, var(--teal));
+}
+
 button,
 input {
   font: inherit;

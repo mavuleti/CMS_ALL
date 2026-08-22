@@ -13,6 +13,7 @@ import { buildCommonHeaderMetadata } from '@/components/templates/CommonHeaderTe
 import { ogImageFor } from '@/lib/seo';
 import { puzzleImageAlt } from '@/lib/json-seo';
 import { CategoryFaqSection } from '@/components/sections';
+import { localizeHtmlLinks } from '@/lib/localize-html-links';
 
 export type CollectionRouteProps = { params: Promise<{ locale: string; category: string }> };
 
@@ -123,8 +124,9 @@ export default async function CommonCollectionTemplate({ params }: CollectionRou
   const contentSections = Array.isArray(exportedBody?.content_sections)
     ? exportedBody.content_sections as CollectionContentSection[]
     : [];
-  const gridHeading = exportedBody?.grid_heading as string | undefined;
+  const gridHeading = (exportedBody?.grid_heading as string | undefined)?.replace('{count}', String(puzzles.length));
   const faqHeading = exportedBody?.faq_heading as string | undefined;
+  const contentHeading = exportedBody?.content_heading as string | undefined;
   const breadcrumbSchema = { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [
     { '@type': 'ListItem', position: 1, name: 'Home', item: `https://dottodotfreeprintables.com/${locale}/` },
     { '@type': 'ListItem', position: 2, name: categoryName, item: `https://dottodotfreeprintables.com/${locale}/${slug}/` }
@@ -153,10 +155,11 @@ export default async function CommonCollectionTemplate({ params }: CollectionRou
         </article>
       )}</div></section>
       {contentSections.length > 0 ? <section className="section" style={{ paddingTop: 0, maxWidth: 820 }}>
-        {contentSections.map((section) => <div key={section.heading} style={{ marginBottom: 38 }}>
-          <h2 style={{ fontSize: 'clamp(1.5rem, 3vw, 2rem)' }}>{section.heading}</h2>
-          {section.paragraphs.map((paragraph) => <p key={paragraph} style={{ color: 'var(--muted)', lineHeight: 1.7, marginTop: 12 }}>{paragraph}</p>)}
-          {section.subsections?.map((subsection) => <div key={subsection.heading} style={{ marginTop: 24 }}><h3>{subsection.heading}</h3>{subsection.paragraphs.map((paragraph) => <p key={paragraph} style={{ color: 'var(--muted)', lineHeight: 1.7, marginTop: 12 }}>{paragraph}</p>)}</div>)}
+        <h2 style={{ fontSize: 'clamp(1.5rem, 3vw, 2rem)' }}>{contentHeading ?? categoryTagline}</h2>
+        {contentSections.map((section) => <div key={section.heading} style={{ marginTop: 32 }}>
+          <h3 style={{ fontSize: 'clamp(1.15rem, 2.4vw, 1.5rem)' }}>{section.heading}</h3>
+          {section.paragraphs.map((paragraph) => <p key={paragraph} className="content-prose" style={{ color: 'var(--muted)', lineHeight: 1.7, marginTop: 12 }} dangerouslySetInnerHTML={{ __html: localizeHtmlLinks(paragraph, locale) }} />)}
+          {section.subsections?.map((subsection) => <div key={subsection.heading} style={{ marginTop: 20 }}><h4>{subsection.heading}</h4>{subsection.paragraphs.map((paragraph) => <p key={paragraph} className="content-prose" style={{ color: 'var(--muted)', lineHeight: 1.7, marginTop: 12 }} dangerouslySetInnerHTML={{ __html: localizeHtmlLinks(paragraph, locale) }} />)}</div>)}
         </div>)}
       </section> : <section className="section" style={{ paddingTop: 0, maxWidth: 760, textAlign: 'center' }}><h2 style={{ fontSize: 'clamp(1.5rem, 3vw, 2rem)' }}>{categoryTagline}</h2><p style={{ color: 'var(--muted)', lineHeight: 1.7, marginTop: 12 }}>{tPage?.has('whyP') ? tPage.rich('whyP', { link: (chunks) => <Link href={`/${locale}/`}>{chunks}</Link> }) : categoryDescription}</p><Link href={`/${locale}/`} className="button secondary" style={{ marginTop: 24, display: 'inline-flex' }}>{tPage?.has('backToCategories') ? tPage('backToCategories') : tc('home')}</Link></section>}
       <CategoryFaqSection categoryKey={slug} heading={faqHeading} />
