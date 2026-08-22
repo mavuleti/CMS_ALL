@@ -1,0 +1,169 @@
+{
+  "scoring_model": {
+    "name": "heuristic_opportunity_score_v1",
+    "status": "tunable_not_calibrated",
+    "purpose": "Prioritize phrases within this collected locale dataset only.",
+    "not_valid_for": [
+      "estimating search volume",
+      "predicting sales",
+      "measuring keyword competition",
+      "comparing external market demand"
+    ]
+  },
+  "locale": "vi",
+  "data": {
+    "alias_source_key": "vi",
+    "native_phrases": [
+      {
+        "phrase": "tranh nối số cho bé",
+        "normalized": "tranh nối số cho bé",
+        "meaning": "Number-connecting pictures for toddlers/kids",
+        "note": "Most common for parents"
+      },
+      {
+        "phrase": "hình nối điểm in ra",
+        "normalized": "hình nối điểm in ra",
+        "meaning": "Printable dot-connecting pictures",
+        "note": ""
+      },
+      {
+        "phrase": "phiếu bài tập nối số từ 1 đến 10",
+        "normalized": "phiếu bài tập nối số từ 1 đến 10",
+        "meaning": "Number connection worksheet from 1 to 10",
+        "note": "Common among kindergarten teachers"
+      },
+      {
+        "phrase": "trò chơi nối điểm vẽ hình",
+        "normalized": "trò chơi nối điểm vẽ hình",
+        "meaning": "Connect the dots to draw a picture game",
+        "note": ""
+      },
+      {
+        "phrase": "tranh nối số tư duy",
+        "normalized": "tranh nối số tư duy",
+        "meaning": "Cognitive/critical-thinking number-connecting pictures",
+        "note": ""
+      },
+      {
+        "phrase": "file pdf nối số cho trẻ",
+        "normalized": "file pdf nối số cho trẻ",
+        "meaning": "PDF number-connecting file for children",
+        "note": ""
+      },
+      {
+        "phrase": "tranh nối số cho bé",
+        "normalized": "tranh nối số cho bé",
+        "meaning": "Number-connecting pictures for toddlers/kids",
+        "note": ""
+      },
+      {
+        "phrase": "phiếu bài tập nối số từ 1 đến 10",
+        "normalized": "phiếu bài tập nối số từ 1 đến 10",
+        "meaning": "Number connection worksheet from 1 to 10",
+        "note": ""
+      },
+      {
+        "phrase": "tranh nối số tư duy",
+        "normalized": "tranh nối số tư duy",
+        "meaning": "Cognitive number-connecting pictures",
+        "note": ""
+      },
+      {
+        "phrase": "file pdf nối số cho trẻ",
+        "normalized": "file pdf nối số cho trẻ",
+        "meaning": "PDF number-connecting file for children",
+        "note": ""
+      },
+      {
+        "phrase": "nối số",
+        "normalized": "nối số",
+        "meaning": "connect numbers",
+        "note": ""
+      },
+      {
+        "phrase": "nối điểm",
+        "normalized": "nối điểm",
+        "meaning": "connect dots",
+        "note": ""
+      },
+      {
+        "phrase": "hình vẽ",
+        "normalized": "hình vẽ",
+        "meaning": "drawings",
+        "note": ""
+      },
+      {
+        "phrase": "trò chơi",
+        "normalized": "trò chơi",
+        "meaning": "games",
+        "note": ""
+      },
+      {
+        "phrase": "in ra",
+        "normalized": "in ra",
+        "meaning": "print out",
+        "note": ""
+      },
+      {
+        "phrase": "phiếu bài tập",
+        "normalized": "phiếu bài tập",
+        "meaning": "worksheet",
+        "note": ""
+      },
+      {
+        "phrase": "cho bé",
+        "normalized": "cho bé",
+        "meaning": "for toddlers/kids",
+        "note": ""
+      },
+      {
+        "phrase": "Structure age-targeted Vietnamese titles",
+        "normalized": "structure age-targeted vietnamese titles",
+        "meaning": "",
+        "note": ""
+      },
+      {
+        "phrase": "Translate worksheet instructional text into natural Vietnamese",
+        "normalized": "translate worksheet instructional text into natural vietnamese",
+        "meaning": "",
+        "note": ""
+      }
+    ],
+    "romanized_phrases": [],
+    "english_phrases_used_by_locals": [
+      {
+        "phrase": "dot to dot printable pdf",
+        "normalized": "dot to dot printable pdf",
+        "meaning": "",
+        "note": ""
+      },
+      {
+        "phrase": "connect the dots worksheets free",
+        "normalized": "connect the dots worksheet free",
+        "meaning": "",
+        "note": ""
+      },
+      {
+        "phrase": "number connection puzzle for kids",
+        "normalized": "number connection puzzle for kids",
+        "meaning": "",
+        "note": ""
+      },
+      {
+        "phrase": "easy dot to dot preschool",
+        "normalized": "easy dot to dot preschool",
+        "meaning": "",
+        "note": ""
+      }
+    ],
+    "intent_modifiers": []
+  },
+  "opportunity_summary": {
+    "primary_term": "tranh nối số cho bé",
+    "print_modifier": "hình nối điểm in ra",
+    "free_modifier": "",
+    "children_modifier": "tranh nối số cho bé",
+    "adult_modifier": "",
+    "recommended_local_phrase": "tranh nối số cho bé"
+  }
+}

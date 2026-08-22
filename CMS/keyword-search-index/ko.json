@@ -1,0 +1,205 @@
+{
+  "scoring_model": {
+    "name": "heuristic_opportunity_score_v1",
+    "status": "tunable_not_calibrated",
+    "purpose": "Prioritize phrases within this collected locale dataset only.",
+    "not_valid_for": [
+      "estimating search volume",
+      "predicting sales",
+      "measuring keyword competition",
+      "comparing external market demand"
+    ]
+  },
+  "locale": "ko",
+  "data": {
+    "alias_source_key": "ko",
+    "native_phrases": [
+      {
+        "phrase": "점잇기 프린트",
+        "normalized": "점잇기 프린트",
+        "meaning": "Dot-to-dot printables",
+        "note": ""
+      },
+      {
+        "phrase": "점잇기 도안",
+        "normalized": "점잇기 도안",
+        "meaning": "Dot-to-dot templates / outlines",
+        "note": ""
+      },
+      {
+        "phrase": "숫자 잇기 프린트",
+        "normalized": "숫자 잇기 프린트",
+        "meaning": "Connect-the-numbers printable",
+        "note": "Used to teach counting order"
+      },
+      {
+        "phrase": "엄마표 점잇기 도안",
+        "normalized": "엄마표 점잇기 도안",
+        "meaning": "Mom-made DIY/home-schooling dot-to-dot templates",
+        "note": ""
+      },
+      {
+        "phrase": "유아 점선잇기 활동지",
+        "normalized": "유아 점선잇기 활동지",
+        "meaning": "Toddler dotted-line connecting activity sheet",
+        "note": ""
+      },
+      {
+        "phrase": "고급 점잇기 도안",
+        "normalized": "고급 점잇기 도안",
+        "meaning": "Advanced dot-to-dot designs / patterns",
+        "note": ""
+      },
+      {
+        "phrase": "어려운 점잇기 프린트",
+        "normalized": "어려운 점잇기 프린트",
+        "meaning": "Hard dot-to-dot printables",
+        "note": ""
+      },
+      {
+        "phrase": "안티스트레스 점잇기",
+        "normalized": "안티스트레스 점잇기",
+        "meaning": "Anti-stress dot-to-dot",
+        "note": ""
+      },
+      {
+        "phrase": "성인용 점잇기 책",
+        "normalized": "성인용 점잇기 책",
+        "meaning": "Dot-to-dot book for adults",
+        "note": ""
+      },
+      {
+        "phrase": "Dot to dot 도안",
+        "normalized": "dot to dot 도안",
+        "meaning": "Dot-to-dot template",
+        "note": ""
+      },
+      {
+        "phrase": "구글 dot to dot 프린트",
+        "normalized": "구글 dot to dot 프린트",
+        "meaning": "Google dot-to-dot print",
+        "note": ""
+      },
+      {
+        "phrase": "Naver",
+        "normalized": "naver",
+        "meaning": "",
+        "note": ""
+      },
+      {
+        "phrase": "Google",
+        "normalized": "google",
+        "meaning": "",
+        "note": ""
+      },
+      {
+        "phrase": "프린트",
+        "normalized": "프린트",
+        "meaning": "print / printable",
+        "note": ""
+      },
+      {
+        "phrase": "도안",
+        "normalized": "도안",
+        "meaning": "template / outline",
+        "note": ""
+      },
+      {
+        "phrase": "엄마표",
+        "normalized": "엄마표",
+        "meaning": "mom-made / home-schooling",
+        "note": ""
+      },
+      {
+        "phrase": "유아",
+        "normalized": "유아",
+        "meaning": "toddler / young child",
+        "note": ""
+      },
+      {
+        "phrase": "고급",
+        "normalized": "고급",
+        "meaning": "advanced",
+        "note": ""
+      },
+      {
+        "phrase": "어려운",
+        "normalized": "어려운",
+        "meaning": "hard/difficult",
+        "note": ""
+      },
+      {
+        "phrase": "성인용",
+        "normalized": "성인용",
+        "meaning": "for adults",
+        "note": ""
+      },
+      {
+        "phrase": "Develop popular Korean tags for a website or template product",
+        "normalized": "develop popular korean tags for a website or template product",
+        "meaning": "",
+        "note": ""
+      },
+      {
+        "phrase": "Draft click-optimized Korean titles for platforms such as Naver Blogs",
+        "normalized": "draft click-optimized korean titles for platforms such as naver blogs",
+        "meaning": "",
+        "note": ""
+      }
+    ],
+    "romanized_phrases": [],
+    "english_phrases_used_by_locals": [
+      {
+        "phrase": "Dot to Dot",
+        "normalized": "dot to dot",
+        "meaning": "",
+        "note": ""
+      },
+      {
+        "phrase": "Dot to dot printable",
+        "normalized": "dot to dot printable",
+        "meaning": "",
+        "note": ""
+      },
+      {
+        "phrase": "Dot-to-dot templates",
+        "normalized": "dot to dot template",
+        "meaning": "",
+        "note": ""
+      },
+      {
+        "phrase": "Advanced dot-to-dot designs",
+        "normalized": "advanced dot to dot designs",
+        "meaning": "",
+        "note": ""
+      },
+      {
+        "phrase": "Hard dot-to-dot printables",
+        "normalized": "hard dot to dot printable",
+        "meaning": "",
+        "note": ""
+      },
+      {
+        "phrase": "Anti-stress dot-to-dot",
+        "normalized": "anti-stress dot to dot",
+        "meaning": "",
+        "note": ""
+      },
+      {
+        "phrase": "Dot-to-dot book for adults",
+        "normalized": "dot to dot book for adults",
+        "meaning": "",
+        "note": ""
+      }
+    ],
+    "intent_modifiers": []
+  },
+  "opportunity_summary": {
+    "primary_term": "점잇기 프린트",
+    "print_modifier": "점잇기 프린트",
+    "free_modifier": "",
+    "children_modifier": "유아",
+    "adult_modifier": "성인용 점잇기 책",
+    "recommended_local_phrase": "점잇기 프린트"
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "scoring_model": {
+    "name": "heuristic_opportunity_score_v1",
+    "status": "tunable_not_calibrated",
+    "purpose": "Prioritize phrases within this collected locale dataset only.",
+    "not_valid_for": [
+      "estimating search volume",
+      "predicting sales",
+      "measuring keyword competition",
+      "comparing external market demand"
+    ]
+  },
+  "locale": "no",
+  "data": {
+    "alias_source_key": "no",
+    "native_phrases": [
+      {
+        "phrase": "Prikk til prikk til utskrift PDF",
+        "normalized": "prikk til prikk til utskrift pdf",
+        "meaning": "Dot to dot for printing PDF",
+        "note": ""
+      },
+      {
+        "phrase": "Forbind punktene oppgaver gratis",
+        "normalized": "forbind punktene oppgaver gratis",
+        "meaning": "Connect-the-points tasks free",
+        "note": ""
+      },
+      {
+        "phrase": "Prikk til prikk tegning barn",
+        "normalized": "prikk til prikk tegning barn",
+        "meaning": "Dot-to-dot drawing children",
+        "note": ""
+      },
+      {
+        "phrase": "Koble prikkene med tall",
+        "normalized": "koble prikkene med tall",
+        "meaning": "Connect the dots with numbers",
+        "note": ""
+      },
+      {
+        "phrase": "Prikk til prikk vanskelig for voksne",
+        "normalized": "prikk til prikk vanskelig for voksne",
+        "meaning": "Dot to dot difficult for adults",
+        "note": "For complex puzzles"
+      },
+      {
+        "phrase": "Forbind punktene fra 1 til 100",
+        "normalized": "forbind punktene fra 1 til 100",
+        "meaning": "Connect the points from 1 to 100",
+        "note": ""
+      },
+      {
+        "phrase": "Prikk til prikk med bokstaver",
+        "normalized": "prikk til prikk med bokstaver",
+        "meaning": "Dot to dot with letters",
+        "note": ""
+      },
+      {
+        "phrase": "Mysterietegning koble prikkene",
+        "normalized": "mysterietegning koble prikkene",
+        "meaning": "Mystery drawing connect the dots",
+        "note": ""
+      },
+      {
+        "phrase": "Provide Norwegian terms for mazes (labyrinter) or word searches (ordleting)",
+        "normalized": "provide norwegian terms for mazes (labyrinter) or word searches (ordleting)",
+        "meaning": "",
+        "note": ""
+      },
+      {
+        "phrase": "Translate instructions typically found on Norwegian worksheets",
+        "normalized": "translate instructions typically found on norwegian worksheet",
+        "meaning": "",
+        "note": ""
+      },
+      {
+        "phrase": "Recommend Norwegian educational or hobby blogs hosting these activities",
+        "normalized": "recommend norwegian educational or hobby blogs hosting these activities",
+        "meaning": "",
+        "note": ""
+      }
+    ],
+    "romanized_phrases": [],
+    "english_phrases_used_by_locals": [
+      {
+        "phrase": "Extreme dot to dot printables",
+        "normalized": "extreme dot to dot printable",
+        "meaning": "",
+        "note": ""
+      },
+      {
+        "phrase": "Hard connect the dots for adults PDF",
+        "normalized": "hard connect the dots for adults pdf",
+        "meaning": "",
+        "note": ""
+      },
+      {
+        "phrase": "Dot to dot worksheets free download",
+        "normalized": "dot to dot worksheet free download",
+        "meaning": "",
+        "note": ""
+      }
+    ],
+    "intent_modifiers": [
+      {
+        "phrase": "til utskrift",
+        "normalized": "til utskrift",
+        "meaning": "for printing",
+        "note": ""
+      },
+      {
+        "phrase": "skriv ut",
+        "normalized": "skriv ut",
+        "meaning": "print",
+        "note": ""
+      },
+      {
+        "phrase": "gratis",
+        "normalized": "gratis",
+        "meaning": "free",
+        "note": ""
+      }
+    ]
+  },
+  "opportunity_summary": {
+    "primary_term": "Prikk til prikk til utskrift PDF",
+    "print_modifier": "Prikk til prikk til utskrift PDF",
+    "free_modifier": "Forbind punktene oppgaver gratis",
+    "children_modifier": "Prikk til prikk tegning barn",
+    "adult_modifier": "Prikk til prikk vanskelig for voksne",
+    "recommended_local_phrase": "Prikk til prikk til utskrift PDF"
+  }
+}
