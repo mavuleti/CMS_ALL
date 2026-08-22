@@ -566,12 +566,12 @@ export async function FaqSection() {
 // Category-page FAQ: category-specific questions from the locale's faqs.json
 // pack when available, else the four most relevant site-wide questions
 // (free?, ages, PDF format, classroom use) from templated translations.
-export async function CategoryFaqSection({ categoryKey }: { categoryKey?: string } = {}) {
+export async function CategoryFaqSection({ categoryKey, heading }: { categoryKey?: string; heading?: string } = {}) {
   const t = await getTranslations('faq');
   const locale = await getLocale();
   const rich = categoryKey ? categoryFaqs(locale, categoryKey) : null;
   const faqs = rich ?? [1, 2, 3, 5].map((i) => ({ q: t(`q${i}`), a: t(`a${i}`) }));
-  return <FaqBlock faqs={faqs} eyebrow={t('eyebrow')} heading={t('heading')} />;
+  return <FaqBlock faqs={faqs} eyebrow={t('eyebrow')} heading={heading ?? t('heading')} />;
 }
 
 // Puzzle-detail FAQ: unique per-puzzle questions (dot count, difficulty tier,
